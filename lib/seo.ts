@@ -1,59 +1,52 @@
 import type { Metadata } from "next";
+import { categories, type CategorySlug } from "@/lib/categories";
 
 /**
  * Site-wide configuration. Single source of truth for SEO defaults,
  * canonical host, social handles, and brand strings.
  *
- * When connecting to a CMS, only `url` and provider-specific fields
- * should change here.
+ * `url` is the only field expected to change between deployments.
+ * Override via `NEXT_PUBLIC_SITE_URL`.
  */
 export const siteConfig = {
-  name: "Science Eco Platform",
-  shortName: "ScienceEco",
+  name: "EcoScienceHub",
+  shortName: "EcoScienceHub",
   description:
-    "Peer-reviewed insight on ecology, biology, and applied physics — for researchers, educators, and curious minds.",
+    "Peer-informed writing on ecology, biology, and applied physics — for researchers, educators, and curious minds.",
   url:
-    process.env.NEXT_PUBLIC_SITE_URL ??
-    "https://science-eco-platform.org",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://ecosciencehub.com",
   locale: "en_US",
-  twitterHandle: "@scienceeco",
+  twitterHandle: "@ecosciencehub",
   defaultOgImage: "/og/default.png",
 } as const;
 
-export type Category = "ecology" | "biology" | "physics";
-
+/**
+ * Backwards-compatible category metadata view.
+ *
+ * The canonical taxonomy lives in `lib/categories.ts`. This object
+ * is a thin projection that lets components read `label` /
+ * `description` / `accent` for a category without importing the
+ * full definition. New code should prefer `getCategory()` directly.
+ */
 export const categoryMeta: Record<
-  Category,
-  { label: string; description: string; accent: string }
-> = {
-  ecology: {
-    label: "Ecology",
-    description:
-      "Ecosystems, biodiversity, climate, and the interconnected systems that sustain life.",
-    accent: "primary",
-  },
-  biology: {
-    label: "Biology",
-    description:
-      "Cellular, evolutionary, and organismal biology — from molecules to populations.",
-    accent: "primary",
-  },
-  physics: {
-    label: "Applied Physics",
-    description:
-      "Energy, materials, and physical systems applied to real-world scientific challenges.",
-    accent: "accent",
-  },
-};
+  CategorySlug,
+  { label: string; description: string; accent: "primary" | "accent" }
+> = Object.fromEntries(
+  categories.map((c) => [
+    c.slug,
+    { label: c.label, description: c.description, accent: c.accent },
+  ]),
+) as Record<CategorySlug, { label: string; description: string; accent: "primary" | "accent" }>;
+
+export type Category = CategorySlug;
 
 type BuildMetadataOptions = {
   title: string;
   description: string;
-  /** Path relative to the site root, e.g. "/article/foo" */
+  /** Path relative to the site root, e.g. "/ecology/climate-change/foo". */
   path: string;
-  /** ISO date string for last update — required for re-indexing signals. */
+  /** ISO date — required for content pages so search engines can re-index. */
   updatedDate?: string;
-  /** ISO date string for first publication. */
   publishedDate?: string;
   ogImage?: string;
   type?: "website" | "article";
@@ -65,13 +58,9 @@ type BuildMetadataOptions = {
 /**
  * Builds a complete Next.js Metadata object for a page.
  *
- * Centralizing this ensures every page emits:
- *   - canonical URL
- *   - OpenGraph + Twitter cards
- *   - article:published_time / article:modified_time when applicable
- *
- * `updatedDate` is intentionally first-class: search engines and answer
- * engines (Google, Bing, Perplexity) prioritize freshness signals.
+ * Centralizing this ensures every page emits canonical URL, OG tags,
+ * Twitter card, and (when applicable) article modified-time. Pages
+ * never construct Metadata objects by hand.
  */
 export function buildMetadata(opts: BuildMetadataOptions): Metadata {
   const {
@@ -129,8 +118,7 @@ export function buildMetadata(opts: BuildMetadataOptions): Metadata {
 }
 
 /**
- * Generates JSON-LD structured data for an Article. Inject as a
- * <script type="application/ld+json"> in the page body.
+ * JSON-LD for an Article. Inject as a <script type="application/ld+json">.
  */
 export function articleJsonLd(input: {
   title: string;
@@ -163,8 +151,7 @@ export function articleJsonLd(input: {
 }
 
 /**
- * Generates JSON-LD for a list of FAQ entries. Useful for surfacing
- * rich-result snippets in Google search.
+ * JSON-LD for a FAQ block. Surfaced as rich snippets in Google search.
  */
 export function faqJsonLd(items: Array<{ question: string; answer: string }>) {
   return {
@@ -174,6 +161,25 @@ export function faqJsonLd(items: Array<{ question: string; answer: string }>) {
       "@type": "Question",
       name: i.question,
       acceptedAnswer: { "@type": "Answer", text: i.answer },
+    })),
+  };
+}
+
+/**
+ * JSON-LD for a breadcrumb trail. Improves SERP appearance for
+ * deeply-nested article URLs (Topic → Subtopic → Article).
+ */
+export function breadcrumbJsonLd(
+  items: Array<{ name: string; path: string }>,
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: item.name,
+      item: new URL(item.path, siteConfig.url).toString(),
     })),
   };
 }

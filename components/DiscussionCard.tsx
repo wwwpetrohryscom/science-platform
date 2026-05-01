@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { categoryMeta } from "@/lib/seo";
-import { formatDate, type Discussion } from "@/lib/content";
+import { formatDate } from "@/lib/content";
+import type { Discussion } from "@/lib/discussions";
 
 type DiscussionCardProps = {
   discussion: Discussion;
@@ -30,7 +31,7 @@ export function DiscussionCard({ discussion }: DiscussionCardProps) {
 
       <h3 className="mt-3 font-serif text-xl font-semibold leading-snug tracking-tight text-ink">
         <Link
-          href={`/discussions#${discussion.slug}`}
+          href={`/discussions/${discussion.slug}`}
           className="hover:text-primary-700"
         >
           {discussion.title}

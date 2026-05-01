@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
-import { CategoryPage } from "@/components/CategoryPage";
-import { buildMetadata, categoryMeta } from "@/lib/seo";
+import { CategoryHub } from "@/components/CategoryHub";
+import { buildMetadata } from "@/lib/seo";
+import { getCategory } from "@/lib/categories";
+
+const def = getCategory("physics");
 
 export const metadata: Metadata = buildMetadata({
-  title: `${categoryMeta.physics.label} — energy, materials, and physical systems`,
-  description: categoryMeta.physics.description,
+  title: `${def.label} — energy, materials, and physical systems`,
+  description: def.description,
   path: "/physics",
 });
 
-export default function PhysicsPage() {
-  return <CategoryPage category="physics" />;
+export default function PhysicsHubPage() {
+  return <CategoryHub category="physics" />;
 }

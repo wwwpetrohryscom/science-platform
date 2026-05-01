@@ -4,11 +4,14 @@ import type { Article } from "@/lib/content";
 type RelatedArticlesProps = {
   articles: Article[];
   heading?: string;
+  /** Whether to surface subtopic labels — useful when articles span multiple subtopics. */
+  showSubtopic?: boolean;
 };
 
 export function RelatedArticles({
   articles,
   heading = "Related reading",
+  showSubtopic = true,
 }: RelatedArticlesProps) {
   if (articles.length === 0) return null;
 
@@ -25,7 +28,11 @@ export function RelatedArticles({
       </h2>
       <div className="mt-6 grid gap-5 md:grid-cols-3">
         {articles.map((article) => (
-          <ArticleCard key={article.slug} article={article} />
+          <ArticleCard
+            key={`${article.category}/${article.subtopic}/${article.slug}`}
+            article={article}
+            showSubtopic={showSubtopic}
+          />
         ))}
       </div>
     </section>

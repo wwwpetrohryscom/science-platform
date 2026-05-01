@@ -24,15 +24,10 @@ export function InsightCard({ insight, variant = "default" }: InsightCardProps) 
 
       <h3
         className={`mt-3 font-serif font-semibold leading-tight tracking-tight text-ink ${
-          isFeature
-            ? "text-2xl md:text-3xl"
-            : "text-xl"
+          isFeature ? "text-2xl md:text-3xl" : "text-xl"
         }`}
       >
-        <Link
-          href={`/insight/${insight.slug}`}
-          className="hover:text-primary-700"
-        >
+        <Link href={insight.url} className="hover:text-primary-700">
           {insight.title}
         </Link>
       </h3>

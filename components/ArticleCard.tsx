@@ -1,23 +1,40 @@
 import Link from "next/link";
 import { categoryMeta } from "@/lib/seo";
 import { formatDate, type Article } from "@/lib/content";
+import { getCategory } from "@/lib/categories";
 
 type ArticleCardProps = {
   article: Article;
-  /** "default" for grid use, "compact" for sidebars / "more from category" lists. */
+  /** "default" for grid use, "compact" for sidebars / "more in subtopic" lists. */
   variant?: "default" | "compact";
+  /**
+   * When true, append the subtopic label as a secondary eyebrow.
+   * Useful on category pages and the homepage where the subtopic
+   * adds navigational signal; redundant on subtopic pages.
+   */
+  showSubtopic?: boolean;
 };
 
-export function ArticleCard({ article, variant = "default" }: ArticleCardProps) {
+export function ArticleCard({
+  article,
+  variant = "default",
+  showSubtopic = false,
+}: ArticleCardProps) {
   const cat = categoryMeta[article.category];
+  const subtopic = getCategory(article.category).subtopics.find(
+    (s) => s.slug === article.subtopic,
+  );
+
+  const eyebrow =
+    showSubtopic && subtopic ? `${cat.label} · ${subtopic.label}` : cat.label;
 
   if (variant === "compact") {
     return (
       <Link
-        href={`/article/${article.slug}`}
+        href={article.url}
         className="group block border-b border-ink-line py-4 last:border-b-0"
       >
-        <p className="eyebrow">{cat.label}</p>
+        <p className="eyebrow">{eyebrow}</p>
         <h3 className="mt-1.5 font-serif text-base font-semibold leading-snug text-ink group-hover:text-primary-700">
           {article.title}
         </h3>
@@ -30,12 +47,17 @@ export function ArticleCard({ article, variant = "default" }: ArticleCardProps) 
 
   return (
     <article className="card flex h-full flex-col p-6">
-      <p className="eyebrow">{cat.label}</p>
+      <div className="flex items-center gap-2">
+        <span className="eyebrow">{eyebrow}</span>
+        {article.type === "pillar" && (
+          <span className="rounded-sm bg-primary-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-primary-800">
+            Pillar
+          </span>
+        )}
+      </div>
+
       <h3 className="mt-3 font-serif text-xl font-semibold leading-snug tracking-tight text-ink">
-        <Link
-          href={`/article/${article.slug}`}
-          className="hover:text-primary-700"
-        >
+        <Link href={article.url} className="hover:text-primary-700">
           {article.title}
         </Link>
       </h3>

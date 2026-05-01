@@ -1,32 +1,24 @@
-import type { ArticleSection } from "@/lib/content";
-
 type ArticleBodyProps = {
-  sections: ArticleSection[];
+  /**
+   * Pre-rendered HTML produced by `lib/content.ts` from the article's
+   * markdown body. Content is authored in-house and trusted, so we
+   * inject directly. If the source ever opens to untrusted input,
+   * sanitize at the renderer in `lib/content.ts` (not here).
+   */
+  html: string;
 };
 
 /**
- * Renders structured article sections with stable in-page anchors.
- *
- * Each paragraph in a section's `body` is split on blank lines —
- * which keeps the content data-shape simple (a string) while still
- * producing semantic <p> elements.
- *
- * When migrating to a CMS that returns rich text (TipTap, Lexical,
- * Portable Text), replace this renderer with the matching one.
+ * Renders article HTML inside the long-form prose container. The
+ * `prose-article` class (defined in `globals.css`) applies the
+ * editorial typography — heading scale, blockquote treatment, link
+ * underlines, generous leading.
  */
-export function ArticleBody({ sections }: ArticleBodyProps) {
+export function ArticleBody({ html }: ArticleBodyProps) {
   return (
-    <div className="prose-article">
-      {sections.map((section) => (
-        <section key={section.id} aria-labelledby={section.id}>
-          <h2 id={section.id}>{section.heading}</h2>
-          {section.body
-            .split(/\n\n+/)
-            .map((para, idx) => (
-              <p key={idx}>{para}</p>
-            ))}
-        </section>
-      ))}
-    </div>
+    <div
+      className="prose-article"
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
   );
 }

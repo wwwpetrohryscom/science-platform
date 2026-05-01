@@ -5,28 +5,32 @@ import type { Metadata } from "next";
 import { Layout } from "@/components/Layout";
 import { ArticleBody } from "@/components/ArticleBody";
 import { AuthorBlock } from "@/components/AuthorBlock";
+import { TableOfContents } from "@/components/TableOfContents";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
 
 import {
   formatDate,
-  getInsightBySlug,
-  getInsights,
+  getAllInsights,
+  getInsight,
 } from "@/lib/content";
-import { articleJsonLd, buildMetadata, categoryMeta } from "@/lib/seo";
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  buildMetadata,
+  categoryMeta,
+} from "@/lib/seo";
 
-type InsightPageProps = {
-  params: { slug: string };
-};
+type Props = { params: { slug: string } };
 
 export async function generateStaticParams() {
-  const all = await getInsights();
+  const all = await getAllInsights();
   return all.map((i) => ({ slug: i.slug }));
 }
 
 export async function generateMetadata({
   params,
-}: InsightPageProps): Promise<Metadata> {
-  const insight = await getInsightBySlug(params.slug);
+}: Props): Promise<Metadata> {
+  const insight = await getInsight(params.slug);
   if (!insight) {
     return buildMetadata({
       title: "Insight not found",
@@ -35,11 +39,10 @@ export async function generateMetadata({
       noIndex: true,
     });
   }
-
   return buildMetadata({
     title: insight.title,
     description: insight.excerpt,
-    path: `/insight/${insight.slug}`,
+    path: insight.url,
     type: "article",
     publishedDate: insight.publishedDate,
     updatedDate: insight.updatedDate,
@@ -48,30 +51,38 @@ export async function generateMetadata({
   });
 }
 
-export default async function InsightPage({ params }: InsightPageProps) {
-  const insight = await getInsightBySlug(params.slug);
+export default async function InsightPage({ params }: Props) {
+  const insight = await getInsight(params.slug);
   if (!insight) notFound();
 
   const cat = categoryMeta[insight.category];
 
-  const ld = articleJsonLd({
+  const articleLd = articleJsonLd({
     title: insight.title,
     description: insight.excerpt,
-    path: `/insight/${insight.slug}`,
+    path: insight.url,
     publishedDate: insight.publishedDate,
     updatedDate: insight.updatedDate,
     authorName: insight.author.name,
   });
+  const breadcrumbLd = breadcrumbJsonLd([
+    { name: "Home", path: "/" },
+    { name: "Insights", path: "/insights" },
+    { name: insight.title, path: insight.url },
+  ]);
 
   return (
     <Layout>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <article className="container-page py-12 md:py-16">
-        {/* Breadcrumb */}
         <nav aria-label="Breadcrumb" className="text-xs text-ink-subtle">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
@@ -96,7 +107,6 @@ export default async function InsightPage({ params }: InsightPageProps) {
             {insight.title}
           </h1>
 
-          {/* Argument: the load-bearing claim, surfaced above the fold. */}
           <p className="mt-6 max-w-3xl border-l-4 border-accent-400 pl-6 font-serif text-xl italic leading-relaxed text-ink md:text-2xl">
             {insight.argument}
           </p>
@@ -122,18 +132,26 @@ export default async function InsightPage({ params }: InsightPageProps) {
           </div>
         </header>
 
-        <div className="mt-10 max-w-reader">
-          <p className="text-lg leading-relaxed text-ink-muted">
-            {insight.excerpt}
-          </p>
+        <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_220px]">
+          <div className="max-w-reader">
+            <p className="text-lg leading-relaxed text-ink-muted">
+              {insight.excerpt}
+            </p>
 
-          <div className="mt-8">
-            <ArticleBody sections={insight.body} />
+            <div className="mt-8">
+              <ArticleBody html={insight.html} />
+            </div>
+
+            <NewsletterBlock variant="inline" />
+
+            <AuthorBlock author={insight.author} />
           </div>
 
-          <NewsletterBlock variant="inline" />
-
-          <AuthorBlock author={insight.author} />
+          <aside className="hidden lg:block">
+            <div className="sticky top-24">
+              <TableOfContents items={insight.toc} />
+            </div>
+          </aside>
         </div>
       </article>
     </Layout>

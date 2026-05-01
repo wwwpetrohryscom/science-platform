@@ -11,6 +11,7 @@ const columns: Array<{
       { href: "/ecology", label: "Ecology" },
       { href: "/biology", label: "Biology" },
       { href: "/physics", label: "Applied Physics" },
+      { href: "/sitemap.xml", label: "Sitemap" },
     ],
   },
   {

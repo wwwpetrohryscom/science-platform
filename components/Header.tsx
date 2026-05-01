@@ -1,9 +1,7 @@
 import Link from "next/link";
+import { categories } from "@/lib/categories";
 
-const navLinks = [
-  { href: "/ecology", label: "Ecology" },
-  { href: "/biology", label: "Biology" },
-  { href: "/physics", label: "Applied Physics" },
+const editorialLinks = [
   { href: "/insights", label: "Insights" },
   { href: "/discussions", label: "Discussions" },
 ];
@@ -14,18 +12,28 @@ export function Header() {
       <div className="container-page flex h-16 items-center justify-between gap-6">
         <Link
           href="/"
-          aria-label="Science Eco Platform — home"
+          aria-label="EcoScienceHub — home"
           className="flex items-center gap-2 font-serif text-lg font-semibold tracking-tight text-ink hover:text-primary-700"
         >
           <Logo />
-          <span>Science Eco</span>
+          <span>EcoScienceHub</span>
         </Link>
 
         <nav
           aria-label="Primary"
           className="hidden items-center gap-7 text-sm font-medium text-ink-muted md:flex"
         >
-          {navLinks.map((link) => (
+          {categories.map((cat) => (
+            <Link
+              key={cat.slug}
+              href={`/${cat.slug}`}
+              className="hover:text-primary-700"
+            >
+              {cat.label}
+            </Link>
+          ))}
+          <span aria-hidden className="h-4 w-px bg-ink-line" />
+          {editorialLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -43,12 +51,21 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile nav: simple, no JS — relies on CSS overflow scroll */}
+      {/* Mobile nav */}
       <nav
         aria-label="Primary mobile"
         className="container-page flex items-center gap-5 overflow-x-auto pb-3 text-sm text-ink-muted md:hidden"
       >
-        {navLinks.map((link) => (
+        {categories.map((cat) => (
+          <Link
+            key={cat.slug}
+            href={`/${cat.slug}`}
+            className="whitespace-nowrap hover:text-primary-700"
+          >
+            {cat.label}
+          </Link>
+        ))}
+        {editorialLinks.map((link) => (
           <Link
             key={link.href}
             href={link.href}

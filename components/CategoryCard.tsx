@@ -1,25 +1,31 @@
 import Link from "next/link";
-import { categoryMeta, type Category } from "@/lib/seo";
+import { getCategory, type CategorySlug } from "@/lib/categories";
 
 type CategoryCardProps = {
-  category: Category;
+  category: CategorySlug;
   articleCount?: number;
+  /** Optionally surface the subtopic list as bottom-of-card chips. */
+  showSubtopics?: boolean;
 };
 
-const accentClasses: Record<Category, string> = {
+const accentClasses: Record<CategorySlug, string> = {
   ecology: "from-primary-50 to-white border-primary-100",
   biology: "from-primary-50 to-white border-primary-100",
   physics: "from-accent-50 to-white border-accent-100",
 };
 
-const iconColor: Record<Category, string> = {
+const iconColor: Record<CategorySlug, string> = {
   ecology: "text-primary-700 bg-primary-100",
   biology: "text-primary-700 bg-primary-100",
   physics: "text-accent-700 bg-accent-100",
 };
 
-export function CategoryCard({ category, articleCount }: CategoryCardProps) {
-  const meta = categoryMeta[category];
+export function CategoryCard({
+  category,
+  articleCount,
+  showSubtopics = true,
+}: CategoryCardProps) {
+  const def = getCategory(category);
 
   return (
     <Link
@@ -34,15 +40,28 @@ export function CategoryCard({ category, articleCount }: CategoryCardProps) {
       </span>
 
       <h3 className="mt-5 font-serif text-2xl font-semibold tracking-tight text-ink">
-        {meta.label}
+        {def.label}
       </h3>
       <p className="mt-2 max-w-sm text-sm leading-relaxed text-ink-muted">
-        {meta.description}
+        {def.tagline}
       </p>
 
-      <div className="mt-6 flex items-center justify-between text-sm">
+      {showSubtopics && (
+        <ul className="mt-5 flex flex-wrap gap-1.5">
+          {def.subtopics.map((s) => (
+            <li
+              key={s.slug}
+              className="rounded-sm bg-white/70 px-2 py-0.5 text-[11px] font-medium uppercase tracking-wide text-ink-muted"
+            >
+              {s.label}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <div className="mt-auto flex items-center justify-between pt-6 text-sm">
         <span className="font-medium text-primary-700 group-hover:text-primary-800">
-          Browse {meta.label.toLowerCase()} →
+          Browse {def.label.toLowerCase()} →
         </span>
         {typeof articleCount === "number" && (
           <span className="text-xs text-ink-subtle">
@@ -54,7 +73,7 @@ export function CategoryCard({ category, articleCount }: CategoryCardProps) {
   );
 }
 
-function CategoryIcon({ category }: { category: Category }) {
+function CategoryIcon({ category }: { category: CategorySlug }) {
   const common = {
     viewBox: "0 0 24 24",
     fill: "none",
@@ -82,7 +101,6 @@ function CategoryIcon({ category }: { category: Category }) {
       </svg>
     );
   }
-  // physics
   return (
     <svg {...common}>
       <ellipse cx="12" cy="12" rx="10" ry="4" />

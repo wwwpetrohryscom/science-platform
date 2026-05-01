@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
-import { CategoryPage } from "@/components/CategoryPage";
-import { buildMetadata, categoryMeta } from "@/lib/seo";
+import { CategoryHub } from "@/components/CategoryHub";
+import { buildMetadata } from "@/lib/seo";
+import { getCategory } from "@/lib/categories";
+
+const def = getCategory("ecology");
 
 export const metadata: Metadata = buildMetadata({
-  title: `${categoryMeta.ecology.label} — articles, analyses, and field notes`,
-  description: categoryMeta.ecology.description,
+  title: `${def.label} — articles, analyses, and field notes`,
+  description: def.description,
   path: "/ecology",
 });
 
-export default function EcologyPage() {
-  return <CategoryPage category="ecology" />;
+export default function EcologyHubPage() {
+  return <CategoryHub category="ecology" />;
 }

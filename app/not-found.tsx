@@ -11,7 +11,8 @@ export default function NotFound() {
         </h1>
         <p className="mt-4 max-w-xl text-lg text-ink-muted">
           The link may be outdated, or the page may have been moved during a
-          revision. Try one of the topic pages below.
+          revision (the URL structure recently moved to Topic / Subtopic /
+          Article). Try one of the topic pages below.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href="/" className="btn-primary">

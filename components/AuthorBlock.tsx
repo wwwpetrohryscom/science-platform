@@ -1,4 +1,4 @@
-import type { Author } from "@/lib/content";
+import type { Author } from "@/lib/authors";
 
 type AuthorBlockProps = {
   author: Author;

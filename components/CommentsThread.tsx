@@ -1,4 +1,5 @@
-import { formatDate, type DiscussionComment } from "@/lib/content";
+import { formatDate } from "@/lib/content";
+import type { DiscussionComment } from "@/lib/discussions";
 
 type CommentsThreadProps = {
   comments: DiscussionComment[];
@@ -13,9 +14,9 @@ type CommentsThreadProps = {
  * exists so the visual contract is real. When the moderation backend
  * is wired up, the form should:
  *   - require authentication
- *   - require a verified expert flag for non-moderated posts
+ *   - require a verified-expert flag for non-moderated posts
  *   - hold submissions in a moderation queue
- *   - emit JSON-LD Comment items so threads remain indexable
+ *   - emit `Comment` JSON-LD so threads remain indexable
  */
 export function CommentsThread({
   comments,

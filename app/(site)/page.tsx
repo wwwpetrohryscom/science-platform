@@ -9,12 +9,13 @@ import { DiscussionCard } from "@/components/DiscussionCard";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
 
 import {
-  getArticles,
-  getDiscussions,
-  getFeaturedInsights,
+  getAllArticles,
   getArticlesByCategory,
+  getFeaturedInsights,
 } from "@/lib/content";
+import { getDiscussions } from "@/lib/discussions";
 import { buildMetadata } from "@/lib/seo";
+import { listCategorySlugs } from "@/lib/categories";
 
 export const metadata: Metadata = buildMetadata({
   title: "Peer-informed writing on ecology, biology, and applied physics",
@@ -24,16 +25,22 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default async function HomePage() {
-  const [allArticles, insights, discussions, ecologyCount, biologyCount, physicsCount] =
+  const [allArticles, insights, discussions, categoryCounts] =
     await Promise.all([
-      getArticles(),
+      getAllArticles(),
       getFeaturedInsights(2),
       getDiscussions(),
-      getArticlesByCategory("ecology").then((a) => a.length),
-      getArticlesByCategory("biology").then((a) => a.length),
-      getArticlesByCategory("physics").then((a) => a.length),
+      Promise.all(
+        listCategorySlugs().map(async (slug) => ({
+          slug,
+          count: (await getArticlesByCategory(slug)).length,
+        })),
+      ),
     ]);
 
+  const countMap = Object.fromEntries(
+    categoryCounts.map((c) => [c.slug, c.count]),
+  );
   const latest = allArticles.slice(0, 6);
   const previewDiscussions = discussions.slice(0, 2);
 
@@ -43,7 +50,7 @@ export default async function HomePage() {
 
       <Mission />
 
-      {/* Category blocks */}
+      {/* Categories */}
       <section
         aria-labelledby="topics-heading"
         className="container-page mt-20"
@@ -54,9 +61,13 @@ export default async function HomePage() {
           id="topics-heading"
         />
         <div className="mt-8 grid gap-5 md:grid-cols-3">
-          <CategoryCard category="ecology" articleCount={ecologyCount} />
-          <CategoryCard category="biology" articleCount={biologyCount} />
-          <CategoryCard category="physics" articleCount={physicsCount} />
+          {listCategorySlugs().map((slug) => (
+            <CategoryCard
+              key={slug}
+              category={slug}
+              articleCount={countMap[slug]}
+            />
+          ))}
         </div>
       </section>
 
@@ -90,12 +101,16 @@ export default async function HomePage() {
         />
         <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {latest.map((article) => (
-            <ArticleCard key={article.slug} article={article} />
+            <ArticleCard
+              key={`${article.category}/${article.subtopic}/${article.slug}`}
+              article={article}
+              showSubtopic
+            />
           ))}
         </div>
       </section>
 
-      {/* Discussions preview */}
+      {/* Discussions */}
       <section
         aria-labelledby="discussions-heading"
         className="container-page mt-24"
@@ -121,7 +136,7 @@ export default async function HomePage() {
 }
 
 /* ----------------------------------------------------------------
-   Local section pieces — kept inline since they aren't reused.
+   Local sections — kept inline since they aren't reused.
 ---------------------------------------------------------------- */
 
 function Hero() {
@@ -133,7 +148,7 @@ function Hero() {
           Slow, careful writing about the systems that sustain us.
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-muted">
-          Science Eco is a platform for ecology, biology, and applied physics —
+          EcoScienceHub is a platform for ecology, biology, and applied physics —
           written by working scientists, edited for clarity, and cited where it
           matters. Built to be read slowly.
         </p>
@@ -171,14 +186,15 @@ function Mission() {
           <p>
             Most of what passes for science writing today is optimized for the
             attention economy. Headlines outrun evidence; nuance is the first
-            thing cut. We started Science Eco because the alternative — careful,
-            cited, accountable writing — is harder to find than it should be.
+            thing cut. We started EcoScienceHub because the alternative —
+            careful, cited, accountable writing — is harder to find than it
+            should be.
           </p>
           <p className="mt-4">
-            Every article on this platform is written by a working scientist or
-            an experienced science journalist, reviewed by a domain expert, and
-            kept current with explicit revision dates. When we update something,
-            we say so.
+            Every article on this platform is organized into a topic hierarchy
+            (Topic → Subtopic → Article), written by a working scientist or
+            experienced science journalist, and kept current with explicit
+            revision dates. When we update something, we say so.
           </p>
         </div>
       </div>
