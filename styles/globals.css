@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----------------------------------------------------------------
+   Base typography & color tokens
+   Tuned for long-form scientific reading: high contrast, calm hue,
+   generous line-height, restrained scale.
+---------------------------------------------------------------- */
+
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+
+  --color-bg: #ffffff;
+  --color-bg-muted: #f7f9f7;
+  --color-ink: #1a2421;
+  --color-ink-muted: #475a55;
+  --color-line: #e4eae6;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-ink font-sans;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  ::selection {
+    @apply bg-primary-100 text-primary-900;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif text-ink;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  :focus-visible {
+    @apply outline-none shadow-focus rounded-sm;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply container max-w-[1200px];
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.14em] text-primary-700;
+  }
+
+  .link-quiet {
+    @apply text-ink-muted hover:text-primary-700;
+  }
+
+  .link-strong {
+    @apply text-primary-700 hover:text-primary-800 underline-offset-4 hover:underline;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2.5 text-sm font-medium transition-all;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 active:bg-primary-800;
+  }
+
+  .btn-ghost {
+    @apply btn text-ink hover:bg-ink-surface;
+  }
+
+  .btn-outline {
+    @apply btn border border-ink-line text-ink hover:border-primary-600 hover:text-primary-700;
+  }
+
+  .card {
+    @apply rounded-lg border border-ink-line bg-white shadow-soft transition-shadow hover:shadow-card;
+  }
+
+  .divider {
+    @apply h-px bg-ink-line;
+  }
+
+  /* Long-form article body */
+  .prose-article {
+    @apply text-[1.0625rem] leading-[1.75] text-ink;
+  }
+  .prose-article h2 {
+    @apply mt-12 mb-4 text-2xl md:text-3xl font-serif font-semibold tracking-tight;
+    scroll-margin-top: 6rem;
+  }
+  .prose-article h3 {
+    @apply mt-10 mb-3 text-xl md:text-2xl font-serif font-semibold tracking-tight;
+    scroll-margin-top: 6rem;
+  }
+  .prose-article p {
+    @apply my-5;
+  }
+  .prose-article ul, .prose-article ol {
+    @apply my-5 pl-6 space-y-2;
+  }
+  .prose-article ul { @apply list-disc; }
+  .prose-article ol { @apply list-decimal; }
+  .prose-article a {
+    @apply text-primary-700 underline underline-offset-4 decoration-primary-200 hover:decoration-primary-600;
+  }
+  .prose-article blockquote {
+    @apply my-8 border-l-4 border-primary-300 pl-5 italic text-ink-muted;
+  }
+  .prose-article code {
+    @apply rounded bg-ink-surface px-1.5 py-0.5 font-mono text-[0.9em] text-primary-800;
+  }
+  .prose-article figure {
+    @apply my-8;
+  }
+  .prose-article figcaption {
+    @apply mt-2 text-sm text-ink-muted;
+  }
+}
