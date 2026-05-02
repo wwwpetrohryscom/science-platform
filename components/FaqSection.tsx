@@ -1,6 +1,8 @@
 import type { FaqItem } from "@/lib/content";
+import { getMessages, translator, type Locale } from "@/lib/i18n";
 
 type FaqSectionProps = {
+  locale: Locale;
   items: FaqItem[];
 };
 
@@ -9,8 +11,9 @@ type FaqSectionProps = {
  * Pair with FAQPage JSON-LD (see `lib/seo.ts`) so search engines
  * can lift these into rich snippets.
  */
-export function FaqSection({ items }: FaqSectionProps) {
+export function FaqSection({ locale, items }: FaqSectionProps) {
   if (items.length === 0) return null;
+  const t = translator(getMessages(locale));
 
   return (
     <section
@@ -21,7 +24,7 @@ export function FaqSection({ items }: FaqSectionProps) {
         id="faq-heading"
         className="font-serif text-2xl font-semibold tracking-tight md:text-3xl"
       >
-        Frequently asked
+        {t("article.faq_heading")}
       </h2>
 
       <ul className="mt-6 divide-y divide-ink-line">

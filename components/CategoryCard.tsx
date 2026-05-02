@@ -1,7 +1,15 @@
 import Link from "next/link";
-import { getCategory, type CategorySlug } from "@/lib/categories";
+
+import { type CategorySlug } from "@/lib/categories";
+import {
+  getMessages,
+  localizedPath,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
 
 type CategoryCardProps = {
+  locale: Locale;
   category: CategorySlug;
   articleCount?: number;
   /** Optionally surface the subtopic list as bottom-of-card chips. */
@@ -21,15 +29,18 @@ const iconColor: Record<CategorySlug, string> = {
 };
 
 export function CategoryCard({
+  locale,
   category,
   articleCount,
   showSubtopics = true,
 }: CategoryCardProps) {
-  const def = getCategory(category);
+  const t = translator(getMessages(locale));
+  const label = t(`categories.${category}.label`);
+  const tagline = t(`categories.${category}.tagline`);
 
   return (
     <Link
-      href={`/${category}`}
+      href={localizedPath(locale, `/${category}`)}
       className={`group relative flex h-full flex-col overflow-hidden rounded-lg border bg-gradient-to-br p-7 shadow-soft transition-shadow hover:shadow-card ${accentClasses[category]}`}
     >
       <span
@@ -40,20 +51,20 @@ export function CategoryCard({
       </span>
 
       <h3 className="mt-5 font-serif text-2xl font-semibold tracking-tight text-ink">
-        {def.label}
+        {label}
       </h3>
       <p className="mt-2 max-w-sm text-sm leading-relaxed text-ink-muted">
-        {def.tagline}
+        {tagline}
       </p>
 
       {showSubtopics && (
         <ul className="mt-5 flex flex-wrap gap-1.5">
-          {def.subtopics.map((s) => (
+          {SUBTOPICS_BY_CATEGORY[category].map((subSlug) => (
             <li
-              key={s.slug}
+              key={subSlug}
               className="rounded-sm bg-white/70 px-2 py-0.5 text-[11px] font-medium uppercase tracking-wide text-ink-muted"
             >
-              {s.label}
+              {t(`subtopics.${subSlug}.label`)}
             </li>
           ))}
         </ul>
@@ -61,17 +72,28 @@ export function CategoryCard({
 
       <div className="mt-auto flex items-center justify-between pt-6 text-sm">
         <span className="font-medium text-primary-700 group-hover:text-primary-800">
-          Browse {def.label.toLowerCase()} →
+          {t("category_hub.browse_cta", { category: label.toLowerCase() })}
         </span>
         {typeof articleCount === "number" && (
           <span className="text-xs text-ink-subtle">
-            {articleCount} {articleCount === 1 ? "article" : "articles"}
+            {t(
+              articleCount === 1
+                ? "category_hub.article_count_one"
+                : "category_hub.article_count_other",
+              { count: articleCount },
+            )}
           </span>
         )}
       </div>
     </Link>
   );
 }
+
+const SUBTOPICS_BY_CATEGORY: Record<CategorySlug, string[]> = {
+  ecology: ["ecosystems", "climate-change", "biodiversity"],
+  biology: ["cells", "genetics", "evolution"],
+  physics: ["energy", "thermodynamics", "quantum-basics"],
+};
 
 function CategoryIcon({ category }: { category: CategorySlug }) {
   const common = {

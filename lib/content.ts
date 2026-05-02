@@ -11,6 +11,12 @@ import {
   type CategorySlug,
 } from "@/lib/categories";
 import { getAuthor, type Author } from "@/lib/authors";
+import {
+  DEFAULT_LOCALE,
+  LOCALES,
+  localizedPath,
+  type Locale,
+} from "@/lib/i18n";
 
 /* ----------------------------------------------------------------
    Types
@@ -34,6 +40,24 @@ export type Article = {
   slug: string;
   category: CategorySlug;
   subtopic: string;
+
+  // i18n
+  /** Locale this article was loaded for (the *requested* locale). */
+  locale: Locale;
+  /**
+   * Locale this article was actually parsed from. Differs from `locale`
+   * when the requested translation is missing and the loader fell back
+   * to the default-locale (English) source.
+   */
+  sourceLocale: Locale;
+  /** True when content was served from the EN fallback. */
+  localeFallback: boolean;
+  /**
+   * The locales for which a translation of this article exists on disk.
+   * Used to drive hreflang and the language switcher's per-article
+   * "is the translation there?" lookup.
+   */
+  availableLocales: Locale[];
 
   // Frontmatter
   title: string;
@@ -61,12 +85,16 @@ export type Article = {
   toc: TocItem[];
 
   // URL
-  /** Canonical path: `/<category>/<subtopic>/<slug>` */
+  /** Canonical path: `/<locale>/<category>/<subtopic>/<slug>` */
   url: string;
 };
 
 export type Insight = {
   slug: string;
+  locale: Locale;
+  sourceLocale: Locale;
+  localeFallback: boolean;
+  availableLocales: Locale[];
   title: string;
   excerpt: string;
   /** The single load-bearing claim, surfaced above the fold. */
@@ -87,17 +115,22 @@ export type Insight = {
 /* ----------------------------------------------------------------
    File-system loader
    ---------------------------------------------------------------
-   We read the content tree once at module load time. Next.js
-   bundles this in the server build; the disk reads happen at build
-   and at runtime in the Node server. Static generation makes the
-   runtime cost a one-time hit.
+   Each locale has its own content tree under /content/<locale>/.
+   We load every locale lazily on first access and cache results
+   in-process so file IO stays a one-time hit per locale.
 
-   When swapping to a CMS, replace `loadAllArticles` and
-   `loadAllInsights` with the equivalent network reads — the
-   downstream API stays identical.
+   For requested-locale ⇒ source-locale resolution: we first look in
+   the requested locale's tree; if the slug isn't there, we fall back
+   to the default locale (English) and mark `localeFallback: true`.
+   This is the article-level fallback that satisfies the requirement
+   "do not expose broken pages".
 ---------------------------------------------------------------- */
 
 const CONTENT_ROOT = path.join(process.cwd(), "content");
+
+function localeRoot(locale: Locale): string {
+  return path.join(CONTENT_ROOT, locale);
+}
 
 function listMarkdownFiles(dir: string): string[] {
   if (!fs.existsSync(dir)) return [];
@@ -107,19 +140,88 @@ function listMarkdownFiles(dir: string): string[] {
     .map((d) => path.join(dir, d.name));
 }
 
-function loadAllArticles(): Article[] {
+/**
+ * Discover the set of locales for which a translation of a given
+ * (category, subtopic, slug) exists on disk. Always includes EN
+ * because EN serves as the universal fallback even when the source
+ * file is the only one in the tree.
+ */
+function discoverAvailableLocales(
+  category: CategorySlug,
+  subtopic: string,
+  slug: string,
+): Locale[] {
+  const out: Locale[] = [];
+  for (const loc of LOCALES) {
+    const file = path.join(
+      localeRoot(loc),
+      category,
+      subtopic,
+      `${slug}.md`,
+    );
+    if (fs.existsSync(file)) out.push(loc);
+  }
+  // Guarantee EN is present even if only as the fallback source so
+  // every article has at least one canonical reference.
+  if (!out.includes(DEFAULT_LOCALE)) out.push(DEFAULT_LOCALE);
+  return out;
+}
+
+function discoverInsightLocales(slug: string): Locale[] {
+  const out: Locale[] = [];
+  for (const loc of LOCALES) {
+    const file = path.join(localeRoot(loc), "insights", `${slug}.md`);
+    if (fs.existsSync(file)) out.push(loc);
+  }
+  if (!out.includes(DEFAULT_LOCALE)) out.push(DEFAULT_LOCALE);
+  return out;
+}
+
+function loadArticlesForLocale(locale: Locale): Article[] {
   const out: Article[] = [];
 
+  // Determine the slug-set to render for this locale: the union of
+  // the locale's own slugs PLUS every English slug (because missing
+  // translations fall back to English).
   for (const cat of categories) {
     for (const sub of cat.subtopics) {
-      const dir = path.join(CONTENT_ROOT, cat.slug, sub.slug);
-      for (const file of listMarkdownFiles(dir)) {
-        const slug = path.basename(file, ".md");
+      const localizedDir = path.join(
+        localeRoot(locale),
+        cat.slug,
+        sub.slug,
+      );
+      const englishDir = path.join(
+        localeRoot(DEFAULT_LOCALE),
+        cat.slug,
+        sub.slug,
+      );
+
+      const localizedSlugs = new Set(
+        listMarkdownFiles(localizedDir).map((f) =>
+          path.basename(f, ".md"),
+        ),
+      );
+      const englishSlugs = new Set(
+        listMarkdownFiles(englishDir).map((f) =>
+          path.basename(f, ".md"),
+        ),
+      );
+      const slugs = new Set<string>([...localizedSlugs, ...englishSlugs]);
+
+      for (const slug of slugs) {
+        const localizedFile = path.join(localizedDir, `${slug}.md`);
+        const fallbackFile = path.join(englishDir, `${slug}.md`);
+        const localeAvailable = fs.existsSync(localizedFile);
+        const file = localeAvailable ? localizedFile : fallbackFile;
+        if (!fs.existsSync(file)) continue; // shouldn't happen — set union covers it.
+
         const article = parseArticle({
           file,
           slug,
           category: cat.slug,
           subtopic: sub.slug,
+          requestedLocale: locale,
+          sourceLocale: localeAvailable ? locale : DEFAULT_LOCALE,
         });
         out.push(article);
       }
@@ -129,12 +231,36 @@ function loadAllArticles(): Article[] {
   return out;
 }
 
-function loadAllInsights(): Insight[] {
-  const dir = path.join(CONTENT_ROOT, "insights");
-  return listMarkdownFiles(dir).map((file) => {
-    const slug = path.basename(file, ".md");
-    return parseInsight({ file, slug });
-  });
+function loadInsightsForLocale(locale: Locale): Insight[] {
+  const localizedDir = path.join(localeRoot(locale), "insights");
+  const englishDir = path.join(localeRoot(DEFAULT_LOCALE), "insights");
+
+  const localizedSlugs = new Set(
+    listMarkdownFiles(localizedDir).map((f) => path.basename(f, ".md")),
+  );
+  const englishSlugs = new Set(
+    listMarkdownFiles(englishDir).map((f) => path.basename(f, ".md")),
+  );
+  const slugs = new Set<string>([...localizedSlugs, ...englishSlugs]);
+
+  const out: Insight[] = [];
+  for (const slug of slugs) {
+    const localizedFile = path.join(localizedDir, `${slug}.md`);
+    const fallbackFile = path.join(englishDir, `${slug}.md`);
+    const localeAvailable = fs.existsSync(localizedFile);
+    const file = localeAvailable ? localizedFile : fallbackFile;
+    if (!fs.existsSync(file)) continue;
+
+    out.push(
+      parseInsight({
+        file,
+        slug,
+        requestedLocale: locale,
+        sourceLocale: localeAvailable ? locale : DEFAULT_LOCALE,
+      }),
+    );
+  }
+  return out;
 }
 
 /* ----------------------------------------------------------------
@@ -146,6 +272,8 @@ type ArticleParseInput = {
   slug: string;
   category: CategorySlug;
   subtopic: string;
+  requestedLocale: Locale;
+  sourceLocale: Locale;
 };
 
 function parseArticle({
@@ -153,6 +281,8 @@ function parseArticle({
   slug,
   category,
   subtopic,
+  requestedLocale,
+  sourceLocale,
 }: ArticleParseInput): Article {
   const raw = fs.readFileSync(file, "utf8");
   const { data, content } = matter(raw);
@@ -186,11 +316,16 @@ function parseArticle({
   const author = getAuthor(String(fm.author));
   const html = renderMarkdown(content);
   const toc = extractToc(content);
+  const availableLocales = discoverAvailableLocales(category, subtopic, slug);
 
   return {
     slug,
     category,
     subtopic,
+    locale: requestedLocale,
+    sourceLocale,
+    localeFallback: requestedLocale !== sourceLocale,
+    availableLocales,
     title: String(fm.title),
     type,
     excerpt: String(fm.excerpt),
@@ -209,11 +344,23 @@ function parseArticle({
     rawBody: content,
     html,
     toc,
-    url: `/${category}/${subtopic}/${slug}`,
+    url: localizedPath(requestedLocale, `/${category}/${subtopic}/${slug}`),
   };
 }
 
-function parseInsight({ file, slug }: { file: string; slug: string }): Insight {
+type InsightParseInput = {
+  file: string;
+  slug: string;
+  requestedLocale: Locale;
+  sourceLocale: Locale;
+};
+
+function parseInsight({
+  file,
+  slug,
+  requestedLocale,
+  sourceLocale,
+}: InsightParseInput): Insight {
   const raw = fs.readFileSync(file, "utf8");
   const { data, content } = matter(raw);
   const fm = data as Record<string, unknown>;
@@ -233,6 +380,10 @@ function parseInsight({ file, slug }: { file: string; slug: string }): Insight {
 
   return {
     slug,
+    locale: requestedLocale,
+    sourceLocale,
+    localeFallback: requestedLocale !== sourceLocale,
+    availableLocales: discoverInsightLocales(slug),
     title: String(fm.title),
     excerpt: String(fm.excerpt),
     argument: String(fm.argument),
@@ -249,7 +400,7 @@ function parseInsight({ file, slug }: { file: string; slug: string }): Insight {
     rawBody: content,
     html: renderMarkdown(content),
     toc: extractToc(content),
-    url: `/insight/${slug}`,
+    url: localizedPath(requestedLocale, `/insight/${slug}`),
   };
 }
 
@@ -263,10 +414,6 @@ function parseInsight({ file, slug }: { file: string; slug: string }): Insight {
 
 marked.setOptions({ gfm: true, breaks: false });
 
-// Custom renderer: add stable IDs to H2/H3 for in-page anchors.
-// We build all heading depths inline (rather than delegating to the
-// base renderer) because marked's renderer-call signature is brittle
-// across versions and we only need standard <hN> output anyway.
 const renderer = new marked.Renderer();
 renderer.heading = function ({ tokens, depth }: Tokens.Heading) {
   const text = this.parser.parseInline(tokens);
@@ -329,7 +476,6 @@ function requireDate(
   file: string,
 ): void {
   const v = fm[key];
-  // gray-matter parses YAML dates into Date objects automatically.
   if (v instanceof Date) return;
   if (typeof v === "string" && !Number.isNaN(Date.parse(v))) return;
   throw new Error(
@@ -348,93 +494,89 @@ function estimateReadingTime(md: string): number {
 }
 
 /* ----------------------------------------------------------------
-   Cached singleton — read from disk once per server process.
+   Per-locale cached singletons.
 ---------------------------------------------------------------- */
 
-let _articles: Article[] | null = null;
-let _insights: Insight[] | null = null;
+const _articles = new Map<Locale, Article[]>();
+const _insights = new Map<Locale, Insight[]>();
 
-function articleStore(): Article[] {
-  if (!_articles) _articles = loadAllArticles();
-  return _articles;
+function articleStore(locale: Locale): Article[] {
+  let s = _articles.get(locale);
+  if (!s) {
+    s = loadArticlesForLocale(locale);
+    _articles.set(locale, s);
+  }
+  return s;
 }
 
-function insightStore(): Insight[] {
-  if (!_insights) _insights = loadAllInsights();
-  return _insights;
+function insightStore(locale: Locale): Insight[] {
+  let s = _insights.get(locale);
+  if (!s) {
+    s = loadInsightsForLocale(locale);
+    _insights.set(locale, s);
+  }
+  return s;
 }
 
 /* ----------------------------------------------------------------
-   Public API — keep this surface stable. CMS swap-in happens here.
+   Public API — locale is now a required first parameter.
+   When swapping to a CMS, replace the loaders above; this surface
+   stays stable.
 ---------------------------------------------------------------- */
 
-export async function getAllArticles(): Promise<Article[]> {
-  return [...articleStore()].sort(byUpdatedDesc);
+export async function getAllArticles(locale: Locale): Promise<Article[]> {
+  return [...articleStore(locale)].sort(byUpdatedDesc);
 }
 
 export async function getArticlesByCategory(
+  locale: Locale,
   category: CategorySlug,
 ): Promise<Article[]> {
-  return (await getAllArticles()).filter((a) => a.category === category);
+  return (await getAllArticles(locale)).filter((a) => a.category === category);
 }
 
 export async function getArticlesBySubtopic(
+  locale: Locale,
   category: CategorySlug,
   subtopic: string,
 ): Promise<Article[]> {
-  return (await getAllArticles()).filter(
+  return (await getAllArticles(locale)).filter(
     (a) => a.category === category && a.subtopic === subtopic,
   );
 }
 
 export async function getArticle(
+  locale: Locale,
   category: CategorySlug,
   subtopic: string,
   slug: string,
 ): Promise<Article | undefined> {
-  return articleStore().find(
+  return articleStore(locale).find(
     (a) => a.category === category && a.subtopic === subtopic && a.slug === slug,
   );
 }
 
-export async function getArticleBySlug(slug: string): Promise<Article | undefined> {
-  return articleStore().find((a) => a.slug === slug);
+export async function getArticleBySlug(
+  locale: Locale,
+  slug: string,
+): Promise<Article | undefined> {
+  return articleStore(locale).find((a) => a.slug === slug);
 }
 
-/**
- * The pillar article for a given subtopic, if one exists.
- *
- * Priority:
- *   1. An article with `type: pillar` in that subtopic.
- *   2. (Fallback) the most-recently-updated article in the subtopic.
- *
- * We never return undefined for a populated subtopic — every
- * subtopic should have a "what to read first" entry-point.
- */
 export async function getPillarForSubtopic(
+  locale: Locale,
   category: CategorySlug,
   subtopic: string,
 ): Promise<Article | undefined> {
-  const inSubtopic = await getArticlesBySubtopic(category, subtopic);
+  const inSubtopic = await getArticlesBySubtopic(locale, category, subtopic);
   return inSubtopic.find((a) => a.type === "pillar") ?? inSubtopic[0];
 }
 
-/**
- * Internal-linking resolver.
- *
- * Returns up to `limit` related articles using a layered strategy:
- *   1. Explicit `related: [slug, ...]` from frontmatter (in order).
- *   2. Other articles in the same subtopic, ranked by tag overlap.
- *   3. Other articles in the same category, ranked by tag overlap.
- *
- * The pillar article for the current subtopic is always returned
- * separately via `getPillarForSubtopic` — do not include it here.
- */
 export async function getRelatedArticles(
   article: Article,
   limit = 3,
 ): Promise<Article[]> {
-  const all = await getAllArticles();
+  const all = await getAllArticles(article.locale);
   const candidates = all.filter((a) => a.slug !== article.slug);
 
   const explicit = (article.related ?? [])
@@ -455,18 +597,17 @@ export async function getRelatedArticles(
   return [...explicit, ...sameSubtopic, ...sameCategory].slice(0, limit);
 }
 
-/** Counts per-subtopic — for category-page subtopic cards. */
 export async function getSubtopicCounts(
+  locale: Locale,
   category: CategorySlug,
 ): Promise<Record<string, number>> {
-  const all = await getArticlesByCategory(category);
+  const all = await getArticlesByCategory(locale, category);
   const counts: Record<string, number> = {};
   for (const sub of getCategory(category).subtopics) counts[sub.slug] = 0;
   for (const a of all) counts[a.subtopic] = (counts[a.subtopic] ?? 0) + 1;
   return counts;
 }
 
-/** Sibling subtopics within the same category — for cross-linking. */
 export function getSiblingSubtopics(
   category: CategorySlug,
   currentSubtopic: string,
@@ -478,33 +619,45 @@ export function getSiblingSubtopics(
 
 /* ---------- Insights ---------- */
 
-export async function getAllInsights(): Promise<Insight[]> {
-  return [...insightStore()].sort(byUpdatedDesc);
+export async function getAllInsights(locale: Locale): Promise<Insight[]> {
+  return [...insightStore(locale)].sort(byUpdatedDesc);
 }
 
-export async function getInsight(slug: string): Promise<Insight | undefined> {
-  return insightStore().find((i) => i.slug === slug);
+export async function getInsight(
+  locale: Locale,
+  slug: string,
+): Promise<Insight | undefined> {
+  return insightStore(locale).find((i) => i.slug === slug);
 }
 
-export async function getFeaturedInsights(limit = 2): Promise<Insight[]> {
-  return (await getAllInsights()).slice(0, limit);
+export async function getFeaturedInsights(
+  locale: Locale,
+  limit = 2,
+): Promise<Insight[]> {
+  return (await getAllInsights(locale)).slice(0, limit);
 }
 
 /* ---------- Helpers exposed for UI ---------- */
 
-export function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+const dateFormatters = new Map<Locale, Intl.DateTimeFormat>();
+
+function dateFormatter(locale: Locale): Intl.DateTimeFormat {
+  let f = dateFormatters.get(locale);
+  if (!f) {
+    f = new Intl.DateTimeFormat(locale, {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+    dateFormatters.set(locale, f);
+  }
+  return f;
 }
 
-/**
- * Validate that a subtopic exists for a category. Used by route
- * handlers that need to throw a 404 on bad URL parameters before
- * doing any data work.
- */
+export function formatDate(iso: string, locale: Locale = DEFAULT_LOCALE): string {
+  return dateFormatter(locale).format(new Date(iso));
+}
+
 export function assertSubtopicExists(
   category: CategorySlug,
   subtopic: string,

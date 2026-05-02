@@ -1,0 +1,158 @@
+{
+  "_review": [
+    "categories.*.description",
+    "subtopics.*.description",
+    "home.mission_p1",
+    "home.mission_p2",
+    "insights.description",
+    "discussions.description",
+    "discussions.about_body"
+  ],
+  "_review_note": "Scientific descriptions translated by AI. A native Spanish scientific editor must review the keys listed in _review before this bundle is used in production.",
+  "site": {
+    "name": "EcoScienceHub",
+    "tagline": "Escritura científica sobre ecología, biología y física aplicada",
+    "description": "Artículos independientes y científicamente rigurosos sobre ecología, biología y física aplicada. Pensados para leerse despacio y citarse con cuidado."
+  },
+  "nav": {
+    "home": "Inicio",
+    "ecology": "Ecología",
+    "biology": "Biología",
+    "physics": "Física aplicada",
+    "insights": "Análisis",
+    "discussions": "Discusiones",
+    "join_discussion": "Unirse a la discusión",
+    "skip_to_content": "Saltar al contenido",
+    "primary": "Principal",
+    "primary_mobile": "Principal móvil",
+    "language_switcher": "Cambiar idioma"
+  },
+  "categories": {
+    "ecology": {
+      "label": "Ecología",
+      "tagline": "Ecosistemas, clima y biodiversidad",
+      "description": "Artículos extensos y rigurosos sobre los sistemas que sostienen la vida — los ecosistemas y sus servicios, el clima que los moldea y la biodiversidad que les da resiliencia."
+    },
+    "biology": {
+      "label": "Biología",
+      "tagline": "De las moléculas a las poblaciones",
+      "description": "Biología celular, molecular, evolutiva y del desarrollo — los mecanismos que conectan una secuencia de bases con la diversidad de la vida."
+    },
+    "physics": {
+      "label": "Física aplicada",
+      "tagline": "Energía, materiales y sistemas físicos",
+      "description": "Física aplicada para la transición climática y más allá — sistemas energéticos, límites termodinámicos y los fundamentos cuánticos que importan cada vez más fuera del laboratorio."
+    }
+  },
+  "subtopics": {
+    "ecosystems": { "label": "Ecosistemas", "description": "Bosques, humedales, océanos, suelos — cómo se mueven la energía y la materia por los sistemas vivos y qué revelan las perturbaciones." },
+    "climate-change": { "label": "Cambio climático", "description": "Causas, retroalimentaciones, atribución y las incertidumbres relevantes para la política en la frontera de la ciencia del clima." },
+    "biodiversity": { "label": "Biodiversidad", "description": "Por qué el conteo de especies es la métrica equivocada, qué hacen realmente la diversidad genética y funcional, y dónde funciona la conservación." },
+    "cells": { "label": "Biología celular", "description": "La célula como unidad fundamental de la vida — su arquitectura, energética, señalización y los métodos para estudiarla." },
+    "genetics": { "label": "Genética", "description": "Genética molecular, genómica y evolución de los sistemas genéticos — lo que la secuenciación ha revelado y lo que no puede resolver." },
+    "evolution": { "label": "Evolución", "description": "Selección, deriva, desarrollo y la síntesis moderna — incluidas las partes que se están revisando discretamente." },
+    "energy": { "label": "Energía", "description": "Generación, almacenamiento, transmisión, y los materiales y arquitecturas que determinan qué tecnologías escalan realmente." },
+    "thermodynamics": { "label": "Termodinámica", "description": "Las leyes que limitan todo sistema físico — y las preguntas sorprendentemente modernas aún abiertas en su frontera." },
+    "quantum-basics": { "label": "Conceptos cuánticos", "description": "Mecánica cuántica para el profesional — las partes que importan para sensores, materiales y computación, sin la filosofía." }
+  },
+  "home": {
+    "meta_title": "Escritura científica sobre ecología, biología y física aplicada",
+    "hero_eyebrow": "Una plataforma de lectura científica",
+    "hero_title": "Escritura lenta y rigurosa sobre los sistemas que nos sostienen.",
+    "hero_lede": "EcoScienceHub es una plataforma para ecología, biología y física aplicada — escrita por científicos en activo, editada para la claridad y citada donde importa. Pensada para leerse despacio.",
+    "hero_cta_primary": "Empezar por ecología",
+    "hero_cta_secondary": "Leer los últimos análisis",
+    "mission_eyebrow": "Por qué existe esto",
+    "mission_title": "La ciencia es una conversación lenta. Le damos el espacio que necesita.",
+    "mission_p1": "La mayor parte de lo que pasa hoy por escritura científica está optimizado para la economía de la atención. Los titulares se adelantan a la evidencia; el matiz es lo primero que se recorta. Empezamos EcoScienceHub porque la alternativa — escritura cuidadosa, citada y responsable — es más difícil de encontrar de lo que debería.",
+    "mission_p2": "Cada artículo de esta plataforma está organizado en una jerarquía temática (Tema → Subtema → Artículo), escrito por un científico en activo o un periodista científico experimentado, y mantenido al día con fechas de revisión explícitas. Cuando actualizamos algo, lo decimos.",
+    "topics_eyebrow": "Temas",
+    "topics_title": "Tres lentes sobre el mundo natural",
+    "insights_eyebrow": "Análisis destacados",
+    "insights_title": "Argumentos que vale la pena defender",
+    "insights_action": "Todos los análisis",
+    "latest_eyebrow": "Recientes",
+    "latest_title": "Nueva escritura en la plataforma",
+    "discussions_eyebrow": "Discusiones abiertas",
+    "discussions_title": "Conversaciones moderadas por expertos",
+    "discussions_action": "Todas las discusiones"
+  },
+  "category_hub": {
+    "subtopics_title": "Subtemas",
+    "subtopics_subtitle": "Cómo se organiza la escritura sobre {category} en este sitio.",
+    "pillars_title": "Empezar por un pilar",
+    "pillars_subtitle": "Un artículo de fondo en profundidad por subtema — el punto de entrada recomendado.",
+    "latest_title": "Recientes en {category}",
+    "latest_subtitle": "Escritura más recientemente actualizada en todos los subtemas.",
+    "browse_cta": "Explorar {category} →",
+    "article_count_one": "{count} artículo",
+    "article_count_other": "{count} artículos",
+    "meta_title": "{category} — artículos, análisis y notas de campo"
+  },
+  "subtopic_hub": {
+    "start_here": "Empezar aquí",
+    "pillar_label": "Artículo pilar",
+    "more_in_subtopic": "Más en {subtopic}",
+    "more_subtitle": "Toda la demás escritura de este subtema, los más recientemente actualizados primero.",
+    "empty": "Aún no hay artículos publicados en este subtema — vuelve pronto.",
+    "siblings_title": "Subtemas relacionados en {category}",
+    "by_author_reading_time": "Por {author} · {minutes} min de lectura",
+    "subtopic_eyebrow": "Subtema de {category}"
+  },
+  "article": {
+    "pillar_badge": "Pilar",
+    "published": "Publicado",
+    "updated": "Actualizado",
+    "min_read": "{minutes} min de lectura",
+    "tagged": "Etiquetas",
+    "faq_heading": "Preguntas frecuentes",
+    "in_hierarchy": "En esta jerarquía",
+    "pillar_callout": "Artículo pilar — {subtopic}",
+    "read_pillar": "Leer el pilar →",
+    "related_heading": "Lecturas relacionadas",
+    "fallback_notice": "Este artículo aún no se ha traducido al {language}. Se muestra la versión en inglés a continuación."
+  },
+  "insights": {
+    "eyebrow": "Análisis",
+    "title": "Argumentos que vale la pena defender",
+    "description": "Los análisis son ensayos cortos y estructurados. Cada uno defiende una única tesis falsificable. Están escritos para ser discutidos — con claridad, citas y fechas.",
+    "empty": "Aún no se han publicado análisis.",
+    "category_eyebrow": "Análisis · {category}"
+  },
+  "discussions": {
+    "eyebrow": "Discusiones",
+    "title": "Conversaciones moderadas por expertos",
+    "description": "No gestionamos un foro. Animamos hilos — cada uno enmarcado por un experto del dominio, abierto a especialistas verificados y moderado por su contenido.",
+    "empty": "No hay discusiones activas en este momento.",
+    "moderated_by": "Moderado por",
+    "participants": "{count} participantes",
+    "status": { "open": "abierta", "closed": "cerrada", "scheduled": "programada" },
+    "category_eyebrow": "Discusión · {category}",
+    "about_heading": "Sobre esta discusión",
+    "about_body": "Las discusiones de este sitio están enmarcadas por expertos del dominio y moderadas por su contenido. Los comentarios de expertos verificados llevan una insignia; todas las demás aportaciones se revisan antes de publicarse.",
+    "related_article": "Artículo relacionado"
+  },
+  "footer": {
+    "topics_heading": "Temas",
+    "formats_heading": "Formatos",
+    "about_heading": "Acerca de",
+    "editorial_standards": "Estándares editoriales",
+    "contact": "Contacto",
+    "rss": "RSS",
+    "sitemap": "Mapa del sitio",
+    "rights": "© {year} {site}. Todos los derechos reservados.",
+    "footer_note": "Editorialmente independiente. Citas bienvenidas — por favor enlaza a la URL canónica."
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "Una pieza cuidadosa por semana.",
+    "description": "Suscríbete para recibir nuevos artículos largos y análisis, además de notas ocasionales del equipo editorial. Sin clickbait, sin compra de listas, sin píxeles de seguimiento.",
+    "email_label": "Correo electrónico",
+    "email_placeholder": "tu@ejemplo.com",
+    "submit": "Suscribirse"
+  },
+  "common": {
+    "by": "Por",
+    "and": "y"
+  }
+}

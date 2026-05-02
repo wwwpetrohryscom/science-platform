@@ -1,38 +1,50 @@
 import Link from "next/link";
+
 import { siteConfig } from "@/lib/seo";
+import {
+  getMessages,
+  localizedPath,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
 
-const columns: Array<{
-  heading: string;
-  links: Array<{ href: string; label: string }>;
-}> = [
-  {
-    heading: "Topics",
-    links: [
-      { href: "/ecology", label: "Ecology" },
-      { href: "/biology", label: "Biology" },
-      { href: "/physics", label: "Applied Physics" },
-      { href: "/sitemap.xml", label: "Sitemap" },
-    ],
-  },
-  {
-    heading: "Formats",
-    links: [
-      { href: "/insights", label: "Insights" },
-      { href: "/discussions", label: "Discussions" },
-    ],
-  },
-  {
-    heading: "About",
-    links: [
-      { href: "/about", label: "Editorial standards" },
-      { href: "/contact", label: "Contact" },
-      { href: "/rss.xml", label: "RSS" },
-    ],
-  },
-];
+type FooterProps = {
+  locale: Locale;
+};
 
-export function Footer() {
+export function Footer({ locale }: FooterProps) {
+  const t = translator(getMessages(locale));
   const year = new Date().getFullYear();
+
+  const columns: Array<{
+    heading: string;
+    links: Array<{ href: string; label: string }>;
+  }> = [
+    {
+      heading: t("footer.topics_heading"),
+      links: [
+        { href: localizedPath(locale, "/ecology"), label: t("nav.ecology") },
+        { href: localizedPath(locale, "/biology"), label: t("nav.biology") },
+        { href: localizedPath(locale, "/physics"), label: t("nav.physics") },
+        { href: "/sitemap.xml", label: t("footer.sitemap") },
+      ],
+    },
+    {
+      heading: t("footer.formats_heading"),
+      links: [
+        { href: localizedPath(locale, "/insights"), label: t("nav.insights") },
+        { href: localizedPath(locale, "/discussions"), label: t("nav.discussions") },
+      ],
+    },
+    {
+      heading: t("footer.about_heading"),
+      links: [
+        { href: localizedPath(locale, "/about"), label: t("footer.editorial_standards") },
+        { href: localizedPath(locale, "/contact"), label: t("footer.contact") },
+        { href: "/rss.xml", label: t("footer.rss") },
+      ],
+    },
+  ];
 
   return (
     <footer className="mt-24 border-t border-ink-line bg-ink-surface">
@@ -42,8 +54,7 @@ export function Footer() {
             {siteConfig.name}
           </p>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">
-            Independent, peer-informed writing on ecology, biology, and applied
-            physics. Built to be read slowly and cited carefully.
+            {t("site.description")}
           </p>
         </div>
 
@@ -67,13 +78,8 @@ export function Footer() {
 
       <div className="border-t border-ink-line">
         <div className="container-page flex flex-col items-start justify-between gap-3 py-6 text-xs text-ink-subtle md:flex-row md:items-center">
-          <p>
-            © {year} {siteConfig.name}. All rights reserved.
-          </p>
-          <p>
-            Editorially independent. Citations welcome — please link to the
-            canonical URL.
-          </p>
+          <p>{t("footer.rights", { year, site: siteConfig.name })}</p>
+          <p>{t("footer.footer_note")}</p>
         </div>
       </div>
     </footer>

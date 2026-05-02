@@ -1,0 +1,148 @@
+{
+  "site": {
+    "name": "EcoScienceHub",
+    "tagline": "Peer-informed writing on ecology, biology, and applied physics",
+    "description": "Independent, scientifically literate writing on ecology, biology, and applied physics. Built to be read slowly and cited carefully."
+  },
+  "nav": {
+    "home": "Home",
+    "ecology": "Ecology",
+    "biology": "Biology",
+    "physics": "Applied Physics",
+    "insights": "Insights",
+    "discussions": "Discussions",
+    "join_discussion": "Join the discussion",
+    "skip_to_content": "Skip to content",
+    "primary": "Primary",
+    "primary_mobile": "Primary mobile",
+    "language_switcher": "Change language"
+  },
+  "categories": {
+    "ecology": {
+      "label": "Ecology",
+      "tagline": "Ecosystems, climate, and biodiversity",
+      "description": "Long-form, peer-informed writing on the systems that sustain life — ecosystems and their services, the climate that shapes them, and the biodiversity that gives them resilience."
+    },
+    "biology": {
+      "label": "Biology",
+      "tagline": "From molecules to populations",
+      "description": "Cellular, molecular, evolutionary, and developmental biology — the mechanisms that connect a single sequence of bases to the diversity of living form."
+    },
+    "physics": {
+      "label": "Applied Physics",
+      "tagline": "Energy, materials, and physical systems",
+      "description": "Applied physics for the climate transition and beyond — energy systems, thermodynamic limits, and the quantum foundations that increasingly matter outside the lab."
+    }
+  },
+  "subtopics": {
+    "ecosystems": { "label": "Ecosystems", "description": "Forests, wetlands, oceans, soils — how energy and matter move through living systems and what disturbance reveals about them." },
+    "climate-change": { "label": "Climate Change", "description": "Drivers, feedbacks, attribution, and the policy-relevant uncertainties at the frontier of climate science." },
+    "biodiversity": { "label": "Biodiversity", "description": "Why species count is the wrong metric, what genetic and functional diversity actually do, and where conservation efforts are working." },
+    "cells": { "label": "Cell Biology", "description": "The cell as the fundamental unit of life — its architecture, energetics, signaling, and the methods used to study it." },
+    "genetics": { "label": "Genetics", "description": "Molecular genetics, genomics, and the evolution of genetic systems — what sequencing has revealed, what it cannot resolve." },
+    "evolution": { "label": "Evolution", "description": "Selection, drift, development, and the modern synthesis — including the parts of it that are quietly being revised." },
+    "energy": { "label": "Energy", "description": "Generation, storage, transmission, and the materials and architectures that determine which technologies actually scale." },
+    "thermodynamics": { "label": "Thermodynamics", "description": "The laws that bound every physical system — and the surprisingly modern questions still open at their frontier." },
+    "quantum-basics": { "label": "Quantum Basics", "description": "Quantum mechanics for the practitioner — the parts that matter for sensors, materials, and computing, without the philosophy." }
+  },
+  "home": {
+    "meta_title": "Peer-informed writing on ecology, biology, and applied physics",
+    "hero_eyebrow": "A scientific reading platform",
+    "hero_title": "Slow, careful writing about the systems that sustain us.",
+    "hero_lede": "EcoScienceHub is a platform for ecology, biology, and applied physics — written by working scientists, edited for clarity, and cited where it matters. Built to be read slowly.",
+    "hero_cta_primary": "Start with ecology",
+    "hero_cta_secondary": "Read the latest insights",
+    "mission_eyebrow": "Why this exists",
+    "mission_title": "Science is a slow conversation. We give it the room it needs.",
+    "mission_p1": "Most of what passes for science writing today is optimized for the attention economy. Headlines outrun evidence; nuance is the first thing cut. We started EcoScienceHub because the alternative — careful, cited, accountable writing — is harder to find than it should be.",
+    "mission_p2": "Every article on this platform is organized into a topic hierarchy (Topic → Subtopic → Article), written by a working scientist or experienced science journalist, and kept current with explicit revision dates. When we update something, we say so.",
+    "topics_eyebrow": "Topics",
+    "topics_title": "Three lenses on the natural world",
+    "insights_eyebrow": "Featured insights",
+    "insights_title": "Arguments worth defending",
+    "insights_action": "All insights",
+    "latest_eyebrow": "Latest",
+    "latest_title": "New writing across the platform",
+    "discussions_eyebrow": "Open discussions",
+    "discussions_title": "Expert-led, moderated conversations",
+    "discussions_action": "All discussions"
+  },
+  "category_hub": {
+    "subtopics_title": "Subtopics",
+    "subtopics_subtitle": "Where the {category} writing on this site is organized.",
+    "pillars_title": "Start with a pillar",
+    "pillars_subtitle": "One in-depth foundation article per subtopic — the recommended entry point.",
+    "latest_title": "Latest in {category}",
+    "latest_subtitle": "Most recently updated writing across all subtopics.",
+    "browse_cta": "Browse {category} →",
+    "article_count_one": "{count} article",
+    "article_count_other": "{count} articles",
+    "meta_title": "{category} — articles, analyses, and field notes"
+  },
+  "subtopic_hub": {
+    "start_here": "Start here",
+    "pillar_label": "Pillar article",
+    "more_in_subtopic": "More in {subtopic}",
+    "more_subtitle": "All other writing in this subtopic, most recently updated first.",
+    "empty": "No articles published in this subtopic yet — check back soon.",
+    "siblings_title": "Related subtopics in {category}",
+    "by_author_reading_time": "By {author} · {minutes} min read",
+    "subtopic_eyebrow": "{category} subtopic"
+  },
+  "article": {
+    "pillar_badge": "Pillar",
+    "published": "Published",
+    "updated": "Updated",
+    "min_read": "{minutes} min read",
+    "tagged": "Tagged",
+    "faq_heading": "Frequently asked",
+    "in_hierarchy": "In this hierarchy",
+    "pillar_callout": "Pillar article — {subtopic}",
+    "read_pillar": "Read the pillar →",
+    "related_heading": "Related reading",
+    "fallback_notice": "This article has not yet been translated into {language}. The English version is shown below."
+  },
+  "insights": {
+    "eyebrow": "Insights",
+    "title": "Arguments worth defending",
+    "description": "Insights are short, structured essays. Each one stakes a single, falsifiable claim and defends it. They are written to be argued with — clearly, cited, and dated.",
+    "empty": "No insights published yet.",
+    "category_eyebrow": "Insight · {category}"
+  },
+  "discussions": {
+    "eyebrow": "Discussions",
+    "title": "Expert-led, moderated conversations",
+    "description": "We don't run a forum. We run threads — each one framed by a domain expert, opened to verified specialists, and moderated for substance.",
+    "empty": "No active discussions right now.",
+    "moderated_by": "Moderated by",
+    "participants": "{count} participants",
+    "status": { "open": "open", "closed": "closed", "scheduled": "scheduled" },
+    "category_eyebrow": "Discussion · {category}",
+    "about_heading": "About this discussion",
+    "about_body": "Discussions on this site are framed by domain experts and moderated for substance. Verified-expert comments carry a badge; all other submissions are reviewed before they appear.",
+    "related_article": "Related article"
+  },
+  "footer": {
+    "topics_heading": "Topics",
+    "formats_heading": "Formats",
+    "about_heading": "About",
+    "editorial_standards": "Editorial standards",
+    "contact": "Contact",
+    "rss": "RSS",
+    "sitemap": "Sitemap",
+    "rights": "© {year} {site}. All rights reserved.",
+    "footer_note": "Editorially independent. Citations welcome — please link to the canonical URL."
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "One careful piece a week.",
+    "description": "Subscribe to receive new long-form articles and insights, plus occasional notes from the editorial team. No clickbait, no list-buying, no tracking pixels.",
+    "email_label": "Email address",
+    "email_placeholder": "you@example.com",
+    "submit": "Subscribe"
+  },
+  "common": {
+    "by": "By",
+    "and": "and"
+  }
+}

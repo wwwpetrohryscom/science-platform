@@ -1,9 +1,13 @@
+import { getMessages, translator, type Locale } from "@/lib/i18n";
+
 type NewsletterBlockProps = {
+  locale: Locale;
   /** Variant tunes the surrounding chrome — "section" gets a shaded panel, "inline" sits within an article. */
   variant?: "section" | "inline";
 };
 
-export function NewsletterBlock({ variant = "section" }: NewsletterBlockProps) {
+export function NewsletterBlock({ locale, variant = "section" }: NewsletterBlockProps) {
+  const t = translator(getMessages(locale));
   const isInline = variant === "inline";
 
   return (
@@ -23,17 +27,15 @@ export function NewsletterBlock({ variant = "section" }: NewsletterBlockProps) {
         }
       >
         <div className="max-w-xl">
-          <p className="eyebrow">Field notes — fortnightly</p>
+          <p className="eyebrow">{t("newsletter.eyebrow")}</p>
           <h2
             id="newsletter-heading"
             className="mt-2 font-serif text-2xl font-semibold tracking-tight text-ink md:text-3xl"
           >
-            One careful brief from the lab to your inbox
+            {t("newsletter.title")}
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-ink-muted md:text-base">
-            Plain-language summaries of the most consequential findings in
-            ecology, biology, and applied physics. No churn, no clickbait, no
-            reposts.
+            {t("newsletter.description")}
           </p>
         </div>
 
@@ -46,27 +48,21 @@ export function NewsletterBlock({ variant = "section" }: NewsletterBlockProps) {
           className="flex w-full max-w-md flex-col gap-2 sm:flex-row"
         >
           <label htmlFor="newsletter-email" className="sr-only">
-            Email address
+            {t("newsletter.email_label")}
           </label>
           <input
             id="newsletter-email"
             name="email"
             type="email"
             required
-            placeholder="you@institution.edu"
+            placeholder={t("newsletter.email_placeholder")}
             className="flex-1 rounded-md border border-ink-line bg-white px-4 py-2.5 text-sm text-ink placeholder:text-ink-subtle focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-200"
           />
           <button type="submit" className="btn-primary">
-            Subscribe
+            {t("newsletter.submit")}
           </button>
         </form>
       </div>
-
-      {!isInline && (
-        <p className="container-page pb-8 text-xs text-ink-subtle">
-          We never share or sell your email. Unsubscribe in one click.
-        </p>
-      )}
     </section>
   );
 }

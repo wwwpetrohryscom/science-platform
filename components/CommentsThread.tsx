@@ -1,7 +1,9 @@
 import { formatDate } from "@/lib/content";
 import type { DiscussionComment } from "@/lib/discussions";
+import { type Locale } from "@/lib/i18n";
 
 type CommentsThreadProps = {
+  locale: Locale;
   comments: DiscussionComment[];
   /** When false, the composer is rendered in a read-only state. */
   acceptingNew?: boolean;
@@ -10,15 +12,12 @@ type CommentsThreadProps = {
 /**
  * Mock comments UI for moderated discussions.
  *
- * The composer below is intentionally a non-functional shell — it
- * exists so the visual contract is real. When the moderation backend
- * is wired up, the form should:
- *   - require authentication
- *   - require a verified-expert flag for non-moderated posts
- *   - hold submissions in a moderation queue
- *   - emit `Comment` JSON-LD so threads remain indexable
+ * Comment bodies are user-generated content from verified experts and
+ * are NOT translated by this layer — they are shown as authored. The
+ * surrounding chrome (composer copy, status text) is locale-aware.
  */
 export function CommentsThread({
+  locale,
   comments,
   acceptingNew = true,
 }: CommentsThreadProps) {
@@ -45,7 +44,7 @@ export function CommentsThread({
                 {comment.authorTitle}
               </span>
               <span className="ml-auto text-xs text-ink-subtle">
-                {formatDate(comment.postedAt)}
+                {formatDate(comment.postedAt, locale)}
               </span>
             </header>
             <p className="mt-3 text-sm leading-relaxed text-ink">

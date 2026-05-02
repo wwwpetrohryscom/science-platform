@@ -1,0 +1,158 @@
+{
+  "_review": [
+    "categories.*.description",
+    "subtopics.*.description",
+    "home.mission_p1",
+    "home.mission_p2",
+    "insights.description",
+    "discussions.description",
+    "discussions.about_body"
+  ],
+  "_review_note": "Scientific descriptions translated by AI. A native German scientific editor must review the keys listed in _review before this bundle is used in production.",
+  "site": {
+    "name": "EcoScienceHub",
+    "tagline": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
+    "description": "Unabhängige, wissenschaftlich fundierte Texte zu Ökologie, Biologie und angewandter Physik. Geschrieben, um langsam gelesen und sorgfältig zitiert zu werden."
+  },
+  "nav": {
+    "home": "Start",
+    "ecology": "Ökologie",
+    "biology": "Biologie",
+    "physics": "Angewandte Physik",
+    "insights": "Analysen",
+    "discussions": "Diskussionen",
+    "join_discussion": "An der Diskussion teilnehmen",
+    "skip_to_content": "Zum Inhalt springen",
+    "primary": "Hauptnavigation",
+    "primary_mobile": "Hauptnavigation Mobil",
+    "language_switcher": "Sprache wechseln"
+  },
+  "categories": {
+    "ecology": {
+      "label": "Ökologie",
+      "tagline": "Ökosysteme, Klima und Biodiversität",
+      "description": "Lange, fachlich fundierte Texte über die Systeme, die das Leben tragen — Ökosysteme und ihre Leistungen, das Klima, das sie prägt, und die Biodiversität, die ihnen Resilienz verleiht."
+    },
+    "biology": {
+      "label": "Biologie",
+      "tagline": "Von Molekülen zu Populationen",
+      "description": "Zell-, Molekular-, Evolutions- und Entwicklungsbiologie — die Mechanismen, die eine einzige Basenfolge mit der Vielfalt lebender Formen verbinden."
+    },
+    "physics": {
+      "label": "Angewandte Physik",
+      "tagline": "Energie, Materialien und physikalische Systeme",
+      "description": "Angewandte Physik für die Klimawende und darüber hinaus — Energiesysteme, thermodynamische Grenzen und die Quantengrundlagen, die zunehmend auch außerhalb des Labors zählen."
+    }
+  },
+  "subtopics": {
+    "ecosystems": { "label": "Ökosysteme", "description": "Wälder, Feuchtgebiete, Ozeane, Böden — wie Energie und Materie durch lebende Systeme strömen und was Störungen über sie verraten." },
+    "climate-change": { "label": "Klimawandel", "description": "Treiber, Rückkopplungen, Attribution und politikrelevante Unsicherheiten an der Front der Klimawissenschaft." },
+    "biodiversity": { "label": "Biodiversität", "description": "Warum die Artenzahl die falsche Metrik ist, was genetische und funktionale Diversität tatsächlich leisten und wo Schutzbemühungen wirken." },
+    "cells": { "label": "Zellbiologie", "description": "Die Zelle als Grundbaustein des Lebens — ihre Architektur, Energetik, Signalübertragung und die Methoden, sie zu untersuchen." },
+    "genetics": { "label": "Genetik", "description": "Molekulargenetik, Genomik und die Evolution genetischer Systeme — was die Sequenzierung gezeigt hat und was sie nicht klären kann." },
+    "evolution": { "label": "Evolution", "description": "Selektion, Drift, Entwicklung und die moderne Synthese — einschließlich der Teile, die still überarbeitet werden." },
+    "energy": { "label": "Energie", "description": "Erzeugung, Speicherung, Übertragung sowie die Materialien und Architekturen, die entscheiden, welche Technologien wirklich skalieren." },
+    "thermodynamics": { "label": "Thermodynamik", "description": "Die Gesetze, die jedes physikalische System begrenzen — und die überraschend modernen Fragen, die an ihrer Front offen bleiben." },
+    "quantum-basics": { "label": "Quantengrundlagen", "description": "Quantenmechanik für die Praxis — die Teile, die für Sensoren, Materialien und Computing zählen, ohne die Philosophie." }
+  },
+  "home": {
+    "meta_title": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
+    "hero_eyebrow": "Eine wissenschaftliche Lese-Plattform",
+    "hero_title": "Langsame, sorgfältige Texte über die Systeme, die uns tragen.",
+    "hero_lede": "EcoScienceHub ist eine Plattform für Ökologie, Biologie und angewandte Physik — geschrieben von tätigen Wissenschaftlerinnen und Wissenschaftlern, redaktionell auf Klarheit getrimmt und dort zitiert, wo es zählt. Geschaffen, um langsam gelesen zu werden.",
+    "hero_cta_primary": "Mit Ökologie beginnen",
+    "hero_cta_secondary": "Aktuelle Analysen lesen",
+    "mission_eyebrow": "Warum es das gibt",
+    "mission_title": "Wissenschaft ist ein langsames Gespräch. Wir geben ihm den nötigen Raum.",
+    "mission_p1": "Vieles, was heute als Wissenschaftsjournalismus gilt, ist auf die Aufmerksamkeitsökonomie optimiert. Schlagzeilen überholen Belege; Differenzierung ist das Erste, was gestrichen wird. Wir haben EcoScienceHub gestartet, weil die Alternative — sorgfältige, belegte, verantwortungsvolle Texte — schwerer zu finden ist, als sie sein sollte.",
+    "mission_p2": "Jeder Artikel auf dieser Plattform ist in eine Themenhierarchie gegliedert (Thema → Unterthema → Artikel), von einem tätigen Wissenschaftler oder einer erfahrenen Wissenschaftsjournalistin verfasst und mit expliziten Aktualisierungsdaten gepflegt. Wenn wir etwas ändern, sagen wir es.",
+    "topics_eyebrow": "Themen",
+    "topics_title": "Drei Sichtweisen auf die natürliche Welt",
+    "insights_eyebrow": "Empfohlene Analysen",
+    "insights_title": "Argumente, die es zu verteidigen lohnt",
+    "insights_action": "Alle Analysen",
+    "latest_eyebrow": "Neuestes",
+    "latest_title": "Neue Texte auf der Plattform",
+    "discussions_eyebrow": "Offene Diskussionen",
+    "discussions_title": "Von Expertinnen geleitete, moderierte Gespräche",
+    "discussions_action": "Alle Diskussionen"
+  },
+  "category_hub": {
+    "subtopics_title": "Unterthemen",
+    "subtopics_subtitle": "So sind die Texte zu {category} auf dieser Seite gegliedert.",
+    "pillars_title": "Mit einem Pfeiler beginnen",
+    "pillars_subtitle": "Ein vertiefender Grundlagenartikel pro Unterthema — der empfohlene Einstieg.",
+    "latest_title": "Neuestes in {category}",
+    "latest_subtitle": "Zuletzt aktualisierte Texte über alle Unterthemen hinweg.",
+    "browse_cta": "{category} durchsuchen →",
+    "article_count_one": "{count} Artikel",
+    "article_count_other": "{count} Artikel",
+    "meta_title": "{category} — Artikel, Analysen und Feldnotizen"
+  },
+  "subtopic_hub": {
+    "start_here": "Hier beginnen",
+    "pillar_label": "Pfeiler-Artikel",
+    "more_in_subtopic": "Mehr in {subtopic}",
+    "more_subtitle": "Alle weiteren Texte in diesem Unterthema, zuletzt aktualisierte zuerst.",
+    "empty": "In diesem Unterthema sind noch keine Artikel veröffentlicht — schauen Sie bald wieder vorbei.",
+    "siblings_title": "Verwandte Unterthemen in {category}",
+    "by_author_reading_time": "Von {author} · {minutes} Min. Lesezeit",
+    "subtopic_eyebrow": "Unterthema {category}"
+  },
+  "article": {
+    "pillar_badge": "Pfeiler",
+    "published": "Veröffentlicht",
+    "updated": "Aktualisiert",
+    "min_read": "{minutes} Min. Lesezeit",
+    "tagged": "Tags",
+    "faq_heading": "Häufige Fragen",
+    "in_hierarchy": "In dieser Hierarchie",
+    "pillar_callout": "Pfeiler-Artikel — {subtopic}",
+    "read_pillar": "Den Pfeiler lesen →",
+    "related_heading": "Verwandte Texte",
+    "fallback_notice": "Dieser Artikel wurde noch nicht ins {language} übersetzt. Die englische Fassung wird unten angezeigt."
+  },
+  "insights": {
+    "eyebrow": "Analysen",
+    "title": "Argumente, die es zu verteidigen lohnt",
+    "description": "Analysen sind kurze, strukturierte Essays. Jeder vertritt eine einzige, falsifizierbare These. Sie sind zum Diskutieren geschrieben — klar, belegt und datiert.",
+    "empty": "Bisher sind keine Analysen veröffentlicht.",
+    "category_eyebrow": "Analyse · {category}"
+  },
+  "discussions": {
+    "eyebrow": "Diskussionen",
+    "title": "Von Expertinnen geleitete, moderierte Gespräche",
+    "description": "Wir betreiben kein Forum. Wir kuratieren Gesprächsfäden — jeder von einer Fachexpertin gerahmt, geprüften Spezialistinnen geöffnet und auf Substanz moderiert.",
+    "empty": "Derzeit keine aktiven Diskussionen.",
+    "moderated_by": "Moderiert von",
+    "participants": "{count} Teilnehmende",
+    "status": { "open": "offen", "closed": "geschlossen", "scheduled": "geplant" },
+    "category_eyebrow": "Diskussion · {category}",
+    "about_heading": "Über diese Diskussion",
+    "about_body": "Diskussionen auf dieser Seite werden von Fachexpertinnen gerahmt und auf Substanz moderiert. Geprüfte Expertenkommentare tragen ein Abzeichen; alle anderen Beiträge werden vor der Veröffentlichung geprüft.",
+    "related_article": "Verwandter Artikel"
+  },
+  "footer": {
+    "topics_heading": "Themen",
+    "formats_heading": "Formate",
+    "about_heading": "Über uns",
+    "editorial_standards": "Redaktionelle Standards",
+    "contact": "Kontakt",
+    "rss": "RSS",
+    "sitemap": "Sitemap",
+    "rights": "© {year} {site}. Alle Rechte vorbehalten.",
+    "footer_note": "Redaktionell unabhängig. Zitate willkommen — bitte auf die kanonische URL verlinken."
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "Ein sorgfältiger Text pro Woche.",
+    "description": "Abonnieren Sie, um neue Langtexte und Analysen zu erhalten, plus gelegentliche Notizen aus der Redaktion. Kein Clickbait, kein Listenkauf, keine Tracking-Pixel.",
+    "email_label": "E-Mail-Adresse",
+    "email_placeholder": "sie@beispiel.com",
+    "submit": "Abonnieren"
+  },
+  "common": {
+    "by": "Von",
+    "and": "und"
+  }
+}

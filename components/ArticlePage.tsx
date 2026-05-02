@@ -17,25 +17,20 @@ import {
 } from "@/lib/content";
 import { getCategory } from "@/lib/categories";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
+import {
+  getMessages,
+  localeMeta,
+  localizedPath,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
 
 type ArticlePageProps = {
+  locale: Locale;
   article: Article;
 };
 
-/**
- * Article reader (level 3 of 3 in the topic hierarchy).
- *
- * Layout: hero header (eyebrow + title + byline + dates), then a
- * two-column body with prose on the left and a sticky TOC + tag
- * panel on the right. Below the body: FAQ (if present), author
- * card, pillar callout (if this article isn't the pillar), and
- * related articles.
- *
- * The pillar callout is the most important internal-linking move
- * on this page — it ensures every leaf article links up the
- * hierarchy to the canonical entry-point for its subtopic.
- */
-export async function ArticlePage({ article }: ArticlePageProps) {
+export async function ArticlePage({ locale, article }: ArticlePageProps) {
   const def = getCategory(article.category);
   const subtopic = def.subtopics.find((s) => s.slug === article.subtopic);
   if (!subtopic) {
@@ -44,8 +39,13 @@ export async function ArticlePage({ article }: ArticlePageProps) {
     );
   }
 
+  const t = translator(getMessages(locale));
+  const categoryLabel = t(`categories.${article.category}.label`);
+  const subtopicLabel = t(`subtopics.${article.subtopic}.label`);
+
   // Pillar callout: only show if this article is NOT itself the pillar.
   const subtopicPillar = await getPillarForSubtopic(
+    locale,
     article.category,
     article.subtopic,
   );
@@ -53,16 +53,18 @@ export async function ArticlePage({ article }: ArticlePageProps) {
     subtopicPillar && subtopicPillar.slug !== article.slug
       ? subtopicPillar
       : article.pillar
-        ? await getArticleBySlug(article.pillar)
+        ? await getArticleBySlug(locale, article.pillar)
         : null;
 
   const related = await getRelatedArticles(article);
 
-  // Structured data
+  // Structured data — use the article's localized URL for inLanguage
+  // and mainEntityOfPage. Hreflang is emitted via metadata, not JSON-LD.
   const articleLd = articleJsonLd({
     title: article.title,
     description: article.excerpt,
     path: article.url,
+    inLanguage: localeMeta[locale].htmlLang,
     publishedDate: article.publishedDate,
     updatedDate: article.updatedDate,
     authorName: article.author.name,
@@ -71,14 +73,20 @@ export async function ArticlePage({ article }: ArticlePageProps) {
   const faqLd =
     article.faq && article.faq.length > 0 ? faqJsonLd(article.faq) : null;
   const breadcrumbLd = breadcrumbJsonLd([
-    { name: "Home", path: "/" },
-    { name: def.label, path: `/${article.category}` },
-    { name: subtopic.label, path: `/${article.category}/${article.subtopic}` },
+    { name: t("nav.home"), path: localizedPath(locale, "/") },
+    {
+      name: categoryLabel,
+      path: localizedPath(locale, `/${article.category}`),
+    },
+    {
+      name: subtopicLabel,
+      path: localizedPath(locale, `/${article.category}/${article.subtopic}`),
+    },
     { name: article.title, path: article.url },
   ]);
 
   return (
-    <Layout>
+    <Layout locale={locale}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
@@ -98,26 +106,29 @@ export async function ArticlePage({ article }: ArticlePageProps) {
         <nav aria-label="Breadcrumb" className="text-xs text-ink-subtle">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
-              <Link href="/" className="hover:text-primary-700">
-                Home
+              <Link href={localizedPath(locale, "/")} className="hover:text-primary-700">
+                {t("nav.home")}
               </Link>
             </li>
             <li aria-hidden>/</li>
             <li>
               <Link
-                href={`/${article.category}`}
+                href={localizedPath(locale, `/${article.category}`)}
                 className="hover:text-primary-700"
               >
-                {def.label}
+                {categoryLabel}
               </Link>
             </li>
             <li aria-hidden>/</li>
             <li>
               <Link
-                href={`/${article.category}/${article.subtopic}`}
+                href={localizedPath(
+                  locale,
+                  `/${article.category}/${article.subtopic}`,
+                )}
                 className="hover:text-primary-700"
               >
-                {subtopic.label}
+                {subtopicLabel}
               </Link>
             </li>
             <li aria-hidden>/</li>
@@ -125,14 +136,29 @@ export async function ArticlePage({ article }: ArticlePageProps) {
           </ol>
         </nav>
 
+        {/* Locale fallback notice — shown when this URL was requested in
+            a locale that hasn't translated this article yet. The page
+            still renders with English content (per spec: "do not expose
+            broken pages") but flags the gap to the reader. */}
+        {article.localeFallback && (
+          <div
+            role="status"
+            className="mt-6 rounded-md border border-accent-200 bg-accent-50/60 px-4 py-3 text-sm text-ink"
+          >
+            {t("article.fallback_notice", {
+              language: localeMeta[locale].nativeName,
+            })}
+          </div>
+        )}
+
         <header className="mt-6 max-w-4xl">
           <div className="flex items-center gap-2">
             <p className="eyebrow">
-              {def.label} · {subtopic.label}
+              {categoryLabel} · {subtopicLabel}
             </p>
             {article.type === "pillar" && (
               <span className="rounded-sm bg-primary-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-primary-800">
-                Pillar
+                {t("article.pillar_badge")}
               </span>
             )}
           </div>
@@ -147,18 +173,18 @@ export async function ArticlePage({ article }: ArticlePageProps) {
             <AuthorBlock author={article.author} variant="byline" />
             <div className="text-xs text-ink-subtle">
               <p>
-                <span className="font-medium text-ink">Published</span>{" "}
+                <span className="font-medium text-ink">{t("article.published")}</span>{" "}
                 <time dateTime={article.publishedDate}>
-                  {formatDate(article.publishedDate)}
+                  {formatDate(article.publishedDate, locale)}
                 </time>
               </p>
               <p className="mt-0.5">
-                <span className="font-medium text-ink">Updated</span>{" "}
+                <span className="font-medium text-ink">{t("article.updated")}</span>{" "}
                 <time dateTime={article.updatedDate}>
-                  {formatDate(article.updatedDate)}
+                  {formatDate(article.updatedDate, locale)}
                 </time>
                 <span aria-hidden> · </span>
-                {article.readingTime} min read
+                {t("article.min_read", { minutes: article.readingTime })}
               </p>
             </div>
           </div>
@@ -168,16 +194,16 @@ export async function ArticlePage({ article }: ArticlePageProps) {
           <div className="max-w-reader">
             <ArticleBody html={article.html} />
 
-            <NewsletterBlock variant="inline" />
+            <NewsletterBlock locale={locale} variant="inline" />
 
             {article.faq && article.faq.length > 0 && (
-              <FaqSection items={article.faq} />
+              <FaqSection items={article.faq} locale={locale} />
             )}
 
             {pillarCallout && (
               <aside className="mt-12 rounded-lg border border-primary-100 bg-primary-50/40 p-6">
                 <p className="text-xs font-semibold uppercase tracking-[0.14em] text-primary-700">
-                  Pillar article — {subtopic.label}
+                  {t("article.pillar_callout", { subtopic: subtopicLabel })}
                 </p>
                 <h3 className="mt-2 font-serif text-lg font-semibold text-ink">
                   <Link
@@ -194,7 +220,7 @@ export async function ArticlePage({ article }: ArticlePageProps) {
                   href={pillarCallout.url}
                   className="link-strong mt-3 inline-block text-sm"
                 >
-                  Read the pillar →
+                  {t("article.read_pillar")}
                 </Link>
               </aside>
             )}
@@ -204,11 +230,11 @@ export async function ArticlePage({ article }: ArticlePageProps) {
 
           <aside className="hidden lg:block">
             <div className="sticky top-24">
-              <TableOfContents items={article.toc} />
+              <TableOfContents items={article.toc} locale={locale} />
               {article.tags.length > 0 && (
                 <div className="mt-8">
                   <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle">
-                    Tagged
+                    {t("article.tagged")}
                   </p>
                   <ul className="flex flex-wrap gap-1.5">
                     {article.tags.map((tag) => (
@@ -224,23 +250,26 @@ export async function ArticlePage({ article }: ArticlePageProps) {
               )}
               <div className="mt-8">
                 <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle">
-                  In this hierarchy
+                  {t("article.in_hierarchy")}
                 </p>
                 <ul className="space-y-1.5 text-sm">
                   <li>
                     <Link
-                      href={`/${article.category}`}
+                      href={localizedPath(locale, `/${article.category}`)}
                       className="link-quiet"
                     >
-                      ← {def.label}
+                      ← {categoryLabel}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href={`/${article.category}/${article.subtopic}`}
+                      href={localizedPath(
+                        locale,
+                        `/${article.category}/${article.subtopic}`,
+                      )}
                       className="link-quiet"
                     >
-                      ← {subtopic.label}
+                      ← {subtopicLabel}
                     </Link>
                   </li>
                 </ul>
@@ -249,7 +278,7 @@ export async function ArticlePage({ article }: ArticlePageProps) {
           </aside>
         </div>
 
-        <RelatedArticles articles={related} showSubtopic />
+        <RelatedArticles locale={locale} articles={related} showSubtopic />
       </article>
     </Layout>
   );

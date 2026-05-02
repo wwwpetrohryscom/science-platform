@@ -5,36 +5,30 @@ import { PageHeading } from "@/components/PageHeading";
 import { ArticleCard } from "@/components/ArticleCard";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
 
-import {
-  getCategory,
-  type CategorySlug,
-} from "@/lib/categories";
-import { getSiblingSubtopics } from "@/lib/content";
+import { getCategory, type CategorySlug } from "@/lib/categories";
 import {
   getArticlesBySubtopic,
   getPillarForSubtopic,
+  getSiblingSubtopics,
 } from "@/lib/content";
+import {
+  getMessages,
+  localizedPath,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
 
 type SubtopicHubProps = {
+  locale: Locale;
   category: CategorySlug;
   subtopicSlug: string;
 };
 
-/**
- * Subtopic landing page (level 2 of 3 in the topic hierarchy).
- *
- * Sections:
- *   - Hero with subtopic intent
- *   - Pillar article — the canonical "start here" piece
- *   - All other articles in the subtopic
- *   - Sibling subtopics — same-category cross-linking
- *   - Newsletter
- *
- * The pillar surfaces twice in different visual treatments because
- * it is doing two distinct jobs: (1) establishing the editorial
- * frame for the page and (2) being part of the article inventory.
- */
-export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) {
+export async function SubtopicHub({
+  locale,
+  category,
+  subtopicSlug,
+}: SubtopicHubProps) {
   const def = getCategory(category);
   const subtopic = def.subtopics.find((s) => s.slug === subtopicSlug);
   if (!subtopic) {
@@ -43,9 +37,14 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
     );
   }
 
+  const t = translator(getMessages(locale));
+  const categoryLabel = t(`categories.${category}.label`);
+  const subtopicLabel = t(`subtopics.${subtopicSlug}.label`);
+  const subtopicDescription = t(`subtopics.${subtopicSlug}.description`);
+
   const [allInSub, pillar] = await Promise.all([
-    getArticlesBySubtopic(category, subtopicSlug),
-    getPillarForSubtopic(category, subtopicSlug),
+    getArticlesBySubtopic(locale, category, subtopicSlug),
+    getPillarForSubtopic(locale, category, subtopicSlug),
   ]);
 
   const restOfSub = pillar
@@ -54,15 +53,15 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
   const siblings = getSiblingSubtopics(category, subtopicSlug);
 
   return (
-    <Layout>
+    <Layout locale={locale}>
       <PageHeading
-        eyebrow={`${def.label} subtopic`}
-        title={subtopic.label}
-        description={subtopic.description}
+        eyebrow={t("subtopic_hub.subtopic_eyebrow", { category: categoryLabel })}
+        title={subtopicLabel}
+        description={subtopicDescription}
         accent={def.accent}
         crumbs={[
-          { label: "Home", href: "/" },
-          { label: def.label, href: `/${category}` },
+          { label: t("nav.home"), href: localizedPath(locale, "/") },
+          { label: categoryLabel, href: localizedPath(locale, `/${category}`) },
         ]}
       />
 
@@ -76,13 +75,13 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
             id="pillar-heading"
             className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle"
           >
-            Start here
+            {t("subtopic_hub.start_here")}
           </p>
           <Link
             href={pillar.url}
             className="group mt-3 block rounded-lg border border-primary-100 bg-primary-50/50 p-7 shadow-soft transition-shadow hover:shadow-card md:p-10"
           >
-            <p className="eyebrow">Pillar article</p>
+            <p className="eyebrow">{t("subtopic_hub.pillar_label")}</p>
             <h2 className="mt-3 max-w-3xl font-serif text-2xl font-semibold leading-tight tracking-tight text-ink group-hover:text-primary-700 md:text-3xl">
               {pillar.title}
             </h2>
@@ -90,8 +89,10 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
               {pillar.excerpt}
             </p>
             <p className="mt-6 text-sm text-ink-muted">
-              By <span className="font-medium text-ink">{pillar.author.name}</span>{" "}
-              · {pillar.readingTime} min read
+              {t("subtopic_hub.by_author_reading_time", {
+                author: pillar.author.name,
+                minutes: pillar.readingTime,
+              })}
             </p>
           </Link>
         </section>
@@ -107,15 +108,16 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
             id="more-heading"
             className="font-serif text-display-md font-semibold tracking-tight text-ink"
           >
-            More in {subtopic.label}
+            {t("subtopic_hub.more_in_subtopic", { subtopic: subtopicLabel })}
           </h2>
           <p className="mt-2 max-w-2xl text-base text-ink-muted">
-            All other writing in this subtopic, most recently updated first.
+            {t("subtopic_hub.more_subtitle")}
           </p>
           <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {restOfSub.map((article) => (
               <ArticleCard
                 key={article.slug}
+                locale={locale}
                 article={article}
               />
             ))}
@@ -125,9 +127,7 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
 
       {restOfSub.length === 0 && !pillar && (
         <div className="container-page mt-14">
-          <p className="text-ink-muted">
-            No articles published in this subtopic yet — check back soon.
-          </p>
+          <p className="text-ink-muted">{t("subtopic_hub.empty")}</p>
         </div>
       )}
 
@@ -141,21 +141,21 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
             id="siblings-heading"
             className="font-serif text-2xl font-semibold tracking-tight text-ink md:text-3xl"
           >
-            Related subtopics in {def.label}
+            {t("subtopic_hub.siblings_title", { category: categoryLabel })}
           </h2>
           <div className="mt-6 grid gap-3 md:grid-cols-2">
             {siblings.map((sib) => (
               <Link
                 key={sib.slug}
-                href={`/${category}/${sib.slug}`}
+                href={localizedPath(locale, `/${category}/${sib.slug}`)}
                 className="group flex items-start justify-between gap-4 rounded-md border border-ink-line bg-white p-5 transition-colors hover:border-primary-300"
               >
                 <div>
                   <p className="font-serif text-lg font-semibold text-ink group-hover:text-primary-700">
-                    {sib.label}
+                    {t(`subtopics.${sib.slug}.label`)}
                   </p>
                   <p className="mt-1 text-sm text-ink-muted">
-                    {sib.description}
+                    {t(`subtopics.${sib.slug}.description`)}
                   </p>
                 </div>
                 <span aria-hidden className="text-primary-600 mt-1">
@@ -168,7 +168,7 @@ export async function SubtopicHub({ category, subtopicSlug }: SubtopicHubProps) 
       )}
 
       <div className="mt-24">
-        <NewsletterBlock />
+        <NewsletterBlock locale={locale} />
       </div>
     </Layout>
   );

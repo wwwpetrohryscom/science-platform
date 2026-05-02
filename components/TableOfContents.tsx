@@ -1,18 +1,21 @@
 import type { TocItem } from "@/lib/content";
+import { getMessages, translator, type Locale } from "@/lib/i18n";
 
 type TableOfContentsProps = {
+  locale: Locale;
   items: TocItem[];
 };
 
-export function TableOfContents({ items }: TableOfContentsProps) {
+export function TableOfContents({ locale, items }: TableOfContentsProps) {
   if (items.length === 0) return null;
+  const t = translator(getMessages(locale));
 
   // Number only top-level (depth 2) entries; render depth 3 as nested.
   let topIdx = 0;
   return (
-    <nav aria-label="Table of contents" className="text-sm">
+    <nav aria-label={t("article.in_hierarchy")} className="text-sm">
       <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle">
-        On this page
+        {t("article.in_hierarchy")}
       </p>
       <ol className="space-y-1.5 border-l border-ink-line pl-4">
         {items.map((item) => {

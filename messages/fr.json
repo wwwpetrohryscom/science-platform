@@ -1,0 +1,158 @@
+{
+  "_review": [
+    "categories.*.description",
+    "subtopics.*.description",
+    "home.mission_p1",
+    "home.mission_p2",
+    "insights.description",
+    "discussions.description",
+    "discussions.about_body"
+  ],
+  "_review_note": "Scientific descriptions translated by AI. A native French scientific editor must review the keys listed in _review before this bundle is used in production.",
+  "site": {
+    "name": "EcoScienceHub",
+    "tagline": "Écriture scientifique sur l'écologie, la biologie et la physique appliquée",
+    "description": "Articles indépendants et scientifiquement rigoureux sur l'écologie, la biologie et la physique appliquée. Conçus pour être lus lentement et cités avec soin."
+  },
+  "nav": {
+    "home": "Accueil",
+    "ecology": "Écologie",
+    "biology": "Biologie",
+    "physics": "Physique appliquée",
+    "insights": "Analyses",
+    "discussions": "Discussions",
+    "join_discussion": "Rejoindre la discussion",
+    "skip_to_content": "Aller au contenu",
+    "primary": "Principal",
+    "primary_mobile": "Principal mobile",
+    "language_switcher": "Changer de langue"
+  },
+  "categories": {
+    "ecology": {
+      "label": "Écologie",
+      "tagline": "Écosystèmes, climat et biodiversité",
+      "description": "Articles longs et rigoureux sur les systèmes qui soutiennent la vie — les écosystèmes et leurs services, le climat qui les façonne et la biodiversité qui leur confère leur résilience."
+    },
+    "biology": {
+      "label": "Biologie",
+      "tagline": "Des molécules aux populations",
+      "description": "Biologie cellulaire, moléculaire, évolutive et du développement — les mécanismes qui relient une simple séquence de bases à la diversité du vivant."
+    },
+    "physics": {
+      "label": "Physique appliquée",
+      "tagline": "Énergie, matériaux et systèmes physiques",
+      "description": "Physique appliquée pour la transition climatique et au-delà — systèmes énergétiques, limites thermodynamiques et fondements quantiques qui comptent de plus en plus hors du laboratoire."
+    }
+  },
+  "subtopics": {
+    "ecosystems": { "label": "Écosystèmes", "description": "Forêts, zones humides, océans, sols — comment l'énergie et la matière circulent dans les systèmes vivants et ce que les perturbations révèlent." },
+    "climate-change": { "label": "Changement climatique", "description": "Moteurs, rétroactions, attribution et incertitudes pertinentes pour les politiques publiques à la frontière de la science du climat." },
+    "biodiversity": { "label": "Biodiversité", "description": "Pourquoi le compte d'espèces est la mauvaise mesure, ce que font réellement la diversité génétique et fonctionnelle, et où la conservation fonctionne." },
+    "cells": { "label": "Biologie cellulaire", "description": "La cellule comme unité fondamentale du vivant — son architecture, son énergétique, sa signalisation et les méthodes utilisées pour l'étudier." },
+    "genetics": { "label": "Génétique", "description": "Génétique moléculaire, génomique et évolution des systèmes génétiques — ce que le séquençage a révélé, ce qu'il ne peut résoudre." },
+    "evolution": { "label": "Évolution", "description": "Sélection, dérive, développement et la synthèse moderne — y compris les parties qui sont discrètement révisées." },
+    "energy": { "label": "Énergie", "description": "Production, stockage, transport, et les matériaux et architectures qui déterminent quelles technologies passent réellement à l'échelle." },
+    "thermodynamics": { "label": "Thermodynamique", "description": "Les lois qui bornent tout système physique — et les questions étonnamment modernes encore ouvertes à leur frontière." },
+    "quantum-basics": { "label": "Bases quantiques", "description": "Mécanique quantique pour le praticien — les parties qui comptent pour les capteurs, les matériaux et l'informatique, sans la philosophie." }
+  },
+  "home": {
+    "meta_title": "Écriture scientifique sur l'écologie, la biologie et la physique appliquée",
+    "hero_eyebrow": "Une plateforme de lecture scientifique",
+    "hero_title": "Une écriture lente et rigoureuse sur les systèmes qui nous soutiennent.",
+    "hero_lede": "EcoScienceHub est une plateforme dédiée à l'écologie, à la biologie et à la physique appliquée — rédigée par des scientifiques en activité, éditée pour la clarté et citée là où cela compte. Conçue pour être lue lentement.",
+    "hero_cta_primary": "Commencer par l'écologie",
+    "hero_cta_secondary": "Lire les dernières analyses",
+    "mission_eyebrow": "Pourquoi cela existe",
+    "mission_title": "La science est une conversation lente. Nous lui donnons l'espace nécessaire.",
+    "mission_p1": "La majeure partie de ce qui se présente aujourd'hui comme du journalisme scientifique est optimisée pour l'économie de l'attention. Les titres dépassent les preuves ; la nuance est la première chose coupée. Nous avons lancé EcoScienceHub parce que l'alternative — une écriture rigoureuse, citée et responsable — est plus difficile à trouver qu'elle ne devrait l'être.",
+    "mission_p2": "Chaque article de cette plateforme est organisé selon une hiérarchie thématique (Thème → Sous-thème → Article), rédigé par un scientifique en activité ou un journaliste scientifique expérimenté, et tenu à jour avec des dates de révision explicites. Quand nous mettons à jour quelque chose, nous le disons.",
+    "topics_eyebrow": "Thèmes",
+    "topics_title": "Trois prismes sur le monde naturel",
+    "insights_eyebrow": "Analyses à la une",
+    "insights_title": "Des arguments à défendre",
+    "insights_action": "Toutes les analyses",
+    "latest_eyebrow": "Récents",
+    "latest_title": "Nouveaux écrits sur la plateforme",
+    "discussions_eyebrow": "Discussions ouvertes",
+    "discussions_title": "Conversations modérées par des experts",
+    "discussions_action": "Toutes les discussions"
+  },
+  "category_hub": {
+    "subtopics_title": "Sous-thèmes",
+    "subtopics_subtitle": "Comment les écrits sur {category} sont organisés sur ce site.",
+    "pillars_title": "Commencer par un pilier",
+    "pillars_subtitle": "Un article de fond approfondi par sous-thème — le point d'entrée recommandé.",
+    "latest_title": "Récents en {category}",
+    "latest_subtitle": "Écrits les plus récemment mis à jour, tous sous-thèmes confondus.",
+    "browse_cta": "Parcourir {category} →",
+    "article_count_one": "{count} article",
+    "article_count_other": "{count} articles",
+    "meta_title": "{category} — articles, analyses et notes de terrain"
+  },
+  "subtopic_hub": {
+    "start_here": "Commencer ici",
+    "pillar_label": "Article pilier",
+    "more_in_subtopic": "Plus dans {subtopic}",
+    "more_subtitle": "Tous les autres écrits de ce sous-thème, les plus récemment mis à jour en premier.",
+    "empty": "Aucun article publié dans ce sous-thème pour le moment — revenez bientôt.",
+    "siblings_title": "Sous-thèmes liés en {category}",
+    "by_author_reading_time": "Par {author} · {minutes} min de lecture",
+    "subtopic_eyebrow": "Sous-thème {category}"
+  },
+  "article": {
+    "pillar_badge": "Pilier",
+    "published": "Publié",
+    "updated": "Mis à jour",
+    "min_read": "{minutes} min de lecture",
+    "tagged": "Étiquettes",
+    "faq_heading": "Questions fréquentes",
+    "in_hierarchy": "Dans cette hiérarchie",
+    "pillar_callout": "Article pilier — {subtopic}",
+    "read_pillar": "Lire le pilier →",
+    "related_heading": "Lectures connexes",
+    "fallback_notice": "Cet article n'a pas encore été traduit en {language}. La version anglaise est affichée ci-dessous."
+  },
+  "insights": {
+    "eyebrow": "Analyses",
+    "title": "Des arguments à défendre",
+    "description": "Les analyses sont de courts essais structurés. Chacun défend une thèse unique et falsifiable. Ils sont écrits pour être discutés — clairement, avec des citations et des dates.",
+    "empty": "Aucune analyse publiée pour le moment.",
+    "category_eyebrow": "Analyse · {category}"
+  },
+  "discussions": {
+    "eyebrow": "Discussions",
+    "title": "Conversations modérées par des experts",
+    "description": "Nous ne gérons pas un forum. Nous animons des fils — chacun cadré par un expert du domaine, ouvert aux spécialistes vérifiés et modéré pour le fond.",
+    "empty": "Aucune discussion active pour le moment.",
+    "moderated_by": "Modéré par",
+    "participants": "{count} participants",
+    "status": { "open": "ouverte", "closed": "fermée", "scheduled": "programmée" },
+    "category_eyebrow": "Discussion · {category}",
+    "about_heading": "À propos de cette discussion",
+    "about_body": "Les discussions de ce site sont cadrées par des experts du domaine et modérées pour le fond. Les commentaires d'experts vérifiés portent un badge ; toutes les autres soumissions sont examinées avant publication.",
+    "related_article": "Article connexe"
+  },
+  "footer": {
+    "topics_heading": "Thèmes",
+    "formats_heading": "Formats",
+    "about_heading": "À propos",
+    "editorial_standards": "Standards éditoriaux",
+    "contact": "Contact",
+    "rss": "RSS",
+    "sitemap": "Plan du site",
+    "rights": "© {year} {site}. Tous droits réservés.",
+    "footer_note": "Indépendance éditoriale. Citations bienvenues — merci de pointer vers l'URL canonique."
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "Un article rigoureux par semaine.",
+    "description": "Abonnez-vous pour recevoir les nouveaux articles longs et analyses, ainsi que des notes occasionnelles de l'équipe éditoriale. Pas d'appâts à clic, pas d'achat de listes, pas de pixels de suivi.",
+    "email_label": "Adresse e-mail",
+    "email_placeholder": "vous@exemple.com",
+    "submit": "S'abonner"
+  },
+  "common": {
+    "by": "Par",
+    "and": "et"
+  }
+}

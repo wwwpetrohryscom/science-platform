@@ -10,50 +10,45 @@ import {
   getPillarForSubtopic,
   getSubtopicCounts,
 } from "@/lib/content";
+import {
+  getMessages,
+  localizedPath,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
 
 type CategoryHubProps = {
+  locale: Locale;
   category: CategorySlug;
 };
 
-/**
- * Category landing page (level 1 of 3 in the topic hierarchy).
- *
- * Sections (top to bottom):
- *   - Hero with category description
- *   - Subtopic grid — the primary navigation surface for this category
- *   - Featured pillar articles, one per subtopic
- *   - Latest 6 articles in the category
- *   - Newsletter
- *
- * The same component renders /ecology, /biology, /physics. Per-category
- * customization (different hero accent, custom OG image, additional
- * sections) can be passed through props later without changing the
- * underlying data calls.
- */
-export async function CategoryHub({ category }: CategoryHubProps) {
+export async function CategoryHub({ locale, category }: CategoryHubProps) {
   const def = getCategory(category);
+  const t = translator(getMessages(locale));
+  const label = t(`categories.${category}.label`);
+  const description = t(`categories.${category}.description`);
 
   const [allArticles, counts] = await Promise.all([
-    getArticlesByCategory(category),
-    getSubtopicCounts(category),
+    getArticlesByCategory(locale, category),
+    getSubtopicCounts(locale, category),
   ]);
 
   const pillars = (
     await Promise.all(
-      def.subtopics.map((s) => getPillarForSubtopic(category, s.slug)),
+      def.subtopics.map((s) => getPillarForSubtopic(locale, category, s.slug)),
     )
   ).filter((a): a is NonNullable<typeof a> => Boolean(a));
 
   const latest = allArticles.slice(0, 6);
 
   return (
-    <Layout>
+    <Layout locale={locale}>
       <PageHeading
-        eyebrow="Topic"
-        title={def.label}
-        description={def.description}
+        eyebrow={t("home.topics_eyebrow")}
+        title={label}
+        description={description}
         accent={def.accent}
-        crumbs={[{ label: "Home", href: "/" }]}
+        crumbs={[{ label: t("nav.home"), href: localizedPath(locale, "/") }]}
       />
 
       {/* Subtopics */}
@@ -63,15 +58,18 @@ export async function CategoryHub({ category }: CategoryHubProps) {
       >
         <SectionHeader
           id="subtopics-heading"
-          title="Subtopics"
-          subtitle={`Where the ${def.label.toLowerCase()} writing on this site is organized.`}
+          title={t("category_hub.subtopics_title")}
+          subtitle={t("category_hub.subtopics_subtitle", {
+            category: label.toLowerCase(),
+          })}
         />
         <div className="mt-6 grid gap-5 md:grid-cols-3">
           {def.subtopics.map((sub) => (
             <SubtopicCard
               key={sub.slug}
+              locale={locale}
               category={category}
-              subtopic={sub}
+              subtopicSlug={sub.slug}
               articleCount={counts[sub.slug] ?? 0}
             />
           ))}
@@ -86,13 +84,14 @@ export async function CategoryHub({ category }: CategoryHubProps) {
         >
           <SectionHeader
             id="pillars-heading"
-            title="Start with a pillar"
-            subtitle="One in-depth foundation article per subtopic — the recommended entry point."
+            title={t("category_hub.pillars_title")}
+            subtitle={t("category_hub.pillars_subtitle")}
           />
           <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {pillars.map((article) => (
               <ArticleCard
                 key={`${article.subtopic}/${article.slug}`}
+                locale={locale}
                 article={article}
                 showSubtopic
               />
@@ -109,13 +108,14 @@ export async function CategoryHub({ category }: CategoryHubProps) {
         >
           <SectionHeader
             id="latest-heading"
-            title={`Latest in ${def.label}`}
-            subtitle="Most recently updated writing across all subtopics."
+            title={t("category_hub.latest_title", { category: label })}
+            subtitle={t("category_hub.latest_subtitle")}
           />
           <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {latest.map((article) => (
               <ArticleCard
                 key={`${article.subtopic}/${article.slug}`}
+                locale={locale}
                 article={article}
                 showSubtopic
               />
@@ -125,7 +125,7 @@ export async function CategoryHub({ category }: CategoryHubProps) {
       )}
 
       <div className="mt-24">
-        <NewsletterBlock />
+        <NewsletterBlock locale={locale} />
       </div>
     </Layout>
   );

@@ -1,25 +1,32 @@
 import Link from "next/link";
-import { categoryMeta } from "@/lib/seo";
+
 import { formatDate, type Insight } from "@/lib/content";
+import {
+  getMessages,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
 
 type InsightCardProps = {
+  locale: Locale;
   insight: Insight;
   /** "feature" gets the marquee treatment on the homepage; "default" is the grid card. */
   variant?: "default" | "feature";
 };
 
-export function InsightCard({ insight, variant = "default" }: InsightCardProps) {
-  const cat = categoryMeta[insight.category];
+export function InsightCard({ locale, insight, variant = "default" }: InsightCardProps) {
+  const t = translator(getMessages(locale));
+  const categoryLabel = t(`categories.${insight.category}.label`);
   const isFeature = variant === "feature";
 
   return (
     <article
-      className={`card flex h-full flex-col p-7 ${
-        isFeature ? "md:p-10" : ""
-      }`}
+      className={`card flex h-full flex-col p-7 ${isFeature ? "md:p-10" : ""}`}
     >
       <div className="flex items-center gap-2">
-        <span className="eyebrow">Insight · {cat.label}</span>
+        <span className="eyebrow">
+          {t("insights.category_eyebrow", { category: categoryLabel })}
+        </span>
       </div>
 
       <h3
@@ -51,9 +58,9 @@ export function InsightCard({ insight, variant = "default" }: InsightCardProps) 
       <div className="mt-auto pt-6 text-xs text-ink-subtle">
         <span>{insight.author.name}</span>
         <span aria-hidden> · </span>
-        <span>{formatDate(insight.updatedDate)}</span>
+        <span>{formatDate(insight.updatedDate, locale)}</span>
         <span aria-hidden> · </span>
-        <span>{insight.readingTime} min read</span>
+        <span>{t("article.min_read", { minutes: insight.readingTime })}</span>
       </div>
     </article>
   );

@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
 import { categories, type CategorySlug } from "@/lib/categories";
+import {
+  DEFAULT_LOCALE,
+  LOCALES,
+  localeMeta,
+  localizedPath,
+  type Locale,
+} from "@/lib/i18n";
 
 /**
  * Site-wide configuration. Single source of truth for SEO defaults,
@@ -15,18 +22,16 @@ export const siteConfig = {
     "Peer-informed writing on ecology, biology, and applied physics — for researchers, educators, and curious minds.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://ecosciencehub.com",
-  locale: "en_US",
+  defaultLocale: DEFAULT_LOCALE,
   twitterHandle: "@ecosciencehub",
   defaultOgImage: "/og/default.png",
 } as const;
 
 /**
- * Backwards-compatible category metadata view.
- *
- * The canonical taxonomy lives in `lib/categories.ts`. This object
- * is a thin projection that lets components read `label` /
- * `description` / `accent` for a category without importing the
- * full definition. New code should prefer `getCategory()` directly.
+ * Backwards-compatible category metadata view. Pure-EN labels — used
+ * only by callers that haven't been threaded through with a locale.
+ * New code should call `getLocalizedCategoryLabel()` from a route
+ * with a known locale instead.
  */
 export const categoryMeta: Record<
   CategorySlug,
@@ -43,8 +48,20 @@ export type Category = CategorySlug;
 type BuildMetadataOptions = {
   title: string;
   description: string;
-  /** Path relative to the site root, e.g. "/ecology/climate-change/foo". */
+  /** Path WITHOUT the locale prefix, e.g. "/ecology/climate-change/foo". */
   path: string;
+  /** Locale being rendered. Required for canonical and hreflang generation. */
+  locale: Locale;
+  /**
+   * The locales for which this resource has a translation. Used to
+   * emit hreflang only for translations that actually exist (we never
+   * point hreflang at a fallback page — that would surface duplicate
+   * content under another locale tag).
+   *
+   * For purely structural pages (homepage, category hubs) every locale
+   * exists; pass `LOCALES` (or omit to default to that).
+   */
+  availableLocales?: readonly Locale[];
   /** ISO date — required for content pages so search engines can re-index. */
   updatedDate?: string;
   publishedDate?: string;
@@ -58,15 +75,19 @@ type BuildMetadataOptions = {
 /**
  * Builds a complete Next.js Metadata object for a page.
  *
- * Centralizing this ensures every page emits canonical URL, OG tags,
- * Twitter card, and (when applicable) article modified-time. Pages
- * never construct Metadata objects by hand.
+ * Centralizing this ensures every page emits a canonical URL with the
+ * correct locale prefix, hreflang `alternates.languages` (plus the
+ * `x-default` pointing to the EN URL), OG locale, Twitter card, and
+ * (when applicable) article modified-time. Pages never construct
+ * Metadata objects by hand.
  */
 export function buildMetadata(opts: BuildMetadataOptions): Metadata {
   const {
     title,
     description,
     path,
+    locale,
+    availableLocales = LOCALES,
     updatedDate,
     publishedDate,
     ogImage,
@@ -76,20 +97,38 @@ export function buildMetadata(opts: BuildMetadataOptions): Metadata {
     noIndex = false,
   } = opts;
 
-  const url = new URL(path, siteConfig.url).toString();
+  const canonical = new URL(localizedPath(locale, path), siteConfig.url).toString();
   const image = ogImage ?? siteConfig.defaultOgImage;
+
+  // hreflang — one entry per available locale, plus x-default → EN.
+  const languages: Record<string, string> = {};
+  for (const loc of availableLocales) {
+    languages[localeMeta[loc].htmlLang] = new URL(
+      localizedPath(loc, path),
+      siteConfig.url,
+    ).toString();
+  }
+  if (availableLocales.includes(DEFAULT_LOCALE)) {
+    languages["x-default"] = new URL(
+      localizedPath(DEFAULT_LOCALE, path),
+      siteConfig.url,
+    ).toString();
+  }
 
   return {
     title,
     description,
-    alternates: { canonical: url },
+    alternates: { canonical, languages },
     openGraph: {
       title,
       description,
-      url,
+      url: canonical,
       siteName: siteConfig.name,
       type,
-      locale: siteConfig.locale,
+      locale: localeMeta[locale].ogLocale,
+      alternateLocale: availableLocales
+        .filter((l) => l !== locale)
+        .map((l) => localeMeta[l].ogLocale),
       images: [{ url: image, width: 1200, height: 630, alt: title }],
       ...(type === "article" && {
         publishedTime: publishedDate,
@@ -119,11 +158,13 @@ export function buildMetadata(opts: BuildMetadataOptions): Metadata {
 
 /**
  * JSON-LD for an Article. Inject as a <script type="application/ld+json">.
+ * `path` should already include the locale prefix (use `article.url`).
  */
 export function articleJsonLd(input: {
   title: string;
   description: string;
   path: string;
+  inLanguage: string;
   publishedDate: string;
   updatedDate: string;
   authorName: string;
@@ -134,6 +175,7 @@ export function articleJsonLd(input: {
     "@type": "Article",
     headline: input.title,
     description: input.description,
+    inLanguage: input.inLanguage,
     datePublished: input.publishedDate,
     dateModified: input.updatedDate,
     author: { "@type": "Person", name: input.authorName },
@@ -150,9 +192,6 @@ export function articleJsonLd(input: {
   };
 }
 
-/**
- * JSON-LD for a FAQ block. Surfaced as rich snippets in Google search.
- */
 export function faqJsonLd(items: Array<{ question: string; answer: string }>) {
   return {
     "@context": "https://schema.org",
@@ -166,8 +205,9 @@ export function faqJsonLd(items: Array<{ question: string; answer: string }>) {
 }
 
 /**
- * JSON-LD for a breadcrumb trail. Improves SERP appearance for
- * deeply-nested article URLs (Topic → Subtopic → Article).
+ * JSON-LD for a breadcrumb trail. `path` values are passed through
+ * unchanged — callers that build crumbs for a localized page should
+ * pass already-localized paths (use `localizedPath(locale, ...)`).
  */
 export function breadcrumbJsonLd(
   items: Array<{ name: string; path: string }>,

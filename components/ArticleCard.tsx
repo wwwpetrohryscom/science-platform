@@ -1,9 +1,14 @@
 import Link from "next/link";
-import { categoryMeta } from "@/lib/seo";
+
 import { formatDate, type Article } from "@/lib/content";
-import { getCategory } from "@/lib/categories";
+import {
+  getMessages,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
 
 type ArticleCardProps = {
+  locale: Locale;
   article: Article;
   /** "default" for grid use, "compact" for sidebars / "more in subtopic" lists. */
   variant?: "default" | "compact";
@@ -16,17 +21,18 @@ type ArticleCardProps = {
 };
 
 export function ArticleCard({
+  locale,
   article,
   variant = "default",
   showSubtopic = false,
 }: ArticleCardProps) {
-  const cat = categoryMeta[article.category];
-  const subtopic = getCategory(article.category).subtopics.find(
-    (s) => s.slug === article.subtopic,
-  );
+  const t = translator(getMessages(locale));
+  const categoryLabel = t(`categories.${article.category}.label`);
+  const subtopicLabel = t(`subtopics.${article.subtopic}.label`);
 
-  const eyebrow =
-    showSubtopic && subtopic ? `${cat.label} · ${subtopic.label}` : cat.label;
+  const eyebrow = showSubtopic
+    ? `${categoryLabel} · ${subtopicLabel}`
+    : categoryLabel;
 
   if (variant === "compact") {
     return (
@@ -39,7 +45,8 @@ export function ArticleCard({
           {article.title}
         </h3>
         <p className="mt-1 text-xs text-ink-subtle">
-          {formatDate(article.updatedDate)} · {article.readingTime} min read
+          {formatDate(article.updatedDate, locale)} ·{" "}
+          {t("article.min_read", { minutes: article.readingTime })}
         </p>
       </Link>
     );
@@ -51,7 +58,7 @@ export function ArticleCard({
         <span className="eyebrow">{eyebrow}</span>
         {article.type === "pillar" && (
           <span className="rounded-sm bg-primary-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-primary-800">
-            Pillar
+            {t("article.pillar_badge")}
           </span>
         )}
       </div>
@@ -68,9 +75,9 @@ export function ArticleCard({
       <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-ink-subtle">
         <span>{article.author.name}</span>
         <span aria-hidden>·</span>
-        <span>{formatDate(article.updatedDate)}</span>
+        <span>{formatDate(article.updatedDate, locale)}</span>
         <span aria-hidden>·</span>
-        <span>{article.readingTime} min read</span>
+        <span>{t("article.min_read", { minutes: article.readingTime })}</span>
       </div>
 
       {article.tags.length > 0 && (
