@@ -1,16 +1,21 @@
 ---
-title: "Qu'est-ce qu'un écosystème ? Définition d'un scientifique en activité"
-excerpt: "Un écosystème n'est pas un lieu — c'est un flux. Voici ce que cette distinction permet de penser sur la résilience, la restauration et ce que l'on conserve réellement."
+title: Qu'est-ce qu'un écosystème ? Définition d'un scientifique en activité
+excerpt: Un écosystème n'est pas un lieu — c'est un flux. Voici ce que cette distinction permet de penser sur la résilience, la restauration et ce que l'on conserve réellement.
 type: pillar
 author: helena-vega
-publishedDate: 2026-01-18
-updatedDate: 2026-05-02
-readingTime: 9
-tags: [ecosystems, ecology-fundamentals, energy-flow, resilience]
+publishedDate: '2026-01-18'
+updatedDate: '2026-05-02'
+readingTime: 5
+tags:
+  - ecosystems
+  - ecology-fundamentals
+  - energy-flow
+  - resilience
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
+_bodyHash: da703b09
 ---
 
 <!--

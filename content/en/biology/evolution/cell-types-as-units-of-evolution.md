@@ -1,25 +1,30 @@
 ---
-title: "Cell types as the conserved unit of animal evolution"
-excerpt: "If cell types — not organs or networks — are what selection conserves, the standard textbook story about animal evolution needs structural revision."
+title: Cell types as the conserved unit of animal evolution
+excerpt: If cell types — not organs or networks — are what selection conserves, the standard textbook story about animal evolution needs structural revision.
 type: pillar
 author: mira-brandt
-publishedDate: 2026-02-16
-updatedDate: 2026-04-21
-readingTime: 9
-tags: [evolution, cell-types, evo-devo, comparative-biology]
+publishedDate: '2026-02-16'
+updatedDate: '2026-05-02'
+readingTime: 4
+tags:
+  - evolution
+  - cell-types
+  - evo-devo
+  - comparative-biology
 related:
   - single-cell-evo-devo
   - what-is-a-cell
 pillar: cell-types-as-units-of-evolution
+_bodyHash: 86c64e2d
 ---
 
 The standard textbook story of animal evolution is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.
 
-A growing body of single-cell evidence suggests this story is told at the wrong resolution. The features that are conserved across animal evolution are not primarily body plans — they are cell types. Body plans are recombinations of a partially conserved cell-type toolkit. Once you make the shift, several puzzles in animal evolution become much less puzzling.
+A growing body of [single-cell](/en/biology/genetics/single-cell-evo-devo) evidence suggests this story is told at the wrong resolution. The features that are conserved across animal evolution are not primarily body plans — they are cell types. Body plans are recombinations of a partially conserved cell-type toolkit. Once you make the shift, several puzzles in animal evolution become much less puzzling.
 
 ## The classical view
 
-The classical evolutionary view treats organisms as integrated systems in which selection acts on whole-organism phenotypes. The unit of evolutionary change is the trait — a wing, an eye, a digestive tract — and the unit of conservation is the trait's developmental program, often summarized by the network of genes that build it.
+The classical evolutionary view treats organisms as integrated systems in which selection acts on whole-organism phenotypes. The unit of evolutionary change is the trait — a wing, an eye, a digestive tract — and the unit of [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) is the trait's developmental program, often summarized by the network of genes that build it.
 
 This view has produced enormous results. It is the basis of the modern synthesis, of Hox-pattern reasoning, of comparative anatomy. It is not wrong. But it has a known limitation: explaining the deep evolutionary persistence of structural features requires positing the persistence of large gene regulatory networks across enormous evolutionary distances, and the mechanisms by which such networks persist are not always clear.
 
@@ -37,7 +42,7 @@ A neuron, an epithelial secretory cell, a muscle cell — each is a transcriptio
 
 Several persistent puzzles in animal evolution become more tractable under the cell-type view.
 
-**Repeated evolution of complex structures.** Eyes have evolved independently dozens of times across animal lineages. Under the classical view, this requires the independent assembly of complex developmental programs each time — a difficult thing to explain. Under the cell-type view, the constituent cell types (photoreceptors, pigment cells) are already in the toolkit; building an eye is a matter of assembly, not invention. The same applies to wings (insect, bird, bat), to limbs, to circulatory systems.
+**Repeated evolution of complex structures.** Eyes have evolved independently dozens of times across animal lineages. Under the classical view, this requires the independent assembly of complex developmental programs each time — a difficult thing to explain. Under the cell-type view, the constituent cell types (photoreceptors, pigment [cells](/en/biology/cells/what-is-a-cell)) are already in the toolkit; building an eye is a matter of assembly, not invention. The same applies to wings (insect, bird, bat), to limbs, to circulatory systems.
 
 **Cambrian explosion.** The rapid appearance of disparate body plans in the Cambrian becomes less anomalous if the underlying cell-type toolkit was already substantially in place. Body plans diversified rapidly because the building blocks — the cell types — already existed and could be combined into novel architectures with comparatively modest regulatory modifications.
 
@@ -53,7 +58,7 @@ Body plans still matter. The integration of cell types into structures is not ar
 
 Many cell types are themselves products of relatively recent evolution. The mammalian neocortex contains cell types not found in other lineages. The vertebrate immune system contains specialized cells with no clear pre-vertebrate analogues. The cell-type toolkit is large but not closed; it has expanded over deep time.
 
-Some structures have evolved without obvious cell-type homologues. Plants are the clearest example — their cell-type toolkit is largely independent of the animal one, having evolved separately from the unicellular ancestor. The cell-type view of animal evolution is genuinely an animal-evolution story; it does not generalize trivially to other domains of life.
+Some structures have evolved without obvious cell-type homologues. Plants are the clearest example — their cell-type toolkit is largely independent of the animal one, having evolved separately from the unicellular ancestor. The cell-type view of animal evolution is genuinely an animal-evolution story; it does not generalize trivially to other domains of [life](/en/biology/cells/what-is-a-cell).
 
 ## Implications for the textbook
 

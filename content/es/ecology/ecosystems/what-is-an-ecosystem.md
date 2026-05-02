@@ -1,16 +1,21 @@
 ---
-title: "¿Qué es un ecosistema? La definición de un científico en activo"
-excerpt: "Un ecosistema no es un lugar — es un flujo. He aquí lo que esa distinción permite pensar sobre resiliencia, restauración y lo que realmente conservamos."
+title: ¿Qué es un ecosistema? La definición de un científico en activo
+excerpt: Un ecosistema no es un lugar — es un flujo. He aquí lo que esa distinción permite pensar sobre resiliencia, restauración y lo que realmente conservamos.
 type: pillar
 author: helena-vega
-publishedDate: 2026-01-18
-updatedDate: 2026-05-02
-readingTime: 9
-tags: [ecosystems, ecology-fundamentals, energy-flow, resilience]
+publishedDate: '2026-01-18'
+updatedDate: '2026-05-02'
+readingTime: 5
+tags:
+  - ecosystems
+  - ecology-fundamentals
+  - energy-flow
+  - resilience
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
+_bodyHash: 8023f4c
 ---
 
 <!--

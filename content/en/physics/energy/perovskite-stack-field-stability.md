@@ -1,26 +1,32 @@
 ---
-title: "Perovskite tandem cells: closing the gap between lab efficiency and outdoor reality"
-excerpt: "Encapsulation and ion-migration suppression have moved perovskite tandem cells from a 200-hour curiosity to thousands of hours of measured outdoor performance. The field-stability gap is closing."
+title: 'Perovskite tandem cells: closing the gap between lab efficiency and outdoor reality'
+excerpt: Encapsulation and ion-migration suppression have moved perovskite tandem cells from a 200-hour curiosity to thousands of hours of measured outdoor performance. The field-stability gap is closing.
 type: pillar
 author: daniel-okafor
-publishedDate: 2026-02-21
-updatedDate: 2026-04-25
-readingTime: 10
-tags: [photovoltaics, perovskite, energy, materials, stability]
+publishedDate: '2026-02-21'
+updatedDate: '2026-05-02'
+readingTime: 4
+tags:
+  - photovoltaics
+  - perovskite
+  - energy
+  - materials
+  - stability
 related:
   - thermodynamic-limits-of-photovoltaics
   - quantum-sensors-leaving-the-lab
 pillar: perovskite-stack-field-stability
 faq:
-  - question: "Are these cells ready for rooftop deployment?"
-    answer: "Not at consumer scale. Pilot deployments in commercial and utility settings are under way, where instrumentation can verify the lab-to-field translation."
-  - question: "What efficiency are field-deployed cells reaching?"
-    answer: "Tandem perovskite-silicon prototypes are reporting field efficiencies in the high twenties percent range, compared to about twenty-two percent for premium silicon."
-  - question: "What about the lead?"
-    answer: "Lead handling at end-of-life remains the largest open environmental issue. Recycling streams designed for silicon panels do not capture lead leachate from damaged perovskite layers. Several research groups are working on lead-sequestering encapsulants and closed-loop recycling protocols, but neither is yet at deployment scale."
+  - question: Are these cells ready for rooftop deployment?
+    answer: Not at consumer scale. Pilot deployments in commercial and utility settings are under way, where instrumentation can verify the lab-to-field translation.
+  - question: What efficiency are field-deployed cells reaching?
+    answer: Tandem perovskite-silicon prototypes are reporting field efficiencies in the high twenties percent range, compared to about twenty-two percent for premium silicon.
+  - question: What about the lead?
+    answer: Lead handling at end-of-life remains the largest open environmental issue. Recycling streams designed for silicon panels do not capture lead leachate from damaged perovskite layers. Several research groups are working on lead-sequestering encapsulants and closed-loop recycling protocols, but neither is yet at deployment scale.
+_bodyHash: 83bc51ba
 ---
 
-Perovskite single-junction photovoltaic cells achieved silicon-comparable lab efficiencies years ago. For most of that time, any honest assessment of the technology had to confront the field-stability gap: cells degraded under realistic combinations of moisture, UV, and thermal cycling far faster than they did in controlled chambers. The gap between the laboratory celebration and the deployed reality was uncomfortably large.
+Perovskite single-junction photovoltaic [cells](/en/biology/cells/what-is-a-cell) achieved silicon-comparable lab efficiencies years ago. For most of that time, any honest assessment of the technology had to confront the field-stability gap: cells degraded under realistic combinations of moisture, UV, and thermal cycling far faster than they did in controlled chambers. The gap between the laboratory celebration and the deployed reality was uncomfortably large.
 
 That gap is now closing. The reasons it is closing — and the work that remains — are worth understanding in detail because they shape which deployment scenarios become realistic in the next five years.
 
@@ -46,7 +52,7 @@ The combined effect has moved measured outdoor performance past several thousand
 
 ## What remains
 
-Lead handling at end-of-life remains the largest open environmental issue. Lead-based perovskites — which are the highest-performing chemistries — release water-soluble lead compounds when damaged. Recycling streams designed for silicon panels do not capture this leachate. Without a credible end-of-life answer, regulatory deployment outside narrowly controlled environments will face legitimate resistance.
+Lead handling at end-of-[life](/en/biology/cells/what-is-a-cell) remains the largest open environmental issue. Lead-based perovskites — which are the highest-performing chemistries — release water-soluble lead compounds when damaged. Recycling streams designed for silicon panels do not capture this leachate. Without a credible end-of-life answer, regulatory deployment outside narrowly controlled environments will face legitimate resistance.
 
 Several research directions are addressing this. Lead-sequestering encapsulants bind released lead within the panel structure rather than letting it escape. Closed-loop recycling protocols are being developed with chemical processes that recover lead in a controlled stream. Lead-free perovskite chemistries (typically tin-based) are being pursued, but they presently lag in efficiency by enough that they are not yet competitive.
 
@@ -56,7 +62,7 @@ Field stability data still spans a relatively short fraction of expected operati
 
 ## What this changes for energy planning
 
-The plausibility of perovskite tandems at meaningful scale within the decade changes what energy-system planners should assume about the cost trajectory of solar generation.
+The plausibility of perovskite tandems at meaningful scale within the decade changes what [energy](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics)-system planners should assume about the cost trajectory of solar generation.
 
 Silicon costs have declined predictably for decades and are approaching their floor; further declines come from manufacturing optimization, not from physics. Perovskite tandems, by contrast, sit on a much earlier point in their cost curve. If field stability holds up over the next several years and manufacturing scales, the cost trajectory could compress significantly faster than the silicon-only baseline.
 

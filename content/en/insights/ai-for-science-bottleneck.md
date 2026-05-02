@@ -1,16 +1,21 @@
 ---
-title: "Why \"AI for science\" is undervaluing the bottleneck it is best placed to fix"
-excerpt: "Most AI-for-science investment chases discovery. The higher-leverage use is making the experimental record reproducible and machine-readable."
-argument: "Discovery captures attention; infrastructure captures compounding returns. Funding agencies and platforms that systematize how experiments are recorded, indexed, and replicated will create more cumulative value than the next foundation model trained on papers."
+title: Why "AI for science" is undervaluing the bottleneck it is best placed to fix
+excerpt: Most AI-for-science investment chases discovery. The higher-leverage use is making the experimental record reproducible and machine-readable.
+argument: Discovery captures attention; infrastructure captures compounding returns. Funding agencies and platforms that systematize how experiments are recorded, indexed, and replicated will create more cumulative value than the next foundation model trained on papers.
 category: physics
 author: daniel-okafor
-publishedDate: 2026-03-22
-updatedDate: 2026-04-28
-readingTime: 5
-tags: [AI, infrastructure, open science, reproducibility]
+publishedDate: '2026-03-22'
+updatedDate: '2026-05-02'
+readingTime: 3
+tags:
+  - AI
+  - infrastructure
+  - open science
+  - reproducibility
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
+_bodyHash: e92c2f84
 ---
 
 The conversation about AI in science is dominated by a particular kind of story. AlphaFold predicted a protein structure. A foundation model proposed a new material. An LLM read the literature and identified a missed connection. These are real wins, and they are the wins that get announced.
@@ -25,7 +30,7 @@ This is happening, it is real, and it is also the application that least benefit
 
 ## Where the leverage actually is
 
-The substrate is the bottleneck. Standardized experimental records — protocols, raw data, instrument metadata, negative results — are what every downstream use of AI in science depends on. They are also where the substrate problem is most acute: most of this information lives in PDFs, in lab notebooks, in supplementary materials, in formats that vary not just by field but often by lab.
+The substrate is the bottleneck. Standardized experimental records — protocols, raw data, instrument metadata, negative results — are what every downstream use of AI in science depends on. They are also where the substrate problem is most acute: most of this information lives in PDFs, in lab notebooks, in supplementary [materials](/en/physics/energy/perovskite-stack-field-stability), in formats that vary not just by field but often by lab.
 
 AI is unusually good at the boring, structured work of extracting and normalizing this information. The same models that can write generic prose are well-suited to reading a PDF methods section and producing a structured protocol. The same models that can summarize a paragraph can read a supplementary table and produce a queryable dataset. The technology is mature; the deployment is not.
 

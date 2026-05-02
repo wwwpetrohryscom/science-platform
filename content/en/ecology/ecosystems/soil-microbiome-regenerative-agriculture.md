@@ -1,24 +1,30 @@
 ---
-title: "The soil microbiome is the missing variable in regenerative agriculture trials"
-excerpt: "Why two farms with identical practices produce different yields — and what that tells us about the next generation of soil-health metrics."
+title: The soil microbiome is the missing variable in regenerative agriculture trials
+excerpt: Why two farms with identical practices produce different yields — and what that tells us about the next generation of soil-health metrics.
 type: expert
 author: sofia-laurent
-publishedDate: 2026-03-04
-updatedDate: 2026-04-22
-readingTime: 7
-tags: [soil, agriculture, microbiome, nitrogen, ecosystems]
+publishedDate: '2026-03-04'
+updatedDate: '2026-05-02'
+readingTime: 4
+tags:
+  - soil
+  - agriculture
+  - microbiome
+  - nitrogen
+  - ecosystems
 related:
   - what-is-an-ecosystem
   - temperate-forest-carbon-sink-decline
 pillar: what-is-an-ecosystem
 faq:
-  - question: "Can microbial communities be restored intentionally?"
-    answer: "Inoculation with curated consortia shows promise in greenhouses but inconsistent results in the field. Restoring habitat — reduced disturbance, diverse rotations, living roots year-round — appears more reliable than direct inoculation."
-  - question: "Should farmers be testing for this now?"
-    answer: "Functional soil tests are accessible through specialty labs but rarely through standard agronomy services. They are most useful when comparing the same field over time, not as one-shot measurements."
+  - question: Can microbial communities be restored intentionally?
+    answer: Inoculation with curated consortia shows promise in greenhouses but inconsistent results in the field. Restoring habitat — reduced disturbance, diverse rotations, living roots year-round — appears more reliable than direct inoculation.
+  - question: Should farmers be testing for this now?
+    answer: Functional soil tests are accessible through specialty labs but rarely through standard agronomy services. They are most useful when comparing the same field over time, not as one-shot measurements.
+_bodyHash: 49102a74
 ---
 
-Regenerative agriculture trials often fail to replicate across sites, even when soil texture, climate, and management are matched. The variance is not noise — it tracks something real, and increasingly, the leading suspect is the resident microbial community. This is uncomfortable for the field because it suggests the headline practices (cover cropping, reduced tillage, diverse rotations) work *through* something, and that something is not yet in the soil-health metrics most growers use.
+Regenerative agriculture trials often fail to replicate across sites, even when soil texture, [climate](/en/ecology/climate-change/what-is-climate-change), and management are matched. The variance is not noise — it tracks something real, and increasingly, the leading suspect is the resident microbial community. This is uncomfortable for the field because it suggests the headline practices (cover cropping, reduced tillage, diverse rotations) work *through* something, and that something is not yet in the soil-health metrics most growers use.
 
 This piece walks through what the microbial mediation looks like, why it has been hard to capture, and what better metrics would change.
 
@@ -36,13 +42,13 @@ Microbes mediate three broad processes that determine how a field responds to ma
 
 **Phosphorus availability.** Mycorrhizal fungi extend the effective root surface area for phosphorus uptake by orders of magnitude. Their abundance and species composition vary widely across fields and respond strongly to management history (fungicides and high-phosphorus fertilization both suppress them). A field with depleted mycorrhizal networks responds to phosphorus management differently than a field with intact networks.
 
-**Rhizosphere environment.** Plants exude carbon compounds into the rhizosphere that recruit specific microbial partners. The microbial community responds by modifying the chemical environment around the roots — protonation, chelation, hormone production — in ways that affect plant performance. Two fields with the same plants and same fertilizer can produce different plant phenotypes because the rhizosphere microbiome is different.
+**Rhizosphere environment.** Plants exude [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) compounds into the rhizosphere that recruit specific microbial partners. The microbial community responds by modifying the chemical environment around the roots — protonation, chelation, hormone production — in ways that affect plant performance. Two fields with the same plants and same fertilizer can produce different plant phenotypes because the rhizosphere [microbiome](/en/biology/cells/coral-microbiome-bleaching-resistance) is different.
 
 These mediations are real. They are also not captured by standard soil tests, which measure carbon and nutrient pools, not microbial function.
 
 ## Why this has been hard to capture
 
-The microbial community in a single gram of agricultural soil contains billions of cells from thousands of taxa. Characterizing it has historically required technologies — amplicon sequencing, shotgun metagenomics, PLFA profiling — that were not part of standard agronomy.
+The microbial community in a single gram of agricultural soil contains billions of [cells](/en/biology/cells/what-is-a-cell) from thousands of taxa. Characterizing it has historically required technologies — amplicon sequencing, shotgun metagenomics, PLFA profiling — that were not part of standard agronomy.
 
 The cost has dropped considerably. The interpretation has not caught up. Sequencing tells you what is there; it does not tell you what they are doing. The translation from microbial community composition to functional capability is an active research area, not a settled science. A trial that measured composition five years ago and tried to predict yield would have failed; the same trial done today, with better functional databases, might succeed.
 

@@ -1,25 +1,30 @@
 ---
-title: "What is a cell? The unit of life, defined operationally"
-excerpt: "A cell is the smallest unit that can sustain itself, copy itself, and respond to its environment. Each of those requirements rules out what \"cell\" doesn't mean — and explains why borderline cases are interesting."
+title: What is a cell? The unit of life, defined operationally
+excerpt: A cell is the smallest unit that can sustain itself, copy itself, and respond to its environment. Each of those requirements rules out what "cell" doesn't mean — and explains why borderline cases are interesting.
 type: pillar
 author: mira-brandt
-publishedDate: 2026-01-15
-updatedDate: 2026-04-22
-readingTime: 9
-tags: [cells, fundamentals, cell-biology, life]
+publishedDate: '2026-01-15'
+updatedDate: '2026-05-02'
+readingTime: 4
+tags:
+  - cells
+  - fundamentals
+  - cell-biology
+  - life
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
+_bodyHash: 2b1ec94e
 ---
 
-A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not cells, even though they share some properties of cells.
+A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not [cells](/en/biology/cells/coral-microbiome-bleaching-resistance), even though they share some properties of cells.
 
 This piece walks through the operational definition rather than the textbook list of organelles, because the textbook list answers a different question.
 
 ## Three requirements
 
-The first requirement is **self-sustenance**: a cell maintains the chemical conditions of its interior in spite of a different chemical environment outside. It does this by spending energy. The cell membrane is the boundary across which this work is done, and the chemical asymmetry it maintains — concentration gradients, charge differences, pH — is what makes everything else possible. A cell that loses the ability to sustain its interior chemistry is dead, by definition.
+The first requirement is **self-sustenance**: a cell maintains the chemical conditions of its interior in spite of a different chemical environment outside. It does this by spending [energy](/en/physics/energy/perovskite-stack-field-stability). The cell membrane is the boundary across which this work is done, and the chemical asymmetry it maintains — concentration gradients, charge differences, pH — is what makes everything else possible. A cell that loses the ability to sustain its interior chemistry is dead, by definition.
 
 The second requirement is **self-replication**: a cell can produce another cell with the same essential properties. This requires storing the information needed for that production (the genome), the machinery to read and act on that information (the ribosomes, the polymerases, the metabolic enzymes), and a mechanism to physically partition the products into a daughter unit. None of these alone is sufficient. A genome that cannot be read is inert; machinery without a genome cannot be reproduced.
 

@@ -1,19 +1,24 @@
 ---
-title: "Single-cell sequencing is rewriting evolutionary developmental biology"
-excerpt: "Cell-type atlases across species are revealing that the conserved unit of evolution may be the cell type, not the gene network."
+title: Single-cell sequencing is rewriting evolutionary developmental biology
+excerpt: Cell-type atlases across species are revealing that the conserved unit of evolution may be the cell type, not the gene network.
 type: expert
 author: mira-brandt
-publishedDate: 2026-02-02
-updatedDate: 2026-04-18
-readingTime: 8
-tags: [evo-devo, single-cell, transcriptomics, genomics]
+publishedDate: '2026-02-02'
+updatedDate: '2026-05-02'
+readingTime: 4
+tags:
+  - evo-devo
+  - single-cell
+  - transcriptomics
+  - genomics
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-dna
+_bodyHash: 26622dda
 ---
 
-For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question. Instead of comparing networks in tissues, we now compare entire transcriptional identities of individual cells. The shift is consequential: what we have started to find suggests that the unit of evolutionary conservation is finer than the network and finer than the organ — it is the cell type itself.
+For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question. Instead of comparing networks in tissues, we now compare entire transcriptional identities of individual [cells](/en/biology/cells/what-is-a-cell). The shift is consequential: what we have started to find suggests that the unit of evolutionary [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) is finer than the network and finer than the organ — it is the cell type itself.
 
 ## The shift in unit of analysis
 
@@ -29,7 +34,7 @@ When cell-type atlases of distantly related animals are aligned by shared regula
 
 This is the kind of finding that was previously inaccessible. Classical homology was a statement about structures: this fin and this arm are evolutionarily related because they share developmental origin and topology. Cell-type homology is a statement about transcriptional identity: this cell type in a sponge and this cell type in a vertebrate share a regulatory module and an inferred ancestral state, even though the structures around them are non-homologous.
 
-The implication is significant. The conserved unit of animal evolution may not be the body plan or the organ — it may be the cell type, with body plans assembled from a partially conserved cell-type toolkit. This is closer to the developmental geneticist's intuition (Hox-like modules of regulatory information) than to the classical morphologist's intuition (homology of structure).
+The implication is significant. The conserved unit of animal [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) may not be the body plan or the organ — it may be the cell type, with body plans assembled from a partially conserved cell-type toolkit. This is closer to the developmental geneticist's intuition (Hox-like modules of regulatory information) than to the classical morphologist's intuition (homology of structure).
 
 ## Method caveats
 
@@ -41,7 +46,7 @@ This bar is increasingly being met. Several recent papers on cnidarian, ctenopho
 
 ## What this changes about evo-devo
 
-If cell types are the conserved unit, several long-running debates in evo-devo simplify.
+If cell types are the conserved unit, several long-running debates in [evo-devo](/en/biology/evolution/cell-types-as-units-of-evolution) simplify.
 
 The persistence of regulatory modules makes more sense — you do not need to explain why a network persists across hundreds of millions of years; you need to explain why a cell type does, which is a question about the integration of a regulatory module with a stable functional role.
 

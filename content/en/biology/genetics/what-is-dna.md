@@ -1,26 +1,31 @@
 ---
-title: "What is DNA? The molecule, the code, and what it doesn't determine"
-excerpt: "DNA is a four-letter molecular code that stores the information needed to build and run a cell. Understanding what it does — and the equally important things it does not do — is the foundation of modern biology."
+title: What is DNA? The molecule, the code, and what it doesn't determine
+excerpt: DNA is a four-letter molecular code that stores the information needed to build and run a cell. Understanding what it does — and the equally important things it does not do — is the foundation of modern biology.
 type: pillar
 author: mira-brandt
-publishedDate: 2026-01-20
-updatedDate: 2026-04-24
-readingTime: 10
-tags: [dna, genetics, fundamentals, central-dogma]
+publishedDate: '2026-01-20'
+updatedDate: '2026-05-02'
+readingTime: 5
+tags:
+  - dna
+  - genetics
+  - fundamentals
+  - central-dogma
 related:
   - what-is-a-cell
   - single-cell-evo-devo
 pillar: what-is-dna
 faq:
-  - question: "If DNA is the blueprint, why aren't identical twins identical?"
-    answer: "DNA is not a blueprint — it is a recipe whose execution is sensitive to context. Identical twins share genotype but develop in different prenatal positions, accumulate different mutations, experience different environments, and undergo different epigenetic modifications. The phenotypic differences between identical twins are evidence that DNA underdetermines the organism."
-  - question: "How much of the human genome is 'junk'?"
-    answer: "The strong claim that most of the genome is functional has not survived scrutiny. The current best estimate is that 10–25% of the human genome is under purifying selection (and therefore likely functional), with the rest dominated by transposable element relics, pseudogenes, and other sequences without detectable function. 'Junk' is an unfortunate label, but the size of the non-functional fraction is real."
-  - question: "Are most diseases genetic?"
-    answer: "Most common diseases have a genetic component but are far from purely genetic. Heritability estimates for conditions like diabetes, depression, and most cancers are in the 30–50% range, meaning environment, behavior, and chance account for the majority of risk variation. Single-gene disorders exist and are important for affected individuals, but they are a small fraction of overall disease burden."
+  - question: If DNA is the blueprint, why aren't identical twins identical?
+    answer: DNA is not a blueprint — it is a recipe whose execution is sensitive to context. Identical twins share genotype but develop in different prenatal positions, accumulate different mutations, experience different environments, and undergo different epigenetic modifications. The phenotypic differences between identical twins are evidence that DNA underdetermines the organism.
+  - question: How much of the human genome is 'junk'?
+    answer: The strong claim that most of the genome is functional has not survived scrutiny. The current best estimate is that 10–25% of the human genome is under purifying selection (and therefore likely functional), with the rest dominated by transposable element relics, pseudogenes, and other sequences without detectable function. 'Junk' is an unfortunate label, but the size of the non-functional fraction is real.
+  - question: Are most diseases genetic?
+    answer: Most common diseases have a genetic component but are far from purely genetic. Heritability estimates for conditions like diabetes, depression, and most cancers are in the 30–50% range, meaning environment, behavior, and chance account for the majority of risk variation. Single-gene disorders exist and are important for affected individuals, but they are a small fraction of overall disease burden.
+_bodyHash: c4c620f4
 ---
 
-DNA — deoxyribonucleic acid — is a four-letter molecular code that stores the information needed to build and run a cell. It is the carrier of heredity and the substrate on which evolution operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.
+DNA — deoxyribonucleic acid — is a four-letter molecular code that stores the information needed to build and run a cell. It is the carrier of heredity and the substrate on which [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.
 
 This piece walks through what DNA is, what it does, and the equally important set of things it does not do.
 
@@ -34,7 +39,7 @@ In a typical human cell, the DNA is organized into 46 chromosomes (23 pairs), to
 
 ## The code
 
-DNA is read in groups of three bases — codons — each of which specifies one of twenty amino acids (or a stop signal). The same code is used in essentially every organism, from bacteria to humans. This shared code is one of the strongest single pieces of evidence for the common ancestry of life on Earth. There is no biochemical reason it had to be this code rather than another; the universality reflects historical contingency more than functional necessity.
+DNA is read in groups of three bases — codons — each of which specifies one of twenty amino acids (or a stop signal). The same code is used in essentially every organism, from bacteria to humans. This shared code is one of the strongest single pieces of evidence for the common ancestry of [life](/en/biology/cells/what-is-a-cell) on Earth. There is no biochemical reason it had to be this code rather than another; the universality reflects historical contingency more than functional necessity.
 
 The flow of information from DNA to function follows a well-characterized path: DNA is transcribed into RNA, RNA is translated into protein, protein performs most of the cellular work. This is the central dogma, articulated by Francis Crick in 1958 and elaborated since. There are well-characterized exceptions — RNA viruses, retroelements, regulatory RNAs that act without being translated — but the dogma's core remains a useful organizing principle.
 
@@ -52,7 +57,7 @@ For most traits — height, susceptibility to common diseases, behavioral predis
 
 There are several things DNA does not determine, and the gap between popular discourse and actual biology runs through this list.
 
-**The state of any individual cell at any given time.** Two cells with identical DNA can be in radically different states because of differences in chromatin structure, transcription factor concentrations, signaling history, and stochastic noise in molecular abundance. The genotype is one input among many to the cellular state.
+**The state of any individual cell at any given time.** Two [cells](/en/biology/cells/what-is-a-cell) with identical DNA can be in radically different states because of differences in chromatin structure, transcription factor concentrations, signaling history, and stochastic noise in molecular abundance. The genotype is one input among many to the cellular state.
 
 **The course of development.** Development is not the unfolding of a genetic program in a vacuum. It is a continuous interaction between the genome, the cellular environment (which includes maternal contributions in early development), and the physical constraints of the developing organism. The same genome in a different uterine environment produces a measurably different organism.
 
