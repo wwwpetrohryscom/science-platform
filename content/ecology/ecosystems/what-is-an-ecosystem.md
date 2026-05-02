@@ -4,7 +4,7 @@ excerpt: "An ecosystem is not a place — it's a flux. Here's what that distinct
 type: pillar
 author: helena-vega
 publishedDate: 2026-01-18
-updatedDate: 2026-04-26
+updatedDate: 2026-05-02
 readingTime: 9
 tags: [ecosystems, ecology-fundamentals, energy-flow, resilience]
 related:
@@ -13,7 +13,7 @@ related:
 pillar: what-is-an-ecosystem
 ---
 
-An ecosystem is the simultaneous flow of energy, matter, and information through a community of organisms and their physical surroundings. The word "ecosystem" was coined by Arthur Tansley in 1935 specifically to displace the older, more romantic notion of "community" — Tansley wanted a term that emphasized exchange rather than membership.
+An ecosystem is the simultaneous flow of energy, matter, and information through a community of organisms and their physical surroundings ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). The word "ecosystem" was coined by Arthur Tansley in 1935 specifically to displace the older, more romantic notion of "community" — Tansley wanted a term that emphasized exchange rather than membership.
 
 Almost a century later, that emphasis is more relevant than ever.
 
@@ -53,7 +53,7 @@ Defining ecosystems by flow rather than place leads to several useful reframings
 
 **Tipping points are flow reorganizations.** When an ecosystem "flips" — savanna to desert, kelp forest to urchin barren, coral reef to algal mat — what flips is the dominant energy and material pathway. The same place persists; the ecosystem does not.
 
-**Ecosystem services are quantified flows.** When we value an ecosystem for carbon sequestration, water purification, or pollination, we are valuing a specific flux. The accounting only works if we treat the flux, not the place, as the unit.
+**Ecosystem services are quantified flows.** When we value an ecosystem for carbon sequestration, water purification, or pollination, we are valuing a specific flux. The accounting only works if we treat the flux, not the place, as the unit. The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) makes this framing the operational basis for its biodiversity and ecosystem-services accounting.
 
 ## What this rules out
 

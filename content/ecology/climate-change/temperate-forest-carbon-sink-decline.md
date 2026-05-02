@@ -4,7 +4,7 @@ excerpt: "A multi-decade synthesis suggests temperate forests may absorb 15–30
 type: expert
 author: helena-vega
 publishedDate: 2026-02-12
-updatedDate: 2026-04-20
+updatedDate: 2026-05-02
 readingTime: 9
 tags: [carbon, forests, climate, modelling]
 related:
@@ -26,7 +26,7 @@ This is not yet visible in coarse satellite indices because canopy greenness can
 
 ## What the long-term plots show
 
-The plot networks involved — ICP Forests in Europe, the FIA in the United States, equivalent systems in Canada, the UK, and Japan — were designed in different decades for different purposes. Aligning them required decisions about allometric equations, plot stratification, and the treatment of mortality. Different reasonable choices yield different magnitudes for the deceleration. None yield no deceleration.
+The plot networks involved — [ICP Forests](http://icp-forests.net/) in Europe, the [USDA Forest Service Forest Inventory and Analysis](https://www.fia.fs.usda.gov/) program in the United States, equivalent systems in Canada, the UK, and Japan — were designed in different decades for different purposes. Aligning them required decisions about allometric equations, plot stratification, and the treatment of mortality. Different reasonable choices yield different magnitudes for the deceleration. None yield no deceleration.
 
 The signal is strongest in stands aged 40 to 100 years — the cohort that drove much of the late-20th-century terrestrial carbon sink. Younger stands are still accumulating. Older stands were never accumulating much. The middle cohort is the one carrying the productivity loss.
 
@@ -44,7 +44,7 @@ The novel finding is the reinforcement. A drought-weakened tree is a more attrac
 
 ## Why the standard models miss this
 
-Most coupled climate–vegetation models treat disturbance as a stochastic background process rather than a state variable that interacts with the climate. They also calibrate growth-response curves on the same historical period in which the carbon sink was strengthening — so they project that strength forward.
+Most coupled climate–vegetation models treat disturbance as a stochastic background process rather than a state variable that interacts with the climate. They also calibrate growth-response curves on the same historical period in which the carbon sink was strengthening — so they project that strength forward. The [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) (Chapter 5, on the global carbon cycle) explicitly flags the persistence of the land sink as one of the larger uncertainties in century-scale projections.
 
 A new generation of models is starting to incorporate disturbance feedbacks explicitly, with promising early results. The current public-facing carbon-budget projections, however, mostly do not yet include them.
 
@@ -55,3 +55,11 @@ If the temperate sink is weaker than assumed, the implicit carbon budget compati
 It also raises the bar for any policy that monetizes forest carbon. If the underlying biophysical assumption — that mature temperate forests will continue to sequester at recent rates — is wrong, the carbon credits issued against that assumption are systematically over-counted. Markets currently priced on the older assumption will need to be re-priced.
 
 This is not a counsel of despair. The deceleration is detectable in part because the monitoring networks are good. The corrective is not to give up on forest carbon but to model it honestly, including the disturbance feedbacks that are now visible in the data.
+
+## Sources
+
+1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 WG I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change, 2021. Chapter 5 covers the global carbon cycle and land-sink persistence.
+2. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://www.fia.fs.usda.gov/). Multi-decade U.S. inventory plot network underlying the temperate-sink trend analyses.
+3. **ICP Forests** — [International Co-operative Programme on Assessment and Monitoring of Air Pollution Effects on Forests](http://icp-forests.net/). The European long-term forest monitoring network.
+4. **FAO** — [The State of the World's Forests](https://www.fao.org/state-of-forests/en/), Food and Agriculture Organization of the United Nations. Global forest extent and condition reporting.
+5. **UNEP** — [Emissions Gap Report 2024](https://www.unep.org/resources/emissions-gap-report-2024), United Nations Environment Programme. Frames the policy implications of land-sink revisions for net-zero pathways.

@@ -4,7 +4,7 @@ excerpt: "Climate change refers to the long-term shift in Earth's energy balance
 type: pillar
 author: lila-mendez
 publishedDate: 2026-01-22
-updatedDate: 2026-04-28
+updatedDate: 2026-05-02
 readingTime: 11
 tags: [climate, fundamentals, greenhouse-effect, attribution]
 related:
@@ -27,9 +27,9 @@ This article walks through all three.
 
 ## The mechanism
 
-Earth receives roughly constant energy from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, carbon dioxide, methane, nitrous oxide, others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight.
+Earth receives roughly constant energy from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, carbon dioxide, methane, nitrous oxide, others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight ([NASA Science: Climate Change Evidence](https://science.nasa.gov/climate-change/evidence/)).
 
-This effect is not contested. It was characterized in the 19th century, has been measured in laboratories for over a century, and is the only physical explanation consistent with the observed warming pattern. The greenhouse effect is also why Earth is habitable — without it, the planet would be roughly 33°C colder. The question has never been *whether* greenhouse gases warm the planet. The question is what happens when their concentration changes.
+This effect is not contested. It was characterized in the 19th century, has been measured in laboratories for over a century, and is the only physical explanation consistent with the observed warming pattern. The [IPCC's Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/) describes the human attribution of recent warming as "unequivocal." The greenhouse effect is also why Earth is habitable — without it, the planet would be roughly 33°C colder. The question has never been *whether* greenhouse gases warm the planet. The question is what happens when their concentration changes.
 
 Atmospheric carbon dioxide has risen from a stable pre-industrial value of ~280 ppm to roughly 425 ppm today. This is the highest concentration in at least 800,000 years (the limit of direct ice-core measurement) and almost certainly the highest in several million years. The isotopic signature of the added carbon is unambiguously fossil — it carries the depleted carbon-14 fraction that fossil fuels have because they have been buried long enough for radioactive decay.
 
@@ -72,3 +72,12 @@ These uncertainties are not symmetric. Most of them, on the central estimate, po
 Climate change is a thermodynamic consequence of changing atmospheric composition. The mechanism is undisputed; the attribution to human activity is among the most robust empirical findings in modern science. The active research frontier is on magnitude, regional impact, feedback strength, and reversibility — not on the foundational claims.
 
 When you encounter a climate argument, the relevant filter is: which of those frontier questions is it addressing? Most useful disagreements live there. The disagreements that don't — the ones that re-litigate the basic mechanism or the attribution — have been settled long enough that engaging them is no longer where the science is.
+
+## Sources
+
+1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change, 2021. The authoritative synthesis of current evidence on climate mechanisms, attribution, and projections.
+2. **IPCC** — [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/), Intergovernmental Panel on Climate Change, 2023. Integrates findings across all three working groups.
+3. **NASA** — [Climate Change: Evidence](https://science.nasa.gov/climate-change/evidence/), NASA Science, ongoing. Plain-language summary of the multiple independent lines of evidence for warming.
+4. **NOAA** — [Climate.gov: Science & Information for a Climate-Smart Nation](https://www.climate.gov/), National Oceanic and Atmospheric Administration. Authoritative observational data and explainers.
+5. **WHO** — [Climate change and health (fact sheet)](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health), World Health Organization, October 2023. Health-impact framing of the scientific consensus.
+6. **EEA** — [Climate change in depth](https://www.eea.europa.eu/en/topics/in-depth/climate-change), European Environment Agency. European observational record and policy context.
