@@ -51,7 +51,12 @@ async function main() {
       bumped += 1;
     }
 
-    fm.readingTime = estimateReadingTime(w.body);
+    // Only compute readingTime if it's missing or the body changed.
+    // Hand-curated values (set explicitly in frontmatter) should not
+    // be silently overwritten by an estimator that may disagree.
+    if (typeof fm.readingTime !== "number" || changed || force) {
+      fm.readingTime = estimateReadingTime(w.body);
+    }
 
     // Propagate pillar pointer for non-pillar siblings without one.
     if (

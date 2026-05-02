@@ -15,6 +15,10 @@ import fs from "node:fs";
 import fsp from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const yaml = require("js-yaml") as {
+  dump: (obj: unknown, opts?: Record<string, unknown>) => string;
+};
 
 export const PROJECT_ROOT = process.cwd();
 export const CONTENT_ROOT = path.join(PROJECT_ROOT, "content");
@@ -127,13 +131,64 @@ export async function readDoc(filepath: string): Promise<{
  * Atomic write — writes to a temp file and renames. Avoids partial
  * files if the process is interrupted mid-write, which matters when
  * the editor is watching the tree.
+ *
+ * Frontmatter normalization: gray-matter parses unquoted ISO dates
+ * (e.g. `publishedDate: 2026-01-22`) as JavaScript Date objects, and
+ * its YAML stringifier writes them back as full ISO datetimes
+ * (`2026-01-22T00:00:00.000Z`). That cosmetic round-trip pollutes
+ * every diff. We normalize known-date keys back to YYYY-MM-DD strings
+ * before stringifying.
  */
+const DATE_KEYS = new Set(["publishedDate", "updatedDate"]);
+
+function normalizeFrontmatter(
+  data: Record<string, unknown>,
+): Record<string, unknown> {
+  const out: Record<string, unknown> = {};
+  for (const [k, v] of Object.entries(data)) {
+    if (DATE_KEYS.has(k) && v instanceof Date) {
+      out[k] = v.toISOString().slice(0, 10);
+    } else if (DATE_KEYS.has(k) && typeof v === "string") {
+      out[k] = v.slice(0, 10);
+    } else {
+      out[k] = v;
+    }
+  }
+  return out;
+}
+
+/**
+ * Custom YAML engine for gray-matter. Defaults would fold long strings
+ * (`>-` block scalars) and force every array onto multiple lines —
+ * both legitimate YAML, but they create huge diffs when content barely
+ * changed. Configuration:
+ *  - lineWidth: -1   → never wrap; excerpts and FAQ answers stay on one line
+ *  - noRefs: true    → no `&anchor` references
+ *
+ * gray-matter's TS types do not expose the `engines` option on
+ * stringify, but the runtime supports it (documented). We cast.
+ */
+const YAML_ENGINE = {
+  parse: (s: string) =>
+    matter(`---\n${s}\n---\n`).data as Record<string, unknown>,
+  stringify: (obj: unknown) =>
+    yaml.dump(obj, { lineWidth: -1, noRefs: true }),
+};
+
 export async function writeDoc(
   filepath: string,
   data: Record<string, unknown>,
   content: string,
 ): Promise<void> {
-  const out = matter.stringify(content, data);
+  const out = (
+    matter.stringify as unknown as (
+      content: string,
+      data: Record<string, unknown>,
+      options?: { engines?: Record<string, unknown> },
+    ) => string
+  )(content, normalizeFrontmatter(data), {
+    engines: { yaml: YAML_ENGINE },
+  });
   await fsp.mkdir(path.dirname(filepath), { recursive: true });
   const tmp = `${filepath}.tmp`;
   await fsp.writeFile(tmp, out, "utf8");

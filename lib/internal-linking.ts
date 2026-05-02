@@ -104,13 +104,20 @@ export function injectInternalLinks(
 
   // Mask protected regions with placeholders so the keyword regex
   // cannot match inside them. Restore them at the end.
+  //
+  // Critical: when we successfully inject a new link inside the loop
+  // below, we ALSO mask that new link immediately. Otherwise the next
+  // iteration's regex can match a keyword inside the URL of the link
+  // we just wrote, producing nested-link garbage like
+  // `[Climate](/en/...temperate-forest-[carbon](/en/...)-sink-decline)`.
   const placeholders: string[] = [];
+  const maskOne = (s: string): string => {
+    const tok = ` PH${placeholders.length} `;
+    placeholders.push(s);
+    return tok;
+  };
   const mask = (input: string, pattern: RegExp): string =>
-    input.replace(pattern, (match) => {
-      const tok = ` PH${placeholders.length} `;
-      placeholders.push(match);
-      return tok;
-    });
+    input.replace(pattern, (match) => maskOne(match));
 
   let working = body;
   // Order matters: fence the most aggressive masks first.
@@ -146,13 +153,20 @@ export function injectInternalLinks(
     }
     const before = working.slice(0, m.index);
     const after = working.slice(m.index + m[0].length);
-    working = `${before}[${m[0]}](${entry.url})${after}`;
+    // Mask the new link as a single placeholder so subsequent
+    // iterations cannot match keywords inside the URL or the link text.
+    const newLink = `[${m[0]}](${entry.url})`;
+    working = `${before}${maskOne(newLink)}${after}`;
     used.add(kwLower);
     injected.push({ keyword: entry.keyword, url: entry.url });
   }
 
-  // Restore protected regions in the order they were masked.
-  working = working.replace(/ PH(\d+) /g, (_, i) => placeholders[Number(i)]);
+  // Restore protected regions. Loop until no placeholders remain to
+  // handle nested cases (a placeholder inside a placeholder is not
+  // possible in our masking, but the loop is cheap and defensive).
+  while (/ PH\d+ /.test(working)) {
+    working = working.replace(/ PH(\d+) /g, (_, i) => placeholders[Number(i)]);
+  }
 
   return { body: working, injected, skipped };
 }
