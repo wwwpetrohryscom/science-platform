@@ -61,6 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     updatedDate: insight.updatedDate,
     authors: [insight.author.name],
     tags: insight.tags,
+    noIndex: insight.localeFallback,
   });
 }
 

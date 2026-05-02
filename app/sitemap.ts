@@ -12,30 +12,56 @@ import {
   type Locale,
 } from "@/lib/i18n";
 
+const FALLBACK_LAST_MODIFIED = new Date("2026-05-02");
+
 /**
  * Locale-aware sitemap.
  *
- * For every URL we emit one entry per supported locale, plus an
- * `alternates.languages` map so search engines can crawl all
- * translations together. `x-default` points at the default-locale
- * (English) URL.
+ * Structural pages exist in every locale. Content pages are emitted
+ * only for locales with real source content on disk; EN fallback pages
+ * are deliberately excluded because they are duplicate fallback views,
+ * not indexable translations.
  *
- * `lastModified` for content URLs is the article's `updatedDate`
- * (which falls back to the EN article's date when a translation is
- * missing — matching what readers see on the page).
+ * `lastModified` for content URLs comes from `updatedDate`; invalid or
+ * missing dates fall back to a stable project date so the sitemap never
+ * emits malformed XML in production.
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const u = (loc: Locale, p: string) =>
     new URL(localizedPath(loc, p), siteConfig.url).toString();
 
+  const toDate = (value: string | undefined): Date => {
+    if (!value) return FALLBACK_LAST_MODIFIED;
+    const date = new Date(value);
+    return Number.isNaN(date.valueOf()) ? FALLBACK_LAST_MODIFIED : date;
+  };
+
+  const indexableLocales = <T extends { localeFallback: boolean; locale: Locale }>(
+    entries: T[],
+  ): Locale[] =>
+    entries
+      .filter((entry) => !entry.localeFallback)
+      .map((entry) => entry.locale);
+
   /** Build the hreflang alternates map for a path. */
-  const alternates = (path: string) => {
+  const alternates = (path: string, locales: readonly Locale[] = LOCALES) => {
     const languages: Record<string, string> = {};
-    for (const loc of LOCALES) {
+    for (const loc of locales) {
       languages[localeMeta[loc].htmlLang] = u(loc, path);
     }
-    languages["x-default"] = u(DEFAULT_LOCALE, path);
+    if (locales.includes(DEFAULT_LOCALE)) {
+      languages["x-default"] = u(DEFAULT_LOCALE, path);
+    }
     return languages;
+  };
+
+  const dedupe = (entries: MetadataRoute.Sitemap): MetadataRoute.Sitemap => {
+    const seen = new Set<string>();
+    return entries.filter((entry) => {
+      if (seen.has(entry.url)) return false;
+      seen.add(entry.url);
+      return true;
+    });
   };
 
   /**
@@ -75,37 +101,60 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       })),
   );
 
-  // Articles, insights, discussions: emit per-locale entries using
-  // each locale's own article store (which already accounts for the
-  // EN-fallback). Avoids duplicate-content signals across locales
-  // because each entry's URL is distinct and tagged.
+  // Articles and insights: the loader returns EN fallback content for
+  // missing translations so pages do not 404, but those fallback views
+  // are not indexable sitemap targets. Group by canonical content path
+  // first so hreflang alternates only point at actual translated files.
   const contentEntries: MetadataRoute.Sitemap = [];
 
-  for (const loc of LOCALES) {
+  const articlesByPath = new Map<
+    string,
+    Awaited<ReturnType<typeof getAllArticles>>
+  >();
+  const insightsByPath = new Map<
+    string,
+    Awaited<ReturnType<typeof getAllInsights>>
+  >();
+
+  for (const locale of LOCALES) {
     const [articles, insights] = await Promise.all([
-      getAllArticles(loc),
-      getAllInsights(loc),
+      getAllArticles(locale),
+      getAllInsights(locale),
     ]);
 
-    for (const a of articles) {
-      const path = `/${a.category}/${a.subtopic}/${a.slug}`;
-      contentEntries.push({
-        url: u(loc, path),
-        lastModified: new Date(a.updatedDate),
-        changeFrequency: "monthly",
-        priority: a.type === "pillar" ? 0.9 : 0.8,
-        alternates: { languages: alternates(path) },
-      });
+    for (const article of articles) {
+      const path = `/${article.category}/${article.subtopic}/${article.slug}`;
+      articlesByPath.set(path, [...(articlesByPath.get(path) ?? []), article]);
     }
 
-    for (const i of insights) {
-      const path = `/insight/${i.slug}`;
+    for (const insight of insights) {
+      const path = `/insight/${insight.slug}`;
+      insightsByPath.set(path, [...(insightsByPath.get(path) ?? []), insight]);
+    }
+  }
+
+  for (const [path, articles] of articlesByPath) {
+    const locales = indexableLocales(articles);
+    for (const a of articles.filter((article) => !article.localeFallback)) {
       contentEntries.push({
-        url: u(loc, path),
-        lastModified: new Date(i.updatedDate),
+        url: u(a.locale, path),
+        lastModified: toDate(a.updatedDate),
+        changeFrequency: "monthly",
+        priority: a.type === "pillar" ? 0.9 : 0.8,
+        alternates: { languages: alternates(path, locales) },
+      });
+    }
+  }
+
+  for (const [path, insights] of insightsByPath) {
+    const locales = indexableLocales(insights);
+    for (const i of insights.filter((insight) => !insight.localeFallback)) {
+      contentEntries.push({
+        url: u(i.locale, path),
+        lastModified: toDate(i.updatedDate),
         changeFrequency: "monthly",
         priority: 0.7,
-        alternates: { languages: alternates(path) },
+        alternates: { languages: alternates(path, locales) },
       });
     }
   }
@@ -120,7 +169,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       const path = `/discussions/${d.slug}`;
       return {
         url: u(loc, path),
-        lastModified: new Date(d.updatedDate),
+        lastModified: toDate(d.updatedDate),
         changeFrequency: "weekly" as const,
         priority: 0.6,
         alternates: { languages: alternates(path) },
@@ -128,5 +177,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }),
   );
 
-  return [...structuralEntries, ...contentEntries, ...discussionEntries];
+  return dedupe([...structuralEntries, ...contentEntries, ...discussionEntries]);
 }

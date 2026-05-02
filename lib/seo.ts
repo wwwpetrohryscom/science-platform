@@ -12,16 +12,15 @@ import {
  * Site-wide configuration. Single source of truth for SEO defaults,
  * canonical host, social handles, and brand strings.
  *
- * `url` is the only field expected to change between deployments.
- * Override via `NEXT_PUBLIC_SITE_URL`.
+ * `url` is intentionally fixed to the production canonical host.
+ * Preview deployments should not become canonical SEO targets.
  */
 export const siteConfig = {
   name: "EcoScienceHub",
   shortName: "EcoScienceHub",
   description:
     "Peer-informed writing on ecology, biology, and applied physics — for researchers, educators, and curious minds.",
-  url:
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://ecosciencehub.com",
+  url: "https://ecosciencehub.com",
   defaultLocale: DEFAULT_LOCALE,
   twitterHandle: "@ecosciencehub",
   defaultOgImage: "/og/default.png",
