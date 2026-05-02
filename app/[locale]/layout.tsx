@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Inter, Source_Serif_4 } from "next/font/google";
 
 import "@/styles/globals.css";
+import { CookieBanner } from "@/components/CookieBanner";
 import { siteConfig, buildMetadata } from "@/lib/seo";
 import {
   LOCALES,
@@ -92,6 +93,7 @@ export default function LocaleLayout({
     >
       <body className="min-h-screen bg-white text-ink antialiased">
         {children}
+        <CookieBanner />
       </body>
     </html>
   );

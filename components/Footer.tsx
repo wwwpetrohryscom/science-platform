@@ -41,6 +41,9 @@ export function Footer({ locale }: FooterProps) {
       links: [
         { href: localizedPath(locale, "/about"), label: t("footer.editorial_standards") },
         { href: localizedPath(locale, "/contact"), label: t("footer.contact") },
+        { href: localizedPath(locale, "/privacy-policy"), label: "Privacy Policy" },
+        { href: localizedPath(locale, "/cookie-policy"), label: "Cookie Policy" },
+        { href: localizedPath(locale, "/terms-of-use"), label: "Terms of Use" },
         { href: "/rss.xml", label: t("footer.rss") },
       ],
     },

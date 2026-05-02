@@ -77,6 +77,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/", changeFrequency: "weekly", priority: 1.0 },
     { path: "/insights", changeFrequency: "weekly", priority: 0.8 },
     { path: "/discussions", changeFrequency: "daily", priority: 0.7 },
+    { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
+    { path: "/cookie-policy", changeFrequency: "yearly", priority: 0.3 },
+    { path: "/terms-of-use", changeFrequency: "yearly", priority: 0.3 },
     ...listCategorySlugs().map((slug) => ({
       path: `/${slug}`,
       changeFrequency: "weekly" as const,
