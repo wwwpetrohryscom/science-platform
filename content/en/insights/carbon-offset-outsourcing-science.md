@@ -1,19 +1,24 @@
 ---
-title: "Carbon offset markets are quietly outsourcing the work of climate science"
-excerpt: "Voluntary carbon markets have become the largest unregulated funder of forest-carbon measurement — and the methods are diverging from what the science actually says."
-argument: "When commercial registries certify methodology, the result is rules optimized for issuance volume rather than measurement accuracy. The corrective is not better registries — it is independent, public-good measurement infrastructure."
+title: Carbon offset markets are quietly outsourcing the work of climate science
+excerpt: Voluntary carbon markets have become the largest unregulated funder of forest-carbon measurement — and the methods are diverging from what the science actually says.
+argument: When commercial registries certify methodology, the result is rules optimized for issuance volume rather than measurement accuracy. The corrective is not better registries — it is independent, public-good measurement infrastructure.
 category: ecology
 author: helena-vega
-publishedDate: 2026-03-15
-updatedDate: 2026-04-26
-readingTime: 6
-tags: [carbon markets, policy, forestry, climate]
+publishedDate: '2026-03-15'
+updatedDate: '2026-05-02'
+readingTime: 2
+tags:
+  - carbon markets
+  - policy
+  - forestry
+  - climate
 related:
   - temperate-forest-carbon-sink-decline
   - what-is-climate-change
+_bodyHash: e70dd6f4
 ---
 
-The voluntary carbon market is, by funding volume, one of the largest sources of money flowing into forest-carbon measurement on Earth. It is also one of the least scientifically governed. The combination is producing a measurement substrate that is increasingly diverging from what working forest scientists believe to be true. The corrective is not what the market itself is offering.
+The voluntary [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) market is, by funding volume, one of the largest sources of money flowing into forest-carbon measurement on Earth. It is also one of the least scientifically governed. The combination is producing a measurement substrate that is increasingly diverging from what working forest scientists believe to be true. The corrective is not what the market itself is offering.
 
 ## The incentive mismatch
 

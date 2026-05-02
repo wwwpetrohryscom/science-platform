@@ -1,33 +1,38 @@
 ---
-title: "What is climate change? The mechanism, the evidence, and the open questions"
-excerpt: "Climate change refers to the long-term shift in Earth's energy balance driven by changes in atmospheric composition. Here's the mechanism, the evidence behind it, and the questions that remain genuinely open."
+title: What is climate change? The mechanism, the evidence, and the open questions
+excerpt: Climate change refers to the long-term shift in Earth's energy balance driven by changes in atmospheric composition. Here's the mechanism, the evidence behind it, and the questions that remain genuinely open.
 type: pillar
 author: lila-mendez
-publishedDate: 2026-01-22
-updatedDate: 2026-05-02
-readingTime: 11
-tags: [climate, fundamentals, greenhouse-effect, attribution]
+publishedDate: '2026-01-22'
+updatedDate: '2026-05-02'
+readingTime: 5
+tags:
+  - climate
+  - fundamentals
+  - greenhouse-effect
+  - attribution
 related:
   - temperate-forest-carbon-sink-decline
   - communicating-attribution-uncertainty
   - what-is-an-ecosystem
 pillar: what-is-climate-change
 faq:
-  - question: "Is the warming definitely caused by human activity?"
-    answer: "The attribution to human-driven greenhouse gas emissions is one of the most robust findings in modern science, supported by independent lines of evidence — isotopic signatures, the spatial pattern of warming, and the inability of natural-only climate models to reproduce the observed record. Disagreement among working climate scientists on this point is essentially zero."
-  - question: "Why does a degree or two of warming matter?"
-    answer: "Global mean temperature is a thermodynamic forcing that drives much larger regional changes — extreme heat days, precipitation patterns, ocean stratification, sea level. The two-degree threshold is not a cliff but a useful threshold beyond which several large feedbacks (Arctic methane, ice sheet dynamics, forest dieback) become more likely to engage."
-  - question: "What is still genuinely uncertain?"
-    answer: "The magnitude of regional precipitation changes, the timing and reversibility of ice-sheet feedbacks, the response of clouds to warming, and the strength of carbon-cycle feedbacks. The uncertainties are about *how much* and *how fast*, not about whether it is happening or what is causing it."
+  - question: Is the warming definitely caused by human activity?
+    answer: The attribution to human-driven greenhouse gas emissions is one of the most robust findings in modern science, supported by independent lines of evidence — isotopic signatures, the spatial pattern of warming, and the inability of natural-only climate models to reproduce the observed record. Disagreement among working climate scientists on this point is essentially zero.
+  - question: Why does a degree or two of warming matter?
+    answer: Global mean temperature is a thermodynamic forcing that drives much larger regional changes — extreme heat days, precipitation patterns, ocean stratification, sea level. The two-degree threshold is not a cliff but a useful threshold beyond which several large feedbacks (Arctic methane, ice sheet dynamics, forest dieback) become more likely to engage.
+  - question: What is still genuinely uncertain?
+    answer: The magnitude of regional precipitation changes, the timing and reversibility of ice-sheet feedbacks, the response of clouds to warming, and the strength of carbon-cycle feedbacks. The uncertainties are about *how much* and *how fast*, not about whether it is happening or what is causing it.
+_bodyHash: 33a4502e
 ---
 
-Climate change refers to the long-term shift in Earth's energy balance driven primarily — over the last 150 years — by changes in atmospheric composition. The mechanism is well-understood, the evidence is overwhelming, and the genuinely open questions are different from the ones that public discourse usually emphasizes.
+[Climate](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) change refers to the long-term shift in Earth's [energy](/en/physics/energy/perovskite-stack-field-stability) balance driven primarily — over the last 150 years — by changes in atmospheric composition. The mechanism is well-understood, the evidence is overwhelming, and the genuinely open questions are different from the ones that public discourse usually emphasizes.
 
 This article walks through all three.
 
 ## The mechanism
 
-Earth receives roughly constant energy from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, carbon dioxide, methane, nitrous oxide, others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight ([NASA Science: Climate Change Evidence](https://science.nasa.gov/climate-change/evidence/)).
+Earth receives roughly constant energy from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) dioxide, methane, nitrous oxide, others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight ([NASA Science: Climate Change Evidence](https://science.nasa.gov/climate-change/evidence/)).
 
 This effect is not contested. It was characterized in the 19th century, has been measured in laboratories for over a century, and is the only physical explanation consistent with the observed warming pattern. The [IPCC's Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/) describes the human attribution of recent warming as "unequivocal." The greenhouse effect is also why Earth is habitable — without it, the planet would be roughly 33°C colder. The question has never been *whether* greenhouse gases warm the planet. The question is what happens when their concentration changes.
 

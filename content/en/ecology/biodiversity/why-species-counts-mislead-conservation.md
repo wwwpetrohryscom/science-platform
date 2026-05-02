@@ -1,19 +1,24 @@
 ---
-title: "Why species counts mislead conservation prioritization"
-excerpt: "Species richness is the easiest biodiversity metric to compute and the worst one to prioritize on. Functional and phylogenetic diversity are what predict ecosystem performance — and they often disagree with the species count."
+title: Why species counts mislead conservation prioritization
+excerpt: Species richness is the easiest biodiversity metric to compute and the worst one to prioritize on. Functional and phylogenetic diversity are what predict ecosystem performance — and they often disagree with the species count.
 type: pillar
 author: ines-fournier
-publishedDate: 2026-02-08
-updatedDate: 2026-04-25
-readingTime: 10
-tags: [biodiversity, conservation, functional-diversity, prioritization]
+publishedDate: '2026-02-08'
+updatedDate: '2026-05-02'
+readingTime: 4
+tags:
+  - biodiversity
+  - conservation
+  - functional-diversity
+  - prioritization
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
 pillar: why-species-counts-mislead-conservation
+_bodyHash: bf8cf82d
 ---
 
-Species richness — the count of distinct species in a defined area — is the most widely cited measure of biodiversity. It is also among the worst metrics to use for conservation prioritization. The mismatch between what we measure and what we are trying to protect is a structural problem in conservation biology, and it has consequences for where money goes.
+Species richness — the count of distinct species in a defined area — is the most widely cited measure of [biodiversity](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). It is also among the worst metrics to use for [conservation](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) prioritization. The mismatch between what we measure and what we are trying to protect is a structural problem in conservation biology, and it has consequences for where money goes.
 
 This piece explains the mismatch, summarizes the alternatives, and argues that the routine use of species counts as a prioritization signal needs to be retired.
 
@@ -37,7 +42,7 @@ This is the trade-off. Functional diversity is the right thing to measure and a 
 
 ## Phylogenetic diversity
 
-Phylogenetic diversity captures the evolutionary distinctiveness of the species in a community. A site with 10 species all from the same family is less phylogenetically diverse than a site with 10 species drawn from 10 different orders. The former preserves less of the tree of life; the latter preserves more, even with the same species count.
+Phylogenetic diversity captures the evolutionary distinctiveness of the species in a community. A site with 10 species all from the same family is less phylogenetically diverse than a site with 10 species drawn from 10 different orders. The former preserves less of the tree of [life](/en/biology/cells/what-is-a-cell); the latter preserves more, even with the same species count.
 
 Phylogenetic diversity matters because it acts as a proxy for trait diversity in clades where direct trait data are unavailable, and because the loss of a phylogenetically distinct lineage is qualitatively different from the loss of one of many close relatives. It is also more tractable to compute than functional diversity, because well-supported phylogenies now exist for most major groups.
 

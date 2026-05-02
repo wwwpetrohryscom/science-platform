@@ -1,19 +1,24 @@
 ---
-title: "Foundation species and the myth of functional redundancy"
-excerpt: "The claim that ecosystems are robust because species are interchangeable is comforting and largely wrong. Foundation species are how ecosystems hide their fragility."
+title: Foundation species and the myth of functional redundancy
+excerpt: The claim that ecosystems are robust because species are interchangeable is comforting and largely wrong. Foundation species are how ecosystems hide their fragility.
 type: expert
 author: ines-fournier
-publishedDate: 2026-02-04
-updatedDate: 2026-04-22
-readingTime: 8
-tags: [ecosystems, biodiversity, foundation-species, conservation]
+publishedDate: '2026-02-04'
+updatedDate: '2026-05-02'
+readingTime: 3
+tags:
+  - ecosystems
+  - biodiversity
+  - foundation-species
+  - conservation
 related:
   - what-is-an-ecosystem
   - why-species-counts-mislead-conservation
 pillar: what-is-an-ecosystem
+_bodyHash: 69308ed3
 ---
 
-A persistent claim in popular ecology is that biodiversity provides "functional redundancy" — multiple species perform the same role, so the loss of any one species can be absorbed without consequence. This claim is comforting. It is also largely wrong.
+A persistent claim in popular ecology is that [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) provides "functional redundancy" — multiple species perform the same role, so the loss of any one species can be absorbed without consequence. This claim is comforting. It is also largely wrong.
 
 The empirical record from long-term ecosystem studies suggests something closer to the opposite: ecological function is unevenly distributed across species, and a small number of *foundation species* disproportionately determine the structure of the systems they inhabit. Lose them and the ecosystem reorganizes — not because no species can take their place, but because no species is doing what they did at the scale they did it.
 
@@ -35,11 +40,11 @@ The lesson is not that redundancy doesn't exist. It does, for most of the specie
 
 ## Why this matters for conservation
 
-Conservation prioritization frameworks often fall back on species counts (alpha diversity), with secondary attention to rarity. Foundation species are frequently neither rare nor charismatic. Kelp is not rare. Sphagnum moss is not charismatic. Yet the loss of either reorganizes entire systems.
+[Conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) [prioritization](/en/ecology/biodiversity/why-species-counts-mislead-conservation) frameworks often fall back on species counts (alpha diversity), with secondary attention to rarity. Foundation species are frequently neither rare nor charismatic. Kelp is not rare. Sphagnum moss is not charismatic. Yet the loss of either reorganizes entire systems.
 
 A foundation-species-aware framework would prioritize:
 
-- Identifying the foundation species in a given system, which is empirical work that has been done for fewer ecosystems than people assume
+- Identifying the foundation species in a given system, which is empirical work that has been done for fewer [ecosystems](/en/ecology/ecosystems/what-is-an-ecosystem) than people assume
 - Monitoring their condition with the same intensity we monitor flagship species
 - Treating their decline — even if absolute populations remain large — as an early-warning signal for ecosystem reorganization
 

@@ -1,23 +1,28 @@
 ---
-title: "How temperate forests are quietly losing their carbon sink capacity"
-excerpt: "A multi-decade synthesis suggests temperate forests may absorb 15–30% less carbon by 2050 than current models assume — driven by drought stress, pest expansion, and shifting growth seasons."
+title: How temperate forests are quietly losing their carbon sink capacity
+excerpt: A multi-decade synthesis suggests temperate forests may absorb 15–30% less carbon by 2050 than current models assume — driven by drought stress, pest expansion, and shifting growth seasons.
 type: expert
 author: helena-vega
-publishedDate: 2026-02-12
-updatedDate: 2026-05-02
-readingTime: 9
-tags: [carbon, forests, climate, modelling]
+publishedDate: '2026-02-12'
+updatedDate: '2026-05-02'
+readingTime: 3
+tags:
+  - carbon
+  - forests
+  - climate
+  - modelling
 related:
   - what-is-climate-change
   - soil-microbiome-regenerative-agriculture
 pillar: what-is-climate-change
 faq:
-  - question: "Are tropical forests showing the same trend?"
-    answer: "Tropical primary forests are a separate story. The dominant signal there is still deforestation rather than physiological decline. Where intact tropical forests have been measured, productivity changes are smaller and more heterogeneous than in temperate systems."
-  - question: "Can replanting offset the decline?"
-    answer: "Replanting helps locally but does not substitute for an intact mature stand on the timescale of climate policy. Young stands store carbon slowly and are more vulnerable to drought and fire during establishment."
-  - question: "How confident is this finding?"
-    answer: "The deceleration signal is robust across independent inventory networks. The projection to 2050 depends on assumptions about the persistence of current drought patterns. The 15–30% range reflects that uncertainty."
+  - question: Are tropical forests showing the same trend?
+    answer: Tropical primary forests are a separate story. The dominant signal there is still deforestation rather than physiological decline. Where intact tropical forests have been measured, productivity changes are smaller and more heterogeneous than in temperate systems.
+  - question: Can replanting offset the decline?
+    answer: Replanting helps locally but does not substitute for an intact mature stand on the timescale of climate policy. Young stands store carbon slowly and are more vulnerable to drought and fire during establishment.
+  - question: How confident is this finding?
+    answer: The deceleration signal is robust across independent inventory networks. The projection to 2050 depends on assumptions about the persistence of current drought patterns. The 15–30% range reflects that uncertainty.
+_bodyHash: d035dd15
 ---
 
 Forest inventory plots in Europe and North America have tracked aboveground carbon storage for decades. When the most recent measurement cycles are aligned and re-analyzed under a consistent allometric model, a striking pattern emerges: the rate of carbon accumulation is decelerating, and not uniformly. Stands that historically gained the most biomass per hectare per year are now the ones decelerating fastest.
@@ -34,7 +39,7 @@ The signal is strongest in stands aged 40 to 100 years — the cohort that drove
 
 Three drivers, each individually documented, appear to be reinforcing each other.
 
-**Drought frequency.** Continental interiors have seen an increase in years where soil moisture limits stomatal conductance for a substantial fraction of the growing season. Even when those years are not classified as "drought" in conventional indices, they reduce annual carbon uptake.
+**Drought frequency.** Continental interiors have seen an increase in years where [soil](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) moisture limits stomatal conductance for a substantial fraction of the growing season. Even when those years are not classified as "drought" in conventional indices, they reduce annual carbon uptake.
 
 **Pest range expansion.** Bark beetles and defoliating insects are expanding their range polewards and upslope. The overlap with stressed stands shortens the recovery window between disturbance events. Stands that historically had decades to recover between outbreaks now have years.
 
@@ -44,7 +49,7 @@ The novel finding is the reinforcement. A drought-weakened tree is a more attrac
 
 ## Why the standard models miss this
 
-Most coupled climate–vegetation models treat disturbance as a stochastic background process rather than a state variable that interacts with the climate. They also calibrate growth-response curves on the same historical period in which the carbon sink was strengthening — so they project that strength forward. The [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) (Chapter 5, on the global carbon cycle) explicitly flags the persistence of the land sink as one of the larger uncertainties in century-scale projections.
+Most coupled [climate](/en/ecology/climate-change/what-is-climate-change)–vegetation models treat disturbance as a stochastic background process rather than a state variable that interacts with the climate. They also calibrate growth-response curves on the same historical period in which the carbon sink was strengthening — so they project that strength forward. The [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) (Chapter 5, on the global carbon cycle) explicitly flags the persistence of the land sink as one of the larger uncertainties in century-scale projections.
 
 A new generation of models is starting to incorporate disturbance feedbacks explicitly, with promising early results. The current public-facing carbon-budget projections, however, mostly do not yet include them.
 
@@ -61,5 +66,5 @@ This is not a counsel of despair. The deceleration is detectable in part because
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 WG I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change, 2021. Chapter 5 covers the global carbon cycle and land-sink persistence.
 2. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://www.fia.fs.usda.gov/). Multi-decade U.S. inventory plot network underlying the temperate-sink trend analyses.
 3. **ICP Forests** — [International Co-operative Programme on Assessment and Monitoring of Air Pollution Effects on Forests](http://icp-forests.net/). The European long-term forest monitoring network.
-4. **FAO** — [The State of the World's Forests](https://www.fao.org/state-of-forests/en/), Food and Agriculture Organization of the United Nations. Global forest extent and condition reporting.
+4. **FAO** — [The State of the World's Forests](https://www.fao.org/state-of-forests/en/), Food and [Agriculture](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) Organization of the United Nations. Global forest extent and condition reporting.
 5. **UNEP** — [Emissions Gap Report 2024](https://www.unep.org/resources/emissions-gap-report-2024), United Nations Environment Programme. Frames the policy implications of land-sink revisions for net-zero pathways.
