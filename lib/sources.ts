@@ -76,6 +76,30 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       type: "report",
     },
     {
+      name: "Climate Change Indicators",
+      organization: "U.S. Environmental Protection Agency",
+      url: "https://www.epa.gov/climate-indicators",
+      type: "primary",
+    },
+    {
+      name: "Ecosystems and Biodiversity",
+      organization: "UNEP",
+      url: "https://www.unep.org/explore-topics/ecosystems",
+      type: "report",
+    },
+    {
+      name: "Biodiversity: State of Habitats and Species",
+      organization: "European Environment Agency",
+      url: "https://www.eea.europa.eu/en/topics/in-depth/biodiversity",
+      type: "report",
+    },
+    {
+      name: "Forests and Forestry",
+      organization: "European Environment Agency",
+      url: "https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry",
+      type: "report",
+    },
+    {
       name: "State of the World's Forests",
       organization: "FAO",
       url: "https://www.fao.org/",
@@ -85,12 +109,6 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       name: "Emissions Gap Report",
       organization: "UNEP",
       url: "https://www.unep.org/",
-      type: "report",
-    },
-    {
-      name: "Living Planet Report",
-      organization: "WWF",
-      url: "https://www.worldwildlife.org/",
       type: "report",
     },
     {
@@ -117,8 +135,38 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       url: "https://www.ipbes.net/",
       type: "report",
     },
+    {
+      name: "Nature",
+      organization: "Springer Nature",
+      url: "https://www.nature.com/",
+      type: "peer-reviewed",
+    },
+    {
+      name: "Science",
+      organization: "AAAS",
+      url: "https://www.science.org/",
+      type: "peer-reviewed",
+    },
+    {
+      name: "PubMed",
+      organization: "NIH / NLM",
+      url: "https://pubmed.ncbi.nlm.nih.gov/",
+      type: "peer-reviewed",
+    },
   ],
   biology: [
+    {
+      name: "Talking Glossary of Genomic and Genetic Terms",
+      organization: "National Human Genome Research Institute",
+      url: "https://www.genome.gov/genetics-glossary",
+      type: "primary",
+    },
+    {
+      name: "NCBI Bookshelf",
+      organization: "NIH / NLM",
+      url: "https://www.ncbi.nlm.nih.gov/books/",
+      type: "primary",
+    },
     {
       name: "PubMed",
       organization: "NIH / NLM",
@@ -156,6 +204,12 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       type: "peer-reviewed",
     },
     {
+      name: "Coral Reef Watch",
+      organization: "NOAA",
+      url: "https://coralreefwatch.noaa.gov/",
+      type: "primary",
+    },
+    {
       name: "Ensembl",
       organization: "EMBL-EBI",
       url: "https://www.ensembl.org/",
@@ -163,6 +217,24 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     },
   ],
   physics: [
+    {
+      name: "Solar Energy Technologies Office",
+      organization: "U.S. Department of Energy",
+      url: "https://www.energy.gov/eere/solar",
+      type: "primary",
+    },
+    {
+      name: "Perovskite Solar Cells",
+      organization: "U.S. National Renewable Energy Laboratory",
+      url: "https://www.nrel.gov/pv/perovskite-solar-cells",
+      type: "primary",
+    },
+    {
+      name: "Quantum Sensing Explained",
+      organization: "NIST",
+      url: "https://www.nist.gov/quantum-information-science/quantum-sensing-explained",
+      type: "primary",
+    },
     {
       name: "International Energy Agency",
       organization: "IEA",
@@ -188,12 +260,6 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       type: "peer-reviewed",
     },
     {
-      name: "arXiv",
-      organization: "Cornell University",
-      url: "https://arxiv.org/",
-      type: "secondary",
-    },
-    {
       name: "NREL",
       organization: "U.S. National Renewable Energy Laboratory",
       url: "https://www.nrel.gov/",
@@ -203,6 +269,30 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       name: "Joint Research Centre",
       organization: "European Commission",
       url: "https://joint-research-centre.ec.europa.eu/",
+      type: "primary",
+    },
+    {
+      name: "Nature",
+      organization: "Springer Nature",
+      url: "https://www.nature.com/",
+      type: "peer-reviewed",
+    },
+    {
+      name: "Science",
+      organization: "AAAS",
+      url: "https://www.science.org/",
+      type: "peer-reviewed",
+    },
+    {
+      name: "PubMed",
+      organization: "NIH / NLM",
+      url: "https://pubmed.ncbi.nlm.nih.gov/",
+      type: "peer-reviewed",
+    },
+    {
+      name: "NCBI Bookshelf",
+      organization: "NIH / NLM",
+      url: "https://www.ncbi.nlm.nih.gov/books/",
       type: "primary",
     },
   ],

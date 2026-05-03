@@ -2,10 +2,10 @@
 title: Cell types as the conserved unit of animal evolution
 excerpt: If cell types — not organs or networks — are what selection conserves, the standard textbook story about animal evolution needs structural revision.
 type: pillar
-author: mira-brandt
+author: biology-ecosystems-desk
 publishedDate: '2026-02-16'
-updatedDate: '2026-05-02'
-readingTime: 4
+updatedDate: '2026-05-03'
+readingTime: 5
 tags:
   - evolution
   - cell-types
@@ -15,12 +15,12 @@ related:
   - single-cell-evo-devo
   - what-is-a-cell
 pillar: cell-types-as-units-of-evolution
-_bodyHash: 86c64e2d
+_bodyHash: 4c94252f
 ---
 
 The standard textbook story of animal evolution is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.
 
-A growing body of [single-cell](/en/biology/genetics/single-cell-evo-devo) evidence suggests this story is told at the wrong resolution. The features that are conserved across animal evolution are not primarily body plans — they are cell types. Body plans are recombinations of a partially conserved cell-type toolkit. Once you make the shift, several puzzles in animal evolution become much less puzzling.
+Peer-reviewed [single-cell](/en/biology/genetics/single-cell-evo-devo) evidence indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and published in journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/) suggests this story may be told at the wrong resolution. Some features conserved across animal evolution appear to be cell-type programs rather than whole body plans. Body plans can then be understood partly as recombinations of a conserved cell-type toolkit.
 
 ## The classical view
 
@@ -62,8 +62,16 @@ Some structures have evolved without obvious cell-type homologues. Plants are th
 
 ## Implications for the textbook
 
-If the cell-type view holds up — and the evidence is increasingly strong that it does — undergraduate biology curricula will need structural revision. The story of animal evolution would be reframed around cell-type origin and elaboration, with body plans introduced as recombinations rather than as primary objects.
+If the cell-type view holds up, undergraduate biology curricula may need structural revision. The story of animal evolution would be reframed around cell-type origin and elaboration, with body plans introduced as recombinations rather than as primary objects.
 
-This is not a small change. It would shift the conceptual core of comparative animal biology from anatomy to cellular identity. It would also bring the field into closer alignment with how working evolutionary biologists actually think — many of whom have long regarded the body-plan-centric story as a useful pedagogical fiction more than a defensible primary account.
+This would not be a small change. It would shift part of comparative animal biology from anatomy alone toward cellular identity, while preserving the importance of whole-organism selection and morphology.
 
 The textbook revision will lag the literature, as it usually does. The literature has already made the move.
+
+## Sources
+
+1. **PubMed** — [NIH/NLM indexed evolutionary and developmental biology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for cell-type evolution.
+2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed evolutionary biology, genomics, and single-cell research.
+3. **Science** — [Science journals](https://www.science.org/). Peer-reviewed animal evolution and developmental biology research.
+4. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular, cellular, and evolutionary biology.
+5. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.

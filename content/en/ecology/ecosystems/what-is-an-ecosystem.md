@@ -1,11 +1,11 @@
 ---
-title: What is an ecosystem? A working scientist's definition
+title: What is an ecosystem? A flow-based definition
 excerpt: An ecosystem is not a place — it's a flux. Here's what that distinction unlocks for thinking about resilience, restoration, and what we actually conserve.
 type: pillar
-author: helena-vega
+author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-05-02'
-readingTime: 4
+updatedDate: '2026-05-03'
+readingTime: 5
 tags:
   - ecosystems
   - ecology-fundamentals
@@ -15,7 +15,7 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
-_bodyHash: 6165b86
+_bodyHash: 8c5214f
 ---
 
 An ecosystem is the simultaneous flow of [energy](/en/physics/energy/perovskite-stack-field-stability), matter, and information through a community of organisms and their physical surroundings ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). The word "ecosystem" was coined by Arthur Tansley in 1935 specifically to displace the older, more romantic notion of "community" — Tansley wanted a term that emphasized exchange rather than membership.
@@ -72,6 +72,14 @@ It also rules out the idea that you can preserve an ecosystem by drawing a line 
 
 ## The takeaway
 
-When a working ecologist says "ecosystem", the meaningful content is the flux. That framing is what makes the rest of the field — disturbance ecology, restoration, ecosystem services, conservation biology — coherent.
+In ecology, the meaningful content of "ecosystem" is the flux. That framing is what makes the rest of the field — disturbance ecology, restoration, ecosystem services, conservation biology — coherent.
 
 Once you internalize it, much of public ecological discourse becomes easier to evaluate. Claims about "destroying ecosystems" are claims about disrupting specific flows; claims about "restoring ecosystems" are claims about restarting them. Without the flow framing, both kinds of claim float free of the evidence they would need to be true.
+
+## Sources
+
+1. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). Overview of ecosystem protection, restoration, and sustainable use.
+2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European assessment of ecosystem pressures and conservation status.
+3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Intergovernmental assessment of biodiversity, ecosystem services, and drivers of decline.
+4. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Climate-system context for ecosystem disturbance and risk.
+5. **Nature** — [Nature ecology and evolution research](https://www.nature.com/). Peer-reviewed ecology and ecosystem science literature.

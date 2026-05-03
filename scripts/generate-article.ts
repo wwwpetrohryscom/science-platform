@@ -9,7 +9,7 @@
  *     --subtopic climate-change \
  *     --type seo \
  *     --locale en \
- *     --author lila-mendez \
+ *     --author climate-research-desk \
  *     [--pillar what-is-climate-change]
  *
  * The generator writes a file that already passes the validator on

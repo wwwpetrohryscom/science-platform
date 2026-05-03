@@ -2,9 +2,9 @@
 title: What is climate change? The mechanism, the evidence, and the open questions
 excerpt: Climate change refers to the long-term shift in Earth's energy balance driven by changes in atmospheric composition. Here's the mechanism, the evidence behind it, and the questions that remain genuinely open.
 type: pillar
-author: lila-mendez
+author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 5
 tags:
   - climate
@@ -18,15 +18,15 @@ related:
 pillar: what-is-climate-change
 faq:
   - question: Is the warming definitely caused by human activity?
-    answer: The attribution to human-driven greenhouse gas emissions is one of the most robust findings in modern science, supported by independent lines of evidence — isotopic signatures, the spatial pattern of warming, and the inability of natural-only climate models to reproduce the observed record. Disagreement among working climate scientists on this point is essentially zero.
+    answer: IPCC and NASA assessments describe human influence on recent warming as established by multiple independent lines of evidence, including atmospheric composition, observed warming patterns, and model attribution. The strongest remaining uncertainties are about regional impacts, feedback strength, and timing, not the basic direction of human influence.
   - question: Why does a degree or two of warming matter?
     answer: Global mean temperature is a thermodynamic forcing that drives much larger regional changes — extreme heat days, precipitation patterns, ocean stratification, sea level. The two-degree threshold is not a cliff but a useful threshold beyond which several large feedbacks (Arctic methane, ice sheet dynamics, forest dieback) become more likely to engage.
   - question: What is still genuinely uncertain?
     answer: The magnitude of regional precipitation changes, the timing and reversibility of ice-sheet feedbacks, the response of clouds to warming, and the strength of carbon-cycle feedbacks. The uncertainties are about *how much* and *how fast*, not about whether it is happening or what is causing it.
-_bodyHash: 33a4502e
+_bodyHash: 4237b8af
 ---
 
-[Climate](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) change refers to the long-term shift in Earth's [energy](/en/physics/energy/perovskite-stack-field-stability) balance driven primarily — over the last 150 years — by changes in atmospheric composition. The mechanism is well-understood, the evidence is overwhelming, and the genuinely open questions are different from the ones that public discourse usually emphasizes.
+[Climate](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) change refers to the long-term shift in Earth's [energy](/en/physics/energy/perovskite-stack-field-stability) balance driven primarily — over the last 150 years — by changes in atmospheric composition. The mechanism is well-established in the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) and summarized for public audiences by [NASA's climate evidence review](https://science.nasa.gov/climate-change/evidence/). The genuinely open questions are different from the ones that public discourse usually emphasizes.
 
 This article walks through all three.
 
@@ -58,7 +58,7 @@ These are independent. Every one of them would have to be wrong, in a coordinate
 
 ## What is genuinely uncertain
 
-Public discussion often suggests that the central uncertainty is whether climate change is happening or whether humans are causing it. Working climate scientists almost never argue about either. The genuinely open questions are different.
+Public discussion often suggests that the central uncertainty is whether climate change is happening or whether humans are causing it. Major assessments by the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and [NASA](https://science.nasa.gov/climate-change/) treat recent human influence as established. The genuinely open questions are different.
 
 **Regional precipitation.** Global mean precipitation responds robustly to warming, but regional patterns depend on circulation changes that current models do not yet resolve to confidence. Whether a specific region will get wetter, drier, or seasonally variable is harder to predict than mean temperature.
 
@@ -74,7 +74,7 @@ These uncertainties are not symmetric. Most of them, on the central estimate, po
 
 ## The takeaway
 
-Climate change is a thermodynamic consequence of changing atmospheric composition. The mechanism is undisputed; the attribution to human activity is among the most robust empirical findings in modern science. The active research frontier is on magnitude, regional impact, feedback strength, and reversibility — not on the foundational claims.
+Climate change is a thermodynamic consequence of changing atmospheric composition. Major assessments treat the mechanism and recent human attribution as established. The active research frontier is on magnitude, regional impact, feedback strength, and reversibility — not on the foundational claims.
 
 When you encounter a climate argument, the relevant filter is: which of those frontier questions is it addressing? Most useful disagreements live there. The disagreements that don't — the ones that re-litigate the basic mechanism or the attribution — have been settled long enough that engaging them is no longer where the science is.
 

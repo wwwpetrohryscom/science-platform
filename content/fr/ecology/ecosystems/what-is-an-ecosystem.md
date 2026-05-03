@@ -1,10 +1,10 @@
 ---
-title: Qu'est-ce qu'un écosystème ? Définition d'un scientifique en activité
+title: Qu'est-ce qu'un écosystème ? Une définition fondée sur les flux
 excerpt: Un écosystème n'est pas un lieu — c'est un flux. Voici ce que cette distinction permet de penser sur la résilience, la restauration et ce que l'on conserve réellement.
 type: pillar
-author: helena-vega
+author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 5
 tags:
   - ecosystems
@@ -15,20 +15,8 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
-_bodyHash: da703b09
+_bodyHash: 27a1c089
 ---
-
-<!--
-TODO(translation-review): This article contains scientific claims about
-ecology, biogeochemistry, and conservation. The translation below was
-produced by an AI assistant and MUST be reviewed by a French-speaking
-ecologist before being treated as production-ready. Sections that are
-particularly sensitive to phrasing in French scientific writing:
-  - "flux" vs "flot" terminology for ecological flows
-  - the rendering of Tansley's 1935 framing
-  - "biome" vs "écozone" usage
-  - probabilistic language around tipping points
--->
 
 Un écosystème est le flux simultané d'énergie, de matière et d'information à travers une communauté d'organismes et leur environnement physique ([UNEP : Écosystèmes](https://www.unep.org/explore-topics/ecosystems)). Le terme « écosystème » a été forgé par Arthur Tansley en 1935 précisément pour déplacer la notion plus ancienne et plus romantique de « communauté » — Tansley voulait un terme qui mette l'accent sur l'échange plutôt que sur l'appartenance.
 
@@ -38,7 +26,7 @@ Près d'un siècle plus tard, cet accent est plus pertinent que jamais.
 
 La conception populaire d'un écosystème est celle d'un lieu — une forêt, une zone humide, un récif corallien. La définition scientifique est plus proche d'un processus. La forêt est le substrat ; l'écosystème est ce que la forêt fait. La photosynthèse convertit l'énergie solaire en biomasse. La décomposition libère les nutriments minéraux dans la circulation. Les herbivores transfèrent cette énergie vers le haut ; les prédateurs régulent les herbivores. L'eau circule à travers le sol, la racine, la feuille, l'atmosphère, et revient. L'azote cycle à travers fixateurs, plantes, animaux et décomposeurs. L'information — phéromones, cris d'alarme, signalisation mycorhizienne — coordonne l'ensemble.
 
-Retirez le substrat et l'écosystème s'arrête. Retirez le *flux* et le substrat est mort. Cette distinction compte dès lors qu'on demande ce que la conservation conserve réellement.
+Retirez le substrat et l'écosystème s'arrête. Retirez le *flux* et le substrat est mort. Cette distinction compte dès lors qu'on demande ce que la [conservation](/fr/ecology/biodiversity/why-species-counts-mislead-conservation) conserve réellement.
 
 ## Trois propriétés qui définissent un écosystème
 
@@ -84,6 +72,14 @@ Elle exclut également l'idée que l'on peut préserver un écosystème en traç
 
 ## Ce qu'il faut retenir
 
-Quand un écologue en activité dit « écosystème », le contenu significatif est le flux. Ce cadrage est ce qui rend cohérent le reste du domaine — écologie de la perturbation, restauration, services écosystémiques, biologie de la conservation.
+En écologie, le contenu significatif d'« écosystème » est le flux. Ce cadrage est ce qui rend cohérent le reste du domaine — écologie de la perturbation, restauration, services écosystémiques, biologie de la conservation.
 
 Une fois intégré, une bonne partie du discours public en écologie devient plus facile à évaluer. Les affirmations sur la « destruction d'écosystèmes » sont des affirmations sur la perturbation de flux spécifiques ; les affirmations sur la « restauration d'écosystèmes » sont des affirmations sur leur redémarrage. Sans le cadrage par le flux, ces deux types d'affirmations flottent libres des preuves dont elles auraient besoin pour être vraies.
+
+## Sources
+
+1. **UNEP** — [Écosystèmes et biodiversité](https://www.unep.org/explore-topics/ecosystems). Vue d'ensemble de la protection, de la restauration et de l'utilisation durable des écosystèmes.
+2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Évaluation européenne des pressions sur les écosystèmes et de l'état de conservation.
+3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Évaluation intergouvernementale sur la biodiversité, les services écosystémiques et les moteurs du déclin.
+4. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Contexte climatique pour les perturbations et les risques écosystémiques.
+5. **Nature** — [Nature ecology and evolution research](https://www.nature.com/). Littérature scientifique évaluée par les pairs.

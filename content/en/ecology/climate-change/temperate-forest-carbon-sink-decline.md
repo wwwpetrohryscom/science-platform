@@ -1,10 +1,10 @@
 ---
 title: How temperate forests are quietly losing their carbon sink capacity
-excerpt: A multi-decade synthesis suggests temperate forests may absorb 15–30% less carbon by 2050 than current models assume — driven by drought stress, pest expansion, and shifting growth seasons.
+excerpt: Long-term inventory networks show why temperate forest carbon sinks should be treated as dynamic and disturbance-sensitive, not as guaranteed offsets.
 type: expert
-author: helena-vega
+author: climate-research-desk
 publishedDate: '2026-02-12'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 3
 tags:
   - carbon
@@ -21,13 +21,13 @@ faq:
   - question: Can replanting offset the decline?
     answer: Replanting helps locally but does not substitute for an intact mature stand on the timescale of climate policy. Young stands store carbon slowly and are more vulnerable to drought and fire during establishment.
   - question: How confident is this finding?
-    answer: The deceleration signal is robust across independent inventory networks. The projection to 2050 depends on assumptions about the persistence of current drought patterns. The 15–30% range reflects that uncertainty.
-_bodyHash: d035dd15
+    answer: The direction and magnitude of forest carbon-sink change vary by region, stand age, disturbance history, and climate stress. Inventory networks provide strong evidence for monitoring trends, but future projections should be treated as scenario-dependent.
+_bodyHash: 9602abac
 ---
 
-Forest inventory plots in Europe and North America have tracked aboveground carbon storage for decades. When the most recent measurement cycles are aligned and re-analyzed under a consistent allometric model, a striking pattern emerges: the rate of carbon accumulation is decelerating, and not uniformly. Stands that historically gained the most biomass per hectare per year are now the ones decelerating fastest.
+Forest inventory plots in Europe and North America have tracked aboveground carbon storage for decades. Public monitoring systems such as [ICP Forests](http://icp-forests.net/), the [USDA Forest Service Forest Inventory and Analysis program](https://www.fia.fs.usda.gov/), and forest assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) show why forest carbon sinks should be treated as measured systems, not assumed constants.
 
-This is not yet visible in coarse satellite indices because canopy greenness can persist even as net primary productivity declines. The signal lives in the wood, not in the leaves.
+Some carbon-sink changes may not be visible in coarse greenness indices because canopy condition and woody biomass accumulation are related but not identical. The signal needs inventory, remote-sensing, and disturbance data together.
 
 ## What the long-term plots show
 

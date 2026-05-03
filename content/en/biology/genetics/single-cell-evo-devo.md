@@ -2,9 +2,9 @@
 title: Single-cell sequencing is rewriting evolutionary developmental biology
 excerpt: Cell-type atlases across species are revealing that the conserved unit of evolution may be the cell type, not the gene network.
 type: expert
-author: mira-brandt
+author: biology-ecosystems-desk
 publishedDate: '2026-02-02'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 4
 tags:
   - evo-devo
@@ -15,10 +15,10 @@ related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-dna
-_bodyHash: 26622dda
+_bodyHash: e2a64d91
 ---
 
-For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question. Instead of comparing networks in tissues, we now compare entire transcriptional identities of individual [cells](/en/biology/cells/what-is-a-cell). The shift is consequential: what we have started to find suggests that the unit of evolutionary [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) is finer than the network and finer than the organ — it is the cell type itself.
+For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual [cells](/en/biology/cells/what-is-a-cell), using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and major peer-reviewed journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/). The shift is consequential: the unit of evolutionary [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) may be finer than the network and finer than the organ.
 
 ## The shift in unit of analysis
 
@@ -42,7 +42,7 @@ Cross-species transcriptome alignment is hard. Differential gene expression depe
 
 The strongest claims in the field — those that survive across multiple integration methods, multiple sequencing depths, and multiple research groups — are robust. The weakest are integration artefacts. The current bar for a credible cell-type homology claim is approximately: cluster correspondence under at least three independent integration methods, supported by independent regulatory-element evidence (ATAC-seq, conserved transcription-factor binding sites), with replication across multiple samples per species.
 
-This bar is increasingly being met. Several recent papers on cnidarian, ctenophore, and sponge cell-type atlases have produced claims that meet it. The field is moving from speculative single-paper claims to a coherent comparative framework.
+This bar is increasingly visible in the literature, but claims should still be read as method-dependent unless they survive replication across datasets, integration methods, and independent annotations. The field is moving toward a comparative framework rather than a settled taxonomy of all cell-type homologies.
 
 ## What this changes about evo-devo
 
@@ -59,3 +59,11 @@ The boundary between "homology" and "convergence" becomes a question about the l
 The classical results of evo-devo — Hox patterning, the Pax6 master-regulator story, the deep conservation of developmental signaling pathways — survive intact. They are described more precisely now, often in terms of which cell types they instantiate. The shift is not a refutation of the previous generation's work; it is a finer-grained reformulation.
 
 The bigger change is methodological. The field's empirical center of gravity is moving from candidate-gene screens to atlas-scale comparative genomics. The next decade of work in evo-devo will, in large part, look like cell-type comparative biology. The tools are mature; the comparative reference is filling in; the conceptual framework is in place.
+
+## Sources
+
+1. **PubMed** — [NIH/NLM indexed single-cell and evo-devo literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for comparative biology.
+2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed single-cell, developmental biology, and genomics literature.
+3. **Science** — [Science journals](https://www.science.org/). Peer-reviewed evolutionary and developmental biology literature.
+4. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular and developmental biology.
+5. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.

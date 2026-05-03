@@ -177,7 +177,7 @@ export function articleJsonLd(input: {
     inLanguage: input.inLanguage,
     datePublished: input.publishedDate,
     dateModified: input.updatedDate,
-    author: { "@type": "Person", name: input.authorName },
+    author: { "@type": "Organization", name: input.authorName },
     publisher: {
       "@type": "Organization",
       name: siteConfig.name,

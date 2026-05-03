@@ -2,9 +2,9 @@
 title: Why species counts mislead conservation prioritization
 excerpt: Species richness is the easiest biodiversity metric to compute and the worst one to prioritize on. Functional and phylogenetic diversity are what predict ecosystem performance — and they often disagree with the species count.
 type: pillar
-author: ines-fournier
+author: environmental-science-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 4
 tags:
   - biodiversity
@@ -15,10 +15,10 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
 pillar: why-species-counts-mislead-conservation
-_bodyHash: bf8cf82d
+_bodyHash: 65bcdefc
 ---
 
-Species richness — the count of distinct species in a defined area — is the most widely cited measure of [biodiversity](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). It is also among the worst metrics to use for [conservation](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) prioritization. The mismatch between what we measure and what we are trying to protect is a structural problem in conservation biology, and it has consequences for where money goes.
+Species richness — the count of distinct species in a defined area — is one of the most widely cited measures of [biodiversity](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). It is also incomplete as a [conservation](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat biodiversity loss as more than a simple species-count problem.
 
 This piece explains the mismatch, summarizes the alternatives, and argues that the routine use of species counts as a prioritization signal needs to be retired.
 
@@ -36,7 +36,7 @@ These limitations are not new — Whittaker's distinction between alpha, beta, a
 
 Functional diversity counts the number of distinct ecological roles in a community, regardless of how many species occupy each role. Two sites with the same species count can have very different functional diversity if their species are differentially distributed across the role space (deep vs. shallow rooters, generalist vs. specialist consumers, fast vs. slow growers, and so on).
 
-Functional diversity correlates more strongly than species richness with ecosystem performance — productivity, nutrient cycling, resistance to perturbation. It is what most ecologists actually mean when they talk about the "functional importance" of biodiversity. It is also more expensive to measure, because it requires trait data that taxonomic surveys do not collect.
+Functional diversity can be more directly connected than species richness to ecosystem performance — productivity, nutrient cycling, resistance to perturbation — because it tracks what organisms do rather than only how many names appear on a list. It is also more expensive to measure, because it requires trait data that taxonomic surveys do not always collect.
 
 This is the trade-off. Functional diversity is the right thing to measure and a hard thing to measure. Species richness is the wrong thing to measure and a cheap thing to measure. The result has been a quiet collapse to the wrong metric.
 
@@ -66,4 +66,12 @@ Two things can change without waiting for the underlying field to fully transiti
 
 **Stop reporting "biodiversity" as a single number.** When a conservation report cites "biodiversity loss" as a percentage, it is almost always citing species richness. Replacing those headline figures with disaggregated metrics — or at least flagging which metric is being used — would surface the underlying disagreements that single numbers hide.
 
-Neither of these requires new science. They require admitting publicly what the field has known privately for thirty years: that the headline metric is not the right one, and that we have been making decisions on the basis of what is easy to count rather than what matters.
+Neither of these requires new science. They require stating clearly that species richness is only one biodiversity metric, and that prioritization should use the metric that matches the conservation objective.
+
+## Sources
+
+1. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Assessment of biodiversity pressures, habitats, and conservation status.
+2. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Intergovernmental synthesis on biodiversity loss and ecosystem services.
+3. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). UN Environment Programme overview of ecosystem protection and restoration.
+4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed literature on biodiversity, functional diversity, and conservation biology.
+5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed conservation and biodiversity research.

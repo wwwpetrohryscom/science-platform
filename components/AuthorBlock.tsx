@@ -21,26 +21,16 @@ export function AuthorBlock({ author, variant = "card" }: AuthorBlockProps) {
 
   return (
     <aside className="mt-12 flex gap-5 rounded-lg border border-ink-line bg-ink-surface p-6">
-      <Avatar name={author.name} size="lg" />
-      <div className="flex-1">
-        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle">
-          About the author
+        <Avatar name={author.name} size="lg" />
+        <div className="flex-1">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle">
+          Editorial attribution
         </p>
         <p className="mt-1 font-serif text-lg font-semibold text-ink">
           {author.name}
         </p>
         <p className="text-sm text-ink-muted">{author.title}</p>
         <p className="mt-3 text-sm leading-relaxed text-ink">{author.bio}</p>
-        {author.url && (
-          <a
-            href={author.url}
-            className="link-strong mt-3 inline-block text-sm"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            View profile →
-          </a>
-        )}
       </div>
     </aside>
   );

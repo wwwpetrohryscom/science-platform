@@ -2,9 +2,9 @@
 title: What is DNA? The molecule, the code, and what it doesn't determine
 excerpt: DNA is a four-letter molecular code that stores the information needed to build and run a cell. Understanding what it does — and the equally important things it does not do — is the foundation of modern biology.
 type: pillar
-author: mira-brandt
+author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 5
 tags:
   - dna
@@ -19,13 +19,13 @@ faq:
   - question: If DNA is the blueprint, why aren't identical twins identical?
     answer: DNA is not a blueprint — it is a recipe whose execution is sensitive to context. Identical twins share genotype but develop in different prenatal positions, accumulate different mutations, experience different environments, and undergo different epigenetic modifications. The phenotypic differences between identical twins are evidence that DNA underdetermines the organism.
   - question: How much of the human genome is 'junk'?
-    answer: The strong claim that most of the genome is functional has not survived scrutiny. The current best estimate is that 10–25% of the human genome is under purifying selection (and therefore likely functional), with the rest dominated by transposable element relics, pseudogenes, and other sequences without detectable function. 'Junk' is an unfortunate label, but the size of the non-functional fraction is real.
+    answer: Genome function depends on the definition of function. Protein-coding sequence is a small fraction of the genome, while regulatory, structural, and evolutionary roles are more complex. Claims that nearly every base is functional should be treated cautiously unless they distinguish biochemical activity from selected biological function.
   - question: Are most diseases genetic?
-    answer: Most common diseases have a genetic component but are far from purely genetic. Heritability estimates for conditions like diabetes, depression, and most cancers are in the 30–50% range, meaning environment, behavior, and chance account for the majority of risk variation. Single-gene disorders exist and are important for affected individuals, but they are a small fraction of overall disease burden.
-_bodyHash: c4c620f4
+    answer: Many common diseases have genetic components, but most are not purely genetic. Environment, behavior, exposure history, and chance usually interact with inherited risk. Single-gene disorders exist and are important for affected individuals, but they are not a complete model for common disease burden.
+_bodyHash: eedfe71c
 ---
 
-DNA — deoxyribonucleic acid — is a four-letter molecular code that stores the information needed to build and run a cell. It is the carrier of heredity and the substrate on which [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.
+DNA — deoxyribonucleic acid — is a four-letter molecular code that stores genetic information, as summarized by the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). It is the carrier of heredity and the substrate on which [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.
 
 This piece walks through what DNA is, what it does, and the equally important set of things it does not do.
 
@@ -72,3 +72,11 @@ These limits are not gaps in our knowledge that more sequencing will fill. They 
 DNA is the storage medium for biological information and the substrate on which selection operates. It does enormous work; it is the right starting point for almost every question in modern biology. It is not, and could not be, a complete description of what an organism is or what it will become.
 
 The most defensible position on DNA in contemporary public discourse is something like: *DNA matters, the genome is real, heredity is real, and individuals are not reducible to their genome*. All four parts are necessary. Drop any one and you produce one of the standard misunderstandings.
+
+## Sources
+
+1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). National Human Genome Research Institute definition of DNA and genetic information.
+2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Genetics terminology and public-facing genomic science definitions.
+3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts for molecular biology, genetics, and genome function.
+4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and genomics literature index.
+5. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed genetics and genomics literature.
