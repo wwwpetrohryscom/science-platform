@@ -19,28 +19,60 @@ declare global {
     gtag?: (...args: unknown[]) => void;
     __ecosciencehubGaInitialized?: boolean;
     __ecosciencehubLastPageView?: string;
+    __ecosciencehubConsentDefaults?: boolean;
   }
 }
 
 const GA_SCRIPT_ID = "ecosciencehub-google-analytics";
+const isDev = process.env.NODE_ENV !== "production";
 
-function ensureGoogleAnalytics(): boolean {
-  if (GOOGLE_ANALYTICS_ID === "") return false;
+function devLog(...args: unknown[]): void {
+  if (!isDev) return;
+  // eslint-disable-next-line no-console
+  console.info("[analytics]", ...args);
+}
 
+function ensureGtagStub(): void {
   window.dataLayer = window.dataLayer ?? [];
-  window.gtag =
-    window.gtag ??
-    function gtag(...args: unknown[]) {
+  if (!window.gtag) {
+    window.gtag = function gtag(...args: unknown[]) {
       window.dataLayer?.push(args);
     };
+  }
+}
+
+// Pushed on every page load before any consent decision.
+// No network calls happen here — Consent Mode v2 defaults are first-party
+// dataLayer entries that gtag.js reads once it eventually loads.
+function installConsentDefaults(): void {
+  ensureGtagStub();
+  if (window.__ecosciencehubConsentDefaults) return;
+  window.gtag?.("consent", "default", {
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    analytics_storage: "denied",
+  });
+  window.__ecosciencehubConsentDefaults = true;
+  devLog("Consent Mode v2 defaults set to denied");
+}
+
+function loadGoogleAnalytics(): boolean {
+  if (GOOGLE_ANALYTICS_ID === "") return false;
+  ensureGtagStub();
+
+  window.gtag?.("consent", "update", {
+    analytics_storage: "granted",
+  });
 
   if (!window.__ecosciencehubGaInitialized) {
-    window.gtag("js", new Date());
-    window.gtag("config", GOOGLE_ANALYTICS_ID, {
+    window.gtag?.("js", new Date());
+    window.gtag?.("config", GOOGLE_ANALYTICS_ID, {
       anonymize_ip: true,
       send_page_view: false,
     });
     window.__ecosciencehubGaInitialized = true;
+    devLog("GA configured", GOOGLE_ANALYTICS_ID);
   }
 
   if (!document.getElementById(GA_SCRIPT_ID)) {
@@ -50,10 +82,23 @@ function ensureGoogleAnalytics(): boolean {
     script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(
       GOOGLE_ANALYTICS_ID,
     )}`;
+    script.addEventListener("load", () => devLog("gtag.js loaded"));
     document.head.appendChild(script);
+    devLog("gtag.js injected");
   }
 
   return true;
+}
+
+function sendPageView(pagePath: string): void {
+  if (window.__ecosciencehubLastPageView === pagePath) return;
+  window.gtag?.("event", "page_view", {
+    page_path: pagePath,
+    page_location: window.location.href,
+    page_title: document.title,
+  });
+  window.__ecosciencehubLastPageView = pagePath;
+  devLog("page_view", pagePath);
 }
 
 export function CookieBanner() {
@@ -64,6 +109,7 @@ export function CookieBanner() {
   const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
 
   useEffect(() => {
+    installConsentDefaults();
     const stored = readConsent();
     setConsent(stored);
     setAnalyticsEnabled(stored?.analytics ?? false);
@@ -81,17 +127,12 @@ export function CookieBanner() {
   const loadAnalytics = ready && analyticsEnabled && GOOGLE_ANALYTICS_ID !== "";
 
   useEffect(() => {
-    if (!loadAnalytics || !ensureGoogleAnalytics()) return;
+    if (!loadAnalytics) return;
+    if (!loadGoogleAnalytics()) return;
 
     const query = window.location.search.replace(/^\?/, "");
     const pagePath = query ? `${pathname}?${query}` : pathname;
-    if (window.__ecosciencehubLastPageView === pagePath) return;
-
-    window.gtag?.("config", GOOGLE_ANALYTICS_ID, {
-      anonymize_ip: true,
-      page_path: pagePath,
-    });
-    window.__ecosciencehubLastPageView = pagePath;
+    sendPageView(pagePath);
   }, [loadAnalytics, pathname]);
 
   return (
