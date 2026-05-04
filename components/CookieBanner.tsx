@@ -35,8 +35,12 @@ function devLog(...args: unknown[]): void {
 function ensureGtagStub(): void {
   window.dataLayer = window.dataLayer ?? [];
   if (!window.gtag) {
-    window.gtag = function gtag(...args: unknown[]) {
-      window.dataLayer?.push(args);
+    // Mirror Google's canonical snippet exactly: push the Arguments
+    // object (not a rest array) so gtag.js and Tag Assistant see the
+    // shape they expect.
+    window.gtag = function gtag() {
+      // eslint-disable-next-line prefer-rest-params
+      window.dataLayer?.push(arguments);
     };
   }
 }
@@ -67,8 +71,9 @@ function loadGoogleAnalytics(): boolean {
 
   if (!window.__ecosciencehubGaInitialized) {
     window.gtag?.("js", new Date());
+    // send_page_view: false — we dispatch page_view manually on every
+    // client-side route change so SPA navigations are counted exactly once.
     window.gtag?.("config", GOOGLE_ANALYTICS_ID, {
-      anonymize_ip: true,
       send_page_view: false,
     });
     window.__ecosciencehubGaInitialized = true;
