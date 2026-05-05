@@ -95,6 +95,15 @@
     @apply h-px bg-ink-line;
   }
 
+  /* Anti-spam honeypot. Visually hidden but still in the DOM and
+     focusable in source order — bots see and fill it; humans don't. */
+  .hp-trap {
+    @apply absolute pointer-events-none opacity-0;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+  }
+
   /* Long-form article body */
   .prose-article {
     @apply text-[1.0625rem] leading-[1.75] text-ink;

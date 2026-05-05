@@ -4,7 +4,12 @@ import { Inter, Source_Serif_4 } from "next/font/google";
 
 import "@/styles/globals.css";
 import { CookieBanner } from "@/components/CookieBanner";
-import { siteConfig, buildMetadata } from "@/lib/seo";
+import {
+  siteConfig,
+  buildMetadata,
+  organizationJsonLd,
+  websiteJsonLd,
+} from "@/lib/seo";
 import {
   LOCALES,
   isLocale,
@@ -85,6 +90,12 @@ export default function LocaleLayout({
   if (!isLocale(params.locale)) notFound();
   const meta = localeMeta[params.locale];
 
+  // Site-wide structured data — Organization is identical across
+  // locales (it identifies the publisher); WebSite is per-locale so
+  // its `inLanguage` and `url` reflect the current root.
+  const orgLd = organizationJsonLd();
+  const siteLd = websiteJsonLd({ locale: params.locale });
+
   return (
     <html
       lang={meta.htmlLang}
@@ -92,6 +103,15 @@ export default function LocaleLayout({
       className={`${inter.variable} ${serif.variable}`}
     >
       <body className="min-h-screen bg-white text-ink antialiased">
+        <script
+          type="application/ld+json"
+          // Stable, derived from typed config — not user input.
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd) }}
+        />
         {children}
         <CookieBanner />
       </body>

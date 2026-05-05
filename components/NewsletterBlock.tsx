@@ -1,4 +1,8 @@
 import { getMessages, translator, type Locale } from "@/lib/i18n";
+import {
+  HONEYPOT_FIELD,
+  HONEYPOT_TIMESTAMP_FIELD,
+} from "@/lib/security/honeypot";
 
 type NewsletterBlockProps = {
   locale: Locale;
@@ -39,9 +43,9 @@ export function NewsletterBlock({ locale, variant = "section" }: NewsletterBlock
           </p>
         </div>
 
-        {/* TODO(integration): wire this form to the newsletter provider
-            (e.g. Buttondown, ConvertKit, Substack API). The action handler
-            should validate the email server-side and double-opt-in. */}
+        {/* `/api/newsletter` runs the full anti-spam stack
+            (rate-limit, honeypot, sanitize, optional CAPTCHA) before
+            handing off to the provider integration. */}
         <form
           action="/api/newsletter"
           method="post"
@@ -55,8 +59,27 @@ export function NewsletterBlock({ locale, variant = "section" }: NewsletterBlock
             name="email"
             type="email"
             required
+            autoComplete="email"
             placeholder={t("newsletter.email_placeholder")}
             className="flex-1 rounded-md border border-ink-line bg-white px-4 py-2.5 text-sm text-ink placeholder:text-ink-subtle focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-200"
+          />
+          {/* Honeypot — invisible to users, attractive to bots. The
+              server rejects submissions that fill this field. */}
+          <div aria-hidden="true" className="hp-trap">
+            <label htmlFor="newsletter-website-url">Website</label>
+            <input
+              id="newsletter-website-url"
+              type="text"
+              name={HONEYPOT_FIELD}
+              tabIndex={-1}
+              autoComplete="off"
+              defaultValue=""
+            />
+          </div>
+          <input
+            type="hidden"
+            name={HONEYPOT_TIMESTAMP_FIELD}
+            defaultValue={Date.now()}
           />
           <button type="submit" className="btn-primary">
             {t("newsletter.submit")}

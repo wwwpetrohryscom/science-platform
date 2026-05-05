@@ -19,6 +19,13 @@
  */
 import { isAuthoritativeUrl, extractCitationUrls } from "@/lib/sources";
 import type { CategorySlug } from "@/lib/categories";
+import {
+  detectFakeCitations,
+  detectKeywordStuffing,
+  detectLinkSpam,
+  detectRepeatedPhrases,
+} from "@/lib/content/quality";
+import { BANNED_PHRASES } from "@/lib/content/tone";
 
 export type ValidationSeverity = "error" | "warning";
 
@@ -218,6 +225,67 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
         filepath: fp,
       });
     }
+  }
+
+  // 9. Spam-shape signals. Warnings only — false positives on real
+  //    editorial copy are tolerable; the goal is visibility before a
+  //    page hits the index.
+  const stuffing = detectKeywordStuffing(article.body);
+  if (stuffing.length > 0) {
+    const top = stuffing[0];
+    issues.push({
+      severity: "warning",
+      rule: "keyword-stuffing",
+      message: `term "${top.term}" appears ${top.count}× (${(top.ratio * 100).toFixed(1)}% of body)`,
+      filepath: fp,
+    });
+  }
+  const repeats = detectRepeatedPhrases(article.body);
+  if (repeats.length > 0) {
+    issues.push({
+      severity: "warning",
+      rule: "repeated-phrase",
+      message: `phrase "${repeats[0].phrase}" repeats ${repeats[0].count}×`,
+      filepath: fp,
+    });
+  }
+  const linkSpam = detectLinkSpam(article.body);
+  if (linkSpam) {
+    issues.push({
+      severity: "warning",
+      rule: "link-density",
+      message: `${(linkSpam.ratio * 100).toFixed(1)}% link words — body reads as a link list`,
+      filepath: fp,
+    });
+  }
+
+  // 10. Banned-phrase scan — sensationalism, fake-cure language, etc.
+  //     A warning, not an error: substring matches can't tell apart
+  //     "settled science" (banned) from "not a settled science" (a
+  //     legitimate negation). The editor reviews each hit; CI promotes
+  //     to error via `--strict` when the corpus is ready for it.
+  const lower = article.body.toLowerCase();
+  const banned = BANNED_PHRASES.filter((p) => lower.includes(p));
+  if (banned.length > 0) {
+    issues.push({
+      severity: "warning",
+      rule: "banned-phrase",
+      message: `body contains banned phrase(s): ${banned.join(", ")} — verify usage is not endorsement`,
+      filepath: fp,
+    });
+  }
+
+  // 11. Fake-citation shape — "Smith et al., 2023" without an
+  //     accompanying URL. We can't prove a citation is invented from
+  //     shape alone, so this is a warning the editor must clear.
+  const fakeShape = detectFakeCitations(article.body);
+  if (fakeShape.length > 0) {
+    issues.push({
+      severity: "warning",
+      rule: "fake-citation",
+      message: `unlinked citation-shaped text: ${fakeShape.slice(0, 3).join("; ")}`,
+      filepath: fp,
+    });
   }
 
   return issues;
