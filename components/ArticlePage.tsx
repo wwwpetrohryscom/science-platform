@@ -7,6 +7,7 @@ import { FaqSection } from "@/components/FaqSection";
 import { TableOfContents } from "@/components/TableOfContents";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
+import { GeneratedBlock } from "@/components/GeneratedBlock";
 
 import {
   formatDate,
@@ -16,6 +17,19 @@ import {
   type Article,
 } from "@/lib/content";
 import { getCategory } from "@/lib/categories";
+import { extractCitationUrls } from "@/lib/sources";
+import {
+  generateArticleIntro,
+  generateArticleMethodologyNote,
+  generateConceptExplanation,
+  generateResearchSummary,
+  generateUncertaintyNote,
+} from "@/lib/content/generators";
+import {
+  evidenceForConceptCopy,
+  exploreTopicCopy,
+  relatedInSubtopicCopy,
+} from "@/lib/content/internal-links";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
   getMessages,
@@ -57,6 +71,39 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
         : null;
 
   const related = await getRelatedArticles(article);
+
+  // Generated content blocks — derived from structured frontmatter +
+  // body citation count. No external API call, no client-side fetch.
+  const citationCount = extractCitationUrls(article.rawBody).length;
+  const articleGenInput = {
+    slug: article.slug,
+    title: article.title,
+    excerpt: article.excerpt,
+    category: article.category,
+    subtopic: article.subtopic,
+    publishedDate: article.publishedDate,
+    updatedDate: article.updatedDate,
+    tags: article.tags,
+    type: article.type,
+    citationCount,
+  };
+  const introBlock = generateArticleIntro(articleGenInput);
+  const researchBlock = generateResearchSummary(articleGenInput);
+  const methodologyBlock = generateArticleMethodologyNote(article.category);
+  const uncertaintyBlock = generateUncertaintyNote({
+    level: citationCount === 0 ? "insufficient" : "medium",
+    limitation:
+      citationCount < 2 && citationCount > 0
+        ? "fewer than two independent citations on this page"
+        : undefined,
+  });
+  const primaryConcept = article.tags[0];
+  const conceptBlock = primaryConcept
+    ? generateConceptExplanation(
+        primaryConcept,
+        `${article.category}/${article.subtopic}/${article.slug}`,
+      )
+    : null;
 
   // Structured data — use the article's localized URL for inLanguage
   // and mainEntityOfPage. Hreflang is emitted via metadata, not JSON-LD.
@@ -168,6 +215,9 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
           <p className="mt-5 text-lg leading-relaxed text-ink-muted">
             {article.excerpt}
           </p>
+          <div className="mt-4 max-w-3xl">
+            <GeneratedBlock block={introBlock} variant="explanation" />
+          </div>
 
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 border-y border-ink-line py-4">
             <AuthorBlock author={article.author} variant="byline" />
@@ -193,6 +243,76 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
         <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_220px]">
           <div className="max-w-reader">
             <ArticleBody html={article.html} />
+
+            {/* Evidence summary — derives from real citation count,
+                so it never claims more support than the body has. */}
+            <section
+              aria-labelledby="evidence-summary-heading"
+              className="mt-10 rounded-md border border-ink-line bg-ink-surface p-5"
+            >
+              <h2
+                id="evidence-summary-heading"
+                className="font-serif text-lg font-semibold text-ink"
+              >
+                Evidence and uncertainty
+              </h2>
+              <div className="mt-3">
+                <GeneratedBlock block={researchBlock} variant="note" />
+              </div>
+              <div className="mt-3">
+                <GeneratedBlock block={uncertaintyBlock} variant="note" />
+              </div>
+              {conceptBlock && (
+                <div className="mt-3">
+                  <GeneratedBlock
+                    block={conceptBlock}
+                    variant="note"
+                    eyebrow="Concept"
+                  />
+                  <p className="mt-2 text-xs text-ink-subtle">
+                    <Link
+                      href={localizedPath(
+                        locale,
+                        `/${article.category}/${article.subtopic}`,
+                      )}
+                      className="link-quiet"
+                    >
+                      {evidenceForConceptCopy(primaryConcept ?? subtopicLabel)}
+                    </Link>
+                  </p>
+                </div>
+              )}
+              <div className="mt-4">
+                <GeneratedBlock
+                  block={methodologyBlock}
+                  variant="note"
+                  eyebrow="Methodology"
+                />
+              </div>
+              <p className="mt-4 text-xs text-ink-subtle">
+                Last updated{" "}
+                <time dateTime={article.updatedDate}>
+                  {formatDate(article.updatedDate, locale)}
+                </time>{" "}
+                ·{" "}
+                <Link
+                  href={localizedPath(locale, `/${article.category}`)}
+                  className="link-quiet"
+                >
+                  {exploreTopicCopy(categoryLabel)}
+                </Link>{" "}
+                ·{" "}
+                <Link
+                  href={localizedPath(
+                    locale,
+                    `/${article.category}/${article.subtopic}`,
+                  )}
+                  className="link-quiet"
+                >
+                  {relatedInSubtopicCopy(subtopicLabel)}
+                </Link>
+              </p>
+            </section>
 
             <NewsletterBlock locale={locale} variant="inline" />
 

@@ -7,12 +7,22 @@ import { ArticleBody } from "@/components/ArticleBody";
 import { AuthorBlock } from "@/components/AuthorBlock";
 import { TableOfContents } from "@/components/TableOfContents";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
+import { GeneratedBlock } from "@/components/GeneratedBlock";
+import { SourceList } from "@/components/SourceList";
 
 import {
   formatDate,
   getAllInsights,
   getInsight,
 } from "@/lib/content";
+import { extractCitationUrls } from "@/lib/sources";
+import {
+  generateArticleMethodologyNote,
+  generateResearchSummary,
+  generateSourceBlock,
+  generateUncertaintyNote,
+  listSourcesForTopic,
+} from "@/lib/content/generators";
 import {
   articleJsonLd,
   breadcrumbJsonLd,
@@ -72,6 +82,36 @@ export default async function InsightPage({ params }: Props) {
 
   const t = translator(getMessages(locale));
   const categoryLabel = t(`categories.${insight.category}.label`);
+
+  // Generated context blocks for the insight: a research summary
+  // (sized by real citation count), an uncertainty note, a
+  // methodology note, and the curated source registry — all
+  // rendered server-side in initial HTML.
+  const insightCitationCount = extractCitationUrls(insight.rawBody).length;
+  const researchBlock = generateResearchSummary({
+    slug: insight.slug,
+    title: insight.title,
+    excerpt: insight.excerpt,
+    category: insight.category,
+    // Insights are not pinned to a subtopic — use the first one in
+    // the category as the framing context for the generator.
+    subtopic: "",
+    publishedDate: insight.publishedDate,
+    updatedDate: insight.updatedDate,
+    tags: insight.tags,
+    type: "expert",
+    citationCount: insightCitationCount,
+  });
+  const uncertaintyBlock = generateUncertaintyNote({
+    level: insightCitationCount === 0 ? "insufficient" : "medium",
+    limitation:
+      insightCitationCount > 0 && insightCitationCount < 2
+        ? "argument rests on a small citation pool"
+        : undefined,
+  });
+  const methodologyBlock = generateArticleMethodologyNote(insight.category);
+  const sourceBlock = generateSourceBlock(insight.category);
+  const sources = listSourcesForTopic(insight.category);
 
   const articleLd = articleJsonLd({
     title: insight.title,
@@ -171,6 +211,53 @@ export default async function InsightPage({ params }: Props) {
             <div className="mt-8">
               <ArticleBody html={insight.html} />
             </div>
+
+            {/* Source intro + research summary + transparent
+                uncertainty disclosure. All server-rendered. */}
+            <section
+              aria-labelledby="insight-evidence-heading"
+              className="mt-10 rounded-md border border-ink-line bg-ink-surface p-5"
+            >
+              <h2
+                id="insight-evidence-heading"
+                className="font-serif text-lg font-semibold text-ink"
+              >
+                Sources behind this argument
+              </h2>
+              <div className="mt-3">
+                <GeneratedBlock block={sourceBlock} variant="note" />
+              </div>
+              <div className="mt-3">
+                <GeneratedBlock block={researchBlock} variant="note" />
+              </div>
+              <div className="mt-3">
+                <GeneratedBlock
+                  block={uncertaintyBlock}
+                  variant="note"
+                  eyebrow="Uncertainty"
+                />
+              </div>
+              <div className="mt-3">
+                <GeneratedBlock
+                  block={methodologyBlock}
+                  variant="note"
+                  eyebrow="Methodology"
+                />
+              </div>
+              <p className="mt-4 text-xs text-ink-subtle">
+                Last updated{" "}
+                <time dateTime={insight.updatedDate}>
+                  {formatDate(insight.updatedDate, locale)}
+                </time>
+              </p>
+            </section>
+
+            <SourceList
+              sources={sources}
+              heading={`Curated ${categoryLabel} sources`}
+              description={`${categoryLabel} citations are validated against this registry of recognised research bodies.`}
+              limit={6}
+            />
 
             <NewsletterBlock locale={locale} variant="inline" />
 

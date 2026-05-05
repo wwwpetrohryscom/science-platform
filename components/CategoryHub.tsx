@@ -3,6 +3,8 @@ import { PageHeading } from "@/components/PageHeading";
 import { SubtopicCard } from "@/components/SubtopicCard";
 import { ArticleCard } from "@/components/ArticleCard";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
+import { GeneratedBlock } from "@/components/GeneratedBlock";
+import { SourceList } from "@/components/SourceList";
 
 import { getCategory, type CategorySlug } from "@/lib/categories";
 import {
@@ -10,6 +12,13 @@ import {
   getPillarForSubtopic,
   getSubtopicCounts,
 } from "@/lib/content";
+import {
+  generateMethodologyNote,
+  generateSourceBlock,
+  generateTopicExplanation,
+  generateTopicIntro,
+  listSourcesForTopic,
+} from "@/lib/content/generators";
 import {
   getMessages,
   localizedPath,
@@ -41,6 +50,12 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
 
   const latest = allArticles.slice(0, 6);
 
+  const topicIntro = generateTopicIntro(category);
+  const topicExplanation = generateTopicExplanation(category);
+  const methodology = generateMethodologyNote(category);
+  const sourceBlock = generateSourceBlock(category);
+  const sources = listSourcesForTopic(category);
+
   return (
     <Layout locale={locale}>
       <PageHeading
@@ -50,6 +65,20 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
         accent={def.accent}
         crumbs={[{ label: t("nav.home"), href: localizedPath(locale, "/") }]}
       />
+
+      {/* Generated topic intro — always rendered server-side. */}
+      <section
+        aria-labelledby="topic-intro-heading"
+        className="container-page mt-10 max-w-3xl"
+      >
+        <h2 id="topic-intro-heading" className="sr-only">
+          About {label}
+        </h2>
+        <GeneratedBlock block={topicIntro} variant="intro" />
+        <div className="mt-6">
+          <GeneratedBlock block={topicExplanation} variant="explanation" />
+        </div>
+      </section>
 
       {/* Subtopics */}
       <section
@@ -123,6 +152,32 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
           </div>
         </section>
       )}
+
+      {/* Methodology + curated sources — every topic page surfaces
+          provenance so generated explanations stay accountable. */}
+      <section
+        aria-labelledby="methodology-heading"
+        className="container-page mt-20 max-w-3xl"
+      >
+        <h2
+          id="methodology-heading"
+          className="font-serif text-display-md font-semibold tracking-tight text-ink"
+        >
+          Methodology and sources
+        </h2>
+        <div className="mt-4">
+          <GeneratedBlock block={methodology} variant="explanation" />
+        </div>
+        <div className="mt-4">
+          <GeneratedBlock block={sourceBlock} variant="explanation" />
+        </div>
+        <SourceList
+          sources={sources}
+          heading={`Curated sources for ${label}`}
+          description={`Citations in ${label.toLowerCase()} articles are validated against this registry of recognised research bodies.`}
+          limit={8}
+        />
+      </section>
 
       <div className="mt-24">
         <NewsletterBlock locale={locale} />
