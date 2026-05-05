@@ -4,6 +4,8 @@ import { Layout } from "@/components/Layout";
 import { PageHeading } from "@/components/PageHeading";
 import { ArticleCard } from "@/components/ArticleCard";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
+import { GeneratedBlock } from "@/components/GeneratedBlock";
+import { SourceList } from "@/components/SourceList";
 
 import { getCategory, type CategorySlug } from "@/lib/categories";
 import {
@@ -11,6 +13,15 @@ import {
   getPillarForSubtopic,
   getSiblingSubtopics,
 } from "@/lib/content";
+import {
+  generateMethodologyNote,
+  generateSubtopicExplanation,
+  generateSubtopicIntro,
+  listSourcesForTopic,
+} from "@/lib/content/generators";
+import {
+  relatedInSubtopicCopy,
+} from "@/lib/content/internal-links";
 import {
   getMessages,
   localizedPath,
@@ -52,6 +63,21 @@ export async function SubtopicHub({
     : allInSub;
   const siblings = getSiblingSubtopics(category, subtopicSlug);
 
+  const subtopicIntro = generateSubtopicIntro({
+    category,
+    subtopicSlug,
+    articleCount: allInSub.length,
+    pillarTitle: pillar?.title,
+  });
+  const subtopicExplanationBlock = generateSubtopicExplanation({
+    category,
+    subtopicSlug,
+    articleCount: allInSub.length,
+    pillarTitle: pillar?.title,
+  });
+  const methodology = generateMethodologyNote(category);
+  const sources = listSourcesForTopic(category);
+
   return (
     <Layout locale={locale}>
       <PageHeading
@@ -64,6 +90,23 @@ export async function SubtopicHub({
           { label: categoryLabel, href: localizedPath(locale, `/${category}`) },
         ]}
       />
+
+      {/* Generated subtopic intro */}
+      <section
+        aria-labelledby="subtopic-intro-heading"
+        className="container-page mt-10 max-w-3xl"
+      >
+        <h2 id="subtopic-intro-heading" className="sr-only">
+          About {subtopicLabel}
+        </h2>
+        <GeneratedBlock block={subtopicIntro} variant="intro" />
+        <div className="mt-6">
+          <GeneratedBlock
+            block={subtopicExplanationBlock}
+            variant="explanation"
+          />
+        </div>
+      </section>
 
       {/* Pillar feature */}
       {pillar && (
@@ -157,6 +200,9 @@ export async function SubtopicHub({
                   <p className="mt-1 text-sm text-ink-muted">
                     {t(`subtopics.${sib.slug}.description`)}
                   </p>
+                  <p className="mt-2 text-xs text-ink-subtle">
+                    {relatedInSubtopicCopy(t(`subtopics.${sib.slug}.label`))}
+                  </p>
                 </div>
                 <span aria-hidden className="text-primary-600 mt-1">
                   →
@@ -166,6 +212,28 @@ export async function SubtopicHub({
           </div>
         </section>
       )}
+
+      {/* Source transparency — methodology + curated registry. */}
+      <section
+        aria-labelledby="subtopic-sources-heading"
+        className="container-page mt-20 max-w-3xl"
+      >
+        <h2
+          id="subtopic-sources-heading"
+          className="font-serif text-2xl font-semibold tracking-tight text-ink md:text-3xl"
+        >
+          Where the evidence comes from
+        </h2>
+        <div className="mt-4">
+          <GeneratedBlock block={methodology} variant="explanation" />
+        </div>
+        <SourceList
+          sources={sources}
+          heading={`Curated sources for ${categoryLabel}`}
+          description={`Citations under ${subtopicLabel} are validated against this registry.`}
+          limit={6}
+        />
+      </section>
 
       <div className="mt-24">
         <NewsletterBlock locale={locale} />
