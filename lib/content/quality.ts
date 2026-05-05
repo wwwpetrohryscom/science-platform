@@ -182,3 +182,159 @@ export function requireFields<T extends Record<string, unknown>>(
   }
   return { ok: issues.length === 0, issues };
 }
+
+/* ----------------------------------------------------------------
+   Spam-shape detectors
+   --------------------------------------------------------------
+   These are deliberately conservative — false positives on
+   editorial copy are worse than missing the occasional spam
+   pattern, because every issue surfaces as a build-time warning
+   rather than a hard failure.
+---------------------------------------------------------------- */
+
+/** Tokens stripped before frequency analysis. */
+const STOPWORDS = new Set([
+  "the","a","an","and","or","but","of","in","on","at","to","for","with",
+  "by","is","are","was","were","be","been","being","this","that","these",
+  "those","it","its","as","from","into","than","then","so","such","not",
+  "no","yes","we","you","they","i","he","she","them","us","our","your",
+  "their","his","her","my","me","do","does","did","have","has","had",
+  "will","would","can","could","may","might","also","because","while",
+  "where","when","what","which","who","whom","why","how",
+]);
+
+const TOKEN_RE = /[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9'-]{2,}/g;
+
+/**
+ * Detect keyword-stuffing — a single non-stopword term occupying more
+ * than `maxRatio` of all content tokens. Default 7% is calibrated for
+ * focused scientific copy where the topic term legitimately recurs
+ * (an article on "DNA" will say "DNA" often). Real spam typically
+ * runs 8–12%; legitimate explanatory writing peaks around 5–6%.
+ */
+export function detectKeywordStuffing(
+  text: string,
+  opts: { minTokens?: number; maxRatio?: number } = {},
+): Array<{ term: string; ratio: number; count: number }> {
+  const minTokens = opts.minTokens ?? 80;
+  const maxRatio = opts.maxRatio ?? 0.07;
+  const tokens =
+    text.toLowerCase().match(TOKEN_RE)?.filter((t) => !STOPWORDS.has(t)) ?? [];
+  if (tokens.length < minTokens) return [];
+  const counts = new Map<string, number>();
+  for (const t of tokens) counts.set(t, (counts.get(t) ?? 0) + 1);
+  const offenders: Array<{ term: string; ratio: number; count: number }> = [];
+  for (const [term, count] of counts) {
+    const ratio = count / tokens.length;
+    if (ratio > maxRatio && count >= 5) {
+      offenders.push({ term, ratio, count });
+    }
+  }
+  return offenders.sort((a, b) => b.ratio - a.ratio);
+}
+
+/**
+ * Detect repeated phrases (n-grams ≥ `minN` words) that occur more
+ * than `maxRepeats` times. Short forms ("for example", "in this
+ * article") still slip through this — by design; we only flag
+ * substantial duplicate phrasing. Default 8-gram threshold catches
+ * boilerplate without flagging the natural recurrence of subject
+ * names in explanatory science writing.
+ */
+export function detectRepeatedPhrases(
+  text: string,
+  opts: { minN?: number; maxRepeats?: number } = {},
+): Array<{ phrase: string; count: number }> {
+  const minN = opts.minN ?? 8;
+  const maxRepeats = opts.maxRepeats ?? 2;
+  const tokens = text.toLowerCase().match(TOKEN_RE) ?? [];
+  if (tokens.length < minN * 2) return [];
+  const counts = new Map<string, number>();
+  for (let i = 0; i <= tokens.length - minN; i++) {
+    const phrase = tokens.slice(i, i + minN).join(" ");
+    counts.set(phrase, (counts.get(phrase) ?? 0) + 1);
+  }
+  const out: Array<{ phrase: string; count: number }> = [];
+  for (const [phrase, count] of counts) {
+    if (count > maxRepeats) out.push({ phrase, count });
+  }
+  return out.sort((a, b) => b.count - a.count);
+}
+
+/**
+ * Compare two texts on token overlap — used to flag near-duplicate
+ * intros across topic/subtopic pages. Returns a Jaccard-style ratio
+ * in [0,1]; >0.7 generally means "the same paragraph reworded".
+ */
+export function similarityRatio(a: string, b: string): number {
+  const setA = new Set((a.toLowerCase().match(TOKEN_RE) ?? []).filter((t) => !STOPWORDS.has(t)));
+  const setB = new Set((b.toLowerCase().match(TOKEN_RE) ?? []).filter((t) => !STOPWORDS.has(t)));
+  if (setA.size === 0 || setB.size === 0) return 0;
+  let intersect = 0;
+  for (const t of setA) if (setB.has(t)) intersect += 1;
+  const union = setA.size + setB.size - intersect;
+  return union === 0 ? 0 : intersect / union;
+}
+
+/**
+ * Outbound-link density check. Articles with > `maxRatio` link-words
+ * relative to body words (default 10%) read as link farms to most
+ * crawlers. Real link-stuffed pages typically run 15–30%; well-cited
+ * scientific copy peaks around 6–8% on a citation-dense paragraph.
+ * Returns the offending ratio when over threshold, or `null`.
+ */
+export function detectLinkSpam(
+  markdown: string,
+  opts: { maxRatio?: number } = {},
+): { ratio: number; linkWords: number; bodyWords: number } | null {
+  const maxRatio = opts.maxRatio ?? 0.1;
+  const linkText: string[] = [];
+  for (const m of markdown.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)) {
+    linkText.push(m[1]);
+  }
+  const linkWords = linkText.reduce(
+    (acc, t) => acc + (t.match(TOKEN_RE)?.length ?? 0),
+    0,
+  );
+  const bodyWords = (markdown.match(TOKEN_RE) ?? []).length;
+  if (bodyWords < 100) return null;
+  const ratio = linkWords / bodyWords;
+  return ratio > maxRatio ? { ratio, linkWords, bodyWords } : null;
+}
+
+/**
+ * Convenience wrapper — runs the spam-shape detectors against a body
+ * of text and returns a list of `QualityIssue`s ready to merge into
+ * an `AuditResult`. Designed for use by the corpus validator.
+ */
+export function auditSpamShape(
+  text: string,
+  block: string,
+): QualityIssue[] {
+  const issues: QualityIssue[] = [];
+  const stuffing = detectKeywordStuffing(text);
+  for (const s of stuffing) {
+    issues.push({
+      block,
+      rule: "banned-phrase",
+      detail: `keyword stuffing on "${s.term}" (${(s.ratio * 100).toFixed(1)}%, ${s.count}×)`,
+    });
+  }
+  const repeats = detectRepeatedPhrases(text);
+  for (const r of repeats.slice(0, 3)) {
+    issues.push({
+      block,
+      rule: "banned-phrase",
+      detail: `repeated phrase "${r.phrase}" (${r.count}×)`,
+    });
+  }
+  const linkSpam = detectLinkSpam(text);
+  if (linkSpam) {
+    issues.push({
+      block,
+      rule: "banned-phrase",
+      detail: `link density ${(linkSpam.ratio * 100).toFixed(1)}% exceeds threshold`,
+    });
+  }
+  return issues;
+}

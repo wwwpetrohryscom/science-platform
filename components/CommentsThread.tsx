@@ -1,6 +1,10 @@
 import { formatDate } from "@/lib/content";
 import type { DiscussionComment } from "@/lib/discussions";
 import { type Locale } from "@/lib/i18n";
+import {
+  HONEYPOT_FIELD,
+  HONEYPOT_TIMESTAMP_FIELD,
+} from "@/lib/security/honeypot";
 
 type CommentsThreadProps = {
   locale: Locale;
@@ -56,7 +60,10 @@ export function CommentsThread({
 
       {acceptingNew ? (
         <form
-          // TODO(integration): wire to moderation backend.
+          // `/api/discussions/comment` runs the full anti-spam stack
+          // (rate-limit, honeypot, sanitize, length & link caps,
+          // banned-phrase + spam-shape detectors) before queueing for
+          // moderation review.
           action="/api/discussions/comment"
           method="post"
           className="mt-6 rounded-md border border-ink-line bg-ink-surface p-5"
@@ -75,12 +82,33 @@ export function CommentsThread({
             id="comment-body"
             name="body"
             rows={4}
+            required
+            minLength={30}
+            maxLength={4000}
             placeholder="Make a substantive point — citations welcome."
             className="mt-3 w-full rounded-md border border-ink-line bg-white px-3 py-2 text-sm focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-200"
           />
+          {/* Honeypot — must stay in DOM order so naïve form-fillers
+              still see and fill it. */}
+          <div aria-hidden="true" className="hp-trap">
+            <label htmlFor="comment-website-url">Website</label>
+            <input
+              id="comment-website-url"
+              type="text"
+              name={HONEYPOT_FIELD}
+              tabIndex={-1}
+              autoComplete="off"
+              defaultValue=""
+            />
+          </div>
+          <input
+            type="hidden"
+            name={HONEYPOT_TIMESTAMP_FIELD}
+            defaultValue={Date.now()}
+          />
           <div className="mt-3 flex items-center justify-between">
             <p className="text-xs text-ink-subtle">
-              Markdown supported. Submissions enter a moderation queue.
+              Plain text only. Submissions enter a moderation queue.
             </p>
             <button type="submit" className="btn-primary">
               Submit for review
