@@ -49,6 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     authors: [article.author.name],
     tags: article.tags,
     ogImage: article.heroImage,
+    noIndex: article.localeFallback,
   });
 }
 

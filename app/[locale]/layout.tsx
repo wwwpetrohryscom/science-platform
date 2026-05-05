@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Inter, Source_Serif_4 } from "next/font/google";
 
 import "@/styles/globals.css";
+import { CookieBanner } from "@/components/CookieBanner";
 import {
   siteConfig,
   buildMetadata,
@@ -112,6 +113,7 @@ export default function LocaleLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd) }}
         />
         {children}
+        <CookieBanner />
       </body>
     </html>
   );

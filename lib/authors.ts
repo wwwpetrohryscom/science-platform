@@ -1,10 +1,9 @@
 /**
- * Author registry.
+ * Editorial attribution registry.
  *
- * Articles reference authors by id (in their frontmatter) rather than
- * inlining biographical data. This keeps bios consistent across pieces
- * and gives us a clear migration path to per-author hub pages
- * (`/author/<id>`) with `Person` JSON-LD.
+ * Articles reference attribution labels by id rather than presenting
+ * unverifiable individual experts. These are editorial desks, not
+ * individual scientists, and carry no academic credentials.
  */
 
 export type Author = {
@@ -15,103 +14,69 @@ export type Author = {
   /** Optional external profile or institution page. */
   url?: string;
   /**
-   * Subject expertise tags — used to weight author display on
-   * subtopic pages and to validate that an author is appropriate
-   * for the article's category.
+   * Subject tags used for display and validation. These are desk
+   * coverage areas, not claims of individual expertise.
    */
   expertise: string[];
 };
 
 export type AuthorId =
-  | "helena-vega"
-  | "ren-iwasaki"
-  | "mira-brandt"
-  | "daniel-okafor"
-  | "sofia-laurent"
-  | "anya-petrov"
-  | "marcus-hale"
-  | "lila-mendez"
-  | "kai-rosenberg"
-  | "ines-fournier";
+  | "ecosciencehub-editorial-team"
+  | "climate-research-desk"
+  | "environmental-science-desk"
+  | "biology-ecosystems-desk"
+  | "energy-systems-desk"
+  | "public-health-environment-desk";
 
 export const authors: Record<AuthorId, Author> = {
-  "helena-vega": {
-    id: "helena-vega",
-    name: "Dr. Helena Vega",
-    title: "Senior Ecologist, Institute for Climate Systems",
-    bio: "Helena studies forest carbon dynamics across temperate and boreal biomes, with twelve years of field-station experience.",
-    url: "https://example.org/people/helena-vega",
-    expertise: ["ecology", "climate", "forestry"],
+  "ecosciencehub-editorial-team": {
+    id: "ecosciencehub-editorial-team",
+    name: "EcoScienceHub Editorial Team",
+    title: "Editorial desk",
+    bio: "Editorial attribution for EcoScienceHub explainers and platform guidance. This label does not represent an individual scientist or reviewer.",
+    expertise: ["science", "editorial", "research"],
   },
-  "ren-iwasaki": {
-    id: "ren-iwasaki",
-    name: "Dr. Ren Iwasaki",
-    title: "Marine Biologist, Pacific Reef Lab",
-    bio: "Ren leads long-term monitoring of coral microbiomes and their role in bleaching resistance.",
-    expertise: ["biology", "marine", "microbiome"],
+  "climate-research-desk": {
+    id: "climate-research-desk",
+    name: "Climate Research Desk",
+    title: "Editorial desk",
+    bio: "Editorial attribution for climate science coverage based on authoritative assessments, public datasets, and peer-reviewed literature.",
+    expertise: ["climate", "ecology", "attribution"],
   },
-  "mira-brandt": {
-    id: "mira-brandt",
-    name: "Dr. Mira Brandt",
-    title: "Computational Biologist, EMBL Affiliate",
-    bio: "Mira works at the intersection of single-cell sequencing and evolutionary developmental biology.",
-    expertise: ["biology", "genomics", "evo-devo"],
+  "environmental-science-desk": {
+    id: "environmental-science-desk",
+    name: "Environmental Science Desk",
+    title: "Editorial desk",
+    bio: "Editorial attribution for ecology, biodiversity, restoration, and environmental monitoring coverage.",
+    expertise: ["ecology", "biodiversity", "conservation"],
   },
-  "daniel-okafor": {
-    id: "daniel-okafor",
-    name: "Prof. Daniel Okafor",
-    title: "Applied Physicist, Photovoltaics Group",
-    bio: "Daniel develops next-generation perovskite stacks with a focus on long-term stability under field conditions.",
+  "biology-ecosystems-desk": {
+    id: "biology-ecosystems-desk",
+    name: "Biology & Ecosystems Desk",
+    title: "Editorial desk",
+    bio: "Editorial attribution for biology, cell science, genetics, evolution, and organism-environment interactions.",
+    expertise: ["biology", "genetics", "evolution", "ecosystems"],
+  },
+  "energy-systems-desk": {
+    id: "energy-systems-desk",
+    name: "Energy Systems Desk",
+    title: "Editorial desk",
+    bio: "Editorial attribution for applied physics, energy systems, photovoltaics, thermodynamics, and measurement technologies.",
     expertise: ["physics", "energy", "materials"],
   },
-  "sofia-laurent": {
-    id: "sofia-laurent",
-    name: "Dr. Sofia Laurent",
-    title: "Soil Scientist, Agro-ecology Network",
-    bio: "Sofia studies microbial nitrogen cycling in regenerative cropping systems.",
-    expertise: ["ecology", "soil", "agriculture"],
-  },
-  "anya-petrov": {
-    id: "anya-petrov",
-    name: "Dr. Anya Petrov",
-    title: "Atmospheric Chemist, Stratospheric Research Group",
-    bio: "Anya works on heterogeneous chemistry in the upper atmosphere, including aerosol-mediated reaction pathways.",
-    expertise: ["physics", "atmosphere", "climate"],
-  },
-  "marcus-hale": {
-    id: "marcus-hale",
-    name: "Prof. Marcus Hale",
-    title: "Science Policy Scholar, Centre for Risk Governance",
-    bio: "Marcus writes about the governance of emerging technologies and the institutions that shape scientific risk-taking.",
-    expertise: ["policy", "ethics", "physics"],
-  },
-  "lila-mendez": {
-    id: "lila-mendez",
-    name: "Dr. Lila Mendez",
-    title: "Climate Scientist, Attribution Working Group",
-    bio: "Lila co-leads rapid-attribution studies for extreme weather events, with an emphasis on probabilistic communication.",
-    expertise: ["ecology", "climate", "attribution"],
-  },
-  "kai-rosenberg": {
-    id: "kai-rosenberg",
-    name: "Dr. Kai Rosenberg",
-    title: "Quantum Sensor Group, National Metrology Institute",
-    bio: "Kai builds atomic clocks and gravimeters and writes about how quantum sensing is leaving the laboratory.",
-    expertise: ["physics", "quantum", "metrology"],
-  },
-  "ines-fournier": {
-    id: "ines-fournier",
-    name: "Dr. Inés Fournier",
-    title: "Conservation Biologist, Global Biodiversity Observatory",
-    bio: "Inés studies functional diversity and the gap between species-counting and ecosystem-functioning frameworks in conservation.",
-    expertise: ["ecology", "biodiversity", "conservation"],
+  "public-health-environment-desk": {
+    id: "public-health-environment-desk",
+    name: "Public Health & Environment Desk",
+    title: "Editorial desk",
+    bio: "Editorial attribution for coverage connecting environmental change, exposure, health risk, and public-health institutions.",
+    expertise: ["health", "environment", "climate"],
   },
 };
 
 export function getAuthor(id: string): Author {
   if (!(id in authors)) {
     throw new Error(
-      `Unknown author id: "${id}". Add the author to lib/authors.ts before referencing them in content frontmatter.`,
+      `Unknown author id: "${id}". Add the attribution label to lib/authors.ts before referencing it in content frontmatter.`,
     );
   }
   return authors[id as AuthorId];

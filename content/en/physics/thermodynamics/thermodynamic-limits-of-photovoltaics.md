@@ -2,10 +2,10 @@
 title: The thermodynamic limits of photovoltaics — and why they matter for what's possible
 excerpt: There is a hard upper bound on how much sunlight any single-junction photovoltaic cell can convert to electricity. Knowing where it comes from clarifies which directions of improvement are physics, and which are engineering.
 type: pillar
-author: daniel-okafor
+author: energy-systems-desk
 publishedDate: '2026-02-26'
-updatedDate: '2026-05-02'
-readingTime: 4
+updatedDate: '2026-05-03'
+readingTime: 5
 tags:
   - thermodynamics
   - photovoltaics
@@ -15,10 +15,10 @@ related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
 pillar: thermodynamic-limits-of-photovoltaics
-_bodyHash: ebcccbc4
+_bodyHash: ed0ac080
 ---
 
-There is a hard upper bound on how much sunlight any single-junction photovoltaic cell can convert to electricity. Under standard solar illumination it sits near 33% — the Shockley-Queisser limit, derived in 1961. Modern silicon [cells](/en/biology/cells/what-is-a-cell) operate around 27%, very close to a refined version of that bound. Knowing where the bound comes from clarifies what counts as fundamental physics and what counts as engineering — and which directions of improvement are real.
+There is a hard upper bound on how much sunlight any single-junction photovoltaic cell can convert to electricity. Under standard solar illumination it sits near 33% — the Shockley-Queisser limit, derived in 1961 and discussed across peer-reviewed photovoltaic literature indexed by [Science](https://www.science.org/) and [Nature](https://www.nature.com/). High-performing silicon [cells](/en/biology/cells/what-is-a-cell) operate close enough to that bound that further gains are increasingly engineering-limited. Knowing where the bound comes from clarifies what counts as fundamental physics and what counts as engineering.
 
 ## Where the bound comes from
 
@@ -69,3 +69,11 @@ Solar thermal generation has its own Carnot-style ceiling that depends on receiv
 The Shockley-Queisser limit is not a special quirk of photovoltaics; it is the photovoltaic case of a general principle. Solar conversion is bounded; the bounds depend on the conversion process. Knowing the bound for your process tells you whether the engineering frontier is close to it or far from it — and whether further improvement is a matter of effort or a matter of physics.
 
 This is the kind of clarity worth having before placing decade-scale energy bets.
+
+## Sources
+
+1. **NREL** — [Photovoltaic research](https://www.nrel.gov/pv/research.html). U.S. National Renewable Energy Laboratory photovoltaic research and performance context.
+2. **U.S. Department of Energy** — [Solar Energy Technologies Office](https://www.energy.gov/eere/solar). DOE solar-energy research and deployment context.
+3. **Reviews of Modern Physics** — [American Physical Society journals](https://journals.aps.org/rmp/). Peer-reviewed review literature on photovoltaic and thermodynamic limits.
+4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed energy-materials and photovoltaic literature.
+5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed photovoltaic and applied-physics literature.

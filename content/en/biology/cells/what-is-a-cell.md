@@ -2,9 +2,9 @@
 title: What is a cell? The unit of life, defined operationally
 excerpt: A cell is the smallest unit that can sustain itself, copy itself, and respond to its environment. Each of those requirements rules out what "cell" doesn't mean — and explains why borderline cases are interesting.
 type: pillar
-author: mira-brandt
+author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 4
 tags:
   - cells
@@ -15,10 +15,10 @@ related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
-_bodyHash: 2b1ec94e
+_bodyHash: feabf6d0
 ---
 
-A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not [cells](/en/biology/cells/coral-microbiome-bleaching-resistance), even though they share some properties of cells.
+A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. This operational framing is consistent with cell-biology reference material available through [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and genetics definitions from [NHGRI](https://www.genome.gov/genetics-glossary). Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not [cells](/en/biology/cells/coral-microbiome-bleaching-resistance), even though they share some properties of cells.
 
 This piece walks through the operational definition rather than the textbook list of organelles, because the textbook list answers a different question.
 
@@ -67,3 +67,11 @@ The operational definition does work in three places.
 ## The takeaway
 
 A cell is the smallest physical unit that sustains itself, copies itself, and responds to its environment. The textbook list of organelles is downstream of those three requirements. When you encounter a biological object and want to know whether it is a cell, run the requirements. The answer is usually clear; when it isn't, the borderline case is itself the interesting object.
+
+## Sources
+
+1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts and peer-reviewed biomedical books for cell biology.
+2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). National Human Genome Research Institute definitions and explainers.
+3. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for cell biology and virology.
+4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed cell biology literature.
+5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed biology literature.

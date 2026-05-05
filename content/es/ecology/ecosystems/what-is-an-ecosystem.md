@@ -1,10 +1,10 @@
 ---
-title: ¿Qué es un ecosistema? La definición de un científico en activo
+title: ¿Qué es un ecosistema? Una definición basada en flujos
 excerpt: Un ecosistema no es un lugar — es un flujo. He aquí lo que esa distinción permite pensar sobre resiliencia, restauración y lo que realmente conservamos.
 type: pillar
-author: helena-vega
+author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-05-02'
+updatedDate: '2026-05-03'
 readingTime: 5
 tags:
   - ecosystems
@@ -15,20 +15,8 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
-_bodyHash: 8023f4c
+_bodyHash: a213d9af
 ---
-
-<!--
-TODO(translation-review): This article contains scientific claims about
-ecology, biogeochemistry, and conservation. The translation below was
-produced by an AI assistant and MUST be reviewed by a Spanish-speaking
-ecologist before being treated as production-ready. Sections that are
-particularly sensitive to phrasing in Spanish scientific writing:
-  - "flujo" terminology vs "circulación" for ecological flows
-  - regional Spanish variants ("bosque" / "selva")
-  - Tansley framing
-  - probabilistic language around tipping points
--->
 
 Un ecosistema es el flujo simultáneo de energía, materia e información a través de una comunidad de organismos y su entorno físico ([UNEP: Ecosistemas](https://www.unep.org/explore-topics/ecosystems)). El término «ecosistema» fue acuñado por Arthur Tansley en 1935 precisamente para desplazar la noción más antigua y romántica de «comunidad» — Tansley quería un término que enfatizara el intercambio en lugar de la pertenencia.
 
@@ -38,7 +26,7 @@ Casi un siglo después, ese énfasis es más relevante que nunca.
 
 La concepción popular de un ecosistema es la de un lugar — un bosque, un humedal, un arrecife coralino. La definición científica está más cerca de un proceso. El bosque es el sustrato; el ecosistema es lo que el bosque hace. La fotosíntesis convierte la energía solar en biomasa. La descomposición libera nutrientes minerales de vuelta a la circulación. Los herbívoros transfieren esa energía hacia arriba; los depredadores regulan a los herbívoros. El agua se mueve por suelo, raíz, hoja, atmósfera y vuelve. El nitrógeno cicla por fijadores, plantas, animales y descomponedores. La información — feromonas, llamadas de alarma, señalización micorrízica — coordina el conjunto.
 
-Quita el sustrato y el ecosistema se detiene. Quita el *flujo* y el sustrato está muerto. Esta distinción importa cuando empiezas a preguntar qué conserva realmente la conservación.
+Quita el sustrato y el ecosistema se detiene. Quita el *flujo* y el sustrato está muerto. Esta distinción importa cuando empiezas a preguntar qué conserva realmente la [conservación](/es/ecology/biodiversity/why-species-counts-mislead-conservation).
 
 ## Tres propiedades que definen un ecosistema
 
@@ -84,6 +72,14 @@ También descarta la idea de que se puede preservar un ecosistema dibujando una 
 
 ## La conclusión
 
-Cuando un ecólogo en activo dice «ecosistema», el contenido significativo es el flujo. Ese encuadre es lo que hace coherente el resto del campo — ecología de la perturbación, restauración, servicios ecosistémicos, biología de la conservación.
+En ecología, el contenido significativo de «ecosistema» es el flujo. Ese encuadre es lo que hace coherente el resto del campo — ecología de la perturbación, restauración, servicios ecosistémicos, biología de la conservación.
 
 Una vez interiorizado, mucho del discurso ecológico público se vuelve más fácil de evaluar. Las afirmaciones sobre «destruir ecosistemas» son afirmaciones sobre perturbar flujos específicos; las afirmaciones sobre «restaurar ecosistemas» son afirmaciones sobre reiniciarlos. Sin el encuadre del flujo, ambos tipos de afirmaciones flotan libres de la evidencia que necesitarían para ser ciertas.
+
+## Sources
+
+1. **UNEP** — [Ecosistemas y biodiversidad](https://www.unep.org/explore-topics/ecosystems). Panorama sobre protección, restauración y uso sostenible de ecosistemas.
+2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Evaluación europea de presiones sobre ecosistemas y estado de conservación.
+3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Evaluación intergubernamental sobre biodiversidad, servicios ecosistémicos y causas del deterioro.
+4. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Contexto climático para perturbaciones y riesgos ecosistémicos.
+5. **Nature** — [Nature ecology and evolution research](https://www.nature.com/). Literatura científica revisada por pares.

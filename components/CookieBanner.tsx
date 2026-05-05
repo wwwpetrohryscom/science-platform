@@ -1,0 +1,241 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+
+import {
+  GOOGLE_ANALYTICS_ID,
+  createConsentState,
+  readConsent,
+  saveConsent,
+  type ConsentState,
+} from "@/lib/consent";
+
+type BannerView = "summary" | "customize";
+
+declare global {
+  interface Window {
+    dataLayer?: unknown[];
+    gtag?: (...args: unknown[]) => void;
+    __ecosciencehubGaInitialized?: boolean;
+    __ecosciencehubLastPageView?: string;
+    __ecosciencehubConsentDefaults?: boolean;
+  }
+}
+
+const GA_SCRIPT_ID = "ecosciencehub-google-analytics";
+const isDev = process.env.NODE_ENV !== "production";
+
+function devLog(...args: unknown[]): void {
+  if (!isDev) return;
+  // eslint-disable-next-line no-console
+  console.info("[analytics]", ...args);
+}
+
+function ensureGtagStub(): void {
+  window.dataLayer = window.dataLayer ?? [];
+  if (!window.gtag) {
+    // Mirror Google's canonical snippet exactly: push the Arguments
+    // object (not a rest array) so gtag.js and Tag Assistant see the
+    // shape they expect.
+    window.gtag = function gtag() {
+      // eslint-disable-next-line prefer-rest-params
+      window.dataLayer?.push(arguments);
+    };
+  }
+}
+
+// Pushed on every page load before any consent decision.
+// No network calls happen here — Consent Mode v2 defaults are first-party
+// dataLayer entries that gtag.js reads once it eventually loads.
+function installConsentDefaults(): void {
+  ensureGtagStub();
+  if (window.__ecosciencehubConsentDefaults) return;
+  window.gtag?.("consent", "default", {
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    analytics_storage: "denied",
+  });
+  window.__ecosciencehubConsentDefaults = true;
+  devLog("Consent Mode v2 defaults set to denied");
+}
+
+function loadGoogleAnalytics(): boolean {
+  if (GOOGLE_ANALYTICS_ID === "") return false;
+  ensureGtagStub();
+
+  window.gtag?.("consent", "update", {
+    analytics_storage: "granted",
+  });
+
+  if (!window.__ecosciencehubGaInitialized) {
+    window.gtag?.("js", new Date());
+    // send_page_view: false — we dispatch page_view manually on every
+    // client-side route change so SPA navigations are counted exactly once.
+    window.gtag?.("config", GOOGLE_ANALYTICS_ID, {
+      send_page_view: false,
+    });
+    window.__ecosciencehubGaInitialized = true;
+    devLog("GA configured", GOOGLE_ANALYTICS_ID);
+  }
+
+  if (!document.getElementById(GA_SCRIPT_ID)) {
+    const script = document.createElement("script");
+    script.id = GA_SCRIPT_ID;
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(
+      GOOGLE_ANALYTICS_ID,
+    )}`;
+    script.addEventListener("load", () => devLog("gtag.js loaded"));
+    document.head.appendChild(script);
+    devLog("gtag.js injected");
+  }
+
+  return true;
+}
+
+function sendPageView(pagePath: string): void {
+  if (window.__ecosciencehubLastPageView === pagePath) return;
+  window.gtag?.("event", "page_view", {
+    page_path: pagePath,
+    page_location: window.location.href,
+    page_title: document.title,
+  });
+  window.__ecosciencehubLastPageView = pagePath;
+  devLog("page_view", pagePath);
+}
+
+export function CookieBanner() {
+  const pathname = usePathname();
+  const [consent, setConsent] = useState<ConsentState | null>(null);
+  const [ready, setReady] = useState(false);
+  const [view, setView] = useState<BannerView>("summary");
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
+
+  useEffect(() => {
+    installConsentDefaults();
+    const stored = readConsent();
+    setConsent(stored);
+    setAnalyticsEnabled(stored?.analytics ?? false);
+    setReady(true);
+  }, []);
+
+  const decide = (analytics: boolean) => {
+    const next = createConsentState(analytics);
+    saveConsent(next);
+    setConsent(next);
+    setAnalyticsEnabled(analytics);
+  };
+
+  const showBanner = ready && consent === null;
+  const loadAnalytics = ready && analyticsEnabled && GOOGLE_ANALYTICS_ID !== "";
+
+  useEffect(() => {
+    if (!loadAnalytics) return;
+    if (!loadGoogleAnalytics()) return;
+
+    const query = window.location.search.replace(/^\?/, "");
+    const pagePath = query ? `${pathname}?${query}` : pathname;
+    sendPageView(pagePath);
+  }, [loadAnalytics, pathname]);
+
+  return (
+    <>
+      {showBanner && (
+        <section
+          aria-label="Cookie consent"
+          className="fixed inset-x-0 bottom-0 z-50 border-t border-ink-line bg-white/95 shadow-[0_-16px_40px_rgba(26,36,33,0.12)] backdrop-blur"
+        >
+          <div className="container-page flex flex-col gap-5 py-5 md:flex-row md:items-start md:justify-between">
+            <div className="max-w-3xl">
+              <p className="text-sm font-semibold text-ink">
+                EcoScienceHub uses privacy-conscious cookies
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+                Necessary storage keeps this preference working. Analytics is
+                optional and helps us understand aggregate site usage. Analytics
+                scripts are blocked until you accept them.
+              </p>
+
+              {view === "customize" && (
+                <div className="mt-4 grid gap-3 rounded-lg border border-ink-line bg-ink-surface p-4 text-sm">
+                  <label className="flex items-start gap-3">
+                    <input
+                      checked
+                      disabled
+                      type="checkbox"
+                      className="mt-1 h-4 w-4 rounded border-ink-line"
+                    />
+                    <span>
+                      <span className="block font-medium text-ink">
+                        Necessary cookies
+                      </span>
+                      <span className="block text-ink-muted">
+                        Always enabled. Required for cookie preference storage
+                        and basic site security.
+                      </span>
+                    </span>
+                  </label>
+                  <label className="flex items-start gap-3">
+                    <input
+                      checked={analyticsEnabled}
+                      onChange={(event) =>
+                        setAnalyticsEnabled(event.currentTarget.checked)
+                      }
+                      type="checkbox"
+                      className="mt-1 h-4 w-4 rounded border-ink-line text-primary-700 focus:ring-primary-600"
+                    />
+                    <span>
+                      <span className="block font-medium text-ink">
+                        Analytics cookies
+                      </span>
+                      <span className="block text-ink-muted">
+                        Optional. Enables aggregate measurement through the
+                        configured Google Analytics property.
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              )}
+            </div>
+
+            <div className="flex flex-col gap-2 sm:flex-row md:flex-col lg:flex-row">
+              {view === "summary" ? (
+                <button
+                  type="button"
+                  onClick={() => setView("customize")}
+                  className="btn-outline whitespace-nowrap"
+                >
+                  Customize
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => decide(analyticsEnabled)}
+                  className="btn-outline whitespace-nowrap"
+                >
+                  Save choices
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={() => decide(false)}
+                className="btn-outline whitespace-nowrap"
+              >
+                Reject non-essential
+              </button>
+              <button
+                type="button"
+                onClick={() => decide(true)}
+                className="btn-primary whitespace-nowrap"
+              >
+                Accept all
+              </button>
+            </div>
+          </div>
+        </section>
+      )}
+    </>
+  );
+}

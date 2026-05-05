@@ -21,7 +21,7 @@ export type DiscussionComment = {
   id: string;
   authorName: string;
   authorTitle: string;
-  /** Whether the participant has been verified as a domain expert. */
+  /** Whether the participant has been verified as a real domain expert. */
   isExpert: boolean;
   postedAt: string;
   body: string;
@@ -34,7 +34,7 @@ export type Discussion = {
   category: CategorySlug;
   /** The framing topic — shown as a lede on the discussion page. */
   topic: string;
-  /** Lead expert framing the conversation. */
+  /** Editorial desk framing the conversation. */
   moderator: Author;
   publishedDate: string;
   updatedDate: string;
@@ -54,7 +54,7 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     category: "physics",
     topic:
       "Stratospheric aerosol injection has moved from speculative to plausibly deployable within a decade. The question is no longer whether it works in models — it is whether constrained field experiments are scientifically necessary or politically reckless.",
-    moderatorId: "daniel-okafor",
+    moderatorId: "energy-systems-desk",
     publishedDate: "2026-03-10",
     updatedDate: "2026-04-24",
     status: "open",
@@ -64,27 +64,27 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     comments: [
       {
         id: "c1",
-        authorName: "Dr. Anya Petrov",
-        authorTitle: "Atmospheric Chemist",
-        isExpert: true,
+        authorName: "Climate Research Desk",
+        authorTitle: "Editorial desk",
+        isExpert: false,
         postedAt: "2026-03-11T09:14:00Z",
-        body: "Modelling alone cannot resolve the second-order chemistry questions — heterogeneous reactions on aerosol surfaces are sensitive to particle morphology in ways that lab-scale experiments cannot replicate. Constrained field experiments are not a slippery slope; they are how we close the parameter gap.",
+        body: "Moderator note: field experiments are sometimes proposed because models and laboratory studies cannot fully reproduce atmospheric aerosol behavior. Any such proposal needs transparent governance before it is treated as scientifically or politically acceptable.",
       },
       {
         id: "c2",
-        authorName: "Prof. Marcus Hale",
-        authorTitle: "Science Policy Scholar",
-        isExpert: true,
+        authorName: "EcoScienceHub Editorial Team",
+        authorTitle: "Editorial desk",
+        isExpert: false,
         postedAt: "2026-03-11T15:32:00Z",
-        body: "I agree the science requires field data, but the governance vacuum is the binding constraint. A unilateral trial — even a small one — sets a precedent that will be used to justify much larger deployments. The order matters: governance first, then trials.",
+        body: "Discussion framing: the scientific case for more data does not remove the governance problem. A unilateral trial, even a small one, could create precedent before accountability rules exist.",
       },
       {
         id: "c3",
-        authorName: "Dr. Ren Iwasaki",
-        authorTitle: "Marine Biologist",
-        isExpert: true,
+        authorName: "Environmental Science Desk",
+        authorTitle: "Editorial desk",
+        isExpert: false,
         postedAt: "2026-03-12T11:05:00Z",
-        body: "From a marine perspective: we still cannot agree on the regional precipitation impacts of injection scenarios. Until we can, ocean ecosystems are being asked to absorb risk they cannot consent to. That argues for trials that include marine monitoring, not against trials in principle.",
+        body: "Open question: regional precipitation and ocean-system impacts remain central concerns in geoengineering assessment. Monitoring design should be part of any serious proposal, not an afterthought.",
       },
     ],
   },
@@ -95,7 +95,7 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     category: "ecology",
     topic:
       "Rapid attribution studies now publish within days of an extreme event. The methods are sound; the communication is uneven. What does responsible framing of probabilistic attribution look like for non-specialist audiences?",
-    moderatorId: "lila-mendez",
+    moderatorId: "climate-research-desk",
     publishedDate: "2026-02-28",
     updatedDate: "2026-04-20",
     status: "open",
@@ -105,27 +105,27 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     comments: [
       {
         id: "c1",
-        authorName: "Dr. Lila Mendez",
-        authorTitle: "Climate Scientist",
-        isExpert: true,
+        authorName: "Climate Research Desk",
+        authorTitle: "Editorial desk",
+        isExpert: false,
         postedAt: "2026-03-01T08:21:00Z",
-        body: "The honest framing is that attribution shifts probabilities, not causes. A specific heatwave is rarely \"caused\" by climate change; it is made N times more likely. Most public-facing communication still elides this distinction, and the result is whiplash when an event happens that would have happened without warming.",
+        body: "Moderator note: event attribution usually estimates how human-driven warming changes probability or intensity. Public explanations should avoid implying that one event has a single deterministic cause.",
       },
       {
         id: "c2",
-        authorName: "Sam Whitford",
-        authorTitle: "Science Journalist",
+        authorName: "EcoScienceHub Editorial Team",
+        authorTitle: "Editorial desk",
         isExpert: false,
         postedAt: "2026-03-01T14:08:00Z",
-        body: "From the editorial side: the probability framing reads as evasion to non-specialist audiences. We need a vocabulary that conveys \"strongly causal in expectation, uncertain in any single instance\" without sounding hedged. I do not think we have one yet.",
+        body: "Editorial question: probability framing can sound evasive to non-specialist audiences. The communication challenge is to preserve uncertainty without weakening the evidence for long-term climate influence.",
       },
       {
         id: "c3",
-        authorName: "Dr. Helena Vega",
-        authorTitle: "Senior Ecologist",
-        isExpert: true,
+        authorName: "Environmental Science Desk",
+        authorTitle: "Editorial desk",
+        isExpert: false,
         postedAt: "2026-03-02T10:42:00Z",
-        body: "The probability framing also lets us be honest about events where the attribution is weaker. Not every extreme is a clear signal — some are. Conflating them in public communication erodes credibility for the strong attribution claims later.",
+        body: "Moderator note: not every extreme event has the same attribution signal. Distinguishing stronger and weaker cases protects credibility instead of reducing it.",
       },
     ],
   },
@@ -136,7 +136,7 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     category: "biology",
     topic:
       "Single-cell sequencing has produced a step-change in resolution for comparative biology. The data standards governing how those datasets are deposited, annotated, and made re-analyzable have lagged. Where is the friction binding now?",
-    moderatorId: "mira-brandt",
+    moderatorId: "biology-ecosystems-desk",
     publishedDate: "2026-03-18",
     updatedDate: "2026-04-27",
     status: "open",
@@ -146,19 +146,19 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     comments: [
       {
         id: "c1",
-        authorName: "Dr. Mira Brandt",
-        authorTitle: "Computational Biologist",
-        isExpert: true,
+        authorName: "Biology & Ecosystems Desk",
+        authorTitle: "Editorial desk",
+        isExpert: false,
         postedAt: "2026-03-19T07:45:00Z",
-        body: "The standards exist on paper but enforcement is the missing piece. Most repositories accept depositions that omit the metadata fields needed for cross-study integration — and reviewers rarely flag it. The field needs venues willing to reject submissions that fail metadata completeness, not just technical-quality checks.",
+        body: "Moderator note: standards without consistent metadata enforcement leave datasets difficult to compare across studies. Future repository and journal workflows should make reusable metadata part of acceptance, not optional cleanup.",
       },
       {
         id: "c2",
-        authorName: "Dr. Kai Rosenberg",
-        authorTitle: "Quantum Sensor Group (observer)",
-        isExpert: true,
+        authorName: "EcoScienceHub Editorial Team",
+        authorTitle: "Editorial desk",
+        isExpert: false,
         postedAt: "2026-03-20T13:20:00Z",
-        body: "From an instrument-physics perspective: the absence of standardized capture metadata is the same failure mode we hit in metrology twenty years ago. Solving it required common platform calibration files. Whatever the biological equivalent of that is, the field's data standards body should produce it.",
+        body: "Cross-field note: measurement-heavy disciplines often need common calibration and capture metadata before datasets become reliably reusable. Single-cell biology faces the same kind of infrastructure problem.",
       },
     ],
   },
