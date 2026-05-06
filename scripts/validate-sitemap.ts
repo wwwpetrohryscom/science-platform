@@ -1,10 +1,12 @@
 /**
  * Sitemap validator.
  *
- * Reads the build artefact at `.next/server/app/sitemap.xml.body` and
- * runs structural assertions against it. Run as part of `npm run
- * seo:validate` after `next build`. The goal is to catch a regression
- * the moment it lands in CI rather than after Search Console pings.
+ * Reads the static file at `public/sitemap.xml` (written by
+ * `scripts/generate-sitemap.ts` during `prebuild`) and runs structural
+ * assertions against it. Run as `npm run seo:validate` after
+ * `npm run build` (or `npm run sitemap:generate`). The goal is to catch
+ * a regression the moment it lands in CI rather than after Search
+ * Console pings.
  *
  * Checks:
  *   1. Starts with the XML declaration.
@@ -24,8 +26,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const SITEMAP_PATH = path.resolve(".next/server/app/sitemap.xml.body");
-const META_PATH = path.resolve(".next/server/app/sitemap.xml.meta");
+const SITEMAP_PATH = path.resolve("public/sitemap.xml");
 
 const EXPECTED_HOST =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://ecosciencehub.com";
@@ -45,7 +46,7 @@ function main() {
     fail([
       {
         rule: "build-artifact",
-        detail: `${SITEMAP_PATH} not found — run \`npm run build\` first.`,
+        detail: `${SITEMAP_PATH} not found — run \`npm run sitemap:generate\` (or \`npm run build\`) first.`,
       },
     ]);
   }
@@ -158,21 +159,33 @@ function main() {
     }
   }
 
-  // 9. Content-Type sanity (advisory — based on the build .meta file).
-  if (fs.existsSync(META_PATH)) {
+  // 9. Content-Type is enforced by `vercel.json` headers for static
+  //    `/sitemap.xml`. The validator can't probe the deployed response,
+  //    so we sanity-check that vercel.json still declares the header.
+  const VERCEL_JSON = path.resolve("vercel.json");
+  if (fs.existsSync(VERCEL_JSON)) {
     try {
-      const meta = JSON.parse(fs.readFileSync(META_PATH, "utf8")) as {
-        headers?: Record<string, string>;
+      const vc = JSON.parse(fs.readFileSync(VERCEL_JSON, "utf8")) as {
+        headers?: Array<{
+          source: string;
+          headers: Array<{ key: string; value: string }>;
+        }>;
       };
-      const ct = meta.headers?.["content-type"] ?? "";
-      if (!ct.includes("xml")) {
+      const sitemapHeaders = (vc.headers ?? []).find(
+        (h) => h.source === "/sitemap.xml",
+      );
+      const contentType = sitemapHeaders?.headers.find(
+        (h) => h.key.toLowerCase() === "content-type",
+      )?.value;
+      if (!contentType || !contentType.toLowerCase().includes("xml")) {
         issues.push({
           rule: "content-type",
-          detail: `build meta declares content-type="${ct}" — expected …/xml`,
+          detail:
+            "vercel.json missing /sitemap.xml Content-Type header (expected `application/xml; charset=utf-8`)",
         });
       }
     } catch {
-      // Non-fatal; we already validated the body.
+      // Non-fatal — body validation already passed.
     }
   }
 
