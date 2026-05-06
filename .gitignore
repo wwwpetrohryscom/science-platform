@@ -78,6 +78,11 @@ web_modules/
 .next
 out
 
+# Generated sitemap (written by scripts/generate-sitemap.ts during prebuild).
+# Kept out of git so commits stay free of high-churn build artefacts;
+# Vercel regenerates the file from source on every deploy.
+/public/sitemap.xml
+
 # Nuxt.js build / generate output
 .nuxt
 dist
