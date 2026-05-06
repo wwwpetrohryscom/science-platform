@@ -3,34 +3,24 @@ import { NextRequest, NextResponse } from "next/server";
 import { DEFAULT_LOCALE, isLocale } from "@/lib/i18n-config";
 
 const PUBLIC_FILE = /\.[^/]+$/;
-const SKIP_PREFIXES = ["/api", "/robots.txt"];
+const SKIP_PREFIXES = ["/api", "/robots.txt", "/sitemap.xml"];
 
 /**
  * Locale-detection middleware.
  *
  * Behaviors:
  *   1. Pass through requests for assets, API routes, and SEO files
- *      so they hit Next's metadata/API routes directly.
- *   2. Rewrite `/sitemap.xml` to the explicit XML API endpoint. This
- *      avoids Next metadata-route serialization/caching regressions and
- *      guarantees XML headers in production.
- *   3. If the URL already begins with a known locale prefix, do nothing.
- *   4. Otherwise, detect the preferred locale from `Accept-Language`
+ *      so they hit Next's public files / routes directly.
+ *   2. If the URL already begins with a known locale prefix, do nothing.
+ *   3. Otherwise, detect the preferred locale from `Accept-Language`
  *      (falling back to `DEFAULT_LOCALE`) and 308-redirect to the
  *      same path under that locale.
  *
- * The rewrite-vs-redirect choice matters for SEO: normal pages redirect
- * (308) so the canonical URL always carries the locale prefix. The sitemap
- * is rewritten, not redirected, so crawlers still consume `/sitemap.xml`.
+ * The redirect matters for SEO: canonical URLs always carry the locale
+ * prefix. `/sitemap.xml` is excluded so crawlers get the static XML file.
  */
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-
-  if (pathname === "/sitemap.xml") {
-    const url = request.nextUrl.clone();
-    url.pathname = "/api/sitemap";
-    return NextResponse.rewrite(url);
-  }
 
   if (
     PUBLIC_FILE.test(pathname) ||
