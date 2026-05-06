@@ -5,6 +5,7 @@
   "description": "Modern, scalable scientific content platform focused on ecology, biology, and applied physics.",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx scripts/generate-sitemap.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,6 +15,7 @@
     "content:metadata": "tsx scripts/update-metadata.ts",
     "content:generate": "tsx scripts/generate-article.ts",
     "content:build": "tsx scripts/content-build.ts",
+    "seo:generate": "tsx scripts/generate-sitemap.ts",
     "seo:validate": "tsx scripts/validate-sitemap.ts"
   },
   "dependencies": {
