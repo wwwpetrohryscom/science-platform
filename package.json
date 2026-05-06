@@ -15,7 +15,7 @@
     "content:metadata": "tsx scripts/update-metadata.ts",
     "content:generate": "tsx scripts/generate-article.ts",
     "content:build": "tsx scripts/content-build.ts",
-    "sitemap:generate": "tsx scripts/generate-sitemap.ts",
+    "seo:generate": "tsx scripts/generate-sitemap.ts",
     "seo:validate": "tsx scripts/validate-sitemap.ts"
   },
   "dependencies": {

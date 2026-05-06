@@ -2,16 +2,16 @@
  * Sitemap validator.
  *
  * Reads the static file at `public/sitemap.xml` (written by
- * `scripts/generate-sitemap.ts` during `prebuild`) and runs structural
+ * `scripts/generate-sitemap.ts` on `prebuild`) and runs structural
  * assertions against it. Run as `npm run seo:validate` after
- * `npm run build` (or `npm run sitemap:generate`). The goal is to catch
- * a regression the moment it lands in CI rather than after Search
- * Console pings.
+ * `npm run seo:generate` (or `npm run build`). The goal is to catch a
+ * regression the moment it lands in CI rather than after Search Console
+ * pings.
  *
  * Checks:
  *   1. Starts with the XML declaration.
- *   2. Contains a single `<urlset>` opener with the sitemaps.org and
- *      xhtml namespaces.
+ *   2. Contains a `<urlset>` opener with the sitemaps.org and xhtml
+ *      namespaces.
  *   3. Closes with `</urlset>`.
  *   4. Every `<loc>` is an absolute https URL on the configured host.
  *   5. No `<loc>` is duplicated.
@@ -20,6 +20,8 @@
  *   7. Every hreflang alternate `href=` is absolute and on the host.
  *   8. Every localized URL group has an `x-default` alternate, and
  *      that alternate points at the EN equivalent.
+ *   9. `vercel.json` declares the `/sitemap.xml` `Content-Type` header
+ *      so the static asset is served as XML on Vercel.
  *
  * Exits 0 on success, 1 with a human-readable report on failure.
  */
@@ -46,7 +48,7 @@ function main() {
     fail([
       {
         rule: "build-artifact",
-        detail: `${SITEMAP_PATH} not found — run \`npm run sitemap:generate\` (or \`npm run build\`) first.`,
+        detail: `${SITEMAP_PATH} not found — run \`npm run seo:generate\` (or \`npm run build\`) first.`,
       },
     ]);
   }
@@ -112,16 +114,25 @@ function main() {
 
   // 6. Plain-text regression check. The sitemap UI rendering shows
   //    `https://… weekly 1` as a tag-stripped string, but that text
-  //    should never appear in the source XML — if it does, the route
-  //    accidentally returned a string instead of MetadataRoute.Sitemap.
-  if (/^https:\/\/\S+\s+(?:always|hourly|daily|weekly|monthly|yearly|never)\s+\d/m.test(xml)) {
+  //    should never appear in the source XML — if it does, the
+  //    generator accidentally returned a string. Two patterns: with
+  //    the date column (`URL date freq prio`) and without (`URL freq prio`).
+  if (
+    /^https:\/\/\S+\s+\d{4}-\d{2}-\d{2}T\S+\s+(?:always|hourly|daily|weekly|monthly|yearly|never)\s+\d(?:\.\d+)?/m.test(
+      xml,
+    ) ||
+    /^https:\/\/\S+\s+(?:always|hourly|daily|weekly|monthly|yearly|never)\s+\d(?:\.\d+)?/m.test(
+      xml,
+    )
+  ) {
     issues.push({
       rule: "plain-text-regression",
-      detail: "found `URL changefreq priority` shape in raw XML — sitemap may be string-serialized",
+      detail:
+        "found whitespace-separated rows in raw output — generator may be returning a string instead of structured entries",
     });
   }
 
-  // 7. Every hreflang alternate href must be absolute on the host.
+  // 7. Every hreflang alternate href must be absolute https on the host.
   const alts = [...xml.matchAll(
     /<xhtml:link\s+rel="alternate"\s+hreflang="([^"]+)"\s+href="([^"]+)"/g,
   )];
@@ -132,17 +143,20 @@ function main() {
         detail: `hreflang="${hreflang}" href="${href}" is not on ${EXPECTED_HOST}`,
       });
     }
+    if (!/^https:\/\//.test(href)) {
+      issues.push({
+        rule: "alternate-https",
+        detail: `hreflang="${hreflang}" href="${href}" is not https`,
+      });
+    }
   }
 
   // 8. Each <url> block that has hreflang alternates must include an
   //    x-default that points at the EN equivalent.
   const urlBlocks = xml.split(/<url>/).slice(1);
   for (const block of urlBlocks) {
-    const hasAlternates = /<xhtml:link\s+rel="alternate"/.test(block);
-    if (!hasAlternates) continue;
-    const xDefault = block.match(
-      /hreflang="x-default"\s+href="([^"]+)"/,
-    );
+    if (!/<xhtml:link\s+rel="alternate"/.test(block)) continue;
+    const xDefault = block.match(/hreflang="x-default"\s+href="([^"]+)"/);
     if (!xDefault) {
       const loc = block.match(/<loc>([^<]+)<\/loc>/)?.[1] ?? "(unknown)";
       issues.push({
@@ -159,9 +173,8 @@ function main() {
     }
   }
 
-  // 9. Content-Type is enforced by `vercel.json` headers for static
-  //    `/sitemap.xml`. The validator can't probe the deployed response,
-  //    so we sanity-check that vercel.json still declares the header.
+  // 9. vercel.json must declare the /sitemap.xml Content-Type header,
+  //    or Vercel will sniff the static file as text/plain on some routes.
   const VERCEL_JSON = path.resolve("vercel.json");
   if (fs.existsSync(VERCEL_JSON)) {
     try {
@@ -192,8 +205,9 @@ function main() {
   if (issues.length > 0) fail(issues);
 
   console.log(
-    `✓ sitemap.xml validated — ${locs.length} <loc> entries, ` +
-      `${alts.length} hreflang alternates, ${urlBlocks.length} <url> blocks.`,
+    `✓ sitemap.xml validated from ${path.relative(process.cwd(), SITEMAP_PATH)} — ` +
+      `${locs.length} <loc> entries, ${alts.length} hreflang alternates, ` +
+      `${urlBlocks.length} <url> blocks.`,
   );
 }
 
