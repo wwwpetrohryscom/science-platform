@@ -13,6 +13,9 @@ import {
 } from "@/lib/i18n";
 
 const FALLBACK_LAST_MODIFIED = new Date("2026-05-02");
+/** Manually-set publication date for the static legal pages. Bump
+ *  when the policy text actually changes. */
+const POLICY_LAST_MODIFIED = new Date("2026-05-02");
 
 /**
  * Locale-aware sitemap.
@@ -25,6 +28,11 @@ const FALLBACK_LAST_MODIFIED = new Date("2026-05-02");
  * `lastModified` for content URLs comes from `updatedDate`; invalid or
  * missing dates fall back to a stable project date so the sitemap never
  * emits malformed XML in production.
+ *
+ * Structural pages (homepage, hubs, topic & subtopic indexes) inherit
+ * their `lastModified` from the most-recently-updated piece of content
+ * they surface. That gives search engines an accurate re-crawl signal
+ * — when a single article ships, the topic & home `lastmod` move with it.
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const u = (loc: Locale, p: string) =>
@@ -34,6 +42,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     if (!value) return FALLBACK_LAST_MODIFIED;
     const date = new Date(value);
     return Number.isNaN(date.valueOf()) ? FALLBACK_LAST_MODIFIED : date;
+  };
+
+  const maxDate = (dates: Array<Date | undefined>): Date => {
+    let max = FALLBACK_LAST_MODIFIED;
+    for (const d of dates) {
+      if (d && d.valueOf() > max.valueOf()) max = d;
+    }
+    return max;
   };
 
   const indexableLocales = <T extends { localeFallback: boolean; locale: Locale }>(
@@ -64,52 +80,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   };
 
-  /**
-   * Static + structural paths. Every locale always has these because
-   * they're driven by code (not content), so the sitemap entry × locale
-   * matrix is dense.
-   */
-  const structuralPaths: Array<{
-    path: string;
-    changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
-    priority: number;
-  }> = [
-    { path: "/", changeFrequency: "weekly", priority: 1.0 },
-    { path: "/insights", changeFrequency: "weekly", priority: 0.8 },
-    { path: "/discussions", changeFrequency: "daily", priority: 0.7 },
-    { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
-    { path: "/cookie-policy", changeFrequency: "yearly", priority: 0.3 },
-    { path: "/terms-of-use", changeFrequency: "yearly", priority: 0.3 },
-    ...listCategorySlugs().map((slug) => ({
-      path: `/${slug}`,
-      changeFrequency: "weekly" as const,
-      priority: 0.9,
-    })),
-    ...categories.flatMap((cat) =>
-      cat.subtopics.map((sub) => ({
-        path: `/${cat.slug}/${sub.slug}`,
-        changeFrequency: "weekly" as const,
-        priority: 0.85,
-      })),
-    ),
-  ];
-
-  const structuralEntries: MetadataRoute.Sitemap = structuralPaths.flatMap(
-    ({ path, changeFrequency, priority }) =>
-      LOCALES.map((loc) => ({
-        url: u(loc, path),
-        changeFrequency,
-        priority,
-        alternates: { languages: alternates(path) },
-      })),
-  );
-
-  // Articles and insights: the loader returns EN fallback content for
-  // missing translations so pages do not 404, but those fallback views
-  // are not indexable sitemap targets. Group by canonical content path
-  // first so hreflang alternates only point at actual translated files.
-  const contentEntries: MetadataRoute.Sitemap = [];
-
+  // ----------------------------------------------------------------
+  // Phase 1: load the full corpus once. Subsequent phases read from
+  // these maps so the sitemap iterates the content store a single time.
+  // ----------------------------------------------------------------
   const articlesByPath = new Map<
     string,
     Awaited<ReturnType<typeof getAllArticles>>
@@ -135,6 +109,130 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       insightsByPath.set(path, [...(insightsByPath.get(path) ?? []), insight]);
     }
   }
+
+  const discussions = await getDiscussions();
+
+  // Index article updatedDates by category and (category, subtopic) so
+  // we can derive structural-page lastmods without re-walking the corpus.
+  const updatedByCategory = new Map<string, Date[]>();
+  const updatedBySubtopic = new Map<string, Date[]>();
+  const allArticleDates: Date[] = [];
+  const allInsightDates: Date[] = [];
+  const allDiscussionDates: Date[] = discussions.map((d) => toDate(d.updatedDate));
+
+  for (const articles of articlesByPath.values()) {
+    for (const a of articles) {
+      if (a.localeFallback) continue;
+      const d = toDate(a.updatedDate);
+      allArticleDates.push(d);
+      const catKey = a.category;
+      const subKey = `${a.category}/${a.subtopic}`;
+      updatedByCategory.set(catKey, [...(updatedByCategory.get(catKey) ?? []), d]);
+      updatedBySubtopic.set(subKey, [...(updatedBySubtopic.get(subKey) ?? []), d]);
+    }
+  }
+  for (const insights of insightsByPath.values()) {
+    for (const i of insights) {
+      if (i.localeFallback) continue;
+      allInsightDates.push(toDate(i.updatedDate));
+    }
+  }
+
+  /** Site-wide most recent update — drives the homepage `lastmod`. */
+  const siteLastMod = maxDate([
+    ...allArticleDates,
+    ...allInsightDates,
+    ...allDiscussionDates,
+  ]);
+
+  // ----------------------------------------------------------------
+  // Phase 2: structural pages.
+  //
+  // Every structural URL now carries a `lastModified` derived from
+  // the most-recent piece of content it surfaces. This gives Googlebot
+  // / Bingbot a precise re-crawl signal — when a single article ships,
+  // the home page and the relevant topic/subtopic indexes also bump.
+  // ----------------------------------------------------------------
+  const structuralPaths: Array<{
+    path: string;
+    changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
+    priority: number;
+    lastModified: Date;
+  }> = [
+    {
+      path: "/",
+      changeFrequency: "weekly",
+      priority: 1.0,
+      lastModified: siteLastMod,
+    },
+    {
+      path: "/insights",
+      changeFrequency: "weekly",
+      priority: 0.8,
+      lastModified: maxDate(allInsightDates),
+    },
+    {
+      path: "/discussions",
+      changeFrequency: "daily",
+      priority: 0.7,
+      lastModified: maxDate(allDiscussionDates),
+    },
+    {
+      path: "/privacy-policy",
+      changeFrequency: "yearly",
+      priority: 0.3,
+      lastModified: POLICY_LAST_MODIFIED,
+    },
+    {
+      path: "/cookie-policy",
+      changeFrequency: "yearly",
+      priority: 0.3,
+      lastModified: POLICY_LAST_MODIFIED,
+    },
+    {
+      path: "/terms-of-use",
+      changeFrequency: "yearly",
+      priority: 0.3,
+      lastModified: POLICY_LAST_MODIFIED,
+    },
+    ...listCategorySlugs().map((slug) => ({
+      path: `/${slug}`,
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
+      lastModified: maxDate(updatedByCategory.get(slug) ?? []),
+    })),
+    ...categories.flatMap((cat) =>
+      cat.subtopics.map((sub) => ({
+        path: `/${cat.slug}/${sub.slug}`,
+        changeFrequency: "weekly" as const,
+        priority: 0.85,
+        lastModified: maxDate(
+          updatedBySubtopic.get(`${cat.slug}/${sub.slug}`) ?? [],
+        ),
+      })),
+    ),
+  ];
+
+  const structuralEntries: MetadataRoute.Sitemap = structuralPaths.flatMap(
+    ({ path, changeFrequency, priority, lastModified }) =>
+      LOCALES.map((loc) => ({
+        url: u(loc, path),
+        lastModified,
+        changeFrequency,
+        priority,
+        alternates: { languages: alternates(path) },
+      })),
+  );
+
+  // ----------------------------------------------------------------
+  // Phase 3: content pages.
+  //
+  // The loader returns EN fallback content for missing translations so
+  // pages do not 404, but those fallback views are not indexable sitemap
+  // targets — group by canonical content path first so hreflang alternates
+  // only point at actual translated files.
+  // ----------------------------------------------------------------
+  const contentEntries: MetadataRoute.Sitemap = [];
 
   for (const [path, articles] of articlesByPath) {
     const locales = indexableLocales(articles);
@@ -166,7 +264,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // typed TS data and are shown as authored. Still emit them under
   // every locale URL so search engines can find them under a localized
   // path; alternates map keeps duplicate-content risk in check.
-  const discussions = await getDiscussions();
   const discussionEntries: MetadataRoute.Sitemap = discussions.flatMap((d) =>
     LOCALES.map((loc) => {
       const path = `/discussions/${d.slug}`;
