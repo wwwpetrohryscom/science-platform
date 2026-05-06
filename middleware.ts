@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 
 import { DEFAULT_LOCALE, isLocale } from "@/lib/i18n-config";
 
+const CANONICAL_HOST = "ecosciencehub.com";
+const WWW_HOST = "www.ecosciencehub.com";
 const PUBLIC_FILE = /\.[^/]+$/;
 const SKIP_PREFIXES = ["/api", "/robots.txt", "/sitemap.xml"];
 
@@ -9,18 +11,28 @@ const SKIP_PREFIXES = ["/api", "/robots.txt", "/sitemap.xml"];
  * Locale-detection middleware.
  *
  * Behaviors:
- *   1. Pass through requests for assets, API routes, and SEO files
- *      so they hit Next's public files / routes directly.
- *   2. If the URL already begins with a known locale prefix, do nothing.
- *   3. Otherwise, detect the preferred locale from `Accept-Language`
+ *   1. Redirect www hostnames to the canonical non-www host before any
+ *      locale handling. This keeps sitemap URLs, canonical tags, and
+ *      crawlable page URLs on one host.
+ *   2. Pass through requests for assets, API routes, and SEO files so
+ *      they hit Next's public files / routes directly.
+ *   3. If the URL already begins with a known locale prefix, do nothing.
+ *   4. Otherwise, detect the preferred locale from `Accept-Language`
  *      (falling back to `DEFAULT_LOCALE`) and 308-redirect to the
  *      same path under that locale.
  *
- * The redirect matters for SEO: canonical URLs always carry the locale
- * prefix. `/sitemap.xml` is excluded so crawlers get the static XML file.
+ * The redirect matters for SEO: canonical URLs always carry the non-www
+ * host and locale prefix. `/sitemap.xml` is excluded after host handling
+ * so crawlers get the static XML file on the canonical domain.
  */
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+  const { hostname, pathname } = request.nextUrl;
+
+  if (hostname === WWW_HOST) {
+    const url = request.nextUrl.clone();
+    url.hostname = CANONICAL_HOST;
+    return NextResponse.redirect(url, 308);
+  }
 
   if (
     PUBLIC_FILE.test(pathname) ||
