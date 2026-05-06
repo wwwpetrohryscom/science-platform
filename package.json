@@ -13,7 +13,8 @@
     "content:link": "tsx scripts/build-internal-links.ts",
     "content:metadata": "tsx scripts/update-metadata.ts",
     "content:generate": "tsx scripts/generate-article.ts",
-    "content:build": "tsx scripts/content-build.ts"
+    "content:build": "tsx scripts/content-build.ts",
+    "seo:validate": "tsx scripts/validate-sitemap.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
