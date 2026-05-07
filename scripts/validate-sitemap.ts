@@ -61,6 +61,16 @@ function main() {
     issues.push({ rule: "xml-declaration", detail: "missing <?xml declaration" });
   }
 
+  // 1b. xml-stylesheet PI — required so browsers can render the sitemap
+  //     as a readable HTML table via /sitemap.xsl. Crawlers ignore it.
+  if (!/<\?xml-stylesheet\b[^?]*href="\/sitemap\.xsl"/.test(xml)) {
+    issues.push({
+      rule: "xml-stylesheet",
+      detail:
+        'missing <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?> processing instruction',
+    });
+  }
+
   // 2. urlset opener with both namespaces.
   if (
     !/^<urlset\b[^>]*xmlns="http:\/\/www\.sitemaps\.org\/schemas\/sitemap\/0\.9"/m.test(
