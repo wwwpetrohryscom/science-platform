@@ -313,8 +313,14 @@ export function renderSitemapXml(entries: SitemapEntry[]): string {
     })
     .join("\n");
 
+  // The xml-stylesheet processing instruction makes the sitemap render
+  // as a friendly HTML table in browsers without affecting how crawlers
+  // parse it (Googlebot/Bingbot ignore PIs). Without it, browsers fall
+  // back to "tag-stripped flat text" which can read as if the sitemap
+  // is malformed even when the underlying XML is correct.
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
+    '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
     urls,
     "</urlset>",
