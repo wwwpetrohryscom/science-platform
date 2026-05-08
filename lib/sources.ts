@@ -29,6 +29,18 @@ export type SourceEntry = {
   /** Canonical homepage or landing URL — used to validate citation domains. */
   url: string;
   type: SourceType;
+  /**
+   * Optional one-line note on what this source is good for in the
+   * context of this category. Surfaced by the source-transparency UI;
+   * not used by the host-validation logic.
+   */
+  topicRelevance?: string;
+  /**
+   * Optional ISO date the editorial team last verified the source URL
+   * is live and the citation conventions are current. Used by source
+   * transparency notes; not used by the host-validation logic.
+   */
+  lastReviewed?: string;
 };
 
 export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
@@ -153,6 +165,60 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       url: "https://pubmed.ncbi.nlm.nih.gov/",
       type: "peer-reviewed",
     },
+    {
+      name: "NASA Earth Observatory",
+      organization: "NASA",
+      url: "https://earthobservatory.nasa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Land cover, vegetation, and climate-system imagery and explainers",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "NOAA",
+      organization: "NOAA",
+      url: "https://noaa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Atmospheric and ocean monitoring, climate observations; subdomains include coralreefwatch.noaa.gov",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "Global Monitoring Laboratory",
+      organization: "NOAA",
+      url: "https://gml.noaa.gov/",
+      type: "dataset",
+      topicRelevance:
+        "Long-term greenhouse gas and aerosol measurement records",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "United States Geological Survey",
+      organization: "USGS",
+      url: "https://www.usgs.gov/",
+      type: "primary",
+      topicRelevance:
+        "Hydrology, biology, and Earth-surface processes in the United States",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "Copernicus Climate Change Service",
+      organization: "ECMWF / European Commission",
+      url: "https://climate.copernicus.eu/",
+      type: "primary",
+      topicRelevance:
+        "Global climate reanalyses and indicator products for Europe and the world",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "World Meteorological Organization",
+      organization: "WMO",
+      url: "https://wmo.int/",
+      type: "report",
+      topicRelevance:
+        "State of the climate, greenhouse-gas bulletins, and weather-system standards",
+      lastReviewed: "2026-05-08",
+    },
   ],
   biology: [
     {
@@ -214,6 +280,51 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       organization: "EMBL-EBI",
       url: "https://www.ensembl.org/",
       type: "dataset",
+    },
+    {
+      name: "National Institutes of Health",
+      organization: "NIH",
+      url: "https://www.nih.gov/",
+      type: "primary",
+      topicRelevance:
+        "U.S. biomedical research agency — programs, fact sheets, and explainers",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "World Health Organization",
+      organization: "WHO",
+      url: "https://www.who.int/",
+      type: "primary",
+      topicRelevance:
+        "Global health authority on infectious disease, AMR, and health-system data",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "Centers for Disease Control and Prevention",
+      organization: "CDC",
+      url: "https://www.cdc.gov/",
+      type: "primary",
+      topicRelevance:
+        "U.S. public-health surveillance, antimicrobial-resistance threats, vaccine science",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "National Center for Biotechnology Information",
+      organization: "NIH / NLM",
+      url: "https://www.ncbi.nlm.nih.gov/",
+      type: "primary",
+      topicRelevance:
+        "Public sequence and literature databases — GenBank, Gene, Bookshelf, MeSH",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "MedlinePlus Genetics",
+      organization: "NIH / NLM",
+      url: "https://medlineplus.gov/genetics/",
+      type: "primary",
+      topicRelevance:
+        "Plain-language reference on genes, conditions, and inheritance",
+      lastReviewed: "2026-05-08",
     },
   ],
   physics: [
@@ -294,6 +405,114 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       organization: "NIH / NLM",
       url: "https://www.ncbi.nlm.nih.gov/books/",
       type: "primary",
+    },
+    {
+      name: "NASA",
+      organization: "NASA",
+      url: "https://www.nasa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Mission, instrument, and science-result reference for space and Earth observation",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "NASA Science",
+      organization: "NASA",
+      url: "https://science.nasa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Curated explainers and topic pages across heliophysics, planetary, astrophysics",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "NASA Earth Observatory",
+      organization: "NASA",
+      url: "https://earthobservatory.nasa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Earth energy balance, atmospheric, and remote-sensing topic pages",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "NASA Climate",
+      organization: "NASA",
+      url: "https://climate.nasa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Earth energy balance, solar irradiance, and global-change indicators",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "ESA",
+      organization: "European Space Agency",
+      url: "https://www.esa.int/",
+      type: "primary",
+      topicRelevance:
+        "Space-mission reference and physics-related ESA Science programs",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "NOAA",
+      organization: "NOAA",
+      url: "https://www.noaa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Atmospheric, ocean, and space-weather monitoring relevant to applied physics",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "Climate.gov",
+      organization: "NOAA",
+      url: "https://www.climate.gov/",
+      type: "primary",
+      topicRelevance:
+        "Earth energy budget, radiation, and climate-physics explainers",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "United States Geological Survey",
+      organization: "USGS",
+      url: "https://www.usgs.gov/",
+      type: "primary",
+      topicRelevance:
+        "Geophysics, magnetism, hazards, and hydrologic measurement",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "AR6 Working Group I",
+      organization: "IPCC",
+      url: "https://www.ipcc.ch/report/ar6/wg1/",
+      type: "report",
+      topicRelevance:
+        "Authoritative review of physical-climate evidence used in atmospheric and energy-balance physics",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "Copernicus Climate Change Service",
+      organization: "ECMWF / European Commission",
+      url: "https://climate.copernicus.eu/",
+      type: "primary",
+      topicRelevance:
+        "Reanalyses and reference datasets used in atmospheric and energy-balance physics",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "World Health Organization",
+      organization: "WHO",
+      url: "https://www.who.int/",
+      type: "primary",
+      topicRelevance:
+        "Reference for radiation-safety and exposure guidance relevant to applied physics",
+      lastReviewed: "2026-05-08",
+    },
+    {
+      name: "National Institutes of Health",
+      organization: "NIH",
+      url: "https://www.nih.gov/",
+      type: "primary",
+      topicRelevance:
+        "Reference for biomedical aspects of measurement, imaging, and radiation",
+      lastReviewed: "2026-05-08",
     },
   ],
 };

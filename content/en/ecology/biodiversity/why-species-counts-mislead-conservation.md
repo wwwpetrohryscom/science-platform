@@ -4,7 +4,7 @@ excerpt: Species richness is the easiest biodiversity metric to compute and the 
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 4
 tags:
   - biodiversity
@@ -18,7 +18,7 @@ pillar: why-species-counts-mislead-conservation
 _bodyHash: 65bcdefc
 ---
 
-Species richness — the count of distinct species in a defined area — is one of the most widely cited measures of [biodiversity](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). It is also incomplete as a [conservation](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat biodiversity loss as more than a simple species-count problem.
+Species richness — the count of distinct species in a defined area — is one of the most widely cited measures of [biodiversity](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). It is also incomplete as a [conservation](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat [biodiversity](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) loss as more than a simple species-count problem.
 
 This piece explains the mismatch, summarizes the alternatives, and argues that the routine use of species counts as a prioritization signal needs to be retired.
 
@@ -50,7 +50,7 @@ Where functional and phylogenetic diversity have been compared, they often agree
 
 ## What this means for prioritization
 
-If conservation prioritization were redone using functional or phylogenetic diversity instead of species richness, the resulting priority maps would change. Some currently underprioritized regions — particularly old, isolated systems with low species counts but high phylogenetic distinctiveness — would move up. Some currently high-priority regions — diverse but functionally redundant — would move down.
+If [conservation](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) prioritization were redone using functional or phylogenetic diversity instead of species richness, the resulting priority maps would change. Some currently underprioritized regions — particularly old, isolated systems with low species counts but high phylogenetic distinctiveness — would move up. Some currently high-priority regions — diverse but functionally redundant — would move down.
 
 This is uncomfortable for two reasons.
 

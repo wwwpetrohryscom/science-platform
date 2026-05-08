@@ -4,7 +4,7 @@ excerpt: Beyond Symbiodinium shuffling, the bacterial community surrounding cora
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-01-30'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 5
 tags:
   - coral
@@ -40,7 +40,7 @@ Coral surface mucus hosts a dense bacterial community. This community is distinc
 
 It also varies with thermal history. Colonies from sites that have experienced repeated mild heat stress carry distinctive bacterial consortia, enriched in genera implicated in oxidative-stress buffering, antimicrobial production, and other protective functions. Colonies from sites without that history host less specialized communities.
 
-The correlation, by itself, does not establish causation. Experimental work on bacterial consortia and coral-associated microbes suggests that microbiome state can influence stress response in controlled settings, but reported effects vary by coral species, consortium, temperature regime, and study design. The evidence supports caution rather than a single universal effect size.
+The correlation, by itself, does not establish causation. Experimental work on bacterial consortia and coral-associated microbes suggests that [microbiome](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) state can influence stress response in controlled settings, but reported effects vary by coral species, consortium, temperature regime, and study design. The evidence supports caution rather than a single universal effect size.
 
 This is the second mechanism. Bacterial-mediated buffering does not replace algal symbiosis as the central player; it adds a layer of protective buffering that can be acquired and lost.
 
@@ -62,7 +62,7 @@ Several questions remain genuinely open and shape what the next several years of
 
 **Equivalence of native and introduced consortia.** Can the protective effect be obtained from native consortia already present at the recipient site, rather than introducing them from elsewhere? If so — and there is preliminary evidence that it can be, at some sites — the case for translocation weakens. The intervention shifts from "introduce a curated consortium" to "selectively favor existing community members."
 
-**Co-[evolution](/en/biology/evolution/cell-types-as-units-of-evolution) with the coral host.** Different coral genotypes appear to favor different bacterial communities, in ways that suggest some host-microbiome co-evolution. This complicates one-size-fits-all priming protocols. The sophistication required to match consortium to host genotype is non-trivial and may rule out the approach for some restoration scales.
+**Co-[evolution](/en/biology/evolution/cell-types-as-units-of-evolution) with the coral host.** Different coral genotypes appear to favor different bacterial communities, in ways that suggest some host-microbiome co-[evolution](/en/biology/evolution/cell-types-as-units-of-evolution). This complicates one-size-fits-all priming protocols. The sophistication required to match consortium to host genotype is non-trivial and may rule out the approach for some restoration scales.
 
 ## What this changes about the bleaching narrative
 
@@ -70,14 +70,14 @@ The popular bleaching narrative is centered on the coral-algae symbiosis and on 
 
 Reefs are not solely buffered by their algal symbionts. They are buffered by the integration of the host, the algal symbionts, and the bacterial community — three partners, not two. The third partner is acquired, modifiable, and apparently capable of being seeded.
 
-This does not change the central message of bleaching biology. Ocean warming is the dominant driver. Reducing the thermal forcing is the only intervention that scales. But it does mean that the buffering capacity of reefs is more plastic than the two-partner model implied. Where conditions can be partially mitigated, microbiome priming may extend the window in which selectively-bred and naturally heat-tolerant corals can establish themselves.
+This does not change the central message of bleaching biology. [Ocean](/en/ecology/climate-change/ocean-heat-content-indicators) warming is the dominant driver. Reducing the thermal forcing is the only intervention that scales. But it does mean that the buffering capacity of reefs is more plastic than the two-partner model implied. Where conditions can be partially mitigated, microbiome priming may extend the window in which selectively-bred and naturally heat-tolerant corals can establish themselves.
 
 It is, in the end, a buffer — a meaningful one, not a solution. The practical question is whether it can be deployed at meaningful scale fast enough to matter in the window before the underlying thermal forcing exceeds even the buffered capacity.
 
 ## Sources
 
 1. **NOAA Coral Reef Watch** — [Coral bleaching tutorial](https://coralreefwatch.noaa.gov/product/50km/tutorial/crw02_coralbleaching.php). NOAA explanation of bleaching mechanisms and heat stress.
-2. **NOAA Coral Reef Watch** — [Near-real-time coral reef monitoring](https://coralreefwatch.noaa.gov/). Satellite-based monitoring and bleaching-alert products.
+2. **NOAA Coral Reef Watch** — [Near-real-time coral reef monitoring](https://coralreefwatch.noaa.gov/). Satellite-based [monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) and bleaching-alert products.
 3. **PubMed** — [NIH/NLM indexed coral microbiome literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for microbiome and marine biology research.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed coral, microbiome, and climate-impact literature.
+4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed coral, microbiome, and [climate](/en/ecology/climate-change/what-is-climate-change)-impact literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed marine ecology and coral bleaching research.

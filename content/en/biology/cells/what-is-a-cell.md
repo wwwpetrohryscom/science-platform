@@ -4,7 +4,7 @@ excerpt: A cell is the smallest unit that can sustain itself, copy itself, and r
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 4
 tags:
   - cells
@@ -18,7 +18,7 @@ pillar: what-is-a-cell
 _bodyHash: feabf6d0
 ---
 
-A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. This operational framing is consistent with cell-biology reference material available through [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and genetics definitions from [NHGRI](https://www.genome.gov/genetics-glossary). Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not [cells](/en/biology/cells/coral-microbiome-bleaching-resistance), even though they share some properties of cells.
+A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. This operational framing is consistent with [cell-biology](/en/biology/cells/cell-signaling-pathways-basics) reference material available through [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and [genetics](/en/biology/genetics/what-is-dna) definitions from [NHGRI](https://www.genome.gov/genetics-glossary). Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not [cells](/en/biology/cells/coral-microbiome-bleaching-resistance), even though they share some properties of [cells](/en/biology/cells/coral-microbiome-bleaching-resistance).
 
 This piece walks through the operational definition rather than the textbook list of organelles, because the textbook list answers a different question.
 
@@ -28,7 +28,7 @@ The first requirement is **self-sustenance**: a cell maintains the chemical cond
 
 The second requirement is **self-replication**: a cell can produce another cell with the same essential properties. This requires storing the information needed for that production (the genome), the machinery to read and act on that information (the ribosomes, the polymerases, the metabolic enzymes), and a mechanism to physically partition the products into a daughter unit. None of these alone is sufficient. A genome that cannot be read is inert; machinery without a genome cannot be reproduced.
 
-The third requirement is **environmental responsiveness**: a cell senses its surroundings and modifies its behavior accordingly. This includes everything from gradient sensing in bacterial chemotaxis to receptor-mediated signaling in animal cells. Without this, a cell is a chemical reaction in a bag — it can persist for some time, but it cannot adapt, and adaptation is the operational difference between living matter and unusual chemistry.
+The third requirement is **environmental responsiveness**: a cell senses its surroundings and modifies its behavior accordingly. This includes everything from gradient sensing in bacterial chemotaxis to receptor-mediated [signaling](/en/biology/cells/cell-signaling-pathways-basics) in animal cells. Without this, a cell is a chemical reaction in a bag — it can persist for some time, but it cannot adapt, and adaptation is the operational difference between living matter and unusual chemistry.
 
 All three are required. Drop any one and you have something interesting that is not a cell.
 
