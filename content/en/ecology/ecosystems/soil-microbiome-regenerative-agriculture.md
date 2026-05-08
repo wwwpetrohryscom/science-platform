@@ -4,7 +4,7 @@ excerpt: Why two farms with identical practices produce different yields — and
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-03-04'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 4
 tags:
   - soil
@@ -30,9 +30,9 @@ This piece walks through what the microbial mediation looks like, why it has bee
 
 ## The puzzle of replication failure
 
-When two farms with similar soil texture, climate, and management adopt the same regenerative practice, they sometimes produce comparable yield gains. They often do not. The variance across sites is large enough that synthesis studies can report wide confidence intervals; the central effect may be positive for some practices and contexts, but the spread is wide.
+When two farms with similar soil texture, [climate](/en/ecology/climate-change/what-is-climate-change), and management adopt the same regenerative practice, they sometimes produce comparable yield gains. They often do not. The variance across sites is large enough that synthesis studies can report wide confidence intervals; the central effect may be positive for some practices and contexts, but the spread is wide.
 
-The temptation is to attribute the variance to differences in management quality, weather, or measurement error. These contribute but may not fully account for the residual variance. Some of the remaining variance correlates with proxies for soil microbial state in studies that have measured it.
+The temptation is to attribute the variance to differences in management quality, weather, or [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) error. These contribute but may not fully account for the residual variance. Some of the remaining variance correlates with proxies for soil microbial state in studies that have measured it.
 
 ## What soil microbes are doing
 
@@ -44,13 +44,13 @@ Microbes mediate three broad processes that determine how a field responds to ma
 
 **Rhizosphere environment.** Plants exude [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) compounds into the rhizosphere that recruit specific microbial partners. The microbial community responds by modifying the chemical environment around the roots — protonation, chelation, hormone production — in ways that affect plant performance. Two fields with the same plants and same fertilizer can produce different plant phenotypes because the rhizosphere [microbiome](/en/biology/cells/coral-microbiome-bleaching-resistance) is different.
 
-These mediations are biologically plausible and supported by a growing literature. They are also not fully captured by standard soil tests, which generally measure carbon and nutrient pools rather than microbial function.
+These mediations are biologically plausible and supported by a growing literature. They are also not fully captured by standard soil tests, which generally measure [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) and nutrient pools rather than microbial function.
 
 ## Why this has been hard to capture
 
 The microbial community in a single gram of agricultural soil contains billions of [cells](/en/biology/cells/what-is-a-cell) from thousands of taxa. Characterizing it has historically required technologies — amplicon sequencing, shotgun metagenomics, PLFA profiling — that were not part of standard agronomy.
 
-The cost has dropped considerably. The interpretation has not caught up. Sequencing tells you what is there; it does not tell you what they are doing. The translation from microbial community composition to functional capability is an active research area, not a settled science. A trial that measured composition five years ago and tried to predict yield would have failed; the same trial done today, with better functional databases, might succeed.
+The cost has dropped considerably. The interpretation has not caught up. Sequencing tells you what is there; it does not tell you what they are doing. The translation from microbial community composition to functional capability is an active research area rather than a settled question. A trial that measured composition five years ago and tried to predict yield would have failed; the same trial done today, with better functional databases, might succeed.
 
 This is the source of a quiet pessimism in some of the regenerative literature. The methods to characterize the microbial mediator exist. The interpretive framework to use them as a real prediction engine is still being assembled.
 
@@ -75,12 +75,12 @@ For an individual grower, the practical implication is modest but real. The rege
 
 For a research trial, the implication is that any trial that does not measure the microbial mediator is leaving variance on the table. Future trials should treat microbial state as a covariate, not an afterthought. The cost of doing so is dropping fast enough that this is no longer a research-budget objection.
 
-For a policy maker, the implication is that programs evaluating regenerative practices on outcome metrics alone will produce noisier results than programs that include process measurement. Policy that pays for outcomes (yield, carbon sequestration) without measuring how the outcomes were achieved is policy that will struggle to scale because it cannot identify the ingredients of success.
+For a [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) maker, the implication is that programs evaluating regenerative practices on outcome metrics alone will produce noisier results than programs that include process measurement. Policy that pays for outcomes (yield, carbon sequestration) without measuring how the outcomes were achieved is policy that will struggle to scale because it cannot identify the ingredients of success.
 
 ## Sources
 
-1. **PubMed** — [NIH/NLM indexed soil microbiome and agricultural microbiology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed biomedical and life-science literature index.
+1. **PubMed** — [NIH/NLM indexed soil microbiome and agricultural microbiology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed biomedical and [life](/en/biology/cells/what-is-a-cell)-science literature index.
 2. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). Ecosystem restoration and sustainable land-use context.
-3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Ecosystem-pressure and biodiversity context for land management.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed microbiome, soil, and ecosystem science literature.
+3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Ecosystem-pressure and [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) context for land management.
+4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed [microbiome](/en/biology/cells/coral-microbiome-bleaching-resistance), soil, and ecosystem science literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed environmental and agricultural science literature.

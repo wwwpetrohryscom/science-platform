@@ -5,7 +5,7 @@ argument: When commercial registries certify methodology, the result is rules op
 category: ecology
 author: climate-research-desk
 publishedDate: '2026-03-15'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 3
 tags:
   - carbon markets
@@ -18,13 +18,13 @@ related:
 _bodyHash: 45466c3e
 ---
 
-Voluntary [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) markets fund a growing amount of forest-carbon measurement, but their scientific governance remains uneven. The risk, highlighted by public assessments from the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and climate-policy work from [UNEP](https://www.unep.org/resources/emissions-gap-report-2024), is that offset accounting can be treated as equivalent to direct emissions reductions even when permanence, additionality, and baseline uncertainty remain unresolved.
+Voluntary [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) markets fund a growing amount of forest-[carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications), but their scientific governance remains uneven. The risk, highlighted by public assessments from the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and [climate](/en/ecology/climate-change/what-is-climate-change)-[policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) work from [UNEP](https://www.unep.org/resources/emissions-gap-report-2024), is that offset accounting can be treated as equivalent to direct emissions reductions even when permanence, additionality, and baseline uncertainty remain unresolved.
 
 ## The incentive mismatch
 
 Registries that certify offset methodologies may have business incentives connected to credit issuance. That does not prove dishonesty, but it does create a governance risk: methods can drift toward higher baseline assumptions unless independent measurement and conservative accounting rules counterbalance them.
 
-This is not a new observation. It has been the structural critique of voluntary carbon markets for at least a decade. What has changed is the volume and visibility of the market. Methodology decisions now shape how land-use data are collected, priced, and interpreted. That makes independent monitoring from public institutions such as the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) and national inventory systems more important, not less.
+This is not a new observation. It has been the structural critique of voluntary carbon markets for at least a decade. What has changed is the volume and visibility of the market. Methodology decisions now shape how land-use data are collected, priced, and interpreted. That makes independent [monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) from public institutions such as the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) and national inventory systems more important, not less.
 
 ## What the science says
 

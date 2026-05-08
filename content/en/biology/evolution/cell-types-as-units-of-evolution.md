@@ -4,7 +4,7 @@ excerpt: If cell types — not organs or networks — are what selection conserv
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-02-16'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 5
 tags:
   - evolution
@@ -18,7 +18,7 @@ pillar: cell-types-as-units-of-evolution
 _bodyHash: 4c94252f
 ---
 
-The standard textbook story of animal evolution is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.
+The standard textbook story of animal [evolution](/en/biology/evolution/antibiotic-resistance-evolution-mechanisms) is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.
 
 Peer-reviewed [single-cell](/en/biology/genetics/single-cell-evo-devo) evidence indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and published in journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/) suggests this story may be told at the wrong resolution. Some features conserved across animal evolution appear to be cell-type programs rather than whole body plans. Body plans can then be understood partly as recombinations of a conserved cell-type toolkit.
 
@@ -34,7 +34,7 @@ The problem is most acute for animal phyla that diverged 600 to 700 million year
 
 The cell-type view starts from a different observation. When you compare cell-type atlases of animals separated by hundreds of millions of years, you find clear correspondences at the *cell-type* level even where the structures around them are non-homologous. The cell types — defined by their transcriptional state and regulatory program — persist; the structures recombine.
 
-This implies a different unit of conservation. What was passed forward from the last common ancestor of bilaterians is not a body plan. It is a *cell-type toolkit* — a partially conserved set of regulatory modules, each instantiating a recognizable cell type, that descendant lineages have repeatedly reassembled into different structural configurations.
+This implies a different unit of [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation). What was passed forward from the last common ancestor of bilaterians is not a body plan. It is a *cell-type toolkit* — a partially conserved set of regulatory modules, each instantiating a recognizable cell type, that descendant lineages have repeatedly reassembled into different structural configurations.
 
 A neuron, an epithelial secretory cell, a muscle cell — each is a transcriptionally coherent identity that recurs across animal phyla, even where the organs containing them have evolved independently multiple times. The persistence of the cell type, not the persistence of the organ, is what selection preserves.
 
@@ -46,7 +46,7 @@ Several persistent puzzles in animal evolution become more tractable under the c
 
 **Cambrian explosion.** The rapid appearance of disparate body plans in the Cambrian becomes less anomalous if the underlying cell-type toolkit was already substantially in place. Body plans diversified rapidly because the building blocks — the cell types — already existed and could be combined into novel architectures with comparatively modest regulatory modifications.
 
-**Deep regulatory conservation without structural conservation.** The persistence of master regulators like Pax6 and Hox genes across animal lineages, even where the structures they pattern have changed, makes more sense if these regulators control cell-type identity rather than structural identity. Pax6 specifies a class of cell across animal evolution; the structures those cells participate in (compound eye, camera eye) are downstream and lineage-specific.
+**Deep regulatory conservation without structural conservation.** The persistence of master regulators like Pax6 and Hox genes across animal lineages, even where the structures they pattern have changed, makes more sense if these regulators control cell-type identity rather than structural identity. Pax6 specifies a class of cell across animal evolution; the structures those [cells](/en/biology/cells/what-is-a-cell) participate in (compound eye, camera eye) are downstream and lineage-specific.
 
 **Functional convergence at the cell level.** Cnidarians have neurons that are functionally indistinguishable from bilaterian neurons in many respects, despite the absence of a centralized nervous system. Cell-type homology offers a clean explanation: the neuron as a cell type predates the centralized nervous system, and was inherited from a common ancestor.
 
@@ -71,7 +71,7 @@ The textbook revision will lag the literature, as it usually does. The literatur
 ## Sources
 
 1. **PubMed** — [NIH/NLM indexed evolutionary and developmental biology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for cell-type evolution.
-2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed evolutionary biology, genomics, and single-cell research.
+2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed evolutionary biology, [genomics](/en/biology/genetics/single-cell-evo-devo), and [single-cell](/en/biology/genetics/single-cell-evo-devo) research.
 3. **Science** — [Science journals](https://www.science.org/). Peer-reviewed animal evolution and developmental biology research.
 4. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular, cellular, and evolutionary biology.
 5. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.

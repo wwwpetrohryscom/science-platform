@@ -4,7 +4,7 @@ excerpt: DNA is a four-letter molecular code that stores the information needed 
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 5
 tags:
   - dna
@@ -57,13 +57,13 @@ For most traits — height, susceptibility to common diseases, behavioral predis
 
 There are several things DNA does not determine, and the gap between popular discourse and actual biology runs through this list.
 
-**The state of any individual cell at any given time.** Two [cells](/en/biology/cells/what-is-a-cell) with identical DNA can be in radically different states because of differences in chromatin structure, transcription factor concentrations, signaling history, and stochastic noise in molecular abundance. The genotype is one input among many to the cellular state.
+**The state of any individual cell at any given time.** Two [cells](/en/biology/cells/what-is-a-cell) with identical DNA can be in radically different states because of differences in chromatin structure, transcription factor concentrations, [signaling](/en/biology/cells/cell-signaling-pathways-basics) history, and stochastic noise in molecular abundance. The genotype is one input among many to the cellular state.
 
 **The course of development.** Development is not the unfolding of a genetic program in a vacuum. It is a continuous interaction between the genome, the cellular environment (which includes maternal contributions in early development), and the physical constraints of the developing organism. The same genome in a different uterine environment produces a measurably different organism.
 
 **Most of the variation in most complex traits.** For traits with substantial environmental and behavioral inputs — most disease risk, most psychological traits, most social outcomes — DNA explains a fraction of the variance, often a minority. Heritability is not the same as genetic determination; it is a measure of how much of the *variation* in a trait, in a *given population*, in a *given environment*, can be statistically attributed to genetic differences.
 
-**The future trajectory of an individual.** Knowing a person's complete DNA sequence does not let you predict their life with precision. The deterministic implications of polygenic risk scores are routinely overstated in popular coverage. The same scores that meaningfully shift population-level risk are usually noisy at the individual level.
+**The future trajectory of an individual.** Knowing a person's complete DNA sequence does not let you predict their [life](/en/biology/cells/what-is-a-cell) with precision. The deterministic implications of polygenic risk scores are routinely overstated in popular coverage. The same scores that meaningfully shift population-level risk are usually noisy at the individual level.
 
 These limits are not gaps in our knowledge that more sequencing will fill. They are constraints inherent to the way DNA participates in biology. The gap between "DNA matters" and "DNA determines" is large, and most popular discourse collapses it.
 
@@ -76,7 +76,7 @@ The most defensible position on DNA in contemporary public discourse is somethin
 ## Sources
 
 1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). National Human Genome Research Institute definition of DNA and genetic information.
-2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Genetics terminology and public-facing genomic science definitions.
+2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). [Genetics](/en/biology/genetics/how-gene-expression-is-regulated) terminology and public-facing genomic science definitions.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts for molecular biology, genetics, and genome function.
-4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and genomics literature index.
+4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and [genomics](/en/biology/genetics/single-cell-evo-devo) literature index.
 5. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed genetics and genomics literature.
