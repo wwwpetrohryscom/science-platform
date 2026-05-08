@@ -80,6 +80,6 @@ Three areas remain genuinely open.
 1. **National Human Genome Research Institute** — [Genomics glossary](https://www.genome.gov/genetics-glossary). Authoritative reference for transcription, regulation, and chromatin terminology.
 2. **NCBI Bookshelf (NIH/NLM)** — [Foundational textbooks on molecular biology](https://www.ncbi.nlm.nih.gov/books/). Open-access reference treatment of gene-expression regulation.
 3. **PubMed (NIH/NLM)** — [Biomedical literature](https://pubmed.ncbi.nlm.nih.gov/). Primary literature on transcription factors, chromatin, and non-coding RNAs.
-4. **MedlinePlus [Genetics](/en/biology/genetics/what-is-dna) (NIH/NLM)** — [Plain-language genetics reference](https://medlineplus.gov/genetics/). Patient-oriented summaries of gene regulation in inheritance and disease.
+4. **MedlinePlus Genetics (NIH/NLM)** — [Plain-language genetics reference](https://medlineplus.gov/genetics/). Patient-oriented summaries of gene regulation in inheritance and disease.
 5. **Ensembl (EMBL-EBI)** — [Genome annotation database](https://www.ensembl.org/). Reference annotation of protein-coding and non-coding RNA features.
 6. **National Institutes of Health** — [Research overviews](https://www.nih.gov/). Topic-level reference on regulation in development and disease.

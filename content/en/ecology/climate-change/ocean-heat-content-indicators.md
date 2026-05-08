@@ -67,5 +67,5 @@ Combined with [radiative forcing](/en/ecology/climate-change/greenhouse-gases-an
 1. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/), Chapter 2 (Changing State of the Climate System) and Chapter 9 (Ocean, Cryosphere and Sea Level Change). Authoritative assessment of OHC trends and partition of the energy imbalance.
 2. **NOAA National Centers for Environmental Information** — [State of the Climate and OHC products](https://www.ncei.noaa.gov/). Operational ocean heat content datasets and annual climate assessments.
 3. **NASA Global Climate Change** — [Ocean heat content vital sign](https://climate.nasa.gov/). Public-facing record of OHC anomalies alongside other climate indicators.
-4. **NOAA Climate.gov** — [Explainers and indicator products](https://www.climate.gov/). Methodology pages and educational material on ocean heat [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications).
+4. **NOAA Climate.gov** — [Explainers and indicator products](https://www.climate.gov/). Methodology pages and educational material on ocean heat measurement.
 5. **European Environment Agency** — [Climate-change indicator framework](https://www.eea.europa.eu/). European regional assessments of ocean and sea-level indicators.

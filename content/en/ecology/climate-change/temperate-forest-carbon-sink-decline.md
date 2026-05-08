@@ -66,5 +66,5 @@ This is not a counsel of despair. The deceleration is detectable in part because
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 WG I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change (2021). Chapter 5 covers the global carbon cycle and land-sink persistence.
 2. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://www.fia.fs.usda.gov/). Multi-decade U.S. inventory plot network underlying the temperate-sink trend analyses.
 3. **ICP Forests** — [International Co-operative Programme on Assessment and Monitoring of Air Pollution Effects on Forests](http://icp-forests.net/). The European long-term forest monitoring network.
-4. **FAO** — [The State of the World's Forests](https://www.fao.org/state-of-forests/en/), Food and [Agriculture](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) Organization of the United Nations. Global forest extent and condition reporting.
+4. **FAO** — [The State of the World's Forests](https://www.fao.org/state-of-forests/en/), Food and Agriculture Organization of the United Nations. Global forest extent and condition reporting.
 5. **UNEP** — [Emissions Gap Report 2024](https://www.unep.org/resources/emissions-gap-report-2024), United Nations Environment Programme. Frames the policy implications of land-sink revisions for net-zero pathways.

@@ -78,7 +78,7 @@ The pathway descriptions above are simplifications. Each canonical pathway has b
 
 ## Sources
 
-1. **National Center for Biotechnology Information (NIH/NLM)** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Open-access editions of foundational cell- and [molecular-biology](/en/biology/genetics/how-gene-expression-is-regulated) textbooks.
+1. **National Center for Biotechnology Information (NIH/NLM)** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Open-access editions of foundational cell- and molecular-biology textbooks.
 2. **National Human Genome Research Institute** — [Genomics glossary](https://www.genome.gov/genetics-glossary). Authoritative terminology reference for receptors, kinases, and signaling concepts.
 3. **PubMed (NIH/NLM)** — [Biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Access to the primary literature behind specific signaling pathways.
 4. **National Institutes of Health** — [Research programs and explainers](https://www.nih.gov/). Topic-level reference and grant-supported research overviews.

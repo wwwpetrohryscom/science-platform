@@ -67,7 +67,7 @@ The ERF framework assumes a separation between fast adjustments (clouds, vapour,
 ## Sources
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/). The authoritative assessment of radiative forcing, climate sensitivity, and the response of the climate system.
-2. **NOAA Global [Monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates.
+2. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates.
 3. **U.S. Environmental Protection Agency** — [Climate Change Indicators](https://www.epa.gov/climate-indicators). Per-gas concentration trends and the indicator framework used in U.S. assessments.
 4. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://climate.nasa.gov/). Topic-level reference on greenhouse gases, energy balance, and observational records.
 5. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.climate.gov/). Public-facing companion to NOAA's monitoring and assessment products.

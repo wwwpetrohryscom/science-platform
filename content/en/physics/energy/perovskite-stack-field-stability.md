@@ -72,7 +72,7 @@ But the technology has crossed an important threshold: outdoor and module-level 
 
 ## Sources
 
-1. **NREL** — [Perovskite solar cells](https://www.nrel.gov/pv/perovskite-solar-cells). U.S. National Renewable [Energy](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) Laboratory overview of perovskite opportunities and commercialization barriers.
+1. **NREL** — [Perovskite solar cells](https://www.nrel.gov/pv/perovskite-solar-cells). U.S. National Renewable Energy Laboratory overview of perovskite opportunities and commercialization barriers.
 2. **U.S. Department of Energy** — [Solar Energy Technologies Office](https://www.energy.gov/eere/solar/about-solar-energy-technologies-office). DOE program context for photovoltaic research and deployment.
 3. **NREL** — [Photovoltaic research](https://www.nrel.gov/pv/research.html). NREL photovoltaic research, reliability, and system-performance context.
 4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed perovskite and photovoltaic materials literature.

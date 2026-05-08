@@ -32,7 +32,7 @@ This piece walks through what the microbial mediation looks like, why it has bee
 
 When two farms with similar soil texture, [climate](/en/ecology/climate-change/what-is-climate-change), and management adopt the same regenerative practice, they sometimes produce comparable yield gains. They often do not. The variance across sites is large enough that synthesis studies can report wide confidence intervals; the central effect may be positive for some practices and contexts, but the spread is wide.
 
-The temptation is to attribute the variance to differences in management quality, weather, or [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) error. These contribute but may not fully account for the residual variance. Some of the remaining variance correlates with proxies for soil microbial state in studies that have measured it.
+The temptation is to attribute the variance to differences in management quality, weather, or measurement error. These contribute but may not fully account for the residual variance. Some of the remaining variance correlates with proxies for soil microbial state in studies that have measured it.
 
 ## What soil microbes are doing
 

@@ -60,7 +60,7 @@ The bet is that someone will. The bet is that, looking back from a decade hence,
 
 ## Sources
 
-1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Public biomedical and [life](/en/biology/cells/what-is-a-cell)-science reference infrastructure.
+1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Public biomedical and life-science reference infrastructure.
 2. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index and metadata infrastructure.
 3. **NIST** — [National Institute of Standards and Technology](https://www.nist.gov/). Measurement standards and scientific infrastructure context.
 4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed literature on scientific data, AI, and reproducibility.
