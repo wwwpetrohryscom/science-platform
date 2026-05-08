@@ -4,7 +4,7 @@ excerpt: Encapsulation, ion-migration suppression, and tandem architectures are 
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-02-21'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 4
 tags:
   - photovoltaics
@@ -44,7 +44,7 @@ Three substantive shifts have moved field stability into the regime where seriou
 
 **Encapsulation chemistries.** Modern encapsulant stacks block both moisture and oxygen ingress at the rates needed to extend operational lifetimes by orders of magnitude. The leading approaches use multilayer barrier films optimized for low water-vapor transmission rate, paired with edge sealants that prevent lateral ingress. The science here is not new — flexible OLED displays solved the analogous problem a decade ago. What is new is adapting it to the area scales and cost structures that photovoltaic manufacturing requires.
 
-**Additive engineering for ion migration.** Perovskite degradation under bias is dominated by ion migration at grain boundaries. Targeted additives — typically large organic cations or carefully chosen Lewis bases — passivate boundary defects and substantially slow ion movement. The result is cells that hold their efficiency under continuous operation for thousands of hours, where unmodified equivalents would have lost meaningful capacity in hundreds.
+**Additive engineering for ion migration.** Perovskite degradation under bias is dominated by ion migration at grain boundaries. Targeted additives — typically large organic cations or carefully chosen Lewis bases — passivate boundary defects and substantially slow ion movement. The result is [cells](/en/biology/cells/what-is-a-cell) that hold their efficiency under continuous operation for thousands of hours, where unmodified equivalents would have lost meaningful capacity in hundreds.
 
 **Tandem architectures.** Stacking a perovskite top cell on a silicon bottom cell distributes thermal load across two absorber layers and operates each layer in its preferred wavelength range. The tandem geometry is not just an efficiency optimization — it is a stability strategy. Each layer is doing less work than it would alone and degrading correspondingly slower.
 
@@ -52,7 +52,7 @@ The combined effect has moved some prototypes into longer monitored testing regi
 
 ## What remains
 
-Lead handling at end-of-[life](/en/biology/cells/what-is-a-cell) remains the largest open environmental issue. Lead-based perovskites — which are the highest-performing chemistries — release water-soluble lead compounds when damaged. Recycling streams designed for silicon panels do not capture this leachate. Without a credible end-of-life answer, regulatory deployment outside narrowly controlled environments will face legitimate resistance.
+Lead handling at end-of-[life](/en/biology/cells/what-is-a-cell) remains the largest open environmental issue. Lead-based perovskites — which are the highest-performing chemistries — release water-soluble lead compounds when damaged. Recycling streams designed for silicon panels do not capture this leachate. Without a credible end-of-[life](/en/biology/cells/what-is-a-cell) answer, regulatory deployment outside narrowly controlled environments will face legitimate resistance.
 
 Several research directions are addressing this. Lead-sequestering encapsulants bind released lead within the panel structure rather than letting it escape. Closed-loop recycling protocols are being developed with chemical processes that recover lead in a controlled stream. Lead-free perovskite chemistries (typically tin-based) are being pursued, but they presently lag in efficiency by enough that they are not yet competitive.
 

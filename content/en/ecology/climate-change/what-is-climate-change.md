@@ -4,7 +4,7 @@ excerpt: Climate change refers to the long-term shift in Earth's energy balance 
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 5
 tags:
   - climate
@@ -32,11 +32,11 @@ This article walks through all three.
 
 ## The mechanism
 
-Earth receives roughly constant energy from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) dioxide, methane, nitrous oxide, others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight ([NASA Science: Climate Change Evidence](https://science.nasa.gov/climate-change/evidence/)).
+Earth receives roughly constant [energy](/en/physics/energy/perovskite-stack-field-stability) from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) dioxide, methane, nitrous oxide, others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight ([NASA Science: Climate Change Evidence](https://science.nasa.gov/climate-change/evidence/)).
 
 This effect is not contested. It was characterized in the 19th century, has been measured in laboratories for over a century, and is the only physical explanation consistent with the observed warming pattern. The [IPCC's Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/) describes the human attribution of recent warming as "unequivocal." The greenhouse effect is also why Earth is habitable — without it, the planet would be roughly 33°C colder. The question has never been *whether* greenhouse gases warm the planet. The question is what happens when their concentration changes.
 
-Atmospheric carbon dioxide has risen from a stable pre-industrial value of ~280 ppm to roughly 425 ppm today. This is the highest concentration in at least 800,000 years (the limit of direct ice-core measurement) and almost certainly the highest in several million years. The isotopic signature of the added carbon is unambiguously fossil — it carries the depleted carbon-14 fraction that fossil fuels have because they have been buried long enough for radioactive decay.
+Atmospheric [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) dioxide has risen from a stable pre-industrial value of ~280 ppm to roughly 425 ppm today. This is the highest concentration in at least 800,000 years (the limit of direct ice-core [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications)) and almost certainly the highest in several million years. The isotopic signature of the added carbon is unambiguously fossil — it carries the depleted carbon-14 fraction that fossil fuels have because they have been buried long enough for radioactive decay.
 
 ## The evidence
 
@@ -44,7 +44,7 @@ The case for current warming and its human cause does not rest on any single lin
 
 **Direct measurement.** The instrumental temperature record now spans more than 150 years, with multiple independent groups producing reconstructions from raw station data. They agree on the magnitude (about 1.2°C above pre-industrial) and on the acceleration over the last 50 years.
 
-**Spatial pattern.** Greenhouse warming has a distinctive fingerprint: more warming over land than ocean, more at high latitudes than low, more at night than day, more in winter than summer. Solar warming has the opposite pattern in several of these. The observed pattern matches greenhouse warming, not solar.
+**Spatial pattern.** Greenhouse warming has a distinctive fingerprint: more warming over land than [ocean](/en/ecology/climate-change/ocean-heat-content-indicators), more at high latitudes than low, more at night than day, more in winter than summer. Solar warming has the opposite pattern in several of these. The observed pattern matches greenhouse warming, not solar.
 
 **Vertical structure.** Greenhouse warming heats the lower atmosphere (troposphere) and cools the upper atmosphere (stratosphere). Solar warming would heat both. The observed structure matches greenhouse warming.
 
@@ -58,7 +58,7 @@ These are independent. Every one of them would have to be wrong, in a coordinate
 
 ## What is genuinely uncertain
 
-Public discussion often suggests that the central uncertainty is whether climate change is happening or whether humans are causing it. Major assessments by the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and [NASA](https://science.nasa.gov/climate-change/) treat recent human influence as established. The genuinely open questions are different.
+Public discussion often suggests that the central uncertainty is whether [climate](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) change is happening or whether humans are causing it. Major assessments by the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and [NASA](https://science.nasa.gov/climate-change/) treat recent human influence as established. The genuinely open questions are different.
 
 **Regional precipitation.** Global mean precipitation responds robustly to warming, but regional patterns depend on circulation changes that current models do not yet resolve to confidence. Whether a specific region will get wetter, drier, or seasonally variable is harder to predict than mean temperature.
 
@@ -66,7 +66,7 @@ Public discussion often suggests that the central uncertainty is whether climate
 
 **Ice-sheet dynamics.** The pace of West Antarctic and Greenland ice loss depends on processes — basal melt, ice-shelf collapse, marine ice-cliff instability — that are still being characterized. The next century's sea-level rise could plausibly span a meter of difference depending on which mechanisms engage.
 
-**Carbon-cycle feedbacks.** Land and ocean currently absorb about half of human carbon emissions. Whether this absorption persists, weakens, or reverses under continued warming is the largest single uncertainty in the trajectory of atmospheric CO₂ at any given emissions path.
+**[Carbon-cycle](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) feedbacks.** Land and ocean currently absorb about half of human carbon emissions. Whether this absorption persists, weakens, or reverses under continued warming is the largest single uncertainty in the trajectory of atmospheric CO₂ at any given emissions path.
 
 **Tipping points and reversibility.** Several large Earth-system components — Amazon dieback, Arctic methane release, AMOC slowdown — could reorganize abruptly if warming exceeds threshold values. The threshold values themselves are uncertain.
 
@@ -80,9 +80,9 @@ When you encounter a climate argument, the relevant filter is: which of those fr
 
 ## Sources
 
-1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change, 2021. The authoritative synthesis of current evidence on climate mechanisms, attribution, and projections.
-2. **IPCC** — [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/), Intergovernmental Panel on Climate Change, 2023. Integrates findings across all three working groups.
+1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change (2021). The authoritative synthesis of current evidence on climate mechanisms, attribution, and projections.
+2. **IPCC** — [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/), Intergovernmental Panel on Climate Change (2023). Integrates findings across all three working groups.
 3. **NASA** — [Climate Change: Evidence](https://science.nasa.gov/climate-change/evidence/), NASA Science, ongoing. Plain-language summary of the multiple independent lines of evidence for warming.
 4. **NOAA** — [Climate.gov: Science & Information for a Climate-Smart Nation](https://www.climate.gov/), National Oceanic and Atmospheric Administration. Authoritative observational data and explainers.
 5. **WHO** — [Climate change and health (fact sheet)](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health), World Health Organization, October 2023. Health-impact framing of the scientific consensus.
-6. **EEA** — [Climate change in depth](https://www.eea.europa.eu/en/topics/in-depth/climate-change), European Environment Agency. European observational record and policy context.
+6. **EEA** — [Climate change in depth](https://www.eea.europa.eu/en/topics/in-depth/climate-change), European Environment Agency. European observational record and [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) context.

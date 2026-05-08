@@ -5,7 +5,7 @@ argument: Discovery captures attention; infrastructure captures compounding retu
 category: physics
 author: ecosciencehub-editorial-team
 publishedDate: '2026-03-22'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 4
 tags:
   - AI
@@ -18,7 +18,7 @@ related:
 _bodyHash: d3c24af4
 ---
 
-The conversation about AI in science is dominated by a particular kind of story: discovery. Protein-structure prediction, materials screening, and literature-mining systems are real scientific tools. But public research infrastructure from [NIH/NLM](https://www.ncbi.nlm.nih.gov/books/), peer-reviewed literature indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), and measurement standards from [NIST](https://www.nist.gov/) point to a less visible bottleneck: the experimental record is still hard to reproduce, query, and reuse at scale.
+The conversation about AI in science is dominated by a particular kind of story: discovery. Protein-structure prediction, [materials](/en/physics/energy/perovskite-stack-field-stability) screening, and literature-mining systems are real scientific tools. But public research infrastructure from [NIH/NLM](https://www.ncbi.nlm.nih.gov/books/), peer-reviewed literature indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), and [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) standards from [NIST](https://www.nist.gov/) point to a less visible bottleneck: the experimental record is still hard to reproduce, query, and reuse at scale.
 
 The wins that compound are different ones, and they are quietly going underfunded.
 

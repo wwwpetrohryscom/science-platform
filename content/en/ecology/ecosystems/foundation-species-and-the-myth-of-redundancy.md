@@ -4,7 +4,7 @@ excerpt: The claim that ecosystems are robust because species are interchangeabl
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-02-04'
-updatedDate: '2026-05-03'
+updatedDate: '2026-05-08'
 readingTime: 4
 tags:
   - ecosystems
@@ -18,7 +18,7 @@ pillar: what-is-an-ecosystem
 _bodyHash: 26bf7ec7
 ---
 
-A persistent claim in popular ecology is that [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) provides "functional redundancy" — multiple species perform the same role, so the loss of any one species can be absorbed without consequence. Public biodiversity assessments from [UNEP](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and [IPBES](https://www.ipbes.net/global-assessment) support a more cautious framing: redundancy exists in some functions and systems, but it is not a universal guarantee of resilience.
+A persistent claim in popular ecology is that [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) provides "functional redundancy" — multiple species perform the same role, so the loss of any one species can be absorbed without consequence. Public [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) assessments from [UNEP](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and [IPBES](https://www.ipbes.net/global-assessment) support a more cautious framing: redundancy exists in some functions and systems, but it is not a universal guarantee of [resilience](/en/ecology/ecosystems/what-is-an-ecosystem).
 
 Long-term ecosystem studies suggest that ecological function can be unevenly distributed across species, and that some *foundation species* disproportionately determine the structure of the systems they inhabit. Lose them and the ecosystem may reorganize — not because no species can take their place in principle, but because no species is doing what they did at the same scale, abundance, or physical position.
 
@@ -45,10 +45,10 @@ The lesson is not that redundancy doesn't exist. It does, for most of the specie
 A foundation-species-aware framework would prioritize:
 
 - Identifying the foundation species in a given system, which is empirical work that has been done for fewer [ecosystems](/en/ecology/ecosystems/what-is-an-ecosystem) than people assume
-- Monitoring their condition with the same intensity we monitor flagship species
+- [Monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) their condition with the same intensity we monitor flagship species
 - Treating their decline — even if absolute populations remain large — as an early-warning signal for ecosystem reorganization
 
-This is not how most conservation budgeting works. A stronger evidence base for foundation-species monitoring would make the case easier to operationalize.
+This is not how most [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) budgeting works. A stronger evidence base for foundation-species monitoring would make the case easier to operationalize.
 
 ## The functional-diversity correction
 
@@ -60,16 +60,16 @@ Even this is incomplete. Functional diversity treats roles as discrete units, bu
 
 Two pieces of the older biodiversity-as-insurance argument do survive scrutiny.
 
-First, in the *long* run, the existence of redundant species does buffer ecosystems against perturbation, because over decades to centuries, redundant species can shift roles or evolve to fill gaps. The redundancy framing fails as a description of short-term dynamics; it succeeds as a description of long-term evolutionary buffering.
+First, in the *long* run, the existence of redundant species does buffer [ecosystems](/en/ecology/ecosystems/what-is-an-ecosystem) against perturbation, because over decades to centuries, redundant species can shift roles or evolve to fill gaps. The redundancy framing fails as a description of short-term dynamics; it succeeds as a description of long-term evolutionary buffering.
 
 Second, intact biodiversity is correlated with the persistence of foundation species. We do not always know which species are foundational in a system, and protecting overall diversity is a hedge against guessing wrong. This is a weaker argument than the one usually made, but it is the strongest one the evidence supports.
 
-The distinction matters because the weaker argument leads to different policy than the stronger one. If you believe biodiversity is fungible, you can substitute restoration credits across systems. If you believe it isn't, you can't.
+The distinction matters because the weaker argument leads to different [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) than the stronger one. If you believe biodiversity is fungible, you can substitute restoration credits across systems. If you believe it isn't, you can't.
 
 ## Sources
 
 1. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). UN overview of ecosystem protection, restoration, and nature action.
 2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Assessment of habitat pressures and conservation status.
-3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Intergovernmental biodiversity and ecosystem-services synthesis.
+3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Intergovernmental biodiversity and [ecosystem-services](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) synthesis.
 4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed ecology and foundation-species literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed ecology and conservation research.
