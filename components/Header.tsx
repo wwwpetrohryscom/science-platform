@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { categories } from "@/lib/categories";
@@ -99,22 +100,13 @@ export function Header({ locale }: HeaderProps) {
 
 function Logo() {
   return (
-    <span
-      aria-hidden
-      className="grid h-8 w-8 place-items-center rounded-md bg-primary-600 text-white"
-    >
-      <svg
-        viewBox="0 0 24 24"
-        fill="none"
-        className="h-4 w-4"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M12 2c4 4 6 7 6 11a6 6 0 1 1-12 0c0-4 2-7 6-11z" />
-        <path d="M12 13v9" />
-      </svg>
-    </span>
+    <Image
+      src="/brand/ecosciencehub-logo.png"
+      alt="EcoScienceHub logo"
+      width={36}
+      height={36}
+      priority
+      className="h-9 w-9 shrink-0"
+    />
   );
 }

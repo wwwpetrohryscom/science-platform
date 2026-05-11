@@ -4,7 +4,7 @@ excerpt: Climate change refers to the long-term shift in Earth's energy balance 
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-05-08'
+updatedDate: '2026-05-11'
 readingTime: 5
 tags:
   - climate
@@ -72,6 +72,12 @@ Public discussion often suggests that the central uncertainty is whether [climat
 
 These uncertainties are not symmetric. Most of them, on the central estimate, point toward worse outcomes than the consensus median, not better.
 
+## What recent indicators show
+
+Annual climate-indicator reports — the [WMO State of the Global Climate](https://wmo.int/) series, the [NOAA State of the Climate](https://www.ncei.noaa.gov/) at NCEI, and the [Copernicus Climate Change Service](https://climate.copernicus.eu/) Global Climate Highlights — converge on the same picture. Global mean surface temperature for the most recent reporting year was the warmest in the instrumental record by a clear margin; ocean heat content reached a new high; greenhouse-gas concentrations continued to rise; sea-level rise accelerated over the last decade relative to the multi-decade average. These are not single-dataset claims — each indicator is corroborated across the major analysis groups, which is the property that makes them robust.
+
+The intra-year variability that produced the most recent record was modulated by an El Niño event, which redistributes heat from ocean to atmosphere. The long-term forced trend underlying the indicators is independent of that variability and is documented in the same reports. For the indicator-specific reading, the [sea-level rise indicators](/en/ecology/climate-change/sea-level-rise-indicators) and [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) pieces walk through what each measurement does and does not capture.
+
 ## The takeaway
 
 Climate change is a thermodynamic consequence of changing atmospheric composition. Major assessments treat the mechanism and recent human attribution as established. The active research frontier is on magnitude, regional impact, feedback strength, and reversibility — not on the foundational claims.
@@ -85,4 +91,6 @@ When you encounter a climate argument, the relevant filter is: which of those fr
 3. **NASA** — [Climate Change: Evidence](https://science.nasa.gov/climate-change/evidence/), NASA Science, ongoing. Plain-language summary of the multiple independent lines of evidence for warming.
 4. **NOAA** — [Climate.gov: Science & Information for a Climate-Smart Nation](https://www.climate.gov/), National Oceanic and Atmospheric Administration. Authoritative observational data and explainers.
 5. **WHO** — [Climate change and health (fact sheet)](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health), World Health Organization, October 2023. Health-impact framing of the scientific consensus.
+6. **WMO** — [State of the Global Climate](https://wmo.int/), World Meteorological Organization. Annual global indicator assessment used by the UN climate system.
+7. **Copernicus Climate Change Service** — [Global Climate Highlights](https://climate.copernicus.eu/), ECMWF / European Commission. Annual European/global indicator products and reanalyses.
 6. **EEA** — [Climate change in depth](https://www.eea.europa.eu/en/topics/in-depth/climate-change), European Environment Agency. European observational record and [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) context.
