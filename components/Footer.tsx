@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { siteConfig } from "@/lib/seo";
@@ -53,9 +54,18 @@ export function Footer({ locale }: FooterProps) {
     <footer className="mt-24 border-t border-ink-line bg-ink-surface">
       <div className="container-page grid gap-10 py-14 md:grid-cols-[1.4fr_repeat(3,1fr)]">
         <div>
-          <p className="font-serif text-lg font-semibold tracking-tight text-ink">
-            {siteConfig.name}
-          </p>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/brand/ecosciencehub-logo.png"
+              alt="EcoScienceHub logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 shrink-0"
+            />
+            <p className="font-serif text-lg font-semibold tracking-tight text-ink">
+              {siteConfig.name}
+            </p>
+          </div>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">
             {t("site.description")}
           </p>

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Inter, Source_Serif_4 } from "next/font/google";
+import Script from "next/script";
 
 import "@/styles/globals.css";
 import { CookieBanner } from "@/components/CookieBanner";
@@ -114,6 +115,18 @@ export default function LocaleLayout({
         />
         {children}
         <CookieBanner />
+        {/*
+          WebmasterID analytics tracker — anonymous, GDPR-friendly visitor
+          analytics. siteId and endpoint are public client-side config.
+          Loaded once per page after first paint so it never blocks render.
+        */}
+        <Script
+          id="webmasterid-tracker"
+          src="https://webmasterid.com/tracker.iife.min.js"
+          strategy="afterInteractive"
+          data-wmid="wm_2e43kf5u8ntbtlvn"
+          data-endpoint="https://webmasterid-ingest-api.vercel.app/api/events"
+        />
       </body>
     </html>
   );
