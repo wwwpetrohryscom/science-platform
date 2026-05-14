@@ -238,8 +238,8 @@ export function organizationJsonLd() {
     logo: {
       "@type": "ImageObject",
       "@id": new URL("/#logo", siteConfig.url).toString(),
-      url: new URL("/logo.png", siteConfig.url).toString(),
-      contentUrl: new URL("/logo.png", siteConfig.url).toString(),
+      url: new URL("/brand/ecosciencehub-logo.png", siteConfig.url).toString(),
+      contentUrl: new URL("/brand/ecosciencehub-logo.png", siteConfig.url).toString(),
       caption: siteConfig.name,
     },
     ...(siteConfig.publisher.sameAs.length > 0
