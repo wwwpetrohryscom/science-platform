@@ -35,6 +35,7 @@ export function Footer({ locale }: FooterProps) {
       links: [
         { href: localizedPath(locale, "/insights"), label: t("nav.insights") },
         { href: localizedPath(locale, "/discussions"), label: t("nav.discussions") },
+        { href: "/en/glossary", label: "Glossary" },
       ],
     },
     {

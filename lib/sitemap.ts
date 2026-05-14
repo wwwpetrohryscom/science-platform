@@ -2,6 +2,7 @@ import { siteConfig } from "@/lib/seo";
 import { categories, listCategorySlugs } from "@/lib/categories";
 import { getAllArticles, getAllInsights } from "@/lib/content";
 import { getDiscussions } from "@/lib/discussions";
+import { listGlossaryAlphabetical } from "@/lib/glossary";
 import {
   DEFAULT_LOCALE,
   LOCALES,
@@ -271,7 +272,48 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     );
   });
 
-  return dedupe([...structuralEntries, ...contentEntries, ...discussionEntries]);
+  // Glossary — EN-only in this pass. Use alternates restricted to EN so
+  // hreflang stays accurate (no fake translations) and crawlers don't
+  // discover a non-EN URL for terms that aren't translated.
+  const glossaryEntries: SitemapEntry[] = [];
+  const glossaryTerms = listGlossaryAlphabetical();
+  const glossaryLastModified = glossaryTerms.reduce(
+    (max, t) => (t.updatedDate > max ? t.updatedDate : max),
+    "1970-01-01",
+  );
+  const glossaryAlternates = buildLocalizedAlternates("/glossary", [
+    DEFAULT_LOCALE,
+  ]);
+  glossaryEntries.push(
+    entry(
+      DEFAULT_LOCALE,
+      "/glossary",
+      toDate(glossaryLastModified),
+      "monthly",
+      0.6,
+      glossaryAlternates,
+    ),
+  );
+  for (const term of glossaryTerms) {
+    const path = `/glossary/${term.slug}`;
+    glossaryEntries.push(
+      entry(
+        DEFAULT_LOCALE,
+        path,
+        toDate(term.updatedDate),
+        "monthly",
+        0.5,
+        buildLocalizedAlternates(path, [DEFAULT_LOCALE]),
+      ),
+    );
+  }
+
+  return dedupe([
+    ...structuralEntries,
+    ...contentEntries,
+    ...discussionEntries,
+    ...glossaryEntries,
+  ]);
 }
 
 export function escapeXml(value: string): string {

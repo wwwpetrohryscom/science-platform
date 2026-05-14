@@ -5,6 +5,7 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
 import { GeneratedBlock } from "@/components/GeneratedBlock";
 import { SourceList } from "@/components/SourceList";
+import { FaqBlock } from "@/components/FaqBlock";
 
 import { getCategory, type CategorySlug } from "@/lib/categories";
 import {
@@ -19,8 +20,15 @@ import {
   generateTopicIntro,
   listSourcesForTopic,
 } from "@/lib/content/generators";
+import { getTopicFaqs } from "@/lib/content/faqs";
+import {
+  breadcrumbJsonLd,
+  collectionPageJsonLd,
+  faqJsonLd,
+} from "@/lib/seo";
 import {
   getMessages,
+  localeMeta,
   localizedPath,
   translator,
   type Locale,
@@ -55,9 +63,43 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
   const methodology = generateMethodologyNote(category);
   const sourceBlock = generateSourceBlock(category);
   const sources = listSourcesForTopic(category);
+  const faqs = getTopicFaqs(category);
+
+  // Structured data: BreadcrumbList, CollectionPage (with article
+  // inventory), and FAQPage (only when the FAQ block is actually
+  // rendered on the page).
+  const hubPath = localizedPath(locale, `/${category}`);
+  const breadcrumbLd = breadcrumbJsonLd([
+    { name: t("nav.home"), path: localizedPath(locale, "/") },
+    { name: label, path: hubPath },
+  ]);
+  const collectionLd = collectionPageJsonLd({
+    title: label,
+    description,
+    path: hubPath,
+    inLanguage: localeMeta[locale].htmlLang,
+    items: [...pillars, ...latest.filter((a) => !pillars.includes(a))].map(
+      (a) => ({ name: a.title, path: a.url }),
+    ),
+  });
+  const faqLd = faqs.length > 0 ? faqJsonLd(faqs) : null;
 
   return (
     <Layout locale={locale}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }}
+      />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
       <PageHeading
         eyebrow={t("home.topics_eyebrow")}
         title={label}
@@ -178,6 +220,14 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
           limit={8}
         />
       </section>
+
+      {faqs.length > 0 && (
+        <FaqBlock
+          heading={`Frequently asked about ${label.toLowerCase()}`}
+          description="Short, source-backed answers to common questions about this topic area."
+          items={faqs}
+        />
+      )}
 
       <div className="mt-24">
         <NewsletterBlock locale={locale} />

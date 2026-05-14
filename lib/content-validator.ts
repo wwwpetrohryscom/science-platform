@@ -288,6 +288,25 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
     });
   }
 
+  // 12. Sources-block-link regression guard. The internal linker
+  //     masks `## Sources` regions out of injection. A regex bug in
+  //     2026-05 silently failed to mask the block, allowing wrong-sense
+  //     links to land inside Sources lists. This rule fails the build
+  //     if any internal link reappears inside a Sources block.
+  const sourcesBlockMatch = article.body.match(/^##\s+Sources[\s\S]*/im);
+  if (sourcesBlockMatch) {
+    const block = sourcesBlockMatch[0];
+    const internalInSources = [...block.matchAll(/\]\(\/[a-z]{2}\//g)];
+    if (internalInSources.length > 0) {
+      issues.push({
+        severity: "error",
+        rule: "sources-block-link",
+        message: `${internalInSources.length} internal link(s) found inside the Sources block — the linker should never touch this section`,
+        filepath: fp,
+      });
+    }
+  }
+
   return issues;
 }
 

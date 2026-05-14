@@ -71,7 +71,7 @@ The textbook revision will lag the literature, as it usually does. The literatur
 ## Sources
 
 1. **PubMed** — [NIH/NLM indexed evolutionary and developmental biology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for cell-type evolution.
-2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed evolutionary biology, [genomics](/en/biology/genetics/single-cell-evo-devo), and [single-cell](/en/biology/genetics/single-cell-evo-devo) research.
+2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed evolutionary biology, genomics, and single-cell research.
 3. **Science** — [Science journals](https://www.science.org/). Peer-reviewed animal evolution and developmental biology research.
 4. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular, cellular, and evolutionary biology.
 5. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.
