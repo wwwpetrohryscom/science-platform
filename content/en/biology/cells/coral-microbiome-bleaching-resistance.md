@@ -77,7 +77,7 @@ It is, in the end, a buffer — a meaningful one, not a solution. The practical 
 ## Sources
 
 1. **NOAA Coral Reef Watch** — [Coral bleaching tutorial](https://coralreefwatch.noaa.gov/product/50km/tutorial/crw02_coralbleaching.php). NOAA explanation of bleaching mechanisms and heat stress.
-2. **NOAA Coral Reef Watch** — [Near-real-time coral reef monitoring](https://coralreefwatch.noaa.gov/). Satellite-based [monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) and bleaching-alert products.
+2. **NOAA Coral Reef Watch** — [Near-real-time coral reef monitoring](https://coralreefwatch.noaa.gov/). Satellite-based monitoring and bleaching-alert products.
 3. **PubMed** — [NIH/NLM indexed coral microbiome literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for microbiome and marine biology research.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed coral, microbiome, and [climate](/en/ecology/climate-change/what-is-climate-change)-impact literature.
+4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed coral, microbiome, and climate-impact literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed marine ecology and coral bleaching research.

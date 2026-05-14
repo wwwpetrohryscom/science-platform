@@ -76,7 +76,7 @@ The most defensible position on DNA in contemporary public discourse is somethin
 ## Sources
 
 1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). National Human Genome Research Institute definition of DNA and genetic information.
-2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). [Genetics](/en/biology/genetics/how-gene-expression-is-regulated) terminology and public-facing genomic science definitions.
+2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Genetics terminology and public-facing genomic science definitions.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts for molecular biology, genetics, and genome function.
-4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and [genomics](/en/biology/genetics/single-cell-evo-devo) literature index.
+4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and genomics literature index.
 5. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed genetics and genomics literature.

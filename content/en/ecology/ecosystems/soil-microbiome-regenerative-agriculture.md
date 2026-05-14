@@ -79,8 +79,8 @@ For a [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) ma
 
 ## Sources
 
-1. **PubMed** — [NIH/NLM indexed soil microbiome and agricultural microbiology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed biomedical and [life](/en/biology/cells/what-is-a-cell)-science literature index.
+1. **PubMed** — [NIH/NLM indexed soil microbiome and agricultural microbiology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed biomedical and life-science literature index.
 2. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). Ecosystem restoration and sustainable land-use context.
-3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Ecosystem-pressure and [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) context for land management.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed [microbiome](/en/biology/cells/coral-microbiome-bleaching-resistance), soil, and ecosystem science literature.
+3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Ecosystem-pressure and biodiversity context for land management.
+4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed microbiome, soil, and ecosystem science literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed environmental and agricultural science literature.

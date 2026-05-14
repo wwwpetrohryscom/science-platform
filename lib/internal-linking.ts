@@ -126,7 +126,13 @@ export function injectInternalLinks(
   working = mask(working, /\[[^\]]+\]\([^)]+\)/g); // existing links
   working = mask(working, /<[^>]+>/g); // raw HTML / autolinks
   working = mask(working, /^#{1,6}.*$/gm); // headings
-  working = mask(working, /^##\s+Sources[\s\S]*?(?=^##\s|\Z)/gim); // sources block
+  // Sources block — mask from `## Sources` to end of file. The earlier
+  // pattern used `\Z`, which is not a valid escape in JavaScript regex
+  // (it was treated as a literal `Z`), so the mask silently failed and
+  // links got injected into Sources lists. Sources is conventionally
+  // the last section of an article; greedy-to-end captures the whole
+  // block reliably across articles that vary in trailing whitespace.
+  working = mask(working, /^##\s+Sources[\s\S]*/gim);
 
   const injected: { keyword: string; url: string }[] = [];
   const skipped: InjectResult["skipped"] = [];

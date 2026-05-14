@@ -342,3 +342,96 @@ export function breadcrumbJsonLd(
     })),
   };
 }
+
+/**
+ * JSON-LD for a CollectionPage — used by topic and subtopic hubs to
+ * declare themselves as an indexed collection of articles. The
+ * `mainEntity.itemListElement` array gives crawlers a fast inventory
+ * of the underlying articles without having to crawl the hub's
+ * outbound links separately.
+ */
+export function collectionPageJsonLd(input: {
+  title: string;
+  description: string;
+  path: string;
+  inLanguage: string;
+  items: Array<{ name: string; path: string }>;
+}) {
+  const url = new URL(input.path, siteConfig.url).toString();
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${url}#collection`,
+    url,
+    name: input.title,
+    description: input.description,
+    inLanguage: input.inLanguage,
+    isPartOf: { "@id": new URL("/#organization", siteConfig.url).toString() },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: input.items.length,
+      itemListElement: input.items.map((item, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        name: item.name,
+        url: new URL(item.path, siteConfig.url).toString(),
+      })),
+    },
+  };
+}
+
+/**
+ * JSON-LD for a single glossary term (schema.org DefinedTerm).
+ */
+export function definedTermJsonLd(input: {
+  term: string;
+  definition: string;
+  path: string;
+  inLanguage: string;
+  termSetUrl?: string;
+}) {
+  const url = new URL(input.path, siteConfig.url).toString();
+  return {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "@id": `${url}#term`,
+    url,
+    name: input.term,
+    description: input.definition,
+    inLanguage: input.inLanguage,
+    ...(input.termSetUrl
+      ? {
+          inDefinedTermSet: new URL(input.termSetUrl, siteConfig.url).toString(),
+        }
+      : {}),
+  };
+}
+
+/**
+ * JSON-LD for the glossary index — a DefinedTermSet containing every
+ * term as a DefinedTerm child. Mirrors the visible glossary page.
+ */
+export function definedTermSetJsonLd(input: {
+  title: string;
+  description: string;
+  path: string;
+  inLanguage: string;
+  terms: Array<{ name: string; description: string; path: string }>;
+}) {
+  const url = new URL(input.path, siteConfig.url).toString();
+  return {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "@id": `${url}#termset`,
+    url,
+    name: input.title,
+    description: input.description,
+    inLanguage: input.inLanguage,
+    hasDefinedTerm: input.terms.map((term) => ({
+      "@type": "DefinedTerm",
+      name: term.name,
+      description: term.description,
+      url: new URL(term.path, siteConfig.url).toString(),
+    })),
+  };
+}
