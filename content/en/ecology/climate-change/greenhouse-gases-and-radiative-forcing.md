@@ -4,7 +4,7 @@ excerpt: Radiative forcing is the bookkeeping unit that lets atmospheric scienti
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-22'
-updatedDate: '2026-05-08'
+updatedDate: '2026-05-18'
 readingTime: 6
 tags:
   - climate-change
@@ -60,6 +60,12 @@ Three misreadings of radiative forcing recur in popular coverage.
 
 When a chart shows "anthropogenic forcing since 1750", three things are being summed: the well-constrained greenhouse-gas forcing, the moderately constrained aerosol forcing, and the small land-use term. The error bars on the total are dominated by the aerosol uncertainty. This is not a reason to discount the result — the gas-only term is large enough that the *sign* of total anthropogenic forcing is not in question — but it is the reason headlines about "climate model uncertainty" usually trace back to aerosols, not to CO₂.
 
+## Recent evidence and updated context
+
+The annual greenhouse-gas concentration record continues to be the cleanest signal in the climate dataset. [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) flask and in-situ measurements show CO₂, methane, and nitrous oxide all rising; the [WMO Greenhouse Gas Bulletin](https://wmo.int/) and the companion [Copernicus Climate Change Service](https://climate.copernicus.eu/) products report the same gases from independent observing networks and arrive at consistent global means. The methane growth rate over the early 2020s has been higher than the long-term average and remains an active area of source-attribution research drawing on isotopic and satellite-column measurements.
+
+These concentration trends are the input to the forcing calculation. They do not, on their own, settle the *response* — the temperature response is governed by climate sensitivity, which is assessed separately in AR6.
+
 ## Limitations and uncertainty
 
 The ERF framework assumes a separation between fast adjustments (clouds, vapour, vertical temperature profile) and the slower surface temperature response. That separation is a useful approximation, not a physical law. AR6 documents where it works well and where the assumption strains — for example, when forcings are spatially heterogeneous or when feedbacks operate on the timescales of fast adjustments. The numbers in this article are central estimates; the full assessment ranges live in the [AR6 WG1 chapter on anthropogenic and natural radiative forcing](https://www.ipcc.ch/report/ar6/wg1/).
@@ -71,3 +77,5 @@ The ERF framework assumes a separation between fast adjustments (clouds, vapour,
 3. **U.S. Environmental Protection Agency** — [Climate Change Indicators](https://www.epa.gov/climate-indicators). Per-gas concentration trends and the indicator framework used in U.S. assessments.
 4. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://climate.nasa.gov/). Topic-level reference on greenhouse gases, energy balance, and observational records.
 5. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.climate.gov/). Public-facing companion to NOAA's monitoring and assessment products.
+6. **World Meteorological Organization** — [Greenhouse Gas Bulletin](https://wmo.int/). Annual report on globally averaged abundances of long-lived greenhouse gases.
+7. **Copernicus Climate Change Service** — [Greenhouse gas indicators](https://climate.copernicus.eu/). European-led satellite and in-situ products tracking CO₂, methane, and nitrous oxide.

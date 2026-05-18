@@ -4,7 +4,7 @@ excerpt: The Earth absorbs a specific amount of energy from the Sun and radiates
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-24'
-updatedDate: '2026-05-08'
+updatedDate: '2026-05-18'
 readingTime: 5
 tags:
   - energy
@@ -68,6 +68,12 @@ Two quantities in the energy budget are well-constrained; one is not.
 
 **Cloud feedback** is the dominant remaining uncertainty. How clouds change as the climate warms — height, coverage, optical properties — determines a substantial fraction of the spread in climate sensitivity estimates. AR6 reports cloud feedback as positive overall (warming-amplifying) with quantifiable but irreducible spread across models. This is the principal reason climate sensitivity is reported as a range rather than a single number.
 
+## Recent evidence and updated context
+
+The satellite top-of-atmosphere imbalance record, produced by the CERES instrument suite, continues to indicate a positive Earth energy imbalance of roughly 1 W/m² when averaged over the most recent multi-year window. The ocean uptake record from [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) datasets closes the budget within stated uncertainties, which is the cross-check that gives the imbalance estimate its weight. The companion [NASA CERES mission documentation](https://www.nasa.gov/) and [NOAA Climate.gov](https://www.climate.gov/) explainers describe the calibration and uncertainty structure of the radiometric record.
+
+Recent work documented in [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) Chapter 7 and follow-on analyses continues to refine cloud-feedback estimates; the central value remains positive and the uncertainty range has narrowed somewhat without resolving the spread fully.
+
 ## Methods note
 
 Top-of-atmosphere energy budget estimates rest primarily on satellite radiometry. The [NASA Earth Observatory](https://earthobservatory.nasa.gov/) and [NASA](https://www.nasa.gov/) mission pages document the instruments — CERES, MISR, MODIS, AIRS — that contribute. Surface energy budget estimates combine in-situ flux measurements (FLUXNET, baseline surface radiation network), satellite-derived surface temperature, and reanalyses produced by [ECMWF Copernicus](https://climate.copernicus.eu/) and partner agencies.
@@ -86,3 +92,4 @@ The accounting is the physics. The [applications](/en/physics/quantum-basics/qua
 4. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/), Chapter 7 (The Earth's energy budget, climate feedbacks and climate sensitivity). Authoritative assessment of the components.
 5. **U.S. National Renewable Energy Laboratory** — [Solar resource and reference spectra](https://www.nrel.gov/). Reference spectra and surface-irradiance data products for solar applications.
 6. **U.S. Department of Energy Solar Energy Technologies Office** — [Solar irradiance reference](https://www.energy.gov/eere/solar). Industry reference for solar resource quantification.
+7. **Copernicus Climate Change Service** — [Reanalysis and energy-budget products](https://climate.copernicus.eu/). Independent European reanalysis chain used to cross-check NASA and NOAA energy-budget estimates.
