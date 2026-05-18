@@ -4,7 +4,7 @@ excerpt: Antimicrobial resistance is one of the clearest contemporary examples o
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-29'
-updatedDate: '2026-05-08'
+updatedDate: '2026-05-18'
 readingTime: 5
 tags:
   - evolution
@@ -81,6 +81,12 @@ Three areas remain genuinely open.
 
 **Resistance to emerging drug classes.** New antibiotics — bacteriophage-based, antibody-based, and novel small-molecule classes — face the same evolutionary process. Whether resistance to these will emerge as quickly as to small-molecule antibiotics is not yet observable; the [NIH](https://www.nih.gov/) and [WHO](https://www.who.int/) preparedness programs treat it as a working assumption rather than settled fact.
 
+## Recent evidence and updated context
+
+The WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) continues to expand reporting coverage, with more national systems contributing standardized data on bloodstream and other priority pathogens. The [WHO](https://www.who.int/) bacterial-priority pathogens list and the [CDC](https://www.cdc.gov/) antibiotic-resistance threat reports remain the primary public reference points for which resistance phenotypes are tracked operationally. Surveillance signals over the early 2020s document continued spread of carbapenem-resistant Enterobacterales and persistent challenges with drug-resistant tuberculosis and gonorrhea, with sustained variation across regions.
+
+On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature has continued to characterize compensatory evolution — mutations that reduce the fitness cost of resistance — which is the molecular basis for why resistance phenotypes persist after the corresponding drug is withdrawn from use. This evidence is consistent with the framing used by the CDC and WHO that resistance reversion is not automatic and stewardship works on the rate of emergence and spread rather than on the underlying evolutionary mechanism.
+
 ## What this article does not do
 
 It does not provide medical advice. Decisions about antibiotic prescribing, choice, and duration depend on clinical context and should rest with clinicians and authoritative public-health guidance. The references below are entry points for the underlying biology and [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) science, not substitutes for professional medical sources.
@@ -92,3 +98,5 @@ It does not provide medical advice. Decisions about antibiotic prescribing, choi
 3. **National Institutes of Health** — [AMR research and explainers](https://www.nih.gov/). Research portfolio on resistance mechanisms and counter-strategies.
 4. **PubMed (NIH/NLM)** — [Primary literature on resistance mechanisms](https://pubmed.ncbi.nlm.nih.gov/). Indexed scientific articles for specific mechanisms and clinical contexts.
 5. **Science** — [Peer-reviewed research on microbial evolution](https://www.science.org/). Original research on resistance evolution and HGT.
+6. **WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS)** — [Global resistance surveillance](https://www.who.int/). Standardized national reporting on resistance phenotypes in priority pathogens.
+7. **NIH National Library of Medicine — NCBI Bookshelf** — [Microbiology reference](https://www.ncbi.nlm.nih.gov/books/). Open-access textbook chapters on resistance mechanisms and compensatory evolution.

@@ -4,7 +4,7 @@ excerpt: Surface air temperature is noisy. The ocean is not. Here is what ocean 
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-25'
-updatedDate: '2026-05-08'
+updatedDate: '2026-05-18'
 readingTime: 5
 tags:
   - climate-change
@@ -52,6 +52,12 @@ The Argo program took years to reach full deployment and prior data sources are 
 
 Subsurface temperature drift in some XBT (expendable bathythermograph) data has been a recurring source of bias. The corrections used by analysis groups are documented in the technical reports backing each product. The [climate.gov](https://www.climate.gov/) explainer pages link to the methodology pages for each.
 
+## Recent evidence and updated context
+
+Operational OHC products continue to extend the record without altering its shape. The [WMO State of the Global Climate](https://wmo.int/) bulletins synthesize OHC alongside surface temperature, sea level, and sea-ice extent each year, and report that the most recent multi-year window remains the warmest on the instrumental record. The [Copernicus Climate Change Service](https://climate.copernicus.eu/) publishes complementary ocean reanalyses (ORAS, GREP) that allow the upper-2000 m signal to be cross-checked against an independent processing chain. Where the analysis groups disagree — usually in regional pattern or in the deeper layers — the disagreement is documented in their methodology pages rather than smoothed away.
+
+Sea-level rise from thermal expansion tracks OHC closely; the partitioned [sea-level indicator](/en/ecology/climate-change/sea-level-rise-indicators) record from NOAA and NASA is the cleanest cross-check on the upper-ocean component of OHC, since the same physics governs both.
+
 ## Why this indicator matters for [climate change](/en/ecology/climate-change/what-is-climate-change) communication
 
 Three properties make OHC the cleanest climate indicator for general communication:
@@ -69,3 +75,5 @@ Combined with [radiative forcing](/en/ecology/climate-change/greenhouse-gases-an
 3. **NASA Global Climate Change** — [Ocean heat content vital sign](https://climate.nasa.gov/). Public-facing record of OHC anomalies alongside other climate indicators.
 4. **NOAA Climate.gov** — [Explainers and indicator products](https://www.climate.gov/). Methodology pages and educational material on ocean heat measurement.
 5. **European Environment Agency** — [Climate-change indicator framework](https://www.eea.europa.eu/). European regional assessments of ocean and sea-level indicators.
+6. **World Meteorological Organization** — [State of the Global Climate](https://wmo.int/). Annual synthesis of OHC alongside other climate indicators.
+7. **Copernicus Climate Change Service** — [Ocean reanalyses and indicators](https://climate.copernicus.eu/). Independent ocean reanalysis chain used to cross-check OHC estimates.
