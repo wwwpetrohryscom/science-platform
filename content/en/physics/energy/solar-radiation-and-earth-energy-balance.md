@@ -4,7 +4,7 @@ excerpt: The Earth absorbs a specific amount of energy from the Sun and radiates
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-24'
-updatedDate: '2026-05-18'
+updatedDate: '2026-05-20'
 readingTime: 5
 tags:
   - energy
@@ -71,6 +71,8 @@ Two quantities in the energy budget are well-constrained; one is not.
 ## Recent evidence and updated context
 
 The satellite top-of-atmosphere imbalance record, produced by the CERES instrument suite, continues to indicate a positive Earth energy imbalance of roughly 1 W/m² when averaged over the most recent multi-year window. The ocean uptake record from [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) datasets closes the budget within stated uncertainties, which is the cross-check that gives the imbalance estimate its weight. The companion [NASA CERES mission documentation](https://www.nasa.gov/) and [NOAA Climate.gov](https://www.climate.gov/) explainers describe the calibration and uncertainty structure of the radiometric record.
+
+CERES EBAF (Energy Balanced and Filled) products document an upward trend in the imbalance over the past two decades — the planet is not just out of balance, the imbalance has been growing. The trend is corroborated by independent OHC products, which is what makes it a load-bearing observation rather than a single-instrument artefact. A live area of analysis, documented in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature and discussed in [NASA Earth Observatory](https://earthobservatory.nasa.gov/) explainers, concerns how much of the recent change reflects reduced reflective aerosols (including the post-2020 IMO sulfur cap on marine fuels) unmasking pre-existing greenhouse-gas warming, versus other feedback contributions. The accounting is being narrowed but is not settled.
 
 Recent work documented in [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) Chapter 7 and follow-on analyses continues to refine cloud-feedback estimates; the central value remains positive and the uncertainty range has narrowed somewhat without resolving the spread fully.
 

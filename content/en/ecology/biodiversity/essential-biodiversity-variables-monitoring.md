@@ -4,7 +4,7 @@ excerpt: Biodiversity is harder to monitor than climate because no single instru
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-05-18'
+updatedDate: '2026-05-20'
 readingTime: 5
 tags:
   - biodiversity
@@ -69,7 +69,9 @@ EBVs make biodiversity monitoring more comparable; they do not make it complete.
 
 The Kunming-Montreal Global Biodiversity Framework, adopted in late 2022, requires signatories to report progress against headline indicators that draw directly on EBV-aligned data classes. The [FAO global forest reporting](https://www.fao.org/) provides a widely-cited operational example for ecosystem-structure variables, and the [European Environment Agency biodiversity assessments](https://www.eea.europa.eu/en/topics/in-depth/biodiversity) publish indicator updates on a multi-year cycle covering habitat condition, species populations, and protected-area coverage.
 
-Remote-sensing inputs have continued to expand the ecosystem-structure layer in particular — global forest-cover, surface-water, and wetland products are updated on yearly or sub-yearly cadences. Gains in the species-population and genetic-composition classes have been slower, and the [IPBES](https://www.ipbes.net/global-assessment) synthesis continues to flag tropical and marine baselines as the most under-monitored. This is the reason aggregate global biodiversity statements still require careful sourcing rather than being treatable as a single indicator.
+The Group on Earth Observations Biodiversity Observation Network (GEO BON), the consortium that developed the EBV framework with the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems) and partner agencies, remains the operational coordinator that maps national monitoring programmes onto the EBV classes. Its periodic "BON in a Box" releases give practitioners shared software and workflows for producing comparable indicators; the underlying scientific framework continues to be reviewed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed methodology papers. On the receiving end, the [IPBES](https://www.ipbes.net/global-assessment) assessments — including the nexus assessment that synthesizes biodiversity with water, food, health, and climate — depend on this aligned monitoring backbone for cross-driver claims.
+
+Remote-sensing inputs have continued to expand the ecosystem-structure layer in particular — global forest-cover, surface-water, and wetland products are updated on yearly or sub-yearly cadences. Gains in the species-population and genetic-composition classes have been slower, and the [IPBES](https://www.ipbes.net/global-assessment) synthesis continues to flag tropical and marine baselines as the most under-monitored. Marine EBVs in particular lag the terrestrial classes: ship-time is expensive, eDNA pipelines are still being standardised, and many priority taxa (deep-sea invertebrates, mesopelagic fish) remain poorly characterised at scales relevant to policy. This is the reason aggregate global biodiversity statements still require careful sourcing rather than being treatable as a single indicator.
 
 ## Why this matters for evidence interpretation
 
