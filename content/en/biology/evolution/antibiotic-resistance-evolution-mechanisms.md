@@ -4,7 +4,7 @@ excerpt: Antimicrobial resistance is one of the clearest contemporary examples o
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-29'
-updatedDate: '2026-05-18'
+updatedDate: '2026-05-20'
 readingTime: 5
 tags:
   - evolution
@@ -83,9 +83,9 @@ Three areas remain genuinely open.
 
 ## Recent evidence and updated context
 
-The WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) continues to expand reporting coverage, with more national systems contributing standardized data on bloodstream and other priority pathogens. The [WHO](https://www.who.int/) bacterial-priority pathogens list and the [CDC](https://www.cdc.gov/) antibiotic-resistance threat reports remain the primary public reference points for which resistance phenotypes are tracked operationally. Surveillance signals over the early 2020s document continued spread of carbapenem-resistant Enterobacterales and persistent challenges with drug-resistant tuberculosis and gonorrhea, with sustained variation across regions.
+The WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) continues to expand reporting coverage, with more national systems contributing standardized data on bloodstream and other priority pathogens. The [WHO bacterial priority pathogens list](https://www.who.int/) — the periodic prioritisation that orders pathogen-drug combinations by their public-health threat — and the [CDC antibiotic-resistance threat reports](https://www.cdc.gov/) remain the primary public reference points for which resistance phenotypes are tracked operationally. The WHO priority list has been revised since its original 2017 release as the underlying epidemiology has shifted; carbapenem-resistant Enterobacterales and *Acinetobacter baumannii* remain in the highest-priority tier across revisions. Surveillance signals over the early 2020s document continued spread of carbapenem-resistant Enterobacterales and persistent challenges with drug-resistant tuberculosis and gonorrhea, with sustained variation across regions.
 
-On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature has continued to characterize compensatory evolution — mutations that reduce the fitness cost of resistance — which is the molecular basis for why resistance phenotypes persist after the corresponding drug is withdrawn from use. This evidence is consistent with the framing used by the CDC and WHO that resistance reversion is not automatic and stewardship works on the rate of emergence and spread rather than on the underlying evolutionary mechanism.
+On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature has continued to characterize compensatory evolution — mutations that reduce the fitness cost of resistance — which is the molecular basis for why resistance phenotypes persist after the corresponding drug is withdrawn from use. A related operational point with consistent NIH/CDC support is the role of stress-response pathways such as the bacterial SOS response: many antibiotics (notably fluoroquinolones and β-lactams) induce DNA damage that activates SOS, which transiently elevates the mutation rate and increases the chance that a resistance variant arises during the same exposure that selects for it. Inhibiting these stress pathways is one of the mechanism-level approaches being explored in the [NIH](https://www.nih.gov/) antimicrobial-resistance research portfolio. This evidence is consistent with the framing used by the CDC and WHO that resistance reversion is not automatic and stewardship works on the rate of emergence and spread rather than on the underlying evolutionary mechanism.
 
 ## What this article does not do
 

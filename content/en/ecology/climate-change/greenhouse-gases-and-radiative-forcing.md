@@ -4,7 +4,7 @@ excerpt: Radiative forcing is the bookkeeping unit that lets atmospheric scienti
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-22'
-updatedDate: '2026-05-18'
+updatedDate: '2026-05-20'
 readingTime: 6
 tags:
   - climate-change
@@ -66,14 +66,18 @@ The annual greenhouse-gas concentration record continues to be the cleanest sign
 
 These concentration trends are the input to the forcing calculation. They do not, on their own, settle the *response* — the temperature response is governed by climate sensitivity, which is assessed separately in AR6.
 
+The compact operational summary of the forcing trend is NOAA's [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), which reports the year-over-year change in the direct radiative forcing of the five main long-lived greenhouse gases (CO₂, methane, nitrous oxide, CFC-12, CFC-11) plus 15 minor halogenated gases, indexed to 1990 = 1.0. The AGGI is published annually by the NOAA Global Monitoring Laboratory and is the cleanest single number for tracking the direct gas-only component of anthropogenic forcing, separate from the more uncertain aerosol term. It is what to point at when a discussion calls for a single, unambiguously sourced operational metric.
+
 ## Limitations and uncertainty
 
 The ERF framework assumes a separation between fast adjustments (clouds, vapour, vertical temperature profile) and the slower surface temperature response. That separation is a useful approximation, not a physical law. AR6 documents where it works well and where the assumption strains — for example, when forcings are spatially heterogeneous or when feedbacks operate on the timescales of fast adjustments. The numbers in this article are central estimates; the full assessment ranges live in the [AR6 WG1 chapter on anthropogenic and natural radiative forcing](https://www.ipcc.ch/report/ar6/wg1/).
 
+Two specific items remain open in the operational literature. Methane source attribution — what share of the recent above-average growth rate is from wetlands, agriculture, fossil systems, or other sources — is being narrowed by isotopic and satellite-column work documented in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed studies and in [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) source-apportionment publications, but is not closed. Aerosol effective radiative forcing remains the dominant uncertainty in the *total* anthropogenic forcing because aerosol-cloud interactions are difficult to constrain observationally; this is the source of most of the spread quoted around the +2.7 W/m² central value.
+
 ## Sources
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/). The authoritative assessment of radiative forcing, climate sensitivity, and the response of the climate system.
-2. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates.
+2. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/) and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing.
 3. **U.S. Environmental Protection Agency** — [Climate Change Indicators](https://www.epa.gov/climate-indicators). Per-gas concentration trends and the indicator framework used in U.S. assessments.
 4. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://climate.nasa.gov/). Topic-level reference on greenhouse gases, energy balance, and observational records.
 5. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.climate.gov/). Public-facing companion to NOAA's monitoring and assessment products.

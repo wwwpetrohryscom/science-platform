@@ -4,7 +4,7 @@ excerpt: Surface air temperature is noisy. The ocean is not. Here is what ocean 
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-25'
-updatedDate: '2026-05-18'
+updatedDate: '2026-05-20'
 readingTime: 5
 tags:
   - climate-change
@@ -52,9 +52,13 @@ The Argo program took years to reach full deployment and prior data sources are 
 
 Subsurface temperature drift in some XBT (expendable bathythermograph) data has been a recurring source of bias. The corrections used by analysis groups are documented in the technical reports backing each product. The [climate.gov](https://www.climate.gov/) explainer pages link to the methodology pages for each.
 
+The deep-ocean component below 2000 m is the least-sampled part of the record. Coverage relies on repeat hydrographic surveys (the GO-SHIP framework documented through [NOAA](https://www.noaa.gov/)) and on the progressive rollout of Deep Argo, which is still building toward global coverage. Deep-ocean heat uptake is a small fraction of the total but is not negligible for the multi-decadal trend, and its uncertainty is correspondingly larger than for the upper 2000 m.
+
 ## Recent evidence and updated context
 
 Operational OHC products continue to extend the record without altering its shape. The [WMO State of the Global Climate](https://wmo.int/) bulletins synthesize OHC alongside surface temperature, sea level, and sea-ice extent each year, and report that the most recent multi-year window remains the warmest on the instrumental record. The [Copernicus Climate Change Service](https://climate.copernicus.eu/) publishes complementary ocean reanalyses (ORAS, GREP) that allow the upper-2000 m signal to be cross-checked against an independent processing chain. Where the analysis groups disagree — usually in regional pattern or in the deeper layers — the disagreement is documented in their methodology pages rather than smoothed away.
+
+The operational cross-check pair for journalists and educators is straightforward: the annual [NOAA NCEI State of the Climate](https://www.ncei.noaa.gov/) chapter on global oceans, and the [Copernicus Climate Change Service](https://climate.copernicus.eu/) annual Global Climate Highlights. The two are produced from overlapping but methodologically independent processing chains. When the OHC signal is corroborated across both, it is on as solid an empirical footing as climate science offers.
 
 Sea-level rise from thermal expansion tracks OHC closely; the partitioned [sea-level indicator](/en/ecology/climate-change/sea-level-rise-indicators) record from NOAA and NASA is the cleanest cross-check on the upper-ocean component of OHC, since the same physics governs both.
 
