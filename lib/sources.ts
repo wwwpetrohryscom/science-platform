@@ -219,6 +219,42 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
         "State of the climate, greenhouse-gas bulletins, and weather-system standards",
       lastReviewed: "2026-05-08",
     },
+    {
+      name: "National Snow and Ice Data Center",
+      organization: "NSIDC / University of Colorado Boulder",
+      url: "https://nsidc.org/",
+      type: "dataset",
+      topicRelevance:
+        "Reference cryosphere datasets — sea-ice extent, snow cover, ice-sheet mass balance",
+      lastReviewed: "2026-05-23",
+    },
+    {
+      name: "World Glacier Monitoring Service",
+      organization: "WGMS",
+      url: "https://wgms.ch/",
+      type: "dataset",
+      topicRelevance:
+        "Long-term glacier mass-balance and length reference dataset (WMO/IUGG/UNEP partner)",
+      lastReviewed: "2026-05-23",
+    },
+    {
+      name: "World Climate Research Programme",
+      organization: "WCRP",
+      url: "https://www.wcrp-climate.org/",
+      type: "report",
+      topicRelevance:
+        "Coordinates the Coupled Model Intercomparison Project (CMIP) used in IPCC assessments",
+      lastReviewed: "2026-05-23",
+    },
+    {
+      name: "International Energy Agency",
+      organization: "IEA",
+      url: "https://www.iea.org/",
+      type: "report",
+      topicRelevance:
+        "Energy-system deployment indicators relevant to mitigation reporting",
+      lastReviewed: "2026-05-23",
+    },
   ],
   biology: [
     {

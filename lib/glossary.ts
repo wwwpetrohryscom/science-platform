@@ -236,6 +236,284 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     updatedDate: "2026-05-14",
   },
+  {
+    slug: "climate-indicator",
+    term: "Climate indicator",
+    shortDefinition:
+      "A measurement, sustained over time, that tracks one dimension of the Earth system with a known physical interpretation.",
+    explanation:
+      "A climate indicator is chosen because it has a physical interpretation tied to a known mechanism, a measurement programme that can produce it consistently over decades, and a signal-to-noise ratio that makes the long-term trend resolvable against natural variability. Major assessments (IPCC AR6, WMO State of the Global Climate, NOAA, NASA, EPA, EEA, Copernicus) organize the physical-science evidence around a small set of headline indicators rather than around any single dataset.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "climate-indicators-earth-system-monitoring",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "WMO State of the Global Climate", url: "https://wmo.int/" },
+      { label: "EPA Climate Change Indicators", url: "https://www.epa.gov/climate-indicators" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "global-mean-surface-temperature",
+    term: "Global mean surface temperature",
+    shortDefinition:
+      "Area-weighted average of near-surface air temperature over land and sea-surface temperature over ocean, reported as anomaly from a reference period.",
+    explanation:
+      "Global mean surface temperature (GMST) is produced by multiple independent groups — NOAAGlobalTemp, NASA GISTEMP, HadCRUT5, Berkeley Earth, and the JRA-55 and ERA5 reanalyses — from overlapping but not identical observational data using different gridding and bias-correction methods. The records agree to within stated uncertainties on the long-term trend, which is the empirical basis for the IPCC's assessment that recent warming is unequivocal.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "global-temperature-records-explained",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1 Ch.2", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "NOAA NCEI", url: "https://www.ncei.noaa.gov/" },
+      { label: "NASA Climate", url: "https://climate.nasa.gov/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "cryosphere",
+    term: "Cryosphere",
+    shortDefinition:
+      "The frozen components of the Earth system: sea ice, glaciers, ice sheets, snow cover, and permafrost.",
+    explanation:
+      "The cryosphere consists of physically distinct reservoirs with different formation mechanisms and response timescales: sea ice on seasonal-to-annual scales, mountain glaciers on decadal-to-centennial scales, the Greenland and Antarctic ice sheets on centennial-to-millennial scales, and permafrost on multi-decadal scales. Together the cryosphere indicators constrain the Earth energy balance and contribute to the sea-level budget. Reference datasets are maintained by NSIDC, WGMS, and NASA/ESA satellite missions.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "cryosphere-indicators-glaciers-sea-ice",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1 Ch.9", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "NSIDC", url: "https://nsidc.org/" },
+      { label: "WGMS", url: "https://wgms.ch/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "carbon-cycle-feedback",
+    term: "Carbon-cycle feedback",
+    shortDefinition:
+      "A change in the rate at which land or ocean absorbs anthropogenic CO₂ caused by the climate response to that CO₂.",
+    explanation:
+      "Land and ocean currently absorb roughly half of anthropogenic CO₂ emissions; the fraction can change as the climate warms. Mechanisms include reduced ocean uptake from stratification and the buffer effect, altered land uptake from CO₂ fertilization, lengthening growing seasons, changing disturbance regimes, and permafrost-carbon release. IPCC AR6 WG1 Chapter 5 treats carbon-cycle feedbacks as a load-bearing uncertainty in long-term projection alongside cloud feedback and ice-sheet dynamics.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "carbon-cycle-feedbacks",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+      {
+        slug: "temperate-forest-carbon-sink-decline",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1 Ch.5", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "NOAA Global Monitoring Laboratory", url: "https://gml.noaa.gov/" },
+    ],
+    uncertaintyNote:
+      "The long-term trajectory of both sinks under continued warming is not strongly constrained; CMIP-class earth-system models show a wide range of land-sink behaviors under high-emissions scenarios.",
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "climate-projection",
+    term: "Climate projection",
+    shortDefinition:
+      "A model-based estimate of future climate statistics conditional on a specified forcing scenario.",
+    explanation:
+      "A climate projection is not a weather forecast. It estimates the statistics of the climate system under specified emissions and forcing assumptions, not the actual state at a future time. Projection uncertainty has three sources: scenario (what forcing path), model-structural (which model), and internal variability (which realization). The shares change over lead time and by indicator; AR6 reports the decomposition explicitly.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "climate-models-projections-uncertainty",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1 Ch.4", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "WCRP CMIP", url: "https://www.wcrp-climate.org/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "detection-and-attribution",
+    term: "Detection and attribution",
+    shortDefinition:
+      "Statistical methodology that separates observed climate change into contributions from different forcing agents.",
+    explanation:
+      "Detection-and-attribution analysis compares observed climate-variable trends against model simulations under different combinations of forcing (greenhouse gases, aerosols, solar, land use, natural variability) and identifies the combination most consistent with the observations. The framework underpins the IPCC's quantitative attribution of recent warming to human influence and is the trend-level counterpart to event-attribution methods used for individual extreme events.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "extreme-weather-attribution-basics",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+      {
+        slug: "what-is-climate-change",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1 Ch.3", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "IPCC AR6 WG1 Ch.11", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "emissions-scenario",
+    term: "Emissions scenario",
+    shortDefinition:
+      "A plausible trajectory of future greenhouse-gas emissions used as input to climate projections.",
+    explanation:
+      "Emissions scenarios are not forecasts. They are internally consistent narratives about how socioeconomic, technological, and policy choices could evolve, translated into emissions paths used to drive climate models. The current AR6 framework uses Shared Socioeconomic Pathways (SSPs) — SSP1-1.9 through SSP5-8.5 — that span rapid decarbonization to high-emissions trajectories. Reading a projection means specifying the scenario it was conditioned on.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "climate-models-projections-uncertainty",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+      {
+        slug: "climate-adaptation-mitigation-indicators",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "IPCC AR6 WG3", url: "https://www.ipcc.ch/report/ar6/wg3/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "earth-energy-imbalance",
+    term: "Earth energy imbalance",
+    shortDefinition:
+      "The net difference between incoming solar shortwave radiation absorbed and outgoing longwave radiation emitted at the top of the atmosphere.",
+    explanation:
+      "Earth's top-of-atmosphere energy imbalance is the upstream driver of every other climate indicator. A positive imbalance means the planet is gaining energy; that energy accumulates dominantly in the ocean (about 89%), with smaller shares warming land, melting ice, and warming the atmosphere. The current imbalance, measured by NASA's CERES instruments and corroborated by ocean heat content uptake, is approximately +1 W/m² and is the direct consequence of anthropogenic radiative forcing.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "ocean-heat-content-indicators",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+      {
+        slug: "climate-indicators-earth-system-monitoring",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "IPCC AR6 WG1 Ch.7", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "greenhouse-gas-concentration",
+    term: "Greenhouse-gas concentration",
+    shortDefinition:
+      "The atmospheric mole fraction of a greenhouse gas, typically reported in ppm (CO₂) or ppb (methane, nitrous oxide).",
+    explanation:
+      "Atmospheric greenhouse-gas concentrations are the cleanest indicator in the climate dataset. The Mauna Loa CO₂ record began in 1958 and the NOAA Cooperative Air Sampling Network covers about 60 background sites globally. Concentration trends are unambiguous at the measurement level; what concentration *means* for radiative forcing and temperature requires the additional translation handled by climate sensitivity and the carbon-cycle framework.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "greenhouse-gas-concentrations-monitoring",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+      {
+        slug: "greenhouse-gases-and-radiative-forcing",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "NOAA Global Monitoring Laboratory", url: "https://gml.noaa.gov/" },
+      { label: "NOAA Annual Greenhouse Gas Index", url: "https://gml.noaa.gov/aggi/" },
+      { label: "WMO Greenhouse Gas Bulletin", url: "https://wmo.int/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "climate-model",
+    term: "Climate model",
+    shortDefinition:
+      "A numerical simulation of the climate system integrating the governing physical equations forward in time on a discrete grid.",
+    explanation:
+      "Climate models combine atmosphere, ocean, sea-ice, land-surface, and (in earth-system configurations) carbon-cycle and vegetation components. The current generation, CMIP6, was the basis for IPCC AR6. Models are evaluated against the historical climate-indicator record before their projections of those same indicators are weighted in assessment. Model output is not a forecast — it is a conditional projection given specified forcing.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "climate-models-projections-uncertainty",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "WCRP CMIP", url: "https://www.wcrp-climate.org/" },
+      { label: "IPCC AR6 WG1 Ch.4", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
+  {
+    slug: "glacier-mass-balance",
+    term: "Glacier mass balance",
+    shortDefinition:
+      "The net gain or loss of ice mass on a glacier per year, typically reported in meters of water-equivalent.",
+    explanation:
+      "Glacier mass balance is the operational indicator for mountain-glacier health. The World Glacier Monitoring Service (WGMS) curates the long-term reference dataset combining direct field measurements at reference glaciers with satellite-derived geodetic mass-balance estimates. The reference glacier record shows continuous net mass loss since the 1980s with an accelerating loss rate, and glacier mass loss contributes a quantified share of observed sea-level rise.",
+    category: "ecology",
+    subtopic: "climate-change",
+    relatedArticles: [
+      {
+        slug: "cryosphere-indicators-glaciers-sea-ice",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+      {
+        slug: "sea-level-rise-indicators",
+        category: "ecology",
+        subtopic: "climate-change",
+      },
+    ],
+    relatedSources: [
+      { label: "WGMS", url: "https://wgms.ch/" },
+      { label: "IPCC AR6 WG1 Ch.9", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+    ],
+    updatedDate: "2026-05-23",
+  },
 
   // ---------- Biology ----------
   {

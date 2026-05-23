@@ -85,6 +85,11 @@ const REGISTRY: FaqRegistry = {
   // ---------- Subtopic-level FAQs ----------
   [subtopicKey("ecology", "climate-change")]: [
     {
+      question: "What is a climate indicator?",
+      answer:
+        "A climate indicator is a measurement, sustained over time, with a known physical interpretation and enough signal-to-noise to resolve the long-term trend against natural variability. The IPCC AR6, WMO State of the Global Climate, NOAA, NASA, EPA, EEA, and Copernicus all organize their reporting around the same small set of indicator families: temperature, energy, greenhouse gases, sea level, cryosphere, and the carbon cycle.",
+    },
+    {
       question: "Is the warming definitely caused by human activity?",
       answer:
         "IPCC and NASA assessments describe human influence on recent warming as established by multiple independent lines of evidence — atmospheric composition, observed warming patterns, vertical temperature structure, and the energy budget closing within stated uncertainties.",
@@ -93,6 +98,21 @@ const REGISTRY: FaqRegistry = {
       question: "Why is ocean heat content a more stable indicator than surface temperature?",
       answer:
         "About 89% of the energy added by greenhouse-gas forcing is taken up by the ocean. ENSO-driven year-to-year variability redistributes heat between ocean layers and the atmosphere — it does not change the total ocean heat content much — so the OHC trend is closer to the underlying forcing trend.",
+    },
+    {
+      question: "How do scientists compare different global temperature records?",
+      answer:
+        "NOAAGlobalTemp, NASA GISTEMP, HadCRUT5, Berkeley Earth, and the JRA-55/ERA5 reanalyses are produced from overlapping but not identical observations using different gridding, infilling, and bias-correction methods. They agree to within stated uncertainties on the long-term warming trend; the convergence is the empirical case the IPCC's AR6 assessment leans on.",
+    },
+    {
+      question: "What does sea-level rise actually measure?",
+      answer:
+        "Three different indicators: global mean sea level from satellite altimetry (the planetary signal), local relative sea level from tide gauges (what coastal communities experience), and the rate of rise (the planning-horizon variable). The IPCC AR6 Chapter 9 explains how the global mean decomposes into thermal expansion, glacier and ice-sheet melt, and land-water storage changes.",
+    },
+    {
+      question: "How do attribution studies connect extreme events to climate change?",
+      answer:
+        "Event attribution compares the frequency or intensity of an observed extreme in a large model ensemble of the current climate against a counterfactual ensemble without anthropogenic forcing. The risk ratio or intensity shift is the attribution. The methodology is strongest for heat extremes and weakens for events dominated by circulation dynamics or compound drivers like drought.",
     },
     {
       question: "What is the biggest remaining uncertainty in climate sensitivity?",
