@@ -85,7 +85,7 @@ Three methodological points are worth surfacing.
 
 ## What this indicator does for the rest of the cluster
 
-The carbon-cycle indicators close the loop between [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) and human emissions. They are also the link between the physical-climate indicators in this cluster and the policy-relevant [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators), because the residual atmospheric fraction of emissions is what mitigation targets are ultimately accountable for.
+The carbon-cycle indicators close the loop between [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) and human emissions. They are also the link between the [physical-climate indicators in this cluster](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) and the policy-relevant [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators), because the residual atmospheric fraction of emissions is what mitigation targets are ultimately accountable for.
 
 ## Sources
 

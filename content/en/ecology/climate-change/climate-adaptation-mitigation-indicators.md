@@ -51,7 +51,7 @@ Adaptation indicators are harder to define than mitigation indicators because ad
 
 ## The temperature-threshold framing
 
-The Paris Agreement's 1.5 °C and 2 °C temperature thresholds are stated in indicator terms (global mean surface temperature anomaly relative to pre-industrial). The IPCC AR6 Special Report on Global Warming of 1.5 °C reviewed the indicator-state-to-threshold relationship and the cumulative-emissions-to-temperature relationship known as the transient climate response to cumulative emissions (TCRE).
+The Paris Agreement's 1.5 °C and 2 °C temperature thresholds are stated in indicator terms (global mean surface temperature anomaly relative to pre-industrial). The IPCC Special Report on Global Warming of 1.5 °C (SR1.5, 2018) and the subsequent AR6 WG1 Chapter 5 review establish the indicator-state-to-threshold relationship and the cumulative-emissions-to-temperature relationship known as the transient climate response to cumulative emissions (TCRE).
 
 The TCRE framework establishes that cumulative emissions are approximately linearly related to global mean surface warming. That makes the "carbon budget" — the cumulative emissions remaining to stay within a given temperature threshold — itself an operational indicator with quantified uncertainty. The carbon budget is the bridge between the [emissions-side mitigation indicators](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) and the temperature-threshold framing in the climate-policy literature.
 
