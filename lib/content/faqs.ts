@@ -136,6 +136,46 @@ const REGISTRY: FaqRegistry = {
       answer:
         "Long-term ecological research sites are concentrated in Europe and North America; tropical biodiversity has thinner baselines despite holding the largest share of species. The IPBES Global Assessment treats this uneven sampling as a primary methodological caveat, not a footnote.",
     },
+    {
+      question: "How is biodiversity measured?",
+      answer:
+        "Across several dimensions rather than by one number: species counts and diversity indices from field surveys, population trends, extinction-risk assessments, and habitat extent and condition. The Essential Biodiversity Variables framework, coordinated by GEO BON, organises these into comparable classes, and IPBES and the Convention on Biological Diversity report several indicators side by side.",
+    },
+    {
+      question: "What is a biodiversity indicator?",
+      answer:
+        "A measurement that distils one dimension of biodiversity change into a trackable signal, much like a climate indicator. The Convention on Biological Diversity's headline indicators include the IUCN Red List Index (extinction risk), the Living Planet Index (population abundance), and habitat-extent metrics. Because no single indicator captures biodiversity, they are read together rather than collapsed into one figure.",
+    },
+    {
+      question: "What is species richness?",
+      answer:
+        "Species richness is the number of distinct species in a defined area. It is the easiest biodiversity measure to compute, but it rises with sampling effort and area and ignores how abundant each species is. Ecologists use rarefaction and estimators to compare samples and pair richness with evenness and diversity indices, as IPBES assessments emphasise.",
+    },
+    {
+      question: "How do scientists assess ecosystem health?",
+      answer:
+        "There is no single test. Scientists combine ecological-integrity indices such as the Biodiversity Intactness Index, measures of habitat condition and fragmentation, and resilience proxies like functional and response diversity. These map onto the ecosystem-structure and ecosystem-function classes of the Essential Biodiversity Variables. Each needs a reference condition, and IPBES treats the choice of baseline as a key caveat.",
+    },
+    {
+      question: "What is the Red List Index?",
+      answer:
+        "The Red List Index tracks the overall trend in extinction risk for a group of species using repeated IUCN Red List assessments. It is scaled so that 1 means all species are Least Concern and 0 means all are extinct, and counts only genuine status changes. It is a Convention on Biological Diversity headline indicator, available for comprehensively assessed groups such as birds, mammals, and amphibians.",
+    },
+    {
+      question: "What is the Living Planet Index?",
+      answer:
+        "Compiled by the Zoological Society of London with WWF, it tracks the average relative change in monitored vertebrate populations since 1970. It is an index of abundance, not a count of animals or a percentage of species lost — a frequent misreading. Because it averages relative changes, a small number of steep declines can dominate the trend, which peer-reviewed analyses examine closely.",
+    },
+    {
+      question: "Can satellites monitor biodiversity?",
+      answer:
+        "Satellites cannot identify most species, but they measure ecosystem structure — land cover, forest extent, vegetation state, and canopy structure — consistently and globally. Products from NASA, the European Space Agency, and the Copernicus Land Monitoring Service supply this layer, and GEO BON defines remote-sensing-enabled Essential Biodiversity Variables. Species-level conclusions still require ground data for calibration.",
+    },
+    {
+      question: "How is habitat fragmentation measured?",
+      answer:
+        "Fragmentation — the breaking of continuous habitat into smaller, more isolated patches — is quantified with landscape metrics such as patch size, edge density, core area, and connectivity, usually computed from satellite land-cover maps. It is distinct from habitat loss, and whether fragmentation itself harms biodiversity independently of habitat amount remains an active debate in the peer-reviewed literature.",
+    },
   ],
   [subtopicKey("ecology", "ecosystems")]: [
     {
