@@ -711,25 +711,26 @@ export const GLOSSARY: GlossaryEntry[] = [
   },
   {
     slug: "remote-sensing",
-    term: "Remote sensing (biodiversity)",
+    term: "Remote sensing",
     shortDefinition:
-      "Observation of ecosystems from satellites or aircraft; in biodiversity monitoring it measures habitat structure and condition rather than individual species.",
+      "Measuring a surface from a distance by recording the electromagnetic radiation it reflects or emits — the basis of satellite Earth observation.",
     explanation:
-      "Remote sensing measures land cover and its change, forest extent, vegetation productivity, surface water, fire, and — with lidar — canopy structure, mapping onto the ecosystem-structure class of the Essential Biodiversity Variables. Long, consistent archives (the joint NASA/USGS Landsat record), the European Space Agency's Sentinel satellites, and the Copernicus Land Monitoring Service supply these data. A research frontier uses spectral diversity as an indirect proxy for biological diversity. Satellites cannot identify most species directly and require ground data for calibration.",
+      "Remote sensing acquires information about the land, ocean, atmosphere, or ice without contact, using passive sensors (recording reflected sunlight or emitted thermal infrared) or active sensors (radar and lidar, which supply their own energy). Surfaces are identified from their spectral signatures across visible, infrared, and microwave bands. The same technique underpins climate indicators, biodiversity and ecosystem monitoring, and hazard response. It measures physical and spectral properties rather than the quantities of interest directly, so products require calibration and ground validation.",
     category: "ecology",
-    subtopic: "biodiversity",
+    subtopic: "earth-observation",
     relatedArticles: [
+      { slug: "what-is-remote-sensing", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
       { slug: "remote-sensing-for-biodiversity-monitoring", category: "ecology", subtopic: "biodiversity" },
-      { slug: "habitat-fragmentation-metrics", category: "ecology", subtopic: "biodiversity" },
-      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
     ],
     relatedSources: [
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
       { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
       { label: "ESA Observing the Earth", url: "https://www.esa.int/Applications/Observing_the_Earth" },
-      { label: "Copernicus Land Monitoring Service", url: "https://land.copernicus.eu/" },
     ],
     uncertaintyNote:
-      "Structure is an imperfect proxy for biodiversity; species-level inference needs ground validation, and resolution and cloud cover constrain what can be resolved.",
+      "Remote sensing measures proxies, not the target quantity directly; resolution trade-offs, cloud cover, mixed pixels, and sensor drift all limit what can be resolved and require validation.",
     updatedDate: "2026-06-02",
   },
   {
@@ -776,6 +777,305 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     uncertaintyNote:
       "Attributing outcomes to protection is hard because the counterfactual is unobserved, and protected areas are often sited on land already under low pressure.",
+    updatedDate: "2026-06-02",
+  },
+
+  // ---------- Ecology / Earth observation ----------
+  {
+    slug: "earth-observation",
+    term: "Earth observation",
+    shortDefinition:
+      "Gathering information about the planet's land, ocean, atmosphere, and ice using sensors on satellites and aircraft.",
+    explanation:
+      "Earth observation is the broad practice of measuring environmental conditions and change from a distance, with remote sensing as its core technique. It supplies many of the records used in climate, biodiversity, and ecosystem science, from land-cover maps to sea level. Operational sources include NASA's Earth-observing missions, the joint NASA/USGS Landsat record, and the European Union's Copernicus programme with its Sentinel satellites. Earth observation extends fieldwork to global, repeatable measurement, but its products require calibration and validation.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "what-is-remote-sensing", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-data-products", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+      { label: "ESA Observing the Earth", url: "https://www.esa.int/Applications/Observing_the_Earth" },
+      { label: "Copernicus", url: "https://www.copernicus.eu/en" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "landsat",
+    term: "Landsat",
+    shortDefinition:
+      "A joint NASA–USGS satellite program that has imaged Earth's land surface continuously since 1972 — the longest such record.",
+    explanation:
+      "Landsat satellites observe the land at about 30-metre resolution on a 16-day repeat cycle, recording multispectral imagery used for land cover, agriculture, forests, and water. The program began in 1972; current satellites are Landsat 8 (2013) and Landsat 9 (2021). Since 2008 the USGS has distributed the full archive free of charge, which greatly expanded scientific use by making long time-series analysis possible.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "landsat-program-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "land-cover-change-detection", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "USGS Landsat Missions", url: "https://www.usgs.gov/landsat-missions" },
+      { label: "NASA", url: "https://science.nasa.gov/" },
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+    ],
+    uncertaintyNote:
+      "The 16-day revisit and cloud cover leave gaps, Landsat 7 imagery after 2003 carries Scan Line Corrector striping, and a consistent multi-decade record requires cross-calibration across the series.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "sentinel-satellite",
+    term: "Sentinel satellite",
+    shortDefinition:
+      "A satellite of the EU's Copernicus programme; the Sentinel families provide radar, optical, ocean, atmospheric, and altimetry data, free and open.",
+    explanation:
+      "Built and operated by the European Space Agency for the European Union, the Sentinels each specialise: Sentinel-1 (radar imaging through cloud and at night), Sentinel-2 (multispectral optical at 10–60 m with about a 5-day revisit), Sentinel-3 (ocean and land colour, surface temperature, and altimetry), Sentinel-5P (atmospheric composition), and Sentinel-6 (sea-level altimetry). Their free, frequent data underpin the operational Copernicus services.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "sentinel-satellites-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "copernicus-programme-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "Copernicus", url: "https://www.copernicus.eu/en" },
+      { label: "ESA Observing the Earth", url: "https://www.esa.int/Applications/Observing_the_Earth" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "modis",
+    term: "MODIS",
+    shortDefinition:
+      "The Moderate Resolution Imaging Spectroradiometer on NASA's Terra and Aqua satellites, imaging the whole planet almost daily.",
+    explanation:
+      "MODIS has 36 spectral bands at 250-metre, 500-metre, and 1-kilometre resolution and near-daily global coverage, trading spatial detail for frequency. It flies on Terra (launched 1999) and Aqua (launched 2002), and its standard products include vegetation indices, land cover, land-surface temperature, active fire, ocean colour, snow, and aerosols. The VIIRS instrument continues many of these measurements on newer satellites.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "modis-earth-observation-system", category: "ecology", subtopic: "earth-observation" },
+      { slug: "ndvi-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NOAA NESDIS", url: "https://www.nesdis.noaa.gov/" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "ndvi",
+    term: "NDVI (Normalised Difference Vegetation Index)",
+    shortDefinition:
+      "A vegetation index, (NIR − Red)/(NIR + Red), ranging −1 to +1 — the most widely used satellite measure of vegetation greenness.",
+    explanation:
+      "NDVI exploits the contrast between red light that chlorophyll absorbs and near-infrared that leaf structure reflects. Dense healthy vegetation gives high values (roughly 0.6–0.9), bare soil low values, and water, snow, or cloud values near zero or negative. Developed in the 1970s with early Landsat data, NDVI is used for vegetation condition, phenology, drought, and crop monitoring, usually as a time series rather than a single image.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "ndvi-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "vegetation-indices-and-monitoring", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+      { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
+    ],
+    uncertaintyNote:
+      "NDVI saturates where vegetation is very dense and is affected by soil background and atmospheric conditions, which is why complementary indices such as EVI exist.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "enhanced-vegetation-index",
+    term: "Enhanced Vegetation Index (EVI)",
+    shortDefinition:
+      "A MODIS-standard vegetation index that improves on NDVI by reducing atmospheric and soil-background effects and resisting saturation at high biomass.",
+    explanation:
+      "The Enhanced Vegetation Index uses the blue band to help correct for atmospheric scattering and adjusts for the soil and canopy background, so it stays responsive where NDVI saturates — for example over dense tropical forest. EVI and NDVI are produced together as standard MODIS products, and the choice between them depends on the vegetation type and the question being asked.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "vegetation-indices-and-monitoring", category: "ecology", subtopic: "earth-observation" },
+      { slug: "ndvi-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "satellite-altimetry",
+    term: "Satellite altimetry",
+    shortDefinition:
+      "Measuring the height of a surface — usually the sea — by timing a radar pulse from a satellite and back; the basis of the satellite sea-level record.",
+    explanation:
+      "A radar altimeter measures the round-trip time of a pulse to the surface; combined with precise orbit knowledge it yields surface height to within centimetres. The continuous record from TOPEX/Poseidon (1992) through the Jason series to Sentinel-6 underpins satellite measurement of global mean sea level — rising roughly 3 to 4 millimetres per year over the satellite era — and also reveals ocean currents, wave height, and ice-surface elevation.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "satellite-altimetry-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "ocean-color-observations", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA", url: "https://science.nasa.gov/" },
+      { label: "NOAA", url: "https://www.climate.gov/" },
+      { label: "Copernicus Marine Service", url: "https://marine.copernicus.eu/" },
+    ],
+    uncertaintyNote:
+      "Accuracy depends on orbit determination and atmospheric (water-vapour) corrections, degrades near coasts, and a reliable trend requires cross-calibration between successive missions.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "land-cover",
+    term: "Land cover",
+    shortDefinition:
+      "The physical material covering the land surface — forest, water, cropland, built-up — as mapped from satellite imagery.",
+    explanation:
+      "Land cover describes what is physically present, distinct from land use, which is the human function of that land. Satellite land-cover maps are made by classifying multispectral imagery into categories and are produced globally by programmes such as the ESA Climate Change Initiative and the Copernicus Land Monitoring Service. Comparing maps over time is the basis of land-cover change detection.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "land-cover-change-detection", category: "ecology", subtopic: "earth-observation" },
+      { slug: "landsat-program-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "Copernicus Land Monitoring Service", url: "https://land.copernicus.eu/" },
+      { label: "ESA", url: "https://www.esa.int/Applications/Observing_the_Earth" },
+      { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "land-use-change",
+    term: "Land-use change",
+    shortDefinition:
+      "A change in how people use land — for example forest converted to cropland — often inferred from satellite-detected land-cover change.",
+    explanation:
+      "Land use refers to human function (agriculture, settlement, conservation), which satellites infer rather than observe directly. Land-use change such as deforestation, urban expansion, or agricultural conversion is a leading driver of biodiversity loss and a significant carbon flux. It is monitored by detecting land-cover change in image time series and interpreting it in context.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "satellite-deforestation-monitoring", category: "ecology", subtopic: "earth-observation" },
+      { slug: "land-cover-change-detection", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "FAO", url: "https://www.fao.org/forestry/en/" },
+      { label: "European Commission JRC", url: "https://joint-research-centre.ec.europa.eu/" },
+      { label: "Copernicus Land Monitoring Service", url: "https://land.copernicus.eu/" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "ocean-color",
+    term: "Ocean colour",
+    shortDefinition:
+      "The spectrum of light leaving the sea surface, used to estimate chlorophyll and phytoplankton from space.",
+    explanation:
+      "Ocean-colour sensors measure water-leaving radiance; a blue-to-green ratio indicates chlorophyll-a concentration and thus phytoplankton, the base of the marine food web and a major part of the ocean carbon cycle. The record runs from the Coastal Zone Color Scanner (launched 1978) and SeaWiFS (1997–2010) to MODIS, VIIRS, and the Sentinel-3 OLCI instrument. Atmospheric correction over water is the principal challenge.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "ocean-color-observations", category: "ecology", subtopic: "earth-observation" },
+      { slug: "modis-earth-observation-system", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+      { label: "Copernicus Marine Service", url: "https://marine.copernicus.eu/" },
+      { label: "NOAA NESDIS", url: "https://www.nesdis.noaa.gov/" },
+    ],
+    uncertaintyNote:
+      "The water signal is weak relative to the atmosphere, so atmospheric-correction errors dominate; coastal and turbid waters and cloud cover further limit retrievals.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "spectral-signature",
+    term: "Spectral signature",
+    shortDefinition:
+      "The characteristic way a material reflects or emits radiation across wavelengths, used to identify surfaces in remote sensing.",
+    explanation:
+      "Because different materials interact with light differently, each has a distinctive spectral signature. Healthy vegetation absorbs red and reflects near-infrared; open water absorbs strongly in the infrared; minerals and built surfaces have their own patterns. Multispectral and hyperspectral sensors record reflectance in several bands so that surfaces can be distinguished and classified from their signatures.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "what-is-remote-sensing", category: "ecology", subtopic: "earth-observation" },
+      { slug: "ndvi-explained", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "reflectance",
+    term: "Reflectance",
+    shortDefinition:
+      "The fraction of incoming radiation a surface reflects in a given wavelength band — the core quantity a calibrated optical sensor reports.",
+    explanation:
+      "Top-of-atmosphere reflectance is what a satellite measures directly; atmospheric correction converts it to surface reflectance, removing the distorting effect of the atmosphere so that images from different dates are comparable. Reflectance in multiple bands is the input to vegetation indices, classification, and change detection.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "what-is-remote-sensing", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-data-products", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+      { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "raster-data",
+    term: "Raster data",
+    shortDefinition:
+      "Spatial data stored as a grid of cells (pixels), each holding a value — the standard form of satellite imagery.",
+    explanation:
+      "Remote-sensing products are rasters: regular grids in which each pixel covers a fixed ground area and stores a measured value such as reflectance or temperature. Pixel size sets the spatial resolution and therefore the smallest feature that can be resolved. Rasters contrast with vector data (points, lines, polygons) and are the format on which indices, classification, and change detection operate.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "earth-observation-data-products", category: "ecology", subtopic: "earth-observation" },
+      { slug: "what-is-remote-sensing", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+      { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "ground-truthing",
+    term: "Ground-truthing",
+    shortDefinition:
+      "Comparing a satellite estimate against independent field or higher-resolution observations to calibrate and validate it.",
+    explanation:
+      "Ground-truthing — ground reference, or validation — links a spectral measurement to a real-world quantity and quantifies its error. Field plots, instrumented towers, ships, and finer imagery provide the reference. Remote sensing does not replace fieldwork; the two are designed to work together, and a satellite product is only trusted once it has been validated against independent data.",
+    category: "ecology",
+    subtopic: "earth-observation",
+    relatedArticles: [
+      { slug: "remote-sensing-limitations-and-uncertainty", category: "ecology", subtopic: "earth-observation" },
+      { slug: "what-is-remote-sensing", category: "ecology", subtopic: "earth-observation" },
+      { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
+    ],
+    relatedSources: [
+      { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
+      { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
+      { label: "Remote Sensing (journal)", url: "https://www.mdpi.com/journal/remotesensing" },
+    ],
     updatedDate: "2026-06-02",
   },
 

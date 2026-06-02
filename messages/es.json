@@ -48,6 +48,7 @@
     "ecosystems": { "label": "Ecosistemas", "description": "Bosques, humedales, océanos, suelos — cómo se mueven la energía y la materia por los sistemas vivos y qué revelan las perturbaciones." },
     "climate-change": { "label": "Cambio climático", "description": "Causas, retroalimentaciones, atribución y las incertidumbres relevantes para la política en la frontera de la ciencia del clima." },
     "biodiversity": { "label": "Biodiversidad", "description": "Por qué el conteo de especies es la métrica equivocada, qué hacen realmente la diversidad genética y funcional, y dónde funciona la conservación." },
+    "earth-observation": { "label": "Observación de la Tierra", "description": "Cómo los satélites y sensores observan el planeta: los métodos, los productos de datos y las incertidumbres detrás de la medición del cambio ambiental desde el espacio." },
     "cells": { "label": "Biología celular", "description": "La célula como unidad fundamental de la vida — su arquitectura, energética, señalización y los métodos para estudiarla." },
     "genetics": { "label": "Genética", "description": "Genética molecular, genómica y evolución de los sistemas genéticos — lo que la secuenciación ha revelado y lo que no puede resolver." },
     "evolution": { "label": "Evolución", "description": "Selección, deriva, desarrollo y la síntesis moderna — incluidas las partes que se están revisando discretamente." },

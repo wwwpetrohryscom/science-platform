@@ -177,6 +177,48 @@ const REGISTRY: FaqRegistry = {
         "Fragmentation — the breaking of continuous habitat into smaller, more isolated patches — is quantified with landscape metrics such as patch size, edge density, core area, and connectivity, usually computed from satellite land-cover maps. It is distinct from habitat loss, and whether fragmentation itself harms biodiversity independently of habitat amount remains an active debate in the peer-reviewed literature.",
     },
   ],
+  [subtopicKey("ecology", "earth-observation")]: [
+    {
+      question: "What is remote sensing?",
+      answer:
+        "Remote sensing is measuring a surface from a distance by recording the electromagnetic radiation it reflects or emits. Passive sensors record reflected sunlight or emitted heat; active sensors such as radar and lidar supply their own energy. Satellites carrying these sensors, operated by agencies such as NASA, the USGS, and ESA, turn that radiation into maps of land cover, vegetation, temperature, and more.",
+    },
+    {
+      question: "How do satellites monitor Earth?",
+      answer:
+        "They carry sensors that record radiation in defined wavelength bands as a grid of pixels, then process it into physical measurements such as surface reflectance or temperature. A fleet with complementary strengths — the NASA–USGS Landsat satellites, ESA's Copernicus Sentinels, and NASA's MODIS — trades spatial detail against how often each place is revisited. Results are calibrated and validated against ground data.",
+    },
+    {
+      question: "What is NDVI?",
+      answer:
+        "NDVI, the Normalised Difference Vegetation Index, is (NIR − Red) / (NIR + Red), ranging from −1 to +1. It uses the fact that healthy vegetation absorbs red light and reflects near-infrared. Dense green vegetation gives high values (about 0.6–0.9), bare soil low values, and water near zero or negative. NASA and the USGS document its use for vegetation condition, drought, and crops.",
+    },
+    {
+      question: "How does Landsat work?",
+      answer:
+        "Landsat is a joint NASA–USGS program that has imaged the land surface since 1972 — the longest continuous record. Its sensors record multispectral imagery at about 30-metre resolution, revisiting each location every 16 days. Since 2008 the USGS has made the full archive free, enabling long time-series studies of land cover, agriculture, forests, and water.",
+    },
+    {
+      question: "What are Sentinel satellites?",
+      answer:
+        "The Sentinels are the satellite fleet of the European Union's Copernicus programme, built and operated by ESA. Each family specialises: Sentinel-1 (radar), Sentinel-2 (multispectral optical, about a 5-day revisit), Sentinel-3 (ocean and land), Sentinel-5P (atmosphere), and Sentinel-6 (sea level). Their data are free and open, underpinning the Copernicus monitoring services.",
+    },
+    {
+      question: "How is deforestation detected from space?",
+      answer:
+        "By comparing satellite images of the same place over time and identifying where forest canopy is lost. Periodic assessments such as the FAO Global Forest Resources Assessment produce consistent statistics, while near-real-time alerts from frequent Landsat and Sentinel imagery flag recent clearing. The European Commission's Joint Research Centre and NASA provide global forest-change products, validated against finer imagery.",
+    },
+    {
+      question: "How accurate are satellite observations?",
+      answer:
+        "It depends on the product, and reputable providers report the uncertainty. Accuracy is established by ground-truthing — comparing satellite estimates against field data or higher-resolution imagery — and classification products are published with accuracy assessments. Cloud cover, mixed pixels, atmospheric effects, and sensor drift all introduce error, so satellite data are treated as calibrated estimates, not exact values.",
+    },
+    {
+      question: "What are the limitations of remote sensing?",
+      answer:
+        "Satellites measure physical and spectral properties, not the quantities themselves, so the link to vegetation, fire, or phytoplankton is a model that needs validation. A sensor cannot maximise spatial, spectral, and temporal resolution at once; clouds block optical sensors; pixels mix surface types; and instruments drift, so long records need cross-calibration. The archive also cannot describe conditions before the satellites existed.",
+    },
+  ],
   [subtopicKey("ecology", "ecosystems")]: [
     {
       question: "What is an ecosystem service?",
