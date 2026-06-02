@@ -74,6 +74,14 @@ export const categories: CategoryDefinition[] = [
         intent:
           "Reader wants frameworks for thinking about diversity beyond raw species lists, and evidence-based conservation strategies.",
       },
+      {
+        slug: "earth-observation",
+        label: "Earth Observation",
+        description:
+          "How satellites and sensors observe the planet — the methods, data products, and uncertainties behind measuring environmental change from space.",
+        intent:
+          "Reader wants to understand how Earth is observed from space: the satellites and sensors, how raw signals become scientific data, and the limits of remote-sensing measurements.",
+      },
     ],
   },
   {

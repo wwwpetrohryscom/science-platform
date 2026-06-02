@@ -356,6 +356,106 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
         "Peer-reviewed literature on biodiversity, conservation biology, and ecosystem ecology",
       lastReviewed: "2026-06-02",
     },
+    // ---------- Earth observation & remote sensing ----------
+    {
+      name: "NASA Earthdata",
+      organization: "NASA",
+      url: "https://www.earthdata.nasa.gov/",
+      type: "dataset",
+      topicRelevance:
+        "Gateway to NASA Earth-science data archives, including land, atmosphere, ocean, and cryosphere products",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "NASA EOSDIS",
+      organization: "NASA",
+      url: "https://www.earthdata.nasa.gov/eosdis",
+      type: "primary",
+      topicRelevance:
+        "Earth Observing System Data and Information System — distributed archives (DAACs) and data-product levels",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "USGS Landsat Missions",
+      organization: "USGS",
+      url: "https://www.usgs.gov/landsat-missions",
+      type: "primary",
+      topicRelevance:
+        "Landsat program history, sensors, and the longest continuous satellite record of Earth's land surface (with NASA)",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Copernicus Programme",
+      organization: "European Union / ESA",
+      url: "https://www.copernicus.eu/en",
+      type: "primary",
+      topicRelevance:
+        "EU Earth-observation programme coordinating the Sentinel satellites and the Copernicus services",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Copernicus Marine Service",
+      organization: "Mercator Ocean International / European Commission",
+      url: "https://marine.copernicus.eu/",
+      type: "dataset",
+      topicRelevance:
+        "Operational ocean products — sea surface temperature, ocean colour, sea level, and sea ice",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "ECMWF",
+      organization: "European Centre for Medium-Range Weather Forecasts",
+      url: "https://www.ecmwf.int/",
+      type: "primary",
+      topicRelevance:
+        "Operates the Copernicus Climate Change and Atmosphere Monitoring services; produces the ERA5 reanalysis",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Joint Research Centre",
+      organization: "European Commission",
+      url: "https://joint-research-centre.ec.europa.eu/",
+      type: "primary",
+      topicRelevance:
+        "EC science service — forest, land-cover, fire (EFFIS), and drought (European Drought Observatory) monitoring",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "NOAA NESDIS",
+      organization: "NOAA",
+      url: "https://www.nesdis.noaa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Operates NOAA's environmental satellites (GOES, JPSS/VIIRS) and satellite data services",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "FAO GeoNetwork",
+      organization: "Food and Agriculture Organization",
+      url: "https://data.apps.fao.org/map/catalog/",
+      type: "dataset",
+      topicRelevance:
+        "FAO geospatial data catalogue for land cover, forests, and agricultural land resources",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Remote Sensing (journal)",
+      organization: "MDPI",
+      url: "https://www.mdpi.com/journal/remotesensing",
+      type: "peer-reviewed",
+      topicRelevance:
+        "Open-access peer-reviewed journal on remote-sensing methods, sensors, and applications",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Earth System Science Data",
+      organization: "Copernicus Publications / EGU",
+      url: "https://earth-system-science-data.net/",
+      type: "peer-reviewed",
+      topicRelevance:
+        "Peer-reviewed journal publishing original Earth-system reference datasets",
+      lastReviewed: "2026-06-02",
+    },
   ],
   biology: [
     {
