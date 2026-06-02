@@ -255,6 +255,107 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
         "Energy-system deployment indicators relevant to mitigation reporting",
       lastReviewed: "2026-05-23",
     },
+    // ---------- Biodiversity monitoring & ecosystem health ----------
+    {
+      name: "IUCN",
+      organization: "International Union for Conservation of Nature",
+      url: "https://www.iucn.org/",
+      type: "primary",
+      topicRelevance:
+        "Authority on species extinction risk, protected-area governance, and ecosystem assessment (Red List, Green List, Red List of Ecosystems)",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "IUCN Red List of Threatened Species",
+      organization: "International Union for Conservation of Nature",
+      url: "https://www.iucnredlist.org/",
+      type: "dataset",
+      topicRelevance:
+        "Global database of species extinction-risk assessments; the basis for the Red List Index",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Global Biodiversity Information Facility",
+      organization: "GBIF",
+      url: "https://www.gbif.org/",
+      type: "dataset",
+      topicRelevance:
+        "Open aggregated species-occurrence records from museums, surveys, and citizen-science platforms",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Convention on Biological Diversity",
+      organization: "CBD Secretariat (UN)",
+      url: "https://www.cbd.int/",
+      type: "primary",
+      topicRelevance:
+        "UN biodiversity treaty Secretariat; Kunming-Montreal Global Biodiversity Framework headline indicators and national reporting",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "FAO Biodiversity",
+      organization: "Food and Agriculture Organization",
+      url: "https://www.fao.org/biodiversity/en/",
+      type: "report",
+      topicRelevance:
+        "Assessments of biodiversity for food and agriculture, forest genetic resources, soil biodiversity, and pollinators",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "GEO BON",
+      organization:
+        "Group on Earth Observations Biodiversity Observation Network",
+      url: "https://geobon.org/",
+      type: "primary",
+      topicRelevance:
+        "Coordinates the Essential Biodiversity Variables framework and national biodiversity monitoring under the Global Biodiversity Framework",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Living Planet Index",
+      organization: "Zoological Society of London (ZSL)",
+      url: "https://www.livingplanetindex.org/",
+      type: "dataset",
+      topicRelevance:
+        "Vertebrate population-trend index database used as a CBD headline indicator of biodiversity abundance",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Protected Planet (World Database on Protected Areas)",
+      organization: "UNEP-WCMC / IUCN",
+      url: "https://www.protectedplanet.net/en",
+      type: "dataset",
+      topicRelevance:
+        "Authoritative global dataset on protected areas and other effective area-based conservation measures (WDPA / WD-OECM)",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "ESA Observing the Earth",
+      organization: "European Space Agency",
+      url: "https://www.esa.int/Applications/Observing_the_Earth",
+      type: "primary",
+      topicRelevance:
+        "Satellite Earth-observation missions (Sentinels, biomass and land-cover products) used for ecosystem-structure monitoring",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Copernicus Land Monitoring Service",
+      organization: "European Commission / ECMWF",
+      url: "https://land.copernicus.eu/",
+      type: "dataset",
+      topicRelevance:
+        "Pan-European and global land-cover, vegetation-state, and habitat products used as ecosystem-structure indicators",
+      lastReviewed: "2026-06-02",
+    },
+    {
+      name: "Proceedings of the National Academy of Sciences",
+      organization: "PNAS / National Academy of Sciences",
+      url: "https://www.pnas.org/",
+      type: "peer-reviewed",
+      topicRelevance:
+        "Peer-reviewed literature on biodiversity, conservation biology, and ecosystem ecology",
+      lastReviewed: "2026-06-02",
+    },
   ],
   biology: [
     {

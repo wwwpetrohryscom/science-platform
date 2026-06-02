@@ -154,6 +154,16 @@ export const GLOSSARY: GlossaryEntry[] = [
     subtopic: "biodiversity",
     relatedArticles: [
       {
+        slug: "biodiversity-indicators-explained",
+        category: "ecology",
+        subtopic: "biodiversity",
+      },
+      {
+        slug: "biodiversity-monitoring-and-ecosystem-health",
+        category: "ecology",
+        subtopic: "biodiversity",
+      },
+      {
         slug: "essential-biodiversity-variables-monitoring",
         category: "ecology",
         subtopic: "biodiversity",
@@ -165,10 +175,13 @@ export const GLOSSARY: GlossaryEntry[] = [
       },
     ],
     relatedSources: [
-      { label: "IPBES", url: "https://www.ipbes.net/" },
-      { label: "EEA", url: "https://www.eea.europa.eu/" },
+      { label: "CBD Global Biodiversity Framework", url: "https://www.cbd.int/" },
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "EEA", url: "https://www.eea.europa.eu/en/topics/in-depth/biodiversity" },
     ],
-    updatedDate: "2026-05-14",
+    uncertaintyNote:
+      "Indicators are correlated but not equivalent; each captures a different dimension, and most are biased toward well-studied vertebrate groups and well-monitored regions.",
+    updatedDate: "2026-06-02",
   },
   {
     slug: "ecosystem-service",
@@ -513,6 +526,257 @@ export const GLOSSARY: GlossaryEntry[] = [
       { label: "IPCC AR6 WG1 Ch.9", url: "https://www.ipcc.ch/report/ar6/wg1/" },
     ],
     updatedDate: "2026-05-23",
+  },
+
+  // ---------- Ecology / Biodiversity ----------
+  {
+    slug: "species-richness",
+    term: "Species richness",
+    shortDefinition:
+      "The number of distinct species recorded in a defined area or sample — the simplest and most widely reported biodiversity measure.",
+    explanation:
+      "Species richness counts how many species are present, without regard to their abundance or identity. It rises with sampling effort and with area (the species-area relationship), so raw counts are only comparable at equal effort. Ecologists use rarefaction, extrapolation, and estimators such as Chao1 to compare samples and infer undetected species, and distinguish alpha (local), beta (turnover), and gamma (regional) components. Because richness ignores how individuals are distributed among species, it is a weak stand-alone conservation signal.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "species-richness-explained", category: "ecology", subtopic: "biodiversity" },
+      { slug: "why-species-counts-mislead-conservation", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "GBIF", url: "https://www.gbif.org/" },
+    ],
+    uncertaintyNote:
+      "Counts are effort- and scale-dependent and miss undescribed or undetected species; an absence of records is not proof of absence.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "species-evenness",
+    term: "Species evenness",
+    shortDefinition:
+      "How equally individuals are distributed among the species in a community; combined with richness it determines diversity-index values.",
+    explanation:
+      "Evenness is high when no species dominates and low when a few species hold most individuals. Diversity indices combine richness and evenness: the Shannon index weights species by log abundance, the Simpson index emphasises common species, and Hill numbers express diversity as an effective number of species at a chosen order q (q=0 richness, q=1 Shannon, q=2 Simpson). A species-rich but uneven community can be less diverse than a poorer, even one, so a shift toward dominance is an early signal of disturbance.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "species-evenness-and-diversity", category: "ecology", subtopic: "biodiversity" },
+      { slug: "species-richness-explained", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "Nature", url: "https://www.nature.com/" },
+    ],
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "red-list-index",
+    term: "Red List Index",
+    shortDefinition:
+      "An indicator tracking the aggregate trend in extinction risk for a group of species, derived from repeated IUCN Red List assessments.",
+    explanation:
+      "The IUCN Red List places species in extinction-risk categories from Least Concern to Extinct using standard criteria. The Red List Index aggregates repeated assessments into a trend, scaled so that 1 means all species are Least Concern and 0 means all are extinct; a falling value signals rising risk. It counts only genuine status changes, correcting for category shifts caused by improved data or revised taxonomy, and is a Convention on Biological Diversity headline indicator computed for comprehensively assessed groups such as birds, mammals, amphibians, corals, and cycads.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "red-list-index-explained", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-indicators-explained", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "IUCN Red List", url: "https://www.iucnredlist.org/" },
+      { label: "IUCN", url: "https://www.iucn.org/" },
+      { label: "CBD", url: "https://www.cbd.int/" },
+    ],
+    uncertaintyNote:
+      "Most taxa are not assessed, Data Deficient species complicate trends, and reassessment occurs only at multi-year intervals.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "living-planet-index",
+    term: "Living Planet Index",
+    shortDefinition:
+      "An index of the average relative change in monitored vertebrate population sizes since 1970 — a measure of abundance, not a count of animals.",
+    explanation:
+      "The Living Planet Index, compiled by the Zoological Society of London with WWF, converts thousands of vertebrate population time series into rates of change and averages them within a modelling framework. It is a relative abundance index and a Convention on Biological Diversity headline indicator. It is frequently misread as a percentage of animals or species lost, which it is not. Because it averages relative changes, a small number of steep declines can dominate the trend, and monitored populations over-represent well-studied taxa and regions.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "living-planet-index-explained", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-indicators-explained", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "Living Planet Index data portal", url: "https://www.livingplanetindex.org/" },
+      { label: "CBD", url: "https://www.cbd.int/" },
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+    ],
+    uncertaintyNote:
+      "The headline figure is version-dependent and sensitive to weighting; representation gaps and a post-decline 1970 baseline limit interpretation.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "habitat-fragmentation",
+    term: "Habitat fragmentation",
+    shortDefinition:
+      "The breaking of continuous habitat into smaller, more isolated patches; distinct from, though usually accompanying, habitat loss.",
+    explanation:
+      "Fragmentation is quantified with landscape metrics — mean patch size, edge density, core area, nearest-neighbour distance, and connectivity indices — usually computed from satellite land-cover maps. More fragmented landscapes have proportionally more edge habitat, where microclimate and species composition differ from the interior. Whether fragmentation 'per se' harms biodiversity independently of the total amount of habitat remaining is an active, unresolved debate; many studies find habitat amount the stronger driver.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "habitat-fragmentation-metrics", category: "ecology", subtopic: "biodiversity" },
+      { slug: "remote-sensing-for-biodiversity-monitoring", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "Copernicus Land Monitoring Service", url: "https://land.copernicus.eu/" },
+    ],
+    uncertaintyNote:
+      "Landscape metrics depend on the scale and grain of the input map and describe spatial pattern rather than its biological consequence.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "ecological-integrity",
+    term: "Ecological integrity",
+    shortDefinition:
+      "The degree to which an ecosystem retains the species composition, structure, and function characteristic of its type, relative to a minimally disturbed reference.",
+    explanation:
+      "Ecological integrity is estimated with composite indicators such as the Biodiversity Intactness Index and Mean Species Abundance, which express how much of the originally present biota remains, and with indices of biotic integrity used in freshwater monitoring. It maps onto the ecosystem-structure and ecosystem-function classes of the Essential Biodiversity Variables and appears as a goal in the Kunming-Montreal Global Biodiversity Framework. Its central difficulty is defining the reference condition, which is partly a value judgement.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "ecological-integrity-indicators", category: "ecology", subtopic: "biodiversity" },
+      { slug: "ecosystem-resilience-indicators", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "CBD", url: "https://www.cbd.int/" },
+      { label: "GEO BON", url: "https://geobon.org/" },
+    ],
+    uncertaintyNote:
+      "Composite indices average over species and processes, the modelled reference state carries error, and 'integrity' has several definitions in use.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "ecosystem-resilience",
+    term: "Ecosystem resilience",
+    shortDefinition:
+      "The capacity of an ecosystem to absorb disturbance and retain its essential structure and function rather than shifting to a different state.",
+    explanation:
+      "Resilience is a capacity rather than an observable state, so it is approximated by proxies: functional redundancy and response diversity among species, and recovery rate after disturbance. Some systems can undergo regime shifts between alternative stable states; proposed statistical early-warning signals of an approaching shift include rising temporal autocorrelation, increasing variance, and slower recovery from perturbations ('critical slowing down'). Engineering resilience (return speed) and ecological resilience (disturbance absorbed before a shift) are distinguished.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "ecosystem-resilience-indicators", category: "ecology", subtopic: "biodiversity" },
+      { slug: "ecological-integrity-indicators", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "Nature", url: "https://www.nature.com/" },
+      { label: "Science", url: "https://www.science.org/" },
+    ],
+    uncertaintyNote:
+      "Early-warning signals are not reliable in every system; resilience is specific to the disturbance and system, and thresholds are generally not predictable in advance.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "baseline-condition",
+    term: "Baseline condition",
+    shortDefinition:
+      "The reference state against which biodiversity change is measured; the choice of baseline strongly shapes whether a system is judged degraded, stable, or recovering.",
+    explanation:
+      "Because loss, recovery, and intactness are all defined relative to a baseline, the reference period is a consequential choice. Shifting-baseline syndrome describes how each generation tends to treat the already-degraded state it inherits as normal, so perceived baselines ratchet downward and cumulative loss is underestimated. Deeper baselines are reconstructed from long-term monitoring records, museum specimens, historical surveys, paleoecological proxies, and aggregated occurrence data.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "biodiversity-baselines-and-shifting-baselines", category: "ecology", subtopic: "biodiversity" },
+      { slug: "ecosystem-resilience-indicators", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "FAO Biodiversity", url: "https://www.fao.org/biodiversity/en/" },
+      { label: "Science", url: "https://www.science.org/" },
+    ],
+    uncertaintyNote:
+      "Deep historical baselines are sparse and uncertain, and different reference periods can reverse the apparent direction or magnitude of change.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "remote-sensing",
+    term: "Remote sensing (biodiversity)",
+    shortDefinition:
+      "Observation of ecosystems from satellites or aircraft; in biodiversity monitoring it measures habitat structure and condition rather than individual species.",
+    explanation:
+      "Remote sensing measures land cover and its change, forest extent, vegetation productivity, surface water, fire, and — with lidar — canopy structure, mapping onto the ecosystem-structure class of the Essential Biodiversity Variables. Long, consistent archives (the joint NASA/USGS Landsat record), the European Space Agency's Sentinel satellites, and the Copernicus Land Monitoring Service supply these data. A research frontier uses spectral diversity as an indirect proxy for biological diversity. Satellites cannot identify most species directly and require ground data for calibration.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "remote-sensing-for-biodiversity-monitoring", category: "ecology", subtopic: "biodiversity" },
+      { slug: "habitat-fragmentation-metrics", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "ESA Observing the Earth", url: "https://www.esa.int/Applications/Observing_the_Earth" },
+      { label: "Copernicus Land Monitoring Service", url: "https://land.copernicus.eu/" },
+    ],
+    uncertaintyNote:
+      "Structure is an imperfect proxy for biodiversity; species-level inference needs ground validation, and resolution and cloud cover constrain what can be resolved.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "citizen-science",
+    term: "Citizen science (biodiversity)",
+    shortDefinition:
+      "Biodiversity observations contributed by volunteers; aggregated through facilities such as GBIF, they greatly expand coverage but carry sampling biases.",
+    explanation:
+      "Volunteer platforms generate large volumes of species records that are aggregated and openly shared through the Global Biodiversity Information Facility and used to estimate distributions and, for well-recorded groups such as birds, population trends that feed indicators. The data carry documented biases — spatial clustering near roads and cities, over-recording of charismatic groups, uneven effort, and variable observer skill — which are addressed with occupancy and species-distribution models, explicit effort covariates, and expert validation of records.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "citizen-science-biodiversity-data", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-indicators-explained", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "GBIF", url: "https://www.gbif.org/" },
+      { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
+      { label: "EEA", url: "https://www.eea.europa.eu/en/topics/in-depth/biodiversity" },
+    ],
+    uncertaintyNote:
+      "Opportunistic records carry sampling and identification error; without effort information, raw counts can be mistaken for real abundance or range change.",
+    updatedDate: "2026-06-02",
+  },
+  {
+    slug: "protected-area-effectiveness",
+    term: "Protected-area effectiveness",
+    shortDefinition:
+      "Whether a protected area actually reduces the pressures and biodiversity loss it was created to address — distinct from how much area is designated.",
+    explanation:
+      "Protected-area coverage is recorded in the World Database on Protected Areas (Protected Planet), and the Kunming-Montreal Global Biodiversity Framework's Target 3 commits to effectively conserving at least 30% of land and sea by 2030. Designation alone does not guarantee results: a 'paper park' is designated but weakly managed. Effectiveness is assessed through management-effectiveness tools such as the Management Effectiveness Tracking Tool and through counterfactual impact evaluation that compares protected sites to matched unprotected ones to estimate avoided loss.",
+    category: "ecology",
+    subtopic: "biodiversity",
+    relatedArticles: [
+      { slug: "protected-area-effectiveness", category: "ecology", subtopic: "biodiversity" },
+      { slug: "habitat-fragmentation-metrics", category: "ecology", subtopic: "biodiversity" },
+      { slug: "biodiversity-monitoring-and-ecosystem-health", category: "ecology", subtopic: "biodiversity" },
+    ],
+    relatedSources: [
+      { label: "Protected Planet (WDPA)", url: "https://www.protectedplanet.net/en" },
+      { label: "CBD", url: "https://www.cbd.int/" },
+      { label: "IUCN", url: "https://www.iucn.org/" },
+    ],
+    uncertaintyNote:
+      "Attributing outcomes to protection is hard because the counterfactual is unobserved, and protected areas are often sited on land already under low pressure.",
+    updatedDate: "2026-06-02",
   },
 
   // ---------- Biology ----------
