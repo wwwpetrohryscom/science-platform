@@ -456,6 +456,105 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
         "Peer-reviewed journal publishing original Earth-system reference datasets",
       lastReviewed: "2026-06-02",
     },
+    {
+      name: "AR6 Working Group I, Chapter 5: Global Carbon and Other Biogeochemical Cycles and Feedbacks",
+      organization: "IPCC",
+      url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      type: "report",
+      topicRelevance:
+        "Assessed carbon and nitrogen cycle budgets, emissions partitioning, airborne fraction, and biogeochemical feedbacks",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "AR6 Working Group I, Chapter 7: The Earth's Energy Budget, Climate Feedbacks and Climate Sensitivity",
+      organization: "IPCC",
+      url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      type: "report",
+      topicRelevance:
+        "Assessed energy inventory, Earth energy imbalance, and the individual and net climate feedback parameters",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "AR6 Working Group I, Chapter 8: Water Cycle Changes",
+      organization: "IPCC",
+      url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+      type: "report",
+      topicRelevance:
+        "Thermodynamic and energetic constraints on the global water cycle and its intensification",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "AR6 Working Group I, Chapter 4: Future Global Climate",
+      organization: "IPCC",
+      url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/",
+      type: "report",
+      topicRelevance:
+        "Cross-chapter assessment of proposed tipping elements, abrupt change, and irreversibility (Table 4.10)",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "Global Climate Observing System",
+      organization: "WMO / GCOS",
+      url: "https://gcos.wmo.int/",
+      type: "primary",
+      topicRelevance:
+        "Definition and specification of the Essential Climate Variables and their observing requirements",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "Coupled Model Intercomparison Project",
+      organization: "World Climate Research Programme",
+      url: "https://wcrp-cmip.org/",
+      type: "primary",
+      topicRelevance:
+        "Coordination, experiment protocols, and data distribution for the international Earth-system model ensembles",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "Water Science School",
+      organization: "USGS",
+      url: "https://www.usgs.gov/special-topics/water-science-school",
+      type: "primary",
+      topicRelevance:
+        "Reference figures for global water storage, distribution between reservoirs, and water-cycle processes",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "National Ocean Service",
+      organization: "NOAA",
+      url: "https://oceanservice.noaa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Ocean circulation, the global conveyor belt, and the Atlantic Meridional Overturning Circulation",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "Pacific Marine Environmental Laboratory",
+      organization: "NOAA",
+      url: "https://www.pmel.noaa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Tropical Pacific observing arrays and the physical mechanism of El Nino and La Nina",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "Climate Prediction Center",
+      organization: "NOAA",
+      url: "https://www.cpc.ncep.noaa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Operational ENSO diagnostics, the Oceanic Nino Index, and monitoring of modes of variability",
+      lastReviewed: "2026-08-29",
+    },
+    {
+      name: "Arctic Report Card",
+      organization: "NOAA",
+      url: "https://arctic.noaa.gov/report-card/",
+      type: "report",
+      topicRelevance:
+        "Annual peer-reviewed synthesis of the state of the Arctic environment",
+      lastReviewed: "2026-08-29",
+    },
   ],
   biology: [
     {

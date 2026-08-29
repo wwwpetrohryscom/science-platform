@@ -4,7 +4,7 @@ excerpt: Satellites have become the instruments that let scientists watch the wh
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-08-29'
 readingTime: 12
 tags:
   - earth-observation
@@ -81,6 +81,10 @@ Every satellite measurement carries uncertainty, and authoritative providers rep
 ## Limitations: what satellites cannot do
 
 Two limits are structural. First, remote sensing measures **physical and spectral properties, not the things themselves** — it sees canopy greenness, not plant species; thermal anomalies, not "fire" as such; water colour, not phytoplankton directly. The biological or social meaning is always an inference that needs validation. Second, the **archive sets the horizon**: a satellite record cannot describe conditions before its instruments existed, which is why the 1972 start of the continuous Landsat record, or the satellite-altimetry era beginning in the early 1990s, marks the practical baseline for many studies. For longer perspectives, satellite data must be joined to older records.
+
+## What the observations are measuring toward
+
+Continuity has a target as well as a rationale. The international community specifies which quantities must be sustained through the Essential Climate Variables: the Global Climate Observing System currently defines 55 of them across the atmosphere, ocean, and land domains, selected against relevance to characterising the climate system, technical feasibility of global observation, and cost effectiveness. Many are retrieved primarily or entirely from orbit — sea-surface temperature, sea level, sea ice, land cover, above-ground biomass, ocean colour, albedo, leaf area index — which is why mission continuity and ECV specification are the same conversation. The framework is set out in [Essential Climate Variables](/en/ecology/earth-systems/essential-climate-variables-explained), and the coupled system these variables collectively describe is the subject of the [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) cluster.
 
 ## Source transparency
 

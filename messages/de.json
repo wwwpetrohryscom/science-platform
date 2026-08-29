@@ -48,6 +48,7 @@
     "ecosystems": { "label": "Ökosysteme", "description": "Wälder, Feuchtgebiete, Ozeane, Böden — wie Energie und Materie durch lebende Systeme strömen und was Störungen über sie verraten." },
     "climate-change": { "label": "Klimawandel", "description": "Treiber, Rückkopplungen, Attribution und politikrelevante Unsicherheiten an der Front der Klimawissenschaft." },
     "biodiversity": { "label": "Biodiversität", "description": "Warum die Artenzahl die falsche Metrik ist, was genetische und funktionale Diversität tatsächlich leisten und wo Schutzbemühungen wirken." },
+    "earth-systems": { "label": "Erdsystemwissenschaft", "description": "Der Planet als gekoppeltes System — wie Atmosphäre, Ozean, Eis, Land und Leben Energie und Materie austauschen, und was diese Kopplung erklärt, das keine einzelne Komponente erklären kann." },
     "earth-observation": { "label": "Erdbeobachtung", "description": "Wie Satelliten und Sensoren den Planeten beobachten — die Methoden, Datenprodukte und Unsicherheiten hinter der Messung von Umweltveränderungen aus dem All." },
     "cells": { "label": "Zellbiologie", "description": "Die Zelle als Grundbaustein des Lebens — ihre Architektur, Energetik, Signalübertragung und die Methoden, sie zu untersuchen." },
     "genetics": { "label": "Genetik", "description": "Molekulargenetik, Genomik und die Evolution genetischer Systeme — was die Sequenzierung gezeigt hat und was sie nicht klären kann." },

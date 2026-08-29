@@ -4,7 +4,7 @@ excerpt: The Earth absorbs a specific amount of energy from the Sun and radiates
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-24'
-updatedDate: '2026-05-20'
+updatedDate: '2026-08-29'
 readingTime: 5
 tags:
   - energy
@@ -36,7 +36,7 @@ The two final numbers must balance in the long-term mean. Any imbalance — the 
 
 ## Where the absorbed energy goes
 
-About 89% of the energy imbalance is taken up by the [ocean](/en/ecology/climate-change/ocean-heat-content-indicators), with the remainder split among land warming, ice melt, and atmospheric warming. This partition is the reason [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) is the best single indicator of total climate-system energy uptake — the atmosphere holds only a small fraction of the imbalance and is also subject to year-to-year variability.
+Roughly 90% of the energy imbalance is taken up by the [ocean](/en/ecology/climate-change/ocean-heat-content-indicators), with the remainder split among land warming, ice melt, and atmospheric warming; the exact share depends on the inventory and period, and IPCC AR6 assesses it at 91% of the total change in the global energy inventory over 1971–2018. This partition is the reason [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) is the best single indicator of total climate-system energy uptake — the atmosphere holds only a small fraction of the imbalance and is also subject to year-to-year variability.
 
 The ocean is therefore the slow buffer. It absorbs the imbalance now and releases it on multi-decade timescales as warmer water mixes downward and warmer water near the surface eventually equilibrates with a warmer atmosphere. This is the physical reason climate change is sometimes described as having "committed warming" — the imbalance is real now even if forcing were held constant from this point.
 
@@ -74,7 +74,9 @@ The satellite top-of-atmosphere imbalance record, produced by the CERES instrume
 
 CERES EBAF (Energy Balanced and Filled) products document an upward trend in the imbalance over the past two decades — the planet is not just out of balance, the imbalance has been growing. The trend is corroborated by independent OHC products, which is what makes it a load-bearing observation rather than a single-instrument artefact. A live area of analysis, documented in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature and discussed in [NASA Earth Observatory](https://earthobservatory.nasa.gov/) explainers, concerns how much of the recent change reflects reduced reflective aerosols (including the post-2020 IMO sulfur cap on marine fuels) unmasking pre-existing greenhouse-gas warming, versus other feedback contributions. The accounting is being narrowed but is not settled.
 
-Recent work documented in [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) Chapter 7 and follow-on analyses continues to refine cloud-feedback estimates; the central value remains positive and the uncertainty range has narrowed somewhat without resolving the spread fully.
+Recent work documented in [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) Chapter 7 and follow-on analyses continues to refine cloud-feedback estimates; the central value remains positive — AR6 assesses the net cloud feedback at +0.42 W/m² per °C, very likely range −0.10 to +0.94 — and the uncertainty range has narrowed somewhat without resolving the spread fully.
+
+The same assessment gives the accumulated quantity, which is the more robust statement. The global energy inventory grew by 282 zettajoules over 1971–2006 and a further 152 zettajoules over 2006–2018, corresponding to an imbalance rising from 0.50 to 0.79 W/m². About 91% of that accumulated energy went into the ocean, roughly 5% into land heating, 3% into melting ice, and 1% into the atmosphere. Where the surplus goes, rather than how large it is, is the question the [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) cluster takes up, and the amplification that turns a forcing into a temperature response is set out in [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms).
 
 ## Methods note
 

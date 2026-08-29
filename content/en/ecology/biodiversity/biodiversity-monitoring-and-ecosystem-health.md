@@ -4,7 +4,7 @@ excerpt: Biodiversity has no single thermometer. This is how scientists track th
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-08-29'
 readingTime: 10
 tags:
   - biodiversity
@@ -87,6 +87,8 @@ Every load-bearing claim in this cluster is attributed to a named authority — 
 ## The rest of the cluster
 
 The supporting articles each take one method or metric further: [species richness](/en/ecology/biodiversity/species-richness-explained), [species evenness and diversity](/en/ecology/biodiversity/species-evenness-and-diversity), [biodiversity indicators](/en/ecology/biodiversity/biodiversity-indicators-explained), the [Red List Index](/en/ecology/biodiversity/red-list-index-explained), the [Living Planet Index](/en/ecology/biodiversity/living-planet-index-explained), [habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics), [ecological integrity indicators](/en/ecology/biodiversity/ecological-integrity-indicators), [ecosystem resilience indicators](/en/ecology/biodiversity/ecosystem-resilience-indicators), [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring), [citizen-science biodiversity data](/en/ecology/biodiversity/citizen-science-biodiversity-data), [protected-area effectiveness](/en/ecology/biodiversity/protected-area-effectiveness), and [biodiversity baselines and shifting baselines](/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines). The [Essential Biodiversity Variables](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) piece supplies the framework that ties them together, and the pillar on [species counts](/en/ecology/biodiversity/why-species-counts-mislead-conservation) sets out why the multi-dimensional approach is necessary in the first place.
+
+That framework was deliberately modelled on an older one from the physical sciences. The Global Climate Observing System specifies 55 Essential Climate Variables against three criteria — relevance, technical feasibility of sustained global observation, and cost effectiveness — and the biodiversity version borrowed the same insistence that a variable be feasibly observable rather than merely desirable. Reading the two side by side is instructive about how much harder the biological case is: the climate list's ocean-biology subdomain contains just two entries, marine habitats and plankton, against eleven physical ocean variables. The comparison is set out in [Essential Climate Variables](/en/ecology/earth-systems/essential-climate-variables-explained), and the coupled-system context in which biodiversity monitoring sits is the subject of the [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) cluster.
 
 ## Sources
 
