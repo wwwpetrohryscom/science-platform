@@ -4,7 +4,7 @@ excerpt: Climate change refers to the long-term shift in Earth's energy balance 
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-05-14'
+updatedDate: '2026-08-29'
 readingTime: 5
 tags:
   - climate
@@ -62,13 +62,13 @@ Public discussion often suggests that the central uncertainty is whether climate
 
 **Regional precipitation.** Global mean precipitation responds robustly to warming, but regional patterns depend on circulation changes that current models do not yet resolve to confidence. Whether a specific region will get wetter, drier, or seasonally variable is harder to predict than mean temperature.
 
-**Cloud feedback.** Clouds can amplify or damp warming depending on their type and altitude. The net cloud feedback is the largest single source of uncertainty in equilibrium climate sensitivity. Recent observations have narrowed the range, but it remains the dominant uncertainty in long-range projections.
+**Cloud feedback.** Clouds can amplify or damp warming depending on their type and altitude. AR6 assesses the net cloud feedback at +0.42 W m⁻² °C⁻¹ with a very likely range of −0.10 to +0.94 — a central estimate comparable to that of surface albedo but a range several times wider, which is why clouds remain the largest single source of uncertainty in equilibrium climate sensitivity even after recent observations narrowed it. How the individual feedbacks combine is set out in [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms).
 
 **Ice-sheet dynamics.** The pace of West Antarctic and Greenland ice loss depends on processes — basal melt, ice-shelf collapse, marine ice-cliff instability — that are still being characterized. The next century's sea-level rise could plausibly span a meter of difference depending on which mechanisms engage.
 
-**Carbon-cycle feedbacks.** Land and ocean currently absorb about half of human carbon emissions. Whether this absorption persists, weakens, or reverses under continued warming is the largest single uncertainty in the trajectory of atmospheric CO₂ at any given emissions path.
+**Carbon-cycle feedbacks.** Land and ocean currently absorb about half of human carbon emissions — AR6 puts the 2010–2019 partition at 23 per cent to the ocean and 31 per cent to land vegetation, with 46 per cent remaining airborne. Whether this absorption persists, weakens, or reverses under continued warming is the largest single uncertainty in the trajectory of atmospheric CO₂ at any given emissions path. The mechanism behind the partition is set out in [the carbon cycle](/en/ecology/earth-systems/carbon-cycle-explained).
 
-**Tipping points and reversibility.** Several large Earth-system components — Amazon dieback, Arctic methane release, AMOC slowdown — could reorganize abruptly if warming exceeds threshold values. The threshold values themselves are uncertain.
+**Tipping points and reversibility.** Several large Earth-system components could reorganize abruptly if warming exceeds threshold values, and the threshold values themselves are uncertain. It is worth being precise about which components those are, because AR6 assesses each separately and the confidence levels differ sharply. Permafrost carbon and the West Antarctic ice sheet are assessed as capable of abrupt change with *high* confidence; the AMOC with *medium* confidence, alongside a very likely decline this century and only medium confidence that no collapse occurs before 2100; tropical and boreal forest dieback with *low* confidence. Arctic summer sea ice, often cited in this context, is assessed as **not** subject to abrupt change with high confidence, and as reversible within years to decades, even though its complete loss is likely. The element-by-element assessment is set out in [Earth-system tipping points](/en/ecology/earth-systems/earth-system-tipping-points).
 
 These uncertainties are not symmetric. Most of them, on the central estimate, point toward worse outcomes than the consensus median, not better.
 

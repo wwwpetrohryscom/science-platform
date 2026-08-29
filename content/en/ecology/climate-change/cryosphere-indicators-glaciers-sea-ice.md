@@ -1,10 +1,10 @@
 ---
 title: 'Cryosphere indicators: glaciers, sea ice, ice sheets, and snow cover'
-excerpt: The cryosphere has several distinct indicators — sea-ice extent, glacier mass balance, ice-sheet mass loss, snow cover, permafrost. Each measures a different physical reservoir and responds to a different timescale.
+excerpt: Sea-ice extent, glacier mass balance, ice-sheet loss, snow cover, permafrost. Each measures a different frozen reservoir and responds on a different timescale.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-08-29'
 readingTime: 7
 tags:
   - climate-change
@@ -75,6 +75,14 @@ Three methodology notes deserve attention.
 **Regional vs. global.** Cryosphere change is not spatially uniform. The Arctic is warming faster than the global mean (the polar amplification documented in AR6); Antarctic patterns are more complex. Regional indicators sometimes diverge from the global mean trend for periods of years to decades; the long-term signal is global, the year-to-year variability is regional.
 
 **Process uncertainty.** Ice-sheet dynamics, in particular, contain processes that are difficult to observe at the scales that matter. Marine ice-cliff instability — a hypothesized mechanism for rapid grounding-line retreat — is not strongly constrained by the historical record. AR6 reports plausible 21st-century sea-level contributions with a long upper tail driven by these mechanisms.
+
+## Which cryosphere changes are abrupt, and which are irreversible
+
+Indicator trends are frequently translated into claims about thresholds, and AR6's cross-chapter assessment is worth quoting element by element because it does not support a single verdict for "the ice".
+
+Arctic **summer** sea ice is assessed as **not** subject to abrupt change, with high confidence, and as reversible within years to decades, also with high confidence — while complete loss is judged likely under continued warming, defined as a sea-ice area below one million square kilometres. Arctic **winter** sea ice is assessed as capable of abrupt change with high confidence, and equally as reversible within years to decades. The **Greenland ice sheet** is the mirror image: not abrupt, with high confidence, but irreversible for millennia, also with high confidence, with virtually certain mass loss under all scenarios. The **West Antarctic ice sheet and its shelves** are assessed as capable of abrupt change with high confidence and irreversible for decades to millennia, with deep uncertainty in projections above 3 °C of warming. **Permafrost carbon** decline is virtually certain, but the net carbon change carries only low confidence.
+
+The pattern is that abruptness and irreversibility are independent properties that do not travel together. The full table, and the coupling of ice to ocean density and the carbon cycle, are covered in [the cryosphere in the Earth system](/en/ecology/earth-systems/cryosphere-in-the-earth-system) and [Earth-system tipping points](/en/ecology/earth-systems/earth-system-tipping-points).
 
 ## What the cryosphere indicators do not capture
 

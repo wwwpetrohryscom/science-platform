@@ -38,6 +38,7 @@
     "ecosystems": { "label": "Ecosystems", "description": "Forests, wetlands, oceans, soils — how energy and matter move through living systems and what disturbance reveals about them." },
     "climate-change": { "label": "Climate Change", "description": "Drivers, feedbacks, attribution, and the policy-relevant uncertainties at the frontier of climate science." },
     "biodiversity": { "label": "Biodiversity", "description": "Why species count is the wrong metric, what genetic and functional diversity actually do, and where conservation efforts are working." },
+    "earth-systems": { "label": "Earth System Science", "description": "The planet as one coupled system — how the atmosphere, ocean, ice, land, and life exchange energy and matter, and what that coupling explains that no single component can." },
     "earth-observation": { "label": "Earth Observation", "description": "How satellites and sensors observe the planet — the methods, data products, and uncertainties behind measuring environmental change from space." },
     "cells": { "label": "Cell Biology", "description": "The cell as the fundamental unit of life — its architecture, energetics, signaling, and the methods used to study it." },
     "genetics": { "label": "Genetics", "description": "Molecular genetics, genomics, and the evolution of genetic systems — what sequencing has revealed, what it cannot resolve." },

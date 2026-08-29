@@ -4,7 +4,7 @@ excerpt: Radiative forcing is the bookkeeping unit that lets atmospheric scienti
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-22'
-updatedDate: '2026-05-20'
+updatedDate: '2026-08-29'
 readingTime: 6
 tags:
   - climate-change
@@ -67,6 +67,12 @@ The annual greenhouse-gas concentration record continues to be the cleanest sign
 These concentration trends are the input to the forcing calculation. They do not, on their own, settle the *response* — the temperature response is governed by climate sensitivity, which is assessed separately in AR6.
 
 The compact operational summary of the forcing trend is NOAA's [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), which reports the year-over-year change in the direct radiative forcing of the five main long-lived greenhouse gases (CO₂, methane, nitrous oxide, CFC-12, CFC-11) plus 15 minor halogenated gases, indexed to 1990 = 1.0. The AGGI is published annually by the NOAA Global Monitoring Laboratory and is the cleanest single number for tracking the direct gas-only component of anthropogenic forcing, separate from the more uncertain aerosol term. It is what to point at when a discussion calls for a single, unambiguously sourced operational metric.
+
+## Forcing is not feedback, and water vapour is the test case
+
+The most consequential distinction in this area is between an agent that *drives* a change to the energy budget and one that *responds* to the resulting temperature change. Water vapour contributes more to the natural greenhouse effect than any other constituent, and yet it is not a forcing agent, because its concentration is set by temperature rather than by emission and its atmospheric residence time is around nine days. Add vapour and it rains out; add carbon dioxide and it accumulates for centuries. That asymmetry is why vapour appears in assessments as the largest feedback rather than as a driver — IPCC AR6 assesses the combined water-vapour and lapse-rate feedback at +1.30 W m⁻² °C⁻¹ — and the distinction is developed in [the water-vapour feedback](/en/ecology/earth-systems/water-vapor-feedback-explained) and [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms).
+
+For the current state of the long-lived gases, the WMO's Global Atmosphere Watch reports 2024 global mean surface concentrations of 423.9 ± 0.2 ppm for carbon dioxide, 1942 ± 2 ppb for methane, and 338.0 ± 0.1 ppb for nitrous oxide — increases of 52, 166, and 25 per cent respectively above pre-1750 levels.
 
 ## Limitations and uncertainty
 

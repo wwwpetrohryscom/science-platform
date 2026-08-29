@@ -75,6 +75,14 @@ export const categories: CategoryDefinition[] = [
           "Reader wants frameworks for thinking about diversity beyond raw species lists, and evidence-based conservation strategies.",
       },
       {
+        slug: "earth-systems",
+        label: "Earth System Science",
+        description:
+          "The planet as one coupled system — how the atmosphere, ocean, ice, land, and life exchange energy and matter, and what that coupling explains that no single component can.",
+        intent:
+          "Reader wants to understand the Earth as a coupled system: what its components are, how energy and matter move between them, which feedbacks and modes of variability arise from the coupling, and how models and observations are used to study the whole.",
+      },
+      {
         slug: "earth-observation",
         label: "Earth Observation",
         description:

@@ -103,7 +103,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     shortDefinition:
       "The integral of ocean temperature anomalies over a defined volume, typically reported in zettajoules.",
     explanation:
-      "Ocean heat content (OHC) measures total energy stored in the ocean relative to a reference period. Because the ocean takes up roughly 89% of the energy added to the climate system by greenhouse-gas forcing, OHC is the most stable single indicator of total climate-system warming. The post-2005 Argo network anchors the modern record.",
+      "Ocean heat content (OHC) measures total energy stored in the ocean relative to a reference period. Because the ocean takes up roughly 90% of the energy added to the climate system by greenhouse-gas forcing — IPCC AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory — OHC is the most stable single indicator of total climate-system warming. The post-2005 Argo network anchors the modern record.",
     category: "ecology",
     subtopic: "climate-change",
     relatedArticles: [
@@ -120,7 +120,7 @@ export const GLOSSARY: GlossaryEntry[] = [
         url: "https://www.ncei.noaa.gov/",
       },
     ],
-    updatedDate: "2026-05-14",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "carbon-cycle",
@@ -137,11 +137,27 @@ export const GLOSSARY: GlossaryEntry[] = [
         category: "ecology",
         subtopic: "climate-change",
       },
+      {
+        slug: "carbon-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "biogeochemical-cycles-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
     ],
     relatedSources: [
       { label: "IPCC AR6 WG1 Ch.5", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      {
+        label: "IPCC AR6 WG1, Chapter 5",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      },
     ],
-    updatedDate: "2026-05-14",
+    uncertaintyNote:
+      "The fast and slow carbon cycles differ in speed by roughly seven orders of magnitude; most confusion about carbon comes from applying a figure from one to the other.",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "biodiversity-indicator",
@@ -310,13 +326,29 @@ export const GLOSSARY: GlossaryEntry[] = [
         category: "ecology",
         subtopic: "climate-change",
       },
+      {
+        slug: "cryosphere-in-the-earth-system",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "ice-albedo-feedback-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
     ],
     relatedSources: [
       { label: "IPCC AR6 WG1 Ch.9", url: "https://www.ipcc.ch/report/ar6/wg1/" },
       { label: "NSIDC", url: "https://nsidc.org/" },
       { label: "WGMS", url: "https://wgms.ch/" },
+      {
+        label: "NSIDC — what is the cryosphere?",
+        url: "https://nsidc.org/learn/what-cryosphere",
+      },
     ],
-    updatedDate: "2026-05-23",
+    uncertaintyNote:
+      "IPCC AR6 assesses the cryosphere component by component rather than as a whole: Arctic summer sea ice is judged neither abrupt nor irreversible, while the Greenland ice sheet is judged irreversible for millennia but not abrupt.",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "carbon-cycle-feedback",
@@ -338,6 +370,16 @@ export const GLOSSARY: GlossaryEntry[] = [
         category: "ecology",
         subtopic: "climate-change",
       },
+      {
+        slug: "carbon-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "climate-feedback-mechanisms",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
     ],
     relatedSources: [
       { label: "IPCC AR6 WG1 Ch.5", url: "https://www.ipcc.ch/report/ar6/wg1/" },
@@ -345,7 +387,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     uncertaintyNote:
       "The long-term trajectory of both sinks under continued warming is not strongly constrained; CMIP-class earth-system models show a wide range of land-sink behaviors under high-emissions scenarios.",
-    updatedDate: "2026-05-23",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "climate-projection",
@@ -429,7 +471,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     shortDefinition:
       "The net difference between incoming solar shortwave radiation absorbed and outgoing longwave radiation emitted at the top of the atmosphere.",
     explanation:
-      "Earth's top-of-atmosphere energy imbalance is the upstream driver of every other climate indicator. A positive imbalance means the planet is gaining energy; that energy accumulates dominantly in the ocean (about 89%), with smaller shares warming land, melting ice, and warming the atmosphere. The current imbalance, measured by NASA's CERES instruments and corroborated by ocean heat content uptake, is approximately +1 W/m² and is the direct consequence of anthropogenic radiative forcing.",
+      "Earth's top-of-atmosphere energy imbalance is the upstream driver of every other climate indicator. A positive imbalance means the planet is gaining energy; that energy accumulates dominantly in the ocean (IPCC AR6 assesses 91% of the total change in the global energy inventory), with smaller shares warming land (about 5%), melting ice (about 3%), and warming the atmosphere (about 1%). The current imbalance, measured by NASA's CERES instruments and corroborated by ocean heat content uptake, is approximately +1 W/m² and is the direct consequence of anthropogenic radiative forcing.",
     category: "ecology",
     subtopic: "climate-change",
     relatedArticles: [
@@ -448,7 +490,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       { label: "IPCC AR6 WG1 Ch.7", url: "https://www.ipcc.ch/report/ar6/wg1/" },
       { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
     ],
-    updatedDate: "2026-05-23",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "greenhouse-gas-concentration",
@@ -493,12 +535,28 @@ export const GLOSSARY: GlossaryEntry[] = [
         category: "ecology",
         subtopic: "climate-change",
       },
+      {
+        slug: "earth-system-models-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "earth-system-predictability-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
     ],
     relatedSources: [
       { label: "WCRP CMIP", url: "https://www.wcrp-climate.org/" },
       { label: "IPCC AR6 WG1 Ch.4", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      {
+        label: "WCRP — Coupled Model Intercomparison Project",
+        url: "https://wcrp-cmip.org/",
+      },
     ],
-    updatedDate: "2026-05-23",
+    uncertaintyNote:
+      "A physical climate model is prescribed an atmospheric composition; an Earth system model computes it from emissions. The second answers different questions and carries larger biological uncertainty.",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "glacier-mass-balance",
@@ -1245,12 +1303,23 @@ export const GLOSSARY: GlossaryEntry[] = [
         category: "physics",
         subtopic: "thermodynamics",
       },
+      {
+        slug: "earth-system-science-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
     ],
     relatedSources: [
       { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
       { label: "IPCC AR6 WG1 Ch.7", url: "https://www.ipcc.ch/report/ar6/wg1/" },
+      {
+        label: "IPCC AR6 WG1, Chapter 7",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      },
     ],
-    updatedDate: "2026-05-14",
+    uncertaintyNote:
+      "IPCC AR6 assesses the Earth energy imbalance at 0.79 W m-2 for 2006-2018, up from 0.50 for 1971-2006, with about 91% of the accumulated energy taken up by the ocean.",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "albedo",
@@ -1267,11 +1336,18 @@ export const GLOSSARY: GlossaryEntry[] = [
         category: "physics",
         subtopic: "energy",
       },
+      {
+        slug: "ice-albedo-feedback-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
     ],
     relatedSources: [
       { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
     ],
-    updatedDate: "2026-05-14",
+    uncertaintyNote:
+      "The global surface-albedo feedback is assessed by IPCC AR6 at +0.35 W m-2 per degree Celsius with high confidence in its sign but only medium confidence in its magnitude — smaller than the local ice-to-ocean contrast suggests.",
+    updatedDate: "2026-08-29",
   },
   {
     slug: "electromagnetic-spectrum",
@@ -1381,6 +1457,818 @@ export const GLOSSARY: GlossaryEntry[] = [
       },
     ],
     updatedDate: "2026-05-14",
+  },
+  // ---------- Ecology / Earth system science ----------
+  {
+    slug: "earth-system",
+    term: "Earth system",
+    shortDefinition:
+      "The coupled whole formed by the atmosphere, hydrosphere, cryosphere, biosphere, and geosphere and the exchanges between them.",
+    explanation:
+      "The Earth system is not a list of components but the set of couplings between them: energy and matter moving continuously between air, water, ice, rock and soil, and life. Treating the planet this way is what allows questions that cross disciplinary boundaries — how much of an emitted tonne of carbon stays airborne, why a Pacific temperature anomaly changes East African rainfall — to be posed at all. NASA frames its Earth-science programme in the same terms, measuring how changes in one component drive changes in others.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "earth-system-science-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "earth-system-components-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NASA — Earth science",
+        url: "https://science.nasa.gov/earth/",
+      },
+      {
+        label: "IPCC AR6 WG1, Chapter 7",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      },
+    ],
+    uncertaintyNote:
+      "The five-component division is a bookkeeping convention rather than a physical boundary; soil moisture, sea ice, and vegetation each belong to more than one component at once.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "atmosphere",
+    term: "Atmosphere",
+    shortDefinition:
+      "The gaseous envelope surrounding Earth — roughly 78% nitrogen and 21% oxygen by volume, with trace gases doing most of the radiative work.",
+    explanation:
+      "The atmosphere is the fastest-responding component of the Earth system, mixing globally within weeks to a couple of years and holding very little heat relative to the ocean. Its bulk constituents are radiatively almost inactive; the trace gases — water vapour, carbon dioxide, methane, nitrous oxide, ozone — account for the greenhouse effect. Because its thermal inertia is low, atmospheric measurements respond first to any perturbation and are correspondingly the noisiest indicators of long-term change.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "earth-system-components-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "global-water-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NASA — Earth science",
+        url: "https://science.nasa.gov/earth/",
+      },
+      {
+        label: "WMO Greenhouse Gas Bulletin No. 21",
+        url: "https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21",
+      },
+    ],
+    uncertaintyNote:
+      "Atmospheric composition is well measured for long-lived gases but far less so for aerosols and short-lived species, whose concentrations vary sharply in space and time.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "hydrosphere",
+    term: "Hydrosphere",
+    shortDefinition:
+      "All the water at and near Earth's surface — ocean, ice, fresh surface water, groundwater, and atmospheric moisture.",
+    explanation:
+      "USGS puts the total volume of water on Earth at about 1,386 million cubic kilometres, of which roughly 96.5% is saline ocean water. Of the freshwater remainder, over 68% is locked in ice and glaciers and about 30% is groundwater. The hydrosphere spans an unusually wide range of response times: the atmospheric store turns over in days, the surface ocean in years, and the deep ocean in centuries to a millennium.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "earth-system-components-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "global-water-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "USGS Water Science School",
+        url: "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth",
+      },
+      {
+        label: "NASA — the water cycle",
+        url: "https://science.nasa.gov/earth/water-on-earth/the-water-cycle/",
+      },
+    ],
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "biosphere",
+    term: "Biosphere",
+    shortDefinition:
+      "The totality of living organisms and the zone they occupy, treated as an active component of the Earth system.",
+    explanation:
+      "The biosphere is the only Earth-system component defined by a process rather than a material or a phase, and it is unusual in actively regulating fluxes rather than passively transmitting them. It influences climate through composition — carbon uptake and release, methane, nitrous oxide — and through the physical properties of the land and ocean surface, including reflectivity, evapotranspiration, and roughness. The IPCC assesses that land ecosystems absorbed 31% of anthropogenic carbon dioxide emissions over 2010–2019.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "biosphere-climate-interactions",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "earth-system-components-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 5",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      },
+      {
+        label: "NASA Earth Observatory — the carbon cycle",
+        url: "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+      },
+    ],
+    uncertaintyNote:
+      "Biosphere terms are among the least well constrained in Earth-system modelling, because vegetation responds to weather, nutrients, carbon dioxide, disturbance, and management simultaneously and these covary in the observational record.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "lithosphere",
+    term: "Lithosphere",
+    shortDefinition:
+      "Earth's rigid outer rock shell — the crust and uppermost mantle — and, in Earth-system usage, the source of the slowest material cycles.",
+    explanation:
+      "In Earth-system science the lithosphere (often used interchangeably with 'geosphere' in this context, though the terms are not strictly synonymous) matters mainly as the reservoir and regulator of the slow cycles. Weathering of silicate rock consumes atmospheric carbon dioxide; volcanism returns it. NASA's Earth Observatory describes carbon taking 100 to 200 million years to complete a circuit through rock, which makes the lithosphere a thermostat on geological timescales and effectively a fixed boundary condition on human ones.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "earth-system-components-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "carbon-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NASA Earth Observatory — the carbon cycle",
+        url: "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+      },
+      {
+        label: "NASA — Earth science",
+        url: "https://science.nasa.gov/earth/",
+      },
+    ],
+    uncertaintyNote:
+      "'Lithosphere' and 'geosphere' are used loosely and sometimes interchangeably in Earth-system writing; the geosphere is the broader term, encompassing the whole solid Earth rather than only its rigid outer shell.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "biogeochemical-cycle",
+    term: "Biogeochemical cycle",
+    shortDefinition:
+      "The movement of a chemical element between reservoirs by biological, geological, and chemical processes, described by reservoir sizes and fluxes.",
+    explanation:
+      "A biogeochemical cycle is specified by three quantities: reservoirs where an element accumulates, fluxes that transfer it between them, and the residence time that follows from dividing the two. The same grammar describes carbon, water, nitrogen, phosphorus, and sulphur, which is what makes cycles with wildly different speeds comparable. Cycles are coupled to one another through the fixed elemental ratios organisms require, through shared media such as seawater, and through radiatively active by-products.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "biogeochemical-cycles-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "carbon-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "nitrogen-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 5",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      },
+      {
+        label: "NASA Earth Observatory — the carbon cycle",
+        url: "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+      },
+    ],
+    uncertaintyNote:
+      "Flux estimates are considerably less certain than reservoir estimates, and because gross fluxes are large and nearly balanced, small proportional errors in them produce large errors in the net.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "residence-time",
+    term: "Residence time",
+    shortDefinition:
+      "The average time a unit of material stays in a reservoir — reservoir size divided by the total outgoing flux.",
+    explanation:
+      "Residence time is the single number that explains why perturbations to some cycles are felt immediately and others accumulate for centuries. Atmospheric water has a residence time of about nine days, derived from NASA's figures of roughly 12,900 cubic kilometres stored and around 495,000 cubic kilometres cycled through annually. The IPCC assesses the residence time of a nitrous oxide perturbation at 109 ± 10 years. Short residence prevents accumulation; long residence guarantees it.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "biogeochemical-cycles-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "nitrogen-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NASA — the water cycle",
+        url: "https://science.nasa.gov/earth/water-on-earth/the-water-cycle/",
+      },
+      {
+        label: "IPCC AR6 WG1, Chapter 5",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      },
+    ],
+    uncertaintyNote:
+      "A residence time is an average over a distribution, not a lifetime. Added carbon dioxide is removed by several processes with very different timescales, so the decay of a pulse is not exponential and no single lifetime describes it.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "water-cycle",
+    term: "Water cycle",
+    shortDefinition:
+      "The continuous circulation of water between ocean, atmosphere, land, and ice through evaporation, condensation, precipitation, and runoff.",
+    explanation:
+      "The atmospheric limb of the water cycle is a very small reservoir with an enormous throughput: NASA estimates that about 495,000 cubic kilometres of water pass through the atmosphere each year, replacing its entire content close to forty times. Roughly 90% of the moisture entering the air comes from evaporation off water bodies. Because the store is small relative to the flux, water vapour cannot accumulate, and regional rainfall depends more on where moist air travels than on how much moisture exists.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "global-water-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "biogeochemical-cycles-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NASA — the water cycle",
+        url: "https://science.nasa.gov/earth/water-on-earth/the-water-cycle/",
+      },
+      {
+        label: "USGS Water Science School",
+        url: "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth",
+      },
+      {
+        label: "IPCC AR6 WG1, Chapter 8",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+      },
+    ],
+    uncertaintyNote:
+      "Most of the cycle's fluxes occur over the ocean where instruments are sparse, so global water budgets do not close exactly; residual imbalances are usually larger than the trends being sought.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "nitrogen-cycle",
+    term: "Nitrogen cycle",
+    shortDefinition:
+      "The transformation of nitrogen between inert atmospheric N2 and biologically reactive forms through fixation, nitrification, assimilation, and denitrification.",
+    explanation:
+      "Nitrogen is about 78% of the air by volume and simultaneously a limiting nutrient in most ecosystems, because the triple bond in N2 makes it unavailable until fixed. Every step of the cycle after fixation is microbially mediated, which makes it unusually responsive to land management. Industrial fixation through the Haber-Bosch process, together with legume cultivation and fossil-fuel combustion, has substantially increased the flow of reactive nitrogen through terrestrial systems.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "nitrogen-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "biogeochemical-cycles-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 5",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      },
+      {
+        label: "WMO Greenhouse Gas Bulletin No. 21",
+        url: "https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21",
+      },
+    ],
+    uncertaintyNote:
+      "Published multiples for how much human activity has increased reactive-nitrogen production vary widely depending on whether marine fixation and combustion sources are counted, so a single global ratio quoted without those qualifications should be treated cautiously.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "carbon-sink",
+    term: "Carbon sink",
+    shortDefinition:
+      "A reservoir that absorbs more carbon than it releases over a defined period; a carbon source does the reverse.",
+    explanation:
+      "Sink and source are directional labels applied to a reservoir over a stated interval, not permanent properties. The IPCC assesses that over 2010–2019 the ocean took up 23% of anthropogenic carbon dioxide emissions and land vegetation 31%, leaving 46% in the atmosphere. Both sinks have grown over the past six decades as atmospheric concentration rose, but the assessment notes that ocean carbon chemistry is beginning to change in ways expected to weaken future uptake.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "carbon-cycle-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "biosphere-climate-interactions",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 5",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      },
+      {
+        label: "NASA Earth Observatory — the carbon cycle",
+        url: "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle",
+      },
+    ],
+    uncertaintyNote:
+      "The same forest or ocean region can be a sink in one year and a source in another, driven by drought, fire, or ENSO phase; single-year values say little about the underlying trend.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "climate-feedback",
+    term: "Climate feedback",
+    shortDefinition:
+      "A process that changes Earth's energy budget in response to temperature change, quantified in watts per square metre per degree Celsius.",
+    explanation:
+      "A forcing is an imposed change to the energy budget; a feedback is the system's response to the resulting temperature change. The sign convention is counter-intuitive: negative feedback parameters are stabilising, because the parameter measures how strongly the planet increases its radiation to space per degree of warming. IPCC AR6 assesses the net feedback parameter at -1.16 W m-2 per degree Celsius, with a very likely range of -1.81 to -0.51, against a baseline Planck response of -3.22.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "climate-feedback-mechanisms",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "water-vapor-feedback-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "ice-albedo-feedback-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 7",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      },
+    ],
+    uncertaintyNote:
+      "Feedback strength is state-dependent and pattern-dependent: AR6 assesses that the net parameter becomes less negative as temperature rises, so feedbacks inferred from the historical record are not those that will operate at equilibrium.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "water-vapor-feedback",
+    term: "Water-vapour feedback",
+    shortDefinition:
+      "The amplification of warming by the extra water vapour a warmer atmosphere holds, almost always assessed jointly with the lapse-rate feedback.",
+    explanation:
+      "Water vapour is the strongest greenhouse constituent but acts as a feedback rather than a forcing, because its concentration is set by temperature and its atmospheric residence time is about nine days. The Clausius-Clapeyron relation implies low-altitude specific humidity rises by roughly 7% per degree Celsius at constant relative humidity. IPCC AR6 assesses the combined water-vapour plus lapse-rate feedback at +1.30 W m-2 per degree Celsius, very likely range 1.1 to 1.5 — the largest single amplifier.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "water-vapor-feedback-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "climate-feedback-mechanisms",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 7",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      },
+      {
+        label: "IPCC AR6 WG1, Chapter 8",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+      },
+    ],
+    uncertaintyNote:
+      "The two components are reported together because their errors are anti-correlated and their sum is far better constrained than either separately; a standalone 'water-vapour feedback' number depends on which decomposition produced it.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "ice-albedo-feedback",
+    term: "Ice-albedo feedback",
+    shortDefinition:
+      "The amplification of warming that follows when retreating snow and ice expose darker, more absorptive surfaces.",
+    explanation:
+      "NSIDC reports that bare sea ice reflects 40 to 60% of incident sunlight and snow up to 90%, against a much darker ocean beneath. Replacing one with the other increases absorbed energy and promotes further melt. The global magnitude is smaller than the local contrast suggests: IPCC AR6 assesses the surface-albedo feedback at +0.35 W m-2 per degree Celsius, very likely range 0.10 to 0.60 — the smallest of the three main physical amplifiers, limited by area, low sun angle, and cloud cover.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "ice-albedo-feedback-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "cryosphere-in-the-earth-system",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 7",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      },
+      {
+        label: "NSIDC — what is the cryosphere?",
+        url: "https://nsidc.org/learn/what-cryosphere",
+      },
+    ],
+    uncertaintyNote:
+      "AR6 attaches high confidence to the sign of this feedback; confidence in its magnitude is stated as medium in the summary table and high for the assessed range in the section text, and Southern Hemisphere estimates appear larger in models than in observations.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "ocean-circulation",
+    term: "Ocean circulation",
+    shortDefinition:
+      "The organised movement of seawater — wind-driven at the surface, density-driven in the interior — that transports heat, salt, carbon, and nutrients.",
+    explanation:
+      "Two circulations are usually drawn on the same map. The wind-driven circulation organises surface water into basin-scale gyres and western boundary currents and responds on seasonal to interannual timescales. The density-driven interior circulation operates over centuries to a millennium. Distinguishing them matters because claims about the ocean and climate are only meaningful once the relevant timescale is fixed.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "ocean-circulation-and-climate",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "earth-system-science-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NOAA — the global conveyor belt",
+        url: "https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html",
+      },
+      {
+        label: "NOAA — what is the AMOC?",
+        url: "https://oceanservice.noaa.gov/facts/amoc.html",
+      },
+    ],
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "thermohaline-circulation",
+    term: "Thermohaline circulation",
+    shortDefinition:
+      "The deep, density-driven ocean overturning set by temperature and salinity, of which the Atlantic Meridional Overturning Circulation is the best-studied component.",
+    explanation:
+      "NOAA describes the driving process directly: in polar regions water cools and sea ice forms, and because freezing excludes salt the surrounding water becomes saltier, denser, and sinks. That water spreads through the deep basins and returns to the surface through mixing and upwelling, a circuit NOAA estimates takes on the order of a thousand years. The asymmetry of this overturning accounts for a large share of the ocean's poleward heat transport.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "ocean-circulation-and-climate",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "cryosphere-in-the-earth-system",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NOAA — the global conveyor belt",
+        url: "https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html",
+      },
+      {
+        label: "NOAA — what is the AMOC?",
+        url: "https://oceanservice.noaa.gov/facts/amoc.html",
+      },
+      {
+        label: "IPCC AR6 WG1, Chapter 4",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/",
+      },
+    ],
+    uncertaintyNote:
+      "IPCC AR6 assesses a very likely decline in the AMOC over the twenty-first century but only medium confidence that there will be no abrupt collapse before 2100 — a deliberately weaker statement than the language used for the decline itself.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "enso",
+    term: "ENSO (El Nino-Southern Oscillation)",
+    shortDefinition:
+      "The coupled ocean-atmosphere oscillation of the tropical Pacific, shifting irregularly between warm, cool, and neutral phases every two to seven years.",
+    explanation:
+      "ENSO exists because tropical Pacific winds and sea-surface temperature reinforce each other: stronger trade winds drive upwelling that cools the eastern Pacific, which strengthens the winds further. Any weakening of that loop lets warm water spread eastward. NOAA monitors it with the Oceanic Nino Index, a running three-month mean of sea-surface temperature anomalies in the Nino 3.4 region, and classifies events using a +/-0.5 degrees Celsius threshold sustained for five consecutive overlapping seasons.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "el-nino-la-nina-enso-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "climate-variability-and-teleconnections",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NOAA PMEL — what is El Nino?",
+        url: "https://www.pmel.noaa.gov/elnino/what-is-el-nino",
+      },
+      {
+        label: "NOAA Climate.gov — Oceanic Nino Index",
+        url: "https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-nino-index",
+      },
+      {
+        label: "NOAA Climate.gov — El Nino and La Nina",
+        url: "https://www.climate.gov/enso",
+      },
+    ],
+    uncertaintyNote:
+      "The index reduces a three-dimensional coupled state to one number over one rectangle of ocean; events with similar index values can have very different spatial patterns and impacts.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "el-nino",
+    term: "El Nino",
+    shortDefinition:
+      "The warm phase of ENSO, in which trade winds relax, warm water spreads eastward, and eastern Pacific upwelling weakens.",
+    explanation:
+      "NOAA describes El Nino as beginning with a relaxation of the trade winds in the central and western Pacific. The thermocline deepens in the east and shoals in the west, upwelling becomes less effective at cooling the surface and at supplying nutrient-rich water to the sunlit layer, and the atmospheric convection normally centred over the western Pacific migrates eastward with the warm water. Because the phase moves heat from the ocean interior to the surface, El Nino years run warmer than the underlying trend.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "el-nino-la-nina-enso-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "climate-variability-and-teleconnections",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NOAA PMEL — what is El Nino?",
+        url: "https://www.pmel.noaa.gov/elnino/what-is-el-nino",
+      },
+      {
+        label: "NOAA Climate.gov — Oceanic Nino Index",
+        url: "https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-nino-index",
+      },
+    ],
+    uncertaintyNote:
+      "Conditions are not an event: NOAA classifies a full El Nino only when the index stays at or above +0.5 degrees Celsius for five consecutive overlapping three-month seasons.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "la-nina",
+    term: "La Nina",
+    shortDefinition:
+      "The cool phase of ENSO, in which trade winds strengthen, the thermocline steepens, and eastern Pacific upwelling intensifies.",
+    explanation:
+      "La Nina is the same coupled loop running in the opposite direction from El Nino: stronger easterly trades pile warm water further west, the thermocline tilts more steeply, and vigorous upwelling makes the eastern equatorial Pacific cooler than average. NOAA classifies it when the three-month-average Nino 3.4 index stays at least 0.5 degrees Celsius below average for five consecutive overlapping seasons. Because it moves surface heat into the ocean interior, La Nina years run cooler than the underlying trend.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "el-nino-la-nina-enso-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "climate-variability-and-teleconnections",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NOAA Climate.gov — Oceanic Nino Index",
+        url: "https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-nino-index",
+      },
+      {
+        label: "NOAA Climate.gov — El Nino and La Nina",
+        url: "https://www.climate.gov/enso",
+      },
+    ],
+    uncertaintyNote:
+      "La Nina is not the absence of El Nino; both are excursions from a neutral state, and neutral conditions are themselves common.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "climate-variability",
+    term: "Climate variability",
+    shortDefinition:
+      "Fluctuations arising from the internal dynamics of the coupled climate system rather than from an external change in forcing.",
+    explanation:
+      "Internal variability redistributes energy and moisture already present in the system; forced change alters the energy budget itself. Over a long enough record the two behave differently — internal modes oscillate around a stable mean, forced change does not. NOAA's Climate Prediction Center monitors ten Northern Hemisphere teleconnection patterns operationally, deriving monthly indices by rotated principal component analysis of height anomalies with values tabulated back to 1950.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "climate-variability-and-teleconnections",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "el-nino-la-nina-enso-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NOAA CPC — teleconnection patterns",
+        url: "https://www.cpc.ncep.noaa.gov/data/teledoc/telecontents.shtml",
+      },
+      {
+        label: "NOAA Climate.gov — El Nino and La Nina",
+        url: "https://www.climate.gov/enso",
+      },
+    ],
+    uncertaintyNote:
+      "For modes with multidecadal periods the observational record contains only two or three cycles, which is not enough to establish that the oscillation is real, stationary, or internally generated.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "teleconnection",
+    term: "Teleconnection",
+    shortDefinition:
+      "A statistical linkage between climate anomalies in widely separated regions, produced by large-scale atmospheric wave propagation rather than local transport.",
+    explanation:
+      "Nothing physically travels between the linked regions. Anomalous tropical convection heats the atmosphere locally and generates large-scale waves that propagate poleward and eastward, shifting jet streams thousands of kilometres away. Because the waves are steered by the background flow, the same tropical anomaly produces different mid-latitude responses depending on season and jet state — which is why impact statements are shifts in probability rather than deterministic consequences.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "climate-variability-and-teleconnections",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "el-nino-la-nina-enso-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "NOAA CPC — teleconnection patterns",
+        url: "https://www.cpc.ncep.noaa.gov/data/teledoc/telecontents.shtml",
+      },
+      {
+        label: "NOAA Climate.gov — El Nino and La Nina",
+        url: "https://www.climate.gov/enso",
+      },
+    ],
+    uncertaintyNote:
+      "Most named teleconnection patterns are the leading statistical modes of an atmospheric field rather than independently defined physical objects, so their exact definition depends on the analysis method and base period.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "earth-system-model",
+    term: "Earth system model",
+    shortDefinition:
+      "A coupled climate model extended with interactive biogeochemistry, so that atmospheric composition is computed rather than prescribed.",
+    explanation:
+      "A physical climate model is given a carbon dioxide concentration; an Earth system model is given emissions and computes the concentration itself by simulating photosynthesis, respiration, soil decomposition, air-sea gas exchange, and ocean carbon chemistry. This makes carbon-cycle feedbacks emergent rather than assumed, and exposes the model to observational tests it was not tuned on. Models are compared under CMIP, whose sixth phase gathered output from 132 registered models across 48 institutions in 26 countries.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "earth-system-models-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "earth-system-predictability-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "WCRP — Coupled Model Intercomparison Project",
+        url: "https://wcrp-cmip.org/",
+      },
+      {
+        label: "IPCC AR6 WG1, Chapter 5",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      },
+    ],
+    uncertaintyNote:
+      "Adding interactive biogeochemistry trades a prescribed quantity for a simulated one; the biological components carry substantially larger uncertainty than the physical ones.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "essential-climate-variable",
+    term: "Essential Climate Variable",
+    shortDefinition:
+      "One of the 55 variables GCOS specifies as critical for characterising the climate system and feasible to observe globally on a sustained basis.",
+    explanation:
+      "GCOS selects Essential Climate Variables against three criteria: relevance to characterising the climate system, technical feasibility of global observation using proven methods, and cost effectiveness of generating and archiving the data. The 55 variables are organised across atmosphere, ocean, and land domains and ten subdomains. Standardising the list makes records comparable across agencies and decades, anchors model evaluation, and provides the justification for sustaining observing missions.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "essential-climate-variables-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "earth-system-models-explained",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "WMO GCOS — about Essential Climate Variables",
+        url: "https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/about-essential-climate-variables",
+      },
+    ],
+    uncertaintyNote:
+      "The list is the intersection of what matters, what can currently be measured globally, and what can be afforded; variables of genuine importance are absent because they fail the feasibility or cost test, not because they are unimportant.",
+    updatedDate: "2026-08-29",
+  },
+  {
+    slug: "tipping-element",
+    term: "Tipping element",
+    shortDefinition:
+      "A component of the Earth system susceptible to a critical threshold beyond which it reorganises, often abruptly or irreversibly.",
+    explanation:
+      "IPCC AR6 defines a tipping point as a critical threshold beyond which a system reorganises, and a tipping element as a component susceptible to one. It keeps three properties separate: abruptness (change over a few decades or less), irreversibility (recovery taking substantially longer than the timescale of interest), and the projected change itself. Its Table 4.10 assesses each proposed element individually, and the confidence levels range from high to low across them.",
+    category: "ecology",
+    subtopic: "earth-systems",
+    relatedArticles: [
+      {
+        slug: "earth-system-tipping-points",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+      {
+        slug: "cryosphere-in-the-earth-system",
+        category: "ecology",
+        subtopic: "earth-systems",
+      },
+    ],
+    relatedSources: [
+      {
+        label: "IPCC AR6 WG1, Chapter 4",
+        url: "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/",
+      },
+    ],
+    uncertaintyNote:
+      "Abruptness and irreversibility are independent properties: AR6 assesses the Greenland ice sheet as irreversible for millennia but not abrupt, and Arctic summer sea ice as neither abrupt nor irreversible despite likely complete loss.",
+    updatedDate: "2026-08-29",
   },
 ];
 

@@ -1,10 +1,10 @@
 ---
 title: 'Ocean heat content: the climate indicator the atmosphere can''t hide'
-excerpt: Surface air temperature is noisy. The ocean is not. Here is what ocean heat content actually measures and why scientists treat it as the most stable climate indicator.
+excerpt: Surface air temperature is noisy. The ocean is not. What ocean heat content measures, and why it is treated as the most stable indicator of climate-system warming.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-25'
-updatedDate: '2026-05-20'
+updatedDate: '2026-08-29'
 readingTime: 5
 tags:
   - climate-change
@@ -18,7 +18,7 @@ related:
 pillar: what-is-climate-change
 ---
 
-When journalists ask "is global warming continuing", the most defensible single answer is the ocean heat content (OHC) record. Roughly 89% of the [energy](/en/physics/energy/perovskite-stack-field-stability) added to the [climate](/en/ecology/climate-change/what-is-climate-change) system by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere — a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/).
+When journalists ask "is global warming continuing", the most defensible single answer is the ocean heat content (OHC) record. Roughly 90% of the [energy](/en/physics/energy/perovskite-stack-field-stability) added to the [climate](/en/ecology/climate-change/what-is-climate-change) system by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere. The exact share depends on which inventory and which period are used — AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory, a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/).
 
 Because the ocean stores so much of the imbalance, OHC is less affected by the year-to-year noise that masks trends in surface air temperature. It is the climate indicator the atmosphere cannot hide.
 
@@ -59,6 +59,8 @@ The deep-ocean component below 2000 m is the least-sampled part of the record. C
 Operational OHC products continue to extend the record without altering its shape. The [WMO State of the Global Climate](https://wmo.int/) bulletins synthesize OHC alongside surface temperature, sea level, and sea-ice extent each year, and report that the most recent multi-year window remains the warmest on the instrumental record. The [Copernicus Climate Change Service](https://climate.copernicus.eu/) publishes complementary ocean reanalyses (ORAS, GREP) that allow the upper-2000 m signal to be cross-checked against an independent processing chain. Where the analysis groups disagree — usually in regional pattern or in the deeper layers — the disagreement is documented in their methodology pages rather than smoothed away.
 
 The operational cross-check pair for journalists and educators is straightforward: the annual [NOAA NCEI State of the Climate](https://www.ncei.noaa.gov/) chapter on global oceans, and the [Copernicus Climate Change Service](https://climate.copernicus.eu/) annual Global Climate Highlights. The two are produced from overlapping but methodologically independent processing chains. When the OHC signal is corroborated across both, it is on as solid an empirical footing as climate science offers.
+
+AR6 supplies the accounting that explains why this indicator carries the weight it does. The global energy inventory grew by 282 zettajoules over 1971–2006 and a further 152 zettajoules over 2006–2018, corresponding to an Earth energy imbalance rising from 0.50 to 0.79 watts per square metre. Ocean heat uptake accounts for about 91 per cent of that total change, with land heating around 5 per cent, melting ice around 3 per cent, and the atmosphere around 1 per cent. Estimates using different inventories and periods put the ocean share in the high eighties to low nineties, so the figure is best read as an assessed value rather than a constant. Where that heat is carried, and on what delay it re-emerges, depends on [ocean circulation](/en/ecology/earth-systems/ocean-circulation-and-climate).
 
 Sea-level rise from thermal expansion tracks OHC closely; the partitioned [sea-level indicator](/en/ecology/climate-change/sea-level-rise-indicators) record from NOAA and NASA is the cleanest cross-check on the upper-ocean component of OHC, since the same physics governs both.
 

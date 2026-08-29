@@ -1,10 +1,10 @@
 ---
 title: 'Climate indicators and Earth system monitoring: how the signals fit together'
-excerpt: Climate indicators are measurements that track the state of the Earth system. This is how scientists read temperature, ocean heat, greenhouse gases, sea level, and ice together — and what each one is good for.
+excerpt: Climate indicators track the state of the Earth system. Here is how temperature, ocean heat, greenhouse gases, sea level, and ice are read together, and what each is good for.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-08-29'
 readingTime: 9
 tags:
   - climate-change
@@ -93,6 +93,8 @@ Third, read what the report says it does *not* show. Major assessments name thei
 The supporting articles in this cluster walk through individual indicator families in more depth: [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), [global temperature records](/en/ecology/climate-change/global-temperature-records-explained), [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators), [sea-level rise](/en/ecology/climate-change/sea-level-rise-indicators), [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice), and [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks). Two further pieces handle the model-and-uncertainty layer ([climate models and projections](/en/ecology/climate-change/climate-models-projections-uncertainty), [extreme-weather attribution](/en/ecology/climate-change/extreme-weather-attribution-basics)) and the policy-relevant indicator set ([adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators)).
 
 The pillar piece, [What is climate change](/en/ecology/climate-change/what-is-climate-change), sits one level up — it explains the mechanism the indicators are measuring. The indicator cluster supplies the operational layer that connects the mechanism to the data.
+
+There is also a layer *beneath* the indicators, and it is worth naming because the two are frequently conflated. An indicator is a derived quantity chosen for interpretability; the measured variables it is built from are specified separately, as Essential Climate Variables. The Global Climate Observing System currently defines 55 of these across the atmosphere, ocean, and land domains, selected against three criteria — relevance to characterising the climate system, technical feasibility of sustained global observation, and cost effectiveness. Global mean surface temperature is an indicator; the surface and upper-air temperature ECVs are what it is assembled from, and the mapping between the two levels is many-to-one. That distinction is developed in [Essential Climate Variables](/en/ecology/earth-systems/essential-climate-variables-explained), alongside the wider [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) cluster, which covers the couplings the indicators are collectively tracking.
 
 ## Sources
 

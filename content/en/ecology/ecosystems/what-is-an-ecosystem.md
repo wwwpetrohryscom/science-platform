@@ -4,7 +4,7 @@ excerpt: An ecosystem is not a place — it's a flux. Here's what that distincti
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-05-08'
+updatedDate: '2026-08-29'
 readingTime: 5
 tags:
   - ecosystems
@@ -45,6 +45,8 @@ Any system that has all three is an ecosystem. A bare rock with lichen has all t
 An ecosystem is whatever level of organization captures meaningful flux. A drop of pond water is an ecosystem. A continental biome is an ecosystem. The Earth's biosphere is an ecosystem. The choice of scale is the researcher's, and it should be motivated by what flow you are trying to study.
 
 This is liberating. It means you can talk about a "soil [microbiome](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) ecosystem" and a "coral [microbiome](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) ecosystem" without abusing the word — both have energy throughput, material cycling, and information flow at the relevant scale.
+
+The upper end of that scale range is worth taking seriously rather than treating as rhetorical. Applied to the whole planet, the same flow-based definition produces Earth system science: energy entering as sunlight and leaving as infrared, matter cycling through reservoirs on characteristic residence times, and information carried by feedbacks that couple the components. The [Earth system](/en/ecology/earth-systems/earth-system-science-explained) is the largest scale at which the three properties above are all present, and the [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained) that describe its material flows use exactly the reservoir-and-flux vocabulary that ecosystem ecology uses at smaller scales.
 
 It also means that "the ecosystem" without a scale qualifier is rarely a meaningful object. When public discourse refers to "saving an ecosystem", the operative question is always *which one, at what scale, measured by which flux*. Without that, the claim is doing rhetorical work but not scientific work.
 

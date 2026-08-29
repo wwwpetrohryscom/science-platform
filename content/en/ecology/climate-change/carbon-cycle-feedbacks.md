@@ -1,10 +1,10 @@
 ---
 title: 'Carbon-cycle feedbacks: why ocean and land sinks are not guaranteed to keep absorbing'
-excerpt: Land and ocean absorb roughly half of human carbon emissions today. Whether they will continue to do so is one of the largest uncertainties in long-term climate projection. Here is what is known.
+excerpt: Land and ocean absorb roughly half of human carbon emissions today. Whether they keep doing so is among the largest uncertainties in long-term climate projection.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-08-29'
 readingTime: 7
 tags:
   - climate-change
@@ -64,6 +64,12 @@ A "feedback" in the climate-system sense is a process whose strength depends on 
 Carbon-cycle feedbacks complicate projection because the atmospheric CO₂ trajectory for a given emissions scenario depends on the sink response, which depends on the climate state, which depends on the atmospheric trajectory. The IPCC AR6 reports projection ranges for both *emissions-driven* (the sinks respond freely) and *concentration-driven* (the concentration is prescribed) experiments. The emissions-driven runs carry larger uncertainty bands because they include the carbon-cycle feedback uncertainty; the concentration-driven runs hold concentration fixed and bypass that uncertainty.
 
 Most public-facing climate communication uses concentration-driven scenarios because they are conceptually simpler. The cost is that the concentration-driven framing hides the carbon-cycle feedback uncertainty in the input rather than the output. When AR6 reports "for emissions scenario X, here is the temperature range", part of the range comes from carbon-cycle uncertainty even though the output is temperature.
+
+## The airborne fraction, and what its constancy does and does not mean
+
+One number summarises the sinks' collective performance: the **airborne fraction**, the share of emissions that remains in the atmosphere. AR6 assesses that it has stayed near 44 per cent across six decades, and that both the ocean and land sinks have continued to grow over that period with high confidence.
+
+That constancy is routinely over-interpreted in both directions. It does not mean the sinks are fixed in capacity — it means they have so far grown roughly in proportion to emissions, the ocean by simple partial-pressure difference and the land partly through faster photosynthesis. Nor does it license extrapolation: the same assessment notes that ocean carbon chemistry is beginning to change in response to the growing sink, in ways expected to weaken future uptake under medium- to high-emissions scenarios, even though no weakening trend is yet detectable in the 1960–2019 record. The reservoir-and-flux mechanics underneath all of this are set out in [the carbon cycle](/en/ecology/earth-systems/carbon-cycle-explained).
 
 ## What is and is not strongly constrained
 

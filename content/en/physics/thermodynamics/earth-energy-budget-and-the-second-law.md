@@ -4,7 +4,7 @@ excerpt: A planet receives concentrated radiation from a hot source, redistribut
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-05-08'
+updatedDate: '2026-08-29'
 readingTime: 5
 tags:
   - thermodynamics
@@ -61,6 +61,8 @@ Two things, mostly.
 **It removes the temptation to look for "hidden energy" or "missing physics" in the climate.** When the energy budget closes within stated uncertainties — and it does — there is no hidden term. Climate science is not waiting for a unifying mechanism that overturns the budget; it is refining the partition among well-defined components. [NIST](https://www.nist.gov/) physical-constants reference and [NOAA](https://www.noaa.gov/) [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) standards anchor the underlying physical quantities.
 
 **It puts solar generation, climate change, and atmospheric physics on a single conceptual layer.** They are all heat-engine problems with shared bounds and shared accounting. Reading them as separate fields obscures the structure; reading them through the same energy budget makes the connections obvious.
+
+The heat-engine framing also explains what the engine does with the energy it converts: it drives circulation. Atmospheric and oceanic motion is the mechanical work extracted from the temperature gradient between the tropics and the poles, which is why [ocean circulation](/en/ecology/earth-systems/ocean-circulation-and-climate) and the poleward heat transport it carries are thermodynamic consequences rather than separate phenomena. The coupled-system view that follows from this is developed in [Earth system science](/en/ecology/earth-systems/earth-system-science-explained).
 
 ## Limits of the framing
 

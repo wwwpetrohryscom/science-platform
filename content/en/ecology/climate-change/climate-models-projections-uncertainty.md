@@ -1,10 +1,10 @@
 ---
 title: 'Climate models and projections: where the uncertainty actually comes from'
-excerpt: A climate projection range is not a single forecast with error bars — it is a combination of scenario, model-structural, and internal-variability uncertainty. The shares change over time and by indicator.
+excerpt: A projection range is not a forecast with error bars. It combines scenario, model-structural, and internal-variability uncertainty, and the shares shift over time.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-08-29'
 readingTime: 8
 tags:
   - climate-change
@@ -87,9 +87,15 @@ Three practices reduce avoidable confusion.
 
 **Bias correction and downscaling.** Regional and impact-level projections often pass model output through bias-correction and downscaling steps. Each step adds methodological assumptions; the resulting product is no longer "raw" model output and its uncertainty should be reported on the downscaled basis, not the parent ensemble basis. [Copernicus Climate Change Service](https://climate.copernicus.eu/) documents the methodology for its downscaled European products.
 
+**Climate model versus Earth system model.** The two terms are used interchangeably in reporting, and the difference matters for what a projection is conditional on. A physical climate model is *given* an atmospheric CO₂ concentration; an Earth system model is given emissions and computes the concentration itself from simulated photosynthesis, respiration, soil decomposition, and ocean carbon chemistry. Concentration-driven and emissions-driven experiments therefore answer different questions, and their spreads are not directly comparable. The architecture is described in [Earth system models](/en/ecology/earth-systems/earth-system-models-explained).
+
+**Ensemble scale.** CMIP6 comprises roughly 24.5 petabytes of output across some 6.4 million datasets from 132 registered models representing 48 institutions in 26 countries, distributed through the Earth System Grid Federation; CMIP7 is the current phase. When an assessment quotes a multi-model range, this coordinated ensemble is what it is quoting — and because every participating model runs the same prescribed experiments, differences between outputs can be attributed to model structure rather than to how they were driven.
+
 **Reanalyses are not projections.** Reanalysis products (ERA5, JRA-55) assimilate observations into a model framework to estimate the historical state. They are not projections; they are products that provide globally complete fields for the historical period and can be used to evaluate models but cannot be extended forward without becoming projections themselves.
 
 ## What this means for the indicator framework
+
+There is a further distinction worth carrying into any reading of a projection: a forecast depends on knowing today's state precisely, while a projection of century-scale statistics does not depend on initial conditions at all. That is why the two-week limit on weather prediction does not transfer to climate projection, an argument set out in [Earth-system predictability](/en/ecology/earth-systems/earth-system-predictability-explained).
 
 Models do not replace the indicator record — they extend it forward conditionally. The historical [indicator records](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) are the empirical foundation; the projections are the consequence of running the models forward under specified assumptions. A projection is honest about what the underlying assumptions are; a forecast that hides the scenario is a forecast that has confused its own structure.
 

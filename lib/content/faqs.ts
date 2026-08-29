@@ -97,7 +97,7 @@ const REGISTRY: FaqRegistry = {
     {
       question: "Why is ocean heat content a more stable indicator than surface temperature?",
       answer:
-        "About 89% of the energy added by greenhouse-gas forcing is taken up by the ocean. ENSO-driven year-to-year variability redistributes heat between ocean layers and the atmosphere — it does not change the total ocean heat content much — so the OHC trend is closer to the underlying forcing trend.",
+        "Roughly 90% of the energy added by greenhouse-gas forcing is taken up by the ocean — IPCC AR6 assesses 91% of the total change in the global energy inventory. ENSO-driven year-to-year variability redistributes heat between ocean layers and the atmosphere — it does not change the total ocean heat content much — so the OHC trend is closer to the underlying forcing trend.",
     },
     {
       question: "How do scientists compare different global temperature records?",
@@ -175,6 +175,68 @@ const REGISTRY: FaqRegistry = {
       question: "How is habitat fragmentation measured?",
       answer:
         "Fragmentation — the breaking of continuous habitat into smaller, more isolated patches — is quantified with landscape metrics such as patch size, edge density, core area, and connectivity, usually computed from satellite land-cover maps. It is distinct from habitat loss, and whether fragmentation itself harms biodiversity independently of habitat amount remains an active debate in the peer-reviewed literature.",
+    },
+  ],
+  [subtopicKey("ecology", "earth-systems")]: [
+    {
+      question: "What is Earth system science?",
+      answer:
+        "It studies the planet as a set of coupled components — atmosphere, hydrosphere, cryosphere, biosphere, and geosphere — exchanging energy and matter. Its defining move is to treat the exchanges between components as the object of study rather than as boundary conditions on a single discipline.",
+    },
+    {
+      question: "What are the main components of the Earth system?",
+      answer:
+        "Conventionally five: the atmosphere, the hydrosphere, the cryosphere, the biosphere, and the lithosphere or geosphere. The division is a bookkeeping convention rather than a physical boundary — soil moisture, sea ice, and vegetation each belong to more than one at once. What makes it useful is that each has a characteristic response time, and those times differ by many orders of magnitude.",
+    },
+    {
+      question: "What is a biogeochemical cycle?",
+      answer:
+        "The movement of a chemical element between reservoirs by biological, geological, and chemical processes. Three quantities define one: reservoir sizes, fluxes between them, and residence time, which is reservoir size divided by outgoing flux. The same grammar describes carbon, water, nitrogen, phosphorus, and sulphur, which is what makes cycles of very different speeds comparable.",
+    },
+    {
+      question: "What is a climate feedback?",
+      answer:
+        "A process that changes Earth's energy budget in response to the temperature change a forcing produced, measured in watts per square metre per degree Celsius. IPCC AR6 assesses the net feedback parameter at −1.16 W m⁻² °C⁻¹, with a very likely range of −1.81 to −0.51 against a baseline Planck response of −3.22.",
+    },
+    {
+      question: "What is the difference between a positive and a negative feedback?",
+      answer:
+        "A positive feedback amplifies the initial change; a negative one damps it. The sign convention on the feedback parameter is the reverse of intuition: negative parameter values are stabilising, because the parameter measures how strongly the planet increases its radiation to space per degree of warming. Earth's net parameter is negative, which is why warming settles at a finite level rather than running away.",
+    },
+    {
+      question: "Which climate feedback is the strongest?",
+      answer:
+        "The combined water-vapour and lapse-rate feedback, which IPCC AR6 assesses at +1.30 W m⁻² °C⁻¹ (very likely 1.1 to 1.5). Surface albedo is +0.35 and clouds +0.42. Clouds contribute the most uncertainty, with a very likely range from −0.10 to +0.94, even though their central estimate is comparable to that of albedo.",
+    },
+    {
+      question: "How does the carbon cycle affect climate?",
+      answer:
+        "It determines how much of each tonne emitted stays in the air. IPCC AR6 assesses that over 2010–2019, 46 per cent of anthropogenic CO₂ emissions accumulated in the atmosphere, 23 per cent went into the ocean, and 31 per cent into land vegetation. The airborne fraction has held near 44 per cent for six decades, but that reflects sinks growing alongside emissions rather than any fixed property.",
+    },
+    {
+      question: "What is ENSO?",
+      answer:
+        "The El Niño–Southern Oscillation, a coupled ocean–atmosphere oscillation in the tropical Pacific that shifts irregularly every two to seven years. NOAA classifies events using the Oceanic Niño Index — a running three-month sea-surface temperature anomaly in the Niño 3.4 region (5°N–5°S, 120°W–170°W) — requiring ±0.5 °C sustained across five consecutive overlapping seasons.",
+    },
+    {
+      question: "How does the cryosphere influence climate?",
+      answer:
+        "Through four separate channels: reflectivity, since NSIDC reports bare sea ice reflects 40–60 per cent of sunlight and snow up to 90 per cent; sea level, through land-ice mass loss; ocean density, since freezing rejects salt and melting adds fresh water, pushing the overturning circulation in opposite directions; and the carbon cycle, through permafrost thaw.",
+    },
+    {
+      question: "What is an Earth system model?",
+      answer:
+        "A coupled climate model extended with interactive biogeochemistry. A physical climate model is given an atmospheric CO₂ concentration; an Earth system model is given emissions and computes the concentration itself. That makes carbon-cycle feedbacks emergent rather than assumed, and imports the larger uncertainty of the biological components.",
+    },
+    {
+      question: "Why are Earth system predictions uncertain?",
+      answer:
+        "Because forecasts and projections are different problems. Detailed weather prediction is limited to roughly two weeks by sensitivity to initial conditions. Century-scale projection does not depend on initial conditions at all; its spread comes from which emissions pathway is followed, from disagreement between models about feedback strength, and from internal variability.",
+    },
+    {
+      question: "How do scientists decide what to observe?",
+      answer:
+        "Through the Essential Climate Variables. GCOS currently specifies 55 of them across the atmosphere, ocean, and land domains, selected against three criteria: relevance to characterising the climate system, technical feasibility of sustained global observation, and cost effectiveness. The list is the intersection of what matters, what can be measured, and what can be afforded.",
     },
   ],
   [subtopicKey("ecology", "earth-observation")]: [
