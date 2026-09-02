@@ -1,7 +1,7 @@
 ---
 title: 'Restoration is judged on a timescale far shorter than the one it operates on'
 excerpt: Half the published restoration record has ten years or less of observation, against processes that take decades. Most reported successes describe an early point on a trajectory whose end nobody has watched.
-argument: Ecosystem structure recovers faster than ecosystem function, and both are typically still incomplete when monitoring stops. Because the reference state against which recovery is scored is a choice rather than a measurement, the same restoration data support either a strong success or a partial failure — which is why a target written in hectares is not a claim about outcomes.
+argument: Restoration syntheses consistently find recovery incomplete at the point monitoring stops, and half the published record has ten years or less of observation against processes that run for decades. Because the reference state recovery is scored against is a choice rather than a measurement, the same data support either a strong success or a partial failure — which is why a target written in hectares is not a claim about outcomes.
 category: ecology
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -21,7 +21,7 @@ related:
   - conservation-science-explained
 ---
 
-The largest synthesis of ecosystem recovery yet assembled looked at 400 studies and 5,142 response variables covering recovery from oil spills, agriculture, logging and other large disturbances. Two of its findings sit uneasily together. Recovery was positive in every category examined, at a median rate of about 2.9% per year. And half the dataset had no more than ten years in which to recover.
+A synthesis of 400 studies and 5,142 response variables examined recovery from oil spills, agriculture, logging and other large disturbances. Two of its findings sit uneasily together. Recovery was positive in every category examined, at a median rate of about 2.9% per year. And half the dataset had no more than ten years in which to recover.
 
 That is the shape of the problem. Restoration is a decades-to-centuries process being evaluated on a decade of evidence, and the evaluation is not neutral about where in the trajectory it lands.
 
@@ -35,13 +35,13 @@ A [global meta-analysis of 83 terrestrial restoration studies](https://pmc.ncbi.
 
 A [meta-analysis of 621 restored or created wetlands against 556 reference wetlands](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001247) supplies the long-horizon result. Even a century after restoration, biological structure remained on average 26% lower and biogeochemical functioning 23% lower than in reference sites. Plant assemblages took an average of 30 years to converge statistically with reference states. Wetlands in cold climates, and depressional wetlands, had not recovered to reference conditions after 50 years, while riverine and tidal systems reached it after roughly 20 and 30 years respectively. The functions those systems perform are described in the article on [what wetlands do](/en/ecology/freshwater/wetlands-and-their-functions).
 
-Read across, these give a consistent picture: structure — cover, stems, species lists — comes back before function, and function is the slower half.
+Read across, these do not support the common shorthand that structure returns first and function catches up later. In the wetland analysis the structural shortfall after a century was slightly the larger of the two, 26% against 23%. What they do support is narrower and more awkward: different attributes recover at different rates, none of the attributes measured reached reference conditions within the observed horizons, and which attribute a study chose to measure moves the verdict about as much as which ecosystem it studied.
 
 ## The monitoring horizon
 
 The wetland analysis reports the distribution that makes this a measurement problem rather than a research finding: 49% of its data came from sites restored or created for less than five years. The 400-study synthesis reports that half its dataset had ten years or less. Against a plant assemblage that takes 30 years to converge and biogeochemical function that is still 23% short after a century, most of the published evidence is drawn from the first few years of the curve.
 
-That matters in a specific direction. Recovery is fastest early, when the difference between a bare site and a vegetated one is large, and slows as the remaining gap becomes compositional and functional rather than structural. Estimating an annual recovery rate from a short record and extrapolating it forward therefore flatters the outcome — a point the authors of the 400-study synthesis make about their own estimate, noting that the median study duration of about a decade may yield optimistic rate estimates, particularly for systems in later recovery stages.
+That matters in a specific direction. If recovery rates fall as a site approaches its reference state, then estimating an annual rate from a short record and extrapolating it forward flatters the outcome. The authors of the 400-study synthesis raise exactly this caveat against their own estimate, noting that a median study duration of about a decade may yield optimistic recovery rates, particularly for systems in later recovery stages.
 
 The taxonomic composition of the evidence compounds this. In the 83-study meta-analysis, 61.4% of biodiversity values came from plants and 28.3% from invertebrates, with vertebrates contributing 4.2% and soil microbes 0.6%. The organisms that respond fastest and are cheapest to survey are the ones the literature is mostly made of.
 
@@ -59,7 +59,7 @@ The counterfactual case is a serious one, and it is not answered by pointing at 
 
 If the realistic alternative to restoring a degraded site is continued degradation, then the decision-relevant comparison is restored versus unrestored, not restored versus pristine. On that comparison the evidence is consistent and positive across every synthesis cited here. Judging an intervention against a state that no longer exists anywhere in the region is arguably the wrong test — it evaluates the world rather than the decision. The baseline-specification study makes exactly this point in defending counterfactual framing, while insisting the frame be declared rather than assumed.
 
-There is a second argument worth taking seriously. The 400-study synthesis found that active restoration was not associated with more complete or faster recovery than passive recovery. That reads as a negative result about restoration, but it is a result about *intervention choice*, and active restoration is preferentially deployed on the most degraded sites, which confounds the comparison. It does not show that recovery fails; it shows that spending more does not reliably buy a faster trajectory. The distinction matters when the same evidence is used to argue about where a fixed budget should go, which is the subject of the article on [conservation prioritisation under a finite budget](/en/ecology/conservation/conservation-trade-offs-and-prioritisation).
+There is a second argument worth taking seriously. The 400-study synthesis found that active restoration was not associated with more complete or faster recovery than passive recovery. That reads as a negative result about restoration, but it is a result about *intervention choice*, and a plausible confound is that active restoration is preferentially deployed on the most degraded sites. It does not show that recovery fails; it shows that spending more does not reliably buy a faster trajectory. The distinction matters when the same evidence is used to argue about where a fixed budget should go, which is the subject of the article on [conservation prioritisation under a finite budget](/en/ecology/conservation/conservation-trade-offs-and-prioritisation).
 
 Third, the short monitoring horizon is a funding artefact rather than a concealed bias. The field names it openly, and the syntheses that report it are the same ones flagging that their own estimates may be optimistic. That is not the signature of a literature overselling itself.
 
