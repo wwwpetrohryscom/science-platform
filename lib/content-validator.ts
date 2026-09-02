@@ -17,7 +17,10 @@
  *   - error   → blocks the build (used by validate-content.ts exit code)
  *   - warning → reported, does not block
  */
-import { isAuthoritativeUrl, extractCitationUrls } from "@/lib/sources";
+import {
+  isAuthoritativeUrlAnyCategory,
+  extractCitationUrls,
+} from "@/lib/sources";
 import type { CategorySlug } from "@/lib/categories";
 import {
   detectFakeCitations,
@@ -202,12 +205,21 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
   }
   // Authority check is a *warning* (an unknown citation isn't necessarily
   // wrong, but it's worth flagging for editorial review).
+  //
+  // Checked against the whole registry rather than the article's own
+  // category. The registry is organised by subject area for display, not
+  // to fence citations: an ecology article on climate projections
+  // legitimately cites an American Meteorological Society journal, and a
+  // biology article on adaptation legitimately cites IPCC WG2. Flagging
+  // those trained the reader of this report to skim past the rule, which
+  // is the failure mode that matters — the rule exists to surface the
+  // citation that comes from nowhere recognised at all.
   for (const url of bodyUrls) {
-    if (!isAuthoritativeUrl(url, article.category)) {
+    if (!isAuthoritativeUrlAnyCategory(url)) {
       issues.push({
         severity: "warning",
         rule: "source-authority",
-        message: `citation ${url} is not in the authoritative registry for ${article.category}`,
+        message: `citation ${url} is not in the source registry for any subject area`,
         filepath: fp,
       });
     }
@@ -228,10 +240,20 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
     }
   }
 
-  // 9. Spam-shape signals. Warnings only — false positives on real
-  //    editorial copy are tolerable; the goal is visibility before a
-  //    page hits the index.
-  const stuffing = detectKeywordStuffing(article.body);
+  // 9. Spam-shape signals, measured over the PROSE only.
+  //
+  //    The `## Sources` block is by nature link-dense and repetitive: a
+  //    page citing five chapters of the same reference work repeats the
+  //    publisher name and URL stem five times, which is correct
+  //    citation practice and looked like phrase-spam to a detector that
+  //    read the whole file. Running these over the sources block was
+  //    measuring the wrong region of the document, and the false
+  //    positives it produced are exactly what trains an editor to stop
+  //    reading the report.
+  //
+  //    Warnings only — the goal is visibility before a page is indexed.
+  const prose = article.body.replace(/^##\s+Sources[\s\S]*/im, "");
+  const stuffing = detectKeywordStuffing(prose);
   if (stuffing.length > 0) {
     const top = stuffing[0];
     issues.push({
@@ -241,7 +263,7 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
       filepath: fp,
     });
   }
-  const repeats = detectRepeatedPhrases(article.body);
+  const repeats = detectRepeatedPhrases(prose);
   if (repeats.length > 0) {
     issues.push({
       severity: "warning",
@@ -250,7 +272,7 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
       filepath: fp,
     });
   }
-  const linkSpam = detectLinkSpam(article.body);
+  const linkSpam = detectLinkSpam(prose);
   if (linkSpam) {
     issues.push({
       severity: "warning",
