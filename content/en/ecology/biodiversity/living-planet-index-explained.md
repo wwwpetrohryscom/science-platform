@@ -1,6 +1,6 @@
 ---
 title: 'The Living Planet Index explained: what an average population trend measures'
-excerpt: 'The Living Planet Index aggregates thousands of vertebrate population time series into a single trend. Understanding what it is — a relative average, not a headcount of animals — and the methodological debates around it is essential to reading the headline figure correctly.'
+excerpt: The Living Planet Index aggregates thousands of vertebrate population time series into a single trend. Understanding what it is — a relative average, not a headcount of animals — and the methodological debates around it is essential to reading the headline figure correctly.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -15,6 +15,7 @@ related:
   - red-list-index-explained
   - biodiversity-baselines-and-shifting-baselines
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 478d2f3
 ---
 
 Few biodiversity statistics travel further into public conversation than the headline figure from the [Living Planet Index](/en/glossary/living-planet-index). It is widely cited and almost as widely misunderstood. The index summarizes the average relative change in monitored vertebrate populations, and reading it correctly means knowing what kind of number it is — and what it is not.

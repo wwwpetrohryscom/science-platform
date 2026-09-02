@@ -16,6 +16,7 @@ related:
   - earth-system-models-explained
   - earth-system-predictability-explained
   - climate-variability-and-teleconnections
+_bodyHash: 4a79e948
 ---
 
 Behind every long climate record is a prior decision that someone should keep measuring that particular thing, indefinitely, at global scale, whatever else changes. Those decisions are not made ad hoc. They are codified as **Essential Climate Variables**, and the list is short enough to be worth knowing and structured enough to be worth reading closely.

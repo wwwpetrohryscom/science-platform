@@ -22,7 +22,7 @@ faq:
     answer: Genome function depends on the definition of function. Protein-coding sequence is a small fraction of the genome, while regulatory, structural, and evolutionary roles are more complex. Claims that nearly every base is functional should be treated cautiously unless they distinguish biochemical activity from selected biological function.
   - question: Are most diseases genetic?
     answer: Many common diseases have genetic components, but most are not purely genetic. Environment, behavior, exposure history, and chance usually interact with inherited risk. Single-gene disorders exist and are important for affected individuals, but they are not a complete model for common disease burden.
-_bodyHash: eedfe71c
+_bodyHash: 206c80
 ---
 
 DNA — deoxyribonucleic acid — is a four-letter molecular code that stores genetic information, as summarized by the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). It is the carrier of heredity and the substrate on which [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.

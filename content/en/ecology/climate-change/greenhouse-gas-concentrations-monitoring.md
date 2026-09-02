@@ -4,7 +4,7 @@ excerpt: Atmospheric CO₂, methane, and nitrous oxide are tracked by a global f
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-09-02'
 readingTime: 7
 tags:
   - climate-change
@@ -17,6 +17,7 @@ related:
   - what-is-climate-change
   - carbon-cycle-feedbacks
 pillar: what-is-climate-change
+_bodyHash: d6940d1
 ---
 
 The greenhouse-gas concentration record is, by some distance, the cleanest indicator in the climate dataset. The atmospheric mole fraction of CO₂ in a clean-air sample is something a calibrated instrument can measure to a precision of about 0.1 parts per million. The same is true to comparable precision for methane and nitrous oxide. The long-term trends are not contested at the measurement level — they are read off the instruments.
@@ -83,4 +84,3 @@ Read alongside [ocean heat content](/en/ecology/climate-change/ocean-heat-conten
 4. **Copernicus Climate Change Service** — [Greenhouse-gas indicator products](https://climate.copernicus.eu/), ECMWF / European Commission. European satellite and reanalysis-based products.
 5. **NASA Global Climate Change** — [Carbon dioxide vital sign and explainer materials](https://climate.nasa.gov/). Public-facing CO₂ record and methodology.
 6. **NOAA Climate.gov** — [Climate forcing and greenhouse-gas explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products.
-7. **U.S. Environmental Protection Agency** — [Climate Change Indicators: Atmospheric Concentrations of Greenhouse Gases](https://www.epa.gov/climate-indicators). Per-gas concentration trends in the U.S. indicator framework.

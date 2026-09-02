@@ -15,7 +15,7 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
-_bodyHash: a213d9af
+_bodyHash: 1a96d872
 ---
 
 Un ecosistema es el flujo simultáneo de energía, materia e información a través de una comunidad de organismos y su entorno físico ([UNEP: Ecosistemas](https://www.unep.org/explore-topics/ecosystems)). El término «ecosistema» fue acuñado por Arthur Tansley en 1935 precisamente para desplazar la noción más antigua y romántica de «comunidad» — Tansley quería un término que enfatizara el intercambio en lugar de la pertenencia.

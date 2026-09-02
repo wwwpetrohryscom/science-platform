@@ -17,6 +17,7 @@ related:
   - extreme-weather-attribution-basics
   - carbon-cycle-feedbacks
 pillar: what-is-climate-change
+_bodyHash: f76d24c5
 ---
 
 A climate projection is not a forecast in the weather sense. A weather forecast estimates the actual state of the atmosphere at a future time; a climate projection estimates the *statistics* of the climate system under a specified set of forcing assumptions. The difference matters because the relevant uncertainty in a climate projection is not "how exactly will the weather unfold" — it is a structured combination of three different sources.

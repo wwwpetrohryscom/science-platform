@@ -3,6 +3,7 @@ import { categories, listCategorySlugs } from "@/lib/categories";
 import { getAllArticles, getAllInsights } from "@/lib/content";
 import { getDiscussions } from "@/lib/discussions";
 import { listGlossaryAlphabetical } from "@/lib/glossary";
+import { POLICY_DOCUMENTS, listDesksForDisplay } from "@/lib/editorial";
 import {
   DEFAULT_LOCALE,
   LOCALES,
@@ -308,11 +309,55 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     );
   }
 
+  // Editorial pages — EN-only, same reasoning as the glossary: they are
+  // untranslated, so hreflang must not advertise a localized version.
+  const editorialEntries: SitemapEntry[] = [];
+  const editorialAlternates = (path: string) =>
+    buildLocalizedAlternates(path, [DEFAULT_LOCALE]);
+
+  editorialEntries.push(
+    entry(
+      DEFAULT_LOCALE,
+      "/editorial",
+      POLICY_LAST_MODIFIED,
+      "monthly",
+      0.5,
+      editorialAlternates("/editorial"),
+    ),
+  );
+  for (const desk of listDesksForDisplay()) {
+    const path = `/editorial/${desk.id}`;
+    editorialEntries.push(
+      entry(
+        DEFAULT_LOCALE,
+        path,
+        maxDate(allArticleDates),
+        "weekly",
+        0.5,
+        editorialAlternates(path),
+      ),
+    );
+  }
+  for (const doc of POLICY_DOCUMENTS) {
+    const path = `/${doc.slug}`;
+    editorialEntries.push(
+      entry(
+        DEFAULT_LOCALE,
+        path,
+        toDate(doc.updatedDate),
+        "yearly",
+        0.4,
+        editorialAlternates(path),
+      ),
+    );
+  }
+
   return dedupe([
     ...structuralEntries,
     ...contentEntries,
     ...discussionEntries,
     ...glossaryEntries,
+    ...editorialEntries,
   ]);
 }
 

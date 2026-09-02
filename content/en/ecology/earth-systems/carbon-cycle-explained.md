@@ -16,6 +16,7 @@ related:
   - earth-system-science-explained
   - biosphere-climate-interactions
   - earth-system-tipping-points
+_bodyHash: e17c86f
 ---
 
 There are two [carbon cycles](/en/glossary/carbon-cycle), running side by side at speeds that differ by roughly seven orders of magnitude, and almost every confusion about carbon comes from treating them as one. This article separates them, then follows the human perturbation through the fast one.

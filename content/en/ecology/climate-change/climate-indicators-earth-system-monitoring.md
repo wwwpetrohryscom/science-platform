@@ -4,7 +4,7 @@ excerpt: Climate indicators track the state of the Earth system. Here is how tem
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-02'
 readingTime: 9
 tags:
   - climate-change
@@ -18,6 +18,7 @@ related:
   - ocean-heat-content-indicators
   - sea-level-rise-indicators
 pillar: what-is-climate-change
+_bodyHash: a00d028c
 ---
 
 A climate indicator is a measurement, sustained over time, that tracks one specific dimension of the Earth system. Global mean surface temperature is one. Ocean heat content is another. Greenhouse-gas concentration, sea level, glacier mass balance, Arctic sea-ice extent, and the top-of-atmosphere energy imbalance are all indicators in this sense. Each answers a different question; none answers all of them.
@@ -107,8 +108,8 @@ There is also a layer *beneath* the indicators, and it is worth naming because t
 7. **NASA Global Climate Change** — [Vital signs and indicator dashboard](https://climate.nasa.gov/). Public time series for the major climate indicators.
 8. **NASA Earth Observatory** — [Indicator-level imagery and explainers](https://earthobservatory.nasa.gov/). Topic pages for energy balance, sea level, and ice.
 9. **Copernicus Climate Change Service** — [Global Climate Highlights and indicator products](https://climate.copernicus.eu/), ECMWF / European Commission. European reanalysis-based products and annual assessments.
-10. **EPA Climate Change Indicators** — [Indicator collection](https://www.epa.gov/climate-indicators), U.S. Environmental Protection Agency. Domestic U.S. indicator framework.
-11. **European Environment Agency** — [Climate-change indicators](https://www.eea.europa.eu/en/topics/in-depth/climate-change). European regional assessments of indicators.
+10. **U.S. Environmental Protection Agency** — [Climate change science](https://www.epa.gov/climatechange-science). U.S. federal overview of climate science and impacts. The agency's separate indicator collection was withdrawn from publication; the datasets it drew on remain available from NOAA and NASA.
+11. **European Environment Agency** — [Climate change impacts, risks and adaptation](https://www.eea.europa.eu/en/topics/in-depth/climate-change-impacts-risks-and-adaptation). European regional indicator assessments.
 12. **National Snow and Ice Data Center** — [Cryosphere reference datasets](https://nsidc.org/). Sea-ice extent, snow cover, and ice-sheet mass-balance records.
 13. **World Glacier Monitoring Service** — [Global glacier monitoring](https://wgms.ch/). Reference long-term glacier mass-balance dataset.
 14. **World Climate Research Programme** — [CMIP and indicator-evaluation framework](https://www.wcrp-climate.org/). Coordinates the model-intercomparison work behind IPCC projection evaluation.

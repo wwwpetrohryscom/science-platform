@@ -15,7 +15,7 @@ related:
   - single-cell-evo-devo
   - what-is-a-cell
 pillar: cell-types-as-units-of-evolution
-_bodyHash: 4c94252f
+_bodyHash: e42dacb8
 ---
 
 The standard textbook story of animal [evolution](/en/biology/evolution/antibiotic-resistance-evolution-mechanisms) is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.

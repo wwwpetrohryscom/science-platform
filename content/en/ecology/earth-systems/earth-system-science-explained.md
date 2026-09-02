@@ -19,14 +19,12 @@ related:
   - earth-system-models-explained
 faq:
   - question: What is Earth system science?
-    answer: >-
-      It is the study of the planet as a set of coupled components — atmosphere, ocean and fresh water, ice, rock and soil, and life — exchanging energy and matter with each other. Its defining move is to treat the exchanges between components as the object of study rather than as boundary conditions on a single discipline.
+    answer: It is the study of the planet as a set of coupled components — atmosphere, ocean and fresh water, ice, rock and soil, and life — exchanging energy and matter with each other. Its defining move is to treat the exchanges between components as the object of study rather than as boundary conditions on a single discipline.
   - question: How is it different from climate science?
-    answer: >-
-      Climate science is one part of it. Earth system science extends the same coupled framework to the carbon, water, and nitrogen cycles, to ecosystems, and to the solid Earth, and it studies processes on timescales from days to millions of years, not only the anthropogenic warming signal.
+    answer: Climate science is one part of it. Earth system science extends the same coupled framework to the carbon, water, and nitrogen cycles, to ecosystems, and to the solid Earth, and it studies processes on timescales from days to millions of years, not only the anthropogenic warming signal.
   - question: Why do feedbacks matter so much in this framework?
-    answer: >-
-      Because they set how large a response follows from a given push. IPCC AR6 assesses the net climate feedback parameter at −1.16 W m⁻² °C⁻¹, with a very likely range of −1.81 to −0.51 — a range wide enough that it, not the size of the forcing, dominates uncertainty in long-run warming.
+    answer: Because they set how large a response follows from a given push. IPCC AR6 assesses the net climate feedback parameter at −1.16 W m⁻² °C⁻¹, with a very likely range of −1.81 to −0.51 — a range wide enough that it, not the size of the forcing, dominates uncertainty in long-run warming.
+_bodyHash: 85a53e80
 ---
 
 A hurricane is a weather event, a fishery collapse is an ecology problem, and a shift in the Sahara's rainfall belt is a climatology question. That is how the sciences were organised for most of the twentieth century, and it worked well enough as long as each field stayed inside its own boundary. It stopped working when the questions people most wanted answered — how much warming follows a given emission, whether a forest will keep absorbing carbon, why a Pacific temperature anomaly changes East African rainfall — turned out to depend on what happens *between* the components rather than inside any one of them.

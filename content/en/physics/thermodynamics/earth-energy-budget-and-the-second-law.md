@@ -4,7 +4,7 @@ excerpt: A planet receives concentrated radiation from a hot source, redistribut
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-02'
 readingTime: 5
 tags:
   - thermodynamics
@@ -16,6 +16,7 @@ related:
   - solar-radiation-and-earth-energy-balance
   - greenhouse-gases-and-radiative-forcing
 pillar: thermodynamic-limits-of-photovoltaics
+_bodyHash: 53a4f7d9
 ---
 
 The Earth receives concentrated solar radiation at an effective temperature of roughly 5800 K, redistributes it through the atmosphere and ocean, and emits it back to space at an effective temperature of roughly 255 K. This is, in the most literal sense, a heat engine. The [thermodynamics](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) of that engine bounds what the [climate](/en/ecology/climate-change/what-is-climate-change) can do, what surface temperatures are physically possible, and what fraction of incident [energy](/en/physics/energy/perovskite-stack-field-stability) is available to drive atmospheric circulation.
@@ -50,7 +51,7 @@ The accounting is reviewed in detail in the [IPCC AR6 Working Group I](https://w
 
 ## The thermodynamic limit on photovoltaics
 
-A photovoltaic cell converts solar radiation into work (electrical work). The same heat-engine framework that bounds the climate bounds the cell: a perfect single-junction cell under AM1.5 illumination has a maximum efficiency of around 33% (the [Shockley-Queisser](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) limit), well below the Carnot bound for the Sun-Earth temperature pair (~95%) because of the spectral and entropy losses specific to single-junction conversion. The [U.S. National Renewable Energy Laboratory](https://www.nrel.gov/) maintains the canonical Shockley-Queisser reference and tracks champion-cell efficiencies against it.
+A photovoltaic cell converts solar radiation into work (electrical work). The same heat-engine framework that bounds the climate bounds the cell: a perfect single-junction cell under AM1.5 illumination has a maximum efficiency of around 33% (the [Shockley-Queisser](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) limit), well below the Carnot bound for the Sun-Earth temperature pair (~95%) because of the spectral and entropy losses specific to single-junction conversion. The National Laboratory of the Rockies — the U.S. Department of Energy laboratory formerly named NREL — maintains the [best research-cell efficiency chart](https://www.nlr.gov/pv/cell-efficiency), which tracks confirmed champion-cell efficiencies against that limit.
 
 [Tandem and multi-junction cells](/en/physics/energy/perovskite-stack-field-stability) approach the Carnot bound more closely because they recover the spectral mismatch loss. The asymptotic limit for an infinite-junction cell under AM1.5 is around 86% — still below Carnot because of unrecovered [photon](/en/physics/quantum-basics/electromagnetic-spectrum-applications) entropy. The [thermodynamic limits piece](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) walks through this in detail.
 
@@ -78,5 +79,5 @@ Two caveats.
 2. **NASA Earth Observatory** — [Earth's energy budget](https://earthobservatory.nasa.gov/). Topic-level reference on the components of the planetary energy budget.
 3. **NASA Climate** — [Climate vital signs](https://climate.nasa.gov/). Public-facing reference on energy-imbalance indicators.
 4. **NOAA Climate.gov** — [Energy budget explainers](https://www.climate.gov/). Methodology pages on climate energy bookkeeping.
-5. **U.S. National Renewable Energy Laboratory** — [Photovoltaic efficiency reference](https://www.nrel.gov/). Shockley-Queisser limit and champion-cell tables.
+5. **National Laboratory of the Rockies** — [Best research-cell efficiency chart](https://www.nlr.gov/pv/cell-efficiency). Confirmed champion-cell efficiencies by technology, 1976 to present.
 6. **NIST** — [Physical constants and measurement standards](https://www.nist.gov/). Reference quantities underpinning radiometric and thermodynamic measurements.

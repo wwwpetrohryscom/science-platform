@@ -4,7 +4,7 @@ excerpt: Attribution science quantifies how much a specific extreme event was ma
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-09-02'
 readingTime: 7
 tags:
   - climate-change
@@ -17,6 +17,7 @@ related:
   - what-is-climate-change
   - global-temperature-records-explained
 pillar: what-is-climate-change
+_bodyHash: d2baa614
 ---
 
 Twenty years ago, the standard response to "did climate change cause this storm" was "no single event can be attributed to climate change." That response is no longer scientifically accurate. The field of event attribution has developed methods that quantify how much a specific extreme event was made more likely, or more severe, by long-term warming. The methods are well-defined, peer-reviewed, and increasingly operational — and so are the limits of what they can say.
@@ -100,5 +101,4 @@ Attribution science changes the available answers to one of the questions reader
 3. **NOAA Climate.gov** — [Extreme-weather attribution explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products on extremes.
 4. **NOAA National Centers for Environmental Information** — [U.S. billion-dollar weather and climate disasters and State of the Climate](https://www.ncei.noaa.gov/). U.S. extreme-event records.
 5. **NASA Earth Observatory** — [Heatwave, drought, and tropical-cyclone explainers](https://earthobservatory.nasa.gov/). Mission and topic pages on extreme events.
-6. **U.S. Environmental Protection Agency** — [Climate Change Indicators: Heat Waves, Heavy Precipitation, and others](https://www.epa.gov/climate-indicators). U.S. domestic extreme-event indicators.
-7. **PubMed** — [Event-attribution literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed methodology and case studies in event attribution.
+6. **PubMed** — [Event-attribution literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed methodology and case studies in event attribution.

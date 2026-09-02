@@ -4,7 +4,7 @@ excerpt: Indicators of adaptation progress and mitigation effort are reported se
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-09-02'
 readingTime: 7
 tags:
   - climate-change
@@ -17,6 +17,7 @@ related:
   - carbon-cycle-feedbacks
   - what-is-climate-change
 pillar: what-is-climate-change
+_bodyHash: '8528e356'
 ---
 
 The physical-climate indicators tracked elsewhere in this cluster describe the state of the Earth system. A separate, complementary set of indicators tracks the human-action side: how much greenhouse gas is being emitted, what policies are in place, and where adaptation investments and outcomes are landing. The two sets of indicators are produced by different institutions with different methodological constraints and they answer different questions.
@@ -27,7 +28,7 @@ This piece walks through the main adaptation and mitigation indicator families, 
 
 Mitigation indicators track effort to reduce or avoid greenhouse-gas emissions. They split into emission-side indicators, deployment-side indicators, and outcome-side indicators.
 
-**Emissions inventories.** Annual greenhouse-gas emissions are reported by countries to the United Nations Framework Convention on Climate Change (UNFCCC) under the Paris Agreement reporting framework. The inventories cover fossil-fuel CO₂, methane (from fossil systems, agriculture, and waste), nitrous oxide, and the major halocarbons. The [U.S. Environmental Protection Agency](https://www.epa.gov/climate-indicators) maintains the U.S. domestic inventory; the [European Environment Agency](https://www.eea.europa.eu/) does the same for the European Union; the [UNEP Emissions Gap Report](https://www.unep.org/) consolidates global emissions estimates annually.
+**Emissions inventories.** Annual greenhouse-gas emissions are reported by countries to the United Nations Framework Convention on Climate Change (UNFCCC) under the Paris Agreement reporting framework. The inventories cover fossil-fuel CO₂, methane (from fossil systems, agriculture, and waste), nitrous oxide, and the major halocarbons. The [U.S. Environmental Protection Agency](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks) maintains the U.S. domestic inventory; the [European Environment Agency](https://www.eea.europa.eu/) does the same for the European Union; the [UNEP Emissions Gap Report](https://www.unep.org/) consolidates global emissions estimates annually.
 
 Bottom-up inventories are cross-checked against top-down constraints: the atmospheric [greenhouse-gas concentration record](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), satellite column measurements, and inverse atmospheric models. The two approaches sometimes disagree, particularly for methane — which the [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) inverse-modelling work has been refining. The closure of bottom-up against top-down is itself an indicator of inventory quality.
 
@@ -85,7 +86,7 @@ Action indicators are the layer that connects [physical-climate indicators](/en/
 2. **IPCC** — [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/). Integrates physical, impact, and mitigation findings.
 3. **UNEP** — [Emissions Gap Report](https://www.unep.org/). Annual global emissions-gap analysis.
 4. **International Energy Agency** — [World Energy Outlook and energy-technology tracking](https://www.iea.org/). Energy-system deployment indicators.
-5. **U.S. Environmental Protection Agency** — [Climate Change Indicators and greenhouse-gas inventory](https://www.epa.gov/climate-indicators). U.S. domestic mitigation indicators.
-6. **European Environment Agency** — [Climate change adaptation, mitigation, and policy indicators](https://www.eea.europa.eu/en/topics/in-depth/climate-change). European adaptation and mitigation tracking.
+5. **U.S. Environmental Protection Agency** — [Inventory of U.S. Greenhouse Gas Emissions and Sinks](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks). U.S. domestic emissions inventory.
+6. **European Environment Agency** — [Climate change impacts, risks and adaptation](https://www.eea.europa.eu/en/topics/in-depth/climate-change-impacts-risks-and-adaptation). European adaptation and mitigation tracking.
 7. **WMO** — [State of the Global Climate](https://wmo.int/). International annual climate-indicator and policy-context assessment.
 8. **NOAA Climate.gov** — [Greenhouse-gas, mitigation, and policy-relevant explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products.

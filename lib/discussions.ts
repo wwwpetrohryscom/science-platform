@@ -21,7 +21,13 @@ export type DiscussionComment = {
   id: string;
   authorName: string;
   authorTitle: string;
-  /** Whether the participant has been verified as a real domain expert. */
+  /**
+   * Whether this entry was written by a verified, named external
+   * contributor. Every entry currently on the site is an editorial-desk
+   * framing note, so this is `false` everywhere — the field exists for
+   * the moderation backend that will eventually accept real
+   * contributions. It must never be set true for a desk.
+   */
   isExpert: boolean;
   postedAt: string;
   body: string;
@@ -39,7 +45,6 @@ export type Discussion = {
   publishedDate: string;
   updatedDate: string;
   status: DiscussionStatus;
-  participantCount: number;
   comments: DiscussionComment[];
   tags: string[];
   /** Optional pointer to a related article — drives internal linking. */
@@ -58,7 +63,6 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     publishedDate: "2026-03-10",
     updatedDate: "2026-04-24",
     status: "open",
-    participantCount: 14,
     tags: ["geoengineering", "policy", "ethics"],
     relatedArticleSlug: "thermodynamic-limits-of-photovoltaics",
     comments: [
@@ -99,7 +103,6 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     publishedDate: "2026-02-28",
     updatedDate: "2026-04-20",
     status: "open",
-    participantCount: 9,
     tags: ["climate", "communication", "attribution"],
     relatedArticleSlug: "what-is-climate-change",
     comments: [
@@ -140,7 +143,6 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     publishedDate: "2026-03-18",
     updatedDate: "2026-04-27",
     status: "open",
-    participantCount: 7,
     tags: ["single-cell", "data", "standards", "open-science"],
     relatedArticleSlug: "single-cell-evo-devo",
     comments: [

@@ -15,7 +15,7 @@ related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-dna
-_bodyHash: e2a64d91
+_bodyHash: 926ca328
 ---
 
 For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual [cells](/en/biology/cells/what-is-a-cell), using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and major peer-reviewed journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/). The shift is consequential: the unit of evolutionary [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) may be finer than the network and finer than the organ.

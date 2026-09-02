@@ -15,7 +15,7 @@ related:
   - what-is-an-ecosystem
   - why-species-counts-mislead-conservation
 pillar: what-is-an-ecosystem
-_bodyHash: 26bf7ec7
+_bodyHash: 1a19a505
 ---
 
 A persistent claim in popular ecology is that [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) provides "functional redundancy" — multiple species perform the same role, so the loss of any one species can be absorbed without consequence. Public [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) assessments from [UNEP](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and [IPBES](https://www.ipbes.net/global-assessment) support a more cautious framing: redundancy exists in some functions and systems, but it is not a universal guarantee of [resilience](/en/ecology/ecosystems/what-is-an-ecosystem).

@@ -1,5 +1,5 @@
 ---
-title: 'The water-vapour feedback, and why it is always quoted with the lapse rate'
+title: The water-vapour feedback, and why it is always quoted with the lapse rate
 excerpt: Water vapour is the strongest amplifier in the climate system and not a driver of it. The two facts are compatible, and the reason is a nine-day residence time.
 type: expert
 author: environmental-science-desk
@@ -16,6 +16,7 @@ related:
   - global-water-cycle-explained
   - ice-albedo-feedback-explained
   - earth-system-science-explained
+_bodyHash: dbab280b
 ---
 
 Two claims about water vapour are both true and are frequently set against each other: it is the most important greenhouse gas in the atmosphere, and it plays no role as a driver of climate change. Reconciling them takes one observation about timescale, and doing so is the cleanest available illustration of what a [climate feedback](/en/glossary/climate-feedback) actually is.

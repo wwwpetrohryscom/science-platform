@@ -15,7 +15,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
-_bodyHash: d3c24af4
+_bodyHash: 6b20d411
 ---
 
 The conversation about AI in science is dominated by a particular kind of story: discovery. Protein-structure prediction, [materials](/en/physics/energy/perovskite-stack-field-stability) screening, and literature-mining systems are real scientific tools. But public research infrastructure from [NIH/NLM](https://www.ncbi.nlm.nih.gov/books/), peer-reviewed literature indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), and [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) standards from [NIST](https://www.nist.gov/) point to a less visible bottleneck: the experimental record is still hard to reproduce, query, and reuse at scale.

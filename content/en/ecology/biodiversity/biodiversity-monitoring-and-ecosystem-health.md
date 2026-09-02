@@ -18,6 +18,7 @@ related:
   - biodiversity-indicators-explained
   - remote-sensing-for-biodiversity-monitoring
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 2e9fcfcd
 ---
 
 Climate science has a short list of canonical [indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) — surface temperature, ocean heat, greenhouse-gas concentration, sea level, ice. Biodiversity has no equivalent single number. There is no thermometer for the state of life, because life varies at several levels at once: the genes within a population, the abundance and range of a species, the composition of a community, and the structure and function of an ecosystem. A place can lose individuals while keeping its species list intact, or shift in composition while its total productivity holds steady.

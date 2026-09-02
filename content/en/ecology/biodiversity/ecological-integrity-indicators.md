@@ -1,6 +1,6 @@
 ---
 title: 'Ecological integrity indicators: measuring whether an ecosystem is still intact'
-excerpt: 'Ecological integrity asks whether an ecosystem still has the species, structure, and processes characteristic of its type. This explains the composite indicators used to estimate it — the Biodiversity Intactness Index, mean species abundance, and indices of biotic integrity — and why the reference state is the hard part.'
+excerpt: Ecological integrity asks whether an ecosystem still has the species, structure, and processes characteristic of its type. This explains the composite indicators used to estimate it — the Biodiversity Intactness Index, mean species abundance, and indices of biotic integrity — and why the reference state is the hard part.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -15,6 +15,7 @@ related:
   - habitat-fragmentation-metrics
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 99bb6d4c
 ---
 
 Counting the species present at a site tells you something, but not whether the place still works the way an undisturbed example of its type would. The idea of [ecological integrity](/en/glossary/ecological-integrity) addresses that gap: it asks whether an ecosystem's composition, structure, and function fall within the natural range of variation expected for its kind. This piece walks through the composite indicators used to estimate integrity, how they are built, and why the choice of a reference state is the difficult part.

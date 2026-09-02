@@ -16,6 +16,7 @@ related:
   - earth-system-science-explained
   - nitrogen-cycle-explained
   - climate-feedback-mechanisms
+_bodyHash: 6bce7014
 ---
 
 Living systems are usually introduced into climate discussions as a carbon reservoir, and then treated as though carbon were the whole story. It is not. Vegetation alters the surface energy budget through at least three distinct mechanisms operating simultaneously, and in some places they cancel. Getting the sign of a land-cover change right requires all three.

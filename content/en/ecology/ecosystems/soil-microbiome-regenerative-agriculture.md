@@ -21,7 +21,7 @@ faq:
     answer: Inoculation with curated consortia shows promise in greenhouses but inconsistent results in the field. Restoring habitat — reduced disturbance, diverse rotations, living roots year-round — appears more reliable than direct inoculation.
   - question: Should farmers be testing for this now?
     answer: Functional soil tests are accessible through specialty labs but rarely through standard agronomy services. They are most useful when comparing the same field over time, not as one-shot measurements.
-_bodyHash: 20edf720
+_bodyHash: 31a213a4
 ---
 
 Regenerative agriculture trials can vary across sites, even when soil texture, [climate](/en/ecology/climate-change/what-is-climate-change), and management appear similar. Research indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and public soil/ecosystem assessments from [UNEP](https://www.unep.org/explore-topics/ecosystems) and the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity) support a cautious explanation: soil microbial communities are one important mediator among several, not a single hidden variable that explains every outcome.

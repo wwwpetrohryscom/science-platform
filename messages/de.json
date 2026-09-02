@@ -45,17 +45,102 @@
     }
   },
   "subtopics": {
-    "ecosystems": { "label": "Ökosysteme", "description": "Wälder, Feuchtgebiete, Ozeane, Böden — wie Energie und Materie durch lebende Systeme strömen und was Störungen über sie verraten." },
-    "climate-change": { "label": "Klimawandel", "description": "Treiber, Rückkopplungen, Attribution und politikrelevante Unsicherheiten an der Front der Klimawissenschaft." },
-    "biodiversity": { "label": "Biodiversität", "description": "Warum die Artenzahl die falsche Metrik ist, was genetische und funktionale Diversität tatsächlich leisten und wo Schutzbemühungen wirken." },
-    "earth-systems": { "label": "Erdsystemwissenschaft", "description": "Der Planet als gekoppeltes System — wie Atmosphäre, Ozean, Eis, Land und Leben Energie und Materie austauschen, und was diese Kopplung erklärt, das keine einzelne Komponente erklären kann." },
-    "earth-observation": { "label": "Erdbeobachtung", "description": "Wie Satelliten und Sensoren den Planeten beobachten — die Methoden, Datenprodukte und Unsicherheiten hinter der Messung von Umweltveränderungen aus dem All." },
-    "cells": { "label": "Zellbiologie", "description": "Die Zelle als Grundbaustein des Lebens — ihre Architektur, Energetik, Signalübertragung und die Methoden, sie zu untersuchen." },
-    "genetics": { "label": "Genetik", "description": "Molekulargenetik, Genomik und die Evolution genetischer Systeme — was die Sequenzierung gezeigt hat und was sie nicht klären kann." },
-    "evolution": { "label": "Evolution", "description": "Selektion, Drift, Entwicklung und die moderne Synthese — einschließlich der Teile, die still überarbeitet werden." },
-    "energy": { "label": "Energie", "description": "Erzeugung, Speicherung, Übertragung sowie die Materialien und Architekturen, die entscheiden, welche Technologien wirklich skalieren." },
-    "thermodynamics": { "label": "Thermodynamik", "description": "Die Gesetze, die jedes physikalische System begrenzen — und die überraschend modernen Fragen, die an ihrer Front offen bleiben." },
-    "quantum-basics": { "label": "Quantengrundlagen", "description": "Quantenmechanik für die Praxis — die Teile, die für Sensoren, Materialien und Computing zählen, ohne die Philosophie." }
+    "ecosystems": {
+      "label": "Ökosysteme",
+      "description": "Wälder, Feuchtgebiete, Ozeane, Böden — wie Energie und Materie durch lebende Systeme strömen und was Störungen über sie verraten."
+    },
+    "climate-change": {
+      "label": "Klimawandel",
+      "description": "Treiber, Rückkopplungen, Attribution und politikrelevante Unsicherheiten an der Front der Klimawissenschaft."
+    },
+    "biodiversity": {
+      "label": "Biodiversität",
+      "description": "Warum die Artenzahl die falsche Metrik ist, was genetische und funktionale Diversität tatsächlich leisten und wo Schutzbemühungen wirken."
+    },
+    "earth-systems": {
+      "label": "Erdsystemwissenschaft",
+      "description": "Der Planet als gekoppeltes System — wie Atmosphäre, Ozean, Eis, Land und Leben Energie und Materie austauschen, und was diese Kopplung erklärt, das keine einzelne Komponente erklären kann."
+    },
+    "earth-observation": {
+      "label": "Erdbeobachtung",
+      "description": "Wie Satelliten und Sensoren den Planeten beobachten — die Methoden, Datenprodukte und Unsicherheiten hinter der Messung von Umweltveränderungen aus dem All."
+    },
+    "cells": {
+      "label": "Zellbiologie",
+      "description": "Die Zelle als Grundbaustein des Lebens — ihre Architektur, Energetik, Signalübertragung und die Methoden, sie zu untersuchen."
+    },
+    "genetics": {
+      "label": "Genetik",
+      "description": "Molekulargenetik, Genomik und die Evolution genetischer Systeme — was die Sequenzierung gezeigt hat und was sie nicht klären kann."
+    },
+    "evolution": {
+      "label": "Evolution",
+      "description": "Selektion, Drift, Entwicklung und die moderne Synthese — einschließlich der Teile, die still überarbeitet werden."
+    },
+    "energy": {
+      "label": "Energie",
+      "description": "Erzeugung, Speicherung, Übertragung sowie die Materialien und Architekturen, die entscheiden, welche Technologien wirklich skalieren."
+    },
+    "thermodynamics": {
+      "label": "Thermodynamik",
+      "description": "Die Gesetze, die jedes physikalische System begrenzen — und die überraschend modernen Fragen, die an ihrer Front offen bleiben."
+    },
+    "quantum-basics": {
+      "label": "Quantengrundlagen",
+      "description": "Quantenmechanik für die Praxis — die Teile, die für Sensoren, Materialien und Computing zählen, ohne die Philosophie."
+    },
+    "conservation": {
+      "label": "Naturschutzwissenschaft",
+      "description": "Schutzgebiete, Artenerholung, Renaturierung und Management invasiver Arten — was Schutzmaßnahmen tatsächlich bewirken und wie das gemessen wird."
+    },
+    "oceans": {
+      "label": "Ozeane & Meereswissenschaft",
+      "description": "Meereszirkulation, Chemie, Produktivität und marine Ökosysteme — wie der Ozean als Lebensraum und als Teil des Klimasystems funktioniert."
+    },
+    "freshwater": {
+      "label": "Süßwasser & Feuchtgebiete",
+      "description": "Flüsse, Seen, Grundwasser und Feuchtgebiete — die kleinsten und am stärksten genutzten Speicher des Wasserkreislaufs und was ihren Zustand bestimmt."
+    },
+    "forests": {
+      "label": "Wälder & Landbedeckung",
+      "description": "Waldstruktur, Störungen, Kohlenstoff und Landbedeckungswandel — was Wälder biologisch leisten und was ihnen in der Kohlenstoffbilanzierung zugerechnet wird."
+    },
+    "soils": {
+      "label": "Böden & Landoberfläche",
+      "description": "Bodenbildung, Bodenkohlenstoff, Bodenbiologie und Landdegradation — die dünne, langsam entstehende Schicht, von der das meiste Landleben abhängt."
+    },
+    "pollution": {
+      "label": "Verschmutzung & Umweltqualität",
+      "description": "Luft-, Wasser- und Chemikalienbelastung — Quellen, Expositionspfade, Messung und die Evidenz, die Schadstoffe mit ökologischen und gesundheitlichen Schäden verbindet."
+    },
+    "microbiology": {
+      "label": "Mikrobiologie",
+      "description": "Bakterien, Archaeen, Pilze, Viren und die mikrobiellen Gemeinschaften, die den größten Teil der Biogeochemie des Planeten betreiben."
+    },
+    "physiology": {
+      "label": "Physiologie & Organismische Biologie",
+      "description": "Wie Körper funktionieren — Atmung, Kreislauf, Thermoregulation, Immunität, Nervensysteme und Entwicklung, beim Menschen und bei anderen Organismen."
+    },
+    "taxonomy": {
+      "label": "Taxonomie & Stammbaum des Lebens",
+      "description": "Organismen benennen, klassifizieren und ihre Verwandtschaft rekonstruieren — und die erstaunlich offene Frage, wie viele Arten es gibt."
+    },
+    "biotechnology": {
+      "label": "Biotechnologie & Bioinformatik",
+      "description": "Sequenzierung, Genom-Editierung, synthetische Biologie und die Rechenverfahren, die biologische Daten in Schlussfolgerungen verwandeln."
+    },
+    "climate-physics": {
+      "label": "Atmosphären- & Klimaphysik",
+      "description": "Strahlung, atmosphärischer Aufbau, Konvektion und die Physik, die bestimmt, wie Energie durch Atmosphäre und Ozean transportiert wird."
+    },
+    "mechanics-waves": {
+      "label": "Mechanik, Wellen & Fluide",
+      "description": "Bewegung, Kräfte, Energie, Schwingung, Schall, Licht und das Verhalten von Fluiden — die klassische Physik hinter den meisten Messungen."
+    },
+    "matter-radiation": {
+      "label": "Materie, Materialien & Strahlung",
+      "description": "Atomarer und nuklearer Aufbau, Radioaktivität, Teilchen und die Materialwissenschaft hinter Detektoren, Reaktoren und Energietechnologien."
+    }
   },
   "home": {
     "meta_title": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
@@ -123,27 +208,33 @@
   },
   "discussions": {
     "eyebrow": "Diskussionen",
-    "title": "Von Expertinnen geleitete, moderierte Gespräche",
-    "description": "Wir betreiben kein Forum. Wir kuratieren Gesprächsfäden — jeder von einer Fachexpertin gerahmt, geprüften Spezialistinnen geöffnet und auf Substanz moderiert.",
+    "title": "Kuratierte wissenschaftliche Fragen",
+    "description": "Kein Forum. Jeder Eintrag behandelt eine Frage, bei der die Wissenschaft tatsächlich offen ist, eingeordnet von einer Redaktion und mit der Evidenz beider Seiten. Es gibt keine offene Kommentarfunktion.",
     "empty": "Derzeit keine aktiven Diskussionen.",
-    "moderated_by": "Moderiert von",
-    "participants": "{count} Teilnehmende",
-    "status": { "open": "offen", "closed": "geschlossen", "scheduled": "geplant" },
+    "moderated_by": "Eingeordnet von",
+    "status": {
+      "open": "offen",
+      "closed": "geschlossen",
+      "scheduled": "geplant"
+    },
     "category_eyebrow": "Diskussion · {category}",
-    "about_heading": "Über diese Diskussion",
-    "about_body": "Diskussionen auf dieser Seite werden von Fachexpertinnen gerahmt und auf Substanz moderiert. Geprüfte Expertenkommentare tragen ein Abzeichen; alle anderen Beiträge werden vor der Veröffentlichung geprüft.",
-    "related_article": "Verwandter Artikel"
+    "about_heading": "Wie das funktioniert",
+    "about_body": "Jede Frage wird von einer EcoScienceHub-Redaktion eröffnet und eingeordnet. Die folgenden Notizen sind redaktionell und stammen von der Redaktion — sie sind keine Beiträge namentlich genannter Forschender, und auf dieser Website gibt es keine Kommentare aus dem Publikum. Sollten künftig verifizierte externe Beitragende teilnehmen, werden ihre Beiträge gekennzeichnet und namentlich zugeordnet.",
+    "related_article": "Verwandter Artikel",
+    "editorial_notes": "{count} redaktionelle Notizen"
   },
   "footer": {
     "topics_heading": "Themen",
     "formats_heading": "Formate",
     "about_heading": "Über uns",
     "editorial_standards": "Redaktionelle Standards",
-    "contact": "Kontakt",
     "rss": "RSS",
     "sitemap": "Sitemap",
     "rights": "© {year} {site}. Alle Rechte vorbehalten.",
-    "footer_note": "Redaktionell unabhängig. Zitate willkommen — bitte auf die kanonische URL verlinken."
+    "footer_note": "Redaktionell unabhängig. Zitate willkommen — bitte auf die kanonische URL verlinken.",
+    "sourcing_policy": "Quellenrichtlinie",
+    "editorial_desks": "Redaktionen",
+    "corrections": "Korrekturen & Kontakt"
   },
   "newsletter": {
     "eyebrow": "Newsletter",

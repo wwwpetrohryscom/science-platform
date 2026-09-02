@@ -16,6 +16,7 @@ related:
   - landsat-program-explained
   - earth-observation-data-products
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: 2fc4b30c
 ---
 
 Most of what we know about how the planet is changing — shrinking ice, advancing deforestation, warming seas, greening and browning land — is now measured, at least in part, from space. [Earth observation](/en/glossary/earth-observation) is the practice of gathering information about the planet's land, ocean, atmosphere, and ice using sensors on satellites and aircraft. [Remote sensing](/en/glossary/remote-sensing) is the underlying technique: measuring something without touching it, by recording the radiation it reflects or emits.

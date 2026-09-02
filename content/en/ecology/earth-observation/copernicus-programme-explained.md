@@ -1,6 +1,6 @@
 ---
 title: 'The Copernicus programme explained: Europe’s Earth-observation system'
-excerpt: 'Copernicus is the European Union’s Earth-observation programme, pairing the Sentinel satellites with six thematic services and a full, free, and open data policy. This explains how it is organised, who runs each service, and what it delivers.'
+excerpt: Copernicus is the European Union’s Earth-observation programme, pairing the Sentinel satellites with six thematic services and a full, free, and open data policy. This explains how it is organised, who runs each service, and what it delivers.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -14,6 +14,7 @@ related:
   - sentinel-satellites-explained
   - land-cover-change-detection
   - drought-monitoring-systems
+_bodyHash: 5a157b1a
 ---
 
 Copernicus is the European Union's [Earth-observation](https://www.copernicus.eu/en) programme, and it is best understood as two halves working together: a fleet of satellites that measure the planet, and a set of services that turn those measurements into information people can use. It is coordinated by the European Commission, with the European Space Agency responsible for the space component, and it runs on a "full, free and open" data policy. This piece sets out how the programme is organised, who operates each part, and what it produces.

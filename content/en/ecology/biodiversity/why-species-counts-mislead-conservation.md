@@ -15,7 +15,7 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 65bcdefc
+_bodyHash: 6e365baa
 ---
 
 Species richness — the count of distinct species in a defined area — is one of the most widely cited measures of [biodiversity](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). It is also incomplete as a [conservation](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat [biodiversity](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) loss as more than a simple species-count problem.

@@ -16,6 +16,7 @@ related:
   - solar-radiation-and-earth-energy-balance
   - earth-energy-budget-and-the-second-law
 pillar: quantum-sensors-leaving-the-lab
+_bodyHash: 4430a9da
 ---
 
 Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays are not different physical phenomena. They are the same phenomenon — propagating electromagnetic waves, equivalently described as photons — at different wavelengths. The differences in how each interacts with matter, and therefore how each is used in science and technology, follow from the wavelength alone.

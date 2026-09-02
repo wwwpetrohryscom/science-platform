@@ -4,7 +4,7 @@ excerpt: The Earth absorbs a specific amount of energy from the Sun and radiates
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-24'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-02'
 readingTime: 5
 tags:
   - energy
@@ -16,6 +16,7 @@ related:
   - perovskite-stack-field-stability
   - earth-energy-budget-and-the-second-law
 pillar: perovskite-stack-field-stability
+_bodyHash: fa39824e
 ---
 
 The Earth's [climate](/en/ecology/climate-change/what-is-climate-change) system is, at its core, an [energy](/en/physics/energy/perovskite-stack-field-stability) budget. The Sun delivers shortwave radiation; the planet absorbs some, reflects some, and radiates longwave (infrared) energy back to space. The accounting between input and output is the foundation of climate physics, and it is also the framing that anchors most discussion of [energy systems](/en/physics/energy/perovskite-stack-field-stability) and [photovoltaics](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics).
@@ -54,7 +55,7 @@ Three physical changes shift the balance:
 
 ## What this implies for solar energy
 
-For [photovoltaic technology](/en/physics/energy/perovskite-stack-field-stability), the relevant quantity is direct and diffuse irradiance at the surface, not the top-of-atmosphere flux. Atmospheric absorption (mostly water vapour, ozone, and CO₂) and scattering (Rayleigh and aerosol) reduce the surface flux and shift its spectrum relative to the top-of-atmosphere AM0 spectrum. Standardized AM1.5 spectra are used by the [U.S. National Renewable Energy Laboratory](https://www.nrel.gov/) for module rating and by the [U.S. Department of Energy Solar Energy Technologies Office](https://www.energy.gov/eere/solar) for industry guidance.
+For [photovoltaic technology](/en/physics/energy/perovskite-stack-field-stability), the relevant quantity is direct and diffuse irradiance at the surface, not the top-of-atmosphere flux. Atmospheric absorption (mostly water vapour, ozone, and CO₂) and scattering (Rayleigh and aerosol) reduce the surface flux and shift its spectrum relative to the top-of-atmosphere AM0 spectrum. Standardized [AM1.5 reference spectra](https://www.nlr.gov/grid/solar-resource/spectra-am1.5) are published by the National Laboratory of the Rockies — the U.S. Department of Energy laboratory formerly named NREL — and used for module rating across the industry.
 
 This is also why panel efficiency tested under AM1.5 does not equal field performance: the actual incident spectrum varies with location, season, time of day, and atmospheric conditions. The [thermodynamic limit](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) on a single-junction cell under AM1.5 is the [Shockley-Queisser](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) bound, around 33%; outdoor performance is determined by additional factors including spectral mismatch, temperature derating, and soiling.
 
@@ -94,6 +95,6 @@ The accounting is the physics. The [applications](/en/physics/quantum-basics/qua
 2. **NASA Climate** — [Climate vital signs and explainers](https://climate.nasa.gov/). Public-facing reference on Earth energy balance and climate indicators.
 3. **NOAA Climate.gov** — [Energy budget and indicator products](https://www.climate.gov/). Methodology and explainer pages on climate energy bookkeeping.
 4. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/), Chapter 7 (The Earth's energy budget, climate feedbacks and climate sensitivity). Authoritative assessment of the components.
-5. **U.S. National Renewable Energy Laboratory** — [Solar resource and reference spectra](https://www.nrel.gov/). Reference spectra and surface-irradiance data products for solar applications.
+5. **National Laboratory of the Rockies** — [Reference air mass 1.5 spectra](https://www.nlr.gov/grid/solar-resource/spectra-am1.5). Reference spectra and surface-irradiance data products for solar applications.
 6. **U.S. Department of Energy Solar Energy Technologies Office** — [Solar irradiance reference](https://www.energy.gov/eere/solar). Industry reference for solar resource quantification.
 7. **Copernicus Climate Change Service** — [Reanalysis and energy-budget products](https://climate.copernicus.eu/). Independent European reanalysis chain used to cross-check NASA and NOAA energy-budget estimates.

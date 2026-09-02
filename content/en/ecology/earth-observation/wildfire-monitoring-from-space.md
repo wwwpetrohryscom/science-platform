@@ -1,6 +1,6 @@
 ---
 title: 'Wildfire monitoring from space: active fires and burned area'
-excerpt: 'Satellites detect wildfires in two ways — spotting the heat of active flames and mapping the scar they leave behind. This explains the thermal and reflectance methods, the near-real-time systems built on them, and why some fires are still missed from orbit.'
+excerpt: Satellites detect wildfires in two ways — spotting the heat of active flames and mapping the scar they leave behind. This explains the thermal and reflectance methods, the near-real-time systems built on them, and why some fires are still missed from orbit.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -14,6 +14,7 @@ related:
   - modis-earth-observation-system
   - drought-monitoring-systems
   - satellite-deforestation-monitoring
+_bodyHash: b6bfc133
 ---
 
 Satellites watch wildfire in two complementary ways: they sense the heat of flames while a fire is burning, and they map the darkened scar once it has passed. Each approach reads a different signal, on a different clock, and each has its own blind spots. This piece explains the thermal and reflectance methods behind them, the near-real-time systems built on those methods, and why some fires still go undetected from orbit.

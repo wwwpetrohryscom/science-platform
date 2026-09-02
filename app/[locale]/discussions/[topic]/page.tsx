@@ -107,8 +107,8 @@ export default async function DiscussionTopicPage({ params }: Props) {
               </span>
               <span aria-hidden>·</span>
               <span>
-                {t("discussions.participants", {
-                  count: discussion.participantCount,
+                {t("discussions.editorial_notes", {
+                  count: discussion.comments.length,
                 })}
               </span>
               <span aria-hidden>·</span>

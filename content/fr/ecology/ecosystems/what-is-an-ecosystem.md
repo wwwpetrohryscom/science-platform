@@ -15,7 +15,7 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
-_bodyHash: 27a1c089
+_bodyHash: 17930d4a
 ---
 
 Un écosystème est le flux simultané d'énergie, de matière et d'information à travers une communauté d'organismes et leur environnement physique ([UNEP : Écosystèmes](https://www.unep.org/explore-topics/ecosystems)). Le terme « écosystème » a été forgé par Arthur Tansley en 1935 précisément pour déplacer la notion plus ancienne et plus romantique de « communauté » — Tansley voulait un terme qui mette l'accent sur l'échange plutôt que sur l'appartenance.

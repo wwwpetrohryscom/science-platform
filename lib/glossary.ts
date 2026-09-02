@@ -261,7 +261,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     relatedSources: [
       { label: "IPCC AR6 WG1 Ch.9", url: "https://www.ipcc.ch/report/ar6/wg1/" },
-      { label: "NASA Climate sea-level vital sign", url: "https://climate.nasa.gov/vital-signs/sea-level/" },
+      { label: "NASA Sea Level Change Portal — global mean sea level", url: "https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/" },
     ],
     updatedDate: "2026-05-14",
   },
@@ -284,7 +284,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     relatedSources: [
       { label: "IPCC AR6 WG1", url: "https://www.ipcc.ch/report/ar6/wg1/" },
       { label: "WMO State of the Global Climate", url: "https://wmo.int/" },
-      { label: "EPA Climate Change Indicators", url: "https://www.epa.gov/climate-indicators" },
+      { label: "EPA Climate Change Science", url: "https://www.epa.gov/climatechange-science" },
     ],
     updatedDate: "2026-05-23",
   },
@@ -1425,7 +1425,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     relatedSources: [
       {
         label: "U.S. NREL — photovoltaic efficiency reference",
-        url: "https://www.nrel.gov/",
+        url: "https://www.nlr.gov/pv/cell-efficiency",
       },
     ],
     updatedDate: "2026-05-14",
@@ -1449,7 +1449,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     relatedSources: [
       {
         label: "U.S. NREL — perovskite research",
-        url: "https://www.nrel.gov/pv/perovskite-solar-cells",
+        url: "https://www.nlr.gov/pv/perovskite-solar-cells",
       },
       {
         label: "U.S. DOE Solar Energy Technologies Office",

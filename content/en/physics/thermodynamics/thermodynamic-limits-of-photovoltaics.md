@@ -4,7 +4,7 @@ excerpt: There is a hard upper bound on how much sunlight any single-junction ph
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-02-26'
-updatedDate: '2026-05-08'
+updatedDate: '2026-09-02'
 readingTime: 5
 tags:
   - thermodynamics
@@ -15,7 +15,7 @@ related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
 pillar: thermodynamic-limits-of-photovoltaics
-_bodyHash: ed0ac080
+_bodyHash: 364d758a
 ---
 
 There is a hard upper bound on how much sunlight any single-junction photovoltaic cell can convert to electricity. Under standard solar illumination it sits near 33% — the Shockley-Queisser limit, derived in 1961 and discussed across peer-reviewed photovoltaic literature indexed by [Science](https://www.science.org/) and [Nature](https://www.nature.com/). High-performing silicon [cells](/en/biology/cells/what-is-a-cell) operate close enough to that bound that further gains are increasingly engineering-limited. Knowing where the bound comes from clarifies what counts as fundamental physics and what counts as engineering.
@@ -72,7 +72,7 @@ This is the kind of clarity worth having before placing decade-scale energy bets
 
 ## Sources
 
-1. **NREL** — [Photovoltaic research](https://www.nrel.gov/pv/research.html). U.S. National Renewable Energy Laboratory photovoltaic research and performance context.
+1. **National Laboratory of the Rockies** — [Photovoltaic research](https://www.nlr.gov/pv/research). Photovoltaic research and performance context from the U.S. Department of Energy laboratory formerly named NREL.
 2. **U.S. Department of Energy** — [Solar Energy Technologies Office](https://www.energy.gov/eere/solar). DOE solar-energy research and deployment context.
 3. **Reviews of Modern Physics** — [American Physical Society journals](https://journals.aps.org/rmp/). Peer-reviewed review literature on photovoltaic and thermodynamic limits.
 4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed energy-materials and photovoltaic literature.

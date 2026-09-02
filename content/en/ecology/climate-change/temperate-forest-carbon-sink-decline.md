@@ -22,16 +22,16 @@ faq:
     answer: Replanting helps locally but does not substitute for an intact mature stand on the timescale of climate policy. Young stands store carbon slowly and are more vulnerable to drought and fire during establishment.
   - question: How confident is this finding?
     answer: The direction and magnitude of forest carbon-sink change vary by region, stand age, disturbance history, and climate stress. Inventory networks provide strong evidence for monitoring trends, but future projections should be treated as scenario-dependent.
-_bodyHash: 9602abac
+_bodyHash: 3eb6578c
 ---
 
-Forest inventory plots in Europe and North America have tracked aboveground carbon storage for decades. Public [monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) systems such as [ICP Forests](http://icp-forests.net/), the [USDA Forest Service Forest Inventory and Analysis program](https://www.fia.fs.usda.gov/), and forest assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) show why forest carbon sinks should be treated as measured systems, not assumed constants.
+Forest inventory plots in Europe and North America have tracked aboveground carbon storage for decades. Public [monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) systems such as [ICP Forests](http://icp-forests.net/), the [USDA Forest Service Forest Inventory and Analysis program](https://research.fs.usda.gov/programs/fia), and forest assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) show why forest carbon sinks should be treated as measured systems, not assumed constants.
 
 Some carbon-sink changes may not be visible in coarse greenness indices because canopy condition and woody biomass accumulation are related but not identical. The signal needs inventory, remote-sensing, and disturbance data together.
 
 ## What the long-term plots show
 
-The plot networks involved — [ICP Forests](http://icp-forests.net/) in Europe, the [USDA Forest Service Forest Inventory and Analysis](https://www.fia.fs.usda.gov/) program in the United States, equivalent systems in Canada, the UK, and Japan — were designed in different decades for different purposes. Aligning them required decisions about allometric equations, plot stratification, and the treatment of mortality. Different reasonable choices yield different magnitudes for the deceleration. None yield no deceleration.
+The plot networks involved — [ICP Forests](http://icp-forests.net/) in Europe, the [USDA Forest Service Forest Inventory and Analysis](https://research.fs.usda.gov/programs/fia) program in the United States, equivalent systems in Canada, the UK, and Japan — were designed in different decades for different purposes. Aligning them required decisions about allometric equations, plot stratification, and the treatment of mortality. Different reasonable choices yield different magnitudes for the deceleration. None yield no deceleration.
 
 The signal is strongest in stands aged 40 to 100 years — the cohort that drove much of the late-20th-century terrestrial carbon sink. Younger stands are still accumulating. Older stands were never accumulating much. The middle cohort is the one carrying the productivity loss.
 
@@ -64,7 +64,7 @@ This is not a counsel of despair. The deceleration is detectable in part because
 ## Sources
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 WG I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change (2021). Chapter 5 covers the global carbon cycle and land-sink persistence.
-2. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://www.fia.fs.usda.gov/). Multi-decade U.S. inventory plot network underlying the temperate-sink trend analyses.
+2. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://research.fs.usda.gov/programs/fia). Multi-decade U.S. inventory plot network underlying the temperate-sink trend analyses.
 3. **ICP Forests** — [International Co-operative Programme on Assessment and Monitoring of Air Pollution Effects on Forests](http://icp-forests.net/). The European long-term forest monitoring network.
-4. **FAO** — [The State of the World's Forests](https://www.fao.org/state-of-forests/en/), Food and Agriculture Organization of the United Nations. Global forest extent and condition reporting.
+4. **FAO** — [The State of the World's Forests](https://www.fao.org/publications/fao-flagship-publications/the-state-of-the-worlds-forests/en), Food and Agriculture Organization of the United Nations. Global forest extent and condition reporting.
 5. **UNEP** — [Emissions Gap Report 2024](https://www.unep.org/resources/emissions-gap-report-2024), United Nations Environment Programme. Frames the policy implications of land-sink revisions for net-zero pathways.

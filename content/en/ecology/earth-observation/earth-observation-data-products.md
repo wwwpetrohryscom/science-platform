@@ -1,6 +1,6 @@
 ---
 title: 'Earth observation data products: from raw signal to analysis-ready data'
-excerpt: 'A number recorded by a satellite is not yet science. This explains the processing levels that turn raw instrument data into geophysical measurements, what analysis-ready and surface-reflectance products are, and where the major open archives live.'
+excerpt: A number recorded by a satellite is not yet science. This explains the processing levels that turn raw instrument data into geophysical measurements, what analysis-ready and surface-reflectance products are, and where the major open archives live.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -14,6 +14,7 @@ related:
   - what-is-remote-sensing
   - land-cover-change-detection
   - copernicus-programme-explained
+_bodyHash: d43bb6e1
 ---
 
 A value a satellite records is not yet a measurement of the planet; it is a raw signal that must be transformed before it carries scientific meaning. Earth-observation archives organise that transformation into a ladder of processing levels, each describing how far a product has been moved from the instrument's first reading. Understanding where a product sits on that ladder tells a user how much work has already been done, and how many assumptions already sit inside the number. For the wider context, see our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) hub.

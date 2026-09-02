@@ -15,7 +15,7 @@ tags:
 related:
   - temperate-forest-carbon-sink-decline
   - what-is-climate-change
-_bodyHash: 45466c3e
+_bodyHash: 82ad665e
 ---
 
 Voluntary [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) markets fund a growing amount of forest-[carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications), but their scientific governance remains uneven. The risk, highlighted by public assessments from the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and [climate](/en/ecology/climate-change/what-is-climate-change)-[policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) work from [UNEP](https://www.unep.org/resources/emissions-gap-report-2024), is that offset accounting can be treated as equivalent to direct emissions reductions even when permanence, additionality, and baseline uncertainty remain unresolved.
@@ -49,5 +49,5 @@ The argument is not against carbon markets. It is against the specific arrangeme
 1. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Climate mitigation, carbon-budget, and risk assessment context.
 2. **UNEP** — [Emissions Gap Report 2024](https://www.unep.org/resources/emissions-gap-report-2024). UN Environment Programme assessment of mitigation ambition and emissions pathways.
 3. **European Environment Agency** — [Forests and forestry](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry). Forest carbon, ecosystem-service, and monitoring context.
-4. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://www.fia.fs.usda.gov/). Public forest inventory infrastructure.
+4. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://research.fs.usda.gov/programs/fia). Public forest inventory infrastructure.
 5. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed literature on forest carbon, land-use monitoring, and offsets.

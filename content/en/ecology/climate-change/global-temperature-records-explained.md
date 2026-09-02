@@ -4,7 +4,7 @@ excerpt: There is no single global temperature dataset. There are several, built
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
+updatedDate: '2026-09-02'
 readingTime: 7
 tags:
   - climate-change
@@ -17,6 +17,7 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
+_bodyHash: ceedca9d
 ---
 
 "Global mean surface temperature" is the most familiar climate indicator and also the one most often misread as a single number from a single dataset. It is not. Several independent groups produce global mean temperature records, each from their own combination of raw observations and their own gridding, infilling, and bias-correction methods. They agree to within stated uncertainties — which is the property that makes the trend robust.
@@ -100,4 +101,3 @@ The temperature indicator is most useful when read alongside the others. That is
 5. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024). International annual indicator assessment, including global temperature.
 6. **Copernicus Climate Change Service** — [Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024). ERA5-based annual indicator assessment.
 7. **NASA Earth Observatory** — [Temperature, energy balance, and reanalysis explainers](https://earthobservatory.nasa.gov/). Topic pages on the temperature indicator.
-8. **EPA Climate Change Indicators** — [U.S. and Global Temperature](https://www.epa.gov/climate-indicators). Temperature indicator in the U.S. domestic framework.

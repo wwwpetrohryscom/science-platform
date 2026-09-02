@@ -16,6 +16,7 @@ related:
   - earth-system-predictability-explained
   - ocean-circulation-and-climate
   - earth-system-science-explained
+_bodyHash: e91525df
 ---
 
 A pressure anomaly over Iceland is statistically linked to winter temperatures in Turkey. Nothing physically travels between the two; the link exists because both are expressions of one large-scale circulation pattern. That kind of correlation-at-distance is a **teleconnection**, and the recurring spatial patterns that generate them are **modes of variability**. Together they account for a large share of what looks, in any short record, like climate change.

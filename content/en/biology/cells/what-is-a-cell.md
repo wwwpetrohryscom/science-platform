@@ -15,7 +15,7 @@ related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
-_bodyHash: feabf6d0
+_bodyHash: b2207437
 ---
 
 A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. This operational framing is consistent with [cell-biology](/en/biology/cells/cell-signaling-pathways-basics) reference material available through [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and [genetics](/en/biology/genetics/what-is-dna) definitions from [NHGRI](https://www.genome.gov/genetics-glossary). Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not [cells](/en/biology/cells/coral-microbiome-bleaching-resistance), even though they share some properties of [cells](/en/biology/cells/coral-microbiome-bleaching-resistance).

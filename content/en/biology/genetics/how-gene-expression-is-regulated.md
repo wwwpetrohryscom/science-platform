@@ -16,6 +16,7 @@ related:
   - single-cell-evo-devo
   - cell-signaling-pathways-basics
 pillar: what-is-dna
+_bodyHash: 18bd9c09
 ---
 
 A liver cell and a neuron in the same body carry essentially identical genomes. They look, behave, and metabolise differently because gene expression — the process by which information in [DNA](/en/biology/genetics/what-is-dna) becomes functional protein — is regulated. The accepted reference summaries from the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) and the [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) treat gene-expression regulation as a layered system, with decision points at multiple steps between genome and phenotype.

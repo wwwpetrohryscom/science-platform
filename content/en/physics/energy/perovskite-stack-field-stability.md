@@ -4,7 +4,7 @@ excerpt: Encapsulation, ion-migration suppression, and tandem architectures are 
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-02-21'
-updatedDate: '2026-05-08'
+updatedDate: '2026-09-02'
 readingTime: 4
 tags:
   - photovoltaics
@@ -23,10 +23,10 @@ faq:
     answer: Certified laboratory tandem efficiencies are now high enough to justify pilot deployments, but field efficiency depends on encapsulation, module design, temperature, and degradation. Public claims should distinguish certified cell records from outdoor module performance.
   - question: What about the lead?
     answer: Lead handling at end-of-life remains the largest open environmental issue. Recycling streams designed for silicon panels do not capture lead leachate from damaged perovskite layers. Several research groups are working on lead-sequestering encapsulants and closed-loop recycling protocols, but neither is yet at deployment scale.
-_bodyHash: b2548a72
+_bodyHash: be213f21
 ---
 
-Perovskite single-junction photovoltaic [cells](/en/biology/cells/what-is-a-cell) achieved high laboratory efficiencies years ago, but authoritative overviews from [NREL](https://www.nrel.gov/pv/perovskite-solar-cells) and the [U.S. Department of Energy](https://www.energy.gov/eere/solar/about-solar-energy-technologies-office) still treat stability, environmental compatibility, and scaling as commercialization barriers. For most of the field's history, any honest assessment had to confront the gap between laboratory performance and durable outdoor operation.
+Perovskite single-junction photovoltaic [cells](/en/biology/cells/what-is-a-cell) achieved high laboratory efficiencies years ago, but authoritative overviews from the [National Laboratory of the Rockies](https://www.nlr.gov/pv/perovskite-solar-cells) — the U.S. Department of Energy laboratory formerly named NREL — and from the [Department of Energy](https://www.energy.gov/cmei/systems/integrated-energy-systems-office) still treat stability, environmental compatibility, and scaling as commercialization barriers. For most of the field's history, any honest assessment had to confront the gap between laboratory performance and durable outdoor operation.
 
 That gap is now closing. The reasons it is closing — and the work that remains — are worth understanding in detail because they shape which deployment scenarios become realistic in the next five years.
 
@@ -72,8 +72,8 @@ But the technology has crossed an important threshold: outdoor and module-level 
 
 ## Sources
 
-1. **NREL** — [Perovskite solar cells](https://www.nrel.gov/pv/perovskite-solar-cells). U.S. National Renewable Energy Laboratory overview of perovskite opportunities and commercialization barriers.
-2. **U.S. Department of Energy** — [Solar Energy Technologies Office](https://www.energy.gov/eere/solar/about-solar-energy-technologies-office). DOE program context for photovoltaic research and deployment.
-3. **NREL** — [Photovoltaic research](https://www.nrel.gov/pv/research.html). NREL photovoltaic research, reliability, and system-performance context.
+1. **National Laboratory of the Rockies** — [Perovskite solar cells](https://www.nlr.gov/pv/perovskite-solar-cells). Laboratory overview of perovskite opportunities and commercialization barriers.
+2. **U.S. Department of Energy** — [Integrated Energy Systems Office](https://www.energy.gov/cmei/systems/integrated-energy-systems-office). DOE programme context for photovoltaic research and deployment.
+3. **National Laboratory of the Rockies** — [Photovoltaic research](https://www.nlr.gov/pv/research). Photovoltaic research, reliability, and system-performance context.
 4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed perovskite and photovoltaic materials literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed photovoltaic and energy-materials literature.

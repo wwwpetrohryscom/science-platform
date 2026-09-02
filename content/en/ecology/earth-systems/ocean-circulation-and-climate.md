@@ -16,6 +16,7 @@ related:
   - el-nino-la-nina-enso-explained
   - cryosphere-in-the-earth-system
   - earth-system-tipping-points
+_bodyHash: dc328c4f
 ---
 
 Descriptions of "the ocean conveyor belt" usually merge two physically distinct circulations that happen to be drawn on the same map. Separating them is the first step to understanding why some ocean-climate claims concern next season and others concern the next thousand years.

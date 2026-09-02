@@ -17,6 +17,7 @@ related:
   - ocean-circulation-and-climate
   - earth-system-science-explained
   - earth-system-predictability-explained
+_bodyHash: d90d0032
 ---
 
 The single most consequential recurring pattern in the climate system is not a trend. It is an oscillation in the tropical Pacific that reorganises circulation across half the planet every few years, and it exists because the ocean and atmosphere there are coupled tightly enough to push each other.

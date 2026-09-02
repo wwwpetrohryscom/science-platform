@@ -16,6 +16,7 @@ related:
   - earth-system-predictability-explained
   - essential-climate-variables-explained
   - climate-feedback-mechanisms
+_bodyHash: e6afc61f
 ---
 
 "Climate model" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer. This article describes the change, the international framework these models are run within, and where the resulting projections are weakest.

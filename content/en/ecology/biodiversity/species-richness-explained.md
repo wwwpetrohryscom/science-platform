@@ -1,6 +1,6 @@
 ---
 title: 'Species richness explained: what a count of species can and cannot tell you'
-excerpt: 'Species richness is the simplest biodiversity measure and the easiest to misread. Here is what a count of species actually represents, how sampling effort and area distort it, and the estimators used to make counts comparable.'
+excerpt: Species richness is the simplest biodiversity measure and the easiest to misread. Here is what a count of species actually represents, how sampling effort and area distort it, and the estimators used to make counts comparable.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -15,6 +15,7 @@ related:
   - why-species-counts-mislead-conservation
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 9104dc49
 ---
 
 A count of the distinct species recorded in a place is the most familiar way to summarize biodiversity, and the one most likely to be read too literally. The measure is simple to define and cheap to compute, which explains its reach across surveys, reports, and policy summaries. It also carries hidden assumptions about how, where, and how thoroughly the counting was done, and those assumptions decide how much the number can actually support.

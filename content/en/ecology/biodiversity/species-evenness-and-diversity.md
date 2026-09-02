@@ -1,6 +1,6 @@
 ---
 title: 'Species evenness and diversity indices: why a count is not enough'
-excerpt: 'Two communities with the same number of species can differ sharply in how abundance is shared among them. Evenness, and the Shannon, Simpson, and Hill-number diversity indices that combine it with richness, capture what a raw count leaves out.'
+excerpt: Two communities with the same number of species can differ sharply in how abundance is shared among them. Evenness, and the Shannon, Simpson, and Hill-number diversity indices that combine it with richness, capture what a raw count leaves out.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -15,6 +15,7 @@ related:
   - why-species-counts-mislead-conservation
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
+_bodyHash: a0e69842
 ---
 
 Two communities can hold the same number of species and still describe very different ecological situations. What separates them is how individuals are shared among those species — a property that a simple tally cannot see. Diversity indices were developed to capture that missing dimension, and they remain central to how community change is tracked.

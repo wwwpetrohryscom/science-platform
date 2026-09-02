@@ -16,6 +16,7 @@ related:
   - cryosphere-in-the-earth-system
   - water-vapor-feedback-explained
   - earth-system-science-explained
+_bodyHash: e75de05c
 ---
 
 Of all the amplifying loops in the climate system, this is the one that is easiest to explain and the one most often over-credited. Bright surfaces reflect sunlight; dark surfaces absorb it; melting ice replaces the first with the second. The mechanism is genuine and well quantified. Its global magnitude is smaller than the intuition suggests, and understanding why is more instructive than the mechanism itself.

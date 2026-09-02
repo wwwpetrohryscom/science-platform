@@ -1,6 +1,6 @@
 ---
 title: 'Habitat fragmentation metrics: measuring how landscapes break apart'
-excerpt: 'Habitat loss and habitat fragmentation are related but distinct, and conflating them produces bad conclusions. This explains the landscape metrics — patch size, edge, core area, and connectivity — used to quantify fragmentation, and the live scientific debate about how much it matters independently of habitat amount.'
+excerpt: Habitat loss and habitat fragmentation are related but distinct, and conflating them produces bad conclusions. This explains the landscape metrics — patch size, edge, core area, and connectivity — used to quantify fragmentation, and the live scientific debate about how much it matters independently of habitat amount.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -15,6 +15,7 @@ related:
   - ecological-integrity-indicators
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 68a48b52
 ---
 
 When a forest, wetland, or grassland is carved by roads, fields, and development, it does not simply shrink — it also splits. [Habitat fragmentation](/en/glossary/habitat-fragmentation) describes that splitting: the breaking of once-continuous habitat into smaller, more isolated patches. It is closely tied to habitat loss yet conceptually separate, and keeping the two apart is essential for measuring landscape change well and for the broader work of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).

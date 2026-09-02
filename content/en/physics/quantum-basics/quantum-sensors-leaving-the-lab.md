@@ -15,7 +15,7 @@ related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
 pillar: quantum-sensors-leaving-the-lab
-_bodyHash: 236e4bc2
+_bodyHash: a795b27a
 ---
 
 For much of their history, many high-performance quantum sensors lived in physics laboratories. The instruments — atomic clocks, atom-interferometric gravimeters, [nitrogen](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture)-vacancy magnetometers, optically-pumped magnetometers — were extraordinarily precise but often required specialized infrastructure. [NIST's quantum sensing explainer](https://www.nist.gov/quantum-information-science/quantum-sensing-explained) describes the same transition: quantum sensors are moving from laboratory systems toward more compact [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) tools.

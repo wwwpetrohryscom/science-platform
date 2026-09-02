@@ -15,7 +15,7 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
 pillar: what-is-an-ecosystem
-_bodyHash: 8c5214f
+_bodyHash: 6867ac8
 ---
 
 An ecosystem is the simultaneous flow of [energy](/en/physics/energy/perovskite-stack-field-stability), matter, and information through a community of organisms and their physical surroundings ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). The word "ecosystem" was coined by Arthur Tansley in 1935 specifically to displace the older, more romantic notion of "community" — Tansley wanted a term that emphasized exchange rather than membership.

@@ -4,7 +4,7 @@ excerpt: Climate change refers to the long-term shift in Earth's energy balance 
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-02'
 readingTime: 5
 tags:
   - climate
@@ -23,7 +23,7 @@ faq:
     answer: Global mean temperature is a thermodynamic forcing that drives much larger regional changes — extreme heat days, precipitation patterns, ocean stratification, sea level. The two-degree threshold is not a cliff but a useful threshold beyond which several large feedbacks (Arctic methane, ice sheet dynamics, forest dieback) become more likely to engage.
   - question: What is still genuinely uncertain?
     answer: The magnitude of regional precipitation changes, the timing and reversibility of ice-sheet feedbacks, the response of clouds to warming, and the strength of carbon-cycle feedbacks. The uncertainties are about *how much* and *how fast*, not about whether it is happening or what is causing it.
-_bodyHash: c3586f59
+_bodyHash: ccb496b
 ---
 
 Climate change refers to the long-term shift in Earth's energy balance driven primarily — over the last 150 years — by changes in atmospheric composition. The mechanism is well-established in the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) and summarized for public audiences by [NASA's climate evidence review](https://science.nasa.gov/climate-change/evidence/). The genuinely open questions are different from the ones that public discourse usually emphasizes.
@@ -93,4 +93,4 @@ When you encounter a climate argument, the relevant filter is: which of those fr
 5. **WHO** — [Climate change and health (fact sheet)](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health), World Health Organization, October 2023. Health-impact framing of the scientific consensus.
 6. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024), World Meteorological Organization. Annual global indicator assessment used by the UN climate system.
 7. **Copernicus Climate Change Service** — [Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024), ECMWF / European Commission. Annual European/global indicator products and reanalyses.
-8. **EEA** — [Climate change in depth](https://www.eea.europa.eu/en/topics/in-depth/climate-change), European Environment Agency. European observational record and policy context.
+8. **EEA** — [Climate change impacts, risks and adaptation](https://www.eea.europa.eu/en/topics/in-depth/climate-change-impacts-risks-and-adaptation), European Environment Agency. European observational record and policy context.

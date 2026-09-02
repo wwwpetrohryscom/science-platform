@@ -1,6 +1,6 @@
 ---
 title: 'Remote-sensing limitations and uncertainty: reading satellite data honestly'
-excerpt: 'Satellite data are powerful but never perfect. This sets out the structural limits of remote sensing — resolution trade-offs, cloud, mixed pixels, indirect measurement, and sensor drift — and the validation practices that keep satellite products honest.'
+excerpt: Satellite data are powerful but never perfect. This sets out the structural limits of remote sensing — resolution trade-offs, cloud, mixed pixels, indirect measurement, and sensor drift — and the validation practices that keep satellite products honest.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -14,6 +14,7 @@ related:
   - what-is-remote-sensing
   - earth-observation-data-products
   - land-cover-change-detection
+_bodyHash: ed8c9936
 ---
 
 Satellite measurement is indispensable to environmental science, yet it is bounded in ways that matter for how its results should be read. A map or time series derived from orbit always carries assumptions, gaps, and error that good practice makes explicit rather than hides. This article sets out the main structural limits of [what remote sensing is](/en/ecology/earth-observation/what-is-remote-sensing) and the validation that keeps the resulting products trustworthy; the broader context sits in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) hub.

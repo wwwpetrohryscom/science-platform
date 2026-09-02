@@ -1,6 +1,6 @@
 ---
 title: 'Ocean-colour observations: reading the sea from its colour'
-excerpt: 'The colour of the ocean carries information about the microscopic plants living in it. This explains how satellites estimate phytoplankton from water-leaving light, the missions that have built the record, and why atmospheric correction over water is the hard part.'
+excerpt: The colour of the ocean carries information about the microscopic plants living in it. This explains how satellites estimate phytoplankton from water-leaving light, the missions that have built the record, and why atmospheric correction over water is the hard part.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -14,6 +14,7 @@ related:
   - modis-earth-observation-system
   - sentinel-satellites-explained
   - satellite-altimetry-explained
+_bodyHash: 4e3e45da
 ---
 
 The sea is not a uniform blue. Its precise shade, sampled from orbit, carries information about the microscopic plant life drifting near the surface. By measuring the spectrum of light leaving the water, satellites can estimate how much phytoplankton is present, and that estimate has become one of the steadier threads in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) of the oceans.
