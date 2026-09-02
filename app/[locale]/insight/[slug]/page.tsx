@@ -112,7 +112,7 @@ export default async function InsightPage({ params }: Props) {
       />
 
       <article className="container-page py-12 md:py-16">
-        <nav aria-label="Breadcrumb" className="text-xs text-ink-subtle">
+        <nav aria-label={t("nav.breadcrumb")} className="text-xs text-ink-subtle">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
               <Link href={localizedPath(locale, "/")} className="hover:text-primary-700">

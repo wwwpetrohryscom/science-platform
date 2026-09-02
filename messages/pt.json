@@ -25,7 +25,8 @@
     "skip_to_content": "Ir para o conteúdo",
     "primary": "Principal",
     "primary_mobile": "Principal móvel",
-    "language_switcher": "Mudar idioma"
+    "language_switcher": "Mudar idioma",
+    "breadcrumb": "Trilho de navegação"
   },
   "categories": {
     "ecology": {

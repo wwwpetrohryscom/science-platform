@@ -109,6 +109,7 @@ export async function SubtopicHub({
         />
       )}
       <PageHeading
+        locale={locale}
         eyebrow={t("subtopic_hub.subtopic_eyebrow", { category: categoryLabel })}
         title={subtopicLabel}
         description={subtopicDescription}

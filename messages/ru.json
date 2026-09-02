@@ -25,7 +25,8 @@
     "skip_to_content": "Перейти к содержимому",
     "primary": "Основное",
     "primary_mobile": "Основное (мобильное)",
-    "language_switcher": "Сменить язык"
+    "language_switcher": "Сменить язык",
+    "breadcrumb": "Навигационная цепочка"
   },
   "categories": {
     "ecology": {

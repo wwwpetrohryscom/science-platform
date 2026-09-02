@@ -90,6 +90,7 @@ export default async function DiscussionTopicPage({ params }: Props) {
       />
 
       <PageHeading
+        locale={locale}
         eyebrow={t("discussions.category_eyebrow", { category: categoryLabel })}
         title={discussion.title}
         description={discussion.topic}

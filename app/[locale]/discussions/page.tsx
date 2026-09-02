@@ -36,6 +36,7 @@ export default async function DiscussionsIndexPage({ params }: Props) {
   return (
     <Layout locale={locale}>
       <PageHeading
+        locale={locale}
         eyebrow={t("discussions.eyebrow")}
         title={t("discussions.title")}
         description={t("discussions.description")}

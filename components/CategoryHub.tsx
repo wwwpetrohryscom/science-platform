@@ -92,6 +92,7 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
         />
       )}
       <PageHeading
+        locale={locale}
         eyebrow={t("home.topics_eyebrow")}
         title={label}
         description={description}

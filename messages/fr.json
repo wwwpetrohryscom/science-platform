@@ -25,7 +25,8 @@
     "skip_to_content": "Aller au contenu",
     "primary": "Principal",
     "primary_mobile": "Principal mobile",
-    "language_switcher": "Changer de langue"
+    "language_switcher": "Changer de langue",
+    "breadcrumb": "Fil d'Ariane"
   },
   "categories": {
     "ecology": {
