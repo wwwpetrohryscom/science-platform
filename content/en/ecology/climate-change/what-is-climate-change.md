@@ -15,7 +15,6 @@ related:
   - temperate-forest-carbon-sink-decline
   - communicating-attribution-uncertainty
   - what-is-an-ecosystem
-pillar: what-is-climate-change
 faq:
   - question: Is the warming definitely caused by human activity?
     answer: IPCC and NASA assessments describe human influence on recent warming as established by multiple independent lines of evidence, including atmospheric composition, observed warming patterns, and model attribution. The strongest remaining uncertainties are about regional impacts, feedback strength, and timing, not the basic direction of human influence.

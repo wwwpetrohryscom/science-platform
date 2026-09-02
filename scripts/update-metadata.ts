@@ -76,15 +76,19 @@ async function main() {
       fm.readingTime = estimateReadingTime(w.body);
     }
 
-    // Propagate pillar pointer for non-pillar siblings without one.
-    if (
-      w.kind === "article" &&
-      String(fm.type) !== "pillar" &&
-      !fm.pillar
-    ) {
+    // Propagate pillar pointer for non-pillar siblings without one, and
+    // remove one from a pillar. A pillar that declares itself as its own
+    // pillar makes the hub/spoke relationship circular; eleven articles
+    // in the corpus carried that, so the cleanup runs unconditionally
+    // rather than only on the propagation path.
+    if (w.kind === "article") {
       const key = `${w.locale}/${w.category}/${w.subtopic}`;
-      const pillarSlug = pillars.get(key);
-      if (pillarSlug) fm.pillar = pillarSlug;
+      if (String(fm.type) === "pillar") {
+        delete fm.pillar;
+      } else if (!fm.pillar) {
+        const pillarSlug = pillars.get(key);
+        if (pillarSlug) fm.pillar = pillarSlug;
+      }
     }
 
     await writeDoc(w.filepath, fm, w.body);

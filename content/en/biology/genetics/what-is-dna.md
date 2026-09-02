@@ -14,7 +14,6 @@ tags:
 related:
   - what-is-a-cell
   - single-cell-evo-devo
-pillar: what-is-dna
 faq:
   - question: If DNA is the blueprint, why aren't identical twins identical?
     answer: DNA is not a blueprint — it is a recipe whose execution is sensitive to context. Identical twins share genotype but develop in different prenatal positions, accumulate different mutations, experience different environments, and undergo different epigenetic modifications. The phenotypic differences between identical twins are evidence that DNA underdetermines the organism.

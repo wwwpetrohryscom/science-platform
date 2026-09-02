@@ -14,7 +14,6 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-pillar: why-species-counts-mislead-conservation
 _bodyHash: 6e365baa
 ---
 

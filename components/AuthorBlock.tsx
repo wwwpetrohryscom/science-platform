@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 import type { Author } from "@/lib/authors";
+import { DEFAULT_LOCALE, localizedPath } from "@/lib/i18n";
 
 type AuthorBlockProps = {
   author: Author;
@@ -12,7 +15,14 @@ export function AuthorBlock({ author, variant = "card" }: AuthorBlockProps) {
       <div className="flex items-center gap-3 text-sm">
         <Avatar name={author.name} />
         <div>
-          <p className="font-medium text-ink">{author.name}</p>
+          <p className="font-medium text-ink">
+            <Link
+              href={localizedPath(DEFAULT_LOCALE, `/editorial/${author.id}`)}
+              className="hover:text-primary-700"
+            >
+              {author.name}
+            </Link>
+          </p>
           <p className="text-xs text-ink-subtle">{author.title}</p>
         </div>
       </div>
@@ -27,10 +37,26 @@ export function AuthorBlock({ author, variant = "card" }: AuthorBlockProps) {
           Editorial attribution
         </p>
         <p className="mt-1 font-serif text-lg font-semibold text-ink">
-          {author.name}
+          <Link
+            href={localizedPath(DEFAULT_LOCALE, `/editorial/${author.id}`)}
+            className="hover:text-primary-700"
+          >
+            {author.name}
+          </Link>
         </p>
         <p className="text-sm text-ink-muted">{author.title}</p>
         <p className="mt-3 text-sm leading-relaxed text-ink">{author.bio}</p>
+        <p className="mt-3 text-xs leading-relaxed text-ink-subtle">
+          An editorial desk, not an individual. It carries no academic
+          credential and represents no named scientist —{" "}
+          <Link
+            href={localizedPath(DEFAULT_LOCALE, "/editorial-standards")}
+            className="link-quiet"
+          >
+            why the site is attributed this way
+          </Link>
+          .
+        </p>
       </div>
     </aside>
   );

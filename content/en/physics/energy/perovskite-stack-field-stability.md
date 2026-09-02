@@ -15,7 +15,6 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - quantum-sensors-leaving-the-lab
-pillar: perovskite-stack-field-stability
 faq:
   - question: Are these cells ready for rooftop deployment?
     answer: Not at consumer scale. Pilot deployments in commercial and utility settings are under way, where instrumentation can verify the lab-to-field translation.

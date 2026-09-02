@@ -16,7 +16,7 @@
  * linking gets expensive and produces inconsistent results across pages.
  */
 
-export const DEFAULT_LINK_LIMIT = 8;
+export const DEFAULT_LINK_LIMIT = 5;
 export const RELATED_LINK_LIMIT = 3;
 
 /** A single article's contribution to the link graph. */
@@ -43,14 +43,37 @@ export type KeywordEntry = {
 };
 
 /**
+ * Minimum words in a link anchor.
+ *
+ * Single-word keywords are the mechanism behind anchor stuffing. An
+ * index that contains "carbon", "cells", "energy" or "measurement"
+ * will match those words somewhere in almost every article and link
+ * them — frequently in a sense the target page is not about. The
+ * corpus accumulated links like `[cells](/en/biology/cells/what-is-a-cell)`
+ * inside a sentence about photovoltaic cells, and
+ * `[measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications)`
+ * inside a sentence about forest-carbon measurement.
+ *
+ * Requiring two words does not fix wrong-sense linking on its own, but
+ * it removes the class of keyword that makes it near-certain.
+ */
+export const MIN_ANCHOR_WORDS = 2;
+
+function wordsIn(s: string): number {
+  return s.trim().split(/\s+/).filter(Boolean).length;
+}
+
+/**
  * Build the keyword index for a set of articles. Pillars have higher
  * priority than SEO articles, which have higher priority than expert
  * pieces — so an SEO article will link UP to its pillar before linking
  * sideways.
  *
- * Keywords come from: article title, tags, and a humanized form of
- * the slug. Length-sorted descending so multi-word phrases win over
+ * Keywords come from: article title, multi-word tags, and a humanized
+ * form of the slug. Length-sorted descending so longer phrases win over
  * substring matches.
+ *
+ * Single-word candidates are dropped entirely — see MIN_ANCHOR_WORDS.
  */
 export function buildKeywordIndex(articles: LinkableArticle[]): KeywordEntry[] {
   const entries: KeywordEntry[] = [];
@@ -58,11 +81,12 @@ export function buildKeywordIndex(articles: LinkableArticle[]): KeywordEntry[] {
     const priority = a.type === "pillar" ? 100 : a.type === "seo" ? 50 : 30;
     const candidates = new Set<string>();
     candidates.add(a.title);
-    for (const tag of a.tags) candidates.add(tag);
+    for (const tag of a.tags) candidates.add(tag.replace(/-/g, " "));
     candidates.add(a.slug.replace(/-/g, " "));
     for (const raw of candidates) {
       const keyword = raw.trim();
-      if (keyword.length < 4) continue;
+      if (keyword.length < 8) continue;
+      if (wordsIn(keyword) < MIN_ANCHOR_WORDS) continue;
       entries.push({
         keyword,
         url: a.url,
@@ -80,7 +104,15 @@ export function buildKeywordIndex(articles: LinkableArticle[]): KeywordEntry[] {
 export type InjectResult = {
   body: string;
   injected: { keyword: string; url: string }[];
-  skipped: { keyword: string; reason: "not-found" | "self" | "limit" }[];
+  skipped: {
+    keyword: string;
+    reason:
+      | "not-found"
+      | "self"
+      | "limit"
+      | "duplicate-target"
+      | "anchor-too-short";
+  }[];
 };
 
 /**
@@ -137,6 +169,11 @@ export function injectInternalLinks(
   const injected: { keyword: string; url: string }[] = [];
   const skipped: InjectResult["skipped"] = [];
   const used = new Set<string>();
+  // One link per destination per article. Without this the same target
+  // was linked three, four, even six times from one page — which reads
+  // as anchor stuffing to a reader and to a crawler, and adds nothing
+  // after the first occurrence.
+  const linkedTargets = new Set<string>();
 
   for (const entry of index) {
     if (injected.length >= limit) {
@@ -145,6 +182,14 @@ export function injectInternalLinks(
     }
     if (entry.ownerSlug === selfSlug) {
       skipped.push({ keyword: entry.keyword, reason: "self" });
+      continue;
+    }
+    if (linkedTargets.has(entry.url)) {
+      skipped.push({ keyword: entry.keyword, reason: "duplicate-target" });
+      continue;
+    }
+    if (wordsIn(entry.keyword) < MIN_ANCHOR_WORDS) {
+      skipped.push({ keyword: entry.keyword, reason: "anchor-too-short" });
       continue;
     }
     const kwLower = entry.keyword.toLowerCase();
@@ -164,6 +209,7 @@ export function injectInternalLinks(
     const newLink = `[${m[0]}](${entry.url})`;
     working = `${before}${maskOne(newLink)}${after}`;
     used.add(kwLower);
+    linkedTargets.add(entry.url);
     injected.push({ keyword: entry.keyword, url: entry.url });
   }
 

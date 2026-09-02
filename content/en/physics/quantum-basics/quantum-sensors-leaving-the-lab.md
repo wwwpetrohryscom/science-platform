@@ -14,7 +14,6 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
-pillar: quantum-sensors-leaving-the-lab
 _bodyHash: a795b27a
 ---
 

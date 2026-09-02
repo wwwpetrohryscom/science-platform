@@ -14,7 +14,6 @@ tags:
 related:
   - single-cell-evo-devo
   - what-is-a-cell
-pillar: cell-types-as-units-of-evolution
 _bodyHash: e42dacb8
 ---
 

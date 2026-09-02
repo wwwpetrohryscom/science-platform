@@ -14,7 +14,6 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
-pillar: what-is-an-ecosystem
 _bodyHash: 6867ac8
 ---
 

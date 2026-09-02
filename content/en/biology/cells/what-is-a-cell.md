@@ -14,7 +14,6 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
-pillar: what-is-a-cell
 _bodyHash: b2207437
 ---
 
