@@ -164,7 +164,9 @@
     "browse_cta": "Browse {category} →",
     "article_count_one": "{count} article",
     "article_count_other": "{count} articles",
-    "meta_title": "{category} — articles, analyses, and field notes"
+    "meta_title": "{category} — articles, analyses, and field notes",
+    "faq_heading": "Frequently asked about {category}",
+    "faq_description": "Short, source-backed answers to questions that come up repeatedly in this subject area."
   },
   "subtopic_hub": {
     "start_here": "Start here",
@@ -267,5 +269,22 @@
     "save": "Save choices",
     "reject": "Reject non-essential",
     "accept": "Accept all"
+  },
+  "hub": {
+    "topic_scope": "Coverage is organised into {count} subtopics, each maintained against primary sources.",
+    "subtopic_scope": "{count} articles sit here, arranged below from foundations through methods to the questions still open.",
+    "subtopic_scope_pillar": "{count} articles sit here. Start with {pillar}; the rest are arranged from foundations through methods to the questions still open.",
+    "sources_heading": "Organisations this subject area is sourced from",
+    "sources_description": "The registry of bodies behind the evidence in this section. Individual articles cite the specific pages they rest on; these are the institutions those pages come from.",
+    "methodology": "Articles in this section are written from intergovernmental assessments, national scientific agencies and the peer-reviewed literature. Where credible sources disagree, the page reports the disagreement rather than choosing a number.",
+    "explore_topic": "Explore {topic}",
+    "more_in_subtopic": "More in {subtopic}"
+  },
+  "evidence": {
+    "citations": "{count} external citations are linked in this article. Each points to a primary source, an institutional report, or a published dataset.",
+    "citations_one": "One external citation is linked in this article.",
+    "attribution": "Attributed to the {desk} — an editorial desk, not an individual.",
+    "policy_link": "How sources are chosen and checked",
+    "last_updated": "Last updated"
   }
 }

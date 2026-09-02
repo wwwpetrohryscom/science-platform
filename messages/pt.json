@@ -174,7 +174,9 @@
     "browse_cta": "Explorar {category} →",
     "article_count_one": "{count} artigo",
     "article_count_other": "{count} artigos",
-    "meta_title": "{category} — artigos, análises e notas de campo"
+    "meta_title": "{category} — artigos, análises e notas de campo",
+    "faq_heading": "Perguntas frequentes — {category}",
+    "faq_description": "Respostas breves e com fontes às perguntas que surgem repetidamente nesta área."
   },
   "subtopic_hub": {
     "start_here": "Comece aqui",
@@ -277,5 +279,22 @@
     "save": "Guardar escolhas",
     "reject": "Recusar não essenciais",
     "accept": "Aceitar todos"
+  },
+  "hub": {
+    "topic_scope": "A cobertura está organizada em {count} subtemas, cada um sustentado por fontes primárias.",
+    "subtopic_scope": "Estão aqui {count} artigos, ordenados abaixo dos fundamentos aos métodos e às questões ainda em aberto.",
+    "subtopic_scope_pillar": "Estão aqui {count} artigos. Comece por {pillar}; os restantes vão dos fundamentos aos métodos e às questões ainda em aberto.",
+    "sources_heading": "Organismos em que esta área se apoia",
+    "sources_description": "O registo das instituições por trás da evidência desta secção. Cada artigo cita as páginas concretas em que assenta; são estes os organismos de onde vêm.",
+    "methodology": "Os artigos desta secção são escritos a partir de avaliações intergovernamentais, agências científicas nacionais e literatura revista por pares. Quando fontes credíveis divergem, a página relata a divergência em vez de escolher um número.",
+    "explore_topic": "Explorar {topic}",
+    "more_in_subtopic": "Mais sobre {subtopic}"
+  },
+  "evidence": {
+    "citations": "Este artigo liga {count} citações externas. Cada uma aponta para uma fonte primária, um relatório institucional ou um conjunto de dados publicado.",
+    "citations_one": "Este artigo liga uma citação externa.",
+    "attribution": "Atribuído à mesa {desk} — uma mesa editorial, não uma pessoa.",
+    "policy_link": "Como as fontes são escolhidas e verificadas",
+    "last_updated": "Última atualização"
   }
 }

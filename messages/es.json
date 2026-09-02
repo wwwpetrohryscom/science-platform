@@ -174,7 +174,9 @@
     "browse_cta": "Explorar {category} →",
     "article_count_one": "{count} artículo",
     "article_count_other": "{count} artículos",
-    "meta_title": "{category} — artículos, análisis y notas de campo"
+    "meta_title": "{category} — artículos, análisis y notas de campo",
+    "faq_heading": "Preguntas frecuentes — {category}",
+    "faq_description": "Respuestas breves y con fuentes a las preguntas que se repiten en esta área."
   },
   "subtopic_hub": {
     "start_here": "Empezar aquí",
@@ -277,5 +279,22 @@
     "save": "Guardar mis opciones",
     "reject": "Rechazar las no esenciales",
     "accept": "Aceptar todas"
+  },
+  "hub": {
+    "topic_scope": "La cobertura se organiza en {count} subtemas, cada uno respaldado por fuentes primarias.",
+    "subtopic_scope": "Aquí hay {count} artículos, ordenados a continuación desde los fundamentos hasta los métodos y las preguntas todavía abiertas.",
+    "subtopic_scope_pillar": "Aquí hay {count} artículos. Empiece por {pillar}; el resto va de los fundamentos a los métodos y a las preguntas todavía abiertas.",
+    "sources_heading": "Organismos en los que se apoya esta área",
+    "sources_description": "El registro de instituciones que respaldan la evidencia de esta sección. Cada artículo cita las páginas concretas en las que se apoya; estos son los organismos de los que proceden.",
+    "methodology": "Los artículos de esta sección se escriben a partir de evaluaciones intergubernamentales, agencias científicas nacionales y literatura revisada por pares. Cuando fuentes solventes discrepan, la página informa de la discrepancia en lugar de elegir una cifra.",
+    "explore_topic": "Explorar {topic}",
+    "more_in_subtopic": "Más sobre {subtopic}"
+  },
+  "evidence": {
+    "citations": "Este artículo enlaza {count} citas externas. Cada una apunta a una fuente primaria, a un informe institucional o a un conjunto de datos publicado.",
+    "citations_one": "Este artículo enlaza una cita externa.",
+    "attribution": "Atribuido a la mesa {desk}: una mesa editorial, no una persona.",
+    "policy_link": "Cómo se eligen y comprueban las fuentes",
+    "last_updated": "Última actualización"
   }
 }

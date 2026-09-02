@@ -174,7 +174,9 @@
     "browse_cta": "{category} durchsuchen →",
     "article_count_one": "{count} Artikel",
     "article_count_other": "{count} Artikel",
-    "meta_title": "{category} — Artikel, Analysen und Feldnotizen"
+    "meta_title": "{category} — Artikel, Analysen und Feldnotizen",
+    "faq_heading": "Häufige Fragen zu {category}",
+    "faq_description": "Kurze, belegte Antworten auf Fragen, die in diesem Bereich immer wieder auftauchen."
   },
   "subtopic_hub": {
     "start_here": "Hier beginnen",
@@ -277,5 +279,22 @@
     "save": "Auswahl speichern",
     "reject": "Nicht notwendige ablehnen",
     "accept": "Alle akzeptieren"
+  },
+  "hub": {
+    "topic_scope": "Der Bereich ist in {count} Themenfelder gegliedert, die jeweils an Primärquellen geführt werden.",
+    "subtopic_scope": "Hier stehen {count} Artikel, unten geordnet von den Grundlagen über die Methoden bis zu den offenen Fragen.",
+    "subtopic_scope_pillar": "Hier stehen {count} Artikel. Beginnen Sie mit {pillar}; die übrigen sind von den Grundlagen über die Methoden bis zu den offenen Fragen geordnet.",
+    "sources_heading": "Institutionen, auf die sich dieser Bereich stützt",
+    "sources_description": "Das Verzeichnis der Institutionen hinter der Evidenz in diesem Bereich. Jeder Artikel zitiert die konkreten Seiten, auf denen er beruht; von diesen Häusern stammen sie.",
+    "methodology": "Die Artikel in diesem Bereich entstehen aus zwischenstaatlichen Sachstandsberichten, nationalen Wissenschaftsbehörden und begutachteter Literatur. Wo seriöse Quellen abweichen, benennt die Seite die Abweichung, statt sich für eine Zahl zu entscheiden.",
+    "explore_topic": "{topic} erkunden",
+    "more_in_subtopic": "Mehr zu {subtopic}"
+  },
+  "evidence": {
+    "citations": "In diesem Artikel sind {count} externe Belege verlinkt. Jeder verweist auf eine Primärquelle, einen institutionellen Bericht oder einen veröffentlichten Datensatz.",
+    "citations_one": "In diesem Artikel ist ein externer Beleg verlinkt.",
+    "attribution": "Zugeschrieben der Redaktion {desk} — einer Redaktion, keiner Person.",
+    "policy_link": "Wie Quellen ausgewählt und geprüft werden",
+    "last_updated": "Zuletzt aktualisiert"
   }
 }

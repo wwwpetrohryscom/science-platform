@@ -174,7 +174,9 @@
     "browse_cta": "Parcourir {category} →",
     "article_count_one": "{count} article",
     "article_count_other": "{count} articles",
-    "meta_title": "{category} — articles, analyses et notes de terrain"
+    "meta_title": "{category} — articles, analyses et notes de terrain",
+    "faq_heading": "Questions fréquentes — {category}",
+    "faq_description": "Réponses brèves et sourcées aux questions qui reviennent le plus souvent dans ce domaine."
   },
   "subtopic_hub": {
     "start_here": "Commencer ici",
@@ -277,5 +279,22 @@
     "save": "Enregistrer mes choix",
     "reject": "Refuser les non essentiels",
     "accept": "Tout accepter"
+  },
+  "hub": {
+    "topic_scope": "La couverture est organisée en {count} sous-thématiques, chacune adossée à des sources primaires.",
+    "subtopic_scope": "{count} articles figurent ici, classés ci-dessous des fondements aux méthodes, puis aux questions encore ouvertes.",
+    "subtopic_scope_pillar": "{count} articles figurent ici. Commencez par {pillar} ; les autres sont classés des fondements aux méthodes, puis aux questions encore ouvertes.",
+    "sources_heading": "Organismes sur lesquels s'appuie ce domaine",
+    "sources_description": "Le registre des institutions à l'origine des preuves utilisées dans cette section. Chaque article cite les pages précises sur lesquelles il repose ; voici les organismes dont elles proviennent.",
+    "methodology": "Les articles de cette section s'appuient sur des évaluations intergouvernementales, des agences scientifiques nationales et la littérature à comité de lecture. Lorsque des sources crédibles divergent, la page rapporte le désaccord plutôt que de trancher.",
+    "explore_topic": "Explorer {topic}",
+    "more_in_subtopic": "Plus sur {subtopic}"
+  },
+  "evidence": {
+    "citations": "{count} références externes sont liées dans cet article. Chacune renvoie à une source primaire, à un rapport institutionnel ou à un jeu de données publié.",
+    "citations_one": "Une référence externe est liée dans cet article.",
+    "attribution": "Attribué à la rédaction {desk} — une rédaction, non une personne.",
+    "policy_link": "Comment les sources sont choisies et vérifiées",
+    "last_updated": "Dernière mise à jour"
   }
 }

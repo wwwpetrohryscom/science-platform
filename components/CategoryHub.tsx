@@ -3,7 +3,6 @@ import { PageHeading } from "@/components/PageHeading";
 import { SubtopicCard } from "@/components/SubtopicCard";
 import { ArticleCard } from "@/components/ArticleCard";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
-import { GeneratedBlock } from "@/components/GeneratedBlock";
 import { SourceList } from "@/components/SourceList";
 import { FaqBlock } from "@/components/FaqBlock";
 
@@ -13,13 +12,7 @@ import {
   getPillarForSubtopic,
   getSubtopicCounts,
 } from "@/lib/content";
-import {
-  generateMethodologyNote,
-  generateSourceBlock,
-  generateTopicExplanation,
-  generateTopicIntro,
-  listSourcesForTopic,
-} from "@/lib/content/generators";
+import { listSourcesForTopic } from "@/lib/content/generators";
 import { getTopicFaqs } from "@/lib/content/faqs";
 import {
   breadcrumbJsonLd,
@@ -27,6 +20,7 @@ import {
   faqJsonLd,
 } from "@/lib/seo";
 import {
+  DEFAULT_LOCALE,
   getMessages,
   localeMeta,
   localizedPath,
@@ -58,10 +52,6 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
 
   const latest = allArticles.slice(0, 6);
 
-  const topicIntro = generateTopicIntro(category);
-  const topicExplanation = generateTopicExplanation(category);
-  const methodology = generateMethodologyNote(category);
-  const sourceBlock = generateSourceBlock(category);
   const sources = listSourcesForTopic(category);
   const faqs = getTopicFaqs(category);
 
@@ -82,7 +72,8 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
       (a) => ({ name: a.title, path: a.url }),
     ),
   });
-  const faqLd = faqs.length > 0 ? faqJsonLd(faqs) : null;
+  const faqLd =
+    locale === DEFAULT_LOCALE && faqs.length > 0 ? faqJsonLd(faqs) : null;
 
   return (
     <Layout locale={locale}>
@@ -108,18 +99,13 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
         crumbs={[{ label: t("nav.home"), href: localizedPath(locale, "/") }]}
       />
 
-      {/* Generated topic intro — always rendered server-side. */}
-      <section
-        aria-labelledby="topic-intro-heading"
-        className="container-page mt-10 max-w-3xl"
-      >
-        <h2 id="topic-intro-heading" className="sr-only">
-          About {label}
-        </h2>
-        <GeneratedBlock block={topicIntro} variant="intro" />
-        <div className="mt-6">
-          <GeneratedBlock block={topicExplanation} variant="explanation" />
-        </div>
+      {/* Scope line. Derived from the taxonomy and localized, replacing
+          a template-composed English paragraph that read the same way on
+          every locale and added nothing the description did not. */}
+      <section className="container-page mt-10 max-w-3xl">
+        <p className="text-base leading-relaxed text-ink-muted">
+          {t("hub.topic_scope", { count: def.subtopics.length })}
+        </p>
       </section>
 
       {/* Subtopics */}
@@ -207,24 +193,25 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
         >
           {t("common.methodology_sources")}
         </h2>
-        <div className="mt-4">
-          <GeneratedBlock block={methodology} variant="explanation" />
-        </div>
-        <div className="mt-4">
-          <GeneratedBlock block={sourceBlock} variant="explanation" />
-        </div>
+        <p className="mt-4 text-base leading-relaxed text-ink-muted">
+          {t("hub.methodology")}
+        </p>
         <SourceList
           sources={sources}
-          heading={`Curated sources for ${label}`}
-          description={`Citations in ${label.toLowerCase()} articles are validated against this registry of recognised research bodies.`}
+          heading={t("hub.sources_heading")}
+          description={t("hub.sources_description")}
           limit={8}
         />
       </section>
 
-      {faqs.length > 0 && (
+      {/* The FAQ registry is English-only, and an English FAQPage under a
+          localized URL is both untranslated content and a schema claim in
+          the wrong language. Rendered on EN alone until the registry is
+          translated. */}
+      {locale === DEFAULT_LOCALE && faqs.length > 0 && (
         <FaqBlock
-          heading={`Frequently asked about ${label.toLowerCase()}`}
-          description="Short, source-backed answers to common questions about this topic area."
+          heading={t("category_hub.faq_heading", { category: label })}
+          description={t("category_hub.faq_description")}
           items={faqs}
         />
       )}
