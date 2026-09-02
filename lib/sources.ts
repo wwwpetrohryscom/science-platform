@@ -803,6 +803,118 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       topicRelevance: "Peer-reviewed climate, ecology, and sustainability research",
       lastReviewed: "2026-09-02",
     },
+    {
+      name: "DOI resolver",
+      organization: "International DOI Foundation",
+      url: "https://doi.org/",
+      type: "peer-reviewed",
+      topicRelevance: "Persistent identifier resolving to the publisher of record for a cited work",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "World Weather Attribution",
+      organization: "World Weather Attribution",
+      url: "https://www.worldweatherattribution.org/",
+      type: "peer-reviewed",
+      topicRelevance: "Rapid extreme-event attribution studies and their published methodology",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "ScienceDirect",
+      organization: "Elsevier",
+      url: "https://www.sciencedirect.com/",
+      type: "peer-reviewed",
+      topicRelevance: "Peer-reviewed journals across ecology, environmental science and physics",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Oxford Academic",
+      organization: "Oxford University Press",
+      url: "https://academic.oup.com/",
+      type: "peer-reviewed",
+      topicRelevance: "Peer-reviewed society journals including BioScience and Conservation Physiology",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "U.S. Fish and Wildlife Service",
+      organization: "U.S. Department of the Interior",
+      url: "https://www.fws.gov/",
+      type: "primary",
+      topicRelevance: "Endangered Species Act listings, recovery plans and species status assessments",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "National Academies of Sciences, Engineering, and Medicine",
+      organization: "NASEM",
+      url: "https://www.nationalacademies.org/",
+      type: "report",
+      topicRelevance: "Consensus study reports synthesising evidence for U.S. policy",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "JRC Publications Repository",
+      organization: "European Commission Joint Research Centre",
+      url: "https://publications.jrc.ec.europa.eu/",
+      type: "report",
+      topicRelevance: "EU technical and scientific reports underpinning environmental policy",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Protected Planet",
+      organization: "UNEP-WCMC and IUCN",
+      url: "https://protectedplanet.net/",
+      type: "dataset",
+      topicRelevance: "World Database on Protected Areas and its coverage reporting",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "IUCN Library and portals",
+      organization: "IUCN",
+      url: "https://iucn.org/",
+      type: "report",
+      topicRelevance: "IUCN technical publications, guidelines and specialist-group outputs",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "NSF Public Access Repository",
+      organization: "U.S. National Science Foundation",
+      url: "https://par.nsf.gov/",
+      type: "peer-reviewed",
+      topicRelevance: "Accepted manuscripts of NSF-funded peer-reviewed research",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "White Rose Research Online",
+      organization: "White Rose University Consortium",
+      url: "https://eprints.whiterose.ac.uk/",
+      type: "peer-reviewed",
+      topicRelevance: "Institutional repository copies of peer-reviewed research; cite alongside the DOI where possible",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Kent Academic Repository",
+      organization: "University of Kent",
+      url: "https://kar.kent.ac.uk/",
+      type: "peer-reviewed",
+      topicRelevance: "Institutional repository copies of peer-reviewed research; cite alongside the DOI where possible",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Staatsbosbeheer",
+      organization: "Netherlands State Forestry Service",
+      url: "https://www.staatsbosbeheer.nl/",
+      type: "primary",
+      topicRelevance: "National land-management agency; primary record for Dutch reserve management case material",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "PubMed Central",
+      organization: "NCBI",
+      url: "https://pmc.ncbi.nlm.nih.gov/",
+      type: "peer-reviewed",
+      topicRelevance: "Full-text archive of peer-reviewed literature, including ecology and environmental papers deposited under public-access mandates",
+      lastReviewed: "2026-09-02",
+    },
   ],
   biology: [
     {
@@ -1052,6 +1164,38 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       url: "https://www.cdc.gov/",
       type: "primary",
       topicRelevance: "Public-health surveillance and infectious-disease reference material",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "PubMed Central",
+      organization: "NCBI",
+      url: "https://pmc.ncbi.nlm.nih.gov/",
+      type: "peer-reviewed",
+      topicRelevance: "Full-text archive of peer-reviewed biomedical and life-science literature",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "DOI resolver",
+      organization: "International DOI Foundation",
+      url: "https://doi.org/",
+      type: "peer-reviewed",
+      topicRelevance: "Persistent identifier resolving to the publisher of record for a cited work",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "ScienceDirect",
+      organization: "Elsevier",
+      url: "https://www.sciencedirect.com/",
+      type: "peer-reviewed",
+      topicRelevance: "Peer-reviewed journals across the life sciences",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Oxford Academic",
+      organization: "Oxford University Press",
+      url: "https://academic.oup.com/",
+      type: "peer-reviewed",
+      topicRelevance: "Peer-reviewed journals including Molecular Biology and Evolution and Systematic Biology",
       lastReviewed: "2026-09-02",
     },
   ],
@@ -1386,6 +1530,54 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       topicRelevance: "Radiative transfer, climate modelling, and surface temperature analysis",
       lastReviewed: "2026-09-02",
     },
+    {
+      name: "DOI resolver",
+      organization: "International DOI Foundation",
+      url: "https://doi.org/",
+      type: "peer-reviewed",
+      topicRelevance: "Persistent identifier resolving to the publisher of record for a cited work",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "ScienceDirect",
+      organization: "Elsevier",
+      url: "https://www.sciencedirect.com/",
+      type: "peer-reviewed",
+      topicRelevance: "Peer-reviewed journals across physics, energy and materials",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Oxford Academic",
+      organization: "Oxford University Press",
+      url: "https://academic.oup.com/",
+      type: "peer-reviewed",
+      topicRelevance: "Peer-reviewed physics and geophysics journals",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "National Academies of Sciences, Engineering, and Medicine",
+      organization: "NASEM",
+      url: "https://www.nationalacademies.org/",
+      type: "report",
+      topicRelevance: "Consensus study reports on energy, nuclear and materials questions",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "NSF Public Access Repository",
+      organization: "U.S. National Science Foundation",
+      url: "https://par.nsf.gov/",
+      type: "peer-reviewed",
+      topicRelevance: "Accepted manuscripts of NSF-funded peer-reviewed research",
+      lastReviewed: "2026-09-02",
+    },
+    {
+      name: "PubMed Central",
+      organization: "NCBI",
+      url: "https://pmc.ncbi.nlm.nih.gov/",
+      type: "peer-reviewed",
+      topicRelevance: "Full-text archive of peer-reviewed literature, including ecology and environmental papers deposited under public-access mandates",
+      lastReviewed: "2026-09-02",
+    },
   ],
 };
 
@@ -1441,9 +1633,20 @@ export function isAuthoritativeUrlAnyCategory(url: string): boolean {
   return false;
 }
 
+/**
+ * Hostname, lowercased, with a leading `www.` removed.
+ *
+ * The suffix match below asks "is this citation from a registered
+ * organization", but it was comparing raw hostnames, so a registry entry
+ * written as `www.iucn.org` failed to match a citation of `iucn.org` or
+ * `portals.iucn.org`, and `www.ncbi.nlm.nih.gov` failed to match
+ * `pmc.ncbi.nlm.nih.gov`. Those are the same organization by any reading;
+ * the rule was checking the form of the string rather than the thing it
+ * was supposed to identify. Normalising both sides fixes the whole class.
+ */
 function safeHost(url: string): string | null {
   try {
-    return new URL(url).hostname.toLowerCase();
+    return new URL(url).hostname.toLowerCase().replace(/^www\./, "");
   } catch {
     return null;
   }
