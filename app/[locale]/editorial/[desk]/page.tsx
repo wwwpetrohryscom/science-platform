@@ -13,6 +13,7 @@ import {
   buildMetadata,
   breadcrumbJsonLd,
   collectionPageJsonLd,
+  editorialDeskJsonLd,
 } from "@/lib/seo";
 import {
   DEFAULT_LOCALE,
@@ -103,8 +104,19 @@ export default async function EditorialDeskPage({ params }: Props) {
     items: articles.map((a) => ({ name: a.title, path: a.url })),
   });
 
+  const deskLd = editorialDeskJsonLd({
+    id: desk.id,
+    name: desk.name,
+    description: describe(desk.id),
+    knowsAbout: desk.expertise,
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(deskLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}

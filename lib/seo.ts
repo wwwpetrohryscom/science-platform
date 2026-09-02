@@ -279,6 +279,9 @@ export function articleJsonLd(input: {
   publishedDate: string;
   updatedDate: string;
   authorName: string;
+  /** Editorial desk id. Emits a resolvable @id/url for the desk page so
+   *  the byline is a node in the graph rather than a bare string. */
+  authorId?: string;
   image?: string;
 }) {
   const image = input.image ?? siteConfig.defaultOgImage;
@@ -291,9 +294,25 @@ export function articleJsonLd(input: {
     datePublished: input.publishedDate,
     dateModified: input.updatedDate,
     // Authors are editorial desks (per upstream "remove unsupported
-    // attribution" policy), not individual experts. Publisher is
+    // attribution" policy), not individual experts. Emitting Person here
+    // would assert a human byline the site cannot support. Publisher is
     // referenced by `@id` to the Organization JSON-LD on the layout.
-    author: { "@type": "Organization", name: input.authorName },
+    author: {
+      "@type": "Organization",
+      name: input.authorName,
+      ...(input.authorId
+        ? {
+            "@id": new URL(
+              `/en/editorial/${input.authorId}#desk`,
+              siteConfig.url,
+            ).toString(),
+            url: new URL(
+              `/en/editorial/${input.authorId}`,
+              siteConfig.url,
+            ).toString(),
+          }
+        : {}),
+    },
     publisher: { "@id": new URL("/#organization", siteConfig.url).toString() },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -376,6 +395,36 @@ export function collectionPageJsonLd(input: {
         name: item.name,
         url: new URL(item.path, siteConfig.url).toString(),
       })),
+    },
+  };
+}
+
+/**
+ * JSON-LD for an editorial desk.
+ *
+ * Emitted as an Organization sub-organization of the publisher, with the
+ * same `@id` the Article JSON-LD points its `author` at, so the byline
+ * resolves to a real node in the graph. Deliberately NOT a Person: a
+ * desk has no individual behind it, and asserting one would be the exact
+ * false-authority claim the attribution policy exists to prevent.
+ */
+export function editorialDeskJsonLd(input: {
+  id: string;
+  name: string;
+  description: string;
+  knowsAbout: readonly string[];
+}) {
+  const url = new URL(`/en/editorial/${input.id}`, siteConfig.url).toString();
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${url}#desk`,
+    url,
+    name: input.name,
+    description: input.description,
+    knowsAbout: [...input.knowsAbout],
+    parentOrganization: {
+      "@id": new URL("/#organization", siteConfig.url).toString(),
     },
   };
 }

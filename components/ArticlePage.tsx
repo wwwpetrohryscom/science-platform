@@ -115,6 +115,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
     publishedDate: article.publishedDate,
     updatedDate: article.updatedDate,
     authorName: article.author.name,
+    authorId: article.author.id,
     image: article.heroImage,
   });
   const faqLd =

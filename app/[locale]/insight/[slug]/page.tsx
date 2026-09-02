@@ -122,6 +122,7 @@ export default async function InsightPage({ params }: Props) {
     publishedDate: insight.publishedDate,
     updatedDate: insight.updatedDate,
     authorName: insight.author.name,
+    authorId: insight.author.id,
   });
   const breadcrumbLd = breadcrumbJsonLd([
     { name: t("nav.home"), path: localizedPath(locale, "/") },
