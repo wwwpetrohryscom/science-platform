@@ -1,5 +1,5 @@
 ---
-title: 'Uncertainty is not lost gradually; it is dropped at one identifiable step'
+title: Uncertainty is not lost gradually; it is dropped at one identifiable step
 excerpt: Environmental numbers carry explicit qualifiers through the instrument, the dataset and the assessment, then lose them in a single act of compression. The qualifier that vanishes is almost always a probability, a period or a baseline.
 argument: The uncertainty attached to an environmental measurement survives the technical chain intact and is discarded at the point a finding is compressed into one sentence. What disappears is rarely the error bar alone; it is the condition — a likelihood, an averaging period, a reference baseline — without which the number answers a different question.
 category: ecology
@@ -18,6 +18,7 @@ related:
   - sea-level-rise-indicators
   - carbon-budgets-and-remaining-emissions
   - measurement-uncertainty-explained
+_bodyHash: 5acf14c6
 ---
 
 A published environmental figure passes through at least five hands: the instrument, the dataset that assembles many instruments, the assessment that reconciles several datasets, the summary that states the assessment's finding, and whatever repeats the summary afterwards. Uncertainty is stated explicitly at the first four. It is almost always gone by the fifth, and the loss is not gradual erosion — it happens in one step, when a finding is compressed into a single quotable sentence.
@@ -26,7 +27,7 @@ The interesting part is what gets deleted. It is rarely only the error bar. It i
 
 ## The technical chain is scrupulous about this
 
-The IPCC's guidance on treating uncertainty separates two things that ordinary language runs together. **Confidence** is a qualitative judgement about the validity of a finding, based on the type, amount, quality and consistency of the evidence. **Likelihood** is a quantified probability. The calibrated terms are fixed: *virtually certain* is 99–100 per cent probability, *very likely* is 90–100 per cent, *likely* is 66–100 per cent, *about as likely as not* is 33–66 per cent, *unlikely* is 0–33 per cent. An assessment normally states one or the other, not both.
+The IPCC's guidance on treating uncertainty separates two things that ordinary language runs together. **Confidence** is a qualitative judgement about the validity of a finding, based on the type, amount, quality and consistency of the evidence. **Likelihood** is a quantified probability. The calibrated terms are fixed, and among them *virtually certain* is 99–100 per cent probability, *very likely* is 90–100 per cent, *likely* is 66–100 per cent, *about as likely as not* is 33–66 per cent and *unlikely* is 0–33 per cent. An assessment normally states one metric or the other, not both.
 
 That vocabulary is doing real work, and it is the first casualty of compression, because "likely" in a headline reads as a vague adverb rather than as a probability floor of 66 per cent.
 
@@ -34,15 +35,15 @@ The instrument end is equally careful in its own idiom. NOAA's Global Monitoring
 
 ## Case one: a temperature that means three different things
 
-For 2024, the World Meteorological Organization reported a global average surface temperature of 1.55 °C above the 1850–1900 average, "with a margin of uncertainty of ± 0.13 °C", from a consolidated analysis of six datasets. That ± is not instrument noise. WMO states its construction directly: "the spread of the six datasets is combined with the uncertainty in the offset to get a combined uncertainty of 0.13 °C." Roughly half of it comes from disagreement between products about how warm 1850–1900 was — a question about the sparse nineteenth-century record, examined separately in the account of [how the surface temperature record is assembled](/en/ecology/climate-change/global-temperature-records-explained).
+For 2024, the World Meteorological Organization reported a global average surface temperature of 1.55 °C above the 1850–1900 average, "with a margin of uncertainty of ± 0.13 °C", from a consolidated analysis of six datasets. That ± is not instrument noise. WMO states its construction directly: "the spread of the six datasets is combined with the uncertainty in the offset to get a combined uncertainty of 0.13 °C." So the interval combines disagreement between six credible products with uncertainty about how warm 1850–1900 actually was — the second being a question about a sparse nineteenth-century record rather than about any thermometer, and one taken up in the account of [how the surface temperature record is assembled](/en/ecology/climate-change/global-temperature-records-explained).
 
-Two qualifiers travelled with that number and did not survive the trip. The first WMO stated in capital letters: a single year above 1.5 °C "does NOT mean that we have failed to meet Paris Agreement long-term temperature goals, which are measured over decades rather than an individual year." The second is subtler. The same peer-reviewed indicator series that tracks these quantities annually gives, for the 2015–2024 decade, observed warming of 1.24 [1.11 to 1.35] °C, of which 1.22 [1.0 to 1.5] °C was human-induced — and puts the human-induced component of 2024 alone at 1.36 °C against an observed 1.52 °C.
+Two qualifiers travelled with that number and did not survive the trip. The first WMO stated in capital letters: a single year above 1.5 °C "does NOT mean that we have failed to meet Paris Agreement long-term temperature goals, which are measured over decades rather than an individual year." The second is subtler. *Indicators of Global Climate Change*, a peer-reviewed series that updates the same quantities every year using the IPCC's methods, gives for the 2015–2024 decade observed warming of 1.24 [1.11 to 1.35] °C, of which 1.22 [1.0 to 1.5] °C was human-induced — and puts the human-induced component of 2024 alone at 1.36 °C against an observed 1.52 °C.
 
 So there are at least three defensible answers to "how much has the world warmed": about 1.55 °C for the calendar year 2024, about 1.24 °C for the most recent decade, and about 1.36 °C of human-caused warming by 2024. None contradicts the others. They differ in averaging period and in whether natural variability is included. The compressed sentence "the world has passed 1.5 °C" silently picks the first and applies it to a threshold defined in the terms of the second.
 
 ## Case two: a budget that becomes a deadline
 
-The remaining carbon budget is where conditional structure is heaviest and travels worst. The 2024 update of the global climate indicators gives a central remaining budget for 1.5 °C of 130 GtCO₂ and notes that this "would be exhausted in a little more than 3 years if global CO₂ emissions remain at 2024 levels (42 GtCO₂ yr⁻¹)".
+The remaining carbon budget is where conditional structure is heaviest and travels worst. The 2024 edition of that same indicator series gives a central remaining budget for 1.5 °C of 130 GtCO₂ and notes that this "would be exhausted in a little more than 3 years if global CO₂ emissions remain at 2024 levels (42 GtCO₂ yr⁻¹)".
 
 Four conditions are attached to that figure in the paper that produced it, and all four are legible in the source:
 
@@ -57,7 +58,7 @@ The IPCC's own accounting shows the same shape a level up: cumulative anthropoge
 
 Sea level is the cleanest illustration that no one has to be wrong for the numbers to differ. NASA's Sea Level Change Portal reports 104.1 mm of global mean rise since 1993, with the annual rate increasing from 0.20 cm per year in 1993 to 0.44 cm per year currently. The IPCC's assessment gives 1.3 [0.6 to 2.1] mm per year for 1901–1971, 1.9 [0.8 to 2.9] mm per year for 1971–2006, and 3.7 [3.2 to 4.2] mm per year for 2006–2018.
 
-Around 3.4, 3.7 and 4.4 mm per year are all correct figures for "the rate of sea-level rise". They are, respectively, the average over the satellite era, a thirteen-year assessed mean, and a current instantaneous rate from an accelerating series. Quoted without its window, each looks like a contradiction of the others; quoted with it, the set is a measurement of acceleration. The [indicators built from altimetry](/en/ecology/climate-change/sea-level-rise-indicators) are designed to be read this way.
+A little over 3 mm per year, 3.7 mm per year and 4.4 mm per year are all correct figures for "the rate of sea-level rise". They are, respectively, the average across the satellite record, a thirteen-year assessed mean, and a current rate read off an accelerating series. Quoted without its window, each looks like a contradiction of the others; quoted with it, the set is a measurement of acceleration. The [indicators built from altimetry](/en/ecology/climate-change/sea-level-rise-indicators) are designed to be read this way.
 
 ## The case for compressing anyway
 

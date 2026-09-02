@@ -16,6 +16,7 @@ related:
   - living-planet-index-explained
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 30afcdf2
+readingTime: 4
 ---
 
 A large share of the species observations recorded each year now comes from volunteers rather than professional surveyors. These records reach research and policy through open aggregators, where they help map distributions and, for some groups, track trends over time. Reading them well means understanding both their reach and the biases that shape them.

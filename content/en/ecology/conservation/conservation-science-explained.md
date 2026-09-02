@@ -18,6 +18,7 @@ related:
   - invasive-species-management
   - conservation-trade-offs-and-prioritisation
   - habitat-fragmentation-and-connectivity
+_bodyHash: a5764ad7
 ---
 
 Conservation asks a question that sounds practical and is in fact causal: did this action change the trajectory of this population, this habitat, this landscape, compared with what would have happened without it? Almost every methodological difficulty in the field descends from one uncomfortable property of that question — the comparison state is never observed. It has to be constructed.

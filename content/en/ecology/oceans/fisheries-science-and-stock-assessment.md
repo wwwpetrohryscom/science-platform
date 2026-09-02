@@ -1,6 +1,6 @@
 ---
-title: 'How a fish stock assessment is built, and why two assessments of the same ocean disagree'
-excerpt: 'A stock assessment is a fitted model, not a census. This page follows the three data streams it runs on, the reference points it produces, the stocks nobody assesses at all, and why two analyses of the same database reached opposite conclusions.'
+title: How a fish stock assessment is built, and why two assessments of the same ocean disagree
+excerpt: A stock assessment is a fitted model, not a census. This page follows the three data streams it runs on, the reference points it produces, the stocks nobody assesses at all, and why two analyses of the same database reached opposite conclusions.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - marine-protected-areas-evidence
   - why-species-counts-mislead-conservation
 pillar: ocean-science-explained
+_bodyHash: 6aa23970
 ---
 
 Nobody counts the fish. A stock assessment is a statistical model of a population that cannot be observed directly, fitted to a few noisy indicators and then read by managers as though it were a measurement. Most of the long-running arguments in fisheries science are arguments about the size of that gap, and this page works through where it opens up. The wider physical and biological setting is covered in the [ocean science pillar](/en/ecology/oceans/ocean-science-explained); what follows is specifically about the machinery of estimation.

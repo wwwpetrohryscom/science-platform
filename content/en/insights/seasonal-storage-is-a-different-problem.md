@@ -19,11 +19,12 @@ related:
   - hydrogen-as-an-energy-carrier
   - capacity-factor-and-energy-metrics
   - energy-systems-explained
+_bodyHash: 7a1bcabe
 ---
 
 The word "storage" is doing two jobs in most energy discussions, and the two jobs have economics that differ by roughly two orders of magnitude. Moving solar output from midday to evening is a problem the market has largely solved. Covering a fortnight of low wind in January with energy captured in August is a different problem, and the parameter that separates them is how often the store is cycled.
 
-Any store has two capital costs that scale independently: a power cost, in dollars per kilowatt of charge and discharge capability, and an energy cost, in dollars per kilowatt-hour of stuff held. Their ratio is the duration. The U.S. Energy Information Administration defines a battery's duration as energy capacity divided by power capacity — how long it can hold rated output before it runs out — and the deployed U.S. fleet has sat in the low single-digit hours: about 3.0 hours on average across utility-scale systems at the end of 2020, with most capacity built for grid services, daily load shifting, or both. That architecture is described from the engineering side in the article on [how energy storage systems are put together](/en/physics/energy/energy-storage-fundamentals).
+Any store has two capital costs that scale independently: a power cost, in dollars per kilowatt of charge and discharge capability, and an energy cost, in dollars per kilowatt-hour of stuff held. Their ratio is the duration. The U.S. Energy Information Administration defines a battery's duration as energy capacity divided by power capacity — how long it can hold rated output before it runs out. The deployed U.S. fleet has been built around short durations: about 3.0 hours on average across utility-scale systems at the end of 2020, with capacity divided between grid services, daily load shifting and hybrid duty. That architecture is described from the engineering side in the article on [how energy storage systems are put together](/en/physics/energy/energy-storage-fundamentals).
 
 ## Why cycling frequency rewrites the cost sheet
 
@@ -33,7 +34,7 @@ Efficiency also deserves measurement rather than a data sheet. The EIA's analysi
 
 ## What the modelling literature actually claims
 
-The most cited quantitative treatment is a 2021 capacity-expansion study in *Nature Energy* that swept 1,280 combinations of long-duration storage cost and efficiency parameters across 17,920 modelled cases. Its findings are specific. Energy-capacity cost and discharge efficiency dominate; charge efficiency and power-capacity cost are secondary. For long-duration storage to cut the total cost of a carbon-free electricity system by around 10 per cent, energy-capacity cost has to fall below about $20/kWh. To displace nuclear generation entirely — the least competitive firm technology in that analysis — roughly $10/kWh is needed. To displace gas with carbon capture or hydrogen combustion turbines, the requirement is near $1/kWh together with very low power costs and high efficiencies. Lithium-ion energy capacity, the same paper notes, currently sits in the hundreds of dollars per kilowatt-hour.
+The most cited quantitative treatment is a 2021 capacity-expansion study in *Nature Energy* that swept 1,280 combinations of long-duration storage cost and efficiency parameters across 17,920 modelled cases. Its findings are specific. Energy-capacity cost and discharge efficiency dominate; charge efficiency and power-capacity cost are secondary. For long-duration storage to cut the total cost of a carbon-free electricity system by around 10 per cent, energy-capacity cost has to fall below about $20/kWh. To displace nuclear generation entirely — the least competitive firm technology in that analysis — roughly $10/kWh is needed. To displace gas with carbon capture or hydrogen combustion turbines, the requirement is near $1/kWh together with very low power costs and high efficiencies. The same paper placed lithium-ion energy capacity in the hundreds of dollars per kilowatt-hour.
 
 Two details of that result are more interesting than the headline. First, in the cases where storage displaces the most firm generation, optimal discharge durations land between 100 and 650 hours — four to twenty-seven days, not four to twenty-seven hours. Second, adding heavy electrification of heating and transport in a northern-latitude system made full displacement of firm generation require performance combinations the authors judged infeasible for known technologies. The U.S. Department of Energy's Long Duration Storage Shot sets a target in the same territory from the policy side: a 90 per cent cost reduction from a 2020 lithium-ion baseline for systems delivering ten or more hours.
 
@@ -41,13 +42,13 @@ Two details of that result are more interesting than the headline. First, in the
 
 | Option | Round-trip penalty | What limits it | Where it fits |
 | --- | --- | --- | --- |
-| Lithium-ion | ~82% measured across the U.S. fleet | Energy capacity costs in the hundreds of $/kWh; power and energy scale together | Hours |
-| Pumped hydro | ~79% measured; ~80% typical for off-river designs | Site topography and head; reservoir pairs are civil works, not products | Hours to days |
+| Lithium-ion | ~82% measured across the U.S. utility-scale fleet in 2019 | Energy capacity costs in the hundreds of $/kWh; power and energy scale together | Hours |
+| Pumped hydro | ~79% measured in 2019; ~80% typical for off-river designs | Site topography and head; reservoir pairs are civil works, not products | Hours to days |
 | Hydrogen | Losses at electrolysis, storage and reconversion | Volumetric density; suitable geology for bulk containment | Days to seasons |
 
 Hydrogen's difficulty is the one most often understated because the gravimetric figure flatters it. Roughly 120 MJ per kilogram against 44 for gasoline sounds decisive until the volumetric comparison arrives: about 8 MJ per litre as a cryogenic liquid against 32 for gasoline, with storage requiring 350–700 bar or temperatures below −252.8 °C. Bulk seasonal quantities therefore go underground, and underground means geology. A 2020 assessment in the *International Journal of Hydrogen Energy* put Europe's total onshore and offshore salt-cavern hydrogen storage potential at about 84.8 PWh, of which Germany alone accounts for roughly 9.4 PWh — an endowment that is large in aggregate and distributed very unevenly across the countries that would need it. The carrier's wider role is taken up in the article on [hydrogen as an energy carrier](/en/physics/energy/hydrogen-as-an-energy-carrier).
 
-Pumped hydro has the same shape of constraint in a different medium. It is mature, cheap per unit of stored energy, and — as a 2019 survey by an Australian National University group recorded — accounted for roughly 97 per cent of global storage power and 99 per cent of stored energy at that time. It also needs two reservoirs at different elevations within a few kilometres of each other, which some regions have in abundance and others do not.
+Pumped hydro has the same shape of constraint in a different medium. It is mature, cheap per unit of stored energy, and — as a 2019 survey by an Australian National University group recorded — accounted for roughly 97 per cent of global storage power and 99 per cent of stored energy at that time, a snapshot taken before the last several years of battery deployment. It also needs two reservoirs at different elevations within a few kilometres of each other, which some regions have in abundance and others do not.
 
 ## How large is the requirement? This is where the disagreement is real
 

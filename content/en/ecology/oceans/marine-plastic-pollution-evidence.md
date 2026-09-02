@@ -1,6 +1,6 @@
 ---
 title: 'The marine plastic budget: inputs, surface stocks, and the mass that appeared to go missing'
-excerpt: 'For a decade the estimated flow of plastic into the sea exceeded the mass measured floating on it by one to two orders of magnitude. Tracing how that discrepancy was investigated is the clearest route into what marine debris research can and cannot measure.'
+excerpt: For a decade the estimated flow of plastic into the sea exceeded the mass measured floating on it by one to two orders of magnitude. Tracing how that discrepancy was investigated is the clearest route into what marine debris research can and cannot measure.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - marine-food-webs-and-productivity
   - ocean-deoxygenation-and-dead-zones
 pillar: ocean-science-explained
+_bodyHash: 8fc7b8fc
 ---
 
 Around 2014 the field acquired an arithmetic problem. One set of studies estimated that several million tonnes of polymer waste were entering the sea every year. Another set, towing nets across every subtropical gyre, could account for only a few hundred thousand tonnes floating on the surface — a shortfall of one to two orders of magnitude that became known as the missing-plastic problem. A decade of work aimed at that discrepancy has produced a much sharper picture of what each measurement method can actually see, which is why the budget is a better entry point to this subject than any single headline figure. The wider setting for these processes is the [ocean science pillar](/en/ecology/oceans/ocean-science-explained).

@@ -17,6 +17,7 @@ related:
   - water-quality-measurement-explained
   - lake-ecology-and-eutrophication
 pillar: freshwater-ecosystems-explained
+_bodyHash: b39971c9
 ---
 
 A streamgage does not measure how much water is going past it. It measures stage — the height of the water surface — usually every 15 minutes, and converts that height into discharge using a stage-discharge relation built separately from field measurements of velocity and channel cross-section. The USGS operates more than 13,500 gauges on this principle and has done so since 1889, when the first was installed on the Rio Grande in New Mexico. Nearly every statement about how much water a river carries is therefore a rating curve applied to a height, which is worth remembering before treating a hydrograph as a direct observation.

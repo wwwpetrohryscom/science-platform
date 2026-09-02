@@ -1,5 +1,5 @@
 ---
-title: 'Not all climate-projection uncertainty is the same kind, and only one kind answers to better models'
+title: Not all climate-projection uncertainty is the same kind, and only one kind answers to better models
 excerpt: Scenario choice, model response and internal variability contribute to projection spread in proportions that shift with lead time and spatial scale. Only one of the three is a modelling problem, and it has not narrowed.
 argument: Climate-projection uncertainty is three different quantities wearing one word. Internal variability dominates the near term at regional scale and is not a model defect; scenario choice dominates the late century and is not a scientific quantity; only model response answers to better physics, and across two model generations its spread widened rather than shrank.
 category: ecology
@@ -18,6 +18,7 @@ related:
   - climate-sensitivity-explained
   - climate-model-physics-explained
   - el-nino-la-nina-enso-explained
+_bodyHash: f4ef3058
 ---
 
 A wide spread across climate model output means something different depending on what is being projected. For summer rainfall over the Sahel in the 2040s the spread is large, and much of it is not disagreement between models at all. For the sign of global temperature change in 2090 the spread is also large, and it says nothing about whether the planet warms. Both are routinely reported as "the models disagree", and in neither case is that what the number is describing.
@@ -54,9 +55,9 @@ AR6 did exactly that. Chapter 7 explains that the report broke with previous ass
 
 The uncomfortable finding underneath this is in the same chapter: "despite decades of model development, increases in model resolution and advances in parametrization schemes, there has been no systematic convergence in model estimates of ECS. In fact, the overall inter-model spread in ECS for CMIP6 is larger than for CMIP5." The term that is supposed to shrink has not shrunk. Some of that reflects genuine progress — the higher sensitivities trace partly to shortwave cloud feedbacks in models that were improved to match satellite observations of mixed-phase cloud, which is described from the physics side in [how clouds form and why they are hard to represent](/en/physics/climate-physics/convection-and-cloud-formation).
 
-## The strongest case against this framing
+## Three objections that survive scrutiny
 
-Three objections deserve to be taken at full strength.
+Each of the following weakens the three-way split in a different place, and none of them is a straw position.
 
 First, internal variability is not entirely irreducible. Its *predictable* component can be extracted by initialising a model from the observed ocean state. AR6 reports that decadal forecasts initialised from recent observations produced 2019–2028 changes consistent with the assessed very likely range, and treats them as an independent line of evidence for the near term. Calling internal variability "irreducible" is shorthand; the precise claim is that it is not reduced by improving a model's physics alone.
 
@@ -66,7 +67,9 @@ Third, treating scenario uncertainty as purely political overstates the case. AR
 
 ## What this changes for someone quoting a number
 
-A projection figure is uninterpretable without three tags: the scenario, the period, and the spatial aggregation. Those three determine which uncertainty is doing the work, and therefore what the spread means. A wide spread in a 2040s regional rainfall projection is mostly the climate being noisy. A wide spread in a 2090s global temperature projection is mostly a question about emissions that no observing system will answer. A wide spread in equilibrium sensitivity is the one that is genuinely about the models — and the one where the raw ensemble is the least reliable guide, which is why the [explainer on projection uncertainty](/en/ecology/climate-change/climate-models-projections-uncertainty) and the underlying account of [what a model solves and what it parameterises](/en/physics/climate-physics/climate-model-physics-explained) both matter more than the ensemble spread itself. The failure mode this creates downstream is familiar and is examined separately in the piece on [uncertainty lost between dataset and headline](/en/insight/uncertainty-lost-between-dataset-and-headline).
+A projection figure is uninterpretable without three tags: the scenario, the period, and the spatial aggregation. Those three determine which of the uncertainties is doing the work, and therefore what the spread means. A wide spread in a 2040s regional rainfall projection is mostly the climate being noisy — an inherent property, not a defect, and a failure mode traced further in the piece on [uncertainty lost between dataset and headline](/en/insight/uncertainty-lost-between-dataset-and-headline). A wide spread in a 2090s global temperature projection is mostly a question about emissions that no observing system will answer.
+
+Only the third case rewards scepticism about the models, and there the raw ensemble is the least reliable guide available — which is why the [explainer on projection uncertainty](/en/ecology/climate-change/climate-models-projections-uncertainty) and the underlying account of [what a model solves and what it parameterises](/en/physics/climate-physics/climate-model-physics-explained) matter more than the width of the spread. Two decades of parametrization work have not narrowed the equilibrium-sensitivity range, and the assessment that reported this responded by taking the models out of the estimate rather than by waiting for them to converge. That is the unusual move worth noticing in AR6: an uncertainty was reduced by changing what counted as evidence, not by improving the simulations.
 
 ## Sources
 

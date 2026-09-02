@@ -15,6 +15,8 @@ related:
   - ndvi-explained
   - wildfire-monitoring-from-space
 _bodyHash: 1c9c9d82
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Some satellites are built to see small things in fine detail; others are built to see almost everything, almost every day. The Moderate Resolution Imaging Spectroradiometer, or [MODIS](/en/glossary/modis), belongs firmly to the second group. Flown on two NASA satellites for more than twenty years, it has provided a near-daily portrait of the whole planet that underpins much of our routine [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained).

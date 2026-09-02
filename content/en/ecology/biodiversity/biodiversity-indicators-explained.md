@@ -16,6 +16,7 @@ related:
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 300d9377
+readingTime: 5
 ---
 
 Biodiversity varies at several levels at once — the genes within a population, the abundance and range of a species, the makeup of a community, the structure of an ecosystem — and no single measurement captures all of them. To make that variation trackable, monitoring distils each dimension into an indicator. This article maps the main indicators used in international reporting, explains how each is built, and sets out why they are read side by side rather than merged into one headline figure. It sits within the wider EcoScienceHub guide to [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).

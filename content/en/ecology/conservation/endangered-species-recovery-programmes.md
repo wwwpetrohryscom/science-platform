@@ -17,6 +17,7 @@ related:
   - rewilding-evidence-and-limits
   - conservation-trade-offs-and-prioritisation
 pillar: conservation-science-explained
+_bodyHash: 463aa290
 ---
 
 A release is an event; a recovery is a trajectory. Almost every unresolved question in this field lives in the distance between the two, and most of the numbers that circulate about reintroduction describe the event rather than the trajectory.

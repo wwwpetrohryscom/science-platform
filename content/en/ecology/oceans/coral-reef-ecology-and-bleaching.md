@@ -1,6 +1,6 @@
 ---
 title: 'Coral reefs: the symbiosis, the heat-stress metric, and the recovery record'
-excerpt: 'Bleaching is the collapse of a nutritional partnership, not the death of a colony. This explains the symbiosis that fails, how degree heating weeks quantify the stress that breaks it, and what the recovery and restoration evidence supports.'
+excerpt: Bleaching is the collapse of a nutritional partnership, not the death of a colony. This explains the symbiosis that fails, how degree heating weeks quantify the stress that breaks it, and what the recovery and restoration evidence supports.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -17,6 +17,7 @@ related:
   - marine-protected-areas-evidence
   - coral-microbiome-bleaching-resistance
 pillar: ocean-science-explained
+_bodyHash: d7a24ed1
 ---
 
 A bleached coral is not a dead coral. It is a coral that has expelled the single-celled algae living inside its tissues, lost its colour along with them, and begun living on stored reserves and whatever it can catch. Whether it recovers depends on how long the stress lasts and how much energy it had banked. Getting this distinction right is the difference between reading a bleaching report as a mortality figure and reading it as what it is — a measurement of stress, with mortality as a variable consequence.

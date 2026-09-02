@@ -18,6 +18,7 @@ related:
   - freshwater-biodiversity-decline
   - groundwater-and-aquifer-depletion
 pillar: freshwater-ecosystems-explained
+_bodyHash: ba475282
 ---
 
 There is no such thing as water quality in the abstract. A sample has a temperature, an oxygen concentration, a suspended-solids load and a bacterial count; whether those values are good or bad is a comparison against a threshold, and the threshold encodes a purpose — drinking, bathing, irrigation, or supporting a particular biological community. The same river reach can pass one test and fail another on the same day. Most confusion about water-quality reporting comes from reading a compliance judgement as if it were a physical measurement. What follows applies across the compartments surveyed in the overview of [freshwater ecosystems](/en/ecology/freshwater/freshwater-ecosystems-explained), though the sampling problem differs sharply between a river, a lake and an aquifer.

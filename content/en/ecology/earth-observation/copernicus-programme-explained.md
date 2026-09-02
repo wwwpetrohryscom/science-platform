@@ -15,6 +15,8 @@ related:
   - land-cover-change-detection
   - drought-monitoring-systems
 _bodyHash: 5a157b1a
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Copernicus is the European Union's [Earth-observation](https://www.copernicus.eu/en) programme, and it is best understood as two halves working together: a fleet of satellites that measure the planet, and a set of services that turn those measurements into information people can use. It is coordinated by the European Commission, with the European Space Agency responsible for the space component, and it runs on a "full, free and open" data policy. This piece sets out how the programme is organised, who operates each part, and what it produces.

@@ -1,6 +1,6 @@
 ---
 title: 'Invasive species: which management interventions have evidence behind them'
-excerpt: 'Most introduced organisms never become invasive, and the cleanest effectiveness evidence comes from island eradications. This page separates what the intervention record supports from what the global cost figures can carry.'
+excerpt: Most introduced organisms never become invasive, and the cleanest effectiveness evidence comes from island eradications. This page separates what the intervention record supports from what the global cost figures can carry.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - ecological-restoration-evidence
   - species-extinction-risk-assessment
 pillar: conservation-science-explained
+_bodyHash: f674939a
 ---
 
 Around 37,000 alien species have become established outside their native ranges through human activity, and new ones are recorded at roughly 200 a year. Documented evidence of negative impact exists for more than 3,500 of them. That ratio is the first thing to understand about biological invasions, because it is routinely lost in summary reporting: the intergovernmental assessment puts the invasive fraction at about 6 per cent of alien plants, 22 per cent of alien invertebrates, 14 per cent of alien vertebrates and 11 per cent of alien microbes. Being introduced is common. Becoming damaging is not.

@@ -16,6 +16,7 @@ related:
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 68a48b52
+readingTime: 5
 ---
 
 When a forest, wetland, or grassland is carved by roads, fields, and development, it does not simply shrink — it also splits. [Habitat fragmentation](/en/glossary/habitat-fragmentation) describes that splitting: the breaking of once-continuous habitat into smaller, more isolated patches. It is closely tied to habitat loss yet conceptually separate, and keeping the two apart is essential for measuring landscape change well and for the broader work of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).

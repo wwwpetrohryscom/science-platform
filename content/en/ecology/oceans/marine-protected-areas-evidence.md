@@ -1,6 +1,6 @@
 ---
 title: 'Marine protected areas: the evidence tracks protection level, not area'
-excerpt: 'Fully protected reserves, partially protected zones and unenforced designations all count as marine protected area on a map, and their measured effects differ by more than an order of magnitude. Averaging across them is how the evidence gets misread.'
+excerpt: Fully protected reserves, partially protected zones and unenforced designations all count as marine protected area on a map, and their measured effects differ by more than an order of magnitude. Averaging across them is how the evidence gets misread.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - protected-area-effectiveness
   - coral-reef-ecology-and-bleaching
 pillar: ocean-science-explained
+_bodyHash: e0e5cafa
 ---
 
 "Marine protected area" is a legal category, not an ecological one. It describes what a government has written down about a piece of sea, and it says almost nothing on its own about what happens inside the boundary. Two sites carrying the identical designation can differ by an order of magnitude in fish biomass, and the difference is predictable from a handful of design and governance features rather than from the label. That gap between the map and the water is what this page is about; the physical and biological background sits in the [ocean science pillar](/en/ecology/oceans/ocean-science-explained).

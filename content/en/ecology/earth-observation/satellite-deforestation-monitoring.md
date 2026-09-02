@@ -15,6 +15,8 @@ related:
   - wildfire-monitoring-from-space
   - remote-sensing-limitations-and-uncertainty
 _bodyHash: af495327
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Forest loss is now detected, at scale, mostly from space. Deforestation — the conversion of forest to another [land cover](/en/glossary/land-cover) — is identified by comparing satellite images of the same place taken at different dates and finding where the tree canopy has disappeared. This piece explains how that change is measured from an image time series, which institutions compile and report it, and why the resulting figures always carry uncertainty.

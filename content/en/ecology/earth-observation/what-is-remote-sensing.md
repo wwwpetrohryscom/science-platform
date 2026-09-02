@@ -15,6 +15,8 @@ related:
   - sentinel-satellites-explained
   - earth-observation-data-products
 _bodyHash: 4f7d2e4
+readingTime: 5
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 [Remote sensing](/en/glossary/remote-sensing) is the practice of acquiring information about an object or area without touching it, by measuring the electromagnetic radiation the surface reflects or emits. A sensor records that radiation in defined wavelength bands and stores a value for each location, and everything we learn about the ground — what is growing, what is wet, what is warm — is inferred from those values. This primer covers the physics that makes such measurement possible; the wider context sits in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) hub.

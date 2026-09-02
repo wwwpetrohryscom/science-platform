@@ -18,11 +18,12 @@ related:
   - culturing-and-sequencing-microbes
   - dna-sequencing-technologies
   - soil-microbiome-regenerative-agriculture
+_bodyHash: 930c69b5
 ---
 
 The standard way to turn a microbiome correlation into a causal claim is to transfer stool from human donors into germ-free rodents and see whether the donor's phenotype travels with it. A systematic review published in *Cell* in 2020 collected the studies that had done this and found that 36 of 38 — 95 per cent — reported a successful transfer of a pathological phenotype, with many going on to infer causation in the corresponding human disease.
 
-A 95 per cent success rate for transferring human pathology across a species barrier, into an animal with a different immune system, diet and gut anatomy, is not a plausible feature of biology. It is a feature of a literature. The review's authors argued that the rate reflects some combination of underpowered designs, inappropriate statistics and publication bias, and that it overstates the causal role of gut microbiota in human disease. That conclusion is the sharpest available answer to a question the field asks about itself, and it is worth taking seriously without over-reading it.
+A 95 per cent success rate for transferring human pathology across a species barrier, into an animal with a different immune system, diet and gut anatomy, is not a plausible feature of biology. It is a feature of a literature. The review's authors called a transfer rate that high implausible, argued that it overstates the role of the gut microbiome in human disease, and pressed for a more critical standard before causation is inferred. That is the sharpest answer the field has given to a question it asks about itself, and it is worth taking seriously without over-reading it.
 
 ## What sequencing made cheap, and what it left expensive
 
@@ -51,11 +52,11 @@ The bottom two rows are where the strongest human evidence sits, and it is thin 
 
 Mendelian randomisation should in principle scale better, because host genotype is randomised at conception and cannot be caused by the microbiome. The MiBioGen consortium assembled genotypes and 16S data from 18,340 people across 24 cohorts and found 31 loci associated with microbial taxa at genome-wide significance — but only one, the lactase locus, reached study-wide significance, and only 9 of 410 genera were even detected in more than 95 per cent of samples. The instruments needed for the method are, for now, mostly missing. Readers familiar with the same problem in [genome-wide association studies](/en/biology/genetics/genome-wide-association-studies-explained) will recognise the pattern: the design is sound and the power is not there yet.
 
-## The case for the field, stated properly
+## Why an association-first literature is not a scandal
 
 The strongest defence of the current literature is not that the criticisms are wrong. It is that association-first is how every observational science opens, and that the standard implied by "read the design before the abstract" would, applied literally, have stalled epidemiology, ecology and human genetics at their own descriptive phases.
 
-Three specific points deserve weight. Germ-free rodent transfer is not a broken assay; it is an assay with a known domain of validity, and used to ask whether a community is *sufficient* in that model it answers exactly that. The 95 per cent figure is a property of a published set rather than a verdict on any single experiment in it — the review attributes the rate to a mixture of underpowered design, statistical practice and bias, not to fabrication. And the field has produced its own correctives quickly: an explicit framework of **commensal Koch's postulates**, published in *Current Opinion in Microbiology*, sets out what cultivation, colonisation and genetic manipulation would have to show before a commensal organism is credited with a health effect. A discipline that publishes that framework, and publishes the systematic review criticising itself, is not one that has stopped noticing.
+Three specific points deserve weight. Germ-free rodent transfer is not a broken assay; it is an assay with a known domain of validity, and used to ask whether a community is *sufficient* in that model it answers exactly that. The 95 per cent figure is a property of a published set rather than a verdict on any experiment inside it, and the case against it is explicitly an inference: the review's authors *posit* that a cross-species transfer rate that high is implausible, which is an argument from a prior about how often such transfers ought to work, not a measurement of how often they do. That prior is very probably right, and it still does not identify which of the 36 positive results are the wrong ones — a distinction that matters to anyone deciding whether to build on a particular paper. And the field has produced its own correctives quickly: an explicit framework of **commensal Koch's postulates**, published in *Current Opinion in Microbiology*, sets out what cultivation, colonisation and genetic manipulation would have to show before a commensal organism is credited with a health effect. A discipline that publishes that framework, and publishes the systematic review criticising itself, is not one that has stopped noticing.
 
 ## What the evidence cannot settle
 
@@ -63,7 +64,7 @@ No one has a defensible number for the proportion of microbiome claims backed by
 
 What would settle particular cases is unglamorous and known: larger and preregistered animal experiments with cage as a unit of analysis, defined consortia rather than whole-community transfers, negative controls sequenced alongside low-biomass samples, and human trials with mechanistic endpoints. The same logic applies outside medicine — claims about the [soil microbiome and agricultural management](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) rest on the same inferential chain and face the same gap between composition and function.
 
-For a reader assessing any specific claim, three questions do most of the sorting. Was the community manipulated, or only observed? If it was manipulated, in what host, and how specific was the manipulation? And was the biomass of the sample high enough that the sequences are unlikely to have come from the kit?
+None of that will close the gap by sequencing more, because the gap is not made of missing sequences. The one large causal result here — faecal transplant for recurrent *C. difficile* — took six randomised trials and 320 participants to reach moderate certainty about a single condition with an unusually clean endpoint, in a disease where the microbial community is the proximate cause rather than a correlate of one. That is roughly what a causal claim costs in this field. Associations cost a few tens of dollars a sample. As long as those two prices differ by that much, the observational literature will keep outrunning the experimental one, and a composition difference is better read as a lead than as a finding.
 
 ## Sources
 
@@ -75,4 +76,4 @@ For a reader assessing any specific claim, three questions do most of the sortin
 6. **Cochrane Database of Systematic Reviews** — [Fecal microbiota transplantation for the treatment of recurrent Clostridioides difficile](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013871.pub2/full). Pooled effect estimate from six randomised trials and the certainty rating.
 7. **Nature Genetics** — [Large-scale association analyses identify host factors influencing human gut microbiome composition](https://www.nature.com/articles/s41588-020-00763-1). Cohort size, loci identified, and the limits on genetic instruments for microbial traits.
 8. **Current Opinion in Microbiology** — [Commensal Koch's postulates: establishing causation in human microbiota research](https://pubmed.ncbi.nlm.nih.gov/29112885/). A proposed causal framework built on cultivation and defined colonisation.
-9. **US National Library of Medicine** — [PubMed](https://pubmed.ncbi.nlm.nih.gov/). Record counts for the term used in the second section, retrieved September 2026.
+9. **US National Library of Medicine** — [PubMed query for microbiome in title or abstract](https://pubmed.ncbi.nlm.nih.gov/?term=microbiome%5BTitle%2FAbstract%5D). The record count quoted in the second section, retrieved September 2026.

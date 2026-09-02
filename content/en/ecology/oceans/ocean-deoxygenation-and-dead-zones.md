@@ -1,6 +1,6 @@
 ---
 title: 'Deoxygenation: coastal dead zones and open-ocean oxygen loss are not the same problem'
-excerpt: 'Two processes are routinely reported under one heading. Coastal hypoxia is driven by nutrient loading and stratification and can reverse within years; open-ocean oxygen decline is driven by warming and circulation and operates on a different timescale entirely.'
+excerpt: Two processes are routinely reported under one heading. Coastal hypoxia is driven by nutrient loading and stratification and can reverse within years; open-ocean oxygen decline is driven by warming and circulation and operates on a different timescale entirely.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - marine-food-webs-and-productivity
   - ocean-circulation-and-climate
 pillar: ocean-science-explained
+_bodyHash: 3b6fff93
 ---
 
 Below the top few metres, seawater has no way of acquiring oxygen. Every molecule in the ocean interior was dissolved at the surface, or released there by photosynthesis, and then carried down by sinking water. Interior oxygen is therefore a balance between a supply term set by circulation and a demand term set by respiration, and anything that slows the supply or raises the demand draws the balance down. Two very different human perturbations do exactly that, in different places, on different timescales, and they are frequently reported as though they were one phenomenon. The broader physical context is in the [ocean science pillar](/en/ecology/oceans/ocean-science-explained); this page separates the two mechanisms and reviews what is measured for each.

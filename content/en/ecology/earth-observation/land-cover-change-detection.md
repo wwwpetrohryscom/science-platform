@@ -15,6 +15,8 @@ related:
   - landsat-program-explained
   - earth-observation-data-products
 _bodyHash: 46881cac
+readingTime: 5
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 When a forest becomes cropland, or a field is built over, the surface itself changes, and that change leaves a measurable trace in satellite imagery. Detecting it is a matter of comparing pictures of the same place taken at different times and asking, carefully, what is genuinely different. This article explains the distinction that underlies the whole exercise, the main ways the comparison is done, the products it feeds, and the errors that have to be kept in check.

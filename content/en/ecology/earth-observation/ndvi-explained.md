@@ -15,6 +15,8 @@ related:
   - modis-earth-observation-system
   - drought-monitoring-systems
 _bodyHash: 7c019b61
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 When a satellite looks at a green field, it does not see "vegetation" directly. It records how much light each patch of ground reflects in separate wavelength bands, and the condition of the plants has to be inferred from those numbers. [NDVI](/en/glossary/ndvi), the Normalised Difference Vegetation Index, is the simplest and most widely used way to make that inference, and it sits within the broader field of [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained).

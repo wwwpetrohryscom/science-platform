@@ -5,7 +5,7 @@ type: expert
 author: climate-research-desk
 publishedDate: '2026-04-22'
 updatedDate: '2026-09-02'
-readingTime: 6
+readingTime: 8
 tags:
   - climate-change
   - greenhouse-gases
@@ -16,7 +16,7 @@ related:
   - temperate-forest-carbon-sink-decline
   - earth-energy-budget-and-the-second-law
 pillar: what-is-climate-change
-_bodyHash: ca985ffa
+_bodyHash: 730d16ad
 ---
 
 Radiative forcing is the unit [climate](/en/ecology/climate-change/what-is-climate-change) scientists use to compare the climate effect of one greenhouse gas, aerosol, or land-use change against another. It has a precise definition — the change in net downward radiative flux at the tropopause after stratospheric temperatures adjust, in watts per square metre — and it is the bookkeeping that lets the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) put [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) dioxide, methane, nitrous oxide, halocarbons, ozone, and aerosols on the same axis.

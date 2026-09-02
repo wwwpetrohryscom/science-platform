@@ -1,6 +1,6 @@
 ---
 title: 'Marine productivity: how a gigatonne of algae feeds five gigatonnes of animals'
-excerpt: 'The ocean supports more consumer biomass than producer biomass, which sounds impossible until you account for turnover. This works through the arithmetic, the nutrient limits, and what satellite ocean colour can and cannot see.'
+excerpt: The ocean supports more consumer biomass than producer biomass, which sounds impossible until you account for turnover. This works through the arithmetic, the nutrient limits, and what satellite ocean colour can and cannot see.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -17,6 +17,7 @@ related:
   - deep-sea-ecosystems
   - ocean-color-observations
 pillar: ocean-science-explained
+_bodyHash: bbcbd9fc
 ---
 
 A global biomass census published in the Proceedings of the National Academy of Sciences puts about 1 gigatonne of carbon of primary producers in the ocean, supporting roughly 5 gigatonnes of carbon of consumers. On land the ratio runs the other way, and by a wide margin: plants account for around 450 of the roughly 550 gigatonnes of carbon in the entire [biosphere](/en/glossary/biosphere). The marine pyramid stands on its point.

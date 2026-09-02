@@ -18,6 +18,7 @@ related:
   - cryosphere-in-the-earth-system
   - biosphere-climate-interactions
 _bodyHash: bc4b46a8
+pillar: earth-system-science-explained
 ---
 
 Textbooks divide the planet into five "spheres" and then move on. The division is worth pausing over, because it is not a description of nature — it is a bookkeeping choice, and the places where the bookkeeping fails are exactly the places where [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) does its work.

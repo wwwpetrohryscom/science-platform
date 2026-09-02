@@ -18,6 +18,7 @@ related:
   - wetlands-and-their-functions
   - global-water-cycle-explained
 pillar: freshwater-ecosystems-explained
+_bodyHash: b193ec5a
 ---
 
 Groundwater accounts for 99 per cent of the liquid fresh water on Earth, according to the UN World Water Development Report for 2022, and it is the only large store of it whose condition cannot be seen. Every published figure — a depletion rate, a remaining lifetime, a recharge estimate — is the end of a measurement chain, and the chains do not all arrive at the same answer. Understanding why they differ is more useful than memorising any one of the numbers, and it is the reason this page spends as much space on instruments as on aquifers. Groundwater's place among the other freshwater compartments — and the reason it turns over so much more slowly than any of them — is set out in the overview of [freshwater ecosystems](/en/ecology/freshwater/freshwater-ecosystems-explained).

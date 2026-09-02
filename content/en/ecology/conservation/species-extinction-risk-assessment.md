@@ -1,6 +1,6 @@
 ---
-title: 'How extinction risk is assessed, and what a Red List category means'
-excerpt: 'A Red List category states a probability of extinction under defined criteria, not ecological importance or rarity. This is what the five criteria require, why Data Deficient is not a threat category, and how uneven the coverage is.'
+title: How extinction risk is assessed, and what a Red List category means
+excerpt: A Red List category states a probability of extinction under defined criteria, not ecological importance or rarity. This is what the five criteria require, why Data Deficient is not a threat category, and how uneven the coverage is.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - invasive-species-management
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: 80a9d41f
 ---
 
 A Red List category is a claim about probability, made under stated rules, from stated evidence. Critically Endangered means a taxon meets at least one of five quantitative criteria at the most severe threshold, and is therefore judged to face an extremely high risk of extinction in the wild. It does not mean the organism is rare, beautiful, ecologically pivotal or a spending priority. Those are separate judgements, and the system was designed to keep them separate so that the risk grading could be audited independently of what anyone wanted to do about it — the general principle behind [evidence-based conservation](/en/ecology/conservation/conservation-science-explained).

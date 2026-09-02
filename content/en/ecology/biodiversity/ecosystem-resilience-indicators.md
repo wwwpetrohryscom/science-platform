@@ -16,6 +16,7 @@ related:
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 8214907a
+readingTime: 4
 ---
 
 Resilience describes what an ecosystem can withstand, not what it currently looks like. Because it is a capacity rather than an observable quantity, no single instrument reads it off directly, and researchers instead rely on proxies and statistical signals. This piece sets out what those indicators measure, how they are combined, and where they fall short.

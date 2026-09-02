@@ -16,6 +16,7 @@ related:
   - biodiversity-baselines-and-shifting-baselines
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 6af7e647
+readingTime: 4
 ---
 
 The amount of land and sea inside protected areas has been rising for decades, and global targets now push it higher still. Yet a boundary on a map is an input, not a result. This piece looks at how [protected-area effectiveness](/en/glossary/protected-area-effectiveness) is actually judged — through management evaluations and counterfactual impact studies — and why a designated site can still do little for the pressures it was meant to address.

@@ -17,6 +17,7 @@ related:
   - global-water-cycle-explained
   - nitrogen-cycle-explained
 _bodyHash: f7e68c64
+pillar: earth-system-science-explained
 ---
 
 Ask why an atom of carbon dioxide matters for centuries while a water molecule in the same parcel of air matters for about nine days, and the answer is not chemistry. It is a ratio. Divide the size of a reservoir by the rate at which material leaves it and you get a [residence time](/en/glossary/residence-time) — the single number that does most of the explanatory work in this part of [Earth system science](/en/ecology/earth-systems/earth-system-science-explained).

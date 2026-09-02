@@ -17,6 +17,7 @@ related:
   - earth-system-tipping-points
   - earth-system-science-explained
 _bodyHash: 476bb53e
+pillar: earth-system-science-explained
 ---
 
 The existing article on [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) treats ice as something measured — extent, mass balance, snow cover, each with its own record and its own error structure. This article takes the opposite view and asks what ice *does* to the rest of the system. The answer runs through four separate channels, and they operate on different timescales and in different directions.

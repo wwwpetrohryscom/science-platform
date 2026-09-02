@@ -1,6 +1,6 @@
 ---
-title: 'Fragmentation, connectivity, and the corridor evidence'
-excerpt: 'Habitat loss and fragmentation per se are separate variables, and holding one constant while varying the other reverses several familiar conclusions. Here is the global picture, the live disagreement, and what the corridor experiments show.'
+title: Fragmentation, connectivity, and the corridor evidence
+excerpt: Habitat loss and fragmentation per se are separate variables, and holding one constant while varying the other reverses several familiar conclusions. Here is the global picture, the live disagreement, and what the corridor experiments show.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - conservation-trade-offs-and-prioritisation
   - species-extinction-risk-assessment
 pillar: conservation-science-explained
+_bodyHash: 84f705ea
 ---
 
 When a landscape is cleared, two things happen at once. The total amount of habitat falls, and what remains is cut into a different arrangement — smaller pieces, more edge, greater distances between them. For most of the last fifty years these were treated as one process with one name. Separating them is the central move in the modern literature, and it changes several conclusions that most readers would consider settled, including how much a small patch is worth.

@@ -18,6 +18,7 @@ related:
   - freshwater-biodiversity-decline
   - lake-ecology-and-eutrophication
 pillar: freshwater-ecosystems-explained
+_bodyHash: 1d486e81
 ---
 
 Begin with the count, because the count is not known. The FAO's geo-referenced dams database holds records for over 14,000 structures and states in its own documentation that the files are "neither complete nor can be considered error-free". A 2020 survey published in *Nature* as [an inventory of more than one million barriers in Europe's rivers](https://www.nature.com/articles/s41586-020-3005-2) found at least 1.2 million instream barriers across 36 European countries at a mean density of 0.74 per kilometre — and, crucially, that 68 per cent of them are structures less than two metres high. Standardised walkover surveys along 2,715 km of stream on 147 rivers indicated that existing records underestimate barrier numbers by roughly 61 per cent.

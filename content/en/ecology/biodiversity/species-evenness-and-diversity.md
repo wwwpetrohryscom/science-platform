@@ -16,6 +16,7 @@ related:
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
 _bodyHash: a0e69842
+readingTime: 4
 ---
 
 Two communities can hold the same number of species and still describe very different ecological situations. What separates them is how individuals are shared among those species — a property that a simple tally cannot see. Diversity indices were developed to capture that missing dimension, and they remain central to how community change is tracked.

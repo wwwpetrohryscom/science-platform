@@ -1,12 +1,12 @@
 ---
-title: "Ecology's reproducibility problem is real, and it is not a copy of psychology's"
+title: Ecology's reproducibility problem is real, and it is not a copy of psychology's
 excerpt: Surveys find questionable research practices in ecology at rates close to those in psychology, but an ecological field study usually cannot be re-run. That changes both how an unreliable literature is diagnosed and what fixes it.
 argument: Direct replication is unavailable for most ecological fieldwork, so the field's reliability problem has to be diagnosed through power, analytical flexibility and code availability rather than through repeat experiments — and corrected through coordinated design and synthesis rather than through repetition.
 category: biology
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - research-methods
   - meta-research
@@ -18,9 +18,10 @@ related:
   - measurement-uncertainty-explained
   - microbiomes-and-host-microbe-interactions
   - food-webs-and-trophic-structure
+_bodyHash: 1a813722
 ---
 
-The 2019 National Academies report on the subject draws a line that most public discussion ignores. **Reproducibility** is obtaining consistent results from the same data using the same code and analytical steps; **replicability** is obtaining consistent results from a new study that collects its own data to answer the same question. The two failure modes have different causes and different remedies, and ecology sits awkwardly across both.
+Ecology has a reliability problem with much the same causes as psychology's and a materially different shape, and the difference is not cosmetic: it decides which corrections can work at all. The 2019 National Academies report draws the line that most public discussion of the subject ignores. **Reproducibility** is obtaining consistent results from the same data using the same code and analytical steps; **replicability** is obtaining consistent results from a new study that collects its own data to answer the same question. The two failure modes have different causes and different remedies, and ecology sits awkwardly across both.
 
 It sits awkwardly because much of its evidence base is not replicable even in principle. A 2017 assessment in *BioScience* put the problem plainly: direct replication of ecological research is often difficult "because of strong temporal and spatial dependencies". The 2014 growing season at a particular grassland, with that year's rainfall and that plot's soil history and that community of insects, is not available for a second run. When a repeat study of the same question in a different place gets a different answer, no experiment can tell you whether the first result was wrong or whether the two systems simply differ.
 
@@ -28,7 +29,7 @@ That is the structural difference from psychology, where a mass replication prog
 
 ## What the surveys found, and what they did not
 
-A 2018 anonymous survey published in *PLOS ONE* asked 807 researchers — 494 ecologists and 313 evolutionary biologists — about their own practice. Of those surveyed, 64 per cent reported having at least once failed to report a result because it was not statistically significant; 51 per cent had presented an unexpected finding as though it had been hypothesised from the start; 42 per cent had collected more data after checking whether a result was significant. The authors' own conclusion was that these rates are comparable with those seen in psychology.
+A 2018 anonymous survey published in *PLOS ONE* asked 807 researchers — 494 ecologists and 313 evolutionary biologists, a 15 per cent response from the 5,386 contacted — about their own practice. Of those surveyed, 64 per cent reported having at least once failed to report a result because it was not statistically significant; 51 per cent had presented an unexpected finding as though it had been hypothesised from the start; 42 per cent had collected more data after checking whether a result was significant. The authors' own conclusion was that these rates are comparable with those seen in psychology.
 
 Two things follow, and only one of them is usually drawn. The first is that the behaviours that generated psychology's crisis are present here. The second is that the *diagnostic* used in psychology — attempt the replication, count the failures — is unavailable, so the evidence about ecology's reliability has to come from elsewhere: from the statistical properties of the studies themselves, from what happens when different analysts are given the same data, and from what is missing when someone tries to check a published result.
 
@@ -46,7 +47,7 @@ The second line of evidence is newer and, for a reader trying to weigh a single 
 
 For the blue tits the average effect was convincingly negative, but the individual results ran in near-continuous variation from large negative effects through effects near zero, with some crossing the significance threshold in the opposite direction. For the *Eucalyptus* data the average was only slightly negative and not distinguishable from zero, while about a third of the individual effects were significant in one direction or the other.
 
-The detail that matters most is what did not explain the spread. Variable selection, random-effects structure and peer reviewers' ratings of analytical quality showed no strong relationship with how far a result sat from the meta-analytic mean. Analyses far from the centre were not detectably worse analyses. This is a problem about the [uncertainty a single measurement or estimate can carry](/en/physics/mechanics-waves/measurement-uncertainty-explained), not about competence, and it is not something peer review is currently catching.
+The detail that matters most is what did not explain the spread. Variable selection, random-effects structure and peer reviewers' ratings of analytical quality showed no strong relationship with how far a result sat from the meta-analytic mean. Analyses far from the centre were not detectably worse analyses. This is a problem about the [uncertainty a single measurement or estimate can carry](/en/physics/mechanics-waves/measurement-uncertainty-explained) rather than about competence — and in that exercise, review did not track it.
 
 ## The strongest case that the alarm is overstated
 
@@ -56,7 +57,7 @@ Its central piece of evidence is a 2022 study in *Ecology* that compiled 466 eco
 
 The power analysis itself supports part of this. Its authors found that meta-analysis largely mitigated the problems of low power and exaggerated effect sizes. The synthesis machinery, in other words, appears to be doing the job it was built for.
 
-A second strand of the counterargument concerns what disagreement between studies means. A 2022 review in *Trends in Ecology & Evolution* separates *mechanistic* context dependence, where a relationship genuinely changes sign or magnitude with conditions because of a real interaction, from *apparent* context dependence arising from confounding, statistical artefacts and methodological differences between studies. Under the first, two studies disagreeing is a finding about the world. Ecology has more of the first kind than psychology does, and treating every non-replication as an error would discard real signal.
+A second strand of the counterargument concerns what disagreement between studies means. A 2022 review in *Trends in Ecology & Evolution* separates *mechanistic* context dependence, where a relationship genuinely changes sign or magnitude with conditions because of a real interaction, from *apparent* context dependence arising from confounding, statistical artefacts and methodological differences between studies. Under the first, two studies disagreeing is a finding about the world rather than a failure by either. Where mechanistic context dependence is common, treating every non-replication as an error discards real signal — and the same review is careful that the label is often applied to the apparent kind, which is not a defence of anything.
 
 This is a live disagreement rather than a settled one, and the two camps overlap: the same group that produced the power analysis has published objections to the decline-effect result in the same journal. What survives from both sides is narrower than either headline. The cumulative literature is more stable than the survey data alone would predict; the individual study is less informative than its confidence interval implies. Those two statements are compatible, and together they say something specific — trust the synthesis more than the paper.
 
@@ -72,7 +73,7 @@ Three corrections address the diagnosis rather than the symptom.
 
 Coordinated distributed experiments substitute breadth for repetition: the same protocol run at many sites, analysed together, so that between-site variation becomes an estimated quantity instead of an unexplained discrepancy. A grassland nutrient-and-herbivory experiment replicated at 40 sites on six continents, reported in *Nature*, could separate a general mechanism from site-specific noise in a way no single well-designed plot experiment can.
 
-Preregistration and the reporting of non-significant results attack the selection process that the survey data expose. Publishing analysis code with the paper attacks the computational gap directly, and is the cheapest of the three.
+Preregistration and the routine reporting of non-significant results attack the selection process the survey data expose, though the evidence that they change published effect sizes in this field is still thin — adoption is recent and the relevant comparisons are only now accumulating. Publishing analysis code addresses the computational gap directly, and is both the cheapest of the three and the one with the least ambiguity about whether it worked.
 
 None of this makes a 2014 field season repeatable. That is the point: the corrections available to ecology are design corrections and disclosure corrections, not replication corrections. For a reader, the practical consequence is narrow but usable. A single field study with a modest sample is weak evidence about the magnitude of anything, and the same caution applies to observational sequencing surveys, where the [inference from composition to mechanism](/en/biology/microbiology/microbiomes-and-host-microbe-interactions) is separately fragile — a limit examined in the insight on [why microbiome associations outrun causal tests](/en/insight/microbiome-research-and-the-causal-gap). Well-constructed syntheses and multi-site experiments are considerably stronger. And where a claim depends on the exact shape of a fitted model — as claims about [energy flow through food webs](/en/ecology/ecosystems/food-webs-and-trophic-structure) often do — the absence of published code is not a formality. It is the difference between a result you can check and one you can only believe.
 

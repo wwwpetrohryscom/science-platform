@@ -1,6 +1,6 @@
 ---
 title: 'The deep sea: the largest habitat on Earth, and the least sampled'
-excerpt: 'More than nine-tenths of the ocean lies below the sunlit layer, and explorers have directly seen less than a thousandth of a per cent of its floor. This is what depth does to life, and how much of the reasoning about it rests on inference.'
+excerpt: More than nine-tenths of the ocean lies below the sunlit layer, and explorers have directly seen less than a thousandth of a per cent of its floor. This is what depth does to life, and how much of the reasoning about it rests on inference.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -17,6 +17,7 @@ related:
   - ocean-acidification-explained
   - satellite-altimetry-explained
 pillar: ocean-science-explained
+_bodyHash: 1390dc08
 ---
 
 NOAA Ocean Exploration states that more than 90 per cent of the ocean is deep ocean — water below 200 metres — and that explorers have directly seen less than 0.001 per cent of the deep-sea floor, an area roughly the size of Rhode Island. Those two figures sit oddly together, and holding them together is the whole discipline: the largest continuous habitat on the planet is described almost entirely from samples, sensors and inference rather than from observation.

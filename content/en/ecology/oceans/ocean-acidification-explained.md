@@ -1,6 +1,6 @@
 ---
 title: 'Ocean acidification: the carbonate chemistry, and what the biology actually shows'
-excerpt: 'Dissolving CO₂ in seawater adds carbon while removing carbonate ions, which is the whole problem in one sentence. Here is the measured chemistry, the saturation states that follow from it, and where laboratory and field biology part company.'
+excerpt: Dissolving CO₂ in seawater adds carbon while removing carbonate ions, which is the whole problem in one sentence. Here is the measured chemistry, the saturation states that follow from it, and where laboratory and field biology part company.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -17,6 +17,7 @@ related:
   - deep-sea-ecosystems
   - carbon-cycle-explained
 pillar: ocean-science-explained
+_bodyHash: 86434cc8
 ---
 
 Dissolve carbon dioxide in seawater and two things happen at once. The total amount of dissolved inorganic carbon goes up, and the concentration of carbonate ions goes down. Almost every consequence discussed under the heading of ocean acidification follows from that second, less obvious half.

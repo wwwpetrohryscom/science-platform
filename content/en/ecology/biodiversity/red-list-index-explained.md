@@ -16,6 +16,7 @@ related:
   - why-species-counts-mislead-conservation
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 70cec440
+readingTime: 5
 ---
 
 The [IUCN Red List](https://www.iucnredlist.org/) sorts species into categories of extinction risk, from those of least concern to those that have disappeared. On its own, a single assessment is a snapshot. The Red List Index turns repeated assessments of the same groups into a trend, and this piece explains how that conversion works, what the categories and criteria measure, and where the resulting signal can and cannot be trusted.

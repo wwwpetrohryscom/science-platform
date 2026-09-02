@@ -1,6 +1,6 @@
 ---
 title: 'Remaining carbon budgets: how the number is assembled, and what it is not'
-excerpt: 'A remaining carbon budget is an assessed quantity with five separately estimated components and a probability attached, not a countdown clock. Here is how the IPCC assembles one, and where the figure is routinely misread.'
+excerpt: A remaining carbon budget is an assessed quantity with five separately estimated components and a probability attached, not a countdown clock. Here is how the IPCC assembles one, and where the figure is routinely misread.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
@@ -19,6 +19,7 @@ related:
   - global-temperature-records-explained
   - climate-adaptation-mitigation-indicators
 pillar: what-is-climate-change
+_bodyHash: 773fcf37
 ---
 
 The single figure that circulates — five hundred billion tonnes of CO₂ left for 1.5°C — is the median of one probability distribution, conditioned on a family of emissions pathways, adjusted by four further terms that each carry their own error bar. None of that is hidden; it is set out at length in Chapter 5 of the IPCC's Sixth Assessment Report. But the compression from an assessed quantity to a headline drops exactly the parts that determine what the number can be used for. Reading it properly starts with the physical relationship that makes a budget possible at all, which sits downstream of the mechanism described in the pillar on [the basis of climate change](/en/ecology/climate-change/what-is-climate-change).

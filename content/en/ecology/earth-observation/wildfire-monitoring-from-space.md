@@ -15,6 +15,8 @@ related:
   - drought-monitoring-systems
   - satellite-deforestation-monitoring
 _bodyHash: b6bfc133
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Satellites watch wildfire in two complementary ways: they sense the heat of flames while a fire is burning, and they map the darkened scar once it has passed. Each approach reads a different signal, on a different clock, and each has its own blind spots. This piece explains the thermal and reflectance methods behind them, the near-real-time systems built on those methods, and why some fires still go undetected from orbit.

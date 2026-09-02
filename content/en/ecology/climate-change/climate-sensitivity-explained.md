@@ -1,6 +1,6 @@
 ---
 title: 'Climate sensitivity: what ECS and TCR measure, and how AR6 narrowed the range'
-excerpt: 'Equilibrium climate sensitivity and the transient climate response answer different questions about the same system. This is what each holds fixed, how three lines of evidence were combined, and why the thermometer record alone reads low.'
+excerpt: Equilibrium climate sensitivity and the transient climate response answer different questions about the same system. This is what each holds fixed, how three lines of evidence were combined, and why the thermometer record alone reads low.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
@@ -19,6 +19,7 @@ related:
   - carbon-cycle-feedbacks
   - ocean-heat-content-indicators
 pillar: what-is-climate-change
+_bodyHash: 3e904bf8
 ---
 
 Nearly every quantitative statement about future warming inherits its uncertainty from a small set of assessed parameters, and two of them carry most of the load. They are routinely used as though they were the same quantity. They are not: the IPCC's Sixth Assessment Report puts one at 3°C and the other at 1.8°C, and the difference is not a matter of rounding but of which experiment is being described. Separating them is the first step in reading any projection, including the mechanism laid out in the pillar on [what climate change is and how it is established](/en/ecology/climate-change/what-is-climate-change).

@@ -16,6 +16,7 @@ related:
   - biodiversity-baselines-and-shifting-baselines
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 478d2f3
+readingTime: 4
 ---
 
 Few biodiversity statistics travel further into public conversation than the headline figure from the [Living Planet Index](/en/glossary/living-planet-index). It is widely cited and almost as widely misunderstood. The index summarizes the average relative change in monitored vertebrate populations, and reading it correctly means knowing what kind of number it is — and what it is not.

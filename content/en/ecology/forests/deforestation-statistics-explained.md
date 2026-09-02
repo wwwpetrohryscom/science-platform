@@ -5,7 +5,7 @@ type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 6
 tags:
   - deforestation
   - forest-monitoring
@@ -18,6 +18,7 @@ related:
   - forest-carbon-measurement
   - satellite-deforestation-monitoring
 pillar: forest-ecosystems-explained
+_bodyHash: 3878a314
 ---
 
 Four figures, all currently published, all describing forest loss:
@@ -63,6 +64,12 @@ The satellite series carries a different set. Its primary-forest mask exists onl
 Before comparing any two published figures, establish: which of the four quantities above is being reported; whether the number is a single year or an annual average across a reporting period; whether it is gross loss or net change; and which release of the dataset it came from. A comparison that fails any one of these is arithmetic between incompatible units.
 
 The failure mode is not hypothetical. A widely repeated framing sets a satellite single-year gross tree cover loss figure against an FAO decadal net change figure and reports the difference as a discrepancy in the science. It is a discrepancy in the question — an instance of the more general pattern set out in [why two credible datasets disagree](/en/insight/why-two-credible-datasets-disagree).
+
+## The net figure moved, and clearing was not the reason
+
+One recent shift is worth working through because it shows how much a net number can conceal. The annual rate of net forest loss fell from 10.7 million hectares in 1990–2000 to 3.68 million in 2000–2015, then rose again to 4.12 million in 2015–2025. Read as a headline, that looks like deforestation accelerating. It is not: deforestation kept falling across the same periods. What changed is the other term. Forest expansion — afforestation plus natural succession onto land that was previously something else — slowed from 9.88 million hectares a year in 2000–2015 to 6.78 million in the decade to 2025.
+
+The country detail makes the mechanism concrete. China's net gain fell from 2.22 million hectares a year to 1.69 million; Canada's from 513,000 hectares a year to 82,500; and the United States moved from a net gain of roughly 430,000 hectares a year to a net loss of 120,000. None of that is a tropical clearing story, and none of it would be visible in a figure reported only as net change.
 
 ## What the two series agree on
 

@@ -17,6 +17,7 @@ related:
   - water-vapor-feedback-explained
   - cryosphere-in-the-earth-system
 _bodyHash: 4c9f8a4c
+pillar: earth-system-science-explained
 ---
 
 Of all the reservoirs in the [Earth system](/en/glossary/earth-system), the atmosphere's water store is the smallest that anyone cares about and the one that turns over fastest. Both facts follow from the same number, and together they explain why the [water cycle](/en/glossary/water-cycle) intensifies under warming in a way that is neither uniform nor proportional.

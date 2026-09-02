@@ -16,6 +16,7 @@ related:
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
 _bodyHash: 9104dc49
+readingTime: 5
 ---
 
 A count of the distinct species recorded in a place is the most familiar way to summarize biodiversity, and the one most likely to be read too literally. The measure is simple to define and cheap to compute, which explains its reach across surveys, reports, and policy summaries. It also carries hidden assumptions about how, where, and how thoroughly the counting was done, and those assumptions decide how much the number can actually support.

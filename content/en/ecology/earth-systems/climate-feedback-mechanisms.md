@@ -17,6 +17,7 @@ related:
   - earth-system-science-explained
   - earth-system-models-explained
 _bodyHash: dfc5fe91
+pillar: earth-system-science-explained
 ---
 
 The word "feedback" does a lot of loose work in public writing about climate, usually meaning something like "things get worse". In the technical literature it means something precise and quantitative, and the precision is what makes the concept useful. This article sets out the definition, the sign convention, and the assessed values — and then the part that matters most, which is where the uncertainty sits.

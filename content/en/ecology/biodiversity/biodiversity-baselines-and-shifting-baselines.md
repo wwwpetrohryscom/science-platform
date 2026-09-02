@@ -16,6 +16,7 @@ related:
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
 _bodyHash: c4c9ece2
+readingTime: 5
 ---
 
 Almost every claim about nature contains a hidden comparison. To say a population has declined, recovered, or remained intact is to measure it against some earlier state taken as normal. That earlier state is the reference point, and choosing it is one of the quietest yet most consequential decisions in biodiversity monitoring.

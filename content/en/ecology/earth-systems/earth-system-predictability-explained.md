@@ -17,6 +17,7 @@ related:
   - climate-variability-and-teleconnections
   - earth-system-science-explained
 _bodyHash: a8fb81b4
+pillar: earth-system-science-explained
 ---
 
 The most durable objection to climate projection is also the most easily answered: if the weather cannot be forecast beyond a fortnight, how can anyone say anything about 2100? The answer is that the two are not the same problem, and the distinction between them is one of the more useful ideas in [Earth system science](/en/ecology/earth-systems/earth-system-science-explained).

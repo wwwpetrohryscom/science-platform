@@ -6,7 +6,7 @@ category: ecology
 author: environmental-science-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 8
+readingTime: 7
 tags:
   - monitoring
   - hydrology
@@ -19,6 +19,7 @@ related:
   - essential-biodiversity-variables-monitoring
   - groundwater-and-aquifer-depletion
   - what-satellites-cannot-see
+_bodyHash: 492c84a8
 ---
 
 Slow change is detectable only against a long, consistent record. That is not a preference of the discipline; it is a property of the statistics. A trend in flood frequency, a shift in low-flow behaviour, a change in the timing of a biological event — each requires enough years of comparable observation that the signal separates from interannual noise. And a record has a property no other scientific instrument has: once it is interrupted, the missing years cannot be recovered by any later investment. You can rebuild a station. You cannot rebuild its past.
@@ -45,7 +46,7 @@ The literature on terrestrial ecological monitoring has a similar mix. A 2025 es
 
 ## Some networks have grown, which is the strongest objection
 
-The one-directional story is wrong, and the counter-example is substantial. Argo, the array of profiling floats measuring ocean temperature and salinity, did not exist in 1999. Its [implementation status](https://argo.ucsd.edu/about/status/) records the millionth profile collected by November 2012, the two millionth in November 2018 and the three millionth in July 2024, with close to 4,000 active floats and a design target raised from 3,000 to 3,800 to cover seasonal sea-ice zones and marginal seas. Ocean interior heat content, one of the best-constrained quantities in the Earth system, is well constrained precisely because a new in-situ network was built and sustained.
+The one-directional story is wrong, and the counter-example is substantial. Argo, the array of profiling floats measuring ocean temperature and salinity, is one of them. Its [implementation status](https://argo.ucsd.edu/about/status/) records the millionth profile collected by November 2012, the two millionth in November 2018 and the three millionth in July 2024, with close to 4,000 active floats and a design target raised from 3,000 to 3,800 to cover seasonal sea-ice zones and marginal seas. The modern record of ocean interior temperature rests on that array. It exists because a network was built and sustained, not because one was inherited.
 
 Satellite records have likewise lengthened, and coordinated frameworks such as the essential-variable approach described in [biodiversity monitoring under essential biodiversity variables](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) have improved comparability where they have been adopted. Anyone claiming a uniform decline has to explain these. The defensible claim is narrower and, for that reason, harder to dismiss: investment has shifted towards instruments that produce data quickly and away from the specific asset — an unbroken multi-decadal series at a fixed place — that cannot be bought later at any price.
 

@@ -17,6 +17,7 @@ related:
   - biosphere-climate-interactions
   - earth-system-science-explained
 _bodyHash: 610e745e
+pillar: earth-system-science-explained
 ---
 
 About 78 per cent of the air is nitrogen, and almost none of it is available to almost anything alive. The triple bond in N₂ is one of the strongest in ordinary chemistry, and until it is broken the atom is inert. That single chemical fact organises the whole [nitrogen cycle](/en/glossary/nitrogen-cycle) — and explains why an element in vast surplus behaves as a limiting nutrient across most of the [biosphere](/en/glossary/biosphere). It is a clear case of the reservoir-and-flux logic set out in [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained): a huge store paired with a small, biologically gated flux.

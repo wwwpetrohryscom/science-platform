@@ -1,6 +1,6 @@
 ---
 title: 'Ecological succession: what replaced the climax community idea'
-excerpt: 'Succession is not a fixed march toward one stable endpoint. Recovery depends on what survived, what arrived and in what order — and different properties of a damaged site return on very different clocks.'
+excerpt: Succession is not a fixed march toward one stable endpoint. Recovery depends on what survived, what arrived and in what order — and different properties of a damaged site return on very different clocks.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - ecosystem-resilience-indicators
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
+_bodyHash: 3e09504e
 ---
 
 A burned hillside, a retreating glacier front, an abandoned field: each will be recolonised, and for much of the twentieth century the sequence was thought to be predictable enough to name in advance. That expectation — a site passing through a fixed series of stages toward a stable endpoint set by regional climate — organised a great deal of plant ecology. It did not survive the long-term records. What replaced it is looser, more contingent, and considerably more useful to anyone deciding whether a damaged site is on its way back.

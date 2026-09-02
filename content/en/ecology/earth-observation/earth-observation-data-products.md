@@ -15,6 +15,8 @@ related:
   - land-cover-change-detection
   - copernicus-programme-explained
 _bodyHash: d43bb6e1
+readingTime: 5
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 A value a satellite records is not yet a measurement of the planet; it is a raw signal that must be transformed before it carries scientific meaning. Earth-observation archives organise that transformation into a ladder of processing levels, each describing how far a product has been moved from the instrument's first reading. Understanding where a product sits on that ladder tells a user how much work has already been done, and how many assumptions already sit inside the number. For the wider context, see our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) hub.

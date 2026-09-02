@@ -15,6 +15,8 @@ related:
   - earth-observation-data-products
   - land-cover-change-detection
 _bodyHash: ed8c9936
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Satellite measurement is indispensable to environmental science, yet it is bounded in ways that matter for how its results should be read. A map or time series derived from orbit always carries assumptions, gaps, and error that good practice makes explicit rather than hides. This article sets out the main structural limits of [what remote sensing is](/en/ecology/earth-observation/what-is-remote-sensing) and the validation that keeps the resulting products trustworthy; the broader context sits in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) hub.

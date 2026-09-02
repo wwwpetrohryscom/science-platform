@@ -15,6 +15,8 @@ related:
   - copernicus-programme-explained
   - modis-earth-observation-system
 _bodyHash: 10ac91a8
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 The Sentinels are the dedicated space component of the European Union's [Copernicus](https://www.copernicus.eu/en) programme, built and operated by the European Space Agency (ESA) on the EU's behalf. Each family carries a different kind of instrument, so the fleet as a whole measures land, ocean, ice, and the atmosphere rather than any single one. Their data are released free and under an open licence, which is part of why they became a fixture of operational monitoring.

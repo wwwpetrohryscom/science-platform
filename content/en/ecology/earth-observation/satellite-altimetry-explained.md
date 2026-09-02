@@ -15,6 +15,8 @@ related:
   - sentinel-satellites-explained
   - remote-sensing-limitations-and-uncertainty
 _bodyHash: d75d662f
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 A radar altimeter in orbit measures the height of the sea surface by aiming a pulse straight down and timing how long it takes to return. Combined with very precise knowledge of where the satellite itself is, that timing yields sea-surface height to within centimetres. This article describes how the technique works, the missions that built a continuous record, what altimetry measures besides sea level, and the corrections the measurement depends on.

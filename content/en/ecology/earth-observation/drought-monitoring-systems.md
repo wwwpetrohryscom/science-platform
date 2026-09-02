@@ -15,6 +15,8 @@ related:
   - vegetation-indices-and-monitoring
   - wildfire-monitoring-from-space
 _bodyHash: b6aa36b
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Drought is not a single condition but a family of related water deficits, and that is why it cannot be captured by one measurement. Monitoring systems instead combine climate indices, calculated from station and gridded records, with satellite observations of precipitation, soil moisture, vegetation, and water storage. The picture that emerges is a composite, assembled from several lines of evidence that each describe a different part of the same shortfall.

@@ -15,6 +15,8 @@ related:
   - sentinel-satellites-explained
   - satellite-altimetry-explained
 _bodyHash: 4e3e45da
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 The sea is not a uniform blue. Its precise shade, sampled from orbit, carries information about the microscopic plant life drifting near the surface. By measuring the spectrum of light leaving the water, satellites can estimate how much phytoplankton is present, and that estimate has become one of the steadier threads in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) of the oceans.

@@ -1,6 +1,6 @@
 ---
 title: 'Ecological restoration: what the meta-analyses show, and what counts as success'
-excerpt: 'Restoration reliably improves on a degraded baseline and reliably falls short of a reference one. Which comparison a study makes decides the verdict, and few projects are watched long enough to settle it.'
+excerpt: Restoration reliably improves on a degraded baseline and reliably falls short of a reference one. Which comparison a study makes decides the verdict, and few projects are watched long enough to settle it.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - rewilding-evidence-and-limits
   - invasive-species-management
 pillar: conservation-science-explained
+_bodyHash: ca4923fc
 ---
 
 Every published verdict on restoration is a verdict about a comparison, and there are two available. Compare a restored site with the degraded state it came from and restoration looks strongly effective. Compare the same site with an undisturbed reference and it looks incomplete. Both comparisons are legitimate, both appear in the literature, and headline claims about restoration usually turn on which one was reported. This is the first thing to establish before any number means anything; the wider framework for judging intervention evidence is set out in the cluster's guide to [how conservation effectiveness is tested](/en/ecology/conservation/conservation-science-explained).
