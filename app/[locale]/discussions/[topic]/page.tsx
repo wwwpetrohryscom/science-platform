@@ -11,6 +11,7 @@ import { buildMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import { formatDate, getArticleBySlug } from "@/lib/content";
 import {
   getDiscussion,
+  discussionLocales,
   listDiscussionSlugs,
 } from "@/lib/discussions";
 import {
@@ -31,7 +32,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.locale)) return {};
-  const discussion = await getDiscussion(params.topic);
+  const discussion = await getDiscussion(params.topic, params.locale);
   if (!discussion) {
     return buildMetadata({
       title: "Discussion not found",
@@ -46,6 +47,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: discussion.topic,
     path: `/discussions/${discussion.slug}`,
     locale: params.locale,
+    // hreflang lists only the locales a translation actually exists
+    // for, and a page served from the English fallback is excluded
+    // from the index — the same contract articles already follow.
+    availableLocales: discussionLocales(discussion.slug),
+    noIndex: discussion.localeFallback === true,
     type: "article",
     publishedDate: discussion.publishedDate,
     updatedDate: discussion.updatedDate,
@@ -59,7 +65,7 @@ export default async function DiscussionTopicPage({ params }: Props) {
   const locale = params.locale;
   const t = translator(getMessages(locale));
 
-  const discussion = await getDiscussion(params.topic);
+  const discussion = await getDiscussion(params.topic, params.locale);
   if (!discussion) notFound();
 
   const categoryLabel = t(`categories.${discussion.category}.label`);

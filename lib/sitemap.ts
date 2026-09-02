@@ -1,7 +1,7 @@
 import { siteConfig } from "@/lib/seo";
 import { categories, listCategorySlugs } from "@/lib/categories";
 import { getAllArticles, getAllInsights } from "@/lib/content";
-import { getDiscussions } from "@/lib/discussions";
+import { getDiscussions, discussionLocales } from "@/lib/discussions";
 import { listGlossaryAlphabetical } from "@/lib/glossary";
 import { POLICY_DOCUMENTS, listDesksForDisplay } from "@/lib/editorial";
 import {
@@ -128,7 +128,14 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     }
   }
 
-  const discussions = await getDiscussions();
+  const discussionsByLocale = new Map<
+    Locale,
+    Awaited<ReturnType<typeof getDiscussions>>
+  >();
+  for (const locale of LOCALES) {
+    discussionsByLocale.set(locale, await getDiscussions(locale));
+  }
+  const discussions = discussionsByLocale.get(DEFAULT_LOCALE) ?? [];
 
   const updatedByCategory = new Map<string, Date[]>();
   const updatedBySubtopic = new Map<string, Date[]>();
@@ -246,11 +253,15 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     }
   }
 
+  // Only locales that actually have a translation. A discussion served
+  // from the English fallback is noindex, so listing it here would
+  // advertise a page we are telling crawlers not to index.
   const discussionEntries = discussions.flatMap((discussion) => {
     const path = `/discussions/${discussion.slug}`;
-    const alternates = buildLocalizedAlternates(path);
+    const translated = discussionLocales(discussion.slug);
+    const alternates = buildLocalizedAlternates(path, translated);
 
-    return LOCALES.map((locale) =>
+    return translated.map((locale) =>
       entry(locale, path, toDate(discussion.updatedDate), "weekly", 0.6, alternates),
     );
   });

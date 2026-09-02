@@ -31,7 +31,7 @@ export default async function DiscussionsIndexPage({ params }: Props) {
   if (!isLocale(params.locale)) notFound();
   const locale = params.locale;
   const t = translator(getMessages(locale));
-  const discussions = await getDiscussions();
+  const discussions = await getDiscussions(locale);
 
   return (
     <Layout locale={locale}>

@@ -1,5 +1,9 @@
+import fs from "node:fs";
+import path from "node:path";
+
 import { getAuthor, type Author } from "@/lib/authors";
 import type { CategorySlug } from "@/lib/categories";
+import { DEFAULT_LOCALE, LOCALES, type Locale } from "@/lib/i18n-config";
 
 /**
  * Discussions module.
@@ -49,6 +53,14 @@ export type Discussion = {
   tags: string[];
   /** Optional pointer to a related article — drives internal linking. */
   relatedArticleSlug?: string;
+
+  /* Resolved at read time by `getDiscussion(s)` — see Localization. */
+  /** Locale this record was requested for. */
+  locale?: Locale;
+  /** Locale the text actually came from. */
+  sourceLocale?: Locale;
+  /** True when the requested translation is missing and EN was served. */
+  localeFallback?: boolean;
 };
 
 const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
@@ -357,16 +369,98 @@ const discussions: Discussion[] = raw.map((d) => ({
   moderator: getAuthor(d.moderatorId),
 }));
 
-export async function getDiscussions(): Promise<Discussion[]> {
-  return [...discussions].sort((a, b) =>
-    b.updatedDate.localeCompare(a.updatedDate),
-  );
+/* ----------------------------------------------------------------
+   Localization
+   ---------------------------------------------------------------
+   Discussion text (title, framing topic, editorial notes) lived only
+   in English while the pages were generated — and indexed — for all
+   six locales with a full hreflang alternate set. That advertised a
+   Russian translation of a page that served English.
+
+   Translations live in `content/discussions/<locale>.json`, keyed by
+   slug, so each locale is one file and a missing translation is a
+   missing file rather than a half-populated record. A discussion with
+   no translation for a locale falls back to English and is reported as
+   a fallback, exactly as articles are — the route still renders, but
+   it is excluded from the index and from hreflang.
+---------------------------------------------------------------- */
+
+export type DiscussionTranslation = {
+  title: string;
+  topic: string;
+  /** Note bodies keyed by comment id. Ids not present keep the English. */
+  comments?: Record<string, string>;
+};
+
+const TRANSLATIONS_ROOT = path.join(process.cwd(), "content", "discussions");
+const translationCache = new Map<Locale, Record<string, DiscussionTranslation>>();
+
+function loadTranslations(locale: Locale): Record<string, DiscussionTranslation> {
+  const cached = translationCache.get(locale);
+  if (cached) return cached;
+  const file = path.join(TRANSLATIONS_ROOT, `${locale}.json`);
+  let parsed: Record<string, DiscussionTranslation> = {};
+  if (fs.existsSync(file)) {
+    try {
+      parsed = JSON.parse(fs.readFileSync(file, "utf8")) as Record<
+        string,
+        DiscussionTranslation
+      >;
+    } catch {
+      parsed = {};
+    }
+  }
+  translationCache.set(locale, parsed);
+  return parsed;
+}
+
+/** Locales for which a translation of this discussion exists on disk. */
+export function discussionLocales(slug: string): Locale[] {
+  const out: Locale[] = [DEFAULT_LOCALE];
+  for (const locale of LOCALES) {
+    if (locale === DEFAULT_LOCALE) continue;
+    const t = loadTranslations(locale)[slug];
+    if (t && t.title && t.topic) out.push(locale);
+  }
+  return out;
+}
+
+function localize(d: Discussion, locale: Locale): Discussion {
+  if (locale === DEFAULT_LOCALE) {
+    return { ...d, locale, sourceLocale: DEFAULT_LOCALE, localeFallback: false };
+  }
+  const t = loadTranslations(locale)[d.slug];
+  if (!t || !t.title || !t.topic) {
+    return { ...d, locale, sourceLocale: DEFAULT_LOCALE, localeFallback: true };
+  }
+  return {
+    ...d,
+    locale,
+    sourceLocale: locale,
+    localeFallback: false,
+    title: t.title,
+    topic: t.topic,
+    comments: d.comments.map((c) => ({
+      ...c,
+      body: t.comments?.[c.id] ?? c.body,
+    })),
+  };
+}
+
+export async function getDiscussions(
+  locale: Locale = DEFAULT_LOCALE,
+): Promise<Discussion[]> {
+  return [...discussions]
+    .map((d) => localize(d, locale))
+    .sort((a, b) => b.updatedDate.localeCompare(a.updatedDate));
 }
 
 export async function getDiscussion(
   slug: string,
+  locale: Locale = DEFAULT_LOCALE,
 ): Promise<Discussion | undefined> {
-  return discussions.find((d) => d.slug === slug);
+  const found = discussions.find((d) => d.slug === slug);
+  return found ? localize(found, locale) : undefined;
 }
 
 export function listDiscussionSlugs(): string[] {
