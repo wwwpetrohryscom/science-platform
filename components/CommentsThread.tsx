@@ -1,34 +1,41 @@
 import { formatDate } from "@/lib/content";
 import type { DiscussionComment } from "@/lib/discussions";
-import { type Locale } from "@/lib/i18n";
-import {
-  HONEYPOT_FIELD,
-  HONEYPOT_TIMESTAMP_FIELD,
-} from "@/lib/security/honeypot";
+import { getMessages, translator, type Locale } from "@/lib/i18n";
 
 type CommentsThreadProps = {
   locale: Locale;
   comments: DiscussionComment[];
-  /** When false, the composer is rendered in a read-only state. */
+  /** Reserved for when contributions reopen; currently always closed. */
   acceptingNew?: boolean;
 };
 
 /**
- * Mock comments UI for moderated discussions.
+ * Editorial notes on a curated discussion.
  *
- * Comment bodies are user-generated content from verified experts and
- * are NOT translated by this layer — they are shown as authored. The
- * surrounding chrome (composer copy, status text) is locale-aware.
+ * There was a submission form here, wired to /api/discussions/comment.
+ * That endpoint validated a submission, returned "queued for review",
+ * and stored nothing — the moderation backend was never built. The
+ * form also told the reader that "verified experts are marked with a
+ * badge", and no entry in the corpus has ever been from a verified
+ * expert. Both statements were false, so the form is gone and the
+ * panel now says what is actually true.
+ *
+ * The `isExpert` badge stays in the render path because the field is
+ * the shape a real moderation backend would return. It has never
+ * rendered, because no entry sets it.
  */
 export function CommentsThread({
   locale,
   comments,
-  acceptingNew = true,
+  acceptingNew = false,
 }: CommentsThreadProps) {
+  const t = translator(getMessages(locale));
+  void acceptingNew;
+
   return (
     <div className="mt-8">
       <h3 className="font-serif text-lg font-semibold text-ink">
-        Thread ({comments.length})
+        {t("discussions.notes_heading", { count: comments.length })}
       </h3>
 
       <ol className="mt-4 space-y-5">
@@ -41,7 +48,7 @@ export function CommentsThread({
               <span className="font-medium text-ink">{comment.authorName}</span>
               {comment.isExpert && (
                 <span className="rounded-sm bg-primary-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-primary-800">
-                  Verified expert
+                  {t("discussions.verified_contributor")}
                 </span>
               )}
               <span className="text-xs text-ink-subtle">
@@ -58,68 +65,9 @@ export function CommentsThread({
         ))}
       </ol>
 
-      {acceptingNew ? (
-        <form
-          // `/api/discussions/comment` runs the full anti-spam stack
-          // (rate-limit, honeypot, sanitize, length & link caps,
-          // banned-phrase + spam-shape detectors) before queueing for
-          // moderation review.
-          action="/api/discussions/comment"
-          method="post"
-          className="mt-6 rounded-md border border-ink-line bg-ink-surface p-5"
-        >
-          <label
-            htmlFor="comment-body"
-            className="text-sm font-medium text-ink"
-          >
-            Add to the discussion
-          </label>
-          <p className="mt-1 text-xs text-ink-subtle">
-            Comments are reviewed before they appear. Verified experts are
-            marked with a badge.
-          </p>
-          <textarea
-            id="comment-body"
-            name="body"
-            rows={4}
-            required
-            minLength={30}
-            maxLength={4000}
-            placeholder="Make a substantive point — citations welcome."
-            className="mt-3 w-full rounded-md border border-ink-line bg-white px-3 py-2 text-sm focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-200"
-          />
-          {/* Honeypot — must stay in DOM order so naïve form-fillers
-              still see and fill it. */}
-          <div aria-hidden="true" className="hp-trap">
-            <label htmlFor="comment-website-url">Website</label>
-            <input
-              id="comment-website-url"
-              type="text"
-              name={HONEYPOT_FIELD}
-              tabIndex={-1}
-              autoComplete="off"
-              defaultValue=""
-            />
-          </div>
-          <input
-            type="hidden"
-            name={HONEYPOT_TIMESTAMP_FIELD}
-            defaultValue={Date.now()}
-          />
-          <div className="mt-3 flex items-center justify-between">
-            <p className="text-xs text-ink-subtle">
-              Plain text only. Submissions enter a moderation queue.
-            </p>
-            <button type="submit" className="btn-primary">
-              Submit for review
-            </button>
-          </div>
-        </form>
-      ) : (
-        <p className="mt-6 rounded-md border border-ink-line bg-ink-surface p-4 text-sm text-ink-muted">
-          This thread is closed for new comments.
-        </p>
-      )}
+      <p className="mt-6 rounded-md border border-ink-line bg-ink-surface p-4 text-sm text-ink-muted">
+        {t("discussions.closed_notice")}
+      </p>
     </div>
   );
 }

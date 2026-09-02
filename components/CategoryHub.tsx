@@ -205,7 +205,7 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
           id="methodology-heading"
           className="font-serif text-display-md font-semibold tracking-tight text-ink"
         >
-          Methodology and sources
+          {t("common.methodology_sources")}
         </h2>
         <div className="mt-4">
           <GeneratedBlock block={methodology} variant="explanation" />

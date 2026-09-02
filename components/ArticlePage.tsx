@@ -220,7 +220,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
           </div>
 
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 border-y border-ink-line py-4">
-            <AuthorBlock author={article.author} variant="byline" />
+            <AuthorBlock author={article.author} variant="byline" locale={locale} />
             <div className="text-xs text-ink-subtle">
               <p>
                 <span className="font-medium text-ink">{t("article.published")}</span>{" "}
@@ -254,7 +254,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                 id="evidence-summary-heading"
                 className="font-serif text-lg font-semibold text-ink"
               >
-                Evidence and uncertainty
+                {t("common.evidence_uncertainty")}
               </h2>
               <div className="mt-3">
                 <GeneratedBlock block={researchBlock} variant="note" />
@@ -345,7 +345,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
               </aside>
             )}
 
-            <AuthorBlock author={article.author} />
+            <AuthorBlock author={article.author} locale={locale} />
           </div>
 
           <aside className="hidden lg:block">

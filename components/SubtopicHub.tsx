@@ -201,10 +201,10 @@ export async function SubtopicHub({
                   id={`group-${intent}-heading`}
                   className="font-serif text-2xl font-semibold tracking-tight text-ink md:text-3xl"
                 >
-                  {INTENT_LABELS[intent]}
+                  {t(`subtopic_hub.${intent}_label`)}
                 </h2>
                 <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-                  {INTENT_DESCRIPTIONS[intent]}
+                  {t(`subtopic_hub.${intent}_description`)}
                 </p>
                 <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
                   {items.map((article) => (
@@ -275,7 +275,7 @@ export async function SubtopicHub({
           id="subtopic-sources-heading"
           className="font-serif text-2xl font-semibold tracking-tight text-ink md:text-3xl"
         >
-          Where the evidence comes from
+          {t("common.where_evidence")}
         </h2>
         <div className="mt-4">
           <GeneratedBlock block={methodology} variant="explanation" />
@@ -307,17 +307,10 @@ type IntentKey = "foundation" | "methods" | "applications";
 
 const INTENT_ORDER: IntentKey[] = ["foundation", "methods", "applications"];
 
-const INTENT_LABELS: Record<IntentKey, string> = {
-  foundation: "Foundation",
-  methods: "Methods and indicators",
-  applications: "Applications and frontiers",
-};
-
-const INTENT_DESCRIPTIONS: Record<IntentKey, string> = {
-  foundation: "Core definitions and mechanisms — the conceptual base for the rest of this subtopic.",
-  methods: "How the phenomenon is measured, monitored, and quantified.",
-  applications: "Frontier questions, policy applications, and where the evidence is still being assembled.",
-};
+// Labels and descriptions live in the message bundles
+// (`subtopic_hub.<intent>_label` / `_description`). They were hard-coded
+// English here and rendered as H2 headings on every localized subtopic
+// hub — untranslated UI on every non-English page of the taxonomy.
 
 /**
  * Deterministic article-to-intent mapping. Uses tags first, then

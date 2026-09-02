@@ -184,7 +184,13 @@
     "empty": "In diesem Unterthema sind noch keine Artikel veröffentlicht — schauen Sie bald wieder vorbei.",
     "siblings_title": "Verwandte Unterthemen in {category}",
     "by_author_reading_time": "Von {author} · {minutes} Min. Lesezeit",
-    "subtopic_eyebrow": "Unterthema {category}"
+    "subtopic_eyebrow": "Unterthema {category}",
+    "foundation_label": "Grundlagen",
+    "foundation_description": "Grundlegende Definitionen und Mechanismen — die begriffliche Basis für den Rest dieses Themenbereichs.",
+    "methods_label": "Methoden und Indikatoren",
+    "methods_description": "Wie das Phänomen gemessen, überwacht und quantifiziert wird.",
+    "applications_label": "Anwendungen und offene Fragen",
+    "applications_description": "Offene Fragen, politische Anwendungen und die Stellen, an denen die Evidenz noch zusammengetragen wird."
   },
   "article": {
     "pillar_badge": "Pfeiler",
@@ -221,7 +227,10 @@
     "about_heading": "Wie das funktioniert",
     "about_body": "Jede Frage wird von einer EcoScienceHub-Redaktion eröffnet und eingeordnet. Die folgenden Notizen sind redaktionell und stammen von der Redaktion — sie sind keine Beiträge namentlich genannter Forschender, und auf dieser Website gibt es keine Kommentare aus dem Publikum. Sollten künftig verifizierte externe Beitragende teilnehmen, werden ihre Beiträge gekennzeichnet und namentlich zugeordnet.",
     "related_article": "Verwandter Artikel",
-    "editorial_notes": "{count} redaktionelle Notizen"
+    "editorial_notes": "{count} redaktionelle Notizen",
+    "notes_heading": "Redaktionelle Notizen ({count})",
+    "verified_contributor": "Verifizierte:r Beitragende:r",
+    "closed_notice": "EcoScienceHub nimmt zu diesen Fragen keine öffentlichen Beiträge an. Die Notizen oben sind redaktionell. Wenn Sie in einem dieser Felder arbeiten und beitragen möchten, schreiben Sie an info@helperg.com — namentlich Beitragende würden unter ihrem eigenen Namen und als solche gekennzeichnet veröffentlicht."
   },
   "footer": {
     "topics_heading": "Themen",
@@ -242,10 +251,31 @@
     "description": "Abonnieren Sie, um neue Langtexte und Analysen zu erhalten, plus gelegentliche Notizen aus der Redaktion. Kein Clickbait, kein Listenkauf, keine Tracking-Pixel.",
     "email_label": "E-Mail-Adresse",
     "email_placeholder": "sie@beispiel.com",
-    "submit": "Abonnieren"
+    "submit": "Abonnieren",
+    "not_open": "Der Verteiler ist noch nicht geöffnet. Sobald er es ist, können Sie sich hier eintragen — bis dahin werden hier keine Daten erhoben."
   },
   "common": {
     "by": "Von",
-    "and": "und"
+    "and": "und",
+    "evidence_uncertainty": "Evidenz und Unsicherheit",
+    "methodology_sources": "Methodik und Quellen",
+    "where_evidence": "Woher die Evidenz stammt",
+    "insight_sources": "Quellen hinter diesem Argument",
+    "desk_disclaimer": "Eine Redaktion, keine Person. Sie trägt keinen akademischen Grad und steht für keine namentlich genannte Wissenschaftlerin und keinen Wissenschaftler.",
+    "desk_disclaimer_link": "warum die Website so zuschreibt",
+    "attribution_eyebrow": "Redaktionelle Zuschreibung"
+  },
+  "cookies": {
+    "aria": "Cookie-Einwilligung",
+    "title": "EcoScienceHub verwendet datensparsame Cookies",
+    "summary": "Der notwendige Speicher dient allein dazu, diese Auswahl zu sichern. Die Analyse ist optional und hilft uns, die Gesamtnutzung der Website zu verstehen. Analyse-Skripte bleiben blockiert, bis Sie zustimmen.",
+    "necessary_label": "Notwendige Cookies",
+    "necessary_body": "Immer aktiv. Erforderlich, um Ihre Cookie-Auswahl zu speichern und für die grundlegende Sicherheit der Website.",
+    "analytics_label": "Analyse-Cookies",
+    "analytics_body": "Optional. Ermöglichen aggregierte Messung über das konfigurierte Google-Analytics-Konto.",
+    "customize": "Anpassen",
+    "save": "Auswahl speichern",
+    "reject": "Nicht notwendige ablehnen",
+    "accept": "Alle akzeptieren"
   }
 }

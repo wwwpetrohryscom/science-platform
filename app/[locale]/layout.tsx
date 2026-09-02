@@ -90,6 +90,7 @@ export default function LocaleLayout({
 }: LocaleLayoutProps) {
   if (!isLocale(params.locale)) notFound();
   const meta = localeMeta[params.locale];
+  const t = translator(getMessages(params.locale));
 
   // Site-wide structured data — Organization is identical across
   // locales (it identifies the publisher); WebSite is per-locale so
@@ -114,7 +115,21 @@ export default function LocaleLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd) }}
         />
         {children}
-        <CookieBanner />
+        <CookieBanner
+          strings={{
+            aria: t("cookies.aria"),
+            title: t("cookies.title"),
+            summary: t("cookies.summary"),
+            necessary_label: t("cookies.necessary_label"),
+            necessary_body: t("cookies.necessary_body"),
+            analytics_label: t("cookies.analytics_label"),
+            analytics_body: t("cookies.analytics_body"),
+            customize: t("cookies.customize"),
+            save: t("cookies.save"),
+            reject: t("cookies.reject"),
+            accept: t("cookies.accept"),
+          }}
+        />
         {/*
           WebmasterID analytics tracker — anonymous, GDPR-friendly visitor
           analytics. siteId and endpoint are public client-side config.

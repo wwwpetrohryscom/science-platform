@@ -174,7 +174,13 @@
     "empty": "No articles published in this subtopic yet — check back soon.",
     "siblings_title": "Related subtopics in {category}",
     "by_author_reading_time": "By {author} · {minutes} min read",
-    "subtopic_eyebrow": "{category} subtopic"
+    "subtopic_eyebrow": "{category} subtopic",
+    "foundation_label": "Foundation",
+    "foundation_description": "Core definitions and mechanisms — the conceptual base for the rest of this subtopic.",
+    "methods_label": "Methods and indicators",
+    "methods_description": "How the phenomenon is measured, monitored, and quantified.",
+    "applications_label": "Applications and frontiers",
+    "applications_description": "Frontier questions, policy applications, and where the evidence is still being assembled."
   },
   "article": {
     "pillar_badge": "Pillar",
@@ -211,7 +217,10 @@
     "about_heading": "How these work",
     "about_body": "Each question is opened and framed by an EcoScienceHub editorial desk. The notes below the framing are editorial, written by the desk — they are not contributions from named researchers, and no comment on this site is from a member of the public. If verified external contributors take part in future, their entries will be marked and attributed to them by name.",
     "related_article": "Related article",
-    "editorial_notes": "{count} editorial notes"
+    "editorial_notes": "{count} editorial notes",
+    "notes_heading": "Editorial notes ({count})",
+    "verified_contributor": "Verified contributor",
+    "closed_notice": "EcoScienceHub does not accept public submissions on these questions. The notes above are editorial. If you work in one of these fields and want to contribute, write to info@helperg.com — a named contributor would be published under their own name and identified as such."
   },
   "footer": {
     "topics_heading": "Topics",
@@ -232,10 +241,31 @@
     "description": "Subscribe to receive new long-form articles and insights, plus occasional notes from the editorial team. No clickbait, no list-buying, no tracking pixels.",
     "email_label": "Email address",
     "email_placeholder": "you@example.com",
-    "submit": "Subscribe"
+    "submit": "Subscribe",
+    "not_open": "The mailing list is not open yet. When it is, this is where you will be able to join it — until then nothing is collected here."
   },
   "common": {
     "by": "By",
-    "and": "and"
+    "and": "and",
+    "evidence_uncertainty": "Evidence and uncertainty",
+    "methodology_sources": "Methodology and sources",
+    "where_evidence": "Where the evidence comes from",
+    "insight_sources": "Sources behind this argument",
+    "desk_disclaimer": "An editorial desk, not an individual. It carries no academic credential and represents no named scientist.",
+    "desk_disclaimer_link": "why the site is attributed this way",
+    "attribution_eyebrow": "Editorial attribution"
+  },
+  "cookies": {
+    "aria": "Cookie consent",
+    "title": "EcoScienceHub uses privacy-conscious cookies",
+    "summary": "Necessary storage keeps this preference working. Analytics is optional and helps us understand aggregate site usage. Analytics scripts are blocked until you accept them.",
+    "necessary_label": "Necessary cookies",
+    "necessary_body": "Always enabled. Required for cookie preference storage and basic site security.",
+    "analytics_label": "Analytics cookies",
+    "analytics_body": "Optional. Enables aggregate measurement through the configured Google Analytics property.",
+    "customize": "Customize",
+    "save": "Save choices",
+    "reject": "Reject non-essential",
+    "accept": "Accept all"
   }
 }

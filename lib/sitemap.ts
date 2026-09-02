@@ -190,24 +190,6 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
       priority: 0.7,
       lastModified: maxDate(allDiscussionDates),
     },
-    {
-      path: "/privacy-policy",
-      changeFrequency: "yearly",
-      priority: 0.3,
-      lastModified: POLICY_LAST_MODIFIED,
-    },
-    {
-      path: "/cookie-policy",
-      changeFrequency: "yearly",
-      priority: 0.3,
-      lastModified: POLICY_LAST_MODIFIED,
-    },
-    {
-      path: "/terms-of-use",
-      changeFrequency: "yearly",
-      priority: 0.3,
-      lastModified: POLICY_LAST_MODIFIED,
-    },
     ...listCategorySlugs().map((slug) => ({
       path: `/${slug}`,
       changeFrequency: "weekly" as const,
@@ -309,8 +291,9 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     );
   }
 
-  // Editorial pages — EN-only, same reasoning as the glossary: they are
-  // untranslated, so hreflang must not advertise a localized version.
+  // Editorial and legal pages — EN-only, same reasoning as the glossary:
+  // they are untranslated, so hreflang must not advertise a localized
+  // version and the localized renders are excluded from the index.
   const editorialEntries: SitemapEntry[] = [];
   const editorialAlternates = (path: string) =>
     buildLocalizedAlternates(path, [DEFAULT_LOCALE]);
@@ -334,6 +317,18 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
         maxDate(allArticleDates),
         "weekly",
         0.5,
+        editorialAlternates(path),
+      ),
+    );
+  }
+  for (const path of ["/privacy-policy", "/cookie-policy", "/terms-of-use"]) {
+    editorialEntries.push(
+      entry(
+        DEFAULT_LOCALE,
+        path,
+        POLICY_LAST_MODIFIED,
+        "yearly",
+        0.3,
         editorialAlternates(path),
       ),
     );

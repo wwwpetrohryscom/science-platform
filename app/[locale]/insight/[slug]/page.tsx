@@ -183,7 +183,7 @@ export default async function InsightPage({ params }: Props) {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 border-y border-ink-line py-4">
-            <AuthorBlock author={insight.author} variant="byline" />
+            <AuthorBlock author={insight.author} variant="byline" locale={locale} />
             <div className="text-xs text-ink-subtle">
               <p>
                 <span className="font-medium text-ink">{t("article.published")}</span>{" "}
@@ -223,7 +223,7 @@ export default async function InsightPage({ params }: Props) {
                 id="insight-evidence-heading"
                 className="font-serif text-lg font-semibold text-ink"
               >
-                Sources behind this argument
+                {t("common.insight_sources")}
               </h2>
               <div className="mt-3">
                 <GeneratedBlock block={sourceBlock} variant="note" />
@@ -262,7 +262,7 @@ export default async function InsightPage({ params }: Props) {
 
             <NewsletterBlock locale={locale} variant="inline" />
 
-            <AuthorBlock author={insight.author} />
+            <AuthorBlock author={insight.author} locale={locale} />
           </div>
 
           <aside className="hidden lg:block">

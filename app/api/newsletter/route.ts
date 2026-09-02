@@ -22,9 +22,13 @@ import {
  *   3. Email validation — RFC-shaped + reject role accounts.
  *   4. Optional CAPTCHA (Turnstile or reCAPTCHA v3) — only enforced
  *      when the corresponding secret is configured.
- *   5. Hand off to the provider integration. Today the integration is
- *      not configured, so the route stores nothing and returns 202 to
- *      mirror the eventual double-opt-in flow.
+ *   5. Hand off to the provider integration. The integration has never
+ *      been configured, so the route stores nothing and returns 202 to
+ *      mirror the eventual double-opt-in flow. Because that means a
+ *      subscriber never receives anything, the subscribe form is hidden
+ *      unless NEXT_PUBLIC_NEWSLETTER_ENABLED=true — see
+ *      components/NewsletterBlock.tsx. Wire the provider hand-off below
+ *      before setting it.
  *
  * Always returns the same shape on legitimate-looking failures so
  * timing oracles can't distinguish "bad email" from "rate limited".
