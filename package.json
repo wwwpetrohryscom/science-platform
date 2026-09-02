@@ -13,6 +13,7 @@
     "content:validate": "tsx scripts/validate-content.ts",
     "content:links": "tsx scripts/validate-links.ts",
     "content:links:external": "tsx scripts/validate-links.ts --external",
+    "content:report": "tsx scripts/content-report.ts",
     "content:link": "tsx scripts/build-internal-links.ts",
     "content:metadata": "tsx scripts/update-metadata.ts",
     "content:generate": "tsx scripts/generate-article.ts",

@@ -116,6 +116,21 @@ async function buildRouteSet(): Promise<Set<string>> {
 
 const INTERNAL_LINK_RE = /\[[^\]]*\]\((\/[a-z]{2}\/[^)#?\s]*)/g;
 
+/** Discussion `relatedArticleSlug` must name a real article. A dangling
+ *  pointer renders as a silently missing section rather than an error,
+ *  which is exactly the kind of gap nobody notices. */
+async function checkDiscussionRefs(): Promise<Array<{ slug: string; ref: string }>> {
+  const walked = await walkAllContent();
+  const slugs = new Set(walked.filter((w) => w.locale === "en").map((w) => w.slug));
+  const bad: Array<{ slug: string; ref: string }> = [];
+  for (const d of await getDiscussions()) {
+    if (d.relatedArticleSlug && !slugs.has(d.relatedArticleSlug)) {
+      bad.push({ slug: d.slug, ref: d.relatedArticleSlug });
+    }
+  }
+  return bad;
+}
+
 async function checkInternal(): Promise<{
   issues: Array<{ filepath: string; link: string }>;
   total: number;
@@ -360,6 +375,7 @@ async function main() {
   const refresh = process.argv.includes("--refresh");
 
   const internal = await checkInternal();
+  const badDiscussionRefs = await checkDiscussionRefs();
 
   let externalResults: Array<CheckResult & { where: string[] }> = [];
   if (external) {
@@ -392,17 +408,35 @@ async function main() {
   if (json) {
     console.log(
       JSON.stringify(
-        { internal, external: externalResults, dead, drifted, blocked },
+        {
+          internal,
+          discussionRefs: badDiscussionRefs,
+          external: externalResults,
+          dead,
+          drifted,
+          blocked,
+        },
         null,
         2,
       ),
     );
-    process.exit(internal.issues.length > 0 || dead.length > 0 ? 1 : 0);
+    process.exit(
+      internal.issues.length > 0 ||
+        dead.length > 0 ||
+        badDiscussionRefs.length > 0
+        ? 1
+        : 0,
+    );
   }
 
   for (const issue of internal.issues) {
     console.log(
       `✗ [internal-link] ${path.relative(PROJECT_ROOT, issue.filepath)} — ${issue.link} does not resolve to a generated route`,
+    );
+  }
+  for (const b of badDiscussionRefs) {
+    console.log(
+      `✗ [discussion-ref] discussions/${b.slug} — relatedArticleSlug "${b.ref}" is not an article`,
     );
   }
   for (const r of dead) {
@@ -423,7 +457,13 @@ async function main() {
     );
   }
 
-  if (internal.issues.length > 0 || dead.length > 0) process.exit(1);
+  if (
+    internal.issues.length > 0 ||
+    dead.length > 0 ||
+    badDiscussionRefs.length > 0
+  ) {
+    process.exit(1);
+  }
 }
 
 main().catch((err) => {
