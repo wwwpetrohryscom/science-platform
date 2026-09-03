@@ -1,6 +1,6 @@
 ---
 title: 'Climate sensitivity: what ECS and TCR measure, and how AR6 narrowed the range'
-excerpt: Equilibrium climate sensitivity and the transient climate response answer different questions about the same system. This is what each holds fixed, how three lines of evidence were combined, and why the thermometer record alone reads low.
+excerpt: Equilibrium climate sensitivity and the transient climate response answer different questions about the same system. This is what each holds fixed, how four lines of evidence were combined, and why the thermometer record alone reads low.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
@@ -22,7 +22,7 @@ pillar: what-is-climate-change
 _bodyHash: 3e904bf8
 ---
 
-Nearly every quantitative statement about future warming inherits its uncertainty from a small set of assessed parameters, and two of them carry most of the load. They are routinely used as though they were the same quantity. They are not: the IPCC's Sixth Assessment Report puts one at 3°C and the other at 1.8°C, and the difference is not a matter of rounding but of which experiment is being described. Separating them is the first step in reading any projection, including the mechanism laid out in the pillar on [what climate change is and how it is established](/en/ecology/climate-change/what-is-climate-change).
+Nearly every quantitative statement about future warming inherits its uncertainty from a small set of assessed parameters, and two of them carry most of the load. They are routinely used as though they were the same quantity. They are not: the IPCC's Sixth Assessment Report puts one at 3°C and the other at 1.8°C, and the difference is not a matter of rounding but of which experiment is being described. Anyone working from the [mechanism and evidence behind modern warming](/en/ecology/climate-change/what-is-climate-change) will meet both figures within a page or two of each other, usually without being told that they answer different questions.
 
 ## Two numbers, two idealised experiments
 
@@ -36,7 +36,7 @@ A third quantity sits between them and causes most of the confusion in secondary
 | --- | --- | --- | --- |
 | ECS | sustained 2×CO₂, run to a multi-century steady state | 3°C | 2.5–4°C |
 | TCR | CO₂ rising 1% per year, measured at doubling | 1.8°C | 1.4–2.2°C |
-| Effective ECS | equilibrium implied if today's feedback strength held | 2.5°C from the historical energy budget | 1.6–4.8°C, not an assessed likelihood range |
+| Effective ECS | equilibrium implied if today's feedback strength held | 2.5°C from the historical energy budget | 1.6–4.8°C, a calculated interval rather than one of AR6's assessed ranges |
 
 ## Where 3°C comes from: the feedbacks, added up
 
@@ -46,7 +46,7 @@ AR6 assesses α by summing the individual terms. The Planck response, the base c
 
 Divide 3.93 by 1.16 and the process-based central estimate is 3.4°C. That arithmetic also explains the shape of the uncertainty. Because α sits in the denominator and its range reaches to −0.51, small changes at the weak-feedback end produce very large changes in sensitivity, which is why every assessed range for ECS has a long upper tail and a firm floor. The cloud term is the largest contributor to that spread — 0.42 with a very likely range of −0.10 to +0.94 — and the reason [cloud response remains the dominant open problem](/en/physics/climate-physics/convection-and-cloud-formation) in this part of climate physics. AR6 nonetheless assesses a net negative cloud feedback as very unlikely, a firmer statement than AR5 could make. The wider mechanics of how such terms are defined are set out in the article on [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms).
 
-## Three constraints, and why combining them narrowed the range
+## Four lines of evidence, and why combining them narrowed the range
 
 AR5 assessed a likely ECS range of 1.5°C to 4.5°C and declined to give a best estimate. AR6 gives 2.5°C to 4°C with a best estimate of 3°C. Nothing about the physical system changed between the two reports; the method did. AR6 assessed four largely independent lines of evidence and then combined them, and — a genuine break with earlier reports — excluded direct estimates from Earth system models from the assessed ranges altogether.
 

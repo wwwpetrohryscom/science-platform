@@ -383,9 +383,20 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
   const internalLinks = [...article.body.matchAll(/\[([^\]]+)\]\((\/[a-z]{2}\/[^)]+)\)/g)]
     .map((m) => ({ anchor: m[1], url: m[2] }));
 
-  const singleWord = internalLinks.filter(
-    (l) => l.anchor.trim().split(/\s+/).length === 1,
-  );
+  // Word-count is only a meaningful proxy for "is this anchor a phrase"
+  // in a language that writes phrases as separate words. German
+  // compounds them: the English anchor "Earth observation" becomes
+  // "Erdbeobachtung", and the rule reported 28 single-word anchors on a
+  // German page whose English source had 7. Pressuring a translator to
+  // pad those into multi-word phrases would make the German worse.
+  //
+  // Link placement is inherited from the English source anyway, so the
+  // rule is enforced where it can be acted on and where fixing it fixes
+  // every locale at once.
+  const singleWord =
+    article.locale === "en"
+      ? internalLinks.filter((l) => l.anchor.trim().split(/\s+/).length === 1)
+      : [];
   if (singleWord.length > 2) {
     issues.push({
       severity: "warning",

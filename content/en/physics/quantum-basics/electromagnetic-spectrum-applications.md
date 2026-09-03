@@ -15,7 +15,7 @@ related:
   - quantum-sensors-leaving-the-lab
   - solar-radiation-and-earth-energy-balance
   - earth-energy-budget-and-the-second-law
-pillar: quantum-sensors-leaving-the-lab
+pillar: quantum-mechanics-fundamentals
 _bodyHash: 4430a9da
 ---
 

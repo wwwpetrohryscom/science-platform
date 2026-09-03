@@ -6,7 +6,7 @@ category: physics
 author: energy-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - energy-transition
   - physical-limits
@@ -48,9 +48,11 @@ Minerals supply carries the same ambiguity in its public framing. The IEA's *Glo
 
 ## Where the diagnostic gets hard
 
-Declining ore grades sit awkwardly between the classes, and the honest treatment is to say so. A study of 25 copper mines published in *Resources* found the combined weighted average grade falling by roughly 25 per cent between 2003 and 2013 — the El Soldado mine in Chile went from 1.7 per cent to 0.46 per cent — while total energy use across the Chilean operations analysed rose 46 per cent against a 30 per cent rise in copper produced. The authors read the pattern through the second law: as grade falls, more rock must be moved and ground to recover the same metal, and the energy requirement climbs steeply as concentration approaches crustal abundance.
+Not every claim sorts cleanly. Some fuse a derived quantity to a modelling choice so tightly that the two come apart only under inspection — the storage requirement of a very-high-renewable grid is one such case, worked through in the companion piece on [why seasonal and daily storage are different problems](/en/insight/seasonal-storage-is-a-different-problem).
 
-The competing reading is set out in the same paper and deserves its full weight. Falling grades are not by themselves evidence of depletion. Miners work the richest deposits first, and grades fall partly because improved extraction technology made lower-grade ore economic to process at all — an expansion of the resource base showing up in the statistics as a decline. Both readings are consistent with the observations. The physical relationship between grade and separation energy is not in dispute; what the grade *trend* signifies is.
+Declining ore grades sit awkwardly between the classes in a different way, and the honest treatment is to say so. A study of 25 copper mines published in *Resources* found the combined weighted average grade falling by roughly 25 per cent between 2003 and 2013 — at Chile's El Soldado the average oxide grade fell from 1.7 per cent in 2003 to 0.46 per cent by 2012 — while total energy use across the Chilean operations analysed rose 46 per cent against a 30 per cent rise in copper produced. The authors read the pattern through the second law: as grade falls, more rock must be moved and ground to recover the same metal, and the energy requirement climbs steeply as concentration approaches crustal abundance.
+
+The competing reading is set out in the same paper's opening pages, and it deserves its full weight rather than a summary. On that account, declining grades are neither a sign of depletion nor an indicator of resource availability. Grades fall partly because innovation in extractive technology made lower-grade ore economic to process at all, and partly because extending the life of an older mine is cheaper than finding a new one — an expansion of the accessible resource base showing up in the statistics as a decline. The strongest form of the argument is quantitative rather than rhetorical: for several metals, uranium, nickel and zinc among them, deposit size has grown faster than grade has fallen, so the metal contained in the known resource has risen even as the headline percentage dropped. Both readings fit the same observations. The physical relationship between grade and separation energy is not in dispute; what the grade *trend* signifies is.
 
 ## Why keeping the classes apart is worth the trouble
 
@@ -58,7 +60,7 @@ The practical payoff is that the two respond to different things. A derived limi
 
 There is a normative trap on the institutional side that deserves stating plainly. Many of these arrangements exist to protect something: environmental review, cost allocation between incumbents and entrants, land tenure, grid reliability standards. Calling such a rule a "barrier" and calling it a "protection" describe the same object, and the choice between those words is a judgement about competing values rather than a technical finding. An analysis that classifies a constraint as institutional has established that it could be changed, not that it should be.
 
-Two things this taxonomy does not do. It does not tell you which constraint binds first — that depends on the system, though where a project spends five years waiting on a study process, the limit it meets first is plainly not a thermodynamic one. And it does not settle where costs belong, because a price is neither a theorem nor a rule: it is an outcome, and it moves for reasons drawn from both classes at once. The taxonomy is a way of reading a claim, not a forecast. The companion piece on [why seasonal and daily storage are different problems](/en/insight/seasonal-storage-is-a-different-problem) works through a case where a physical parameter and a modelling assumption are easy to confuse, and the broader system framing is set out in the overview of [how energy systems are put together](/en/physics/energy/energy-systems-explained).
+Two things this taxonomy does not do. It does not tell you which constraint binds first — that depends on the system, though where a project spends five years waiting on a study process, the limit it meets first is plainly not a thermodynamic one. And it does not settle where costs belong, because a price is neither a theorem nor a rule: it is an outcome, and it moves for reasons drawn from both classes at once. What the taxonomy does is fix where an argument has to be won: against a derivation, or against a body that could decide otherwise.
 
 ## Sources
 

@@ -6,7 +6,7 @@ category: ecology
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 9
+readingTime: 8
 tags:
   - soil-carbon
   - carbon-markets

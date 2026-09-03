@@ -57,7 +57,7 @@ The gap between what models return and what field workers find is the central un
 | Europe, RUSLE-based map | modelling | arable land | 2.7 |
 | Seven sites in England | field survey of rills and gullies | cropland | 0.15 |
 
-The FAO review states the pattern directly: plot-derived mean annual losses run from 8 to almost 50 t ha⁻¹ yr⁻¹, while regional and global models return 2 to 4. At the extremes of the table, two estimates of cropland erosion differ by a factor of several hundred.
+The FAO review states the pattern directly: plot-derived mean annual losses run from 8 to almost 50 t ha⁻¹ yr⁻¹, while regional and global models return 2 to 4. At the extremes of the table, two estimates of erosion on cultivated land differ by a factor of several hundred.
 
 The European map attracted an exchange in the literature that is unusual for the field. Critics argued that the modelled results were never compared against field assessments of erosion in Britain, that the rainfall-erosivity and erodibility terms are weak, and that averaging cover factors leaves wheat and maize in Germany almost identical, contrary to other evidence. The modelling group replied that each factor had been published separately and was open to comparison. The FAO review presents the disagreement as live, not settled — the same definitional trouble that runs through [estimates of land degradation](/en/ecology/soils/land-degradation-and-desertification).
 

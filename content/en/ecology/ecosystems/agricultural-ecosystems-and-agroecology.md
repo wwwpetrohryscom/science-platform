@@ -18,12 +18,12 @@ related:
   - ecosystem-services-and-human-wellbeing
   - food-webs-and-trophic-structure
 pillar: what-is-an-ecosystem
-_bodyHash: 9c1a17ce
+_bodyHash: f5be4743
 ---
 
 Farmland behaves like an ecosystem that has been stopped early and held there. Tillage, weeding and harvest repeatedly reset the community to a stage dominated by fast-growing, high-light species — the opening move of [any secondary succession](/en/ecology/ecosystems/ecological-succession-explained) — and the reset is paid for from outside the field, in nutrients, in fuel, in water and in labour. Read that way, an agroecosystem is not a degraded natural system but [an ecosystem with an unusual boundary condition](/en/ecology/ecosystems/what-is-an-ecosystem): almost everything the community would normally recycle internally is instead imported, and almost all of the accumulated biomass is exported once a year.
 
-That accounting is what makes agroecosystems tractable. The subsidies are measured, the exports are measured, and the difference between them is measured. Where the numbers get uncomfortable is in what the accounts leave out.
+Farming is rare among ecological subjects in that most of its flows are already written down somewhere. Fertiliser is bought, harvests are weighed, hectares are registered, so quantities that ecologists elsewhere have to model can here simply be looked up. The awkward terms are the ones nobody invoices: what leaks out of the field, and what arrives in it for free.
 
 ## The size of the managed area
 
@@ -65,7 +65,7 @@ A second-order meta-analysis published in *Science Advances* reviewed 98 meta-an
 
 Three qualifications belong with that finding. The result is a mean across a heterogeneous set of practices, crops and climates, and the same analysis reports substantial variability in responses and genuine trade-offs, so context-dependency is part of the finding rather than a caveat appended to it. A meta-analysis of meta-analyses also inherits whatever publication bias sits in its inputs, and comparisons are between diversified and simplified versions of a system, not against an absolute standard. And "without compromising yield" is measured per hectare in field trials, which is not the same accounting as output per farm, per unit of labour, or per unit of input cost — the accountings that determine whether a practice is adopted.
 
-Where that leaves the subject is unusually concrete for ecology. The nutrient and land accounts are well measured; the pollination account is well characterised but delivered by unmanaged communities; the biodiversity account depends on a spatial arrangement the evidence has not yet resolved; and the practice-level evidence supports diversification on average while stating clearly that the average conceals the cases anyone actually farms.
+So the subject is known to very different depths in its different parts. Nitrogen and land are counted to the tonne and the hectare; pollination is well characterised but supplied by communities no farm manages; and the spatial question — protected land beside intensive fields, or a softer mosaic across the whole landscape — still rests on twenty-seven comparable cases. Diversification is the one intervention with a large evidence base behind it, and even there the mean is carrying weight that a particular farm, crop and climate may not.
 
 ## Sources
 

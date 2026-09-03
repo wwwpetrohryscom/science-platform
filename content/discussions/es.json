@@ -1,0 +1,76 @@
+{
+  "geoengineering-field-trials": {
+    "title": "¿Debe la investigación en geoingeniería pasar del modelado a ensayos de campo a pequeña escala?",
+    "topic": "La inyección de aerosoles en la estratosfera ha pasado de ser especulativa a resultar plausiblemente desplegable en una década. La pregunta ya no es si funciona en los modelos, sino si unos experimentos de campo acotados son científicamente necesarios o políticamente temerarios.",
+    "comments": {
+      "c1": "Nota de moderación: a veces se proponen experimentos de campo porque los modelos y los estudios de laboratorio no reproducen del todo el comportamiento de los aerosoles atmosféricos. Cualquier propuesta de ese tipo necesita una gobernanza transparente antes de darse por aceptable en lo científico o en lo político.",
+      "c2": "Encuadre del debate: los argumentos científicos a favor de disponer de más datos no eliminan el problema de gobernanza. Un ensayo unilateral, por pequeño que sea, podría sentar precedente antes de que existan reglas de rendición de cuentas.",
+      "c3": "Pregunta abierta: los efectos sobre la precipitación regional y sobre los sistemas oceánicos siguen siendo preocupaciones centrales en la evaluación de la geoingeniería. El diseño del seguimiento debería formar parte de cualquier propuesta seria, y no añadirse a posteriori."
+    }
+  },
+  "communicating-attribution-uncertainty": {
+    "title": "¿Cómo deberíamos comunicar la incertidumbre en las afirmaciones de atribución climática?",
+    "topic": "Los estudios de atribución rápida se publican ya a los pocos días de un fenómeno extremo. Los métodos son sólidos; la comunicación es desigual. ¿Qué aspecto tiene un encuadre responsable de la atribución probabilística para públicos no especializados?",
+    "comments": {
+      "c1": "Nota de moderación: la atribución de fenómenos suele estimar en qué medida el calentamiento de origen humano altera su probabilidad o su intensidad. Las explicaciones dirigidas al público deberían evitar dar a entender que un fenómeno concreto tiene una única causa determinista.",
+      "c2": "Pregunta editorial: el encuadre probabilístico puede sonar evasivo a un público no especializado. El reto de comunicación consiste en preservar la incertidumbre sin debilitar la evidencia de la influencia climática a largo plazo.",
+      "c3": "Nota de moderación: no todos los fenómenos extremos tienen la misma señal de atribución. Distinguir los casos más sólidos de los más débiles protege la credibilidad en lugar de restarla."
+    }
+  },
+  "single-cell-data-standards": {
+    "title": "¿Van los estándares de datos de célula única al ritmo de la ciencia?",
+    "topic": "La secuenciación de célula única ha producido un salto de resolución en la biología comparada. Los estándares de datos que rigen cómo se depositan, se anotan y se hacen reanalizables esos conjuntos de datos se han quedado atrás. ¿Dónde aprieta hoy la fricción?",
+    "comments": {
+      "c1": "Nota de moderación: unos estándares sin una exigencia coherente de metadatos dejan conjuntos de datos difíciles de comparar entre estudios. Los futuros flujos de trabajo de repositorios y revistas deberían convertir los metadatos reutilizables en parte de la aceptación, y no en una limpieza opcional.",
+      "c2": "Nota transversal: las disciplinas con mucha carga de medición suelen necesitar metadatos comunes de calibración y de captura antes de que sus conjuntos de datos sean reutilizables de forma fiable. La biología de célula única se enfrenta al mismo tipo de problema de infraestructura."
+    }
+  },
+  "what-counts-as-successful-restoration": {
+    "title": "¿Qué debería contar como una restauración ecosistémica lograda?",
+    "topic": "Los objetivos de restauración se escriben cada vez más en las políticas públicas en unidades de superficie. La literatura ecológica mide el éxito en unidades de estructura y función recuperadas, frente a un estado de referencia que hay que elegir. No son el mismo objetivo, y un proyecto puede cumplir uno y fallar el otro.",
+    "comments": {
+      "c1": "Nota de encuadre: la elección del estado de referencia determina el veredicto más que ninguna medición. Un sitio juzgado frente a su condición previa a la perturbación, frente a un análogo no perturbado y frente a un objetivo funcional puede ser un éxito con uno de esos criterios y un fracaso con los otros. La elección suele hacerse una sola vez, al principio, y rara vez se revisa.",
+      "c2": "Nota editorial: los estudios de síntesis encuentran de forma consistente que la recuperación estructural avanza por delante de la funcional, y que el seguimiento suele terminar mucho antes de que ninguna de las dos se haya completado. Cualquier definición de éxito que pueda evaluarse dentro de un ciclo normal de financiación está midiendo algo distinto de la recuperación."
+    }
+  },
+  "how-should-biodiversity-be-measured": {
+    "title": "¿Qué medida de biodiversidad debería guiar las decisiones de política pública?",
+    "topic": "La riqueza de especies, la diversidad funcional, la diversidad genética, el Índice Planeta Vivo y la cobertura de áreas protegidas se llaman todas biodiversidad. Ordenan los lugares y las intervenciones de forma distinta, y la elección de la medida la dicta a menudo la disponibilidad de datos y no la pregunta que se está haciendo.",
+    "comments": {
+      "c1": "Nota de encuadre: las medidas discrepan porque responden a preguntas distintas. La riqueza pregunta cuántos tipos hay presentes; la diversidad funcional, qué abanico de papeles queda cubierto, y un índice de abundancia, si las poblaciones se sostienen. Un sitio puede ganar en una y perder en otra sin contradicción alguna.",
+      "c2": "Nota editorial: todo índice hereda el sesgo taxonómico y geográfico del seguimiento que hay detrás. Los vertebrados de Europa y de América del Norte están representados muy por encima de su participación en las especies descritas, y ese sesgo se propaga a cualquier agregado global construido con esos registros."
+    }
+  },
+  "where-climate-model-uncertainty-matters-most": {
+    "title": "¿Qué incertidumbres de los modelos climáticos tienen consecuencias para las decisiones?",
+    "topic": "La incertidumbre de las proyecciones procede de la elección de escenario, de la estructura del modelo y de la variabilidad interna, y su peso relativo cambia con el horizonte temporal y con la escala espacial. Tratar las tres como una sola magnitud produce tanto falsa confianza como falsa parálisis, según cuál domine en el caso concreto.",
+    "comments": {
+      "c1": "Nota de encuadre: la variabilidad interna domina las proyecciones regionales a corto plazo y no se reduce con mejores modelos, solo se acota con conjuntos de simulaciones más grandes. La elección de escenario domina las proyecciones globales de finales de siglo y no es en absoluto una incertidumbre científica. La exposición de quien decide depende por completo del régimen en el que se sitúe su pregunta.",
+      "c2": "Nota editorial: la generación CMIP6 contiene modelos con una sensibilidad mayor de la que respalda el rango evaluado, y por eso el AR6 ponderó varias líneas de evidencia en lugar de tomar la media bruta del conjunto. Cualquier uso posterior de un conjunto sin ponderar hereda ese problema."
+    }
+  },
+  "limits-of-renewable-energy-storage": {
+    "title": "¿Cuáles son los límites realistas del almacenamiento en una red con alta penetración renovable?",
+    "topic": "Las estimaciones publicadas del almacenamiento que necesita un sistema con alta penetración renovable varían en un orden de magnitud. La dispersión procede menos de la química de las baterías que de los supuestos sobre el transporte de electricidad, la flexibilidad de la demanda y cuánta parte del año debe aguantar el sistema sin generación.",
+    "comments": {
+      "c1": "Nota de encuadre: el almacenamiento diario y el estacional son problemas de ingeniería distintos. Una tecnología optimizada para un ciclo diario con alta eficiencia de ida y vuelta es una mala elección para un almacén que se llena una vez al año, y ahí la métrica que manda pasa a ser el coste por unidad de energía y no por unidad de potencia.",
+      "c2": "Nota editorial: la necesidad de almacenamiento no es una propiedad del mix de generación por sí solo. El alcance de la red de transporte, la respuesta de la demanda y el sobredimensionamiento sustituyen todos ellos al almacenamiento a alguna tasa de sustitución, y por eso dos estudios solventes pueden discrepar en un orden de magnitud sin que ninguno se equivoque en la física."
+    }
+  },
+  "how-should-soil-carbon-be-credited": {
+    "title": "¿Puede medirse el cambio del carbono del suelo lo bastante bien como para certificarlo?",
+    "topic": "Los mercados de carbono del suelo emiten créditos por cambios que se sitúan cerca del límite de detección del muestreo practicable, y a veces por debajo de él. La respuesta ha sido modelizar en lugar de medir, lo que traslada de sitio el problema de la verificación en vez de resolverlo.",
+    "comments": {
+      "c1": "Nota de encuadre: el problema de la detección es aritmético antes que agronómico. El cambio anual bajo un manejo mejorado es pequeño frente a la reserva y frente a la varianza espacial dentro de una misma parcela, y el tamaño de muestra necesario para detectarlo con una confianza útil crece en consecuencia.",
+      "c2": "Nota editorial: si el manejo del carbono del suelo merece la pena en términos agronómicos es una pregunta distinta de si el cambio puede cuantificarse con el rigor que exige un crédito negociable. Confundir ambas es el movimiento más frecuente en este debate, en las dos direcciones."
+    }
+  },
+  "what-should-count-as-a-species": {
+    "title": "¿Sigue haciendo el concepto de especie el trabajo que se le pide?",
+    "topic": "La especie es la unidad de la contabilidad de la biodiversidad, del derecho de conservación y de la comunicación pública. Ningún concepto de especie cubre por sí solo los linajes sexuales, los asexuales y los que hibridan libremente, y los datos genómicos han hecho que los límites sean más difíciles de trazar, no más fáciles.",
+    "comments": {
+      "c1": "Nota de encuadre: la consecuencia práctica no es filosófica. Dividir una especie reconocida en tres cambia el número de taxones amenazados, la superficie que activa la protección legal y la tendencia aparente de los índices de biodiversidad, sin que nada haya cambiado en el campo.",
+      "c2": "Nota editorial: los datos genómicos revelaron una introgresión extensa entre linajes tratados durante mucho tiempo como buenas especies, lo que debilita el aislamiento reproductivo como criterio operativo justo allí donde se suponía más firme."
+    }
+  }
+}

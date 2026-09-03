@@ -6,7 +6,7 @@ category: ecology
 author: climate-research-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 8
+readingTime: 7
 tags:
   - earth-observation
   - remote-sensing
@@ -23,7 +23,7 @@ _bodyHash: 6177955e
 
 Orbital sensors do not fail randomly. Where they fail is determined by wavelength, viewing geometry and orbit, which means the same information is missing in the same places on every pass. That distinction matters more than it sounds: random error shrinks as observations accumulate, and a structured absence does not. Adding twenty years of imagery over a persistently cloudy tropical basin produces twenty years of clear-sky images of that basin, not an unbiased record of it.
 
-Averaged over more than a decade of MODIS observations from NASA's Aqua satellite, roughly 67 per cent of Earth's surface is covered by cloud at any moment. Over the ocean, fewer than 10 per cent of skies are completely clear; over land the figure is about 30 per cent. Optical and thermal instruments therefore sample a conditional world — the world on clear days — and the conditions that clear the sky are not independent of the variables being measured.
+NASA's Earth Observatory collects the relevant figures in one place: one study, based on nearly a decade of satellite data, estimated that about 67 per cent of Earth's surface is typically covered by cloud, and other work puts completely clear sky at under 10 per cent of the time over the oceans and 30 per cent over land. The accompanying global cloud-fraction map, averaged from MODIS on the Aqua satellite between July 2002 and April 2015, shows where that cover concentrates — a band near the equator and two wider bands in the mid-latitudes. Optical and thermal instruments therefore sample a conditional world — the world on clear days — and the conditions that clear the sky are not independent of the variables being measured.
 
 ## The clear-sky world is a different world
 
@@ -65,7 +65,7 @@ For any claim resting on Earth observation, four questions establish what is act
 
 ## Sources
 
-1. **NASA Earth Observatory** — [Cloudy Earth](https://science.nasa.gov/earth/earth-observatory/cloudy-earth-85843/). Global cloud fraction of about 67 per cent, and clear-sky frequencies over land and ocean, from MODIS on Aqua.
+1. **NASA Earth Observatory** — [Cloudy Earth](https://science.nasa.gov/earth/earth-observatory/cloudy-earth-85843/). The summarised global cloud fraction of about 67 per cent and the clear-sky frequencies over land and ocean, plus the MODIS/Aqua cloud-fraction map for July 2002 to April 2015.
 2. **Journal of Geophysical Research: Atmospheres** — [A spatiotemporal analysis of the relationship between near-surface air temperature and satellite land surface temperatures](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017JD026880). Median differences and interquartile ranges between land surface temperature and 2 m air temperature over 17 years.
 3. **Frontiers in Forests and Global Change** — [Combining L-band synthetic aperture radar backscatter and TanDEM-X canopy height for forest aboveground biomass estimation](https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2022.918408/full). Reported saturation levels for X-, L- and P-band backscatter against biomass.
 4. **European Space Agency** — [Biomass](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass). Launch date, orbit and the first P-band radar in space.

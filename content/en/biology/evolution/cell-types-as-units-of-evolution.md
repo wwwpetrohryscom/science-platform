@@ -1,11 +1,12 @@
 ---
 title: Cell types as the conserved unit of animal evolution
 excerpt: If cell types — not organs or networks — are what selection conserves, the standard textbook story about animal evolution needs structural revision.
-type: pillar
+type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-02-16'
 updatedDate: '2026-05-08'
 readingTime: 5
+pillar: evolution-explained
 tags:
   - evolution
   - cell-types

@@ -18,7 +18,7 @@ related:
   - ecosystem-resilience-indicators
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
-_bodyHash: 3e09504e
+_bodyHash: 8c27fb6
 ---
 
 A burned hillside, a retreating glacier front, an abandoned field: each will be recolonised, and for much of the twentieth century the sequence was thought to be predictable enough to name in advance. That expectation — a site passing through a fixed series of stages toward a stable endpoint set by regional climate — organised a great deal of plant ecology. It did not survive the long-term records. What replaced it is looser, more contingent, and considerably more useful to anyone deciding whether a damaged site is on its way back.
@@ -29,11 +29,11 @@ The phenomenon itself is not in doubt. Vegetation and the animal communities tha
 
 Frederic Clements argued in 1916 that a plant community develops much as an organism does, passing through juvenile stages toward a mature **climax** determined by climate. On that account a region has one climax type, disturbance resets the clock, and succession is repair. It was a strong, testable claim, which is largely why it lost.
 
-Henry Gleason's individualistic alternative, set out in the following decade, held that each species tracks its own physiological tolerances and its own dispersal, so a community is the coincidence of many overlapping distributions rather than an entity with a life cycle. A century of vegetation data has gone Gleason's way. Species shift independently along environmental gradients, the pollen record contains past assemblages with no modern counterpart, and the same climate carries different vegetation depending on parent material, fire history and what happened to arrive first. The same reasoning is why [biome boundaries are genuinely fuzzy](/en/ecology/ecosystems/biomes-explained) rather than merely hard to draw.
+Henry Gleason's individualistic alternative, set out in the following decade, held that each species tracks its own physiological tolerances and its own dispersal, so a community is the coincidence of many overlapping distributions rather than an entity with a life cycle. A century of vegetation data has gone Gleason's way. The same climate carries different vegetation depending on parent material, fire history and what happened to arrive first, and the fossil record is harder still on a fixed-endpoint view: [plant associations with no present-day counterpart](https://pubmed.ncbi.nlm.nih.gov/23981247/) formed across eastern North America during the last deglaciation, under seasonal regimes that exist nowhere on the continent today. Assemblages that never recur cannot be stages on a shared path. The same reasoning is why [biome boundaries are genuinely fuzzy](/en/ecology/ecosystems/biomes-explained) rather than merely hard to draw.
 
 ## Three mechanisms wearing one label
 
-The most durable replacement came from a 1977 paper in *The American Naturalist* by Joseph Connell and Ralph Slatyer, which separated the net effect that early colonists have on later ones into three mechanisms.
+The most durable replacement came from [a 1977 paper in *The American Naturalist*](https://doi.org/10.1086/283241) by Joseph Connell and Ralph Slatyer, which separated the net effect that early colonists have on later ones into three mechanisms.
 
 | Mechanism | Effect of early colonists on later arrivals | What sets the sequence | Signature you would look for |
 | --- | --- | --- | --- |
@@ -75,10 +75,12 @@ If there is no climax, a restoration project cannot aim at one. What replaces it
 
 ## Sources
 
-1. **U.S. Geological Survey** — [1980 cataclysmic eruption of Mount St. Helens](https://www.usgs.gov/volcanoes/mount-st.-helens/science/1980-cataclysmic-eruption). Earthquake magnitude and timing, debris-avalanche volume and run-out, blast area, and formation of the Pumice Plain.
-2. **U.S. Geological Survey** — [Ecology of Mount St. Helens National Volcanic Monument](https://www.usgs.gov/geology-and-ecology-of-national-parks/ecology-mount-st-helens-national-monument). Survivors as biological legacies, prairie lupine and pocket gopher facilitation, and the 1979–2016 Landsat recovery sequence.
-3. **Ecological Monographs** — [Mechanisms of primary succession following deglaciation at Glacier Bay, Alaska](https://esajournals.onlinelibrary.wiley.com/doi/10.2307/2937039). Mechanistic test of facilitation along a deglaciation gradient.
-4. **Ecology** — [Causes and ecosystem consequences of multiple pathways of primary succession at Glacier Bay, Alaska](https://esajournals.onlinelibrary.wiley.com/doi/10.2307/1940722). Evidence that one chronosequence contains several distinct successional pathways.
-5. **Ecology** — [Connell and Slatyer's models of succession in the biodiversity era](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/10-1323.1). Later reassessment of the facilitation, tolerance and inhibition scheme.
-6. **Science** — [Multidimensional tropical forest recovery](https://pubmed.ncbi.nlm.nih.gov/34882461/). Attribute-specific recovery times for twelve forest attributes across 77 tropical secondary-forest sites.
-7. **Science of the Total Environment** — [Regime shifts, thresholds and multiple stable states in freshwater ecosystems: a critical appraisal of the evidence](https://pubmed.ncbi.nlm.nih.gov/25712747/). Review of 135 papers assessing how well alternative stable states are actually demonstrated.
+1. **Annals of the New York Academy of Sciences** — [Model systems for a no-analog future: species associations and climates during the last deglaciation](https://pubmed.ncbi.nlm.nih.gov/23981247/). Plant associations with no present-day counterpart formed in eastern North America under deglacial climates that no longer occur there.
+2. **The American Naturalist** — [Mechanisms of succession in natural communities and their role in community stability and organization](https://doi.org/10.1086/283241). The 1977 paper that separated facilitation, tolerance and inhibition.
+3. **Ecology** — [Connell and Slatyer's models of succession in the biodiversity era](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/10-1323.1). Later reassessment of the facilitation, tolerance and inhibition scheme.
+4. **U.S. Geological Survey** — [1980 cataclysmic eruption of Mount St. Helens](https://www.usgs.gov/volcanoes/mount-st.-helens/science/1980-cataclysmic-eruption). Earthquake magnitude and timing, debris-avalanche volume and run-out, blast area, and formation of the Pumice Plain.
+5. **U.S. Geological Survey** — [Ecology of Mount St. Helens National Volcanic Monument](https://www.usgs.gov/geology-and-ecology-of-national-parks/ecology-mount-st-helens-national-monument). Survivors as biological legacies, prairie lupine and pocket gopher facilitation, and the 1979–2016 Landsat recovery sequence.
+6. **Ecological Monographs** — [Mechanisms of primary succession following deglaciation at Glacier Bay, Alaska](https://esajournals.onlinelibrary.wiley.com/doi/10.2307/2937039). Mechanistic test of facilitation along a deglaciation gradient.
+7. **Ecology** — [Causes and ecosystem consequences of multiple pathways of primary succession at Glacier Bay, Alaska](https://esajournals.onlinelibrary.wiley.com/doi/10.2307/1940722). Evidence that one chronosequence contains several distinct successional pathways.
+8. **Science** — [Multidimensional tropical forest recovery](https://pubmed.ncbi.nlm.nih.gov/34882461/). Attribute-specific recovery times for twelve forest attributes across 77 tropical secondary-forest sites.
+9. **Science of the Total Environment** — [Regime shifts, thresholds and multiple stable states in freshwater ecosystems; a critical appraisal of the evidence](https://pubmed.ncbi.nlm.nih.gov/25712747/). Review of 135 papers assessing how well alternative stable states are actually demonstrated.

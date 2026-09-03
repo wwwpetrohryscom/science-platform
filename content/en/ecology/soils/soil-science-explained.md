@@ -37,7 +37,7 @@ Within any horizon, two properties do most of the explanatory work. **Texture** 
 
 The modern account of why soils differ dates to Vasily Dokuchaev at the end of the nineteenth century, who framed soil as a natural body produced by climate, organisms, relief, parent material and time. Hans Jenny wrote it as an equation in 1941 — soil as a function of those five independent variables — and later workers added human action as a sixth. The framework survives because it is falsifiable in the field: hold four factors roughly constant, vary the fifth, and the profiles differ in ways the model predicts.
 
-Time is the factor that gives the subject its urgency, and the formation rate above is only half the comparison. The same FAO assessment reports erosion from arable and intensively grazed land running 100 to 1,000 times faster than natural background rates. What the models behind those figures can and cannot support is the subject of the article on [measured and modelled erosion rates](/en/ecology/soils/soil-erosion-processes-and-rates); the point for the framework here is that four of Jenny's five factors can be altered by land management within a decade, and the fifth cannot be altered at all.
+Time is the factor that gives the subject its urgency, and the formation rate above is only half the comparison. The same FAO assessment reports erosion from arable and intensively grazed land running 100 to 1,000 times faster than natural background rates. What the models behind those figures can and cannot support is the subject of the article on [measured and modelled erosion rates](/en/ecology/soils/soil-erosion-processes-and-rates); the point for the framework here is that time is the one variable in Jenny's equation that no intervention can supply.
 
 ## The carbon question, and why it has no single answer
 
@@ -55,7 +55,7 @@ Where that carbon sits is as instructive as how much there is. Broken down by la
 | Other cover | 46.7 | 6.9% | 14.8 |
 | Wetlands | 24.0 | 3.5% | 47.8 |
 
-Wetlands hold the least in total and the most per hectare — the reason peat drainage produces emissions out of all proportion to the area involved, and a caution against reading area statistics as if they were stock statistics.
+Wetlands hold the least in total and the most per hectare, which is why area statistics and stock statistics point in different directions for peat-forming systems. The FAO's assessment gives the sharpest illustration: peatland is about 8 per cent of Germany's farmland and roughly 30 per cent of the greenhouse gas emissions of its entire farming sector.
 
 ## The living fraction is the least catalogued part
 

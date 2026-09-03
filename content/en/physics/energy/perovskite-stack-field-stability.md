@@ -1,11 +1,12 @@
 ---
 title: 'Perovskite tandem cells: closing the gap between lab efficiency and outdoor reality'
 excerpt: Encapsulation, ion-migration suppression, and tandem architectures are narrowing the gap between high laboratory efficiency and durable outdoor performance.
-type: pillar
+type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-21'
 updatedDate: '2026-09-02'
 readingTime: 4
+pillar: energy-systems-explained
 tags:
   - photovoltaics
   - perovskite

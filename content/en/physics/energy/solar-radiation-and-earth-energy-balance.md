@@ -15,7 +15,7 @@ related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
   - earth-energy-budget-and-the-second-law
-pillar: perovskite-stack-field-stability
+pillar: energy-systems-explained
 _bodyHash: fa39824e
 ---
 

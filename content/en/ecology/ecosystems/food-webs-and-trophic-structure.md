@@ -5,7 +5,7 @@ type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 8
+readingTime: 7
 tags:
   - trophic-levels
   - energy-transfer
@@ -22,7 +22,7 @@ _bodyHash: c0c5e168
 
 A trophic level is a property of a feeding relationship, not a label that belongs to an organism. The number counts how many transfers separate a unit of energy from the sunlight that fixed it: photosynthesisers sit at level 1, something that eats only photosynthesisers sits at level 2, and so on. Nothing in that definition obliges an animal to stay in one place. A trout eating insects that grazed algae and also insects that ate other insects is feeding at levels 3 and 4 simultaneously, and the value ecologists assign it will be an average of the two, weighted by diet.
 
-That is the first thing to hold on to, because most of the confusion downstream comes from treating the levels as compartments with organisms inside them. The broader case for reading an ecosystem as a set of flows rather than a set of occupants is made in the [flow-based definition of an ecosystem](/en/ecology/ecosystems/what-is-an-ecosystem); what follows is about the arithmetic of the transfers, and about how little of that arithmetic is measured rather than assumed. The energy entering at the base is a separate problem, treated in [how primary production is estimated](/en/ecology/ecosystems/primary-production-and-energy-flow).
+Almost every downstream confusion begins where that distinction is dropped and the levels are treated as compartments with organisms inside them. The pyramid diagram encourages it: put a fox at the apex and the reader concludes the fox lives on a rung. The accounting runs the other way. A rung is a property of a meal, recalculated whenever the diet changes, which is why [an ecosystem is easier to define by its throughput than by its residents](/en/ecology/ecosystems/what-is-an-ecosystem). How much energy enters at the base, and how loosely that entry figure is constrained, is a separate problem, worked through in [estimating primary production](/en/ecology/ecosystems/primary-production-and-energy-flow).
 
 ## The ten per cent rule and the width of its error bars
 
@@ -50,7 +50,7 @@ The right model is not that the indicator lies but that it measures the fishery,
 
 The reintroduction of wolves to Yellowstone in the mid-1990s is the standard classroom illustration of a trophic cascade: predators suppress elk, elk browse less, willow and aspen recover. The published record supports something in that direction and is considerably less tidy about its size.
 
-A [2022 analysis in Ecology Letters](https://pubmed.ncbi.nlm.nih.gov/34748261/) showed that the long-standing practice of sampling only the tallest young plants in a stand overestimated overstory aspen regeneration by a factor of four to seven compared with random sampling, because it favoured plants already taller than the height elk prefer to browse and skipped stands that were not regenerating at all. Random sampling still described a cascade — it was weaker than the one the older method described. The subsequent exchange of comment and reply in the same journal argued over the magnitude and the sampling design, not over whether any effect exists.
+A [2022 analysis in Ecology Letters](https://pubmed.ncbi.nlm.nih.gov/34748261/) showed that the long-standing practice of sampling only the tallest young plants in a stand overestimated overstory aspen regeneration by a factor of four to seven compared with random sampling, because it favoured plants already taller than the height elk prefer to browse and skipped stands that were not regenerating at all. Random sampling still described a cascade — it was weaker than the one the older method described. A later comment in the same journal contested that reading, and the authors' [reply](https://pubmed.ncbi.nlm.nih.gov/38010704/) granted that sampling the tallest young aspen is useful for detecting whether any recruitment is happening, while holding that it overstates the population response. The dispute is over magnitude and method, not over whether an effect exists.
 
 Two other lines complicate the behavioural half of the story. [Fecal analysis of elk diet in the Gallatin Canyon](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/08-2017.1) found that willow consumption went up, not down, when wolves were present, and that snow conditions affected it more strongly than predators did — pointing to the fall in elk numbers rather than a change in individual behaviour as the operative mechanism. And a [decade-long experiment on riparian recovery](https://royalsocietypublishing.org/doi/10.1098/rspb.2012.2977) found that moderating browsing alone did not restore willow along small streams; recovery also required the hydrological conditions that prevailed before predator removal, because seventy years without wolves had altered the disturbance regime in ways the reintroduction did not reverse. Predator restoration, on that evidence, does not simply run the removal backwards — a caution that carries directly into [the evidence base for rewilding](/en/ecology/conservation/rewilding-evidence-and-limits).
 
@@ -65,10 +65,10 @@ None of this makes trophic structure a bad idea. Levels remain the cheapest way 
 ## Sources
 
 1. **Nature** — [Warming impairs trophic transfer efficiency in a long-term field experiment](https://www.nature.com/articles/s41586-021-03352-2). States the roughly 10 per cent rule of thumb and reports the effect of 4 °C of warming on transfer efficiency.
-2. **US National Library of Medicine, PubMed** — [Energy flow through marine ecosystems: confronting transfer efficiency](https://pubmed.ncbi.nlm.nih.gov/33097289/). Review establishing that transfer efficiency is emergent, hard to measure and highly variable.
+2. **Trends in Ecology & Evolution** — [Energy flow through marine ecosystems: confronting transfer efficiency](https://pubmed.ncbi.nlm.nih.gov/33097289/). Review establishing that transfer efficiency is emergent, hard to measure and highly variable.
 3. **PLOS ONE** — [Marine mammal impacts in exploited ecosystems](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0043966). Source of the fractional mean trophic levels for mammal consumption and fisheries catches.
 4. **Nature** — [The trophic fingerprint of marine fisheries](https://www.nature.com/articles/nature09528). Evidence that catch-based mean trophic level diverges from ecosystem trends.
-5. **US National Library of Medicine, PubMed** — [Sampling bias exaggerates a textbook example of a trophic cascade](https://pubmed.ncbi.nlm.nih.gov/34748261/). The four- to sevenfold overestimate of aspen regeneration under non-random sampling.
+5. **Ecology Letters** — [Sampling bias exaggerates a textbook example of a trophic cascade](https://pubmed.ncbi.nlm.nih.gov/34748261/). The four- to sevenfold overestimate of aspen regeneration under non-random sampling, and the reply to the subsequent comment.
 6. **Ecological Society of America, Ecology** — [Wolf presence and increased willow consumption by Yellowstone elk](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/08-2017.1). Diet evidence complicating the behaviourally mediated cascade.
 7. **Proceedings of the Royal Society B** — [Stream hydrology limits recovery of riparian ecosystems after wolf reintroduction](https://royalsocietypublishing.org/doi/10.1098/rspb.2012.2977). Decade-long experiment showing browsing relief alone was insufficient.
 8. **NOAA Fisheries** — [Ecosystem modeling](https://www.fisheries.noaa.gov/national/ecosystems/ecosystem-modeling). How food-web models are used operationally, and why multiple models are run together.

@@ -1,11 +1,11 @@
 ---
 title: 'Remaining carbon budgets: how the number is assembled, and what it is not'
-excerpt: A remaining carbon budget is an assessed quantity with five separately estimated components and a probability attached, not a countdown clock. Here is how the IPCC assembles one, and where the figure is routinely misread.
+excerpt: A remaining carbon budget is an assessed quantity with five separately estimated components and a probability attached, not a countdown clock. The compression to a headline drops the parts that decide what it can be used for.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 6
+readingTime: 7
 tags:
   - carbon-budget
   - cumulative-emissions
@@ -22,7 +22,7 @@ pillar: what-is-climate-change
 _bodyHash: 773fcf37
 ---
 
-The single figure that circulates — five hundred billion tonnes of CO₂ left for 1.5°C — is the median of one probability distribution, conditioned on a family of emissions pathways, adjusted by four further terms that each carry their own error bar. None of that is hidden; it is set out at length in Chapter 5 of the IPCC's Sixth Assessment Report. But the compression from an assessed quantity to a headline drops exactly the parts that determine what the number can be used for. Reading it properly starts with the physical relationship that makes a budget possible at all, which sits downstream of the mechanism described in the pillar on [the basis of climate change](/en/ecology/climate-change/what-is-climate-change).
+The single figure that circulates — five hundred billion tonnes of CO₂ left for 1.5°C — is the median of one probability distribution, conditioned on a family of emissions pathways, adjusted by four further terms that each carry their own error bar. None of that is hidden; it is set out at length in Chapter 5 of the IPCC's Sixth Assessment Report. But the compression from an assessed quantity to a headline drops exactly the parts that determine what the number can be used for. None of the assembly is exotic. It takes [how human-caused warming is established](/en/ecology/climate-change/what-is-climate-change) as given, and begins instead from a single relationship that has nothing to do with concentrations at all.
 
 ## Why cumulative emissions, rather than concentrations
 
@@ -46,17 +46,13 @@ AR6 applies the framework introduced in the Special Report on Global Warming of 
 
 A sixth, smaller term covers uncertainty in emissions since the accounting baseline, at ±20 GtCO₂. The permafrost line is the one that has moved most: the earlier assessment treated unrepresented processes as reducing budgets by up to 100 GtCO₂ over the century, whereas AR6 folds an explicit feedback term into the budgets themselves. The physical basis for that term is covered separately under [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
 
+Two of those rows deserve a plainer statement than a table allows. The Earth system feedback term is carried with low confidence in its magnitude: it appears in the budget because permafrost thaw and comparable processes are identified as amplifying factors that scale with further warming, not because their size is well constrained. And the whole construction is scoped to warming over the 21st century, since several of the feedbacks are time-dependent and AR6 places only low confidence in TCRE remaining an accurate predictor under sustained net-negative emissions.
+
 ## The probability is doing real work
 
 Budgets are quoted with a likelihood because TCRE is quoted as a distribution. Running the assessment at different percentiles of that distribution gives, for limiting warming to 1.5°C and counting from 1 January 2020: 900 GtCO₂ at the 17th percentile, 650 at the 33rd, 500 at the 50th, 400 at the 67th and 300 at the 83rd. The same exercise for 2.0°C gives 2300, 1700, 1350, 1150 and 900. Moving from a coin flip to roughly two-in-three odds costs a fifth of the 1.5°C budget; moving to five-in-six costs two fifths.
 
 There is a subtlety here that even careful summaries lose. Those percentiles are percentiles of TCRE alone. The historical-warming, zero-emissions-commitment and non-CO₂ terms sit partly outside them, which is why AR6 lists their uncertainties as separate columns rather than folding them into a single number. The report is direct about why: a formal combination of all the uncertainties is not possible, because they are not all independent and because some of them represent choices about future mitigation rather than probabilistic uncertainty. The budget is a conditional estimate with an explicitly incomplete error bar, and the assessment says so.
-
-## Why the figure falls faster than emissions alone
-
-Historical emissions of 2390 ± 240 GtCO₂ over 1850–2019 put the world at roughly 1.07°C of human-induced warming. Every subsequent year subtracts directly. Fossil-fuel and industrial CO₂ reached a record 37.2 Gt in 2025, though the annual growth rate has flattened to 0.7% and power-sector emissions fell by 0.9% relative to 2024 as clean generation displaced fossil output.
-
-Subtraction alone is not the whole story, though. [A 2023 reassessment in *Nature Climate Change*](https://www.nature.com/articles/s41558-023-01848-5) put the median 1.5°C budget at around 250 GtCO₂ as of January 2023 — roughly six years of emissions at then-current rates — a figure below what deducting three years of emissions from the AR6 number would give, because updated observations and refinements to the calculation move the anchor as well as the balance. Working from more recent emissions data, [a 2026 analysis in *Nature Reviews Earth & Environment*](https://www.nature.com/articles/s43017-026-00780-4) projects the median 1.5°C budget to be exhausted by 2029. The 2°C budget, at roughly 1200 GtCO₂ for even odds as of 2023, is not under the same immediate pressure, and the widening gap between the two is one of the more informative features of the whole exercise.
 
 ## Where the figure is routinely misread
 
@@ -66,11 +62,13 @@ Subtraction alone is not the whole story, though. [A 2023 reassessment in *Natur
 
 **As an allocation.** A global budget is a geophysical quantity. Dividing it among countries, sectors or companies is a normative exercise that the physical assessment does not perform and cannot adjudicate, and the same measurement difficulties that make national inventories hard also determine what an offset credit certifies — an issue examined in the insight on [carbon offset markets and climate science](/en/insight/carbon-offset-outsourcing-science).
 
-## The parts carried with low confidence
+## How fast the number is actually moving
 
-Two limits deserve to be stated plainly. The Earth system feedback term is carried with low confidence in its magnitude; it is included because these processes are identified amplifying risks that scale with warming, not because their size is well constrained. And the whole construction is scoped to limiting warming over the 21st century, since several of the feedbacks are time-dependent and TCRE itself loses its predictive value under sustained net-negative emissions.
+Anthropogenic CO₂ emissions from 1850 to 2019 total 2390 ± 240 GtCO₂, while human activity as a whole had produced about 1.07°C of warming by 2010–2019. It is that temperature figure, not the emissions figure, which the budget framework treats as already spent, and it carries the measurement caveats set out in [the global temperature record](/en/ecology/climate-change/global-temperature-records-explained). Every subsequent year of emissions then subtracts directly from what is left. Fossil-fuel and industrial CO₂ reached a record 37.2 GtCO₂ in 2025, though the annual growth rate has flattened to 0.7% and power-sector emissions fell by 0.9% relative to 2024 as clean generation displaced fossil output.
 
-Neither limitation touches the structural conclusion, which is the part of the assessment that has been stable across three reports: because warming tracks cumulative emissions, halting it requires net CO₂ emissions to reach zero, whatever the budget turns out to be. What the uncertainties change is the confidence attached to any particular temperature outcome — the same interpretive problem that runs through [the global temperature record](/en/ecology/climate-change/global-temperature-records-explained) itself.
+Subtraction alone is not the whole story, though. [A 2023 reassessment in *Nature Climate Change*](https://www.nature.com/articles/s41558-023-01848-5) put the median 1.5°C budget at around 250 GtCO₂ as of January 2023 — roughly six years of emissions at then-current rates — a figure below what deducting three years of emissions from the AR6 number would give, because updated observations and refinements to the calculation move the anchor as well as the balance. Working from more recent emissions data, [a 2026 analysis in *Nature Reviews Earth & Environment*](https://www.nature.com/articles/s43017-026-00780-4) projects the median 1.5°C budget to be exhausted by 2029. The 2°C budget, at roughly 1200 GtCO₂ for even odds as of 2023, is not under the same immediate pressure, and the widening gap between the two is one of the more informative features of the whole exercise.
+
+None of that movement touches the structural conclusion, which is the part of the assessment that has been stable across three reports: because warming tracks cumulative emissions, halting it requires net CO₂ emissions to reach zero, whatever the budget turns out to be. What the uncertainties change is not that conclusion but the confidence attached to any particular temperature outcome, and the amount of room left before a given one is out of reach.
 
 ## Sources
 

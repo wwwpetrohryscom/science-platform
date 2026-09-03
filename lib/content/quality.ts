@@ -203,7 +203,30 @@ const STOPWORDS = new Set([
   "where","when","what","which","who","whom","why","how",
 ]);
 
-const TOKEN_RE = /[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9'-]{2,}/g;
+/**
+ * Word tokens, in any script.
+ *
+ * This was `/[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9'-]{2,}/g` — Latin only. A Russian
+ * article therefore contributed almost no tokens, and the density
+ * denominator collapsed to whatever Latin text survived: the fragments
+ * of URLs and locale-prefixed link paths. Three Russian translations
+ * were reported as stuffing the keyword "ecology" at 38-42%, entirely
+ * from the `/ru/ecology/...` slugs in their internal links. The rule was
+ * measuring the alphabet rather than the prose.
+ */
+const TOKEN_RE = /\p{L}[\p{L}\p{N}'-]{2,}/gu;
+
+/**
+ * Strip the machine-readable parts of markdown before frequency
+ * analysis: URLs and internal link targets are addresses, not prose,
+ * and counting them as text is what produced the density above.
+ */
+function proseOnly(text: string): string {
+  return text
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/<https?:\/\/[^>]*>/g, " ")
+    .replace(/https?:\/\/\S+/g, " ");
+}
 
 /**
  * Detect keyword-stuffing — a single non-stopword term occupying more
@@ -219,7 +242,10 @@ export function detectKeywordStuffing(
   const minTokens = opts.minTokens ?? 80;
   const maxRatio = opts.maxRatio ?? 0.07;
   const tokens =
-    text.toLowerCase().match(TOKEN_RE)?.filter((t) => !STOPWORDS.has(t)) ?? [];
+    proseOnly(text)
+      .toLowerCase()
+      .match(TOKEN_RE)
+      ?.filter((t) => !STOPWORDS.has(t)) ?? [];
   if (tokens.length < minTokens) return [];
   const counts = new Map<string, number>();
   for (const t of tokens) counts.set(t, (counts.get(t) ?? 0) + 1);
@@ -247,7 +273,7 @@ export function detectRepeatedPhrases(
 ): Array<{ phrase: string; count: number }> {
   const minN = opts.minN ?? 8;
   const maxRepeats = opts.maxRepeats ?? 2;
-  const tokens = text.toLowerCase().match(TOKEN_RE) ?? [];
+  const tokens = proseOnly(text).toLowerCase().match(TOKEN_RE) ?? [];
   if (tokens.length < minN * 2) return [];
   const counts = new Map<string, number>();
   for (let i = 0; i <= tokens.length - minN; i++) {
@@ -267,8 +293,16 @@ export function detectRepeatedPhrases(
  * in [0,1]; >0.7 generally means "the same paragraph reworded".
  */
 export function similarityRatio(a: string, b: string): number {
-  const setA = new Set((a.toLowerCase().match(TOKEN_RE) ?? []).filter((t) => !STOPWORDS.has(t)));
-  const setB = new Set((b.toLowerCase().match(TOKEN_RE) ?? []).filter((t) => !STOPWORDS.has(t)));
+  const setA = new Set(
+    (proseOnly(a).toLowerCase().match(TOKEN_RE) ?? []).filter(
+      (t) => !STOPWORDS.has(t),
+    ),
+  );
+  const setB = new Set(
+    (proseOnly(b).toLowerCase().match(TOKEN_RE) ?? []).filter(
+      (t) => !STOPWORDS.has(t),
+    ),
+  );
   if (setA.size === 0 || setB.size === 0) return 0;
   let intersect = 0;
   for (const t of setA) if (setB.has(t)) intersect += 1;

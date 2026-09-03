@@ -6,7 +6,7 @@ category: ecology
 author: climate-research-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - uncertainty
   - science-communication
@@ -27,7 +27,7 @@ The interesting part is what gets deleted. It is rarely only the error bar. It i
 
 ## The technical chain is scrupulous about this
 
-The IPCC's guidance on treating uncertainty separates two things that ordinary language runs together. **Confidence** is a qualitative judgement about the validity of a finding, based on the type, amount, quality and consistency of the evidence. **Likelihood** is a quantified probability. The calibrated terms are fixed, and among them *virtually certain* is 99–100 per cent probability, *very likely* is 90–100 per cent, *likely* is 66–100 per cent, *about as likely as not* is 33–66 per cent and *unlikely* is 0–33 per cent. An assessment normally states one metric or the other, not both.
+The IPCC's guidance on treating uncertainty separates two things that ordinary language runs together. **Confidence** is a qualitative judgement about the validity of a finding, based on the type, amount, quality and consistency of the evidence. **Likelihood** is a quantified probability. The calibrated terms are fixed, and among them *virtually certain* is 99–100 per cent probability, *very likely* is 90–100 per cent, *likely* is 66–100 per cent, *about as likely as not* is 33–66 per cent and *unlikely* is 0–33 per cent. The two scales are separate, and a confidence qualifier is not a probability: reading it as one discards the distinction the assessment took care to draw.
 
 That vocabulary is doing real work, and it is the first casualty of compression, because "likely" in a headline reads as a vague adverb rather than as a probability floor of 66 per cent.
 
@@ -43,14 +43,16 @@ So there are at least three defensible answers to "how much has the world warmed
 
 ## Case two: a budget that becomes a deadline
 
-The remaining carbon budget is where conditional structure is heaviest and travels worst. The 2024 edition of that same indicator series gives a central remaining budget for 1.5 °C of 130 GtCO₂ and notes that this "would be exhausted in a little more than 3 years if global CO₂ emissions remain at 2024 levels (42 GtCO₂ yr⁻¹)".
+The remaining carbon budget is where conditional structure is heaviest and travels worst. The 2024 edition of that same indicator series originally gave a central remaining budget for 1.5 °C of 130 GtCO₂, which "would be exhausted in a little more than 3 years if global CO₂ emissions remain at 2024 levels (42 GtCO₂ yr⁻¹)". A corrigendum published in June 2026 revised the figure to 160 GtCO₂ and "a little more than 4 years".
 
-Four conditions are attached to that figure in the paper that produced it, and all four are legible in the source:
+Nothing about the atmosphere changed in between. The original table had started the budget from *observed* warming over 2015–2024; the IPCC and the series' own earlier editions start it from the *human-attributable* warming over the same period, and the correction restored consistency with them. A move of 30 GtCO₂, roughly a year of headroom, came entirely from which of two warming estimates the calculation starts from — and the published figure carried no mark of that choice.
 
-- It is a **50 per cent** estimate. The budgets are tabulated at five likelihood levels; the number quoted is the median, not a safe ceiling.
+Four further conditions sit on the revised figure, all legible in the source:
+
+- It is a **50 per cent** estimate. The budgets are tabulated at five avoidance probabilities, from 17 to 83 per cent; the number usually quoted is the middle one, not a safe ceiling.
 - The stated probability "includes only the uncertainty in how the Earth immediately responds to CO₂ emissions (TCRE), not long-term committed warming or uncertainty in the climate response to other non-CO₂ emissions."
-- It assumes specific, substantial cuts in methane, nitrous oxide and sulphur dioxide. If those are not achieved the budget shrinks; across the plausible range, values "can be higher or lower by around 200 GtCO₂" — more than the budget itself.
-- The paper explicitly says the exhaustion date "is not expected to correspond exactly to the time that 1.5 °C global warming level is reached."
+- It assumes substantial cuts in methane, nitrous oxide and sulphur dioxide — median reductions between 2020 and 2050 of about 50, 20 and 80 per cent respectively. If those are not achieved the budget shrinks; across the plausible range, values "can be higher or lower by around 200 GtCO₂", more than the budget itself.
+- The paper says directly that the exhaustion date "is not expected to correspond exactly to the time that 1.5 °C global warming level is reached."
 
 The IPCC's own accounting shows the same shape a level up: cumulative anthropogenic CO₂ over 1850–2019 is assessed at 2,390 ± 240 GtCO₂, and the budget calculation carries uncertainties of ±550 GtCO₂ from historical warming and ±220 GtCO₂ from non-CO₂ forcing and response. A quantity with those attached is a planning envelope, not a countdown clock — a distinction developed in the explainer on [what a remaining carbon budget is and is not](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions).
 
@@ -58,28 +60,32 @@ The IPCC's own accounting shows the same shape a level up: cumulative anthropoge
 
 Sea level is the cleanest illustration that no one has to be wrong for the numbers to differ. NASA's Sea Level Change Portal reports 104.1 mm of global mean rise since 1993, with the annual rate increasing from 0.20 cm per year in 1993 to 0.44 cm per year currently. The IPCC's assessment gives 1.3 [0.6 to 2.1] mm per year for 1901–1971, 1.9 [0.8 to 2.9] mm per year for 1971–2006, and 3.7 [3.2 to 4.2] mm per year for 2006–2018.
 
-A little over 3 mm per year, 3.7 mm per year and 4.4 mm per year are all correct figures for "the rate of sea-level rise". They are, respectively, the average across the satellite record, a thirteen-year assessed mean, and a current rate read off an accelerating series. Quoted without its window, each looks like a contradiction of the others; quoted with it, the set is a measurement of acceleration. The [indicators built from altimetry](/en/ecology/climate-change/sea-level-rise-indicators) are designed to be read this way.
+A little over 3 mm per year, 3.7 mm per year and 4.4 mm per year are all correct figures for "the rate of sea-level rise". They are, respectively, the average across the satellite record, the assessed mean for 2006–2018, and a current rate read off an accelerating series. Quoted without its window, each looks like a contradiction of the others; quoted with it, the set is a measurement of acceleration. The [indicators built from altimetry](/en/ecology/climate-change/sea-level-rise-indicators) are designed to be read this way.
 
 ## The case for compressing anyway
 
 The strongest objection to all of this is not that uncertainty does not matter. It is that a decision needs a number, and that printing a range on everything can communicate less than printing a point estimate.
 
-A 2019 review in *Royal Society Open Science* set out the structure of the problem carefully, distinguishing three objects of uncertainty — facts, numbers and science itself — and two levels: **direct** uncertainty, the range around an estimate, and **indirect** uncertainty, the quality of the underlying evidence. Its reading of the empirical literature is that communicating epistemic uncertainty does not necessarily affect audiences negatively, but that the impact varies between individuals and formats. That is a genuinely mixed result, and it undercuts the confident version of the argument in both directions.
+That objection has been tested, not merely asserted. Five experiments reported in *PNAS* in 2020 — including a preregistered replication on a national sample and a field experiment run on the BBC News website, 5,780 participants in total — found that people do perceive greater uncertainty when it is communicated, and that trust in the numbers and in the source falls, though only slightly. The decline was concentrated in *verbal* uncertainty rather than in numeric ranges.
 
-The sharper form of the objection is technical rather than psychological. A stated ± is direct uncertainty only. It does not include structural or definitional uncertainty, which is frequently larger and rarely quantified — the choice of averaging period, the choice of baseline, the decision about what counts as the quantity being measured, and the analyst's own modelling choices, whose contribution to the spread of published results is [larger than most error bars admit](/en/insight/reproducibility-in-ecology-and-environmental-science). Printing ±0.13 °C beside a figure whose definitional ambiguity is worth more than that can convey false precision rather than honesty. On this reading, mechanically restoring error bars would fix the smaller problem and leave the bigger one, and the [general discipline of stating what a measurement's uncertainty covers](/en/physics/mechanics-waves/measurement-uncertainty-explained) argues for naming the condition before quoting the interval.
+That is the uncomfortable part for the position taken here: the qualifiers this piece asks readers to carry — *likely*, *preliminary*, *50 per cent* — are largely verbal, and verbal is the format with the measured cost. The authors conclude that the cost is small enough that communicators "can be more open and transparent about the limits of human knowledge" — a judgement about magnitude, not a finding that the cost is zero.
 
-That is the correction this piece is arguing for. Not "always print the range", but: name the condition. Three questions recover almost everything that gets lost.
+Largely the same group had set out the underlying structure a year earlier. A 2019 paper in *Royal Society Open Science* separates **direct** uncertainty, the range around an estimate, from **indirect** uncertainty, the quality of the underlying knowledge, and reads the empirical literature as showing that communicating epistemic uncertainty "does not necessarily affect audiences negatively", but that "impact can vary between individuals and communication formats".
 
-Which product and which version — the figure a dataset published last year may not be the figure it publishes now, and the reasons two credible products differ are systematic rather than random, which is the subject of the companion piece on [reading a disagreement between two good datasets](/en/insight/why-two-credible-datasets-disagree). Which period and which baseline — an anomaly is meaningless without its reference, and a rate is meaningless without its window. And what probability, if the quantity is a projection or a budget rather than an observation.
+The sharper form of the objection is technical rather than psychological. A stated ± is direct uncertainty only. It does not include structural or definitional uncertainty, which is frequently larger and rarely quantified — the averaging period, the baseline, the decision about what counts as the quantity being measured, and the analyst's own modelling choices, whose contribution to the spread of published results is [larger than most error bars admit](/en/insight/reproducibility-in-ecology-and-environmental-science). Printing ±0.13 °C beside a figure whose definitional ambiguity is worth more than that can convey false precision rather than honesty. On this reading, mechanically restoring error bars fixes the smaller problem and leaves the bigger one, and the [general discipline of stating what a measurement's uncertainty covers](/en/physics/mechanics-waves/measurement-uncertainty-explained) argues for naming the condition before quoting the interval.
 
-None of these questions require statistical training, and all three are answerable from the source page in under a minute. The step at which uncertainty is lost is also the step at which it is cheapest to put back.
+So the correction is not "always print the range". It is to keep the condition attached to the number, in the same sentence the number appears in. The three cases show how little that costs. One clause fixes the WMO figure — 1.55 °C for the calendar year 2024, against the 1850–1900 average — and the sentence stops being ambiguous between three quantities. A budget given as 160 GtCO₂ at a 50 per cent avoidance probability is a different object from 160 GtCO₂ flat. A rate quoted with its window cannot be misread as contradicting a rate quoted with another.
+
+Which edition a figure came from is the condition hardest to recover afterwards, because it is the one the number never reveals: nothing about "1.55 °C" or "130 GtCO₂" says which version produced it, and why two carefully built products disagree at all is the subject of the companion piece on [reading a disagreement between two good datasets](/en/insight/why-two-credible-datasets-disagree). The period, the baseline and the probability are easier. They sit on the source page, usually in the sentence directly above the figure — the sentence the compression cut.
 
 ## Sources
 
 1. **World Meteorological Organization** — [WMO confirms 2024 as warmest year on record at about 1.55 °C above pre-industrial level](https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level). The 1.55 ± 0.13 °C figure, how the combined uncertainty is derived from six datasets, and the statement about single years and the Paris goals.
 2. **IPCC** — [Guidance Note for Lead Authors on Consistent Treatment of Uncertainties](https://www.ipcc.ch/site/assets/uploads/2017/08/AR5_Uncertainty_Guidance_Note.pdf). The confidence and likelihood scales and their exact probability ranges.
 3. **IPCC AR6 WG1** — [Summary for Policymakers](https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/). Sea-level rates by period, cumulative CO₂ of 2,390 ± 240 GtCO₂, and the uncertainty components of the remaining carbon budget.
-4. **Earth System Science Data** — [Indicators of Global Climate Change 2024](https://essd.copernicus.org/articles/17/2641/2025/). Decadal and single-year warming estimates, human-induced warming, and the conditions attached to the 130 GtCO₂ remaining budget.
-5. **NASA Sea Level Change Portal** — [Global mean sea level](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/). Total rise since 1993 and the change in annual rate from the altimetry record.
-6. **NOAA Global Monitoring Laboratory** — [Trends in atmospheric carbon dioxide, global](https://gml.noaa.gov/ccgg/trends/global.html). How the global mean is constructed and the preliminary status of the most recent year.
-7. **Royal Society Open Science** — [Communicating uncertainty about facts, numbers and science](https://royalsocietypublishing.org/doi/10.1098/rsos.181870). The direct/indirect uncertainty framework and the evidence on how audiences respond.
+4. **Earth System Science Data** — [Indicators of Global Climate Change 2024](https://essd.copernicus.org/articles/17/2641/2025/). Decadal and single-year warming estimates, human-induced warming, 2024 CO₂ emissions, and the conditions attached to the remaining carbon budget.
+5. **Earth System Science Data** — [Corrigendum to "Indicators of Global Climate Change 2024"](https://essd.copernicus.org/articles/17/2641/2025/essd-17-2641-2025-corrigendum.pdf). The revision of the 50 per cent remaining budget from 130 to 160 GtCO₂, and the reason for it.
+6. **NASA Sea Level Change Portal** — [Global mean sea level](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/). Total rise since 1993 and the change in annual rate from the altimetry record.
+7. **NOAA Global Monitoring Laboratory** — [Trends in atmospheric carbon dioxide, global](https://gml.noaa.gov/ccgg/trends/global.html). How the global mean is constructed and the preliminary status of the most recent year.
+8. **Royal Society Open Science** — [Communicating uncertainty about facts, numbers and science](https://royalsocietypublishing.org/doi/10.1098/rsos.181870). The direct/indirect uncertainty framework and the review of how audiences respond.
+9. **Proceedings of the National Academy of Sciences** — [The effects of communicating uncertainty on public trust in facts and numbers](https://pmc.ncbi.nlm.nih.gov/articles/PMC7149229/). Five experiments, 5,780 participants, and the small trust penalty concentrated in verbal uncertainty.

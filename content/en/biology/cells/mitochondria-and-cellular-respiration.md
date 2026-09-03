@@ -5,7 +5,7 @@ type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - bioenergetics
   - mitochondria
@@ -24,7 +24,7 @@ Glucose is not the point. What a respiring cell extracts from glucose is a suppl
 
 ## The 1.14 volts everything is paid from
 
-A 1:1 mixture of NADH and NAD⁺ sits at a redox potential of −320 mV. A 1:1 mixture of water and half an oxygen molecule sits at +820 mV. The difference — 1.14 V — is the entire energetic span available to an aerobic cell, and *Molecular Biology of the Cell* puts the standard free-energy release at −52.4 kcal/mol for the two electrons carried by each NADH.
+A 1:1 mixture of NADH and NAD⁺ sits at a redox potential of −320 mV. A 1:1 mixture of water and half an oxygen molecule sits at +820 mV. The difference — 1.14 V — is the entire energetic span available to an aerobic cell, and [*Molecular Biology of the Cell*](https://www.ncbi.nlm.nih.gov/books/NBK26904/) puts the standard free-energy release at −52.4 kcal/mol for the two electrons carried by each NADH.
 
 Dropping that in one step would release the energy as heat. Instead the inner mitochondrial membrane spreads it across a chain of carriers — six haems bound to cytochromes, more than seven iron-sulfur centres, ubiquinone, two copper atoms and a flavin — so that the fall happens in increments small enough for the released energy to do work at each stage. Three respiratory complexes use that work to push protons across the membrane, some translocating one H⁺ per electron and others two.
 
@@ -50,25 +50,27 @@ ATP synthase makes three ATP per complete 360° rotation of its rotor. The rotor
 
 Several consequences follow. The yield per glucose is a quotient of two independently varying quantities, so it is not conserved across species: c-ring size differs between organisms, and a larger ring means more protons per ATP and a lower yield. It is also not conserved across conditions, because the membrane leaks protons at a rate that depends on its state. Quoting 30, or 36, or 38 without saying which assumptions produced it is the most common way this part of bioenergetics is reported slightly wrong.
 
+The inputs are softer than they look, too. Proton-pumping stoichiometries are hard to measure directly, and the ten-protons-per-NADH figure used here is a well-supported consensus rather than a directly counted quantity. Proton leak across the inner membrane is real, variable and physiologically regulated, so any efficiency figure describes a preparation rather than mitochondria in general.
+
 ## A second genome, kept at considerable expense
 
 Human mitochondrial DNA is a circle of about 16,500 base pairs carrying 37 genes: 13 protein-coding, 22 transfer RNAs and two ribosomal RNAs. The 13 proteins are all subunits of respiratory complexes I, III, IV and V. Cells carry hundreds to thousands of copies, and a fertilised human egg may hold on the order of 2,000.
 
-Set that against the size of the organelle's protein complement. The MitoCarta inventory published in *Nucleic Acids Research* lists 1,136 human genes encoding mitochondrial-localised proteins, spanning 149 annotated mitochondrial pathways. Better than 98 per cent of the mitochondrial proteome is therefore encoded in the nucleus, translated in the cytosol, and imported. Maintaining the residual genome is not cheap either: more than 90 nuclear-encoded proteins exist solely to run the mitochondrial genetic system, which uses a genetic code in which four of the 64 codons have meanings different from the universal code — UGA specifying tryptophan rather than a stop, for instance.
+Set that against the size of the organelle's protein complement. The [MitoCarta inventory published in *Nucleic Acids Research*](https://pmc.ncbi.nlm.nih.gov/articles/PMC7778944/) lists 1,136 human genes encoding mitochondrial-localised proteins, spanning 149 annotated mitochondrial pathways. Better than 98 per cent of the mitochondrial proteome is therefore encoded in the nucleus, translated in the cytosol, and imported. Maintaining the residual genome is not cheap either: more than 90 nuclear-encoded proteins exist solely to run the mitochondrial genetic system, which uses a genetic code in which four of the 64 codons have meanings different from the universal code — UGA specifying tryptophan rather than a stop, for instance.
 
 Why keep any genes at all, given the cost of a parallel transcription and translation apparatus and a divergent code? The question is genuinely open. The common explanation, that the retained proteins are too hydrophobic to import, is a hypothesis with partial support rather than a settled account.
 
 ## The bacterium that never left
 
-Mitochondria descend from a bacterial endosymbiont within the Alphaproteobacteria, with the Rickettsiales the closest known relatives. That much is well supported. The precise sister group is not: a 2012 review in *Cold Spring Harbor Perspectives in Biology* concluded that despite extensive knowledge of the mitochondrial family tree, the identity of the immediate next of kin remains elusive, and later analyses have continued to move the branch point rather than fix it.
+Mitochondria descend from a bacterial endosymbiont within the Alphaproteobacteria, with the Rickettsiales the closest known relatives. That much is well supported. The precise sister group is not: a [2012 review in *Cold Spring Harbor Perspectives in Biology*](https://pmc.ncbi.nlm.nih.gov/articles/PMC3428767/) concluded that despite extensive knowledge of the mitochondrial family tree, the identity of the immediate next of kin remains elusive, and later analyses have continued to move the branch point rather than fix it.
 
 The reduction that followed the symbiosis was drastic — an estimated 1,000 to 3,000 genes lost in the transition from bacterial symbiont to organelle, most transferred to the host nucleus rather than deleted outright. What survives varies enormously: mitochondrial genomes range from about 6 kb in *Plasmodium falciparum* to roughly 11,000 kb in some land plants, and some lineages have gone all the way. Hydrogenosomes and mitosomes are mitochondrion-related organelles that retain the compartment and parts of its biochemistry while lacking mitochondrial DNA entirely, which places a useful floor under any claim about what the organelle is for. It is not, definitionally, a genome-bearing structure. It is a compartment that happens usually to have kept one, and the [cell type it sits inside is itself a unit that evolves](/en/biology/evolution/cell-types-as-units-of-evolution).
 
-## What the numbers do not pin down
+## The chain may not be a chain
 
-Proton pumping stoichiometries are hard to measure directly, and the 10-protons-per-NADH figure used above is a well-supported consensus rather than a directly counted quantity. Proton leak across the inner membrane is real, variable, and physiologically regulated, so any efficiency figure applies to a preparation rather than to mitochondria in general.
+One structural question sits underneath all of the arithmetic above and is not resolved. A textbook diagram draws the respiratory complexes as a fixed linear sequence, but whether they assemble into stable supercomplexes with kinetic consequences, or simply diffuse in the membrane and collide, has been argued in both directions for decades. The evidence is mixed on how much functional channelling of electrons actually occurs.
 
-The organisation of the respiratory complexes is also less settled than a linear chain diagram implies. Whether the complexes assemble into stable supercomplexes with kinetic consequences, or simply diffuse and collide, has been argued in both directions, and the evidence is mixed on how much functional channelling of electrons occurs. That uncertainty propagates: it affects how proton pumping should be modelled, which affects the yield calculations above, which is a fair reminder that the tidiest numbers in cell biology often rest on the least tidy measurements.
+That is not a footnote. How the complexes are organised affects how proton pumping should be modelled, which sets the proton-to-ATP accounting, which sets every ATP yield anyone quotes. The tidiest numbers in bioenergetics rest on some of its least tidy measurements — which is a good general expectation to carry into any field where a memorable integer has been in circulation for fifty years.
 
 ## Sources
 
@@ -76,6 +78,6 @@ The organisation of the respiratory complexes is also less settled than a linear
 2. **NIH / NLM, NCBI Bookshelf** — [Electron-Transport Chains and Their Proton Pumps, Molecular Biology of the Cell, 4th edition](https://www.ncbi.nlm.nih.gov/books/NBK26904/). Redox span from NADH to oxygen, free-energy release, and the inventory of electron carriers.
 3. **NIH / NLM, NCBI Bookshelf** — [The Genetic Systems of Mitochondria and Plastids, Molecular Biology of the Cell, 4th edition](https://www.ncbi.nlm.nih.gov/books/NBK26924/). Mitochondrial genome size and content, copy number, and codon reassignments.
 4. **PNAS (PubMed Central)** — [Bioenergetic cost of making an adenosine triphosphate molecule in animal mitochondria](https://pmc.ncbi.nlm.nih.gov/articles/PMC2947889/). The eight-subunit c-ring, 2.7 and 3.7 protons per ATP, and the resulting P/O ratios.
-5. **Nature (PubMed Central)** — [Quantifying constraint in the human mitochondrial genome](https://pmc.ncbi.nlm.nih.gov/articles/PMC11646341/). Gene content of human mtDNA and its copy number per cell.
+5. **Springer Nature** — [Quantifying constraint in the human mitochondrial genome, Nature](https://www.nature.com/articles/s41586-024-08048-x). Gene content of human mtDNA and its copy number per cell.
 6. **Nucleic Acids Research (PubMed Central)** — [MitoCarta3.0: an updated mitochondrial proteome](https://pmc.ncbi.nlm.nih.gov/articles/PMC7778944/). The 1,136-gene human mitochondrial protein inventory and its pathway annotations.
 7. **Cold Spring Harbor Perspectives in Biology (PubMed Central)** — [Mitochondrial evolution](https://pmc.ncbi.nlm.nih.gov/articles/PMC3428767/). Alphaproteobacterial ancestry, gene loss during endosymbiosis, genome size range, and organelles lacking mtDNA.

@@ -15,7 +15,7 @@ related:
   - thermodynamic-limits-of-photovoltaics
   - solar-radiation-and-earth-energy-balance
   - greenhouse-gases-and-radiative-forcing
-pillar: thermodynamic-limits-of-photovoltaics
+pillar: laws-of-thermodynamics-explained
 _bodyHash: 53a4f7d9
 ---
 

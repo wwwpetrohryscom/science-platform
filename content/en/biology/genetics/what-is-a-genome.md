@@ -5,7 +5,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - genomics
   - genome-size
@@ -40,7 +40,7 @@ This is the **C-value paradox**: DNA content per cell bears no consistent relati
 
 Gene number was supposed to be the informative measurement instead. Its history is a long descent. Friedrich Vogel's preliminary 1964 estimate — computed by dividing the genome by the length of a haemoglobin-sized gene, on the assumption that the whole genome coded for protein and that genes were uninterrupted — came to 6.7 million. The 1990 joint report from the US National Institutes of Health and Department of Energy used 100,000. Expressed-sequence-tag surveys through the mid-1990s clustered between 50,000 and 100,000. By 2000, estimates ran from 28,000 to 57,000, and a decade later a review of the whole exercise settled on 22,333 as its own best guess.
 
-Current annotations put the protein-coding count just under 20,000. Ensembl's GENCODE-based gene set for the GRCh38.p14 primary assembly lists 19,878 coding genes alongside 42,155 non-coding genes and 15,205 pseudogenes; the CHM13 annotation independently predicted 19,969 protein-coding genes among 63,494 total. The convergence matters less than what it reveals: the coding count is now stable to a few hundred, while the non-coding and pseudogene counts are not, because they depend on annotation criteria that are still moving.
+Current annotations put the protein-coding count just under 20,000. Ensembl's GENCODE-based gene set for the GRCh38.p14 primary assembly lists 19,878 coding genes alongside 42,155 non-coding genes and 15,205 pseudogenes; the CHM13 annotation predicted 19,969 protein-coding genes among 63,494 in total. The convergence matters less than what it reveals: the coding count is now stable to a few hundred, while the non-coding and pseudogene counts are not, because they depend on annotation criteria that are still moving.
 
 Against that, the nematode *Caenorhabditis elegans* — 97 megabases, roughly a thirtieth of the human genome — was reported in 1998 to carry over 19,000 genes. A worm with about a thousand somatic cells and a human have protein-coding gene counts in the same range. Whatever distinguishes them is mostly a matter of how those genes are deployed, which is the subject of [gene-expression regulation](/en/biology/genetics/how-gene-expression-is-regulated).
 

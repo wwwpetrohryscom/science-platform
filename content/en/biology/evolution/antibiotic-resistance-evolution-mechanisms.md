@@ -15,7 +15,7 @@ related:
   - cell-types-as-units-of-evolution
   - cell-signaling-pathways-basics
   - how-gene-expression-is-regulated
-pillar: cell-types-as-units-of-evolution
+pillar: evolution-explained
 _bodyHash: d99ce0ae
 ---
 
