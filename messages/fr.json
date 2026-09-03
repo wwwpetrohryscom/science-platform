@@ -208,7 +208,8 @@
     "related_heading": "Lectures connexes",
     "fallback_notice": "Cet article n'a pas encore été traduit en français. La version anglaise est affichée ci-dessous.",
     "in_english": "en anglais",
-    "locale_depth_note": "{native} de ces {total} articles sont disponibles en français ; les autres s'ouvrent en anglais."
+    "locale_depth_note": "{native} de ces {total} articles sont disponibles en français ; les autres s'ouvrent en anglais.",
+    "table_label": "Tableau"
   },
   "insights": {
     "eyebrow": "Analyses",

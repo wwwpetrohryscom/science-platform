@@ -139,4 +139,31 @@
   .prose-article figcaption {
     @apply mt-2 text-sm text-ink-muted;
   }
+
+  /* Tables. 154 files in the corpus carry one and they run to five
+     columns, so the container scrolls rather than the page. The border
+     under the header row and the hairlines between rows are there
+     because a comparison table is read across, and without them a
+     five-column row is hard to track on a narrow screen. */
+  .prose-article .table-scroll {
+    @apply my-8 -mx-4 overflow-x-auto px-4 md:mx-0 md:px-0;
+  }
+  .prose-article .table-scroll:focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-primary-500;
+  }
+  .prose-article table {
+    @apply w-full min-w-[34rem] border-collapse text-left text-[0.9375rem];
+  }
+  .prose-article thead th {
+    @apply border-b-2 border-ink-line pb-2 pr-4 align-bottom font-semibold text-ink;
+  }
+  .prose-article tbody td {
+    @apply border-b border-ink-line py-3 pr-4 align-top text-ink-muted;
+  }
+  .prose-article tbody tr:last-child td {
+    @apply border-b-0;
+  }
+  .prose-article table :where(th, td):last-child {
+    @apply pr-0;
+  }
 }

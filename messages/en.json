@@ -198,7 +198,8 @@
     "related_heading": "Related reading",
     "fallback_notice": "This article has not yet been translated into {language}. The English version is shown below.",
     "in_english": "in English",
-    "locale_depth_note": "{native} of these {total} articles are available in {language}; the rest open in English."
+    "locale_depth_note": "{native} of these {total} articles are available in {language}; the rest open in English.",
+    "table_label": "Table"
   },
   "insights": {
     "eyebrow": "Insights",

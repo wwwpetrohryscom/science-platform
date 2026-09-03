@@ -14,6 +14,8 @@ import { getAuthor, type Author } from "@/lib/authors";
 import {
   DEFAULT_LOCALE,
   LOCALES,
+  getMessages,
+  translator,
   localizedPath,
   type Locale,
 } from "@/lib/i18n";
@@ -332,7 +334,7 @@ function parseArticle({
     : undefined;
 
   const author = getAuthor(String(fm.author));
-  const html = renderMarkdown(content);
+  const html = renderMarkdown(content, requestedLocale);
   const toc = extractToc(content);
   const availableLocales = discoverAvailableLocales(category, subtopic, slug);
 
@@ -418,7 +420,7 @@ function parseInsight({
     related: Array.isArray(fm.related) ? (fm.related as string[]) : [],
     author: getAuthor(String(fm.author)),
     rawBody: content,
-    html: renderMarkdown(content),
+    html: renderMarkdown(content, requestedLocale),
     toc: extractToc(content),
     url: localizedPath(requestedLocale, `/insight/${slug}`),
   };
@@ -444,8 +446,49 @@ renderer.heading = function ({ tokens, depth }: Tokens.Heading) {
   return `<h${depth}>${text}</h${depth}>`;
 };
 
-function renderMarkdown(md: string): string {
-  return marked.parse(md, { renderer, async: false }) as string;
+/**
+ * Comparison tables run to five columns in this corpus and 154 files
+ * contain one. Without a scroll container of its own, a wide table
+ * makes the whole page scroll sideways on a phone — the reader loses
+ * the article to read the table. Wrapping each one keeps the overflow
+ * inside the table, and `tabindex` makes that scroll reachable from a
+ * keyboard, which a bare overflow container is not.
+ */
+let tableLabel = "Table";
+renderer.table = function (token: Tokens.Table) {
+  const header = token.header
+    .map((cell) => `<th scope="col">${this.parser.parseInline(cell.tokens)}</th>`)
+    .join("");
+  const body = token.rows
+    .map(
+      (row) =>
+        `<tr>${row
+          .map((cell) => `<td>${this.parser.parseInline(cell.tokens)}</td>`)
+          .join("")}</tr>`,
+    )
+    .join("");
+  return (
+    `<div class="table-scroll" tabindex="0" role="region" aria-label="${escapeAttr(tableLabel)}">` +
+    `<table><thead><tr>${header}</tr></thead><tbody>${body}</tbody></table>` +
+    `</div>`
+  );
+};
+
+/** Minimal attribute escaping for the one interpolated label below. */
+function escapeAttr(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+
+function renderMarkdown(md: string, locale: Locale = DEFAULT_LOCALE): string {
+  // The table wrapper carries an accessible name, and that name has to
+  // be in the reader's language — an English "Table" announced inside a
+  // Russian article is a defect a sighted reader never sees.
+  tableLabel = translator(getMessages(locale))("article.table_label");
+  try {
+    return marked.parse(md, { renderer, async: false }) as string;
+  } finally {
+    tableLabel = "Table";
+  }
 }
 
 function extractToc(md: string): TocItem[] {

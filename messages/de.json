@@ -208,7 +208,8 @@
     "related_heading": "Verwandte Texte",
     "fallback_notice": "Dieser Artikel wurde noch nicht ins Deutsche übersetzt. Die englische Fassung wird unten angezeigt.",
     "in_english": "auf Englisch",
-    "locale_depth_note": "{native} dieser {total} Artikel liegen auf Deutsch vor; die übrigen öffnen sich auf Englisch."
+    "locale_depth_note": "{native} dieser {total} Artikel liegen auf Deutsch vor; die übrigen öffnen sich auf Englisch.",
+    "table_label": "Tabelle"
   },
   "insights": {
     "eyebrow": "Analysen",

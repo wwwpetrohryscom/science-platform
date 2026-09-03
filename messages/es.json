@@ -208,7 +208,8 @@
     "related_heading": "Lecturas relacionadas",
     "fallback_notice": "Este artículo aún no se ha traducido al español. Se muestra la versión en inglés a continuación.",
     "in_english": "en inglés",
-    "locale_depth_note": "{native} de estos {total} artículos están disponibles en español; el resto se abre en inglés."
+    "locale_depth_note": "{native} de estos {total} artículos están disponibles en español; el resto se abre en inglés.",
+    "table_label": "Tabla"
   },
   "insights": {
     "eyebrow": "Análisis",
