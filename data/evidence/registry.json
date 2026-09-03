@@ -17268,7 +17268,7 @@
      "kind": "article",
      "slug": "energy-systems-explained",
      "section": "physics/energy",
-     "supports": "Definitions of the joule and the watt as separate quantities."
+     "supports": "The seven SI base units and the derived units with special names, among which the joule and the watt sit."
     }
    ],
    "isLiveDataset": false,
@@ -20302,6 +20302,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-physics-nist-gov-7d946ba5",
+   "title": "Basic atomic spectroscopic data: hydrogen",
+   "organization": "NIST",
+   "url": "https://physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm",
+   "host": "physics.nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/quantum-basics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "quantum-mechanics-fundamentals",
+     "section": "physics/quantum-basics",
+     "supports": "The tabulated ionisation energy of neutral hydrogen, 109 678.7717 cm⁻¹ (13.598 433 eV)."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-physics-nist-gov-82a1f250",
    "title": "Proton mass energy equivalent in MeV",
    "organization": "NIST CODATA",
@@ -22266,6 +22288,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-4341c424",
+   "title": "The Baltimore classification of viruses 50 years later: how does it stand in the light of virus evolution?",
+   "organization": "Microbiology and Molecular Biology Reviews — Koonin and colleagues (2021)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8483701/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "viruses-explained",
+     "section": "biology/microbiology",
+     "supports": "The September 1971 origin of the scheme, its original six classes, and the subsequently added seventh."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-438898fd",
    "title": "Trained immunity and immune priming in plants and invertebrates",
    "organization": "eLife",
@@ -22485,6 +22529,12 @@
     "biology/physiology"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "physiology-explained",
+     "section": "biology/physiology",
+     "supports": "The 2 g Etruscan shrew and the 0.23 µm harmonic mean thickness of its air–blood barrier."
+    },
     {
      "kind": "article",
      "slug": "respiration-and-gas-exchange",
@@ -24554,6 +24604,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-ac7b9727",
+   "title": "Does neural input or processing play a greater role in the magnitude of neuroimaging signals?",
+   "organization": "Frontiers in Neuroenergetics (2010)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2927268/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "nervous-systems-and-neurons",
+     "section": "biology/physiology",
+     "supports": "The predominant view that haemodynamic signals track synaptic input and subsequent processing rather than spiking output."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-ae87df49",
    "title": "Air pollution and mortality in the Medicare population",
    "organization": "New England Journal of Medicine",
@@ -25358,6 +25430,12 @@
      "slug": "circulation-and-the-heart",
      "section": "biology/physiology",
      "supports": "How heart rate, blood flow and oxygen-store measurements in free-ranging animals were obtained."
+    },
+    {
+     "kind": "article",
+     "slug": "physiology-explained",
+     "section": "biology/physiology",
+     "supports": "The limits of restrained-animal work and what free-ranging measurement changed."
     }
    ],
    "isLiveDataset": false,
@@ -29017,8 +29095,8 @@
   },
   {
    "evidenceId": "ev-pubmed-ncbi-nlm-nih-gov-8aad0330",
-   "title": "Searching and using MobiDB resource 6 for intrinsically disordered proteins",
-   "organization": "Methods in Molecular Biology",
+   "title": "Searching and Using MobiDB Resource 6 to Explore Predictions and Annotations for Intrinsically Disordered Proteins",
+   "organization": "Current Protocols",
    "url": "https://pubmed.ncbi.nlm.nih.gov/39718444/",
    "host": "pubmed.ncbi.nlm.nih.gov",
    "sourceType": "peer-reviewed",
