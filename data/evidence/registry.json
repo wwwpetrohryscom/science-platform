@@ -525,9 +525,16 @@
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "ecology/climate-change",
     "physics/climate-physics"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "climate-sensitivity-explained",
+     "section": "ecology/climate-change",
+     "supports": "Attribution of the CMIP6 sensitivity increase to the low-cloud feedback."
+    },
     {
      "kind": "article",
      "slug": "convection-and-cloud-formation",
@@ -539,28 +546,6 @@
      "slug": "convection-and-cloud-formation",
      "section": "physics/climate-physics",
      "supports": "The extratropical mixed-phase cloud origin of the stronger CMIP6 cloud feedback."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
-   "title": "Causes of higher climate sensitivity in CMIP6 models",
-   "organization": "Geophysical Research Letters",
-   "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL085782",
-   "host": "agupubs.onlinelibrary.wiley.com",
-   "sourceType": "peer-reviewed",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "ecology/climate-change"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "climate-sensitivity-explained",
-     "section": "ecology/climate-change",
-     "supports": "Attribution of the CMIP6 sensitivity increase to the low-cloud feedback."
     }
    ],
    "isLiveDataset": false,
@@ -31683,6 +31668,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-science-nasa-gov-754ecdf4",
+   "title": "Dark matter and dark energy",
+   "organization": "NASA",
+   "url": "https://science.nasa.gov/dark-matter/",
+   "host": "science.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/matter-radiation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "particle-physics-fundamentals",
+     "section": "physics/matter-radiation",
+     "supports": "Gravitational lensing as a way of mapping cluster mass, and the statement that no candidate has yet been confirmed."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-science-nasa-gov-9617860d",
    "title": "Clouds and radiation",
    "organization": "NASA Earth Observatory",
@@ -31821,28 +31828,6 @@
      "slug": "classical-mechanics-explained",
      "section": "physics/mechanics-waves",
      "supports": "Launch year and escape speed in astronomical units per year."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-science-nasa-gov-cc1aadce",
-   "title": "Dark matter and dark energy",
-   "organization": "NASA",
-   "url": "https://science.nasa.gov/universe/dark-matter-dark-energy/",
-   "host": "science.nasa.gov",
-   "sourceType": "government",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "physics/matter-radiation"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "particle-physics-fundamentals",
-     "section": "physics/matter-radiation",
-     "supports": "Gravitational lensing as a way of mapping cluster mass, and the statement that no candidate has yet been confirmed."
     }
    ],
    "isLiveDataset": false,
