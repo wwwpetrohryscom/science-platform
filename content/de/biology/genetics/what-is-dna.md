@@ -84,4 +84,3 @@ Wie eine feste Sequenz verschiedene Zellen hervorbringt, behandeln [die Regulati
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminologie der Genetik und allgemeinverständliche Definitionen aus der Genomforschung.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Referenzwerke zur Molekularbiologie, zur Genetik und zur Genomfunktion.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Index der begutachteten Literatur zu Genetik und Genomik.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Begutachtete Literatur zu Genetik und Genomik.

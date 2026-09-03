@@ -78,5 +78,3 @@ Dentro da fronteira, os [filamentos do citoesqueleto](/pt/biology/cells/cytoskel
 1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Obras de referência e livros biomédicos com revisão por pares em biologia celular.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Definições e textos explicativos do National Human Genome Research Institute.
 3. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Índice de literatura com revisão por pares em biologia celular e virologia.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Literatura de biologia celular com revisão por pares.
-5. **Science** — [Science journals](https://www.science.org/). Literatura de biologia com revisão por pares.

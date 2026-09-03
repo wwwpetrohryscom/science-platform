@@ -84,4 +84,3 @@ _bodyHash: 7d015ae7
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Терминология генетики и определения из геномики, адресованные широкой аудитории.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Справочные издания по молекулярной биологии, генетике и функциям генома.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Указатель рецензируемой литературы по генетике и геномике.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Рецензируемая литература по генетике и геномике.

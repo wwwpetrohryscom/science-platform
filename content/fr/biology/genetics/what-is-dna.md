@@ -84,4 +84,3 @@ Comment une séquence fixe produit des cellules différentes est le sujet de [la
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminologie de la génétique et définitions de génomique destinées au public.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Ouvrages de référence en biologie moléculaire, en génétique et sur la fonction du génome.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Index de la littérature évaluée par les pairs en génétique et en génomique.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Littérature en génétique et en génomique évaluée par les pairs.

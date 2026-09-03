@@ -78,5 +78,3 @@ Do lado da medição, o [Índice Planeta Vivo](/pt/ecology/biodiversity/living-p
 1. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Avaliação das pressões sobre a biodiversidade, dos habitats e do estado de conservação.
 2. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Síntese intergovernamental sobre a perda de biodiversidade e os serviços dos ecossistemas.
 3. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). Panorama do Programa das Nações Unidas para o Ambiente sobre proteção e restauração dos ecossistemas.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Literatura revista por pares sobre biodiversidade, diversidade funcional e biologia da conservação.
-5. **Science** — [Science journals](https://www.science.org/). Investigação em conservação e biodiversidade revista por pares.

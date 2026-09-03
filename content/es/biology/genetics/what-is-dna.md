@@ -84,4 +84,3 @@ Cómo una secuencia fija produce células distintas es el tema de [la regulació
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminología genética y definiciones de genómica dirigidas al público.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Obras de referencia sobre biología molecular, genética y función del genoma.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Índice de literatura revisada por pares en genética y genómica.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Literatura de genética y genómica revisada por pares.

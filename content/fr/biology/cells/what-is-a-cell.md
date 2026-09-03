@@ -78,5 +78,3 @@ Tout ce qui précède décrit une structure ; les articles qui suivent décriven
 1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Ouvrages de référence et livres biomédicaux évalués par les pairs pour la biologie cellulaire.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Définitions et explications du National Human Genome Research Institute.
 3. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Index de la littérature évaluée par les pairs en biologie cellulaire et en virologie.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Littérature en biologie cellulaire évaluée par les pairs.
-5. **Science** — [Science journals](https://www.science.org/). Littérature en biologie évaluée par les pairs.

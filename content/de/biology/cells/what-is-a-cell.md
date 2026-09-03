@@ -78,5 +78,3 @@ Innerhalb der Grenze halten die [Zytoskelettfilamente](/de/biology/cells/cytoske
 1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Referenzwerke und begutachtete biomedizinische Bücher zur Zellbiologie.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Definitionen und Erläuterungen des National Human Genome Research Institute.
 3. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Index der begutachteten Literatur zur Zellbiologie und zur Virologie.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Begutachtete zellbiologische Literatur.
-5. **Science** — [Science journals](https://www.science.org/). Begutachtete biologische Literatur.

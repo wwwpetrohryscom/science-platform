@@ -89,4 +89,3 @@ Drei Artikel tragen die Definition dorthin, wo sie selten angewandt wird. [Schl�
 2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Europäische Bewertung der Belastungen von Ökosystemen und des Erhaltungszustands.
 3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Zwischenstaatliche Bewertung von Biodiversität, Ökosystemleistungen und den Treibern ihres Rückgangs.
 4. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Klimatischer Kontext für Störungen und Risiken von Ökosystemen.
-5. **Nature** — [Nature ecology and evolution research](https://www.nature.com/). Begutachtete Literatur zur Ökologie und Ökosystemforschung.

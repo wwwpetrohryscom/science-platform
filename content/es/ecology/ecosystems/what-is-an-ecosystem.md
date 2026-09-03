@@ -89,4 +89,3 @@ Tres artículos llevan la definición a terrenos donde no suele aplicarse. Las [
 2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Evaluación europea de las presiones sobre los ecosistemas y del estado de conservación.
 3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Evaluación intergubernamental sobre biodiversidad, servicios ecosistémicos y causas del deterioro.
 4. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Contexto climático de las perturbaciones y los riesgos para los ecosistemas.
-5. **Nature** — [Nature ecology and evolution research](https://www.nature.com/). Literatura científica revisada por pares en ecología y ciencia de ecosistemas.

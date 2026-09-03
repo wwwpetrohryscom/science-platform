@@ -78,5 +78,3 @@ _bodyHash: a468740e
 1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Справочные издания и рецензируемые биомедицинские книги по клеточной биологии.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Определения и пояснительные материалы Национального института исследования генома человека.
 3. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Указатель рецензируемой литературы по клеточной биологии и вирусологии.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Рецензируемая литература по клеточной биологии.
-5. **Science** — [Science journals](https://www.science.org/). Рецензируемая биологическая литература.

@@ -78,5 +78,3 @@ _bodyHash: 68c3b84d
 1. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Оценка нагрузок на биоразнообразие, состояния местообитаний и природоохранного статуса.
 2. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Межправительственный синтез по утрате биоразнообразия и экосистемным услугам.
 3. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). Обзор Программы ООН по окружающей среде по охране и восстановлению экосистем.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Рецензируемая литература по биоразнообразию, функциональному разнообразию и природоохранной биологии.
-5. **Science** — [Science journals](https://www.science.org/). Рецензируемые исследования в области охраны природы и биоразнообразия.
