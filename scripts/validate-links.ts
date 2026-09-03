@@ -45,6 +45,7 @@ import { SOURCE_REGISTRY } from "../lib/sources";
 import { POLICY_DOCUMENTS } from "../lib/editorial";
 import { authors } from "../lib/authors";
 import { getDiscussions } from "../lib/discussions";
+import { loadRegistry } from "../lib/evidence/index";
 
 const CACHE_FILE = path.join(PROJECT_ROOT, ".linkcache.json");
 const CACHE_TTL_MS = 1000 * 60 * 60 * 24 * 14; // 14 days
@@ -417,6 +418,27 @@ async function main() {
   const internal = await checkInternal();
   const badDiscussionRefs = await checkDiscussionRefs();
 
+  // A citation the evidence registry does not know about means the
+  // registry is stale relative to the corpus. It is the condition under
+  // which the source-health report silently stops covering a source, so
+  // it is fatal rather than advisory.
+  const registryUrls = new Set(loadRegistry().records.map((r) => r.url));
+  const unregistered: Array<{ url: string; where: string[] }> = [];
+  {
+    // Citations only. lib/sources.ts holds organisation landing pages
+    // used for the authority check, not references — requiring those in
+    // the evidence registry would conflate "bodies we trust" with
+    // "pages an article cites", which are different lists.
+    const uses = (await collectExternalUrls()).filter(
+      (u) => !u.where.startsWith("lib/sources.ts"),
+    );
+    const byUrl = new Map<string, string[]>();
+    for (const u of uses) byUrl.set(u.url, [...(byUrl.get(u.url) ?? []), u.where]);
+    for (const [url, where] of byUrl) {
+      if (!registryUrls.has(url)) unregistered.push({ url, where: [...new Set(where)] });
+    }
+  }
+
   let externalResults: Array<CheckResult & { where: string[] }> = [];
   if (external) {
     const uses = await collectExternalUrls();
@@ -451,6 +473,7 @@ async function main() {
         {
           internal,
           discussionRefs: badDiscussionRefs,
+          unregisteredSources: unregistered,
           external: externalResults,
           dead,
           drifted,
@@ -463,7 +486,8 @@ async function main() {
     process.exit(
       internal.issues.length > 0 ||
         dead.length > 0 ||
-        badDiscussionRefs.length > 0
+        badDiscussionRefs.length > 0 ||
+        unregistered.length > 0
         ? 1
         : 0,
     );
@@ -473,6 +497,12 @@ async function main() {
     console.log(
       `✗ [internal-link] ${path.relative(PROJECT_ROOT, issue.filepath)} — ${issue.link} does not resolve to a generated route`,
     );
+  }
+  for (const u of unregistered) {
+    console.log(
+      `✗ [unregistered-source] ${u.url} — cited but absent from the evidence registry; run npm run evidence:build`,
+    );
+    for (const w of u.where.slice(0, 3)) console.log(`    cited in ${w}`);
   }
   for (const b of badDiscussionRefs) {
     console.log(
@@ -491,6 +521,7 @@ async function main() {
   console.log(
     `\ninternal: ${internal.total} links across ${internal.routes} routes · ${internal.issues.length} unresolved`,
   );
+  console.log(`registry: ${unregistered.length} cited source(s) not in the evidence registry`);
   if (external) {
     console.log(
       `external: ${externalResults.length} URLs · ${dead.length} dead · ${drifted.length} drifted · ${blocked.length} blocked-or-unreachable (not fatal)`,
@@ -500,7 +531,8 @@ async function main() {
   if (
     internal.issues.length > 0 ||
     dead.length > 0 ||
-    badDiscussionRefs.length > 0
+    badDiscussionRefs.length > 0 ||
+    unregistered.length > 0
   ) {
     process.exit(1);
   }

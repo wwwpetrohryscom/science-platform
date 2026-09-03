@@ -114,34 +114,30 @@ async function main() {
     if (!m) continue;
     const section = w.kind === "insight" ? "insights" : `${w.category}/${w.subtopic}`;
 
-    for (const raw of m[1].split("\n")) {
-      if (!/^\s*\d+\.\s/.test(raw)) continue;
-      citationLines += 1;
-      const c = CITATION.exec(raw);
-      if (!c?.groups) {
-        unparsed += 1;
-        continue;
-      }
-      const url = c.groups.url;
+    // Inline citations in the prose. A link placed next to the claim it
+    // supports is the strongest claim-to-evidence signal in the corpus,
+    // and ingesting only the Sources block left those sources out of the
+    // registry entirely — so the link checker could not tell whether the
+    // registry covered them.
+    const prose = w.body.replace(/^##\s+Sources[\s\S]*/im, "");
+    for (const link of prose.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g)) {
+      const url = link[2];
+      const anchor = link[1].trim().replace(/\s+/g, " ");
       const id = evidenceIdFor(url);
-      const title = c.groups.title.trim();
-      const org = cleanOrg(c.groups.org ?? "");
-      const supports = c.groups.note.trim().replace(/\s+/g, " ");
-
-      const use: EvidenceUse = { kind: "article", slug: w.slug, section, supports };
+      const use: EvidenceUse = {
+        kind: "article",
+        slug: w.slug,
+        section,
+        supports: `Cited inline as "${anchor}"`,
+      };
       const existing = byId.get(id);
       if (existing) {
-        existing.usedBy.push(use);
+        if (!existing.usedBy.some((u) => u.slug === w.slug)) existing.usedBy.push(use);
         if (!existing.topics.includes(section)) existing.topics.push(section);
-        // Prefer the longest title and a non-empty organisation: different
-        // articles cite the same source with different amounts of detail.
-        if (title.length > existing.title.length) existing.title = title;
-        if (!existing.organization && org) existing.organization = org;
         continue;
       }
-
       const host = hostOf(url);
-      const { sourceType, provenance } = classify(host, title);
+      const { sourceType, provenance } = classify(host, anchor);
       const cur: CuratedEvidence = {
         ...hostRule(host),
         ...urlRule(url),
@@ -149,11 +145,11 @@ async function main() {
       };
       byId.set(id, {
         evidenceId: id,
-        title,
-        organization: cur.organization ?? org,
+        title: anchor,
+        organization: cur.organization ?? "",
         url,
         host,
-        doi: cur.doi ?? doiOf(url, title),
+        doi: cur.doi ?? doiOf(url, anchor),
         sourceType: cur.sourceType ?? sourceType,
         sourceTypeProvenance: cur.sourceType ? "curated" : provenance,
         topics: [section],
@@ -163,6 +159,70 @@ async function main() {
         verificationStatus: "unchecked",
         notes: cur.notes,
       });
+    }
+
+    for (const raw of m[1].split("\n")) {
+      if (!/^\s*\d+\.\s/.test(raw)) continue;
+      citationLines += 1;
+      const c = CITATION.exec(raw);
+      if (!c?.groups) {
+        unparsed += 1;
+        continue;
+      }
+      const org = cleanOrg(c.groups.org ?? "");
+      const supports = c.groups.note.trim().replace(/\s+/g, " ");
+
+      // A numbered citation can name more than one link — "[P waves](…)
+      // and [S waves](…)" is one reference to two pages of the same
+      // resource. Registering only the first left the second cited but
+      // untracked, which the registry check then reported.
+      const links = [
+        ...raw.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g),
+      ].map((m2) => ({ title: m2[1].trim(), url: m2[2] }));
+
+      for (const link of links) {
+        const url = link.url;
+        const id = evidenceIdFor(url);
+        const title = link.title;
+
+        const use: EvidenceUse = { kind: "article", slug: w.slug, section, supports };
+        const existing = byId.get(id);
+        if (existing) {
+          if (!existing.usedBy.some((u) => u.slug === w.slug && u.supports === supports)) {
+            existing.usedBy.push(use);
+          }
+          if (!existing.topics.includes(section)) existing.topics.push(section);
+          // Prefer the longest title and a non-empty organisation:
+          // different articles cite the same source with different detail.
+          if (title.length > existing.title.length) existing.title = title;
+          if (!existing.organization && org) existing.organization = org;
+          continue;
+        }
+
+        const host = hostOf(url);
+        const { sourceType, provenance } = classify(host, title);
+        const cur: CuratedEvidence = {
+          ...hostRule(host),
+          ...urlRule(url),
+          ...(curated[id] ?? {}),
+        };
+        byId.set(id, {
+          evidenceId: id,
+          title,
+          organization: cur.organization ?? org,
+          url,
+          host,
+          doi: cur.doi ?? doiOf(url, title),
+          sourceType: cur.sourceType ?? sourceType,
+          sourceTypeProvenance: cur.sourceType ? "curated" : provenance,
+          topics: [section],
+          usedBy: [use],
+          isLiveDataset: cur.isLiveDataset ?? false,
+          updateFrequency: cur.updateFrequency,
+          verificationStatus: "unchecked",
+          notes: cur.notes,
+        });
+      }
     }
   }
 

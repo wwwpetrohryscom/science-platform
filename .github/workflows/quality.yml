@@ -1,0 +1,130 @@
+name: Quality gates
+
+# Two jobs, split by what they depend on.
+#
+# `checks` is deterministic: it reads the repository and nothing else, so
+# it runs on every push and pull request and a failure always means the
+# commit broke something.
+#
+# `external-sources` reaches the public internet, where a failure can
+# mean a publisher had a bad afternoon. It runs on a schedule and on
+# demand rather than on every commit, and it is deliberately narrow about
+# what it treats as fatal: only a URL that is confirmed gone.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  schedule:
+    # Weekly, Monday 06:00 UTC. Scientific web references rot on the
+    # timescale of agency reorganisations, not of commits.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  checks:
+    name: Content, structure and build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Content rules
+        run: npm run content:validate
+
+      - name: Translation fidelity
+        run: npm run content:translations
+
+      # Internal links, discussion references, and the check that every
+      # cited URL is present in the evidence registry. A citation the
+      # registry does not know about is the condition under which the
+      # source-health report silently stops covering a source.
+      - name: Internal links and evidence coverage
+        run: npm run content:links
+
+      - name: Evidence registry is current
+        run: npm run evidence:check
+
+      - name: Evidence registry rules and temporal qualifiers
+        run: npm run evidence:validate
+
+      - name: Entity graph is current
+        run: npm run entities:check
+
+      - name: Entity graph rules
+        run: npm run entities:validate
+
+      - name: Glossary rules
+        run: npm run glossary:validate
+
+      - name: FAQ rules
+        run: npm run faqs:validate
+
+      # Reports coverage; does not fail on unreviewed articles. The
+      # coverage number is the point — a build that failed on it would
+      # only ever be silenced.
+      - name: Verification coverage
+        run: npm run content:verification
+
+      - name: Build
+        run: npm run build
+
+      - name: Sitemap
+        run: npm run seo:validate
+
+  external-sources:
+    name: External source health
+    runs-on: ubuntu-latest
+    # A publisher outage should not block a merge queue.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - run: npm ci
+
+      # Resume from the previous run's results so a weekly check re-requests
+      # only what has expired, rather than hitting every publisher every
+      # time. The checker keeps a `dead` verdict for a fourteenth of the
+      # normal TTL, so a source that comes back is rechecked quickly while
+      # a healthy one is left alone.
+      - name: Restore source-check cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .linkcache.json
+          key: linkcache-${{ github.run_id }}
+          restore-keys: |
+            linkcache-
+
+      # Fatal: confirmed 404/410, DNS failure, a citation absent from the
+      # evidence registry, an unresolved internal link.
+      # Not fatal: 401/403/405/412/429/503 and bot-challenge pages, which
+      # mean the host refuses scripted clients rather than that the page
+      # is gone. Failing on those would produce a wall of false alarms
+      # from Wiley, Science, Nature, PNAS and a dozen others, and an
+      # alarm nobody reads is worse than no alarm.
+      - name: Check every cited URL
+        run: npm run content:links:external
+
+      - name: Save source-check cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .linkcache.json
+          key: linkcache-${{ github.run_id }}
