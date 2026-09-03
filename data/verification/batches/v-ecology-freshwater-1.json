@@ -1,0 +1,295 @@
+{
+  "batchId": "v-ecology-freshwater-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "freshwater-ecosystems-explained",
+      "path": "content/en/ecology/freshwater/freshwater-ecosystems-explained.md",
+      "status": "amended",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "Lakes and river channels hold about 93,100 km3; the ocean 1,338,000,000 km3; 96.54% of all water is in oceans, seas and bays; fresh water is 2.5% of the total, of which 68.7% is in ice caps, glaciers and permanent snow and 30.1% is groundwater; fresh lakes 91,000 km3, swamp water 11,470, rivers 2,120, fresh groundwater 10,530,000",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/where-earths-water",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The surface fraction is roughly one one-hundred-and-fiftieth of one per cent of all water, and adding swamps leaves it under one hundredth of one per cent",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/where-earths-water",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Of the liquid fresh water at the surface, lakes hold roughly 87 per cent, wetlands about 11 per cent and rivers about 2 per cent",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/where-earths-water",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fresh waters support more than 10 per cent of all described species, around a third of vertebrates and about half of all fishes",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11798842/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A satellite inventory counted about 117 million water bodies larger than 0.002 km2, covering close to 5 million km2, or 3.7 per cent of the non-glaciated land surface",
+          "sourceChecked": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/2014GL060641 (publisher abstract of Verpoorter et al., GRL, 10.1002/2014GL060641)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "River and stream surface area at mean annual discharge is 773,000 +/- 79,000 km2, 0.58 +/- 0.06 per cent of non-glaciated land, some 44 per cent more than earlier estimates",
+          "sourceChecked": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1126/science.aat0636 (publisher abstract of Allen and Pavelsky, Science, 10.1126/science.aat0636)",
+          "disposition": "qualified",
+          "note": "The area and its interval match exactly, but the comparison figure carries its own uncertainty in the source: 'an area 44 +/- 15% larger than previous spatial estimates'. The article gave a bare 44 per cent in a paragraph that elsewhere quotes every interval. Restored to '44 +/- 15 per cent larger than previous estimates'."
+        },
+        {
+          "claim": "The assessment covered 23,496 species (14,628 fishes, 6,223 odonates, 2,645 decapods) and found 24 per cent threatened; decapods 30 per cent, fishes 26 per cent, odonates 16 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11798842/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "It is 'the largest freshwater assessment yet published'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11798842/",
+          "disposition": "corrected",
+          "note": "The paper's own superlative is narrower: 'the most comprehensive multi-taxon global freshwater fauna assessment to date on the IUCN Red List'. 'Largest freshwater assessment yet published' drops both the multi-taxon and the Red List scope and so claims more than the source. Replaced with the paper's wording, and anchored to its publication (Nature, 2025) because the underlying Red List is a continuously updated product."
+        },
+        {
+          "claim": "Eighty-nine assessed species, 0.4 per cent of the total and mostly fishes, are recorded as extinct",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11798842/",
+          "disposition": "qualified",
+          "note": "Count and share are right and 'mostly fishes' is right (82 fishes, 6 decapods, 1 odonate), but the source states these as extinctions 'since AD 1500' — the IUCN Extinct category is defined against that baseline, and an undated extinction count reads as a modern tally. Added the 1500 anchor and the 82-of-89 figure."
+        },
+        {
+          "claim": "Among threatened species, 54 per cent are affected by pollution, 39 per cent by dams and water extraction, 37 per cent by land-use change and agriculture, 28 per cent by invasive species and disease, close to a fifth by climate change and severe weather; the categories overlap so the shares cannot be added",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11798842/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "23 per cent of assessed species are Data Deficient, and the assessment covered 97 per cent of described odonates, 81 per cent of decapods and 79 per cent of freshwater fishes; the groups were chosen partly for being well enough described to assess",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11798842/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA's 2022 National Lakes Assessment found 50 per cent of lakes in poor condition for phosphorus, 47 per cent for nitrogen and hypereutrophic conditions in 30 per cent; the 2018-19 rivers and streams survey found 28 per cent of miles in good biological condition for benthic macroinvertebrates",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-lakes-assessment-2022-key-findings",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2023 reconstruction estimated inland wetland loss since 1700 at 3.4 million km2 (CI 2.9-3.8), or 21 per cent (CI 16-23 per cent), lower than earlier figures extrapolated from high-loss regions; and the IUCN puts peatlands at no less than 3 per cent of global land surface holding more than 600 Gt of carbon, up to 44 per cent of all soil carbon",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36755174 (Nature abstract, 10.1038/s41586-022-05572-6) and https://www.iucn.org/resources/issues-brief/peatlands-and-climate-change",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "nature.com refuses scripted clients (303 to an IdP). The 2025 freshwater assessment was read in full from the open-access PMC copy, PMC11798842, not from the URL the article cites; the cited nature.com URL is the same paper.",
+        "The Allen and Pavelsky river-area figures were read from the publisher-supplied abstract (science.org returns 403 to every scripted request). The abstract carries all the numbers used, but I did not see the paper body.",
+        "The IUCN peatland sentence in this article is close to verbatim identical to one in wetlands-and-their-functions. Both are accurate; the duplication is a house-style question for the desk, not a factual defect."
+      ]
+    },
+    {
+      "slug": "river-ecology-and-flow-regimes",
+      "path": "content/en/ecology/freshwater/river-ecology-and-flow-regimes.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "A streamgage measures stage, usually every 15 minutes, and converts it to discharge with a site-specific stage-discharge relation built from field measurements; the first USGS gauge was installed in 1889 on the Rio Grande in New Mexico",
+          "sourceChecked": "https://www.usgs.gov/mission-areas/water-resources/science/streamgaging-basics",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The USGS operates more than 13,500 gauges",
+          "sourceChecked": "https://www.usgs.gov/mission-areas/water-resources/science/streamgaging-basics",
+          "disposition": "qualified",
+          "note": "The figure matches the cited page verbatim, but network size is a drifting count and the page dates neither it nor the network it describes; the same page's dated companion records give 12,165 continuous streamgages in 2024 and 11,850 in 2023, and elsewhere 'over 11,000'. The article also read as though 13,500 gauges had existed since 1889. Rewritten to say the network numbers more than 13,500 streamgages of all types, 12,165 of them continuous streamgages in 2024, with the first installed in 1889 — both numbers taken from the cited page."
+        },
+        {
+          "claim": "Every river channel on Earth holds 2,120 km3, about 2 per cent of the liquid fresh water at the surface",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/where-earths-water",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Mapping river widths from Landsat put river and stream surface area at 773,000 +/- 79,000 km2, some 44 per cent more than pre-satellite estimates had assumed",
+          "sourceChecked": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1126/science.aat0636 (publisher abstract of Allen and Pavelsky, Science, 10.1126/science.aat0636)",
+          "disposition": "corrected",
+          "note": "The source says 'an area 44 +/- 15% larger than previous spatial estimates'. It does not characterise those estimates as pre-satellite — earlier global estimates were statistical extrapolations that included remotely sensed inputs — so 'pre-satellite estimates had assumed' attributes a property the source does not claim. Changed to 'an area 44 +/- 15 per cent larger than previous spatial estimates'."
+        },
+        {
+          "claim": "A flow regime is conventionally described by five properties: magnitude, frequency, duration, timing and rate of change",
+          "sourceChecked": "https://www.usgs.gov/programs/ecosystems-land-change-science-program/science/environmental-streamflows-united-states",
+          "disposition": "resourced",
+          "note": "The article's structural claim had no source in the piece. The nearest cited page (USGS Streamflow Alteration) lists a different five — 'magnitude, variability, duration, frequency, and timing' — so it does not support 'rate of change'. Cited the USGS environmental-streamflows page instead, which states the five verbatim: 'the magnitude, frequency, seasonal timing, duration, and rate of change of streamflows'. Added as source 7 and named in the sentence."
+        },
+        {
+          "claim": "The Amazon at Manaus has been gauged at the same site since the early twentieth century and the annual difference between high and low water may reach 15 metres",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155052/",
+          "disposition": "qualified",
+          "note": "The 15 m amplitude is verbatim from the paper. The station, though, is the Port of Manaus on the Rio Negro near its confluence with the Amazon, and the series begins in 1903; 'the Amazon at Manaus ... since the early twentieth century' is looser than the source on both points. Named the station and the start year."
+        },
+        {
+          "claim": "Severe floods went from roughly one every twenty years in the first half of the twentieth century to about one every four years from the 2000s onward, with a flood in every year from 2009 to the end of the record — a fivefold increase",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155052/",
+          "disposition": "corrected",
+          "note": "The return periods and the fivefold increase are right, but the paper explicitly exempts two years: 'Except for the drought of 2010 and average hydrological conditions in 2011, there has been a flood every year from 2009 until the end of our study period in 2015.' The article asserted an unbroken run the source rules out. Added the exception."
+        },
+        {
+          "claim": "Severe droughts over the same period showed no significant long-term change, and the authors attributed the flood signal to a strengthening of the Walker circulation driven by tropical Atlantic warming alongside tropical Pacific cooling",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6155052/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A USGS synthesis of 1980-2014 streamflow data from more than 3,000 gauging sites found low flows more frequent but of shorter duration, and high flows more frequent yet lower in magnitude and shorter",
+          "sourceChecked": "https://www.usgs.gov/mission-areas/water-resources/science/streamflow-alteration",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USGS work reports flow modification along more than 1.2 million miles of US streams, associated with losses of native fish or invertebrates",
+          "sourceChecked": "https://www.usgs.gov/mission-areas/water-resources/science/streamflow-alteration",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NRSA 2018-19 found 28 per cent of miles in good biological condition and 47 per cent poor for benthic macroinvertebrates, 35 per cent with healthy fish communities, phosphorus poor across 42 per cent and nitrogen across 44 per cent, 64 per cent with moderate or high riparian disturbance, and about 20 per cent of poor-condition miles able to improve if nutrient condition improved",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-river-and-streams-assessment-2018-19-key-findings",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "science.org returns 403 to every scripted request, including via DOI. The Amazon paper was read in full from its open-access PMC copy (PMC6155052); the Allen and Pavelsky river-area paper only through its publisher-supplied abstract, which carries every number the article uses but not the methods.",
+        "The river continuum description ('The longitudinal template') is uncited conceptual background. It is standard, and I have not changed it, but no source in the article carries it."
+      ]
+    },
+    {
+      "slug": "lake-ecology-and-eutrophication",
+      "path": "content/en/ecology/freshwater/lake-ecology-and-eutrophication.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "Lake Baikal holds over 23,000 km3, roughly a quarter of the 91,000 km3 the USGS assigns to all fresh lakes, and the combined volume of the North American Great Lakes would be needed to refill it",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/lakes-and-reservoirs",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A satellite census counted about 117 million water bodies larger than 0.002 km2",
+          "sourceChecked": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/2014GL060641 (publisher abstract of Verpoorter et al., GRL, 10.1002/2014GL060641)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "At the Experimental Lakes Area both basins of a divided lake received nitrogen and carbon and only one received phosphorus; that basin turned green with a cyanobacterial bloom within weeks while the other stayed at pre-fertilisation condition, and the 1974 Science paper's photograph of one green basin beside one clear one made the argument",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/17782381/ (abstract of Schindler, Science 184:897-899, 10.1126/science.184.4139.897)",
+          "disposition": "qualified",
+          "note": "The design and the outcome are supported verbatim: 'the phosphate-enriched basin quickly became highly eutrophic, while the basin receiving only nitrogen and carbon remained at prefertilization conditions.' Two details are not. The source says 'quickly', not 'within weeks', and does not identify the bloom organisms as cyanobacteria. And I could not confirm from anything I could open that the aerial photograph appeared in the 1974 Science paper — the paper body is behind a 403. Narrowed to the source's own wording and removed the claim about where the photograph was published, keeping the rhetorical point about a whole-lake contrast."
+        },
+        {
+          "claim": "A second lake was fertilised for 37 years with phosphorus held constant and nitrogen progressively reduced then withheld for the final 16 years; the lake stayed highly eutrophic because nitrogen-fixing cyanobacteria made up the deficit and biomass continued to track phosphorus",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/18667696/ (abstract of Schindler et al., PNAS 105:11254-11258) and https://pmc.ncbi.nlm.nih.gov/articles/PMC2516213/",
+          "disposition": "resourced",
+          "note": "Every particular is correct, but the article's only source for the experiment was Carpenter's PNAS commentary on it — a secondary reading. Added the experiment's own paper (Schindler et al., PNAS 105:11254-11258) as source 10, which states the 37 years, the constant phosphorus and decreasing nitrogen, phosphorus alone 'for the final 16 years (1990-2005)', the nitrogen fixation, and that 'the lake remained highly eutrophic'. Added the 1990-2005 dates to the prose."
+        },
+        {
+          "claim": "The reading of that result 'in the same journal' was that reducing nitrogen alone made the problem worse and phosphorus control has to be part of any management programme",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2516213/",
+          "disposition": "corrected",
+          "note": "The conclusion is verbatim right ('decreasing N inputs alone made eutrophication worse'; 'P control is essential and must be included in management programs'). The attribution was not: the commentary is in PNAS, while the only journal the article had named at that point was Science, so 'the same journal' pointed a reader at the wrong publication. Named PNAS."
+        },
+        {
+          "claim": "The recovery period depends on loading history and may last for decades where sediment phosphorus has accumulated; net release rates and the length of the release season decline progressively; the sediment store is redox-sensitive iron-bound and labile organic phosphorus",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/12806078/ (abstract of Sondergaard et al., TheScientificWorldJournal 1:427-442)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The general theory of alternative stable states was set out in Scheffer et al. 2001, and shallow lakes remain its best-documented example",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:11595939 (Nature abstract, 10.1038/35098000)",
+          "disposition": "qualified",
+          "note": "The paper exists and is what the article says it is, but I could reach only the abstract (nature.com 403/IdP; the Wageningen repository record carries the abstract only). The abstract lists lakes alongside coral reefs, oceans, forests and arid lands and does not rank them, so 'shallow lakes remain its best-documented example' is a superlative I could not verify. Replaced with what the abstract does state — the range of systems it draws on, and that a loss of resilience usually precedes a switch."
+        },
+        {
+          "claim": "NLA 2022 found 50 per cent of lakes poor for phosphorus, 47 per cent for nitrogen, chlorophyll a poor in 49 per cent, 30 per cent hypereutrophic, benthic macroinvertebrates poor in 29 per cent and zooplankton in 25 per cent, with invertebrates 1.7 times more likely to be poor where phosphorus was elevated, rising to 2.2 times in natural lakes",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-lakes-assessment-2022-key-findings",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Microcystins were detected in 50 per cent of lakes but exceeded the recreational criterion in 2 per cent, about 5,360 lakes; cylindrospermopsin was detected in 12 per cent and exceeded the criterion nowhere; detection of microcystins rose by almost 30 percentage points to 50 per cent while exceedances and the nutrient and biological indicators did not change significantly",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-lakes-assessment-2022-key-findings",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Lake summer surface water temperatures rose at a global mean of 0.34 C per decade between 1985 and 2009; seasonally ice-covered lakes with rising temperature and solar radiation and falling cloud cover warmed at 0.72, ice-free lakes with rising air temperature and solar radiation at 0.53; regional consistency is the exception rather than the rule",
+          "sourceChecked": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/2015GL066235 (publisher abstract of O'Reilly et al., GRL, 10.1002/2015GL066235)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Warming rates depend on combinations of climate and local characteristics 'rather than on latitude'",
+          "sourceChecked": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/2015GL066235 (publisher abstract of O'Reilly et al., GRL, 10.1002/2015GL066235)",
+          "disposition": "qualified",
+          "note": "The source says rates depend on those combinations 'rather than just lake location'. Location is broader than latitude, and narrowing it to latitude states a different and stronger contrast than the paper draws. Changed to 'rather than on lake location alone'."
+        }
+      ],
+      "openQuestions": [
+        "The 1974 Schindler paper could only be read as its PubMed abstract; science.org returns 403 to all scripted requests, including through the DOI. That abstract carries the experimental design and the result but not the figures, which is why the claims about the bloom organisms, the 'within weeks' timing and the publication venue of the aerial photograph were narrowed rather than kept. If the desk can reach the paper body, 'cyanobacterial bloom' and the photograph sentence may well be restorable.",
+        "Scheffer et al. 2001 was read as an abstract only. The mechanism paragraph on clear and turbid shallow-lake states carries no citation in the article; it is textbook material and I have not changed it, but it is not sourced on the page."
+      ]
+    },
+    {
+      "slug": "wetlands-and-their-functions",
+      "path": "content/en/ecology/freshwater/wetlands-and-their-functions.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "The Clean Water Act defines wetlands as 'those areas that are inundated or saturated by surface or ground water at a frequency and duration sufficient to support, and that under normal circumstances do support, a prevalence of vegetation typically adapted for life in saturated soil conditions'",
+          "sourceChecked": "https://www.epa.gov/wetlands/what-wetland",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Field identification rests on three parameters: wetland hydrology, hydric soils and hydrophytic vegetation",
+          "sourceChecked": "https://www.epa.gov/cwa-404/how-wetlands-are-defined-and-identified-under-cwa-section-404",
+          "disposition": "resourced",
+          "note": "This is the batch's clearest case of a live URL that does not carry its sentence. The cited page (EPA, 'What is a wetland?') gives the CWA definition and mentions hydrology, hydrophytes and hydric soils descriptively, but states no three-parameter delineation test — that test is the 1987 Corps of Engineers manual's. Cited EPA's CWA Section 404 page, which does state it: 'The 1987 Corps of Engineers Wetlands Delineation Manual and Regional Supplements organizes characteristics of a potential wetland into three categories: soils, vegetation and hydrology.' Added as source 8 and attributed the test to the manual in the prose."
+        },
+        {
+          "claim": "The reconstruction traced conversion to seven human land uses between 1700 and 2020 and estimated 3.4 million km2 of inland wetland lost since 1700 (CI 2.9-3.8), primarily to cropland",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36755174 (Nature abstract, 10.1038/s41586-022-05572-6)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "That is a net loss of 21 per cent of global wetland area (CI 16-23 per cent), concentrated in Europe, the United States and China and expanding rapidly during the mid-twentieth century, and lower than earlier extrapolations from data drawn disproportionately from high-loss regions",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36755174 (Nature abstract, 10.1038/s41586-022-05572-6)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Current nitrogen removal by US wetlands is about 860 +/- 160 kilotonnes of nitrogen per year, and existing capacity is limited by a spatial mismatch between where wetlands are dense and where nitrogen loads are high",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33328640 (Nature abstract, 10.1038/s41586-020-03042-5)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A modelled spatially targeted 10 per cent increase in wetland area (5.1 million hectares) would roughly double that removal, with an estimated 54 per cent decrease in nitrogen loading in nitrate-impacted watersheds such as the Mississippi basin",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33328640 (Nature abstract, 10.1038/s41586-020-03042-5)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The IUCN puts peatlands at no less than 3 per cent of the global land surface, holding more than 600 gigatonnes of carbon, up to 44 per cent of all soil carbon and more than all other vegetation types including the world's forests",
+          "sourceChecked": "https://www.iucn.org/resources/issues-brief/peatlands-and-climate-change",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Emissions from drained peatlands are about 1.9 gigatonnes of CO2 equivalent a year, equivalent to 5 per cent of global anthropogenic greenhouse gas emissions, while over 3 million km2 of near-natural peatland sequesters roughly 0.37 gigatonnes of CO2 a year",
+          "sourceChecked": "https://www.iucn.org/resources/issues-brief/peatlands-and-climate-change",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NWCA 2021 found 45 per cent of wetland area good on a vegetation indicator and 48 per cent good on a non-native plant indicator with 24 per cent poor or very poor; a combined alteration indicator put 82 per cent in fair or poor condition with vegetation removal and replacement each at 56 per cent; nitrogen was poor across 17 per cent and phosphorus across 24 per cent; and 40 per cent of wetland area could not be assessed for nutrients or cyanotoxins for want of surface water",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-wetlands-condition-assessment-2021-key-findings",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Between 2016 and 2021 biological indicators showed little national change, the share of wetland area in good condition for nitrogen rose 8 percentage points to 29 per cent, microcystin detection rose by almost 22 percentage points to 30 per cent, and exceedances of the health benchmark stayed below 1 per cent throughout",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-wetlands-condition-assessment-2021-key-findings and https://www.epa.gov/national-aquatic-resource-surveys/national-wetlands-condition-assessment-2016-key-findings",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The claim that flood attenuation is 'the least well quantified of the headline functions at any scale above a single catchment' is the article's own editorial judgement and has no source on the page. I found nothing contradicting it and have not changed it, but it is asserted rather than cited.",
+        "The 2016-to-2021 change figures are all stated on the 2021 key-findings page itself; I read the 2016 page as well and the two are consistent (vegetation good 47 to 45 per cent, non-native poor 21 to 24 per cent, microcystin detection 8 to 30 per cent), which is the basis for 'biological indicators showed little national change' — EPA does not state that sentence in those words."
+      ]
+    }
+  ]
+}

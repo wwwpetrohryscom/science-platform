@@ -1,0 +1,282 @@
+{
+  "batchId": "v-physics-matter-radiation-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "atomic-and-nuclear-physics-explained",
+      "path": "content/en/physics/matter-radiation/atomic-and-nuclear-physics-explained.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "The Bohr radius is 5.2918 x 10^-11 m in the 2022 CODATA adjustment",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The charge radius of uranium-238 is 5.8571 +/- 0.0033 fm, from IAEA evaluated nuclear data",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "verified",
+          "note": "Downloaded the full ground-state CSV; the U-238 row gives radius 5.8571, unc_r 0.0033. Ratio to the Bohr radius is 9034, supporting 'about nine thousand'."
+        },
+        {
+          "claim": "Pulling the electron off a hydrogen atom takes 13.6057 eV",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?rydhcev",
+          "disposition": "qualified",
+          "note": "The cited NIST page publishes 13.605 693 122 990 eV for the Rydberg constant times hc, which is the infinite-nuclear-mass Rydberg energy, not the ionisation energy of an actual hydrogen atom (about 13.598 eV once the reduced mass of the proton is taken into account). The 0.05% difference does not touch the 650,000x comparison, but the sentence attributed a quantity to a page that publishes a different one. Rewritten as 'The Rydberg energy, which sets the scale for pulling the electron off a hydrogen atom, is 13.6057 eV.'"
+        },
+        {
+          "claim": "The three highest binding energies per nucleon are nickel-62 at 8794.5555 keV, iron-58 at 8792.2534 and iron-56 at 8790.3563",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "verified",
+          "note": "Sorted the whole ground-state table by binding energy per nucleon; the top three are exactly those nuclides at exactly those values, followed by Ni-60, Cr-54 and Ni-64."
+        },
+        {
+          "claim": "Iron-56 is third on the binding-energy curve, by about four parts in ten thousand",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "corrected",
+          "note": "The gap from nickel-62 to iron-56 is 4.1992 keV per nucleon out of 8790.36, i.e. 4.8 parts in ten thousand, not four. The figure looks to have been read off the absolute gap in keV rather than the relative one. Changed to 'about five parts in ten thousand'."
+        },
+        {
+          "claim": "The IAEA live chart holds ground-state data for 3,386 nuclides, of which 244 are stable across 80 elements and 288 carry a measured natural terrestrial abundance",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "qualified",
+          "note": "All three counts reproduce exactly from the downloaded ground-state table (3,386 rows; 244 with half_life STABLE spanning 80 distinct Z; 288 with a non-empty abundance field). But this is a live evaluated product whose nuclide count grows with new discoveries, and the article gave it no temporal anchor. Every row of the served dataset carries Extraction_date 2023-10-18, so the prose now reads 'The ground-state dataset behind the IAEA's live chart, which carries an extraction date of 18 October 2023'. Live dataset, added temporal qualifier."
+        },
+        {
+          "claim": "Potassium-40 has a half-life of 1.248 x 10^9 years and goes to calcium-40 by beta-minus emission 89.28 per cent of the time",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "verified",
+          "note": "IAEA row: half_life 1.248E+9 Y, decay_1 B- 89.28%, decay_2 EC+B+ 10.72%. The article's 'electron capture the rest' folds in a beta-plus branch of order 0.001%, which is negligible. U-238 4.468E9 y and I-131 8.0252 d also confirmed, and their ratio is 2.0 x 10^11, supporting 'eleven orders of magnitude apart'."
+        },
+        {
+          "claim": "Deuterium is bound at 1112.2831 keV per nucleon and helium-4 at 7073.9156; fusing two deuterons releases about 23.8 MeV, near 6 MeV per nucleon against roughly 0.86 MeV per nucleon for fission",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "verified",
+          "note": "Both binding energies match the table to the last digit. 28295.66 - 2 x 2224.566 = 23.85 MeV, 5.96 MeV per nucleon; 202.3 MeV over 236 nucleons is 0.857; the ratio is 7.0, supporting 'about seven times better per unit of fuel mass'."
+        },
+        {
+          "claim": "The 1957 review of stellar nucleosynthesis that still frames the field",
+          "sourceChecked": "https://doi.org/10.1103/RevModPhys.29.547",
+          "disposition": "verified",
+          "note": "Crossref metadata confirms Burbidge, Burbidge, Fowler and Hoyle, 'Synthesis of the Elements in Stars', Reviews of Modern Physics 29, 547-650 (1957) - the named thing exists and is the nucleosynthesis review the article says it is."
+        }
+      ],
+      "openQuestions": [
+        "The IAEA live chart has no page-level version or release date. The temporal anchor I added is the Extraction_date field carried by the dataset rows themselves (18 October 2023), not a statement made on the chart page."
+      ]
+    },
+    {
+      "slug": "radioactivity-and-radiation-units",
+      "path": "content/en/physics/matter-radiation/radioactivity-and-radiation-units.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "The becquerel is one reciprocal second, the gray and the sievert are both m^2 s^-2, and NIST footnotes that 'Activity referred to a radionuclide is sometimes incorrectly called radioactivity'",
+          "sourceChecked": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1 Ci = 3.7 x 10^10 Bq, 1 rad = 10^-2 Gy, 1 rem = 10^-2 Sv, 1 R = 2.58 x 10^-4 C/kg",
+          "sourceChecked": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-5-units-outside-si",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Alpha particles 'lack the energy to penetrate even the outer layer of skin'; betas are stopped 'by a layer of clothing or by a thin layer of a substance such as aluminum'; gammas may need 'several inches of a dense material like lead, or even a few feet of concrete'",
+          "sourceChecked": "https://www.epa.gov/radiation/radiation-basics",
+          "disposition": "verified",
+          "note": "All three quotations appear verbatim on the EPA page."
+        },
+        {
+          "claim": "One megabecquerel is about 0.22 nanograms of iodine-131, roughly 0.31 micrograms of caesium-137, or 80 grams of uranium-238",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "verified",
+          "note": "Recomputed from the IAEA half-lives actually served (8.0252 d, 30.08 y, 4.468E9 y): 0.218 ng, 0.3115 ug, 80.4 g."
+        },
+        {
+          "claim": "Four joules per kilogram into water raises its temperature by about 0.001 K, yet the EPA puts the acute radiation syndrome threshold at more than 0.75 gray 'in a short time span (minutes to hours)' - under a fifth of that energy",
+          "sourceChecked": "https://www.epa.gov/radiation/radiation-health-effects",
+          "disposition": "verified",
+          "note": "EPA wording confirmed verbatim. 4 J/kg / 4184 J/kg/K = 0.00096 K; 0.75/4 = 0.19, so 'under a fifth' holds."
+        },
+        {
+          "claim": "UNSCEAR gives a global average annual effective dose of 2.4 mSv with a typical range of 1-13 mSv, notes 'sizeable population groups receive 10-20 mSv annually', and breaks it into radon 1.26 (0.2-10), external terrestrial 0.48, cosmic 0.39 and ingestion 0.29 mSv",
+          "sourceChecked": "https://www.unscear.org/unscear/en/areas-of-work/radiation-faq.html",
+          "disposition": "verified",
+          "note": "WebFetch was refused with HTTP 403; read the page by curl with a browser user-agent and matched every figure against the natural-sources table."
+        },
+        {
+          "claim": "The EPA gives the US average annual dose as 6.2 mSv, with 'another 48 percent of the average American's dose' from medical procedures, radon in a typical home at 2.28 mSv and terrestrial radioactivity at 0.21 mSv",
+          "sourceChecked": "https://www.epa.gov/radiation/radiation-sources-and-doses",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Effective dose 'is calculated for a Reference Person and not for an individual', its weighting factors are 'averaged across all ages and both genders and thus do not apply to any specific individual', it 'should never be used to estimate future cancer risk from specific sources of radiation exposure' and 'is not recommended for epidemiological evaluations'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5878049/",
+          "disposition": "verified",
+          "note": "All four quotations are verbatim. Europe PMC confirms the paper is in Health physics (2017), as the article says. One wording note left unchanged: the paper writes 'organ weighting factors' where the article writes 'tissue weighting factors'; the quoted fragment itself is exact and 'tissue weighting factor' is ICRP's own term for the same quantity."
+        }
+      ]
+    },
+    {
+      "slug": "ionising-radiation-exposure-and-risk",
+      "path": "content/en/physics/matter-radiation/ionising-radiation-exposure-and-risk.md",
+      "status": "clean",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "WHO puts the acute radiation syndrome threshold at about 1 Sv; the EPA describes it as requiring more than 0.75 gray 'in a short time span (minutes to hours)'",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects",
+          "disposition": "verified",
+          "note": "WHO: 'the dose threshold for acute radiation syndrome is about 1 Sv (1000 mSv)'. EPA wording checked separately at https://www.epa.gov/radiation/radiation-health-effects."
+        },
+        {
+          "claim": "The Life Span Study followed 105,444 people from 1958 to 2009 - 80,205 survivors plus 25,239 not-in-city residents - over 3,079,484 person-years, identifying 22,538 first primary solid cancers of which 992 were attributed to radiation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320812/",
+          "disposition": "verified",
+          "note": "Every one of the six figures matches the paper."
+        },
+        {
+          "claim": "Excess relative risk 0.64 per Gy for women at attained age 70 (95% CI 0.52-0.77)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320812/",
+          "disposition": "verified",
+          "note": "Matches. The paper's reference combination is attained age 70 after exposure at age 30; the article names only attained age 70 in the table, but the paragraph immediately below states that the coefficient varies with sex, age at exposure and attained age and that the table figure is 'quoted for one reference combination', so the reader is not misled."
+        },
+        {
+          "claim": "The atomic-bomb data show 'no evidence of a threshold' for women, while for men a linear-quadratic fit gives ERR 0.20 at 1 Gy but 0.010 at 0.1 Gy with a confidence interval of -0.0003 to 0.021",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320812/",
+          "disposition": "verified",
+          "note": "Paper: 'no evidence of a threshold for females (estimated threshold dose of 0.08 Gy)... not significantly different from 0'; significant upward curvature for males, linear-quadratic ERR 0.20 at 1 Gy and 0.010 (95% CI -0.0003 to 0.021) at 0.1 Gy. The article's inference that the interval includes zero is correct and is stated as an inference."
+        },
+        {
+          "claim": "INWORKS 2023 covered 309,932 monitored workers in France, the UK and the US, mean cumulative colon dose 20.9 mGy, 10.7 million person-years, 28,089 solid-cancer deaths, ERR 0.52 per Gy (90% CI 0.27-0.77)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427997/",
+          "disposition": "verified",
+          "note": "All figures match the paper's abstract and Tables 1 and 2. The 20.9 mGy is the INWORKS-wide average colon dose among workers whose estimated dose was greater than zero."
+        },
+        {
+          "claim": "INWORKS reported 'some evidence' of 'a steeper slope for the dose-response association at lower doses than over the full dose range', with the association 'approximately doubled' when restricted to 0-100 mGy",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427997/",
+          "disposition": "verified",
+          "note": "Both quoted phrases are verbatim in the paper, including 'approximately doubled'. Supplementary values confirm it: 1.12 (0.45 to 1.80) per Gy over 0-100 mGy against 0.52 over the full range. The article's hedging matches the paper's own hedging."
+        },
+        {
+          "claim": "The EPA states the linear no-threshold model as 'cutting the dose in half cuts the risk in half', and offers the benchmark 'About 99 percent of individuals would not get cancer as a result of a one-time uniform whole-body exposure of 100 millisieverts (10 rem) or lower'",
+          "sourceChecked": "https://www.epa.gov/radiation/radiation-health-effects",
+          "disposition": "verified"
+        },
+        {
+          "claim": "ICRP Publication 103 sets an occupational limit of '20 mSv per year averaged over 5 years, with no more than 50 mSv in any one year', a public limit of '1 mSv per year', and a skin limit of 500 mSv averaged over 1 cm2",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11170981/",
+          "disposition": "verified",
+          "note": "The review's comparative dose-limit table carries all three in exactly that wording."
+        },
+        {
+          "claim": "WHO estimates radon causes 'between 3% to 14% of all lung cancers in a country', with risk rising 'by about 16% per 100 Bq/m3', indoor concentrations 'from 10 Bq/m3 to more than 10 000 Bq/m3' against an outdoor 5-15 Bq/m3, and a reference level of 100 Bq/m3 not to exceed 300",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/radon-and-health",
+          "disposition": "verified",
+          "note": "All five quantities are verbatim on the fact sheet. Checked the causal language specifically: WHO itself writes 'Radon is estimated to cause', so the article's 'causes' does not upgrade an association into a cause."
+        },
+        {
+          "claim": "UNSCEAR's banding places anything up to 10 mSv in the range with 'no direct evidence of human health effects' and reserves radiation sickness for the 1-10 Sv band",
+          "sourceChecked": "https://www.unscear.org/unscear/en/areas-of-work/radiation-faq.html",
+          "disposition": "verified",
+          "note": "The FAQ's indicative-dose table gives 'Up to 10 [mSv]: No direct evidence of human health effects' and '1 000 - 10 000 [mSv]: Radiation sickness (risk of death)'. Read by curl with a browser user-agent after WebFetch was refused with HTTP 403."
+        }
+      ],
+      "openQuestions": [
+        "'Available data are too limited to settle the shape of the relationship below roughly 100 mSv, and that is the honest summary' is the article's own synthesis of the two cohorts it has just described. None of the eight cited sources states it in those terms, and the 100 mSv figure is not attributed. It is consistent with what the sources report and is explicitly framed as a summary rather than a finding, so I left it unchanged, but it is the one sentence in this article with the shape of a fact and no source behind it."
+      ]
+    },
+    {
+      "slug": "nuclear-fission-and-reactors",
+      "path": "content/en/physics/matter-radiation/nuclear-fission-and-reactors.md",
+      "status": "amended",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "Uranium-235 holds 1783.9 MeV; krypton-92 plus barium-141 plus three neutrons holds 1957.1 MeV for a release of about 173 MeV, while molybdenum-95 plus lanthanum-139 plus two neutrons releases about 202 MeV, a difference of roughly 29 MeV",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "verified",
+          "note": "Recomputed from the served binding energies per nucleon: 1783.9, 1957.1, 173.3, 202.3 and 29.0 MeV. Both fragment sets balance at 236 nucleons."
+        },
+        {
+          "claim": "Thermal-neutron fission of uranium-235 gives a heavy chain-yield peak at mass 134 of 7.79 per cent, a light peak at mass 95 of 6.50 per cent, and a symmetric split at mass 118 of 0.014 per cent, with all mass chains summing to 2.0032",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=cumulative_fy&parents=235u",
+          "disposition": "verified",
+          "note": "Downloaded the cumulative-fission-yield table and took the chain yield as the maximum cumulative yield in each mass chain: A=134 at 7.785%, A=95 at 6.502%, A=118 at 0.0136%, total 2.0032. The peak-to-valley ratio is 573, so 'roughly five hundred times less likely' holds."
+        },
+        {
+          "claim": "The mass asymmetry is a structural effect rather than a statistical accident, and was already a target for explanation in Bohr and Wheeler's 1939 liquid-drop treatment",
+          "sourceChecked": "https://doi.org/10.1103/PhysRev.56.426",
+          "disposition": "corrected",
+          "note": "The cited paper says close to the opposite. Bohr and Wheeler mention asymmetry once, and they derive it from the statistical argument of Section III - the representative point crossing the barrier away from the saddle point - concluding that one should 'anticipate a somewhat larger difference in size of the fission fragments as more energy is made available to the nucleus'. So the paper offers a statistical account, not a structural one, and it expects asymmetry to grow with excitation energy. The IAEA yield table already cited shows the reverse: the heavy-peak-to-symmetric-valley ratio falls from 573 at thermal energies to 191 for fast neutrons and 6 at 14 MeV. Sentence rewritten to say what the cited paper actually says and what the cited data actually show; the unsupported 'structural effect' assertion is gone."
+        },
+        {
+          "claim": "The DOE describes a water-cooled reactor in which 'the moderator helps slow down the neutrons produced by fission to sustain the chain reaction' while the same water carries heat away",
+          "sourceChecked": "https://www.energy.gov/ne/articles/nuclear-101-how-does-nuclear-reactor-work",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Natural uranium is 0.7204 per cent uranium-235 by the IAEA abundance table - 'just over 0.7% of natural uranium' in the EIA's phrasing - and commercial fuel raises that to 3-5 per cent",
+          "sourceChecked": "https://www.eia.gov/energyexplained/nuclear/the-nuclear-fuel-cycle.php",
+          "disposition": "verified",
+          "note": "IAEA abundance field for U-235 is 0.7204. EIA page carries both quoted phrases, including '3%-5%'."
+        },
+        {
+          "claim": "Ceramic pellets in tubes 'about 1 centimeter in diameter', 179 to 264 rods per assembly, 121 to 193 assemblies in a core, about a third of the core replaced every 12 to 24 months",
+          "sourceChecked": "https://www.eia.gov/energyexplained/nuclear/the-nuclear-fuel-cycle.php",
+          "disposition": "verified",
+          "note": "All four figures verbatim. Checked specifically that the 1 cm applies to the tubes rather than the pellets, which is how the article states it."
+        },
+        {
+          "claim": "Bromine-87, half-life 55.68 seconds, emits a delayed neutron in 2.6 per cent of its decays; iodine-137, half-life 24.5 seconds, in 7.14 per cent",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=all",
+          "disposition": "verified",
+          "note": "IAEA rows: Br-87 55.68 s with B-N 2.6%; I-137 24.5 s with B-N 7.14%."
+        },
+        {
+          "claim": "Summing the IAEA thermal fission yields against the beta-delayed neutron branching ratios gives roughly 0.016 delayed neutrons per fission",
+          "sourceChecked": "https://www-nds.iaea.org/relnsd/v1/data?fields=independent_fy&parents=235u",
+          "disposition": "qualified",
+          "note": "Carried out the summation the sentence describes, over the IAEA independent thermal yields times the beta-delayed neutron branches in the ground-state table: 0.0145 delayed neutrons per fission, about 10 per cent below the stated 0.016. The dataset does not return the number the sentence attributes to it. Changed to 'on the order of 0.015', which is what the summation gives; the downstream claim, 'well under one per cent of the total neutron production', holds on either figure (0.0145/2.43 = 0.6 per cent)."
+        },
+        {
+          "claim": "More than 65 per cent of US commercial reactors are pressurised-water designs, with roughly a third boiling-water",
+          "sourceChecked": "https://www.energy.gov/ne/articles/nuclear-101-how-does-nuclear-reactor-work",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The EIA reports an average annual capacity factor of 91 per cent for US nuclear plants in 2025",
+          "sourceChecked": "https://www.eia.gov/energyexplained/nuclear/us-nuclear-industry.php",
+          "disposition": "verified",
+          "note": "Live figure, but the article already carries the year the source gives: 'The average annual capacity factor for nuclear power plants in 2025 was 91%.'"
+        },
+        {
+          "claim": "A fleet the EIA gives as 96 operating reactors at 57 plants across 28 states",
+          "sourceChecked": "https://www.eia.gov/energyexplained/nuclear/us-nuclear-industry.php",
+          "disposition": "qualified",
+          "note": "The three counts are right, but this is a continuously revised figure and the article stated it with no date. The EIA sentence is 'As of March 2026, the United States had 96 operating commercial nuclear reactors at 57 nuclear power plants in 28 states.' Live dataset, added temporal qualifier: 'as of March 2026'."
+        },
+        {
+          "claim": "US commercial spent fuel generation is 'about 2,000 metric tons' a year and 'about 90,000 metric tons' cumulatively since the 1950s, stored at more than 70 sites in 35 states, with 'more than 90% of its potential energy still remains in the fuel'",
+          "sourceChecked": "https://www.energy.gov/ne/articles/5-fast-facts-about-spent-nuclear-fuel",
+          "disposition": "verified",
+          "note": "All four statements verbatim on the DOE page."
+        },
+        {
+          "claim": "A calorimetric dataset for five used PWR assemblies covers cooling times from 4.5 to 21.4 years after discharge at burnups of 50.3 to 55.1 MWd/kgU, with heat still measurable at the end of that span",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6926112/",
+          "disposition": "verified",
+          "note": "Five 17x17 PWR assemblies; cooling times 4.5-21.4 years; burnups 50.3-55.1 MWd/kgU; the 21.4-year assembly still raised the calorimeter water several degrees above pool temperature."
+        }
+      ],
+      "openQuestions": [
+        "I read Bohr and Wheeler (1939) from a full-text PDF copy hosted by the University of Puget Sound rather than from the APS site, which is paywalled. Crossref confirms the DOI resolves to the right paper, title, authors, volume and pages, and the PDF is the Physical Review typesetting, but it is a third-party copy.",
+        "The delayed-neutron figure is left as what the cited summation actually returns (0.0145). The directly measured evaluated delayed-neutron yield for thermal fission of uranium-235 is higher, and summation calculations of this kind are generally understood to fall short of measurement because branching ratios far from stability are incomplete. I did not find a source I could read that quantifies that gap, so the article now states the summation result rather than the measured value."
+      ]
+    }
+  ]
+}

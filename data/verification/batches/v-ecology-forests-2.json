@@ -1,0 +1,303 @@
+{
+  "batchId": "v-ecology-forests-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "tropical-forest-ecology",
+      "path": "content/en/ecology/forests/tropical-forest-ecology.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "1,170 plots across the Amazon Basin and Guiana Shield; roughly 16,000 lowland Amazonian tree species; 227 species (1.4 per cent) account for half of all individual trees",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1243092 (science.org returns 403 to scripted clients; read the published PDF at https://forestplots.net/upload/publication-store/2013/Steege/ter%20Steege%20et%20al%202013%20Hyperdominance%20in%20the%20Amazonian%20Tree%20Flora%20Science.pdf plus the Crossref-deposited structured abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the authors noted that a group of species less diverse than the tree flora of North America accounts for half of the most diverse tree community on Earth",
+          "sourceChecked": "https://forestplots.net/upload/publication-store/2013/Steege/ter%20Steege%20et%20al%202013%20Hyperdominance%20in%20the%20Amazonian%20Tree%20Flora%20Science.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "dynamic-mortality CNDD test across 23 sites: stabilising CNDD at all but one site, not stronger toward the tropics, rare and intermediately abundant species more strongly regulated in the tropics only, interspecific variation high but not different by latitude",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-07118-4 (Crossref-deposited full abstract, DOI 10.1038/s41586-024-07118-4)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Evidence consistently indicates that all three operate\" (Janzen-Connell, niche partitioning, neutral theory)",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-07118-4",
+          "disposition": "qualified",
+          "note": "No source in the article establishes that all three mechanisms operate; the 2024 Nature paper establishes only that stabilising CNDD is present at 22 of 23 sites, and neither niche partitioning nor neutral theory is separately sourced anywhere on the page. \"Evidence consistently indicates\" is a consensus claim with nothing behind it. Replaced with \"The three are not mutually exclusive\", which is what the section actually needs and is a statement about the models rather than about the evidence."
+        },
+        {
+          "claim": "nutrient-addition experiment on soil representative of about 60 per cent of the Amazon basin: NPP rose with phosphorus and nothing else; after two years, fine-root production +29 per cent and canopy productivity +19 per cent, but not stem growth",
+          "sourceChecked": "https://www.nature.com/articles/s41586-022-05085-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "if phosphorus constrains productivity, \"it also constrains\" how much these forests can respond to rising atmospheric CO2",
+          "sourceChecked": "https://www.nature.com/articles/s41586-022-05085-2",
+          "disposition": "qualified",
+          "note": "The paper hedges: phosphorus availability \"may restrict Amazon forest responses to CO2 fertilization\". The article stated the consequence as following necessarily from the antecedent. Reworded to \"the authors note that if phosphorus limits productivity it may also restrict\", which is the source's own modality."
+        },
+        {
+          "claim": "about one-third of Amazon rainfall originates within the basin and two-thirds of that recycled fraction has been transpired; the southern half contributes most, the south-west depends most on upwind subsidies",
+          "sourceChecked": "https://www.nature.com/articles/s41558-018-0177-y",
+          "disposition": "verified"
+        },
+        {
+          "claim": "southern Amazon precipitation \"declining by 3.9-5.4 mm per year each year\", an 8-11 per cent fall over 1980-2019, with 52-72 per cent attributed to deforestation",
+          "sourceChecked": "https://www.nature.com/articles/s41467-026-68361-z",
+          "disposition": "qualified",
+          "note": "The 8-11 per cent fall and the 52-72 per cent attribution are exact. The rate is not: the paper says the reduction \"reaches up to 3.9-5.4 mm yr-1 per year\", i.e. a maximum, not a basin-wide rate. Changed to \"the decline in the southern basin reaching up to\". (The DOI looks unusual but is genuine: Nature Communications, published 13 January 2026.)"
+        },
+        {
+          "claim": "45 per cent of world forest area is tropical, and it is \"the only climatic domain\" in which FRA 2025 records sharp declines in growing stock, biomass and carbon since 2000",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/key-findings.html and .../growing-stock-biomass-carbon.html (the cited handle URL, https://openknowledge.fao.org/handle/20.500.14283/cd6709en, is a JavaScript shell; read the report's own chapter pages)",
+          "disposition": "qualified",
+          "note": "45 per cent is exact. \"Only climatic domain\" is not: FRA 2025's key finding reports \"significant gains ... in boreal and temperate forests and sharp declines in tropical forests\" and says nothing about the subtropical domain, so exclusivity is the article's inference, not the assessment's statement. Narrowed to the domain-level contrast the report actually draws."
+        },
+        {
+          "claim": "321 Amazonian plots over three decades: long-term net biomass sink confirmed, rate of net increase down one-third in the most recent decade versus the 1990s, growth increases levelling off while biomass mortality rose persistently",
+          "sourceChecked": "https://www.nature.com/articles/nature14283",
+          "disposition": "verified"
+        },
+        {
+          "claim": "244 intact African plots in 11 countries, sink stable for three decades to 2015 at 0.66 tC/ha/yr (95% CI 0.53-0.79), no detectable multi-decadal mortality trend; intact tropical uptake peaked in the 1990s; African sink 14 per cent smaller by 2030 and Amazonian sink close to zero",
+          "sourceChecked": "https://www.nature.com/articles/s41586-020-2035-0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the African synthesis rests on \"fewer, younger plot records\" than the Amazonian one",
+          "sourceChecked": "https://www.nature.com/articles/s41586-020-2035-0",
+          "disposition": "qualified",
+          "note": "\"Fewer\" is supported (244 African against 321 Amazonian). \"Younger\" as a property of the network is not stated anywhere in the paper; what the paper does say is that Fig. 1 includes \"clusters of plots monitored only in the 2010s, often monitored for a single census interval\". Replaced the unsourced adjective with the plot counts and that specific, sourced characteristic."
+        }
+      ],
+      "openQuestions": [
+        "Daniel Janzen, Joseph Connell and Stephen Hubbell are named in the body as the originators of the hypotheses that carry their names. This is not the \"named individual\" defect the brief targets: the frontmatter attributes to environmental-science-desk, there is no byline, credential or \"reviewed by\" anywhere, and the corpus already names historical scientists in body prose in at least fourteen other English articles (Darwin, Newton, Einstein, Keeling). Left in place; flagging so an editor can rule the other way if the convention is meant to be stricter."
+      ]
+    },
+    {
+      "slug": "boreal-forests-and-permafrost-interactions",
+      "path": "content/en/ecology/forests/boreal-forests-and-permafrost-interactions.md",
+      "status": "amended",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "FAO 2025 puts total forest carbon across all pools at 714 Gt; NOAA's Arctic Report Card puts northern permafrost-region soil and permafrost carbon at no less than 1.4-1.6 trillion tonnes over 16.6 million km2",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/growing-stock-biomass-carbon.html and https://arctic.noaa.gov/report-card/report-card-2024/arctic-terrestrial-carbon-cycling/",
+          "disposition": "qualified",
+          "note": "Both figures are exact (\"714 Gt\"; \"At least 1.4 to 1.6 trillion tonnes\"; permafrost region \"covers 16.6 x 10^6 km2\"). The Arctic Report Card is reissued annually, so the prose named a continuously-updating product with no edition. Added \"2024\", the edition the article's own source list cites, in this sentence and on the 207 Tg C/yr circumpolar fire average further down. Live dataset, added temporal qualifier."
+        },
+        {
+          "claim": "global forest carbon pools: soil organic carbon 329 Gt (46 per cent), aboveground biomass 247 Gt (35 per cent), belowground 65.9 Gt (9 per cent), litter 41.1 Gt (6 per cent), deadwood 30.3 Gt (4 per cent)",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/growing-stock-biomass-carbon.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "each country chooses its soil reporting depth; forest-area-weighted average 41 cm, 30 cm in Asia and Oceania, 32 cm in Europe, 70 cm in North and Central America; soil carbon reported by 77 countries and areas covering 70 per cent of forest area, the rest derived from a global 0-30 cm soil-carbon grid",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/growing-stock-biomass-carbon.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Thickness of the organic layer, rather than latitude, is often what separates a stand with permafrost close to the surface from one without\"",
+          "sourceChecked": "https://www.nature.com/articles/s41467-018-05457-1",
+          "disposition": "resourced",
+          "note": "The claim had no source: nothing in the article's source list covered the insulation paragraph, and the sentence generalised to all boreal stands. The cited peatland paper does carry the point, but regionally: \"With current mean annual air temperatures between 0 degrees C and -5 degrees C, permafrost in this region is largely confined to peatlands due to the insulating properties of peat.\" Rewritten to that scoped statement and source 5's description extended to cover it."
+        },
+        {
+          "claim": "Alaskan boreholes at 15-20 m: permafrost warming 0.3-0.7 degrees C per decade over four decades on the North Slope and 0.02-0.3 degrees C per decade in Interior Alaska, the slower rate reflecting latent-heat absorption near 0 degrees C; in 2024 the highest temperatures on record at 9 of 20 long-term sites",
+          "sourceChecked": "https://arctic.noaa.gov/report-card/report-card-2024/arctic-terrestrial-carbon-cycling/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "radiocarbon dating after the 2014 Northwest Territories fires found no legacy-carbon combustion in stands older than the historic fire-return interval, but did in dry landscapes under 60 years old; roughly 0.34 million hectares of young forest could have experienced it",
+          "sourceChecked": "https://www.nature.com/articles/s41586-019-1474-y",
+          "disposition": "verified"
+        },
+        {
+          "claim": "post-fire soil thermal effects last about 30 years, with a tripled rate of thermokarst bog expansion; 2,200 +/- 1,500 km2 of thermokarst bog development over 30 years, about a quarter of all such expansion in the study region",
+          "sourceChecked": "https://www.nature.com/articles/s41467-018-05457-1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "post-fire black spruce resilience was the most common outcome, but drier conditions and more severe fire consistently undermined it, \"in some cases\" producing complete regeneration failure",
+          "sourceChecked": "https://www.pnas.org/doi/full/10.1073/pnas.2024872118 (pnas.org returns 403 to scripted clients; read the Crossref-deposited significance statement and the Europe PMC abstract record, PMC8609439)",
+          "disposition": "corrected",
+          "note": "The article hedged below its source. PNAS says resilience \"was the most common outcome, but drier climatic conditions and more severe fires consistently undermine resilience, often resulting in complete regeneration failure\", and the abstract quantifies it: complete spruce regeneration failure at 18 per cent of 1,140 black spruce sites. \"In some cases\" understated \"often\"; changed to \"often\" and the 18 per cent figure added."
+        },
+        {
+          "claim": "circumpolar wildfire emissions averaging 207 Tg C/yr since 2003; largest years 2003 (343 Tg C) and 2023 (478 Tg C); Canadian permafrost-region fires in 2023 burned more than twice the area of any previous year and emitted 381 Tg C; 2004-2023 burned area 28 per cent above the 1981-2000 average and 62 per cent above 1971-1990",
+          "sourceChecked": "https://arctic.noaa.gov/report-card/report-card-2024/arctic-terrestrial-carbon-cycling/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the pan-Arctic permafrost region was CO2 neutral over 2001-2020 at -24 +/- 123 Tg C/yr; tundra has shifted from a millennia-long sink to a small source while boreal remains a sink; methane source of 15-39 Tg CH4-C/yr over 2000-2020",
+          "sourceChecked": "https://arctic.noaa.gov/report-card/report-card-2024/arctic-terrestrial-carbon-cycling/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "13 long-term eddy-covariance sites with 6-17 years of data each are explicitly not representative of the biomes they sit in, and regional-scale disturbance is excluded from them",
+          "sourceChecked": "https://arctic.noaa.gov/report-card/report-card-2024/arctic-terrestrial-carbon-cycling/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a three-decade in-situ plot synthesis found the boreal forest carbon sink down 36 +/- 6 per cent, attributed to intensified disturbance",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-07602-x",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AR6 states with high confidence that thawing terrestrial permafrost will release carbon but with low confidence in timing, magnitude and the CO2/CH4 split; 3-41 PgC per 1 degree C of warming by 2100, with low confidence attributed to incomplete representation of abrupt thaw plus weak observational constraints",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "\"Mosses, lichens and the accumulated organic mat ... are poor conductors of heat, and when dry they are poorer still\" is left unsourced. It is standard soil thermal physics and I treated it as background rather than a claim needing a citation, but it is the one sentence in the article with no source behind it.",
+        "The boreal and tropical articles in this batch share a section skeleton: a paired-numbers opening, a comparison table or equivalent, and a closing \"what this record cannot settle\" section. Not egregious enough to restructure in a verification pass, but worth an editor's eye if more forest articles follow the same shape."
+      ]
+    },
+    {
+      "slug": "forest-disturbance-fire-insects-windthrow",
+      "path": "content/en/ecology/forests/forest-disturbance-fire-insects-windthrow.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "FRA 2025 asked countries to report forest area damaged annually 2000-2023 by insects, disease, severe weather and other causes, then stated that given the patchy data it was not possible to estimate the total forest area affected by disturbances globally",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "fire suppression and landscape fragmentation from higher population density enhanced land carbon uptake by 0.13 Pg C/yr over 1960-2009, about 19 per cent of a land sink then estimated at 0.7 +/- 0.6 Pg C/yr; burned area declining since the 1930s consistent with charcoal and satellite records",
+          "sourceChecked": "https://www.nature.com/articles/s41467-018-03838-0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "frequency of energetically extreme wildfires (>= 99.99th percentile of daily FRP clusters, 21 years of satellite data) increased 2.2-fold from 2003 to 2023, six most extreme years in the last seven; total burned area may be declining while fire behaviour worsens in boreal and temperate conifer biomes",
+          "sourceChecked": "https://www.nature.com/articles/s41559-024-02452-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "insect series: 45 countries and areas at 47 per cent of world forest area, 2002-2020, average 34.1 Mha/yr, low 25.4 Mha in 2011, high 43.9 Mha in 2019; North and Central America 98 per cent coverage and 24.5 Mha/yr, Asia 46 per cent and 8.54 Mha, Europe 88 per cent and 816,000 ha (479,000 to 1.43 million); Africa, Oceania, South America at about 1 per cent or less",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "an assessment of the British Columbia mountain pine beetle outbreak \"estimated a cumulative impact of 270 megatonnes of carbon over 2000-2020\", 36 g C/m2/yr across 374,000 km2, converting the forest from a small sink to a large source; worst year about 75 per cent of Canada's average annual direct forest fire emissions 1959-1999",
+          "sourceChecked": "https://www.nature.com/articles/nature06777",
+          "disposition": "qualified",
+          "note": "Every figure is exact, but the tense was misleading. The paper is from 2008 and the sentence is prospective: \"we estimate that the cumulative impact of the beetle outbreak in the affected region during 2000-2020 will be 270 megatonnes\". As written a reader would take it for a measured retrospective covering a period that has now closed. Changed to \"A 2008 assessment ... projected\"."
+        },
+        {
+          "claim": "severe weather: 35 countries at 30 per cent of world forest area, 2002-2020 average 6.96 Mha/yr, high 9.24 Mha in 2019, low 1.94 Mha in 2020; Europe averaging 739,000 ha and peaking at 1.49 million ha in 2005",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Germany reported that its severe-weather damage figure \"is probably an underestimate\" because part of the damage was recorded in cubic metres and could not be converted to area",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "qualified",
+          "note": "FRA 2025 records that the figure \"could be underestimated\". \"Probably\" upgrades a possibility the reporting country stated conditionally into a likelihood. Changed to \"could be an underestimate\"."
+        },
+        {
+          "claim": "continental Europe 1986-2016: 17 per cent of forest area disturbed, 36 million patches at mean 1.09 ha, 0.52 patches per km2 of forest per year, majority stand-replacing; frequency increased and severity decreased -- \"more, smaller events rather than fewer, larger ones\"",
+          "sourceChecked": "https://www.nature.com/articles/s41893-020-00609-y",
+          "disposition": "corrected",
+          "note": "The counts, the mean patch size, the per-km2 rate, the stand-replacing majority and the frequency/severity directions are all exact. The gloss is not: the paper says \"While trends in disturbance size were highly variable, disturbance frequency consistently increased and disturbance severity decreased.\" It explicitly declines to report a size trend, so \"more, smaller events\" asserts the one thing the paper says it could not resolve. Replaced with the paper's own statement about size variability."
+        },
+        {
+          "claim": "a global synthesis finds warmer/drier conditions favour fire, drought and insects while warmer/wetter favour wind and pathogens; interactions amplify, indirect vegetation effects dampen, largest changes in coniferous forests and the boreal biome",
+          "sourceChecked": "https://www.nature.com/articles/nclimate3303",
+          "disposition": "verified"
+        },
+        {
+          "claim": "fire reporting method mix: land area affected 49 per cent remote sensing and 45 per cent registers and statistics; forest area affected 53 per cent registers and 40 per cent remote sensing",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO and UNEP launched a Global Fire Management Hub in 2023 whose data priorities include harmonising global with national datasets and separating wildfire from prescribed and cultural burning",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The article's table row \"Insects | ... | overlapping species maps can double-count\" is supported by FRA 2025's Canada note (defoliation mapped per insect species, so \"there might be double or triple counting\"), and \"Disease | ... | symptoms of root disease are hard to detect at all\" by its Canada note on root disease. Both checked and sound, but they rest on a single country's remark rather than a general finding."
+      ]
+    },
+    {
+      "slug": "reforestation-and-tree-planting-evidence",
+      "path": "content/en/ecology/forests/reforestation-and-tree-planting-evidence.md",
+      "status": "clean",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "the July 2019 Science report mapped additional tree cover outside existing forest, farmland and urban land: 0.9 billion hectares, a more than 25 per cent increase in forested area, more than 200 Gt of additional carbon at maturity, compared to a quarter of the current atmospheric carbon pool",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.aax0848 (science.org 403s scripted clients; read the Crossref-deposited editor's summary, which carries all four figures verbatim)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "five technical comments within five months, responses from the authors, and a May 2020 erratum covering both the report and the authors' technical response",
+          "sourceChecked": "Crossref work records for 10.1126/science.aay7976, aay8060, aay8334, aaz0388, aaz0111 (the five comments, 18 October and 29 November 2019), aay8108 and aaz0493 (the two responses), and abc8905 (erratum, 29 May 2020, whose title names both the Report and the Technical Response)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "one comment attacked the carbon figure, reported as 205 gigatonnes of carbon, as inconsistent with the dynamics of the global carbon cycle and its response to human CO2 emissions",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.aay8060 (abstract only, via Crossref and Europe PMC; the full comment is not open access)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a second comment put the overestimate at roughly a factor of five for three reasons: inflated soil organic carbon gains, no safeguard against warming from trees at high latitudes and elevations, and treating savannas, grasslands and shrublands as land needing restoration to forest",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.aay7976 (full text read from the University of Pretoria repository copy, https://repository.up.ac.za/bitstreams/8b216207-db94-4a06-a96a-6571a6855821/download)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "three further technical comments were published in the same period, and the original authors replied to all of them maintaining that their estimates were accurate",
+          "sourceChecked": "Crossref records for 10.1126/science.aay8334, aaz0388, aaz0111; and the response abstracts at 10.1126/science.aay8108 (\"we show that our original estimations are accurate\") and 10.1126/science.aaz0493",
+          "disposition": "verified"
+        },
+        {
+          "claim": "grassy biomes are ancient, maintained by fire and grazing rather than degraded by them, carry communities a closed canopy would eliminate, and hold much of their carbon below ground so the net carbon gain is smaller than an aboveground calculation implies",
+          "sourceChecked": "https://repository.up.ac.za/bitstreams/8b216207-db94-4a06-a96a-6571a6855821/download (Veldman et al., full text)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "92 per cent of the world's forest (3.83 billion ha) is naturally regenerating; planted forest covers 312 million ha or 8 per cent, of which 158 million ha is plantation forest, just over half the planted area and roughly 4 per cent of all forest",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/forest-characteristics.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 30 m pantropical assessment identified 215 million hectares with natural regeneration potential and an aboveground sequestration potential of 23.4 Gt C over 30 years (range 21.1-25.7); Brazil, Indonesia, China, Mexico and Colombia account for 52 per cent; planting into degraded landscapes is popular but costly and under similar conditions yields less biodiverse forest",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-08106-4",
+          "disposition": "verified"
+        },
+        {
+          "claim": "simulations published in 2000 converted albedo forcing into equivalent carbon stock and found that in many boreal areas the positive forcing from reduced reflectivity can offset the negative forcing expected from carbon uptake, so some high-latitude afforestation may add to warming",
+          "sourceChecked": "https://www.nature.com/articles/35041545",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 2025 review of afforestation in the Canadian northern boreal and southern Arctic finds biogeochemical and biogeophysical gaps wide enough to prevent a definitive assessment of net climate benefit, and proposes a framework requiring multiple forcing components, temporal analysis, future climatic context and implementation detail",
+          "sourceChecked": "https://www.nature.com/articles/s41467-025-56699-9",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 2025 dataset covering 1,289,068 planting sites from 45,628 projects across 33 years scored sites on ten location-data-integrity indicators; about 79 per cent of monitored georeferenced sites fail at least one, and 15 per cent of monitored projects lack machine-readable georeferenced data; effectiveness is often self-reported or certified with limited external validation",
+          "sourceChecked": "https://www.nature.com/articles/s41597-025-05930-9",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1990-2025: naturally regenerating forest fell by 324 million ha while planted forest rose by 120 million ha, of which 71.3 million ha was plantation; net loss of natural forest slowed from 13.8 to 6.97 million ha a year; planted expansion slowed from a peak of 4.04 million ha a year in 2000-2015 to 2.82 million",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/forest-characteristics.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The Friedlingstein et al. comment is not open access and I could read only its abstract (via Crossref and Europe PMC). The abstract carries the article's first sentence exactly. The article's following gloss -- that carbon accumulating in new biomass does not remove an equal quantity from the atmosphere because the ocean and existing land sinks partly re-equilibrate -- is presented as the article's own explanation rather than as the comment's words, and is standard carbon-cycle bookkeeping, but I could not confirm it against the comment's own text. Exeter's repository copy returns an empty 202 to scripted clients."
+      ]
+    }
+  ]
+}

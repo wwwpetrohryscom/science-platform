@@ -1,0 +1,242 @@
+{
+  "batchId": "v-ecology-forests-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "forest-ecosystems-explained",
+      "path": "content/en/ecology/forests/forest-ecosystems-explained.md",
+      "status": "clean",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "FAO defines forest as land spanning more than 0.5 ha with trees higher than 5 m and canopy cover above 10 percent, or trees able to reach these thresholds in situ, excluding land predominantly under agricultural or urban use; clear-felled land expected to regenerate within about five years still counts; rubber-wood, cork oak and Christmas tree plantations are inside the category while oil palm, fruit orchards and olive groves are outside it",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/a6e225da-4a31-4e06-818d-ca3aeadfd635/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Other wooded land is canopy cover of 5-10 percent or combined shrub/bush/tree cover above 10 percent; the 2025 assessment puts it at 1.09 billion ha, 8 percent of global land area, and notes the 5-10 percent canopy band is the hardest for countries to measure",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/forest-extent-and-change.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The European Environment Agency reports forests and other wooded areas together at around 40 percent of the European land surface",
+          "sourceChecked": "https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Under the Marrakesh Accords each industrialised (Annex I) party selects a single minimum crown cover between 10 and 30 percent, a single minimum area between 0.05 and 1.0 hectare, and a single minimum tree height between 2 and 5 metres",
+          "sourceChecked": "https://unfccc.int/resource/docs/cop7/13a01.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Forest covers 4.14 billion ha, close to a third of global land area and about 0.50 ha per person; 45 percent tropical, 28 percent boreal, 17 percent temperate, 11 percent subtropical; five countries hold 54 percent and the ten largest about two-thirds",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/forest-extent-and-change.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Category table: naturally regenerating 3.83 billion ha (92%); primary forest at least 1.18 billion ha (29%); planted forest 312 million ha (8%); plantation forest about half of planted area; forest within protected areas 813 million ha (20%)",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/key-findings.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Primary forest lost at 1.61 million ha/yr over 2015-2025, less than half the 3.92 million ha/yr for 2000-2015; Europe holds the largest area of primary forest at 311 million ha because the Russian Federation dominates the European total",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/forest-characteristics.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fire affected an average of 261 million ha of land annually over 2007-2019, almost half of it forested; about 123 million ha of forest was affected in 2019, 79 percent subtropical and 8 percent boreal; insects, diseases and severe weather damaged roughly 41 million ha in 2020, mainly temperate and boreal",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/key-findings.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Insect-damage reporting for 2020 came from 60 countries covering 49 percent of world forest area; Canada's 17.8 million ha is flagged as potentially double- or triple-counted across insect species; patchy data made it impossible to estimate total disturbance area globally",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The global forest carbon sink was 3.6 +/- 0.4 PgC/yr in the 1990s and 2000s and 3.5 +/- 0.4 in the 2010s; sinks strengthened in temperate (+30 +/- 5%) and tropical regrowth (+29 +/- 8%) forests as forest area increased and weakened in boreal (-36 +/- 6%) and intact tropical (-31 +/- 7%) forests; the sink equals almost half of fossil-fuel emissions over 1990-2019, with two-thirds of the benefit negated by tropical deforestation",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-07602-x",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The fire sentence reproduces FRA 2025's key-findings wording exactly, but the assessment's own disturbances chapter is internally inconsistent with it: the chapter gives an average of 127 million ha of forest affected annually over 2007-2019 (168 countries, 86 percent of forest area) and separately reports that, among the 134 countries reporting both land and forest burned area, forest accounted for an average of 33 percent of the burned land area. The 'almost half (49 percent) of this area was forested' framing compares two estimates built from different country samples. Left as FAO states it, but an editor may want to prefer the chapter figure.",
+        "The FIA sentence in this article and the FIA sentence in forest-carbon-measurement.md are near-verbatim duplicates of one another; likewise the FRA coverage caveat (42 desk studies / 1.6 percent / aggregates not reproducible) appears in near-identical wording in three of the four articles in this batch. Not restructured — flagged as template sameness."
+      ]
+    },
+    {
+      "slug": "deforestation-statistics-explained",
+      "path": "content/en/ecology/forests/deforestation-statistics-explained.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "FAO deforestation rate 10.9 million ha/yr for 2015-2025 and net forest loss 4.12 million ha/yr for the same decade",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/forest-extent-and-change.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global tree cover loss of 25.5 million ha in 2025 and tropical primary rainforest loss of 4.3 million ha in 2025, from the UMD/WRI satellite record",
+          "sourceChecked": "https://gfr.wri.org/latest-analysis-deforestation-trends",
+          "disposition": "qualified",
+          "note": "Live dataset, added temporal qualifier. Both figures are supported verbatim, but the tree-cover-loss record is reprocessed and a data year is not a release. The WRI page carries the release date it was published under ('updated April 29, 2026'), so the lead bullets now read 'in its update of 29 April 2026' and 'from the same release'. No figure was changed."
+        },
+        {
+          "claim": "The record is periodically reprocessed, so a figure for a given year can change between dataset versions without anything having happened in the world",
+          "sourceChecked": "https://gfr.wri.org/data-methods (also read https://www.globalforestwatch.org/blog/data-and-tools/tree-cover-loss-satellite-data-trend-analysis/)",
+          "disposition": "resourced",
+          "note": "Carried no citation anywhere in the article, so it read as an unsourced assertion about a dataset's behaviour. Two pages were read. Global Forest Watch's note on how the data has changed records algorithm improvements from 2013 and again from 2015, small additions to the 2011 and 2012 data, and a 'version 2.0' reprocessing from 2001 onward in preparation. The Global Forest Review's own Data and Methods page states that 2011-25 were produced as annual updates while 2001-12 were produced as a block, that recent years are more sensitive because of Landsat 8 (2013) and a method improvement (most notably 2015), and that 'comparisons between older and more recent data should be performed with caution'. Neither page states in terms that a published figure for a given year is later restated, so the sentence was narrowed to the annual rebuild, the change in detection sensitivity and the publisher's own caution, and cited to the Global Forest Review page (added as source 9). The stronger 'a figure for a given year can change between dataset versions' wording was dropped."
+        },
+        {
+          "claim": "Definitions applied by the satellite series: tree cover is vegetation taller than five metres reported above a 30 percent canopy-density threshold; tree cover loss is removal or mortality from any cause including harvest, fire, storm and disease; tree cover gain does not equate to restoration",
+          "sourceChecked": "https://gfr.wri.org/global-tree-cover-loss-data-2024",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO defines deforestation independently of whether it is human-induced and includes permanent reduction of canopy below the 10 percent threshold by disturbance or changing environmental conditions, while excluding harvesting or logging where the stand is expected to regenerate; under the Kyoto Protocol deforestation is the direct human-induced conversion of forested land to non-forested land",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/a6e225da-4a31-4e06-818d-ca3aeadfd635/content and https://unfccc.int/resource/docs/cop7/13a01.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fires accounted for 42 percent of the 25.5 million hectares of global tree cover loss in 2025",
+          "sourceChecked": "https://gfr.wri.org/latest-analysis-deforestation-trends",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The primary-forest mask exists only for the humid tropics; temperate and boreal regions substitute intact forest landscapes larger than 50,000 hectares as a proxy, and the methodology notes that primary and managed forest cannot be reliably separated there because they look alike in the imagery",
+          "sourceChecked": "https://gfr.wri.org/forest-extent-indicators/primary-forest-loss",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The method's original description mapped 2.3 million square kilometres of loss and 0.8 million square kilometres of gain for 2000-2012 at 30 metre resolution",
+          "sourceChecked": "https://api.crossref.org/works/10.1126/science.1244693 (Crossref-deposited abstract for Hansen et al. 2013, Science 342:850)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Net forest loss fell from 10.7 million ha/yr in 1990-2000 to 3.68 million in 2000-2015 then rose to 4.12 million in 2015-2025 while deforestation kept falling (17.6, 13.6, 10.9 million ha/yr); expansion slowed from 9.88 to 6.78 million ha/yr; China's net gain fell 2.22 to 1.69 million ha/yr, Canada's 513,000 to 82,500, and the United States moved from about 430,000 ha/yr net gain to 120,000 net loss; 489 million ha deforested since 1990, 88 percent of it tropical, with South America's rate roughly halved",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/forest-extent-and-change.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Science.org blocks scripted clients (403), so Hansen et al. 2013 was read as the Crossref-deposited abstract (the journal's editor's summary) rather than the article page. The loss and gain areas, the 30 m resolution and the 2000-2012 period are all stated there; the article's characterisation of the underlying method as image-time-series differencing was not checked against the full text.",
+        "FRA 2025 itself gives the United States' 2000-2015 net gain as 437,000 ha/yr in one paragraph and 430,000 ha/yr in another. The article's 'roughly 430,000' matches the second; the discrepancy is FAO's, not the article's.",
+        "'A widely repeated framing sets a satellite single-year gross tree cover loss figure against an FAO decadal net change figure and reports the difference as a discrepancy in the science' is an editorial characterisation with no source and no specific instance named. Left in place as framing rather than fact, but it is the one sentence in the article shaped like a claim with nothing behind it."
+      ]
+    },
+    {
+      "slug": "forest-carbon-measurement",
+      "path": "content/en/ecology/forests/forest-carbon-measurement.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "Five-pool table: soil organic carbon 329 Gt (46%, 77 countries, 70% of forest area); aboveground biomass 247 Gt (35%, 215, ~100%); belowground 65.9 Gt (9%, 215, ~100%); litter 41.1 Gt (6%, 75, 66%); deadwood 30.3 Gt (4%, 101, 78%); total 714 Gt, about 172 t/ha",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/growing-stock-biomass-carbon.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The pantropical allometric model was fitted to 4,004 harvested stems of at least 5 cm diameter at 58 sites; with diameter, height and wood specific gravity included one model holds across tropical vegetation types with no detectable regional effect; where height is missing a bioclimatic stress variable outperforms earlier height-free models, and the authors advise developing local diameter-height relationships to minimise bias",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/24817483/ (Chave et al. 2014, Global Change Biology, full abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The IPCC default carbon fraction of dry matter is 0.47 t C per t dry matter, and the guidelines' worked example uses a root-to-shoot ratio of 0.29 for stands carrying 50 to 150 t of aboveground biomass per hectare",
+          "sourceChecked": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/4_Volume4/V4_04_Ch4_Forest_Land.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Living biomass of 647 Gt carrying 313 Gt of carbon implies a ratio close to 0.48",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/growing-stock-biomass-carbon.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "US inventory plots are remeasured every five to ten years depending on location, capturing site and tree data for living and standing dead stems, with down woody material, soils and understorey vegetation on a subset",
+          "sourceChecked": "https://research.fs.usda.gov/programs/fia",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GEDI fires three lasers producing eight ground transects of roughly 25 m footprints spaced about 60 m along-track, transects about 600 m apart for an across-track swath near 4.2 km; the L4B product infers mean aboveground biomass density for 1 km cells against a requirement that 80 percent of cells fall within a standard error of either 20 t/ha or 20 percent, whichever is greater; coverage runs to about 51.6 degrees north and south; uncertainty decomposes into field-to-lidar model covariance and sampling variance. ESA's Biomass launched 29 April 2025 with the first P-band SAR in orbit, a 12 m antenna at 666 km",
+          "sourceChecked": "https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass.html and https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Biomass",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Countries report soil organic carbon to a depth of their own choosing; the forest-area-weighted global average is 41 cm, with regional figures from 30 cm in Asia and Oceania and 32 cm in Europe to 70 cm in North and Central America; non-reporting countries were filled from a 1 km global soil-carbon grid covering only the top 30 cm",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/growing-stock-biomass-carbon.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The inventory guidelines' uncertainty assessment cites basic wood density at 10 to 40 percent, growing stock at about 8 percent in industrialised countries and 30 percent elsewhere, forest area at roughly 3 percent in industrialised countries, and a combination of remote sensing with ground survey at 10 to 15 percent",
+          "sourceChecked": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/4_Volume4/V4_04_Ch4_Forest_Land.pdf",
+          "disposition": "qualified",
+          "note": "The first three figures are stated as written (wood density 10-40 percent and growing stock 8/30 percent from the FAO 2006 estimates cited at section 4.2.1.5; forest area 'approximately 3%' for industrialized countries at 4.2.1.5 activity data). The fourth was not: the guidelines say a combination of remote sensing and ground surveys 'could have an uncertainty as low as 10-15%', which is a best case, not a typical value. Presenting a floor as a point estimate understated the error budget in a paragraph whose whole point is that the error budget is larger than it looks. Reworded to 'that it says could be as low as 10 to 15 percent'."
+        },
+        {
+          "claim": "For a project claiming a specific tonnage on a specific parcel, the confidence interval is often wider than the claimed effect",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/growing-stock-biomass-carbon.html and https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/4_Volume4/V4_04_Ch4_Forest_Land.pdf",
+          "disposition": "qualified",
+          "note": "No source cited in the article — or found while checking it — quantifies project-level confidence intervals against project-level claimed effects, so 'often wider than the claimed effect' was a numerical-sounding assertion resting on nothing. What the sources do support is that the uncertainty is inherited from every upstream step and is largest in the soil pool and where default rather than locally fitted factors are used. Narrowed to that; the argument of the section is unchanged."
+        }
+      ],
+      "openQuestions": [
+        "IPCC AR6 WG1 Chapter 5 attaches 'medium confidence' to the 445 +/- 20 PgC and 240 +/- 70 PgC cumulative figures. The article gives the numbers and the six-fold relative-uncertainty comparison (both check out: 4.5 percent against 29 percent) but does not carry the confidence label. Not treated as a defect, since the article is discussing the uncertainty itself rather than asserting the central values.",
+        "'Belowground biomass is almost always inferred from the aboveground figure rather than dug up' is consistent with IPCC Tier 1 practice and with FRA 2025's statement that default IPCC conversion factors were applied in many cases, but no source quantifies 'almost always'. Left as written."
+      ]
+    },
+    {
+      "slug": "forest-degradation-vs-deforestation",
+      "path": "content/en/ecology/forests/forest-degradation-vs-deforestation.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "Degradation is invisible to the accounting that governs the headline numbers, and it is probably the larger process",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html and https://www.nature.com/articles/s41558-021-01026-5",
+          "disposition": "qualified",
+          "note": "The evidence that degradation is the larger process is the Brazilian Amazon result (73 percent of gross aboveground-carbon loss against 27 percent for deforestation, 2010-2019) plus the Science review of the same basin. No global comparison exists — FRA 2025 states that patchy data made it impossible to estimate the total forest area affected by disturbance globally, and the article's own later paragraph says an Amazonian ratio is not a global one. The opening therefore asserted globally what the article itself scopes regionally four sections later. Changed to 'where the two have been measured against each other — so far, mainly in the Amazon — it is the larger process.'"
+        },
+        {
+          "claim": "The 2025 assessment instructed national correspondents, in the reporting specification itself, that degraded forest was 'to be defined by the country'",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/a6e225da-4a31-4e06-818d-ca3aeadfd635/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Information on national definitions was obtained for 214 countries and areas covering more than 99 percent of global forest area; 59 holding about 37 percent had an official national definition; 17 more had adopted a definition from elsewhere or built operational criteria; the 74 submitted texts split into a disturbance-listing family and a larger consequence-listing family",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Change in forest structure or decrease in forest canopy' appears in 68 percent of the submitted definitions, 'loss of carbon, biomass and growing stock' in 45 percent, 'loss of productivity and forest goods' in 35 percent, and nearly 60 percent combine more than one criterion",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An FAO-led taskforce has been convened to converge on an international definition for future assessment cycles",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/2dee6e93-1988-4659-aa89-30dd20b43b15/content/FRA-2025/disturbances.html",
+          "disposition": "qualified",
+          "note": "The assessment says 'The collected data will guide an FAO-led taskforce – comprising FAO Member Nations, FAO and other international entities, and other experts – to establish an international definition of forest degradation for future FRA cycles.' That is a stated intention in the future tense; 'has been convened' asserts that the body already exists and is sitting, which the source does not say. Reworded to attribute the plan to the assessment."
+        },
+        {
+          "claim": "The European Commission's tropical moist forest dataset is built from 43 years of Landsat imagery at 0.09 hectare resolution and distinguishes deforestation ('a change in land cover (from forest to non-forested land)') from degradation ('a temporary disturbance in a forest remaining forested such as selective logging, fires and unusual weather events'), each event characterised by timing and intensity",
+          "sourceChecked": "https://forobs.jrc.ec.europa.eu/TMF",
+          "disposition": "verified"
+        },
+        {
+          "claim": "17 percent of tropical moist forest had disappeared since 1990, leaving 1,071 million hectares in 2019 of which 10 percent was degraded, and initial degradation preceded outright clearance in 45 percent of cases",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1126/sciadv.abe1603%22 (Europe PMC record PMC7935368 for Vancutsem et al. 2021, Science Advances, full abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Brazilian Amazon 2010-2019: cumulative gross loss of 4.45 PgC against gross gain of 3.78, net loss 0.67 PgC, with 73 percent of gross loss attributed to degradation and 27 percent to deforestation; roughly 2.5 million square kilometres of Amazon forest (38 percent of what remains) disturbed, emissions up to 0.2 PgC/yr against 0.06-0.21 PgC/yr from deforestation, dry-season evapotranspiration reduced by up to 34 percent and biodiversity loss in human-modified landscapes comparable to clearance; independently, inventory work finds the intact tropical sink weakening by 31 +/- 7 percent",
+          "sourceChecked": "https://www.nature.com/articles/s41558-021-01026-5, https://api.crossref.org/works/10.1126/science.abp8622 and https://www.nature.com/articles/s41586-024-07602-x",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "All three journal claims were checked against publisher or repository abstracts, not full texts: Nature Climate Change and Nature are paywalled beyond the abstract, and Science.org returns 403 to scripted clients so the Lapola et al. review was read as the Crossref-deposited abstract. Every figure the article attributes to them appears in those abstracts verbatim; nothing behind the paywall was checked, including the article's characterisation of the Nature Climate Change work as a 'satellite-biomass analysis' and of the Science paper as a 'synthesis'.",
+        "The claim that radar and lidar are better suited to detecting partial disturbance because both respond to vertical structure is a mechanism statement with no citation in this article. It is supported by the ESA Biomass rationale cited in the sibling carbon-measurement article, but not from within this one."
+      ]
+    }
+  ]
+}

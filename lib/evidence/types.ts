@@ -52,11 +52,17 @@ export type VerificationStatus =
   /** Confirmed gone. Nothing should cite it. */
   | "dead";
 
-/** One article's use of one source. */
+/** One page's use of one source. */
 export type EvidenceUse = {
-  /** Article slug that cites it. */
+  /**
+   * Where the citation lives. Glossary entries cite sources too, and a
+   * registry built only from articles left those URLs unregistered —
+   * which is exactly where an unchecked link accumulates unnoticed.
+   */
+  kind: "article" | "glossary";
+  /** Article slug, or glossary term slug. */
   slug: string;
-  /** `<category>/<subtopic>`, or "insights". */
+  /** `<category>/<subtopic>`, "insights", or "glossary". */
   section: string;
   /**
    * What the citation says this source supports, taken verbatim from

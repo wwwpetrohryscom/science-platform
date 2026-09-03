@@ -1,0 +1,249 @@
+{
+  "batchId": "v-ecology-conservation-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "rewilding-evidence-and-limits",
+      "path": "content/en/ecology/conservation/rewilding-evidence-and-limits.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "Ten guiding principles published in Conservation Biology, assembled from a survey of 59 rewilding specialists and workshops involving more than 100 participants, describing rewilding as a continuum of scale, connectivity and human influence aimed at self-sustaining nature",
+          "sourceChecked": "https://eprints.whiterose.ac.uk/id/eprint/172424/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The IUCN Commission on Ecosystem Management condensed the ten principles into five guidelines in 2025; one of the five turns on evidence and monitoring, and the document notes that standard monitoring guidance is still lacking",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/2025-032-En.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The third guiding principle asks projects to work from an appropriate ecological reference while conceding that any reference point is ultimately arbitrary but should be self-sustaining and resilient; the same document lists shifting baseline syndrome in its glossary",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/2025-032-En.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Sampling the five tallest young stems overestimated overstory aspen regeneration by a factor of four to seven relative to random sampling; the practice appeared across roughly a dozen peer-reviewed publications over more than a decade; stems were assumed safe above 200 cm whereas escape looked uncertain until roughly 400 cm; random sampling still described a cascade, only a weaker one",
+          "sourceChecked": "https://par.nsf.gov/servlets/purl/10377598",
+          "disposition": "verified"
+        },
+        {
+          "claim": "JRC projected net EU agricultural land abandonment of 4.2 million hectares between 2015 and 2030, about 280,000 ha a year, total 5.6 million ha or roughly 3 per cent of agricultural land; about 11 per cent of EU farmland (more than 20 million ha) at high potential risk; Spain and Poland together about a third of the projected loss",
+          "sourceChecked": "https://publications.jrc.ec.europa.eu/repository/handle/JRC113718",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Roughly one-third of mainland Europe hosts at least one of brown bear, Eurasian lynx, grey wolf or wolverine, with stable or increasing abundance in most twenty-first-century records, achieved largely in shared human-dominated landscapes rather than in reserves",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1257553 (science.org returned 403; read the published abstract via the OpenAlex record for 10.1126/science.1257553 and the journal's editor's summary)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "ICMO2 reported in 2010 that the reserve's boundaries and initial foundation are man-made but most internal processes parallel natural ecosystems; that herbivore numbers began to approach population-based carrying capacity after 2000, mortality rose and became more variable with winter severity and density, and average body condition declined over the preceding decade; recommendations included early reactive culling from mid-December, additional shelter and a corridor to neighbouring woodland",
+          "sourceChecked": "https://www.staatsbosbeheer.nl/-/media/oostvaardersplassen/oostvaardersplassen-beheer/2010nov-icmo2-rapport-oostvaardersplassen-en.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A Biological Conservation scoping review found real growth in the outcome literature with a geographical bias towards the Netherlands and Scandinavian countries, repeated the theory-led-rather-than-evidence-led criticism, and cautioned against a single standardised success metric; an earlier PNAS synthesis found empirical trophic-rewilding research rare, fragmented and geographically biased, with the literature dominated by essays and opinion pieces",
+          "sourceChecked": "https://www.sciencedirect.com/science/article/pii/S0006320723003440 and https://www.pnas.org/doi/10.1073/pnas.1502556112 (both publishers returned 403; read the published abstracts via the OpenAlex records for 10.1016/j.biocon.2023.110243 and 10.1073/pnas.1502556112)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "science.org, sciencedirect.com and pnas.org all refuse scripted clients (403). For Chapron et al. 2014, the Biological Conservation scoping review and the PNAS trophic-rewilding synthesis I read the full published abstract via the OpenAlex record for each DOI, not the article body. Every figure the article attributes to these three papers sits in the abstract, so the check is sound, but I did not read their methods or results sections.",
+        "The scoping review's abstract says standardising the assessment of rewilding success 'should be approached with caution'; the article renders this as 'argued against forcing a single standardised success metric'. I judged that a fair reading rather than a strengthening, since the reason given (site-specific, self-defining outcomes) is the review's own. A stricter editor might prefer the source's own hedge."
+      ]
+    },
+    {
+      "slug": "endangered-species-recovery-programmes",
+      "path": "content/en/ecology/conservation/endangered-species-recovery-programmes.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "The IUCN's 2013 guidelines cover the full spectrum of conservation translocations and address justification, design and implementation",
+          "sourceChecked": "https://iucn.org/resources/publication/guidelines-reintroductions-and-other-conservation-translocations",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A global systematic review of 514 translocations of terrestrial vertebrates used both a categorical success classification and population growth rate; both rose with the number of individuals released with diminishing returns above roughly 20 to 50 animals; categorical success rose through the twentieth century and appears to have plateaued near 75 per cent since about 1990; outcomes were better in Europe and North America and worse in Oceania; the review recommends greater investment per project",
+          "sourceChecked": "https://www.sciencedirect.com/science/article/pii/S2351989421001803 (ScienceDirect returned 403; read the published abstract via the OpenAlex record for 10.1016/j.gecco.2021.e01630)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A genetic-rescue meta-analysis screened 156 cases judged low risk of outbreeding depression and found beneficial effects in 92.9 per cent; median composite fitness gain 148 per cent in stressful environments and 45 per cent in benign ones; only around 20 conservation outcrossings had then been published, treated as a very low proportion of populations that would benefit",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/25740414/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Eight female pumas were moved from Texas to southern Florida in 1995; panther numbers increased roughly threefold, heterozygosity doubled and inbreeding correlates declined significantly; unresolved issues include continued habitat loss, persistent inbreeding, infectious agents including rising feline immunodeficiency virus prevalence, and possible habitat saturation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6993177/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "First-generation hatchery steelhead had nearly double the lifetime reproductive success of wild fish when both were spawned in captivity; captive-born individuals with five or more returning siblings averaged 0.62 returning offspring in the wild against 2.05 for those with fewer than five",
+          "sourceChecked": "https://www.pnas.org/doi/10.1073/pnas.1111073109 (pnas.org returned 403; read the published abstract via the OpenAlex record for 10.1073/pnas.1111073109)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Expert elicitation concluded conservation action prevented 21 to 32 bird and 7 to 16 mammal extinctions between 1993 and 2020 and 9 to 18 bird and 2 to 7 mammal extinctions since 2010; 10 bird and 5 mammal species were lost or strongly suspected to have been; extinction rates would have been 2.9 to 4.2 times greater without intervention",
+          "sourceChecked": "https://kar.kent.ac.uk/82839/ (the Kent repository timed out; read the published abstract via the OpenAlex records for 10.1111/conl.12762 and the identical bioRxiv preprint 10.1101/2020.02.11.943902)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Only 23 California condors survived worldwide in 1982 and the total free-flying and captive population has since been grown to more than 500; lead poisoning from ammunition fragments remains the number one known cause of death",
+          "sourceChecked": "https://www.fws.gov/species/california-condor-gymnogyps-californianus",
+          "disposition": "qualified",
+          "note": "Both statements are on the FWS page as written, including 'number one known cause of death'. But a condor population total is a continuously updating count, and the page attaches no census date to 'more than 500' — no 'as of', no publication date, and the only years on the page are 1940, 1967, 1982, 1987, 1992, 2004 and 2008. Live dataset with no temporal anchor available in the source, so rather than invent a date I marked the figure as what it is: added 'a figure the agency's species page carries with no census date attached, so it reads as a floor rather than a current count'."
+        },
+        {
+          "claim": "The black-footed ferret was presumed extinct across its range by the late 1950s and rediscovered near Meeteetse, Wyoming, in 1981; sylvatic plague is the most significant challenge to population resiliency; the largest reintroduced population, at Shirley Basin, averaged about 100 breeding adults in 2012",
+          "sourceChecked": "https://www.fws.gov/species/black-footed-ferret-mustela-nigripes",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The draft Green Status framework was tested on 181 species spanning diverse taxa, life histories, biomes and Red List categories; 59 per cent came out largely or critically depleted; the relationship between extinction risk and recovery score was negative but loose, with some lower-risk species further from recovery; only 1.7 per cent scored zero across all four conservation-impact metrics",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/34289517/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The condor total is the one number in this article that cannot be pinned to a date from its own source. FWS states 'more than 500' with no census date; the figure is a floor and will drift. If a dated count is wanted, the annual California Condor Recovery Program population status table would supply one, but it is a different source and I did not substitute it without an editor's call.",
+        "ScienceDirect, PNAS and the Kent repository could not be read directly (403 / timeout). For the translocation review, the steelhead pedigree paper and the averted-extinctions elicitation I read the full published abstract via OpenAlex; every figure the article attributes to them is in the abstract, but I did not read their results sections."
+      ]
+    },
+    {
+      "slug": "conservation-trade-offs-and-prioritisation",
+      "path": "content/en/ecology/conservation/conservation-trade-offs-and-prioritisation.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "The 2000 Nature framing paper assigned reserves two jobs — to represent the biodiversity of each region and to separate it from processes threatening its persistence — and recorded that existing reserve systems contain a biased sample of biodiversity, 'usually that of remote places and other areas that are unsuitable for commercial activities'",
+          "sourceChecked": "https://www.nature.com/articles/35012251 (nature.com redirects scripted clients to an auth endpoint; read the published PDF at https://landscapepartnership.org/.../Margules&Pressey.pdf, abstract on p.243)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "44 per cent of vascular plant species and 35 per cent of species in four vertebrate groups are confined to 25 hotspots covering 1.4 per cent of Earth's land surface, defined by exceptional concentrations of endemic species undergoing exceptional habitat loss",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/10706275/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Neither older nor newer protected areas targeted places with high concentrations of threatened vertebrates; they were established where they conflicted least with agriculturally suitable land",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28639356/",
+          "disposition": "qualified",
+          "note": "The first half is stated flatly in the source ('both old and new protected areas did not target places with high concentrations of threatened vertebrate species'). The second half is not: the authors write 'they appeared to be established in locations that minimize conflict with agriculturally suitable lands'. The article had dropped the hedge, turning an inference from an observational location analysis into a bare statement of fact. Restored the source's own hedge and wording."
+        },
+        {
+          "claim": "Had expansion between 2004 and 2014 targeted unrepresented threatened vertebrates, more than 30 times as many species could have been represented for the same area or the same cost — 3,086 or 2,553 species against 85 actually gained",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28639356/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "As of August 2024, protected and conserved areas covered 17.58 per cent of terrestrial and inland waters and 8.44 per cent of marine and coastal areas; mean protection of ecologically distinct environments was 10.00 per cent; about 8.52 per cent of land was both protected and connected; 32.03 per cent of Key Biodiversity Areas had no protection at all",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Management effectiveness had been assessed for 4.78 per cent of terrestrial coverage and 1.26 per cent of marine coverage",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "corrected",
+          "note": "The numbers are right but the referent was wrong. The report says '4.78% of the world's terrestrial area is covered by protected areas where management effectiveness has been assessed. The figure is 1.26% for the marine realm' — a share of the world's surface, not of the protected estate. Written as 'of terrestrial coverage' it reads as 4.78 per cent of the protected estate, which would be a fivefold understatement: 4.78 of 17.58 is about 27 per cent of protected land. Corrected the referent and added the report's own estate-level figure, 'only 6.8% of protected areas in the WDPA have been assessed', which is the number that actually carries the sentence that follows it."
+        },
+        {
+          "claim": "The New Zealand project prioritisation protocol found that weighting projects by species value allowed 11 of 32 projects to be funded against 16 when species were weighted equally",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/19183202/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same protocol was applied in New South Wales, where management prescriptions for 368 threatened species were elicited and ranked on cost-efficiency",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201413",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Management plans for 2,328 listed species across three countries showed 50 per cent of proposed recovery-plan budgets allocated to research and monitoring; species with a higher proportion going to information gathering had poorer recovery outcomes; the authors are careful about direction; some plans had allocated the majority of funds to information gathering for decades",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/32963244/ and the discussion in https://pmc.ncbi.nlm.nih.gov/articles/PMC7508813/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Target 3 of the Kunming-Montreal Global Biodiversity Framework asks parties to ensure at least 30 per cent of terrestrial, inland water, coastal and marine areas — 'especially areas of particular importance for biodiversity and ecosystem functions and services' — are effectively conserved through 'ecologically representative, well-connected and equitably governed' systems; the headline indicator is coverage",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Reducing the extinction risk of all globally threatened bird species by at least one Red List category was estimated at US$0.875 to $1.23 billion a year, about 12 per cent then funded; extending to non-avian species raised it to $3.41 to $4.76 billion annually; protecting and effectively managing all sites of global conservation significance, $76.1 billion a year",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/23065904/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The article's cost figures are from a 2012 estimate and are correctly framed as of that date ('was then funded'), but a reader may take them as current. They are the most recent global figures of their kind that I could confirm; no newer synthesis was checked in this pass.",
+        "This article and community-based-conservation-evidence share the same opening move — a scene-setting paragraph followed by a second paragraph that hands off to the conservation-science-explained pillar — as do the other two in the batch. It reads as house style rather than a defect, so I did not restructure anything."
+      ]
+    },
+    {
+      "slug": "community-based-conservation-evidence",
+      "path": "content/en/ecology/conservation/community-based-conservation-evidence.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "Costa Rica's protected-area system, evaluated with matching over 1960 to 1997, gives a matched estimate that roughly 10 per cent of protected forest would have been cleared without protection; conventional methods overestimate avoided deforestation by more than 65 per cent; spillovers into neighbouring unprotected forest were negligible",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2567237/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A pan-tropical analysis estimated deforestation and degradation from 2010 to 2018 across 3.4 million km2 of Indigenous Lands, 2 million km2 of protected areas and 1.7 million km2 of overlapping protected Indigenous areas against matched non-protected counterfactuals; Indigenous Lands avoided clearing comparably to protected areas and the overlapping category except in Africa, where they avoided more; degradation showed the same pattern",
+          "sourceChecked": "https://www.nature.com/articles/s41893-021-00815-2 (nature.com redirects scripted clients; read the accepted manuscript at https://eprints.whiterose.ac.uk/id/eprint/186258/1/Sze_etal_ManuscriptDraft_2021-10-12.pdf)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Using a forest landscape integrity index and land-use intensity after matching and regression, protected-Indigenous areas had the highest protective effect on forest integrity and the lowest land-use intensity, while the protective effect of Indigenous Lands alone on integrity was lower than that of protected areas and of non-protected areas in the Americas and Asia",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/36302386/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In the Peruvian Amazon more than 1,200 Indigenous communities covering some 11 million hectares have been titled since the mid-1970s; titling reduced clearing by more than three-quarters and disturbance by roughly two-thirds, measured in a two-year window spanning the year of award and the year after",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5402456/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A global meta-analysis of 165 protected areas drawing on 171 published studies found that protected areas associated with positive socioeconomic outcomes were more likely to report positive conservation outcomes, and that both were more likely under co-management, empowerment of local people, reduced economic inequality and maintained cultural and livelihood benefits",
+          "sourceChecked": "https://eprints.whiterose.ac.uk/id/eprint/118098/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A systematic review of community forest management found evidence associating it with greater tree density and basal area but not with other indicators of global environmental benefit, and no data on local human welfare amenable to meta-analysis; poor study design, variable reporting and the absence of common indicators made synthesis difficult; donors had invested billions of dollars in sustainable forest management",
+          "sourceChecked": "https://esajournals.onlinelibrary.wiley.com/doi/10.1890/110040 (Wiley returned 403; read the published abstract via the OpenAlex record for 10.1890/110040)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Only 3.95 per cent of terrestrial protected and conserved area coverage was reported as governed by Indigenous Peoples and local communities, with a further 11.84 per cent under shared governance, and governance assessments reported for 0.22 per cent of terrestrial and 0.001 per cent of marine coverage",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "corrected",
+          "note": "The word 'terrestrial' is not in the source and reverses the sense of the number. Protected Planet reports 3.95 per cent and 11.84 per cent as shares of GLOBAL protected and conserved area coverage across all realms; the corresponding terrestrial and inland waters figures in the same passage are 9.02 and 3.72 per cent. Labelling the global figure 'terrestrial' understated Indigenous and community governance on land by more than half, in a sentence whose whole argument is about under-recording. Corrected the realm, added the terrestrial split, and attached the temporal anchor the figures need (Protected Planet Report 2024, data as of August 2024) since a WDPA-derived share is a continuously updating quantity. The 0.22 and 0.001 per cent figures were already correctly assigned to land and sea."
+        },
+        {
+          "claim": "The Protected Planet Report 2024 records Indigenous and traditional territories as covering at least 13.6 per cent of global terrestrial area beyond protected and conserved areas",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Indigenous Peoples manage or hold tenure rights over at least about 38 million km2 across 87 countries or politically distinct areas — over a quarter of the world's land surface — intersecting about 40 per cent of terrestrial protected areas and ecologically intact landscapes",
+          "sourceChecked": "https://www.nature.com/articles/s41893-018-0100-6 (nature.com and the MMU repository refuse scripted clients; read the full published abstract via the Semantic Scholar record for 10.1038/s41893-018-0100-6)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Target 22 of the Kunming-Montreal Global Biodiversity Framework commits parties to full, equitable, inclusive and effective representation and participation in biodiversity decision-making by Indigenous peoples and local communities, respecting their rights over lands, territories, resources and traditional knowledge; its component indicator is the proportion of the adult population with secure tenure rights to land, by legally recognised documentation and by perceived security",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/22",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The 'factor of two' framing between the 38 million km2 estimate and Protected Planet's 13.6 per cent holds arithmetically (about 28 per cent of land against 13.6 per cent), but the two are not strictly commensurable: the 13.6 per cent is explicitly the extent BEYOND protected and conserved areas, so part of the gap is definitional rather than a recording failure. The article says the two measure different things, which is right; I did not try to compute a like-for-like comparison because neither source publishes one.",
+        "Wiley and Nature refuse scripted clients. For the community forest management review and the Garnett spatial overview I read the full published abstract via OpenAlex and Semantic Scholar respectively. Every figure attributed to them is in the abstract; I did not read either paper's body."
+      ]
+    }
+  ]
+}

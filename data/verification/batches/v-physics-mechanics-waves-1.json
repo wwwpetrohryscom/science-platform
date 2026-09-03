@@ -1,0 +1,219 @@
+{
+  "batchId": "v-physics-mechanics-waves-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "classical-mechanics-explained",
+      "path": "content/en/physics/mechanics-waves/classical-mechanics-explained.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "Two Voyager spacecraft launched in 1977 are leaving the Solar System at more than 3 astronomical units per year",
+          "sourceChecked": "https://science.nasa.gov/mission/voyager/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Newtonian constant of gravitation carries a relative standard uncertainty of 2.2 x 10^-5 in the 2022 CODATA adjustment",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?bg",
+          "disposition": "verified"
+        },
+        {
+          "claim": "That uncertainty was glossed in the article as leaving G known to 'three significant figures'",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?bg",
+          "disposition": "corrected",
+          "note": "Not supported by the cited page and off by roughly a factor of fifty. NIST gives G = 6.674 30(15) x 10^-11 m^3 kg^-1 s^-2, i.e. about four reliable significant figures; a relative uncertainty of 2.2 x 10^-5 is 1 part in ~45,000, not 1 part in ~1,000. Replaced 'three significant figures' with '22 parts per million', which is the same figure the cited page publishes restated in the units the sentence's own comparison (parts in 10^8, four parts in 10^12) uses."
+        },
+        {
+          "claim": "A Royal Society survey noted the spread across published determinations of G was approaching 500 parts per million, 'more than 10 times the uncertainties on each measurement'; other constants are known to parts in 10^8 and the Rydberg to four parts in 10^12; the attraction between a pair of 1 kg copper spheres just touching is about 10^-8 N",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4173273/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A PNAS review of long-term integrations puts the Lyapunov time for planetary orbits at 5-10 million years and concludes chaos imposes a finite predictability horizon while the system remains qualitatively stable over the Sun's lifetime",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC60054/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The speed of light is fixed by definition at 299,792,458 m s^-1 and the Planck constant at exactly 6.626 070 15 x 10^-34 J s",
+          "sourceChecked": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The LHC accelerates protons to a nominal 6.8 TeV per beam, roughly 7,200 times a proton rest energy of 938.272 089 43(29) MeV",
+          "sourceChecked": "https://home.cern/science/accelerators/large-hadron-collider/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Commercially available caesium clocks keep time to within one three-millionth of a second per year, and experimental clocks based on other atoms are ten thousand times more precise",
+          "sourceChecked": "https://www.nist.gov/si-redefinition/second-introduction",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "CERN's page states 6.8 TeV as the nominal per-beam proton energy and 13.6 TeV in collision; it does not itself perform the comparison against proton rest energy, which I checked arithmetically (6.8 x 10^6 MeV / 938.272 MeV = 7,247)."
+      ]
+    },
+    {
+      "slug": "energy-work-and-power",
+      "path": "content/en/physics/mechanics-waves/energy-work-and-power.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "The BIPM defines the joule as kg m^2 s^-2 and the watt as kg m^2 s^-3, differing by exactly one power of time",
+          "sourceChecked": "https://www.bipm.org/en/measurement-units",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Conversion table to joules: kilowatt hour 3.6 x 10^6; electronvolt 1.602 177 x 10^-19; thermochemical calorie 4.184; International Table calorie 4.1868; 15 C calorie 4.185 80; Btu (IT) 1.055 056 x 10^3; Btu (thermochemical) 1.054 350 x 10^3; foot pound-force 1.355 818; ton of TNT 4.184 x 10^9",
+          "sourceChecked": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The two British thermal units differ by about 0.07 per cent, and the ton of TNT at 4.184 x 10^9 J is exactly 10^9 thermochemical calories",
+          "sourceChecked": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NIST lists a horsepower of 550 foot pound-force per second at 745.6999 W, a metric horsepower at 735.4988 W and an electric horsepower at exactly 746 W",
+          "sourceChecked": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EIA Btu contents: 1 kWh = 3,412 Btu; 1 cubic foot of natural gas = 1,036 Btu; 1 gallon of motor gasoline = 120,214 Btu; 1 cord of wood = 20,000,000 Btu; and the factors 'are recalculated to account for changes in the quality and composition of the fuels'",
+          "sourceChecked": "https://www.eia.gov/energyexplained/units-and-calculators/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EIA's worked comparison: 67,000 cubic feet of natural gas = 69,412,000 Btu against 500 gallons of heating oil = 68,690,476 Btu, while the same page's table gives heating oil as 138,500 Btu per gallon and the worked example implies 137,381",
+          "sourceChecked": "https://www.eia.gov/energyexplained/units-and-calculators/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "U.S. petroleum consumption was about 38 per cent of the total in 2025, at 35.9 quads",
+          "sourceChecked": "https://www.eia.gov/energyexplained/us-energy-facts/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A NIST paper on quantity calculus states that 'the value of a quantity is an inherent property of the quantity - it does not change when the value of the quantity is expressed in different units, only its numerical value changes'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7339734/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The EIA petroleum share is a live, revisable figure. The article already carries the temporal anchor the source supports ('in 2025', matching the page's own sentence 'In 2025, petroleum's share of total U.S. energy consumption was about 38% (35.9 quads)'), so no qualifier was added. Worth knowing that the page's own footnotes still cite Monthly Energy Review tables dated April 2025 as preliminary, so the 2025 annual figure will be restated; the article's surrounding paragraph already warns against comparing across releases.",
+        "The Btu-per-gallon discrepancy the article highlights (138,500 in the table versus 137,381 in the worked example) is EIA's own internal inconsistency, confirmed by dividing the source's 68,690,476 Btu by its 500 gallons. The article characterises it correctly as a restated average rather than an error."
+      ]
+    },
+    {
+      "slug": "waves-and-oscillations-explained",
+      "path": "content/en/physics/mechanics-waves/waves-and-oscillations-explained.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "An American Journal of Physics paper contests the resonance account of the 1940 Tacoma Narrows collapse; the failure is better described as self-excited aeroelastic flutter with no external periodic driver",
+          "sourceChecked": "https://doi.org/10.1119/1.16590",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Nature paper 'Crowd synchrony on the Millennium Bridge' modelled pedestrians falling into step with the bridge's vibrations and amplifying them, a phenomenon 'not due to the bridge's innovative design as was first thought'",
+          "sourceChecked": "https://www.nature.com/articles/438043a",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A Nature Communications analysis argues uncorrelated walkers produce negative damping without synchronisation, that 'increased coherence of pedestrians' foot placement is a consequence of, not a cause of the instability', and that the most definitive study estimated only about 20 per cent of the crowd walked in time with the bridge",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8664840/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA states tsunami speed 'depends on ocean depth rather than the distance from the source of the wave' and that such waves 'may travel as fast as jet planes over deep waters, only slowing down when reaching shallow waters'",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/tsunami.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The USGS describes a P wave as a compressional body wave that 'shakes the ground back and forth in the same direction and the opposite direction as the direction the wave is moving'",
+          "sourceChecked": "https://www.usgs.gov/media/images/p-waves",
+          "disposition": "resourced",
+          "note": "The quotation is genuine USGS wording but it is not on the page the article cited for it. I read the cited 'Earthquake magnitude, energy release, and shaking intensity' page in full: it contains no occurrence of 'P wave', 'S wave' or 'liquid core' at all. The wording belongs to the Earthquake Hazards Program illustration page, which now carries the citation."
+        },
+        {
+          "claim": "The USGS describes an S wave as a shear wave that shakes the ground perpendicular to the direction of travel",
+          "sourceChecked": "https://www.usgs.gov/media/images/s-wavesgif",
+          "disposition": "resourced",
+          "note": "Same misattribution as the P-wave definition. The USGS S-wave illustration page reads 'An S wave, or shear wave, is a seismic body wave that shakes the ground back and forth perpendicular to the direction the wave is moving', which supports the article's paraphrase; the previously cited magnitude page does not mention S waves."
+        },
+        {
+          "claim": "The observed pattern of S waves 'being stopped entirely by the liquid core and P waves being bent (refracted) by the liquid core' is how the liquid outer core was identified",
+          "sourceChecked": "https://www.usgs.gov/media/videos/shadow-zone",
+          "disposition": "resourced",
+          "note": "Quoted verbatim from the USGS Shadow Zone animation page, not from the magnitude page the article cited. Citation moved to the page that carries the sentence."
+        },
+        {
+          "claim": "Each whole-number step in earthquake magnitude corresponds to the release of about 31 times more energy",
+          "sourceChecked": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+          "disposition": "corrected",
+          "note": "The cited USGS page says 32, not 31: 'While each whole number increase in magnitude represents a tenfold increase in the measured amplitude, it represents an 32 times more energy release.' Both round 10^1.5 = 31.6, so 31 is not physically wrong, but the sentence attributes the number to this agency page and must match what that page says. Changed to 'about 32 times'."
+        }
+      ],
+      "openQuestions": [
+        "The Billah and Scanlan AJP paper is paywalled: pubs.aip.org returns 403 to scripted clients and Semantic Scholar reports the abstract elided by the publisher. I verified title, journal, volume, issue, pages and year through Crossref, and read the publisher abstract through a third-party mirror (colab.ws/articles/10.1119/1.16590), which states the failure 'was in fact related to an aerodynamically induced condition of self-excitation or \"negative damping\" in a torsional degree of freedom'. I did not read the paper's body text.",
+        "Nature's article page redirects scripted clients through an identity provider; I read the full abstract from the embedded schema.org metadata served with the article page rather than the rendered body, and saw only the abstract, not the full Brief Communication.",
+        "Source 6 in the list (NASA, 'Anatomy of an electromagnetic wave') supports no specific sentence in the body. I left it in place rather than remove a listed reference that is not carrying a claim, but an editor may want to prune it."
+      ]
+    },
+    {
+      "slug": "optics-and-light-explained",
+      "path": "content/en/physics/mechanics-waves/optics-and-light-explained.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "NASA states that diffraction is most pronounced when the wavelength is comparable to the size of the object",
+          "sourceChecked": "https://science.nasa.gov/ems/03_behaviors/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA's solar position calculator assumes 0.833 degrees of atmospheric refraction for sunrise and sunset, notes the effects 'vary with atmospheric pressure, humidity and other variables', and warns errors grow away from the equator because the Sun crosses the horizon at a very shallow angle",
+          "sourceChecked": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2026 paper in Measurement Science and Technology reports two-colour measurements aimed at revising the standard formulation, noting the Ciddor treatment 'has stood for the past 30 years, but it has long been suspected that its treatment of water vapor may have shortcomings', and reaches about 2 x 10^-10 uncertainty in the refractive index at ambient pressure",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13417924/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NASA dates the prism demonstration of dispersion to Isaac Newton's 1665 experiment and gives the band the eye detects as roughly 380 to 700 nanometres",
+          "sourceChecked": "https://science.nasa.gov/ems/09_visiblelight/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Hubble's primary mirror is 2.4 metres across and NASA states it can distinguish objects in visible light separated by 0.05 arcsecond, which matches the Rayleigh criterion at 500 nm (about 2.5 x 10^-7 radians)",
+          "sourceChecked": "https://science.nasa.gov/mission/hubble/observatory/design/optics/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Webb's primary mirror is 6.5 metres across, made of 18 hexagonal segments each 1.32 metres flat to flat, giving roughly 0.08 arcsecond at 2 micrometres",
+          "sourceChecked": "https://science.nasa.gov/mission/webb/webbs-mirrors/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "PACE launched on 8 February 2024 with a hyperspectral UV-visible-NIR ocean colour instrument plus seven discrete SWIR channels, SPEXone observing from five viewing geometries and HARP2 from 10 viewing angles in blue, green and NIR and 60 in the red; multi-angle polarimetry gives 'sensitivity to particle microphysical properties, including particle size distribution, effective radius, refractive index, and particle shape'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13100863/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA reports the upper 200 metres of the ocean is the euphotic zone and that although light may be detected as far as 1,000 metres down, 'there is rarely any significant light beyond 200 meters'",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/light_travel.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The two angular-resolution numbers (Hubble 0.05 arcsecond, Webb about 0.08 arcsecond at 2 micrometres) are the article's own arithmetic from the Rayleigh criterion using NASA's published apertures. NASA states the 0.05 arcsecond figure directly for Hubble; the 0.08 arcsecond figure for Webb is not stated on NASA's mirrors page and I confirmed it by calculation (1.22 x 2 um / 6.5 m = 3.75 x 10^-7 rad = 0.077 arcsecond) rather than against a NASA statement. The article presents it as a worked application of the criterion, which is what it is."
+      ]
+    }
+  ]
+}

@@ -1059,6 +1059,14 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       topicRelevance: "Primary document for what a voluntary carbon-crediting protocol requires. A commercial standards body, cited for its own rules and never as scientific authority",
       lastReviewed: "2026-09-02",
     },
+    {
+      name: "Global Forest Watch",
+      organization: "World Resources Institute",
+      url: "https://www.globalforestwatch.org/",
+      type: "dataset",
+      topicRelevance: "Satellite tree-cover loss and gain analyses and the methodological notes that accompany them",
+      lastReviewed: "2026-09-03",
+    },
   ],
   biology: [
     {

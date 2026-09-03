@@ -128,7 +128,7 @@ async function main() {
       const org = cleanOrg(c.groups.org ?? "");
       const supports = c.groups.note.trim().replace(/\s+/g, " ");
 
-      const use: EvidenceUse = { slug: w.slug, section, supports };
+      const use: EvidenceUse = { kind: "article", slug: w.slug, section, supports };
       const existing = byId.get(id);
       if (existing) {
         existing.usedBy.push(use);
@@ -157,6 +157,52 @@ async function main() {
         sourceType: cur.sourceType ?? sourceType,
         sourceTypeProvenance: cur.sourceType ? "curated" : provenance,
         topics: [section],
+        usedBy: [use],
+        isLiveDataset: cur.isLiveDataset ?? false,
+        updateFrequency: cur.updateFrequency,
+        verificationStatus: "unchecked",
+        notes: cur.notes,
+      });
+    }
+  }
+
+  // Glossary sources. Registered the same way so the link checker, the
+  // stale-source report and the usage counts cover them too.
+  const { GLOSSARY } = await import("../lib/glossary");
+  let glossaryCitations = 0;
+  for (const g of GLOSSARY) {
+    for (const s of g.relatedSources ?? []) {
+      glossaryCitations += 1;
+      const id = evidenceIdFor(s.url);
+      const use: EvidenceUse = {
+        kind: "glossary",
+        slug: g.slug,
+        section: "glossary",
+        supports: `Definition of ${g.term}`,
+      };
+      const existing = byId.get(id);
+      if (existing) {
+        existing.usedBy.push(use);
+        if (!existing.topics.includes("glossary")) existing.topics.push("glossary");
+        continue;
+      }
+      const host = hostOf(s.url);
+      const { sourceType, provenance } = classify(host, s.label);
+      const cur: CuratedEvidence = {
+        ...hostRule(host),
+        ...urlRule(s.url),
+        ...(curated[id] ?? {}),
+      };
+      byId.set(id, {
+        evidenceId: id,
+        title: s.label,
+        organization: cur.organization ?? "",
+        url: s.url,
+        host,
+        doi: cur.doi ?? doiOf(s.url, s.label),
+        sourceType: cur.sourceType ?? sourceType,
+        sourceTypeProvenance: cur.sourceType ? "curated" : provenance,
+        topics: ["glossary"],
         usedBy: [use],
         isLiveDataset: cur.isLiveDataset ?? false,
         updateFrequency: cur.updateFrequency,
@@ -207,7 +253,7 @@ async function main() {
   for (const r of records) byType[r.sourceType] = (byType[r.sourceType] ?? 0) + 1;
 
   console.log(`✓ data/evidence/registry.json`);
-  console.log(`  ${citationLines} citation lines parsed (${unparsed} unrecognised)`);
+  console.log(`  ${citationLines} article citation lines parsed (${unparsed} unrecognised) + ${glossaryCitations} glossary citations`);
   console.log(`  ${records.length} distinct sources · ${uses} article uses · ${shared} cited by more than one article`);
   const live = records.filter((r) => r.isLiveDataset).length;
   console.log(`  by type: ${Object.entries(byType).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(" · ")}`);

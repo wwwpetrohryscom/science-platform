@@ -1,0 +1,397 @@
+{
+  "batchId": "v-ecology-conservation-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "conservation-science-explained",
+      "path": "content/en/ecology/conservation/conservation-science-explained.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "The 2006 PLOS Biology essay argued that without an estimate of what would have happened anyway, spending and coverage figures say nothing about impact, and pushed the field toward quasi-experimental methods borrowed from programme evaluation in economics, above all matching",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1435411/",
+          "disposition": "verified",
+          "note": "Read the PMC full text of Ferraro & Pattanayak 2006 (the PLOS Biology URL cited in the article points to the same paper). The paper states 'Program evaluation is fundamentally a process of making inferences about an unobserved counterfactual event' and 'rigorous measurement of the counterfactual in the conservation literature is nonexistent', and advocates natural experiments, instrumental variables and propensity-score matching drawn from economics."
+        },
+        {
+          "claim": "An analysis of protected-area networks across 147 nations found protection biased toward land that is higher, steeper, further from roads and cities, and less suitable for agriculture",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008273",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A global Nature analysis applied a before-after control-intervention design to 1,506 protected areas and 27,055 waterbird populations; simpler designs misestimated the effect for 37 to 50 per cent of populations, in some cases reversing the sign",
+          "sourceChecked": "https://europepmc.org/article/MED/35444280",
+          "disposition": "verified",
+          "note": "nature.com redirects scripted clients to an authentication endpoint, so the abstract of Wauchope et al. 2022 was read via Europe PMC. It gives 1,506 protected areas, 27,055 waterbird populations, BACI design, and 'incorrectly estimate effects for 37-50% of populations - for instance misclassifying positively impacted populations as negatively impacted, and vice versa'."
+        },
+        {
+          "claim": "The waterbird analysis found the strongest signal in whether a site was actively managed for the species or the habitat, with a weaker signal favouring larger sites",
+          "sourceChecked": "https://europepmc.org/article/MED/35444280",
+          "disposition": "verified",
+          "note": "Abstract: 'a strong signal that areas managed for waterbirds or their habitat are more likely to benefit populations, and a weak signal that larger areas are more beneficial than smaller ones'."
+        },
+        {
+          "claim": "Randomised designs and controlled observational designs with pre-intervention sampling accounted for just 23 per cent of studies in biodiversity conservation against 36 per cent in social science; paired within-study comparisons across 49 environmental datasets showed stronger designs generally return less biased estimates",
+          "sourceChecked": "https://europepmc.org/article/MED/33311448",
+          "disposition": "verified",
+          "note": "Christie et al. 2020 abstract read via Europe PMC because nature.com blocks scripted access; figures (23%, 36%, 49 datasets, 'usually give less biased estimates') match word for word."
+        },
+        {
+          "claim": "The 2024 Science synthesis assembled 186 studies covering 665 trials against a counterfactual of no action, and in roughly two-thirds of cases conservation improved biodiversity or slowed its decline; species- and ecosystem-targeted interventions carried the larger effect sizes",
+          "sourceChecked": "https://europepmc.org/article/MED/38662833",
+          "disposition": "verified",
+          "note": "science.org is not fetchable by scripted clients; the abstract of Langhammer et al. 2024 was read via Europe PMC. It gives 186 studies, 665 trials, 'in two-thirds of cases, conservation either improved the state of biodiversity or at least slowed declines', and names invasive species control, habitat loss reduction and restoration, protected areas and sustainable management as having large effect sizes."
+        },
+        {
+          "claim": "The World Database on Protected Areas records 17.36 per cent of terrestrial and inland water areas and 9.81 per cent of marine areas within protected areas as of September 2026, rising to 18.45 and 10.03 per cent when OECMs are included",
+          "sourceChecked": "https://www.protectedplanet.net/en",
+          "disposition": "verified",
+          "note": "Live dataset. The page currently shows exactly 17.36%, 9.81%, 18.45% and 10.03%, and carries the line 'Statistics updated: Sep 2026', so the article's temporal anchor matches the source's own."
+        },
+        {
+          "claim": "The Kunming-Montreal Global Biodiversity Framework commits parties to at least 30 per cent of both realms being effectively conserved and managed by 2030",
+          "sourceChecked": "https://www.cbd.int/gbf/targets",
+          "disposition": "verified",
+          "note": "Target 3 text: 'at least 30 per cent of terrestrial and inland water areas, and of marine and coastal areas ... are effectively conserved and managed through ecologically representative, well-connected and equitably governed systems of protected areas'."
+        },
+        {
+          "claim": "The assessment literature repeatedly identifies Africa, Latin America and the Caribbean, and parts of Asia as under-represented",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "The ipbes.net/ias landing page cited in the article carries no statistics; the claim was checked against the Summary for Policymakers PDF that page links, which states 'Additional efforts and cooperation are particularly needed to improve data collection in Africa, Latin America and the Caribbean and Asia.'"
+        },
+        {
+          "claim": "Conservation has no widely used equivalent of clinical-trial registration, so abandoned and unsuccessful projects mostly leave no record, and the size of the resulting publication bias is unknown rather than estimated",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7733498/",
+          "disposition": "removed",
+          "note": "No source cited anywhere in the article supports this. Ferraro & Pattanayak 2006 contains no mention of registration or publication bias (checked the full text: zero hits for 'registr', 'publication bias', 'file drawer'), and Christie et al. 2020 discusses design bias and risk-of-bias tools but not trial registration. A search for an openable source on a conservation trials registry returned only medical-literature results, so the claim could not be resourced and I will not cite one from memory. Replaced with a statement confined to what the cited syntheses do and do not do: they can only pool work that was written up, and none of them estimates how much never reached print. The following sentence about the Conservation Evidence project is unchanged."
+        }
+      ],
+      "openQuestions": [
+        "conservationevidence.com sits behind a Cloudflare challenge and could not be read; the article's characterisation of it as a curated synthesis of tested interventions is therefore unconfirmed, though no numerical claim rests on it.",
+        "The claim that conservation funding cycles run three to five years has no source in the article. It is stated generically rather than as a finding, and I left it, but it is not verified."
+      ]
+    },
+    {
+      "slug": "ecological-restoration-evidence",
+      "path": "content/en/ecology/conservation/ecological-restoration-evidence.md",
+      "status": "clean",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "Wetland synthesis: 621 restored and created wetlands against 556 reference wetlands; biological structure 26 per cent lower and biogeochemical function 23 per cent lower",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3265451/",
+          "disposition": "verified",
+          "note": "The abstract gives only '621 wetland sites', so I read the methods in the full text, which states 'chronosequences of restored wetland ecosystems from 621 restored and created wetlands relative to 556 reference wetlands'. The 26% and 23% figures are in the abstract verbatim."
+        },
+        {
+          "claim": "The wetland synthesis found plant assemblages converging statistically on reference conditions after roughly three decades while absolute values stayed below reference even a century after restoration",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3265451/",
+          "disposition": "verified",
+          "note": "Full text: 'Plants took on average 30 y to converge statistically with reference states; although again, absolute average values of structural features of plant assemblages remained lower than reference levels even after 100 y following restoration.'"
+        },
+        {
+          "claim": "Forest synthesis: 221 study landscapes; biodiversity 15-84 per cent and vegetation structure 36-77 per cent higher than degraded sites; 10-26 per cent and 16-42 per cent lower than reference",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4874030/",
+          "disposition": "verified",
+          "note": "The restored-versus-reference ranges are not in the abstract; the full text states 'Median values of effect size were 15-84% and 36-77% higher in restored than in degraded systems ... and 10-26% and 16-42% lower in restored than in reference systems'."
+        },
+        {
+          "claim": "Forest restoration success was driven by time elapsed since restoration began, disturbance type and landscape context; selectively logged forests recovered readily; less fragmented landscapes did better",
+          "sourceChecked": "https://europepmc.org/article/MED/27193756",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Terrestrial synthesis of 83 studies: biodiversity 20 per cent higher than degraded sites, variability reduced by about 14 per cent, 13 per cent below reference with 20 per cent higher variability, and the gap did not shrink as projects aged",
+          "sourceChecked": "https://europepmc.org/article/MED/35559594",
+          "disposition": "verified",
+          "note": "The article cites this by PubMed ID; the record resolves to Ecology Letters 2022, doi 10.1111/ele.14025. Abstract gives +20%, -14% CV, 13% below reference, 20% higher variability, and 'remained consistent over time, suggesting that sources of variation (e.g. prior land use, restoration practices) have an enduring influence'."
+        },
+        {
+          "claim": "Recovery-debt meta-analysis of 3,035 sampling plots: annual deficits of 46-51 per cent for organism abundance, 27-33 per cent for species diversity, 32-42 per cent for carbon cycling and 31-41 per cent for nitrogen cycling, holding across biomes but not across degrading factors",
+          "sourceChecked": "https://europepmc.org/article/MED/28106039",
+          "disposition": "verified"
+        },
+        {
+          "claim": "IPBES definitions of restoration and rehabilitation, the reference-state options, and the finding that recovering vegetation cover seldom attains pre-degradation levels of ecosystem function or compositional biological diversity within decades",
+          "sourceChecked": "https://www.ipbes.net/resource-file/103786",
+          "disposition": "verified",
+          "note": "The ipbes.net/assessment-reports/ldr page cited in the article carries no statistics, so I read the Summary for Policymakers PDF it links (IPBES/6/15/Add.5). SPM: 'Restoration of vegetation cover following degradation is possible and often successful, but seldom attains, within decades, the pre-degradation levels of ecosystem function or compositional biological diversity'; and 'Rehabilitation is used to refer to restoration activities that may fall short of fully restoring the biotic community to its pre-degradation state'. Reference-state paragraph matches on both the natural-state and recent-state options."
+        },
+        {
+          "claim": "Benefits of restoration exceed costs by an average margin of about ten to one (established but incomplete); cost of inaction 3.8 to 5 times the cost of avoidance in several Asian and African countries; degradation negatively affects at least 3.2 billion people",
+          "sourceChecked": "https://www.ipbes.net/resource-file/103786",
+          "disposition": "verified",
+          "note": "SPM paragraph 9: 'the benefits of restoration are estimated to exceed the costs by an average margin of 10 to 1 (established but incomplete). In several Asian and African countries, the cost of inaction has been estimated to be 3.8 to 5 times higher than the estimated costs to avoid land degradation.' SPM A1: 'negatively impacting the well-being of at least 3.2 billion people'. The article's reproduction of the confidence grading is exact."
+        },
+        {
+          "claim": "Target 2 commits parties to at least 30 per cent of degraded terrestrial, inland water, and marine and coastal ecosystems being under effective restoration by 2030",
+          "sourceChecked": "https://www.cbd.int/gbf/targets",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Every figure in this article held on inspection, including the three that required going past the abstract into the full text. The only source I could not open at its cited address was the IPBES landing page, whose statistics live in the linked SPM PDF rather than on the page itself."
+      ]
+    },
+    {
+      "slug": "invasive-species-management",
+      "path": "content/en/ecology/conservation/invasive-species-management.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "Around 37,000 alien species established, roughly 200 new ones recorded a year, documented negative impact for more than 3,500",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "The ipbes.net/ias landing page carries no statistics; verified against the Summary for Policymakers PDF (IPBES/10/12/Add.1) that page links. SPM A1 matches all three figures."
+        },
+        {
+          "claim": "Invasive fractions of about 6 per cent of alien plants, 22 per cent of invertebrates, 14 per cent of vertebrates and 11 per cent of microbes",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM A1: '1,061 alien plants (6 per cent of all established alien plants), 1,852 alien invertebrates (22 per cent), 461 alien vertebrates (14 per cent) and 141 alien microbes (11 per cent) are known to be invasive globally'."
+        },
+        {
+          "claim": "Over the past century, 1,550 documented eradication attempts on 998 islands succeeded in 88 per cent of cases, with vertebrates the most tractable targets",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM C19 and KM-C3 give 1,550 documented examples on 998 islands, 88 per cent success, 'especially for invasive alien vertebrates'."
+        },
+        {
+          "claim": "PNAS synthesis: 236 native terrestrial island species across 596 populations responded positively to 251 eradications on 181 islands; seven species across eight populations were harmed; four threatened species had their Red List category reduced and none moved higher; 107 highly threatened birds, mammals and reptiles, 6 per cent of those groups, probably benefited",
+          "sourceChecked": "https://europepmc.org/article/MED/27001852",
+          "disposition": "verified",
+          "note": "Abstract read via Europe PMC. Every figure matches. The source says 'insular faunal species'; the article says 'island species', which is slightly looser but does not change the count."
+        },
+        {
+          "claim": "The PNAS paper is titled 'Invasive mammal eradication on islands yields substantial conservation gains'",
+          "sourceChecked": "https://europepmc.org/article/MED/27001852",
+          "disposition": "corrected",
+          "note": "The paper's actual title is 'Invasive mammal eradication on islands results in substantial conservation gains'. A misquoted title in a source list is the kind of error that survives a link check because the URL is right; corrected to the published wording."
+        },
+        {
+          "claim": "90 per cent of documented global extinctions in which an invasive alien species was a major cause occurred on islands",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM A2: 'The majority of documented global extinctions (90 per cent) with invasive alien species as one of the major causes are reported from islands (established but incomplete).'"
+        },
+        {
+          "claim": "Roughly 27 per cent of documented impacts on native species run through changes to ecosystem properties, ahead of competition, predation and herbivory taken individually",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM A2 gives ecosystem properties 27 per cent, competition 24, predation 18, herbivory 12 — so the ordering claim holds as stated."
+        },
+        {
+          "claim": "Classical biological control has succeeded in more than 60 per cent of documented cases against invasive plants and invertebrates, with roughly a third of target plant species needing no further control, and a century of landscape-scale use behind it",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM: 'successful in more than 60 per cent of documented cases ... with one third of the alien plant species requiring no further form of control', and 'Classical biological control ... has been effectively practised for more than 100 years'."
+        },
+        {
+          "claim": "Most containment and control attempts in marine and open-water systems have been largely ineffective, a judgement graded established but incomplete",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM C20: 'most attempts in marine and open water ecosystems have been largely ineffective (established but incomplete)'. The article's reproduction of both the wording and the confidence grade is exact."
+        },
+        {
+          "claim": "Table row: early detection and rapid response is 'identified as critical for marine and connected waters'",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "corrected",
+          "note": "The SPM attaches the marine-and-connected-waters point to PREVENTION, not to the detection-and-response stage: KM-C2 says 'Prevention is particularly critical in marine and connected water systems, where most attempts at eradicating or containing invasive alien species have mostly failed', and separately that preparedness 'is critical to reduce rates of establishment'. The table had moved a source statement onto the wrong row. Moved the marine clause to the pre-border row and left the establishment-rate point on the detection row."
+        },
+        {
+          "claim": "Global annual costs of biological invasions in 2019 exceeded US$423 billion, with 92 per cent from damage to nature's contributions to people and 8 per cent from management, and costs have quadrupled every decade since 1970",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM KM-A3 and A4 give the $423 billion, 92/8 split; KM-B2 gives 'the global economic costs of invasive alien species have quadrupled every decade since 1970'."
+        },
+        {
+          "claim": "InvaCost compilation in Nature: a minimum total of US$1.288 trillion in 2017 dollars over 1970-2017, an annual mean of US$26.8 billion, an estimated annual mean that could reach US$162.7 billion, rising roughly threefold per decade",
+          "sourceChecked": "https://europepmc.org/article/MED/33790468",
+          "disposition": "verified",
+          "note": "Abstract read via Europe PMC (nature.com blocks scripted access). All four figures match, including 'a consistent threefold increase per decade'."
+        },
+        {
+          "claim": "A Benford's Law audit found only 901 unique values accounting for half of 13,553 cost records, with 1,000,000 the most common figure in any currency; the aggregate burden is not in doubt but individual records are imprecise and possibly inflated",
+          "sourceChecked": "https://europepmc.org/article/MED/37914135",
+          "disposition": "verified",
+          "note": "Abstract gives 901 unique values, 13,553 estimates, 'Irrespective of the currency, the value of 1,000,000 was the most common cost estimate', and 'Despite the undeniably high economic cost of biological invasions worldwide, individual records of costs were often found to be imprecise and possibly inflated'. The article's careful two-sided reading matches the source rather than over-reading it in either direction."
+        },
+        {
+          "claim": "National checklists more than doubled over the last decade to 196 countries in 2022; 83 per cent of countries have no legislation specifically on biological invasions; about 45 per cent do not invest in managing them (SDG indicator 15.8.1); 80 per cent have a target in their national biodiversity plan",
+          "sourceChecked": "https://www.ipbes.net/resource-file/105136",
+          "disposition": "verified",
+          "note": "SPM A8 and the key-messages section give all four figures, including 'Most countries (80 per cent, 156 out of 196) have targets for the management of biological invasions within their national biodiversity strategies and action plans'."
+        }
+      ],
+      "openQuestions": [
+        "Both Nature papers and the PNAS paper were read as abstracts via Europe PMC because the publishers block scripted clients. For the PNAS and InvaCost claims every figure the article uses appears in the abstract, so nothing rested on the full text; for the Benford audit the same is true."
+      ]
+    },
+    {
+      "slug": "species-extinction-risk-assessment",
+      "path": "content/en/ecology/conservation/species-extinction-risk-assessment.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Critically Endangered means a taxon meets at least one of five quantitative criteria at the most severe threshold and is judged to face an extremely high risk of extinction in the wild",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/RL-2001-001-2nd.pdf",
+          "disposition": "verified",
+          "note": "iucnredlist.org sits behind a Cloudflare challenge, so version 3.1 second edition was read as the IUCN Library PDF of the same document the cited page distributes. Wording: 'meets any of the criteria A to E for Critically Endangered ... and it is therefore considered to be facing an extremely high risk of extinction in the wild'."
+        },
+        {
+          "claim": "Criteria table: A2 at 80 per cent (CR) and 30 per cent (VU) where causes may not have ceased or be understood; B at EOO <100 km2 or AOO <10 km2 (CR) and EOO <20,000 km2 or AOO <2,000 km2 (VU), with at least two of severe fragmentation, continuing decline, extreme fluctuation",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/RL-2001-001-2nd.pdf",
+          "disposition": "verified",
+          "note": "Checked threshold by threshold against Section V of version 3.1. All four B thresholds and both A2 percentages match, as does the 'at least two of a-c' structure."
+        },
+        {
+          "claim": "Criteria table: C at <250 (CR) and <10,000 (VU) mature individuals; D at <50 (CR) and <1,000 or AOO typically <20 km2 or five or fewer locations (VU); E at 50 per cent within 10 years or three generations (CR) and 10 per cent within 100 years (VU)",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/RL-2001-001-2nd.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Criterion A measures decline over ten years or three generations, whichever is longer",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/RL-2001-001-2nd.pdf",
+          "disposition": "verified",
+          "note": "Version 3.1 A1-A4 all read 'over the last 10 years or three generations, whichever is the longer'."
+        },
+        {
+          "claim": "The rules are explicit that Data Deficient indicates inadequate information to assess risk from distribution or population status and is therefore not a category of threat; a taxon can be well studied and still be Data Deficient",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/RL-2001-001-2nd.pdf",
+          "disposition": "verified",
+          "note": "Verbatim in version 3.1: 'Data Deficient is therefore not a category of threat', and 'A taxon in this category may be well studied, and its biology well known, but appropriate data on abundance and/or distribution are lacking.'"
+        },
+        {
+          "claim": "Introduced predators and competitors appear explicitly in criterion A's list of admissible evidence",
+          "sourceChecked": "https://portals.iucn.org/library/sites/library/files/documents/RL-2001-001-2nd.pdf",
+          "disposition": "verified",
+          "note": "A1(e): 'the effects of introduced taxa, hybridization, pathogens, pollutants, competitors or parasites'."
+        },
+        {
+          "claim": "A Communications Biology analysis generated extinction-risk probabilities for 7,699 Data Deficient taxa, 17 per cent of the entities in the Red List spatial datasets, found around 85 per cent of Data Deficient amphibians predicted threatened and more than half in several other groups including mammals and reptiles, and put the understatement of some South American regions at up to a fifth",
+          "sourceChecked": "https://europepmc.org/article/MED/35927327",
+          "disposition": "verified",
+          "note": "nature.com blocks scripted access; abstract read via Europe PMC. It gives 7,699 DD species, '17% of the entire IUCN spatial datasets', 85% of DD amphibians, 'more than half of DD species in many other taxonomic groups, such as mammals and reptiles', and 'the conservation relevance of biodiversity hotspots in South America may be boosted by up to 20%'. The article's hedging ('may be more threatened', 'if those predictions hold even approximately') matches the source's own."
+        },
+        {
+          "claim": "Definitions of the lower, best and upper estimates of percentage threatened",
+          "sourceChecked": "http://web.archive.org/web/20260826184620/https://www.iucnredlist.org/resources/summary-statistics",
+          "disposition": "verified",
+          "note": "The live page is behind a Cloudflare challenge, so this was read from a 26 August 2026 Internet Archive capture of the cited URL. The three definitions on the page match the article's paraphrase exactly, including that the best estimate assumes DD taxa are threatened at the same rate as data-sufficient ones."
+        },
+        {
+          "claim": "For mammals in version 2025-1, the lower, best and upper estimates are 23, 27 and 36 per cent; for amphibians 36, 41 and 47; for birds all three figures are 12 per cent",
+          "sourceChecked": "http://web.archive.org/web/20260826184620/https://www.iucnredlist.org/resources/summary-statistics",
+          "disposition": "corrected",
+          "note": "Live dataset, and the figures had gone stale. The cited page now serves version 2026-1, and IUCN no longer publishes the 2025-1 tables (the 2025-1 Table 1a URL returns 404), so the article's previous numbers could not be confirmed either way from the source. Updated to what the source now states: mammals 23/26/36 and amphibians 36/41/48 (Table 1a, version 2026-1). The birds line was also wrong in substance, not only in vintage: Figure 2 gives 11.5% (11.4-11.8%), so the three estimates are not identical and rounding them to a single 12 per cent invented an equality the table does not show. Rewrote as '11.4, 11.5 and 11.8 per cent', which preserves the article's actual point — that birds have essentially no Data Deficient residue, so the spread is under half a point."
+        },
+        {
+          "claim": "Version 2025-1 records 169,420 taxa evaluated against an estimated 2,139,242 described, of which 47,187 are threatened; evaluation covers about 8 per cent of described life",
+          "sourceChecked": "https://nc.iucnredlist.org/redlist/content/attachment_files/2026-1_RL_Table1a.pdf",
+          "disposition": "corrected",
+          "note": "Live dataset. Table 1a for version 2026-1, last updated 09 July 2026, downloaded directly from IUCN's file host (the summary-statistics page that links it is Cloudflare-protected). It gives 2,121,262 described, 175,909 evaluated, 49,505 threatened and 8 per cent evaluated. Updated the three counts and added the table's own July 2026 stamp; the 8 per cent figure and the CR/EN/VU definition of 'threatened' are unchanged and confirmed by note 2 of the table."
+        },
+        {
+          "claim": "Vertebrates are 84 per cent evaluated, invertebrates 2 per cent, insects 1.3 per cent, gymnosperms 95 per cent, flowering plants 20 per cent",
+          "sourceChecked": "https://nc.iucnredlist.org/redlist/content/attachment_files/2026-1_RL_Table1a.pdf",
+          "disposition": "corrected",
+          "note": "Live dataset. Version 2026-1 Table 1a confirms vertebrates 84 per cent, invertebrates 2 per cent and gymnosperms 95 per cent unchanged, but gives insects 1.4 per cent (14,531 of 1,008,355) and flowering plants 21 per cent (76,102 of 369,000). Updated those two. Birds are 100 per cent evaluated and mammals and amphibians 88 and 89 per cent, so 'birds complete and mammals and amphibians close to it' also holds."
+        },
+        {
+          "claim": "A Science Advances analysis adopted a background rate of two mammal extinctions per 10,000 species per century, twice the figure previously in common use, and found the average rate of vertebrate loss over the last century up to a hundred times the background rate, with the century's extinctions otherwise taking 800 to 10,000 years to accumulate; confirming an extinction requires stringent criteria, so documented totals are floors",
+          "sourceChecked": "https://europepmc.org/article/MED/26601195",
+          "disposition": "verified",
+          "note": "Ceballos et al. 2015 abstract read via Europe PMC because science.org blocks scripted clients. Every element matches, including 'which is twice as high as widely used previous estimates', 'up to 100 times higher than the background rate', 'between 800 and 10,000 years', and 'listing a species as extinct requires meeting stringent criteria'."
+        }
+      ],
+      "openQuestions": [
+        "iucnredlist.org is behind a Cloudflare challenge for scripted clients. Table 1a was read live from IUCN's own file host (nc.iucnredlist.org) and returned HTTP 200; the narrative page and its Figure 2 percentages were read from an Internet Archive capture dated 26 August 2026. Both agree that the current release is version 2026-1.",
+        "The IUCN summary-statistics page still contains the sentence 'extinction risk has been evaluated for less than 5% of the world's described species', while its own Table 1a for the same version gives 8 per cent. The article follows Table 1a, which is the source it cites and the more recently updated of the two, but the source contradicts itself and an editor may want to note that.",
+        "IUCN no longer serves the version 2025-1 tables, so I could not check whether the article's original 2025-1 figures were correct for 2025-1. They were replaced rather than adjudicated."
+      ]
+    },
+    {
+      "slug": "habitat-fragmentation-and-connectivity",
+      "path": "content/en/ecology/conservation/habitat-fragmentation-and-connectivity.md",
+      "status": "clean",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "More than 70 per cent of remaining forest lies within one kilometre of a forest edge and close to 20 per cent within 100 metres",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4643828/",
+          "disposition": "verified",
+          "note": "Haddad et al. 2015 full text: 'nearly 20% of the world's remaining forest is within 100 m of an edge' and 'More than 70% of the world's forests are within 1 km of a forest edge.'"
+        },
+        {
+          "claim": "Global forest cover has already fallen by more than a third",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4643828/",
+          "disposition": "verified",
+          "note": "Full text: deforestation 'has resulted in the loss of more than a third of all forest cover worldwide'."
+        },
+        {
+          "claim": "In the Brazilian Amazon the share of forest more than a kilometre from an edge has fallen from about 90 per cent to roughly 75 per cent; in the Atlantic Forest, cleared and logged over three centuries, from about 90 per cent to under 9 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4643828/",
+          "disposition": "verified",
+          "note": "Full text: 'the proportion of forest farther than 1 km from the forest edge has decreased from 90% (historical) to 75% (today), and in the Brazilian Atlantic, from 90% to less than 9%', with the Atlantic Forest described as 'cleared for agriculture and logged for timber over the last three centuries'."
+        },
+        {
+          "claim": "37 per cent of the world's grassland ecoregions are classified as highly fragmented",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4643828/",
+          "disposition": "verified",
+          "note": "Full text, verbatim, and the article correctly presents it as a separate classification rather than an output of the satellite analysis: Haddad notes 'a spatial analysis similar to that of forest is not currently possible in grasslands' and cites the figure to other work."
+        },
+        {
+          "claim": "A review located 118 studies reporting 381 significant responses to configuration at constant habitat amount, of which 76 per cent were positive, with no subset in which most significant responses were negative, including the tropics, wide-ranging species and landscapes with little habitat left",
+          "sourceChecked": "https://carleton.ca/glel/wp-content/uploads/Fahrig2017AREES.pdf",
+          "disposition": "verified",
+          "note": "annualreviews.org returns 403 to scripted clients, so I read the author's institutional PDF of the same article. Abstract: 118 studies, 381 significant responses, 76% positive, 'No support was found for predictions that most significant responses to fragmentation should be negative in the tropics, for species with larger movement ranges, or when habitat amount is low ... I found no conditions in which most responses were negative.'"
+        },
+        {
+          "claim": "The review's conservation implication is that there is no empirical basis for assigning a small patch lower value than an equivalent area inside a large one",
+          "sourceChecked": "https://carleton.ca/glel/wp-content/uploads/Fahrig2017AREES.pdf",
+          "disposition": "verified",
+          "note": "Abstract: 'there is no justification for assigning lower conservation value to a small patch than to an equivalent area within a large patch'. The article's phrasing is a close paraphrase and does not strengthen it."
+        },
+        {
+          "claim": "Proposed explanations include higher habitat diversity, positive edge effects, refuge dynamics stabilising predator-prey systems, reduced competition and complementary resources",
+          "sourceChecked": "https://carleton.ca/glel/wp-content/uploads/Fahrig2017AREES.pdf",
+          "disposition": "verified",
+          "note": "Abstract lists 'increased functional connectivity, habitat diversity, positive edge effects, stability of predator-prey/host-parasitoid systems, reduced competition, spreading of risk, and landscape complementation'."
+        },
+        {
+          "claim": "A Nature analysis of 123 studies found smaller patches held fewer individuals, fewer species and less even communities than a comparable sample from larger patches, supporting ecosystem decay over passive sampling",
+          "sourceChecked": "https://europepmc.org/article/MED/32728213",
+          "disposition": "verified",
+          "note": "nature.com blocks scripted access; abstract read via Europe PMC. It gives 123 studies and 'biodiversity estimates from smaller habitat fragments - when controlled for sampling effort - contain fewer individuals, fewer species and less-even communities than expected from a sample of larger fragments'."
+        },
+        {
+          "claim": "Where fragmentation occurred more than a century earlier the diversity shortfall was smaller, because species absent from the intact habitat had since colonised",
+          "sourceChecked": "https://europepmc.org/article/MED/32728213",
+          "disposition": "verified",
+          "note": "Abstract: 'the diversity loss due to ecosystem decay in some studies (for example, those in which habitat loss took place more than 100 years ago) was less than expected from the overall pattern, as a result of compositional turnover by species that were not originally present in the intact habitats'."
+        },
+        {
+          "claim": "A synthesis of the largest fragmentation experiments across five continents and 35 years reported biodiversity reductions of 13 to 75 per cent, strongest in the smallest and most isolated fragments, and growing rather than stabilising over time",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4643828/",
+          "disposition": "verified",
+          "note": "Abstract: 'spanning multiple biomes and scales, five continents, and 35 years demonstrates that habitat fragmentation reduces biodiversity by 13 to 75% ... Effects are greatest in the smallest and most isolated fragments, and they magnify with the passage of time.'"
+        },
+        {
+          "claim": "In an 18-year pine-savanna experiment, annual colonisation rates across 239 plant species ran about 5 per cent higher and annual local extinction about 2 per cent lower in connected fragments, compounding to nearly 14 per cent more species with no sign of levelling off",
+          "sourceChecked": "https://europepmc.org/article/MED/31604279",
+          "disposition": "verified",
+          "note": "science.org blocks scripted clients; abstract read via Europe PMC. It gives 239 plant species, colonisation 5% higher, extinction 2% lower, 'a steady, nonasymptotic increase in diversity, with nearly 14% more species in connected fragments after almost two decades'. The longleaf pine savanna setting at the Savannah River Site is confirmed by the study description in institutional reporting rather than by the paywalled full text."
+        }
+      ],
+      "openQuestions": [
+        "The Damschen experiment's habitat type ('pine savanna') is the one detail in this article not confirmed from the paper itself, because the Science full text is paywalled; it is confirmed from the study's institutional description of the Savannah River Site longleaf pine savanna experiment.",
+        "Fahrig 2017 was read from the author's institutional PDF rather than the Annual Reviews page cited in the article, which returns 403 to scripted clients. The text is the published article, but I did not read it at its cited address."
+      ]
+    }
+  ]
+}

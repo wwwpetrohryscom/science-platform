@@ -1,0 +1,309 @@
+{
+  "batchId": "v-ecology-freshwater-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "groundwater-and-aquifer-depletion",
+      "path": "content/en/ecology/freshwater/groundwater-and-aquifer-depletion.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "Groundwater accounts for 99 per cent of the liquid fresh water on Earth, per the UN World Water Development Report 2022",
+          "sourceChecked": "https://www.unesco.org/reports/wwdr/2022/en",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same UN report attributes 69 per cent of global groundwater abstraction to agriculture, 22 per cent to domestic use and 9 per cent to industry, and gives groundwater as half the volume withdrawn for domestic use worldwide and about a quarter of all irrigation water",
+          "sourceChecked": "https://www.unesco.org/reports/wwdr/2022/en",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USGS on aquifers: porosity and permeability generally decline with depth under the weight of overlying rock, but fresh water has been found below 6,000 feet; confined aquifers are under pressure and a well may flow at the surface without pumping",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Groundwater flow velocity \"spans four orders of magnitude: several metres a day in coarse permeable material, a few centimetres a century in clay and shale\"",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater",
+          "disposition": "corrected",
+          "note": "The two endpoints are quoted correctly from USGS (\"In some permeable materials groundwater may move several meters in a day; in other places, it moves only a few centimeters in a century\"), but the article's own arithmetic on them is wrong. Several metres a day is of order 1,000 m/yr; a few centimetres a century is of order 3e-4 m/yr. That is a ratio of roughly 3.7 million, about six and a half orders of magnitude, not four. USGS states no order-of-magnitude figure, so the number was the article's to get right. Changed to \"roughly six orders of magnitude\", which the quoted endpoints support conservatively."
+        },
+        {
+          "claim": "Nature Geoscience 2016: about 22.6 million km3 of groundwater in the upper 2 km of continental crust, of which only 0.1-5.0 million km3 (less than 6 per cent) is younger than 50 years, equivalent to a layer about 3 m deep spread over the continents",
+          "sourceChecked": "https://www.nature.com/articles/ngeo2590",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NASA flew the original GRACE from 2002 to 2017 and launched GRACE-FO on 22 May 2018",
+          "sourceChecked": "https://science.nasa.gov/mission/grace-fo/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2018 team quantified 34 trends in global freshwater availability from GRACE and had to categorise the drivers as natural interannual variability, unsustainable groundwater consumption, climate change or combinations of those",
+          "sourceChecked": "https://www.nature.com/articles/s41586-018-0123-1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Nature, January 2024: in-situ levels from 170,000 monitoring wells across 1,693 aquifer systems in countries encompassing about 75 per cent of global groundwater withdrawals; rapid declines faster than 0.5 m/yr widespread in the twenty-first century and concentrated in dry regions with extensive cropland; declines accelerated over the past four decades in 30 per cent of the world's regional aquifers; reversals after policy change, managed aquifer recharge and surface-water diversion",
+          "sourceChecked": "https://www.nature.com/articles/s41586-023-06879-8",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USGS estimates cumulative depletion across 40 US aquifers and areas at approximately 1,000 km3 between 1900 and 2008, the rate rising from a 9.2 km3/yr long-run average to almost 25 km3/yr during 2000-2008",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+          "disposition": "verified"
+        },
+        {
+          "claim": "More than 17,000 square miles across 45 states directly affected by subsidence, more than 80 per cent of identified US subsidence attributable to groundwater extraction, and compaction causing a permanent reduction in aquifer-system storage capacity",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/land-subsidence",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Around Houston, water-level declines of roughly 400 feet with up to 10 feet of subsidence; in south-central Arizona, declines of 300 to 500 feet with as much as 12.5 feet of subsidence",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"...and the opening of ground fissures\" attached to the south-central Arizona subsidence figures",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion and https://www.usgs.gov/water-science-school/science/land-subsidence",
+          "disposition": "removed",
+          "note": "Neither cited USGS page attributes ground fissures to Arizona. The Desert Southwest entry on the depletion page ends at \"as much as 12.5 feet of subsidence has been measured. Additionally, lowering of the water table has resulted in the loss of streamside vegetation\" — no fissures. The land-subsidence page does document groundwater-caused fissures, but near Lucerne Lake in San Bernardino County, California, not in Arizona. Earth fissures in south-central Arizona are real, but no source cited in this article carries the claim, so the clause was cut rather than reattributed to a source I have not opened."
+        },
+        {
+          "claim": "The USGS puts saline groundwater at about 12.9 million km3 against roughly 10.5 million km3 of fresh groundwater, with the boundary broadly stable under natural gradients and moved inland and upward by pumping",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+          "disposition": "verified",
+          "note": "Checked closely because the source page contains a units typo: it reads \"3.1 million cubic miles (12.9 cubic kilometers) of saline groundwater ... compared to about 2.6 million cubic miles (10.5 million cubic kilometers) of fresh groundwater\". 3.1 million cubic miles converts to 12.9 million km3, so the article's figure is the correct reading of the page's own primary (cubic-mile) numbers, and the omitted \"million\" is the page's error, not the article's."
+        },
+        {
+          "claim": "USGS documents a reach of the Santa Cruz River south of Tucson photographed in 1942 with mesquite and cottonwood and re-photographed in 1989 with the riparian trees largely gone, after a water-table decline exceeding 100 feet in nearby wells",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The \"30 per cent of the world's regional aquifers\" figure is quoted accurately from the 2024 Nature abstract, but the paper's body is narrower: the late-twentieth-century comparison was possible in only 542 of the 1,693 delineated aquifer systems, and the 30 per cent is a share of those 542. The article follows the abstract, which is defensible, but the denominator is not the full 1,693.",
+        "The article says \"The US Geological Survey defines an aquifer as a body of rock or sediment saturated below the water table that readily transmits water to wells and springs.\" The cited page's actual definition carries no yield criterion — \"The saturated area beneath the water table is called an aquifer\" — although the same page supports the yield distinction elsewhere (\"A very dense granite that will yield little or no water to a well\"). Left as written; the paraphrase is substantively supported, but it is a paraphrase and not the page's definition."
+      ]
+    },
+    {
+      "slug": "water-quality-measurement-explained",
+      "path": "content/en/ecology/freshwater/water-quality-measurement-explained.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "\"Four measurements travel with nearly every field sample the US Geological Survey collects: temperature, pH, specific conductance and dissolved oxygen.\"",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+          "disposition": "qualified",
+          "note": "The cited page draws a distinction the sentence flattens: \"Some measurements, such as temperature, pH, and specific conductance are taken almost every time water is sampled and investigated ... Another common measurement often taken is dissolved oxygen (DO)\". Three parameters are described as near-universal and dissolved oxygen as commonly taken alongside them. Rewritten to that distinction rather than asserting all four travel with nearly every sample."
+        },
+        {
+          "claim": "Dissolved oxygen is inversely related to temperature and carries a seasonal and daily cycle; USGS gives more than 8 mg/L as typical for surface water of normal salinity in summer and defines water below 2 mg/L as hypoxic; the Mississippi/Atchafalaya hypoxic zone forms when nutrient-driven algal production is consumed by bacteria in the subsurface layer",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Turbidity is reported in nephelometric turbidity units and raised by clay, silt, fine organic matter, algae and dissolved coloured compounds; many rivers run below 10 NTU at base flow and rise during storms as material is washed in and stirred from the bed; metals and bacteria attach to particles and suspended material shelters microorganisms from disinfection",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/turbidity-and-water",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The EPA's National Rivers and Streams Assessment builds its biological condition class from the abundance and diversity of bottom-dwelling invertebrates — stonefly and dragonfly larvae, snails, worms, beetles",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-river-and-streams-assessment-2018-19-key-findings",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA's 2024 PFAS national primary drinking water regulation: MCLG zero and MCL 4.0 parts per trillion for PFOA and PFOS; PFHxS, PFNA and HFPO-DA at 10 ppt for both goal and limit; mixtures of two or more of those three plus PFBS addressed with a unitless hazard index of 1; compliance judged on running annual averages at a sampling point",
+          "sourceChecked": "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In May 2026 the EPA announced two proposed rules: one retaining the PFOA and PFOS limits while offering systems two additional years, to 2031, to comply, and one that would rescind the regulations for PFHxS, PFNA, HFPO-DA and the hazard-index mixture",
+          "sourceChecked": "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The WHO Guidelines for drinking-water quality are now in a fourth edition incorporating three addenda, and promote locally relevant standards built on health-based targets, catchment-to-consumer water safety plans and independent surveillance rather than binding international numbers",
+          "sourceChecked": "https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/water-safety-and-quality/drinking-water-quality-guidelines",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In the 2018-19 assessment microcystin and cylindrospermopsin were detected in 9 and 10 per cent of river and stream miles respectively and exceeded EPA recommended criteria in none of the samples",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-river-and-streams-assessment-2018-19-key-findings",
+          "disposition": "verified"
+        },
+        {
+          "claim": "PFOS was detected in 91 per cent of the 290 fish composite samples and EPA is not comparing those concentrations to screening levels because the toxicity assessment is draft; total PCBs exceeded screening levels across 45 per cent of sampled river miles for general fish consumers and 74 per cent for high-frequency consumers",
+          "sourceChecked": "https://www.epa.gov/national-aquatic-resource-surveys/national-river-and-streams-assessment-2018-19-key-findings",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EEA: in 2021 only 37 per cent of Europe's surface water bodies achieved good or high ecological status and 29 per cent good chemical status, but 80 per cent would reach good chemical status if mercury and brominated flame retardants were set aside; the 2024 report's directive data came from the 19 Member States that had reported",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/publications/europes-state-of-water-2024",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The EEA ecological-status indicator updated September 2025 gives 39.6 per cent for 2021 on data from 25 Member States, against 42.4 per cent for all 27 in the previous cycle; the current cycle has no data from Finland or Hungary, excluding them from the earlier analysis would give 40.5 per cent, and including Norway lifts the current figure to 47 per cent; overall ecological status is set by the one-out-all-out principle",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/indicators/ecological-status-of-surface-waters",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Freshwater salinization syndrome (2018): concurrent trends in specific conductance, pH, alkalinity and base cations, with salinization affecting 37 per cent and alkalinization 90 per cent of the drainage area of the contiguous United States over the past century, and rising pH at 66 per cent of 232 USGS monitoring sites, often beginning decades before acid-rain regulation",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29311318&resultType=core (Europe PMC record for PMID 29311318, DOI 10.1073/pnas.1711234115)",
+          "disposition": "verified",
+          "note": "The cited pubmed.ncbi.nlm.nih.gov URL returns HTTP 203 with an effectively empty body to scripted clients, so the abstract was read through the Europe PMC record for the same PMID rather than on PubMed itself. Every figure in the sentence matches the abstract verbatim."
+        }
+      ],
+      "openQuestions": [
+        "The article's gloss that a maximum contaminant level \"also reflects what can be measured and treated\" is standard Safe Drinking Water Act doctrine but is not stated on the cited EPA page, which gives only the MCLG/MCL definitions. Left as background rather than sourced.",
+        "This article's live-dataset figures are all properly anchored already — 2018-19 for the NRSA, 2021 for the EEA status shares, the 2 September 2025 indicator update, the 2022 END-cycle reporting coverage — so no temporal qualifier had to be added."
+      ]
+    },
+    {
+      "slug": "dams-and-river-fragmentation",
+      "path": "content/en/ecology/freshwater/dams-and-river-fragmentation.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "The FAO geo-referenced dams database holds records for over 14,000 structures and states that the files are \"neither complete nor can be considered error-free\"",
+          "sourceChecked": "https://www.fao.org/aquastat/en/databases/dams/index.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "At least 1.2 million instream barriers across 36 European countries at a mean density of 0.74 per kilometre, 68 per cent of them less than two metres high",
+          "sourceChecked": "https://www.nature.com/articles/s41586-020-3005-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Standardised walkover surveys along 2,715 km of stream on 147 rivers indicated that existing records underestimate barrier numbers by roughly 61 per cent",
+          "sourceChecked": "https://www.nature.com/articles/s41586-020-3005-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Assessing 12 million kilometres of river, only 37 per cent of rivers longer than 1,000 km remain free-flowing over their entire length and 23 per cent flow uninterrupted to the ocean, with the very long survivors concentrated in remote Arctic, Amazon and Congo regions",
+          "sourceChecked": "https://www.nature.com/articles/s41586-019-1111-9",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An earlier global overview found 172 of 292 large river systems affected by dams, including the eight most biogeographically diverse",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15831757&resultType=core (Europe PMC record for PMID 15831757, DOI 10.1126/science.1107887)",
+          "disposition": "verified",
+          "note": "PubMed returns HTTP 203 with an empty body to scripted clients; the abstract was read via the Europe PMC record for the same PMID. Wording matches: \"over half (172 out of 292) are affected by dams, including the eight most biogeographically diverse\"."
+        },
+        {
+          "claim": "\"Sediment trapping by dams in the global hydrologic north has driven global sediment flux down to 49 per cent of pre-dam conditions\"",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:35737794&resultType=core (Europe PMC record for PMID 35737794, DOI 10.1126/science.abn7980)",
+          "disposition": "qualified",
+          "note": "The 49 per cent figure is exact, but the causal verb is stronger than the source's. Science says trapping \"has contributed to global sediment flux declines to 49% of pre-dam conditions\" — a contributory attribution in a paper whose whole point is that two opposing human signals (northern trapping, southern land-use erosion) are acting at once. \"Has driven ... down to\" converts one contributor into the cause. Changed to \"has contributed to a decline in global sediment flux to 49 per cent of pre-dam conditions\"."
+        },
+        {
+          "claim": "Intensive land-use change in the global hydrologic south has raised river suspended sediment concentrations by an average of 41 +/- 7 per cent relative to the 1980s, and the dominant source of sediment delivered to the oceans has shifted from Asia to South America; the reconstruction covers 414 major rivers",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:35737794&resultType=core (Europe PMC record for PMID 35737794)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global reservoir carbon footprint of 0.73-2.41 PgCO2-equivalent per year; emissions peaked in 1987 and have declined since as CO2 emissions fall with reservoir age while radiative forcing keeps rising with methane; reservoir methane was 5.2 per cent of global anthropogenic methane emissions in 2020; ebullition and degassing projected to account for more than 75 per cent of future reservoir-induced radiative forcing",
+          "sourceChecked": "https://www.nature.com/articles/s41561-022-01004-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Elwha River: two dams removed between 2011 and 2014 releasing over 10 million tonnes of sediment; kelp and foliose red algae covering more than half the surveyed subtidal seabed were greatly reduced or eliminated where persistent deposits formed and declined with suspended sediment where they did not; most invertebrate and fish taxa thinned in depositional areas but bivalves increased where mud settled over sand and flatfish and Pacific sand lance where sand settled over gravel; macroalgae began returning as the water column cleared",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187742",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Ecological Applications 2022: native plant richness 41 per cent lower below the dams than the upstream reference; six years after removal began it had risen about 31 per cent in the reach between the two former dam sites; non-native richness and cover apparently unaffected; sediment deposition increased native richness on floodplains and decreased it elsewhere in the lowest segment",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1002/eap.2591%22&resultType=core (Europe PMC record for PMID 35343023, DOI 10.1002/eap.2591)",
+          "disposition": "verified",
+          "note": "The cited Wiley URL returns HTTP 403 to scripted clients, so the abstract was read through the Europe PMC record for the same DOI. All four numbers and the landform split match the abstract exactly."
+        },
+        {
+          "claim": "Jinsha River tributary, sampled 2018-2023: upstream fish abundance increased sharply after low-head dam removal with a slight short-term decrease in species richness, and a fishway at another dam on the same river raised both richness and abundance and narrowed the difference between upstream and downstream communities",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39393694&resultType=core (Europe PMC record for PMID 39393694, DOI 10.1016/j.scitotenv.2024.176774)",
+          "disposition": "verified",
+          "note": "Read via Europe PMC because PubMed returns 203 to scripted clients. The abstract confirms the Heishui River tributary, 2018-2023 sampling, the Laomuhe Dam removal result and the separate Songxin Dam fishway result."
+        }
+      ],
+      "openQuestions": [
+        "\"The removal of two large dams on the Elwha River ... remains the best-instrumented case\" is an editorial superlative carried by none of the cited sources. It is plausible and was left alone, but it is unsourced.",
+        "The article's \"released over 10 million tonnes of sediment to the coast\" follows the PLOS ONE abstract (\"altered by a massive sediment influx — over 10 million tonnes\"). The paper's body is more specific: over 10 Mt was eroded from the two reservoirs during the first two years, with approximately 3.5 Mt accumulating near the river mouth. Left as the abstract frames it, but a reader could take the 10 Mt as the nearshore deposit.",
+        "The four-directions connectivity framing (longitudinal, lateral, vertical, temporal) is standard river-ecology background and is carried by no cited source in this article. Not checked against a source, and not changed."
+      ]
+    },
+    {
+      "slug": "freshwater-biodiversity-decline",
+      "path": "content/en/ecology/freshwater/freshwater-biodiversity-decline.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "Monitored freshwater vertebrate populations declined by an average of 85 per cent between 1970 and 2020, against 73 per cent for the global index",
+          "sourceChecked": "https://www.livingplanetindex.org/lpi",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2024 edition draws on 34,836 population time series covering 5,495 species of mammals, birds, fishes, reptiles and amphibians, and reports an average rate of change rather than a count of animals or species",
+          "sourceChecked": "https://www.livingplanetindex.org/lpi and https://www.livingplanetindex.org/about_index",
+          "disposition": "verified"
+        },
+        {
+          "claim": "ZSL's own documentation: a decline of 85 per cent does not mean 85 per cent of animals are gone nor that 85 per cent of populations are declining; about half the species show an average decline; positive and negative trends are roughly balanced in number so the average is negative because the magnitude of declines exceeds that of increases; species enter on data availability, not threat status",
+          "sourceChecked": "https://www.livingplanetindex.org/about_index",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Nature 2020: the reported mean vertebrate decline of more than 50 per cent since 1970 was driven by fewer than 3 per cent of populations and excluding them flips the global trend to an increase; 16 taxonomic-geographic systems contain clusters of extreme decline (about 1 per cent of populations, disproportionately larger-bodied animals) and 7 contain extreme increases (about 0.4 per cent); the remaining 98.6 per cent showed no mean global trend; three systems, all Indo-Pacific, were declining strongly with high certainty",
+          "sourceChecked": "https://www.nature.com/articles/s41586-020-2920-6",
+          "disposition": "verified"
+        },
+        {
+          "claim": "PLOS ONE 2017 diversity-weighted LPI: 14,152 populations of 3,706 species from 3,095 data sources; global 1970-2012 decline 58 per cent weighted against 20 per cent unweighted; freshwater from 46 to 81 per cent; marine from a 12 per cent increase to a 36 per cent decline; terrestrial from a 15 per cent increase to a 38 per cent decline; groups with poorer data coverage appear to be declining faster",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0169156",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Body size cuts through some of the ambiguity, because large freshwater animals are the taxa the population databases cover best and the ones whose ranges have been mapped for longest.\"",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31393076&resultType=core (Europe PMC record for PMID 31393076, DOI 10.1111/gcb.14753)",
+          "disposition": "qualified",
+          "note": "Unsourced, and in tension with the very paper the section then relies on. The megafauna synthesis states that \"population trends and distribution changes of freshwater megafauna, at continental or global scales, remain unclear\" and closes by highlighting \"the various sources of uncertainty in tracking changes in populations and distributions of freshwater megafauna, such as the lack of monitoring data and taxonomic and spatial biases\" — and its distribution data covers only 44 species, in Europe and the United States. The article asserted superior coverage for exactly the taxa its source says are poorly monitored. Narrowed to conspicuousness and comparatively well-documented historical ranges, with the source's own caveat attached."
+        },
+        {
+          "claim": "Global Change Biology 2019: freshwater megafauna (>=30 kg), 126 species from the Living Planet Database and literature plus distribution data for 44 species in Europe and the United States; populations fell 88 per cent from 1970 to 2012, Indomalaya -99 and Palearctic -97 per cent, mega-fishes -94 per cent; 42 per cent of European freshwater megafauna species lost more than 40 per cent of historical range",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31393076&resultType=core (Europe PMC record for PMID 31393076)",
+          "disposition": "verified",
+          "note": "Read via Europe PMC because the cited PubMed URL returns 203 to scripted clients. Every figure matches the abstract, including the realm-level percentages and the 42 per cent / 40 per cent range-contraction pairing, which is easy to transpose and is not transposed here."
+        },
+        {
+          "claim": "Science 2020 meta-analysis: 166 long-term surveys across 1,676 sites; average decline of about 9 per cent per decade for terrestrial insects and an average increase of about 11 per cent per decade for freshwater insects, with considerable variation even between adjacent sites, both patterns largely driven by strong trends in North America and some European regions",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32327596&resultType=core (Europe PMC record for PMID 32327596, DOI 10.1126/science.aax9931)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "That paper carries an editorial expression of concern issued by the journal in January 2026, so it should be read as contested",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41570158&resultType=core (Europe PMC record for PMID 41570158)",
+          "disposition": "verified",
+          "note": "Checked specifically because a recent editorial action attached to a named paper is the kind of claim most likely to be invented. It is real: the Europe PMC record for PMID 32327596 lists \"Expression of concern in: Science. 2026 Jan 22;391(6783):360. doi: 10.1126/science.aee6983\", and that record's title is \"Editorial Expression of Concern for the Report 'Meta-analysis reveals declines in terrestrial but increases in freshwater insect abundances'\", first published 2026-01-22. Both the month and the word \"editorial\" are correct."
+        },
+        {
+          "claim": "ZSL notes that time series for birds, mammals and fishes are longer while amphibians are represented almost entirely by short series, and that long-term data are more often available for species and groups doing comparatively well",
+          "sourceChecked": "https://www.livingplanetindex.org/about_index",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2024 index reports declines of 95 per cent for Latin America and the Caribbean and 76 per cent for Africa, within a range across IPBES regions of 35 to 95 per cent",
+          "sourceChecked": "https://www.livingplanetindex.org/lpi",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Source 7 (Nature, \"One-quarter of freshwater fauna threatened with extinction\") is listed in the sources block but carries no claim in the body, which defers the Red List material to the freshwater-ecosystems overview. The abstract was read and matches the sources-list description (multi-taxon IUCN assessment of 23,496 decapod crustaceans, fishes and odonates, one quarter threatened), so the listing is accurate rather than decorative.",
+        "\"Freshwater is the worst-performing of the three realms reported\" and \"among the most methodologically sensitive headline figures in conservation science\" are editorial characterisations. The LPI page supports the first in substance (\"species are faring much worse in freshwater systems\") but publishes no realm ranking; the second is the article's own judgement.",
+        "Template sameness across this batch: all four articles open with a headline figure plus a reframing sentence, run a middle section on why the measurement is harder than the number suggests, and close with a named limits section (\"What is still unresolved\", \"The two failures the apparatus handles worst\", \"Where the evidence is thinnest\") followed by a numbered source list of seven to nine items. Three of the four share one author desk and identical published and updated dates. Noted rather than restructured, per the brief."
+      ]
+    }
+  ]
+}

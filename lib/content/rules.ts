@@ -24,6 +24,14 @@ export const CONTENT_RULES = {
     "{{",
     "}}",
   ],
+  /**
+   * Masking tokens used by the content scripts. These should never reach
+   * a file: they mean a script masked a protected region and failed to
+   * restore it. The glossary linker shipped `__G16__` into two published
+   * headings because its restore pass did not handle nested masks, and
+   * nothing would have caught it before a reader did.
+   */
+  TOOLING_PLACEHOLDERS: [/__G\d+__/, / PH\d+ /],
 } as const;
 
 /** Loose word-count helper — splits on whitespace, ignores punctuation. */

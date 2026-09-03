@@ -30,6 +30,7 @@ import {
   similarityRatio,
 } from "@/lib/content/quality";
 import { BANNED_PHRASES } from "@/lib/content/tone";
+import { CONTENT_RULES } from "@/lib/content/rules";
 
 export type ValidationSeverity = "error" | "warning";
 
@@ -325,6 +326,23 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
         severity: "error",
         rule: "sources-block-link",
         message: `${internalInSources.length} internal link(s) found inside the Sources block — the linker should never touch this section`,
+        filepath: fp,
+      });
+    }
+  }
+
+  // 13. Tooling masks that escaped a script's restore pass. An error, not
+  //     a warning: it is always a bug and it is always reader-visible.
+  //     The glossary linker shipped "__G16__" into two published headings
+  //     because its restore pass did not handle nested masks, and nothing
+  //     would have caught it before a reader did.
+  for (const pattern of CONTENT_RULES.TOOLING_PLACEHOLDERS) {
+    const hit = article.body.match(pattern);
+    if (hit) {
+      issues.push({
+        severity: "error",
+        rule: "tooling-placeholder",
+        message: `body contains an unrestored masking token "${hit[0].trim()}" — a content script masked a region and did not put it back`,
         filepath: fp,
       });
     }
