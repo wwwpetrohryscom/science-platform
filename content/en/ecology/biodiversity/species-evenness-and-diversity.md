@@ -15,7 +15,7 @@ related:
   - why-species-counts-mislead-conservation
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
-_bodyHash: a0e69842
+_bodyHash: 840f594a
 readingTime: 4
 ---
 

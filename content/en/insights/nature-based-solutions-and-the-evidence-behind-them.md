@@ -19,7 +19,7 @@ related:
   - ecological-restoration-evidence
   - urban-ecology-explained
   - carbon-offset-outsourcing-science
-_bodyHash: aa8bfcc6
+_bodyHash: e63c76b6
 ---
 
 IUCN defines nature-based solutions as "actions to address societal challenges through the protection, sustainable management and restoration of ecosystems, benefiting both biodiversity and human well-being". That is a statement about intent and about co-benefits. It is not a statement about mechanism, magnitude or measurability, and it groups together interventions whose evidence bases have almost nothing in common.

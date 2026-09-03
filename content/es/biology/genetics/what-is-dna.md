@@ -4,8 +4,8 @@ excerpt: El ADN es un código molecular de cuatro letras que almacena la informa
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
-updatedDate: '2026-05-08'
-readingTime: 6
+updatedDate: '2026-09-03'
+readingTime: 7
 tags:
   - dna
   - genetics
@@ -21,10 +21,10 @@ faq:
     answer: La funcionalidad del genoma depende de qué se entienda por función. La secuencia codificante de proteínas es una fracción pequeña del genoma, mientras que los papeles reguladores, estructurales y evolutivos son más complejos. Las afirmaciones de que casi todas las bases son funcionales deben tomarse con cautela salvo que distingan la actividad bioquímica de la función biológica sometida a selección.
   - question: ¿La mayoría de las enfermedades son genéticas?
     answer: Muchas enfermedades comunes tienen componentes genéticos, pero la mayoría no son puramente genéticas. El entorno, la conducta, el historial de exposiciones y el azar suelen interactuar con el riesgo heredado. Los trastornos monogénicos existen y son importantes para quienes los padecen, pero no son un modelo completo de la carga de enfermedad común.
-_bodyHash: dfbd8c86
+_bodyHash: '26283439'
 ---
 
-El ADN —ácido desoxirribonucleico— es un código molecular de cuatro letras que almacena información genética, tal como lo resume el [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Es el portador de la herencia y el sustrato sobre el que opera la [evolución](/es/biology/evolution/cell-types-as-units-of-evolution). También se exagera de forma rutinaria en la discusión pública, de maneras que la biología real no respalda.
+El ADN —ácido desoxirribonucleico— es un código molecular de cuatro letras que almacena información genética, tal como lo resume el [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Es el portador de la herencia y el sustrato sobre el que opera la evolución. También se exagera de forma rutinaria en la discusión pública, de maneras que la biología real no respalda.
 
 Este texto recorre qué es el ADN, qué hace y el conjunto —igual de importante— de cosas que no hace.
 
@@ -38,7 +38,7 @@ En una célula humana típica, el ADN se organiza en 46 cromosomas (23 pares) qu
 
 ## El código
 
-El ADN se lee en grupos de tres bases —los codones—, cada uno de los cuales especifica uno de los veinte aminoácidos (o una señal de parada). Se emplea el mismo código en prácticamente todos los organismos, de las bacterias a los humanos. Ese código compartido es una de las pruebas aisladas más sólidas de la ascendencia común de [la vida](/es/biology/cells/what-is-a-cell) en la Tierra. No hay ninguna razón bioquímica por la que tuviera que ser este código y no otro; la universalidad refleja contingencia histórica más que necesidad funcional.
+El ADN se lee en grupos de tres bases —los codones—, cada uno de los cuales especifica uno de los veinte aminoácidos (o una señal de parada). Se emplea el mismo código en prácticamente todos los organismos, de las bacterias a los humanos. Ese código compartido es una de las pruebas aisladas más sólidas de la ascendencia común de la vida en la Tierra. No hay ninguna razón bioquímica por la que tuviera que ser este código y no otro; la universalidad refleja contingencia histórica más que necesidad funcional.
 
 El flujo de información desde el ADN hasta la función sigue un camino bien caracterizado: el ADN se transcribe a ARN, el ARN se traduce a proteína y la proteína hace la mayor parte del trabajo celular. Es el dogma central, formulado por Francis Crick en 1958 y desarrollado desde entonces. Hay excepciones bien caracterizadas —los virus de ARN, los retroelementos, los ARN reguladores que actúan sin ser traducidos—, pero el núcleo del dogma sigue siendo un principio organizador útil.
 
@@ -56,13 +56,13 @@ En la mayoría de los caracteres —la estatura, la susceptibilidad a enfermedad
 
 Hay varias cosas que el ADN no determina, y la distancia entre el discurso popular y la biología real pasa por esta lista.
 
-**El estado de una célula concreta en un momento dado.** Dos [células](/es/biology/cells/what-is-a-cell) con ADN idéntico pueden hallarse en estados radicalmente distintos por diferencias en la estructura de la cromatina, en las concentraciones de factores de transcripción, en la [historia de señalización](/es/biology/cells/cell-signaling-pathways-basics) y en el ruido estocástico de la abundancia molecular. El genotipo es una entrada más, entre muchas, del estado celular.
+**El estado de una célula concreta en un momento dado.** Dos células con ADN idéntico pueden hallarse en estados radicalmente distintos por diferencias en la estructura de la cromatina, en las concentraciones de factores de transcripción, en la historia de señalización y en el ruido estocástico de la abundancia molecular. El genotipo es una entrada más, entre muchas, del estado celular.
 
 **El curso del desarrollo.** El desarrollo no es el despliegue de un programa genético en el vacío. Es una interacción continua entre el genoma, el entorno celular (que incluye las aportaciones maternas en el desarrollo temprano) y las restricciones físicas del organismo en formación. El mismo genoma en un entorno uterino distinto produce un organismo mensurablemente distinto.
 
 **La mayor parte de la variación de la mayoría de los caracteres complejos.** En los caracteres con aportaciones ambientales y conductuales sustanciales —casi todo el riesgo de enfermedad, casi todos los rasgos psicológicos, casi todos los resultados sociales—, el ADN explica una fracción de la varianza, a menudo minoritaria. La heredabilidad no es lo mismo que la determinación genética: es una medida de qué parte de la *variación* de un carácter, en una *población dada* y en un *entorno dado*, puede atribuirse estadísticamente a diferencias genéticas.
 
-**La trayectoria futura de un individuo.** Conocer la secuencia completa del ADN de una persona no permite predecir su [vida](/es/biology/cells/what-is-a-cell) con precisión. Las implicaciones deterministas de las puntuaciones de riesgo poligénico se exageran de forma rutinaria en la cobertura divulgativa. Esas mismas puntuaciones, que desplazan de manera apreciable el riesgo en el plano poblacional, suelen ser ruidosas en el plano individual.
+**La trayectoria futura de un individuo.** Conocer la secuencia completa del ADN de una persona no permite predecir su vida con precisión. Las implicaciones deterministas de las puntuaciones de riesgo poligénico se exageran de forma rutinaria en la cobertura divulgativa. Esas mismas puntuaciones, que desplazan de manera apreciable el riesgo en el plano poblacional, suelen ser ruidosas en el plano individual.
 
 Estos límites no son lagunas de nuestro conocimiento que vaya a colmar más secuenciación. Son restricciones inherentes al modo en que el ADN participa en la biología. La distancia entre «el ADN cuenta» y «el ADN determina» es grande, y casi todo el discurso popular la anula.
 
@@ -71,6 +71,12 @@ Estos límites no son lagunas de nuestro conocimiento que vaya a colmar más sec
 El ADN es el medio de almacenamiento de la información biológica y el sustrato sobre el que opera la selección. Hace un trabajo enorme; es el punto de partida adecuado para casi cualquier pregunta de la biología moderna. No es, ni podría ser, una descripción completa de lo que un organismo es ni de aquello en lo que se convertirá.
 
 La posición más defendible sobre el ADN en el debate público contemporáneo es más o menos esta: *el ADN cuenta, el genoma es real, la herencia es real y los individuos no son reducibles a su genoma*. Las cuatro partes son necesarias. Si se suprime cualquiera de ellas, se obtiene uno de los malentendidos habituales.
+
+## Adónde lleva el resto de este subtema
+
+Una secuencia solo es útil en el contexto de lo que se hace con ella. [Qué es un genoma](/es/biology/genetics/what-is-a-genome) lleva la molécula a la escala del complemento completo de un organismo y explica por qué el tamaño del genoma no predice casi nada sobre la complejidad. La [replicación y reparación](/es/biology/genetics/dna-replication-and-repair) es cómo se copia la secuencia con fidelidad suficiente para heredarse, y [las mutaciones que se cuelan igualmente](/es/biology/genetics/mutation-types-and-rates) son lo que queda — cuantificado, porque la tasa por generación hoy se mide directamente.
+
+Cómo una secuencia fija produce células distintas es el tema de [la regulación de la expresión génica](/es/biology/genetics/how-gene-expression-is-regulated) y de [la regulación epigenética](/es/biology/genetics/epigenetics-explained), término con un sentido técnico preciso y un uso popular mucho más laxo. Dos artículos tratan de lo que los datos pueden y no pueden sostener: [el estadístico de heredabilidad](/es/biology/genetics/heritability-explained), probablemente el número peor leído de la biología, y los [estudios de asociación del genoma completo](/es/biology/genetics/genome-wide-association-studies-explained), donde la distancia entre asociación y mecanismo lo es todo. La [evo-devo unicelular](/es/biology/genetics/single-cell-evo-devo) es donde la resolución de estos métodos cambia más deprisa.
 
 ## Sources
 

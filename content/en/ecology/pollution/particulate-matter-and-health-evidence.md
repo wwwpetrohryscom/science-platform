@@ -18,7 +18,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
 pillar: environmental-pollution-explained
-_bodyHash: 14bad7b9
+_bodyHash: 7b37c13d
 ---
 
 The exposure metric at the centre of modern air pollution epidemiology is a size class rather than a chemical: PM2.5 is whatever fraction of airborne material behaves, aerodynamically, as though it were 2.5 micrometres across or less. A microgram of it can be sea salt, ammonium nitrate, road dust, diesel soot or condensed wood smoke, and a filter weighing treats all of them identically. That crudeness is precisely why the evidence base is as large as it is — every network in the world can measure the same quantity the same way — and it is also where the remaining questions come from.

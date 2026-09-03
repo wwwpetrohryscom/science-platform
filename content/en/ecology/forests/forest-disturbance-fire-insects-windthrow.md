@@ -18,7 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
-_bodyHash: ba55f559
+_bodyHash: 996c20b9
 ---
 
 For its 2025 assessment, FAO asked countries to report the forest area damaged each year from 2000 to 2023, split into insects, diseases, severe weather and other causes. It then wrote, of the results, that given the patchy data it was not possible to estimate the total forest area affected by disturbances globally.

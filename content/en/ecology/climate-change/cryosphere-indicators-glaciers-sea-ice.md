@@ -4,8 +4,8 @@ excerpt: Sea-ice extent, glacier mass balance, ice-sheet loss, snow cover, perma
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-08-29'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 8
 tags:
   - climate-change
   - cryosphere
@@ -18,10 +18,10 @@ related:
   - ocean-heat-content-indicators
   - what-is-climate-change
 pillar: what-is-climate-change
-_bodyHash: cdff8c11
+_bodyHash: 957b1f0f
 ---
 
-The cryosphere — the frozen part of the Earth system — is not one thing. Sea ice, glaciers, ice sheets, snow cover, and permafrost are physically distinct reservoirs with different formation mechanisms, response timescales, and indicator products. They have one common property useful for the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring): each one responds to surface energy balance in a way that integrates climate forcing over a characteristic time, so the cryosphere indicators together provide constraints the atmospheric indicators alone do not.
+The cryosphere — the frozen part of the Earth system, and one of the clearest places [warming shows up in observations](/en/ecology/climate-change/what-is-climate-change) — is not one thing. Sea ice, glaciers, ice sheets, snow cover, and permafrost are physically distinct reservoirs with different formation mechanisms, response timescales, and indicator products. They have one common property useful for the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring): each one responds to surface energy balance in a way that integrates climate forcing over a characteristic time, so the cryosphere indicators together provide constraints the atmospheric indicators alone do not.
 
 This piece walks through the main indicators, what each one measures, and where their uncertainties live.
 
@@ -33,7 +33,7 @@ The U.S. [National Snow and Ice Data Center](https://nsidc.org/) maintains the r
 
 The Arctic record shows a downward trend in September (annual minimum) extent of about 12–13% per decade since 1979. The September minimum extent now averages roughly half the late-1970s value. Antarctic sea ice has shown more variable behavior in the satellite record, with a small positive trend through about 2014 and rapid decline since. The [IPCC AR6 WG1 Chapter 9](https://www.ipcc.ch/report/ar6/wg1/) reviews both records and the methodological choices.
 
-Sea ice matters for the [Earth energy budget](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) because it reflects most incident shortwave radiation back to space. The ice-albedo feedback — ice loss reduces albedo, which absorbs more shortwave, which warms further — is one of the better-characterized positive feedbacks in the climate system, documented in the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) materials and in AR6.
+Sea ice matters for the Earth energy budget because it reflects most incident shortwave radiation back to space. The ice-albedo feedback — ice loss reduces albedo, which absorbs more shortwave, which warms further — is one of the better-characterized positive feedbacks in the climate system, documented in the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) materials and in AR6.
 
 ## Glacier mass balance
 
@@ -65,7 +65,7 @@ Permafrost — perennially frozen ground in high-latitude and high-altitude regi
 
 Each cryosphere indicator integrates climate forcing over a different timescale and over a different geographic region. Sea ice responds on seasonal-to-annual timescales. Mountain glaciers respond on decadal-to-centennial timescales. Ice sheets respond on centennial-to-millennial timescales for the largest features. Permafrost responds on multi-decadal timescales depending on depth.
 
-Read together, the indicators are consistent with the warming signal recovered from the atmospheric and ocean records. Sea-ice loss, glacier retreat, and ice-sheet mass loss in both polar regions are the expected fingerprint of a positive top-of-atmosphere energy imbalance. None of the indicators individually would settle the case; the convergence of the cryosphere indicators with the temperature and ocean-heat-content records is part of what makes the [multiple-lines-of-evidence framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) load-bearing.
+Read together, the indicators are consistent with the warming signal recovered from the atmospheric and ocean records. Sea-ice loss, glacier retreat, and ice-sheet mass loss in both polar regions are the expected fingerprint of a positive top-of-atmosphere energy imbalance. None of the indicators individually would settle the case; the convergence of the cryosphere indicators with the temperature and ocean-heat-content records is part of what makes the multiple-lines-of-evidence framework load-bearing.
 
 ## Methods and uncertainty
 
@@ -87,7 +87,7 @@ The pattern is that abruptness and irreversibility are independent properties th
 
 ## What the cryosphere indicators do not capture
 
-The cryosphere indicators describe the frozen reservoirs of the climate system. They do not describe regional surface temperature, precipitation patterns, marine ecosystem response, or freshwater hydrology in their own right. They constrain the [Earth energy imbalance](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) and contribute to the [sea-level budget](/en/ecology/climate-change/sea-level-rise-indicators); for the rest of the climate signal, the temperature, ocean, and atmospheric indicators do the work.
+The cryosphere indicators describe the frozen reservoirs of the climate system. They do not describe regional surface temperature, precipitation patterns, marine ecosystem response, or freshwater hydrology in their own right. They constrain the Earth energy imbalance and contribute to the sea-level budget; for the rest of the climate signal, the temperature, ocean, and atmospheric indicators do the work.
 
 ## Sources
 

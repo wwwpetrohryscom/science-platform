@@ -4,8 +4,8 @@ excerpt: Le changement climatique désigne la modification à long terme du bila
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-09-02'
-readingTime: 8
+updatedDate: '2026-09-03'
+readingTime: 9
 tags:
   - climate
   - fundamentals
@@ -22,7 +22,7 @@ faq:
     answer: 'La température moyenne mondiale est un forçage thermodynamique qui entraîne des changements régionaux bien plus amples : journées de chaleur extrême, régimes de précipitations, stratification de l''océan, niveau de la mer. Le seuil de deux degrés n''est pas une falaise, mais un repère utile au-delà duquel plusieurs grandes rétroactions (méthane arctique, dynamique des calottes glaciaires, dépérissement forestier) ont davantage de chances de s''enclencher.'
   - question: Qu'est-ce qui reste réellement incertain ?
     answer: L'ampleur des changements régionaux de précipitations, le calendrier et la réversibilité des rétroactions liées aux calottes glaciaires, la réponse des nuages au réchauffement et l'intensité des rétroactions du cycle du carbone. Les incertitudes portent sur *combien* et *à quelle vitesse*, non sur la réalité du phénomène ni sur sa cause.
-_bodyHash: 56b7cb3
+_bodyHash: 77e09d90
 ---
 
 Le changement climatique désigne la modification à long terme du bilan énergétique de la Terre, due principalement — depuis 150 ans — à l'évolution de la composition de l'atmosphère. Le mécanisme est solidement établi par l'[évaluation du Groupe de travail I du sixième rapport d'évaluation du GIEC (AR6)](https://www.ipcc.ch/report/ar6/wg1/) et résumé pour le grand public par la [synthèse des preuves climatiques de la NASA](https://science.nasa.gov/climate-change/evidence/). Les questions réellement ouvertes ne sont pas celles que le débat public met habituellement en avant.
@@ -82,6 +82,14 @@ La variabilité infra-annuelle qui a produit le dernier record a été modulée 
 Le changement climatique est une conséquence thermodynamique de la modification de la composition de l'atmosphère. Les grandes évaluations tiennent pour établis le mécanisme et l'attribution humaine du réchauffement récent. Le front de recherche actif porte sur l'amplitude, les impacts régionaux, l'intensité des rétroactions et la réversibilité — non sur les affirmations fondatrices.
 
 Devant un argument sur le climat, le filtre pertinent est le suivant : à laquelle de ces questions du front de recherche s'adresse-t-il ? C'est là que se situent les désaccords utiles. Les autres — ceux qui rejugent le mécanisme de base ou l'attribution — sont tranchés depuis assez longtemps pour que les discuter ne soit plus le lieu où se fait la science.
+
+## Où mène le reste de cette sous-thématique
+
+Le mécanisme exposé plus haut repose sur deux grandeurs que le reste de cette rubrique décompose. [Gaz à effet de serre et forçage radiatif](/fr/ecology/climate-change/greenhouse-gases-and-radiative-forcing) explique ce qu'est le forçage et pourquoi les potentiels de réchauffement dépendent de la fenêtre d'intégration retenue ; la [sensibilité climatique](/fr/ecology/climate-change/climate-sensitivity-explained) traite de la réponse à ce forçage et de la raison pour laquelle les deux chiffres habituellement cités répondent à des questions différentes. Les [budgets carbone restants](/fr/ecology/climate-change/carbon-budgets-and-remaining-emissions) sont ce que produisent ces deux grandeurs combinées, et le résultat le plus souvent mal lu du domaine.
+
+Les preuves forment un ensemble de séries tenues séparément. Les [relevés de température mondiale](/fr/ecology/climate-change/global-temperature-records-explained), le [suivi des concentrations de gaz à effet de serre](/fr/ecology/climate-change/greenhouse-gas-concentrations-monitoring), le contenu thermique de l'océan et l'élévation du niveau de la mer — tous deux liés plus haut — et les [indicateurs de la cryosphère](/fr/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) ont chacun leur histoire instrumentale et leur structure d'erreur, et [le cadre d'indicateurs](/fr/ecology/climate-change/climate-indicators-earth-system-monitoring) est la tentative de les lire ensemble.
+
+Sur les questions plus difficiles : l'[incertitude des projections](/fr/ecology/climate-change/climate-models-projections-uncertainty) précise ce qu'un modèle peut et ne peut pas dire, l'[attribution des événements extrêmes](/fr/ecology/climate-change/extreme-weather-attribution-basics) présente la méthode qui a remplacé le « aucun événement isolé ne peut être attribué », les [rétroactions du cycle du carbone](/fr/ecology/climate-change/carbon-cycle-feedbacks) et le [puits des forêts tempérées](/fr/ecology/climate-change/temperate-forest-carbon-sink-decline) traitent des puits qui décident de la part d'une émission qui reste dans l'air, et les [indicateurs d'adaptation et d'atténuation](/fr/ecology/climate-change/climate-adaptation-mitigation-indicators) suivent le versant des réponses humaines.
 
 ## Sources
 

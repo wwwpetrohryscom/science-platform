@@ -18,7 +18,7 @@ related:
   - species-richness-explained
   - biomes-explained
 pillar: what-is-an-ecosystem
-_bodyHash: 5ea87376
+_bodyHash: b9c72efa
 ---
 
 A city has a radiation budget, a water balance, a nutrient budget and a species pool. Each of those can be instrumented, and each behaves differently from the landscape the city replaced — which makes an urban area a legitimate object for the same accounting used on [any other ecosystem defined by its flows](/en/ecology/ecosystems/what-is-an-ecosystem), rather than a gap in the map where ecology stops. The interesting results in the field are mostly about how much the accounting changes, and how easily the measurement method decides the answer.

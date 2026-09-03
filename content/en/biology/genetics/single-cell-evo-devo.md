@@ -4,7 +4,7 @@ excerpt: Cell-type atlases across species are revealing that the conserved unit 
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-02-02'
-updatedDate: '2026-05-08'
+updatedDate: '2026-09-03'
 readingTime: 4
 tags:
   - evo-devo
@@ -15,14 +15,14 @@ related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-dna
-_bodyHash: 926ca328
+_bodyHash: dd23b8a0
 ---
 
-For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual [cells](/en/biology/cells/what-is-a-cell), using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and major peer-reviewed journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/). The shift is consequential: the unit of evolutionary [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) may be finer than the network and finer than the organ.
+For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question, by reading which parts of [the genome](/en/biology/genetics/what-is-dna) are active one cell at a time. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual cells, using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and major peer-reviewed journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/). The shift is consequential: the unit of evolutionary conservation may be finer than the network and finer than the organ.
 
 ## The shift in unit of analysis
 
-Bulk transcriptomics — averaging the expression of thousands of [cells](/en/biology/cells/what-is-a-cell) in a tissue — masks what happens when a tissue contains many distinct cell types in different ratios. The signals from rare cell types are lost in the average; the signals from abundant types dominate. Single-cell sequencing breaks the average: instead of one expression vector per tissue, you get tens of thousands per tissue, each from a single cell.
+Bulk transcriptomics — averaging the expression of thousands of cells in a tissue — masks what happens when a tissue contains many distinct cell types in different ratios. The signals from rare cell types are lost in the average; the signals from abundant types dominate. Single-cell sequencing breaks the average: instead of one expression vector per tissue, you get tens of thousands per tissue, each from a single cell.
 
 When you cluster the resulting cells by their transcriptional state and ask which clusters correspond to which classical cell types, you usually find good correspondence — and a long tail of fine-grained subdivisions that classical histology missed. The "cell type" the textbook described is often a cluster of related but distinguishable transcriptional states.
 
@@ -34,7 +34,7 @@ When cell-type atlases of distantly related animals are aligned by shared regula
 
 This is the kind of finding that was previously inaccessible. Classical homology was a statement about structures: this fin and this arm are evolutionarily related because they share developmental origin and topology. Cell-type homology is a statement about transcriptional identity: this cell type in a sponge and this cell type in a vertebrate share a regulatory module and an inferred ancestral state, even though the structures around them are non-homologous.
 
-The implication is significant. The conserved unit of animal [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) may not be the body plan or the organ — it may be the cell type, with body plans assembled from a partially conserved cell-type toolkit. This is closer to the developmental geneticist's intuition (Hox-like modules of regulatory information) than to the classical morphologist's intuition (homology of structure).
+The implication is significant. The conserved unit of animal evolution may not be the body plan or the organ — it may be the cell type, with body plans assembled from a partially conserved cell-type toolkit. This is closer to the developmental geneticist's intuition (Hox-like modules of regulatory information) than to the classical morphologist's intuition (homology of structure).
 
 ## Method caveats
 
@@ -46,17 +46,17 @@ This bar is increasingly visible in the literature, but claims should still be r
 
 ## What this changes about evo-devo
 
-If cell types are the conserved unit, several long-running debates in [evo-devo](/en/biology/evolution/cell-types-as-units-of-evolution) simplify.
+If cell types are the conserved unit, several long-running debates in evo-devo simplify.
 
 The persistence of regulatory modules makes more sense — you do not need to explain why a network persists across hundreds of millions of years; you need to explain why a cell type does, which is a question about the integration of a regulatory module with a stable functional role.
 
-The repeated re-[evolution](/en/biology/evolution/cell-types-as-units-of-evolution) of complex structures (eyes, wings, neurons) becomes less mysterious — the regulatory machinery for the constituent cell types was already available; assembling them into a structure under selection happens repeatedly because the substrate is reusable.
+The repeated re-evolution of complex structures (eyes, wings, neurons) becomes less mysterious — the regulatory machinery for the constituent cell types was already available; assembling them into a structure under selection happens repeatedly because the substrate is reusable.
 
 The boundary between "homology" and "convergence" becomes a question about the level of analysis. Two structures may be convergent at the morphological level but homologous at the cell-type level. This is not a paradox — it is a more accurate description of what is shared.
 
 ## What survives the shift
 
-The classical results of [evo-devo](/en/biology/evolution/cell-types-as-units-of-evolution) — Hox patterning, the Pax6 master-regulator story, the deep [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) of developmental [signaling](/en/biology/cells/cell-signaling-pathways-basics) pathways — survive intact. They are described more precisely now, often in terms of which cell types they instantiate. The shift is not a refutation of the previous generation's work; it is a finer-grained reformulation.
+The classical results of evo-devo — Hox patterning, the Pax6 master-regulator story, the deep conservation of developmental signaling pathways — survive intact. They are described more precisely now, often in terms of which cell types they instantiate. The shift is not a refutation of the previous generation's work; it is a finer-grained reformulation.
 
 The bigger change is methodological. The field's empirical center of gravity is moving from candidate-gene screens to atlas-scale comparative genomics. The next decade of work in evo-devo will, in large part, look like cell-type comparative biology. The tools are mature; the comparative reference is filling in; the conceptual framework is in place.
 

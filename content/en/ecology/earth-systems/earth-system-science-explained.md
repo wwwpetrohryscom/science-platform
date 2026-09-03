@@ -5,7 +5,7 @@ type: pillar
 author: environmental-science-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
-readingTime: 14
+readingTime: 9
 tags:
   - earth-system
   - biogeochemical-cycles
@@ -24,7 +24,7 @@ faq:
     answer: Climate science is one part of it. Earth system science extends the same coupled framework to the carbon, water, and nitrogen cycles, to ecosystems, and to the solid Earth, and it studies processes on timescales from days to millions of years, not only the anthropogenic warming signal.
   - question: Why do feedbacks matter so much in this framework?
     answer: Because they set how large a response follows from a given push. IPCC AR6 assesses the net climate feedback parameter at −1.16 W m⁻² °C⁻¹, with a very likely range of −1.81 to −0.51 — a range wide enough that it, not the size of the forcing, dominates uncertainty in long-run warming.
-_bodyHash: 85a53e80
+_bodyHash: addd7de2
 ---
 
 A hurricane is a weather event, a fishery collapse is an ecology problem, and a shift in the Sahara's rainfall belt is a climatology question. That is how the sciences were organised for most of the twentieth century, and it worked well enough as long as each field stayed inside its own boundary. It stopped working when the questions people most wanted answered — how much warming follows a given emission, whether a forest will keep absorbing carbon, why a Pacific temperature anomaly changes East African rainfall — turned out to depend on what happens *between* the components rather than inside any one of them.
@@ -37,15 +37,15 @@ The subject matter is not a list of components. It is the set of couplings betwe
 
 **Where does the energy go?** Sunlight enters, infrared radiation leaves, and in between the energy is stored, transported, and converted. The accounting is covered in the applied-physics articles on [Earth's energy balance](/en/physics/energy/solar-radiation-and-earth-energy-balance) and the [planetary heat engine](/en/physics/thermodynamics/earth-energy-budget-and-the-second-law); the Earth-system question is which reservoir absorbs the surplus and how quickly it moves between them.
 
-**Where does the matter go?** Carbon, water, nitrogen, phosphorus, and sulphur move between reservoirs on their own characteristic timescales. The shared grammar for describing that movement — reservoirs, fluxes, and [residence time](/en/glossary/residence-time) — is set out in [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained), and worked through in detail for [carbon](/en/ecology/earth-systems/carbon-cycle-explained), [water](/en/ecology/earth-systems/global-water-cycle-explained), and [nitrogen](/en/ecology/earth-systems/nitrogen-cycle-explained).
+**Where does the matter go?** Carbon, water, nitrogen, phosphorus, and sulphur move between reservoirs on their own characteristic timescales. The shared grammar for describing that movement — reservoirs, fluxes, and [residence time](/en/glossary/residence-time) — is set out in [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained), and worked through in detail for carbon, water, and nitrogen.
 
 **What amplifies or damps a change?** A perturbation to one component alters another, which alters the first. These loops — [climate feedbacks](/en/ecology/earth-systems/climate-feedback-mechanisms) — determine how much response a given push produces.
 
-**What is predictable, and over what horizon?** Some behaviour is forced and follows the push; some is internally generated and merely oscillates. Separating the two is the subject of [predictability](/en/ecology/earth-systems/earth-system-predictability-explained), and the reason a two-week weather forecast and a century-scale projection are different kinds of statement.
+**What is predictable, and over what horizon?** Some behaviour is forced and follows the push; some is internally generated and merely oscillates. Separating the two is the subject of predictability, and the reason a two-week weather forecast and a century-scale projection are different kinds of statement.
 
 ## The components and their clocks
 
-The conventional division is into five components, described individually in [Earth system components](/en/ecology/earth-systems/earth-system-components-explained): the [atmosphere](/en/glossary/atmosphere), the [hydrosphere](/en/glossary/hydrosphere), the [cryosphere](/en/glossary/cryosphere), the [biosphere](/en/glossary/biosphere), and the [lithosphere](/en/glossary/lithosphere) or geosphere. The division is a convenience, not a physical boundary — soil moisture belongs to three of them at once, and sea ice sits at the junction of two more.
+The conventional division is into five components, described individually in [Earth system components](/en/ecology/earth-systems/earth-system-components-explained): the atmosphere, the hydrosphere, the cryosphere, the biosphere, and the lithosphere or geosphere. The division is a convenience, not a physical boundary — soil moisture belongs to three of them at once, and sea ice sits at the junction of two more.
 
 What makes the division useful is that each component has a characteristic response time, and those times differ by many orders of magnitude. The atmosphere mixes globally within weeks to a year or two and holds only about 12,900 cubic kilometres of water at any moment, roughly a thousandth of one per cent of the planet's total, which NASA notes is cycled through some 495,000 cubic kilometres a year — a complete turnover in a matter of days. The surface ocean responds over years, the deep ocean over centuries; NOAA estimates that a parcel of water takes on the order of a thousand years to complete a circuit of the global overturning circulation. Ice sheets respond over millennia, and the rock cycle over hundreds of millions of years — NASA's Earth Observatory describes carbon taking 100 to 200 million years to move through the slow cycle between rocks, soil, ocean, and air.
 
@@ -101,7 +101,7 @@ The related question of which coupled changes might be abrupt or hard to reverse
 
 ## Where to go next
 
-The supporting articles in this cluster split the framework into workable pieces: the [components](/en/ecology/earth-systems/earth-system-components-explained) and their timescales; the shared logic of [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained) and the [carbon](/en/ecology/earth-systems/carbon-cycle-explained), [water](/en/ecology/earth-systems/global-water-cycle-explained), and [nitrogen](/en/ecology/earth-systems/nitrogen-cycle-explained) cycles in particular; [feedbacks](/en/ecology/earth-systems/climate-feedback-mechanisms) in general and the [water-vapour](/en/ecology/earth-systems/water-vapor-feedback-explained) and [ice-albedo](/en/ecology/earth-systems/ice-albedo-feedback-explained) cases in detail; [ocean circulation](/en/ecology/earth-systems/ocean-circulation-and-climate), [ENSO](/en/ecology/earth-systems/el-nino-la-nina-enso-explained), and [teleconnections](/en/ecology/earth-systems/climate-variability-and-teleconnections); the [cryosphere](/en/ecology/earth-systems/cryosphere-in-the-earth-system) and the [biosphere](/en/ecology/earth-systems/biosphere-climate-interactions) as active participants; and the methods — [Essential Climate Variables](/en/ecology/earth-systems/essential-climate-variables-explained), [Earth system models](/en/ecology/earth-systems/earth-system-models-explained), [predictability](/en/ecology/earth-systems/earth-system-predictability-explained), and [tipping points](/en/ecology/earth-systems/earth-system-tipping-points).
+The supporting articles in this cluster split the framework into workable pieces: the components and their timescales; the shared logic of biogeochemical cycles and the carbon, water, and nitrogen cycles in particular; feedbacks in general and the water-vapour and ice-albedo cases in detail; ocean circulation, ENSO, and teleconnections; the cryosphere and the biosphere as active participants; and the methods — Essential Climate Variables, Earth system models, predictability, and tipping points.
 
 ## Sources
 

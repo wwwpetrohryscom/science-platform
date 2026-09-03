@@ -18,7 +18,7 @@ related:
   - sea-level-rise-indicators
   - carbon-budgets-and-remaining-emissions
   - measurement-uncertainty-explained
-_bodyHash: 7835e7e5
+_bodyHash: 46a11437
 ---
 
 A published environmental figure passes through at least five hands: the instrument, the dataset that assembles many instruments, the assessment that reconciles several datasets, the summary that states the assessment's finding, and whatever repeats the summary afterwards. Uncertainty is stated explicitly at the first four. It is almost always gone by the fifth, and the loss is not gradual erosion — it happens in one step, when a finding is compressed into a single quotable sentence.

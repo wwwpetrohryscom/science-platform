@@ -18,7 +18,7 @@ related:
   - soil-carbon-measurement-and-uncertainty
   - soil-microbiome-regenerative-agriculture
 pillar: soil-science-explained
-_bodyHash: cfce98b6
+_bodyHash: 182edcc0
 ---
 
 A 2019 analysis in *Nature* assembled 6,759 georeferenced samples into a global model of soil nematode abundance and arrived at [4.4 ± 0.64 × 10²⁰ individuals](https://pubmed.ncbi.nlm.nih.gov/31341281/) in the world's surface soils, with a combined biomass of roughly 0.3 gigatonnes. The distribution was not the one most people would guess: sub-Arctic soils hold 38 per cent of the total, against 24 per cent in temperate and 21 per cent in tropical regions.

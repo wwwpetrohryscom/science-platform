@@ -16,7 +16,7 @@ related:
   - what-is-climate-change
   - greenhouse-gases-and-radiative-forcing
 pillar: what-is-climate-change
-_bodyHash: bee882b
+_bodyHash: bd2dfdfb
 ---
 
 "Sea level is rising" is a true statement that hides several different measurements. Global mean sea level, local relative sea level, and the rate of rise are three separate indicators that answer different questions. The agencies that report them — the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) for synthesis, the [NASA Sea Level Change Portal](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/) for the satellite altimeter record, the [NOAA tides-and-currents network](https://tidesandcurrents.noaa.gov/) for U.S. coastal gauges — present each one for different reasons.
@@ -70,7 +70,7 @@ Three caveats matter for any reader of sea-level data.
 
 ## What this indicator does not measure
 
-Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) accumulation, surface-air-temperature change, sea-ice loss, and shifts in extreme weather. Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
+Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives ocean heat content accumulation, surface-air-temperature change, sea-ice loss, and shifts in extreme weather. Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
 
 Reading sea level honestly means reading all three indicator types: the global mean (for the planetary signal), the local relative level (for what coastal communities experience), and the rate (for the planning horizon).
 

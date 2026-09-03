@@ -17,7 +17,7 @@ related:
   - perovskite-stack-field-stability
   - solar-radiation-and-earth-energy-balance
 pillar: energy-systems-explained
-_bodyHash: a9a1bf89
+_bodyHash: 131582f5
 ---
 
 Every photovoltaic rating is a measurement, and like any measurement it is defined against reference conditions that someone had to write down. The number stamped on a module is the power it produced under a specified spectrum, at a specified cell temperature, over a specified area. None of those three conditions holds on a roof. Understanding what a module does therefore means understanding both the device physics and the metrology, because the gap between them is where most of the disappointment in photovoltaics lives.

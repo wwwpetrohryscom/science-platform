@@ -18,7 +18,7 @@ related:
   - habitat-fragmentation-and-connectivity
   - particulate-matter-and-health-evidence
 pillar: environmental-pollution-explained
-_bodyHash: '63e20310'
+_bodyHash: 8623856c
 ---
 
 Every other environmental contaminant can be sampled after the event. A metal stays in the sediment, a persistent compound stays in the fat, a particulate leaves a filter to weigh. Sound and artificial light leave nothing. They exist only while the source is running, which means an unmeasured exposure is gone for good and a monitoring programme has to be present at the time rather than clever afterwards. That property runs through everything else about these two stressors — how they are quantified, how effects are attributed to them, and why they arrived so late in the regulatory architecture that the [triad of source, pathway and receptor](/en/ecology/pollution/environmental-pollution-explained) is built to describe.

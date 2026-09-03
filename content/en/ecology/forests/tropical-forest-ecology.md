@@ -18,7 +18,7 @@ related:
   - forest-carbon-measurement
   - forest-disturbance-fire-insects-windthrow
 pillar: forest-ecosystems-explained
-_bodyHash: a36fdc8
+_bodyHash: 48474a12
 ---
 
 Compiled records from 1,170 tree plots across the Amazon Basin and Guiana Shield put roughly 16,000 tree species in lowland Amazonia — and found that 227 of them, 1.4 per cent of the flora, account for half of all the individual trees. The authors of that 2013 synthesis noted the consequence: a group of species less diverse than the tree flora of North America makes up half of the most diverse tree community on Earth.

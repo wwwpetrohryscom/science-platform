@@ -18,7 +18,7 @@ related:
   - what-is-a-genome
   - heritability-explained
 pillar: what-is-dna
-_bodyHash: 66f80ef1
+_bodyHash: 638f5143
 ---
 
 The word covers a single swapped base and the gain of an entire chromosome arm, events separated by eight orders of magnitude in the amount of sequence involved. They arise by different mechanisms, are detected by different methods, occur at rates that do not convert into one another, and have completely different consequence distributions. Most apparent contradictions between published mutation figures come from comparing counts of one class with counts of another. Sorting by scale first is what makes the numbers usable — and it is worth doing before any of them are attached to [DNA as an information carrier](/en/biology/genetics/what-is-dna) in a way that implies more than they support.

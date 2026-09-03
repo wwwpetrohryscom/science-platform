@@ -18,7 +18,7 @@ related:
   - forest-carbon-measurement
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
-_bodyHash: a46fc8b7
+_bodyHash: '497293e9'
 ---
 
 A stand of trees can lose most of its carbon, a large share of its species and much of its capacity to hold water while remaining, in every official statistic, a forest. Nothing has been converted. The land use has not changed. Canopy cover stays above the ten percent threshold. What has happened is invisible to the accounting that governs the headline numbers, and it is probably the larger process.

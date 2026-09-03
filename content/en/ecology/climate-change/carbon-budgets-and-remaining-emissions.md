@@ -19,7 +19,7 @@ related:
   - global-temperature-records-explained
   - climate-adaptation-mitigation-indicators
 pillar: what-is-climate-change
-_bodyHash: ffda37b9
+_bodyHash: 971059a9
 ---
 
 The single figure that circulates — five hundred billion tonnes of CO₂ left for 1.5°C — is the median of one probability distribution, conditioned on a family of emissions pathways, adjusted by four further terms that each carry their own error bar. None of that is hidden; it is set out at length in Chapter 5 of the IPCC's Sixth Assessment Report. But the compression from an assessed quantity to a headline drops exactly the parts that determine what the number can be used for. None of the assembly is exotic. It takes [how human-caused warming is established](/en/ecology/climate-change/what-is-climate-change) as given, and begins instead from a single relationship that has nothing to do with concentrations at all.

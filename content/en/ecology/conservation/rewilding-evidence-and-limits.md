@@ -17,7 +17,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: c9ab8fc3
+_bodyHash: 4e1b0a6b
 ---
 
 Three largely separate research programmes publish under the word rewilding, and they disagree about what is being restored, what it is being restored towards, and whether anything should be released at all. Reading their results as though they belonged to one literature is the fastest way to reach a wrong conclusion in either direction — that the idea is unsupported, or that it is established.

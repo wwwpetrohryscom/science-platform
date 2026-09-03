@@ -17,7 +17,7 @@ related:
   - land-cover-change-detection
   - biodiversity-baselines-and-shifting-baselines
 pillar: what-is-an-ecosystem
-_bodyHash: 4cf5b4b7
+_bodyHash: dd6e27af
 ---
 
 A biome map makes a strong claim: that if you know the temperature and rainfall regime of a place, you can predict the structural form of the vegetation that grows there — forest, woodland, shrubland, grassland, desert — regardless of which species happen to occupy it. Convergent form across unrelated floras is what licenses the claim. Mediterranean shrublands in California, Chile, the Cape and southwest Australia share a growth form and a fire regime while sharing almost no species, and the same is true of temperate grasslands on four continents.

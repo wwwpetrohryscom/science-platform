@@ -18,7 +18,7 @@ related:
   - persistent-organic-pollutants
   - particulate-matter-and-health-evidence
 pillar: environmental-pollution-explained
-_bodyHash: fd6d623
+_bodyHash: 4b90086d
 ---
 
 Two claims about microplastics are routinely made in the same breath and they do not rest on remotely comparable evidence. The first is that the particles are present — in surface water, sediment, soil, air, tap water and bottled water. That claim rests on sampling across thousands of stations and study sites, and it is not seriously disputed. The second is that this presence is causing measurable harm at the concentrations found in the field. That claim is not in the same evidential state, and the gap between the two is mostly a gap in methods rather than a gap in nature. Reading the literature well means keeping the two apart, which is a specific instance of the general problem of separating exposure from effect described in the [source, pathway and receptor account of pollution](/en/ecology/pollution/environmental-pollution-explained).

@@ -4,8 +4,8 @@ excerpt: El cambio climático es el desplazamiento a largo plazo del balance ene
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-09-02'
-readingTime: 8
+updatedDate: '2026-09-03'
+readingTime: 9
 tags:
   - climate
   - fundamentals
@@ -22,7 +22,7 @@ faq:
     answer: La temperatura media global es un forzamiento termodinámico que impulsa cambios regionales mucho mayores, como los días de calor extremo, los patrones de precipitación, la estratificación del océano o el nivel del mar. El umbral de dos grados no es un precipicio, sino un umbral útil a partir del cual varias retroalimentaciones de gran escala (metano ártico, dinámica de los mantos de hielo, decaimiento forestal) tienen más probabilidades de activarse.
   - question: ¿Qué sigue siendo genuinamente incierto?
     answer: La magnitud de los cambios regionales de precipitación, el momento y la reversibilidad de las retroalimentaciones de los mantos de hielo, la respuesta de las nubes al calentamiento y la intensidad de las retroalimentaciones del ciclo del carbono. Las incertidumbres se refieren a *cuánto* y *a qué velocidad*, no a si está ocurriendo ni a qué lo está causando.
-_bodyHash: '90748713'
+_bodyHash: eb95ff6c
 ---
 
 El cambio climático es el desplazamiento a largo plazo del balance energético de la Tierra, impulsado principalmente —durante los últimos 150 años— por cambios en la composición atmosférica. El mecanismo está bien establecido en la [evaluación del Grupo de Trabajo I del AR6 del IPCC](https://www.ipcc.ch/report/ar6/wg1/) y resumido para el público general en la [revisión de la evidencia climática de la NASA](https://science.nasa.gov/climate-change/evidence/). Las preguntas genuinamente abiertas son distintas de las que suele subrayar el discurso público.
@@ -82,6 +82,14 @@ La variabilidad intraanual que produjo el récord más reciente estuvo modulada 
 El cambio climático es una consecuencia termodinámica del cambio en la composición atmosférica. Las grandes evaluaciones consideran establecidos el mecanismo y la atribución humana reciente. La frontera activa de la investigación está en la magnitud, el impacto regional, la intensidad de las retroalimentaciones y la reversibilidad, no en las afirmaciones fundacionales.
 
 Cuando uno se topa con un argumento climático, el filtro pertinente es este: ¿a cuál de esas preguntas de frontera se dirige? Ahí es donde viven los desacuerdos útiles. Los que no lo hacen —los que vuelven a litigar el mecanismo básico o la atribución— están zanjados desde hace tiempo suficiente como para que ocuparse de ellos ya no sea donde está la ciencia.
+
+## Adónde lleva el resto de este subtema
+
+El mecanismo expuesto arriba descansa en dos magnitudes que el resto de esta sección desmonta. [Gases de efecto invernadero y forzamiento radiativo](/es/ecology/climate-change/greenhouse-gases-and-radiative-forcing) explica qué es el forzamiento y por qué los potenciales de calentamiento dependen de la ventana de integración elegida; la [sensibilidad climática](/es/ecology/climate-change/climate-sensitivity-explained) trata de la respuesta a ese forzamiento y de por qué las dos cifras que suelen citarse responden a preguntas distintas. Los [presupuestos de carbono restantes](/es/ecology/climate-change/carbon-budgets-and-remaining-emissions) son lo que resulta de combinar ambas, y el producto peor leído del campo.
+
+La evidencia es un conjunto de series mantenidas por separado. Los [registros de temperatura global](/es/ecology/climate-change/global-temperature-records-explained), el [seguimiento de concentraciones de gases de efecto invernadero](/es/ecology/climate-change/greenhouse-gas-concentrations-monitoring), el contenido de calor oceánico y la subida del nivel del mar —ambos enlazados más arriba— y los [indicadores de la criosfera](/es/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) tienen cada uno su historia instrumental y su estructura de error, y [el marco de indicadores](/es/ecology/climate-change/climate-indicators-earth-system-monitoring) es el intento de leerlos en conjunto.
+
+En las preguntas más difíciles: la [incertidumbre de las proyecciones](/es/ecology/climate-change/climate-models-projections-uncertainty) precisa qué puede y qué no puede decir un modelo, la [atribución de eventos extremos](/es/ecology/climate-change/extreme-weather-attribution-basics) presenta el método que sustituyó al «ningún evento aislado puede atribuirse», las [retroalimentaciones del ciclo del carbono](/es/ecology/climate-change/carbon-cycle-feedbacks) y el [sumidero de los bosques templados](/es/ecology/climate-change/temperate-forest-carbon-sink-decline) tratan de los sumideros que deciden qué parte de una emisión permanece en el aire, y los [indicadores de adaptación y mitigación](/es/ecology/climate-change/climate-adaptation-mitigation-indicators) siguen el lado de la respuesta humana.
 
 ## Sources
 

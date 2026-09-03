@@ -18,7 +18,7 @@ related:
   - earth-observation-data-products
   - forest-carbon-measurement
   - global-temperature-records-explained
-_bodyHash: 225bef54
+_bodyHash: d42f6f26
 ---
 
 Orbital sensors do not fail randomly. Where they fail is determined by wavelength, viewing geometry and orbit, which means the same information is missing in the same places on every pass. That distinction matters more than it sounds: random error shrinks as observations accumulate, and a structured absence does not. Adding twenty years of imagery over a persistently cloudy tropical basin produces twenty years of clear-sky images of that basin, not an unbiased record of it.

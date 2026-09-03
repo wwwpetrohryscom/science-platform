@@ -4,8 +4,8 @@ excerpt: Indicators of adaptation progress and mitigation effort are reported se
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - climate-change
   - mitigation
@@ -17,10 +17,10 @@ related:
   - carbon-cycle-feedbacks
   - what-is-climate-change
 pillar: what-is-climate-change
-_bodyHash: '8528e356'
+_bodyHash: 6b98a8be
 ---
 
-The physical-climate indicators tracked elsewhere in this cluster describe the state of the Earth system. A separate, complementary set of indicators tracks the human-action side: how much greenhouse gas is being emitted, what policies are in place, and where adaptation investments and outcomes are landing. The two sets of indicators are produced by different institutions with different methodological constraints and they answer different questions.
+The physical-climate indicators tracked elsewhere in this cluster describe the state of the Earth system. A separate, complementary set of indicators tracks the human-action side of [the problem those physical indicators describe](/en/ecology/climate-change/what-is-climate-change): how much greenhouse gas is being emitted, what policies are in place, and where adaptation investments and outcomes are landing. The two sets of indicators are produced by different institutions with different methodological constraints and they answer different questions.
 
 This piece walks through the main adaptation and mitigation indicator families, what each measures, and how they connect back to the physical record.
 
@@ -54,7 +54,7 @@ Adaptation indicators are harder to define than mitigation indicators because ad
 
 The Paris Agreement's 1.5 °C and 2 °C temperature thresholds are stated in indicator terms (global mean surface temperature anomaly relative to pre-industrial). The IPCC Special Report on Global Warming of 1.5 °C (SR1.5, 2018) and the subsequent AR6 WG1 Chapter 5 review establish the indicator-state-to-threshold relationship and the cumulative-emissions-to-temperature relationship known as the transient climate response to cumulative emissions (TCRE).
 
-The TCRE framework establishes that cumulative emissions are approximately linearly related to global mean surface warming. That makes the "carbon budget" — the cumulative emissions remaining to stay within a given temperature threshold — itself an operational indicator with quantified uncertainty. The carbon budget is the bridge between the [emissions-side mitigation indicators](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) and the temperature-threshold framing in the climate-policy literature.
+The TCRE framework establishes that cumulative emissions are approximately linearly related to global mean surface warming. That makes the "carbon budget" — the cumulative emissions remaining to stay within a given temperature threshold — itself an operational indicator with quantified uncertainty. The carbon budget is the bridge between the emissions-side mitigation indicators and the temperature-threshold framing in the climate-policy literature.
 
 The remaining carbon budget shrinks each year as emissions continue. AR6 reports the remaining budgets for 1.5 °C, 1.7 °C, and 2 °C thresholds with explicit probability levels and uncertainty ranges. Different probability levels (66th vs. 50th percentile likelihood) and different feedback assumptions produce different budget numbers; comparisons should specify both.
 
@@ -78,7 +78,7 @@ Three practices help.
 
 ## What action indicators add to the climate-indicator cluster
 
-Action indicators are the layer that connects [physical-climate indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) to policy decisions. They have their own institutional homes — UNFCCC, IEA, UNEP, EPA, EEA — and their own methodological constraints, but they share the same observational anchoring: the atmospheric [concentration record](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), the [temperature record](/en/ecology/climate-change/global-temperature-records-explained), and the [sea-level record](/en/ecology/climate-change/sea-level-rise-indicators) that determine what action indicators are ultimately accountable for.
+Action indicators are the layer that connects [physical-climate indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) to policy decisions. They have their own institutional homes — UNFCCC, IEA, UNEP, EPA, EEA — and their own methodological constraints, but they share the same observational anchoring: the atmospheric concentration record, the [temperature record](/en/ecology/climate-change/global-temperature-records-explained), and the [sea-level record](/en/ecology/climate-change/sea-level-rise-indicators) that determine what action indicators are ultimately accountable for.
 
 ## Sources
 

@@ -18,7 +18,7 @@ related:
   - measurement-uncertainty-explained
   - electromagnetic-spectrum-applications
 pillar: classical-mechanics-explained
-_bodyHash: dfa52c7b
+_bodyHash: b3fee0dd
 ---
 
 Every optical instrument ever built has a resolution limit that was fixed before any glass was ground, by nothing more than the diameter of its opening and the wavelength of the light it collects. Understanding optics largely means understanding where the convenient picture of light as a set of straight rays holds, and what replaces it when it fails.

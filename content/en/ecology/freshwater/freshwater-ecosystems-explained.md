@@ -18,7 +18,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: 78c7d68d
+_bodyHash: 933268d
 ---
 
 Every lake and river channel on Earth holds, between them, about 93,100 cubic kilometres of water. The ocean holds 1,338,000,000. In the global water distribution table maintained by the USGS Water Science School, that surface fraction works out to roughly one one-hundred-and-fiftieth of one per cent of all water; adding the world's swamps leaves the total still under one hundredth of one per cent. The species assessments say those same habitats support more than 10 per cent of all described species, including around a third of vertebrates and about half of all fishes. Freshwater ecology is largely the study of what follows from that ratio.

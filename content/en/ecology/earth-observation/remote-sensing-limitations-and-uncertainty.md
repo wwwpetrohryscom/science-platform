@@ -14,7 +14,7 @@ related:
   - what-is-remote-sensing
   - earth-observation-data-products
   - land-cover-change-detection
-_bodyHash: ed8c9936
+_bodyHash: ac70e4f8
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

@@ -18,7 +18,7 @@ related:
   - protein-structure-prediction
   - bioinformatics-explained
 pillar: biotechnology-explained
-_bodyHash: 7f674cf3
+_bodyHash: 361fff0d
 ---
 
 Synthetic biology began with a borrowed analogy. If electronic engineering could compose reliable systems from catalogued components with published behaviour, biology should be able to do the same: define standard parts, give each one a datasheet, abstract away the layers below, and let a designer assemble a circuit without re-deriving molecular biology each time. The programme produced real infrastructure — part registries, standard assembly formats, a generation of trained engineers — and it produced a specific and instructive failure. The parts exist. Composing them predictably is where the analogy stops holding, and the reasons are biological rather than organisational. It is the most explicitly engineering-flavoured branch of the [modern biotechnology toolkit](/en/biology/biotechnology/biotechnology-explained), and the branch where the distance between a design and its behaviour is easiest to measure.

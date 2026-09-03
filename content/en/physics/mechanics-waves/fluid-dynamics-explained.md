@@ -18,7 +18,7 @@ related:
   - sound-and-acoustics-explained
   - convection-and-cloud-formation
 pillar: classical-mechanics-explained
-_bodyHash: aecb63d8
+_bodyHash: '403e9692'
 ---
 
 A single-celled organism beating its cilia and a cyclone wrapping around its eye are governed by the same equations. What separates them is not the physics but a ratio: how much the fluid's inertia matters relative to its viscosity. That ratio, the Reynolds number, is the first thing a fluid dynamicist asks about a problem, because it determines which terms in the equations can be thrown away and which cannot.

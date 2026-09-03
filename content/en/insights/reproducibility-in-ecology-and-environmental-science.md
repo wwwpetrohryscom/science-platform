@@ -18,7 +18,7 @@ related:
   - measurement-uncertainty-explained
   - microbiomes-and-host-microbe-interactions
   - food-webs-and-trophic-structure
-_bodyHash: 5e3d1138
+_bodyHash: b88946c
 ---
 
 Ecology has a reliability problem with much the same causes as psychology's and a materially different shape, and the difference is not cosmetic: it decides which corrections can work at all. The 2019 National Academies report draws the line that most public discussion of the subject ignores. **Reproducibility** is obtaining consistent results from the same data using the same code and analytical steps; **replicability** is obtaining consistent results from a new study that collects its own data to answer the same question. The two failure modes have different causes and different remedies, and ecology sits awkwardly across both.

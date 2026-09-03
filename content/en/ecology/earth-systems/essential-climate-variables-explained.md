@@ -4,8 +4,8 @@ excerpt: GCOS specifies 55 variables the world has agreed to observe continuousl
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 8
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - essential-climate-variable
   - indicators
@@ -16,11 +16,11 @@ related:
   - earth-system-models-explained
   - earth-system-predictability-explained
   - climate-variability-and-teleconnections
-_bodyHash: 4a79e948
+_bodyHash: a8ee6505
 pillar: earth-system-science-explained
 ---
 
-Behind every long climate record is a prior decision that someone should keep measuring that particular thing, indefinitely, at global scale, whatever else changes. Those decisions are not made ad hoc. They are codified as **Essential Climate Variables**, and the list is short enough to be worth knowing and structured enough to be worth reading closely.
+Behind every long climate record is a prior decision that someone should keep measuring that particular thing, indefinitely, at global scale, whatever else changes. Those decisions are not made ad hoc. They are codified as **Essential Climate Variables**, the observational backbone of [Earth system science](/en/ecology/earth-systems/earth-system-science-explained), and the list is short enough to be worth knowing and structured enough to be worth reading closely.
 
 ## What an ECV is
 

@@ -4,8 +4,8 @@ excerpt: Land and ocean absorb roughly half of human carbon emissions today. Whe
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 8
 tags:
   - climate-change
   - carbon-cycle
@@ -17,10 +17,10 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
-_bodyHash: 86eeec69
+_bodyHash: 20434b81
 ---
 
-The atmospheric CO₂ concentration trend is what we [measure directly](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring); the share of human emissions that ends up in the atmosphere depends on how much of the rest gets absorbed by the ocean and the land biosphere. Over recent decades, land and ocean together have taken up roughly half of anthropogenic CO₂ emissions — a number that is often summarized as "the sinks", as if it were a property of the planet rather than a balance of mechanisms that depend on the climate state.
+The atmospheric CO₂ concentration trend is what we [measure directly](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring); the share of human emissions that ends up in the atmosphere — the quantity that drives [climate change itself](/en/ecology/climate-change/what-is-climate-change) — depends on how much of the rest gets absorbed by the ocean and the land biosphere. Over recent decades, land and ocean together have taken up roughly half of anthropogenic CO₂ emissions — a number that is often summarized as "the sinks", as if it were a property of the planet rather than a balance of mechanisms that depend on the climate state.
 
 Whether the sinks continue to absorb at this fraction is one of the largest uncertainties in long-term climate projection. It is not the largest uncertainty in current-decade emissions accounting — that is the emissions side — but it is among the largest in what future atmospheric concentration trajectories will look like for a given emissions path.
 
@@ -92,7 +92,7 @@ Three methodological points are worth surfacing.
 
 ## What this indicator does for the rest of the cluster
 
-The carbon-cycle indicators close the loop between [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) and human emissions. They are also the link between the [physical-climate indicators in this cluster](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) and the policy-relevant [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators), because the residual atmospheric fraction of emissions is what mitigation targets are ultimately accountable for.
+The carbon-cycle indicators close the loop between greenhouse-gas concentrations and human emissions. They are also the link between the [physical-climate indicators in this cluster](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) and the policy-relevant [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators), because the residual atmospheric fraction of emissions is what mitigation targets are ultimately accountable for.
 
 ## Sources
 

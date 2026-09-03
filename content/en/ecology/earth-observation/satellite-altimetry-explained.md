@@ -14,7 +14,7 @@ related:
   - ocean-color-observations
   - sentinel-satellites-explained
   - remote-sensing-limitations-and-uncertainty
-_bodyHash: d75d662f
+_bodyHash: 97e9f19d
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

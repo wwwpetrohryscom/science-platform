@@ -17,7 +17,7 @@ related:
   - carbon-cycle-explained
   - ocean-color-observations
 pillar: what-is-an-ecosystem
-_bodyHash: af33ecd8
+_bodyHash: b16b6002
 ---
 
 Every figure for how much carbon the biosphere fixes is the output of a model, not the reading of an instrument. That is not a criticism of the figures; it is a fact about the quantity. There is no device that can be pointed at a forest or a stretch of ocean and made to report photosynthesis. What can be measured is a concentration, a reflectance, a mass of harvested tissue, or the vertical flux of carbon dioxide above a canopy — and each of those becomes a production estimate only after assumptions are applied.

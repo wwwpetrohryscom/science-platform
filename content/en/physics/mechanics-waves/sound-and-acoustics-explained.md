@@ -18,7 +18,7 @@ related:
   - fluid-dynamics-explained
   - measurement-uncertainty-explained
 pillar: classical-mechanics-explained
-_bodyHash: e21477be
+_bodyHash: bba7195a
 ---
 
 Nothing about a sound wave travels except a disturbance. The air itself stays roughly where it was; what moves outward is a pattern of compression and rarefaction, a fluctuation in pressure superimposed on whatever the ambient pressure happens to be. That makes sound a longitudinal wave — the material displaces along the direction of travel rather than across it — and it means sound needs a medium in a way that light does not.

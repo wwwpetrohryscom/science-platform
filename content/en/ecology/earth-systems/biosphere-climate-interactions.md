@@ -4,8 +4,8 @@ excerpt: Plants affect climate through carbon, water, and reflectivity at once, 
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - biosphere
   - carbon-cycle
@@ -16,15 +16,15 @@ related:
   - earth-system-science-explained
   - nitrogen-cycle-explained
   - climate-feedback-mechanisms
-_bodyHash: 6bce7014
+_bodyHash: d96258ae
 pillar: earth-system-science-explained
 ---
 
-Living systems are usually introduced into climate discussions as a carbon reservoir, and then treated as though carbon were the whole story. It is not. Vegetation alters the surface energy budget through at least three distinct mechanisms operating simultaneously, and in some places they cancel. Getting the sign of a land-cover change right requires all three.
+Living systems are usually introduced into climate discussions as a carbon reservoir, and then treated as though carbon were the whole story. It is not. Vegetation alters the surface energy budget through at least three distinct mechanisms operating simultaneously, and in some places they cancel. Treating the biosphere as a component that acts back on the physical climate, rather than as a stock of carbon, is the move that defines [the coupled-system view of the planet](/en/ecology/earth-systems/earth-system-science-explained). Getting the sign of a land-cover change right requires all three.
 
 ## Three channels, one surface
 
-The [biosphere](/en/glossary/biosphere) influences climate through effects conventionally split into two families, and it is worth keeping the vocabulary straight because the literature relies on it.
+The biosphere influences climate through effects conventionally split into two families, and it is worth keeping the vocabulary straight because the literature relies on it.
 
 **Biogeochemical effects** work by changing atmospheric composition — principally carbon uptake and release, but also methane from wetlands and livestock, nitrous oxide from soils, and biogenic volatile compounds that influence aerosol formation.
 
@@ -48,7 +48,7 @@ Three constraints determine whether that continues.
 
 **Nutrients.** Plants build tissue in roughly fixed elemental proportions, so carbon uptake cannot grow indefinitely without matching nitrogen and phosphorus supply. This is the direct coupling to [the nitrogen cycle](/en/ecology/earth-systems/nitrogen-cycle-explained), and the reason interactive nutrient limitation was an important addition to [Earth system models](/en/ecology/earth-systems/earth-system-models-explained).
 
-**Water.** Drought reduces photosynthesis and can turn a regional sink into a source within a single season, which is the main reason land uptake varies so strongly with [ENSO](/en/ecology/earth-systems/el-nino-la-nina-enso-explained) phase.
+**Water.** Drought reduces photosynthesis and can turn a regional sink into a source within a single season, which is the main reason land uptake varies so strongly with ENSO phase.
 
 **Disturbance.** Fire, insect outbreak, windthrow, and harvest release stored carbon on short timescales. A forest's carbon balance is a difference between slow accumulation and episodic loss, which makes short records misleading in both directions.
 
@@ -56,7 +56,7 @@ The existing article on the [temperate forest carbon sink](/en/ecology/climate-c
 
 ## The ocean biosphere
 
-Marine biology deserves separate mention because its mechanism differs. Phytoplankton fix carbon in the sunlit surface layer; a fraction of that carbon sinks as particles into the interior, where it is isolated from the atmosphere for the centuries-to-millennia timescale of the deep [circulation](/en/ecology/earth-systems/ocean-circulation-and-climate). This biological pump maintains a vertical carbon gradient that would not exist otherwise.
+Marine biology deserves separate mention because its mechanism differs. Phytoplankton fix carbon in the sunlit surface layer; a fraction of that carbon sinks as particles into the interior, where it is isolated from the atmosphere for the centuries-to-millennia timescale of the deep circulation. This biological pump maintains a vertical carbon gradient that would not exist otherwise.
 
 Its response to warming is not simple: increased stratification reduces nutrient supply to the surface, which tends to reduce production, while warmer water alters community composition and sinking rates. AR6 treats ocean deoxygenation and acidification as concurrent stressors on the same system. Satellite ocean-colour records are the main global observation, and their limits are covered in [ocean-colour observations](/en/ecology/earth-observation/ocean-color-observations).
 

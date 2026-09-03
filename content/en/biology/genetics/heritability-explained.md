@@ -17,7 +17,7 @@ related:
   - epigenetics-explained
   - what-is-dna
 pillar: what-is-dna
-_bodyHash: acb1b49d
+_bodyHash: 4174d745
 ---
 
 [MedlinePlus](https://medlineplus.gov/genetics/understanding/traits/height/) states that about 80 per cent of an individual's height is determined by the DNA sequence variations they have inherited. Taken at face value, that sentence describes a person: eight-tenths of your height, apparently, comes from your genes and the rest from everything else. The statistic it compresses describes no person at all. Heritability is a property of a population, and the slide from one to the other is the same slide that turns [a four-letter code into a blueprint](/en/biology/genetics/what-is-dna). It is common enough that it is worth spelling out exactly what is being ratioed against what.

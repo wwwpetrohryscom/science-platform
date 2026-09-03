@@ -14,7 +14,7 @@ related:
   - modis-earth-observation-system
   - drought-monitoring-systems
   - satellite-deforestation-monitoring
-_bodyHash: b6bfc133
+_bodyHash: 5a3fec71
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

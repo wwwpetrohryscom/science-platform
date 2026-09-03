@@ -4,8 +4,8 @@ excerpt: A planet receives concentrated radiation from a hot source, redistribut
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-09-02'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - thermodynamics
   - earth-energy-budget
@@ -16,10 +16,10 @@ related:
   - solar-radiation-and-earth-energy-balance
   - greenhouse-gases-and-radiative-forcing
 pillar: laws-of-thermodynamics-explained
-_bodyHash: 53a4f7d9
+_bodyHash: a517b4da
 ---
 
-The Earth receives concentrated solar radiation at an effective temperature of roughly 5800 K, redistributes it through the atmosphere and ocean, and emits it back to space at an effective temperature of roughly 255 K. This is, in the most literal sense, a heat engine. The [thermodynamics](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) of that engine bounds what the [climate](/en/ecology/climate-change/what-is-climate-change) can do, what surface temperatures are physically possible, and what fraction of incident [energy](/en/physics/energy/perovskite-stack-field-stability) is available to drive atmospheric circulation.
+The Earth receives concentrated solar radiation at an effective temperature of roughly 5800 K, redistributes it through the atmosphere and ocean, and emits it back to space at an effective temperature of roughly 255 K. Read through [the laws of thermodynamics](/en/physics/thermodynamics/laws-of-thermodynamics-explained), this is, in the most literal sense, a heat engine. The thermodynamics of that engine bounds what the climate can do, what surface temperatures are physically possible, and what fraction of incident energy is available to drive atmospheric circulation.
 
 This perspective is the bridge between [solar radiation physics](/en/physics/energy/solar-radiation-and-earth-energy-balance), [greenhouse-gas forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing), and [the thermodynamic limits of photovoltaic conversion](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics). All three rest on the same physical layer.
 
@@ -27,7 +27,7 @@ This perspective is the bridge between [solar radiation physics](/en/physics/ene
 
 A Carnot engine extracts work from a temperature difference between a hot reservoir and a cold reservoir. The maximum efficiency is set by the temperatures alone: η = 1 − T_cold/T_hot.
 
-The Earth-as-engine analogy is approximate — the planet is not in steady state in the strict thermodynamic sense, and irreversibilities throughout the system reduce its efficiency far below the Carnot bound — but it is the right starting point. The hot reservoir is the absorbed solar radiation; the cold reservoir is space. The engine produces atmospheric circulation, ocean circulation, and the kinetic energy of weather systems. The numbers are documented in [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) energy-budget [materials](/en/physics/energy/perovskite-stack-field-stability) and in the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) chapter on the energy budget.
+The Earth-as-engine analogy is approximate — the planet is not in steady state in the strict thermodynamic sense, and irreversibilities throughout the system reduce its efficiency far below the Carnot bound — but it is the right starting point. The hot reservoir is the absorbed solar radiation; the cold reservoir is space. The engine produces atmospheric circulation, ocean circulation, and the kinetic energy of weather systems. The numbers are documented in [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) energy-budget materials and in the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) chapter on the energy budget.
 
 The atmosphere converts on the order of a few percent of absorbed solar energy into the kinetic energy of winds. This is far below the Carnot maximum because most absorbed energy is dissipated as heat — frictional, radiative, and turbulent — before it can be organized into bulk flow. The fact that the conversion happens at all is what produces weather; the fact that it is inefficient is why the atmosphere is a turbulent, chaotic system rather than a clockwork.
 
@@ -51,15 +51,15 @@ The accounting is reviewed in detail in the [IPCC AR6 Working Group I](https://w
 
 ## The thermodynamic limit on photovoltaics
 
-A photovoltaic cell converts solar radiation into work (electrical work). The same heat-engine framework that bounds the climate bounds the cell: a perfect single-junction cell under AM1.5 illumination has a maximum efficiency of around 33% (the [Shockley-Queisser](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) limit), well below the Carnot bound for the Sun-Earth temperature pair (~95%) because of the spectral and entropy losses specific to single-junction conversion. The National Laboratory of the Rockies — the U.S. Department of Energy laboratory formerly named NREL — maintains the [best research-cell efficiency chart](https://www.nlr.gov/pv/cell-efficiency), which tracks confirmed champion-cell efficiencies against that limit.
+A photovoltaic cell converts solar radiation into work (electrical work). The same heat-engine framework that bounds the climate bounds the cell: a perfect single-junction cell under AM1.5 illumination has a maximum efficiency of around 33% (the Shockley-Queisser limit), well below the Carnot bound for the Sun-Earth temperature pair (~95%) because of the spectral and entropy losses specific to single-junction conversion. The National Laboratory of the Rockies — the U.S. Department of Energy laboratory formerly named NREL — maintains the [best research-cell efficiency chart](https://www.nlr.gov/pv/cell-efficiency), which tracks confirmed champion-cell efficiencies against that limit.
 
-[Tandem and multi-junction cells](/en/physics/energy/perovskite-stack-field-stability) approach the Carnot bound more closely because they recover the spectral mismatch loss. The asymptotic limit for an infinite-junction cell under AM1.5 is around 86% — still below Carnot because of unrecovered [photon](/en/physics/quantum-basics/electromagnetic-spectrum-applications) entropy. The [thermodynamic limits piece](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) walks through this in detail.
+[Tandem and multi-junction cells](/en/physics/energy/perovskite-stack-field-stability) approach the Carnot bound more closely because they recover the spectral mismatch loss. The asymptotic limit for an infinite-junction cell under AM1.5 is around 86% — still below Carnot because of unrecovered photon entropy. The thermodynamic limits piece walks through this in detail.
 
 ## What this perspective changes
 
 Two things, mostly.
 
-**It removes the temptation to look for "hidden energy" or "missing physics" in the climate.** When the energy budget closes within stated uncertainties — and it does — there is no hidden term. Climate science is not waiting for a unifying mechanism that overturns the budget; it is refining the partition among well-defined components. [NIST](https://www.nist.gov/) physical-constants reference and [NOAA](https://www.noaa.gov/) [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) standards anchor the underlying physical quantities.
+**It removes the temptation to look for "hidden energy" or "missing physics" in the climate.** When the energy budget closes within stated uncertainties — and it does — there is no hidden term. Climate science is not waiting for a unifying mechanism that overturns the budget; it is refining the partition among well-defined components. [NIST](https://www.nist.gov/) physical-constants reference and [NOAA](https://www.noaa.gov/) measurement standards anchor the underlying physical quantities.
 
 **It puts solar generation, climate change, and atmospheric physics on a single conceptual layer.** They are all heat-engine problems with shared bounds and shared accounting. Reading them as separate fields obscures the structure; reading them through the same energy budget makes the connections obvious.
 
@@ -71,7 +71,7 @@ Two caveats.
 
 **The Earth is not in steady state.** The current top-of-atmosphere imbalance of around +1 W/m² means the system is gaining energy. Steady-state thermodynamic arguments are approximations to a system that is currently being forced. Where the language of equilibrium is used in this article, it should be read as the long-term average to which the system would relax if forcing were held constant.
 
-**Maximum-entropy-production heuristics are not laws.** The argument that the atmosphere operates near a maximum-entropy-production state is consistent with observations and useful in coarse [modelling](/en/ecology/climate-change/temperate-forest-carbon-sink-decline), but it is not derivable from first principles in general. Treating it as a law produces overconfident predictions; treating it as a useful approximation does not.
+**Maximum-entropy-production heuristics are not laws.** The argument that the atmosphere operates near a maximum-entropy-production state is consistent with observations and useful in coarse modelling, but it is not derivable from first principles in general. Treating it as a law produces overconfident predictions; treating it as a useful approximation does not.
 
 ## Sources
 

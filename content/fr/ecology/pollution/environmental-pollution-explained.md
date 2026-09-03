@@ -18,7 +18,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: 58fad14b
+_bodyHash: 3b3c425b
 ---
 
 Une substance n'est pas une pollution en raison de ce qu'elle est. Elle le devient lorsque trois éléments s'alignent : une **source** qui la libère, une **voie de transfert** qui l'emmène quelque part, et une **cible** — une personne, une population, une espèce, un habitat — située à l'autre bout de cette voie. Supprimez l'un des trois et la substance reste présente, toujours aussi toxique, mais le dommage a disparu. Confinez un site contaminé : la source demeure, la voie de transfert se ferme. Déplacez une prise d'eau potable : la cible s'écarte.

@@ -17,7 +17,7 @@ related:
   - crispr-genome-editing-explained
   - synthetic-biology-explained
   - bioinformatics-explained
-_bodyHash: e25e5c0
+_bodyHash: 9144b77a
 ---
 
 Brewing, cheesemaking and the industrial production of penicillin were all biotechnology before the word existed, and none of them required knowing what a gene was. What changed in the early 1970s was not that living cells began doing useful chemistry — they always had — but that a chosen instruction could be moved into a cell deliberately. Every technique described here inherits that shift in specificity, and most of the field's recurring disappointments come from assuming that specificity in a laboratory transfers intact into a manufactured product.

@@ -19,7 +19,7 @@ related:
   - protected-area-effectiveness
   - species-extinction-risk-assessment
   - biodiversity-indicators-explained
-_bodyHash: e8d0892
+_bodyHash: '617566'
 ---
 
 The most repeated biodiversity statistic in the world is a 73% decline. It comes from the 2024 Living Planet Report, it covers 1970 to 2020, and it is calculated by the Zoological Society of London from 34,836 monitored populations of 5,495 vertebrate species. The report gives it with an uncertainty range of −67% to −78% and an equivalent average annual rate of 2.6%.

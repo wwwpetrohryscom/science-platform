@@ -17,7 +17,7 @@ related:
   - cytoskeleton-and-cell-motility
   - cell-signaling-pathways-basics
 pillar: what-is-a-cell
-_bodyHash: da4ac61
+_bodyHash: 3507ee09
 ---
 
 An animal cell holds potassium ten to twenty times more concentrated inside than outside, sodium the other way round, and a voltage across a film two molecules thick. None of that is a resting state. Every gradient is one the cell is paying for, continuously, out of the same ATP budget that funds everything else. Membrane biology is largely the accounting of that payment: what the barrier stops for free, what has to be pushed, and what the pushing costs. The [operational definition of a cell](/en/biology/cells/what-is-a-cell) puts maintaining an interior chemistry against a different exterior first among its three requirements, and this is the machinery that does it.

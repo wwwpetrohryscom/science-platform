@@ -4,7 +4,7 @@ excerpt: Attribution science quantifies how much a specific extreme event was ma
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-03'
 readingTime: 7
 tags:
   - climate-change
@@ -17,10 +17,10 @@ related:
   - what-is-climate-change
   - global-temperature-records-explained
 pillar: what-is-climate-change
-_bodyHash: d2baa614
+_bodyHash: 15b9e6f1
 ---
 
-Twenty years ago, the standard response to "did climate change cause this storm" was "no single event can be attributed to climate change." That response is no longer scientifically accurate. The field of event attribution has developed methods that quantify how much a specific extreme event was made more likely, or more severe, by long-term warming. The methods are well-defined, peer-reviewed, and increasingly operational — and so are the limits of what they can say.
+Twenty years ago, the standard response to "did climate change cause this storm" was "no single event can be attributed to climate change." That response is no longer scientifically accurate, and the reason is a method rather than a change in [what is known about warming](/en/ecology/climate-change/what-is-climate-change). What that method can and cannot establish — and the uses it is increasingly put to beyond its own scope — is examined separately in [the insight on attribution science and its uses](/en/insight/attribution-science-and-its-uses). The field of event attribution has developed methods that quantify how much a specific extreme event was made more likely, or more severe, by long-term warming. The methods are well-defined, peer-reviewed, and increasingly operational — and so are the limits of what they can say.
 
 This piece walks through how attribution analysis works, where it is most reliable, and where it is most contested.
 

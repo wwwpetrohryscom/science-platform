@@ -4,8 +4,8 @@ excerpt: A riqueza específica é a métrica de biodiversidade mais fácil de ca
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-05-08'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - biodiversity
   - conservation
@@ -14,10 +14,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: ada5e131
+_bodyHash: 10e9a7c2
 ---
 
-A riqueza específica — a contagem de espécies distintas numa área definida — é uma das medidas de [biodiversidade](/pt/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) mais citadas. É também incompleta enquanto métrica de priorização em [conservação](/pt/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). As avaliações públicas da [Agência Europeia do Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), do [UNEP](https://www.unep.org/explore-topics/ecosystems) e da [IPBES](https://www.ipbes.net/global-assessment) tratam todas a perda de [biodiversidade](/pt/ecology/biodiversity/essential-biodiversity-variables-monitoring) como algo mais do que um simples problema de contagem de espécies.
+A riqueza específica — a contagem de espécies distintas numa área definida — é uma das medidas de biodiversidade mais citadas. É também incompleta enquanto métrica de priorização em conservação. As avaliações públicas da [Agência Europeia do Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), do [UNEP](https://www.unep.org/explore-topics/ecosystems) e da [IPBES](https://www.ipbes.net/global-assessment) tratam todas a perda de biodiversidade como algo mais do que um simples problema de contagem de espécies.
 
 Este artigo explica o desajuste, resume as alternativas e defende que o uso rotineiro das contagens de espécies como sinal de priorização deve ser abandonado.
 
@@ -41,7 +41,7 @@ A diversidade funcional pode estar mais diretamente ligada do que a riqueza espe
 
 ## Diversidade filogenética
 
-A diversidade filogenética capta a singularidade evolutiva das espécies de uma comunidade. Um local com 10 espécies todas da mesma família é filogeneticamente menos diverso do que um local com 10 espécies retiradas de 10 ordens diferentes. O primeiro preserva menos da árvore da [vida](/pt/biology/cells/what-is-a-cell); o segundo preserva mais, mesmo com a mesma contagem de espécies.
+A diversidade filogenética capta a singularidade evolutiva das espécies de uma comunidade. Um local com 10 espécies todas da mesma família é filogeneticamente menos diverso do que um local com 10 espécies retiradas de 10 ordens diferentes. O primeiro preserva menos da árvore da vida; o segundo preserva mais, mesmo com a mesma contagem de espécies.
 
 A diversidade filogenética conta porque funciona como aproximação à diversidade de atributos nos clados em que não há dados diretos de atributos, e porque a perda de uma linhagem filogeneticamente distinta é qualitativamente diferente da perda de um entre muitos parentes próximos. É também mais fácil de calcular do que a diversidade funcional, porque existem hoje filogenias bem apoiadas para a maioria dos grandes grupos.
 
@@ -49,7 +49,7 @@ Nos casos em que a diversidade funcional e a filogenética foram comparadas, coi
 
 ## O que isto significa para a definição de prioridades
 
-Se a priorização em [conservação](/pt/ecology/biodiversity/essential-biodiversity-variables-monitoring) fosse refeita com diversidade funcional ou filogenética em vez de riqueza específica, os mapas de prioridades resultantes mudariam. Algumas regiões hoje pouco priorizadas — em especial sistemas antigos e isolados, com poucas espécies mas elevada singularidade filogenética — subiriam. Algumas regiões hoje muito prioritárias — diversas mas funcionalmente redundantes — desceriam.
+Se a priorização em conservação fosse refeita com diversidade funcional ou filogenética em vez de riqueza específica, os mapas de prioridades resultantes mudariam. Algumas regiões hoje pouco priorizadas — em especial sistemas antigos e isolados, com poucas espécies mas elevada singularidade filogenética — subiriam. Algumas regiões hoje muito prioritárias — diversas mas funcionalmente redundantes — desceriam.
 
 Isto é incómodo por duas razões.
 
@@ -66,6 +66,12 @@ Duas coisas podem mudar sem esperar que a disciplina complete a sua transição.
 **Deixar de reportar a «biodiversidade» como um número único.** Quando um relatório de conservação cita a «perda de biodiversidade» em percentagem, está quase sempre a citar riqueza específica. Substituir esses números de destaque por métricas desagregadas — ou, pelo menos, assinalar que métrica está a ser usada — traria à superfície os desacordos de fundo que os números únicos escondem.
 
 Nenhuma destas medidas exige ciência nova. Exigem que se diga com clareza que a riqueza específica é apenas uma das métricas de biodiversidade e que a priorização deve usar a métrica que corresponde ao objetivo de conservação.
+
+## Para onde vai o resto deste subtema
+
+A alternativa a uma contagem de espécies não é um número único melhor; é um conjunto de medidas que respondem honestamente a perguntas mais estreitas. A [riqueza específica](/pt/ecology/biodiversity/species-richness-explained) vale a pena ser entendida justamente por ser a medida aqui criticada, e a [equitabilidade](/pt/ecology/biodiversity/species-evenness-and-diversity) é a propriedade que ela descarta. A [integridade ecológica](/pt/ecology/biodiversity/ecological-integrity-indicators) e os [indicadores de resiliência](/pt/ecology/biodiversity/ecosystem-resilience-indicators) enfrentam a tarefa mais difícil de perguntar se um lugar ainda funciona, e as [métricas de fragmentação](/pt/ecology/biodiversity/habitat-fragmentation-metrics) captam uma alteração espacial que contagens locais não conseguem ver.
+
+Do lado da medição, o [Índice Planeta Vivo](/pt/ecology/biodiversity/living-planet-index-explained) e o [Índice da Lista Vermelha](/pt/ecology/biodiversity/red-list-index-explained) são os dois agregados de referência, cada um com método e críticas documentadas, e as [variáveis essenciais de biodiversidade](/pt/ecology/biodiversity/essential-biodiversity-variables-monitoring) são a tentativa de acordar previamente o que deve ser medido. A origem dos dados conta tanto como o que se calcula a partir deles: os [registos de ciência cidadã](/pt/ecology/biodiversity/citizen-science-biodiversity-data) fornecem hoje grande parte das ocorrências, a [deteção remota](/pt/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) fornece extensão de habitat e não espécies, e qualquer afirmação de tendência assenta numa [linha de base que alguém escolheu](/pt/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines). Se a proteção produz resultados é uma questão empírica separada, tratada na [eficácia das áreas protegidas](/pt/ecology/biodiversity/protected-area-effectiveness) e no panorama da [monitorização da biodiversidade e da saúde dos ecossistemas](/pt/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Sources
 

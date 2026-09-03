@@ -18,7 +18,7 @@ related:
   - forest-carbon-measurement
   - satellite-deforestation-monitoring
 pillar: forest-ecosystems-explained
-_bodyHash: 3878a314
+_bodyHash: 4375f580
 ---
 
 Four figures, all currently published, all describing forest loss:

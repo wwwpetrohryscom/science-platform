@@ -18,7 +18,7 @@ related:
   - air-quality-measurement-and-standards
   - water-quality-measurement-explained
 pillar: environmental-pollution-explained
-_bodyHash: d2efc098
+_bodyHash: c25d7ef8
 ---
 
 A portion of seafood can contain more arsenic, measured as total arsenic, than a glass of water that would be considered dangerous to drink. Both numbers are correct and they are not comparable, because the arsenic is in different chemical forms. The World Health Organization draws the line explicitly: inorganic arsenic compounds, the kind dissolved in groundwater, are highly toxic, while the organic arsenic that dominates in fish and shellfish is far less harmful. This is the general rule for the elements usually grouped as heavy metals, and it is the reason a monitoring number reported as milligrams of element per kilogram of matrix answers a narrower question than it appears to. What that number belongs to — the source, the pathway or the receptor — is worked out in the [framework this cluster is built around](/en/ecology/pollution/environmental-pollution-explained); what follows is about why the element alone is insufficient.

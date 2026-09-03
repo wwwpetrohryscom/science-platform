@@ -14,7 +14,7 @@ related:
   - land-cover-change-detection
   - wildfire-monitoring-from-space
   - remote-sensing-limitations-and-uncertainty
-_bodyHash: af495327
+_bodyHash: 26cecca3
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

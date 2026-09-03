@@ -17,7 +17,7 @@ related:
   - cell-membrane-structure-and-transport
   - primary-production-and-energy-flow
 pillar: what-is-a-cell
-_bodyHash: 6f42ac8b
+_bodyHash: 5daaf15d
 ---
 
 Two very different machines are joined inside a chloroplast. The first is a photochemical device that captures a photon and separates a charge in picoseconds, at a quantum efficiency most engineered systems cannot approach. The second is an enzyme that fixes carbon dioxide at a few molecules per second and cannot reliably tell CO₂ apart from O₂. Almost everything distinctive about plant physiology — the enormous investment in one protein, photorespiration, the repeated independent invention of C4 and CAM metabolism — is a consequence of that mismatch, and it is a better organising idea than the usual two-stage summary. Environmental responsiveness is one of the requirements that [distinguishes a cell from a bag of chemistry](/en/biology/cells/what-is-a-cell), and a chloroplast spends much of its regulatory capacity managing the enzyme downstream of the light.

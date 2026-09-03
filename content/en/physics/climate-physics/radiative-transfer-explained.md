@@ -17,7 +17,7 @@ related:
   - convection-and-cloud-formation
   - atmospheric-structure-and-lapse-rate
 pillar: atmospheric-physics-explained
-_bodyHash: 8b33c768
+_bodyHash: ef836c18
 ---
 
 A radiative transfer calculation does not ask how much heat the air holds. It asks, at each wavelength separately, how much radiation is emitted, how much is absorbed on the way through, and what emerges at the top. Almost every result that matters in [atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained) — the surface temperature, the direction of the outgoing spectrum, the size of a forcing — falls out of doing that accounting properly rather than in aggregate.

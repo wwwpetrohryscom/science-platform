@@ -17,7 +17,7 @@ related:
   - rewilding-evidence-and-limits
   - conservation-trade-offs-and-prioritisation
 pillar: conservation-science-explained
-_bodyHash: 463aa290
+_bodyHash: 1f98e611
 ---
 
 A release is an event; a recovery is a trajectory. Almost every unresolved question in this field lives in the distance between the two, and most of the numbers that circulate about reintroduction describe the event rather than the trajectory.
@@ -44,7 +44,7 @@ The Florida panther is the case most often cited, and the published assessment s
 
 The unglamorous risk in captive breeding is not disease or husbandry but selection. A pedigree analysis of hatchery steelhead released into an Oregon river found that first-generation hatchery fish had nearly double the lifetime reproductive success of wild fish when both were spawned in captivity under identical conditions — a direct demonstration of adaptation to the captive environment in a single generation.
 
-The trade-off showed up in the same pedigree. Captive-born individuals with five or more returning siblings, meaning they came from broodstock that had done well in captivity, averaged 0.62 returning offspring in the wild; those with fewer than five siblings averaged 2.05. Traits rewarded in a hatchery were penalised in a river. This is [evolutionary adaptation](/en/glossary/evolutionary-adaptation) working against the programme's own objective, and it means that time spent in captivity is not a neutral holding period for the population being held.
+The trade-off showed up in the same pedigree. Captive-born individuals with five or more returning siblings, meaning they came from broodstock that had done well in captivity, averaged 0.62 returning offspring in the wild; those with fewer than five siblings averaged 2.05. Traits rewarded in a hatchery were penalised in a river. This is [evolutionary adaptation](/en/glossary/evolutionary-adaptation) working against the programme's own objective, and it means that time spent in captivity is not a neutral holding period for the population being held. The same capacity for rapid change is what recovery under environmental pressure depends on elsewhere, and how far it can be relied on is examined in [the insight on adaptation under rapid environmental change](/en/insight/adaptation-under-rapid-environmental-change).
 
 ## What the documented recoveries have in common
 

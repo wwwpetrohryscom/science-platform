@@ -19,7 +19,7 @@ related:
   - measurement-uncertainty-explained
   - particle-physics-fundamentals
 pillar: atomic-and-nuclear-physics-explained
-_bodyHash: 4740e7a2
+_bodyHash: ca6f2050
 ---
 
 Copper conducts electricity about twenty orders of magnitude better than quartz, and both are made of ordinary atoms held together by ordinary electromagnetic forces. The difference is not the number of electrons available. It is whether an electron that receives a small nudge of energy has anywhere to go.

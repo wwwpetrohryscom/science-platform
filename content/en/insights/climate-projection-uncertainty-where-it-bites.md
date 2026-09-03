@@ -18,7 +18,7 @@ related:
   - climate-sensitivity-explained
   - climate-model-physics-explained
   - el-nino-la-nina-enso-explained
-_bodyHash: 703fb4ed
+_bodyHash: 219221d5
 ---
 
 A wide spread across climate model output means something different depending on what is being projected. For summer rainfall over the Sahel in the 2040s the spread is large, and much of it is not disagreement between models at all. For the sign of global temperature change in 2090 the spread is also large, and it says nothing about whether the planet warms. Both are routinely reported as "the models disagree", and in neither case is that what the number is describing.

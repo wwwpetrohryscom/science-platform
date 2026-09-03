@@ -17,7 +17,7 @@ related:
   - marine-food-webs-and-productivity
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
-_bodyHash: 11cc0d7e
+_bodyHash: d2afa790
 ---
 
 A trophic level is a property of a feeding relationship, not a label that belongs to an organism. The number counts how many transfers separate a unit of energy from the sunlight that fixed it: photosynthesisers sit at level 1, something that eats only photosynthesisers sits at level 2, and so on. Nothing in that definition obliges an animal to stay in one place. A trout eating insects that grazed algae and also insects that ate other insects is feeding at levels 3 and 4 simultaneously, and the value ecologists assign it will be an average of the two, weighted by diet.

@@ -18,7 +18,7 @@ related:
   - climate-models-projections-uncertainty
   - global-temperature-records-explained
   - drought-monitoring-systems
-_bodyHash: 47807aa1
+_bodyHash: 2002cdb1
 ---
 
 An event-attribution study estimates how much more likely, or how much more severe, a defined class of weather event has become under human influence on the climate. It does not establish that a particular storm was caused by warming, and it does not divide the losses between climate and everything else — the two things its numbers are most often asked to do.

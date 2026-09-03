@@ -14,7 +14,7 @@ related:
   - what-is-remote-sensing
   - land-cover-change-detection
   - copernicus-programme-explained
-_bodyHash: d43bb6e1
+_bodyHash: 294c2a87
 readingTime: 5
 pillar: earth-observation-and-remote-sensing-explained
 ---

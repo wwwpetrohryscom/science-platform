@@ -18,7 +18,7 @@ related:
   - forest-carbon-measurement
   - forest-disturbance-fire-insects-windthrow
 pillar: forest-ecosystems-explained
-_bodyHash: 308b1442
+_bodyHash: 209a046c
 ---
 
 In July 2019 a report in *Science* mapped how much additional tree cover the world's ecosystems could support outside existing forest, farmland and urban land. The headline was arresting: room for 0.9 billion hectares of additional continuous forest, a more than 25 per cent increase in forested area, holding more than 200 gigatonnes of additional carbon at maturity — an amount the report compared to a quarter of the current atmospheric carbon pool.

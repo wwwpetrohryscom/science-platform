@@ -18,7 +18,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: 791b65fd
+_bodyHash: 676a1a4b
 ---
 
 Alle Seen und Flussbetten der Erde zusammen halten rund 93.100 Kubikkilometer Wasser. Der Ozean hält 1.338.000.000. In der globalen Wasserverteilungstabelle, welche die USGS Water Science School führt, entspricht dieser Oberflächenanteil etwa einem Hundertfünfzigstel eines Prozents allen Wassers; rechnet man die Sümpfe der Welt hinzu, bleibt die Summe noch immer unter einem Hundertstel Prozent. Den Artenbewertungen zufolge beherbergen dieselben Lebensräume mehr als 10 Prozent aller beschriebenen Arten, darunter rund ein Drittel der Wirbeltiere und etwa die Hälfte aller Fische. Die Süßwasserökologie besteht weitgehend darin, zu untersuchen, was aus diesem Verhältnis folgt.

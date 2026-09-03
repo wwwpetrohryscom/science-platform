@@ -18,7 +18,7 @@ related:
   - what-is-a-genome
   - cell-division-mitosis-and-meiosis
 pillar: what-is-dna
-_bodyHash: 55f2ea83
+_bodyHash: df48ba5
 ---
 
 If base pairing were left to thermodynamics alone — if a polymerase simply took whichever nucleotide the free-energy difference between correct and incorrect pairs favoured — mismatches would be laid down at a rate somewhere around one in a hundred to one in a thousand. Measured at specific loci, the spontaneous mutation rate in eukaryotic genomes is instead about 10⁻¹⁰ per base pair per generation. Seven orders of magnitude separate the chemistry from the outcome, and every one of them is paid for by machinery. That gap, rather than the [double-helical structure of DNA](/en/biology/genetics/what-is-dna), is what makes stable inheritance possible.

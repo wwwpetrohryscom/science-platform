@@ -4,8 +4,8 @@ excerpt: Water vapour is the strongest amplifier in the climate system and not a
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 4
 tags:
   - water-vapor-feedback
   - climate-feedback
@@ -16,11 +16,11 @@ related:
   - global-water-cycle-explained
   - ice-albedo-feedback-explained
   - earth-system-science-explained
-_bodyHash: dbab280b
+_bodyHash: 8fc10ec9
 pillar: earth-system-science-explained
 ---
 
-Two claims about water vapour are both true and are frequently set against each other: it is the most important greenhouse gas in the atmosphere, and it plays no role as a driver of climate change. Reconciling them takes one observation about timescale, and doing so is the cleanest available illustration of what a [climate feedback](/en/glossary/climate-feedback) actually is.
+Two claims about water vapour are both true and are frequently set against each other: it is the most important greenhouse gas in the atmosphere, and it plays no role as a driver of climate change. Reconciling them takes one observation about timescale — the kind of distinction between a driver and a response that [Earth system science depends on](/en/ecology/earth-systems/earth-system-science-explained) — and doing so is the cleanest available illustration of what a [climate feedback](/en/glossary/climate-feedback) actually is.
 
 ## Why vapour is a feedback and not a forcing
 

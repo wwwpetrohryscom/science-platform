@@ -18,7 +18,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: e1f364b3
+_bodyHash: 21e4ab
 ---
 
 Ein Stoff ist nicht deshalb Verschmutzung, weil er ist, was er ist. Er wird zur Verschmutzung, wenn drei Dinge zusammentreffen: eine **Quelle**, die ihn freisetzt, ein **Pfad**, der ihn irgendwohin trägt, und ein **Rezeptor** – ein Mensch, eine Bevölkerung, eine Art, ein Lebensraum – am anderen Ende dieses Pfades. Durchtrennt man eines der drei, ist der Stoff weiterhin vorhanden und weiterhin giftig, der Schaden aber ist fort. Deckt man eine Altlast ab, bleibt die Quelle bestehen, während der Pfad sich schließt. Verlegt man eine Trinkwasserfassung, tritt der Rezeptor aus dem Weg.

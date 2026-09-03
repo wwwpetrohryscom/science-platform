@@ -14,7 +14,7 @@ related:
   - ndvi-explained
   - drought-monitoring-systems
   - modis-earth-observation-system
-_bodyHash: 18ff809b
+_bodyHash: 209119a1
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

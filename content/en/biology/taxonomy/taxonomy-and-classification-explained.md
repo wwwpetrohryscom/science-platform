@@ -17,7 +17,7 @@ related:
   - phylogenetics-explained
   - the-tree-of-life-and-domains
   - how-many-species-are-there
-_bodyHash: b5643421
+_bodyHash: 1a5b96db
 ---
 
 A scientific name does two jobs, and most confusion about taxonomy comes from treating them as one. Deciding which organisms belong together in a group is a scientific judgement, revisable whenever the evidence shifts. Deciding which name that group correctly carries is a rule-governed procedure with almost no scientific content — closer to property law than to biology. The international codes of nomenclature govern the second and are deliberately silent on the first. When a familiar name changes, the cause can lie in either, and from outside the two look identical.

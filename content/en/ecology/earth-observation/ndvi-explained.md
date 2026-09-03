@@ -14,7 +14,7 @@ related:
   - vegetation-indices-and-monitoring
   - modis-earth-observation-system
   - drought-monitoring-systems
-_bodyHash: 7c019b61
+_bodyHash: b7598e95
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

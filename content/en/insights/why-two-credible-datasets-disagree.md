@@ -18,7 +18,7 @@ related:
   - global-temperature-records-explained
   - forest-degradation-vs-deforestation
   - remote-sensing-limitations-and-uncertainty
-_bodyHash: 2138f7f
+_bodyHash: 53ef4c47
 ---
 
 Two reputable organisations publish different numbers for the same thing, and the reader is left to decide which one is lying. Usually neither is. The gap is generated inside the products — by what each counts, where each looks, what each measures against, how each fills the parts it cannot see, and which edition of each is being quoted — and once the responsible difference is identified, the two figures normally turn out to be consistent statements about different questions.

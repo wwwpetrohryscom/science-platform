@@ -18,7 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
   - forest-disturbance-fire-insects-windthrow
-_bodyHash: 6a0ff88e
+_bodyHash: 960851a8
 ---
 
 The word "forest" does more work in a statistic than it looks capable of. Before it names an ecosystem it names a land-use category: thresholds on area, tree height and canopy cover, plus a judgement about what the land is for. Move any one of those settings and the world's forest area moves with it, without a single tree changing.

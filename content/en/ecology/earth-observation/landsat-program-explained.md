@@ -14,7 +14,7 @@ related:
   - what-is-remote-sensing
   - land-cover-change-detection
   - sentinel-satellites-explained
-_bodyHash: 4f2319a6
+_bodyHash: 6d360364
 readingTime: 5
 pillar: earth-observation-and-remote-sensing-explained
 ---

@@ -14,7 +14,7 @@ related:
   - ndvi-explained
   - vegetation-indices-and-monitoring
   - wildfire-monitoring-from-space
-_bodyHash: b6aa36b
+_bodyHash: 17ce0c15
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

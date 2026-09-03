@@ -4,8 +4,8 @@ excerpt: Most of Earth's carbon is locked in rock and moves on geological time. 
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 10
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - carbon-cycle
   - biogeochemical-cycles
@@ -16,11 +16,11 @@ related:
   - earth-system-science-explained
   - biosphere-climate-interactions
   - earth-system-tipping-points
-_bodyHash: e17c86f
+_bodyHash: cdead43b
 pillar: earth-system-science-explained
 ---
 
-There are two [carbon cycles](/en/glossary/carbon-cycle), running side by side at speeds that differ by roughly seven orders of magnitude, and almost every confusion about carbon comes from treating them as one. This article separates them, then follows the human perturbation through the fast one.
+There are two [carbon cycles](/en/glossary/carbon-cycle), running side by side at speeds that differ by roughly seven orders of magnitude, and almost every confusion about carbon comes from treating them as one. This article separates them, then follows the human perturbation through the fast one. Both are components of the coupled system set out in [the introduction to Earth system science](/en/ecology/earth-systems/earth-system-science-explained).
 
 The complementary article on [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks) takes up what happens to the sinks under continued warming; the aim here is the prior question of how the cycle works when it is behaving normally.
 

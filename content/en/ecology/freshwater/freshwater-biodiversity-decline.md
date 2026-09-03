@@ -18,7 +18,7 @@ related:
   - dams-and-river-fragmentation
   - water-quality-measurement-explained
 pillar: freshwater-ecosystems-explained
-_bodyHash: cdae21fb
+_bodyHash: a415cc0f
 ---
 
 Monitored freshwater vertebrate populations declined by an average of 85 per cent between 1970 and 2020, against 73 per cent for the global index that contains them. Those are the figures the Zoological Society of London publishes for the Living Planet Index, where freshwater is the worst-performing of the three realms reported. The freshwater number is also among the most methodologically sensitive headline figures in conservation science — not because it is wrong, but because what it measures is narrower than the sentence it usually appears in, and because a defensible change in the analysis moves it a long way. Both things have to be held at once.

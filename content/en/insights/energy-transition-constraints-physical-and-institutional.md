@@ -19,7 +19,7 @@ related:
   - grid-integration-of-variable-renewables
   - thermodynamic-limits-of-photovoltaics
   - energy-storage-fundamentals
-_bodyHash: 31f204a0
+_bodyHash: e1124db8
 ---
 
 Two statements that sound alike do quite different work. *No rotor can extract more than 59.3 per cent of the kinetic energy in the air passing through it* is a theorem. *A generation project in the United States waits a median of 61 months between asking to connect to the grid and delivering power* is a description of an administrative process that a federal regulator has recently rewritten. Both get quoted as limits on the energy transition. Only one of them has a derivation.

@@ -4,8 +4,8 @@ excerpt: Uma célula é a mais pequena unidade capaz de se manter, de se copiar 
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-05-08'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - cells
   - fundamentals
@@ -14,20 +14,20 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
-_bodyHash: 2cdb9d3b
+_bodyHash: 1eab1cab
 ---
 
-Uma célula é a mais pequena unidade física capaz de se manter, de se copiar e de responder ao seu ambiente. Este enquadramento operacional é coerente com as obras de referência de [biologia celular](/pt/biology/cells/cell-signaling-pathways-basics) acessíveis através do [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) e com as definições de [genética](/pt/biology/genetics/what-is-dna) propostas pelo [NHGRI](https://www.genome.gov/genetics-glossary). São três requisitos, e cada um desempenha um papel estrutural na definição do que é uma célula — e na explicação de por que motivo certos casos limite (os vírus, as mitocôndrias, os organelos em trânsito) não são [células](/pt/biology/cells/coral-microbiome-bleaching-resistance), mesmo partilhando algumas propriedades das [células](/pt/biology/cells/coral-microbiome-bleaching-resistance).
+Uma célula é a mais pequena unidade física capaz de se manter, de se copiar e de responder ao seu ambiente. Este enquadramento operacional é coerente com as obras de referência de [biologia celular](/pt/biology/cells/cell-signaling-pathways-basics) acessíveis através do [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) e com as definições de genética propostas pelo [NHGRI](https://www.genome.gov/genetics-glossary). São três requisitos, e cada um desempenha um papel estrutural na definição do que é uma célula — e na explicação de por que motivo certos casos limite (os vírus, as mitocôndrias, os organelos em trânsito) não são células, mesmo partilhando algumas propriedades das células.
 
 Este artigo percorre a definição operacional em vez da lista de organelos dos manuais, porque a lista dos manuais responde a outra pergunta.
 
 ## Três requisitos
 
-O primeiro requisito é a **automanutenção**: uma célula mantém as condições químicas do seu interior apesar de existir, no exterior, um ambiente químico diferente. Fá-lo gastando [energia](/pt/physics/energy/perovskite-stack-field-stability). A membrana celular é a fronteira através da qual esse trabalho se realiza, e a assimetria química que ela mantém — gradientes de concentração, diferenças de carga, pH — é o que torna tudo o resto possível. Uma célula que perde a capacidade de sustentar a química do seu interior está morta, por definição.
+O primeiro requisito é a **automanutenção**: uma célula mantém as condições químicas do seu interior apesar de existir, no exterior, um ambiente químico diferente. Fá-lo gastando energia. A membrana celular é a fronteira através da qual esse trabalho se realiza, e a assimetria química que ela mantém — gradientes de concentração, diferenças de carga, pH — é o que torna tudo o resto possível. Uma célula que perde a capacidade de sustentar a química do seu interior está morta, por definição.
 
 O segundo requisito é a **autorreplicação**: uma célula é capaz de produzir outra célula com as mesmas propriedades essenciais. Isso exige armazenar a informação necessária a essa produção (o genoma), dispor da maquinaria que lê essa informação e atua sobre ela (os ribossomas, as polimerases, as enzimas metabólicas) e possuir um mecanismo que reparta fisicamente os produtos por uma unidade-filha. Nenhum destes elementos basta por si só. Um genoma que não pode ser lido é inerte; uma maquinaria sem genoma não pode ser reproduzida.
 
-O terceiro requisito é a **capacidade de resposta ao meio**: uma célula deteta aquilo que a rodeia e modifica o seu comportamento em conformidade. Isto abrange desde a deteção de gradientes na quimiotaxia bacteriana até à [sinalização](/pt/biology/cells/cell-signaling-pathways-basics) mediada por recetores nas células animais. Sem isto, uma célula é uma reação química dentro de um saco — pode persistir durante algum tempo, mas não se consegue adaptar, e a adaptação é a diferença operacional entre matéria viva e química invulgar.
+O terceiro requisito é a **capacidade de resposta ao meio**: uma célula deteta aquilo que a rodeia e modifica o seu comportamento em conformidade. Isto abrange desde a deteção de gradientes na quimiotaxia bacteriana até à sinalização mediada por recetores nas células animais. Sem isto, uma célula é uma reação química dentro de um saco — pode persistir durante algum tempo, mas não se consegue adaptar, e a adaptação é a diferença operacional entre matéria viva e química invulgar.
 
 Os três são necessários. Retire-se um qualquer deles e fica-se com algo interessante que não é uma célula.
 
@@ -66,6 +66,12 @@ A definição operacional é útil em três frentes.
 ## O essencial
 
 Uma célula é a mais pequena unidade física que se mantém, se copia e responde ao seu ambiente. A lista de organelos dos manuais decorre desses três requisitos. Perante um objeto biológico, e querendo saber se é uma célula, apliquem-se-lhe os requisitos. A resposta costuma ser clara; quando não é, o próprio caso limite é o objeto interessante.
+
+## Para onde vai o resto deste subtema
+
+Tudo o que antecede é estrutura; os artigos que se seguem são os processos para os quais essa estrutura existe. A [membrana celular](/pt/biology/cells/cell-membrane-structure-and-transport) é a fronteira que faz de uma célula uma célula, e os transportadores nela consomem boa parte do orçamento energético. Esse orçamento é gerado pela [respiração mitocondrial](/pt/biology/cells/mitochondria-and-cellular-respiration) e, nos organismos que produzem o seu próprio alimento, captado primeiro pelo [aparelho fotossintético](/pt/biology/cells/photosynthesis-explained), cujas reações luminosas e fixação de carbono são dois passos com restrições muito diferentes.
+
+Dentro da fronteira, os [filamentos do citoesqueleto](/pt/biology/cells/cytoskeleton-and-cell-motility) mantêm a forma e deslocam carga, as vias de sinalização levam informação de fora para dentro, e a [divisão celular](/pt/biology/cells/cell-division-mitosis-and-meiosis) transforma uma célula em duas — ou, na meiose, gera a variação da geração seguinte. O [branqueamento dos corais](/pt/biology/cells/coral-microbiome-bleaching-resistance) aparece aqui e não na ecologia porque é a falha, à escala celular, de uma simbiose com consequências para todo o ecossistema.
 
 ## Sources
 

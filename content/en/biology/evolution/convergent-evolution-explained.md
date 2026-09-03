@@ -18,7 +18,7 @@ related:
   - speciation-mechanisms
   - antibiotic-resistance-evolution-mechanisms
 pillar: evolution-explained
-_bodyHash: 32cf6728
+_bodyHash: 23b586a
 ---
 
 A gliding membrane in a squirrel and in a marsupial is the version of convergence everyone learns, and it is the least informative version. Similar bodies under similar physics are cheap to explain and hard to test. The interesting claims are made at finer resolution — the same enzyme, the same amino acid position, the same substitution in the same order — because that is where a repeated outcome starts to say something about how constrained the available paths are. It is also where the statistical difficulty begins, since molecular similarity accumulates between unrelated lineages by chance at a rate that has to be estimated before any excess can be claimed. Both halves of that story belong in an account of [how evolutionary change is produced and tested](/en/biology/evolution/evolution-explained).

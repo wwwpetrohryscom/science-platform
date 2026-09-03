@@ -4,8 +4,8 @@ excerpt: Some of what moves in the climate record is being pushed; some is the s
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - climate-variability
   - teleconnections
@@ -16,11 +16,11 @@ related:
   - earth-system-predictability-explained
   - ocean-circulation-and-climate
   - earth-system-science-explained
-_bodyHash: e91525df
+_bodyHash: 385cb665
 pillar: earth-system-science-explained
 ---
 
-A pressure anomaly over Iceland is statistically linked to winter temperatures in Turkey. Nothing physically travels between the two; the link exists because both are expressions of one large-scale circulation pattern. That kind of correlation-at-distance is a **teleconnection**, and the recurring spatial patterns that generate them are **modes of variability**. Together they account for a large share of what looks, in any short record, like climate change.
+A pressure anomaly over Iceland is statistically linked to winter temperatures in Turkey. Nothing physically travels between the two; the link exists because both are expressions of one large-scale circulation pattern. That kind of correlation-at-distance is a **teleconnection** — a property of [the planet treated as one coupled system](/en/ecology/earth-systems/earth-system-science-explained) rather than of either location, and the recurring spatial patterns that generate them are **modes of variability**. Together they account for a large share of what looks, in any short record, like climate change.
 
 ## What a mode of variability is
 

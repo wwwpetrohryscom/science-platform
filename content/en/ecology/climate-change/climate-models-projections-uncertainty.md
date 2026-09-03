@@ -17,10 +17,10 @@ related:
   - extreme-weather-attribution-basics
   - carbon-cycle-feedbacks
 pillar: what-is-climate-change
-_bodyHash: f76d24c5
+_bodyHash: 3ef3883
 ---
 
-A climate projection is not a forecast in the weather sense. A weather forecast estimates the actual state of the atmosphere at a future time; a climate projection estimates the *statistics* of the climate system under a specified set of forcing assumptions. The difference matters because the relevant uncertainty in a climate projection is not "how exactly will the weather unfold" — it is a structured combination of three different sources.
+A climate projection is not a forecast in the weather sense. A weather forecast estimates the actual state of the atmosphere at a future time; a climate projection estimates the *statistics* of [the climate system](/en/ecology/climate-change/what-is-climate-change) under a specified set of forcing assumptions. The difference matters because the relevant uncertainty in a climate projection is not "how exactly will the weather unfold" — it is a structured combination of three different sources.
 
 This piece walks through what climate models are, where the uncertainty in their projections comes from, and how to read a projection range responsibly.
 
@@ -98,7 +98,7 @@ Three practices reduce avoidable confusion.
 
 There is a further distinction worth carrying into any reading of a projection: a forecast depends on knowing today's state precisely, while a projection of century-scale statistics does not depend on initial conditions at all. That is why the two-week limit on weather prediction does not transfer to climate projection, an argument set out in [Earth-system predictability](/en/ecology/earth-systems/earth-system-predictability-explained).
 
-Models do not replace the indicator record — they extend it forward conditionally. The historical [indicator records](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) are the empirical foundation; the projections are the consequence of running the models forward under specified assumptions. A projection is honest about what the underlying assumptions are; a forecast that hides the scenario is a forecast that has confused its own structure.
+Models do not replace the indicator record — they extend it forward conditionally. The historical indicator records are the empirical foundation; the projections are the consequence of running the models forward under specified assumptions. A projection is honest about what the underlying assumptions are; a forecast that hides the scenario is a forecast that has confused its own structure.
 
 ## Sources
 

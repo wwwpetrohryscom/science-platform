@@ -17,7 +17,7 @@ related:
   - species-extinction-risk-assessment
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: 3f427f44
+_bodyHash: 200151d4
 ---
 
 The hardest problem in this literature is not measuring forest cover. Satellites do that well. It is that no territory was ever assigned at random: community-held and Indigenous-held lands sit where they sit for historical, political and topographic reasons, and every one of those reasons also affects how likely the land was to be cleared. Any comparison that ignores this measures location as much as management.

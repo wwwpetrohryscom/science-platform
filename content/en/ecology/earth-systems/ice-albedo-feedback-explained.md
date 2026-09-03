@@ -4,8 +4,8 @@ excerpt: Losing bright ice and exposing dark ocean amplifies warming. The mechan
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 8
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - ice-albedo-feedback
   - climate-feedback
@@ -16,11 +16,11 @@ related:
   - cryosphere-in-the-earth-system
   - water-vapor-feedback-explained
   - earth-system-science-explained
-_bodyHash: e75de05c
+_bodyHash: 3e75ce5f
 pillar: earth-system-science-explained
 ---
 
-Of all the amplifying loops in the climate system, this is the one that is easiest to explain and the one most often over-credited. Bright surfaces reflect sunlight; dark surfaces absorb it; melting ice replaces the first with the second. The mechanism is genuine and well quantified. Its global magnitude is smaller than the intuition suggests, and understanding why is more instructive than the mechanism itself.
+Of all the amplifying loops in the climate system, this is the one that is easiest to explain and the one most often over-credited. Bright surfaces reflect sunlight; dark surfaces absorb it; melting ice replaces the first with the second. The mechanism is genuine and well quantified, and it is a textbook case of the [component coupling that Earth system science exists to study](/en/ecology/earth-systems/earth-system-science-explained). Its global magnitude is smaller than the intuition suggests, and understanding why is more instructive than the mechanism itself.
 
 ## The mechanism, with the numbers attached
 

@@ -18,7 +18,7 @@ related:
   - genome-wide-association-studies-explained
   - what-is-a-genome
 pillar: biotechnology-explained
-_bodyHash: a97009cf
+_bodyHash: '3449461'
 ---
 
 GenBank release 273, issued in August 2026, holds 8,236,878,868,450 bases in 267,383,895 sequence records, and its whole-genome-shotgun division holds a further 50,829,714,144,609 bases across more than 5.1 billion records. NCBI's Sequence Read Archive, which stores the raw output rather than the curated records, passed 91 petabases at the last point in its published growth series in February 2024. None of that is a result. It becomes one only after software has decided where each read came from, what the reads assemble into, what the assembled sequence is likely to do, and which of the differences between two samples deserve reporting. Those are four separate inferences, and each has its own way of being wrong.

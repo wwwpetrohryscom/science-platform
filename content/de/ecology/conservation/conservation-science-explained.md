@@ -18,7 +18,7 @@ related:
   - invasive-species-management
   - conservation-trade-offs-and-prioritisation
   - habitat-fragmentation-and-connectivity
-_bodyHash: ebf567e
+_bodyHash: 11dd48e
 ---
 
 Der Naturschutz stellt eine Frage, die praktisch klingt und in Wahrheit kausal ist: Hat diese Maßnahme den Verlauf dieser Population, dieses Lebensraums, dieser Landschaft verändert, verglichen mit dem, was ohne sie geschehen wäre? Nahezu jede methodische Schwierigkeit des Fachs stammt von einer unbequemen Eigenschaft dieser Frage ab – der Vergleichszustand wird nie beobachtet. Er muss konstruiert werden.

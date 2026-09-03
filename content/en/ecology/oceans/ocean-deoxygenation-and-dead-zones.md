@@ -18,7 +18,7 @@ related:
   - marine-food-webs-and-productivity
   - ocean-circulation-and-climate
 pillar: ocean-science-explained
-_bodyHash: ec3bbe8a
+_bodyHash: 6d070950
 ---
 
 Below the top few metres, seawater has no way of acquiring oxygen. Every molecule in the ocean interior was dissolved at the surface, or released there by photosynthesis, and then carried down by sinking water. Interior oxygen is therefore a balance between a supply term set by circulation and a demand term set by respiration, and anything that slows the supply or raises the demand draws the balance down. Two very different human perturbations do exactly that, in different places, on different timescales, and they are frequently reported as though they were one phenomenon. Because the supply side is governed by the layering that [ocean science](/en/ecology/oceans/ocean-science-explained) treats as its master variable, dissolved oxygen doubles as one of the most sensitive available tracers of how fast the interior is ventilated at all. What follows takes the two mechanisms apart and asks what is actually measured for each.

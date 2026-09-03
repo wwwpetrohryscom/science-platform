@@ -14,7 +14,7 @@ related:
   - satellite-deforestation-monitoring
   - landsat-program-explained
   - earth-observation-data-products
-_bodyHash: 46881cac
+_bodyHash: ff88ec7c
 readingTime: 5
 pillar: earth-observation-and-remote-sensing-explained
 ---

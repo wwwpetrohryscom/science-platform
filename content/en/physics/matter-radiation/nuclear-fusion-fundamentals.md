@@ -19,7 +19,7 @@ related:
   - heat-engines-and-efficiency-limits
   - radioactivity-and-radiation-units
 pillar: atomic-and-nuclear-physics-explained
-_bodyHash: 2d90d001
+_bodyHash: 79c7f68b
 ---
 
 Both fission and fusion release energy for the same reason, which is set out in the pillar on [the binding-energy curve behind both processes](/en/physics/matter-radiation/atomic-and-nuclear-physics-explained): nuclei near iron are more tightly bound than nuclei at either end, so splitting a heavy one or joining two light ones moves mass into binding energy. The difficulty is entirely on the way in. Two nuclei carry positive charge, and the electrostatic repulsion between them rises steeply as they approach, while the strong force that would bind them only reaches across roughly a nuclear diameter. Getting two nuclei that close means giving them enough kinetic energy to climb most of that barrier — and then keeping enough of them close enough for long enough that the reactions repay what it cost to set the conditions up.

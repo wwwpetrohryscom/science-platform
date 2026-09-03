@@ -18,7 +18,7 @@ related:
   - how-many-species-are-there
   - why-species-counts-mislead-conservation
 pillar: taxonomy-and-classification-explained
-_bodyHash: b6b6bf01
+_bodyHash: a1cf08c1
 ---
 
 Two researchers can examine the same populations, share every sequence and specimen, and still publish incompatible answers about how many kinds of organism they are looking at. The disagreement is almost never about the data. It is about which property counts as decisive, and biology supplies several candidates that do not pick out the same boundaries. Everything downstream — the naming machinery described in [the rules that govern scientific names](/en/biology/taxonomy/taxonomy-and-classification-explained), the counts, the legal protections — inherits that unresolved choice.

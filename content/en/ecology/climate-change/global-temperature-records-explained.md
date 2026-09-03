@@ -4,8 +4,8 @@ excerpt: There is no single global temperature dataset. There are several, built
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - climate-change
   - temperature
@@ -17,10 +17,10 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
-_bodyHash: ceedca9d
+_bodyHash: de549a3c
 ---
 
-"Global mean surface temperature" is the most familiar climate indicator and also the one most often misread as a single number from a single dataset. It is not. Several independent groups produce global mean temperature records, each from their own combination of raw observations and their own gridding, infilling, and bias-correction methods. They agree to within stated uncertainties — which is the property that makes the trend robust.
+"Global mean surface temperature" is the most familiar indicator of [climate change](/en/ecology/climate-change/what-is-climate-change) and also the one most often misread as a single number from a single dataset. It is not. Several independent groups produce global mean temperature records, each from their own combination of raw observations and their own gridding, infilling, and bias-correction methods. They agree to within stated uncertainties — which is the property that makes the trend robust.
 
 This piece walks through the major operational products, what they have in common, and what their differences tell you.
 

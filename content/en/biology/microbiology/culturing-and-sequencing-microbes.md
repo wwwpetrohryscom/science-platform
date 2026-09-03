@@ -18,7 +18,7 @@ related:
   - microbial-biogeochemistry
   - dna-sequencing-technologies
 pillar: microbiology-explained
-_bodyHash: fe9fa2da
+_bodyHash: 75ae3a9e
 ---
 
 Microbiology has a recurring problem that other fields of biology mostly do not: the organisms cannot be seen doing anything useful, so every fact about them arrives through an instrument that admits some of them and excludes the rest. A colony on agar, a sequence read from a PCR product and a genome binned out of a metagenome are three different filters, and the composition each one reports is partly a description of the filter. Knowing which is which is most of what separates a defensible microbial ecology claim from an artefact.

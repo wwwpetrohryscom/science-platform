@@ -4,8 +4,8 @@ excerpt: As alterações climáticas são a modificação de longo prazo do bala
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-09-02'
-readingTime: 8
+updatedDate: '2026-09-03'
+readingTime: 9
 tags:
   - climate
   - fundamentals
@@ -22,7 +22,7 @@ faq:
     answer: 'A temperatura média global é um forçamento termodinâmico que desencadeia mudanças regionais bem maiores: dias de calor extremo, padrões de precipitação, estratificação do oceano, nível do mar. O limiar dos dois graus não é um precipício, mas um limiar útil, acima do qual várias grandes retroações (metano do Ártico, dinâmica das calotes glaciares, declínio florestal) passam a ter maior probabilidade de se ativarem.'
   - question: O que continua verdadeiramente incerto?
     answer: A magnitude das mudanças regionais na precipitação, o calendário e a reversibilidade das retroações associadas às calotes glaciares, a resposta das nuvens ao aquecimento e a intensidade das retroações do ciclo do carbono. As incertezas dizem respeito a *quanto* e *a que velocidade*, não a se o fenómeno está a acontecer nem à sua causa.
-_bodyHash: 3d8e8adf
+_bodyHash: d2458e85
 ---
 
 As alterações climáticas designam a modificação de longo prazo do balanço energético da Terra, provocada sobretudo — nos últimos 150 anos — por mudanças na composição da atmosfera. O mecanismo está solidamente estabelecido na [avaliação do Grupo de Trabalho I do AR6 do IPCC](https://www.ipcc.ch/report/ar6/wg1/) e resumido para o público em geral pela [síntese das provas climáticas da NASA](https://science.nasa.gov/climate-change/evidence/). As questões verdadeiramente em aberto não são as que o debate público costuma destacar.
@@ -82,6 +82,14 @@ A variabilidade intra-anual que produziu o registo mais recente foi modulada por
 As alterações climáticas são uma consequência termodinâmica da mudança da composição da atmosfera. As grandes avaliações tratam o mecanismo e a atribuição recente à ação humana como estabelecidos. A fronteira ativa da investigação está na magnitude, no impacto regional, na intensidade das retroações e na reversibilidade — não nas afirmações fundacionais.
 
 Perante um argumento sobre o clima, o filtro pertinente é este: qual dessas questões de fronteira está a ser tratada? É aí que vivem quase todos os desacordos úteis. Os que não vivem aí — os que voltam a discutir o mecanismo básico ou a atribuição — estão resolvidos há tempo suficiente para que responder-lhes já não seja o lugar onde a ciência acontece.
+
+## Para onde vai o resto deste subtema
+
+O mecanismo exposto acima assenta em duas grandezas que o resto desta secção desmonta. [Gases com efeito de estufa e forçamento radiativo](/pt/ecology/climate-change/greenhouse-gases-and-radiative-forcing) explica o que é o forçamento e porque os potenciais de aquecimento dependem da janela de integração escolhida; a [sensibilidade climática](/pt/ecology/climate-change/climate-sensitivity-explained) trata da resposta a esse forçamento e da razão pela qual os dois números habitualmente citados respondem a perguntas diferentes. Os [orçamentos de carbono remanescentes](/pt/ecology/climate-change/carbon-budgets-and-remaining-emissions) resultam da combinação de ambos e são o produto mais mal lido da área.
+
+A evidência é um conjunto de séries mantidas separadamente. Os [registos de temperatura global](/pt/ecology/climate-change/global-temperature-records-explained), a [monitorização das concentrações de gases com efeito de estufa](/pt/ecology/climate-change/greenhouse-gas-concentrations-monitoring), o conteúdo de calor do oceano, a subida do nível do mar e os [indicadores da criosfera](/pt/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) têm cada um a sua história instrumental e a sua estrutura de erro, e [o quadro de indicadores](/pt/ecology/climate-change/climate-indicators-earth-system-monitoring) é a tentativa de os ler em conjunto.
+
+Nas questões mais difíceis: a [incerteza das projeções](/pt/ecology/climate-change/climate-models-projections-uncertainty) precisa o que um modelo pode e não pode dizer, a [atribuição de eventos extremos](/pt/ecology/climate-change/extreme-weather-attribution-basics) apresenta o método que substituiu o «nenhum evento isolado pode ser atribuído», as [retroações do ciclo do carbono](/pt/ecology/climate-change/carbon-cycle-feedbacks) e o [sumidouro das florestas temperadas](/pt/ecology/climate-change/temperate-forest-carbon-sink-decline) tratam dos sumidouros que decidem que parte de uma emissão fica no ar, e os [indicadores de adaptação e mitigação](/pt/ecology/climate-change/climate-adaptation-mitigation-indicators) seguem o lado da resposta humana.
 
 ## Sources
 

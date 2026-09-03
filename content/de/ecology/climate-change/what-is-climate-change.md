@@ -4,8 +4,8 @@ excerpt: Der Klimawandel ist die langfristige Verschiebung der Energiebilanz der
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 8
 tags:
   - climate
   - fundamentals
@@ -22,7 +22,7 @@ faq:
     answer: Die globale Mitteltemperatur ist ein thermodynamischer Antrieb, der weit größere regionale Veränderungen bewirkt – extreme Hitzetage, Niederschlagsmuster, Schichtung des Ozeans, Meeresspiegel. Die Zwei-Grad-Marke ist keine Klippe, sondern eine nützliche Schwelle, jenseits derer mehrere große Rückkopplungen (arktisches Methan, Eisschilddynamik, Absterben von Wäldern) mit höherer Wahrscheinlichkeit einsetzen.
   - question: Was ist wirklich noch unsicher?
     answer: Das Ausmaß regionaler Niederschlagsänderungen, der zeitliche Verlauf und die Umkehrbarkeit der Eisschild-Rückkopplungen, die Reaktion der Wolken auf die Erwärmung und die Stärke der Rückkopplungen im Kohlenstoffkreislauf. Die Unsicherheiten betreffen das *wie viel* und das *wie schnell*, nicht die Frage, ob es geschieht oder wodurch.
-_bodyHash: 8f6e84bf
+_bodyHash: 4a6073ab
 ---
 
 Der Klimawandel ist die langfristige Verschiebung der Energiebilanz der Erde, die – über die letzten 150 Jahre – in erster Linie von Veränderungen der Zusammensetzung der Atmosphäre angetrieben wird. Der Mechanismus ist im [Sachstandsbericht AR6 der IPCC-Arbeitsgruppe I](https://www.ipcc.ch/report/ar6/wg1/) gut belegt und in [NASAs Überblick über die Klimaevidenz](https://science.nasa.gov/climate-change/evidence/) für ein breites Publikum zusammengefasst. Die wirklich offenen Fragen sind andere als die, die in der öffentlichen Debatte gewöhnlich betont werden.
@@ -82,6 +82,14 @@ Die unterjährige Variabilität, aus der der jüngste Rekord hervorging, wurde v
 Der Klimawandel ist eine thermodynamische Folge der sich verändernden Zusammensetzung der Atmosphäre. Die großen Sachstandsberichte behandeln den Mechanismus und die Zuordnung der jüngsten Erwärmung zum Menschen als belegt. Die aktive Forschungsfront liegt beim Ausmaß, bei der regionalen Auswirkung, bei der Stärke der Rückkopplungen und bei der Umkehrbarkeit – nicht bei den Grundaussagen.
 
 Wenn Ihnen ein Argument zum Klima begegnet, ist der maßgebliche Filter die Frage, welche dieser Frontfragen es anspricht. Dort sind die meisten nützlichen Meinungsverschiedenheiten zu Hause. Die anderen – jene, die den Grundmechanismus oder die Attribution neu aufrollen – sind lange genug geklärt, dass eine Auseinandersetzung mit ihnen nicht mehr dort stattfindet, wo die Wissenschaft steht.
+
+## Wohin der Rest dieses Themenfelds führt
+
+Der oben dargestellte Mechanismus beruht auf zwei Größen, die der Rest dieses Bereichs auseinandernimmt. [Treibhausgase und Strahlungsantrieb](/de/ecology/climate-change/greenhouse-gases-and-radiative-forcing) erklärt, was Antrieb ist und warum Treibhauspotenziale vom gewählten Integrationszeitraum abhängen; die [Klimasensitivität](/de/ecology/climate-change/climate-sensitivity-explained) behandelt die Reaktion darauf und warum die beiden üblich zitierten Zahlen verschiedene Fragen beantworten. Die [verbleibenden Kohlenstoffbudgets](/de/ecology/climate-change/carbon-budgets-and-remaining-emissions) ergeben sich aus beidem und sind das am häufigsten fehlgelesene Ergebnis des Fachs.
+
+Die Evidenz besteht aus getrennt geführten Reihen. Die [globalen Temperaturreihen](/de/ecology/climate-change/global-temperature-records-explained), das [Monitoring der Treibhausgaskonzentrationen](/de/ecology/climate-change/greenhouse-gas-concentrations-monitoring), der Wärmeinhalt des Ozeans und der Meeresspiegelanstieg — beide oben bereits verlinkt — sowie die [Kryosphärenindikatoren](/de/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) haben je eigene Messgeschichte und Fehlerstruktur, und [der Indikatorrahmen](/de/ecology/climate-change/climate-indicators-earth-system-monitoring) ist der Versuch, sie zusammen zu lesen.
+
+Zu den schwierigeren Fragen: die [Projektionsunsicherheit](/de/ecology/climate-change/climate-models-projections-uncertainty) benennt, was ein Modell leisten kann und was nicht, die [Zuordnung von Extremereignissen](/de/ecology/climate-change/extreme-weather-attribution-basics) stellt die Methode vor, die „kein Einzelereignis lässt sich zuordnen" abgelöst hat, die [Rückkopplungen des Kohlenstoffkreislaufs](/de/ecology/climate-change/carbon-cycle-feedbacks) und die [Senke der gemäßigten Wälder](/de/ecology/climate-change/temperate-forest-carbon-sink-decline) behandeln die Senken, die entscheiden, wie viel einer Emission in der Luft bleibt, und die [Anpassungs- und Minderungsindikatoren](/de/ecology/climate-change/climate-adaptation-mitigation-indicators) verfolgen die Seite des menschlichen Handelns.
 
 ## Sources
 

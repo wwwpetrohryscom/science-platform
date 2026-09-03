@@ -17,7 +17,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
-_bodyHash: c4e33738
+_bodyHash: b47606a4
 ---
 
 Judged as a predictive instrument, quantum mechanics is the most severely tested theory physics has. The 2022 CODATA evaluation lists the electron magnetic moment anomaly as 1.159 652 180 46(18) × 10⁻³, a relative standard uncertainty of 1.6 × 10⁻¹⁰. The fine-structure constant that governs the strength of the electromagnetic interaction is pinned to the same order, 7.297 352 5643(11) × 10⁻³. Whatever is unresolved about quantum theory, its arithmetic is not the unresolved part.

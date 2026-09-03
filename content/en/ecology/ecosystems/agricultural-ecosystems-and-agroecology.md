@@ -18,7 +18,7 @@ related:
   - ecosystem-services-and-human-wellbeing
   - food-webs-and-trophic-structure
 pillar: what-is-an-ecosystem
-_bodyHash: f5be4743
+_bodyHash: 89ae0fc3
 ---
 
 Farmland behaves like an ecosystem that has been stopped early and held there. Tillage, weeding and harvest repeatedly reset the community to a stage dominated by fast-growing, high-light species — the opening move of [any secondary succession](/en/ecology/ecosystems/ecological-succession-explained) — and the reset is paid for from outside the field, in nutrients, in fuel, in water and in labour. Read that way, an agroecosystem is not a degraded natural system but [an ecosystem with an unusual boundary condition](/en/ecology/ecosystems/what-is-an-ecosystem): almost everything the community would normally recycle internally is instead imported, and almost all of the accumulated biomass is exported once a year.

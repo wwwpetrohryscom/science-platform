@@ -18,7 +18,7 @@ related:
   - soil-science-explained
   - carbon-cycle-explained
   - agricultural-ecosystems-and-agroecology
-_bodyHash: c23ec762
+_bodyHash: ddd4f234
 ---
 
 Improved management adds organic carbon to farmland at a rate the FAO's monitoring protocol puts at 0.2 to 0.8 tonnes per hectare per year. When a study at eight German cropland and eight grassland sites resampled soil pits after shifting them by the smallest distance physically possible — 20 to 60 centimetres — the stock estimate moved by a mean absolute 5.1 tonnes per hectare on the arable sites and 7.6 on the grasslands. The same paper gives those errors as 7.5 and 8.5 per cent, which places the stock they are errors on at roughly 68 and 89 tonnes per hectare over the top 30 centimetres.

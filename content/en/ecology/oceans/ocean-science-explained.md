@@ -17,7 +17,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: f1729a3f
+_bodyHash: 4333d183
 ---
 
 The ocean is one connected body of water that behaves as though it were stacked. Density — a function of temperature, salinity and pressure — sorts seawater into layers that exchange slowly with each other, and most of the large-scale behaviour of the sea follows from that sorting: where added heat accumulates, where nutrients sit, how deep light reaches, and how long anything stays where it is.

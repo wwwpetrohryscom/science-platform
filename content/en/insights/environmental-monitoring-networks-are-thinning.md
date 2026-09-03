@@ -19,7 +19,7 @@ related:
   - essential-biodiversity-variables-monitoring
   - groundwater-and-aquifer-depletion
   - what-satellites-cannot-see
-_bodyHash: '4146203'
+_bodyHash: '3e5037'
 ---
 
 Slow change is detectable only against a long, consistent record. That is not a preference of the discipline; it is a property of the statistics. A trend in flood frequency, a shift in low-flow behaviour, a change in the timing of a biological event — each requires enough years of comparable observation that the signal separates from interannual noise. And a record has a property no other scientific instrument has: once it is interrupted, the missing years cannot be recovered by any later investment. You can rebuild a station. You cannot rebuild its past.

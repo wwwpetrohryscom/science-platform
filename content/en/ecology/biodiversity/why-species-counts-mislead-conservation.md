@@ -4,8 +4,8 @@ excerpt: Species richness is the easiest biodiversity metric to compute and the 
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-05-08'
-readingTime: 4
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - biodiversity
   - conservation
@@ -14,10 +14,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 6e365baa
+_bodyHash: d0090328
 ---
 
-Species richness — the count of distinct species in a defined area — is one of the most widely cited measures of [biodiversity](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). It is also incomplete as a [conservation](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat [biodiversity](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) loss as more than a simple species-count problem.
+Species richness — the count of distinct species in a defined area — is one of the most widely cited measures of biodiversity. It is also incomplete as a conservation prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat biodiversity loss as more than a simple species-count problem.
 
 This piece explains the mismatch, summarizes the alternatives, and argues that the routine use of species counts as a prioritization signal needs to be retired.
 
@@ -41,7 +41,7 @@ This is the trade-off. Functional diversity is the right thing to measure and a 
 
 ## Phylogenetic diversity
 
-Phylogenetic diversity captures the evolutionary distinctiveness of the species in a community. A site with 10 species all from the same family is less phylogenetically diverse than a site with 10 species drawn from 10 different orders. The former preserves less of the tree of [life](/en/biology/cells/what-is-a-cell); the latter preserves more, even with the same species count.
+Phylogenetic diversity captures the evolutionary distinctiveness of the species in a community. A site with 10 species all from the same family is less phylogenetically diverse than a site with 10 species drawn from 10 different orders. The former preserves less of the tree of life; the latter preserves more, even with the same species count.
 
 Phylogenetic diversity matters because it acts as a proxy for trait diversity in clades where direct trait data are unavailable, and because the loss of a phylogenetically distinct lineage is qualitatively different from the loss of one of many close relatives. It is also more tractable to compute than functional diversity, because well-supported phylogenies now exist for most major groups.
 
@@ -49,7 +49,7 @@ Where functional and phylogenetic diversity have been compared, they often agree
 
 ## What this means for prioritization
 
-If [conservation](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) prioritization were redone using functional or phylogenetic diversity instead of species richness, the resulting priority maps would change. Some currently underprioritized regions — particularly old, isolated systems with low species counts but high phylogenetic distinctiveness — would move up. Some currently high-priority regions — diverse but functionally redundant — would move down.
+If conservation prioritization were redone using functional or phylogenetic diversity instead of species richness, the resulting priority maps would change. Some currently underprioritized regions — particularly old, isolated systems with low species counts but high phylogenetic distinctiveness — would move up. Some currently high-priority regions — diverse but functionally redundant — would move down.
 
 This is uncomfortable for two reasons.
 
@@ -66,6 +66,12 @@ Two things can change without waiting for the underlying field to fully transiti
 **Stop reporting "biodiversity" as a single number.** When a conservation report cites "biodiversity loss" as a percentage, it is almost always citing species richness. Replacing those headline figures with disaggregated metrics — or at least flagging which metric is being used — would surface the underlying disagreements that single numbers hide.
 
 Neither of these requires new science. They require stating clearly that species richness is only one biodiversity metric, and that prioritization should use the metric that matches the conservation objective.
+
+## Where the rest of this subtopic goes
+
+The alternative to a species count is not a single better number; it is a set of measures that each answer a narrower question honestly. [Species richness](/en/ecology/biodiversity/species-richness-explained) is worth understanding precisely because it is the measure being criticised here, and [species evenness](/en/ecology/biodiversity/species-evenness-and-diversity) is the property it discards. [Ecological integrity](/en/ecology/biodiversity/ecological-integrity-indicators) and [resilience indicators](/en/ecology/biodiversity/ecosystem-resilience-indicators) attempt the harder task of asking whether a place still works, and [habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics) capture a spatial change that site-level counts cannot see.
+
+On the measurement side, the [Living Planet Index](/en/ecology/biodiversity/living-planet-index-explained) and the [Red List Index](/en/ecology/biodiversity/red-list-index-explained) are the two headline aggregates, each with a documented method and documented criticism, and [Essential Biodiversity Variables](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) are the attempt to agree in advance on what should be measured at all. Where the data come from matters as much as what is computed from it: [citizen-science records](/en/ecology/biodiversity/citizen-science-biodiversity-data) now supply a large share of occurrence data, [remote sensing](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) supplies habitat extent rather than species, and every trend claim rests on [a baseline that somebody chose](/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines). Whether protection delivers anything is a separate empirical question, taken up in [protected-area effectiveness](/en/ecology/biodiversity/protected-area-effectiveness) and in the broader treatment of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Sources
 

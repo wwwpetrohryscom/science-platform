@@ -18,7 +18,7 @@ related:
   - wetlands-and-their-functions
   - water-quality-measurement-explained
 pillar: freshwater-ecosystems-explained
-_bodyHash: a5198c1b
+_bodyHash: bba8ad43
 ---
 
 Lake Baikal alone holds over 23,000 cubic kilometres of water — set against the 91,000 cubic kilometres the USGS assigns to all fresh lakes worldwide, that is roughly a quarter of the total, and enough that the combined volume of the North American Great Lakes would be needed to refill it. The concentration is typical of lakes as a class: a satellite census counted about 117 million water bodies larger than 0.002 square kilometres, yet a handful of very large basins hold most of the water. It is also a reminder that "lake" covers a range of physical systems whose behaviour has more to do with depth and mixing than with size.

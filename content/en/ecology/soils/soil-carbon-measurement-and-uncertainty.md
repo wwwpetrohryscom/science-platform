@@ -17,7 +17,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - carbon-cycle-explained
 pillar: soil-science-explained
-_bodyHash: 28bfe41b
+_bodyHash: b60c630d
 ---
 
 Seven global products estimate the organic carbon held in the top 30 centimetres of the world's soils. Their answers are 504, 574, 682, 699, 710, 967 and 1,267 petagrams. The FAO's own Global Soil Organic Carbon Map, the 682 in that list, attaches an uncertainty of ±144 petagrams to its figure — about 20 per cent — which is not nearly wide enough to reconcile it with the highest of its competitors.

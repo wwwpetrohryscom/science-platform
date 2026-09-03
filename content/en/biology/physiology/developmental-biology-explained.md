@@ -17,7 +17,7 @@ related:
   - epigenetics-explained
   - hormones-and-endocrine-signalling
 pillar: physiology-explained
-_bodyHash: 86289f60
+_bodyHash: 19b277ca
 ---
 
 Every nucleus in an early embryo carries the same genome. Development therefore cannot be explained by what the instructions say; it has to be explained by how a cell finds out where it is, when, and relative to what. That reframing — from information content to positional information — is what turned embryology from a descriptive discipline into an experimental one, and it sits alongside [the regulation of internal state](/en/biology/physiology/physiology-explained) as one of the two great organising problems in organismal biology.

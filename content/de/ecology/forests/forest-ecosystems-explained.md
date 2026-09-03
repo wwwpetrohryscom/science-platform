@@ -18,7 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
   - forest-disturbance-fire-insects-windthrow
-_bodyHash: 4bfaf2e7
+_bodyHash: 11a06701
 ---
 
 Das Wort „Wald“ leistet in einer Statistik mehr, als man ihm zutraut. Bevor es ein Ökosystem benennt, benennt es eine Landnutzungskategorie: Schwellenwerte für Fläche, Baumhöhe und Überschirmung, dazu ein Urteil darüber, wozu die Fläche dient. Verstellt man auch nur einen dieser Regler, verschiebt sich die Waldfläche der Welt mit, ohne dass sich ein einziger Baum verändert.

@@ -4,7 +4,7 @@ excerpt: Satellites cannot see most species, but they measure the structure of e
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - remote-sensing
@@ -15,11 +15,11 @@ related:
   - essential-biodiversity-variables-monitoring
   - ecological-integrity-indicators
 pillar: why-species-counts-mislead-conservation
-_bodyHash: f5012b22
+_bodyHash: ba46a7eb
 readingTime: 5
 ---
 
-A satellite passing overhead cannot tell a warbler from a wren, yet it can map the forest both depend on, watch that forest change season by season, and do so over the whole planet at once. That gap — between what an instrument detects and what conservation wants to know — defines both the promise and the limits of Earth observation. Understanding it is central to the wider task of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
+A satellite passing overhead cannot tell a warbler from a wren, yet it can map the forest both depend on, watch that forest change season by season, and do so over the whole planet at once. The gap it cannot close is the one that also limits ground surveys, described in [why species counts mislead](/en/ecology/biodiversity/why-species-counts-mislead-conservation). That gap — between what an instrument detects and what conservation wants to know — defines both the promise and the limits of Earth observation. Understanding it is central to the wider task of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## What satellites actually observe
 

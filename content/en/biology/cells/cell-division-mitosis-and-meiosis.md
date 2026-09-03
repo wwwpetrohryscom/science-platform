@@ -17,7 +17,7 @@ related:
   - dna-replication-and-repair
   - mutation-types-and-rates
 pillar: what-is-a-cell
-_bodyHash: 4c8beb1a
+_bodyHash: ea481894
 ---
 
 Mitosis is an error-correction problem. Meiosis is a randomisation problem. Both end with chromosomes distributed into new nuclei, which is why they are taught together and often conflated, but the specification each has to meet is close to opposite: one must produce two cells that are as nearly identical to the parent as physically achievable, the other must produce four that are deliberately, systematically different. The machinery that follows makes sense only against that difference. Self-replication is the second of the three requirements that [define a cell operationally](/en/biology/cells/what-is-a-cell), and these are the two ways cells meet it.

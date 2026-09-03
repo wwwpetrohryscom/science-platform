@@ -14,7 +14,7 @@ related:
   - what-is-remote-sensing
   - copernicus-programme-explained
   - modis-earth-observation-system
-_bodyHash: 10ac91a8
+_bodyHash: 70ca55ec
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

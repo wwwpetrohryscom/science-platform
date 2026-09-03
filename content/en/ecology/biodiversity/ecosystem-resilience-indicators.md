@@ -4,7 +4,7 @@ excerpt: Resilience is an ecosystem capacity, not a state, which makes it hard t
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - ecosystem-resilience
@@ -15,11 +15,11 @@ related:
   - biodiversity-baselines-and-shifting-baselines
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 8214907a
-readingTime: 4
+_bodyHash: 4adf2ac5
+readingTime: 5
 ---
 
-Resilience describes what an ecosystem can withstand, not what it currently looks like. Because it is a capacity rather than an observable quantity, no single instrument reads it off directly, and researchers instead rely on proxies and statistical signals. This piece sets out what those indicators measure, how they are combined, and where they fall short.
+Resilience describes what an ecosystem can withstand, not what it currently looks like. Because it is a capacity rather than an observable quantity, no single instrument reads it off directly — and none of the composition measures whose limits are set out in [the case against species counts](/en/ecology/biodiversity/why-species-counts-mislead-conservation) reads it either; and researchers instead rely on proxies and statistical signals. This piece sets out what those indicators measure, how they are combined, and where they fall short.
 
 ## Two meanings of resilience
 

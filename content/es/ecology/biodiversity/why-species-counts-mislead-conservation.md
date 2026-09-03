@@ -4,8 +4,8 @@ excerpt: La riqueza de especies es la métrica de biodiversidad más fácil de c
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-05-08'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - biodiversity
   - conservation
@@ -14,10 +14,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 864d70fb
+_bodyHash: 4e01d305
 ---
 
-La riqueza de especies —el recuento de especies distintas presentes en un área definida— es una de las medidas de [biodiversidad](/es/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) más citadas. Es también una métrica incompleta para priorizar en [conservación](/es/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). Las evaluaciones públicas de la [Agencia Europea de Medio Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), el [PNUMA](https://www.unep.org/explore-topics/ecosystems) y la [IPBES](https://www.ipbes.net/global-assessment) tratan la pérdida de [biodiversidad](/es/ecology/biodiversity/essential-biodiversity-variables-monitoring) como algo más que un simple problema de recuento de especies.
+La riqueza de especies —el recuento de especies distintas presentes en un área definida— es una de las medidas de biodiversidad más citadas. Es también una métrica incompleta para priorizar en conservación. Las evaluaciones públicas de la [Agencia Europea de Medio Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), el [PNUMA](https://www.unep.org/explore-topics/ecosystems) y la [IPBES](https://www.ipbes.net/global-assessment) tratan la pérdida de biodiversidad como algo más que un simple problema de recuento de especies.
 
 Este artículo explica el desajuste, resume las alternativas y sostiene que hay que retirar el uso rutinario del recuento de especies como señal de priorización.
 
@@ -41,7 +41,7 @@ Ese es el compromiso. La diversidad funcional es lo que hay que medir y es difí
 
 ## La diversidad filogenética
 
-La diversidad filogenética capta la singularidad evolutiva de las especies de una comunidad. Una localidad con 10 especies pertenecientes todas a una misma familia es menos diversa filogenéticamente que otra con 10 especies procedentes de 10 órdenes distintos. La primera conserva menos árbol de la [vida](/es/biology/cells/what-is-a-cell); la segunda conserva más, aun con el mismo recuento de especies.
+La diversidad filogenética capta la singularidad evolutiva de las especies de una comunidad. Una localidad con 10 especies pertenecientes todas a una misma familia es menos diversa filogenéticamente que otra con 10 especies procedentes de 10 órdenes distintos. La primera conserva menos árbol de la vida; la segunda conserva más, aun con el mismo recuento de especies.
 
 La diversidad filogenética importa porque funciona como aproximación a la diversidad de rasgos en aquellos clados para los que no hay datos directos de rasgos, y porque la pérdida de un linaje filogenéticamente singular es cualitativamente distinta de la pérdida de uno entre muchos parientes próximos. Además es más manejable de calcular que la diversidad funcional, porque hoy existen filogenias bien respaldadas para la mayoría de los grupos principales.
 
@@ -49,7 +49,7 @@ Allí donde se han comparado la diversidad funcional y la filogenética, suelen 
 
 ## Qué implica esto para la priorización
 
-Si la priorización en [conservación](/es/ecology/biodiversity/essential-biodiversity-variables-monitoring) se rehiciera con diversidad funcional o filogenética en lugar de riqueza de especies, los mapas de prioridades resultantes cambiarían. Algunas regiones hoy infrapriorizadas —en particular sistemas antiguos y aislados, con recuentos de especies bajos pero alta singularidad filogenética— subirían. Algunas regiones hoy prioritarias —diversas pero funcionalmente redundantes— bajarían.
+Si la priorización en conservación se rehiciera con diversidad funcional o filogenética en lugar de riqueza de especies, los mapas de prioridades resultantes cambiarían. Algunas regiones hoy infrapriorizadas —en particular sistemas antiguos y aislados, con recuentos de especies bajos pero alta singularidad filogenética— subirían. Algunas regiones hoy prioritarias —diversas pero funcionalmente redundantes— bajarían.
 
 Esto resulta incómodo por dos razones.
 
@@ -66,6 +66,12 @@ Dos cosas pueden cambiar sin esperar a que el campo complete del todo su transic
 **Dejar de informar de la «biodiversidad» como un número único.** Cuando un informe de conservación cita la «pérdida de biodiversidad» en forma de porcentaje, casi siempre está citando riqueza de especies. Sustituir esas cifras de titular por métricas desagregadas —o, al menos, señalar qué métrica se está empleando— haría aflorar los desacuerdos de fondo que los números únicos ocultan.
 
 Ninguna de las dos cosas exige ciencia nueva. Exigen decir con claridad que la riqueza de especies es solo una métrica de biodiversidad, y que la priorización debe usar la métrica que se corresponda con el objetivo de conservación.
+
+## Adónde lleva el resto de este subtema
+
+La alternativa a un recuento de especies no es una cifra única mejor; es un conjunto de medidas que responden con honestidad a preguntas más estrechas. La [riqueza de especies](/es/ecology/biodiversity/species-richness-explained) conviene entenderla precisamente porque es la medida que aquí se critica, y la [equitatividad](/es/ecology/biodiversity/species-evenness-and-diversity) es la propiedad que descarta. La [integridad ecológica](/es/ecology/biodiversity/ecological-integrity-indicators) y los [indicadores de resiliencia](/es/ecology/biodiversity/ecosystem-resilience-indicators) abordan la tarea más difícil de preguntar si un lugar sigue funcionando, y las [métricas de fragmentación](/es/ecology/biodiversity/habitat-fragmentation-metrics) captan un cambio espacial que los recuentos locales no ven.
+
+En el plano de la medición, el [Índice Planeta Vivo](/es/ecology/biodiversity/living-planet-index-explained) y el [Índice de la Lista Roja](/es/ecology/biodiversity/red-list-index-explained) son los dos agregados de referencia, cada uno con su método y sus críticas documentadas, y las [variables esenciales de biodiversidad](/es/ecology/biodiversity/essential-biodiversity-variables-monitoring) son el intento de acordar de antemano qué debe medirse. De dónde vienen los datos importa tanto como lo que se calcula con ellos: los [registros de ciencia ciudadana](/es/ecology/biodiversity/citizen-science-biodiversity-data) aportan hoy buena parte de las ocurrencias, la [teledetección](/es/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) aporta extensión de hábitat y no especies, y toda afirmación de tendencia descansa en [una línea de base que alguien eligió](/es/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines). Si la protección produce resultados es una cuestión empírica aparte, tratada en [la eficacia de las áreas protegidas](/es/ecology/biodiversity/protected-area-effectiveness) y en el panorama del [seguimiento de la biodiversidad y la salud de los ecosistemas](/es/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Sources
 

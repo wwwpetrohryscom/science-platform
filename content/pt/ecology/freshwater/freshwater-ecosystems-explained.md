@@ -18,7 +18,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: ded80f16
+_bodyHash: '26747740'
 ---
 
 Todos os lagos e leitos fluviais da Terra contêm, no seu conjunto, cerca de 93.100 quilómetros cúbicos de água. O oceano contém 1.338.000.000. Na tabela de distribuição global da água mantida pela Water Science School do USGS, essa fração superficial corresponde a cerca de um cento e cinquenta avos de um por cento de toda a água; somando os pântanos do mundo, o total mantém-se ainda abaixo de um centésimo de um por cento. As avaliações de espécies indicam que esses mesmos habitats sustentam mais de 10 % de todas as espécies descritas, entre elas cerca de um terço dos vertebrados e cerca de metade de todos os peixes. A ecologia das águas doces é, em larga medida, o estudo do que decorre dessa proporção.

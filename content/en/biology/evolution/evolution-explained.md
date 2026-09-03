@@ -18,7 +18,7 @@ related:
   - speciation-mechanisms
   - convergent-evolution-explained
   - cell-types-as-units-of-evolution
-_bodyHash: b2a1e34e
+_bodyHash: 66b9a6f0
 ---
 
 Evolution is a property of populations, not of individuals. An organism does not evolve during its lifetime; what changes is how common each version of a gene is among the organisms that make up a breeding group, and how that distribution shifts from one generation to the next. Most popular misreadings — that lineages strive towards complexity, that a species somehow calls forth the variant it needs, that fitness means physical strength — dissolve as soon as the subject of the sentence is put back where it belongs.

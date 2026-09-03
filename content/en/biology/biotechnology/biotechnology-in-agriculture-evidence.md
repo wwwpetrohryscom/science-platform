@@ -18,7 +18,7 @@ related:
   - agricultural-ecosystems-and-agroecology
   - natural-selection-and-adaptation
 pillar: biotechnology-explained
-_bodyHash: 20dc9186
+_bodyHash: bef8d1fe
 ---
 
 Most of the engineered crop area planted worldwide carries one of two traits: insecticidal proteins from the soil bacterium *Bacillus thuringiensis*, or tolerance to a broad-spectrum herbicide. Everything else — altered oil composition, virus resistance, delayed browning, provitamin A — is real but small by hectare. That matters for reading the evidence, because there is no such thing as a study of "the safety of genetic modification". There are studies of particular constructs in particular crops, and the two dominant traits carry almost all of the accumulated data. The techniques that produce those constructs are described in the wider [survey of what biotechnology's methods actually do](/en/biology/biotechnology/biotechnology-explained).

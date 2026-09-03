@@ -4,7 +4,7 @@ excerpt: Ecological integrity asks whether an ecosystem still has the species, s
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - ecological-integrity
@@ -15,11 +15,11 @@ related:
   - habitat-fragmentation-metrics
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 99bb6d4c
+_bodyHash: 15f2e774
 readingTime: 4
 ---
 
-Counting the species present at a site tells you something, but not whether the place still works the way an undisturbed example of its type would. The idea of [ecological integrity](/en/glossary/ecological-integrity) addresses that gap: it asks whether an ecosystem's composition, structure, and function fall within the natural range of variation expected for its kind. This piece walks through the composite indicators used to estimate integrity, how they are built, and why the choice of a reference state is the difficult part.
+Counting the species present at a site tells you something, but [not what a species count is usually taken to mean](/en/ecology/biodiversity/why-species-counts-mislead-conservation), and not whether the place still works the way an undisturbed example of its type would. The idea of [ecological integrity](/en/glossary/ecological-integrity) addresses that gap: it asks whether an ecosystem's composition, structure, and function fall within the natural range of variation expected for its kind. This piece walks through the composite indicators used to estimate integrity, how they are built, and why the choice of a reference state is the difficult part.
 
 ## What integrity means
 

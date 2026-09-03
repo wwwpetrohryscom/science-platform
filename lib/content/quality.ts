@@ -192,7 +192,16 @@ export function requireFields<T extends Record<string, unknown>>(
    rather than a hard failure.
 ---------------------------------------------------------------- */
 
-/** Tokens stripped before frequency analysis. */
+/**
+ * Tokens stripped before frequency analysis.
+ *
+ * The site publishes in six languages and the density rule runs on all
+ * of them, so the list has to cover all of them. It was English-only,
+ * and the German translation of the cell-biology pillar was reported as
+ * stuffing the keyword "die" at 7% — "die" being the German definite
+ * article. A stopword list that only knows one language turns every
+ * other language's function words into apparent keywords.
+ */
 const STOPWORDS = new Set([
   "the","a","an","and","or","but","of","in","on","at","to","for","with",
   "by","is","are","was","were","be","been","being","this","that","these",
@@ -201,6 +210,31 @@ const STOPWORDS = new Set([
   "their","his","her","my","me","do","does","did","have","has","had",
   "will","would","can","could","may","might","also","because","while",
   "where","when","what","which","who","whom","why","how",
+  // French
+  "le","la","les","un","une","des","du","de","et","ou","que","qui","dans",
+  "pour","par","sur","avec","sans","est","sont","été","être","ce","cette",
+  "ces","son","sa","ses","leur","leurs","plus","pas","ne","au","aux","en",
+  "il","elle","ils","elles","nous","vous","on","mais","comme","tout","tous",
+  // Spanish / Portuguese
+  "el","los","las","una","unos","unas","del","al","y","o","que","en","por",
+  "para","con","sin","es","son","ser","este","esta","estos","estas","su",
+  "sus","más","no","se","lo","como","todo","todos","pero","entre","sobre",
+  "os","as","um","uma","uns","umas","dos","das","nos","nas","não","também",
+  "mais","muito","pelo","pela","são","está","estão","seu","seus","sua","suas",
+  // German
+  "der","die","das","den","dem","des","ein","eine","einen","einem","einer",
+  "eines","und","oder","aber","nicht","auch","noch","nur","schon","sehr",
+  "ist","sind","war","waren","sein","haben","hat","hatte","werden","wird",
+  "wurde","wurden","kann","können","muss","müssen","für","mit","von","zu",
+  "auf","aus","bei","nach","über","unter","durch","gegen","ohne","um","als",
+  "wie","wenn","dass","sich","diese","dieser","dieses","ihre","ihrer","ihren",
+  // Russian
+  "и","в","во","не","что","он","на","я","с","со","как","а","то","все","она",
+  "так","его","но","да","ты","к","у","же","вы","за","бы","по","только","ее",
+  "мне","было","вот","от","меня","еще","нет","о","из","ему","теперь","когда",
+  "даже","ну","вдруг","ли","если","уже","или","ни","быть","был","него","до",
+  "вас","них","этот","эта","эти","для","при","более","чем","этом","этого",
+  "которые","который","которая","между","также","может","могут","есть",
 ]);
 
 /**

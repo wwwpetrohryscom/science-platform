@@ -19,7 +19,7 @@ related:
   - hydrogen-as-an-energy-carrier
   - capacity-factor-and-energy-metrics
   - energy-systems-explained
-_bodyHash: 753e63d5
+_bodyHash: 603d0ea9
 ---
 
 The word "storage" is doing two jobs in most energy discussions, and the two jobs have economics that differ by roughly two orders of magnitude. Moving solar output from midday to evening is a problem the market has largely solved. Covering a fortnight of low wind in January with energy captured in August is a different problem, and the parameter that separates them is how often the store is cycled.

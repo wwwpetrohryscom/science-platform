@@ -4,8 +4,8 @@ excerpt: An ecosystem is not a place — it's a flux. Here's what that distincti
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-08-29'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - ecosystems
   - ecology-fundamentals
@@ -14,18 +14,18 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
-_bodyHash: 6867ac8
+_bodyHash: ef91a133
 ---
 
-An ecosystem is the simultaneous flow of [energy](/en/physics/energy/perovskite-stack-field-stability), matter, and information through a community of organisms and their physical surroundings ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). The word "ecosystem" was coined by Arthur Tansley in 1935 specifically to displace the older, more romantic notion of "community" — Tansley wanted a term that emphasized exchange rather than membership.
+An ecosystem is the simultaneous flow of energy, matter, and information through a community of organisms and their physical surroundings ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). The word "ecosystem" was coined by Arthur Tansley in 1935 specifically to displace the older, more romantic notion of "community" — Tansley wanted a term that emphasized exchange rather than membership.
 
 Almost a century later, that emphasis is more relevant than ever.
 
 ## A flow, not a place
 
-The popular conception of an ecosystem is a place — a forest, a wetland, a [coral](/en/biology/cells/coral-microbiome-bleaching-resistance) reef. The scientific definition is closer to a process. The forest is the substrate; the ecosystem is what the forest does. Photosynthesis converts solar energy into biomass. Decomposition releases mineral nutrients back into circulation. Herbivores transfer that energy upward; predators regulate the herbivores. Water moves through soil, root, leaf, atmosphere, and back. [Nitrogen](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) cycles through fixers, plants, animals, and decomposers. Information — pheromones, alarm calls, mycorrhizal [signaling](/en/biology/cells/cell-signaling-pathways-basics) — coordinates the whole.
+The popular conception of an ecosystem is a place — a forest, a wetland, a coral reef. The scientific definition is closer to a process. The forest is the substrate; the ecosystem is what the forest does. Photosynthesis converts solar energy into biomass. Decomposition releases mineral nutrients back into circulation. Herbivores transfer that energy upward; predators regulate the herbivores. Water moves through soil, root, leaf, atmosphere, and back. Nitrogen cycles through fixers, plants, animals, and decomposers. Information — pheromones, alarm calls, mycorrhizal signaling — coordinates the whole.
 
-Take the substrate away and the ecosystem stops. Take the *flow* away and the substrate is dead. This distinction matters when you start asking what [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) actually conserves.
+Take the substrate away and the ecosystem stops. Take the *flow* away and the substrate is dead. This distinction matters when you start asking what conservation actually conserves.
 
 ## Three properties that define an ecosystem
 
@@ -33,7 +33,7 @@ The substantive content of "ecosystem" reduces to three measurable properties.
 
 **Energy throughput.** The rate at which a system fixes solar energy as primary production, and the efficiency with which that energy moves up trophic levels. This is the metric that makes a tropical rainforest and a tundra recognizably the same kind of object — they differ in magnitude, not in kind.
 
-**Material cycling.** The rate at which nutrients ([nitrogen](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture), phosphorus, [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline), water) move through biological and physical compartments. Healthy [ecosystems](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) are characterized by tight cycles where nutrients are quickly reabsorbed; degraded [ecosystems](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) leak.
+**Material cycling.** The rate at which nutrients (nitrogen, phosphorus, carbon, water) move through biological and physical compartments. Healthy ecosystems are characterized by tight cycles where nutrients are quickly reabsorbed; degraded ecosystems leak.
 
 **Information flow.** The signaling — chemical, behavioral, ecological — that coordinates organisms across space and time. This is the property we measure least well and arguably the one that breaks first under stress.
 
@@ -43,7 +43,7 @@ Any system that has all three is an ecosystem. A bare rock with lichen has all t
 
 An ecosystem is whatever level of organization captures meaningful flux. A drop of pond water is an ecosystem. A continental biome is an ecosystem. The Earth's biosphere is an ecosystem. The choice of scale is the researcher's, and it should be motivated by what flow you are trying to study.
 
-This is liberating. It means you can talk about a "soil [microbiome](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) ecosystem" and a "coral [microbiome](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) ecosystem" without abusing the word — both have energy throughput, material cycling, and information flow at the relevant scale.
+This is liberating. It means you can talk about a "soil microbiome ecosystem" and a "coral microbiome ecosystem" without abusing the word — both have energy throughput, material cycling, and information flow at the relevant scale.
 
 The upper end of that scale range is worth taking seriously rather than treating as rhetorical. Applied to the whole planet, the same flow-based definition produces Earth system science: energy entering as sunlight and leaving as infrared, matter cycling through reservoirs on characteristic residence times, and information carried by feedbacks that couple the components. The [Earth system](/en/ecology/earth-systems/earth-system-science-explained) is the largest scale at which the three properties above are all present, and the [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained) that describe its material flows use exactly the reservoir-and-flux vocabulary that ecosystem ecology uses at smaller scales.
 
@@ -59,7 +59,7 @@ Defining ecosystems by flow rather than place leads to several useful reframings
 
 **Tipping points are flow reorganizations.** When an ecosystem "flips" — savanna to desert, kelp forest to urchin barren, coral reef to algal mat — what flips is the dominant energy and material pathway. The same place persists; the ecosystem does not.
 
-**Ecosystem services are quantified flows.** When we value an ecosystem for carbon sequestration, water purification, or pollination, we are valuing a specific flux. The accounting only works if we treat the flux, not the place, as the unit. The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) makes this framing the operational basis for its [biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) and [ecosystem-services](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) accounting.
+**Ecosystem services are quantified flows.** When we value an ecosystem for carbon sequestration, water purification, or pollination, we are valuing a specific flux. The accounting only works if we treat the flux, not the place, as the unit. The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) makes this framing the operational basis for its biodiversity and ecosystem-services accounting.
 
 ## What this rules out
 
@@ -73,9 +73,15 @@ It also rules out the idea that you can preserve an ecosystem by drawing a line 
 
 ## The takeaway
 
-In ecology, the meaningful content of "ecosystem" is the flux. That framing is what makes the rest of the field — disturbance ecology, restoration, ecosystem services, [conservation](/en/ecology/biodiversity/why-species-counts-mislead-conservation) biology — coherent.
+In ecology, the meaningful content of "ecosystem" is the flux. That framing is what makes the rest of the field — disturbance ecology, restoration, ecosystem services, conservation biology — coherent.
 
 Once you internalize it, much of public ecological discourse becomes easier to evaluate. Claims about "destroying ecosystems" are claims about disrupting specific flows; claims about "restoring ecosystems" are claims about restarting them. Without the flow framing, both kinds of claim float free of the evidence they would need to be true.
+
+## Following the flow through the rest of this subtopic
+
+If an ecosystem is defined by flow rather than by membership, the natural next questions are about the flows themselves. [Primary production](/en/ecology/ecosystems/primary-production-and-energy-flow) is where the energy enters and how its magnitude is estimated; [food webs](/en/ecology/ecosystems/food-webs-and-trophic-structure) are where it goes, and why the tidy trophic pyramid is an accounting device rather than a description. [Ecological succession](/en/ecology/ecosystems/ecological-succession-explained) is what the same system looks like over time once the climax idea is abandoned, and [biomes](/en/ecology/ecosystems/biomes-explained) are what the classification looks like at the other end of the scale, with all the soft edges that implies.
+
+Three articles take the definition into places it is usually not applied. [Foundation species](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) tests the claim that diversity makes systems interchangeable; [urban ecology](/en/ecology/ecosystems/urban-ecology-explained) treats cities as ecosystems rather than as the absence of one; and [agroecosystems](/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology) are what happens when a system is managed for a single output, with [soil microbial communities](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) as the part of it that is hardest to see and easiest to overclaim.
 
 ## Sources
 

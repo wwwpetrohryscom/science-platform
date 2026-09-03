@@ -18,7 +18,7 @@ related:
   - land-degradation-and-desertification
   - soil-carbon-measurement-and-uncertainty
 pillar: soil-science-explained
-_bodyHash: 84ef7f1
+_bodyHash: 1e57567b
 ---
 
 Three distinct processes strip material from a hillslope, and they are not variations on a single theme. Water erosion detaches particles by raindrop impact and by the shear of runoff moving across the surface. Wind erosion detaches them by drag, and by the hammering of grains already bouncing downwind — saltation. Tillage erosion detaches nothing: the implement itself carries material downslope, a little further on every pass. The FAO's 2019 review of the subject records that tillage erosion was recognised by soil scientists only in the 1990s and, unlike the other two, is close to impossible to observe while it is happening.

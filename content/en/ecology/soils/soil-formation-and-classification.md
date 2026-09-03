@@ -18,7 +18,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - nutrient-availability-and-soil-fertility
 pillar: soil-science-explained
-_bodyHash: '93498607'
+_bodyHash: 99b096c1
 ---
 
 A horizon is evidence. Every layer in a profile records something that was added, transformed, moved down or across, or lost from a particular point on the land surface, repeated for long enough to leave a signature that a trained eye can read in a pit face. That is the working premise of pedology, and it is also the premise of the classification systems built on top of it: the World Reference Base states that its diagnostic horizons and properties are characterised by attributes reflecting the common results of the processes of soil formation.

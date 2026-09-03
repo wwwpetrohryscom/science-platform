@@ -4,7 +4,7 @@ excerpt: Volunteer observers now generate a large share of the world’s species
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - citizen-science
@@ -15,11 +15,11 @@ related:
   - species-richness-explained
   - living-planet-index-explained
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 30afcdf2
+_bodyHash: 949d891
 readingTime: 4
 ---
 
-A large share of the species observations recorded each year now comes from volunteers rather than professional surveyors. These records reach research and policy through open aggregators, where they help map distributions and, for some groups, track trends over time. Reading them well means understanding both their reach and the biases that shape them.
+A large share of the species observations recorded each year now comes from volunteers rather than professional surveyors. These records reach research and policy through open aggregators, where they help map distributions and, subject to the same limits that make [raw species counts a poor summary of biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation), track trends over time. Reading them well means understanding both their reach and the biases that shape them.
 
 ## What citizen-science data is
 

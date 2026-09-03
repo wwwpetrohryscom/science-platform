@@ -18,7 +18,7 @@ related:
   - ecosystem-resilience-indicators
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
-_bodyHash: 8c27fb6
+_bodyHash: 876568ec
 ---
 
 A burned hillside, a retreating glacier front, an abandoned field: each will be recolonised, and for much of the twentieth century the sequence was thought to be predictable enough to name in advance. That expectation — a site passing through a fixed series of stages toward a stable endpoint set by regional climate — organised a great deal of plant ecology. It did not survive the long-term records. What replaced it is looser, more contingent, and considerably more useful to anyone deciding whether a damaged site is on its way back.

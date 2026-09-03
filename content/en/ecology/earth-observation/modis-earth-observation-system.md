@@ -14,12 +14,12 @@ related:
   - sentinel-satellites-explained
   - ndvi-explained
   - wildfire-monitoring-from-space
-_bodyHash: 1c9c9d82
+_bodyHash: 5edceb2c
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---
 
-Some satellites are built to see small things in fine detail; others are built to see almost everything, almost every day. The Moderate Resolution Imaging Spectroradiometer, or [MODIS](/en/glossary/modis), belongs firmly to the second group. Flown on two NASA satellites for more than twenty years, it has provided a near-daily portrait of the whole planet that underpins much of our routine [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
+Some satellites are built to see small things in fine detail; others are built to see almost everything, almost every day. The Moderate Resolution Imaging Spectroradiometer, or MODIS, belongs firmly to the second group. Flown on two NASA satellites for more than twenty years, it has provided a near-daily portrait of the whole planet that underpins much of our routine [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 
 ## Two satellites, one design
 
@@ -35,7 +35,7 @@ This is a deliberate engineering choice rather than a shortcoming. By accepting 
 
 ## What MODIS measures: the standard products
 
-MODIS data are processed into a catalogue of standard products that distil the raw bands into geophysical quantities. On land, these include vegetation indices — both [NDVI](/en/glossary/ndvi) and the enhanced vegetation index (EVI) — along with land cover classifications and land-surface temperature. The vegetation indices, explained more fully in our note on [NDVI](/en/ecology/earth-observation/ndvi-explained), track how green and photosynthetically active the surface is, and their near-daily updates make seasonal cycles easy to follow.
+MODIS data are processed into a catalogue of standard products that distil the raw bands into geophysical quantities. On land, these include vegetation indices — both NDVI and the enhanced vegetation index (EVI) — along with land cover classifications and land-surface temperature. The vegetation indices, explained more fully in our note on NDVI, track how green and photosynthetically active the surface is, and their near-daily updates make seasonal cycles easy to follow.
 
 Other products address active processes and other parts of the Earth system. MODIS detects active fires and thermal anomalies, a capability central to [wildfire monitoring from space](/en/ecology/earth-observation/wildfire-monitoring-from-space). Over the oceans it measures ocean colour and chlorophyll, an indicator of phytoplankton; it also maps snow cover and atmospheric aerosols. The full set of products and their documentation is distributed through [NASA Earthdata](https://www.earthdata.nasa.gov/). Because the same measurements are repeated day after day across the globe, they feed directly into longer-term [climate indicators and Earth-system monitoring](/en/ecology/climate-change/climate-indicators-earth-system-monitoring).
 

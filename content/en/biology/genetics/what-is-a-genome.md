@@ -18,7 +18,7 @@ related:
   - mutation-types-and-rates
   - dna-sequencing-technologies
 pillar: what-is-dna
-_bodyHash: bacb2b84
+_bodyHash: 899feca
 ---
 
 A genome is the complete set of DNA carried by a cell — the nuclear chromosomes plus whatever the mitochondria and, in plants, the plastids carry on their own. That definition is not contested. Almost everything built on top of it is a measurement, and the three measurements people reach for most often — how large a genome is, how many genes it contains, and how much of it does anything — differ enormously in how firmly they are established. Only the first is close to settled. The molecular substrate is treated separately in [what DNA is and what it does not determine](/en/biology/genetics/what-is-dna); this page is about the accounting layer sitting above the molecule.

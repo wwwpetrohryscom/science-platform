@@ -14,7 +14,7 @@ related:
   - modis-earth-observation-system
   - sentinel-satellites-explained
   - satellite-altimetry-explained
-_bodyHash: 4e3e45da
+_bodyHash: 40bd2e4e
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

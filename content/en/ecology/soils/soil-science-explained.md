@@ -18,7 +18,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
-_bodyHash: 21bee70f
+_bodyHash: 9c1e085f
 ---
 
 New soil is made at a median rate the FAO and its Intergovernmental Technical Panel on Soils put at about 0.15 tonnes per hectare per year, and typically well below one tonne. Spread over a hectare, a tonne of mineral soil is a film you could not see. That number is the reason soil science is arranged the way it is: on any timescale a farmer, a planner or a treaty operates on, the material under consideration is a fixed inheritance being spent, not a renewable flow.

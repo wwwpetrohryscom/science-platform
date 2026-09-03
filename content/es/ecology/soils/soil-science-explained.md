@@ -18,7 +18,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
-_bodyHash: 2653842a
+_bodyHash: 5ff5ac46
 ---
 
 El suelo nuevo se forma a una tasa mediana que la FAO y su Grupo Técnico Intergubernamental sobre los Suelos sitúan en torno a 0,15 toneladas por hectárea y año, y por lo general bastante por debajo de una tonelada. Repartida sobre una hectárea, una tonelada de suelo mineral es una película que no se vería. Esa cifra es la razón de que la ciencia del suelo esté organizada como lo está: en cualquier escala temporal en la que opere un agricultor, un planificador o un tratado, el material del que se habla es una herencia fija que se está gastando, no un flujo renovable.

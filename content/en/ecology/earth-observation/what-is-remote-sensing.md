@@ -14,7 +14,7 @@ related:
   - landsat-program-explained
   - sentinel-satellites-explained
   - earth-observation-data-products
-_bodyHash: 4f7d2e4
+_bodyHash: 211c9f02
 readingTime: 5
 pillar: earth-observation-and-remote-sensing-explained
 ---

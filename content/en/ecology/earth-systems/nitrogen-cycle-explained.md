@@ -4,8 +4,8 @@ excerpt: Nitrogen is the most abundant gas in the air and among the scarcest nut
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - nitrogen-cycle
   - biogeochemical-cycles
@@ -16,11 +16,11 @@ related:
   - carbon-cycle-explained
   - biosphere-climate-interactions
   - earth-system-science-explained
-_bodyHash: 610e745e
+_bodyHash: 8a62d60a
 pillar: earth-system-science-explained
 ---
 
-About 78 per cent of the air is nitrogen, and almost none of it is available to almost anything alive. The triple bond in N₂ is one of the strongest in ordinary chemistry, and until it is broken the atom is inert. That single chemical fact organises the whole [nitrogen cycle](/en/glossary/nitrogen-cycle) — and explains why an element in vast surplus behaves as a limiting nutrient across most of the [biosphere](/en/glossary/biosphere). It is a clear case of the reservoir-and-flux logic set out in [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained): a huge store paired with a small, biologically gated flux.
+About 78 per cent of the air is nitrogen, and almost none of it is available to almost anything alive. The triple bond in N₂ is one of the strongest in ordinary chemistry, and until it is broken the atom is inert. That single chemical fact organises the whole [nitrogen cycle](/en/glossary/nitrogen-cycle) — one of the biogeochemical loops that [Earth system science treats as a component in its own right](/en/ecology/earth-systems/earth-system-science-explained) — and explains why an element in vast surplus behaves as a limiting nutrient across most of the [biosphere](/en/glossary/biosphere). It is a clear case of the reservoir-and-flux logic set out in [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained): a huge store paired with a small, biologically gated flux.
 
 ## Fixation: the bottleneck step
 

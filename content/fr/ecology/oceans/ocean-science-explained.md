@@ -17,7 +17,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: 48dcd31d
+_bodyHash: ff7076b1
 ---
 
 L'océan est une masse d'eau continue qui se comporte comme si elle était empilée. La densité — fonction de la température, de la salinité et de la pression — trie l'eau de mer en couches qui n'échangent que lentement entre elles, et l'essentiel du comportement de la mer à grande échelle découle de ce tri : où s'accumule la chaleur ajoutée, où résident les nutriments, jusqu'où pénètre la lumière, et combien de temps une chose reste là où elle se trouve.

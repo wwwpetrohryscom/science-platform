@@ -4,7 +4,7 @@ excerpt: The phrase ecosystem services entered policy in the early 2000s. Two de
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-04-30'
-updatedDate: '2026-05-08'
+updatedDate: '2026-09-03'
 readingTime: 5
 tags:
   - ecosystems
@@ -16,10 +16,10 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - essential-biodiversity-variables-monitoring
 pillar: what-is-an-ecosystem
-_bodyHash: 2e20ab9f
+_bodyHash: 735c2a7f
 ---
 
-The phrase "ecosystem services" entered international policy through the [Millennium Ecosystem Assessment](https://www.unep.org/explore-topics/ecosystems) in the early 2000s. It was developed as a translation device: a way of expressing the connection between [ecosystems](/en/ecology/ecosystems/what-is-an-ecosystem) and human well-being in language that ministries of finance and treasuries could engage with. Two decades later, the framework is operational in agencies including the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and the [U.S. Environmental Protection Agency](https://www.epa.gov/). The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) builds on it explicitly.
+The phrase "ecosystem services" entered international policy through the [Millennium Ecosystem Assessment](https://www.unep.org/explore-topics/ecosystems) in the early 2000s. It was developed as a translation device — a way of expressing, in terms a policy process can act on, and starting from [what an ecosystem actually is](/en/ecology/ecosystems/what-is-an-ecosystem), the connection between ecosystems and human well-being in language that ministries of finance and treasuries could engage with. Two decades later, the framework is operational in agencies including the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and the [U.S. Environmental Protection Agency](https://www.epa.gov/). The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) builds on it explicitly.
 
 The framework has done real work — and has acquired real critics, some of whom helped develop it. This piece walks through what it captures, where it changes outcomes, and where it cannot stand in for the underlying ecological evidence.
 
@@ -58,7 +58,7 @@ Ecosystem services are easier to estimate when they are local, near-term, and su
 
 A common misreading of ecosystem services is that they justify protecting ecosystems *only* in proportion to their measured services. The framework's developers have repeatedly pushed back on this — the framework was designed to make hidden value visible, not to make unvalued ecosystems disposable. The [Convention on Biological Diversity](https://www.unep.org/) and IPBES both maintain rights-based and intrinsic-value framings alongside the services framing.
 
-In practice this means an ecosystem-services case is usually a *supplement* to the underlying ecological case for [protection](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy), not a substitute for it. When a project's case rests entirely on services, the next question to ask is whether the supporting field evidence — abundance trends, [foundation-species](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) presence, [monitoring](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) coverage — actually backs the modelled benefits.
+In practice this means an ecosystem-services case is usually a *supplement* to the underlying ecological case for protection, not a substitute for it. When a project's case rests entirely on services, the next question to ask is whether the supporting field evidence — abundance trends, foundation-species presence, monitoring coverage — actually backs the modelled benefits.
 
 ## Methods and uncertainty
 

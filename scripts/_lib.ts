@@ -244,8 +244,12 @@ export function hashBody(body: string): string {
  */
 export function hashProse(body: string): string {
   const prose = body
-    // [anchor](target) -> [anchor]  — keep the words, drop the target
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, "[$1]")
+    // [anchor](target) -> anchor  — keep the words, drop the link entirely.
+    // Keeping the brackets made *unlinking* register as a prose change:
+    // removing a link does not change a single word the reader reads, so
+    // it must not bump a published freshness date. A 100-file link
+    // cleanup was dated as 100 editorial revisions before this was fixed.
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
     // <https://autolink> -> nothing; the URL is the whole content
     .replace(/<https?:\/\/[^>]*>/g, "")
     // bare URLs anywhere else

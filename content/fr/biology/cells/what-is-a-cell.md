@@ -4,8 +4,8 @@ excerpt: Une cellule est la plus petite unité capable de s'entretenir, de se co
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-05-08'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - cells
   - fundamentals
@@ -14,20 +14,20 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
-_bodyHash: 81b3b7f8
+_bodyHash: ac5ef466
 ---
 
-Une cellule est la plus petite unité physique capable de s'entretenir, de se copier et de répondre à son environnement. Ce cadrage opérationnel s'accorde avec les ouvrages de référence en [biologie cellulaire](/fr/biology/cells/cell-signaling-pathways-basics) accessibles par [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) et avec les définitions de [la génétique](/fr/biology/genetics/what-is-dna) proposées par le [NHGRI](https://www.genome.gov/genetics-glossary). Trois exigences ; chacune joue un rôle porteur dans la définition de ce qu'est une cellule — et dans l'explication de ce qui fait que certains cas limites (virus, mitochondries, organites en transit) ne sont pas des [cellules](/fr/biology/cells/coral-microbiome-bleaching-resistance), même s'ils partagent certaines propriétés des [cellules vivantes](/fr/biology/cells/coral-microbiome-bleaching-resistance).
+Une cellule est la plus petite unité physique capable de s'entretenir, de se copier et de répondre à son environnement. Ce cadrage opérationnel s'accorde avec les ouvrages de référence en [biologie cellulaire](/fr/biology/cells/cell-signaling-pathways-basics) accessibles par [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) et avec les définitions de la génétique proposées par le [NHGRI](https://www.genome.gov/genetics-glossary). Trois exigences ; chacune joue un rôle porteur dans la définition de ce qu'est une cellule — et dans l'explication de ce qui fait que certains cas limites (virus, mitochondries, organites en transit) ne sont pas des cellules, même s'ils partagent certaines propriétés des [cellules vivantes](/fr/biology/cells/coral-microbiome-bleaching-resistance).
 
 Cet article suit la définition opérationnelle plutôt que la liste des organites des manuels, parce que cette liste répond à une autre question.
 
 ## Trois exigences
 
-La première exigence est l'**autoentretien** : une cellule maintient les conditions chimiques de son intérieur en dépit d'un environnement chimique différent au-dehors. Elle y parvient en dépensant [de l'énergie](/fr/physics/energy/perovskite-stack-field-stability). La membrane plasmique est la frontière à travers laquelle ce travail s'effectue, et l'asymétrie chimique qu'elle entretient — gradients de concentration, différences de charge, pH — est ce qui rend tout le reste possible. Une cellule qui perd la capacité d'entretenir la chimie de son intérieur est morte, par définition.
+La première exigence est l'**autoentretien** : une cellule maintient les conditions chimiques de son intérieur en dépit d'un environnement chimique différent au-dehors. Elle y parvient en dépensant de l'énergie. La membrane plasmique est la frontière à travers laquelle ce travail s'effectue, et l'asymétrie chimique qu'elle entretient — gradients de concentration, différences de charge, pH — est ce qui rend tout le reste possible. Une cellule qui perd la capacité d'entretenir la chimie de son intérieur est morte, par définition.
 
 La deuxième exigence est l'**autoréplication** : une cellule peut produire une autre cellule dotée des mêmes propriétés essentielles. Cela suppose de stocker l'information nécessaire à cette production (le génome), de disposer de la machinerie capable de lire cette information et d'agir en conséquence (les ribosomes, les polymérases, les enzymes du métabolisme), et d'un mécanisme répartissant physiquement les produits dans une unité fille. Aucun de ces éléments ne suffit à lui seul. Un génome qui ne peut être lu est inerte ; une machinerie sans génome ne peut être reproduite.
 
-La troisième exigence est la **réactivité à l'environnement** : une cellule perçoit son milieu et modifie son comportement en conséquence. Cela va de la détection de gradients dans le chimiotactisme bactérien à la [signalisation médiée par des récepteurs](/fr/biology/cells/cell-signaling-pathways-basics) dans les cellules animales. Sans elle, une cellule n'est qu'une réaction chimique dans un sac : elle peut persister un temps, mais elle ne peut pas s'adapter, et l'adaptation est la différence opérationnelle entre la matière vivante et une chimie inhabituelle.
+La troisième exigence est la **réactivité à l'environnement** : une cellule perçoit son milieu et modifie son comportement en conséquence. Cela va de la détection de gradients dans le chimiotactisme bactérien à la signalisation médiée par des récepteurs dans les cellules animales. Sans elle, une cellule n'est qu'une réaction chimique dans un sac : elle peut persister un temps, mais elle ne peut pas s'adapter, et l'adaptation est la différence opérationnelle entre la matière vivante et une chimie inhabituelle.
 
 Les trois sont nécessaires. Ôtez-en une et vous obtenez quelque chose d'intéressant qui n'est pas une cellule.
 
@@ -66,6 +66,12 @@ La définition opérationnelle travaille en trois endroits.
 ## À retenir
 
 Une cellule est la plus petite unité physique qui s'entretient, se copie et répond à son environnement. La liste des organites des manuels découle de ces trois exigences. Devant un objet biologique dont vous voulez savoir s'il est une cellule, passez les exigences en revue. La réponse est le plus souvent claire ; quand elle ne l'est pas, le cas limite est lui-même l'objet intéressant.
+
+## Où mène le reste de cette sous-thématique
+
+Tout ce qui précède décrit une structure ; les articles qui suivent décrivent les processus pour lesquels cette structure existe. La [membrane cellulaire](/fr/biology/cells/cell-membrane-structure-and-transport) est la frontière qui fait d'une cellule une cellule, et les transporteurs qu'elle contient consomment une grande part du budget énergétique. Ce budget est produit par [la respiration mitochondriale](/fr/biology/cells/mitochondria-and-cellular-respiration) et, chez les organismes autotrophes, capté au départ par [l'appareil photosynthétique](/fr/biology/cells/photosynthesis-explained), dont les réactions lumineuses et la fixation du carbone sont deux étapes très différemment contraintes.
+
+À l'intérieur de la frontière, les [filaments du cytosquelette](/fr/biology/cells/cytoskeleton-and-cell-motility) maintiennent la forme et déplacent les cargaisons, les voies de signalisation transmettent l'information de l'extérieur vers l'intérieur, et la [division cellulaire](/fr/biology/cells/cell-division-mitosis-and-meiosis) fait de une cellule deux — ou, en méiose, engendre la variation transmise à la génération suivante. Le blanchissement des coraux figure ici plutôt qu'en écologie parce qu'il s'agit de la défaillance, à l'échelle cellulaire, d'une symbiose aux conséquences écosystémiques.
 
 ## Sources
 

@@ -18,7 +18,7 @@ related:
   - deforestation-statistics-explained
   - boreal-forests-and-permafrost-interactions
 pillar: forest-ecosystems-explained
-_bodyHash: 3254cc0b
+_bodyHash: 9dbcc6dd
 ---
 
 Nobody has ever weighed a forest. Every carbon figure attached to one is the output of a chain of substitutions: a trunk diameter stands in for a tree's mass, a statistical model stands in for the harvest that would have measured it, a plot stands in for a landscape, and a satellite stands in for the plots that were never installed. Each substitution is defensible and each one has a variance. Understanding a forest-carbon number means knowing which link in that chain is loosest — and it is almost never the one people assume.

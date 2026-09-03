@@ -18,7 +18,7 @@ related:
   - culturing-and-sequencing-microbes
   - dna-sequencing-technologies
   - soil-microbiome-regenerative-agriculture
-_bodyHash: 930c69b5
+_bodyHash: 8dc4f2bb
 ---
 
 The standard way to turn a microbiome correlation into a causal claim is to transfer stool from human donors into germ-free rodents and see whether the donor's phenotype travels with it. A systematic review published in *Cell* in 2020 collected the studies that had done this and found that 36 of 38 — 95 per cent — reported a successful transfer of a pathological phenotype, with many going on to infer causation in the corresponding human disease.

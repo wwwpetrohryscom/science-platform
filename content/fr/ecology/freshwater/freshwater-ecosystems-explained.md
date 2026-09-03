@@ -18,7 +18,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: 278069f7
+_bodyHash: 30de0087
 ---
 
 Tous les lacs et tous les chenaux fluviaux de la Terre réunis contiennent environ 93 100 kilomètres cubes d'eau. L'océan en contient 1 338 000 000. Dans le tableau de répartition mondiale de l'eau tenu par la Water Science School de l'USGS, cette fraction superficielle représente à peu près un cent-cinquantième de pour cent de toute l'eau ; en y ajoutant les marécages du monde, le total reste inférieur à un centième de pour cent. Les évaluations d'espèces indiquent que ces mêmes habitats abritent plus de 10 % de toutes les espèces décrites, dont environ un tiers des vertébrés et près de la moitié des poissons. L'écologie des eaux douces est pour l'essentiel l'étude de ce qui découle de ce rapport.

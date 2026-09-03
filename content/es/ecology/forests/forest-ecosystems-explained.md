@@ -18,7 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
   - forest-disturbance-fire-insects-windthrow
-_bodyHash: '24754124'
+_bodyHash: fa84cd8a
 ---
 
 La palabra «bosque» hace dentro de una estadística más trabajo del que parece capaz de sostener. Antes de nombrar un ecosistema nombra una categoría de uso de la tierra: umbrales de superficie, de altura de los árboles y de cubierta de copas, más un juicio sobre para qué sirve esa tierra. Basta con mover cualquiera de esos ajustes para que la superficie forestal mundial se mueva con ellos, sin que cambie un solo árbol.

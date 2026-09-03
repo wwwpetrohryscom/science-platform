@@ -16,7 +16,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
-_bodyHash: 27a9f13a
+_bodyHash: e6b3fe56
 ---
 
 Air is thin, and the arithmetic makes that concrete. NOAA gives standard sea-level pressure as 1013.25 hPa, which is the weight of a column carrying about 10.3 tonnes of air over each square metre of ground. By the cruising altitude of an airliner, roughly three-quarters of that column is already below you. What this shell does with the energy passing through it is the subject of atmospheric physics, and the single most useful summary of what it does is a transport figure: about five petawatts, moved from the tropics towards each pole, continuously.

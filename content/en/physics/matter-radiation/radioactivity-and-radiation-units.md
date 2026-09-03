@@ -18,7 +18,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
-_bodyHash: 512f49c1
+_bodyHash: bff7d6dd
 ---
 
 How fast a source is decaying, how much energy its emissions leave behind in a kilogram of matter, and how much biological harm that deposit is expected to represent are three separate quantities. The becquerel, the gray and the sievert measure them in that order, and each step forward adds an assumption the previous unit did not carry. Collapsing all three into a single scale of "how much radiation" is the most common error in reporting on the subject, and it runs in both directions: alarm at a figure that cannot justify it, and reassurance from a figure that cannot justify that either.

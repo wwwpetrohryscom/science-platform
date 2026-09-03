@@ -18,7 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
   - forest-disturbance-fire-insects-windthrow
-_bodyHash: 1cece3fc
+_bodyHash: 943eb40e
 ---
 
 Le mot « forêt » accomplit dans une statistique bien plus de travail qu'il n'en a l'air. Avant de désigner un écosystème, il désigne une catégorie d'usage des terres : des seuils de superficie, de hauteur des arbres et de couvert arboré, plus un jugement sur la vocation du terrain. Déplacez l'un de ces réglages et la superficie forestière mondiale se déplace avec lui, sans qu'un seul arbre ait changé.

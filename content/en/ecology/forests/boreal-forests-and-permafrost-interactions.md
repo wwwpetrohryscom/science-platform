@@ -18,7 +18,7 @@ related:
   - forest-disturbance-fire-insects-windthrow
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
-_bodyHash: acd7905d
+_bodyHash: 2f92c4f
 ---
 
 Two numbers, from two different accounting systems, are worth putting side by side. FAO's 2025 assessment estimates the carbon in all the world's forests, across every pool it recognises, at 714 gigatonnes. NOAA's Arctic Report Card puts the carbon accumulated in terrestrial soils and permafrost across the northern permafrost region — 16.6 million square kilometres of tundra and boreal land — at no less than 1.4 to 1.6 trillion tonnes.

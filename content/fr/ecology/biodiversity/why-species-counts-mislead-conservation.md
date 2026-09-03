@@ -4,8 +4,8 @@ excerpt: La richesse spécifique est la mesure de biodiversité la plus facile �
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-05-08'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - biodiversity
   - conservation
@@ -14,10 +14,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 362aac9c
+_bodyHash: bd531895
 ---
 
-La richesse spécifique — le nombre d'espèces distinctes recensées dans une aire définie — est l'une des mesures de la [biodiversité](/fr/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) les plus citées. C'est aussi une mesure incomplète pour hiérarchiser les priorités de [conservation](/fr/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). Les évaluations publiques de l'[Agence européenne pour l'environnement](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), du [PNUE](https://www.unep.org/explore-topics/ecosystems) et de l'[IPBES](https://www.ipbes.net/global-assessment) traitent toutes l'érosion de la [biodiversité](/fr/ecology/biodiversity/essential-biodiversity-variables-monitoring) comme un problème qui ne se réduit pas à un décompte d'espèces.
+La richesse spécifique — le nombre d'espèces distinctes recensées dans une aire définie — est l'une des mesures de la biodiversité les plus citées. C'est aussi une mesure incomplète pour hiérarchiser les priorités de conservation. Les évaluations publiques de l'[Agence européenne pour l'environnement](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), du [PNUE](https://www.unep.org/explore-topics/ecosystems) et de l'[IPBES](https://www.ipbes.net/global-assessment) traitent toutes l'érosion de la biodiversité comme un problème qui ne se réduit pas à un décompte d'espèces.
 
 Cet article explique ce décalage, présente les solutions de rechange et soutient que l'usage routinier du décompte des espèces comme signal de priorisation doit être abandonné.
 
@@ -41,7 +41,7 @@ Tel est l'arbitrage. La diversité fonctionnelle est la bonne chose à mesurer e
 
 ## La diversité phylogénétique
 
-La diversité phylogénétique rend compte de l'originalité évolutive des espèces d'une communauté. Un site dont les 10 espèces appartiennent toutes à la même famille est moins divers phylogénétiquement qu'un site dont les 10 espèces relèvent de 10 ordres différents. Le premier préserve une moindre part de l'arbre du [vivant](/fr/biology/cells/what-is-a-cell) ; le second en préserve davantage, à richesse spécifique égale.
+La diversité phylogénétique rend compte de l'originalité évolutive des espèces d'une communauté. Un site dont les 10 espèces appartiennent toutes à la même famille est moins divers phylogénétiquement qu'un site dont les 10 espèces relèvent de 10 ordres différents. Le premier préserve une moindre part de l'arbre du vivant ; le second en préserve davantage, à richesse spécifique égale.
 
 La diversité phylogénétique importe parce qu'elle sert de substitut à la diversité de traits dans les clades pour lesquels les données de traits directes font défaut, et parce que la perte d'une lignée phylogénétiquement originale n'est pas de même nature que la perte de l'un de nombreux parents proches. Elle est en outre plus facile à calculer que la diversité fonctionnelle, car on dispose aujourd'hui de phylogénies bien étayées pour la plupart des grands groupes.
 
@@ -49,7 +49,7 @@ Là où diversité fonctionnelle et diversité phylogénétique ont été compar
 
 ## Ce que cela implique pour la hiérarchisation
 
-Si la hiérarchisation des priorités de [conservation](/fr/ecology/biodiversity/essential-biodiversity-variables-monitoring) était refaite à partir de la diversité fonctionnelle ou phylogénétique plutôt que de la richesse spécifique, les cartes de priorités qui en résulteraient changeraient. Certaines régions aujourd'hui sous-priorisées — en particulier les systèmes anciens et isolés, pauvres en espèces mais phylogénétiquement originaux — remonteraient. Certaines régions aujourd'hui très prioritaires — diversifiées mais fonctionnellement redondantes — descendraient.
+Si la hiérarchisation des priorités de conservation était refaite à partir de la diversité fonctionnelle ou phylogénétique plutôt que de la richesse spécifique, les cartes de priorités qui en résulteraient changeraient. Certaines régions aujourd'hui sous-priorisées — en particulier les systèmes anciens et isolés, pauvres en espèces mais phylogénétiquement originaux — remonteraient. Certaines régions aujourd'hui très prioritaires — diversifiées mais fonctionnellement redondantes — descendraient.
 
 C'est inconfortable, pour deux raisons.
 
@@ -66,6 +66,12 @@ Deux choses peuvent changer sans attendre que la discipline sous-jacente ait ach
 **Cesser de rapporter la « biodiversité » sous la forme d'un nombre unique.** Quand un rapport de conservation chiffre en pourcentage l'« érosion de la biodiversité », c'est presque toujours la richesse spécifique qu'il cite. Remplacer ces chiffres phares par des mesures désagrégées — ou au moins signaler laquelle est employée — ferait apparaître les désaccords sous-jacents que les nombres uniques dissimulent.
 
 Ni l'une ni l'autre n'exige de science nouvelle. Elles exigent d'énoncer clairement que la richesse spécifique n'est qu'une mesure de biodiversité parmi d'autres, et que la hiérarchisation doit employer la mesure qui correspond à l'objectif de conservation.
+
+## Où mène le reste de cette sous-thématique
+
+L'alternative à un décompte d'espèces n'est pas un meilleur chiffre unique ; c'est un ensemble de mesures qui répondent chacune honnêtement à une question plus étroite. La [richesse spécifique](/fr/ecology/biodiversity/species-richness-explained) mérite d'être comprise précisément parce qu'elle est la mesure critiquée ici, et l'[équitabilité](/fr/ecology/biodiversity/species-evenness-and-diversity) est la propriété qu'elle écarte. L'[intégrité écologique](/fr/ecology/biodiversity/ecological-integrity-indicators) et les [indicateurs de résilience](/fr/ecology/biodiversity/ecosystem-resilience-indicators) s'attaquent à la tâche plus difficile de savoir si un lieu fonctionne encore, et les [métriques de fragmentation](/fr/ecology/biodiversity/habitat-fragmentation-metrics) saisissent un changement spatial que des relevés locaux ne peuvent pas voir.
+
+Côté mesure, l'[Indice Planète Vivante](/fr/ecology/biodiversity/living-planet-index-explained) et l'[Indice Liste rouge](/fr/ecology/biodiversity/red-list-index-explained) sont les deux agrégats phares, chacun avec sa méthode et ses critiques documentées, et les [variables essentielles de biodiversité](/fr/ecology/biodiversity/essential-biodiversity-variables-monitoring) sont la tentative de s'accorder à l'avance sur ce qu'il faut mesurer. La provenance des données compte autant que ce qu'on en calcule : les [données de science participative](/fr/ecology/biodiversity/citizen-science-biodiversity-data) fournissent désormais une large part des occurrences, la [télédétection](/fr/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) fournit l'étendue des habitats et non les espèces, et toute affirmation de tendance repose sur [un état de référence choisi par quelqu'un](/fr/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines). Savoir si la protection produit un effet est une question empirique distincte, traitée dans [l'efficacité des aires protégées](/fr/ecology/biodiversity/protected-area-effectiveness) et dans le panorama du [suivi de la biodiversité et de la santé des écosystèmes](/fr/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Sources
 

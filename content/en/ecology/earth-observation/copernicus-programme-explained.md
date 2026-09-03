@@ -14,7 +14,7 @@ related:
   - sentinel-satellites-explained
   - land-cover-change-detection
   - drought-monitoring-systems
-_bodyHash: 5a157b1a
+_bodyHash: ed7daf36
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---

@@ -5,7 +5,7 @@ type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
-readingTime: 10
+readingTime: 6
 tags:
   - tipping-points
   - abrupt-change
@@ -16,11 +16,11 @@ related:
   - ocean-circulation-and-climate
   - climate-feedback-mechanisms
   - earth-system-science-explained
-_bodyHash: 30cc2599
+_bodyHash: a295e627
 pillar: earth-system-science-explained
 ---
 
-Few concepts in Earth system science have travelled further from their technical meaning than the tipping point. In public use it has become a single dramatic threshold; in the assessment literature it is a defined term applied separately to a dozen or so components, most of which score low or medium confidence. This article sets out the definitions and then reproduces what the assessment actually says about each element, because the element-by-element picture is the whole substance.
+Few concepts in [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) have travelled further from their technical meaning than the tipping point. In public use it has become a single dramatic threshold; in the assessment literature it is a defined term applied separately to a dozen or so components, most of which score low or medium confidence. This article sets out the definitions and then reproduces what the assessment actually says about each element, because the element-by-element picture is the whole substance.
 
 ## Three distinct properties
 

@@ -18,7 +18,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
-_bodyHash: 85d7ff5e
+_bodyHash: 537b56b0
 ---
 
 An energy system keeps three ledgers, and almost every confused argument about energy comes from reading a number out of one and using it in another. The first ledger counts the resource as it is extracted or captured — coal in the seam, uranium in the ore, photons on a panel. The second counts the carriers that move usable energy around: electricity, refined liquid fuels, pipeline gas, heat in a district main. The third counts what is delivered to the point where somebody wants work done — a furnace, a motor, a screen. Each conversion between ledgers has a physical cost, and the size of that cost is the single most informative thing about a technology.

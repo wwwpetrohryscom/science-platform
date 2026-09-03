@@ -4,8 +4,8 @@ excerpt: Der Artenreichtum ist die am leichtesten zu berechnende Biodiversitäts
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-05-08'
-readingTime: 4
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - biodiversity
   - conservation
@@ -14,10 +14,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: '51e45584'
+_bodyHash: d2afab04
 ---
 
-Der Artenreichtum – die Zahl der unterschiedlichen Arten in einem definierten Gebiet – gehört zu den meistzitierten Maßen für [Biodiversität](/de/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). Als Metrik für die Priorisierung im [Naturschutz](/de/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) ist er zugleich unvollständig. Öffentliche Bewertungen der [Europäischen Umweltagentur](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), des [UNEP](https://www.unep.org/explore-topics/ecosystems) und des [IPBES](https://www.ipbes.net/global-assessment) behandeln den Verlust an [Biodiversität](/de/ecology/biodiversity/essential-biodiversity-variables-monitoring) durchweg als mehr als ein bloßes Problem der Artenzahl.
+Der Artenreichtum – die Zahl der unterschiedlichen Arten in einem definierten Gebiet – gehört zu den meistzitierten Maßen für Biodiversität. Als Metrik für die Priorisierung im Naturschutz ist er zugleich unvollständig. Öffentliche Bewertungen der [Europäischen Umweltagentur](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), des [UNEP](https://www.unep.org/explore-topics/ecosystems) und des [IPBES](https://www.ipbes.net/global-assessment) behandeln den Verlust an Biodiversität durchweg als mehr als ein bloßes Problem der Artenzahl.
 
 Dieser Text erklärt das Missverhältnis, fasst die Alternativen zusammen und argumentiert, dass der routinemäßige Gebrauch von Artenzahlen als Priorisierungssignal aufgegeben gehört.
 
@@ -41,7 +41,7 @@ Das ist der Zielkonflikt. Die funktionale Diversität ist die richtige Größe �
 
 ## Phylogenetische Diversität
 
-Die phylogenetische Diversität erfasst die evolutionäre Eigenständigkeit der Arten einer Lebensgemeinschaft. Eine Fläche mit 10 Arten aus derselben Familie ist phylogenetisch weniger vielfältig als eine Fläche mit 10 Arten aus 10 verschiedenen Ordnungen. Die erste bewahrt weniger vom [Stammbaum des Lebens](/de/biology/cells/what-is-a-cell), die zweite mehr – bei gleicher Artenzahl.
+Die phylogenetische Diversität erfasst die evolutionäre Eigenständigkeit der Arten einer Lebensgemeinschaft. Eine Fläche mit 10 Arten aus derselben Familie ist phylogenetisch weniger vielfältig als eine Fläche mit 10 Arten aus 10 verschiedenen Ordnungen. Die erste bewahrt weniger vom Stammbaum des Lebens, die zweite mehr – bei gleicher Artenzahl.
 
 Die phylogenetische Diversität ist von Bedeutung, weil sie in Kladen, für die keine direkten Merkmalsdaten vorliegen, als Näherung für Merkmalsdiversität dient, und weil der Verlust einer phylogenetisch eigenständigen Linie qualitativ etwas anderes ist als der Verlust einer von vielen nahen Verwandten. Sie ist zudem leichter zu berechnen als die funktionale Diversität, weil für die meisten großen Gruppen inzwischen gut abgestützte Phylogenien vorliegen.
 
@@ -49,7 +49,7 @@ Wo funktionale und phylogenetische Diversität verglichen wurden, stimmen sie of
 
 ## Was das für die Priorisierung bedeutet
 
-Würde die Priorisierung im [Naturschutz](/de/ecology/biodiversity/essential-biodiversity-variables-monitoring) statt mit dem Artenreichtum mit funktionaler oder phylogenetischer Diversität neu vorgenommen, sähen die entstehenden Prioritätskarten anders aus. Einige derzeit zu niedrig eingestufte Regionen – vor allem alte, isolierte Systeme mit geringer Artenzahl, aber hoher phylogenetischer Eigenständigkeit – rückten nach oben. Einige derzeit hoch eingestufte Regionen – artenreich, aber funktional redundant – rückten nach unten.
+Würde die Priorisierung im Naturschutz statt mit dem Artenreichtum mit funktionaler oder phylogenetischer Diversität neu vorgenommen, sähen die entstehenden Prioritätskarten anders aus. Einige derzeit zu niedrig eingestufte Regionen – vor allem alte, isolierte Systeme mit geringer Artenzahl, aber hoher phylogenetischer Eigenständigkeit – rückten nach oben. Einige derzeit hoch eingestufte Regionen – artenreich, aber funktional redundant – rückten nach unten.
 
 Das ist aus zwei Gründen unbequem.
 
@@ -66,6 +66,12 @@ Zwei Dinge lassen sich ändern, ohne den vollständigen Übergang des Fachs abzu
 **Aufhören, „Biodiversität“ als eine einzige Zahl zu berichten.** Wenn ein Naturschutzbericht „Biodiversitätsverlust“ als Prozentwert angibt, ist damit fast immer der Artenreichtum gemeint. Diese Leitzahlen durch aufgeschlüsselte Metriken zu ersetzen – oder wenigstens kenntlich zu machen, welche Metrik verwendet wird – würde die zugrunde liegenden Widersprüche sichtbar machen, die einzelne Zahlen verdecken.
 
 Keines von beidem erfordert neue Wissenschaft. Beides erfordert die klare Feststellung, dass der Artenreichtum nur eine Biodiversitätsmetrik unter mehreren ist und dass die Priorisierung diejenige Metrik verwenden sollte, die zum jeweiligen Schutzziel passt.
+
+## Wohin der Rest dieses Themenfelds führt
+
+Die Alternative zu einer Artenzahl ist nicht eine einzelne bessere Zahl, sondern eine Reihe von Maßen, die jeweils eine engere Frage ehrlich beantworten. Der [Artenreichtum](/de/ecology/biodiversity/species-richness-explained) ist gerade deshalb zu verstehen, weil er das hier kritisierte Maß ist, und die [Gleichverteilung der Arten](/de/ecology/biodiversity/species-evenness-and-diversity) ist die Eigenschaft, die er verwirft. [Ökologische Integrität](/de/ecology/biodiversity/ecological-integrity-indicators) und [Resilienzindikatoren](/de/ecology/biodiversity/ecosystem-resilience-indicators) versuchen das Schwierigere: zu fragen, ob ein Ort noch funktioniert. [Fragmentierungsmaße](/de/ecology/biodiversity/habitat-fragmentation-metrics) erfassen eine räumliche Veränderung, die Zählungen vor Ort nicht sehen können.
+
+Auf der Messseite sind der [Living Planet Index](/de/ecology/biodiversity/living-planet-index-explained) und der [Rote-Liste-Index](/de/ecology/biodiversity/red-list-index-explained) die beiden Leitaggregate, jeweils mit dokumentierter Methode und dokumentierter Kritik, und die [essenziellen Biodiversitätsvariablen](/de/ecology/biodiversity/essential-biodiversity-variables-monitoring) sind der Versuch, vorab zu vereinbaren, was überhaupt gemessen werden soll. Woher die Daten stammen, zählt so viel wie das, was daraus berechnet wird: [Citizen-Science-Daten](/de/ecology/biodiversity/citizen-science-biodiversity-data) liefern inzwischen einen großen Teil der Nachweise, die [Fernerkundung](/de/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) liefert Habitatausdehnung statt Arten, und jede Trendaussage beruht auf [einer Referenz, die jemand gewählt hat](/de/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines). Ob Schutz etwas bewirkt, ist eine gesonderte empirische Frage, behandelt in [der Wirksamkeit von Schutzgebieten](/de/ecology/biodiversity/protected-area-effectiveness) und im Überblick zu [Biodiversitätsmonitoring und Ökosystemzustand](/de/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Sources
 

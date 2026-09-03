@@ -4,8 +4,8 @@ excerpt: The atmosphere holds a thousandth of one per cent of Earth's water and 
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - water-cycle
   - hydrosphere
@@ -16,11 +16,11 @@ related:
   - earth-system-science-explained
   - water-vapor-feedback-explained
   - cryosphere-in-the-earth-system
-_bodyHash: 4c9f8a4c
+_bodyHash: ba471819
 pillar: earth-system-science-explained
 ---
 
-Of all the reservoirs in the [Earth system](/en/glossary/earth-system), the atmosphere's water store is the smallest that anyone cares about and the one that turns over fastest. Both facts follow from the same number, and together they explain why the [water cycle](/en/glossary/water-cycle) intensifies under warming in a way that is neither uniform nor proportional.
+Of all the reservoirs in the [Earth system](/en/glossary/earth-system), the atmosphere's water store is the smallest that anyone cares about and the one that turns over fastest. Both facts follow from the same number, and together they are a compact illustration of how [reservoirs and fluxes organise the whole Earth system](/en/ecology/earth-systems/earth-system-science-explained), and together they explain why the [water cycle](/en/glossary/water-cycle) intensifies under warming in a way that is neither uniform nor proportional.
 
 ## Where the water is
 

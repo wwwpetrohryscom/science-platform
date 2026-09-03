@@ -15,7 +15,7 @@ related:
   - living-planet-index-explained
   - why-species-counts-mislead-conservation
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 70cec440
+_bodyHash: c1ca632
 readingTime: 5
 ---
 

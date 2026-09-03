@@ -18,7 +18,7 @@ related:
   - microplastics-evidence-and-uncertainty
   - air-quality-measurement-and-standards
 pillar: environmental-pollution-explained
-_bodyHash: bcda7c8c
+_bodyHash: 582d83be
 ---
 
 The phrase sounds like a chemical family. It is not one. "Persistent organic pollutant" is an operational definition: a set of measurable properties written into the text of an international treaty, and a compound earns the label by having those properties documented rather than by belonging to any structural class. Organochlorine pesticides, electrical insulating fluids, brominated flame retardants and fluorinated surfactants share a list because they behave alike once released, not because they resemble each other on paper. That is also why the category is a useful entry point into the wider [source, pathway and receptor framework](/en/ecology/pollution/environmental-pollution-explained) — it is one of the few pollutant classes defined by the pathway rather than by the source.

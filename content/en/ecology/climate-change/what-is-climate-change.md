@@ -4,8 +4,8 @@ excerpt: Climate change refers to the long-term shift in Earth's energy balance 
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-09-02'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 8
 tags:
   - climate
   - fundamentals
@@ -22,7 +22,7 @@ faq:
     answer: Global mean temperature is a thermodynamic forcing that drives much larger regional changes — extreme heat days, precipitation patterns, ocean stratification, sea level. The two-degree threshold is not a cliff but a useful threshold beyond which several large feedbacks (Arctic methane, ice sheet dynamics, forest dieback) become more likely to engage.
   - question: What is still genuinely uncertain?
     answer: The magnitude of regional precipitation changes, the timing and reversibility of ice-sheet feedbacks, the response of clouds to warming, and the strength of carbon-cycle feedbacks. The uncertainties are about *how much* and *how fast*, not about whether it is happening or what is causing it.
-_bodyHash: ccb496b
+_bodyHash: 13bc6da4
 ---
 
 Climate change refers to the long-term shift in Earth's energy balance driven primarily — over the last 150 years — by changes in atmospheric composition. The mechanism is well-established in the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) and summarized for public audiences by [NASA's climate evidence review](https://science.nasa.gov/climate-change/evidence/). The genuinely open questions are different from the ones that public discourse usually emphasizes.
@@ -82,6 +82,14 @@ The intra-year variability that produced the most recent record was modulated by
 Climate change is a thermodynamic consequence of changing atmospheric composition. Major assessments treat the mechanism and recent human attribution as established. The active research frontier is on magnitude, regional impact, feedback strength, and reversibility — not on the foundational claims.
 
 When you encounter a climate argument, the relevant filter is: which of those frontier questions is it addressing? Most useful disagreements live there. The disagreements that don't — the ones that re-litigate the basic mechanism or the attribution — have been settled long enough that engaging them is no longer where the science is.
+
+## Where the rest of this subtopic goes
+
+The mechanism above rests on two quantities the rest of this cluster takes apart. [Greenhouse gases and radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) explains what forcing is and why global-warming potentials depend on the integration window chosen; [climate sensitivity](/en/ecology/climate-change/climate-sensitivity-explained) covers the response to that forcing, and why the two numbers usually quoted — equilibrium and transient — answer different questions. [Remaining carbon budgets](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions) is what those two produce when combined, and the most commonly misread output of the field.
+
+The evidence is a set of separately maintained records rather than one dataset. [Global temperature records](/en/ecology/climate-change/global-temperature-records-explained), [greenhouse-gas concentration monitoring](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), ocean heat content, sea-level rise and [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) — the first two linked above — each have their own instrument history and error structure, and [the indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) is the attempt to read them together.
+
+On the harder questions: [projection uncertainty](/en/ecology/climate-change/climate-models-projections-uncertainty) sets out what a model can and cannot tell you, [extreme-event attribution](/en/ecology/climate-change/extreme-weather-attribution-basics) covers the method that replaced "no single event can be attributed", [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks) and the [temperate forest sink](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) deal with the sinks that decide how much of an emission stays airborne, and [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators) track the human-response side.
 
 ## Sources
 

@@ -18,7 +18,7 @@ related:
   - invasive-species-management
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: 80a9d41f
+_bodyHash: fa9cb989
 ---
 
 A Red List category is a claim about probability, made under stated rules, from stated evidence. Critically Endangered means a taxon meets at least one of five quantitative criteria at the most severe threshold, and is therefore judged to face an extremely high risk of extinction in the wild. It does not mean the organism is rare, beautiful, ecologically pivotal or a spending priority. Those are separate judgements, and the system was designed to keep them separate so that the risk grading could be audited independently of what anyone wanted to do about it — the general principle behind [evidence-based conservation](/en/ecology/conservation/conservation-science-explained).

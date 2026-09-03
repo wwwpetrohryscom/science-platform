@@ -19,7 +19,7 @@ related:
   - measurement-uncertainty-explained
   - materials-physics-and-semiconductors
 pillar: atomic-and-nuclear-physics-explained
-_bodyHash: 7c10f5c2
+_bodyHash: 7881980e
 ---
 
 The Standard Model is the most precisely tested theory in science and one of the least complete. Both statements are true at once, and holding them together is the whole difficulty of reading particle physics news.

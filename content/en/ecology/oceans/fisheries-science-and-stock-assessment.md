@@ -18,7 +18,7 @@ related:
   - marine-protected-areas-evidence
   - why-species-counts-mislead-conservation
 pillar: ocean-science-explained
-_bodyHash: '99396e88'
+_bodyHash: 12f7776
 ---
 
 Nobody counts the fish. A stock assessment is a statistical model of a population that cannot be observed directly, fitted to a few noisy indicators and then read by managers as though it were a measurement. Most of the long-running arguments in fisheries science are arguments about the size of that gap, and this page works through where it opens up. The animal being counted lives inside the layered, thinly observed column that [ocean science](/en/ecology/oceans/ocean-science-explained) sets out, which is why its numbers have to be assembled indirectly from three narrow streams of evidence.

@@ -4,7 +4,7 @@ excerpt: Habitat loss and habitat fragmentation are related but distinct, and co
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - habitat-fragmentation
@@ -15,11 +15,11 @@ related:
   - ecological-integrity-indicators
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 68a48b52
+_bodyHash: 901c9dac
 readingTime: 5
 ---
 
-When a forest, wetland, or grassland is carved by roads, fields, and development, it does not simply shrink — it also splits. [Habitat fragmentation](/en/glossary/habitat-fragmentation) describes that splitting: the breaking of once-continuous habitat into smaller, more isolated patches. It is closely tied to habitat loss yet conceptually separate, and keeping the two apart is essential for measuring landscape change well and for the broader work of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
+When a forest, wetland, or grassland is carved by roads, fields, and development, it does not simply shrink — it also splits. [Habitat fragmentation](/en/glossary/habitat-fragmentation) describes that splitting, a change that a site-level [species count can miss entirely](/en/ecology/biodiversity/why-species-counts-mislead-conservation): the breaking of once-continuous habitat into smaller, more isolated patches. It is closely tied to habitat loss yet conceptually separate, and keeping the two apart is essential for measuring landscape change well and for the broader work of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Fragmentation is not the same as habitat loss
 

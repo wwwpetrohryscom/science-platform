@@ -18,7 +18,7 @@ related:
   - taxonomy-and-classification-explained
   - how-many-species-are-there
 pillar: taxonomy-and-classification-explained
-_bodyHash: 39603dbe
+_bodyHash: 89ea4e76
 ---
 
 Thirty-four animal phyla sit directly under Animalia in the August 2026 release of the Catalogue of Life, and they are wildly unequal in every respect that can be measured. Between them they carry 1,531,146 accepted species names, of which 128,616 are flagged extinct. Arthropods alone account for 1,153,259 of those names and insects for 941,223. Describing animal diversity is, numerically, describing arthropods with a long tail of everything else attached — which makes the tail the interesting part, because that is where the distinct ways of building an animal actually live.

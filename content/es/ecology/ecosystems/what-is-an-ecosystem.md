@@ -4,8 +4,8 @@ excerpt: Un ecosistema no es un lugar, sino un flujo. Esto es lo que esa distinc
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-08-29'
-readingTime: 6
+updatedDate: '2026-09-03'
+readingTime: 7
 tags:
   - ecosystems
   - ecology-fundamentals
@@ -14,18 +14,18 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
-_bodyHash: 6481d6f9
+_bodyHash: 7e97b4bd
 ---
 
-Un ecosistema es el flujo simultáneo de [energía](/es/physics/energy/perovskite-stack-field-stability), materia e información a través de una comunidad de organismos y su entorno físico ([UNEP: Ecosistemas](https://www.unep.org/explore-topics/ecosystems)). El término «ecosistema» lo acuñó Arthur Tansley en 1935 precisamente para desplazar la noción más antigua y romántica de «comunidad»: Tansley quería un término que subrayara el intercambio y no la pertenencia.
+Un ecosistema es el flujo simultáneo de energía, materia e información a través de una comunidad de organismos y su entorno físico ([UNEP: Ecosistemas](https://www.unep.org/explore-topics/ecosystems)). El término «ecosistema» lo acuñó Arthur Tansley en 1935 precisamente para desplazar la noción más antigua y romántica de «comunidad»: Tansley quería un término que subrayara el intercambio y no la pertenencia.
 
 Casi un siglo después, ese énfasis es más pertinente que nunca.
 
 ## Un flujo, no un lugar
 
-La concepción popular de un ecosistema es la de un lugar: un bosque, un humedal, un arrecife de [coral](/es/biology/cells/coral-microbiome-bleaching-resistance). La definición científica se parece más a la de un proceso. El bosque es el sustrato; el ecosistema es lo que el bosque hace. La fotosíntesis convierte la energía solar en biomasa. La descomposición devuelve los nutrientes minerales a la circulación. Los herbívoros transfieren esa energía hacia arriba; los depredadores regulan a los herbívoros. El agua recorre suelo, raíz, hoja y atmósfera, y vuelve a empezar. El [nitrógeno](/es/ecology/ecosystems/soil-microbiome-regenerative-agriculture) circula por fijadores, plantas, animales y descomponedores. La información —feromonas, llamadas de alarma, [señalización](/es/biology/cells/cell-signaling-pathways-basics) micorrízica— coordina el conjunto.
+La concepción popular de un ecosistema es la de un lugar: un bosque, un humedal, un arrecife de coral. La definición científica se parece más a la de un proceso. El bosque es el sustrato; el ecosistema es lo que el bosque hace. La fotosíntesis convierte la energía solar en biomasa. La descomposición devuelve los nutrientes minerales a la circulación. Los herbívoros transfieren esa energía hacia arriba; los depredadores regulan a los herbívoros. El agua recorre suelo, raíz, hoja y atmósfera, y vuelve a empezar. El nitrógeno circula por fijadores, plantas, animales y descomponedores. La información —feromonas, llamadas de alarma, señalización micorrízica— coordina el conjunto.
 
-Retira el sustrato y el ecosistema se detiene. Retira el *flujo* y el sustrato está muerto. Esta distinción importa en cuanto uno empieza a preguntarse qué conserva realmente la [conservación](/es/ecology/biodiversity/why-species-counts-mislead-conservation).
+Retira el sustrato y el ecosistema se detiene. Retira el *flujo* y el sustrato está muerto. Esta distinción importa en cuanto uno empieza a preguntarse qué conserva realmente la conservación.
 
 ## Tres propiedades que definen un ecosistema
 
@@ -33,7 +33,7 @@ El contenido sustantivo de «ecosistema» se reduce a tres propiedades medibles.
 
 **Flujo de energía.** La velocidad a la que un sistema fija energía solar como producción primaria y la eficiencia con la que esa energía asciende por los niveles tróficos. Es la métrica que hace que una selva tropical y una tundra resulten reconocibles como el mismo tipo de objeto: difieren en magnitud, no en naturaleza.
 
-**Ciclo de la materia.** La velocidad a la que los nutrientes ([nitrógeno](/es/ecology/ecosystems/soil-microbiome-regenerative-agriculture), fósforo, [carbono](/es/ecology/climate-change/temperate-forest-carbon-sink-decline), agua) atraviesan los compartimentos biológicos y físicos. Los [ecosistemas](/es/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) sanos se caracterizan por ciclos cerrados en los que los nutrientes se reabsorben con rapidez; los [ecosistemas degradados](/es/ecology/ecosystems/ecosystem-services-and-human-wellbeing) tienen fugas.
+**Ciclo de la materia.** La velocidad a la que los nutrientes (nitrógeno, fósforo, carbono, agua) atraviesan los compartimentos biológicos y físicos. Los ecosistemas sanos se caracterizan por ciclos cerrados en los que los nutrientes se reabsorben con rapidez; los ecosistemas degradados tienen fugas.
 
 **Flujo de información.** La señalización —química, conductual, ecológica— que coordina a los organismos en el espacio y en el tiempo. Es la propiedad que peor medimos y, seguramente, la primera que se rompe bajo estrés.
 
@@ -43,7 +43,7 @@ Cualquier sistema que reúna las tres es un ecosistema. Una roca desnuda con lí
 
 Un ecosistema es cualquier nivel de organización que capte un flujo significativo. Una gota de agua de estanque es un ecosistema. Un bioma continental es un ecosistema. La biosfera terrestre es un ecosistema. La elección de la escala corresponde a quien investiga, y debe estar motivada por el flujo que se quiera estudiar.
 
-Esto resulta liberador. Significa que se puede hablar de un «ecosistema del [microbioma](/es/ecology/ecosystems/soil-microbiome-regenerative-agriculture) del suelo» y de un «ecosistema del [microbioma](/es/ecology/ecosystems/soil-microbiome-regenerative-agriculture) coralino» sin abusar de la palabra: ambos tienen flujo de energía, ciclo de la materia y flujo de información a la escala pertinente.
+Esto resulta liberador. Significa que se puede hablar de un «ecosistema del microbioma del suelo» y de un «ecosistema del microbioma coralino» sin abusar de la palabra: ambos tienen flujo de energía, ciclo de la materia y flujo de información a la escala pertinente.
 
 El extremo superior de ese intervalo de escalas merece tomarse en serio, y no tratarse como una figura retórica. Aplicada al planeta entero, esa misma definición basada en el flujo da lugar a la ciencia del sistema Tierra: energía que entra como luz solar y sale como radiación infrarroja, materia que circula entre reservorios con tiempos de residencia característicos e información transportada por las retroalimentaciones que acoplan los componentes. El [sistema Tierra](/es/ecology/earth-systems/earth-system-science-explained) es la mayor escala en la que están presentes las tres propiedades anteriores, y los [ciclos biogeoquímicos](/es/ecology/earth-systems/biogeochemical-cycles-explained) que describen sus flujos de materia emplean exactamente el mismo vocabulario de reservorios y flujos que la ecología de ecosistemas usa a escalas menores.
 
@@ -59,7 +59,7 @@ Definir los ecosistemas por el flujo y no por el lugar conduce a varias reformul
 
 **Los puntos de inflexión son reorganizaciones del flujo.** Cuando un ecosistema «vuelca» —de sabana a desierto, de bosque de macroalgas a erial de erizos, de arrecife de coral a tapete algal—, lo que vuelca es la vía dominante de energía y materia. El lugar sigue ahí; el ecosistema, no.
 
-**Los servicios ecosistémicos son flujos cuantificados.** Cuando valoramos un ecosistema por el secuestro de carbono, la depuración del agua o la polinización, estamos valorando un flujo concreto. La contabilidad solo funciona si tomamos como unidad el flujo y no el lugar. La [Evaluación Mundial de la IPBES](https://www.ipbes.net/global-assessment) convierte este encuadre en la base operativa de su contabilidad de la [biodiversidad](/es/ecology/biodiversity/why-species-counts-mislead-conservation) y de los [servicios ecosistémicos](/es/ecology/ecosystems/ecosystem-services-and-human-wellbeing).
+**Los servicios ecosistémicos son flujos cuantificados.** Cuando valoramos un ecosistema por el secuestro de carbono, la depuración del agua o la polinización, estamos valorando un flujo concreto. La contabilidad solo funciona si tomamos como unidad el flujo y no el lugar. La [Evaluación Mundial de la IPBES](https://www.ipbes.net/global-assessment) convierte este encuadre en la base operativa de su contabilidad de la biodiversidad y de los servicios ecosistémicos.
 
 ## Lo que esto descarta
 
@@ -73,9 +73,15 @@ Descarta también la idea de que un ecosistema puede preservarse trazando una l�
 
 ## La conclusión
 
-En ecología, el contenido significativo de «ecosistema» es el flujo. Ese encuadre es lo que da coherencia al resto del campo: la ecología de las perturbaciones, la restauración, los servicios ecosistémicos y la biología de la [conservación](/es/ecology/biodiversity/why-species-counts-mislead-conservation).
+En ecología, el contenido significativo de «ecosistema» es el flujo. Ese encuadre es lo que da coherencia al resto del campo: la ecología de las perturbaciones, la restauración, los servicios ecosistémicos y la biología de la conservación.
 
 Una vez interiorizado, buena parte del discurso ecológico público resulta más fácil de evaluar. Las afirmaciones sobre «destruir ecosistemas» son afirmaciones sobre la alteración de flujos concretos; las afirmaciones sobre «restaurar ecosistemas» son afirmaciones sobre su reinicio. Sin el encuadre del flujo, ambos tipos de afirmación flotan libres de la evidencia que necesitarían para ser ciertas.
+
+## Seguir el flujo por el resto de este subtema
+
+Si un ecosistema se define por el flujo y no por sus ocupantes, las preguntas siguientes son sobre los flujos mismos. La [producción primaria](/es/ecology/ecosystems/primary-production-and-energy-flow) es por dónde entra la energía y cómo se estima su magnitud; las [redes tróficas](/es/ecology/ecosystems/food-webs-and-trophic-structure) son adónde va, y por qué la pirámide trófica es un recurso contable más que una descripción. La [sucesión ecológica](/es/ecology/ecosystems/ecological-succession-explained) muestra el mismo sistema en el tiempo una vez abandonada la idea de clímax, y los [biomas](/es/ecology/ecosystems/biomes-explained) muestran la clasificación en el otro extremo de la escala, con los bordes difusos que eso implica.
+
+Tres artículos llevan la definición a terrenos donde no suele aplicarse. Las [especies fundadoras](/es/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) ponen a prueba la idea de que la diversidad hace intercambiables a los sistemas; la [ecología urbana](/es/ecology/ecosystems/urban-ecology-explained) trata las ciudades como ecosistemas y no como su ausencia; y los [agroecosistemas](/es/ecology/ecosystems/agricultural-ecosystems-and-agroecology) muestran qué ocurre cuando un sistema se gestiona para un único producto, con las [comunidades microbianas del suelo](/es/ecology/ecosystems/soil-microbiome-regenerative-agriculture) como la parte más difícil de ver y más fácil de exagerar. Los servicios ecosistémicos traducen todo ello a los términos de una decisión pública.
 
 ## Sources
 

@@ -17,7 +17,7 @@ related:
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
 pillar: freshwater-ecosystems-explained
-_bodyHash: 7cf22e9b
+_bodyHash: 1a6472f
 ---
 
 Ask how much of the world's wetland has been destroyed and the answer depends on which study is reached for, and the spread between reputable answers is wide enough to change what a reader would conclude from it. The disagreement is not about drainage records. It is about what counts as a wetland, when the clock starts, and which parts of the world the underlying data came from. Getting that straight is the precondition for reading anything else written about these systems.

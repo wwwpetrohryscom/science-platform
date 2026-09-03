@@ -17,7 +17,7 @@ related:
   - ocean-acidification-explained
   - satellite-altimetry-explained
 pillar: ocean-science-explained
-_bodyHash: 1390dc08
+_bodyHash: b29fcb26
 ---
 
 NOAA Ocean Exploration states that more than 90 per cent of the ocean is deep ocean — water below 200 metres — and that explorers have directly seen less than 0.001 per cent of the deep-sea floor, an area roughly the size of Rhode Island. Those two figures sit oddly together, and holding them together is the whole discipline: the largest continuous habitat on the planet is described almost entirely from samples, sensors and inference rather than from observation.

@@ -4,8 +4,8 @@ excerpt: Why two farms with identical practices produce different yields — and
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-03-04'
-updatedDate: '2026-05-08'
-readingTime: 4
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - soil
   - agriculture
@@ -21,16 +21,16 @@ faq:
     answer: Inoculation with curated consortia shows promise in greenhouses but inconsistent results in the field. Restoring habitat — reduced disturbance, diverse rotations, living roots year-round — appears more reliable than direct inoculation.
   - question: Should farmers be testing for this now?
     answer: Functional soil tests are accessible through specialty labs but rarely through standard agronomy services. They are most useful when comparing the same field over time, not as one-shot measurements.
-_bodyHash: 31a213a4
+_bodyHash: 3b6c063
 ---
 
-Regenerative agriculture trials can vary across sites, even when soil texture, [climate](/en/ecology/climate-change/what-is-climate-change), and management appear similar. Research indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and public soil/ecosystem assessments from [UNEP](https://www.unep.org/explore-topics/ecosystems) and the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity) support a cautious explanation: soil microbial communities are one important mediator among several, not a single hidden variable that explains every outcome.
+Regenerative agriculture trials can vary across sites, even when soil texture, climate, and management appear similar — the kind of variation that follows from treating a field as [an ecosystem defined by its flows](/en/ecology/ecosystems/what-is-an-ecosystem) rather than as a set of inputs. Research indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and public soil/ecosystem assessments from [UNEP](https://www.unep.org/explore-topics/ecosystems) and the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity) support a cautious explanation: soil microbial communities are one important mediator among several, not a single hidden variable that explains every outcome.
 
 This piece walks through what the microbial mediation looks like, why it has been hard to capture, and what better metrics would change.
 
 ## The puzzle of replication failure
 
-When two farms with similar soil texture, [climate](/en/ecology/climate-change/what-is-climate-change), and management adopt the same regenerative practice, they sometimes produce comparable yield gains. They often do not. The variance across sites is large enough that synthesis studies can report wide confidence intervals; the central effect may be positive for some practices and contexts, but the spread is wide.
+When two farms with similar soil texture, climate, and management adopt the same regenerative practice, they sometimes produce comparable yield gains. They often do not. The variance across sites is large enough that synthesis studies can report wide confidence intervals; the central effect may be positive for some practices and contexts, but the spread is wide.
 
 The temptation is to attribute the variance to differences in management quality, weather, or measurement error. These contribute but may not fully account for the residual variance. Some of the remaining variance correlates with proxies for soil microbial state in studies that have measured it.
 
@@ -42,13 +42,13 @@ Microbes mediate three broad processes that determine how a field responds to ma
 
 **Phosphorus availability.** Mycorrhizal fungi extend the effective root surface area for phosphorus uptake by orders of magnitude. Their abundance and species composition vary widely across fields and respond strongly to management history (fungicides and high-phosphorus fertilization both suppress them). A field with depleted mycorrhizal networks responds to phosphorus management differently than a field with intact networks.
 
-**Rhizosphere environment.** Plants exude [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) compounds into the rhizosphere that recruit specific microbial partners. The microbial community responds by modifying the chemical environment around the roots — protonation, chelation, hormone production — in ways that affect plant performance. Two fields with the same plants and same fertilizer can produce different plant phenotypes because the rhizosphere [microbiome](/en/biology/cells/coral-microbiome-bleaching-resistance) is different.
+**Rhizosphere environment.** Plants exude carbon compounds into the rhizosphere that recruit specific microbial partners. The microbial community responds by modifying the chemical environment around the roots — protonation, chelation, hormone production — in ways that affect plant performance. Two fields with the same plants and same fertilizer can produce different plant phenotypes because the rhizosphere microbiome is different.
 
-These mediations are biologically plausible and supported by a growing literature. They are also not fully captured by standard soil tests, which generally measure [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) and nutrient pools rather than microbial function.
+These mediations are biologically plausible and supported by a growing literature. They are also not fully captured by standard soil tests, which generally measure carbon and nutrient pools rather than microbial function.
 
 ## Why this has been hard to capture
 
-The microbial community in a single gram of agricultural soil contains billions of [cells](/en/biology/cells/what-is-a-cell) from thousands of taxa. Characterizing it has historically required technologies — amplicon sequencing, shotgun metagenomics, PLFA profiling — that were not part of standard agronomy.
+The microbial community in a single gram of agricultural soil contains billions of cells from thousands of taxa. Characterizing it has historically required technologies — amplicon sequencing, shotgun metagenomics, PLFA profiling — that were not part of standard agronomy.
 
 The cost has dropped considerably. The interpretation has not caught up. Sequencing tells you what is there; it does not tell you what they are doing. The translation from microbial community composition to functional capability is an active research area rather than a settled question. A trial that measured composition five years ago and tried to predict yield would have failed; the same trial done today, with better functional databases, might succeed.
 
@@ -75,7 +75,7 @@ For an individual grower, the practical implication is modest but real. The rege
 
 For a research trial, the implication is that any trial that does not measure the microbial mediator is leaving variance on the table. Future trials should treat microbial state as a covariate, not an afterthought. The cost of doing so is dropping fast enough that this is no longer a research-budget objection.
 
-For a [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) maker, the implication is that programs evaluating regenerative practices on outcome metrics alone will produce noisier results than programs that include process measurement. Policy that pays for outcomes (yield, carbon sequestration) without measuring how the outcomes were achieved is policy that will struggle to scale because it cannot identify the ingredients of success.
+For a policy maker, the implication is that programs evaluating regenerative practices on outcome metrics alone will produce noisier results than programs that include process measurement. Policy that pays for outcomes (yield, carbon sequestration) without measuring how the outcomes were achieved is policy that will struggle to scale because it cannot identify the ingredients of success.
 
 ## Sources
 

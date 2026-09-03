@@ -17,7 +17,7 @@ related:
   - deep-sea-ecosystems
   - ocean-color-observations
 pillar: ocean-science-explained
-_bodyHash: bbcbd9fc
+_bodyHash: 757bdf6e
 ---
 
 A global biomass census published in the Proceedings of the National Academy of Sciences puts about 1 gigatonne of carbon of primary producers in the ocean, supporting roughly 5 gigatonnes of carbon of consumers. On land the ratio runs the other way, and by a wide margin: plants account for around 450 of the roughly 550 gigatonnes of carbon in the entire [biosphere](/en/glossary/biosphere). The marine pyramid stands on its point.

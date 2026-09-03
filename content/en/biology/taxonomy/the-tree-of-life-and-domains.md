@@ -18,7 +18,7 @@ related:
   - bacteria-and-archaea-explained
   - what-is-a-species
 pillar: taxonomy-and-classification-explained
-_bodyHash: bc6eb266
+_bodyHash: a4e4c742
 ---
 
 Before 1977 the deepest division in biology was thought to be between cells with nuclei and cells without. That year a comparison of ribosomal RNA catalogues reported that living systems represent [one of three aboriginal lines of descent](https://pmc.ncbi.nlm.nih.gov/articles/PMC432104/): the eubacteria, the archaebacteria — then known mainly through methanogens — and the urkaryotes, represented by the cytoplasmic component of eukaryotic cells. The prokaryotes, which had looked like one thing, were two, and the split was invisible under a microscope.
