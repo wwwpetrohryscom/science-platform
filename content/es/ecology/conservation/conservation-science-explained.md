@@ -1,5 +1,6 @@
 ---
 title: 'Ciencia de la conservación: qué sostiene realmente la base de evidencia'
+metaTitle: 'Ciencia de la conservación: qué muestra la evaluación'
 excerpt: 'La conservación es una ciencia aplicada levantada sobre una pregunta causal: ¿cambió la intervención la trayectoria? Esta página expone cómo se pone a prueba esa pregunta, qué respaldan hoy las síntesis y dónde se agota la evidencia.'
 type: pillar
 author: biodiversity-conservation-desk

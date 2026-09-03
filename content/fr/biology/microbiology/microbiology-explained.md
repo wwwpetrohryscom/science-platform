@@ -1,5 +1,6 @@
 ---
 title: 'Microbiologie : les organismes qui font tourner la chimie de la planète'
+metaTitle: 'Microbiologie : les organismes qui font la chimie du globe'
 excerpt: Les seules bactéries détiennent environ 70 gigatonnes de carbone, l'essentiel dans le sous-sol profond, et les microbes réalisent des réactions qu'aucune plante ni aucun animal ne sait faire. Cette page expose ce qui a été compté, ce qui est inféré et là où les chiffres du domaine restent instables.
 type: pillar
 author: microbiology-genomics-desk

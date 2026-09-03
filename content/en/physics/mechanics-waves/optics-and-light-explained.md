@@ -1,5 +1,6 @@
 ---
 title: 'Optics: reflection, refraction, diffraction and the limits of an image'
+metaTitle: 'Optics: refraction, diffraction and the limits of an image'
 excerpt: Ray optics is an approximation that works until the aperture gets small, and then diffraction sets a floor no amount of engineering removes. This page traces that boundary through lenses, fibres, thin films, telescopes and polarimetry.
 type: expert
 author: physics-energy-desk

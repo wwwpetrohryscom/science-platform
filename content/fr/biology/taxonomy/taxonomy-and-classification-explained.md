@@ -1,5 +1,6 @@
 ---
 title: 'Taxinomie : nommer, ranger, et les règles qui rendent les noms stables'
+metaTitle: 'Taxinomie : nommer, ranger et stabiliser les noms'
 excerpt: Nommer un organisme est une procédure régie par des règles, avec ses codes, ses types et ses règles de priorité, et cela est distinct du jugement scientifique sur les organismes qui vont ensemble. Voici comment cette machinerie fonctionne et où elle force.
 type: pillar
 author: biology-life-sciences-desk

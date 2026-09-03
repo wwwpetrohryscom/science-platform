@@ -1,5 +1,6 @@
 ---
 title: 'Écosystèmes d''eau douce : moins de 0,01 % de l''eau, plus de 10 % des espèces décrites'
+metaTitle: 'Eaux douces : 0,01 % de l''eau, 10 % des espèces'
 excerpt: Fleuves, lacs et marécages renferment moins d'un centième de pour cent de l'eau de la Terre et ne couvrent que quelques pour cent des terres émergées ; ils abritent pourtant plus d'un dixième des espèces décrites. Ce décalage façonne tout ce qui les concerne.
 type: pillar
 author: oceans-freshwater-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Synthetic biology: engineering principles meeting biological variability'
+metaTitle: 'Synthetic biology: engineering against biological variability'
 excerpt: The field was founded on an analogy with electronics — standard parts, datasheets, predictable composition. The parts exist. What has proved harder is that the host keeps changing the circuit while it runs.
 type: expert
 author: microbiology-genomics-desk

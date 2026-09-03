@@ -1,5 +1,6 @@
 ---
 title: 'Cell division: one process copies, the other deliberately shuffles'
+metaTitle: 'Mitosis and meiosis: one process copies, the other shuffles'
 excerpt: Mitosis and meiosis are usually taught as variants of one mechanism. They solve opposite problems — faithful duplication against engineered variation — and the checkpoints, the error rates and the disease consequences all follow from that difference.
 type: expert
 author: biology-ecosystems-desk

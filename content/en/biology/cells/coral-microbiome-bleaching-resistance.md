@@ -1,5 +1,6 @@
 ---
 title: Coral microbiomes and the second mechanism of bleaching resistance
+metaTitle: 'Coral microbiomes and bleaching resistance'
 excerpt: Beyond Symbiodinium shuffling, the bacterial community surrounding coral tissue appears to mediate heat tolerance — and it can be partially seeded.
 type: expert
 author: biology-ecosystems-desk

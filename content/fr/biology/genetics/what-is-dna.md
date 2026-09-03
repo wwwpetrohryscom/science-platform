@@ -1,5 +1,6 @@
 ---
 title: Qu'est-ce que l'ADN ? La molécule, le code, et ce qu'il ne détermine pas
+metaTitle: 'Qu''est-ce que l''ADN ? La molécule, le code et ses limites'
 excerpt: L'ADN est un code moléculaire à quatre lettres qui stocke l'information nécessaire pour construire et faire fonctionner une cellule. Comprendre ce qu'il fait — et, tout aussi important, ce qu'il ne fait pas — est le socle de la biologie moderne.
 type: pillar
 author: biology-ecosystems-desk

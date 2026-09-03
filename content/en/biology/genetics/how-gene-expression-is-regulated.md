@@ -1,5 +1,6 @@
 ---
 title: 'Gene expression regulation: why two cells with the same genome are not the same cell'
+metaTitle: 'Gene expression regulation: one genome, many cell types'
 excerpt: A liver cell and a neuron carry identical DNA. The reason they are not interchangeable is regulation — a layered system of decisions about which genes are read and when.
 type: expert
 author: biology-ecosystems-desk

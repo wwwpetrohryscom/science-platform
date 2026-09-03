@@ -1,5 +1,6 @@
 ---
 title: 'Boreal forests: the carbon is in the ground, and the inventories stop above it'
+metaTitle: 'Boreal forests: the carbon the inventories miss'
 excerpt: Northern forest carbon sits mostly in cold, wet, slowly decomposing soil and in the permafrost beneath it — a pool that standard forest inventory conventions measure to a shallow, country-chosen depth or not at all.
 type: expert
 author: earth-systems-desk

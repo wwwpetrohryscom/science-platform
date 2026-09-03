@@ -61,6 +61,15 @@ export type Article = {
 
   // Frontmatter
   title: string;
+  /**
+   * Optional shorter title for the document head. The editorial title
+   * is written to be read on the page and is often a sentence; a
+   * search result shows about sixty characters. Where those two jobs
+   * pull apart, `metaTitle` carries the short form and `title` stays
+   * as the H1 — rather than shortening the H1 and losing what it says.
+   * Absent, the H1 is used for both.
+   */
+  metaTitle?: string;
   type: ArticleType;
   excerpt: string;
   publishedDate: string;
@@ -96,6 +105,15 @@ export type Insight = {
   localeFallback: boolean;
   availableLocales: Locale[];
   title: string;
+  /**
+   * Optional shorter title for the document head. The editorial title
+   * is written to be read on the page and is often a sentence; a
+   * search result shows about sixty characters. Where those two jobs
+   * pull apart, `metaTitle` carries the short form and `title` stays
+   * as the H1 — rather than shortening the H1 and losing what it says.
+   * Absent, the H1 is used for both.
+   */
+  metaTitle?: string;
   excerpt: string;
   /** The single load-bearing claim, surfaced above the fold. */
   argument: string;
@@ -327,6 +345,7 @@ function parseArticle({
     localeFallback: requestedLocale !== sourceLocale,
     availableLocales,
     title: String(fm.title),
+    metaTitle: typeof fm.metaTitle === "string" ? fm.metaTitle : undefined,
     type,
     excerpt: String(fm.excerpt),
     publishedDate: toIsoDate(fm.publishedDate),
@@ -385,6 +404,7 @@ function parseInsight({
     localeFallback: requestedLocale !== sourceLocale,
     availableLocales: discoverInsightLocales(slug),
     title: String(fm.title),
+    metaTitle: typeof fm.metaTitle === "string" ? fm.metaTitle : undefined,
     excerpt: String(fm.excerpt),
     argument: String(fm.argument),
     category,

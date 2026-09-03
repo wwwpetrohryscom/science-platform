@@ -1,5 +1,6 @@
 ---
 title: 'Forests: structure, function, and the definitions that decide the statistics'
+metaTitle: 'Forests: structure, function and the definitions that count'
 excerpt: A forest is a land-use category before it is an ecosystem, and the thresholds in that category decide most of the numbers published about it. This page sets out the definitions, the structure they describe, and where the global picture runs out.
 type: pillar
 author: environmental-science-desk

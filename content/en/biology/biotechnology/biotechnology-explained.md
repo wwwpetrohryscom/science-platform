@@ -1,5 +1,6 @@
 ---
 title: 'Biotechnology: what the techniques do, and where the claims outrun them'
+metaTitle: 'Biotechnology: what the toolkit does and does not solve'
 excerpt: Recombinant DNA, sequencing, editing and computational design each made one thing cheap and left the hard parts untouched. This is what the toolkit does, how a laboratory result becomes a product, and where that path breaks.
 type: pillar
 author: microbiology-genomics-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Energiesysteme: Umwandlung, Energieträger und die Grenzen, die entscheiden, was skaliert'
+metaTitle: 'Energiesysteme: Umwandlung, Träger, Grenzen'
 excerpt: Primärenergie, Energieträger und Endverbrauch sind drei getrennte Rechnungen, und ihre Vermischung erzeugt die meisten schlechten Energieargumente. Diese Seite verfolgt die Umwandlungskette von der Ressource bis zur Endnutzung und benennt, wo Verluste und Grenzen tatsächlich liegen.
 type: pillar
 author: energy-systems-desk

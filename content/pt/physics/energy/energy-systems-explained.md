@@ -1,5 +1,6 @@
 ---
 title: 'Sistemas energéticos: conversão, vetores e as restrições que decidem o que escala'
+metaTitle: 'Sistemas energéticos: conversão, vetores e limites'
 excerpt: A energia primária, os vetores energéticos e o consumo final são três contabilidades distintas, e misturá-las produz a maioria dos maus argumentos sobre energia. Esta página segue a cadeia de conversão do recurso ao uso final e indica onde estão realmente as perdas e os limites.
 type: pillar
 author: energy-systems-desk

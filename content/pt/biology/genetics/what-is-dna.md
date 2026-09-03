@@ -1,5 +1,6 @@
 ---
 title: O que é o ADN? A molécula, o código e aquilo que não determina
+metaTitle: 'O que é o ADN? A molécula, o código e os seus limites'
 excerpt: O ADN é um código molecular de quatro letras que armazena a informação necessária para construir e fazer funcionar uma célula. Compreender o que faz — e, tão importante quanto isso, o que não faz — é o alicerce da biologia moderna.
 type: pillar
 author: biology-ecosystems-desk

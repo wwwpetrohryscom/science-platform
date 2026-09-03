@@ -1,5 +1,6 @@
 ---
 title: 'Habitat fragmentation metrics: measuring how landscapes break apart'
+metaTitle: 'Habitat fragmentation metrics: measuring landscape break-up'
 excerpt: Habitat loss and habitat fragmentation are related but distinct, and conflating them produces bad conclusions. This explains the landscape metrics — patch size, edge, core area, and connectivity — used to quantify fragmentation, and the live scientific debate about how much it matters independently of habitat amount.
 type: expert
 author: biodiversity-conservation-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Pollution: source, pathway, receptor — the framework that organises the evidence'
+metaTitle: 'Pollution: source, pathway, receptor'
 excerpt: A substance becomes pollution only when a source, a pathway and a receptor line up. That triad, and the dose–response step at its centre, explains why environmental limits differ between countries without the underlying science differing.
 type: pillar
 author: public-health-environment-desk

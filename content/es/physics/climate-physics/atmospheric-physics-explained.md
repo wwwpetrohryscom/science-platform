@@ -1,5 +1,6 @@
 ---
 title: 'Física de la atmósfera: la máquina que lleva energía del ecuador al polo'
+metaTitle: 'Física de la atmósfera: la energía hacia los polos'
 excerpt: La atmósfera sostiene unas diez toneladas de aire sobre cada metro cuadrado y su transporte de energía hacia los polos alcanza cerca de cinco petavatios. Esta página expone la composición, la estructura vertical, el balance energético y la mecánica de transporte sobre los que descansa el resto del tema.
 type: pillar
 author: physics-energy-desk

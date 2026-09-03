@@ -1,5 +1,6 @@
 ---
 title: 'Freshwater ecosystems: under 0.01% of the water, over 10% of described species'
+metaTitle: 'Freshwater ecosystems: 0.01% of water, 10% of species'
 excerpt: Rivers, lakes and swamps hold under a hundredth of a per cent of the water on Earth and wet a few per cent of the land, yet they carry more than a tenth of all described species. That mismatch shapes everything about them.
 type: pillar
 author: oceans-freshwater-desk

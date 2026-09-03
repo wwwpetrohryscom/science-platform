@@ -1,5 +1,6 @@
 ---
 title: The thermodynamic limits of photovoltaics — and why they matter for what's possible
+metaTitle: 'The thermodynamic limits of photovoltaics'
 excerpt: There is a hard upper bound on how much sunlight any single-junction photovoltaic cell can convert to electricity. Knowing where it comes from clarifies which directions of improvement are physics, and which are engineering.
 type: expert
 author: energy-systems-desk

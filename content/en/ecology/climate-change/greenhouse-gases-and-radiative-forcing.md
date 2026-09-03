@@ -1,5 +1,6 @@
 ---
 title: 'Greenhouse gases and radiative forcing: what the term actually measures'
+metaTitle: 'Greenhouse gases and radiative forcing'
 excerpt: Radiative forcing is the bookkeeping unit that lets atmospheric scientists compare the climate effect of one molecule against another. It is also the unit most commonly misread.
 type: expert
 author: climate-research-desk

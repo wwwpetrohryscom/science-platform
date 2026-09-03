@@ -1,5 +1,6 @@
 ---
 title: 'Atomes et noyaux : la courbe unique derrière la fission et la fusion'
+metaTitle: 'Atomes et noyaux : la courbe d''énergie de liaison'
 excerpt: Un atome et le noyau en son centre diffèrent de quatre ordres de grandeur en taille et de six en énergie. Cet écart explique que la chimie et la physique nucléaire se comportent comme deux sujets distincts, et qu'une seule courbe d'énergie de liaison gouverne à la fois la fission et la fusion.
 type: pillar
 author: physics-energy-desk

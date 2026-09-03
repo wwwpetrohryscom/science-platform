@@ -1,5 +1,6 @@
 ---
 title: 'Florestas: estrutura, funcionamento e as definições que decidem as estatísticas'
+metaTitle: 'Florestas: estrutura, função e definições'
 excerpt: Uma floresta é uma categoria de uso do solo antes de ser um ecossistema, e os limiares dessa categoria decidem a maior parte dos números publicados sobre ela. Esta página expõe as definições, a estrutura que descrevem e onde o quadro global se esgota.
 type: pillar
 author: environmental-science-desk

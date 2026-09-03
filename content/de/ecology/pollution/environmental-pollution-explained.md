@@ -1,5 +1,6 @@
 ---
 title: 'Umweltverschmutzung: Quelle, Pfad, Rezeptor – das Modell, das die Evidenz ordnet'
+metaTitle: 'Verschmutzung: Quelle, Pfad, Rezeptor'
 excerpt: Ein Stoff wird erst dann zur Verschmutzung, wenn Quelle, Pfad und Rezeptor zusammentreffen. Diese Trias und der Dosis-Wirkungs-Schritt in ihrer Mitte erklären, warum Umweltgrenzwerte zwischen Staaten auseinandergehen, ohne dass die zugrunde liegende Wissenschaft auseinanderginge.
 type: pillar
 author: public-health-environment-desk

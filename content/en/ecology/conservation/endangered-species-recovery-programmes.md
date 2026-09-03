@@ -1,5 +1,6 @@
 ---
 title: 'Reintroduction and captive breeding: reading the record on species recovery'
+metaTitle: 'Reintroduction and captive breeding: the recovery record'
 excerpt: Releasing animals is not the same as recovering a population. The translocation record, the genetics of small populations and the best-documented rescues all point at the same gap between the two.
 type: expert
 author: biodiversity-conservation-desk

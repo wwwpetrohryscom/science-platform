@@ -1,5 +1,6 @@
 ---
 title: 'Naturschutzforschung: Was die Evidenzlage tatsächlich hergibt'
+metaTitle: 'Naturschutzwissenschaft: was die Wirkungsprüfung zeigt'
 excerpt: 'Naturschutz ist eine angewandte Wissenschaft, die auf einer kausalen Frage ruht: Hat die Maßnahme den Verlauf verändert? Diese Seite zeigt, wie diese Frage geprüft wird, was die Synthesen derzeit stützen und wo die Evidenz endet.'
 type: pillar
 author: biodiversity-conservation-desk

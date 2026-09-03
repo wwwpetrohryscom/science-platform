@@ -1,5 +1,6 @@
 ---
 title: 'Lapse rates and stability: why the troposphere convects and the stratosphere does not'
+metaTitle: 'Lapse rates and atmospheric stability'
 excerpt: Two different quantities are both called the lapse rate, and confusing them produces most of the errors made about atmospheric stability. Here is what each one measures, how they combine, and what the tropopause definition actually says.
 type: expert
 author: physics-energy-desk

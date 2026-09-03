@@ -1,5 +1,6 @@
 ---
 title: 'How many species exist: the estimate depends entirely on the method'
+metaTitle: 'How many species exist? Why the estimate depends on method'
 excerpt: Catalogues of life hold roughly 2.2 million named species, while published estimates of the true total run from a few million to a trillion. That gap is not measurement error — it is what happens when incompatible methods answer the same question.
 type: expert
 author: biology-life-sciences-desk

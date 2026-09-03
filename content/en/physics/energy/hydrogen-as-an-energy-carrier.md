@@ -1,5 +1,6 @@
 ---
 title: 'Hydrogen: an energy carrier with an efficiency penalty at every step'
+metaTitle: 'Hydrogen: a carrier with a penalty at every step'
 excerpt: A kilogram of hydrogen holds 33.3 kWh and costs roughly 50 to 64 kWh of electricity to make. Every later step — compression, storage, transport, reconversion — takes another cut, and that arithmetic decides where hydrogen belongs.
 type: expert
 author: energy-systems-desk

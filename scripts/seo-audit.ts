@@ -231,11 +231,18 @@ function main() {
       const key = `${locale}::${title.toLowerCase()}`;
       titles.set(key, [...(titles.get(key) ?? []), route]);
       if (title.length > MAX_TITLE) {
+        // An error rather than a warning, now that the corpus is clean.
+        // The fix is never to shorten the H1: set `metaTitle` in the
+        // page's frontmatter and let the editorial title stay as
+        // written. A rule that forced the H1 short would trade
+        // comprehension for a character count.
         issues.push({
-          severity: "warning",
+          severity: "error",
           rule: "title-length",
           where,
-          message: `title is ${title.length} characters — "${title.slice(0, 70)}…"`,
+          message:
+            `document title is ${title.length} characters — "${title.slice(0, 70)}…". ` +
+            `Set metaTitle in frontmatter rather than shortening the H1.`,
         });
       }
     }

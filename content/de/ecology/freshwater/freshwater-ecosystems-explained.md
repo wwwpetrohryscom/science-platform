@@ -1,5 +1,6 @@
 ---
 title: 'Süßwasserökosysteme: unter 0,01 % des Wassers, über 10 % der beschriebenen Arten'
+metaTitle: 'Süßwasser: 0,01 % des Wassers, 10 % der Arten'
 excerpt: Flüsse, Seen und Sümpfe halten weniger als ein Hundertstel Prozent des Wassers der Erde und benetzen wenige Prozent der Landfläche – und tragen dennoch mehr als ein Zehntel aller beschriebenen Arten. Dieses Missverhältnis prägt alles an ihnen.
 type: pillar
 author: oceans-freshwater-desk

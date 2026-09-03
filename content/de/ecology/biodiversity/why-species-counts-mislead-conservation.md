@@ -1,5 +1,6 @@
 ---
 title: Warum Artenzahlen die Priorisierung im Naturschutz in die Irre führen
+metaTitle: 'Warum Artenzahlen den Naturschutz in die Irre führen'
 excerpt: Der Artenreichtum ist die am leichtesten zu berechnende Biodiversitätsmetrik und die schlechteste Grundlage für Priorisierung. Funktionale und phylogenetische Diversität sagen die Leistung von Ökosystemen voraus – und sie widersprechen der Artenzahl häufig.
 type: pillar
 author: biodiversity-conservation-desk

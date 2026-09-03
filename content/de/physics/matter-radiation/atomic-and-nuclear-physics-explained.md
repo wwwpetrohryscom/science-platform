@@ -1,5 +1,6 @@
 ---
 title: 'Atome und Kerne: die eine Kurve hinter Spaltung und Fusion'
+metaTitle: 'Atome und Kerne: die Bindungsenergiekurve'
 excerpt: Ein Atom und der Kern in seinem Zentrum unterscheiden sich um vier Größenordnungen in der Größe und um sechs in der Energie. Dieser Abstand ist der Grund, weshalb sich Chemie und Kernphysik wie getrennte Fächer verhalten und weshalb eine einzige Bindungsenergiekurve sowohl Spaltung als auch Fusion regiert.
 type: pillar
 author: physics-energy-desk

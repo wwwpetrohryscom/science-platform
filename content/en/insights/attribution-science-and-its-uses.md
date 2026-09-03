@@ -1,5 +1,6 @@
 ---
 title: Event attribution answers a narrower question than the one it is usually quoted for
+metaTitle: 'What event attribution actually answers'
 excerpt: An attribution study estimates how much human influence changed the odds or the severity of a defined class of event. It cannot name the cause of one particular storm, and it cannot apportion the damage that followed.
 argument: Event attribution measures a change in probability or intensity for an event class that the analyst defines in advance. That supports statements about likelihood, not about the causation of a single event and not about who owes what for the losses — and the number itself moves with the definition and the framing chosen.
 category: ecology

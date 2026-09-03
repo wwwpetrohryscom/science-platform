@@ -1,6 +1,7 @@
 {
   "geoengineering-field-trials": {
     "title": "La recherche en géo-ingénierie doit-elle passer de la modélisation à des essais de terrain à petite échelle ?",
+    "metaTitle": "Géo-ingénierie : modélisation ou essais de terrain ?",
     "topic": "L'injection d'aérosols stratosphériques est passée du domaine spéculatif à celui d'un déploiement plausible d'ici une décennie. La question n'est plus de savoir si le procédé fonctionne dans les modèles : elle est de savoir si des expériences de terrain encadrées sont scientifiquement nécessaires ou politiquement téméraires.",
     "comments": {
       "c1": "Note de modération : des expériences de terrain sont parfois proposées parce que les modèles et les études de laboratoire ne peuvent pas reproduire entièrement le comportement des aérosols atmosphériques. Toute proposition de ce type appelle une gouvernance transparente avant d'être tenue pour scientifiquement ou politiquement acceptable.",
@@ -10,6 +11,7 @@
   },
   "communicating-attribution-uncertainty": {
     "title": "Comment communiquer l'incertitude des affirmations d'attribution climatique ?",
+    "metaTitle": "Communiquer l'incertitude en attribution climatique",
     "topic": "Les études d'attribution rapide paraissent désormais dans les jours qui suivent un événement extrême. Les méthodes sont solides ; la communication l'est inégalement. À quoi ressemble un cadrage responsable de l'attribution probabiliste pour un public non spécialiste ?",
     "comments": {
       "c1": "Note de modération : l'attribution d'événements estime généralement dans quelle mesure le réchauffement d'origine humaine modifie la probabilité ou l'intensité. Les explications destinées au public devraient éviter de laisser entendre qu'un événement a une cause unique et déterministe.",
@@ -19,6 +21,7 @@
   },
   "single-cell-data-standards": {
     "title": "Les normes de données en cellule unique suivent-elles le rythme de la science ?",
+    "metaTitle": "Normes de données pour le séquençage unicellulaire",
     "topic": "Le séquençage en cellule unique a fait franchir un palier de résolution à la biologie comparative. Les normes de données qui régissent le dépôt, l'annotation et la réanalyse de ces jeux de données, elles, ont pris du retard. Où le frottement se fait-il aujourd'hui le plus sentir ?",
     "comments": {
       "c1": "Note de modération : des normes dépourvues d'une application cohérente des métadonnées laissent des jeux de données difficiles à comparer d'une étude à l'autre. Les futures procédures des entrepôts et des revues devraient faire des métadonnées réutilisables une condition d'acceptation, et non un nettoyage facultatif.",
@@ -27,6 +30,7 @@
   },
   "what-counts-as-successful-restoration": {
     "title": "Qu'est-ce qui devrait compter comme une restauration d'écosystème réussie ?",
+    "metaTitle": "Qu'est-ce qu'une restauration réussie ?",
     "topic": "Les objectifs de restauration s'inscrivent de plus en plus dans les politiques publiques en unités de surface. La littérature écologique, elle, mesure le succès en structure et en fonction recouvrées, par rapport à un état de référence qu'il faut choisir. Ce ne sont pas les mêmes cibles, et un projet peut atteindre l'une en manquant l'autre.",
     "comments": {
       "c1": "Note de cadrage : le choix de l'état de référence détermine le verdict plus sûrement qu'aucune mesure. Un site jugé par rapport à son état antérieur à la perturbation, par rapport à un analogue non perturbé, puis par rapport à une cible fonctionnelle, peut être une réussite selon l'un de ces critères et un échec selon les autres. Ce choix est généralement fait une fois, tôt, et rarement réexaminé.",
@@ -35,6 +39,7 @@
   },
   "how-should-biodiversity-be-measured": {
     "title": "Quelle mesure de la biodiversité devrait guider les décisions publiques ?",
+    "metaTitle": "Quelle mesure de la biodiversité pour la décision ?",
     "topic": "Richesse spécifique, diversité fonctionnelle, diversité génétique, Indice Planète Vivante et couverture en aires protégées portent tous le nom de biodiversité. Ils classent différemment les lieux et les interventions, et le choix de la mesure est souvent dicté par la disponibilité des données plutôt que par la question posée.",
     "comments": {
       "c1": "Note de cadrage : les mesures divergent parce qu'elles répondent à des questions différentes. La richesse demande combien de types sont présents, la diversité fonctionnelle demande quelle gamme de rôles est couverte, et un indice d'abondance demande si les populations se maintiennent. Un site peut progresser sur l'une et régresser sur l'autre sans la moindre contradiction.",
@@ -43,6 +48,7 @@
   },
   "where-climate-model-uncertainty-matters-most": {
     "title": "Quelles incertitudes des modèles climatiques pèsent réellement sur les décisions ?",
+    "metaTitle": "Quelles incertitudes de modèle comptent pour décider",
     "topic": "L'incertitude des projections provient du choix de scénario, de la structure des modèles et de la variabilité interne, et leur poids relatif change avec l'horizon et l'échelle spatiale. Traiter ces trois sources comme une seule grandeur produit tantôt une fausse assurance, tantôt une fausse paralysie, selon celle qui domine le cas considéré.",
     "comments": {
       "c1": "Note de cadrage : la variabilité interne domine les projections régionales à court terme et ne peut être réduite par de meilleurs modèles, seulement encadrée par de plus grands ensembles. Le choix de scénario domine les projections mondiales de fin de siècle et ne constitue en rien une incertitude scientifique. L'exposition d'un décideur dépend entièrement du régime dans lequel se situe sa question.",
@@ -51,6 +57,7 @@
   },
   "limits-of-renewable-energy-storage": {
     "title": "Quelles sont les limites réalistes du stockage pour un réseau à forte part renouvelable ?",
+    "metaTitle": "Les limites réalistes du stockage sur le réseau",
     "topic": "Les estimations publiées du stockage dont a besoin un système à forte part renouvelable varient d'un ordre de grandeur. L'écart tient moins à la chimie des batteries qu'aux hypothèses retenues sur le transport de l'électricité, la flexibilité de la demande et la fraction de l'année pendant laquelle le système doit tenir sans production.",
     "comments": {
       "c1": "Note de cadrage : le stockage diurne et le stockage saisonnier sont deux problèmes d'ingénierie distincts. Une technologie optimisée pour un cycle quotidien avec un rendement aller-retour élevé est un mauvais choix pour un stock que l'on ne remplit qu'une fois par an, et c'est alors le coût par unité d'énergie, et non par unité de puissance, qui devient la métrique contraignante.",
@@ -59,6 +66,7 @@
   },
   "how-should-soil-carbon-be-credited": {
     "title": "La variation du carbone du sol peut-elle être mesurée assez bien pour être créditée ?",
+    "metaTitle": "Le carbone du sol peut-il être crédité ?",
     "topic": "Les marchés du carbone du sol délivrent des crédits pour des variations qui se situent près de la limite de détection d'un échantillonnage réalisable, et parfois en dessous. La réponse a consisté à modéliser plutôt qu'à mesurer — ce qui déplace le problème de vérification au lieu de le résoudre.",
     "comments": {
       "c1": "Note de cadrage : le problème de détection est arithmétique avant d'être agronomique. La variation annuelle sous gestion améliorée est faible au regard du stock et de la variance spatiale à l'intérieur d'une même parcelle, et la taille d'échantillon nécessaire pour la détecter avec une confiance utile augmente d'autant.",

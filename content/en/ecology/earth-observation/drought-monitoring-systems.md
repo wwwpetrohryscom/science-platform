@@ -1,5 +1,6 @@
 ---
 title: 'Drought monitoring systems: measuring water deficit from the ground and space'
+metaTitle: 'Drought monitoring: measuring water deficit from space'
 excerpt: Drought is monitored with a combination of climate indices and satellite measurements of rain, soil moisture, vegetation, and groundwater. This explains the main drought indices, the satellite inputs, the operational observatories, and why no single number defines a drought.
 type: expert
 author: climate-research-desk

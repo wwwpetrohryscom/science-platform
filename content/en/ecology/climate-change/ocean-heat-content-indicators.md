@@ -1,5 +1,6 @@
 ---
 title: 'Ocean heat content: the climate indicator the atmosphere can''t hide'
+metaTitle: 'Ocean heat content as a climate indicator'
 excerpt: Surface air temperature is noisy. The ocean is not. What ocean heat content measures, and why it is treated as the most stable indicator of climate-system warming.
 type: expert
 author: climate-research-desk

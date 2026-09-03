@@ -1,5 +1,6 @@
 ---
 title: 'Entropy: what the quantity measures, and where the analogies break'
+metaTitle: 'Entropy: what it measures, and where analogies break'
 excerpt: Entropy was defined as a ratio of heat to temperature before anyone knew what it counted. The statistical reading came later and connects to the first through a constant the SI now fixes exactly.
 type: expert
 author: physics-energy-desk

@@ -57,6 +57,12 @@ export type Discussion = {
   /* Resolved at read time by `getDiscussion(s)` — see Localization. */
   /** Locale this record was requested for. */
   locale?: Locale;
+  /**
+   * Shorter title for the document head. A discussion's title is the
+   * question being argued, and a question cut in half is no longer the
+   * question — so the H1 keeps it and this names the subject instead.
+   */
+  metaTitle?: string;
   /** Locale the text actually came from. */
   sourceLocale?: Locale;
   /** True when the requested translation is missing and EN was served. */
@@ -68,6 +74,7 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     slug: "geoengineering-field-trials",
     title:
       "Should geoengineering research move from modelling to small-scale field trials?",
+    metaTitle: "Geoengineering: modelling or field trials?",
     category: "physics",
     topic:
       "Stratospheric aerosol injection has moved from speculative to plausibly deployable within a decade. The question is no longer whether it works in models — it is whether constrained field experiments are scientifically necessary or politically reckless.",
@@ -108,6 +115,7 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
     slug: "communicating-attribution-uncertainty",
     title:
       "How should we communicate uncertainty in climate-attribution claims?",
+    metaTitle: "Communicating uncertainty in climate attribution",
     category: "ecology",
     topic:
       "Rapid attribution studies now publish within days of an extreme event. The methods are sound; the communication is uneven. What does responsible framing of probabilistic attribution look like for non-specialist audiences?",
@@ -241,6 +249,7 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
   {
     slug: "where-climate-model-uncertainty-matters-most",
     title: "Which climate-model uncertainties are consequential for decisions?",
+    metaTitle: "Which model uncertainties matter for decisions",
     category: "ecology",
     topic:
       "Projection uncertainty comes from scenario choice, model structure, and internal variability, and their relative weight changes with lead time and spatial scale. Treating all three as one quantity produces both false confidence and false paralysis, depending on which dominates the case at hand.",
@@ -272,6 +281,7 @@ const raw: Array<Omit<Discussion, "moderator"> & { moderatorId: string }> = [
   {
     slug: "limits-of-renewable-energy-storage",
     title: "What are the realistic limits of storage for a high-renewable grid?",
+    metaTitle: "The realistic limits of grid storage",
     category: "physics",
     topic:
       "Published estimates of the storage a high-renewable system needs vary by an order of magnitude. The spread comes less from battery chemistry than from assumptions about transmission, demand flexibility, and how much of the year the system must ride through without generation.",
@@ -387,6 +397,8 @@ const discussions: Discussion[] = raw.map((d) => ({
 
 export type DiscussionTranslation = {
   title: string;
+  /** Shorter form for the document head; the title stays the question. */
+  metaTitle?: string;
   topic: string;
   /** Note bodies keyed by comment id. Ids not present keep the English. */
   comments?: Record<string, string>;
@@ -439,6 +451,7 @@ function localize(d: Discussion, locale: Locale): Discussion {
     sourceLocale: locale,
     localeFallback: false,
     title: t.title,
+    metaTitle: t.metaTitle ?? undefined,
     topic: t.topic,
     comments: d.comments.map((c) => ({
       ...c,

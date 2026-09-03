@@ -1,5 +1,6 @@
 ---
 title: Porque é que as contagens de espécies enganam a priorização em conservação
+metaTitle: 'Porque a contagem de espécies engana a conservação'
 excerpt: A riqueza específica é a métrica de biodiversidade mais fácil de calcular e a pior para definir prioridades. Quem prevê o desempenho dos ecossistemas é a diversidade funcional e filogenética — e essa discorda muitas vezes da contagem de espécies.
 type: pillar
 author: biodiversity-conservation-desk

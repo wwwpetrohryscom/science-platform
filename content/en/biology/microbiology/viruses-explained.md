@@ -1,5 +1,6 @@
 ---
 title: 'Viruses: replication strategies and the question of whether they are alive'
+metaTitle: 'Viruses: replication strategies, and whether they are alive'
 excerpt: Every virus faces the same problem — producing messenger RNA a host ribosome will read. The seven routes to that outcome organise virology better than shape or host does, and they explain why some viruses evolve past a vaccine and others do not.
 type: expert
 author: microbiology-genomics-desk

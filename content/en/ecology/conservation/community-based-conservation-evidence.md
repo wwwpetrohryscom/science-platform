@@ -1,5 +1,6 @@
 ---
 title: 'Community and Indigenous-managed lands: what outcome studies can and cannot attribute'
+metaTitle: 'Community and Indigenous-managed lands: the outcome evidence'
 excerpt: Land under community or Indigenous management is never randomly located, so simple comparisons overstate what management achieved. Matched designs shrink the estimates without erasing them.
 type: expert
 author: biodiversity-conservation-desk

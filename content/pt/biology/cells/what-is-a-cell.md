@@ -1,5 +1,6 @@
 ---
 title: O que é uma célula? A unidade da vida, definida operacionalmente
+metaTitle: 'O que é uma célula? Uma definição operacional'
 excerpt: Uma célula é a mais pequena unidade capaz de se manter, de se copiar e de responder ao seu ambiente. Cada um destes requisitos exclui aquilo que «célula» não significa — e explica por que motivo os casos limite são interessantes.
 type: pillar
 author: biology-ecosystems-desk

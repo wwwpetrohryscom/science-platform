@@ -1,5 +1,6 @@
 ---
 title: 'Ecosystem services: how the framework changed environmental decision-making'
+metaTitle: 'Ecosystem services and environmental decision-making'
 excerpt: The phrase ecosystem services entered policy in the early 2000s. Two decades later, it has reshaped how environmental decisions get made — and where its blind spots are.
 type: expert
 author: environmental-science-desk

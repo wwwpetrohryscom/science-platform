@@ -11,7 +11,7 @@
   "_review_note": "Scientific descriptions translated by AI. A native French scientific editor must review the keys listed in _review before this bundle is used in production.",
   "site": {
     "name": "EcoScienceHub",
-    "tagline": "Écriture scientifique sur l'écologie, la biologie et la physique appliquée",
+    "tagline": "Écriture scientifique : écologie, biologie, physique",
     "description": "Articles indépendants et scientifiquement rigoureux sur l'écologie, la biologie et la physique appliquée. Conçus pour être lus lentement et cités avec soin."
   },
   "nav": {
@@ -144,7 +144,7 @@
     }
   },
   "home": {
-    "meta_title": "Écriture scientifique sur l'écologie, la biologie et la physique appliquée",
+    "meta_title": "Écriture scientifique : écologie, biologie, physique",
     "hero_eyebrow": "Une plateforme de lecture scientifique",
     "hero_title": "Une écriture lente et rigoureuse sur les systèmes qui nous soutiennent.",
     "hero_lede": "EcoScienceHub est une plateforme dédiée à l'écologie, à la biologie et à la physique appliquée — rédigée par des scientifiques en activité, éditée pour la clarté et citée là où cela compte. Conçue pour être lue lentement.",

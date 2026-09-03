@@ -1,5 +1,6 @@
 ---
 title: 'Átomos e núcleos: a única curva por detrás da fissão e da fusão'
+metaTitle: 'Átomos e núcleos: a curva de energia de ligação'
 excerpt: Um átomo e o núcleo no seu centro diferem em quatro ordens de grandeza no tamanho e em seis na energia. Essa distância explica por que a química e a física nuclear se comportam como assuntos separados, e por que uma só curva de energia de ligação governa tanto a fissão como a fusão.
 type: pillar
 author: physics-energy-desk

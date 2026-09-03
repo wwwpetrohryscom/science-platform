@@ -1,5 +1,6 @@
 ---
 title: 'Mikrobiologie: die Organismen, die die Chemie des Planeten betreiben'
+metaTitle: 'Mikrobiologie: die Organismen hinter der Chemie der Erde'
 excerpt: Allein Bakterien enthalten rund 70 Gigatonnen Kohlenstoff, größtenteils im tiefen Untergrund, und Mikroben führen Reaktionen aus, die keine Pflanze und kein Tier beherrscht. Diese Seite legt dar, was gezählt wurde, was erschlossen ist und wo die Zahlen des Fachs unsicher bleiben.
 type: pillar
 author: microbiology-genomics-desk

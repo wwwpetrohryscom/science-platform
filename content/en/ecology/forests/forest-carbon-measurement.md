@@ -1,5 +1,6 @@
 ---
 title: 'Measuring forest carbon: allometry, plots, lidar, and the error budget'
+metaTitle: 'Measuring forest carbon: allometry, plots, lidar and error'
 excerpt: Nobody weighs a forest. Every published forest-carbon figure is the output of a chain of substitutions running from a tape measure to a global total, and the largest pool in that total is the one measured worst.
 type: expert
 author: environmental-science-desk

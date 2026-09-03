@@ -1,5 +1,6 @@
 ---
 title: 'Carbon-cycle feedbacks: why ocean and land sinks are not guaranteed to keep absorbing'
+metaTitle: 'Carbon-cycle feedbacks and the future of the sinks'
 excerpt: Land and ocean absorb roughly half of human carbon emissions today. Whether they keep doing so is among the largest uncertainties in long-term climate projection.
 type: expert
 author: climate-research-desk

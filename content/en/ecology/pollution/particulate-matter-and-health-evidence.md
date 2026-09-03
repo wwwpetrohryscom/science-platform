@@ -1,5 +1,6 @@
 ---
 title: 'Particulate matter: the strongest environmental-health evidence base, and its limits'
+metaTitle: 'Particulate matter and health: the evidence and its limits'
 excerpt: Fine particles are defined by size rather than composition, and the cohort evidence linking them to mortality is the most replicated in environmental epidemiology. What remains unresolved is the shape of the curve at low concentrations.
 type: expert
 author: public-health-environment-desk

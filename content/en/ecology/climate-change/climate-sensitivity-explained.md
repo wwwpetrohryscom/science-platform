@@ -1,5 +1,6 @@
 ---
 title: 'Climate sensitivity: what ECS and TCR measure, and how AR6 narrowed the range'
+metaTitle: 'Climate sensitivity: what ECS and TCR measure'
 excerpt: Equilibrium climate sensitivity and the transient climate response answer different questions about the same system. This is what each holds fixed, how four lines of evidence were combined, and why the thermometer record alone reads low.
 type: expert
 author: climate-research-desk

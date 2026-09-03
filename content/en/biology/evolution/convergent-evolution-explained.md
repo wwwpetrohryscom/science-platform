@@ -1,5 +1,6 @@
 ---
 title: 'Convergent evolution: what repeated solutions do and do not tell us'
+metaTitle: 'Convergent evolution: what repeated solutions can show'
 excerpt: Unrelated lineages arrive at similar traits often enough that convergence is used as evidence of adaptation and as a guide to causal mutations. It is also generated in quantity by chance, which makes the null model the hard part.
 type: expert
 author: biology-ecosystems-desk

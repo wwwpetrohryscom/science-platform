@@ -1,5 +1,6 @@
 ---
 title: 'Work, energy and power: the definitions that most confusion comes from'
+metaTitle: 'Work, energy and power: the definitions that get confused'
 excerpt: Almost every argument about energy is really a disagreement about definitions. Work is a path integral, power is a rate, and only some of the familiar unit conversions are exact — the rest are empirical averages that are revised each year.
 type: expert
 author: physics-energy-desk

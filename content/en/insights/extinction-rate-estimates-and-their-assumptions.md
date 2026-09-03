@@ -1,5 +1,6 @@
 ---
 title: Every extinction-rate number is a model, and the models disagree about what they are counting
+metaTitle: 'Extinction-rate estimates and their assumptions'
 excerpt: The claim that species are disappearing hundreds or thousands of times faster than normal is a ratio between two model outputs built from different taxa, different data types and different timescales. It inherits every assumption in both.
 argument: A current-versus-background extinction ratio compares a vertebrate-dominated, species-level, five-century record against a fossil record dominated by hard-bodied marine taxa, often resolved only to genus and averaged over millions of years. The comparison is still informative about direction and order of magnitude, and it is much weaker than the precision of the quoted numbers implies.
 category: ecology

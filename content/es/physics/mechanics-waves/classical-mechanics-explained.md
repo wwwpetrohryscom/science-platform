@@ -1,5 +1,6 @@
 ---
 title: 'Mecánica clásica: el marco que sigue describiendo la mayor parte del mundo'
+metaTitle: 'Mecánica clásica: el marco y sus límites'
 excerpt: Las leyes de Newton son menos un conjunto de hechos sobre los objetos que un contrato sobre sistemas de referencia y leyes de fuerza. Esta página enuncia ese contrato con cuidado, muestra por qué los principios de conservación resultaron más profundos y marca los bordes del dominio.
 type: pillar
 author: physics-energy-desk

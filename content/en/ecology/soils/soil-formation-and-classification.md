@@ -1,5 +1,6 @@
 ---
 title: How a soil profile forms, and why two classification systems both survive
+metaTitle: 'Soil formation and the two classification systems'
 excerpt: Weathering, translocation and organic accumulation leave layers that pedologists read as a record of process. Naming those layers is a second problem, and the two dominant systems persist because they were built to answer different questions.
 type: expert
 author: soil-land-systems-desk

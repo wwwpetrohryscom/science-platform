@@ -1,5 +1,6 @@
 ---
 title: What is DNA? The molecule, the code, and what it doesn't determine
+metaTitle: 'What is DNA? The molecule, the code, and its limits'
 excerpt: DNA is a four-letter molecular code that stores the information needed to build and run a cell. Understanding what it does — and the equally important things it does not do — is the foundation of modern biology.
 type: pillar
 author: biology-ecosystems-desk

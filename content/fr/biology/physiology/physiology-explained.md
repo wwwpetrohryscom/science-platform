@@ -1,5 +1,6 @@
 ---
 title: 'Physiologie : comment les organismes maintiennent des conditions stables quand tout change'
+metaTitle: 'Physiologie : maintenir des conditions stables'
 excerpt: La régulation n'est pas un thermostat. Ce pilier expose ce qu'est une variable régulée, pourquoi le point de consigne est une commodité de modélisation plutôt qu'un nombre présent dans le corps, et comment la taille et l'espèce décident du dispositif qu'un organisme peut se permettre.
 type: pillar
 author: biology-life-sciences-desk

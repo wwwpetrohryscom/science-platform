@@ -1,5 +1,6 @@
 ---
 title: The soil-carbon signal is smaller than the sampling noise in a single field
+metaTitle: 'Soil-carbon crediting meets the detection limit'
 excerpt: Management adds carbon to farmland at roughly 0.2 to 0.8 tonnes per hectare a year, against a stock near 60 to 90 tonnes and a resampling error of 5 to 8. That ratio decides what a soil credit can honestly certify.
 argument: At the scale a soil-carbon credit is issued — one field, one five-year interval — the change under improved management is smaller than the error introduced by resampling the same plot. The detection problem is real but not permanent, and the only demonstrated route past it is pooling thousands of fields, which changes what an individual credit means.
 category: ecology

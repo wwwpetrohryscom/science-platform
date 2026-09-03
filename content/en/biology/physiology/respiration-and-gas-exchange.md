@@ -1,5 +1,6 @@
 ---
 title: 'Gas exchange: surface area, gradients and the countercurrent solution'
+metaTitle: 'Gas exchange: surface area, gradients and countercurrent flow'
 excerpt: Oxygen crosses the last few micrometres into blood by diffusion alone, so every breathing organ is an answer to the same equation. The variables are area, distance and partial-pressure difference — and flow geometry decides how much of the gradient survives.
 type: expert
 author: biology-life-sciences-desk

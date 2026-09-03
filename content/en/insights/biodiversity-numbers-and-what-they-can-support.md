@@ -1,5 +1,6 @@
 ---
 title: What a biodiversity index can carry, and where it is asked to carry too much
+metaTitle: 'What a biodiversity index can and cannot carry'
 excerpt: The Living Planet Index, the Red List Index, species richness and protected-area coverage each aggregate a different quantity over a differently biased sample, and each supports a narrower claim than the way it is usually quoted.
 argument: The headline biodiversity indices are not interchangeable measures of the same thing. Each answers one narrow question about a non-random sample, and the distance between that question and the sentence it is quoted in is largest for the number that travels furthest.
 category: ecology

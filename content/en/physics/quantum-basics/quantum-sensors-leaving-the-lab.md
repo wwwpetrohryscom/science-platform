@@ -1,5 +1,6 @@
 ---
 title: Quantum sensors are leaving the lab. Here's what changes when they do.
+metaTitle: 'Quantum sensors are leaving the laboratory'
 excerpt: Quantum sensors — atomic clocks, gravimeters, magnetometers — have moved from precision-physics curiosities to deployable instruments. The applications opened by the move are not the ones popular coverage emphasizes.
 type: expert
 author: energy-systems-desk

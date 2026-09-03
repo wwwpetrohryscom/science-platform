@@ -1,5 +1,6 @@
 ---
 title: How a fish stock assessment is built, and why two assessments of the same ocean disagree
+metaTitle: 'Fish stock assessment: how it is built, and why it varies'
 excerpt: A stock assessment is a fitted model, not a census. This page follows the three data streams it runs on, the reference points it produces, the stocks nobody assesses at all, and why two analyses of the same database reached opposite conclusions.
 type: expert
 author: oceans-freshwater-desk

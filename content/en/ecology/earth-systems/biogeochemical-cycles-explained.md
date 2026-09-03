@@ -1,5 +1,6 @@
 ---
 title: 'Biogeochemical cycles: reservoirs, fluxes, and the arithmetic that makes them comparable'
+metaTitle: 'Biogeochemical cycles: reservoirs, fluxes and comparison'
 excerpt: Carbon, water, and nitrogen move through the planet on wildly different schedules. One ratio — reservoir divided by flux — explains most of the difference.
 type: expert
 author: earth-systems-desk

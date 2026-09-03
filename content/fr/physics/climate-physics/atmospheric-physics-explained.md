@@ -1,5 +1,6 @@
 ---
 title: 'Physique de l''atmosphère : la machine qui transporte l''énergie de l''équateur au pôle'
+metaTitle: 'Physique de l''atmosphère : l''énergie vers les pôles'
 excerpt: L'atmosphère porte environ dix tonnes d'air au-dessus de chaque mètre carré et son transport d'énergie vers les pôles culmine près de cinq pétawatts. Cette page expose la composition, la structure verticale, le bilan énergétique et la mécanique de transport sur lesquels repose le reste du sujet.
 type: pillar
 author: physics-energy-desk

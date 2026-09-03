@@ -1,5 +1,6 @@
 ---
 title: 'Heat engines: the Carnot ceiling and where the missing efficiency goes'
+metaTitle: 'Heat engines: the Carnot ceiling and the losses below it'
 excerpt: A coal steam plant converts about a third of its fuel energy to electricity against a reversible ceiling near two thirds. The gap is mostly deliberate, and the reasons are temperature limits, finite-rate operation and where the accounting boundary is drawn.
 type: expert
 author: energy-systems-desk

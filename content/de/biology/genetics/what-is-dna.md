@@ -1,5 +1,6 @@
 ---
 title: Was ist DNA? Das Molekül, der Code und was die DNA nicht bestimmt
+metaTitle: 'Was ist DNA? Molekül, Code und Grenzen'
 excerpt: Die DNA ist ein molekularer Code aus vier Buchstaben, der die Information speichert, um eine Zelle zu bauen und zu betreiben. Zu verstehen, was sie leistet – und die ebenso wichtigen Dinge, die sie nicht leistet –, ist das Fundament der modernen Biologie.
 type: pillar
 author: biology-ecosystems-desk

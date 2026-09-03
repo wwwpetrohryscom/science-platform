@@ -1,5 +1,6 @@
 ---
 title: 'Rewilding: one word, three research programmes, and an uneven evidence base'
+metaTitle: 'Rewilding: three research programmes, one uneven evidence base'
 excerpt: Trophic, passive and Pleistocene rewilding share a name but not a method, a reference state or a literature. Separating them is what makes the evidence, and the gaps in it, legible.
 type: expert
 author: biodiversity-conservation-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Persistent organic pollutants: the four screening tests that put a chemical on a treaty list'
+metaTitle: 'Persistent organic pollutants: the four screening tests'
 excerpt: A persistent organic pollutant is defined by four measurable properties written into treaty text, not by chemical family. Those tests explain Arctic contamination, and they are also where PFAS strain the definition.
 type: expert
 author: public-health-environment-desk

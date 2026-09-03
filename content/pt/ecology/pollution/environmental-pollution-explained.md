@@ -1,5 +1,6 @@
 ---
 title: 'Poluição: fonte, via e recetor — o quadro que organiza a evidência'
+metaTitle: 'Poluição: fonte, via de exposição, recetor'
 excerpt: Uma substância só se torna poluição quando uma fonte, uma via e um recetor se alinham. Essa tríade, e o passo dose–resposta que está no seu centro, explica porque é que os limites ambientais diferem entre países sem que a ciência subjacente difira.
 type: pillar
 author: public-health-environment-desk

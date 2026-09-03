@@ -1,5 +1,6 @@
 ---
 title: 'Ionising radiation and risk: what the epidemiology can and cannot settle'
+metaTitle: 'Ionising radiation: what the epidemiology settles'
 excerpt: Above a few hundred millisieverts the health effects of ionising radiation are directly observed. Below that, estimates come from extrapolation — and the shape of that extrapolation is a live scientific argument with real consequences.
 type: expert
 author: physics-energy-desk

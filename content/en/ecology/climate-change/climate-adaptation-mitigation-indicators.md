@@ -1,5 +1,6 @@
 ---
 title: 'Adaptation and mitigation indicators: tracking action alongside climate state'
+metaTitle: 'Adaptation and mitigation indicators'
 excerpt: Indicators of adaptation progress and mitigation effort are reported separately from physical-climate indicators, and they have different methodological constraints. Here is what each one measures.
 type: expert
 author: climate-research-desk

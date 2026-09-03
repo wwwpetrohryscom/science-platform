@@ -1,5 +1,6 @@
 ---
 title: 'Mecánica cuántica: las reglas de trabajo, sin la filosofía'
+metaTitle: 'Mecánica cuántica: las reglas de trabajo'
 excerpt: La teoría cuántica fija constantes físicas con diez cifras significativas mientras su interpretación sigue abierta. Esta página expone las reglas de trabajo — amplitudes, observables, cuantización, indeterminación, estadística de espín, decoherencia — y señala dónde están las lagunas reales.
 type: pillar
 author: physics-energy-desk

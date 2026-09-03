@@ -1,5 +1,6 @@
 ---
 title: 'Climate models and projections: where the uncertainty actually comes from'
+metaTitle: 'Climate models: where the projection uncertainty comes from'
 excerpt: A projection range is not a forecast with error bars. It combines scenario, model-structural, and internal-variability uncertainty, and the shares shift over time.
 type: expert
 author: climate-research-desk

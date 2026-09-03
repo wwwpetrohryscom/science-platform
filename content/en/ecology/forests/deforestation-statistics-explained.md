@@ -1,5 +1,6 @@
 ---
 title: 'Deforestation statistics: why credible sources report different numbers'
+metaTitle: 'Deforestation statistics: why the numbers differ'
 excerpt: Country reporting and satellite tree-cover products measure different quantities under the same headline word. This explains what each one counts, why neither is the more accurate of the two, and how to read a deforestation figure without over-reading it.
 type: expert
 author: environmental-science-desk

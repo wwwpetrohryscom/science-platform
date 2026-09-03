@@ -1,5 +1,6 @@
 ---
 title: 'Groundwater: how depletion is measured, and why the methods disagree'
+metaTitle: 'Groundwater depletion: how it is measured'
 excerpt: Groundwater holds most of the planet's liquid fresh water, yet its condition can only be inferred. Wells, satellite gravimetry and hydrological models each measure something different, and the gaps between them explain most published disagreements.
 type: expert
 author: oceans-freshwater-desk

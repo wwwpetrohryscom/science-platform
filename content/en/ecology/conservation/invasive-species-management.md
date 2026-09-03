@@ -1,5 +1,6 @@
 ---
 title: 'Invasive species: which management interventions have evidence behind them'
+metaTitle: 'Invasive species management: which methods have evidence'
 excerpt: Most introduced organisms never become invasive, and the cleanest effectiveness evidence comes from island eradications. This page separates what the intervention record supports from what the global cost figures can carry.
 type: expert
 author: biodiversity-conservation-desk

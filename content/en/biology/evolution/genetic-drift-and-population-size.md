@@ -1,5 +1,6 @@
 ---
 title: 'Genetic drift: why population size decides whether selection matters'
+metaTitle: 'Genetic drift and effective population size'
 excerpt: Drift is the allele-frequency change that comes from finite sampling alone. Because its strength scales inversely with effective population size, that one parameter decides which selection coefficients are visible to evolution and which are invisible.
 type: expert
 author: biology-ecosystems-desk

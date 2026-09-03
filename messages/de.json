@@ -11,7 +11,7 @@
   "_review_note": "Scientific descriptions translated by AI. A native German scientific editor must review the keys listed in _review before this bundle is used in production.",
   "site": {
     "name": "EcoScienceHub",
-    "tagline": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
+    "tagline": "Fundierte Texte zu Ökologie, Biologie und Physik",
     "description": "Unabhängige, wissenschaftlich fundierte Texte zu Ökologie, Biologie und angewandter Physik. Geschrieben, um langsam gelesen und sorgfältig zitiert zu werden."
   },
   "nav": {
@@ -144,7 +144,7 @@
     }
   },
   "home": {
-    "meta_title": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
+    "meta_title": "Fundierte Texte zu Ökologie, Biologie und Physik",
     "hero_eyebrow": "Eine wissenschaftliche Lese-Plattform",
     "hero_title": "Langsame, sorgfältige Texte über die Systeme, die uns tragen.",
     "hero_lede": "EcoScienceHub ist eine Plattform für Ökologie, Biologie und angewandte Physik — geschrieben von tätigen Wissenschaftlerinnen und Wissenschaftlern, redaktionell auf Klarheit getrimmt und dort zitiert, wo es zählt. Geschaffen, um langsam gelesen zu werden.",

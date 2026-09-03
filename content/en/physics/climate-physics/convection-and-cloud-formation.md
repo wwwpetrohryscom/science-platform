@@ -1,5 +1,6 @@
 ---
 title: 'Cloud physics: from a condensation nucleus to the widest uncertainty in climate sensitivity'
+metaTitle: 'Cloud physics and the largest climate-sensitivity uncertainty'
 excerpt: Clouds cool the present-day planet by roughly 20 W/m², and their response to warming is still the largest single source of spread in climate sensitivity. Those two statements are not in tension, and understanding why is most of the subject.
 type: expert
 author: physics-energy-desk

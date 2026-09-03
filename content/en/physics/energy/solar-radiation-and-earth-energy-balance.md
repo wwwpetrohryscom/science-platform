@@ -1,5 +1,6 @@
 ---
 title: 'Solar radiation and Earth''s energy balance: the physics behind the climate'
+metaTitle: 'Solar radiation and Earth''s energy balance'
 excerpt: The Earth absorbs a specific amount of energy from the Sun and radiates a specific amount back to space. The accounting between the two is the foundation of climate physics.
 type: expert
 author: energy-systems-desk

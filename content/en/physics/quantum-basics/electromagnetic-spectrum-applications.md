@@ -1,5 +1,6 @@
 ---
 title: 'The electromagnetic spectrum: one phenomenon, many windows on the universe'
+metaTitle: 'The electromagnetic spectrum and its windows'
 excerpt: Radio waves, visible light, X-rays, and gamma rays are not different phenomena. They are the same phenomenon at different wavelengths — and the wavelength determines what the radiation can do.
 type: expert
 author: energy-systems-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Evolution: die Mechanismen, die Belege und die offen gebliebenen Fragen'
+metaTitle: 'Evolution: vier Mechanismen und die Belege'
 excerpt: Evolution ist eine Veränderung der genetischen Zusammensetzung von Populationen, und sie wird von vier Prozessen getragen, nicht von einem. Diese Seite stellt die Mechanismen dar, die unabhängigen Belege für gemeinsame Abstammung und worum die laufenden Debatten tatsächlich gehen.
 type: pillar
 author: biology-ecosystems-desk

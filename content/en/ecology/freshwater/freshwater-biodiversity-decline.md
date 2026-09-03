@@ -1,5 +1,6 @@
 ---
 title: 'Freshwater biodiversity decline: what the abundance indices measure and how far they carry'
+metaTitle: 'Freshwater biodiversity decline: what the indices measure'
 excerpt: The freshwater Living Planet Index reports the steepest decline of any realm, and it is also the index whose value depends most visibly on analytical choices. This page separates what the data show from what the summary statistic asserts.
 type: expert
 author: biodiversity-conservation-desk

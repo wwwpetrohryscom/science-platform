@@ -1,5 +1,6 @@
 ---
 title: 'Atmosphärenphysik: die Maschine, die Energie vom Äquator zum Pol trägt'
+metaTitle: 'Atmosphärenphysik: Energie zu den Polen'
 excerpt: Die Atmosphäre trägt etwa zehn Tonnen Luft über jedem Quadratmeter, und ihr polwärtiger Energietransport erreicht nahe fünf Petawatt. Diese Seite legt Zusammensetzung, vertikalen Aufbau, Energiebilanz und Transportmechanik dar, auf denen der Rest des Fachs ruht.
 type: pillar
 author: physics-energy-desk

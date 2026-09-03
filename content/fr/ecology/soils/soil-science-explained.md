@@ -1,5 +1,6 @@
 ---
 title: 'Le sol : la ressource la plus lente à se former, dont dépend l''essentiel de la vie terrestre'
+metaTitle: 'Le sol : la ressource qui se forme le plus lentement'
 excerpt: Le sol est un système à quatre phases organisé en horizons, qui se forme à une vitesse médiane voisine de 0,15 tonne par hectare et par an. Cette vitesse, et la difficulté de mesurer ce que le sol contient, façonnent tous les débats à son sujet.
 type: pillar
 author: soil-land-systems-desk

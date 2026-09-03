@@ -1,5 +1,6 @@
 ---
 title: 'Land-cover change detection: mapping how the surface changes over time'
+metaTitle: 'Land-cover change detection from satellite imagery'
 excerpt: Comparing satellite images from different dates is how large-scale land change is measured. This explains the difference between land cover and land use, the main change-detection methods, the global products, and the errors that have to be controlled.
 type: expert
 author: climate-research-desk

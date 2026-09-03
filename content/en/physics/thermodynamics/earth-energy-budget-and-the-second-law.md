@@ -1,5 +1,6 @@
 ---
 title: 'Earth''s climate is a heat engine: thermodynamics and the planetary energy budget'
+metaTitle: 'Earth''s climate as a heat engine'
 excerpt: A planet receives concentrated radiation from a hot source, redistributes it, and emits it back to space at a colder temperature. This is a heat engine. The thermodynamics is what bounds the climate.
 type: expert
 author: energy-systems-desk

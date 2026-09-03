@@ -1,5 +1,6 @@
 ---
 title: 'Boden: die am langsamsten entstehende Ressource, von der der größte Teil des Landlebens abhängt'
+metaTitle: 'Boden: die am langsamsten entstehende Ressource'
 excerpt: Boden ist ein Vierphasensystem, in Horizonte gegliedert, das mit einer medianen Rate von etwa 0,15 Tonnen je Hektar und Jahr neu entsteht. Diese Rate und die Schwierigkeit, seine Vorräte zu messen, prägen jede Auseinandersetzung über ihn.
 type: pillar
 author: soil-land-systems-desk

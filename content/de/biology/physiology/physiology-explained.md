@@ -1,5 +1,6 @@
 ---
 title: 'Physiologie: wie Organismen Bedingungen stabil halten, während sich alles ändert'
+metaTitle: 'Physiologie: Bedingungen stabil halten'
 excerpt: Regulation ist kein Thermostat. Dieser Pfeilertext legt dar, was eine regulierte Größe ist, warum der Sollwert eine Modellierungshilfe und keine Zahl im Körper ist, und wie Größe und Art darüber entscheiden, welche Bauweise sich ein Organismus leisten kann.
 type: pillar
 author: biology-life-sciences-desk

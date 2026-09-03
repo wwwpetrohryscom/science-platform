@@ -1,5 +1,6 @@
 ---
 title: 'Fisiología: cómo los organismos mantienen condiciones estables mientras todo cambia'
+metaTitle: 'Fisiología: mantener condiciones estables'
 excerpt: La regulación no es un termostato. Este pilar expone qué es una variable regulada, por qué el punto de consigna es una comodidad de modelado y no un número presente en el cuerpo, y cómo el tamaño y la especie deciden qué diseño puede permitirse un organismo.
 type: pillar
 author: biology-life-sciences-desk

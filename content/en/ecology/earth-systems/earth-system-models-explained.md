@@ -1,5 +1,6 @@
 ---
 title: 'Earth system models: what gets added when a climate model becomes an ESM'
+metaTitle: 'Earth system models: what an ESM adds to a climate model'
 excerpt: An Earth system model is a coupled climate model with the biogeochemistry made interactive. That one change alters what it can be asked, and where it goes wrong.
 type: expert
 author: earth-systems-desk

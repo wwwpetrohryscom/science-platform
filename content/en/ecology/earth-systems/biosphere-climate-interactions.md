@@ -1,5 +1,6 @@
 ---
 title: 'Biosphere–climate interactions: when vegetation cools the ground and warms the planet'
+metaTitle: 'Biosphere–climate interactions: cooling and warming effects'
 excerpt: Plants affect climate through carbon, water, and reflectivity at once, and the three effects do not always point the same way. That is why afforestation arithmetic is regional.
 type: expert
 author: earth-systems-desk

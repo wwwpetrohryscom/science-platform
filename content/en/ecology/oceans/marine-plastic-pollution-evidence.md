@@ -1,5 +1,6 @@
 ---
 title: 'The marine plastic budget: inputs, surface stocks, and the mass that appeared to go missing'
+metaTitle: 'The marine plastic budget: inputs, stocks and missing mass'
 excerpt: For a decade the estimated flow of plastic into the sea exceeded the mass measured floating on it by one to two orders of magnitude. Tracing how that discrepancy was investigated is the clearest route into what marine debris research can and cannot measure.
 type: expert
 author: oceans-freshwater-desk

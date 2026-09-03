@@ -1,5 +1,6 @@
 ---
 title: Single-cell sequencing is rewriting evolutionary developmental biology
+metaTitle: 'Single-cell sequencing and evolutionary developmental biology'
 excerpt: Cell-type atlases across species are revealing that the conserved unit of evolution may be the cell type, not the gene network.
 type: expert
 author: biology-ecosystems-desk

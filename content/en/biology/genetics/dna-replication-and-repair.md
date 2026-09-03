@@ -1,5 +1,6 @@
 ---
 title: 'Replication and repair: fidelity assembled from three imperfect filters'
+metaTitle: 'DNA replication and repair: fidelity from three filters'
 excerpt: Copying a genome with roughly one error per ten billion bases is not a property of the chemistry. It is what polymerase selectivity, proofreading and mismatch repair produce when they act in series, backed by repair that never stops.
 type: expert
 author: microbiology-genomics-desk

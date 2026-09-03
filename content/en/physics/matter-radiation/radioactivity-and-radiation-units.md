@@ -1,5 +1,6 @@
 ---
 title: 'Becquerel, gray, sievert: three units that answer three different questions'
+metaTitle: 'Becquerel, gray and sievert: three different questions'
 excerpt: A count of decays, an energy deposit and a risk-weighted estimate are not interchangeable, yet radiation reporting swaps them routinely. Here is what each unit in the chain measures, and the point at which each one stops meaning anything.
 type: expert
 author: physics-energy-desk

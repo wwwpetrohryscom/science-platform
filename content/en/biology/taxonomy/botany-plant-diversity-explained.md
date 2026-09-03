@@ -1,5 +1,6 @@
 ---
 title: 'Plant diversity: the major lineages and what each innovation solved'
+metaTitle: 'Plant diversity: the major lineages and their innovations'
 excerpt: Land plants descend from one lineage of freshwater green algae, and their major groups mark successive solutions to drying out, standing upright, and reproducing without free water. The counts across those groups are wildly unequal.
 type: expert
 author: biology-life-sciences-desk

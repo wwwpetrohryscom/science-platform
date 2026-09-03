@@ -1,5 +1,6 @@
 ---
 title: The soil microbiome is the missing variable in regenerative agriculture trials
+metaTitle: 'The soil microbiome in regenerative agriculture trials'
 excerpt: Why two farms with identical practices produce different yields — and what that tells us about the next generation of soil-health metrics.
 type: expert
 author: environmental-science-desk

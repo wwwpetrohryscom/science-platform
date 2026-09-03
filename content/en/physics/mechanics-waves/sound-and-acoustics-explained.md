@@ -1,5 +1,6 @@
 ---
 title: 'Sound and acoustics: a decibel is a ratio, and half the number is the reference'
+metaTitle: 'Sound and acoustics: the decibel is a ratio'
 excerpt: Sound is a pressure fluctuation travelling through a compressible medium. Almost every misreading of an acoustic figure comes from forgetting that a decibel is a logarithm of a ratio, and that the ratio needs a stated reference.
 type: expert
 author: physics-energy-desk

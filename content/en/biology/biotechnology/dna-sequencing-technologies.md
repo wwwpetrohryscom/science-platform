@@ -1,5 +1,6 @@
 ---
 title: 'Sequencing technologies: read length, error profile, and what each is good for'
+metaTitle: 'DNA sequencing platforms: read length and error profile'
 excerpt: Choosing a sequencing platform is less about headline accuracy than about the shape of its errors and the length of its reads. Here is how the main families differ, why depth requirements vary, and what the cost curve leaves out.
 type: expert
 author: microbiology-genomics-desk

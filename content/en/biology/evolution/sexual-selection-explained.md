@@ -1,5 +1,6 @@
 ---
 title: 'Sexual selection: the mechanisms, the measurements, and the open disputes'
+metaTitle: 'Sexual selection: mechanisms, measurement and open disputes'
 excerpt: Competition for mates explains traits that survival cannot. The comparative evidence for stronger sexual selection in males is reasonably firm; the reasons females prefer particular males, and the standards used to decide, are not.
 type: expert
 author: biology-ecosystems-desk

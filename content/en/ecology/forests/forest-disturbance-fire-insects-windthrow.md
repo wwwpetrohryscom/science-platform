@@ -1,5 +1,6 @@
 ---
 title: 'Forest disturbance regimes: fire, insects, wind, and records that will not add up'
+metaTitle: 'Forest disturbance: fire, insects, wind and the records'
 excerpt: Disturbance is how forests work, not an interruption of it. The global reporting on it is patchy enough that the compilers decline to give a world total, which changes how every published disturbance figure should be read.
 type: expert
 author: environmental-science-desk

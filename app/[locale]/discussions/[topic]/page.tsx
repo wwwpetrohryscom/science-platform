@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     });
   }
   return buildMetadata({
-    title: discussion.title,
+    title: discussion.metaTitle ?? discussion.title,
     description: discussion.topic,
     path: `/discussions/${discussion.slug}`,
     locale: params.locale,

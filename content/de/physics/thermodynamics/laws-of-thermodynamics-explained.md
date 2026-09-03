@@ -1,5 +1,6 @@
 ---
 title: 'Die Hauptsätze der Thermodynamik: was jeder von ihnen tatsächlich verbietet'
+metaTitle: 'Die Hauptsätze der Thermodynamik und ihre Verbote'
 excerpt: Die vier Hauptsätze sind Verbote, keine Rezepte. Jeder schließt eine Klasse von Maschinen oder Prozessen aus, und gemeinsam legen sie fest, was Temperatur bedeutet, was die Energiebilanz aufgehen lassen muss und in welche Richtung ein Prozess laufen kann.
 type: pillar
 author: energy-systems-desk

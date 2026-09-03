@@ -1,5 +1,6 @@
 ---
 title: 'Las leyes de la termodinámica: qué prohíbe realmente cada una'
+metaTitle: 'Las leyes de la termodinámica y sus prohibiciones'
 excerpt: Las cuatro leyes son prohibiciones, no recetas. Cada una descarta una clase de máquina o de proceso, y juntas fijan qué significa la temperatura, qué debe cuadrar la contabilidad de la energía y en qué dirección puede transcurrir un proceso.
 type: pillar
 author: energy-systems-desk

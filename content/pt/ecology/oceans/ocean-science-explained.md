@@ -1,5 +1,6 @@
 ---
 title: 'Ciência dos oceanos: como a profundidade organiza o mar e quão pouco dele observamos'
+metaTitle: 'Ciência do oceano: a profundidade organiza o mar'
 excerpt: A densidade separa a água do mar em camadas entre as quais as trocas são lentas, e quase todas as propriedades de grande escala do oceano decorrem dessa separação. O que a estratificação faz à química e à vida, e quão escassamente o oceano é de facto observado.
 type: pillar
 author: oceans-freshwater-desk

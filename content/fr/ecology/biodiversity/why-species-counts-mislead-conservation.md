@@ -1,5 +1,6 @@
 ---
 title: Pourquoi le décompte des espèces fausse les priorités de conservation
+metaTitle: 'Pourquoi le nombre d''espèces égare la conservation'
 excerpt: La richesse spécifique est la mesure de biodiversité la plus facile à calculer et la plus mauvaise sur laquelle hiérarchiser. Ce sont les diversités fonctionnelle et phylogénétique qui prédisent la performance des écosystèmes — et elles divergent souvent du décompte des espèces.
 type: pillar
 author: biodiversity-conservation-desk

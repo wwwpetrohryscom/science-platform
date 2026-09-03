@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     });
   }
   return buildMetadata({
-    title: insight.title,
+    title: insight.metaTitle ?? insight.title,
     description: insight.excerpt,
     path: `/insight/${insight.slug}`,
     locale: params.locale,

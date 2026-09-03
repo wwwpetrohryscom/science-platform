@@ -1,5 +1,6 @@
 ---
 title: 'Genome-wide association studies: what an association can and cannot establish'
+metaTitle: 'Genome-wide association studies: what an association shows'
 excerpt: A GWAS correlates allele frequency with a trait across unrelated people. The design is deliberately hypothesis-free, and almost every limit it has — tagging, thresholds, tiny effects, poor portability — follows directly from that choice.
 type: expert
 author: microbiology-genomics-desk

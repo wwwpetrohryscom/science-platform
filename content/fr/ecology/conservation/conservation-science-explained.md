@@ -1,5 +1,6 @@
 ---
 title: 'Science de la conservation : ce que la base de preuves permet réellement d''affirmer'
+metaTitle: 'Science de la conservation : ce que montre l''évaluation'
 excerpt: 'La conservation est une science appliquée bâtie sur une question causale : l''action a-t-elle modifié la trajectoire ? Cette page expose comment cette question se teste, ce que les synthèses établissent aujourd''hui et là où les preuves s''arrêtent.'
 type: pillar
 author: biodiversity-conservation-desk

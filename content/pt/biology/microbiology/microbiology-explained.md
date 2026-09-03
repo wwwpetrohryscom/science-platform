@@ -1,5 +1,6 @@
 ---
 title: 'Microbiologia: os organismos que fazem funcionar a química do planeta'
+metaTitle: 'Microbiologia: os organismos que fazem a química global'
 excerpt: Só as bactérias detêm cerca de 70 gigatoneladas de carbono, a maior parte na subsuperfície profunda, e os micróbios realizam reações que nenhuma planta ou animal consegue. Esta página expõe o que foi contado, o que é inferido e onde os números da área continuam por assentar.
 type: pillar
 author: microbiology-genomics-desk

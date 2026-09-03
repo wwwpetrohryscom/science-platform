@@ -1,5 +1,6 @@
 ---
 title: 'Microbial biogeochemistry: the organisms that close the elemental cycles'
+metaTitle: 'Microbial biogeochemistry and the elemental cycles'
 excerpt: Several steps in the nitrogen, carbon and sulfur cycles have no plant or animal equivalent — only prokaryotes run them. This page follows those reactions and the awkward distance between detecting the gene for one and measuring its rate.
 type: expert
 author: microbiology-genomics-desk

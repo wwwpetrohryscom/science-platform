@@ -1,5 +1,6 @@
 ---
 title: 'Biotechnologie : ce que font les techniques, et où les promesses les dépassent'
+metaTitle: 'Biotechnologie : ce que la boîte à outils résout'
 excerpt: L'ADN recombinant, le séquençage, l'édition et la conception assistée par ordinateur ont chacun rendu une chose bon marché et laissé intactes les parties difficiles. Voici ce que fait la boîte à outils, comment un résultat de laboratoire devient un produit, et où ce chemin se rompt.
 type: pillar
 author: microbiology-genomics-desk

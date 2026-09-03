@@ -1,5 +1,6 @@
 ---
 title: The observation base for environmental science is contracting where it is least replaceable
+metaTitle: 'Environmental monitoring networks are contracting'
 excerpt: Station counts can stay flat while the long records inside them disappear. A broken multi-decadal series cannot be reconstructed afterwards, and satellites supplement in-situ measurement rather than replacing it.
 argument: The quantity that makes an environmental record scientifically valuable is its uninterrupted length, and that quantity is being lost faster than headline station counts reveal. Some networks have genuinely grown, so the honest claim is not collapse but a redistribution away from the long series and the under-sampled places that carry the most information.
 category: ecology

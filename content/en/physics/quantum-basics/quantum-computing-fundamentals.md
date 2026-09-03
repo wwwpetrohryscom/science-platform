@@ -1,5 +1,6 @@
 ---
 title: 'Quantum computing: qubits, error rates, and the distance to useful machines'
+metaTitle: 'Quantum computing: qubits, error rates and the distance left'
 excerpt: A 2025 surface-code result held one logical qubit on 101 physical qubits at 0.143 per cent error per cycle. Reading that number correctly explains both why the field is real and why the distance to a useful machine is measured in orders of magnitude.
 type: expert
 author: physics-energy-desk

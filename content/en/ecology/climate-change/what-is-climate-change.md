@@ -1,5 +1,6 @@
 ---
 title: What is climate change? The mechanism, the evidence, and the open questions
+metaTitle: 'What is climate change? Mechanism, evidence, open questions'
 excerpt: Climate change refers to the long-term shift in Earth's energy balance driven by changes in atmospheric composition. Here's the mechanism, the evidence behind it, and the questions that remain genuinely open.
 type: pillar
 author: climate-research-desk
