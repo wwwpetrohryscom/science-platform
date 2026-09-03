@@ -1,6 +1,6 @@
 ---
 title: 'Der Kohlenstoffkreislauf: wo der Kohlenstoff ist, wie er sich bewegt und was sich geändert hat'
-metaTitle: 'Der Kohlenstoffkreislauf: wo der Kohlenstoff ist und wie er sich bewegt'
+metaTitle: 'Der Kohlenstoffkreislauf: wo der Kohlenstoff ist'
 excerpt: Der größte Teil des Kohlenstoffs der Erde steckt im Gestein und bewegt sich in geologischer Zeit. Ein kleiner, schnell umlaufender Anteil läuft durch Luft, Wasser und Leben — und genau den haben wir verändert.
 type: expert
 author: earth-systems-desk
