@@ -24,6 +24,7 @@
     "entities:validate": "tsx scripts/entities-validate.ts",
     "glossary:validate": "tsx scripts/validate-glossary.ts",
     "glossary:link": "tsx scripts/glossary-link.ts",
+    "faqs:validate": "tsx scripts/validate-faqs.ts",
     "content:link": "tsx scripts/build-internal-links.ts",
     "content:metadata": "tsx scripts/update-metadata.ts",
     "content:generate": "tsx scripts/generate-article.ts",

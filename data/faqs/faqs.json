@@ -1,0 +1,728 @@
+{
+ "topic:ecology": [
+  {
+   "question": "What does this ecology section cover?",
+   "answer": "Ecosystems and ecosystem services, climate-change mechanisms and indicators, and biodiversity at the species, functional, and ecosystem-structure levels. Coverage is anchored to assessments from the IPCC, IPBES, UNEP, EEA, and FAO."
+  },
+  {
+   "question": "How are scientific claims sourced?",
+   "answer": "Every article cites authoritative organizations or peer-reviewed venues. Citation hosts are validated against a curated registry at build time so unknown or low-authority links are flagged before publication."
+  },
+  {
+   "question": "Is the content peer-reviewed?",
+   "answer": "Articles are editorial summaries grounded in peer-reviewed and authoritative sources, not original peer-reviewed research themselves. They cite the underlying literature so readers can verify each load-bearing claim."
+  }
+ ],
+ "subtopic:ecology:ecosystems": [
+  {
+   "question": "What is an ecosystem service?",
+   "answer": "A benefit people obtain from ecosystems, organized in standard taxonomies into provisioning, regulating, cultural, and supporting categories. IPBES uses the broader \"nature's contributions to people\" framing for the same idea."
+  },
+  {
+   "question": "Are ecosystem services a substitute for protecting ecosystems intrinsically?",
+   "answer": "No. The framework was developed to make hidden value visible in policy decisions, not to make unvalued ecosystems disposable. IPBES and the Convention on Biological Diversity maintain rights-based and intrinsic-value framings alongside the services framing."
+  },
+  {
+   "question": "Why is the soil microbiome relevant to ecosystem function?",
+   "answer": "Soil microbes mediate nitrogen mineralization, phosphorus availability via mycorrhizal partnerships, and the rhizosphere chemistry that determines plant performance. They are one important mediator among several — not a hidden universal explanation for management outcomes."
+  },
+  {
+   "question": "What makes something an ecosystem?",
+   "answer": "The simultaneous flow of energy, matter and information through a community of organisms and their physical environment. The term was coined to shift attention from membership to exchange, which is why its boundaries depend on the question being asked."
+  },
+  {
+   "question": "Is the 10 per cent rule of trophic transfer accurate?",
+   "answer": "It is a rough average with very wide variance, not a constant. Transfer efficiency differs between systems and appears to decline under warming, and compounding a nominal figure over several trophic steps produces estimates that should be treated as illustrative."
+  },
+  {
+   "question": "Do ecosystems recover to their previous state after disturbance?",
+   "answer": "Not reliably. Succession is contingent and path-dependent, and some systems settle into alternative stable states. The climax-community model that implied a single destination was abandoned for that reason."
+  },
+  {
+   "question": "Is a city an ecosystem?",
+   "answer": "By the flow-based definition, yes. Urban systems have distinctive energy and water budgets, novel species assemblages and their own soils. Treating them as the absence of an ecosystem is what makes urban ecological questions invisible."
+  }
+ ],
+ "subtopic:ecology:climate-change": [
+  {
+   "question": "What is a climate indicator?",
+   "answer": "A climate indicator is a measurement, sustained over time, with a known physical interpretation and enough signal-to-noise to resolve the long-term trend against natural variability. The IPCC AR6, WMO State of the Global Climate, NOAA, NASA, EPA, EEA, and Copernicus all organize their reporting around the same small set of indicator families: temperature, energy, greenhouse gases, sea level, cryosphere, and the carbon cycle."
+  },
+  {
+   "question": "Is the warming definitely caused by human activity?",
+   "answer": "IPCC and NASA assessments describe human influence on recent warming as established by multiple independent lines of evidence — atmospheric composition, observed warming patterns, vertical temperature structure, and the energy budget closing within stated uncertainties."
+  },
+  {
+   "question": "Why is ocean heat content a more stable indicator than surface temperature?",
+   "answer": "Roughly 90% of the energy added by greenhouse-gas forcing is taken up by the ocean — IPCC AR6 assesses 91% of the total change in the global energy inventory. ENSO-driven year-to-year variability redistributes heat between ocean layers and the atmosphere — it does not change the total ocean heat content much — so the OHC trend is closer to the underlying forcing trend."
+  },
+  {
+   "question": "How do scientists compare different global temperature records?",
+   "answer": "NOAAGlobalTemp, NASA GISTEMP, HadCRUT5, Berkeley Earth, and the JRA-55/ERA5 reanalyses are produced from overlapping but not identical observations using different gridding, infilling, and bias-correction methods. They agree to within stated uncertainties on the long-term warming trend; the convergence is the empirical case the IPCC's AR6 assessment leans on."
+  },
+  {
+   "question": "What does sea-level rise actually measure?",
+   "answer": "Three different indicators: global mean sea level from satellite altimetry (the planetary signal), local relative sea level from tide gauges (what coastal communities experience), and the rate of rise (the planning-horizon variable). The IPCC AR6 Chapter 9 explains how the global mean decomposes into thermal expansion, glacier and ice-sheet melt, and land-water storage changes."
+  },
+  {
+   "question": "How do attribution studies connect extreme events to climate change?",
+   "answer": "Event attribution compares the frequency or intensity of an observed extreme in a large model ensemble of the current climate against a counterfactual ensemble without anthropogenic forcing. The risk ratio or intensity shift is the attribution. The methodology is strongest for heat extremes and weakens for events dominated by circulation dynamics or compound drivers like drought."
+  },
+  {
+   "question": "What is the biggest remaining uncertainty in climate sensitivity?",
+   "answer": "Cloud feedback. How cloud height, coverage, and optical properties change with warming determines a substantial fraction of the spread in climate-sensitivity estimates. AR6 reports the net feedback as positive overall with quantifiable but irreducible spread across models."
+  }
+ ],
+ "subtopic:ecology:biodiversity": [
+  {
+   "question": "Why is species count not enough to measure biodiversity?",
+   "answer": "A region can lose substantial biomass while keeping its species count, or vice versa. Population abundance, genetic diversity, and ecosystem function are separately measurable dimensions; a single scalar collapses information that policy and ecology need to keep distinct."
+  },
+  {
+   "question": "What are Essential Biodiversity Variables (EBVs)?",
+   "answer": "EBVs are six measurement classes — genetic composition, species populations, species traits, community composition, ecosystem function, and ecosystem structure — designed so different national monitoring programs can produce comparable inputs to global biodiversity assessments."
+  },
+  {
+   "question": "How well-monitored is biodiversity globally?",
+   "answer": "Long-term ecological research sites are concentrated in Europe and North America; tropical biodiversity has thinner baselines despite holding the largest share of species. The IPBES Global Assessment treats this uneven sampling as a primary methodological caveat, not a footnote."
+  },
+  {
+   "question": "How is biodiversity measured?",
+   "answer": "Across several dimensions rather than by one number: species counts and diversity indices from field surveys, population trends, extinction-risk assessments, and habitat extent and condition. The Essential Biodiversity Variables framework, coordinated by GEO BON, organises these into comparable classes, and IPBES and the Convention on Biological Diversity report several indicators side by side."
+  },
+  {
+   "question": "What is a biodiversity indicator?",
+   "answer": "A measurement that distils one dimension of biodiversity change into a trackable signal, much like a climate indicator. The Convention on Biological Diversity's headline indicators include the IUCN Red List Index (extinction risk), the Living Planet Index (population abundance), and habitat-extent metrics. Because no single indicator captures biodiversity, they are read together rather than collapsed into one figure."
+  },
+  {
+   "question": "What is species richness?",
+   "answer": "Species richness is the number of distinct species in a defined area. It is the easiest biodiversity measure to compute, but it rises with sampling effort and area and ignores how abundant each species is. Ecologists use rarefaction and estimators to compare samples and pair richness with evenness and diversity indices, as IPBES assessments emphasise."
+  },
+  {
+   "question": "How do scientists assess ecosystem health?",
+   "answer": "There is no single test. Scientists combine ecological-integrity indices such as the Biodiversity Intactness Index, measures of habitat condition and fragmentation, and resilience proxies like functional and response diversity. These map onto the ecosystem-structure and ecosystem-function classes of the Essential Biodiversity Variables. Each needs a reference condition, and IPBES treats the choice of baseline as a key caveat."
+  },
+  {
+   "question": "What is the Red List Index?",
+   "answer": "The Red List Index tracks the overall trend in extinction risk for a group of species using repeated IUCN Red List assessments. It is scaled so that 1 means all species are Least Concern and 0 means all are extinct, and counts only genuine status changes. It is a Convention on Biological Diversity headline indicator, available for comprehensively assessed groups such as birds, mammals, and amphibians."
+  },
+  {
+   "question": "What is the Living Planet Index?",
+   "answer": "Compiled by the Zoological Society of London with WWF, it tracks the average relative change in monitored vertebrate populations since 1970. It is an index of abundance, not a count of animals or a percentage of species lost — a frequent misreading. Because it averages relative changes, a small number of steep declines can dominate the trend, which peer-reviewed analyses examine closely."
+  },
+  {
+   "question": "Can satellites monitor biodiversity?",
+   "answer": "Satellites cannot identify most species, but they measure ecosystem structure — land cover, forest extent, vegetation state, and canopy structure — consistently and globally. Products from NASA, the European Space Agency, and the Copernicus Land Monitoring Service supply this layer, and GEO BON defines remote-sensing-enabled Essential Biodiversity Variables. Species-level conclusions still require ground data for calibration."
+  },
+  {
+   "question": "How is habitat fragmentation measured?",
+   "answer": "Fragmentation — the breaking of continuous habitat into smaller, more isolated patches — is quantified with landscape metrics such as patch size, edge density, core area, and connectivity, usually computed from satellite land-cover maps. It is distinct from habitat loss, and whether fragmentation itself harms biodiversity independently of habitat amount remains an active debate in the peer-reviewed literature."
+  }
+ ],
+ "subtopic:ecology:earth-systems": [
+  {
+   "question": "What is Earth system science?",
+   "answer": "It studies the planet as a set of coupled components — atmosphere, hydrosphere, cryosphere, biosphere, and geosphere — exchanging energy and matter. Its defining move is to treat the exchanges between components as the object of study rather than as boundary conditions on a single discipline."
+  },
+  {
+   "question": "What are the main components of the Earth system?",
+   "answer": "Conventionally five: the atmosphere, the hydrosphere, the cryosphere, the biosphere, and the lithosphere or geosphere. The division is a bookkeeping convention rather than a physical boundary — soil moisture, sea ice, and vegetation each belong to more than one at once. What makes it useful is that each has a characteristic response time, and those times differ by many orders of magnitude."
+  },
+  {
+   "question": "What is a biogeochemical cycle?",
+   "answer": "The movement of a chemical element between reservoirs by biological, geological, and chemical processes. Three quantities define one: reservoir sizes, fluxes between them, and residence time, which is reservoir size divided by outgoing flux. The same grammar describes carbon, water, nitrogen, phosphorus, and sulphur, which is what makes cycles of very different speeds comparable."
+  },
+  {
+   "question": "What is a climate feedback?",
+   "answer": "A process that changes Earth's energy budget in response to the temperature change a forcing produced, measured in watts per square metre per degree Celsius. IPCC AR6 assesses the net feedback parameter at −1.16 W m⁻² °C⁻¹, with a very likely range of −1.81 to −0.51 against a baseline Planck response of −3.22."
+  },
+  {
+   "question": "What is the difference between a positive and a negative feedback?",
+   "answer": "A positive feedback amplifies the initial change; a negative one damps it. The sign convention on the feedback parameter is the reverse of intuition: negative parameter values are stabilising, because the parameter measures how strongly the planet increases its radiation to space per degree of warming. Earth's net parameter is negative, which is why warming settles at a finite level rather than running away."
+  },
+  {
+   "question": "Which climate feedback is the strongest?",
+   "answer": "The combined water-vapour and lapse-rate feedback, which IPCC AR6 assesses at +1.30 W m⁻² °C⁻¹ (very likely 1.1 to 1.5). Surface albedo is +0.35 and clouds +0.42. Clouds contribute the most uncertainty, with a very likely range from −0.10 to +0.94, even though their central estimate is comparable to that of albedo."
+  },
+  {
+   "question": "How does the carbon cycle affect climate?",
+   "answer": "It determines how much of each tonne emitted stays in the air. IPCC AR6 assesses that over 2010–2019, 46 per cent of anthropogenic CO₂ emissions accumulated in the atmosphere, 23 per cent went into the ocean, and 31 per cent into land vegetation. The airborne fraction has held near 44 per cent for six decades, but that reflects sinks growing alongside emissions rather than any fixed property."
+  },
+  {
+   "question": "What is ENSO?",
+   "answer": "The El Niño–Southern Oscillation, a coupled ocean–atmosphere oscillation in the tropical Pacific that shifts irregularly every two to seven years. NOAA classifies events using the Oceanic Niño Index — a running three-month sea-surface temperature anomaly in the Niño 3.4 region (5°N–5°S, 120°W–170°W) — requiring ±0.5 °C sustained across five consecutive overlapping seasons."
+  },
+  {
+   "question": "How does the cryosphere influence climate?",
+   "answer": "Through four separate channels: reflectivity, since NSIDC reports bare sea ice reflects 40–60 per cent of sunlight and snow up to 90 per cent; sea level, through land-ice mass loss; ocean density, since freezing rejects salt and melting adds fresh water, pushing the overturning circulation in opposite directions; and the carbon cycle, through permafrost thaw."
+  },
+  {
+   "question": "What is an Earth system model?",
+   "answer": "A coupled climate model extended with interactive biogeochemistry. A physical climate model is given an atmospheric CO₂ concentration; an Earth system model is given emissions and computes the concentration itself. That makes carbon-cycle feedbacks emergent rather than assumed, and imports the larger uncertainty of the biological components."
+  },
+  {
+   "question": "Why are Earth system predictions uncertain?",
+   "answer": "Because forecasts and projections are different problems. Detailed weather prediction is limited to roughly two weeks by sensitivity to initial conditions. Century-scale projection does not depend on initial conditions at all; its spread comes from which emissions pathway is followed, from disagreement between models about feedback strength, and from internal variability."
+  },
+  {
+   "question": "How do scientists decide what to observe?",
+   "answer": "Through the Essential Climate Variables. GCOS currently specifies 55 of them across the atmosphere, ocean, and land domains, selected against three criteria: relevance to characterising the climate system, technical feasibility of sustained global observation, and cost effectiveness. The list is the intersection of what matters, what can be measured, and what can be afforded."
+  }
+ ],
+ "subtopic:ecology:earth-observation": [
+  {
+   "question": "What is remote sensing?",
+   "answer": "Remote sensing is measuring a surface from a distance by recording the electromagnetic radiation it reflects or emits. Passive sensors record reflected sunlight or emitted heat; active sensors such as radar and lidar supply their own energy. Satellites carrying these sensors, operated by agencies such as NASA, the USGS, and ESA, turn that radiation into maps of land cover, vegetation, temperature, and more."
+  },
+  {
+   "question": "How do satellites monitor Earth?",
+   "answer": "They carry sensors that record radiation in defined wavelength bands as a grid of pixels, then process it into physical measurements such as surface reflectance or temperature. A fleet with complementary strengths — the NASA–USGS Landsat satellites, ESA's Copernicus Sentinels, and NASA's MODIS — trades spatial detail against how often each place is revisited. Results are calibrated and validated against ground data."
+  },
+  {
+   "question": "What is NDVI?",
+   "answer": "NDVI, the Normalised Difference Vegetation Index, is (NIR − Red) / (NIR + Red), ranging from −1 to +1. It uses the fact that healthy vegetation absorbs red light and reflects near-infrared. Dense green vegetation gives high values (about 0.6–0.9), bare soil low values, and water near zero or negative. NASA and the USGS document its use for vegetation condition, drought, and crops."
+  },
+  {
+   "question": "How does Landsat work?",
+   "answer": "Landsat is a joint NASA–USGS program that has imaged the land surface since 1972 — the longest continuous record. Its sensors record multispectral imagery at about 30-metre resolution, revisiting each location every 16 days. Since 2008 the USGS has made the full archive free, enabling long time-series studies of land cover, agriculture, forests, and water."
+  },
+  {
+   "question": "What are Sentinel satellites?",
+   "answer": "The Sentinels are the satellite fleet of the European Union's Copernicus programme, built and operated by ESA. Each family specialises: Sentinel-1 (radar), Sentinel-2 (multispectral optical, about a 5-day revisit), Sentinel-3 (ocean and land), Sentinel-5P (atmosphere), and Sentinel-6 (sea level). Their data are free and open, underpinning the Copernicus monitoring services."
+  },
+  {
+   "question": "How is deforestation detected from space?",
+   "answer": "By comparing satellite images of the same place over time and identifying where forest canopy is lost. Periodic assessments such as the FAO Global Forest Resources Assessment produce consistent statistics, while near-real-time alerts from frequent Landsat and Sentinel imagery flag recent clearing. The European Commission's Joint Research Centre and NASA provide global forest-change products, validated against finer imagery."
+  },
+  {
+   "question": "How accurate are satellite observations?",
+   "answer": "It depends on the product, and reputable providers report the uncertainty. Accuracy is established by ground-truthing — comparing satellite estimates against field data or higher-resolution imagery — and classification products are published with accuracy assessments. Cloud cover, mixed pixels, atmospheric effects, and sensor drift all introduce error, so satellite data are treated as calibrated estimates, not exact values."
+  },
+  {
+   "question": "What are the limitations of remote sensing?",
+   "answer": "Satellites measure physical and spectral properties, not the quantities themselves, so the link to vegetation, fire, or phytoplankton is a model that needs validation. A sensor cannot maximise spatial, spectral, and temporal resolution at once; clouds block optical sensors; pixels mix surface types; and instruments drift, so long records need cross-calibration. The archive also cannot describe conditions before the satellites existed."
+  }
+ ],
+ "topic:biology": [
+  {
+   "question": "Which areas of biology does this section cover?",
+   "answer": "Cell biology, molecular genetics, and evolution — from cell signaling and gene-expression regulation through evolutionary mechanisms and microbiome biology. References use NIH/NCBI resources, peer-reviewed journals, and authoritative public-health bodies."
+  },
+  {
+   "question": "Does any of this content offer medical advice?",
+   "answer": "No. Articles describe mechanisms and evidence; they do not recommend treatments. Where topics touch clinical decisions (for example antibiotic stewardship), an explicit notice points readers to clinicians and authoritative health guidance."
+  },
+  {
+   "question": "How current are the references?",
+   "answer": "Citations point to current public landing pages of authoritative organizations and journals. Where an article relies on a specific report, the report's year is shown so a reader can verify revisions."
+  }
+ ],
+ "subtopic:biology:cells": [
+  {
+   "question": "What does cell signaling do?",
+   "answer": "It is the set of mechanisms by which cells receive, process, and respond to chemical, mechanical, or environmental signals. Signaling pathways control proliferation, differentiation, immune response, and most of what cells do beyond basic metabolism."
+  },
+  {
+   "question": "How does the same kinase produce different outcomes in different contexts?",
+   "answer": "Specificity emerges from spatial localization (scaffolded complexes), temporal pattern (sustained vs transient activation), and combinatorial input from other pathways. Pathway identity at the molecular level is not enough to predict outcome; cellular context is part of the signal."
+  },
+  {
+   "question": "What makes something a cell?",
+   "answer": "A membrane that maintains an interior chemically distinct from its surroundings, together with the machinery to store information, obtain energy and divide. The boundary is what makes the rest possible, which is why the membrane is where the definition starts."
+  },
+  {
+   "question": "Why does the cell spend so much energy on membrane transport?",
+   "answer": "Because most of what a cell needs to move crosses the membrane against a concentration gradient, and pumps such as the sodium-potassium ATPase consume a substantial share of a cell's energy budget maintaining those gradients."
+  },
+  {
+   "question": "Is photosynthesis efficient?",
+   "answer": "Not by engineering standards. Rubisco, the carbon-fixing enzyme, is slow and also reacts with oxygen, producing a compound the plant must spend energy recovering. C4 and CAM metabolism are independently evolved workarounds for that inefficiency."
+  },
+  {
+   "question": "What is the difference between mitosis and meiosis?",
+   "answer": "Mitosis copies a cell, producing two genetically identical daughters. Meiosis halves the chromosome number and, through recombination and independent assortment, generates new combinations — which is the source of the variation inheritance acts on."
+  }
+ ],
+ "subtopic:biology:genetics": [
+  {
+   "question": "Why don't two cells with the same DNA behave the same way?",
+   "answer": "Because gene expression — which genes are read, when, and how much — is regulated. Chromatin state, transcription-factor combinations, RNA processing, and translation efficiency together determine the protein complement of a cell. Cell identity lives in the regulatory state, not the sequence alone."
+  },
+  {
+   "question": "Does \"epigenetics\" mean a separate inheritance system?",
+   "answer": "Not as the term is used in mainstream genetics. Chromatin marks are deposited and removed by enzymes whose activity is regulated by the cell's transcription state. Epigenetic marks are a layer of memory within the cell, not a parallel inheritance system independent of DNA sequence."
+  },
+  {
+   "question": "Does a larger genome mean a more complex organism?",
+   "answer": "No. Genome size varies by orders of magnitude between organisms of similar complexity, largely because of repetitive DNA. The absence of any consistent relationship is long-standing enough to have its own name, the C-value paradox."
+  },
+  {
+   "question": "What does heritability actually measure?",
+   "answer": "The proportion of variation in a trait, within one population and one environment, attributable to genetic variation. It is not a measure of how genetically determined a trait is, it does not apply to individuals, and it says nothing about differences between groups."
+  },
+  {
+   "question": "Can a genome-wide association study identify the cause of a trait?",
+   "answer": "Rarely on its own. An associated marker usually tags a region rather than being the causal variant, effect sizes are small, and polygenic scores lose accuracy when applied to ancestries other than the one they were derived in."
+  },
+  {
+   "question": "Is epigenetic inheritance real?",
+   "answer": "Within an organism, yes: methylation and chromatin states are heritable through cell division and explain how identical genomes build different cells. Transgenerational inheritance in mammals is a much weaker claim, because germline reprogramming resets most marks."
+  }
+ ],
+ "subtopic:biology:evolution": [
+  {
+   "question": "Why is antibiotic resistance a useful example of evolution?",
+   "answer": "Bacterial populations are large, generations are short, and horizontal gene transfer is routine. Selection plays out on timescales human surveillance can resolve, and the underlying mechanisms — mutation, target modification, drug efflux, bypass pathways — are confirmed in both laboratory experiments and clinical data."
+  },
+  {
+   "question": "Does removing the drug make resistance go away?",
+   "answer": "Not reliably. Many resistance mechanisms acquire compensatory mutations that restore growth without removing resistance. CDC and WHO surveillance data document phenotypes that persist long after the corresponding drug has been deprioritized."
+  },
+  {
+   "question": "Is natural selection a theory or a fact?",
+   "answer": "The mechanism follows deductively from three conditions — variation, heritability, and association with reproductive success — so the argument is not empirical. What is empirical, and testable case by case, is whether those conditions hold for a given trait."
+  },
+  {
+   "question": "What is genetic drift?",
+   "answer": "Change in allele frequency caused by sampling error in a finite population. Whether drift or selection dominates depends on effective population size, which is usually far below the census count."
+  },
+  {
+   "question": "Does evolution have a direction?",
+   "answer": "Not toward complexity or progress. Convergent evolution shows that constraints channel outcomes so that unrelated lineages sometimes reach similar solutions, but that is a statement about the constraints rather than about a direction."
+  },
+  {
+   "question": "How do new species form?",
+   "answer": "By the accumulation of reproductive barriers, before or after fertilisation. Genomic data has shown many such barriers to be permeable, which is why species boundaries are frequently fuzzy in practice while remaining a useful working unit."
+  }
+ ],
+ "topic:physics": [
+  {
+   "question": "What does the applied-physics section focus on?",
+   "answer": "Energy systems, thermodynamic limits, and quantum-basics topics with practical applications — photovoltaics, climate physics, electromagnetic-spectrum applications, and quantum sensing. References anchor to NASA, NIST, NREL, DOE, IPCC, and APS-published peer-reviewed literature."
+  },
+  {
+   "question": "Why combine climate physics with applied physics here?",
+   "answer": "Earth's energy budget is the physical layer underneath every climate claim and many energy-technology claims. Reading them through the same accounting makes the connections explicit — e.g., the Shockley-Queisser limit and the planetary energy imbalance share a thermodynamic framework."
+  },
+  {
+   "question": "Are the numerical claims independently verifiable?",
+   "answer": "Yes. Each load-bearing quantitative claim cites the authoritative organization that publishes the number — IPCC AR6, NASA Earth Observatory, NREL champion-cell tables, NIST reference data — so readers can check the source directly."
+  }
+ ],
+ "subtopic:physics:energy": [
+  {
+   "question": "What sets the upper limit on solar-cell efficiency?",
+   "answer": "For a single-junction cell under standard AM1.5 illumination, the Shockley-Queisser bound is about 33%. Tandem and multi-junction cells exceed this by recovering spectral-mismatch losses; the asymptotic infinite-junction limit is around 86%."
+  },
+  {
+   "question": "Why does field performance differ from lab efficiency?",
+   "answer": "AM1.5 is a standardized reference spectrum, not what cells actually see outdoors. The real incident spectrum varies with location, time of day, and atmospheric conditions, and modules degrade due to temperature, soiling, and material instability."
+  },
+  {
+   "question": "Why can't a wind turbine extract all the energy from the wind?",
+   "answer": "Because extracting all of it would require the air to stop, and stopped air cannot leave to make room for more. Mass and momentum conservation alone give a maximum of 16/27, about 59 per cent — the Betz limit, a property of the flow rather than of any design."
+  },
+  {
+   "question": "What does capacity factor measure?",
+   "answer": "Actual generation over a period divided by generation at full rated output. It is not efficiency and not reliability: it reflects resource availability and dispatch decisions as much as plant characteristics."
+  },
+  {
+   "question": "Is hydrogen an energy source?",
+   "answer": "No, it is a carrier. Producing it costs energy, and every conversion step loses some, so using electricity to make hydrogen and hydrogen to make electricity again loses far more than storing the electricity directly. Where direct electrification is possible, it is usually more efficient."
+  },
+  {
+   "question": "Why is seasonal storage harder than daily storage?",
+   "answer": "Because the economics invert. A store cycled daily can justify a high cost per unit of power; one filled once a year is dominated by cost per unit of energy and by self-discharge. The technologies that suit one are generally poor at the other."
+  }
+ ],
+ "subtopic:physics:thermodynamics": [
+  {
+   "question": "Is Earth's climate really a heat engine?",
+   "answer": "Yes, in the literal sense — the planet receives concentrated radiation from a hot source (the Sun at effective 5800 K) and emits it back to space at a colder effective temperature (~255 K). The temperature difference drives atmospheric and ocean circulation, much like any thermodynamic engine."
+  },
+  {
+   "question": "Why is the Earth not in thermodynamic steady state?",
+   "answer": "Anthropogenic greenhouse-gas forcing produces a top-of-atmosphere energy imbalance of around +1 W/m². That imbalance accumulates as additional energy in the climate system, dominantly in the ocean, until the surface warms enough to re-balance outgoing longwave with absorbed shortwave."
+  },
+  {
+   "question": "What does the second law actually forbid?",
+   "answer": "Not disorder increasing, but any process whose sole result is transferring heat from a colder to a hotter body, or converting heat entirely into work. It is a statistical statement about overwhelmingly probable outcomes rather than a mechanical prohibition."
+  },
+  {
+   "question": "Is entropy the same as disorder?",
+   "answer": "No. Entropy counts the microscopic arrangements consistent with a macroscopic state. The disorder analogy is a rough illustration that misleads whenever it is used to reason, particularly in arguments about living systems."
+  },
+  {
+   "question": "Does life violate the second law?",
+   "answer": "No. An organism decreases its own entropy while increasing that of its surroundings by more, which the law permits. The Earth as a whole receives concentrated solar radiation and emits diffuse infrared, and that difference is what powers the local decreases."
+  },
+  {
+   "question": "Why can't a power station be more efficient?",
+   "answer": "Because the Carnot bound depends only on the temperatures of the hot and cold reservoirs. Practical efficiency is limited further by the materials that must survive the hot side, which is why turbine inlet temperature is the binding engineering constraint."
+  }
+ ],
+ "subtopic:physics:quantum-basics": [
+  {
+   "question": "Are radio waves and gamma rays really the same phenomenon?",
+   "answer": "Yes. Both are electromagnetic radiation — the same physical field, differing only in wavelength and therefore photon energy. The differences in how each interacts with matter follow from the wavelength alone."
+  },
+  {
+   "question": "What's a photon, simply?",
+   "answer": "The quantum of the electromagnetic field. A photon carries energy E = hf where f is frequency. Photon energy determines whether radiation can vibrate a molecule, knock out an electron, or ionize an atom."
+  },
+  {
+   "question": "Is light a wave or a particle?",
+   "answer": "Neither description is complete on its own, and \"sometimes one, sometimes the other\" is a poor summary. There is one quantum state; which aspect appears depends on what is measured, and which-path experiments show the two descriptions are complementary rather than alternating."
+  },
+  {
+   "question": "Does the uncertainty principle mean measurement disturbs the system?",
+   "answer": "Disturbance is real but it is a separate effect. The uncertainty relation is a property of the quantum state itself: position and momentum cannot both be sharply defined, regardless of how carefully they are measured."
+  },
+  {
+   "question": "Why is quantum computing hard?",
+   "answer": "Because the superpositions the computation depends on decay as the system interacts with its environment. Error correction can compensate, at the cost of many physical qubits per reliable logical one, which is why qubit counts alone say little about capability."
+  },
+  {
+   "question": "Which problems do quantum computers actually speed up?",
+   "answer": "A specific and narrow set with proven speedups, including integer factoring and simulating quantum systems. Claims of general-purpose acceleration across ordinary computing workloads are not supported."
+  }
+ ],
+ "subtopic:ecology:conservation": [
+  {
+   "question": "Does protecting an area actually improve outcomes inside it?",
+   "answer": "Sometimes, and the size of the effect depends heavily on protection level and enforcement rather than on designation. Protected areas are also not sited at random — they cluster on land under less pressure to begin with — so any comparison with unprotected land has to account for that selection before it means anything."
+  },
+  {
+   "question": "What does a Red List category tell you, and what does it not?",
+   "answer": "It reports assessed extinction risk against five explicit criteria with stated data requirements. It is not a measure of population size, of ecological importance, or of extinction rate. Data Deficient in particular means the assessment could not be made, not that the species is secure."
+  },
+  {
+   "question": "Is ecological restoration effective?",
+   "answer": "Published syntheses find that restored sites recover structure faster than function, and that both are usually still incomplete when monitoring ends. Whether a project counts as a success depends largely on the reference state chosen, which is a value judgement presented as a technical parameter."
+  },
+  {
+   "question": "Are all introduced species invasive?",
+   "answer": "No. Most introduced species fail to establish, and most of those that establish do not spread or cause measurable harm. The term invasive is reserved for the minority that do, which is why blanket claims about introduced species usually overstate the evidence."
+  },
+  {
+   "question": "What does the 30 per cent protection target actually require?",
+   "answer": "It specifies area, not outcome. A target stated in area can be met by designating places that were already under little pressure, without changing protection level, enforcement or ecological representativeness — which is why area coverage and conservation effect are tracked separately."
+  },
+  {
+   "question": "Why is prioritisation unavoidable in conservation?",
+   "answer": "Because budgets are finite and threats are not. Systematic conservation planning makes the trade-off explicit through complementarity and cost rather than leaving it to be made implicitly by whichever proposals arrive first."
+  }
+ ],
+ "subtopic:ecology:oceans": [
+  {
+   "question": "Is the ocean becoming acidic?",
+   "answer": "No — seawater is alkaline and remains so on every assessed pathway. Acidification names a direction of travel, a fall in pH, in the same way that warming names a direction without implying the planet is hot. The chemically consequential quantity is usually carbonate saturation rather than pH itself."
+  },
+  {
+   "question": "Why is the deep sea described as barely explored?",
+   "answer": "Because sampling is expensive and gear-limited. Large areas have been mapped at coarse resolution from ships and satellites, which is not the same as having been observed biologically. Estimates of undescribed deep-sea diversity are extrapolations from sparse sampling, and they carry that uncertainty."
+  },
+  {
+   "question": "What does maximum sustainable yield mean in fisheries?",
+   "answer": "It is a reference point derived from a population model, not a measured quantity. Its value depends on model structure and on recruitment assumptions, and it shifts as productivity changes, which is why modern management pairs it with precautionary reference points rather than fishing to it."
+  },
+  {
+   "question": "Do marine protected areas work?",
+   "answer": "The evidence depends almost entirely on protection level. Fully protected reserves show large and consistent increases in biomass; partially protected areas show much weaker and more variable effects. Averaging across both is the main way this evidence gets misreported."
+  },
+  {
+   "question": "Where does most ocean productivity happen?",
+   "answer": "Disproportionately in upwelling regions, where wind brings nutrient-rich water to the surface. These occupy a small share of ocean area and support a large share of global fish catch, which is why fisheries in them track climate variability closely."
+  },
+  {
+   "question": "Is there a floating island of plastic in the Pacific?",
+   "answer": "Not in the sense the phrase suggests. The gyres concentrate small fragments at low density across large areas rather than forming a solid mass. The larger open question is the mismatch between plastic estimated to enter the ocean and the far smaller amount measured at the surface."
+  }
+ ],
+ "subtopic:ecology:freshwater": [
+  {
+   "question": "Why does freshwater biodiversity decline faster than terrestrial?",
+   "answer": "Freshwater habitats are dendritic and isolated, which produces high endemism and leaves species with nowhere to move when conditions change. They also concentrate abstraction, pollution and barrier construction. Monitoring is sparsest in exactly the regions with the highest endemism, so the declines are both real and imprecisely measured."
+  },
+  {
+   "question": "What is a natural flow regime and why does it matter?",
+   "answer": "It is the characteristic pattern of a river's flow — magnitude, frequency, duration, timing and rate of change. River ecosystems are organised by the whole pattern, not by average discharge, which is why a dam that preserves annual volume can still restructure the ecosystem downstream."
+  },
+  {
+   "question": "Why do lakes stay eutrophic after nutrient inputs are cut?",
+   "answer": "Because phosphorus stored in sediment is released back into the water when bottom water goes anoxic. This internal loading can sustain blooms for years or decades after external inputs fall, which is why lake recovery lags management measures."
+  },
+  {
+   "question": "Is groundwater renewable?",
+   "answer": "It depends on the aquifer. Where abstraction exceeds recharge the water is being mined rather than harvested, and in arid regions recharge can be so slow that the water being pumped fell as rain thousands of years ago. Land subsidence from over-abstraction is not reversible at all."
+  },
+  {
+   "question": "What does a water-quality measurement actually capture?",
+   "answer": "A chemical sample captures conditions at one instant. Biological indices, built from the invertebrate or algal community present, integrate conditions over weeks and therefore record episodic pollution that a spot sample taken the next day would miss entirely."
+  },
+  {
+   "question": "How much of the world's wetlands have been lost?",
+   "answer": "Published loss figures vary widely because wetland definition and delineation drive the statistic, and because the historical baselines differ by region and period. The direction is consistent across assessments; the magnitude should be quoted with its source and its baseline."
+  }
+ ],
+ "subtopic:ecology:forests": [
+  {
+   "question": "Why do deforestation figures differ between sources?",
+   "answer": "Because they measure different things. FAO reports a land-use category with a canopy-cover threshold, counting neither harvest that will regenerate nor plantation establishment as deforestation. Satellite products measure tree-cover loss regardless of cause or land use. Neither is more accurate; they answer different questions."
+  },
+  {
+   "question": "Is forest degradation the same as deforestation?",
+   "answer": "No. Degradation reduces structure, biomass or function without converting the land to another use. It is much harder to detect, because optical satellites see clearance far better than thinning, and estimates of its emissions carry considerably wider uncertainty."
+  },
+  {
+   "question": "How is forest carbon measured?",
+   "answer": "Almost never by weighing trees. Field plots record diameter and height, and allometric equations convert those to biomass. The equations are fitted to limited destructive-harvest data, and applying one outside its size range or region is a major and frequently unreported source of error."
+  },
+  {
+   "question": "Does planting trees reliably store carbon?",
+   "answer": "It depends on what is planted, where, and whether it survives. Natural regeneration often outperforms planting on survival and cost. In boreal and some temperate settings, the albedo change from darkening the land surface partly offsets the carbon benefit."
+  },
+  {
+   "question": "Is fire always bad for forests?",
+   "answer": "No. Fire is intrinsic to many forest types and their species composition reflects a fire regime. What matters is whether the current regime departs from the historical one, and the direction of that departure differs by biome — some systems are burning more than they did, others less."
+  },
+  {
+   "question": "Where is most forest carbon stored?",
+   "answer": "Not in the trunks. Belowground biomass and soil carbon together typically exceed aboveground biomass, and they are the pools measured least well, which is why total forest carbon estimates carry more uncertainty than canopy-based figures suggest."
+  }
+ ],
+ "subtopic:ecology:soils": [
+  {
+   "question": "Why is soil carbon so hard to measure?",
+   "answer": "Because the annual change under improved management is small relative to both the existing stock and the spatial variability within a single field. Detecting it requires sample sizes that most crediting schemes do not take, which is the central difficulty in soil-carbon markets."
+  },
+  {
+   "question": "What is the equivalent-soil-mass correction?",
+   "answer": "A way of comparing carbon stocks by mass of soil rather than by fixed depth. Management that loosens soil lowers bulk density, so a fixed-depth sample contains less soil and appears to have lost carbon when nothing has changed. Recalculating on an equivalent-mass basis can reverse the conclusion."
+  },
+  {
+   "question": "What actually makes soil carbon stable?",
+   "answer": "Current evidence points to microbial necromass associated with mineral surfaces rather than to intrinsically recalcitrant plant compounds. That revision matters practically: stabilisation depends on mineral protection and microbial processing rather than on the chemistry of the litter added."
+  },
+  {
+   "question": "How fast does soil form compared with how fast it erodes?",
+   "answer": "Formation is far slower than erosion under most cultivated conditions, which is why the ratio rather than the erosion rate alone is the meaningful quantity. Modelled and measured erosion rates for the same landscape frequently differ by a factor of several."
+  },
+  {
+   "question": "Is desertification deserts advancing?",
+   "answer": "No. Desertification means land degradation occurring in drylands. It is a process of declining productivity that can happen far from any desert margin, and framing it as advancing sand misdirects both the diagnosis and the response."
+  },
+  {
+   "question": "Why do global land-degradation estimates vary so much?",
+   "answer": "Because definition, baseline and indicator all vary between assessments. Satellite greening and ground-based degradation assessments can point in opposite directions for the same region, and neither is simply wrong — they measure different properties."
+  }
+ ],
+ "subtopic:ecology:pollution": [
+  {
+   "question": "Is there a safe level of fine particulate matter?",
+   "answer": "The evidence has moved away from threshold assumptions. Concentration-response functions for PM2.5 continue to show associations at low concentrations, which is why guideline values are described as levels below which risk is lower rather than as levels at which it is absent."
+  },
+  {
+   "question": "What does an air quality index number mean?",
+   "answer": "It compresses several pollutant concentrations into one figure using breakpoints that differ between countries. That makes it useful for daily communication and unsuitable for comparing air quality across jurisdictions, because identical air can produce different index values."
+  },
+  {
+   "question": "Are microplastics harmful?",
+   "answer": "Environmental occurrence is well documented. Evidence for population-level ecological effects or for human health effects at measured exposures is much weaker, and early studies are hard to compare because sampling and contamination control were not standardised."
+  },
+  {
+   "question": "Why do persistent organic pollutants accumulate in the Arctic?",
+   "answer": "Because they evaporate in warm regions and condense in cold ones, a process called cold condensation. Combined with resistance to degradation and biomagnification through food chains, it concentrates them in Arctic wildlife and people far from any source."
+  },
+  {
+   "question": "Does the toxicity of a heavy metal depend on the amount present?",
+   "answer": "On the chemical form as much as the amount. Mercury deposited from the atmosphere is comparatively poorly absorbed; it is conversion to methylmercury by microorganisms, and biomagnification of that form, that creates the exposure pathway to people."
+  },
+  {
+   "question": "Are noise and light really pollution?",
+   "answer": "They meet the definition — energy introduced into the environment at a level that causes harm — and there is documented evidence of behavioural and physiological effects in wildlife. They differ from chemical pollutants in leaving no residue, which is why they were slower to be regulated."
+  }
+ ],
+ "subtopic:biology:microbiology": [
+  {
+   "question": "Why can most microbes not be grown in a laboratory?",
+   "answer": "The gap between cells visible under a microscope and colonies growing on plates has been recognised for a century. It reflects the media and conditions offered rather than a property of the organisms — culturomics has since recovered many taxa once described as unculturable."
+  },
+  {
+   "question": "What can a microbiome sequencing study establish?",
+   "answer": "That certain sequences were present in certain relative proportions. Establishing that a microbial community causes an outcome requires a different design — gnotobiotic models, transplant experiments or targeted colonisation — and most published microbiome claims rest on association alone."
+  },
+  {
+   "question": "Are viruses alive?",
+   "answer": "It depends on the definition used, which is why the question is more about biology's categories than about viruses. They replicate, evolve and carry genetic information, and they cannot metabolise or replicate outside a host cell."
+  },
+  {
+   "question": "How do bacteria acquire antibiotic resistance?",
+   "answer": "By mutation under selection, and by acquiring resistance genes horizontally from other bacteria including unrelated species. The second route is why resistance can appear in a lineage that has never been exposed to the drug."
+  },
+  {
+   "question": "What makes archaea different from bacteria?",
+   "answer": "Their cell membranes are built from ether-linked lipids rather than ester-linked, along with substantial differences in transcription and translation machinery. The separation was recognised from ribosomal RNA sequence rather than from appearance, which is why it took until the 1970s."
+  },
+  {
+   "question": "Why do microorganisms matter for the climate system?",
+   "answer": "Because they mediate the transformations that close the nitrogen, sulfur and carbon cycles — nitrogen fixation, nitrification, denitrification, methanogenesis and methane oxidation. Several major greenhouse-gas fluxes are microbial processes."
+  }
+ ],
+ "subtopic:biology:physiology": [
+  {
+   "question": "Why do fish gills extract oxygen better than lungs?",
+   "answer": "Because of countercurrent exchange: blood and water flow in opposite directions, so a diffusion gradient is maintained along the whole exchange surface. Tidal ventilation in a lung cannot maintain that gradient, which is one reason air-breathing works with lower extraction efficiency."
+  },
+  {
+   "question": "What does homeostasis actually mean?",
+   "answer": "Maintenance of internal conditions within limits by negative feedback around set points. The set points themselves are adjustable — the refinement usually called allostasis — which is why a fixed thermostat is a useful but incomplete analogy."
+  },
+  {
+   "question": "How does the immune system recognise something it has never seen?",
+   "answer": "It does not design a receptor on demand. A vast repertoire of receptors is generated in advance by somatic recombination, and the antigen selects and expands the few cells whose receptors already bind it. That is also what produces immunological memory."
+  },
+  {
+   "question": "Why does an action potential not vary in size?",
+   "answer": "Because the sodium channels that produce it open in a positive-feedback loop once the membrane crosses threshold. The response is therefore all-or-nothing, and information is carried by firing rate and timing rather than by amplitude."
+  },
+  {
+   "question": "How does water reach the top of a tall tree without a pump?",
+   "answer": "Evaporation at the leaf surface puts the water column under tension, and hydrogen bonding holds the column together. The column is therefore under negative pressure and can break — cavitation — which is what drought tolerance in trees is largely about resisting."
+  },
+  {
+   "question": "Is thermoregulation just about staying warm?",
+   "answer": "No. It is an energy budget in both directions, and the metabolic cost of leaving the thermal neutral zone constrains where an animal can live. Heat stress physiology is becoming the more consequential half as extreme temperatures become more common."
+  }
+ ],
+ "subtopic:biology:taxonomy": [
+  {
+   "question": "What is a species?",
+   "answer": "There is no single definition that covers sexual, asexual and freely hybridising lineages. Working taxonomists use operational criteria — morphological, genetic, ecological — chosen for the group at hand, which is why the question is answered differently in different parts of the tree."
+  },
+  {
+   "question": "How many species are there?",
+   "answer": "Described species number in the low millions; total estimates span an order of magnitude depending on the extrapolation method used. The disagreement is largely about fungi and microorganisms, where sampling is thinnest and the species concept is least tractable."
+  },
+  {
+   "question": "Does splitting a species into three change anything real?",
+   "answer": "Not in the field, but a great deal on paper. It changes the number of threatened taxa, the area that triggers legal protection, and the apparent trend in biodiversity indices. Taxonomic inflation is a recognised confounder in conservation statistics."
+  },
+  {
+   "question": "Are there three domains of life or two?",
+   "answer": "It is genuinely unsettled. The three-domain topology came from ribosomal RNA; evidence from Asgard archaea supports a two-domain tree in which eukaryotes arise from within the archaea. Which is recovered depends on the genes and models used."
+  },
+  {
+   "question": "Why do different genes give different evolutionary trees?",
+   "answer": "Mainly because of incomplete lineage sorting, where ancestral variation persists through successive speciation events. It is expected rather than anomalous when speciation events are close together, and recognising it turned gene-tree conflict from a nuisance into a signal."
+  },
+  {
+   "question": "What do the naming codes actually govern?",
+   "answer": "Which name is valid and how priority is settled — not which organisms constitute a species. That separation is why nomenclature can be stable while the underlying classification is disputed."
+  }
+ ],
+ "subtopic:biology:biotechnology": [
+  {
+   "question": "Is CRISPR precise?",
+   "answer": "Targeting is precise; the outcome is not. Cutting is directed by a guide RNA, but the repair is done by the cell, and its default pathway produces small insertions and deletions. That is why knockouts are straightforward and precise replacements are hard."
+  },
+  {
+   "question": "Why do sequencing platforms with different read lengths matter?",
+   "answer": "Because repetitive and structurally complex regions of a genome cannot be resolved by reads shorter than the repeat, however much coverage is added. Several regions of the human genome stayed unresolved until long reads became available."
+  },
+  {
+   "question": "Has protein structure prediction been solved?",
+   "answer": "For well-behaved single-chain proteins, predictions now approach experimental accuracy. Disordered regions, complexes, conformational change and the effect of individual mutations remain weak, and a predicted structure is not by itself a functional explanation."
+  },
+  {
+   "question": "Are gene-edited crops the same as transgenic crops?",
+   "answer": "Not technically, and jurisdictions differ on whether they should be regulated the same way. A gene-edited crop may carry no DNA from another species, which is the basis on which several regulators treat it differently from a transgenic one."
+  },
+  {
+   "question": "What does synthetic biology actually deliver today?",
+   "answer": "Its clearest results are in metabolic engineering — cells modified to produce a chosen compound. Its founding ambition of standardised interchangeable parts is undercut by context-dependence and by evolutionary instability in production strains."
+  },
+  {
+   "question": "Why is bioinformatics a source of irreproducibility?",
+   "answer": "Because results depend on software versions, parameter choices and annotation databases that change over time, and because omics datasets invite large numbers of statistical tests. The same raw data can yield different published findings without anyone doing anything wrong."
+  }
+ ],
+ "subtopic:physics:climate-physics": [
+  {
+   "question": "Why is the greenhouse effect not like a blanket?",
+   "answer": "A blanket suppresses convection; the atmosphere does not work that way. Adding a greenhouse gas raises the altitude from which infrared radiation escapes to space into colder air, so the planet emits less until the surface warms to restore balance. The emission-height argument is the correct one."
+  },
+  {
+   "question": "If CO2 absorption bands are saturated, why does more CO2 matter?",
+   "answer": "Saturation applies at the band centre, where absorption is already essentially complete. Adding CO2 strengthens absorption in the wings of the band and raises the effective emission height, which is why forcing continues to grow, roughly logarithmically rather than linearly."
+  },
+  {
+   "question": "What is a lapse rate and why does it matter?",
+   "answer": "It is the rate at which air temperature falls with height. Comparing the environmental lapse rate with the adiabatic rate determines whether air is stable or convects, which governs cloud formation, storm development and how pollution disperses."
+  },
+  {
+   "question": "Why are clouds the largest uncertainty in climate physics?",
+   "answer": "Because they both reflect sunlight and trap infrared, and the net effect depends on altitude, thickness and droplet size — properties that occur at scales far below a model grid cell and must therefore be parameterised."
+  },
+  {
+   "question": "What does a climate model actually solve?",
+   "answer": "The equations of fluid motion, thermodynamics and radiative transfer on a three-dimensional grid. Processes smaller than a grid cell — convection, cloud microphysics, boundary-layer turbulence — are parameterised, and that is where most of the spread between models comes from."
+  },
+  {
+   "question": "How is the Earth's interior known without sampling it?",
+   "answer": "Almost entirely from seismic wave travel times, supplemented by gravity, magnetism and heat flow. The shadow zone where shear waves are not detected is the direct evidence that the outer core is liquid."
+  }
+ ],
+ "subtopic:physics:mechanics-waves": [
+  {
+   "question": "What does the Reynolds number tell you?",
+   "answer": "The ratio of inertial to viscous forces in a flow, and therefore whether it will be laminar or turbulent. It is why a swimming bacterium and a moving ship are different physical problems rather than the same problem at two scales."
+  },
+  {
+   "question": "Is Bernoulli's principle the reason aircraft fly?",
+   "answer": "Only partly, and the popular equal-transit-time explanation is wrong. Lift is better understood through circulation and the downward deflection of air. Bernoulli's principle is correct physics that is frequently applied to the wrong argument."
+  },
+  {
+   "question": "Can anything travel faster than light in a medium?",
+   "answer": "The group velocity of a wave packet can exceed the phase velocity or behave unexpectedly in dispersive media, and light in a medium travels slower than in vacuum so particles can outrun it. Neither transmits information faster than light in vacuum."
+  },
+  {
+   "question": "Why can't a telescope resolve arbitrarily fine detail?",
+   "answer": "Because diffraction at the aperture sets a limit fixed by wavelength and aperture size, described by the Rayleigh criterion. Improving the optics does not evade it; only a larger aperture, a shorter wavelength or a different technique does."
+  },
+  {
+   "question": "Can decibel values be added together?",
+   "answer": "No. The decibel is a logarithmic ratio, so two equal sources combine to about three decibels more than one, not twice the value. A decibel figure is also meaningless without its reference level and its frequency weighting."
+  },
+  {
+   "question": "What is the difference between accuracy and precision?",
+   "answer": "Accuracy is closeness to the true value; precision is the spread of repeated measurements. An instrument can be precise and wrong. A stated uncertainty combines evaluations of both, and it means nothing without its coverage factor."
+  }
+ ],
+ "subtopic:physics:matter-radiation": [
+  {
+   "question": "Why do both fission and fusion release energy?",
+   "answer": "Because binding energy per nucleon peaks near iron. Splitting a heavy nucleus moves its fragments up that curve, and fusing light nuclei does the same from the other side. One curve accounts for both."
+  },
+  {
+   "question": "What is the difference between becquerels, grays and sieverts?",
+   "answer": "They measure three different things: decays per second, energy deposited per kilogram of tissue, and that energy weighted by radiation type and tissue sensitivity. Treating them as interchangeable is the most common error in radiation reporting."
+  },
+  {
+   "question": "Is there a safe dose of ionising radiation?",
+   "answer": "Deterministic effects have thresholds. For stochastic effects such as cancer, radiological protection uses a linear no-threshold model because it is prudent and tractable, not because low-dose effects have been demonstrated. The shape of the relationship below about 100 mSv is genuinely unresolved."
+  },
+  {
+   "question": "Why does a shut-down reactor still need cooling?",
+   "answer": "Because fission products continue to decay and release heat after the chain reaction stops. Decay heat is why loss of cooling after shutdown has been the mechanism in the major reactor accidents rather than an uncontrolled chain reaction."
+  },
+  {
+   "question": "Has fusion achieved breakeven?",
+   "answer": "Depends which quantity is meant. Fusion energy has exceeded the laser energy delivered to a target — scientific gain. Engineering gain, comparing output with the facility's total energy draw, has not been reached, and no fusion device has produced net electricity."
+  },
+  {
+   "question": "What does the Standard Model leave out?",
+   "answer": "Gravity, dark matter, dark energy, the matter–antimatter asymmetry, and the pattern of three particle generations. Neutrino mass is already confirmed physics beyond the model as originally written. It accounts for laboratory measurements and for roughly five per cent of the universe."
+  }
+ ]
+}
