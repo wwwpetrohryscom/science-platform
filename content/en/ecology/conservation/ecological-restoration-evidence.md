@@ -1,5 +1,6 @@
 ---
 title: 'Ecological restoration: what the meta-analyses show, and what counts as success'
+metaTitle: 'Ecological restoration: what the meta-analyses show'
 excerpt: Restoration reliably improves on a degraded baseline and reliably falls short of a reference one. Which comparison a study makes decides the verdict, and few projects are watched long enough to settle it.
 type: expert
 author: biodiversity-conservation-desk

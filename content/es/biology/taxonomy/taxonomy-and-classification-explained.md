@@ -1,5 +1,6 @@
 ---
 title: 'Taxonomía: nombrar, jerarquizar y las reglas que mantienen estables los nombres'
+metaTitle: 'Taxonomía: nombrar, jerarquizar y estabilizar los nombres'
 excerpt: Nombrar un organismo es un procedimiento regido por reglas, con sus códigos, tipos y reglas de prioridad, y es distinto del juicio científico sobre qué organismos van juntos. Así funciona esa maquinaria y así es donde se tensa.
 type: pillar
 author: biology-life-sciences-desk

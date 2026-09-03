@@ -1,5 +1,6 @@
 ---
 title: 'Water quality: the standard parameters, and what routine monitoring cannot see'
+metaTitle: 'Water quality: the parameters, and what monitoring misses'
 excerpt: Water quality is not a property of water but a comparison between a measurement and a purpose. What the routine physical, chemical and biological parameters record, how a legal threshold is built, and which failures the apparatus is poor at detecting.
 type: expert
 author: oceans-freshwater-desk

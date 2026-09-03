@@ -60,7 +60,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "Global Climate Change",
       organization: "NASA",
-      url: "https://climate.nasa.gov/",
+      url: "https://science.nasa.gov/climate-change/",
       type: "primary",
     },
     {
@@ -78,6 +78,10 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "Climate.gov",
       organization: "NOAA",
+      // The site root now redirects to noaa.gov/climate, but every deep
+      // path the corpus cites is still served here. Following the root
+      // redirect would orphan those citations from the registry, so the
+      // identity stays with climate.gov.
       url: "https://www.climate.gov/",
       type: "primary",
     },
@@ -114,7 +118,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "State of the World's Forests",
       organization: "FAO",
-      url: "https://www.fao.org/",
+      url: "https://www.fao.org/home/en/",
       type: "report",
     },
     {
@@ -495,7 +499,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "Global Climate Observing System",
       organization: "WMO / GCOS",
-      url: "https://gcos.wmo.int/",
+      url: "https://gcos.wmo.int/site/global-climate-observing-system-gcos",
       type: "primary",
       topicRelevance:
         "Definition and specification of the Essential Climate Variables and their observing requirements",
@@ -670,7 +674,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "International Council for the Exploration of the Sea",
       organization: "ICES",
-      url: "https://www.ices.dk/",
+      url: "https://www.ices.dk/Pages/default.aspx",
       type: "report",
       topicRelevance: "Fish stock assessments and marine ecosystem advice for the North Atlantic",
       lastReviewed: "2026-09-02",
@@ -790,7 +794,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "PLOS journals",
       organization: "PLOS",
-      url: "https://journals.plos.org/",
+      url: "https://plos.org/our-journals/",
       type: "peer-reviewed",
       topicRelevance: "Open-access peer-reviewed research across ecology and biology",
       lastReviewed: "2026-09-02",
@@ -1008,7 +1012,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       organization: "NASA and Oak Ridge National Laboratory",
       url: "https://daac.ornl.gov/",
       type: "dataset",
-      topicRelevance: "Archived biogeochemical and terrestrial ecology datasets with documented provenance",
+      topicRelevance: "Archived biogeochemical and terrestrial ecology datasets with documented provenance. The root redirects into the NASA Earthdata centre listing; the DAAC's own dataset paths are still served here",
       lastReviewed: "2026-09-02",
     },
     {
@@ -1060,9 +1064,9 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       lastReviewed: "2026-09-02",
     },
     {
-      name: "Global Forest Watch",
+      name: "Global Nature Watch (formerly Global Forest Watch)",
       organization: "World Resources Institute",
-      url: "https://www.globalforestwatch.org/",
+      url: "https://globalnaturewatch.org/",
       type: "dataset",
       topicRelevance: "Satellite tree-cover loss and gain analyses and the methodological notes that accompany them",
       lastReviewed: "2026-09-03",
@@ -1281,7 +1285,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "PLOS Biology and PLOS Pathogens",
       organization: "PLOS",
-      url: "https://journals.plos.org/",
+      url: "https://plos.org/our-journals/",
       type: "peer-reviewed",
       topicRelevance: "Open-access peer-reviewed biology",
       lastReviewed: "2026-09-02",
@@ -1395,7 +1399,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "Solar Energy Technologies Office",
       organization: "U.S. Department of Energy",
-      url: "https://www.energy.gov/eere/solar",
+      url: "https://www.energy.gov/cmei/systems/integrated-energy-systems-office",
       type: "primary",
     },
     {
@@ -1500,7 +1504,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "NASA Climate",
       organization: "NASA",
-      url: "https://climate.nasa.gov/",
+      url: "https://science.nasa.gov/climate-change/",
       type: "primary",
       topicRelevance:
         "Earth energy balance, solar irradiance, and global-change indicators",
@@ -1527,7 +1531,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "Climate.gov",
       organization: "NOAA",
-      url: "https://www.climate.gov/",
+      url: "https://www.noaa.gov/climate",
       type: "primary",
       topicRelevance:
         "Earth energy budget, radiation, and climate-physics explainers",
@@ -1581,7 +1585,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "NIST Reference on Constants, Units and Uncertainty",
       organization: "NIST",
-      url: "https://physics.nist.gov/",
+      url: "https://www.nist.gov/pml",
       type: "primary",
       topicRelevance: "CODATA values, SI definitions, and uncertainty conventions",
       lastReviewed: "2026-09-02",
@@ -1589,7 +1593,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "SI Brochure",
       organization: "BIPM",
-      url: "https://www.bipm.org/",
+      url: "https://www.bipm.org/en/",
       type: "primary",
       topicRelevance: "Definitive definitions of the SI base and derived units",
       lastReviewed: "2026-09-02",
@@ -1621,7 +1625,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "UNSCEAR reports",
       organization: "UNSCEAR",
-      url: "https://www.unscear.org/",
+      url: "https://www.unscear.org/unscear/index.html",
       type: "report",
       topicRelevance: "Assessments of sources and effects of ionising radiation",
       lastReviewed: "2026-09-02",
@@ -1840,6 +1844,14 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       url: "https://www.nobelprize.org/",
       type: "report",
       topicRelevance: "Citations for awarded discoveries, used as a dated record of what was established and when",
+      lastReviewed: "2026-09-03",
+    },
+    {
+      name: "Chandra X-ray Observatory",
+      organization: "NASA / Smithsonian Astrophysical Observatory",
+      url: "https://chandra.harvard.edu/",
+      type: "dataset",
+      topicRelevance: "X-ray astronomy mission documentation; cited for instrument and waveband facts, not for physics claims",
       lastReviewed: "2026-09-03",
     },
   ],

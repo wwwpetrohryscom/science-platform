@@ -1,5 +1,6 @@
 ---
 title: Diurnal and seasonal storage are treated as one problem and are not
+metaTitle: 'Seasonal storage is not diurnal storage'
 excerpt: A store cycled every day and a store cycled twice a year are governed by different cost terms, and the technologies that won daily balancing are structurally poor candidates for multi-week duty.
 argument: How often a store is cycled decides which of its costs dominates. That single parameter separates the technologies already deployed at scale from the ones a very-high-renewable grid might need, and it explains why published estimates of the storage requirement differ by an order of magnitude.
 category: physics

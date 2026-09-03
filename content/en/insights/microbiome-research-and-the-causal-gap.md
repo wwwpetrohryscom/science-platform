@@ -1,5 +1,6 @@
 ---
 title: Microbiome research produces associations far faster than it produces causes
+metaTitle: 'Microbiome research and the causal gap'
 excerpt: Sequencing made microbial community composition cheap to measure and did nothing to make causation cheaper to establish. A systematic review found that 36 of 38 human-microbiota transfer studies in rodents reported a positive result.
 argument: The rate-limiting step in microbiome science is study design, not data. Composition is now trivial to measure, while the designs that can support a causal claim remain scarce, expensive and narrow in what they generalise to — and the design most often used to claim causation reports positive findings at a rate the underlying biology is unlikely to support.
 category: biology

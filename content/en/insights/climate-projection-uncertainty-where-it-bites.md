@@ -1,5 +1,6 @@
 ---
 title: Not all climate-projection uncertainty is the same kind, and only one kind answers to better models
+metaTitle: 'Climate-projection uncertainty: three kinds, one reducible'
 excerpt: Scenario choice, model response and internal variability contribute to projection spread in proportions that shift with lead time and spatial scale. Only one of the three is a modelling problem, and it has not narrowed.
 argument: Climate-projection uncertainty is three different quantities wearing one word. Internal variability dominates the near term at regional scale and is not a model defect; scenario choice dominates the late century and is not a scientific quantity; only model response answers to better physics, and across two model generations its spread widened rather than shrank.
 category: ecology

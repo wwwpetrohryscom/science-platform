@@ -1,5 +1,6 @@
 ---
 title: 'Ocean acidification: the carbonate chemistry, and what the biology actually shows'
+metaTitle: 'Ocean acidification: the chemistry and the biology'
 excerpt: Dissolving CO₂ in seawater adds carbon while removing carbonate ions, which is the whole problem in one sentence. Here is the measured chemistry, the saturation states that follow from it, and where laboratory and field biology part company.
 type: expert
 author: oceans-freshwater-desk

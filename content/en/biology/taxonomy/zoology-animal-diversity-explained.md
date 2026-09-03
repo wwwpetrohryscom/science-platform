@@ -1,5 +1,6 @@
 ---
 title: 'Animal diversity: body plans, and what the phylogenomic revision changed'
+metaTitle: 'Animal diversity: body plans after the phylogenomic revision'
 excerpt: Molecular data reorganised the animal tree in the 1990s and phylogenomics has been revising it ever since. What changed was not the list of phyla but which of them are relatives — and the position of the root is still open.
 type: expert
 author: biology-life-sciences-desk

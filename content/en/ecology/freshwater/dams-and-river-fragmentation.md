@@ -1,5 +1,6 @@
 ---
 title: 'Dams and river fragmentation: barriers, sediment starvation and the removal record'
+metaTitle: 'Dams and river fragmentation: barriers and sediment'
 excerpt: Nobody knows how many barriers fragment the world's rivers, and the ones that dominate the count are too small to appear in any register. What follows from that, for connectivity, sediment, greenhouse gases and the evidence from dam removal.
 type: expert
 author: oceans-freshwater-desk

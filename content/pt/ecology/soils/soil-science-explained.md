@@ -1,5 +1,6 @@
 ---
 title: 'O solo: o recurso de formação mais lenta de que depende quase toda a vida terrestre'
+metaTitle: 'O solo: o recurso que se forma mais lentamente'
 excerpt: O solo é um sistema de quatro fases organizado em horizontes, formado a uma taxa mediana próxima de 0,15 toneladas por hectare e por ano. Essa taxa, e a dificuldade de medir o que o solo contém, condiciona todos os argumentos que se travam a seu respeito.
 type: pillar
 author: soil-land-systems-desk

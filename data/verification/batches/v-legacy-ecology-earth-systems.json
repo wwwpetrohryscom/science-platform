@@ -1,0 +1,492 @@
+{
+  "batchId": "v-legacy-ecology-earth-systems",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent review of a legacy page carried over from before the batch programme. Applied to every page in this set: each citation classified and any publisher or organisation front page removed or repointed, since a front page supports no particular claim; every quantity attributed to an IPCC assessment cross-checked against the downloaded AR6 WG1 chapters; and the prose screened for manufactured consensus, manufactured controversy, unhedged causal claims, unsourced superlatives and figures old enough to have moved. Claims listed as findings were additionally read against a source fetched during this pass.",
+  "articles": [
+    {
+      "slug": "biogeochemical-cycles-explained",
+      "path": "content/en/ecology/earth-systems/biogeochemical-cycles-explained.md",
+      "status": "amended",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "The fast carbon cycle moves between 1,000 and 100,000 million tonnes a year",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+          "disposition": "corrected",
+          "note": "Same unit-conversion error as carbon-cycle-explained, propagated. Corrected to 10,000."
+        },
+        {
+          "claim": "Slow cycle of 100 to 200 million years moving 10 to 100 million tonnes a year",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AR6's 2010-2019 partition of 46 / 23 / 31 per cent",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "biosphere-climate-interactions",
+      "path": "content/en/ecology/earth-systems/biosphere-climate-interactions.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "carbon-cycle-explained",
+      "path": "content/en/ecology/earth-systems/carbon-cycle-explained.md",
+      "status": "amended",
+      "claimsChecked": 4,
+      "findings": [
+        {
+          "claim": "NASA gives the fast carbon cycle as 10^16 to 10^17 grams of carbon a year",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+          "disposition": "corrected",
+          "note": "The article said 1,000 to 100,000 million tonnes. 10^16 g is 10,000 million tonnes, not 1,000. The lower bound was off by a factor of ten from a unit conversion; corrected, and the grams figure is now stated alongside so the conversion is checkable."
+        },
+        {
+          "claim": "About 65,500 billion tonnes of carbon are stored in rocks; a full slow-cycle circuit takes 100 to 200 million years and moves 10 to 100 million tonnes a year",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AR6 gives 10.9 ± 0.9 PgC/yr for 2010-2019, of which 81 to 91 per cent from fossil fuels, partitioned 46 per cent atmosphere / 23 per cent ocean / 31 per cent land",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Executive Summary and Table 5.1",
+          "disposition": "verified",
+          "note": "Quoted to the digit, including the 5.1 ± 0.02, 2.5 ± 0.6 and 3.4 ± 0.9 PgC/yr components."
+        },
+        {
+          "claim": "The airborne fraction has stayed near 44 per cent across six decades",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5",
+          "disposition": "verified",
+          "note": "Chapter 5: 'has remained nearly constant at approximately 44%', with the accompanying high-confidence statement that both sinks have continued to grow."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "climate-feedback-mechanisms",
+      "path": "content/en/ecology/earth-systems/climate-feedback-mechanisms.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "climate-variability-and-teleconnections",
+      "path": "content/en/ecology/earth-systems/climate-variability-and-teleconnections.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "cryosphere-in-the-earth-system",
+      "path": "content/en/ecology/earth-systems/cryosphere-in-the-earth-system.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "earth-system-components-explained",
+      "path": "content/en/ecology/earth-systems/earth-system-components-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "earth-system-models-explained",
+      "path": "content/en/ecology/earth-systems/earth-system-models-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "earth-system-predictability-explained",
+      "path": "content/en/ecology/earth-systems/earth-system-predictability-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "earth-system-science-explained",
+      "path": "content/en/ecology/earth-systems/earth-system-science-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "AR6's 2010-2019 carbon partition and the 10.9 ± 0.9 PgC/yr total",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Ocean heat uptake accounts for about 91 per cent of the total change in the global energy inventory",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7",
+          "disposition": "verified",
+          "note": "Confirmed against the chapter during the previous wave's review of the solar-radiation article."
+        },
+        {
+          "claim": "NASA describes carbon taking 100 to 200 million years to complete the slow cycle",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "earth-system-tipping-points",
+      "path": "content/en/ecology/earth-systems/earth-system-tipping-points.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "el-nino-la-nina-enso-explained",
+      "path": "content/en/ecology/earth-systems/el-nino-la-nina-enso-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "essential-climate-variables-explained",
+      "path": "content/en/ecology/earth-systems/essential-climate-variables-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "global-water-cycle-explained",
+      "path": "content/en/ecology/earth-systems/global-water-cycle-explained.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        {
+          "claim": "USGS puts total water at about 1,386 million cubic kilometres, 96.5 per cent in the oceans",
+          "sourceChecked": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth",
+          "disposition": "verified",
+          "note": "USGS: 1,386,000,000 km3; 'the oceans hold about 96.5 percent of all Earth's water'."
+        },
+        {
+          "claim": "Over 68 per cent of freshwater is in ice and glaciers and another 30 per cent is groundwater",
+          "sourceChecked": "Same USGS page",
+          "disposition": "verified",
+          "note": "USGS: 'Of total freshwater, over 68 percent is locked up in ice and glaciers. Another 30 percent of freshwater is in the ground.'"
+        },
+        {
+          "claim": "The atmosphere holds about 12,900 cubic kilometres, approximately 0.001 per cent of the global total",
+          "sourceChecked": "Same USGS page",
+          "disposition": "verified",
+          "note": "Both figures appear in the USGS table."
+        },
+        {
+          "claim": "AR6 gives a very likely range of 1 to 3 per cent per degree for the increase in global mean precipitation and evaporation",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 8",
+          "disposition": "verified",
+          "note": "Chapter 8: 'high confidence that global mean precipitation and evaporation increase with global warming, but the estimated rate is model-dependent (very likely range of 1-3% per 1C)'."
+        },
+        {
+          "claim": "AR6 attaches high confidence to about 7 per cent per degree in near-surface moisture-holding capacity explaining a similar intensification of heavy precipitation",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 8",
+          "disposition": "verified",
+          "note": "Quoted almost verbatim from the chapter."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "ice-albedo-feedback-explained",
+      "path": "content/en/ecology/earth-systems/ice-albedo-feedback-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "nitrogen-cycle-explained",
+      "path": "content/en/ecology/earth-systems/nitrogen-cycle-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "ocean-circulation-and-climate",
+      "path": "content/en/ecology/earth-systems/ocean-circulation-and-climate.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "water-vapor-feedback-explained",
+      "path": "content/en/ecology/earth-systems/water-vapor-feedback-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    }
+  ]
+}

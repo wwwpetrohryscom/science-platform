@@ -1,5 +1,6 @@
 ---
 title: 'La mécanique quantique : les règles de travail, sans la philosophie'
+metaTitle: 'Mécanique quantique : les règles de travail'
 excerpt: La théorie quantique fixe des constantes physiques à dix chiffres significatifs alors que son interprétation reste ouverte. Cette page expose les règles de travail — amplitudes, observables, quantification, indétermination, statistiques de spin, décohérence — et signale où se situent les véritables lacunes.
 type: pillar
 author: physics-energy-desk

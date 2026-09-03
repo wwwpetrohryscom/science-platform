@@ -59,9 +59,20 @@ export async function SubtopicHub({
     getPillarForSubtopic(locale, category, subtopicSlug),
   ]);
 
-  const restOfSub = pillar
+  const withoutPillar = pillar
     ? allInSub.filter((a) => a.slug !== pillar.slug)
     : allInSub;
+  // Locale-native first, same rule as the category hub: a subtopic
+  // with one translated article should present that article first
+  // rather than burying it under English fallbacks sorted by date.
+  const restOfSub = [
+    ...withoutPillar.filter((a) => !a.localeFallback),
+    ...withoutPillar.filter((a) => a.localeFallback),
+  ];
+  const nativeInSub =
+    (pillar && !pillar.localeFallback ? 1 : 0) +
+    restOfSub.filter((a) => !a.localeFallback).length;
+  const totalInSub = (pillar ? 1 : 0) + restOfSub.length;
   const siblings = getSiblingSubtopics(category, subtopicSlug);
   const grouped = groupByIntent(restOfSub);
   const subtopicFaqs = getSubtopicFaqs(category, subtopicSlug);
@@ -132,6 +143,18 @@ export async function SubtopicHub({
               })
             : t("hub.subtopic_scope", { count: allInSub.length })}
         </p>
+        {/* Depth in this locale, stated on the hub. The scope line
+            above counts the whole subtopic; without this the count
+            reads as a count of translated pages. */}
+        {locale !== DEFAULT_LOCALE && nativeInSub < totalInSub && (
+          <p className="mt-2 text-sm text-ink-subtle">
+            {t("article.locale_depth_note", {
+              native: nativeInSub,
+              total: totalInSub,
+              language: localeMeta[locale].nativeName,
+            })}
+          </p>
+        )}
       </section>
 
       {/* Pillar feature */}

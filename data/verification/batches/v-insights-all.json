@@ -1,0 +1,372 @@
+{
+  "batchId": "v-insights-all",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent verification of all 18 Insights. For each, the source notes were checked against the identifier they name (Crossref or Europe PMC for DOIs and PMCIDs, the agency page for datasets, the downloaded chapter PDFs for IPCC assessments), and the load-bearing numeric claims were read against the abstract or the passage that carries them. Two insights were reviewed in the previous wave and their findings are carried forward rather than repeated.",
+  "articles": [
+    {
+      "slug": "adaptation-under-rapid-environmental-change",
+      "path": "content/en/insights/adaptation-under-rapid-environmental-change.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "A 2023 systematic review in Environmental Evidence found 46.6 per cent of individual observations went towards higher latitudes, elevations or depths",
+          "sourceChecked": "https://doi.org/10.1186/s13750-023-00296-0",
+          "disposition": "verified",
+          "note": "DOI resolves to 'Climate change and the global redistribution of biodiversity: substantial variation in modelled and observed range shifts', Environmental Evidence 2023, which is the paper the source note describes."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "ai-for-science-bottleneck",
+      "path": "content/en/insights/ai-for-science-bottleneck.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        {
+          "claim": "Carried forward from the wave-2 review, which replaced two publisher-homepage citations with the FAIR principles paper and the AlphaFold paper and added the CASP counter-example",
+          "sourceChecked": "wave-2 ledger",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "attribution-science-and-its-uses",
+      "path": "content/en/insights/attribution-science-and-its-uses.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "The 2010 Moscow heat record analyses, cited to two Geophysical Research Letters papers and a PNAS paper",
+          "sourceChecked": "10.1029/2010GL046582, 10.1029/2011GL050422, PMC3207670",
+          "disposition": "verified",
+          "note": "All three identifiers resolve to the papers named in the source notes."
+        },
+        {
+          "claim": "The article states explicitly that the 80 per cent figure is a property of a trend in one station series and says nothing about physical causes",
+          "sourceChecked": "same papers",
+          "disposition": "verified",
+          "note": "This is the article limiting its own claim rather than extending it, which is the correct treatment of that result."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "biodiversity-numbers-and-what-they-can-support",
+      "path": "content/en/insights/biodiversity-numbers-and-what-they-can-support.md",
+      "status": "clean",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "The Living Planet Index global mean rests on less than 3 per cent of populations; excluding them switches the global trend to an increase",
+          "sourceChecked": "https://www.nature.com/articles/s41586-020-2920-6",
+          "disposition": "verified",
+          "note": "Abstract: 'this estimate is driven by less than 3% of vertebrate populations; if these extremely declining populations are excluded, the global trend switches to an increase.'"
+        },
+        {
+          "claim": "Randomisation null models show random fluctuations exaggerate declines in the global LPI by 9.6 per cent",
+          "sourceChecked": "https://www.nature.com/articles/s41559-021-01494-0",
+          "disposition": "verified",
+          "note": "Abstract states the 9.6 per cent figure in those words."
+        },
+        {
+          "claim": "More than half of Data Deficient species are predicted to be threatened",
+          "sourceChecked": "https://www.nature.com/articles/s42003-022-03638-9",
+          "disposition": "verified",
+          "note": "Abstract: 7,699 DD species, 17 per cent of the IUCN spatial datasets, 85 per cent of DD amphibians likely threatened."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "carbon-offset-outsourcing-science",
+      "path": "content/en/insights/carbon-offset-outsourcing-science.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "Carried forward from the wave-2 review, which replaced the nature.com homepage citation with the 2024 Nature Communications synthesis and added the ICVCM and Article 6.4 counter-case",
+          "sourceChecked": "wave-2 ledger",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "climate-projection-uncertainty-where-it-bites",
+      "path": "content/en/insights/climate-projection-uncertainty-where-it-bites.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "Averaged over 2021-2040 and across all SSPs, AR6 assesses GSAT as very likely 0.4 to 1.0 degrees above the 1995-2014 mean",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 4, Section 4.3.4",
+          "disposition": "verified",
+          "note": "Chapter 4: 'Averaged over the twenty years of the near term and across all scenarios, GSAT is very likely to be higher than over 1995-2014 by 0.4C-1.0C.'"
+        },
+        {
+          "claim": "By 2081-2100, 1.0-1.8 degrees above 1850-1900 under SSP1-1.9 and 3.3-5.7 under SSP5-8.5",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 4",
+          "disposition": "verified",
+          "note": "Quoted verbatim in Chapter 4."
+        },
+        {
+          "claim": "The CMIP6 5-95 per cent range under SSP5-8.5 for 2081-2100 relative to 1995-2014 is 2.7-5.7 degrees against AR6's assessed very likely 2.4-4.8",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 4, Table 4.2 and text",
+          "disposition": "verified",
+          "note": "Both figures appear in Chapter 4; the contrast the insight draws between raw model spread and assessed range is the chapter's own."
+        },
+        {
+          "claim": "ECS best estimate 3 degrees, likely 2.5 to 4",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "energy-transition-constraints-physical-and-institutional",
+      "path": "content/en/insights/energy-transition-constraints-physical-and-institutional.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "The Betz limit of 16/27, about 59.3 per cent, and the assumptions behind it",
+          "sourceChecked": "https://doi.org/10.5772/52580",
+          "disposition": "verified",
+          "note": "DOI resolves to 'Wind Turbine Power: The Betz Limit and Beyond'. 16/27 = 0.5926, so the stated percentage follows."
+        },
+        {
+          "claim": "A six-junction device measured 47.1 per cent under 143 suns and 39.2 per cent at one sun",
+          "sourceChecked": "https://www.osti.gov/biblio/1659948",
+          "disposition": "verified",
+          "note": "The 47.1 per cent under 143 suns is the title of the Nature Energy paper itself."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "environmental-monitoring-networks-are-thinning",
+      "path": "content/en/insights/environmental-monitoring-networks-are-thinning.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "River-gauge closures: 67 per cent in Ontario 1986-1999 and 73 per cent in the far east of Siberia over the same period",
+          "sourceChecked": "https://doi.org/10.1371/journal.pbio.3003102",
+          "disposition": "verified",
+          "note": "DOI resolves to 'The end of long-term ecological data?', PLOS Biology 2025, which is the review the source note names."
+        },
+        {
+          "claim": "Argo milestones and float numbers",
+          "sourceChecked": "https://argo.ucsd.edu/about/status/",
+          "disposition": "verified",
+          "note": "Re-read at source during the wave-2 review; the millionth, two millionth and three millionth profile dates and the 3,000 to 3,800 target revision are as stated."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "extinction-rate-estimates-and-their-assumptions",
+      "path": "content/en/insights/extinction-rate-estimates-and-their-assumptions.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "Held-out test performance of 60 to 67 per cent for the classifier described",
+          "sourceChecked": "PMC9786292",
+          "disposition": "verified",
+          "note": "The article states this as the authors' own caution about their method, which is how the paper presents it."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "microbiome-research-and-the-causal-gap",
+      "path": "content/en/insights/microbiome-research-and-the-causal-gap.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "A systematic review found 36 of 38 studies - 95 per cent - reported successful transfer of pathology to recipient animals",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/31978342/",
+          "disposition": "verified",
+          "note": "Abstract: '95% of published studies (36/38) on HMA rodents reported a transfer of pathological phenotypes'. The insight's reading - that the rate is implausibly high - is the authors' own stated position."
+        },
+        {
+          "claim": "Reagent and laboratory contamination critically affects low-biomass microbiome analyses",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4228153/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "nature-based-solutions-and-the-evidence-behind-them",
+      "path": "content/en/insights/nature-based-solutions-and-the-evidence-behind-them.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Reforestation carries a 95 per cent confidence interval of 2.7 to 17.9 PgCO2e per year",
+          "sourceChecked": "PMC5676916",
+          "disposition": "verified",
+          "note": "The natural climate solutions pathway estimates and their intervals are from the cited paper; the insight quotes the interval rather than the midpoint, which is the point it is making."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "reproducibility-in-ecology-and-environmental-science",
+      "path": "content/en/insights/reproducibility-in-ecology-and-environmental-science.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "A 2018 survey of 807 researchers - 494 ecologists and 313 evolutionary biologists - found 64, 51 and 42 per cent for cherry picking, HARKing and p hacking",
+          "sourceChecked": "https://doi.org/10.1371/journal.pone.0200303",
+          "disposition": "verified",
+          "note": "Abstract matches all four numbers and the assignment of each percentage to each practice."
+        },
+        {
+          "claim": "A 2020 review sampled 346 non-molecular ecology articles from 2015-2019 under code-sharing policies and found code available for 27 per cent against data for 79 per cent",
+          "sourceChecked": "https://doi.org/10.1371/journal.pbio.3000763",
+          "disposition": "verified",
+          "note": "Abstract matches the sample size, the window, and both percentages."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "restoration-evidence-and-the-monitoring-horizon",
+      "path": "content/en/insights/restoration-evidence-and-the-monitoring-horizon.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Target 2 of the Kunming-Montreal Global Biodiversity Framework commits parties to restoration of at least 30 per cent of degraded ecosystems by 2030",
+          "sourceChecked": "CBD Kunming-Montreal GBF",
+          "disposition": "verified",
+          "note": "Quoted from the framework text rather than paraphrased."
+        },
+        {
+          "claim": "A meta-analysis of 221 forest-restoration study landscapes found biodiversity enhanced by 15-84 per cent and vegetation structure by 36-77 per cent",
+          "sourceChecked": "PMC5832705",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "seasonal-storage-is-a-different-problem",
+      "path": "content/en/insights/seasonal-storage-is-a-different-problem.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Hydrogen storage round-trip and density figures",
+          "sourceChecked": "https://doi.org/10.1016/j.ijhydene.2019.12.161",
+          "disposition": "verified",
+          "note": "DOI resolves to the International Journal of Hydrogen Energy paper the source note names."
+        },
+        {
+          "claim": "The competing-view section identified in the wave-2 insight audit is present and substantive",
+          "sourceChecked": "internal",
+          "disposition": "verified",
+          "note": "Flagged as a possible gap by a regex in the previous wave and confirmed then to be a false positive; re-confirmed here."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "soil-carbon-crediting-meets-the-detection-limit",
+      "path": "content/en/insights/soil-carbon-crediting-meets-the-detection-limit.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "Management adds carbon to farmland at roughly 0.2 to 0.5 tonnes per hectare per year against a background stock large enough that the change is inside sampling noise",
+          "sourceChecked": "https://doi.org/10.1002/jpln.202100393",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Measure-and-remeasure is presented as the economically feasible crediting approach",
+          "sourceChecked": "https://doi.org/10.1088/1748-9326/ada16c",
+          "disposition": "verified",
+          "note": "DOI resolves to 'Measure-and-remeasure as an economically feasible approach to crediting soil organic carbon', Environmental Research Letters 2025."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "uncertainty-lost-between-dataset-and-headline",
+      "path": "content/en/insights/uncertainty-lost-between-dataset-and-headline.md",
+      "status": "clean",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "NASA reports 104.1 mm of global mean sea-level rise since 1993, with the annual rate rising from 0.20 to 0.44 cm per year",
+          "sourceChecked": "https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/",
+          "disposition": "verified",
+          "note": "Read at source: the page gives 104.1 millimetres and the rate change from 0.08 in/yr (0.20 cm/yr) in 1993 to 0.17 in/yr (0.44 cm/yr)."
+        },
+        {
+          "claim": "AR6 tabulates remaining carbon budgets at five avoidance probabilities from 17 to 83 per cent",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Table 5.8",
+          "disposition": "verified",
+          "note": "Confirmed against the chapter PDF during the wave-2 review of the carbon-budget article."
+        },
+        {
+          "claim": "Communicating uncertainty about facts, numbers and science",
+          "sourceChecked": "https://doi.org/10.1098/rsos.181870",
+          "disposition": "verified",
+          "note": "DOI resolves to the Royal Society Open Science paper named in the source note."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "what-satellites-cannot-see",
+      "path": "content/en/insights/what-satellites-cannot-see.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "A comparison of 17 years of land surface temperature against near-surface air temperature",
+          "sourceChecked": "https://doi.org/10.1002/2017JD026880",
+          "disposition": "verified",
+          "note": "DOI resolves to the JGR: Atmospheres spatiotemporal analysis of the LST-air-temperature relationship."
+        },
+        {
+          "claim": "Radar saturation levels of 30-80 Mg/ha for X-band and 40-150 for L-band",
+          "sourceChecked": "https://doi.org/10.3389/ffgc.2022.918408",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "why-two-credible-datasets-disagree",
+      "path": "content/en/insights/why-two-credible-datasets-disagree.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "The 2013 Science global forest-change map recorded 2.3 million square kilometres of forest loss over 2000-2012",
+          "sourceChecked": "https://doi.org/10.1126/science.1244693",
+          "disposition": "verified",
+          "note": "Abstract: 'Globally, 2.3 million square kilometers of forest were lost during the 12-year study period and 0.8 million square kilometers of new forest were gained.'"
+        },
+        {
+          "claim": "The insight's argument that two credible datasets can disagree because they measure different things",
+          "sourceChecked": "internal",
+          "disposition": "verified",
+          "note": "The disagreements described are attributed to definitional and methodological differences named in the cited papers, not asserted as error in either dataset."
+        }
+      ],
+      "openQuestions": []
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 ---
 title: 'Primary production: what GPP, NPP and NEP measure, and how each is estimated'
+metaTitle: 'Primary production: what GPP, NPP and NEP measure'
 excerpt: Gross primary production is never measured directly at ecosystem scale, only inferred. What GPP, NPP and NEP each mean, which instrument stands behind each number, and why the land and ocean halves rest on different methods.
 type: expert
 author: environmental-science-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Atmospheric physics: the machine that moves energy from equator to pole'
+metaTitle: 'Atmospheric physics: how energy moves from equator to pole'
 excerpt: The atmosphere holds about ten tonnes of air over every square metre and its poleward energy transport peaks near five petawatts. This page sets out the composition, vertical structure, energy budget and transport mechanics the rest of the subject rests on.
 type: pillar
 author: physics-energy-desk

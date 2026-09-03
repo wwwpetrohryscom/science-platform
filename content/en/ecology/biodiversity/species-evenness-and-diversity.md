@@ -31,7 +31,7 @@ This matters because the same headcount can sit on top of opposite structures. A
 
 Diversity indices combine richness and evenness into a single value, weighting the two ingredients differently depending on the formula. The Shannon index, written H', weights each species by the logarithm of its proportional abundance, so both the number of species and the balance among them shape the result. The Simpson index takes a different route: it emphasises the probability that two individuals drawn at random belong to the same species. Because that probability is governed by whichever species are most plentiful, Simpson is dominated by common species and is relatively insensitive to the rare ones.
 
-Neither index is wrong. They simply answer slightly different questions, and that difference becomes visible the moment you compare communities. Peer-reviewed work in the [ecology literature](https://www.nature.com/) has long examined how these formulas behave and where they diverge.
+Neither index is wrong. They simply answer slightly different questions, and that difference becomes visible the moment you compare communities. Peer-reviewed work has long examined how these formulas behave and where they diverge.
 
 ## Hill numbers and the effective number of species
 
@@ -58,6 +58,5 @@ The choices made along the way carry real consequences, so transparency is essen
 ## Sources
 
 1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Multi-dimensional view of biodiversity beyond species counts.
-1. **Nature** — [ecology literature](https://www.nature.com/). Peer-reviewed work on diversity indices and Hill numbers.
-1. **EEA** — [biodiversity](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Community-level indicators of biodiversity change.
-1. **GBIF** — [occurrence records](https://www.gbif.org/). Abundance and occurrence data used to compute diversity.
+2. **EEA** — [biodiversity](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Community-level indicators of biodiversity change.
+3. **GBIF** — [occurrence records](https://www.gbif.org/). Abundance and occurrence data used to compute diversity.

@@ -196,14 +196,19 @@
     "pillar_callout": "Pillar article — {subtopic}",
     "read_pillar": "Read the pillar →",
     "related_heading": "Related reading",
-    "fallback_notice": "This article has not yet been translated into {language}. The English version is shown below."
+    "fallback_notice": "This article has not yet been translated into {language}. The English version is shown below.",
+    "in_english": "in English",
+    "locale_depth_note": "{native} of these {total} articles are available in {language}; the rest open in English.",
+    "table_label": "Table"
   },
   "insights": {
     "eyebrow": "Insights",
     "title": "Arguments worth defending",
     "description": "Insights are short, structured essays. Each one stakes a single, falsifiable claim and defends it. They are written to be argued with — clearly, cited, and dated.",
     "empty": "No insights published yet.",
-    "category_eyebrow": "Insight · {category}"
+    "category_eyebrow": "Insight · {category}",
+    "insight_kind": "Editorial analysis",
+    "insight_kind_note": "This is an argued synthesis of published work by the {desk}, not original research and not a peer-reviewed paper. Its claim is the editorial position; the evidence it rests on is cited below and can be checked independently."
   },
   "discussions": {
     "eyebrow": "Discussions",
@@ -236,7 +241,11 @@
     "footer_note": "Editorially independent. Citations welcome — please link to the canonical URL.",
     "sourcing_policy": "Sourcing policy",
     "editorial_desks": "Editorial desks",
-    "corrections": "Corrections & contact"
+    "corrections": "Corrections & contact",
+    "glossary": "Glossary",
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Cookie Policy",
+    "terms_of_use": "Terms of Use"
   },
   "newsletter": {
     "eyebrow": "Newsletter",

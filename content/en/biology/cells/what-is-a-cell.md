@@ -78,5 +78,3 @@ Inside the boundary, the [cytoskeletal filaments](/en/biology/cells/cytoskeleton
 1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts and peer-reviewed biomedical books for cell biology.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). National Human Genome Research Institute definitions and explainers.
 3. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for cell biology and virology.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed cell biology literature.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed biology literature.

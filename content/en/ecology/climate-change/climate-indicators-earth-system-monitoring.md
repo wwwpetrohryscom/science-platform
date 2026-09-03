@@ -1,5 +1,6 @@
 ---
 title: 'Climate indicators and Earth system monitoring: how the signals fit together'
+metaTitle: 'Climate indicators and Earth-system monitoring'
 excerpt: Climate indicators track the state of the Earth system. Here is how temperature, ocean heat, greenhouse gases, sea level, and ice are read together, and what each is good for.
 type: expert
 author: climate-research-desk

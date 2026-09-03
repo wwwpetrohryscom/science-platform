@@ -1,5 +1,6 @@
 ---
 title: 'Biotechnologie: was die Verfahren leisten und wo die Versprechen ihnen davonlaufen'
+metaTitle: 'Biotechnologie: was der Werkzeugkasten löst und was nicht'
 excerpt: Rekombinante DNA, Sequenzierung, Editierung und rechnergestützter Entwurf haben je eine Sache billig gemacht und die schwierigen Teile unberührt gelassen. Dies ist, was der Werkzeugkasten kann, wie aus einem Laborbefund ein Produkt wird und wo dieser Weg abbricht.
 type: pillar
 author: microbiology-genomics-desk

@@ -41,7 +41,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     });
   }
   return buildMetadata({
-    title: article.title,
+    // The document title, which is what a search result shows. Falls
+    // back to the editorial H1 when the two are the same job.
+    title: article.metaTitle ?? article.title,
     description: article.excerpt,
     path: `/${CATEGORY}/${article.subtopic}/${article.slug}`,
     locale: params.locale,

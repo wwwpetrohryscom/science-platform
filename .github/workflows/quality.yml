@@ -72,11 +72,13 @@ jobs:
       - name: FAQ rules
         run: npm run faqs:validate
 
-      # Reports coverage; does not fail on unreviewed articles. The
-      # coverage number is the point — a build that failed on it would
-      # only ever be silenced.
+      # Coverage reached 100% of English scientific content in the
+      # verification-and-localization-depth wave, so this is now a gate
+      # rather than a report: a new English article ships with a ledger
+      # entry or it does not ship. That is only a fair rule because the
+      # backlog it would otherwise punish is gone.
       - name: Verification coverage
-        run: npm run content:verification
+        run: npx tsx scripts/validate-verification.ts --require-full
 
       - name: Build
         run: npm run build

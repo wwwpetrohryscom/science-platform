@@ -1,5 +1,6 @@
 ---
 title: 'Essential Climate Variables: the 55-item list that decides what gets measured'
+metaTitle: 'Essential Climate Variables: the list that sets measurement'
 excerpt: GCOS specifies 55 variables the world has agreed to observe continuously. The selection criteria are as informative as the list — and one of them is not scientific importance.
 type: expert
 author: earth-systems-desk

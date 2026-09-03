@@ -1,5 +1,6 @@
 ---
 title: 'La evolución: los mecanismos, las pruebas y las preguntas aún abiertas'
+metaTitle: 'La evolución: cuatro mecanismos y las pruebas'
 excerpt: La evolución es un cambio en la composición genética de las poblaciones, y la producen cuatro procesos y no uno solo. Esta página expone los mecanismos, las pruebas independientes de la ascendencia común y de qué tratan realmente los debates vigentes.
 type: pillar
 author: biology-ecosystems-desk

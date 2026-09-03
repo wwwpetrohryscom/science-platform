@@ -1,5 +1,6 @@
 ---
 title: A nature-based solution is a policy category, not a single body of evidence
+metaTitle: 'Nature-based solutions: a category, not one evidence base'
 excerpt: The label covers interventions the IPCC grades from robust to limited evidence. Bundling them lets the best-measured members lend credibility to the least-measured, which is a problem of accounting rather than of ecology.
 argument: Coastal habitat protection, peatland rewetting, urban greening and large-scale tree planting sit under one label but rest on evidence bases that differ by orders of magnitude in quality and in the width of their uncertainty. The category is useful policy shorthand and a poor unit of assessment, because nothing can be verified at the level of the label.
 category: ecology

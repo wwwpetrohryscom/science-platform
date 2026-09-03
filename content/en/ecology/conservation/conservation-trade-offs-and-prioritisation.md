@@ -1,5 +1,6 @@
 ---
 title: 'Prioritisation: what changes when conservation is treated as a budget problem'
+metaTitle: 'Conservation prioritisation as a budget problem'
 excerpt: Ranking species by how threatened they are does not tell anyone where to spend. Complementarity, cost and probability of success reorder the list, and an area target can be met without ecological gain.
 type: expert
 author: biodiversity-conservation-desk

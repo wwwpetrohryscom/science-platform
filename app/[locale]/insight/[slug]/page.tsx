@@ -15,6 +15,7 @@ import {
   getInsight,
 } from "@/lib/content";
 import { extractCitationUrls } from "@/lib/sources";
+import { getReview } from "@/lib/verification";
 import { listSourcesForTopic } from "@/lib/content/generators";
 import {
   articleJsonLd,
@@ -54,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     });
   }
   return buildMetadata({
-    title: insight.title,
+    title: insight.metaTitle ?? insight.title,
     description: insight.excerpt,
     path: `/insight/${insight.slug}`,
     locale: params.locale,
@@ -82,6 +83,7 @@ export default async function InsightPage({ params }: Props) {
   // a seeded template rather than by an editor, and rendered English on
   // every localized page.
   const insightCitationCount = extractCitationUrls(insight.rawBody).length;
+  const review = getReview(insight.slug);
   const sources = listSourcesForTopic(insight.category);
 
   const articleLd = articleJsonLd({
@@ -93,6 +95,7 @@ export default async function InsightPage({ params }: Props) {
     updatedDate: insight.updatedDate,
     authorName: insight.author.name,
     authorId: insight.author.id,
+    genre: "Analysis",
   });
   const breadcrumbLd = breadcrumbJsonLd([
     { name: t("nav.home"), path: localizedPath(locale, "/") },
@@ -144,6 +147,13 @@ export default async function InsightPage({ params }: Props) {
         <header className="mt-6 max-w-4xl">
           <p className="eyebrow">
             {t("insights.category_eyebrow", { category: categoryLabel })}
+          </p>
+          {/* Says out loud what kind of page this is. Without it an
+              insight and a reference article are typographically the
+              same object, and a reader has no way to tell an argued
+              position from a description of the evidence. */}
+          <p className="mt-2 inline-flex items-center rounded-sm border border-accent-300 bg-accent-50 px-2 py-0.5 text-xs font-medium uppercase tracking-wide text-ink">
+            {t("insights.insight_kind")}
           </p>
           <h1 className="mt-3 font-serif text-display-xl font-semibold tracking-tight text-ink">
             {insight.title}
@@ -197,6 +207,9 @@ export default async function InsightPage({ params }: Props) {
                 {t("common.insight_sources")}
               </h2>
               <p className="mt-3 text-sm leading-relaxed text-ink-subtle">
+                {t("insights.insight_kind_note", { desk: insight.author.name })}
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-subtle">
                 {insightCitationCount === 1
                   ? t("evidence.citations_one")
                   : t("evidence.citations", { count: insightCitationCount })}
@@ -208,6 +221,24 @@ export default async function InsightPage({ params }: Props) {
                 </Link>
                 .
               </p>
+              {/* Review state, shown in both directions. An insight
+                  argues a position, so whether its evidence has been
+                  independently checked is the first thing a sceptical
+                  reader needs — and silence about it reads as
+                  assurance. */}
+              <p className="mt-3 border-t border-ink-line pt-3 text-sm leading-relaxed text-ink-subtle">
+                {review ? (
+                  <>
+                    {t("evidence.reviewed_on", {
+                      date: formatDate(review.reviewedDate, locale),
+                    })}{" "}
+                    {t("evidence.reviewed_detail", { claims: review.claimsChecked })}
+                  </>
+                ) : (
+                  t("evidence.not_reviewed")
+                )}
+              </p>
+
               <p className="mt-4 text-xs text-ink-subtle">
                 {t("evidence.last_updated")}{" "}
                 <time dateTime={insight.updatedDate}>

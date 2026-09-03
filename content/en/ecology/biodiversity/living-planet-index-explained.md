@@ -1,5 +1,6 @@
 ---
 title: 'The Living Planet Index explained: what an average population trend measures'
+metaTitle: 'The Living Planet Index: what the average trend measures'
 excerpt: The Living Planet Index aggregates thousands of vertebrate population time series into a single trend. Understanding what it is — a relative average, not a headcount of animals — and the methodological debates around it is essential to reading the headline figure correctly.
 type: expert
 author: biodiversity-conservation-desk
@@ -45,7 +46,7 @@ International assessments treat the index as one line of evidence among several.
 
 Two features of the method explain most public confusion. First, because the index averages *relative* changes, a small number of extremely steep declines can pull the global mean down strongly. A handful of populations that have collapsed to a fraction of their 1970 value can weigh heavily on the average, even when many other monitored populations are stable or rising. The summary value reflects the shape of the whole distribution of trends, not a uniform decline shared by every population.
 
-Second, the headline figure is frequently restated as "X percent of all animals have disappeared." That reading is incorrect. The index does not estimate the share of animals lost, the share of populations in decline, or the share of species gone. Peer-reviewed [methodological analyses](https://www.nature.com/) have examined how the distribution of population trends, gaps in geographic and taxonomic coverage, and specific method choices shape the resulting value — work that has sharpened how the index is interpreted rather than overturned its purpose. The index remains a meaningful average; it simply answers a narrower question than the popular paraphrase implies.
+Second, the headline figure is frequently restated as "X percent of all animals have disappeared." That reading is incorrect. The index does not estimate the share of animals lost, the share of populations in decline, or the share of species gone. Peer-reviewed methodological analyses have examined how the distribution of population trends, gaps in geographic and taxonomic coverage, and specific method choices shape the resulting value — work that has sharpened how the index is interpreted rather than overturned its purpose. The index remains a meaningful average; it simply answers a narrower question than the popular paraphrase implies.
 
 ## Uncertainty and limitations
 
@@ -56,6 +57,5 @@ The reference year carries its own caveat. The 1970 starting point comes well af
 ## Sources
 
 1. **Living Planet Index** — [data portal](https://www.livingplanetindex.org/). Zoological Society of London; the index database and method.
-1. **CBD** — [headline indicators](https://www.cbd.int/). Use of the index in global biodiversity reporting.
-1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Abundance trends in the context of other indicators.
-1. **Nature** — [methodological analyses](https://www.nature.com/). Peer-reviewed examination of population-trend aggregation.
+2. **CBD** — [headline indicators](https://www.cbd.int/). Use of the index in global biodiversity reporting.
+3. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Abundance trends in the context of other indicators.

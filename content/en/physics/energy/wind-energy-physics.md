@@ -1,5 +1,6 @@
 ---
 title: 'Wind energy: cubic scaling, the Betz limit, and why turbines got large'
+metaTitle: 'Wind energy physics: cubic scaling and the Betz limit'
 excerpt: Power in the wind rises with the cube of speed, which makes a resource assessment a measurement problem before it is an engineering one. This page derives the extraction ceiling and follows the scaling arguments that drove turbine size.
 type: expert
 author: energy-systems-desk

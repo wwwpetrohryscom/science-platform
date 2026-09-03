@@ -1,5 +1,6 @@
 ---
 title: 'The species problem: a working concept that no definition fully captures'
+metaTitle: 'The species problem: why no definition fully works'
 excerpt: Biologists apply at least five incompatible criteria for deciding where one kind of organism ends and the next begins. The disagreements are rarely about the data, and they propagate straight into conservation counts.
 type: expert
 author: biology-life-sciences-desk

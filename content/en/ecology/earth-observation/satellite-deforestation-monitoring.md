@@ -1,5 +1,6 @@
 ---
 title: 'Satellite deforestation monitoring: detecting forest loss from orbit'
+metaTitle: 'Satellite deforestation monitoring'
 excerpt: Satellites are the primary way forest loss is detected at scale, from annual global statistics to near-real-time clearing alerts. This explains how the change is measured from image time series, who reports it, and the uncertainties that come with monitoring tropical forests from space.
 type: expert
 author: climate-research-desk

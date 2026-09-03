@@ -44,7 +44,7 @@ Coastal tide-gauge records, maintained by agencies including [NOAA's National Oc
 
 The rate of rise is itself a separate indicator. A modest steady rise produces different outcomes than the same total rise compressed into a shorter period — coastal ecosystems and infrastructure adapt on timescales that interact with the rate, not just the cumulative total.
 
-The post-1992 satellite altimeter record shows GMSL rising at about 3.4 mm per year on average, with an acceleration to roughly 4–5 mm per year over the most recent decade as documented in successive [NOAA State of the Climate](https://www.ncei.noaa.gov/) and [WMO State of the Climate](https://wmo.int/) reports. The acceleration is consistent with increased contributions from Greenland and Antarctic ice loss as estimated by satellite gravity (GRACE/GRACE-FO).
+The post-1992 satellite altimeter record shows global mean sea level rising at about 3.4 mm per year on average, and faster since: NASA's sea-level indicator gives the annual rate as [0.20 cm per year in 1993 against 0.44 cm per year now](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/), with 104.1 mm of cumulative rise since 1993. The acceleration is consistent with increased contributions from Greenland and Antarctic ice loss as estimated by satellite gravity (GRACE/GRACE-FO).
 
 The rate-of-rise indicator is the one most relevant for planning horizons. Whether a coastal asset reaches a risk threshold in 2050 or 2080 depends on the rate.
 

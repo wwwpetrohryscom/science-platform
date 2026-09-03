@@ -1,5 +1,6 @@
 ---
 title: 'Biotecnología: qué hacen las técnicas y dónde las promesas las adelantan'
+metaTitle: 'Biotecnología: qué resuelve la caja de herramientas y qué no'
 excerpt: El ADN recombinante, la secuenciación, la edición y el diseño computacional abarataron cada uno una cosa y dejaron intactas las partes difíciles. Esto es lo que hace la caja de herramientas, cómo un resultado de laboratorio se convierte en producto y dónde se rompe ese camino.
 type: pillar
 author: microbiology-genomics-desk

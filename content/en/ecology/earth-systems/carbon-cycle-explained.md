@@ -1,5 +1,6 @@
 ---
 title: 'The carbon cycle: where the carbon is, how it moves, and what changed'
+metaTitle: 'The carbon cycle: where the carbon is and how it moves'
 excerpt: Most of Earth's carbon is locked in rock and moves on geological time. A small fast-cycling fraction runs through air, water, and life — and that is the part we changed.
 type: expert
 author: earth-systems-desk
@@ -34,7 +35,7 @@ The slow cycle acts as a thermostat over geological time: warmer, wetter conditi
 
 ## The fast cycle: air, water, and life
 
-The fast cycle moves between 1,000 and 100,000 million tonnes of carbon a year through photosynthesis, respiration, decomposition, and air–sea gas exchange. Its reservoirs are the atmosphere, the surface and deep ocean, vegetation, and soils.
+The fast cycle moves between 10,000 and 100,000 million tonnes of carbon a year through photosynthesis, respiration, decomposition, and air–sea gas exchange — NASA gives it as 10¹⁶ to 10¹⁷ grams, three orders of magnitude above the slow cycle. Its reservoirs are the atmosphere, the surface and deep ocean, vegetation, and soils.
 
 Two features of this loop matter for interpreting any carbon claim. First, the gross fluxes are very large and very nearly balanced — the land takes up and releases similar quantities each year, and so does the ocean surface. Second, because they are nearly balanced, the observable net is a small residual of two large numbers, which is why net fluxes carry proportionally much larger uncertainty than gross ones.
 

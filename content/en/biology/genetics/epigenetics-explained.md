@@ -1,5 +1,6 @@
 ---
 title: 'Epigenetics: what the term means, and the claims it cannot support'
+metaTitle: 'Epigenetics: what the term means and what it cannot support'
 excerpt: Epigenetics carries a strict laboratory definition and a much looser popular one. This page separates them, works through the cases where the strict definition clearly holds, and explains why transgenerational claims in mammals remain weakly supported.
 type: expert
 author: microbiology-genomics-desk

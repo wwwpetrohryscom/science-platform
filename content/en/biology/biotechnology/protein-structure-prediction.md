@@ -1,5 +1,6 @@
 ---
 title: 'Protein structure prediction: a benchmark largely won, and the residue it left'
+metaTitle: 'Protein structure prediction: what the benchmark left unsolved'
 excerpt: Deep-learning models closed most of the gap between sequence and fold on the blind CASP targets. What remains — assemblies, disorder, alternative conformations, mutation effects — is where the difficulty moved rather than where it ended.
 type: expert
 author: microbiology-genomics-desk

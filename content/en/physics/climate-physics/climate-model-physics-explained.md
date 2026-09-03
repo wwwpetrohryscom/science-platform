@@ -1,5 +1,6 @@
 ---
 title: 'Inside a climate model: what is solved, what is parameterised, and what tuning can reach'
+metaTitle: 'Inside a climate model: solved, parameterised, tuned'
 excerpt: A climate model is two pieces of software bolted together — a solver for equations that are known exactly, and a library of approximations for everything smaller than a grid cell. Nearly every contested result lives in the second half.
 type: expert
 author: physics-energy-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Física da atmosfera: a máquina que leva energia do equador ao polo'
+metaTitle: 'Física da atmosfera: a energia para os polos'
 excerpt: A atmosfera sustenta cerca de dez toneladas de ar sobre cada metro quadrado e o seu transporte de energia para os polos atinge perto de cinco petawatts. Esta página expõe a composição, a estrutura vertical, o balanço energético e a mecânica de transporte em que assenta o resto do assunto.
 type: pillar
 author: physics-energy-desk

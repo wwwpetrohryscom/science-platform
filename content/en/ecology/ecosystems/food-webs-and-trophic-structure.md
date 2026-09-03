@@ -1,5 +1,6 @@
 ---
 title: 'Food webs and trophic structure: what a trophic level actually counts'
+metaTitle: 'Food webs: what a trophic level actually counts'
 excerpt: A trophic level is an accounting device for energy flow, not a category of organism. What the ten per cent rule really claims, why omnivory makes levels fractional, and how contested the Yellowstone case still is.
 type: expert
 author: environmental-science-desk

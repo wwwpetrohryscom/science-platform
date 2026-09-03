@@ -1,5 +1,6 @@
 ---
 title: 'Remote-sensing limitations and uncertainty: reading satellite data honestly'
+metaTitle: 'Remote-sensing limitations and uncertainty'
 excerpt: Satellite data are powerful but never perfect. This sets out the structural limits of remote sensing — resolution trade-offs, cloud, mixed pixels, indirect measurement, and sensor drift — and the validation practices that keep satellite products honest.
 type: expert
 author: climate-research-desk

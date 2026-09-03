@@ -1,5 +1,6 @@
 ---
 title: 'NDVI explained: the vegetation index read from red and near-infrared light'
+metaTitle: 'NDVI: the vegetation index from red and near-infrared light'
 excerpt: NDVI is the most widely used satellite vegetation index, built from the contrast between the red light plants absorb and the near-infrared they reflect. This explains the formula, the −1 to +1 range, what the values mean, and where the index breaks down.
 type: expert
 author: climate-research-desk

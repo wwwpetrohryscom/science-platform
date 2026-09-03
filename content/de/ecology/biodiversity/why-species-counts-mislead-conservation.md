@@ -1,5 +1,6 @@
 ---
 title: Warum Artenzahlen die Priorisierung im Naturschutz in die Irre führen
+metaTitle: 'Warum Artenzahlen den Naturschutz in die Irre führen'
 excerpt: Der Artenreichtum ist die am leichtesten zu berechnende Biodiversitätsmetrik und die schlechteste Grundlage für Priorisierung. Funktionale und phylogenetische Diversität sagen die Leistung von Ökosystemen voraus – und sie widersprechen der Artenzahl häufig.
 type: pillar
 author: biodiversity-conservation-desk
@@ -78,5 +79,3 @@ Auf der Messseite sind der [Living Planet Index](/de/ecology/biodiversity/living
 1. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Bewertung von Belastungen der Biodiversität, Lebensräumen und Erhaltungszustand.
 2. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Zwischenstaatliche Synthese zum Biodiversitätsverlust und zu Ökosystemleistungen.
 3. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). Überblick des UN-Umweltprogramms über Schutz und Wiederherstellung von Ökosystemen.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Begutachtete Literatur zu Biodiversität, funktionaler Diversität und Naturschutzbiologie.
-5. **Science** — [Science journals](https://www.science.org/). Begutachtete Forschung zu Naturschutz und Biodiversität.

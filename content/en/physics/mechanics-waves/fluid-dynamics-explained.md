@@ -1,5 +1,6 @@
 ---
 title: 'Fluid dynamics: why one dimensionless number decides how a flow behaves'
+metaTitle: 'Fluid dynamics and the Reynolds number'
 excerpt: A swimming ciliate and a hurricane obey the same equations. What separates them is the ratio of inertia to viscosity, and that ratio decides whether a flow is smooth, chaotic, or beyond the reach of direct calculation.
 type: expert
 author: physics-energy-desk

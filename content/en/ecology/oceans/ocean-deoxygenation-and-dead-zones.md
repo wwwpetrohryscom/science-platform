@@ -1,5 +1,6 @@
 ---
 title: 'Deoxygenation: coastal dead zones and open-ocean oxygen loss are not the same problem'
+metaTitle: 'Deoxygenation: dead zones and open-ocean oxygen loss'
 excerpt: Two processes are routinely reported under one heading. Coastal hypoxia is driven by nutrient loading and stratification and can reverse within years; open-ocean oxygen decline is driven by warming and circulation and works on a different timescale.
 type: expert
 author: oceans-freshwater-desk

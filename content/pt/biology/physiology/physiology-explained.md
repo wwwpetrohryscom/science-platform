@@ -1,5 +1,6 @@
 ---
 title: 'Fisiologia: como os organismos mantêm condições estáveis enquanto tudo muda'
+metaTitle: 'Fisiologia: manter condições estáveis'
 excerpt: A regulação não é um termóstato. Este pilar expõe o que é uma variável regulada, porque o ponto de referência é uma conveniência de modelação e não um número presente no corpo, e como o tamanho e a espécie decidem que desenho um organismo pode permitir-se.
 type: pillar
 author: biology-life-sciences-desk

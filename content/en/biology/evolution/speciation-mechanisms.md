@@ -1,5 +1,6 @@
 ---
 title: 'Speciation: how reproductive isolation arises and how it is measured'
+metaTitle: 'Speciation: how reproductive isolation arises'
 excerpt: Two lineages become separate species when the barriers to gene exchange between them accumulate. Each barrier can be measured — and genomic data have shown that most of them leak for far longer than the textbook account allowed.
 type: expert
 author: biology-ecosystems-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Mecânica quântica: as regras de trabalho, sem a filosofia'
+metaTitle: 'Mecânica quântica: as regras de trabalho'
 excerpt: A teoria quântica fixa constantes físicas com dez algarismos significativos enquanto a sua interpretação permanece em aberto. Esta página expõe as regras de trabalho — amplitudes, observáveis, quantização, indeterminação, estatística de spin, descoerência — e assinala onde estão as lacunas reais.
 type: pillar
 author: physics-energy-desk

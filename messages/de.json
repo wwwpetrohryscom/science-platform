@@ -11,7 +11,7 @@
   "_review_note": "Scientific descriptions translated by AI. A native German scientific editor must review the keys listed in _review before this bundle is used in production.",
   "site": {
     "name": "EcoScienceHub",
-    "tagline": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
+    "tagline": "Fundierte Texte zu Ökologie, Biologie und Physik",
     "description": "Unabhängige, wissenschaftlich fundierte Texte zu Ökologie, Biologie und angewandter Physik. Geschrieben, um langsam gelesen und sorgfältig zitiert zu werden."
   },
   "nav": {
@@ -144,7 +144,7 @@
     }
   },
   "home": {
-    "meta_title": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
+    "meta_title": "Fundierte Texte zu Ökologie, Biologie und Physik",
     "hero_eyebrow": "Eine wissenschaftliche Lese-Plattform",
     "hero_title": "Langsame, sorgfältige Texte über die Systeme, die uns tragen.",
     "hero_lede": "EcoScienceHub ist eine Plattform für Ökologie, Biologie und angewandte Physik — geschrieben von tätigen Wissenschaftlerinnen und Wissenschaftlern, redaktionell auf Klarheit getrimmt und dort zitiert, wo es zählt. Geschaffen, um langsam gelesen zu werden.",
@@ -206,14 +206,19 @@
     "pillar_callout": "Pfeiler-Artikel — {subtopic}",
     "read_pillar": "Den Pfeiler lesen →",
     "related_heading": "Verwandte Texte",
-    "fallback_notice": "Dieser Artikel wurde noch nicht ins Deutsche übersetzt. Die englische Fassung wird unten angezeigt."
+    "fallback_notice": "Dieser Artikel wurde noch nicht ins Deutsche übersetzt. Die englische Fassung wird unten angezeigt.",
+    "in_english": "auf Englisch",
+    "locale_depth_note": "{native} dieser {total} Artikel liegen auf Deutsch vor; die übrigen öffnen sich auf Englisch.",
+    "table_label": "Tabelle"
   },
   "insights": {
     "eyebrow": "Analysen",
     "title": "Argumente, die es zu verteidigen lohnt",
     "description": "Analysen sind kurze, strukturierte Essays. Jeder vertritt eine einzige, falsifizierbare These. Sie sind zum Diskutieren geschrieben — klar, belegt und datiert.",
     "empty": "Bisher sind keine Analysen veröffentlicht.",
-    "category_eyebrow": "Analyse · {category}"
+    "category_eyebrow": "Analyse · {category}",
+    "insight_kind": "Redaktionelle Analyse",
+    "insight_kind_note": "Dies ist eine argumentierende Synthese veröffentlichter Arbeiten, verfasst von {desk} — keine eigene Forschung und keine begutachtete Publikation. Die These ist eine redaktionelle Position; die Belege, auf denen sie ruht, sind unten zitiert und unabhängig überprüfbar."
   },
   "discussions": {
     "eyebrow": "Diskussionen",
@@ -246,7 +251,11 @@
     "footer_note": "Redaktionell unabhängig. Zitate willkommen — bitte auf die kanonische URL verlinken.",
     "sourcing_policy": "Quellenrichtlinie",
     "editorial_desks": "Redaktionen",
-    "corrections": "Korrekturen & Kontakt"
+    "corrections": "Korrekturen & Kontakt",
+    "glossary": "Glossar",
+    "privacy_policy": "Datenschutzerklärung",
+    "cookie_policy": "Cookie-Richtlinie",
+    "terms_of_use": "Nutzungsbedingungen"
   },
   "newsletter": {
     "eyebrow": "Newsletter",

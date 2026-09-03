@@ -71,5 +71,3 @@ The distinction matters because the weaker argument leads to different policy th
 1. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). UN overview of ecosystem protection, restoration, and nature action.
 2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Assessment of habitat pressures and conservation status.
 3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Intergovernmental biodiversity and ecosystem-services synthesis.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed ecology and foundation-species literature.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed ecology and conservation research.

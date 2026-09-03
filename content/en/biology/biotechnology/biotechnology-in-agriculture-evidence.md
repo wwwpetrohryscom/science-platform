@@ -1,5 +1,6 @@
 ---
 title: 'Agricultural biotechnology: what the evidence resolves and what it leaves open'
+metaTitle: 'Agricultural biotechnology: what the evidence resolves'
 excerpt: Two traits account for most of the engineered crop area, the food-safety literature is large and consistent, and the agronomic failures were the ones evolutionary theory predicted. The open questions are about distribution and management, not toxicity.
 type: expert
 author: microbiology-genomics-desk

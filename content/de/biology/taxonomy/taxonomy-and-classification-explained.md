@@ -1,5 +1,6 @@
 ---
 title: 'Taxonomie: benennen, einordnen und die Regeln, die Namen stabil halten'
+metaTitle: 'Taxonomie: benennen, einordnen, Namen stabil halten'
 excerpt: Einen Organismus zu benennen ist ein regelgeleitetes Verfahren mit eigenen Codes, Typen und Prioritätsregeln, und es ist getrennt vom wissenschaftlichen Urteil darüber, welche Organismen zusammengehören. So arbeitet diese Maschinerie, und hier gerät sie unter Druck.
 type: pillar
 author: biology-life-sciences-desk

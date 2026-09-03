@@ -1,5 +1,6 @@
 ---
 title: 'Planting trees: what regrowth, plantations and the global restoration estimates can support'
+metaTitle: 'Tree planting: what the restoration estimates support'
 excerpt: A single 2019 estimate of global tree-restoration potential drew five formal technical comments and an erratum. Working through what was disputed is the fastest route into what the restoration evidence does and does not carry.
 type: expert
 author: environmental-science-desk

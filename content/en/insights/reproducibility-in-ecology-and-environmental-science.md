@@ -1,5 +1,6 @@
 ---
 title: Ecology's reproducibility problem is real, and it is not a copy of psychology's
+metaTitle: 'Ecology''s reproducibility problem is its own'
 excerpt: Surveys find questionable research practices in ecology at rates close to those in psychology, but an ecological field study usually cannot be re-run. That changes both how an unreliable literature is diagnosed and what fixes it.
 argument: Direct replication is unavailable for much ecological fieldwork, so the field's reliability problem has to be diagnosed through power, analytical flexibility and code availability rather than through repeat experiments — and corrected through coordinated design and synthesis rather than through repetition.
 category: biology

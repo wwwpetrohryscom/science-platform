@@ -1,5 +1,6 @@
 ---
 title: What is DNA? The molecule, the code, and what it doesn't determine
+metaTitle: 'What is DNA? The molecule, the code, and its limits'
 excerpt: DNA is a four-letter molecular code that stores the information needed to build and run a cell. Understanding what it does — and the equally important things it does not do — is the foundation of modern biology.
 type: pillar
 author: biology-ecosystems-desk
@@ -84,4 +85,3 @@ How a fixed sequence produces different cells is the subject of [gene-expression
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Genetics terminology and public-facing genomic science definitions.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts for molecular biology, genetics, and genome function.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and genomics literature index.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed genetics and genomics literature.

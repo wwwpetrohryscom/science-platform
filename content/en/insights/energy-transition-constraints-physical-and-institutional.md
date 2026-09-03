@@ -1,5 +1,6 @@
 ---
 title: Sorting energy-transition constraints into the ones physics imposes and the ones we do
+metaTitle: 'Energy transition: which constraints are physical'
 excerpt: Some limits on energy technology follow from conservation laws and cannot be negotiated. Others are administrative arrangements described in the same tone of voice. The diagnostic that separates them is simple, and it matters.
 argument: A physical constraint has a derivation; an institutional constraint has a history. Treating the second kind as though it were the first produces fatalism about things that are choices, and the reverse error produces complacency about things that are not.
 category: physics

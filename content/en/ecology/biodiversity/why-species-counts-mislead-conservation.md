@@ -78,5 +78,3 @@ On the measurement side, the [Living Planet Index](/en/ecology/biodiversity/livi
 1. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Assessment of biodiversity pressures, habitats, and conservation status.
 2. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Intergovernmental synthesis on biodiversity loss and ecosystem services.
 3. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). UN Environment Programme overview of ecosystem protection and restoration.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed literature on biodiversity, functional diversity, and conservation biology.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed conservation and biodiversity research.

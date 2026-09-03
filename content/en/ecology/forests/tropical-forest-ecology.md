@@ -1,5 +1,6 @@
 ---
 title: 'Tropical forest diversity: the coexistence problem and what long-term plots have tested'
+metaTitle: 'Tropical forest diversity and the coexistence problem'
 excerpt: Why competitive exclusion has not thinned lowland tropical tree communities is an open question with three serious candidate answers. This page sets out what the permanent-plot networks have actually been able to test, and what they have not.
 type: expert
 author: environmental-science-desk

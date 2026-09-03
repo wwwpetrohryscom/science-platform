@@ -1,5 +1,6 @@
 ---
 title: Why "AI for science" is undervaluing the bottleneck it is best placed to fix
+metaTitle: 'AI for science is undervaluing its own bottleneck'
 excerpt: Most AI-for-science investment chases discovery. The higher-leverage use is making the experimental record reproducible and machine-readable.
 argument: Discovery captures attention; infrastructure captures compounding returns. Funding agencies and platforms that systematize how experiments are recorded, indexed, and replicated will create more cumulative value than the next foundation model trained on papers.
 category: physics

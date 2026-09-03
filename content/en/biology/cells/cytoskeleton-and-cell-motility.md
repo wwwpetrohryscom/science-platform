@@ -1,5 +1,6 @@
 ---
 title: 'The cytoskeleton: three polymers, and why only two of them burn fuel'
+metaTitle: 'The cytoskeleton: three polymers, two of which burn fuel'
 excerpt: Actin filaments, microtubules and intermediate filaments differ in diameter, subunit and job, but the deep division is nucleotide hydrolysis. Two of the three spend energy to stay unstable, and that instability is what makes them useful.
 type: expert
 author: biology-ecosystems-desk

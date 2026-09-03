@@ -1,5 +1,6 @@
 ---
 title: 'Biogeochemical cycles: reservoirs, fluxes, and the arithmetic that makes them comparable'
+metaTitle: 'Biogeochemical cycles: reservoirs, fluxes and comparison'
 excerpt: Carbon, water, and nitrogen move through the planet on wildly different schedules. One ratio — reservoir divided by flux — explains most of the difference.
 type: expert
 author: earth-systems-desk
@@ -42,7 +43,7 @@ Nitrogen inverts the picture again. Its atmospheric reservoir is vast — roughl
 
 ## Fast and slow cycles are the same cycle
 
-Most elements run two loops at once, and confusing them is a common source of error. NASA's Earth Observatory describes carbon's slow cycle — the exchange with rocks through weathering, subduction, and volcanism — as taking 100 to 200 million years per circuit, moving something like 10 to 100 million tonnes of carbon a year. The fast cycle, running through living organisms, ocean surface, and atmosphere, moves between 1,000 and 100,000 million tonnes a year.
+Most elements run two loops at once, and confusing them is a common source of error. NASA's Earth Observatory describes carbon's slow cycle — the exchange with rocks through weathering, subduction, and volcanism — as taking 100 to 200 million years per circuit, moving something like 10 to 100 million tonnes of carbon a year. The fast cycle, running through living organisms, ocean surface, and atmosphere, moves between 10,000 and 100,000 million tonnes a year.
 
 The slow cycle is what stabilises atmospheric composition over geological time. It is also far too slow to respond to a perturbation delivered over two centuries, which is the essential asymmetry behind the current situation: fossil carbon that took the slow cycle tens of millions of years to bury is being returned to the fast cycle in a few hundred.
 

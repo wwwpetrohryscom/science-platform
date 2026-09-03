@@ -1,5 +1,6 @@
 ---
 title: Uncertainty is not lost gradually; it is dropped at one identifiable step
+metaTitle: 'Where uncertainty is dropped between dataset and headline'
 excerpt: Environmental numbers carry explicit qualifiers through the instrument, the dataset and the assessment, then lose them in a single act of compression. The qualifier that vanishes is almost always a probability, a period or a baseline.
 argument: The uncertainty attached to an environmental measurement survives the technical chain intact and is discarded at the point a finding is compressed into one sentence. What disappears is rarely the error bar alone; it is the condition — a likelihood, an averaging period, a reference baseline — without which the number answers a different question.
 category: ecology

@@ -1,5 +1,6 @@
 ---
 title: 'Soil erosion: three processes, and why measured and modelled rates disagree'
+metaTitle: 'Soil erosion: three processes, and why the rates disagree'
 excerpt: Water, wind and tillage strip land by different mechanisms and are quantified by different methods. The resulting global rates span two orders of magnitude, and most of that spread belongs to the methods rather than to the fields.
 type: expert
 author: soil-land-systems-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Marine protected areas: the evidence tracks protection level, not area'
+metaTitle: 'Marine protected areas: protection level, not area'
 excerpt: Fully protected reserves, partially protected zones and unenforced designations all count as marine protected area on a map, and their measured effects differ by more than an order of magnitude. Averaging across them is how the evidence gets misread.
 type: expert
 author: oceans-freshwater-desk

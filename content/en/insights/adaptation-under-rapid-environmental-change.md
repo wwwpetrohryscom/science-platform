@@ -1,5 +1,6 @@
 ---
 title: Whether adaptation can keep pace is an empirical question with partial answers
+metaTitle: 'Can adaptation keep pace? What the evidence supports'
 excerpt: Plasticity, evolutionary change and range shift are three responses on three timescales, and the published evidence is strongest for the one that is easiest to observe and weakest for the one that would matter most.
 argument: The evidence that populations are responding to environmental change is strong; the evidence that those responses are genetic, adaptive, and sufficient is much thinner, and the literature is far better at counting populations that responded than populations that did not.
 category: biology

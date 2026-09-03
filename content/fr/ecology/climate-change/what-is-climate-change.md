@@ -1,5 +1,6 @@
 ---
 title: Qu'est-ce que le changement climatique ? Le mécanisme, les preuves et les questions ouvertes
+metaTitle: 'Le changement climatique : mécanisme et preuves'
 excerpt: Le changement climatique désigne la modification à long terme du bilan énergétique de la Terre sous l'effet de l'évolution de la composition de l'atmosphère. Voici le mécanisme, les preuves qui l'établissent et les questions qui restent réellement ouvertes.
 type: pillar
 author: climate-research-desk

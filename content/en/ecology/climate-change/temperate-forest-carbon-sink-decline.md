@@ -1,5 +1,6 @@
 ---
 title: How temperate forests are quietly losing their carbon sink capacity
+metaTitle: 'Temperate forests are losing carbon-sink capacity'
 excerpt: Long-term inventory networks show why temperate forest carbon sinks should be treated as dynamic and disturbance-sensitive, not as guaranteed offsets.
 type: expert
 author: climate-research-desk

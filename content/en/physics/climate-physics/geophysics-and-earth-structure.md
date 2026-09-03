@@ -1,5 +1,6 @@
 ---
 title: 'Geophysics: how the inside of the Earth is known without ever reaching it'
+metaTitle: 'Geophysics: how the Earth''s interior is measured'
 excerpt: No instrument has been inside the mantle. The layered picture of Earth's interior is assembled from waves that pass through it, heat that leaks out of it, a magnetic field it generates and a gravity field that satellites weigh from orbit.
 type: expert
 author: physics-energy-desk

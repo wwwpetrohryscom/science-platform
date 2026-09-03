@@ -1,5 +1,6 @@
 ---
 title: 'Noise and artificial light at night: pollution that cannot be sampled after the fact'
+metaTitle: 'Noise and artificial light at night as pollution'
 excerpt: Sound and light leave no residue in soil, water or tissue. They exist only while the source is running, and that single property shapes how they are measured, why their ecological effects were regulated late, and what the evidence can support.
 type: expert
 author: public-health-environment-desk

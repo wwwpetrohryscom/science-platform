@@ -1,5 +1,6 @@
 ---
 title: 'Océanographie : comment la profondeur organise la mer, et le peu que nous en observons'
+metaTitle: 'Océanographie : la profondeur organise la mer'
 excerpt: La densité trie l'eau de mer en couches qui n'échangent que lentement, et presque toutes les propriétés de la mer à grande échelle découlent de ce tri. Voici ce que cette stratification fait à la chimie et à la vie, et à quel point l'océan est en réalité peu observé.
 type: pillar
 author: oceans-freshwater-desk

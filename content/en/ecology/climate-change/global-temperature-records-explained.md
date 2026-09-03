@@ -1,5 +1,6 @@
 ---
 title: 'Global temperature records: what GISTEMP, HadCRUT, NOAAGlobalTemp, and reanalyses each measure'
+metaTitle: 'Global temperature records: why the datasets differ'
 excerpt: There is no single global temperature dataset. There are several, built independently from overlapping observations. Here is what each one does and why they mostly agree.
 type: expert
 author: climate-research-desk

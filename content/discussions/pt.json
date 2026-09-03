@@ -1,6 +1,7 @@
 {
   "geoengineering-field-trials": {
     "title": "Deve a investigação em geoengenharia passar da modelação para ensaios de campo em pequena escala?",
+    "metaTitle": "Geoengenharia: modelação ou ensaios de campo?",
     "topic": "A injeção de aerossóis na estratosfera passou de especulativa a plausivelmente aplicável dentro de uma década. A questão já não é saber se funciona nos modelos — é saber se experiências de campo com limites definidos são cientificamente necessárias ou politicamente temerárias.",
     "comments": {
       "c1": "Nota de moderação: as experiências de campo são por vezes propostas porque os modelos e os estudos de laboratório não conseguem reproduzir integralmente o comportamento dos aerossóis atmosféricos. Qualquer proposta deste tipo exige uma governação transparente antes de ser tida por cientificamente ou politicamente aceitável.",
@@ -10,6 +11,7 @@
   },
   "communicating-attribution-uncertainty": {
     "title": "Como devemos comunicar a incerteza nas afirmações de atribuição climática?",
+    "metaTitle": "Comunicar a incerteza na atribuição climática",
     "topic": "Os estudos de atribuição rápida publicam-se hoje poucos dias depois de um fenómeno extremo. Os métodos são sólidos; a comunicação é desigual. Que forma tem um enquadramento responsável da atribuição probabilística dirigido a públicos não especializados?",
     "comments": {
       "c1": "Nota de moderação: a atribuição de fenómenos estima, em regra, de que modo o aquecimento de origem humana altera a probabilidade ou a intensidade. As explicações destinadas ao público devem evitar sugerir que um fenómeno isolado tem uma causa única e determinista.",
@@ -19,6 +21,7 @@
   },
   "single-cell-data-standards": {
     "title": "Estarão as normas de dados de célula única a acompanhar o ritmo da ciência?",
+    "metaTitle": "Normas de dados para sequenciação de célula única",
     "topic": "A sequenciação de célula única produziu um salto de resolução na biologia comparada. As normas de dados que regulam a forma como esses conjuntos de dados são depositados, anotados e tornados reanalisáveis ficaram para trás. Onde é que o atrito aperta neste momento?",
     "comments": {
       "c1": "Nota de moderação: normas sem uma exigência consistente de metadados deixam os conjuntos de dados difíceis de comparar entre estudos. Os futuros circuitos de repositórios e de revistas deveriam tornar os metadados reutilizáveis parte da aceitação, e não uma arrumação facultativa.",
@@ -27,6 +30,7 @@
   },
   "what-counts-as-successful-restoration": {
     "title": "O que deve contar como um restauro bem-sucedido de um ecossistema?",
+    "metaTitle": "O que conta como restauro bem-sucedido?",
     "topic": "As metas de restauro entram cada vez mais nas políticas públicas expressas em unidades de área. A literatura ecológica mede o sucesso em unidades de estrutura e de função recuperadas, face a um estado de referência que é preciso escolher. Não são a mesma meta, e um projeto pode cumprir uma delas falhando a outra.",
     "comments": {
       "c1": "Nota de enquadramento: a escolha do estado de referência determina o veredicto mais do que qualquer medição. Um local avaliado face à sua condição anterior à perturbação, face a um análogo não perturbado e face a uma meta funcional pode ser um sucesso segundo um destes critérios e um fracasso segundo os outros. A escolha faz-se, em regra, uma só vez, no início, e raramente é reapreciada.",
@@ -35,6 +39,7 @@
   },
   "how-should-biodiversity-be-measured": {
     "title": "Que medida de biodiversidade deve orientar as decisões de política pública?",
+    "metaTitle": "Que medida de biodiversidade deve guiar a política?",
     "topic": "A riqueza específica, a diversidade funcional, a diversidade genética, o Índice Planeta Vivo e a cobertura por áreas protegidas são todos chamados biodiversidade. Ordenam lugares e intervenções de maneiras diferentes, e a escolha da medida é muitas vezes ditada pela disponibilidade de dados e não pela pergunta que se está a fazer.",
     "comments": {
       "c1": "Nota de enquadramento: as medidas divergem porque respondem a perguntas diferentes. A riqueza pergunta quantos tipos estão presentes, a diversidade funcional pergunta que leque de papéis está coberto e um índice de abundância pergunta se as populações se estão a aguentar. Um local pode ganhar numa e perder noutra sem que haja qualquer contradição.",
@@ -43,6 +48,7 @@
   },
   "where-climate-model-uncertainty-matters-most": {
     "title": "Que incertezas dos modelos climáticos têm consequências para as decisões?",
+    "metaTitle": "Que incertezas de modelo importam para decidir",
     "topic": "A incerteza das projeções vem da escolha do cenário, da estrutura do modelo e da variabilidade interna, e o peso relativo de cada uma muda com o horizonte temporal e com a escala espacial. Tratar as três como uma só grandeza produz tanto falsa confiança como falsa paralisia, consoante a que domine o caso em análise.",
     "comments": {
       "c1": "Nota de enquadramento: a variabilidade interna domina as projeções regionais de curto prazo e não pode ser reduzida com melhores modelos, apenas delimitada com conjuntos de simulações maiores. A escolha do cenário domina as projeções globais para o final do século e não é, de todo, uma incerteza científica. A exposição de quem decide depende inteiramente do regime em que se situa a sua pergunta.",
@@ -51,6 +57,7 @@
   },
   "limits-of-renewable-energy-storage": {
     "title": "Quais são os limites realistas do armazenamento numa rede com elevada penetração de renováveis?",
+    "metaTitle": "Os limites realistas do armazenamento em rede",
     "topic": "As estimativas publicadas do armazenamento de que um sistema com elevada penetração de renováveis precisa variam numa ordem de grandeza. A dispersão vem menos da química das baterias do que dos pressupostos sobre o transporte de energia, a flexibilidade da procura e a fração do ano durante a qual o sistema tem de aguentar sem produção.",
     "comments": {
       "c1": "Nota de enquadramento: o armazenamento diário e o armazenamento sazonal são problemas de engenharia distintos. Uma tecnologia otimizada para um ciclo diário com elevado rendimento de ida e volta é uma má escolha para um depósito que se enche uma vez por ano, e passa a ser determinante o custo por unidade de energia, e não por unidade de potência.",
@@ -59,6 +66,7 @@
   },
   "how-should-soil-carbon-be-credited": {
     "title": "Poderá a variação do carbono do solo ser medida com rigor suficiente para dar origem a créditos?",
+    "metaTitle": "Pode o carbono do solo ser creditado?",
     "topic": "Os mercados de carbono do solo emitem créditos por variações que se situam perto do limite de deteção da amostragem praticável — e por vezes abaixo dele. A resposta tem sido modelar em vez de medir, o que desloca o problema da verificação em vez de o resolver.",
     "comments": {
       "c1": "Nota de enquadramento: o problema da deteção é aritmético antes de ser agronómico. A variação anual sob gestão melhorada é pequena face à reserva existente e à variância espacial dentro de uma mesma parcela, e a dimensão de amostra necessária para a detetar com uma confiança útil sobe em conformidade.",

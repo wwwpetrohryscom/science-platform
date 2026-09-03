@@ -1,5 +1,6 @@
 ---
 title: 'Protected-area effectiveness: why coverage is not the same as outcome'
+metaTitle: 'Protected-area effectiveness: coverage is not outcome'
 excerpt: The share of land and sea inside protected areas is rising, but designation does not guarantee results. This explains how effectiveness is actually assessed — management evaluations and counterfactual impact studies — and why a protected area on a map can still be a "paper park".
 type: expert
 author: biodiversity-conservation-desk
@@ -25,7 +26,7 @@ The amount of land and sea inside protected areas has been rising for decades, a
 
 The first thing to separate is where protected areas are and how much they cover from what they accomplish. Coverage — extent and location — is recorded in the World Database on Protected Areas, maintained by UNEP-WCMC and IUCN and displayed through [Protected Planet](https://www.protectedplanet.net/en). This is the accounting layer most often cited when progress is reported.
 
-That accounting now answers to a specific commitment. Under the Kunming-Montreal Global Biodiversity Framework, [Target 3](https://www.cbd.int/) asks countries to effectively conserve and manage at least 30% of land and sea by 2030, the goal usually shortened to "30x30". The wording matters: it speaks of effective conservation, not merely designation. A site can be drawn on the map yet remain poorly resourced and weakly enforced — a so-called "paper park" — with little measurable influence on the threats inside its borders. Counting hectares answers a different question from whether those hectares are working.
+That accounting now answers to a specific commitment. Under the Kunming-Montreal Global Biodiversity Framework, [Target 3](https://www.cbd.int/gbf/targets/3) asks countries to effectively conserve and manage at least 30% of land and sea by 2030, the goal usually shortened to "30x30". The wording matters: it speaks of effective conservation, not merely designation. A site can be drawn on the map yet remain poorly resourced and weakly enforced — a so-called "paper park" — with little measurable influence on the threats inside its borders. Counting hectares answers a different question from whether those hectares are working.
 
 ## Two families of assessment
 
@@ -37,7 +38,7 @@ The second family asks a harder question: did the area actually change biodivers
 
 ## How outcome studies are measured
 
-Outcome evaluation rests on building a credible comparison. The core idea is to compare protected sites with similar unprotected ones, so that the difference between them approximates the effect of protection itself. Statistical matching pairs each protected location with unprotected locations that resemble it on characteristics like terrain, accessibility, soil, and distance to markets, then measures how their fates diverge. Studies of this kind, including impact-evaluation research published in journals such as [Nature](https://www.nature.com/), have made matching a standard step rather than an optional refinement.
+Outcome evaluation rests on building a credible comparison. The core idea is to compare protected sites with similar unprotected ones, so that the difference between them approximates the effect of protection itself. Statistical matching pairs each protected location with unprotected locations that resemble it on characteristics like terrain, accessibility, soil, and distance to markets, then measures how their fates diverge. Studies of this kind have made matching a standard step rather than an optional refinement.
 
 This is necessary because a simple before-and-after or inside-versus-outside contrast is misleading. Protected areas are frequently placed on land with low agricultural or development pressure — terrain that is "high and far", remote and hard to convert. Such sites would often have stayed intact regardless of their status, so a naive comparison credits protection with changes it did not cause and overstates impact. Matching attempts to strip out that location bias by comparing like with like.
 
@@ -58,6 +59,5 @@ None of this argues against expanding protected areas; it argues for reading des
 ## Sources
 
 1. **Protected Planet** — [WDPA](https://www.protectedplanet.net/en). UNEP-WCMC and IUCN database of protected areas and OECMs.
-1. **CBD** — [Target 3 (30x30)](https://www.cbd.int/). The area-based conservation target of the Global Biodiversity Framework.
-1. **IUCN** — [protected areas](https://www.iucn.org/). Standards and management-effectiveness guidance.
-1. **Nature** — [impact-evaluation research](https://www.nature.com/). Counterfactual studies of protected-area outcomes.
+2. **CBD** — [Target 3 (30x30)](https://www.cbd.int/). The area-based conservation target of the Global Biodiversity Framework.
+3. **IUCN** — [protected areas](https://www.iucn.org/). Standards and management-effectiveness guidance.

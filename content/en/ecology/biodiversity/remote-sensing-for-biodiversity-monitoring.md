@@ -1,5 +1,6 @@
 ---
 title: 'Remote sensing for biodiversity monitoring: what satellites can and cannot see'
+metaTitle: 'Remote sensing for biodiversity: what satellites can see'
 excerpt: Satellites cannot see most species, but they measure the structure of ecosystems consistently and globally. This explains what Earth observation actually contributes to biodiversity monitoring — land cover, canopy structure, vegetation state — and the limits of inferring biological diversity from a spectral signal.
 type: expert
 author: biodiversity-conservation-desk

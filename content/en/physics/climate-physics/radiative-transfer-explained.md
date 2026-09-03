@@ -1,5 +1,6 @@
 ---
 title: 'Radiative transfer: absorption, emission, and why the spectrum matters more than the total'
+metaTitle: 'Radiative transfer: why the spectrum matters, not the total'
 excerpt: Radiative transfer is bookkeeping done wavelength by wavelength. A temperature fixes what a body emits, molecular structure fixes what the air absorbs, and almost every interesting result comes from the mismatch between the two.
 type: expert
 author: physics-energy-desk

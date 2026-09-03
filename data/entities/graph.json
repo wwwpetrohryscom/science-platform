@@ -70,20 +70,18 @@
     "antimicrobial-resistance-evidence"
    ],
    "evidenceIds": [
-    "ev-cdc-gov-6544af21",
     "ev-cdc-gov-6f3ea7b3",
     "ev-fao-org-903a07ea",
     "ev-ncbi-nlm-nih-gov-b3eb907a",
-    "ev-nih-gov-07e4098a",
     "ev-pmc-ncbi-nlm-nih-gov-0691ac19",
     "ev-pmc-ncbi-nlm-nih-gov-09a05138",
     "ev-pmc-ncbi-nlm-nih-gov-17f55ae6",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
-    "ev-science-org-365f60d5",
+    "ev-who-int-039d5525",
     "ev-who-int-0484ac5a",
-    "ev-who-int-4ac0af4c",
     "ev-who-int-708162c1",
-    "ev-who-int-db5579cb"
+    "ev-who-int-db5579cb",
+    "ev-who-int-e672c03b"
    ]
   },
   {
@@ -231,11 +229,13 @@
     "ev-annualreviews-org-90a917a8",
     "ev-catalogueoflife-org-970bd495",
     "ev-cbd-int-30e9e627",
+    "ev-cbd-int-47b45422",
+    "ev-doi-org-9a1b4b41",
     "ev-eea-europa-eu-21941f6a",
     "ev-eea-europa-eu-5ecc0193",
     "ev-esa-int-042cde5c",
     "ev-fao-org-268d5aab",
-    "ev-fao-org-6426027d",
+    "ev-fao-org-59d392ee",
     "ev-gbif-org-36f4e193",
     "ev-gbif-org-e10eb931",
     "ev-geobon-org-9cb1cb2a",
@@ -247,14 +247,12 @@
     "ev-journals-plos-org-f097a363",
     "ev-land-copernicus-eu-921c2dba",
     "ev-livingplanetindex-org-42b65f9e",
-    "ev-nature-com-48346271",
     "ev-pmc-ncbi-nlm-nih-gov-6df11bb9",
+    "ev-pmc-ncbi-nlm-nih-gov-ada34f3d",
     "ev-pmc-ncbi-nlm-nih-gov-b809000f",
-    "ev-pnas-org-de73c2cf",
     "ev-protectedplanet-net-29afa788",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-science-nasa-gov-32cc3e70",
-    "ev-science-org-365f60d5",
     "ev-unep-org-b0f403ba",
     "ev-usgs-gov-8d305e39"
    ]
@@ -433,7 +431,6 @@
     "ev-essd-copernicus-org-17ec57f5",
     "ev-essd-copernicus-org-a81b77af",
     "ev-fao-org-44cdd7ed",
-    "ev-fao-org-6426027d",
     "ev-fao-org-7edd5549",
     "ev-forobs-jrc-ec-europa-eu-dfc44f48",
     "ev-frontiersin-org-ffdb1d60",
@@ -562,7 +559,6 @@
     "ev-coralreefwatch-noaa-gov-2eeb9c6d",
     "ev-coralreefwatch-noaa-gov-b6e1c586",
     "ev-genome-gov-6d1954a6",
-    "ev-nature-com-48346271",
     "ev-nature-com-cdc972a1",
     "ev-ncbi-nlm-nih-gov-56e89b96",
     "ev-ncbi-nlm-nih-gov-56f7a620",
@@ -575,13 +571,11 @@
     "ev-ncbi-nlm-nih-gov-d8c27d22",
     "ev-ncbi-nlm-nih-gov-e9307542",
     "ev-ncbi-nlm-nih-gov-f8441497",
-    "ev-nih-gov-07e4098a",
     "ev-pmc-ncbi-nlm-nih-gov-2eea92c1",
     "ev-pmc-ncbi-nlm-nih-gov-c9e0ddbb",
     "ev-pmc-ncbi-nlm-nih-gov-d32407ce",
     "ev-pmc-ncbi-nlm-nih-gov-edec6dce",
-    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
-    "ev-science-org-365f60d5"
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f"
    ]
   },
   {
@@ -751,6 +745,7 @@
     "what-is-climate-change"
    ],
    "evidenceIds": [
+    "ev-argo-ucsd-edu-fae69aca",
     "ev-climate-copernicus-eu-d9ce40a0",
     "ev-climate-copernicus-eu-e789bd69",
     "ev-coralreefwatch-noaa-gov-2eeb9c6d",
@@ -772,9 +767,9 @@
     "ev-ipcc-ch-df0f377a",
     "ev-ipcc-ch-e00f390d",
     "ev-ncei-noaa-gov-0ccb09f9",
+    "ev-ncei-noaa-gov-55117fb6",
     "ev-ncei-noaa-gov-ae9af1c2",
     "ev-noaa-gov-78cff8fe",
-    "ev-noaa-gov-8473ab6a",
     "ev-nsidc-org-d11343d5",
     "ev-pmc-ncbi-nlm-nih-gov-1b806900",
     "ev-public-wmo-int-e907ecd7",
@@ -786,7 +781,6 @@
     "ev-sealevel-nasa-gov-04874c89",
     "ev-tidesandcurrents-noaa-gov-8f3d46c7",
     "ev-unep-org-6d7bc6c7",
-    "ev-unep-org-e2d533b7",
     "ev-unfccc-int-4d81d235",
     "ev-wcrp-climate-org-2a1c7487",
     "ev-wgms-ch-f4c54ad1",
@@ -837,7 +831,6 @@
    "evidenceIds": [
     "ev-agupubs-onlinelibrary-wiley-com-102ca4ea",
     "ev-agupubs-onlinelibrary-wiley-com-e66c434d",
-    "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
     "ev-arctic-noaa-gov-9400a80f",
     "ev-climate-copernicus-eu-d9ce40a0",
     "ev-ecmwf-int-2c0830e3",
@@ -981,7 +974,7 @@
    ],
    "evidenceIds": [
     "ev-agupubs-onlinelibrary-wiley-com-102ca4ea",
-    "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
+    "ev-agupubs-onlinelibrary-wiley-com-e66c434d",
     "ev-esd-copernicus-org-01279f9e",
     "ev-gmd-copernicus-org-859ba522",
     "ev-ipcc-ch-26aac06c",
@@ -1093,7 +1086,7 @@
     "ev-eprints-whiterose-ac-uk-77c8a713",
     "ev-esa-int-042cde5c",
     "ev-fao-org-268d5aab",
-    "ev-fao-org-6426027d",
+    "ev-fao-org-59d392ee",
     "ev-fws-gov-79332e52",
     "ev-fws-gov-c9334213",
     "ev-gbif-org-36f4e193",
@@ -1114,7 +1107,6 @@
     "ev-nature-com-1fd5e07b",
     "ev-nature-com-3bc8c61e",
     "ev-nature-com-47e79f61",
-    "ev-nature-com-48346271",
     "ev-nature-com-4fa13bfe",
     "ev-nature-com-8f05f6ed",
     "ev-nature-com-99ef88f6",
@@ -1142,7 +1134,6 @@
     "ev-pubmed-ncbi-nlm-nih-gov-dec91c22",
     "ev-science-nasa-gov-32cc3e70",
     "ev-science-org-2a28b26b",
-    "ev-science-org-365f60d5",
     "ev-science-org-4dc32307",
     "ev-science-org-77493a47",
     "ev-science-org-f65f0ef4",
@@ -1192,14 +1183,12 @@
     "ev-coralreefwatch-noaa-gov-f7bbde3a",
     "ev-ipcc-ch-2caac9de",
     "ev-journals-plos-org-e0db24fa",
-    "ev-nature-com-48346271",
     "ev-nesdis-noaa-gov-aeda9bb3",
     "ev-oceanservice-noaa-gov-f6e75843",
     "ev-pubmed-ncbi-nlm-nih-gov-05f6e5b8",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-pubmed-ncbi-nlm-nih-gov-91eb9faa",
-    "ev-pubmed-ncbi-nlm-nih-gov-ac99e91b",
-    "ev-science-org-365f60d5"
+    "ev-pubmed-ncbi-nlm-nih-gov-ac99e91b"
    ]
   },
   {
@@ -1346,18 +1335,15 @@
     "ev-genome-gov-6d1954a6",
     "ev-genome-gov-c18d72e9",
     "ev-medlineplus-gov-1cc692c5",
-    "ev-nature-com-48346271",
     "ev-ncbi-nlm-nih-gov-5d64927c",
     "ev-ncbi-nlm-nih-gov-713ec2e4",
     "ev-ncbi-nlm-nih-gov-7e3a5a2d",
     "ev-ncbi-nlm-nih-gov-b3eb907a",
     "ev-ncbi-nlm-nih-gov-e00b097d",
-    "ev-nih-gov-07e4098a",
     "ev-pmc-ncbi-nlm-nih-gov-83b4b28b",
     "ev-pmc-ncbi-nlm-nih-gov-c1ab7acd",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
-    "ev-pubmed-ncbi-nlm-nih-gov-8266a32a",
-    "ev-who-int-4ac0af4c"
+    "ev-pubmed-ncbi-nlm-nih-gov-8266a32a"
    ]
   },
   {
@@ -1409,7 +1395,6 @@
     "ev-jun2026-archive-ensembl-org-90e53f20",
     "ev-nature-com-2af53711",
     "ev-nature-com-3e721395",
-    "ev-nature-com-48346271",
     "ev-nature-com-decf0f80",
     "ev-ncbi-nlm-nih-gov-35027b5e",
     "ev-ncbi-nlm-nih-gov-621f08d2",
@@ -1440,8 +1425,7 @@
     "ev-pubmed-ncbi-nlm-nih-gov-5b7e9fbe",
     "ev-pubmed-ncbi-nlm-nih-gov-93235b7b",
     "ev-pubmed-ncbi-nlm-nih-gov-a1cbd23d",
-    "ev-pubmed-ncbi-nlm-nih-gov-a5190e85",
-    "ev-science-org-365f60d5"
+    "ev-pubmed-ncbi-nlm-nih-gov-a5190e85"
    ]
   },
   {
@@ -1722,6 +1706,7 @@
     "what-is-an-ecosystem"
    ],
    "evidenceIds": [
+    "ev-cbd-int-30e9e627",
     "ev-doi-org-85bf7fd8",
     "ev-eea-europa-eu-5ecc0193",
     "ev-eea-europa-eu-8cf6f284",
@@ -1733,7 +1718,6 @@
     "ev-esajournals-onlinelibrary-wiley-com-45216bff",
     "ev-esajournals-onlinelibrary-wiley-com-e7742072",
     "ev-fao-org-347ee22b",
-    "ev-fao-org-6426027d",
     "ev-fao-org-8c0e597a",
     "ev-fao-org-a209f811",
     "ev-fao-org-afc0161a",
@@ -1741,7 +1725,6 @@
     "ev-ipbes-net-860a7b04",
     "ev-ipbes-net-f156c424",
     "ev-ipcc-ch-41fb314f",
-    "ev-nature-com-48346271",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-pubmed-ncbi-nlm-nih-gov-3b6a6fd7",
     "ev-pubmed-ncbi-nlm-nih-gov-56a9b664",
@@ -1751,13 +1734,11 @@
     "ev-pubmed-ncbi-nlm-nih-gov-e5cb85d7",
     "ev-pubmed-ncbi-nlm-nih-gov-ea9ae2c2",
     "ev-royalsocietypublishing-org-76f3eb68",
-    "ev-science-org-365f60d5",
     "ev-unep-org-b0f403ba",
-    "ev-unep-org-e2d533b7",
     "ev-usgs-gov-3df2c56e",
     "ev-usgs-gov-bc568f25",
     "ev-usgs-gov-fad35d8a",
-    "ev-who-int-4ac0af4c"
+    "ev-who-int-f93f3734"
    ]
   },
   {
@@ -1791,15 +1772,13 @@
     "optics-and-light-explained"
    ],
    "evidenceIds": [
-    "ev-esa-int-d442582b",
+    "ev-chandra-harvard-edu-e1fe2f67",
+    "ev-gml-noaa-gov-0b1804a4",
     "ev-gml-noaa-gov-29af78a5",
     "ev-home-cern-574c6d89",
     "ev-journals-aps-org-fe052a5e",
-    "ev-nasa-gov-5878ac12",
-    "ev-nih-gov-07e4098a",
     "ev-nist-gov-7d1720a5",
     "ev-nist-gov-b4dac7fd",
-    "ev-noaa-gov-8473ab6a",
     "ev-oceanservice-noaa-gov-b19a5a17",
     "ev-pmc-ncbi-nlm-nih-gov-1a12da62",
     "ev-pmc-ncbi-nlm-nih-gov-7e325659",
@@ -1809,7 +1788,7 @@
     "ev-science-nasa-gov-9b4546a8",
     "ev-science-nasa-gov-d17bc14c",
     "ev-science-nasa-gov-d91f1e1b",
-    "ev-who-int-4ac0af4c"
+    "ev-who-int-699833a6"
    ]
   },
   {
@@ -1846,7 +1825,9 @@
    ],
    "evidenceIds": [
     "ev-bipm-org-69ab2e96",
+    "ev-ceres-larc-nasa-gov-cab64e73",
     "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-doi-org-f453a4ac",
     "ev-eia-gov-9683de5b",
     "ev-eia-gov-cbd04939",
     "ev-energy-gov-6d02dc81",
@@ -1861,8 +1842,6 @@
     "ev-journals-aps-org-fe052a5e",
     "ev-lasers-llnl-gov-849a70d8",
     "ev-llnl-gov-bd8d3558",
-    "ev-nasa-gov-5878ac12",
-    "ev-nature-com-48346271",
     "ev-nist-gov-38d2a37a",
     "ev-nist-gov-7d1720a5",
     "ev-nlr-gov-52e163a1",
@@ -1873,8 +1852,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-e64ca14d",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-science-nasa-gov-32cc3e70",
-    "ev-science-nasa-gov-ed8dcf74",
-    "ev-science-org-365f60d5"
+    "ev-science-nasa-gov-ed8dcf74"
    ]
   },
   {
@@ -1983,10 +1961,12 @@
    "evidenceIds": [
     "ev-afdc-energy-gov-39d67d7e",
     "ev-bipm-org-69ab2e96",
+    "ev-ceres-larc-nasa-gov-cab64e73",
     "ev-climate-copernicus-eu-d9ce40a0",
     "ev-doi-org-974f0878",
     "ev-doi-org-ab418575",
     "ev-doi-org-ce3af44a",
+    "ev-doi-org-f453a4ac",
     "ev-eia-gov-03c0e00a",
     "ev-eia-gov-0a47c5b5",
     "ev-eia-gov-1b6c31d0",
@@ -2021,8 +2001,6 @@
     "ev-journals-aps-org-fe052a5e",
     "ev-lasers-llnl-gov-849a70d8",
     "ev-llnl-gov-bd8d3558",
-    "ev-nasa-gov-5878ac12",
-    "ev-nature-com-48346271",
     "ev-nature-com-e4330651",
     "ev-nist-gov-1d154380",
     "ev-nist-gov-38d2a37a",
@@ -2048,7 +2026,6 @@
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-science-nasa-gov-32cc3e70",
     "ev-science-nasa-gov-ed8dcf74",
-    "ev-science-org-365f60d5",
     "ev-wes-copernicus-org-64ed7085",
     "ev-wes-copernicus-org-bff4f9b7"
    ]
@@ -2093,7 +2070,6 @@
     "ev-nist-gov-d79e9476",
     "ev-nlr-gov-415c876d",
     "ev-noaa-gov-78cff8fe",
-    "ev-noaa-gov-8473ab6a",
     "ev-physics-nist-gov-d444bd61",
     "ev-pmc-ncbi-nlm-nih-gov-30656ac6",
     "ev-pmc-ncbi-nlm-nih-gov-323af94b",
@@ -2177,7 +2153,9 @@
    ],
    "evidenceIds": [
     "ev-argo-ucsd-edu-ea18b31b",
+    "ev-argo-ucsd-edu-fae69aca",
     "ev-cbd-int-30e9e627",
+    "ev-cbd-int-47b45422",
     "ev-cbd-int-48b455b5",
     "ev-climate-copernicus-eu-d9ce40a0",
     "ev-climate-copernicus-eu-e789bd69",
@@ -2185,6 +2163,7 @@
     "ev-coralreefwatch-noaa-gov-2eeb9c6d",
     "ev-cpc-ncep-noaa-gov-de8d826b",
     "ev-decadeonrestoration-org-84547bcb",
+    "ev-doi-org-9a1b4b41",
     "ev-earthdata-nasa-gov-d76ebdc0",
     "ev-ecmwf-int-2c0830e3",
     "ev-eea-europa-eu-21941f6a",
@@ -2201,7 +2180,7 @@
     "ev-essd-copernicus-org-3a391427",
     "ev-fao-org-268d5aab",
     "ev-fao-org-44cdd7ed",
-    "ev-fao-org-6426027d",
+    "ev-fao-org-59d392ee",
     "ev-frontiersin-org-ffdb1d60",
     "ev-gbif-org-36f4e193",
     "ev-gcos-wmo-int-bffc4027",
@@ -2230,16 +2209,15 @@
     "ev-mdpi-com-8acc2930",
     "ev-nature-com-047084a0",
     "ev-nature-com-35b6b4e2",
-    "ev-nature-com-48346271",
     "ev-nature-com-58dde4cb",
     "ev-nature-com-89a10f45",
     "ev-nature-com-a8c57beb",
     "ev-nature-com-ea05ba65",
     "ev-nature-com-fb3b0d53",
     "ev-ncei-noaa-gov-0ccb09f9",
+    "ev-ncei-noaa-gov-55117fb6",
     "ev-nesdis-noaa-gov-5c5f1718",
     "ev-noaa-gov-78cff8fe",
-    "ev-noaa-gov-8473ab6a",
     "ev-nsidc-org-d11343d5",
     "ev-onlinelibrary-wiley-com-0c855db4",
     "ev-openknowledge-fao-org-2a0da203",
@@ -2247,10 +2225,10 @@
     "ev-openknowledge-fao-org-5b9a241a",
     "ev-openknowledge-fao-org-81784af0",
     "ev-pmc-ncbi-nlm-nih-gov-6b4f4210",
+    "ev-pmc-ncbi-nlm-nih-gov-ada34f3d",
     "ev-pmc-ncbi-nlm-nih-gov-c75576ed",
     "ev-pmc-ncbi-nlm-nih-gov-db98184c",
     "ev-pmc-ncbi-nlm-nih-gov-e4387ec7",
-    "ev-pnas-org-de73c2cf",
     "ev-protectedplanet-net-29afa788",
     "ev-public-wmo-int-e907ecd7",
     "ev-pubmed-ncbi-nlm-nih-gov-1d2e76b1",
@@ -2265,7 +2243,6 @@
     "ev-science-nasa-gov-32cc3e70",
     "ev-science-nasa-gov-50b63dc1",
     "ev-science-nasa-gov-ed8dcf74",
-    "ev-science-org-365f60d5",
     "ev-sealevel-nasa-gov-04874c89",
     "ev-smap-jpl-nasa-gov-55e010a3",
     "ev-soil-copernicus-org-9ea4dc9c",
@@ -2275,7 +2252,6 @@
     "ev-unccd-int-a27735ac",
     "ev-unccd-int-e87e8ebc",
     "ev-unep-org-b0f403ba",
-    "ev-unep-org-e2d533b7",
     "ev-usgs-gov-6c46fe07",
     "ev-usgs-gov-8d305e39",
     "ev-usgs-gov-a493cdeb",
@@ -2388,14 +2364,12 @@
     "ev-academic-oup-com-456c1861",
     "ev-academic-oup-com-70b83d84",
     "ev-academic-oup-com-7a50a467",
-    "ev-cdc-gov-6544af21",
     "ev-genome-gov-7c95e126",
     "ev-genome-gov-9313a7f8",
     "ev-journals-plos-org-c874ec90",
-    "ev-nature-com-48346271",
     "ev-ncbi-nlm-nih-gov-b3eb907a",
-    "ev-nih-gov-07e4098a",
     "ev-pmc-ncbi-nlm-nih-gov-033f8b6b",
+    "ev-pmc-ncbi-nlm-nih-gov-09a05138",
     "ev-pmc-ncbi-nlm-nih-gov-1d1d1132",
     "ev-pmc-ncbi-nlm-nih-gov-3ae1a0ad",
     "ev-pmc-ncbi-nlm-nih-gov-423dd926",
@@ -2418,8 +2392,9 @@
     "ev-pubmed-ncbi-nlm-nih-gov-a764579a",
     "ev-pubmed-ncbi-nlm-nih-gov-baee57c1",
     "ev-pubmed-ncbi-nlm-nih-gov-f5aef3a6",
-    "ev-science-org-365f60d5",
-    "ev-who-int-4ac0af4c"
+    "ev-who-int-039d5525",
+    "ev-who-int-708162c1",
+    "ev-who-int-e672c03b"
    ]
   },
   {
@@ -2836,7 +2811,6 @@
     "ev-medlineplus-gov-1cc692c5",
     "ev-medlineplus-gov-fdacc420",
     "ev-ncbi-nlm-nih-gov-b3eb907a",
-    "ev-nih-gov-07e4098a",
     "ev-pmc-ncbi-nlm-nih-gov-1581695b",
     "ev-pmc-ncbi-nlm-nih-gov-19b71fbf",
     "ev-pmc-ncbi-nlm-nih-gov-35cc4f91",
@@ -2845,8 +2819,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-d7f3614b",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-pubmed-ncbi-nlm-nih-gov-60aef494",
-    "ev-pubmed-ncbi-nlm-nih-gov-f93af137",
-    "ev-who-int-4ac0af4c"
+    "ev-pubmed-ncbi-nlm-nih-gov-f93af137"
    ]
   },
   {
@@ -2956,7 +2929,6 @@
    "evidenceIds": [
     "ev-journals-plos-org-c874ec90",
     "ev-jun2026-archive-ensembl-org-90e53f20",
-    "ev-nature-com-48346271",
     "ev-ncbi-nlm-nih-gov-b3eb907a",
     "ev-pmc-ncbi-nlm-nih-gov-2988f694",
     "ev-pmc-ncbi-nlm-nih-gov-5db1070f",
@@ -2966,8 +2938,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-e5b34b08",
     "ev-pmc-ncbi-nlm-nih-gov-f67c0ff2",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
-    "ev-pubmed-ncbi-nlm-nih-gov-a1cbd23d",
-    "ev-science-org-365f60d5"
+    "ev-pubmed-ncbi-nlm-nih-gov-a1cbd23d"
    ]
   },
   {
@@ -3118,7 +3089,6 @@
     "ev-nature-com-63ef27bf",
     "ev-science-nasa-gov-32cc3e70",
     "ev-science-org-24a7e31b",
-    "ev-science-org-365f60d5",
     "ev-science-org-b024d3f6"
    ]
   },
@@ -3539,10 +3509,11 @@
     "ev-aeronet-gsfc-nasa-gov-b99245a6",
     "ev-agupubs-onlinelibrary-wiley-com-102ca4ea",
     "ev-agupubs-onlinelibrary-wiley-com-98129a75",
-    "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
+    "ev-agupubs-onlinelibrary-wiley-com-e66c434d",
     "ev-bipindicators-net-816db5de",
     "ev-bipm-org-51ac2f38",
     "ev-bipm-org-69ab2e96",
+    "ev-chandra-harvard-edu-e1fe2f67",
     "ev-climate-copernicus-eu-d9ce40a0",
     "ev-cochranelibrary-com-00946c04",
     "ev-cpc-ncep-noaa-gov-19303952",
@@ -3556,7 +3527,6 @@
     "ev-ecmwf-int-2c0830e3",
     "ev-ecmwf-int-33e1439f",
     "ev-energy-gov-3d2a7bea",
-    "ev-esa-int-d442582b",
     "ev-esa-int-ffbc128f",
     "ev-esd-copernicus-org-01279f9e",
     "ev-essd-copernicus-org-17ec57f5",
@@ -3572,6 +3542,7 @@
     "ev-genome-gov-9420551d",
     "ev-geobon-org-9cb1cb2a",
     "ev-gmd-copernicus-org-859ba522",
+    "ev-gml-noaa-gov-0b1804a4",
     "ev-gml-noaa-gov-4db4ef94",
     "ev-hess-copernicus-org-2028caf4",
     "ev-home-cern-574c6d89",
@@ -3599,7 +3570,6 @@
     "ev-mdpi-com-8acc2930",
     "ev-metoffice-gov-uk-084d943a",
     "ev-metoffice-gov-uk-4c0c8924",
-    "ev-nasa-gov-5878ac12",
     "ev-nationalacademies-org-8ab0f29a",
     "ev-nature-com-26ff8396",
     "ev-nature-com-2af53711",
@@ -3620,7 +3590,6 @@
     "ev-nature-com-e0e72642",
     "ev-ncbi-nlm-nih-gov-1f604717",
     "ev-ncei-noaa-gov-454eb6fa",
-    "ev-nih-gov-07e4098a",
     "ev-nist-gov-07d2d64a",
     "ev-nist-gov-0d56c283",
     "ev-nist-gov-2c290417",
@@ -3630,7 +3599,6 @@
     "ev-nist-gov-b4dac7fd",
     "ev-nlr-gov-415c876d",
     "ev-noaa-gov-78cff8fe",
-    "ev-noaa-gov-8473ab6a",
     "ev-nsidc-org-26b31e82",
     "ev-nsidc-org-a39b5c36",
     "ev-oceanservice-noaa-gov-675f0408",
@@ -3703,7 +3671,7 @@
     "ev-verra-org-14912b95",
     "ev-wcrp-climate-org-2a1c7487",
     "ev-wcrp-cmip-org-194a298d",
-    "ev-who-int-4ac0af4c",
+    "ev-who-int-699833a6",
     "ev-wmo-int-0ffe3704",
     "ev-wmo-int-3d96c5c4",
     "ev-wmo-int-c1d122fa",
@@ -3792,7 +3760,6 @@
     "ev-journals-plos-org-2bef65a3",
     "ev-nature-com-2af53711",
     "ev-nature-com-3e721395",
-    "ev-nature-com-48346271",
     "ev-nature-com-decf0f80",
     "ev-ncbi-nlm-nih-gov-5032b8fb",
     "ev-pmc-ncbi-nlm-nih-gov-07dc679c",
@@ -3815,7 +3782,6 @@
     "ev-pubmed-ncbi-nlm-nih-gov-6d85d4fe",
     "ev-pubmed-ncbi-nlm-nih-gov-93235b7b",
     "ev-pubmed-ncbi-nlm-nih-gov-a5190e85",
-    "ev-science-org-365f60d5",
     "ev-unep-org-b0f403ba"
    ]
   },
@@ -3855,12 +3821,11 @@
     "the-tree-of-life-and-domains"
    ],
    "evidenceIds": [
-    "ev-cdc-gov-6544af21",
     "ev-journals-plos-org-2bef65a3",
     "ev-ncbi-nlm-nih-gov-5032b8fb",
     "ev-ncbi-nlm-nih-gov-663c72fc",
     "ev-ncbi-nlm-nih-gov-b3eb907a",
-    "ev-nih-gov-07e4098a",
+    "ev-pmc-ncbi-nlm-nih-gov-09a05138",
     "ev-pmc-ncbi-nlm-nih-gov-1c1bce19",
     "ev-pmc-ncbi-nlm-nih-gov-1c423a06",
     "ev-pmc-ncbi-nlm-nih-gov-2e3f6da6",
@@ -3885,8 +3850,9 @@
     "ev-pubmed-ncbi-nlm-nih-gov-6d85d4fe",
     "ev-pubmed-ncbi-nlm-nih-gov-c1d071de",
     "ev-pubmed-ncbi-nlm-nih-gov-d470bff6",
-    "ev-science-org-365f60d5",
-    "ev-who-int-4ac0af4c"
+    "ev-who-int-039d5525",
+    "ev-who-int-708162c1",
+    "ev-who-int-e672c03b"
    ]
   },
   {
@@ -4397,7 +4363,7 @@
     "ev-nobelprize-org-60bd05b7",
     "ev-pdg-lbl-gov-a8405795",
     "ev-pdg-lbl-gov-e02605b9",
-    "ev-science-nasa-gov-cc1aadce"
+    "ev-science-nasa-gov-754ecdf4"
    ]
   },
   {
@@ -4569,9 +4535,9 @@
    ],
    "evidenceIds": [
     "ev-doi-org-a3cd5a19",
+    "ev-doi-org-f453a4ac",
     "ev-energy-gov-f9b8ca6a",
     "ev-journals-aps-org-fe052a5e",
-    "ev-nature-com-48346271",
     "ev-nlr-gov-415c876d",
     "ev-nlr-gov-52e163a1",
     "ev-nlr-gov-5b775035",
@@ -4580,8 +4546,7 @@
     "ev-nlr-gov-f52cdb3d",
     "ev-osti-gov-4da04b76",
     "ev-osti-gov-a0f5c4b7",
-    "ev-pvwatts-nlr-gov-fd28266d",
-    "ev-science-org-365f60d5"
+    "ev-pvwatts-nlr-gov-fd28266d"
    ]
   },
   {
@@ -4888,7 +4853,6 @@
     "ev-nature-com-26ec96b5",
     "ev-nature-com-26ff8396",
     "ev-nature-com-315fb067",
-    "ev-nature-com-48346271",
     "ev-nature-com-5d8a479b",
     "ev-nature-com-76b86b6c",
     "ev-nature-com-8aaf59a1",
@@ -4905,8 +4869,7 @@
     "ev-physics-nist-gov-31656671",
     "ev-physics-nist-gov-7d946ba5",
     "ev-physics-nist-gov-e10e194f",
-    "ev-pmc-ncbi-nlm-nih-gov-e4fe6a11",
-    "ev-science-org-365f60d5"
+    "ev-pmc-ncbi-nlm-nih-gov-e4fe6a11"
    ]
   },
   {
@@ -5318,7 +5281,6 @@
     "ev-ipcc-ch-28aac392",
     "ev-nature-com-23abd441",
     "ev-nature-com-2cfd4e71",
-    "ev-nature-com-48346271",
     "ev-nature-com-50e686c5",
     "ev-nature-com-736fa324",
     "ev-nature-com-a2be5615",
@@ -5345,7 +5307,6 @@
     "ev-pubmed-ncbi-nlm-nih-gov-ae150ee4",
     "ev-pubmed-ncbi-nlm-nih-gov-be446801",
     "ev-pubmed-ncbi-nlm-nih-gov-c79833cb",
-    "ev-science-org-365f60d5",
     "ev-soil-copernicus-org-9ea4dc9c",
     "ev-unccd-int-86040f87",
     "ev-unccd-int-e87e8ebc",
@@ -5536,6 +5497,7 @@
    "evidenceIds": [
     "ev-bipm-org-69ab2e96",
     "ev-doi-org-974f0878",
+    "ev-doi-org-f453a4ac",
     "ev-doi-org-f594b71d",
     "ev-eia-gov-03c0e00a",
     "ev-eia-gov-0a47c5b5",
@@ -5548,13 +5510,11 @@
     "ev-iea-org-b947895c",
     "ev-ipcc-ch-dd0f3454",
     "ev-journals-aps-org-fe052a5e",
-    "ev-nature-com-48346271",
     "ev-nist-gov-b4dac7fd",
     "ev-nist-gov-d79e9476",
     "ev-nlr-gov-415c876d",
     "ev-nlr-gov-bd5dee60",
     "ev-noaa-gov-78cff8fe",
-    "ev-noaa-gov-8473ab6a",
     "ev-osti-gov-0f51f6af",
     "ev-osti-gov-15ac4ba3",
     "ev-osti-gov-1f5022a9",
@@ -5570,7 +5530,6 @@
     "ev-science-nasa-gov-32cc3e70",
     "ev-science-nasa-gov-ed707730",
     "ev-science-nasa-gov-ed8dcf74",
-    "ev-science-org-365f60d5",
     "ev-webbook-nist-gov-45f711a7",
     "ev-webbook-nist-gov-46f7133a"
    ]

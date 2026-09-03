@@ -1,5 +1,6 @@
 ---
 title: 'El suelo: el recurso de formación más lenta del que depende casi toda la vida terrestre'
+metaTitle: 'El suelo: el recurso que se forma más lentamente'
 excerpt: El suelo es un sistema de cuatro fases organizado en horizontes, que se forma a una tasa mediana cercana a 0,15 toneladas por hectárea y año. Esa tasa, y la dificultad de medir lo que el suelo contiene, condiciona todos los debates que lo rodean.
 type: pillar
 author: soil-land-systems-desk

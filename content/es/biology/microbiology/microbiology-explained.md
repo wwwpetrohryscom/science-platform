@@ -1,5 +1,6 @@
 ---
 title: 'Microbiología: los organismos que hacen funcionar la química del planeta'
+metaTitle: 'Microbiología: los organismos que hacen la química global'
 excerpt: Solo las bacterias contienen unas 70 gigatoneladas de carbono, la mayor parte en el subsuelo profundo, y los microbios ejecutan reacciones que ninguna planta ni animal puede llevar a cabo. Esta página expone qué se ha contado, qué se infiere y dónde siguen sin asentarse las cifras de la disciplina.
 type: pillar
 author: microbiology-genomics-desk

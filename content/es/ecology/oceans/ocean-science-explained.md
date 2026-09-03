@@ -1,5 +1,6 @@
 ---
 title: 'Ciencia oceánica: cómo la profundidad ordena el mar, y lo poco que lo observamos'
+metaTitle: 'Ciencia del océano: la profundidad organiza el mar'
 excerpt: La densidad ordena el agua de mar en capas entre las que el intercambio es lento, y de esa ordenación se siguen casi todas las propiedades del mar a gran escala. Esto es lo que la estratificación hace a la química y a la vida, y con qué escasez se observa realmente el océano.
 type: pillar
 author: oceans-freshwater-desk

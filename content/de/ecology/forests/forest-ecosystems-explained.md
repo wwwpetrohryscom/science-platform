@@ -1,5 +1,6 @@
 ---
 title: 'Wälder: Struktur, Funktion und die Definitionen, die über die Statistik entscheiden'
+metaTitle: 'Wälder: Struktur, Funktion und Definitionen'
 excerpt: Ein Wald ist eine Landnutzungskategorie, bevor er ein Ökosystem ist, und die Schwellenwerte dieser Kategorie entscheiden über die meisten Zahlen, die über ihn veröffentlicht werden. Diese Seite legt die Definitionen dar, die Struktur, die sie beschreiben, und die Stellen, an denen das globale Bild endet.
 type: pillar
 author: environmental-science-desk

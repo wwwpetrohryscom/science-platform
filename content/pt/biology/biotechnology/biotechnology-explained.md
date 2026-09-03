@@ -1,5 +1,6 @@
 ---
 title: 'Biotecnologia: o que as técnicas fazem e onde as promessas as ultrapassam'
+metaTitle: 'Biotecnologia: o que a caixa de ferramentas resolve'
 excerpt: O ADN recombinante, a sequenciação, a edição e o desenho computacional tornaram cada um uma coisa barata e deixaram intactas as partes difíceis. Isto é o que a caixa de ferramentas faz, como um resultado de laboratório se torna produto e onde esse caminho se quebra.
 type: pillar
 author: microbiology-genomics-desk

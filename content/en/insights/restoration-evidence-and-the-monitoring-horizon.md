@@ -1,5 +1,6 @@
 ---
 title: Restoration is judged on a timescale far shorter than the one it operates on
+metaTitle: 'Restoration evidence and the monitoring horizon'
 excerpt: Half the published restoration record has ten years or less of observation, against processes that take decades. Most reported successes describe an early point on a trajectory whose end nobody has watched.
 argument: Restoration syntheses consistently find recovery incomplete at the point monitoring stops, and half the published record has ten years or less of observation against processes that run for decades. Because the reference state recovery is scored against is a choice rather than a measurement, the same data support either a strong success or a partial failure — which is why a target written in hectares is not a claim about outcomes.
 category: ecology

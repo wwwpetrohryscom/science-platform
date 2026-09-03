@@ -206,14 +206,19 @@
     "pillar_callout": "Artigo pilar — {subtopic}",
     "read_pillar": "Ler o pilar →",
     "related_heading": "Leituras relacionadas",
-    "fallback_notice": "Este artigo ainda não foi traduzido para português. A versão em inglês é apresentada abaixo."
+    "fallback_notice": "Este artigo ainda não foi traduzido para português. A versão em inglês é apresentada abaixo.",
+    "in_english": "em inglês",
+    "locale_depth_note": "{native} destes {total} artigos estão disponíveis em português; os restantes abrem em inglês.",
+    "table_label": "Tabela"
   },
   "insights": {
     "eyebrow": "Análises",
     "title": "Argumentos que vale a pena defender",
     "description": "As análises são ensaios curtos e estruturados. Cada um defende uma única tese falseável. São escritos para serem discutidos — com clareza, citações e datas.",
     "empty": "Ainda não há análises publicadas.",
-    "category_eyebrow": "Análise · {category}"
+    "category_eyebrow": "Análise · {category}",
+    "insight_kind": "Análise editorial",
+    "insight_kind_note": "Esta é uma síntese argumentada de trabalhos publicados, redigida por {desk}; não é investigação original nem um artigo revisto por pares. A sua tese é uma posição editorial; as provas em que assenta são citadas abaixo e podem ser verificadas de forma independente."
   },
   "discussions": {
     "eyebrow": "Discussões",
@@ -246,7 +251,11 @@
     "footer_note": "Editorialmente independente. Citações bem-vindas — por favor, ligue para o URL canónico.",
     "sourcing_policy": "Política de fontes",
     "editorial_desks": "Mesas editoriais",
-    "corrections": "Correções e contacto"
+    "corrections": "Correções e contacto",
+    "glossary": "Glossário",
+    "privacy_policy": "Política de privacidade",
+    "cookie_policy": "Política de cookies",
+    "terms_of_use": "Termos de utilização"
   },
   "newsletter": {
     "eyebrow": "Newsletter",

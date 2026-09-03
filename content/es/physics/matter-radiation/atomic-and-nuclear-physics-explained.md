@@ -1,5 +1,6 @@
 ---
 title: 'Átomos y núcleos: la única curva detrás de la fisión y la fusión'
+metaTitle: 'Átomos y núcleos: la curva de energía de enlace'
 excerpt: Un átomo y el núcleo en su centro difieren en cuatro órdenes de magnitud de tamaño y seis de energía. Esa distancia explica que la química y la física nuclear se comporten como asuntos separados, y que una sola curva de energía de enlace gobierne a la vez la fisión y la fusión.
 type: pillar
 author: physics-energy-desk

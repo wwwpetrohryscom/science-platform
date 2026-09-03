@@ -1,5 +1,6 @@
 ---
 title: The water-vapour feedback, and why it is always quoted with the lapse rate
+metaTitle: 'The water-vapour and lapse-rate feedback'
 excerpt: Water vapour is the strongest amplifier in the climate system and not a driver of it. The two facts are compatible, and the reason is a nine-day residence time.
 type: expert
 author: earth-systems-desk

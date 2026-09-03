@@ -1,5 +1,6 @@
 ---
 title: 'Earth''s climate is a heat engine: thermodynamics and the planetary energy budget'
+metaTitle: 'Earth''s climate as a heat engine'
 excerpt: A planet receives concentrated radiation from a hot source, redistributes it, and emits it back to space at a colder temperature. This is a heat engine. The thermodynamics is what bounds the climate.
 type: expert
 author: energy-systems-desk
@@ -59,7 +60,7 @@ A photovoltaic cell converts solar radiation into work (electrical work). The sa
 
 Two things, mostly.
 
-**It removes the temptation to look for "hidden energy" or "missing physics" in the climate.** When the energy budget closes within stated uncertainties — and it does — there is no hidden term. Climate science is not waiting for a unifying mechanism that overturns the budget; it is refining the partition among well-defined components. [NIST](https://www.nist.gov/) physical-constants reference and [NOAA](https://www.noaa.gov/) measurement standards anchor the underlying physical quantities.
+**It removes the temptation to look for "hidden energy" or "missing physics" in the climate.** When the energy budget closes within stated uncertainties — and it does — there is no hidden term. Climate science is not waiting for a unifying mechanism that overturns the budget; it is refining the partition among well-defined components. The [NIST](https://www.nist.gov/) physical-constants reference anchors the underlying physical quantities.
 
 **It puts solar generation, climate change, and atmospheric physics on a single conceptual layer.** They are all heat-engine problems with shared bounds and shared accounting. Reading them as separate fields obscures the structure; reading them through the same energy budget makes the connections obvious.
 

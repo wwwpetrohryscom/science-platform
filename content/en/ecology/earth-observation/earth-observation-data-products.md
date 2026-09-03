@@ -1,5 +1,6 @@
 ---
 title: 'Earth observation data products: from raw signal to analysis-ready data'
+metaTitle: 'Earth observation data: from raw signal to analysis-ready'
 excerpt: A number recorded by a satellite is not yet science. This explains the processing levels that turn raw instrument data into geophysical measurements, what analysis-ready and surface-reflectance products are, and where the major open archives live.
 type: expert
 author: climate-research-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Marine productivity: how a gigatonne of algae feeds five gigatonnes of animals'
+metaTitle: 'Marine productivity and the ocean food web'
 excerpt: The ocean supports more consumer biomass than producer biomass, which sounds impossible until you account for turnover. This works through the arithmetic, the nutrient limits, and what satellite ocean colour can and cannot see.
 type: expert
 author: oceans-freshwater-desk

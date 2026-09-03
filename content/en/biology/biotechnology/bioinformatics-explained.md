@@ -1,5 +1,6 @@
 ---
 title: 'Bioinformatics: four inferences between the sequencer and the result'
+metaTitle: 'Bioinformatics: the four inferences behind a sequencing result'
 excerpt: Sequence data becomes a finding only after alignment, assembly, annotation and statistical filtering have each made an inference. This page follows those four steps and the characteristic way each one fails.
 type: expert
 author: microbiology-genomics-desk

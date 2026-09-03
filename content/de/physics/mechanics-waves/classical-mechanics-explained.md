@@ -1,5 +1,6 @@
 ---
 title: 'Klassische Mechanik: der Rahmen, der noch immer den größten Teil der Welt beschreibt'
+metaTitle: 'Klassische Mechanik: der Rahmen und seine Grenzen'
 excerpt: Die Newtonschen Gesetze sind weniger eine Sammlung von Tatsachen über Körper als ein Vertrag über Bezugssysteme und Kraftgesetze. Diese Seite formuliert diesen Vertrag sorgfältig, zeigt, warum sich die Erhaltungssätze als tiefer erwiesen, und markiert die Ränder des Geltungsbereichs.
 type: pillar
 author: physics-energy-desk

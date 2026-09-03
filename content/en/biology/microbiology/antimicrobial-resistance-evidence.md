@@ -1,5 +1,6 @@
 ---
 title: 'Antimicrobial resistance: the mechanisms, the surveillance and what the burden numbers rest on'
+metaTitle: 'Antimicrobial resistance: mechanisms and burden estimates'
 excerpt: Resistance mechanisms are well characterised and mobile between species. The harder question is measurement — what surveillance systems actually count, and which modelling assumptions sit behind the global death estimates.
 type: expert
 author: microbiology-genomics-desk

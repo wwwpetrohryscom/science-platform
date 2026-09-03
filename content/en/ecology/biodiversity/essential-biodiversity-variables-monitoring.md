@@ -1,5 +1,6 @@
 ---
 title: 'Essential Biodiversity Variables: making monitoring comparable across the globe'
+metaTitle: 'Essential Biodiversity Variables: comparable monitoring'
 excerpt: Biodiversity is harder to monitor than climate because no single instrument captures it. Essential Biodiversity Variables are the framework that makes the patchwork comparable.
 type: expert
 author: biodiversity-conservation-desk
@@ -52,7 +53,7 @@ The EBV framework deliberately preserves the dimensions because compressing them
 
 ## Where the framework is operational
 
-The agencies that have publicly aligned biodiversity monitoring with EBV classes include the [European Environment Agency](https://www.eea.europa.eu/), the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems), and the [Food and Agriculture Organization](https://www.fao.org/) for forest and agricultural biodiversity. The [State of the World's Forests](https://www.fao.org/) reports use forest-cover and forest-quality variables that map onto the ecosystem-structure and ecosystem-function classes.
+The agencies that have publicly aligned biodiversity monitoring with EBV classes include the [European Environment Agency](https://www.eea.europa.eu/), the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems), and the Food and Agriculture Organization for forest and agricultural biodiversity. The FAO [Global Forest Resources Assessment](https://www.fao.org/forest-resources-assessment/en/) uses forest-cover and forest-quality variables that map onto the ecosystem-structure and ecosystem-function classes.
 
 Remote-sensing products contribute most strongly to ecosystem-structure variables — global forest cover, wetland extent, surface water — because satellites can produce comparable measurements at scale. Species and population variables remain dominated by ground-based fieldwork, with citizen-science platforms increasingly contributing to species-distribution data. Genetic-composition variables are the most under-monitored class globally; the gap is well-documented in the [IPBES](https://www.ipbes.net/global-assessment) synthesis.
 
@@ -68,7 +69,7 @@ EBVs make biodiversity monitoring more comparable; they do not make it complete.
 
 ## Recent evidence and updated context
 
-The Kunming-Montreal Global Biodiversity Framework, adopted in late 2022, requires signatories to report progress against headline indicators that draw directly on EBV-aligned data classes. The [FAO global forest reporting](https://www.fao.org/) provides a widely-cited operational example for ecosystem-structure variables, and the [European Environment Agency biodiversity assessments](https://www.eea.europa.eu/en/topics/in-depth/biodiversity) publish indicator updates on a multi-year cycle covering habitat condition, species populations, and protected-area coverage.
+The Kunming-Montreal Global Biodiversity Framework, adopted in late 2022, requires signatories to report progress against headline indicators that draw directly on EBV-aligned data classes. That FAO forest reporting provides a widely-cited operational example for ecosystem-structure variables, and the [European Environment Agency biodiversity assessments](https://www.eea.europa.eu/en/topics/in-depth/biodiversity) publish indicator updates on a multi-year cycle covering habitat condition, species populations, and protected-area coverage.
 
 The Group on Earth Observations Biodiversity Observation Network (GEO BON), the consortium that developed the EBV framework with the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems) and partner agencies, remains the operational coordinator that maps national monitoring programmes onto the EBV classes. Its periodic "BON in a Box" releases give practitioners shared software and workflows for producing comparable indicators; the underlying scientific framework continues to be reviewed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed methodology papers. On the receiving end, the [IPBES](https://www.ipbes.net/global-assessment) assessments — including the nexus assessment that synthesizes biodiversity with water, food, health, and climate — depend on this aligned monitoring backbone for cross-driver claims.
 
@@ -85,6 +86,5 @@ The EBV framework is the apparatus that lets biodiversity science be cited caref
 1. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Authoritative international assessment of biodiversity status, drivers of decline, and the limitations of current monitoring.
 2. **United Nations Environment Programme** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). UN-system overview of ecosystem and biodiversity programmes, including monitoring frameworks.
 3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European regional assessment with EBV-aligned indicators and reporting.
-4. **Food and Agriculture Organization** — [State of the World's Forests](https://www.fao.org/). Forest-cover and forest-quality reporting that maps onto ecosystem-structure variables.
-5. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/). Climate-system context for biodiversity monitoring, particularly for species range and phenology variables.
-6. **NASA Earth Observatory** — [Land-cover and vegetation products](https://science.nasa.gov/earth/earth-observatory/). Satellite-derived inputs for ecosystem-structure variables (forest cover, surface water, wetlands).
+4. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/). Climate-system context for biodiversity monitoring, particularly for species range and phenology variables.
+5. **NASA Earth Observatory** — [Land-cover and vegetation products](https://science.nasa.gov/earth/earth-observatory/). Satellite-derived inputs for ecosystem-structure variables (forest cover, surface water, wetlands).

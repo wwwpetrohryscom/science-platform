@@ -14,6 +14,8 @@ import { getAuthor, type Author } from "@/lib/authors";
 import {
   DEFAULT_LOCALE,
   LOCALES,
+  getMessages,
+  translator,
   localizedPath,
   type Locale,
 } from "@/lib/i18n";
@@ -61,6 +63,15 @@ export type Article = {
 
   // Frontmatter
   title: string;
+  /**
+   * Optional shorter title for the document head. The editorial title
+   * is written to be read on the page and is often a sentence; a
+   * search result shows about sixty characters. Where those two jobs
+   * pull apart, `metaTitle` carries the short form and `title` stays
+   * as the H1 — rather than shortening the H1 and losing what it says.
+   * Absent, the H1 is used for both.
+   */
+  metaTitle?: string;
   type: ArticleType;
   excerpt: string;
   publishedDate: string;
@@ -96,6 +107,15 @@ export type Insight = {
   localeFallback: boolean;
   availableLocales: Locale[];
   title: string;
+  /**
+   * Optional shorter title for the document head. The editorial title
+   * is written to be read on the page and is often a sentence; a
+   * search result shows about sixty characters. Where those two jobs
+   * pull apart, `metaTitle` carries the short form and `title` stays
+   * as the H1 — rather than shortening the H1 and losing what it says.
+   * Absent, the H1 is used for both.
+   */
+  metaTitle?: string;
   excerpt: string;
   /** The single load-bearing claim, surfaced above the fold. */
   argument: string;
@@ -314,7 +334,7 @@ function parseArticle({
     : undefined;
 
   const author = getAuthor(String(fm.author));
-  const html = renderMarkdown(content);
+  const html = renderMarkdown(content, requestedLocale);
   const toc = extractToc(content);
   const availableLocales = discoverAvailableLocales(category, subtopic, slug);
 
@@ -327,6 +347,7 @@ function parseArticle({
     localeFallback: requestedLocale !== sourceLocale,
     availableLocales,
     title: String(fm.title),
+    metaTitle: typeof fm.metaTitle === "string" ? fm.metaTitle : undefined,
     type,
     excerpt: String(fm.excerpt),
     publishedDate: toIsoDate(fm.publishedDate),
@@ -385,6 +406,7 @@ function parseInsight({
     localeFallback: requestedLocale !== sourceLocale,
     availableLocales: discoverInsightLocales(slug),
     title: String(fm.title),
+    metaTitle: typeof fm.metaTitle === "string" ? fm.metaTitle : undefined,
     excerpt: String(fm.excerpt),
     argument: String(fm.argument),
     category,
@@ -398,7 +420,7 @@ function parseInsight({
     related: Array.isArray(fm.related) ? (fm.related as string[]) : [],
     author: getAuthor(String(fm.author)),
     rawBody: content,
-    html: renderMarkdown(content),
+    html: renderMarkdown(content, requestedLocale),
     toc: extractToc(content),
     url: localizedPath(requestedLocale, `/insight/${slug}`),
   };
@@ -424,8 +446,49 @@ renderer.heading = function ({ tokens, depth }: Tokens.Heading) {
   return `<h${depth}>${text}</h${depth}>`;
 };
 
-function renderMarkdown(md: string): string {
-  return marked.parse(md, { renderer, async: false }) as string;
+/**
+ * Comparison tables run to five columns in this corpus and 154 files
+ * contain one. Without a scroll container of its own, a wide table
+ * makes the whole page scroll sideways on a phone — the reader loses
+ * the article to read the table. Wrapping each one keeps the overflow
+ * inside the table, and `tabindex` makes that scroll reachable from a
+ * keyboard, which a bare overflow container is not.
+ */
+let tableLabel = "Table";
+renderer.table = function (token: Tokens.Table) {
+  const header = token.header
+    .map((cell) => `<th scope="col">${this.parser.parseInline(cell.tokens)}</th>`)
+    .join("");
+  const body = token.rows
+    .map(
+      (row) =>
+        `<tr>${row
+          .map((cell) => `<td>${this.parser.parseInline(cell.tokens)}</td>`)
+          .join("")}</tr>`,
+    )
+    .join("");
+  return (
+    `<div class="table-scroll" tabindex="0" role="region" aria-label="${escapeAttr(tableLabel)}">` +
+    `<table><thead><tr>${header}</tr></thead><tbody>${body}</tbody></table>` +
+    `</div>`
+  );
+};
+
+/** Minimal attribute escaping for the one interpolated label below. */
+function escapeAttr(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+
+function renderMarkdown(md: string, locale: Locale = DEFAULT_LOCALE): string {
+  // The table wrapper carries an accessible name, and that name has to
+  // be in the reader's language — an English "Table" announced inside a
+  // Russian article is a defect a sighted reader never sees.
+  tableLabel = translator(getMessages(locale))("article.table_label");
+  try {
+    return marked.parse(md, { renderer, async: false }) as string;
+  } finally {
+    tableLabel = "Table";
+  }
 }
 
 function extractToc(md: string): TocItem[] {
@@ -572,6 +635,24 @@ export async function getPillarForSubtopic(
   return inSubtopic.find((a) => a.type === "pillar") ?? inSubtopic[0];
 }
 
+/**
+ * Related articles, preferring pages that exist in the reader's own
+ * language.
+ *
+ * `getAllArticles(locale)` applies the article-level fallback, so in
+ * French every English article comes back as a French-locale object
+ * with `localeFallback: true`. Ranking on relevance alone therefore
+ * filled the related list with pages that turn out to be English —
+ * which is the opposite of what a translated page should do next.
+ *
+ * The ordering is now relevance *within* the locale first (explicit
+ * related, then same subtopic, then same category), and only then the
+ * same three tiers among pages that would fall back. Nothing is
+ * hidden: a fallback page is still offered when the locale has nothing
+ * better, because an English article the reader can use beats an empty
+ * section. The rule lives here rather than in each locale's rendering,
+ * so there is one place to change it.
+ */
 export async function getRelatedArticles(
   article: Article,
   limit = 3,
@@ -579,22 +660,31 @@ export async function getRelatedArticles(
   const all = await getAllArticles(article.locale);
   const candidates = all.filter((a) => a.slug !== article.slug);
 
-  const explicit = (article.related ?? [])
-    .map((slug) => candidates.find((a) => a.slug === slug))
-    .filter((a): a is Article => Boolean(a));
+  const rank = (pool: Article[]): Article[] => {
+    const explicit = (article.related ?? [])
+      .map((slug) => pool.find((a) => a.slug === slug))
+      .filter((a): a is Article => Boolean(a));
 
-  const sameSubtopic = candidates
-    .filter((a) => a.category === article.category && a.subtopic === article.subtopic)
-    .filter((a) => !explicit.find((e) => e.slug === a.slug))
-    .sort(byTagOverlap(article.tags));
+    const sameSubtopic = pool
+      .filter((a) => a.category === article.category && a.subtopic === article.subtopic)
+      .filter((a) => !explicit.find((e) => e.slug === a.slug))
+      .sort(byTagOverlap(article.tags));
 
-  const sameCategory = candidates
-    .filter((a) => a.category === article.category)
-    .filter((a) => !explicit.find((e) => e.slug === a.slug))
-    .filter((a) => !sameSubtopic.find((s) => s.slug === a.slug))
-    .sort(byTagOverlap(article.tags));
+    const sameCategory = pool
+      .filter((a) => a.category === article.category)
+      .filter((a) => !explicit.find((e) => e.slug === a.slug))
+      .filter((a) => !sameSubtopic.find((s) => s.slug === a.slug))
+      .sort(byTagOverlap(article.tags));
 
-  return [...explicit, ...sameSubtopic, ...sameCategory].slice(0, limit);
+    return [...explicit, ...sameSubtopic, ...sameCategory];
+  };
+
+  const inLocale = rank(candidates.filter((a) => !a.localeFallback));
+  if (inLocale.length >= limit) return inLocale.slice(0, limit);
+
+  const chosen = new Set(inLocale.map((a) => a.slug));
+  const fallback = rank(candidates.filter((a) => a.localeFallback && !chosen.has(a.slug)));
+  return [...inLocale, ...fallback].slice(0, limit);
 }
 
 export async function getSubtopicCounts(

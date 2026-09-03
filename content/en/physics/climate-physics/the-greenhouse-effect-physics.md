@@ -1,5 +1,6 @@
 ---
 title: 'The greenhouse effect: the emission-height argument, done properly'
+metaTitle: 'The greenhouse effect and the emission-height argument'
 excerpt: Neither the blanket nor the greenhouse describes what actually happens. The mechanism is a shift in the altitude from which the planet radiates to space, and it only works because temperature falls with height.
 type: expert
 author: physics-energy-desk

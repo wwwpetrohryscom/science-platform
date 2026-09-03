@@ -1,5 +1,6 @@
 ---
 title: 'Remaining carbon budgets: how the number is assembled, and what it is not'
+metaTitle: 'Remaining carbon budgets: how the number is assembled'
 excerpt: A remaining carbon budget is an assessed quantity with five separately estimated components and a probability attached, not a countdown clock. The compression to a headline drops the parts that decide what it can be used for.
 type: expert
 author: climate-research-desk

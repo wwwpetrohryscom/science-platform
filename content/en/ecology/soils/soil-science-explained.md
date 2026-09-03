@@ -1,5 +1,6 @@
 ---
 title: 'Soil: the slowest-forming resource most terrestrial life depends on'
+metaTitle: 'Soil: the slowest-forming resource life depends on'
 excerpt: Soil is a four-phase system organised into horizons, built at a median rate near 0.15 tonnes per hectare a year. That rate, and the difficulty of measuring what soil holds, shapes every argument about it.
 type: pillar
 author: soil-land-systems-desk

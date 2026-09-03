@@ -1,5 +1,6 @@
 ---
 title: Qu'est-ce que l'ADN ? La molécule, le code, et ce qu'il ne détermine pas
+metaTitle: 'Qu''est-ce que l''ADN ? La molécule, le code et ses limites'
 excerpt: L'ADN est un code moléculaire à quatre lettres qui stocke l'information nécessaire pour construire et faire fonctionner une cellule. Comprendre ce qu'il fait — et, tout aussi important, ce qu'il ne fait pas — est le socle de la biologie moderne.
 type: pillar
 author: biology-ecosystems-desk
@@ -84,4 +85,3 @@ Comment une séquence fixe produit des cellules différentes est le sujet de [la
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminologie de la génétique et définitions de génomique destinées au public.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Ouvrages de référence en biologie moléculaire, en génétique et sur la fonction du génome.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Index de la littérature évaluée par les pairs en génétique et en génomique.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Littérature en génétique et en génomique évaluée par les pairs.

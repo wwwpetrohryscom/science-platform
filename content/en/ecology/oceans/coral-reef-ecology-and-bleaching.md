@@ -1,5 +1,6 @@
 ---
 title: 'Coral reefs: the symbiosis, the heat-stress metric, and the recovery record'
+metaTitle: 'Coral reefs: the symbiosis, heat stress and recovery'
 excerpt: Bleaching is the collapse of a nutritional partnership, not the death of a colony. This explains the symbiosis that fails, how degree heating weeks quantify the stress that breaks it, and what the recovery and restoration evidence supports.
 type: expert
 author: oceans-freshwater-desk

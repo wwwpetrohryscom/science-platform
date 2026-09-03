@@ -1,5 +1,6 @@
 ---
 title: 'The nitrogen cycle: an inert ocean of gas and the thin reactive stream that matters'
+metaTitle: 'The nitrogen cycle and the thin reactive stream'
 excerpt: Nitrogen is the most abundant gas in the air and among the scarcest nutrients in most ecosystems. The paradox lives in the chemistry of breaking a single bond.
 type: expert
 author: earth-systems-desk

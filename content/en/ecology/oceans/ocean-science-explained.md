@@ -1,5 +1,6 @@
 ---
 title: 'Ocean science: how depth organises the sea, and how little of it we watch'
+metaTitle: 'Ocean science: how depth organises the sea'
 excerpt: Density sorts seawater into layers that exchange slowly, and nearly every large-scale property of the sea follows from that sorting. This is what the layering does to chemistry and life, and how thinly the ocean is actually observed.
 type: pillar
 author: oceans-freshwater-desk

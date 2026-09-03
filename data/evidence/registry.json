@@ -525,9 +525,16 @@
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "ecology/climate-change",
     "physics/climate-physics"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "climate-sensitivity-explained",
+     "section": "ecology/climate-change",
+     "supports": "Attribution of the CMIP6 sensitivity increase to the low-cloud feedback."
+    },
     {
      "kind": "article",
      "slug": "convection-and-cloud-formation",
@@ -539,28 +546,6 @@
      "slug": "convection-and-cloud-formation",
      "section": "physics/climate-physics",
      "supports": "The extratropical mixed-phase cloud origin of the stronger CMIP6 cloud feedback."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
-   "title": "Causes of higher climate sensitivity in CMIP6 models",
-   "organization": "Geophysical Research Letters",
-   "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL085782",
-   "host": "agupubs.onlinelibrary.wiley.com",
-   "sourceType": "peer-reviewed",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "ecology/climate-change"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "climate-sensitivity-explained",
-     "section": "ecology/climate-change",
-     "supports": "Attribution of the CMIP6 sensitivity increase to the low-cloud feedback."
     }
    ],
    "isLiveDataset": false,
@@ -757,6 +742,29 @@
      "slug": "environmental-monitoring-networks-are-thinning",
      "section": "insights",
      "supports": "Float numbers, the revised array target and the profile milestones; a continuously updated page, read in September 2026."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "continuous",
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-argo-ucsd-edu-fae69aca",
+   "title": "Argo floats",
+   "organization": "",
+   "url": "https://argo.ucsd.edu/",
+   "host": "argo.ucsd.edu",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/climate-change"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ocean-heat-content-indicators",
+     "section": "ecology/climate-change",
+     "supports": "Cited inline as \"Argo floats\""
     }
    ],
    "isLiveDataset": true,
@@ -1048,6 +1056,7 @@
    "sourceTypeProvenance": "inferred-host",
    "topics": [
     "ecology/biodiversity",
+    "ecology/ecosystems",
     "glossary"
    ],
    "usedBy": [
@@ -1106,6 +1115,12 @@
      "supports": "Ecosystem-integrity goals and indicators."
     },
     {
+     "kind": "article",
+     "slug": "ecosystem-services-and-human-wellbeing",
+     "section": "ecology/ecosystems",
+     "supports": "Cited inline as \"Convention on Biological Diversity\""
+    },
+    {
      "kind": "glossary",
      "slug": "living-planet-index",
      "section": "glossary",
@@ -1122,12 +1137,6 @@
      "slug": "living-planet-index-explained",
      "section": "ecology/biodiversity",
      "supports": "Use of the index in global biodiversity reporting."
-    },
-    {
-     "kind": "article",
-     "slug": "protected-area-effectiveness",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"Target 3\""
     },
     {
      "kind": "article",
@@ -1172,6 +1181,7 @@
    "sourceType": "intergovernmental",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "ecology/biodiversity",
     "ecology/conservation",
     "ecology/oceans",
     "glossary"
@@ -1206,6 +1216,12 @@
      "slug": "marine-protected-areas-evidence",
      "section": "ecology/oceans",
      "supports": "The full wording of the 30 per cent target and its qualifying conditions."
+    },
+    {
+     "kind": "article",
+     "slug": "protected-area-effectiveness",
+     "section": "ecology/biodiversity",
+     "supports": "Cited inline as \"Target 3\""
     },
     {
      "kind": "glossary",
@@ -1269,14 +1285,13 @@
   },
   {
    "evidenceId": "ev-cdc-gov-6544af21",
-   "title": "U.S. Centers for Disease Control and Prevention",
-   "organization": "U.S. Centers for Disease Control and Prevention",
+   "title": "U.S. CDC",
+   "organization": "",
    "url": "https://www.cdc.gov/",
    "host": "cdc.gov",
    "sourceType": "government",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "biology/evolution",
     "glossary"
    ],
    "usedBy": [
@@ -1285,18 +1300,6 @@
      "slug": "antibiotic-resistance",
      "section": "glossary",
      "supports": "Definition of Antibiotic resistance"
-    },
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Cited inline as \"U.S. Centers for Disease Control and Prevention\""
-    },
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Annual U.S. surveillance reports and threat assessments."
     }
    ],
    "isLiveDataset": false,
@@ -1355,6 +1358,28 @@
    "notes": "C3S monthly and annual climate bulletins."
   },
   {
+   "evidenceId": "ev-ceres-larc-nasa-gov-cab64e73",
+   "title": "NASA CERES mission documentation",
+   "organization": "",
+   "url": "https://ceres.larc.nasa.gov/",
+   "host": "ceres.larc.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "solar-radiation-and-earth-energy-balance",
+     "section": "physics/energy",
+     "supports": "Cited inline as \"NASA CERES mission documentation\""
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-ceres-larc-nasa-gov-f692058e",
    "title": "Science overview",
    "organization": "NASA CERES",
@@ -1384,6 +1409,28 @@
      "slug": "the-greenhouse-effect-physics",
      "section": "physics/climate-physics",
      "supports": "Present magnitude of the Earth energy imbalance."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-chandra-harvard-edu-e1fe2f67",
+   "title": "Chandra",
+   "organization": "",
+   "url": "https://chandra.harvard.edu/",
+   "host": "chandra.harvard.edu",
+   "sourceType": "university",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/quantum-basics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "electromagnetic-spectrum-applications",
+     "section": "physics/quantum-basics",
+     "supports": "Cited inline as \"Chandra\""
     }
    ],
    "isLiveDataset": false,
@@ -1444,12 +1491,6 @@
      "slug": "am15-spectrum",
      "section": "glossary",
      "supports": "Definition of AM1.5 reference spectrum"
-    },
-    {
-     "kind": "article",
-     "slug": "carbon-cycle-feedbacks",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"Copernicus Climate Change Service\""
     },
     {
      "kind": "article",
@@ -2492,6 +2533,35 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-doi-org-9a1b4b41",
+   "title": "proposal that generic early-warning signals exist",
+   "organization": "Nature, Scheffer and colleagues (2009)",
+   "url": "https://doi.org/10.1038/nature08227",
+   "host": "doi.org",
+   "doi": "10.1038/nature08227",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ecosystem-resilience-indicators",
+     "section": "ecology/biodiversity",
+     "supports": "Cited inline as \"proposal that generic early-warning signals exist\""
+    },
+    {
+     "kind": "article",
+     "slug": "ecosystem-resilience-indicators",
+     "section": "ecology/biodiversity",
+     "supports": "The proposal that generic early-warning signals precede critical transitions across system types."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-doi-org-a3cd5a19",
    "title": "Nanoscale amorphization of poly(triarylamine) for efficient and stable inverted perovskite photovoltaics",
    "organization": "Nature Nanotechnology",
@@ -2637,6 +2707,29 @@
      "slug": "atomic-and-nuclear-physics-explained",
      "section": "physics/matter-radiation",
      "supports": "The mass evaluation underlying the binding energies served by the IAEA chart."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-doi-org-f453a4ac",
+   "title": "derived in 1961",
+   "organization": "",
+   "url": "https://doi.org/10.1063/1.1736034",
+   "host": "doi.org",
+   "doi": "10.1063/1.1736034",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/thermodynamics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "thermodynamic-limits-of-photovoltaics",
+     "section": "physics/thermodynamics",
+     "supports": "Cited inline as \"derived in 1961\""
     }
    ],
    "isLiveDataset": false,
@@ -5924,34 +6017,6 @@
    "verificationStatus": "unchecked"
   },
   {
-   "evidenceId": "ev-esa-int-d442582b",
-   "title": "Science programmes and explainers",
-   "organization": "European Space Agency",
-   "url": "https://www.esa.int/",
-   "host": "esa.int",
-   "sourceType": "intergovernmental",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "physics/quantum-basics"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "electromagnetic-spectrum-applications",
-     "section": "physics/quantum-basics",
-     "supports": "Cited inline as \"European Space Agency\""
-    },
-    {
-     "kind": "article",
-     "slug": "electromagnetic-spectrum-applications",
-     "section": "physics/quantum-basics",
-     "supports": "ESA mission reference on radio, infrared, X-ray, and gamma-ray astronomy."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
    "evidenceId": "ev-esa-int-ffbc128f",
    "title": "Biomass",
    "organization": "European Space Agency",
@@ -6607,48 +6672,22 @@
    "verificationStatus": "unchecked"
   },
   {
-   "evidenceId": "ev-fao-org-6426027d",
-   "title": "Food and Agriculture Organization",
-   "organization": "Food and Agriculture Organization",
-   "url": "https://www.fao.org/",
+   "evidenceId": "ev-fao-org-59d392ee",
+   "title": "Global Forest Resources Assessment",
+   "organization": "",
+   "url": "https://www.fao.org/forest-resources-assessment/en/",
    "host": "fao.org",
    "sourceType": "intergovernmental",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "ecology/biodiversity",
-    "ecology/earth-systems",
-    "ecology/ecosystems"
+    "ecology/biodiversity"
    ],
    "usedBy": [
     {
      "kind": "article",
-     "slug": "biosphere-climate-interactions",
-     "section": "ecology/earth-systems",
-     "supports": "Global forest area, change, and management statistics."
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-services-and-human-wellbeing",
-     "section": "ecology/ecosystems",
-     "supports": "Cited inline as \"Food and Agriculture Organization\""
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-services-and-human-wellbeing",
-     "section": "ecology/ecosystems",
-     "supports": "Forest ecosystem services and their contribution to provisioning and regulating functions."
-    },
-    {
-     "kind": "article",
      "slug": "essential-biodiversity-variables-monitoring",
      "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"Food and Agriculture Organization\""
-    },
-    {
-     "kind": "article",
-     "slug": "essential-biodiversity-variables-monitoring",
-     "section": "ecology/biodiversity",
-     "supports": "Forest-cover and forest-quality reporting that maps onto ecosystem-structure variables."
+     "supports": "Cited inline as \"Global Forest Resources Assessment\""
     }
    ],
    "isLiveDataset": false,
@@ -6931,6 +6970,12 @@
      "slug": "agricultural-ecosystems-and-agroecology",
      "section": "ecology/ecosystems",
      "supports": "Crop dependence on animal pollination, share of production volume affected, and pollinator species numbers."
+    },
+    {
+     "kind": "article",
+     "slug": "ecosystem-services-and-human-wellbeing",
+     "section": "ecology/ecosystems",
+     "supports": "Cited inline as \"Food and Agriculture Organization\""
     }
    ],
    "isLiveDataset": false,
@@ -8349,6 +8394,30 @@
    ],
    "isLiveDataset": false,
    "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-gml-noaa-gov-0b1804a4",
+   "title": "ozone and water vapour monitoring",
+   "organization": "",
+   "url": "https://gml.noaa.gov/ozwv/",
+   "host": "gml.noaa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/quantum-basics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "electromagnetic-spectrum-applications",
+     "section": "physics/quantum-basics",
+     "supports": "Cited inline as \"ozone and water vapour monitoring\""
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "monthly",
+   "verificationStatus": "unchecked",
+   "notes": "Global Monitoring Laboratory trend series; values are revised as the record extends."
   },
   {
    "evidenceId": "ev-gml-noaa-gov-29af78a5",
@@ -12981,41 +13050,6 @@
    "verificationStatus": "unchecked"
   },
   {
-   "evidenceId": "ev-nasa-gov-5878ac12",
-   "title": "Mission and instrument reference",
-   "organization": "NASA",
-   "url": "https://www.nasa.gov/",
-   "host": "nasa.gov",
-   "sourceType": "government",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "physics/energy",
-    "physics/quantum-basics"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "electromagnetic-spectrum-applications",
-     "section": "physics/quantum-basics",
-     "supports": "Cited inline as \"NASA\""
-    },
-    {
-     "kind": "article",
-     "slug": "electromagnetic-spectrum-applications",
-     "section": "physics/quantum-basics",
-     "supports": "Documentation of NASA observatories across the spectrum."
-    },
-    {
-     "kind": "article",
-     "slug": "solar-radiation-and-earth-energy-balance",
-     "section": "physics/energy",
-     "supports": "Cited inline as \"NASA\""
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
    "evidenceId": "ev-nationalacademies-org-46cf4c66",
    "title": "Genetically Engineered Crops: Experiences and Prospects, summary",
    "organization": "National Academies of Sciences, Engineering, and Medicine",
@@ -14006,71 +14040,21 @@
   },
   {
    "evidenceId": "ev-nature-com-48346271",
-   "title": "Nature ecology and evolution research",
-   "organization": "Nature",
+   "title": "Nature",
+   "organization": "",
    "url": "https://www.nature.com/",
    "host": "nature.com",
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "biology/cells",
-    "biology/evolution",
-    "biology/genetics",
-    "ecology/biodiversity",
-    "ecology/ecosystems",
-    "glossary",
-    "physics/energy",
-    "physics/quantum-basics",
-    "physics/thermodynamics"
+    "glossary"
    ],
    "usedBy": [
-    {
-     "kind": "article",
-     "slug": "cell-signaling-pathways-basics",
-     "section": "biology/cells",
-     "supports": "Peer-reviewed synthesis of current signaling-biology research."
-    },
-    {
-     "kind": "article",
-     "slug": "cell-types-as-units-of-evolution",
-     "section": "biology/evolution",
-     "supports": "Cited inline as \"Nature\""
-    },
-    {
-     "kind": "article",
-     "slug": "cell-types-as-units-of-evolution",
-     "section": "biology/evolution",
-     "supports": "Peer-reviewed evolutionary biology, genomics, and single-cell research."
-    },
-    {
-     "kind": "article",
-     "slug": "coral-microbiome-bleaching-resistance",
-     "section": "biology/cells",
-     "supports": "Cited inline as \"Nature\""
-    },
-    {
-     "kind": "article",
-     "slug": "coral-microbiome-bleaching-resistance",
-     "section": "biology/cells",
-     "supports": "Peer-reviewed coral, microbiome, and climate-impact literature."
-    },
     {
      "kind": "glossary",
      "slug": "ecosystem-resilience",
      "section": "glossary",
      "supports": "Definition of Ecosystem resilience"
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-resilience-indicators",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"Nature\""
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-resilience-indicators",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on early-warning signals and stable states."
     },
     {
      "kind": "glossary",
@@ -14079,118 +14063,10 @@
      "supports": "Definition of Evolutionary adaptation"
     },
     {
-     "kind": "article",
-     "slug": "foundation-species-and-the-myth-of-redundancy",
-     "section": "ecology/ecosystems",
-     "supports": "Peer-reviewed ecology and foundation-species literature."
-    },
-    {
-     "kind": "article",
-     "slug": "living-planet-index-explained",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"methodological analyses\""
-    },
-    {
-     "kind": "article",
-     "slug": "living-planet-index-explained",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed examination of population-trend aggregation."
-    },
-    {
-     "kind": "article",
-     "slug": "perovskite-stack-field-stability",
-     "section": "physics/energy",
-     "supports": "Peer-reviewed perovskite and photovoltaic materials literature."
-    },
-    {
-     "kind": "article",
-     "slug": "protected-area-effectiveness",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"Nature\""
-    },
-    {
-     "kind": "article",
-     "slug": "protected-area-effectiveness",
-     "section": "ecology/biodiversity",
-     "supports": "Counterfactual studies of protected-area outcomes."
-    },
-    {
-     "kind": "article",
-     "slug": "quantum-sensors-leaving-the-lab",
-     "section": "physics/quantum-basics",
-     "supports": "Peer-reviewed quantum technology and metrology literature."
-    },
-    {
-     "kind": "article",
-     "slug": "single-cell-evo-devo",
-     "section": "biology/genetics",
-     "supports": "Cited inline as \"Nature\""
-    },
-    {
-     "kind": "article",
-     "slug": "single-cell-evo-devo",
-     "section": "biology/genetics",
-     "supports": "Peer-reviewed single-cell, developmental biology, and genomics literature."
-    },
-    {
-     "kind": "article",
-     "slug": "soil-microbiome-regenerative-agriculture",
-     "section": "ecology/ecosystems",
-     "supports": "Peer-reviewed microbiome, soil, and ecosystem science literature."
-    },
-    {
      "kind": "glossary",
      "slug": "species-evenness",
      "section": "glossary",
      "supports": "Definition of Species evenness"
-    },
-    {
-     "kind": "article",
-     "slug": "species-evenness-and-diversity",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"ecology literature\""
-    },
-    {
-     "kind": "article",
-     "slug": "species-evenness-and-diversity",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on diversity indices and Hill numbers."
-    },
-    {
-     "kind": "article",
-     "slug": "thermodynamic-limits-of-photovoltaics",
-     "section": "physics/thermodynamics",
-     "supports": "Cited inline as \"Nature\""
-    },
-    {
-     "kind": "article",
-     "slug": "thermodynamic-limits-of-photovoltaics",
-     "section": "physics/thermodynamics",
-     "supports": "Peer-reviewed energy-materials and photovoltaic literature."
-    },
-    {
-     "kind": "article",
-     "slug": "what-is-a-cell",
-     "section": "biology/cells",
-     "supports": "Peer-reviewed cell biology literature."
-    },
-    {
-     "kind": "article",
-     "slug": "what-is-an-ecosystem",
-     "section": "ecology/ecosystems",
-     "supports": "Peer-reviewed ecology and ecosystem science literature."
-    },
-    {
-     "kind": "article",
-     "slug": "what-is-dna",
-     "section": "biology/genetics",
-     "supports": "Peer-reviewed genetics and genomics literature."
-    },
-    {
-     "kind": "article",
-     "slug": "why-species-counts-mislead-conservation",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed literature on biodiversity, functional diversity, and conservation biology."
     }
    ],
    "isLiveDataset": false,
@@ -16924,19 +16800,13 @@
      "kind": "article",
      "slug": "ocean-heat-content-indicators",
      "section": "ecology/climate-change",
-     "supports": "Cited inline as \"National Centers for Environmental Information\""
+     "supports": "Cited inline as \"NOAA NCEI\""
     },
     {
      "kind": "article",
      "slug": "ocean-heat-content-indicators",
      "section": "ecology/climate-change",
      "supports": "Operational ocean heat content datasets and annual climate assessments."
-    },
-    {
-     "kind": "article",
-     "slug": "sea-level-rise-indicators",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"NOAA State of the Climate\""
     },
     {
      "kind": "article",
@@ -16967,6 +16837,30 @@
      "slug": "why-two-credible-datasets-disagree",
      "section": "insights",
      "supports": "Version history covering coverage completion, the change of gap-filling method, and the shift of reference period to 1991–2020."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "monthly",
+   "verificationStatus": "unchecked",
+   "notes": "Global temperature and State of the Climate products are reissued monthly and annually."
+  },
+  {
+   "evidenceId": "ev-ncei-noaa-gov-55117fb6",
+   "title": "National Centers for Environmental Information",
+   "organization": "",
+   "url": "https://www.ncei.noaa.gov/access/global-ocean-heat-content/",
+   "host": "ncei.noaa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/climate-change"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ocean-heat-content-indicators",
+     "section": "ecology/climate-change",
+     "supports": "Cited inline as \"National Centers for Environmental Information\""
     }
    ],
    "isLiveDataset": true,
@@ -17087,62 +16981,16 @@
   },
   {
    "evidenceId": "ev-nih-gov-07e4098a",
-   "title": "Research programs and explainers",
-   "organization": "National Institutes of Health",
+   "title": "NIH",
+   "organization": "",
    "url": "https://www.nih.gov/",
    "host": "nih.gov",
    "sourceType": "government",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "biology/cells",
-    "biology/evolution",
-    "biology/genetics",
-    "glossary",
-    "physics/quantum-basics"
+    "glossary"
    ],
    "usedBy": [
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Cited inline as \"NIH\""
-    },
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Research portfolio on resistance mechanisms and counter-strategies."
-    },
-    {
-     "kind": "article",
-     "slug": "cell-signaling-pathways-basics",
-     "section": "biology/cells",
-     "supports": "Cited inline as \"NIH\""
-    },
-    {
-     "kind": "article",
-     "slug": "cell-signaling-pathways-basics",
-     "section": "biology/cells",
-     "supports": "Topic-level reference and grant-supported research overviews."
-    },
-    {
-     "kind": "article",
-     "slug": "electromagnetic-spectrum-applications",
-     "section": "physics/quantum-basics",
-     "supports": "Cited inline as \"NIH\""
-    },
-    {
-     "kind": "article",
-     "slug": "how-gene-expression-is-regulated",
-     "section": "biology/genetics",
-     "supports": "Cited inline as \"NIH\""
-    },
-    {
-     "kind": "article",
-     "slug": "how-gene-expression-is-regulated",
-     "section": "biology/genetics",
-     "supports": "Topic-level reference on regulation in development and disease."
-    },
     {
      "kind": "glossary",
      "slug": "microbiome",
@@ -18298,42 +18146,6 @@
      "slug": "water-vapor-feedback-explained",
      "section": "ecology/earth-systems",
      "supports": "Background on the greenhouse effect and the role of water vapour within it."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-noaa-gov-8473ab6a",
-   "title": "Argo floats",
-   "organization": "",
-   "url": "https://www.noaa.gov/",
-   "host": "noaa.gov",
-   "sourceType": "government",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "ecology/climate-change",
-    "physics/quantum-basics",
-    "physics/thermodynamics"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "earth-energy-budget-and-the-second-law",
-     "section": "physics/thermodynamics",
-     "supports": "Cited inline as \"NOAA\""
-    },
-    {
-     "kind": "article",
-     "slug": "electromagnetic-spectrum-applications",
-     "section": "physics/quantum-basics",
-     "supports": "Cited inline as \"NOAA\""
-    },
-    {
-     "kind": "article",
-     "slug": "ocean-heat-content-indicators",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"Argo floats\""
     }
    ],
    "isLiveDataset": false,
@@ -20663,16 +20475,29 @@
   },
   {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-09a05138",
-   "title": "Global burden of bacterial antimicrobial resistance in 2019",
-   "organization": "The Lancet (Global Research on Antimicrobial Resistance)",
+   "title": "1.27 million deaths attributable to bacterial resistance and 4.95 million associated with it",
+   "organization": "The Lancet, Antimicrobial Resistance Collaborators (PubMed Central)",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/",
    "host": "pmc.ncbi.nlm.nih.gov",
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "biology/evolution",
     "biology/microbiology"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "antibiotic-resistance-evolution-mechanisms",
+     "section": "biology/evolution",
+     "supports": "Cited inline as \"1.27 million deaths attributable to bacterial resistance and 4.95 million associated with it\""
+    },
+    {
+     "kind": "article",
+     "slug": "antibiotic-resistance-evolution-mechanisms",
+     "section": "biology/evolution",
+     "supports": "Attributable and associated deaths, the regional range, and the leading pathogens."
+    },
     {
      "kind": "article",
      "slug": "antimicrobial-resistance-evidence",
@@ -24626,6 +24451,34 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-ada34f3d",
+   "title": "Methods for detecting early warnings of critical transitions in time series illustrated using simulated ecological data",
+   "organization": "PLOS ONE, Dakos and colleagues (2012)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3398887/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ecosystem-resilience-indicators",
+     "section": "ecology/biodiversity",
+     "supports": "Cited inline as \"systematic comparison on simulated ecological time series\""
+    },
+    {
+     "kind": "article",
+     "slug": "ecosystem-resilience-indicators",
+     "section": "ecology/biodiversity",
+     "supports": "Comparison of indicator methods on simulated series, and their dependence on series length and detrending."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-ae87df49",
    "title": "Air pollution and mortality in the Medicare population",
    "organization": "New England Journal of Medicine",
@@ -26872,58 +26725,6 @@
      "slug": "soil-formation-and-classification",
      "section": "ecology/soils",
      "supports": "Median soil production rate from 188 measurements."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-pnas-org-de73c2cf",
-   "title": "ecosystem research",
-   "organization": "PNAS",
-   "url": "https://www.pnas.org/",
-   "host": "pnas.org",
-   "sourceType": "peer-reviewed",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "ecology/biodiversity"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "citizen-science-biodiversity-data",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"research\""
-    },
-    {
-     "kind": "article",
-     "slug": "citizen-science-biodiversity-data",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on citizen-science bias correction."
-    },
-    {
-     "kind": "article",
-     "slug": "ecological-integrity-indicators",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"PNAS\""
-    },
-    {
-     "kind": "article",
-     "slug": "ecological-integrity-indicators",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on intactness indices."
-    },
-    {
-     "kind": "article",
-     "slug": "species-richness-explained",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"diversity estimation\""
-    },
-    {
-     "kind": "article",
-     "slug": "species-richness-explained",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on diversity estimation and sampling."
     }
    ],
    "isLiveDataset": false,
@@ -31867,6 +31668,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-science-nasa-gov-754ecdf4",
+   "title": "Dark matter and dark energy",
+   "organization": "NASA",
+   "url": "https://science.nasa.gov/dark-matter/",
+   "host": "science.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/matter-radiation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "particle-physics-fundamentals",
+     "section": "physics/matter-radiation",
+     "supports": "Gravitational lensing as a way of mapping cluster mass, and the statement that no candidate has yet been confirmed."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-science-nasa-gov-9617860d",
    "title": "Clouds and radiation",
    "organization": "NASA Earth Observatory",
@@ -32005,28 +31828,6 @@
      "slug": "classical-mechanics-explained",
      "section": "physics/mechanics-waves",
      "supports": "Launch year and escape speed in astronomical units per year."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-science-nasa-gov-cc1aadce",
-   "title": "Dark matter and dark energy",
-   "organization": "NASA",
-   "url": "https://science.nasa.gov/universe/dark-matter-dark-energy/",
-   "host": "science.nasa.gov",
-   "sourceType": "government",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "physics/matter-radiation"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "particle-physics-fundamentals",
-     "section": "physics/matter-radiation",
-     "supports": "Gravitational lensing as a way of mapping cluster mass, and the statement that no candidate has yet been confirmed."
     }
    ],
    "isLiveDataset": false,
@@ -32494,30 +32295,16 @@
   },
   {
    "evidenceId": "ev-science-org-365f60d5",
-   "title": "Peer-reviewed research on microbial evolution",
-   "organization": "Science",
+   "title": "Science",
+   "organization": "",
    "url": "https://www.science.org/",
    "host": "science.org",
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "biology/cells",
-    "biology/evolution",
-    "biology/genetics",
-    "ecology/biodiversity",
-    "ecology/ecosystems",
-    "glossary",
-    "physics/energy",
-    "physics/quantum-basics",
-    "physics/thermodynamics"
+    "glossary"
    ],
    "usedBy": [
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Original research on resistance evolution and HGT."
-    },
     {
      "kind": "glossary",
      "slug": "baseline-condition",
@@ -32525,124 +32312,10 @@
      "supports": "Definition of Baseline condition"
     },
     {
-     "kind": "article",
-     "slug": "biodiversity-baselines-and-shifting-baselines",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"Science\""
-    },
-    {
-     "kind": "article",
-     "slug": "biodiversity-baselines-and-shifting-baselines",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on shifting baselines."
-    },
-    {
-     "kind": "article",
-     "slug": "cell-types-as-units-of-evolution",
-     "section": "biology/evolution",
-     "supports": "Cited inline as \"Science\""
-    },
-    {
-     "kind": "article",
-     "slug": "cell-types-as-units-of-evolution",
-     "section": "biology/evolution",
-     "supports": "Peer-reviewed animal evolution and developmental biology research."
-    },
-    {
-     "kind": "article",
-     "slug": "coral-microbiome-bleaching-resistance",
-     "section": "biology/cells",
-     "supports": "Peer-reviewed marine ecology and coral bleaching research."
-    },
-    {
      "kind": "glossary",
      "slug": "ecosystem-resilience",
      "section": "glossary",
      "supports": "Definition of Ecosystem resilience"
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-resilience-indicators",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"Science\""
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-resilience-indicators",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on resilience and critical transitions."
-    },
-    {
-     "kind": "article",
-     "slug": "foundation-species-and-the-myth-of-redundancy",
-     "section": "ecology/ecosystems",
-     "supports": "Peer-reviewed ecology and conservation research."
-    },
-    {
-     "kind": "article",
-     "slug": "habitat-fragmentation-metrics",
-     "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"research\""
-    },
-    {
-     "kind": "article",
-     "slug": "habitat-fragmentation-metrics",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed work on fragmentation effects."
-    },
-    {
-     "kind": "article",
-     "slug": "perovskite-stack-field-stability",
-     "section": "physics/energy",
-     "supports": "Peer-reviewed photovoltaic and energy-materials literature."
-    },
-    {
-     "kind": "article",
-     "slug": "quantum-sensors-leaving-the-lab",
-     "section": "physics/quantum-basics",
-     "supports": "Peer-reviewed applied-physics and quantum technology literature."
-    },
-    {
-     "kind": "article",
-     "slug": "single-cell-evo-devo",
-     "section": "biology/genetics",
-     "supports": "Cited inline as \"Science\""
-    },
-    {
-     "kind": "article",
-     "slug": "single-cell-evo-devo",
-     "section": "biology/genetics",
-     "supports": "Peer-reviewed evolutionary and developmental biology literature."
-    },
-    {
-     "kind": "article",
-     "slug": "soil-microbiome-regenerative-agriculture",
-     "section": "ecology/ecosystems",
-     "supports": "Peer-reviewed environmental and agricultural science literature."
-    },
-    {
-     "kind": "article",
-     "slug": "thermodynamic-limits-of-photovoltaics",
-     "section": "physics/thermodynamics",
-     "supports": "Cited inline as \"Science\""
-    },
-    {
-     "kind": "article",
-     "slug": "thermodynamic-limits-of-photovoltaics",
-     "section": "physics/thermodynamics",
-     "supports": "Peer-reviewed photovoltaic and applied-physics literature."
-    },
-    {
-     "kind": "article",
-     "slug": "what-is-a-cell",
-     "section": "biology/cells",
-     "supports": "Peer-reviewed biology literature."
-    },
-    {
-     "kind": "article",
-     "slug": "why-species-counts-mislead-conservation",
-     "section": "ecology/biodiversity",
-     "supports": "Peer-reviewed conservation and biodiversity research."
     }
    ],
    "isLiveDataset": false,
@@ -33820,41 +33493,6 @@
      "slug": "why-species-counts-mislead-conservation",
      "section": "ecology/biodiversity",
      "supports": "UN Environment Programme overview of ecosystem protection and restoration."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-unep-org-e2d533b7",
-   "title": "UNEP Emissions Gap Report",
-   "organization": "UNEP",
-   "url": "https://www.unep.org/",
-   "host": "unep.org",
-   "sourceType": "intergovernmental",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "ecology/climate-change",
-    "ecology/ecosystems"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "climate-adaptation-mitigation-indicators",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"UNEP Emissions Gap Report\""
-    },
-    {
-     "kind": "article",
-     "slug": "climate-adaptation-mitigation-indicators",
-     "section": "ecology/climate-change",
-     "supports": "Annual global emissions-gap analysis."
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-services-and-human-wellbeing",
-     "section": "ecology/ecosystems",
-     "supports": "Cited inline as \"Convention on Biological Diversity\""
     }
    ],
    "isLiveDataset": false,
@@ -35100,6 +34738,34 @@
    "notes": "Glacier mass-balance series."
   },
   {
+   "evidenceId": "ev-who-int-039d5525",
+   "title": "global action plan on antimicrobial resistance",
+   "organization": "World Health Organization",
+   "url": "https://www.who.int/publications/i/item/9789241509763",
+   "host": "who.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/evolution"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "antibiotic-resistance-evolution-mechanisms",
+     "section": "biology/evolution",
+     "supports": "Cited inline as \"global action plan on antimicrobial resistance\""
+    },
+    {
+     "kind": "article",
+     "slug": "antibiotic-resistance-evolution-mechanisms",
+     "section": "biology/evolution",
+     "supports": "The five strategic objectives and the 2015 World Health Assembly adoption."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-who-int-0484ac5a",
    "title": "Global antibiotic resistance surveillance report 2025: summary",
    "organization": "World Health Organization",
@@ -35349,18 +35015,14 @@
   },
   {
    "evidenceId": "ev-who-int-4ac0af4c",
-   "title": "Antimicrobial resistance global action plan",
-   "organization": "WHO",
+   "title": "WHO global action plan on AMR",
+   "organization": "",
    "url": "https://www.who.int/",
    "host": "who.int",
    "sourceType": "intergovernmental",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "biology/evolution",
-    "biology/genetics",
-    "ecology/ecosystems",
-    "glossary",
-    "physics/quantum-basics"
+    "glossary"
    ],
    "usedBy": [
     {
@@ -35368,48 +35030,6 @@
      "slug": "antibiotic-resistance",
      "section": "glossary",
      "supports": "Definition of Antibiotic resistance"
-    },
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Cited inline as \"World Health Organization\""
-    },
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Authoritative international framework on AMR surveillance and response."
-    },
-    {
-     "kind": "article",
-     "slug": "antibiotic-resistance-evolution-mechanisms",
-     "section": "biology/evolution",
-     "supports": "Standardized national reporting on resistance phenotypes in priority pathogens."
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-services-and-human-wellbeing",
-     "section": "ecology/ecosystems",
-     "supports": "Cited inline as \"WHO climate-and-health\""
-    },
-    {
-     "kind": "article",
-     "slug": "ecosystem-services-and-human-wellbeing",
-     "section": "ecology/ecosystems",
-     "supports": "Health-system perspective on ecosystem-mediated services and risks."
-    },
-    {
-     "kind": "article",
-     "slug": "electromagnetic-spectrum-applications",
-     "section": "physics/quantum-basics",
-     "supports": "Cited inline as \"WHO\""
-    },
-    {
-     "kind": "article",
-     "slug": "how-gene-expression-is-regulated",
-     "section": "biology/genetics",
-     "supports": "Cited inline as \"WHO\""
     }
    ],
    "isLiveDataset": false,
@@ -35460,6 +35080,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-who-int-699833a6",
+   "title": "reference health guidance on ultraviolet radiation",
+   "organization": "",
+   "url": "https://www.who.int/health-topics/ultraviolet-radiation",
+   "host": "who.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/quantum-basics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "electromagnetic-spectrum-applications",
+     "section": "physics/quantum-basics",
+     "supports": "Cited inline as \"reference health guidance on ultraviolet radiation\""
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-who-int-708162c1",
    "title": "Bacterial priority pathogens list, 2024",
    "organization": "World Health Organization",
@@ -35468,9 +35110,22 @@
    "sourceType": "intergovernmental",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "biology/evolution",
     "biology/microbiology"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "antibiotic-resistance-evolution-mechanisms",
+     "section": "biology/evolution",
+     "supports": "Cited inline as \"WHO bacterial priority pathogens list\""
+    },
+    {
+     "kind": "article",
+     "slug": "antibiotic-resistance-evolution-mechanisms",
+     "section": "biology/evolution",
+     "supports": "The 24 pathogens, 15 families and three priority categories, and the list's stated purpose."
+    },
     {
      "kind": "article",
      "slug": "antimicrobial-resistance-evidence",
@@ -35828,6 +35483,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-who-int-e672c03b",
+   "title": "Global Antimicrobial Resistance and Use Surveillance System (GLASS)",
+   "organization": "World Health Organization",
+   "url": "https://www.who.int/initiatives/glass",
+   "host": "who.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/evolution"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "antibiotic-resistance-evolution-mechanisms",
+     "section": "biology/evolution",
+     "supports": "Standardised national reporting on resistance phenotypes in priority pathogens."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-who-int-ecff5a34",
    "title": "Immunization coverage",
    "organization": "World Health Organization",
@@ -35894,9 +35571,16 @@
    "sourceType": "intergovernmental",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "ecology/climate-change"
+    "ecology/climate-change",
+    "ecology/ecosystems"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ecosystem-services-and-human-wellbeing",
+     "section": "ecology/ecosystems",
+     "supports": "Cited inline as \"WHO climate-and-health\""
+    },
     {
      "kind": "article",
      "slug": "what-is-climate-change",
@@ -36073,12 +35757,6 @@
      "slug": "ocean-heat-content-indicators",
      "section": "ecology/climate-change",
      "supports": "Annual synthesis of OHC alongside other climate indicators."
-    },
-    {
-     "kind": "article",
-     "slug": "sea-level-rise-indicators",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"WMO State of the Climate\""
     },
     {
      "kind": "article",

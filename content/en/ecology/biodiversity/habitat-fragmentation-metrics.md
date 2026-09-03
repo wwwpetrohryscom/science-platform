@@ -1,5 +1,6 @@
 ---
 title: 'Habitat fragmentation metrics: measuring how landscapes break apart'
+metaTitle: 'Habitat fragmentation metrics: measuring landscape break-up'
 excerpt: Habitat loss and habitat fragmentation are related but distinct, and conflating them produces bad conclusions. This explains the landscape metrics — patch size, edge, core area, and connectivity — used to quantify fragmentation, and the live scientific debate about how much it matters independently of habitat amount.
 type: expert
 author: biodiversity-conservation-desk
@@ -49,7 +50,7 @@ Because a divided landscape has proportionally more edge and less interior, it o
 
 A genuine and prominent debate runs through the peer-reviewed literature on this topic. It concerns what researchers call "fragmentation per se" — the question of whether dividing a fixed amount of habitat into more pieces is, on balance, harmful in its own right, independently of how much habitat there is. The intuition that more fragments must be worse turns out to be harder to confirm than it first appears.
 
-The evidence is genuinely mixed. Much landscape-ecology [research](https://www.science.org/) finds that the sheer amount of habitat is the stronger predictor of species loss, while the effect of subdivision alone is smaller, variable in direction, and dependent on context. The disagreement is unresolved rather than decided, and reasonable scientists weigh the same studies differently. The practical takeaway is restraint: when total area and configuration both change, attributing an observed decline specifically to fragmentation, rather than to loss, requires care.
+The evidence is genuinely mixed. Much landscape-ecology research finds that the sheer amount of habitat is the stronger predictor of species loss, while the effect of subdivision alone is smaller, variable in direction, and dependent on context. The disagreement is unresolved rather than decided, and reasonable scientists weigh the same studies differently. The practical takeaway is restraint: when total area and configuration both change, attributing an observed decline specifically to fragmentation, rather than to loss, requires care.
 
 ## Reading the metrics with appropriate caution
 
@@ -60,6 +61,5 @@ Second, "fragmentation" bundles together several distinct effects — reduced pa
 ## Sources
 
 1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Habitat change as a leading driver of biodiversity loss.
-1. **NASA Earth Observatory** — [land-cover products](https://science.nasa.gov/earth/earth-observatory/). Satellite land-cover data used to map fragmentation.
-1. **Copernicus Land** — [land products](https://land.copernicus.eu/). Pan-European land-cover and connectivity data.
-1. **Science** — [landscape-ecology research](https://www.science.org/). Peer-reviewed work on fragmentation effects.
+2. **NASA Earth Observatory** — [land-cover products](https://science.nasa.gov/earth/earth-observatory/). Satellite land-cover data used to map fragmentation.
+3. **Copernicus Land** — [land products](https://land.copernicus.eu/). Pan-European land-cover and connectivity data.

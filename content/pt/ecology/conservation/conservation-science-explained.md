@@ -1,5 +1,6 @@
 ---
 title: 'Ciência da conservação: o que a base de evidência sustenta realmente'
+metaTitle: 'Ciência da conservação: o que mostra a avaliação'
 excerpt: 'A conservação é uma ciência aplicada assente numa pergunta causal: a intervenção alterou a trajetória? Esta página expõe como se testa essa pergunta, o que as sínteses sustentam neste momento e onde a evidência se esgota.'
 type: pillar
 author: biodiversity-conservation-desk

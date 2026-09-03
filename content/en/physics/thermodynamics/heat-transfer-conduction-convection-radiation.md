@@ -1,5 +1,6 @@
 ---
 title: 'Heat transfer: three mechanisms that scale differently with temperature'
+metaTitle: 'Heat transfer: conduction, convection and radiation'
 excerpt: Conduction and convection rise roughly in step with a temperature difference; radiation rises as the fourth power of absolute temperature. That difference in exponent decides which mechanism dominates, and it changes with the working temperature.
 type: expert
 author: physics-energy-desk

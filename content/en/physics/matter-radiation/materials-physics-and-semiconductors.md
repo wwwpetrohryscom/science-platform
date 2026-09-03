@@ -1,5 +1,6 @@
 ---
 title: 'Band structure: why a few electron-volts decide whether a solid conducts'
+metaTitle: 'Band structure: why a few electron-volts decide conduction'
 excerpt: What separates copper from quartz is not how many electrons a material has but whether an energy gap sits between the states they occupy and the states they could move in. Almost every modern device is engineering on that gap.
 type: expert
 author: physics-energy-desk

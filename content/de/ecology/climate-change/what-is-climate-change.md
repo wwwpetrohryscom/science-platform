@@ -1,5 +1,6 @@
 ---
 title: Was ist der Klimawandel? Mechanismus, Evidenz und die offenen Fragen
+metaTitle: 'Klimawandel: Mechanismus und Belege'
 excerpt: Der Klimawandel ist die langfristige Verschiebung der Energiebilanz der Erde, angetrieben von Veränderungen der Zusammensetzung der Atmosphäre. Hier stehen der Mechanismus, die Evidenz dahinter und die Fragen, die tatsächlich offen sind.
 type: pillar
 author: climate-research-desk

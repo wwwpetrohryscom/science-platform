@@ -1,5 +1,6 @@
 ---
 title: 'Ecossistemas de água doce: menos de 0,01 % da água, mais de 10 % das espécies descritas'
+metaTitle: 'Águas doces: 0,01 % da água, 10 % das espécies'
 excerpt: Os rios, os lagos e os pântanos contêm menos de um centésimo de um por cento da água da Terra e cobrem uns escassos por cento da superfície continental, mas albergam mais de um décimo de todas as espécies descritas. É esse desequilíbrio que os molda por inteiro.
 type: pillar
 author: oceans-freshwater-desk

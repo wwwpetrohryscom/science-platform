@@ -1,5 +1,6 @@
 ---
 title: 'Classical mechanics: the framework that still describes most of the world'
+metaTitle: 'Classical mechanics and the edges of its domain'
 excerpt: Newton's laws are less a set of facts about objects than a contract about reference frames and force laws. This page states that contract carefully, shows why the conservation principles turned out to be deeper, and marks the edges of the domain.
 type: pillar
 author: physics-energy-desk

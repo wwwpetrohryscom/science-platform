@@ -1,5 +1,6 @@
 ---
 title: 'The cell membrane: self-assembly, selectivity, and the price of a gradient'
+metaTitle: 'The cell membrane: selectivity and the price of a gradient'
 excerpt: A lipid bilayer builds itself and then leaks almost nothing. What a cell spends to keep its interior chemically unlike its surroundings, and how channels, carriers and pumps divide that work, is the substance of membrane biology.
 type: expert
 author: biology-ecosystems-desk

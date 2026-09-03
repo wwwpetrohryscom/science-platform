@@ -89,4 +89,3 @@ _bodyHash: a31cc926
 2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Европейская оценка нагрузок на экосистемы и природоохранного статуса.
 3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Межправительственная оценка биоразнообразия, экосистемных услуг и движущих сил их сокращения.
 4. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Климатический контекст нарушений экосистем и связанных с ними рисков.
-5. **Nature** — [Nature ecology and evolution research](https://www.nature.com/). Рецензируемая литература по экологии и науке об экосистемах.

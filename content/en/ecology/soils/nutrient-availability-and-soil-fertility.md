@@ -1,5 +1,6 @@
 ---
 title: 'Soil fertility: what "available" means, and why nitrogen and phosphorus fail in opposite ways'
+metaTitle: 'Soil fertility: what ''available'' means for N and P'
 excerpt: Fertility is a rate of ion supply to a root, not a stock of nutrients sitting in the ground. That distinction explains why nitrogen is lost through mobility and phosphorus through immobility, and why recovery figures for both depend on how they were measured.
 type: expert
 author: soil-land-systems-desk

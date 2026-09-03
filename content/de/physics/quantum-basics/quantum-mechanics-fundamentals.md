@@ -1,5 +1,6 @@
 ---
 title: 'Quantenmechanik: die Arbeitsregeln, ohne die Philosophie'
+metaTitle: 'Quantenmechanik: die Arbeitsregeln'
 excerpt: Die Quantentheorie legt physikalische Konstanten auf zehn signifikante Stellen fest, während ihre Deutung offen bleibt. Diese Seite stellt die Arbeitsregeln dar — Amplituden, Observablen, Quantisierung, Unschärfe, Spinstatistik, Dekohärenz — und markiert, wo die echten Lücken liegen.
 type: pillar
 author: physics-energy-desk

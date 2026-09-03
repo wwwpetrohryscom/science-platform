@@ -1,5 +1,6 @@
 ---
 title: ¿Qué es una célula? La unidad de vida, definida de forma operativa
+metaTitle: '¿Qué es una célula? Una definición operativa'
 excerpt: Una célula es la unidad más pequeña capaz de mantenerse, copiarse y responder a su entorno. Cada uno de esos requisitos descarta algo de lo que «célula» no significa, y explica por qué los casos límite resultan interesantes.
 type: pillar
 author: biology-ecosystems-desk
@@ -78,5 +79,3 @@ Dentro del límite, los [filamentos del citoesqueleto](/es/biology/cells/cytoske
 1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Obras de referencia y libros biomédicos revisados por pares sobre biología celular.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Definiciones y explicaciones del Instituto Nacional de Investigación del Genoma Humano de Estados Unidos.
 3. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Índice de literatura revisada por pares en biología celular y virología.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Literatura de biología celular revisada por pares.
-5. **Science** — [Science journals](https://www.science.org/). Literatura biológica revisada por pares.

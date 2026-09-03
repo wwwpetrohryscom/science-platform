@@ -1,5 +1,6 @@
 ---
 title: ¿Qué es el cambio climático? El mecanismo, la evidencia y las preguntas abiertas
+metaTitle: 'El cambio climático: mecanismo y pruebas'
 excerpt: El cambio climático es el desplazamiento a largo plazo del balance energético de la Tierra, impulsado por cambios en la composición atmosférica. Este es el mecanismo, la evidencia en que se apoya y las preguntas que siguen realmente abiertas.
 type: pillar
 author: climate-research-desk

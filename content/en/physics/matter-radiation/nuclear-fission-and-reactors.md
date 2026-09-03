@@ -1,5 +1,6 @@
 ---
 title: 'Fission reactors: the neutron budget and the heat that does not switch off'
+metaTitle: 'Fission reactors: the neutron budget and decay heat'
 excerpt: A fission does not release all its energy at once. That single fact — a delayed remainder arriving over hours and years — shapes reactor control, shutdown cooling and spent-fuel handling more than any other feature of the physics.
 type: expert
 author: physics-energy-desk

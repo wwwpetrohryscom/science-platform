@@ -1,5 +1,6 @@
 ---
 title: 'Energy storage: the quantities that matter are duration and energy, not power'
+metaTitle: 'Energy storage: duration is the parameter that decides'
 excerpt: A store advertised in megawatts has told you how fast it can move energy and nothing about how much it holds. This page separates power, energy and duration, then works through round-trip losses and the chemistry of capacity fade.
 type: expert
 author: energy-systems-desk

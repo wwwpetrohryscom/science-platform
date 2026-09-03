@@ -1,5 +1,6 @@
 ---
 title: Quantum sensors are leaving the lab. Here's what changes when they do.
+metaTitle: 'Quantum sensors are leaving the laboratory'
 excerpt: Quantum sensors — atomic clocks, gravimeters, magnetometers — have moved from precision-physics curiosities to deployable instruments. The applications opened by the move are not the ones popular coverage emphasizes.
 type: expert
 author: energy-systems-desk
@@ -85,5 +86,3 @@ The quantum-sensing transition is real. It is also slower, narrower, and more in
 1. **NIST** — [Quantum sensing explained](https://www.nist.gov/quantum-information-science/quantum-sensing-explained). Official NIST explainer on quantum sensors and applications.
 2. **NIST** — [Sensors](https://www.nist.gov/sensors). NIST overview of measurement science and sensor development.
 3. **Reviews of Modern Physics** — [American Physical Society journals](https://journals.aps.org/rmp/). Peer-reviewed review literature on quantum measurement and sensing.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed quantum technology and metrology literature.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed applied-physics and quantum technology literature.

@@ -1,5 +1,6 @@
 ---
 title: 'La mécanique classique : le cadre qui décrit encore l''essentiel du monde'
+metaTitle: 'Mécanique classique : le cadre et ses limites'
 excerpt: Les lois de Newton sont moins un ensemble de faits sur les objets qu'un contrat portant sur les référentiels et les lois de force. Cette page énonce ce contrat avec soin, montre pourquoi les principes de conservation se sont révélés plus profonds, et marque les limites du domaine.
 type: pillar
 author: physics-energy-desk

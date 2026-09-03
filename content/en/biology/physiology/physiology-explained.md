@@ -1,5 +1,6 @@
 ---
 title: 'Physiology: how organisms hold conditions steady while everything changes'
+metaTitle: 'Physiology: how organisms hold conditions steady'
 excerpt: Regulation is not a thermostat. This pillar sets out what a regulated variable is, why the set point is a modelling convenience rather than a number in the body, and how size and species decide which design an organism can afford.
 type: pillar
 author: biology-life-sciences-desk

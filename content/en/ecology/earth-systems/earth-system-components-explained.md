@@ -1,5 +1,6 @@
 ---
 title: The five components of the Earth system, and why their boundaries leak
+metaTitle: 'The five components of the Earth system'
 excerpt: Atmosphere, hydrosphere, cryosphere, biosphere, geosphere. The split is a working convention, and knowing where it breaks down is more instructive than memorising it.
 type: expert
 author: earth-systems-desk

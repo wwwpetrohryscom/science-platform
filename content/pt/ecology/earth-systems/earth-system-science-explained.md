@@ -1,5 +1,6 @@
 ---
 title: 'Ciência do sistema Terra: como interagem os grandes sistemas do planeta'
+metaTitle: 'Ciência do sistema Terra: componentes e acoplamentos'
 excerpt: O ar, a água, o gelo, a rocha e a vida estudam-se habitualmente em separado. A ciência do sistema Terra estuda os acoplamentos entre eles — é aí que reside a maior parte do comportamento e da incerteza.
 type: pillar
 author: earth-systems-desk

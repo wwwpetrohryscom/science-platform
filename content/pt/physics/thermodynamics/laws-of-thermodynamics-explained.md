@@ -1,5 +1,6 @@
 ---
 title: 'As leis da termodinâmica: o que cada uma proíbe realmente'
+metaTitle: 'As leis da termodinâmica e as suas proibições'
 excerpt: As quatro leis são proibições, não receitas. Cada uma exclui uma classe de máquina ou de processo, e em conjunto fixam o que significa temperatura, o que a contabilidade da energia tem de equilibrar e em que sentido um processo pode decorrer.
 type: pillar
 author: energy-systems-desk

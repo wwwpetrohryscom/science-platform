@@ -1,5 +1,6 @@
 ---
 title: 'Species richness explained: what a count of species can and cannot tell you'
+metaTitle: 'Species richness: what a count of species can tell you'
 excerpt: Species richness is the simplest biodiversity measure and the easiest to misread. Here is what a count of species actually represents, how sampling effort and area distort it, and the estimators used to make counts comparable.
 type: expert
 author: biodiversity-conservation-desk
@@ -39,7 +40,7 @@ Detection adds a third complication. Whether a species is recorded depends on ho
 
 Ecologists organize richness across spatial scales using a framework that distinguishes local, regional, and between-site components. In Whittaker's terms, alpha diversity is the richness within a single site, gamma diversity is the richness of a larger region, and beta diversity describes the turnover, or compositional difference, between sites. The same regional total can arise from many uniform sites or from a mosaic of distinct ones, and the alpha-beta-gamma split is what keeps those situations from being confused.
 
-To put unequal samples on a common footing, two related techniques are standard. Rarefaction scales richer or larger samples down to a shared level of effort so that counts can be read side by side, and extrapolation projects modestly beyond the observed effort under stated assumptions. Estimators such as Chao1 take a different route: they infer how many species were likely missed by examining the frequency of the rarest ones, on the reasoning that an abundance of singletons signals undetected species still waiting to be found. Hill numbers then place richness within a single family of diversity measures, where it appears as the special case of order q equal to zero, the case that counts species while giving no extra weight to how common each one is. Peer-reviewed work on [diversity estimation](https://www.pnas.org/) continues to refine how these tools behave under real sampling conditions, and assessments from [IPBES](https://www.ipbes.net/global-assessment) draw on them when summarizing the limits of any single metric.
+To put unequal samples on a common footing, two related techniques are standard. Rarefaction scales richer or larger samples down to a shared level of effort so that counts can be read side by side, and extrapolation projects modestly beyond the observed effort under stated assumptions. Estimators such as Chao1 take a different route: they infer how many species were likely missed by examining the frequency of the rarest ones, on the reasoning that an abundance of singletons signals undetected species still waiting to be found. Hill numbers then place richness within a single family of diversity measures, where it appears as the special case of order q equal to zero, the case that counts species while giving no extra weight to how common each one is. Peer-reviewed work on diversity estimation continues to refine how these tools behave under real sampling conditions, and assessments from [IPBES](https://www.ipbes.net/global-assessment) draw on them when summarizing the limits of any single metric.
 
 ## What richness leaves out
 
@@ -56,6 +57,5 @@ The constructive response is modesty about what a count can carry. Treated as on
 ## Sources
 
 1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Status and measurement of biodiversity, including the limits of single metrics.
-1. **GBIF** — [occurrence records](https://www.gbif.org/). Aggregated species-occurrence data underlying richness estimates.
-1. **EEA** — [biodiversity](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European indicators of species and habitat status.
-1. **PNAS** — [ecology research](https://www.pnas.org/). Peer-reviewed work on diversity estimation and sampling.
+2. **GBIF** — [occurrence records](https://www.gbif.org/). Aggregated species-occurrence data underlying richness estimates.
+3. **EEA** — [biodiversity](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European indicators of species and habitat status.

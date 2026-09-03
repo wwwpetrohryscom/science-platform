@@ -1,5 +1,6 @@
 ---
 title: O que é o ADN? A molécula, o código e aquilo que não determina
+metaTitle: 'O que é o ADN? A molécula, o código e os seus limites'
 excerpt: O ADN é um código molecular de quatro letras que armazena a informação necessária para construir e fazer funcionar uma célula. Compreender o que faz — e, tão importante quanto isso, o que não faz — é o alicerce da biologia moderna.
 type: pillar
 author: biology-ecosystems-desk
@@ -84,4 +85,3 @@ Como uma sequência fixa produz células diferentes é o tema da [regulação da
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminologia de genética e definições de ciência genómica destinadas ao público.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Obras de referência de biologia molecular, genética e função do genoma.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Índice de literatura com revisão por pares em genética e genómica.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Literatura de genética e genómica com revisão por pares.

@@ -1,5 +1,6 @@
 ---
 title: O que são as alterações climáticas? O mecanismo, as provas e as questões em aberto
+metaTitle: 'As alterações climáticas: mecanismo e provas'
 excerpt: As alterações climáticas são a modificação de longo prazo do balanço energético da Terra, provocada por mudanças na composição da atmosfera. Aqui ficam o mecanismo, as provas que o sustentam e as questões que continuam verdadeiramente em aberto.
 type: pillar
 author: climate-research-desk

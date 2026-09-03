@@ -1,5 +1,6 @@
 ---
 title: 'Contaminación: fuente, vía y receptor, el marco que ordena la evidencia'
+metaTitle: 'Contaminación: fuente, vía de exposición, receptor'
 excerpt: Una sustancia se convierte en contaminación solo cuando se alinean una fuente, una vía y un receptor. Esa tríada, y el paso de dosis-respuesta que ocupa su centro, explica por qué los límites ambientales difieren entre países sin que difiera la ciencia subyacente.
 type: pillar
 author: public-health-environment-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Extreme-weather attribution: how scientists link specific events to climate change'
+metaTitle: 'Extreme-weather attribution: linking events to climate'
 excerpt: Attribution science quantifies how much a specific extreme event was made more likely or more severe by climate change. The methods are well-defined, and so are the limits of what they can say.
 type: expert
 author: climate-research-desk

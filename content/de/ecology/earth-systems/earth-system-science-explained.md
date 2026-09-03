@@ -1,5 +1,6 @@
 ---
 title: 'Erdsystemwissenschaft: wie die großen Systeme des Planeten zusammenwirken'
+metaTitle: 'Erdsystemwissenschaft: Komponenten und Kopplungen'
 excerpt: Luft, Wasser, Eis, Gestein und Leben werden gewöhnlich getrennt untersucht. Die Erdsystemwissenschaft untersucht ihre Kopplungen – dort sitzt der größte Teil des Verhaltens und der größte Teil der Unsicherheit.
 type: pillar
 author: earth-systems-desk

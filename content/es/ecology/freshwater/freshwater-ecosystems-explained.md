@@ -1,5 +1,6 @@
 ---
 title: 'Ecosistemas de agua dulce: menos del 0,01 % del agua, más del 10 % de las especies descritas'
+metaTitle: 'Aguas dulces: 0,01 % del agua, 10 % de las especies'
 excerpt: Ríos, lagos y pantanos retienen menos de la centésima parte del uno por ciento del agua de la Tierra y cubren unos pocos puntos porcentuales de la superficie terrestre; aun así albergan más de la décima parte de todas las especies descritas. De ese desajuste se deriva todo lo demás.
 type: pillar
 author: oceans-freshwater-desk

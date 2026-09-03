@@ -1,5 +1,6 @@
 ---
 title: 'Reading energy statistics: capacity factor, LCOE, and the metrics that mislead'
+metaTitle: 'Capacity factor, LCOE and the metrics that mislead'
 excerpt: Nameplate capacity, capacity factor, levelised cost and primary energy are four different accounts of the same fleet, and each carries a convention that can move a headline without anything physical changing.
 type: expert
 author: energy-systems-desk

@@ -1,5 +1,6 @@
 ---
 title: 'Bosques: estructura, función y las definiciones que deciden las estadísticas'
+metaTitle: 'Bosques: estructura, función y definiciones'
 excerpt: Un bosque es una categoría de uso de la tierra antes que un ecosistema, y los umbrales de esa categoría deciden la mayoría de las cifras que se publican sobre él. Esta página expone las definiciones, la estructura que describen y dónde se agota el panorama mundial.
 type: pillar
 author: environmental-science-desk

@@ -348,6 +348,22 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
     }
   }
 
+  // 13b. Structural filler — a heading or sentence that promises
+  //      structure instead of supplying content. A warning, because a
+  //      road-map sentence is defensible once on a hub page and the
+  //      rule cannot tell a hub from an article.
+  for (const pattern of CONTENT_RULES.FILLER_STRUCTURE) {
+    const hit = pattern.exec(article.body);
+    if (hit) {
+      issues.push({
+        severity: "warning",
+        rule: "filler-structure",
+        message: `"${hit[0].trim().slice(0, 60)}" promises structure rather than supplying content — lead with the substance instead`,
+        filepath: fp,
+      });
+    }
+  }
+
   // 13. Dates must not be in the future. A publishedDate ahead of today
   //     is either a typo or a deliberate freshness signal; both are wrong
   //     because the date is published as schema.org dateModified.

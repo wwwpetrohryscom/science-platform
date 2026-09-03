@@ -1,5 +1,6 @@
 ---
 title: 'Natural selection: the conditions, the modes, and how adaptation is tested'
+metaTitle: 'Natural selection and how adaptation is tested'
 excerpt: Natural selection follows from three conditions that can be checked one at a time. The harder problem is showing that a given trait is an adaptation at all, and measured selection in the wild turns out to be weaker than most accounts imply.
 type: expert
 author: biology-ecosystems-desk

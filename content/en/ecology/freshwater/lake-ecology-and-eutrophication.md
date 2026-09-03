@@ -1,5 +1,6 @@
 ---
 title: 'Lakes: stratification, phosphorus, and why recovery lags the cleanup'
+metaTitle: 'Lakes: stratification, phosphorus and delayed recovery'
 excerpt: Density stratification, not chemistry, is the first fact about a deep lake. Whole-lake experiments identified phosphorus as the lever on eutrophication, but sediment stores and bistable shallow systems mean cutting the load rarely buys a quick recovery.
 type: expert
 author: oceans-freshwater-desk

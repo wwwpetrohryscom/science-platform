@@ -1,5 +1,6 @@
 ---
 title: 'Predictability across timescales: why two weeks is hard and a century is not'
+metaTitle: 'Predictability across timescales: weather against climate'
 excerpt: A forecast and a projection are different kinds of statement. One depends on knowing today's state precisely; the other does not, which is why the longer one can be more reliable.
 type: expert
 author: earth-systems-desk

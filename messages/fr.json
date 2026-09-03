@@ -11,7 +11,7 @@
   "_review_note": "Scientific descriptions translated by AI. A native French scientific editor must review the keys listed in _review before this bundle is used in production.",
   "site": {
     "name": "EcoScienceHub",
-    "tagline": "Écriture scientifique sur l'écologie, la biologie et la physique appliquée",
+    "tagline": "Écriture scientifique : écologie, biologie, physique",
     "description": "Articles indépendants et scientifiquement rigoureux sur l'écologie, la biologie et la physique appliquée. Conçus pour être lus lentement et cités avec soin."
   },
   "nav": {
@@ -144,7 +144,7 @@
     }
   },
   "home": {
-    "meta_title": "Écriture scientifique sur l'écologie, la biologie et la physique appliquée",
+    "meta_title": "Écriture scientifique : écologie, biologie, physique",
     "hero_eyebrow": "Une plateforme de lecture scientifique",
     "hero_title": "Une écriture lente et rigoureuse sur les systèmes qui nous soutiennent.",
     "hero_lede": "EcoScienceHub est une plateforme dédiée à l'écologie, à la biologie et à la physique appliquée — rédigée par des scientifiques en activité, éditée pour la clarté et citée là où cela compte. Conçue pour être lue lentement.",
@@ -206,14 +206,19 @@
     "pillar_callout": "Article pilier — {subtopic}",
     "read_pillar": "Lire le pilier →",
     "related_heading": "Lectures connexes",
-    "fallback_notice": "Cet article n'a pas encore été traduit en français. La version anglaise est affichée ci-dessous."
+    "fallback_notice": "Cet article n'a pas encore été traduit en français. La version anglaise est affichée ci-dessous.",
+    "in_english": "en anglais",
+    "locale_depth_note": "{native} de ces {total} articles sont disponibles en français ; les autres s'ouvrent en anglais.",
+    "table_label": "Tableau"
   },
   "insights": {
     "eyebrow": "Analyses",
     "title": "Des arguments à défendre",
     "description": "Les analyses sont de courts essais structurés. Chacun défend une thèse unique et falsifiable. Ils sont écrits pour être discutés — clairement, avec des citations et des dates.",
     "empty": "Aucune analyse publiée pour le moment.",
-    "category_eyebrow": "Analyse · {category}"
+    "category_eyebrow": "Analyse · {category}",
+    "insight_kind": "Analyse éditoriale",
+    "insight_kind_note": "Il s'agit d'une synthèse argumentée de travaux publiés, rédigée par {desk} ; ce n'est ni une recherche originale ni un article évalué par les pairs. Sa thèse est une position éditoriale ; les preuves sur lesquelles elle s'appuie sont citées ci-dessous et peuvent être vérifiées indépendamment."
   },
   "discussions": {
     "eyebrow": "Discussions",
@@ -246,7 +251,11 @@
     "footer_note": "Indépendance éditoriale. Citations bienvenues — merci de pointer vers l'URL canonique.",
     "sourcing_policy": "Politique de sourçage",
     "editorial_desks": "Rédactions",
-    "corrections": "Corrections et contact"
+    "corrections": "Corrections et contact",
+    "glossary": "Glossaire",
+    "privacy_policy": "Politique de confidentialité",
+    "cookie_policy": "Politique relative aux cookies",
+    "terms_of_use": "Conditions d'utilisation"
   },
   "newsletter": {
     "eyebrow": "Newsletter",

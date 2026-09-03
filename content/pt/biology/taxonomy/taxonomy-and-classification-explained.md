@@ -1,5 +1,6 @@
 ---
 title: 'Taxonomia: nomear, hierarquizar e as regras que mantêm os nomes estáveis'
+metaTitle: 'Taxonomia: nomear, hierarquizar e estabilizar os nomes'
 excerpt: Nomear um organismo é um procedimento regido por regras, com os seus códigos, tipos e regras de prioridade, e é distinto do juízo científico sobre que organismos pertencem uns aos outros. É assim que essa maquinaria funciona e é aqui que ela força.
 type: pillar
 author: biology-life-sciences-desk

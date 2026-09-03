@@ -1,5 +1,6 @@
 ---
 title: 'Mecânica clássica: o quadro que continua a descrever a maior parte do mundo'
+metaTitle: 'Mecânica clássica: o quadro e os seus limites'
 excerpt: As leis de Newton são menos um conjunto de factos sobre objetos do que um contrato sobre referenciais e leis de força. Esta página enuncia esse contrato com cuidado, mostra por que os princípios de conservação se revelaram mais profundos e assinala os limites do domínio.
 type: pillar
 author: physics-energy-desk

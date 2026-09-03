@@ -1,5 +1,6 @@
 ---
 title: 'Cryosphere indicators: glaciers, sea ice, ice sheets, and snow cover'
+metaTitle: 'Cryosphere indicators: glaciers, sea ice and ice sheets'
 excerpt: Sea-ice extent, glacier mass balance, ice-sheet loss, snow cover, permafrost. Each measures a different frozen reservoir and responds on a different timescale.
 type: expert
 author: climate-research-desk

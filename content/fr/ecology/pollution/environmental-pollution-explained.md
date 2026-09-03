@@ -1,5 +1,6 @@
 ---
 title: 'Pollution : source, voie de transfert, cible — le cadre qui organise les données'
+metaTitle: 'Pollution : source, voie d''exposition, récepteur'
 excerpt: Une substance ne devient une pollution que lorsqu'une source, une voie de transfert et une cible s'alignent. Ce triptyque, et l'étape dose-réponse qui en occupe le centre, explique pourquoi les valeurs limites environnementales diffèrent d'un pays à l'autre sans que la science sous-jacente diffère.
 type: pillar
 author: public-health-environment-desk

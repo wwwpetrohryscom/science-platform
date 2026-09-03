@@ -1,5 +1,6 @@
 ---
 title: How extinction risk is assessed, and what a Red List category means
+metaTitle: 'Extinction risk assessment and Red List categories'
 excerpt: A Red List category states a probability of extinction under defined criteria, not ecological importance or rarity. This is what the five criteria require, why Data Deficient is not a threat category, and how uneven the coverage is.
 type: expert
 author: biodiversity-conservation-desk
