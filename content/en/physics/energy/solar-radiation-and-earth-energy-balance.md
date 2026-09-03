@@ -51,7 +51,7 @@ Three physical changes shift the balance:
 
 **Atmospheric composition changes.** Greenhouse gases — water vapour, CO₂, methane, nitrous oxide, halocarbons, ozone — absorb outgoing longwave and re-emit it. Adding more of them at fixed surface temperature reduces outgoing longwave to space, producing the imbalance that drives surface warming. Aerosols partly counteract this by scattering shortwave and modifying clouds. The bookkeeping is the [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) framework.
 
-**Solar irradiance changes.** Solar output varies on the 11-year cycle (about 1 W/m² peak-to-peak at top of atmosphere, dampened by the spherical-area factor), and on longer cycles. The contribution to recent warming is small relative to greenhouse forcing — by about an order of magnitude in [IPCC](https://www.ipcc.ch/report/ar6/wg1/) and [NASA](https://www.nasa.gov/) assessments — but it is not zero, and it matters for paleoclimate.
+**Solar irradiance changes.** Solar output varies on the 11-year cycle (about 1 W/m² peak-to-peak at top of atmosphere, dampened by the spherical-area factor), and on longer cycles. The contribution to recent warming is small relative to greenhouse forcing — by about an order of magnitude in [IPCC](https://www.ipcc.ch/report/ar6/wg1/) assessments — but it is not zero, and it matters for paleoclimate.
 
 ## What this implies for solar energy
 
@@ -71,7 +71,7 @@ Two quantities in the energy budget are well-constrained; one is not.
 
 ## Recent evidence and updated context
 
-The satellite top-of-atmosphere imbalance record, produced by the CERES instrument suite, continues to indicate a positive Earth energy imbalance of roughly 1 W/m² when averaged over the most recent multi-year window. The ocean uptake record from ocean heat content datasets closes the budget within stated uncertainties, which is the cross-check that gives the imbalance estimate its weight. The companion [NASA CERES mission documentation](https://www.nasa.gov/) and [NOAA Climate.gov](https://www.noaa.gov/climate) explainers describe the calibration and uncertainty structure of the radiometric record.
+The satellite top-of-atmosphere imbalance record, produced by the CERES instrument suite, continues to indicate a positive Earth energy imbalance of roughly 1 W/m² when averaged over the most recent multi-year window. The ocean uptake record from ocean heat content datasets closes the budget within stated uncertainties, which is the cross-check that gives the imbalance estimate its weight. The companion [NASA CERES mission documentation](https://ceres.larc.nasa.gov/) and [NOAA Climate.gov](https://www.noaa.gov/climate) explainers describe the calibration and uncertainty structure of the radiometric record.
 
 CERES EBAF (Energy Balanced and Filled) products document an upward trend in the imbalance over the past two decades — the planet is not just out of balance, the imbalance has been growing. The trend is corroborated by independent OHC products, which is what makes it a load-bearing observation rather than a single-instrument artefact. A live area of analysis, documented in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature and discussed in [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) explainers, concerns how much of the recent change reflects reduced reflective aerosols (including the post-2020 IMO sulfur cap on marine fuels) unmasking pre-existing greenhouse-gas warming, versus other feedback contributions. The accounting is being narrowed but is not settled.
 
@@ -81,7 +81,7 @@ The same assessment gives the accumulated quantity, which is the more robust sta
 
 ## Methods note
 
-Top-of-atmosphere energy budget estimates rest primarily on satellite radiometry. The [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) and [NASA](https://www.nasa.gov/) mission pages document the instruments — CERES, MISR, MODIS, AIRS — that contribute. Surface energy budget estimates combine in-situ flux measurements (FLUXNET, baseline surface radiation network), satellite-derived surface temperature, and reanalyses produced by [ECMWF Copernicus](https://climate.copernicus.eu/) and partner agencies.
+Top-of-atmosphere energy budget estimates rest primarily on satellite radiometry. The [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) pages document the instruments — CERES, MISR, MODIS, AIRS — that contribute. Surface energy budget estimates combine in-situ flux measurements (FLUXNET, baseline surface radiation network), satellite-derived surface temperature, and reanalyses produced by [ECMWF Copernicus](https://climate.copernicus.eu/) and partner agencies.
 
 ## Why this framing matters
 

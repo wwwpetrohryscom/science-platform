@@ -25,7 +25,7 @@ Because the ocean stores so much of the imbalance, OHC is less affected by the y
 
 ## What OHC measures
 
-Ocean heat content is the integral of temperature anomalies over the ocean's volume, expressed as energy. Practically, it is calculated from temperature profiles measured by a network of free-drifting [Argo floats](https://www.noaa.gov/), supplemented by ship surveys, moored arrays, and historical reanalyses. The standard products from [NOAA NCEI](https://www.ncei.noaa.gov/) and partner agencies report OHC in the upper 700 m, the upper 2000 m, and — using deep surveys — the full ocean depth.
+Ocean heat content is the integral of temperature anomalies over the ocean's volume, expressed as energy. Practically, it is calculated from temperature profiles measured by a network of free-drifting [Argo floats](https://argo.ucsd.edu/), supplemented by ship surveys, moored arrays, and historical reanalyses. The standard products from [NOAA NCEI](https://www.ncei.noaa.gov/) and partner agencies report OHC in the upper 700 m, the upper 2000 m, and — using deep surveys — the full ocean depth.
 
 The number is reported as anomaly relative to a reference period, typically expressed in zettajoules (10²¹ J). A useful intuition: the ocean has been gaining roughly 10 zettajoules per year on average over the past two decades. That is approximately five Hiroshima bombs per second of continuous heat uptake. The figure is not used for rhetorical effect — it is the order of magnitude.
 
@@ -53,7 +53,7 @@ The Argo program took years to reach full deployment and prior data sources are 
 
 Subsurface temperature drift in some XBT (expendable bathythermograph) data has been a recurring source of bias. The corrections used by analysis groups are documented in the technical reports backing each product. The [climate.gov](https://www.noaa.gov/climate) explainer pages link to the methodology pages for each.
 
-The deep-ocean component below 2000 m is the least-sampled part of the record. Coverage relies on repeat hydrographic surveys (the GO-SHIP framework documented through [NOAA](https://www.noaa.gov/)) and on the progressive rollout of Deep Argo, which is still building toward global coverage. Deep-ocean heat uptake is a small fraction of the total but is not negligible for the multi-decadal trend, and its uncertainty is correspondingly larger than for the upper 2000 m.
+The deep-ocean component below 2000 m is the least-sampled part of the record. Coverage relies on repeat hydrographic surveys (the GO-SHIP framework) and on the progressive rollout of Deep Argo, which is still building toward global coverage. Deep-ocean heat uptake is a small fraction of the total but is not negligible for the multi-decadal trend, and its uncertainty is correspondingly larger than for the upper 2000 m.
 
 ## Recent evidence and updated context
 

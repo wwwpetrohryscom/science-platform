@@ -37,7 +37,7 @@ The second family asks a harder question: did the area actually change biodivers
 
 ## How outcome studies are measured
 
-Outcome evaluation rests on building a credible comparison. The core idea is to compare protected sites with similar unprotected ones, so that the difference between them approximates the effect of protection itself. Statistical matching pairs each protected location with unprotected locations that resemble it on characteristics like terrain, accessibility, soil, and distance to markets, then measures how their fates diverge. Studies of this kind, including impact-evaluation research published in journals such as [Nature](https://www.nature.com/), have made matching a standard step rather than an optional refinement.
+Outcome evaluation rests on building a credible comparison. The core idea is to compare protected sites with similar unprotected ones, so that the difference between them approximates the effect of protection itself. Statistical matching pairs each protected location with unprotected locations that resemble it on characteristics like terrain, accessibility, soil, and distance to markets, then measures how their fates diverge. Studies of this kind have made matching a standard step rather than an optional refinement.
 
 This is necessary because a simple before-and-after or inside-versus-outside contrast is misleading. Protected areas are frequently placed on land with low agricultural or development pressure — terrain that is "high and far", remote and hard to convert. Such sites would often have stayed intact regardless of their status, so a naive comparison credits protection with changes it did not cause and overstates impact. Matching attempts to strip out that location bias by comparing like with like.
 
@@ -58,6 +58,5 @@ None of this argues against expanding protected areas; it argues for reading des
 ## Sources
 
 1. **Protected Planet** — [WDPA](https://www.protectedplanet.net/en). UNEP-WCMC and IUCN database of protected areas and OECMs.
-1. **CBD** — [Target 3 (30x30)](https://www.cbd.int/). The area-based conservation target of the Global Biodiversity Framework.
-1. **IUCN** — [protected areas](https://www.iucn.org/). Standards and management-effectiveness guidance.
-1. **Nature** — [impact-evaluation research](https://www.nature.com/). Counterfactual studies of protected-area outcomes.
+2. **CBD** — [Target 3 (30x30)](https://www.cbd.int/). The area-based conservation target of the Global Biodiversity Framework.
+3. **IUCN** — [protected areas](https://www.iucn.org/). Standards and management-effectiveness guidance.

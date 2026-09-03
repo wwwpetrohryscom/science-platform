@@ -73,6 +73,5 @@ AR6's cross-chapter assessment reflects this: it treats both tropical and boreal
 1. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Land carbon uptake, its variability, and ocean biogeochemical stressors.
 2. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Effective radiative forcing from land-use surface reflectance change.
 3. **IPCC AR6 WG1, Chapter 4** — [Future global climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/). Confidence assessments for tropical and boreal forest as proposed tipping elements.
-4. **FAO** — [State of the World's Forests](https://www.fao.org/). Global forest area, change, and management statistics.
-5. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). The biological components of the fast carbon cycle.
-6. **UNEP** — [Ecosystems](https://www.unep.org/explore-topics/ecosystems). Assessment framing of ecosystem condition and its climate relevance.
+4. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). The biological components of the fast carbon cycle.
+5. **UNEP** — [Ecosystems](https://www.unep.org/explore-topics/ecosystems). Assessment framing of ecosystem condition and its climate relevance.

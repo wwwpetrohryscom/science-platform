@@ -40,7 +40,7 @@ All six layers are operating at any given moment in any given cell. Saying "gene
 
 A core insight from decades of work indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) is that transcription factors operate combinatorially. A typical enhancer is bound by several transcription factors; the combination — not any single factor — determines whether the enhancer activates the target gene.
 
-This combinatorial logic is the reason cell types are stable. A liver cell maintains its identity because a small number of transcription factors are co-expressed and reinforce one another. Disturbing this self-reinforcing core can reprogram cell identity, the basis for induced pluripotent stem cell technology described in [NIH](https://www.nih.gov/) research summaries and [MedlinePlus Genetics](https://medlineplus.gov/genetics/) reference pages.
+This combinatorial logic is the reason cell types are stable. A liver cell maintains its identity because a small number of transcription factors are co-expressed and reinforce one another. Disturbing this self-reinforcing core can reprogram cell identity, the basis for induced pluripotent stem cell technology, described in the [MedlinePlus Genetics](https://medlineplus.gov/genetics/) reference pages.
 
 It is also the reason developmental programmes are robust. The transcription-factor combinations that specify cell types during development are layered, with later decisions constrained by earlier ones. Disrupting one factor in the cascade does not produce a single defect; it shifts the cell toward an alternative trajectory.
 
@@ -64,7 +64,7 @@ The honest summary is that microRNAs and a small set of well-characterized lncRN
 
 **Robust development.** Embryonic development reproduces complex multicellular bodies with high reliability because the regulatory cascade has been shaped by selection for robustness. Small perturbations are buffered; large ones produce reproducible defects rather than chaos.
 
-**Disease.** Many diseases involve dysregulated expression rather than gene loss. Cancer, autoimmune disorders, and metabolic disease all involve cells expressing programs that they should not, or failing to express programs that they should. Reference materials at [NIH](https://www.nih.gov/) and [WHO](https://www.who.int/) treat dysregulation as a primary mechanism.
+**Disease.** Many diseases involve dysregulated expression rather than gene loss. Cancer, autoimmune disorders, and metabolic disease all involve cells expressing programs that they should not, or failing to express programs that they should. Reference material from [MedlinePlus Genetics](https://medlineplus.gov/genetics/) treats dysregulation as a primary mechanism in several disease classes, which is a statement about how the topic is organised for readers rather than a quantitative claim about how often it is the cause.
 
 ## Limits of current understanding
 
@@ -83,4 +83,3 @@ Three areas remain genuinely open.
 3. **PubMed (NIH/NLM)** — [Biomedical literature](https://pubmed.ncbi.nlm.nih.gov/). Primary literature on transcription factors, chromatin, and non-coding RNAs.
 4. **MedlinePlus Genetics (NIH/NLM)** — [Plain-language genetics reference](https://medlineplus.gov/genetics/). Patient-oriented summaries of gene regulation in inheritance and disease.
 5. **Ensembl (EMBL-EBI)** — [Genome annotation database](https://www.ensembl.org/). Reference annotation of protein-coding and non-coding RNA features.
-6. **National Institutes of Health** — [Research overviews](https://www.nih.gov/). Topic-level reference on regulation in development and disease.

@@ -49,7 +49,7 @@ Where biological remains survive, paleoecological proxies such as pollen, sedime
 
 Good practice treats the choice of baseline as a decision to be stated openly rather than assumed. The first principle is to make the reference period explicit: to say plainly which past condition the analysis compares against, so readers can judge what the resulting figure does and does not capture. A trend reported without its reference is difficult to interpret and easy to misread.
 
-The second principle is to test sensitivity to that choice. Because conclusions can hinge on the reference, careful analyses re-examine how the apparent direction and size of change shift if a different baseline is adopted. This is conceptually similar to the way [ecosystem resilience indicators](/en/ecology/biodiversity/ecosystem-resilience-indicators) are read against a clearly defined pre-disturbance state, and it connects to the wider idea of [ecosystem resilience](/en/glossary/ecosystem-resilience), where the meaning of a stable system depends on the condition it is compared to. Peer-reviewed historical-ecology research, published in outlets such as [Science](https://www.science.org/), has refined these methods for combining sparse historical sources into defensible reference conditions.
+The second principle is to test sensitivity to that choice. Because conclusions can hinge on the reference, careful analyses re-examine how the apparent direction and size of change shift if a different baseline is adopted. This is conceptually similar to the way [ecosystem resilience indicators](/en/ecology/biodiversity/ecosystem-resilience-indicators) are read against a clearly defined pre-disturbance state, and it connects to the wider idea of [ecosystem resilience](/en/glossary/ecosystem-resilience), where the meaning of a stable system depends on the condition it is compared to. Peer-reviewed historical-ecology research has refined these methods for combining sparse historical sources into defensible reference conditions.
 
 ## Uncertainty and limitations
 
@@ -60,6 +60,5 @@ A further difficulty is that the choice of baseline can change the story itself.
 ## Sources
 
 1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Long-term biodiversity change and reference conditions.
-1. **FAO** — [fisheries and biodiversity](https://www.fao.org/biodiversity/en/). Origin of shifting-baseline thinking in fisheries.
-1. **Science** — [historical-ecology research](https://www.science.org/). Peer-reviewed work on shifting baselines.
-1. **GBIF** — [occurrence records](https://www.gbif.org/). Historical and specimen records used to reconstruct baselines.
+2. **FAO** — [fisheries and biodiversity](https://www.fao.org/biodiversity/en/). Origin of shifting-baseline thinking in fisheries.
+3. **GBIF** — [occurrence records](https://www.gbif.org/). Historical and specimen records used to reconstruct baselines.

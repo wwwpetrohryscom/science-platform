@@ -18,7 +18,7 @@ pillar: what-is-dna
 _bodyHash: dd23b8a0
 ---
 
-For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question, by reading which parts of [the genome](/en/biology/genetics/what-is-dna) are active one cell at a time. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual cells, using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and major peer-reviewed journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/). The shift is consequential: the unit of evolutionary conservation may be finer than the network and finer than the organ.
+For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question, by reading which parts of [the genome](/en/biology/genetics/what-is-dna) are active one cell at a time. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual cells, using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/). The shift is consequential: the unit of evolutionary conservation may be finer than the network and finer than the organ.
 
 ## The shift in unit of analysis
 
@@ -63,7 +63,5 @@ The bigger change is methodological. The field's empirical center of gravity is 
 ## Sources
 
 1. **PubMed** — [NIH/NLM indexed single-cell and evo-devo literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for comparative biology.
-2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed single-cell, developmental biology, and genomics literature.
-3. **Science** — [Science journals](https://www.science.org/). Peer-reviewed evolutionary and developmental biology literature.
-4. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular and developmental biology.
-5. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.
+2. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular and developmental biology.
+3. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.

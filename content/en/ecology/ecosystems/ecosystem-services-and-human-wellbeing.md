@@ -40,9 +40,9 @@ Three things shifted measurably after the framework was adopted.
 
 **Cost-benefit analyses gained an ecological side.** Land-use decisions that had previously been evaluated only on the development side — what the new use produces — began to incorporate explicit estimates of services lost. The [U.S. EPA EnviroAtlas](https://www.epa.gov/) and similar agency tools were built specifically to support this comparison. The estimates are imperfect — the literature reviewing them notes wide ranges across studies — but their existence changes which proposals survive review.
 
-**Watershed protection became a fiscal argument.** When New York City avoided building a multi-billion-dollar filtration plant by investing in upstream watershed protection, the argument that carried the day was framed in ecosystem-services language. The same framing now supports natural-flood-management investments tracked by European agencies and reported in [WHO climate-and-health](https://www.who.int/) materials when health benefits are part of the case.
+**Watershed protection became a fiscal argument.** When New York City avoided building a multi-billion-dollar filtration plant by investing in upstream watershed protection, the argument that carried the day was framed in ecosystem-services language. The same framing now supports natural-flood-management investments tracked by European agencies and reported alongside [WHO climate-and-health](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health) material when health benefits are part of the case.
 
-**Pollination became a measurable agricultural input.** The [Food and Agriculture Organization](https://www.fao.org/) and [IPBES](https://www.ipbes.net/global-assessment) have published assessments quantifying the contribution of pollinators to crop production. The numbers carry uncertainty, but they have been useful enough to shape pesticide regulation in multiple jurisdictions.
+**Pollination became a measurable agricultural input.** The [Food and Agriculture Organization](https://www.fao.org/pollination/en/) and [IPBES](https://www.ipbes.net/global-assessment) have published assessments quantifying the contribution of pollinators to crop production. The numbers carry uncertainty, but they have been useful enough to shape pesticide regulation in multiple jurisdictions.
 
 ## Where the framework underperforms
 
@@ -56,7 +56,7 @@ Ecosystem services are easier to estimate when they are local, near-term, and su
 
 ## What the framework does not say
 
-A common misreading of ecosystem services is that they justify protecting ecosystems *only* in proportion to their measured services. The framework's developers have repeatedly pushed back on this — the framework was designed to make hidden value visible, not to make unvalued ecosystems disposable. The [Convention on Biological Diversity](https://www.unep.org/) and IPBES both maintain rights-based and intrinsic-value framings alongside the services framing.
+A common misreading of ecosystem services is that they justify protecting ecosystems *only* in proportion to their measured services. The framework's developers have repeatedly pushed back on this — the framework was designed to make hidden value visible, not to make unvalued ecosystems disposable. The [Convention on Biological Diversity](https://www.cbd.int/) and IPBES both maintain rights-based and intrinsic-value framings alongside the services framing.
 
 In practice this means an ecosystem-services case is usually a *supplement* to the underlying ecological case for protection, not a substitute for it. When a project's case rests entirely on services, the next question to ask is whether the supporting field evidence — abundance trends, foundation-species presence, monitoring coverage — actually backs the modelled benefits.
 
@@ -78,5 +78,3 @@ The framework is a translation. Like any translation, it preserves some content 
 2. **United Nations Environment Programme** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). UN-system reference on ecosystems and the Millennium Ecosystem Assessment heritage.
 3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European regional assessment with ecosystem-services indicators and policy applications.
 4. **U.S. Environmental Protection Agency** — [Environmental decision support tools](https://www.epa.gov/). EnviroAtlas and related tools that operationalize ecosystem-services valuation.
-5. **Food and Agriculture Organization** — [State of the World's Forests](https://www.fao.org/). Forest ecosystem services and their contribution to provisioning and regulating functions.
-6. **WHO** — [Climate change and health](https://www.who.int/). Health-system perspective on ecosystem-mediated services and risks.

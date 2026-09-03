@@ -25,7 +25,7 @@ Resilience describes what an ecosystem can withstand, not what it currently look
 
 In ecology, [ecosystem resilience](/en/glossary/ecosystem-resilience) is the capacity of a system to absorb disturbance and retain its essential structure and function rather than reorganising into a different state. The word carries two distinct meanings that are easy to conflate. Engineering resilience refers to how quickly a system returns to equilibrium after a perturbation — a fast bounce-back. Ecological resilience refers to something different: how much disturbance a system can absorb before it shifts into an alternative state altogether.
 
-The distinction matters for measurement. A system can recover quickly from small knocks yet still sit close to a threshold beyond which it would reorganise. Conversely, a slow-recovering system may tolerate a wide range of disturbance without flipping. Indicators built around recovery speed and indicators built around absorptive capacity therefore answer different questions, and a thorough assessment considers both. Peer-reviewed work on stable states and critical transitions, much of it appearing in journals such as [Nature](https://www.nature.com/), has shaped how these meanings are now applied in monitoring.
+The distinction matters for measurement. A system can recover quickly from small knocks yet still sit close to a threshold beyond which it would reorganise. Conversely, a slow-recovering system may tolerate a wide range of disturbance without flipping. Indicators built around recovery speed and indicators built around absorptive capacity therefore answer different questions, and a thorough assessment considers both. Peer-reviewed work on stable states and critical transitions has shaped how these meanings are now applied in monitoring: the [proposal that generic early-warning signals exist](https://doi.org/10.1038/nature08227) across systems as different as lakes, climate and financial markets is what gave the monitoring programme its statistical vocabulary.
 
 ## Why resilience is measured by proxy
 
@@ -37,7 +37,7 @@ The two are complementary. Redundancy without response diversity can give a fals
 
 Some systems can undergo a regime shift, moving between alternative stable states. A lake may switch from clear to turbid water; a reef may move from coral- to algae-dominated. Once such a shift occurs, returning to the prior state can be difficult, which is why detecting an approaching transition has drawn sustained research attention.
 
-A set of statistical early-warning signals has been proposed for this purpose, drawn from the behaviour of systems nearing a tipping point. As a system loses resilience, it tends to recover more slowly from small perturbations — a pattern termed critical slowing down. This slowing tends to leave statistical traces in time-series data: rising temporal autocorrelation, where each measurement resembles the one before it more closely, and increasing variance, where fluctuations grow larger. Studies in outlets such as [Science](https://www.science.org/) have examined how reliably these patterns precede observed transitions across different kinds of systems.
+A set of statistical early-warning signals has been proposed for this purpose, drawn from the behaviour of systems nearing a tipping point. As a system loses resilience, it tends to recover more slowly from small perturbations — a pattern termed critical slowing down. This slowing tends to leave statistical traces in time-series data: rising temporal autocorrelation, where each measurement resembles the one before it more closely, and increasing variance, where fluctuations grow larger. Studies have examined how reliably these patterns precede observed transitions, and the honest summary is that the methods are better characterised than validated: a [systematic comparison on simulated ecological time series](https://pmc.ncbi.nlm.nih.gov/articles/PMC3398887/) found that no single indicator performed well across all the transition types tested, and that the answer depends on the length of the series and on how it is detrended before the statistics are computed.
 
 ## How resilience monitoring is assembled
 
@@ -54,6 +54,6 @@ Resilience is also specific rather than general. A system may be highly resilien
 ## Sources
 
 1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Ecosystem change, tipping points, and resilience.
-1. **Nature** — [regime-shift research](https://www.nature.com/). Peer-reviewed work on early-warning signals and stable states.
-1. **Science** — [ecosystem research](https://www.science.org/). Peer-reviewed work on resilience and critical transitions.
-1. **GEO BON** — [Essential Biodiversity Variables](https://geobon.org/). Function variables relevant to resilience.
+2. **GEO BON** — [Essential Biodiversity Variables](https://geobon.org/). Function variables relevant to resilience.
+3. **Nature, Scheffer and colleagues (2009)** — [Early-warning signals for critical transitions](https://doi.org/10.1038/nature08227). The proposal that generic early-warning signals precede critical transitions across system types.
+4. **PLOS ONE, Dakos and colleagues (2012)** — [Methods for detecting early warnings of critical transitions in time series illustrated using simulated ecological data](https://pmc.ncbi.nlm.nih.gov/articles/PMC3398887/). Comparison of indicator methods on simulated series, and their dependence on series length and detrending.

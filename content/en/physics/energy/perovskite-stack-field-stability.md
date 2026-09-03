@@ -75,5 +75,3 @@ But the technology has crossed an important threshold: outdoor and module-level 
 1. **National Laboratory of the Rockies** — [Perovskite solar cells](https://www.nlr.gov/pv/perovskite-solar-cells). Laboratory overview of perovskite opportunities and commercialization barriers.
 2. **U.S. Department of Energy** — [Integrated Energy Systems Office](https://www.energy.gov/cmei/systems/integrated-energy-systems-office). DOE programme context for photovoltaic research and deployment.
 3. **National Laboratory of the Rockies** — [Photovoltaic research](https://www.nlr.gov/pv/research). Photovoltaic research, reliability, and system-performance context.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed perovskite and photovoltaic materials literature.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed photovoltaic and energy-materials literature.

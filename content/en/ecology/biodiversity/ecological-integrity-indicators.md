@@ -41,7 +41,7 @@ Each compresses many observations into a single comparable score, which is what 
 
 The shared method behind these indicators is comparison. An integrity index takes the current state of a site, sets it against a reference or undisturbed condition for that ecosystem type, and expresses the gap between the two as one number. The reference is the anchor; everything else is measured as distance from it.
 
-The inputs are usually layered. Field surveys supply direct records of which species are present and in what numbers. Species-distribution models extend those point observations across areas that were never visited, estimating what the assemblage would look like under current and reference conditions. Remote sensing adds a view of habitat condition — vegetation structure, extent, and change — at scales no field campaign can cover. Peer-reviewed work, including studies indexed in venues such as [PNAS](https://www.pnas.org/), has refined how these strands are combined and how their respective errors propagate into the final score. For readers tracing how landscape pattern feeds these models, the related work on [habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics) covers the spatial side in more depth.
+The inputs are usually layered. Field surveys supply direct records of which species are present and in what numbers. Species-distribution models extend those point observations across areas that were never visited, estimating what the assemblage would look like under current and reference conditions. Remote sensing adds a view of habitat condition — vegetation structure, extent, and change — at scales no field campaign can cover. Peer-reviewed work has refined how these strands are combined and how their respective errors propagate into the final score. For readers tracing how landscape pattern feeds these models, the related work on [habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics) covers the spatial side in more depth.
 
 ## Why the reference state is the hard part
 
@@ -58,6 +58,5 @@ None of this makes the indicators uninformative. It means they are best read as 
 ## Sources
 
 1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Ecosystem condition and intactness in global assessment.
-1. **CBD** — [Global Biodiversity Framework](https://www.cbd.int/). Ecosystem-integrity goals and indicators.
-1. **GEO BON** — [Essential Biodiversity Variables](https://geobon.org/). Structure and function classes integrity rests on.
-1. **PNAS** — [ecosystem research](https://www.pnas.org/). Peer-reviewed work on intactness indices.
+2. **CBD** — [Global Biodiversity Framework](https://www.cbd.int/). Ecosystem-integrity goals and indicators.
+3. **GEO BON** — [Essential Biodiversity Variables](https://geobon.org/). Structure and function classes integrity rests on.

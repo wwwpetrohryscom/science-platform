@@ -19,7 +19,7 @@ pillar: evolution-explained
 _bodyHash: d8d49c66
 ---
 
-Antimicrobial resistance is one of the clearest contemporary examples of [evolution](/en/biology/evolution/evolution-explained) operating on human timescales. The [World Health Organization](https://www.who.int/) treats it as one of the top global public-health threats, the [U.S. Centers for Disease Control and Prevention](https://www.cdc.gov/) tracks resistance threats annually, and the [NIH](https://www.nih.gov/) funds substantial research into mechanisms and counter-strategies.
+Antimicrobial resistance is one of the clearest contemporary examples of [evolution](/en/biology/evolution/evolution-explained) operating on human timescales. Its scale has been estimated directly: a systematic analysis covering 23 pathogens and 88 pathogen-drug combinations across 204 countries put the 2019 toll at [1.27 million deaths attributable to bacterial resistance and 4.95 million associated with it](https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/), with the highest attributable death rate in western sub-Saharan Africa at 27.3 per 100,000 and the lowest in Australasia at 6.5.
 
 Beyond the public-health framing, [antibiotic resistance](/en/glossary/antibiotic-resistance) is a useful case study for how evolutionary processes actually work — selection, mutation, horizontal gene transfer, and ecological context interacting in a system where the data is unusually rich.
 
@@ -32,7 +32,7 @@ Bacteria can become resistant to an antibiotic through any of four broadly defin
 3. **Reduced uptake or increased efflux.** Membrane changes that limit how much drug enters the cell, or active transporters that pump drug out faster than it accumulates.
 4. **Bypass pathways.** Alternative metabolic routes that circumvent the step the antibiotic blocks — for example, acquiring an alternative dihydrofolate reductase that resists trimethoprim.
 
-Reference summaries with citations to the underlying [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature are maintained by [NIH](https://www.nih.gov/) institutes, the [CDC](https://www.cdc.gov/), and the [WHO](https://www.who.int/) global action plan on AMR.
+The primary literature for each mechanism is indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/).
 
 ## Where the resistance genes come from
 
@@ -68,7 +68,7 @@ These properties do not make microbial evolution categorically different from an
 
 Resistance arises through evolution; it spreads through ecology. Stewardship policies aim at the spread.
 
-The CDC's antimicrobial-resistance threat reports, the WHO global action plan, and aligned [NIH](https://www.nih.gov/) research programs converge on a small set of evidence-supported interventions: avoiding inappropriate prescribing, restricting the use of last-line antibiotics, surveillance for emerging resistance, infection-prevention measures in healthcare settings, and reduced antibiotic use in agriculture. Each is supported by surveillance data showing that resistance frequencies respond to use patterns within years.
+The WHO [global action plan on antimicrobial resistance](https://www.who.int/publications/i/item/9789241509763), adopted by the World Health Assembly in May 2015, organises the response under five strategic objectives: awareness and training, surveillance and research, infection prevention through sanitation and hygiene, better use of antimicrobial medicines in human and animal health, and investment in new medicines, diagnostics and vaccines. The plan is a framework rather than an evidence review, and it is worth reading it as one: it states what member states agreed to do, not how much each measure moves resistance frequencies.
 
 What stewardship does *not* do is prevent resistance evolution from occurring. Resistance will continue to evolve as long as antibiotics are used. The goal is to keep the rate of emergence low enough, and the rate of spread limited enough, that drug development can keep pace.
 
@@ -80,13 +80,13 @@ Three areas remain genuinely open.
 
 **Quantifying the contribution of agricultural use.** That agricultural antibiotic use contributes to resistance in human pathogens is well-supported. Quantifying the contribution relative to clinical use is harder, and estimates vary across studies and regions.
 
-**Resistance to emerging drug classes.** New antibiotics — bacteriophage-based, antibody-based, and novel small-molecule classes — face the same evolutionary process. Whether resistance to these will emerge as quickly as to small-molecule antibiotics is not yet observable; the [NIH](https://www.nih.gov/) and [WHO](https://www.who.int/) preparedness programs treat it as a working assumption rather than settled fact.
+**Resistance to emerging drug classes.** New antibiotics — bacteriophage-based, antibody-based, and novel small-molecule classes — face the same evolutionary process. Whether resistance to these will emerge as quickly as to small-molecule antibiotics is not yet observable, and no surveillance series is long enough to settle it.
 
 ## Recent evidence and updated context
 
-The WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) continues to expand reporting coverage, with more national systems contributing standardized data on bloodstream and other priority pathogens. The [WHO bacterial priority pathogens list](https://www.who.int/) — the periodic prioritisation that orders pathogen-drug combinations by their public-health threat — and the [CDC antibiotic-resistance threat reports](https://www.cdc.gov/) remain the primary public reference points for which resistance phenotypes are tracked operationally. The WHO priority list has been revised since its original 2017 release as the underlying epidemiology has shifted; carbapenem-resistant Enterobacterales and *Acinetobacter baumannii* remain in the highest-priority tier across revisions. Surveillance signals over the early 2020s document continued spread of carbapenem-resistant Enterobacterales and persistent challenges with drug-resistant tuberculosis and gonorrhea, with sustained variation across regions.
+The WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) continues to expand reporting coverage, with more national systems contributing standardized data on bloodstream and other priority pathogens. The [WHO bacterial priority pathogens list](https://www.who.int/publications/i/item/9789240093461), revised in May 2024, is the reference point for which phenotypes are tracked operationally: 24 pathogens across 15 families, sorted into critical, high and medium priority. It replaces the 2017 list rather than extending it, and the stated purpose is to guide research and development rather than to rank clinical severity — a distinction that is easy to lose when the list is quoted as a threat ranking. Surveillance signals over the early 2020s document continued spread of carbapenem-resistant Enterobacterales and persistent challenges with drug-resistant tuberculosis and gonorrhea, with sustained variation across regions.
 
-On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature has continued to characterize compensatory evolution — mutations that reduce the fitness cost of resistance — which is the molecular basis for why resistance phenotypes persist after the corresponding drug is withdrawn from use. A related operational point with consistent NIH/CDC support is the role of stress-response pathways such as the bacterial SOS response: many antibiotics (notably fluoroquinolones and β-lactams) induce DNA damage that activates SOS, which transiently elevates the mutation rate and increases the chance that a resistance variant arises during the same exposure that selects for it. Inhibiting these stress pathways is one of the mechanism-level approaches being explored in the [NIH](https://www.nih.gov/) antimicrobial-resistance research portfolio. This evidence is consistent with the framing used by the CDC and WHO that resistance reversion is not automatic and stewardship works on the rate of emergence and spread rather than on the underlying evolutionary mechanism.
+On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature has continued to characterize compensatory evolution — mutations that reduce the fitness cost of resistance — which is the molecular basis for why resistance phenotypes persist after the corresponding drug is withdrawn from use. A related operational point with consistent NIH/CDC support is the role of stress-response pathways such as the bacterial SOS response: many antibiotics (notably fluoroquinolones and β-lactams) induce DNA damage that activates SOS, which transiently elevates the mutation rate and increases the chance that a resistance variant arises during the same exposure that selects for it. Inhibiting these stress pathways is one of the mechanism-level approaches under investigation, though none has yet produced a licensed drug. This evidence is consistent with the framing used by the CDC and WHO that resistance reversion is not automatic and stewardship works on the rate of emergence and spread rather than on the underlying evolutionary mechanism.
 
 ## What this article does not do
 
@@ -94,10 +94,9 @@ It does not provide medical advice. Decisions about antibiotic prescribing, choi
 
 ## Sources
 
-1. **World Health Organization** — [Antimicrobial resistance global action plan](https://www.who.int/). Authoritative international framework on AMR surveillance and response.
-2. **U.S. Centers for Disease Control and Prevention** — [Antibiotic resistance threats](https://www.cdc.gov/). Annual U.S. surveillance reports and threat assessments.
-3. **National Institutes of Health** — [AMR research and explainers](https://www.nih.gov/). Research portfolio on resistance mechanisms and counter-strategies.
+1. **World Health Organization** — [Global action plan on antimicrobial resistance](https://www.who.int/publications/i/item/9789241509763). The five strategic objectives and the 2015 World Health Assembly adoption.
+2. **The Lancet, Antimicrobial Resistance Collaborators (PubMed Central)** — [Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/). Attributable and associated deaths, the regional range, and the leading pathogens.
+3. **World Health Organization** — [Bacterial priority pathogens list, 2024](https://www.who.int/publications/i/item/9789240093461). The 24 pathogens, 15 families and three priority categories, and the list's stated purpose.
 4. **PubMed (NIH/NLM)** — [Primary literature on resistance mechanisms](https://pubmed.ncbi.nlm.nih.gov/). Indexed scientific articles for specific mechanisms and clinical contexts.
-5. **Science** — [Peer-reviewed research on microbial evolution](https://www.science.org/). Original research on resistance evolution and HGT.
-6. **WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS)** — [Global resistance surveillance](https://www.who.int/). Standardized national reporting on resistance phenotypes in priority pathogens.
-7. **NIH National Library of Medicine — NCBI Bookshelf** — [Microbiology reference](https://www.ncbi.nlm.nih.gov/books/). Open-access textbook chapters on resistance mechanisms and compensatory evolution.
+5. **World Health Organization** — [Global Antimicrobial Resistance and Use Surveillance System (GLASS)](https://www.who.int/initiatives/glass). Standardised national reporting on resistance phenotypes in priority pathogens.
+6. **NIH National Library of Medicine — NCBI Bookshelf** — [Microbiology reference](https://www.ncbi.nlm.nih.gov/books/). Open-access textbook chapters on resistance mechanisms and compensatory evolution.

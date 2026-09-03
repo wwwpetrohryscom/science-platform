@@ -43,7 +43,7 @@ Spatial bias is the most visible: records cluster near roads, towns, and protect
 
 None of these patterns rule out scientific use; they shape how the data must be handled. A first step is distinguishing structured records, gathered under a fixed protocol with defined effort and repeat visits, from unstructured opportunistic records that carry no such information. Structured data are easier to interpret because effort is known.
 
-Where effort is uneven or unrecorded, analysts model it explicitly so that differences in observation activity are not mistaken for differences in the species themselves. Occupancy and species-distribution models go further by separating detection from occurrence — estimating the chance that a species was present but simply not seen, rather than assuming that no record means no presence. Identification quality is addressed through expert or community validation, including review of submitted photographs, which lets many observations be checked and confirmed after the fact. Together these steps form the standard toolkit for turning opportunistic observations into defensible estimates, and they sit at the centre of peer-reviewed [research](https://www.pnas.org/) on bias correction.
+Where effort is uneven or unrecorded, analysts model it explicitly so that differences in observation activity are not mistaken for differences in the species themselves. Occupancy and species-distribution models go further by separating detection from occurrence — estimating the chance that a species was present but simply not seen, rather than assuming that no record means no presence. Identification quality is addressed through expert or community validation, including review of submitted photographs, which lets many observations be checked and confirmed after the fact. Together these steps form the standard toolkit for turning opportunistic observations into defensible estimates, and they sit at the centre of the peer-reviewed literature on bias correction.
 
 ## Methodology: judging a dataset
 
@@ -60,6 +60,5 @@ The sharpest pitfall concerns interpretation. Without information on effort, raw
 ## Sources
 
 1. **GBIF** — [occurrence records](https://www.gbif.org/). Aggregation and open publication of citizen-science data.
-1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Role and gaps of biodiversity observation data.
-1. **EEA** — [biodiversity](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Use of volunteer monitoring in European indicators.
-1. **PNAS** — [research](https://www.pnas.org/). Peer-reviewed work on citizen-science bias correction.
+2. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Role and gaps of biodiversity observation data.
+3. **EEA** — [biodiversity](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Use of volunteer monitoring in European indicators.

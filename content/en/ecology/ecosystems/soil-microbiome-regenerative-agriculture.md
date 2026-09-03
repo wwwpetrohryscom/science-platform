@@ -82,5 +82,3 @@ For a policy maker, the implication is that programs evaluating regenerative pra
 1. **PubMed** — [NIH/NLM indexed soil microbiome and agricultural microbiology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed biomedical and life-science literature index.
 2. **UNEP** — [Ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). Ecosystem restoration and sustainable land-use context.
 3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). Ecosystem-pressure and biodiversity context for land management.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed microbiome, soil, and ecosystem science literature.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed environmental and agricultural science literature.

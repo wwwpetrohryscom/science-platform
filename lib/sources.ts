@@ -1842,6 +1842,14 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       topicRelevance: "Citations for awarded discoveries, used as a dated record of what was established and when",
       lastReviewed: "2026-09-03",
     },
+    {
+      name: "Chandra X-ray Observatory",
+      organization: "NASA / Smithsonian Astrophysical Observatory",
+      url: "https://chandra.harvard.edu/",
+      type: "dataset",
+      topicRelevance: "X-ray astronomy mission documentation; cited for instrument and waveband facts, not for physics claims",
+      lastReviewed: "2026-09-03",
+    },
   ],
 };
 

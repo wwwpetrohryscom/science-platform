@@ -24,7 +24,7 @@ faq:
 _bodyHash: ad740cb5
 ---
 
-Coral bleaching is commonly described as the loss or functional breakdown of photosynthetic algal symbionts under heat stress — a failure of a partnership between [cells](/en/biology/cells/what-is-a-cell) of two different lineages, a mechanism summarized by [NOAA Coral Reef Watch](https://coralreefwatch.noaa.gov/product/50km/tutorial/crw02_coralbleaching.php). That description is correct but incomplete. Peer-reviewed work indexed by [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and synthesis coverage from [Nature](https://www.nature.com/) increasingly treat the coral host, algae, and bacterial community as an interacting system.
+Coral bleaching is commonly described as the loss or functional breakdown of photosynthetic algal symbionts under heat stress — a failure of a partnership between [cells](/en/biology/cells/what-is-a-cell) of two different lineages, a mechanism summarized by [NOAA Coral Reef Watch](https://coralreefwatch.noaa.gov/product/50km/tutorial/crw02_coralbleaching.php). That description is correct but incomplete. Peer-reviewed work indexed by [PubMed](https://pubmed.ncbi.nlm.nih.gov/) increasingly treats the coral host, algae, and bacterial community as an interacting system.
 
 A second mechanism — bacterial — is increasingly visible in the data, and it has implications for how reef restoration might work over the next decade.
 
@@ -79,5 +79,3 @@ It is, in the end, a buffer — a meaningful one, not a solution. The practical 
 1. **NOAA Coral Reef Watch** — [Coral bleaching tutorial](https://coralreefwatch.noaa.gov/product/50km/tutorial/crw02_coralbleaching.php). NOAA explanation of bleaching mechanisms and heat stress.
 2. **NOAA Coral Reef Watch** — [Near-real-time coral reef monitoring](https://coralreefwatch.noaa.gov/). Satellite-based monitoring and bleaching-alert products.
 3. **PubMed** — [NIH/NLM indexed coral microbiome literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for microbiome and marine biology research.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed coral, microbiome, and climate-impact literature.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed marine ecology and coral bleaching research.

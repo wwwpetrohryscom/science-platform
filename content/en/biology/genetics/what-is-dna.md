@@ -84,4 +84,3 @@ How a fixed sequence produces different cells is the subject of [gene-expression
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Genetics terminology and public-facing genomic science definitions.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts for molecular biology, genetics, and genome function.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and genomics literature index.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed genetics and genomics literature.

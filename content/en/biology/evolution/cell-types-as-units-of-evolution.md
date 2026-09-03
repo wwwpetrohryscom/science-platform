@@ -20,7 +20,7 @@ _bodyHash: 9a80c44c
 
 The standard textbook story of [animal evolution](/en/biology/evolution/evolution-explained) is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.
 
-Peer-reviewed single-cell evidence indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and published in journals such as [Nature](https://www.nature.com/) and [Science](https://www.science.org/) suggests this story may be told at the wrong resolution. Some features conserved across animal evolution appear to be cell-type programs rather than whole body plans. Body plans can then be understood partly as recombinations of a conserved cell-type toolkit.
+Peer-reviewed single-cell evidence indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/) suggests this story may be told at the wrong resolution. Some features conserved across animal evolution appear to be cell-type programs rather than whole body plans. Body plans can then be understood partly as recombinations of a conserved cell-type toolkit.
 
 ## The classical view
 
@@ -71,7 +71,5 @@ The textbook revision will lag the literature, as it usually does. The literatur
 ## Sources
 
 1. **PubMed** — [NIH/NLM indexed evolutionary and developmental biology literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index for cell-type evolution.
-2. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed evolutionary biology, genomics, and single-cell research.
-3. **Science** — [Science journals](https://www.science.org/). Peer-reviewed animal evolution and developmental biology research.
-4. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular, cellular, and evolutionary biology.
-5. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.
+2. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference material for molecular, cellular, and evolutionary biology.
+3. **PLOS Biology** — [PLOS Biology](https://journals.plos.org/plosbiology/). Peer-reviewed open-access biology research.

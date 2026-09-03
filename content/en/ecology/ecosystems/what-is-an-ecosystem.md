@@ -89,4 +89,3 @@ Three articles take the definition into places it is usually not applied. [Found
 2. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European assessment of ecosystem pressures and conservation status.
 3. **IPBES** — [Global Assessment Report on Biodiversity and Ecosystem Services](https://www.ipbes.net/global-assessment). Intergovernmental assessment of biodiversity, ecosystem services, and drivers of decline.
 4. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Climate-system context for ecosystem disturbance and risk.
-5. **Nature** — [Nature ecology and evolution research](https://www.nature.com/). Peer-reviewed ecology and ecosystem science literature.
