@@ -26,6 +26,12 @@ Registries that certify offset methodologies may have business incentives connec
 
 This is not a new observation. It has been the structural critique of voluntary carbon markets for at least a decade. What has changed is the volume and visibility of the market. Methodology decisions now shape how land-use data are collected, priced, and interpreted. That makes independent monitoring from public institutions such as the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) and national inventory systems more important, not less.
 
+## What the measurements show
+
+The strongest evidence on this is a 2024 synthesis in *Nature Communications* that pooled 14 studies using experimental or rigorous observational designs, covering 2,346 carbon-mitigation projects — about one-fifth of all credit volume issued to date, close to a billion tonnes of CO₂-equivalent. Its estimate is that fewer than 16 per cent of the credits issued to those projects represent real emission reductions.
+
+The figure varies sharply by mechanism, and the variation is the informative part: 68 per cent for HFC-23 abatement, 25 per cent for avoided deforestation, 16 per cent for SF₆ destruction, 11 per cent for cookstoves, and no statistically significant reductions at all from wind power or improved forest management. Mechanisms where the counterfactual is a chemical process behave very differently from mechanisms where it is a projection of what people would otherwise have done.
+
 ## What the science says
 
 Peer-reviewed evaluations and remote-sensing studies have reported over-crediting risks in some avoided-deforestation and land-use project types. The precise magnitude varies by project class, baseline design, jurisdiction, and evaluation method, so the defensible conclusion is not a universal multiplier. It is that independent measurement can materially diverge from registry-issued claims.
@@ -33,6 +39,16 @@ Peer-reviewed evaluations and remote-sensing studies have reported over-creditin
 The discrepancies are largest for avoided-deforestation credits, where baseline projections (what would have happened without the project) have proven systematically pessimistic — projecting forest loss that subsequent observation shows would not have occurred. Reforestation credits have fared better in evaluation but face their own concerns around permanence and additionality.
 
 The pattern is not that registries are dishonest. It is that they operate within a structural incentive that makes some kinds of error much cheaper to commit than others.
+
+## The strongest case against this reading
+
+Two responses deserve to be stated at full strength rather than waved at.
+
+The first is that the arrangement is already being corrected. The Integrity Council for the Voluntary Carbon Market publishes ten Core Carbon Principles and assesses methodologies against them, explicitly to let buyers distinguish credits that represent verifiable impact — a governance layer sitting above the registries and not funded by issuance. If it works, the conflict of interest described here is bounded rather than structural. Under the Paris Agreement, the Article 6.4 mechanism creates an intergovernmental crediting route with its own supervisory body, which is a different institutional answer to the same problem.
+
+The second is that the synthesis above measures projects issued under older methodologies, and that a market improves by retiring the ones that fail. On that reading, a low historical share of real reductions is evidence that scrutiny is working rather than that the arrangement cannot work.
+
+Both are reasonable. What neither settles is the measurement question underneath: the mechanisms that scored worst are the ones whose counterfactual is a projection of human behaviour, and no governance layer removes the difficulty of measuring what would otherwise have happened. A stricter standard changes which projects qualify; it does not change how well the quantity being certified can be known.
 
 ## What an honest correction looks like
 
@@ -50,4 +66,6 @@ The argument is not against carbon markets. It is against the specific arrangeme
 2. **UNEP** — [Emissions Gap Report 2024](https://www.unep.org/resources/emissions-gap-report-2024). UN Environment Programme assessment of mitigation ambition and emissions pathways.
 3. **European Environment Agency** — [Forests and forestry](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry). Forest carbon, ecosystem-service, and monitoring context.
 4. **USDA Forest Service** — [Forest Inventory and Analysis Program](https://research.fs.usda.gov/programs/fia). Public forest inventory infrastructure.
-5. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed literature on forest carbon, land-use monitoring, and offsets.
+5. **Nature Communications (PubMed Central)** — [Systematic assessment of the achieved emission reductions of carbon crediting projects](https://pmc.ncbi.nlm.nih.gov/articles/PMC11564741/). Synthesis of 14 studies covering 2,346 projects and roughly a billion tonnes of issued credits; the per-mechanism shares quoted here.
+6. **Integrity Council for the Voluntary Carbon Market** — [Core Carbon Principles](https://icvcm.org/core-carbon-principles/). The market's own quality benchmark, and the strongest form of the case that the arrangement is being corrected from within.
+7. **UNFCCC** — [Article 6.4 mechanism](https://unfccc.int/process-and-meetings/the-paris-agreement/article-64-mechanism). The intergovernmental crediting mechanism established under the Paris Agreement.
