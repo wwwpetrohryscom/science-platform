@@ -293,7 +293,7 @@
     "not_reviewed": "This page has not yet had an independent claim-against-source check. Its citations are live-checked, which is a different and weaker guarantee.",
     "corrections_link": "Report an error",
     "concepts_heading": "Scientific concepts on this page",
-    "live_data_note": "{count} of the cited sources are continuously updated, so figures taken from them are true as of the date given."
+    "live_data_note": "{count} of the cited sources are continuously updated. Where a figure is taken from one, the sentence states the edition or the date it was read."
   },
   "evidence_types": {
     "government": "government",

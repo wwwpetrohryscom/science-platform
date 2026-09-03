@@ -19,7 +19,7 @@ pillar: what-is-climate-change
 _bodyHash: 1f8640a1
 ---
 
-Radiative forcing is the unit climate scientists use to compare the climate effect of one greenhouse gas, aerosol, or land-use change against another. It has a precise definition — the change in net downward radiative flux at the tropopause after stratospheric temperatures adjust, in watts per square metre — and it is the bookkeeping that lets the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) put carbon dioxide, methane, nitrous oxide, halocarbons, ozone, and aerosols on the same axis.
+[Radiative forcing](/en/glossary/radiative-forcing) is the unit climate scientists use to compare the climate effect of one [greenhouse gas](/en/glossary/greenhouse-gas), aerosol, or land-use change against another. It has a precise definition — the change in net downward radiative flux at the tropopause after stratospheric temperatures adjust, in watts per square metre — and it is the bookkeeping that lets the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) put carbon dioxide, methane, nitrous oxide, halocarbons, ozone, and aerosols on the same axis.
 
 Understanding what the number does and does not measure is the difference between reading climate evidence as it is presented and overreading it.
 
@@ -63,11 +63,11 @@ When a chart shows "anthropogenic forcing since 1750", three things are being su
 
 ## Recent evidence and updated context
 
-The annual greenhouse-gas concentration record continues to be the cleanest signal in the climate dataset. [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) flask and in-situ measurements show CO₂, methane, and nitrous oxide all rising; the [WMO Greenhouse Gas Bulletin](https://wmo.int/) and the companion [Copernicus Climate Change Service](https://climate.copernicus.eu/) products report the same gases from independent observing networks and arrive at consistent global means. The methane growth rate over the early 2020s has been higher than the long-term average and remains an active area of source-attribution research drawing on isotopic and satellite-column measurements.
+The annual [greenhouse-gas concentration](/en/glossary/greenhouse-gas-concentration) record continues to be the cleanest signal in the climate dataset. [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) flask and in-situ measurements show CO₂, methane, and nitrous oxide all rising; the [WMO Greenhouse Gas Bulletin](https://wmo.int/) and the companion [Copernicus Climate Change Service](https://climate.copernicus.eu/) products report the same gases from independent observing networks and arrive at consistent global means. The methane growth rate over the early 2020s has been higher than the long-term average and remains an active area of source-attribution research drawing on isotopic and satellite-column measurements.
 
 These concentration trends are the input to the forcing calculation. They do not, on their own, settle the *response* — the temperature response is governed by climate sensitivity, which is assessed separately in AR6.
 
-The compact operational summary of the forcing trend is NOAA's [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), which reports the year-over-year change in the direct radiative forcing of the five main long-lived greenhouse gases (CO₂, methane, nitrous oxide, CFC-12, CFC-11) plus 15 minor halogenated gases, indexed to 1990 = 1.0. The AGGI is published annually by the NOAA Global Monitoring Laboratory and is the cleanest single number for tracking the direct gas-only component of anthropogenic forcing, separate from the more uncertain aerosol term. It is what to point at when a discussion calls for a single, unambiguously sourced operational metric.
+The compact operational summary of the forcing trend is NOAA's [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), which reports the year-over-year change in the direct radiative forcing of the five main long-lived greenhouse gases (CO₂, methane, nitrous oxide, CFC-12, CFC-11) plus seventeen minor halogenated gases, indexed to 1990 = 1.0. For 2024 the index stood at 1.54, meaning the direct heating effect of those gases had risen by 54 per cent since 1990. The AGGI is published annually by the NOAA Global Monitoring Laboratory and is the cleanest single number for tracking the direct gas-only component of anthropogenic forcing, separate from the more uncertain aerosol term. It is what to point at when a discussion calls for a single, unambiguously sourced operational metric.
 
 ## Forcing is not feedback, and water vapour is the test case
 
@@ -84,7 +84,7 @@ Two specific items remain open in the operational literature. Methane source att
 ## Sources
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/). The authoritative assessment of radiative forcing, climate sensitivity, and the response of the climate system.
-2. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/) and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing.
+2. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/) and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), 2024 edition. Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing.
 3. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://science.nasa.gov/climate-change/). Topic-level reference on greenhouse gases, energy balance, and observational records.
 4. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring and assessment products.
 5. **World Meteorological Organization** — [Greenhouse Gas Bulletin](https://wmo.int/). Annual report on globally averaged abundances of long-lived greenhouse gases.

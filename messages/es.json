@@ -303,7 +303,7 @@
     "not_reviewed": "Esta página aún no ha pasado por una comprobación independiente de afirmación contra fuente. Sus citas se verifican automáticamente, que es una garantía distinta y más débil.",
     "corrections_link": "Comunicar un error",
     "concepts_heading": "Conceptos científicos de esta página",
-    "live_data_note": "{count} de las fuentes citadas se actualizan continuamente, por lo que las cifras tomadas de ellas valen en la fecha indicada."
+    "live_data_note": "{count} de las fuentes citadas se actualizan de forma continua. Cuando se cita una cifra tomada de una de ellas, la frase indica la edición o la fecha de consulta."
   },
   "evidence_types": {
     "government": "gubernamental",

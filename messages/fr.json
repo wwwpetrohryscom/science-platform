@@ -303,7 +303,7 @@
     "not_reviewed": "Cette page n'a pas encore fait l'objet d'une vérification indépendante affirmation-contre-source. Ses citations sont contrôlées automatiquement, ce qui est une garantie différente et plus faible.",
     "corrections_link": "Signaler une erreur",
     "concepts_heading": "Notions scientifiques abordées",
-    "live_data_note": "{count} des sources citées sont mises à jour en continu ; les chiffres qui en proviennent valent à la date indiquée."
+    "live_data_note": "{count} des sources citées sont mises à jour en continu. Lorsqu'un chiffre en est tiré, la phrase indique l'édition ou la date de consultation."
   },
   "evidence_types": {
     "government": "gouvernemental",

@@ -303,7 +303,7 @@
     "not_reviewed": "Für diese Seite steht die unabhängige Prüfung Aussage-gegen-Quelle noch aus. Ihre Belege werden automatisch auf Erreichbarkeit geprüft, was eine andere und schwächere Zusicherung ist.",
     "corrections_link": "Fehler melden",
     "concepts_heading": "Wissenschaftliche Begriffe auf dieser Seite",
-    "live_data_note": "{count} der zitierten Quellen werden laufend aktualisiert; daraus entnommene Zahlen gelten zum angegebenen Datum."
+    "live_data_note": "{count} der zitierten Quellen werden fortlaufend aktualisiert. Wird eine Zahl daraus übernommen, nennt der Satz die Ausgabe oder das Abrufdatum."
   },
   "evidence_types": {
     "government": "staatlich",
