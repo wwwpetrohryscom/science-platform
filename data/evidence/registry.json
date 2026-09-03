@@ -6330,6 +6330,34 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-essd-copernicus-org-a81b77af",
+   "title": "Global Carbon Budget 2025",
+   "organization": "Earth System Science Data, Global Carbon Project",
+   "url": "https://essd.copernicus.org/articles/18/3211/2026/",
+   "host": "essd.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/climate-change"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "carbon-budgets-and-remaining-emissions",
+     "section": "ecology/climate-change",
+     "supports": "Cited inline as \"Global Carbon Budget 2025\""
+    },
+    {
+     "kind": "article",
+     "slug": "carbon-budgets-and-remaining-emissions",
+     "section": "ecology/climate-change",
+     "supports": "Projected 2025 fossil CO₂ emissions and growth rate, total emissions including land-use change, and the remaining 1.5°C budget from the start of 2026."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-essd-copernicus-org-aa310d3b",
    "title": "Global Methane Budget 2000–2020",
    "organization": "Earth System Science Data (Global Carbon Project)",
@@ -14915,34 +14943,6 @@
      "slug": "freshwater-biodiversity-decline",
      "section": "ecology/freshwater",
      "supports": "Sensitivity of the global mean to extreme declining populations and the cluster-based alternative."
-    }
-   ],
-   "isLiveDataset": false,
-   "verificationStatus": "unchecked"
-  },
-  {
-   "evidenceId": "ev-nature-com-911311aa",
-   "title": "a 2026 analysis in *Nature Reviews Earth & Environment*",
-   "organization": "Nature Reviews Earth & Environment",
-   "url": "https://www.nature.com/articles/s43017-026-00780-4",
-   "host": "nature.com",
-   "sourceType": "peer-reviewed",
-   "sourceTypeProvenance": "inferred-host",
-   "topics": [
-    "ecology/climate-change"
-   ],
-   "usedBy": [
-    {
-     "kind": "article",
-     "slug": "carbon-budgets-and-remaining-emissions",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"a 2026 analysis in *Nature Reviews Earth & Environment*\""
-    },
-    {
-     "kind": "article",
-     "slug": "carbon-budgets-and-remaining-emissions",
-     "section": "ecology/climate-change",
-     "supports": "Record 2025 fossil and industrial CO₂ emissions and the projected exhaustion date for the 1.5°C budget."
     }
    ],
    "isLiveDataset": false,

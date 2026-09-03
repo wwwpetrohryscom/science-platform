@@ -1,0 +1,258 @@
+{
+  "batchId": "v-physics-energy-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "energy-systems-explained",
+      "path": "content/en/physics/energy/energy-systems-explained.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "electricity accounts for only 21 per cent of total final consumption globally, while electricity supply and end-use electrification make up half of global energy investment",
+          "sourceChecked": "https://www.iea.org/reports/world-energy-outlook-2025/executive-summary",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EIA national accounts for 2024: petroleum 38 per cent of primary energy consumption, natural gas 36, nuclear and renewables 9 each, coal 8",
+          "sourceChecked": "https://www.eia.gov/energyexplained/us-energy-facts/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "2024 average operating heat rates of 10,777 Btu/kWh coal, 7,754 natural gas, 11,200 petroleum, 10,443 nuclear, giving fleet efficiencies of about 32, 44 and 33 per cent",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_01.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the \"input\" to a reactor is a heat quantity assigned by the statistical agency, not a purchased fuel volume",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_01.html",
+          "disposition": "corrected",
+          "note": "The cited table's own note says the opposite of the mechanism described: \"The nuclear average heat rate is the weighted average tested heat rate for nuclear units as reported on the Form EIA-860.\" The number is a tested value reported by operators, not one assigned by EIA. The article's underlying point — that the nuclear figure is not built from a quantity of fuel consumed the way the fossil averages are — survives, so the sentence now states the EIA-860 tested-heat-rate convention instead of an agency-assigned heat quantity."
+        },
+        {
+          "claim": "more than 2,500 GW of projects worldwide are stalled awaiting connection, a figure that says nothing about the energy those projects would deliver",
+          "sourceChecked": "https://www.iea.org/reports/electricity-2026/executive-summary",
+          "disposition": "qualified",
+          "note": "The 2,500 GW total is verified verbatim, but the source scopes it as \"projects - encompassing renewables, storage, and projects with large loads, such as data centres\". The article's gloss about \"the energy those projects would deliver\" reads as though the queue is all generation; a data centre in that queue consumes rather than delivers. Added the source's own composition and changed the gloss to \"deliver or consume\"."
+        },
+        {
+          "claim": "generation investment up almost 70 per cent since 2015 to around USD 1 trillion a year, grid spending at about USD 400 billion, and grid investment needing to rise by roughly half by 2030",
+          "sourceChecked": "https://www.iea.org/reports/world-energy-outlook-2025/executive-summary and https://www.iea.org/reports/electricity-2026/executive-summary",
+          "disposition": "verified"
+        },
+        {
+          "claim": "variable renewables to supply almost 30 per cent of global electricity by 2030, roughly double the current share, with solar PV accounting for nearly 80 per cent of the capacity increase",
+          "sourceChecked": "https://www.iea.org/reports/renewables-2025/executive-summary",
+          "disposition": "verified"
+        },
+        {
+          "claim": "curtailment and negative pricing are rising across China, Germany, Brazil, Chile and the United Kingdom, and the offshore wind outlook has been revised down by more than a quarter",
+          "sourceChecked": "https://www.iea.org/reports/renewables-2025/executive-summary",
+          "disposition": "qualified",
+          "note": "The source attaches its country list to curtailment only - \"Curtailment levels have been rising in many markets including China, Germany, Brazil, Chile, the United Kingdom and Ireland\" - and treats negative prices separately: \"The number of hours with negative prices has surged across multiple countries, coinciding with peak solar generation.\" The article had merged the two and attached both to a five-country list read as exhaustive. Separated the two statements, restored Ireland and the source's \"many markets including\" framing. The offshore revision of more than 25 per cent is verified as written."
+        },
+        {
+          "claim": "global energy demand grows by about 90 exajoules to 2035 under one set of policy assumptions and roughly 50 under another; energy-related CO2 emissions reached a record 38 gigatonnes in 2024",
+          "sourceChecked": "https://www.iea.org/reports/world-energy-outlook-2025/executive-summary",
+          "disposition": "verified",
+          "note": "Confirmed verbatim: Current Policies Scenario +90 EJ to 2035, Stated Policies +around 50 EJ, and \"Annual global energy-related CO2 emissions reached a record 38 gigatonnes (Gt) in 2024\". The article's scenario-label caveat matches the source's own framing."
+        },
+        {
+          "claim": "source line 6 describes the NIST SI units page as carrying \"definitions of the joule and the watt as separate quantities\"",
+          "sourceChecked": "https://www.nist.gov/pml/owm/metric-si/si-units and https://www.bipm.org/en/measurement-units",
+          "disposition": "qualified",
+          "note": "The NIST page does not define the joule or the watt and does not state that a watt is a joule per second; it sets out the seven SI base units and notes 22 derived units with special names. The BIPM page does carry the dimensional expressions (J = kg m2 s-2, W = kg m2 s-3), from which the body sentence follows, so the body claim stands on source 7. Narrowed the source 6 description to what that page actually contains."
+        }
+      ],
+      "openQuestions": [
+        "Source 8 (Industrial Energy Storage Review, https://www.osti.gov/biblio/2473658) is described as supporting \"projected industrial storage growth\", but the article body makes no claim about projected industrial storage growth anywhere. The classification half of that source line is loosely reflected in the conversion-route table. Left in place as citation hygiene rather than a claim defect, but an editor may want to drop it or use it.",
+        "That OSTI record names its authoring institution as the National Renewable Energy Laboratory, not the National Laboratory of the Rockies, because the report is dated October 2024 and predates the rename. The site's post-rename name is applied to a pre-rename report. Same institution, so not a false attribution, but the two names sit inconsistently across the batch.",
+        "Template sameness with energy-storage-fundamentals: both close with a caveats section opened by the same sentence frame (\"Three weaknesses in the framework are worth carrying\" / \"Three limitations are worth carrying\"). Noted, not restructured."
+      ]
+    },
+    {
+      "slug": "solar-photovoltaics-explained",
+      "path": "content/en/physics/energy/solar-photovoltaics-explained.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "ASTM G-173-03 specifies an absolute air mass of 1.5 (zenith angle 48.19 degrees) on a plane tilted 37 degrees toward the equator, with column water vapour 1.42 cm, ozone 0.34 cm and Angstrom turbidity at 500 nm of 0.084, modelled with SMARTS2",
+          "sourceChecked": "https://www.nlr.gov/grid/solar-resource/spectra-am1.5",
+          "disposition": "verified",
+          "note": "Every one of the six numbers matches the source verbatim, including the SMARTS2 (v2.9.2) attribution and the statement that the spectrum was modelled rather than measured."
+        },
+        {
+          "claim": "standard test or reporting conditions use a 25 degrees C reference temperature and the global or direct reference spectra of IEC 60904-3 edition 2 or ASTM G173, with area taken as total device area or an aperture area",
+          "sourceChecked": "https://www.nlr.gov/pv/cell-efficiency",
+          "disposition": "verified"
+        },
+        {
+          "claim": "record efficiencies are confirmed by independent recognised laboratories - the National Laboratory of the Rockies, AIST, JRC-ESTI and Fraunhofer-ISE",
+          "sourceChecked": "https://www.nlr.gov/pv/cell-efficiency",
+          "disposition": "verified",
+          "note": "Checked the institution itself as well as the claim, because the name and the nlr.gov domain look at first glance like a substitution for NREL. It is not: NLR is NREL renamed, nrel.gov no longer resolves, and nlr.gov serves the live charts. The list of four confirming labs matches the page exactly."
+        },
+        {
+          "claim": "the champion module chart groups devices into area classes above 14,000 cm2, 6,500-14,000, 800-6,500 and 200-800 cm2",
+          "sourceChecked": "https://www.nlr.gov/pv/module-efficiency",
+          "disposition": "verified"
+        },
+        {
+          "claim": "inverted perovskite cells at 26.63 per cent power conversion efficiency and blade-coated modules at a certified quasi-steady-state 23.01 per cent",
+          "sourceChecked": "https://doi.org/10.1038/s41565-026-02207-z (abstract read at https://www.nature.com/articles/s41565-026-02207-z)",
+          "disposition": "verified",
+          "note": "Abstract states both figures verbatim, including that 23.01 per cent is the certified quasi-steady-state module value. Existence and journal also confirmed independently through Crossref metadata."
+        },
+        {
+          "claim": "modules typically lose less than 1 per cent of performance per year and the loss is undetectable within measurement uncertainty for the first several years of operation",
+          "sourceChecked": "https://www.nlr.gov/pv/lifetime",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the PV Lifetime project has tracked sixteen module types indoors since 2016, with annual median degradation between -0.4 and -0.5 per cent per year for the earliest-deployed types, several types better than -0.3, four exceeding -1, and one bifacial heterojunction type at roughly -1.5 per cent per year",
+          "sourceChecked": "https://www.osti.gov/biblio/3020423",
+          "disposition": "verified",
+          "note": "All five numbers confirmed in the 2025 annual report: 16 module types since 2016, modules removed from the field once or twice a year for indoor measurement, -0.4 to -0.5 per cent per year median for the early-deployed types, Mission Solar/LG/Panasonic better than -0.3, four types faster than -1, and Sunpreme n-HIT bifacial around -1.5."
+        },
+        {
+          "claim": "a mechanically stacked four-terminal GaAs//Si tandem minimodule deployed in Golden, Colorado from October 2019 to January 2021 degraded at -4.1 +/- 0.2 per cent per year (GaAs) and -2.5 +/- 0.9 per cent per year (Si), dominated by packaging degradation and delamination",
+          "sourceChecked": "https://www.osti.gov/biblio/3377551",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Two cited NLR products disagree on the size of the PV Lifetime cohort: the /pv/lifetime landing page describes nine manufacturers and 12 module types, while the 2025 annual report the article actually cites for the number describes 16. The article follows the annual report, which is the correct source for that figure, but the landing page it cites two sentences earlier says something different.",
+        "The Nature Nanotechnology paper was read as its published abstract, which states both efficiency figures explicitly. The full text sits behind Nature's identity provider and was not read."
+      ]
+    },
+    {
+      "slug": "wind-energy-physics",
+      "path": "content/en/physics/energy/wind-energy-physics.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "the power coefficient peaks at a = 1/3 with a value of 16/27, about 59.3 per cent, under assumptions of infinite blade number, one-dimensional flow and no friction or turbulence losses",
+          "sourceChecked": "https://doi.org/10.5772/52580 (chapter read at https://www.intechopen.com/chapters/41078)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the same chapter notes that practical efficiencies of operating machines sit in the proximity of 40 per cent",
+          "sourceChecked": "https://www.intechopen.com/chapters/41078",
+          "disposition": "verified",
+          "note": "Supported literally - the chapter says \"the real wind turbines extract about 40% and the rest is wasted\". Flagged here because the chapter's own headline result is lower: its finite-time analysis derives 36.2 per cent, \"which agrees well with those for actually operating wind turbines\". The article picked the higher of two figures the chapter gives. Left as written because the sentence attributes it accurately and the following paragraph's argument does not turn on which of the two is used."
+        },
+        {
+          "claim": "annual U.S. utility-scale capacity factors 2021-2025 for wind (20.5, 23.1, 22.1, 25.0, 23.6 per cent), solar PV, hydroelectric and nuclear, with 2024 and prior final and 2025 preliminary",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_b",
+          "disposition": "verified",
+          "note": "All twenty table cells checked individually against the source and all twenty match. The final/preliminary split matches the table's note (\"Values for 2024 and prior years are final. Values for 2025 and 2026 are preliminary\"). This is a monthly-updating product, and the article does carry the temporal anchor its source supports."
+        },
+        {
+          "claim": "small turbines around 10 kW, largest operating machines about 15,000 kW, largest horizontal-axis designs as tall as twenty-storey buildings with blades more than 100 feet long",
+          "sourceChecked": "https://www.eia.gov/energyexplained/wind/types-of-wind-turbines.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the same difference shows up between projects of different vintages: Highland Wind (Iowa) 462 turbines for about 502 MW against Grand Prairie Wind (Texas) 1,027 MW from 365 turbines",
+          "sourceChecked": "https://www.eia.gov/energyexplained/wind/types-of-wind-turbines.php",
+          "disposition": "corrected",
+          "note": "The turbine counts and capacities are exact, but the vintage explanation is the article's own and the source contradicts its premise. EIA gives no build dates for either project and dates both to the same snapshot: \"As of the end of 2022, the Highland Wind Project in Iowa had the most wind turbines\" and Grand Prairie \"had the largest total nameplate capacity\". The contrast the source draws is most-turbines against largest-capacity within one year, not old against new. Removed the vintage attribution, restored the source's own framing, and added the end-of-2022 anchor the source states."
+        },
+        {
+          "claim": "NLR puts the uncertainty of wake models such as FLORIS at 20 to 50 per cent and ran AWAKEN between Ponca City and Enid, Oklahoma from 2022 until July 2025 aiming to halve that uncertainty; wake interaction is a major cause of plant underperformance",
+          "sourceChecked": "https://www.nlr.gov/wind/awaken",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a Wind Energy Science study comparing two PBL schemes found plant average capacity factors between 39.5 and 53.8 per cent, in-plant speed deficits differing by -0.20 to 0.22 m/s or -2.2 to 2.4 percentage points, and concluded the PBL scheme is a meaningful source of modelled wind resource uncertainty",
+          "sourceChecked": "https://wes.copernicus.org/articles/7/2085/2022/",
+          "disposition": "verified",
+          "note": "Every figure matches the abstract verbatim, and the article's characterisation of the conclusion (\"a meaningful source of modeled wind resource uncertainty\") is the authors' own wording rather than a strengthening of it."
+        },
+        {
+          "claim": "a 2026 Wind Energy Science review concludes significant gaps remain in understanding turbulence's impact on wind power resources and farm operations, and that turbulence causes fluctuating output and blade root fatigue",
+          "sourceChecked": "https://wes.copernicus.org/articles/11/509/2026/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "IEA Renewables 2025 has global wind capacity nearly doubling to over 2,000 GW by 2030 while the five-year offshore outlook is revised down by more than a quarter",
+          "sourceChecked": "https://www.iea.org/reports/renewables-2025/executive-summary",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "In the turbulence paragraph the article says fatigue is driven by turbulence \"combined with shear across the rotor plane\". The blade-root-fatigue half is confirmed in the 2026 review; the shear combination was not separately confirmed in the text I could read, and I left it because it is not the load-bearing part of the sentence."
+      ]
+    },
+    {
+      "slug": "energy-storage-fundamentals",
+      "path": "content/en/physics/energy/energy-storage-fundamentals.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "at the end of November 2020 the United States had 21.9 GW of pumped-storage hydropower and 1.4 GW of utility-scale batteries",
+          "sourceChecked": "https://www.eia.gov/todayinenergy/detail.php?id=46756",
+          "disposition": "verified",
+          "note": "Both figures exact. The source dates the battery figure to 20 November 2020 rather than the end of the month; the article's own following sentence already warns that the two endpoints come from different releases and conventions, so the gap is disclosed rather than hidden."
+        },
+        {
+          "claim": "by the end of June 2026 EIA recorded 23,035.1 MW of pumped storage and 51,665.7 MW of batteries, with a further 22,788.4 MW of battery capacity planned over the following twelve months",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_01",
+          "disposition": "verified",
+          "note": "Live monthly product; June 2026 is the most recent month in the table and all three figures match to the decimal. The article states the month, which is the temporal anchor this dataset requires."
+        },
+        {
+          "claim": "round-trip efficiency is the percentage of electricity put into storage that is later retrieved; using 2019 operating data EIA calculated average monthly round-trip efficiencies of 82 per cent for utility-scale batteries and 79 per cent for pumped storage",
+          "sourceChecked": "https://www.eia.gov/todayinenergy/detail.php?id=46756",
+          "disposition": "verified"
+        },
+        {
+          "claim": "pumped-storage plants have net negative electricity generation balances, consuming more electricity pumping than they return",
+          "sourceChecked": "https://www.eia.gov/energyexplained/hydropower/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "at the end of 2022 there were 374 operating hybrid plants above 1 MW with nearly 41 GW of generating capacity and 5.4 GW/15.2 GWh of storage; the 213 PV-plus-battery plants carried 4.0 GW/12.5 GWh, a 49 per cent ratio and 3.1 hours of duration",
+          "sourceChecked": "https://www.osti.gov/biblio/1994526",
+          "disposition": "verified",
+          "note": "All seven figures and the end-of-2022 reporting date confirmed against the abstract."
+        },
+        {
+          "claim": "a review of industrial storage groups technologies as thermal, chemical, electrochemical and mechanical, and projects industrial storage growing by a factor of 2.6 from just over 60 GWh to 167 GWh by 2030",
+          "sourceChecked": "https://www.osti.gov/biblio/2473658",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a reduced-order capacity fade model from accelerated aging tests on 32 graphite/NMC cells identifies loss of lithium inventory and cathode-material loss as dominant, through SEI growth, electrode cracking, cycling-driven acceleration and early-life break-in, with rates depending on temperature, charge rate, depth of discharge and state of charge",
+          "sourceChecked": "https://www.osti.gov/biblio/1834314",
+          "disposition": "verified",
+          "note": "Abstract read in full; the cell count, chemistry, all four fade mechanisms and all four operating variables match, and the article does not overstate the model's status."
+        },
+        {
+          "claim": "work on silicon anodes found chemical contributions to calendar aging dominant over mechanical ones, with capacity fade still dominated by elapsed time for rest periods of a month or more between cycling",
+          "sourceChecked": "https://www.frontiersin.org/journals/batteries-and-electrochemistry/articles/10.3389/fbael.2023.1308127/full",
+          "disposition": "verified"
+        },
+        {
+          "claim": "lithium-ion battery costs fell about 90 per cent since 2010, from around USD 1,400 to less than USD 140 per kilowatt-hour by 2023, with 42 GW added globally in 2023 - more than double the previous year - taking the power-sector total above 85 GW",
+          "sourceChecked": "https://www.iea.org/reports/batteries-and-secure-energy-transitions/executive-summary",
+          "disposition": "verified"
+        },
+        {
+          "claim": "assessments of hydrogen for seasonal duty tend to be discouraging on economics rather than on physics: a study of Arctic microgrids found 75 per cent renewable generation competitive at current costs while concluding large-scale seasonal hydrogen storage is currently unlikely to be cost-effective",
+          "sourceChecked": "https://www.osti.gov/biblio/2570815",
+          "disposition": "qualified",
+          "note": "Three separate overreaches on one sentence. The source is a single study of rural Alaskan microgrids, not a body of assessments, so \"assessments ... tend to be\" reads as a settled field where there is one paper. The source's conclusion is scoped - \"unlikely to be cost-effective nor practical for the region considered\" - and the article dropped both the region and the practicality half, leaving economics alone. The source also states hydrogen \"may be economically viable if battery costs increase\", a condition the article omitted. Narrowed to one study of rural Alaskan microgrids, restored the practicality and regional scope, and added the battery-cost condition. The 75 per cent share is exact."
+        }
+      ],
+      "openQuestions": [
+        "Source 5 is credited to \"National Laboratory of the Rockies, via OSTI\", but the OSTI record for that report names the National Renewable Energy Laboratory, because the report is dated October 2024 and predates the December 2025 rename. Same body, so the claims stand, but the batch applies the new name to pre-rename reports inconsistently.",
+        "Template sameness with energy-systems-explained: both articles close on a caveats section introduced by the same sentence frame (\"Three limitations are worth carrying\" / \"Three weaknesses in the framework are worth carrying\"). Noted, not restructured."
+      ]
+    }
+  ]
+}

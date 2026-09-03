@@ -1,0 +1,354 @@
+{
+  "batchId": "v-ecology-soils-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "soil-science-explained",
+      "path": "content/en/ecology/soils/soil-science-explained.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "New soil forms at a median rate of about 0.15 tonnes per hectare per year, and typically well below one tonne",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The FAO adopts the ISO definition of soil as mineral particles, organic matter, water, air and living organisms organised in genetic horizons; the World Reference Base treats as soil any material within two metres of the surface in contact with the atmosphere; US Soil Taxonomy defines it as a natural body of solids, liquid and gases distinguished by horizons or by the ability to support rooted plants",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Dokuchaev framed soil as a natural body produced by climate, organisms, relief, parent material and time; Jenny wrote it as an equation in 1941; later workers added human action as a sixth factor",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Erosion from arable and intensively grazed land runs 100 to 1,000 times faster than natural background rates",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The FAO attributes water-storage capacity chiefly to texture, structure, organic carbon and depth, with deep clay-rich soils high in organic matter storing the most and sands and shallow stony profiles the least",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "qualified",
+          "note": "The four determinants are verbatim from SWSR section 3.6.2 (\"largely determined by its texture, structure, organic carbon content and depth\"), and deep clayey soils rich in organic matter are indeed given as \"high\". But the superlative is wrong: the same paragraph reserves \"very high soil moisture storage\" for volcanic soils (Andosols) and peat soils (Histosols), so deep clay-rich soils are not the top of the source's own ranking. Reworded to \"store a great deal - volcanic soils and peat soils more still\", and \"shallow stony\" narrowed to \"very shallow\", which is what the source says (Leptosols)."
+        },
+        {
+          "claim": "Soil organic matter holds more than three times as much carbon as either the atmosphere or terrestrial vegetation",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/21979045/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GSOCmap gives 682 Pg C in the top 30 cm with an uncertainty of plus or minus 144 Pg (about 20 per cent), against 504, 574, 699, 710, 967 and 1,267 Pg from six other global products - a factor of 2.5 between lowest and highest",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/e6173e90-b5df-481b-ac98-cb800e0f020f/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Land-cover breakdown of the topsoil stock: forests 291.6 Pg / 42.8 per cent / 42.1 t/ha; grasslands 178.2 / 26.1 / 30.1; croplands 140.1 / 20.5 / 35.7; other 46.7 / 6.9 / 14.8; wetlands 24.0 / 3.5 / 47.8",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/e6173e90-b5df-481b-ac98-cb800e0f020f/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Peatland is about 8 per cent of Germany's farmland and roughly 30 per cent of the greenhouse gas emissions of its whole farming sector",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Soil is home to 59 plus or minus 15 per cent of the species on Earth, roughly twice earlier figures, making it the most biodiverse single habitat; the band is wide because the underlying counts are extrapolations",
+          "sourceChecked": "https://europepmc.org/articles/PMC10437432",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The FAO and its technical panel assess ten processes as threatening soil-derived ecosystem services, and found in 2015 that 33 per cent of land is moderately to highly degraded",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The UNCCD's second Global Land Outlook reports that most assessments place 20 to 40 per cent of global land area in a degraded or degrading condition",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/2022-04/UNCCD_GLO2_low-res_2.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2018 isotope meta-analysis of 112 sites finds the 30 to 100 centimetre layer holds 47 per cent of the top metre's organic carbon",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/29995858/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Soil monitoring networks with repeat measurements exist in only a minority of countries",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "qualified",
+          "note": "No source in the article supports a country count. SWSR says something weaker and differently shaped: \"There are few locations with long-term soil monitoring data\" and \"A long-term global soil monitoring network is needed\", plus a regional note that some threats cannot be assessed \"because of the lack of surveys and monitoring networks\". The 22-country figure elsewhere in the batch is about uncertainty layers for GSOCmap, not about repeat measurement, and must not be borrowed for it. Rewritten to the FAO's own two statements; the conclusion drawn from them is unchanged."
+        }
+      ],
+      "openQuestions": [
+        "The GSOCmap technical report contradicts itself on land cover. Its prose gives forests 298.8 Pg / 43.1 per cent, grasslands 179.4 / 25.9, croplands 143.4 / 20.7 and wetlands 95.4 t/ha; its Table 6.4 on the facing page gives 291.6 / 42.8, 178.2 / 26.1, 140.1 / 20.5 and 47.8 t/ha. The article uses the table throughout, which is self-consistent and sums to the 682 Pg headline, but the report never says which set supersedes the other.",
+        "The GSOCmap report describes the map as based on more than a million profiles; the article's phrase \"contributed by member countries\" is a fair gloss on the country-driven process but is not the report's wording."
+      ]
+    },
+    {
+      "slug": "soil-carbon-measurement-and-uncertainty",
+      "path": "content/en/ecology/soils/soil-carbon-measurement-and-uncertainty.md",
+      "status": "amended",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "Seven global products give 504, 574, 682, 699, 710, 967 and 1,267 Pg for the top 30 cm; GSOCmap's plus or minus 144 Pg is not wide enough to reach the highest",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/e6173e90-b5df-481b-ac98-cb800e0f020f/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The UNCCD guidance states in a single sentence that global products such as the Harmonized World Soil Database map carbon content and bulk density but not stocks, so the reporting quantity must be derived by multiplying maps and averaging depths",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "corrected",
+          "note": "The guidance does have a single sentence on this, but it is a different sentence and it does not name HWSD: \"baseline 0-30 cm SOC stocks will need to be derived from SOC concentration, bulk density, gravel fraction and soil depth layers\". Worse, the guidance's own inventory of global products (Appendix C) credits HWSD v1.2 with \"soil organic carbon (%), 0-30 cm depth\" and nothing else - it is SoilGrids250m and Open Land Map that it lists as carrying percentage, bulk density, gravel fraction and depth to bedrock. So the article attributed bulk density to the one product the guidance does not credit with it, and \"averaging depths\" is not in the source at all. Replaced with the guidance's actual sentence and its actual product inventory."
+        },
+        {
+          "claim": "The equivalent-soil-mass correction is traced in the UNCCD glossary to work published in 2001",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2020 Global Change Biology paper shows fixed-depth comparison also distorts mass-based properties such as C:N ratio and delta-13C, and argues ESM should replace it as the default for mineral soils",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/32307802/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The published history of the global estimate: 710 Pg (1951, stood 25 years), 3,000 (1976, FAO-UNESCO soil map), 2,200 (1982, same author), 1,395 (1982, different group), 1,576 (1993, 1 m), 1,462-1,548 (1996, 1 m), 1,502 (2000, 1 m, IPCC adopted 1,500), 1,417 / 716 (2011, HWSD, 1 m / 30 cm)",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2,344 Pg estimate to 3 m is \"the only entry reaching below one metre\"",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "corrected",
+          "note": "Contradicted by the very paragraph the table is built from. SWSR: \"Global SOC stocks to a depth of 3 m are estimated at 2 344 Pg of SOC (Jobbagy and Jackson, 2000) or 3 000 Pg of SOC (Jansson et al., 2010).\" Two estimates below one metre, not one - and the omitted one is 28 per cent higher for the same depth, which is exactly the article's own argument about method-driven spread. Note corrected and the missing row added."
+        },
+        {
+          "claim": "The 2018 Nature meta-analysis of 112 sites sampled 1965-2015 found the 30-100 cm layer holds 47 per cent of the top metre's SOC but received only 19 per cent of the carbon incorporated over 50 years; median depth of recent incorporation 10 cm; vertical allocation better explained by aridity index than mean annual temperature; authors argue for multilayer soil modules",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/29995858/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Tibetan Plateau study: 1,196 sites over 190 km2; stocks reduced 11.0, 13.5 and 17.9 per cent by degradation class; optimal density 2, 3, 5 and 7 sites per 10 km2 for 10 per cent tolerable uncertainty; 5-10 years to detect the expected trend in the top 20 cm",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/26985730/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "SOC stock is one of three sub-indicators of SDG 15.3.1, integrated under one-out-all-out; baseline 1 January 2000 to 31 December 2015; global map products cannot supply management and input factors, so FMG and FI are set to one",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A crediting project on 553,743 ha of US cropland from 2018 to 2022 reported 398,408.5 tCO2e of reductions, of which 296,662 t were issued as credits - a haircut of roughly a quarter",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/39213843/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "That paper was written by employees of the company issuing the credits, as disclosed in its competing-interests statement",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39213843%20AND%20SRC:MED&resultType=core",
+          "disposition": "qualified",
+          "note": "The competing-interests statement itself could not be read: ScienceDirect returns 403 to scripted clients and the paper is not in PubMed Central, so the article was asserting the content of a section nobody in this pass had seen. The Europe PMC record does carry affiliations, and they support a narrower and checkable statement: nine of the eleven authors give Indigo Ag, Inc. as their affiliation, the other two being a consultancy and Boston University. The abstract independently states that Indigo Ag built the MRV pipeline and ran project CAR1459. Rewritten to the affiliation count, which is what the evidence supports."
+        },
+        {
+          "claim": "A 2022 Science policy analysis argues that regional consistency between protocols is a precondition for credit integrity",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/35298251/",
+          "disposition": "qualified",
+          "note": "The full policy forum is paywalled - science.org and the DOI both returned 403. The only text readable is the one-line published summary, \"Regional consistency is necessary for carbon credit integrity\", which says nothing about protocols. \"Between protocols\" is a specific and possibly inverted reading: regional consistency most naturally means consistency across regions within a protocol, not agreement between protocols. Narrowed to the summary line as published, and the trailing inference about non-comparable deductions dropped. Source list entry updated to say the full text is paywalled."
+        },
+        {
+          "claim": "GSOCmap uncertainty peaks in tropical and Arctic deserts where profiles are thinnest; only 22 contributing countries supplied an uncertainty layer; the uncertainty is dominated by sampling coverage rather than analytical method",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/e6173e90-b5df-481b-ac98-cb800e0f020f/content",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The Science 2022 policy forum could be read only as its one-line published summary. Its actual argument about protocols is unverified in this pass and would need library access to settle.",
+        "The Journal of Environmental Management MRV paper is hybrid open access (CC BY-NC) but ScienceDirect blocks scripted clients and it is absent from PubMed Central, so its declaration of competing interest was never read. Only the abstract and the Europe PMC affiliation record were available.",
+        "The claim that the modern convergence around 1,400-1,600 Pg is \"partly an artefact of successive studies drawing on overlapping profile databases\" is the article's own inference. SWSR sets out the sequence of estimates and notes their spread but makes no statement about shared inputs. It is left standing because it is framed as interpretation, not as a finding, but it carries no source."
+      ]
+    },
+    {
+      "slug": "soil-biology-and-the-soil-food-web",
+      "path": "content/en/ecology/soils/soil-biology-and-the-soil-food-web.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "6,759 georeferenced samples give 4.4 plus or minus 0.64 x 10^20 nematodes in surface soils, biomass about 0.3 Gt, with 38 per cent in sub-Arctic, 24 per cent temperate and 21 per cent tropical regions",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/31341281/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "One gram of soil holds up to 1 billion bacterial cells comprising tens of thousands of taxa, and up to 200 metres of fungal hyphae",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Mites: more than 20,000 described species, undescribed diversity likely exceeding 80,000; up to 100,000 per square metre at about 2 g wet weight per square metre",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 6,000 earthworm species in around 20 families; annual soil ingestion reaching 1,250 tonnes per hectare at a tropical site",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Soil holds 59 plus or minus 15 per cent of species on Earth; Enchytraeidae 98.6 per cent soil-dwelling, fungi 90 per cent, plants 85.5 per cent, termites 84.2 per cent",
+          "sourceChecked": "https://europepmc.org/articles/PMC10437432",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Across 237 locations on six continents, about 2 per cent of bacterial phylotypes - some 500 - consistently accounted for almost half of soil bacterial communities worldwide",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/29348236/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Protists can exceed hundreds of thousands of individuals per gram, are among the least studied members of the community, and the microbial loop is established for nitrogen while the work on phosphorus and other elements has largely not been done and mostly dates from an earlier generation",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Stable-isotope work shows soil mites enriched in root-derived carbon and nitrogen, implying root exudates and fine-root turnover fuel much of the below-ground economy alongside leaf litter",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "72 per cent of vascular plants are arbuscular mycorrhizal, 2.0 per cent ectomycorrhizal, 1.5 per cent ericoid, 10 per cent orchid; 8 per cent entirely non-mycorrhizal and 7 per cent inconsistent, most of them nutritional or habitat specialists",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/29355963/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The FAO assessment dates the arbuscular association to at least 500 million years",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2011 Nature synthesis reframed persistence as an ecosystem property, concluding that molecular structure alone does not control stability and that environmental and biological controls predominate",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/21979045/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2019 Global Change Biology synthesis of amino-sugar data published 1996-2018 concluded microbial necromass can make up more than half of soil organic carbon in temperate agricultural, grassland and forest topsoils, and is explicit that separating microbial from non-microbial carbon by molecular signature is difficult",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/31365780/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "On average 40 per cent of prokaryotic and fungal DNA recovered from soil is extracellular or from non-intact cells; relic DNA inflated richness by up to 55 per cent, skewed relative abundances including taxa central to nutrient cycling, was more likely in soils with low exchangeable base cations, and its removal changed community structure most in high-pH soils",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/27991881/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The FAO assessment notes that metabarcoding and metagenomics for several soil groups are constrained by insufficient reference sequences, so a large share of recovered sequences cannot be assigned to a named organism",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "qualified",
+          "note": "The reference-database limitation appears exactly once in the 600-page report, in the soil algae section: \"The application of high throughput molecular methods (e.g., metabarcoding or metagenomics) is limited by the insufficiency of reference databases.\" Searching the whole extracted text finds no equivalent statement for any other group, so \"several soil groups\" generalises one group into many. The stated consequence - that a large share of sequences cannot be assigned to a named organism - is nowhere in the report; it is a plausible inference presented as the report's finding. Narrowed to soil algae, which is where the report puts it, and the unsourced consequence replaced with the report's own remark that morphological identification remains in wide use despite being time-consuming and inaccurate."
+        }
+      ],
+      "openQuestions": [
+        "The 500-million-year date for the arbuscular association sits in the report's Canada country-response chapter rather than its global chapters. Attributing it to \"the FAO assessment\" is accurate but the statement is a national contribution to that assessment, not a synthesis finding.",
+        "The closing pair of sentences - sequencing costs falling faster than interpretive capacity, the limiting factor being function rather than presence - has no source in the article and none was found in the FAO assessment. It reads as commentary and was left as commentary, but a reader could take it for a sourced finding."
+      ]
+    },
+    {
+      "slug": "land-degradation-and-desertification",
+      "path": "content/en/ecology/soils/land-degradation-and-desertification.md",
+      "status": "amended",
+      "claimsChecked": 17,
+      "findings": [
+        {
+          "claim": "Article 1 of the UNCCD restricts land degradation to \"arid, semi-arid and dry sub-humid areas\", while the SDG indicator reporting on the same subject applies to every land surface",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/relevant-links/2017-01/UNCCD_Convention_ENG_0.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The FAO and ITPS concluded in 2015 that 33 per cent of land is moderately to highly degraded; the UNCCD's second Global Land Outlook reports most assessments placing 20 to 40 per cent of global land area in a degraded or degrading condition",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/2022-04/UNCCD_GLO2_low-res_2.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global assessments began more than forty years ago and \"have until now not achieved a clear answer on where soil degradation takes place, what impact it has on the population, and what the cost to governments and land users would be\"",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GLASOD mapped human-induced degradation from expert opinion and was faulted for reproducibility, with the FAO defending it because later approaches have not clearly done better; GLADA derived degradation from satellite NDVI trends; GLADIS rated six factors from global databases and was criticised for database reliability and for downscaling relationships developed at local scale",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "For Africa, a dryland-focused review estimated 73 per cent of drylands degraded and 51 per cent severely so, while GLASOD put 65 per cent of agricultural soils, 31 per cent of permanent pasture and 19 per cent of woodland and forest in a degraded state",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Convention defines desertification as land degradation in arid, semi-arid and dry sub-humid areas whatever its cause, and defines combating desertification as prevention and reduction of degradation, rehabilitation of partly degraded land and reclamation of land already desertified",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/relevant-links/2017-01/UNCCD_Convention_ENG_0.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Degradation in drylands is typically patchy and appears as a mosaic of damaged patches rather than an advancing edge",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "qualified",
+          "note": "This is the article's central corrective and it had no source. Searching SWSR and GLO2 for advancing-front, encroachment, patch and mosaic language returns nothing that supports it; the Convention text supports only the negative half - that the definition places no requirement of a moving desert margin. The driver list was partly sourced, but as attached to \"typically\" it read as a global empirical finding. Rewritten to the two things the sources do support: that the treaty counts degradation occurring anywhere inside the dryland zones rather than the position of a desert boundary, and the FAO's GLASOD-for-Africa driver breakdown (overgrazing behind half of all degradation, then agriculture, deforestation and overexploitation; water erosion most widespread, wind erosion next)."
+        },
+        {
+          "claim": "About 500 million people live in areas that have experienced desertification since the 1980s",
+          "sourceChecked": "https://www.unccd.int/land-and-life/desertification/overview",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Drylands are around 40 per cent of the Earth's land surface",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Biological soil crusts cover roughly 25 per cent of dryland soils, about 12 per cent of the global land surface, and fix carbon and nitrogen, stabilise the surface against erosion and regulate water",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/bf5e8df8-0bd1-4097-accb-07dfa58fc130/content",
+          "disposition": "verified"
+        },
+        {
+          "claim": "SDG 15.3.1 rests on trends in land cover, land productivity and carbon stocks (currently soil organic carbon), integrated by one-out-all-out and reported as a binary classification expressed as a percentage of total land area",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The baseline is the sixteen years from 1 January 2000 to 31 December 2015, chosen for the availability of moderate-resolution EO data from 2000 and because about fifteen years usually spans most of the variability in natural systems",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Land Degradation Neutrality is defined as a state in which the amount and quality of land resources needed to support ecosystem functions and services and enhance food security remain stable or increase within specified temporal and spatial scales",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "One-out-all-out maximises sensitivity to degradation at the cost of scoring some genuine improvements as losses, and version 2 adds a procedure for false positives and negatives whose worked example is weed-removal remediation lowering apparent NPP",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The productivity sub-indicator is explicitly a measure of above-ground productivity and the guidance says so",
+          "sourceChecked": "https://www.unccd.int/sites/default/files/documents/2021-09/UNCCD_GPG_SDG-Indicator-15.3.1_version2_2021.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Leaf-area trends 2000-2017 show China alone accounting for 25 per cent of the global net increase with 6.6 per cent of global vegetated area; over a third of the net global increase attributed to direct human land-use management; food production in China and India up over 35 per cent since 2000 through multiple cropping supported by fertiliser and irrigation",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/30778399/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "One initiative cited by the FAO put annual global losses from deforestation and land degradation at EUR 1.5 to 3.4 trillion in 2008, or 3.3 to 7.5 per cent of world GDP, resting on what the FAO called scattered and uncertain information",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/6ec24d75-19bd-4f1f-b1c5-5becf50d0871/content",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "SWSR's wording for the dryland share is \"40 percent of the Earth's surface\" (citing Ravi et al. 2011), in a sentence whose main clause is about 430 million ha susceptible to wind erosion. The article renders it \"the Earth's land surface\", which is the only reading that can be true and matches the standard figure, but it is not literally what the source says.",
+          "The UNCCD guidance uses \"false negative\" for a unit wrongly scored as degraded and \"false positive\" for one wrongly scored as not degraded - the reverse of the usual convention. The article does not misuse the labels, but any reader checking against the guidance should know the terms are inverted there."
+      ]
+    }
+  ]
+}

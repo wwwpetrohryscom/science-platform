@@ -1,0 +1,211 @@
+{
+  "batchId": "v-physics-energy-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "grid-integration-of-variable-renewables",
+      "path": "content/en/physics/energy/grid-integration-of-variable-renewables.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "GB ancillary-service costs of £302m over May-July 2020 against £101m in the same months of 2019; lowest recorded national demand 13.4 GW overnight on 28 June; synchronous capacity needed online for stability put at 8-9 GW",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9759740/",
+          "disposition": "verified",
+          "note": "All three figures are stated verbatim in the paper: '£302m in 2020 compared to £101m in 2019', '13.4 GW, overnight on Sunday June 28th 2020', and 'the capacity of synchronous units needed online to guarantee stability is in the order of 8 to 9 GW'."
+        },
+        {
+          "claim": "On a nine-bus test network under a step load increase of about a third, an all-synchronous case dipped to a frequency nadir of 59.42 Hz and took roughly 80 seconds to settle, a mixed case reached 59.79 Hz and settled in under 8 seconds, and an all-grid-forming case held 59.85 Hz",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12357951/",
+          "disposition": "verified",
+          "note": "Paper gives 59.4159 Hz / 80.2 s (all-SG), 59.7907 Hz / 7.8 s (hybrid), 59.8459 Hz (all-GFI) on the IEEE 9-bus system under 'a step load disturbance of 0.75 p.u. (representing 33.33% of the total system load)'. The article's own caveat that these are modelled MATLAB/Simulink results on a small test system rather than field measurements matches the paper."
+        },
+        {
+          "claim": "2018 curtailment shares: Germany 0.3%, California 1.5%, Hawaii 2.7% statewide with 14% on Maui, Arizona 2.9%, China 3.0% with 16% in Xinjiang and 10% in Gansu, Chile about 6%, Texas 8.4%",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7470769/",
+          "disposition": "verified",
+          "note": "Every figure matches Table 1 and the per-country sections, and the article correctly labels the whole column as 2018. One caveat the article does not carry: the paper's footnote 2 says the Chilean ~6% estimate 'includes both PV and wind', though the authors confirmed it as a reasonable PV-specific figure. The article's hedged 'about 6%' is within what the source supports."
+        },
+        {
+          "claim": "A survey of global solar curtailment published in Solar Energy identified three causes: transmission, temporal mismatch, and oversupply",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7470769/",
+          "disposition": "qualified",
+          "note": "All three named causes are in the paper, but the enumeration 'identified three' excluded the paper's own headline driver. Its conclusion reads: 'Differences in regional PV curtailment levels primarily reflect differences in policy and grid planning practices, geographical constraints, and seasonal cycles.' Replaced 'identified three' with an open list and added the policy-and-grid-planning finding, which the article's next sentence ('a network and market outcome') already depends on."
+        },
+        {
+          "claim": "The same study found Californian curtailment doubling between 2018 and 2019",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7470769/",
+          "disposition": "verified",
+          "note": "Paper: 'California, where PV curtailment doubled from 2018 to 2019 alone (CAISO, 2019a)'."
+        },
+        {
+          "claim": "IEA Electricity 2026 estimates 450-700 GW released by grid-enhancing technologies on existing lines and 750-900 GW by non-firm connection agreements - capacity unlocked by control and contract changes rather than by new conductors",
+          "sourceChecked": "https://www.iea.org/reports/electricity-2026/executive-summary",
+          "disposition": "corrected",
+          "note": "Both GW ranges are right, but the closing gloss was not. The IEA puts reconductoring and voltage uprating inside the 450-700 GW grid-enhancing-technology bucket, so that capacity is not unlocked 'rather than by new conductors'. Rewrote to name what the IEA actually includes (dynamic line rating, power-flow control, reconductoring, voltage uprating) and changed the gloss to 'corridors that already exist'. Also added the 1,200-1,600 GW queue total the two ranges are drawn from, which the source states and which makes the shares interpretable."
+        },
+        {
+          "claim": "IEA stocktake of 50 power systems covering nearly 90 per cent of global solar and wind generation; Denmark, Ireland, South Australia and Spain at phase four or above integrating 35-75 per cent variable renewables; up to 15 per cent of solar and wind generation, as much as 2,000 TWh, at risk by 2030",
+          "sourceChecked": "https://www.iea.org/reports/integrating-solar-and-wind/executive-summary",
+          "disposition": "verified",
+          "note": "Source states 'a comprehensive stocktake of integration measures implemented across 50 power systems worldwide, covering nearly 90% of global solar PV and wind generation'; 'Systems such as those in Denmark, Ireland, South Australia and Spain have reached Phase 4 or higher, integrating from 35 up to 75% of VRE in their annual generation'; and 'up to 2 000 terawatt-hours (TWh) of global VRE generation would be at risk by 2030', equal to 'up to 15% of solar PV and wind power generation in 2030'."
+        },
+        {
+          "claim": "Wind generation sized at one times annual demand met about 73 per cent of hourly demand with no storage, and solar about 69 per cent; twelve hours of storage lifted both to roughly 86 to 87 per cent; the 99.97 per cent NERC reliability level took about 2.5x annual demand in generation with twelve hours of storage for a wind-dominated mix",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10955263/",
+          "disposition": "qualified",
+          "note": "The numbers are right but the configurations were mis-described. The paper's 73% and 69% are for 'a wind-dominant system' and 'a solar-dominant system' - mixes, not wind or solar alone - and the article's phrasing read as pure single-resource fleets. The paper's own Table S2 example (80% wind / 20% solar at 1x, no storage) gives 70%, so the distinction is material. Changed to 'a wind-dominant mix' and 'a solar-dominant mix'. The 12-hour figures (86% wind-dominant, ~87% solar-dominant), the NERC LOLE-derived 99.97% level, and the 2.5x/3x generation requirements are stated as written."
+        },
+        {
+          "claim": "EIA capacity factors show the utility-scale coal fleet at 52.8 per cent in 2016, 40.5 per cent in 2020 and 48.7 per cent in 2025, with the nuclear fleet between roughly 91 and 93 per cent",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_a",
+          "disposition": "qualified",
+          "note": "All figures match Table 6.07.A (coal 52.8 / 40.5 / 48.7) and Table 6.07.B (nuclear 90.8-93.4 across 2016-2025). Live dataset, added temporal qualifier: the Electric Power Monthly is republished every month and the source page states 'Values for 2024 and prior years are final. Values for 2025 and 2026 are preliminary.' The 2025 coal figure therefore had no vintage anchor; named the August 2026 release (the page's own 'Release Date: August 26, 2026', data through June 2026) and flagged that 2025 onward is preliminary."
+        }
+      ],
+      "openQuestions": [
+        "The Heliyon paper's abstract figures (73% wind-dominant, 69% solar-dominant at 1x generation, no storage) do not obviously reconcile with its own Table S2 example, which puts an 80/20 solar-dominated mix at 58% under what appear to be the same conditions. The article now uses the abstract's wording, but which mix ratio produces 69% could not be settled from the open-access text.",
+        "All three articles in this batch close with a limitations section immediately before a numbered Sources list. The skeleton is shared but the content is genuinely article-specific; noted rather than restructured."
+      ]
+    },
+    {
+      "slug": "hydrogen-as-an-energy-carrier",
+      "path": "content/en/physics/energy/hydrogen-as-an-energy-carrier.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "A kilogram of hydrogen holds 33.3 kWh on a lower-heating-value basis, or about 39.4 kWh/kg on a higher-heating-value basis",
+          "sourceChecked": "https://afdc.energy.gov/fuels/properties",
+          "disposition": "verified",
+          "note": "AFDC table gives hydrogen LHV as '51,585 Btu/lb' and '33.3 kWh/kg', HHV as '61,013 Btu/lb', which converts to 39.4 kWh/kg. The cited Materials review independently states 'The HHV for hydrogen is 39.39 kWh/kg'."
+        },
+        {
+          "claim": "Stack-plus-balance-of-plant consumption of 59 to 64 kWh per kilogram for a baseline liquid alkaline design and 49 to 52 kWh for an advanced one; baseline cell voltage 2 V degrading 3.2 mV/1,000 h over 60,000 h, advanced 1.7 V degrading 1.4 mV/1,000 h over 80,000 h; implied efficiency about 52 to 68 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550807/",
+          "disposition": "verified",
+          "note": "Paper: 'the combined electricity used by the stack and BoP varied from 59 to 64 kWh/kg H2 for the baseline design and 49 to 52 kWh/kg H2 for the advanced design from the beginning to end of life'; and 'cell voltage (V) for the baseline stack was assumed to be 2 V and advanced stack was 1.7 V at the beginning of life. Voltage degradation rate was modeled as 3.2 millivolts/1000 h for the baseline stack and 1.4 millivolts/1000 h for the advanced stack. Lifetime for the baseline and advanced stacks was assumed as 60,000 and 80,000 h.' 33.3/64 = 52% and 33.3/49 = 68% check out. The article correctly says these are assumed modelled parameters."
+        },
+        {
+          "claim": "700-bar systems: hydrogen is 4.2 per cent of the mass of its own storage system, 0.024 kg per litre of system volume, 1.4 kWh/kg and 0.8 kWh/L; DOE long-term targets of 2.2 kWh/kg and 1.7 kWh/L; liquid hydrogen near a 20 K boiling point; 1.3 kWh/L for 700-bar gas and about 9 kWh/L for E10 petrol",
+          "sourceChecked": "https://www.energy.gov/cmei/fuels/physical-hydrogen-storage",
+          "disposition": "verified",
+          "note": "DOE page gives 700-bar Type IV current status as 1.4 kWh/kg (0.042) and 0.8 kWh/L (0.024), ultimate targets 2.2 kWh/kg (0.065) and 1.7 kWh/L (0.050), and liquid hydrogen 'near the normal boiling point of 20 K'. The two volumetric comparators in the table come from the Materials review: 'The energy density for H2 is 1.3 kwh/L @ 700 bar and 9 kwh/L for an E10 engine.'"
+        },
+        {
+          "claim": "Steam methane reforming at 700-1000 degrees C under 3-25 bar giving carbon monoxide and three parts hydrogen, followed by a shift reaction; 95 per cent of US hydrogen is made this way",
+          "sourceChecked": "https://www.energy.gov/cmei/fuels/hydrogen-production-natural-gas-reforming",
+          "disposition": "verified",
+          "note": "DOE gives 'high-temperature steam (700 C - 1,000 C)', '3-25 bar pressure', the shift reaction 'CO + H2O -> CO2 + H2', and '95% of the hydrogen produced in the United States is made by natural gas reforming'. One wording difference recorded rather than edited: DOE's 95% covers natural gas reforming as a category, and the article's 'this way' points at steam methane reforming specifically - the dominant, and on this page the only detailed, member of that category."
+        },
+        {
+          "claim": "Alkaline cells operate below 100 C, PEM cells at 70-90 C, solid-oxide cells at about 700-800 C; the department's goal of one US dollar per kilogram by 2030 is a policy objective rather than a projection",
+          "sourceChecked": "https://www.energy.gov/cmei/fuels/hydrogen-production-electrolysis",
+          "disposition": "verified",
+          "note": "DOE gives alkaline 'less than 100 C', PEM '70-90 C', solid oxide 'about 700 - 800 C', and states the goal as '$1/kg H2 by 2030 (and interim target of $2/kg H2 by 2025)' - a target, which is how the article characterises it."
+        },
+        {
+          "claim": "Global hydrogen demand passing 100 Mt in 2025, low-emissions production growing 20 per cent to just under 1 Mt, installed electrolysis capacity doubling to more than 4 GW, with China responsible for nearly three-quarters of new installations",
+          "sourceChecked": "https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary",
+          "disposition": "verified",
+          "note": "Source: 'Global hydrogen demand surpassed 100 million tonnes (Mt) in 2025'; 'Low-emissions hydrogen production grew by 20% in 2025 to reach almost 1 Mt'; 'Global installed electrolysis capacity doubled in 2025 to exceed 4 GW, with China behind nearly three-quarters of new installations.' The 2025 anchor is carried in the prose."
+        },
+        {
+          "claim": "The pipeline of announced low-emissions hydrogen projects shrinking by 10 Mt to 27 Mt of potential 2030 production, with committed projects at 4.3 Mt and new final investment decisions falling below 0.8 Mt per year",
+          "sourceChecked": "https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary",
+          "disposition": "corrected",
+          "note": "Three of the four numbers in this sentence were not in the source. The IEA says the announced pipeline 'has shrunk to 27 Mt by 2030' and gives no size for the shrinkage; the 10 Mt figure belongs to a different quantity - 'Committed projects and those with strong potential to be in operation by 2030 declined from 10 Mt to just above 6 Mt compared to the GHR-25'. So committed volume is just above 6 Mt, not 4.3 Mt, and the '10 Mt' was a misread of the starting value of that decline. The 0.8 Mt/year FID figure does not appear at all; the page says 'some 300 ktpa of additional production has reached FID' since the 2025 review. Searched the full page text for '4.3' and '0.8' - neither occurs. Rewrote the sentence to the source's own quantities and kept the one figure that was right: 'Only around 20% of newly signed volumes were backed by firm contractual commitments.'"
+        },
+        {
+          "claim": "The IEA expects 2.5 Mt of low-emissions hydrogen, some 60 per cent of committed global production, to go into refineries and industrial plants by 2030",
+          "sourceChecked": "https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary",
+          "disposition": "verified",
+          "note": "Source: 'Based on committed projects, 2.5 Mt of low-emissions hydrogen (60% of global committed production) is expected to be consumed in refineries and industrial facilities by 2030.'"
+        },
+        {
+          "claim": "95 to 134 TWh of renewable electricity curtailed in Europe each year over 2020-2022, equal to 3 to 4 per cent of European demand; using all of it could supply up to 36 per cent of the hydrogen consumed by European ammonia production and refineries; an electrolyser running only on surplus achieves a capacity factor near 25 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11866934/",
+          "disposition": "qualified",
+          "note": "The curtailment and 36% figures are exact: 'Between 2020 and 2022, about 95 to 134 TWh of renewable electricity was curtailed in Europe each year, which corresponds to between 3% to 4% of the annual European electricity demand'; and 'Assuming an electrolyzer efficiency of 52.4 kWh_el/kg H2, up to 36% of the annual European hydrogen demands for ammonia production and refineries could be supplied' by 'utilizing 100% of their surplus electricity'. The 25% capacity factor was the problem: it is a background statement in the paper's introduction carried from another study ('This results in low capacity factors of ~25%.28'), not a result of this paper's own optimisation, and the article stated it as something an electrolyser 'achieves'. Reworded to report it as the paper reports it. Also checked that the paper's own headline result is 30% substitution in the fuel-saving scenario - a different quantity from the 36% resource-potential figure the article cites, and the article cites the right one for the claim it makes."
+        },
+        {
+          "claim": "More than 50 years of service life for X70 pipeline steel under hydrogen but around 37 years for X80 steel carrying a 50 per cent hydrogen blend; roughly 9 litres of water per kilogram of hydrogen produced, before any water used for cooling",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608639/",
+          "disposition": "verified",
+          "note": "Review: 'The estimated lifespan of X70 API 5L grade steel is more than 50 years; ... and the X80 steel lifespan is estimated at 37 years with a 50% hydrogen gas mix with natural gas', with the stated caveat that these assume two pressure cycles per day. Water: 'Approximately 9 L of water are used to produce 1 kgH2, while 8 kg of oxygen are produced as a byproduct' - the 9:1:8 mass balance is exactly stoichiometric, which is what supports the article's 'before any water used for cooling'."
+        }
+      ],
+      "openQuestions": [
+        "The X70 and X80 service-life figures are the Materials review reporting two different primary experimental studies (its refs 38 and 40) under an assumption of two pressure cycles per day. The article does not carry that duty-cycle assumption. It is a review restating others' results, not an original measurement, and the two numbers are not from a common test programme - so they are weaker evidence for the grade comparison than a single side-by-side study would be.",
+        "The article's round-trip arithmetic (52-68% electrolysis x 60% fuel cell = 31-41%) is the article's own multiplication of two separately sourced figures rather than a published round-trip efficiency. The arithmetic checks out and both inputs are verified, but no single source states the product."
+      ]
+    },
+    {
+      "slug": "capacity-factor-and-energy-metrics",
+      "path": "content/en/physics/energy/capacity-factor-and-energy-metrics.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "In 2025 the US utility-scale wind fleet averaged 154.6 GW at 34.2 per cent, solar PV 133.9 GW at 24.4 per cent, nuclear 98.4 GW at 91.0 per cent, giving 52.9, 32.7 and 89.6 GW of average power",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_b",
+          "disposition": "qualified",
+          "note": "Table 6.07.B annual 2025 rows give wind 154,574.1 MW / 34.2%, solar photovoltaic 133,940.2 MW / 24.4%, nuclear 98,436.4 MW / 91.0%. The three products (52.9, 32.7, 89.6 GW) and the 'roughly a third of the combined nameplate' claim are correct. Live dataset, added temporal qualifier: the Electric Power Monthly is reissued monthly and its own footnote reads 'Values for 2024 and prior years are final. Values for 2025 and 2026 are preliminary', so the whole lead was built on revisable numbers with no release named. Anchored to the August 2026 release (Release Date: August 26, 2026, data through June 2026), which is the issue these values were read from."
+        },
+        {
+          "claim": "2025 capacity factor table: nuclear 91.0, geothermal 65.9, gas combined cycle 58.4, coal 48.7, hydroelectric 35.3, wind 34.2, solar PV 24.4, gas steam turbine 19.8, gas combustion turbine 14.1, petroleum steam turbine 11.3 per cent",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_a",
+          "disposition": "verified",
+          "note": "All ten values read directly off the annual 2025 rows of Tables 6.07.A (coal 48.7, combined cycle 58.4, gas turbine 14.1, gas steam turbine 19.8, petroleum steam turbine 11.3) and 6.07.B (nuclear 91.0, geothermal 65.9, hydro 35.3, wind 34.2, solar PV 24.4). The 'utility scale' boundary the article flags is the table's own title."
+        },
+        {
+          "claim": "EIA builds the denominator from time-adjusted summer capacity - the summer rating of units that operated for the whole month, excluding units that started or retired mid-month",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_b",
+          "disposition": "verified",
+          "note": "Table note: 'Time adjusted capacity for month rows is the summer capacity of generators in operation for the entire month; units that began operation during the month or that retired during the month are excluded. Time adjusted capacity for year rows is a time weighted average of the month rows.'"
+        },
+        {
+          "claim": "The nuclear fleet's monthly capacity factor reached 99.0 per cent in December 2025 and 100.0 per cent in January 2026",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_b",
+          "disposition": "verified",
+          "note": "Monthly rows: December 2025 nuclear 99.0%, January 2026 nuclear 100.0%. Both are in the current release, which carries data through June 2026."
+        },
+        {
+          "claim": "The nuclear fleet's monthly capacity factor fell to 80.9 per cent in October 2025 and 84.9 per cent in the previous May",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_b",
+          "disposition": "verified",
+          "note": "October 2025 nuclear 80.9%, May 2025 nuclear 84.9%. The article presents these as two shoulder-season values rather than as the year's minimum, which is correct: April 2025 was lower still at 81.7%."
+        },
+        {
+          "claim": "Across 2025 solar PV ran from 13.7 per cent in December to 32.4 per cent in July, wind from 22.9 per cent in September to 44.2 per cent in March, and hydroelectric from 26.6 per cent in September to 41.0 per cent in May",
+          "sourceChecked": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_b",
+          "disposition": "verified",
+          "note": "Checked against all twelve monthly rows for 2025: each named value is that technology's annual minimum or maximum as claimed (solar 13.7 Dec / 32.4 Jul; wind 22.9 Sep / 44.2 Mar; hydro 26.6 Sep / 41.0 May)."
+        },
+        {
+          "claim": "The IEA cost study covers 243 plants in 24 countries and adopts 7 per cent as its baseline discount rate; at 3 per cent nuclear falls below coal and gas, at 7 to 10 per cent it costs more; LCOE applies at plant level and does not address system value, which is why the report introduced a value-adjusted metric",
+          "sourceChecked": "https://www.iea.org/reports/projected-costs-of-generating-electricity-2020",
+          "disposition": "verified",
+          "note": "Source gives 'data for 243 plants in 24 countries', a uniform 7% discount rate, and: 'With a low discount rate of 3% ... the LCOE of new nuclear plants is lower than for new coal and gas plant. With higher discount rates at 7% or 10%, which would reflect riskier economic environments, the costs of a newly built nuclear plant would exceed those of fossil fuel-based plants.' Also 'The LCOE metric applies to the level of the individual plant and does not address the value that different generation technology options add to the electricity system', with the VALCOE introduced alongside."
+        },
+        {
+          "claim": "An analysis in iScience found real interest rates rising from -0.5 per cent to 2.5 per cent between 2020 and 2024, and calculated 18 per cent added to US solar PV LCOE (12 per cent with tax credits) against 9 per cent for a combined-cycle gas turbine; WACC varies by several percentage points between countries for the same technology",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12677178/",
+          "disposition": "qualified",
+          "note": "The LCOE impacts are exact ('higher financing costs added 18% to the LCOE of solar PV without tax credits, while adding only 9% to the LCOE of combined cycle gas turbines ... financing costs added 12% to solar PV LCOE'), and the cross-country WACC spread holds (China solar PV and onshore wind at 3.04% against India at 8.41%). But the -0.5% to 2.5% movement was not a finding of this paper: it writes 'In line with NREL, we model an increase in real interest rates from -0.5% to 2.5% between their 2020 and 2024 reports' - a modelling input adopted from NREL's Annual Technology Baseline. Changed 'found ... and calculated' to 'models ... and calculates', and named NREL as the source of the rate path."
+        },
+        {
+          "claim": "Modelled European PV market values fall from about 50 per cent of the flat-block average price at low penetration to 19 per cent at high penetration; curtailment runs to 234 TWh by 2040 in one configuration and 131 TWh in another that spreads generation across the day",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11303785/",
+          "disposition": "verified",
+          "note": "Paper: 'The market values range between 50% and 19% of the baseload prices in the low and high PV case'; and 'for 2040-high PV scenario, by increasing the share of bifacial PV panels from 0% to 50% of the capacity allocation, total curtailments can be reduced from 234 TWh to 131 TWh in the Reference PV'. The article correctly frames the whole passage as modelling rather than observation, and the paper's own caveat that other flexibility options are held at reference levels supports the article's 'purely because' framing within the model."
+        }
+      ],
+      "openQuestions": [
+        "The 3,412 Btu/kWh conversion and the 10,500 Btu/kWh -> 33% and 7,500 Btu/kWh -> 45% heat-rate examples were checked against the two EIA explainer pages and match exactly, including the worked examples; they are recorded here rather than as separate findings because they are definitional rather than empirical.",
+        "The sentence 'Each annual figure conceals a swing of roughly a factor of two' holds for solar (2.4x) and wind (1.9x) but overstates hydroelectric (1.5x) on the same 2025 monthly data. Left as written - it is the article's own arithmetic on verified figures rather than a claim attributed to a source - but a careful reader would find the hydro case does not carry the generalisation."
+      ]
+    }
+  ]
+}

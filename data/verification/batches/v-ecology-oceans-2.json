@@ -1,0 +1,132 @@
+{
+  "batchId": "v-ecology-oceans-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source. Where a publisher refuses scripted clients, the claim was checked against the same paper's abstract in Crossref or Europe PMC, or against the primary agency page, and the route is recorded.",
+  "articles": [
+    {
+      "slug": "fisheries-science-and-stock-assessment",
+      "path": "content/en/ecology/oceans/fisheries-science-and-stock-assessment.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "FAO assessed 62.3 per cent of stocks as within biologically sustainable levels in 2021, down 2.3 percentage points from 2019 and down from 90 per cent in 1974",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/core/bitstreams/1273bc36-339b-43d2-8163-af4d805f2ad2/content/sofia/2024/status-of-fishery-resources.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Weighting by landings rather than counting each stock equally raises the figure to 76.9 per cent",
+          "sourceChecked": "FAO SOFIA 2024, status of fishery resources",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The assessment rests on a fixed list of 445 aggregated stocks accounting for about 72 per cent of global marine fisheries production",
+          "sourceChecked": "FAO SOFIA 2024, status of fishery resources",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Eastern Central Pacific highest at 84.2 per cent, Northeast Atlantic second at 79.4 per cent, Southeast Pacific lowest at 33.3 per cent",
+          "sourceChecked": "FAO SOFIA 2024, regional sections",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2016 reconstruction of global marine catch peaked at 130 million tonnes and runs 53 per cent above reported landings across 1950–2010",
+          "sourceChecked": "https://www.nature.com/articles/ncomms10244",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The 2021 PNAS re-aggregation paper (pnas.2108532118) was checked through its abstract rather than its full text; the percentages quoted for stocks below biomass targets and for downward-trending stocks appear in the abstract, but the ten aggregation methods themselves were not inspected."
+      ]
+    },
+    {
+      "slug": "marine-protected-areas-evidence",
+      "path": "content/en/ecology/oceans/marine-protected-areas-evidence.md",
+      "status": "amended",
+      "claimsChecked": 5,
+      "findings": [
+        {
+          "claim": "Protected Planet records national waters as 23.05 per cent covered and areas beyond national jurisdiction as 1.45 per cent covered",
+          "sourceChecked": "https://www.protectedplanet.net/en/thematic-areas/marine-protected-areas",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Exclusive economic zones make up 39 per cent of the ocean and areas beyond national jurisdiction the remaining 61 per cent",
+          "sourceChecked": "https://www.protectedplanet.net/en/thematic-areas/marine-protected-areas",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Both coverage shares are stated without a date",
+          "sourceChecked": "https://www.protectedplanet.net/en/thematic-areas/marine-protected-areas",
+          "disposition": "qualified",
+          "note": "The figures are correct as published, but Protected Planet republishes from the World Database on Protected Areas without labelling a release, so a bare number implies a permanence the source does not claim. The sentence now says the shares were read in September 2026 and will move as countries report."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "ocean-deoxygenation-and-dead-zones",
+      "path": "content/en/ecology/oceans/ocean-deoxygenation-and-dead-zones.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "Global ocean oxygen content of 227.4 ± 1.1 petamoles has fallen by more than 2 per cent (4.8 ± 2.1 petamoles) since 1960",
+          "sourceChecked": "Schmidtko, Stramma and Visbeck, Nature 2017, abstract via Europe PMC",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The uncertainty on that change is 44 per cent of the change itself",
+          "sourceChecked": "Derived from 2.1 / 4.8 in the same abstract",
+          "disposition": "verified",
+          "note": "The article states this as its own arithmetic on the published figures, which is what it is."
+        },
+        {
+          "claim": "NOAA measured the 2025 Gulf of Mexico hypoxic zone at approximately 4,402 square miles, the fifteenth smallest in 39 years, against a five-year average of 4,755 and a task-force target below 1,900 by 2035",
+          "sourceChecked": "https://coastalscience.noaa.gov/news/below-average-summer-2025-dead-zone-measured-in-gulf/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2008 review reported dead zones from more than 400 systems covering over 245,000 km²",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1156401",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The SROCC oxygen-loss range (0.5 to 3.3 per cent, 1970–2010, 0–1000 m), the stratification increase (2.18 to 2.42 per cent) and the OMZ expansion figures were checked against the SROCC summary text rather than against the chapter PDF, because the IPCC chapter pages return 403 to scripted clients and the SROCC PDF was not downloaded in this pass. The AR6 chapters that were downloaded do not restate them."
+      ]
+    },
+    {
+      "slug": "marine-plastic-pollution-evidence",
+      "path": "content/en/ecology/oceans/marine-plastic-pollution-evidence.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "A 2015 study estimated 275 million tonnes of plastic waste generated in 192 coastal countries in 2010 and 4.8 to 12.7 million tonnes entering the ocean",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1260352",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2014 synthesis combined 680 net tows and 891 visual surveys from 24 expeditions between 2007 and 2013 and estimated a minimum of 5.25 trillion particles",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0111913, abstract via Europe PMC",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same study observed a tremendous loss of microplastics from the sea surface relative to expected fragmentation rates",
+          "sourceChecked": "Same abstract",
+          "disposition": "verified",
+          "note": "The phrase 'tremendous loss' is the authors' own, and the article attributes it as such."
+        },
+        {
+          "claim": "A 2021 river-side analysis put annual riverine emissions at 0.8 to 2.7 million tonnes with more than 1,000 rivers accounting for 80 per cent of the total",
+          "sourceChecked": "https://www.science.org/doi/10.1126/sciadv.aaz5803",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The 2023 Nature Geoscience budget study and the 2025 Nature depth-profile synthesis were checked against their abstracts. The article's derived remark that microplastics rise from about 0.1 per cent of particulate organic carbon at 30 m to 5 per cent at 2,000 m is stated in the 2025 abstract, but the 1,885-station standardisation caveat was read from the abstract rather than the methods."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "batchId": "v-biology-genetics-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "what-is-a-genome",
+      "path": "content/en/biology/genetics/what-is-a-genome.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Ensembl's annotation of GRCh38.p14 reports a golden path length of 3,099,750,718 base pairs",
+          "sourceChecked": "https://jun2026.archive.ensembl.org/Homo_sapiens/Info/Annotation",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Ensembl's GENCODE-based gene set for GRCh38.p14 lists 19,878 coding genes, 42,155 non-coding genes and 15,205 pseudogenes",
+          "sourceChecked": "https://jun2026.archive.ensembl.org/Homo_sapiens/Info/Annotation",
+          "disposition": "qualified",
+          "note": "All three counts match the cited page exactly (19,878 coding excluding 665 readthrough transcripts; 42,155 non-coding; 15,205 pseudogenes). But a gene set is a continuously reissued product, not a fixed measurement, and the sentence carried no release. The same page names the annotation as GENCODE 50 and the database as version 116.38. The article's own next sentence says the non-coding and pseudogene counts are 'not stable, because they depend on annotation criteria that are still moving', which makes an unanchored figure worse rather than harmless. Added 'as annotated in Ensembl release 116, built on GENCODE 50' — the source's own version, not an invented date."
+        },
+        {
+          "claim": "T2T CHM13: 3,054,815,472 bp of nuclear DNA plus a 16,569 bp mitochondrial genome; 238 Mbp not co-linear with GRCh38, of which 182 Mbp has no primary alignment; 1,647.81 Mbp (53.94 per cent) repetitive; segmental duplications 6.61 per cent; 19,969 protein-coding genes among 63,494 predicted",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Vascular plants span roughly 2,400-fold in DNA content; Tmesipteris oblanceolata holds the record at 160.45 Gbp per 1C, more than fifty times the human genome, displacing Paris japonica at 148.89 Gbp",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11270024/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Gene-count history: Vogel's 1964 estimate of 6.7 million computed on the assumption of uninterrupted, wholly coding genes; the 1990 joint NIH/DOE report's 100,000; EST surveys clustering at 50,000-100,000; estimates of 28,000-57,000 by 2000; a later review settling on 22,333",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2898077/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An estimate from three sequenced genomes put the difference in gene content between any two people at 73 to 87 genes, mostly through variation in segmental duplication",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2898077/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "C. elegans: 97 megabases, reported in 1998 to carry over 19,000 genes",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/9851916/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "ENCODE 2012: 80.4 per cent 'built from findings that 74.7 per cent showed detectable transcription across the genome, 15.2 per cent fell in open chromatin, and 8.5 per cent overlapped transcription-factor binding'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3439153/",
+          "disposition": "corrected",
+          "note": "This is the one that mattered. The 80 per cent quotation and the 80.4 per cent figure are exact, but two of the three supporting numbers were not in the cited paper as described. (1) 74.7 per cent does not appear anywhere in this paper — the full text was searched, including via the raw PMC HTML. What the paper gives for transcription is 62 per cent: 'The broadest element class represents the different RNA types covering 62% of the genome (although the majority is inside of introns or near genes).' The 74.7 per cent figure for primary-transcript coverage comes from a different 2012 companion paper on the transcriptional landscape, which this article does not cite. (2) 8.5 per cent is not the transcription-factor binding figure. The paper gives TF binding as 8.1 per cent ('sites of TF binding (8.1%)'); 8.5 per cent is a separate and deliberately conservative quantity — 'Using our most conservative assessment, 8.5% of bases are covered by either a TF binding site motif (4.6%) or a DHS footprint (5.7%)'. Only 15.2 per cent for open chromatin was right. (3) 'Built from' also misdescribed the arithmetic: 80.4 per cent is coverage by at least one element, not a sum of these classes, and the second-largest class (histone modifications, 56.1 per cent) was missing entirely. Rewritten to the paper's own numbers and framing, keeping the 8.5 per cent figure but attached to what it actually measures."
+        },
+        {
+          "claim": "Comparative genomics puts the conserved fraction below 15 per cent, the most comprehensive analysis near 5 per cent, rising to roughly 9 per cent once lineage-specific constraint inferred from within-species variation is added; and the arithmetic that 80 per cent functional against 10 per cent under selection implies 70 per cent functional yet immune to deleterious mutation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3622293/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "ENCODE's own authors acknowledged in PNAS that biochemically active regions cover a much larger fraction of the genome than evolutionarily conserved regions, and that biochemical, evolutionary and genetic approaches each answer a different question",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4035993/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GRCh38 'is a mosaic assembled from a small number of donors'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC10172123/",
+          "disposition": "qualified",
+          "note": "'Mosaic' is supported by both cited sources — the T2T paper says 'the opportunistic assembly of BACs derived from multiple individuals resulted in a mosaic of haplotypes', and the pangenome paper calls the primary sequences 'a mosaic representation of individual haplotypes'. Neither says 'a small number of donors', and neither gives a donor count at all. That number was carried by no source in the article, so it was replaced with the T2T paper's own description of how the mosaic arose. The rest of the sentence — coordinate system rather than specimen — is the article's framing of a point both sources make and was left alone."
+        },
+        {
+          "claim": "'Annotation lags assembly, so newly resolved sequence can sit unannotated for years'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC10172123/",
+          "disposition": "qualified",
+          "note": "A sentence with the shape of a fact and no source behind it: neither cited paper says anything about annotation taking years, and the pangenome paper points the other way, reporting a median 99.07 per cent of protein-coding genes identified across its assemblies. What the T2T paper does support is the narrower version — 3,604 genes exclusive to CHM13, largely putative paralogues in regions that 'remained largely unsequenced to date' until long reads reached them. Replaced the unsupported timescale with that."
+        }
+      ],
+      "openQuestions": [
+        "The article's own sub-claim that 'the coding count is now stable to a few hundred, while the non-coding and pseudogene counts are not' is a judgement rather than a sourced statement. It is consistent with the two annotation sets quoted (19,878 versus 19,969 coding; 42,155 versus a much larger CHM13 non-coding total), but neither source says it, and the CHM13 63,494 total is not broken down in a way that makes the comparison exact.",
+        "'A worm with about a thousand somatic cells' is not in the cited 1998 C. elegans paper, which reports genome size and gene count only. It is standard background rather than a contested figure, so it was left; no source in the article carries it."
+      ]
+    },
+    {
+      "slug": "dna-replication-and-repair",
+      "path": "content/en/biology/genetics/dna-replication-and-repair.md",
+      "status": "amended",
+      "claimsChecked": 15,
+      "findings": [
+        {
+          "claim": "Base-pairing thermodynamics alone would lay down mismatches at one in a hundred to one in a thousand; the spontaneous mutation rate in eukaryotic genomes, measured at specific loci, is about 10^-10 per base pair per generation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439269/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Polymerases alpha, delta and epsilon generate roughly one mismatch per 10^4 to 10^5 correct incorporations in vitro",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439269/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Proofreading efficiency varies by more than a hundredfold with local sequence and polymerase",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439269/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Mismatch repair contributes a further factor of about 10^2; the efficiency with which the MutSalpha-MutLalpha pathway corrects a replication error varies by more than 100,000-fold depending on the mismatch",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26850/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC5439269/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Replicase error probability ranges from misinsertion of dCTP opposite template C by polymerase alpha at 10^-7 or below to single-base deletions in long homonucleotide runs at 10^-3 or above",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439269/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Transcription and translation run at about one error in 10^4 — 'a hundred thousand times worse than replication'",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+          "disposition": "qualified",
+          "note": "The hundred-thousandfold comparison is the textbook's own — 'An error frequency of about 1 in 10^4 is found both in RNA synthesis and in the separate process of translating mRNA... This level of mistakes is 100,000 times greater than that in DNA replication' — but it is drawn against the textbook's replication error rate of about 1 mistake per 10^9 nucleotides copied. This article's opening instead states 10^-10 per base pair per generation, from a different source and a different quantity (a post-repair, per-generation mutation rate). A reader dividing the article's own two numbers gets a millionfold, not a hundred-thousandfold. Named the textbook's 10^-9 baseline in the sentence and flagged that it is not the same quantity as the per-generation rate above, rather than changing either figure."
+        },
+        {
+          "claim": "Okazaki fragments 1,000-2,000 nucleotides in bacteria and 100-200 in eukaryotes; bacterial forks up to 1,000 nucleotides per second, eukaryotic forks about a tenth as fast",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A genome-wide comparison found lagging-strand replication about twofold less accurate than leading-strand, and mismatch repair about twofold more efficient on lagging-strand mismatches",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439269/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 5,000 purine bases lost per human cell per day by depurination; cytosine deaminates to uracil at about 100 bases per cell per day",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26879/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Abasic sites generated at about 10,000 per cell per day; S-adenosylmethionine spontaneously generates up to 4,000 N7-methylguanine, 600 N3-methyladenine and 10-30 O6-methylguanine residues per cell per day",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5474181/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fewer than one in a thousand accidental base changes ends up as a permanent mutation",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26879/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 3 per cent of cytosines in human DNA are methylated, yet mutations at those positions account for roughly a third of the single-base changes observed in inherited human disease",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26879/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "End joining recognises a double-strand break within seconds, protects the ends and ligates them at the cost of occasionally losing or adding nucleotides; homologous recombination needs an intact sister chromatid and so cannot run before replication has produced one",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5474181/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Xeroderma pigmentosum: nine genes; greater than 10,000-fold increase in non-melanoma skin cancer, median onset nine years; greater than 2,000-fold in cutaneous melanoma, median onset 22; estimated 34-fold increase in internal neoplasms; prevalence about 1 in 1,000,000 in the US and Europe, 1 in 22,000 in Japan, as high as 1 in 10,000 in parts of North Africa and the Middle East",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK1397/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Lynch syndrome: MLH1, MSH2, MSH6, PMS2 and EPCAM; population prevalence 1 in 279; approximately 3 per cent of colorectal and 3 per cent of endometrial cancers; cumulative colorectal cancer risk to age 70 of 44 per cent in females and 53 per cent in males with MLH1 variants against about 3 per cent for PMS2",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK1211/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Lynch tumours accumulate length changes at repetitive microsatellite tracts, 'the errors that mismatch repair is least efficient at correcting'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5439269/ and https://www.ncbi.nlm.nih.gov/books/NBK1211/",
+          "disposition": "corrected",
+          "note": "The mechanism was stated backwards. The article's own first source says the opposite: single-base indel mismatches in repetitive runs are the errors mismatch repair corrects best, not worst. Kunkel and Erie give the top of their 100,000-fold range as 'greater than 99.999% repair of a single-base deletion mismatch in a run of 10 consecutive G-C base pairs', describe MMR as 'the major guardian of genome stability against these errors, as indicated by their incredibly efficient correction by MMR', and state that this 'explains why microsatellite instability is diagnostic for MMR-defective tumors'. The errors MMR handles least efficiently are rare base-base mismatches such as C-dC and T-dT, at the other end of that range. As written, the sentence also broke its own argument: if MMR were poor at those errors, losing MMR would not produce microsatellite instability. The GeneReviews page cited alongside it uses MSI only as a diagnostic finding and offers no mechanism. Rewritten to the direction the source states, with the 99.999 per cent figure and the diagnostic logic."
+        }
+      ],
+      "openQuestions": [
+        "The excerpt in the frontmatter describes 'copying a genome with roughly one error per ten billion bases'. That 10^-10 figure is a per-generation mutation rate measured at specific loci, which is the outcome of replication plus repair plus germline transmission, not the error rate of the copying step. The body inherits the same elision. Only the sentence where the mismatch became arithmetically visible was changed; the excerpt was left as the author wrote it.",
+        "'Seven orders of magnitude separate the chemistry from the outcome' takes the weaker end of the source's range (10^-3 to 10^-10). Against the other end, 10^-2, it would be eight. Defensible as written, but it is a rounded claim, not a quoted one.",
+        "The repair-pathway table is a synthesis across two sources rather than a reproduction of either. Every row is supported, but Molecular Biology of the Cell names the sister-chromatid pathway 'homologous end-joining' where the table (following Chatterjee and Walker) says 'homologous recombination'. No change made."
+      ]
+    },
+    {
+      "slug": "mutation-types-and-rates",
+      "path": "content/en/biology/genetics/mutation-types-and-rates.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "1000 Genomes completed phase: 2,504 individuals from 26 populations, more than 88 million variants — 84.7 million SNPs, 3.6 million short indels, 60,000 structural variants",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4750478/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A typical genome differs from the reference at 4.1-5.0 million sites, over 99.9 per cent of them SNPs and short indels",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4750478/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Per-genome structural counts: about 1,000 large deletions, 915 Alu insertions, 128 L1, 51 SVA, 160 copy-number variants, 10 inversions, together rearranging some 20 million bases",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4750478/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Kong: 78 Icelandic trios, average de novo mutation rate 1.20 x 10^-8 per nucleotide per generation at an average paternal age of 29.7 years; about two extra mutations per year of paternal age; exponential model doubling every 16.5 years; father's age explains nearly all remaining variation after Poisson",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3548427/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Jonsson: 1,548 trios, 108,778 de novo mutations, parent of origin assigned for 42,961; maternal increase 0.37 per year (95 per cent CI 0.32-0.43) against paternal 1.51 (95 per cent CI 1.45-1.57)",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28959963/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'The mutation types shift with age — C>G mutations rise by 0.33 per cent per year while CpG>TpG mutations fall by 0.26 per cent'",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28959963/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "qualified",
+          "note": "The two percentages are exact, but the source attaches them specifically to mothers: 'The types of de novo mutation from mothers change substantially with age, with a 0.26% decrease in CpG>TpG... and a 0.33% increase in C>G de novo mutations per year.' The article's sentence dropped the parent. Context makes maternal the likely reading — the two preceding clauses are about maternal clusters — but as written the clause generalises a maternal finding to mutation types at large, which is precisely the paper's point of contrast. Restored 'a mother transmits' and 'her age'."
+        },
+        {
+          "claim": "A 20-megabase region on chromosome 8p carries a maternal C>G rate up to fiftyfold above the rest of the genome",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28959963/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Drake: DNA-based microbes whose genome sizes span roughly 6,500-fold show per-base-pair rates varying about 16,000-fold but per-genome rates varying only about 2.5-fold, near 0.0033 mutations per DNA replication",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC52253/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Sanjuan: a review of more than 40 original estimates puts DNA viruses at 10^-8 to 10^-6 and RNA viruses at 10^-6 to 10^-4 substitutions per nucleotide per cell infection, with substitutions about four times more common than indels",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2937809/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cagan: 208 intestinal crypts from 56 individuals across 16 mammal species; per-year somatic rate inversely related to lifespan with no other life-history trait showing a comparable association; despite about 30-fold lifespan and 40,000-fold body-mass variation the end-of-life burden varies only about threefold; endogenous processes, chiefly 5-methylcytosine deamination and oxidative damage, dominate in every species",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9021023/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A typical genome carries 149-182 protein-truncating variant sites, 10,000-12,000 peptide-sequence-altering sites and 459,000-565,000 sites in annotated regulatory regions; only about 1 to 4 per cent of variants (40,000-200,000) occur below 0.5 per cent frequency",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4750478/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Collins: 433,371 structural variants from 14,891 genomes, accounting for 25-29 per cent of all rare protein-truncating events per genome; very large rare structural variants over a megabase in 3.9 per cent of samples; 0.13 per cent of individuals carrying one meeting existing criteria for clinically important incidental findings",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7334194/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "MedlinePlus was read for the terminology claim ('because changes in DNA do not always cause disease, it is thought that gene variant is a more accurate term'; 'Most variants do not lead to development of disease, and those that do are uncommon in the general population') and it supports the article exactly. The page is dated 25 March 2021, so 'now prefers' describes a change made five years ago rather than a current one.",
+        "The sentence 'The structural classes below the first row total between 2,100 and 2,500 events' is the article's own arithmetic on its own table (the listed counts sum to about 2,264), not a figure any source states. It computes correctly and the text flags it as arithmetic, so it was left; the same applies to 'on the order of seventy new mutations entering each genome per generation', which is 108,778 divided by 1,548.",
+        "The gnomAD structural-variant paper qualifies its 3.9 per cent as very large rare *autosomal* structural variants and its 0.13 per cent as individuals who 'may carry' a reportable finding. The article drops 'autosomal' and keeps the hedge in 'estimated that'. Both are small enough that no change was made."
+      ]
+    }
+  ]
+}

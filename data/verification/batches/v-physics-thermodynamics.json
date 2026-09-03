@@ -1,0 +1,247 @@
+{
+  "batchId": "v-physics-thermodynamics",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "laws-of-thermodynamics-explained",
+      "path": "content/en/physics/thermodynamics/laws-of-thermodynamics-explained.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "Since May 2019 the SI has fixed the Boltzmann constant at exactly 1.380649 x 10^-23 J K^-1, and the CODATA listing carries no uncertainty",
+          "sourceChecked": "https://www.bipm.org/en/measurement-units and https://physics.nist.gov/cgi-bin/cuu/Value?k",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The previous kelvin definition, adopted in 1954, made the kelvin 1/273.16 of the triple-point temperature of water; absolute zero stays at -273.15 C",
+          "sourceChecked": "https://www.nist.gov/si-redefinition/kelvin-introduction",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NIST is blunt about why that [1954] definition was replaced: extrapolating from one fixed point to very high or very low temperatures was the weak link",
+          "sourceChecked": "https://www.nist.gov/si-redefinition/kelvin-introduction",
+          "disposition": "qualified",
+          "note": "NIST says extrapolating from the water triple point to very high or very low temperatures 'is problematic; so, by international agreement, 21 other defining points are specified' — it presents that as a limitation already mitigated inside the old scheme, and nowhere states it as the reason for the 2018/2019 redefinition. Attribution of a causal claim to NIST that NIST does not make. Rewritten to what the page actually says, including the 21 further defining points."
+        },
+        {
+          "claim": "The Crooks relation was tested by pulling single RNA molecules with optical tweezers; the folding free energy recovered from the work distributions was 62.8 +/- 1.5 kBT for a hairpin, in agreement with independent calculation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1752236/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Individual molecular trajectories in that experiment absorb less work than the free-energy change — locally running the 'wrong' way — while the ensemble obeys the inequality",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1752236/",
+          "disposition": "qualified",
+          "note": "The paper never reports per-trajectory second-law excursions. What it states is that 'work values larger than DeltaG occur most often along the unfolding path while (absolute) values smaller than DeltaG occur more often along the refolding path', that the two distributions 'overlap over a sufficiently large range of work values', and that they 'cross at W = DeltaG'. Individual pulls on the low side follow from that overlap, but the article presented an inference as a reported result. Reworded to the overlap and crossing the paper does report."
+        },
+        {
+          "claim": "A general derivation in Nature Communications (2017) showed perfect cooling to absolute zero requires at least one resource — the volume of the cold bath or the work consumed — to be infinite, and that for a radiation bath the attainable temperature scales as an inverse power of the cooling time",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5355879/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The U.S. Department of Energy notes that temperatures about 30 feet down stay between roughly 10 C and 15 C year-round",
+          "sourceChecked": "https://www.energy.gov/hgeo/geothermal/geothermal-heat-pumps",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The U.S. coal fleet consumed 10,777 Btu of fuel for each kilowatt-hour sent out in 2024, so just under a third of the fuel energy arrived as electricity",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_01.html",
+          "disposition": "corrected",
+          "note": "The number and the year are right — EIA Table 8.1 gives coal 10,777 Btu/kWh for 2024, and 3,412/10,777 = 31.7%, 'just under a third'. But EIA defines heat rate as the energy used 'to generate one kilowatthour', not per kilowatt-hour sent out; 'sent out' is net of station service and is a different, smaller quantity. Changed 'sent out' to 'generated'."
+        },
+        {
+          "claim": "Current evidence does not support treating maximum entropy production as a general law",
+          "sourceChecked": "https://arxiv.org/abs/1311.2068 (abstract) plus attempted https://www.mdpi.com/1099-4300/12/3/613",
+          "disposition": "qualified",
+          "note": "No source is cited for this anywhere in the article, and it is phrased as a verdict on an evidence base. The one MEP paper I could open (Martyushev and Seleznev, 'The restrictions of the Maximum Entropy Production Principle', Physica A 2014, abstract only) concedes that restrictions on the principle's application exist, but is by proponents and does not assess the field. The Entropy review that does assess it (MDPI 12(3):613) returns 403 to scripted clients, so I could not read it and would not cite it unread. Narrowed the sentence to 'a contested proposal rather than an established law', which drops the evidential verdict without weakening the caveat or manufacturing a controversy."
+        }
+      ],
+      "openQuestions": [
+        "The maximum-entropy-production sentence is still uncited. MDPI blocks scripted clients, so the standard open-access review of the principle's status (Dyke and Kleidon, Entropy 2010, 12(3):613) could not be read; the claim was narrowed rather than sourced.",
+        "The per-trajectory statement about the RNA-pulling experiment rests on reading the overlap of the published work distributions, not on a sentence in the paper. A reader with the figure data could confirm the fraction of unfolding pulls below DeltaG; I could not.",
+        "The Crooks paper's comparison value is from Visual OMP (38 kcal/mol), a commercial nucleic-acid prediction package rather than a fully independent measurement; 'independent calculation' is fair but is a calculation, not a second experiment."
+      ]
+    },
+    {
+      "slug": "heat-transfer-conduction-convection-radiation",
+      "path": "content/en/physics/thermodynamics/heat-transfer-conduction-convection-radiation.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "Raising a surface from 500 K to 1,500 K against 300 K surroundings grows the driving temperature difference sixfold and the net radiative flux by about 93, from roughly 3.1 kW m^-2 to 287 kW m^-2",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?sigma",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Stefan-Boltzmann constant sigma = 5.670374419 x 10^-8 W m^-2 K^-4, a value the SI now fixes exactly",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?sigma",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NIST's cryogenic curve fits for oxygen-free copper are valid from 4 K to 300 K and stated to lie within 1-2% of the underlying data",
+          "sourceChecked": "https://trc.nist.gov/cryogenics/materials/OFHC%20Copper/OFHC_Copper_rev1.htm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Evaluated at 300 K the fits give roughly 390-400 W m^-1 K^-1 for every purity grade; at 20 K about 1.4 x 10^3 for RRR 50 and about 6.6 x 10^3 for RRR 500, nearly a factor of five apart",
+          "sourceChecked": "https://trc.nist.gov/cryogenics/materials/OFHC%20Copper/OFHC_Copper_rev1.htm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A black surface at 300 K emits about 459 W m^-2, and a 10 K excess over ambient nets only about 64 W m^-2",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?sigma",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An apparatus in Nature Communications reached an average of 37 C below ambient over a full day-night cycle, maximum depression 42 C, with an 8-13 micron emitter, a 10^-6 Torr chamber and ten concentric radiation shields",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5159822/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA reports maximum indoor temperature reductions of 1.2-3.3 C in buildings without air conditioning and peak cooling-demand reductions of 11-27% in buildings with it",
+          "sourceChecked": "https://www.epa.gov/heatislands/using-cool-roofs-reduce-heat-islands",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NASA's accounting has about 340 W m^-2 at the top of the atmosphere, 29% reflected, 23% absorbed in the atmosphere and 48% at the surface, of which 25% leaves the surface by evaporation and 5% by thermals against a net 17% as infrared",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+          "disposition": "qualified",
+          "note": "Every number matches NASA, but the denominator was wrong. NASA states the 25%, 5% and 17% as shares of the incoming solar total ('About 25 percent of incoming solar energy leaves the surface through evaporation'), and they sum to roughly the same 48% absorbed at the surface. The article's 'of which' reads them as fractions of that 48%, which would make evaporation 12% of the incoming rather than 25%. Reworded so all four percentages share the incoming-total denominator."
+        },
+        {
+          "claim": "Earth looks from outside like a surface at about -20 C, and space is a vacuum so radiation is the only exit",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "DOE-funded programmes have targeted turbine inlet temperatures of 1,700 C or higher, knowingly beyond the melting point of the substrate alloy, relying on transpiration and lattice cooling",
+          "sourceChecked": "https://www.osti.gov/biblio/1923377",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The window-gap claim ('widen the gap and the loss increases even though more gas now separates the panes') and the contact-resistance claim are textbook heat-transfer results with no citation in the article. I did not find them wrong and did not change them, but neither is traceable to a source the article names.",
+        "The convection-correlation accuracy claim ('a matter of tens of per cent rather than per cent') is likewise uncited. It is the conventional statement in the field, but the article offers no source for the magnitude."
+      ]
+    },
+    {
+      "slug": "entropy-explained",
+      "path": "content/en/physics/thermodynamics/entropy-explained.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "NIST's Chemistry WebBook gives liquid water a standard molar entropy of 69.95 +/- 0.03 J mol^-1 K^-1 at 298.15 K",
+          "sourceChecked": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Water vapour, in the ideal-gas standard state at 1 bar, has a standard molar entropy of 188.835 +/- 0.010 J mol^-1 K^-1, a difference of about 119 from the liquid",
+          "sourceChecked": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Boltzmann constant has been fixed by the SI since 2019 at exactly 1.380649 x 10^-23 J K^-1",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?k",
+          "disposition": "verified"
+        },
+        {
+          "claim": "PNAS work frames hard-particle ordering as shape entropy acting through directional entropic forces, 'on the order of a few times the thermal energy' at the onset of ordering, generated by maximisation of entropy through local dense packing",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4234574/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A critique in Entropy argues the generalisation to 'any disorder or randomness' is over-reaching, and that the thermodynamic quantity is tied specifically to thermal energy and its transfer",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7517180/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Landauer's bound kT ln 2 at 300 K is 2.8 x 10^-21 J, or 2.8 zeptojoules",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4795654/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Single-bit operations on nanomagnetic memory dissipated (6.09 +/- 1.43) zJ at 300 K, equivalent to (1.45 +/- 0.35) times kT",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4795654/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Sunlight arrives from a photosphere at about 5,500 C and leaves at an effective temperature of roughly -20 C, so the outgoing stream carries on the order of twenty times the entropy of the incoming one for the same energy",
+          "sourceChecked": "https://science.nasa.gov/sun/facts/ and https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The twenty-fold entropy ratio is not stated by either NASA page; it follows arithmetically from the two temperatures NASA does state (5,773 K / 253 K = 23, with radiation entropy going as energy over emission temperature). I checked the arithmetic and the two inputs rather than a source that asserts the ratio. The 'on the order of twenty times' hedge is what makes it defensible; a precise figure would not be.",
+        "The residual-entropy-of-ice example and the coarse-graining limitation in the closing section are uncited. Both are standard and neither is overstated, so I left them, but they are not traceable from the article."
+      ]
+    },
+    {
+      "slug": "heat-engines-and-efficiency-limits",
+      "path": "content/en/physics/thermodynamics/heat-engines-and-efficiency-limits.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "EIA 2024 tested heat rates: coal-fired steam 10,018 Btu/kWh, natural gas combined-cycle 7,548, simple-cycle gas turbines 10,999, converting to 34.1%, 45.2% and 31.0%",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_02.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Reciprocating, gas-fired engines at 38.2% measured efficiency (article table)",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_02.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A kilowatt-hour is 3,412 Btu, and heat rate is the fuel energy consumed per unit of electricity",
+          "sourceChecked": "https://www.eia.gov/tools/faqs/faq.php?id=107&t=3",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A steam plant raising 600 C steam and rejecting to cooling water near 30 C has a reversible ceiling of 65.3%",
+          "sourceChecked": "https://www.osti.gov/biblio/1431234 (600 C live steam) with the Carnot expression evaluated at 873.15 K / 303.15 K",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EIA's operating figures for 2024 put the coal fleet at 10,777 Btu per kilowatt-hour and the nuclear fleet at 10,443, within a few per cent of each other",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_01.html",
+          "disposition": "qualified",
+          "note": "Both numbers are right, but they are not the same kind of number and the paragraph's whole point is the comparison. Table 8.1's own note reads: 'The nuclear average heat rate is the weighted average tested heat rate for nuclear units as reported on the Form EIA-860', while the coal, petroleum and gas entries come from Form EIA-923 operating data. Calling both 'operating figures' makes a tested-versus-operating comparison look like a like-for-like one. Added the distinction in the sentence rather than dropping the comparison, which still holds."
+        },
+        {
+          "claim": "EIA's tested combined-cycle figure of 7,548 Btu per kilowatt-hour becomes 7,754 across the gas fleet in operation",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_02.html and https://www.eia.gov/electricity/annual/html/epa_08_01.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "DOE work on advanced ultrasupercritical plant describes current practice at 3,600 psi and 600 C, with the advanced target at 4,250-5,000 psi and 730-760 C",
+          "sourceChecked": "https://www.osti.gov/biblio/1431234",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A DOE FECM project targets turbine inlet temperatures of 1,700 C or higher, beyond the melting point of the substrate alloy, with a combined-cycle efficiency target of 65%",
+          "sourceChecked": "https://www.osti.gov/biblio/1923377",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Efficiency at maximum power for an endoreversible engine is 1 - sqrt(Tc/Th), described in the recent literature as a more practical bound than the Carnot one, giving 41.1% for 600 C and 30 C",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854467/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA puts CHP above 80% total efficiency against about 50% for separate grid electricity and an on-site boiler, and notes nearly two-thirds of the energy in conventional generation is discharged as heat during generation, transmission and distribution",
+          "sourceChecked": "https://www.epa.gov/chp/what-chp",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The EIA heat-rate tables are reissued annually and the article's figures are anchored to 2024, which is the latest year the tables currently carry. The anchor is in the prose, so the figures will read correctly when the 2025 edition lands, but the four efficiency percentages in the cycles table are not labelled with a year and will need restating when it does.",
+        "The article's Rankine row gives 34.1% as the Rankine cycle's measured efficiency; that is the coal-fired steam fleet, and EIA's Table 8.2 also lists natural-gas steam at 10,337 Btu/kWh (33.0%) and petroleum steam at 10,331. The row is representative rather than exhaustive, which the surrounding prose makes clear but the table alone does not."
+      ]
+    }
+  ]
+}

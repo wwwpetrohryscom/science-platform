@@ -1,0 +1,117 @@
+{
+  "batchId": "v-ecology-ecosystems-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source. Agency pages were fetched with a browser user agent where the default client was refused.",
+  "articles": [
+    {
+      "slug": "ecological-succession-explained",
+      "path": "content/en/ecology/ecosystems/ecological-succession-explained.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "The 18 May 1980 eruption began with a magnitude 5.1 earthquake at 8:32 a.m.",
+          "sourceChecked": "https://www.usgs.gov/volcanoes/mount-st.-helens/science/1980-cataclysmic-eruption",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The debris avalanche was about 2.5 km³, the largest in recorded history, and travelled 23 km down the North Fork Toutle valley",
+          "sourceChecked": "Same USGS page",
+          "disposition": "verified",
+          "note": "USGS describes it as the largest debris avalanche on Earth in recorded history, gives 2.5 km³, and gives 23 km (14 mi) down the North Fork Toutle River valley."
+        },
+        {
+          "claim": "The lateral blast removed the upper 300 m of the cone and left a devastated area of 600 km² blanketed in hot debris",
+          "sourceChecked": "Same USGS page",
+          "disposition": "verified",
+          "note": "USGS: 'removed the upper 300 m (nearly 1,000 ft) of the cone'; 'The 600 km² (230 mi²) devastated area was blanketed by a deposit of hot debris carried by the blast.'"
+        },
+        {
+          "claim": "Pyroclastic flows spread up to 8 km north and created the Pumice Plain",
+          "sourceChecked": "Same USGS page",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Connell and Slatyer's 1977 paper distinguished facilitation, tolerance and inhibition",
+          "sourceChecked": "https://doi.org/10.1086/283241",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The tropical-recovery synthesis (77 sites; 90 per cent of old-growth values fastest for soil properties; 78 per cent average at 20 years with a 33–100 per cent range) was checked against the paper's abstract rather than its supplementary tables, so the per-attribute spread was not independently recomputed.",
+        "The claim that a working group reviewing 135 freshwater papers found little empirical support for multiple stable states was read from the abstract; the sample's composition was not inspected."
+      ]
+    },
+    {
+      "slug": "urban-ecology-explained",
+      "path": "content/en/ecology/ecosystems/urban-ecology-explained.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "EPA gives daytime urban air as roughly 1–7 °F above outlying areas and night-time air as about 2–5 °F above",
+          "sourceChecked": "https://www.epa.gov/heatislands/learn-about-heat-islands",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Conventional roofing can sit as much as 66 °F above the surrounding air temperature",
+          "sourceChecked": "Same EPA page",
+          "disposition": "verified",
+          "note": "EPA: 'conventional roofing materials may reach as much as 66°F warmer than the surrounding air temperatures.'"
+        },
+        {
+          "claim": "The Celsius equivalents given in parentheses (about 0.6–3.9 °C and 1.1–2.8 °C; about 37 °C)",
+          "sourceChecked": "Derived from the EPA Fahrenheit figures",
+          "disposition": "verified",
+          "note": "EPA states the figures in Fahrenheit only. The conversions are the article's own and are arithmetically correct; the article marks them as approximations."
+        },
+        {
+          "claim": "EPA's diagnostic framework reports consistent channel instability above about 10 per cent effective impervious area",
+          "sourceChecked": "EPA causal analysis / stressor identification resource cited in the article",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The 342-city European surface-versus-air heat-island analysis and the two urban-biodiversity comparisons (54 cities of birds, 110 of plants; 66,209 observations of 5,209 species across 14 US metropolitan areas) were checked against abstracts. The derived statements — that the surface value exceeded the air value in 96 per cent of cities by day and 80 per cent at night — are in the abstract, but the city-level data were not inspected.",
+        "The European Environment Agency imperviousness figures (110,702 km² sealed in 2018, 2.7 per cent of EU-27 territory) were read from the EEA indicator page. The article's caveat that the 2018 layer is 10 m against 20 m for earlier ones, and that the change series is therefore not a clean time series, is the EEA's own note and is reproduced rather than inferred."
+      ]
+    },
+    {
+      "slug": "agricultural-ecosystems-and-agroecology",
+      "path": "content/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology.md",
+      "status": "clean",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "FAO puts world agricultural land at 4,800 million hectares in 2023, more than a third of global land area",
+          "sourceChecked": "FAOSTAT land use domain, as cited",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global agricultural nitrogen use of 112 million tonnes in 2023, phosphorus 41 million tonnes, potassium the balance; total from 142 million tonnes in 2002 to 190 million tonnes in 2023",
+          "sourceChecked": "FAOSTAT fertilisers by nutrient, as cited",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cropland nutrient balance gives a global nitrogen surplus of 85 million tonnes for 2023, equivalent to 54 kg per hectare of cropland",
+          "sourceChecked": "FAOSTAT cropland nutrient budget, as cited",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Around 35 per cent of global crop production volume depends at least in part on animal pollinators, delivered by roughly 200,000 animal species including more than 25,000 bee species",
+          "sourceChecked": "IPBES assessment on pollinators, pollination and food production (2016), as cited",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2025 systematic review found 57 articles covering 105 cases, of which 17 studies and 27 cases permitted a direct comparison; combinations best in 52 per cent, sparing in 41 per cent, sharing in 7 per cent",
+          "sourceChecked": "PNAS Nexus, as cited",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The FAOSTAT figures were checked against the values FAO publishes in its own summary briefs rather than by re-querying the FAOSTAT API in this pass. The derived per-hectare figures (68 kg N per hectare in 2023 against 54 kg in 2002) are the article's arithmetic on those totals and cropland area, and were spot-checked for consistency but not recomputed from the raw domain.",
+        "The second-order meta-analysis (98 meta-analyses, 5,160 studies, 41,946 comparisons) was checked against its abstract."
+      ]
+    }
+  ]
+}

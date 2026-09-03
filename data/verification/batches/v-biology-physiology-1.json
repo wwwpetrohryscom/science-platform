@@ -1,0 +1,360 @@
+{
+  "batchId": "v-biology-physiology-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "physiology-explained",
+      "path": "content/en/biology/physiology/physiology-explained.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "Arterial pH 7.35-7.45, PaCO2 35-45 mmHg, plasma bicarbonate 22-26 mEq/L; respiratory compensation acts in minutes to hours and renal compensation over days, by reabsorbing bicarbonate and excreting fixed acids",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK507807/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2025 Biological Reviews paper defines a set point per thermo-effector as the input value at which that effector just becomes active, rejects a unitary organismal set point while defending negative feedback, calls the settled value an operating point, and describes an inter-threshold zone in which nothing is corrected",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12120395/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Allostasis is stability through change; allostatic load is a constructed index rather than a directly measured quantity and the framework is easier to state than to test",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12589452/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Wunderlich's 1851 survey gave 37.0 C with a range of 36.2-37.5 C; the 2020 eLife analysis pooled Union Army veterans 1860-1940, NHANES I 1971-1975 and a clinical dataset 2007-2017, more than 670,000 measurements, and found a monotonic fall of about 0.03 C per birth decade after adjustment",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6946399/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Across 197 birth years that amounted to roughly 0.59 C in men and 0.32 C in women'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6946399/",
+          "disposition": "corrected",
+          "note": "The 197-year span belongs to the men only. The paper reports -0.59 C 'between birth decades from 1800 to 1997' for men and -0.32 C 'between 1890 and 1997' for women, i.e. 197 birth years against 107. Applying one span to both figures makes the women's decline look like the shallower of two trends measured over the same window, when it is a comparable trend measured over a much shorter one. Rewritten to carry each sex's own birth-year range. The 0.03 C per birth decade, the >670,000 measurements and the 36.6 C contemporary mean all check out exactly."
+        },
+        {
+          "claim": "A 2003 PNAS analysis of 619 mammal species from 19 orders, spanning five orders of magnitude in mass and correcting for body temperature, digestive state and phylogeny, found no support for a 3/4 exponent and reported BMR scaling as mass to the power 2/3",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC153045/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Doubly labelled water data from 229 terrestrial vertebrate species show scaling slopes that frequently differ from 0.75 and differ between classes; mammals expend about 12 times and birds about 20 times the daily energy of an equivalent-sized reptile",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/15855393/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2 g Etruscan shrew has the thinnest air-blood barrier measured in any mammal, a harmonic mean of about 0.23 um, close to the limit at which two cell layers can still be cells",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/",
+          "disposition": "resourced",
+          "note": "The figure was correct but carried no source: none of the nine references on this page covered it, and a numeric superlative with no citation anywhere in the article is exactly the shape a fabricated figure takes. The Comprehensive Physiology review cited by the companion gas-exchange article does support it, in the full text rather than any summary: 'the smallest mammal, the Etruscan shrew weighing a mere 2 g', and 'the thinnest membrane that occurs in the Etruscan shrew: the linings of endothelium and epithelium are reduced to minimal cytoplasmic leaflets consisting of two plasma membranes combined with a minimal interstitium that measures only 0.02 um in the thinnest parts, resulting in a harmonic mean thickness of 0.23 um'. That last clause also licenses the 'limit at which two cell layers can still be cells' gloss. Added as source 10; prose unchanged."
+        },
+        {
+          "claim": "'A 2026 paper in History and Philosophy of the Life Sciences' states the Krogh principle as a case-selection heuristic and draws out the logic that extreme constraint makes a mechanism legible",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12426087/ and Europe PMC record for PMC12426087",
+          "disposition": "corrected",
+          "note": "The paper is 2025, not 2026: Europe PMC gives firstPublicationDate 2025-09-11, volume 47, year of publication 2025, and the PMC record agrees. The substance is right - the paper states the principle as 'study of a given biological phenomenon can be fruitfully approached via the study of those organisms which display it in a particularly distinctive or accessible way' and discusses both the legibility gain and the generalisation hazard the article goes on to name. Year changed to 2025."
+        },
+        {
+          "claim": "A Communications Biology study using indirect calorimetry across 22-35 C found neither rats nor mice have a broad thermoneutral zone but a thermoneutral point, with rats at 30 C already at the edge of thermal tolerance, so standard housing imposes a chronic thermal load",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12909992/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Biologging has begun to change that for large animals, and the values it returns have repeatedly been outside what laboratory work anticipated'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8200650/",
+          "disposition": "qualified",
+          "note": "Stronger than any source supports, and unsourced on this page. The Royal Society review of biologging says the opposite of 'repeatedly': sensor development yielded 'surprising results in some cases, and confirming the early findings of Scholander and Irving in others'. What the review does say plainly is that the laboratory baseline was skewed - forced-submersion animals were 'immobile and immersed in very shallow water for durations unknown to the animal', with 'no hydrostatic pressure', no locomotory work and no control over when the submersion ended, so 'results probably represented the most extreme response'. Rewritten to that balance, and the review added as source 11. Note the direction matters: the old sentence implied laboratory work understated the responses, where the source says it overstated them."
+        }
+      ],
+      "openQuestions": [
+        "The eLife paper's 36.6 C contemporary mean is quoted by it from a separate study rather than measured in it; the article does not attribute it further, which is defensible but worth an editor's eye.",
+        "The Communications Biology rodent study ran mice from 22 to 35 C but rats only from 22 to 32 C. The article gives the span as '22 C to 35 C', which is the experiment's overall range but could be read as the range rats were taken to. Left as written."
+      ]
+    },
+    {
+      "slug": "respiration-and-gas-exchange",
+      "path": "content/en/biology/physiology/respiration-and-gas-exchange.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Electron-microscopic stereology on seven young adults averaging 70 kg puts alveolar surface at roughly 130 m2, capillary surface about 10 per cent smaller, with older light-microscopy values lower because that technique could not resolve the alveolar surface texture",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Harmonic mean tissue thickness near 0.6 um, about 1.11 um for the whole path from alveolar epithelium to erythrocyte, holding roughly 200 mL of capillary blood",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Six adult lungs, mean 480 million alveoli, range 274-790 million, coefficient of variation 37 per cent, mean alveolar volume about 4.2 x 10^6 um3 irrespective of lung size, roughly 170 alveoli per cubic millimetre, and larger lungs having more alveoli rather than bigger ones",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/14512270/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Type-1 epithelial cells cover about 95 per cent of the alveolar surface, one cell spreading over some 5,000 um2, with the nucleus tucked into a niche between capillaries so it does not thicken the diffusion path",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In a tidal lung alveolar and arterial oxygen tensions sit below inspired air; the avian cross-current arrangement allows roughly 25 per cent more efficient oxygen extraction and permits arterial oxygen tension higher than expired gas",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC4392962/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Dragonfly nymphs: oxygen extraction efficiency 40.1 +/- 6.1 per cent in normoxia; from 21.3 kPa down to 5.3 kPa tidal volume did not change significantly while ventilation frequency rose from 9.4 +/- 1.2 to 35.6 +/- 2.9 breaths per minute and extraction efficiency held, attributed to increased gill conductance or lowered internal oxygen tension",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10806436/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 98 per cent of blood oxygen travels bound to haemoglobin and 2 per cent dissolved; the curve is sigmoid from positive cooperativity; falling pH, rising CO2, rising temperature and rising 2,3-DPG shift it rightwards",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK539815/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Around 83 million people live above 2,500 m; chronic mountain sickness is reported at prevalences from about 1.2 to 33 per cent, varying with age, sex and population of origin",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8936998/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Andean and Ethiopian populations show different genes, and yet the physiological outcomes converge, which is the standard signature of several routes to one solution rather than one inherited answer'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4201282/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC8936998/",
+          "disposition": "corrected",
+          "note": "The most consequential error in this batch: the phenotypes do not converge, and both cited sources say so in terms. Genes & Development: Andean highlanders 'exhibit elevated hemoglobin concentration in an altitude-dependent manner'; the Tibetan phenotype is 'relatively low, thus characterized as a blunted (low) erythropoietic response'; 'Ethiopian highlanders present yet a third hemoglobin phenotype in which their hemoglobin concentration is maintained within the ranges of sea-level populations'. The J Mol Med review, which is where the word convergence in this article comes from, is equally explicit that 'Physiologically, it appears that different adaptation mechanisms have emerged' and lists the same three distinct haematological patterns; its convergence claim is that different gene sets 'converge on similar pathways' and that there is 'convergence at the level of physiological processes, such as erythropoietic and cardiovascular regulation and function' - convergence on which machinery is engaged, not on the value it settles at. Rewritten to say the genes converge on shared pathways and the same processes while the haematological outcomes differ, and to name the three patterns. Genes & Development also treats the convergence question as open rather than settled, so the old sentence's 'standard signature' framing was manufacturing consensus as well as inverting a result. EPAS1/HIF-2alpha and EGLN1 as the Tibetan signals check out."
+        },
+        {
+          "claim": "Physiological estimates of diffusing capacity came out at roughly half the morphometric value with the discrepancy distributed unevenly between membrane and blood components, and a study across four canid species found the same pattern",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Some of that gap is model error and some is genuine reserve - surface that is perfused only under load - and separating the two is still unsettled'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/",
+          "disposition": "corrected",
+          "note": "The article hedges where the source resolves. Hsia et al. name the model issue as secondary - 'Some of the differences may have been due to the use of the original morphometric model where the thickness of tissue and plasma barriers were considered as two barriers in series' - and then state a conclusion: 'The major reason for the observed discrepancy lies in the fact that the physiological estimates were obtained in resting or anesthetized animals where the true diffusing capacity is not exploited. Indeed, when the study is done on exercising foxhounds the physiological DLCO varies in proportion to blood flow and increase with exercise intensity reaching a value in close agreement with the morphometric estimate near maximal O2 uptake.' That is the gap closing, not an open question. Rewritten to report what the source concludes."
+        },
+        {
+          "claim": "Capillary transit time about 0.3 s in dogs running at maximum oxygen uptake, and chronic hypoxia enlarges gas exchange organs across phyla from fish and salamander gills to bullfrog skin folds to the mammalian lung and placenta",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026132/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The avian source (ISRN Anatomy) confirms the cross-current geometry - 'the exchange blood capillaries are largely orthogonal to the air capillaries' - but stops short of confirming airflow direction within the parabronchi in its own specimens. The unidirectional-flow claim rests on the Comprehensive Physiology review, which does state it."
+      ]
+    },
+    {
+      "slug": "circulation-and-the-heart",
+      "path": "content/en/biology/physiology/circulation-and-the-heart.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "'In an ordinary resting mammal the left ventricle alone accounts for something on the order of a tenth of whole-body metabolic rate'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12582410/",
+          "disposition": "corrected",
+          "note": "A size-specific modelled figure generalised into a flat claim about mammals, in the article's opening sentence. The 9 per cent the paper gives is for 'a normal mammal of the same body mass' as its giraffe - a 651 kg reference animal - not for mammals at large. The same paper gives the actual scaling: 'Scaling of cardiovascular and metabolic data from 22 species of mammal shows that [the relative metabolic cost] rises significantly with body mass... predicted to increase from about 2.6% in a 20 g mouse to 6.7% in a 60 kg human and to 10.7% in a 3 tonne elephant.' So 'a tenth' is the elephant end of a range whose other end is a fortieth, and the human value is under 7 per cent. This mattered more than a stray number because the whole article is about size setting the bill; flattening the size dependence out of its first sentence argued against its own thesis. Replaced with the source's scaling."
+        },
+        {
+          "claim": "An insect circulatory system is a dorsal heart plus accessory pulsatile organs supplying the appendages; the system is badly understudied and its roles extend to thermoregulation, tracheal ventilation in strong fliers, integration with immune defence, and reflex bleeding against predators",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/31585504/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Mammalian cardiomyocytes are wide with t-tubules; bird cardiomyocytes are long, thin and have none, a morphology shared with non-avian reptiles; birds nonetheless achieve higher contraction rates and higher developed pressures",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9527935/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Birds compensate through strong transsarcolemmal calcium influx via the L-type calcium current with high-gain calcium-induced calcium release, plus an internal relay propagating release inward without tubules; and the same review is candid that bird cardiac calcium dynamics remain thinly characterised",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9527935/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The conduction system develops under haemodynamic forces and the influence of the epicardium, and comparative embryology rather than fossils is what makes its evolutionary history accessible because the tissues do not preserve",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/39221623/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Roughly 77 mmHg of additional pressure per metre of heart-to-head height; the giraffe head can sit more than 2 m above the heart; mean systemic arterial pressure 200-250 mmHg at heart level, more than twice most mammals",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12582410/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The giraffe left ventricle consumes about 16 per cent of resting whole-body metabolic rate against roughly 9 per cent for a same-mass shorter-necked mammal; neck extension alone would have cost about 21 per cent; the limbs evolved before the neck and raise the heart; the vertical heart-to-head distance appears to be the largest ever evolved in a terrestrial vertebrate",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12582410/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A chromosome-level giraffe genome flagged FGFRL1 as an outlier with seven amino acid substitutions found in no other ruminant, and gene-edited mice carrying the giraffe version resisted induced hypertension and had higher bone mineral density",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7968835/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Revised Starling principle: the glycocalyx is the semipermeable layer and sub-glycocalyx osmotic pressure is what matters; narrow junctional breaks give high local outward velocities keeping sub-glycocalyx protein low; sustained venous reabsorption does not occur in most tissues, slight filtration prevails even in venules, and sustained absorption is confined to secreting epithelia such as kidney and intestinal mucosa",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/20200043/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Diving mammals cycle lung collapse and reinflation, bradycardia and tachycardia, vasoconstriction and vasodilation, and oxygen-store depletion and restoration; blood oxygen partial pressures can fall below 20-30 mmHg, a level considered injurious to oxygen-dependent human tissues such as brain and heart, tolerated through enhanced stores, selective delivery and tissue buffering",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8711794/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'The values they returned repeatedly differed from what restrained-animal work had suggested'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8200650/",
+          "disposition": "qualified",
+          "note": "The cited review says 'in some cases', not repeatedly, and pairs it with the opposite result: sensor development yielded 'surprising results in some cases, and confirming the early findings of Scholander and Irving in others'. Turning that into a general divergence overstates the source and, incidentally, understates its actual criticism - which is not that lab numbers were wrong but that they were extreme, because forced-submersion animals were 'immobile and immersed in very shallow water for durations unknown to the animal', unpressurised, doing no locomotory work, so 'results probably represented the most extreme response'. Narrowed to the source's own balance and given the reason it supplies. The time-depth-recorder-then-physiological-logger sequence in the same sentence is correct."
+        }
+      ],
+      "openQuestions": [
+        "The reptile section - incompletely divided ventricles permitting inter-circuit shunting - has no source among the eight cited. Treated as uncontroversial comparative anatomy and left as written, and the functional reading around it is explicitly signposted as the article's own interpretation, but an editor may want it sourced."
+      ]
+    },
+    {
+      "slug": "thermoregulation-in-animals",
+      "path": "content/en/biology/physiology/thermoregulation-in-animals.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "The heat-balance budget S = M +/- R +/- C +/- K - E; conduction is minor in most real heat exposure while radiative and convective terms depend on solar load, surrounding surface temperature, posture, wind and covering; evaporation dominates under heat stress; an environment is survivable when required evaporation stays below achievable evaporation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13342189/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Doubly labelled water across 229 terrestrial vertebrate species spans nearly six orders of magnitude, from 0.23 kJ per day in a small gecko to 52,500 kJ per day in a seal; more than 70 per cent of the variation is body mass; mammals expend roughly 12 times and birds roughly 20 times the daily energy of an equivalent-sized ectothermic reptile",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/15855393/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Endothermy is internally produced heat and homeothermy is temperature stability; basking-and-shuttling reptiles achieve behavioural homeothermy without endothermy; mammals defend species-specific temperatures often from the low 30s to around 40 C",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13342189/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2024 PNAS study exposed lean young adults to 17-31 C and found women's lower critical temperature at 21.9 +/- 1.3 C against 22.9 +/- 1.2 C in men, driven by insulation from more body fat offsetting a lower basal metabolic rate, with no differences in brown adipose tissue glucose uptake, muscle electrical activity, skin temperature, cold-induced thermogenesis or reported comfort",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11087792/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Neither rats nor mice have a broad thermoneutral zone but a thermoneutral point, with rats at 30 C at the edge of thermal tolerance and warmer ambients bringing falling food intake and body weight",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12909992/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Effectors switch on at their own thresholds, with an interval between the highest cooling and lowest heating threshold in which no effector is recruited",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12120395/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 25-year Alaskan record published in Science in 2023: autumn soil freeze delayed, arctic ground squirrels correspondingly delaying up-regulation of heat production during torpor to prevent freezing, and spring emergence advancing about four days per decade in females but not males, in an important prey species",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/37228197/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Young healthy adults at metabolic rates typical of daily activity reached uncompensable heat stress at a critical wet-bulb temperature averaging 30.55 +/- 0.98 C in humid conditions between 36 and 40 C; no participant in any of six environments reached 35 C; in hot-dry conditions the departure was larger because dry heat gain outpaced evaporative cooling though sweat rates did not differ significantly; a single wet-bulb threshold cannot be applied across climatic conditions",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/ and https://pubmed.ncbi.nlm.nih.gov/34913738/ (abstract via NCBI E-utilities efetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2023 PNAS analysis found brief exceedances in parts of the Middle East and the Indus River Valley at 1.5 C, more widespread but still brief dangerous heat stress at 2 C including eastern China and sub-Saharan Africa, a sharp rise at 3 C with the US Midwest emerging as a moist-heat hotspot, and that holding warming below 2 C nearly eliminates widespread uncompensable moist heatwaves",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10589700/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'The World Health Organization reports approximately 489,000 heat-related deaths per year for 2000-2019, 45 per cent of them in Asia and 36 per cent in Europe, and an increase of roughly 85 per cent in heat-related mortality among people over 65 between 2000-2004 and 2017-2021'",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+          "disposition": "qualified",
+          "note": "Every number is right and both figures already carried temporal anchors, so this is an attribution fix rather than a numerical one. The fact sheet does not present these as WHO findings: it says 'Between 2000-2019 studies show approximately 489 000 heat-related deaths occur each year', crediting Zhao et al. 2021, and credits the 85 per cent over-65 increase to the Lancet Countdown 2023. 'The WHO reports' attaches a general-purpose institutional name to two specific modelling results, one of which is a continuously reissued annual product whose value moves with each Countdown edition. Reworded to say WHO's fact sheet relays them, with the underlying sources named and dated, so a reader who sees a different figure in a later Countdown knows why. Page last updated 31 July 2026."
+        },
+        {
+          "claim": "Heat indices such as the wet-bulb globe temperature do not incorporate clothing evaporative resistance, individual metabolic heat production, or interindividual variation in sweating capacity and cardiovascular reserve, so they classify environments rather than people",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13342189/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The rodent thermoneutral study tested mice from 22 to 35 C but rats only from 22 to 32 C; this article, like the pillar, gives the span as '22 to 35 C'. Accurate for the experiment as a whole, potentially misleading for the rat result specifically."
+      ]
+    },
+    {
+      "slug": "the-immune-system-explained",
+      "path": "content/en/biology/physiology/the-immune-system-explained.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Humans have ten Toll-like receptors, TLR1 through TLR10, while mice have twelve - TLR1 to TLR9 plus TLR11 to TLR13, with TLR10 a pseudogene in mice; plasma-membrane receptors detect microbial lipids and proteins while endosomal receptors detect nucleic acids",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13462524/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Human TLR10 is considered functionally active but its definitive ligand remains unresolved",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13462524/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Complement operates as an independent humoral system marking surfaces for destruction and recruiting cells, interfacing with cytokine signalling without being reducible to it",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13462524/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Roughly 40 functional Vkappa and five Jkappa giving 200 combinations; about 30 Vlambda with four Jlambda giving 120; around 65 VH, 27 DH and six JH yielding roughly 11,000 VH regions; about 3.5 x 10^6 specificities from recombination alone; junctional diversity via exonuclease deletion plus templated P- and untemplated N-nucleotides concentrated in CDR3; a potential repertoire running to 10^11",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK27140/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Clonal selection - one receptor specificity per lymphocyte, antigen binding driving division; one activated lymphocyte produces on the order of a thousand daughter cells over three to five days; the first adaptive response takes four to seven days while the innate layer holds the line",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK27090/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "High-throughput sequencing gives a lower-bound estimate of about 100 million distinct T-cell receptor beta sequences in the naive CD4 and CD8 repertoires of young adults",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246948/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Three orders of magnitude below the theoretical ceiling'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246948/ and https://www.ncbi.nlm.nih.gov/books/NBK27140/",
+          "disposition": "qualified",
+          "note": "The arithmetic is fine but the two quantities come from different receptor systems, and nothing in the article said so. The 10^11 ceiling three paragraphs earlier is Janeway's estimate for the naive B-cell immunoglobulin repertoire, built from V, D and J segment counts for antibody heavy and light chains. The 100 million is a measured lower bound for TCR beta - one chain of a T-cell receptor. Neither source licenses using one as the ceiling for the other. The comparison is still worth making, since the order-of-magnitude gap between combinatorial possibility and realised repertoire holds either way, so this is qualified rather than cut: added a clause naming what each number counts."
+        },
+        {
+          "claim": "Naive repertoire richness declined only about two- to fivefold in healthy elderly people and memory repertoires contracted less still, while large naive clones distinct from memory clones appeared, indicating uneven homeostatic proliferation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4246948/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AIRE drives medullary thymic epithelial cells to express a broad but selective repertoire of tissue-restricted antigens, forms transcriptionally active condensates, and explains sparse stochastic expression as the low probability that a locus reaches a permissive chromatin and cofactor state - with the reviewers explicit that direct evidence for equivalent mechanisms outside these cells is lacking",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13414922/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Plants defend themselves with a two-tiered innate system of cell-surface pattern recognition receptors and intracellular nucleotide-binding leucine-rich repeat receptors, 'the first of which was cloned in 1992', and the two tiers interact rather than operating in series",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9048904/",
+          "disposition": "corrected",
+          "note": "'The first of which' points at the NLRs, and the 1992 gene was not one. The cited review's abstract gives the ambiguous form the article followed - 'The first plant Resistance (R) gene was cloned in 1992' - but its conclusion is specific: 'The first plant Resistance (R) gene, Hm1, was cloned back in 1992 (Johal and Briggs, 1992). Many immune receptors have been identified since 1994, when the first PRR and NLRs were identified.' Hm1 is the maize gene whose cited title is 'Reductase activity encoded by the HM1 disease resistance gene in maize' - an enzyme, not a receptor of either tier. So the sentence dated a receptor class from the cloning of something that is not a receptor, and did so two years early. Corrected to say what the review's conclusion says, keeping 1992 as the field's starting date where it belongs. The two-tier architecture and the mutual-potentiation point both check out."
+        },
+        {
+          "claim": "A 2025 eLife review argues priming and trained immunity should be examined together across taxa, notes the mechanisms differ and only partly overlap, identifies specificity as the criterion deciding whether 'memory' is the right word, raises the soil and gut microbiome as a possible route, and attributes vertebrate trained immunity to metabolic and epigenetic remodelling",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12680377/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO reports 85 per cent global DTP3 coverage in 2025, around 110 million infants, 13.5 million zero-dose children, and measles coverage of 84 per cent for one dose and 77 per cent for two",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/immunization-coverage",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The statement that plants have no lymphocytes and no somatic receptor rearrangement of the vertebrate kind is not in the cited Plant Cell review, which does not address it. Treated as uncontroversial background rather than resourced.",
+        "The WHO immunization figures are from WUENIC, reissued every July; the 2025 values verified here are those on the fact sheet as published 15 July 2026 and will be superseded. The article's 'in 2025' anchors them correctly for now."
+      ]
+    }
+  ]
+}

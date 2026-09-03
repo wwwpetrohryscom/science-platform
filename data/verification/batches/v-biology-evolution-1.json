@@ -1,0 +1,193 @@
+{
+  "batchId": "v-biology-evolution-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "evolution-explained",
+      "path": "content/en/biology/evolution/evolution-explained.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "NHGRI defines evolution, in genomic terms, as the process by which living organisms change over time through changes in the genome",
+          "sourceChecked": "https://www.genome.gov/genetics-glossary/Evolution",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An allele is one of two or more versions of a DNA sequence at a given genomic location",
+          "sourceChecked": "https://www.genome.gov/genetics-glossary/Allele",
+          "disposition": "verified"
+        },
+        {
+          "claim": "78 Icelandic parent-offspring trios, average paternal age 29.7 years, average de novo mutation rate 1.20 x 10^-8 per nucleotide per generation; between-family variation dominated by father's age at conception, adding roughly two mutations per year, paternal contribution doubling about every 16.5 years",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3548427/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Tiktaalik roseae specimens from the Fram Formation (Frasnian Stage, Late Devonian), southern Ellesmere Island; a 2024 description of the axial skeleton found expanded, ventrally curved sacral ribs likely attached to the pelvis by ligament, showing axial modifications for head mobility, body support and pelvic-fin buttressing evolved in finned vertebrates before limbs",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11009633/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The draft chimpanzee genome catalogued approximately 35 million single-nucleotide changes and about 5 million insertion/deletion events since divergence, and found patterns of change in protein-coding genes dominated by the fixation of neutral and slightly deleterious alleles",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/16136131/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Twelve E. coli populations founded from a common ancestor in 1988; no population used citrate for more than 30,000 generations; a citrate-using variant arose in one population by generation 31,500; replay experiments showed a potentiating change had occurred in that lineage by generation 20,000",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2430337/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Proponents of an extended evolutionary synthesis treat developmental bias, developmental plasticity, inclusive inheritance and niche construction as causes of evolutionary direction with reciprocal causation between organism and environment; the authors of the 2015 statement are explicit that the dispute concerns causal structure and emphasis rather than the empirical findings",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4632619/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A companion argument holds that the standard framework has absorbed new results without altering its core predictions, and that absorbing findings is not the same as revising a theory",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5566817/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The fourth evidence line in 'Evidence lines that could have disagreed and did not' - island faunas, split biotas of formerly joined landmasses, the nested pattern of endemic species on archipelagos - is the only one of the four with no citation attached. Nothing in it is wrong and it is standard biogeography, so I did not cut it, but it is the paragraph in this article a reader cannot follow back to a source.",
+        "Source 8 (Muller, Interface Focus 2017) argues FOR the extended synthesis, not against it. The article's word 'companion' reads it correctly as an allied argument rather than a rebuttal, but the sentence sits immediately after a description of the pro-EES position and an editor skimming could mistake it for the counter-case. Worth a second opinion on whether the paragraph should name the anti-EES side, which the article currently does not cite at all."
+      ]
+    },
+    {
+      "slug": "natural-selection-and-adaptation",
+      "path": "content/en/biology/evolution/natural-selection-and-adaptation.md",
+      "status": "clean",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "The figures come from a synthesis of 63 published studies covering 62 species and more than 2,500 individual estimates; median absolute linear gradient 0.16, median absolute quadratic gradient 0.10",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/18707288/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The distribution of quadratic gradients was symmetric about zero, giving no evidence that stabilising selection is either stronger or more common than disruptive selection",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/18707288/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Most published selection studies were unreplicated and had sample sizes below 135 individuals, leaving them underpowered to detect selection of the magnitude typically reported",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/18707288/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Estimates made through mating success were on average stronger than those made through survival",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/18707288/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Concealing coloration in rock pocket mice reduces predation; four Mc1r mutations account for melanism in one lava-dwelling population, and a second melanic population on a different lava flow shows no association with Mc1r",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/12704245/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The classical explanation of industrial melanism was challenged in the 1990s; a six-year release programme involving 4,864 moths measured differential bird predation and estimated daily selection against melanics of about 0.1, sufficient in magnitude and direction to account for the decline of melanism in post-industrial Britain",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3391436/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A wild radish study combining single-visit pollen-removal measurements, paternity-based male fitness, experimental stamen removal and five generations of artificial selection found stabilising selection on anther exsertion but marginally significant negative directional selection on the anther-height dimorphism, suggesting the trait as currently expressed may be maladaptive",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2701762/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2011 review argued genes are routinely labelled adaptive on the strength of an association with a functionally important phenotype or a nucleotide pattern consistent with positive selection, when neither establishes an effect on fitness, and that experiments testing the targets and agents of selection in a genomic context are required",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/22005986/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The term spandrel entered the field through a 1979 critique of the adaptationist programme: atomising an organism into traits, proposing a plausible fitness benefit for each, and treating the plausibility as the finding; reading a trait's history off its current utility is the specific error",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/42062/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The PMC copies of the pocket-mouse paper (PMC154334) and the Gould and Lewontin paper are behind a reCAPTCHA from this environment. I read both through the NCBI E-utilities abstract records for PMID 12704245 and PMID 42062 instead, which carry every clause the article attributes to them, but I did not read either full text.",
+        "The article's mode table compresses 'no evidence that stabilising selection is stronger or more common than disruptive selection' into 'about as frequent as stabilising selection'. The synthesis's finding that the quadratic-gradient distribution is symmetric about zero does support the affirmative version, and the body text below the table states the negative form correctly, so I left both. An editor who dislikes absence-of-evidence being restated as equality should look at that one table cell.",
+        "All three articles in this batch open the same way - a corrective against a popular misreading - and all three close with a section on where the framework is weakest. The skeleton is consistent rather than duplicated; no two sections share wording. Flagged, not restructured."
+      ]
+    },
+    {
+      "slug": "genetic-drift-and-population-size",
+      "path": "content/en/biology/evolution/genetic-drift-and-population-size.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "NHGRI defines genetic drift as random fluctuation in the frequency of an allele in a population, strongest in small isolated groups, and able to fix a variant or erase it entirely",
+          "sourceChecked": "https://www.genome.gov/genetics-glossary/Genetic-Drift",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A founder effect is the reduction in genomic variability that occurs when a small group separates from a larger population, after which the new subpopulation carries genotypes resembling those few founders",
+          "sourceChecked": "https://www.genome.gov/genetics-glossary/Founder-Effect",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Ne is the size of an idealised population experiencing the same amount of a given genetic property as the real one; inbreeding, variance, additive-variance, eigenvalue, coalescent and metapopulation effective sizes coincide only when a population is closed and at mutation-drift equilibrium; estimation methods assume no immigration, random mating, random sampling, absence of spatial genetic structure and equilibrium, assumptions seldom examined and rarely met",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11645448/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Depending on sampling design and analytical method, estimates of Ne for the same population can differ by orders of magnitude",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11645448/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "When no genetic data are available, practice is to use census size as a proxy with a rule-of-thumb averaged Ne/Nc ratio of 0.10; the Kunming-Montreal Global Biodiversity Framework adopted as a headline indicator the number of populations within a species with Ne above 500 compared with the number below it; the 500 line has been criticised as too permissive with 1,000 proposed instead, most sharply for low-fecundity species where the Ne/Nc ratio is unusually high",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11645448/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Slightly deleterious mutations far outnumber slightly advantageous ones, so nearly neutral theory predicts a negative correlation between substitution rate and effective size; among mammals long generation times go with smaller effective sizes, and the ratio of non-synonymous to synonymous divergence is higher in the human-chimpanzee comparison than in the mouse-rat comparison",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3227401/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "By the mid-1990s the Florida panther population comprised roughly two dozen breeding adults",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6993177/",
+          "disposition": "corrected",
+          "note": "The paper dates the count to the start of the decade, not the middle, and does not restrict it to breeders: 'By the early 1990s, the population of ~20 to 25 adults showed reduced levels of molecular genetic variation'. The article's 'mid-1990s' also read as though the count were taken at the moment of the 1995 translocation, which is not what the source says. Changed to 'By the early 1990s the population comprised roughly 20 to 25 adults', which is the paper's own figure and its own date, and dropped 'breeding', which the source does not claim."
+        },
+        {
+          "claim": "Average individual microsatellite heterozygosity rose to 25 per cent from 18.4 per cent measured in 1993; admixed kittens showed increased survival relative to non-admixed ones; cryptorchidism frequency fell; in the southern Big Cypress National Preserve (2,174 km2) panther numbers rose eightfold from 3 to 25, and the wider population reached at least 95 adults by 2003",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6993177/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The likely source population at Macquarie Island lies some 1,500 km away",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3924085/",
+          "disposition": "removed",
+          "note": "The 1,500 km figure is in the paper but does not mean this. It appears in a sentence about a rejected alternative source: 'The most likely candidate, based on geographical proximity, is the population from the northwestern coast of Tasmania, extinct since prehistoric times, though 1500 km further from VLC than MQ.' It is how much FURTHER Tasmania is than Macquarie Island, not the Victoria Land Coast to Macquarie Island distance - which the paper never states, and which is in fact roughly 2,200 km by latitude alone. The number was lifted out of its comparative frame and attached to the wrong pair of places. The paper gives no substitute figure, so the clause was cut rather than corrected; 'the likely source population at Macquarie Island' is what the paper supports and is what the sentence now says."
+        },
+        {
+          "claim": "The colony occupied the Victoria Land Coast for roughly seven millennia after ice-sheet retreat opened the beaches around 8,000 years before present, before disappearing about a thousand years ago",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3924085/",
+          "disposition": "corrected",
+          "note": "The 8,000 YBP anchor is real but is about habitat, not occupation: 'This coastline would have been inhospitable to southern elephant seals prior to around 8000 YBP.' The authors date the colony itself later - the abstract reads 'from initial founding approximately 7000 years ago to eventual extinction within the past millennium', and the oldest radiocarbon-dated remains are ~7200 YBP. Founding at 8,000 YBP plus a ~1,000 YBP end gave the article seven millennia of occupation where the paper supports about six. Rewritten to keep both dated facts in their own roles: founded about 7,000 years ago, on beaches made habitable only around 8,000 years before present, declining sharply about a thousand years ago before going extinct."
+        },
+        {
+          "claim": "Ancient DNA from the earlier phase (about 7,100 to 3,000 years before present) recovered 58 haplotypes across 49 segregating sites; the later phase yielded 128 haplotypes and 79 segregating sites; Macquarie Island carries 15 haplotypes and 23 segregating sites today",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3924085/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Coalescent analysis of thirty-four genomes from nine populations recovers a shared decline in all non-African lineages from about 200,000 to roughly 50,000 years ago, consistent with a bottleneck at the out-of-Africa dispersal around 40,000-60,000 years ago, followed by ancestral effective sizes above a million in some East Asian lineages by 2,000 years ago; converting the inferences to individuals and years requires an assumed mutation rate and generation time",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4116295/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The Florida panther paper's own abstract says 'genetic heterozygosity doubled', which its body text does not support - the body gives 25% from 18.4% in 1993, a 1.36-fold rise. The article uses the body figure, which is the right choice, but a reader who checks the abstract will find an apparent contradiction that belongs to the paper, not to us.",
+        "I could not find a stated Victoria Land Coast to Macquarie Island distance anywhere in de Bruyn et al., including via targeted verbatim searches for every sentence containing 'km' and every sentence containing 'Macquarie'. If an editor wants the distance restored, it needs a source outside this paper.",
+        "The article says the shape of the inferred human population-size curve is 'far better constrained than its absolute height'. Schiffels and Durbin state the scaling caveat plainly but frame it around times as much as sizes - an alternative mutation rate 'would halve the times'. The article's gloss is defensible for relative versus absolute Ne but leans harder on the vertical axis than the paper does. Left as written; noted."
+      ]
+    }
+  ]
+}

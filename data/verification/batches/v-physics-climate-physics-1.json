@@ -7,70 +7,71 @@
       "slug": "atmospheric-physics-explained",
       "path": "content/en/physics/climate-physics/atmospheric-physics-explained.md",
       "status": "amended",
-      "claimsChecked": 10,
+      "claimsChecked": 9,
       "findings": [
         {
-          "claim": "Standard sea-level pressure is 1013.25 hPa, equal to a column of about 10.3 tonnes of air per square metre",
+          "claim": "NOAA gives standard sea-level pressure as 1013.25 hPa",
           "sourceChecked": "https://www.noaa.gov/jetstream/atmosphere/air-pressure",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Page read in full (WebFetch is 403 on noaa.gov; retrieved with a browser user-agent via curl). Exact sentence: \"The standard pressure at sea-level is 1013.25 in both millibars (mb) and hectopascal (hPa).\" The 10.3 tonnes per square metre that follows is not NOAA's figure but the unit conversion 101325 Pa / 9.80665 m s-2 = 10332 kg m-2, and the 'roughly three-quarters below cruising altitude' is derived from the NASA Glenn pressure relation cited later (22 per cent remaining at 11 km); both are arithmetic on cited numbers rather than statements taken from a source."
         },
         {
-          "claim": "Dry air is 78.084% nitrogen, 20.946% oxygen, 0.934% argon; the top four constituents are 99.998% of the total; water vapour ranges from near zero over dry desert regions to approaching 4% in the tropics",
+          "claim": "Dry air is 78.084% nitrogen, 20.946% oxygen and 0.934% argon by volume; the top four constituents are 99.998% of the total; NOAA's table lists CO2 at 0.042%; water vapour runs from near zero over desert regions with dry winds to approaching 4% in the humid tropics",
           "sourceChecked": "https://www.noaa.gov/jetstream/atmosphere",
           "disposition": "verified"
         },
         {
-          "claim": "NOAA's table lists carbon dioxide at 0.042 per cent, and the Global Monitoring Laboratory global annual mean is 425.62 +/- 0.09 ppm for 2025",
+          "claim": "NOAA's Global Monitoring Laboratory puts the global annual mean CO2 at 425.62 +/- 0.09 ppm for 2025",
           "sourceChecked": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_gl.txt",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Live, continuously updated product, so the temporal anchor was checked specifically. The file's last row is '2025 425.62 0.09' and its header records a last update of Wed Aug 5 2026, so the article's 'for 2025' is the anchor the source itself supports and the value is current as of that release."
         },
         {
-          "claim": "NASA Glenn's standard atmosphere sets 15.04 C at the surface with a 0.00649 C/m decrease; pressure halves at about 5.5 km and is roughly 22% at 11 km; the lower stratosphere is near -56.5 C",
+          "claim": "NASA Glenn's standard atmosphere sets 15.04 C at the surface falling 0.00649 C per metre through the troposphere; pressure halves at about 5.5 km and is roughly 22 per cent by 11 km; the lower stratosphere holds near -56.5 C",
           "sourceChecked": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Constants read off the page: T = 15.04 - .00649*h, troposphere to 11,000 m, lower stratosphere T = -56.46 C. The two pressure fractions are not printed; they were computed from the page's own relation p = 101.29*[(T+273.1)/288.08]^5.256, which gives 0.499 of sea-level pressure at 5,500 m and 0.224 at 11,000 m."
         },
         {
-          "claim": "Top-of-atmosphere solar intensity is about 1,360 W/m2 on the face presented to the Sun and about 340 W/m2 spread over the sphere; 29% is reflected, 23% absorbed in the atmosphere, 48% at the surface, so 71% (close to 240 W/m2) is absorbed",
+          "claim": "Top-of-atmosphere solar intensity about 1,360 W/m2 on the face presented to the Sun, about 340 W/m2 spread over the sphere; 29 per cent reflected, 23 per cent absorbed in the atmosphere, 48 per cent at the surface, so about 71 per cent absorbed or close to 240 W/m2",
           "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
           "disposition": "verified"
         },
         {
-          "claim": "AR6 reports an Earth energy imbalance of 0.50 [0.32 to 0.69] W/m2 for 1971-2006 rising to 0.79 [0.52 to 1.06] W/m2 for 2006-2018, with ocean heat uptake accounting for 91% of the total energy change",
+          "claim": "AR6 reports an Earth energy imbalance of 0.50 [0.32 to 0.69] W/m2 for 1971-2006 rising to 0.79 [0.52 to 1.06] W/m2 for 2006-2018, with ocean heat uptake accounting for 91 per cent of the total energy change",
           "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Chapter text read directly: \"This corresponds to an Earth energy imbalance of 0.50 [0.32 to 0.69] W m-2 for the period 1971-2006, increasing to 0.79 [0.52 to 1.06] W m-2 for the period 2006-2018 ... Ocean heat uptake is by far the largest contribution and accounts for 91% of the total energy change.\" Both periods and the 91 per cent are the source's own."
         },
         {
-          "claim": "NASA CERES puts the energy imbalance at approximately 0.7 W/m2, which it notes is 0.3 per cent of absorbed solar radiation",
+          "claim": "NASA CERES gives the energy imbalance as approximately 0.7 W/m2, which it notes is 0.3 per cent of absorbed solar radiation, and its science overview attaches no period to that figure",
           "sourceChecked": "https://ceres.larc.nasa.gov/science/",
-          "disposition": "qualified",
-          "note": "The 0.7 W/m2 / 0.3% figures are on the page exactly as quoted, but the article called this the 'present magnitude'. The CERES science overview attaches no date or period to the number, and CERES EEI is a continuously updating record; the same chapter of AR6 already cited in this article assesses 0.79 W/m2 for 2006-2018, and NASA Earth Observatory says 'a little over 0.8'. Live dataset with no temporal anchor available in the source: removed the 'present' framing and said instead that the source states the figure without attaching a period, rather than inventing a date."
+          "disposition": "verified",
+          "note": "Checked because this is a continuously updating product. The page reads \"Its magnitude is approximately 0.7 Wm-2 (or 0.3% of ASR)\" and genuinely carries no observation period, so the article's explicit statement that the source attaches none is accurate rather than an evasion. Left as written: the correct temporal anchor here is the absence of one, and inventing a period would misreport the source. The dated AR6 value stands beside it in the same paragraph."
         },
         {
-          "claim": "Opening summary: about five petawatts of energy is moved from the tropics towards each pole",
+          "claim": "Journal of Climate analysis finds annual mean poleward atmospheric transport peaking at 5.0 +/- 0.14 PW at 43N with similar values near 40S; at 35 degrees the atmosphere carries 78 per cent of the total in the Northern Hemisphere and 92 per cent in the Southern; ocean transport dominates only between the equator and about 17N",
           "sourceChecked": "https://journals.ametsoc.org/view/journals/clim/14/16/1520-0442_2001_014_3433_eomaao_2.0.co_2.xml",
           "disposition": "qualified",
-          "note": "The 5 PW figure is the ANNUAL MEAN peak in Trenberth and Caron (2001); the same paper reports maxima exceeding 8 PW in Northern Hemisphere winter and much smaller summer values. The article said the transport happens 'continuously', which reads as a steady value. Replaced with 'in the annual mean', which is what the source supports."
+          "note": "The body sentence matches the abstract word for word (\"Annual mean poleward transports of atmospheric energy peak at 5.0 +/- 0.14 PW at 43 degrees N and with similar values near 40 degrees S\"; \"poleward ocean heat transports are dominant only between 0 and 17 degrees N\"; \"At 35 degrees latitude ... the atmospheric transport accounts for 78% of the total in the Northern Hemisphere and 92% in the Southern Hemisphere\"). The defect was in the opening paragraph and the excerpt, which turned a PEAK at one latitude into a general transport figure - 'about five petawatts, moved from the tropics towards each pole'. Meridional transport falls to zero at the pole; five petawatts is the maximum, not the amount crossing every latitude. Narrowed both to 'peaks at about five petawatts in each hemisphere in the annual mean', matching the body."
         },
         {
-          "claim": "Journal of Climate analysis finds atmospheric transport peaking at 5.0 +/- 0.14 PW at 43N with similar values near 40S; at 35 degrees the atmosphere carries 78% of the total in the Northern Hemisphere and 92% in the Southern; ocean transport dominates only between the equator and about 17N",
-          "sourceChecked": "https://journals.ametsoc.org/view/journals/clim/14/16/1520-0442_2001_014_3433_eomaao_2.0.co_2.xml",
-          "disposition": "verified"
-        },
-        {
-          "claim": "AR6 puts CERES-EBAF surface downward solar and thermal flux uncertainties at 10 and 8 W/m2 and ocean latent and sensible heat flux uncertainties at roughly 11 and 5 W/m2; CMIP5 land-averaged downward thermal and solar radiation differ by more than 30 and 40 W/m2, with CMIP6 agreeing better; polar surface fluxes are least constrained because there are fewer surface sites",
+          "claim": "AR6 puts CERES-EBAF surface downward solar and thermal flux uncertainties at 10 and 8 W/m2 and ocean latent and sensible heat flux uncertainties at roughly 11 and 5 W/m2; CMIP5 land-averaged downward thermal and solar radiation differ by more than 30 and 40 W/m2 with CMIP6 agreeing better; polar surface fluxes are the least constrained",
           "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
-          "disposition": "verified"
+          "disposition": "qualified",
+          "note": "Every number checks out against the chapter verbatim. The reason attached to the polar statement did not. AR6 says the polar uncertainty is larger \"due to the limited number of surface sites AND larger uncertainty in surface observations\"; the article gave only the first and framed it as the whole explanation ('for the straightforward reason that there are fewer surface sites'). One of two causes presented as the cause. Rewritten to carry both, attributed to AR6."
         }
       ],
       "openQuestions": [
-        "The CERES science overview gives no observation period for its 0.7 W/m2 imbalance figure, so the article can only say that the source states it undated. A dated CERES-EBAF release figure would be a better citation if the desk wants a specific period."
+        "The 10.3 tonnes per square metre in the opening sentence is a unit conversion of NOAA's 1013.25 hPa, not a NOAA statement. It is correct arithmetic and uncontroversial, but no source in the article says it.",
+        "The rotation rate (23.9 hours) and the form of the Coriolis parameter are asserted without a source. Both are standard background and were not checked against a source."
       ]
     },
     {
       "slug": "radiative-transfer-explained",
       "path": "content/en/physics/climate-physics/radiative-transfer-explained.md",
       "status": "clean",
-      "claimsChecked": 9,
+      "claimsChecked": 8,
       "findings": [
         {
           "claim": "The Stefan-Boltzmann constant is 5.670374419 x 10^-8 W m-2 K-4 and CODATA now fixes it exactly",
@@ -78,71 +79,77 @@
           "disposition": "verified"
         },
         {
-          "claim": "The Wien wavelength constant 2.897771955 x 10^-3 m K puts a 288 K peak at 10.06 um; the frequency constant 5.878925757 x 10^10 Hz K-1 gives a peak corresponding to 17.71 um for the same body",
-          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?bwien",
-          "disposition": "verified"
+          "claim": "The Wien wavelength constant 2.897771955 x 10^-3 m K puts a 288 K body's peak at 10.06 um; the frequency constant 5.878925757 x 10^10 Hz K-1 gives a peak frequency corresponding to 17.71 um for the same body",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?bwien and https://physics.nist.gov/cgi-bin/cuu/Value?bpwien",
+          "disposition": "verified",
+          "note": "Both CODATA 2022 constants read off their NIST pages and both listed exact. The two wavelengths are the arithmetic: 2.897771955e-3/288 = 1.0062e-5 m, and c/(5.878925757e10 x 288) = 1.771e-5 m. The article's point that the two answers differ by nearly a factor of two because of the Jacobian between per-wavelength and per-frequency spectra is a correct reading of why NIST publishes two constants, and is the kind of thing usually got wrong."
         },
         {
-          "claim": "The Sun's surface is close to 5,800 K, putting its emission peak near 0.50 um; Earth's 255 K effective temperature (the value satisfying Stefan's law for roughly 240 W/m2) puts its peak near 11 um",
+          "claim": "The Sun's surface is close to 5,800 K, putting its emission peak near 0.50 um; Earth's 255 K effective temperature - the value satisfying Stefan's law for roughly 240 W/m2 - puts its peak near 11 um",
           "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "NASA gives \"The surface of the Sun has a temperature of about 5,800 Kelvin\" and the 240 W/m2 absorbed figure. The two peak wavelengths are Wien arithmetic on those temperatures. Worth recording that the same NASA page states the surface peak as \"around 12.5 micrometers\", which is neither of the article's two conventions; the article does not attribute any peak wavelength to NASA, so there is no misattribution, and its section on the per-wavelength/per-frequency ambiguity is the reason such quoted peaks disagree."
         },
         {
-          "claim": "The atmospheric window runs from roughly 8 to 14 um with maximum transparency near 10 um, and a strong carbon dioxide band sits between about 12 and 15 um",
+          "claim": "A partly open atmospheric window runs from roughly 8 to 14 um with maximum transparency near 10 um, and a strong carbon dioxide band between about 12 and 15 um sits across its long-wavelength edge",
           "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Window range and 10 um maximum are in the body text verbatim. The 12-15 um band bound is NOT in the body text, which says only \"wavelengths longer than 12-13 micrometers\" with no upper bound; it is in a figure caption on the same page - \"it absorbs energy in wavelengths (12-15 micrometers) that water vapor does not, partially closing the window\". Flagged on a first reading as an unsupported upper bound and then found in the caption, which is why the whole page rather than the paragraph was read."
         },
         {
-          "claim": "AR6 records that Angstrom's 1900 saturation assertion 'was understood half a century later to be incorrect'",
+          "claim": "AR6 records that Angstrom's 1900 saturation objection \"was understood half a century later to be incorrect\"",
           "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Chapter text: \"These started as early as Angstrom (1900) criticizing the results of Arrhenius (1896) arguing that the atmosphere was already saturated in infrared absorption such that adding more CO2 would not lead to warming. The assertion of Angstrom was understood half a century later to be incorrect.\" The quotation and the characterisation of the objection are both the chapter's."
         },
         {
-          "claim": "Line-by-line calculations in JGR: Atmospheres found the logarithmic dependence holds even for monochromatic radiance, beyond what band-saturation arguments explain, and attributed it to an emission-layer displacement effect in an atmosphere with temperature falling linearly and gas concentration decaying exponentially with height",
-          "sourceChecked": "https://api.crossref.org/works/10.1002/2014JD022466 (publisher-deposited abstract of Huang and Bani Shahabadi 2014; Wiley full text returned 403)",
-          "disposition": "verified"
+          "claim": "Line-by-line calculations in JGR: Atmospheres found the logarithmic dependence holds even for monochromatic radiance, which band-saturation arguments alone do not explain, and attributed it to an emission-layer displacement effect in an atmosphere with temperature varying linearly and gas concentration decaying exponentially with height",
+          "sourceChecked": "https://api.crossref.org/works/10.1002/2014JD022466 (publisher-deposited abstract of Huang and Bani Shahabadi 2014, 'Why logarithmic? A note on the dependence of radiative forcing on gas concentration')",
+          "disposition": "verified",
+          "note": "Wiley full text is not reachable to a scripted client; the claim was checked against the abstract Wiley deposits with Crossref, which carries the whole argument: \"The logarithmic relationship holds for monochromatic radiance requires an explanation beyond the conventional ideas based on the spectroscopic features of the gas absorption lines. We show that the phenomenon can be explained by an Emission Layer Displacement Model, which describes the radiance response to gas perturbation under normal atmospheric conditions such as temperature linearly varying with height and gas concentration exponentially decaying with height.\" Every element of the article's sentence is in that text; the full paper was not read."
         },
         {
-          "claim": "A 2016 GRL revision reports 1750-2011 CO2 forcing within 1 per cent of the previous assessed value but about 10 per cent higher at 2,000 ppm, and methane's forcing about 25 per cent higher, from 0.48 to 0.61 W/m2, once shortwave absorption is included",
-          "sourceChecked": "https://api.crossref.org/works/10.1002/2016GL071930 (publisher-deposited abstract of Etminan et al. 2016; Wiley full text returned 403)",
-          "disposition": "verified"
+          "claim": "A 2016 GRL revision reports the 1750-2011 CO2 forcing within 1 per cent of the previous assessed value but about 10 per cent higher at 2,000 ppm, and methane's forcing about 25 per cent higher, from 0.48 to 0.61 W/m2, once shortwave absorption is included",
+          "sourceChecked": "https://api.crossref.org/works/10.1002/2016GL071930 (publisher-deposited abstract of Etminan et al. 2016)",
+          "disposition": "verified",
+          "note": "Abstract read via Crossref (Wiley full text unreachable): \"Methane's RF is particularly impacted because of the inclusion of the shortwave forcing; the 1750-2011 RF is about 25% higher (increasing from 0.48 W m-2 to 0.61 W m-2) ... The 1750-2011 CO2 RF is within 1% of IPCC's value but is about 10% higher when CO2 amounts reach 2000 ppm.\" Figures, direction and the shortwave attribution all match; the full paper was not read."
         },
         {
-          "claim": "AR6's assessed effective radiative forcing for a doubling of carbon dioxide relative to 1750 is 3.93 +/- 0.47 W/m2",
+          "claim": "AR6's assessed effective radiative forcing for a doubling of carbon dioxide relative to 1750 is 3.93 +/- 0.47 W/m2, and spectroscopic and radiative-transfer uncertainties propagate into forcing estimates",
           "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "The NIST Chemistry WebBook entry cited as the reference spectrum is the gas-phase infrared spectrum of carbon dioxide",
-          "sourceChecked": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C124389&Type=IR-SPEC&Index=1",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "\"The ERF from doubling CO2 (2xCO2) from the 1750 level (278 ppm) is assessed to be 3.93 +/- 0.47 W m-2 (high confidence).\" The same paragraph supports the article's closing point about line parameters and the water-vapour continuum feeding forcing uncertainty: \"The combined spectroscopic and radiative transfer modelling uncertainties give an uncertainty in the CO2 SARF of around 10% or less\", and elsewhere \"updates to the water vapour continuum (increasing the total SARF of methane by 25%)\"."
         }
       ],
       "openQuestions": [
-        "Both AGU papers are paywalled at Wiley (403 to scripted clients). Their claims were checked against the publisher-deposited abstracts via Crossref, which carry the exact figures quoted; the full texts were not read.",
-        "The molecular-symmetry argument (homonuclear diatomics have no dipole-active vibration; CO2's bending mode does) is standard textbook spectroscopy and was treated as background rather than checked against a source."
+        "The final paragraph's claim that treating each grid column as an independent plane-parallel slab biases fluxes, and that the error is hard to bound observationally, has no source in this article and is not in AR6 Chapter 7 (no match for 'plane-parallel', 'independent column' or 'cloud heterogeneity'). It is standard and appropriately hedged, and the surrounding honesty paragraph is the strongest part of the piece, so it was left alone rather than cut - but it is asserted, not sourced.",
+        "The molecular-symmetry argument (homonuclear diatomics have no dipole-active vibration, CO2's bending mode does, water vapour has a permanent dipole) is textbook spectroscopy and was treated as background. The NIST Chemistry WebBook entry cited for it was opened and is what the source list says it is - the gas-phase infrared spectrum for carbon dioxide, CAS 124-38-9 - but the spectrum is served as a plotted image, so it carries no textual statement supporting any sentence in the article.",
+        "Wiley returns 403 to scripted clients for both AGU papers, so both were verified against publisher-deposited abstracts rather than full texts."
       ]
     },
     {
       "slug": "the-greenhouse-effect-physics",
       "path": "content/en/physics/climate-physics/the-greenhouse-effect-physics.md",
       "status": "amended",
-      "claimsChecked": 9,
+      "claimsChecked": 8,
       "findings": [
         {
-          "claim": "240 W/m2 absorbed gives a 255 K effective emitting temperature against an observed surface near 288 K, which NASA Earth Observatory records as roughly 15 C and 'more than 30 degrees warmer than it would be if it didn't have an atmosphere'",
+          "claim": "240 W/m2 absorbed gives a 255 K effective emitting temperature against an observed surface near 288 K, which NASA Earth Observatory records as roughly 15 C and \"more than 30 degrees warmer than it would be if it didn't have an atmosphere\"",
           "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Quotation is exact. Note the article says 'about 33 K' where NASA says 'more than 30 degrees'; the 33 K figure is separately supported by the GISS brief also cited here, which gives the same thought experiment as 'around 33 degrees C'. So the sharper number is sourced, just not to the page it sits beside."
         },
         {
           "claim": "The 33 K calculation holds planetary albedo fixed at its present value of about 0.29",
           "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "AR6: \"the best estimate of the planetary albedo is usually taken to be 0.29\". The GISS brief independently states the constraint the article is making - the comparison is with a planet \"without any atmospheric absorption, but with exactly the same planetary albedo\" - which is precisely the qualification the article says is usually left off."
         },
         {
-          "claim": "NASA GISS attributed infrared absorption as roughly 50 per cent to water vapour, 25 per cent to clouds and 20 per cent to carbon dioxide, with the remainder from ozone, methane and aerosol",
+          "claim": "NASA GISS attributed the absorption as roughly 50 per cent to water vapour, 25 per cent to clouds and 20 per cent to carbon dioxide, with the remainder from ozone, methane and aerosol",
           "sourceChecked": "https://www.giss.nasa.gov/research/briefs/2010_schmidt_05/",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Brief read in full: \"water vapor is the dominant substance - responsible for about 50% of the absorption, with clouds responsible for about 25% - and CO2 responsible for 20% of the effect. The remainder is made up with the other minor greenhouse gases, ozone and methane for instance, and a small amount from particles in the air.\" The article's 'in a set of radiative experiments' correctly signals that this is a model attribution, which the brief states it is."
         },
         {
           "claim": "In flux terms the surface emits about 150 W/m2 more than what leaves for space",
@@ -152,50 +159,49 @@
         {
           "claim": "Taking a standard tropospheric decrease of about 6.5 K per kilometre, the 255 K level is roughly five kilometres above a 288 K surface",
           "sourceChecked": "https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "NASA Glenn's standard lapse rate is 0.00649 C per metre; (288-255)/6.49 = 5.08 km, so the 'roughly five kilometres' follows from the cited relation. The article's own closing section already flags that this single altitude is a summary statistic and not a place, which is the right caveat and is why the round figure is not misleading here."
         },
         {
           "claim": "The Goddard analysis gives about 4 W/m2 of extra absorption from doubling carbon dioxide directly, rising to almost 20 W/m2 once water vapour and clouds have adjusted",
           "sourceChecked": "https://www.giss.nasa.gov/research/briefs/2010_schmidt_05/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Work published in Nature in 2001 inferred increases in greenhouse forcing from the outgoing longwave radiation spectra of the Earth in 1970 and 1997",
-          "sourceChecked": "https://www.nature.com/articles/35066553 (abstract; full text paywalled)",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Spectroscopic observations at the Southern Great Plains and North Slope of Alaska gave clear-sky CO2 surface forcing attributable to the 22 ppm rise from 2000 to 2010, with trends of 0.2 W/m2 per decade (+/- 0.06 and +/- 0.07), seasonal ranges of 0.1-0.2 W/m2, and roughly ten per cent of the trend in downwelling longwave radiation",
-          "sourceChecked": "https://www.osti.gov/pages/biblio/1512180",
-          "disposition": "verified"
-        },
-        {
-          "claim": "NASA CERES puts the imbalance at approximately 0.7 W/m2, or 0.3 per cent of absorbed solar radiation, alongside the IPCC's 0.79 [0.52 to 1.06] W/m2 for 2006-2018",
-          "sourceChecked": "https://ceres.larc.nasa.gov/science/",
           "disposition": "qualified",
-          "note": "Same live-dataset problem as in the pillar article: the numbers are on the CERES page verbatim, but the article called this 'the current imbalance' and the source attaches no period to it. Replaced 'current' with a statement that the science overview gives the figure without a period; the AR6 value beside it already carries its own 2006-2018 anchor and was left alone."
+          "note": "Both numbers are exact, but the source states them with a hedge the article dropped: \"once the water vapor and clouds react, the absorption increases by almost 20 W/m2 - demonstrating that (in the GISS climate model, at least) the 'feedbacks' are amplifying the effects\". A single-model result was reported as an unqualified finding, which is stated certainty stronger than the source's. Added the source's own qualifier in its own words. The article's following sentence ('the multiplier is not [well constrained]') pointed the right way but did not say the 20 W/m2 was one model's number."
+        },
+        {
+          "claim": "Work published in Nature in 2001 inferred increases in greenhouse forcing from the outgoing longwave radiation spectra of the Earth in 1970 and 1997, showing change in specific bands rather than uniformly",
+          "sourceChecked": "https://www.nature.com/articles/35066553 (abstract; full text paywalled) and https://api.crossref.org/works/10.1038/35066553",
+          "disposition": "verified",
+          "note": "Title, journal and year confirmed against Crossref. The abstract was read on nature.com and supports the band-specific reading the article makes of it: \"We find differences in the spectra that point to long-term changes in atmospheric CH4, CO2 and O3 as well as CFC-11 and CFC-12. Our results provide direct experimental evidence for a significant increase in the Earth's greenhouse effect.\" Full text not read."
+        },
+        {
+          "claim": "Spectroscopic observations at the Southern Great Plains and the North Slope of Alaska gave clear-sky CO2 surface forcing attributable to the 22 ppm rise from 2000 to 2010, with trends of 0.2 W/m2 per decade (+/- 0.06 and +/- 0.07), seasonal ranges of 0.1-0.2 W/m2, and roughly ten per cent of the trend in downwelling longwave radiation",
+          "sourceChecked": "https://www.osti.gov/pages/biblio/1512180",
+          "disposition": "verified",
+          "note": "OSTI record read: trends \"0.2 W m-2 per decade\" at both sites, \"+/-0.06\" at the Southern Great Plains and \"+/-0.07\" at the North Slope of Alaska, a 22 ppm rise 2000-2010, \"seasonal ranges of 0.1-0.2 W m-2\", and \"approximately ten per cent of the trend in downwelling longwave radiation\". The article's per-site pairing of the two uncertainties matches the source's."
         }
       ],
       "openQuestions": [
-        "Harries et al. (2001) is paywalled; only the Nature abstract was read. The abstract supports the sentence as written (spectral differences attributed to CH4, CO2, O3, CFC-11 and CFC-12, described as direct experimental evidence of an increased greenhouse effect), but the band-specific detail was not checked against the full paper.",
-        "The GISS brief attaches its own hedge to the 4 -> 20 W/m2 result ('in the GISS climate model, at least'). The article attributes it to 'the Goddard analysis' and immediately says the multiplier is not well constrained, which was judged adequate; a desk that wants the model dependence stated outright would need one more clause."
+        "Harries et al. (2001) is paywalled; the abstract on nature.com was read in full but the paper was not, so the article's gloss that the emission-height argument predicts band-specific rather than uniform change is checked against the abstract only.",
+        "The CERES imbalance sentence in this article was checked against the same CERES science page as in the pillar article and is handled the same way - the source really does state 0.7 W/m2 / 0.3 per cent of ASR with no period attached, and the article says so rather than inventing one."
       ]
     },
     {
       "slug": "atmospheric-structure-and-lapse-rate",
       "path": "content/en/physics/climate-physics/atmospheric-structure-and-lapse-rate.md",
-      "status": "amended",
-      "claimsChecked": 9,
+      "status": "clean",
+      "claimsChecked": 8,
       "findings": [
         {
-          "claim": "The dry adiabatic lapse rate is a fixed 9.8 C per 1,000 metres",
+          "claim": "NOAA's parcel-theory reference gives the dry adiabatic lapse rate as a fixed 9.8 C per 1,000 metres",
           "sourceChecked": "https://www.noaa.gov/jetstream/upperair/parcel-theory",
           "disposition": "verified"
         },
         {
-          "claim": "The moist adiabatic rate is about 4 C per 1,000 metres near the surface and rises towards the dry value in the upper troposphere",
+          "claim": "NOAA's skew-T documentation puts the near-surface moist adiabatic rate at about 4 C per 1,000 metres, rising towards the dry value in the upper troposphere",
           "sourceChecked": "https://www.noaa.gov/jetstream/upperair/skew-t-log-p-diagrams",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Page reads: \"Near the surface, as saturated air rises, it expands and begins to cool at a rate of about 4 degrees C per 1,000 meters ... the dry and wet adiabats become nearly parallel in the upper troposphere where the rate of cooling approaches that of dry adiabats, nearly 9.8 degrees C/1,000 meters.\" The article's reason for the convergence (progressively less vapour left to condense) is also the page's (\"the cooling rate decreases due to a decreasing amount of water vapor\")."
         },
         {
           "claim": "The standard atmosphere sets the environmental lapse rate at 0.00649 C per metre from a 15.04 C surface up to 11,000 metres",
@@ -205,38 +211,39 @@
         {
           "claim": "NOAA uses a ball-and-bowl analogy for the stability regimes and describes conditional instability as one of the most common states of the atmosphere",
           "sourceChecked": "https://www.noaa.gov/jetstream/upperair/bowls",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "\"This is one of the most common states of the atmosphere, called conditional instability.\" The bowl, inverted bowl and depressed-bowl illustrations are on the page as described."
         },
         {
-          "claim": "The Storm Prediction Center defines CAPE as the total potential energy available to a surface parcel lifted to its level of free convection, in joules per kilogram; 2,000 J/kg corresponds to an undiluted-parcel updraft of about 63 m/s",
+          "claim": "The Storm Prediction Center defines CAPE as the total potential energy available to a parcel originating at the surface once lifted to its level of free convection, in joules per kilogram; 2,000 J/kg corresponds to an undiluted-parcel updraft of about 63 m/s, which real updrafts fall short of because of entrainment",
           "sourceChecked": "https://www.spc.noaa.gov/exper/mesoanalysis/help/help_sbcp.html",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "SPC page: \"This value represents the total amount of potential energy available to a parcel of air originating at the surface and being lifted to its level of free convection (LFC). No parcel entrainment is considered.\" Units J kg-1 in the heading. sqrt(2 x 2000) = 63.2 m/s is the article's own arithmetic on the standard undiluted-parcel result, and the SPC page's explicit 'no parcel entrainment is considered' is what licenses the article's caveat that real updrafts fall short."
         },
         {
-          "claim": "A Salt Lake valley field campaign ran from 1 December 2010 to 7 February 2011 and documented ten persistent cold-air pool episodes; 24-hour mean PM2.5 often exceeds the 35 ug/m3 NAAQS during such episodes, and did so during each of the four longest pools",
+          "claim": "A Salt Lake valley field campaign ran from 1 December 2010 to 7 February 2011 and documented ten persistent cold-air pool episodes; 24-hour mean PM2.5 often exceeds the 35 ug/m3 NAAQS during such episodes and did so during each of the four longest",
           "sourceChecked": "https://journals.ametsoc.org/view/journals/bams/94/1/bams-d-11-00255.1.xml",
-          "disposition": "verified"
+          "disposition": "verified",
+          "note": "Full text retrieved with a browser user-agent (WebFetch is 403 on ametsoc.org). \"The Persistent Cold-Air Pool Study (PCAPS) was conducted in Utah's Salt Lake valley from 1 December 2010 to 7 February 2011 ... 10 persistent CAP episodes\"; \"The 24-h mean concentration of fine particulate aerosol with diameters less that 2.5 um (PM2.5) often exceeds the National Ambient Air Quality Standard (NAAQS) of 35 ug m-3 during persistent CAP episodes\"; \"During each of the four longest CAPs (IOPs 1, 5, 6, and 9), PM2.5 concentrations exceeded the NAAQS.\""
         },
         {
-          "claim": "The mechanism behind the pollution build-up is loss of dilution volume rather than extra emission",
+          "claim": "The dominant mechanism behind the pollution build-up is loss of dilution volume rather than extra emission, though the authors note variations in emissions may also play a role",
           "sourceChecked": "https://journals.ametsoc.org/view/journals/bams/94/1/bams-d-11-00255.1.xml",
-          "disposition": "qualified",
-          "note": "The paper attributes the concentrations to CAP strength and duration but explicitly adds that 'variations in emissions may also play a role', naming reduced Christmas-holiday commuter traffic during IOP 4. The article's flat 'not extra emission' excluded something the source declines to exclude. Narrowed to 'the dominant mechanism' and added the authors' own caveat."
+          "disposition": "verified",
+          "note": "Checked specifically as a causal claim. The paper's sentence is \"both CAP strength and duration affect the concentration of fine particulate aerosols, though variations in emissions may also play a role (e.g., reduced commuter traffic proximal to the Christmas holiday, 24-26 December 2010, during IOP 4)\", and its introduction gives the mechanism as emissions accumulating within stagnant air. The article's hedging tracks the paper's: it says 'association' where the paper reports one, ranks the mechanisms as the paper does, and carries the emissions caveat the paper declines to drop. No change needed."
         },
         {
-          "claim": "Stratospheric temperature climbs from about -51 C at the tropopause to roughly -15 C at the top; warmer air above cooler suppresses convection and flattens thunderstorm anvils; the stratosphere holds about 19 per cent of the atmosphere's mass; the troposphere reaches 18-20 km at the equator and about 6 km at the poles",
-          "sourceChecked": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere",
-          "disposition": "verified"
-        },
-        {
-          "claim": "The WMO lapse-rate tropopause definition as quoted, the second-tropopause 3 C/km criterion, mean tropical tropopause at 16-17 km and high-latitude at roughly 8-12.5 km, and ERA5-minus-ERA-Interim monthly mean height differences from about -300 m near 30 degrees to 150 m at the equator",
-          "sourceChecked": "https://acp.copernicus.org/articles/22/4019/2022/",
-          "disposition": "verified"
+          "claim": "NOAA records stratospheric temperature climbing from about -51 C at the tropopause to roughly -15 C at the top, the arrangement suppressing convection and flattening thunderstorm anvils, the stratosphere holding about 19 per cent of the atmosphere, and the troposphere reaching 18-20 km at the equator and about 6 km at the poles; the WMO lapse-rate tropopause definition, mean tropical tropopause at 16-17 km and high-latitude between roughly 8 and 12.5 km, and ERA5-minus-ERA-Interim monthly mean height differences from about -300 m near 30 degrees to 150 m at the equator",
+          "sourceChecked": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere and https://acp.copernicus.org/articles/22/4019/2022/",
+          "disposition": "verified",
+          "note": "NOAA page carries every element including the anvil observation and the 18-20 km / 6 km troposphere depths. The ACP assessment carries the WMO quotation the article puts in quotation marks, word for word, plus the 3 C/km second-tropopause criterion, tropical heights of 16-17 km, and \"The monthly mean differences of ERA5 minus ERA-Interim tropopause heights vary between -300 m at the transition from the tropics to the extratropics (near 30 S and 30 N) to 150 m around the Equator\". The high-latitude range needs one caveat, recorded below."
         }
       ],
       "openQuestions": [
-        "The stability criteria stated in lapse-rate terms (environmental rate shallower than both adiabats = absolutely stable, etc.) are not on the cited NOAA pages, which give the buoyancy argument and the bowl analogy but not the numeric comparison. They are standard textbook definitions and consistent with what NOAA does say, so they were left as written rather than resourced.",
-        "The article says the stratosphere holds 19 per cent of the atmosphere's 'mass'; NOAA's wording is '19 percent of the atmosphere's gases'. Read as equivalent, but it is NOAA's phrase that was paraphrased, not a mass figure NOAA states."
+        "The ACP paper gives high-latitude tropopause heights separately by hemisphere - 8 to 12.5 km in the Southern Hemisphere, 8 to 9.5 km in the Northern. The article's single 'roughly 8 and 12.5 km' is a true envelope over both but hides a real hemispheric asymmetry. Left as written because it is not false; a desk that wants the asymmetry visible would need one more clause.",
+        "The article says the stratosphere holds about 19 per cent of the atmosphere's 'mass'. NOAA's wording is '19 percent of the atmosphere's gases'. The mass reading is the physically correct one and matches the standard figure, but it is a paraphrase, not NOAA's phrase.",
+        "The stability regimes stated as lapse-rate comparisons (environmental rate shallower than both adiabats = absolutely stable, steeper than the dry adiabat = absolutely unstable, between the two = conditional) are not on the cited NOAA pages, which give the bowl analogy and the buoyancy argument but not the numeric comparison. Standard textbook definitions, consistent with what NOAA does say, left as written.",
+        "The claim that shallow inversions and boundary-layer tops are unresolved by the radiosonde network and typical model level spacing has no cited source. It is consistent with the ACP paper's finding that tropopause height differs between reanalysis generations with no change in the atmosphere, but that is a different measurement."
       ]
     }
   ]

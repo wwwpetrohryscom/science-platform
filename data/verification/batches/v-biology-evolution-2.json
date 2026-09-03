@@ -1,0 +1,183 @@
+{
+  "batchId": "v-biology-evolution-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "speciation-mechanisms",
+      "path": "content/en/biology/evolution/speciation-mechanisms.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "15 per cent of angiosperm and 31 per cent of fern speciation events are accompanied by an increase in ploidy, roughly four times earlier estimates, with a standing incidence of polyploid species within genera of 35 per cent across 1,506 genera examined",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2728988/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same analysis found no direct evidence that polyploid lineages, once established, diversify faster than their diploid relatives",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2728988/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "26 to 29 per cent of heliconiine species are involved in natural hybridisation, depending on the species concept applied",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1821009/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Where Heliconius erato and H. himera meet in parapatry, phenotypically detectable hybrids form around 10 per cent of the population; for sympatric species hybrids are usually fewer than 0.05 per cent of individuals; hybrid numbers decline roughly exponentially with genetic distance; gene exchange can continue for more than three million years after lineages separate",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1821009/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "On Daphne Major an immigrant male finch was identified by genome sequencing as Geospiza conirostris originating on Espanola more than 100 kilometres away; it bred with a resident G. fortis; from the second generation the lineage bred endogamously, showed transgressive bill morphology and remained ecologically successful despite intense inbreeding; isolation was established in three generations, against a normal course of hundreds of generations",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/29170277/",
+          "disposition": "verified",
+          "note": "PubMed's HTML blocked scripted fetch; read the same PubMed record verbatim through the NCBI E-utilities efetch endpoint (db=pubmed, id=29170277). Every figure in the sentence appears in that abstract, including 'typically develops over hundreds of generations, can be established in only three'."
+        },
+        {
+          "claim": "A catalogue of Neanderthal ancestry from 334 genomes (59 ancient, 275 present-day) reports most non-Africans carrying 1 to 2 per cent Neanderthal ancestry, East Asians about 20 per cent more than West Eurasians, and attributes the great majority to a single extended period of gene flow between 50,500 and 43,500 years ago",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12184710/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2014 reanalysis of five species pairs found absolute divergence is not elevated in genomic islands; reduced diversity inflates relative measures such as FST without any reduction in gene flow, and simulation-based inferences of gene flow may be wrong in many published comparisons",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/24845075/",
+          "disposition": "qualified",
+          "note": "The five species pairs, the absent elevation in absolute divergence, the reduced diversity and the IMa2 result all check out. But Cruickshank and Hahn conclude only that 'these data therefore do not support a model of differential gene flow among loci' — absence of support, not a demonstrated absence of any reduction in gene flow. The article asserted the stronger version. Narrowed to 'without requiring any reduction in gene flow'. Read the abstract via NCBI E-utilities efetch (PubMed blocked scripted fetch of its HTML). Separately checked the 2015 comment on this paper (Hey, Chung and Sethuraman, Mol Ecol 24:5078-83, PMID 26456794): it confirms rather than disputes the IMa2 false-positive finding, so the article's second clause stands."
+        },
+        {
+          "claim": "A study of Midas cichlids in Crater Lake Xiloa, Nicaragua reported an early-stage hybrid lineage diverged genomically and phenotypically from both parental species with a distinct stable-isotope signature indicating a different trophic niche, and the authors note that before their work only one animal case, in insects, had been convincingly shown to have occurred in complete sympatry",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9537415/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Hawthorn-feeding and apple-feeding Rhagoletis pomonella are separated by host fruiting phenology and by fruit volatiles, and comparable partially isolated host races have since been documented on several native southern hawthorn species",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/24351094/",
+          "disposition": "verified",
+          "note": "Read via NCBI E-utilities efetch rather than the PubMed HTML page, which blocked scripted fetch. The abstract names the two isolating traits and reports 'genetically differentiated and partially reproductively isolated host races' on four native southern Crataegus species, which is what 'several' carries here."
+        }
+      ],
+      "openQuestions": [
+        "Five of the nine sources were read as abstracts (via the NCBI E-utilities record or the PMC abstract) rather than full text. Every number the article states appears in the abstract in each case, but I did not read the methods sections behind them.",
+        "The Dobzhansky-Muller passage and the six-row barrier table carry no citation and were treated as textbook background, so they were not checked against a source. If the desk wants them sourced, that is an editorial decision rather than a defect I found."
+      ]
+    },
+    {
+      "slug": "convergent-evolution-explained",
+      "path": "content/en/biology/evolution/convergent-evolution-explained.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "Insects from six orders have independently colonised cardiac-glycoside plants, and three positions in the Na+/K+-ATPase alpha-subunit — 111, 119 and 122 — change repeatedly across lineages",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039281/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "CRISPR base editing of the native gene in Drosophila melanogaster retraced the monarch mutational path, producing triple-mutant flies as insensitive to cardiac glycosides as monarch butterflies and retaining small amounts of the toxin through metamorphosis; earlier changes ameliorate the costs of later ones through epistasis, so some sequences of steps are accessible and others are not",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039281/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In leaf-mining flies on plants from four botanical families that independently evolved cardiac glycosides of two structural classes, five of six exposed species carried binding-site substitutions previously described in other insect orders, and in only one species was the gene duplicated instead",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28731826/",
+          "disposition": "verified",
+          "note": "Read via NCBI E-utilities efetch rather than the PubMed HTML page, which blocked scripted fetch. The abstract states 'four botanical families', 'cardenolides and bufadienolides', 'five out of six exposed species' and 'in only one species was the gene duplicated'."
+        },
+        {
+          "claim": "Antarctic notothenioids and northern cods sit in different superorders; notothenioid antifreeze genes derive from a pancreatic trypsinogen while the Arctic cod genes share no sequence identity with trypsinogen, have a different intron-exon organisation and different spacer sequences, and encode the repeated tripeptide using a different permutation of codons",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC20524/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2016 census of the C4 flora identifies 61 independent C4 lineages, with further ancillary origins possible within 12 of them, together producing roughly 8,100 C4 species (5,044 grasses, 1,322 sedges, 1,777 eudicots); Chloridoideae is the oldest and most species-rich at close to 30 million years; most lineages are younger than 15 million years and those younger than about 7 million years contain fewer than 43 species each",
+          "sourceChecked": "https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erw156",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An analysis of 805,053 amino acids across 2,326 orthologous genes in 22 mammals, including four newly sequenced bat genomes, reported signatures consistent with convergence at nearly 200 loci shared between echolocating bats and the bottlenose dolphin, with hearing-related genes prominent and, unexpectedly, many vision genes as well",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3836225/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2015 response showed convergence between echolocating lineages was generally no stronger than between echolocating and comparable non-echolocating lineages, including for the set of 29 hearing-related proteins claimed to be enriched",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4408410/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A second 2015 response showed the site-specific likelihood support statistic does not adequately measure convergence, and that an empirical null comparing convergent substitutions between all pairs of species leaves no surprising excess, even in sensory genes",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4408409/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The C4 figures were read on the publisher's article page reached through the DOI article-lookup URL the article cites, not from the PDF. The species breakdown there totals 8,143 against a stated global flora of about 8,145; the article's 'roughly 8,100' is inside that, but a reader comparing to the paper will see the larger number.",
+        "The homology / parallelism / convergence table and the milkweed-toxin framing carry no citation and were treated as textbook vocabulary rather than checkable claims."
+      ]
+    },
+    {
+      "slug": "sexual-selection-explained",
+      "path": "content/en/biology/evolution/sexual-selection-explained.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "A phylogenetically controlled meta-analysis assembled 72 studies covering 66 animal species and yielding 81, 88 and 76 paired estimates of I, Is and the Bateman gradient",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4758741/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "It found that sexual selection is stronger in males across the animal kingdom and that the sex difference is evolutionarily tied to sex biases in parental care and in sexual dimorphism, with the strongest male bias in species where females provide the care",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4758741/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Most extracted estimates of mating success came from molecular parentage (64) rather than observed copulation partners (13) or copulations (19); variance-based measures confound selection with chance so a difference in Is can be produced by sampling alone; and a rank-correlation test indicated moderate publication bias in the sex difference in Is",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4758741/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2007 reappraisal identified flaws in Bateman's 1948 experiment including the elimination of genetic variance, sampling biases, miscalculated fitness variances, statistical pseudo-replication and selective presentation of data, concluding the reported variances were similar to those expected under random mating",
+          "sourceChecked": "https://academic.oup.com/evolut/article/61/11/2457/6853903",
+          "disposition": "verified",
+          "note": "Read the publisher's abstract page; the OUP full text is paywalled. The abstract carries the flaw list verbatim and the 'similar to those expected under random mating' conclusion, which is everything the article's sentence asserts."
+        },
+        {
+          "claim": "Because double-mutant offspring were inviable, Bateman's parentage method overestimated the number of individuals with zero mates and underestimated those with one or more",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3406809/",
+          "disposition": "qualified",
+          "note": "The direction of the bias is exactly as stated. But the 2012 repetition infers reduced viability rather than inviability: double-mutant offspring appeared at about 15 per cent against the 25 per cent expected under Mendelian inheritance ('significantly fewer than 25% double-mutant offspring, indicating that offspring inviability confounded estimates'). Flat inviability would have produced no double mutants at all. Changed to 'survived at well below the expected Mendelian rate'."
+        },
+        {
+          "claim": "A meta-analysis of 90 studies on 55 species found male attractiveness heritable but no association between attractiveness and life-history traits tied to fitness, while attractiveness correlated positively with physiological traits such as condition and immunocompetence; the authors read this as supporting Fisherian models while leaving the evidence for good genes equivocal",
+          "sourceChecked": "https://academic.oup.com/evolut/article/66/9/2665/6851558",
+          "disposition": "verified",
+          "note": "Read the publisher's abstract page; the OUP full text is paywalled. Study and species counts, the heritability result, the null life-history result, the immunocompetence and condition correlation, and the 'support Fisherian models of preference evolution, while providing equivocal evidence for good genes' conclusion are all in the abstract."
+        },
+        {
+          "claim": "That meta-analytic result is 'a result that has not been overturned and is not what most popular accounts of mate choice assume'",
+          "sourceChecked": "https://academic.oup.com/evolut/article/66/9/2665/6851558",
+          "disposition": "removed",
+          "note": "Two unsupported assertions in one clause. 'Has not been overturned' is a claim about the subsequent literature that the cited 2012 paper cannot make and that I could not establish without a systematic search; 'is not what most popular accounts of mate choice assume' is a claim about popular science writing with no source anywhere in the article. Clause removed; the sentence now ends at 'equivocal'. The finding it reported is untouched and stands."
+        },
+        {
+          "claim": "One influential critique holds that the Lande-Kirkpatrick mechanism is the appropriate null model for intersexual selection, arising from genetic variation in trait and preference in the absence of other forces much as Hardy-Weinberg proportions do, so that demonstrating an arbitrary trait currently requires proving the null hypothesis while adaptive explanations are accepted on confirmation",
+          "sourceChecked": "https://academic.oup.com/evolut/article/64/11/3085/6854107",
+          "disposition": "verified",
+          "note": "Read the publisher's abstract page; the OUP full text is paywalled. The Hardy-Weinberg analogy and the 'impossible to meet because it requires proof of the null hypothesis' asymmetry are both in the abstract. The article's framing as 'one influential critique' that 'is contested' is appropriate: this is a single-author argument, not a field consensus."
+        },
+        {
+          "claim": "In Drosophila melanogaster, seminal fluid proteins transferred with sperm modulate paternity share and mediate both sperm competition and the conflict between the sexes over mating rate and remating",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7661438/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Three of the six sources are OUP Evolution articles behind a paywall (Snyder and Gowaty 2007, Prokop et al. 2012, Prum 2010). I read the publisher abstract pages only. Each abstract contains every figure and conclusion the article attributes to it, but I could not check the analyses behind them.",
+        "The Janicke et al. headline is carried faithfully, but a reader should know the components differ: the paper finds a higher opportunity for selection and a steeper Bateman gradient in males, while the opportunity for sexual selection itself was 'slightly, but not significantly, higher in males'. The article's own following paragraph ('the direction of the result is well supported; its magnitude carries more uncertainty') covers this, so I did not amend the sentence.",
+        "The three-mechanism taxonomy (good genes, Fisherian, sensory bias) and the closing methodological cautions are the desk's synthesis and carry no per-sentence citation; I checked the sourced claims inside them but not the framing."
+      ]
+    }
+  ]
+}

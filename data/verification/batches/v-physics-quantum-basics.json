@@ -1,0 +1,241 @@
+{
+  "batchId": "v-physics-quantum-basics",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "quantum-mechanics-fundamentals",
+      "path": "content/en/physics/quantum-basics/quantum-mechanics-fundamentals.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "The 2022 CODATA evaluation lists the electron magnetic moment anomaly as 1.159 652 180 46(18) x 10^-3, a relative standard uncertainty of 1.6 x 10^-10",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?ae",
+          "disposition": "verified",
+          "note": "Digit-for-digit match, including the concise form and the stated relative standard uncertainty of 1.6 x 10^-10."
+        },
+        {
+          "claim": "The fine-structure constant is 7.297 352 5643(11) x 10^-3, pinned to the same order of relative uncertainty",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?alph",
+          "disposition": "verified",
+          "note": "Value matches exactly; NIST also gives its relative standard uncertainty as 1.6 x 10^-10, so 'the same order' is right."
+        },
+        {
+          "claim": "The ionisation energy of hydrogen in its ground state is the Rydberg energy, 13.605 693 122 990(15) eV, known to about one part in 10^12",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?rydhcev",
+          "disposition": "corrected",
+          "note": "The number and its precision are right for the quantity NIST actually tabulates (Rydberg constant times hc in eV, relative standard uncertainty 1.1 x 10^-12) but that quantity is not hydrogen's ionisation energy. NIST's atomic spectroscopic data give the ionisation energy of neutral hydrogen as 109 678.7717 cm^-1 (13.598 433 eV) - a difference of about 5 parts in 10^4, in a sentence claiming precision to 1 part in 10^12, because the Rydberg energy assumes infinite nuclear mass and omits relativistic and QED corrections. Rewritten so the Rydberg energy sets the scale of the discrete levels, with hydrogen's tabulated ionisation energy given and cited (new source 10: https://physics.nist.gov/PhysRefData/Handbook/Tables/hydrogentable1.htm)."
+        },
+        {
+          "claim": "Since the 2019 revision of the SI the Planck constant is fixed by definition at 6.626 070 15 x 10^-34 J Hz^-1, and the kilogram is realised through it",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?h",
+          "disposition": "verified",
+          "note": "NIST lists h as 6.626 070 15 x 10^-34 J Hz^-1 with uncertainty '(exact)'. The article's cited kilogram page (source 3) carries the November 2018 vote and the Planck-based kilogram but neither the value nor the effective date; the 20 May 2019 effective date was confirmed on https://www.nist.gov/si-redefinition ('the change went into effect on May 20, 2019')."
+        },
+        {
+          "claim": "The 2015 loophole-free Bell experiment separated electron spins by 1.3 km with an estimated state fidelity of 0.92 +/- 0.03 and ran 245 trials, rejecting local realism at the two-standard-deviation level",
+          "sourceChecked": "https://arxiv.org/abs/1508.05949",
+          "disposition": "verified",
+          "note": "Abstract: 1.3 km separation, 245 trials, S = 2.42 +/- 0.20, p = 0.039, detection-loophole-free readout. Full text (arXiv PDF): 'we estimate that the fidelity to the ideal state of the spin-spin entangled states generated in our setup is 0.92 +/- 0.03'. Both p = 0.039 and (2.42 - 2)/0.20 correspond to about 2.1 standard deviations, so the article's characterisation holds; the paper itself states the p-value rather than a sigma level. Read on arXiv because nature.com redirects scripted clients to an SSO endpoint."
+        },
+        {
+          "claim": "About 100,000 people generated 97,347,490 binary choices in a twelve-hour window on 30 November 2016, routed to thirteen experiments in twelve laboratories on five continents",
+          "sourceChecked": "https://arxiv.org/abs/1805.04431",
+          "disposition": "verified",
+          "note": "Every figure matches the abstract verbatim, including the count 97,347,490 and the 30 November 2016 date."
+        },
+        {
+          "claim": "Heating fullerene molecules until they radiate thermal photons destroys interference fringes by a predictable amount, and the measured loss of visibility matched microscopic decoherence theory",
+          "sourceChecked": "https://arxiv.org/abs/quant-ph/0402146",
+          "disposition": "verified",
+          "note": "Abstract: 'C70 molecules lose their quantum behaviour by thermal emission of radiation. We find good quantitative agreement between our experimental observations and microscopic decoherence theory.' The article says 'fullerene', which covers C70."
+        },
+        {
+          "claim": "Measurement disturbance and the uncertainty relation were prised apart in an atom interferometer where the disturbance from path detection was too small to account for the loss of interference",
+          "sourceChecked": "https://www.nature.com/articles/25653",
+          "disposition": "verified",
+          "note": "Abstract read from the publisher page metadata: 'the back action of path detection on the atom's momentum is too small to explain the disappearance of the interference pattern. We attribute it instead to correlations between the which-way detector and the atomic motion, rather than to the uncertainty principle.'"
+        },
+        {
+          "claim": "Quarks and leptons on the fermion side and the force carriers on the boson side, 'as CERN's summary of the Standard Model lays out'",
+          "sourceChecked": "https://home.cern/science/physics/standard-model",
+          "disposition": "qualified",
+          "note": "The physics is uncontroversial but the attribution was not supported: the fetched page contains zero occurrences of the word 'fermion'. It says only that force carriers 'belong to a broader group called \"bosons\"' and that matter particles occur as quarks and leptons. Attribution narrowed so the fermion/boson split is the article's own statement and CERN is credited with the half its page actually makes."
+        }
+      ],
+      "openQuestions": [
+        "nature.com redirects scripted clients to an SSO endpoint, so Nature 526, 682 (2015) was read as the arXiv author version (1508.05949); the 0.92 +/- 0.03 fidelity comes from that full text rather than from the published abstract.",
+        "The article's own cited kilogram page does not state the exact value of h or the 2019 effective date; both were confirmed on other NIST pages, which are not cited in the article."
+      ]
+    },
+    {
+      "slug": "wave-particle-duality-explained",
+      "path": "content/en/physics/quantum-basics/wave-particle-duality-explained.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "Diffraction of C60 from a material grating was reported in 1999, and a fullerene is nearly a classical body with hundreds of internal vibrational modes available to leak information to its surroundings",
+          "sourceChecked": "https://www.nature.com/articles/44348",
+          "disposition": "qualified",
+          "note": "The 1999 date, the material grating and the 'almost a classical body' point are all in the abstract, which attributes it to 'its many excited internal degrees of freedom and their possible couplings to the environment'. The abstract gives no mode count, and C60 has 174 vibrational normal modes (3N - 6), so 'hundreds' overstated a number the source never supplies. Reworded to the source's own phrasing."
+        },
+        {
+          "claim": "A two-metre Talbot-Lau interferometer ran functionalised oligoporphyrins of mass beyond 25,000 Da containing up to 2,000 atoms, recovering more than 90 per cent of the expected fringe visibility",
+          "sourceChecked": "https://www.nature.com/articles/s41567-019-0663-9",
+          "disposition": "verified",
+          "note": "Abstract: 'masses beyond 25,000 Da and consisting of up to 2,000 atoms', 'a new 2-m-long Talbot-Lau interferometer', 'The interference fringes reach more than 90% of the expected visibility.'"
+        },
+        {
+          "claim": "The 25 kDa molecules interfered at a de Broglie wavelength of about 53 fm, five orders of magnitude smaller than the molecules themselves",
+          "sourceChecked": "https://www.nature.com/articles/s41567-019-0663-9",
+          "disposition": "verified",
+          "note": "Abstract: 'de Broglie wavelengths down to 53 fm, five orders of magnitude smaller than the diameter of the molecules themselves.'"
+        },
+        {
+          "claim": "The 25 kDa result was quoted as an order-of-magnitude gain in macroscopicity over its predecessors",
+          "sourceChecked": "https://www.nature.com/articles/s41567-019-0663-9",
+          "disposition": "verified",
+          "note": "Abstract: 'the resulting macroscopicity value of 14.1 represents an order of magnitude increase over previous experiments'."
+        },
+        {
+          "claim": "The electron Compton wavelength is 2.426 310 235 38(76) x 10^-12 m in the CODATA evaluation, and the Compton shift reaches a maximum of twice that value, 4.853 pm, for backscattering at 180 degrees",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?ecomwl",
+          "disposition": "qualified",
+          "note": "Value matches NIST digit for digit, and 2 x 2.426 310 pm = 4.8526 pm, consistent with the printed 4.853 pm. CODATA is reissued on a cycle (this is the 2022 adjustment) and the sentence carried no vintage while the article's own source note does, so the year was added in the prose per the live-dataset rule."
+        },
+        {
+          "claim": "A 1998 atom-interferometer experiment found the back-action on the atom's momentum far too small to account for the disappearance of the fringes; the interference is lost because the path detector becomes entangled with the atom's motion",
+          "sourceChecked": "https://www.nature.com/articles/25653",
+          "disposition": "verified",
+          "note": "Abstract states both halves: back action 'too small to explain the disappearance of the interference pattern', attributed 'instead to correlations between the which-way detector and the atomic motion, rather than to the uncertainty principle'."
+        },
+        {
+          "claim": "Work on integrated photonic chips extended complementarity into three-way conservation relations in which path predictability, interference visibility and entanglement with a second system sum to a fixed value, tested for two-path and multi-path devices",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11814096/",
+          "disposition": "verified",
+          "note": "Light: Science & Applications (2025), 'Universal conservation laws of the wave-particle-entanglement triad'. Theorem 1 gives P + W + E = c; demonstrations on silicon-integrated nanophotonic quantum chips with data for n = 2, 3 and 4 paths, so both the two-path and multi-path cases are covered."
+        },
+        {
+          "claim": "De Broglie wavelength table: electron at 100 eV = 123 pm; thermal neutron at 25 meV = 1.81 A; 0.145 kg baseball at 40 m/s = 1.1 x 10^-34 m; 70 kg adult at 1.4 m/s = 6.8 x 10^-36 m",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?me",
+          "disposition": "verified",
+          "note": "Recomputed from lambda = h/p with values read on NIST's pages for h (6.626 070 15 x 10^-34 J Hz^-1, exact), the electron mass (9.109 383 7139 x 10^-31 kg) and the neutron mass (1.674 927 500 56 x 10^-27 kg, https://physics.nist.gov/cgi-bin/cuu/Value?mn): 122.6 pm, 1.809 A, 1.14 x 10^-34 m and 6.76 x 10^-36 m. All four agree with the printed values at the precision given."
+        },
+        {
+          "claim": "Matter-wave interference has now been confirmed across more than seven orders of magnitude in particle mass",
+          "sourceChecked": "https://www.nature.com/articles/s41567-019-0663-9",
+          "disposition": "verified",
+          "note": "No single cited source makes this statement. It follows arithmetically from the masses in the cited papers plus NIST's electron mass in u, 5.485 799 090 441(97) x 10^-4 u (https://physics.nist.gov/cgi-bin/cuu/Value?meu): electron to beyond 25,000 Da is a factor of about 4.6 x 10^7, i.e. 7.7 orders of magnitude. Recorded as a derived claim rather than a sourced one, and the derivation checks out."
+        }
+      ],
+      "openQuestions": [
+        "Nature 395, 33 (1998) is paywalled; I read the complete abstract from the publisher page's own metadata, not the body, so the article's 'far too small' rests on the abstract's 'too small to explain'.",
+        "The 'more than seven orders of magnitude in particle mass' summary is the article's own synthesis; it is arithmetically sound from the cited masses but no cited source states it."
+      ]
+    },
+    {
+      "slug": "quantum-computing-fundamentals",
+      "path": "content/en/physics/quantum-basics/quantum-computing-fundamentals.md",
+      "status": "amended",
+      "claimsChecked": 15,
+      "findings": [
+        {
+          "claim": "A 105-qubit superconducting processor devoted 101 physical qubits to a single distance-7 logical qubit, which suffered 0.143 +/- 0.003 per cent error per cycle and outlived its best physical qubit by a factor of 2.4 +/- 0.3",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-08449-y",
+          "disposition": "verified",
+          "note": "Abstract: 'culminating in a 101-qubit distance-7 code with 0.143% +/- 0.003 per cent error per cycle of error correction. This logical memory is also beyond breakeven, exceeding the lifetime of its best physical qubit by a factor of 2.4 +/- 0.3.' Body confirms the 105-qubit Willow processor."
+        },
+        {
+          "claim": "The 2025 result measured the error-suppression factor at Lambda = 2.14 +/- 0.02 per increase of two in code distance",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-08449-y",
+          "disposition": "verified",
+          "note": "Abstract: 'suppressed by a factor of Lambda = 2.14 +/- 0.02 when increasing the code distance by 2'."
+        },
+        {
+          "claim": "Reaching a 10^-6 logical error rate by scaling alone would require a distance-27 patch of 1,457 physical qubits, and the syndrome data a decoder must process grows quadratically with distance",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-08449-y",
+          "disposition": "verified",
+          "note": "Discussion: 'achieving a 10^-6 error rate would require a distance-27 logical qubit using 1,457 physical qubits' and 'the syndrome measurements per cycle increase quadratically with the code distance'. 1,457 / 101 = 14.4, so 'more than fourteen times' also holds."
+        },
+        {
+          "claim": "In repetition-code runs out to distance 29 the error rate stopped falling at around 10^-10, a floor caused by rare correlated bursts occurring roughly once an hour",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-08449-y",
+          "disposition": "verified",
+          "note": "Abstract: 'repetition codes up to distance 29 ... limited by rare correlated error events, occurring approximately once every hour or 3 x 10^9 cycles'; Discussion: 'a noise floor at an error rate of 10^-10 caused by correlated bursts of errors'."
+        },
+        {
+          "claim": "Real-time decoding kept up, at an average latency of 63 us for a distance-5 code over a million cycles with a 1.1 us cycle time",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-08449-y",
+          "disposition": "verified",
+          "note": "Abstract: 'an average decoder latency of 63 microseconds at distance 5 up to a million cycles, with a cycle time of 1.1 microseconds'."
+        },
+        {
+          "claim": "Platform table, superconducting row: mean T1 68 us, T2 89 us",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-08449-y",
+          "disposition": "qualified",
+          "note": "The paper reports 'a mean coherence time T1 of 68 us and T2,CPMG of 89 us'. T2,CPMG is a dynamical-decoupling measurement and is systematically longer than a bare T2, so printing it as 'T2' in a table comparing platforms overstates it. The table now names the measurement the paper made."
+        },
+        {
+          "claim": "Neutral-atom work operated 280 physical qubits with 40 colour-code logical qubits and reconfigurable connectivity with mid-circuit readout, demonstrating improvement of a two-qubit logic gate as surface-code distance scaled from 3 to 7",
+          "sourceChecked": "https://www.nature.com/articles/s41586-023-06927-3",
+          "disposition": "verified",
+          "note": "Abstract: 'encoded logical qubits operating with up to 280 physical qubits', 'arbitrary connectivity ... and mid-circuit readout', 'improvement of a two-qubit logic gate by scaling surface-code distance from d = 3 to d = 7', 'operation of 40 colour-code qubits'."
+        },
+        {
+          "claim": "Trapped-ion coherence of approximately 5,500 s for a single 171Yb+ qubit",
+          "sourceChecked": "https://www.nature.com/articles/s41467-020-20330-w",
+          "disposition": "qualified",
+          "note": "The paper says 'we observe the coherence time of around 5500 s for the 171Yb+ ion-qubit, which is the time constant of the exponential decay fit from the measurements up to 960 s', and its title calls the figure 'estimated'. The article stated it as a flat measured value in both the table and the prose, which is stronger than the source. Both now say the number is inferred from a fit to data running out to 960 s. The 5,500 s / 68 us ratio near 10^8 is arithmetically correct (8.1 x 10^7)."
+        },
+        {
+          "claim": "No in-principle obstacle is currently known to remain - below-threshold error correction was the outstanding one, and it has now been demonstrated on two unrelated platforms",
+          "sourceChecked": "https://www.nature.com/articles/s41586-023-06927-3",
+          "disposition": "qualified",
+          "note": "Two problems. The neutral-atom paper never claims below-threshold operation: it claims improvement of a two-qubit gate with increasing code distance, which is a different result from a below-threshold logical memory, so 'demonstrated on two unrelated platforms' is not supported by the cited pair. And 'no in-principle obstacle is currently known to remain' had no source anywhere in the article, and sits against the National Academies' 'there is no guarantee that all of these challenges will be overcome'. Narrowed to what each paper reports, with the neutral-atom limitation stated."
+        },
+        {
+          "claim": "In 2019 a 53-qubit superconducting processor sampled a random quantum circuit in about 200 seconds, with an authors' estimate of roughly 10,000 years for the equivalent classical task",
+          "sourceChecked": "https://www.nature.com/articles/s41586-019-1666-5",
+          "disposition": "verified",
+          "note": "Abstract: 'quantum states on 53 qubits', 'takes about 200 seconds to sample one instance of a quantum circuit a million times', 'the equivalent task for a state-of-the-art classical supercomputer would take approximately 10,000 years'. The article's framing of this as an estimate against the best classical algorithm known at the time matches the abstract's own wording."
+        },
+        {
+          "claim": "2024 work established that random circuit sampling passes through phase transitions as noise increases; above a critical error per cycle the output is trivialised and becomes susceptible to classical spoofing, and a 67-qubit, 32-cycle experiment sat in the low-noise phase beyond existing classical supercomputers",
+          "sourceChecked": "https://www.nature.com/articles/s41586-024-07998-6",
+          "disposition": "verified",
+          "note": "Abstract: outputs 'can be trivialized by noise, making them susceptible to classical computation spoofing'; the second transition is 'a quantum phase transition controlled by the error per cycle'; 'a random circuit sampling experiment in the weak-noise phase with 67 qubits at 32 cycles ... beyond the capabilities of existing classical supercomputers'. One nuance left as written: the paper reports two transitions and only the second is controlled by noise (the first is a function of cycle count), so the plural lead-in is loose, though every specific claim that follows it matches."
+        },
+        {
+          "claim": "Grover's algorithm solves unstructured search in O(sqrt N) against a classical O(N) and that bound is optimal; in the black-box setting quantum algorithms require exponential time for NP-complete problems; factoring and discrete logarithms have an exponential speedup; quantum simulation is singled out for exponential gains",
+          "sourceChecked": "https://www.nationalacademies.org/read/25196/chapter/5",
+          "disposition": "verified",
+          "note": "Chapter text read directly: 'Bennett et al. proved that quantum algorithms require exponential time to solve NP-complete problems in the black box model'; 'any quantum algorithm to find the needle must take at least N^(1/2) steps'; 'Grover showed that there is a quantum algorithm that can find the needle in O(N^(1/2)) steps'; 'Peter Shor created quantum algorithms for factoring large numbers and computing discrete logarithms that were exponentially faster'; 'Quantum algorithms can exponentially outperform classical ones when simulating a system with many quantum degrees of freedom, with applications including problems in chemistry, materials science, condensed matter, nuclear physics, and high-energy physics.'"
+        },
+        {
+          "claim": "The National Academies' 2019 assessment judged it 'highly unexpected' that a machine capable of compromising RSA-2048 would be built within the following decade, while also stating that projecting the timeline for a large error-corrected machine is not currently possible",
+          "sourceChecked": "https://www.nationalacademies.org/read/25196/chapter/2",
+          "disposition": "verified",
+          "note": "Summary chapter: 'it is highly unexpected that a quantum computer that can compromise RSA 2048 or comparable discrete logarithm-based public key cryptosystems will be built within the next decade', and 'The progress required to bridge this gap makes it impossible to project the time frame for a large error-corrected quantum computer'."
+        },
+        {
+          "claim": "That decade is now nearly up",
+          "sourceChecked": "https://www.nationalacademies.org/read/25196/chapter/2",
+          "disposition": "qualified",
+          "note": "The report's window runs to 2029, so about three of the ten years still remain at the date of this review; 'nearly up' overstated how far through it we are, and it is a relative phrase that goes on drifting after publication. Replaced with the explicit end year, which the source supports and which does not age."
+        },
+        {
+          "claim": "NIST finalised its first three post-quantum standards on 13 August 2024 - FIPS 203 for key encapsulation, FIPS 204 and FIPS 205 for digital signatures - and advised immediate migration on the grounds that integration itself takes years",
+          "sourceChecked": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+          "disposition": "qualified",
+          "note": "Date and FIPS assignments are exact (FIPS 203 general encryption / ML-KEM, FIPS 204 ML-DSA and FIPS 205 SLH-DSA for signatures; page released August 13, 2024). But NIST's stated reason is 'We encourage system administrators to start integrating them into their systems immediately, because full integration will take time' - it does not say integration takes years. Reworded to NIST's own claim."
+        }
+      ],
+      "openQuestions": [
+        "The National Academies chapters were read through the nationalacademies.org online reader, so quotes are located by section rather than by printed page number.",
+        "I did not attempt to survey the classical-simulation literature that has revised the 2019 supremacy runtime estimate downward; the article's treatment rests on the 2024 phase-transitions paper it cites, which I did read."
+      ]
+    }
+  ]
+}

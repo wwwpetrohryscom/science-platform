@@ -1,0 +1,346 @@
+{
+  "batchId": "v-biology-cells",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "cell-membrane-structure-and-transport",
+      "path": "content/en/biology/cells/cell-membrane-structure-and-transport.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "About 5 x 10^6 lipid molecules in a 1 um x 1 um patch, each exchanging places with neighbours on the order of 10^7 times a second, lateral diffusion coefficient near 10^-8 cm2/s, an average lipid crossing the length of a large bacterium in about a second",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26871/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Transverse flip-flop occurs less than once a month for any individual lipid molecule",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26871/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Synthetic protein-free bilayers are about 10^9 times more permeable to water than to sodium or potassium; small nonpolar molecules cross rapidly, small uncharged polar molecules much more slowly, ions barely at all",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fluid mosaic model proposed by Singer and Nicolson in 1972; plasma membranes roughly 50 per cent lipid and 50 per cent protein by weight, about one protein per 50 to 100 lipids, cholesterol present in about the same molar amount as the phospholipids",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK9898/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Free Brownian diffusion is the exception rather than the rule; cytoskeletal fence domains 40-300 nm across; raft domains reported at 2-20 nm with larger assemblies 10-200 nm; successive models raised protein density and shrank open lipid regions",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9313417/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Observed domain structure may reflect the labelling, cross-linking or fixation used to see it rather than organisation in a living membrane; domain lifetimes are harder still",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12101515/ (open PMC copy of https://www.annualreviews.org/doi/10.1146/annurev-biophys-090721-072718, which returns 403 to scripted clients) and https://pmc.ncbi.nlm.nih.gov/articles/PMC9313417/",
+          "disposition": "qualified",
+          "note": "Neither cited source mentions cross-linking or fixation as a source of artefact. What the Annual Review does support is narrower and specific: detergent-resistant-membrane fractions 'showed major discrepancy in the composition when different detergents were used', so 'information on membrane compartmentalization obtained by application of detergents should be addressed with caution'; and fluorescent tagging of lipids 'often alters their shape, localization, and dynamics'. On lifetimes it says super-resolution methods trade temporal resolution for spatial resolution. Rewrote the caution to name the two caveats the sources actually carry instead of a generic three-item artefact list. The framing that this is the least settled part of the account stands: the same review speaks of 'the debatable nature of membrane lateral domains'."
+        },
+        {
+          "claim": "A channel can pass up to 100 million ions per second, 10^5 times greater than the fastest known carrier protein, which places carriers near 10^3 solutes per second",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26910/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Na+-K+ pump moves three sodium out and two potassium in per ATP; almost one-third of a typical animal cell's energy requirement, approaching two-thirds in electrically active nerve cells; intestinal and kidney epithelia run sodium-driven symport of sugars and amino acids",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26896/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Resting potentials run from about -20 mV to -200 mV depending on organism and cell type; sodium equilibrium potential near +50 mV; the field across the membrane is roughly 100,000 V/cm",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26910/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Source 7 (Annual Review of Biophysics) is paywalled at annualreviews.org, which returns 403. Its full text was read on the open PMC copy PMC12101515; title, journal and year were independently confirmed against Crossref.",
+        "The section heading 'Four routes, two of which cost something' sits above a table with five rows. Left as written — it reads as diffusion, channel, carrier and active transport with two sub-types — but an editor may want the heading and the table to agree."
+      ]
+    },
+    {
+      "slug": "mitochondria-and-cellular-respiration",
+      "path": "content/en/biology/cells/mitochondria-and-cellular-respiration.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "1:1 NADH/NAD+ at -320 mV, 1:1 water/half-oxygen at +820 mV, a difference of 1.14 V, with a standard free-energy release of -52.4 kcal/mol for the two electrons per NADH",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26904/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The chain holds six haems bound to cytochromes, more than seven iron-sulfur centres, ubiquinone, two copper atoms and a flavin; three complexes pump protons, some translocating one H+ per electron and others two",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26904/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In a liver cell the inner mitochondrial membrane is about a third of the cell's total membrane, distributed across 1,000 to 2,000 mitochondria",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cardiac muscle mitochondria carry roughly three times the cristae area of liver mitochondria",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+          "disposition": "corrected",
+          "note": "The source says 'The number of cristae is three times greater in the mitochondrion of a cardiac muscle cell than in the mitochondrion of a liver cell.' Number of cristae is not cristae area, and the article was quoting a quantity the source does not give. Changed to 'about three times as many cristae'."
+        },
+        {
+          "claim": "The current textbook figure for complete oxidation of glucose is about 30 ATP, not 36 or 38",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Bovine c-ring has eight subunits, the smallest yet observed among F-ATPases; three ATP per 360-degree rotation gives 2.7 protons per ATP, rising to 3.7 with adenine-nucleotide exchange and phosphate import; 10/3.7 = 2.7 against a measured P/O of 2.5, and 6/3.7 = 1.6 for succinate against a measured 1.5",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2947889/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Human mtDNA is about 16,500 base pairs carrying 37 genes (13 protein-coding, 22 tRNA, 2 rRNA); cells carry hundreds to thousands of copies; a fertilised human egg may hold on the order of 2,000",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11646341/ (PMC copy of https://www.nature.com/articles/s41586-024-08048-x) and https://www.ncbi.nlm.nih.gov/books/NBK26924/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "More than 90 nuclear-encoded proteins exist solely to run the mitochondrial genetic system; four of the 64 codons differ from the universal code, with UGA specifying tryptophan rather than a stop",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26924/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "MitoCarta lists 1,136 human genes encoding mitochondrial-localised proteins across 149 annotated pathways, so better than 98 per cent of the mitochondrial proteome is nuclear-encoded",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7778944/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Alphaproteobacterial ancestry with Rickettsiales the closest known relatives but the immediate next of kin still elusive; an estimated 1,000 to 3,000 genes lost in the transition; genomes ranging from about 6 kb in Plasmodium falciparum to roughly 11,000 kb in some land plants; hydrogenosomes and mitosomes lack mtDNA entirely",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3428767/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Whether respiratory complexes assemble into stable supercomplexes or diffuse and collide has been argued in both directions for decades, and the evidence is mixed on how much functional channelling of electrons occurs",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7785696/",
+          "disposition": "resourced",
+          "note": "This closing section carried no citation at all — a factual claim about the state of a field with nothing behind it, and none of the seven listed sources discusses supercomplexes. The claim is sound and is now sourced to a 2020 Journal of Molecular Medicine review, which names the competing 'solid-state' and 'fluid-state' models, dates the argument to the 1960s, and states that 'numerous structural biology studies challenged the role of substrate channeling'. Added as source 8 and cited in the paragraph."
+        }
+      ],
+      "openQuestions": [
+        "nature.com redirects scripted clients to an identity provider, so source 5 (Nature 2024, 'Quantifying constraint in the human mitochondrial genome') could not be read at the publisher. Its full text was read on the PMC copy PMC11646341, and its title, journal and date were independently confirmed against Crossref."
+      ]
+    },
+    {
+      "slug": "photosynthesis-explained",
+      "path": "content/en/biology/cells/photosynthesis-explained.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "An isolated chlorophyll molecule holds the excited state for about four nanoseconds in vivo",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3899860/ (PMC copy of J. R. Soc. Interface 11:20130901; royalsocietypublishing.org returns 403 to scripted clients)",
+          "disposition": "corrected",
+          "note": "The sentence attached the wrong condition to the number, and contradicted itself doing so ('isolated ... in vivo'). The source gives two values: 'about 6 ns when dissolved in de-oxygenated diethyl ether at ambient temperature and about 4 ns in vivo'. Four nanoseconds is the in vivo lifetime, which is the figure the argument needs; the isolated-in-solvent value is 6 ns. Rewrote to give the in vivo figure as in vivo and note the solvent value alongside."
+        },
+        {
+          "claim": "Antennae bind on the order of 200 chlorophylls per reaction centre and transfer energy on femtosecond to picosecond timescales; light-harvesting-to-charge-separation efficiency is 84-90 per cent for photosystem II in higher plants, with quantum efficiencies across organisms and conditions spanning roughly 50-90 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3899860/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Splitting water requires more than 2 eV, which no ordinary biological cofactor can supply",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6763417/",
+          "disposition": "qualified",
+          "note": "The source attaches the >2 eV threshold specifically to the first electron: 'the removal of the first electron from water ... requires much energy (> 2 eV) that cannot be provided in a biological system'. Generalising it to 'splitting water' loses the point the rest of the section then makes, which is why the manganese cluster accumulates four oxidising equivalents instead of removing electrons one at a time from an unmodified water molecule. Narrowed to the first electron."
+        },
+        {
+          "claim": "P680+ oxidation potential estimated at +1.2 to +1.3 V, the highest known in biology; Mn4CaO5 cluster of four manganese and one calcium bridged by five oxygens; S0 to S4 states releasing O2 after four consecutive photochemical events; PSII functional lifetime about 30 minutes in normal light while completing more than 10^5 reaction cycles",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6763417/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The thylakoid proton gradient reaches 3 to 3.5 pH units, equivalent to a proton-motive force of about 200 mV",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26819/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Calvin-Benson cycle consumes three ATP and two NADPH per CO2 fixed; Rubisco often exceeds 50 per cent of chloroplast protein and is reckoned the most abundant protein on Earth",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26819/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "More than 95 per cent of characterised Rubiscos catalyse only one to ten carboxylations per second, against about a thousand per second for a typical enzyme",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7845915/",
+          "disposition": "qualified",
+          "note": "The Rubisco half is exact — the source says 'more than 95% of characterized Rubiscos catalyze only 1 to 10 carboxylation reactions per second'. The comparator is not: the same source gives the median enzyme at approximately 79 reactions per second, while the 1,000/s figure comes from a different cited source (NBK26819) describing 'a typical enzyme'. Setting 1-10 against 1,000 rather than against 79 inflates the contrast by more than an order of magnitude in the reader's head. Replaced the comparator with the median from the source that supplies the Rubisco number."
+        },
+        {
+          "claim": "C3 plants dedicate up to a quarter of leaf nitrogen to Rubisco; photorespiration costs C3 plants about a quarter of the carbon they fix; catalytic rate and CO2/O2 specificity trade off against each other",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7845915/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Direct evidence for CAM in 370 genera across 38 families, around 7 per cent of vascular plants CAM-capable, from a minimum of 66 independent origins; C4 has arisen from C3 ancestors more than 60 times, by one count nearly 70; a C4 leaf fixes roughly twice as much net carbon per unit of water lost as a C3 leaf",
+          "sourceChecked": "https://academic.oup.com/aob/article/132/4/627/7271350 , https://pmc.ncbi.nlm.nih.gov/articles/PMC7410182/ and https://www.ncbi.nlm.nih.gov/books/NBK26819/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "C4 is rare in trees; the shade explanation is only partly supported because the C4 tree Euphorbia herbstii uses sunflecks about as efficiently as a comparable C3 tree; passive phloem loading and an adaptive trough are proposed constraints",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7410182/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Theoretical maximum conversion efficiency for C3 crops of 0.046 to 0.051, against a best observed field value of about 0.024",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100352/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The efficiency gap is often presented as headroom for crop improvement, which assumes the losses are avoidable — a proposition still being tested, not a demonstrated result",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100352/",
+          "disposition": "qualified",
+          "note": "The article hedged past its own source. The New Phytologist review it cites for the 4.6-5.1 per cent and 2.4 per cent figures says the opposite of 'still being tested': 'With current epsilon-c values being only half of their theoretical maximum, there is clearly scope for improvement.' Its actual caveat is that improvement needs coordinated changes across several pathways rather than one adjustment. Rewrote so the caution reports the review's caveat instead of contradicting the review's confidence."
+        }
+      ],
+      "openQuestions": [
+        "royalsocietypublishing.org returns 403 to scripted clients, so source 3 was read on the PMC copy PMC3899860 rather than at the publisher.",
+        "The article's '>60 independent origins of C4' is supported only indirectly: the cited Journal of Experimental Botany review gives 'nearly 70 times', which is the figure the prose also carries. No source in the article states the number 60 itself."
+      ]
+    },
+    {
+      "slug": "cell-division-mitosis-and-meiosis",
+      "path": "content/en/biology/cells/cell-division-mitosis-and-meiosis.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "In a typical human cell proliferating in culture, interphase occupies about 23 hours of a 24-hour cycle and M phase about one; S phase alone takes 10 to 12 hours, roughly half the total",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26869/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Early embryonic cycles run S and M phases of about 15 minutes each with no detectable G1 or G2",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26869/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cdks have no kinase activity unless bound to a cyclin, and cyclin concentrations rise and fall; DNA damage checkpoints in G1 and G2 delay progression to allow repair",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26824/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The spindle assembly checkpoint works by each unattached chromosome emitting an inhibitory signal, so the attachment of the last one is detected by the disappearance of the last inhibition rather than by counting",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26824/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A human cell with 23 pairs can produce at least 2^23, about 8.4 x 10^6, genetically different gametes by independent assortment alone",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26840/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "On average a human chromosome participates in two or three crossover events, and every chromosome participates in at least one obligate crossover",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26840/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Genome-wide maps report approximately 42 crossovers per maternal meiosis against approximately 26 per paternal meiosis",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11922761/ (PMC copy of https://www.nature.com/articles/s41586-024-08450-5, which redirects scripted clients to an identity provider)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The frequency of chromosome missegregation in human oocytes is around 10 per cent of meioses",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26840/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A cytogenetic study of 340 first-trimester losses found chromosomal abnormalities in 48.5 per cent, aneuploidy in 81.8 per cent of abnormal cases, and trisomy in 86.7 per cent of aneuploidies",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8317611/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same study reported an odds ratio of 4.12 for women aged 37 and above compared with those aged 29 or younger",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8317611/",
+          "disposition": "corrected",
+          "note": "4.12 appears nowhere in the paper. Every odds ratio it reports was enumerated: 4.20 (95% CI 1.90-8.92) for >=37 vs <=29 years in the whole cohort, 3.02 (1.43-6.41) for >=37 vs 30-36, 4.81 (1.80-12.84) for >=37 vs <=29 in the natural-conception subgroup, and two for prior abortion count. The article's comparison groups match the first of these, so the value was changed to 4.20 and the confidence interval added, since a single-centre odds ratio quoted bare invites more weight than the interval supports."
+        },
+        {
+          "claim": "TP53 is estimated mutated in about 35 per cent of new US cancer diagnoses, PIK3CA at 13.5 per cent and KRAS at 10.5 per cent, and the authors' framing is that common driver mutations are less common than previously believed",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8514428/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "nature.com redirects scripted clients to an identity provider, so the crossover counts were read on the PMC copy PMC11922761 of the same paper rather than at the publisher.",
+        "The gloss that a 10 per cent oocyte missegregation rate is 'a rate no mitotic tissue would tolerate' is the article's own comparison; the cited chapter gives the oocyte figure but makes no comparison with mitotic tissue."
+      ]
+    },
+    {
+      "slug": "cytoskeleton-and-cell-motility",
+      "path": "content/en/biology/cells/cytoskeleton-and-cell-motility.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "Actin filaments about 7 nm, microtubules about 25 nm, intermediate filaments about 10 nm in diameter; more than 50 intermediate filament proteins in six classes; their role is tensile strength, and keratin mutations cause the skin blistering of epidermolysis bullosa simplex",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK9834/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Globular actin is 375 amino acids and 43 kd; actin runs at 5 to 10 per cent of total protein in ordinary eukaryotic cells and around 20 per cent in muscle; the plus end elongates five to ten times faster than the minus end",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK9908/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Microtubules switch between growth and shrinkage several times a minute; actin filaments in a motile cell persist only a few minutes; 13 protofilaments; tubulin binds GTP and actin ATP while intermediate filament proteins bind no nucleotide and lack structural polarity",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26862/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Kinesin-1 steps 8.2 nm, matching the 8.15 nm tubulin-dimer lattice spacing, hydrolyses a single ATP per mechanical step, and a wild-type motor takes on the order of 100 steps before releasing",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3167932/ (PMC copy of https://www.nature.com/articles/nsmb.2104)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Kinesin is about 380 kd (two 120-kd heavy and two 64-kd light chains) with a motor domain of roughly 340 amino acids against myosin's about 850; cytoplasmic dynein up to 2,000 kd with heavy chains of about 500 kd, and all dyneins move towards minus ends; 18 kinesins in C. elegans and as many as 100 in humans",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK9833/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The axoneme is about 0.25 um across, nine outer doublets around a central pair, the A tubule complete with 13 protofilaments and the B tubule incomplete with 10 or 11; cilia around 10 um long and flagella up to 200 um; sliding is converted to bending because the doublets are cross-linked",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK9833/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Primary ciliary dyskinesia has an estimated prevalence of about 1 in 10,000, roughly half of affected people have complete situs inversus, and pathogenic variants in more than 30 genes have been described, accounting for an estimated 60 to 70 per cent of cases",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9489029/",
+          "disposition": "qualified",
+          "note": "Every figure matches the source, but the gene count is a moving quantity stated as a standing fact. The source is a 2017 European Respiratory Review, and it says explicitly that new genes continue to be discovered and that the 60-70 per cent share is expected to increase. Added the review's date as a temporal anchor and carried its own caveat across, so a reader does not take a 2017 gene tally for a current one. Prevalence and situs inversus figures left as they stand."
+        },
+        {
+          "claim": "The longest human axon runs up to a metre and plus-end-directed kinesins carry material along it in about a day",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26930/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "At high concentrations microtubule-targeting agents grossly polymerise or depolymerise the microtubule mass, while at clinically relevant concentrations both classes act by slowing microtubule dynamics and producing mitotic arrest; neurotoxicity is the dose-limiting toxicity of vincristine",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2778221/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Peripheral neuropathy remains dose-limiting for the related epothilones, reported in approximately 65 per cent of treated patients",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2778221/",
+          "disposition": "qualified",
+          "note": "The source attaches the 65 per cent figure to one agent, not to a class: 'peripheral neuropathy remains a significant dose-limiting toxicity in approximately 65% of treated patients' receiving ixabepilone. Spreading a single-agent incidence across 'the related epothilones' asserts something the review does not measure. Named ixabepilone."
+        },
+        {
+          "claim": "Tumour cells in a patient divide too slowly for mitotic arrest alone to account for observed responses, and effects on non-dividing cells and on the immune environment are under investigation with mixed evidence on their relative contribution",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4009386/",
+          "disposition": "resourced",
+          "note": "The paragraph had no citation and none of the eight listed sources supports it — the oncology review cited earlier in the section (PMC2778221) does not raise the proliferation-rate mismatch at all, does not discuss interphase or immune mechanisms, and does not question whether mitotic arrest suffices. The claim is correct and is now sourced to Ogden et al., Drug Discovery Today 2013, which concludes that 'MTAs predominantly target interphase cells in cancer patients' despite 'the typically low proliferation rate of cancer cells in patient tumors', that 'MTAs exert substantial immunomodulatory effects that contribute to tumor rejection', and that which mechanism dominates remains to be identified. Added as source 9 and cited in the paragraph."
+        }
+      ],
+      "openQuestions": [
+        "The 'more than 30 genes' PCD figure rests on a 2017 review, which is the newest source the article cites for it. A current gene count was not established in this pass; the article now says as-of rather than implying present tense."
+      ]
+    }
+  ]
+}

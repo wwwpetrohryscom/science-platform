@@ -1,0 +1,285 @@
+{
+  "batchId": "v-ecology-soils-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "soil-erosion-processes-and-rates",
+      "path": "content/en/ecology/soils/soil-erosion-processes-and-rates.md",
+      "status": "amended",
+      "claimsChecked": 17,
+      "findings": [
+        {
+          "claim": "the FAO review records that tillage erosion was recognised by soil scientists only in the 1990s and, unlike the other two, is \"close to impossible to observe while it is happening\"",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf (the cited handle, https://openknowledge.fao.org/handle/20.500.14283/ca4395en, is a JavaScript shell; the handle resolves via the repository's pid API to item 6c070e1e-6533-4b7e-ba5f-a2f21a0e59ff, the same report)",
+          "disposition": "corrected",
+          "note": "The 1990s date is exact (\"The importance of tillage erosion was only recognized by soil scientists in the 1990s\"). The observability claim is stronger than the source. FAO writes that tillage erosion \"(unlike water and wind erosion) is difficult to observe visually when it is occurring\". \"Close to impossible\" upgrades a stated difficulty into a near-impossibility. Changed to \"is difficult to observe visually while it is happening\". Note on method: that clause sits in a CID-encoded font that ordinary PDF text extraction drops entirely; I recovered it by decoding the page's hex strings against the PDF's own ToUnicode CMaps, so an editor re-checking should look at page 2 of the published PDF rather than a copy-paste."
+        },
+        {
+          "claim": "source list titles the FAO report \"Soil erosion: the greatest challenge to sustainable soil management\"",
+          "sourceChecked": "https://openknowledge.fao.org/server/api/pid/find?id=hdl:20.500.14283/ca4395en (repository record) and the report's own running head in https://www.fao.org/3/ca4395en/ca4395en.pdf",
+          "disposition": "corrected",
+          "note": "The report is titled \"Soil erosion: the greatest challenge FOR sustainable soil management\" in both the repository record and the running head on every second page. The article had \"to\". A one-word misquotation of a named report's title; corrected."
+        },
+        {
+          "claim": "rills where the channel is shallower than 0.3 m and gullies where it is deeper; wind erosion the principal form in the Near East and North Africa; grain size largely sets transport distance; water erosion the most studied and probably affecting the largest area",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "tillage erosion 3.3 t ha-1 yr-1 against 3.9 for water erosion on European cropland; a global cropland estimate of 12.1 for water and 3.5 for tillage",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf (Table 1, Van Oost, Cerdan and Quine 2009; and section 5.2 on Van Oost et al. 2007)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "at 1,200 kg m-3, 1 t ha-1 yr-1 corresponds to 0.08 mm of lowering; plot scales of 10^-4 to 10^2 m2 are systematically unlike hillslopes and catchments of 10^4 to 10^9 m2",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, section 1.2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USLE's empirical foundation is erosion-runoff plots 22.1 m long and 4.1 m wide plus rainfall simulators, mostly in the United States; the equation is a product of rainfall erosivity, soil erodibility, slope length and steepness, cover management and support practice terms",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, sections 4.1.1 and 4.2.1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "RUSLE2015 with harmonised datasets and a 25 m elevation model returns a mean of 2.5 t ha-1 yr-1 over the erosion-prone area, 76 per cent of the European land mass below 2, permanent crops highest at 9.47",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, section 5.1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "global model at 250 m over 125 million km2 or 84.1 per cent of the land surface gives 35.9 Pg moved by water in 2012, about 2.5 per cent more than 2001; croplands roughly 11 per cent of the modelled area and about half the total, at 12.7 t ha-1 yr-1 against 0.16 for forest and 1.84 for other natural vegetation",
+          "sourceChecked": "https://www.nature.com/articles/s41467-017-02142-7 (full text; nature.com returns the article to a browser user-agent after a cookie redirect)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the framework estimates detachment not delivery, does not represent gully incision or deposition, and the authors of the global assessment state plainly that applying equations developed in the United States elsewhere is a legitimate concern",
+          "sourceChecked": "https://www.nature.com/articles/s41467-017-02142-7 and https://www.fao.org/3/ca4395en/ca4395en.pdf",
+          "disposition": "verified"
+        },
+        {
+          "claim": "comparison table: global plot compilation ~49 mean; second global plot synthesis 12-15 for cropland; Western Europe plots plus modelling 3.6; Europe RUSLE-based map 2.7 for arable land; seven sites in England 0.15",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, Table 1 (Montgomery 2007; den Biggelaar et al. 2003; Cerdan et al. 2010; Panagos et al. 2015; Evans 2013)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "plot-derived mean annual losses run from 8 to almost 50 t ha-1 yr-1 while regional and global models return 2 to 4",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, executive summary",
+          "disposition": "verified"
+        },
+        {
+          "claim": "critics argued the modelled results were never compared against field assessments of erosion in Britain, that the rainfall-erosivity and erodibility terms are weak, and that averaged cover factors leave wheat and maize in Germany almost identical contrary to other evidence; the modelling group replied that each factor had been published separately and was open to comparison",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, section 5.1 (Evans and Boardman 2016a/2016b; Fiener and Auerswald 2016; Panagos et al. 2016a/2016b)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1,673 measurements from 201 studies; medians in mm/yr of about 1.5 conventional agriculture, 0.08 no-till, 0.013 native vegetation, 0.017 soil production, 0.029 geological; mean 3.9 for conventional agriculture; a decimetre- to metre-thick profile erodes through in a few hundred to a few thousand years",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1948917/ (Montgomery 2007 full text; pnas.org returns 403 to scripted clients)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "tolerable soil loss from soil production rates 0.2 to 2.2 t ha-1 yr-1; USDA 4.5 to 11.2; later EEA work 1 to 5; production functions are measured at the soil-bedrock interface so least relevant in thick loess, glacial or lacustrine mantles; bioturbation can build an organic-enriched surface horizon faster than bedrock converts to soil; topsoil depth is not a usable erosion indicator because the Ap horizon cannot be thinner than the depth of ploughing",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, section 1.3",
+          "disposition": "verified"
+        },
+        {
+          "claim": "no-till reduced soil loss by 60 per cent in temperate climates with no significant difference in subtropical and tropical ones, runoff fell 33 per cent in temperate conditions and was significantly higher in the warmer ones; no-till yield cost 5.1 per cent overall, 15.1 per cent in tropical latitudes, 3.4 per cent temperate",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, section 6.2 (Mhazo, Chivenge and Chaplot 2016; Pittelkow et al. 2015)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "mulching reduced sediment concentration 68.9 per cent across rainfall-simulation studies and 48.8 per cent across runoff plots, silt fences and sediment traps; terracing used for about 5,000 years, bringing erosion under rice close to geological rates; a survey of 60 studies attributes terrace failure to abandonment, poor maintenance and poor design; reduced tillage and cover crops on more than a quarter of EU agricultural land by 2015 reduced modelled soil loss by roughly 1 per cent each",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, sections 5.1, 6.3 and 6.4",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 1995 Science estimate of about US$44.4 billion in annual on-site, off-site and prevention costs for the United States; a 2007 environmental-economics estimate of $100 million in annual US farm income loss; FAO calling erosion cost estimates widely variable and controversial",
+          "sourceChecked": "https://www.fao.org/soils-portal/soil-degradation-restoration/cost-of-soil-erosion/en/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EEA estimates about 1 billion tonnes eroded across the EU each year, roughly a quarter of EU soils affected by water erosion mainly in cropland, and projections of a 13 to 25 per cent increase by 2050",
+          "sourceChecked": "https://www.eea.europa.eu/en/topics/in-depth/soil",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The sentence \"the authors of the global assessment state plainly that applying equations developed in the United States elsewhere is a legitimate concern\" is accurate, and is close to how the FAO review itself renders Borrelli et al. But the paper's next sentence argues the opposite way: \"the authors argue that at this stage the presented global RUSLE application represents a legitimate approach to narrow the current gap of knowledge\". A reader of the article's \"What the framework cannot do\" section would not know the authors answered their own concession. I left the sentence because both cited sources support it as written, but an editor may want the counterweight.",
+        "The EEA soil page carries no reference year for the 1 billion tonnes, the 24 per cent, or the 2050 projection, so no temporal anchor could be added to those figures without inventing one."
+      ]
+    },
+    {
+      "slug": "soil-formation-and-classification",
+      "path": "content/en/ecology/soils/soil-formation-and-classification.md",
+      "status": "clean",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "the World Reference Base states that its diagnostic horizons and properties are characterised by attributes reflecting the common results of the processes of soil formation",
+          "sourceChecked": "https://www.fao.org/3/i3794en/I3794en.pdf (WRB 2014, the report behind the cited handle 20.500.14283/i3794en), Chapter 3",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the WRB allocates its Reference Soil Groups according to the dominant soil-forming factor or process, in eight groupings: thick organic layers; strong human influence; limitations to root growth from permafrost, shallowness, exchangeable sodium, shrink-swell clay or soluble salts; iron and aluminium chemistry; organic-matter accumulation in a mineral topsoil; accumulation of moderately soluble salts; clay-enriched subsoils; and little or no differentiation. A Podzol is a name for subsoil accumulation of humus and oxides",
+          "sourceChecked": "https://www.fao.org/3/i3794en/I3794en.pdf, section 1.5 and Table 2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the 1997 Nature paper used in-situ produced 10Be and 26Al in bedrock beneath soils of different thickness on hillslopes in northern California, alongside hillslope curvature as an independent proxy; both methods agreed and both showed exponential decline with mantle thickness, a relationship assumed for a century without field data",
+          "sourceChecked": "https://www.nature.com/articles/41056 (Heimsath, Dietrich, Nishiizumi and Finkel, Nature 388:358-361, 24 July 1997; abstract and figure captions read in full)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the 2007 PNAS compilation puts the median soil production rate at 0.017 mm per year across 188 measurements; at 1,200 kg m-3 that is close to 0.2 t ha-1 yr-1, and a metre of profile is on the order of tens of thousands of years of production",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1948917/ (pnas.org returns 403 to scripted clients). The two unit conversions are arithmetic on the paper's own figures and check out (0.017 mm/yr x 1200 kg/m3 = 0.204 t/ha/yr; 1000 mm / 0.017 mm/yr = 59,000 years)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "soil production is measured at the soil-bedrock interface, making it a poor guide where the profile developed in a thick mantle of loess, glacial or lacustrine sediment; mixing by burrowing animals, roots and fungi can construct an organically enriched surface horizon far faster than bedrock disintegrates",
+          "sourceChecked": "https://www.fao.org/3/ca4395en/ca4395en.pdf, section 1.3 (which attributes the bioturbation point to Wilkinson and Humphreys 2005)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO's account describes the Russian and 1938 USDA systems dividing soils into zonal types where climate and vegetation dominated and azonal and intrazonal types where parent material and time did; modern classification began when the seventh approximation of USDA Soil Taxonomy replaced inferred genesis with precisely defined, quantified properties used to define diagnostic horizons",
+          "sourceChecked": "https://www.fao.org/soils-portal/data-hub/soil-classification/en/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the systems were built for different purposes: Soil Taxonomy to interpret soil surveys, the FAO/UNESCO legend to represent the global distribution and geography of soils, and the WRB to make correlation between systems possible",
+          "sourceChecked": "https://www.fao.org/soils-portal/data-hub/soil-classification/en/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "comparison table: Soil Taxonomy first published 1975, hierarchical under 12 orders, designed to correlate soil series and supply map unit names at varying cartographic detail, maintained through successive Keys; FAO/UNESCO legend produced after a 1968 request from the IUSS, intended for continental not local scale, replaced by the WRB in 1998; WRB first published 1998, fourth edition 2022, endorsed by the IUSS",
+          "sourceChecked": "https://www.fao.org/soils-portal/data-hub/soil-classification/usda-soil-taxonomy/en/, https://www.fao.org/soils-portal/data-hub/soil-classification/fao-legend/en/, https://www.fao.org/soils-portal/data-hub/soil-classification/world-reference-base/en/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the WRB began with 30 Reference Soil Groups in 1998 and has had 32 since its second edition; principal qualifiers are given in ranked order and supplementary qualifiers listed alphabetically, so a soil with few distinguishing features gets a short name; it is not intended to substitute for national systems but to serve as a common denominator; it borrows from Soil Taxonomy",
+          "sourceChecked": "https://www.fao.org/3/i3794en/I3794en.pdf, sections 1.4 and 1.5; borrowing confirmed at https://www.fao.org/soils-portal/data-hub/soil-classification/world-reference-base/en/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "in the WRB the user works through the key from the beginning, excluding groups whose requirements are not met, and the soil belongs to the first group whose criteria it satisfies; field and laboratory values must be taken as they are and must not be rounded when compared against diagnostic thresholds",
+          "sourceChecked": "https://www.fao.org/3/i3794en/I3794en.pdf, Chapter 2 (\"Numerical values obtained in the field or in the laboratory have to be taken as such and must not be rounded when compared with the threshold values in the diagnostic criteria\")",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the Harmonized World Soil Database version 2.0 was released in 2023 at roughly 1 km resolution, describes the composition of soil units within nearly 30,000 mapping units, draws on about 21,000 profiles and reports seven depth layers from 0-20 cm down to 150-200 cm; the legacy Soil Map of the World was intended for continental not local scale",
+          "sourceChecked": "https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/ and https://www.fao.org/soils-portal/data-hub/soil-classification/fao-legend/en/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The article's architecture claims (30 then 32 RSGs, the two-level structure, the key procedure, the no-rounding rule, the common-denominator statement) are cited to the WRB 2014 third edition, while the table names the fourth edition of 2022 as current. To be sure the description is not stale I cross-checked the 2022 edition itself (https://wrb.isric.org/files/WRB_fourth_edition_2022-12-18.pdf, not a source the article cites) and it carries all five unchanged, including \"The 32 Reference Soil Groups were maintained\" and the no-rounding rule verbatim. No change needed, but the article's substantive WRB source remains an edition behind its own table.",
+        "The article names WRB grouping 5 as \"the Chernozem and Kastanozem group\". WRB Table 2 puts Phaeozems and Umbrisols in that grouping too. Read as a label rather than a membership list it is fine, and the article says elsewhere that each grouping holds several groups, so I left it."
+      ]
+    },
+    {
+      "slug": "nutrient-availability-and-soil-fertility",
+      "path": "content/en/ecology/soils/nutrient-availability-and-soil-fertility.md",
+      "status": "clean",
+      "claimsChecked": 19,
+      "findings": [
+        {
+          "claim": "nitrate and ammonium usually amount to less than 5 per cent of the nitrogen present; soil-solution phosphorus 0.01 to 0.50 mg per litre against roughly 400 for calcium, 60 for magnesium and 40 for potassium; half or more of total P locked in organic compounds; 1 to 3 per cent of soil organic matter decomposes in a year, so 8,000 kg of organic nitrogen per hectare releases about 160 kg of which a crop might take up half",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part III (a0443e02.pdf), Chapter 5 — all four figures read verbatim",
+          "disposition": "verified"
+        },
+        {
+          "claim": "under the 1939 Arnon and Stout criteria FAO's guide counts 16 essential elements; carbon, oxygen and hydrogen come from carbon dioxide and water; the remaining 13 are six macronutrients and seven micronutrients",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part I (a0443e00.pdf), Chapter 3 and Table 6",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the familiar figure of 17 reflects nickel, established in 1987; FAO records no unanimity on whether nickel is essential or merely beneficial and adds that the list should not be considered final",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part I, Chapter 3",
+          "disposition": "verified"
+        },
+        {
+          "claim": "carbon, oxygen and hydrogen make up about 95 per cent of plant biomass; of the mineral fraction nitrogen and potassium about 80 per cent, phosphorus, sulphur, calcium and magnesium about 19, micronutrients under 1; the N to Mo ratio in tissue is around 10,000 to 1, with N at 1.5 per cent and Mo at a few parts per million",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part I, Chapter 3 and Table 6",
+          "disposition": "verified"
+        },
+        {
+          "claim": "cation exchange capacity below 10 cmol kg-1 for sandy soils and above 30 for clay-rich ones; the selectivity order runs aluminium, then calcium and magnesium, then potassium, hydrogen and ammonium, with sodium held most loosely; base saturation is the share of the capacity occupied by basic cations",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part III, Chapter 4 (order given as Al3+ > Ca2+ > Mg2+ > K+, H+, NH4+ > Na+)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "phosphate and to a lesser extent sulphate are bound on positively charged surfaces while nitrate and chloride are barely held at all",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part III, Chapter 4 (\"large amounts of nitrate are not adsorbed at all and, hence, can be easily lost through leaching\") and Chapter 5 on adsorbed P",
+          "disposition": "verified"
+        },
+        {
+          "claim": "below about pH 4.5 aluminium becomes soluble enough to be toxic to roots and almost no plants survive below pH 3; availability of iron, manganese, copper and zinc rises with acidity while molybdenum moves the other way; phosphate is constrained at both ends; most crops perform best around pH 6 to 7",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part III, Chapter 4",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO's guide is careful that a species' apparent pH preference is often determined by nutrient requirement and efficiency rather than acidity as such — oats prefer slightly acid conditions because manganese supply is better — and the ranges shown do not mean a crop cannot be grown outside them",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part III, Chapter 4",
+          "disposition": "verified"
+        },
+        {
+          "claim": "urea is hydrolysed by urease to ammonium, then usually nitrified to nitrate rapidly; urea on an alkaline surface is lost as ammonia; nitrate moves with percolating water and is denitrified under anaerobic conditions; ammonium can be fixed in non-exchangeable form inside 2:1 clays such as vermiculite and illite",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part III, Chapter 5 (\"Certain 2:1-type clays such as vermiculite and illite can fix ammonium ions in a non-exchangeable form\")",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO's tabulation gives mineral nitrogen fertiliser 50 to 70 per cent first-crop utilisation, slurry 30 to 50 and solid manure 20 to 40; measured recovery in Asian paddy rice in the late 1990s ranged from under 30 per cent to about 70",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part IV (a0443e03.pdf), Chapter 6, Table 31 and accompanying text (paddy-rice range given for Asia, 1995-97)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "soluble phosphate is largely converted to adsorbed forms within hours, binding to iron and aluminium hydrous oxides, clay minerals and aluminium-organic complexes in acid soils and to calcium and magnesium carbonates in neutral and alkaline ones; the result is three pools, solution, labile and non-labile, in slow equilibrium",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part III, Chapter 5 (\"is converted into adsorbed P within a few hours\")",
+          "disposition": "verified"
+        },
+        {
+          "claim": "mineral phosphate has a first-year utilisation rate of 10 to 20 per cent against 50 to 60 for potassium and 0.5 to 5 for micronutrients; where the first year is 15 per cent, roughly 1 to 2 per cent follows in year two and about 1 per cent per year after, reaching some 25 per cent over ten years and about 45 per cent over thirty",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part IV, Chapter 6, Table 31 and the residual-effect passage",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USGS puts world ammonia plant production at 156 million tonnes of contained nitrogen in 2024 and an estimated 160 million in 2025, and states that the availability of nitrogen from the atmosphere for fixed-nitrogen production is unlimited",
+          "sourceChecked": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf, the nitrogen (fixed) — ammonia chapter of Mineral Commodity Summaries, February 2026 (the cited USGS landing page returns a TLS error and the PDF 403s WebFetch; downloaded by curl and read in full). Table units are \"thousand metric tons, nitrogen content\"",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USGS reports world phosphate rock mine production of 239 million tonnes in 2024 and an estimated 250 million in 2025, world reserves of about 73 billion tonnes, world resources of more than 300 billion tonnes and no imminent shortages; Morocco holds about 50 billion tonnes; flat US output as Florida producers contend with decreasing reserves and lower P2O5 content; no substitute for phosphorus in agriculture",
+          "sourceChecked": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-phosphate.pdf, Mineral Commodity Summaries, February 2026 (downloaded by curl; the PDF 403s WebFetch)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the European Environment Agency estimates that nutrient imbalances affect 74 per cent of EU agricultural land, with nitrogen surplus increasing",
+          "sourceChecked": "https://www.eea.europa.eu/en/topics/in-depth/soil",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA's July survey of the northern Gulf hypoxic zone, the area where bottom oxygen falls below 2 mg per litre, measured 4,402 square miles in 2025 and 1,332 square miles in 2026, the second smallest in a record that began in 1985",
+          "sourceChecked": "https://oceanservice.noaa.gov/hazards/hypoxia/ (\"At 1,332 square miles, the 2026 hypoxic zone ... is the 2nd smallest ever measured in the 40-year record, measured from July 24 to July 30, 2026\"; \"In 2025, it grew to cover 4,402 square miles\"; monitored \"Since 1985\")",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the US EPA describes surplus nutrients washing from fields during rain and snowmelt, leaching through the profile into groundwater, and leaving as gaseous ammonia and nitrogen oxides",
+          "sourceChecked": "https://www.epa.gov/nutrientpollution/sources-and-solutions-agriculture",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO's guide states without hedging that no method has been developed to establish true values for the recovery of applied nutrients by crops; the difference method is confounded because plants change root growth and uptake capacity in response to deficiency, and isotope tracers are confounded by mineralisation-immobilisation turnover",
+          "sourceChecked": "https://www.fao.org/4/a0443e/a0443e00.htm, Part IV, Chapter 6 (\"To date, no method has been developed to establish true values for the recovery of applied nutrients by crops\")",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 2015 Nature analysis of managing nitrogen for sustainable development treats improvement in crop nitrogen-use efficiency as central to reconciling food production with environmental limits, and works with national trajectories rather than a single global constant",
+          "sourceChecked": "https://www.nature.com/articles/nature15743 — paywalled; abstract read via Europe PMC record PMID 26595273 (\"Improvements in nitrogen use efficiency in crop production are critical for addressing the triple challenges of food security, environmental degradation and climate change ... we examine historical patterns of agricultural nitrogen-use efficiency and find a broad range of national approaches ... propose targets, by geographic region and crop type\")",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The 2015 Nature paper is paywalled and Crossref carries no abstract for it; I read the abstract only, via Europe PMC. The abstract supports both halves of the article's sentence, but the article's broader framing of the paper as working with national trajectories rests on \"a broad range of national approaches\" and \"targets, by geographic region and crop type\" in the abstract rather than on the analysis itself.",
+        "FAO dates the Asian paddy-rice recovery range to 1995-97; the article renders that as \"the late 1990s\". Defensible as a decade-level gloss, but the source is more precise than the sentence."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "batchId": "v-biology-microbiology-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "microbiology-explained",
+      "path": "content/en/biology/microbiology/microbiology-explained.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "Total living carbon ~550 Gt C; plants 450, bacteria 70, fungi 12, archaea 7, protists 4, animals 2, viruses 0.2 Gt C; fold-uncertainties 1.2 (plants), 10 (bacteria), 13 (archaea); assembled at the Weizmann Institute and Caltech",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016768/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same census places the bulk of bacterial and archaeal biomass in deep subsurface environments rather than in soil, water or hosts",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016768/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Subsurface cells turn over on timescales of months to thousands of years, so a large standing stock does not translate into a large flux",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016768/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1998 assessment: 4-6 x 10^30 prokaryotic cells holding 350-550 Pg C; oceanic subsurface ~355 x 10^28 cells against 26 x 10^28 in soil and 12 x 10^28 in aquatic habitats",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC33863/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Annual mean abundances of 2.9 +/- 0.1 x 10^27 Prochlorococcus and 7.0 +/- 0.3 x 10^26 Synechococcus, together on the order of a quarter of ocean net primary production",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3683724/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncultured genera ~7.3 x 10^29 cells (81%); uncultured phyla ~2.2 x 10^29 (25%); uncultured share 22-87% at genus-to-class level; human habitats 45-97% cultured; metatranscriptomes 46-84%",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6156271/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"they are metabolically active cells whose physiology is known only from genomes\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6156271/",
+          "disposition": "qualified",
+          "note": "Certainty upgrade. The paper's abstract says the metatranscriptome overrepresentation 'suggest[s] that they are viable', and its methods section states that metatranscriptomes show which cells 'contained ribosomes and were therefore at least poised for activity', adding that 'no universally predictive relationship' links rRNA content to activity. Ribosome content is not demonstrated metabolic activity. Changed 'metabolically active cells' to 'viable cells', which is the source's own word."
+        },
+        {
+          "claim": "70 kg reference adult: ~3.8 x 10^13 bacteria against ~3.0 x 10^13 human cells, ratio near 1.3 to 1, 25 per cent uncertainty",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002533",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 10:1 ratio survives because it is roughly right if red blood cells are excluded \"and there is no good reason to exclude them\"",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002533",
+          "disposition": "qualified",
+          "note": "The flat editorial judgement contradicts the cited source. Sender et al. write that whether to count non-nucleated cells 'seems to be a question of definition', that they view red blood cells as 'bona fide cells', but that 'it is also plausible to choose not to include them'. Rewritten to report the source's even-handed position instead of overruling it. The arithmetic half of the sentence is supported: bacteria (3.8x10^13) against nucleated human cells (~0.3x10^13) gives about 10:1."
+        },
+        {
+          "claim": "One approach extrapolates diversity scaling laws from ~35,000 sites and predicts upward of one trillion microbial species",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4889364/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Census-based estimate of 0.8-1.6 million prokaryotic OTUs at 97% similarity in 16S V4, or 2.2-4.3 million using full-length 16S; about six orders of magnitude lower than the scaling-law prediction",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6361415/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The second team stated directly that ... phenomenological scaling relationships cannot be extrapolated to global scales\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6361415/",
+          "disposition": "qualified",
+          "note": "Two problems. Louca et al. write 'Our work suggests' for the six-orders figure, not a flat declaration; 'stated directly' was softened to 'concluded'. More materially, the article dropped the scope condition: the source says scaling relationships cannot be extrapolated globally 'when these relationships were fitted solely to individual communities'. Without that clause the article makes a broader methodological claim than the paper does. Clause restored."
+        },
+        {
+          "claim": "Virtually all non-equilibrium electron transfers on Earth are driven by a small, ancient, highly conserved set of protein complexes that evolved in microbes early in Earth's history and moved between lineages largely by horizontal gene transfer",
+          "sourceChecked": "https://api.crossref.org/works/10.1126/science.1153213 (verbatim abstract of Falkowski, Fenchel & DeLong 2008; pubmed.ncbi.nlm.nih.gov/18497287 blocked scripted retrieval)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The NCBI Taxonomy database describes itself as covering about 10 per cent of the described species of life",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The sentence 'The recognition in 1990 that cellular life divides into Bacteria, Archaea and Eucarya came from molecular sequence comparison' has no source in this article's own list; it is carried by the Woese 1990 citation on the linked bacteria-and-archaea page, whose abstract I read and which supports it. Left as is, but the pillar page states it unsourced.",
+        "Template sameness across the batch: all four articles close on an 'honest statement / honest summary / honest version / most honest thing' formulation about the limits of counting. Noted, not restructured, per brief."
+      ]
+    },
+    {
+      "slug": "bacteria-and-archaea-explained",
+      "path": "content/en/biology/microbiology/bacteria-and-archaea-explained.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "The 1990 proposal introduced the rank of domain above kingdom, split cellular life into Bacteria, Archaea and Eucarya, argued molecular sequences are more revealing than classical phenotypes, held the three-way differences more profound than those separating animals from plants, and divided Archaea into Euryarchaeota (methanogens and relatives) and Crenarchaeota (thermophiles)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC54159/ (abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Archaeal phospholipids are sn-glycerol-1-phosphate with ether-linked isoprenoid chains; bacterial (and eukaryotic) phospholipids are sn-glycerol-3-phosphate with ester-linked fatty acids",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7171761/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The most chemically absolute difference between the domains is in the membrane.\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7171761/",
+          "disposition": "qualified",
+          "note": "Misleading simplification, and in tension with the article's own cited source. The same review documents that 'bacteria living in some extreme environments contain lipids with ether bonds in addition to the \"normal\" ester ones', that bacteria of the Fibrobacteres-Chlorobi-Bacteroidetes superphylum 'encode a complete pathway for the synthesis of archaeal lipids', and that mixed ester/ether membranes are extant. 'Most chemically absolute' softened to 'sharpest', and one sentence of the source's own exceptions added."
+        },
+        {
+          "claim": "Candidatus Carsonella ruddii, an obligate symbiont of sap-feeding psyllids, has a genome of about 160 kb, among the smallest known for a cellular organism and organelle-like",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9241722/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A Sorangium cellulosum strain from an alkaline habitat carries 14,782,125 base pairs, described on publication as the largest prokaryotic genome then reported (a roughly ninety-fold span against Carsonella)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3696898/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A network analysis of 539,723 genes across 181 sequenced genomes concluded at least 81 +/- 15 per cent of genes in each genome had been involved in lateral transfer",
+          "sourceChecked": "https://api.crossref.org/works/10.1073/pnas.0800679105 (verbatim abstract of Dagan, Artzy-Randrup & Martin 2008; pubmed.ncbi.nlm.nih.gov/18632554 blocked scripted retrieval)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 90,000 prokaryotic genomes: 99.8 per cent of roughly 8 billion genome pairs conform to >95% ANI within species or <83% between species; robust to removal of the most heavily sequenced organisms",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6269478/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Highest demonstrated growth temperature is 122 degrees C, by Methanopyrus kandleri strain 116 under 20-40 MPa of hydrostatic pressure",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2490668/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"at atmospheric pressure the same strain stops at 116 degrees C\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2490668/",
+          "disposition": "corrected",
+          "note": "Wrong pressure condition. Takai et al. report the 116 degrees C ceiling at 0.4 MPa, which they call the 'nonpiezophilic' condition, not at atmospheric pressure (0.1 MPa): 'Elevated hydrostatic pressures extend the temperature maximum for possible cell proliferation from 116 degrees C at 0.4 MPa to 122 degrees C at 20 MPa.' Changed to state 0.4 MPa and name it as the study's non-piezophilic condition. This matters because the sentence's whole point is that the ceiling is a surface in temperature-pressure space."
+        },
+        {
+          "claim": "Picrophilus torridus and P. oshimae grow around pH 0 with a pH optimum of 0.7 and a temperature optimum of 60 degrees C; core lipids mainly bis-phytanyl tetraethers",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC177581/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Genome analysis of P. torridus found an exceptionally high ratio of secondary to ATP-consuming primary transporters, indicating the external proton concentration is used to drive transport",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC428478/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Could not verify that the 1990 proposal itself noted the archaeal-eukaryotic RNA polymerase resemblance ('It also noted a detail that has aged well...'). That statement sits in the body of Woese, Kandler & Wheelis 1990, which PMC holds only as a scanned PDF; PMC's PDF endpoint, pnas.org and Europe PMC's full-text API all refused scripted retrieval, and no open full text was findable. The abstract, which I did read, confirms every other element of that paragraph. The biology itself is standard and is restated elsewhere in the article, so I left the text alone rather than cut an attribution I could not disprove either.",
+        "Two membrane claims are not stated by the source cited for that section: that 'ether bonds are more resistant to hydrolysis than ester bonds', and that tetraethers span the membrane 'as a monolayer rather than a bilayer'. The Biology Direct review mentions only that archaeal membranes 'may have other advantages, such as robustness under extreme conditions'. Schleper et al. confirm Picrophilus core lipids are mainly bis-phytanyl tetraethers but say nothing about monolayer geometry or permeability. Uncontroversial textbook chemistry, so not changed, but not source-verified here."
+      ]
+    },
+    {
+      "slug": "viruses-explained",
+      "path": "content/en/biology/microbiology/viruses-explained.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "\"the seven-class scheme that has organised the field since the early 1970s\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8483701/",
+          "disposition": "corrected",
+          "note": "Wrong history, and unsupported by any source the article cited. The cited NCBI Bookshelf chapter never mentions Baltimore or a seven-class scheme. The 2021 MMBR fiftieth-anniversary review states that Baltimore published in September 1971 and that there were 'six \"Baltimore classes\" of viruses, with a subsequently added 7th class'. The seven-class version therefore does not date to the early 1970s. Rewritten to say the 1971 paper delineated six classes with a seventh added subsequently, and the MMBR review added as source 9. Baltimore 1971 itself (PMC378387) is a scanned PDF with no machine-readable text, so the history was taken from the review."
+        },
+        {
+          "claim": "Classification of viruses proceeds on morphology, chemical composition and mode of replication",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK8174/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Circoviruses, among the smallest autonomously propagating viruses, have an isometric capsid measuring around 17 nm",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK8174/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"the RNA classes, lacking proofreading, mutate orders of magnitude faster than the DNA classes\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2937809/",
+          "disposition": "qualified",
+          "note": "Over-general, and contradicted by the article's own cited source for the very next section. Sanjuan et al. note that coronaviruses 'show low mutation rates ... supported by evidence of 3' exonuclease proofreading activity in their replicases', and coronaviruses sit in class IV of this article's own table. The same paper adds that although RNA and DNA rates do not overlap, 'the separation may be less than is often thought'. Changed to 'most RNA classes, whose polymerases lack proofreading', matching the hedge the article already uses correctly further down."
+        },
+        {
+          "claim": "DNA viruses 10^-8 to 10^-6 and RNA viruses 10^-6 to 10^-4 substitutions per nucleotide per cell infection",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2937809/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "SPbeta-group phages of Bacillus produce a six-amino-acid peptide, later phages measure its concentration and shift toward lysogeny when high; system encoded by three genes (peptide, intracellular receptor, negative regulator of lysogeny); different phages use different peptide versions",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5378303/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Roughly 10^30 virus particles in the ocean and approximately 10^23 viral infections every second; most abundant biological entities in seawater and the largest reservoir of genetic diversity in it",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17853907 (verbatim abstract of Suttle 2007; pubmed.ncbi.nlm.nih.gov/17853907 blocked scripted retrieval)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Pandoraviruses from Chile and an Australian freshwater pond have micrometre-sized ovoid particles with DNA genomes of at least 2.5 and 1.9 megabases",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23869018 (verbatim abstract of Philippe et al. 2013; pubmed.ncbi.nlm.nih.gov/23869018 blocked scripted retrieval)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"In one documented clinical case, 26 mutations accumulated over three years, corresponding to about 2.7 x 10^-3 substitutions per site per year.\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13516255/",
+          "disposition": "qualified",
+          "note": "Figures are exact, but the example was mis-framed. The source's case (patient RI, 1995-1998) is hepatitis B virus genotype F. HBV is a reverse-transcribing DNA virus, class VII in this article's own table, yet the example was placed unlabelled in a paragraph about RNA viruses at the upper end of the mutation-rate range, so a careful reader would take it as an RNA-virus rate. Named the virus in the sentence."
+        },
+        {
+          "claim": "Resistant variants typically pre-exist before treatment, the argument for combination therapy, a principle articulated for highly variable RNA viruses in the late 1980s",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13516255/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"its most recent published ratification round placed the taxonomy at 16,213 species distributed across 3,768 genera, 368 families, 93 orders and 7 realms\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12714852/",
+          "disposition": "qualified",
+          "note": "Live dataset, added temporal qualifier. Every figure matches Table 1 of the ratification paper exactly (MSL40 v2: species 16,213, genera 3,768, families 368, orders 93, realms 7). But ICTV ratifies annually, so 'most recent published ratification round' is a relative anchor that goes stale silently and cannot be checked against a fixed release. Replaced with the anchor the source itself gives: the 2025 ratification round, release 40 of the Master Species List. The adjacent claim that totals rise with every release is supported by the paper's series 10,434 (2022), 11,273 (2023), 14,690 (2024)."
+        },
+        {
+          "claim": "WHO convenes twice a year to recommend influenza vaccine composition, February for the northern hemisphere and September for the southern",
+          "sourceChecked": "https://www.who.int/teams/global-influenza-programme/vaccines/who-recommendations",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Pandoravirus provenance read at abstract level only. The abstract says one isolate came from 'off the coast of central Chile'; the article's more specific 'Chilean coastal sediment' sits in the body of a Science paper I could not open (PubMed blocked scripted clients; Europe PMC returns abstract only). The abstract's framing of the sampling as 'aquatic environments and their associated sediments' is consistent with it, but I did not confirm it directly.",
+          "The viral-shunt paragraph (lysis diverting carbon into dissolved organic matter, shifting the export/respiration balance) is not stated by any source in the article's list; Suttle's abstract goes only as far as viruses being a major mortality source and 'a major force behind biogeochemical cycles'. The article already says the global magnitude 'is still being measured rather than settled', which is the right hedge, so I left it, but the mechanism itself is unsourced here."
+      ]
+    },
+    {
+      "slug": "fungi-explained",
+      "path": "content/en/biology/microbiology/fungi-explained.md",
+      "status": "amended",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "\"There are four classes of antifungal medicine in clinical use, against dozens of classes of antibacterial.\"",
+          "sourceChecked": "https://www.who.int/news/item/25-10-2022-who-releases-first-ever-list-of-health-threatening-fungi",
+          "disposition": "qualified",
+          "note": "The WHO release supports the antifungal half exactly ('only four classes of antifungal medicines'), but no source in this article, or anywhere in the batch, supports a count of antibacterial classes, and 'dozens' (twenty-four or more) sits above the number normally enumerated. Narrowed to 'more than a dozen', which is unambiguously true and still carries the contrast the sentence is making."
+        },
+        {
+          "claim": "An analysis of 25 proteins found four insertions/deletions shared uniquely by animals and fungi, including a 12-amino-acid insertion in EF-1alpha and three small gaps in enolase; four proteins each placed animals and fungi together to the exclusion of plants and protists",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC48023/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Zygomycetes resolved into Mucoromycota (Glomeromycotina, Mortierellomycotina, Mucoromycotina) and Zoopagomycota (Entomophthoromycotina, Kickxellomycotina, Zoopagomycotina); seven phyla recognised with Cryptomycota, Chytridiomycota, Blastocladiomycota, Basidiomycota and Ascomycota",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6078412/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Zoopagomycota members are predominantly pathogens and parasites of animals, while Mucoromycota members associate mainly with plants",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6078412/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "72 per cent of vascular plant species arbuscular mycorrhizal, 2.0 per cent ectomycorrhizal, 1.5 per cent ericoid, 10 per cent orchid; 8 per cent completely non-mycorrhizal and 7 per cent inconsistently so; the non-mycorrhizal minority are nutritional or habitat specialists",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29355963 (verbatim summary of Brundrett & Tedersoo 2018; pubmed.ncbi.nlm.nih.gov/29355963 blocked scripted retrieval)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2016 study found specific basidiomycete yeasts embedded in the cortex of macrolichens across six continents, explaining consistent differences in form and chemistry between lichens with the same named fungal and algal partners",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5793994/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"had gone unnoticed because nobody had looked for it in that tissue layer\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5793994/",
+          "disposition": "corrected",
+          "note": "The source gives a different, and more interesting, reason. Spribille et al. attribute non-detection to method rather than to inattention: 'the failure to detect Cyphobasidium in both Sanger and amplicon sequencing studies is due to multi-template polymerase chain reaction bias', and the cells, being embedded in polysaccharides, 'are not observed in scanning electron microscopy'. 'Nobody had looked' would leave a reader with the wrong picture of why a partner hides. Rewritten to the source's explanation."
+        },
+        {
+          "claim": "Comparative analysis of 31 fungal genomes reconstructs the Agaricomycetes ancestor as white rot, with lignin-degrading peroxidases expanding then contracting in brown rot and mycorrhizal lineages; molecular clock suggests the origin 'might have coincided' with the end-Carboniferous decline in organic carbon burial",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22745431 (verbatim abstract of Floudas et al. 2012; pubmed.ncbi.nlm.nih.gov/22745431 blocked scripted retrieval)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The case against the causal reading: lycopsid periderm was not lignified; coal accumulated at comparable levels across major floral transitions; Devonian-onward woods show damage consistent with white rot; the alternative attributes the peak to everwet tropical climate and subsiding foreland basins during Pangaea assembly",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4780611/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Decline of at least 501 amphibian species over roughly half a century attributed to chytridiomycosis, including 90 presumed extinctions; declines peaked in the 1980s; 12 per cent showing recovery, 39 per cent still declining; the greatest recorded disease-driven biodiversity loss",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30923224 (verbatim abstract of Scheele et al. 2019; pubmed.ncbi.nlm.nih.gov/30923224 blocked scripted retrieval)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO's 2022 fungal priority pathogens list ranks 19 fungi across critical, high and medium tiers, notes only four antifungal classes with few candidates in the pipeline, and states the exact burden is unknown",
+          "sourceChecked": "https://www.who.int/news/item/25-10-2022-who-releases-first-ever-list-of-health-threatening-fungi",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Around 120,000 fungal species described against an estimated 2.2 to 3.8 million, from a fungus-to-vascular-plant ratio of about 9.8 to 1 on some 380,000 vascular plant species; description at roughly 1,300 species a year over four decades, rising to about 1,800 after 2010; clustering environmental DNA can overestimate counts by orders of magnitude",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11687528/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"a weighted median of roughly ten to eleven species per previously recognised one\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11687528/",
+          "disposition": "qualified",
+          "note": "Conflates two different statistics in the source. Hawksworth & Lucking report a median of 10.5 for the adjusted ratios (arithmetic mean 39.3) before weighting; the weighting is applied afterwards and yields, in both the abstract and the discussion, 'a weighted ratio of about an order of magnitude'. There is no 'weighted median' of ten to eleven in the paper. Restated in the source's own terms."
+        }
+      ],
+      "openQuestions": [
+        "WHO's burden statement was read in the 2022 news release, not the full Fungal Priority Pathogens List report. The release says the exact burden of fungal diseases and antifungal resistance is 'unknown, and the response is therefore undermined'; the article's gloss 'because quality data are scarce' is consistent with the release's framing but is not a verbatim quotation from it."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "batchId": "v-biology-genetics-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "epigenetics-explained",
+      "path": "content/en/biology/genetics/epigenetics-explained.md",
+      "status": "amended",
+      "claimsChecked": 15,
+      "findings": [
+        {
+          "claim": "NHGRI defines epigenetics as the study of changes in DNA that do not involve alterations to the underlying sequence",
+          "sourceChecked": "https://www.genome.gov/genetics-glossary/Epigenetics",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Whole-genome bisulphite sequencing across 30 human cell and tissue types: most cell types carry 70-80 per cent of all CpG sites methylated; only 21.8 per cent of autosomal CpGs are dynamically regulated; the dynamic minority sits distal to transcription start sites and coincides with enhancers and transcription-factor binding sites",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3821869/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The NIH Roadmap Epigenomics Consortium produced 111 reference human epigenomes, analysed with 16 previously reported by ENCODE for 127 in total, summarised into a 15-state chromatin model; disease- and trait-associated variants are enriched in tissue-specific epigenomic marks",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4530010/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A small percentage of human genes are imprinted; two major clusters sit at 11p15 and 15q11-15q13, linked to Prader-Willi, Angelman and Beckwith-Wiedemann syndromes; methylation marks which copy came from egg and which from sperm",
+          "sourceChecked": "https://medlineplus.gov/genetics/understanding/inheritance/updimprinting/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 15 per cent of X-linked genes escape inactivation and a further 10 per cent are inactivated variably, in a profile covering an estimated 95 per cent of assayable genes in fibroblast-based test systems",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/15772666/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Human primordial germ cells at roughly 10 to 11 weeks after gestation are nearly devoid of DNA methylation, with median levels of 7.8 per cent in male and 6.0 per cent in female cells",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26046443 (Europe PMC record for the paper cited at https://pubmed.ncbi.nlm.nih.gov/26046443/)",
+          "disposition": "verified",
+          "note": "PubMed's HTML returns a cookie notice to scripted clients, so the abstract was read from the Europe PMC REST record for the same PMID. It carries the claim verbatim: 'Approximately 10 to 11 weeks after gestation, the PGCs are nearly devoid of any DNA methylation, with only 7.8% and 6.0% of the median methylation levels in male and female PGCs, respectively.'"
+        },
+        {
+          "claim": "Roughly 4,730 loci retain more than 40 per cent methylation through primordial germ cell reprogramming, predominantly repeat-associated and concentrated in IAP long-terminal-repeat elements",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4020004/",
+          "disposition": "qualified",
+          "note": "The count is right but the species was not stated. The review attributes it to 'two recent studies in the mouse' (Hackett et al. 2012; Seisenberger et al. 2012), and the article placed it immediately after a paragraph about human primordial germ cells, so a reader would take it as a human figure. Added 'in the mouse' and 'demonstrated in mice rather than in humans', and added the 233 single-copy loci the same passage reports alongside the repeat-associated ones."
+        },
+        {
+          "claim": "Agouti viable yellow mice 'fail this test': the dam-tracking coat distribution with no paternal effect is 'the signature of a maternal effect, not of a state carried through the germline'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4020004/",
+          "disposition": "corrected",
+          "note": "The cited review says the opposite on both counts. It lists A-vy under 'A few bone fide cases of transgenerational inheritance at endogenous loci in mammals have also been identified', and states the mechanism explicitly: 'This maternal epigenetic effect is not the result of a maternally contributed environment. Rather, it results from incomplete erasure of epigenetic modification when a silenced A-vy allele is passed through the female germ line', which it calls a parent-of-origin effect. The paragraph now says what the source says, and carries the article's original point (the route is narrow and runs through transposon-derived sequence) on the source's own terms."
+        },
+        {
+          "claim": "An effect counts as transgenerational only in the third generation for maternal exposure and the second for paternal; in plants and some animals such as nematodes transgenerational epigenetic inheritance is well documented and relatively common, while in mammals epialleles exist but are extremely rare because germline reprogramming is robust",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4020004/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC6065375/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Individuals prenatally exposed to the Dutch Hunger Winter of 1944-45 had less methylation of the imprinted IGF2 gene six decades later than their unexposed same-sex siblings, specific to periconceptional exposure; human studies of this kind are confounded by genetic, ecological and cultural inheritance and the evidence is not yet conclusive",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2579375/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC6065375/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Direction of causation is unresolved: 'Transcription factor binding can drive local methylation change as readily as methylation can obstruct binding, and cross-sectional designs cannot separate the two'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4919098/",
+          "disposition": "resourced",
+          "note": "The sentence had the shape of a fact with no source anywhere in the article, and the 'as readily as' symmetry is not a claim any cited source makes. Cited Birney, Davey Smith and Greally (PLoS Genetics 2016), added to the source list, and narrowed the wording to what that review actually says: transcription through a genomic region changes local methylation, so a difference in a polymorphically transcribed region 'may, therefore, generate DNA methylation changes that are due to (and not causative of) the transcriptional changes', and a case-control epigenomic design carries the same reverse-causation risk as any other phenotypic measurement."
+        },
+        {
+          "claim": "Blood is a mixture of cell types with different epigenomes, so a difference in cell-type proportions between groups reads out as a difference in methylation without any cell having changed",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4919098/",
+          "disposition": "resourced",
+          "note": "Correct but unsourced in the article. Cited the same PLoS Genetics review, which reports the Houseman result that 'altering the proportions of purified cells in a mixture generates different DNA methylation profiles, reflecting the distinctive DNA methylation patterns of each cell type present'."
+        },
+        {
+          "claim": "'Age and smoking status produce large, well-characterised signals that swamp weaker effects unless they are modelled explicitly'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4919098/",
+          "disposition": "corrected",
+          "note": "No cited source supported this, and the smoking half is not discussed by any source in the article. Replaced with the sourced result the same review reports, which makes the composition point more sharply: a re-analysis of five studies of peripheral blood leukocytes found that 'cell subtype effects accounted for a major proportion of the epigenetic changes associated with ageing'. The unsupported smoking clause was removed rather than kept."
+        },
+        {
+          "claim": "Whole-genome bisulphite sequencing is wasteful - most of the sequencing reads carried little or no relevant information about CpG methylation - which is why large studies use arrays covering a small preselected fraction of sites",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3821869/",
+          "disposition": "verified",
+          "note": "Ziller et al. state that '70-80% of the sequencing reads across these data sets provided little or no relevant information regarding CpG methylation' and recommend that it 'will likely be sufficient in most cases to profile only a representative subset of CpGs across a comprehensive set of DMRs using an array or hybrid capture based technology'. The article's 'most of the reads' is a fair reading of 70-80 per cent."
+        },
+        {
+          "claim": "No named individual, credential or 'reviewed by' appears; attribution is to the microbiology-genomics-desk only",
+          "sourceChecked": "content/en/biology/genetics/epigenetics-explained.md (frontmatter and body)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "PubMed blocks scripted clients for PMID 26046443; the abstract was read from the Europe PMC REST record for the same PMID rather than from the pubmed.ncbi.nlm.nih.gov page the article links.",
+        "The Nature Communications source (PMC6065375) is a single-author Comment by Bernhard Horsthemke, not a systematic review. The article's 'a critical assessment in Nature Communications' and 'the Nature Communications assessment argues' are defensible, but a reader could take a signed opinion piece for a field-wide synthesis. Left as written; flagging for an editor.",
+        "The third limitation's closing clause - that array site selection 'was made on prior expectations about where regulation happens' - is not stated by any source cited in the article. It is consistent with Ziller et al.'s own recommendation to profile a preselected representative DMR subset, so it was left in place rather than cut, but it is not directly sourced."
+      ]
+    },
+    {
+      "slug": "heritability-explained",
+      "path": "content/en/biology/genetics/heritability-explained.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "MedlinePlus states that about 80 per cent of an individual's height is determined by the DNA sequence variations they have inherited",
+          "sourceChecked": "https://medlineplus.gov/genetics/understanding/traits/height/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Eight-country twin analysis of 30,111 complete twin pairs; no corresponding variation in male heritability across affluent Western populations; the lower and more variable female estimates trace to the shared-environment component rather than to a sex difference in genetic architecture",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/14624724/ (abstract via the Europe PMC record for PMID 14624724)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Table row 1 describes the classical twin design as estimating 'Broad-sense' heritability",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/14624724/ (abstract via the Europe PMC record for PMID 14624724)",
+          "disposition": "corrected",
+          "note": "The cited study fitted 'an additive genes/unique environment (AE) model' for men and 'an additive genes/shared environment/unique environment (ACE) model' for women. Both partition additive genetic variance only, so 0.87-0.93 and 0.68-0.84 are narrow-sense figures, not broad-sense ones. The article's own second paragraph defines the distinction correctly, which made the table cell contradict the body. Cell changed to 'Additive genetic variance, from the excess similarity of identical over fraternal twins, under an AE or ACE model'."
+        },
+        {
+          "claim": "294,831 markers in 3,925 unrelated individuals; 45 per cent of variance explained by considering all markers simultaneously; the remainder attributed to incomplete linkage disequilibrium with genotyped SNPs",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/20562875/ (abstract via the Europe PMC record for PMID 20562875)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "5.4 million people; 12,111 independent variants accounting for 40 per cent of phenotypic variance in European-ancestry populations and around 10 to 20 per cent in others; 7,209 genomic segments covering roughly 21 per cent of the genome; nearly all of the common-variant heritability",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605867/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "17,804 traits from 2,748 publications covering 14,558,903 partly dependent twin pairs; reported heritability averaged 49 per cent; for 69 per cent of traits the correlations were consistent with a simple additive model and inconsistent with substantial shared-environment or non-additive influence",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/25985137/ (abstract via the Europe PMC record for PMID 25985137)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The gap between GWAS hits and family-based heritability was named 'missing heritability' and treated as a puzzle",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2831613/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "For some traits the explained fraction was more than ten times smaller than the family-based expectation",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/31165258/ (abstract via the Europe PMC record for PMID 31165258)",
+          "disposition": "verified",
+          "note": "Read as abstract only - the Human Genetics full text is subscription-gated and Europe PMC lists no open copy. The abstract carries the phrase directly: 'the heritability explained by the associated variants was always much smaller, more than ten times smaller for some traits'."
+        },
+        {
+          "claim": "'Part of it is probably upward bias in the pedigree estimates themselves, since assortative mating inflates the resemblance that a twin model attributes to additive genetics'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8814020/",
+          "disposition": "corrected",
+          "note": "Unsourced in the article, and the direction is wrong for the model the article's own twin figures came from. Border et al. (Nature Communications 2022), now read and added to the source list, report that assortative mating biases marker-based estimators upward - 'marker-based heritability estimates for height are 14%-23% higher than corrected estimates using UK Biobank data' - while it 'influences h-twin depending on the design, biasing it downwards in \"ACE\" models... and upwards in \"ADE\" models', and that 'AM reduces the gap between h-twin and h-SNP by biasing h-SNP up'. So assortative mating narrows the apparent gap rather than opening it, and correcting for it widens the discrepancy instead of closing it. Rewritten to say that."
+        },
+        {
+          "claim": "MedlinePlus describes phenylketonuria as occurring in 1 in 25,000 newborns in the United States, caused by variants in the PAH gene, inherited autosomal recessively, with damage arising from phenylalanine accumulation",
+          "sourceChecked": "https://medlineplus.gov/genetics/condition/phenylketonuria/",
+          "disposition": "verified",
+          "note": "Checked deliberately because the widely circulated figure is the older 1 in 10,000 to 15,000. The current MedlinePlus page reads 'In the United States, PKU occurs in 1 in 25,000 newborns', which is what the article states."
+        },
+        {
+          "claim": "Mean male height 177 cm in Italy to 184 cm in the Netherlands and mean female height 163 cm to 171 cm across the same two countries, while male heritability sat between 0.87 and 0.93 in every one of the eight",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/14624724/ (abstract via the Europe PMC record for PMID 14624724)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No named individual, credential or 'reviewed by' appears; attribution is to the microbiology-genomics-desk only",
+          "sourceChecked": "content/en/biology/genetics/heritability-explained.md (frontmatter and body)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "PMID 31165258 (Human Genetics, 'Missing heritability of complex diseases: case solved?') is subscription-only and Europe PMC lists no open-access copy. Only the abstract was read. It supports the specific 'more than ten times smaller' claim the article makes of it, but the article's broader framing of how much of the gap has since been accounted for was not checked against the body of that paper.",
+          "The eight-country twin study also reports female heritability of 0.89-0.93 under an AE model in four of the eight populations, a range the article's table does not show. The body explains the sex difference correctly, so this was left alone, but the table's single 0.68-0.84 range is the ACE figure only."
+      ]
+    },
+    {
+      "slug": "genome-wide-association-studies-explained",
+      "path": "content/en/biology/genetics/genome-wide-association-studies-explained.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "NHGRI describes the standard GWAS design as a comparison of two groups genotyped on arrays and scanned for variants more frequent in one group, and warns that associated variants may not cause anything and may simply be 'tagging along' with the real causal variants",
+          "sourceChecked": "https://www.genome.gov/about-genomics/fact-sheets/Genome-Wide-Association-Studies-Fact-Sheet",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Two-thirds of GWAS-associated loci implicate a gene that is not the nearest gene to the most associated marker, and the majority of identified risk alleles are non-coding",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5501872/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A haplotype-map analysis estimated about a million independent tests genomewide in Europeans and twice that number in Africans, from which 0.05 divided by a million gives 5 x 10-8",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/18348202/ (abstract via the Europe PMC record for PMID 18348202)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Effect sizes of 0.01, 0.1 and 1 phenotypic standard deviations correspond approximately to odds ratios of 1.02, 1.2 and 4; newly identified height variants are typically less than 0.5 mm and newly identified disease variants around an odds ratio of 1.01",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5501872/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "5.4 million individuals; 12,111 independent significant variants clustered in 7,209 non-overlapping segments of around 90 kb, covering about 21 per cent of the genome and accounting for nearly all of the common-variant heritability",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605867/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GWAS Catalog release statistics for 22 August 2026: 7,797 publications, 1,191,572 curated top associations and 201,294 sets of full summary statistics",
+          "sourceChecked": "https://www.ebi.ac.uk/gwas/ and its release-statistics endpoint https://www.ebi.ac.uk/gwas/api/search/stats",
+          "disposition": "verified",
+          "note": "Live, continuously updating product, so checked against the release the article names rather than accepted on trust. The front page renders the sentence from JavaScript and serves an empty template to scripted clients, so the numbers were read from the endpoint that populates it, which returns date 2026-08-22, associations 1191572, studies 7797, sumstats 201294 - matching the article exactly. The first figure is the field named 'studies' in the API and is displayed on the page under the label 'publications', which is the word the article uses. The temporal anchor the article already carries is correct and was left as it stands."
+        },
+        {
+          "claim": "'Two years earlier' the Nucleic Acids Research description put the Catalog at close to 7,000 publications, more than 15,000 traits, more than 625,000 lead associations and 85,000 summary-statistics datasets",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701593/",
+          "disposition": "verified",
+          "note": "All four counts match the abstract. 'Two years earlier' checks out against the paper's own snapshot date of 1 July 2024 rather than its 12 November 2024 publication date; from the 22 August 2026 release that is a shade over two years."
+        },
+        {
+          "claim": "The Catalog's maintainers name the rapid increase in large-scale molecular quantitative-trait studies - 'associations with gene expression levels, protein abundance and similar intermediate measurements' - as one of the challenges they have had to handle",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701593/",
+          "disposition": "corrected",
+          "note": "The growth and the framing as a challenge are both in the paper, but the composition is not. It says the increase has been driven by 'large-scale publications analysing hundreds to thousands of molecular quantitative traits (protein, lipid and metabolite measurements) across multiple cohorts'. The words 'gene expression' and 'eQTL' do not appear anywhere in the paper, so naming gene expression as the leading example attributed a category to the source that the source does not include. Replaced with the source's own three categories, and added the figure it gives - 82 per cent of all studies added to the Catalog in 2023. This removed the article's internal link to the gene-expression glossary entry; the article retains its linkage-disequilibrium and polygenic-score glossary links."
+        },
+        {
+          "claim": "Around 79 per cent of all GWAS participants are of European descent while that group makes up roughly 16 per cent of the global population; prediction accuracy was 1.6-fold lower in Hispanic and Latino Americans, 1.7-fold lower in South Asians, 2.5-fold lower in East Asians and 4.9-fold lower in Africans",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6563838/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A later review of the field's first fifteen years put the European share of participants at around 86 per cent as of 2021",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9943775/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NHGRI states that the accuracy of polygenic risk scores may at this point be valid and useful only for European-ancestry populations",
+          "sourceChecked": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The height study found effect sizes, associated regions and gene prioritisation similar across ancestries and attributed the drop in prediction accuracy to linkage disequilibrium and allele-frequency differences within the associated regions rather than to different underlying biology",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605867/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An association at a locus is not directly informative about the target gene or mechanism; compelling effector transcripts had been identified for only about a third of some 100 type 2 diabetes loci; the fifteen-year assessment attributes the persistence of the gap to low penetrance, the resolution limit linkage disequilibrium imposes, and the concentration of associations in non-coding sequence",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5501872/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC9943775/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No named individual, credential or 'reviewed by' appears; attribution is to the microbiology-genomics-desk only",
+          "sourceChecked": "content/en/biology/genetics/genome-wide-association-studies-explained.md (frontmatter and body)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The 'Stratification, and the failure mode that looks like a result' section carries no citation. Principal components as covariates, linear mixed models, family-based transmitted/untransmitted designs, and the claim that a directionally consistent bias can survive in a polygenic score even where no individual p-value looks suspicious are all standard methodology, but none of them was checked against a source in this pass and none is sourced in the article.",
+        "The GWAS Catalog front page will not serve its release statistics to a scripted client; anyone re-checking the 22 August 2026 figures should query https://www.ebi.ac.uk/gwas/api/search/stats rather than the page itself, and should expect the numbers to have moved on, since the Catalog releases continuously."
+      ]
+    }
+  ]
+}

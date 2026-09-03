@@ -1,0 +1,308 @@
+{
+  "batchId": "v-biology-physiology-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "nervous-systems-and-neurons",
+      "path": "content/en/biology/physiology/nervous-systems-and-neurons.md",
+      "status": "amended",
+      "claimsChecked": 16,
+      "findings": [
+        {
+          "claim": "Equilibrium potential is roughly +60 mV for sodium and about -85 mV for potassium",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK538143/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Roughly a fifty-fold increase in sodium channel density at spike-initiation zones",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK538143/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Myelinated fibres conduct more than an order of magnitude faster than unmyelinated fibres 'of comparable size'",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK538143/",
+          "disposition": "qualified",
+          "note": "StatPearls says 'This pattern of node-to-node propagation, saltatory conduction, can increase the conduction velocity by more than an order of magnitude over unmyelinated axons.' There is no 'of comparable size' condition anywhere on the page — the article attached a precision to the source that the source does not carry. Reworded to the source's own statement about saltatory conduction over unmyelinated axons."
+        },
+        {
+          "claim": "Grey-matter signalling energy apportioned 47 per cent to action potentials, 34 per cent to postsynaptic effects of glutamate, 13 per cent to the resting potential and 3 per cent to glutamate recycling",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:11598490 (Attwell & Laughlin 2001 abstract, JCBFM; PubMed blocks scripted clients)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "One extra action potential per cortical neuron per second raises oxygen consumption by 145 mL per 100 g grey matter per hour, and the budget favours codes with no more than about 15 per cent of neurons active at once",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:11598490 (Attwell & Laughlin 2001 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The cited 1952 Hodgkin and Huxley paper exists with that title in the Journal of Physiology and is the squid (Loligo) giant-axon analysis",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1392413/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Perforant-path stimulation in anaesthetised rabbits potentiated the population response for 30 minutes to 10 hours in 15 of 18 animals",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:4727084 (Bliss & Lomo 1973 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "That potentiation followed 'brief high-frequency stimulation'",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:4727084 (Bliss & Lomo 1973 abstract)",
+          "disposition": "qualified",
+          "note": "The paper's conditioning protocols were 'one or more conditioning trains at 10-20/sec for 10-15 sec, or 100/sec for 3-4 sec', and it reports that both frequencies produced long-term potentiation. 10-20/sec is not high-frequency stimulation, so 'high-frequency' describes only one of the two protocols that produced the result. Changed to 'brief conditioning trains'."
+        },
+        {
+          "claim": "C. elegans hermaphrodite: 302 neurons in 118 classes, about 5,000 chemical synapses, 2,000 neuromuscular junctions and 600 gap junctions, essentially invariant between animals",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22462104 (White et al. 1986 abstract; royalsocietypublishing.org returns 403 to scripted clients)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2024 adult Drosophila reconstruction contains 5 x 10^7 chemical synapses among 139,255 neurons from a single female fly",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39358518 (Dorkenwald et al., Nature 2024 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Complete wiring diagrams now exist for two species, and they are separated by three orders of magnitude'",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39358518 and EXT_ID:22462104",
+          "disposition": "qualified",
+          "note": "Two problems, neither supported by any cited source. (1) Exclusivity: no cited source says complete connectomes exist for only two species, and the claim is contestable — the FlyWire paper itself frames its result as setting the stage for further whole-brain projects rather than as one of a pair. (2) Arithmetic: 302 neurons to 139,255 neurons is a factor of about 460, i.e. between two and three orders of magnitude, and the sentence does not say which quantity is being compared. Rewritten as 'only a handful of small animals' and 'more than two orders of magnitude in neuron number'."
+        },
+        {
+          "claim": "86.1 +/- 8.1 billion neurons and 84.6 +/- 9.8 billion non-neuronal cells; about 19 per cent of neurons in the cerebral cortex against some 82 per cent of brain mass; glia-to-neuron ratios resemble other primates",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19226510 (Azevedo et al. 2009 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Those counts are for 'adult human brains'",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19226510 (Azevedo et al. 2009 abstract)",
+          "disposition": "qualified",
+          "note": "The abstract states 'the adult male human brain contains on average 86.1 +/- 8.1 billion NeuN-positive cells'. The measured sample was male; the article generalised it to adult human brains without saying so. Changed to 'adult male human brains give an average of'."
+        },
+        {
+          "claim": "A 2008 Nature review argued the conclusions drawn from fMRI often ignore the actual limitations of the methodology",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:18548064 (Logothetis 2008 abstract; nature.com redirects scripted clients to an auth endpoint)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The imaged signal is dominated by synaptic input and local processing rather than by the output spiking of the region being imaged",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2927268/",
+          "disposition": "resourced",
+          "note": "The sentence attributed this contrast to the grey-matter energy budget, but Attwell and Laughlin's abstract says only that fMRI signals 'are likely to be dominated by changes in energy usage associated with synaptic currents and action potential propagation' — it does not set input against output spiking, and 47 per cent of the budget is action potentials, so the contrast does not follow from the budget alone. Logothetis 2008, which does make the argument, is paywalled and could not be read past its abstract. Harris et al. (Front Neuroenergetics 2010, open access) states it directly: 'The predominant view at present is that the hemodynamic response is most correlated with synaptic input and subsequent neural processing rather than spiking output.' Sentence rewritten to attribute it as the predominant view and that source added to the Sources list."
+        },
+        {
+          "claim": "NINDS states that neuroscientists disagree about how many new neurons are made and how often, and that this disagreement is 'not about whether the phenomenon exists at all'",
+          "sourceChecked": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-life-and-death-neuron",
+          "disposition": "qualified",
+          "note": "The first half is verbatim from the page: 'Many neuroscientists disagree about how many and how often new neurons are created in the brain.' The second half is not on the page and is a stronger claim than the field supports — whether adult hippocampal neurogenesis is detectable in humans at all is itself disputed in the primary literature, so declaring that settled manufactures a consensus. Clause removed; the rest of the sentence is unchanged."
+        }
+      ],
+      "openQuestions": [
+        "Hodgkin & Huxley (1952) could not be read. PubMed and the Wiley/Physiological Society page both refuse scripted clients, and the PMC copy (PMC1392413) is a scanned facsimile with no extractable text. I confirmed the title, authors, journal, year and the Loligo giant-axon preparation from the PMC record and its reference list, but the article's description of the paper's content — membrane current resolved into separate voltage- and time-dependent sodium and potassium conductances, and the shape and speed of the impulse reconstructed from those measurements — was not read off the paper itself.",
+        "Logothetis (2008) is paywalled at Nature; only the publisher abstract was read. It carries the 'conclusions ignore the actual limitations' sentence but nothing about input versus output spiking, which is why that claim was resourced rather than left attributed to it.",
+        "White et al. (1986) is cited to royalsocietypublishing.org, which returns 403 to scripted clients. The counts were read from the paper's abstract via the Europe PMC record (PMID 22462104), which carries every figure the article states.",
+        "The characterisation of the adult-neurogenesis dispute as turning on counting methods and on what post-mortem tissue can support is the desk's own framing; NINDS says only that neuroscientists disagree about how many and how often.",
+        "Two background sentences carry no citation and were not checked: that invertebrates took the large-diameter route, and that the squid giant axon was large enough to accept electrodes in the 1930s and 1940s."
+      ]
+    },
+    {
+      "slug": "hormones-and-endocrine-signalling",
+      "path": "content/en/biology/physiology/hormones-and-endocrine-signalling.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "A lipid-soluble hormone acts by both a genomic route through the nuclear receptor and non-transcriptional effects that occur quickly, are unaffected by inhibitors of transcription and protein synthesis, and are mediated by membrane-associated receptors",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10610216/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Minor changes in circulating thyroxine produce considerably larger changes in TSH, and for most people the relationship is log-linear",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30725655 (StatPearls, Subclinical Hypothyroidism)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "TSH varies widely across a population but narrowly within one person, because each individual has a distinct set point in the hypothalamic-pituitary axis",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30725655 (StatPearls, Subclinical Hypothyroidism)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GnRH pulse frequency and amplitude determine gonadotropin subunit gene expression; rapid pulses (more than one per hour) favour LH, slower frequencies favour FSH",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:11604221 (Marshall et al. 2001 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO/UNEP: endocrine systems are very similar across vertebrate species and endocrine effects manifest independently of species, so effects in wildlife or laboratory animals may also occur in humans exposed at a vulnerable time and at concentrations altering endocrine regulation",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789241505031",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO/UNEP singles out early development because effects initiated then are often irreversible and may not become evident until later in life",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789241505031",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA runs a screening, testing and research programme, organised around defined lists of chemicals, to gather the information it uses to evaluate possible endocrine effects associated with a chemical's use",
+          "sourceChecked": "https://www.epa.gov/endocrine-disruption",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Conventional regulatory toxicology assumes severity of effect rises with exposure, and a substantial literature reports non-monotonic dose-response relationships for endocrine-active compounds",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4440251/ (Zoeller & Vandenberg 2015, Environmental Health)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'the evidence is genuinely mixed rather than settled in either direction' on non-monotonic dose-response",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4440251/ (Zoeller & Vandenberg 2015, Environmental Health)",
+          "disposition": "qualified",
+          "note": "The only source cited for this paragraph does not describe the evidence as mixed. It states that non-monotonic relationships 'have been reported in hundreds of studies' and that sub-LOAEL effects are 'often observed', and its disagreement with Lagarde et al. is explicitly about method — how study quality is scored, whether topical expertise is needed to score it, and whether biological plausibility should be required before a statistically valid result is admitted to risk assessment. Presenting that as a balanced evidential stand-off manufactures a symmetry the source rejects. Rewritten to say what the review argues and to locate the live disagreement where the source puts it: in how the evidence should be weighed."
+        }
+      ],
+      "openQuestions": [
+        "The amplification-cascade paragraph (one occupied receptor activating many G proteins, each effector generating many second messengers, each kinase phosphorylating many substrates) and the four-row neural/endocrine/paracrine comparison table carry no citation and were treated as textbook background rather than checkable claims.",
+        "The three closing limitations — free versus total hormone at the receptor, inter-laboratory assay comparability, and a single sample as a point estimate of a pulsatile waveform — are the desk's synthesis. Only the third is carried by a cited source (the GnRH pulsatility paper).",
+        "Zoeller & Vandenberg (2015) is a commentary arguing one side of the non-monotonicity debate, not a neutral synthesis. The revised sentence now attributes the position to that review rather than presenting it as the field's settled state, but the article still has no source representing the regulatory-agency side of the argument.",
+        "Template sameness with the plant-physiology article in this batch: both close on a numbered caution list in the same voice ('Three limitations run through all of this' / 'Three caveats travel with those numbers'). Flagged, not restructured."
+      ]
+    },
+    {
+      "slug": "developmental-biology-explained",
+      "path": "content/en/biology/physiology/developmental-biology-explained.md",
+      "status": "clean",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "Four separate measures of Bicoid precision — concentration difference between neighbouring nuclei, the limit set by random arrival of molecules, noise in readout through Hunchback, and reproducibility across embryos — all come out at approximately 10 per cent",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17632062 (Gregor et al. 2007 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The agreement indicates the embryo is not cleaning up a noisy input downstream but controlling absolute concentrations tightly and responding reliably to small differences, close to limits set by physics",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17632062 (Gregor et al. 2007 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 1980 systematic search identified 15 loci that alter the segmental pattern of the larva, probably the majority of such genes, revealing at least three levels of spatial organisation: the whole egg, a two-segment repeat, and the individual segment",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:6776413 (Nusslein-Volhard & Wieschaus 1980 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Spatial colinearity is conserved widely across Bilateria, and shared possession of a Hox cluster by protostomes and deuterostomes implies their last common ancestor had one",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30604837 (Gaunt 2018 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Temporal colinearity is so far documented only in vertebrates, cephalochordates and some arthropods and annelids, not across Bilateria as a whole",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30604837 (Gaunt 2018 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Hox genes are recognisable in cnidarians, but the characteristic clustered arrangement and function are commonly found only in bilaterians; several lineages, lophotrochozoans especially, have co-opted Hox genes outside the colinearity rules to build novel structures",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30604837 (Gaunt 2018 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Under the formal definition — a region that both induces and patterns — a 2016 review counts about four demonstrated organizers: the Spemann organizer (Hensen's node in amniotes), the notochord, the zone of polarising activity, and the mid-hindbrain boundary",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26969994 (Anderson & Stern 2016 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Zebrafish work indicates organising activity is distributed along the entire blastula-gastrula margin and emerges from opposing BMP and Nodal gradients; no single identified organizer molecule can by itself induce a main body axis from naive pluripotent cells",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25999320 (Thisse & Thisse 2015 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The founding experiment transplanted the dorsal blastopore lip of an amphibian gastrula into the ventral side of a host, inducing a second largely complete embryonic axis",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25999320 (Thisse & Thisse 2015 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Oct3/4, Sox2, c-Myc and Klf4 introduced into mouse fibroblasts produced cells that formed tumours containing tissues from all three germ layers and contributed to embryonic development after blastocyst injection; Nanog was dispensable",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:16904174 (Takahashi & Yamanaka 2006 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same four factors reprogrammed adult human fibroblasts the following year",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:18035408 (Takahashi et al. 2007 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "There have been no experimental studies beyond the fourteenth day after fertilisation; much descriptive anatomy still in use comes from the Carnegie Collection studied more than half a century ago; mouse results are routinely extrapolated despite documented morphological, molecular and tempo differences",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33484705 (Ghimire et al. 2021 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NHGRI defines a stem cell as one with the potential to form many of the different cell types in the body, with embryonic stem cells able to form a complete individual and adult stem cells only certain specialised types",
+          "sourceChecked": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Every journal source for this article was read as an abstract (Europe PMC record or publisher abstract), not as full text. In each case every figure, list and qualification the article states appears in the abstract itself, which is why nothing here is marked unresolved — but the surrounding argument of each paper was not read.",
+        "The cleavage-and-gastrulation section, and the description of Bicoid as a maternally deposited anterior-to-posterior gradient read out at concentration thresholds, carry no per-sentence citation and were treated as textbook background.",
+        "Small attribution drift, left as is: Ghimire et al. say the anatomical and histological studies of the Carnegie Collection 'were carried out more than half a century ago', while the article says the collection was assembled more than half a century ago. Both statements are true, but they are not the same statement.",
+        "Anderson & Stern's 'about four' organizers is not explicitly restricted to vertebrates in the abstract, though all four regions it lists are vertebrate. The article's 'in vertebrates' is a fair reading of the list rather than a phrase taken from the source."
+      ]
+    },
+    {
+      "slug": "plant-physiology-water-and-nutrients",
+      "path": "content/en/biology/physiology/plant-physiology-water-and-nutrients.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "Pressure-probe measurements found much lower tensions than cohesion-tension requires, alternative mechanisms were proposed, and a 1999 Trends in Plant Science assessment concluded the inferences from the probe work were premature and that new direct measurements support cohesion-tension and the earlier indirect measurements",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:10462771 (Wei, Steudle & Tyree 1999 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In three tropical lowland rainforest tree species P50 fell at -2.1 to -3.1 MPa in stems and -1.7 to -2.2 MPa in leaves, giving safety margins of -0.4 to -1.4 MPa, with a strategy of sacrificing leaves in favour of stems",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26032606 (Nolf et al. 2015 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The ABA signalling core is PYR/PYL/RCAR receptors, PP2C protein phosphatases and SnRK2 protein kinases",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33145840 (Hsu et al. 2021 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The FAO reference evapotranspiration framework, built on Penman-Monteith, represents a canopy through an aerodynamic resistance and a bulk surface resistance",
+          "sourceChecked": "https://www.fao.org/4/x0490e/x0490e06.htm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Compiled anatomical data for 32 angiosperm and 38 gymnosperm trees spanning 0.1-50 m correlate closely with the scaling predictions of an optimised Munch mechanism, indicating convergence on efficient osmotic pumping units",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22150791 (Jensen et al. 2012 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "High- and low-affinity nitrate uptake systems were generally assumed genetically distinct; CHL1 (NRT1.1) expressed in oocytes shows biphasic kinetics with Km approximately 50 microM and approximately 4 mM",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:10330471 (Liu, Huang & Tsay 1999 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "70 per cent of 226 forest species from 81 sites operate with hydraulic safety margins narrower than 1 MPa, and those margins are largely independent of mean annual precipitation",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23172141 (Choat et al. 2012 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Hydraulic failure is one primary cause of drought mortality rather than the only one",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23172141 (Choat et al. 2012 abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'That is why drought-driven forest decline has been observed outside arid regions'",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23172141 (Choat et al. 2012 abstract)",
+          "disposition": "qualified",
+          "note": "Choat et al. claim less than the sentence does: 'These findings provide insight into why drought-induced forest decline is occurring not only in arid regions but also in wet forests not normally considered at drought risk.' Providing insight into why something happens is not the same as being the reason it happens, and the paper's own framing keeps hydraulic failure as one primary cause among others. Changed to 'That is part of why', and the outcome restated in the source's own terms."
+        }
+      ],
+      "openQuestions": [
+        "All seven journal sources were read as Europe PMC or publisher abstracts, not full text; every number the article states appears in the abstract in each case. The FAO source is cited to the document's contents page (x0490e00.htm); I read the Penman-Monteith chapter of that same document (x0490e06.htm) for the resistance terms.",
+        "'Direct pressure-probe measurements in the 1990s' — the 1999 review does not date the pressure-probe work. The decade is the article's own and I could not confirm it from the cited source.",
+        "The three closing caveats — that P50 is measured on excised material, that a single safety margin compresses out stomatal regulation, stem storage, rooting depth and refilling, and that a narrow margin indicates exposure rather than an outcome — are the desk's methodological framing. Only the last is carried by the cited paper.",
+        "'Wet forests ... having built xylem matched to the conditions they normally experience' is an explanation the article supplies for the observed convergence; Choat et al. report the convergence but the abstract offers no mechanism for it.",
+        "Template sameness with the endocrine article in this batch: both end on a numbered caution list in the same voice ('Three caveats travel with those numbers' / 'Three limitations run through all of this'). Flagged, not restructured."
+      ]
+    }
+  ]
+}

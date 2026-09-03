@@ -1,0 +1,106 @@
+{
+  "batchId": "v-ecology-climate-change",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source. IPCC AR6 WG1 Chapters 5 and 7 were downloaded as PDFs and searched directly rather than through the chapter landing pages, which return 403 to scripted clients.",
+  "articles": [
+    {
+      "slug": "climate-sensitivity-explained",
+      "path": "content/en/ecology/climate-change/climate-sensitivity-explained.md",
+      "status": "clean",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "AR6 best estimate of ECS is 3°C, likely range 2.5–4°C, very likely range 2–5°C",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7, Executive Summary",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AR6 best estimate of TCR is 1.8°C, likely range 1.4–2.2°C, very likely range 1.2–2.4°C",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7, Section 7.5.5",
+          "disposition": "verified"
+        },
+        {
+          "claim": "ERF from doubled CO2 assessed at 3.93 ± 0.47 W/m² once tropospheric adjustments are included",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7, Section 7.3.2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Feedback terms: Planck −3.22, water-vapour and lapse-rate +1.30, surface albedo +0.35, clouds +0.42, biogeophysical and non-CO2 biogeochemical −0.01, net −1.16 with a very likely range of −1.81 to −0.51 W/m² per °C",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7, Table 7.10 and Executive Summary",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Effective ECS of 2.5°C with an interval of 1.6–4.8°C from the historical energy budget, described as a calculated interval rather than one of AR6's assessed ranges",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7, Section 7.5.2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The ECS definition used in AR6 excludes the long-term response of the ice sheets while including every other feedback",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7, Section 7.4.1",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The article's characterisation of the caveat — that the AR6 effective-ECS interval is 'a calculated interval rather than one of AR6's assessed ranges' — is the author's framing. AR6 does present the value as a result of applying the global energy balance framework rather than as an assessed range, so the framing is supported, but the phrase is not a quotation."
+      ]
+    },
+    {
+      "slug": "carbon-budgets-and-remaining-emissions",
+      "path": "content/en/ecology/climate-change/carbon-budgets-and-remaining-emissions.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "AR6 assesses TCRE as likely 1.0–2.3°C per 1000 PgC with a best estimate of 1.65°C",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Table 5.7 overall assessment row",
+          "disposition": "verified"
+        },
+        {
+          "claim": "High confidence that TCRE remains constant to at least 1500 PgC, medium confidence to 3000 PgC",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Section 5.5.1.2.1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Remaining budgets from 1 January 2020 for 1.5°C: 900, 650, 500, 400 and 300 GtCO2 at the 17th, 33rd, 50th, 67th and 83rd percentiles of TCRE",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Table 5.8",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same row for 2.0°C: 2300, 1700, 1350, 1150 and 900 GtCO2",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Table 5.8",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Budgets can vary by ±220 GtCO2 depending on how successfully non-CO2 emissions are cut",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Executive Summary and Table 5.8 footnotes",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Anthropogenic CO2 emissions 1850–2019 total 2390 ± 240 GtCO2; human-induced warming to 2010–2019 about 1.07°C",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 5, Executive Summary and Table 5.8 footnote a",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2023 reassessment put the median 1.5°C budget at around 250 GtCO2 as of January 2023, roughly six years of emissions, and the 2°C budget at roughly 1200 GtCO2",
+          "sourceChecked": "https://www.nature.com/articles/s41558-023-01848-5",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fossil-fuel and industrial CO2 reached a record 37.2 GtCO2 in 2025, with the annual growth rate flattened to 0.7% and power-sector emissions down 0.9% on 2024",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "corrected",
+          "note": "Global Carbon Budget 2025 projects fossil CO2 emissions of 38.1 GtCO2 for 2025, up 1.0 per cent on 2024 (range 0.2 to 1.7 per cent), and 42.2 GtCO2 including land-use change. The article's 37.2 GtCO2 and 0.7 per cent do not match that source; 37.2 is close to the previous year's projection. The power-sector figure could not be verified from any source reachable without a subscription. The sentence has been rewritten around the Global Carbon Budget's own published figures, which are open access."
+        },
+        {
+          "claim": "A 2026 analysis projects the median 1.5°C budget to be exhausted by 2029",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "resourced",
+          "note": "The Nature Reviews Earth & Environment article is behind an identity-provider redirect and its abstract is not in Crossref or Europe PMC, so the claim could not be read at source. Global Carbon Budget 2025 states the same quantity directly — 170 GtCO2 left from the start of 2026 for even odds on 1.5°C, about four years at 2025 emission levels — so the sentence now cites that instead."
+        }
+      ],
+      "openQuestions": [
+        "The claim that power-sector emissions fell 0.9 per cent in 2025 as clean generation displaced fossil output has been removed rather than corrected, because no open source was found that states it. If the Nature Reviews paper does support it, it can be restored with that citation."
+      ]
+    }
+  ]
+}

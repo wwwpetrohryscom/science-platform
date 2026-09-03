@@ -1,0 +1,247 @@
+{
+  "batchId": "v-biology-microbiology-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "microbiomes-and-host-microbe-interactions",
+      "path": "content/en/biology/microbiology/microbiomes-and-host-microbe-interactions.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "3.8 x 10^13 bacteria against about 3.0 x 10^13 human cells in a 70 kg reference male, a ratio of 1.3 with 25 per cent uncertainty and around 50 per cent variation across the population; bacterial mass about 0.2 kg wet and 50-100 g dry",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002533",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the 10:1 ratio is recoverable only by comparing bacteria against nucleated human cells and discarding red blood cells",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002533",
+          "disposition": "verified"
+        },
+        {
+          "claim": "sequencing imposes an arbitrary total, so correlations between raw proportions are partly spurious by construction and tests assuming independent components do not apply",
+          "sourceChecked": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2017.02224/full",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the workarounds are log-ratio transformations, spike-in standards of known concentration, or an independent measure of total microbial load",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4915049/",
+          "disposition": "resourced",
+          "note": "The cited Frontiers mini-review recommends log-ratio transformation (clr, ALDEx2, Aitchison distance) but does not propose spike-ins or any external measure of absolute load; it states the opposite, that absolute abundance information 'is lost during the sequencing process'. Resourced the spike-in and total-load half of the sentence to Stammler et al. 2016 (Microbiome), which was read and does propose exactly that ('we suggest the spiking of exogenous bacteria into crude specimens'; 'adjust the read counts of endogenous bacteria for changes in total microbial loads'). Prose narrowed to name the log-ratio route as the review's recommendation and the spike-in route as the load correction, and the new source added to the Sources list."
+        },
+        {
+          "claim": "2013 Science twin study: faecal communities from twin pairs discordant for obesity transmitted increased adiposity to germ-free mice; co-housing prevented it via Bacteroidetes invasion from the lean co-twin; the effect was diet-dependent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3829625/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "2020 EClinicalMedicine meta-analysis of 45 studies: 91 per cent (89-94) week-8 effect for repeat FMT across 24 studies and 1,855 patients, 84 per cent (80-88) for single administration, NNT 1.5, evidence for repeat FMT graded high quality",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7788438/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "2017 Nature Communications reanalysis of 28 case-control studies across ten diseases: a few diseases shift more than 50 genera while most shift 10-15, and about half of the genera flagged in individual studies respond to more than one disease",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5716994/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 2018 mBio perspective separates reproducibility, replicability, robustness and generalisability as distinct failures",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5989067/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "two laboratories can process the same samples and disagree because of DNA extraction chemistry, primer choice or bioinformatic pipeline",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5989067/",
+          "disposition": "corrected",
+          "note": "The mBio perspective was searched for 'primer', 'extraction', '16S region', 'V4', 'hypervariable' and 'protocol' and names none of primer choice, extraction chemistry or variable-region choice as a between-laboratory divergence. What it does name is contaminated DNA extraction kits, batch effects from samples not randomised across sequencing runs, and unreported software and reference-database versions. The list in the article was replaced with those three so the sentence says what the cited source says; primer bias is a real effect but is sourced on the companion methods page, not here."
+        },
+        {
+          "claim": "a 2025 FEMS Microbiology Ecology review frames colonisation resistance as a joint property of the resident community and the host rather than of either alone",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12728824/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "colonisation resistance operates partly through transformation of bile acids",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4354891/",
+          "disposition": "resourced",
+          "note": "The FEMS review cited for the mechanism list does not treat bile acids as a colonisation-resistance mechanism; it mentions them only as a physicochemical factor shaping where bacteria live ('host-derived bile acids limit bacterial growth in the small intestine'). The claim itself is sound, so it was resourced to Buffie et al., Nature, which was read and shows that a 7-dehydroxylating commensal converts primary to secondary bile acids and that this confers resistance to C. difficile. The clause was moved out of the FEMS-attributed list and stated as the specific mouse result it is, and the source added."
+        }
+      ],
+      "openQuestions": [
+        "The article says the number needed to treat of 1.5 was 'against vancomycin'. The meta-analysis reports NNT 1.5 (1.3-1.9) for repeat FMT versus standard antibiotic therapy; vancomycin is the comparator in the pooled trials, but the paper's own wording is the broader one. Left as written; an editor may prefer the paper's phrasing."
+      ]
+    },
+    {
+      "slug": "antimicrobial-resistance-evidence",
+      "path": "content/en/biology/microbiology/antimicrobial-resistance-evidence.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "approximately one in six laboratory-confirmed bacterial infections were resistant in 2023, closer to one in three in the South-East Asia and Eastern Mediterranean regions, and resistance rose in more than 40 per cent of monitored pathogen-antibiotic combinations between 2018 and 2023 at an average annual increase of 5 to 15 per cent",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "disposition": "verified"
+        },
+        {
+          "claim": "in 2022 the AWaRe Access group made up about 53 per cent of global human antibiotic use, Watch antibiotics roughly 45 per cent, exceeding 70 per cent of total use in nearly one-third of countries",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO records 27 antimicrobial classes in use in animals, and 118 countries reported quantitative animal-use data for 2015-2017 against 89 in 2015",
+          "sourceChecked": "https://www.fao.org/antimicrobial-resistance/en/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the 2025 GLASS report drew on data from 104 countries for 2023 and 110 countries across 2016-2023, covering more than 23 million bacteriologically confirmed infections and 93 infection-type-pathogen-antibiotic combinations, with trends assessed for 16 combinations from 2018 to 2023",
+          "sourceChecked": "https://www.who.int/publications/i/item/B09585",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO's 2024 bacterial priority pathogens list covers 24 pathogens across 15 families in three priority tiers",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789240093461",
+          "disposition": "verified"
+        },
+        {
+          "claim": "for 2019, 4.95 million deaths (3.62-6.57) associated with bacterial resistance and 1.27 million (0.911-1.71) attributable to it, under a no-infection and a susceptible-infection counterfactual respectively",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the 2024 update gave 4.71 million associated and 1.14 million attributable deaths for 2021; deaths fell by more than half among under-fives and rose by over 80 per cent among those aged 70 and over between 1990 and 2021; MRSA attributable deaths rose from 57,200 to 130,000; the 2050 reference forecast is 1.91 million attributable and 8.22 million associated, with 39.1 million (33.0-46.0) cumulative attributable deaths 2025-2050",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11718157/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "seven of 204 countries and territories had no data for any component",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/",
+          "disposition": "corrected",
+          "note": "The figure is wrong and materially understates the gap. The 2019 GRAM analysis states verbatim: '19 of 204 countries and territories had no data available for any of our modelling components.' The 2024 update was searched for an equivalent statement and gives none (it reports per-component coverage instead: 142/204 for pathogen distribution, 161/204 for resistance prevalence, 154/204 for relative risk). Corrected to nineteen and attributed explicitly to the 2019 analysis, which is the source that makes the statement."
+        },
+        {
+          "claim": "the United States programme puts the domestic toll at more than 2.8 million resistant infections and more than 35,000 deaths a year, above 3 million and 48,000 with C. difficile included",
+          "sourceChecked": "https://www.cdc.gov/antimicrobial-resistance/data-research/threats/index.html",
+          "disposition": "qualified",
+          "note": "The numbers match the CDC page exactly, but the page attributes them to the 2019 AR Threats Report and the article carried them in the present tense with no date, reading as a current annual count seven years on. Periodically republished burden estimate, added the temporal anchor the source itself gives ('in its 2019 Antibiotic Resistance Threats Report') and put the sentence in the past tense."
+        },
+        {
+          "claim": "Cochrane review of 221 studies, 58 randomised: compliance rose 15 percentage points (14-16) across 29 trials and 23,394 participants from 43 to 58 per cent, high certainty; duration fell 1.95 days (1.67-2.22) from 11.0 days, high certainty; length of stay fell 1.12 days (0.7-1.54), moderate certainty; mortality 11 per cent in both arms",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6464541/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The GLASS 2025 and bacterial priority pathogens list 2024 figures were read from the WHO publication landing pages, which carry the summary text and the headline counts. The full PDF reports were not opened, so the coverage numbers are verified against WHO's own summary rather than against the report body."
+      ]
+    },
+    {
+      "slug": "microbial-biogeochemistry",
+      "path": "content/en/biology/microbiology/microbial-biogeochemistry.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "a 2025 Advanced Science synthesis pooling 3,240 observations from 199 isotope-pairing studies found denitrification responsible for 79.8 plus or minus 0.4 per cent of microbial nitrogen loss, with anammox reaching as much as 43.2 per cent in seawater, its share falling with latitude in soils and sediments and rising with depth",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11848586/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA recorded a global mean N2O of 339.78 ppb for April 2026",
+          "sourceChecked": "https://gml.noaa.gov/ccgg/trends_n2o/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "N2O annual increase of 1.23 ppb across 2025",
+          "sourceChecked": "https://gml.noaa.gov/ccgg/trends_n2o/",
+          "disposition": "qualified",
+          "note": "Value matches the source (1.23 ppb, uncertainty 0.12), but NOAA labels it: 'Values for the last year are preliminary pending recalibrations of standard gases and other quality control steps.' The article stated it flatly. Live dataset, added the source's own preliminary qualifier rather than presenting a provisional growth rate as final."
+        },
+        {
+          "claim": "for 2010-2019 atmospheric inversions put total global CH4 emissions at 575 Tg per year (553-586), of which about 369 Tg (350-391), roughly 65 per cent, is directly anthropogenic; the OH sink is 563 Tg (510-663)",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/1873/2025/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "wetlands and inland fresh waters together average 248 Tg (159-369)",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/1873/2025/",
+          "disposition": "qualified",
+          "note": "The figure is right but it is a bottom-up estimate, and it sat in a sentence whose other numbers were explicitly atmospheric-inversion (top-down) values. A reader would reasonably have taken all three as inversion outputs, which matters because the article's later argument turns on the top-down/bottom-up gap sitting in exactly this term. Added 'in the bottom-up accounting'."
+        },
+        {
+          "claim": "NOAA put the global mean CH4 at 1937.59 ppb for April 2026",
+          "sourceChecked": "https://gml.noaa.gov/ccgg/trends_ch4/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "CH4 annual increase of 5.34 plus or minus 0.59 ppb in 2025",
+          "sourceChecked": "https://gml.noaa.gov/ccgg/trends_ch4/",
+          "disposition": "qualified",
+          "note": "Value and uncertainty match the source exactly, but NOAA marks the most recent year's growth rate preliminary pending recalibration of standard gases. Live dataset, added the preliminary qualifier the source states."
+        },
+        {
+          "claim": "bottom-up estimates give 669 Tg CH4 per year (512-849) against 575 top-down, a 94 Tg gap of roughly a sixth of the total",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/1873/2025/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "an ISME Journal meta-analysis screened 415 studies, found 59 reporting both gene abundance and process rate, analysed 224 paired observations, and found r = 0.26 overall, 0.30 for DNA and 0.08 and non-significant for transcripts, with only 38 per cent of individual effects significantly positively correlated and nearly twice as many negative or null",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4511926/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "culturing-and-sequencing-microbes",
+      "path": "content/en/biology/microbiology/culturing-and-sequencing-microbes.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "environmental habitats were dominated by uncultured groups, with 22 to 87 per cent belonging to uncultured genera through classes, while human and human-associated environments were dominated by cultured genera at 45 to 97 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6156271/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "uncultured genera account for around 7.3 x 10^29 cells, roughly 81 per cent of the total, and uncultured phyla are overrepresented in metatranscriptomes relative to metagenomes",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6156271/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the rRNA operon occurs in 1 to 15 copies in bacteria and 1 to 4 in archaea",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4383981/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "MIMAG/MISAG high-quality draft is more than 90 per cent complete with less than 5 per cent contamination and must encode 23S, 16S and 5S rRNA plus tRNAs for at least 18 of the 20 amino acids; medium quality is at least 50 per cent complete with less than 10 per cent contamination; below 50 per cent is low quality",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6436528/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the Unified Human Gastrointestinal Genome collection assembled 204,938 non-redundant genomes representing 4,644 gut prokaryotes and more than 170 million protein sequences, with more than 70 per cent of species lacking a cultured representative and 40 per cent of proteins lacking functional annotation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7801254/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 2016 Nature study isolated 137 bacterial species from healthy human faecal samples and inferred that at least 50 to 60 per cent of intestinal bacterial genera form resilient spores specialised for host-to-host transmission",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4890681/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the 2016 Nature Microbiology culturomics paper was retracted in November 2024 for want of documented ethics approval in the additional countries from which samples came, and several authors disagreed with the retraction",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13179128/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NCBI's RefSeq collection stood at 182,465 organisms in release 236 of July 2026",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/refseq/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The bullet list of amplicon biases (primer coverage, chimera formation, variable-region choice) carries no citation of its own beyond the rrnDB source, which covers only the copy-number bullet. The three uncited bullets are standard, uncontested method description rather than quantitative claims, so nothing was changed, but an editor may want a methods reference attached to them."
+      ]
+    }
+  ]
+}
