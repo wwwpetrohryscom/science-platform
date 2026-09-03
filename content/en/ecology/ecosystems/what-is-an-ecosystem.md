@@ -14,7 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
-_bodyHash: ef91a133
+_bodyHash: 186525a1
 ---
 
 An ecosystem is the simultaneous flow of energy, matter, and information through a community of organisms and their physical surroundings ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). The word "ecosystem" was coined by Arthur Tansley in 1935 specifically to displace the older, more romantic notion of "community" — Tansley wanted a term that emphasized exchange rather than membership.
@@ -79,9 +79,9 @@ Once you internalize it, much of public ecological discourse becomes easier to e
 
 ## Following the flow through the rest of this subtopic
 
-If an ecosystem is defined by flow rather than by membership, the natural next questions are about the flows themselves. [Primary production](/en/ecology/ecosystems/primary-production-and-energy-flow) is where the energy enters and how its magnitude is estimated; [food webs](/en/ecology/ecosystems/food-webs-and-trophic-structure) are where it goes, and why the tidy trophic pyramid is an accounting device rather than a description. [Ecological succession](/en/ecology/ecosystems/ecological-succession-explained) is what the same system looks like over time once the climax idea is abandoned, and [biomes](/en/ecology/ecosystems/biomes-explained) are what the classification looks like at the other end of the scale, with all the soft edges that implies.
+If an ecosystem is defined by flow rather than by membership, the natural next questions are about the flows themselves. [Primary production](/en/ecology/ecosystems/primary-production-and-energy-flow) is where the energy enters and how its magnitude is estimated; [food webs](/en/ecology/ecosystems/food-webs-and-trophic-structure) are where it goes, and why the tidy trophic pyramid is an accounting device rather than a description. [Ecological succession](/en/ecology/ecosystems/ecological-succession-explained) is what the same system looks like over time once the climax idea is abandoned, and [how biomes are classified](/en/ecology/ecosystems/biomes-explained) are what the classification looks like at the other end of the scale, with all the soft edges that implies.
 
-Three articles take the definition into places it is usually not applied. [Foundation species](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) tests the claim that diversity makes systems interchangeable; [urban ecology](/en/ecology/ecosystems/urban-ecology-explained) treats cities as ecosystems rather than as the absence of one; and [agroecosystems](/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology) are what happens when a system is managed for a single output, with [soil microbial communities](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) as the part of it that is hardest to see and easiest to overclaim.
+Three articles take the definition into places it is usually not applied. [Foundation species](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) tests the claim that diversity makes systems interchangeable; [urban ecology](/en/ecology/ecosystems/urban-ecology-explained) treats cities as ecosystems rather than as the absence of one; and [managed agroecosystems](/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology) are what happens when a system is managed for a single output, with [soil microbial communities](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) as the part of it that is hardest to see and easiest to overclaim.
 
 ## Sources
 

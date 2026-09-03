@@ -21,7 +21,7 @@ pillar: soil-science-explained
 _bodyHash: 1e57567b
 ---
 
-Three distinct processes strip material from a hillslope, and they are not variations on a single theme. Water erosion detaches particles by raindrop impact and by the shear of runoff moving across the surface. Wind erosion detaches them by drag, and by the hammering of grains already bouncing downwind — saltation. Tillage erosion detaches nothing: the implement itself carries material downslope, a little further on every pass. The FAO's 2019 review of the subject records that tillage erosion was recognised by soil scientists only in the 1990s and, unlike the other two, is close to impossible to observe while it is happening.
+Three distinct processes strip material from a hillslope, and they are not variations on a single theme. Water erosion detaches particles by raindrop impact and by the shear of runoff moving across the surface. Wind erosion detaches them by drag, and by the hammering of grains already bouncing downwind — saltation. Tillage erosion detaches nothing: the implement itself carries material downslope, a little further on every pass. The FAO's 2019 review of the subject records that tillage erosion was recognised by soil scientists only in the 1990s and, unlike the other two, is difficult to observe visually while it is happening.
 
 Whether any of this matters at a given site depends entirely on a comparison with the rate at which new material is made, the quantity that makes [soil a stock rather than a flow](/en/ecology/soils/soil-science-explained). That comparison is where the arithmetic gets difficult, and it is the reason published erosion figures disagree by more than most readers expect.
 
@@ -87,7 +87,7 @@ The regional picture is firmer. The European Environment Agency estimates about 
 
 ## Sources
 
-1. **FAO** — [Soil erosion: the greatest challenge to sustainable soil management](https://openknowledge.fao.org/handle/20.500.14283/ca4395en). Process definitions, the compendium of regional and global erosion estimates, tolerable soil loss ranges, the RUSLE2015 dispute, and conservation-practice effect sizes.
+1. **FAO** — [Soil erosion: the greatest challenge for sustainable soil management](https://openknowledge.fao.org/handle/20.500.14283/ca4395en). Process definitions, the compendium of regional and global erosion estimates, tolerable soil loss ranges, the RUSLE2015 dispute, and conservation-practice effect sizes.
 2. **PNAS** — [Soil erosion and agricultural sustainability](https://www.pnas.org/doi/10.1073/pnas.0611508104). The 1,673-measurement compilation of erosion, soil production and geological rates.
 3. **Nature Communications** — [An assessment of the global impact of 21st century land use change on soil erosion](https://www.nature.com/articles/s41467-017-02142-7). The 250 m global RUSLE-based model, the 2001–2012 change, and erosion by land cover.
 4. **FAO Soils Portal** — [Cost of soil erosion](https://www.fao.org/soils-portal/soil-degradation-restoration/cost-of-soil-erosion/en/). The contrasting United States cost estimates and why erosion costing is contested.

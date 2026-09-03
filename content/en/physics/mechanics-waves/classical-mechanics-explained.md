@@ -17,7 +17,7 @@ related:
   - waves-and-oscillations-explained
   - fluid-dynamics-explained
   - measurement-uncertainty-explained
-_bodyHash: 9b7fd84b
+_bodyHash: fddd4522
 ---
 
 Two Voyager spacecraft, launched in 1977, are leaving the Solar System at more than 3 astronomical units per year, and NASA navigated both of them to their planetary encounters using mechanics that was essentially complete before 1900. That is the practical case for classical mechanics: not that it is the deepest description available, but that within a very wide envelope it is the correct one, and nothing that replaced it made it obsolete inside that envelope.
@@ -34,7 +34,7 @@ The law is better read as a definition. It picks out the class of reference fram
 
 Force equals the rate of change of momentum. In the common case of constant mass this reduces to the familiar product of mass and acceleration, but the momentum form is the one that survives contact with variable-mass problems such as a rocket burning propellant.
 
-The equation is a template because it tells you nothing about what forces exist. Mechanics only becomes predictive once a separate force law is supplied — gravitational, elastic, electromagnetic, frictional — and each of those is an independent piece of physics with its own accuracy. Gravity is the embarrassing case. The Newtonian constant of gravitation carries a relative standard uncertainty of 2.2 × 10⁻⁵ in the 2022 CODATA adjustment — three significant figures, at a time when a Royal Society survey of the measurement problem could point out that many other constants are known to parts in 10⁸ and the Rydberg constant to four parts in 10¹². The same survey noted that the spread across published determinations of the gravitational constant was approaching 500 parts per million, "more than 10 times the uncertainties on each measurement". The reason is not carelessness. Gravity is feeble at laboratory scale: the attraction between a pair of 1 kg copper spheres just touching is about 10⁻⁸ N, roughly a thousand-millionth of the weight of either. Extracting that signal against the pull of the whole Earth is a problem in [measurement uncertainty and traceability](/en/physics/mechanics-waves/measurement-uncertainty-explained) as much as in mechanics.
+The equation is a template because it tells you nothing about what forces exist. Mechanics only becomes predictive once a separate force law is supplied — gravitational, elastic, electromagnetic, frictional — and each of those is an independent piece of physics with its own accuracy. Gravity is the embarrassing case. The Newtonian constant of gravitation carries a relative standard uncertainty of 2.2 × 10⁻⁵ in the 2022 CODATA adjustment — 22 parts per million, while a 2014 survey of the measurement problem in a Royal Society journal could point out that many other constants are known to parts in 10⁸ and the Rydberg constant to four parts in 10¹². The same survey noted that the spread across published determinations of the gravitational constant was approaching 500 parts per million, "more than 10 times the uncertainties on each measurement". The reason is not carelessness. Gravity is feeble at laboratory scale: the attraction between a pair of 1 kg copper spheres just touching is about 10⁻⁸ N, roughly a thousand-millionth of the weight of either. Extracting that signal against the pull of the whole Earth is a problem in [measurement uncertainty and traceability](/en/physics/mechanics-waves/measurement-uncertainty-explained) as much as in mechanics.
 
 ## The third law is really a conservation statement
 
@@ -72,7 +72,7 @@ The relativistic boundary appears when speeds approach the speed of light, fixed
 
 The quantum boundary appears when the action involved in a process approaches the Planck constant, now fixed at exactly 6.626 070 15 × 10⁻³⁴ J s. For a cricket ball this is irrelevant; for an electron in an atom it is decisive.
 
-The third boundary is internal, and it is the one that surprises people. Classical mechanics is deterministic and still not indefinitely predictive. The Solar System is a worked example: a PNAS review of long-term integrations puts the characteristic Lyapunov time for the planetary orbits at 5–10 million years, and concludes that "the presence of chaos implies that there is a finite limit to how accurately the positions of the planets can be predicted over long times", while the system nonetheless remains qualitatively stable across the Sun's lifetime. Exact equations, exact forces, and a horizon anyway.
+The third boundary is internal, and it is the one that surprises people. Classical mechanics is deterministic and still not indefinitely predictive. The Solar System is a worked example: a PNAS commentary surveying long-term integrations puts the characteristic Lyapunov time for the planetary orbits at 5–10 million years, and concludes that "the presence of chaos implies that there is a finite limit to how accurately the positions of the planets can be predicted over long times", while the system nonetheless remains qualitatively stable across the Sun's lifetime. Exact equations, exact forces, and a horizon anyway.
 
 ## How closely the framework has actually been checked
 

@@ -101,7 +101,7 @@ The related question of which coupled changes might be abrupt or hard to reverse
 
 ## Where to go next
 
-The supporting articles in this cluster split the framework into workable pieces: the components and their timescales; the shared logic of biogeochemical cycles and the carbon, water, and nitrogen cycles in particular; feedbacks in general and the water-vapour and ice-albedo cases in detail; ocean circulation, ENSO, and teleconnections; the cryosphere and the biosphere as active participants; and the methods — Essential Climate Variables, Earth system models, predictability, and tipping points.
+The supporting articles in this cluster split the framework into workable pieces: the components and their timescales; the shared logic of biogeochemical cycles and the carbon, water, and nitrogen cycles in particular; feedbacks in general and the water-vapour and ice-albedo cases in detail; [ocean circulation](/en/glossary/ocean-circulation), ENSO, and teleconnections; the cryosphere and the biosphere as active participants; and the methods — Essential Climate Variables, Earth system models, predictability, and tipping points.
 
 ## Sources
 

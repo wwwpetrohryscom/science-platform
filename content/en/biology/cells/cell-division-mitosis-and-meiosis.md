@@ -52,7 +52,7 @@ The second is crossing over. On average a human chromosome participates in two o
 
 Human meiosis is unusually error-prone. The frequency of chromosome missegregation in human oocytes is around 10 per cent of meioses — a rate no mitotic tissue would tolerate.
 
-The consequences are visible in reproductive outcomes. A cytogenetic study of 340 first-trimester pregnancy losses found chromosomal abnormalities in 48.5 per cent of the conception products examined; aneuploidy accounted for 81.8 per cent of the abnormal cases, and trisomy for 86.7 per cent of the aneuploidies. The same study found abnormality rates rising with maternal age, reporting an odds ratio of 4.12 for women aged 37 and above compared with those aged 29 or younger.
+The consequences are visible in reproductive outcomes. A cytogenetic study of 340 first-trimester pregnancy losses found chromosomal abnormalities in 48.5 per cent of the conception products examined; aneuploidy accounted for 81.8 per cent of the abnormal cases, and trisomy for 86.7 per cent of the aneuploidies. The same study found abnormality rates rising with maternal age, reporting an odds ratio of 4.20 (95 per cent confidence interval 1.90–8.92) for women aged 37 and above compared with those aged 29 or younger.
 
 Two cautions belong with those figures. Products-of-conception studies sample pregnancies that failed, which is exactly the population enriched for the abnormality being counted, so the proportions describe losses rather than conceptions in general. And a single-centre series of this size gives a usable estimate of proportions but not a population rate.
 

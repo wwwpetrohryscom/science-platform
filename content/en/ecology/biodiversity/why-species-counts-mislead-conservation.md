@@ -17,7 +17,7 @@ related:
 _bodyHash: d0090328
 ---
 
-Species richness — the count of distinct species in a defined area — is one of the most widely cited measures of biodiversity. It is also incomplete as a conservation prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat biodiversity loss as more than a simple species-count problem.
+[Species richness](/en/glossary/species-richness) — the count of distinct species in a defined area — is one of the most widely cited measures of [biodiversity](/en/glossary/biodiversity). It is also incomplete as a conservation prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat biodiversity loss as more than a simple species-count problem.
 
 This piece explains the mismatch, summarizes the alternatives, and argues that the routine use of species counts as a prioritization signal needs to be retired.
 

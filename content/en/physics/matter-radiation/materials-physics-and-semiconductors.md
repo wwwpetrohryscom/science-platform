@@ -19,7 +19,7 @@ related:
   - measurement-uncertainty-explained
   - particle-physics-fundamentals
 pillar: atomic-and-nuclear-physics-explained
-_bodyHash: ca6f2050
+_bodyHash: 3bf69bb
 ---
 
 Copper conducts electricity about twenty orders of magnitude better than quartz, and both are made of ordinary atoms held together by ordinary electromagnetic forces. The difference is not the number of electrons available. It is whether an electron that receives a small nudge of energy has anywhere to go.
@@ -56,7 +56,7 @@ A perfect crystal is a teaching device. Real crystals contain vacancies, interst
 
 A defect can introduce an energy level inside the gap — a place an electron can rest that the pure crystal does not offer. Such a level is a recombination centre: a carrier falls into it and is lost before it can be collected, which in a solar cell is directly a loss of current and in a transistor is leakage. Controlling defects at concentrations of parts per billion is what semiconductor manufacturing largely consists of, and it is why the field is a metrology problem as much as a materials one.
 
-NIST's account of its semiconductor work makes the measurement dependency explicit: the agency created a new measurement method and issued its first photomask linewidth standard in 1979, which reduced measurement discrepancies among companies tenfold. As features shrank, detecting nanoscale defects during manufacture became hard enough to require new optical techniques — NIST developed through-focus scanning optical microscopy for exactly that. An industry cannot hold a tolerance it cannot measure, and the [distinction between what is measured and what is inferred](/en/physics/mechanics-waves/measurement-uncertainty-explained) is as consequential here as anywhere in physics.
+NIST's account of its semiconductor work makes the measurement dependency explicit: the agency created a new measurement method and issued its first photomask linewidth standard in 1979, which reduced measurement discrepancies among companies tenfold. As chips shrink they become ever more sensitive to contamination, and detecting those flaws is hard; NIST researchers, with an industry colleague, adapted a low-cost microscopy method — through-focus scanning optical microscopy — to detect nanoscale contaminants during manufacture. An industry cannot hold a tolerance it cannot measure, and the [distinction between what is measured and what is inferred](/en/physics/mechanics-waves/measurement-uncertainty-explained) is as consequential here as anywhere in physics.
 
 ## Superconductivity: the case band theory did not predict
 
@@ -68,7 +68,7 @@ That is the honest shape of materials physics. Band theory explains an enormous 
 
 ## Sources
 
-1. **NIST** — [Semiconductors](https://www.nist.gov/semiconductors). The 1979 photomask linewidth standard and its tenfold reduction in inter-company measurement discrepancy; through-focus scanning optical microscopy for nanoscale defect detection.
+1. **NIST** — [Semiconductors](https://www.nist.gov/semiconductors). The 1979 photomask linewidth standard and its tenfold reduction in inter-company measurement discrepancy; through-focus scanning optical microscopy, adapted by NIST researchers with an industry colleague to detect nanoscale contaminants during manufacture.
 2. **NIST** — [Nanoscale Device Characterization Division](https://www.nist.gov/pml/nanoscale-device-characterization-division). Measurement programmes underlying semiconductor device characterisation.
 3. **U.S. Department of Energy, Office of Science** — [DOE explains… superconductivity](https://www.energy.gov/science/doe-explainssuperconductivity). Loss-free DC conduction below a critical temperature, expulsion of magnetic fields, and the 1986 high-temperature materials operating above liquid-nitrogen temperature.
 4. **NIST** — [Fundamental physical constants](https://www.nist.gov/pml/fundamental-physical-constants). CODATA values for the electron-volt and the constants used in the energy comparisons above.

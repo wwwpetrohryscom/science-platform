@@ -17,7 +17,7 @@ related:
   - atmospheric-structure-and-lapse-rate
   - climate-sensitivity-explained
 pillar: atmospheric-physics-explained
-_bodyHash: 3f102e6f
+_bodyHash: cd9f1534
 ---
 
 An actual greenhouse works by stopping convection: the glass keeps warm air from rising away, and the radiative properties of the glass are secondary. The atmosphere does not do that — the troposphere convects vigorously, which is precisely the point. A blanket works by suppressing conduction and convection at the skin. The atmosphere does not do that either. Both metaphors survive because they get the sign of the answer right, and both fail the moment anyone asks what happens when the concentration changes.
@@ -38,7 +38,7 @@ And it is not an amount of "trapped heat". In flux terms the same institute's wo
 
 ## Why the emission altitude is the thing that changes
 
-Every infrared wavelength escapes to space from the level where the optical depth measured downward from the top reaches about one, a point developed in [how radiative transfer works line by line](/en/physics/climate-physics/radiative-transfer-explained). Averaged across the spectrum, that level for present-day Earth sits several kilometres up. Taking the standard tropospheric temperature decrease of about 6.5 K per kilometre, the altitude at which the air is at 255 K is roughly five kilometres above a 288 K surface.
+Every infrared wavelength escapes to space from the level where the [optical depth](/en/glossary/optical-depth) measured downward from the top reaches about one, a point developed in [how radiative transfer works line by line](/en/physics/climate-physics/radiative-transfer-explained). Averaged across the spectrum, that level for present-day Earth sits several kilometres up. Taking the standard tropospheric temperature decrease of about 6.5 K per kilometre, the altitude at which the air is at 255 K is roughly five kilometres above a 288 K surface.
 
 Now add carbon dioxide. At wavelengths where the band is not already opaque, the extra molecules mean that a photon emitted at a given altitude is more likely to be reabsorbed, so escape occurs from higher up. Higher up is colder. Colder air emits less. For a moment the planet is emitting less than it absorbs, and it must warm until the emitting level, wherever it has moved to, is back at the temperature that balances the incoming sunlight.
 
@@ -50,7 +50,7 @@ The strongest-sounding objection to all of this is that the carbon dioxide band 
 
 The emission-height framing makes the same point without any spectroscopy. A saturated band means only that escape happens from high up. Raising the escape level further still lowers the emitting temperature, and still forces a compensating adjustment at the surface, for as long as temperature falls with altitude.
 
-The instantaneous radiative change is smaller than the eventual response, and by a large factor. The Goddard analysis gives about 4 W/m² of extra absorption from doubling carbon dioxide directly, rising to almost 20 W/m² once water vapour and clouds have adjusted to the warmer atmosphere. The direct effect is well constrained; the multiplier is not, which is the subject of [climate sensitivity](/en/ecology/climate-change/climate-sensitivity-explained).
+The instantaneous radiative change is smaller than the eventual response, and by a large factor. The Goddard analysis gives about 4 W/m² of extra absorption from doubling carbon dioxide directly, rising to almost 20 W/m² once water vapour and clouds have adjusted to the warmer atmosphere — a result the science brief itself qualifies as holding "in the GISS climate model, at least". The direct effect is well constrained; the multiplier is not, which is the subject of [climate sensitivity](/en/ecology/climate-change/climate-sensitivity-explained).
 
 ## What has actually been measured
 
@@ -60,7 +60,7 @@ The outgoing spectrum has been compared across decades. Work published in *Natur
 
 The surface side has been measured too. Spectroscopic observations at two Department of Energy sites, the Southern Great Plains and the North Slope of Alaska, yielded clear-sky carbon dioxide surface radiative forcing attributable to the 22 ppm rise between 2000 and 2010, with trends of 0.2 W/m² per decade at each site — uncertainties of ± 0.06 and ± 0.07 W/m² per decade respectively — and seasonal ranges of 0.1 to 0.2 W/m². The authors note this amounts to roughly 10 per cent of the trend in total downwelling longwave radiation, which is a useful reminder of how small the signal is relative to the flux carrying it.
 
-The energy is going somewhere, and it is measurable at the top of the atmosphere. NASA's CERES project puts the current imbalance at approximately 0.7 W/m², or 0.3 per cent of absorbed solar radiation, with the IPCC's assessed value for 2006–2018 at 0.79 [0.52 to 1.06] W/m².
+The energy is going somewhere, and it is measurable at the top of the atmosphere. NASA's CERES project gives the magnitude of the imbalance as approximately 0.7 W/m², or 0.3 per cent of absorbed solar radiation — a figure its science overview states without attaching a period to it — while the IPCC's assessed value for 2006–2018 is 0.79 [0.52 to 1.06] W/m².
 
 ## One emission height is a summary statistic
 

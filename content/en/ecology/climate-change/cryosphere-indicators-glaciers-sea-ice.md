@@ -21,7 +21,7 @@ pillar: what-is-climate-change
 _bodyHash: 957b1f0f
 ---
 
-The cryosphere — the frozen part of the Earth system, and one of the clearest places [warming shows up in observations](/en/ecology/climate-change/what-is-climate-change) — is not one thing. Sea ice, glaciers, ice sheets, snow cover, and permafrost are physically distinct reservoirs with different formation mechanisms, response timescales, and indicator products. They have one common property useful for the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring): each one responds to surface energy balance in a way that integrates climate forcing over a characteristic time, so the cryosphere indicators together provide constraints the atmospheric indicators alone do not.
+The [cryosphere](/en/glossary/cryosphere) — the frozen part of the Earth system, and one of the clearest places [warming shows up in observations](/en/ecology/climate-change/what-is-climate-change) — is not one thing. Sea ice, glaciers, ice sheets, snow cover, and permafrost are physically distinct reservoirs with different formation mechanisms, response timescales, and indicator products. They have one common property useful for the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring): each one responds to surface energy balance in a way that integrates climate forcing over a characteristic time, so the cryosphere indicators together provide constraints the atmospheric indicators alone do not.
 
 This piece walks through the main indicators, what each one measures, and where their uncertainties live.
 
@@ -41,7 +41,7 @@ Glaciers are land ice on mountain ranges and high-latitude ice fields, distinct 
 
 The [World Glacier Monitoring Service](https://wgms.ch/) (WGMS), a joint WMO/IUGG/UNEP partnership, curates the long-term reference dataset combining direct field measurements at "reference glaciers" with satellite-derived geodetic mass-balance estimates that have expanded coverage dramatically over the past two decades. The reference glacier record shows continuous net mass loss since the 1980s, with the loss rate accelerating over the recent record.
 
-Glaciers have a slower response than sea ice — adjustment to a step change in climate plays out over decades to centuries depending on glacier geometry. That makes glacier mass balance a *low-pass-filtered* indicator of climate forcing: it smooths out interannual variability and reveals the trend.
+Glaciers have a slower response than sea ice — adjustment to a step change in climate plays out over decades to centuries depending on glacier geometry. That makes [glacier mass balance](/en/glossary/glacier-mass-balance) a *low-pass-filtered* indicator of climate forcing: it smooths out interannual variability and reveals the trend.
 
 Glacier mass loss contributes to [sea-level rise](/en/ecology/climate-change/sea-level-rise-indicators), and this contribution is one of the better-quantified components of the sea-level budget. It also has local hydrological consequences in mountain catchments, which the [European Environment Agency](https://www.eea.europa.eu/) tracks for European Alpine systems.
 

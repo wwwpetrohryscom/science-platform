@@ -18,10 +18,10 @@ related:
   - forest-carbon-measurement
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
-_bodyHash: '497293e9'
+_bodyHash: 2f38823e
 ---
 
-A stand of trees can lose most of its carbon, a large share of its species and much of its capacity to hold water while remaining, in every official statistic, a forest. Nothing has been converted. The land use has not changed. Canopy cover stays above the ten percent threshold. What has happened is invisible to the accounting that governs the headline numbers, and it is probably the larger process.
+A stand of trees can lose most of its carbon, a large share of its species and much of its capacity to hold water while remaining, in every official statistic, a forest. Nothing has been converted. The land use has not changed. Canopy cover stays above the ten percent threshold. What has happened is invisible to the accounting that governs the headline numbers, and where the two have been measured against each other — so far, mainly in the Amazon — it is the larger process.
 
 ## The word has no agreed meaning, and that is a measurable fact
 
@@ -29,7 +29,7 @@ Deforestation has a definition a country can apply: forest converted to another 
 
 The survey that came back is the most useful thing published on the subject. Information on whether a national definition exists was obtained for 214 countries and areas covering more than 99 percent of global forest area. Fifty-nine of them, holding about 37 percent of that area, had an official national definition. Seventeen more had adopted a definition from elsewhere or built operational criteria for monitoring. Analysis of the 74 submitted texts split them into two families: those describing the process by the disturbances that cause it — illegal logging, repeated fire, unsustainable management — and a larger group describing it by its consequences, such as changes in structure, reduced provision of goods and services, and biodiversity loss.
 
-The individual criteria are revealing. "Change in forest structure or decrease in forest canopy" appears in 68 percent of the submitted definitions, "loss of carbon, biomass and growing stock" in 45 percent, and "loss of productivity and forest goods" in 35 percent; nearly 60 percent combine more than one. An FAO-led taskforce has been convened to converge on an international definition for future assessment cycles. Until it reports, any global figure for degraded forest area is an aggregate across incompatible yardsticks, and treating it as comparable between countries is a category error rather than a precision problem.
+The individual criteria are revealing. "Change in forest structure or decrease in forest canopy" appears in 68 percent of the submitted definitions, "loss of carbon, biomass and growing stock" in 45 percent, and "loss of productivity and forest goods" in 35 percent; nearly 60 percent combine more than one. The assessment says the survey data will guide an FAO-led taskforce, drawing on member nations, international bodies and other experts, charged with establishing an international definition for future assessment cycles. Until it reports, any global figure for degraded forest area is an aggregate across incompatible yardsticks, and treating it as comparable between countries is a category error rather than a precision problem.
 
 ## What is actually happening to the trees
 

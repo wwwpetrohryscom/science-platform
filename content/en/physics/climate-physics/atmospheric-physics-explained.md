@@ -1,6 +1,6 @@
 ---
 title: 'Atmospheric physics: the machine that moves energy from equator to pole'
-excerpt: The atmosphere holds about ten tonnes of air over every square metre and carries roughly five petawatts of energy poleward. This page sets out the composition, vertical structure, energy budget and transport mechanics the rest of the subject rests on.
+excerpt: The atmosphere holds about ten tonnes of air over every square metre and its poleward energy transport peaks near five petawatts. This page sets out the composition, vertical structure, energy budget and transport mechanics the rest of the subject rests on.
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
@@ -16,10 +16,10 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
-_bodyHash: e6b3fe56
+_bodyHash: afc9183c
 ---
 
-Air is thin, and the arithmetic makes that concrete. NOAA gives standard sea-level pressure as 1013.25 hPa, which is the weight of a column carrying about 10.3 tonnes of air over each square metre of ground. By the cruising altitude of an airliner, roughly three-quarters of that column is already below you. What this shell does with the energy passing through it is the subject of atmospheric physics, and the single most useful summary of what it does is a transport figure: about five petawatts, moved from the tropics towards each pole, continuously.
+Air is thin, and the arithmetic makes that concrete. NOAA gives standard sea-level pressure as 1013.25 hPa, which is the weight of a column carrying about 10.3 tonnes of air over each square metre of ground. By the cruising altitude of an airliner, roughly three-quarters of that column is already below you. What this shell does with the energy passing through it is the subject of atmospheric physics, and the single most useful summary of what it does is a transport figure: a poleward flux that peaks at about five petawatts in each hemisphere in the annual mean.
 
 ## The abundant gases are not the interesting ones
 
@@ -39,7 +39,7 @@ Temperature is far less obliging. It falls through the troposphere, holds nearly
 
 NASA's Earth Observatory puts the intensity of sunlight at the top of the atmosphere, on the face directly presented to the Sun, at about 1,360 watts per square metre. Spread over the whole rotating sphere that becomes roughly 340 W/m². Of that, about 29 per cent is reflected by clouds, aerosol and bright surfaces; about 23 per cent is absorbed within the atmosphere by water vapour, dust and ozone; and about 48 per cent reaches and is absorbed by the surface. Some 71 per cent of the arriving energy is therefore absorbed, or close to 240 W/m².
 
-Over the long run the planet has to emit that much back to space, and it very nearly does. The residual is small and it is the whole anthropogenic signal. The IPCC's AR6 assessment reports an [Earth energy imbalance](/en/glossary/earth-energy-imbalance) of 0.50 [0.32 to 0.69] W/m² for 1971–2006, rising to 0.79 [0.52 to 1.06] W/m² for 2006–2018, with ocean heat uptake accounting for 91 per cent of the total energy change. NASA's CERES project puts the present magnitude at approximately 0.7 W/m², which it notes is 0.3 per cent of absorbed solar radiation. Detecting three parts in a thousand in a budget of that size is the central measurement problem of the field.
+Over the long run the planet has to emit that much back to space, and it very nearly does. The residual is small and it is the whole anthropogenic signal. The IPCC's AR6 assessment reports an [Earth energy imbalance](/en/glossary/earth-energy-imbalance) of 0.50 [0.32 to 0.69] W/m² for 1971–2006, rising to 0.79 [0.52 to 1.06] W/m² for 2006–2018, with ocean heat uptake accounting for 91 per cent of the total energy change. NASA's CERES project gives the magnitude as approximately 0.7 W/m², which it notes is 0.3 per cent of absorbed solar radiation; its science overview attaches no period to that figure, and the quantity it tracks changes. Detecting three parts in a thousand in a budget of that size is the central measurement problem of the field.
 
 The reason the surface sits well above the 255 K implied by emitting 240 W/m² is not that energy is stored under a lid; it is that the altitude from which the planet radiates to space is not the surface. That argument is set out carefully in [the emission-height account of the greenhouse effect](/en/physics/climate-physics/the-greenhouse-effect-physics).
 
@@ -65,7 +65,7 @@ Both parameters in that argument — the rotation rate and the surface gravity t
 
 The top-of-atmosphere budget is far better constrained than the surface budget beneath it. AR6 puts the uncertainty in global monthly mean downward solar and thermal fluxes in the CERES-EBAF surface dataset at 10 and 8 W/m² respectively, and the uncertainties in ocean mean latent and sensible heat fluxes at roughly 11 and 5 W/m². Those are large compared with the imbalance the budget is being used to detect, which is why the imbalance is estimated from ocean heat content rather than by differencing surface fluxes.
 
-Model spread is comparable. AR6 notes that differences in land-averaged downward thermal and solar radiation across CMIP5 models amounted to more than 30 and 40 W/m² respectively, though CMIP6 agrees better with reference estimates. Polar surface fluxes remain the least constrained, for the straightforward reason that there are fewer surface sites. What follows from all of this — which parts of the atmosphere a numerical model solves and which parts it represents by approximation — is taken up in [what is inside a climate model](/en/physics/climate-physics/climate-model-physics-explained).
+Model spread is comparable. AR6 notes that differences in land-averaged downward thermal and solar radiation across CMIP5 models amounted to more than 30 and 40 W/m² respectively, though CMIP6 agrees better with reference estimates. Polar surface fluxes remain the least constrained, which AR6 puts down both to the limited number of surface sites and to larger uncertainty in the surface observations themselves. What follows from all of this — which parts of the atmosphere a numerical model solves and which parts it represents by approximation — is taken up in [what is inside a climate model](/en/physics/climate-physics/climate-model-physics-explained).
 
 ## Sources
 

@@ -49,7 +49,7 @@ The novel finding is the reinforcement. A drought-weakened tree is a more attrac
 
 ## Why the standard models miss this
 
-Most coupled climate–vegetation models treat disturbance as a stochastic background process rather than a state variable that interacts with the climate. They also calibrate growth-response curves on the same historical period in which the carbon sink was strengthening — so they project that strength forward. The [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) (Chapter 5, on the global carbon cycle) explicitly flags the persistence of the land sink as one of the larger uncertainties in century-scale projections.
+Most coupled climate–vegetation models treat disturbance as a stochastic background process rather than a state variable that interacts with the climate. They also calibrate growth-response curves on the same historical period in which the carbon sink was strengthening — so they project that strength forward. The [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) (Chapter 5, on the global [carbon cycle](/en/glossary/carbon-cycle)) explicitly flags the persistence of the land sink as one of the larger uncertainties in century-scale projections.
 
 A new generation of models is starting to incorporate disturbance feedbacks explicitly, with promising early results. The current public-facing carbon-budget projections, however, mostly do not yet include them.
 

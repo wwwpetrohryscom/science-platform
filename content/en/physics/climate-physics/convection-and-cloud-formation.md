@@ -18,7 +18,7 @@ related:
   - climate-feedback-mechanisms
   - radiative-transfer-explained
 pillar: atmospheric-physics-explained
-_bodyHash: c52986a
+_bodyHash: fafd3559
 ---
 
 Every droplet in every cloud condensed onto something else. Water vapour in clean air does not spontaneously assemble into droplets at the humidities the atmosphere actually reaches; it needs a surface to condense on, and NOAA's JetStream reference sets the useful minimum for that surface at a radius of about one micrometre. Smoke, volcanic ash, sea spray and wind-blown soil supply them in enormous numbers, which is why every cloud droplet has a speck of dirt or salt at its core. That microscopic requirement is the start of a chain that ends at the widest open question in [atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained).
@@ -27,7 +27,7 @@ Every droplet in every cloud condensed onto something else. Water vapour in clea
 
 The common route to a cloud is mechanical. Air rises, the pressure around it falls, it expands, and expansion cools it without any heat being exchanged with its surroundings. NOAA gives that unsaturated cooling as 9.8 °C per kilometre of ascent, which is the same number everywhere on the planet because it follows from the thermodynamics of the gas rather than from local conditions; the distinction between that rate and the one a radiosonde actually measures is set out in the companion article on [lapse rates and atmospheric stability](/en/physics/climate-physics/atmospheric-structure-and-lapse-rate).
 
-Once the parcel reaches saturation, vapour condenses onto the available **cloud condensation nuclei** — hygroscopic particles that attract water molecules and are far smaller than the droplets they seed. The Met Office puts the resulting droplets at about a hundredth of a millimetre across — small enough that ordinary turbulence holds them up, and far too small to fall out as rain.
+Once the parcel reaches saturation, vapour condenses onto the available **[cloud condensation nuclei](/en/glossary/cloud-condensation-nuclei)** — hygroscopic particles that attract water molecules and are far smaller than the droplets they seed. The Met Office puts the resulting droplets at about a hundredth of a millimetre across — small enough that ordinary turbulence holds them up, and far too small to fall out as rain.
 
 What follows is not a static object. Drier air is continuously entrained into a rising parcel, so condensation and evaporation both run at once; a cloud grows where condensation wins and dissipates where evaporation does. That is why a cloud visibly changes shape, and appears and disappears, while the air mass it sits in changes far more slowly.
 
@@ -49,7 +49,7 @@ A cloud reflects incoming sunlight, which cools. It also absorbs radiation from 
 
 IPCC AR6 quantifies the aggregate by comparing the observed energy budget with one computed by removing the clouds and leaving everything else in place. Without clouds, 47 W/m² less solar radiation is reflected back to space — 53 ± 2 W/m² instead of 100 ± 2 W/m² — while 28 W/m² more thermal radiation escapes, 267 ± 3 W/m² instead of 239 ± 3 W/m². The shortwave term wins, and the cloud-free budget is left with a 20 W/m² imbalance at the top of the atmosphere. Clouds, on balance, cool the present-day planet by about that much.
 
-Two caveats travel with that figure. AR6 is explicit that the cloud-free budget is not the state a cloud-free Earth would settle into; it is the same atmosphere with the cloud radiative properties switched off, which is exactly how models compute clear-sky fluxes and is therefore the right comparison for that purpose. And the cooling is a global mean over a very uneven field: MODIS on NASA's Aqua satellite, over July 2002 to April 2015, found about 67 per cent of Earth's surface typically under cloud, with less than 10 per cent of the sky over the oceans completely clear at any moment against 30 per cent over land.
+Two caveats travel with that figure. The cloud-free budget is not a state the planet could sit in: AR6 builds it by removing the cloud effects while holding the atmospheric and surface radiative properties otherwise identical, using in situ and satellite measurements taken under cloud-free conditions, and notes that the resulting 20 W/m² imbalance implies the Earth would warm substantially if there were no clouds. And the cooling is a global mean over a very uneven field. NASA's Earth Observatory, presenting a MODIS/Aqua cloud-fraction map averaged over July 2002 to April 2015, cites a satellite study putting about 67 per cent of Earth's surface typically under cloud, and separate research finding less than 10 per cent of the sky over the oceans completely clear at any one time against 30 per cent over land.
 
 ## Why "clouds cool the planet" tells you nothing about the feedback
 

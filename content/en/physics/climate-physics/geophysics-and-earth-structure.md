@@ -18,7 +18,7 @@ related:
   - earth-system-components-explained
   - waves-and-oscillations-explained
 pillar: atmospheric-physics-explained
-_bodyHash: 84d68389
+_bodyHash: d34e2364
 ---
 
 No instrument has ever been lowered into the mantle, let alone the core. Everything asserted about the interior below the crust — that there is a liquid layer, that a solid ball sits inside it, where each boundary lies — is an inference drawn from measurements made at or above the surface. Geophysics is the discipline of making those inferences defensible, and its methods deserve attention separately from its conclusions, because each conclusion is only as strong as what its method can distinguish.
@@ -43,7 +43,7 @@ A global compilation published in *Solid Earth*, drawing on 38,347 individual me
 
 Against the solar radiation that drives weather, that internal flux is negligible; it does essentially nothing to [the atmosphere's own energy budget](/en/physics/climate-physics/atmospheric-physics-explained). What it does drive is the interior. Heat has to escape, conduction through thousands of kilometres of rock is far too slow to carry it, and so the mantle convects — hot material rising, cooling, and sinking again over geological time, the same mechanism that operates in a heated fluid at any scale, as described in the treatment of [conduction, convection and radiation](/en/physics/thermodynamics/heat-transfer-conduction-convection-radiation).
 
-That much is forced by the energy budget. The details are not. USGS states plainly that how many convection cells exist, where they originate and what their structure is remain unanswered, and the coupling to the plates is not settled either: explanations up to the 1990s emphasised seafloor spreading pushing plates apart, whereas most workers now favour the forces associated with subduction pulling them. Observed spreading rates span an order of magnitude — about 2.5 cm per year at the Mid-Atlantic Ridge, more than 15 cm per year on the East Pacific Rise near Easter Island — and the interior flow producing that range is inferred rather than imaged.
+That much is forced by the energy budget. The details are not. USGS states plainly that how many convection cells exist, where they originate and what their structure is remain unanswered, and the coupling to the plates is not settled either: explanations up to the 1990s emphasised seafloor spreading pushing plates apart, whereas most workers now favour the forces associated with subduction pulling them. Observed spreading rates range widely — about 2.5 cm per year at the Mid-Atlantic Ridge, more than 15 cm per year on the East Pacific Rise near Easter Island — and the interior flow producing that range is inferred rather than imaged.
 
 ## A field made by moving metal
 

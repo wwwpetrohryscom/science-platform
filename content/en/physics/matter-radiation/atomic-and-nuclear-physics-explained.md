@@ -17,12 +17,12 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
-_bodyHash: aa67d06f
+_bodyHash: ec5f9bdf
 ---
 
 Two comparisons set up everything that follows. The Bohr radius, the natural length scale of an atom, is 5.2918 × 10⁻¹¹ m in the 2022 CODATA adjustment. The charge radius of a uranium-238 nucleus, from the IAEA's evaluated nuclear data, is 5.8571 ± 0.0033 fm — that is 5.8571 × 10⁻¹⁵ m. In radius, the nucleus is smaller than the atom around it by a factor of about nine thousand.
 
-The energy scales are further apart still. Pulling the electron off a hydrogen atom takes 13.6057 eV. The average binding energy per nucleon in a mid-mass nucleus is close to 8.79 MeV — roughly 650,000 times more. Nuclear physics and chemistry are the same physics applied at two scales that barely overlap, and almost every counterintuitive fact about radioactivity, reactors and stars follows from how large that separation is.
+The energy scales are further apart still. The Rydberg energy, which sets the scale for pulling the electron off a hydrogen atom, is 13.6057 eV. The average binding energy per nucleon in a mid-mass nucleus is close to 8.79 MeV — roughly 650,000 times more. Nuclear physics and chemistry are the same physics applied at two scales that barely overlap, and almost every counterintuitive fact about radioactivity, reactors and stars follows from how large that separation is.
 
 ## Why the electron cloud and the nucleus behave like separate subjects
 
@@ -42,7 +42,7 @@ Two properties of that residual force decide the shape of everything downstream.
 
 Plot binding energy per nucleon against mass number and you get a curve that rises steeply through the light nuclides, flattens into a broad plateau, and declines slowly to the heaviest. Every quantitative claim in this cluster is a statement about a position on that curve.
 
-The peak is routinely reported as iron-56. The evaluated masses do not quite say that. Taking values from the IAEA live chart, which carries the AME2020 mass evaluation, the three highest are nickel-62 at 8794.5555 keV per nucleon, iron-58 at 8792.2534, and iron-56 at 8790.3563. Iron-56 is third, by about four parts in ten thousand.
+The peak is routinely reported as iron-56. The evaluated masses do not quite say that. Taking values from the IAEA live chart, which carries the AME2020 mass evaluation, the three highest are nickel-62 at 8794.5555 keV per nucleon, iron-58 at 8792.2534, and iron-56 at 8790.3563. Iron-56 is third, by about five parts in ten thousand.
 
 The correction matters less than the reason the misconception is so durable. The iron group is a real abundance peak in cosmic material, and which nuclide dominates that peak is a different question from which nuclide is most tightly bound. Abundance is decided by what stellar burning actually produces and what those products decay into — the problem laid out in the 1957 review of stellar nucleosynthesis that still frames the field. The curve tells you what is energetically favoured; it does not tell you what a star makes.
 
@@ -58,7 +58,7 @@ The asymmetry is worth stating plainly. Fission is easy to start and hard to sto
 
 ## How many nuclei there are, and how few of them last
 
-The IAEA's live chart holds ground-state data for 3,386 nuclides. Of those, 244 are listed as stable, distributed across 80 elements, and 288 carry a measured natural terrestrial abundance. Everything else exists only as a decay product, a fission product, or an accelerator target.
+The ground-state dataset behind the IAEA's live chart, which carries an extraction date of 18 October 2023, holds data for 3,386 nuclides. Of those, 244 are listed as stable, distributed across 80 elements, and 288 carry a measured natural terrestrial abundance. Everything else exists only as a decay product, a fission product, or an accelerator target.
 
 An unstable nucleus has a limited menu of exits. Alpha emission sheds a helium-4 nucleus and dominates among the heaviest species. Beta-minus emission converts a neutron to a proton; electron capture and beta-plus emission run the other way. Gamma emission carries off excitation without changing composition. Spontaneous fission splits the nucleus outright and is significant only for the very heaviest.
 

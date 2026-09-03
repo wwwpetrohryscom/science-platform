@@ -21,7 +21,7 @@ related:
 _bodyHash: 66b9a6f0
 ---
 
-Evolution is a property of populations, not of individuals. An organism does not evolve during its lifetime; what changes is how common each version of a gene is among the organisms that make up a breeding group, and how that distribution shifts from one generation to the next. Most popular misreadings — that lineages strive towards complexity, that a species somehow calls forth the variant it needs, that fitness means physical strength — dissolve as soon as the subject of the sentence is put back where it belongs.
+[Evolution](/en/glossary/evolution) is a property of populations, not of individuals. An organism does not evolve during its lifetime; what changes is how common each version of a gene is among the organisms that make up a breeding group, and how that distribution shifts from one generation to the next. Most popular misreadings — that lineages strive towards complexity, that a species somehow calls forth the variant it needs, that fitness means physical strength — dissolve as soon as the subject of the sentence is put back where it belongs.
 
 The National Human Genome Research Institute defines evolution, in genomic terms, as the process by which living organisms change over time through changes in the genome. The population-genetic version is narrower and more useful: an **allele** is one of two or more versions of a DNA sequence at a given genomic location, and evolution is a change in how common each version is across generations. Everything below is an elaboration of that sentence.
 
@@ -31,7 +31,7 @@ A population that is very large, mates at random, and experiences no selection, 
 
 ## Four processes, not one
 
-Textbook accounts often collapse evolution into natural selection alone. That is the single most consequential simplification in the subject, because three other processes change allele frequencies too, and in some circumstances they dominate.
+Textbook accounts often collapse evolution into [natural selection](/en/glossary/natural-selection) alone. That is the single most consequential simplification in the subject, because three other processes change allele frequencies too, and in some circumstances they dominate.
 
 | Process | What it does to allele frequencies | Is the direction predictable? | Dependence on population size |
 | --- | --- | --- | --- |

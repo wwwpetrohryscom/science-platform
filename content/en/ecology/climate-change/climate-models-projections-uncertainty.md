@@ -20,13 +20,13 @@ pillar: what-is-climate-change
 _bodyHash: 3ef3883
 ---
 
-A climate projection is not a forecast in the weather sense. A weather forecast estimates the actual state of the atmosphere at a future time; a climate projection estimates the *statistics* of [the climate system](/en/ecology/climate-change/what-is-climate-change) under a specified set of forcing assumptions. The difference matters because the relevant uncertainty in a climate projection is not "how exactly will the weather unfold" — it is a structured combination of three different sources.
+A [climate projection](/en/glossary/climate-projection) is not a forecast in the weather sense. A weather forecast estimates the actual state of the atmosphere at a future time; a climate projection estimates the *statistics* of [the climate system](/en/ecology/climate-change/what-is-climate-change) under a specified set of forcing assumptions. The difference matters because the relevant uncertainty in a climate projection is not "how exactly will the weather unfold" — it is a structured combination of three different sources.
 
 This piece walks through what climate models are, where the uncertainty in their projections comes from, and how to read a projection range responsibly.
 
 ## What a climate model is
 
-A climate model is a numerical simulation of the climate system on a discrete spatial grid, integrating the governing physical equations forward in time under specified forcing. The major models — coordinated under the Coupled Model Intercomparison Project (CMIP) through the [World Climate Research Programme](https://www.wcrp-climate.org/) — combine atmosphere, ocean, sea-ice, land-surface, and (in earth-system configurations) carbon-cycle and vegetation components. The current generation, CMIP6, was the model basis for [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/).
+A [climate model](/en/glossary/climate-model) is a numerical simulation of the climate system on a discrete spatial grid, integrating the governing physical equations forward in time under specified forcing. The major models — coordinated under the Coupled Model Intercomparison Project (CMIP) through the [World Climate Research Programme](https://www.wcrp-climate.org/) — combine atmosphere, ocean, sea-ice, land-surface, and (in earth-system configurations) carbon-cycle and vegetation components. The current generation, CMIP6, was the model basis for [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/).
 
 A model run for a given forcing scenario produces a time series of climate variables — temperature, precipitation, sea level, sea ice, ocean heat content — at each grid cell. A *projection* is typically a multi-model ensemble of such runs combined with statistical methods to estimate plausible ranges of future climate.
 

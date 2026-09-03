@@ -17,7 +17,7 @@ related:
   - land-cover-change-detection
   - biodiversity-baselines-and-shifting-baselines
 pillar: what-is-an-ecosystem
-_bodyHash: dd6e27af
+_bodyHash: dc2337c8
 ---
 
 A biome map makes a strong claim: that if you know the temperature and rainfall regime of a place, you can predict the structural form of the vegetation that grows there — forest, woodland, shrubland, grassland, desert — regardless of which species happen to occupy it. Convergent form across unrelated floras is what licenses the claim. Mediterranean shrublands in California, Chile, the Cape and southwest Australia share a growth form and a fire regime while sharing almost no species, and the same is true of temperate grasslands on four continents.
@@ -28,9 +28,9 @@ The claim holds unevenly, and the places it fails are the places it earns its ke
 
 The modern version of the idea is usually traced to Robert Whittaker, who plotted major vegetation formations on axes of mean annual temperature and mean annual precipitation and showed that they occupy distinct, largely non-overlapping regions of that space. The banding is not arbitrary: the latitudinal arrangement of wet and dry belts follows from [atmospheric circulation](/en/physics/climate-physics/atmospheric-circulation-cells), which is why deserts recur in the subtropical belts on both sides of the equator and rainforest sits astride it.
 
-What an operational classification looks like is best seen in FAO's global ecological zoning, built for forest reporting rather than for teaching. It uses the Köppen–Trewartha climatic system as its skeleton: five domains separated by temperature — tropical, subtropical, temperate, boreal, polar — subdivided by precipitation into [20 ecological zones at the working level](https://www.fao.org/4/ad652e/ad652e07.htm), with one mountain-systems zone inside each domain.
+What an operational classification looks like is best seen in FAO's global ecological zoning, built for forest reporting rather than for teaching. It uses the Köppen–Trewartha climatic system as its skeleton: five domains separated by temperature — tropical, subtropical, temperate, boreal, polar — subdivided by precipitation into [20 ecological zones at the working level](https://www.fao.org/4/ad652e/ad652e07.htm), with a mountain-systems zone in four of the five domains — the polar domain has none, and is a single class identical to the domain itself.
 
-Two admissions in that document are more informative than the scheme itself. The zones were delineated using macroclimate data *and* existing potential-vegetation maps, because, in FAO's own words, using generalised climate maps alone could produce zones corresponding poorly to the boundaries of homogeneous vegetation. And several things are simply left out: mangroves, heaths and swamps are treated as azonal and not separately mapped, while every mountain system in a domain — forest, alpine shrub, meadow and bare rock alike — collapses into a single class, because the framework cannot address the small-scale diversity of mountain habitats. A biome map is thus not a pure climate product. It is a climate product corrected by vegetation observation, with its known failure cases removed from the legend rather than solved.
+Two admissions in that document are more informative than the scheme itself. The zones were delineated using macroclimate data *and* existing potential-vegetation maps, because, in FAO's own words, using generalised climate maps alone could produce zones corresponding poorly to the boundaries of homogeneous vegetation. And several things are simply left out: mangroves, heaths and swamps are treated as azonal and not separately mapped, while every mountain system in one of those four domains — forest, alpine shrub, meadow and bare rock alike — collapses into a single class, because the framework cannot address the small-scale diversity of mountain habitats. A biome map is thus not a pure climate product. It is a climate product corrected by vegetation observation, with its known failure cases removed from the legend rather than solved.
 
 ## Where the same climate supports two answers
 

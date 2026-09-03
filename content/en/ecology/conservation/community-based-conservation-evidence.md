@@ -17,7 +17,7 @@ related:
   - species-extinction-risk-assessment
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: 200151d4
+_bodyHash: cd3c6f40
 ---
 
 The hardest problem in this literature is not measuring forest cover. Satellites do that well. It is that no territory was ever assigned at random: community-held and Indigenous-held lands sit where they sit for historical, political and topographic reasons, and every one of those reasons also affects how likely the land was to be cleared. Any comparison that ignores this measures location as much as management.
@@ -52,7 +52,7 @@ That is an association across a heterogeneous sample of published studies, not a
 
 Community forest management, the institutional form most often proposed as the practical vehicle for all of this, has a weaker record than its prominence suggests. A systematic review of the effectiveness literature found evidence associating it with greater tree density and basal area, but not with other indicators of global environmental benefit — and no data on local human welfare in a form amenable to meta-analysis. The reviewers named poor study design, variable reporting of methodology and context, and the absence of common indicators as the reasons synthesis was so difficult, which makes this a gap in the evidence rather than a demonstrated absence of effect. Donors had by then invested billions of dollars in sustainable forest management, of which community forest management is a major mechanism.
 
-The recording problem compounds it. Only 3.95 per cent of terrestrial protected and conserved area coverage was reported as governed by Indigenous Peoples and local communities, with a further 11.84 per cent under shared governance, and governance assessments had been reported for just 0.22 per cent of terrestrial coverage and 0.001 per cent of marine coverage. Equitable governance is a condition written into international targets and almost entirely unmonitored in the database that reports on them.
+The recording problem compounds it. In the Protected Planet Report 2024, drawing on data reported as of August 2024, only 3.95 per cent of global protected and conserved area coverage was reported as governed by Indigenous Peoples and local communities, with a further 11.84 per cent under shared governance; within the terrestrial and inland waters realm alone the two figures are 9.02 and 3.72 per cent. Governance assessments had been reported for just 0.22 per cent of the area covered on land and 0.001 per cent of the area at sea. Equitable governance is a condition written into international targets and almost entirely unmonitored in the database that reports on them.
 
 ## Two numbers that look contradictory and are not
 

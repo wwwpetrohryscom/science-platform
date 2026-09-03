@@ -48,7 +48,7 @@ The current work on halide perovskites shows that gap concretely. A study in *Na
 
 ## Reading a current-voltage curve
 
-The measurement itself is a sweep. Illuminate the device, vary the load, and record current against voltage. Short-circuit current scales with the photon flux absorbed; open-circuit voltage reflects how far the carrier populations can be driven apart before recombination balances generation. Somewhere between the two extremes lies the maximum-power point, and the **fill factor** is the ratio of that maximum power to the product of short-circuit current and open-circuit voltage — a dimensionless measure of how square the curve is.
+The measurement itself is a sweep. Illuminate the device, vary the load, and record current against voltage. Short-circuit current scales with the photon flux absorbed; open-circuit voltage reflects how far the carrier populations can be driven apart before recombination balances generation. Somewhere between the two extremes lies the maximum-power point, and the **[fill factor](/en/glossary/fill-factor)** is the ratio of that maximum power to the product of short-circuit current and open-circuit voltage — a dimensionless measure of how square the curve is.
 
 Fill factor is the diagnostic that separates a device problem from an absorber problem. Series resistance in contacts and fingers pulls the curve down near the current axis; shunt paths across the junction pull it down near the voltage axis; heavy recombination flattens it everywhere. Two devices with the same short-circuit current and open-circuit voltage can differ substantially in delivered power, and the fill factor is where that difference appears.
 

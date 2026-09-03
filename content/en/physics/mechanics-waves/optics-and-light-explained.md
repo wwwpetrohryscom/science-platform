@@ -57,7 +57,7 @@ The same principle turned into a measuring instrument is interferometry, which c
 
 ## Diffraction sets a floor that engineering cannot lift
 
-A circular aperture of diameter D illuminated at wavelength λ cannot form an image finer than roughly 1.22 λ/D in angle. That is the Rayleigh criterion, and it is a property of the aperture rather than of the optics behind it.
+A circular aperture of diameter D illuminated at wavelength λ cannot form an image finer than roughly 1.22 λ/D in angle. That is the [Rayleigh criterion](/en/glossary/rayleigh-criterion), and it is a property of the aperture rather than of the optics behind it.
 
 The Hubble Space Telescope makes a clean arithmetic check. Its primary mirror is 2.4 metres across, and NASA states that it can distinguish objects in visible light separated by 0.05 arcsecond. Putting a mid-visible wavelength of 500 nm and that diameter into the criterion gives about 2.5 × 10⁻⁷ radians, which is 0.05 arcsecond — the instrument is working at its diffraction limit, and the only routes to a finer image are a larger opening or a shorter wavelength.
 

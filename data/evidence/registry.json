@@ -756,7 +756,7 @@
      "kind": "article",
      "slug": "environmental-monitoring-networks-are-thinning",
      "section": "insights",
-     "supports": "Float numbers, the revised array target and the profile milestones."
+     "supports": "Float numbers, the revised array target and the profile milestones; a continuously updated page, read in September 2026."
     }
    ],
    "isLiveDataset": true,
@@ -4692,6 +4692,34 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-environment-ec-europa-eu-036198d5",
+   "title": "New pollution rules come into effect for cleaner air by 2030",
+   "organization": "European Commission",
+   "url": "https://environment.ec.europa.eu/news/new-pollution-rules-come-effect-cleaner-air-2030-2024-12-10_en",
+   "host": "environment.ec.europa.eu",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/pollution"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "air-quality-measurement-and-standards",
+     "section": "ecology/pollution",
+     "supports": "Entry into force of the recast Ambient Air Quality Directive, the cut to the annual fine-particle limit value and the transposition deadline."
+    },
+    {
+     "kind": "article",
+     "slug": "environmental-pollution-explained",
+     "section": "ecology/pollution",
+     "supports": "Entry into force of the revised Ambient Air Quality Directive and the cut to the annual fine-particle limit value."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-environment-ec-europa-eu-5774cc11",
    "title": "EU air quality standards",
    "organization": "European Commission",
@@ -4899,7 +4927,7 @@
      "kind": "article",
      "slug": "particulate-matter-and-health-evidence",
      "section": "ecology/pollution",
-     "supports": "The formal weight-of-evidence review underpinning the US standards."
+     "supports": "The evaluation and synthesis of policy-relevant science that serves as the scientific foundation for the US standards."
     }
    ],
    "isLiveDataset": false,
@@ -8438,7 +8466,7 @@
      "kind": "article",
      "slug": "greenhouse-gas-concentrations-monitoring",
      "section": "ecology/climate-change",
-     "supports": ", and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Operational global flask network and the direct-forcing summary."
+     "supports": ", and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), 2024 edition. Operational global flask network and the direct-forcing summary."
     },
     {
      "kind": "article",
@@ -8450,7 +8478,7 @@
      "kind": "article",
      "slug": "greenhouse-gases-and-radiative-forcing",
      "section": "ecology/climate-change",
-     "supports": "and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing."
+     "supports": "and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), 2024 edition. Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing."
     }
    ],
    "isLiveDataset": true,
@@ -8541,7 +8569,7 @@
      "kind": "article",
      "slug": "greenhouse-gas-concentrations-monitoring",
      "section": "ecology/climate-change",
-     "supports": ", and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Operational global flask network and the direct-forcing summary."
+     "supports": ", and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), 2024 edition. Operational global flask network and the direct-forcing summary."
     },
     {
      "kind": "article",
@@ -8553,7 +8581,7 @@
      "kind": "article",
      "slug": "greenhouse-gases-and-radiative-forcing",
      "section": "ecology/climate-change",
-     "supports": "and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing."
+     "supports": "and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), 2024 edition. Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing."
     }
    ],
    "isLiveDataset": true,
@@ -8970,6 +8998,28 @@
      "slug": "temperate-forest-carbon-sink-decline",
      "section": "ecology/climate-change",
      "supports": "The European long-term forest monitoring network."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-icvcm-org-7400caee",
+   "title": "Core Carbon Principles",
+   "organization": "Integrity Council for the Voluntary Carbon Market",
+   "url": "https://icvcm.org/core-carbon-principles/",
+   "host": "icvcm.org",
+   "sourceType": "other",
+   "sourceTypeProvenance": "unclassified",
+   "topics": [
+    "insights"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "carbon-offset-outsourcing-science",
+     "section": "insights",
+     "supports": "The market's own quality benchmark, and the strongest form of the case that the arrangement is being corrected from within."
     }
    ],
    "isLiveDataset": false,
@@ -13941,24 +13991,11 @@
     "ecology/biodiversity",
     "ecology/ecosystems",
     "glossary",
-    "insights",
     "physics/energy",
     "physics/quantum-basics",
     "physics/thermodynamics"
    ],
    "usedBy": [
-    {
-     "kind": "article",
-     "slug": "ai-for-science-bottleneck",
-     "section": "insights",
-     "supports": "Peer-reviewed literature on scientific data, AI, and reproducibility."
-    },
-    {
-     "kind": "article",
-     "slug": "carbon-offset-outsourcing-science",
-     "section": "insights",
-     "supports": "Peer-reviewed literature on forest carbon, land-use monitoring, and offsets."
-    },
     {
      "kind": "article",
      "slug": "cell-signaling-pathways-basics",
@@ -19667,7 +19704,7 @@
   },
   {
    "evidenceId": "ev-openknowledge-fao-org-de42e2c8",
-   "title": "Soil erosion: the greatest challenge to sustainable soil management",
+   "title": "Soil erosion: the greatest challenge for sustainable soil management",
    "organization": "FAO",
    "url": "https://openknowledge.fao.org/handle/20.500.14283/ca4395en",
    "host": "openknowledge.fao.org",
@@ -21033,6 +21070,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-1b806900",
+   "title": "Systematic assessment of the achieved emission reductions of carbon crediting projects",
+   "organization": "Nature Communications (PubMed Central)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11564741/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "insights"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "carbon-offset-outsourcing-science",
+     "section": "insights",
+     "supports": "Synthesis of 14 studies covering 2,346 projects and roughly a billion tonnes of issued credits; the per-mechanism shares quoted here."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-1c1bce19",
    "title": "High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries",
    "organization": "Nature Communications — Jain and colleagues (2018)",
@@ -21327,6 +21386,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-21b647db",
+   "title": "Precision microbiome restoration of bile acid-mediated resistance to *Clostridium difficile*",
+   "organization": "Nature",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4354891/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "microbiomes-and-host-microbe-interactions",
+     "section": "biology/microbiology",
+     "supports": "Conversion of primary to secondary bile acids by a resident commensal as a colonisation-resistance mechanism."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-221a6e6c",
    "title": "Faecal microbiota transplantation for recurrent Clostridioides difficile infection: an updated systematic review and meta-analysis",
    "organization": "EClinicalMedicine",
@@ -21385,6 +21466,34 @@
      "slug": "nearly-neutral-theory",
      "section": "glossary",
      "supports": "Definition of Nearly neutral theory"
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-237b46a3",
+   "title": "Mitochondrial respiratory supercomplexes in mammalian cells: structural versus functional role",
+   "organization": "Journal of Molecular Medicine (PubMed Central)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7785696/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "mitochondria-and-cellular-respiration",
+     "section": "biology/cells",
+     "supports": "Cited inline as \"review in the *Journal of Molecular Medicine*\""
+    },
+    {
+     "kind": "article",
+     "slug": "mitochondria-and-cellular-respiration",
+     "section": "biology/cells",
+     "supports": "The solid-state and fluid-state models of respiratory-chain organisation and the contested evidence for substrate channelling."
     }
    ],
    "isLiveDataset": false,
@@ -21924,9 +22033,16 @@
    "sourceTypeProvenance": "inferred-host",
    "topics": [
     "biology/biotechnology",
-    "glossary"
+    "glossary",
+    "insights"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ai-for-science-bottleneck",
+     "section": "insights",
+     "supports": "The counter-example discussed below."
+    },
     {
      "kind": "glossary",
      "slug": "plddt",
@@ -25032,6 +25148,34 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-c9e0ddbb",
+   "title": "Interphase microtubules: chief casualties in the war on cancer?",
+   "organization": "Drug Discovery Today (PubMed Central)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4009386/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "cytoskeleton-and-cell-motility",
+     "section": "biology/cells",
+     "supports": "Cited inline as \"2013 review in *Drug Discovery Today*\""
+    },
+    {
+     "kind": "article",
+     "slug": "cytoskeleton-and-cell-motility",
+     "section": "biology/cells",
+     "supports": "The mismatch between tumour proliferation rates and mitotic arrest, interphase targeting, and immunomodulatory effects."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-cb4df67d",
    "title": "Radiative cooling to deep sub-freezing temperatures through a 24-h day–night cycle",
    "organization": "Nature Communications",
@@ -25365,7 +25509,7 @@
   },
   {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-daec8923",
-   "title": "Practical guidance for using low-cost particle monitors in community field studies",
+   "title": "Practical guidance for using PurpleAir particle monitors for indoor and outdoor measurements in community field studies",
    "organization": "Aerosol and Air Quality Research",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12339596/",
    "host": "pmc.ncbi.nlm.nih.gov",
@@ -26171,6 +26315,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-fc6ec144",
+   "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+   "organization": "Wilkinson and colleagues, Scientific Data, 2016 (PubMed Central)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4792175/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "insights"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ai-for-science-bottleneck",
+     "section": "insights",
+     "supports": "The reference statement of what a machine-readable research record has to satisfy."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-fdc2f23f",
    "title": "Critical assessment of methods of protein structure prediction (CASP) — Round XV",
    "organization": "Proteins / PMC",
@@ -26187,6 +26353,28 @@
      "slug": "protein-structure-prediction",
      "section": "biology/biotechnology",
      "supports": "Target and participant counts, Cα r.m.s.d. distribution, assembly-model quality, and the assessors' statement on saturation."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-fdfa2169",
+   "title": "Adjusting microbiome profiles for differences in microbial load by spike-in bacteria",
+   "organization": "Microbiome",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4915049/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "microbiomes-and-host-microbe-interactions",
+     "section": "biology/microbiology",
+     "supports": "Spike-in calibration for recovering ratios of absolute abundance from compositional read counts."
     }
    ],
    "isLiveDataset": false,
@@ -26259,6 +26447,28 @@
      "slug": "entropy-explained",
      "section": "physics/thermodynamics",
      "supports": "Entropy-driven ordering in hard-particle systems and the magnitude of directional entropic forces."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-ff771916",
+   "title": "Global high-resolution ultrafine particle number concentrations through data fusion with machine learning",
+   "organization": "Scientific Data",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12618658/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/pollution"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "particulate-matter-and-health-evidence",
+     "section": "ecology/pollution",
+     "supports": "Ultrafine particles as a minor proportion of PM2.5 mass but dominant in number concentration."
     }
    ],
    "isLiveDataset": false,
@@ -26740,6 +26950,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-predictioncenter-org-bd99d75d",
+   "title": "CASP14",
+   "organization": "Protein Structure Prediction Center",
+   "url": "https://predictioncenter.org/casp14/",
+   "host": "predictioncenter.org",
+   "sourceType": "other",
+   "sourceTypeProvenance": "unclassified",
+   "topics": [
+    "insights"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ai-for-science-bottleneck",
+     "section": "insights",
+     "supports": "The blind assessment that scored it; cited because independent assessment is what distinguishes this case from a vendor claim."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-protectedplanet-net-29afa788",
    "title": "World Database on Protected Areas",
    "organization": "UNEP-WCMC and IUCN",
@@ -26825,7 +27057,7 @@
      "kind": "article",
      "slug": "marine-protected-areas-evidence",
      "section": "ecology/oceans",
-     "supports": "Coverage of national waters versus areas beyond national jurisdiction."
+     "supports": "Coverage of national waters versus areas beyond national jurisdiction. Continuously updated and carrying no release label; the shares quoted here were read in September 2026."
     },
     {
      "kind": "glossary",
@@ -32197,18 +32429,11 @@
     "ecology/biodiversity",
     "ecology/ecosystems",
     "glossary",
-    "insights",
     "physics/energy",
     "physics/quantum-basics",
     "physics/thermodynamics"
    ],
    "usedBy": [
-    {
-     "kind": "article",
-     "slug": "ai-for-science-bottleneck",
-     "section": "insights",
-     "supports": "Peer-reviewed literature on scientific infrastructure and research reproducibility."
-    },
     {
      "kind": "article",
      "slug": "antibiotic-resistance-evolution-mechanisms",
@@ -33621,6 +33846,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-unfccc-int-4d81d235",
+   "title": "Article 6.4 mechanism",
+   "organization": "UNFCCC",
+   "url": "https://unfccc.int/process-and-meetings/the-paris-agreement/article-64-mechanism",
+   "host": "unfccc.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "insights"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "carbon-offset-outsourcing-science",
+     "section": "insights",
+     "supports": "The intergovernmental crediting mechanism established under the Paris Agreement."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-unscear-org-4769bc55",
    "title": "Radiation FAQ",
    "organization": "UNSCEAR",
@@ -34838,7 +35085,7 @@
      "kind": "article",
      "slug": "particulate-matter-and-health-evidence",
      "section": "ecology/pollution",
-     "supports": "Guideline levels, and the good-practice treatment of ultrafine particles and black carbon."
+     "supports": "Guideline levels, and the absence of quantitative levels for ultrafine particles and black carbon."
     },
     {
      "kind": "glossary",
@@ -35085,6 +35332,28 @@
      "slug": "how-gene-expression-is-regulated",
      "section": "biology/genetics",
      "supports": "Cited inline as \"WHO\""
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-who-int-5e1ad48c",
+   "title": "WHO global air quality guidelines: questions and answers",
+   "organization": "World Health Organization",
+   "url": "https://www.who.int/news-room/questions-and-answers/item/who-global-air-quality-guidelines",
+   "host": "who.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/pollution"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "particulate-matter-and-health-evidence",
+     "section": "ecology/pollution",
+     "supports": "The good practice statements issued for black carbon, ultrafine particles and dust-storm particles, for which quantitative evidence was insufficient to derive guideline levels."
     }
    ],
    "isLiveDataset": false,

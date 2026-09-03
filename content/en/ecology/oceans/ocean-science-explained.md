@@ -17,7 +17,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: 4333d183
+_bodyHash: d5aba4d5
 ---
 
 The ocean is one connected body of water that behaves as though it were stacked. Density — a function of temperature, salinity and pressure — sorts seawater into layers that exchange slowly with each other, and most of the large-scale behaviour of the sea follows from that sorting: where added heat accumulates, where nutrients sit, how deep light reaches, and how long anything stays where it is.
@@ -26,7 +26,7 @@ The scale is worth stating plainly, because it is why the sorting matters so muc
 
 ## Stratification is the master variable
 
-Sunlit surface water is warmer, and often fresher, than the water beneath it, so it is less dense and it floats. Wind and winter cooling stir the top tens to hundreds of metres into a **mixed layer** of near-uniform density. Below that, temperature drops steeply through the **thermocline** and density rises through the pycnocline. That density step is the most consequential structure in the sea, because it is a barrier to vertical exchange: it governs how readily heat, carbon, oxygen and dissolved nutrients pass between the surface and the interior.
+Sunlit surface water is warmer, and often fresher, than the water beneath it, so it is less dense and it floats. Wind and winter cooling stir the top tens to hundreds of metres into a **mixed layer** of near-uniform density. Below that, temperature drops steeply through the **[thermocline](/en/glossary/thermocline)** and density rises through the pycnocline. That density step is the most consequential structure in the sea, because it is a barrier to vertical exchange: it governs how readily heat, carbon, oxygen and dissolved nutrients pass between the surface and the interior.
 
 That barrier has strengthened. The IPCC's Sixth Assessment concludes it is virtually certain that the upper ocean has become more stably stratified since at least 1970 across the vast majority of the globe, driven by surface-intensified warming and high-latitude freshening, and assesses the increase in 0–200 m stratification at 4.9 ± 1.5 per cent between 1970 and 2018. An analysis in Nature Climate Change that instead quantifies stability using the squared buoyancy frequency down to 2,000 metres reports a 5.3 per cent increase (5.0 to 5.8 per cent) over 1960–2018, about 0.90 per cent per decade, with roughly 71 per cent of the change in the upper 200 metres and more than 90 per cent of it attributable to temperature rather than salinity.
 
@@ -52,7 +52,7 @@ Human use reaches the evidence base in three forms, and they are not equally tra
 
 ## The instrumental record begins later than most readers assume
 
-For most of the twentieth century the ocean interior was sampled by ships, which meant that observations were concentrated along commercial routes, in the Northern Hemisphere, and in summer. The Argo array changed the sampling geometry rather than the instruments. NOAA's Atlantic Oceanographic and Meteorological Laboratory records that the first float was deployed in 1999 and the initial target of 3,000 profiling floats on a 3° × 3° grid was met in November 2007, with the later Argo2020 design aiming for about 4,000 floats across all types. Each float drifts at a mid-water level, descends to 2,000 metres every ten days and measures temperature and salinity on the way up. The array passed its millionth profile in October 2012, its two-millionth in September 2018 and its three-millionth in July 2024, with 26 countries contributing.
+For most of the twentieth century the ocean interior was sampled by ships, which meant that observations were concentrated along commercial routes, in the Northern Hemisphere, and in summer. The Argo array changed the sampling geometry rather than the instruments. NOAA's Atlantic Oceanographic and Meteorological Laboratory records that the first float was deployed in 1999 and the initial target of 3,000 profiling floats on a 3° × 3° grid was met in November 2007, with the later Argo2020 design aiming for 4,000 Core Argo floats alongside 1,200 Deep Argo and 1,000 biogeochemical ones. Each float drifts at a mid-water level, descends to 2,000 metres every ten days and measures temperature and salinity on the way up. The array passed its millionth profile in October 2012, its two-millionth in September 2018 and its three-millionth in July 2024, with 26 countries contributing.
 
 That is the observational break point. Statements about the ocean interior before roughly 2005 rest on sparse, unevenly distributed data; statements after it rest on a near-global array. The seafloor is further behind. NOAA Ocean Exploration reports that as of April 2026, 28.7 per cent of the global seafloor had been mapped with modern high-resolution multibeam sonar — around 56 per cent within United States waters — and that explorers have directly seen less than 0.001 per cent of the deep-sea floor, an area roughly the size of Rhode Island. Satellite-derived bathymetry covers the whole seafloor, but at a resolution that misses features as large as an individual seamount.
 

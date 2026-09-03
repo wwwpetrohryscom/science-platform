@@ -42,7 +42,7 @@ Microbes mediate three broad processes that determine how a field responds to ma
 
 **Phosphorus availability.** Mycorrhizal fungi extend the effective root surface area for phosphorus uptake by orders of magnitude. Their abundance and species composition vary widely across fields and respond strongly to management history (fungicides and high-phosphorus fertilization both suppress them). A field with depleted mycorrhizal networks responds to phosphorus management differently than a field with intact networks.
 
-**Rhizosphere environment.** Plants exude carbon compounds into the rhizosphere that recruit specific microbial partners. The microbial community responds by modifying the chemical environment around the roots — protonation, chelation, hormone production — in ways that affect plant performance. Two fields with the same plants and same fertilizer can produce different plant phenotypes because the rhizosphere microbiome is different.
+**Rhizosphere environment.** Plants exude carbon compounds into the rhizosphere that recruit specific microbial partners. The microbial community responds by modifying the chemical environment around the roots — protonation, chelation, hormone production — in ways that affect plant performance. Two fields with the same plants and same fertilizer can produce different plant phenotypes because the rhizosphere [microbiome](/en/glossary/microbiome) is different.
 
 These mediations are biologically plausible and supported by a growing literature. They are also not fully captured by standard soil tests, which generally measure carbon and nutrient pools rather than microbial function.
 

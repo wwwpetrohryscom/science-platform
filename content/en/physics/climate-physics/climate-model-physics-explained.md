@@ -18,7 +18,7 @@ related:
   - earth-system-models-explained
   - climate-sensitivity-explained
 pillar: atmospheric-physics-explained
-_bodyHash: b709f8a1
+_bodyHash: d67d16ab
 ---
 
 Ask what a climate model is made of and the honest answer has two halves that behave very differently. One half integrates equations that nobody disputes — Navier–Stokes for fluid motion, Clausius–Clapeyron for the vapour a given temperature can hold, conservation of mass and energy as constraints on everything else. IPCC AR6 describes Earth system models exactly this way, as mathematical formulations of natural laws evaluated numerically on three-dimensional discrete grids. The other half is a collection of approximations for every process that happens on a scale smaller than one of those grid cells. The first half is settled physics of the sort set out in the wider account of [atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained). The second is where the disagreements are.
@@ -50,7 +50,7 @@ The bottom two rows are the same physical problem seen from two directions, and 
 
 ## Tuning: the targets are published, and they are not the answers
 
-Every parameterisation contains free parameters. Their acceptable ranges are set by numerical consistency, physical constraints such as energy conservation, and observations of the individual process; within those ranges, developers choose values so that the assembled model reproduces a set of declared **tuning targets**. AR6 groups the targets into three kinds — mean climate, regional phenomena, and historical trends — and reports that for CMIP6 the single most important global target is the net top-of-atmosphere heat flux and its radiative components. Others include the split of top-of-atmosphere fluxes into clear-sky and cloud contributions, global mean air and ocean temperature, sea-ice extent and volume, glacier mass balance, and the root-mean-square error of precipitation. Regional targets can include the Atlantic overturning circulation, Southern Ocean circulation, ocean basin temperature profiles, and Northern Hemisphere stationary waves.
+Every [parameterisation](/en/glossary/parameterisation) contains free parameters. Their acceptable ranges are set by numerical consistency, physical constraints such as energy conservation, and observations of the individual process; within those ranges, developers choose values so that the assembled model reproduces a set of declared **tuning targets**. AR6 groups the targets into three kinds — mean climate, regional phenomena, and historical trends — and reports that for CMIP6 the single most important global target is the net top-of-atmosphere heat flux and its radiative components. Others include the split of top-of-atmosphere fluxes into clear-sky and cloud contributions, global mean air and ocean temperature, sea-ice extent and volume, glacier mass balance, and the root-mean-square error of precipitation. Regional targets can include the Atlantic overturning circulation, Southern Ocean circulation, ocean basin temperature profiles, and Northern Hemisphere stationary waves.
 
 The practice was for a long time poorly documented, and a 2017 review in the *Bulletin of the American Meteorological Society*, [The art and science of climate model tuning](https://journals.ametsoc.org/view/journals/bams/98/3/bams-d-15-00135.1.xml), is what pushed the field towards describing it. CMIP6 groups now publish their tuning at three levels, for the assembled model and for each component.
 
@@ -60,7 +60,7 @@ One consequence of tuning cuts the other way, and AR6 flags it. Earth system mod
 
 ## Ensembles are not one thing
 
-CMIP6 is organised as a required core — the DECK experiments plus a historical simulation from 1850 to the present — surrounded by 21 endorsed model intercomparison projects that groups may join according to their interests. Participation has grown steadily: 11 centres in the first CMIP, 19 in CMIP5, 28 in CMIP6.
+CMIP6 is organised as a required core — the DECK experiments plus a historical simulation covering 1850 to 2014 — surrounded by 21 endorsed model intercomparison projects that groups may join according to their interests. Participation has grown steadily: 11 centres in the first CMIP, 19 in CMIP5, 28 in CMIP6.
 
 Two kinds of ensemble come out of that structure, and they answer different questions. A **multi-model ensemble** runs many different models under the same forcing and samples the consequences of different structural choices. A **single-model initial-condition large ensemble** runs one model in a fixed configuration from many slightly different starting states; because the system is chaotic, the members diverge, and their spread is an estimate of internal variability alone. Some such experiments perturb initial conditions minutely; others start from well-separated ocean states to sample the slower circulation modes.
 

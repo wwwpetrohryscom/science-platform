@@ -19,7 +19,7 @@ related:
   - measurement-uncertainty-explained
   - materials-physics-and-semiconductors
 pillar: atomic-and-nuclear-physics-explained
-_bodyHash: 7881980e
+_bodyHash: 313cb853
 ---
 
 The Standard Model is the most precisely tested theory in science and one of the least complete. Both statements are true at once, and holding them together is the whole difficulty of reading particle physics news.
@@ -54,7 +54,7 @@ On 4 July 2012 the ATLAS and CMS experiments at the Large Hadron Collider each a
 
 Particle physics claims a discovery at five standard deviations — a result whose probability under the background-only hypothesis is about one in 3.5 million. The threshold is unusually strict compared with most sciences, and the reason is structural rather than cultural: an experiment testing an enormous number of mass bins and decay channels will produce apparently significant fluctuations somewhere by chance, so the threshold has to absorb that multiplicity. It is a correction for how many questions were asked, not a statement that the result is 99.99997% certain to be true.
 
-It is also worth being clear about what five sigma does not cover. It quantifies statistical fluctuation. It does not quantify a systematic error in the detector calibration, a mismodelled background, or a wrong theoretical prediction of what the background should be — and those are handled separately, by argument and cross-check rather than by a p-value. This is the same distinction between the two classes of uncertainty that runs through [any careful measurement](/en/physics/mechanics-waves/measurement-uncertainty-explained).
+It is also worth being clear about what [five sigma](/en/glossary/five-sigma) does not cover. It quantifies statistical fluctuation. It does not quantify a systematic error in the detector calibration, a mismodelled background, or a wrong theoretical prediction of what the background should be — and those are handled separately, by argument and cross-check rather than by a p-value. This is the same distinction between the two classes of uncertainty that runs through [any careful measurement](/en/physics/mechanics-waves/measurement-uncertainty-explained).
 
 ## Neutrino mass: physics beyond the Standard Model, already confirmed
 
@@ -68,16 +68,19 @@ This is worth stating plainly because "physics beyond the Standard Model" is usu
 
 CERN's summary of the observational situation is blunt: ordinary matter — everything made of the particles above, every star and galaxy — accounts for about 5% of the content of the universe. Dark matter makes up about 27%, outweighing visible matter roughly six to one, and dark energy approximately 68%.
 
-The evidence for dark matter is gravitational and indirect. Galaxies rotate fast enough that the gravity of their observable matter could not hold them together, and the inference has been reinforced by gravitational lensing and by the structure of the cosmic microwave background. What it is remains unknown: it does not absorb, reflect or emit light, and decades of increasingly sensitive direct-detection experiments have returned null results, steadily excluding parameter space rather than finding a signal.
+The evidence for dark matter is gravitational and indirect. Galaxies rotate fast enough that the gravity of their observable matter could not hold them together, and the same is true of galaxies in clusters. The inference is reinforced from two other directions: a cluster's mass bends the light of galaxies behind it, and measuring that distortion maps where the mass sits; and Planck's map of the cosmic microwave background fixes the ingredients of the universe directly, putting dark matter at 26.8 per cent against 4.9 per cent for normal matter. What it is remains unknown: it does not absorb, reflect or emit light, and the searches for candidate particles have not yet found evidence that would confirm any of them.
 
 Two things follow, and they pull in opposite directions. The Standard Model is not wrong — nothing in the laboratory contradicts it, and the null results are constraints on what the answer can be, not failures of the theory. But it is manifestly incomplete, in the specific sense that the great majority of the universe's energy content lies outside its inventory, alongside the unexplained matter–antimatter asymmetry and the unexplained pattern of three generations with wildly different masses. A theory can be exactly right about everything it describes and still describe a small fraction of what exists.
 
 ## Sources
 
 1. **CERN** — [The Standard Model](https://home.cern/science/physics/standard-model/). The particle inventory, the force carriers, the exclusion of gravity, the 4 July 2012 Higgs observation at around 126 GeV, and the model's stated open questions.
-2. **CERN** — [Dark matter](https://home.cern/science/physics/dark-matter/). The 5% / 27% / 68% split, the six-to-one ratio of dark to visible matter, and the rotation-curve evidence.
-3. **Particle Data Group** — [Review of Particle Physics](https://pdg.lbl.gov/). Evaluated particle properties, coupling constants and their energy dependence.
-4. **Particle Data Group** — [Review of Particle Physics: the Standard Model review](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-standard-model.pdf). Formal treatment of the electroweak sector and the running of the couplings.
-5. **Nobel Foundation** — [The Nobel Prize in Physics 2015](https://www.nobelprize.org/prizes/physics/2015/summary/). Awarded to Takaaki Kajita and Arthur B. McDonald for the discovery of neutrino oscillations, which shows that neutrinos have mass.
-6. **NIST** — [Fundamental physical constants](https://www.nist.gov/pml/fundamental-physical-constants). CODATA values for the particle masses and coupling constants quoted across this subject area.
-7. **CERN** — [The Higgs boson](https://home.cern/science/physics/higgs-boson/). The mass-generation mechanism and the experimental programme that established it.
+2. **CERN** — [How did we discover the Higgs boson?](https://home.cern/science/physics/higgs-boson/how). The five-sigma convention and the roughly one-in-three-and-a-half-million probability it corresponds to.
+3. **CERN** — [Dark matter](https://home.cern/science/physics/dark-matter/). The 5% / 27% / 68% split, the six-to-one ratio of dark to visible matter, and the rotation-curve evidence in galaxies and in clusters.
+4. **NASA** — [Dark matter and dark energy](https://science.nasa.gov/universe/dark-matter-dark-energy/). Gravitational lensing as a way of mapping cluster mass, and the statement that no candidate has yet been confirmed.
+5. **ESA** — [Planck reveals an almost perfect Universe](https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe). Composition derived from the cosmic microwave background: 4.9% normal matter, 26.8% dark matter.
+6. **Particle Data Group** — [Review of Particle Physics](https://pdg.lbl.gov/). Evaluated particle properties, coupling constants and their energy dependence.
+7. **Particle Data Group** — [Review of Particle Physics: the Standard Model review](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-standard-model.pdf). Formal treatment of the electroweak sector and the running of the couplings.
+8. **Nobel Foundation** — [The Nobel Prize in Physics 2015](https://www.nobelprize.org/prizes/physics/2015/summary/). Awarded to Takaaki Kajita and Arthur B. McDonald for the discovery of neutrino oscillations, which shows that neutrinos have mass.
+9. **NIST** — [Fundamental physical constants](https://www.nist.gov/pml/fundamental-physical-constants). CODATA values for the particle masses and coupling constants quoted across this subject area, including the electron magnetic moment anomaly, whose relative standard uncertainty is 1.6×10⁻¹⁰.
+10. **CERN** — [The Higgs boson](https://home.cern/science/physics/higgs-boson/). The mass-generation mechanism and the experimental programme that established it.

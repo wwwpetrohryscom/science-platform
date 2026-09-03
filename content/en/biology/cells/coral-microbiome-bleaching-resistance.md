@@ -40,7 +40,7 @@ Coral surface mucus hosts a dense bacterial community. This community is distinc
 
 It also varies with thermal history. Colonies from sites that have experienced repeated mild heat stress carry distinctive bacterial consortia, enriched in genera implicated in oxidative-stress buffering, antimicrobial production, and other protective functions. Colonies from sites without that history host less specialized communities.
 
-The correlation, by itself, does not establish causation. Experimental work on bacterial consortia and coral-associated microbes suggests that microbiome state can influence stress response in controlled settings, but reported effects vary by coral species, consortium, temperature regime, and study design. The evidence supports caution rather than a single universal effect size.
+The correlation, by itself, does not establish causation. Experimental work on bacterial consortia and coral-associated microbes suggests that [microbiome](/en/glossary/microbiome) state can influence stress response in controlled settings, but reported effects vary by coral species, consortium, temperature regime, and study design. The evidence supports caution rather than a single universal effect size.
 
 This is the second mechanism. Bacterial-mediated buffering does not replace algal symbiosis as the central player; it adds a layer of protective buffering that can be acquired and lost.
 

@@ -20,7 +20,7 @@ _bodyHash: d96258ae
 pillar: earth-system-science-explained
 ---
 
-Living systems are usually introduced into climate discussions as a carbon reservoir, and then treated as though carbon were the whole story. It is not. Vegetation alters the surface energy budget through at least three distinct mechanisms operating simultaneously, and in some places they cancel. Treating the biosphere as a component that acts back on the physical climate, rather than as a stock of carbon, is the move that defines [the coupled-system view of the planet](/en/ecology/earth-systems/earth-system-science-explained). Getting the sign of a land-cover change right requires all three.
+Living systems are usually introduced into climate discussions as a carbon reservoir, and then treated as though carbon were the whole story. It is not. Vegetation alters the surface energy budget through at least three distinct mechanisms operating simultaneously, and in some places they cancel. Treating the [biosphere](/en/glossary/biosphere) as a component that acts back on the physical climate, rather than as a stock of carbon, is the move that defines [the coupled-system view of the planet](/en/ecology/earth-systems/earth-system-science-explained). Getting the sign of a land-cover change right requires all three.
 
 ## Three channels, one surface
 
@@ -34,7 +34,7 @@ The biosphere influences climate through effects conventionally split into two f
 
 ## The case where the channels conflict
 
-Boreal afforestation is the standard illustration and the reason the distinction is not academic. Planting trees at high latitude adds a carbon sink, a cooling effect through the biogeochemical channel. It also replaces a bright, snow-covered surface with a dark canopy that stays dark through winter, a warming effect through the albedo channel. Depending on snow duration and canopy density, the biophysical warming can offset a meaningful share of the biogeochemical cooling.
+Boreal afforestation is the standard illustration and the reason the distinction is not academic. Planting trees at high latitude adds a [carbon sink](/en/glossary/carbon-sink), a cooling effect through the biogeochemical channel. It also replaces a bright, snow-covered surface with a dark canopy that stays dark through winter, a warming effect through the albedo channel. Depending on snow duration and canopy density, the biophysical warming can offset a meaningful share of the biogeochemical cooling.
 
 In the humid tropics the channels align instead: forest is dark but also transpires vigorously and supports convective cloud, so both the carbon and the evaporative channels favour cooling, and clearing forest warms locally as well as globally.
 

@@ -21,7 +21,7 @@ _bodyHash: d8d49c66
 
 Antimicrobial resistance is one of the clearest contemporary examples of [evolution](/en/biology/evolution/evolution-explained) operating on human timescales. The [World Health Organization](https://www.who.int/) treats it as one of the top global public-health threats, the [U.S. Centers for Disease Control and Prevention](https://www.cdc.gov/) tracks resistance threats annually, and the [NIH](https://www.nih.gov/) funds substantial research into mechanisms and counter-strategies.
 
-Beyond the public-health framing, antibiotic resistance is a useful case study for how evolutionary processes actually work — selection, mutation, horizontal gene transfer, and ecological context interacting in a system where the data is unusually rich.
+Beyond the public-health framing, [antibiotic resistance](/en/glossary/antibiotic-resistance) is a useful case study for how evolutionary processes actually work — selection, mutation, horizontal gene transfer, and ecological context interacting in a system where the data is unusually rich.
 
 ## The four canonical mechanisms
 

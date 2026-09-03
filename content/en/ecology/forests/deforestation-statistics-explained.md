@@ -18,15 +18,15 @@ related:
   - forest-carbon-measurement
   - satellite-deforestation-monitoring
 pillar: forest-ecosystems-explained
-_bodyHash: 4375f580
+_bodyHash: 6152c992
 ---
 
 Four figures, all currently published, all describing forest loss:
 
 - **10.9 million hectares a year** — the average deforestation rate for 2015–2025, from FAO's Global Forest Resources Assessment.
 - **4.12 million hectares a year** — the average *net* forest loss over the same decade, from the same assessment.
-- **25.5 million hectares** — global tree cover loss in 2025, from the University of Maryland's satellite record as published by the World Resources Institute.
-- **4.3 million hectares** — tropical primary rainforest loss in 2025, from the same satellite record.
+- **25.5 million hectares** — global tree cover loss in 2025, from the University of Maryland's satellite record as published by the World Resources Institute in its update of 29 April 2026.
+- **4.3 million hectares** — tropical primary rainforest loss in 2025, from the same release.
 
 None of these contradicts any other. They are four different quantities that the English language collapses into one word, and reading them as competing estimates of a single thing is the most common way forest reporting goes wrong.
 
@@ -49,7 +49,7 @@ Consider a clear-felled coupe in a managed conifer landscape. To the country rep
 
 Fire behaves the same way and at greater scale: fires accounted for 42 percent of the 25.5 million hectares of global tree cover loss in 2025, and most burned forest is not converted to another use. The gain side inherits the mirror-image problem — the publisher of the satellite series states directly that tree cover gain does not equate to restoration, because a young plantation and recovering natural woodland look similar from orbit for years.
 
-The causal test differs too. FAO defines deforestation independently of whether it is human-induced, and explicitly includes cases where disturbance or changing environmental conditions push canopy cover permanently below the 10 percent threshold. Under the Kyoto Protocol's accounting rules, by contrast, deforestation is the *direct human-induced* conversion of forested land to non-forested land. A drought-killed stand that never recovers is deforestation in one framework and something else in the other.
+The causal test differs too. FAO defines deforestation independently of whether it is human-induced, and explicitly includes cases where disturbance or changing environmental conditions push [canopy cover](/en/glossary/canopy-cover) permanently below the 10 percent threshold. Under the Kyoto Protocol's accounting rules, by contrast, deforestation is the *direct human-induced* conversion of forested land to non-forested land. A drought-killed stand that never recovers is deforestation in one framework and something else in the other.
 
 ## Neither one is the ground truth
 
@@ -57,7 +57,7 @@ The reflex is to treat the satellite record as fact and country reporting as dip
 
 The country-reported series carries acknowledged weaknesses that FAO states in its own text: 42 of the 236 countries and areas covered were handled as desk studies rather than national submissions, many countries do not collect data on deforestation and forest expansion at all, and the assessment warns that its estimates of forest-area change dynamics should be viewed with caution for that reason. Global aggregates cannot be reproduced by summing published country values, because trend estimates use only complete time series with gap-filling elsewhere.
 
-The satellite series carries a different set. Its primary-forest mask exists only for the humid tropics; for temperate and boreal regions the published indicator substitutes intact forest landscapes larger than 50,000 hectares as a proxy, and its own methodology notes that remote sensing cannot reliably separate primary from managed forest in those biomes because they look alike in the imagery. The record is also periodically reprocessed, so a figure for a given year can change between dataset versions without anything having happened in the world. The [method's original description](https://www.science.org/doi/10.1126/science.1244693) mapped 2.3 million square kilometres of loss and 0.8 million square kilometres of gain for 2000–2012 at 30 metre resolution, and the underlying approach — differencing an image time series, described in more detail in the note on [detecting forest loss from orbit](/en/ecology/earth-observation/satellite-deforestation-monitoring) — has been extended rather than replaced since.
+The satellite series carries a different set. Its primary-forest mask exists only for the humid tropics; for temperate and boreal regions the published indicator substitutes intact forest landscapes larger than 50,000 hectares as a proxy, and its own methodology notes that remote sensing cannot reliably separate primary from managed forest in those biomes because they look alike in the imagery. The record is also [rebuilt annually, and its detection sensitivity has changed](https://gfr.wri.org/data-methods) — Landsat 8 entered the algorithm in 2013 and the method was revised in 2015 — which is why its publisher advises that older and more recent data be compared with caution. The [method's original description](https://www.science.org/doi/10.1126/science.1244693) mapped 2.3 million square kilometres of loss and 0.8 million square kilometres of gain for 2000–2012 at 30 metre resolution, and the underlying approach — differencing an image time series, described in more detail in the note on [detecting forest loss from orbit](/en/ecology/earth-observation/satellite-deforestation-monitoring) — has been extended rather than replaced since.
 
 ## Four questions that settle most headlines
 
@@ -89,3 +89,4 @@ Neither series resolves the largest category of change to standing forest. Selec
 6. **World Resources Institute, Global Forest Review** — [Primary forest loss](https://gfr.wri.org/forest-extent-indicators/primary-forest-loss). Coverage of the primary-forest mask and the intact-forest-landscape proxy used outside the humid tropics.
 7. **Science** — [High-resolution global maps of 21st-century forest cover change](https://www.science.org/doi/10.1126/science.1244693). The 30 m Landsat method and the loss and gain areas it reported for 2000–2012.
 8. **UNFCCC** — [The Marrakesh Accords, land use, land-use change and forestry annex](https://unfccc.int/resource/docs/cop7/13a01.pdf). The direct-human-induced definition of deforestation used in treaty accounting.
+9. **World Resources Institute, Global Forest Review** — [Data and methods](https://gfr.wri.org/data-methods). How the tree cover loss product is built and updated, and the publisher's own caution about comparing older with more recent data.

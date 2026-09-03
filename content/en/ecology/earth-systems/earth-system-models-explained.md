@@ -20,7 +20,7 @@ _bodyHash: 658b6a24
 pillar: earth-system-science-explained
 ---
 
-"Climate model" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer, and it follows directly from [what makes Earth system science a distinct field](/en/ecology/earth-systems/earth-system-science-explained). This article describes the change, the international framework these models are run within, and where the resulting projections are weakest.
+"[Climate model](/en/glossary/climate-model)" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer, and it follows directly from [what makes Earth system science a distinct field](/en/ecology/earth-systems/earth-system-science-explained). This article describes the change, the international framework these models are run within, and where the resulting projections are weakest.
 
 Projection *uncertainty* — how scenario, model structure, and internal variability combine into a range — is treated separately in the existing article on [climate models and projections](/en/ecology/climate-change/climate-models-projections-uncertainty). The subject here is the machinery.
 

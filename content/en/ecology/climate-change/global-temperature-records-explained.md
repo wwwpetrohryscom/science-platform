@@ -20,7 +20,7 @@ pillar: what-is-climate-change
 _bodyHash: de549a3c
 ---
 
-"Global mean surface temperature" is the most familiar indicator of [climate change](/en/ecology/climate-change/what-is-climate-change) and also the one most often misread as a single number from a single dataset. It is not. Several independent groups produce global mean temperature records, each from their own combination of raw observations and their own gridding, infilling, and bias-correction methods. They agree to within stated uncertainties — which is the property that makes the trend robust.
+"[Global mean surface temperature](/en/glossary/global-mean-surface-temperature)" is the most familiar indicator of [climate change](/en/ecology/climate-change/what-is-climate-change) and also the one most often misread as a single number from a single dataset. It is not. Several independent groups produce global mean temperature records, each from their own combination of raw observations and their own gridding, infilling, and bias-correction methods. They agree to within stated uncertainties — which is the property that makes the trend robust.
 
 This piece walks through the major operational products, what they have in common, and what their differences tell you.
 

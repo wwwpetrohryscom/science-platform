@@ -52,7 +52,7 @@ The rate-of-rise indicator is the one most relevant for planning horizons. Wheth
 
 The full sea-level budget partitions GMSL change into three components:
 
-- **Thermal expansion.** As the ocean warms, its volume expands. This is the link between [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) and sea-level rise. Thermal expansion contributed about a third of recent GMSL rise.
+- **Thermal expansion.** As the ocean warms, its volume expands. This is the link between [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) and [sea-level rise](/en/glossary/sea-level-rise). Thermal expansion contributed about a third of recent GMSL rise.
 - **Land-ice melt.** Glaciers and the Greenland and Antarctic ice sheets contribute mass to the ocean as they melt or shed icebergs. This contribution has grown over the satellite record and now dominates the trend.
 - **Land water storage.** Changes in groundwater, lakes, and soil moisture move water between land and ocean. The net signal is smaller than the other two terms but is non-trivial; groundwater depletion contributes a small positive trend.
 

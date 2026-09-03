@@ -33,7 +33,7 @@ The vocabulary is worth fixing early, because the terms encode different claims 
 | Parallelism | The common ancestor lacked the trait but shared the developmental or genetic starting point | Independent origins constrained down similar channels |
 | Convergence | The common ancestor lacked both the trait and the starting point | Independent origins from different material |
 
-The boundary between the middle two is not fixed by nature. Whether two origins count as parallel or convergent depends on how deep the comparison reaches: lineages that look convergent at the level of anatomy may prove to have redeployed the same regulatory gene, which reads as parallelism the moment the genetic basis is known. **Homoplasy** is the neutral umbrella term for any similarity not inherited from a common ancestor, and it is the word to reach for when the mechanism is undetermined.
+The boundary between the middle two is not fixed by nature. Whether two origins count as parallel or convergent depends on how deep the comparison reaches: lineages that look convergent at the level of anatomy may prove to have redeployed the same regulatory gene, which reads as parallelism the moment the genetic basis is known. **[Homoplasy](/en/glossary/homoplasy)** is the neutral umbrella term for any similarity not inherited from a common ancestor, and it is the word to reach for when the mechanism is undetermined.
 
 ## When the repetition reaches the individual residue
 

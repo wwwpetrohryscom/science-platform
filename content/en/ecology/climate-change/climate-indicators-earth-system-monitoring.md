@@ -21,7 +21,7 @@ pillar: what-is-climate-change
 _bodyHash: d4037518
 ---
 
-A climate indicator is a measurement, sustained over time, that tracks one specific dimension of the Earth system. Global mean surface temperature is one. Ocean heat content is another. Greenhouse-gas concentration, sea level, glacier mass balance, Arctic sea-ice extent, and the top-of-atmosphere energy imbalance are all indicators in this sense. Each answers a different question; none answers all of them.
+A [climate indicator](/en/glossary/climate-indicator) is a measurement, sustained over time, that tracks one specific dimension of the Earth system. Global mean surface temperature is one. Ocean heat content is another. Greenhouse-gas concentration, sea level, glacier mass balance, Arctic sea-ice extent, and the top-of-atmosphere energy imbalance are all indicators in this sense. Each answers a different question; none answers all of them.
 
 International assessments treat the indicator framework as the backbone of climate observation. The [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) organizes the physical-science evidence around indicators rather than around any single dataset. The WMO State of the Global Climate bulletin uses a small fixed list of "key climate indicators" each year. NOAA Climate.gov, NASA Global Climate Change, the EPA Climate Change Indicators collection, the European Environment Agency, and the Copernicus Climate Change Service are all organized the same way — every operational source for this cluster is named in the Sources block.
 
