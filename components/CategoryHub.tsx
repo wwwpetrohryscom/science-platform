@@ -50,7 +50,15 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
     )
   ).filter((a): a is NonNullable<typeof a> => Boolean(a));
 
-  const latest = allArticles.slice(0, 6);
+  // Locale-native first. Ranking on date alone filled every
+  // non-English hub with pages that turn out to be English, which made
+  // a hub with one translated article look like a hub with six.
+  const nativeFirst = [
+    ...allArticles.filter((a) => !a.localeFallback),
+    ...allArticles.filter((a) => a.localeFallback),
+  ];
+  const latest = nativeFirst.slice(0, 6);
+  const nativeCount = latest.filter((a) => !a.localeFallback).length;
 
   const sources = listSourcesForTopic(category);
   const faqs = getTopicFaqs(category);
@@ -169,6 +177,18 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
             title={t("category_hub.latest_title", { category: label })}
             subtitle={t("category_hub.latest_subtitle")}
           />
+          {/* Honest about depth. A hub whose list is mostly English
+              fallbacks should say so on the hub, not leave the reader
+              to discover it one click at a time. */}
+          {locale !== DEFAULT_LOCALE && nativeCount < latest.length && (
+            <p className="mt-3 text-sm text-ink-subtle">
+              {t("article.locale_depth_note", {
+                native: nativeCount,
+                total: latest.length,
+                language: localeMeta[locale].nativeName,
+              })}
+            </p>
+          )}
           <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {latest.map((article) => (
               <ArticleCard

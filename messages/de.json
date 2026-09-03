@@ -206,7 +206,9 @@
     "pillar_callout": "Pfeiler-Artikel — {subtopic}",
     "read_pillar": "Den Pfeiler lesen →",
     "related_heading": "Verwandte Texte",
-    "fallback_notice": "Dieser Artikel wurde noch nicht ins Deutsche übersetzt. Die englische Fassung wird unten angezeigt."
+    "fallback_notice": "Dieser Artikel wurde noch nicht ins Deutsche übersetzt. Die englische Fassung wird unten angezeigt.",
+    "in_english": "auf Englisch",
+    "locale_depth_note": "{native} dieser {total} Artikel liegen auf Deutsch vor; die übrigen öffnen sich auf Englisch."
   },
   "insights": {
     "eyebrow": "Analysen",

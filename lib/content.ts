@@ -592,6 +592,24 @@ export async function getPillarForSubtopic(
   return inSubtopic.find((a) => a.type === "pillar") ?? inSubtopic[0];
 }
 
+/**
+ * Related articles, preferring pages that exist in the reader's own
+ * language.
+ *
+ * `getAllArticles(locale)` applies the article-level fallback, so in
+ * French every English article comes back as a French-locale object
+ * with `localeFallback: true`. Ranking on relevance alone therefore
+ * filled the related list with pages that turn out to be English —
+ * which is the opposite of what a translated page should do next.
+ *
+ * The ordering is now relevance *within* the locale first (explicit
+ * related, then same subtopic, then same category), and only then the
+ * same three tiers among pages that would fall back. Nothing is
+ * hidden: a fallback page is still offered when the locale has nothing
+ * better, because an English article the reader can use beats an empty
+ * section. The rule lives here rather than in each locale's rendering,
+ * so there is one place to change it.
+ */
 export async function getRelatedArticles(
   article: Article,
   limit = 3,
@@ -599,22 +617,31 @@ export async function getRelatedArticles(
   const all = await getAllArticles(article.locale);
   const candidates = all.filter((a) => a.slug !== article.slug);
 
-  const explicit = (article.related ?? [])
-    .map((slug) => candidates.find((a) => a.slug === slug))
-    .filter((a): a is Article => Boolean(a));
+  const rank = (pool: Article[]): Article[] => {
+    const explicit = (article.related ?? [])
+      .map((slug) => pool.find((a) => a.slug === slug))
+      .filter((a): a is Article => Boolean(a));
 
-  const sameSubtopic = candidates
-    .filter((a) => a.category === article.category && a.subtopic === article.subtopic)
-    .filter((a) => !explicit.find((e) => e.slug === a.slug))
-    .sort(byTagOverlap(article.tags));
+    const sameSubtopic = pool
+      .filter((a) => a.category === article.category && a.subtopic === article.subtopic)
+      .filter((a) => !explicit.find((e) => e.slug === a.slug))
+      .sort(byTagOverlap(article.tags));
 
-  const sameCategory = candidates
-    .filter((a) => a.category === article.category)
-    .filter((a) => !explicit.find((e) => e.slug === a.slug))
-    .filter((a) => !sameSubtopic.find((s) => s.slug === a.slug))
-    .sort(byTagOverlap(article.tags));
+    const sameCategory = pool
+      .filter((a) => a.category === article.category)
+      .filter((a) => !explicit.find((e) => e.slug === a.slug))
+      .filter((a) => !sameSubtopic.find((s) => s.slug === a.slug))
+      .sort(byTagOverlap(article.tags));
 
-  return [...explicit, ...sameSubtopic, ...sameCategory].slice(0, limit);
+    return [...explicit, ...sameSubtopic, ...sameCategory];
+  };
+
+  const inLocale = rank(candidates.filter((a) => !a.localeFallback));
+  if (inLocale.length >= limit) return inLocale.slice(0, limit);
+
+  const chosen = new Set(inLocale.map((a) => a.slug));
+  const fallback = rank(candidates.filter((a) => a.localeFallback && !chosen.has(a.slug)));
+  return [...inLocale, ...fallback].slice(0, limit);
 }
 
 export async function getSubtopicCounts(

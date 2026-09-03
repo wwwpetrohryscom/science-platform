@@ -196,7 +196,9 @@
     "pillar_callout": "Pillar article — {subtopic}",
     "read_pillar": "Read the pillar →",
     "related_heading": "Related reading",
-    "fallback_notice": "This article has not yet been translated into {language}. The English version is shown below."
+    "fallback_notice": "This article has not yet been translated into {language}. The English version is shown below.",
+    "in_english": "in English",
+    "locale_depth_note": "{native} of these {total} articles are available in {language}; the rest open in English."
   },
   "insights": {
     "eyebrow": "Insights",

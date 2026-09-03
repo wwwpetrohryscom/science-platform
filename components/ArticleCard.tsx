@@ -47,6 +47,12 @@ export function ArticleCard({
         <p className="mt-1 text-xs text-ink-subtle">
           {formatDate(article.updatedDate, locale)} ·{" "}
           {t("article.min_read", { minutes: article.readingTime })}
+          {article.localeFallback && (
+            <>
+              {" · "}
+              <span lang="en">{t("article.in_english")}</span>
+            </>
+          )}
         </p>
       </Link>
     );
@@ -78,6 +84,15 @@ export function ArticleCard({
         <span>{formatDate(article.updatedDate, locale)}</span>
         <span aria-hidden>·</span>
         <span>{t("article.min_read", { minutes: article.readingTime })}</span>
+        {/* Says before the click that this one is not translated yet.
+            Without it the card looks native and the English only
+            appears after the reader has committed to the page. */}
+        {article.localeFallback && (
+          <>
+            <span aria-hidden>·</span>
+            <span lang="en">{t("article.in_english")}</span>
+          </>
+        )}
       </div>
 
       {article.tags.length > 0 && (
