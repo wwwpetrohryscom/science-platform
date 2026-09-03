@@ -20,7 +20,7 @@ _bodyHash: ba471819
 pillar: earth-system-science-explained
 ---
 
-Of all the reservoirs in the [Earth system](/en/glossary/earth-system), the atmosphere's water store is the smallest that anyone cares about and the one that turns over fastest. Both facts follow from the same number, and together they are a compact illustration of how [reservoirs and fluxes organise the whole Earth system](/en/ecology/earth-systems/earth-system-science-explained), and together they explain why the [water cycle](/en/glossary/water-cycle) intensifies under warming in a way that is neither uniform nor proportional.
+Of all the reservoirs in the [Earth system](/en/glossary/earth-system), the [atmosphere](/en/glossary/atmosphere)'s water store is the smallest that anyone cares about and the one that turns over fastest. Both facts follow from the same number, and together they are a compact illustration of how [reservoirs and fluxes organise the whole Earth system](/en/ecology/earth-systems/earth-system-science-explained), and together they explain why the [water cycle](/en/glossary/water-cycle) intensifies under warming in a way that is neither uniform nor proportional.
 
 ## Where the water is
 

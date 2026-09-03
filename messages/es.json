@@ -206,7 +206,7 @@
     "pillar_callout": "Artículo pilar — {subtopic}",
     "read_pillar": "Leer el pilar →",
     "related_heading": "Lecturas relacionadas",
-    "fallback_notice": "Este artículo aún no se ha traducido al {language}. Se muestra la versión en inglés a continuación."
+    "fallback_notice": "Este artículo aún no se ha traducido al español. Se muestra la versión en inglés a continuación."
   },
   "insights": {
     "eyebrow": "Análisis",
@@ -296,6 +296,25 @@
     "citations_one": "Este artículo enlaza una cita externa.",
     "attribution": "Atribuido a la mesa {desk}: una mesa editorial, no una persona.",
     "policy_link": "Cómo se eligen y comprueban las fuentes",
-    "last_updated": "Última actualización"
+    "last_updated": "Última actualización",
+    "source_mix": "Tipos de fuentes citadas: {mix}.",
+    "reviewed_on": "Afirmaciones verificadas de forma independiente frente a sus fuentes el {date}.",
+    "reviewed_detail": "Un segundo lector examinó {claims} afirmaciones centrales. Esto deja constancia de que la comprobación se hizo; no es una puntuación de calidad, ni una revisión por pares, ni un sello.",
+    "not_reviewed": "Esta página aún no ha pasado por una comprobación independiente de afirmación contra fuente. Sus citas se verifican automáticamente, que es una garantía distinta y más débil.",
+    "corrections_link": "Comunicar un error",
+    "concepts_heading": "Conceptos científicos de esta página",
+    "live_data_note": "{count} de las fuentes citadas se actualizan de forma continua. Cuando se cita una cifra tomada de una de ellas, la frase indica la edición o la fecha de consulta."
+  },
+  "evidence_types": {
+    "government": "gubernamental",
+    "intergovernmental": "intergubernamental",
+    "peer-reviewed": "revisado por pares",
+    "systematic-review": "revisión sistemática",
+    "meta-analysis": "metaanálisis",
+    "university": "universitaria",
+    "scientific-dataset": "conjunto de datos",
+    "standards-body": "organismo de normalización",
+    "research-institute": "instituto de investigación",
+    "other": "otra"
   }
 }

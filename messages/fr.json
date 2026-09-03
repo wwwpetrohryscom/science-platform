@@ -206,7 +206,7 @@
     "pillar_callout": "Article pilier — {subtopic}",
     "read_pillar": "Lire le pilier →",
     "related_heading": "Lectures connexes",
-    "fallback_notice": "Cet article n'a pas encore été traduit en {language}. La version anglaise est affichée ci-dessous."
+    "fallback_notice": "Cet article n'a pas encore été traduit en français. La version anglaise est affichée ci-dessous."
   },
   "insights": {
     "eyebrow": "Analyses",
@@ -296,6 +296,25 @@
     "citations_one": "Une référence externe est liée dans cet article.",
     "attribution": "Attribué à la rédaction {desk} — une rédaction, non une personne.",
     "policy_link": "Comment les sources sont choisies et vérifiées",
-    "last_updated": "Dernière mise à jour"
+    "last_updated": "Dernière mise à jour",
+    "source_mix": "Types de sources citées : {mix}.",
+    "reviewed_on": "Affirmations vérifiées indépendamment par rapport à leurs sources le {date}.",
+    "reviewed_detail": "Un second lecteur a examiné {claims} affirmations déterminantes. Cela atteste que la vérification a eu lieu ; ce n'est ni une note de qualité, ni une évaluation par les pairs, ni un label.",
+    "not_reviewed": "Cette page n'a pas encore fait l'objet d'une vérification indépendante affirmation-contre-source. Ses citations sont contrôlées automatiquement, ce qui est une garantie différente et plus faible.",
+    "corrections_link": "Signaler une erreur",
+    "concepts_heading": "Notions scientifiques abordées",
+    "live_data_note": "{count} des sources citées sont mises à jour en continu. Lorsqu'un chiffre en est tiré, la phrase indique l'édition ou la date de consultation."
+  },
+  "evidence_types": {
+    "government": "gouvernemental",
+    "intergovernmental": "intergouvernemental",
+    "peer-reviewed": "à comité de lecture",
+    "systematic-review": "revue systématique",
+    "meta-analysis": "méta-analyse",
+    "university": "universitaire",
+    "scientific-dataset": "jeu de données",
+    "standards-body": "organisme de normalisation",
+    "research-institute": "institut de recherche",
+    "other": "autre"
   }
 }

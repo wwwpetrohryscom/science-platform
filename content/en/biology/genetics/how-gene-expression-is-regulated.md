@@ -19,7 +19,7 @@ pillar: what-is-dna
 _bodyHash: 24f00472
 ---
 
-A liver cell and a neuron in the same body carry essentially identical genomes. They look, behave, and metabolise differently because gene expression — the process by which the information in [DNA](/en/biology/genetics/what-is-dna) becomes functional protein — is regulated. The accepted reference summaries from the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) and the [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) treat gene-expression regulation as a layered system, with decision points at multiple steps between genome and phenotype.
+A liver cell and a neuron in the same body carry essentially identical genomes. They look, behave, and metabolise differently because [gene expression](/en/glossary/gene-expression) — the process by which the information in [DNA](/en/biology/genetics/what-is-dna) becomes functional protein — is regulated. The accepted reference summaries from the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) and the [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) treat gene-expression regulation as a layered system, with decision points at multiple steps between genome and phenotype.
 
 This article walks through the layers, what each contributes, and where current understanding has clear edges.
 
@@ -28,7 +28,7 @@ This article walks through the layers, what each contributes, and where current 
 The flow from DNA to protein passes through several control points:
 
 1. **Chromatin accessibility.** Most of a cell's genome is packaged into chromatin in states that range from accessible to tightly compacted. Only the accessible regions are available to be transcribed. Histone modifications and DNA methylation establish and maintain these states.
-2. **Transcription initiation.** A specific combination of transcription factors must bind regulatory DNA — promoters and enhancers — to recruit RNA polymerase. The combinations differ across cell types and conditions.
+2. **[Transcription](/en/glossary/transcription) initiation.** A specific combination of transcription factors must bind regulatory DNA — promoters and enhancers — to recruit RNA polymerase. The combinations differ across cell types and conditions.
 3. **Transcript processing.** RNA splicing, polyadenylation, and alternative-isoform choice happen co-transcriptionally and produce different mature transcripts from the same gene.
 4. **RNA stability and localization.** Once produced, an mRNA can be stabilized, degraded, or transported to a specific subcellular location. Small RNAs (microRNAs and others) modulate stability and translation efficiency.
 5. **Translation.** Ribosomes translate mature mRNAs at variable rates. Translation efficiency itself is regulated, particularly under stress.

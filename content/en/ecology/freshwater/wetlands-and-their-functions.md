@@ -17,14 +17,14 @@ related:
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
 pillar: freshwater-ecosystems-explained
-_bodyHash: 1a6472f
+_bodyHash: e6ed3d02
 ---
 
 Ask how much of the world's wetland has been destroyed and the answer depends on which study is reached for, and the spread between reputable answers is wide enough to change what a reader would conclude from it. The disagreement is not about drainage records. It is about what counts as a wetland, when the clock starts, and which parts of the world the underlying data came from. Getting that straight is the precondition for reading anything else written about these systems.
 
 ## Three criteria, two of which are inferred
 
-Under the US Clean Water Act, wetlands are "those areas that are inundated or saturated by surface or ground water at a frequency and duration sufficient to support, and that under normal circumstances do support, a prevalence of vegetation typically adapted for life in saturated soil conditions." Field identification rests on three parameters: wetland hydrology, hydric soils, and hydrophytic vegetation.
+Under the US Clean Water Act, wetlands are "those areas that are inundated or saturated by surface or ground water at a frequency and duration sufficient to support, and that under normal circumstances do support, a prevalence of vegetation typically adapted for life in saturated soil conditions." For Section 404 purposes the EPA and the Corps identify wetlands using the 1987 Corps of Engineers Wetlands Delineation Manual and its regional supplements, which organise the characteristics of a potential wetland into three categories: hydrology, soils and vegetation.
 
 Only one of those is a direct observation of water. Hydric soils are a record of past saturation written in colour, mottling and organic accumulation; hydrophytic vegetation is a community that indicates saturation because of what it tolerates. Delineation therefore reads two proxies for a hydrological condition that may be absent on the day of the survey — which is the point, since a system saturated only in spring is still a wetland, but it is also why boundaries are argued over and why a change in indicator criteria can move national wetland area without a spade being lifted.
 
@@ -69,3 +69,4 @@ Comparing survey rounds compounds the problem. Between 2016 and 2021 the biologi
 5. **US EPA** — [National Wetland Condition Assessment 2021 key findings](https://www.epa.gov/national-aquatic-resource-surveys/national-wetlands-condition-assessment-2021-key-findings). Vegetation, non-native plant, physical alteration, nutrient and cyanotoxin results, and the unassessable area.
 6. **US EPA** — [National Wetland Condition Assessment 2016 key findings](https://www.epa.gov/national-aquatic-resource-surveys/national-wetlands-condition-assessment-2016-key-findings). The earlier survey round used for the change comparison.
 7. **US EPA** — [Why are wetlands important?](https://www.epa.gov/wetlands/why-are-wetlands-important). Summary of wetland functions including water quality improvement, flood storage and carbon storage.
+8. **US EPA** — [How wetlands are defined and identified under CWA Section 404](https://www.epa.gov/cwa-404/how-wetlands-are-defined-and-identified-under-cwa-section-404). The 1987 Corps of Engineers Wetlands Delineation Manual and its three categories of wetland characteristics.

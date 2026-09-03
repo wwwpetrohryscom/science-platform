@@ -1,0 +1,282 @@
+{
+  "batchId": "v-biology-taxonomy-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "taxonomy-and-classification-explained",
+      "path": "content/en/biology/taxonomy/taxonomy-and-classification-explained.md",
+      "status": "amended",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "The SeqCode, drafted in 2022 for organisms described from sequence data alone, is similar to the prokaryotic code in name formation and rules of priority, changing only what serves as the type",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9519449/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The SeqCode admits isolate genomes, metagenome-assembled genomes and single-amplified genomes as nomenclatural types, and operates its own registry established in 2022",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9519449/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The ICZN's 2012 amendment allowed electronic-only publication only if the work is registered in ZooBank before it appears, states its date of publication, carries evidence of registration, and names an intended electronic archive and an ISSN or ISBN; name registration stayed optional; optical discs disallowed after 2012",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3433695/",
+          "disposition": "corrected",
+          "note": "Every condition checked out except one, which was attached to the wrong object. The amendment requires the ZooBank REGISTRATION to state the intended archive and the ISSN or ISBN; new Articles 8.5.3.1 and 8.5.3.2 say in terms that 'This information is not required to appear in the work itself.' The sentence made the work carry all five conditions. Rewritten to split the two requirements that fall on the work from the two that fall on the registration entry."
+        },
+        {
+          "claim": "Table row: under the ICN, a preserved specimen serves as the type",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12012794/",
+          "disposition": "qualified",
+          "note": "The cited Madrid commentary states that under the current rules a type can be 'a permanently preserved specimen ..., a culture of an alga or fungus preserved in a metabolically inactive state ..., or an illustration'. The row named only the first of the three, in a table whose whole purpose is to contrast what each code accepts. Row widened to 'a preserved specimen, a culture or an illustration'; the contrast with the SeqCode's genome sequence is unaffected."
+        },
+        {
+          "claim": "The Madrid congress established Article 51.2, under which names published after 1 January 2026 may be rejected as derogatory to a group of people, with decisions taking effect on 27 July 2024",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12012794/",
+          "disposition": "corrected",
+          "note": "Two departures from the text of the new Article. The rule reads 'published on or after 1 January 2026', not 'after' it, and it reaches only 'a legitimate name of a new taxon or a replacement name' — the source spells out that illegitimate names, new combinations and names at new rank are not eligible. The article's phrasing was both a day out and materially broader than the rule. Narrowed to the wording of Article 51.2. The 27 July 2024 effective date is correct: all but three of the Madrid rules took effect that day, those three starting 1 January 2026."
+        },
+        {
+          "claim": "A set of epithets rooted in a racial slur was replaced by a new stem, producing names such as Erythrina afra; that proposal carried by 351 votes to 205",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12012794/",
+          "disposition": "qualified",
+          "note": "The vote is real and correctly reported — 351 yes, 205 no, 63% against a 60% threshold — but it belongs to the Smith and Figueiredo epithet-replacement proposal, and the source reports no vote count for the Article 51.2 mechanism at all. 'That proposal' sat two clauses after the Article 51.2 sentence and could be read as the vote on the derogatory-names rule. Changed to 'That epithet proposal' so the count cannot migrate to the wrong decision."
+        },
+        {
+          "claim": "The congress rejected both proposals to allow DNA sequences to serve as types and referred the question to a special-purpose committee reporting in 2029; registration for algal and plant names is voluntary and retrospective, against mandatory fungal registration since 1 January 2013",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12012794/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Genome Taxonomy Database normalised ranks by relative evolutionary divergence from a concatenated protein phylogeny; 58 per cent of the 94,759 genomes had their existing taxonomy changed, the Candidate Phyla Radiation collapsed into one phylum, and 99 phyla were recognised",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/30148503/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The second version of the Mammal Diversity Database, published in 2025, curates 50,230 valid and synonymous species-rank names against 6,759 accepted living and recently extinct species, roughly seven names per accepted one",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Catalogue of Life publishes numbered, dated releases with totals broken down by kingdom; the most recent at the time of writing was issued on 26 August 2026",
+          "sourceChecked": "https://www.catalogueoflife.org/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NCBI Taxonomy describes itself as a curated classification and nomenclature for the organisms in the public sequence databases, representing about 10 per cent of described species",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/taxonomy",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2020 NCBI Taxonomy update reported more than 460,000 formal species names, close to a quarter of described species, and over 1.34 million species-ranked entries with no formal name; the same paper says no database is error-free or complete and the primary literature remains necessary",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7408187/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Open Tree of Life assembled a draft with 2.3 million tips, filling gaps with classification where no phylogeny exists",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4611642/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The two NCBI figures in the same section contradict each other and the article does not say so. The Taxonomy landing page says the database covers 'about 10% of the described species of life on the planet'; the 2020 Database (Oxford) paper says its 460,000-plus formal species names 'account for nearly a quarter of total described species of all organisms'. Both are quoted accurately from their own sources, and the article attributes each correctly, but they sit two sentences apart and a careful reader will notice. My reading is that the landing-page blurb predates the 2020 paper and has not been revised, but I could not confirm that, so I did not touch either sentence. An editor may want a half-clause acknowledging the gap.",
+        "The Catalogue of Life release is a continuously updating product. COL26.8 XR, issued 2026-08-26, was the current release when I checked, so the article's 'at the time of writing' anchor is right today and will silently go stale at the next release. It needs a recheck rather than a rewrite.",
+        "The article dates mandatory fungal registration to '1 January 2013'. The cited Madrid commentary says only 'since 2013' and never names the day. The year is supported and the day is standard from the Melbourne Code, but the added precision does not come from the source given for it, so I left it and am recording it here rather than citing a code edition I did not open."
+      ]
+    },
+    {
+      "slug": "what-is-a-species",
+      "path": "content/en/biology/taxonomy/what-is-a-species.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "At least 25 per cent of plant species and 10 per cent of animal species are involved in hybridisation and potential introgression, mostly among younger lineages, and groups in nature are frequently incompletely isolated for millions of years after diverging",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/16701374/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Across roughly 90,000 prokaryotic genomes, 99.8 per cent of eight billion pairwise comparisons fell either above 95 per cent ANI or below 83 per cent, with a sparse intermediate zone",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6269478/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In the greenish warbler complex, genome-wide analysis found historical breaks in gene flow at more than one point around the ring, occasional interbreeding between the two Siberian forms, and an extensive hybrid zone in the western Himalayas; the authors read this as casting doubt on speciation by distance while confirming a continuum from slightly divergent neighbours to near-complete reproductive isolation",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/24870239/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The unified account defines a species as a separately evolving metapopulation lineage and demotes reproductive isolation, diagnosability, monophyly and ecological distinctness to operational criteria — lines of evidence of lineage separation",
+          "sourceChecked": "https://academic.oup.com/sysbio/article/56/6/879/1653163",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Simulation work modelling divergence as an extended process showed the multispecies coalescent diagnoses genetic structure rather than species boundaries, cannot statistically distinguish population isolation from a species boundary, inflates counts, and yields a hypothesis requiring validation from phenotypic and ecological evidence",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5320999/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The second release of the Mammal Diversity Database recognised 6,759 living and recently extinct species, 24.8 per cent more than the 2005 compendium and 68.8 per cent more than the 1980 totals — a net gain of 2,754, from 3,149 splits and new descriptions against 395 lumps, at roughly 65 per year",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "83.4 per cent of available names coined since 2000 were published as species rather than subspecies, against 36.1 per cent between 1950 and 1999",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Version 2024-1 of the IUCN Red List recognised 5,983 mammal species, 5,799 shared with the database and 184 treated there as synonyms; 25.5 per cent of accepted mammals are Data Deficient or never evaluated",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Most of that growth is reclassification, not discovery, which is the pattern named taxonomic inflation two decades ago",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/16701308/",
+          "disposition": "qualified",
+          "note": "Isaac, Mallet and Mace (2004) do say rising species numbers are 'due mostly to taxonomic inflation ... rather than to new discoveries', so the general claim has a source. But the sentence attached it to 'that growth' — the Mammal Diversity Database figures in the preceding two sentences — and that dataset does not support it. MDD2 records 774 species split since MSW3 against a net increase of 1,343 and 226 lumps, which leaves splits and entirely new descriptions at roughly half each, and its authors write that 'despite controversy over whether this shift constitutes taxonomic inflation ... the recent changes to mammal taxonomy have been bidirectional'. The article was reporting a 2004 diagnosis as the finding of a 2025 dataset whose compilers decline it. Rewritten to present the inflation account as a contested attribution and to give the database's own bidirectional numbers."
+        }
+      ],
+      "openQuestions": [
+        "MDD2 does not publish a straight splits-versus-new-descriptions breakdown for the period since MSW3. I derived 'roughly half each' from three figures it does give — 774 species split since MSW3, 226 lumps, and a net increase of 1,343 — and from its own 'about 1 lump for every 6 newly recognized species from 2004 to 2024 (considering both de novo and split names)'. The replacement sentence therefore says 'a comparable volume' rather than a number, and the 774 and 226 are quoted directly. Worth a specialist's eye on whether 'species split' in that sentence counts parent taxa or resulting species, which would move the ratio.",
+        "The paragraph beginning 'This reframing explains an otherwise odd feature of taxonomic practice: working taxonomists rarely invoke a concept by name' carries no citation. It reads as a fair inference from de Queiroz 2007, which is cited immediately before it, but the empirical claim about what working taxonomists actually do is the article's own and a reader cannot follow it to a source."
+      ]
+    },
+    {
+      "slug": "phylogenetics-explained",
+      "path": "content/en/biology/taxonomy/phylogenetics-explained.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "The number of distinct unrooted binary trees for n tips is (2n-5)!!; ten tips give 2,027,025, twenty about 2.2 x 10^20, fifty roughly 2.8 x 10^74",
+          "sourceChecked": "no source cited; verified by computing the double factorial (2n-5)!! for n = 10, 20, 50",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Non-phylogenetic signal is structured noise arising when data violate the model's assumptions and competing with genuine signal; a saturated alignment is one where multiple substitutions make apparent distances underestimate real ones, and inference works best when saturation is mild",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3057953/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Model selection that also accounts for rate variation across sites measurably improves accuracy over choosing a substitution model by convention",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5453245/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "When two lineages have accumulated much more change than their neighbours they tend to group together regardless of true relationships, and an outgroup is a natural source of a long branch",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3057953/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Correcting an alignment in which mitochondrial sequences of one sponge group had been used to represent two others dropped bootstrap support for sponge monophyly from 100 per cent to 36 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3057953/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same work reduced missing data from 55 to 35 per cent of the matrix and retained 14,112 unambiguously aligned positions",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3057953/",
+          "disposition": "qualified",
+          "note": "Both numbers are in the paper but they belong to two different reanalyses, and the phrase 'the matrix' merged them into one. The 14,112 unambiguously aligned positions and the sponge-monophyly collapse are the revised Schierwater et al. dataset; the reduction of missing data from 55 to 35 per cent is the separate reanalysis of the Dunn et al. alignment, which recovered a different branching order for sponges and ctenophores. Split into two clauses that name them as two datasets."
+        },
+        {
+          "claim": "For any species tree with five or more taxa there exist branch lengths for which the most probable gene tree differs from the species tree, so taking the most frequent gene tree converges on the wrong topology as loci accumulate",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1464820/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "With conflicting genealogical histories throughout the genome, resolving close relationships is not simply a matter of adding data",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/19307040/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Bootstrapping was introduced to phylogenetics in 1985 as a procedure that keeps all the taxa and resamples the characters with replacement",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28561359/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The second-generation ultrafast bootstrap runs about 778 times faster than standard bootstrapping in median tests while reducing overestimation of support caused by polytomies and severe model violation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5850222/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The gene concordance factor is the percentage of decisive gene trees containing a branch and the site concordance factor the percentage of decisive sites supporting it; a branch with 100 per cent bootstrap support and a gene concordance factor near a third is common",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7475031/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An analysis using a large molecular dataset and four fossil calibration strategies found that ambiguity of ancient fossils and clock violations impose a limit on achievable precision; the authors placed crown Metazoa in the Cryogenian but judged narrative reconstructions built on such dates premature",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4651906/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "'It is not the probability that the group is real' is the article's own gloss on bootstrap support, and it is the standard modern reading, but it is not what the cited 1985 paper says. Felsenstein presents the bootstrap as placing confidence intervals on phylogenies and writes that 'if a group shows up 95% of the time or more, the evidence for it is taken to be statistically significant'. The article's sentence is a correction of that framing rather than a report of it, and it is attached to the 1985 citation. Nothing here is wrong, but the citation is carrying a claim the source does not make.",
+        "The tree-count figures have no source attached anywhere in the article. They are arithmetic and I confirmed all three by computing (2n-5)!!, so they are not unsupported in the way an uncited empirical claim would be — but they are the one set of numbers in this article a reader cannot follow to anything."
+      ]
+    },
+    {
+      "slug": "the-tree-of-life-and-domains",
+      "path": "content/en/biology/taxonomy/the-tree-of-life-and-domains.md",
+      "status": "clean",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "In 1977 a comparison of ribosomal RNA reported that living systems represent one of three aboriginal lines of descent: the eubacteria, the archaebacteria (then known mainly through methanogens) and the urkaryotes, represented by the cytoplasmic component of eukaryotic cells",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC432104/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Differences between the sequences of two organisms give a direct quantitative measure of evolutionary distance, and comparing ribosomal RNA is what made the three-domain classification visible",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK26866/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 1990 proposal introduced a new rank, the domain, above kingdom, naming three: Bacteria, Archaea and Eucarya",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC54159/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Sediment cored about 15 km from Loki's Castle on the Arctic Mid-Ocean Ridge at 3,283 m below sea level yielded Lokiarchaeota, which formed a monophyletic group with eukaryotes and carried an expanded repertoire of eukaryotic signature proteins suggestive of membrane remodelling",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4444528/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An enlarged genomic sample placed eukaryotes as a well-nested clade within Asgard archaea, sister to a newly proposed order, the Hodarchaeales, within Heimdallarchaeia",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10307638/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cultivation took a twelve-year study, from a bioreactor pre-enrichment of sediment collected at 2,533 m in the Nankai Trough to seven years of in-vitro enrichment; strain MK-D1 is a coccus about 550 nm across degrading amino acids in syntrophy, with a 30-60 day lag phase and a 14-25 day doubling time",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7015854/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The cell has no visible organelle-like structure; the authors state roughly two billion years separate it from the organism that evolved into the last eukaryotic common ancestor; and it was published as 'Candidatus' with the reasons for that status explained separately",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7015854/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Evidence points clearly to an alpha-proteobacterial ancestry for mitochondria and a cyanobacterial progenitor for the plastid whose host was already a fully-fledged eukaryote; how often plastids were later transferred between eukaryotic lineages is vigorously debated and the identity of the mitochondrial host remains open",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/26439354/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Horizontal gene transfer is the sharing of genetic material between organisms not in a parent-offspring relationship and a recognised mechanism of adaptation in bacteria and archaea, also occurring between prokaryotes and eukaryotes and between multicellular eukaryotes",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/26184597/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A divergence-time analysis of pre-LUCA gene duplicates calibrated with microbial fossils and isotope records infers LUCA at around 4.2 billion years ago (4.09-4.33), with a genome of at least 2.5 megabases encoding roughly 2,600 proteins, prokaryote-grade and part of an established ecological system",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383801/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Two sentences in this article make claims about the state of a field with no citation of their own. 'Phylogenomic analyses using larger gene sets increasingly failed to reproduce that, placing eukaryotic core genes inside the archaeal domain instead' opens the two-domain section and is sourced only by the Loki and Asgard papers that follow, neither of which is a survey of that literature. 'Vertical inheritance still dominates for the core translational machinery' is standard and is consistent with the NCBI Bookshelf chapter cited earlier, but that chapter is not cited at that sentence. Neither is wrong; both are the kind of field-level generalisation that a reader cannot follow back.",
+        "The LUCA age is presented with its interval, which is right, but the cited paper also reports a wider composite estimate of 3.94-4.52 Ga into which the 4.09-4.33 range falls. The article gives the narrower figure only. That is the abstract's headline number so it is defensible, but a reader would take the uncertainty to be smaller than the paper's own sensitivity analysis allows."
+      ]
+    }
+  ]
+}

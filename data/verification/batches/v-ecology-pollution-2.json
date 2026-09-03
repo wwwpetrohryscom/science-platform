@@ -1,0 +1,225 @@
+{
+  "batchId": "v-ecology-pollution-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "persistent-organic-pollutants",
+      "path": "content/en/ecology/pollution/persistent-organic-pollutants.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "Annex D screening thresholds: half-life greater than two months in water or six months in soil or six months in sediment; BCF or BAF in aquatic species greater than 5,000 or, absent that, log Kow greater than 5; for a chemical moving mainly through the atmosphere a half-life in air greater than two days; adverse effects shown by evidence of harm or by toxicity data indicating potential for it",
+          "sourceChecked": "https://chm.pops.int/TheConvention/Overview/TextoftheConvention/tabid/2232/Default.aspx (Annex D read in the official UNEP-POPS-COP-CONVTEXT-2025.English.pdf linked from that page, cross-read against Canada's reproduction of Annex D at canada.ca)",
+          "disposition": "verified",
+          "note": "Every threshold in the article's table matches the treaty text word for word, including the direction of each 'or'. The landing page itself carries no Annex D text, so the numbers were read from the convention PDF it links; the PDF's embedded fonts dropped a few runs on extraction, so paragraph (b)(ii), (c) and (e) were confirmed a second time against the Government of Canada reproduction of Annex D."
+        },
+        {
+          "claim": "Persistence can also be established by evidence that a chemical is 'otherwise sufficiently persistent to justify its consideration' within the scope of the Convention",
+          "sourceChecked": "https://chm.pops.int/TheConvention/Overview/TextoftheConvention/tabid/2232/Default.aspx (Annex D paragraph 1(b)(ii))",
+          "disposition": "verified",
+          "note": "The quoted escape clause is real and is Annex D 1(b)(ii): 'Evidence that the chemical is otherwise sufficiently persistent to justify its consideration within the scope of this Convention.' The tail of that sentence survived extraction from the official PDF; the opening words were confirmed separately rather than assumed from the article."
+        },
+        {
+          "claim": "EPA, drawing on a 1997 Arctic Monitoring and Assessment Programme report, describes caribou in Canada's Northwest Territories carrying up to ten times the PCB concentration of the lichen they grazed, and wolves feeding on those caribou carrying nearly sixty times the lichen level",
+          "sourceChecked": "https://www.epa.gov/international-cooperation/persistent-organic-pollutants-global-issue-global-response",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA reports a decline of more than 85 per cent in total dioxin and furan releases from known US industrial sources after 1987, the combined result of regulation and industry action",
+          "sourceChecked": "https://www.epa.gov/international-cooperation/persistent-organic-pollutants-global-issue-global-response",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO puts more than 90 per cent of human dioxin exposure in food — mainly meat and dairy, fish and shellfish — and estimates a half-life of 7 to 11 years for dioxins in the body",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/dioxins-and-their-effects-on-human-health",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Stockholm listings: PFOS in Annex B in 2009, PFOA in Annex A in 2019, PFHxS in 2022, and long-chain perfluorocarboxylic acids in 2025 alongside medium-chain chlorinated paraffins and chlorpyrifos",
+          "sourceChecked": "https://www.pops.int/TheConvention/ThePOPs/TheNewPOPs/tabid/2511/Default.aspx",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA's 2024 drinking-water regulation: MCLGs of zero for PFOA and PFOS, enforceable limits of 4.0 ppt, 10 ppt each for PFHxS, PFNA and HFPO-DA, a hazard index of 1 for mixtures, initial monitoring by 2027 and treatment by 2029; in May 2026 the agency proposed keeping the PFOA and PFOS limits while allowing systems to request until 2031, and separately proposed rescinding the regulations for the other four",
+          "sourceChecked": "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2022 AMAP-associated assessment finds correlations between POP trends in freshwater and marine biota and physical variables including oscillation indices, sea-ice cover, temperature and precipitation with mechanisms poorly understood; diet and trophic-level shifts in some seabirds and polar bears; and that including climate variables produced small deviations in some declining series but generally did not reverse trend direction, with effects more pronounced in recent years",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/36196982/ — read as the full abstract via Europe PMC REST (EXT_ID:36196982, doi 10.1039/d2em00134a)",
+          "disposition": "verified",
+          "note": "PubMed served only a cookie-consent page to the fetcher, so the abstract was read through Europe PMC instead. Every element of the article's account is in that abstract, including the framing of contaminant time series as the instrument for judging regulatory effectiveness 'based on the assumption of a direct reflection of changes in primary emissions', and the correlational language is preserved rather than upgraded to cause."
+        }
+      ],
+      "openQuestions": [
+        "Only the abstract of the Environmental Science: Processes & Impacts assessment was read (via Europe PMC); the full text is behind the RSC paywall. Everything the article attributes to it is present in the abstract, but the claim that its findings are 'a reason to read Arctic contaminant series alongside cryosphere indicators' is the article's own inference, not a statement of the paper's."
+      ]
+    },
+    {
+      "slug": "microplastics-evidence-and-uncertainty",
+      "path": "content/en/ecology/pollution/microplastics-evidence-and-uncertainty.md",
+      "status": "clean",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "NOAA describes microplastics as plastic pieces smaller than five millimetres and distinguishes fragments from the breakdown of larger debris from particles manufactured small, such as the microbeads that appeared in cleansers and toothpastes around half a century ago",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/microplastics.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA notes that researchers are still working towards methods that would allow global comparison of released quantities",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/microplastics.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2023 study pooling 11,777 sampling stations from 1979 to 2019 estimated the standing stock of small floating plastics in the ocean surface layer at 82 to 358 trillion particles weighing 1.1 to 4.9 million tonnes, and found no detectable trend before 1990, a fluctuating but flat period to about 2005, and a rapid rise since",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281596 (article page, plus the same abstract via Europe PMC)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2018 Environmental Toxicology and Chemistry systematic review found fragments and fibres dominate field samples with beads a small minority, that measured environmental concentrations sit orders of magnitude below laboratory effect concentrations for biochemistry, feeding, reproduction, growth, tissue inflammation and mortality, and that the evidence is weak for microplastics acting as a vector for hydrophobic organic compounds",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/30328173/ — read as the full abstract via Europe PMC REST (EXT_ID:30328173, doi 10.1002/etc.4268)",
+          "disposition": "verified",
+          "note": "PubMed itself returned only a cookie notice to the fetcher, so the abstract was read through Europe PMC. Worth recording that the review's own bottom line is stronger than the article's — it says 'the available data therefore suggest that these materials are not causing harm to the environment', where the article says only that current evidence does not support population-level ecological harm. The article hedges downward from its source rather than upward, which is the safe direction, so nothing was changed."
+        },
+        {
+          "claim": "WHO in 2019 concluded microplastics in drinking water do not appear to pose a health risk at current levels while calling the evidence limited; particles above 150 micrometres are unlikely to be absorbed; uptake of smaller particles is expected to be limited but poorly quantified; wastewater treatment can remove upwards of 90 per cent of particles",
+          "sourceChecked": "https://www.who.int/news/item/22-08-2019-who-calls-for-more-research-into-microplastics-and-a-crackdown-on-plastic-pollution",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EEA reports an estimated annual human intake of between 70,000 and over 120,000 particles, mostly inhaled rather than eaten, and states in the same passage that exposure through drinking water in Europe is assumed to be low and that there is not enough evidence to be sure",
+          "sourceChecked": "https://www.eea.europa.eu/en/topics/in-depth/plastics",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The EU zero-pollution action plan targets a 30 per cent reduction in microplastics released to the environment and a halving of plastic litter at sea",
+          "sourceChecked": "https://www.eea.europa.eu/en/topics/in-depth/plastics",
+          "disposition": "verified",
+          "note": "Both percentages are exactly as the EEA states them. The EEA page gives no target year for these two figures, so no date was added — the zero-pollution plan's 2030 horizon is stated on the EEA noise page but not on the plastics page that this sentence cites, and the brief forbids taking a date from anywhere but the source."
+        }
+      ],
+      "openQuestions": [
+        "The review of analytical approaches for microplastics in wastewater (PMID 32717602) was read via its Europe PMC abstract only; the Science of the Total Environment full text is paywalled. The abstract does carry the specific conclusion the article draws from it — that the lack of standard analytical methods limits both accuracy of assessment and comparison between studies.",
+        "The sentence naming four things that 'would move the argument' (reference materials, agreed reporting units, environmentally realistic effects experiments, sub-micrometre measurement) is the article's own synthesis. Three of the four map onto gaps the 2018 review states explicitly; the reporting-units point does not appear in any cited source."
+      ]
+    },
+    {
+      "slug": "heavy-metals-in-the-environment",
+      "path": "content/en/ecology/pollution/heavy-metals-in-the-environment.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "WHO draws the line explicitly: inorganic arsenic compounds, the kind dissolved in groundwater, are highly toxic, while the organic arsenic that dominates in fish and shellfish is far less harmful — and a portion of seafood can contain more total arsenic than a glass of water that would be considered dangerous to drink",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/arsenic",
+          "disposition": "verified",
+          "note": "The toxicity distinction is verbatim WHO: 'Inorganic arsenic compounds (such as those found in water) are highly toxic while organic arsenic compounds (such as those found in seafood) are less harmful to health.' The opening per-portion arithmetic is not stated by any cited source; it is a true arithmetic consequence of a 10 ug/L water guideline against seafood total arsenic, and it is hedged ('can contain'), so it was left as written — but see openQuestions, because it is the one sentence in this article no source states."
+        },
+        {
+          "claim": "WHO guideline value of 10 micrograms per litre, labelled provisional; an estimated 140 million people in at least 70 countries drink water above it; statistical modelling putting the exposed population between 94 and 220 million; Argentina, Bangladesh, Cambodia, Chile, China, India, Mexico, Pakistan, the United States and Vietnam among the significantly affected",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/arsenic",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The clearest documented health effects come from regions where concentrations exceed 50 to 100 ug/L, and characteristic skin lesions typically appear only after roughly five years of exposure",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/arsenic",
+          "disposition": "verified",
+          "note": "WHO's wording is 'there is some evidence of adverse effects' above 50-100 ug/L, and only that there 'may be some adverse effects' between 10 and 50 ug/L. The article's 'clearest documented' is a relative comparison between those two bands rather than an upgrade of WHO's certainty, so it stands. On latency WHO says 'a minimum exposure of approximately five years', which the article renders as 'only after roughly five years' — the same constraint."
+        },
+        {
+          "claim": "A two-gene cluster, hgcA and hgcB, is required for methylation in the bacteria where it has been tested, deleting either gene abolishes it, and orthologues are present in confirmed methylating bacteria and archaea and absent in non-methylators",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1230667 — read as the full abstract via Europe PMC REST (doi 10.1126/science.1230667, Parks et al. 2013)",
+          "disposition": "verified",
+          "note": "The publisher page is not readable by a scripted client, so the abstract was read through Europe PMC. It supports every element, including the two test organisms (Desulfovibrio desulfuricans ND132 and Geobacter sulfurreducens PCA) that justify the article's careful 'in the bacteria where it has been tested', and the anaerobic-bacteria attribution. The article's gloss that this makes methylation 'a discrete microbial trait rather than a general property of sediment' is its own inference from the orthologue result, not a sentence of the paper's."
+        },
+        {
+          "claim": "USGS puts methylmercury concentrations in predatory fish at typically more than a million times the concentration in the water those fish live in",
+          "sourceChecked": "https://www.usgs.gov/water-science-school/science/mercury-contamination-aquatic-environments",
+          "disposition": "verified",
+          "note": "Verified against the page's own text, retrieved by curl. WebFetch failed on this host with a certificate-chain error, not a 404 — the page is live and returns 200, and reads 'Methylmercury levels in predatory fish are typically more than one million times higher than methylmercury levels in water that the fish inhabit.'"
+        },
+        {
+          "claim": "WHO reports between 1.5 and 17 children per thousand showing cognitive effects attributed to mercury in fish among subsistence fishing populations; Minamata adopted 2013; a 2023 amendment prohibits manufacture, import or export of certain mercury-added products after 2025; WHO target of 90 per cent of countries implementing dental amalgam phase-down measures by 2030",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/mercury-and-health",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO states no level of lead exposure is known to be without harmful effects and that blood lead as low as 3.5 ug/dL may be associated with decreased intelligence in children; more than 3.5 million deaths globally attributed to lead in 2023, chiefly cardiovascular, with more than 71.5 million years lost to disability; children absorb up to four to five times as much lead as adults from an ingested dose; as of January 2024, 48 per cent of countries had legally binding controls on lead paint",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA describes 3.5 ug/dL as the reference value meaning a child has more lead in their blood than most children — a statistical marker, explicitly not a safety threshold",
+          "sourceChecked": "https://www.epa.gov/lead/learn-about-lead",
+          "disposition": "verified",
+          "note": "The statistical definition is verbatim on the page ('means your child has more lead in their blood than most children'). The 'explicitly not a safety threshold' half is carried by a separate sentence on the same page — 'there is no safe level of lead in children that has been identified' — rather than by an explicit disclaimer attached to the reference value itself, which is where CDC states it. Both halves are on the cited page, so the sentence stands as written."
+        }
+      ],
+      "openQuestions": [
+        "No cited source gives a total-arsenic concentration for seafood, so the opening comparison between a seafood portion and a glass of drinking water is arithmetically sound and consistent with WHO's inorganic/organic distinction but is not a statement any source makes. Left in place because it is hedged and because the substantive claim it introduces is fully sourced in the following sentence; an editor may prefer to attach a concentration figure to it.",
+        "The WHO cadmium page confirms target organs, carcinogen classification, food as the main general-population route, higher accumulation in molluscs and crustaceans than in vegetables, cereals and starchy roots, tobacco smoke, and long-distance atmospheric transfer. It does not address bioavailable versus total soil cadmium; that distinction is the article's own argument, presented as such."
+      ]
+    },
+    {
+      "slug": "noise-and-light-pollution-ecology",
+      "path": "content/en/ecology/pollution/noise-and-light-pollution-ecology.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "The European Environment Agency reports about 92 million people exposed to harmful day-evening-night road traffic noise, more than a fifth of Europeans exposed to unhealthy long-term levels, at least 17 million highly annoyed and 4.6 million highly sleep-disturbed, with long-term transport noise estimated to cause around 66,000 premature deaths and 50,000 new cardiovascular disease cases each year",
+          "sourceChecked": "https://www.eea.europa.eu/en/topics/in-depth/noise",
+          "disposition": "qualified",
+          "note": "Live dataset, added temporal qualifier. Every figure matches the EEA page exactly, but the page introduces the whole set with 'The latest estimates show that:' — these are revised each END reporting round, and the article presented them as fixed facts with no anchor. Changed to 'on the European Environment Agency's latest estimates, which are revised as member states report under the directive'. That the figures do move is not hypothetical: the EEA's own Environmental noise in Europe 2025 report, drawn from the 2022 reporting round, keeps 92 million and 4.6 million but gives 16.9 million annoyed and cites 73,000 premature deaths, against the topic page's 17 million and 66,000. No specific year was inserted, because the topic page does not date these numbers and attaching them to the 2025 report would assert a provenance I could not confirm."
+        },
+        {
+          "claim": "Against a 2017 baseline, the EU zero-pollution ambition sets 2030 as the date by which people chronically disturbed by transport noise should fall by 30 per cent",
+          "sourceChecked": "https://www.eea.europa.eu/en/topics/in-depth/noise",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO's 2019 guidelines for the European Region recommend exposure levels for road traffic, railway, aircraft, wind turbine and leisure noise on health grounds; the EU Environmental Noise Directive obliges member states to produce strategic noise maps and action plans using harmonised indicators",
+          "sourceChecked": "https://www.who.int/europe/publications/i/item/9789289053563 and https://www.eea.europa.eu/en/topics/in-depth/noise",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Analysis of 51,351 naked-eye star-visibility observations collected by citizen scientists between 2011 and 2022 found the number of visible stars falling at a rate consistent with sky brightness increasing 7 to 10 per cent a year in the human visible band, faster than satellite observations of emissions indicate, with the discrepancy ascribed to spectral change and to the average angle of light emission",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.abq7781 — read as the full abstract via Europe PMC REST (doi 10.1126/science.abq7781)",
+          "disposition": "verified",
+          "note": "science.org returned HTTP 403 to the fetcher, so the abstract was read through Europe PMC. The article's phrasing tracks it unusually closely: the paper says the star count 'decreased by an amount that can be explained by an increase in sky brightness of 7 to 10% per year in the human visible band', and the article keeps that inferential structure rather than reporting a measured brightening."
+        },
+        {
+          "claim": "A systematic review of research published between 1990 and 2013 found terrestrial wildlife responses begin at approximately 40 dBA, with 20 per cent of the papers documenting impacts below 50 dBA, and roughly two-thirds of the dataset covering songbirds and marine mammals, concentrated on European and North American species that rely on vocal communication",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/26118691/ — read as the full abstract via Europe PMC REST (EXT_ID:26118691, doi 10.1111/brv.12207)",
+          "disposition": "verified",
+          "note": "PubMed served the fetcher a cookie notice only, so the abstract was read through Europe PMC. All four elements — the 1990-2013 window, 40 dBA onset, 20 per cent below 50 dBA, and approximately two-thirds songbirds and marine mammals — are in it verbatim."
+        },
+        {
+          "claim": "A phylogenetically controlled meta-analysis covering amphibians, arthropods, birds, fish, mammals, molluscs and reptiles found phylogeny contributed only a little to variation in response, so effects are not concentrated in a handful of unusually sensitive lineages",
+          "sourceChecked": "https://royalsocietypublishing.org/doi/10.1098/rsbl.2019.0649 — read as the full abstract via Europe PMC REST (doi 10.1098/rsbl.2019.0649)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2021 review frames ocean soundscape change as a shift in three components at once: anthrophony risen with shipping, resource exploration and construction; biophony fallen with hunting, fishing and habitat degradation; geophony altered by climate change — and a study of male bearded seals found call amplitude rising with ambient noise up to a threshold beyond which source levels stopped increasing",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.aba4658 and https://royalsocietypublishing.org/doi/10.1098/rspb.2020.2712 — both read as full abstracts via Europe PMC REST",
+          "disposition": "verified",
+          "note": "Both publisher pages block scripted clients; both abstracts were read through Europe PMC. The seal result is stated by the paper as an observed behavioural threshold, and the article reports it as such without extending it to a population outcome."
+        },
+        {
+          "claim": "The 2016 world atlas of artificial night sky brightness found more than 80 per cent of the world's population and more than 99 per cent of US and European populations living under light-polluted skies; the Milky Way hidden from more than a third of humanity including 60 per cent of Europeans and nearly 80 per cent of North Americans; and 23 per cent of the world's land surface between 75 degrees N and 60 degrees S experiencing light-polluted nights, rising to 88 per cent of Europe",
+          "sourceChecked": "https://www.science.org/doi/10.1126/sciadv.1600377 — read as the full abstract via Europe PMC REST (doi 10.1126/sciadv.1600377)",
+          "disposition": "verified",
+          "note": "science.org blocks the fetcher; the abstract was read through Europe PMC. One wording difference is worth recording rather than changing: the paper says 'more than 80% of the world', where the article says 'more than 80 per cent of the world's population'. The paper's sentence governs both clauses with 'populations', and the figure is universally reported as a population share, so the article's reading is the correct one."
+        }
+      ],
+      "openQuestions": [
+        "The claim that artificial light at night has 'no directive, no mapping obligation' at EU level is a statement of regulatory absence that no cited source asserts. It is accurate as far as I can establish, but it cannot be positively verified from a source, and it is doing real work in the article's closing argument.",
+        "The EEA topic page and the EEA's own 2025 noise report disagree on two of the figures quoted (16.9 vs 17 million highly annoyed; 73,000 vs 66,000 premature deaths, and the report's figure appears to span more outcomes). The article follows the page it cites, which is correct, but an editor may want to move the citation to the dated report so the numbers carry a reporting round.",
+        "The 2016 atlas is a 2016 product describing a rapidly changing quantity, and the 2023 citizen-science paper in the same article reports 7-10 per cent annual brightening since 2011. The article does date the atlas, so nothing was changed, but the two figures sit a decade apart and a reader could take the exposure shares as current."
+      ]
+    }
+  ]
+}

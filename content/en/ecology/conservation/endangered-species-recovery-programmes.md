@@ -17,7 +17,7 @@ related:
   - rewilding-evidence-and-limits
   - conservation-trade-offs-and-prioritisation
 pillar: conservation-science-explained
-_bodyHash: 1f98e611
+_bodyHash: 46b4a0a1
 ---
 
 A release is an event; a recovery is a trajectory. Almost every unresolved question in this field lives in the distance between the two, and most of the numbers that circulate about reintroduction describe the event rather than the trajectory.
@@ -34,7 +34,7 @@ Two cautions attach to that 75 per cent. It is a rate across published projects,
 
 ## The genetic problem that release alone does not solve
 
-Small isolated populations lose heterozygosity and accumulate the effects of mating among relatives, a process covered from first principles in [genetic drift and population size](/en/biology/evolution/genetic-drift-and-population-size). Adding animals to such a population from a related source — genetic rescue — is one of the few interventions in conservation with a quantitative meta-analytic answer.
+Small isolated populations lose heterozygosity and accumulate the effects of mating among relatives, a process covered from first principles in [genetic drift and population size](/en/biology/evolution/genetic-drift-and-population-size). Adding animals to such a population from a related source — [genetic rescue](/en/glossary/genetic-rescue) — is one of the few interventions in conservation with a quantitative meta-analytic answer.
 
 That meta-analysis screened 156 cases judged to carry a low risk of outbreeding depression and found beneficial effects in 92.9 per cent of them. The median gain in composite fitness, combining fecundity and survival, was 148 per cent in stressful environments and 45 per cent in benign ones. At the time it was written, only around 20 conservation outcrossings had been published, which the author treated as a small fraction of the populations that might benefit.
 
@@ -50,7 +50,7 @@ The trade-off showed up in the same pedigree. Captive-born individuals with five
 
 The clearest global estimate of what conservation has averted comes from expert elicitation rather than measurement, and the authors present it that way. Assessors concluded that action prevented 21 to 32 bird and 7 to 16 mammal extinctions between 1993 and 2020, and 9 to 18 bird and 2 to 7 mammal extinctions since 2010. Over the same period 10 bird and 5 mammal species were lost or are strongly suspected to have been. On those figures extinction rates would have been 2.9 to 4.2 times greater without intervention. The bounds are wide because the counterfactual is unobservable; the ranges are the finding, not a defect in it.
 
-Individual cases show the same conditional shape. The US Fish and Wildlife Service records that only 23 California condors survived worldwide in 1982 and that the total free-flying and captive population has since been grown to more than 500 — while also stating that lead poisoning from ammunition fragments remains the number one known cause of death. The black-footed ferret was presumed extinct across its range by the late 1950s and rediscovered near Meeteetse, Wyoming, in 1981; the agency identifies sylvatic plague as the most significant challenge to population resiliency, and reports the largest reintroduced population, at Shirley Basin, averaging about 100 breeding adults in 2012.
+Individual cases show the same conditional shape. The US Fish and Wildlife Service records that only 23 California condors survived worldwide in 1982 and that the total free-flying and captive population has since been grown to more than 500 — a figure the agency's species page carries with no census date attached, so it reads as a floor rather than a current count — while also stating that lead poisoning from ammunition fragments remains the number one known cause of death. The black-footed ferret was presumed extinct across its range by the late 1950s and rediscovered near Meeteetse, Wyoming, in 1981; the agency identifies sylvatic plague as the most significant challenge to population resiliency, and reports the largest reintroduced population, at Shirley Basin, averaging about 100 breeding adults in 2012.
 
 Neither species is self-sustaining in the sense that a recovered population would be. Both are held above the extinction threshold by a continuing programme, which is a real outcome and a different one from restoration. The [Red List category](/en/ecology/biodiversity/red-list-index-explained) a species carries does not encode that dependence, which is part of why a separate recovery standard was developed alongside it.
 

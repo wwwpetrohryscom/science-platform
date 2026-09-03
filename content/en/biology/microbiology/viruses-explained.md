@@ -29,7 +29,7 @@ Viruses appear in the biosphere's mass budget at about 0.2 gigatonnes of carbon,
 
 Host ribosomes read one thing: positive-sense single-stranded messenger RNA. A virus whose genome is already in that form can begin translation immediately; a virus whose genome is anything else must first perform a conversion, and the enzyme required for that conversion generally has to be encoded by the virus itself, because host cells have no reason to possess it.
 
-Sorting viruses by that conversion step produces the seven-class scheme that has organised the field since the early 1970s. Classification of viruses proceeds on morphology, chemical composition and mode of replication, and it is the third of these that carries most of the predictive weight.
+Sorting viruses by that conversion step produces the classification David Baltimore set out in 1971. His paper delineated six classes; a seventh was added subsequently, and the seven together have framed virology across the five decades since. Classification of viruses proceeds on morphology, chemical composition and mode of replication, and it is the third of these that carries most of the predictive weight.
 
 | Class | Genome | Route to mRNA | Example group |
 | --- | --- | --- | --- |
@@ -41,7 +41,7 @@ Sorting viruses by that conversion step produces the seven-class scheme that has
 | VI | positive-sense ssRNA with reverse transcription | reverse-transcribed to DNA, integrated, then transcribed | retroviruses |
 | VII | double-stranded DNA with reverse transcription | transcribed, then the genome is rebuilt by reverse transcription | hepadnaviruses |
 
-The scheme earns its place because membership predicts things that matter. Classes V and VI must package a polymerase in the particle, because the first step after entry cannot wait for protein synthesis. Class VI viruses integrate into host chromosomes, which is why the infections they cause are difficult to clear. And the RNA classes, lacking proofreading, mutate orders of magnitude faster than the DNA classes — a difference taken up below.
+The scheme earns its place because membership predicts things that matter. Classes V and VI must package a polymerase in the particle, because the first step after entry cannot wait for protein synthesis. Class VI viruses integrate into host chromosomes, which is why the infections they cause are difficult to clear. And most RNA classes, whose polymerases lack proofreading, mutate orders of magnitude faster than the DNA classes — a difference taken up below.
 
 ## Size, and where the category breaks
 
@@ -67,13 +67,13 @@ The consequence for chemistry is that lysis diverts carbon and nutrients away fr
 
 Measured mutation rates cluster by genome chemistry rather than by host or disease. A survey of published estimates puts DNA viruses at 10⁻⁸ to 10⁻⁶ substitutions per nucleotide per cell infection and RNA viruses at 10⁻⁶ to 10⁻⁴ — a difference of roughly two orders of magnitude, driven largely by the absence of proofreading in most viral RNA polymerases.
 
-At the upper end, a large fraction of progeny genomes differ from their template in every replication cycle. The population inside a single infected host is therefore not a clone but a **quasispecies**: a cloud of closely related but genetically distinct genomes evolving together under mutation and selection. In one documented clinical case, 26 mutations accumulated over three years, corresponding to about 2.7 × 10⁻³ substitutions per site per year.
+At the upper end, a large fraction of progeny genomes differ from their template in every replication cycle. The population inside a single infected host is therefore not a clone but a **quasispecies**: a cloud of closely related but genetically distinct genomes evolving together under mutation and selection. In one documented clinical case, 26 mutations accumulated in a hepatitis B virus population over three years, corresponding to about 2.7 × 10⁻³ substitutions per site per year.
 
 Two practical consequences follow, and both are well supported. First, variants resistant to a given antiviral typically pre-exist in the population before treatment starts, which is the argument for combination therapy — a principle articulated for highly variable RNA viruses in the late 1980s and repeatedly borne out since. Second, vaccine composition for rapidly evolving viruses has to be revisited on a schedule, because the antigens that [an adaptive immune response](/en/biology/physiology/the-immune-system-explained) has learned to recognise are themselves drifting: the World Health Organization convenes twice a year to recommend influenza vaccine composition, in February for the northern hemisphere season and in September for the southern.
 
 ## What the counts do and do not cover
 
-The International Committee on Taxonomy of Viruses maintains the formal classification, and its most recent published ratification round placed the taxonomy at 16,213 species distributed across 3,768 genera, 368 families, 93 orders and 7 realms. Those totals rise with every annual release, which is a measure of sequencing and curation effort rather than of viral diversity appearing.
+The International Committee on Taxonomy of Viruses maintains the formal classification, and its 2025 ratification round — release 40 of the Master Species List — placed the taxonomy at 16,213 species distributed across 3,768 genera, 368 families, 93 orders and 7 realms. Those totals rise with every annual release, which is a measure of sequencing and curation effort rather than of viral diversity appearing.
 
 Formal taxonomy lags metagenomics badly here, and by design: a named species requires enough evidence to place it, whereas environmental sequencing turns up viral genome fragments faster than committees can evaluate them, most of them with no known host and no cultured representative. The same cultivation gap that limits bacterial and archaeal microbiology limits virology more severely, because a virus cannot be cultured without first culturing something for it to infect — a constraint discussed in the page on [methods and what they select for](/en/biology/microbiology/culturing-and-sequencing-microbes). Any statement about the total number of virus types on Earth is currently an extrapolation, and the honest version of it carries an order-of-magnitude uncertainty rather than a figure.
 
@@ -87,3 +87,4 @@ Formal taxonomy lags metagenomics badly here, and by design: a named species req
 6. **Science — Philippe and colleagues (2013)** — [Pandoraviruses: amoeba viruses with genomes up to 2.5 Mb reaching that of parasitic eukaryotes](https://pubmed.ncbi.nlm.nih.gov/23869018/). Giant-virus particle size and genome size.
 7. **Pathogens (2026)** — [Understanding basic concepts of viral quasispecies: from evolutionary dynamics to clinical relevance](https://pmc.ncbi.nlm.nih.gov/articles/PMC13516255/). Definition of a quasispecies, the pre-existence of resistant variants, and the combination-therapy argument.
 8. **World Health Organization** — [Recommendations for influenza vaccine composition](https://www.who.int/teams/global-influenza-programme/vaccines/who-recommendations). The twice-yearly northern and southern hemisphere recommendation cycle.
+9. **Microbiology and Molecular Biology Reviews — Koonin and colleagues (2021)** — [The Baltimore classification of viruses 50 years later: how does it stand in the light of virus evolution?](https://pmc.ncbi.nlm.nih.gov/articles/PMC8483701/). The September 1971 origin of the scheme, its original six classes, and the subsequently added seventh.

@@ -23,7 +23,7 @@ The [IUCN Red List](https://www.iucnredlist.org/) sorts species into categories 
 
 ## From categories to a trend
 
-Each species evaluated for the Red List is placed in one of several categories. In rising order of concern these run from Least Concern through Near Threatened, Vulnerable, Endangered, and Critically Endangered, then Extinct in the Wild and Extinct. A separate label, Data Deficient, applies to species for which there is not yet enough information to judge. The three middle categories — Vulnerable, Endangered, and Critically Endangered — are grouped together as "threatened."
+Each species evaluated for the Red List is placed in one of several categories. In rising order of concern these run from Least Concern through Near Threatened, Vulnerable, Endangered, and Critically Endangered, then Extinct in the Wild and Extinct. A separate label, [Data Deficient](/en/glossary/data-deficient), applies to species for which there is not yet enough information to judge. The three middle categories — Vulnerable, Endangered, and Critically Endangered — are grouped together as "threatened."
 
 A category captures status at one moment. To follow how a group of species fares over years, the assessments need to be combined into something that moves. That is the role of the [Red List Index](/en/glossary/red-list-index), which aggregates the categories of all species in a defined group into a single value that can be tracked across successive assessment rounds.
 

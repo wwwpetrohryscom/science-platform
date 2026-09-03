@@ -48,6 +48,16 @@ The next generation of discovery models trains on a clean substrate. The pattern
 
 Negative results become first-class. Most negative results are never published; the ones that are, are buried in supplementary materials. A structured extraction surface that captured them would substantially improve the field's collective understanding of what does not work.
 
+## The strongest case against this
+
+The clearest counter-example is protein structure prediction, and it cuts directly against the argument above. The Protein Data Bank was already a standardised, curated, machine-readable substrate; decades of it. What changed in 2020 was not the record but the model. AlphaFold's authors report accuracy competitive with experimental structures in a majority of cases, and — the part that matters for this argument — it was scored blind by CASP, an assessment the predictors do not run. So there is at least one domain where the substrate was ready, the bottleneck was capability, and capability is what moved.
+
+Two weaker versions of the same objection are also worth stating. Data curation has been argued for since long before machine learning, and the argument has not moved funding much; something about it may simply not work as a proposal. And if models keep getting better at reading unstructured methods sections, then extracting the record later gets cheaper than extracting it now, which makes today's curation spending premature rather than undervalued.
+
+What none of these establish is the general case. The protein example shows what happens when a field *already has* the substrate — which is the argument's own claim, arrived at from the other direction. The FAIR principles were published in 2016 and are widely endorsed and unevenly implemented, which is closer to the situation in most fields than the Protein Data Bank is. And the premature-curation objection assumes extraction quality is the binding constraint; provenance and the willingness of labs to record negative results are not things a better parser supplies.
+
+The honest position is that the two claims are not symmetric. "Capability was the bottleneck for protein structures" is established. "Capability is the bottleneck in general" is not, and neither is its opposite.
+
 ## Why this is undervalued
 
 The investment case for substrate work is unglamorous, which is exactly why it is undervalued. There is no headline-friendly demo of a more searchable methods database. There is no grand challenge prize for normalizing instrument metadata.
@@ -63,5 +73,6 @@ The bet is that someone will. The bet is that, looking back from a decade hence,
 1. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Public biomedical and life-science reference infrastructure.
 2. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature index and metadata infrastructure.
 3. **NIST** — [National Institute of Standards and Technology](https://www.nist.gov/). Measurement standards and scientific infrastructure context.
-4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed literature on scientific data, AI, and reproducibility.
-5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed literature on scientific infrastructure and research reproducibility.
+4. **Wilkinson and colleagues, *Scientific Data*, 2016 (PubMed Central)** — [The FAIR Guiding Principles for scientific data management and stewardship](https://pmc.ncbi.nlm.nih.gov/articles/PMC4792175/). The reference statement of what a machine-readable research record has to satisfy.
+5. **Jumper and colleagues, *Nature*, 2021 (PubMed Central)** — [Highly accurate protein structure prediction with AlphaFold](https://pmc.ncbi.nlm.nih.gov/articles/PMC8371605/). The counter-example discussed below.
+6. **Protein Structure Prediction Center** — [CASP14](https://predictioncenter.org/casp14/). The blind assessment that scored it; cited because independent assessment is what distinguishes this case from a vendor claim.

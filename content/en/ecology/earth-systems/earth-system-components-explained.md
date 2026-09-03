@@ -29,13 +29,13 @@ Each component is best characterised not by what it is made of but by how fast i
 
 The atmosphere is a thin, well-mixed gas envelope — nitrogen at roughly 78 per cent by volume and oxygen at about 21 per cent, with the trace gases that do almost all of the radiative work making up the remainder. It mixes globally in weeks to a year or two and has very little heat capacity, which makes it the fastest and noisiest part of the system. That is why atmospheric measurements respond first to any perturbation and why they are also the hardest to read for a trend.
 
-The hydrosphere is dominated by the ocean. USGS figures put about 96.5 per cent of the planet's water in the oceans, out of a total of roughly 1,386 million cubic kilometres. Its response times fan out enormously: the surface mixed layer adjusts in months to years, the deep ocean over centuries, and a full circuit of the deep overturning takes on the order of a thousand years by NOAA's estimate. Because water has a large heat capacity, this component absorbs most of the energy the system takes up.
+The [hydrosphere](/en/glossary/hydrosphere) is dominated by the ocean. USGS figures put about 96.5 per cent of the planet's water in the oceans, out of a total of roughly 1,386 million cubic kilometres. Its response times fan out enormously: the surface mixed layer adjusts in months to years, the deep ocean over centuries, and a full circuit of the deep overturning takes on the order of a thousand years by NOAA's estimate. Because water has a large heat capacity, this component absorbs most of the energy the system takes up.
 
 The cryosphere — the frozen part — is the component that changes phase, and NSIDC groups it into snow on the ground, lake and river ice, frozen ground and permafrost, glaciers and ice sheets, ice shelves and icebergs, and sea ice. Sea ice responds seasonally; ice sheets respond over millennia. That gap of six orders of magnitude within one "component" is the strongest argument that the five-way division is coarse.
 
 The biosphere is the only component that is not defined by a material or a phase but by a process. It responds over days for plankton blooms, seasons for leaf area, and centuries for forest carbon stocks, and it is unusual in that it actively regulates fluxes rather than passively transmitting them.
 
-The lithosphere, or geosphere, supplies the slowest processes — weathering, volcanism, and the long carbon cycle. NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
+The [lithosphere](/en/glossary/lithosphere), or geosphere, supplies the slowest processes — weathering, volcanism, and the long carbon cycle. NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
 
 ## Where the boundaries fail
 
@@ -63,7 +63,7 @@ And it maps onto **reservoir accounting**: the [biogeochemical cycles](/en/ecolo
 
 Treat it as a labelling scheme for reservoirs and interfaces, not as a claim about where nature has joints. Two habits help.
 
-First, when a claim is made about "the Earth system", ask which component holds the quantity in question. Energy accumulating in the ocean and energy warming the atmosphere are the same surplus with very different observable signatures — a point developed in the existing article on [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators).
+First, when a claim is made about "the [Earth system](/en/glossary/earth-system)", ask which component holds the quantity in question. Energy accumulating in the ocean and energy warming the atmosphere are the same surplus with very different observable signatures — a point developed in the existing article on [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators).
 
 Second, when a process spans components, expect the interesting physics to be at the interface rather than inside either side. Evaporation, gas exchange, and albedo are all interface phenomena, and all three are among the harder things to measure and to model.
 

@@ -1,0 +1,255 @@
+{
+  "batchId": "v-ecology-pollution-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "environmental-pollution-explained",
+      "path": "content/en/ecology/pollution/environmental-pollution-explained.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "EPA defines a stressor as \"any physical, chemical, or biological entity that can induce an adverse effect in humans or ecosystems\" and risk as \"the chance of harmful effects to human health or to ecological systems resulting from exposure to an environmental stressor\"",
+          "sourceChecked": "https://www.epa.gov/risk/about-risk-assessment",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Human health risk assessment proceeds in four steps: hazard identification, dose-response assessment, exposure assessment, risk characterisation",
+          "sourceChecked": "https://www.epa.gov/risk/conducting-human-health-risk-assessment",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA describes the threshold hypothesis as holding \"that a range of exposures from zero to some finite value can be tolerated by the organism with essentially no response\"",
+          "sourceChecked": "https://www.epa.gov/risk/conducting-human-health-risk-assessment",
+          "disposition": "corrected",
+          "note": "Misquotation inside quotation marks. EPA's wording is \"...can be tolerated by the organism with essentially no chance of expression of the toxic effect\". The article's \"with essentially no response\" is a paraphrase presented as a verbatim quote, and it is also weaker: EPA's phrase is specific to expression of the toxic effect, not to any response at all. Restored EPA's exact wording."
+        },
+        {
+          "claim": "EPA's stated default: \"if 'mode of action' information is insufficient, then linear extrapolation is typically used as the default approach for dose-response assessment\"",
+          "sourceChecked": "https://www.epa.gov/risk/conducting-human-health-risk-assessment",
+          "disposition": "verified"
+        },
+        {
+          "claim": "IRIS defines the reference dose as \"an estimate (with uncertainty spanning perhaps an order of magnitude) of a daily oral exposure to the human population (including sensitive subgroups) that is likely to be without an appreciable risk of deleterious effects during a lifetime\"; inhalation unit risk expresses added lifetime cancer risk from breathing 1 ug/m3",
+          "sourceChecked": "https://www.epa.gov/iris/basic-information-about-integrated-risk-information-system",
+          "disposition": "verified"
+        },
+        {
+          "claim": "MCLG is \"the maximum level of a contaminant in drinking water at which no known or anticipated adverse effect on the health of persons would occur, allowing an adequate margin of safety\", is unenforceable, considers \"only public health and not the limits of detection and treatment technology effectiveness\", is set at zero for carcinogens with no safe dose, and the enforceable MCL is set \"as close to the MCLG as feasible\" taking cost into consideration",
+          "sourceChecked": "https://www.epa.gov/sdwa/how-epa-regulates-drinking-water-contaminants",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Under TSCA section 6(h) five chemicals were designated PBT and made subject to final rules issued in January 2021, with revisions to two of them in November 2024",
+          "sourceChecked": "https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/persistent-bioaccumulative-and-toxic-pbt-chemicals",
+          "disposition": "corrected",
+          "note": "Five chemicals and the January 2021 final rules are correct. The revision month is not what the cited page says: EPA states twice that \"In October 2024, EPA issued a final rule amending the rules for decabromodiphenyl (decaBDE) and phenol, isopropylated phosphate (3:1) PIP (3:1)\". November 19, 2024 is the Federal Register publication date of that rule, not the date the source gives for the action. Changed to October 2024 to match the cited source."
+        },
+        {
+          "claim": "WHO's 2021 guideline level for annual fine particulate matter is 5 ug/m3",
+          "sourceChecked": "https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The EU's binding annual limit value for PM2.5, in force since 2015, is 25 ug/m3",
+          "sourceChecked": "https://environment.ec.europa.eu/topics/air/air-quality/eu-air-quality-standards_en and https://environment.ec.europa.eu/news/new-pollution-rules-come-effect-cleaner-air-2030-2024-12-10_en",
+          "disposition": "qualified",
+          "note": "The number and date are correct on the cited Commission table (PM2.5 25 ug/m3, limit value by 2015). But the passage uses that figure to characterise the EU's standing attainability judgement, and the cited table has not been updated: it contains no reference to the recast directive. The Commission's own news page states the revised Ambient Air Quality Directive \"entered into force on Tuesday (10 Dec)\" 2024 and \"cuts the allowed annual limit value for the main air pollutant - fine particulate matter (PM2.5) - by more than half\", with the standards applying by 2030. Presenting 25 ug/m3 as the settled EU position leaves a reader with a false picture of a static gap that is in fact legislated to close. Added the revision, using only wording the Commission page supports (no numeric 2030 value, which that page does not give), and cited it as source 10."
+        }
+      ],
+      "openQuestions": [
+        "EUR-Lex returned an empty body to scripted clients for Directive (EU) 2024/2881 in both its ELI and OJ forms, so the 2030 numeric limit values were not read at source. The added sentence therefore says only 'by more than half', which is what the European Commission news page states in its own words.",
+        "The article's characterisation of the persistence/bioaccumulation/toxicity screen as interacting along the pathway is the author's synthesis rather than a quotation from the TSCA page; the page supports the designations and the dates, not that framing."
+      ]
+    },
+    {
+      "slug": "air-quality-measurement-and-standards",
+      "path": "content/en/ecology/pollution/air-quality-measurement-and-standards.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "NAAQS table: CO 9 ppm 8-hour not to be exceeded more than once per year; NO2 100 ppb 1-hour 98th percentile of daily maxima averaged over 3 years; ozone 0.070 ppm 8-hour annual fourth-highest daily maximum averaged over 3 years; PM2.5 9.0 ug/m3 annual mean over 3 years and 35 ug/m3 24-hour 98th percentile; PM10 150 ug/m3; SO2 75 ppb 1-hour 99th percentile; lead 0.15 ug/m3 rolling 3-month",
+          "sourceChecked": "https://www.epa.gov/criteria-air-pollutants/naaqs-table",
+          "disposition": "verified"
+        },
+        {
+          "claim": "EPA states air sensors \"will not meet the stringent requirements for air quality instruments used for regulatory purposes\"; performance targets and testing protocols published for ozone and PM2.5 and supplemented three years later; written for non-regulatory supplemental and informational monitoring",
+          "sourceChecked": "https://www.epa.gov/air-sensor-toolbox/air-sensor-performance-targets-and-testing-protocols",
+          "disposition": "verified",
+          "note": "Quotation exact. 'Supplemented three years later' checks out: the O3 and PM2.5 reports are February 2021, the PM10/NO2/CO/SO2 supplements February 2024. NSIM is the page's own term."
+        },
+        {
+          "claim": "AQI construction: truncate, bracket by breakpoints, interpolate, round; categories Good 0-50 through Hazardous above 300; worked example of 8-hour ozone 0.078 ppm giving 126, still 126 with ozone responsible when a PM2.5 value and CO 8.4 ppm are added; NowCast uses about 8 hours for ozone and 12 for particles when air is stable and about 3 hours for particles when it is changing; it is not valid to compute an AQI from hourly data",
+          "sourceChecked": "https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf (PDF text extracted locally with pypdf; 22 pages)",
+          "disposition": "verified",
+          "note": "Every element confirmed against the document text, including the worked example (0.078 ppm ozone, 35.9 ug/m3 PM2.5, 8.4 ppm CO -> AQI 126, ozone responsible) and the NowCast figure (ozone ~8 h / PM ~12 h stable; ozone ~1 h / PM ~3 h real-time). The document's term for values over 500 is \"Beyond the AQI\", not \"beyond the index\"; the article had the latter inside quotation marks, and that word was changed."
+        },
+        {
+          "claim": "Annual PM2.5 standard tightened to 9.0 ug/m3 in February 2024; Good/Moderate AQI boundary moved from 12.0 to 9.0 ug/m3, upper breakpoints also lowered; EPA noted many areas could expect more days in the Moderate category; previous breakpoints stood since 2012",
+          "sourceChecked": "https://www.epa.gov/system/files/documents/2024-02/pm-naaqs-air-quality-index-fact-sheet.pdf (PDF text extracted locally with pypdf)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Because the index is anchored to short-term standards, a place with a chronically elevated annual mean but no sharp episodes can report Good on most days",
+          "sourceChecked": "https://www.epa.gov/system/files/documents/2024-02/pm-naaqs-air-quality-index-fact-sheet.pdf",
+          "disposition": "qualified",
+          "note": "The stated reason contradicts the same article two paragraphs earlier and the source behind it. The 2024 fact sheet is explicit that the Good/Moderate fine-particle breakpoint was moved to 9.0 specifically \"to reflect the updated annual standard\" - so for PM2.5 the bottom of the index is now anchored to an annual standard, not a short-term one. The point the paragraph is making survives without the false premise, so the causal clause was replaced with what is true and sourced: the index is reported day by day and a day's value carries no information about the annual mean, and the 2024 revision narrowed the gap."
+        },
+        {
+          "claim": "WHO 2021 guideline levels: PM2.5 5 annual and 15 over 24 hours; PM10 15 and 45; NO2 10 annual. EU binding annual limit values in force from 2015 and 2010: PM2.5 25 ug/m3 and NO2 40 ug/m3; ozone target value 120 ug/m3 as a daily 8-hour maximum permitting 25 exceedance days averaged over 3 years",
+          "sourceChecked": "https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants and https://environment.ec.europa.eu/topics/air/air-quality/eu-air-quality-standards_en",
+          "disposition": "qualified",
+          "note": "Every figure is exactly as published on both pages. The qualification is the same one recorded for the pillar article: the Commission table does not mention the recast directive, and presenting these as the EU's current position without it misleads. Added one sentence, sourced to the Commission's own news page, that the recast directive entered into force in December 2024, cuts the annual fine-particle limit by more than half from 2030, and gives Member States two years to transpose."
+        },
+        {
+          "claim": "EEA for 2024: almost no urban population above the EU limit values for PM2.5 or NO2, while 95.1% were above the WHO fine-particle guideline level and 81.0% above its NO2 guideline",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/indicators/exceedance-of-air-quality-standards",
+          "disposition": "verified",
+          "note": "Read the indicator's own text, not a summary: \"Almost no urban population was exposed to concentrations above the annual limit values for PM2.5 and NO2 ... in 2024\"; \"95.1% in 2024\" for PM2.5 against the WHO annual level; \"81.0% above the guideline level for NO2\". Year anchor present and correct; data received by 17 March 2026."
+        },
+        {
+          "claim": "Between 1980 and 2024 US national air quality trend statistics fell 87% for CO, 95% for 1-hour SO2, 69% for annual NO2, 29% for 8-hour ozone (only 7% since 2010), while NOx and VOC emissions fell 75% and 61%",
+          "sourceChecked": "https://www.epa.gov/air-trends/air-quality-national-summary",
+          "disposition": "verified",
+          "note": "All seven figures match the 1980-2024 column exactly, and the 7% is the 2010-2024 ozone figure. This is an annually-updated product; the article already carries the period, so no temporal qualifier was needed."
+        },
+        {
+          "claim": "In a San Joaquin Valley community study more than 90% of tested low-cost monitors agreed closely with each other; correction factors barely shifted the distribution; wireless transmission alone would have lost more than half the record while onboard memory cards raised the success rate above 80%",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12339596/",
+          "disposition": "qualified",
+          "note": "Three of the four elements are exact (no meaningful difference after co-location factors, K-S statistic ~0.007; \"we would have missed more than half of the total desired amount of time-series data\", mean 56%; 82% with SD-card backup). But \"agreed closely with each other\" overstates what the 91% figure measures: 91% of monitors reached R2 above 0.99 against the monitor mean, which is correlation, while only 58% had slopes between 0.9 and 1.1. Precision and agreement in magnitude are not the same claim. Rewritten to state both numbers. The paper is also specifically about PurpleAir units, and the bibliography had given it a re-worded title; the real title was restored."
+        }
+      ],
+      "openQuestions": [
+        "The claim that regulatory measurements come from federal reference or equivalent methods under a testing regulation specifying measurement principle, interference levels and collocation performance has no source in the article's list (it is 40 CFR Part 53). It is uncontroversial regulatory background and was left alone, but it is unsourced."
+      ]
+    },
+    {
+      "slug": "particulate-matter-and-health-evidence",
+      "path": "content/en/ecology/pollution/particulate-matter-and-health-evidence.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "EPA defines PM10 as \"inhalable particles, with diameters that are generally 10 micrometers and smaller\" and PM2.5 as \"fine inhalable particles, with diameters that are generally 2.5 micrometers and smaller\"; a human hair is roughly 70 um across, about thirty times wider than the largest fine particle; a large share of PM forms in the atmosphere from SO2 and NOx",
+          "sourceChecked": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Six Cities: 8,111 adults followed fourteen to sixteen years; mortality most strongly associated with cigarette smoking; adjusted mortality rate ratio between most and least polluted city 1.26 (1.08 to 1.47)",
+          "sourceChecked": "PubMed record 8179653 retrieved as full structured abstract via NCBI E-utilities efetch (N Engl J Med 1993;329(24):1753-9, doi 10.1056/NEJM199312093292401)",
+          "disposition": "verified",
+          "note": "pubmed.ncbi.nlm.nih.gov serves scripted clients a cookie wall and nejm.org returns 403, so the abstract was read through the NCBI E-utilities record rather than either publisher page. Every element matches verbatim, including \"a 14-to-16-year mortality follow-up of 8111 adults in six U.S. cities\", \"Mortality rates were most strongly associated with cigarette smoking\", and \"1.26 (95 percent confidence interval, 1.08 to 1.47)\". Recorded as verified against that record."
+        },
+        {
+          "claim": "Medicare open cohort: 60,925,443 people, 460,310,521 person-years, 2000-2012; 10 ug/m3 annual PM2.5 associated with 7.3% higher all-cause mortality (7.1 to 7.5); ozone 1.1% per 10 ppb; restricted below 12 ug/m3 and 50 ppb the particle estimate rose to 13.6% (13.1 to 14.1) while ozone stayed at 1.0%",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5766848/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "ELAPSE: eight pooled cohorts, 325,367 adults, mean 19.5 years, 47,131 deaths; 5 ug/m3 PM2.5 associated with 13% more natural-cause deaths (10.6 to 15.5); 10 ug/m3 NO2 with 8.6% (7.0 to 10.2); restricted below 12 ug/m3 the estimate rose to 29.6% (14.0 to 47.4)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8409282/",
+          "disposition": "verified",
+          "note": "Hazard ratios in the paper are 1.130 (1.106-1.155), 1.086 (1.070-1.102) and 1.296 (1.140-1.474), which are exactly the percentages and intervals the article gives. The article's warning that the wide low-exposure interval should not be over-read is consistent with the source."
+        },
+        {
+          "claim": "WHO estimates ambient air pollution caused 4.2 million premature deaths worldwide in 2019; 99% of the world's population lived where guideline levels were not met; achieving interim target one (35 ug/m3) would save around 300,000 deaths a year",
+          "sourceChecked": "https://www.who.int/news-room/fact-sheets/detail/ambient-%28outdoor%29-air-quality-and-health",
+          "disposition": "verified",
+          "note": "Checked specifically for causal-language drift, because this is the kind of figure that gets upgraded in transit. The fact sheet itself says \"estimated to have caused\", so the article's \"caused\" matches its source rather than strengthening it. Both the 2019 anchor and the 300,000 interim-target figure are the fact sheet's own (last updated 24 October 2024)."
+        },
+        {
+          "claim": "Particles below about 0.1 um dominate particle number in most urban air and contribute almost nothing to particle mass",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12618658/",
+          "disposition": "resourced",
+          "note": "This sentence carries the whole ultrafine section - it is the reason a mass metric is said to be blind to them - and nothing in the article's source list supported it. The cited WHO page defines UFP as diameter <= 0.1 um and lists health effects, but says nothing about number or mass. Found and read a source that does state it (Scientific Data 2025: \"Despite constituting a minor proportion of PM2.5 by mass, UFPs dominate in terms of number concentrations\") and added it to the source list. Prose unchanged, because the prose was right."
+        },
+        {
+          "claim": "Ultrafine particles and black carbon were included in the WHO 2021 guidelines through good-practice statements rather than quantitative guideline levels, because the evidence base was not judged sufficient to support a value",
+          "sourceChecked": "https://www.who.int/news-room/questions-and-answers/item/who-global-air-quality-guidelines",
+          "disposition": "resourced",
+          "note": "The cited types-of-pollutants page supports only half of this: it says these pollutants \"do not have quantitative guideline limits, but they are included in the WHO Global Air Quality Guidelines due to their potential health impacts\". It never uses \"good practice statements\" and never gives the reason. The reason matters here, because the article's next sentence turns on it. WHO's own Q&A page does state it: the guidelines \"offer qualitative statements on good practices for the management of certain types of particulate matter (PM), for example, black carbon/elemental carbon, ultrafine particles, and particles originating from sand and dust storms, for which there is insufficient quantitative evidence to derive AQG levels\". Added that page as a source and narrowed the annotation on the original."
+        },
+        {
+          "claim": "The formal weight-of-evidence determinations collected in the EPA's Integrated Science Assessment carry more interpretive weight than any individual coefficient",
+          "sourceChecked": "https://www.epa.gov/isa/integrated-science-assessment-isa-particulate-matter",
+          "disposition": "qualified",
+          "note": "The page was fetched and also downloaded and searched directly: it contains no occurrence of \"weight\" or \"causal\". It describes the ISA as \"a comprehensive evaluation and synthesis of the policy-relevant scientific literature\" serving as \"the scientific foundation for establishing and reviewing\" the NAAQS. The ISA does make formal causality determinations, but not on the page cited for the claim, so the sentence and its source annotation were brought back to the wording the cited page carries."
+        }
+      ],
+      "openQuestions": [
+        "The full WHO global air quality guidelines PDF could not be retrieved: iris.who.int serves a JavaScript shell, apps.who.int returned an HTML stub for the bitstream, and the NCBI Bookshelf record for the guidelines is a metadata stub whose chapter text is not linked. The good-practice-statement claim is therefore supported by WHO's Q&A page and the Bookshelf table of contents (chapter 4, 'Good practice statements about other PM types'), not by the guideline document itself.",
+        "Whether particle composition modifies toxicity per unit mass is stated as unresolved without a source consulted for that specific proposition; it is a negative claim about the state of the evidence and was left as written."
+      ]
+    },
+    {
+      "slug": "nitrogen-pollution-and-eutrophication",
+      "path": "content/en/ecology/pollution/nitrogen-pollution-and-eutrophication.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "Total global nitrogen fixation delivered to terrestrial and marine ecosystems is 413 Tg N a year, with human activity responsible for half of that, 210 Tg N; 240 Tg N a year moves through soils and vegetation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3682748/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Ammonia and combustion-derived NOx put roughly 100 Tg N a year into the atmosphere; leaching and riverine transport deliver 40 to 70 Tg N a year to coastal waters and the open ocean, on top of about 30 Tg deposited directly from the air; marine biological fixation adds a further 140 Tg N a year",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3682748/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Reactive nitrogen other than N2O persists in the atmosphere for a few weeks, in terrestrial ecosystems for a few decades, in peatlands for 10^2 to 10^3 years; marine Nr lifetime is less well constrained but longer, and is flagged as a potential long-term N2O source that \"will respond very slowly to control measures on the sources of Nr from which it is produced\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3682748/",
+          "disposition": "verified",
+          "note": "Quotation exact. The article's hedging (\"appears longer still\", \"a period nobody can put a firm number on\") matches the paper's own \"less well known but seems to be longer\" rather than hardening it."
+        },
+        {
+          "claim": "Between 2005 and 2023 EU-27 emissions of SOx fell 84%, NOx 53%, PM2.5 38%, NMVOC 35% and ammonia 17%; agriculture is responsible for more than 94% of EU ammonia emissions; as of 2023 only twelve member states had met their 2030 ammonia reduction commitments",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/indicators/emissions-of-the-main-air",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Water with 2 mg/L of dissolved oxygen or less at the seabed is classed as hypoxic; nutrients stimulate algal growth, the algae sink and decompose consuming oxygen, and mobile animals leave",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/deadzone.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "June 2026 forecast of an above-average hypoxic zone of 7,027 square miles; July survey measured about 1,332 square miles, the second smallest in forty years and outside the forecast's uncertainty range; the cause was Tropical Storm Bertha crossing the survey area on the eve of the cruise; Hypoxia Task Force goal is a five-year average below 1,900 square miles by 2035",
+          "sourceChecked": "https://www.noaa.gov/news-release/noaa-and-partners-find-smaller-than-anticipated-hypoxic-zone-in-gulf-of-america (WebFetch 403; page retrieved with curl and a browser user agent, HTTP 200, and read in full)",
+          "disposition": "verified",
+          "note": "Every element confirmed against the release of 5 August 2026: \"approximately 1,332 square miles, making it the 2nd smallest zone on record in 40 years of measurement\"; \"In June, NOAA predicted an above-average-sized ... hypoxic zone of 7,027 square miles\"; \"The measured size fell outside the uncertainty range for NOAA's ensemble forecast\"; Tropical Storm Bertha on the eve of the cruise; and the goal of \"fewer than 1,900 square miles by 2035\". The article's framing that this is why a single measurement makes a poor policy test is the release's own logic, not an addition."
+        },
+        {
+          "claim": "The current five-year average stands at 3,745 square miles, close to twice the goal",
+          "sourceChecked": "https://www.noaa.gov/news-release/noaa-and-partners-find-smaller-than-anticipated-hypoxic-zone-in-gulf-of-america",
+          "disposition": "qualified",
+          "note": "Live dataset, added temporal qualifier. The figure is exact (\"The five-year average size of the Gulf of America hypoxic zone is now 3,745 square miles, almost two times the 2035 goal\") but the five-year mean is recomputed after every annual cruise, and \"current\" carried no date of its own - the surrounding sentences date the single-year measurement, not the running average. Changed to name the 2026 survey it was reported alongside."
+        },
+        {
+          "claim": "EU ecosystem area above the eutrophication critical load fell from 1,249,000 km2 in 2005 to 1,068,000 km2 in 2023, about 14%; the Zero Pollution Action Plan calls for 25% by 2030 against the 2005 baseline; the baseline projection reaches 19%",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/indicators/eutrophication-caused-by-atmospheric-nitrogen",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A transect of 68 acid grasslands over 5 to 35 kg N ha-1 yr-1 found species richness declining linearly with deposition, one species lost per 4 m2 quadrat for every 2.5 kg N ha-1 yr-1, and a 23% reduction in richness at the central European mean of 17 kg N ha-1 yr-1",
+          "sourceChecked": "Crossref metadata record for doi 10.1126/science.1094678, containing the publisher-deposited abstract (Stevens, Dise, Mountford & Gowing, Science 303:1876-1879, 2004)",
+          "disposition": "verified",
+          "note": "science.org returns 403 to scripted clients, so the abstract was read from the Crossref deposit rather than the publisher page. It matches every figure word for word, including \"a transect of 68 acid grasslands across Great Britain\", the 5-35 kg range, \"a reduction of one species per 4-m2 quadrat for every 2.5 kg N ha-1 year-1\", and \"At the mean chronic nitrogen deposition rate of central Europe (17 kg N ha-1 year-1), there is a 23% species reduction\". Recorded as verified against the Crossref record, not against Science."
+        },
+        {
+          "claim": "A later spatial Bayesian reanalysis of two British gradient datasets found small and ambiguous effects and argued space-for-time estimates had probably been over-stated; a published comment countered that the reanalysis used modelled deposition at 5 x 5 km while significant variation exists at 1 km, that treating residual structure as spatially correlated error biases the estimate downward, and that the reanalysis was premature",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7195837/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC7810039/",
+          "disposition": "verified",
+          "note": "Both papers read. Pescott & Jitlal (PeerJ 2020) reanalyse the Countryside Survey acid-grassland plots and the Stevens et al. dataset with spatial Bayesian models and conclude effects \"appear to have been overstated\"; Smart et al. (PeerJ 2021) make exactly the three arguments attributed to them, with a simulation, and state \"the conclusions of Pescott & Jitlal (2020) should be considered premature\". The article represents a live disagreement as live, without manufacturing either consensus or controversy, and separates direction of effect from magnitude as both papers do."
+        }
+      ],
+      "openQuestions": [
+        "Stevens et al. 2004 was verified from the Crossref abstract deposit only; the full text behind Science's paywall was not read, so nothing beyond the abstract's figures is attested here.",
+        "The claim that ammonia's dispersed source structure makes abatement a management change rather than a bolt-on device is the author's explanation, not something the EEA indicator states; it is sound but unsourced."
+      ]
+    }
+  ]
+}

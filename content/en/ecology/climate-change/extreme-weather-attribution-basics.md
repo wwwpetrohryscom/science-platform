@@ -84,7 +84,7 @@ Attribution is what connects the [global temperature record](/en/ecology/climate
 
 **Counterfactual construction.** The "counterfactual climate" — the world without anthropogenic forcing — is constructed in model space, not in observation. The construction is methodologically explicit (run the model without 20th-century anthropogenic emissions; run with natural forcings only) and the choice affects the reported attribution. Different counterfactual constructions can produce different risk ratios for the same event; operational attribution work specifies the construction.
 
-**Large ensembles required.** Robust attribution requires large model ensembles (often 1,000+ simulations) to characterize the tail of the event-frequency distribution. The Coupled Model Intercomparison Project Detection and Attribution Model Intercomparison Project (DAMIP) provides standardized experiments for this purpose; ad-hoc single-model attribution is less reliable.
+**Large ensembles required.** Robust attribution requires large model ensembles (often 1,000+ simulations) to characterize the tail of the event-frequency distribution. The Coupled Model Intercomparison Project [Detection and Attribution](/en/glossary/detection-and-attribution) Model Intercomparison Project (DAMIP) provides standardized experiments for this purpose; ad-hoc single-model attribution is less reliable.
 
 **Observational anchoring.** Attribution studies are anchored to the observed event — the methodology asks how unusual the observed value was in each climate state. The reliability of the attribution depends on the reliability of the observation. Sparse observational coverage in some regions limits the reliability of attribution there.
 

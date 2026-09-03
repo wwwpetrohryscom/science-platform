@@ -17,7 +17,7 @@ related:
   - marine-food-webs-and-productivity
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
-_bodyHash: d2afa790
+_bodyHash: ff9dab0
 ---
 
 A trophic level is a property of a feeding relationship, not a label that belongs to an organism. The number counts how many transfers separate a unit of energy from the sunlight that fixed it: photosynthesisers sit at level 1, something that eats only photosynthesisers sits at level 2, and so on. Nothing in that definition obliges an animal to stay in one place. A trout eating insects that grazed algae and also insects that ate other insects is feeding at levels 3 and 4 simultaneously, and the value ecologists assign it will be an average of the two, weighted by diet.
@@ -32,7 +32,7 @@ The same experiment is a good illustration of how soft that general rule is. Rel
 
 Three losses sit behind any efficiency figure: production that is never eaten, ingested material that is not assimilated, and assimilated energy respired away to stay alive. Their proportions differ between an insect and a mammal, which is why one planetary constant was never plausible.
 
-Why that matters is a matter of exponents. Apply 10 per cent four times and a fourth-order consumer receives one ten-thousandth of what the producers fixed. Apply 5 per cent instead and the same consumer receives about one part in 160,000 — a sixteen-fold difference in what the system can support, produced by a parameter that nobody measures directly at ecosystem scale. Two things follow. Real webs have few levels, because there is nothing left to support another one. And any estimate of what a top predator population can sustain is far more sensitive to the assumed efficiency than to almost anything else in the calculation.
+Why that matters is a matter of exponents. Apply 10 per cent four times and a fourth-order consumer receives one ten-thousandth of what the producers fixed. Apply 5 per cent instead and the same consumer receives about one part in 160,000 — a sixteen-fold difference in what the system can support, produced by a parameter that nobody measures directly at ecosystem scale. Two things follow. There is an energetic ceiling on how many levels a system can pay for — though whether that ceiling is what actually sets the length of real food chains is contested, because a [test of three competing hypotheses across lakes](https://www.nature.com/articles/35016565) found chain length rose with ecosystem size and was not related to productivity at all. And any estimate of what a top predator population can sustain is far more sensitive to the assumed efficiency than to almost anything else in the calculation.
 
 ## Fractional levels are a result, not a fudge
 
@@ -73,3 +73,4 @@ None of this makes trophic structure a bad idea. Levels remain the cheapest way 
 7. **Proceedings of the Royal Society B** — [Stream hydrology limits recovery of riparian ecosystems after wolf reintroduction](https://royalsocietypublishing.org/doi/10.1098/rspb.2012.2977). Decade-long experiment showing browsing relief alone was insufficient.
 8. **NOAA Fisheries** — [Ecosystem modeling](https://www.fisheries.noaa.gov/national/ecosystems/ecosystem-modeling). How food-web models are used operationally, and why multiple models are run together.
 9. **Philosophical Transactions of the Royal Society B** — [Spatially explicit predictions of food web structure from regional-level data](https://royalsocietypublishing.org/doi/10.1098/rstb.2023.0166). On the scarcity of repeated spatial data for species interactions.
+10. **Nature** — [Ecosystem size determines food-chain length in lakes](https://www.nature.com/articles/35016565). Test of the productivity, ecosystem-size and productive-space hypotheses, finding chain length related to ecosystem size and not to productivity.

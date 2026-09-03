@@ -51,7 +51,7 @@ The approximation in "approximately" is doing real work. Peer-reviewed treatment
 
 ## Traceability is what makes two laboratories comparable
 
-An uncertainty is only meaningful relative to a scale, and the mechanism that ties scales together is metrological traceability: as one review of chemical reference materials puts it, "a documented unbroken chain of calibrations with stated uncertainties that ideally link the measurement result for a sample to a primary calibrator in appropriate SI units". Each link adds uncertainty; none may be missing. The same review describes what the chain has to embody in practice — "the concepts of measurement uncertainty and calibrations against a hierarchy of reference standards" — which is why a certificate that states a value without an uncertainty breaks the chain rather than shortening it.
+An uncertainty is only meaningful relative to a scale, and the mechanism that ties scales together is [metrological traceability](/en/glossary/traceability): as one review of chemical reference materials puts it, "a documented unbroken chain of calibrations with stated uncertainties that ideally link the measurement result for a sample to a primary calibrator in appropriate SI units". Each link adds uncertainty; none may be missing. The same review describes what the chain has to embody in practice — "the concepts of [measurement uncertainty](/en/glossary/measurement-uncertainty) and calibrations against a hierarchy of reference standards" — which is why a certificate that states a value without an uncertainty breaks the chain rather than shortening it.
 
 The base of that chain changed on 20 May 2019, when the SI was redefined so that all units follow from seven constants with fixed numerical values.
 

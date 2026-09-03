@@ -1,0 +1,2491 @@
+{
+ "entities": [
+  {
+   "id": "biogeochemical-cycle",
+   "canonicalName": "Biogeochemical cycle",
+   "aliases": [
+    "nutrient cycle",
+    "element cycle"
+   ],
+   "definition": "The movement of a chemical element between the atmosphere, ocean, land and living things, and back. Each cycle has reservoirs, fluxes between them, and characteristic residence times.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "biogeochemical-cycles",
+    "nutrient-cycling"
+   ],
+   "matchSlugs": [
+    "biogeochemical-cycles-explained"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "nitrogen-cycle",
+    "water-cycle"
+   ]
+  },
+  {
+   "id": "carbon-cycle",
+   "canonicalName": "Carbon cycle",
+   "aliases": [
+    "global carbon cycle"
+   ],
+   "definition": "The exchange of carbon between rock, ocean, atmosphere, soil and biomass. A slow rock-mediated loop and a fast biological one run side by side at speeds differing by orders of magnitude.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "carbon-cycle",
+    "carbon-sink",
+    "forest-carbon",
+    "soil-carbon",
+    "carbon-accounting"
+   ],
+   "matchSlugs": [
+    "carbon-cycle-explained",
+    "carbon-cycle-feedbacks",
+    "carbon-budgets-and-remaining-emissions"
+   ],
+   "parentEntities": [
+    "biogeochemical-cycle"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "ocean-acidification",
+    "photosynthesis"
+   ],
+   "glossaryId": "carbon-cycle"
+  },
+  {
+   "id": "nitrogen-cycle",
+   "canonicalName": "Nitrogen cycle",
+   "aliases": [
+    "reactive nitrogen",
+    "nitrogen cascade"
+   ],
+   "definition": "The conversion of nitrogen between its inert atmospheric form and the reactive forms life can use, through fixation, nitrification, denitrification and anammox.",
+   "category": "process",
+   "sections": [
+    "ecology",
+    "biology"
+   ],
+   "matchTags": [
+    "nitrogen-cycle",
+    "reactive-nitrogen",
+    "eutrophication"
+   ],
+   "matchSlugs": [
+    "nitrogen-cycle-explained",
+    "nitrogen-pollution-and-eutrophication"
+   ],
+   "parentEntities": [
+    "biogeochemical-cycle"
+   ],
+   "relatedEntities": [
+    "eutrophication",
+    "microbial-biogeochemistry"
+   ],
+   "glossaryId": "nitrogen-cycle"
+  },
+  {
+   "id": "water-cycle",
+   "canonicalName": "Water cycle",
+   "aliases": [
+    "hydrological cycle",
+    "global water cycle"
+   ],
+   "definition": "The circulation of water between ocean, atmosphere, land and ice. The atmospheric store is the smallest and turns over fastest, which is why the cycle intensifies under warming.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "water-cycle",
+    "hydrology"
+   ],
+   "matchSlugs": [
+    "global-water-cycle-explained"
+   ],
+   "parentEntities": [
+    "biogeochemical-cycle"
+   ],
+   "relatedEntities": [
+    "climate-feedback"
+   ],
+   "glossaryId": "water-cycle"
+  },
+  {
+   "id": "earth-system",
+   "canonicalName": "Earth system",
+   "aliases": [
+    "coupled Earth system"
+   ],
+   "definition": "The planet treated as one set of interacting components — atmosphere, ocean, cryosphere, land surface and biosphere — whose coupling explains behaviour that no component explains alone.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "earth-system",
+    "earth-system-science"
+   ],
+   "matchSlugs": [
+    "earth-system-science-explained",
+    "earth-system-components-explained",
+    "earth-system-models-explained"
+   ],
+   "relatedEntities": [
+    "climate-feedback",
+    "biogeochemical-cycle"
+   ],
+   "glossaryId": "earth-system"
+  },
+  {
+   "id": "climate-feedback",
+   "canonicalName": "Climate feedback",
+   "aliases": [
+    "feedback mechanism",
+    "radiative feedback"
+   ],
+   "definition": "A process that responds to a temperature change and either amplifies or damps it. The sign convention and the assessed magnitudes are what make the concept quantitative rather than rhetorical.",
+   "category": "process",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "climate-feedback",
+    "feedbacks",
+    "cloud-feedback",
+    "cloud-radiative-effect"
+   ],
+   "matchSlugs": [
+    "climate-feedback-mechanisms",
+    "ice-albedo-feedback-explained",
+    "water-vapor-feedback-explained",
+    "carbon-cycle-feedbacks"
+   ],
+   "relatedEntities": [
+    "climate-sensitivity",
+    "greenhouse-effect"
+   ],
+   "glossaryId": "climate-feedback"
+  },
+  {
+   "id": "climate-sensitivity",
+   "canonicalName": "Climate sensitivity",
+   "aliases": [
+    "ECS",
+    "TCR",
+    "equilibrium climate sensitivity"
+   ],
+   "definition": "How much the surface warms for a doubling of atmospheric CO2. Equilibrium and transient sensitivity answer different questions and are routinely conflated.",
+   "category": "physical_quantity",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "climate-sensitivity"
+   ],
+   "matchSlugs": [
+    "climate-sensitivity-explained"
+   ],
+   "relatedEntities": [
+    "climate-feedback",
+    "radiative-forcing"
+   ]
+  },
+  {
+   "id": "radiative-forcing",
+   "canonicalName": "Radiative forcing",
+   "aliases": [
+    "effective radiative forcing",
+    "ERF"
+   ],
+   "definition": "The change in Earth's net radiative flux caused by a perturbation, before the climate adjusts. The common scale on which greenhouse gases, aerosols and land-use change are compared.",
+   "category": "physical_quantity",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "radiative-forcing",
+    "greenhouse-gases"
+   ],
+   "matchSlugs": [
+    "greenhouse-gases-and-radiative-forcing"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "climate-sensitivity"
+   ],
+   "glossaryId": "radiative-forcing"
+  },
+  {
+   "id": "greenhouse-effect",
+   "canonicalName": "Greenhouse effect",
+   "aliases": [
+    "atmospheric greenhouse effect"
+   ],
+   "definition": "The warming that follows from an atmosphere that is more transparent to incoming sunlight than to outgoing infrared. Correctly explained through emission height and the lapse rate, not through a blanket.",
+   "category": "process",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "greenhouse-effect",
+    "radiative-transfer"
+   ],
+   "matchSlugs": [
+    "the-greenhouse-effect-physics",
+    "radiative-transfer-explained"
+   ],
+   "relatedEntities": [
+    "radiative-forcing",
+    "climate-feedback"
+   ]
+  },
+  {
+   "id": "ocean-acidification",
+   "canonicalName": "Ocean acidification",
+   "aliases": [
+    "carbonate chemistry change"
+   ],
+   "definition": "The fall in seawater pH and carbonate saturation caused by the ocean absorbing atmospheric CO2. Chemically precise; the biological consequences vary sharply by taxon.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "ocean-acidification",
+    "carbonate-chemistry"
+   ],
+   "matchSlugs": [
+    "ocean-acidification-explained"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "coral-reef"
+   ]
+  },
+  {
+   "id": "climate-change",
+   "canonicalName": "Climate change",
+   "aliases": [
+    "global warming",
+    "anthropogenic climate change"
+   ],
+   "definition": "A sustained change in the statistics of the climate system. On the current record, driven principally by greenhouse-gas emissions from human activity.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "climate-change",
+    "climate"
+   ],
+   "matchSlugs": [
+    "what-is-climate-change"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "climate-sensitivity",
+    "climate-feedback"
+   ]
+  },
+  {
+   "id": "ecosystem",
+   "canonicalName": "Ecosystem",
+   "aliases": [
+    "ecological system"
+   ],
+   "definition": "A community of organisms together with the physical environment they exchange energy and matter with. Defined by flow rather than by membership or by place.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "ecosystems",
+    "ecosystem-services",
+    "agroecosystems",
+    "agroecology"
+   ],
+   "matchSlugs": [
+    "what-is-an-ecosystem",
+    "ecosystem-services-and-human-wellbeing"
+   ],
+   "relatedEntities": [
+    "food-web",
+    "primary-production",
+    "biome"
+   ],
+   "glossaryId": "ecosystem"
+  },
+  {
+   "id": "biome",
+   "canonicalName": "Biome",
+   "aliases": [
+    "major habitat type"
+   ],
+   "definition": "A climate-defined class of ecosystem — tundra, boreal forest, tropical rainforest, desert. A classification with genuinely soft edges rather than a natural kind.",
+   "category": "biome",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "biomes"
+   ],
+   "matchSlugs": [
+    "biomes-explained"
+   ],
+   "relatedEntities": [
+    "ecosystem"
+   ]
+  },
+  {
+   "id": "food-web",
+   "canonicalName": "Food web",
+   "aliases": [
+    "trophic structure",
+    "food chain"
+   ],
+   "definition": "The network of who eats whom, and the energy transfer it carries. Trophic levels are an accounting device, not discrete natural categories.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "food-webs",
+    "trophic-structure",
+    "trophic-levels"
+   ],
+   "matchSlugs": [
+    "food-webs-and-trophic-structure",
+    "marine-food-webs-and-productivity"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "primary-production"
+   ]
+  },
+  {
+   "id": "primary-production",
+   "canonicalName": "Primary production",
+   "aliases": [
+    "GPP",
+    "NPP",
+    "net primary production"
+   ],
+   "definition": "The rate at which autotrophs convert light or chemical energy into organic matter. Estimated rather than measured directly, by different methods on land and at sea.",
+   "category": "biological_process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "primary-production",
+    "productivity"
+   ],
+   "matchSlugs": [
+    "primary-production-and-energy-flow"
+   ],
+   "relatedEntities": [
+    "photosynthesis",
+    "food-web"
+   ]
+  },
+  {
+   "id": "ecological-succession",
+   "canonicalName": "Ecological succession",
+   "aliases": [
+    "succession"
+   ],
+   "definition": "The sequence of community change following disturbance. Contingent and path-dependent; the climax-community model it replaced is no longer supported.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "succession",
+    "disturbance"
+   ],
+   "matchSlugs": [
+    "ecological-succession-explained"
+   ],
+   "relatedEntities": [
+    "ecosystem",
+    "ecological-restoration"
+   ]
+  },
+  {
+   "id": "biodiversity",
+   "canonicalName": "Biodiversity",
+   "aliases": [
+    "biological diversity"
+   ],
+   "definition": "Variation in living systems at every level — genetic, species, functional and ecosystem. No single measurement captures all of them, which is why a species count answers a narrower question than it appears to.",
+   "category": "concept",
+   "sections": [
+    "ecology",
+    "biology/taxonomy"
+   ],
+   "matchTags": [
+    "biodiversity",
+    "species-richness",
+    "species-evenness"
+   ],
+   "matchSlugs": [
+    "why-species-counts-mislead-conservation",
+    "biodiversity-indicators-explained",
+    "species-richness-explained"
+   ],
+   "relatedEntities": [
+    "ecosystem",
+    "extinction-risk",
+    "conservation"
+   ],
+   "glossaryId": "biodiversity"
+  },
+  {
+   "id": "extinction-risk",
+   "canonicalName": "Extinction risk",
+   "aliases": [
+    "threat status",
+    "Red List category"
+   ],
+   "definition": "The assessed probability that a taxon will be lost, under criteria with explicit data requirements. Distinct from the extinction rate, and routinely confused with it.",
+   "category": "environmental_indicator",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "extinction",
+    "red-list",
+    "threat-status"
+   ],
+   "matchSlugs": [
+    "species-extinction-risk-assessment",
+    "red-list-index-explained"
+   ],
+   "relatedEntities": [
+    "biodiversity",
+    "conservation"
+   ]
+  },
+  {
+   "id": "conservation",
+   "canonicalName": "Conservation science",
+   "aliases": [
+    "biodiversity conservation"
+   ],
+   "definition": "The applied science of retaining biological diversity, with a testable intervention literature and an evidence-to-practice gap that is itself a research subject.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "conservation",
+    "protected-areas",
+    "species-recovery",
+    "reintroduction",
+    "marine-protected-areas",
+    "area-based-conservation",
+    "conservation-evidence"
+   ],
+   "matchSlugs": [
+    "conservation-science-explained",
+    "protected-area-effectiveness",
+    "conservation-trade-offs-and-prioritisation"
+   ],
+   "relatedEntities": [
+    "biodiversity",
+    "ecological-restoration",
+    "extinction-risk"
+   ]
+  },
+  {
+   "id": "ecological-restoration",
+   "canonicalName": "Ecological restoration",
+   "aliases": [
+    "restoration ecology",
+    "rewilding"
+   ],
+   "definition": "Intervening to return a degraded system towards a reference state. Structure recovers faster than function, and both are usually incomplete when monitoring stops.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "restoration",
+    "rewilding"
+   ],
+   "matchSlugs": [
+    "ecological-restoration-evidence",
+    "rewilding-evidence-and-limits"
+   ],
+   "parentEntities": [
+    "conservation"
+   ],
+   "relatedEntities": [
+    "ecological-succession",
+    "ecosystem"
+   ]
+  },
+  {
+   "id": "habitat-fragmentation",
+   "canonicalName": "Habitat fragmentation",
+   "aliases": [
+    "fragmentation",
+    "habitat connectivity"
+   ],
+   "definition": "The breaking of continuous habitat into smaller separated pieces. Distinguished in the modern literature from habitat loss per se, a distinction that reverses some intuitions.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "habitat-fragmentation",
+    "connectivity"
+   ],
+   "matchSlugs": [
+    "habitat-fragmentation-metrics",
+    "habitat-fragmentation-and-connectivity"
+   ],
+   "relatedEntities": [
+    "biodiversity",
+    "conservation"
+   ],
+   "glossaryId": "habitat-fragmentation"
+  },
+  {
+   "id": "eutrophication",
+   "canonicalName": "Eutrophication",
+   "aliases": [
+    "nutrient enrichment"
+   ],
+   "definition": "Enrichment of a water body with nutrients, driving algal growth and, on decomposition, oxygen depletion. Phosphorus-limited in most fresh waters, nitrogen-limited in most coastal ones.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "eutrophication",
+    "nutrient-loading"
+   ],
+   "matchSlugs": [
+    "lake-ecology-and-eutrophication",
+    "nitrogen-pollution-and-eutrophication"
+   ],
+   "relatedEntities": [
+    "nitrogen-cycle",
+    "water-quality"
+   ]
+  },
+  {
+   "id": "water-quality",
+   "canonicalName": "Water quality",
+   "aliases": [
+    "freshwater quality"
+   ],
+   "definition": "The physical, chemical and biological condition of water relative to a use or a reference state. Biological indices integrate over time in a way spot chemistry cannot.",
+   "category": "environmental_indicator",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "water-quality"
+   ],
+   "matchSlugs": [
+    "water-quality-measurement-explained"
+   ],
+   "relatedEntities": [
+    "eutrophication",
+    "pollution"
+   ]
+  },
+  {
+   "id": "soil",
+   "canonicalName": "Soil",
+   "aliases": [
+    "pedosphere",
+    "soil system"
+   ],
+   "definition": "The four-phase weathered surface layer of mineral matter, organic matter, water and air in which most terrestrial life is rooted. Formed slowly and lost quickly.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "soil",
+    "soils",
+    "soil-carbon",
+    "soil-biology",
+    "fertility",
+    "plant-nutrition",
+    "cation-exchange"
+   ],
+   "matchSlugs": [
+    "soil-science-explained",
+    "soil-carbon-measurement-and-uncertainty",
+    "soil-formation-and-classification"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "land-degradation"
+   ]
+  },
+  {
+   "id": "land-degradation",
+   "canonicalName": "Land degradation",
+   "aliases": [
+    "desertification"
+   ],
+   "definition": "A persistent reduction in the biological or economic productivity of land. Global estimates span an enormous range because definition, baseline and indicator all vary.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "land-degradation",
+    "desertification"
+   ],
+   "matchSlugs": [
+    "land-degradation-and-desertification",
+    "soil-erosion-processes-and-rates"
+   ],
+   "relatedEntities": [
+    "soil",
+    "ecological-restoration"
+   ]
+  },
+  {
+   "id": "forest",
+   "canonicalName": "Forest",
+   "aliases": [
+    "forest ecosystem",
+    "woodland"
+   ],
+   "definition": "Land dominated by trees, defined for statistical purposes by canopy cover and land use — a definition that explains most apparent contradictions between forest datasets.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "forests",
+    "deforestation",
+    "forest-carbon"
+   ],
+   "matchSlugs": [
+    "forest-ecosystems-explained",
+    "deforestation-statistics-explained",
+    "forest-carbon-measurement"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "land-degradation"
+   ]
+  },
+  {
+   "id": "ocean",
+   "canonicalName": "Ocean",
+   "aliases": [
+    "marine environment"
+   ],
+   "definition": "The largest habitat on Earth, structured by density into layers that exchange slowly. Under-observed relative to the atmosphere until the Argo era.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "oceans",
+    "marine-science",
+    "ocean-circulation",
+    "deep-sea",
+    "fisheries",
+    "stock-assessment",
+    "marine-management"
+   ],
+   "matchSlugs": [
+    "ocean-science-explained",
+    "ocean-circulation-and-climate"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "ocean-acidification",
+    "coral-reef",
+    "primary-production"
+   ]
+  },
+  {
+   "id": "coral-reef",
+   "canonicalName": "Coral reef",
+   "aliases": [
+    "reef ecosystem"
+   ],
+   "definition": "A biogenic structure built by a symbiosis between cnidarians and photosynthetic algae, and lost when heat stress breaks that symbiosis.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology",
+    "biology"
+   ],
+   "matchTags": [
+    "coral",
+    "coral-reefs",
+    "bleaching"
+   ],
+   "matchSlugs": [
+    "coral-reef-ecology-and-bleaching",
+    "coral-microbiome-bleaching-resistance"
+   ],
+   "parentEntities": [
+    "ocean"
+   ],
+   "relatedEntities": [
+    "ocean-acidification"
+   ]
+  },
+  {
+   "id": "freshwater-ecosystem",
+   "canonicalName": "Freshwater ecosystem",
+   "aliases": [
+    "rivers and lakes",
+    "inland waters"
+   ],
+   "definition": "Rivers, lakes, wetlands and groundwater. A hundredth of a per cent of the planet's water, a disproportionate share of its described species, and the steepest documented declines.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "freshwater",
+    "rivers",
+    "lakes",
+    "wetlands",
+    "dams",
+    "river-connectivity",
+    "freshwater-biodiversity",
+    "river-restoration"
+   ],
+   "matchSlugs": [
+    "freshwater-ecosystems-explained",
+    "river-ecology-and-flow-regimes",
+    "wetlands-and-their-functions"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "water-cycle",
+    "water-quality",
+    "eutrophication"
+   ]
+  },
+  {
+   "id": "cryosphere",
+   "canonicalName": "Cryosphere",
+   "aliases": [
+    "ice and snow"
+   ],
+   "definition": "The frozen components of the Earth system — sea ice, glaciers, ice sheets, snow cover and permafrost — which are physically distinct reservoirs with different response times.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "cryosphere",
+    "sea-ice",
+    "glaciers",
+    "permafrost"
+   ],
+   "matchSlugs": [
+    "cryosphere-in-the-earth-system",
+    "cryosphere-indicators-glaciers-sea-ice"
+   ],
+   "parentEntities": [
+    "earth-system"
+   ],
+   "relatedEntities": [
+    "climate-feedback"
+   ]
+  },
+  {
+   "id": "particulate-matter",
+   "canonicalName": "Particulate matter",
+   "aliases": [
+    "PM2.5",
+    "PM10",
+    "aerosol"
+   ],
+   "definition": "Airborne solid and liquid particles classified by aerodynamic diameter. The environmental exposure with the strongest epidemiological evidence base.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "particulate-matter",
+    "air-quality",
+    "pm25"
+   ],
+   "matchSlugs": [
+    "particulate-matter-and-health-evidence",
+    "air-quality-measurement-and-standards"
+   ],
+   "parentEntities": [
+    "pollution"
+   ],
+   "relatedEntities": [
+    "air-quality"
+   ]
+  },
+  {
+   "id": "pollution",
+   "canonicalName": "Pollution",
+   "aliases": [
+    "environmental contamination"
+   ],
+   "definition": "The introduction of a substance or energy into the environment at a rate that causes harm. Organised by source, pathway and receptor rather than by substance.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "pollution",
+    "contamination",
+    "anthropogenic-noise",
+    "light-at-night",
+    "circadian-disruption"
+   ],
+   "matchSlugs": [
+    "environmental-pollution-explained"
+   ],
+   "relatedEntities": [
+    "particulate-matter",
+    "persistent-organic-pollutant",
+    "heavy-metal",
+    "microplastic"
+   ]
+  },
+  {
+   "id": "persistent-organic-pollutant",
+   "canonicalName": "Persistent organic pollutant",
+   "aliases": [
+    "POP",
+    "PFAS"
+   ],
+   "definition": "A synthetic compound that resists degradation, accumulates in tissue and travels far from its source. The reason a treaty regime exists for a class of chemicals.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "pops",
+    "persistent-organic-pollutants",
+    "pfas"
+   ],
+   "matchSlugs": [
+    "persistent-organic-pollutants"
+   ],
+   "parentEntities": [
+    "pollution"
+   ],
+   "relatedEntities": [
+    "bioaccumulation"
+   ]
+  },
+  {
+   "id": "heavy-metal",
+   "canonicalName": "Heavy metal",
+   "aliases": [
+    "toxic metal",
+    "trace metal"
+   ],
+   "definition": "A metallic element toxic at low concentration, whose harm depends on chemical speciation rather than on total quantity.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "heavy-metals",
+    "mercury",
+    "lead"
+   ],
+   "matchSlugs": [
+    "heavy-metals-in-the-environment"
+   ],
+   "parentEntities": [
+    "pollution"
+   ],
+   "relatedEntities": [
+    "bioaccumulation"
+   ]
+  },
+  {
+   "id": "microplastic",
+   "canonicalName": "Microplastic",
+   "aliases": [
+    "plastic particle"
+   ],
+   "definition": "Plastic fragments below a size threshold that varies by study. Environmental occurrence is well documented; population-level effects much less so.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "microplastics",
+    "plastic-pollution"
+   ],
+   "matchSlugs": [
+    "microplastics-evidence-and-uncertainty",
+    "marine-plastic-pollution-evidence"
+   ],
+   "parentEntities": [
+    "pollution"
+   ]
+  },
+  {
+   "id": "air-quality",
+   "canonicalName": "Air quality",
+   "aliases": [
+    "ambient air quality"
+   ],
+   "definition": "The concentration of regulated pollutants in the air people breathe, and the index conventions that compress those concentrations into one number.",
+   "category": "environmental_indicator",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "air-quality",
+    "air-pollution"
+   ],
+   "matchSlugs": [
+    "air-quality-measurement-and-standards"
+   ],
+   "relatedEntities": [
+    "particulate-matter",
+    "pollution"
+   ]
+  },
+  {
+   "id": "bioaccumulation",
+   "canonicalName": "Bioaccumulation",
+   "aliases": [
+    "biomagnification"
+   ],
+   "definition": "The build-up of a substance in an organism faster than it is excreted, and its concentration up a food chain.",
+   "category": "biological_process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "bioaccumulation",
+    "biomagnification"
+   ],
+   "relatedEntities": [
+    "persistent-organic-pollutant",
+    "heavy-metal",
+    "food-web"
+   ]
+  },
+  {
+   "id": "cell",
+   "canonicalName": "Cell",
+   "aliases": [
+    "biological cell"
+   ],
+   "definition": "The smallest unit that carries out the full set of processes life requires, bounded by a membrane that makes the inside chemically distinct from the outside.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "cell-biology",
+    "cells",
+    "cytoskeleton",
+    "motor-proteins",
+    "cell-motility",
+    "microtubules"
+   ],
+   "matchSlugs": [
+    "what-is-a-cell",
+    "cell-membrane-structure-and-transport"
+   ],
+   "relatedEntities": [
+    "photosynthesis",
+    "cellular-respiration",
+    "cell-division"
+   ],
+   "glossaryId": "cell"
+  },
+  {
+   "id": "photosynthesis",
+   "canonicalName": "Photosynthesis",
+   "aliases": [
+    "carbon fixation",
+    "light reactions"
+   ],
+   "definition": "The conversion of light energy into chemical energy, splitting water and fixing carbon dioxide. A photochemical device bolted to a comparatively slow enzyme.",
+   "category": "biological_process",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "photosynthesis"
+   ],
+   "matchSlugs": [
+    "photosynthesis-explained"
+   ],
+   "relatedEntities": [
+    "cell",
+    "primary-production",
+    "carbon-cycle"
+   ]
+  },
+  {
+   "id": "cellular-respiration",
+   "canonicalName": "Cellular respiration",
+   "aliases": [
+    "oxidative phosphorylation",
+    "aerobic respiration"
+   ],
+   "definition": "The stepwise oxidation of organic molecules to release energy, best understood as electron transfer and a proton-motive force rather than as a memorised pathway.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "respiration",
+    "mitochondria",
+    "metabolism"
+   ],
+   "matchSlugs": [
+    "mitochondria-and-cellular-respiration"
+   ],
+   "relatedEntities": [
+    "cell",
+    "photosynthesis"
+   ]
+  },
+  {
+   "id": "cell-division",
+   "canonicalName": "Cell division",
+   "aliases": [
+    "mitosis",
+    "meiosis"
+   ],
+   "definition": "The processes by which one cell becomes two. Mitosis copies; meiosis halves and recombines, generating the variation inheritance acts on.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "cell-division",
+    "mitosis",
+    "meiosis"
+   ],
+   "matchSlugs": [
+    "cell-division-mitosis-and-meiosis"
+   ],
+   "relatedEntities": [
+    "cell",
+    "dna",
+    "mutation"
+   ]
+  },
+  {
+   "id": "dna",
+   "canonicalName": "DNA",
+   "aliases": [
+    "deoxyribonucleic acid",
+    "genetic material"
+   ],
+   "definition": "The molecule that stores heritable information as a sequence of four bases, copied by templated replication.",
+   "category": "molecule",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "dna",
+    "molecular-biology"
+   ],
+   "matchSlugs": [
+    "what-is-dna",
+    "dna-replication-and-repair"
+   ],
+   "relatedEntities": [
+    "genome",
+    "gene-expression",
+    "mutation"
+   ],
+   "glossaryId": "dna"
+  },
+  {
+   "id": "genome",
+   "canonicalName": "Genome",
+   "aliases": [
+    "genomic sequence"
+   ],
+   "definition": "The complete genetic complement of an organism. Its size predicts almost nothing about complexity, a fact that took decades to become uncontroversial.",
+   "category": "gene_concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "genome",
+    "genomics"
+   ],
+   "matchSlugs": [
+    "what-is-a-genome"
+   ],
+   "parentEntities": [
+    "dna"
+   ],
+   "relatedEntities": [
+    "gene-expression",
+    "mutation"
+   ]
+  },
+  {
+   "id": "gene-expression",
+   "canonicalName": "Gene expression",
+   "aliases": [
+    "transcription",
+    "translation",
+    "gene regulation"
+   ],
+   "definition": "The process by which the information in a sequence becomes a functional product, and the regulation that lets identical genomes build different cells.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "gene-expression",
+    "transcription",
+    "epigenetics"
+   ],
+   "matchSlugs": [
+    "how-gene-expression-is-regulated",
+    "epigenetics-explained"
+   ],
+   "parentEntities": [
+    "dna"
+   ],
+   "relatedEntities": [
+    "genome",
+    "protein-synthesis"
+   ],
+   "glossaryId": "gene-expression"
+  },
+  {
+   "id": "mutation",
+   "canonicalName": "Mutation",
+   "aliases": [
+    "genetic variation",
+    "sequence change"
+   ],
+   "definition": "A change in a nucleotide sequence. The raw material of evolution, now measured directly per generation rather than inferred.",
+   "category": "gene_concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "mutation",
+    "genetic-variation"
+   ],
+   "matchSlugs": [
+    "mutation-types-and-rates"
+   ],
+   "parentEntities": [
+    "dna"
+   ],
+   "relatedEntities": [
+    "natural-selection",
+    "genetic-drift"
+   ]
+  },
+  {
+   "id": "heritability",
+   "canonicalName": "Heritability",
+   "aliases": [
+    "h2"
+   ],
+   "definition": "The share of variation in a trait, within a specific population and environment, attributable to genetic variation. Not a measure of genetic determination, and the most misread statistic in biology.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "heritability",
+    "population-genetics",
+    "quantitative-genetics"
+   ],
+   "matchSlugs": [
+    "heritability-explained"
+   ],
+   "relatedEntities": [
+    "mutation",
+    "natural-selection"
+   ]
+  },
+  {
+   "id": "evolution",
+   "canonicalName": "Evolution",
+   "aliases": [
+    "biological evolution",
+    "descent with modification"
+   ],
+   "definition": "Change in the genetic composition of populations across generations, under selection, drift, mutation and migration.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "evolution"
+   ],
+   "matchSlugs": [
+    "evolution-explained"
+   ],
+   "relatedEntities": [
+    "natural-selection",
+    "genetic-drift",
+    "speciation"
+   ],
+   "glossaryId": "evolution"
+  },
+  {
+   "id": "natural-selection",
+   "canonicalName": "Natural selection",
+   "aliases": [
+    "selection",
+    "adaptation"
+   ],
+   "definition": "Differential reproduction of heritable variants. Follows deductively from three conditions, which is why the difficulty is always empirical rather than logical.",
+   "category": "process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "natural-selection",
+    "adaptation",
+    "selection"
+   ],
+   "matchSlugs": [
+    "natural-selection-and-adaptation"
+   ],
+   "parentEntities": [
+    "evolution"
+   ],
+   "relatedEntities": [
+    "mutation",
+    "heritability"
+   ],
+   "glossaryId": "natural-selection"
+  },
+  {
+   "id": "genetic-drift",
+   "canonicalName": "Genetic drift",
+   "aliases": [
+    "drift",
+    "effective population size"
+   ],
+   "definition": "Change in allele frequency from sampling error in finite populations. Whether selection or drift dominates is set by effective population size.",
+   "category": "process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "genetic-drift",
+    "population-genetics"
+   ],
+   "matchSlugs": [
+    "genetic-drift-and-population-size"
+   ],
+   "parentEntities": [
+    "evolution"
+   ],
+   "relatedEntities": [
+    "natural-selection"
+   ]
+  },
+  {
+   "id": "speciation",
+   "canonicalName": "Speciation",
+   "aliases": [
+    "reproductive isolation"
+   ],
+   "definition": "The origin of reproductive isolation between lineages, along a continuum rather than at a moment.",
+   "category": "process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "speciation"
+   ],
+   "matchSlugs": [
+    "speciation-mechanisms"
+   ],
+   "parentEntities": [
+    "evolution"
+   ],
+   "relatedEntities": [
+    "species-concept"
+   ]
+  },
+  {
+   "id": "species-concept",
+   "canonicalName": "Species concept",
+   "aliases": [
+    "what is a species",
+    "species problem"
+   ],
+   "definition": "The set of competing operational criteria for delimiting species, none of which covers sexual, asexual and freely hybridising lineages at once.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "taxonomy",
+    "species-concept"
+   ],
+   "matchSlugs": [
+    "what-is-a-species"
+   ],
+   "relatedEntities": [
+    "speciation",
+    "phylogenetics",
+    "biodiversity"
+   ]
+  },
+  {
+   "id": "phylogenetics",
+   "canonicalName": "Phylogenetics",
+   "aliases": [
+    "phylogenetic inference",
+    "molecular clock"
+   ],
+   "definition": "Reconstructing evolutionary relationships from present-day data, with explicit models and explicit failure modes such as long-branch attraction.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "phylogenetics",
+    "systematics",
+    "phylogenomics",
+    "land-plants",
+    "plant-evolution",
+    "animal-phyla",
+    "body-plans",
+    "metazoa"
+   ],
+   "matchSlugs": [
+    "phylogenetics-explained",
+    "the-tree-of-life-and-domains"
+   ],
+   "relatedEntities": [
+    "species-concept",
+    "evolution"
+   ]
+  },
+  {
+   "id": "microorganism",
+   "canonicalName": "Microorganism",
+   "aliases": [
+    "microbe",
+    "bacteria",
+    "archaea"
+   ],
+   "definition": "Organisms below the resolution of the unaided eye, whose metabolic range far exceeds that of animals and plants and which run most of the planet's element cycling.",
+   "category": "species_group",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "microbiology",
+    "bacteria",
+    "archaea"
+   ],
+   "matchSlugs": [
+    "microbiology-explained",
+    "bacteria-and-archaea-explained"
+   ],
+   "relatedEntities": [
+    "microbiome",
+    "virus",
+    "fungus",
+    "microbial-biogeochemistry"
+   ]
+  },
+  {
+   "id": "virus",
+   "canonicalName": "Virus",
+   "aliases": [
+    "viral particle",
+    "bacteriophage"
+   ],
+   "definition": "An obligate intracellular replicator classified by genome type and replication route rather than by appearance.",
+   "category": "species_group",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "viruses",
+    "virology"
+   ],
+   "matchSlugs": [
+    "viruses-explained"
+   ],
+   "relatedEntities": [
+    "microorganism"
+   ]
+  },
+  {
+   "id": "fungus",
+   "canonicalName": "Fungi",
+   "aliases": [
+    "fungal kingdom",
+    "mycology"
+   ],
+   "definition": "A eukaryotic kingdom closer to animals than to plants, feeding by external digestion and central to decomposition and to plant nutrition.",
+   "category": "species_group",
+   "sections": [
+    "biology",
+    "ecology/soils"
+   ],
+   "matchTags": [
+    "fungi",
+    "mycorrhiza"
+   ],
+   "matchSlugs": [
+    "fungi-explained"
+   ],
+   "relatedEntities": [
+    "microorganism",
+    "soil"
+   ]
+  },
+  {
+   "id": "microbiome",
+   "canonicalName": "Microbiome",
+   "aliases": [
+    "microbial community",
+    "host-microbe interaction"
+   ],
+   "definition": "The community of microorganisms in a defined environment. Composition is cheap to measure and causation is not, which is the field's central methodological problem.",
+   "category": "concept",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "microbiome",
+    "microbial-ecology"
+   ],
+   "matchSlugs": [
+    "microbiomes-and-host-microbe-interactions",
+    "soil-microbiome-regenerative-agriculture"
+   ],
+   "relatedEntities": [
+    "microorganism",
+    "soil"
+   ]
+  },
+  {
+   "id": "microbial-biogeochemistry",
+   "canonicalName": "Microbial biogeochemistry",
+   "aliases": [
+    "microbial element cycling"
+   ],
+   "definition": "The microbially mediated transformations that close the nitrogen, sulfur and carbon cycles, including nitrogen fixation, methanogenesis and methanotrophy.",
+   "category": "biological_process",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "biogeochemistry",
+    "microbial-biogeochemistry"
+   ],
+   "matchSlugs": [
+    "microbial-biogeochemistry"
+   ],
+   "relatedEntities": [
+    "microorganism",
+    "nitrogen-cycle",
+    "carbon-cycle"
+   ]
+  },
+  {
+   "id": "antimicrobial-resistance",
+   "canonicalName": "Antimicrobial resistance",
+   "aliases": [
+    "AMR",
+    "antibiotic resistance"
+   ],
+   "definition": "The evolution of resistance to antimicrobial drugs under selection pressure, with resistance genes moving horizontally between lineages.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "antimicrobial-resistance",
+    "antibiotic-resistance"
+   ],
+   "matchSlugs": [
+    "antimicrobial-resistance-evidence",
+    "antibiotic-resistance-evolution-mechanisms"
+   ],
+   "relatedEntities": [
+    "natural-selection",
+    "microorganism"
+   ]
+  },
+  {
+   "id": "immune-system",
+   "canonicalName": "Immune system",
+   "aliases": [
+    "immunity",
+    "adaptive immunity"
+   ],
+   "definition": "A layered defence combining barriers, innate pattern recognition and an adaptive system that generates receptor diversity by somatic recombination.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "immunology",
+    "immune-system"
+   ],
+   "matchSlugs": [
+    "the-immune-system-explained"
+   ],
+   "relatedEntities": [
+    "cell",
+    "microorganism"
+   ]
+  },
+  {
+   "id": "homeostasis",
+   "canonicalName": "Homeostasis",
+   "aliases": [
+    "physiological regulation",
+    "allostasis"
+   ],
+   "definition": "The maintenance of internal conditions within limits, by negative feedback around set points that are themselves adjustable.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "physiology",
+    "homeostasis",
+    "thermoregulation",
+    "circulation",
+    "cardiac-physiology",
+    "blood-pressure",
+    "endocrinology",
+    "hormone-receptors",
+    "feedback-regulation"
+   ],
+   "matchSlugs": [
+    "physiology-explained",
+    "thermoregulation-in-animals"
+   ],
+   "relatedEntities": [
+    "cell"
+   ]
+  },
+  {
+   "id": "protein-synthesis",
+   "canonicalName": "Protein synthesis",
+   "aliases": [
+    "translation",
+    "protein folding"
+   ],
+   "definition": "The construction of proteins from a nucleotide template, and the folding that determines what the resulting molecule can do.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "protein",
+    "proteomics",
+    "structural-biology"
+   ],
+   "matchSlugs": [
+    "protein-structure-prediction"
+   ],
+   "relatedEntities": [
+    "gene-expression",
+    "dna"
+   ]
+  },
+  {
+   "id": "genome-editing",
+   "canonicalName": "Genome editing",
+   "aliases": [
+    "CRISPR",
+    "gene editing"
+   ],
+   "definition": "Directed modification of a genomic sequence, most commonly by targeting a nuclease with a guide RNA and letting the cell's repair machinery finish the job.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "crispr",
+    "genome-editing",
+    "biotechnology",
+    "gene-editing",
+    "engineered-crops"
+   ],
+   "matchSlugs": [
+    "crispr-genome-editing-explained"
+   ],
+   "relatedEntities": [
+    "dna",
+    "genome"
+   ]
+  },
+  {
+   "id": "dna-sequencing",
+   "canonicalName": "DNA sequencing",
+   "aliases": [
+    "genome sequencing",
+    "high-throughput sequencing"
+   ],
+   "definition": "Determining the order of bases in a nucleic acid. Platforms differ qualitatively in read length and error profile, which decides what each can resolve.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "sequencing",
+    "genomics",
+    "bioinformatics",
+    "amplicon-sequencing",
+    "metagenome-assembled-genomes",
+    "single-cell-genomics",
+    "culturomics",
+    "culturing"
+   ],
+   "matchSlugs": [
+    "dna-sequencing-technologies",
+    "bioinformatics-explained"
+   ],
+   "relatedEntities": [
+    "dna",
+    "genome"
+   ]
+  },
+  {
+   "id": "thermodynamics",
+   "canonicalName": "Thermodynamics",
+   "aliases": [
+    "laws of thermodynamics"
+   ],
+   "definition": "The science of energy, heat and work, and of what those laws forbid. Bounds every engine, every cell and the planet's energy budget alike.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "thermodynamics",
+    "second-law",
+    "heat-engines",
+    "carnot-efficiency",
+    "exergy",
+    "gas-turbines"
+   ],
+   "matchSlugs": [
+    "laws-of-thermodynamics-explained",
+    "earth-energy-budget-and-the-second-law"
+   ],
+   "relatedEntities": [
+    "entropy",
+    "heat-transfer",
+    "energy"
+   ],
+   "glossaryId": "thermodynamics"
+  },
+  {
+   "id": "entropy",
+   "canonicalName": "Entropy",
+   "aliases": [
+    "second law"
+   ],
+   "definition": "A state function measuring the multiplicity of microstates consistent with a macrostate. Not disorder, and not a licence for the metaphors usually attached to it.",
+   "category": "physical_quantity",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "entropy",
+    "second-law"
+   ],
+   "matchSlugs": [
+    "entropy-explained"
+   ],
+   "parentEntities": [
+    "thermodynamics"
+   ],
+   "relatedEntities": [
+    "heat-transfer"
+   ],
+   "glossaryId": "entropy"
+  },
+  {
+   "id": "heat-transfer",
+   "canonicalName": "Heat transfer",
+   "aliases": [
+    "conduction",
+    "convection",
+    "thermal radiation"
+   ],
+   "definition": "The three mechanisms by which thermal energy moves, each with a different dependence on temperature and geometry.",
+   "category": "process",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "heat-transfer",
+    "conduction",
+    "convection"
+   ],
+   "matchSlugs": [
+    "heat-transfer-conduction-convection-radiation"
+   ],
+   "parentEntities": [
+    "thermodynamics"
+   ],
+   "relatedEntities": [
+    "entropy",
+    "radiative-transfer"
+   ]
+  },
+  {
+   "id": "energy",
+   "canonicalName": "Energy",
+   "aliases": [
+    "work",
+    "power"
+   ],
+   "definition": "The conserved quantity that changes form rather than amount. Distinguishing it from power is where most public confusion about energy begins.",
+   "category": "physical_quantity",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "energy",
+    "work",
+    "power"
+   ],
+   "matchSlugs": [
+    "energy-work-and-power"
+   ],
+   "relatedEntities": [
+    "thermodynamics",
+    "energy-system"
+   ]
+  },
+  {
+   "id": "energy-system",
+   "canonicalName": "Energy system",
+   "aliases": [
+    "energy conversion",
+    "power system"
+   ],
+   "definition": "The chain from primary energy through carriers to end use, and the physical, material and institutional constraints that decide what scales.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "energy",
+    "energy-systems",
+    "grid",
+    "capacity-factor",
+    "levelised-cost",
+    "energy-statistics",
+    "primary-energy",
+    "electricity-generation",
+    "hydrogen",
+    "electrolysis",
+    "energy-carriers",
+    "fuel-cells",
+    "wind-energy",
+    "betz-limit"
+   ],
+   "matchSlugs": [
+    "energy-systems-explained",
+    "grid-integration-of-variable-renewables"
+   ],
+   "relatedEntities": [
+    "photovoltaics",
+    "energy-storage",
+    "energy"
+   ]
+  },
+  {
+   "id": "photovoltaics",
+   "canonicalName": "Photovoltaics",
+   "aliases": [
+    "solar cell",
+    "PV"
+   ],
+   "definition": "Direct conversion of light into electricity at a semiconductor junction, bounded by the spectral and entropy losses of a single bandgap.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "photovoltaics",
+    "solar",
+    "solar-energy"
+   ],
+   "matchSlugs": [
+    "solar-photovoltaics-explained",
+    "thermodynamic-limits-of-photovoltaics",
+    "perovskite-stack-field-stability"
+   ],
+   "parentEntities": [
+    "energy-system"
+   ],
+   "relatedEntities": [
+    "semiconductor",
+    "thermodynamics"
+   ]
+  },
+  {
+   "id": "energy-storage",
+   "canonicalName": "Energy storage",
+   "aliases": [
+    "batteries",
+    "grid storage"
+   ],
+   "definition": "Holding energy for later use. Duration rather than power is the quantity that separates the technologies, and seasonal storage is a qualitatively different problem from diurnal.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "energy-storage",
+    "batteries"
+   ],
+   "matchSlugs": [
+    "energy-storage-fundamentals"
+   ],
+   "parentEntities": [
+    "energy-system"
+   ],
+   "relatedEntities": [
+    "energy-system"
+   ]
+  },
+  {
+   "id": "semiconductor",
+   "canonicalName": "Semiconductor",
+   "aliases": [
+    "band structure",
+    "doping"
+   ],
+   "definition": "A material whose conduction is controllable because a small energy gap separates its filled and empty electronic states.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "semiconductors",
+    "materials-physics",
+    "band-structure"
+   ],
+   "matchSlugs": [
+    "materials-physics-and-semiconductors"
+   ],
+   "relatedEntities": [
+    "photovoltaics",
+    "quantum-mechanics"
+   ]
+  },
+  {
+   "id": "quantum-mechanics",
+   "canonicalName": "Quantum mechanics",
+   "aliases": [
+    "quantum theory"
+   ],
+   "definition": "The framework describing systems whose action is comparable to Planck's constant: states, superposition, measurement and quantisation.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "quantum",
+    "quantum-mechanics",
+    "qubits",
+    "quantum-error-correction",
+    "decoherence"
+   ],
+   "matchSlugs": [
+    "quantum-mechanics-fundamentals",
+    "wave-particle-duality-explained"
+   ],
+   "relatedEntities": [
+    "semiconductor",
+    "electromagnetic-radiation"
+   ]
+  },
+  {
+   "id": "electromagnetic-radiation",
+   "canonicalName": "Electromagnetic radiation",
+   "aliases": [
+    "light",
+    "electromagnetic spectrum"
+   ],
+   "definition": "Propagating electromagnetic waves, equivalently photons, spanning radio to gamma rays. One phenomenon at different wavelengths, not several.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "electromagnetic-spectrum",
+    "optics",
+    "light"
+   ],
+   "matchSlugs": [
+    "electromagnetic-spectrum-applications",
+    "optics-and-light-explained"
+   ],
+   "relatedEntities": [
+    "quantum-mechanics",
+    "radiative-transfer"
+   ]
+  },
+  {
+   "id": "radiative-transfer",
+   "canonicalName": "Radiative transfer",
+   "aliases": [
+    "radiation transport"
+   ],
+   "definition": "How radiation propagates through an absorbing and emitting medium. The physics beneath the greenhouse effect and beneath every remote-sensing retrieval.",
+   "category": "process",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "radiative-transfer",
+    "radiation"
+   ],
+   "matchSlugs": [
+    "radiative-transfer-explained"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "electromagnetic-radiation",
+    "remote-sensing"
+   ]
+  },
+  {
+   "id": "fluid-dynamics",
+   "canonicalName": "Fluid dynamics",
+   "aliases": [
+    "fluid mechanics",
+    "turbulence"
+   ],
+   "definition": "The motion of fluids, governed by the ratio of inertial to viscous forces. Turbulence remains the classic unsolved problem and the reason geophysical models parameterise.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "fluid-dynamics",
+    "turbulence"
+   ],
+   "matchSlugs": [
+    "fluid-dynamics-explained"
+   ],
+   "relatedEntities": [
+    "atmospheric-circulation",
+    "heat-transfer"
+   ]
+  },
+  {
+   "id": "wave",
+   "canonicalName": "Wave",
+   "aliases": [
+    "oscillation",
+    "vibration"
+   ],
+   "definition": "A disturbance transporting energy without net transport of matter. One mathematics covering sound, light, seismic motion and quantum amplitudes.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "waves",
+    "oscillations",
+    "acoustics"
+   ],
+   "matchSlugs": [
+    "waves-and-oscillations-explained",
+    "sound-and-acoustics-explained"
+   ],
+   "relatedEntities": [
+    "electromagnetic-radiation"
+   ]
+  },
+  {
+   "id": "atmospheric-circulation",
+   "canonicalName": "Atmospheric circulation",
+   "aliases": [
+    "Hadley cell",
+    "general circulation"
+   ],
+   "definition": "The organised transport of heat from equator to pole, structured into cells by the planet's rotation.",
+   "category": "process",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "atmospheric-circulation",
+    "circulation",
+    "lapse-rate",
+    "atmospheric-stability",
+    "tropopause",
+    "temperature-inversion"
+   ],
+   "matchSlugs": [
+    "atmospheric-circulation-cells",
+    "atmospheric-physics-explained"
+   ],
+   "relatedEntities": [
+    "fluid-dynamics",
+    "climate-feedback"
+   ]
+  },
+  {
+   "id": "radioactivity",
+   "canonicalName": "Radioactivity",
+   "aliases": [
+    "radioactive decay",
+    "ionising radiation"
+   ],
+   "definition": "The spontaneous transformation of unstable nuclei, and the radiation it emits. Activity, absorbed dose and effective dose are three different quantities in three different units.",
+   "category": "process",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "radioactivity",
+    "radiation",
+    "nuclear-physics"
+   ],
+   "matchSlugs": [
+    "radioactivity-and-radiation-units",
+    "ionising-radiation-exposure-and-risk"
+   ],
+   "relatedEntities": [
+    "nuclear-energy"
+   ]
+  },
+  {
+   "id": "nuclear-energy",
+   "canonicalName": "Nuclear energy",
+   "aliases": [
+    "fission",
+    "fusion",
+    "binding energy"
+   ],
+   "definition": "Energy released when nuclear binding changes, by splitting heavy nuclei or joining light ones. Both follow from one binding-energy curve.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "nuclear",
+    "fission",
+    "fusion"
+   ],
+   "matchSlugs": [
+    "atomic-and-nuclear-physics-explained",
+    "nuclear-fission-and-reactors",
+    "nuclear-fusion-fundamentals"
+   ],
+   "relatedEntities": [
+    "radioactivity",
+    "energy-system"
+   ]
+  },
+  {
+   "id": "measurement-uncertainty",
+   "canonicalName": "Measurement uncertainty",
+   "aliases": [
+    "uncertainty",
+    "error analysis"
+   ],
+   "definition": "The quantified doubt attached to a measured value, without which a number is not a measurement. Type A and Type B evaluation answer different questions.",
+   "category": "scientific_method",
+   "sections": [
+    "physics",
+    "ecology",
+    "biology"
+   ],
+   "matchTags": [
+    "measurement-uncertainty",
+    "uncertainty",
+    "measurement",
+    "research-methods",
+    "meta-research",
+    "statistics"
+   ],
+   "matchSlugs": [
+    "measurement-uncertainty-explained"
+   ],
+   "relatedEntities": [
+    "scientific-method"
+   ]
+  },
+  {
+   "id": "remote-sensing",
+   "canonicalName": "Remote sensing",
+   "aliases": [
+    "Earth observation",
+    "satellite observation"
+   ],
+   "definition": "Measuring a property without contact, and the retrieval algorithms that turn a radiance into a geophysical quantity. What a satellite reports is a model output, not a direct reading.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "remote-sensing",
+    "earth-observation",
+    "satellites"
+   ],
+   "matchSlugs": [
+    "earth-observation-and-remote-sensing-explained",
+    "what-is-remote-sensing",
+    "remote-sensing-limitations-and-uncertainty"
+   ],
+   "relatedEntities": [
+    "radiative-transfer",
+    "environmental-monitoring"
+   ],
+   "glossaryId": "remote-sensing"
+  },
+  {
+   "id": "environmental-monitoring",
+   "canonicalName": "Environmental monitoring",
+   "aliases": [
+    "long-term monitoring",
+    "observation network"
+   ],
+   "definition": "Sustained repeat measurement of a defined variable. Long records are the only instrument for detecting slow change and cannot be reconstructed after a gap.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "monitoring",
+    "indicators",
+    "climate-indicators"
+   ],
+   "matchSlugs": [
+    "essential-climate-variables-explained",
+    "essential-biodiversity-variables-monitoring",
+    "biodiversity-monitoring-and-ecosystem-health"
+   ],
+   "relatedEntities": [
+    "remote-sensing",
+    "measurement-uncertainty"
+   ]
+  },
+  {
+   "id": "climate-model",
+   "canonicalName": "Climate model",
+   "aliases": [
+    "Earth system model",
+    "GCM"
+   ],
+   "definition": "A numerical solution of the governing equations on a grid, with sub-grid processes parameterised. What is parameterised is where the spread between models comes from.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "climate-models",
+    "modelling",
+    "earth-system-models"
+   ],
+   "matchSlugs": [
+    "climate-model-physics-explained",
+    "earth-system-models-explained",
+    "climate-models-projections-uncertainty"
+   ],
+   "relatedEntities": [
+    "climate-sensitivity",
+    "measurement-uncertainty",
+    "fluid-dynamics"
+   ]
+  },
+  {
+   "id": "scientific-method",
+   "canonicalName": "Scientific method",
+   "aliases": [
+    "evidence appraisal",
+    "study design"
+   ],
+   "definition": "How a claim is tested and how strongly a given design can support it — the difference between association and causation, and between one study and a synthesis.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology",
+    "biology",
+    "physics"
+   ],
+   "matchTags": [
+    "methodology",
+    "study-design",
+    "evidence",
+    "open-science",
+    "reproducibility",
+    "meta-research",
+    "research-methods"
+   ],
+   "relatedEntities": [
+    "measurement-uncertainty"
+   ]
+  },
+  {
+   "id": "invasive-species",
+   "canonicalName": "Invasive species",
+   "aliases": [
+    "invasive alien species",
+    "biological invasion"
+   ],
+   "definition": "An introduced species that establishes, spreads and causes measurable harm. Most introduced species do not; intervention cost rises steeply with invasion stage.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "invasive-alien-species",
+    "biosecurity",
+    "eradication",
+    "biological-control",
+    "island-conservation"
+   ],
+   "relatedEntities": [
+    "conservation",
+    "biodiversity"
+   ]
+  },
+  {
+   "id": "cloud",
+   "canonicalName": "Cloud",
+   "aliases": [
+    "cloud physics",
+    "condensation"
+   ],
+   "definition": "A suspension of water droplets or ice crystals formed on condensation nuclei. Clouds cool by reflecting sunlight and warm by trapping infrared, and the residual is the largest remaining uncertainty in climate physics.",
+   "category": "concept",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "cloud-physics",
+    "condensation-nuclei",
+    "clouds"
+   ],
+   "relatedEntities": [
+    "climate-feedback",
+    "radiative-transfer",
+    "atmospheric-circulation"
+   ]
+  },
+  {
+   "id": "earth-interior",
+   "canonicalName": "Earth interior",
+   "aliases": [
+    "geophysics",
+    "earth structure"
+   ],
+   "definition": "The layered internal structure of the planet, known almost entirely from seismic wave travel times, gravity and magnetism rather than from direct sampling.",
+   "category": "concept",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "seismology",
+    "earth-interior",
+    "geomagnetism",
+    "satellite-gravimetry"
+   ],
+   "relatedEntities": [
+    "earth-system",
+    "fluid-dynamics"
+   ]
+  },
+  {
+   "id": "particle-physics",
+   "canonicalName": "Particle physics",
+   "aliases": [
+    "Standard Model",
+    "fundamental particles"
+   ],
+   "definition": "The study of the fundamental constituents of matter and their interactions. The Standard Model accounts for every laboratory measurement and about five per cent of the universe.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "particle-physics",
+    "standard-model",
+    "higgs-boson",
+    "neutrinos",
+    "dark-matter"
+   ],
+   "relatedEntities": [
+    "quantum-mechanics",
+    "nuclear-energy"
+   ]
+  },
+  {
+   "id": "classical-mechanics",
+   "canonicalName": "Classical mechanics",
+   "aliases": [
+    "Newtonian mechanics",
+    "Lagrangian mechanics"
+   ],
+   "definition": "The description of motion in terms of forces, momentum and energy, with conservation laws as the deeper statements and an explicit domain of validity.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "classical-mechanics",
+    "newtons-laws",
+    "conservation-laws",
+    "lagrangian-mechanics",
+    "determinism"
+   ],
+   "relatedEntities": [
+    "energy",
+    "fluid-dynamics",
+    "wave"
+   ]
+  },
+  {
+   "id": "developmental-biology",
+   "canonicalName": "Developmental biology",
+   "aliases": [
+    "development",
+    "evo-devo",
+    "morphogenesis"
+   ],
+   "definition": "How a single cell becomes a patterned organism, through morphogen gradients, induction and a deeply conserved regulatory toolkit.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "developmental-biology",
+    "morphogen-gradients",
+    "hox-genes",
+    "stem-cells"
+   ],
+   "relatedEntities": [
+    "gene-expression",
+    "cell-division",
+    "evolution"
+   ]
+  },
+  {
+   "id": "nervous-system",
+   "canonicalName": "Nervous system",
+   "aliases": [
+    "neuron",
+    "neuroscience",
+    "action potential"
+   ],
+   "definition": "Signalling by controlled ion movement across selectively permeable membranes, and the networks that behaviour emerges from.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "neuroscience",
+    "action-potential",
+    "connectomics",
+    "neurons"
+   ],
+   "relatedEntities": [
+    "cell",
+    "homeostasis"
+   ]
+  },
+  {
+   "id": "plant-physiology",
+   "canonicalName": "Plant physiology",
+   "aliases": [
+    "water transport",
+    "stomatal control"
+   ],
+   "definition": "How plants move water without a pump, and the stomatal trade-off between carbon gain and water loss that governs terrestrial productivity.",
+   "category": "biological_process",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "plant-physiology",
+    "water-transport",
+    "stomata",
+    "nutrient-uptake"
+   ],
+   "relatedEntities": [
+    "photosynthesis",
+    "primary-production",
+    "water-cycle"
+   ]
+  },
+  {
+   "id": "synthetic-biology",
+   "canonicalName": "Synthetic biology",
+   "aliases": [
+    "metabolic engineering",
+    "minimal genome"
+   ],
+   "definition": "Applying engineering principles — standardisation, abstraction, modularity — to biological systems, and confronting the context-dependence that undermines them.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "synthetic-biology",
+    "metabolic-engineering",
+    "minimal-genome",
+    "biocontainment",
+    "biosafety"
+   ],
+   "relatedEntities": [
+    "genome-editing",
+    "dna-sequencing"
+   ]
+  }
+ ]
+}

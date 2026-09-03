@@ -1,0 +1,230 @@
+{
+  "batchId": "v-biology-taxonomy-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "how-many-species-are-there",
+      "path": "content/en/biology/taxonomy/how-many-species-are-there.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "COL26.8, the August 2026 Catalogue of Life release, contains 2,183,133 accepted names at the rank of species; animals 1,531,146, plants 388,686, fungi 157,044",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search?rank=species&status=accepted&limit=0 (COL26.8, ChecklistBank dataset 316115, issued 2026-08-20, DOI 10.48580/dgywk)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1,931,136 species-rank names are classed as synonyms",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search?rank=species&status=synonym&limit=0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Nearly half the species-level names ever put into circulation ... do not currently designate a distinct organism\"",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/import?limit=1",
+          "disposition": "qualified",
+          "note": "The ratio (1,931,136 synonyms against 2,183,133 accepted plus 82,483 provisionally accepted species-rank names) holds inside COL, but COL is an assembly of contributed checklists, not a complete nomenclator of every species name ever published. Narrowed to \"the species-level names the catalogue tracks\", which is what the source can support."
+        },
+        {
+          "claim": "The GBIF Backbone Taxonomy resolves to about 2.61 million accepted species and underpins roughly 3.93 billion occurrence records",
+          "sourceChecked": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&rank=SPECIES&status=ACCEPTED&limit=0 and https://api.gbif.org/v1/occurrence/count",
+          "disposition": "qualified",
+          "note": "Both figures check out exactly on the day of review (2,614,593 accepted species; 3,932,076,923 occurrences), but both are live counters that GBIF publishes without a release label, and the article carried only the word \"currently\". Live dataset, added temporal qualifier: \"as of September 2026\"."
+        },
+        {
+          "claim": "Difference of more than 400,000 names between the COL and GBIF accepted-species totals",
+          "sourceChecked": "https://api.gbif.org/v1/species/search?datasetKey=d7dddbf4-2cf0-4f39-9b2a-bb099caae36c&rank=SPECIES&status=ACCEPTED&limit=0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 8.7 million eukaryotic species, standard error 1.3 million, of which roughly 2.2 +/- 0.18 million are marine",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001127",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Some 86 per cent of terrestrial and 91 per cent of marine eukaryotes had not yet been described\"",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001127",
+          "disposition": "corrected",
+          "note": "Mora et al. write \"some 86% of existing species on Earth and 91% of species in the ocean still await description\". 86% is the global figure covering all eukaryotes, not a terrestrial-only figure; recasting it as \"terrestrial\" also makes it look like a matched pair with the marine 91%, which it is not. Corrected to \"86 per cent of species on Earth and 91 per cent of species in the ocean still awaited description\"."
+        },
+        {
+          "claim": "Mora et al. kingdom-level estimates of 7.77 million animals, 611,000 fungi and 298,000 plants, and their statement that the higher-taxon method could not be applied to prokaryotes because description of higher ranks has not reached an asymptote",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001127",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Roughly 1.5 million beetles, 5.5 million insects and 7 million terrestrial arthropods; totals of 30 million or more extremely unlikely; about 80 per cent of insects still undescribed",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28938083/ (abstract of Stork 2018, Annu. Rev. Entomol., cross-checked against Crossref for DOI 10.1146/annurev-ento-020117-043348)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"In insect faunas that had been worked over thoroughly, only 1 to 2 per cent of species turned out to be genuinely cryptic\"",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/28938083/",
+          "disposition": "qualified",
+          "note": "Stork writes that \"unbiased studies of previously well-researched insect faunas indicate that 1-2% of species may be truly cryptic\". The article turned an indication about what may be the case into a settled finding about what turned out to be the case. Hedge restored, and the source's \"unbiased studies\" qualifier added."
+        },
+        {
+          "claim": "Fungal diversity defensible range 2.2 to 3.8 million, against about 120,000 species accepted at the time, so only 3 to 8 per cent named",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11687528/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"A dominance scaling law fitted across some 35,000 sampled communities ... produced a prediction that Earth holds upward of a trillion microbial species\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4889364/",
+          "disposition": "qualified",
+          "note": "Locey and Lennon predict that Earth is home to \"as many as 1 trillion (10^12) microbial species\" - an upper bound. \"Upward of a trillion\" reads as a floor, which inverts the direction of the authors' claim. Changed to \"as many as a trillion\". The dataset size (approximately 35,000 sites, of which 20,376 microbial and 14,862 macrobial) and the lognormal-plus-dominance-scaling method are as described."
+        },
+        {
+          "claim": "A census using 1.7 billion high-quality 16S rRNA reads from 34,368 samples across 492 studies reached 0.8 to 1.6 million bacterial and archaeal OTUs at 97 per cent similarity, about six orders of magnitude below the scaling-law prediction",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000106",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Description economics: about 6,200 species per year with SD 811 over the two decades before 2011, 24.8 species per taxonomist career, US$48,500 per description, roughly 1,200 years, 303,000 taxonomists and US$364 billion to finish; and nematodes hold fewer than 20,000 accepted names",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001127 and https://api.checklistbank.org/dataset/316115/nameusage/search?TAXON_ID=NM&rank=species&status=accepted&limit=0",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Stork 2018 in Annual Review of Entomology is paywalled and annualreviews.org returns 403 to scripted clients. The full abstract was read verbatim on PubMed (PMID 28938083) and independently on Crossref; it carries every figure the article quotes from it (1.5/5.5/7 million, the rejection of 30 million, 80% undescribed, 1-2% cryptic). The body of the review was not read, so the article's added detail that host specificity 'had been measured on a handful of tree species at a handful of tropical sites' rests on the abstract's phrase 'based on the host specificity of insects to plants' plus background, not on a passage I read.",
+        "Mora et al. give US$48,500 as the average cost to describe an ANIMAL species. The article applies it to the whole eukaryote catalogue - which is exactly how Mora et al. themselves use it in their US$364 billion projection - but the figure's empirical base is narrower than the sentence suggests. Left as written because the source does the same thing.",
+        "The GBIF numbers are counters with no version label, read from the GBIF API on 3 September 2026. The temporal anchor added is the month of reading, because GBIF publishes no release identifier for them; the COL figures, by contrast, are pinned to a named, DOI'd release."
+      ]
+    },
+    {
+      "slug": "botany-plant-diversity-explained",
+      "path": "content/en/biology/taxonomy/botany-plant-diversity-explained.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "World Flora Online \"currently\" accepts 382,401 species among the 1,649,543 plant names it tracks",
+          "sourceChecked": "https://www.worldfloraonline.org/",
+          "disposition": "qualified",
+          "note": "Both figures are exactly what the WFO portal reported when read (1,649,543 names, 382,401 accepted species), but they are live counters and the portal cites itself only as 'WFO (2026)' with no finer release marker. Live dataset, added temporal qualifier: 'as of September 2026'."
+        },
+        {
+          "claim": "In COL26.8 flowering plants account for 352,619 of the 368,152 accepted vascular species (roughly 96 per cent), conifers 835 and cycads 376",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search?TAXON_ID=CMQ8S&rank=species&status=accepted&limit=0 plus per-class queries for Magnoliopsida, Liliopsida, Pinopsida and Cycadopsida",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Table counts for COL26.8: liverworts 7,500, mosses 12,031, hornworts 305, lycophytes 1,490, ferns 12,444, flowering plants 352,619",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search (per-taxon accepted species-rank counts for Marchantiophyta, Bryophyta, Anthocerotophyta, Lycopodiopsida, Polypodiopsida, Magnoliopsida + Liliopsida)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Table cell giving gymnosperms as 1,212 under a column headed \"Accepted species, COL26.8\"",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search?TAXON_ID=C7ZVJ|CGVH9|BT&rank=species&status=accepted&limit=0",
+          "disposition": "qualified",
+          "note": "1,212 is the number of LIVING gymnosperms (835 conifers + 376 cycads + one surviving ginkgo). The accepted-species count COL26.8 actually holds for those three classes is 1,599, because 387 of the 388 Ginkgoales entries are extinct-flagged. Every other row in that column is the raw accepted count, so this one cell silently changed the column's meaning. Cell now reads '1,599 (1,212 living)'; the prose already said 'living gymnosperms' and is unchanged."
+        },
+        {
+          "claim": "COL lists 388 accepted species in Ginkgoales of which 387 carry an extinct flag",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search?TAXON_ID=39Q&rank=species&status=accepted&extinct=true&limit=0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A phylotranscriptomic analysis using up to 852 nuclear genes and 1,701,170 aligned sites across 92 streptophyte taxa \"recovered that sister relationship robustly across 69 separate analytical treatments\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4234587/",
+          "disposition": "qualified",
+          "note": "The gene, site and taxon counts are exact. But Wickett et al. describe the 69 analyses as performed 'to test the robustness of phylogenetic inferences to permutations of the data matrix or to phylogenetic method', and locate their strong support for the Zygnematophyceae sister relationship 'in analyses of amino acids and first and second codon positions' - a subset. The article's phrasing implied all 69 treatments recovered it. Rewritten as 'found robust support for that sister relationship, tested across 69 separate analytical treatments of the data matrix and the inference method', which is what the abstract says."
+        },
+        {
+          "claim": "The 1,000 Plant Transcriptomes Initiative sequenced 1,124 species spanning Archaeplastida and found gene-family expansions preceding the origins of green plants, land plants and vascular plants, with whole-genome duplications recurring through flowering plants and ferns",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/s41586-019-1693-2%22&resultType=core (verbatim Nature 2019 abstract; open-access copy PMC6872490)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A Bayesian relaxed-clock analysis codifying 37 fossil calibrations recovered a Cambrian origin for Embryophyta with highest probability and crown vascular plants between the Late Ordovician and the late Silurian",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877938/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Analyses accommodating compositional heterogeneity across sites support bryophyte monophyly ... and, in several treatments, place ... Setaphyta as sister to all other land plants\"",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.cub.2018.01.063%22&resultType=core (verbatim Puttick et al. 2018 Current Biology abstract)",
+          "disposition": "corrected",
+          "note": "The article attached both results to the same class of model and joined them with 'and', but Puttick et al. separate them and they are mutually exclusive topologies: SITE-heterogeneous concatenation gives more support to Setaphyta as sister to all other land plants (which makes bryophytes paraphyletic), while LINEAGE-heterogeneous concatenation and gene-tree analyses support bryophyte monophyly. Rewritten to attribute each result to the model class the paper attributes it to and to say plainly that they are competing topologies."
+        },
+        {
+          "claim": "Of fifteen possible rooted arrangements for the major embryophyte lineages, that work rejected all but three, which differ only in where hornworts attach; and the ancestral land plant was probably more complex than the older topology implied",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.cub.2018.01.063%22&resultType=core",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A Bayesian analysis of about 15,000 fossil occurrences across 198 families found several families originating in the Jurassic, rejected a Cretaceous origin, and recovered a marked increase in lineage accumulation between 125 and 72 million years ago",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/s41559-020-01387-8%22&resultType=core (verbatim Silvestro et al. 2021 Nature Ecology & Evolution abstract)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Puttick et al. 2018 (Current Biology) and Silvestro et al. 2021 (Nature Ecology & Evolution) are both paywalled - sciencedirect.com blocks scripted clients and nature.com 303s to an identity provider. For both I read the full abstract verbatim through the Europe PMC REST API by DOI, not the body. The ScienceDirect PII in the botany source list (S0960982218300964) was confirmed against Crossref as the correct article for DOI 10.1016/j.cub.2018.01.063.",
+        "The 'Accepted species, COL26.8' column includes extinct-flagged taxa in the bryophyte rows: 184 of the 7,500 liverworts, 298 of the 12,031 mosses and 81 of the 305 hornworts are fossils. The column label is honest, and the vascular rows carry no extinct flags at all, so I left the numbers alone - but a reader who takes the hornwort figure as a count of living species is off by about a quarter. An editor may want a footnote.",
+        "The traits in the 'Innovation that mattered' column (cuticle without stomata in liverworts, stomata on the moss sporophyte capsule, the hornwort basal meristem, lignified conducting tissue in lycophytes) are standard textbook botany and no source in the article's list carries them. I treated them as uncontroversial background and did not verify them against a source."
+      ]
+    },
+    {
+      "slug": "zoology-animal-diversity-explained",
+      "path": "content/en/biology/taxonomy/zoology-animal-diversity-explained.md",
+      "status": "clean",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "Thirty-four animal phyla sit directly under Animalia in COL26.8, carrying 1,531,146 accepted species names of which 128,616 are flagged extinct",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/tree/N/children and https://api.checklistbank.org/dataset/316115/nameusage/search?TAXON_ID=N&rank=species&status=accepted&extinct=true&limit=0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Arthropods account for 1,153,259 accepted names and insects for 941,223",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search?TAXON_ID=RT|H6&rank=species&status=accepted&limit=0",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The twelve-row phylum table: accepted and extinct-flagged counts for Arthropoda 1,153,259/31,116, Mollusca 154,718/65,505, Chordata 79,689/570, Platyhelminthes 27,007/3, Cnidaria 20,622/6,052, Nematoda 19,604/30, Annelida 18,982/1,484, Echinodermata 11,891/4,159, Porifera 9,899/59, Xenacoelomorpha 441/1, Ctenophora 197/15, Placozoa 4/0",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search (per-phylum accepted and extinct=true species-rank counts, COL26.8 / ChecklistBank 316115)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "More than two-fifths of the molluscan and a third of the echinoderm entries are fossil taxa; nematodes hold fewer than 20,000 accepted names",
+          "sourceChecked": "https://api.checklistbank.org/dataset/316115/nameusage/search (65,505/154,718 = 42.3%; 4,159/11,891 = 35.0%; Nematoda 19,604)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 1995 analysis of 18S ribosomal DNA from all three lophophorate phyla found them to be protostomes closely related to molluscs and annelids, overturning an assignment to the deuterostomes",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1126/science.7886451%22&resultType=core (verbatim Halanych et al. 1995 Science abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 1997 18S analysis recovered a clade of arthropods, tardigrades, onychophorans, nematodes, nematomorphs, kinorhynchs and priapulids, named Ecdysozoa on the inference that ecdysis arose once, and found no support for Articulata; it also made C. elegans and D. melanogaster relatively close relatives",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/387489a0%22&resultType=core (verbatim Aguinaldo et al. 1997 Nature abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Euarthropod trace fossils at around 537 Ma, trilobites by 521 Ma, Burgess Shale-type deposits from around 518 Ma; the 550 Ma Miaohe biota is richly fossiliferous with algae and contains no animals, and the 560 Ma Doushantuo phosphates supply none either; on that evidence the euarthropod stem lineage is no older than about 550 Ma",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6003487/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A Bayesian analysis using four fossil-calibration strategies placed crown Metazoa in the Cryogenian with most crown-bilaterian phyla diversifying through the Ediacaran, while concluding that fossil ambiguity and clock violations cap achievable precision below what testing geological causes would require",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4651906/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2023 study used chromosome-scale synteny with new genomes for a ctenophore, two sponges and three unicellular relatives; ctenophores and the unicellular outgroups share ancestral arrangements while sponges, cnidarians, placozoans and bilaterians share derived fusion-and-mixing events that are rare and effectively irreversible, placing ctenophores as sister to all other animals",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/s41586-023-05936-6%22&resultType=core (verbatim Schultz et al. 2023 Nature abstract)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Genome-scale sampling of every phylum showed that support for major spiralian groupings can be constructed in strongly conflicting ways depending on taxon and orthologue sets, and that Dayhoff-6 recoding can itself change support at the base of the tree",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1098/rspb.2019.0831%22&resultType=core (verbatim Laumer et al. 2019 Proc. R. Soc. B abstract)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "PMC served a reCAPTCHA instead of the article for Schultz et al. 2023 (PMC10232365) and Laumer et al. 2019 (PMC6650721), which are the two URLs the article cites. For both I read the full abstract verbatim through the Europe PMC REST API by DOI and confirmed title, journal, year and PMCID; the bodies were not read. Every figure the article draws from them is in the abstract.",
+        "Halanych et al.'s abstract confirms the 18S result, all three lophophorate phyla, the protostome placement near molluscs and annelids, and the departure from 'the commonly held view of deuterostome affinity'. The article's added reason for that older view - that it rested on the lophophorates' mode of coelom formation - is textbook background and is not in the abstract I read.",
+        "Template sameness across this batch: all three articles open on a Catalogue of Life count, run one wide comparison table, and close on a section enumerating limits ('Three limitations travel with every figure on this page' / 'Two further limits are worth stating plainly' / 'Two limits are worth carrying away'). Not restructured - the shape suits the material and the content differs - but the closing move is close enough to read as formula if these three are seen together."
+      ]
+    }
+  ]
+}

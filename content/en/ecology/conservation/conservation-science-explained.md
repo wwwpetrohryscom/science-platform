@@ -18,7 +18,7 @@ related:
   - invasive-species-management
   - conservation-trade-offs-and-prioritisation
   - habitat-fragmentation-and-connectivity
-_bodyHash: a0d2d819
+_bodyHash: '26120891'
 ---
 
 Conservation asks a question that sounds practical and is in fact causal: did this action change the trajectory of this population, this habitat, this landscape, compared with what would have happened without it? Almost every methodological difficulty in the field descends from one uncomfortable property of that question — the comparison state is never observed. It has to be constructed.
@@ -53,7 +53,7 @@ Two cross-cutting questions sit underneath all of them. How risk is graded — t
 
 Three gaps are structural rather than incidental. Geographically, the assessment literature repeatedly identifies Africa, Latin America and the Caribbean, and parts of Asia as under-represented; conclusions drawn from temperate, well-funded systems are being applied to tropical systems with different ecology and different governance. Taxonomically, the bias toward vertebrates in monitoring mirrors the bias in risk assessment itself. Temporally, the mismatch is the sharpest: funding cycles run three to five years, while the effects of connectivity and of restoration accumulate over decades and can be invisible at the point when a project reports.
 
-Conservation also has no widely used equivalent of clinical-trial registration, so abandoned and unsuccessful projects mostly leave no record, and the size of the resulting publication bias is unknown rather than estimated. Curated evidence syntheses such as the Conservation Evidence project have reduced the cost of finding what has been tested, but they can only summarise what was written down.
+There is also no way to size that gap from the published record itself. The syntheses summarised above can only pool work that was written up, and none of them estimates how much unsuccessful or abandoned project work never reached print. Curated evidence syntheses such as the Conservation Evidence project have reduced the cost of finding what has been tested, but they can only summarise what was written down.
 
 ## Area targets are an input, not an outcome
 

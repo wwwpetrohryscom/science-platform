@@ -20,7 +20,7 @@ pillar: what-is-climate-change
 _bodyHash: 2e1ad46
 ---
 
-The greenhouse-gas concentration record is, by some distance, the cleanest indicator in the climate dataset, and the most direct measurement of the driver behind [climate change](/en/ecology/climate-change/what-is-climate-change). The atmospheric mole fraction of CO₂ in a clean-air sample is something a calibrated instrument can measure to a precision of about 0.1 parts per million. The same is true to comparable precision for methane and nitrous oxide. The long-term trends are not contested at the measurement level — they are read off the instruments.
+The [greenhouse-gas concentration](/en/glossary/greenhouse-gas-concentration) record is, by some distance, the cleanest indicator in the climate dataset, and the most direct measurement of the driver behind [climate change](/en/ecology/climate-change/what-is-climate-change). The atmospheric mole fraction of CO₂ in a clean-air sample is something a calibrated instrument can measure to a precision of about 0.1 parts per million. The same is true to comparable precision for methane and nitrous oxide. The long-term trends are not contested at the measurement level — they are read off the instruments.
 
 What is worth understanding is how the global records get built from individual site measurements, what the major source agencies are, and what the concentration trends do and do not tell you on their own. The framework piece — what concentrations mean for [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) and ultimately for temperature — is handled separately in this cluster.
 
@@ -44,7 +44,7 @@ The seasonal cycle in CO₂ is the other feature of the record worth noting. Nor
 
 ## The Annual Greenhouse Gas Index
 
-For an operational summary of the *direct* radiative forcing component, the NOAA Global Monitoring Laboratory publishes the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/) (AGGI). The AGGI reports the year-over-year change in the direct radiative forcing of the five main long-lived greenhouse gases (CO₂, methane, nitrous oxide, CFC-12, CFC-11) plus 15 minor halogenated gases, indexed to 1990 = 1.0.
+For an operational summary of the *direct* radiative forcing component, the NOAA Global Monitoring Laboratory publishes the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/) (AGGI). The AGGI reports the year-over-year change in the direct radiative forcing of the five main long-lived greenhouse gases (CO₂, methane, nitrous oxide, CFC-12, CFC-11) plus seventeen minor halogenated gases, indexed to 1990 = 1.0. The index for 2024 was 1.54.
 
 The AGGI exists to be the unambiguous single-number version of the gas record. It does not include aerosols — which carry the larger uncertainty in total anthropogenic forcing — and it does not include the slow climate response. It does isolate the part of the radiative-forcing trajectory that is directly attributable to measured concentration changes. When a discussion calls for one number that the entire climate community will agree on, the AGGI is the right one to cite.
 
@@ -78,7 +78,7 @@ Read alongside [ocean heat content](/en/ecology/climate-change/ocean-heat-conten
 
 ## Sources
 
-1. **NOAA Global Monitoring Laboratory** — [Trends in atmospheric carbon dioxide and other greenhouse gases](https://gml.noaa.gov/), and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Operational global flask network and the direct-forcing summary.
+1. **NOAA Global Monitoring Laboratory** — [Trends in atmospheric carbon dioxide and other greenhouse gases](https://gml.noaa.gov/), and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/), 2024 edition. Operational global flask network and the direct-forcing summary.
 2. **World Meteorological Organization** — [Greenhouse Gas Bulletin](https://wmo.int/), Global Atmosphere Watch programme. Independent global mean concentration product.
 3. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 2](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of atmospheric composition change.
 4. **Copernicus Climate Change Service** — [Greenhouse-gas indicator products](https://climate.copernicus.eu/), ECMWF / European Commission. European satellite and reanalysis-based products.

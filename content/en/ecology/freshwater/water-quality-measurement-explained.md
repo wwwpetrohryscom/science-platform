@@ -18,14 +18,14 @@ related:
   - freshwater-biodiversity-decline
   - groundwater-and-aquifer-depletion
 pillar: freshwater-ecosystems-explained
-_bodyHash: 6210d136
+_bodyHash: 37888cb7
 ---
 
 There is no such thing as water quality in the abstract. A sample has a temperature, an oxygen concentration, a suspended-solids load and a bacterial count; whether those values are good or bad is a comparison against a threshold, and the threshold encodes a purpose — drinking, bathing, irrigation, or supporting a particular biological community. The same river reach can pass one test and fail another on the same day. Most confusion about water-quality reporting comes from reading a compliance judgement as if it were a physical measurement. What follows applies across the compartments surveyed in the overview of [freshwater ecosystems](/en/ecology/freshwater/freshwater-ecosystems-explained), though the sampling problem differs sharply between a river, a lake and an aquifer.
 
 ## The parameters taken almost every time
 
-Four measurements travel with nearly every field sample the US Geological Survey collects: temperature, pH, specific conductance and dissolved oxygen. They are cheap, they are made in situ with a multi-parameter sonde, and between them they constrain a surprising amount.
+Three measurements travel with nearly every field sample the US Geological Survey collects — temperature, pH and specific conductance — and dissolved oxygen is a fourth the agency describes as commonly taken alongside them. They are cheap, they are made in situ with a multi-parameter sonde, and between them they constrain a surprising amount.
 
 **Dissolved oxygen** is the one most directly tied to whether animals can live in the water. It is inversely related to temperature, so it carries both a seasonal and a daily cycle, and it responds to photosynthesis, to decomposition and to turbulence. The USGS gives more than 8 mg/L as typical for surface water of normal salinity in summer, and defines water below 2 mg/L as hypoxic — the condition that produces the seasonal oxygen-depleted zone off the Mississippi and Atchafalaya outflows, where nutrient-driven algal production is consumed by bacteria in the subsurface layer. A single oxygen reading is therefore almost uninterpretable without the time of day, the temperature and the flow condition attached.
 

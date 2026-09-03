@@ -1,0 +1,295 @@
+{
+  "batchId": "v-ecology-oceans-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "ocean-science-explained",
+      "path": "content/en/ecology/oceans/ocean-science-explained.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "Ocean volume about 1.335 billion cubic kilometres, roughly 97 per cent of Earth's water, covering more than 70 per cent of the planet's surface",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/oceanwater.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Average ocean depth 3,682 metres; Challenger Deep about 10,935 metres",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/oceandepth.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Dissolved salt averages about 35 parts per thousand, roughly 3.5 per cent of the weight of seawater",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/whysalty.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "IPCC AR6: virtually certain the upper ocean has become more stably stratified since at least 1970 across the vast majority of the globe, driven by surface-intensified warming and high-latitude freshening; 0-200 m stratification increased 4.9 +/- 1.5 per cent between 1970 and 2018",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-9/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Nature Climate Change: 5.3 per cent stratification increase (5.0 to 5.8 per cent) over 1960-2018 measured by squared buoyancy frequency to 2,000 m, about 0.90 per cent per decade, roughly 71 per cent of it in the upper 200 m and more than 90 per cent attributable to temperature",
+          "sourceChecked": "https://pure.psu.edu/en/publications/increasing-ocean-stratification-over-the-past-half-century/ (institutional abstract of https://www.nature.com/articles/s41558-020-00918-2)",
+          "disposition": "verified",
+          "note": "nature.com redirects scripted clients to an identity provider, so the publisher page itself could not be read. The full abstract was read on Penn State's institutional repository record for the same paper and matches the article's figures exactly, including the 0.90 per cent per decade rate and the 71 per cent / >90 per cent shares. Recorded as verified against that copy, not against nature.com."
+        },
+        {
+          "claim": "The IPCC assesses that the ocean stored 91 per cent of the total energy the Earth system gained between 1971 and 2018",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-9/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NASA Earth Observatory: the biological pump transfers about 10 gigatonnes of carbon from the atmosphere to the deep ocean each year",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/what-are-phytoplankton/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA Ocean Exploration: more than 90 per cent of the ocean lies deeper than 200 m; 28.7 per cent of the global seafloor mapped by multibeam sonar as of April 2026, around 56 per cent within United States waters; explorers have directly seen less than 0.001 per cent of the deep-sea floor, roughly the size of Rhode Island",
+          "sourceChecked": "https://oceanexplorer.noaa.gov/ocean-fact/explored/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Argo: first float deployed 1999; the 3,000-float target on a 3-degree grid met in November 2007; the Argo2020 design aiming for about 4,000 floats across all types; millionth profile October 2012, two-millionth September 2018, three-millionth July 2024; 26 countries contributing",
+          "sourceChecked": "https://www.aoml.noaa.gov/argo/",
+          "disposition": "corrected",
+          "note": "Every date and milestone checks out, but 4,000 is not the all-types total. AOML gives the Argo2020 design as 4,000 Core Argo floats plus 1,200 Deep Argo and 1,000 BGC-Argo — about 6,200 across all types. 'about 4,000 floats across all types' understated the design by a third and erased the Deep and biogeochemical components, which the same article later relies on when it says biogeochemical variables are measured on a small fraction of the array. Replaced with the three published sub-targets."
+        },
+        {
+          "claim": "NOAA National Ocean Service estimates a parcel of water takes about 1,000 years to complete the global conveyor circuit",
+          "sourceChecked": "https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The Nature Climate Change stratification paper was read as an institutional-repository abstract, not on the publisher's site; the body of the paper (including how the 2,000 m depth range interacts with the 71 per cent upper-200 m share) was not read.",
+        "The article says the deep circulation 'will keep warming for centuries after the surface stabilises, as the IPCC assesses'. AR6 Chapter 9 states that deep-ocean warming is irreversible over centuries to millennia (very high confidence) and becomes scenario-dependent only after about 2040, which supports the sense but is not phrased as a post-stabilisation commitment. Left as written; an editor may want the AR6 wording instead."
+      ]
+    },
+    {
+      "slug": "ocean-acidification-explained",
+      "path": "content/en/ecology/oceans/ocean-acidification-explained.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "EEA indicator: global mean surface seawater pH 8.11 in 1985 and 8.04 in 2024, about an 18 per cent increase in hydrogen ion concentration, built on the Hawaii ALOHA record and Copernicus Marine Service estimates",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/indicators/ocean-acidification",
+          "disposition": "verified"
+        },
+        {
+          "claim": "IPCC assesses the very likely rate of surface pH decline at 0.016 to 0.020 units per decade in the subtropics, roughly 4 per cent more hydrogen ions per decade, and 0.002 to 0.026 units per decade in subpolar and polar zones",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+          "disposition": "qualified",
+          "note": "The numbers are exactly as AR6 Chapter 5 gives them, but AR6 attaches a period to them — 'since the 1980s' — which the sentence dropped. These are trends in a still-accumulating observational record, so a rate quoted without its window reads as open-ended. Added 'both assessed over the record since the 1980s', which is the source's own qualifier."
+        },
+        {
+          "claim": "Regional surface pH trend table: subtropical open ocean -0.016 to -0.019, central and eastern tropical Pacific -0.022 to -0.026 (upwelling of CO2-rich subsurface water), western tropical Pacific warm pool -0.010 to -0.013 (older extratropical CO2 signal), subpolar and polar -0.002 to -0.026 per decade",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "High confidence in shoaling saturation horizons: roughly 1-2 m per year in the Pacific where the aragonite horizon sits between a few hundred metres and 1,200 m; 4 m per year to 1,710 m in the Iceland Sea over 1984-2008; 10-15 m per year to 2,250 m in the Irminger Sea over 1991-2016; acidification has penetrated beyond 2,000 m in the northern North Atlantic and Southern Ocean",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Aragonite saturation has fallen at 0.07 to 0.12 per decade in subtropical surface waters",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The largest projected change in the IPCC assessment is a pH decline of 0.44 +/- 0.005 units between 1870-1899 and 2080-2099 under the highest-emissions CMIP6 scenario",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA's Ocean Acidification Program states the ocean has become about 26 per cent more acidic on average over the past 250 years",
+          "sourceChecked": "https://oceanacidification.noaa.gov/what-is-ocean-acidification/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The ocean takes up roughly 30 per cent of the CO2 released to the atmosphere, as NOAA's National Ocean Service puts it",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/acidification.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global Change Biology meta-analysis of 228 studies: pooled decreases in survival, calcification, growth, development and abundance; sensitivity varies by taxon; mollusc larvae notably vulnerable while enhanced early-life-stage sensitivity is not universal; effects amplified with warming; variability increases in multi-species assemblages; explicit caution against forecasting abundance from single-species laboratory work",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/23505245/ (abstract via NCBI E-utilities)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "PLOS Biology decline-effect meta-analysis of 91 studies and the formal comment against it; and the article's summary that the underlying pattern of shrinking effect sizes 'as sample sizes and replication improved' is not itself in doubt",
+          "sourceChecked": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001511 and https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001809",
+          "disposition": "qualified",
+          "note": "Both papers check out as described — 91 studies, the collapse from >5 to <0.5, the small-sample/high-impact-journal pattern, three failed biological explanations, the 'negligible direct impact' conclusion, and the comment's zero-value artefact argument with its data errors and exclusions. The overreach was the closing sentence. The comment does concede a decline ('Without doubt, there has been a decline through time in the averaged effect size'), so the article was right that something is agreed, but it attached the disputing party's own causal mechanism to it: the comment attributes the decline to more and different species being tested, a wider range of behaviours, and changed methods — not to improved sample sizes and replication, which is the losing side of the dispute. Rewritten to state only what the comment's author actually concedes and the reason he gives."
+        }
+      ],
+      "openQuestions": [
+        "The IPCC's assessed subpolar/polar range appears as 0.002 to 0.026 in the chapter's executive summary and as 0.003 to 0.026 in the chapter body. The article uses the executive-summary figure. Both are in AR6; left as-is, but an editor may prefer to say which one.",
+        "The table's driver for the subpolar and polar row — sea-ice loss, freshwater input and sparse time series — is more specific than the sentence AR6 gives at that point ('the complex interplay between physical and biological forcing mechanisms'), though the sparse-time-series part is supported directly. Not changed; flagged as the weakest cell in that table."
+      ]
+    },
+    {
+      "slug": "marine-food-webs-and-productivity",
+      "path": "content/en/ecology/oceans/marine-food-webs-and-productivity.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "PNAS biomass census: about 1 Gt C of marine primary producers supporting roughly 5 Gt C of consumers; plants about 450 of the roughly 550 Gt C in the biosphere; the marine pyramid is inverted",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016768/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same census notes marine primary producers turn over on the order of days while consumer biomass turns over on a scale of years — a few years for mesopelagic fish",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016768/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global net primary production of 104.9 petagrams of carbon per year with roughly equal contributions from land and ocean",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/9657713/ (abstract via NCBI E-utilities)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NASA: the life span of an individual phytoplankton cell is rarely more than a few days; the biological pump moves about 10 gigatonnes of carbon to the deep ocean each year",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/what-are-phytoplankton/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A niche model built on more than 35,000 discrete observations estimates 2.9 +/- 0.1 x 10^27 Prochlorococcus cells and 7.0 +/- 0.3 x 10^26 Synechococcus cells, two genera accounting for a substantial share of marine primary production",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/23703908/ (abstract via NCBI E-utilities)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Synthesis of twelve mesoscale iron-addition experiments 1993-2005: iron supply limits production in one-third of the world ocean; extrapolating patch-scale additions to regional and seasonal scales 'is limited' because the mode of iron supply in an experiment differs from natural supply",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/17272712/ (abstract via NCBI E-utilities)",
+          "disposition": "qualified",
+          "note": "The one-third figure and the twelve experiments are verbatim right, and the source is emphatic ('unequivocally shown'). The caveat was reported one notch stronger than written: the paper says extrapolation 'in some cases is limited', the article said it 'is limited'. Small, but it turns a conditional limitation into a categorical one, and this article leans on that caveat to separate the iron-limitation finding from iron fertilisation. Restored 'in some cases'."
+        },
+        {
+          "claim": "A review in Science argues unicellular eukaryotes cannot be sorted cleanly into producers and consumers: mixotrophy — photosynthesising and eating in the same cell, sometimes in the same hour — is common and hard to deduce from genome sequences",
+          "sourceChecked": "https://www3.botany.ubc.ca/keeling/PDF/15Worden.pdf (full text of Science 347:1257594)",
+          "disposition": "qualified",
+          "note": "The substance is well supported — the review opens the relevant section on 'the oversimplification inherent in the convenient categories of producers and consumers', says many protists 'do not even stick to one or the other role', reports small algae performing 37 to 95 per cent of bacterivory in the Atlantic, and states the strategies are difficult to deduce from genome sequences or gene repertoires. But 'sometimes in the same hour' is not in the paper. Searching the full text for any timescale on trophic switching returns nothing shorter than 'months to millennia' in an unrelated passage; the paper says only that mixotrophs 'may alternate between trophic mechanisms' and may 'shift trophic modes opportunistically'. Replaced the invented hourly timescale with the source's own framing."
+        },
+        {
+          "claim": "A study in Nature found significant trends in reflectance across 56 per cent of the global surface ocean, mostly equatorward of 40 degrees, from a 20-year MODIS-Aqua record; a correction has since been published",
+          "sourceChecked": "https://www.nature.com/articles/s41586-023-06321-z and https://www.nature.com/articles/s41586-024-08090-9",
+          "disposition": "corrected",
+          "note": "This is the serious one. The article quoted 56 per cent while telling the reader a correction exists — but 56 per cent IS the superseded figure. The author correction of 24 October 2024 states plainly: 'After correcting these errors, the fraction of the ocean for which an ocean colour trend is detected is now 40% (previously 56%) at the 95% confidence level.' The two errors were wrong elements of the covariance matrix used in the signal-to-noise calculation and three MODIS wavebands accidentally excluded. The current text at the cited URL reads 40 per cent. 'Mostly equatorward of 40 degrees' is also not in the corrected paper, which says trends occur in low-interannual-variability subtropical and tropical regions rather than high-signal ones. Corrected the figure to 40 per cent at the 95 per cent confidence level, replaced the latitude claim with the paper's own description, and said explicitly which version of the number the reader is looking at. Note that 56 per cent survives in the corrected paper as the figure at the 90 per cent confidence level, which makes the stale number unusually easy to defend by accident."
+        }
+      ],
+      "openQuestions": [
+        "The sentence 'marine producers replace their own mass something like fifty times a year, while land plants take roughly eight years to do it once' is the article's own arithmetic on the cited standing stocks and NPP figures, not a claim made by any source. It is flagged in the text as 'on the figures below' and it computes correctly (about 50 Pg C/yr over 1 Gt C, and 450 Gt C over about 52 Pg C/yr), so it was left alone — but no cited source states it.",
+        "The Science mixotrophy review was read as a full-text PDF hosted on a co-author's university page rather than at science.org, which returns 403 to scripted clients. Content matches the PubMed abstract where they overlap."
+      ]
+    },
+    {
+      "slug": "coral-reef-ecology-and-bleaching",
+      "path": "content/en/ecology/oceans/coral-reef-ecology-and-bleaching.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "NOAA: as much as 90 per cent of the organic material produced photosynthetically by the algal symbionts is transferred to the host coral tissue; reefs require clear, nutrient-poor water yet are among the most productive and diverse marine environments",
+          "sourceChecked": "https://oceanservice.noaa.gov/education/tutorial_corals/coral02_zooxanthellae.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Current Biology revision resolved the divergent Symbiodinium clades as genera in the family Symbiodiniaceae, formally described seven of them, and recalibrated the molecular clock to place the family's earliest diversification around 160 million years ago, coinciding with the Jurassic radiation of analogues to modern shallow-water stony corals",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/30100341/ (abstract via NCBI E-utilities)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA Coral Reef Watch calculates the HotSpot as the amount by which satellite SST exceeds the site's maximum monthly mean climatology; only values of 1 degree C or more are accumulated over a rolling twelve-week window to give degree heating weeks in degree-C-weeks on a 0-20 scale",
+          "sourceChecked": "https://coralreefwatch.noaa.gov/product/5km/methodology.php and https://coralreefwatch.noaa.gov/product/5km/index_5km_dhw.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The published degree-heating-week ladder: 4 degree-C-weeks risk of bleaching, 8 reef-wide bleaching with mortality of heat-sensitive corals, above 12 multi-species mortality likely, 16 or more severe multi-species mortality above 50 per cent of corals, 20 or more near-complete mortality above 80 per cent — 'each was calibrated against observed reef outcomes'",
+          "sourceChecked": "https://coralreefwatch.noaa.gov/product/5km/index_5km_dhw.php and https://coralreefwatch.noaa.gov/product/5km/methodology.php",
+          "disposition": "qualified",
+          "note": "All five threshold rows match NOAA's wording exactly. The claim that failed was the sentence introducing them. NOAA describes only the lower two observationally — DHWs over 4 degree-C-weeks 'have been shown to cause' significant bleaching, over 8 'have caused' severe bleaching and significant mortality — and states the 12, 16 and 20 steps as expected outcomes with no calibration claim attached. The 1 degree C bleaching threshold the whole product accumulates above comes from a 1990 laboratory study (Glynn and D'Croz), not from field outcomes. Saying 'each was calibrated against observed reef outcomes' asserted a provenance for the top of the ladder that its own source does not. Rewritten to say which steps carry which kind of evidence."
+        },
+        {
+          "claim": "Nature: corals began to die immediately where accumulated exposure passed 3-4 degree-C-weeks; eight months later an exposure of 6 degree-C-weeks or more drove a regional-scale shift in assemblage composition, with staghorn and tabular corals suffering a catastrophic die-off; 29 per cent of the 3,863 reefs in the system were transformed",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/29670282/ (abstract via NCBI E-utilities)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA NESDIS: from early 2023 to mid-2025 bleaching-level heat stress affected 84 per cent of the world's coral reef area across all three reef-bearing basins, with mass bleaching in at least 83 countries and territories, and the event likely ended in mid-2025; each successive global event since 1998 has been more widespread and more severe than the last",
+          "sourceChecked": "https://www.nesdis.noaa.gov/news/worlds-fourth-mass-coral-bleaching-event-likely-ended-2025",
+          "disposition": "verified",
+          "note": "Recorded with a note because the 'more widespread and severe with each successive event' half needed the raw page to confirm — it is one clause inside a sentence about El Nino coincidence and does not survive summarisation. The page says: 'Since 1998, global coral bleaching events have coincided with every strong El Nino event with heat stress becoming more widespread and severe with each successive event.' The article's rendering is accurate. No change made."
+        },
+        {
+          "claim": "IPCC assesses with high confidence that marine heatwaves have become more frequent over the twentieth century and have approximately doubled in frequency since the 1980s, becoming more intense and longer with medium confidence; projected four times more frequent (2 to 9, likely range) in 2081-2100 relative to 1995-2014 under a low-emissions pathway and eight times (3 to 15) under a high-emissions one, with the largest changes in the tropical ocean and the Arctic",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-9/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Science: coral cover rose from 9 to 44 per cent within twelve years of a bleaching event on an isolated north Western Australian reef despite a 94 per cent reduction in larval supply for six years, recovery running first on remnant colonies and later on recruitment; and PLOS ONE restoration review: median restored area 100 square metres, 60 per cent of projects reporting under 18 months of monitoring, 59 per cent focused on fast-growing branching corals, survival 60-70 per cent, and restoration not a replacement for climate action",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/23559247/ (abstract via NCBI E-utilities) and https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0226631",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The section heading 'An alliance roughly 160 million years old' is a slight extrapolation: the paper dates the earliest diversification of the symbiont family to about 160 Mya and connects it to the rise of reef-building corals, rather than dating the partnership itself. The body text states this correctly, so only the heading is loose."
+      ]
+    },
+    {
+      "slug": "deep-sea-ecosystems",
+      "path": "content/en/ecology/oceans/deep-sea-ecosystems.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "NOAA Ocean Exploration: more than 90 per cent of the ocean is deep ocean, water below 200 metres, and explorers have directly seen less than 0.001 per cent of the deep-sea floor, roughly the size of Rhode Island",
+          "sourceChecked": "https://oceanexplorer.noaa.gov/ocean-fact/explored/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA's figure of about 40 to more than 110 times surface pressure, and an average deep-ocean temperature of about 4 degrees C",
+          "sourceChecked": "https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Zone boundaries: euphotic 0-200 m, dysphotic 200-1,000 m, aphotic below 1,000 m; hadal 6,000-11,000 m with trenches together about half the area of Australia",
+          "sourceChecked": "https://oceanexplorer.noaa.gov/ocean-fact/light-distributed/ and https://oceanexplorer.noaa.gov/expedition-feature/okeanos-ex2102-features-hadalzone/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Nature Communications: mesopelagic fish biomass, then estimated at about 1,000 million tonnes, revised upward by at least an order of magnitude, and these fish may respire around 10 per cent of primary production in deep water",
+          "sourceChecked": "https://www.nature.com/articles/ncomms4271",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Hydrothermal vents found in 1977 near the Galapagos Islands; vent water may exceed 700 degrees F, roughly 370 degrees C; communities depend on chemical processes from the interaction of seawater with hot magma rather than on light",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/vents.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 1984 Science paper described dense communities of large epifaunal animals resembling East Pacific Rise vent taxa at the base of the Florida Escarpment in the abyssal Gulf of Mexico, a passive margin, nourished by sulphide-rich hypersaline water seeping out at near-ambient temperatures",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/17737352/ (abstract via NCBI E-utilities)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Current Biology compilation: about 226,000 described eukaryotic marine species, 58,000-72,000 collected but not described, 482,000-741,000 not yet sampled, a total of 0.7 to 1.0 million with earlier estimates of well over a million now unlikely, and an average 37 per cent of species in over a hundred recent field studies possibly new to science; NOAA quotes the same 700,000 to 1 million range with roughly two-thirds undescribed and almost 2,000 new species accepted each year",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/23159596/ (abstract via NCBI E-utilities) and https://oceanexplorer.noaa.gov/ocean-fact/explored/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The recovery question for nodule mining can only be answered by revisiting a disturbed site decades later, and 'One such site exists' — carrying, as a single site, a great deal of evidential weight",
+          "sourceChecked": "https://www.nature.com/articles/s41586-025-08921-3",
+          "disposition": "corrected",
+          "note": "Everything the article reports about the 44-year revisit is accurate, including the hedge on modern collector designs and the authors' 'at least decadal timescales' framing. But 'One such site exists' is contradicted by the cited paper itself, which devotes a passage to the other one: 'The most comprehensive recovery studies in the abyssal Pacific have been conducted outside the CCZ. This previous work has focused on the disturbance and recolonization experiment (DISCOL) in the Peru Basin... These studies showed persistent ecological impacts for some parameters 26 years after disturbance... with some evidence of recovery in others.' The paper also identifies its own site as the 1979 Ocean Minerals Company collector test in the Clarion-Clipperton Zone. So the true position is that very few such sites exist, this is the longest interval, and DISCOL is the more studied one but lies outside the region of commercial interest. Corrected the count, named the site, added DISCOL from the same source, and adjusted the downstream sentence from 'that single site' to a handful."
+        }
+      ],
+      "openQuestions": [
+        "The species-diversity section sits under a deep-sea heading but the compilation it rests on is a count of all marine species, not deep-sea ones. The prose does say 'marine species' throughout, so nothing is misattributed, but a reader skimming the section headings could take the 226,000 and the 0.7-1.0 million as deep-sea figures. Not changed."
+      ]
+    }
+  ]
+}

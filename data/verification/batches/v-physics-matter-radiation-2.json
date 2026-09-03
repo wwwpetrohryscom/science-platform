@@ -1,0 +1,212 @@
+{
+  "batchId": "v-physics-matter-radiation-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "nuclear-fusion-fundamentals",
+      "path": "content/en/physics/matter-radiation/nuclear-fusion-fundamentals.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "EUROfusion gives the D-T triple-product threshold as at least 5x10^21 m^-3 s keV, at temperatures in excess of 100 million degrees",
+          "sourceChecked": "https://euro-fusion.org/fusion/fusion-conditions/",
+          "disposition": "verified",
+          "note": "Page reads 'For deuterium-tritium fusion this value is about: ntT >= 5x10^21 m-3 s keV' and 'Deuterium-tritium fusion reactions require temperatures in excess of 100 million degrees'. EUROfusion calls this value ignition; the article's looser word 'threshold' is not contradicted."
+        },
+        {
+          "claim": "JET reached triple products above 10^21 m^-3 s keV with confinement times on the order of a second; ITER is designed for around four seconds",
+          "sourceChecked": "https://euro-fusion.org/fusion/fusion-conditions/",
+          "disposition": "verified",
+          "note": "Page reads 'JET has reached values of ntT of over 10^21 m-3 s keV' and 'Typical current values at JET are on the order of a second, and at ITER should be around four seconds'."
+        },
+        {
+          "claim": "the density that turns out to be optimal is around a millionth of atmospheric pressure",
+          "sourceChecked": "https://euro-fusion.org/fusion/fusion-conditions/",
+          "disposition": "corrected",
+          "note": "The source states, under the heading 'Density', that 'the optimum density value is around one millionth of the atmosphere'. The article turned a density into a pressure, which is a different quantity and wrong by a large factor for a fusion plasma. Changed to 'around a millionth of that of the atmosphere'."
+        },
+        {
+          "claim": "a tokamak holds a few grams of fuel at any moment",
+          "sourceChecked": "https://www.iter.org/faqs",
+          "disposition": "resourced",
+          "note": "The figure is not on the EUROfusion page cited for the rest of that sentence — I read the whole page and it contains no fuel-mass statement. ITER's FAQ does: 'The fuel is injected in gaseous form into the vacuum vessel (the gas weighs only a few grams and fills the entire volume of the tokamak)'. Sentence rewritten to ITER's statement and the FAQ added to the source list."
+        },
+        {
+          "claim": "D-T fusion produces a neutron and a helium nucleus, releases much more energy than most fusion reactions, and occurs at lower temperatures than the alternatives",
+          "sourceChecked": "https://www.energy.gov/science/doe-explainsfusion-reactions",
+          "disposition": "verified",
+          "note": "Page reads 'DT fusion produces a neutron and a helium nucleus', 'it also releases much more energy than most fusion', and 'they occur at lower temperatures than other elements'."
+        },
+        {
+          "claim": "D-T has the largest reaction cross-section of the accessible fuel combinations",
+          "sourceChecked": "https://www.iter.org/node/20687/magic-cocktail-deuterium-and-tritium",
+          "disposition": "resourced",
+          "note": "The paragraph attributes its reasoning to the DOE explainer, which says nothing at all about cross-section. ITER does: 'it turns out that deuterium and tritium have the greatest cross-section at the lowest temperature of any possible fuel candidates'. Sentence re-attributed to ITER and that page added to the source list."
+        },
+        {
+          "claim": "December 2022: NIF delivered 2.05 MJ of laser energy and recorded 3.15 MJ of fusion output, the first controlled fusion experiment to release more energy than the laser light that drove it",
+          "sourceChecked": "https://www.llnl.gov/article/49306/lawrence-livermore-national-laboratory-achieves-fusion-ignition",
+          "disposition": "verified",
+          "note": "Page dates the shot to 5 December, and reads 'delivering 2.05 megajoules (MJ) of energy to the target, resulting in 3.15 MJ of fusion energy output' and 'produced more energy from fusion than the laser energy used to drive it'."
+        },
+        {
+          "claim": "ITER's goal is Q = 10 — 500 MW of fusion power from 50 MW of injected heating — in a plasma five times the volume of the largest machine operating today, and ITER will not convert that heat to electricity",
+          "sourceChecked": "https://www.iter.org/fusion-energy/what-will-iter-do",
+          "disposition": "verified",
+          "note": "All four numbers are on the page verbatim, including 'With five times the plasma volume of the largest machine operating today' and 'ITER will not convert the heating power it produces as electricity'. The five-times multiple is the plasma volume, which is what the article says."
+        },
+        {
+          "claim": "a lithium blanket absorbs a fusion neutron and recombines into tritium and helium; ITER will test four Test Blanket Module designs and will be the first device to test tritium self-sufficiency; further research is needed for large-scale production and recycling",
+          "sourceChecked": "https://www.iter.org/machine/supporting-systems/tritium-breeding",
+          "disposition": "verified",
+          "note": "All four TBM concepts are named on the page exactly as the article lists them, and the page reads 'ITER will be the first fusion device to test this essential concept of tritium self-sustainment' and 'Further research will be necessary to demonstrate the feasibility of large-scale tritium production and recycling'."
+        },
+        {
+          "claim": "fusion produces no long-lived actinide waste, the reaction cannot run away, and neutron activation leaves components hazardous for decades to a century",
+          "sourceChecked": "https://www.iter.org/fusion-energy/advantages-fusion",
+          "disposition": "resourced",
+          "note": "No source in the article's list covered this paragraph at all — it was a synthetic-sounding safety claim with no citation behind it. ITER's advantages page supports each part: 'Nuclear fusion reactors produce no high activity, long-lived nuclear waste'; 'if any disturbance occurs, the plasma cools within seconds and the reaction stops'; and 'The activation of components in a fusion reactor is anticipated to be low enough for the materials to be recycled or reused within 100 years'. Prose left unchanged because it matches; the page was added to the source list."
+        },
+        {
+          "claim": "tritium has a half-life of about 12.3 years",
+          "sourceChecked": "https://www.energy.gov/science/doe-explainsdeuterium-tritium-fusion-fuel",
+          "disposition": "verified",
+          "note": "DOE states tritium 'decays relatively quickly, with a 12-year half-life'. The article's 12.3 years is the standard value and sits inside the source's rounding."
+        }
+      ],
+      "openQuestions": [
+        "The statement that a proton in the solar core waits on the order of billions of years for the weak-interaction first step of the pp chain is textbook, but no source cited in the article carries it and I did not find an openable institutional page that states it. Left unchanged rather than cite something I had not read.",
+        "This article and materials-physics-and-semiconductors close on the same rhetorical move ('That is the honest position' / 'That is the honest shape of materials physics'). Template sameness, not a factual defect; flagged rather than restructured."
+      ]
+    },
+    {
+      "slug": "particle-physics-fundamentals",
+      "path": "content/en/physics/matter-radiation/particle-physics-fundamentals.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "six quarks in three generations, six leptons arranged the same way, and the gluon, photon and W and Z bosons as force carriers, with the Higgs completing the list",
+          "sourceChecked": "https://home.cern/science/physics/standard-model",
+          "disposition": "verified",
+          "note": "CERN's page gives the six-and-six inventory arranged in generations and names the gluon, photon and W and Z bosons."
+        },
+        {
+          "claim": "gravity is not part of the Standard Model; CERN calls fitting it in a difficult challenge",
+          "sourceChecked": "https://home.cern/science/physics/standard-model",
+          "disposition": "verified",
+          "note": "Page reads 'gravity, is not part of the Standard Model, as fitting gravity comfortably into this framework has proved to be a difficult challenge'."
+        },
+        {
+          "claim": "on 4 July 2012 ATLAS and CMS each announced observation of a new particle in the mass region around 126 GeV",
+          "sourceChecked": "https://home.cern/science/physics/standard-model",
+          "disposition": "verified",
+          "note": "Page reads 'On 4 July 2012, the ATLAS and CMS experiments at CERN's Large Hadron Collider (LHC) announced they had each observed a new particle in the mass region around 126 GeV'. 126 is CERN's own figure on the page cited, so it is correct as cited even though CMS's own July 2012 number was 125.3 GeV."
+        },
+        {
+          "claim": "the theory's predictions have survived measurement at a precision that in some cases reaches parts per billion",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?ae",
+          "disposition": "verified",
+          "note": "The cited CERN page says only that the model 'has successfully explained almost all experimental results and precisely predicted a wide variety of phenomena' and gives no figure, so I checked the number against the article's own NIST/CODATA source: the 2022 CODATA electron magnetic moment anomaly carries a relative standard uncertainty of 1.6x10^-10, i.e. better than a part per billion. The claim as written is supported; source line for NIST extended to say so."
+        },
+        {
+          "claim": "a five-standard-deviation result has a probability under the background-only hypothesis of about one in 3.5 million",
+          "sourceChecked": "https://home.cern/science/physics/higgs-boson/how",
+          "disposition": "resourced",
+          "note": "No source in the article carried this figure; the ATLAS glossary states the five-sigma convention but not the probability, and the WebFetch summary of that glossary asserted '1 in 3.5 million' which the raw page does not contain. CERN's Higgs discovery page does: 'an excess is called a discovery when this probability is about 1 in three and a half million, which corresponds to an excess of five standard deviations'. Prose unchanged; that page added to the source list."
+        },
+        {
+          "claim": "the 2015 Nobel Prize in Physics went to Takaaki Kajita and Arthur B. McDonald for the discovery of neutrino oscillations, showing that neutrinos have mass",
+          "sourceChecked": "https://www.nobelprize.org/prizes/physics/2015/summary/",
+          "disposition": "verified",
+          "note": "Citation reads 'for the discovery of neutrino oscillations, which shows that neutrinos have mass'. The page returns 403 to WebFetch; read via curl with a browser user-agent."
+        },
+        {
+          "claim": "ordinary matter is about 5% of the universe, dark matter about 27% outweighing visible matter roughly six to one, and dark energy approximately 68%",
+          "sourceChecked": "https://home.cern/science/physics/dark-matter",
+          "disposition": "verified",
+          "note": "All three figures and the six-to-one ratio are on the page verbatim."
+        },
+        {
+          "claim": "the dark-matter inference has been reinforced by gravitational lensing and by the structure of the cosmic microwave background",
+          "sourceChecked": "https://science.nasa.gov/universe/dark-matter-dark-energy/",
+          "disposition": "resourced",
+          "note": "The cited CERN dark-matter page carries rotation curves and cluster dynamics only — I read it in full and it mentions neither lensing nor the CMB, so this sentence had a real institution attached to it and no support. NASA supplies the lensing half ('The immense mass of a galaxy cluster can bend the fabric of spacetime itself ... By measuring the distortion of these galaxies, astronomers can map the distribution of mass within the cluster'), and ESA's Planck page (https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_reveals_an_almost_perfect_Universe) supplies the CMB half: normal matter 4.9%, dark matter 26.8%. Sentence rewritten to those two statements; both pages added to the source list."
+        },
+        {
+          "claim": "decades of increasingly sensitive direct-detection experiments have returned null results, steadily excluding parameter space rather than finding a signal",
+          "sourceChecked": "https://science.nasa.gov/universe/dark-matter-dark-energy/",
+          "disposition": "qualified",
+          "note": "Nothing I could open supports 'decades of increasingly sensitive' or 'steadily excluding parameter space' — those are the article's own framing. NASA states only that 'scientists have been searching for these candidates but have not yet found evidence which would confirm any candidate', and DOE's dark-matter explainer describes 'large, sensitive detectors located deep underground' without giving results. Narrowed to the null finding NASA actually states."
+        }
+      ],
+      "openQuestions": [
+        "I did not verify 'the strong force is often given as roughly a hundred times electromagnetism', nor the running of the couplings, against the Particle Data Group review cited for them: the PDG PDFs would not yield a usable text layer with the tools available here, so I could confirm only that the documents exist and resolve. The claim is left as written and unchecked.",
+        "The article's '99.99997% certain' aside is a correct restatement of the one-sided five-sigma p-value but is the article's own arithmetic; CERN's page states the 1-in-3.5-million form only."
+      ]
+    },
+    {
+      "slug": "materials-physics-and-semiconductors",
+      "path": "content/en/physics/matter-radiation/materials-physics-and-semiconductors.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "NIST issued its first photomask linewidth standard in 1979, which reduced measurement discrepancies among companies tenfold",
+          "sourceChecked": "https://www.nist.gov/semiconductors",
+          "disposition": "verified",
+          "note": "Page reads 'in 1979 issued its first photomask linewidth standard ... This standard reduced measurement discrepancies among companies tenfold'."
+        },
+        {
+          "claim": "NIST developed through-focus scanning optical microscopy to detect nanoscale defects during manufacture",
+          "sourceChecked": "https://www.nist.gov/semiconductors",
+          "disposition": "corrected",
+          "note": "Two mismatches against the cited page. NIST says its researchers 'and an industry colleague adapted a novel, low-cost microscopy method', not that NIST developed it; and the target is 'nanoscale contaminants', not the crystal defects — vacancies, dislocations, grain boundaries — that the surrounding section is about, so the article silently widened a contamination-metrology result into defect metrology. Rewritten to NIST's wording; the source line was updated to match."
+        },
+        {
+          "claim": "some materials cooled below a critical temperature conduct direct current with no energy loss and expel magnetic fields as they make the transition",
+          "sourceChecked": "https://www.energy.gov/science/doe-explainssuperconductivity",
+          "disposition": "verified",
+          "note": "Page states both properties: conduction 'without energy loss when they are cooled below a critical temperature' and that they 'expel magnetic fields as they transition to the superconducting state'."
+        },
+        {
+          "claim": "the copper-oxide materials discovered in 1986, some of which superconduct above the boiling point of liquid nitrogen",
+          "sourceChecked": "https://www.energy.gov/science/doe-explainssuperconductivity",
+          "disposition": "verified",
+          "note": "Page reads 'In 1986, scientists discovered a new class of copper-oxide materials' and that some are 'at temperatures above liquid nitrogen (-321F)'. The article's hedge 'some of which' matters and is correct: the 1986 material itself was below liquid-nitrogen temperature, and the article does not claim otherwise."
+        },
+        {
+          "claim": "four decades later there is no agreed mechanism for high-temperature superconductivity",
+          "sourceChecked": "https://www.energy.gov/science/doe-explainssuperconductivity",
+          "disposition": "verified",
+          "note": "Page reads 'the microscopic theory that describes superconductivity in metals and metal alloys does not apply to most of these new materials, so once again the mystery of superconductivity is challenging the scientific community'."
+        },
+        {
+          "claim": "thermal energy at room temperature is about 0.025 eV",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?kev",
+          "disposition": "verified",
+          "note": "The article cites NIST/CODATA for the constants behind its energy comparisons. CODATA 2022 gives the Boltzmann constant as 8.617333262x10^-5 eV/K, so kT at 300 K is 0.0259 eV. The rounded figure is right."
+        },
+        {
+          "claim": "silicon's band gap is about 1.1 eV and is indirect, which is why silicon is a poor light emitter",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4585815/",
+          "disposition": "verified",
+          "note": "No source listed in the article states silicon's gap, so I checked it against an openable peer-reviewed paper, which reads 'Its indirect band gap of 1.1 eV significantly limits the efficiency of solar cells as electron transition needs the assistance of phonons to change the momentum'. Value and directness both confirmed; the article's source list was left alone rather than padded with a paper the piece does not otherwise use."
+        },
+        {
+          "claim": "source 5 attributes the best research-cell efficiency chart to the National Laboratory of the Rockies at nlr.gov",
+          "sourceChecked": "https://www.nlr.gov/pv/cell-efficiency",
+          "disposition": "verified",
+          "note": "Flagged on first pass as a probable fabricated institution — the chart has historically been NREL's, and nrel.gov does not resolve from this environment. It is not fabricated: NLR is NREL renamed on 1 December 2025 (confirmed against https://en.wikipedia.org/wiki/National_Laboratory_of_the_Rockies and against the repository's own source registry, which records the organization as the U.S. National Renewable Energy Laboratory). The live page carries the confirmed champion-cell efficiencies and names the confirming laboratories, as the source line claims. Left unchanged."
+        }
+      ],
+      "openQuestions": [
+        "'Copper conducts electricity about twenty orders of magnitude better than quartz' and 'controlling defects at concentrations of parts per billion' are both unsourced in the article. Both are standard and neither is contradicted by anything I read, but I could not open an institutional page stating either, so both are unverified rather than verified.",
+        "Source 5 (the research-cell efficiency chart) supports no claim in the body — it is a further-reading entry rather than a citation for anything the article asserts. Defensible, but an editor may want it labelled as such.",
+        "This article and nuclear-fusion-fundamentals close on the same rhetorical move ('That is the honest shape of materials physics' / 'That is the honest position'). Template sameness, flagged not restructured."
+      ]
+    }
+  ]
+}

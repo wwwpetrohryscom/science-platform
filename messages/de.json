@@ -206,7 +206,7 @@
     "pillar_callout": "Pfeiler-Artikel — {subtopic}",
     "read_pillar": "Den Pfeiler lesen →",
     "related_heading": "Verwandte Texte",
-    "fallback_notice": "Dieser Artikel wurde noch nicht ins {language} übersetzt. Die englische Fassung wird unten angezeigt."
+    "fallback_notice": "Dieser Artikel wurde noch nicht ins Deutsche übersetzt. Die englische Fassung wird unten angezeigt."
   },
   "insights": {
     "eyebrow": "Analysen",
@@ -296,6 +296,25 @@
     "citations_one": "In diesem Artikel ist ein externer Beleg verlinkt.",
     "attribution": "Zugeschrieben der Redaktion {desk} — einer Redaktion, keiner Person.",
     "policy_link": "Wie Quellen ausgewählt und geprüft werden",
-    "last_updated": "Zuletzt aktualisiert"
+    "last_updated": "Zuletzt aktualisiert",
+    "source_mix": "Zitierte Quellentypen: {mix}.",
+    "reviewed_on": "Aussagen am {date} unabhängig gegen ihre Quellen geprüft.",
+    "reviewed_detail": "Ein zweiter Leser hat {claims} tragende Aussagen geprüft. Das hält fest, dass die Prüfung stattgefunden hat; es ist keine Qualitätsnote, keine Begutachtung und kein Siegel.",
+    "not_reviewed": "Für diese Seite steht die unabhängige Prüfung Aussage-gegen-Quelle noch aus. Ihre Belege werden automatisch auf Erreichbarkeit geprüft, was eine andere und schwächere Zusicherung ist.",
+    "corrections_link": "Fehler melden",
+    "concepts_heading": "Wissenschaftliche Begriffe auf dieser Seite",
+    "live_data_note": "{count} der zitierten Quellen werden fortlaufend aktualisiert. Wird eine Zahl daraus übernommen, nennt der Satz die Ausgabe oder das Abrufdatum."
+  },
+  "evidence_types": {
+    "government": "staatlich",
+    "intergovernmental": "zwischenstaatlich",
+    "peer-reviewed": "begutachtet",
+    "systematic-review": "systematische Übersicht",
+    "meta-analysis": "Metaanalyse",
+    "university": "universitär",
+    "scientific-dataset": "Datensatz",
+    "standards-body": "Normungsgremium",
+    "research-institute": "Forschungsinstitut",
+    "other": "sonstige"
   }
 }

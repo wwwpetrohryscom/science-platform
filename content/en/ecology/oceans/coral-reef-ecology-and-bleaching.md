@@ -17,7 +17,7 @@ related:
   - marine-protected-areas-evidence
   - coral-microbiome-bleaching-resistance
 pillar: ocean-science-explained
-_bodyHash: bbc020f7
+_bodyHash: 7de8e8e4
 ---
 
 A bleached coral is not a dead coral. It is a coral that has expelled the single-celled algae living inside its tissues, lost its colour along with them, and begun living on stored reserves and whatever it can catch. Whether it recovers depends on how long the stress lasts and how much energy it had banked. Getting this distinction right is the difference between reading a bleaching report as a mortality figure and reading it as what it is — a measurement of stress, with mortality as a variable consequence.
@@ -36,7 +36,7 @@ Reefs also sit at an odd point in the productivity landscape. They require clear
 
 Operational bleaching forecasting does not use temperature; it uses accumulated exposure above a locally defined threshold. NOAA Coral Reef Watch calculates a Coral Bleaching HotSpot as the amount by which satellite sea surface temperature exceeds the site's maximum monthly mean climatology — the long-term mean for the climatologically hottest month at that location. Only HotSpot values of 1 °C or more are accumulated, over a rolling twelve-week window, to give **degree heating weeks**, reported in °C-weeks on a scale from 0 to 20. Because the baseline is local, the same absolute temperature can be unremarkable on one reef and stressful on another.
 
-The thresholds are published, and they are consequences rather than definitions — each was calibrated against observed reef outcomes.
+The thresholds are published as expected consequences rather than definitions, and they are not all evidenced to the same degree. NOAA states that accumulated stress over 4 °C-weeks has been shown to cause significant bleaching and that values over 8 °C-weeks have caused severe bleaching and significant mortality; the steps above that are given as expected outcomes without a stated observational calibration, and the 1 °C bleaching threshold the product accumulates above derives from a laboratory study.
 
 | Accumulated stress | Expected outcome on the reef |
 | --- | --- |

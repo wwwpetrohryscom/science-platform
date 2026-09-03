@@ -1,0 +1,226 @@
+{
+  "batchId": "v-physics-mechanics-waves-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "fluid-dynamics-explained",
+      "path": "content/en/physics/mechanics-waves/fluid-dynamics-explained.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "The Reynolds number \"expresses the ratio of inertial (resistant to change or motion) forces to viscous (heavy and gluey) forces\", written Re = rho*V*L/mu with rho density, V a characteristic velocity, L a characteristic length and mu the dynamic viscosity",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/similarity-parameters/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Of the four terms in Re, two are properties of the fluid, one describes the flow and one describes the geometry",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/similarity-parameters/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Wind-tunnel similarity: \"If the Reynolds number of the experiment and flight are close, then we properly model the effects of the viscous forces relative to the inertial forces\"; and low-speed coefficients cannot be carried to high speed because \"the compressibility of the air alters the important physics between these two cases\"",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/similarity-parameters/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Paramecium swims at a Reynolds number of about 0.1, \"that is, inertial forces are small compared with viscous forces\", and stops as soon as the cilia stop beating",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8208649/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Liquid water at 20 C and 1 bar has a density of 998.21 kg/m3 and a viscosity of 1.0016e-3 Pa s, giving a kinematic viscosity close to 1.0e-6 m2/s",
+          "sourceChecked": "https://webbook.nist.gov/cgi/fluid.cgi?Action=Load&ID=C7732185&Type=IsoBar&Digits=5&P=1&THigh=25&TLow=20&TInc=5&RefState=DEF&TUnit=C&PUnit=bar&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=Pa*s&STUnit=N%2Fm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The equal-transit-time account of lift fails because \"the velocity on the upper surface of a lifting wing is much higher than the velocity on the upper surface that produces an equal transit time\"",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoulli-and-newton/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The boundary layer is \"a thin layer of fluid near the surface in which the velocity changes from zero at the surface to the free stream value away from the surface\"",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/",
+          "disposition": "corrected",
+          "note": "The article opened the quotation with \"this thin layer of fluid near the surface\"; the page reads \"This creates a thin layer of fluid near the surface...\". The substance was right but the quoted string was not the source's. Changed \"this\" to \"a\" so the quotation marks now enclose NASA's words."
+        },
+        {
+          "claim": "At lower Reynolds numbers the boundary layer \"is laminar and the streamwise velocity changes uniformly as one moves away from the wall\", at higher values it \"is turbulent and the streamwise velocity is characterized by unsteady swirling flows inside the boundary layer\"; and separation causes wing stall at high angle of attack",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Flow past a sphere runs through stable attached vortices, an alternating vortex street with a wide wake and large drag, a chaotic wake with slightly less drag, and then a turbulent boundary layer that initially gives less drag than the laminar case before the relationship reverses",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-of-a-sphere/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Below Re1 = 2,300 turbulence takes the form of \"equilibrium (or longtime transient) puffs\"; the turbulent fraction then rises with Re \"until Re2 = 2,600 where there is a continuous transition to a state of uniform turbulence\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2889535/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A study commissioned by NASA sets as a 2030 target that \"physics-based, accurate predictions of complex turbulent flows, including flow separation, can be accomplished routinely and efficiently\"",
+          "sourceChecked": "https://ntrs.nasa.gov/citations/20140003093",
+          "disposition": "verified"
+        },
+        {
+          "claim": "IPCC AR6: \"Given limitations in computing resources, the current-generation GCMs cannot yet represent small-scale cloud processes and consequently shallow and deep convection is determined by sub-grid-scale parametrizations\"",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Convection-permitting models are \"typically run at a resolution less than 10 km\", and there remains \"low confidence in their ability to accurately simulate the spatio-temporal features of present-day precipitation, especially in the tropics\"",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+          "disposition": "corrected",
+          "note": "Both quotations are verbatim in AR6 WG1 Chapter 8 (sections 8.5.1.2.2 and 8.5.1.1.1), but the article placed them in consecutive sentences so that \"their\" read as the convection-permitting models just described. In the assessment \"their\" refers to global climate models with empirical convective parametrization schemes, which the CPM passage is contrasted against - the low confidence attaches to the parametrized global models, not to the higher-resolution regional ones. Named the antecedent explicitly (\"the one the assessment gives for global models with parametrized convection\") so the quoted low confidence lands where AR6 puts it."
+        }
+      ],
+      "openQuestions": [
+        "The sentence \"Strategies that work by throwing fluid backwards - the way a swimmer does - return nothing at that scale\" is the article's own low-Reynolds-number reasoning. The cited eNeuro review supports the R = 0.1 figure (which it attributes to Purcell 1977) and the absence of coasting, but says nothing about momentum-based propulsion. Standard and uncontroversial, so left in place, but no cited source carries it.",
+        "The IPCC chapter refuses some scripted clients; the three quotations were confirmed by downloading the chapter HTML with a browser user-agent (HTTP 200, 2.27 MB) and matching the strings in the rendered chapter text, not from a summary or a secondary description of the chapter."
+      ]
+    },
+    {
+      "slug": "sound-and-acoustics-explained",
+      "path": "content/en/physics/mechanics-waves/sound-and-acoustics-explained.md",
+      "status": "clean",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "For an ideal gas the speed of sound follows a^2 = gamma*R*T, and NASA gives the sea-level value as \"about 330 m/s or 760 mph\"",
+          "sourceChecked": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/role-of-the-mach-number/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The speed of sound in liquid water is 1,482.3 m/s at 20 C and 1 bar, rising to 1,496.7 m/s at 25 C - more than four times the value in air",
+          "sourceChecked": "https://webbook.nist.gov/cgi/fluid.cgi?Action=Load&ID=C7732185&Type=IsoBar&Digits=5&P=1&THigh=25&TLow=20&TInc=5&RefState=DEF&TUnit=C&PUnit=bar&DUnit=kg%2Fm3&HUnit=kJ%2Fkg&WUnit=m%2Fs&VisUnit=Pa*s&STUnit=N%2Fm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The bel and decibel \"are used to express the values of logarithmic ratio quantities whose numerical values are based on the decadic logarithm\"; a statement of the form \"m dB\" is \"interpreted to mean that m = 10 lg(X/X0)\"; and \"in using these units it is important that the nature of the quantity be specified and that any reference value used be specified\"",
+          "sourceChecked": "https://www.nist.gov/pml/special-publication-330/sp-330-section-4",
+          "disposition": "verified"
+        },
+        {
+          "claim": "For airborne sound the reference is 20 micropascals, described as \"the standard reference level employed\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11846905/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A study of simulated vessel noise reports measured levels \"between 169-172 dB referenced to 1 microPascal (re 1 uPa)\" over the 60 Hz to 1 kHz band",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8800386/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The same 2022 study notes that regional estimates suggest sound levels have risen by approximately 3 dB per decade, presented as a summary of earlier regional measurements rather than a global trend",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8800386/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Environmental Noise Directive threshold is 55 dB Lden; more than one in five Europeans are exposed to harmful transport noise, over 30 per cent against WHO recommendations, with 92 million people above 55 dB for road, 18 million for rail and 2.6 million for aircraft, from the 2022 reporting round",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/publications/environmental-noise-in-europe-2025",
+          "disposition": "verified"
+        },
+        {
+          "claim": "About 73,000 premature deaths a year, around 49,000 new cardiovascular disease cases and 23,000 cases of type 2 diabetes, and 1.5 million healthy life years lost annually; an error found after the June 2025 publication was corrected in the online version on 27 March 2026",
+          "sourceChecked": "https://www.eea.europa.eu/en/analysis/publications/environmental-noise-in-europe-2025",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO puts the earlier scale at an estimated one million healthy life years lost in 2011 to traffic-related noise in the western part of Europe only",
+          "sourceChecked": "https://www.who.int/tools/compendium-on-health-and-environment/environmental-noise",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In the deep sound channel, sound emitted at the right depth \"bounces between these various layers and can travel for hundreds of miles\", and \"low-frequency sounds can be heard across entire ocean basins\"",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/sofar.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Over the last century human activities \"such as shipping, recreational boating, and energy exploration have increased along our coasts, offshore, and deep ocean environments\", noise from them \"can travel long distances underwater\", \"leading to increases and changes in ocean noise levels in many coastal and offshore habitats\"",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/ocean-noise.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The EEA figures carry their temporal anchors already - the 2025 assessment, the 2022 reporting round, and the 27 March 2026 corrigendum - and all four health estimates match the corrected online version as it stands today. They are from a periodically reissued product, so they will need rechecking at the next reporting round.",
+        "The sentence \"Sound pressure is also a field quantity rather than a power quantity, so the conversion from a pressure ratio to a level carries a factor of 20 rather than 10\" is correct standard practice but is not carried by any source the article cites: NIST SP 330 section 4 gives only the power form m = 10 lg(X/X0). Left as written; flagged as unsourced.",
+        "The claim that ocean sound speed \"also rises with pressure\" is not in the cited NOAA SOFAR page, which describes layering by salinity and temperature but not the speed dependence. The temperature half is carried by the NIST water table cited earlier in the article; the pressure half is standard oceanography with no citation behind it here."
+      ]
+    },
+    {
+      "slug": "measurement-uncertainty-explained",
+      "path": "content/en/physics/mechanics-waves/measurement-uncertainty-explained.md",
+      "status": "clean",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Measurement accuracy is the \"closeness of agreement between a measured quantity value and a true quantity value of a measurand\", and \"the concept 'measurement accuracy' is not a quantity and is not given a numerical quantity value\"",
+          "sourceChecked": "https://jcgm.bipm.org/vim/en/2.13.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"the term 'measurement accuracy' should not be used for measurement trueness and the term 'measurement precision' should not be used for 'measurement accuracy'\"",
+          "sourceChecked": "https://jcgm.bipm.org/vim/en/2.13.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Type A evaluation is a \"method of evaluation of uncertainty by the statistical analysis of series of observations\" and Type B is evaluation \"by means other than the statistical analysis of series of observations\"",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/basic.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Combined standard uncertainty is \"the positive square root of the estimated variance\"; the law of propagation of uncertainty is a first-order Taylor series approximation, and its covariance term \"vanishes\" if the input estimates can be assumed uncorrelated",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/combination.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Expanded uncertainty U = k*uc(y); \"typically, k is in the range 2 to 3\"; k = 2 \"defines an interval having a level of confidence of approximately 95 %\" and k = 3 an interval \"having a level of confidence greater than 99 %\"",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/coverage.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The GUM declines to call these intervals confidence intervals unless \"all components of uncertainty that contribute to uc(y) be obtained from Type A evaluations\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10898794/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A worked example in which sixteen replicates give a 95 per cent coverage interval of the mean plus or minus 2.131 standard errors, the Student t percentile for fifteen degrees of freedom",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10898794/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Metrological traceability is \"a documented unbroken chain of calibrations with stated uncertainties that ideally link the measurement result for a sample to a primary calibrator in appropriate SI units\", embodying \"the concepts of measurement uncertainty and calibrations against a hierarchy of reference standards\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10938631/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A review of uncertainty evaluation for organic reference materials found \"inconsistencies in approach and distinct cases of underestimation\" among participating institutes, and holds that running independent approaches in parallel is what exposes biases a single method hides",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10938631/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The SI was redefined on 20 May 2019 so that all units follow from seven defining constants, whose fixed values are those given in the article table (9 192 631 770 Hz; 299 792 458 m/s; 6.626 070 15e-34 J s; 1.602 176 634e-19 C; 1.380 649e-23 J/K; 6.022 140 76e23 mol-1; 683 lm/W)",
+          "sourceChecked": "https://www.bipm.org/en/measurement-units",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2022 CODATA value of the Newtonian constant of gravitation is 6.674 30e-11 m3 kg-1 s-2, standard uncertainty 0.000 15e-11, relative standard uncertainty 2.2e-5",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?bg",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The GUM is accompanied by a Monte Carlo supplement (JCGM 101:2008), and an amendment on nonlinearity in measurement models was issued in 2026 (JCGM 100:2008/Amd.1:2026, \"AMENDMENT 1: Nonlinearity in measurement models\")",
+          "sourceChecked": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The explanation that the gravitational constant's uncertainty persists because gravitation \"can be neither screened nor amplified\" is the article's own reasoning; the CODATA page gives the value and its uncertainty but no account of why the uncertainty is large. Standard and uncontroversial, so left in place, but unsourced.",
+        "Template sameness across the batch: all three articles run the same skeleton - a hook paragraph, a definitional section, a single three-to-seven-row table, a closing \"what this cannot settle\" section, and exactly nine numbered sources. Noted rather than restructured, per the brief."
+      ]
+    }
+  ]
+}

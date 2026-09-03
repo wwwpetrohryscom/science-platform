@@ -18,7 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
-_bodyHash: 996c20b9
+_bodyHash: 32a1c483
 ---
 
 For its 2025 assessment, FAO asked countries to report the forest area damaged each year from 2000 to 2023, split into insects, diseases, severe weather and other causes. It then wrote, of the results, that given the patchy data it was not possible to estimate the total forest area affected by disturbances globally.
@@ -45,15 +45,15 @@ Insects account for more reported damaged area than any other class in the FAO r
 
 Read the coverage before the total. North and Central America is represented at 98 per cent of its forest area and contributes an average of 24.5 million hectares a year; Asia at 46 per cent, contributing 8.54 million hectares; Europe at 88 per cent, contributing 816,000 hectares on average with a range from 479,000 to 1.43 million hectares. Africa, Oceania and South America are represented at about 1 per cent of their forest area or less. The global insect-damage series is, in practice, a North American and Asian series.
 
-Where the ecology has been quantified properly, the magnitude is substantial. An assessment of the mountain pine beetle outbreak in British Columbia — an outbreak an order of magnitude larger in area and severity than any previously recorded there — estimated a cumulative impact of 270 megatonnes of carbon over 2000–2020, an average of 36 g C per m² per year across 374,000 km² of forest, converting the affected forest from a small net carbon sink into a large net source. In the worst year the beetle-driven flux was equivalent to about 75 per cent of the average annual direct forest fire emissions from all of Canada over 1959–1999. Climate contributed to the extent and severity by allowing the insect into terrain that had previously been too cold for it.
+Where the ecology has been quantified properly, the magnitude is substantial. A 2008 assessment of the mountain pine beetle outbreak in British Columbia — an outbreak an order of magnitude larger in area and severity than any previously recorded there — projected a cumulative impact of 270 megatonnes of carbon over 2000–2020, an average of 36 g C per m² per year across 374,000 km² of forest, converting the affected forest from a small net carbon sink into a large net source. In the worst year the beetle-driven flux was equivalent to about 75 per cent of the average annual direct forest fire emissions from all of Canada over 1959–1999. Climate contributed to the extent and severity by allowing the insect into terrain that had previously been too cold for it.
 
 ## Wind is the disturbance that shapes Europe
 
 For severe weather events — snow, storms and drought grouped together in the FAO scheme — 35 countries covering 30 per cent of global forest area reported complete series for 2002–2020, averaging 6.96 million hectares a year, with a high of 9.24 million hectares in 2019 and a low of 1.94 million hectares in 2020. Europe averaged 739,000 hectares a year, peaking at 1.49 million hectares in 2005.
 
-One national note in the returns is worth more than the aggregate. Germany reported that its severe-weather damage figure is probably an underestimate because part of the damage was recorded in cubic metres of timber and could not be converted to an area. That is the characteristic failure mode of wind reporting: forestry measures storm damage in volume, because volume is what gets salvaged and sold, while the assessment asks for area.
+One national note in the returns is worth more than the aggregate. Germany reported that its severe-weather damage figure could be an underestimate because part of the damage was recorded in cubic metres of timber and could not be converted to an area. That is the characteristic failure mode of wind reporting: forestry measures storm damage in volume, because volume is what gets salvaged and sold, while the assessment asks for area.
 
-Satellite mapping avoids the unit problem. Across continental Europe from 1986 to 2016, 17 per cent of the forest area was disturbed by natural or anthropogenic causes; the mapping resolved 36 million individual disturbance patches at a mean size of 1.09 hectares, equivalent to 0.52 patches per km² of forest per year, with the majority stand-replacing. Disturbance frequency increased consistently over the three decades while severity decreased — more, smaller events rather than fewer, larger ones.
+Satellite mapping avoids the unit problem. Across continental Europe from 1986 to 2016, 17 per cent of the forest area was disturbed by natural or anthropogenic causes; the mapping resolved 36 million individual disturbance patches at a mean size of 1.09 hectares, equivalent to 0.52 patches per km² of forest per year, with the majority stand-replacing. Disturbance frequency increased consistently over the three decades while severity decreased; trends in patch size, by contrast, were highly variable, so the record does not collapse into a simple story of more but smaller events.
 
 | Agent | What the record mostly measures | Reported direction | Main comparability problem |
 | --- | --- | --- | --- |

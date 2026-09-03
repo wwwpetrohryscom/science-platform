@@ -18,7 +18,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: 933268d
+_bodyHash: 29a02604
 ---
 
 Every lake and river channel on Earth holds, between them, about 93,100 cubic kilometres of water. The ocean holds 1,338,000,000. In the global water distribution table maintained by the USGS Water Science School, that surface fraction works out to roughly one one-hundred-and-fiftieth of one per cent of all water; adding the world's swamps leaves the total still under one hundredth of one per cent. The species assessments say those same habitats support more than 10 per cent of all described species, including around a third of vertebrates and about half of all fishes. Freshwater ecology is largely the study of what follows from that ratio.
@@ -29,7 +29,7 @@ The distribution table is worth reading closely, because it is quoted more often
 
 Comparing those three surface stocks with each other is more informative than comparing any of them with the ocean. Of the liquid fresh water standing or flowing at the surface, lakes hold roughly 87 per cent, wetlands about 11 per cent, and rivers about 2 per cent. Rivers are, volumetrically, almost nothing.
 
-Area tells a different story. A satellite inventory of the world's lakes counted about 117 million water bodies larger than 0.002 square kilometres, covering close to 5 million square kilometres, or 3.7 per cent of the non-glaciated land surface. A separate reconstruction from Landsat-derived river widths put the surface area of rivers and streams at mean annual discharge at 773,000 ± 79,000 square kilometres, 0.58 ± 0.06 per cent of non-glaciated land — some 44 per cent more than earlier estimates. Fresh waters are thin films with large perimeters, not reservoirs. Their ecological weight comes from surface, edge and connection, not from volume, and their role in the [global water cycle](/en/ecology/earth-systems/global-water-cycle-explained) is one of rapid transfer rather than storage.
+Area tells a different story. A satellite inventory of the world's lakes counted about 117 million water bodies larger than 0.002 square kilometres, covering close to 5 million square kilometres, or 3.7 per cent of the non-glaciated land surface. A separate reconstruction from Landsat-derived river widths put the surface area of rivers and streams at mean annual discharge at 773,000 ± 79,000 square kilometres, 0.58 ± 0.06 per cent of non-glaciated land — an area 44 ± 15 per cent larger than previous estimates. Fresh waters are thin films with large perimeters, not reservoirs. Their ecological weight comes from surface, edge and connection, not from volume, and their role in the [global water cycle](/en/ecology/earth-systems/global-water-cycle-explained) is one of rapid transfer rather than storage.
 
 ## Why a drainage basin behaves like an island
 
@@ -54,7 +54,7 @@ Because the clocks differ, so do the failure modes. In rivers, the organising va
 
 ## What the threat data actually say
 
-The largest freshwater assessment yet published covered 23,496 species — 14,628 freshwater fishes, 6,223 dragonflies and damselflies, and 2,645 decapod crustaceans — and found 24 per cent of them threatened with extinction. Decapods were worst affected at 30 per cent, fishes at 26 per cent and odonates at 16 per cent. Eighty-nine assessed species, 0.4 per cent of the total and mostly fishes, are recorded as extinct.
+The most comprehensive multi-taxon global freshwater fauna assessment on the IUCN Red List to date, published in *Nature* in 2025, covered 23,496 species — 14,628 freshwater fishes, 6,223 dragonflies and damselflies, and 2,645 decapod crustaceans — and found 24 per cent of them threatened with extinction. Decapods were worst affected at 30 per cent, fishes at 26 per cent and odonates at 16 per cent. Eighty-nine assessed species, 0.4 per cent of the total, are recorded as extinct since 1500; 82 of the 89 are fishes.
 
 The threat breakdown matters more than the headline. Among threatened species, 54 per cent are affected by pollution, 39 per cent by dams and water extraction, 37 per cent by land-use change and associated effects from agriculture, and 28 per cent by invasive species and disease; close to a fifth are recorded as affected by climate change and severe weather. These categories overlap heavily — most threatened species carry several — so the shares cannot be added, and no single lever addresses the majority.
 

@@ -21,7 +21,7 @@ related:
 _bodyHash: 960851a8
 ---
 
-The word "forest" does more work in a statistic than it looks capable of. Before it names an ecosystem it names a land-use category: thresholds on area, tree height and canopy cover, plus a judgement about what the land is for. Move any one of those settings and the world's forest area moves with it, without a single tree changing.
+The word "forest" does more work in a statistic than it looks capable of. Before it names an ecosystem it names a land-use category: thresholds on area, tree height and [canopy cover](/en/glossary/canopy-cover), plus a judgement about what the land is for. Move any one of those settings and the world's forest area moves with it, without a single tree changing.
 
 So this page begins with definitions. Most apparent contradictions in published forest statistics dissolve once you know which definition produced each number, and the same thresholds decide what counts as loss, what counts as gain, and what the accounting cannot see at all.
 

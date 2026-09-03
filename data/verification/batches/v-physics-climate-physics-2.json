@@ -1,0 +1,325 @@
+{
+  "batchId": "v-physics-climate-physics-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "convection-and-cloud-formation",
+      "path": "content/en/physics/climate-physics/convection-and-cloud-formation.md",
+      "status": "amended",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "cloud condensation nuclei need a radius of about one micrometre; smoke, volcanic ash, sea spray and wind-blown soil supply them",
+          "sourceChecked": "https://www.noaa.gov/jetstream/clouds/how-clouds-form",
+          "disposition": "verified"
+        },
+        {
+          "claim": "unsaturated ascent cools at 9.8 degrees C per kilometre (the dry lapse rate)",
+          "sourceChecked": "https://www.noaa.gov/jetstream/clouds/how-clouds-form",
+          "disposition": "verified"
+        },
+        {
+          "claim": "drier air is continuously entrained into a rising parcel, so condensation and evaporation both run at once",
+          "sourceChecked": "https://www.noaa.gov/jetstream/clouds/how-clouds-form",
+          "disposition": "verified"
+        },
+        {
+          "claim": "droplets about a hundredth of a millimetre across; low cloud below 6,500 ft, medium 6,500-20,000 ft, high 20,000 ft or above over the British Isles",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds",
+          "disposition": "verified"
+        },
+        {
+          "claim": "collision-coalescence (warm rain) and the ice-crystal process are the two routes from cloud droplet to precipitation",
+          "sourceChecked": "https://www.noaa.gov/jetstream/atmosphere/precipitation",
+          "disposition": "verified"
+        },
+        {
+          "claim": "without clouds 47 W/m2 less solar is reflected (53 +/- 2 instead of 100 +/- 2) and 28 W/m2 more thermal radiation escapes (267 +/- 3 instead of 239 +/- 3), leaving a 20 W/m2 clear-sky TOA imbalance",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AR6 is explicit that the cloud-free budget is not the state a cloud-free Earth would settle into; it is the same atmosphere with cloud radiative properties switched off, which is exactly how models compute clear-sky fluxes",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "corrected",
+          "note": "AR6 section 7.2.1 makes neither statement. It derives the cloud-free budget from in situ and satellite radiation measurements taken under cloud-free conditions with otherwise identical atmospheric and surface radiative properties (Wild et al. 2019) - not from a model clear-sky diagnostic - and says the resulting 20 W/m2 imbalance 'suggest[s] that the Earth would warm substantially if there were no clouds'. Sentence rewritten to what the chapter states."
+        },
+        {
+          "claim": "MODIS on NASA's Aqua satellite, over July 2002 to April 2015, found about 67 per cent of Earth's surface typically under cloud, with less than 10 per cent of ocean sky completely clear against 30 per cent over land",
+          "sourceChecked": "https://science.nasa.gov/earth/earth-observatory/cloudy-earth-85843/",
+          "disposition": "corrected",
+          "note": "The three figures come from three different places on that page and none is a MODIS/Aqua result dated July 2002-April 2015. NASA attributes the 67 per cent to 'one study based on nearly a decade of satellite data' and the clear-sky percentages to 'other research'; July 2002-April 2015 is the averaging period of the MODIS/Aqua cloud-fraction map the page displays. Attribution corrected and the date tied to the map it belongs to."
+        },
+        {
+          "claim": "AR6 assesses net cloud feedback at +0.42 W m-2 C-1, very likely range -0.10 to +0.94, high confidence positive, net negative very unlikely; uncertainty about half AR5's",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the AR5-versus-AR6 sign-and-confidence table for seven cloud regimes, and 'three regimes remain at low confidence'",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "CERES EBAF Ed4.0 global mean flux accuracy of 1.7 per cent (1.7 W/m2) reflected solar and 1.3 per cent (3.0 W/m2) outgoing thermal at 90 per cent confidence; fluxes adjusted to an ocean-heat-content estimate",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "aerosol-cloud effective radiative forcing of -1.0 W/m2, range -1.7 to -0.3, medium confidence, and the largest component of total aerosol forcing",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "net cloud feedback grew about 20 per cent from CMIP5 to CMIP6, traced in part to Southern Ocean supercooled liquid and optical depths biased low in CMIP5, with the bias reduction guided by laboratory experiments, field measurements and satellite observations",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/ (cross-checked against Zelinka et al. 2020, full text read at https://www.osti.gov/servlets/purl/1642367)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The Wiley landing page for Zelinka et al. (2020) is behind a Cloudflare interstitial and could not be read; the paper's full text was read instead from the open-access OSTI copy (https://www.osti.gov/servlets/purl/1642367), with title, journal and abstract confirmed via Crossref.",
+        "The article's claim that mixed-phase-cloud bias reduction was 'guided by laboratory experiments, field measurements and satellite observations' is not in Zelinka et al. (2020); it is verbatim AR6 Chapter 7 (section 7.5.6). I initially flagged this as an embellishment and rewrote it, then found the AR6 sentence and restored the original wording."
+      ]
+    },
+    {
+      "slug": "atmospheric-circulation-cells",
+      "path": "content/en/physics/climate-physics/atmospheric-circulation-cells.md",
+      "status": "clean",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "George Hadley proposed a single circulation per hemisphere in 1735",
+          "sourceChecked": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the trades carry a larger easterly than equatorward component, making them north-easterly and south-easterly",
+          "sourceChecked": "https://www.noaa.gov/jetstream/tropical/convergence-zone",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the surface moves eastward at over 1,000 mph (1,600 km/h) at the equator, falling to zero at the poles, and poleward-moving air retains that momentum",
+          "sourceChecked": "https://www.noaa.gov/jetstream/global/jet-stream",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the Ferrel cell was proposed in 1856 and the westerlies it accounts for between 35 and 60 degrees are caused by friction, not the equator-to-pole temperature difference; the polar cell is smallest and weakest",
+          "sourceChecked": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+          "disposition": "verified"
+        },
+        {
+          "claim": "high-pressure band near 30 degrees N/S and over each pole, low pressure at the equator and 50-60 degrees, with the subtropical deserts and the 50-60 storm belt following from it",
+          "sourceChecked": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations",
+          "disposition": "verified"
+        },
+        {
+          "claim": "jets typically around 30,000 ft (9,100 m), west to east, maximum more than 275 mph (239 kt, 442 km/h); subtropical jet near 30 degrees, polar jet 50-60 degrees",
+          "sourceChecked": "https://www.noaa.gov/jetstream/global/jet-stream",
+          "disposition": "verified"
+        },
+        {
+          "claim": "jets are strongest in their own hemisphere's winter and migrate poleward in spring; a jet is a region in which speed increases towards a core, hundreds of miles wide",
+          "sourceChecked": "https://www.noaa.gov/jetstream/global/jet-stream",
+          "disposition": "verified"
+        },
+        {
+          "claim": "40 per cent of all tropical rainfall rates exceed one inch per hour, from individually small, short-lived storms",
+          "sourceChecked": "https://www.noaa.gov/jetstream/tropical/convergence-zone",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Lagos averages 1,740 mm a year and Kano 825 mm in a single June-September rainy season, the two cities 800 km apart",
+          "sourceChecked": "https://www.noaa.gov/jetstream/tropical/convergence-zone",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AR6 finds high confidence that a slowdown of the tropical circulation partly offsets warming-induced monsoon strengthening; projections increase in more regions than decrease (medium confidence), up for South, South East and East Asia, down for North America, up over the central Sahel and down over the far western Sahel",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Rossby waves 6,000-8,000 km or more, three to seven per hemisphere and typically four or five, slow eastward with stalls and retrogression; shortwaves under 6,000 km moving about 37 km/h in summer and 55 km/h in winter and carrying most precipitation bands",
+          "sourceChecked": "https://www.noaa.gov/jetstream/upper-air-charts/longwaves-and-shortwaves",
+          "disposition": "verified"
+        },
+        {
+          "claim": "AR6 assesses that the Hadley circulation has likely widened since at least the 1980s and extratropical storm tracks have likely shifted poleward in both hemispheres",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "poleward shift of roughly 0.1 to 0.5 degrees of latitude per decade over about the last 40 years, spread attributed to dataset and metric choice plus interannual variability; mostly a Northern Hemisphere phenomenon; only medium confidence in the extent",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "about 0.25 degrees per decade equatorward 1945-1980; low confidence in Hadley cell extent from centennial reanalyses; low confidence in long-term Walker strength trends but very likely strengthening and westward shift since 1980 with medium confidence in magnitude; and the CMIP6 finding that the greenhouse-gas-driven shift is 2-3 times larger in the Southern Hemisphere",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2/ and https://acp.copernicus.org/articles/20/5249/2020/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The article's claim that the CMIP6 Northern-Hemisphere summer contraction is traceable to higher sensitivity 'rather than to any change in how the circulation itself is represented' is a gloss: Grise and Davis (2020) attribute the contraction to larger SST warming under identical CO2 forcing and report that expansion magnitudes and seasonality are otherwise very similar between CMIP5 and CMIP6, which supports the gloss but does not state it as a negative claim."
+      ]
+    },
+    {
+      "slug": "geophysics-and-earth-structure",
+      "path": "content/en/physics/climate-physics/geophysics-and-earth-structure.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "P waves 5-7 km/s in typical crust and above 8 km/s in mantle and core; S waves 3-4 km/s in crust and about 4.5 km/s in the mantle",
+          "sourceChecked": "https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/how-are-earthquakes-detected/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "S waves do not propagate through liquid - not through ocean, magma, or the liquid outer core - and the P-minus-S interval at three stations locates an earthquake",
+          "sourceChecked": "https://www.bgs.ac.uk/discovering-geology/earth-hazards/earthquakes/how-are-earthquakes-detected/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Earth about 12,750 km across; oceanic crust about 5 km, continental averaging about 30 km and up to 100 km under mountain ranges; mantle about 2,900 km; outer core 2,200 km; inner core about 1,250 km",
+          "sourceChecked": "https://pubs.usgs.gov/gip/dynamic/inside.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the lithosphere averages at least 80 km, is thinnest under the oceans, and sits on an asthenosphere of similar composition that flows under sustained stress",
+          "sourceChecked": "https://pubs.usgs.gov/gip/dynamic/inside.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "total heat flux through Earth's surface of 47 +/- 2 TW from a compilation of 38,347 measurements, 55 per cent more than earlier estimates used",
+          "sourceChecked": "https://se.copernicus.org/articles/1/5/2010/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the two sources of internal heat are decay of naturally occurring uranium, thorium and potassium, and residual gravitational heat from the planet's formation",
+          "sourceChecked": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USGS states that how many convection cells exist, where they originate and what their structure is remain unanswered; explanations up to the 1990s emphasised seafloor spreading, most workers now favour subduction-associated forces",
+          "sourceChecked": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "observed spreading rates span an order of magnitude - about 2.5 cm/yr at the Mid-Atlantic Ridge, more than 15 cm/yr on the East Pacific Rise near Easter Island",
+          "sourceChecked": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+          "disposition": "qualified",
+          "note": "Both rates are USGS's own and are correctly attributed (2.5 cm/yr for the Mid-Atlantic Ridge; more than 15 cm/yr for the East Pacific Rise near Easter Island). But they span a factor of about six, not an order of magnitude. Replaced with the source's own wording, that these rates 'can range widely'."
+        },
+        {
+          "claim": "the geomagnetic polarity flips every few hundred thousand years so a compass would point south; the field is changing continuously and currently shows signs of significant weakening; Swarm's three satellites launched 22 November 2013 to separate core, mantle, crust, ocean, ionosphere and magnetosphere signals",
+          "sourceChecked": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Introducing_Swarm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GRACE-FO launched 22 May 2018, flies two spacecraft about 220 km apart, measures their separation by microwave ranging, and builds monthly maps of the average gravity field whose differences are mass redistributions",
+          "sourceChecked": "https://gracefo.jpl.nasa.gov/mission/overview/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "oldest rocks Acasta Gneisses 4.03 Ga and Isua supracrustals 3.7-3.8 Ga; Western Australian zircons to 4.3 Ga and U-Pb grains reported at 4.4 Ga; these set a floor not the age",
+          "sourceChecked": "https://pubs.usgs.gov/gip/geotime/age.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "4.54 billion years with uncertainty under 1 per cent, from Pb-207/Pb-206 evolution with primordial lead from troilite in the Canyon Diablo meteorite; more than seventy meteorites give 4.53-4.58 Ga and lunar samples 4.4-4.5 Ga; the age dates lead-isotope homogeneity in the inner solar system, not the completion of a planet",
+          "sourceChecked": "https://pubs.usgs.gov/gip/geotime/age.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The cited GRACE-FO URL answers 404 to a HEAD request and to a GET without an Accept header, and 200 with an ordinary browser Accept header. The page is live and carries the claims, but a link checker using HEAD will report it dead - worth knowing before someone 'fixes' a working citation.",
+        "The statement that a gravity measurement cannot uniquely determine the depth distribution of the mass beneath it is standard potential theory but appears nowhere on the cited JPL page; it is left as uncontroversial background rather than sourced.",
+        "The 47 +/- 2 TW heat-flux figure comes from a 2010 compilation and the article does not date it. No more recent global heat-flow compilation was consulted, so I cannot say whether it is still the current best estimate.",
+        "The ESA Swarm page carries no publication or revision date, so the 'currently shows signs of significant weakening' statement - a continuously monitored quantity - has no temporal anchor its own source supports. I left the wording as ESA has it rather than invent a date."
+      ]
+    },
+    {
+      "slug": "climate-model-physics-explained",
+      "path": "content/en/physics/climate-physics/climate-model-physics-explained.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "AR6 describes Earth system models as mathematical formulations of natural laws - Navier-Stokes, Clausius-Clapeyron, mass and energy conservation - evaluated numerically on three-dimensional discrete grids",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "the spatial and temporal resolution of the grid determines which processes need to be parameterised and which can be explicitly resolved",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "CMIP6 grids are generally finer than CMIP5; HighResMIP tested roughly 50 km, 25 km and even 10 km; finer grids improve simulated atmospheric and ocean circulation and the global hydrological cycle",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/ and https://gmd.copernicus.org/articles/9/4185/2016/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "only a limited number of simulations per model are available from the high-resolution experiments",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "current-generation global models cannot represent small-scale cloud processes so shallow and deep convection are parameterised; convective entrainment remains difficult to estimate for both at once; explicit-versus-parameterised regional comparisons expose the limitations of the parameterised version",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "tuning targets fall into three kinds - mean climate, regional phenomena, historical trends - with net top-of-atmosphere heat flux the most important global target for CMIP6, plus the listed further global and regional targets",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "a 2017 Bulletin of the American Meteorological Society review pushed the field towards documenting tuning, and CMIP6 groups now publish tuning at three levels for the assembled model and each component",
+          "sourceChecked": "https://journals.ametsoc.org/view/journals/bams/98/3/bams-d-15-00135.1.xml and https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "of 29 CMIP6 groups, 23 report not tuning to observed historical trends and 25 report not tuning to equilibrium climate sensitivity, making sensitivity an emergent property for the large majority",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "models agree well with CERES global mean TOA fluxes, but since some calibrate to CERES the agreement is not evidence of accuracy, and regional flux patterns still differ substantially",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "CMIP6 is a required core - DECK plus a historical simulation from 1850 to the present - surrounded by 21 endorsed MIPs groups may join at their discretion; participation grew from 11 centres to 19 in CMIP5 and 28 in CMIP6",
+          "sourceChecked": "https://gmd.copernicus.org/articles/9/1937/2016/ and https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "qualified",
+          "note": "The 21 endorsed MIPs, the discretionary participation and the 11/19/28 counts are all exact. But the CMIP6 historical simulation does not run to the present: Eyring et al. (2016) give it as '1850-near present' and AR6 Chapter 1 states the period explicitly as 1850-2014. Changed to 'covering 1850 to 2014'."
+        },
+        {
+          "claim": "a multi-model ensemble samples structural choices; a single-model initial-condition large ensemble runs one fixed configuration from many starting states, some minutely perturbed and others from well-separated ocean states",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "for global mean surface temperature the internal-variability contribution is small and scenario becomes dominant in the long term; for 2041-2060 the slowest-warming SSP5-8.5 simulation warms less than the fastest-warming SSP1-1.9 simulation",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "modelling groups share code components and whole sub-models, so the ensemble is families with interdependencies and common biases cannot be ruled out; AR6 departed from previous reports by excluding ESM-derived sensitivity from its assessed ranges because that information already enters the other lines of evidence",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "no systematic convergence in modelled equilibrium climate sensitivity, with the CMIP6 inter-model spread wider than CMIP5's and higher mean sensitivity traced in some models to extratropical cloud feedbacks; poorly performing models may be re-tuned, reconfigured or discarded and never published",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The AMS page for 'The Art and Science of Climate Model Tuning' rendered as navigation, section headings and the reference list rather than the article body. The paper's identity, journal, volume and year and its section structure ('How do modeling centers tune their models?', 'Tuning to twentieth-century warming?') were confirmed there; its role in prompting systematic tuning documentation was verified against AR6 Chapter 1's account of Hourdin et al. (2017), not against the paper's own text.",
+        "The Courant-Friedrichs-Lewy statement and the eightfold-cost arithmetic are the article's own derivation and carry no citation. Both are correct textbook numerics, but no source in the article states them."
+      ]
+    }
+  ]
+}

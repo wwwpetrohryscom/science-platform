@@ -18,7 +18,7 @@ related:
   - ecological-restoration-evidence
   - species-extinction-risk-assessment
 pillar: conservation-science-explained
-_bodyHash: 571559fc
+_bodyHash: cc087f74
 ---
 
 Around 37,000 alien species have become established outside their native ranges through human activity, and new ones are recorded at roughly 200 a year. Documented evidence of negative impact exists for more than 3,500 of them. That ratio is the first thing to understand about biological invasions, because it is routinely lost in summary reporting: the intergovernmental assessment puts the invasive fraction at about 6 per cent of alien plants, 22 per cent of alien invertebrates, 14 per cent of alien vertebrates and 11 per cent of alien microbes. Being introduced is common. Becoming damaging is not.
@@ -31,8 +31,8 @@ Management options are not interchangeable alternatives; they are what remains a
 
 | Stage | Intervention | Evidence status | Binding constraint |
 |---|---|---|---|
-| Pre-border and border | Pathway management, enforced import controls, quarantine | Assessed as the most cost-effective option available | Requires legislation and inspection capacity that most countries lack |
-| Newly arrived, localised | Surveillance, early detection, rapid response | Reduces establishment rates; identified as critical for marine and connected waters | Detection lag; the window closes quickly |
+| Pre-border and border | Pathway management, enforced import controls, quarantine | Assessed as the most cost-effective option available, and identified as particularly critical in marine and connected water systems | Requires legislation and inspection capacity that most countries lack |
+| Newly arrived, localised | Surveillance, early detection, rapid response | Assessed as critical to reducing rates of establishment | Detection lag; the window closes quickly |
 | Established, bounded | Eradication | The field's strongest quantitative record, concentrated on islands | Rarely feasible at large scale; dormant seed banks defeat plant eradication |
 | Established, widespread | Physical and chemical containment and control | Effective on land and in closed water systems; most marine and open-water attempts have been largely ineffective | Suppression is short-term unless funded indefinitely |
 | Widespread plants and invertebrates | Classical biological control | Successful in more than 60 per cent of documented cases | Non-target effects where release is not regulated |
@@ -49,7 +49,7 @@ Two caveats travel with those numbers. Post-eradication monitoring is sporadic, 
 
 Nothing about a continental population is bounded, so eradication is usually off the table and the realistic goal is suppression. Containment has worked in specific terrestrial and closed-water settings, but the assessment records that most attempts in marine and open-water systems have been largely ineffective — a judgement it grades as established but incomplete, which is itself informative about the state of the evidence.
 
-Classical biological control is the exception that has scaled. Releasing a host-specific natural enemy has succeeded in more than 60 per cent of documented cases against invasive plants and invertebrates, with roughly a third of target plant species needing no further control afterwards, and the practice has a century of landscape-scale use behind it. Its record against plant pathogens and vertebrates is weaker, and its historical failures — agents that turned on non-target species — are the reason international standards and risk-based regulatory frameworks now govern release. The evidence supports biological control as a regulated technique for particular target classes, not as a general solution.
+Classical [biological control](/en/glossary/biological-control) is the exception that has scaled. Releasing a host-specific natural enemy has succeeded in more than 60 per cent of documented cases against invasive plants and invertebrates, with roughly a third of target plant species needing no further control afterwards, and the practice has a century of landscape-scale use behind it. Its record against plant pathogens and vertebrates is weaker, and its historical failures — agents that turned on non-target species — are the reason international standards and risk-based regulatory frameworks now govern release. The evidence supports biological control as a regulated technique for particular target classes, not as a general solution.
 
 Impact is also unevenly distributed among the invaders themselves. Organisms that rebuild habitat structure, such as North American beavers or Pacific oysters, change what the system is rather than merely competing within it — the reason [foundation species](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) are treated separately in impact assessment. Roughly 27 per cent of documented impacts on native species run through changes to ecosystem properties, ahead of competition, predation and herbivory taken individually.
 
@@ -68,7 +68,7 @@ Against that background the Kunming–Montreal framework commits parties to redu
 ## Sources
 
 1. **IPBES** — [Assessment Report on Invasive Alien Species and their Control](https://www.ipbes.net/ias). Establishment counts, invasive fractions, eradication and biological-control success rates, and national policy coverage.
-2. **PNAS** — [Invasive mammal eradication on islands yields substantial conservation gains](https://www.pnas.org/doi/10.1073/pnas.1521179113). Species and populations benefiting from 251 island eradications, with negative cases reported.
+2. **PNAS** — [Invasive mammal eradication on islands results in substantial conservation gains](https://www.pnas.org/doi/10.1073/pnas.1521179113). Species and populations benefiting from 251 island eradications, with negative cases reported.
 3. **Nature** — [High and rising economic costs of biological invasions worldwide](https://www.nature.com/articles/s41586-021-03405-6). InvaCost totals, annual means and rate of increase.
 4. **Science of the Total Environment** — [Widespread imprecision in estimates of the economic costs of invasive alien species worldwide](https://pubmed.ncbi.nlm.nih.gov/37914135/). Benford's Law audit of the cost database and evidence of numerical heaping.
 5. **Convention on Biological Diversity** — [Kunming–Montreal Global Biodiversity Framework targets](https://www.cbd.int/gbf/targets). Wording of Target 6 on rates of introduction and establishment.

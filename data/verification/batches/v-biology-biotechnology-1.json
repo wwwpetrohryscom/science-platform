@@ -1,0 +1,255 @@
+{
+  "batchId": "v-biology-biotechnology-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "biotechnology-explained",
+      "path": "content/en/biology/biotechnology/biotechnology-explained.md",
+      "status": "clean",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "A 1973 PNAS report described joining restriction-enzyme fragments from two separate plasmids outside the cell and returning the construct to E. coli, where it replicated and expressed genetic properties from both parent molecules",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC427208/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Synthetic genes for the A and B chains of human insulin were expressed in E. coli by 1979; Humulin was approved in October 1982 as the first protein therapeutic based on recombinant DNA cleared for human use; nine years from proof of principle to pharmacy",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152450/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The short insulin timeline is explained by the target being a small, fully characterised protein already in clinical use in animal-derived form",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152450/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An analysis of 406,038 clinical trial entries covering 21,143 compounds between 2000 and 2015 reconstructed 41,040 complete development paths and puts phase-1-to-approval probability at 13.8 per cent, against 10.4 and 9.6 per cent from two earlier analyses; transitions 66.4, 58.3 and 59.0 per cent, which do not multiply out to the overall figure",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6409418/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The first medicine to use programmable genome editing — autologous blood stem cells edited ex vivo and returned after myeloablative conditioning — received United States approval on 8 December 2023, roughly a decade after the editing method was first described",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11736165/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 1975 Asilomar conference published its summary statement in PNAS while the hazards of the new methods were still unquantified, practitioners setting out the terms on which their own work should continue",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC432675/ (scanned PDF, text extracted from the Europe PMC render; the PMC HTML page is page images only)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Cartagena Protocol on Biosafety was adopted on 29 January 2000, entered into force on 11 September 2003, governs transboundary movement of living modified organisms and establishes an advance informed agreement procedure",
+          "sourceChecked": "https://bch.cbd.int/protocol/background",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The WHO published recommendations in 2021 on the governance of human genome editing, setting out nine areas of action ranging from international collaboration on oversight to intellectual property and public engagement",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789240030381",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NHGRI cost-per-genome data record about $95.3 million in September 2001 and about $525 by May 2022, and exclude quality control, alignment, assembly, variant calling and interpretation",
+          "sourceChecked": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data (page text plus the linked data table Sequencing_Cost_Data_Table_May2022.xls, parsed cell by cell)",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Two clauses sit outside what the cited sources carry, neither of them contested. The Asilomar summary statement makes no reference to statute or legislation, so the article's 'before any statutory framework existed' is historical context rather than a claim the document supports; what the statement does supply is 'provisional guidelines for investigators and agencies' and a four-level containment scale, plus the sentence that grounds the article's point — 'the evaluation of potential biohazards has proved to be extremely difficult. It is this ignorance that has compelled us to conclude that it would be wise to exercise considerable caution.' Separately, the Endocrine Reviews history confirms that insulin was a small, fully characterised protein and that cow and pig insulin were in clinical use until 1982, but says nothing about bulk need or patient-population size; that clause is general background.",
+        "The NHGRI cost series is a live product — the page states that NHGRI 'plans to update these data on a regular basis'. The latest release available on 2026-09-03 is still the May 2022 table, so the article's May 2022 anchor is current, not stale. Both figures were checked against the table's own cells ($95,263,071.92 and $524.62), not against the page prose, which does not repeat them."
+      ]
+    },
+    {
+      "slug": "dna-sequencing-technologies",
+      "path": "content/en/biology/biotechnology/dna-sequencing-technologies.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "The 1977 chain-termination method used dideoxynucleotide analogues acting as chain-terminating inhibitors of DNA polymerase and was demonstrated on bacteriophage phi X174",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC431765/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2022 complete human genome used circular-consensus reads averaging around 20 kbp at an error rate near 0.1 per cent and ultra-long nanopore reads exceeding 100 kbp at substantially lower per-read accuracy, the two being complementary",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2024 evaluation found median per-read accuracy of 96.8 per cent (IQR 95.9-97.4) for R9.4.1, 98.8 per cent (98.1-99.2) for R10.4.1, and 99.2 per cent (98.8-99.5) with a newer basecalling model",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11170131/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Native DNA methylation was producing systematic adenosine-to-guanine and cytosine-to-thymine substitutions, addressed by training basecallers on methylated native DNA",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11170131/",
+          "disposition": "corrected",
+          "note": "Two errors in one sentence. The substitution direction was wrong: the study reports 'G-to-A and C-to-T SNV errors appeared systematically more frequent across most sequencing/basecalling/assembly approaches and for most species' — guanine-to-adenine, the reverse-complement partner of C-to-T, not adenosine-to-guanine. And the causal attribution was stated as established where the source hedges: the errors are 'hypothesized to be caused by methylated sites confusing the basecalling models', a mechanism the study supports by outcome rather than demonstrates. Rewritten to give the observed pattern as observed and the methylation mechanism as attributed. Also corrected 'methylated native DNA' to the source's 'native bacterial DNA' for what the replacement basecallers were trained on."
+        },
+        {
+          "claim": "Long-read-only assemblies with the newer chemistry and basecaller recovered above 99 per cent of annotated coding sequences at 30x coverage or more, comparable to hybrid assemblies",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11170131/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2022 assembly totals 3,054,815,472 bp of nuclear DNA plus a 16,569 bp mitochondrial genome; it added or corrected 238 Mbp of non-syntenic sequence of which 182 Mbp had no primary alignment; 3,604 genes exclusive to it, 140 predicted protein-coding, 99 protein-coding in regions with no earlier alignment",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The complete human assembly drew on roughly 100x short-read data and 70x chromosome-conformation data, together with optical and single-cell strand-specific maps",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NHGRI's table records about $95.3 million per genome in September 2001, $7.1 million in October 2007, $3.1 million three months later, and about $525 by May 2022 — a fall of more than five orders of magnitude",
+          "sourceChecked": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data (data table Sequencing_Cost_Data_Table_May2022.xls, parsed cell by cell)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The January 2008 move to second-generation instruments is exactly where a fourfold drop in a single quarter appears",
+          "sourceChecked": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data (data table Sequencing_Cost_Data_Table_May2022.xls)",
+          "disposition": "corrected",
+          "note": "The multiplier does not match the series the sentence is describing. In the cost-per-genome column the article had just quoted, October 2007 is $7,147,571 and January 2008 is $3,063,820 — a fall of 57 per cent, a factor of 2.3, not four. The fourfold figure belongs to the other column: cost per megabase falls from $397.09 to $102.13 over the same quarter, a factor of 3.9. Changed to 'that fall of more than half in a single quarter', which is what the quoted numbers show. The rest of the sentence stands: the page does date the out-pacing of Moore's Law to January 2008 and attribute it to the Sanger-to-second-generation transition."
+        },
+        {
+          "claim": "The original human genome draft cost on the order of $300 million worldwide, with refinement to a finished sequence adding around $150 million",
+          "sourceChecked": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Genome in a Bottle characterises a pilot genome and two family trios and distributes benchmark variant sets plus stratification files marking homopolymers, tandem repeats and the major histocompatibility complex",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The NHGRI cost-per-genome and cost-per-megabase figures are not printed in the page's prose — the page carries graphs and a downloadable table. Every dollar figure in this article was read from the cells of Sequencing_Cost_Data_Table_May2022.xls, which the page links as its data of record. That is the only reason the fourfold error was visible."
+      ]
+    },
+    {
+      "slug": "crispr-genome-editing-explained",
+      "path": "content/en/biology/biotechnology/crispr-genome-editing-explained.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "In one class of CRISPR system a mature crRNA base-paired to a trans-activating RNA forms a two-RNA structure directing Cas9 to introduce a double-strand break; the HNH domain cuts the strand complementary to the guide and the RuvC-like domain the other; the two RNAs can be fused into a single chimera that still directs sequence-specific cleavage",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6286148/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cas9 requires a protospacer-adjacent motif beside the matched sequence, which in the native context distinguishes invading DNA from the bacterium's own copy; for S. pyogenes that motif is NGG",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6286148/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An NGG motif on one strand or the other occurs on average about every 8 base pairs",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6907074/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cas9 plus a single-stranded donor driving homology-directed repair produced the intended C-to-T conversion at an average of 0.5 per cent of alleles while generating indels at an average of 4.3 per cent — more unintended outcomes than intended ones by roughly ninefold",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4873371/",
+          "disposition": "corrected",
+          "note": "The two percentages are exactly right; the multiplier derived from them is not the paper's. 4.3 over 0.5 gives 8.6, but the paper computes the comparison per locus and reports it directly: 'The ratio of allele conversion to NHEJ outcomes averaged >1,000 for BE2, 23 for BE3, and 0.17 for wt Cas9' — that is closer to sixfold, not ninefold, and a reader would repeat 'ninefold' as the study's finding. Replaced the derived figure with the ratio the paper states, and added the BE3 comparator (23) that makes the contrast the paragraph is drawing."
+        },
+        {
+          "claim": "Cytosine base editing converts within a window of roughly five nucleotides; with a nickase targeting the unedited strand and a uracil glycosylase inhibitor, conversion reached approximately 15 to 75 per cent of total cellular DNA across four cell lines with indels typically at or below 1 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4873371/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The prime editing work performed more than 175 edits in human cells including all twelve possible point substitutions plus small insertions and deletions, with indel frequencies averaging 0.86 per cent for the simpler configuration and the second-nick variant raising both efficiency and indels into the low tens of per cent at some sites",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6907074/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The authors calculated that in principle the approach could address up to about 89 per cent of the 75,122 pathogenic human variants then catalogued in ClinVar",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6907074/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GUIDE-seq applied to thirteen guides in two human cell lines found most identified sites undetected by the computational tools then in use or by ChIP, with missed sites including some differing by as little as one mismatch; truncated guides substantially reduced off-target breaks; some breakpoint hotspots were nuclease-independent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4320685/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The first approved therapy silences an erythroid-specific BCL11A enhancer to raise fetal haemoglobin, was approved in the United States on 8 December 2023 for patients 12 and over with recurrent vaso-occlusive crises and in January 2024 for transfusion-dependent beta-thalassaemia, is administered ex vivo after myeloablative conditioning, and leaves long-term haematologic questions that only extended follow-up can answer",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11736165/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The WHO's 2021 recommendations treat somatic, germline and heritable applications within one governance framework, proposing a registry, mechanisms for reporting work outside agreed norms, and sustained public engagement",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789240030381",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Science is paywalled and pmc.ncbi.nlm.nih.gov serves a reCAPTCHA to scripted clients, so the Jinek 2012 paper was reached two ways: the abstract and bibliographic record via the Europe PMC REST API, and the full author-manuscript text of PMC6286148 via a direct browser-agent request that got past the interstitial. Both the domain-to-strand assignment and the NGG/self-versus-non-self passage were read in the full text, not inferred from the abstract.",
+        "The 0.86 per cent prime-editing indel figure is reported by the paper under the word 'Overall' but sits inside a three-site comparison against BE4max. It is correctly attributed to PE2 and correctly quoted; a reader should not take it as an average across all 175 edits. Left as written because the paper's own framing is general."
+      ]
+    },
+    {
+      "slug": "synthetic-biology-explained",
+      "path": "content/en/biology/biotechnology/synthetic-biology-explained.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "A 2010 study propagated standard-format circuits in E. coli without selection for their function; one circuit lost function in fewer than 20 generations with an evolutionary half-life of about 7.1 generations, the cause a deletion between two homologous transcriptional terminators occurring in every replicate population; a second lost function within 50 generations through a deletion between repeated operator sequences in its promoter",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2991278/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Re-engineering to remove terminator homology more than doubled the half-life; removing homology and cutting expression fourfold extended it more than seventeenfold, to roughly 125 generations",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2991278/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Half-life fell exponentially as expression rose, and loss of function arrived by point mutation, small insertions and deletions, large deletions and insertion-sequence transposition",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2991278/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Work published in 2025 on stabilising engineered expression in yeast by fusing a gene of interest to an essential host gene still opens by describing evolutionary instability as a persistent challenge that causes engineered expression to be lost over time",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12487889/",
+          "disposition": "qualified",
+          "note": "Year, organism and mechanism all check out — Science Advances, accepted August 2025, STABLES validated in Saccharomyces cerevisiae by fusing a gene of interest to an essential endogenous gene. The paraphrase hardened the source's hedge, though: the opening line reads 'Evolutionary instability is a persistent challenge in synthetic biology, often leading to the loss of heterologous gene expression over time.' Restored 'often leads to' in place of 'causes'. The article's point — that the problem is still being described as open fifteen years on, in a different organism — is unaffected."
+        },
+        {
+          "claim": "Fermentative production of artemisinic acid reached 25 g/L in a strain expressing the full complement of A. annua oxidation enzymes, grown under the same regimen as a parent strain producing 40 g/L of the hydrocarbon precursor — a conversion of about 55 mol per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5797932/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "After transfer between companies and five years of process work, the original route was judged to have reached its performance limits and not to be cost-effective enough for commercial production, sending chemists back to a photochemical step; the biology succeeded but the economics did not follow",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5797932/",
+          "disposition": "corrected",
+          "note": "The most serious error in the batch: the sentence attaches the source's failure verdict to the wrong half of the process, and the paragraph then reads as though the engineered-biology programme did not reach market. The review's 'this route had reached its performance limits and would not be cost-effective enough for commercial production' refers to the Amyris chemical conversion of artemisinic acid to artemisinin — a four-step route built specifically to avoid photochemistry — which is why the very next sentence is 'This led Sanofi chemists to reconsider the original photochemical approach.' The fermentation was never the thing abandoned. The same review states that semi-synthetic artemisinin entered commercial production in 2013 and that the rebuilt photochemical process 'is currently being used to manufacture up to 60 MT/year of the target molecule in about 55% overall yield from artemisinic acid produced by fermentation of engineered S. cerevisiae strains in what is the only current industrial-scale semi-synthesis of artemisinin.' Rewrote the passage to say which step failed and to record that the yeast process is in industrial use, and moved the limitation onto the reservation the review actually presses — that 55 mol per cent conversion leaves 'clearly room for improvement in the oxidation of amorphadiene to artemisinic acid'. The 60 MT/year figure is anchored to the review (2018) rather than stated as current."
+        },
+        {
+          "claim": "JCVI-syn3A has 452 protein-coding genes, the smallest gene set for any organism able to grow independently of a host cell, and roughly one third of its proteins have no known function",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740822/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Individual genetic safeguards in yeast showed escape frequencies below 10^-6; combining two mechanistically independent safeguards put the frequency of viable escapers below the assay's detection limit, reported as under 10^-10, with little fitness cost — and each of those numbers is an upper bound set by how many cells were plated, not a measured escape rate",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330768/ (abstract only, via NCBI efetch and the Europe PMC REST API; PNAS returns 403 and the PMC record states 'The publisher of this article does not allow downloading of the full text in XML form')",
+          "disposition": "qualified",
+          "note": "The numbers are exact — 'The combined frequency of generating viable derivatives when both systems were active was below detection (<10-10), consistent with their orthogonal nature and the individual escape frequencies of <10-6', and 'Transcript profiling and growth test suggest high fitness of safeguarded strains'. The gloss that followed over-reached: 'Each of those numbers is an upper bound set by how many cells were plated, not a measured escape rate' is right for the combined figure, which the paper explicitly calls below detection, but not for the single-safeguard figure — the same abstract says 'Evaluation of escaper mutants suggests strategies for reducing their emergence', so escapers from the individual safeguards were recovered and characterised. Narrowed the claim to the combined figure. The article's underlying argument, that a containment number of this form reports an assay's sensitivity rather than a rate, is unchanged and is the correct reading of a 'below detection' result."
+        },
+        {
+          "claim": "The most recent global reference for biorisk and dual-use governance is the WHO's 2022 guidance on responsible use of the life sciences, written around risk mitigation distributed across scientists, institutions, funders, publishers and regulators rather than concentrated at one checkpoint",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789240056107",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The PNAS biocontainment paper could be read in abstract only. PNAS returns 403 to scripted clients, pmc.ncbi.nlm.nih.gov serves a reCAPTCHA, and the PMC record carries the notice 'The publisher of this article does not allow downloading of the full text in XML form'. Every figure the article cites from it (<10^-6, <10^-10, below detection, fitness of safeguarded strains) is stated in the abstract and was verified there; the methods detail that would settle how many cells were plated was not reachable, which is why the correction narrows the claim rather than asserting a plating count.",
+        "The 60 MT/year artemisinin production figure is as of the 2018 review and has been written into the article that way. Whether that process is still running at that scale in 2026 was not established and no source was consulted for it."
+      ]
+    }
+  ]
+}

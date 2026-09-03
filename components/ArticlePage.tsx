@@ -17,6 +17,9 @@ import {
 } from "@/lib/content";
 import { getCategory } from "@/lib/categories";
 import { extractCitationUrls } from "@/lib/sources";
+import { evidenceProfile } from "@/lib/evidence/index";
+import { entitiesForArticle } from "@/lib/entities/index";
+import { getReview } from "@/lib/verification";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
   getMessages,
@@ -67,6 +70,22 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
   // rather than by an editor, and all of which were English on every
   // localized page. A fabricated calibration is worse than none.
   const citationCount = extractCitationUrls(article.rawBody).length;
+
+  // Trust-layer inputs. Every one is a measured or recorded fact:
+  // what the article cites, what kind of bodies those sources are,
+  // which concepts the entity graph attaches, and whether an
+  // independent reader has checked the claims against their sources.
+  //
+  // Deliberately absent: any score, percentage, badge or rating. A
+  // number that looks like a grade would be read as one, and the site
+  // has nothing to grade with.
+  const profile = evidenceProfile(article.slug);
+  const concepts = entitiesForArticle(article.slug);
+  const review = getReview(article.slug);
+  const sourceMix = Object.entries(profile.byType)
+    .sort((a, b) => b[1] - a[1])
+    .map(([type, n]) => `${t(`evidence_types.${type}`)} ${n}`)
+    .join(", ");
 
   // Structured data — use the article's localized URL for inLanguage
   // and mainEntityOfPage. Hreflang is emitted via metadata, not JSON-LD.
@@ -228,11 +247,43 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                 </Link>
                 .
               </p>
+              {sourceMix && (
+                <p className="mt-2 text-sm leading-relaxed text-ink-subtle">
+                  {t("evidence.source_mix", { mix: sourceMix })}
+                </p>
+              )}
+              {profile.liveDatasets > 0 && (
+                <p className="mt-2 text-sm leading-relaxed text-ink-subtle">
+                  {t("evidence.live_data_note", { count: profile.liveDatasets })}
+                </p>
+              )}
+
+              {/* Review state. Shown when a check has been recorded and
+                  shown when it has not — an absent claim about review is
+                  read as a claim that review happened, so the negative
+                  case has to be visible too. */}
+              <p className="mt-3 border-t border-ink-line pt-3 text-sm leading-relaxed text-ink-subtle">
+                {review ? (
+                  <>
+                    {t("evidence.reviewed_on", {
+                      date: formatDate(review.reviewedDate, locale),
+                    })}{" "}
+                    {t("evidence.reviewed_detail", { claims: review.claimsChecked })}
+                  </>
+                ) : (
+                  t("evidence.not_reviewed")
+                )}
+              </p>
+
               <p className="mt-4 text-xs text-ink-subtle">
                 {t("evidence.last_updated")}{" "}
                 <time dateTime={article.updatedDate}>
                   {formatDate(article.updatedDate, locale)}
                 </time>{" "}
+                ·{" "}
+                <Link href="/en/corrections" className="link-quiet">
+                  {t("evidence.corrections_link")}
+                </Link>{" "}
                 ·{" "}
                 <Link
                   href={localizedPath(locale, `/${article.category}`)}
@@ -252,6 +303,38 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                 </Link>
               </p>
             </section>
+
+            {concepts.length > 0 && (
+              <section
+                aria-labelledby="concepts-heading"
+                className="mt-8 rounded-md border border-ink-line bg-white p-5"
+              >
+                <h2
+                  id="concepts-heading"
+                  className="font-serif text-lg font-semibold text-ink"
+                >
+                  {t("evidence.concepts_heading")}
+                </h2>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {concepts.map((c) => (
+                    <li key={c.id}>
+                      {c.glossaryId ? (
+                        <Link
+                          href={`/en/glossary/${c.glossaryId}`}
+                          className="inline-block rounded-full border border-ink-line px-3 py-1 text-sm text-ink-muted hover:border-primary-300 hover:text-primary-700"
+                        >
+                          {c.canonicalName}
+                        </Link>
+                      ) : (
+                        <span className="inline-block rounded-full border border-ink-line px-3 py-1 text-sm text-ink-muted">
+                          {c.canonicalName}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             <NewsletterBlock locale={locale} variant="inline" />
 

@@ -18,7 +18,7 @@ related:
   - dams-and-river-fragmentation
   - water-quality-measurement-explained
 pillar: freshwater-ecosystems-explained
-_bodyHash: a415cc0f
+_bodyHash: '4e98221'
 ---
 
 Monitored freshwater vertebrate populations declined by an average of 85 per cent between 1970 and 2020, against 73 per cent for the global index that contains them. Those are the figures the Zoological Society of London publishes for the Living Planet Index, where freshwater is the worst-performing of the three realms reported. The freshwater number is also among the most methodologically sensitive headline figures in conservation science — not because it is wrong, but because what it measures is narrower than the sentence it usually appears in, and because a defensible change in the analysis moves it a long way. Both things have to be held at once.
@@ -45,7 +45,7 @@ Put the two critiques together and the honest position is narrow. The freshwater
 
 ## The largest animals, where the signal is least ambiguous
 
-Body size cuts through some of the ambiguity, because large freshwater animals are the taxa the population databases cover best and the ones whose ranges have been mapped for longest.
+Body size cuts through some of the ambiguity, because large freshwater animals are conspicuous and their historical ranges comparatively well documented — though the synthesis below is explicit that even for them the record is limited by a lack of monitoring data and by taxonomic and spatial bias.
 
 A 2019 synthesis in *Global Change Biology* on [the global decline of freshwater megafauna](https://pubmed.ncbi.nlm.nih.gov/31393076/) — animals reaching 30 kg or more — compiled population data for 126 species from the Living Planet Database and the literature, together with distribution data for 44 species in Europe and the United States. Globally, those populations fell by 88 per cent between 1970 and 2012, with the Indomalayan and Palearctic realms at −99 and −97 per cent. Mega-fishes declined most, at −94 per cent. Ranges contracted as well: 42 per cent of European freshwater megafauna species had lost more than 40 per cent of their historical distribution.
 

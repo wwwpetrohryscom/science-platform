@@ -23,7 +23,7 @@ _bodyHash: 6055357f
 
 Radiation biology splits its effects into two categories that behave nothing alike, and most public confusion comes from applying the logic of one to the other.
 
-**Tissue reactions**, historically called deterministic effects, require enough cells in an organ to be killed or disabled that the organ's function measurably degrades. They have thresholds, they appear within hours to weeks, and above the threshold their severity increases with the amount absorbed. The World Health Organization puts the threshold for acute radiation syndrome at about 1 Sv; the US EPA describes it as requiring more than 0.75 gray delivered "in a short time span (minutes to hours)". Below the threshold the effect does not occur at all, in anybody.
+**Tissue reactions**, historically called deterministic effects, require enough cells in an organ to be killed or disabled that the organ's function measurably degrades. They have thresholds, they appear within hours to weeks, and above the threshold their severity increases with the amount absorbed. The World Health Organization puts the threshold for acute radiation syndrome at about 1 Sv; the US EPA describes it as requiring more than 0.75 gray delivered "in a short time span (minutes to hours)". Below the threshold the effect is not seen.
 
 **Stochastic effects** — principally cancer, and in principle heritable effects — work the other way. The severity of a cancer does not depend on the exposure that initiated it. What is assumed to scale with exposure is the probability. No threshold has been observed, which is not the same as demonstrating that none exists, and the difference between those two statements is where the entire low-dose argument lives.
 
@@ -33,15 +33,15 @@ Both categories begin with the same physical event: an emission carrying enough 
 
 Almost every quantitative risk coefficient in radiological protection traces back to a small number of large cohorts, and two of them dominate.
 
-The Life Span Study of Japanese atomic-bomb survivors is the anchor. Its most recent solid-cancer incidence analysis followed 105,444 people from 1958 to 2009 — 80,205 survivors plus 25,239 residents not in either city at the time — accumulating 3,079,484 person-years and identifying 22,538 first primary solid cancers, of which 992 were attributed to radiation exposure.
+The Life Span Study of Japanese atomic-bomb survivors is the anchor. Its most recent solid-cancer incidence analysis followed 105,444 people from 1958 to 2009 — 80,205 survivors plus 25,239 residents not in either city at the time — accumulating 3,079,484 person-years and identifying 22,538 first primary solid cancers, of which 992 were, in the study’s own wording, "associated with radiation exposure".
 
-The International Nuclear Workers Study approaches the problem from the opposite end of the dose scale. Its 2023 analysis covered 309,932 monitored workers in France, the United Kingdom and the United States, with an average cumulative colon dose of 20.9 mGy accumulated slowly over working lifetimes, 10.7 million person-years of follow-up, and 28,089 solid-cancer deaths.
+The International Nuclear Workers Study approaches the problem from the opposite end of the dose scale. Its 2023 analysis covered 309,932 monitored workers in France, the United Kingdom and the United States, with an average cumulative colon dose of 20.9 mGy among workers whose estimated dose exceeded zero, accumulated slowly over working lifetimes, 10.7 million person-years of follow-up, and 28,089 solid-cancer deaths.
 
 | | Life Span Study | INWORKS |
 | --- | --- | --- |
 | Population | 105,444 atomic-bomb survivors and controls | 309,932 monitored nuclear workers |
 | Exposure | Single acute exposure | Protracted occupational exposure |
-| Typical magnitude | Wide range, extending above 1 Gy | Mean cumulative colon dose 20.9 mGy |
+| Typical magnitude | Wide range, extending above 1 Gy | Mean cumulative colon dose 20.9 mGy, among workers with a dose above zero |
 | Endpoint reported | 22,538 incident solid cancers | 28,089 solid-cancer deaths |
 | Excess relative risk | 0.64 per Gy for women at attained age 70 (95% CI 0.52–0.77) | 0.52 per Gy (90% CI 0.27–0.77) |
 
@@ -49,7 +49,7 @@ Neither excess relative risk is a single number that travels: in the atomic-bomb
 
 ## Where extrapolation begins, and what is actually disputed
 
-The **linear no-threshold model** assumes that stochastic risk is proportional to the amount absorbed all the way down to zero, with no safe floor. The EPA states the operational form directly: "cutting the dose in half cuts the risk in half."
+The **[linear no-threshold model](/en/glossary/linear-no-threshold)** assumes that stochastic risk is proportional to the amount absorbed all the way down to zero, with no safe floor. The EPA states the operational form directly: "cutting the dose in half cuts the risk in half."
 
 It is worth being precise about what is contested. The model's use as a regulatory tool is close to universal, because it is simple, conservative, and additive across sources. Whether it is *true* at low levels is a different question, and the evidence there is genuinely mixed.
 

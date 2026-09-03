@@ -18,7 +18,7 @@ export function generateMetadata({ params }: Props): Metadata {
     title: "Privacy Policy",
     description:
       "Privacy Policy for EcoScienceHub, including data controller details, processing purposes, collected data, cookies, analytics, and GDPR rights.",
-    path: "/%s",
+    path: "/privacy-policy",
     locale: params.locale,
     // The policy text is English only. Advertising a French or Russian
     // alternate for a page that serves English is a false hreflang

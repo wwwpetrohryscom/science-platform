@@ -1,0 +1,5771 @@
+{
+ "generatedDate": "2026-09-03",
+ "entities": [
+  {
+   "id": "air-quality",
+   "canonicalName": "Air quality",
+   "aliases": [
+    "ambient air quality"
+   ],
+   "definition": "The concentration of regulated pollutants in the air people breathe, and the index conventions that compress those concentrations into one number.",
+   "category": "environmental_indicator",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "air-quality",
+    "air-pollution"
+   ],
+   "matchSlugs": [
+    "air-quality-measurement-and-standards"
+   ],
+   "relatedEntities": [
+    "particulate-matter",
+    "pollution"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "air-quality-measurement-and-standards"
+   ],
+   "evidenceIds": [
+    "ev-airnow-gov-06d1e1b6",
+    "ev-eea-europa-eu-69d3b2b4",
+    "ev-environment-ec-europa-eu-036198d5",
+    "ev-environment-ec-europa-eu-5774cc11",
+    "ev-epa-gov-116702e6",
+    "ev-epa-gov-329d6226",
+    "ev-epa-gov-86b1c9c1",
+    "ev-epa-gov-f80d429e",
+    "ev-pmc-ncbi-nlm-nih-gov-daec8923",
+    "ev-who-int-154a122d"
+   ]
+  },
+  {
+   "id": "antimicrobial-resistance",
+   "canonicalName": "Antimicrobial resistance",
+   "aliases": [
+    "AMR",
+    "antibiotic resistance"
+   ],
+   "definition": "The evolution of resistance to antimicrobial drugs under selection pressure, with resistance genes moving horizontally between lineages.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "antimicrobial-resistance",
+    "antibiotic-resistance"
+   ],
+   "matchSlugs": [
+    "antimicrobial-resistance-evidence",
+    "antibiotic-resistance-evolution-mechanisms"
+   ],
+   "relatedEntities": [
+    "natural-selection",
+    "microorganism"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "antibiotic-resistance-evolution-mechanisms",
+    "antimicrobial-resistance-evidence"
+   ],
+   "evidenceIds": [
+    "ev-cdc-gov-6544af21",
+    "ev-cdc-gov-6f3ea7b3",
+    "ev-fao-org-903a07ea",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-nih-gov-07e4098a",
+    "ev-pmc-ncbi-nlm-nih-gov-0691ac19",
+    "ev-pmc-ncbi-nlm-nih-gov-09a05138",
+    "ev-pmc-ncbi-nlm-nih-gov-17f55ae6",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-science-org-365f60d5",
+    "ev-who-int-0484ac5a",
+    "ev-who-int-4ac0af4c",
+    "ev-who-int-708162c1",
+    "ev-who-int-db5579cb"
+   ]
+  },
+  {
+   "id": "atmospheric-circulation",
+   "canonicalName": "Atmospheric circulation",
+   "aliases": [
+    "Hadley cell",
+    "general circulation"
+   ],
+   "definition": "The organised transport of heat from equator to pole, structured into cells by the planet's rotation.",
+   "category": "process",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "atmospheric-circulation",
+    "circulation",
+    "lapse-rate",
+    "atmospheric-stability",
+    "tropopause",
+    "temperature-inversion"
+   ],
+   "matchSlugs": [
+    "atmospheric-circulation-cells",
+    "atmospheric-physics-explained"
+   ],
+   "relatedEntities": [
+    "fluid-dynamics",
+    "climate-feedback"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "atmospheric-circulation-cells",
+    "atmospheric-physics-explained",
+    "atmospheric-structure-and-lapse-rate"
+   ],
+   "evidenceIds": [
+    "ev-acp-copernicus-org-61390efe",
+    "ev-acp-copernicus-org-b10a7a24",
+    "ev-ceres-larc-nasa-gov-f692058e",
+    "ev-gml-noaa-gov-7fdde23f",
+    "ev-grc-nasa-gov-1ce77d2f",
+    "ev-ipcc-ch-23aabbb3",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-2daacb71",
+    "ev-journals-ametsoc-org-5dc45e65",
+    "ev-journals-ametsoc-org-8bf16a42",
+    "ev-noaa-gov-0cf2dd8e",
+    "ev-noaa-gov-2c86a9e2",
+    "ev-noaa-gov-3b09817b",
+    "ev-noaa-gov-54f36523",
+    "ev-noaa-gov-634889f9",
+    "ev-noaa-gov-7795e930",
+    "ev-noaa-gov-8600d607",
+    "ev-noaa-gov-bee27a65",
+    "ev-noaa-gov-d0343355",
+    "ev-noaa-gov-fee8c0b8",
+    "ev-science-nasa-gov-08b67889",
+    "ev-spc-noaa-gov-7ede2e54"
+   ]
+  },
+  {
+   "id": "bioaccumulation",
+   "canonicalName": "Bioaccumulation",
+   "aliases": [
+    "biomagnification"
+   ],
+   "definition": "The build-up of a substance in an organism faster than it is excreted, and its concentration up a food chain.",
+   "category": "biological_process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "bioaccumulation",
+    "biomagnification"
+   ],
+   "relatedEntities": [
+    "persistent-organic-pollutant",
+    "heavy-metal",
+    "food-web"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "persistent-organic-pollutants"
+   ],
+   "evidenceIds": [
+    "ev-chm-pops-int-85f083b4",
+    "ev-epa-gov-4f65c49d",
+    "ev-epa-gov-5df3ad8d",
+    "ev-pops-int-dce2afca",
+    "ev-pubmed-ncbi-nlm-nih-gov-a689e6d0",
+    "ev-who-int-e060ba12"
+   ]
+  },
+  {
+   "id": "biodiversity",
+   "canonicalName": "Biodiversity",
+   "aliases": [
+    "biological diversity"
+   ],
+   "definition": "Variation in living systems at every level — genetic, species, functional and ecosystem. No single measurement captures all of them, which is why a species count answers a narrower question than it appears to.",
+   "category": "concept",
+   "sections": [
+    "ecology",
+    "biology/taxonomy"
+   ],
+   "matchTags": [
+    "biodiversity",
+    "species-richness",
+    "species-evenness"
+   ],
+   "matchSlugs": [
+    "why-species-counts-mislead-conservation",
+    "biodiversity-indicators-explained",
+    "species-richness-explained"
+   ],
+   "relatedEntities": [
+    "ecosystem",
+    "extinction-risk",
+    "conservation"
+   ],
+   "glossaryId": "biodiversity",
+   "childEntities": [],
+   "relatedArticles": [
+    "biodiversity-baselines-and-shifting-baselines",
+    "biodiversity-indicators-explained",
+    "biodiversity-monitoring-and-ecosystem-health",
+    "citizen-science-biodiversity-data",
+    "ecological-integrity-indicators",
+    "ecosystem-resilience-indicators",
+    "essential-biodiversity-variables-monitoring",
+    "foundation-species-and-the-myth-of-redundancy",
+    "habitat-fragmentation-metrics",
+    "how-many-species-are-there",
+    "living-planet-index-explained",
+    "protected-area-effectiveness",
+    "red-list-index-explained",
+    "remote-sensing-for-biodiversity-monitoring",
+    "species-evenness-and-diversity",
+    "species-richness-explained",
+    "why-species-counts-mislead-conservation"
+   ],
+   "evidenceIds": [
+    "ev-annualreviews-org-90a917a8",
+    "ev-catalogueoflife-org-970bd495",
+    "ev-cbd-int-30e9e627",
+    "ev-eea-europa-eu-21941f6a",
+    "ev-eea-europa-eu-5ecc0193",
+    "ev-esa-int-042cde5c",
+    "ev-fao-org-268d5aab",
+    "ev-fao-org-6426027d",
+    "ev-gbif-org-36f4e193",
+    "ev-gbif-org-e10eb931",
+    "ev-geobon-org-9cb1cb2a",
+    "ev-ipbes-net-860a7b04",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-iucn-org-8b0acfb2",
+    "ev-iucnredlist-org-cb64272d",
+    "ev-journals-plos-org-3161c8ad",
+    "ev-journals-plos-org-f097a363",
+    "ev-land-copernicus-eu-921c2dba",
+    "ev-livingplanetindex-org-42b65f9e",
+    "ev-nature-com-48346271",
+    "ev-pmc-ncbi-nlm-nih-gov-6df11bb9",
+    "ev-pmc-ncbi-nlm-nih-gov-b809000f",
+    "ev-pnas-org-de73c2cf",
+    "ev-protectedplanet-net-29afa788",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-org-365f60d5",
+    "ev-unep-org-b0f403ba",
+    "ev-usgs-gov-8d305e39"
+   ]
+  },
+  {
+   "id": "biogeochemical-cycle",
+   "canonicalName": "Biogeochemical cycle",
+   "aliases": [
+    "nutrient cycle",
+    "element cycle"
+   ],
+   "definition": "The movement of a chemical element between the atmosphere, ocean, land and living things, and back. Each cycle has reservoirs, fluxes between them, and characteristic residence times.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "biogeochemical-cycles",
+    "nutrient-cycling"
+   ],
+   "matchSlugs": [
+    "biogeochemical-cycles-explained"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "nitrogen-cycle",
+    "water-cycle"
+   ],
+   "childEntities": [
+    "carbon-cycle",
+    "nitrogen-cycle",
+    "water-cycle"
+   ],
+   "relatedArticles": [
+    "biogeochemical-cycles-explained",
+    "carbon-cycle-explained",
+    "earth-system-science-explained",
+    "global-water-cycle-explained",
+    "nitrogen-cycle-explained",
+    "tropical-forest-ecology",
+    "wetlands-and-their-functions"
+   ],
+   "evidenceIds": [
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-climate-gov-acafcbcd",
+    "ev-eea-europa-eu-75f96c3a",
+    "ev-epa-gov-0a612b7f",
+    "ev-epa-gov-1c8bbea0",
+    "ev-epa-gov-37efbf67",
+    "ev-epa-gov-8b0b44bc",
+    "ev-epa-gov-bd93249a",
+    "ev-fao-org-6ca65f33",
+    "ev-gcos-wmo-int-bffc4027",
+    "ev-gml-noaa-gov-4db4ef94",
+    "ev-gml-noaa-gov-6f72a5ee",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-2daacb71",
+    "ev-iucn-org-3ae5d904",
+    "ev-nature-com-05b495fc",
+    "ev-nature-com-07e21702",
+    "ev-nature-com-13bc5b39",
+    "ev-nature-com-2275fb47",
+    "ev-nature-com-329ad020",
+    "ev-nature-com-a704c096",
+    "ev-nature-com-da295c3a",
+    "ev-nature-com-fd99ca0b",
+    "ev-noaa-gov-78cff8fe",
+    "ev-oceanservice-noaa-gov-9ab82537",
+    "ev-openknowledge-fao-org-3be1fd34",
+    "ev-science-nasa-gov-507391e1",
+    "ev-science-nasa-gov-e3cc4645",
+    "ev-science-org-96bab340",
+    "ev-unep-org-b0f403ba",
+    "ev-usgs-gov-acd91925",
+    "ev-usgs-gov-c184eed8",
+    "ev-wcrp-cmip-org-a5c0277c",
+    "ev-wmo-int-ab0f3a6d"
+   ]
+  },
+  {
+   "id": "biome",
+   "canonicalName": "Biome",
+   "aliases": [
+    "major habitat type"
+   ],
+   "definition": "A climate-defined class of ecosystem — tundra, boreal forest, tropical rainforest, desert. A classification with genuinely soft edges rather than a natural kind.",
+   "category": "biome",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "biomes"
+   ],
+   "matchSlugs": [
+    "biomes-explained"
+   ],
+   "relatedEntities": [
+    "ecosystem"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "biomes-explained"
+   ],
+   "evidenceIds": [
+    "ev-cds-climate-copernicus-eu-b92d95a0",
+    "ev-earthdata-nasa-gov-e4197e2f",
+    "ev-esajournals-onlinelibrary-wiley-com-49c88a18",
+    "ev-fao-org-38e78d1c",
+    "ev-fao-org-efc76616",
+    "ev-pnas-org-bd339f4a",
+    "ev-science-org-a8f9e10a"
+   ]
+  },
+  {
+   "id": "carbon-cycle",
+   "canonicalName": "Carbon cycle",
+   "aliases": [
+    "global carbon cycle"
+   ],
+   "definition": "The exchange of carbon between rock, ocean, atmosphere, soil and biomass. A slow rock-mediated loop and a fast biological one run side by side at speeds differing by orders of magnitude.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "carbon-cycle",
+    "carbon-sink",
+    "forest-carbon",
+    "soil-carbon",
+    "carbon-accounting"
+   ],
+   "matchSlugs": [
+    "carbon-cycle-explained",
+    "carbon-cycle-feedbacks",
+    "carbon-budgets-and-remaining-emissions"
+   ],
+   "parentEntities": [
+    "biogeochemical-cycle"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "ocean-acidification",
+    "photosynthesis"
+   ],
+   "glossaryId": "carbon-cycle",
+   "childEntities": [],
+   "relatedArticles": [
+    "biogeochemical-cycles-explained",
+    "biosphere-climate-interactions",
+    "boreal-forests-and-permafrost-interactions",
+    "carbon-budgets-and-remaining-emissions",
+    "carbon-cycle-explained",
+    "carbon-cycle-feedbacks",
+    "forest-carbon-measurement",
+    "forest-degradation-vs-deforestation",
+    "forest-ecosystems-explained",
+    "greenhouse-gases-and-radiative-forcing",
+    "nature-based-solutions-and-the-evidence-behind-them",
+    "soil-biology-and-the-soil-food-web",
+    "soil-carbon-crediting-meets-the-detection-limit",
+    "soil-carbon-measurement-and-uncertainty",
+    "soil-science-explained",
+    "tropical-forest-ecology",
+    "why-two-credible-datasets-disagree"
+   ],
+   "evidenceIds": [
+    "ev-arctic-noaa-gov-80fc3ceb",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-climate-gov-acafcbcd",
+    "ev-daac-ornl-gov-843a7bc1",
+    "ev-eea-europa-eu-21941f6a",
+    "ev-eea-europa-eu-34a0c1bb",
+    "ev-epa-gov-a1cd923a",
+    "ev-esa-int-ffbc128f",
+    "ev-essd-copernicus-org-17ec57f5",
+    "ev-essd-copernicus-org-a81b77af",
+    "ev-fao-org-44cdd7ed",
+    "ev-fao-org-6426027d",
+    "ev-fao-org-7edd5549",
+    "ev-forobs-jrc-ec-europa-eu-dfc44f48",
+    "ev-frontiersin-org-ffdb1d60",
+    "ev-globalcarbonproject-org-a4b4a1f1",
+    "ev-gml-noaa-gov-4db4ef94",
+    "ev-gml-noaa-gov-6f72a5ee",
+    "ev-gml-noaa-gov-745578e4",
+    "ev-gml-noaa-gov-9cff813b",
+    "ev-gml-noaa-gov-dbd169f1",
+    "ev-iopscience-iop-org-e0837b41",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-438048f6",
+    "ev-ipcc-ch-4dd04d4e",
+    "ev-ipcc-ch-a34c68dc",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-ipcc-ch-f60975b1",
+    "ev-ipcc-nggip-iges-or-jp-bb5b134e",
+    "ev-iucn-org-1dda47e2",
+    "ev-journals-plos-org-d6927e89",
+    "ev-metoffice-gov-uk-084d943a",
+    "ev-nature-com-07e21702",
+    "ev-nature-com-2275fb47",
+    "ev-nature-com-23abd441",
+    "ev-nature-com-329ad020",
+    "ev-nature-com-4d47a2af",
+    "ev-nature-com-50e686c5",
+    "ev-nature-com-57eed876",
+    "ev-nature-com-8660a348",
+    "ev-nature-com-a2be5615",
+    "ev-nature-com-a704c096",
+    "ev-nature-com-da295c3a",
+    "ev-nature-com-fd99ca0b",
+    "ev-ncei-noaa-gov-454eb6fa",
+    "ev-noaa-gov-78cff8fe",
+    "ev-onlinelibrary-wiley-com-0c855db4",
+    "ev-openknowledge-fao-org-20918e55",
+    "ev-openknowledge-fao-org-2a0da203",
+    "ev-openknowledge-fao-org-3be1fd34",
+    "ev-openknowledge-fao-org-4d5b135e",
+    "ev-openknowledge-fao-org-4e621b27",
+    "ev-openknowledge-fao-org-5b9a241a",
+    "ev-openknowledge-fao-org-81784af0",
+    "ev-openknowledge-fao-org-847c7376",
+    "ev-pmc-ncbi-nlm-nih-gov-bd2a5416",
+    "ev-pmc-ncbi-nlm-nih-gov-c75576ed",
+    "ev-pmc-ncbi-nlm-nih-gov-de77abab",
+    "ev-pnas-org-73dbd987",
+    "ev-portals-iucn-org-a5cee9ce",
+    "ev-pubmed-ncbi-nlm-nih-gov-07528e9d",
+    "ev-pubmed-ncbi-nlm-nih-gov-14caac53",
+    "ev-pubmed-ncbi-nlm-nih-gov-198477eb",
+    "ev-pubmed-ncbi-nlm-nih-gov-1d2e76b1",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-43d39ba7",
+    "ev-pubmed-ncbi-nlm-nih-gov-46500995",
+    "ev-pubmed-ncbi-nlm-nih-gov-4f709dca",
+    "ev-pubmed-ncbi-nlm-nih-gov-75a495a7",
+    "ev-pubmed-ncbi-nlm-nih-gov-83cc8237",
+    "ev-pubmed-ncbi-nlm-nih-gov-9aafd467",
+    "ev-pubmed-ncbi-nlm-nih-gov-ae150ee4",
+    "ev-pubmed-ncbi-nlm-nih-gov-b82a61e7",
+    "ev-pubmed-ncbi-nlm-nih-gov-be446801",
+    "ev-pubmed-ncbi-nlm-nih-gov-c79833cb",
+    "ev-pubmed-ncbi-nlm-nih-gov-f0474457",
+    "ev-pubmed-ncbi-nlm-nih-gov-f8527700",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-507391e1",
+    "ev-science-nasa-gov-e3cc4645",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-science-org-054fe0a6",
+    "ev-science-org-1099b617",
+    "ev-science-org-96bab340",
+    "ev-soil-copernicus-org-9ea4dc9c",
+    "ev-unccd-int-86040f87",
+    "ev-unccd-int-e87e8ebc",
+    "ev-unep-org-b0f403ba",
+    "ev-unfccc-int-410967e3",
+    "ev-usgs-gov-c184eed8",
+    "ev-verra-org-14912b95",
+    "ev-wmo-int-3d96c5c4",
+    "ev-wmo-int-ab0f3a6d"
+   ]
+  },
+  {
+   "id": "cell",
+   "canonicalName": "Cell",
+   "aliases": [
+    "biological cell"
+   ],
+   "definition": "The smallest unit that carries out the full set of processes life requires, bounded by a membrane that makes the inside chemically distinct from the outside.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "cell-biology",
+    "cells",
+    "cytoskeleton",
+    "motor-proteins",
+    "cell-motility",
+    "microtubules"
+   ],
+   "matchSlugs": [
+    "what-is-a-cell",
+    "cell-membrane-structure-and-transport"
+   ],
+   "relatedEntities": [
+    "photosynthesis",
+    "cellular-respiration",
+    "cell-division"
+   ],
+   "glossaryId": "cell",
+   "childEntities": [],
+   "relatedArticles": [
+    "cell-membrane-structure-and-transport",
+    "cell-signaling-pathways-basics",
+    "coral-microbiome-bleaching-resistance",
+    "cytoskeleton-and-cell-motility",
+    "what-is-a-cell"
+   ],
+   "evidenceIds": [
+    "ev-annualreviews-org-db065009",
+    "ev-coralreefwatch-noaa-gov-2eeb9c6d",
+    "ev-coralreefwatch-noaa-gov-b6e1c586",
+    "ev-genome-gov-6d1954a6",
+    "ev-nature-com-48346271",
+    "ev-nature-com-cdc972a1",
+    "ev-ncbi-nlm-nih-gov-56e89b96",
+    "ev-ncbi-nlm-nih-gov-56f7a620",
+    "ev-ncbi-nlm-nih-gov-59e8a04f",
+    "ev-ncbi-nlm-nih-gov-623c6cb0",
+    "ev-ncbi-nlm-nih-gov-693eb64c",
+    "ev-ncbi-nlm-nih-gov-6e9e01d6",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-ncbi-nlm-nih-gov-ccbded10",
+    "ev-ncbi-nlm-nih-gov-d8c27d22",
+    "ev-ncbi-nlm-nih-gov-e9307542",
+    "ev-ncbi-nlm-nih-gov-f8441497",
+    "ev-nih-gov-07e4098a",
+    "ev-pmc-ncbi-nlm-nih-gov-2eea92c1",
+    "ev-pmc-ncbi-nlm-nih-gov-c9e0ddbb",
+    "ev-pmc-ncbi-nlm-nih-gov-d32407ce",
+    "ev-pmc-ncbi-nlm-nih-gov-edec6dce",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-science-org-365f60d5"
+   ]
+  },
+  {
+   "id": "cell-division",
+   "canonicalName": "Cell division",
+   "aliases": [
+    "mitosis",
+    "meiosis"
+   ],
+   "definition": "The processes by which one cell becomes two. Mitosis copies; meiosis halves and recombines, generating the variation inheritance acts on.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "cell-division",
+    "mitosis",
+    "meiosis"
+   ],
+   "matchSlugs": [
+    "cell-division-mitosis-and-meiosis"
+   ],
+   "relatedEntities": [
+    "cell",
+    "dna",
+    "mutation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "cell-division-mitosis-and-meiosis"
+   ],
+   "evidenceIds": [
+    "ev-nature-com-b967e9a0",
+    "ev-ncbi-nlm-nih-gov-6d3c7e01",
+    "ev-ncbi-nlm-nih-gov-cdbdeea3",
+    "ev-ncbi-nlm-nih-gov-e832b246",
+    "ev-ncbi-nlm-nih-gov-f83748a4",
+    "ev-pmc-ncbi-nlm-nih-gov-9554c016",
+    "ev-pmc-ncbi-nlm-nih-gov-b7775985"
+   ]
+  },
+  {
+   "id": "cellular-respiration",
+   "canonicalName": "Cellular respiration",
+   "aliases": [
+    "oxidative phosphorylation",
+    "aerobic respiration"
+   ],
+   "definition": "The stepwise oxidation of organic molecules to release energy, best understood as electron transfer and a proton-motive force rather than as a memorised pathway.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "respiration",
+    "mitochondria",
+    "metabolism"
+   ],
+   "matchSlugs": [
+    "mitochondria-and-cellular-respiration"
+   ],
+   "relatedEntities": [
+    "cell",
+    "photosynthesis"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "mitochondria-and-cellular-respiration",
+    "respiration-and-gas-exchange"
+   ],
+   "evidenceIds": [
+    "ev-nature-com-4bc6da82",
+    "ev-ncbi-nlm-nih-gov-95e09f7b",
+    "ev-ncbi-nlm-nih-gov-d6c03b65",
+    "ev-ncbi-nlm-nih-gov-e2c4cb77",
+    "ev-ncbi-nlm-nih-gov-fa4417bd",
+    "ev-pmc-ncbi-nlm-nih-gov-044f959e",
+    "ev-pmc-ncbi-nlm-nih-gov-1796832d",
+    "ev-pmc-ncbi-nlm-nih-gov-1b7d7dcd",
+    "ev-pmc-ncbi-nlm-nih-gov-1db86730",
+    "ev-pmc-ncbi-nlm-nih-gov-237b46a3",
+    "ev-pmc-ncbi-nlm-nih-gov-3fffb915",
+    "ev-pmc-ncbi-nlm-nih-gov-4cf40e78",
+    "ev-pmc-ncbi-nlm-nih-gov-8e39ea28",
+    "ev-pmc-ncbi-nlm-nih-gov-d5a9d916",
+    "ev-pubmed-ncbi-nlm-nih-gov-fbb7d434"
+   ]
+  },
+  {
+   "id": "classical-mechanics",
+   "canonicalName": "Classical mechanics",
+   "aliases": [
+    "Newtonian mechanics",
+    "Lagrangian mechanics"
+   ],
+   "definition": "The description of motion in terms of forces, momentum and energy, with conservation laws as the deeper statements and an explicit domain of validity.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "classical-mechanics",
+    "newtons-laws",
+    "conservation-laws",
+    "lagrangian-mechanics",
+    "determinism"
+   ],
+   "relatedEntities": [
+    "energy",
+    "fluid-dynamics",
+    "wave"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "classical-mechanics-explained"
+   ],
+   "evidenceIds": [
+    "ev-home-cern-55c5b7ef",
+    "ev-nist-gov-7d1720a5",
+    "ev-nist-gov-bd006fcd",
+    "ev-physics-nist-gov-4e1ffc83",
+    "ev-physics-nist-gov-82a1f250",
+    "ev-pmc-ncbi-nlm-nih-gov-7cc86936",
+    "ev-pmc-ncbi-nlm-nih-gov-af979006",
+    "ev-science-nasa-gov-b97fc322"
+   ]
+  },
+  {
+   "id": "climate-change",
+   "canonicalName": "Climate change",
+   "aliases": [
+    "global warming",
+    "anthropogenic climate change"
+   ],
+   "definition": "A sustained change in the statistics of the climate system. On the current record, driven principally by greenhouse-gas emissions from human activity.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "climate-change",
+    "climate"
+   ],
+   "matchSlugs": [
+    "what-is-climate-change"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "climate-sensitivity",
+    "climate-feedback"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "carbon-cycle-feedbacks",
+    "carbon-offset-outsourcing-science",
+    "climate-adaptation-mitigation-indicators",
+    "climate-indicators-earth-system-monitoring",
+    "climate-models-projections-uncertainty",
+    "cryosphere-indicators-glaciers-sea-ice",
+    "extreme-weather-attribution-basics",
+    "global-temperature-records-explained",
+    "greenhouse-gas-concentrations-monitoring",
+    "greenhouse-gases-and-radiative-forcing",
+    "ocean-heat-content-indicators",
+    "sea-level-rise-indicators",
+    "temperate-forest-carbon-sink-decline",
+    "what-is-climate-change"
+   ],
+   "evidenceIds": [
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-climate-copernicus-eu-e789bd69",
+    "ev-coralreefwatch-noaa-gov-2eeb9c6d",
+    "ev-eea-europa-eu-21941f6a",
+    "ev-eea-europa-eu-34a0c1bb",
+    "ev-eea-europa-eu-fa4aa513",
+    "ev-epa-gov-2d326646",
+    "ev-epa-gov-2dc09f0e",
+    "ev-epa-gov-a1cd923a",
+    "ev-fao-org-b9f4b98a",
+    "ev-gml-noaa-gov-745578e4",
+    "ev-gml-noaa-gov-9cff813b",
+    "ev-gml-noaa-gov-dbd169f1",
+    "ev-icp-forests-net-4214d9cb",
+    "ev-icvcm-org-7400caee",
+    "ev-iea-org-37f76cc6",
+    "ev-ipcc-ch-41fb314f",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-ipcc-ch-df0f377a",
+    "ev-ipcc-ch-e00f390d",
+    "ev-ncei-noaa-gov-0ccb09f9",
+    "ev-ncei-noaa-gov-ae9af1c2",
+    "ev-noaa-gov-78cff8fe",
+    "ev-noaa-gov-8473ab6a",
+    "ev-nsidc-org-d11343d5",
+    "ev-pmc-ncbi-nlm-nih-gov-1b806900",
+    "ev-public-wmo-int-e907ecd7",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-ad0324e0",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-sealevel-nasa-gov-04874c89",
+    "ev-tidesandcurrents-noaa-gov-8f3d46c7",
+    "ev-unep-org-6d7bc6c7",
+    "ev-unep-org-e2d533b7",
+    "ev-unfccc-int-4d81d235",
+    "ev-wcrp-climate-org-2a1c7487",
+    "ev-wgms-ch-f4c54ad1",
+    "ev-who-int-f93f3734",
+    "ev-wmo-int-3d96c5c4"
+   ]
+  },
+  {
+   "id": "climate-feedback",
+   "canonicalName": "Climate feedback",
+   "aliases": [
+    "feedback mechanism",
+    "radiative feedback"
+   ],
+   "definition": "A process that responds to a temperature change and either amplifies or damps it. The sign convention and the assessed magnitudes are what make the concept quantitative rather than rhetorical.",
+   "category": "process",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "climate-feedback",
+    "feedbacks",
+    "cloud-feedback",
+    "cloud-radiative-effect"
+   ],
+   "matchSlugs": [
+    "climate-feedback-mechanisms",
+    "ice-albedo-feedback-explained",
+    "water-vapor-feedback-explained",
+    "carbon-cycle-feedbacks"
+   ],
+   "relatedEntities": [
+    "climate-sensitivity",
+    "greenhouse-effect"
+   ],
+   "glossaryId": "climate-feedback",
+   "childEntities": [],
+   "relatedArticles": [
+    "carbon-cycle-feedbacks",
+    "climate-feedback-mechanisms",
+    "climate-sensitivity-explained",
+    "convection-and-cloud-formation",
+    "earth-system-science-explained",
+    "ice-albedo-feedback-explained",
+    "water-vapor-feedback-explained"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-102ca4ea",
+    "ev-agupubs-onlinelibrary-wiley-com-e66c434d",
+    "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
+    "ev-arctic-noaa-gov-9400a80f",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-ecmwf-int-2c0830e3",
+    "ev-eea-europa-eu-21941f6a",
+    "ev-epa-gov-a1cd923a",
+    "ev-gcos-wmo-int-bffc4027",
+    "ev-gml-noaa-gov-9cff813b",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-2daacb71",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-ipcc-ch-f60975b1",
+    "ev-metoffice-gov-uk-4c0c8924",
+    "ev-nature-com-5b0a84ec",
+    "ev-noaa-gov-423a921b",
+    "ev-noaa-gov-78cff8fe",
+    "ev-noaa-gov-9d72671a",
+    "ev-nsidc-org-26b31e82",
+    "ev-oceanservice-noaa-gov-9ab82537",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-507391e1",
+    "ev-science-nasa-gov-5def4189",
+    "ev-science-nasa-gov-9617860d",
+    "ev-science-nasa-gov-e3cc4645",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-wcrp-cmip-org-194a298d",
+    "ev-wcrp-cmip-org-a5c0277c",
+    "ev-weather-metoffice-gov-uk-7762e934",
+    "ev-wmo-int-ab0f3a6d"
+   ]
+  },
+  {
+   "id": "climate-model",
+   "canonicalName": "Climate model",
+   "aliases": [
+    "Earth system model",
+    "GCM"
+   ],
+   "definition": "A numerical solution of the governing equations on a grid, with sub-grid processes parameterised. What is parameterised is where the spread between models comes from.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "climate-models",
+    "modelling",
+    "earth-system-models"
+   ],
+   "matchSlugs": [
+    "climate-model-physics-explained",
+    "earth-system-models-explained",
+    "climate-models-projections-uncertainty"
+   ],
+   "relatedEntities": [
+    "climate-sensitivity",
+    "measurement-uncertainty",
+    "fluid-dynamics"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "attribution-science-and-its-uses",
+    "climate-model-physics-explained",
+    "climate-models-projections-uncertainty",
+    "earth-system-models-explained",
+    "earth-system-science-explained",
+    "temperate-forest-carbon-sink-decline"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-f92bd663",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-doi-org-0c8705ad",
+    "ev-doi-org-539c551a",
+    "ev-doi-org-662480c9",
+    "ev-ecmwf-int-2c0830e3",
+    "ev-eea-europa-eu-34a0c1bb",
+    "ev-fao-org-b9f4b98a",
+    "ev-gcos-wmo-int-bffc4027",
+    "ev-gmd-copernicus-org-859ba522",
+    "ev-gmd-copernicus-org-f527a732",
+    "ev-icp-forests-net-4214d9cb",
+    "ev-ipcc-ch-24aabd46",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-2daacb71",
+    "ev-ipcc-ch-2fc84255",
+    "ev-ipcc-ch-41fb314f",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-journals-ametsoc-org-dd0380b7",
+    "ev-nationalacademies-org-8ab0f29a",
+    "ev-nature-com-d00c27bf",
+    "ev-noaa-gov-78cff8fe",
+    "ev-oceanservice-noaa-gov-9ab82537",
+    "ev-pmc-ncbi-nlm-nih-gov-6c9378fc",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-science-nasa-gov-507391e1",
+    "ev-science-nasa-gov-e3cc4645",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-unep-org-6d7bc6c7",
+    "ev-wcrp-climate-org-2a1c7487",
+    "ev-wcrp-cmip-org-a5c0277c",
+    "ev-wmo-int-3d96c5c4",
+    "ev-wmo-int-ab0f3a6d",
+    "ev-worldweatherattribution-org-262a53ab",
+    "ev-worldweatherattribution-org-5da4acfb"
+   ]
+  },
+  {
+   "id": "climate-sensitivity",
+   "canonicalName": "Climate sensitivity",
+   "aliases": [
+    "ECS",
+    "TCR",
+    "equilibrium climate sensitivity"
+   ],
+   "definition": "How much the surface warms for a doubling of atmospheric CO2. Equilibrium and transient sensitivity answer different questions and are routinely conflated.",
+   "category": "physical_quantity",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "climate-sensitivity"
+   ],
+   "matchSlugs": [
+    "climate-sensitivity-explained"
+   ],
+   "relatedEntities": [
+    "climate-feedback",
+    "radiative-forcing"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "climate-feedback-mechanisms",
+    "climate-projection-uncertainty-where-it-bites",
+    "climate-sensitivity-explained"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-102ca4ea",
+    "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
+    "ev-esd-copernicus-org-01279f9e",
+    "ev-gmd-copernicus-org-859ba522",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-f60975b1",
+    "ev-journals-ametsoc-org-b32bdda3",
+    "ev-metoffice-gov-uk-4c0c8924",
+    "ev-nature-com-5b0a84ec",
+    "ev-noaa-gov-78cff8fe",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-wcrp-cmip-org-194a298d",
+    "ev-wcrp-cmip-org-a5c0277c"
+   ]
+  },
+  {
+   "id": "cloud",
+   "canonicalName": "Cloud",
+   "aliases": [
+    "cloud physics",
+    "condensation"
+   ],
+   "definition": "A suspension of water droplets or ice crystals formed on condensation nuclei. Clouds cool by reflecting sunlight and warm by trapping infrared, and the residual is the largest remaining uncertainty in climate physics.",
+   "category": "concept",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "cloud-physics",
+    "condensation-nuclei",
+    "clouds"
+   ],
+   "relatedEntities": [
+    "climate-feedback",
+    "radiative-transfer",
+    "atmospheric-circulation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "convection-and-cloud-formation"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-e66c434d",
+    "ev-ipcc-ch-26aac06c",
+    "ev-noaa-gov-423a921b",
+    "ev-noaa-gov-9d72671a",
+    "ev-science-nasa-gov-5def4189",
+    "ev-science-nasa-gov-9617860d",
+    "ev-weather-metoffice-gov-uk-7762e934"
+   ]
+  },
+  {
+   "id": "conservation",
+   "canonicalName": "Conservation science",
+   "aliases": [
+    "biodiversity conservation"
+   ],
+   "definition": "The applied science of retaining biological diversity, with a testable intervention literature and an evidence-to-practice gap that is itself a research subject.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "conservation",
+    "protected-areas",
+    "species-recovery",
+    "reintroduction",
+    "marine-protected-areas",
+    "area-based-conservation",
+    "conservation-evidence"
+   ],
+   "matchSlugs": [
+    "conservation-science-explained",
+    "protected-area-effectiveness",
+    "conservation-trade-offs-and-prioritisation"
+   ],
+   "relatedEntities": [
+    "biodiversity",
+    "ecological-restoration",
+    "extinction-risk"
+   ],
+   "childEntities": [
+    "ecological-restoration"
+   ],
+   "relatedArticles": [
+    "biodiversity-indicators-explained",
+    "biodiversity-monitoring-and-ecosystem-health",
+    "biodiversity-numbers-and-what-they-can-support",
+    "conservation-science-explained",
+    "conservation-trade-offs-and-prioritisation",
+    "endangered-species-recovery-programmes",
+    "essential-biodiversity-variables-monitoring",
+    "foundation-species-and-the-myth-of-redundancy",
+    "marine-protected-areas-evidence",
+    "protected-area-effectiveness",
+    "rewilding-evidence-and-limits",
+    "why-species-counts-mislead-conservation"
+   ],
+   "evidenceIds": [
+    "ev-bipindicators-net-816db5de",
+    "ev-cbd-int-17535fc8",
+    "ev-cbd-int-30e9e627",
+    "ev-cbd-int-47b45422",
+    "ev-conservationevidence-com-a36af4b2",
+    "ev-digitalreport-protectedplanet-net-dd4ddbab",
+    "ev-eea-europa-eu-21941f6a",
+    "ev-eea-europa-eu-5ecc0193",
+    "ev-eprints-whiterose-ac-uk-77c8a713",
+    "ev-esa-int-042cde5c",
+    "ev-fao-org-268d5aab",
+    "ev-fao-org-6426027d",
+    "ev-fws-gov-79332e52",
+    "ev-fws-gov-c9334213",
+    "ev-gbif-org-36f4e193",
+    "ev-geobon-org-9cb1cb2a",
+    "ev-ipbes-net-31d1399f",
+    "ev-ipbes-net-860a7b04",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-iucn-org-4e943a7f",
+    "ev-iucn-org-8b0acfb2",
+    "ev-iucnredlist-org-cb64272d",
+    "ev-journals-plos-org-b6e8a177",
+    "ev-journals-plos-org-caef205a",
+    "ev-journals-plos-org-d7cc8359",
+    "ev-kar-kent-ac-uk-ccafa22d",
+    "ev-land-copernicus-eu-921c2dba",
+    "ev-livingplanetindex-org-42b65f9e",
+    "ev-nature-com-03201827",
+    "ev-nature-com-1fd5e07b",
+    "ev-nature-com-3bc8c61e",
+    "ev-nature-com-47e79f61",
+    "ev-nature-com-48346271",
+    "ev-nature-com-4fa13bfe",
+    "ev-nature-com-8f05f6ed",
+    "ev-nature-com-99ef88f6",
+    "ev-nature-com-a3ef65c2",
+    "ev-nature-com-a8f0af84",
+    "ev-nature-com-b2fb071f",
+    "ev-nature-com-c77f0851",
+    "ev-nature-com-f52a5fa3",
+    "ev-nature-com-fc3b0eb0",
+    "ev-par-nsf-gov-08902f7a",
+    "ev-pmc-ncbi-nlm-nih-gov-73546add",
+    "ev-pmc-ncbi-nlm-nih-gov-dee2a3b3",
+    "ev-pnas-org-2297a572",
+    "ev-pnas-org-3ce8a19c",
+    "ev-pnas-org-4e829cde",
+    "ev-portals-iucn-org-9e5b57ac",
+    "ev-protectedplanet-net-29afa788",
+    "ev-protectedplanet-net-654e464c",
+    "ev-publications-jrc-ec-europa-eu-f9aab4d7",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-298d38e3",
+    "ev-pubmed-ncbi-nlm-nih-gov-41a3e4bb",
+    "ev-pubmed-ncbi-nlm-nih-gov-656687eb",
+    "ev-pubmed-ncbi-nlm-nih-gov-ad81f9ac",
+    "ev-pubmed-ncbi-nlm-nih-gov-dec91c22",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-org-2a28b26b",
+    "ev-science-org-365f60d5",
+    "ev-science-org-4dc32307",
+    "ev-science-org-77493a47",
+    "ev-science-org-f65f0ef4",
+    "ev-sciencedirect-com-863e9752",
+    "ev-sciencedirect-com-9a9c5e90",
+    "ev-staatsbosbeheer-nl-7bd59a54",
+    "ev-unep-org-b0f403ba",
+    "ev-wwf-org-uk-dc82fd6e"
+   ]
+  },
+  {
+   "id": "coral-reef",
+   "canonicalName": "Coral reef",
+   "aliases": [
+    "reef ecosystem"
+   ],
+   "definition": "A biogenic structure built by a symbiosis between cnidarians and photosynthetic algae, and lost when heat stress breaks that symbiosis.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology",
+    "biology"
+   ],
+   "matchTags": [
+    "coral",
+    "coral-reefs",
+    "bleaching"
+   ],
+   "matchSlugs": [
+    "coral-reef-ecology-and-bleaching",
+    "coral-microbiome-bleaching-resistance"
+   ],
+   "parentEntities": [
+    "ocean"
+   ],
+   "relatedEntities": [
+    "ocean-acidification"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "coral-microbiome-bleaching-resistance",
+    "coral-reef-ecology-and-bleaching"
+   ],
+   "evidenceIds": [
+    "ev-coralreefwatch-noaa-gov-2eeb9c6d",
+    "ev-coralreefwatch-noaa-gov-5ee03b9f",
+    "ev-coralreefwatch-noaa-gov-b6e1c586",
+    "ev-coralreefwatch-noaa-gov-f7bbde3a",
+    "ev-ipcc-ch-2caac9de",
+    "ev-journals-plos-org-e0db24fa",
+    "ev-nature-com-48346271",
+    "ev-nesdis-noaa-gov-aeda9bb3",
+    "ev-oceanservice-noaa-gov-f6e75843",
+    "ev-pubmed-ncbi-nlm-nih-gov-05f6e5b8",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-91eb9faa",
+    "ev-pubmed-ncbi-nlm-nih-gov-ac99e91b",
+    "ev-science-org-365f60d5"
+   ]
+  },
+  {
+   "id": "cryosphere",
+   "canonicalName": "Cryosphere",
+   "aliases": [
+    "ice and snow"
+   ],
+   "definition": "The frozen components of the Earth system — sea ice, glaciers, ice sheets, snow cover and permafrost — which are physically distinct reservoirs with different response times.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "cryosphere",
+    "sea-ice",
+    "glaciers",
+    "permafrost"
+   ],
+   "matchSlugs": [
+    "cryosphere-in-the-earth-system",
+    "cryosphere-indicators-glaciers-sea-ice"
+   ],
+   "parentEntities": [
+    "earth-system"
+   ],
+   "relatedEntities": [
+    "climate-feedback"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "boreal-forests-and-permafrost-interactions",
+    "cryosphere-in-the-earth-system",
+    "cryosphere-indicators-glaciers-sea-ice",
+    "earth-system-components-explained",
+    "ice-albedo-feedback-explained"
+   ],
+   "evidenceIds": [
+    "ev-arctic-noaa-gov-80fc3ceb",
+    "ev-arctic-noaa-gov-9400a80f",
+    "ev-eea-europa-eu-21941f6a",
+    "ev-gcos-wmo-int-bffc4027",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-nature-com-23abd441",
+    "ev-nature-com-50e686c5",
+    "ev-nature-com-a2be5615",
+    "ev-noaa-gov-78cff8fe",
+    "ev-nsidc-org-26b31e82",
+    "ev-nsidc-org-d11343d5",
+    "ev-oceanservice-noaa-gov-9ab82537",
+    "ev-openknowledge-fao-org-847c7376",
+    "ev-pnas-org-73dbd987",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-a754e36e",
+    "ev-science-nasa-gov-e3cc4645",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-usgs-gov-c184eed8",
+    "ev-wgms-ch-f4c54ad1",
+    "ev-wmo-int-3d96c5c4"
+   ]
+  },
+  {
+   "id": "developmental-biology",
+   "canonicalName": "Developmental biology",
+   "aliases": [
+    "development",
+    "evo-devo",
+    "morphogenesis"
+   ],
+   "definition": "How a single cell becomes a patterned organism, through morphogen gradients, induction and a deeply conserved regulatory toolkit.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "developmental-biology",
+    "morphogen-gradients",
+    "hox-genes",
+    "stem-cells"
+   ],
+   "relatedEntities": [
+    "gene-expression",
+    "cell-division",
+    "evolution"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "developmental-biology-explained"
+   ],
+   "evidenceIds": [
+    "ev-genome-gov-e7b2b975",
+    "ev-pubmed-ncbi-nlm-nih-gov-001f37b8",
+    "ev-pubmed-ncbi-nlm-nih-gov-10c3dc63",
+    "ev-pubmed-ncbi-nlm-nih-gov-21dbaae5",
+    "ev-pubmed-ncbi-nlm-nih-gov-35a1b5c1",
+    "ev-pubmed-ncbi-nlm-nih-gov-7ba9bc06",
+    "ev-pubmed-ncbi-nlm-nih-gov-8878c326",
+    "ev-pubmed-ncbi-nlm-nih-gov-bb75117c",
+    "ev-pubmed-ncbi-nlm-nih-gov-ddc8c829"
+   ]
+  },
+  {
+   "id": "dna",
+   "canonicalName": "DNA",
+   "aliases": [
+    "deoxyribonucleic acid",
+    "genetic material"
+   ],
+   "definition": "The molecule that stores heritable information as a sequence of four bases, copied by templated replication.",
+   "category": "molecule",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "dna",
+    "molecular-biology"
+   ],
+   "matchSlugs": [
+    "what-is-dna",
+    "dna-replication-and-repair"
+   ],
+   "relatedEntities": [
+    "genome",
+    "gene-expression",
+    "mutation"
+   ],
+   "glossaryId": "dna",
+   "childEntities": [
+    "gene-expression",
+    "genome",
+    "mutation"
+   ],
+   "relatedArticles": [
+    "cell-signaling-pathways-basics",
+    "dna-replication-and-repair",
+    "how-gene-expression-is-regulated",
+    "what-is-dna"
+   ],
+   "evidenceIds": [
+    "ev-ensembl-org-4abe62b3",
+    "ev-genome-gov-6d1954a6",
+    "ev-genome-gov-c18d72e9",
+    "ev-medlineplus-gov-1cc692c5",
+    "ev-nature-com-48346271",
+    "ev-ncbi-nlm-nih-gov-5d64927c",
+    "ev-ncbi-nlm-nih-gov-713ec2e4",
+    "ev-ncbi-nlm-nih-gov-7e3a5a2d",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-ncbi-nlm-nih-gov-e00b097d",
+    "ev-nih-gov-07e4098a",
+    "ev-pmc-ncbi-nlm-nih-gov-83b4b28b",
+    "ev-pmc-ncbi-nlm-nih-gov-c1ab7acd",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-8266a32a",
+    "ev-who-int-4ac0af4c"
+   ]
+  },
+  {
+   "id": "dna-sequencing",
+   "canonicalName": "DNA sequencing",
+   "aliases": [
+    "genome sequencing",
+    "high-throughput sequencing"
+   ],
+   "definition": "Determining the order of bases in a nucleic acid. Platforms differ qualitatively in read length and error profile, which decides what each can resolve.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "sequencing",
+    "genomics",
+    "bioinformatics",
+    "amplicon-sequencing",
+    "metagenome-assembled-genomes",
+    "single-cell-genomics",
+    "culturomics",
+    "culturing"
+   ],
+   "matchSlugs": [
+    "dna-sequencing-technologies",
+    "bioinformatics-explained"
+   ],
+   "relatedEntities": [
+    "dna",
+    "genome"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "bioinformatics-explained",
+    "culturing-and-sequencing-microbes",
+    "dna-sequencing-technologies",
+    "microbiome-research-and-the-causal-gap",
+    "single-cell-evo-devo",
+    "what-is-a-genome"
+   ],
+   "evidenceIds": [
+    "ev-cochranelibrary-com-00946c04",
+    "ev-ebi-ac-uk-c810f65e",
+    "ev-genome-gov-661814e1",
+    "ev-genome-gov-9420551d",
+    "ev-journals-plos-org-75fda45b",
+    "ev-journals-plos-org-c874ec90",
+    "ev-jun2026-archive-ensembl-org-90e53f20",
+    "ev-nature-com-2af53711",
+    "ev-nature-com-3e721395",
+    "ev-nature-com-48346271",
+    "ev-nature-com-decf0f80",
+    "ev-ncbi-nlm-nih-gov-35027b5e",
+    "ev-ncbi-nlm-nih-gov-621f08d2",
+    "ev-ncbi-nlm-nih-gov-abba997c",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-nist-gov-0d56c283",
+    "ev-pmc-ncbi-nlm-nih-gov-1175899a",
+    "ev-pmc-ncbi-nlm-nih-gov-1fc23e22",
+    "ev-pmc-ncbi-nlm-nih-gov-2988f694",
+    "ev-pmc-ncbi-nlm-nih-gov-445aa753",
+    "ev-pmc-ncbi-nlm-nih-gov-476cf474",
+    "ev-pmc-ncbi-nlm-nih-gov-56fc2c15",
+    "ev-pmc-ncbi-nlm-nih-gov-5d9faa93",
+    "ev-pmc-ncbi-nlm-nih-gov-5db1070f",
+    "ev-pmc-ncbi-nlm-nih-gov-5dd34bb6",
+    "ev-pmc-ncbi-nlm-nih-gov-5fb6bac5",
+    "ev-pmc-ncbi-nlm-nih-gov-865ed7d3",
+    "ev-pmc-ncbi-nlm-nih-gov-96ec0bf1",
+    "ev-pmc-ncbi-nlm-nih-gov-b36b3f65",
+    "ev-pmc-ncbi-nlm-nih-gov-b43c34ad",
+    "ev-pmc-ncbi-nlm-nih-gov-d0d566e6",
+    "ev-pmc-ncbi-nlm-nih-gov-d3f702c8",
+    "ev-pmc-ncbi-nlm-nih-gov-e5b34b08",
+    "ev-pmc-ncbi-nlm-nih-gov-f1495781",
+    "ev-pmc-ncbi-nlm-nih-gov-f67c0ff2",
+    "ev-pmc-ncbi-nlm-nih-gov-fec2069a",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-5b7e9fbe",
+    "ev-pubmed-ncbi-nlm-nih-gov-93235b7b",
+    "ev-pubmed-ncbi-nlm-nih-gov-a1cbd23d",
+    "ev-pubmed-ncbi-nlm-nih-gov-a5190e85",
+    "ev-science-org-365f60d5"
+   ]
+  },
+  {
+   "id": "earth-interior",
+   "canonicalName": "Earth interior",
+   "aliases": [
+    "geophysics",
+    "earth structure"
+   ],
+   "definition": "The layered internal structure of the planet, known almost entirely from seismic wave travel times, gravity and magnetism rather than from direct sampling.",
+   "category": "concept",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "seismology",
+    "earth-interior",
+    "geomagnetism",
+    "satellite-gravimetry"
+   ],
+   "relatedEntities": [
+    "earth-system",
+    "fluid-dynamics"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "geophysics-and-earth-structure"
+   ],
+   "evidenceIds": [
+    "ev-bgs-ac-uk-24b125f8",
+    "ev-esa-int-3cc6945f",
+    "ev-gracefo-jpl-nasa-gov-08a6f2ef",
+    "ev-pubs-usgs-gov-367acee7",
+    "ev-pubs-usgs-gov-3876a8bd",
+    "ev-pubs-usgs-gov-cd33c469",
+    "ev-pubs-usgs-gov-d8fb205b",
+    "ev-se-copernicus-org-d1ee160d"
+   ]
+  },
+  {
+   "id": "earth-system",
+   "canonicalName": "Earth system",
+   "aliases": [
+    "coupled Earth system"
+   ],
+   "definition": "The planet treated as one set of interacting components — atmosphere, ocean, cryosphere, land surface and biosphere — whose coupling explains behaviour that no component explains alone.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "earth-system",
+    "earth-system-science"
+   ],
+   "matchSlugs": [
+    "earth-system-science-explained",
+    "earth-system-components-explained",
+    "earth-system-models-explained"
+   ],
+   "relatedEntities": [
+    "climate-feedback",
+    "biogeochemical-cycle"
+   ],
+   "glossaryId": "earth-system",
+   "childEntities": [
+    "cryosphere"
+   ],
+   "relatedArticles": [
+    "biogeochemical-cycles-explained",
+    "carbon-cycle-explained",
+    "climate-feedback-mechanisms",
+    "climate-indicators-earth-system-monitoring",
+    "cryosphere-in-the-earth-system",
+    "earth-system-components-explained",
+    "earth-system-models-explained",
+    "earth-system-science-explained",
+    "nitrogen-cycle-explained",
+    "ocean-circulation-and-climate",
+    "water-vapor-feedback-explained"
+   ],
+   "evidenceIds": [
+    "ev-arctic-noaa-gov-9400a80f",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-climate-gov-acafcbcd",
+    "ev-ecmwf-int-2c0830e3",
+    "ev-eea-europa-eu-75f96c3a",
+    "ev-eea-europa-eu-fa4aa513",
+    "ev-epa-gov-2dc09f0e",
+    "ev-fao-org-6ca65f33",
+    "ev-gcos-wmo-int-bffc4027",
+    "ev-gml-noaa-gov-4db4ef94",
+    "ev-gml-noaa-gov-6f72a5ee",
+    "ev-gml-noaa-gov-745578e4",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-2daacb71",
+    "ev-ipcc-ch-41fb314f",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-marine-copernicus-eu-88b75c4d",
+    "ev-ncei-noaa-gov-0ccb09f9",
+    "ev-noaa-gov-78cff8fe",
+    "ev-nsidc-org-26b31e82",
+    "ev-nsidc-org-d11343d5",
+    "ev-oceanservice-noaa-gov-675f0408",
+    "ev-oceanservice-noaa-gov-9ab82537",
+    "ev-pmel-noaa-gov-2e3f8633",
+    "ev-public-wmo-int-e907ecd7",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-507391e1",
+    "ev-science-nasa-gov-a754e36e",
+    "ev-science-nasa-gov-e3cc4645",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-unep-org-b0f403ba",
+    "ev-usgs-gov-c184eed8",
+    "ev-wcrp-climate-org-2a1c7487",
+    "ev-wcrp-cmip-org-a5c0277c",
+    "ev-wgms-ch-f4c54ad1",
+    "ev-wmo-int-ab0f3a6d"
+   ]
+  },
+  {
+   "id": "ecological-restoration",
+   "canonicalName": "Ecological restoration",
+   "aliases": [
+    "restoration ecology",
+    "rewilding"
+   ],
+   "definition": "Intervening to return a degraded system towards a reference state. Structure recovers faster than function, and both are usually incomplete when monitoring stops.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "restoration",
+    "rewilding"
+   ],
+   "matchSlugs": [
+    "ecological-restoration-evidence",
+    "rewilding-evidence-and-limits"
+   ],
+   "parentEntities": [
+    "conservation"
+   ],
+   "relatedEntities": [
+    "ecological-succession",
+    "ecosystem"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "ecological-restoration-evidence",
+    "ecological-succession-explained",
+    "reforestation-and-tree-planting-evidence",
+    "rewilding-evidence-and-limits"
+   ],
+   "evidenceIds": [
+    "ev-cbd-int-17535fc8",
+    "ev-doi-org-85bf7fd8",
+    "ev-eprints-whiterose-ac-uk-77c8a713",
+    "ev-esajournals-onlinelibrary-wiley-com-4248fab9",
+    "ev-esajournals-onlinelibrary-wiley-com-45216bff",
+    "ev-esajournals-onlinelibrary-wiley-com-e7742072",
+    "ev-ipbes-net-0f15bb9d",
+    "ev-journals-plos-org-44c5382a",
+    "ev-nature-com-0fc81be4",
+    "ev-nature-com-29765109",
+    "ev-nature-com-72f88eeb",
+    "ev-nature-com-8d437551",
+    "ev-nature-com-ccbc5e1b",
+    "ev-nature-com-fb3b0d53",
+    "ev-openknowledge-fao-org-5266e59b",
+    "ev-par-nsf-gov-08902f7a",
+    "ev-pnas-org-4e829cde",
+    "ev-portals-iucn-org-9e5b57ac",
+    "ev-publications-jrc-ec-europa-eu-f9aab4d7",
+    "ev-pubmed-ncbi-nlm-nih-gov-3b6a6fd7",
+    "ev-pubmed-ncbi-nlm-nih-gov-56a9b664",
+    "ev-pubmed-ncbi-nlm-nih-gov-b805ee84",
+    "ev-pubmed-ncbi-nlm-nih-gov-c3dea691",
+    "ev-science-org-2eb04875",
+    "ev-science-org-4dc32307",
+    "ev-science-org-861ef1f5",
+    "ev-science-org-899d2ca6",
+    "ev-science-org-e8fc5b3f",
+    "ev-sciencedirect-com-863e9752",
+    "ev-staatsbosbeheer-nl-7bd59a54",
+    "ev-usgs-gov-bc568f25",
+    "ev-usgs-gov-fad35d8a"
+   ]
+  },
+  {
+   "id": "ecological-succession",
+   "canonicalName": "Ecological succession",
+   "aliases": [
+    "succession"
+   ],
+   "definition": "The sequence of community change following disturbance. Contingent and path-dependent; the climax-community model it replaced is no longer supported.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "succession",
+    "disturbance"
+   ],
+   "matchSlugs": [
+    "ecological-succession-explained"
+   ],
+   "relatedEntities": [
+    "ecosystem",
+    "ecological-restoration"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "ecological-succession-explained",
+    "forest-ecosystems-explained"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-85bf7fd8",
+    "ev-eea-europa-eu-34a0c1bb",
+    "ev-esajournals-onlinelibrary-wiley-com-4248fab9",
+    "ev-esajournals-onlinelibrary-wiley-com-45216bff",
+    "ev-esajournals-onlinelibrary-wiley-com-e7742072",
+    "ev-nature-com-50e686c5",
+    "ev-openknowledge-fao-org-20918e55",
+    "ev-openknowledge-fao-org-3be1fd34",
+    "ev-openknowledge-fao-org-4d5b135e",
+    "ev-pubmed-ncbi-nlm-nih-gov-3b6a6fd7",
+    "ev-pubmed-ncbi-nlm-nih-gov-56a9b664",
+    "ev-pubmed-ncbi-nlm-nih-gov-b805ee84",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-unfccc-int-410967e3",
+    "ev-usgs-gov-bc568f25",
+    "ev-usgs-gov-fad35d8a"
+   ]
+  },
+  {
+   "id": "ecosystem",
+   "canonicalName": "Ecosystem",
+   "aliases": [
+    "ecological system"
+   ],
+   "definition": "A community of organisms together with the physical environment they exchange energy and matter with. Defined by flow rather than by membership or by place.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "ecosystems",
+    "ecosystem-services",
+    "agroecosystems",
+    "agroecology"
+   ],
+   "matchSlugs": [
+    "what-is-an-ecosystem",
+    "ecosystem-services-and-human-wellbeing"
+   ],
+   "relatedEntities": [
+    "food-web",
+    "primary-production",
+    "biome"
+   ],
+   "glossaryId": "ecosystem",
+   "childEntities": [
+    "food-web",
+    "forest",
+    "freshwater-ecosystem",
+    "ocean"
+   ],
+   "relatedArticles": [
+    "agricultural-ecosystems-and-agroecology",
+    "ecological-succession-explained",
+    "ecosystem-services-and-human-wellbeing",
+    "foundation-species-and-the-myth-of-redundancy",
+    "soil-microbiome-regenerative-agriculture",
+    "urban-ecology-explained",
+    "what-is-an-ecosystem"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-85bf7fd8",
+    "ev-eea-europa-eu-5ecc0193",
+    "ev-eea-europa-eu-8cf6f284",
+    "ev-epa-gov-64853b14",
+    "ev-epa-gov-d8e2a72f",
+    "ev-epa-gov-f01f0131",
+    "ev-epa-gov-faf921d8",
+    "ev-esajournals-onlinelibrary-wiley-com-4248fab9",
+    "ev-esajournals-onlinelibrary-wiley-com-45216bff",
+    "ev-esajournals-onlinelibrary-wiley-com-e7742072",
+    "ev-fao-org-347ee22b",
+    "ev-fao-org-6426027d",
+    "ev-fao-org-8c0e597a",
+    "ev-fao-org-a209f811",
+    "ev-fao-org-afc0161a",
+    "ev-fao-org-e84ee007",
+    "ev-ipbes-net-860a7b04",
+    "ev-ipbes-net-f156c424",
+    "ev-ipcc-ch-41fb314f",
+    "ev-nature-com-48346271",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-3b6a6fd7",
+    "ev-pubmed-ncbi-nlm-nih-gov-56a9b664",
+    "ev-pubmed-ncbi-nlm-nih-gov-b805ee84",
+    "ev-pubmed-ncbi-nlm-nih-gov-b81098c4",
+    "ev-pubmed-ncbi-nlm-nih-gov-d32859ab",
+    "ev-pubmed-ncbi-nlm-nih-gov-e5cb85d7",
+    "ev-pubmed-ncbi-nlm-nih-gov-ea9ae2c2",
+    "ev-royalsocietypublishing-org-76f3eb68",
+    "ev-science-org-365f60d5",
+    "ev-unep-org-b0f403ba",
+    "ev-unep-org-e2d533b7",
+    "ev-usgs-gov-3df2c56e",
+    "ev-usgs-gov-bc568f25",
+    "ev-usgs-gov-fad35d8a",
+    "ev-who-int-4ac0af4c"
+   ]
+  },
+  {
+   "id": "electromagnetic-radiation",
+   "canonicalName": "Electromagnetic radiation",
+   "aliases": [
+    "light",
+    "electromagnetic spectrum"
+   ],
+   "definition": "Propagating electromagnetic waves, equivalently photons, spanning radio to gamma rays. One phenomenon at different wavelengths, not several.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "electromagnetic-spectrum",
+    "optics",
+    "light"
+   ],
+   "matchSlugs": [
+    "electromagnetic-spectrum-applications",
+    "optics-and-light-explained"
+   ],
+   "relatedEntities": [
+    "quantum-mechanics",
+    "radiative-transfer"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "electromagnetic-spectrum-applications",
+    "optics-and-light-explained"
+   ],
+   "evidenceIds": [
+    "ev-esa-int-d442582b",
+    "ev-gml-noaa-gov-29af78a5",
+    "ev-home-cern-574c6d89",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-nasa-gov-5878ac12",
+    "ev-nih-gov-07e4098a",
+    "ev-nist-gov-7d1720a5",
+    "ev-nist-gov-b4dac7fd",
+    "ev-noaa-gov-8473ab6a",
+    "ev-oceanservice-noaa-gov-b19a5a17",
+    "ev-pmc-ncbi-nlm-nih-gov-1a12da62",
+    "ev-pmc-ncbi-nlm-nih-gov-7e325659",
+    "ev-science-nasa-gov-3136bbee",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-50b63dc1",
+    "ev-science-nasa-gov-9b4546a8",
+    "ev-science-nasa-gov-d17bc14c",
+    "ev-science-nasa-gov-d91f1e1b",
+    "ev-who-int-4ac0af4c"
+   ]
+  },
+  {
+   "id": "energy",
+   "canonicalName": "Energy",
+   "aliases": [
+    "work",
+    "power"
+   ],
+   "definition": "The conserved quantity that changes form rather than amount. Distinguishing it from power is where most public confusion about energy begins.",
+   "category": "physical_quantity",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "energy",
+    "work",
+    "power"
+   ],
+   "matchSlugs": [
+    "energy-work-and-power"
+   ],
+   "relatedEntities": [
+    "thermodynamics",
+    "energy-system"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "energy-work-and-power",
+    "nuclear-fusion-fundamentals",
+    "perovskite-stack-field-stability",
+    "solar-radiation-and-earth-energy-balance",
+    "thermodynamic-limits-of-photovoltaics"
+   ],
+   "evidenceIds": [
+    "ev-bipm-org-69ab2e96",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-eia-gov-9683de5b",
+    "ev-eia-gov-cbd04939",
+    "ev-energy-gov-6d02dc81",
+    "ev-energy-gov-f9b8ca6a",
+    "ev-euro-fusion-org-ed518995",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-iter-org-1f0c0575",
+    "ev-iter-org-970fcf29",
+    "ev-iter-org-bc62db58",
+    "ev-iter-org-d03ce8cc",
+    "ev-iter-org-fde03979",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-lasers-llnl-gov-849a70d8",
+    "ev-llnl-gov-bd8d3558",
+    "ev-nasa-gov-5878ac12",
+    "ev-nature-com-48346271",
+    "ev-nist-gov-38d2a37a",
+    "ev-nist-gov-7d1720a5",
+    "ev-nlr-gov-52e163a1",
+    "ev-nlr-gov-5b775035",
+    "ev-nlr-gov-bd5dee60",
+    "ev-noaa-gov-78cff8fe",
+    "ev-pdg-lbl-gov-e02605b9",
+    "ev-pmc-ncbi-nlm-nih-gov-e64ca14d",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-science-org-365f60d5"
+   ]
+  },
+  {
+   "id": "energy-storage",
+   "canonicalName": "Energy storage",
+   "aliases": [
+    "batteries",
+    "grid storage"
+   ],
+   "definition": "Holding energy for later use. Duration rather than power is the quantity that separates the technologies, and seasonal storage is a qualitatively different problem from diurnal.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "energy-storage",
+    "batteries"
+   ],
+   "matchSlugs": [
+    "energy-storage-fundamentals"
+   ],
+   "parentEntities": [
+    "energy-system"
+   ],
+   "relatedEntities": [
+    "energy-system"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "energy-storage-fundamentals",
+    "seasonal-storage-is-a-different-problem"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-ab418575",
+    "ev-doi-org-ce3af44a",
+    "ev-eia-gov-1b6c31d0",
+    "ev-eia-gov-2293556e",
+    "ev-eia-gov-bf69c891",
+    "ev-eia-gov-cc6d5d49",
+    "ev-energy-gov-2619c361",
+    "ev-energy-gov-35731cd9",
+    "ev-frontiersin-org-f8ef10ed",
+    "ev-iea-org-d05290c0",
+    "ev-nature-com-e4330651",
+    "ev-osti-gov-7ec3bd15",
+    "ev-osti-gov-857977d3",
+    "ev-osti-gov-89b00671",
+    "ev-osti-gov-ab1df7b4",
+    "ev-par-nsf-gov-521d8f95"
+   ]
+  },
+  {
+   "id": "energy-system",
+   "canonicalName": "Energy system",
+   "aliases": [
+    "energy conversion",
+    "power system"
+   ],
+   "definition": "The chain from primary energy through carriers to end use, and the physical, material and institutional constraints that decide what scales.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "energy",
+    "energy-systems",
+    "grid",
+    "capacity-factor",
+    "levelised-cost",
+    "energy-statistics",
+    "primary-energy",
+    "electricity-generation",
+    "hydrogen",
+    "electrolysis",
+    "energy-carriers",
+    "fuel-cells",
+    "wind-energy",
+    "betz-limit"
+   ],
+   "matchSlugs": [
+    "energy-systems-explained",
+    "grid-integration-of-variable-renewables"
+   ],
+   "relatedEntities": [
+    "photovoltaics",
+    "energy-storage",
+    "energy"
+   ],
+   "childEntities": [
+    "energy-storage",
+    "photovoltaics"
+   ],
+   "relatedArticles": [
+    "capacity-factor-and-energy-metrics",
+    "energy-systems-explained",
+    "energy-work-and-power",
+    "grid-integration-of-variable-renewables",
+    "hydrogen-as-an-energy-carrier",
+    "nuclear-fusion-fundamentals",
+    "perovskite-stack-field-stability",
+    "seasonal-storage-is-a-different-problem",
+    "solar-radiation-and-earth-energy-balance",
+    "thermodynamic-limits-of-photovoltaics",
+    "wind-energy-physics"
+   ],
+   "evidenceIds": [
+    "ev-afdc-energy-gov-39d67d7e",
+    "ev-bipm-org-69ab2e96",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-doi-org-974f0878",
+    "ev-doi-org-ab418575",
+    "ev-doi-org-ce3af44a",
+    "ev-eia-gov-03c0e00a",
+    "ev-eia-gov-0a47c5b5",
+    "ev-eia-gov-1b6c31d0",
+    "ev-eia-gov-2293556e",
+    "ev-eia-gov-923a31da",
+    "ev-eia-gov-9683de5b",
+    "ev-eia-gov-ab2010e7",
+    "ev-eia-gov-cbd04939",
+    "ev-eia-gov-e861661b",
+    "ev-eia-gov-e96167ae",
+    "ev-energy-gov-09a8f27f",
+    "ev-energy-gov-2619c361",
+    "ev-energy-gov-35731cd9",
+    "ev-energy-gov-6d02dc81",
+    "ev-energy-gov-7c50724b",
+    "ev-energy-gov-94a58fb6",
+    "ev-energy-gov-acc79b85",
+    "ev-energy-gov-f9b8ca6a",
+    "ev-euro-fusion-org-ed518995",
+    "ev-iea-org-2d29a3db",
+    "ev-iea-org-50fc695a",
+    "ev-iea-org-6240f5de",
+    "ev-iea-org-7f052d4d",
+    "ev-iea-org-8e344842",
+    "ev-iea-org-b51c0483",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-iter-org-1f0c0575",
+    "ev-iter-org-970fcf29",
+    "ev-iter-org-bc62db58",
+    "ev-iter-org-d03ce8cc",
+    "ev-iter-org-fde03979",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-lasers-llnl-gov-849a70d8",
+    "ev-llnl-gov-bd8d3558",
+    "ev-nasa-gov-5878ac12",
+    "ev-nature-com-48346271",
+    "ev-nature-com-e4330651",
+    "ev-nist-gov-1d154380",
+    "ev-nist-gov-38d2a37a",
+    "ev-nist-gov-7d1720a5",
+    "ev-nlr-gov-52e163a1",
+    "ev-nlr-gov-5b775035",
+    "ev-nlr-gov-860bbd72",
+    "ev-nlr-gov-bd5dee60",
+    "ev-noaa-gov-78cff8fe",
+    "ev-osti-gov-ab1df7b4",
+    "ev-par-nsf-gov-521d8f95",
+    "ev-pdg-lbl-gov-e02605b9",
+    "ev-pmc-ncbi-nlm-nih-gov-4e86f173",
+    "ev-pmc-ncbi-nlm-nih-gov-4fb7608e",
+    "ev-pmc-ncbi-nlm-nih-gov-5147f07c",
+    "ev-pmc-ncbi-nlm-nih-gov-566cc612",
+    "ev-pmc-ncbi-nlm-nih-gov-93e53b61",
+    "ev-pmc-ncbi-nlm-nih-gov-9925c950",
+    "ev-pmc-ncbi-nlm-nih-gov-c5a75ccf",
+    "ev-pmc-ncbi-nlm-nih-gov-e1ed8715",
+    "ev-pmc-ncbi-nlm-nih-gov-e64ca14d",
+    "ev-pmc-ncbi-nlm-nih-gov-f67d6b0e",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-science-org-365f60d5",
+    "ev-wes-copernicus-org-64ed7085",
+    "ev-wes-copernicus-org-bff4f9b7"
+   ]
+  },
+  {
+   "id": "entropy",
+   "canonicalName": "Entropy",
+   "aliases": [
+    "second law"
+   ],
+   "definition": "A state function measuring the multiplicity of microstates consistent with a macrostate. Not disorder, and not a licence for the metaphors usually attached to it.",
+   "category": "physical_quantity",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "entropy",
+    "second-law"
+   ],
+   "matchSlugs": [
+    "entropy-explained"
+   ],
+   "parentEntities": [
+    "thermodynamics"
+   ],
+   "relatedEntities": [
+    "heat-transfer"
+   ],
+   "glossaryId": "entropy",
+   "childEntities": [],
+   "relatedArticles": [
+    "earth-energy-budget-and-the-second-law",
+    "entropy-explained",
+    "laws-of-thermodynamics-explained"
+   ],
+   "evidenceIds": [
+    "ev-bipm-org-69ab2e96",
+    "ev-eia-gov-0a47c5b5",
+    "ev-energy-gov-dab511f6",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-nist-gov-b4dac7fd",
+    "ev-nist-gov-d79e9476",
+    "ev-nlr-gov-415c876d",
+    "ev-noaa-gov-78cff8fe",
+    "ev-noaa-gov-8473ab6a",
+    "ev-physics-nist-gov-d444bd61",
+    "ev-pmc-ncbi-nlm-nih-gov-30656ac6",
+    "ev-pmc-ncbi-nlm-nih-gov-323af94b",
+    "ev-pmc-ncbi-nlm-nih-gov-52d3025b",
+    "ev-pmc-ncbi-nlm-nih-gov-dff8280b",
+    "ev-pmc-ncbi-nlm-nih-gov-ff1d02f6",
+    "ev-science-nasa-gov-08b67889",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-ed707730",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-webbook-nist-gov-45f711a7",
+    "ev-webbook-nist-gov-46f7133a"
+   ]
+  },
+  {
+   "id": "environmental-monitoring",
+   "canonicalName": "Environmental monitoring",
+   "aliases": [
+    "long-term monitoring",
+    "observation network"
+   ],
+   "definition": "Sustained repeat measurement of a defined variable. Long records are the only instrument for detecting slow change and cannot be reconstructed after a gap.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "monitoring",
+    "indicators",
+    "climate-indicators"
+   ],
+   "matchSlugs": [
+    "essential-climate-variables-explained",
+    "essential-biodiversity-variables-monitoring",
+    "biodiversity-monitoring-and-ecosystem-health"
+   ],
+   "relatedEntities": [
+    "remote-sensing",
+    "measurement-uncertainty"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "biodiversity-baselines-and-shifting-baselines",
+    "biodiversity-indicators-explained",
+    "biodiversity-monitoring-and-ecosystem-health",
+    "carbon-cycle-feedbacks",
+    "citizen-science-biodiversity-data",
+    "climate-adaptation-mitigation-indicators",
+    "climate-indicators-earth-system-monitoring",
+    "climate-variability-and-teleconnections",
+    "cryosphere-indicators-glaciers-sea-ice",
+    "drought-monitoring-systems",
+    "ecological-integrity-indicators",
+    "ecosystem-resilience-indicators",
+    "environmental-monitoring-networks-are-thinning",
+    "essential-biodiversity-variables-monitoring",
+    "essential-climate-variables-explained",
+    "extreme-weather-attribution-basics",
+    "forest-disturbance-fire-insects-windthrow",
+    "global-temperature-records-explained",
+    "greenhouse-gas-concentrations-monitoring",
+    "habitat-fragmentation-metrics",
+    "land-cover-change-detection",
+    "land-degradation-and-desertification",
+    "living-planet-index-explained",
+    "modis-earth-observation-system",
+    "ndvi-explained",
+    "ocean-color-observations",
+    "ocean-heat-content-indicators",
+    "protected-area-effectiveness",
+    "red-list-index-explained",
+    "remote-sensing-for-biodiversity-monitoring",
+    "restoration-evidence-and-the-monitoring-horizon",
+    "sea-level-rise-indicators",
+    "soil-carbon-crediting-meets-the-detection-limit",
+    "soil-carbon-measurement-and-uncertainty",
+    "species-evenness-and-diversity",
+    "species-richness-explained",
+    "vegetation-indices-and-monitoring",
+    "water-quality-measurement-explained"
+   ],
+   "evidenceIds": [
+    "ev-argo-ucsd-edu-ea18b31b",
+    "ev-cbd-int-30e9e627",
+    "ev-cbd-int-48b455b5",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-climate-copernicus-eu-e789bd69",
+    "ev-climate-gov-5ad4c8be",
+    "ev-coralreefwatch-noaa-gov-2eeb9c6d",
+    "ev-cpc-ncep-noaa-gov-de8d826b",
+    "ev-decadeonrestoration-org-84547bcb",
+    "ev-earthdata-nasa-gov-d76ebdc0",
+    "ev-ecmwf-int-2c0830e3",
+    "ev-eea-europa-eu-21941f6a",
+    "ev-eea-europa-eu-5ecc0193",
+    "ev-eea-europa-eu-8e516f70",
+    "ev-eea-europa-eu-c748cd97",
+    "ev-eea-europa-eu-fa4aa513",
+    "ev-epa-gov-2d326646",
+    "ev-epa-gov-2dc09f0e",
+    "ev-epa-gov-4f65c49d",
+    "ev-epa-gov-a1cd923a",
+    "ev-epa-gov-b808faa5",
+    "ev-esa-int-042cde5c",
+    "ev-essd-copernicus-org-3a391427",
+    "ev-fao-org-268d5aab",
+    "ev-fao-org-44cdd7ed",
+    "ev-fao-org-6426027d",
+    "ev-frontiersin-org-ffdb1d60",
+    "ev-gbif-org-36f4e193",
+    "ev-gcos-wmo-int-bffc4027",
+    "ev-gcos-wmo-int-fd7ce707",
+    "ev-geobon-org-9cb1cb2a",
+    "ev-gml-noaa-gov-745578e4",
+    "ev-gml-noaa-gov-9cff813b",
+    "ev-grace-jpl-nasa-gov-a0e60b7b",
+    "ev-iea-org-37f76cc6",
+    "ev-iopscience-iop-org-e0837b41",
+    "ev-ipbes-net-860a7b04",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-41fb314f",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-ipcc-ch-df0f377a",
+    "ev-ipcc-ch-e00f390d",
+    "ev-iucn-org-8b0acfb2",
+    "ev-iucnredlist-org-cb64272d",
+    "ev-joint-research-centre-ec-europa-eu-c94ff27a",
+    "ev-journals-plos-org-0324bb88",
+    "ev-journals-plos-org-44c5382a",
+    "ev-journals-plos-org-8e0a5766",
+    "ev-land-copernicus-eu-921c2dba",
+    "ev-livingplanetindex-org-42b65f9e",
+    "ev-marine-copernicus-eu-88b75c4d",
+    "ev-mdpi-com-8acc2930",
+    "ev-nature-com-047084a0",
+    "ev-nature-com-35b6b4e2",
+    "ev-nature-com-48346271",
+    "ev-nature-com-58dde4cb",
+    "ev-nature-com-89a10f45",
+    "ev-nature-com-a8c57beb",
+    "ev-nature-com-ea05ba65",
+    "ev-nature-com-fb3b0d53",
+    "ev-ncei-noaa-gov-0ccb09f9",
+    "ev-nesdis-noaa-gov-5c5f1718",
+    "ev-noaa-gov-78cff8fe",
+    "ev-noaa-gov-8473ab6a",
+    "ev-nsidc-org-d11343d5",
+    "ev-onlinelibrary-wiley-com-0c855db4",
+    "ev-openknowledge-fao-org-2a0da203",
+    "ev-openknowledge-fao-org-4e621b27",
+    "ev-openknowledge-fao-org-5b9a241a",
+    "ev-openknowledge-fao-org-81784af0",
+    "ev-pmc-ncbi-nlm-nih-gov-6b4f4210",
+    "ev-pmc-ncbi-nlm-nih-gov-c75576ed",
+    "ev-pmc-ncbi-nlm-nih-gov-db98184c",
+    "ev-pmc-ncbi-nlm-nih-gov-e4387ec7",
+    "ev-pnas-org-de73c2cf",
+    "ev-protectedplanet-net-29afa788",
+    "ev-public-wmo-int-e907ecd7",
+    "ev-pubmed-ncbi-nlm-nih-gov-1d2e76b1",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-43d39ba7",
+    "ev-pubmed-ncbi-nlm-nih-gov-4eac2950",
+    "ev-pubmed-ncbi-nlm-nih-gov-4f709dca",
+    "ev-pubmed-ncbi-nlm-nih-gov-54d25f06",
+    "ev-pubmed-ncbi-nlm-nih-gov-83cc8237",
+    "ev-pubmed-ncbi-nlm-nih-gov-9aafd467",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-50b63dc1",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-science-org-365f60d5",
+    "ev-sealevel-nasa-gov-04874c89",
+    "ev-smap-jpl-nasa-gov-55e010a3",
+    "ev-soil-copernicus-org-9ea4dc9c",
+    "ev-tidesandcurrents-noaa-gov-8f3d46c7",
+    "ev-unccd-int-86040f87",
+    "ev-unccd-int-8ea44e27",
+    "ev-unccd-int-a27735ac",
+    "ev-unccd-int-e87e8ebc",
+    "ev-unep-org-b0f403ba",
+    "ev-unep-org-e2d533b7",
+    "ev-usgs-gov-6c46fe07",
+    "ev-usgs-gov-8d305e39",
+    "ev-usgs-gov-a493cdeb",
+    "ev-usgs-gov-ebe65567",
+    "ev-verra-org-14912b95",
+    "ev-wcrp-climate-org-2a1c7487",
+    "ev-wgms-ch-f4c54ad1",
+    "ev-who-int-95b30fd1",
+    "ev-wmo-int-36bde52e",
+    "ev-wmo-int-3d96c5c4"
+   ]
+  },
+  {
+   "id": "eutrophication",
+   "canonicalName": "Eutrophication",
+   "aliases": [
+    "nutrient enrichment"
+   ],
+   "definition": "Enrichment of a water body with nutrients, driving algal growth and, on decomposition, oxygen depletion. Phosphorus-limited in most fresh waters, nitrogen-limited in most coastal ones.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "eutrophication",
+    "nutrient-loading"
+   ],
+   "matchSlugs": [
+    "lake-ecology-and-eutrophication",
+    "nitrogen-pollution-and-eutrophication"
+   ],
+   "relatedEntities": [
+    "nitrogen-cycle",
+    "water-quality"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "lake-ecology-and-eutrophication",
+    "nitrogen-pollution-and-eutrophication",
+    "ocean-deoxygenation-and-dead-zones"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-57abab38",
+    "ev-agupubs-onlinelibrary-wiley-com-5838c232",
+    "ev-coastalscience-noaa-gov-7975a7b2",
+    "ev-eea-europa-eu-75f96c3a",
+    "ev-eea-europa-eu-b5e19b12",
+    "ev-eea-europa-eu-f9e9eaae",
+    "ev-epa-gov-09bb66d7",
+    "ev-epa-gov-b76f7901",
+    "ev-ipcc-ch-c35ffd86",
+    "ev-nature-com-7c5cfbf5",
+    "ev-nature-com-969c7da7",
+    "ev-noaa-gov-cc47fd26",
+    "ev-oceanservice-noaa-gov-72651ba8",
+    "ev-pmc-ncbi-nlm-nih-gov-570ec5b9",
+    "ev-pmc-ncbi-nlm-nih-gov-7b196ba7",
+    "ev-pmc-ncbi-nlm-nih-gov-e302f7cd",
+    "ev-pnas-org-be670935",
+    "ev-pubmed-ncbi-nlm-nih-gov-15aae858",
+    "ev-pubmed-ncbi-nlm-nih-gov-942f6943",
+    "ev-pubmed-ncbi-nlm-nih-gov-e752cc52",
+    "ev-science-org-688c2d05",
+    "ev-science-org-8e83c13d",
+    "ev-science-org-ea1cbcd1",
+    "ev-science-org-f318e5f0",
+    "ev-usgs-gov-3f954744",
+    "ev-usgs-gov-d071ed34"
+   ]
+  },
+  {
+   "id": "evolution",
+   "canonicalName": "Evolution",
+   "aliases": [
+    "biological evolution",
+    "descent with modification"
+   ],
+   "definition": "Change in the genetic composition of populations across generations, under selection, drift, mutation and migration.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "evolution"
+   ],
+   "matchSlugs": [
+    "evolution-explained"
+   ],
+   "relatedEntities": [
+    "natural-selection",
+    "genetic-drift",
+    "speciation"
+   ],
+   "glossaryId": "evolution",
+   "childEntities": [
+    "genetic-drift",
+    "natural-selection",
+    "speciation"
+   ],
+   "relatedArticles": [
+    "antibiotic-resistance-evolution-mechanisms",
+    "cell-types-as-units-of-evolution",
+    "convergent-evolution-explained",
+    "evolution-explained",
+    "sexual-selection-explained",
+    "speciation-mechanisms"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-3eb90b2e",
+    "ev-academic-oup-com-456c1861",
+    "ev-academic-oup-com-70b83d84",
+    "ev-academic-oup-com-7a50a467",
+    "ev-cdc-gov-6544af21",
+    "ev-genome-gov-7c95e126",
+    "ev-genome-gov-9313a7f8",
+    "ev-journals-plos-org-c874ec90",
+    "ev-nature-com-48346271",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-nih-gov-07e4098a",
+    "ev-pmc-ncbi-nlm-nih-gov-033f8b6b",
+    "ev-pmc-ncbi-nlm-nih-gov-1d1d1132",
+    "ev-pmc-ncbi-nlm-nih-gov-3ae1a0ad",
+    "ev-pmc-ncbi-nlm-nih-gov-423dd926",
+    "ev-pmc-ncbi-nlm-nih-gov-49da7c62",
+    "ev-pmc-ncbi-nlm-nih-gov-4b7185c7",
+    "ev-pmc-ncbi-nlm-nih-gov-4cd84284",
+    "ev-pmc-ncbi-nlm-nih-gov-5d455d8d",
+    "ev-pmc-ncbi-nlm-nih-gov-680058ab",
+    "ev-pmc-ncbi-nlm-nih-gov-83499ab0",
+    "ev-pmc-ncbi-nlm-nih-gov-882d7b0c",
+    "ev-pmc-ncbi-nlm-nih-gov-8e76f594",
+    "ev-pmc-ncbi-nlm-nih-gov-c67d1eae",
+    "ev-pmc-ncbi-nlm-nih-gov-c9b89da5",
+    "ev-pmc-ncbi-nlm-nih-gov-d6a9a7be",
+    "ev-pmc-ncbi-nlm-nih-gov-e29a7fc5",
+    "ev-pmc-ncbi-nlm-nih-gov-ec2c3d19",
+    "ev-pubmed-ncbi-nlm-nih-gov-04c2d9af",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-949079e9",
+    "ev-pubmed-ncbi-nlm-nih-gov-a764579a",
+    "ev-pubmed-ncbi-nlm-nih-gov-baee57c1",
+    "ev-pubmed-ncbi-nlm-nih-gov-f5aef3a6",
+    "ev-science-org-365f60d5",
+    "ev-who-int-4ac0af4c"
+   ]
+  },
+  {
+   "id": "extinction-risk",
+   "canonicalName": "Extinction risk",
+   "aliases": [
+    "threat status",
+    "Red List category"
+   ],
+   "definition": "The assessed probability that a taxon will be lost, under criteria with explicit data requirements. Distinct from the extinction rate, and routinely confused with it.",
+   "category": "environmental_indicator",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "extinction",
+    "red-list",
+    "threat-status"
+   ],
+   "matchSlugs": [
+    "species-extinction-risk-assessment",
+    "red-list-index-explained"
+   ],
+   "relatedEntities": [
+    "biodiversity",
+    "conservation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "extinction-rate-estimates-and-their-assumptions",
+    "red-list-index-explained",
+    "species-extinction-risk-assessment"
+   ],
+   "evidenceIds": [
+    "ev-cbd-int-30e9e627",
+    "ev-files-ipbes-net-bc4e1917",
+    "ev-gbif-org-36f4e193",
+    "ev-ipbes-net-860a7b04",
+    "ev-iucn-org-8b0acfb2",
+    "ev-iucn-org-c56505dd",
+    "ev-iucnredlist-org-90f2f934",
+    "ev-iucnredlist-org-b1a401b6",
+    "ev-iucnredlist-org-cb64272d",
+    "ev-nature-com-99ef88f6",
+    "ev-nature-com-b663d633",
+    "ev-nature-com-e0e72642",
+    "ev-pmc-ncbi-nlm-nih-gov-1941df3a",
+    "ev-pmc-ncbi-nlm-nih-gov-31beb637",
+    "ev-pmc-ncbi-nlm-nih-gov-5b38c88e",
+    "ev-pubmed-ncbi-nlm-nih-gov-928e3a5d",
+    "ev-pubmed-ncbi-nlm-nih-gov-a8f2590c",
+    "ev-science-org-5211393a"
+   ]
+  },
+  {
+   "id": "fluid-dynamics",
+   "canonicalName": "Fluid dynamics",
+   "aliases": [
+    "fluid mechanics",
+    "turbulence"
+   ],
+   "definition": "The motion of fluids, governed by the ratio of inertial to viscous forces. Turbulence remains the classic unsolved problem and the reason geophysical models parameterise.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "fluid-dynamics",
+    "turbulence"
+   ],
+   "matchSlugs": [
+    "fluid-dynamics-explained"
+   ],
+   "relatedEntities": [
+    "atmospheric-circulation",
+    "heat-transfer"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "fluid-dynamics-explained"
+   ],
+   "evidenceIds": [
+    "ev-ipcc-ch-2daacb71",
+    "ev-ntrs-nasa-gov-c1faa68c",
+    "ev-pmc-ncbi-nlm-nih-gov-d4be8636",
+    "ev-pmc-ncbi-nlm-nih-gov-de7b2fe1",
+    "ev-webbook-nist-gov-f064876e",
+    "ev-www1-grc-nasa-gov-5b560392",
+    "ev-www1-grc-nasa-gov-5ce69288",
+    "ev-www1-grc-nasa-gov-a4c6c9ca",
+    "ev-www1-grc-nasa-gov-eff8d8a8"
+   ]
+  },
+  {
+   "id": "food-web",
+   "canonicalName": "Food web",
+   "aliases": [
+    "trophic structure",
+    "food chain"
+   ],
+   "definition": "The network of who eats whom, and the energy transfer it carries. Trophic levels are an accounting device, not discrete natural categories.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "food-webs",
+    "trophic-structure",
+    "trophic-levels"
+   ],
+   "matchSlugs": [
+    "food-webs-and-trophic-structure",
+    "marine-food-webs-and-productivity"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "primary-production"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "food-webs-and-trophic-structure",
+    "marine-food-webs-and-productivity"
+   ],
+   "evidenceIds": [
+    "ev-esajournals-onlinelibrary-wiley-com-395203ec",
+    "ev-fisheries-noaa-gov-30d59d36",
+    "ev-journals-plos-org-b7e4f99a",
+    "ev-nature-com-1f2b3939",
+    "ev-nature-com-55f32b23",
+    "ev-nature-com-6cddd244",
+    "ev-nature-com-856e7a0f",
+    "ev-nature-com-86ee0432",
+    "ev-nature-com-a0520f7a",
+    "ev-pubmed-ncbi-nlm-nih-gov-67e01cbb",
+    "ev-pubmed-ncbi-nlm-nih-gov-9a3be8b6",
+    "ev-pubmed-ncbi-nlm-nih-gov-af2d9d90",
+    "ev-pubmed-ncbi-nlm-nih-gov-cc957419",
+    "ev-pubmed-ncbi-nlm-nih-gov-df2cd42b",
+    "ev-pubmed-ncbi-nlm-nih-gov-e67c936f",
+    "ev-pubmed-ncbi-nlm-nih-gov-f2973cbc",
+    "ev-pubmed-ncbi-nlm-nih-gov-f8361b5b",
+    "ev-royalsocietypublishing-org-2e9c82fb",
+    "ev-royalsocietypublishing-org-b9f962af",
+    "ev-science-nasa-gov-32a3d11a"
+   ]
+  },
+  {
+   "id": "forest",
+   "canonicalName": "Forest",
+   "aliases": [
+    "forest ecosystem",
+    "woodland"
+   ],
+   "definition": "Land dominated by trees, defined for statistical purposes by canopy cover and land use — a definition that explains most apparent contradictions between forest datasets.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "forests",
+    "deforestation",
+    "forest-carbon"
+   ],
+   "matchSlugs": [
+    "forest-ecosystems-explained",
+    "deforestation-statistics-explained",
+    "forest-carbon-measurement"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "land-degradation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "community-based-conservation-evidence",
+    "deforestation-statistics-explained",
+    "forest-carbon-measurement",
+    "forest-degradation-vs-deforestation",
+    "forest-ecosystems-explained",
+    "satellite-deforestation-monitoring",
+    "temperate-forest-carbon-sink-decline",
+    "why-two-credible-datasets-disagree"
+   ],
+   "evidenceIds": [
+    "ev-cbd-int-fae2a385",
+    "ev-daac-ornl-gov-843a7bc1",
+    "ev-digitalreport-protectedplanet-net-dd4ddbab",
+    "ev-earthdata-nasa-gov-d76ebdc0",
+    "ev-eea-europa-eu-34a0c1bb",
+    "ev-eprints-whiterose-ac-uk-9842d414",
+    "ev-esa-int-ffbc128f",
+    "ev-esajournals-onlinelibrary-wiley-com-5bf9815a",
+    "ev-essd-copernicus-org-17ec57f5",
+    "ev-fao-org-9ea580c0",
+    "ev-fao-org-b9f4b98a",
+    "ev-forobs-jrc-ec-europa-eu-dfc44f48",
+    "ev-gfr-wri-org-7b8796a8",
+    "ev-gfr-wri-org-83de5ee3",
+    "ev-gfr-wri-org-b97b5638",
+    "ev-gfr-wri-org-e1aebca1",
+    "ev-icp-forests-net-4214d9cb",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-ipcc-ch-f60975b1",
+    "ev-ipcc-nggip-iges-or-jp-bb5b134e",
+    "ev-joint-research-centre-ec-europa-eu-c94ff27a",
+    "ev-metoffice-gov-uk-084d943a",
+    "ev-nature-com-3e9e0647",
+    "ev-nature-com-3f8b8db8",
+    "ev-nature-com-50e686c5",
+    "ev-nature-com-8660a348",
+    "ev-ncei-noaa-gov-454eb6fa",
+    "ev-openknowledge-fao-org-20918e55",
+    "ev-openknowledge-fao-org-3be1fd34",
+    "ev-openknowledge-fao-org-4d5b135e",
+    "ev-openknowledge-fao-org-5b9a241a",
+    "ev-openknowledge-fao-org-5c9bc284",
+    "ev-openknowledge-fao-org-847c7376",
+    "ev-pmc-ncbi-nlm-nih-gov-7525556b",
+    "ev-pmc-ncbi-nlm-nih-gov-75c1fce3",
+    "ev-pubmed-ncbi-nlm-nih-gov-07528e9d",
+    "ev-pubmed-ncbi-nlm-nih-gov-b82a61e7",
+    "ev-pubmed-ncbi-nlm-nih-gov-e2f09923",
+    "ev-pubmed-ncbi-nlm-nih-gov-f0474457",
+    "ev-pubmed-ncbi-nlm-nih-gov-f8527700",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-science-org-054fe0a6",
+    "ev-science-org-0eb867e6",
+    "ev-science-org-1099b617",
+    "ev-unep-org-6d7bc6c7",
+    "ev-unfccc-int-410967e3",
+    "ev-usgs-gov-6c46fe07"
+   ]
+  },
+  {
+   "id": "freshwater-ecosystem",
+   "canonicalName": "Freshwater ecosystem",
+   "aliases": [
+    "rivers and lakes",
+    "inland waters"
+   ],
+   "definition": "Rivers, lakes, wetlands and groundwater. A hundredth of a per cent of the planet's water, a disproportionate share of its described species, and the steepest documented declines.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "freshwater",
+    "rivers",
+    "lakes",
+    "wetlands",
+    "dams",
+    "river-connectivity",
+    "freshwater-biodiversity",
+    "river-restoration"
+   ],
+   "matchSlugs": [
+    "freshwater-ecosystems-explained",
+    "river-ecology-and-flow-regimes",
+    "wetlands-and-their-functions"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "water-cycle",
+    "water-quality",
+    "eutrophication"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "dams-and-river-fragmentation",
+    "freshwater-biodiversity-decline",
+    "freshwater-ecosystems-explained",
+    "lake-ecology-and-eutrophication",
+    "river-ecology-and-flow-regimes",
+    "wetlands-and-their-functions"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-57abab38",
+    "ev-agupubs-onlinelibrary-wiley-com-5838c232",
+    "ev-epa-gov-0a612b7f",
+    "ev-epa-gov-1c8bbea0",
+    "ev-epa-gov-37efbf67",
+    "ev-epa-gov-8b0b44bc",
+    "ev-epa-gov-b76f7901",
+    "ev-epa-gov-b808faa5",
+    "ev-epa-gov-bd93249a",
+    "ev-esajournals-onlinelibrary-wiley-com-d58d721e",
+    "ev-fao-org-83d35d8b",
+    "ev-iucn-org-3ae5d904",
+    "ev-journals-plos-org-09c91ddc",
+    "ev-journals-plos-org-77132473",
+    "ev-livingplanetindex-org-a8449f9a",
+    "ev-livingplanetindex-org-db63f023",
+    "ev-nature-com-05b495fc",
+    "ev-nature-com-13bc5b39",
+    "ev-nature-com-214e0aeb",
+    "ev-nature-com-4150ae94",
+    "ev-nature-com-44a4afd5",
+    "ev-nature-com-48e1bb06",
+    "ev-nature-com-7c5cfbf5",
+    "ev-nature-com-8f05f6ed",
+    "ev-pubmed-ncbi-nlm-nih-gov-08f2ff8b",
+    "ev-pubmed-ncbi-nlm-nih-gov-15aae858",
+    "ev-pubmed-ncbi-nlm-nih-gov-18f849fb",
+    "ev-pubmed-ncbi-nlm-nih-gov-2d3a3229",
+    "ev-pubmed-ncbi-nlm-nih-gov-942f6943",
+    "ev-pubmed-ncbi-nlm-nih-gov-bd30100e",
+    "ev-pubmed-ncbi-nlm-nih-gov-e752cc52",
+    "ev-pubmed-ncbi-nlm-nih-gov-e8277e08",
+    "ev-science-org-477a26a7",
+    "ev-science-org-688c2d05",
+    "ev-science-org-f8f841d0",
+    "ev-usgs-gov-02a87a35",
+    "ev-usgs-gov-3f954744",
+    "ev-usgs-gov-711a8860",
+    "ev-usgs-gov-d071ed34",
+    "ev-usgs-gov-e0894193"
+   ]
+  },
+  {
+   "id": "fungus",
+   "canonicalName": "Fungi",
+   "aliases": [
+    "fungal kingdom",
+    "mycology"
+   ],
+   "definition": "A eukaryotic kingdom closer to animals than to plants, feeding by external digestion and central to decomposition and to plant nutrition.",
+   "category": "species_group",
+   "sections": [
+    "biology",
+    "ecology/soils"
+   ],
+   "matchTags": [
+    "fungi",
+    "mycorrhiza"
+   ],
+   "matchSlugs": [
+    "fungi-explained"
+   ],
+   "relatedEntities": [
+    "microorganism",
+    "soil"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "fungi-explained",
+    "soil-biology-and-the-soil-food-web"
+   ],
+   "evidenceIds": [
+    "ev-openknowledge-fao-org-4e621b27",
+    "ev-pmc-ncbi-nlm-nih-gov-0a3d5a13",
+    "ev-pmc-ncbi-nlm-nih-gov-519848c1",
+    "ev-pmc-ncbi-nlm-nih-gov-55848c0e",
+    "ev-pmc-ncbi-nlm-nih-gov-608a0352",
+    "ev-pmc-ncbi-nlm-nih-gov-6df11bb9",
+    "ev-pubmed-ncbi-nlm-nih-gov-002fbcd2",
+    "ev-pubmed-ncbi-nlm-nih-gov-14caac53",
+    "ev-pubmed-ncbi-nlm-nih-gov-198477eb",
+    "ev-pubmed-ncbi-nlm-nih-gov-46500995",
+    "ev-pubmed-ncbi-nlm-nih-gov-6e85f19b",
+    "ev-pubmed-ncbi-nlm-nih-gov-75a495a7",
+    "ev-pubmed-ncbi-nlm-nih-gov-ae150ee4",
+    "ev-pubmed-ncbi-nlm-nih-gov-be446801",
+    "ev-pubmed-ncbi-nlm-nih-gov-c79833cb",
+    "ev-who-int-cb2328ad"
+   ]
+  },
+  {
+   "id": "gene-expression",
+   "canonicalName": "Gene expression",
+   "aliases": [
+    "transcription",
+    "translation",
+    "gene regulation"
+   ],
+   "definition": "The process by which the information in a sequence becomes a functional product, and the regulation that lets identical genomes build different cells.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "gene-expression",
+    "transcription",
+    "epigenetics"
+   ],
+   "matchSlugs": [
+    "how-gene-expression-is-regulated",
+    "epigenetics-explained"
+   ],
+   "parentEntities": [
+    "dna"
+   ],
+   "relatedEntities": [
+    "genome",
+    "protein-synthesis"
+   ],
+   "glossaryId": "gene-expression",
+   "childEntities": [],
+   "relatedArticles": [
+    "epigenetics-explained",
+    "how-gene-expression-is-regulated"
+   ],
+   "evidenceIds": [
+    "ev-ensembl-org-4abe62b3",
+    "ev-genome-gov-6d1954a6",
+    "ev-genome-gov-7197e965",
+    "ev-medlineplus-gov-1cc692c5",
+    "ev-medlineplus-gov-fdacc420",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-nih-gov-07e4098a",
+    "ev-pmc-ncbi-nlm-nih-gov-1581695b",
+    "ev-pmc-ncbi-nlm-nih-gov-19b71fbf",
+    "ev-pmc-ncbi-nlm-nih-gov-35cc4f91",
+    "ev-pmc-ncbi-nlm-nih-gov-a460a830",
+    "ev-pmc-ncbi-nlm-nih-gov-b73b29f6",
+    "ev-pmc-ncbi-nlm-nih-gov-d7f3614b",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-60aef494",
+    "ev-pubmed-ncbi-nlm-nih-gov-f93af137",
+    "ev-who-int-4ac0af4c"
+   ]
+  },
+  {
+   "id": "genetic-drift",
+   "canonicalName": "Genetic drift",
+   "aliases": [
+    "drift",
+    "effective population size"
+   ],
+   "definition": "Change in allele frequency from sampling error in finite populations. Whether selection or drift dominates is set by effective population size.",
+   "category": "process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "genetic-drift",
+    "population-genetics"
+   ],
+   "matchSlugs": [
+    "genetic-drift-and-population-size"
+   ],
+   "parentEntities": [
+    "evolution"
+   ],
+   "relatedEntities": [
+    "natural-selection"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "evolution-explained",
+    "genetic-drift-and-population-size",
+    "genome-wide-association-studies-explained",
+    "mutation-types-and-rates",
+    "speciation-mechanisms"
+   ],
+   "evidenceIds": [
+    "ev-ebi-ac-uk-ec3a4e18",
+    "ev-genome-gov-02a4ef87",
+    "ev-genome-gov-4485e5b0",
+    "ev-genome-gov-5615b92f",
+    "ev-genome-gov-7c95e126",
+    "ev-genome-gov-7ccedee4",
+    "ev-genome-gov-9313a7f8",
+    "ev-medlineplus-gov-85df5d74",
+    "ev-pmc-ncbi-nlm-nih-gov-00e30672",
+    "ev-pmc-ncbi-nlm-nih-gov-0218b373",
+    "ev-pmc-ncbi-nlm-nih-gov-10745ba4",
+    "ev-pmc-ncbi-nlm-nih-gov-1cd25cee",
+    "ev-pmc-ncbi-nlm-nih-gov-1e9bcbe0",
+    "ev-pmc-ncbi-nlm-nih-gov-23494d78",
+    "ev-pmc-ncbi-nlm-nih-gov-2a365904",
+    "ev-pmc-ncbi-nlm-nih-gov-359b0c29",
+    "ev-pmc-ncbi-nlm-nih-gov-3ae1a0ad",
+    "ev-pmc-ncbi-nlm-nih-gov-4b7185c7",
+    "ev-pmc-ncbi-nlm-nih-gov-56c3ab4a",
+    "ev-pmc-ncbi-nlm-nih-gov-5957c853",
+    "ev-pmc-ncbi-nlm-nih-gov-680058ab",
+    "ev-pmc-ncbi-nlm-nih-gov-6dae02ee",
+    "ev-pmc-ncbi-nlm-nih-gov-882d7b0c",
+    "ev-pmc-ncbi-nlm-nih-gov-8e76f594",
+    "ev-pmc-ncbi-nlm-nih-gov-b3cd0161",
+    "ev-pmc-ncbi-nlm-nih-gov-c67d1eae",
+    "ev-pmc-ncbi-nlm-nih-gov-c9b89da5",
+    "ev-pmc-ncbi-nlm-nih-gov-d6a9a7be",
+    "ev-pmc-ncbi-nlm-nih-gov-dee2a3b3",
+    "ev-pmc-ncbi-nlm-nih-gov-ec2c3d19",
+    "ev-pmc-ncbi-nlm-nih-gov-f4fa4462",
+    "ev-pmc-ncbi-nlm-nih-gov-f6ba8d5c",
+    "ev-pubmed-ncbi-nlm-nih-gov-04c2d9af",
+    "ev-pubmed-ncbi-nlm-nih-gov-13675255",
+    "ev-pubmed-ncbi-nlm-nih-gov-3ad4604e",
+    "ev-pubmed-ncbi-nlm-nih-gov-949079e9",
+    "ev-pubmed-ncbi-nlm-nih-gov-a764579a",
+    "ev-pubmed-ncbi-nlm-nih-gov-f5aef3a6"
+   ]
+  },
+  {
+   "id": "genome",
+   "canonicalName": "Genome",
+   "aliases": [
+    "genomic sequence"
+   ],
+   "definition": "The complete genetic complement of an organism. Its size predicts almost nothing about complexity, a fact that took decades to become uncontroversial.",
+   "category": "gene_concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "genome",
+    "genomics"
+   ],
+   "matchSlugs": [
+    "what-is-a-genome"
+   ],
+   "parentEntities": [
+    "dna"
+   ],
+   "relatedEntities": [
+    "gene-expression",
+    "mutation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "single-cell-evo-devo",
+    "what-is-a-genome"
+   ],
+   "evidenceIds": [
+    "ev-journals-plos-org-c874ec90",
+    "ev-jun2026-archive-ensembl-org-90e53f20",
+    "ev-nature-com-48346271",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-pmc-ncbi-nlm-nih-gov-2988f694",
+    "ev-pmc-ncbi-nlm-nih-gov-5db1070f",
+    "ev-pmc-ncbi-nlm-nih-gov-96ec0bf1",
+    "ev-pmc-ncbi-nlm-nih-gov-d0d566e6",
+    "ev-pmc-ncbi-nlm-nih-gov-d3f702c8",
+    "ev-pmc-ncbi-nlm-nih-gov-e5b34b08",
+    "ev-pmc-ncbi-nlm-nih-gov-f67c0ff2",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-a1cbd23d",
+    "ev-science-org-365f60d5"
+   ]
+  },
+  {
+   "id": "genome-editing",
+   "canonicalName": "Genome editing",
+   "aliases": [
+    "CRISPR",
+    "gene editing"
+   ],
+   "definition": "Directed modification of a genomic sequence, most commonly by targeting a nuclease with a guide RNA and letting the cell's repair machinery finish the job.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "crispr",
+    "genome-editing",
+    "biotechnology",
+    "gene-editing",
+    "engineered-crops"
+   ],
+   "matchSlugs": [
+    "crispr-genome-editing-explained"
+   ],
+   "relatedEntities": [
+    "dna",
+    "genome"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "biotechnology-explained",
+    "biotechnology-in-agriculture-evidence",
+    "crispr-genome-editing-explained"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-24549583",
+    "ev-academic-oup-com-2a240b11",
+    "ev-bch-cbd-int-82e33ab3",
+    "ev-genome-gov-9420551d",
+    "ev-journals-plos-org-bb47522e",
+    "ev-nationalacademies-org-46cf4c66",
+    "ev-pmc-ncbi-nlm-nih-gov-00ae653e",
+    "ev-pmc-ncbi-nlm-nih-gov-16ec0a3a",
+    "ev-pmc-ncbi-nlm-nih-gov-2a90ee3c",
+    "ev-pmc-ncbi-nlm-nih-gov-2af3794f",
+    "ev-pmc-ncbi-nlm-nih-gov-5490a9f1",
+    "ev-pmc-ncbi-nlm-nih-gov-9479d83c",
+    "ev-pmc-ncbi-nlm-nih-gov-9cfda9e3",
+    "ev-pmc-ncbi-nlm-nih-gov-a398ff24",
+    "ev-pmc-ncbi-nlm-nih-gov-af46b3ae",
+    "ev-pmc-ncbi-nlm-nih-gov-e898d787",
+    "ev-publications-jrc-ec-europa-eu-2a1267bd",
+    "ev-pubmed-ncbi-nlm-nih-gov-d89f1193",
+    "ev-who-int-987a24df",
+    "ev-who-int-be960cdb"
+   ]
+  },
+  {
+   "id": "greenhouse-effect",
+   "canonicalName": "Greenhouse effect",
+   "aliases": [
+    "atmospheric greenhouse effect"
+   ],
+   "definition": "The warming that follows from an atmosphere that is more transparent to incoming sunlight than to outgoing infrared. Correctly explained through emission height and the lapse rate, not through a blanket.",
+   "category": "process",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "greenhouse-effect",
+    "radiative-transfer"
+   ],
+   "matchSlugs": [
+    "the-greenhouse-effect-physics",
+    "radiative-transfer-explained"
+   ],
+   "relatedEntities": [
+    "radiative-forcing",
+    "climate-feedback"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "radiative-transfer-explained",
+    "the-greenhouse-effect-physics",
+    "what-is-climate-change"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-4ebd61d0",
+    "ev-agupubs-onlinelibrary-wiley-com-db5285bf",
+    "ev-ceres-larc-nasa-gov-f692058e",
+    "ev-climate-copernicus-eu-e789bd69",
+    "ev-eea-europa-eu-fa4aa513",
+    "ev-giss-nasa-gov-86948b3d",
+    "ev-grc-nasa-gov-1ce77d2f",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-41fb314f",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-nature-com-4321a1f9",
+    "ev-ncei-noaa-gov-ae9af1c2",
+    "ev-osti-gov-e7207dfe",
+    "ev-physics-nist-gov-54041251",
+    "ev-physics-nist-gov-acfeac0d",
+    "ev-physics-nist-gov-ae9f65ab",
+    "ev-public-wmo-int-e907ecd7",
+    "ev-science-nasa-gov-08b67889",
+    "ev-science-nasa-gov-ad0324e0",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-webbook-nist-gov-7a49d97e",
+    "ev-who-int-f93f3734"
+   ]
+  },
+  {
+   "id": "habitat-fragmentation",
+   "canonicalName": "Habitat fragmentation",
+   "aliases": [
+    "fragmentation",
+    "habitat connectivity"
+   ],
+   "definition": "The breaking of continuous habitat into smaller separated pieces. Distinguished in the modern literature from habitat loss per se, a distinction that reverses some intuitions.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "habitat-fragmentation",
+    "connectivity"
+   ],
+   "matchSlugs": [
+    "habitat-fragmentation-metrics",
+    "habitat-fragmentation-and-connectivity"
+   ],
+   "relatedEntities": [
+    "biodiversity",
+    "conservation"
+   ],
+   "glossaryId": "habitat-fragmentation",
+   "childEntities": [],
+   "relatedArticles": [
+    "habitat-fragmentation-and-connectivity",
+    "habitat-fragmentation-metrics"
+   ],
+   "evidenceIds": [
+    "ev-annualreviews-org-40224948",
+    "ev-cbd-int-47b45422",
+    "ev-ipbes-net-860a7b04",
+    "ev-land-copernicus-eu-921c2dba",
+    "ev-nature-com-63ef27bf",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-org-24a7e31b",
+    "ev-science-org-365f60d5",
+    "ev-science-org-b024d3f6"
+   ]
+  },
+  {
+   "id": "heat-transfer",
+   "canonicalName": "Heat transfer",
+   "aliases": [
+    "conduction",
+    "convection",
+    "thermal radiation"
+   ],
+   "definition": "The three mechanisms by which thermal energy moves, each with a different dependence on temperature and geometry.",
+   "category": "process",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "heat-transfer",
+    "conduction",
+    "convection"
+   ],
+   "matchSlugs": [
+    "heat-transfer-conduction-convection-radiation"
+   ],
+   "parentEntities": [
+    "thermodynamics"
+   ],
+   "relatedEntities": [
+    "entropy",
+    "radiative-transfer"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "heat-transfer-conduction-convection-radiation"
+   ],
+   "evidenceIds": [
+    "ev-epa-gov-5f518d3a",
+    "ev-osti-gov-15ac4ba3",
+    "ev-physics-nist-gov-ae9f65ab",
+    "ev-pmc-ncbi-nlm-nih-gov-cb4df67d",
+    "ev-science-nasa-gov-08b67889",
+    "ev-trc-nist-gov-9dad3663"
+   ]
+  },
+  {
+   "id": "heavy-metal",
+   "canonicalName": "Heavy metal",
+   "aliases": [
+    "toxic metal",
+    "trace metal"
+   ],
+   "definition": "A metallic element toxic at low concentration, whose harm depends on chemical speciation rather than on total quantity.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "heavy-metals",
+    "mercury",
+    "lead"
+   ],
+   "matchSlugs": [
+    "heavy-metals-in-the-environment"
+   ],
+   "parentEntities": [
+    "pollution"
+   ],
+   "relatedEntities": [
+    "bioaccumulation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "heavy-metals-in-the-environment"
+   ],
+   "evidenceIds": [
+    "ev-epa-gov-0deb4bf6",
+    "ev-science-org-61cc14d4",
+    "ev-usgs-gov-47dc68e1",
+    "ev-who-int-23d57f64",
+    "ev-who-int-61eb3593",
+    "ev-who-int-71a17307",
+    "ev-who-int-75089c38"
+   ]
+  },
+  {
+   "id": "heritability",
+   "canonicalName": "Heritability",
+   "aliases": [
+    "h2"
+   ],
+   "definition": "The share of variation in a trait, within a specific population and environment, attributable to genetic variation. Not a measure of genetic determination, and the most misread statistic in biology.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "heritability",
+    "population-genetics",
+    "quantitative-genetics"
+   ],
+   "matchSlugs": [
+    "heritability-explained"
+   ],
+   "relatedEntities": [
+    "mutation",
+    "natural-selection"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "evolution-explained",
+    "genetic-drift-and-population-size",
+    "genome-wide-association-studies-explained",
+    "heritability-explained",
+    "mutation-types-and-rates",
+    "speciation-mechanisms"
+   ],
+   "evidenceIds": [
+    "ev-ebi-ac-uk-ec3a4e18",
+    "ev-genome-gov-02a4ef87",
+    "ev-genome-gov-4485e5b0",
+    "ev-genome-gov-5615b92f",
+    "ev-genome-gov-7c95e126",
+    "ev-genome-gov-7ccedee4",
+    "ev-genome-gov-9313a7f8",
+    "ev-medlineplus-gov-392681ee",
+    "ev-medlineplus-gov-85df5d74",
+    "ev-medlineplus-gov-ee086d8a",
+    "ev-pmc-ncbi-nlm-nih-gov-00e30672",
+    "ev-pmc-ncbi-nlm-nih-gov-0218b373",
+    "ev-pmc-ncbi-nlm-nih-gov-10745ba4",
+    "ev-pmc-ncbi-nlm-nih-gov-1cd25cee",
+    "ev-pmc-ncbi-nlm-nih-gov-1e9bcbe0",
+    "ev-pmc-ncbi-nlm-nih-gov-23494d78",
+    "ev-pmc-ncbi-nlm-nih-gov-2a365904",
+    "ev-pmc-ncbi-nlm-nih-gov-359b0c29",
+    "ev-pmc-ncbi-nlm-nih-gov-3ae1a0ad",
+    "ev-pmc-ncbi-nlm-nih-gov-4b7185c7",
+    "ev-pmc-ncbi-nlm-nih-gov-56c3ab4a",
+    "ev-pmc-ncbi-nlm-nih-gov-5957c853",
+    "ev-pmc-ncbi-nlm-nih-gov-680058ab",
+    "ev-pmc-ncbi-nlm-nih-gov-6dae02ee",
+    "ev-pmc-ncbi-nlm-nih-gov-882d7b0c",
+    "ev-pmc-ncbi-nlm-nih-gov-8e76f594",
+    "ev-pmc-ncbi-nlm-nih-gov-95fcd908",
+    "ev-pmc-ncbi-nlm-nih-gov-b3cd0161",
+    "ev-pmc-ncbi-nlm-nih-gov-c67d1eae",
+    "ev-pmc-ncbi-nlm-nih-gov-c9b89da5",
+    "ev-pmc-ncbi-nlm-nih-gov-d0390b21",
+    "ev-pmc-ncbi-nlm-nih-gov-d6a9a7be",
+    "ev-pmc-ncbi-nlm-nih-gov-dee2a3b3",
+    "ev-pmc-ncbi-nlm-nih-gov-ec2c3d19",
+    "ev-pmc-ncbi-nlm-nih-gov-f4fa4462",
+    "ev-pmc-ncbi-nlm-nih-gov-f6ba8d5c",
+    "ev-pubmed-ncbi-nlm-nih-gov-04c2d9af",
+    "ev-pubmed-ncbi-nlm-nih-gov-13675255",
+    "ev-pubmed-ncbi-nlm-nih-gov-37819e2e",
+    "ev-pubmed-ncbi-nlm-nih-gov-3ad4604e",
+    "ev-pubmed-ncbi-nlm-nih-gov-949079e9",
+    "ev-pubmed-ncbi-nlm-nih-gov-96f46b99",
+    "ev-pubmed-ncbi-nlm-nih-gov-a764579a",
+    "ev-pubmed-ncbi-nlm-nih-gov-d36c116c",
+    "ev-pubmed-ncbi-nlm-nih-gov-d3927ab3",
+    "ev-pubmed-ncbi-nlm-nih-gov-f5aef3a6"
+   ]
+  },
+  {
+   "id": "homeostasis",
+   "canonicalName": "Homeostasis",
+   "aliases": [
+    "physiological regulation",
+    "allostasis"
+   ],
+   "definition": "The maintenance of internal conditions within limits, by negative feedback around set points that are themselves adjustable.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "physiology",
+    "homeostasis",
+    "thermoregulation",
+    "circulation",
+    "cardiac-physiology",
+    "blood-pressure",
+    "endocrinology",
+    "hormone-receptors",
+    "feedback-regulation"
+   ],
+   "matchSlugs": [
+    "physiology-explained",
+    "thermoregulation-in-animals"
+   ],
+   "relatedEntities": [
+    "cell"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "circulation-and-the-heart",
+    "hormones-and-endocrine-signalling",
+    "physiology-explained",
+    "thermoregulation-in-animals"
+   ],
+   "evidenceIds": [
+    "ev-epa-gov-0a978341",
+    "ev-ncbi-nlm-nih-gov-154bf187",
+    "ev-ncbi-nlm-nih-gov-210c9cfb",
+    "ev-pmc-ncbi-nlm-nih-gov-1cca041b",
+    "ev-pmc-ncbi-nlm-nih-gov-1df5ca2f",
+    "ev-pmc-ncbi-nlm-nih-gov-24b71014",
+    "ev-pmc-ncbi-nlm-nih-gov-41527e8a",
+    "ev-pmc-ncbi-nlm-nih-gov-487c85e4",
+    "ev-pmc-ncbi-nlm-nih-gov-4cf40e78",
+    "ev-pmc-ncbi-nlm-nih-gov-5534f0f8",
+    "ev-pmc-ncbi-nlm-nih-gov-5bdd4920",
+    "ev-pmc-ncbi-nlm-nih-gov-5e396825",
+    "ev-pmc-ncbi-nlm-nih-gov-7964aff1",
+    "ev-pmc-ncbi-nlm-nih-gov-807de2ae",
+    "ev-pmc-ncbi-nlm-nih-gov-85874f5d",
+    "ev-pmc-ncbi-nlm-nih-gov-b4815fdf",
+    "ev-pmc-ncbi-nlm-nih-gov-cb5efaaa",
+    "ev-pmc-ncbi-nlm-nih-gov-d049aa6f",
+    "ev-pmc-ncbi-nlm-nih-gov-d27b0100",
+    "ev-pubmed-ncbi-nlm-nih-gov-25f54077",
+    "ev-pubmed-ncbi-nlm-nih-gov-3043a1fb",
+    "ev-pubmed-ncbi-nlm-nih-gov-353152e3",
+    "ev-pubmed-ncbi-nlm-nih-gov-7028ff25",
+    "ev-pubmed-ncbi-nlm-nih-gov-b953e753",
+    "ev-pubmed-ncbi-nlm-nih-gov-c9e38230",
+    "ev-pubmed-ncbi-nlm-nih-gov-d48109fd",
+    "ev-pubmed-ncbi-nlm-nih-gov-d6175abd",
+    "ev-pubmed-ncbi-nlm-nih-gov-dc9cbbc7",
+    "ev-who-int-4ab8de41",
+    "ev-who-int-712674c7"
+   ]
+  },
+  {
+   "id": "immune-system",
+   "canonicalName": "Immune system",
+   "aliases": [
+    "immunity",
+    "adaptive immunity"
+   ],
+   "definition": "A layered defence combining barriers, innate pattern recognition and an adaptive system that generates receptor diversity by somatic recombination.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "immunology",
+    "immune-system"
+   ],
+   "matchSlugs": [
+    "the-immune-system-explained"
+   ],
+   "relatedEntities": [
+    "cell",
+    "microorganism"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "the-immune-system-explained"
+   ],
+   "evidenceIds": [
+    "ev-ncbi-nlm-nih-gov-13c8647a",
+    "ev-ncbi-nlm-nih-gov-7568f488",
+    "ev-pmc-ncbi-nlm-nih-gov-438898fd",
+    "ev-pmc-ncbi-nlm-nih-gov-5833448e",
+    "ev-pmc-ncbi-nlm-nih-gov-7876f059",
+    "ev-pmc-ncbi-nlm-nih-gov-dd968926",
+    "ev-pmc-ncbi-nlm-nih-gov-fb35db7f",
+    "ev-who-int-ecff5a34"
+   ]
+  },
+  {
+   "id": "invasive-species",
+   "canonicalName": "Invasive species",
+   "aliases": [
+    "invasive alien species",
+    "biological invasion"
+   ],
+   "definition": "An introduced species that establishes, spreads and causes measurable harm. Most introduced species do not; intervention cost rises steeply with invasion stage.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "invasive-alien-species",
+    "biosecurity",
+    "eradication",
+    "biological-control",
+    "island-conservation"
+   ],
+   "relatedEntities": [
+    "conservation",
+    "biodiversity"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "invasive-species-management"
+   ],
+   "evidenceIds": [
+    "ev-cbd-int-17535fc8",
+    "ev-ipbes-net-31d1399f",
+    "ev-nature-com-d263dc0b",
+    "ev-pnas-org-905cd7cb",
+    "ev-pubmed-ncbi-nlm-nih-gov-6a02cbe3",
+    "ev-science-org-f65f0ef4"
+   ]
+  },
+  {
+   "id": "land-degradation",
+   "canonicalName": "Land degradation",
+   "aliases": [
+    "desertification"
+   ],
+   "definition": "A persistent reduction in the biological or economic productivity of land. Global estimates span an enormous range because definition, baseline and indicator all vary.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "land-degradation",
+    "desertification"
+   ],
+   "matchSlugs": [
+    "land-degradation-and-desertification",
+    "soil-erosion-processes-and-rates"
+   ],
+   "relatedEntities": [
+    "soil",
+    "ecological-restoration"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "ecological-restoration-evidence",
+    "land-degradation-and-desertification",
+    "soil-erosion-processes-and-rates"
+   ],
+   "evidenceIds": [
+    "ev-cbd-int-17535fc8",
+    "ev-eea-europa-eu-2b338f19",
+    "ev-fao-org-6dd552bb",
+    "ev-fao-org-9d05eeb7",
+    "ev-ipbes-net-0f15bb9d",
+    "ev-journals-plos-org-44c5382a",
+    "ev-nature-com-0fc81be4",
+    "ev-nature-com-3d25d6e8",
+    "ev-nature-com-fb3b0d53",
+    "ev-openknowledge-fao-org-2a0da203",
+    "ev-openknowledge-fao-org-4e621b27",
+    "ev-openknowledge-fao-org-de42e2c8",
+    "ev-pnas-org-d0c4221c",
+    "ev-pubmed-ncbi-nlm-nih-gov-54d25f06",
+    "ev-pubmed-ncbi-nlm-nih-gov-c3dea691",
+    "ev-unccd-int-86040f87",
+    "ev-unccd-int-8ea44e27",
+    "ev-unccd-int-a27735ac",
+    "ev-unccd-int-e87e8ebc"
+   ]
+  },
+  {
+   "id": "measurement-uncertainty",
+   "canonicalName": "Measurement uncertainty",
+   "aliases": [
+    "uncertainty",
+    "error analysis"
+   ],
+   "definition": "The quantified doubt attached to a measured value, without which a number is not a measurement. Type A and Type B evaluation answer different questions.",
+   "category": "scientific_method",
+   "sections": [
+    "physics",
+    "ecology",
+    "biology"
+   ],
+   "matchTags": [
+    "measurement-uncertainty",
+    "uncertainty",
+    "measurement",
+    "research-methods",
+    "meta-research",
+    "statistics"
+   ],
+   "matchSlugs": [
+    "measurement-uncertainty-explained"
+   ],
+   "relatedEntities": [
+    "scientific-method"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "attribution-science-and-its-uses",
+    "biodiversity-numbers-and-what-they-can-support",
+    "climate-models-projections-uncertainty",
+    "climate-projection-uncertainty-where-it-bites",
+    "climate-sensitivity-explained",
+    "dna-sequencing-technologies",
+    "earth-system-predictability-explained",
+    "earth-system-tipping-points",
+    "electromagnetic-spectrum-applications",
+    "essential-climate-variables-explained",
+    "extinction-rate-estimates-and-their-assumptions",
+    "forest-carbon-measurement",
+    "materials-physics-and-semiconductors",
+    "measurement-uncertainty-explained",
+    "microbiome-research-and-the-causal-gap",
+    "nature-based-solutions-and-the-evidence-behind-them",
+    "quantum-mechanics-fundamentals",
+    "remote-sensing-limitations-and-uncertainty",
+    "reproducibility-in-ecology-and-environmental-science",
+    "soil-carbon-crediting-meets-the-detection-limit",
+    "soil-carbon-measurement-and-uncertainty",
+    "uncertainty-lost-between-dataset-and-headline",
+    "what-satellites-cannot-see",
+    "why-two-credible-datasets-disagree"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-f92bd663",
+    "ev-aeronet-gsfc-nasa-gov-b99245a6",
+    "ev-agupubs-onlinelibrary-wiley-com-102ca4ea",
+    "ev-agupubs-onlinelibrary-wiley-com-98129a75",
+    "ev-agupubs-onlinelibrary-wiley-com-ec4dfdeb",
+    "ev-bipindicators-net-816db5de",
+    "ev-bipm-org-51ac2f38",
+    "ev-bipm-org-69ab2e96",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-cochranelibrary-com-00946c04",
+    "ev-cpc-ncep-noaa-gov-19303952",
+    "ev-daac-ornl-gov-843a7bc1",
+    "ev-doi-org-0c8705ad",
+    "ev-doi-org-539c551a",
+    "ev-doi-org-662480c9",
+    "ev-earthdata-nasa-gov-7239f9dd",
+    "ev-earthdata-nasa-gov-b52a579f",
+    "ev-earthdata-nasa-gov-d76ebdc0",
+    "ev-ecmwf-int-2c0830e3",
+    "ev-ecmwf-int-33e1439f",
+    "ev-energy-gov-3d2a7bea",
+    "ev-esa-int-d442582b",
+    "ev-esa-int-ffbc128f",
+    "ev-esd-copernicus-org-01279f9e",
+    "ev-essd-copernicus-org-17ec57f5",
+    "ev-essd-copernicus-org-525a004e",
+    "ev-essd-copernicus-org-87242af7",
+    "ev-fao-org-44cdd7ed",
+    "ev-files-ipbes-net-bc4e1917",
+    "ev-frontiersin-org-4d236d6b",
+    "ev-frontiersin-org-ffdb1d60",
+    "ev-gcos-wmo-int-bffc4027",
+    "ev-gcos-wmo-int-fd7ce707",
+    "ev-genome-gov-661814e1",
+    "ev-genome-gov-9420551d",
+    "ev-geobon-org-9cb1cb2a",
+    "ev-gmd-copernicus-org-859ba522",
+    "ev-gml-noaa-gov-4db4ef94",
+    "ev-hess-copernicus-org-2028caf4",
+    "ev-home-cern-574c6d89",
+    "ev-home-cern-9c775d46",
+    "ev-iopscience-iop-org-e0837b41",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-2fc84255",
+    "ev-ipcc-ch-41fb314f",
+    "ev-ipcc-ch-438048f6",
+    "ev-ipcc-ch-4dd04d4e",
+    "ev-ipcc-ch-c50290ba",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-ipcc-ch-f60975b1",
+    "ev-ipcc-nggip-iges-or-jp-bb5b134e",
+    "ev-iucn-org-1dda47e2",
+    "ev-iucn-org-c56505dd",
+    "ev-jcgm-bipm-org-f3e00e46",
+    "ev-journals-ametsoc-org-b32bdda3",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-journals-plos-org-bbd9b98c",
+    "ev-journals-plos-org-d6927e89",
+    "ev-journals-plos-org-e5e4e9ac",
+    "ev-mdpi-com-8acc2930",
+    "ev-metoffice-gov-uk-084d943a",
+    "ev-metoffice-gov-uk-4c0c8924",
+    "ev-nasa-gov-5878ac12",
+    "ev-nationalacademies-org-8ab0f29a",
+    "ev-nature-com-26ff8396",
+    "ev-nature-com-2af53711",
+    "ev-nature-com-3bc8c61e",
+    "ev-nature-com-3e721395",
+    "ev-nature-com-47e79f61",
+    "ev-nature-com-4e5f4cb4",
+    "ev-nature-com-5b0a84ec",
+    "ev-nature-com-5d8a479b",
+    "ev-nature-com-8f05f6ed",
+    "ev-nature-com-99ef88f6",
+    "ev-nature-com-a3ef65c2",
+    "ev-nature-com-aca3aefb",
+    "ev-nature-com-b663d633",
+    "ev-nature-com-d00c27bf",
+    "ev-nature-com-d5b737c2",
+    "ev-nature-com-decf0f80",
+    "ev-nature-com-e0e72642",
+    "ev-ncbi-nlm-nih-gov-1f604717",
+    "ev-ncei-noaa-gov-454eb6fa",
+    "ev-nih-gov-07e4098a",
+    "ev-nist-gov-07d2d64a",
+    "ev-nist-gov-0d56c283",
+    "ev-nist-gov-2c290417",
+    "ev-nist-gov-63336857",
+    "ev-nist-gov-99ae0147",
+    "ev-nist-gov-a38592db",
+    "ev-nist-gov-b4dac7fd",
+    "ev-nlr-gov-415c876d",
+    "ev-noaa-gov-78cff8fe",
+    "ev-noaa-gov-8473ab6a",
+    "ev-nsidc-org-26b31e82",
+    "ev-nsidc-org-a39b5c36",
+    "ev-oceanservice-noaa-gov-675f0408",
+    "ev-onlinelibrary-wiley-com-0c855db4",
+    "ev-openknowledge-fao-org-20918e55",
+    "ev-openknowledge-fao-org-2a0da203",
+    "ev-openknowledge-fao-org-3be1fd34",
+    "ev-openknowledge-fao-org-4d5b135e",
+    "ev-openknowledge-fao-org-81784af0",
+    "ev-openknowledge-fao-org-847c7376",
+    "ev-osti-gov-36c88d7a",
+    "ev-pdg-lbl-gov-e02605b9",
+    "ev-physics-nist-gov-16db0f6a",
+    "ev-physics-nist-gov-301d8eb2",
+    "ev-physics-nist-gov-31656671",
+    "ev-physics-nist-gov-43135424",
+    "ev-physics-nist-gov-4e1ffc83",
+    "ev-physics-nist-gov-7b61309f",
+    "ev-physics-nist-gov-7d946ba5",
+    "ev-pmc-ncbi-nlm-nih-gov-1175899a",
+    "ev-pmc-ncbi-nlm-nih-gov-1941df3a",
+    "ev-pmc-ncbi-nlm-nih-gov-1fc23e22",
+    "ev-pmc-ncbi-nlm-nih-gov-2e6d6acc",
+    "ev-pmc-ncbi-nlm-nih-gov-31beb637",
+    "ev-pmc-ncbi-nlm-nih-gov-48a08b6f",
+    "ev-pmc-ncbi-nlm-nih-gov-5b38c88e",
+    "ev-pmc-ncbi-nlm-nih-gov-6c9378fc",
+    "ev-pmc-ncbi-nlm-nih-gov-73546add",
+    "ev-pmc-ncbi-nlm-nih-gov-865ed7d3",
+    "ev-pmc-ncbi-nlm-nih-gov-96290ccd",
+    "ev-pmc-ncbi-nlm-nih-gov-96ec0bf1",
+    "ev-pmc-ncbi-nlm-nih-gov-bd2a5416",
+    "ev-pmc-ncbi-nlm-nih-gov-c75576ed",
+    "ev-pmc-ncbi-nlm-nih-gov-de77abab",
+    "ev-pmc-ncbi-nlm-nih-gov-fec2069a",
+    "ev-portals-iucn-org-a5cee9ce",
+    "ev-protectedplanet-net-29afa788",
+    "ev-pubmed-ncbi-nlm-nih-gov-07528e9d",
+    "ev-pubmed-ncbi-nlm-nih-gov-1d2e76b1",
+    "ev-pubmed-ncbi-nlm-nih-gov-31ed74aa",
+    "ev-pubmed-ncbi-nlm-nih-gov-41d5d684",
+    "ev-pubmed-ncbi-nlm-nih-gov-43d39ba7",
+    "ev-pubmed-ncbi-nlm-nih-gov-455d79f7",
+    "ev-pubmed-ncbi-nlm-nih-gov-4f709dca",
+    "ev-pubmed-ncbi-nlm-nih-gov-5b7e9fbe",
+    "ev-pubmed-ncbi-nlm-nih-gov-7716f935",
+    "ev-pubmed-ncbi-nlm-nih-gov-83cc8237",
+    "ev-pubmed-ncbi-nlm-nih-gov-8b509f46",
+    "ev-pubmed-ncbi-nlm-nih-gov-928e3a5d",
+    "ev-pubmed-ncbi-nlm-nih-gov-93235b7b",
+    "ev-pubmed-ncbi-nlm-nih-gov-9aafd467",
+    "ev-pubmed-ncbi-nlm-nih-gov-a5190e85",
+    "ev-pubmed-ncbi-nlm-nih-gov-a8f2590c",
+    "ev-pubmed-ncbi-nlm-nih-gov-b82a61e7",
+    "ev-pubmed-ncbi-nlm-nih-gov-c4ddc9dd",
+    "ev-pubmed-ncbi-nlm-nih-gov-f0474457",
+    "ev-pubmed-ncbi-nlm-nih-gov-f8527700",
+    "ev-research-fs-usda-gov-287cff36",
+    "ev-royalsocietypublishing-org-db4e059c",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-50b63dc1",
+    "ev-science-nasa-gov-5def4189",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-sealevel-nasa-gov-04874c89",
+    "ev-soil-copernicus-org-9ea4dc9c",
+    "ev-unccd-int-86040f87",
+    "ev-unep-org-b0f403ba",
+    "ev-usgs-gov-6c46fe07",
+    "ev-usgs-gov-b074ae59",
+    "ev-verra-org-14912b95",
+    "ev-wcrp-climate-org-2a1c7487",
+    "ev-wcrp-cmip-org-194a298d",
+    "ev-who-int-4ac0af4c",
+    "ev-wmo-int-0ffe3704",
+    "ev-wmo-int-3d96c5c4",
+    "ev-wmo-int-c1d122fa",
+    "ev-worldweatherattribution-org-262a53ab",
+    "ev-worldweatherattribution-org-5da4acfb",
+    "ev-wwf-org-uk-dc82fd6e"
+   ]
+  },
+  {
+   "id": "microbial-biogeochemistry",
+   "canonicalName": "Microbial biogeochemistry",
+   "aliases": [
+    "microbial element cycling"
+   ],
+   "definition": "The microbially mediated transformations that close the nitrogen, sulfur and carbon cycles, including nitrogen fixation, methanogenesis and methanotrophy.",
+   "category": "biological_process",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "biogeochemistry",
+    "microbial-biogeochemistry"
+   ],
+   "matchSlugs": [
+    "microbial-biogeochemistry"
+   ],
+   "relatedEntities": [
+    "microorganism",
+    "nitrogen-cycle",
+    "carbon-cycle"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "microbial-biogeochemistry"
+   ],
+   "evidenceIds": [
+    "ev-essd-copernicus-org-aa310d3b",
+    "ev-globalcarbonproject-org-32c0748e",
+    "ev-gml-noaa-gov-3aa31bb7",
+    "ev-gml-noaa-gov-e36214ef",
+    "ev-pmc-ncbi-nlm-nih-gov-bb0839f1",
+    "ev-pmc-ncbi-nlm-nih-gov-bba3ee28"
+   ]
+  },
+  {
+   "id": "microbiome",
+   "canonicalName": "Microbiome",
+   "aliases": [
+    "microbial community",
+    "host-microbe interaction"
+   ],
+   "definition": "The community of microorganisms in a defined environment. Composition is cheap to measure and causation is not, which is the field's central methodological problem.",
+   "category": "concept",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "microbiome",
+    "microbial-ecology"
+   ],
+   "matchSlugs": [
+    "microbiomes-and-host-microbe-interactions",
+    "soil-microbiome-regenerative-agriculture"
+   ],
+   "relatedEntities": [
+    "microorganism",
+    "soil"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "coral-microbiome-bleaching-resistance",
+    "microbiology-explained",
+    "microbiome-research-and-the-causal-gap",
+    "microbiomes-and-host-microbe-interactions",
+    "soil-microbiome-regenerative-agriculture"
+   ],
+   "evidenceIds": [
+    "ev-cochranelibrary-com-00946c04",
+    "ev-coralreefwatch-noaa-gov-2eeb9c6d",
+    "ev-coralreefwatch-noaa-gov-b6e1c586",
+    "ev-eea-europa-eu-5ecc0193",
+    "ev-frontiersin-org-febdd8c2",
+    "ev-genome-gov-2dc7ba47",
+    "ev-journals-plos-org-2bef65a3",
+    "ev-nature-com-2af53711",
+    "ev-nature-com-3e721395",
+    "ev-nature-com-48346271",
+    "ev-nature-com-decf0f80",
+    "ev-ncbi-nlm-nih-gov-5032b8fb",
+    "ev-pmc-ncbi-nlm-nih-gov-07dc679c",
+    "ev-pmc-ncbi-nlm-nih-gov-1175899a",
+    "ev-pmc-ncbi-nlm-nih-gov-1fc23e22",
+    "ev-pmc-ncbi-nlm-nih-gov-21b647db",
+    "ev-pmc-ncbi-nlm-nih-gov-221a6e6c",
+    "ev-pmc-ncbi-nlm-nih-gov-3eb069ea",
+    "ev-pmc-ncbi-nlm-nih-gov-43316207",
+    "ev-pmc-ncbi-nlm-nih-gov-7b219949",
+    "ev-pmc-ncbi-nlm-nih-gov-a50b8955",
+    "ev-pmc-ncbi-nlm-nih-gov-b42aba51",
+    "ev-pmc-ncbi-nlm-nih-gov-b809000f",
+    "ev-pmc-ncbi-nlm-nih-gov-e589f9e6",
+    "ev-pmc-ncbi-nlm-nih-gov-e5947f24",
+    "ev-pmc-ncbi-nlm-nih-gov-f1495781",
+    "ev-pmc-ncbi-nlm-nih-gov-fdfa2169",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-5b7e9fbe",
+    "ev-pubmed-ncbi-nlm-nih-gov-6d85d4fe",
+    "ev-pubmed-ncbi-nlm-nih-gov-93235b7b",
+    "ev-pubmed-ncbi-nlm-nih-gov-a5190e85",
+    "ev-science-org-365f60d5",
+    "ev-unep-org-b0f403ba"
+   ]
+  },
+  {
+   "id": "microorganism",
+   "canonicalName": "Microorganism",
+   "aliases": [
+    "microbe",
+    "bacteria",
+    "archaea"
+   ],
+   "definition": "Organisms below the resolution of the unaided eye, whose metabolic range far exceeds that of animals and plants and which run most of the planet's element cycling.",
+   "category": "species_group",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "microbiology",
+    "bacteria",
+    "archaea"
+   ],
+   "matchSlugs": [
+    "microbiology-explained",
+    "bacteria-and-archaea-explained"
+   ],
+   "relatedEntities": [
+    "microbiome",
+    "virus",
+    "fungus",
+    "microbial-biogeochemistry"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "antibiotic-resistance-evolution-mechanisms",
+    "bacteria-and-archaea-explained",
+    "microbiology-explained",
+    "the-tree-of-life-and-domains"
+   ],
+   "evidenceIds": [
+    "ev-cdc-gov-6544af21",
+    "ev-journals-plos-org-2bef65a3",
+    "ev-ncbi-nlm-nih-gov-5032b8fb",
+    "ev-ncbi-nlm-nih-gov-663c72fc",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-nih-gov-07e4098a",
+    "ev-pmc-ncbi-nlm-nih-gov-1c1bce19",
+    "ev-pmc-ncbi-nlm-nih-gov-1c423a06",
+    "ev-pmc-ncbi-nlm-nih-gov-2e3f6da6",
+    "ev-pmc-ncbi-nlm-nih-gov-55926847",
+    "ev-pmc-ncbi-nlm-nih-gov-5668c09d",
+    "ev-pmc-ncbi-nlm-nih-gov-7b219949",
+    "ev-pmc-ncbi-nlm-nih-gov-7ede3798",
+    "ev-pmc-ncbi-nlm-nih-gov-852a1f40",
+    "ev-pmc-ncbi-nlm-nih-gov-88338dc8",
+    "ev-pmc-ncbi-nlm-nih-gov-8b1f37e7",
+    "ev-pmc-ncbi-nlm-nih-gov-8cbca6f3",
+    "ev-pmc-ncbi-nlm-nih-gov-a50b8955",
+    "ev-pmc-ncbi-nlm-nih-gov-a7daaad7",
+    "ev-pmc-ncbi-nlm-nih-gov-ac181f42",
+    "ev-pmc-ncbi-nlm-nih-gov-b809000f",
+    "ev-pmc-ncbi-nlm-nih-gov-dc3896b8",
+    "ev-pmc-ncbi-nlm-nih-gov-e589f9e6",
+    "ev-pmc-ncbi-nlm-nih-gov-e5947f24",
+    "ev-pmc-ncbi-nlm-nih-gov-f1495781",
+    "ev-pubmed-ncbi-nlm-nih-gov-14472244",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-6d85d4fe",
+    "ev-pubmed-ncbi-nlm-nih-gov-c1d071de",
+    "ev-pubmed-ncbi-nlm-nih-gov-d470bff6",
+    "ev-science-org-365f60d5",
+    "ev-who-int-4ac0af4c"
+   ]
+  },
+  {
+   "id": "microplastic",
+   "canonicalName": "Microplastic",
+   "aliases": [
+    "plastic particle"
+   ],
+   "definition": "Plastic fragments below a size threshold that varies by study. Environmental occurrence is well documented; population-level effects much less so.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "microplastics",
+    "plastic-pollution"
+   ],
+   "matchSlugs": [
+    "microplastics-evidence-and-uncertainty",
+    "marine-plastic-pollution-evidence"
+   ],
+   "parentEntities": [
+    "pollution"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "marine-plastic-pollution-evidence",
+    "microplastics-evidence-and-uncertainty"
+   ],
+   "evidenceIds": [
+    "ev-eea-europa-eu-180174df",
+    "ev-esajournals-onlinelibrary-wiley-com-cd7f39b8",
+    "ev-journals-plos-org-38181dc6",
+    "ev-journals-plos-org-cf64dc11",
+    "ev-nature-com-233dc9c4",
+    "ev-nature-com-6419d06b",
+    "ev-oceanservice-noaa-gov-67a1a86d",
+    "ev-oceanservice-noaa-gov-6ae06fbd",
+    "ev-pnas-org-628e60cb",
+    "ev-pubmed-ncbi-nlm-nih-gov-609b52eb",
+    "ev-pubmed-ncbi-nlm-nih-gov-da18519a",
+    "ev-science-org-1687fdb3",
+    "ev-science-org-a511402c",
+    "ev-science-org-b992e152",
+    "ev-who-int-1868f2c9",
+    "ev-who-int-48b0abf8"
+   ]
+  },
+  {
+   "id": "mutation",
+   "canonicalName": "Mutation",
+   "aliases": [
+    "genetic variation",
+    "sequence change"
+   ],
+   "definition": "A change in a nucleotide sequence. The raw material of evolution, now measured directly per generation rather than inferred.",
+   "category": "gene_concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "mutation",
+    "genetic-variation"
+   ],
+   "matchSlugs": [
+    "mutation-types-and-rates"
+   ],
+   "parentEntities": [
+    "dna"
+   ],
+   "relatedEntities": [
+    "natural-selection",
+    "genetic-drift"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "mutation-types-and-rates"
+   ],
+   "evidenceIds": [
+    "ev-medlineplus-gov-85df5d74",
+    "ev-pmc-ncbi-nlm-nih-gov-00e30672",
+    "ev-pmc-ncbi-nlm-nih-gov-0218b373",
+    "ev-pmc-ncbi-nlm-nih-gov-10745ba4",
+    "ev-pmc-ncbi-nlm-nih-gov-1cd25cee",
+    "ev-pmc-ncbi-nlm-nih-gov-6dae02ee",
+    "ev-pmc-ncbi-nlm-nih-gov-c67d1eae",
+    "ev-pubmed-ncbi-nlm-nih-gov-13675255"
+   ]
+  },
+  {
+   "id": "natural-selection",
+   "canonicalName": "Natural selection",
+   "aliases": [
+    "selection",
+    "adaptation"
+   ],
+   "definition": "Differential reproduction of heritable variants. Follows deductively from three conditions, which is why the difficulty is always empirical rather than logical.",
+   "category": "process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "natural-selection",
+    "adaptation",
+    "selection"
+   ],
+   "matchSlugs": [
+    "natural-selection-and-adaptation"
+   ],
+   "parentEntities": [
+    "evolution"
+   ],
+   "relatedEntities": [
+    "mutation",
+    "heritability"
+   ],
+   "glossaryId": "natural-selection",
+   "childEntities": [],
+   "relatedArticles": [
+    "adaptation-under-rapid-environmental-change",
+    "convergent-evolution-explained",
+    "evolution-explained",
+    "natural-selection-and-adaptation"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-456c1861",
+    "ev-doi-org-66c9a2f1",
+    "ev-doi-org-bfa0a72e",
+    "ev-genome-gov-729f2b1b",
+    "ev-genome-gov-7c95e126",
+    "ev-genome-gov-9313a7f8",
+    "ev-ipcc-ch-438048f6",
+    "ev-nature-com-13e603ca",
+    "ev-pmc-ncbi-nlm-nih-gov-1d1d1132",
+    "ev-pmc-ncbi-nlm-nih-gov-202c37cc",
+    "ev-pmc-ncbi-nlm-nih-gov-3c2c6c8b",
+    "ev-pmc-ncbi-nlm-nih-gov-422c75fd",
+    "ev-pmc-ncbi-nlm-nih-gov-49da7c62",
+    "ev-pmc-ncbi-nlm-nih-gov-4b7185c7",
+    "ev-pmc-ncbi-nlm-nih-gov-4cd84284",
+    "ev-pmc-ncbi-nlm-nih-gov-5d455d8d",
+    "ev-pmc-ncbi-nlm-nih-gov-83499ab0",
+    "ev-pmc-ncbi-nlm-nih-gov-8712b761",
+    "ev-pmc-ncbi-nlm-nih-gov-882d7b0c",
+    "ev-pmc-ncbi-nlm-nih-gov-8e76f594",
+    "ev-pmc-ncbi-nlm-nih-gov-a8d70e78",
+    "ev-pmc-ncbi-nlm-nih-gov-b6b77075",
+    "ev-pmc-ncbi-nlm-nih-gov-c67d1eae",
+    "ev-pmc-ncbi-nlm-nih-gov-ea56013b",
+    "ev-pmc-ncbi-nlm-nih-gov-ec2c3d19",
+    "ev-pubmed-ncbi-nlm-nih-gov-2d3e18db",
+    "ev-pubmed-ncbi-nlm-nih-gov-77bc1f5e",
+    "ev-pubmed-ncbi-nlm-nih-gov-9bc8d074",
+    "ev-pubmed-ncbi-nlm-nih-gov-baee57c1",
+    "ev-pubmed-ncbi-nlm-nih-gov-f5aef3a6"
+   ]
+  },
+  {
+   "id": "nervous-system",
+   "canonicalName": "Nervous system",
+   "aliases": [
+    "neuron",
+    "neuroscience",
+    "action potential"
+   ],
+   "definition": "Signalling by controlled ion movement across selectively permeable membranes, and the networks that behaviour emerges from.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "neuroscience",
+    "action-potential",
+    "connectomics",
+    "neurons"
+   ],
+   "relatedEntities": [
+    "cell",
+    "homeostasis"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "nervous-systems-and-neurons"
+   ],
+   "evidenceIds": [
+    "ev-ncbi-nlm-nih-gov-4b3e165e",
+    "ev-ninds-nih-gov-42be0de3",
+    "ev-pmc-ncbi-nlm-nih-gov-ac7b9727",
+    "ev-pubmed-ncbi-nlm-nih-gov-03508164",
+    "ev-pubmed-ncbi-nlm-nih-gov-4ded9415",
+    "ev-pubmed-ncbi-nlm-nih-gov-55a42292",
+    "ev-pubmed-ncbi-nlm-nih-gov-d01794aa",
+    "ev-pubmed-ncbi-nlm-nih-gov-de878ee2",
+    "ev-pubmed-ncbi-nlm-nih-gov-e12a70fa",
+    "ev-royalsocietypublishing-org-e79faa84"
+   ]
+  },
+  {
+   "id": "nitrogen-cycle",
+   "canonicalName": "Nitrogen cycle",
+   "aliases": [
+    "reactive nitrogen",
+    "nitrogen cascade"
+   ],
+   "definition": "The conversion of nitrogen between its inert atmospheric form and the reactive forms life can use, through fixation, nitrification, denitrification and anammox.",
+   "category": "process",
+   "sections": [
+    "ecology",
+    "biology"
+   ],
+   "matchTags": [
+    "nitrogen-cycle",
+    "reactive-nitrogen",
+    "eutrophication"
+   ],
+   "matchSlugs": [
+    "nitrogen-cycle-explained",
+    "nitrogen-pollution-and-eutrophication"
+   ],
+   "parentEntities": [
+    "biogeochemical-cycle"
+   ],
+   "relatedEntities": [
+    "eutrophication",
+    "microbial-biogeochemistry"
+   ],
+   "glossaryId": "nitrogen-cycle",
+   "childEntities": [],
+   "relatedArticles": [
+    "lake-ecology-and-eutrophication",
+    "microbial-biogeochemistry",
+    "nitrogen-cycle-explained",
+    "nitrogen-pollution-and-eutrophication",
+    "ocean-deoxygenation-and-dead-zones"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-57abab38",
+    "ev-agupubs-onlinelibrary-wiley-com-5838c232",
+    "ev-coastalscience-noaa-gov-7975a7b2",
+    "ev-eea-europa-eu-75f96c3a",
+    "ev-eea-europa-eu-b5e19b12",
+    "ev-eea-europa-eu-f9e9eaae",
+    "ev-epa-gov-09bb66d7",
+    "ev-epa-gov-b76f7901",
+    "ev-essd-copernicus-org-aa310d3b",
+    "ev-fao-org-6ca65f33",
+    "ev-globalcarbonproject-org-32c0748e",
+    "ev-gml-noaa-gov-3aa31bb7",
+    "ev-gml-noaa-gov-e36214ef",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-c35ffd86",
+    "ev-nature-com-7c5cfbf5",
+    "ev-nature-com-969c7da7",
+    "ev-noaa-gov-cc47fd26",
+    "ev-oceanservice-noaa-gov-72651ba8",
+    "ev-pmc-ncbi-nlm-nih-gov-570ec5b9",
+    "ev-pmc-ncbi-nlm-nih-gov-7b196ba7",
+    "ev-pmc-ncbi-nlm-nih-gov-bb0839f1",
+    "ev-pmc-ncbi-nlm-nih-gov-bba3ee28",
+    "ev-pmc-ncbi-nlm-nih-gov-e302f7cd",
+    "ev-pnas-org-be670935",
+    "ev-pubmed-ncbi-nlm-nih-gov-15aae858",
+    "ev-pubmed-ncbi-nlm-nih-gov-942f6943",
+    "ev-pubmed-ncbi-nlm-nih-gov-e752cc52",
+    "ev-science-org-688c2d05",
+    "ev-science-org-8e83c13d",
+    "ev-science-org-ea1cbcd1",
+    "ev-science-org-f318e5f0",
+    "ev-unep-org-b0f403ba",
+    "ev-usgs-gov-3f954744",
+    "ev-usgs-gov-d071ed34",
+    "ev-wmo-int-ab0f3a6d"
+   ]
+  },
+  {
+   "id": "nuclear-energy",
+   "canonicalName": "Nuclear energy",
+   "aliases": [
+    "fission",
+    "fusion",
+    "binding energy"
+   ],
+   "definition": "Energy released when nuclear binding changes, by splitting heavy nuclei or joining light ones. Both follow from one binding-energy curve.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "nuclear",
+    "fission",
+    "fusion"
+   ],
+   "matchSlugs": [
+    "atomic-and-nuclear-physics-explained",
+    "nuclear-fission-and-reactors",
+    "nuclear-fusion-fundamentals"
+   ],
+   "relatedEntities": [
+    "radioactivity",
+    "energy-system"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "atomic-and-nuclear-physics-explained",
+    "nuclear-fission-and-reactors",
+    "nuclear-fusion-fundamentals"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-12a2a324",
+    "ev-doi-org-3e36c0da",
+    "ev-doi-org-880e0f3f",
+    "ev-doi-org-e5155d6b",
+    "ev-eia-gov-07c6a855",
+    "ev-eia-gov-7f02d2bb",
+    "ev-energy-gov-12237b75",
+    "ev-energy-gov-6d02dc81",
+    "ev-energy-gov-e0af36d6",
+    "ev-euro-fusion-org-ed518995",
+    "ev-iter-org-1f0c0575",
+    "ev-iter-org-970fcf29",
+    "ev-iter-org-bc62db58",
+    "ev-iter-org-d03ce8cc",
+    "ev-iter-org-fde03979",
+    "ev-lasers-llnl-gov-849a70d8",
+    "ev-llnl-gov-bd8d3558",
+    "ev-pdg-lbl-gov-e02605b9",
+    "ev-physics-nist-gov-0551aa65",
+    "ev-physics-nist-gov-31656671",
+    "ev-physics-nist-gov-8826ee2d",
+    "ev-pmc-ncbi-nlm-nih-gov-3f6b93fe",
+    "ev-www-nds-iaea-org-16bb8c07",
+    "ev-www-nds-iaea-org-1c9beed2"
+   ]
+  },
+  {
+   "id": "ocean",
+   "canonicalName": "Ocean",
+   "aliases": [
+    "marine environment"
+   ],
+   "definition": "The largest habitat on Earth, structured by density into layers that exchange slowly. Under-observed relative to the atmosphere until the Argo era.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "oceans",
+    "marine-science",
+    "ocean-circulation",
+    "deep-sea",
+    "fisheries",
+    "stock-assessment",
+    "marine-management"
+   ],
+   "matchSlugs": [
+    "ocean-science-explained",
+    "ocean-circulation-and-climate"
+   ],
+   "parentEntities": [
+    "ecosystem"
+   ],
+   "relatedEntities": [
+    "ocean-acidification",
+    "coral-reef",
+    "primary-production"
+   ],
+   "childEntities": [
+    "coral-reef"
+   ],
+   "relatedArticles": [
+    "deep-sea-ecosystems",
+    "el-nino-la-nina-enso-explained",
+    "fisheries-science-and-stock-assessment",
+    "marine-food-webs-and-productivity",
+    "ocean-acidification-explained",
+    "ocean-circulation-and-climate",
+    "ocean-color-observations",
+    "ocean-science-explained",
+    "satellite-altimetry-explained"
+   ],
+   "evidenceIds": [
+    "ev-aoml-noaa-gov-3c1f4a67",
+    "ev-climate-gov-5ad4c8be",
+    "ev-climate-gov-6db12b19",
+    "ev-cpc-ncep-noaa-gov-19303952",
+    "ev-earthdata-nasa-gov-d76ebdc0",
+    "ev-eea-europa-eu-8cef167d",
+    "ev-esa-int-042cde5c",
+    "ev-fisheries-noaa-gov-ac0533f9",
+    "ev-fisheries-noaa-gov-d1aefe88",
+    "ev-ices-dk-c6f0ae62",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-28aac392",
+    "ev-ipcc-ch-29aac525",
+    "ev-ipcc-ch-2caac9de",
+    "ev-journals-plos-org-5ed196f8",
+    "ev-journals-plos-org-c2f11e92",
+    "ev-marine-copernicus-eu-88b75c4d",
+    "ev-nature-com-1568e7af",
+    "ev-nature-com-1ce72a49",
+    "ev-nature-com-55f32b23",
+    "ev-nature-com-5f782252",
+    "ev-nature-com-6cddd244",
+    "ev-nature-com-a0520f7a",
+    "ev-nature-com-e2b47d2a",
+    "ev-nesdis-noaa-gov-5c5f1718",
+    "ev-noaa-gov-78cff8fe",
+    "ev-oceanacidification-noaa-gov-759e6847",
+    "ev-oceanexplorer-noaa-gov-4874360d",
+    "ev-oceanexplorer-noaa-gov-83e71762",
+    "ev-oceanexplorer-noaa-gov-9070fb56",
+    "ev-oceanexplorer-noaa-gov-e64e88f6",
+    "ev-oceanservice-noaa-gov-1ed38f12",
+    "ev-oceanservice-noaa-gov-675f0408",
+    "ev-oceanservice-noaa-gov-75e248af",
+    "ev-oceanservice-noaa-gov-866f8643",
+    "ev-oceanservice-noaa-gov-9ab82537",
+    "ev-oceanservice-noaa-gov-df209921",
+    "ev-oceanservice-noaa-gov-fc5b940f",
+    "ev-openknowledge-fao-org-825f379c",
+    "ev-pmel-noaa-gov-2e3f8633",
+    "ev-pnas-org-314da08f",
+    "ev-pnas-org-c3396d24",
+    "ev-pubmed-ncbi-nlm-nih-gov-34158ee7",
+    "ev-pubmed-ncbi-nlm-nih-gov-67e01cbb",
+    "ev-pubmed-ncbi-nlm-nih-gov-9a3be8b6",
+    "ev-pubmed-ncbi-nlm-nih-gov-af2d9d90",
+    "ev-pubmed-ncbi-nlm-nih-gov-df2cd42b",
+    "ev-pubmed-ncbi-nlm-nih-gov-f2973cbc",
+    "ev-pubmed-ncbi-nlm-nih-gov-f426c4ba",
+    "ev-pubmed-ncbi-nlm-nih-gov-fcb90750",
+    "ev-science-nasa-gov-32a3d11a",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-50b63dc1"
+   ]
+  },
+  {
+   "id": "ocean-acidification",
+   "canonicalName": "Ocean acidification",
+   "aliases": [
+    "carbonate chemistry change"
+   ],
+   "definition": "The fall in seawater pH and carbonate saturation caused by the ocean absorbing atmospheric CO2. Chemically precise; the biological consequences vary sharply by taxon.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "ocean-acidification",
+    "carbonate-chemistry"
+   ],
+   "matchSlugs": [
+    "ocean-acidification-explained"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "coral-reef"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "ocean-acidification-explained"
+   ],
+   "evidenceIds": [
+    "ev-eea-europa-eu-8cef167d",
+    "ev-ipcc-ch-28aac392",
+    "ev-journals-plos-org-5ed196f8",
+    "ev-journals-plos-org-c2f11e92",
+    "ev-oceanacidification-noaa-gov-759e6847",
+    "ev-oceanservice-noaa-gov-866f8643",
+    "ev-pubmed-ncbi-nlm-nih-gov-f426c4ba"
+   ]
+  },
+  {
+   "id": "particle-physics",
+   "canonicalName": "Particle physics",
+   "aliases": [
+    "Standard Model",
+    "fundamental particles"
+   ],
+   "definition": "The study of the fundamental constituents of matter and their interactions. The Standard Model accounts for every laboratory measurement and about five per cent of the universe.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "particle-physics",
+    "standard-model",
+    "higgs-boson",
+    "neutrinos",
+    "dark-matter"
+   ],
+   "relatedEntities": [
+    "quantum-mechanics",
+    "nuclear-energy"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "particle-physics-fundamentals"
+   ],
+   "evidenceIds": [
+    "ev-esa-int-240a140c",
+    "ev-home-cern-20e38def",
+    "ev-home-cern-9c775d46",
+    "ev-home-cern-bd0ca79b",
+    "ev-home-cern-c89abf1a",
+    "ev-nist-gov-99ae0147",
+    "ev-nobelprize-org-60bd05b7",
+    "ev-pdg-lbl-gov-a8405795",
+    "ev-pdg-lbl-gov-e02605b9",
+    "ev-science-nasa-gov-cc1aadce"
+   ]
+  },
+  {
+   "id": "particulate-matter",
+   "canonicalName": "Particulate matter",
+   "aliases": [
+    "PM2.5",
+    "PM10",
+    "aerosol"
+   ],
+   "definition": "Airborne solid and liquid particles classified by aerodynamic diameter. The environmental exposure with the strongest epidemiological evidence base.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "particulate-matter",
+    "air-quality",
+    "pm25"
+   ],
+   "matchSlugs": [
+    "particulate-matter-and-health-evidence",
+    "air-quality-measurement-and-standards"
+   ],
+   "parentEntities": [
+    "pollution"
+   ],
+   "relatedEntities": [
+    "air-quality"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "air-quality-measurement-and-standards",
+    "particulate-matter-and-health-evidence"
+   ],
+   "evidenceIds": [
+    "ev-airnow-gov-06d1e1b6",
+    "ev-eea-europa-eu-69d3b2b4",
+    "ev-environment-ec-europa-eu-036198d5",
+    "ev-environment-ec-europa-eu-5774cc11",
+    "ev-epa-gov-116702e6",
+    "ev-epa-gov-11cd5fac",
+    "ev-epa-gov-1811e4e8",
+    "ev-epa-gov-329d6226",
+    "ev-epa-gov-56fbddc1",
+    "ev-epa-gov-86b1c9c1",
+    "ev-epa-gov-f80d429e",
+    "ev-pmc-ncbi-nlm-nih-gov-30bc942c",
+    "ev-pmc-ncbi-nlm-nih-gov-ae87df49",
+    "ev-pmc-ncbi-nlm-nih-gov-daec8923",
+    "ev-pmc-ncbi-nlm-nih-gov-ff771916",
+    "ev-pubmed-ncbi-nlm-nih-gov-42aa70d3",
+    "ev-who-int-154a122d",
+    "ev-who-int-5e1ad48c",
+    "ev-who-int-a2c39d11"
+   ]
+  },
+  {
+   "id": "persistent-organic-pollutant",
+   "canonicalName": "Persistent organic pollutant",
+   "aliases": [
+    "POP",
+    "PFAS"
+   ],
+   "definition": "A synthetic compound that resists degradation, accumulates in tissue and travels far from its source. The reason a treaty regime exists for a class of chemicals.",
+   "category": "pollutant",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "pops",
+    "persistent-organic-pollutants",
+    "pfas"
+   ],
+   "matchSlugs": [
+    "persistent-organic-pollutants"
+   ],
+   "parentEntities": [
+    "pollution"
+   ],
+   "relatedEntities": [
+    "bioaccumulation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "persistent-organic-pollutants"
+   ],
+   "evidenceIds": [
+    "ev-chm-pops-int-85f083b4",
+    "ev-epa-gov-4f65c49d",
+    "ev-epa-gov-5df3ad8d",
+    "ev-pops-int-dce2afca",
+    "ev-pubmed-ncbi-nlm-nih-gov-a689e6d0",
+    "ev-who-int-e060ba12"
+   ]
+  },
+  {
+   "id": "photosynthesis",
+   "canonicalName": "Photosynthesis",
+   "aliases": [
+    "carbon fixation",
+    "light reactions"
+   ],
+   "definition": "The conversion of light energy into chemical energy, splitting water and fixing carbon dioxide. A photochemical device bolted to a comparatively slow enzyme.",
+   "category": "biological_process",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "photosynthesis"
+   ],
+   "matchSlugs": [
+    "photosynthesis-explained"
+   ],
+   "relatedEntities": [
+    "cell",
+    "primary-production",
+    "carbon-cycle"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "photosynthesis-explained"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-eafb0fe8",
+    "ev-ncbi-nlm-nih-gov-ed307b8e",
+    "ev-pmc-ncbi-nlm-nih-gov-24674c79",
+    "ev-pmc-ncbi-nlm-nih-gov-2d250c2c",
+    "ev-pmc-ncbi-nlm-nih-gov-36e6a05e",
+    "ev-pmc-ncbi-nlm-nih-gov-f5c6adf1",
+    "ev-royalsocietypublishing-org-69c49ff9"
+   ]
+  },
+  {
+   "id": "photovoltaics",
+   "canonicalName": "Photovoltaics",
+   "aliases": [
+    "solar cell",
+    "PV"
+   ],
+   "definition": "Direct conversion of light into electricity at a semiconductor junction, bounded by the spectral and entropy losses of a single bandgap.",
+   "category": "energy_system",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "photovoltaics",
+    "solar",
+    "solar-energy"
+   ],
+   "matchSlugs": [
+    "solar-photovoltaics-explained",
+    "thermodynamic-limits-of-photovoltaics",
+    "perovskite-stack-field-stability"
+   ],
+   "parentEntities": [
+    "energy-system"
+   ],
+   "relatedEntities": [
+    "semiconductor",
+    "thermodynamics"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "perovskite-stack-field-stability",
+    "solar-photovoltaics-explained",
+    "thermodynamic-limits-of-photovoltaics"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-a3cd5a19",
+    "ev-energy-gov-f9b8ca6a",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-nature-com-48346271",
+    "ev-nlr-gov-415c876d",
+    "ev-nlr-gov-52e163a1",
+    "ev-nlr-gov-5b775035",
+    "ev-nlr-gov-bd5dee60",
+    "ev-nlr-gov-f1624172",
+    "ev-nlr-gov-f52cdb3d",
+    "ev-osti-gov-4da04b76",
+    "ev-osti-gov-a0f5c4b7",
+    "ev-pvwatts-nlr-gov-fd28266d",
+    "ev-science-org-365f60d5"
+   ]
+  },
+  {
+   "id": "phylogenetics",
+   "canonicalName": "Phylogenetics",
+   "aliases": [
+    "phylogenetic inference",
+    "molecular clock"
+   ],
+   "definition": "Reconstructing evolutionary relationships from present-day data, with explicit models and explicit failure modes such as long-branch attraction.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "phylogenetics",
+    "systematics",
+    "phylogenomics",
+    "land-plants",
+    "plant-evolution",
+    "animal-phyla",
+    "body-plans",
+    "metazoa"
+   ],
+   "matchSlugs": [
+    "phylogenetics-explained",
+    "the-tree-of-life-and-domains"
+   ],
+   "relatedEntities": [
+    "species-concept",
+    "evolution"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "botany-plant-diversity-explained",
+    "convergent-evolution-explained",
+    "phylogenetics-explained",
+    "taxonomy-and-classification-explained",
+    "the-tree-of-life-and-domains",
+    "zoology-animal-diversity-explained"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-456c1861",
+    "ev-catalogueoflife-org-970bd495",
+    "ev-nature-com-41d17c81",
+    "ev-nature-com-6c747cdb",
+    "ev-nature-com-a3b555d4",
+    "ev-ncbi-nlm-nih-gov-5032b8fb",
+    "ev-ncbi-nlm-nih-gov-663c72fc",
+    "ev-pmc-ncbi-nlm-nih-gov-121ec4dd",
+    "ev-pmc-ncbi-nlm-nih-gov-1542afee",
+    "ev-pmc-ncbi-nlm-nih-gov-1a6fb1cb",
+    "ev-pmc-ncbi-nlm-nih-gov-1d1d1132",
+    "ev-pmc-ncbi-nlm-nih-gov-29b0f703",
+    "ev-pmc-ncbi-nlm-nih-gov-40352f01",
+    "ev-pmc-ncbi-nlm-nih-gov-49da7c62",
+    "ev-pmc-ncbi-nlm-nih-gov-4cd84284",
+    "ev-pmc-ncbi-nlm-nih-gov-51985ef5",
+    "ev-pmc-ncbi-nlm-nih-gov-55926847",
+    "ev-pmc-ncbi-nlm-nih-gov-5d455d8d",
+    "ev-pmc-ncbi-nlm-nih-gov-70c01503",
+    "ev-pmc-ncbi-nlm-nih-gov-790f7742",
+    "ev-pmc-ncbi-nlm-nih-gov-7e380e60",
+    "ev-pmc-ncbi-nlm-nih-gov-7f215f2f",
+    "ev-pmc-ncbi-nlm-nih-gov-807c9c00",
+    "ev-pmc-ncbi-nlm-nih-gov-83499ab0",
+    "ev-pmc-ncbi-nlm-nih-gov-86db6a8e",
+    "ev-pmc-ncbi-nlm-nih-gov-8b1f37e7",
+    "ev-pmc-ncbi-nlm-nih-gov-8cbca6f3",
+    "ev-pmc-ncbi-nlm-nih-gov-8ec42996",
+    "ev-pmc-ncbi-nlm-nih-gov-8faa17ec",
+    "ev-pmc-ncbi-nlm-nih-gov-980e2120",
+    "ev-pmc-ncbi-nlm-nih-gov-a7daaad7",
+    "ev-pmc-ncbi-nlm-nih-gov-ac181f42",
+    "ev-pmc-ncbi-nlm-nih-gov-dc3896b8",
+    "ev-pmc-ncbi-nlm-nih-gov-ecfc55c6",
+    "ev-pmc-ncbi-nlm-nih-gov-ef47cd61",
+    "ev-pubmed-ncbi-nlm-nih-gov-14472244",
+    "ev-pubmed-ncbi-nlm-nih-gov-1bc7cf24",
+    "ev-pubmed-ncbi-nlm-nih-gov-4b81a617",
+    "ev-pubmed-ncbi-nlm-nih-gov-8fec6866",
+    "ev-pubmed-ncbi-nlm-nih-gov-baee57c1",
+    "ev-pubmed-ncbi-nlm-nih-gov-d470bff6",
+    "ev-science-org-7bb06ce4",
+    "ev-sciencedirect-com-17b43617",
+    "ev-worldfloraonline-org-7b29ffcc"
+   ]
+  },
+  {
+   "id": "plant-physiology",
+   "canonicalName": "Plant physiology",
+   "aliases": [
+    "water transport",
+    "stomatal control"
+   ],
+   "definition": "How plants move water without a pump, and the stomatal trade-off between carbon gain and water loss that governs terrestrial productivity.",
+   "category": "biological_process",
+   "sections": [
+    "biology",
+    "ecology"
+   ],
+   "matchTags": [
+    "plant-physiology",
+    "water-transport",
+    "stomata",
+    "nutrient-uptake"
+   ],
+   "relatedEntities": [
+    "photosynthesis",
+    "primary-production",
+    "water-cycle"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "plant-physiology-water-and-nutrients"
+   ],
+   "evidenceIds": [
+    "ev-fao-org-ffdf861d",
+    "ev-pubmed-ncbi-nlm-nih-gov-17fb40eb",
+    "ev-pubmed-ncbi-nlm-nih-gov-43f335e9",
+    "ev-pubmed-ncbi-nlm-nih-gov-92c5cb30",
+    "ev-pubmed-ncbi-nlm-nih-gov-9db8eaf7",
+    "ev-pubmed-ncbi-nlm-nih-gov-c5049b11",
+    "ev-pubmed-ncbi-nlm-nih-gov-c8930112"
+   ]
+  },
+  {
+   "id": "pollution",
+   "canonicalName": "Pollution",
+   "aliases": [
+    "environmental contamination"
+   ],
+   "definition": "The introduction of a substance or energy into the environment at a rate that causes harm. Organised by source, pathway and receptor rather than by substance.",
+   "category": "concept",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "pollution",
+    "contamination",
+    "anthropogenic-noise",
+    "light-at-night",
+    "circadian-disruption"
+   ],
+   "matchSlugs": [
+    "environmental-pollution-explained"
+   ],
+   "relatedEntities": [
+    "particulate-matter",
+    "persistent-organic-pollutant",
+    "heavy-metal",
+    "microplastic"
+   ],
+   "childEntities": [
+    "heavy-metal",
+    "microplastic",
+    "particulate-matter",
+    "persistent-organic-pollutant"
+   ],
+   "relatedArticles": [
+    "environmental-pollution-explained",
+    "noise-and-light-pollution-ecology"
+   ],
+   "evidenceIds": [
+    "ev-eea-europa-eu-bb8d6494",
+    "ev-environment-ec-europa-eu-036198d5",
+    "ev-environment-ec-europa-eu-5774cc11",
+    "ev-epa-gov-0df5cd3f",
+    "ev-epa-gov-3cb86ecb",
+    "ev-epa-gov-c5c6126e",
+    "ev-epa-gov-dede41dc",
+    "ev-epa-gov-fe1bc00a",
+    "ev-nationalacademies-org-ff076e6c",
+    "ev-nature-com-1c6fabea",
+    "ev-pmc-ncbi-nlm-nih-gov-c20737f0",
+    "ev-pubmed-ncbi-nlm-nih-gov-2e7dcd62",
+    "ev-royalsocietypublishing-org-227900ce",
+    "ev-royalsocietypublishing-org-38f621ab",
+    "ev-science-org-15c56a26",
+    "ev-science-org-38ce697c",
+    "ev-science-org-872f4d21",
+    "ev-who-int-154a122d",
+    "ev-who-int-3c39597c"
+   ]
+  },
+  {
+   "id": "primary-production",
+   "canonicalName": "Primary production",
+   "aliases": [
+    "GPP",
+    "NPP",
+    "net primary production"
+   ],
+   "definition": "The rate at which autotrophs convert light or chemical energy into organic matter. Estimated rather than measured directly, by different methods on land and at sea.",
+   "category": "biological_process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "primary-production",
+    "productivity"
+   ],
+   "matchSlugs": [
+    "primary-production-and-energy-flow"
+   ],
+   "relatedEntities": [
+    "photosynthesis",
+    "food-web"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "primary-production-and-energy-flow"
+   ],
+   "evidenceIds": [
+    "ev-data-marine-copernicus-eu-d30a8f57",
+    "ev-earthdata-nasa-gov-7a80fe23",
+    "ev-ipcc-ch-28aac392",
+    "ev-nature-com-66c2a8bb",
+    "ev-nature-com-b40d936b",
+    "ev-pubmed-ncbi-nlm-nih-gov-74b7a855",
+    "ev-science-org-679650a8",
+    "ev-science-org-af94268b"
+   ]
+  },
+  {
+   "id": "protein-synthesis",
+   "canonicalName": "Protein synthesis",
+   "aliases": [
+    "translation",
+    "protein folding"
+   ],
+   "definition": "The construction of proteins from a nucleotide template, and the folding that determines what the resulting molecule can do.",
+   "category": "biological_process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "protein",
+    "proteomics",
+    "structural-biology"
+   ],
+   "matchSlugs": [
+    "protein-structure-prediction"
+   ],
+   "relatedEntities": [
+    "gene-expression",
+    "dna"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "protein-structure-prediction"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-aff74e88",
+    "ev-pmc-ncbi-nlm-nih-gov-3e6b2b8f",
+    "ev-pmc-ncbi-nlm-nih-gov-8caaa24d",
+    "ev-pmc-ncbi-nlm-nih-gov-9294cd4c",
+    "ev-pmc-ncbi-nlm-nih-gov-b801cba8",
+    "ev-pmc-ncbi-nlm-nih-gov-fdc2f23f",
+    "ev-pubmed-ncbi-nlm-nih-gov-8aad0330",
+    "ev-rcsb-org-7556adbf"
+   ]
+  },
+  {
+   "id": "quantum-mechanics",
+   "canonicalName": "Quantum mechanics",
+   "aliases": [
+    "quantum theory"
+   ],
+   "definition": "The framework describing systems whose action is comparable to Planck's constant: states, superposition, measurement and quantisation.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "quantum",
+    "quantum-mechanics",
+    "qubits",
+    "quantum-error-correction",
+    "decoherence"
+   ],
+   "matchSlugs": [
+    "quantum-mechanics-fundamentals",
+    "wave-particle-duality-explained"
+   ],
+   "relatedEntities": [
+    "semiconductor",
+    "electromagnetic-radiation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "quantum-computing-fundamentals",
+    "quantum-mechanics-fundamentals",
+    "quantum-sensors-leaving-the-lab",
+    "wave-particle-duality-explained"
+   ],
+   "evidenceIds": [
+    "ev-home-cern-9c775d46",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-nationalacademies-org-dda7cb2b",
+    "ev-nationalacademies-org-e2a7d30a",
+    "ev-nature-com-043636b2",
+    "ev-nature-com-154845fc",
+    "ev-nature-com-26ec96b5",
+    "ev-nature-com-26ff8396",
+    "ev-nature-com-315fb067",
+    "ev-nature-com-48346271",
+    "ev-nature-com-5d8a479b",
+    "ev-nature-com-76b86b6c",
+    "ev-nature-com-8aaf59a1",
+    "ev-nature-com-aca3aefb",
+    "ev-nature-com-d5b737c2",
+    "ev-nature-com-e87e31cd",
+    "ev-nist-gov-2c290417",
+    "ev-nist-gov-2c2e44a2",
+    "ev-nist-gov-62e9c9a9",
+    "ev-nist-gov-63336857",
+    "ev-nist-gov-96790811",
+    "ev-nist-gov-f79d8223",
+    "ev-physics-nist-gov-301d8eb2",
+    "ev-physics-nist-gov-31656671",
+    "ev-physics-nist-gov-7d946ba5",
+    "ev-physics-nist-gov-e10e194f",
+    "ev-pmc-ncbi-nlm-nih-gov-e4fe6a11",
+    "ev-science-org-365f60d5"
+   ]
+  },
+  {
+   "id": "radiative-forcing",
+   "canonicalName": "Radiative forcing",
+   "aliases": [
+    "effective radiative forcing",
+    "ERF"
+   ],
+   "definition": "The change in Earth's net radiative flux caused by a perturbation, before the climate adjusts. The common scale on which greenhouse gases, aerosols and land-use change are compared.",
+   "category": "physical_quantity",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "radiative-forcing",
+    "greenhouse-gases"
+   ],
+   "matchSlugs": [
+    "greenhouse-gases-and-radiative-forcing"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "climate-sensitivity"
+   ],
+   "glossaryId": "radiative-forcing",
+   "childEntities": [],
+   "relatedArticles": [
+    "greenhouse-gas-concentrations-monitoring",
+    "greenhouse-gases-and-radiative-forcing"
+   ],
+   "evidenceIds": [
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-gml-noaa-gov-745578e4",
+    "ev-gml-noaa-gov-9cff813b",
+    "ev-gml-noaa-gov-dbd169f1",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-noaa-gov-78cff8fe",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-wmo-int-3d96c5c4"
+   ]
+  },
+  {
+   "id": "radiative-transfer",
+   "canonicalName": "Radiative transfer",
+   "aliases": [
+    "radiation transport"
+   ],
+   "definition": "How radiation propagates through an absorbing and emitting medium. The physics beneath the greenhouse effect and beneath every remote-sensing retrieval.",
+   "category": "process",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "radiative-transfer",
+    "radiation"
+   ],
+   "matchSlugs": [
+    "radiative-transfer-explained"
+   ],
+   "relatedEntities": [
+    "greenhouse-effect",
+    "electromagnetic-radiation",
+    "remote-sensing"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "radiative-transfer-explained"
+   ],
+   "evidenceIds": [
+    "ev-agupubs-onlinelibrary-wiley-com-4ebd61d0",
+    "ev-agupubs-onlinelibrary-wiley-com-db5285bf",
+    "ev-ipcc-ch-26aac06c",
+    "ev-physics-nist-gov-54041251",
+    "ev-physics-nist-gov-acfeac0d",
+    "ev-physics-nist-gov-ae9f65ab",
+    "ev-science-nasa-gov-08b67889",
+    "ev-webbook-nist-gov-7a49d97e"
+   ]
+  },
+  {
+   "id": "radioactivity",
+   "canonicalName": "Radioactivity",
+   "aliases": [
+    "radioactive decay",
+    "ionising radiation"
+   ],
+   "definition": "The spontaneous transformation of unstable nuclei, and the radiation it emits. Activity, absorbed dose and effective dose are three different quantities in three different units.",
+   "category": "process",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "radioactivity",
+    "radiation",
+    "nuclear-physics"
+   ],
+   "matchSlugs": [
+    "radioactivity-and-radiation-units",
+    "ionising-radiation-exposure-and-risk"
+   ],
+   "relatedEntities": [
+    "nuclear-energy"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "atomic-and-nuclear-physics-explained",
+    "ionising-radiation-exposure-and-risk",
+    "radioactivity-and-radiation-units"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-3e36c0da",
+    "ev-doi-org-880e0f3f",
+    "ev-doi-org-e5155d6b",
+    "ev-epa-gov-16a415cd",
+    "ev-epa-gov-84eaadf9",
+    "ev-epa-gov-e02c8963",
+    "ev-nist-gov-755f62b7",
+    "ev-nist-gov-bd399304",
+    "ev-physics-nist-gov-0551aa65",
+    "ev-physics-nist-gov-31656671",
+    "ev-physics-nist-gov-8826ee2d",
+    "ev-pmc-ncbi-nlm-nih-gov-0e92993c",
+    "ev-pmc-ncbi-nlm-nih-gov-943a4e3c",
+    "ev-pmc-ncbi-nlm-nih-gov-cd9666f9",
+    "ev-pmc-ncbi-nlm-nih-gov-fefff530",
+    "ev-unscear-org-4769bc55",
+    "ev-who-int-15d631ae",
+    "ev-who-int-94bbe70e",
+    "ev-www-nds-iaea-org-16bb8c07",
+    "ev-www-nds-iaea-org-1c9beed2"
+   ]
+  },
+  {
+   "id": "remote-sensing",
+   "canonicalName": "Remote sensing",
+   "aliases": [
+    "Earth observation",
+    "satellite observation"
+   ],
+   "definition": "Measuring a property without contact, and the retrieval algorithms that turn a radiance into a geophysical quantity. What a satellite reports is a model output, not a direct reading.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "remote-sensing",
+    "earth-observation",
+    "satellites"
+   ],
+   "matchSlugs": [
+    "earth-observation-and-remote-sensing-explained",
+    "what-is-remote-sensing",
+    "remote-sensing-limitations-and-uncertainty"
+   ],
+   "relatedEntities": [
+    "radiative-transfer",
+    "environmental-monitoring"
+   ],
+   "glossaryId": "remote-sensing",
+   "childEntities": [],
+   "relatedArticles": [
+    "copernicus-programme-explained",
+    "drought-monitoring-systems",
+    "earth-observation-and-remote-sensing-explained",
+    "earth-observation-data-products",
+    "environmental-monitoring-networks-are-thinning",
+    "land-cover-change-detection",
+    "land-degradation-and-desertification",
+    "landsat-program-explained",
+    "modis-earth-observation-system",
+    "ndvi-explained",
+    "ocean-color-observations",
+    "remote-sensing-for-biodiversity-monitoring",
+    "remote-sensing-limitations-and-uncertainty",
+    "satellite-altimetry-explained",
+    "satellite-deforestation-monitoring",
+    "sentinel-satellites-explained",
+    "vegetation-indices-and-monitoring",
+    "what-is-remote-sensing",
+    "what-satellites-cannot-see",
+    "wildfire-monitoring-from-space"
+   ],
+   "evidenceIds": [
+    "ev-aeronet-gsfc-nasa-gov-b99245a6",
+    "ev-agupubs-onlinelibrary-wiley-com-98129a75",
+    "ev-argo-ucsd-edu-ea18b31b",
+    "ev-copernicus-eu-7599d8be",
+    "ev-earth-system-science-data-net-5105a393",
+    "ev-earthdata-nasa-gov-6c298945",
+    "ev-earthdata-nasa-gov-7239f9dd",
+    "ev-earthdata-nasa-gov-b52a579f",
+    "ev-earthdata-nasa-gov-d76ebdc0",
+    "ev-ecmwf-int-48143872",
+    "ev-esa-int-042cde5c",
+    "ev-esa-int-ffbc128f",
+    "ev-essd-copernicus-org-3a391427",
+    "ev-fao-org-9ea580c0",
+    "ev-frontiersin-org-4d236d6b",
+    "ev-geobon-org-9cb1cb2a",
+    "ev-grace-jpl-nasa-gov-a0e60b7b",
+    "ev-hess-copernicus-org-2028caf4",
+    "ev-joint-research-centre-ec-europa-eu-c94ff27a",
+    "ev-journals-plos-org-0324bb88",
+    "ev-journals-plos-org-8e0a5766",
+    "ev-land-copernicus-eu-921c2dba",
+    "ev-marine-copernicus-eu-88b75c4d",
+    "ev-mdpi-com-8acc2930",
+    "ev-nature-com-58dde4cb",
+    "ev-nesdis-noaa-gov-5c5f1718",
+    "ev-noaa-gov-78cff8fe",
+    "ev-nsidc-org-a39b5c36",
+    "ev-openknowledge-fao-org-2a0da203",
+    "ev-openknowledge-fao-org-4e621b27",
+    "ev-pubmed-ncbi-nlm-nih-gov-54d25f06",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-50b63dc1",
+    "ev-science-nasa-gov-5def4189",
+    "ev-smap-jpl-nasa-gov-55e010a3",
+    "ev-unccd-int-86040f87",
+    "ev-unccd-int-8ea44e27",
+    "ev-unccd-int-a27735ac",
+    "ev-unccd-int-e87e8ebc",
+    "ev-usgs-gov-6c46fe07",
+    "ev-usgs-gov-8d305e39",
+    "ev-usgs-gov-b074ae59",
+    "ev-wmo-int-36bde52e",
+    "ev-wmo-int-3d96c5c4"
+   ]
+  },
+  {
+   "id": "scientific-method",
+   "canonicalName": "Scientific method",
+   "aliases": [
+    "evidence appraisal",
+    "study design"
+   ],
+   "definition": "How a claim is tested and how strongly a given design can support it — the difference between association and causation, and between one study and a synthesis.",
+   "category": "scientific_method",
+   "sections": [
+    "ecology",
+    "biology",
+    "physics"
+   ],
+   "matchTags": [
+    "methodology",
+    "study-design",
+    "evidence",
+    "open-science",
+    "reproducibility",
+    "meta-research",
+    "research-methods"
+   ],
+   "relatedEntities": [
+    "measurement-uncertainty"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "ai-for-science-bottleneck",
+    "conservation-science-explained",
+    "genome-wide-association-studies-explained",
+    "microbiome-research-and-the-causal-gap",
+    "reproducibility-in-ecology-and-environmental-science"
+   ],
+   "evidenceIds": [
+    "ev-cbd-int-17535fc8",
+    "ev-cochranelibrary-com-00946c04",
+    "ev-conservationevidence-com-a36af4b2",
+    "ev-ebi-ac-uk-ec3a4e18",
+    "ev-genome-gov-02a4ef87",
+    "ev-genome-gov-5615b92f",
+    "ev-ipbes-net-31d1399f",
+    "ev-journals-plos-org-b6e8a177",
+    "ev-journals-plos-org-bbd9b98c",
+    "ev-journals-plos-org-caef205a",
+    "ev-journals-plos-org-e5e4e9ac",
+    "ev-nature-com-2af53711",
+    "ev-nature-com-3e721395",
+    "ev-nature-com-4e5f4cb4",
+    "ev-nature-com-4fa13bfe",
+    "ev-nature-com-decf0f80",
+    "ev-nature-com-fc3b0eb0",
+    "ev-ncbi-nlm-nih-gov-1f604717",
+    "ev-ncbi-nlm-nih-gov-b3eb907a",
+    "ev-nist-gov-b4dac7fd",
+    "ev-pmc-ncbi-nlm-nih-gov-1175899a",
+    "ev-pmc-ncbi-nlm-nih-gov-1e9bcbe0",
+    "ev-pmc-ncbi-nlm-nih-gov-1fc23e22",
+    "ev-pmc-ncbi-nlm-nih-gov-359b0c29",
+    "ev-pmc-ncbi-nlm-nih-gov-3e6b2b8f",
+    "ev-pmc-ncbi-nlm-nih-gov-5957c853",
+    "ev-pmc-ncbi-nlm-nih-gov-f4fa4462",
+    "ev-pmc-ncbi-nlm-nih-gov-f6ba8d5c",
+    "ev-pmc-ncbi-nlm-nih-gov-fc6ec144",
+    "ev-predictioncenter-org-bd99d75d",
+    "ev-protectedplanet-net-29afa788",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-31ed74aa",
+    "ev-pubmed-ncbi-nlm-nih-gov-3ad4604e",
+    "ev-pubmed-ncbi-nlm-nih-gov-41d5d684",
+    "ev-pubmed-ncbi-nlm-nih-gov-455d79f7",
+    "ev-pubmed-ncbi-nlm-nih-gov-5b7e9fbe",
+    "ev-pubmed-ncbi-nlm-nih-gov-7716f935",
+    "ev-pubmed-ncbi-nlm-nih-gov-8b509f46",
+    "ev-pubmed-ncbi-nlm-nih-gov-93235b7b",
+    "ev-pubmed-ncbi-nlm-nih-gov-a5190e85",
+    "ev-pubmed-ncbi-nlm-nih-gov-c4ddc9dd",
+    "ev-science-org-f65f0ef4"
+   ]
+  },
+  {
+   "id": "semiconductor",
+   "canonicalName": "Semiconductor",
+   "aliases": [
+    "band structure",
+    "doping"
+   ],
+   "definition": "A material whose conduction is controllable because a small energy gap separates its filled and empty electronic states.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "semiconductors",
+    "materials-physics",
+    "band-structure"
+   ],
+   "matchSlugs": [
+    "materials-physics-and-semiconductors"
+   ],
+   "relatedEntities": [
+    "photovoltaics",
+    "quantum-mechanics"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "materials-physics-and-semiconductors"
+   ],
+   "evidenceIds": [
+    "ev-energy-gov-3d2a7bea",
+    "ev-nist-gov-07d2d64a",
+    "ev-nist-gov-99ae0147",
+    "ev-nist-gov-a38592db",
+    "ev-nlr-gov-415c876d",
+    "ev-osti-gov-36c88d7a",
+    "ev-pdg-lbl-gov-e02605b9"
+   ]
+  },
+  {
+   "id": "soil",
+   "canonicalName": "Soil",
+   "aliases": [
+    "pedosphere",
+    "soil system"
+   ],
+   "definition": "The four-phase weathered surface layer of mineral matter, organic matter, water and air in which most terrestrial life is rooted. Formed slowly and lost quickly.",
+   "category": "ecosystem",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "soil",
+    "soils",
+    "soil-carbon",
+    "soil-biology",
+    "fertility",
+    "plant-nutrition",
+    "cation-exchange"
+   ],
+   "matchSlugs": [
+    "soil-science-explained",
+    "soil-carbon-measurement-and-uncertainty",
+    "soil-formation-and-classification"
+   ],
+   "relatedEntities": [
+    "carbon-cycle",
+    "land-degradation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "boreal-forests-and-permafrost-interactions",
+    "nutrient-availability-and-soil-fertility",
+    "soil-biology-and-the-soil-food-web",
+    "soil-carbon-crediting-meets-the-detection-limit",
+    "soil-carbon-measurement-and-uncertainty",
+    "soil-formation-and-classification",
+    "soil-microbiome-regenerative-agriculture",
+    "soil-science-explained"
+   ],
+   "evidenceIds": [
+    "ev-arctic-noaa-gov-80fc3ceb",
+    "ev-eea-europa-eu-2b338f19",
+    "ev-eea-europa-eu-5ecc0193",
+    "ev-epa-gov-c2335e19",
+    "ev-fao-org-12ad52a4",
+    "ev-fao-org-2ef73bb2",
+    "ev-fao-org-37db791b",
+    "ev-fao-org-44cdd7ed",
+    "ev-fao-org-6bb3121f",
+    "ev-fao-org-7edd5549",
+    "ev-fao-org-9ed21dcf",
+    "ev-fao-org-b5f128a3",
+    "ev-frontiersin-org-ffdb1d60",
+    "ev-iopscience-iop-org-e0837b41",
+    "ev-ipcc-ch-28aac392",
+    "ev-nature-com-23abd441",
+    "ev-nature-com-2cfd4e71",
+    "ev-nature-com-48346271",
+    "ev-nature-com-50e686c5",
+    "ev-nature-com-736fa324",
+    "ev-nature-com-a2be5615",
+    "ev-oceanservice-noaa-gov-c0d6cb0d",
+    "ev-onlinelibrary-wiley-com-0c855db4",
+    "ev-openknowledge-fao-org-2a0da203",
+    "ev-openknowledge-fao-org-4e621b27",
+    "ev-openknowledge-fao-org-81784af0",
+    "ev-openknowledge-fao-org-847c7376",
+    "ev-openknowledge-fao-org-a2979b47",
+    "ev-pmc-ncbi-nlm-nih-gov-c75576ed",
+    "ev-pnas-org-73dbd987",
+    "ev-pnas-org-d0c4221c",
+    "ev-pubmed-ncbi-nlm-nih-gov-14caac53",
+    "ev-pubmed-ncbi-nlm-nih-gov-198477eb",
+    "ev-pubmed-ncbi-nlm-nih-gov-1d2e76b1",
+    "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
+    "ev-pubmed-ncbi-nlm-nih-gov-43d39ba7",
+    "ev-pubmed-ncbi-nlm-nih-gov-46500995",
+    "ev-pubmed-ncbi-nlm-nih-gov-4f709dca",
+    "ev-pubmed-ncbi-nlm-nih-gov-75a495a7",
+    "ev-pubmed-ncbi-nlm-nih-gov-83cc8237",
+    "ev-pubmed-ncbi-nlm-nih-gov-9aafd467",
+    "ev-pubmed-ncbi-nlm-nih-gov-ae150ee4",
+    "ev-pubmed-ncbi-nlm-nih-gov-be446801",
+    "ev-pubmed-ncbi-nlm-nih-gov-c79833cb",
+    "ev-science-org-365f60d5",
+    "ev-soil-copernicus-org-9ea4dc9c",
+    "ev-unccd-int-86040f87",
+    "ev-unccd-int-e87e8ebc",
+    "ev-unep-org-b0f403ba",
+    "ev-usgs-gov-32114d8a",
+    "ev-usgs-gov-56c4cf20",
+    "ev-verra-org-14912b95"
+   ]
+  },
+  {
+   "id": "speciation",
+   "canonicalName": "Speciation",
+   "aliases": [
+    "reproductive isolation"
+   ],
+   "definition": "The origin of reproductive isolation between lineages, along a continuum rather than at a moment.",
+   "category": "process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "speciation"
+   ],
+   "matchSlugs": [
+    "speciation-mechanisms"
+   ],
+   "parentEntities": [
+    "evolution"
+   ],
+   "relatedEntities": [
+    "species-concept"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "speciation-mechanisms",
+    "what-is-a-species"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-ec467211",
+    "ev-pmc-ncbi-nlm-nih-gov-19023a96",
+    "ev-pmc-ncbi-nlm-nih-gov-1c1bce19",
+    "ev-pmc-ncbi-nlm-nih-gov-3ae1a0ad",
+    "ev-pmc-ncbi-nlm-nih-gov-40352f01",
+    "ev-pmc-ncbi-nlm-nih-gov-680058ab",
+    "ev-pmc-ncbi-nlm-nih-gov-c9b89da5",
+    "ev-pmc-ncbi-nlm-nih-gov-d6a9a7be",
+    "ev-pubmed-ncbi-nlm-nih-gov-04c2d9af",
+    "ev-pubmed-ncbi-nlm-nih-gov-1ea33401",
+    "ev-pubmed-ncbi-nlm-nih-gov-4af9f050",
+    "ev-pubmed-ncbi-nlm-nih-gov-590b4f7b",
+    "ev-pubmed-ncbi-nlm-nih-gov-949079e9",
+    "ev-pubmed-ncbi-nlm-nih-gov-a764579a"
+   ]
+  },
+  {
+   "id": "species-concept",
+   "canonicalName": "Species concept",
+   "aliases": [
+    "what is a species",
+    "species problem"
+   ],
+   "definition": "The set of competing operational criteria for delimiting species, none of which covers sexual, asexual and freely hybridising lineages at once.",
+   "category": "concept",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "taxonomy",
+    "species-concept"
+   ],
+   "matchSlugs": [
+    "what-is-a-species"
+   ],
+   "relatedEntities": [
+    "speciation",
+    "phylogenetics",
+    "biodiversity"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "taxonomy-and-classification-explained",
+    "what-is-a-species"
+   ],
+   "evidenceIds": [
+    "ev-academic-oup-com-ec467211",
+    "ev-catalogueoflife-org-970bd495",
+    "ev-ncbi-nlm-nih-gov-5032b8fb",
+    "ev-pmc-ncbi-nlm-nih-gov-121ec4dd",
+    "ev-pmc-ncbi-nlm-nih-gov-19023a96",
+    "ev-pmc-ncbi-nlm-nih-gov-1c1bce19",
+    "ev-pmc-ncbi-nlm-nih-gov-40352f01",
+    "ev-pmc-ncbi-nlm-nih-gov-790f7742",
+    "ev-pmc-ncbi-nlm-nih-gov-8ec42996",
+    "ev-pmc-ncbi-nlm-nih-gov-ecfc55c6",
+    "ev-pmc-ncbi-nlm-nih-gov-ef47cd61",
+    "ev-pubmed-ncbi-nlm-nih-gov-1bc7cf24",
+    "ev-pubmed-ncbi-nlm-nih-gov-1ea33401",
+    "ev-pubmed-ncbi-nlm-nih-gov-4af9f050",
+    "ev-pubmed-ncbi-nlm-nih-gov-590b4f7b"
+   ]
+  },
+  {
+   "id": "synthetic-biology",
+   "canonicalName": "Synthetic biology",
+   "aliases": [
+    "metabolic engineering",
+    "minimal genome"
+   ],
+   "definition": "Applying engineering principles — standardisation, abstraction, modularity — to biological systems, and confronting the context-dependence that undermines them.",
+   "category": "scientific_method",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "synthetic-biology",
+    "metabolic-engineering",
+    "minimal-genome",
+    "biocontainment",
+    "biosafety"
+   ],
+   "relatedEntities": [
+    "genome-editing",
+    "dna-sequencing"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "biotechnology-explained",
+    "synthetic-biology-explained"
+   ],
+   "evidenceIds": [
+    "ev-bch-cbd-int-82e33ab3",
+    "ev-genome-gov-9420551d",
+    "ev-pmc-ncbi-nlm-nih-gov-2077221d",
+    "ev-pmc-ncbi-nlm-nih-gov-2a90ee3c",
+    "ev-pmc-ncbi-nlm-nih-gov-2af3794f",
+    "ev-pmc-ncbi-nlm-nih-gov-8f26ac1c",
+    "ev-pmc-ncbi-nlm-nih-gov-a2929a63",
+    "ev-pmc-ncbi-nlm-nih-gov-a398ff24",
+    "ev-pmc-ncbi-nlm-nih-gov-af46b3ae",
+    "ev-pmc-ncbi-nlm-nih-gov-bd6b4204",
+    "ev-pmc-ncbi-nlm-nih-gov-cb78812e",
+    "ev-pmc-ncbi-nlm-nih-gov-e898d787",
+    "ev-who-int-987a24df",
+    "ev-who-int-cb73d3eb"
+   ]
+  },
+  {
+   "id": "thermodynamics",
+   "canonicalName": "Thermodynamics",
+   "aliases": [
+    "laws of thermodynamics"
+   ],
+   "definition": "The science of energy, heat and work, and of what those laws forbid. Bounds every engine, every cell and the planet's energy budget alike.",
+   "category": "physical_law",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "thermodynamics",
+    "second-law",
+    "heat-engines",
+    "carnot-efficiency",
+    "exergy",
+    "gas-turbines"
+   ],
+   "matchSlugs": [
+    "laws-of-thermodynamics-explained",
+    "earth-energy-budget-and-the-second-law"
+   ],
+   "relatedEntities": [
+    "entropy",
+    "heat-transfer",
+    "energy"
+   ],
+   "glossaryId": "thermodynamics",
+   "childEntities": [
+    "entropy",
+    "heat-transfer"
+   ],
+   "relatedArticles": [
+    "earth-energy-budget-and-the-second-law",
+    "energy-transition-constraints-physical-and-institutional",
+    "entropy-explained",
+    "heat-engines-and-efficiency-limits",
+    "laws-of-thermodynamics-explained",
+    "thermodynamic-limits-of-photovoltaics"
+   ],
+   "evidenceIds": [
+    "ev-bipm-org-69ab2e96",
+    "ev-doi-org-974f0878",
+    "ev-doi-org-f594b71d",
+    "ev-eia-gov-03c0e00a",
+    "ev-eia-gov-0a47c5b5",
+    "ev-eia-gov-855b9602",
+    "ev-energy-gov-2619c361",
+    "ev-energy-gov-dab511f6",
+    "ev-energy-gov-f9b8ca6a",
+    "ev-epa-gov-344578a6",
+    "ev-iea-org-17b26365",
+    "ev-iea-org-b947895c",
+    "ev-ipcc-ch-dd0f3454",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-nature-com-48346271",
+    "ev-nist-gov-b4dac7fd",
+    "ev-nist-gov-d79e9476",
+    "ev-nlr-gov-415c876d",
+    "ev-nlr-gov-bd5dee60",
+    "ev-noaa-gov-78cff8fe",
+    "ev-noaa-gov-8473ab6a",
+    "ev-osti-gov-0f51f6af",
+    "ev-osti-gov-15ac4ba3",
+    "ev-osti-gov-1f5022a9",
+    "ev-osti-gov-582b186c",
+    "ev-physics-nist-gov-d444bd61",
+    "ev-pmc-ncbi-nlm-nih-gov-30656ac6",
+    "ev-pmc-ncbi-nlm-nih-gov-323af94b",
+    "ev-pmc-ncbi-nlm-nih-gov-52d3025b",
+    "ev-pmc-ncbi-nlm-nih-gov-bad61915",
+    "ev-pmc-ncbi-nlm-nih-gov-dff8280b",
+    "ev-pmc-ncbi-nlm-nih-gov-ff1d02f6",
+    "ev-science-nasa-gov-08b67889",
+    "ev-science-nasa-gov-32cc3e70",
+    "ev-science-nasa-gov-ed707730",
+    "ev-science-nasa-gov-ed8dcf74",
+    "ev-science-org-365f60d5",
+    "ev-webbook-nist-gov-45f711a7",
+    "ev-webbook-nist-gov-46f7133a"
+   ]
+  },
+  {
+   "id": "virus",
+   "canonicalName": "Virus",
+   "aliases": [
+    "viral particle",
+    "bacteriophage"
+   ],
+   "definition": "An obligate intracellular replicator classified by genome type and replication route rather than by appearance.",
+   "category": "species_group",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "viruses",
+    "virology"
+   ],
+   "matchSlugs": [
+    "viruses-explained"
+   ],
+   "relatedEntities": [
+    "microorganism"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "viruses-explained"
+   ],
+   "evidenceIds": [
+    "ev-ncbi-nlm-nih-gov-cb92f998",
+    "ev-pmc-ncbi-nlm-nih-gov-0218b373",
+    "ev-pmc-ncbi-nlm-nih-gov-4341c424",
+    "ev-pmc-ncbi-nlm-nih-gov-5964cd83",
+    "ev-pmc-ncbi-nlm-nih-gov-94c66adc",
+    "ev-pmc-ncbi-nlm-nih-gov-f860af1b",
+    "ev-pubmed-ncbi-nlm-nih-gov-1817a89a",
+    "ev-pubmed-ncbi-nlm-nih-gov-bd35b891",
+    "ev-who-int-f2c8c6f4"
+   ]
+  },
+  {
+   "id": "water-cycle",
+   "canonicalName": "Water cycle",
+   "aliases": [
+    "hydrological cycle",
+    "global water cycle"
+   ],
+   "definition": "The circulation of water between ocean, atmosphere, land and ice. The atmospheric store is the smallest and turns over fastest, which is why the cycle intensifies under warming.",
+   "category": "process",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "water-cycle",
+    "hydrology"
+   ],
+   "matchSlugs": [
+    "global-water-cycle-explained"
+   ],
+   "parentEntities": [
+    "biogeochemical-cycle"
+   ],
+   "relatedEntities": [
+    "climate-feedback"
+   ],
+   "glossaryId": "water-cycle",
+   "childEntities": [],
+   "relatedArticles": [
+    "environmental-monitoring-networks-are-thinning",
+    "global-water-cycle-explained",
+    "groundwater-and-aquifer-depletion",
+    "river-ecology-and-flow-regimes",
+    "water-vapor-feedback-explained"
+   ],
+   "evidenceIds": [
+    "ev-argo-ucsd-edu-ea18b31b",
+    "ev-climate-copernicus-eu-d9ce40a0",
+    "ev-ecmwf-int-2c0830e3",
+    "ev-epa-gov-b808faa5",
+    "ev-essd-copernicus-org-3a391427",
+    "ev-grace-jpl-nasa-gov-a0e60b7b",
+    "ev-ipcc-ch-26aac06c",
+    "ev-ipcc-ch-2daacb71",
+    "ev-journals-plos-org-0324bb88",
+    "ev-journals-plos-org-8e0a5766",
+    "ev-nature-com-58dde4cb",
+    "ev-nature-com-a7200665",
+    "ev-nature-com-a86b1675",
+    "ev-nature-com-c7f98d1e",
+    "ev-noaa-gov-78cff8fe",
+    "ev-science-nasa-gov-4c489f75",
+    "ev-science-nasa-gov-507391e1",
+    "ev-science-org-477a26a7",
+    "ev-science-org-f8f841d0",
+    "ev-smap-jpl-nasa-gov-55e010a3",
+    "ev-unesco-org-1f0daf4e",
+    "ev-usgs-gov-02a87a35",
+    "ev-usgs-gov-5fea487e",
+    "ev-usgs-gov-711a8860",
+    "ev-usgs-gov-acd91925",
+    "ev-usgs-gov-bf887f63",
+    "ev-usgs-gov-c184eed8",
+    "ev-usgs-gov-c8a94c30",
+    "ev-usgs-gov-d071ed34",
+    "ev-usgs-gov-e0894193",
+    "ev-wmo-int-36bde52e"
+   ]
+  },
+  {
+   "id": "water-quality",
+   "canonicalName": "Water quality",
+   "aliases": [
+    "freshwater quality"
+   ],
+   "definition": "The physical, chemical and biological condition of water relative to a use or a reference state. Biological indices integrate over time in a way spot chemistry cannot.",
+   "category": "environmental_indicator",
+   "sections": [
+    "ecology"
+   ],
+   "matchTags": [
+    "water-quality"
+   ],
+   "matchSlugs": [
+    "water-quality-measurement-explained"
+   ],
+   "relatedEntities": [
+    "eutrophication",
+    "pollution"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "water-quality-measurement-explained"
+   ],
+   "evidenceIds": [
+    "ev-eea-europa-eu-8e516f70",
+    "ev-eea-europa-eu-c748cd97",
+    "ev-epa-gov-4f65c49d",
+    "ev-epa-gov-b808faa5",
+    "ev-pubmed-ncbi-nlm-nih-gov-4eac2950",
+    "ev-usgs-gov-a493cdeb",
+    "ev-usgs-gov-ebe65567",
+    "ev-who-int-95b30fd1"
+   ]
+  },
+  {
+   "id": "wave",
+   "canonicalName": "Wave",
+   "aliases": [
+    "oscillation",
+    "vibration"
+   ],
+   "definition": "A disturbance transporting energy without net transport of matter. One mathematics covering sound, light, seismic motion and quantum amplitudes.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "waves",
+    "oscillations",
+    "acoustics"
+   ],
+   "matchSlugs": [
+    "waves-and-oscillations-explained",
+    "sound-and-acoustics-explained"
+   ],
+   "relatedEntities": [
+    "electromagnetic-radiation"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "sound-and-acoustics-explained",
+    "waves-and-oscillations-explained"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-8ac32615",
+    "ev-doi-org-e0c3b846",
+    "ev-eea-europa-eu-031afa0a",
+    "ev-nist-gov-9b131527",
+    "ev-oceanservice-noaa-gov-60f94e3b",
+    "ev-oceanservice-noaa-gov-d40c09c1",
+    "ev-oceanservice-noaa-gov-f70bf197",
+    "ev-pmc-ncbi-nlm-nih-gov-3ddbdde3",
+    "ev-pmc-ncbi-nlm-nih-gov-b0dcdfc1",
+    "ev-pmc-ncbi-nlm-nih-gov-edc998fa",
+    "ev-science-nasa-gov-37a51d92",
+    "ev-usgs-gov-552d4f33",
+    "ev-usgs-gov-78e3db2d",
+    "ev-usgs-gov-8167c7f2",
+    "ev-usgs-gov-b37ebb5d",
+    "ev-webbook-nist-gov-f064876e",
+    "ev-who-int-8adffc2b",
+    "ev-www1-grc-nasa-gov-c5471a76"
+   ]
+  }
+ ]
+}

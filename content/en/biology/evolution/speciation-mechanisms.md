@@ -25,7 +25,7 @@ Two populations are separate species when gene exchange between them has become 
 
 ## Barriers, and where in the life cycle each one acts
 
-Reproductive isolation is not a single property. It is a stack of barriers, conventionally split by whether they act before or after a zygote forms, and the stack matters because barriers multiply: two weak ones can leave more gene flow than one strong one.
+[Reproductive isolation](/en/glossary/reproductive-isolation) is not a single property. It is a stack of barriers, conventionally split by whether they act before or after a zygote forms, and the stack matters because barriers multiply: two weak ones can leave more gene flow than one strong one.
 
 | Barrier | Stage at which it acts | Usually measured by | Behaviour under renewed contact |
 | --- | --- | --- | --- |
@@ -64,7 +64,7 @@ Our own species supplies a comparable record. A catalogue of Neanderthal ancestr
 
 ## An F<sub>ST</sub> peak is not a barrier
 
-One inference deserves separate treatment, because it was widely made and then substantially withdrawn. Regions of the genome showing unusually high differentiation between close relatives were interpreted as "islands of speciation" — loci resistant to gene flow while the rest of the genome was homogenised by it. Re-examining five species pairs for which full sequence data were available, a 2014 reanalysis in *Molecular Ecology* found that [absolute divergence is not elevated in those islands](https://pubmed.ncbi.nlm.nih.gov/24845075/); what is unusual about them is reduced diversity, which inflates relative measures such as F<sub>ST</sub> without any reduction in gene flow. The same work found that simulation-based inferences of gene flow itself may be wrong in many published comparisons.
+One inference deserves separate treatment, because it was widely made and then substantially withdrawn. Regions of the genome showing unusually high differentiation between close relatives were interpreted as "islands of speciation" — loci resistant to gene flow while the rest of the genome was homogenised by it. Re-examining five species pairs for which full sequence data were available, a 2014 reanalysis in *Molecular Ecology* found that [absolute divergence is not elevated in those islands](https://pubmed.ncbi.nlm.nih.gov/24845075/); what is unusual about them is reduced diversity, which inflates relative measures such as F<sub>ST</sub> without requiring any reduction in gene flow. The same work found that simulation-based inferences of gene flow itself may be wrong in many published comparisons.
 
 The general lesson travels beyond speciation genomics: a relative statistic behaves as a ratio, and a peak in it can be produced by a change in the denominator. Similar reasoning applies to reading independently derived similarity as shared ancestry, which is why [repeated evolution of the same trait](/en/biology/evolution/convergent-evolution-explained) is treated as a distinct inference problem.
 

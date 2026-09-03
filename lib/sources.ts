@@ -1059,6 +1059,22 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       topicRelevance: "Primary document for what a voluntary carbon-crediting protocol requires. A commercial standards body, cited for its own rules and never as scientific authority",
       lastReviewed: "2026-09-02",
     },
+    {
+      name: "Global Forest Watch",
+      organization: "World Resources Institute",
+      url: "https://www.globalforestwatch.org/",
+      type: "dataset",
+      topicRelevance: "Satellite tree-cover loss and gain analyses and the methodological notes that accompany them",
+      lastReviewed: "2026-09-03",
+    },
+    {
+      name: "Integrity Council for the Voluntary Carbon Market",
+      organization: "ICVCM",
+      url: "https://icvcm.org/",
+      type: "report",
+      topicRelevance: "Core Carbon Principles and methodology assessments. A governance body cited for the content of its own standard, never as scientific authority",
+      lastReviewed: "2026-09-03",
+    },
   ],
   biology: [
     {
@@ -1365,6 +1381,14 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       type: "peer-reviewed",
       topicRelevance: "Peer-reviewed biophysics and physical-biology journals",
       lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Protein Structure Prediction Center (CASP)",
+      organization: "University of California, Davis",
+      url: "https://predictioncenter.org/",
+      type: "dataset",
+      topicRelevance: "Blind community assessment of protein structure prediction. Cited for independently assessed method performance, not for vendor claims",
+      lastReviewed: "2026-09-03",
     },
   ],
   physics: [

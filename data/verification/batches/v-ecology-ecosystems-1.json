@@ -1,0 +1,230 @@
+{
+  "batchId": "v-ecology-ecosystems-1",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "food-webs-and-trophic-structure",
+      "path": "content/en/ecology/ecosystems/food-webs-and-trophic-structure.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "A seven-year warming experiment in artificial ponds opens by noting that, as a general rule, about 10 per cent of the energy produced at one level makes it to the next",
+          "sourceChecked": "https://www.nature.com/articles/s41586-021-03352-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Relative to ambient conditions, 4 C of warming decreased trophic transfer efficiency by up to 56 per cent, and the biomass of both phytoplankton and zooplankton was lower in the warmed ponds",
+          "sourceChecked": "https://www.nature.com/articles/s41586-021-03352-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A review of marine transfer efficiency states it is an emergent, unitless property that is difficult to measure, responds dynamically to environmental and ecosystem change, is affected by fishing, and is expected to decline under warming",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/33097289/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The ten per cent idea descends from the trophic-dynamic framework Raymond Lindeman published in 1942",
+          "sourceChecked": "https://api.crossref.org/works (Lindeman, 'The Trophic-Dynamic Aspect of Ecology', Ecology, October 1942, DOI 10.2307/1930126)",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Applying 10 per cent four times gives one ten-thousandth; applying 5 per cent gives about one part in 160,000, a sixteen-fold difference",
+          "sourceChecked": "internal arithmetic: 0.1^4 = 1e-4; 0.05^4 = 6.25e-6 = 1/160,000; ratio 16",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Real webs have few levels, because there is nothing left to support another one",
+          "sourceChecked": "https://www.nature.com/articles/35016565",
+          "disposition": "qualified",
+          "note": "Stated as settled cause with no source anywhere in the article. The energetic-limitation (productivity) hypothesis for food-chain length is contested: Post, Pace and Hairston (Nature 2000, read as the nature.com article page and the Europe PMC abstract) tested the productivity, ecosystem-size and productive-space hypotheses and found 'food-chain length increases with ecosystem size, but that the length of the food chain is not related to productivity'. Rewrote the sentence to claim only an energetic ceiling, added the contested status and cited Post et al. as source 10."
+        },
+        {
+          "claim": "An analysis of seven marine ecosystem models put mean trophic level of marine mammal consumption at 2.88 against 3.42 for fisheries catches in the same systems",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0043966",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Catch-based mean trophic level does not reliably predict changes in marine ecosystems, its trends often diverge from survey and assessment MTL, recent values increased across catch, survey and assessment, and catches were rising across most trophic levels in a way that can intensify collapses",
+          "sourceChecked": "https://www.nature.com/articles/nature09528",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A 2022 Ecology Letters analysis found sampling only the tallest young plants overestimated overstory aspen regeneration by a factor of four to seven versus random sampling; random sampling still described a weaker cascade; the authors' reply granted the tallest-aspen method detects occurrence but overstates the population response",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/34748261/ and https://pubmed.ncbi.nlm.nih.gov/38010704/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fecal analysis of elk diet in the Gallatin Canyon found willow consumption increased when wolves were present and was more strongly affected by snow conditions than by wolves, pointing to the fall in elk numbers rather than individual behaviour",
+          "sourceChecked": "https://esajournals.onlinelibrary.wiley.com/doi/10.1890/08-2017.1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A decade-long experiment found moderating browsing alone did not restore willow along small streams; recovery also required hydrological conditions prevailing before wolf removal, because a seventy-year absence of predators changed the disturbance regime in a way reintroduction did not reverse",
+          "sourceChecked": "https://royalsocietypublishing.org/doi/10.1098/rspb.2012.2977",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA Fisheries describes using ecosystem models alongside other resource management models for multiple-model inference to handle scientific uncertainty and bias",
+          "sourceChecked": "https://www.fisheries.noaa.gov/national/ecosystems/ecosystem-modeling",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Knowledge of how ecological networks vary at global scales remains limited by the difficulty of acquiring repeated spatial data on species interactions, which is why approaches downscale a regional pool probabilistically",
+          "sourceChecked": "https://royalsocietypublishing.org/doi/10.1098/rstb.2023.0166",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A mass-balance model needs, for every group, a biomass, a production rate, a consumption rate and a diet composition, and field data rarely constrain all four",
+          "sourceChecked": "Ecopath with Ecosim: A User's Guide (Christensen, Walters and Pauly), https://www.vliz.be/imisdocs/publications/395938.pdf",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "nature.com and pubmed.ncbi.nlm.nih.gov both block scripted clients (303 to idp.nature.com; PubMed serves only a cookie notice). The Nature 2021 pond experiment, the TREE review, the PLOS ONE paper, the Nature fisheries paper, both Ecology Letters items, the Ecology willow paper and the Proc B experiment were read as full abstracts through the Europe PMC REST API, not as publisher full text. Every figure checked appears in the abstract; none of these papers' body text was read.",
+        "The existence of the 'later comment in the same journal' was confirmed only from Crossref metadata (Ecology Letters, 'Aspen recovery in northern Yellowstone: A comment on Brice et al. (2021)', 10.1111/ele.14353, 2023-12-18). The comment's own text was not read; the article does not cite it directly.",
+        "The claim that the detrital channel is often the larger of the two in terrestrial systems carries no citation anywhere in the article and no source for it was opened. It is standard textbook ecology and is hedged with 'often', so it was left in place, but it is unsourced."
+      ]
+    },
+    {
+      "slug": "primary-production-and-energy-flow",
+      "path": "content/en/ecology/ecosystems/primary-production-and-energy-flow.md",
+      "status": "amended",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Table: land GPP 123 +/- 8 to 147 Pg C yr-1 depending on method",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1184984 and https://pubmed.ncbi.nlm.nih.gov/31199543/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FLUXNET2015 covers 212 sites worldwide, over 1,500 site-years up to and including 2014, and is explicit that ecosystem respiration and photosynthetic uptake are derived data products distributed with their own uncertainty estimates",
+          "sourceChecked": "https://www.nature.com/articles/s41597-020-0534-3",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Every GPP value from a tower carries the assumptions of the night-time respiration model, including the assumption that night-time and daytime respiration follow the same temperature relationship",
+          "sourceChecked": "https://www.nature.com/articles/s41597-020-0534-3",
+          "disposition": "corrected",
+          "note": "Contradicted by the source cited in the very next sentence. The FLUXNET2015 paper (PMC full text, PMC7347557) states: 'All sites were partitioned with the nighttime fluxes method (_NT suffixes) and the daytime fluxes method (_DT suffixes), while a third method, sundown reference respiration (_SR suffixes), was applied to all sites meeting the method's requirements', that the daytime method parameterises GPP from a light-response curve and vapour pressure deficit, and that 'It is important to use both daytime (DT) and nighttime (NT) variables, and consider their difference as uncertainty'. The night-time method is one of at least two applied to every site, and the daytime method exists precisely to avoid the assumption the article called universal. Rewrote to say that GPP carries the assumptions of whichever partitioning model produced it, and that FLUXNET2015 runs both methods plus a sundown method where storage measurements allow, and treats their difference as uncertainty."
+        },
+        {
+          "claim": "FLUXNET coverage is densest in temperate Europe and North America and sparsest in the tropics, deserts and the high latitudes",
+          "sourceChecked": "https://www.nature.com/articles/s41597-020-0534-3",
+          "disposition": "verified"
+        },
+        {
+          "claim": "MOD17 delivers annual GPP and NPP at 500 m from summed 8-day composites, with net photosynthesis as GPP minus maintenance respiration; the annual product is generated only after the year closes and pixels failing quality screening are filled by interpolation",
+          "sourceChecked": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod17a3hgf-061",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An observation-based synthesis put global land GPP at 123 +/- 8 Pg C yr-1, with tropical forests and savannahs accounting for 60 per cent and GPP over 40 per cent of vegetated land associated with precipitation",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1184984",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A NIRv-scaling approach returned 147 Pg C yr-1 with a 95 per cent credible interval of 131 to 163, running systematically higher than earlier bottom-up work particularly in the mid-latitudes",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/31199543/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The two central values differ by about a fifth, more than either study's own stated uncertainty",
+          "sourceChecked": "internal arithmetic against both cited estimates: (147-123)/123 = 19.5 per cent; 24 exceeds both the +/- 8 and the +/- 16 interval half-width",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Copernicus global ocean colour product distributes primary production as one variable among many, gridded at 4 km, merged from SeaWiFS, MODIS, MERIS, VIIRS and OLCI across a record beginning in 1997",
+          "sourceChecked": "https://data.marine.copernicus.eu/product/OCEANCOLOUR_GLO_BGC_L4_MY_009_104/description",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The canonical integration estimated global NPP at 104.9 Pg C yr-1 with roughly equal contributions from land and ocean",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.281.5374.237",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A recent analysis reports statistically significant declines in net primary production across almost half the ocean and notes the remote-sensing record is the best available basis for a global trend",
+          "sourceChecked": "https://www.nature.com/articles/s41467-025-60906-y",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The net terrestrial carbon sink assessed by the IPCC for 2010 to 2019 is 3.4 +/- 0.9 Pg C yr-1",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "ipcc.ch returns 403 to WebFetch. The chapter was retrieved with curl under a browser user agent and read as extracted text; 3.4 +/- 0.9 PgC yr-1 appears both in the Executive Summary ('31% was stored by vegetation in terrestrial ecosystems') and in the Table 5.1 row 'Terrestrial sink ... 2010-2019 ... 3.4 +/- 0.9'.",
+        "science.org blocks scripted clients, so Beer et al. (2010) and Field et al. (1998) were read as full abstracts via the Europe PMC REST API rather than as publisher full text. Every figure checked appears in the abstract.",
+        "The FLUXNET2015 paper does not state the geographic-coverage claim as a sentence. It was verified instead from the paper's own site table, tallying site codes: US 65, AU 22, CA 20, IT 19, DE 15, CN 10 against BR 2, PA 2, GF 1, MY 1, CG 1, SD 1, SN 1, ZM 1 in the tropics and GL 3, RU 4, SJ 1 at high latitudes. 'Deserts' is the loosest term of the three and is only partly borne out, since Australia contributes many semi-arid sites.",
+        "Not a sourcing defect, but flagged: the section opens 'Three families of method turn that sample into a global number' and then supplies two subheadings (light-use-efficiency models, statistical upscaling), although three distinct estimates follow. Readable either way; left unchanged."
+      ]
+    },
+    {
+      "slug": "biomes-explained",
+      "path": "content/en/ecology/ecosystems/biomes-explained.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "FAO global ecological zoning uses Koppen-Trewartha as its skeleton: five domains separated by temperature (tropical, subtropical, temperate, boreal, polar), subdivided by precipitation into 20 ecological zones at the working level",
+          "sourceChecked": "https://www.fao.org/4/ad652e/ad652e07.htm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "One mountain-systems zone sits inside each domain",
+          "sourceChecked": "https://www.fao.org/4/ad652e/ad652e07.htm",
+          "disposition": "corrected",
+          "note": "The FAO page carries a loose summary sentence, 'Within each domain a zone of mountain systems is distinguished at level 2', which is the sentence the article followed. The same page contradicts it twice. The Cambridge-workshop modifications list states 'the inclusion of a mountain systems zone at level 2 in four broad climatic domains: tropical, subtropical, temperate, boreal (not applied in polar domain)', and Table 1 on the same page lists the polar domain's single zone as 'Polar | P | Same as domain level' against Tropical, Subtropical, Temperate and Boreal mountain systems (TM, SM, TM, BM). Corrected to a mountain-systems zone in four of the five domains, with the polar domain a single class identical to the domain; the later sentence about mountain classes collapsing was narrowed to those four domains to match."
+        },
+        {
+          "claim": "The zones were delineated using macroclimate data and existing potential-vegetation maps because generalised climate maps alone could produce zones corresponding poorly to boundaries of homogeneous vegetation",
+          "sourceChecked": "https://www.fao.org/4/ad652e/ad652e07.htm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Mangroves, heaths and swamps are treated as azonal and not separately mapped, and mountain systems collapse forest, alpine shrub, meadow and bare rock into one class because the framework cannot address the small-scale diversity of mountain habitats",
+          "sourceChecked": "https://www.fao.org/4/ad652e/ad652e07.htm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Tree cover is globally discontinuous; between roughly 1,000 and 2,500 mm of rainfall with under seven dry months it is bimodal and only fire differentiates savanna from forest; the two may be alternative states over large areas including parts of Amazonia and the Congo, with shifts neither smooth nor easily reversible",
+          "sourceChecked": "https://www.science.org/doi/10.1126/science.1210465",
+          "disposition": "verified"
+        },
+        {
+          "claim": "FAO land statistics put world agricultural land in 2022 at 4,781 million hectares, more than a third of global land area, of which 1,573 million ha cropland and 3,208 million ha permanent meadows and pastures, with the rest almost equally split between 4,050 million ha forest land and 4,150 million ha of deserts, glaciers, barren lands and built areas",
+          "sourceChecked": "https://www.fao.org/statistics/highlights-archive/highlights-detail/land-statistics-2001-2022.-global--regional-and-country-trends/en",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Even 12,000 years ago nearly three-quarters of Earth's land was inhabited and shaped by human societies, including more than 95 per cent of temperate and 90 per cent of tropical woodlands, and lands now called intact or wild generally carry long histories of use",
+          "sourceChecked": "https://www.pnas.org/doi/10.1073/pnas.2023483118",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The C3S land-cover record has 22 classes defined with the UN FAO Land Cover Classification System at 300 m from 1992 to present, built from a ten-year MERIS baseline for 2003-2012 extended backwards with AVHRR and SPOT-Vegetation and forwards with PROBA-V and Sentinel-3, with four quality flags documenting the reliability of classification and change detection",
+          "sourceChecked": "https://cds.climate.copernicus.eu/datasets/satellite-land-cover?tab=overview",
+          "disposition": "verified"
+        },
+        {
+          "claim": "MCD12Q1 provides five parallel legends including IGBP and plant functional types at 500 m from supervised classification of Terra and Aqua reflectance, and its documentation records that the training database was not kept updated because funding did not permit it, so some training sites may have changed cover, with users urged to treat the layers with caution for 2021 onward",
+          "sourceChecked": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A global synthesis of 1,202 studies published between 1962 and 2022 assembled 208 tree taxa across 34 mountain regions from 54 genera and 26 families, with the Andes and Himalaya holding the most species; 152 occur in the temperate biome and the compilers note this may reflect where the studies were done",
+          "sourceChecked": "https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4309",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The attribution of the temperature-precipitation biome diagram to Robert Whittaker, and the Mediterranean-shrubland convergence example (California, Chile, the Cape, southwest Australia), carry no citation anywhere in the article. Both are standard textbook material and neither was checked against a source; they were left in place.",
+        "science.org, pnas.org and the Wiley ESA journals block scripted clients. Staver et al. (2011), Ellis et al. (2021) and the ToTE data paper were read as full abstracts through the Europe PMC REST API; every figure checked appears in the abstract, but none of the three bodies was read.",
+        "The two FAO pages were read twice each: once through WebFetch and once as raw HTML retrieved by curl, because they carry the numbers that a reader is most likely to quote. All figures matched on both readings."
+      ]
+    }
+  ]
+}

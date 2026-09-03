@@ -18,7 +18,7 @@ export function generateMetadata({ params }: Props): Metadata {
     title: "Terms of Use",
     description:
       "Terms of Use for EcoScienceHub, including acceptable use, scientific content limitations, intellectual property, and privacy references.",
-    path: "/%s",
+    path: "/terms-of-use",
     locale: params.locale,
     // The policy text is English only. Advertising a French or Russian
     // alternate for a page that serves English is a false hreflang

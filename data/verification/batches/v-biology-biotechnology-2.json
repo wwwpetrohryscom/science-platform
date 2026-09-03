@@ -1,0 +1,237 @@
+{
+  "batchId": "v-biology-biotechnology-2",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent second-pass review: load-bearing claims read against the cited source.",
+  "articles": [
+    {
+      "slug": "bioinformatics-explained",
+      "path": "content/en/biology/biotechnology/bioinformatics-explained.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "GenBank release 273, August 2026, holds 8,236,878,868,450 bases in 267,383,895 sequence records, and the WGS division holds a further 50,829,714,144,609 bases across more than 5.1 billion records",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/genbank/statistics/",
+          "disposition": "verified",
+          "note": "Release 273 (August 2026) row read directly: 8,236,878,868,450 bases / 267,383,895 sequences for GenBank; 50,829,714,144,609 bases / 5,132,699,813 sequences for WGS. Live product, but the article already carries the release number and month."
+        },
+        {
+          "claim": "NCBI's Sequence Read Archive passed 91 petabases at the last point in its published growth series, in February 2024",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/Traces/sra/sra_stat.cgi",
+          "disposition": "verified",
+          "note": "The cited growth page renders the series only as an image; I downloaded the CSV it links to. Final row is 02/25/2024 at 91,187,032,470,955,695 bases, i.e. 91.19 petabases, and the series does indeed stop there."
+        },
+        {
+          "claim": "GRCh38 contained 151.71 Mb of segmental duplication and the first complete assembly contains 201.93 Mb; 1,956 genes are annotated in regions where GRCh38 has no primary alignment",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186530/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "UniProtKB held roughly 246 million sequence records at release 2024_04; incorporating one signature resource generated 9,141 new rules and 119,579,654 new predictions for over 20 million sequences; a machine-learning naming system named more than 28 million previously uncharacterised entries",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701636/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "UniProtKB's manually reviewed section is measured in hundreds of thousands",
+          "sourceChecked": "https://rest.uniprot.org/uniprotkb/search?query=reviewed:true&size=0",
+          "disposition": "verified",
+          "note": "The cited UniProt 2025 paper does not state the Swiss-Prot total, so I confirmed it independently: the UniProt REST API returns 575,748 reviewed entries at release 2026_02. Claim holds; the source that carries it is not the one cited."
+        },
+        {
+          "claim": "In 37 enzyme families, curated UniProtKB misannotation was close to zero while automatically annotated databases averaged 5 to 63 per cent across superfamilies; misannotation exceeded 80 per cent in at least one database for 10 of the 37 families; most errors were overprediction and the rate rose between 1993 and 2005 through propagation",
+          "sourceChecked": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000605",
+          "disposition": "verified",
+          "note": "All four numbers read verbatim, including 'average 5%-63% across the six superfamilies studied' and 'For 10 of the 37 families ... >80%'. The propagation mechanism is the paper's own: 'error propagation ... is also a primary cause of the high and varied levels of misannotation that were observed'."
+        },
+        {
+          "claim": "The GWAS Catalog, as of its August 2026 release, holds 1,191,572 reported associations from 7,797 studies covering 562,145 variants",
+          "sourceChecked": "https://www.ebi.ac.uk/gwas/home",
+          "disposition": "corrected",
+          "note": "All three figures match the Catalog exactly (stats endpoint behind the cited page: date 2026-08-22, associations 1191572, studies 7797, snps 562145), but 7,797 is not a count of studies. The cited home page renders that value under the label 'publications' ('the GWAS Catalog contains <n> publications, <n> top associations and <n> full summary statistics'); a GWAS Catalog study is a GCST accession and there are far more of those than publications. Changed 'studies' to 'publications'."
+        },
+        {
+          "claim": "A study of 219 deep human whole-genome datasets found 20 to 30 per cent of the genome in low-concordance territory, with concordance depending predominantly on genomic context rather than on the dataset",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5903559/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "GIAB benchmarks excluded nearly 400 medically relevant genes; a curated set covering 273 of those 395 genes showed reference false duplications causing missed variants, with masking raising recall from 8 per cent to 100 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9117392/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Genome in a Bottle Consortium is hosted by NIST and produces the benchmark variant calls against which pipelines are scored, with stratification of difficult genomic regions",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The SRA growth series is published only as a plot on the cited page; the figure was verified from the CSV endpoint that page links to, not from the page itself."
+      ]
+    },
+    {
+      "slug": "protein-structure-prediction",
+      "path": "content/en/biology/biotechnology/protein-structure-prediction.md",
+      "status": "amended",
+      "claimsChecked": 11,
+      "findings": [
+        {
+          "claim": "At CASP14 the leading method reached a median backbone accuracy of 0.96 A r.m.s.d.95 (95 per cent CI 0.85-1.16 A) against 2.8 A for the next best group; on all atoms 1.5 A against 3.5 A",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8371605/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An error of roughly one angstrom is the width of a covalent bond, and is comparable to the disagreement between two experimental determinations of the same protein",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8371605/",
+          "disposition": "corrected",
+          "note": "The cited paper makes a different comparison and only one: 'As a comparison point for this accuracy, the width of a carbon atom is approximately 1.4 A.' It offers no comparison with the disagreement between independent experimental determinations. Replaced with the source's own scale comparison. The related and supported point - that many CASP14 models were already within experimental uncertainty - is the CASP15 assessors' verbatim statement, which the next paragraph already quotes."
+        },
+        {
+          "claim": "CASP15 assessed 98 suitable targets from 162 groups in 89 laboratories across 17 countries; Ca r.m.s.d. below 3 A for over 90 per cent of targets and below 1 A for 40 per cent; assessors attributed modest gains to CASP14 structures already being within experimental uncertainty",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10843301/",
+          "disposition": "verified",
+          "note": "Quoted sentence matches the source verbatim, including 'more modest likely because in CASP14 many computed structures were already within experimental uncertainty, so there is not much room for further improvement'."
+        },
+        {
+          "claim": "pLDDT confidence bands: above 90 high accuracy, 70-90 reliable backbone, 50-70 use cautiously, below 50 an extended trace indicating probable disorder",
+          "sourceChecked": "https://academic.oup.com/nar/article/52/D1/D368/7337620",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A systematic test on 98 fold-switching proteins found 94 per cent of predictions captured one experimentally determined conformation but not the other, with moderate-to-high confidence for 74 per cent of fold-switching residues, read by the authors as pattern search for a single conformer rather than ensemble biophysics",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9134877/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Intrinsically disordered proteins make up roughly 30 per cent of eukaryotic proteomes",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39718444&resultType=core",
+          "disposition": "verified",
+          "note": "PubMed served only a cookie notice to a scripted client, so the abstract of the cited PMID was read from the Europe PMC record of the same paper: 'Intrinsically disordered proteins (IDPs) make up around 30% of eukaryotic proteomes'."
+        },
+        {
+          "claim": "In CASP15 the fraction of high-quality models of protein assemblies rose from under 10 per cent to over 60 per cent on both interface measures, while over 90 per cent of single-chain targets came within 3 A",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10843301/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Five stability predictors applied to more than a thousand missense variants across 26 hereditary-cancer genes gave areas under the ROC curve between 0.614 and 0.719 for most tools and 0.534 for one",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9988940/",
+          "disposition": "verified",
+          "note": "Source reports 1,201 unique missense variations across the 26 named genes; 'The AUROC values ranged between 0.614-0.719 for the total set'; MUpro 0.534. The article's split phrasing ('most of the tools ... and one of them') matches how the source separates them."
+        },
+        {
+          "claim": "Clustering the input sequence alignment by similarity makes the same model produce multiple distinct conformations for proteins known to switch",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10808063/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Protein Data Bank now distributes 259,412 experimental and integrative structures alongside 1,062,058 computed models, and a prediction database covers more than 214 million sequences",
+          "sourceChecked": "https://www.rcsb.org/statistics",
+          "disposition": "qualified",
+          "note": "Live dataset, added temporal qualifier. Both PDB figures match the cited page exactly today, but they are running counters and the sentence read as timeless. The cited page prints no 'as of' date, so the anchor was taken from the archive itself: the RCSB search API returns 259,412 experimental entries, and the most recently released of them has initial_release_date 2026-09-02. Sentence now opens 'As of its 2 September 2026 release'."
+        },
+        {
+          "claim": "Source 8 attributes the disorder estimate to Methods in Molecular Biology, titled 'Searching and using MobiDB resource 6 for intrinsically disordered proteins'",
+          "sourceChecked": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39718444&resultType=core",
+          "disposition": "corrected",
+          "note": "PMID 39718444 is in Current Protocols (2024, doi 10.1002/cpz1.70077), not Methods in Molecular Biology, and its title is 'Searching and Using MobiDB Resource 6 to Explore Predictions and Annotations for Intrinsically Disordered Proteins'. Journal name and title corrected in the source list; the URL and the claim it supports were both correct."
+        }
+      ],
+      "openQuestions": [
+        "PubMed blocks scripted clients with a cookie interstitial, so the intrinsic-disorder figure was confirmed from the Europe PMC record of the cited PMID rather than from the cited page itself.",
+        "The RCSB statistics page carries no printed release date. The 2 September 2026 anchor is the initial release date of the newest PDB entry, read from the RCSB data API; if the desk prefers an anchor printed on the page itself, there is none to take."
+      ]
+    },
+    {
+      "slug": "biotechnology-in-agriculture-evidence",
+      "path": "content/en/biology/biotechnology/biotechnology-in-agriculture-evidence.md",
+      "status": "amended",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "Most of the engineered crop area worldwide carries one of two traits, insecticidal Bt proteins or tolerance to a broad-spectrum herbicide",
+          "sourceChecked": "https://www.nationalacademies.org/read/23395/chapter/2",
+          "disposition": "verified",
+          "note": "Supported by the report's opening: 'only two traits-insect resistance and herbicide resistance-had been genetically engineered into a few crop species and were in widespread use in 2015'."
+        },
+        {
+          "claim": "A pooled analysis of 147 original studies reported pesticide use down 37 per cent, yields up 22 per cent and farmer profits up 68 per cent, with yield advantages 14 percentage points higher in developing than developed countries",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0111629",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Several of the original studies did not report sample sizes or measures of variance, which constrained the weighting",
+          "sourceChecked": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0111629",
+          "disposition": "verified",
+          "note": "The authors' own words: 'several of the original studies do not report measures of variance, so that weighting by variance is not possible'. The article correctly attributes the caveat to them rather than raising it as an outside objection."
+        },
+        {
+          "claim": "The National Academies committee heard 80 speakers and read more than 700 public comments, found 'reasonable evidence that animals were not harmed by eating food derived from GE crops' and 'no substantiated evidence that foods from GE crops were less safe than foods from non-GE crops'",
+          "sourceChecked": "https://www.nationalacademies.org/read/23395/chapter/2",
+          "disposition": "verified",
+          "note": "Both quoted strings match the Summary chapter word for word, including 'less safe than foods from non-GE crops'. Source reads 'heard from 80 diverse speakers, and read more than 700 comments from members of the public'."
+        },
+        {
+          "claim": "The National Academies noted that herbicide-resistant crops sprayed with glyphosate 'often had small increases in yield in comparison with non-HR counterparts'",
+          "sourceChecked": "https://www.nationalacademies.org/read/23395/chapter/2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WHO states that GM foods currently available on the international market 'have passed safety assessments and are not likely to present risks for human health', and that no health effects have been shown from consumption where approved",
+          "sourceChecked": "https://www.who.int/news-room/questions-and-answers/item/food-genetically-modified",
+          "disposition": "verified",
+          "note": "Quoted verbatim. WHO's second statement reads 'No effects on human health have been shown as a result of the consumption of such foods by the general population in the countries where they have been approved' - the article's paraphrase preserves the population-level scope rather than upgrading it."
+        },
+        {
+          "claim": "Assessment under the Codex framework is done case by case and per product, evaluating direct effects of the inserted sequence together with unintended effects",
+          "sourceChecked": "https://www.who.int/news-room/questions-and-answers/item/food-genetically-modified",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A review of the first 25 years analysed 24 pest species across 73 cases; practical resistance rose from 3 in 2005 to 26 in 2020, affecting 11 pest species across nine Cry toxins in seven countries",
+          "sourceChecked": "https://academic.oup.com/jee/article/116/2/297/6968925",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Thirty cases showed no decrease in susceptibility across 16 pest species in 10 countries, and 17 more were early warnings",
+          "sourceChecked": "https://academic.oup.com/jee/article/116/2/297/6968925",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Pink bollworm: US refuges 1996-2005 then Bt cotton plus sterile moth releases eradicated the pest regionally; Chinese second-generation hybrid seed yields a 25 per cent non-Bt refuge adopted for agronomic reasons and low-level resistance reversed; in India scarce refuges left resistance to Cry1Ac plus Cry2Ab widespread with control now depending on integrated tactics",
+          "sourceChecked": "https://academic.oup.com/jee/article/112/6/2513/5524246",
+          "disposition": "verified",
+          "note": "All three country accounts match, including that Chinese farmers 'adopted this tactic voluntarily and unknowingly, not to manage resistance, but apparently because of its perceived short-term agronomic and economic benefits'."
+        },
+        {
+          "claim": "A global overview counted 220 weed species resistant to at least one herbicide and 404 unique species x site-of-action cases, 24 species with glyphosate resistance and 16 of those within herbicide-tolerant cropping systems",
+          "sourceChecked": "https://pubmed.ncbi.nlm.nih.gov/24302673/",
+          "disposition": "qualified",
+          "note": "Live dataset, added temporal qualifier. Every figure matches the cited review exactly, but they are snapshots of the continuously updated international herbicide-resistant weed database and the sentence read as current; the counts have risen substantially since. The review is Pest Management Science 2014, so the sentence now opens 'A 2014 global overview'. Abstract read via the Europe PMC record because PubMed blocks scripted clients."
+        },
+        {
+          "claim": "The National Academies said process-based regulatory systems are 'technically difficult to defend' and recommended safety testing of new varieties with novel characteristics whether engineered or conventionally bred",
+          "sourceChecked": "https://www.nationalacademies.org/read/23395/chapter/2",
+          "disposition": "verified",
+          "note": "Quote verbatim. The recommendation reads 'if they have novel intended or unintended characteristics with potential hazards' - the article's 'novel characteristics with potential hazards' drops 'intended or unintended' without changing the sense."
+        },
+        {
+          "claim": "Regulatory table rows: EU regulates by process after the 2018 Court of Justice ruling; Canada by novelty with exemption where no foreign DNA is present; India exempted SDN-1 and SDN-2 in March 2022; China's guidelines exclude SDN-3; Kenya assesses case by case with deregulation possible for deletions and knockouts",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9614466/",
+          "disposition": "verified",
+          "note": "Each row traced to the review, including the CJEU ruling requiring 'the application of all obligations for the approval of transgenic organisms', India's 30 March 2022 exemption of SDN1 and SDN2, China's coverage of products 'that have not introduced exogeneous genes (all except SDN3 approaches)', and Kenya's 'all deletions/knock outs'."
+        },
+        {
+          "claim": "A review of these policies found the rationales offered for the split are about predictability, familiarity and reduced off-target effects, which are policy arguments rather than a criterion that distinguishes products by hazard",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9614466/",
+          "disposition": "qualified",
+          "note": "Overstated what the review says and attributed the article's own judgement to it. The review gives one rationale: edits produce changes 'comparable to those achieved with conventional breeding or already established mutation techniques but with a reduced number of side effects such as unwanted additional mutations (Off-Targets)'. The word 'familiarity' does not appear in the paper at all, and 'predictable' appears once, describing the technique rather than any policy rationale. Rewritten to state the review's actual rationale, to date the review (2022, which also dates the table above it), and to mark the concluding judgement as the article's own rather than a finding of the review."
+        }
+      ],
+      "openQuestions": [
+        "The regulatory table follows a 2022 review and the article flags it as a snapshot. EU rules for new genomic techniques have been under active legislative revision since, and no source cited in the article covers the current position, so the EU row could only be verified as of 2022.",
+        "The herbicide-resistance counts could be read only from the Europe PMC abstract record of the cited review; the Pest Management Science full text is paywalled."
+      ]
+    }
+  ]
+}

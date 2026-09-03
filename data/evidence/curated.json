@@ -1,0 +1,159 @@
+{
+  "_comment": "Hand-maintained enrichment for the evidence registry. Host rules apply to a whole publisher; url rules apply to a URL prefix and win over host rules; record rules are keyed by evidenceId and win over both. isLiveDataset is curated rather than inferred because it is a judgement about a product, not a property of a URL, and guessing it permissively would present a moving number as a fixed one.",
+  "hosts": {
+    "gml.noaa.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "monthly",
+      "notes": "Global Monitoring Laboratory trend series; values are revised as the record extends."
+    },
+    "ncei.noaa.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "monthly",
+      "notes": "Global temperature and State of the Climate products are reissued monthly and annually."
+    },
+    "sealevel.nasa.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "continuous",
+      "notes": "Altimeter record; the cumulative rise and the rate both move with each release."
+    },
+    "nsidc.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "daily",
+      "notes": "Sea-ice extent and related cryosphere indices."
+    },
+    "climate.copernicus.eu": {
+      "isLiveDataset": true,
+      "updateFrequency": "monthly",
+      "notes": "C3S monthly and annual climate bulletins."
+    },
+    "wgms.ch": {
+      "isLiveDataset": true,
+      "updateFrequency": "annual",
+      "notes": "Glacier mass-balance series."
+    },
+    "airnow.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "hourly"
+    },
+    "tidesandcurrents.noaa.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "continuous"
+    },
+    "coralreefwatch.noaa.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "twice weekly"
+    },
+    "oceanacidification.noaa.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "periodic"
+    },
+    "argo.ucsd.edu": {
+      "isLiveDataset": true,
+      "updateFrequency": "continuous"
+    },
+    "globalcarbonproject.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "annual",
+      "notes": "The global carbon budget is reissued yearly and prior years are revised."
+    },
+    "iucnredlist.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "several times a year",
+      "notes": "Assessment counts change with each update."
+    },
+    "livingplanetindex.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "biennial"
+    },
+    "protectedplanet.net": {
+      "isLiveDataset": true,
+      "updateFrequency": "monthly",
+      "notes": "WDPA coverage figures change monthly."
+    },
+    "gbif.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "continuous",
+      "notes": "Occurrence and taxon counts grow continuously."
+    },
+    "catalogueoflife.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "monthly"
+    },
+    "gfr.wri.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "annual"
+    },
+    "earthdata.nasa.gov": {
+      "isLiveDataset": true,
+      "updateFrequency": "continuous"
+    },
+    "rcsb.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "weekly"
+    },
+    "ebi.ac.uk": {
+      "isLiveDataset": true,
+      "updateFrequency": "continuous"
+    },
+    "ensembl.org": {
+      "isLiveDataset": true,
+      "updateFrequency": "quarterly"
+    },
+    "nobelprize.org": {
+      "sourceType": "other",
+      "notes": "Cited as a dated record of what was recognised and when, not as a scientific source."
+    },
+    "verra.org": {
+      "sourceType": "other",
+      "notes": "Commercial carbon-standards body. Cited only for the content of its own protocols, never as scientific authority."
+    },
+    "wwf.org.uk": {
+      "sourceType": "research-institute",
+      "isLiveDataset": true,
+      "updateFrequency": "biennial",
+      "notes": "Publisher of record for the Living Planet Index; cited for the index's own method and figures."
+    },
+    "staatsbosbeheer.nl": {
+      "sourceType": "government",
+      "notes": "Netherlands state forestry service; primary record for Dutch reserve-management case material."
+    }
+  },
+  "urls": {
+    "https://science.nasa.gov/climate-change": {
+      "isLiveDataset": true,
+      "updateFrequency": "monthly",
+      "notes": "NASA vital-signs figures update with each release; the rest of science.nasa.gov is static explainer material."
+    },
+    "https://www.eia.gov/electricity/monthly": {
+      "isLiveDataset": true,
+      "updateFrequency": "monthly"
+    },
+    "https://www.eia.gov/electricity/annual": {
+      "isLiveDataset": true,
+      "updateFrequency": "annual"
+    },
+    "https://www.eia.gov/todayinenergy": {
+      "isLiveDataset": false,
+      "notes": "Dated article; the figures in it are fixed at publication."
+    },
+    "https://www.nlr.gov/pv/cell-efficiency": {
+      "isLiveDataset": true,
+      "updateFrequency": "as records are certified",
+      "notes": "Best research-cell efficiency chart; champion values change."
+    },
+    "https://www.nlr.gov/pv/module-efficiency": {
+      "isLiveDataset": true,
+      "updateFrequency": "as records are certified"
+    },
+    "https://www.nlr.gov/pv/lifetime": {
+      "isLiveDataset": true,
+      "updateFrequency": "periodic"
+    },
+    "https://www.iea.org/": {
+      "isLiveDataset": true,
+      "updateFrequency": "continuous",
+      "notes": "Site root; individual dated reports are stable editions."
+    }
+  },
+  "records": {}
+}

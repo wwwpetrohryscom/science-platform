@@ -23,7 +23,7 @@ Almost every claim about nature contains a hidden comparison. To say a populatio
 
 ## What a baseline is and why it matters
 
-A [baseline condition](/en/glossary/baseline-condition) is the reference state against which biodiversity change is judged. Words such as "loss," "recovery," and "intact" have no meaning on their own; each is defined relative to a chosen point of comparison. Move the reference, and the same set of observations can support different conclusions about whether a system is improving or deteriorating.
+A [baseline condition](/en/glossary/baseline-condition) is the [reference state](/en/glossary/reference-state) against which biodiversity change is judged. Words such as "loss," "recovery," and "intact" have no meaning on their own; each is defined relative to a chosen point of comparison. Move the reference, and the same set of observations can support different conclusions about whether a system is improving or deteriorating.
 
 This dependence is easy to overlook because baselines are often left implicit. A survey may report that a forest, reef, or fishery is stable without stating which past condition that stability is measured from. Yet the reference does the heavy lifting: it determines what counts as a healthy state and what counts as a deviation. Making the comparison visible is the first step toward reading any biodiversity figure carefully.
 

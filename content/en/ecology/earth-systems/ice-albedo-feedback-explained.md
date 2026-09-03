@@ -50,7 +50,7 @@ The regional consequences follow from the regional magnitude rather than the glo
 
 ## What it is not
 
-The ice-albedo feedback is frequently invoked to support the idea that summer sea-ice loss is a tipping point beyond which recovery is impossible. AR6's cross-chapter assessment is explicit in the other direction: it classifies Arctic *summer* sea ice as **not** subject to abrupt change, with high confidence, and as reversible within years to decades, also with high confidence, while projecting likely complete loss under continued warming. Arctic *winter* sea ice is assessed as capable of abrupt change with high confidence, but also as reversible on the same timescale.
+The [ice-albedo feedback](/en/glossary/ice-albedo-feedback) is frequently invoked to support the idea that summer sea-ice loss is a tipping point beyond which recovery is impossible. AR6's cross-chapter assessment is explicit in the other direction: it classifies Arctic *summer* sea ice as **not** subject to abrupt change, with high confidence, and as reversible within years to decades, also with high confidence, while projecting likely complete loss under continued warming. Arctic *winter* sea ice is assessed as capable of abrupt change with high confidence, but also as reversible on the same timescale.
 
 The distinction matters. "Likely to be lost" and "irreversible once lost" are different claims, and the evidence supports the first without supporting the second for summer ice. The wider treatment of which components genuinely qualify is in [Earth-system tipping points](/en/ecology/earth-systems/earth-system-tipping-points).
 
