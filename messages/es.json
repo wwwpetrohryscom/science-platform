@@ -206,7 +206,7 @@
     "pillar_callout": "Artículo pilar — {subtopic}",
     "read_pillar": "Leer el pilar →",
     "related_heading": "Lecturas relacionadas",
-    "fallback_notice": "Este artículo aún no se ha traducido al {language}. Se muestra la versión en inglés a continuación."
+    "fallback_notice": "Este artículo aún no se ha traducido al español. Se muestra la versión en inglés a continuación."
   },
   "insights": {
     "eyebrow": "Análisis",

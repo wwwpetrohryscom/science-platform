@@ -162,6 +162,15 @@ function main() {
       .filter((r): r is string => Boolean(r)),
   );
 
+  // A first pass for indexability alone: the link check below needs to
+  // know, for every route, whether it is a real page or a 404 rendered
+  // at a route with no content in that locale.
+  const noindexRoutes = new Set<string>();
+  for (const page of pages) {
+    const meta = page.html.match(/<meta[^>]+name="robots"[^>]*>/gi) ?? [];
+    if (meta.some((t) => /noindex/i.test(attr(t, "content") ?? ""))) noindexRoutes.add(page.route);
+  }
+
   const titles = new Map<string, string[]>();
   const descriptions = new Map<string, string[]>();
   const alternatesByRoute = new Map<string, Map<string, string>>();
@@ -417,11 +426,32 @@ function main() {
       }
     }
 
-    // --- internal links, for the depth pass --------------------------
-    const hrefs = [...html.matchAll(/href="(\/[^"#?]*)"/g)]
-      .map((m) => m[1].replace(/\/$/, "") || "/")
-      .filter((h) => built.has(h));
-    linksByRoute.set(route, [...new Set(hrefs)]);
+    // --- internal links ----------------------------------------------
+    // Two jobs: feed the depth pass, and catch a link from a page that
+    // is in the index to a page that is not. That second one is how
+    // 721 links inside the translated corpus were found pointing at
+    // routes that render a 404 in their own locale.
+    const hrefs = [...new Set(
+      [...html.matchAll(/href="(\/[^"#?]*)"/g)].map((m) => m[1].replace(/\/$/, "") || "/"),
+    )];
+    for (const href of hrefs) {
+      if (!noindexRoutes.has(href)) continue;
+      // A noindex route with an indexable English twin is the locale
+      // fallback working as designed: the reader gets the English
+      // article plus a notice in their own language, and the page is
+      // kept out of the index so it cannot compete with the original.
+      // Linking to one is correct. Linking to a noindex page that is
+      // NOT that is a link into a dead end.
+      const englishTwin = href.replace(/^\/[a-z]{2}\//, "/en/");
+      if (englishTwin !== href && built.has(englishTwin) && !noindexRoutes.has(englishTwin)) continue;
+      issues.push({
+        severity: "error",
+        rule: "links-to-dead-end",
+        where: route,
+        message: `links to ${href}, which is noindex and has no indexable English original`,
+      });
+    }
+    linksByRoute.set(route, hrefs.filter((h) => built.has(h)));
   }
 
   // --- cross-page: hreflang reciprocity -----------------------------
@@ -498,6 +528,10 @@ function main() {
     }
   }
   for (const page of pages) {
+    // Locale-fallback pages are deliberately kept out of the index and
+    // out of the sitemap; they are not orphans, they are the English
+    // article answering a URL in another locale.
+    if (noindexRoutes.has(page.route)) continue;
     const d = depth.get(page.route);
     if (d === undefined) {
       issues.push({
