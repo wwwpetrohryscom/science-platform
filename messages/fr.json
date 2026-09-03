@@ -250,7 +250,11 @@
     "footer_note": "Indépendance éditoriale. Citations bienvenues — merci de pointer vers l'URL canonique.",
     "sourcing_policy": "Politique de sourçage",
     "editorial_desks": "Rédactions",
-    "corrections": "Corrections et contact"
+    "corrections": "Corrections et contact",
+    "glossary": "Glossaire",
+    "privacy_policy": "Politique de confidentialité",
+    "cookie_policy": "Politique relative aux cookies",
+    "terms_of_use": "Conditions d'utilisation"
   },
   "newsletter": {
     "eyebrow": "Newsletter",

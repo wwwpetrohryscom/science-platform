@@ -240,7 +240,11 @@
     "footer_note": "Editorially independent. Citations welcome — please link to the canonical URL.",
     "sourcing_policy": "Sourcing policy",
     "editorial_desks": "Editorial desks",
-    "corrections": "Corrections & contact"
+    "corrections": "Corrections & contact",
+    "glossary": "Glossary",
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Cookie Policy",
+    "terms_of_use": "Terms of Use"
   },
   "newsletter": {
     "eyebrow": "Newsletter",

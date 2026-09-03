@@ -35,7 +35,12 @@ export function Footer({ locale }: FooterProps) {
       links: [
         { href: localizedPath(locale, "/insights"), label: t("nav.insights") },
         { href: localizedPath(locale, "/discussions"), label: t("nav.discussions") },
-        { href: "/en/glossary", label: "Glossary" },
+        // The glossary is English-only (there is no localized term
+        // set yet), so this is an absolute /en/ path like the editorial
+        // pages. The *label* is localized even though the destination
+        // is not — a reader should be able to read the nav in their own
+        // language and then find out where the link goes.
+        { href: "/en/glossary", label: t("footer.glossary") },
       ],
     },
     {
@@ -49,9 +54,9 @@ export function Footer({ locale }: FooterProps) {
         { href: "/en/sourcing-policy", label: t("footer.sourcing_policy") },
         { href: "/en/editorial", label: t("footer.editorial_desks") },
         { href: "/en/corrections", label: t("footer.corrections") },
-        { href: localizedPath(locale, "/privacy-policy"), label: "Privacy Policy" },
-        { href: localizedPath(locale, "/cookie-policy"), label: "Cookie Policy" },
-        { href: localizedPath(locale, "/terms-of-use"), label: "Terms of Use" },
+        { href: localizedPath(locale, "/privacy-policy"), label: t("footer.privacy_policy") },
+        { href: localizedPath(locale, "/cookie-policy"), label: t("footer.cookie_policy") },
+        { href: localizedPath(locale, "/terms-of-use"), label: t("footer.terms_of_use") },
         { href: "/rss.xml", label: t("footer.rss") },
       ],
     },
