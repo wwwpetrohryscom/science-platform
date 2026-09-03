@@ -90,6 +90,54 @@ export const categories: CategoryDefinition[] = [
         intent:
           "Reader wants to understand how Earth is observed from space: the satellites and sensors, how raw signals become scientific data, and the limits of remote-sensing measurements.",
       },
+      {
+        slug: "conservation",
+        label: "Conservation Science",
+        description:
+          "Protected areas, species recovery, restoration, and invasive-species management \u2014 what conservation interventions achieve, and how that is measured.",
+        intent:
+          "Reader wants to know which conservation interventions have measurable effects, how effectiveness is evaluated, and where the evidence is weaker than the headlines suggest.",
+      },
+      {
+        slug: "oceans",
+        label: "Oceans & Marine Science",
+        description:
+          "Ocean circulation, chemistry, productivity, and marine ecosystems \u2014 how the ocean works as a habitat and as a component of the climate system.",
+        intent:
+          "Reader wants to understand marine ecosystems and ocean processes: what lives there, what drives productivity, and how warming, acidification, and extraction change them.",
+      },
+      {
+        slug: "freshwater",
+        label: "Freshwater & Wetlands",
+        description:
+          "Rivers, lakes, groundwater, and wetlands \u2014 the smallest reservoirs in the water cycle and the most heavily used, and what determines their condition.",
+        intent:
+          "Reader wants to understand freshwater systems: how they function, how their quality and quantity are measured, and what degrades or restores them.",
+      },
+      {
+        slug: "forests",
+        label: "Forests & Land Cover",
+        description:
+          "Forest structure, disturbance, carbon, and land-cover change \u2014 what forests do biologically and what they are counted as doing in carbon accounting.",
+        intent:
+          "Reader wants rigorous treatment of forest ecology and forest carbon: how forests are measured, what deforestation and degradation statistics mean, and where estimates disagree.",
+      },
+      {
+        slug: "soils",
+        label: "Soils & the Land Surface",
+        description:
+          "Soil formation, soil carbon, soil biology, and land degradation \u2014 the thin, slow-forming layer that most terrestrial life depends on.",
+        intent:
+          "Reader wants to understand soils as a system: how they form, what lives in them, how soil carbon is measured, and what degradation and restoration actually change.",
+      },
+      {
+        slug: "pollution",
+        label: "Pollution & Environmental Quality",
+        description:
+          "Air, water, and chemical pollution \u2014 sources, exposure pathways, measurement, and the evidence linking contaminants to ecological and human harm.",
+        intent:
+          "Reader wants to understand pollutants specifically: what they are, how concentrations and exposures are measured, and how strong the evidence is for particular harms.",
+      },
     ],
   },
   {
@@ -124,6 +172,38 @@ export const categories: CategoryDefinition[] = [
         intent:
           "Reader wants careful evolutionary explanations grounded in evidence rather than just-so storytelling.",
       },
+      {
+        slug: "microbiology",
+        label: "Microbiology",
+        description:
+          "Bacteria, archaea, fungi, viruses, and the microbial communities that run most of the planet's biogeochemistry.",
+        intent:
+          "Reader wants a working understanding of microbial life: how it is classified and cultured, how microbiomes are studied, and what sequencing can and cannot tell us about them.",
+      },
+      {
+        slug: "physiology",
+        label: "Physiology & Organismal Biology",
+        description:
+          "How bodies work \u2014 respiration, circulation, thermoregulation, immunity, nervous systems, and development, in humans and other organisms.",
+        intent:
+          "Reader wants mechanistic explanations of physiological systems and how they are studied, without clinical advice or oversimplified diagrams.",
+      },
+      {
+        slug: "taxonomy",
+        label: "Taxonomy & the Tree of Life",
+        description:
+          "Naming, classifying, and reconstructing relationships among organisms \u2014 and the surprisingly unsettled question of how many species there are.",
+        intent:
+          "Reader wants to understand how organisms are named and classified, how phylogenies are built from data, and why species counts and boundaries are contested.",
+      },
+      {
+        slug: "biotechnology",
+        label: "Biotechnology & Bioinformatics",
+        description:
+          "Sequencing, genome editing, synthetic biology, and the computational methods that turn biological data into inference.",
+        intent:
+          "Reader wants to understand biotechnological methods and their limits: what a technique measures, what it can build, and what claims outrun the evidence.",
+      },
     ],
   },
   {
@@ -157,6 +237,30 @@ export const categories: CategoryDefinition[] = [
           "Quantum mechanics for the practitioner — the parts that matter for sensors, materials, and computing, without the philosophy.",
         intent:
           "Reader wants a working understanding of quantum behavior as it shows up in applied technology.",
+      },
+      {
+        slug: "climate-physics",
+        label: "Atmospheric & Climate Physics",
+        description:
+          "Radiation, atmospheric structure, convection, and the physics that determines how energy moves through the atmosphere and ocean.",
+        intent:
+          "Reader wants the physical mechanisms behind climate: radiative transfer, lapse rates, circulation, and why the numbers in climate science come out the way they do.",
+      },
+      {
+        slug: "mechanics-waves",
+        label: "Mechanics, Waves & Fluids",
+        description:
+          "Motion, forces, energy, oscillation, sound, light, and the behaviour of fluids \u2014 the classical physics that underlies most measurement.",
+        intent:
+          "Reader wants clear, quantitative treatments of classical mechanics, waves, optics, and fluid dynamics as they appear in real instruments and environmental systems.",
+      },
+      {
+        slug: "matter-radiation",
+        label: "Matter, Materials & Radiation",
+        description:
+          "Atomic and nuclear structure, radioactivity, particles, and the materials science behind detectors, reactors, and energy technologies.",
+        intent:
+          "Reader wants accurate foundations on radiation and materials: what the units mean, how exposure is assessed, and how nuclear and particle physics show up outside the lab.",
       },
     ],
   },

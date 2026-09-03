@@ -4,7 +4,7 @@ excerpt: Radio waves, visible light, X-rays, and gamma rays are not different ph
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-05-08'
+updatedDate: '2026-09-03'
 readingTime: 5
 tags:
   - quantum-basics
@@ -15,10 +15,11 @@ related:
   - quantum-sensors-leaving-the-lab
   - solar-radiation-and-earth-energy-balance
   - earth-energy-budget-and-the-second-law
-pillar: quantum-sensors-leaving-the-lab
+pillar: quantum-mechanics-fundamentals
+_bodyHash: 11b22558
 ---
 
-Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays are not different physical phenomena. They are the same phenomenon — propagating electromagnetic waves, equivalently described as photons — at different wavelengths. The differences in how each interacts with matter, and therefore how each is used in science and technology, follow from the wavelength alone.
+Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays are not different physical phenomena. They are the same phenomenon — propagating electromagnetic waves, equivalently described as photons, in the sense [quantum mechanics gives to that equivalence](/en/physics/quantum-basics/quantum-mechanics-fundamentals) — at different wavelengths. The differences in how each interacts with matter, and therefore how each is used in science and technology, follow from the wavelength alone.
 
 This article is the conceptual map. Reference reading from [NASA Science](https://science.nasa.gov/), [NIST](https://www.nist.gov/), and the [European Space Agency](https://www.esa.int/) covers each band in much more detail.
 
@@ -26,7 +27,7 @@ This article is the conceptual map. Reference reading from [NASA Science](https:
 
 Maxwell's equations in the late 19th century unified electricity, magnetism, and light into a single theory of electromagnetic fields. The propagating solutions are waves of electric and magnetic fields perpendicular to each other and to the direction of travel, moving at the speed of light. The frequency and wavelength are related by f × λ = c.
 
-The [quantum](/en/physics/quantum-basics/quantum-sensors-leaving-the-lab) extension, settled by Planck and Einstein in the early 20th century, is that the [energy](/en/physics/energy/perovskite-stack-field-stability) of an electromagnetic wave is quantized into photons of energy E = hf. The photon energy is what determines whether radiation can knock an electron out of an atom, vibrate a molecule, dissociate a chemical bond, or merely shake a free charge.
+The quantum extension, settled by Planck and Einstein in the early 20th century, is that the energy of an electromagnetic wave is quantized into photons of energy E = hf. The photon energy is what determines whether radiation can knock an electron out of an atom, vibrate a molecule, dissociate a chemical bond, or merely shake a free charge.
 
 The wavelength bands are conventional and overlap at their edges, but the photon-energy ordering is unambiguous. The reference treatment from [NIST](https://www.nist.gov/) and the [American Physical Society](https://journals.aps.org/rmp/) review literature documents the scales precisely.
 
@@ -36,9 +37,9 @@ The wavelength bands are conventional and overlap at their edges, but the photon
 
 **Microwave (centimetres to millimetres, µeV–meV photons).** Resonates with rotational transitions of molecules and aligns with the ~3 K cosmic microwave background. The CMB is the most-studied microwave signal — the Planck mission and successors have mapped it to high precision.
 
-**Infrared (millimetres to micrometres, meV–eV photons).** Excites molecular vibrations. Greenhouse gases absorb in specific infrared bands; the Earth radiates in the thermal infrared at ~10 µm. The [NASA Earth Observatory](https://earthobservatory.nasa.gov/) infrared imagery shows surface temperature, vegetation stress, and atmospheric composition. CERES and similar instruments measure outgoing longwave radiation in this band — the connection to [Earth's energy budget](/en/physics/energy/solar-radiation-and-earth-energy-balance).
+**Infrared (millimetres to micrometres, meV–eV photons).** Excites molecular vibrations. Greenhouse gases absorb in specific infrared bands; the Earth radiates in the thermal infrared at ~10 µm. The [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) infrared imagery shows surface temperature, vegetation stress, and atmospheric composition. CERES and similar instruments measure outgoing longwave radiation in this band — the connection to [Earth's energy budget](/en/physics/energy/solar-radiation-and-earth-energy-balance).
 
-**Visible (390–700 nm, ~1.7–3.2 eV photons).** Excites electronic transitions in molecules. The atmospheric window is roughly transparent here, which is why surface [life](/en/biology/cells/what-is-a-cell) evolved photoreceptors at these wavelengths. Photovoltaic cells operate primarily on photons in this band; the [thermodynamic limits](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) framework rests on this physics.
+**Visible (390–700 nm, ~1.7–3.2 eV photons).** Excites electronic transitions in molecules. The atmospheric window is roughly transparent here, which is why surface life evolved photoreceptors at these wavelengths. Photovoltaic cells operate primarily on photons in this band; the [thermodynamic limits](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics) framework rests on this physics.
 
 **Ultraviolet (10–390 nm, eV–tens of eV photons).** Begins to dissociate chemical bonds. Stratospheric ozone absorbs UV-B and UV-C, protecting surface biology. The [WHO](https://www.who.int/) maintains reference health guidance on UV exposure; the [NOAA](https://www.noaa.gov/) ozone-monitoring programs document the atmospheric column.
 
@@ -52,7 +53,7 @@ Wavelength sets four practical things.
 
 **Resolution.** The smallest feature you can resolve with electromagnetic radiation is bounded by the wavelength (the diffraction limit). X-ray crystallography resolves atoms because X-rays have atomic-scale wavelengths. Visible-light microscopy cannot resolve features finer than ~200 nm without specialized techniques.
 
-**Penetration.** Radio passes through matter that visible light is blocked by; X-rays pass through matter that visible light cannot. Penetration depth is determined by wavelength-specific cross-sections for absorption and scattering, tabulated by [NIST](https://www.nist.gov/) for medical and industrial [applications](/en/physics/quantum-basics/quantum-sensors-leaving-the-lab).
+**Penetration.** Radio passes through matter that visible light is blocked by; X-rays pass through matter that visible light cannot. Penetration depth is determined by wavelength-specific cross-sections for absorption and scattering, tabulated by [NIST](https://www.nist.gov/) for medical and industrial applications.
 
 **Quantum behaviour.** Single-photon detectors are routinely used at visible wavelengths (where individual photon energies are large compared to detector noise) but are harder to build at radio wavelengths (where individual photon energies are tiny). [Quantum sensors](/en/physics/quantum-basics/quantum-sensors-leaving-the-lab) leverage this asymmetry deliberately.
 
@@ -60,9 +61,9 @@ Wavelength sets four practical things.
 
 ## Why this matters across science
 
-The same physics underpins solar energy capture, [climate](/en/ecology/climate-change/what-is-climate-change) observation, medical imaging, telecommunications, astronomy, and quantum measurement. Reading these as separate fields misses that they are different applications of one physical phenomenon — the electromagnetic field, and its quantum, the photon.
+The same physics underpins solar energy capture, climate observation, medical imaging, telecommunications, astronomy, and quantum measurement. Reading these as separate fields misses that they are different applications of one physical phenomenon — the electromagnetic field, and its quantum, the photon.
 
-For [climate observation](/en/ecology/climate-change/ocean-heat-content-indicators), the energy budget of the planet is established by satellite radiometry across the infrared and visible. For [solar energy](/en/physics/energy/solar-radiation-and-earth-energy-balance), the same incoming flux is the resource being captured. For atmospheric chemistry, UV-driven photolysis sets the production and loss of stratospheric ozone. For astrophysics, the only direct evidence we have about distant objects (other than gravitational waves and a few neutrinos) is the electromagnetic radiation they emit.
+For [climate observation](/en/ecology/climate-change/ocean-heat-content-indicators), the energy budget of the planet is established by satellite radiometry across the infrared and visible. For solar energy, the same incoming flux is the resource being captured. For atmospheric chemistry, UV-driven photolysis sets the production and loss of stratospheric ozone. For astrophysics, the only direct evidence we have about distant objects (other than gravitational waves and a few neutrinos) is the electromagnetic radiation they emit.
 
 ## Limits and conventions
 

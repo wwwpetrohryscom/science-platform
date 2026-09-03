@@ -1,11 +1,11 @@
 ---
 title: 'Earth observation and remote sensing explained: how the planet is measured from space'
 excerpt: Satellites have become the instruments that let scientists watch the whole planet at once. This explains how Earth observation works — from photons to calibrated data products — what it measures across climate and ecosystems, and where its limits lie.
-type: expert
-author: environmental-science-desk
+type: pillar
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-08-29'
-readingTime: 12
+readingTime: 9
 tags:
   - earth-observation
   - remote-sensing
@@ -16,11 +16,12 @@ related:
   - landsat-program-explained
   - earth-observation-data-products
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: aeb2da90
 ---
 
 Most of what we know about how the planet is changing — shrinking ice, advancing deforestation, warming seas, greening and browning land — is now measured, at least in part, from space. [Earth observation](/en/glossary/earth-observation) is the practice of gathering information about the planet's land, ocean, atmosphere, and ice using sensors on satellites and aircraft. [Remote sensing](/en/glossary/remote-sensing) is the underlying technique: measuring something without touching it, by recording the radiation it reflects or emits.
 
-This is the hub of EcoScienceHub's Earth-observation cluster, and it is deliberately a bridge. The same satellite measurements that track [climate indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) also underpin [biodiversity monitoring](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health) and the study of [ecosystems](/en/ecology/ecosystems/what-is-an-ecosystem). This article explains how the measurements are made, what turns a raw signal into usable science, and why every satellite product carries uncertainty that has to be stated rather than hidden. The supporting articles linked throughout go deeper on each instrument and application.
+This is the hub of EcoScienceHub's Earth-observation cluster, and it is deliberately a bridge. The same satellite measurements that track [climate indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) also underpin [biodiversity monitoring](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health) and the study of ecosystems. This article explains how the measurements are made, what turns a raw signal into usable science, and why every satellite product carries uncertainty that has to be stated rather than hidden. The supporting articles linked throughout go deeper on each instrument and application.
 
 ## What remote sensing actually measures
 
@@ -28,7 +29,7 @@ A remote sensor does not photograph "deforestation" or "drought". It measures el
 
 Two broad families of instrument do this. **Passive** sensors record naturally available radiation, almost always reflected sunlight or thermal infrared emitted by the surface; optical and thermal imagers such as those on Landsat and MODIS are passive. **Active** sensors supply their own energy and measure what returns — radar and lidar send a pulse and time the echo, which lets them see through cloud and at night and measure height directly. Each surface has a characteristic [spectral signature](/en/glossary/spectral-signature): the particular way it reflects across wavelengths. Healthy vegetation, for instance, absorbs red light and reflects strongly in the near-infrared, and that contrast is the basis of the vegetation indices discussed below.
 
-The quantity a calibrated optical sensor ultimately reports is [reflectance](/en/glossary/reflectance) — the fraction of incoming light a surface returns in each band — stored as a grid of pixels, a form of [raster data](/en/glossary/raster-data). The resolution of that grid, and how often it is refreshed, are the first things that determine what a sensor can and cannot see.
+The quantity a calibrated optical sensor ultimately reports is reflectance — the fraction of incoming light a surface returns in each band — stored as a grid of pixels, a form of [raster data](/en/glossary/raster-data). The resolution of that grid, and how often it is refreshed, are the first things that determine what a sensor can and cannot see.
 
 ## The satellite systems
 
@@ -46,19 +47,19 @@ A number recorded by a sensor in orbit is not yet science. Turning it into a mea
 
 **Processing levels.** Agencies label products by how far along this chain they sit, from raw instrument data (Level 0), through calibrated and geolocated radiance (Level 1) and retrieved geophysical variables such as surface temperature or reflectance (Level 2), to gridded, time-composited products (Level 3) and model-assimilated outputs (Level 4). Knowing a product's level tells a user how much processing — and how many assumptions — already sit inside the number.
 
-**Derived indices and classification.** From surface reflectance, analysts compute indices and maps. The best known is [NDVI](/en/glossary/ndvi), the normalised difference vegetation index, explained in the [NDVI](/en/ecology/earth-observation/ndvi-explained) article and generalised in the [vegetation indices](/en/ecology/earth-observation/vegetation-indices-and-monitoring) piece. Classifying pixels into categories such as forest, water, or cropland produces [land cover](/en/glossary/land-cover) maps; comparing them over time is [land-cover change detection](/en/ecology/earth-observation/land-cover-change-detection).
+**Derived indices and classification.** From surface reflectance, analysts compute indices and maps. The best known is NDVI, the normalised difference vegetation index, explained in the NDVI article and generalised in the [vegetation indices](/en/ecology/earth-observation/vegetation-indices-and-monitoring) piece. Classifying pixels into categories such as forest, water, or cropland produces [land cover](/en/glossary/land-cover) maps; comparing them over time is [land-cover change detection](/en/ecology/earth-observation/land-cover-change-detection).
 
 ## What Earth observation measures across the environment
 
 On top of this processing chain sits a wide range of applications, and this is where the cluster connects to the rest of EcoScienceHub.
 
-For the **land surface and biosphere**, satellites map vegetation condition, track [deforestation](/en/ecology/earth-observation/satellite-deforestation-monitoring), detect [wildfires and burned area from space](/en/ecology/earth-observation/wildfire-monitoring-from-space), and feed [drought monitoring systems](/en/ecology/earth-observation/drought-monitoring-systems). These same structural measurements underpin [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) and the mapping of [habitat fragmentation](/en/ecology/biodiversity/habitat-fragmentation-metrics).
+For the **land surface and biosphere**, satellites map vegetation condition, track deforestation, detect [wildfires and burned area from space](/en/ecology/earth-observation/wildfire-monitoring-from-space), and feed [drought monitoring systems](/en/ecology/earth-observation/drought-monitoring-systems). These same structural measurements underpin [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) and the mapping of [habitat fragmentation](/en/ecology/biodiversity/habitat-fragmentation-metrics).
 
 For the **ocean**, [ocean-colour observations](/en/ecology/earth-observation/ocean-color-observations) estimate phytoplankton from the colour of the water, while altimetry tracks sea-surface height. For the **climate system**, Earth observation supplies many of the headline records: the satellite altimetry behind [sea-level rise](/en/ecology/climate-change/sea-level-rise-indicators), the sensors that monitor [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), and the imagery behind ice and temperature indicators. The point of the cluster is that these are not separate techniques but one measurement system pointed at different questions.
 
 ## Validation: why ground data still matters
 
-A satellite product is only trusted once it has been checked against independent measurements. [Ground-truthing](/en/glossary/ground-truthing) — comparing a satellite estimate against field observations, instrumented towers, ships, or higher-resolution imagery — is how the relationship between a spectral signal and a real-world quantity is calibrated and its error quantified. Earth observation does not replace fieldwork; it extends it, and the two are designed to work together. A vegetation index calibrated against no ground data is a pattern, not yet a measurement.
+A satellite product is only trusted once it has been checked against independent measurements. Ground-truthing — comparing a satellite estimate against field observations, instrumented towers, ships, or higher-resolution imagery — is how the relationship between a spectral signal and a real-world quantity is calibrated and its error quantified. Earth observation does not replace fieldwork; it extends it, and the two are designed to work together. A vegetation index calibrated against no ground data is a pattern, not yet a measurement.
 
 ## Open data and continuity
 
@@ -92,12 +93,12 @@ Every quantitative claim in this cluster is attributed to a named authority — 
 
 ## The rest of the cluster
 
-The supporting articles take each piece further: [what is remote sensing](/en/ecology/earth-observation/what-is-remote-sensing), the [Landsat program](/en/ecology/earth-observation/landsat-program-explained), the [Sentinel satellites](/en/ecology/earth-observation/sentinel-satellites-explained), the [MODIS system](/en/ecology/earth-observation/modis-earth-observation-system), [NDVI](/en/ecology/earth-observation/ndvi-explained) and the wider family of [vegetation indices](/en/ecology/earth-observation/vegetation-indices-and-monitoring), [land-cover change detection](/en/ecology/earth-observation/land-cover-change-detection), [satellite deforestation monitoring](/en/ecology/earth-observation/satellite-deforestation-monitoring), [wildfire monitoring from space](/en/ecology/earth-observation/wildfire-monitoring-from-space), [drought monitoring systems](/en/ecology/earth-observation/drought-monitoring-systems), [ocean-colour observations](/en/ecology/earth-observation/ocean-color-observations), [satellite altimetry](/en/ecology/earth-observation/satellite-altimetry-explained), [Earth observation data products](/en/ecology/earth-observation/earth-observation-data-products), the [Copernicus programme](/en/ecology/earth-observation/copernicus-programme-explained), and a frank account of [remote-sensing limitations and uncertainty](/en/ecology/earth-observation/remote-sensing-limitations-and-uncertainty). Together they explain how the planet is watched from orbit, and how to read what the watching produces.
+The supporting articles take each piece further: what is remote sensing, the Landsat program, the Sentinel satellites, the MODIS system, NDVI and the wider family of vegetation indices, land-cover change detection, [satellite deforestation monitoring](/en/ecology/earth-observation/satellite-deforestation-monitoring), wildfire monitoring from space, drought monitoring systems, ocean-colour observations, satellite altimetry, Earth observation data products, the Copernicus programme, and a frank account of [remote-sensing limitations and uncertainty](/en/ecology/earth-observation/remote-sensing-limitations-and-uncertainty). Together they explain how the planet is watched from orbit, and how to read what the watching produces.
 
 ## Sources
 
 1. **NASA Earthdata** — [Earth-science data and EOSDIS](https://www.earthdata.nasa.gov/). Gateway to NASA's Earth-observation archives and product-level documentation.
-2. **NASA Earth Observatory** — [imagery and explainers](https://earthobservatory.nasa.gov/). Topic pages on how satellite measurements are made and used.
+2. **NASA Earth Observatory** — [imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Topic pages on how satellite measurements are made and used.
 3. **USGS** — [Landsat missions](https://www.usgs.gov/landsat-missions). History, sensors, and the continuous land-surface record (with NASA).
 4. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). European Earth-observation missions and instruments.
 5. **Copernicus** — [EU Earth-observation programme](https://www.copernicus.eu/en). The Sentinels and the Copernicus services.

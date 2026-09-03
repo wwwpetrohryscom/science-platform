@@ -7,7 +7,6 @@ import { FaqSection } from "@/components/FaqSection";
 import { TableOfContents } from "@/components/TableOfContents";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
-import { GeneratedBlock } from "@/components/GeneratedBlock";
 
 import {
   formatDate,
@@ -18,18 +17,6 @@ import {
 } from "@/lib/content";
 import { getCategory } from "@/lib/categories";
 import { extractCitationUrls } from "@/lib/sources";
-import {
-  generateArticleIntro,
-  generateArticleMethodologyNote,
-  generateConceptExplanation,
-  generateResearchSummary,
-  generateUncertaintyNote,
-} from "@/lib/content/generators";
-import {
-  evidenceForConceptCopy,
-  exploreTopicCopy,
-  relatedInSubtopicCopy,
-} from "@/lib/content/internal-links";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
   getMessages,
@@ -72,38 +59,14 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
 
   const related = await getRelatedArticles(article);
 
-  // Generated content blocks — derived from structured frontmatter +
-  // body citation count. No external API call, no client-side fetch.
+  // Evidence panel inputs. Every value below is measured from the page
+  // itself — the citation count comes from the body's links and the desk
+  // from frontmatter. The previous version of this panel rendered four
+  // template-composed paragraphs, one of which asserted a confidence
+  // level ("current evidence suggests") chosen by a seeded template
+  // rather than by an editor, and all of which were English on every
+  // localized page. A fabricated calibration is worse than none.
   const citationCount = extractCitationUrls(article.rawBody).length;
-  const articleGenInput = {
-    slug: article.slug,
-    title: article.title,
-    excerpt: article.excerpt,
-    category: article.category,
-    subtopic: article.subtopic,
-    publishedDate: article.publishedDate,
-    updatedDate: article.updatedDate,
-    tags: article.tags,
-    type: article.type,
-    citationCount,
-  };
-  const introBlock = generateArticleIntro(articleGenInput);
-  const researchBlock = generateResearchSummary(articleGenInput);
-  const methodologyBlock = generateArticleMethodologyNote(article.category);
-  const uncertaintyBlock = generateUncertaintyNote({
-    level: citationCount === 0 ? "insufficient" : "medium",
-    limitation:
-      citationCount < 2 && citationCount > 0
-        ? "fewer than two independent citations on this page"
-        : undefined,
-  });
-  const primaryConcept = article.tags[0];
-  const conceptBlock = primaryConcept
-    ? generateConceptExplanation(
-        primaryConcept,
-        `${article.category}/${article.subtopic}/${article.slug}`,
-      )
-    : null;
 
   // Structured data — use the article's localized URL for inLanguage
   // and mainEntityOfPage. Hreflang is emitted via metadata, not JSON-LD.
@@ -115,6 +78,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
     publishedDate: article.publishedDate,
     updatedDate: article.updatedDate,
     authorName: article.author.name,
+    authorId: article.author.id,
     image: article.heroImage,
   });
   const faqLd =
@@ -150,7 +114,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
       )}
 
       <article className="container-page py-12 md:py-16">
-        <nav aria-label="Breadcrumb" className="text-xs text-ink-subtle">
+        <nav aria-label={t("nav.breadcrumb")} className="text-xs text-ink-subtle">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
               <Link href={localizedPath(locale, "/")} className="hover:text-primary-700">
@@ -215,12 +179,8 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
           <p className="mt-5 text-lg leading-relaxed text-ink-muted">
             {article.excerpt}
           </p>
-          <div className="mt-4 max-w-3xl">
-            <GeneratedBlock block={introBlock} variant="explanation" />
-          </div>
-
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 border-y border-ink-line py-4">
-            <AuthorBlock author={article.author} variant="byline" />
+            <AuthorBlock author={article.author} variant="byline" locale={locale} />
             <div className="text-xs text-ink-subtle">
               <p>
                 <span className="font-medium text-ink">{t("article.published")}</span>{" "}
@@ -254,43 +214,22 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                 id="evidence-summary-heading"
                 className="font-serif text-lg font-semibold text-ink"
               >
-                Evidence and uncertainty
+                {t("common.evidence_uncertainty")}
               </h2>
-              <div className="mt-3">
-                <GeneratedBlock block={researchBlock} variant="note" />
-              </div>
-              <div className="mt-3">
-                <GeneratedBlock block={uncertaintyBlock} variant="note" />
-              </div>
-              {conceptBlock && (
-                <div className="mt-3">
-                  <GeneratedBlock
-                    block={conceptBlock}
-                    variant="note"
-                    eyebrow="Concept"
-                  />
-                  <p className="mt-2 text-xs text-ink-subtle">
-                    <Link
-                      href={localizedPath(
-                        locale,
-                        `/${article.category}/${article.subtopic}`,
-                      )}
-                      className="link-quiet"
-                    >
-                      {evidenceForConceptCopy(primaryConcept ?? subtopicLabel)}
-                    </Link>
-                  </p>
-                </div>
-              )}
-              <div className="mt-4">
-                <GeneratedBlock
-                  block={methodologyBlock}
-                  variant="note"
-                  eyebrow="Methodology"
-                />
-              </div>
+              <p className="mt-3 text-sm leading-relaxed text-ink-subtle">
+                {citationCount === 1
+                  ? t("evidence.citations_one")
+                  : t("evidence.citations", { count: citationCount })}
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-subtle">
+                {t("evidence.attribution", { desk: article.author.name })}{" "}
+                <Link href="/en/sourcing-policy" className="link-quiet">
+                  {t("evidence.policy_link")}
+                </Link>
+                .
+              </p>
               <p className="mt-4 text-xs text-ink-subtle">
-                Last updated{" "}
+                {t("evidence.last_updated")}{" "}
                 <time dateTime={article.updatedDate}>
                   {formatDate(article.updatedDate, locale)}
                 </time>{" "}
@@ -299,7 +238,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                   href={localizedPath(locale, `/${article.category}`)}
                   className="link-quiet"
                 >
-                  {exploreTopicCopy(categoryLabel)}
+                  {t("hub.explore_topic", { topic: categoryLabel })}
                 </Link>{" "}
                 ·{" "}
                 <Link
@@ -309,7 +248,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                   )}
                   className="link-quiet"
                 >
-                  {relatedInSubtopicCopy(subtopicLabel)}
+                  {t("hub.more_in_subtopic", { subtopic: subtopicLabel })}
                 </Link>
               </p>
             </section>
@@ -345,7 +284,7 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
               </aside>
             )}
 
-            <AuthorBlock author={article.author} />
+            <AuthorBlock author={article.author} locale={locale} />
           </div>
 
           <aside className="hidden lg:block">

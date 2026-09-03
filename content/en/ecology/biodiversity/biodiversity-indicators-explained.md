@@ -1,10 +1,10 @@
 ---
 title: 'Biodiversity indicators explained: how a multi-dimensional thing is reported'
-excerpt: 'Because no single number captures biodiversity, monitoring distils the data into indicators. This maps the main ones — extinction risk, population abundance, habitat extent, and ecosystem intactness — and explains why they are read together rather than collapsed into one figure.'
+excerpt: Because no single number captures biodiversity, monitoring distils the data into indicators. This maps the main ones — extinction risk, population abundance, habitat extent, and ecosystem intactness — and explains why they are read together rather than collapsed into one figure.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - biodiversity-indicators
@@ -15,9 +15,11 @@ related:
   - living-planet-index-explained
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 1e4e0330
+readingTime: 5
 ---
 
-Biodiversity varies at several levels at once — the genes within a population, the abundance and range of a species, the makeup of a community, the structure of an ecosystem — and no single measurement captures all of them. To make that variation trackable, monitoring distils each dimension into an indicator. This article maps the main indicators used in international reporting, explains how each is built, and sets out why they are read side by side rather than merged into one headline figure. It sits within the wider EcoScienceHub guide to [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
+Biodiversity varies at several levels at once — the genes within a population, the abundance and range of a species, the makeup of a community, the structure of an ecosystem — and no single measurement captures all of them — which is the root of [why a species count is a weaker summary than it looks](/en/ecology/biodiversity/why-species-counts-mislead-conservation). To make that variation trackable, monitoring distils each dimension into an indicator. This article maps the main indicators used in international reporting, explains how each is built, and sets out why they are read side by side rather than merged into one headline figure. It sits within the wider EcoScienceHub guide to [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## What an indicator is, and why several are needed
 

@@ -3,7 +3,12 @@ import { notFound } from "next/navigation";
 
 import { Layout } from "@/components/Layout";
 import { buildMetadata } from "@/lib/seo";
-import { isLocale, localizedPath, type Locale } from "@/lib/i18n";
+import {
+  DEFAULT_LOCALE,
+  isLocale,
+  localizedPath,
+  type Locale,
+} from "@/lib/i18n";
 
 type Props = { params: { locale: string } };
 
@@ -13,8 +18,15 @@ export function generateMetadata({ params }: Props): Metadata {
     title: "Cookie Policy",
     description:
       "Cookie Policy for EcoScienceHub, including necessary storage, optional analytics, consent controls, and GDPR-related cookie information.",
-    path: "/cookie-policy",
+    path: "/%s",
     locale: params.locale,
+    // The policy text is English only. Advertising a French or Russian
+    // alternate for a page that serves English is a false hreflang
+    // claim, so non-EN renders are excluded from the index and the
+    // alternate set is EN alone. Translating a legal document badly is
+    // worse than not translating it; see /en/editorial-standards.
+    availableLocales: [DEFAULT_LOCALE],
+    noIndex: params.locale !== DEFAULT_LOCALE,
   });
 }
 

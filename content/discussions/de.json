@@ -1,0 +1,76 @@
+{
+  "geoengineering-field-trials": {
+    "title": "Sollte die Geoengineering-Forschung von der Modellierung zu Feldversuchen in kleinem Maßstab übergehen?",
+    "topic": "Die stratosphärische Aerosolinjektion ist vom Spekulativen zu etwas geworden, das sich plausibel innerhalb eines Jahrzehnts einsetzen ließe. Die Frage ist nicht mehr, ob sie in Modellen funktioniert – sie lautet, ob eng begrenzte Feldexperimente wissenschaftlich notwendig oder politisch fahrlässig sind.",
+    "comments": {
+      "c1": "Anmerkung der Moderation: Feldexperimente werden mitunter vorgeschlagen, weil Modelle und Laborstudien das Verhalten atmosphärischer Aerosole nicht vollständig nachbilden können. Jeder derartige Vorschlag braucht eine transparente Governance, bevor er als wissenschaftlich oder politisch akzeptabel gelten kann.",
+      "c2": "Rahmung der Diskussion: Das wissenschaftliche Argument für mehr Daten beseitigt das Governance-Problem nicht. Ein einseitig durchgeführter Versuch könnte, selbst wenn er klein ausfällt, einen Präzedenzfall schaffen, bevor es Regeln der Rechenschaftspflicht gibt.",
+      "c3": "Offene Frage: Auswirkungen auf den regionalen Niederschlag und auf die Ozeansysteme bleiben zentrale Anliegen der Geoengineering-Bewertung. Die Auslegung des Monitorings sollte Bestandteil jedes ernsthaften Vorschlags sein und nicht nachträglich angehängt werden."
+    }
+  },
+  "communicating-attribution-uncertainty": {
+    "title": "Wie sollten wir Unsicherheit in Aussagen der Klimaattribution kommunizieren?",
+    "topic": "Schnelle Attributionsstudien erscheinen heute binnen Tagen nach einem Extremereignis. Die Methoden sind solide, die Kommunikation ist uneinheitlich. Wie sieht eine verantwortungsvolle Darstellung probabilistischer Attribution für ein fachfremdes Publikum aus?",
+    "comments": {
+      "c1": "Anmerkung der Moderation: Die Ereignisattribution schätzt in der Regel ab, wie die menschengemachte Erwärmung Wahrscheinlichkeit oder Intensität verändert. Öffentliche Erklärungen sollten nicht nahelegen, ein einzelnes Ereignis habe eine einzige deterministische Ursache.",
+      "c2": "Redaktionelle Frage: Eine Darstellung in Wahrscheinlichkeiten kann auf ein fachfremdes Publikum ausweichend wirken. Die kommunikative Aufgabe besteht darin, die Unsicherheit zu bewahren, ohne die Belege für den langfristigen Klimaeinfluss zu schwächen.",
+      "c3": "Anmerkung der Moderation: Nicht jedes Extremereignis weist dasselbe Attributionssignal auf. Stärkere und schwächere Fälle zu unterscheiden, schützt die Glaubwürdigkeit, statt sie zu mindern."
+    }
+  },
+  "single-cell-data-standards": {
+    "title": "Halten die Datenstandards der Einzelzellforschung mit der Wissenschaft Schritt?",
+    "topic": "Die Einzelzellsequenzierung hat der vergleichenden Biologie einen Sprung an Auflösung gebracht. Die Datenstandards dafür, wie diese Datensätze hinterlegt, annotiert und für eine erneute Auswertung nutzbar gemacht werden, sind dahinter zurückgeblieben. Wo klemmt es derzeit am stärksten?",
+    "comments": {
+      "c1": "Anmerkung der Moderation: Standards ohne konsequente Durchsetzung der Metadaten lassen Datensätze zurück, die sich zwischen Studien nur schwer vergleichen lassen. Künftige Arbeitsabläufe von Repositorien und Zeitschriften sollten wiederverwendbare Metadaten zur Annahmebedingung machen und nicht zur optionalen Nacharbeit.",
+      "c2": "Fachübergreifende Anmerkung: Messintensive Disziplinen brauchen häufig gemeinsame Metadaten zu Kalibrierung und Erfassung, bevor Datensätze verlässlich wiederverwendbar werden. Die Einzelzellbiologie steht vor derselben Art von Infrastrukturproblem."
+    }
+  },
+  "what-counts-as-successful-restoration": {
+    "title": "Was sollte als erfolgreiche Renaturierung eines Ökosystems gelten?",
+    "topic": "Renaturierungsziele werden zunehmend in Flächeneinheiten in politische Vorgaben geschrieben. Die ökologische Fachliteratur misst den Erfolg dagegen an wiedererlangter Struktur und Funktion, und zwar gegenüber einem Referenzzustand, den man wählen muss. Das sind nicht dieselben Ziele, und ein Vorhaben kann das eine erreichen und am anderen scheitern.",
+    "comments": {
+      "c1": "Anmerkung zur Rahmung: Die Wahl des Referenzzustands bestimmt das Urteil stärker als jede Messung. Eine Fläche, die man an ihrem Zustand vor der Störung, an einem ungestörten Vergleichsbestand und an einem funktionalen Ziel misst, kann nach dem einen Maßstab ein Erfolg und nach den anderen ein Fehlschlag sein. Diese Wahl wird meist einmal, früh, getroffen und selten noch einmal überprüft.",
+      "c2": "Redaktionelle Anmerkung: Syntheseartikel finden durchgängig, dass die strukturelle Erholung der funktionalen vorauseilt und dass das Monitoring in der Regel endet, lange bevor eine von beiden abgeschlossen ist. Jede Erfolgsdefinition, die sich innerhalb eines gewöhnlichen Förderzyklus bewerten lässt, misst etwas anderes als Erholung."
+    }
+  },
+  "how-should-biodiversity-be-measured": {
+    "title": "Welches Biodiversitätsmaß sollte politische Entscheidungen leiten?",
+    "topic": "Artenreichtum, funktionale Diversität, genetische Diversität, der Living Planet Index und der Anteil geschützter Flächen werden allesamt Biodiversität genannt. Sie ordnen Orte und Maßnahmen unterschiedlich, und die Wahl des Maßes richtet sich oft nach der Verfügbarkeit von Daten und nicht nach der gestellten Frage.",
+    "comments": {
+      "c1": "Anmerkung zur Rahmung: Die Maße widersprechen einander, weil sie verschiedene Fragen beantworten. Der Artenreichtum fragt, wie viele Arten vorhanden sind, die funktionale Diversität fragt, welche Bandbreite an Rollen abgedeckt ist, und ein Abundanzindex fragt, ob sich die Populationen halten. Eine Fläche kann bei einem Maß gewinnen und bei einem anderen verlieren, ohne dass darin ein Widerspruch läge.",
+      "c2": "Redaktionelle Anmerkung: Jeder Index erbt die taxonomische und geographische Verzerrung des Monitorings, das hinter ihm steht. Wirbeltiere in Europa und Nordamerika sind weit über ihren Anteil an den beschriebenen Arten hinaus vertreten, und diese Verzerrung pflanzt sich in jede globale Kennzahl fort, die aus diesen Daten gebildet wird."
+    }
+  },
+  "where-climate-model-uncertainty-matters-most": {
+    "title": "Welche Unsicherheiten der Klimamodelle sind für Entscheidungen folgenreich?",
+    "topic": "Die Unsicherheit von Projektionen stammt aus der Wahl des Szenarios, aus der Modellstruktur und aus der internen Variabilität, und ihre relativen Gewichte verschieben sich mit dem Vorhersagehorizont und der räumlichen Skala. Behandelt man alle drei als eine einzige Größe, erzeugt das sowohl falsche Zuversicht als auch falsche Lähmung – je nachdem, welche im vorliegenden Fall dominiert.",
+    "comments": {
+      "c1": "Anmerkung zur Rahmung: Die interne Variabilität dominiert regionale Projektionen für die nahe Zukunft; bessere Modelle können sie nicht verringern, größere Ensembles sie nur eingrenzen. Die Wahl des Szenarios dominiert globale Projektionen für das späte Jahrhundert und ist überhaupt keine wissenschaftliche Unsicherheit. Wovon Entscheidungsträgerinnen und Entscheidungsträger betroffen sind, hängt ausschließlich davon ab, in welchem dieser Bereiche ihre Frage liegt.",
+      "c2": "Redaktionelle Anmerkung: Die CMIP6-Generation enthält Modelle mit einer höheren Sensitivität, als der bewertete Bereich hergibt; deshalb hat der AR6 mehrere Evidenzlinien gewichtet, statt das rohe Ensemblemittel zu nehmen. Jede nachgelagerte Verwendung eines ungewichteten Ensembles erbt dieses Problem."
+    }
+  },
+  "limits-of-renewable-energy-storage": {
+    "title": "Wo liegen die realistischen Grenzen der Speicherung in einem Netz mit hohem Erneuerbaren-Anteil?",
+    "topic": "Veröffentlichte Schätzungen des Speicherbedarfs eines Systems mit hohem Erneuerbaren-Anteil unterscheiden sich um eine Größenordnung. Die Spannweite rührt weniger von der Batteriechemie her als von den Annahmen über Übertragungsnetze, Lastflexibilität und darüber, welchen Teil des Jahres das System ohne Erzeugung überbrücken muss.",
+    "comments": {
+      "c1": "Anmerkung zur Rahmung: Tages- und Saisonspeicher sind getrennte ingenieurtechnische Probleme. Eine Technologie, die auf einen einzigen Tageszyklus mit hohem Zyklenwirkungsgrad optimiert ist, taugt schlecht für einen Speicher, der einmal im Jahr gefüllt wird; dort werden die Kosten je Energieeinheit statt je Leistungseinheit zur bindenden Kenngröße.",
+      "c2": "Redaktionelle Anmerkung: Der Speicherbedarf ist keine Eigenschaft des Erzeugungsmixes allein. Netzreichweite, Lastmanagement und Überbauung ersetzen Speicher jeweils zu einem bestimmten Umtauschverhältnis, und deshalb können zwei glaubwürdige Studien um eine Größenordnung auseinanderliegen, ohne dass eine von beiden in der Physik irrt."
+    }
+  },
+  "how-should-soil-carbon-be-credited": {
+    "title": "Lässt sich die Veränderung des Bodenkohlenstoffs gut genug messen, um sie zu zertifizieren?",
+    "topic": "Märkte für Bodenkohlenstoff geben Zertifikate für Veränderungen aus, die nahe an der Nachweisgrenze praktikabler Beprobung liegen und mitunter darunter. Die Antwort darauf lautete, zu modellieren statt zu messen – was das Problem der Verifikation verschiebt, statt es zu lösen.",
+    "comments": {
+      "c1": "Anmerkung zur Rahmung: Das Nachweisproblem ist zuerst ein arithmetisches und erst danach ein ackerbauliches. Die jährliche Veränderung unter verbesserter Bewirtschaftung ist klein gegenüber dem Vorrat und gegenüber der räumlichen Varianz innerhalb eines Schlages, und der Stichprobenumfang, den ihr Nachweis bei brauchbarer Sicherheit erfordert, steigt entsprechend.",
+      "c2": "Redaktionelle Anmerkung: Ob eine auf Bodenkohlenstoff ausgerichtete Bewirtschaftung ackerbaulich lohnt, ist eine andere Frage als die, ob sich die Veränderung in jener Genauigkeit beziffern lässt, die ein handelbares Zertifikat verlangt. Beides in eins zu setzen, ist der häufigste Schritt in dieser Debatte, und zwar in beide Richtungen."
+    }
+  },
+  "what-should-count-as-a-species": {
+    "title": "Leistet der Artbegriff noch, was von ihm verlangt wird?",
+    "topic": "Die Art ist die Einheit der Biodiversitätsbilanzierung, des Naturschutzrechts und der öffentlichen Kommunikation. Kein einzelner Artbegriff deckt sexuelle, asexuelle und frei hybridisierende Linien zugleich ab, und genomische Daten haben es eher schwerer als leichter gemacht, die Grenzen zu ziehen.",
+    "comments": {
+      "c1": "Anmerkung zur Rahmung: Die praktische Folge ist keine philosophische. Teilt man eine anerkannte Art in drei auf, ändern sich die Zahl der gefährdeten Taxa, die Fläche, die einen gesetzlichen Schutz auslöst, und der scheinbare Trend in den Biodiversitätsindizes, ohne dass sich im Gelände irgendetwas geändert hätte.",
+      "c2": "Redaktionelle Anmerkung: Genomische Daten haben eine umfangreiche Introgression zwischen Linien aufgedeckt, die lange als gute Arten galten; das schwächt die reproduktive Isolation als operationales Kriterium genau dort, wo man sie für am stärksten hielt."
+    }
+  }
+}

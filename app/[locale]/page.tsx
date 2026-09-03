@@ -47,7 +47,7 @@ export default async function HomePage({ params }: Props) {
     await Promise.all([
       getAllArticles(locale),
       getFeaturedInsights(locale, 2),
-      getDiscussions(),
+      getDiscussions(locale),
       Promise.all(
         listCategorySlugs().map(async (slug) => ({
           slug,

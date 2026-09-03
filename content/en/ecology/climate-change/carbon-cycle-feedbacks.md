@@ -4,8 +4,8 @@ excerpt: Land and ocean absorb roughly half of human carbon emissions today. Whe
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-08-29'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 8
 tags:
   - climate-change
   - carbon-cycle
@@ -17,9 +17,10 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
+_bodyHash: 20434b81
 ---
 
-The atmospheric CO₂ concentration trend is what we [measure directly](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring); the share of human emissions that ends up in the atmosphere depends on how much of the rest gets absorbed by the ocean and the land biosphere. Over recent decades, land and ocean together have taken up roughly half of anthropogenic CO₂ emissions — a number that is often summarized as "the sinks", as if it were a property of the planet rather than a balance of mechanisms that depend on the climate state.
+The atmospheric CO₂ concentration trend is what we [measure directly](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring); the share of human emissions that ends up in the atmosphere — the quantity that drives [climate change itself](/en/ecology/climate-change/what-is-climate-change) — depends on how much of the rest gets absorbed by the ocean and the land biosphere. Over recent decades, land and ocean together have taken up roughly half of anthropogenic CO₂ emissions — a number that is often summarized as "the sinks", as if it were a property of the planet rather than a balance of mechanisms that depend on the climate state.
 
 Whether the sinks continue to absorb at this fraction is one of the largest uncertainties in long-term climate projection. It is not the largest uncertainty in current-decade emissions accounting — that is the emissions side — but it is among the largest in what future atmospheric concentration trajectories will look like for a given emissions path.
 
@@ -43,7 +44,7 @@ Two physical processes affect the long-term fraction the ocean can absorb.
 
 **Stratification.** Surface ocean warming increases stratification, which slows the downward mixing of carbon-loaded surface waters and reduces the rate at which the deep ocean can absorb the surface signal. The magnitude of this stratification feedback over the 21st century is one of the model-uncertainty terms in the [climate-projection envelope](/en/ecology/climate-change/climate-models-projections-uncertainty).
 
-The ocean sink also delivers ocean acidification as a side effect — falling pH and falling aragonite saturation that the [NOAA Climate.gov](https://www.climate.gov/) and [EPA Climate Indicators](https://www.epa.gov/climate-indicators) pages track as separate indicators with biological consequences for marine calcifiers.
+The ocean sink also delivers ocean acidification as a side effect — falling pH and falling aragonite saturation that the [NOAA Climate.gov](https://www.noaa.gov/climate) and [EPA ocean acidification](https://www.epa.gov/ocean-acidification) pages track as separate indicators with biological consequences for marine calcifiers.
 
 ## The land sink
 
@@ -53,7 +54,7 @@ The land sink is more variable and less well-constrained than the ocean sink. Se
 
 **Lengthening growing seasons.** Warming has extended the photosynthetic season in temperate and boreal forests. The carbon-balance consequence depends on whether the extended growing season is matched by an extended respiration season — at high latitudes the answer appears to be partial, leaving a net positive uptake change; at lower latitudes the answer is more variable.
 
-**Forest demographics and disturbance.** Forests are not steady-state. Stand-replacing disturbance — fire, insects, drought-induced mortality, harvest — moves carbon between live biomass, dead biomass, soils, and the atmosphere on timescales the long-term carbon-cycle assessments must integrate. Tropical and boreal disturbance regimes are changing, documented in the [European Environment Agency](https://www.eea.europa.eu/) forests assessment and in the [Forest Inventory and Analysis](https://www.fia.fs.usda.gov/) U.S. national inventories. Whether disturbance shifts the net land sink is region-dependent and is part of the broader [temperate-forest carbon sink decline](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) literature.
+**Forest demographics and disturbance.** Forests are not steady-state. Stand-replacing disturbance — fire, insects, drought-induced mortality, harvest — moves carbon between live biomass, dead biomass, soils, and the atmosphere on timescales the long-term carbon-cycle assessments must integrate. Tropical and boreal disturbance regimes are changing, documented in the [European Environment Agency](https://www.eea.europa.eu/) forests assessment and in the [Forest Inventory and Analysis](https://research.fs.usda.gov/programs/fia) U.S. national inventories. Whether disturbance shifts the net land sink is region-dependent and is part of the broader [temperate-forest carbon sink decline](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) literature.
 
 **Permafrost carbon.** Frozen soils contain large reservoirs of organic carbon (the permafrost-region carbon pool is estimated at roughly twice the current atmospheric carbon pool, with substantial uncertainty on the lability of that carbon). Thawing permafrost releases CO₂ and methane as decomposition proceeds. The AR6 assessment treats permafrost carbon release as a positive feedback over the 21st century with quantified but wide uncertainty.
 
@@ -91,16 +92,16 @@ Three methodological points are worth surfacing.
 
 ## What this indicator does for the rest of the cluster
 
-The carbon-cycle indicators close the loop between [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) and human emissions. They are also the link between the [physical-climate indicators in this cluster](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) and the policy-relevant [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators), because the residual atmospheric fraction of emissions is what mitigation targets are ultimately accountable for.
+The carbon-cycle indicators close the loop between greenhouse-gas concentrations and human emissions. They are also the link between the [physical-climate indicators in this cluster](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) and the policy-relevant [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators), because the residual atmospheric fraction of emissions is what mitigation targets are ultimately accountable for.
 
 ## Sources
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 5](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of carbon-cycle budgets and feedbacks.
 2. **NOAA Global Monitoring Laboratory** — [Atmospheric CO₂ and carbon-cycle records](https://gml.noaa.gov/). Operational atmospheric constraint on the global carbon budget.
 3. **Copernicus Climate Change Service** — [Carbon-cycle reanalyses and indicators](https://climate.copernicus.eu/). European carbon-cycle products.
-4. **NASA Earth Observatory** — [Carbon cycle and vegetation explainers](https://earthobservatory.nasa.gov/). Topic and mission pages for satellite vegetation and CO₂ products.
-5. **NOAA Climate.gov** — [Ocean acidification and carbon-cycle explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products.
-6. **U.S. Environmental Protection Agency** — [Ocean acidification indicator](https://www.epa.gov/climate-indicators). U.S. domestic indicator for the carbon-cycle ocean response.
+4. **NASA Earth Observatory** — [Carbon cycle and vegetation explainers](https://science.nasa.gov/earth/earth-observatory/). Topic and mission pages for satellite vegetation and CO₂ products.
+5. **NOAA Climate.gov** — [Ocean acidification and carbon-cycle explainers](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring products.
+6. **U.S. Environmental Protection Agency** — [Ocean acidification](https://www.epa.gov/ocean-acidification). U.S. domestic reference on the carbon-cycle ocean response.
 7. **European Environment Agency** — [Forests and forestry and climate-change indicators](https://www.eea.europa.eu/). European land-carbon assessments.
-8. **USDA Forest Service** — [Forest Inventory and Analysis](https://www.fia.fs.usda.gov/). U.S. forest carbon inventory.
+8. **USDA Forest Service** — [Forest Inventory and Analysis](https://research.fs.usda.gov/programs/fia). U.S. forest carbon inventory.
 9. **PubMed** — [Carbon-cycle feedback literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed literature on FACE experiments, permafrost carbon, and disturbance-driven carbon flux.

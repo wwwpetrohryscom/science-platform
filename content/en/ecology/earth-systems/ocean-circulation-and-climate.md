@@ -2,10 +2,10 @@
 title: 'Ocean circulation and climate: two circulations, two timescales, one heat pump'
 excerpt: Wind drives the ocean's surface; density drives its interior. Which one you mean determines whether the relevant timescale is a season or a millennium.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 10
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - ocean-circulation
   - thermohaline-circulation
@@ -16,9 +16,11 @@ related:
   - el-nino-la-nina-enso-explained
   - cryosphere-in-the-earth-system
   - earth-system-tipping-points
+_bodyHash: '8223e033'
+pillar: earth-system-science-explained
 ---
 
-Descriptions of "the ocean conveyor belt" usually merge two physically distinct circulations that happen to be drawn on the same map. Separating them is the first step to understanding why some ocean-climate claims concern next season and others concern the next thousand years.
+Descriptions of "the ocean conveyor belt" usually merge two physically distinct circulations that happen to be drawn on the same map. Separating them is the first step to understanding why some ocean-climate claims concern next season and others concern the next thousand years — a spread of timescales that is characteristic of [the coupled Earth system](/en/ecology/earth-systems/earth-system-science-explained).
 
 ## The wind-driven circulation
 

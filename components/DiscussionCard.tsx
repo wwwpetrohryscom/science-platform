@@ -58,7 +58,7 @@ export function DiscussionCard({ locale, discussion }: DiscussionCardProps) {
           <span className="font-medium text-ink">{discussion.moderator.name}</span>
         </span>
         <span>
-          {t("discussions.participants", { count: discussion.participantCount })} ·{" "}
+          {t("discussions.editorial_notes", { count: discussion.comments.length })} ·{" "}
           {formatDate(discussion.updatedDate, locale)}
         </span>
       </div>

@@ -1,8 +1,8 @@
 ---
 title: 'The Landsat program explained: the longest continuous view of the land'
-excerpt: 'Since 1972 the joint NASA–USGS Landsat satellites have built the longest unbroken record of Earth’s land surface. This explains the mission history, the 30-metre sensors, the free-data policy, and why a multi-decade archive is so scientifically valuable.'
+excerpt: Since 1972 the joint NASA–USGS Landsat satellites have built the longest unbroken record of Earth’s land surface. This explains the mission history, the 30-metre sensors, the free-data policy, and why a multi-decade archive is so scientifically valuable.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -14,6 +14,9 @@ related:
   - what-is-remote-sensing
   - land-cover-change-detection
   - sentinel-satellites-explained
+_bodyHash: 6d360364
+readingTime: 5
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Among the instruments that watch the planet from orbit, one stands apart for its sheer length of service. [Landsat](/en/glossary/landsat) is a joint program of NASA and the U.S. Geological Survey, and since its first satellite reached orbit in 1972 it has produced an unbroken record of Earth's land surface — the longest such record in existence. This article traces how the program began, how its sensors work, why opening the archive changed scientific practice, and where the limits of the data lie.

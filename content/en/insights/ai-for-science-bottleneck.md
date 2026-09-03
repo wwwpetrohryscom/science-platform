@@ -15,10 +15,10 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
-_bodyHash: d3c24af4
+_bodyHash: 16232f31
 ---
 
-The conversation about AI in science is dominated by a particular kind of story: discovery. Protein-structure prediction, [materials](/en/physics/energy/perovskite-stack-field-stability) screening, and literature-mining systems are real scientific tools. But public research infrastructure from [NIH/NLM](https://www.ncbi.nlm.nih.gov/books/), peer-reviewed literature indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), and [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) standards from [NIST](https://www.nist.gov/) point to a less visible bottleneck: the experimental record is still hard to reproduce, query, and reuse at scale.
+The conversation about AI in science is dominated by a particular kind of story: discovery. Protein-structure prediction, materials screening, and literature-mining systems are real scientific tools. But public research infrastructure from [NIH/NLM](https://www.ncbi.nlm.nih.gov/books/), peer-reviewed literature indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), and measurement standards from [NIST](https://www.nist.gov/) point to a less visible bottleneck: the experimental record is still hard to reproduce, query, and reuse at scale.
 
 The wins that compound are different ones, and they are quietly going underfunded.
 
@@ -30,7 +30,7 @@ This is happening, it is real, and it is also the application that least benefit
 
 ## Where the leverage actually is
 
-The substrate is the bottleneck. Standardized experimental records — protocols, raw data, instrument metadata, negative results — are what every downstream use of AI in science depends on. They are also where the substrate problem is most acute: most of this information lives in PDFs, in lab notebooks, in supplementary [materials](/en/physics/energy/perovskite-stack-field-stability), in formats that vary not just by field but often by lab.
+The substrate is the bottleneck. Standardized experimental records — protocols, raw data, instrument metadata, negative results — are what every downstream use of AI in science depends on. They are also where the substrate problem is most acute: most of this information lives in PDFs, in lab notebooks, in supplementary materials, in formats that vary not just by field but often by lab.
 
 AI may be useful for the structured work of extracting and normalizing this information. The same model families that summarize prose can help parse a methods section or supplementary table, but deployment quality depends on validation, provenance, and human review. The technology is useful; it is not a substitute for scientific curation.
 

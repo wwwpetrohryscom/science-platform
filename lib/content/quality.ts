@@ -192,7 +192,16 @@ export function requireFields<T extends Record<string, unknown>>(
    rather than a hard failure.
 ---------------------------------------------------------------- */
 
-/** Tokens stripped before frequency analysis. */
+/**
+ * Tokens stripped before frequency analysis.
+ *
+ * The site publishes in six languages and the density rule runs on all
+ * of them, so the list has to cover all of them. It was English-only,
+ * and the German translation of the cell-biology pillar was reported as
+ * stuffing the keyword "die" at 7% — "die" being the German definite
+ * article. A stopword list that only knows one language turns every
+ * other language's function words into apparent keywords.
+ */
 const STOPWORDS = new Set([
   "the","a","an","and","or","but","of","in","on","at","to","for","with",
   "by","is","are","was","were","be","been","being","this","that","these",
@@ -201,9 +210,57 @@ const STOPWORDS = new Set([
   "their","his","her","my","me","do","does","did","have","has","had",
   "will","would","can","could","may","might","also","because","while",
   "where","when","what","which","who","whom","why","how",
+  // French
+  "le","la","les","un","une","des","du","de","et","ou","que","qui","dans",
+  "pour","par","sur","avec","sans","est","sont","été","être","ce","cette",
+  "ces","son","sa","ses","leur","leurs","plus","pas","ne","au","aux","en",
+  "il","elle","ils","elles","nous","vous","on","mais","comme","tout","tous",
+  // Spanish / Portuguese
+  "el","los","las","una","unos","unas","del","al","y","o","que","en","por",
+  "para","con","sin","es","son","ser","este","esta","estos","estas","su",
+  "sus","más","no","se","lo","como","todo","todos","pero","entre","sobre",
+  "os","as","um","uma","uns","umas","dos","das","nos","nas","não","também",
+  "mais","muito","pelo","pela","são","está","estão","seu","seus","sua","suas",
+  // German
+  "der","die","das","den","dem","des","ein","eine","einen","einem","einer",
+  "eines","und","oder","aber","nicht","auch","noch","nur","schon","sehr",
+  "ist","sind","war","waren","sein","haben","hat","hatte","werden","wird",
+  "wurde","wurden","kann","können","muss","müssen","für","mit","von","zu",
+  "auf","aus","bei","nach","über","unter","durch","gegen","ohne","um","als",
+  "wie","wenn","dass","sich","diese","dieser","dieses","ihre","ihrer","ihren",
+  // Russian
+  "и","в","во","не","что","он","на","я","с","со","как","а","то","все","она",
+  "так","его","но","да","ты","к","у","же","вы","за","бы","по","только","ее",
+  "мне","было","вот","от","меня","еще","нет","о","из","ему","теперь","когда",
+  "даже","ну","вдруг","ли","если","уже","или","ни","быть","был","него","до",
+  "вас","них","этот","эта","эти","для","при","более","чем","этом","этого",
+  "которые","который","которая","между","также","может","могут","есть",
 ]);
 
-const TOKEN_RE = /[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9'-]{2,}/g;
+/**
+ * Word tokens, in any script.
+ *
+ * This was `/[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9'-]{2,}/g` — Latin only. A Russian
+ * article therefore contributed almost no tokens, and the density
+ * denominator collapsed to whatever Latin text survived: the fragments
+ * of URLs and locale-prefixed link paths. Three Russian translations
+ * were reported as stuffing the keyword "ecology" at 38-42%, entirely
+ * from the `/ru/ecology/...` slugs in their internal links. The rule was
+ * measuring the alphabet rather than the prose.
+ */
+const TOKEN_RE = /\p{L}[\p{L}\p{N}'-]{2,}/gu;
+
+/**
+ * Strip the machine-readable parts of markdown before frequency
+ * analysis: URLs and internal link targets are addresses, not prose,
+ * and counting them as text is what produced the density above.
+ */
+function proseOnly(text: string): string {
+  return text
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/<https?:\/\/[^>]*>/g, " ")
+    .replace(/https?:\/\/\S+/g, " ");
+}
 
 /**
  * Detect keyword-stuffing — a single non-stopword term occupying more
@@ -219,7 +276,10 @@ export function detectKeywordStuffing(
   const minTokens = opts.minTokens ?? 80;
   const maxRatio = opts.maxRatio ?? 0.07;
   const tokens =
-    text.toLowerCase().match(TOKEN_RE)?.filter((t) => !STOPWORDS.has(t)) ?? [];
+    proseOnly(text)
+      .toLowerCase()
+      .match(TOKEN_RE)
+      ?.filter((t) => !STOPWORDS.has(t)) ?? [];
   if (tokens.length < minTokens) return [];
   const counts = new Map<string, number>();
   for (const t of tokens) counts.set(t, (counts.get(t) ?? 0) + 1);
@@ -247,7 +307,7 @@ export function detectRepeatedPhrases(
 ): Array<{ phrase: string; count: number }> {
   const minN = opts.minN ?? 8;
   const maxRepeats = opts.maxRepeats ?? 2;
-  const tokens = text.toLowerCase().match(TOKEN_RE) ?? [];
+  const tokens = proseOnly(text).toLowerCase().match(TOKEN_RE) ?? [];
   if (tokens.length < minN * 2) return [];
   const counts = new Map<string, number>();
   for (let i = 0; i <= tokens.length - minN; i++) {
@@ -267,8 +327,16 @@ export function detectRepeatedPhrases(
  * in [0,1]; >0.7 generally means "the same paragraph reworded".
  */
 export function similarityRatio(a: string, b: string): number {
-  const setA = new Set((a.toLowerCase().match(TOKEN_RE) ?? []).filter((t) => !STOPWORDS.has(t)));
-  const setB = new Set((b.toLowerCase().match(TOKEN_RE) ?? []).filter((t) => !STOPWORDS.has(t)));
+  const setA = new Set(
+    (proseOnly(a).toLowerCase().match(TOKEN_RE) ?? []).filter(
+      (t) => !STOPWORDS.has(t),
+    ),
+  );
+  const setB = new Set(
+    (proseOnly(b).toLowerCase().match(TOKEN_RE) ?? []).filter(
+      (t) => !STOPWORDS.has(t),
+    ),
+  );
   if (setA.size === 0 || setB.size === 0) return 0;
   let intersect = 0;
   for (const t of setA) if (setB.has(t)) intersect += 1;

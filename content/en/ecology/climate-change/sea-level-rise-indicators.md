@@ -4,7 +4,7 @@ excerpt: Global mean sea level, local sea level, and the rate of rise are three 
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-11'
-updatedDate: '2026-05-11'
+updatedDate: '2026-09-02'
 readingTime: 5
 tags:
   - climate-change
@@ -16,9 +16,10 @@ related:
   - what-is-climate-change
   - greenhouse-gases-and-radiative-forcing
 pillar: what-is-climate-change
+_bodyHash: bd2dfdfb
 ---
 
-"Sea level is rising" is a true statement that hides several different measurements. Global mean sea level, local relative sea level, and the rate of rise are three separate indicators that answer different questions. The agencies that report them — the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) for synthesis, [NASA Climate](https://climate.nasa.gov/vital-signs/sea-level/) for the satellite altimeter record, the [NOAA tides-and-currents network](https://tidesandcurrents.noaa.gov/) for U.S. coastal gauges — present each one for different reasons.
+"Sea level is rising" is a true statement that hides several different measurements. Global mean sea level, local relative sea level, and the rate of rise are three separate indicators that answer different questions. The agencies that report them — the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) for synthesis, the [NASA Sea Level Change Portal](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/) for the satellite altimeter record, the [NOAA tides-and-currents network](https://tidesandcurrents.noaa.gov/) for U.S. coastal gauges — present each one for different reasons.
 
 This piece walks through what the indicators measure and where they are useful.
 
@@ -26,7 +27,7 @@ This piece walks through what the indicators measure and where they are useful.
 
 Global mean sea level (GMSL) is the volumetric measure: how much the ocean has expanded plus how much ice has been added. It is reported as a global anomaly from a reference period, typically in millimetres per year.
 
-The modern GMSL record is produced from satellite radar altimetry, starting with TOPEX/Poseidon in 1992 and continuing through Jason-1/2/3 and Sentinel-6 today. The altimeter measures sea-surface height directly, with sub-centimetre precision when averaged over a sufficient track length. NASA Climate's [sea level vital sign](https://climate.nasa.gov/vital-signs/sea-level/) maintains the public-facing time series.
+The modern GMSL record is produced from satellite radar altimetry, starting with TOPEX/Poseidon in 1992 and continuing through Jason-1/2/3 and Sentinel-6 today. The altimeter measures sea-surface height directly, with sub-centimetre precision when averaged over a sufficient track length. NASA's [global mean sea level vital sign](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/) maintains the public-facing time series.
 
 GMSL is the right indicator for global climate communication. It answers: *has the global ocean volume changed?* The signal is large enough to resolve on five-year windows; the trend is unambiguous in the post-1992 satellite record.
 
@@ -69,14 +70,14 @@ Three caveats matter for any reader of sea-level data.
 
 ## What this indicator does not measure
 
-Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) accumulation, surface-air-temperature change, sea-ice loss, and shifts in extreme weather. Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
+Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives ocean heat content accumulation, surface-air-temperature change, sea-ice loss, and shifts in extreme weather. Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
 
 Reading sea level honestly means reading all three indicator types: the global mean (for the planetary signal), the local relative level (for what coastal communities experience), and the rate (for the planning horizon).
 
 ## Sources
 
 1. **IPCC** — [AR6 Working Group I, Chapter 9: Ocean, Cryosphere and Sea Level Change](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of GMSL, regional sea level, and the sea-level budget.
-2. **NASA Climate** — [Sea level vital sign](https://climate.nasa.gov/vital-signs/sea-level/). Public satellite altimeter time series and explainer materials.
+2. **NASA Sea Level Change Portal** — [Global mean sea level](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/). Public satellite altimeter time series and explainer materials.
 3. **NOAA National Ocean Service** — [Tides and currents network](https://tidesandcurrents.noaa.gov/). U.S. tide-gauge data, relative sea-level trends, and coastal indicators.
 4. **NOAA National Centers for Environmental Information** — [State of the Climate](https://www.ncei.noaa.gov/). Annual U.S. assessments of sea-level and related indicators.
 5. **World Meteorological Organization** — [State of the Global Climate](https://wmo.int/). International annual climate-indicator reports including sea-level rise.

@@ -2,10 +2,10 @@
 title: 'Earth system models: what gets added when a climate model becomes an ESM'
 excerpt: An Earth system model is a coupled climate model with the biogeochemistry made interactive. That one change alters what it can be asked, and where it goes wrong.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 10
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - earth-system-model
   - cmip
@@ -16,9 +16,11 @@ related:
   - earth-system-predictability-explained
   - essential-climate-variables-explained
   - climate-feedback-mechanisms
+_bodyHash: 658b6a24
+pillar: earth-system-science-explained
 ---
 
-"Climate model" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer. This article describes the change, the international framework these models are run within, and where the resulting projections are weakest.
+"Climate model" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer, and it follows directly from [what makes Earth system science a distinct field](/en/ecology/earth-systems/earth-system-science-explained). This article describes the change, the international framework these models are run within, and where the resulting projections are weakest.
 
 Projection *uncertainty* — how scenario, model structure, and internal variability combine into a range — is treated separately in the existing article on [climate models and projections](/en/ecology/climate-change/climate-models-projections-uncertainty). The subject here is the machinery.
 
@@ -78,5 +80,5 @@ The observational side of the same problem, and the standardised variables model
 2. **IPCC AR6 WG1, Chapter 4** — [Future global climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/). How CMIP6 output is used to construct assessed projections.
 3. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Feedback and sensitivity differences between CMIP5 and CMIP6 ensembles.
 4. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Carbon-cycle components that distinguish an ESM from a physical climate model.
-5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2020/fact-sheet-reanalysis). Data assimilation, and the difference between a reanalysis and a free-running model.
+5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis). Data assimilation, and the difference between a reanalysis and a free-running model.
 6. **Copernicus Climate Change Service** — [Climate projections and datasets](https://climate.copernicus.eu/). Operational access to processed model output.

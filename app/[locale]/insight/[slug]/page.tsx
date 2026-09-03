@@ -7,7 +7,6 @@ import { ArticleBody } from "@/components/ArticleBody";
 import { AuthorBlock } from "@/components/AuthorBlock";
 import { TableOfContents } from "@/components/TableOfContents";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
-import { GeneratedBlock } from "@/components/GeneratedBlock";
 import { SourceList } from "@/components/SourceList";
 
 import {
@@ -16,13 +15,7 @@ import {
   getInsight,
 } from "@/lib/content";
 import { extractCitationUrls } from "@/lib/sources";
-import {
-  generateArticleMethodologyNote,
-  generateResearchSummary,
-  generateSourceBlock,
-  generateUncertaintyNote,
-  listSourcesForTopic,
-} from "@/lib/content/generators";
+import { listSourcesForTopic } from "@/lib/content/generators";
 import {
   articleJsonLd,
   breadcrumbJsonLd,
@@ -84,34 +77,11 @@ export default async function InsightPage({ params }: Props) {
   const t = translator(getMessages(locale));
   const categoryLabel = t(`categories.${insight.category}.label`);
 
-  // Generated context blocks for the insight: a research summary
-  // (sized by real citation count), an uncertainty note, a
-  // methodology note, and the curated source registry — all
-  // rendered server-side in initial HTML.
+  // Evidence panel inputs — measured from the page, not composed by a
+  // template. The previous version asserted a confidence level chosen by
+  // a seeded template rather than by an editor, and rendered English on
+  // every localized page.
   const insightCitationCount = extractCitationUrls(insight.rawBody).length;
-  const researchBlock = generateResearchSummary({
-    slug: insight.slug,
-    title: insight.title,
-    excerpt: insight.excerpt,
-    category: insight.category,
-    // Insights are not pinned to a subtopic — use the first one in
-    // the category as the framing context for the generator.
-    subtopic: "",
-    publishedDate: insight.publishedDate,
-    updatedDate: insight.updatedDate,
-    tags: insight.tags,
-    type: "expert",
-    citationCount: insightCitationCount,
-  });
-  const uncertaintyBlock = generateUncertaintyNote({
-    level: insightCitationCount === 0 ? "insufficient" : "medium",
-    limitation:
-      insightCitationCount > 0 && insightCitationCount < 2
-        ? "argument rests on a small citation pool"
-        : undefined,
-  });
-  const methodologyBlock = generateArticleMethodologyNote(insight.category);
-  const sourceBlock = generateSourceBlock(insight.category);
   const sources = listSourcesForTopic(insight.category);
 
   const articleLd = articleJsonLd({
@@ -122,6 +92,7 @@ export default async function InsightPage({ params }: Props) {
     publishedDate: insight.publishedDate,
     updatedDate: insight.updatedDate,
     authorName: insight.author.name,
+    authorId: insight.author.id,
   });
   const breadcrumbLd = breadcrumbJsonLd([
     { name: t("nav.home"), path: localizedPath(locale, "/") },
@@ -141,7 +112,7 @@ export default async function InsightPage({ params }: Props) {
       />
 
       <article className="container-page py-12 md:py-16">
-        <nav aria-label="Breadcrumb" className="text-xs text-ink-subtle">
+        <nav aria-label={t("nav.breadcrumb")} className="text-xs text-ink-subtle">
           <ol className="flex flex-wrap items-center gap-1.5">
             <li>
               <Link href={localizedPath(locale, "/")} className="hover:text-primary-700">
@@ -183,7 +154,7 @@ export default async function InsightPage({ params }: Props) {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 border-y border-ink-line py-4">
-            <AuthorBlock author={insight.author} variant="byline" />
+            <AuthorBlock author={insight.author} variant="byline" locale={locale} />
             <div className="text-xs text-ink-subtle">
               <p>
                 <span className="font-medium text-ink">{t("article.published")}</span>{" "}
@@ -223,46 +194,45 @@ export default async function InsightPage({ params }: Props) {
                 id="insight-evidence-heading"
                 className="font-serif text-lg font-semibold text-ink"
               >
-                Sources behind this argument
+                {t("common.insight_sources")}
               </h2>
-              <div className="mt-3">
-                <GeneratedBlock block={sourceBlock} variant="note" />
-              </div>
-              <div className="mt-3">
-                <GeneratedBlock block={researchBlock} variant="note" />
-              </div>
-              <div className="mt-3">
-                <GeneratedBlock
-                  block={uncertaintyBlock}
-                  variant="note"
-                  eyebrow="Uncertainty"
-                />
-              </div>
-              <div className="mt-3">
-                <GeneratedBlock
-                  block={methodologyBlock}
-                  variant="note"
-                  eyebrow="Methodology"
-                />
-              </div>
+              <p className="mt-3 text-sm leading-relaxed text-ink-subtle">
+                {insightCitationCount === 1
+                  ? t("evidence.citations_one")
+                  : t("evidence.citations", { count: insightCitationCount })}
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-subtle">
+                {t("evidence.attribution", { desk: insight.author.name })}{" "}
+                <Link href="/en/sourcing-policy" className="link-quiet">
+                  {t("evidence.policy_link")}
+                </Link>
+                .
+              </p>
               <p className="mt-4 text-xs text-ink-subtle">
-                Last updated{" "}
+                {t("evidence.last_updated")}{" "}
                 <time dateTime={insight.updatedDate}>
                   {formatDate(insight.updatedDate, locale)}
-                </time>
+                </time>{" "}
+                ·{" "}
+                <Link
+                  href={localizedPath(locale, `/${insight.category}`)}
+                  className="link-quiet"
+                >
+                  {t("hub.explore_topic", { topic: categoryLabel })}
+                </Link>
               </p>
             </section>
 
             <SourceList
               sources={sources}
-              heading={`Curated ${categoryLabel} sources`}
-              description={`${categoryLabel} citations are validated against this registry of recognised research bodies.`}
+              heading={t("hub.sources_heading")}
+              description={t("hub.sources_description")}
               limit={6}
             />
 
             <NewsletterBlock locale={locale} variant="inline" />
 
-            <AuthorBlock author={insight.author} />
+            <AuthorBlock author={insight.author} locale={locale} />
           </div>
 
           <aside className="hidden lg:block">

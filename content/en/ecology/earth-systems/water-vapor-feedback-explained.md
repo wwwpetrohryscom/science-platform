@@ -1,11 +1,11 @@
 ---
-title: 'The water-vapour feedback, and why it is always quoted with the lapse rate'
+title: The water-vapour feedback, and why it is always quoted with the lapse rate
 excerpt: Water vapour is the strongest amplifier in the climate system and not a driver of it. The two facts are compatible, and the reason is a nine-day residence time.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 4
 tags:
   - water-vapor-feedback
   - climate-feedback
@@ -16,9 +16,11 @@ related:
   - global-water-cycle-explained
   - ice-albedo-feedback-explained
   - earth-system-science-explained
+_bodyHash: 8fc10ec9
+pillar: earth-system-science-explained
 ---
 
-Two claims about water vapour are both true and are frequently set against each other: it is the most important greenhouse gas in the atmosphere, and it plays no role as a driver of climate change. Reconciling them takes one observation about timescale, and doing so is the cleanest available illustration of what a [climate feedback](/en/glossary/climate-feedback) actually is.
+Two claims about water vapour are both true and are frequently set against each other: it is the most important greenhouse gas in the atmosphere, and it plays no role as a driver of climate change. Reconciling them takes one observation about timescale — the kind of distinction between a driver and a response that [Earth system science depends on](/en/ecology/earth-systems/earth-system-science-explained) — and doing so is the cleanest available illustration of what a [climate feedback](/en/glossary/climate-feedback) actually is.
 
 ## Why vapour is a feedback and not a forcing
 
@@ -58,6 +60,6 @@ Its geographical profile also differs from the other major amplifier. Vapour fee
 
 1. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Assessed value and range for the combined water-vapour and lapse-rate feedback, and the decomposition methods.
 2. **IPCC AR6 WG1, Chapter 8** — [Water cycle changes](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/). Clausius–Clapeyron scaling of specific humidity with temperature.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Atmospheric water storage and turnover underlying the residence-time argument.
-4. **NOAA Climate.gov** — [Climate system explainers](https://www.climate.gov/). Background on the greenhouse effect and the role of water vapour within it.
-5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2020/fact-sheet-reanalysis). How humidity fields are reconstructed from sparse observations.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Atmospheric water storage and turnover underlying the residence-time argument.
+4. **NOAA Climate.gov** — [Climate system explainers](https://www.noaa.gov/climate). Background on the greenhouse effect and the role of water vapour within it.
+5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis). How humidity fields are reconstructed from sparse observations.

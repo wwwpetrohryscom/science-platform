@@ -33,16 +33,38 @@ import { BANNED_PHRASES } from "@/lib/content/tone";
  *   6. Banned-phrase scan — sensationalism, fake-cure language.
  *   7. Optional CAPTCHA when configured.
  *
- * Successful submissions are returned with `{ queued: true }` and an
- * `id` placeholder — the actual moderation backend is the next step.
+ * CURRENTLY DISABLED. No moderation backend was ever wired up, so a
+ * "successful" submission was validated, answered with 202 and
+ * `queued: true`, and then discarded. Telling a reader their comment
+ * is queued for review when nothing stores it is a false promise, and
+ * it was paired with UI copy claiming verified experts are badged when
+ * no entry has ever been from one. The submission form has been removed
+ * from the UI and this endpoint now refuses submissions explicitly
+ * rather than swallowing them.
+ *
+ * The validation stack below is intact and deliberately left in place:
+ * it is the work that has to exist before contributions can reopen.
+ * Flip ACCEPTING_SUBMISSIONS once a moderation backend actually
+ * persists what it receives.
  */
 export const runtime = "nodejs";
+
+/** No backend persists submissions yet — see the note above. */
+const ACCEPTING_SUBMISSIONS = false;
 
 const MIN_LEN = 30;
 const MAX_LEN = 4000;
 const MAX_LINKS = 3;
 
 export async function POST(request: Request) {
+  if (!ACCEPTING_SUBMISSIONS) {
+    return jsonError(
+      503,
+      "EcoScienceHub is not accepting discussion submissions. Nothing you send here is stored. To contribute, write to info@helperg.com.",
+      { "Retry-After": "86400" },
+    );
+  }
+
   const ip = getClientIp(request.headers);
 
   const limit = rateLimit({

@@ -15,9 +15,10 @@ related:
   - coral-microbiome-bleaching-resistance
   - how-gene-expression-is-regulated
 pillar: what-is-a-cell
+_bodyHash: 7e50b2a2
 ---
 
-A cell in a multicellular organism is constantly receiving signals — chemical, mechanical, electrical — from its environment and from other [cells](/en/biology/cells/what-is-a-cell). The mechanisms by which it integrates those signals and decides what to do next are among the most studied questions in [cell biology](/en/biology/cells/what-is-a-cell). Public reference sources including the [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and [Genomics Glossary at the National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) treat cell signaling as a foundational topic.
+A cell in a multicellular organism is constantly receiving signals — chemical, mechanical, electrical — from its environment and from other cells. The mechanisms by which it integrates those signals and decides what to do next are among the most studied questions in [cell biology](/en/biology/cells/what-is-a-cell). Public reference sources including the [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and [Genomics Glossary at the National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) treat cell signaling as a foundational topic.
 
 This article walks through the core architecture and the parts of it that remain genuinely unsettled.
 
@@ -38,7 +39,7 @@ Three families illustrate the diversity:
 
 **G-protein-coupled receptors (GPCRs).** A large family of seven-transmembrane receptors that activate intracellular G proteins on ligand binding. They mediate sensory perception, hormonal signaling, and a substantial fraction of currently approved drug targets. The [NIH](https://www.nih.gov/)-funded research literature indexed via [PubMed](https://pubmed.ncbi.nlm.nih.gov/) covers GPCR biology more extensively than any other receptor family.
 
-**Receptor tyrosine kinases.** Activated by growth factors, these receptors dimerize on ligand binding and phosphorylate one another, recruiting downstream signaling proteins. The pathway controls cell proliferation and differentiation; mutations that hold the kinase in a constitutively active state are a common driver of cancer. Standard [cell-biology](/en/biology/cells/what-is-a-cell) textbook treatments cover the canonical pathway in detail.
+**Receptor tyrosine kinases.** Activated by growth factors, these receptors dimerize on ligand binding and phosphorylate one another, recruiting downstream signaling proteins. The pathway controls cell proliferation and differentiation; mutations that hold the kinase in a constitutively active state are a common driver of cancer. Standard cell-biology textbook treatments cover the canonical pathway in detail.
 
 **Notch signaling.** A short-range, contact-dependent pathway in which a transmembrane receptor on one cell is activated by a transmembrane ligand on a neighbouring cell. Activation cleaves the receptor; the intracellular fragment translocates to the nucleus and modifies gene expression. Notch is central to developmental cell-fate decisions and tissue patterning.
 
@@ -62,13 +63,13 @@ Three problems remain genuinely unsettled.
 
 **Quantitative integration.** Reading "the cell integrates inputs from multiple pathways" is easier than predicting what the integration will produce in a specific case. Quantitative models — built from time-resolved measurements in single cells — have made progress, but predictive models that span many cell types are still partial.
 
-**[Single-cell](/en/biology/genetics/single-cell-evo-devo) heterogeneity.** Genetically identical cells in the same culture respond differently to the same signal. Some of this is stochastic ([gene-expression](/en/biology/genetics/how-gene-expression-is-regulated) noise); some reflects pre-existing differences in protein levels or modifications. The literature now treats cell-to-cell variability as a feature of the system, not [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) error, but the role this variability plays in tissue function is still being mapped.
+**Single-cell heterogeneity.** Genetically identical cells in the same culture respond differently to the same signal. Some of this is stochastic (gene-expression noise); some reflects pre-existing differences in protein levels or modifications. The literature now treats cell-to-cell variability as a feature of the system, not measurement error, but the role this variability plays in tissue function is still being mapped.
 
 **Cross-talk vs. modularity.** The textbook view treats pathways as roughly modular blocks that occasionally cross-talk. The systems-biology view increasingly treats them as one connected network with no clean module boundaries. Both views are partially correct; the question is which is more useful for prediction in a given context.
 
 ## What this means for the rest of the field
 
-Cell signaling is the substrate on which higher-level questions in [biology](/en/biology/cells/what-is-a-cell) and disease rest. Cancer is, in large part, dysregulated signaling. Immune function depends on coordinated signaling between cell types. Embryonic development is choreographed by signaling cascades acting on cells whose competence to respond is itself determined by previous signaling history.
+Cell signaling is the substrate on which higher-level questions in biology and disease rest. Cancer is, in large part, dysregulated signaling. Immune function depends on coordinated signaling between cell types. Embryonic development is choreographed by signaling cascades acting on cells whose competence to respond is itself determined by previous signaling history.
 
 The accuracy of mechanistic claims about disease, development, or organism behaviour is constrained by the underlying signaling biology. Reading a paper that proposes a clinical intervention based on "activating pathway X" — without engaging with the specificity, integration, and heterogeneity questions above — is reading half the argument.
 

@@ -1,8 +1,9 @@
 import { siteConfig } from "@/lib/seo";
 import { categories, listCategorySlugs } from "@/lib/categories";
 import { getAllArticles, getAllInsights } from "@/lib/content";
-import { getDiscussions } from "@/lib/discussions";
+import { getDiscussions, discussionLocales } from "@/lib/discussions";
 import { listGlossaryAlphabetical } from "@/lib/glossary";
+import { POLICY_DOCUMENTS, listDesksForDisplay } from "@/lib/editorial";
 import {
   DEFAULT_LOCALE,
   LOCALES,
@@ -127,7 +128,14 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     }
   }
 
-  const discussions = await getDiscussions();
+  const discussionsByLocale = new Map<
+    Locale,
+    Awaited<ReturnType<typeof getDiscussions>>
+  >();
+  for (const locale of LOCALES) {
+    discussionsByLocale.set(locale, await getDiscussions(locale));
+  }
+  const discussions = discussionsByLocale.get(DEFAULT_LOCALE) ?? [];
 
   const updatedByCategory = new Map<string, Date[]>();
   const updatedBySubtopic = new Map<string, Date[]>();
@@ -189,24 +197,6 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
       priority: 0.7,
       lastModified: maxDate(allDiscussionDates),
     },
-    {
-      path: "/privacy-policy",
-      changeFrequency: "yearly",
-      priority: 0.3,
-      lastModified: POLICY_LAST_MODIFIED,
-    },
-    {
-      path: "/cookie-policy",
-      changeFrequency: "yearly",
-      priority: 0.3,
-      lastModified: POLICY_LAST_MODIFIED,
-    },
-    {
-      path: "/terms-of-use",
-      changeFrequency: "yearly",
-      priority: 0.3,
-      lastModified: POLICY_LAST_MODIFIED,
-    },
     ...listCategorySlugs().map((slug) => ({
       path: `/${slug}`,
       changeFrequency: "weekly" as const,
@@ -263,11 +253,15 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     }
   }
 
+  // Only locales that actually have a translation. A discussion served
+  // from the English fallback is noindex, so listing it here would
+  // advertise a page we are telling crawlers not to index.
   const discussionEntries = discussions.flatMap((discussion) => {
     const path = `/discussions/${discussion.slug}`;
-    const alternates = buildLocalizedAlternates(path);
+    const translated = discussionLocales(discussion.slug);
+    const alternates = buildLocalizedAlternates(path, translated);
 
-    return LOCALES.map((locale) =>
+    return translated.map((locale) =>
       entry(locale, path, toDate(discussion.updatedDate), "weekly", 0.6, alternates),
     );
   });
@@ -308,11 +302,68 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     );
   }
 
+  // Editorial and legal pages — EN-only, same reasoning as the glossary:
+  // they are untranslated, so hreflang must not advertise a localized
+  // version and the localized renders are excluded from the index.
+  const editorialEntries: SitemapEntry[] = [];
+  const editorialAlternates = (path: string) =>
+    buildLocalizedAlternates(path, [DEFAULT_LOCALE]);
+
+  editorialEntries.push(
+    entry(
+      DEFAULT_LOCALE,
+      "/editorial",
+      POLICY_LAST_MODIFIED,
+      "monthly",
+      0.5,
+      editorialAlternates("/editorial"),
+    ),
+  );
+  for (const desk of listDesksForDisplay()) {
+    const path = `/editorial/${desk.id}`;
+    editorialEntries.push(
+      entry(
+        DEFAULT_LOCALE,
+        path,
+        maxDate(allArticleDates),
+        "weekly",
+        0.5,
+        editorialAlternates(path),
+      ),
+    );
+  }
+  for (const path of ["/privacy-policy", "/cookie-policy", "/terms-of-use"]) {
+    editorialEntries.push(
+      entry(
+        DEFAULT_LOCALE,
+        path,
+        POLICY_LAST_MODIFIED,
+        "yearly",
+        0.3,
+        editorialAlternates(path),
+      ),
+    );
+  }
+  for (const doc of POLICY_DOCUMENTS) {
+    const path = `/${doc.slug}`;
+    editorialEntries.push(
+      entry(
+        DEFAULT_LOCALE,
+        path,
+        toDate(doc.updatedDate),
+        "yearly",
+        0.4,
+        editorialAlternates(path),
+      ),
+    );
+  }
+
   return dedupe([
     ...structuralEntries,
     ...contentEntries,
     ...discussionEntries,
     ...glossaryEntries,
+    ...editorialEntries,
   ]);
 }
 

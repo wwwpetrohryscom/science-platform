@@ -1,8 +1,8 @@
 ---
-title: 'What is remote sensing? Measuring the planet without touching it'
-excerpt: 'Remote sensing means measuring a surface from a distance by recording the radiation it reflects or emits. This explains the physics — passive and active sensors, the spectral bands, and the four kinds of resolution — that make satellite measurement of the environment possible.'
+title: What is remote sensing? Measuring the planet without touching it
+excerpt: Remote sensing means measuring a surface from a distance by recording the radiation it reflects or emits. This explains the physics — passive and active sensors, the spectral bands, and the four kinds of resolution — that make satellite measurement of the environment possible.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -14,6 +14,9 @@ related:
   - landsat-program-explained
   - sentinel-satellites-explained
   - earth-observation-data-products
+_bodyHash: 211c9f02
+readingTime: 5
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 [Remote sensing](/en/glossary/remote-sensing) is the practice of acquiring information about an object or area without touching it, by measuring the electromagnetic radiation the surface reflects or emits. A sensor records that radiation in defined wavelength bands and stores a value for each location, and everything we learn about the ground — what is growing, what is wet, what is warm — is inferred from those values. This primer covers the physics that makes such measurement possible; the wider context sits in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) hub.
@@ -28,7 +31,7 @@ This is a useful distinction to hold onto. When an image appears to show a fores
 
 Instruments fall into two families according to where their energy comes from. Passive sensors record radiation that is already available in the environment. Most often this is sunlight reflected by the surface, measured across the visible, near-infrared, and shortwave-infrared ranges, or it is thermal-infrared radiation that the surface itself emits because it has a temperature. Because passive optical instruments depend on sunlight, they generally need daylight and a clear view to work.
 
-Active sensors instead supply their own energy and measure what returns. Radar instruments emit microwave pulses, and lidar instruments emit laser pulses; both time and characterise the signal that bounces back. This independence from sunlight has practical consequences, as the [NASA Earth Observatory](https://earthobservatory.nasa.gov/) explains in its sensor primers: active systems can operate at night, and radar in particular can see through cloud, which optical sensors cannot. The trade-off is that active instruments are more complex and interpret a fundamentally different kind of return signal.
+Active sensors instead supply their own energy and measure what returns. Radar instruments emit microwave pulses, and lidar instruments emit laser pulses; both time and characterise the signal that bounces back. This independence from sunlight has practical consequences, as the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) explains in its sensor primers: active systems can operate at night, and radar in particular can see through cloud, which optical sensors cannot. The trade-off is that active instruments are more complex and interpret a fundamentally different kind of return signal.
 
 ## Spectral signatures and the bands of light
 
@@ -57,6 +60,6 @@ None of this undermines the method; it defines how it should be read. Calibratio
 ## Sources
 
 1. **NASA Earthdata** — [remote sensing basics](https://www.earthdata.nasa.gov/). NASA Earth-science data and remote-sensing concepts.
-1. **NASA Earth Observatory** — [how sensors see](https://earthobservatory.nasa.gov/). Explainers on reflected and emitted radiation.
+1. **NASA Earth Observatory** — [how sensors see](https://science.nasa.gov/earth/earth-observatory/). Explainers on reflected and emitted radiation.
 1. **USGS** — [remote sensing](https://www.usgs.gov/landsat-missions). Sensor and spectral-band fundamentals.
 1. **Remote Sensing (journal)** — [methods](https://www.mdpi.com/journal/remotesensing). Peer-reviewed remote-sensing methods.

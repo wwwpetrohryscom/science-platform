@@ -41,8 +41,14 @@ export function Footer({ locale }: FooterProps) {
     {
       heading: t("footer.about_heading"),
       links: [
-        { href: localizedPath(locale, "/about"), label: t("footer.editorial_standards") },
-        { href: localizedPath(locale, "/contact"), label: t("footer.contact") },
+        // Editorial pages are English-only (see lib/editorial.ts), so these
+        // are absolute /en/ paths rather than locale-prefixed: pointing a
+        // localized nav item at a route that 404s in that locale is worse
+        // than sending the reader to the English original.
+        { href: "/en/editorial-standards", label: t("footer.editorial_standards") },
+        { href: "/en/sourcing-policy", label: t("footer.sourcing_policy") },
+        { href: "/en/editorial", label: t("footer.editorial_desks") },
+        { href: "/en/corrections", label: t("footer.corrections") },
         { href: localizedPath(locale, "/privacy-policy"), label: "Privacy Policy" },
         { href: localizedPath(locale, "/cookie-policy"), label: "Cookie Policy" },
         { href: localizedPath(locale, "/terms-of-use"), label: "Terms of Use" },

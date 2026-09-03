@@ -4,7 +4,7 @@ excerpt: Climate indicators track the state of the Earth system. Here is how tem
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-02'
 readingTime: 9
 tags:
   - climate-change
@@ -18,6 +18,7 @@ related:
   - ocean-heat-content-indicators
   - sea-level-rise-indicators
 pillar: what-is-climate-change
+_bodyHash: d4037518
 ---
 
 A climate indicator is a measurement, sustained over time, that tracks one specific dimension of the Earth system. Global mean surface temperature is one. Ocean heat content is another. Greenhouse-gas concentration, sea level, glacier mass balance, Arctic sea-ice extent, and the top-of-atmosphere energy imbalance are all indicators in this sense. Each answers a different question; none answers all of them.
@@ -90,9 +91,9 @@ Third, read what the report says it does *not* show. Major assessments name thei
 
 ## Where the cluster goes from here
 
-The supporting articles in this cluster walk through individual indicator families in more depth: [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), [global temperature records](/en/ecology/climate-change/global-temperature-records-explained), [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators), [sea-level rise](/en/ecology/climate-change/sea-level-rise-indicators), [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice), and [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks). Two further pieces handle the model-and-uncertainty layer ([climate models and projections](/en/ecology/climate-change/climate-models-projections-uncertainty), [extreme-weather attribution](/en/ecology/climate-change/extreme-weather-attribution-basics)) and the policy-relevant indicator set ([adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators)).
+The supporting articles in this cluster walk through individual indicator families in more depth: greenhouse-gas concentrations, global temperature records, ocean heat content, sea-level rise, cryosphere indicators, and carbon-cycle feedbacks. Two further pieces handle the model-and-uncertainty layer (climate models and projections, [extreme-weather attribution](/en/ecology/climate-change/extreme-weather-attribution-basics)) and the policy-relevant indicator set ([adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators)).
 
-The pillar piece, [What is climate change](/en/ecology/climate-change/what-is-climate-change), sits one level up — it explains the mechanism the indicators are measuring. The indicator cluster supplies the operational layer that connects the mechanism to the data.
+The pillar piece, What is climate change, sits one level up — it explains the mechanism the indicators are measuring. The indicator cluster supplies the operational layer that connects the mechanism to the data.
 
 There is also a layer *beneath* the indicators, and it is worth naming because the two are frequently conflated. An indicator is a derived quantity chosen for interpretability; the measured variables it is built from are specified separately, as Essential Climate Variables. The Global Climate Observing System currently defines 55 of these across the atmosphere, ocean, and land domains, selected against three criteria — relevance to characterising the climate system, technical feasibility of sustained global observation, and cost effectiveness. Global mean surface temperature is an indicator; the surface and upper-air temperature ECVs are what it is assembled from, and the mapping between the two levels is many-to-one. That distinction is developed in [Essential Climate Variables](/en/ecology/earth-systems/essential-climate-variables-explained), alongside the wider [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) cluster, which covers the couplings the indicators are collectively tracking.
 
@@ -100,15 +101,15 @@ There is also a layer *beneath* the indicators, and it is worth naming because t
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change (2021). Authoritative review of climate indicators, attribution, and the multiple-lines-of-evidence framework.
 2. **IPCC** — [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/). Integrates indicator findings across the three working groups.
-3. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024), World Meteorological Organization. Annual key-indicator assessment used by the UN climate system.
+3. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024), World Meteorological Organization. Annual key-indicator assessment used by the UN climate system.
 4. **NOAA NCEI** — [State of the Climate](https://www.ncei.noaa.gov/), National Centers for Environmental Information. Annual U.S. assessment of global temperature, ocean, sea-level, and related indicators.
-5. **NOAA Climate.gov** — [Climate indicators and explainer products](https://www.climate.gov/). Public-facing companion to NOAA's monitoring and assessment.
+5. **NOAA Climate.gov** — [Climate indicators and explainer products](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring and assessment.
 6. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse-gas measurements and the Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Operational greenhouse-gas concentration records.
-7. **NASA Global Climate Change** — [Vital signs and indicator dashboard](https://climate.nasa.gov/). Public time series for the major climate indicators.
-8. **NASA Earth Observatory** — [Indicator-level imagery and explainers](https://earthobservatory.nasa.gov/). Topic pages for energy balance, sea level, and ice.
+7. **NASA Global Climate Change** — [Vital signs and indicator dashboard](https://science.nasa.gov/climate-change/). Public time series for the major climate indicators.
+8. **NASA Earth Observatory** — [Indicator-level imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Topic pages for energy balance, sea level, and ice.
 9. **Copernicus Climate Change Service** — [Global Climate Highlights and indicator products](https://climate.copernicus.eu/), ECMWF / European Commission. European reanalysis-based products and annual assessments.
-10. **EPA Climate Change Indicators** — [Indicator collection](https://www.epa.gov/climate-indicators), U.S. Environmental Protection Agency. Domestic U.S. indicator framework.
-11. **European Environment Agency** — [Climate-change indicators](https://www.eea.europa.eu/en/topics/in-depth/climate-change). European regional assessments of indicators.
+10. **U.S. Environmental Protection Agency** — [Climate change science](https://www.epa.gov/climatechange-science). U.S. federal overview of climate science and impacts. The agency's separate indicator collection was withdrawn from publication; the datasets it drew on remain available from NOAA and NASA.
+11. **European Environment Agency** — [Climate change impacts, risks and adaptation](https://www.eea.europa.eu/en/topics/in-depth/climate-change-impacts-risks-and-adaptation). European regional indicator assessments.
 12. **National Snow and Ice Data Center** — [Cryosphere reference datasets](https://nsidc.org/). Sea-ice extent, snow cover, and ice-sheet mass-balance records.
 13. **World Glacier Monitoring Service** — [Global glacier monitoring](https://wgms.ch/). Reference long-term glacier mass-balance dataset.
 14. **World Climate Research Programme** — [CMIP and indicator-evaluation framework](https://www.wcrp-climate.org/). Coordinates the model-intercomparison work behind IPCC projection evaluation.

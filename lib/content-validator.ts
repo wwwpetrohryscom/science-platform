@@ -17,13 +17,17 @@
  *   - error   → blocks the build (used by validate-content.ts exit code)
  *   - warning → reported, does not block
  */
-import { isAuthoritativeUrl, extractCitationUrls } from "@/lib/sources";
+import {
+  isAuthoritativeUrlAnyCategory,
+  extractCitationUrls,
+} from "@/lib/sources";
 import type { CategorySlug } from "@/lib/categories";
 import {
   detectFakeCitations,
   detectKeywordStuffing,
   detectLinkSpam,
   detectRepeatedPhrases,
+  similarityRatio,
 } from "@/lib/content/quality";
 import { BANNED_PHRASES } from "@/lib/content/tone";
 
@@ -201,12 +205,21 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
   }
   // Authority check is a *warning* (an unknown citation isn't necessarily
   // wrong, but it's worth flagging for editorial review).
+  //
+  // Checked against the whole registry rather than the article's own
+  // category. The registry is organised by subject area for display, not
+  // to fence citations: an ecology article on climate projections
+  // legitimately cites an American Meteorological Society journal, and a
+  // biology article on adaptation legitimately cites IPCC WG2. Flagging
+  // those trained the reader of this report to skim past the rule, which
+  // is the failure mode that matters — the rule exists to surface the
+  // citation that comes from nowhere recognised at all.
   for (const url of bodyUrls) {
-    if (!isAuthoritativeUrl(url, article.category)) {
+    if (!isAuthoritativeUrlAnyCategory(url)) {
       issues.push({
         severity: "warning",
         rule: "source-authority",
-        message: `citation ${url} is not in the authoritative registry for ${article.category}`,
+        message: `citation ${url} is not in the source registry for any subject area`,
         filepath: fp,
       });
     }
@@ -227,10 +240,20 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
     }
   }
 
-  // 9. Spam-shape signals. Warnings only — false positives on real
-  //    editorial copy are tolerable; the goal is visibility before a
-  //    page hits the index.
-  const stuffing = detectKeywordStuffing(article.body);
+  // 9. Spam-shape signals, measured over the PROSE only.
+  //
+  //    The `## Sources` block is by nature link-dense and repetitive: a
+  //    page citing five chapters of the same reference work repeats the
+  //    publisher name and URL stem five times, which is correct
+  //    citation practice and looked like phrase-spam to a detector that
+  //    read the whole file. Running these over the sources block was
+  //    measuring the wrong region of the document, and the false
+  //    positives it produced are exactly what trains an editor to stop
+  //    reading the report.
+  //
+  //    Warnings only — the goal is visibility before a page is indexed.
+  const prose = article.body.replace(/^##\s+Sources[\s\S]*/im, "");
+  const stuffing = detectKeywordStuffing(prose);
   if (stuffing.length > 0) {
     const top = stuffing[0];
     issues.push({
@@ -240,7 +263,7 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
       filepath: fp,
     });
   }
-  const repeats = detectRepeatedPhrases(article.body);
+  const repeats = detectRepeatedPhrases(prose);
   if (repeats.length > 0) {
     issues.push({
       severity: "warning",
@@ -249,7 +272,7 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
       filepath: fp,
     });
   }
-  const linkSpam = detectLinkSpam(article.body);
+  const linkSpam = detectLinkSpam(prose);
   if (linkSpam) {
     issues.push({
       severity: "warning",
@@ -307,8 +330,162 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
     }
   }
 
+  // 13. Dates must not be in the future. A publishedDate ahead of today
+  //     is either a typo or a deliberate freshness signal; both are wrong
+  //     because the date is published as schema.org dateModified.
+  const today = new Date().toISOString().slice(0, 10);
+  for (const key of ["publishedDate", "updatedDate"] as const) {
+    const value = isoDate(fm[key]);
+    if (value && value > today) {
+      issues.push({
+        severity: "error",
+        rule: "future-date",
+        message: `${key} (${value}) is in the future`,
+        filepath: fp,
+      });
+    }
+  }
+
+  // 14. Excerpt length. The excerpt is the meta description; too short
+  //     carries no information, too long is truncated in the SERP.
+  const excerpt = typeof fm.excerpt === "string" ? fm.excerpt : "";
+  if (excerpt && (excerpt.length < 80 || excerpt.length > 320)) {
+    issues.push({
+      severity: "warning",
+      rule: "excerpt-length",
+      message: `excerpt is ${excerpt.length} characters (want 80-320)`,
+      filepath: fp,
+    });
+  }
+
+  // 15. No credential or named-reviewer claims. Attribution on this site
+  //     is organizational; a page asserting a doctorate or a named
+  //     reviewer is asserting something the site cannot support.
+  //     Checked on the FORM of the claim, which is why the patterns are
+  //     anchored to attribution phrasing rather than to the bare words —
+  //     an article about a professor's published work is legitimate.
+  for (const pattern of CREDENTIAL_CLAIM_PATTERNS) {
+    const m = article.body.match(pattern);
+    if (m) {
+      issues.push({
+        severity: "error",
+        rule: "credential-claim",
+        message: `body asserts personal credentials or review ("${m[0].trim()}") — attribution on this site is organizational`,
+        filepath: fp,
+      });
+    }
+  }
+
+  // 16. Internal-link anchor quality. Mechanical injection produces two
+  //     signatures: single-word anchors, and the same anchor pointing at
+  //     the same URL more than once in a page. Both read as anchor
+  //     stuffing rather than as a link placed where the idea is used.
+  const internalLinks = [...article.body.matchAll(/\[([^\]]+)\]\((\/[a-z]{2}\/[^)]+)\)/g)]
+    .map((m) => ({ anchor: m[1], url: m[2] }));
+
+  // Word-count is only a meaningful proxy for "is this anchor a phrase"
+  // in a language that writes phrases as separate words. German
+  // compounds them: the English anchor "Earth observation" becomes
+  // "Erdbeobachtung", and the rule reported 28 single-word anchors on a
+  // German page whose English source had 7. Pressuring a translator to
+  // pad those into multi-word phrases would make the German worse.
+  //
+  // Link placement is inherited from the English source anyway, so the
+  // rule is enforced where it can be acted on and where fixing it fixes
+  // every locale at once.
+  const singleWord =
+    article.locale === "en"
+      ? internalLinks.filter((l) => l.anchor.trim().split(/\s+/).length === 1)
+      : [];
+  if (singleWord.length > 2) {
+    issues.push({
+      severity: "warning",
+      rule: "anchor-quality",
+      message: `${singleWord.length} single-word internal anchors (${singleWord
+        .slice(0, 4)
+        .map((l) => `"${l.anchor}"`)
+        .join(", ")}) — anchor text should be a phrase that reads in the sentence`,
+      filepath: fp,
+    });
+  }
+
+  const anchorPairs = new Map<string, number>();
+  for (const l of internalLinks) {
+    const key = `${l.anchor.toLowerCase()}||${l.url}`;
+    anchorPairs.set(key, (anchorPairs.get(key) ?? 0) + 1);
+  }
+  const repeatedPairs = [...anchorPairs.entries()].filter(([, n]) => n > 1);
+  if (repeatedPairs.length > 0) {
+    issues.push({
+      severity: "warning",
+      rule: "anchor-repeat",
+      message: `${repeatedPairs.length} anchor/target pair(s) repeated in one page — link the idea once`,
+      filepath: fp,
+    });
+  }
+
+  const targetCounts = new Map<string, number>();
+  for (const l of internalLinks) {
+    targetCounts.set(l.url, (targetCounts.get(l.url) ?? 0) + 1);
+  }
+  const overLinked = [...targetCounts.entries()].filter(([, n]) => n > 2);
+  if (overLinked.length > 0) {
+    issues.push({
+      severity: "warning",
+      rule: "anchor-repeat",
+      message: `links to ${overLinked[0][0]} ${overLinked[0][1]}× from one page`,
+      filepath: fp,
+    });
+  }
+
+  // 17. Source count and source diversity. A substantive page resting on
+  //     a single organization is a single point of failure for its
+  //     factual claims, which is a different problem from having too few
+  //     links.
+  if (!isInsight && bodyUrls.length > 0) {
+    if (bodyUrls.length < 3) {
+      issues.push({
+        severity: "warning",
+        rule: "source-count",
+        message: `${bodyUrls.length} external citation(s) — a substantive article should rest on more than one or two`,
+        filepath: fp,
+      });
+    }
+    const hosts = new Set(
+      bodyUrls.map((u) => {
+        try {
+          return new URL(u).hostname.replace(/^www\./, "");
+        } catch {
+          return u;
+        }
+      }),
+    );
+    if (bodyUrls.length >= 3 && hosts.size === 1) {
+      issues.push({
+        severity: "warning",
+        rule: "source-diversity",
+        message: `every citation is from ${[...hosts][0]} — no independent corroboration`,
+        filepath: fp,
+      });
+    }
+  }
+
   return issues;
 }
+
+/**
+ * Attribution claims the site cannot support. Matched on the phrasing
+ * that asserts a credential or a review, not on the bare word: an
+ * article that discusses a named researcher's published work is
+ * legitimate and must not trip this rule.
+ */
+const CREDENTIAL_CLAIM_PATTERNS: RegExp[] = [
+  /\b(?:reviewed|verified|fact-?checked|approved)\s+by\s+(?:dr\.?|prof\.?|professor)\b/i,
+  /\bmedically\s+reviewed\b/i,
+  /\bour\s+(?:team\s+of\s+)?(?:phd|ph\.d|doctors|scientists|experts)\b/i,
+  /\bwritten\s+by\s+(?:dr\.?|prof\.?|professor)\b/i,
+  /\b(?:author|reviewer)\s*:\s*(?:dr\.?|prof\.?)/i,
+];
 
 /**
  * Corpus-level rules that need cross-article context.
@@ -337,6 +514,176 @@ export function validateCorpus(articles: ValidatableArticle[]): ValidationReport
             .map((x) => x.slug)
             .join(", ")}`,
           filepath: a.filepath,
+        });
+      }
+    }
+  }
+
+  // Title and excerpt uniqueness, per locale. Duplicates are a direct
+  // cause of the "duplicate title tag" / "duplicate meta description"
+  // class of index problems, and they usually mean two pages are
+  // competing for the same query rather than covering different ground.
+  for (const [field, rule] of [
+    ["title", "title-unique"],
+    ["excerpt", "excerpt-unique"],
+  ] as const) {
+    const seen = new Map<string, ValidatableArticle[]>();
+    for (const a of articles) {
+      const value = String(a.frontmatter[field] ?? "").trim().toLowerCase();
+      if (!value) continue;
+      const key = `${a.locale}::${value}`;
+      seen.set(key, [...(seen.get(key) ?? []), a]);
+    }
+    for (const [, list] of seen) {
+      if (list.length < 2) continue;
+      for (const a of list) {
+        issues.push({
+          severity: "error",
+          rule,
+          message: `duplicate ${field} shared with ${list
+            .filter((x) => x !== a)
+            .map((x) => x.slug)
+            .join(", ")}`,
+          filepath: a.filepath,
+        });
+      }
+    }
+  }
+
+  // Pillar coverage. A subtopic with real depth and no pillar has no
+  // entry point; readers and crawlers arrive at a flat list of siblings
+  // with nothing declaring the shape of the topic.
+  const bySubtopic = new Map<string, ValidatableArticle[]>();
+  for (const a of articles) {
+    if (a.kind !== "article") continue;
+    bySubtopic.set(pillarKey(a), [...(bySubtopic.get(pillarKey(a)) ?? []), a]);
+  }
+  for (const [key, list] of bySubtopic) {
+    if (!key.startsWith("en/")) continue; // EN is the source of truth
+    const hasPillar = list.some((a) => String(a.frontmatter.type) === "pillar");
+    if (!hasPillar && list.length >= 3) {
+      for (const a of list) {
+        issues.push({
+          severity: "error",
+          rule: "pillar-missing",
+          message: `${key} has ${list.length} articles and no pillar`,
+          filepath: a.filepath,
+        });
+      }
+    }
+  }
+
+  // `pillar:` must name a real pillar in the same subtopic, and a pillar
+  // must not point at itself.
+  const pillarSlugBySubtopic = new Map<string, string>();
+  for (const a of articles) {
+    if (String(a.frontmatter.type) === "pillar") {
+      pillarSlugBySubtopic.set(pillarKey(a), a.slug);
+    }
+  }
+  for (const a of articles) {
+    const ref = a.frontmatter.pillar;
+    if (typeof ref !== "string" || ref === "") continue;
+    const expected = pillarSlugBySubtopic.get(pillarKey(a));
+    if (String(a.frontmatter.type) === "pillar") {
+      issues.push({
+        severity: "error",
+        rule: "pillar-ref",
+        message: `article is itself the pillar but declares pillar: ${ref}`,
+        filepath: a.filepath,
+      });
+    } else if (expected && ref !== expected) {
+      issues.push({
+        severity: "error",
+        rule: "pillar-ref",
+        message: `pillar: ${ref} but the pillar for ${pillarKey(a)} is ${expected}`,
+        filepath: a.filepath,
+      });
+    } else if (!expected) {
+      issues.push({
+        severity: "warning",
+        rule: "pillar-ref",
+        message: `pillar: ${ref} but no pillar exists for ${pillarKey(a)}`,
+        filepath: a.filepath,
+      });
+    }
+  }
+
+  // Orphans: an EN page with no inbound internal link from any other EN
+  // page is reachable only through a hub listing. That is a real
+  // discoverability problem and it is invisible without the whole graph.
+  const enArticles = articles.filter((a) => a.locale === "en");
+  const urlOf = (a: ValidatableArticle) =>
+    a.kind === "insight"
+      ? `/en/insight/${a.slug}`
+      : `/en/${a.category}/${a.subtopic}/${a.slug}`;
+  const inbound = new Map<string, Set<string>>();
+  for (const a of enArticles) inbound.set(urlOf(a), new Set());
+  for (const a of enArticles) {
+    const self = urlOf(a);
+    for (const m of a.body.matchAll(/\]\((\/en\/[^)#?\s]*)/g)) {
+      const target = m[1].replace(/\/$/, "");
+      const set = inbound.get(target);
+      if (set && target !== self) set.add(self);
+    }
+  }
+  for (const a of enArticles) {
+    if ((inbound.get(urlOf(a)) ?? new Set()).size === 0) {
+      issues.push({
+        severity: "warning",
+        rule: "orphan",
+        message: "no inbound internal links from any other page",
+        filepath: a.filepath,
+      });
+    }
+  }
+
+  // Pillar/supporting link relationship. A pillar that does not point at
+  // its cluster is a landing page, not a hub; a supporting article that
+  // never points up leaves the cluster undeclared to a crawler.
+  for (const [key, list] of bySubtopic) {
+    if (!key.startsWith("en/")) continue;
+    const pillar = list.find((a) => String(a.frontmatter.type) === "pillar");
+    if (!pillar) continue;
+    const supporting = list.filter((a) => a !== pillar);
+    if (supporting.length === 0) continue;
+
+    const linkedFromPillar = supporting.filter((a) =>
+      pillar.body.includes(urlOf(a)),
+    ).length;
+    if (linkedFromPillar * 2 < supporting.length) {
+      issues.push({
+        severity: "warning",
+        rule: "pillar-coverage",
+        message: `pillar links to ${linkedFromPillar} of ${supporting.length} supporting articles`,
+        filepath: pillar.filepath,
+      });
+    }
+    for (const a of supporting) {
+      if (!a.body.includes(urlOf(pillar))) {
+        issues.push({
+          severity: "warning",
+          rule: "pillar-uplink",
+          message: `does not link up to its pillar (${pillar.slug})`,
+          filepath: a.filepath,
+        });
+      }
+    }
+  }
+
+  // Near-duplicate bodies. Compared within a locale only; a translation
+  // legitimately mirrors its source. The threshold is deliberately high
+  // — scientific writing on adjacent subjects shares a lot of
+  // vocabulary, and a rule that fires on that would be noise.
+  for (let i = 0; i < enArticles.length; i++) {
+    for (let j = i + 1; j < enArticles.length; j++) {
+      const ratio = similarityRatio(enArticles[i].body, enArticles[j].body);
+      if (ratio > 0.72) {
+        issues.push({
+          severity: "error",
+          rule: "duplicate-body",
+          message: `body is ${(ratio * 100).toFixed(0)}% token-identical to ${enArticles[j].slug}`,
+          filepath: enArticles[i].filepath,
         });
       }
     }

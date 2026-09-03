@@ -2,10 +2,10 @@
 title: 'The global water cycle: a tiny reservoir with an enormous throughput'
 excerpt: The atmosphere holds a thousandth of one per cent of Earth's water and replaces it about forty times a year. That mismatch shapes how the water cycle responds to warming.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - water-cycle
   - hydrosphere
@@ -16,9 +16,11 @@ related:
   - earth-system-science-explained
   - water-vapor-feedback-explained
   - cryosphere-in-the-earth-system
+_bodyHash: ba471819
+pillar: earth-system-science-explained
 ---
 
-Of all the reservoirs in the [Earth system](/en/glossary/earth-system), the atmosphere's water store is the smallest that anyone cares about and the one that turns over fastest. Both facts follow from the same number, and together they explain why the [water cycle](/en/glossary/water-cycle) intensifies under warming in a way that is neither uniform nor proportional.
+Of all the reservoirs in the [Earth system](/en/glossary/earth-system), the atmosphere's water store is the smallest that anyone cares about and the one that turns over fastest. Both facts follow from the same number, and together they are a compact illustration of how [reservoirs and fluxes organise the whole Earth system](/en/ecology/earth-systems/earth-system-science-explained), and together they explain why the [water cycle](/en/glossary/water-cycle) intensifies under warming in a way that is neither uniform nor proportional.
 
 ## Where the water is
 
@@ -66,7 +68,7 @@ The satellite side of this problem — what can and cannot be retrieved about so
 
 1. **USGS Water Science School** — [How much water is there on Earth?](https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth). Global water volume and distribution between reservoirs.
 2. **USGS Water Science School** — [The atmosphere and the water cycle](https://www.usgs.gov/special-topics/water-science-school/science/atmosphere-and-water-cycle). Atmospheric water storage and its share of the global total.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Annual volume cycled through the atmosphere and the ocean's share of evaporation.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Annual volume cycled through the atmosphere and the ocean's share of evaporation.
 4. **IPCC AR6 WG1, Chapter 8** — [Water cycle changes](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/). Clausius–Clapeyron scaling, the energetic constraint on precipitation, and detection status.
-5. **NOAA Climate.gov** — [Water cycle explainers](https://www.climate.gov/). Accessible treatments of precipitation and drought monitoring.
+5. **NOAA Climate.gov** — [Water cycle explainers](https://www.noaa.gov/climate). Accessible treatments of precipitation and drought monitoring.
 6. **Copernicus Climate Change Service** — [Climate data and indicators](https://climate.copernicus.eu/). Reanalysis-based monitoring of precipitation and evaporation.

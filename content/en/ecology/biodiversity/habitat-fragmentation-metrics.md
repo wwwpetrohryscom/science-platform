@@ -1,10 +1,10 @@
 ---
 title: 'Habitat fragmentation metrics: measuring how landscapes break apart'
-excerpt: 'Habitat loss and habitat fragmentation are related but distinct, and conflating them produces bad conclusions. This explains the landscape metrics — patch size, edge, core area, and connectivity — used to quantify fragmentation, and the live scientific debate about how much it matters independently of habitat amount.'
+excerpt: Habitat loss and habitat fragmentation are related but distinct, and conflating them produces bad conclusions. This explains the landscape metrics — patch size, edge, core area, and connectivity — used to quantify fragmentation, and the live scientific debate about how much it matters independently of habitat amount.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - habitat-fragmentation
@@ -15,9 +15,11 @@ related:
   - ecological-integrity-indicators
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 901c9dac
+readingTime: 5
 ---
 
-When a forest, wetland, or grassland is carved by roads, fields, and development, it does not simply shrink — it also splits. [Habitat fragmentation](/en/glossary/habitat-fragmentation) describes that splitting: the breaking of once-continuous habitat into smaller, more isolated patches. It is closely tied to habitat loss yet conceptually separate, and keeping the two apart is essential for measuring landscape change well and for the broader work of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
+When a forest, wetland, or grassland is carved by roads, fields, and development, it does not simply shrink — it also splits. [Habitat fragmentation](/en/glossary/habitat-fragmentation) describes that splitting, a change that a site-level [species count can miss entirely](/en/ecology/biodiversity/why-species-counts-mislead-conservation): the breaking of once-continuous habitat into smaller, more isolated patches. It is closely tied to habitat loss yet conceptually separate, and keeping the two apart is essential for measuring landscape change well and for the broader work of [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Fragmentation is not the same as habitat loss
 
@@ -35,7 +37,7 @@ Two further measures describe arrangement rather than shape. Nearest-neighbour d
 
 These quantities are typically derived from a classified land-cover map — a grid in which each cell is assigned to a category such as forest, cropland, or built-up land — processed with landscape-pattern software that tallies patches and computes the indices described above. The workflow connects fragmentation analysis directly to [ecological integrity indicators](/en/ecology/biodiversity/ecological-integrity-indicators), which often draw on the same maps.
 
-Most of those maps now come from satellites. Land-cover products from the [NASA Earth Observatory](https://earthobservatory.nasa.gov/) and pan-European [land products](https://land.copernicus.eu/) from Copernicus provide the consistent, repeated coverage that fragmentation analysis needs, which is why the field leans so heavily on [remote sensing](/en/glossary/remote-sensing). That dependence is explored further in our overview of [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring). The methodology note worth carrying forward is simple: a fragmentation metric is only as good as the land-cover map beneath it, so the classification step deserves as much scrutiny as the index itself.
+Most of those maps now come from satellites. Land-cover products from the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) and pan-European [land products](https://land.copernicus.eu/) from Copernicus provide the consistent, repeated coverage that fragmentation analysis needs, which is why the field leans so heavily on [remote sensing](/en/glossary/remote-sensing). That dependence is explored further in our overview of [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring). The methodology note worth carrying forward is simple: a fragmentation metric is only as good as the land-cover map beneath it, so the classification step deserves as much scrutiny as the index itself.
 
 ## Edge effects and why core area matters
 
@@ -58,6 +60,6 @@ Second, "fragmentation" bundles together several distinct effects — reduced pa
 ## Sources
 
 1. **IPBES** — [Global Assessment Report](https://www.ipbes.net/global-assessment). Habitat change as a leading driver of biodiversity loss.
-1. **NASA Earth Observatory** — [land-cover products](https://earthobservatory.nasa.gov/). Satellite land-cover data used to map fragmentation.
+1. **NASA Earth Observatory** — [land-cover products](https://science.nasa.gov/earth/earth-observatory/). Satellite land-cover data used to map fragmentation.
 1. **Copernicus Land** — [land products](https://land.copernicus.eu/). Pan-European land-cover and connectivity data.
 1. **Science** — [landscape-ecology research](https://www.science.org/). Peer-reviewed work on fragmentation effects.

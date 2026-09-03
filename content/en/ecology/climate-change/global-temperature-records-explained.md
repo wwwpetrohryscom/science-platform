@@ -4,8 +4,8 @@ excerpt: There is no single global temperature dataset. There are several, built
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-05-23'
-readingTime: 7
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - climate-change
   - temperature
@@ -17,9 +17,10 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
+_bodyHash: de549a3c
 ---
 
-"Global mean surface temperature" is the most familiar climate indicator and also the one most often misread as a single number from a single dataset. It is not. Several independent groups produce global mean temperature records, each from their own combination of raw observations and their own gridding, infilling, and bias-correction methods. They agree to within stated uncertainties — which is the property that makes the trend robust.
+"Global mean surface temperature" is the most familiar indicator of [climate change](/en/ecology/climate-change/what-is-climate-change) and also the one most often misread as a single number from a single dataset. It is not. Several independent groups produce global mean temperature records, each from their own combination of raw observations and their own gridding, infilling, and bias-correction methods. They agree to within stated uncertainties — which is the property that makes the trend robust.
 
 This piece walks through the major operational products, what they have in common, and what their differences tell you.
 
@@ -33,9 +34,9 @@ The reported number is an anomaly relative to a reference period, not an absolut
 
 Five products carry most of the public-facing temperature reporting.
 
-**NOAAGlobalTemp.** The U.S. NOAA [National Centers for Environmental Information](https://www.ncei.noaa.gov/) operational product. It combines NOAA's land surface temperature dataset with the Extended Reconstructed Sea Surface Temperature (ERSST) record. It is the dataset behind the [NOAA Climate.gov](https://www.climate.gov/) headline figures and the [State of the Climate annual report](https://www.ncei.noaa.gov/).
+**NOAAGlobalTemp.** The U.S. NOAA [National Centers for Environmental Information](https://www.ncei.noaa.gov/) operational product. It combines NOAA's land surface temperature dataset with the Extended Reconstructed Sea Surface Temperature (ERSST) record. It is the dataset behind the [NOAA Climate.gov](https://www.noaa.gov/climate) headline figures and the [State of the Climate annual report](https://www.ncei.noaa.gov/).
 
-**NASA GISTEMP.** NASA's Goddard Institute for Space Studies (GISS) product. It uses the GHCN station network for land and ERSST for ocean, with NASA-specific gridding and Antarctic infilling. The [NASA Global Climate Change](https://climate.nasa.gov/) site presents the GISTEMP record on its global-temperature vital sign.
+**NASA GISTEMP.** NASA's Goddard Institute for Space Studies (GISS) product. It uses the GHCN station network for land and ERSST for ocean, with NASA-specific gridding and Antarctic infilling. The [NASA Global Climate Change](https://science.nasa.gov/climate-change/) site presents the GISTEMP record on its global-temperature vital sign.
 
 **HadCRUT.** The UK Met Office and University of East Anglia product, currently in its 5th version. It uses CRUTEM (land) and HadSST (sea surface). HadCRUT5 introduced ensemble-based uncertainty estimation and updated infilling of the Arctic, addressing earlier divergence from the other products in that region.
 
@@ -59,7 +60,7 @@ The convergence among multiple independent processing chains is the property the
 
 Across all the major products, the global mean surface temperature for 1850–1900 is below the late-20th-century mean by approximately 0.7–0.8 °C, and recent decades exceed it by about 1.2 °C. The rate of warming has roughly doubled since the 1970s relative to earlier in the instrumental record. [IPCC AR6 WG1 Chapter 2](https://www.ipcc.ch/report/ar6/wg1/) reviews the assessment ranges.
 
-The intra-year and interannual variability is dominated by ENSO. The 2023–2024 period contained a moderate-to-strong El Niño, and the [WMO State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024), [NOAA NCEI 2024 assessment](https://www.ncei.noaa.gov/), and [Copernicus Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024) all report record warmth for 2024 across multiple analysis chains. ENSO modulates the level of any single year; the underlying forced trend that drives the indicator framework is independent of it.
+The intra-year and interannual variability is dominated by ENSO. The 2023–2024 period contained a moderate-to-strong El Niño, and the [WMO State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024), [NOAA NCEI 2024 assessment](https://www.ncei.noaa.gov/), and [Copernicus Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024) all report record warmth for 2024 across multiple analysis chains. ENSO modulates the level of any single year; the underlying forced trend that drives the indicator framework is independent of it.
 
 A separate complication for the very recent record is the IMO 2020 sulphur-cap shipping fuel regulation, which has been hypothesized to have unmasked some aerosol-offset warming. The magnitude and attribution of any such contribution is an active research area in the peer-reviewed literature; major assessment bodies do not yet treat it as a settled component of the trend.
 
@@ -71,7 +72,7 @@ Three reading practices reduce avoidable confusion.
 
 **Compare anomalies on the same baseline.** A "1.3 °C above pre-industrial" figure and a "0.8 °C above 1961–1990 mean" figure can describe the same warming. Mismatched baselines are the dominant source of apparent disagreement among news reports.
 
-**Cross-check between products.** When the major products agree on a trend, the trend is on solid ground. When they disagree, the disagreement is usually informative — often regional rather than global, often related to a documented methodological choice. The [NOAA Climate.gov](https://www.climate.gov/) explainer pages and the [NASA Earth Observatory](https://earthobservatory.nasa.gov/) walk through specific divergences.
+**Cross-check between products.** When the major products agree on a trend, the trend is on solid ground. When they disagree, the disagreement is usually informative — often regional rather than global, often related to a documented methodological choice. The [NOAA Climate.gov](https://www.noaa.gov/climate) explainer pages and the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) walk through specific divergences.
 
 ## Methods and uncertainty
 
@@ -95,9 +96,8 @@ The temperature indicator is most useful when read alongside the others. That is
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 2](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of global temperature trends, observational uncertainty, and product intercomparison.
 2. **NOAA National Centers for Environmental Information** — [NOAAGlobalTemp and State of the Climate](https://www.ncei.noaa.gov/). Operational U.S. global temperature product and annual assessment.
-3. **NASA Global Climate Change** — [Global temperature vital sign](https://climate.nasa.gov/). GISTEMP record and explainer material.
-4. **NOAA Climate.gov** — [Climate change indicators and explainers](https://www.climate.gov/). Public-facing temperature explainer products.
-5. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024). International annual indicator assessment, including global temperature.
+3. **NASA Global Climate Change** — [Global temperature vital sign](https://science.nasa.gov/climate-change/). GISTEMP record and explainer material.
+4. **NOAA Climate.gov** — [Climate change indicators and explainers](https://www.noaa.gov/climate). Public-facing temperature explainer products.
+5. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024). International annual indicator assessment, including global temperature.
 6. **Copernicus Climate Change Service** — [Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024). ERA5-based annual indicator assessment.
-7. **NASA Earth Observatory** — [Temperature, energy balance, and reanalysis explainers](https://earthobservatory.nasa.gov/). Topic pages on the temperature indicator.
-8. **EPA Climate Change Indicators** — [U.S. and Global Temperature](https://www.epa.gov/climate-indicators). Temperature indicator in the U.S. domestic framework.
+7. **NASA Earth Observatory** — [Temperature, energy balance, and reanalysis explainers](https://science.nasa.gov/earth/earth-observatory/). Topic pages on the temperature indicator.

@@ -21,11 +21,12 @@
     "physics": "Física aplicada",
     "insights": "Análisis",
     "discussions": "Discusiones",
-    "join_discussion": "Unirse a la discusión",
+    "join_discussion": "Preguntas abiertas",
     "skip_to_content": "Saltar al contenido",
     "primary": "Principal",
     "primary_mobile": "Principal móvil",
-    "language_switcher": "Cambiar idioma"
+    "language_switcher": "Cambiar idioma",
+    "breadcrumb": "Ruta de navegación"
   },
   "categories": {
     "ecology": {
@@ -45,17 +46,102 @@
     }
   },
   "subtopics": {
-    "ecosystems": { "label": "Ecosistemas", "description": "Bosques, humedales, océanos, suelos — cómo se mueven la energía y la materia por los sistemas vivos y qué revelan las perturbaciones." },
-    "climate-change": { "label": "Cambio climático", "description": "Causas, retroalimentaciones, atribución y las incertidumbres relevantes para la política en la frontera de la ciencia del clima." },
-    "biodiversity": { "label": "Biodiversidad", "description": "Por qué el conteo de especies es la métrica equivocada, qué hacen realmente la diversidad genética y funcional, y dónde funciona la conservación." },
-    "earth-systems": { "label": "Ciencia del sistema Tierra", "description": "El planeta como un sistema acoplado: cómo la atmósfera, el océano, el hielo, la tierra y la vida intercambian energía y materia, y qué explica ese acoplamiento que ningún componente aislado puede explicar." },
-    "earth-observation": { "label": "Observación de la Tierra", "description": "Cómo los satélites y sensores observan el planeta: los métodos, los productos de datos y las incertidumbres detrás de la medición del cambio ambiental desde el espacio." },
-    "cells": { "label": "Biología celular", "description": "La célula como unidad fundamental de la vida — su arquitectura, energética, señalización y los métodos para estudiarla." },
-    "genetics": { "label": "Genética", "description": "Genética molecular, genómica y evolución de los sistemas genéticos — lo que la secuenciación ha revelado y lo que no puede resolver." },
-    "evolution": { "label": "Evolución", "description": "Selección, deriva, desarrollo y la síntesis moderna — incluidas las partes que se están revisando discretamente." },
-    "energy": { "label": "Energía", "description": "Generación, almacenamiento, transmisión, y los materiales y arquitecturas que determinan qué tecnologías escalan realmente." },
-    "thermodynamics": { "label": "Termodinámica", "description": "Las leyes que limitan todo sistema físico — y las preguntas sorprendentemente modernas aún abiertas en su frontera." },
-    "quantum-basics": { "label": "Conceptos cuánticos", "description": "Mecánica cuántica para el profesional — las partes que importan para sensores, materiales y computación, sin la filosofía." }
+    "ecosystems": {
+      "label": "Ecosistemas",
+      "description": "Bosques, humedales, océanos, suelos — cómo se mueven la energía y la materia por los sistemas vivos y qué revelan las perturbaciones."
+    },
+    "climate-change": {
+      "label": "Cambio climático",
+      "description": "Causas, retroalimentaciones, atribución y las incertidumbres relevantes para la política en la frontera de la ciencia del clima."
+    },
+    "biodiversity": {
+      "label": "Biodiversidad",
+      "description": "Por qué el conteo de especies es la métrica equivocada, qué hacen realmente la diversidad genética y funcional, y dónde funciona la conservación."
+    },
+    "earth-systems": {
+      "label": "Ciencia del sistema Tierra",
+      "description": "El planeta como un sistema acoplado: cómo la atmósfera, el océano, el hielo, la tierra y la vida intercambian energía y materia, y qué explica ese acoplamiento que ningún componente aislado puede explicar."
+    },
+    "earth-observation": {
+      "label": "Observación de la Tierra",
+      "description": "Cómo los satélites y sensores observan el planeta: los métodos, los productos de datos y las incertidumbres detrás de la medición del cambio ambiental desde el espacio."
+    },
+    "cells": {
+      "label": "Biología celular",
+      "description": "La célula como unidad fundamental de la vida — su arquitectura, energética, señalización y los métodos para estudiarla."
+    },
+    "genetics": {
+      "label": "Genética",
+      "description": "Genética molecular, genómica y evolución de los sistemas genéticos — lo que la secuenciación ha revelado y lo que no puede resolver."
+    },
+    "evolution": {
+      "label": "Evolución",
+      "description": "Selección, deriva, desarrollo y la síntesis moderna — incluidas las partes que se están revisando discretamente."
+    },
+    "energy": {
+      "label": "Energía",
+      "description": "Generación, almacenamiento, transmisión, y los materiales y arquitecturas que determinan qué tecnologías escalan realmente."
+    },
+    "thermodynamics": {
+      "label": "Termodinámica",
+      "description": "Las leyes que limitan todo sistema físico — y las preguntas sorprendentemente modernas aún abiertas en su frontera."
+    },
+    "quantum-basics": {
+      "label": "Conceptos cuánticos",
+      "description": "Mecánica cuántica para el profesional — las partes que importan para sensores, materiales y computación, sin la filosofía."
+    },
+    "conservation": {
+      "label": "Ciencias de la conservación",
+      "description": "Áreas protegidas, recuperación de especies, restauración y gestión de especies invasoras: qué consiguen realmente las intervenciones de conservación y cómo se mide."
+    },
+    "oceans": {
+      "label": "Océanos y ciencias marinas",
+      "description": "Circulación oceánica, química, productividad y ecosistemas marinos: cómo funciona el océano como hábitat y como componente del sistema climático."
+    },
+    "freshwater": {
+      "label": "Aguas continentales y humedales",
+      "description": "Ríos, lagos, aguas subterráneas y humedales: los depósitos más pequeños del ciclo del agua y los más explotados, y qué determina su estado."
+    },
+    "forests": {
+      "label": "Bosques y cobertura terrestre",
+      "description": "Estructura forestal, perturbaciones, carbono y cambios en la cubierta terrestre: lo que hacen biológicamente los bosques y lo que se les atribuye en la contabilidad del carbono."
+    },
+    "soils": {
+      "label": "Suelos y superficie terrestre",
+      "description": "Formación del suelo, carbono edáfico, biología del suelo y degradación de tierras: la capa delgada y de formación lenta de la que depende casi toda la vida terrestre."
+    },
+    "pollution": {
+      "label": "Contaminación y calidad ambiental",
+      "description": "Contaminación del aire, del agua y química: fuentes, vías de exposición, medición y la evidencia que vincula los contaminantes con daños ecológicos y humanos."
+    },
+    "microbiology": {
+      "label": "Microbiología",
+      "description": "Bacterias, arqueas, hongos, virus y las comunidades microbianas que sostienen la mayor parte de la biogeoquímica del planeta."
+    },
+    "physiology": {
+      "label": "Fisiología y biología de organismos",
+      "description": "Cómo funcionan los organismos: respiración, circulación, termorregulación, inmunidad, sistemas nerviosos y desarrollo, en humanos y en otras especies."
+    },
+    "taxonomy": {
+      "label": "Taxonomía y árbol de la vida",
+      "description": "Nombrar, clasificar y reconstruir las relaciones entre organismos, y la pregunta sorprendentemente abierta de cuántas especies existen."
+    },
+    "biotechnology": {
+      "label": "Biotecnología y bioinformática",
+      "description": "Secuenciación, edición del genoma, biología sintética y los métodos computacionales que convierten datos biológicos en inferencias."
+    },
+    "climate-physics": {
+      "label": "Física atmosférica y climática",
+      "description": "Radiación, estructura atmosférica, convección y la física que determina cómo se mueve la energía por la atmósfera y el océano."
+    },
+    "mechanics-waves": {
+      "label": "Mecánica, ondas y fluidos",
+      "description": "Movimiento, fuerzas, energía, oscilaciones, sonido, luz y comportamiento de los fluidos: la física clásica que sustenta casi toda medición."
+    },
+    "matter-radiation": {
+      "label": "Materia, materiales y radiación",
+      "description": "Estructura atómica y nuclear, radiactividad, partículas y la ciencia de materiales detrás de detectores, reactores y tecnologías energéticas."
+    }
   },
   "home": {
     "meta_title": "Escritura científica sobre ecología, biología y física aplicada",
@@ -89,7 +175,9 @@
     "browse_cta": "Explorar {category} →",
     "article_count_one": "{count} artículo",
     "article_count_other": "{count} artículos",
-    "meta_title": "{category} — artículos, análisis y notas de campo"
+    "meta_title": "{category} — artículos, análisis y notas de campo",
+    "faq_heading": "Preguntas frecuentes — {category}",
+    "faq_description": "Respuestas breves y con fuentes a las preguntas que se repiten en esta área."
   },
   "subtopic_hub": {
     "start_here": "Empezar aquí",
@@ -99,7 +187,13 @@
     "empty": "Aún no hay artículos publicados en este subtema — vuelve pronto.",
     "siblings_title": "Subtemas relacionados en {category}",
     "by_author_reading_time": "Por {author} · {minutes} min de lectura",
-    "subtopic_eyebrow": "Subtema de {category}"
+    "subtopic_eyebrow": "Subtema de {category}",
+    "foundation_label": "Fundamentos",
+    "foundation_description": "Definiciones y mecanismos básicos: la base conceptual del resto de este subtema.",
+    "methods_label": "Métodos e indicadores",
+    "methods_description": "Cómo se mide, se vigila y se cuantifica el fenómeno.",
+    "applications_label": "Aplicaciones y fronteras",
+    "applications_description": "Preguntas abiertas, aplicaciones a políticas públicas y los puntos donde la evidencia aún se está reuniendo."
   },
   "article": {
     "pillar_badge": "Pilar",
@@ -123,27 +217,36 @@
   },
   "discussions": {
     "eyebrow": "Discusiones",
-    "title": "Conversaciones moderadas por expertos",
-    "description": "No gestionamos un foro. Animamos hilos — cada uno enmarcado por un experto del dominio, abierto a especialistas verificados y moderado por su contenido.",
+    "title": "Preguntas científicas seleccionadas",
+    "description": "No es un foro. Cada entrada plantea una pregunta en la que la ciencia sigue realmente abierta, enmarcada por una mesa editorial y con la evidencia de cada posición. No hay comentarios abiertos.",
     "empty": "No hay discusiones activas en este momento.",
-    "moderated_by": "Moderado por",
-    "participants": "{count} participantes",
-    "status": { "open": "abierta", "closed": "cerrada", "scheduled": "programada" },
+    "moderated_by": "Enmarcado por",
+    "status": {
+      "open": "abierta",
+      "closed": "cerrada",
+      "scheduled": "programada"
+    },
     "category_eyebrow": "Discusión · {category}",
-    "about_heading": "Sobre esta discusión",
-    "about_body": "Las discusiones de este sitio están enmarcadas por expertos del dominio y moderadas por su contenido. Los comentarios de expertos verificados llevan una insignia; todas las demás aportaciones se revisan antes de publicarse.",
-    "related_article": "Artículo relacionado"
+    "about_heading": "Cómo funcionan",
+    "about_body": "Cada pregunta la abre y la enmarca una mesa editorial de EcoScienceHub. Las notas que siguen son editoriales, escritas por la mesa: no son aportaciones de investigadores concretos, y en este sitio no hay comentarios del público. Si en el futuro participan colaboradores externos verificados, sus intervenciones se señalarán y se atribuirán con su nombre.",
+    "related_article": "Artículo relacionado",
+    "editorial_notes": "{count} notas editoriales",
+    "notes_heading": "Notas editoriales ({count})",
+    "verified_contributor": "Colaborador verificado",
+    "closed_notice": "EcoScienceHub no acepta contribuciones públicas sobre estas preguntas. Las notas anteriores son editoriales. Si trabaja en alguno de estos campos y desea colaborar, escriba a info@helperg.com: un colaborador con nombre se publicaría bajo su propio nombre e identificado como tal."
   },
   "footer": {
     "topics_heading": "Temas",
     "formats_heading": "Formatos",
     "about_heading": "Acerca de",
     "editorial_standards": "Estándares editoriales",
-    "contact": "Contacto",
     "rss": "RSS",
     "sitemap": "Mapa del sitio",
     "rights": "© {year} {site}. Todos los derechos reservados.",
-    "footer_note": "Editorialmente independiente. Citas bienvenidas — por favor enlaza a la URL canónica."
+    "footer_note": "Editorialmente independiente. Citas bienvenidas — por favor enlaza a la URL canónica.",
+    "sourcing_policy": "Política de fuentes",
+    "editorial_desks": "Mesas editoriales",
+    "corrections": "Correcciones y contacto"
   },
   "newsletter": {
     "eyebrow": "Newsletter",
@@ -151,10 +254,48 @@
     "description": "Suscríbete para recibir nuevos artículos largos y análisis, además de notas ocasionales del equipo editorial. Sin clickbait, sin compra de listas, sin píxeles de seguimiento.",
     "email_label": "Correo electrónico",
     "email_placeholder": "tu@ejemplo.com",
-    "submit": "Suscribirse"
+    "submit": "Suscribirse",
+    "not_open": "La lista de correo aún no está abierta. Cuando lo esté, podrá suscribirse aquí; hasta entonces no se recoge ningún dato en esta página."
   },
   "common": {
     "by": "Por",
-    "and": "y"
+    "and": "y",
+    "evidence_uncertainty": "Evidencia e incertidumbre",
+    "methodology_sources": "Metodología y fuentes",
+    "where_evidence": "De dónde procede la evidencia",
+    "insight_sources": "Fuentes de este argumento",
+    "desk_disclaimer": "Una mesa editorial, no una persona. No posee ninguna titulación académica ni representa a ningún científico concreto.",
+    "desk_disclaimer_link": "por qué el sitio atribuye así sus contenidos",
+    "attribution_eyebrow": "Atribución editorial"
+  },
+  "cookies": {
+    "aria": "Consentimiento de cookies",
+    "title": "EcoScienceHub usa cookies respetuosas con la privacidad",
+    "summary": "El almacenamiento necesario solo sirve para conservar esta preferencia. La analítica es opcional y nos ayuda a entender el uso agregado del sitio. Los scripts de analítica están bloqueados hasta que los acepte.",
+    "necessary_label": "Cookies necesarias",
+    "necessary_body": "Siempre activas. Necesarias para guardar sus preferencias de cookies y para la seguridad básica del sitio.",
+    "analytics_label": "Cookies de analítica",
+    "analytics_body": "Opcionales. Permiten una medición agregada mediante la propiedad de Google Analytics configurada.",
+    "customize": "Personalizar",
+    "save": "Guardar mis opciones",
+    "reject": "Rechazar las no esenciales",
+    "accept": "Aceptar todas"
+  },
+  "hub": {
+    "topic_scope": "La cobertura se organiza en {count} subtemas, cada uno respaldado por fuentes primarias.",
+    "subtopic_scope": "Aquí hay {count} artículos, ordenados a continuación desde los fundamentos hasta los métodos y las preguntas todavía abiertas.",
+    "subtopic_scope_pillar": "Aquí hay {count} artículos. Empiece por {pillar}; el resto va de los fundamentos a los métodos y a las preguntas todavía abiertas.",
+    "sources_heading": "Organismos en los que se apoya esta área",
+    "sources_description": "El registro de instituciones que respaldan la evidencia de esta sección. Cada artículo cita las páginas concretas en las que se apoya; estos son los organismos de los que proceden.",
+    "methodology": "Los artículos de esta sección se escriben a partir de evaluaciones intergubernamentales, agencias científicas nacionales y literatura revisada por pares. Cuando fuentes solventes discrepan, la página informa de la discrepancia en lugar de elegir una cifra.",
+    "explore_topic": "Explorar {topic}",
+    "more_in_subtopic": "Más sobre {subtopic}"
+  },
+  "evidence": {
+    "citations": "Este artículo enlaza {count} citas externas. Cada una apunta a una fuente primaria, a un informe institucional o a un conjunto de datos publicado.",
+    "citations_one": "Este artículo enlaza una cita externa.",
+    "attribution": "Atribuido a la mesa {desk}: una mesa editorial, no una persona.",
+    "policy_link": "Cómo se eligen y comprueban las fuentes",
+    "last_updated": "Última actualización"
   }
 }

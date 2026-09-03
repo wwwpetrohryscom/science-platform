@@ -1,10 +1,10 @@
 ---
 title: 'Biodiversity baselines and shifting baselines: choosing the reference for change'
-excerpt: 'Every statement about biodiversity loss is measured against a baseline, and the choice of baseline quietly determines the verdict. This explains shifting-baseline syndrome, why it makes degraded systems look normal, and how scientists try to reconstruct deeper reference conditions.'
+excerpt: Every statement about biodiversity loss is measured against a baseline, and the choice of baseline quietly determines the verdict. This explains shifting-baseline syndrome, why it makes degraded systems look normal, and how scientists try to reconstruct deeper reference conditions.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - baselines
@@ -15,9 +15,11 @@ related:
   - living-planet-index-explained
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
+_bodyHash: a626ef6a
+readingTime: 5
 ---
 
-Almost every claim about nature contains a hidden comparison. To say a population has declined, recovered, or remained intact is to measure it against some earlier state taken as normal. That earlier state is the reference point, and choosing it is one of the quietest yet most consequential decisions in biodiversity monitoring.
+Almost every claim about nature contains a hidden comparison. To say a population has declined, recovered, or remained intact is to measure it against some earlier state taken as normal. That earlier state is the reference point, and choosing it is as consequential as the choice of metric itself — the problem set out in [why a species count answers a narrower question than it appears to](/en/ecology/biodiversity/why-species-counts-mislead-conservation). Choosing it is one of the quietest yet most consequential decisions in biodiversity monitoring.
 
 ## What a baseline is and why it matters
 

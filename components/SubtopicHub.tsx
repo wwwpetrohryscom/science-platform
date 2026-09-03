@@ -4,7 +4,6 @@ import { Layout } from "@/components/Layout";
 import { PageHeading } from "@/components/PageHeading";
 import { ArticleCard } from "@/components/ArticleCard";
 import { NewsletterBlock } from "@/components/NewsletterBlock";
-import { GeneratedBlock } from "@/components/GeneratedBlock";
 import { SourceList } from "@/components/SourceList";
 import { FaqBlock } from "@/components/FaqBlock";
 
@@ -15,22 +14,15 @@ import {
   getSiblingSubtopics,
   type Article,
 } from "@/lib/content";
-import {
-  generateMethodologyNote,
-  generateSubtopicExplanation,
-  generateSubtopicIntro,
-  listSourcesForTopic,
-} from "@/lib/content/generators";
+import { listSourcesForTopic } from "@/lib/content/generators";
 import { getSubtopicFaqs } from "@/lib/content/faqs";
-import {
-  relatedInSubtopicCopy,
-} from "@/lib/content/internal-links";
 import {
   breadcrumbJsonLd,
   collectionPageJsonLd,
   faqJsonLd,
 } from "@/lib/seo";
 import {
+  DEFAULT_LOCALE,
   getMessages,
   localeMeta,
   localizedPath,
@@ -92,22 +84,13 @@ export async function SubtopicHub({
     inLanguage: localeMeta[locale].htmlLang,
     items: collectionItems,
   });
-  const faqLd = subtopicFaqs.length > 0 ? faqJsonLd(subtopicFaqs) : null;
+  const faqLd =
+    locale === DEFAULT_LOCALE && subtopicFaqs.length > 0
+      ? faqJsonLd(subtopicFaqs)
+      : null;
 
-  const subtopicIntro = generateSubtopicIntro({
-    category,
-    subtopicSlug,
-    articleCount: allInSub.length,
-    pillarTitle: pillar?.title,
-  });
-  const subtopicExplanationBlock = generateSubtopicExplanation({
-    category,
-    subtopicSlug,
-    articleCount: allInSub.length,
-    pillarTitle: pillar?.title,
-  });
-  const methodology = generateMethodologyNote(category);
   const sources = listSourcesForTopic(category);
+
 
   return (
     <Layout locale={locale}>
@@ -126,6 +109,7 @@ export async function SubtopicHub({
         />
       )}
       <PageHeading
+        locale={locale}
         eyebrow={t("subtopic_hub.subtopic_eyebrow", { category: categoryLabel })}
         title={subtopicLabel}
         description={subtopicDescription}
@@ -136,21 +120,18 @@ export async function SubtopicHub({
         ]}
       />
 
-      {/* Generated subtopic intro */}
-      <section
-        aria-labelledby="subtopic-intro-heading"
-        className="container-page mt-10 max-w-3xl"
-      >
-        <h2 id="subtopic-intro-heading" className="sr-only">
-          About {subtopicLabel}
-        </h2>
-        <GeneratedBlock block={subtopicIntro} variant="intro" />
-        <div className="mt-6">
-          <GeneratedBlock
-            block={subtopicExplanationBlock}
-            variant="explanation"
-          />
-        </div>
+      {/* Scope line. Derived from the corpus and localized, replacing a
+          template-composed English paragraph that rendered identically on
+          every locale. */}
+      <section className="container-page mt-10 max-w-3xl">
+        <p className="text-base leading-relaxed text-ink-muted">
+          {pillar
+            ? t("hub.subtopic_scope_pillar", {
+                count: allInSub.length,
+                pillar: pillar.title,
+              })
+            : t("hub.subtopic_scope", { count: allInSub.length })}
+        </p>
       </section>
 
       {/* Pillar feature */}
@@ -201,10 +182,10 @@ export async function SubtopicHub({
                   id={`group-${intent}-heading`}
                   className="font-serif text-2xl font-semibold tracking-tight text-ink md:text-3xl"
                 >
-                  {INTENT_LABELS[intent]}
+                  {t(`subtopic_hub.${intent}_label`)}
                 </h2>
                 <p className="mt-2 max-w-2xl text-sm text-ink-muted">
-                  {INTENT_DESCRIPTIONS[intent]}
+                  {t(`subtopic_hub.${intent}_description`)}
                 </p>
                 <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
                   {items.map((article) => (
@@ -254,7 +235,9 @@ export async function SubtopicHub({
                     {t(`subtopics.${sib.slug}.description`)}
                   </p>
                   <p className="mt-2 text-xs text-ink-subtle">
-                    {relatedInSubtopicCopy(t(`subtopics.${sib.slug}.label`))}
+                    {t("hub.more_in_subtopic", {
+                      subtopic: t(`subtopics.${sib.slug}.label`),
+                    })}
                   </p>
                 </div>
                 <span aria-hidden className="text-primary-600 mt-1">
@@ -275,23 +258,25 @@ export async function SubtopicHub({
           id="subtopic-sources-heading"
           className="font-serif text-2xl font-semibold tracking-tight text-ink md:text-3xl"
         >
-          Where the evidence comes from
+          {t("common.where_evidence")}
         </h2>
-        <div className="mt-4">
-          <GeneratedBlock block={methodology} variant="explanation" />
-        </div>
+        <p className="mt-4 text-base leading-relaxed text-ink-muted">
+          {t("hub.methodology")}
+        </p>
         <SourceList
           sources={sources}
-          heading={`Curated sources for ${categoryLabel}`}
-          description={`Citations under ${subtopicLabel} are validated against this registry.`}
+          heading={t("hub.sources_heading")}
+          description={t("hub.sources_description")}
           limit={6}
         />
       </section>
 
-      {subtopicFaqs.length > 0 && (
+      {/* English-only until the FAQ registry is translated — see the same
+          note on the category hub. */}
+      {locale === DEFAULT_LOCALE && subtopicFaqs.length > 0 && (
         <FaqBlock
-          heading={`Frequently asked about ${subtopicLabel.toLowerCase()}`}
-          description="Short, source-backed answers anchored to the articles in this subtopic."
+          heading={t("category_hub.faq_heading", { category: subtopicLabel })}
+          description={t("category_hub.faq_description")}
           items={subtopicFaqs}
         />
       )}
@@ -307,17 +292,10 @@ type IntentKey = "foundation" | "methods" | "applications";
 
 const INTENT_ORDER: IntentKey[] = ["foundation", "methods", "applications"];
 
-const INTENT_LABELS: Record<IntentKey, string> = {
-  foundation: "Foundation",
-  methods: "Methods and indicators",
-  applications: "Applications and frontiers",
-};
-
-const INTENT_DESCRIPTIONS: Record<IntentKey, string> = {
-  foundation: "Core definitions and mechanisms — the conceptual base for the rest of this subtopic.",
-  methods: "How the phenomenon is measured, monitored, and quantified.",
-  applications: "Frontier questions, policy applications, and where the evidence is still being assembled.",
-};
+// Labels and descriptions live in the message bundles
+// (`subtopic_hub.<intent>_label` / `_description`). They were hard-coded
+// English here and rendered as H2 headings on every localized subtopic
+// hub — untranslated UI on every non-English page of the taxonomy.
 
 /**
  * Deterministic article-to-intent mapping. Uses tags first, then

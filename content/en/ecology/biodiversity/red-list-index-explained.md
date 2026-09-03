@@ -1,8 +1,8 @@
 ---
 title: 'The Red List Index explained: tracking extinction risk over time'
-excerpt: 'The IUCN Red List sorts species into extinction-risk categories; the Red List Index turns repeated assessments into a trend. Here is how the categories and criteria work, what the index does to avoid measuring its own improving knowledge, and which groups it can represent.'
+excerpt: The IUCN Red List sorts species into extinction-risk categories; the Red List Index turns repeated assessments into a trend. Here is how the categories and criteria work, what the index does to avoid measuring its own improving knowledge, and which groups it can represent.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -15,6 +15,8 @@ related:
   - living-planet-index-explained
   - why-species-counts-mislead-conservation
 pillar: why-species-counts-mislead-conservation
+_bodyHash: c1ca632
+readingTime: 5
 ---
 
 The [IUCN Red List](https://www.iucnredlist.org/) sorts species into categories of extinction risk, from those of least concern to those that have disappeared. On its own, a single assessment is a snapshot. The Red List Index turns repeated assessments of the same groups into a trend, and this piece explains how that conversion works, what the categories and criteria measure, and where the resulting signal can and cannot be trusted.

@@ -17,9 +17,10 @@ related:
   - extreme-weather-attribution-basics
   - carbon-cycle-feedbacks
 pillar: what-is-climate-change
+_bodyHash: 3ef3883
 ---
 
-A climate projection is not a forecast in the weather sense. A weather forecast estimates the actual state of the atmosphere at a future time; a climate projection estimates the *statistics* of the climate system under a specified set of forcing assumptions. The difference matters because the relevant uncertainty in a climate projection is not "how exactly will the weather unfold" — it is a structured combination of three different sources.
+A climate projection is not a forecast in the weather sense. A weather forecast estimates the actual state of the atmosphere at a future time; a climate projection estimates the *statistics* of [the climate system](/en/ecology/climate-change/what-is-climate-change) under a specified set of forcing assumptions. The difference matters because the relevant uncertainty in a climate projection is not "how exactly will the weather unfold" — it is a structured combination of three different sources.
 
 This piece walks through what climate models are, where the uncertainty in their projections comes from, and how to read a projection range responsibly.
 
@@ -97,14 +98,14 @@ Three practices reduce avoidable confusion.
 
 There is a further distinction worth carrying into any reading of a projection: a forecast depends on knowing today's state precisely, while a projection of century-scale statistics does not depend on initial conditions at all. That is why the two-week limit on weather prediction does not transfer to climate projection, an argument set out in [Earth-system predictability](/en/ecology/earth-systems/earth-system-predictability-explained).
 
-Models do not replace the indicator record — they extend it forward conditionally. The historical [indicator records](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) are the empirical foundation; the projections are the consequence of running the models forward under specified assumptions. A projection is honest about what the underlying assumptions are; a forecast that hides the scenario is a forecast that has confused its own structure.
+Models do not replace the indicator record — they extend it forward conditionally. The historical indicator records are the empirical foundation; the projections are the consequence of running the models forward under specified assumptions. A projection is honest about what the underlying assumptions are; a forecast that hides the scenario is a forecast that has confused its own structure.
 
 ## Sources
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 4 (Future Global Climate) and Chapter 7 (The Earth's Energy Budget, Climate Feedbacks, and Climate Sensitivity)](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of climate-model projections and equilibrium climate sensitivity.
 2. **World Climate Research Programme** — [Coupled Model Intercomparison Project (CMIP)](https://www.wcrp-climate.org/). Coordinates the multi-model ensemble framework underlying IPCC projections.
 3. **Copernicus Climate Change Service** — [Climate projection products and the Climate Data Store](https://climate.copernicus.eu/). European projection and downscaling pipeline.
-4. **NASA Global Climate Change** — [Climate model resources and explainers](https://climate.nasa.gov/). Public-facing model explainer materials.
-5. **NOAA Climate.gov** — [Climate model explainers and uncertainty articles](https://www.climate.gov/). Public-facing companion to NOAA's projection materials.
+4. **NASA Global Climate Change** — [Climate model resources and explainers](https://science.nasa.gov/climate-change/). Public-facing model explainer materials.
+5. **NOAA Climate.gov** — [Climate model explainers and uncertainty articles](https://www.noaa.gov/climate). Public-facing companion to NOAA's projection materials.
 6. **WMO** — [State of the Global Climate and projection-related products](https://wmo.int/). International annual indicator and projection context.
 7. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Integrates projection findings across working groups.

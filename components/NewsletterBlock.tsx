@@ -10,6 +10,21 @@ type NewsletterBlockProps = {
   variant?: "section" | "inline";
 };
 
+/**
+ * The subscribe form promised delivery ("Subscribe to receive new
+ * long-form articles and insights") while /api/newsletter validated the
+ * address, returned 202, and stored nothing — no provider was ever
+ * configured. Collecting an email address against a promise the site
+ * cannot keep is not acceptable, so the form only renders once a
+ * provider is configured.
+ *
+ * Set NEXT_PUBLIC_NEWSLETTER_ENABLED=true (and wire the provider hand-off
+ * in app/api/newsletter/route.ts) to restore it. Until then the panel
+ * states plainly that the list is not open and that nothing is stored.
+ */
+const NEWSLETTER_ENABLED =
+  process.env.NEXT_PUBLIC_NEWSLETTER_ENABLED === "true";
+
 export function NewsletterBlock({ locale, variant = "section" }: NewsletterBlockProps) {
   const t = translator(getMessages(locale));
   const isInline = variant === "inline";
@@ -39,13 +54,16 @@ export function NewsletterBlock({ locale, variant = "section" }: NewsletterBlock
             {t("newsletter.title")}
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-ink-muted md:text-base">
-            {t("newsletter.description")}
+            {NEWSLETTER_ENABLED
+              ? t("newsletter.description")
+              : t("newsletter.not_open")}
           </p>
         </div>
 
         {/* `/api/newsletter` runs the full anti-spam stack
             (rate-limit, honeypot, sanitize, optional CAPTCHA) before
             handing off to the provider integration. */}
+        {NEWSLETTER_ENABLED && (
         <form
           action="/api/newsletter"
           method="post"
@@ -85,6 +103,7 @@ export function NewsletterBlock({ locale, variant = "section" }: NewsletterBlock
             {t("newsletter.submit")}
           </button>
         </form>
+        )}
       </div>
     </section>
   );

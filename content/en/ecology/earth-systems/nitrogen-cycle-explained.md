@@ -2,10 +2,10 @@
 title: 'The nitrogen cycle: an inert ocean of gas and the thin reactive stream that matters'
 excerpt: Nitrogen is the most abundant gas in the air and among the scarcest nutrients in most ecosystems. The paradox lives in the chemistry of breaking a single bond.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - nitrogen-cycle
   - biogeochemical-cycles
@@ -16,9 +16,11 @@ related:
   - carbon-cycle-explained
   - biosphere-climate-interactions
   - earth-system-science-explained
+_bodyHash: 8a62d60a
+pillar: earth-system-science-explained
 ---
 
-About 78 per cent of the air is nitrogen, and almost none of it is available to almost anything alive. The triple bond in N₂ is one of the strongest in ordinary chemistry, and until it is broken the atom is inert. That single chemical fact organises the whole [nitrogen cycle](/en/glossary/nitrogen-cycle) — and explains why an element in vast surplus behaves as a limiting nutrient across most of the [biosphere](/en/glossary/biosphere). It is a clear case of the reservoir-and-flux logic set out in [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained): a huge store paired with a small, biologically gated flux.
+About 78 per cent of the air is nitrogen, and almost none of it is available to almost anything alive. The triple bond in N₂ is one of the strongest in ordinary chemistry, and until it is broken the atom is inert. That single chemical fact organises the whole [nitrogen cycle](/en/glossary/nitrogen-cycle) — one of the biogeochemical loops that [Earth system science treats as a component in its own right](/en/ecology/earth-systems/earth-system-science-explained) — and explains why an element in vast surplus behaves as a limiting nutrient across most of the [biosphere](/en/glossary/biosphere). It is a clear case of the reservoir-and-flux logic set out in [biogeochemical cycles](/en/ecology/earth-systems/biogeochemical-cycles-explained): a huge store paired with a small, biologically gated flux.
 
 ## Fixation: the bottleneck step
 
@@ -65,7 +67,7 @@ The consequence for reading claims about nitrogen is the same as for carbon: pre
 ## Sources
 
 1. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Nitrous oxide growth rates, sources, residence time, and emission ranges.
-2. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21). Global mean nitrous oxide for 2024 and the change since 1750.
+2. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21). Global mean nitrous oxide for 2024 and the change since 1750.
 3. **European Environment Agency** — [Eutrophication caused by atmospheric nitrogen deposition](https://www.eea.europa.eu/en/analysis/indicators/eutrophication-caused-by-atmospheric-nitrogen). Critical-load exceedance and its European distribution.
 4. **FAO** — [Fertilizers by nutrient statistics](https://www.fao.org/faostat/en/#data/RFN). International statistics on agricultural nitrogen use.
 5. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Assessed effective radiative forcing attributable to nitrous oxide.

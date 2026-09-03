@@ -21,11 +21,12 @@
     "physics": "Angewandte Physik",
     "insights": "Analysen",
     "discussions": "Diskussionen",
-    "join_discussion": "An der Diskussion teilnehmen",
+    "join_discussion": "Offene Fragen",
     "skip_to_content": "Zum Inhalt springen",
     "primary": "Hauptnavigation",
     "primary_mobile": "Hauptnavigation Mobil",
-    "language_switcher": "Sprache wechseln"
+    "language_switcher": "Sprache wechseln",
+    "breadcrumb": "Brotkrümelnavigation"
   },
   "categories": {
     "ecology": {
@@ -45,17 +46,102 @@
     }
   },
   "subtopics": {
-    "ecosystems": { "label": "Ökosysteme", "description": "Wälder, Feuchtgebiete, Ozeane, Böden — wie Energie und Materie durch lebende Systeme strömen und was Störungen über sie verraten." },
-    "climate-change": { "label": "Klimawandel", "description": "Treiber, Rückkopplungen, Attribution und politikrelevante Unsicherheiten an der Front der Klimawissenschaft." },
-    "biodiversity": { "label": "Biodiversität", "description": "Warum die Artenzahl die falsche Metrik ist, was genetische und funktionale Diversität tatsächlich leisten und wo Schutzbemühungen wirken." },
-    "earth-systems": { "label": "Erdsystemwissenschaft", "description": "Der Planet als gekoppeltes System — wie Atmosphäre, Ozean, Eis, Land und Leben Energie und Materie austauschen, und was diese Kopplung erklärt, das keine einzelne Komponente erklären kann." },
-    "earth-observation": { "label": "Erdbeobachtung", "description": "Wie Satelliten und Sensoren den Planeten beobachten — die Methoden, Datenprodukte und Unsicherheiten hinter der Messung von Umweltveränderungen aus dem All." },
-    "cells": { "label": "Zellbiologie", "description": "Die Zelle als Grundbaustein des Lebens — ihre Architektur, Energetik, Signalübertragung und die Methoden, sie zu untersuchen." },
-    "genetics": { "label": "Genetik", "description": "Molekulargenetik, Genomik und die Evolution genetischer Systeme — was die Sequenzierung gezeigt hat und was sie nicht klären kann." },
-    "evolution": { "label": "Evolution", "description": "Selektion, Drift, Entwicklung und die moderne Synthese — einschließlich der Teile, die still überarbeitet werden." },
-    "energy": { "label": "Energie", "description": "Erzeugung, Speicherung, Übertragung sowie die Materialien und Architekturen, die entscheiden, welche Technologien wirklich skalieren." },
-    "thermodynamics": { "label": "Thermodynamik", "description": "Die Gesetze, die jedes physikalische System begrenzen — und die überraschend modernen Fragen, die an ihrer Front offen bleiben." },
-    "quantum-basics": { "label": "Quantengrundlagen", "description": "Quantenmechanik für die Praxis — die Teile, die für Sensoren, Materialien und Computing zählen, ohne die Philosophie." }
+    "ecosystems": {
+      "label": "Ökosysteme",
+      "description": "Wälder, Feuchtgebiete, Ozeane, Böden — wie Energie und Materie durch lebende Systeme strömen und was Störungen über sie verraten."
+    },
+    "climate-change": {
+      "label": "Klimawandel",
+      "description": "Treiber, Rückkopplungen, Attribution und politikrelevante Unsicherheiten an der Front der Klimawissenschaft."
+    },
+    "biodiversity": {
+      "label": "Biodiversität",
+      "description": "Warum die Artenzahl die falsche Metrik ist, was genetische und funktionale Diversität tatsächlich leisten und wo Schutzbemühungen wirken."
+    },
+    "earth-systems": {
+      "label": "Erdsystemwissenschaft",
+      "description": "Der Planet als gekoppeltes System — wie Atmosphäre, Ozean, Eis, Land und Leben Energie und Materie austauschen, und was diese Kopplung erklärt, das keine einzelne Komponente erklären kann."
+    },
+    "earth-observation": {
+      "label": "Erdbeobachtung",
+      "description": "Wie Satelliten und Sensoren den Planeten beobachten — die Methoden, Datenprodukte und Unsicherheiten hinter der Messung von Umweltveränderungen aus dem All."
+    },
+    "cells": {
+      "label": "Zellbiologie",
+      "description": "Die Zelle als Grundbaustein des Lebens — ihre Architektur, Energetik, Signalübertragung und die Methoden, sie zu untersuchen."
+    },
+    "genetics": {
+      "label": "Genetik",
+      "description": "Molekulargenetik, Genomik und die Evolution genetischer Systeme — was die Sequenzierung gezeigt hat und was sie nicht klären kann."
+    },
+    "evolution": {
+      "label": "Evolution",
+      "description": "Selektion, Drift, Entwicklung und die moderne Synthese — einschließlich der Teile, die still überarbeitet werden."
+    },
+    "energy": {
+      "label": "Energie",
+      "description": "Erzeugung, Speicherung, Übertragung sowie die Materialien und Architekturen, die entscheiden, welche Technologien wirklich skalieren."
+    },
+    "thermodynamics": {
+      "label": "Thermodynamik",
+      "description": "Die Gesetze, die jedes physikalische System begrenzen — und die überraschend modernen Fragen, die an ihrer Front offen bleiben."
+    },
+    "quantum-basics": {
+      "label": "Quantengrundlagen",
+      "description": "Quantenmechanik für die Praxis — die Teile, die für Sensoren, Materialien und Computing zählen, ohne die Philosophie."
+    },
+    "conservation": {
+      "label": "Naturschutzwissenschaft",
+      "description": "Schutzgebiete, Artenerholung, Renaturierung und Management invasiver Arten — was Schutzmaßnahmen tatsächlich bewirken und wie das gemessen wird."
+    },
+    "oceans": {
+      "label": "Ozeane & Meereswissenschaft",
+      "description": "Meereszirkulation, Chemie, Produktivität und marine Ökosysteme — wie der Ozean als Lebensraum und als Teil des Klimasystems funktioniert."
+    },
+    "freshwater": {
+      "label": "Süßwasser & Feuchtgebiete",
+      "description": "Flüsse, Seen, Grundwasser und Feuchtgebiete — die kleinsten und am stärksten genutzten Speicher des Wasserkreislaufs und was ihren Zustand bestimmt."
+    },
+    "forests": {
+      "label": "Wälder & Landbedeckung",
+      "description": "Waldstruktur, Störungen, Kohlenstoff und Landbedeckungswandel — was Wälder biologisch leisten und was ihnen in der Kohlenstoffbilanzierung zugerechnet wird."
+    },
+    "soils": {
+      "label": "Böden & Landoberfläche",
+      "description": "Bodenbildung, Bodenkohlenstoff, Bodenbiologie und Landdegradation — die dünne, langsam entstehende Schicht, von der das meiste Landleben abhängt."
+    },
+    "pollution": {
+      "label": "Verschmutzung & Umweltqualität",
+      "description": "Luft-, Wasser- und Chemikalienbelastung — Quellen, Expositionspfade, Messung und die Evidenz, die Schadstoffe mit ökologischen und gesundheitlichen Schäden verbindet."
+    },
+    "microbiology": {
+      "label": "Mikrobiologie",
+      "description": "Bakterien, Archaeen, Pilze, Viren und die mikrobiellen Gemeinschaften, die den größten Teil der Biogeochemie des Planeten betreiben."
+    },
+    "physiology": {
+      "label": "Physiologie & Organismische Biologie",
+      "description": "Wie Körper funktionieren — Atmung, Kreislauf, Thermoregulation, Immunität, Nervensysteme und Entwicklung, beim Menschen und bei anderen Organismen."
+    },
+    "taxonomy": {
+      "label": "Taxonomie & Stammbaum des Lebens",
+      "description": "Organismen benennen, klassifizieren und ihre Verwandtschaft rekonstruieren — und die erstaunlich offene Frage, wie viele Arten es gibt."
+    },
+    "biotechnology": {
+      "label": "Biotechnologie & Bioinformatik",
+      "description": "Sequenzierung, Genom-Editierung, synthetische Biologie und die Rechenverfahren, die biologische Daten in Schlussfolgerungen verwandeln."
+    },
+    "climate-physics": {
+      "label": "Atmosphären- & Klimaphysik",
+      "description": "Strahlung, atmosphärischer Aufbau, Konvektion und die Physik, die bestimmt, wie Energie durch Atmosphäre und Ozean transportiert wird."
+    },
+    "mechanics-waves": {
+      "label": "Mechanik, Wellen & Fluide",
+      "description": "Bewegung, Kräfte, Energie, Schwingung, Schall, Licht und das Verhalten von Fluiden — die klassische Physik hinter den meisten Messungen."
+    },
+    "matter-radiation": {
+      "label": "Materie, Materialien & Strahlung",
+      "description": "Atomarer und nuklearer Aufbau, Radioaktivität, Teilchen und die Materialwissenschaft hinter Detektoren, Reaktoren und Energietechnologien."
+    }
   },
   "home": {
     "meta_title": "Fachlich fundierte Texte zu Ökologie, Biologie und angewandter Physik",
@@ -89,7 +175,9 @@
     "browse_cta": "{category} durchsuchen →",
     "article_count_one": "{count} Artikel",
     "article_count_other": "{count} Artikel",
-    "meta_title": "{category} — Artikel, Analysen und Feldnotizen"
+    "meta_title": "{category} — Artikel, Analysen und Feldnotizen",
+    "faq_heading": "Häufige Fragen zu {category}",
+    "faq_description": "Kurze, belegte Antworten auf Fragen, die in diesem Bereich immer wieder auftauchen."
   },
   "subtopic_hub": {
     "start_here": "Hier beginnen",
@@ -99,7 +187,13 @@
     "empty": "In diesem Unterthema sind noch keine Artikel veröffentlicht — schauen Sie bald wieder vorbei.",
     "siblings_title": "Verwandte Unterthemen in {category}",
     "by_author_reading_time": "Von {author} · {minutes} Min. Lesezeit",
-    "subtopic_eyebrow": "Unterthema {category}"
+    "subtopic_eyebrow": "Unterthema {category}",
+    "foundation_label": "Grundlagen",
+    "foundation_description": "Grundlegende Definitionen und Mechanismen — die begriffliche Basis für den Rest dieses Themenbereichs.",
+    "methods_label": "Methoden und Indikatoren",
+    "methods_description": "Wie das Phänomen gemessen, überwacht und quantifiziert wird.",
+    "applications_label": "Anwendungen und offene Fragen",
+    "applications_description": "Offene Fragen, politische Anwendungen und die Stellen, an denen die Evidenz noch zusammengetragen wird."
   },
   "article": {
     "pillar_badge": "Pfeiler",
@@ -123,27 +217,36 @@
   },
   "discussions": {
     "eyebrow": "Diskussionen",
-    "title": "Von Expertinnen geleitete, moderierte Gespräche",
-    "description": "Wir betreiben kein Forum. Wir kuratieren Gesprächsfäden — jeder von einer Fachexpertin gerahmt, geprüften Spezialistinnen geöffnet und auf Substanz moderiert.",
+    "title": "Kuratierte wissenschaftliche Fragen",
+    "description": "Kein Forum. Jeder Eintrag behandelt eine Frage, bei der die Wissenschaft tatsächlich offen ist, eingeordnet von einer Redaktion und mit der Evidenz beider Seiten. Es gibt keine offene Kommentarfunktion.",
     "empty": "Derzeit keine aktiven Diskussionen.",
-    "moderated_by": "Moderiert von",
-    "participants": "{count} Teilnehmende",
-    "status": { "open": "offen", "closed": "geschlossen", "scheduled": "geplant" },
+    "moderated_by": "Eingeordnet von",
+    "status": {
+      "open": "offen",
+      "closed": "geschlossen",
+      "scheduled": "geplant"
+    },
     "category_eyebrow": "Diskussion · {category}",
-    "about_heading": "Über diese Diskussion",
-    "about_body": "Diskussionen auf dieser Seite werden von Fachexpertinnen gerahmt und auf Substanz moderiert. Geprüfte Expertenkommentare tragen ein Abzeichen; alle anderen Beiträge werden vor der Veröffentlichung geprüft.",
-    "related_article": "Verwandter Artikel"
+    "about_heading": "Wie das funktioniert",
+    "about_body": "Jede Frage wird von einer EcoScienceHub-Redaktion eröffnet und eingeordnet. Die folgenden Notizen sind redaktionell und stammen von der Redaktion — sie sind keine Beiträge namentlich genannter Forschender, und auf dieser Website gibt es keine Kommentare aus dem Publikum. Sollten künftig verifizierte externe Beitragende teilnehmen, werden ihre Beiträge gekennzeichnet und namentlich zugeordnet.",
+    "related_article": "Verwandter Artikel",
+    "editorial_notes": "{count} redaktionelle Notizen",
+    "notes_heading": "Redaktionelle Notizen ({count})",
+    "verified_contributor": "Verifizierte:r Beitragende:r",
+    "closed_notice": "EcoScienceHub nimmt zu diesen Fragen keine öffentlichen Beiträge an. Die Notizen oben sind redaktionell. Wenn Sie in einem dieser Felder arbeiten und beitragen möchten, schreiben Sie an info@helperg.com — namentlich Beitragende würden unter ihrem eigenen Namen und als solche gekennzeichnet veröffentlicht."
   },
   "footer": {
     "topics_heading": "Themen",
     "formats_heading": "Formate",
     "about_heading": "Über uns",
     "editorial_standards": "Redaktionelle Standards",
-    "contact": "Kontakt",
     "rss": "RSS",
     "sitemap": "Sitemap",
     "rights": "© {year} {site}. Alle Rechte vorbehalten.",
-    "footer_note": "Redaktionell unabhängig. Zitate willkommen — bitte auf die kanonische URL verlinken."
+    "footer_note": "Redaktionell unabhängig. Zitate willkommen — bitte auf die kanonische URL verlinken.",
+    "sourcing_policy": "Quellenrichtlinie",
+    "editorial_desks": "Redaktionen",
+    "corrections": "Korrekturen & Kontakt"
   },
   "newsletter": {
     "eyebrow": "Newsletter",
@@ -151,10 +254,48 @@
     "description": "Abonnieren Sie, um neue Langtexte und Analysen zu erhalten, plus gelegentliche Notizen aus der Redaktion. Kein Clickbait, kein Listenkauf, keine Tracking-Pixel.",
     "email_label": "E-Mail-Adresse",
     "email_placeholder": "sie@beispiel.com",
-    "submit": "Abonnieren"
+    "submit": "Abonnieren",
+    "not_open": "Der Verteiler ist noch nicht geöffnet. Sobald er es ist, können Sie sich hier eintragen — bis dahin werden hier keine Daten erhoben."
   },
   "common": {
     "by": "Von",
-    "and": "und"
+    "and": "und",
+    "evidence_uncertainty": "Evidenz und Unsicherheit",
+    "methodology_sources": "Methodik und Quellen",
+    "where_evidence": "Woher die Evidenz stammt",
+    "insight_sources": "Quellen hinter diesem Argument",
+    "desk_disclaimer": "Eine Redaktion, keine Person. Sie trägt keinen akademischen Grad und steht für keine namentlich genannte Wissenschaftlerin und keinen Wissenschaftler.",
+    "desk_disclaimer_link": "warum die Website so zuschreibt",
+    "attribution_eyebrow": "Redaktionelle Zuschreibung"
+  },
+  "cookies": {
+    "aria": "Cookie-Einwilligung",
+    "title": "EcoScienceHub verwendet datensparsame Cookies",
+    "summary": "Der notwendige Speicher dient allein dazu, diese Auswahl zu sichern. Die Analyse ist optional und hilft uns, die Gesamtnutzung der Website zu verstehen. Analyse-Skripte bleiben blockiert, bis Sie zustimmen.",
+    "necessary_label": "Notwendige Cookies",
+    "necessary_body": "Immer aktiv. Erforderlich, um Ihre Cookie-Auswahl zu speichern und für die grundlegende Sicherheit der Website.",
+    "analytics_label": "Analyse-Cookies",
+    "analytics_body": "Optional. Ermöglichen aggregierte Messung über das konfigurierte Google-Analytics-Konto.",
+    "customize": "Anpassen",
+    "save": "Auswahl speichern",
+    "reject": "Nicht notwendige ablehnen",
+    "accept": "Alle akzeptieren"
+  },
+  "hub": {
+    "topic_scope": "Der Bereich ist in {count} Themenfelder gegliedert, die jeweils an Primärquellen geführt werden.",
+    "subtopic_scope": "Hier stehen {count} Artikel, unten geordnet von den Grundlagen über die Methoden bis zu den offenen Fragen.",
+    "subtopic_scope_pillar": "Hier stehen {count} Artikel. Beginnen Sie mit {pillar}; die übrigen sind von den Grundlagen über die Methoden bis zu den offenen Fragen geordnet.",
+    "sources_heading": "Institutionen, auf die sich dieser Bereich stützt",
+    "sources_description": "Das Verzeichnis der Institutionen hinter der Evidenz in diesem Bereich. Jeder Artikel zitiert die konkreten Seiten, auf denen er beruht; von diesen Häusern stammen sie.",
+    "methodology": "Die Artikel in diesem Bereich entstehen aus zwischenstaatlichen Sachstandsberichten, nationalen Wissenschaftsbehörden und begutachteter Literatur. Wo seriöse Quellen abweichen, benennt die Seite die Abweichung, statt sich für eine Zahl zu entscheiden.",
+    "explore_topic": "{topic} erkunden",
+    "more_in_subtopic": "Mehr zu {subtopic}"
+  },
+  "evidence": {
+    "citations": "In diesem Artikel sind {count} externe Belege verlinkt. Jeder verweist auf eine Primärquelle, einen institutionellen Bericht oder einen veröffentlichten Datensatz.",
+    "citations_one": "In diesem Artikel ist ein externer Beleg verlinkt.",
+    "attribution": "Zugeschrieben der Redaktion {desk} — einer Redaktion, keiner Person.",
+    "policy_link": "Wie Quellen ausgewählt und geprüft werden",
+    "last_updated": "Zuletzt aktualisiert"
   }
 }

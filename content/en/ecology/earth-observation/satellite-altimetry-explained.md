@@ -1,8 +1,8 @@
 ---
 title: 'Satellite altimetry explained: measuring sea level from orbit'
-excerpt: 'Radar altimeters measure the height of the sea surface to within centimetres by timing a pulse to the water and back. This explains how altimetry works, the reference missions since 1992, what it measures beyond sea level, and the corrections it depends on.'
+excerpt: Radar altimeters measure the height of the sea surface to within centimetres by timing a pulse to the water and back. This explains how altimetry works, the reference missions since 1992, what it measures beyond sea level, and the corrections it depends on.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -14,6 +14,9 @@ related:
   - ocean-color-observations
   - sentinel-satellites-explained
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: 97e9f19d
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 A radar altimeter in orbit measures the height of the sea surface by aiming a pulse straight down and timing how long it takes to return. Combined with very precise knowledge of where the satellite itself is, that timing yields sea-surface height to within centimetres. This article describes how the technique works, the missions that built a continuous record, what altimetry measures besides sea level, and the corrections the measurement depends on.
@@ -46,11 +49,11 @@ The second is the atmosphere. As the radar pulse travels down and back, it is sl
 
 No measurement of this kind is exact, and being clear about the error sources is part of using it responsibly. Uncertainty enters through the orbit determination, through the atmospheric corrections, and through slow instrument drift over a mission's lifetime. These are managed rather than eliminated, and each contributes to the final budget.
 
-Geometry adds its own limits. Near coastlines the radar footprint can include land as well as water, which contaminates the return and degrades the measurement just where many users would most like it. And because no single satellite lasts indefinitely, a reliable multi-decade trend depends on careful overlap and cross-calibration between successive missions, so that a change of spacecraft does not masquerade as a change in the ocean. This is why the deliberate mission-to-mission handover described above matters as much as any individual instrument. NOAA's discussion of [sea level](https://www.climate.gov/) places the satellite record alongside tide gauges, and the general principles behind these caveats are treated in the guide to [remote-sensing limitations and uncertainty](/en/ecology/earth-observation/remote-sensing-limitations-and-uncertainty). For the wider family of techniques that altimetry belongs to, see the cluster overview of [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
+Geometry adds its own limits. Near coastlines the radar footprint can include land as well as water, which contaminates the return and degrades the measurement just where many users would most like it. And because no single satellite lasts indefinitely, a reliable multi-decade trend depends on careful overlap and cross-calibration between successive missions, so that a change of spacecraft does not masquerade as a change in the ocean. This is why the deliberate mission-to-mission handover described above matters as much as any individual instrument. NOAA's discussion of [sea level](https://www.noaa.gov/climate) places the satellite record alongside tide gauges, and the general principles behind these caveats are treated in the guide to [remote-sensing limitations and uncertainty](/en/ecology/earth-observation/remote-sensing-limitations-and-uncertainty). For the wider family of techniques that altimetry belongs to, see the cluster overview of [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 
 ## Sources
 
 1. **NASA** — [sea level and altimetry](https://science.nasa.gov/). Altimetry missions and the global sea-level record.
-1. **NOAA** — [sea level](https://www.climate.gov/). Tide-gauge and satellite sea-level data.
+1. **NOAA** — [sea level](https://www.noaa.gov/climate). Tide-gauge and satellite sea-level data.
 1. **Copernicus Marine Service** — [sea-level products](https://marine.copernicus.eu/). Operational altimetry-based sea-level data.
 1. **ESA** — [altimetry missions](https://www.esa.int/Applications/Observing_the_Earth). European altimetry satellites.

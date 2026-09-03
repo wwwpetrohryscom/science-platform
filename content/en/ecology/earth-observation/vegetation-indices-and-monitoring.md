@@ -1,8 +1,8 @@
 ---
 title: 'Vegetation indices and monitoring: beyond NDVI'
-excerpt: 'NDVI is the best known vegetation index but not the only one. This explains why several indices exist — EVI, soil- and water-adjusted indices — what limitation each one corrects, and how index time series are used to monitor vegetation condition and productivity.'
+excerpt: NDVI is the best known vegetation index but not the only one. This explains why several indices exist — EVI, soil- and water-adjusted indices — what limitation each one corrects, and how index time series are used to monitor vegetation condition and productivity.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -14,6 +14,9 @@ related:
   - ndvi-explained
   - drought-monitoring-systems
   - modis-earth-observation-system
+_bodyHash: 209119a1
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 A vegetation index combines reflectance measured in different spectral bands into a single number that tracks how much vegetation is present, or what condition it is in. [NDVI](/en/ecology/earth-observation/ndvi-explained) is the most familiar of these, but it is one member of a larger family. Several other indices exist because each was designed to correct a specific weakness in how reflectance relates to the plants on the ground.
@@ -22,7 +25,7 @@ A vegetation index combines reflectance measured in different spectral bands int
 
 Greenness, as a satellite sees it, is never a clean signal. The light reaching the sensor has passed through the atmosphere, bounced off leaves, and mixed with whatever lies between and beneath the canopy — bare soil, litter, shadow, or water. Each of these can pull a simple index away from the quantity an analyst actually wants to measure.
 
-Because no single formula handles every one of these effects at once, [remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) research has produced a set of indices, each tuned to a different problem. Choosing among them is part of the analysis, not a detail. As NASA's overview of [measuring vegetation](https://earthobservatory.nasa.gov/) sets out, the underlying physics — strong absorption of red light by chlorophyll and strong reflectance in the near-infrared — is shared, but the way each index packages that contrast differs.
+Because no single formula handles every one of these effects at once, [remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) research has produced a set of indices, each tuned to a different problem. Choosing among them is part of the analysis, not a detail. As NASA's overview of [measuring vegetation](https://science.nasa.gov/earth/earth-observatory/) sets out, the underlying physics — strong absorption of red light by chlorophyll and strong reflectance in the near-infrared — is shared, but the way each index packages that contrast differs.
 
 ## The Enhanced Vegetation Index
 
@@ -52,7 +55,7 @@ The indices themselves carry uncertainty that should be stated plainly. Values r
 
 ## Sources
 
-1. **NASA Earth Observatory** — [measuring vegetation](https://earthobservatory.nasa.gov/). NDVI and EVI explained.
+1. **NASA Earth Observatory** — [measuring vegetation](https://science.nasa.gov/earth/earth-observatory/). NDVI and EVI explained.
 1. **NASA Earthdata** — [vegetation index products](https://www.earthdata.nasa.gov/). MODIS vegetation-index documentation.
 1. **USGS** — [spectral indices](https://www.usgs.gov/landsat-missions). Landsat-derived vegetation and water indices.
 1. **Remote Sensing (journal)** — [index methods](https://www.mdpi.com/journal/remotesensing). Peer-reviewed vegetation-index research.

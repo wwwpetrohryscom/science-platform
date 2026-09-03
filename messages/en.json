@@ -11,11 +11,12 @@
     "physics": "Applied Physics",
     "insights": "Insights",
     "discussions": "Discussions",
-    "join_discussion": "Join the discussion",
+    "join_discussion": "Open questions",
     "skip_to_content": "Skip to content",
     "primary": "Primary",
     "primary_mobile": "Primary mobile",
-    "language_switcher": "Change language"
+    "language_switcher": "Change language",
+    "breadcrumb": "Breadcrumb"
   },
   "categories": {
     "ecology": {
@@ -35,17 +36,102 @@
     }
   },
   "subtopics": {
-    "ecosystems": { "label": "Ecosystems", "description": "Forests, wetlands, oceans, soils — how energy and matter move through living systems and what disturbance reveals about them." },
-    "climate-change": { "label": "Climate Change", "description": "Drivers, feedbacks, attribution, and the policy-relevant uncertainties at the frontier of climate science." },
-    "biodiversity": { "label": "Biodiversity", "description": "Why species count is the wrong metric, what genetic and functional diversity actually do, and where conservation efforts are working." },
-    "earth-systems": { "label": "Earth System Science", "description": "The planet as one coupled system — how the atmosphere, ocean, ice, land, and life exchange energy and matter, and what that coupling explains that no single component can." },
-    "earth-observation": { "label": "Earth Observation", "description": "How satellites and sensors observe the planet — the methods, data products, and uncertainties behind measuring environmental change from space." },
-    "cells": { "label": "Cell Biology", "description": "The cell as the fundamental unit of life — its architecture, energetics, signaling, and the methods used to study it." },
-    "genetics": { "label": "Genetics", "description": "Molecular genetics, genomics, and the evolution of genetic systems — what sequencing has revealed, what it cannot resolve." },
-    "evolution": { "label": "Evolution", "description": "Selection, drift, development, and the modern synthesis — including the parts of it that are quietly being revised." },
-    "energy": { "label": "Energy", "description": "Generation, storage, transmission, and the materials and architectures that determine which technologies actually scale." },
-    "thermodynamics": { "label": "Thermodynamics", "description": "The laws that bound every physical system — and the surprisingly modern questions still open at their frontier." },
-    "quantum-basics": { "label": "Quantum Basics", "description": "Quantum mechanics for the practitioner — the parts that matter for sensors, materials, and computing, without the philosophy." }
+    "ecosystems": {
+      "label": "Ecosystems",
+      "description": "Forests, wetlands, oceans, soils — how energy and matter move through living systems and what disturbance reveals about them."
+    },
+    "climate-change": {
+      "label": "Climate Change",
+      "description": "Drivers, feedbacks, attribution, and the policy-relevant uncertainties at the frontier of climate science."
+    },
+    "biodiversity": {
+      "label": "Biodiversity",
+      "description": "Why species count is the wrong metric, what genetic and functional diversity actually do, and where conservation efforts are working."
+    },
+    "earth-systems": {
+      "label": "Earth System Science",
+      "description": "The planet as one coupled system — how the atmosphere, ocean, ice, land, and life exchange energy and matter, and what that coupling explains that no single component can."
+    },
+    "earth-observation": {
+      "label": "Earth Observation",
+      "description": "How satellites and sensors observe the planet — the methods, data products, and uncertainties behind measuring environmental change from space."
+    },
+    "cells": {
+      "label": "Cell Biology",
+      "description": "The cell as the fundamental unit of life — its architecture, energetics, signaling, and the methods used to study it."
+    },
+    "genetics": {
+      "label": "Genetics",
+      "description": "Molecular genetics, genomics, and the evolution of genetic systems — what sequencing has revealed, what it cannot resolve."
+    },
+    "evolution": {
+      "label": "Evolution",
+      "description": "Selection, drift, development, and the modern synthesis — including the parts of it that are quietly being revised."
+    },
+    "energy": {
+      "label": "Energy",
+      "description": "Generation, storage, transmission, and the materials and architectures that determine which technologies actually scale."
+    },
+    "thermodynamics": {
+      "label": "Thermodynamics",
+      "description": "The laws that bound every physical system — and the surprisingly modern questions still open at their frontier."
+    },
+    "quantum-basics": {
+      "label": "Quantum Basics",
+      "description": "Quantum mechanics for the practitioner — the parts that matter for sensors, materials, and computing, without the philosophy."
+    },
+    "conservation": {
+      "label": "Conservation Science",
+      "description": "Protected areas, species recovery, restoration, and invasive-species management — what conservation interventions achieve, and how that is measured."
+    },
+    "oceans": {
+      "label": "Oceans & Marine Science",
+      "description": "Ocean circulation, chemistry, productivity, and marine ecosystems — how the ocean works as a habitat and as a component of the climate system."
+    },
+    "freshwater": {
+      "label": "Freshwater & Wetlands",
+      "description": "Rivers, lakes, groundwater, and wetlands — the smallest reservoirs in the water cycle and the most heavily used, and what determines their condition."
+    },
+    "forests": {
+      "label": "Forests & Land Cover",
+      "description": "Forest structure, disturbance, carbon, and land-cover change — what forests do biologically and what they are counted as doing in carbon accounting."
+    },
+    "soils": {
+      "label": "Soils & the Land Surface",
+      "description": "Soil formation, soil carbon, soil biology, and land degradation — the thin, slow-forming layer that most terrestrial life depends on."
+    },
+    "pollution": {
+      "label": "Pollution & Environmental Quality",
+      "description": "Air, water, and chemical pollution — sources, exposure pathways, measurement, and the evidence linking contaminants to ecological and human harm."
+    },
+    "microbiology": {
+      "label": "Microbiology",
+      "description": "Bacteria, archaea, fungi, viruses, and the microbial communities that run most of the planet's biogeochemistry."
+    },
+    "physiology": {
+      "label": "Physiology & Organismal Biology",
+      "description": "How bodies work — respiration, circulation, thermoregulation, immunity, nervous systems, and development, in humans and other organisms."
+    },
+    "taxonomy": {
+      "label": "Taxonomy & the Tree of Life",
+      "description": "Naming, classifying, and reconstructing relationships among organisms — and the surprisingly unsettled question of how many species there are."
+    },
+    "biotechnology": {
+      "label": "Biotechnology & Bioinformatics",
+      "description": "Sequencing, genome editing, synthetic biology, and the computational methods that turn biological data into inference."
+    },
+    "climate-physics": {
+      "label": "Atmospheric & Climate Physics",
+      "description": "Radiation, atmospheric structure, convection, and the physics that determines how energy moves through the atmosphere and ocean."
+    },
+    "mechanics-waves": {
+      "label": "Mechanics, Waves & Fluids",
+      "description": "Motion, forces, energy, oscillation, sound, light, and the behaviour of fluids — the classical physics that underlies most measurement."
+    },
+    "matter-radiation": {
+      "label": "Matter, Materials & Radiation",
+      "description": "Atomic and nuclear structure, radioactivity, particles, and the materials science behind detectors, reactors, and energy technologies."
+    }
   },
   "home": {
     "meta_title": "Peer-informed writing on ecology, biology, and applied physics",
@@ -79,7 +165,9 @@
     "browse_cta": "Browse {category} →",
     "article_count_one": "{count} article",
     "article_count_other": "{count} articles",
-    "meta_title": "{category} — articles, analyses, and field notes"
+    "meta_title": "{category} — articles, analyses, and field notes",
+    "faq_heading": "Frequently asked about {category}",
+    "faq_description": "Short, source-backed answers to questions that come up repeatedly in this subject area."
   },
   "subtopic_hub": {
     "start_here": "Start here",
@@ -89,7 +177,13 @@
     "empty": "No articles published in this subtopic yet — check back soon.",
     "siblings_title": "Related subtopics in {category}",
     "by_author_reading_time": "By {author} · {minutes} min read",
-    "subtopic_eyebrow": "{category} subtopic"
+    "subtopic_eyebrow": "{category} subtopic",
+    "foundation_label": "Foundation",
+    "foundation_description": "Core definitions and mechanisms — the conceptual base for the rest of this subtopic.",
+    "methods_label": "Methods and indicators",
+    "methods_description": "How the phenomenon is measured, monitored, and quantified.",
+    "applications_label": "Applications and frontiers",
+    "applications_description": "Frontier questions, policy applications, and where the evidence is still being assembled."
   },
   "article": {
     "pillar_badge": "Pillar",
@@ -113,27 +207,36 @@
   },
   "discussions": {
     "eyebrow": "Discussions",
-    "title": "Expert-led, moderated conversations",
-    "description": "We don't run a forum. We run threads — each one framed by a domain expert, opened to verified specialists, and moderated for substance.",
+    "title": "Curated scientific questions",
+    "description": "Not a forum. Each entry is a question where the science is genuinely unsettled, framed by an editorial desk with the evidence on each side set out. There is no open commenting.",
     "empty": "No active discussions right now.",
-    "moderated_by": "Moderated by",
-    "participants": "{count} participants",
-    "status": { "open": "open", "closed": "closed", "scheduled": "scheduled" },
+    "moderated_by": "Framed by",
+    "status": {
+      "open": "open",
+      "closed": "closed",
+      "scheduled": "scheduled"
+    },
     "category_eyebrow": "Discussion · {category}",
-    "about_heading": "About this discussion",
-    "about_body": "Discussions on this site are framed by domain experts and moderated for substance. Verified-expert comments carry a badge; all other submissions are reviewed before they appear.",
-    "related_article": "Related article"
+    "about_heading": "How these work",
+    "about_body": "Each question is opened and framed by an EcoScienceHub editorial desk. The notes below the framing are editorial, written by the desk — they are not contributions from named researchers, and no comment on this site is from a member of the public. If verified external contributors take part in future, their entries will be marked and attributed to them by name.",
+    "related_article": "Related article",
+    "editorial_notes": "{count} editorial notes",
+    "notes_heading": "Editorial notes ({count})",
+    "verified_contributor": "Verified contributor",
+    "closed_notice": "EcoScienceHub does not accept public submissions on these questions. The notes above are editorial. If you work in one of these fields and want to contribute, write to info@helperg.com — a named contributor would be published under their own name and identified as such."
   },
   "footer": {
     "topics_heading": "Topics",
     "formats_heading": "Formats",
     "about_heading": "About",
     "editorial_standards": "Editorial standards",
-    "contact": "Contact",
     "rss": "RSS",
     "sitemap": "Sitemap",
     "rights": "© {year} {site}. All rights reserved.",
-    "footer_note": "Editorially independent. Citations welcome — please link to the canonical URL."
+    "footer_note": "Editorially independent. Citations welcome — please link to the canonical URL.",
+    "sourcing_policy": "Sourcing policy",
+    "editorial_desks": "Editorial desks",
+    "corrections": "Corrections & contact"
   },
   "newsletter": {
     "eyebrow": "Newsletter",
@@ -141,10 +244,48 @@
     "description": "Subscribe to receive new long-form articles and insights, plus occasional notes from the editorial team. No clickbait, no list-buying, no tracking pixels.",
     "email_label": "Email address",
     "email_placeholder": "you@example.com",
-    "submit": "Subscribe"
+    "submit": "Subscribe",
+    "not_open": "The mailing list is not open yet. When it is, this is where you will be able to join it — until then nothing is collected here."
   },
   "common": {
     "by": "By",
-    "and": "and"
+    "and": "and",
+    "evidence_uncertainty": "Evidence and uncertainty",
+    "methodology_sources": "Methodology and sources",
+    "where_evidence": "Where the evidence comes from",
+    "insight_sources": "Sources behind this argument",
+    "desk_disclaimer": "An editorial desk, not an individual. It carries no academic credential and represents no named scientist.",
+    "desk_disclaimer_link": "why the site is attributed this way",
+    "attribution_eyebrow": "Editorial attribution"
+  },
+  "cookies": {
+    "aria": "Cookie consent",
+    "title": "EcoScienceHub uses privacy-conscious cookies",
+    "summary": "Necessary storage keeps this preference working. Analytics is optional and helps us understand aggregate site usage. Analytics scripts are blocked until you accept them.",
+    "necessary_label": "Necessary cookies",
+    "necessary_body": "Always enabled. Required for cookie preference storage and basic site security.",
+    "analytics_label": "Analytics cookies",
+    "analytics_body": "Optional. Enables aggregate measurement through the configured Google Analytics property.",
+    "customize": "Customize",
+    "save": "Save choices",
+    "reject": "Reject non-essential",
+    "accept": "Accept all"
+  },
+  "hub": {
+    "topic_scope": "Coverage is organised into {count} subtopics, each maintained against primary sources.",
+    "subtopic_scope": "{count} articles sit here, arranged below from foundations through methods to the questions still open.",
+    "subtopic_scope_pillar": "{count} articles sit here. Start with {pillar}; the rest are arranged from foundations through methods to the questions still open.",
+    "sources_heading": "Organisations this subject area is sourced from",
+    "sources_description": "The registry of bodies behind the evidence in this section. Individual articles cite the specific pages they rest on; these are the institutions those pages come from.",
+    "methodology": "Articles in this section are written from intergovernmental assessments, national scientific agencies and the peer-reviewed literature. Where credible sources disagree, the page reports the disagreement rather than choosing a number.",
+    "explore_topic": "Explore {topic}",
+    "more_in_subtopic": "More in {subtopic}"
+  },
+  "evidence": {
+    "citations": "{count} external citations are linked in this article. Each points to a primary source, an institutional report, or a published dataset.",
+    "citations_one": "One external citation is linked in this article.",
+    "attribution": "Attributed to the {desk} — an editorial desk, not an individual.",
+    "policy_link": "How sources are chosen and checked",
+    "last_updated": "Last updated"
   }
 }

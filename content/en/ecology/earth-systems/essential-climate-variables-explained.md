@@ -2,10 +2,10 @@
 title: 'Essential Climate Variables: the 55-item list that decides what gets measured'
 excerpt: GCOS specifies 55 variables the world has agreed to observe continuously. The selection criteria are as informative as the list — and one of them is not scientific importance.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 8
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - essential-climate-variable
   - indicators
@@ -16,9 +16,11 @@ related:
   - earth-system-models-explained
   - earth-system-predictability-explained
   - climate-variability-and-teleconnections
+_bodyHash: a8ee6505
+pillar: earth-system-science-explained
 ---
 
-Behind every long climate record is a prior decision that someone should keep measuring that particular thing, indefinitely, at global scale, whatever else changes. Those decisions are not made ad hoc. They are codified as **Essential Climate Variables**, and the list is short enough to be worth knowing and structured enough to be worth reading closely.
+Behind every long climate record is a prior decision that someone should keep measuring that particular thing, indefinitely, at global scale, whatever else changes. Those decisions are not made ad hoc. They are codified as **Essential Climate Variables**, the observational backbone of [Earth system science](/en/ecology/earth-systems/earth-system-science-explained), and the list is short enough to be worth knowing and structured enough to be worth reading closely.
 
 ## What an ECV is
 
@@ -89,7 +91,7 @@ The satellite half of the observing system that supplies most ECVs is described 
 ## Sources
 
 1. **WMO Global Climate Observing System** — [About Essential Climate Variables](https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/about-essential-climate-variables). The count of 55 ECVs, the domain structure, and the three selection criteria.
-2. **WMO Global Climate Observing System** — [Essential Climate Variables](https://gcos.wmo.int/). The current variable list and its domain and subdomain organisation.
+2. **WMO Global Climate Observing System** — [Essential Climate Variables](https://gcos.wmo.int/site/global-climate-observing-system-gcos). The current variable list and its domain and subdomain organisation.
 3. **WMO** — [Global observing systems](https://wmo.int/). International coordination of sustained environmental observation.
 4. **Copernicus Climate Change Service** — [Essential Climate Variable datasets](https://climate.copernicus.eu/). Operational European production of ECV products.
 5. **NASA Earthdata** — [Earth science data collections](https://www.earthdata.nasa.gov/). NASA's ECV-relevant archives and product documentation.

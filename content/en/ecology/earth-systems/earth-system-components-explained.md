@@ -1,11 +1,11 @@
 ---
-title: 'The five components of the Earth system, and why their boundaries leak'
+title: The five components of the Earth system, and why their boundaries leak
 excerpt: Atmosphere, hydrosphere, cryosphere, biosphere, geosphere. The split is a working convention, and knowing where it breaks down is more instructive than memorising it.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
-readingTime: 8
+readingTime: 5
 tags:
   - earth-system
   - atmosphere
@@ -17,6 +17,8 @@ related:
   - biogeochemical-cycles-explained
   - cryosphere-in-the-earth-system
   - biosphere-climate-interactions
+_bodyHash: bd9ffb9c
+pillar: earth-system-science-explained
 ---
 
 Textbooks divide the planet into five "spheres" and then move on. The division is worth pausing over, because it is not a description of nature — it is a bookkeeping choice, and the places where the bookkeeping fails are exactly the places where [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) does its work.
@@ -25,15 +27,15 @@ Textbooks divide the planet into five "spheres" and then move on. The division i
 
 Each component is best characterised not by what it is made of but by how fast it responds to being disturbed. That response time determines which processes it can participate in.
 
-The [atmosphere](/en/glossary/atmosphere) is a thin, well-mixed gas envelope — nitrogen at roughly 78 per cent by volume and oxygen at about 21 per cent, with the trace gases that do almost all of the radiative work making up the remainder. It mixes globally in weeks to a year or two and has very little heat capacity, which makes it the fastest and noisiest part of the system. That is why atmospheric measurements respond first to any perturbation and why they are also the hardest to read for a trend.
+The atmosphere is a thin, well-mixed gas envelope — nitrogen at roughly 78 per cent by volume and oxygen at about 21 per cent, with the trace gases that do almost all of the radiative work making up the remainder. It mixes globally in weeks to a year or two and has very little heat capacity, which makes it the fastest and noisiest part of the system. That is why atmospheric measurements respond first to any perturbation and why they are also the hardest to read for a trend.
 
-The [hydrosphere](/en/glossary/hydrosphere) is dominated by the ocean. USGS figures put about 96.5 per cent of the planet's water in the oceans, out of a total of roughly 1,386 million cubic kilometres. Its response times fan out enormously: the surface mixed layer adjusts in months to years, the deep ocean over centuries, and a full circuit of the deep overturning takes on the order of a thousand years by NOAA's estimate. Because water has a large heat capacity, this component absorbs most of the energy the system takes up.
+The hydrosphere is dominated by the ocean. USGS figures put about 96.5 per cent of the planet's water in the oceans, out of a total of roughly 1,386 million cubic kilometres. Its response times fan out enormously: the surface mixed layer adjusts in months to years, the deep ocean over centuries, and a full circuit of the deep overturning takes on the order of a thousand years by NOAA's estimate. Because water has a large heat capacity, this component absorbs most of the energy the system takes up.
 
-The [cryosphere](/en/glossary/cryosphere) — the frozen part — is the component that changes phase, and NSIDC groups it into snow on the ground, lake and river ice, frozen ground and permafrost, glaciers and ice sheets, ice shelves and icebergs, and sea ice. Sea ice responds seasonally; ice sheets respond over millennia. That gap of six orders of magnitude within one "component" is the strongest argument that the five-way division is coarse.
+The cryosphere — the frozen part — is the component that changes phase, and NSIDC groups it into snow on the ground, lake and river ice, frozen ground and permafrost, glaciers and ice sheets, ice shelves and icebergs, and sea ice. Sea ice responds seasonally; ice sheets respond over millennia. That gap of six orders of magnitude within one "component" is the strongest argument that the five-way division is coarse.
 
-The [biosphere](/en/glossary/biosphere) is the only component that is not defined by a material or a phase but by a process. It responds over days for plankton blooms, seasons for leaf area, and centuries for forest carbon stocks, and it is unusual in that it actively regulates fluxes rather than passively transmitting them.
+The biosphere is the only component that is not defined by a material or a phase but by a process. It responds over days for plankton blooms, seasons for leaf area, and centuries for forest carbon stocks, and it is unusual in that it actively regulates fluxes rather than passively transmitting them.
 
-The [lithosphere](/en/glossary/lithosphere), or geosphere, supplies the slowest processes — weathering, volcanism, and the long carbon cycle. NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
+The lithosphere, or geosphere, supplies the slowest processes — weathering, volcanism, and the long carbon cycle. NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
 
 ## Where the boundaries fail
 
@@ -65,7 +67,7 @@ First, when a claim is made about "the Earth system", ask which component holds 
 
 Second, when a process spans components, expect the interesting physics to be at the interface rather than inside either side. Evaporation, gas exchange, and albedo are all interface phenomena, and all three are among the harder things to measure and to model.
 
-The related question of how ecologists draw a comparable boundary at much smaller scale — where one [ecosystem](/en/ecology/ecosystems/what-is-an-ecosystem) ends and another begins — has the same structure and the same answer: the boundary is chosen for the question being asked.
+The related question of how ecologists draw a comparable boundary at much smaller scale — where one ecosystem ends and another begins — has the same structure and the same answer: the boundary is chosen for the question being asked.
 
 ## Sources
 

@@ -1,11 +1,12 @@
 ---
 title: 'Perovskite tandem cells: closing the gap between lab efficiency and outdoor reality'
 excerpt: Encapsulation, ion-migration suppression, and tandem architectures are narrowing the gap between high laboratory efficiency and durable outdoor performance.
-type: pillar
+type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-21'
-updatedDate: '2026-05-08'
-readingTime: 4
+updatedDate: '2026-09-03'
+readingTime: 5
+pillar: energy-systems-explained
 tags:
   - photovoltaics
   - perovskite
@@ -15,7 +16,6 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - quantum-sensors-leaving-the-lab
-pillar: perovskite-stack-field-stability
 faq:
   - question: Are these cells ready for rooftop deployment?
     answer: Not at consumer scale. Pilot deployments in commercial and utility settings are under way, where instrumentation can verify the lab-to-field translation.
@@ -23,10 +23,10 @@ faq:
     answer: Certified laboratory tandem efficiencies are now high enough to justify pilot deployments, but field efficiency depends on encapsulation, module design, temperature, and degradation. Public claims should distinguish certified cell records from outdoor module performance.
   - question: What about the lead?
     answer: Lead handling at end-of-life remains the largest open environmental issue. Recycling streams designed for silicon panels do not capture lead leachate from damaged perovskite layers. Several research groups are working on lead-sequestering encapsulants and closed-loop recycling protocols, but neither is yet at deployment scale.
-_bodyHash: b2548a72
+_bodyHash: 3ea4ec3b
 ---
 
-Perovskite single-junction photovoltaic [cells](/en/biology/cells/what-is-a-cell) achieved high laboratory efficiencies years ago, but authoritative overviews from [NREL](https://www.nrel.gov/pv/perovskite-solar-cells) and the [U.S. Department of Energy](https://www.energy.gov/eere/solar/about-solar-energy-technologies-office) still treat stability, environmental compatibility, and scaling as commercialization barriers. For most of the field's history, any honest assessment had to confront the gap between laboratory performance and durable outdoor operation.
+Perovskite single-junction photovoltaic cells achieved high laboratory efficiencies years ago, but authoritative overviews from the [National Laboratory of the Rockies](https://www.nlr.gov/pv/perovskite-solar-cells) — the U.S. Department of Energy laboratory formerly named NREL — and from the [Department of Energy](https://www.energy.gov/cmei/systems/integrated-energy-systems-office) still treat stability, environmental compatibility, and scaling as commercialization barriers. For most of the field's history, any honest assessment had to confront the gap between laboratory performance and durable outdoor operation — the gap that separates a demonstrated conversion efficiency from a technology that scales in [an energy system](/en/physics/energy/energy-systems-explained).
 
 That gap is now closing. The reasons it is closing — and the work that remains — are worth understanding in detail because they shape which deployment scenarios become realistic in the next five years.
 
@@ -44,7 +44,7 @@ Three substantive shifts have moved field stability into the regime where seriou
 
 **Encapsulation chemistries.** Modern encapsulant stacks block both moisture and oxygen ingress at the rates needed to extend operational lifetimes by orders of magnitude. The leading approaches use multilayer barrier films optimized for low water-vapor transmission rate, paired with edge sealants that prevent lateral ingress. The science here is not new — flexible OLED displays solved the analogous problem a decade ago. What is new is adapting it to the area scales and cost structures that photovoltaic manufacturing requires.
 
-**Additive engineering for ion migration.** Perovskite degradation under bias is dominated by ion migration at grain boundaries. Targeted additives — typically large organic cations or carefully chosen Lewis bases — passivate boundary defects and substantially slow ion movement. The result is [cells](/en/biology/cells/what-is-a-cell) that hold their efficiency under continuous operation for thousands of hours, where unmodified equivalents would have lost meaningful capacity in hundreds.
+**Additive engineering for ion migration.** Perovskite degradation under bias is dominated by ion migration at grain boundaries. Targeted additives — typically large organic cations or carefully chosen Lewis bases — passivate boundary defects and substantially slow ion movement. The result is cells that hold their efficiency under continuous operation for thousands of hours, where unmodified equivalents would have lost meaningful capacity in hundreds.
 
 **Tandem architectures.** Stacking a perovskite top cell on a silicon bottom cell distributes thermal load across two absorber layers and operates each layer in its preferred wavelength range. The tandem geometry is not just an efficiency optimization — it is a stability strategy. Each layer is doing less work than it would alone and degrading correspondingly slower.
 
@@ -52,7 +52,7 @@ The combined effect has moved some prototypes into longer monitored testing regi
 
 ## What remains
 
-Lead handling at end-of-[life](/en/biology/cells/what-is-a-cell) remains the largest open environmental issue. Lead-based perovskites — which are the highest-performing chemistries — release water-soluble lead compounds when damaged. Recycling streams designed for silicon panels do not capture this leachate. Without a credible end-of-[life](/en/biology/cells/what-is-a-cell) answer, regulatory deployment outside narrowly controlled environments will face legitimate resistance.
+Lead handling at end-of-life remains the largest open environmental issue. Lead-based perovskites — which are the highest-performing chemistries — release water-soluble lead compounds when damaged. Recycling streams designed for silicon panels do not capture this leachate. Without a credible end-of-life answer, regulatory deployment outside narrowly controlled environments will face legitimate resistance.
 
 Several research directions are addressing this. Lead-sequestering encapsulants bind released lead within the panel structure rather than letting it escape. Closed-loop recycling protocols are being developed with chemical processes that recover lead in a controlled stream. Lead-free perovskite chemistries (typically tin-based) are being pursued, but they presently lag in efficiency by enough that they are not yet competitive.
 
@@ -62,7 +62,7 @@ Field stability data still spans a relatively short fraction of expected operati
 
 ## What this changes for energy planning
 
-The plausibility of perovskite tandems at meaningful scale within the decade changes what [energy](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics)-system planners should assume about the cost trajectory of solar generation.
+The plausibility of perovskite tandems at meaningful scale within the decade changes what energy-system planners should assume about the cost trajectory of solar generation.
 
 Silicon costs have declined predictably for decades and are approaching their floor; further declines come from manufacturing optimization, not from physics. Perovskite tandems, by contrast, sit on a much earlier point in their cost curve. If field stability holds up over the next several years and manufacturing scales, the cost trajectory could compress significantly faster than the silicon-only baseline.
 
@@ -72,8 +72,8 @@ But the technology has crossed an important threshold: outdoor and module-level 
 
 ## Sources
 
-1. **NREL** — [Perovskite solar cells](https://www.nrel.gov/pv/perovskite-solar-cells). U.S. National Renewable Energy Laboratory overview of perovskite opportunities and commercialization barriers.
-2. **U.S. Department of Energy** — [Solar Energy Technologies Office](https://www.energy.gov/eere/solar/about-solar-energy-technologies-office). DOE program context for photovoltaic research and deployment.
-3. **NREL** — [Photovoltaic research](https://www.nrel.gov/pv/research.html). NREL photovoltaic research, reliability, and system-performance context.
+1. **National Laboratory of the Rockies** — [Perovskite solar cells](https://www.nlr.gov/pv/perovskite-solar-cells). Laboratory overview of perovskite opportunities and commercialization barriers.
+2. **U.S. Department of Energy** — [Integrated Energy Systems Office](https://www.energy.gov/cmei/systems/integrated-energy-systems-office). DOE programme context for photovoltaic research and deployment.
+3. **National Laboratory of the Rockies** — [Photovoltaic research](https://www.nlr.gov/pv/research). Photovoltaic research, reliability, and system-performance context.
 4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed perovskite and photovoltaic materials literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed photovoltaic and energy-materials literature.

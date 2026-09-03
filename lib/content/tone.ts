@@ -1,14 +1,15 @@
 /**
- * Tone system for AI-assisted scientific copy.
+ * Language guardrails for the editorial validators.
  *
- * Defines the language guardrails every generator must respect:
- * factual, calm, uncertainty-aware, evidence-first. The rules here
- * are enforced by `quality.ts` at generation time and surface as
- * warnings to the validator/build pipeline so drift is visible.
+ * This module used to also hold the phrasing machinery for the prose
+ * generators — a seeded variant picker, a set of "calm openers", and a
+ * map from a qualitative confidence level to a hedge. Those went with
+ * the generators: choosing a reader-facing certainty claim from a
+ * template is a fabricated calibration, and rotating phrasing by seed to
+ * make pages look different from each other is a spam pattern, not an
+ * editorial one.
  *
- * No medical, financial, or unconditional advice phrasing is allowed
- * through this layer. Where evidence is limited the tone helpers
- * downgrade certainty rather than invent it.
+ * What remains is what the validator enforces on human-written copy.
  */
 
 /** Phrases that imply unsupported certainty or sensationalism. */
@@ -42,59 +43,21 @@ export const GUARDED_PHRASES: readonly string[] = [
   "unprecedented",
 ];
 
-/** Calibrated hedges to use in place of overstated certainty. */
-export const CERTAINTY_HEDGES = {
-  high: "evidence consistently indicates",
-  medium: "current evidence suggests",
-  low: "early findings point to",
-  contested: "the evidence is mixed on",
-  insufficient: "available data are too limited to conclude",
-} as const;
-
-export type CertaintyLevel = keyof typeof CERTAINTY_HEDGES;
-
-/** Map a qualitative input to a calibrated hedge. */
-export function hedge(level: CertaintyLevel): string {
-  return CERTAINTY_HEDGES[level];
-}
-
 /**
- * Replace the hard "proves" / "miracle" register with calibrated
- * language. Conservative — only swaps obvious hits, never rewrites.
+ * Calibrated language the editorial standards ask writers to use. These
+ * are documentation for authors and for the authoring brief, not a
+ * lookup a generator selects from at render time.
+ *
+ *   high        evidence consistently indicates
+ *   medium      current evidence suggests
+ *   low         early findings point to
+ *   contested   the evidence is mixed on
+ *   insufficient  available data are too limited to conclude
  */
-export function softenCertainty(text: string): string {
-  let out = text;
-  out = out.replace(/\bproves\s+that\b/gi, "evidence indicates that");
-  out = out.replace(/\bproven\s+to\b/gi, "shown to");
-  out = out.replace(/\bguaranteed\s+to\b/gi, "expected to");
-  out = out.replace(/\bmiracle\b/gi, "notable");
-  return out;
-}
-
-/**
- * Returns a positive but factual framing prefix. Variants exist so
- * we don't open every section the same way.
- */
-export function calmOpener(seed: string): string {
-  const options = [
-    "The short version:",
-    "What the evidence shows:",
-    "In plain terms:",
-    "The current picture:",
-    "Where the science stands:",
-  ];
-  return pickBySeed(seed, options);
-}
-
-/** Deterministic pick — same seed always picks the same option. */
-export function pickBySeed<T>(seed: string, options: readonly T[]): T {
-  if (options.length === 0) {
-    throw new Error("pickBySeed: options must not be empty.");
-  }
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) {
-    h = ((h << 5) - h + seed.charCodeAt(i)) | 0;
-  }
-  const index = Math.abs(h) % options.length;
-  return options[index];
-}
+export const CERTAINTY_LANGUAGE: readonly string[] = [
+  "evidence consistently indicates",
+  "current evidence suggests",
+  "early findings point to",
+  "the evidence is mixed on",
+  "available data are too limited to conclude",
+];

@@ -1,8 +1,8 @@
 ---
 title: 'Remote-sensing limitations and uncertainty: reading satellite data honestly'
-excerpt: 'Satellite data are powerful but never perfect. This sets out the structural limits of remote sensing — resolution trade-offs, cloud, mixed pixels, indirect measurement, and sensor drift — and the validation practices that keep satellite products honest.'
+excerpt: Satellite data are powerful but never perfect. This sets out the structural limits of remote sensing — resolution trade-offs, cloud, mixed pixels, indirect measurement, and sensor drift — and the validation practices that keep satellite products honest.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -14,6 +14,9 @@ related:
   - what-is-remote-sensing
   - earth-observation-data-products
   - land-cover-change-detection
+_bodyHash: ac70e4f8
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Satellite measurement is indispensable to environmental science, yet it is bounded in ways that matter for how its results should be read. A map or time series derived from orbit always carries assumptions, gaps, and error that good practice makes explicit rather than hides. This article sets out the main structural limits of [what remote sensing is](/en/ecology/earth-observation/what-is-remote-sensing) and the validation that keeps the resulting products trustworthy; the broader context sits in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) hub.
@@ -24,7 +27,7 @@ A single instrument cannot maximise spatial, spectral, temporal, and radiometric
 
 ## The atmosphere stands in the way
 
-Optical and thermal sensors observe the surface through the atmosphere, and they cannot see through cloud. Cloudy and tropical regions therefore carry systematic gaps in coverage, with some areas observed far less often than clearer ones. Radar penetrates cloud and offers a partial answer, but it measures different physical properties and so addresses different questions rather than simply substituting for optical imagery. Even under clear skies, residual atmospheric and aerosol effects alter the recorded signal. Correction procedures reduce that contamination but do not remove it entirely, so a measured value retains some atmospheric error. The [NASA Earth Observatory](https://earthobservatory.nasa.gov/) describes how these constraints shape what satellites can and cannot resolve.
+Optical and thermal sensors observe the surface through the atmosphere, and they cannot see through cloud. Cloudy and tropical regions therefore carry systematic gaps in coverage, with some areas observed far less often than clearer ones. Radar penetrates cloud and offers a partial answer, but it measures different physical properties and so addresses different questions rather than simply substituting for optical imagery. Even under clear skies, residual atmospheric and aerosol effects alter the recorded signal. Correction procedures reduce that contamination but do not remove it entirely, so a measured value retains some atmospheric error. The [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) describes how these constraints shape what satellites can and cannot resolve.
 
 ## A pixel is rarely one thing
 
@@ -45,6 +48,6 @@ Because of all of the above, a credible satellite product reports its limits rat
 ## Sources
 
 1. **NASA Earthdata** — [data quality](https://www.earthdata.nasa.gov/). Product quality, flags, and uncertainty.
-1. **NASA Earth Observatory** — [limits of satellite data](https://earthobservatory.nasa.gov/). How satellite measurements are validated.
+1. **NASA Earth Observatory** — [limits of satellite data](https://science.nasa.gov/earth/earth-observatory/). How satellite measurements are validated.
 1. **USGS** — [accuracy assessment](https://www.usgs.gov/landsat-missions). Validation of land products.
 1. **Remote Sensing (journal)** — [uncertainty methods](https://www.mdpi.com/journal/remotesensing). Peer-reviewed validation and error analysis.

@@ -1,10 +1,10 @@
 ---
 title: 'Citizen-science biodiversity data: scale, bias, and how it is corrected'
-excerpt: 'Volunteer observers now generate a large share of the world’s species records. This explains how that data reaches scientific use through aggregators like GBIF, where its spatial and taxonomic biases come from, and the statistical methods used to make uneven, opportunistic observations usable.'
+excerpt: Volunteer observers now generate a large share of the world’s species records. This explains how that data reaches scientific use through aggregators like GBIF, where its spatial and taxonomic biases come from, and the statistical methods used to make uneven, opportunistic observations usable.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-03'
 tags:
   - biodiversity
   - citizen-science
@@ -15,9 +15,11 @@ related:
   - species-richness-explained
   - living-planet-index-explained
 pillar: why-species-counts-mislead-conservation
+_bodyHash: 949d891
+readingTime: 4
 ---
 
-A large share of the species observations recorded each year now comes from volunteers rather than professional surveyors. These records reach research and policy through open aggregators, where they help map distributions and, for some groups, track trends over time. Reading them well means understanding both their reach and the biases that shape them.
+A large share of the species observations recorded each year now comes from volunteers rather than professional surveyors. These records reach research and policy through open aggregators, where they help map distributions and, subject to the same limits that make [raw species counts a poor summary of biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation), track trends over time. Reading them well means understanding both their reach and the biases that shape them.
 
 ## What citizen-science data is
 

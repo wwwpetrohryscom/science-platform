@@ -106,7 +106,29 @@ function sendPageView(pagePath: string): void {
   devLog("page_view", pagePath);
 }
 
-export function CookieBanner() {
+export type CookieStrings = {
+  aria: string;
+  title: string;
+  summary: string;
+  necessary_label: string;
+  necessary_body: string;
+  analytics_label: string;
+  analytics_body: string;
+  customize: string;
+  save: string;
+  reject: string;
+  accept: string;
+};
+
+/**
+ * Consent UI. This is a client component, so it cannot read the
+ * fs-backed message bundle; the localized strings are resolved in the
+ * layout (a server component) and passed in. They were previously
+ * hard-coded English, which meant the consent notice — the one piece of
+ * UI a reader has to understand to give informed consent — was
+ * untranslated on every non-English page.
+ */
+export function CookieBanner({ strings }: { strings: CookieStrings }) {
   const pathname = usePathname();
   const [consent, setConsent] = useState<ConsentState | null>(null);
   const [ready, setReady] = useState(false);
@@ -144,18 +166,16 @@ export function CookieBanner() {
     <>
       {showBanner && (
         <section
-          aria-label="Cookie consent"
+          aria-label={strings.aria}
           className="fixed inset-x-0 bottom-0 z-50 border-t border-ink-line bg-white/95 shadow-[0_-16px_40px_rgba(26,36,33,0.12)] backdrop-blur"
         >
           <div className="container-page flex flex-col gap-5 py-5 md:flex-row md:items-start md:justify-between">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold text-ink">
-                EcoScienceHub uses privacy-conscious cookies
+                {strings.title}
               </p>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                Necessary storage keeps this preference working. Analytics is
-                optional and helps us understand aggregate site usage. Analytics
-                scripts are blocked until you accept them.
+                {strings.summary}
               </p>
 
               {view === "customize" && (
@@ -169,11 +189,10 @@ export function CookieBanner() {
                     />
                     <span>
                       <span className="block font-medium text-ink">
-                        Necessary cookies
+                        {strings.necessary_label}
                       </span>
                       <span className="block text-ink-muted">
-                        Always enabled. Required for cookie preference storage
-                        and basic site security.
+                        {strings.necessary_body}
                       </span>
                     </span>
                   </label>
@@ -188,11 +207,10 @@ export function CookieBanner() {
                     />
                     <span>
                       <span className="block font-medium text-ink">
-                        Analytics cookies
+                        {strings.analytics_label}
                       </span>
                       <span className="block text-ink-muted">
-                        Optional. Enables aggregate measurement through the
-                        configured Google Analytics property.
+                        {strings.analytics_body}
                       </span>
                     </span>
                   </label>
@@ -207,7 +225,7 @@ export function CookieBanner() {
                   onClick={() => setView("customize")}
                   className="btn-outline whitespace-nowrap"
                 >
-                  Customize
+                  {strings.customize}
                 </button>
               ) : (
                 <button
@@ -215,7 +233,7 @@ export function CookieBanner() {
                   onClick={() => decide(analyticsEnabled)}
                   className="btn-outline whitespace-nowrap"
                 >
-                  Save choices
+                  {strings.save}
                 </button>
               )}
               <button
@@ -223,14 +241,14 @@ export function CookieBanner() {
                 onClick={() => decide(false)}
                 className="btn-outline whitespace-nowrap"
               >
-                Reject non-essential
+                {strings.reject}
               </button>
               <button
                 type="button"
                 onClick={() => decide(true)}
                 className="btn-primary whitespace-nowrap"
               >
-                Accept all
+                {strings.accept}
               </button>
             </div>
           </div>

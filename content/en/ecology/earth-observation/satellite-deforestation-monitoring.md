@@ -1,8 +1,8 @@
 ---
 title: 'Satellite deforestation monitoring: detecting forest loss from orbit'
-excerpt: 'Satellites are the primary way forest loss is detected at scale, from annual global statistics to near-real-time clearing alerts. This explains how the change is measured from image time series, who reports it, and the uncertainties that come with monitoring tropical forests from space.'
+excerpt: Satellites are the primary way forest loss is detected at scale, from annual global statistics to near-real-time clearing alerts. This explains how the change is measured from image time series, who reports it, and the uncertainties that come with monitoring tropical forests from space.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -14,6 +14,9 @@ related:
   - land-cover-change-detection
   - wildfire-monitoring-from-space
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: 26cecca3
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 Forest loss is now detected, at scale, mostly from space. Deforestation — the conversion of forest to another [land cover](/en/glossary/land-cover) — is identified by comparing satellite images of the same place taken at different dates and finding where the tree canopy has disappeared. This piece explains how that change is measured from an image time series, which institutions compile and report it, and why the resulting figures always carry uncertainty.

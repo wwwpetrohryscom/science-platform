@@ -2,10 +2,10 @@
 title: 'Climate feedbacks: the arithmetic that turns a small push into a large response'
 excerpt: A feedback is not a vague amplification. It is a number in watts per square metre per degree, it has a sign convention, and IPCC AR6 publishes the assessed value for each one.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 10
+updatedDate: '2026-09-03'
+readingTime: 6
 tags:
   - climate-feedback
   - feedbacks
@@ -16,9 +16,11 @@ related:
   - ice-albedo-feedback-explained
   - earth-system-science-explained
   - earth-system-models-explained
+_bodyHash: aef7fa26
+pillar: earth-system-science-explained
 ---
 
-The word "feedback" does a lot of loose work in public writing about climate, usually meaning something like "things get worse". In the technical literature it means something precise and quantitative, and the precision is what makes the concept useful. This article sets out the definition, the sign convention, and the assessed values — and then the part that matters most, which is where the uncertainty sits.
+The word "feedback" does a lot of loose work in public writing about climate, usually meaning something like "things get worse". In the technical literature it means something precise and quantitative, and the precision is what makes the concept useful. Feedbacks are also the clearest case of a property that belongs to the coupling rather than to any one component, which is why [Earth system science treats the planet as a single system](/en/ecology/earth-systems/earth-system-science-explained). This article sets out the definition, the sign convention, and the assessed values — and then the part that matters most, which is where the uncertainty sits.
 
 ## Definition and sign convention
 
@@ -85,5 +87,5 @@ Ask whether the claim distinguishes **feedback from forcing**. Water vapour is a
 2. **IPCC AR6 WG1, Chapter 4** — [Future global climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/). Long-timescale and irreversible responses that sit outside the fast-feedback framework.
 3. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Biogeochemical feedbacks acting through the carbon cycle.
 4. **NASA** — [Climate change evidence and causes](https://science.nasa.gov/climate-change/). Accessible framing of forcing and response.
-5. **NOAA Climate.gov** — [Climate system explainers](https://www.climate.gov/). Background on the energy budget the feedback parameters modify.
+5. **NOAA Climate.gov** — [Climate system explainers](https://www.noaa.gov/climate). Background on the energy budget the feedback parameters modify.
 6. **World Climate Research Programme** — [Coupled Model Intercomparison Project](https://wcrp-cmip.org/). The multi-model experiments from which model-based feedback estimates are derived.

@@ -2,10 +2,10 @@
 title: 'The cryosphere as an active component: four ways ice changes the rest of the system'
 excerpt: Ice is usually presented as something the climate does things to. It is also a component that changes reflectivity, sea level, ocean density, and the carbon cycle in return.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - cryosphere
   - ice-albedo-feedback
@@ -16,9 +16,11 @@ related:
   - ocean-circulation-and-climate
   - earth-system-tipping-points
   - earth-system-science-explained
+_bodyHash: 7c83b27d
+pillar: earth-system-science-explained
 ---
 
-The existing article on [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) treats ice as something measured — extent, mass balance, snow cover, each with its own record and its own error structure. This article takes the opposite view and asks what ice *does* to the rest of the system. The answer runs through four separate channels, and they operate on different timescales and in different directions.
+The existing article on [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) treats ice as something measured — extent, mass balance, snow cover, each with its own record and its own error structure. This article takes the opposite view and asks what ice *does* to the rest of the system, in the sense that [Earth system science means by a component](/en/ecology/earth-systems/earth-system-science-explained). The answer runs through four separate channels, and they operate on different timescales and in different directions.
 
 ## What counts as the cryosphere
 

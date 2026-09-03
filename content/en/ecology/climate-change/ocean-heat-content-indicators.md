@@ -5,7 +5,7 @@ type: expert
 author: climate-research-desk
 publishedDate: '2026-04-25'
 updatedDate: '2026-08-29'
-readingTime: 5
+readingTime: 7
 tags:
   - climate-change
   - ocean
@@ -16,9 +16,10 @@ related:
   - greenhouse-gases-and-radiative-forcing
   - earth-energy-budget-and-the-second-law
 pillar: what-is-climate-change
+_bodyHash: c367e01d
 ---
 
-When journalists ask "is global warming continuing", the most defensible single answer is the ocean heat content (OHC) record. Roughly 90% of the [energy](/en/physics/energy/perovskite-stack-field-stability) added to the [climate](/en/ecology/climate-change/what-is-climate-change) system by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere. The exact share depends on which inventory and which period are used — AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory, a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/).
+When journalists ask "is global warming continuing", the most defensible single answer is the ocean heat content (OHC) record. Roughly 90% of the energy added to the climate system by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere. The exact share depends on which inventory and which period are used — AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory, a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/).
 
 Because the ocean stores so much of the imbalance, OHC is less affected by the year-to-year noise that masks trends in surface air temperature. It is the climate indicator the atmosphere cannot hide.
 
@@ -32,7 +33,7 @@ The number is reported as anomaly relative to a reference period, typically expr
 
 Surface temperature reflects two things: the long-term forced trend and short-term variability driven by ocean–atmosphere coupling. The El Niño–Southern Oscillation (ENSO) alone can swing global mean surface temperature by 0.1–0.2 °C from year to year as the tropical Pacific exchanges heat with the atmosphere. Volcanic eruptions inject reflective aerosols that cool the surface for a year or two. Solar variability over the 11-year cycle is small but non-zero.
 
-OHC averages most of that out. ENSO redistributes heat between ocean layers and the atmosphere — it does not change the total ocean heat content much. The OHC trend is therefore close to the trend in the underlying climate forcing, with much smaller interannual variability. [NASA Climate](https://climate.nasa.gov/) maintains a vital-signs page that displays the ocean-heat record alongside the surface-temperature record specifically for this comparison.
+OHC averages most of that out. ENSO redistributes heat between ocean layers and the atmosphere — it does not change the total ocean heat content much. The OHC trend is therefore close to the trend in the underlying climate forcing, with much smaller interannual variability. [NASA Climate](https://science.nasa.gov/climate-change/) maintains a vital-signs page that displays the ocean-heat record alongside the surface-temperature record specifically for this comparison.
 
 ## What the trend shows
 
@@ -42,7 +43,7 @@ The fact that the trend is monotonic — every five-year window adds energy, wit
 
 ## What it does not measure
 
-OHC is a global aggregate. It does not by itself describe regional ocean warming, marine heatwaves, or specific impacts on [ecosystems](/en/ecology/ecosystems/what-is-an-ecosystem). For those, regional sea-surface temperature records and dedicated indicators apply — for example NOAA's [Coral Reef Watch](https://coralreefwatch.noaa.gov/) for thermal stress on corals, or the regional indicators surveyed by the [European Environment Agency](https://www.eea.europa.eu/).
+OHC is a global aggregate. It does not by itself describe regional ocean warming, marine heatwaves, or specific impacts on ecosystems. For those, regional sea-surface temperature records and dedicated indicators apply — for example NOAA's [Coral Reef Watch](https://coralreefwatch.noaa.gov/) for thermal stress on corals, or the regional indicators surveyed by the [European Environment Agency](https://www.eea.europa.eu/).
 
 OHC also does not directly equate to sea-level rise. Thermal expansion contributes a portion of observed sea-level rise — roughly a third over the recent decades, with the balance from land-ice melt and changes in land-water storage. The decomposition is reported in AR6 and the related agency dashboards. Treating OHC as a sea-level proxy without that decomposition is inviting an error.
 
@@ -50,7 +51,7 @@ OHC also does not directly equate to sea-level rise. Thermal expansion contribut
 
 The Argo program took years to reach full deployment and prior data sources are sparser, so OHC uncertainty grows backward in time. Multiple analysis groups (NOAA, JMA, IAP, MetOffice, and others) produce independent OHC estimates from the same underlying observations using different gap-filling and bias-correction methods. The spread among them is small for the recent period and larger for earlier decades. AR6 discusses this spread; it is the dominant term in the historical OHC uncertainty.
 
-Subsurface temperature drift in some XBT (expendable bathythermograph) data has been a recurring source of bias. The corrections used by analysis groups are documented in the technical reports backing each product. The [climate.gov](https://www.climate.gov/) explainer pages link to the methodology pages for each.
+Subsurface temperature drift in some XBT (expendable bathythermograph) data has been a recurring source of bias. The corrections used by analysis groups are documented in the technical reports backing each product. The [climate.gov](https://www.noaa.gov/climate) explainer pages link to the methodology pages for each.
 
 The deep-ocean component below 2000 m is the least-sampled part of the record. Coverage relies on repeat hydrographic surveys (the GO-SHIP framework documented through [NOAA](https://www.noaa.gov/)) and on the progressive rollout of Deep Argo, which is still building toward global coverage. Deep-ocean heat uptake is a small fraction of the total but is not negligible for the multi-decadal trend, and its uncertainty is correspondingly larger than for the upper 2000 m.
 
@@ -70,7 +71,7 @@ Three properties make OHC the cleanest climate indicator for general communicati
 
 1. The signal-to-noise ratio is high — the trend is robust on five-year and shorter windows.
 2. The physical interpretation is unambiguous — energy in the climate system has only a few possible reservoirs, and the ocean is by far the largest.
-3. The dataset is publicly accessible and well-documented through NOAA, NASA, and the IPCC working-group [materials](/en/physics/energy/perovskite-stack-field-stability).
+3. The dataset is publicly accessible and well-documented through NOAA, NASA, and the IPCC working-group materials.
 
 Combined with [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) on the input side and OHC on the storage side, the bookkeeping closes within stated uncertainties. That is what makes the climate-system energy budget a verified statement, not a model output to be argued with.
 
@@ -78,8 +79,8 @@ Combined with [radiative forcing](/en/ecology/climate-change/greenhouse-gases-an
 
 1. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/), Chapter 2 (Changing State of the Climate System) and Chapter 9 (Ocean, Cryosphere and Sea Level Change). Authoritative assessment of OHC trends and partition of the energy imbalance.
 2. **NOAA National Centers for Environmental Information** — [State of the Climate and OHC products](https://www.ncei.noaa.gov/). Operational ocean heat content datasets and annual climate assessments.
-3. **NASA Global Climate Change** — [Ocean heat content vital sign](https://climate.nasa.gov/). Public-facing record of OHC anomalies alongside other climate indicators.
-4. **NOAA Climate.gov** — [Explainers and indicator products](https://www.climate.gov/). Methodology pages and educational material on ocean heat measurement.
+3. **NASA Global Climate Change** — [Ocean heat content vital sign](https://science.nasa.gov/climate-change/). Public-facing record of OHC anomalies alongside other climate indicators.
+4. **NOAA Climate.gov** — [Explainers and indicator products](https://www.noaa.gov/climate). Methodology pages and educational material on ocean heat measurement.
 5. **European Environment Agency** — [Climate-change indicator framework](https://www.eea.europa.eu/). European regional assessments of ocean and sea-level indicators.
 6. **World Meteorological Organization** — [State of the Global Climate](https://wmo.int/). Annual synthesis of OHC alongside other climate indicators.
 7. **Copernicus Climate Change Service** — [Ocean reanalyses and indicators](https://climate.copernicus.eu/). Independent ocean reanalysis chain used to cross-check OHC estimates.

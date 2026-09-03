@@ -4,8 +4,8 @@ excerpt: Radiative forcing is the bookkeeping unit that lets atmospheric scienti
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-22'
-updatedDate: '2026-08-29'
-readingTime: 6
+updatedDate: '2026-09-02'
+readingTime: 8
 tags:
   - climate-change
   - greenhouse-gases
@@ -16,27 +16,28 @@ related:
   - temperate-forest-carbon-sink-decline
   - earth-energy-budget-and-the-second-law
 pillar: what-is-climate-change
+_bodyHash: 1f8640a1
 ---
 
-Radiative forcing is the unit [climate](/en/ecology/climate-change/what-is-climate-change) scientists use to compare the climate effect of one greenhouse gas, aerosol, or land-use change against another. It has a precise definition — the change in net downward radiative flux at the tropopause after stratospheric temperatures adjust, in watts per square metre — and it is the bookkeeping that lets the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) put [carbon](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) dioxide, methane, nitrous oxide, halocarbons, ozone, and aerosols on the same axis.
+Radiative forcing is the unit climate scientists use to compare the climate effect of one greenhouse gas, aerosol, or land-use change against another. It has a precise definition — the change in net downward radiative flux at the tropopause after stratospheric temperatures adjust, in watts per square metre — and it is the bookkeeping that lets the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) put carbon dioxide, methane, nitrous oxide, halocarbons, ozone, and aerosols on the same axis.
 
 Understanding what the number does and does not measure is the difference between reading climate evidence as it is presented and overreading it.
 
 ## What radiative forcing is
 
-The Earth receives shortwave [energy](/en/physics/energy/perovskite-stack-field-stability) from the Sun and emits longwave (infrared) energy back to space. In equilibrium, the two flows balance. Anything that perturbs that balance — a change in solar output, a volcanic plume, a change in atmospheric composition — produces a forcing.
+The Earth receives shortwave energy from the Sun and emits longwave (infrared) energy back to space. In equilibrium, the two flows balance. Anything that perturbs that balance — a change in solar output, a volcanic plume, a change in atmospheric composition — produces a forcing.
 
-Greenhouse gases produce a positive forcing because they absorb longwave radiation that would otherwise escape and re-emit a portion of it back toward the surface. The strength of the effect for a given gas depends on three factors: how strongly the molecule absorbs in the infrared bands where Earth radiates, how long it persists in the atmosphere before being removed, and how saturated those absorption bands already are with other gases. NOAA's [Global Monitoring Laboratory](https://gml.noaa.gov/) maintains the long-term [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) records — Mauna Loa for CO₂, the cooperative air-sampling network for methane and nitrous oxide — that feed those estimates.
+Greenhouse gases produce a positive forcing because they absorb longwave radiation that would otherwise escape and re-emit a portion of it back toward the surface. The strength of the effect for a given gas depends on three factors: how strongly the molecule absorbs in the infrared bands where Earth radiates, how long it persists in the atmosphere before being removed, and how saturated those absorption bands already are with other gases. NOAA's [Global Monitoring Laboratory](https://gml.noaa.gov/) maintains the long-term measurement records — Mauna Loa for CO₂, the cooperative air-sampling network for methane and nitrous oxide — that feed those estimates.
 
 The IPCC reports this on a per-gas basis as the *effective radiative forcing* (ERF) at the tropopause. The total anthropogenic ERF since 1750 is reported by [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) as roughly +2.7 W/m², dominated by CO₂, with methane and halocarbons together adding around a third of the CO₂ contribution and aerosols offsetting a portion of the warming.
 
 ## Why methane and CO₂ are not interchangeable
 
-A common shorthand is to convert methane and other gases into "CO₂-equivalent" units using global warming potential (GWP) over a 100-year window. The conversion is useful for [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) accounting, but it hides a real physical difference.
+A common shorthand is to convert methane and other gases into "CO₂-equivalent" units using global warming potential (GWP) over a 100-year window. The conversion is useful for policy accounting, but it hides a real physical difference.
 
-CO₂ has a long atmospheric lifetime — a fraction of any pulse remains airborne for centuries because removal depends on slow exchange with the deep [ocean](/en/ecology/climate-change/ocean-heat-content-indicators) and rock weathering. Methane has a roughly 12-year lifetime in the troposphere because it is oxidized to CO₂ and water by hydroxyl radicals. Per molecule, methane is a much stronger absorber than CO₂ over its lifetime; per unit emitted, its forcing is concentrated in the first decade or two and then decays.
+CO₂ has a long atmospheric lifetime — a fraction of any pulse remains airborne for centuries because removal depends on slow exchange with the deep ocean and rock weathering. Methane has a roughly 12-year lifetime in the troposphere because it is oxidized to CO₂ and water by hydroxyl radicals. Per molecule, methane is a much stronger absorber than CO₂ over its lifetime; per unit emitted, its forcing is concentrated in the first decade or two and then decays.
 
-This is why GWP-100 ranks methane as roughly 28× CO₂ on a 100-year basis but GWP-20 ranks it as roughly 80× — the choice of integration window changes the equivalence. The [U.S. EPA Climate Change Indicators](https://www.epa.gov/climate-indicators) page on greenhouse-gas concentrations and the [NASA Climate](https://climate.nasa.gov/) summaries publish the per-gas concentration trends that anyone using equivalents should look at first.
+This is why GWP-100 ranks methane as roughly 28× CO₂ on a 100-year basis but GWP-20 ranks it as roughly 80× — the choice of integration window changes the equivalence. The per-gas concentration records to check first are NOAA's [long-term trend series](https://gml.noaa.gov/ccgg/trends/), summarised for a general audience by [NASA Climate](https://science.nasa.gov/climate-change/).
 
 Reading "CO₂-equivalent" without checking the integration window is reading half the unit.
 
@@ -84,8 +85,7 @@ Two specific items remain open in the operational literature. Methane source att
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/). The authoritative assessment of radiative forcing, climate sensitivity, and the response of the climate system.
 2. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/) and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing.
-3. **U.S. Environmental Protection Agency** — [Climate Change Indicators](https://www.epa.gov/climate-indicators). Per-gas concentration trends and the indicator framework used in U.S. assessments.
-4. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://climate.nasa.gov/). Topic-level reference on greenhouse gases, energy balance, and observational records.
-5. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.climate.gov/). Public-facing companion to NOAA's monitoring and assessment products.
-6. **World Meteorological Organization** — [Greenhouse Gas Bulletin](https://wmo.int/). Annual report on globally averaged abundances of long-lived greenhouse gases.
-7. **Copernicus Climate Change Service** — [Greenhouse gas indicators](https://climate.copernicus.eu/). European-led satellite and in-situ products tracking CO₂, methane, and nitrous oxide.
+3. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://science.nasa.gov/climate-change/). Topic-level reference on greenhouse gases, energy balance, and observational records.
+4. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring and assessment products.
+5. **World Meteorological Organization** — [Greenhouse Gas Bulletin](https://wmo.int/). Annual report on globally averaged abundances of long-lived greenhouse gases.
+6. **Copernicus Climate Change Service** — [Greenhouse gas indicators](https://climate.copernicus.eu/). European-led satellite and in-situ products tracking CO₂, methane, and nitrous oxide.

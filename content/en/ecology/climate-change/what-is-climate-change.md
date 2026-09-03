@@ -4,8 +4,8 @@ excerpt: Climate change refers to the long-term shift in Earth's energy balance 
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-08-29'
-readingTime: 5
+updatedDate: '2026-09-03'
+readingTime: 8
 tags:
   - climate
   - fundamentals
@@ -15,7 +15,6 @@ related:
   - temperate-forest-carbon-sink-decline
   - communicating-attribution-uncertainty
   - what-is-an-ecosystem
-pillar: what-is-climate-change
 faq:
   - question: Is the warming definitely caused by human activity?
     answer: IPCC and NASA assessments describe human influence on recent warming as established by multiple independent lines of evidence, including atmospheric composition, observed warming patterns, and model attribution. The strongest remaining uncertainties are about regional impacts, feedback strength, and timing, not the basic direction of human influence.
@@ -23,7 +22,7 @@ faq:
     answer: Global mean temperature is a thermodynamic forcing that drives much larger regional changes — extreme heat days, precipitation patterns, ocean stratification, sea level. The two-degree threshold is not a cliff but a useful threshold beyond which several large feedbacks (Arctic methane, ice sheet dynamics, forest dieback) become more likely to engage.
   - question: What is still genuinely uncertain?
     answer: The magnitude of regional precipitation changes, the timing and reversibility of ice-sheet feedbacks, the response of clouds to warming, and the strength of carbon-cycle feedbacks. The uncertainties are about *how much* and *how fast*, not about whether it is happening or what is causing it.
-_bodyHash: c3586f59
+_bodyHash: 13bc6da4
 ---
 
 Climate change refers to the long-term shift in Earth's energy balance driven primarily — over the last 150 years — by changes in atmospheric composition. The mechanism is well-established in the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) and summarized for public audiences by [NASA's climate evidence review](https://science.nasa.gov/climate-change/evidence/). The genuinely open questions are different from the ones that public discourse usually emphasizes.
@@ -74,7 +73,7 @@ These uncertainties are not symmetric. Most of them, on the central estimate, po
 
 ## What recent indicators show
 
-Annual climate-indicator reports — the [WMO State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024), [NOAA NCEI's 2024 global climate assessment](https://www.ncei.noaa.gov/news/global-climate-202413), and [Copernicus Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024) — converge on the same picture for 2024. That reporting cycle documented record warmth in global mean surface temperature, record ocean heat content, continued greenhouse-gas concentration increases, and accelerated sea-level rise relative to earlier decades. These are not single-dataset claims — each indicator is corroborated across the major analysis groups, which is the property that makes them robust.
+Annual climate-indicator reports — the [WMO State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024), [NOAA NCEI's 2024 global climate assessment](https://www.ncei.noaa.gov/news/global-climate-202413), and [Copernicus Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024) — converge on the same picture for 2024. That reporting cycle documented record warmth in global mean surface temperature, record ocean heat content, continued greenhouse-gas concentration increases, and accelerated sea-level rise relative to earlier decades. These are not single-dataset claims — each indicator is corroborated across the major analysis groups, which is the property that makes them robust.
 
 The intra-year variability that produced the most recent record was modulated by an El Niño event, which redistributes heat from ocean to atmosphere. The long-term forced trend underlying the indicators is independent of that variability and is documented in the same reports. For the indicator-specific reading, the [sea-level rise indicators](/en/ecology/climate-change/sea-level-rise-indicators) and [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) pieces walk through what each measurement does and does not capture.
 
@@ -84,6 +83,14 @@ Climate change is a thermodynamic consequence of changing atmospheric compositio
 
 When you encounter a climate argument, the relevant filter is: which of those frontier questions is it addressing? Most useful disagreements live there. The disagreements that don't — the ones that re-litigate the basic mechanism or the attribution — have been settled long enough that engaging them is no longer where the science is.
 
+## Where the rest of this subtopic goes
+
+The mechanism above rests on two quantities the rest of this cluster takes apart. [Greenhouse gases and radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) explains what forcing is and why global-warming potentials depend on the integration window chosen; [climate sensitivity](/en/ecology/climate-change/climate-sensitivity-explained) covers the response to that forcing, and why the two numbers usually quoted — equilibrium and transient — answer different questions. [Remaining carbon budgets](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions) is what those two produce when combined, and the most commonly misread output of the field.
+
+The evidence is a set of separately maintained records rather than one dataset. [Global temperature records](/en/ecology/climate-change/global-temperature-records-explained), [greenhouse-gas concentration monitoring](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), ocean heat content, sea-level rise and [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) — the first two linked above — each have their own instrument history and error structure, and [the indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) is the attempt to read them together.
+
+On the harder questions: [projection uncertainty](/en/ecology/climate-change/climate-models-projections-uncertainty) sets out what a model can and cannot tell you, [extreme-event attribution](/en/ecology/climate-change/extreme-weather-attribution-basics) covers the method that replaced "no single event can be attributed", [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks) and the [temperate forest sink](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) deal with the sinks that decide how much of an emission stays airborne, and [adaptation and mitigation indicators](/en/ecology/climate-change/climate-adaptation-mitigation-indicators) track the human-response side.
+
 ## Sources
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change (2021). The authoritative synthesis of current evidence on climate mechanisms, attribution, and projections.
@@ -91,6 +98,6 @@ When you encounter a climate argument, the relevant filter is: which of those fr
 3. **NASA** — [Climate Change: Evidence](https://science.nasa.gov/climate-change/evidence/), NASA Science, ongoing. Plain-language summary of the multiple independent lines of evidence for warming.
 4. **NOAA NCEI** — [Assessing the Global Climate in 2024](https://www.ncei.noaa.gov/news/global-climate-202413), National Centers for Environmental Information. Annual observational assessment of global temperature and related climate indicators.
 5. **WHO** — [Climate change and health (fact sheet)](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health), World Health Organization, October 2023. Health-impact framing of the scientific consensus.
-6. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024), World Meteorological Organization. Annual global indicator assessment used by the UN climate system.
+6. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024), World Meteorological Organization. Annual global indicator assessment used by the UN climate system.
 7. **Copernicus Climate Change Service** — [Global Climate Highlights 2024](https://climate.copernicus.eu/global-climate-highlights-2024), ECMWF / European Commission. Annual European/global indicator products and reanalyses.
-8. **EEA** — [Climate change in depth](https://www.eea.europa.eu/en/topics/in-depth/climate-change), European Environment Agency. European observational record and policy context.
+8. **EEA** — [Climate change impacts, risks and adaptation](https://www.eea.europa.eu/en/topics/in-depth/climate-change-impacts-risks-and-adaptation), European Environment Agency. European observational record and policy context.

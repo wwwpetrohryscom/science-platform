@@ -2,10 +2,10 @@
 title: 'Essential Biodiversity Variables: making monitoring comparable across the globe'
 excerpt: Biodiversity is harder to monitor than climate because no single instrument captures it. Essential Biodiversity Variables are the framework that makes the patchwork comparable.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-04-28'
 updatedDate: '2026-05-20'
-readingTime: 5
+readingTime: 6
 tags:
   - biodiversity
   - monitoring
@@ -16,11 +16,12 @@ related:
   - ecosystem-services-and-human-wellbeing
   - foundation-species-and-the-myth-of-redundancy
 pillar: why-species-counts-mislead-conservation
+_bodyHash: d5d1aead
 ---
 
-[Climate](/en/ecology/climate-change/what-is-climate-change) change has a small set of canonical indicators — surface temperature, [ocean](/en/ecology/climate-change/ocean-heat-content-indicators) heat content, sea level, sea ice extent, atmospheric greenhouse-gas concentration. Anyone reading the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) knows what is being measured.
+Climate change has a small set of canonical indicators — surface temperature, ocean heat content, sea level, sea ice extent, atmospheric greenhouse-gas concentration. Anyone reading the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) knows what is being measured.
 
-[Biodiversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation) has nothing equivalent. There is no single thermometer for ecosystem state. Different agencies report different metrics on different schedules from different sampling designs, and synthesis across them has historically been hard. The Essential Biodiversity Variables (EBV) framework, developed under the [Group on Earth Observations Biodiversity Observation Network](https://www.unep.org/explore-topics/ecosystems) and used by the [IPBES Global Assessment](https://www.ipbes.net/global-assessment), is the attempt to give biodiversity monitoring a comparable backbone.
+Biodiversity has nothing equivalent. There is no single thermometer for ecosystem state. Different agencies report different metrics on different schedules from different sampling designs, and synthesis across them has historically been hard. The Essential Biodiversity Variables (EBV) framework, developed under the [Group on Earth Observations Biodiversity Observation Network](https://www.unep.org/explore-topics/ecosystems) and used by the [IPBES Global Assessment](https://www.ipbes.net/global-assessment), is the attempt to give biodiversity monitoring a comparable backbone.
 
 This piece walks through what EBVs are, why they matter, and where their limits sit.
 
@@ -28,7 +29,7 @@ This piece walks through what EBVs are, why they matter, and where their limits 
 
 A reader of [biodiversity assessments](/en/ecology/biodiversity/why-species-counts-mislead-conservation) will encounter at least five families of metric: species counts, the Living Planet Index of population trends, IUCN Red List status, habitat extent, and genetic diversity proxies. They are not interchangeable. A region can lose substantial biomass while keeping its species count, or vice versa. Two field studies measuring "biodiversity" can be measuring different objects.
 
-For [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) reporting under the Convention on Biological Diversity and the Kunming-Montreal Global Biodiversity Framework, this incompatibility is operationally limiting. A nation cannot report progress toward a target if the metric it reports against is not aligned with what neighbouring nations are reporting. The EBV framework was designed to identify the small set of [measurement](/en/physics/quantum-basics/electromagnetic-spectrum-applications) classes that, taken together, span the dimensions of biodiversity change that matter for science and policy.
+For policy reporting under the Convention on Biological Diversity and the Kunming-Montreal Global Biodiversity Framework, this incompatibility is operationally limiting. A nation cannot report progress toward a target if the metric it reports against is not aligned with what neighbouring nations are reporting. The EBV framework was designed to identify the small set of measurement classes that, taken together, span the dimensions of biodiversity change that matter for science and policy.
 
 ## The six EBV classes
 
@@ -77,7 +78,7 @@ Remote-sensing inputs have continued to expand the ecosystem-structure layer in 
 
 When a biodiversity claim crosses the public domain — "X% of species are at risk", "biodiversity has declined by Y% since 1970" — the careful reader's first question is which EBV class the claim is derived from. The Living Planet Index is a population-abundance metric. The Red List is a species-extinction-risk metric. Forest-cover loss is an ecosystem-structure metric. They are correlated but not identical, and the correct interpretation differs for each.
 
-The EBV framework is the apparatus that lets [biodiversity science](/en/ecology/biodiversity/why-species-counts-mislead-conservation) be cited carefully without forcing readers to learn the operational details of every monitoring program. It is a vocabulary, not a thermometer.
+The EBV framework is the apparatus that lets biodiversity science be cited carefully without forcing readers to learn the operational details of every monitoring program. It is a vocabulary, not a thermometer.
 
 ## Sources
 
@@ -86,4 +87,4 @@ The EBV framework is the apparatus that lets [biodiversity science](/en/ecology/
 3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European regional assessment with EBV-aligned indicators and reporting.
 4. **Food and Agriculture Organization** — [State of the World's Forests](https://www.fao.org/). Forest-cover and forest-quality reporting that maps onto ecosystem-structure variables.
 5. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/). Climate-system context for biodiversity monitoring, particularly for species range and phenology variables.
-6. **NASA Earth Observatory** — [Land-cover and vegetation products](https://earthobservatory.nasa.gov/). Satellite-derived inputs for ecosystem-structure variables (forest cover, surface water, wetlands).
+6. **NASA Earth Observatory** — [Land-cover and vegetation products](https://science.nasa.gov/earth/earth-observatory/). Satellite-derived inputs for ecosystem-structure variables (forest cover, surface water, wetlands).

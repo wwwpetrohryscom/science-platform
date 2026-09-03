@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+import {
+  DEFAULT_LOCALE,
+  getMessages,
+  translator,
+  type Locale,
+} from "@/lib/i18n";
+
 type Crumb = { label: string; href: string };
 
 type PageHeadingProps = {
@@ -9,6 +16,9 @@ type PageHeadingProps = {
   crumbs?: Crumb[];
   /** Background variant — "primary" for ecology/biology, "accent" for physics. */
   accent?: "primary" | "accent" | "neutral";
+  /** Locale of the surrounding page — drives the breadcrumb aria-label,
+   *  which a screen reader announces and which was English everywhere. */
+  locale?: Locale;
 };
 
 const accentBg: Record<NonNullable<PageHeadingProps["accent"]>, string> = {
@@ -29,14 +39,16 @@ export function PageHeading({
   description,
   crumbs,
   accent = "primary",
+  locale = DEFAULT_LOCALE,
 }: PageHeadingProps) {
+  const t = translator(getMessages(locale));
   return (
     <header
       className={`border-b border-ink-line bg-gradient-to-b ${accentBg[accent]}`}
     >
       <div className="container-page py-14 md:py-20">
         {crumbs && crumbs.length > 0 && (
-          <nav aria-label="Breadcrumb" className="text-xs text-ink-subtle">
+          <nav aria-label={t("nav.breadcrumb")} className="text-xs text-ink-subtle">
             <ol className="flex flex-wrap items-center gap-1.5">
               {crumbs.map((crumb, idx) => (
                 <li key={crumb.href} className="flex items-center gap-1.5">

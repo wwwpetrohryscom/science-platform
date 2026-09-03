@@ -4,8 +4,8 @@ excerpt: A cell is the smallest unit that can sustain itself, copy itself, and r
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-05-08'
-readingTime: 4
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - cells
   - fundamentals
@@ -14,21 +14,20 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
-pillar: what-is-a-cell
-_bodyHash: feabf6d0
+_bodyHash: 6c7e231c
 ---
 
-A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. This operational framing is consistent with [cell-biology](/en/biology/cells/cell-signaling-pathways-basics) reference material available through [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and [genetics](/en/biology/genetics/what-is-dna) definitions from [NHGRI](https://www.genome.gov/genetics-glossary). Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not [cells](/en/biology/cells/coral-microbiome-bleaching-resistance), even though they share some properties of [cells](/en/biology/cells/coral-microbiome-bleaching-resistance).
+A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. This operational framing is consistent with cell-biology reference material available through [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and genetics definitions from [NHGRI](https://www.genome.gov/genetics-glossary). Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not cells, even though they share some properties of cells.
 
 This piece walks through the operational definition rather than the textbook list of organelles, because the textbook list answers a different question.
 
 ## Three requirements
 
-The first requirement is **self-sustenance**: a cell maintains the chemical conditions of its interior in spite of a different chemical environment outside. It does this by spending [energy](/en/physics/energy/perovskite-stack-field-stability). The cell membrane is the boundary across which this work is done, and the chemical asymmetry it maintains — concentration gradients, charge differences, pH — is what makes everything else possible. A cell that loses the ability to sustain its interior chemistry is dead, by definition.
+The first requirement is **self-sustenance**: a cell maintains the chemical conditions of its interior in spite of a different chemical environment outside. It does this by spending energy. The cell membrane is the boundary across which this work is done, and the chemical asymmetry it maintains — concentration gradients, charge differences, pH — is what makes everything else possible. A cell that loses the ability to sustain its interior chemistry is dead, by definition.
 
 The second requirement is **self-replication**: a cell can produce another cell with the same essential properties. This requires storing the information needed for that production (the genome), the machinery to read and act on that information (the ribosomes, the polymerases, the metabolic enzymes), and a mechanism to physically partition the products into a daughter unit. None of these alone is sufficient. A genome that cannot be read is inert; machinery without a genome cannot be reproduced.
 
-The third requirement is **environmental responsiveness**: a cell senses its surroundings and modifies its behavior accordingly. This includes everything from gradient sensing in bacterial chemotaxis to receptor-mediated [signaling](/en/biology/cells/cell-signaling-pathways-basics) in animal cells. Without this, a cell is a chemical reaction in a bag — it can persist for some time, but it cannot adapt, and adaptation is the operational difference between living matter and unusual chemistry.
+The third requirement is **environmental responsiveness**: a cell senses its surroundings and modifies its behavior accordingly. This includes everything from gradient sensing in bacterial chemotaxis to receptor-mediated signaling in animal cells. Without this, a cell is a chemical reaction in a bag — it can persist for some time, but it cannot adapt, and adaptation is the operational difference between living matter and unusual chemistry.
 
 All three are required. Drop any one and you have something interesting that is not a cell.
 
@@ -67,6 +66,12 @@ The operational definition does work in three places.
 ## The takeaway
 
 A cell is the smallest physical unit that sustains itself, copies itself, and responds to its environment. The textbook list of organelles is downstream of those three requirements. When you encounter a biological object and want to know whether it is a cell, run the requirements. The answer is usually clear; when it isn't, the borderline case is itself the interesting object.
+
+## Where the rest of this subtopic goes
+
+Everything above is structure; the articles that follow are the processes that structure exists to run. The [cell membrane](/en/biology/cells/cell-membrane-structure-and-transport) is the boundary that makes a cell a cell, and the transport machinery in it is what a great deal of a cell's energy budget is spent on. That budget is generated by [respiration in the mitochondrion](/en/biology/cells/mitochondria-and-cellular-respiration), and — in organisms that make their own food — captured in the first place by [the photosynthetic apparatus](/en/biology/cells/photosynthesis-explained), whose light reactions and carbon fixation are two very differently constrained steps.
+
+Inside the boundary, the [cytoskeletal filaments](/en/biology/cells/cytoskeleton-and-cell-motility) hold shape and move cargo, [signalling pathways](/en/biology/cells/cell-signaling-pathways-basics) carry information from the outside in, and [cell division](/en/biology/cells/cell-division-mitosis-and-meiosis) is how one cell becomes two — or, in meiosis, how variation is generated for the next generation. [Coral bleaching](/en/biology/cells/coral-microbiome-bleaching-resistance) is included here rather than in ecology because it is a cell-level failure of a symbiosis with ecosystem-level consequences.
 
 ## Sources
 

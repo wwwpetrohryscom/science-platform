@@ -2,7 +2,7 @@
 title: 'Biogeochemical cycles: reservoirs, fluxes, and the arithmetic that makes them comparable'
 excerpt: Carbon, water, and nitrogen move through the planet on wildly different schedules. One ratio — reservoir divided by flux — explains most of the difference.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
 readingTime: 9
@@ -16,6 +16,8 @@ related:
   - carbon-cycle-explained
   - global-water-cycle-explained
   - nitrogen-cycle-explained
+_bodyHash: dc68a194
+pillar: earth-system-science-explained
 ---
 
 Ask why an atom of carbon dioxide matters for centuries while a water molecule in the same parcel of air matters for about nine days, and the answer is not chemistry. It is a ratio. Divide the size of a reservoir by the rate at which material leaves it and you get a [residence time](/en/glossary/residence-time) — the single number that does most of the explanatory work in this part of [Earth system science](/en/ecology/earth-systems/earth-system-science-explained).
@@ -68,7 +70,7 @@ Finally, a residence time is an average over a distribution, not a lifetime. The
 
 1. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Emissions partitioning, airborne fraction, and nitrous oxide residence time.
 2. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). Fast and slow cycle magnitudes and timescales.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Atmospheric water storage and annual turnover.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Atmospheric water storage and annual turnover.
 4. **USGS Water Science School** — [How much water is there on Earth?](https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth). Reservoir sizes for the hydrosphere.
 5. **NOAA Global Monitoring Laboratory** — [Trends in atmospheric greenhouse gases](https://gml.noaa.gov/ccgg/trends/global.html). Observed global concentration records underlying the budgets.
-6. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21). Current global mean concentrations of carbon dioxide, methane, and nitrous oxide.
+6. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21). Current global mean concentrations of carbon dioxide, methane, and nitrous oxide.

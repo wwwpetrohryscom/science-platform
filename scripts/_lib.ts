@@ -200,18 +200,63 @@ export function todayISO(): string {
 }
 
 /**
- * FNV-1a hash of body content. Used to decide whether `updatedDate`
- * should bump on a metadata pass. We are not protecting against
- * collisions; we only need "did the bytes change" with no FS-mtime
- * dependency (which doesn't survive a `git clone`).
+ * FNV-1a hash of a string. Not collision-resistant; we only need
+ * "did this change" with no FS-mtime dependency (mtime does not
+ * survive a `git clone`).
  */
-export function hashBody(body: string): string {
+function fnv1a(input: string): string {
   let h = 0x811c9dc5;
-  for (let i = 0; i < body.length; i++) {
-    h ^= body.charCodeAt(i);
+  for (let i = 0; i < input.length; i++) {
+    h ^= input.charCodeAt(i);
     h = Math.imul(h, 0x01000193);
   }
   return (h >>> 0).toString(16);
+}
+
+/** Raw byte hash of the body. Kept for callers that genuinely want
+ *  "any change at all". Do NOT use it to drive `updatedDate`. */
+export function hashBody(body: string): string {
+  return fnv1a(body);
+}
+
+/**
+ * Hash of the *prose* only — link targets removed, whitespace
+ * normalised.
+ *
+ * `updatedDate` is a public freshness signal: it goes into the
+ * sitemap `lastmod`, the Article JSON-LD `dateModified`, and the
+ * `article:modified_time` meta tag. Bumping it on any byte change
+ * meant that an internal-linking pass or a repaired citation URL
+ * announced an editorial revision that never happened. That is a
+ * false freshness signal, and the fact that it was automated made it
+ * systematic rather than occasional.
+ *
+ * Stripping the link *targets* while keeping the anchor text and the
+ * surrounding prose gives the distinction we actually want:
+ *
+ *   - rewording a paragraph, adding or removing a claim, adding or
+ *     removing a source line  → hash changes → `updatedDate` bumps
+ *   - injecting an internal link around existing words, repointing a
+ *     dead citation at its successor URL  → hash unchanged → no bump
+ *
+ * The anchor text is deliberately retained: changing what a link
+ * *says* changes what the reader is told, and is an editorial change.
+ */
+export function hashProse(body: string): string {
+  const prose = body
+    // [anchor](target) -> anchor  — keep the words, drop the link entirely.
+    // Keeping the brackets made *unlinking* register as a prose change:
+    // removing a link does not change a single word the reader reads, so
+    // it must not bump a published freshness date. A 100-file link
+    // cleanup was dated as 100 editorial revisions before this was fixed.
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    // <https://autolink> -> nothing; the URL is the whole content
+    .replace(/<https?:\/\/[^>]*>/g, "")
+    // bare URLs anywhere else
+    .replace(/https?:\/\/\S+/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return fnv1a(prose);
 }
 
 /** Article URL used by the linker. Mirrors `localizedPath()` from lib/i18n. */

@@ -5,7 +5,7 @@ type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-29'
 updatedDate: '2026-05-20'
-readingTime: 5
+readingTime: 7
 tags:
   - evolution
   - antibiotic-resistance
@@ -15,10 +15,11 @@ related:
   - cell-types-as-units-of-evolution
   - cell-signaling-pathways-basics
   - how-gene-expression-is-regulated
-pillar: cell-types-as-units-of-evolution
+pillar: evolution-explained
+_bodyHash: d8d49c66
 ---
 
-Antimicrobial resistance is one of the clearest contemporary examples of [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) operating on human timescales. The [World Health Organization](https://www.who.int/) treats it as one of the top global public-health threats, the [U.S. Centers for Disease Control and Prevention](https://www.cdc.gov/) tracks resistance threats annually, and the [NIH](https://www.nih.gov/) funds substantial research into mechanisms and counter-strategies.
+Antimicrobial resistance is one of the clearest contemporary examples of [evolution](/en/biology/evolution/evolution-explained) operating on human timescales. The [World Health Organization](https://www.who.int/) treats it as one of the top global public-health threats, the [U.S. Centers for Disease Control and Prevention](https://www.cdc.gov/) tracks resistance threats annually, and the [NIH](https://www.nih.gov/) funds substantial research into mechanisms and counter-strategies.
 
 Beyond the public-health framing, antibiotic resistance is a useful case study for how evolutionary processes actually work — selection, mutation, horizontal gene transfer, and ecological context interacting in a system where the data is unusually rich.
 
@@ -35,13 +36,13 @@ Reference summaries with citations to the underlying [PubMed](https://pubmed.ncb
 
 ## Where the resistance genes come from
 
-A common misreading of antimicrobial resistance is that the genes are "created" by exposure to antibiotics. They are not. Antibiotic-producing organisms in [soil](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) have evolved resistance genes alongside the antibiotics over evolutionary time — the resistance is older than human use. What human use does is select for the spread of pre-existing resistance, not generate it from scratch.
+A common misreading of antimicrobial resistance is that the genes are "created" by exposure to antibiotics. They are not. Antibiotic-producing organisms in soil have evolved resistance genes alongside the antibiotics over evolutionary time — the resistance is older than human use. What human use does is select for the spread of pre-existing resistance, not generate it from scratch.
 
 Three sources contribute to the resistance gene pool in clinical pathogens:
 
 - **De novo mutation in the pathogen genome.** Common for some resistance phenotypes (rifampicin, fluoroquinolones); rare for others.
 - **Horizontal gene transfer from soil and environmental bacteria.** Mediated by plasmids, transposons, and integrons. Most clinical multi-drug resistance phenotypes have an HGT history.
-- **Selection in commensal bacteria, then transfer.** Antibiotics used in [agriculture](/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture) and human medicine select for resistance in commensals; clinical pathogens then acquire those genes through HGT.
+- **Selection in commensal bacteria, then transfer.** Antibiotics used in agriculture and human medicine select for resistance in commensals; clinical pathogens then acquire those genes through HGT.
 
 The interaction of these three is the reason agricultural antibiotic use is a public-health concern even when the drugs used in agriculture are not the same as those used in human medicine — resistance genes do not respect drug-class boundaries.
 
@@ -51,13 +52,13 @@ Resistance is sometimes assumed to disappear once the selection pressure is remo
 
 When resistance is costly to fitness — when the resistant cell grows more slowly than its sensitive counterpart in antibiotic-free conditions — selection in the absence of antibiotic does favour reversion. But many resistance mechanisms are low-cost, and many evolve compensatory mutations that restore growth without removing resistance. The CDC and WHO surveillance data document many resistance phenotypes that have persisted in populations long after the corresponding drug has been deprioritized.
 
-This is one of the cleaner examples of an evolutionary point that is sometimes resisted in non-microbial contexts: a trait that *was* costly can become non-costly through compensatory evolution, after which removing the original selective pressure does not undo the trait. Treating reversibility as automatic is a misreading of [evolution](/en/biology/evolution/cell-types-as-units-of-evolution).
+This is one of the cleaner examples of an evolutionary point that is sometimes resisted in non-microbial contexts: a trait that *was* costly can become non-costly through compensatory evolution, after which removing the original selective pressure does not undo the trait. Treating reversibility as automatic is a misreading of evolution.
 
 ## Why evolution looks fast in microbes
 
 Three properties of bacterial populations make antibiotic resistance evolve on timescales that human observation can resolve:
 
-- **Population size.** A single infection can contain 10⁹–10¹² bacterial [cells](/en/biology/cells/what-is-a-cell). Even rare mutations are present at meaningful frequencies somewhere in the population at any given time.
+- **Population size.** A single infection can contain 10⁹–10¹² bacterial cells. Even rare mutations are present at meaningful frequencies somewhere in the population at any given time.
 - **Generation time.** Bacterial generation times in clinical contexts are typically minutes to hours. Selection has many cycles to act on.
 - **Horizontal gene transfer.** Unlike animals, bacteria routinely exchange genetic material across species boundaries. A resistance gene that arose once can spread through unrelated lineages.
 
@@ -89,7 +90,7 @@ On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed litera
 
 ## What this article does not do
 
-It does not provide medical advice. Decisions about antibiotic prescribing, choice, and duration depend on clinical context and should rest with clinicians and authoritative public-health guidance. The references below are entry points for the underlying biology and [policy](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) science, not substitutes for professional medical sources.
+It does not provide medical advice. Decisions about antibiotic prescribing, choice, and duration depend on clinical context and should rest with clinicians and authoritative public-health guidance. The references below are entry points for the underlying biology and policy science, not substitutes for professional medical sources.
 
 ## Sources
 

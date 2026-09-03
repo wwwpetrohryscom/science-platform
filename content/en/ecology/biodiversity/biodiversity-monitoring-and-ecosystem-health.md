@@ -2,10 +2,10 @@
 title: 'Biodiversity monitoring and ecosystem health: how scientists measure the state of life'
 excerpt: Biodiversity has no single thermometer. This is how scientists track the condition of species and ecosystems — through field surveys, indicators, species databases, remote sensing, and long-term observation — and what each method can and cannot resolve.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-08-29'
-readingTime: 10
+readingTime: 9
 tags:
   - biodiversity
   - monitoring
@@ -18,6 +18,7 @@ related:
   - biodiversity-indicators-explained
   - remote-sensing-for-biodiversity-monitoring
 pillar: why-species-counts-mislead-conservation
+_bodyHash: f7a58a6d
 ---
 
 Climate science has a short list of canonical [indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) — surface temperature, ocean heat, greenhouse-gas concentration, sea level, ice. Biodiversity has no equivalent single number. There is no thermometer for the state of life, because life varies at several levels at once: the genes within a population, the abundance and range of a species, the composition of a community, and the structure and function of an ecosystem. A place can lose individuals while keeping its species list intact, or shift in composition while its total productivity holds steady.
@@ -42,7 +43,7 @@ No single technique covers every dimension. In practice, biodiversity monitoring
 
 **Habitat extent, structure, and condition.** Much of what threatens species is the loss and division of habitat, so a large part of ecosystem monitoring measures the habitat itself — its area, its connectivity, and its condition. [Habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics) quantify how a continuous landscape breaks into smaller, more isolated pieces, while [ecological integrity indicators](/en/ecology/biodiversity/ecological-integrity-indicators) attempt the harder question of whether an ecosystem still has its characteristic composition and processes intact.
 
-**Remote sensing.** Satellites cannot see most species, but they measure ecosystem structure — land cover, forest extent, surface water, vegetation state — consistently and globally. Missions and products from [NASA Earth Observatory](https://earthobservatory.nasa.gov/), [ESA](https://www.esa.int/Applications/Observing_the_Earth), and the [Copernicus Land Monitoring Service](https://land.copernicus.eu/) supply the ecosystem-structure layer that ground surveys cannot scale to. The [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) article explains what these instruments can and cannot infer about biodiversity.
+**Remote sensing.** Satellites cannot see most species, but they measure ecosystem structure — land cover, forest extent, surface water, vegetation state — consistently and globally. Missions and products from [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/), [ESA](https://www.esa.int/Applications/Observing_the_Earth), and the [Copernicus Land Monitoring Service](https://land.copernicus.eu/) supply the ecosystem-structure layer that ground surveys cannot scale to. The [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) article explains what these instruments can and cannot infer about biodiversity.
 
 **Long-term and area-based monitoring.** Finally, much biodiversity data is gathered to evaluate whether protection is working. The [World Database on Protected Areas](https://www.protectedplanet.net/en) records where protected areas are, but coverage is not the same as outcome — the [protected-area effectiveness](/en/ecology/biodiversity/protected-area-effectiveness) article distinguishes the two. Sustained observation also underpins assessments of [ecosystem resilience](/en/ecology/biodiversity/ecosystem-resilience-indicators), the capacity of a system to absorb disturbance without reorganizing into a different state.
 
@@ -86,7 +87,7 @@ Every load-bearing claim in this cluster is attributed to a named authority — 
 
 ## The rest of the cluster
 
-The supporting articles each take one method or metric further: [species richness](/en/ecology/biodiversity/species-richness-explained), [species evenness and diversity](/en/ecology/biodiversity/species-evenness-and-diversity), [biodiversity indicators](/en/ecology/biodiversity/biodiversity-indicators-explained), the [Red List Index](/en/ecology/biodiversity/red-list-index-explained), the [Living Planet Index](/en/ecology/biodiversity/living-planet-index-explained), [habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics), [ecological integrity indicators](/en/ecology/biodiversity/ecological-integrity-indicators), [ecosystem resilience indicators](/en/ecology/biodiversity/ecosystem-resilience-indicators), [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring), [citizen-science biodiversity data](/en/ecology/biodiversity/citizen-science-biodiversity-data), [protected-area effectiveness](/en/ecology/biodiversity/protected-area-effectiveness), and [biodiversity baselines and shifting baselines](/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines). The [Essential Biodiversity Variables](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) piece supplies the framework that ties them together, and the pillar on [species counts](/en/ecology/biodiversity/why-species-counts-mislead-conservation) sets out why the multi-dimensional approach is necessary in the first place.
+The supporting articles each take one method or metric further: species richness, species evenness and diversity, biodiversity indicators, the Red List Index, the Living Planet Index, habitat fragmentation metrics, ecological integrity indicators, ecosystem resilience indicators, remote sensing for biodiversity monitoring, citizen-science biodiversity data, protected-area effectiveness, and biodiversity baselines and shifting baselines. The Essential Biodiversity Variables piece supplies the framework that ties them together, and the pillar on species counts sets out why the multi-dimensional approach is necessary in the first place.
 
 That framework was deliberately modelled on an older one from the physical sciences. The Global Climate Observing System specifies 55 Essential Climate Variables against three criteria — relevance, technical feasibility of sustained global observation, and cost effectiveness — and the biodiversity version borrowed the same insistence that a variable be feasibly observable rather than merely desirable. Reading the two side by side is instructive about how much harder the biological case is: the climate list's ocean-biology subdomain contains just two entries, marine habitats and plankton, against eleven physical ocean variables. The comparison is set out in [Essential Climate Variables](/en/ecology/earth-systems/essential-climate-variables-explained), and the coupled-system context in which biodiversity monitoring sits is the subject of the [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) cluster.
 
@@ -101,6 +102,6 @@ That framework was deliberately modelled on an older one from the physical scien
 7. **UNEP-WCMC and IUCN** — [Protected Planet](https://www.protectedplanet.net/en). Global dataset on protected areas and area-based conservation measures.
 8. **UNEP** — [ecosystems and biodiversity](https://www.unep.org/explore-topics/ecosystems). UN-system programmes on ecosystem and biodiversity monitoring.
 9. **FAO** — [biodiversity](https://www.fao.org/biodiversity/en/). Assessments of agricultural, forest, and genetic-resource biodiversity.
-10. **NASA Earth Observatory** — [land-cover products](https://earthobservatory.nasa.gov/). Satellite inputs for ecosystem-structure variables.
+10. **NASA Earth Observatory** — [land-cover products](https://science.nasa.gov/earth/earth-observatory/). Satellite inputs for ecosystem-structure variables.
 11. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). Earth-observation missions used for habitat and ecosystem-structure monitoring.
 12. **Copernicus Land Monitoring Service** — [land products](https://land.copernicus.eu/). Operational ecosystem-structure indicators.

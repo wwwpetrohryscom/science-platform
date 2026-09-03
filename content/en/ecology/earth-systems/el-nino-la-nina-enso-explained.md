@@ -2,10 +2,10 @@
 title: 'ENSO explained: how a wind–ocean loop in the Pacific reaches the rest of the world'
 excerpt: El Niño and La Niña are the two phases of one coupled oscillation. NOAA defines them with a specific index, a specific box of ocean, and a specific persistence rule.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 10
+updatedDate: '2026-09-03'
+readingTime: 5
 tags:
   - enso
   - el-nino
@@ -17,9 +17,11 @@ related:
   - ocean-circulation-and-climate
   - earth-system-science-explained
   - earth-system-predictability-explained
+_bodyHash: bf499d15
+pillar: earth-system-science-explained
 ---
 
-The single most consequential recurring pattern in the climate system is not a trend. It is an oscillation in the tropical Pacific that reorganises circulation across half the planet every few years, and it exists because the ocean and atmosphere there are coupled tightly enough to push each other.
+The single most consequential recurring pattern in the climate system is not a trend. It is an oscillation in the tropical Pacific that reorganises circulation across half the planet every few years, and it exists because the ocean and atmosphere there are coupled tightly enough to push each other — the clearest everyday demonstration of why [the planet is studied as one system](/en/ecology/earth-systems/earth-system-science-explained) rather than as separate spheres.
 
 ## The neutral state, and why it is unstable
 

@@ -36,6 +36,7 @@ export default async function InsightsIndexPage({ params }: Props) {
   return (
     <Layout locale={locale}>
       <PageHeading
+        locale={locale}
         eyebrow={t("insights.eyebrow")}
         title={t("insights.title")}
         description={t("insights.description")}

@@ -1,8 +1,8 @@
 ---
 title: 'Ocean-colour observations: reading the sea from its colour'
-excerpt: 'The colour of the ocean carries information about the microscopic plants living in it. This explains how satellites estimate phytoplankton from water-leaving light, the missions that have built the record, and why atmospheric correction over water is the hard part.'
+excerpt: The colour of the ocean carries information about the microscopic plants living in it. This explains how satellites estimate phytoplankton from water-leaving light, the missions that have built the record, and why atmospheric correction over water is the hard part.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:
@@ -14,6 +14,9 @@ related:
   - modis-earth-observation-system
   - sentinel-satellites-explained
   - satellite-altimetry-explained
+_bodyHash: 40bd2e4e
+readingTime: 4
+pillar: earth-observation-and-remote-sensing-explained
 ---
 
 The sea is not a uniform blue. Its precise shade, sampled from orbit, carries information about the microscopic plant life drifting near the surface. By measuring the spectrum of light leaving the water, satellites can estimate how much phytoplankton is present, and that estimate has become one of the steadier threads in our [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) of the oceans.
@@ -22,7 +25,7 @@ The sea is not a uniform blue. Its precise shade, sampled from orbit, carries in
 
 Phytoplankton contain chlorophyll-a, the same pigment that makes land plants green. The more of it the surface water holds, the more the water shifts away from deep blue toward green. This is the physical basis of [ocean colour](/en/glossary/ocean-color) remote sensing: instruments measure the light that emerges from just below the sea surface and read its colour to infer what is in the water, chlorophyll-a above all.
 
-These microscopic plants matter out of proportion to their size. They sit at the base of the marine food web, and they take up carbon dioxide as they photosynthesise, so they figure prominently in the ocean carbon cycle. Tracking their abundance lets researchers follow primary productivity, watch algal blooms form and fade, gauge water quality, and look for slower shifts in marine ecosystems. NASA's [Earth Observatory](https://earthobservatory.nasa.gov/) has published a long series of images showing how a single colour signal can be read in all these ways.
+These microscopic plants matter out of proportion to their size. They sit at the base of the marine food web, and they take up carbon dioxide as they photosynthesise, so they figure prominently in the ocean carbon cycle. Tracking their abundance lets researchers follow primary productivity, watch algal blooms form and fade, gauge water quality, and look for slower shifts in marine ecosystems. NASA's [Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) has published a long series of images showing how a single colour signal can be read in all these ways.
 
 ## How the measurement works
 
@@ -52,5 +55,5 @@ Used with that caution, the colour of the sea remains a practical way to watch t
 
 1. **NASA Earthdata** — [ocean colour](https://www.earthdata.nasa.gov/). NASA Ocean Color products and history.
 1. **Copernicus Marine Service** — [ocean colour products](https://marine.copernicus.eu/). Operational ocean-colour data.
-1. **NASA Earth Observatory** — [ocean colour explained](https://earthobservatory.nasa.gov/). How colour reveals phytoplankton.
+1. **NASA Earth Observatory** — [ocean colour explained](https://science.nasa.gov/earth/earth-observatory/). How colour reveals phytoplankton.
 1. **NOAA NESDIS** — [ocean colour](https://www.nesdis.noaa.gov/). NOAA ocean-colour satellite products.
