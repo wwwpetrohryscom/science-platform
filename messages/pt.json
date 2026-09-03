@@ -213,7 +213,9 @@
     "title": "Argumentos que vale a pena defender",
     "description": "As análises são ensaios curtos e estruturados. Cada um defende uma única tese falseável. São escritos para serem discutidos — com clareza, citações e datas.",
     "empty": "Ainda não há análises publicadas.",
-    "category_eyebrow": "Análise · {category}"
+    "category_eyebrow": "Análise · {category}",
+    "insight_kind": "Análise editorial",
+    "insight_kind_note": "Esta é uma síntese argumentada de trabalhos publicados, redigida por {desk}; não é investigação original nem um artigo revisto por pares. A sua tese é uma posição editorial; as provas em que assenta são citadas abaixo e podem ser verificadas de forma independente."
   },
   "discussions": {
     "eyebrow": "Discussões",

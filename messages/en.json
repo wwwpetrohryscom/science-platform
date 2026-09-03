@@ -203,7 +203,9 @@
     "title": "Arguments worth defending",
     "description": "Insights are short, structured essays. Each one stakes a single, falsifiable claim and defends it. They are written to be argued with — clearly, cited, and dated.",
     "empty": "No insights published yet.",
-    "category_eyebrow": "Insight · {category}"
+    "category_eyebrow": "Insight · {category}",
+    "insight_kind": "Editorial analysis",
+    "insight_kind_note": "This is an argued synthesis of published work by the {desk}, not original research and not a peer-reviewed paper. Its claim is the editorial position; the evidence it rests on is cited below and can be checked independently."
   },
   "discussions": {
     "eyebrow": "Discussions",

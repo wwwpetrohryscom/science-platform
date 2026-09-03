@@ -213,7 +213,9 @@
     "title": "Argumente, die es zu verteidigen lohnt",
     "description": "Analysen sind kurze, strukturierte Essays. Jeder vertritt eine einzige, falsifizierbare These. Sie sind zum Diskutieren geschrieben — klar, belegt und datiert.",
     "empty": "Bisher sind keine Analysen veröffentlicht.",
-    "category_eyebrow": "Analyse · {category}"
+    "category_eyebrow": "Analyse · {category}",
+    "insight_kind": "Redaktionelle Analyse",
+    "insight_kind_note": "Dies ist eine argumentierende Synthese veröffentlichter Arbeiten, verfasst von {desk} — keine eigene Forschung und keine begutachtete Publikation. Die These ist eine redaktionelle Position; die Belege, auf denen sie ruht, sind unten zitiert und unabhängig überprüfbar."
   },
   "discussions": {
     "eyebrow": "Diskussionen",

@@ -213,7 +213,9 @@
     "title": "Des arguments à défendre",
     "description": "Les analyses sont de courts essais structurés. Chacun défend une thèse unique et falsifiable. Ils sont écrits pour être discutés — clairement, avec des citations et des dates.",
     "empty": "Aucune analyse publiée pour le moment.",
-    "category_eyebrow": "Analyse · {category}"
+    "category_eyebrow": "Analyse · {category}",
+    "insight_kind": "Analyse éditoriale",
+    "insight_kind_note": "Il s'agit d'une synthèse argumentée de travaux publiés, rédigée par {desk} ; ce n'est ni une recherche originale ni un article évalué par les pairs. Sa thèse est une position éditoriale ; les preuves sur lesquelles elle s'appuie sont citées ci-dessous et peuvent être vérifiées indépendamment."
   },
   "discussions": {
     "eyebrow": "Discussions",

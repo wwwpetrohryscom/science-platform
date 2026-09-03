@@ -295,11 +295,20 @@ export function articleJsonLd(input: {
    *  the byline is a node in the graph rather than a bare string. */
   authorId?: string;
   image?: string;
+  /**
+   * Set for pages that argue a position from published work rather than
+   * reporting it. Emitted as schema.org `genre`, which is the only
+   * machine-readable place to say that a page is analysis — otherwise
+   * an insight and a reference article are the same node type to a
+   * consumer, and the distinction lives only in the prose.
+   */
+  genre?: string;
 }) {
   const image = input.image ?? siteConfig.defaultOgImage;
   return {
     "@context": "https://schema.org",
     "@type": "Article",
+    ...(input.genre ? { genre: input.genre } : {}),
     headline: input.title,
     description: input.description,
     inLanguage: input.inLanguage,

@@ -213,7 +213,9 @@
     "title": "Argumentos que vale la pena defender",
     "description": "Los análisis son ensayos cortos y estructurados. Cada uno defiende una única tesis falsificable. Están escritos para ser discutidos — con claridad, citas y fechas.",
     "empty": "Aún no se han publicado análisis.",
-    "category_eyebrow": "Análisis · {category}"
+    "category_eyebrow": "Análisis · {category}",
+    "insight_kind": "Análisis editorial",
+    "insight_kind_note": "Es una síntesis argumentada de trabajos publicados, elaborada por {desk}; no es investigación original ni un artículo revisado por pares. Su tesis es una posición editorial; las pruebas en que se apoya se citan más abajo y pueden comprobarse de forma independiente."
   },
   "discussions": {
     "eyebrow": "Discusiones",
