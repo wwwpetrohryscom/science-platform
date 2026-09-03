@@ -87,5 +87,5 @@ Ask whether the claim distinguishes **feedback from forcing**. Water vapour is a
 2. **IPCC AR6 WG1, Chapter 4** — [Future global climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/). Long-timescale and irreversible responses that sit outside the fast-feedback framework.
 3. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Biogeochemical feedbacks acting through the carbon cycle.
 4. **NASA** — [Climate change evidence and causes](https://science.nasa.gov/climate-change/). Accessible framing of forcing and response.
-5. **NOAA Climate.gov** — [Climate system explainers](https://www.climate.gov/). Background on the energy budget the feedback parameters modify.
+5. **NOAA Climate.gov** — [Climate system explainers](https://www.noaa.gov/climate). Background on the energy budget the feedback parameters modify.
 6. **World Climate Research Programme** — [Coupled Model Intercomparison Project](https://wcrp-cmip.org/). The multi-model experiments from which model-based feedback estimates are derived.

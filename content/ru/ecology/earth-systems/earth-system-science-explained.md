@@ -107,9 +107,9 @@ _bodyHash: d20ab278
 
 1. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Запас энергии, дисбаланс и приведённые выше оценённые параметры обратных связей.
 2. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Распределение выбросов и атмосферная доля.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Запас воды в атмосфере и годовой оборот.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Запас воды в атмосфере и годовой оборот.
 4. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). Быстрый и медленный круговорот углерода и их временны́е масштабы.
 5. **NOAA National Ocean Service** — [The global conveyor belt](https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html). Глубинная циркуляция и время прохождения полного круга.
 6. **WMO Global Climate Observing System** — [About Essential Climate Variables](https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/about-essential-climate-variables). 55 основных климатических переменных и критерии их отбора.
-7. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21). Глобальные средние концентрации долгоживущих парниковых газов за 2024 год.
+7. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21). Глобальные средние концентрации долгоживущих парниковых газов за 2024 год.
 8. **World Climate Research Programme** — [Coupled Model Intercomparison Project](https://wcrp-cmip.org/). Координация моделей, состав участников и распространение данных.

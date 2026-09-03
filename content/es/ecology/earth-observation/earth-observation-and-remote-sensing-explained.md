@@ -98,7 +98,7 @@ Los artículos de apoyo llevan cada pieza más lejos: [qué es la teledetección
 ## Sources
 
 1. **NASA Earthdata** — [Earth-science data and EOSDIS](https://www.earthdata.nasa.gov/). Puerta de acceso a los archivos de observación de la Tierra de la NASA y a la documentación por nivel de producto.
-2. **NASA Earth Observatory** — [imágenes y artículos explicativos](https://earthobservatory.nasa.gov/). Páginas temáticas sobre cómo se realizan y se usan las mediciones por satélite.
+2. **NASA Earth Observatory** — [imágenes y artículos explicativos](https://science.nasa.gov/earth/earth-observatory/). Páginas temáticas sobre cómo se realizan y se usan las mediciones por satélite.
 3. **USGS** — [Landsat missions](https://www.usgs.gov/landsat-missions). Historia, sensores y registro continuo de la superficie terrestre (junto con la NASA).
 4. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). Misiones e instrumentos europeos de observación de la Tierra.
 5. **Copernicus** — [EU Earth-observation programme](https://www.copernicus.eu/en). Los Sentinel y los servicios Copernicus.

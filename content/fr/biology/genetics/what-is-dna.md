@@ -24,7 +24,7 @@ faq:
 _bodyHash: b16db15f
 ---
 
-L'ADN — l'acide désoxyribonucléique — est un code moléculaire à quatre lettres qui stocke l'information génétique, comme le résume le [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Il est le support de l'hérédité et le substrat sur lequel [l'évolution opère](/fr/biology/evolution/cell-types-as-units-of-evolution). Il est aussi couramment surestimé dans le discours grand public, d'une manière que la biologie réelle ne justifie pas.
+L'ADN — l'acide désoxyribonucléique — est un code moléculaire à quatre lettres qui stocke l'information génétique, comme le résume le [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Il est le support de l'hérédité et le substrat sur lequel [l'évolution opère](/fr/biology/evolution/cell-types-as-units-of-evolution). Il est aussi couramment surestimé dans le discours grand public, d'une manière que la biologie réelle ne justifie pas.
 
 Cet article passe en revue ce qu'est l'ADN, ce qu'il fait, et l'ensemble tout aussi important des choses qu'il ne fait pas.
 
@@ -74,7 +74,7 @@ La position la plus défendable sur l'ADN dans le débat public contemporain tie
 
 ## Sources
 
-1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Définition de l'ADN et de l'information génétique par le National Human Genome Research Institute.
+1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Définition de l'ADN et de l'information génétique par le National Human Genome Research Institute.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminologie de la génétique et définitions de génomique destinées au public.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Ouvrages de référence en biologie moléculaire, en génétique et sur la fonction du génome.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Index de la littérature évaluée par les pairs en génétique et en génomique.

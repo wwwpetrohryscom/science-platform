@@ -24,7 +24,7 @@ faq:
 _bodyHash: 9def44dd
 ---
 
-ДНК — дезоксирибонуклеиновая кислота — это четырёхбуквенный молекулярный код, хранящий генетическую информацию, как резюмирует [Национальный институт исследования генома человека](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Она — носитель наследственности и субстрат, на котором [действует эволюция](/ru/biology/evolution/cell-types-as-units-of-evolution). При этом в популярных обсуждениях ей регулярно приписывают больше, чем подтверждает реальная биология.
+ДНК — дезоксирибонуклеиновая кислота — это четырёхбуквенный молекулярный код, хранящий генетическую информацию, как резюмирует [Национальный институт исследования генома человека](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Она — носитель наследственности и субстрат, на котором [действует эволюция](/ru/biology/evolution/cell-types-as-units-of-evolution). При этом в популярных обсуждениях ей регулярно приписывают больше, чем подтверждает реальная биология.
 
 В этой статье разбирается, что такое ДНК, что она делает и — что не менее важно — чего она не делает.
 
@@ -74,7 +74,7 @@ _bodyHash: 9def44dd
 
 ## Sources
 
-1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Определение ДНК и генетической информации, данное Национальным институтом исследования генома человека.
+1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Определение ДНК и генетической информации, данное Национальным институтом исследования генома человека.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Терминология генетики и определения из геномики, адресованные широкой аудитории.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Справочные издания по молекулярной биологии, генетике и функциям генома.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Указатель рецензируемой литературы по генетике и геномике.

@@ -101,12 +101,12 @@ There is also a layer *beneath* the indicators, and it is worth naming because t
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/), Intergovernmental Panel on Climate Change (2021). Authoritative review of climate indicators, attribution, and the multiple-lines-of-evidence framework.
 2. **IPCC** — [AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/ar6/syr/). Integrates indicator findings across the three working groups.
-3. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate-2024), World Meteorological Organization. Annual key-indicator assessment used by the UN climate system.
+3. **WMO** — [State of the Global Climate 2024](https://public.wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2024), World Meteorological Organization. Annual key-indicator assessment used by the UN climate system.
 4. **NOAA NCEI** — [State of the Climate](https://www.ncei.noaa.gov/), National Centers for Environmental Information. Annual U.S. assessment of global temperature, ocean, sea-level, and related indicators.
-5. **NOAA Climate.gov** — [Climate indicators and explainer products](https://www.climate.gov/). Public-facing companion to NOAA's monitoring and assessment.
+5. **NOAA Climate.gov** — [Climate indicators and explainer products](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring and assessment.
 6. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse-gas measurements and the Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Operational greenhouse-gas concentration records.
-7. **NASA Global Climate Change** — [Vital signs and indicator dashboard](https://climate.nasa.gov/). Public time series for the major climate indicators.
-8. **NASA Earth Observatory** — [Indicator-level imagery and explainers](https://earthobservatory.nasa.gov/). Topic pages for energy balance, sea level, and ice.
+7. **NASA Global Climate Change** — [Vital signs and indicator dashboard](https://science.nasa.gov/climate-change/). Public time series for the major climate indicators.
+8. **NASA Earth Observatory** — [Indicator-level imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Topic pages for energy balance, sea level, and ice.
 9. **Copernicus Climate Change Service** — [Global Climate Highlights and indicator products](https://climate.copernicus.eu/), ECMWF / European Commission. European reanalysis-based products and annual assessments.
 10. **U.S. Environmental Protection Agency** — [Climate change science](https://www.epa.gov/climatechange-science). U.S. federal overview of climate science and impacts. The agency's separate indicator collection was withdrawn from publication; the datasets it drew on remain available from NOAA and NASA.
 11. **European Environment Agency** — [Climate change impacts, risks and adaptation](https://www.eea.europa.eu/en/topics/in-depth/climate-change-impacts-risks-and-adaptation). European regional indicator assessments.

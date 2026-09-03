@@ -31,7 +31,7 @@ The trade-off behind that frequency is built into the optics. Each instrument ca
 
 The instrument observes in 36 spectral bands, spanning the visible, near-infrared, and thermal-infrared parts of the spectrum. Different bands are recorded at different spatial resolutions, reflecting what each is meant to measure. Two bands are collected at 250 metres, five at 500 metres, and the remaining bands at 1 kilometre. The finer 250- and 500-metre bands support land and vegetation work where a little more spatial detail helps, while the 1-kilometre bands serve measurements — such as surface temperature and atmospheric properties — where frequent, broad coverage matters more than sharpness.
 
-This is a deliberate engineering choice rather than a shortcoming. By accepting coarser pixels, the design buys a very wide swath and the near-daily revisit that makes the data useful for watching change as it happens. The signal each band records is calibrated reflected sunlight or emitted thermal radiation; the surface conditions of interest are inferred from how those values vary in space and time. NASA's [Earth Observatory](https://earthobservatory.nasa.gov/) regularly publishes imagery showing how these observations are read.
+This is a deliberate engineering choice rather than a shortcoming. By accepting coarser pixels, the design buys a very wide swath and the near-daily revisit that makes the data useful for watching change as it happens. The signal each band records is calibrated reflected sunlight or emitted thermal radiation; the surface conditions of interest are inferred from how those values vary in space and time. NASA's [Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) regularly publishes imagery showing how these observations are read.
 
 ## What MODIS measures: the standard products
 
@@ -54,6 +54,6 @@ Handing a long observational record from one sensor to another is not automatic.
 ## Sources
 
 1. **NASA Earthdata** — [MODIS data](https://www.earthdata.nasa.gov/). MODIS products and documentation.
-1. **NASA Earth Observatory** — [MODIS imagery](https://earthobservatory.nasa.gov/). How MODIS observations are used.
+1. **NASA Earth Observatory** — [MODIS imagery](https://science.nasa.gov/earth/earth-observatory/). How MODIS observations are used.
 1. **NASA** — [Terra and Aqua](https://science.nasa.gov/). The satellites carrying MODIS.
 1. **NOAA NESDIS** — [VIIRS](https://www.nesdis.noaa.gov/). Operates the VIIRS successor instruments.

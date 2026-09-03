@@ -87,4 +87,4 @@ The EBV framework is the apparatus that lets [biodiversity science](/en/ecology/
 3. **European Environment Agency** — [Biodiversity: state of habitats and species](https://www.eea.europa.eu/en/topics/in-depth/biodiversity). European regional assessment with EBV-aligned indicators and reporting.
 4. **Food and Agriculture Organization** — [State of the World's Forests](https://www.fao.org/). Forest-cover and forest-quality reporting that maps onto ecosystem-structure variables.
 5. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/). Climate-system context for biodiversity monitoring, particularly for species range and phenology variables.
-6. **NASA Earth Observatory** — [Land-cover and vegetation products](https://earthobservatory.nasa.gov/). Satellite-derived inputs for ecosystem-structure variables (forest cover, surface water, wetlands).
+6. **NASA Earth Observatory** — [Land-cover and vegetation products](https://science.nasa.gov/earth/earth-observatory/). Satellite-derived inputs for ecosystem-structure variables (forest cover, surface water, wetlands).

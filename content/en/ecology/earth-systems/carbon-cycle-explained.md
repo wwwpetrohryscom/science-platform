@@ -74,5 +74,5 @@ These uncertainties matter beyond science reporting: the same measurement proble
 2. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). Rock reservoir size, slow-cycle timescales, and volcanic emissions.
 3. **NOAA Global Monitoring Laboratory** — [Global CO₂ growth rates](https://gml.noaa.gov/ccgg/trends/gl_gr.html). Annual global mean growth rate record.
 4. **NOAA Global Monitoring Laboratory** — [Trends in atmospheric carbon dioxide](https://gml.noaa.gov/ccgg/trends/global.html). Global marine-surface CO₂ record and its calibration caveats.
-5. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21). Global mean CO₂ for 2024 and change since the pre-industrial era.
+5. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21). Global mean CO₂ for 2024 and change since the pre-industrial era.
 6. **NOAA Climate.gov** — [Climate change: atmospheric carbon dioxide](https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide). Explanatory treatment of the observed record.

@@ -24,7 +24,7 @@ faq:
 _bodyHash: a4629471
 ---
 
-Die DNA – Desoxyribonukleinsäure – ist ein molekularer Code aus vier Buchstaben, der genetische Information speichert, wie das [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid) zusammenfasst. Sie ist der Träger der Vererbung und das Substrat, auf dem die [Evolution arbeitet](/de/biology/evolution/cell-types-as-units-of-evolution). Sie wird in der öffentlichen Debatte außerdem regelmäßig überzeichnet, und zwar auf eine Weise, die von der tatsächlichen Biologie nicht gedeckt ist.
+Die DNA – Desoxyribonukleinsäure – ist ein molekularer Code aus vier Buchstaben, der genetische Information speichert, wie das [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA) zusammenfasst. Sie ist der Träger der Vererbung und das Substrat, auf dem die [Evolution arbeitet](/de/biology/evolution/cell-types-as-units-of-evolution). Sie wird in der öffentlichen Debatte außerdem regelmäßig überzeichnet, und zwar auf eine Weise, die von der tatsächlichen Biologie nicht gedeckt ist.
 
 Dieser Artikel geht durch, was die DNA ist, was sie leistet und welche ebenso wichtigen Dinge sie nicht leistet.
 
@@ -74,7 +74,7 @@ Die im heutigen öffentlichen Diskurs am besten haltbare Position zur DNA lautet
 
 ## Sources
 
-1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Definition der DNA und der genetischen Information durch das National Human Genome Research Institute.
+1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Definition der DNA und der genetischen Information durch das National Human Genome Research Institute.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminologie der Genetik und allgemeinverständliche Definitionen aus der Genomforschung.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Referenzwerke zur Molekularbiologie, zur Genetik und zur Genomfunktion.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Index der begutachteten Literatur zu Genetik und Genomik.

@@ -37,7 +37,7 @@ A common shorthand is to convert methane and other gases into "CO₂-equivalent"
 
 CO₂ has a long atmospheric lifetime — a fraction of any pulse remains airborne for centuries because removal depends on slow exchange with the deep [ocean](/en/ecology/climate-change/ocean-heat-content-indicators) and rock weathering. Methane has a roughly 12-year lifetime in the troposphere because it is oxidized to CO₂ and water by hydroxyl radicals. Per molecule, methane is a much stronger absorber than CO₂ over its lifetime; per unit emitted, its forcing is concentrated in the first decade or two and then decays.
 
-This is why GWP-100 ranks methane as roughly 28× CO₂ on a 100-year basis but GWP-20 ranks it as roughly 80× — the choice of integration window changes the equivalence. The per-gas concentration records to check first are NOAA's [long-term trend series](https://gml.noaa.gov/ccgg/trends/), summarised for a general audience by [NASA Climate](https://climate.nasa.gov/).
+This is why GWP-100 ranks methane as roughly 28× CO₂ on a 100-year basis but GWP-20 ranks it as roughly 80× — the choice of integration window changes the equivalence. The per-gas concentration records to check first are NOAA's [long-term trend series](https://gml.noaa.gov/ccgg/trends/), summarised for a general audience by [NASA Climate](https://science.nasa.gov/climate-change/).
 
 Reading "CO₂-equivalent" without checking the integration window is reading half the unit.
 
@@ -85,7 +85,7 @@ Two specific items remain open in the operational literature. Methane source att
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I)](https://www.ipcc.ch/report/ar6/wg1/). The authoritative assessment of radiative forcing, climate sensitivity, and the response of the climate system.
 2. **NOAA Global Monitoring Laboratory** — [Long-term greenhouse gas measurements](https://gml.noaa.gov/) and the [Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/). Continuous in-situ measurements of CO₂, methane, nitrous oxide, and halocarbons that anchor the forcing estimates, plus the operational AGGI summary of direct radiative forcing.
-3. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://climate.nasa.gov/). Topic-level reference on greenhouse gases, energy balance, and observational records.
-4. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.climate.gov/). Public-facing companion to NOAA's monitoring and assessment products.
+3. **NASA Global Climate Change** — [Vital signs and forcing-related explainers](https://science.nasa.gov/climate-change/). Topic-level reference on greenhouse gases, energy balance, and observational records.
+4. **NOAA Climate.gov** — [Climate explainers and indicator products](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring and assessment products.
 5. **World Meteorological Organization** — [Greenhouse Gas Bulletin](https://wmo.int/). Annual report on globally averaged abundances of long-lived greenhouse gases.
 6. **Copernicus Climate Change Service** — [Greenhouse gas indicators](https://climate.copernicus.eu/). European-led satellite and in-situ products tracking CO₂, methane, and nitrous oxide.

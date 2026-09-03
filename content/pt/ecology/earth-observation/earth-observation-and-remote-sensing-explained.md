@@ -98,7 +98,7 @@ Os artigos de apoio levam cada peça mais longe: [o que é a deteção remota](/
 ## Sources
 
 1. **NASA Earthdata** — [Earth-science data and EOSDIS](https://www.earthdata.nasa.gov/). Porta de entrada para os arquivos de observação da Terra da NASA e para a documentação por nível de produto.
-2. **NASA Earth Observatory** — [imagens e artigos explicativos](https://earthobservatory.nasa.gov/). Páginas temáticas sobre como são feitas e usadas as medições por satélite.
+2. **NASA Earth Observatory** — [imagens e artigos explicativos](https://science.nasa.gov/earth/earth-observatory/). Páginas temáticas sobre como são feitas e usadas as medições por satélite.
 3. **USGS** — [Landsat missions](https://www.usgs.gov/landsat-missions). História, sensores e o registo contínuo da superfície terrestre (com a NASA).
 4. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). Missões e instrumentos europeus de observação da Terra.
 5. **Copernicus** — [EU Earth-observation programme](https://www.copernicus.eu/en). Os Sentinel e os serviços Copernicus.

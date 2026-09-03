@@ -98,7 +98,7 @@ Les articles qui s'y rattachent poussent chaque élément plus loin : [qu'est-ce
 ## Sources
 
 1. **NASA Earthdata** — [Earth-science data and EOSDIS](https://www.earthdata.nasa.gov/). Porte d'entrée des archives d'observation de la Terre de la NASA et de la documentation des produits par niveau.
-2. **NASA Earth Observatory** — [imagery and explainers](https://earthobservatory.nasa.gov/). Pages thématiques sur la manière dont les mesures satellitaires sont faites et utilisées.
+2. **NASA Earth Observatory** — [imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Pages thématiques sur la manière dont les mesures satellitaires sont faites et utilisées.
 3. **USGS** — [Landsat missions](https://www.usgs.gov/landsat-missions). Histoire, capteurs et série continue de la surface continentale (avec la NASA).
 4. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). Missions et instruments européens d'observation de la Terre.
 5. **Copernicus** — [EU Earth-observation programme](https://www.copernicus.eu/en). Les Sentinel et les services Copernicus.

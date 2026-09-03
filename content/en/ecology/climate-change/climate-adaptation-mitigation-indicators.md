@@ -89,4 +89,4 @@ Action indicators are the layer that connects [physical-climate indicators](/en/
 5. **U.S. Environmental Protection Agency** — [Inventory of U.S. Greenhouse Gas Emissions and Sinks](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks). U.S. domestic emissions inventory.
 6. **European Environment Agency** — [Climate change impacts, risks and adaptation](https://www.eea.europa.eu/en/topics/in-depth/climate-change-impacts-risks-and-adaptation). European adaptation and mitigation tracking.
 7. **WMO** — [State of the Global Climate](https://wmo.int/). International annual climate-indicator and policy-context assessment.
-8. **NOAA Climate.gov** — [Greenhouse-gas, mitigation, and policy-relevant explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products.
+8. **NOAA Climate.gov** — [Greenhouse-gas, mitigation, and policy-relevant explainers](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring products.

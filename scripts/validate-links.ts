@@ -187,13 +187,40 @@ const KNOWN_BOT_BLOCKERS = [
   "ametsoc.org",
 ];
 
-/** Normalise for the "did the redirect take us somewhere else" test.
- *  Locale selectors, trailing slashes, tracking params and http→https
- *  are not drift; a different path is. */
+/**
+ * Normalise for the "did the redirect take us somewhere else" test.
+ *
+ * Trailing slashes, /index.html, http→https and `www.` are not drift.
+ * Neither are the two interstitials publishers put in front of a page
+ * that is otherwise exactly where the citation said it was:
+ *
+ *   - Nature routes every article through
+ *     `idp.nature.com/transit?redirect_uri=<the article>&code=<uuid>`,
+ *     a per-request cookie-consent token. Reporting each of those as
+ *     drift produced 40 lines of noise in a 65-line report, which is
+ *     how a reader learns to skip the whole section.
+ *   - EU and UN sites redirect a bare URL to a language selector
+ *     (`/select-language?destination=…`, `/en`, `/home`).
+ *
+ * Both are unwrapped to the destination the citation actually names.
+ * A different path after that is genuine drift and gets reported.
+ */
 function normalizeForDrift(u: string): string {
   try {
-    const url = new URL(u);
-    const p = url.pathname.replace(/\/index\.html?$/, "/").replace(/\/+$/, "");
+    let url = new URL(u);
+    // Unwrap a consent/redirect interstitial back to its target.
+    const wrapped = url.searchParams.get("redirect_uri") ?? url.searchParams.get("destination");
+    if (wrapped) {
+      try {
+        url = new URL(wrapped, url.origin);
+      } catch {
+        /* leave as-is */
+      }
+    }
+    const p = url.pathname
+      .replace(/\/index\.html?$/, "/")
+      .replace(/\/(en|home)$/, "")
+      .replace(/\/+$/, "");
     return `${url.hostname.replace(/^www\./, "")}${p}`.toLowerCase();
   } catch {
     return u.toLowerCase();
@@ -222,7 +249,20 @@ function classify(status: number, url: string, finalUrl: string): CheckResult {
     };
   }
   if (status >= 200 && status < 400) {
-    if (normalizeForDrift(url) !== normalizeForDrift(finalUrl)) {
+    // A DOI resolving to its publisher is the DOI working, not drift —
+    // the whole point of the identifier is that the destination may move.
+    const isDoi = /(^|\.)doi\.org$/.test(safeHost(url) ?? "");
+    // Some hosts answer a scripted client with a bot-challenge page
+    // instead of the article. That is a block, and it is already
+    // reported as one; calling it drift as well doubles the noise.
+    const challenged =
+      /validate\.perfdrive\.com|error=cookies_not_supported|\/cdn-cgi\/challenge/.test(
+        finalUrl,
+      );
+    if (challenged) {
+      return { ...base, state: "blocked", detail: "bot-challenge interstitial" };
+    }
+    if (!isDoi && normalizeForDrift(url) !== normalizeForDrift(finalUrl)) {
       return { ...base, state: "drifted", detail: `redirects to ${finalUrl}` };
     }
     return { ...base, state: "ok" };

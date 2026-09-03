@@ -27,7 +27,7 @@ This perspective is the bridge between [solar radiation physics](/en/physics/ene
 
 A Carnot engine extracts work from a temperature difference between a hot reservoir and a cold reservoir. The maximum efficiency is set by the temperatures alone: η = 1 − T_cold/T_hot.
 
-The Earth-as-engine analogy is approximate — the planet is not in steady state in the strict thermodynamic sense, and irreversibilities throughout the system reduce its efficiency far below the Carnot bound — but it is the right starting point. The hot reservoir is the absorbed solar radiation; the cold reservoir is space. The engine produces atmospheric circulation, ocean circulation, and the kinetic energy of weather systems. The numbers are documented in [NASA Earth Observatory](https://earthobservatory.nasa.gov/) energy-budget [materials](/en/physics/energy/perovskite-stack-field-stability) and in the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) chapter on the energy budget.
+The Earth-as-engine analogy is approximate — the planet is not in steady state in the strict thermodynamic sense, and irreversibilities throughout the system reduce its efficiency far below the Carnot bound — but it is the right starting point. The hot reservoir is the absorbed solar radiation; the cold reservoir is space. The engine produces atmospheric circulation, ocean circulation, and the kinetic energy of weather systems. The numbers are documented in [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) energy-budget [materials](/en/physics/energy/perovskite-stack-field-stability) and in the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) chapter on the energy budget.
 
 The atmosphere converts on the order of a few percent of absorbed solar energy into the kinetic energy of winds. This is far below the Carnot maximum because most absorbed energy is dissipated as heat — frictional, radiative, and turbulent — before it can be organized into bulk flow. The fact that the conversion happens at all is what produces weather; the fact that it is inefficient is why the atmosphere is a turbulent, chaotic system rather than a clockwork.
 
@@ -47,7 +47,7 @@ The greenhouse effect is sometimes described as the atmosphere "trapping heat". 
 
 This framing makes several things clearer. It explains why the warming response is not bounded by saturation — adding more greenhouse gas continues to raise the effective emission altitude even when the absorption bands are saturated near the surface. It explains why the [climate response](/en/ecology/climate-change/what-is-climate-change) operates on the timescale of the ocean, not the atmosphere — the surface temperature has to rise enough to push the radiating altitude back to where outgoing longwave matches absorbed shortwave, and most of the heat capacity is in the ocean.
 
-The accounting is reviewed in detail in the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) chapter on the energy budget, climate feedbacks, and climate sensitivity, and the [NASA Earth Observatory](https://earthobservatory.nasa.gov/) explanation of the greenhouse effect.
+The accounting is reviewed in detail in the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) chapter on the energy budget, climate feedbacks, and climate sensitivity, and the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) explanation of the greenhouse effect.
 
 ## The thermodynamic limit on photovoltaics
 
@@ -76,8 +76,8 @@ Two caveats.
 ## Sources
 
 1. **IPCC** — [AR6 Working Group I, Chapter 7](https://www.ipcc.ch/report/ar6/wg1/). The Earth's energy budget, climate feedbacks, and climate sensitivity.
-2. **NASA Earth Observatory** — [Earth's energy budget](https://earthobservatory.nasa.gov/). Topic-level reference on the components of the planetary energy budget.
-3. **NASA Climate** — [Climate vital signs](https://climate.nasa.gov/). Public-facing reference on energy-imbalance indicators.
-4. **NOAA Climate.gov** — [Energy budget explainers](https://www.climate.gov/). Methodology pages on climate energy bookkeeping.
+2. **NASA Earth Observatory** — [Earth's energy budget](https://science.nasa.gov/earth/earth-observatory/). Topic-level reference on the components of the planetary energy budget.
+3. **NASA Climate** — [Climate vital signs](https://science.nasa.gov/climate-change/). Public-facing reference on energy-imbalance indicators.
+4. **NOAA Climate.gov** — [Energy budget explainers](https://www.noaa.gov/climate). Methodology pages on climate energy bookkeeping.
 5. **National Laboratory of the Rockies** — [Best research-cell efficiency chart](https://www.nlr.gov/pv/cell-efficiency). Confirmed champion-cell efficiencies by technology, 1976 to present.
 6. **NIST** — [Physical constants and measurement standards](https://www.nist.gov/). Reference quantities underpinning radiometric and thermodynamic measurements.

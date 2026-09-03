@@ -98,7 +98,7 @@ The supporting articles take each piece further: [what is remote sensing](/en/ec
 ## Sources
 
 1. **NASA Earthdata** — [Earth-science data and EOSDIS](https://www.earthdata.nasa.gov/). Gateway to NASA's Earth-observation archives and product-level documentation.
-2. **NASA Earth Observatory** — [imagery and explainers](https://earthobservatory.nasa.gov/). Topic pages on how satellite measurements are made and used.
+2. **NASA Earth Observatory** — [imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Topic pages on how satellite measurements are made and used.
 3. **USGS** — [Landsat missions](https://www.usgs.gov/landsat-missions). History, sensors, and the continuous land-surface record (with NASA).
 4. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). European Earth-observation missions and instruments.
 5. **Copernicus** — [EU Earth-observation programme](https://www.copernicus.eu/en). The Sentinels and the Copernicus services.

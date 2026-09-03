@@ -107,9 +107,9 @@ Les articles qui composent ce groupe découpent le cadre en morceaux utilisables
 
 1. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Inventaire énergétique, déséquilibre et paramètres de rétroaction évalués cités plus haut.
 2. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Répartition des émissions et fraction atmosphérique.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Stock atmosphérique d'eau et renouvellement annuel.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Stock atmosphérique d'eau et renouvellement annuel.
 4. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). Cycles rapide et lent du carbone et leurs échelles de temps.
 5. **NOAA National Ocean Service** — [The global conveyor belt](https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html). Circulation profonde et durée d'un circuit complet.
 6. **WMO Global Climate Observing System** — [About Essential Climate Variables](https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/about-essential-climate-variables). Les 55 variables climatiques essentielles et leurs critères de sélection.
-7. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21). Concentrations moyennes mondiales des gaz à effet de serre à longue durée de vie pour 2024.
+7. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21). Concentrations moyennes mondiales des gaz à effet de serre à longue durée de vie pour 2024.
 8. **World Climate Research Programme** — [Coupled Model Intercomparison Project](https://wcrp-cmip.org/). Coordination des modèles, participation et diffusion des données.

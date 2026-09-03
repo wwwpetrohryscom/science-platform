@@ -70,7 +70,7 @@ Finally, a residence time is an average over a distribution, not a lifetime. The
 
 1. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Emissions partitioning, airborne fraction, and nitrous oxide residence time.
 2. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). Fast and slow cycle magnitudes and timescales.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Atmospheric water storage and annual turnover.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Atmospheric water storage and annual turnover.
 4. **USGS Water Science School** — [How much water is there on Earth?](https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth). Reservoir sizes for the hydrosphere.
 5. **NOAA Global Monitoring Laboratory** — [Trends in atmospheric greenhouse gases](https://gml.noaa.gov/ccgg/trends/global.html). Observed global concentration records underlying the budgets.
-6. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21). Current global mean concentrations of carbon dioxide, methane, and nitrous oxide.
+6. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21). Current global mean concentrations of carbon dioxide, methane, and nitrous oxide.

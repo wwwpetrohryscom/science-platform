@@ -25,7 +25,7 @@ The numbers are well-established. The structure of the budget — what is well-k
 
 ## Top-of-atmosphere quantities
 
-The starting numbers, summarized by [NASA Earth Observatory](https://earthobservatory.nasa.gov/), [NASA Climate](https://climate.nasa.gov/), and [NOAA Climate.gov](https://www.climate.gov/):
+The starting numbers, summarized by [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/), [NASA Climate](https://science.nasa.gov/climate-change/), and [NOAA Climate.gov](https://www.noaa.gov/climate):
 
 - **Solar irradiance at the top of the atmosphere** (the solar "constant", which varies slightly): approximately 1361 W/m² perpendicular to the Sun's rays.
 - **Average over Earth's surface** (accounting for the planet being a rotating sphere): approximately 340 W/m² averaged over the full sphere day-and-night.
@@ -71,9 +71,9 @@ Two quantities in the energy budget are well-constrained; one is not.
 
 ## Recent evidence and updated context
 
-The satellite top-of-atmosphere imbalance record, produced by the CERES instrument suite, continues to indicate a positive Earth energy imbalance of roughly 1 W/m² when averaged over the most recent multi-year window. The ocean uptake record from [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) datasets closes the budget within stated uncertainties, which is the cross-check that gives the imbalance estimate its weight. The companion [NASA CERES mission documentation](https://www.nasa.gov/) and [NOAA Climate.gov](https://www.climate.gov/) explainers describe the calibration and uncertainty structure of the radiometric record.
+The satellite top-of-atmosphere imbalance record, produced by the CERES instrument suite, continues to indicate a positive Earth energy imbalance of roughly 1 W/m² when averaged over the most recent multi-year window. The ocean uptake record from [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) datasets closes the budget within stated uncertainties, which is the cross-check that gives the imbalance estimate its weight. The companion [NASA CERES mission documentation](https://www.nasa.gov/) and [NOAA Climate.gov](https://www.noaa.gov/climate) explainers describe the calibration and uncertainty structure of the radiometric record.
 
-CERES EBAF (Energy Balanced and Filled) products document an upward trend in the imbalance over the past two decades — the planet is not just out of balance, the imbalance has been growing. The trend is corroborated by independent OHC products, which is what makes it a load-bearing observation rather than a single-instrument artefact. A live area of analysis, documented in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature and discussed in [NASA Earth Observatory](https://earthobservatory.nasa.gov/) explainers, concerns how much of the recent change reflects reduced reflective aerosols (including the post-2020 IMO sulfur cap on marine fuels) unmasking pre-existing greenhouse-gas warming, versus other feedback contributions. The accounting is being narrowed but is not settled.
+CERES EBAF (Energy Balanced and Filled) products document an upward trend in the imbalance over the past two decades — the planet is not just out of balance, the imbalance has been growing. The trend is corroborated by independent OHC products, which is what makes it a load-bearing observation rather than a single-instrument artefact. A live area of analysis, documented in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature and discussed in [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) explainers, concerns how much of the recent change reflects reduced reflective aerosols (including the post-2020 IMO sulfur cap on marine fuels) unmasking pre-existing greenhouse-gas warming, versus other feedback contributions. The accounting is being narrowed but is not settled.
 
 Recent work documented in [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) Chapter 7 and follow-on analyses continues to refine cloud-feedback estimates; the central value remains positive — AR6 assesses the net cloud feedback at +0.42 W/m² per °C, very likely range −0.10 to +0.94 — and the uncertainty range has narrowed somewhat without resolving the spread fully.
 
@@ -81,7 +81,7 @@ The same assessment gives the accumulated quantity, which is the more robust sta
 
 ## Methods note
 
-Top-of-atmosphere energy budget estimates rest primarily on satellite radiometry. The [NASA Earth Observatory](https://earthobservatory.nasa.gov/) and [NASA](https://www.nasa.gov/) mission pages document the instruments — CERES, MISR, MODIS, AIRS — that contribute. Surface energy budget estimates combine in-situ flux measurements (FLUXNET, baseline surface radiation network), satellite-derived surface temperature, and reanalyses produced by [ECMWF Copernicus](https://climate.copernicus.eu/) and partner agencies.
+Top-of-atmosphere energy budget estimates rest primarily on satellite radiometry. The [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) and [NASA](https://www.nasa.gov/) mission pages document the instruments — CERES, MISR, MODIS, AIRS — that contribute. Surface energy budget estimates combine in-situ flux measurements (FLUXNET, baseline surface radiation network), satellite-derived surface temperature, and reanalyses produced by [ECMWF Copernicus](https://climate.copernicus.eu/) and partner agencies.
 
 ## Why this framing matters
 
@@ -91,10 +91,10 @@ The accounting is the physics. The [applications](/en/physics/quantum-basics/qua
 
 ## Sources
 
-1. **NASA Earth Observatory** — [Earth's energy budget](https://earthobservatory.nasa.gov/). Topic-level reference on solar irradiance, albedo, and outgoing longwave.
-2. **NASA Climate** — [Climate vital signs and explainers](https://climate.nasa.gov/). Public-facing reference on Earth energy balance and climate indicators.
-3. **NOAA Climate.gov** — [Energy budget and indicator products](https://www.climate.gov/). Methodology and explainer pages on climate energy bookkeeping.
+1. **NASA Earth Observatory** — [Earth's energy budget](https://science.nasa.gov/earth/earth-observatory/). Topic-level reference on solar irradiance, albedo, and outgoing longwave.
+2. **NASA Climate** — [Climate vital signs and explainers](https://science.nasa.gov/climate-change/). Public-facing reference on Earth energy balance and climate indicators.
+3. **NOAA Climate.gov** — [Energy budget and indicator products](https://www.noaa.gov/climate). Methodology and explainer pages on climate energy bookkeeping.
 4. **IPCC** — [AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/), Chapter 7 (The Earth's energy budget, climate feedbacks and climate sensitivity). Authoritative assessment of the components.
 5. **National Laboratory of the Rockies** — [Reference air mass 1.5 spectra](https://www.nlr.gov/grid/solar-resource/spectra-am1.5). Reference spectra and surface-irradiance data products for solar applications.
-6. **U.S. Department of Energy Solar Energy Technologies Office** — [Solar irradiance reference](https://www.energy.gov/eere/solar). Industry reference for solar resource quantification.
+6. **U.S. Department of Energy Solar Energy Technologies Office** — [Solar irradiance reference](https://www.energy.gov/cmei/systems/integrated-energy-systems-office). Industry reference for solar resource quantification.
 7. **Copernicus Climate Change Service** — [Reanalysis and energy-budget products](https://climate.copernicus.eu/). Independent European reanalysis chain used to cross-check NASA and NOAA energy-budget estimates.

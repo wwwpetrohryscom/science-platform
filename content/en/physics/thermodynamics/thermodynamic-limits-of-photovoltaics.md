@@ -73,7 +73,7 @@ This is the kind of clarity worth having before placing decade-scale energy bets
 ## Sources
 
 1. **National Laboratory of the Rockies** — [Photovoltaic research](https://www.nlr.gov/pv/research). Photovoltaic research and performance context from the U.S. Department of Energy laboratory formerly named NREL.
-2. **U.S. Department of Energy** — [Solar Energy Technologies Office](https://www.energy.gov/eere/solar). DOE solar-energy research and deployment context.
+2. **U.S. Department of Energy** — [Solar Energy Technologies Office](https://www.energy.gov/cmei/systems/integrated-energy-systems-office). DOE solar-energy research and deployment context.
 3. **Reviews of Modern Physics** — [American Physical Society journals](https://journals.aps.org/rmp/). Peer-reviewed review literature on photovoltaic and thermodynamic limits.
 4. **Nature** — [Nature research journals](https://www.nature.com/). Peer-reviewed energy-materials and photovoltaic literature.
 5. **Science** — [Science journals](https://www.science.org/). Peer-reviewed photovoltaic and applied-physics literature.

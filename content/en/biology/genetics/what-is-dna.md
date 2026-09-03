@@ -24,7 +24,7 @@ faq:
 _bodyHash: 206c80
 ---
 
-DNA — deoxyribonucleic acid — is a four-letter molecular code that stores genetic information, as summarized by the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). It is the carrier of heredity and the substrate on which [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.
+DNA — deoxyribonucleic acid — is a four-letter molecular code that stores genetic information, as summarized by the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). It is the carrier of heredity and the substrate on which [evolution](/en/biology/evolution/cell-types-as-units-of-evolution) operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.
 
 This piece walks through what DNA is, what it does, and the equally important set of things it does not do.
 
@@ -74,7 +74,7 @@ The most defensible position on DNA in contemporary public discourse is somethin
 
 ## Sources
 
-1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). National Human Genome Research Institute definition of DNA and genetic information.
+1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). National Human Genome Research Institute definition of DNA and genetic information.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Genetics terminology and public-facing genomic science definitions.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Reference texts for molecular biology, genetics, and genome function.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed genetics and genomics literature index.

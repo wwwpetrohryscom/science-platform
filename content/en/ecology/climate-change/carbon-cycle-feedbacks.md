@@ -44,7 +44,7 @@ Two physical processes affect the long-term fraction the ocean can absorb.
 
 **Stratification.** Surface ocean warming increases stratification, which slows the downward mixing of carbon-loaded surface waters and reduces the rate at which the deep ocean can absorb the surface signal. The magnitude of this stratification feedback over the 21st century is one of the model-uncertainty terms in the [climate-projection envelope](/en/ecology/climate-change/climate-models-projections-uncertainty).
 
-The ocean sink also delivers ocean acidification as a side effect — falling pH and falling aragonite saturation that the [NOAA Climate.gov](https://www.climate.gov/) and [EPA ocean acidification](https://www.epa.gov/ocean-acidification) pages track as separate indicators with biological consequences for marine calcifiers.
+The ocean sink also delivers ocean acidification as a side effect — falling pH and falling aragonite saturation that the [NOAA Climate.gov](https://www.noaa.gov/climate) and [EPA ocean acidification](https://www.epa.gov/ocean-acidification) pages track as separate indicators with biological consequences for marine calcifiers.
 
 ## The land sink
 
@@ -99,8 +99,8 @@ The carbon-cycle indicators close the loop between [greenhouse-gas concentration
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 5](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of carbon-cycle budgets and feedbacks.
 2. **NOAA Global Monitoring Laboratory** — [Atmospheric CO₂ and carbon-cycle records](https://gml.noaa.gov/). Operational atmospheric constraint on the global carbon budget.
 3. **Copernicus Climate Change Service** — [Carbon-cycle reanalyses and indicators](https://climate.copernicus.eu/). European carbon-cycle products.
-4. **NASA Earth Observatory** — [Carbon cycle and vegetation explainers](https://earthobservatory.nasa.gov/). Topic and mission pages for satellite vegetation and CO₂ products.
-5. **NOAA Climate.gov** — [Ocean acidification and carbon-cycle explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products.
+4. **NASA Earth Observatory** — [Carbon cycle and vegetation explainers](https://science.nasa.gov/earth/earth-observatory/). Topic and mission pages for satellite vegetation and CO₂ products.
+5. **NOAA Climate.gov** — [Ocean acidification and carbon-cycle explainers](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring products.
 6. **U.S. Environmental Protection Agency** — [Ocean acidification](https://www.epa.gov/ocean-acidification). U.S. domestic reference on the carbon-cycle ocean response.
 7. **European Environment Agency** — [Forests and forestry and climate-change indicators](https://www.eea.europa.eu/). European land-carbon assessments.
 8. **USDA Forest Service** — [Forest Inventory and Analysis](https://research.fs.usda.gov/programs/fia). U.S. forest carbon inventory.

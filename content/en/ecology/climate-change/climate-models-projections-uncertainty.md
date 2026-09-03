@@ -105,7 +105,7 @@ Models do not replace the indicator record — they extend it forward conditiona
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 4 (Future Global Climate) and Chapter 7 (The Earth's Energy Budget, Climate Feedbacks, and Climate Sensitivity)](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of climate-model projections and equilibrium climate sensitivity.
 2. **World Climate Research Programme** — [Coupled Model Intercomparison Project (CMIP)](https://www.wcrp-climate.org/). Coordinates the multi-model ensemble framework underlying IPCC projections.
 3. **Copernicus Climate Change Service** — [Climate projection products and the Climate Data Store](https://climate.copernicus.eu/). European projection and downscaling pipeline.
-4. **NASA Global Climate Change** — [Climate model resources and explainers](https://climate.nasa.gov/). Public-facing model explainer materials.
-5. **NOAA Climate.gov** — [Climate model explainers and uncertainty articles](https://www.climate.gov/). Public-facing companion to NOAA's projection materials.
+4. **NASA Global Climate Change** — [Climate model resources and explainers](https://science.nasa.gov/climate-change/). Public-facing model explainer materials.
+5. **NOAA Climate.gov** — [Climate model explainers and uncertainty articles](https://www.noaa.gov/climate). Public-facing companion to NOAA's projection materials.
 6. **WMO** — [State of the Global Climate and projection-related products](https://wmo.int/). International annual indicator and projection context.
 7. **IPCC** — [AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/). Integrates projection findings across working groups.

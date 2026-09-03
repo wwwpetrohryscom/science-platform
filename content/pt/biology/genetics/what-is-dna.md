@@ -24,7 +24,7 @@ faq:
 _bodyHash: afef2c7c
 ---
 
-O ADN — ácido desoxirribonucleico — é um código molecular de quatro letras que armazena a informação genética, como resume o [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). É o suporte da hereditariedade e o substrato sobre o qual [a evolução opera](/pt/biology/evolution/cell-types-as-units-of-evolution). É também rotineiramente sobrevalorizado na discussão pública, de maneiras que a biologia real não sustenta.
+O ADN — ácido desoxirribonucleico — é um código molecular de quatro letras que armazena a informação genética, como resume o [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). É o suporte da hereditariedade e o substrato sobre o qual [a evolução opera](/pt/biology/evolution/cell-types-as-units-of-evolution). É também rotineiramente sobrevalorizado na discussão pública, de maneiras que a biologia real não sustenta.
 
 Este artigo percorre o que o ADN é, o que faz e o conjunto — igualmente importante — de coisas que não faz.
 
@@ -74,7 +74,7 @@ A posição mais defensável sobre o ADN no discurso público contemporâneo é 
 
 ## Sources
 
-1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Definição de ADN e de informação genética do National Human Genome Research Institute.
+1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Definição de ADN e de informação genética do National Human Genome Research Institute.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminologia de genética e definições de ciência genómica destinadas ao público.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Obras de referência de biologia molecular, genética e função do genoma.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Índice de literatura com revisão por pares em genética e genómica.

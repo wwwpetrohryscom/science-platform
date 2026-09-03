@@ -43,7 +43,7 @@ This is a hypothesis under test rather than a finished tool. To give it structur
 
 A useful product is rarely a single picture. Sensors record reflected or emitted radiation in defined wavelength bands; that signal is calibrated, corrected for atmospheric effects, and then classified into categories such as forest, water, or cropland, or converted into a continuous index such as a greenness value. The result is a layer that can be compared across space and repeated through time.
 
-Two points about method deserve emphasis. First, species-level inference is never read straight from the pixel: it requires ground data to calibrate the relationship and independent field observations to validate it. Second, the choice of sensor sets hard limits — spatial resolution determines the smallest feature that can be distinguished, and spectral resolution governs how finely surfaces can be told apart. These constraints feed directly into broader [ecological integrity indicators](/en/ecology/biodiversity/ecological-integrity-indicators), which often combine satellite layers with field measurements rather than relying on either alone. The reliability of land and vegetation products, documented by the [NASA Earth Observatory](https://earthobservatory.nasa.gov/), comes from this disciplined chain from radiance to validated map.
+Two points about method deserve emphasis. First, species-level inference is never read straight from the pixel: it requires ground data to calibrate the relationship and independent field observations to validate it. Second, the choice of sensor sets hard limits — spatial resolution determines the smallest feature that can be distinguished, and spectral resolution governs how finely surfaces can be told apart. These constraints feed directly into broader [ecological integrity indicators](/en/ecology/biodiversity/ecological-integrity-indicators), which often combine satellite layers with field measurements rather than relying on either alone. The reliability of land and vegetation products, documented by the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/), comes from this disciplined chain from radiance to validated map.
 
 ## Strengths and limits
 
@@ -59,7 +59,7 @@ The spectral-diversity proxy adds a further layer of caution. It is an indirect 
 
 ## Sources
 
-1. **NASA Earth Observatory** — [land and vegetation](https://earthobservatory.nasa.gov/). Satellite land-cover, vegetation, and structure products.
+1. **NASA Earth Observatory** — [land and vegetation](https://science.nasa.gov/earth/earth-observatory/). Satellite land-cover, vegetation, and structure products.
 1. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). Sentinel and biomass missions for ecosystem structure.
 1. **Copernicus Land** — [land products](https://land.copernicus.eu/). Operational land-cover and vegetation-state data.
 1. **USGS** — [Landsat](https://www.usgs.gov/). Long-term consistent satellite imagery archive.

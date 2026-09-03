@@ -91,7 +91,7 @@ The satellite half of the observing system that supplies most ECVs is described 
 ## Sources
 
 1. **WMO Global Climate Observing System** — [About Essential Climate Variables](https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/about-essential-climate-variables). The count of 55 ECVs, the domain structure, and the three selection criteria.
-2. **WMO Global Climate Observing System** — [Essential Climate Variables](https://gcos.wmo.int/). The current variable list and its domain and subdomain organisation.
+2. **WMO Global Climate Observing System** — [Essential Climate Variables](https://gcos.wmo.int/site/global-climate-observing-system-gcos). The current variable list and its domain and subdomain organisation.
 3. **WMO** — [Global observing systems](https://wmo.int/). International coordination of sustained environmental observation.
 4. **Copernicus Climate Change Service** — [Essential Climate Variable datasets](https://climate.copernicus.eu/). Operational European production of ECV products.
 5. **NASA Earthdata** — [Earth science data collections](https://www.earthdata.nasa.gov/). NASA's ECV-relevant archives and product documentation.

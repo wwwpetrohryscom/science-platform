@@ -82,5 +82,5 @@ Read alongside [ocean heat content](/en/ecology/climate-change/ocean-heat-conten
 2. **World Meteorological Organization** — [Greenhouse Gas Bulletin](https://wmo.int/), Global Atmosphere Watch programme. Independent global mean concentration product.
 3. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 2](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of atmospheric composition change.
 4. **Copernicus Climate Change Service** — [Greenhouse-gas indicator products](https://climate.copernicus.eu/), ECMWF / European Commission. European satellite and reanalysis-based products.
-5. **NASA Global Climate Change** — [Carbon dioxide vital sign and explainer materials](https://climate.nasa.gov/). Public-facing CO₂ record and methodology.
-6. **NOAA Climate.gov** — [Climate forcing and greenhouse-gas explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products.
+5. **NASA Global Climate Change** — [Carbon dioxide vital sign and explainer materials](https://science.nasa.gov/climate-change/). Public-facing CO₂ record and methodology.
+6. **NOAA Climate.gov** — [Climate forcing and greenhouse-gas explainers](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring products.

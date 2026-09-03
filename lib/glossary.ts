@@ -488,7 +488,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     relatedSources: [
       { label: "IPCC AR6 WG1 Ch.7", url: "https://www.ipcc.ch/report/ar6/wg1/" },
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
     ],
     updatedDate: "2026-08-29",
   },
@@ -691,7 +691,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     relatedSources: [
       { label: "IPBES", url: "https://www.ipbes.net/global-assessment" },
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
       { label: "Copernicus Land Monitoring Service", url: "https://land.copernicus.eu/" },
     ],
     uncertaintyNote:
@@ -783,7 +783,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     relatedSources: [
       { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
       { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
       { label: "ESA Observing the Earth", url: "https://www.esa.int/Applications/Observing_the_Earth" },
     ],
@@ -919,7 +919,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     ],
     relatedSources: [
       { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
       { label: "NOAA NESDIS", url: "https://www.nesdis.noaa.gov/" },
     ],
     updatedDate: "2026-06-02",
@@ -939,7 +939,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
     ],
     relatedSources: [
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
       { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
       { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
     ],
@@ -962,7 +962,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
     ],
     relatedSources: [
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
       { label: "NASA Earthdata", url: "https://www.earthdata.nasa.gov/" },
     ],
     updatedDate: "2026-06-02",
@@ -1070,7 +1070,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       { slug: "earth-observation-and-remote-sensing-explained", category: "ecology", subtopic: "earth-observation" },
     ],
     relatedSources: [
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
       { label: "USGS", url: "https://www.usgs.gov/landsat-missions" },
     ],
     updatedDate: "2026-06-02",
@@ -1310,7 +1310,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       },
     ],
     relatedSources: [
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
       { label: "IPCC AR6 WG1 Ch.7", url: "https://www.ipcc.ch/report/ar6/wg1/" },
       {
         label: "IPCC AR6 WG1, Chapter 7",
@@ -1343,7 +1343,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       },
     ],
     relatedSources: [
-      { label: "NASA Earth Observatory", url: "https://earthobservatory.nasa.gov/" },
+      { label: "NASA Earth Observatory", url: "https://science.nasa.gov/earth/earth-observatory/" },
     ],
     uncertaintyNote:
       "The global surface-albedo feedback is assessed by IPCC AR6 at +0.35 W m-2 per degree Celsius with high confidence in its sign but only medium confidence in its magnitude — smaller than the local ice-to-ocean contrast suggests.",
@@ -1522,7 +1522,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       },
       {
         label: "WMO Greenhouse Gas Bulletin No. 21",
-        url: "https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21",
+        url: "https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21",
       },
     ],
     uncertaintyNote:
@@ -1557,7 +1557,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       },
       {
         label: "NASA — the water cycle",
-        url: "https://science.nasa.gov/earth/water-on-earth/the-water-cycle/",
+        url: "https://science.nasa.gov/earth/earth-observatory/the-water-cycle/",
       },
     ],
     updatedDate: "2026-08-29",
@@ -1696,7 +1696,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     relatedSources: [
       {
         label: "NASA — the water cycle",
-        url: "https://science.nasa.gov/earth/water-on-earth/the-water-cycle/",
+        url: "https://science.nasa.gov/earth/earth-observatory/the-water-cycle/",
       },
       {
         label: "IPCC AR6 WG1, Chapter 5",
@@ -1731,7 +1731,7 @@ export const GLOSSARY: GlossaryEntry[] = [
     relatedSources: [
       {
         label: "NASA — the water cycle",
-        url: "https://science.nasa.gov/earth/water-on-earth/the-water-cycle/",
+        url: "https://science.nasa.gov/earth/earth-observatory/the-water-cycle/",
       },
       {
         label: "USGS Water Science School",
@@ -1774,7 +1774,7 @@ export const GLOSSARY: GlossaryEntry[] = [
       },
       {
         label: "WMO Greenhouse Gas Bulletin No. 21",
-        url: "https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21",
+        url: "https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21",
       },
     ],
     uncertaintyNote:

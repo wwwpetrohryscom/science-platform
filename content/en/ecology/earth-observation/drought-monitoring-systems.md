@@ -41,7 +41,7 @@ Vegetation provides a further, indirect signal. Because plants respond to water 
 
 ## How operational systems combine the evidence
 
-No single index or mission defines a drought on its own, so operational observatories blend them. The U.S. Drought Monitor, produced by NOAA together with the USDA and other partners, integrates indices, satellite inputs, and expert assessment into weekly maps of drought extent and severity; the supporting climate records are documented by [NOAA](https://www.climate.gov/). In Europe, the Copernicus European Drought Observatory, run by the [Joint Research Centre](https://joint-research-centre.ec.europa.eu/), combines multiple indicators into comparable maps across the continent. The United Nations Food and Agriculture Organization operates an agricultural-stress index aimed at food-security monitoring, focused on where crop conditions are deteriorating.
+No single index or mission defines a drought on its own, so operational observatories blend them. The U.S. Drought Monitor, produced by NOAA together with the USDA and other partners, integrates indices, satellite inputs, and expert assessment into weekly maps of drought extent and severity; the supporting climate records are documented by [NOAA](https://www.noaa.gov/climate). In Europe, the Copernicus European Drought Observatory, run by the [Joint Research Centre](https://joint-research-centre.ec.europa.eu/), combines multiple indicators into comparable maps across the continent. The United Nations Food and Agriculture Organization operates an agricultural-stress index aimed at food-security monitoring, focused on where crop conditions are deteriorating.
 
 The shared method across these systems is convergence of evidence. Rather than treating any one indicator as definitive, each system weighs several measures and looks for agreement among them, which is also how vegetation anomalies that flag drought feed into related tools such as [wildfire monitoring from space](/en/ecology/earth-observation/wildfire-monitoring-from-space). This blended approach is consistent with how broader [climate indicators and Earth-system monitoring](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) draw conclusions from multiple, independent observations.
 
@@ -55,5 +55,5 @@ Two further sources of uncertainty deserve mention. The satellite inputs each ca
 
 1. **WMO** — [drought indices](https://wmo.int/). Standards including the SPI reference index.
 1. **NASA Earthdata** — [drought-related data](https://www.earthdata.nasa.gov/). Precipitation, soil moisture, and water-storage missions.
-1. **NOAA** — [drought monitoring](https://www.climate.gov/). U.S. Drought Monitor and climate data.
+1. **NOAA** — [drought monitoring](https://www.noaa.gov/climate). U.S. Drought Monitor and climate data.
 1. **European Commission JRC** — [European Drought Observatory](https://joint-research-centre.ec.europa.eu/). Operational European drought indicators.

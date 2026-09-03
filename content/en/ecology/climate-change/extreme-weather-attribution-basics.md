@@ -98,7 +98,7 @@ Attribution science changes the available answers to one of the questions reader
 
 1. **IPCC** — [Climate Change 2021: The Physical Science Basis (AR6 Working Group I), Chapter 3 (Human Influence) and Chapter 11 (Weather and Climate Extreme Events)](https://www.ipcc.ch/report/ar6/wg1/). Authoritative review of detection-and-attribution methodology and extreme-event attribution.
 2. **WMO** — [State of the Global Climate and the WMO Climate Watch programme](https://wmo.int/). International coordination of extreme-event monitoring and assessment.
-3. **NOAA Climate.gov** — [Extreme-weather attribution explainers](https://www.climate.gov/). Public-facing companion to NOAA's monitoring products on extremes.
+3. **NOAA Climate.gov** — [Extreme-weather attribution explainers](https://www.noaa.gov/climate). Public-facing companion to NOAA's monitoring products on extremes.
 4. **NOAA National Centers for Environmental Information** — [U.S. billion-dollar weather and climate disasters and State of the Climate](https://www.ncei.noaa.gov/). U.S. extreme-event records.
-5. **NASA Earth Observatory** — [Heatwave, drought, and tropical-cyclone explainers](https://earthobservatory.nasa.gov/). Mission and topic pages on extreme events.
+5. **NASA Earth Observatory** — [Heatwave, drought, and tropical-cyclone explainers](https://science.nasa.gov/earth/earth-observatory/). Mission and topic pages on extreme events.
 6. **PubMed** — [Event-attribution literature](https://pubmed.ncbi.nlm.nih.gov/). Peer-reviewed methodology and case studies in event attribution.

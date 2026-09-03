@@ -24,7 +24,7 @@ faq:
 _bodyHash: dfbd8c86
 ---
 
-El ADN —ácido desoxirribonucleico— es un código molecular de cuatro letras que almacena información genética, tal como lo resume el [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Es el portador de la herencia y el sustrato sobre el que opera la [evolución](/es/biology/evolution/cell-types-as-units-of-evolution). También se exagera de forma rutinaria en la discusión pública, de maneras que la biología real no respalda.
+El ADN —ácido desoxirribonucleico— es un código molecular de cuatro letras que almacena información genética, tal como lo resume el [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Es el portador de la herencia y el sustrato sobre el que opera la [evolución](/es/biology/evolution/cell-types-as-units-of-evolution). También se exagera de forma rutinaria en la discusión pública, de maneras que la biología real no respalda.
 
 Este texto recorre qué es el ADN, qué hace y el conjunto —igual de importante— de cosas que no hace.
 
@@ -74,7 +74,7 @@ La posición más defendible sobre el ADN en el debate público contemporáneo e
 
 ## Sources
 
-1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Definición del ADN y de la información genética del Instituto Nacional de Investigación del Genoma Humano de Estados Unidos.
+1. **NHGRI** — [Deoxyribonucleic Acid (DNA)](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Definición del ADN y de la información genética del Instituto Nacional de Investigación del Genoma Humano de Estados Unidos.
 2. **NHGRI** — [Talking Glossary of Genomic and Genetic Terms](https://www.genome.gov/genetics-glossary). Terminología genética y definiciones de genómica dirigidas al público.
 3. **NIH / NLM** — [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/). Obras de referencia sobre biología molecular, genética y función del genoma.
 4. **PubMed** — [NIH/NLM biomedical literature index](https://pubmed.ncbi.nlm.nih.gov/). Índice de literatura revisada por pares en genética y genómica.

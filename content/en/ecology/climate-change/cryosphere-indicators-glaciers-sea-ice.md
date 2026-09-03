@@ -33,7 +33,7 @@ The U.S. [National Snow and Ice Data Center](https://nsidc.org/) maintains the r
 
 The Arctic record shows a downward trend in September (annual minimum) extent of about 12–13% per decade since 1979. The September minimum extent now averages roughly half the late-1970s value. Antarctic sea ice has shown more variable behavior in the satellite record, with a small positive trend through about 2014 and rapid decline since. The [IPCC AR6 WG1 Chapter 9](https://www.ipcc.ch/report/ar6/wg1/) reviews both records and the methodological choices.
 
-Sea ice matters for the [Earth energy budget](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) because it reflects most incident shortwave radiation back to space. The ice-albedo feedback — ice loss reduces albedo, which absorbs more shortwave, which warms further — is one of the better-characterized positive feedbacks in the climate system, documented in the [NASA Earth Observatory](https://earthobservatory.nasa.gov/) materials and in AR6.
+Sea ice matters for the [Earth energy budget](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) because it reflects most incident shortwave radiation back to space. The ice-albedo feedback — ice loss reduces albedo, which absorbs more shortwave, which warms further — is one of the better-characterized positive feedbacks in the climate system, documented in the [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) materials and in AR6.
 
 ## Glacier mass balance
 
@@ -94,8 +94,8 @@ The cryosphere indicators describe the frozen reservoirs of the climate system. 
 1. **IPCC** — [AR6 Working Group I, Chapter 9: Ocean, Cryosphere and Sea Level Change](https://www.ipcc.ch/report/ar6/wg1/). Authoritative assessment of sea ice, glaciers, ice sheets, and snow cover.
 2. **National Snow and Ice Data Center** — [Cryosphere reference data and explainers](https://nsidc.org/). Sea-ice extent, snow cover, and ice-sheet datasets.
 3. **World Glacier Monitoring Service** — [Global glacier monitoring and reference glaciers](https://wgms.ch/). Long-term glacier mass-balance dataset.
-4. **NOAA Climate.gov** — [Cryosphere indicator explainers](https://www.climate.gov/). Public-facing companion to NOAA's cryosphere products.
-5. **NASA Earth Observatory** — [Sea ice and ice-sheet imagery and explainers](https://earthobservatory.nasa.gov/). Mission and topic pages.
-6. **NASA Global Climate Change** — [Vital signs: Arctic sea ice, Antarctic ice mass, Greenland ice mass](https://climate.nasa.gov/). Public-facing cryosphere indicator time series.
+4. **NOAA Climate.gov** — [Cryosphere indicator explainers](https://www.noaa.gov/climate). Public-facing companion to NOAA's cryosphere products.
+5. **NASA Earth Observatory** — [Sea ice and ice-sheet imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Mission and topic pages.
+6. **NASA Global Climate Change** — [Vital signs: Arctic sea ice, Antarctic ice mass, Greenland ice mass](https://science.nasa.gov/climate-change/). Public-facing cryosphere indicator time series.
 7. **WMO** — [State of the Global Climate](https://wmo.int/). Annual assessment that includes cryosphere indicators.
 8. **European Environment Agency** — [Climate change indicators in Europe](https://www.eea.europa.eu/). European regional cryosphere assessments including Alpine glaciers.

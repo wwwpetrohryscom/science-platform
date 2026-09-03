@@ -37,7 +37,7 @@ For these detections to support emergency response, they have to arrive quickly.
 
 The second method works after the flames are out. Where a fire has charred or stripped the vegetation, the surface reflects light differently from the unburned land around it, and comparing imagery from before and after reveals the extent of the burn scar. This is a change-detection task: the analysis looks for where reflectance has shifted in the characteristic way a burn produces.
 
-Several data streams feed this kind of mapping. MODIS, Sentinel-2, and Copernicus products are all used to map burn scars and estimate burned area ([NASA Earth Observatory](https://earthobservatory.nasa.gov/)). Active-fire and burned-area mapping are complementary rather than interchangeable. One tells responders where to act while an event unfolds; the other delivers a more complete account of how much land ultimately burned, once the fire is no longer hot enough to detect from its heat alone.
+Several data streams feed this kind of mapping. MODIS, Sentinel-2, and Copernicus products are all used to map burn scars and estimate burned area ([NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/)). Active-fire and burned-area mapping are complementary rather than interchangeable. One tells responders where to act while an event unfolds; the other delivers a more complete account of how much land ultimately burned, once the fire is no longer hot enough to detect from its heat alone.
 
 ## Smoke, emissions, and regional services
 
@@ -56,6 +56,6 @@ Two further error types are routinely measured during validation. Omission error
 ## Sources
 
 1. **NASA Earthdata** — [FIRMS active fire data](https://www.earthdata.nasa.gov/). Near-real-time active-fire detections.
-1. **NASA Earth Observatory** — [fires from space](https://earthobservatory.nasa.gov/). How active fire and burned area are observed.
+1. **NASA Earth Observatory** — [fires from space](https://science.nasa.gov/earth/earth-observatory/). How active fire and burned area are observed.
 1. **Copernicus** — [fire monitoring](https://www.copernicus.eu/en). Atmosphere and emergency fire services.
 1. **European Commission JRC** — [EFFIS](https://joint-research-centre.ec.europa.eu/). European Forest Fire Information System.

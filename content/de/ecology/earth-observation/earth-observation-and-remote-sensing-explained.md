@@ -98,7 +98,7 @@ Die begleitenden Artikel führen jeden Teil weiter: [was Fernerkundung ist](/de/
 ## Sources
 
 1. **NASA Earthdata** — [Earth-science data and EOSDIS](https://www.earthdata.nasa.gov/). Zugang zu den Erdbeobachtungsarchiven der NASA und zur Dokumentation der Produktstufen.
-2. **NASA Earth Observatory** — [imagery and explainers](https://earthobservatory.nasa.gov/). Themenseiten dazu, wie Satellitenmessungen entstehen und genutzt werden.
+2. **NASA Earth Observatory** — [imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Themenseiten dazu, wie Satellitenmessungen entstehen und genutzt werden.
 3. **USGS** — [Landsat missions](https://www.usgs.gov/landsat-missions). Geschichte, Sensoren und die durchgehende Reihe der Landoberfläche (gemeinsam mit der NASA).
 4. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). Europäische Erdbeobachtungsmissionen und -instrumente.
 5. **Copernicus** — [EU Earth-observation programme](https://www.copernicus.eu/en). Die Sentinels und die Copernicus-Dienste.

@@ -80,5 +80,5 @@ The observational side of the same problem, and the standardised variables model
 2. **IPCC AR6 WG1, Chapter 4** — [Future global climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/). How CMIP6 output is used to construct assessed projections.
 3. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Feedback and sensitivity differences between CMIP5 and CMIP6 ensembles.
 4. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Carbon-cycle components that distinguish an ESM from a physical climate model.
-5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2020/fact-sheet-reanalysis). Data assimilation, and the difference between a reanalysis and a free-running model.
+5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis). Data assimilation, and the difference between a reanalysis and a free-running model.
 6. **Copernicus Climate Change Service** — [Climate projections and datasets](https://climate.copernicus.eu/). Operational access to processed model output.

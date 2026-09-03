@@ -25,7 +25,7 @@ A value a satellite records is not yet a measurement of the planet; it is a raw 
 
 Earth-observation data are organised by processing level, a shorthand for how far a product has been transformed from the raw signal. The convention runs from Level 0 to Level 4. Level 0 is raw instrument data, the unprocessed output of the sensor. Level 1 is calibrated, geolocated radiance: the recorded signal converted into physical units and placed correctly on the ground. Level 2 holds retrieved geophysical variables, such as surface reflectance, sea-surface temperature, or chlorophyll, derived from the calibrated signal.
 
-The ladder continues upward. Level 3 takes those geophysical variables and resamples them onto a regular grid, often compositing several observations over time. Level 4 is output that combines observations with models, producing values that no single instrument measured directly. The same scene can therefore exist as several products at once, and the level label is the first thing that tells a user how much processing, and how many modelling choices, are already built into what they are reading. NASA's [EOSDIS](https://www.earthdata.nasa.gov/eosdis) documentation lays out this structure for its archive.
+The ladder continues upward. Level 3 takes those geophysical variables and resamples them onto a regular grid, often compositing several observations over time. Level 4 is output that combines observations with models, producing values that no single instrument measured directly. The same scene can therefore exist as several products at once, and the level label is the first thing that tells a user how much processing, and how many modelling choices, are already built into what they are reading. NASA's [EOSDIS](https://www.earthdata.nasa.gov/about/esdis/eosdis) documentation lays out this structure for its archive.
 
 ## Surface reflectance and analysis-ready data
 
@@ -53,7 +53,7 @@ This is why a higher-level product is not simply a better product. A Level 3 or 
 
 ## Sources
 
-1. **NASA Earthdata** — [EOSDIS and data levels](https://www.earthdata.nasa.gov/eosdis). Processing levels and archive structure.
+1. **NASA Earthdata** — [EOSDIS and data levels](https://www.earthdata.nasa.gov/about/esdis/eosdis). Processing levels and archive structure.
 1. **USGS** — [Landsat data products](https://www.usgs.gov/landsat-missions). Surface-reflectance and analysis-ready products.
 1. **Copernicus** — [Sentinel data](https://www.copernicus.eu/en). Open Sentinel data distribution.
 1. **Earth System Science Data** — [reference datasets](https://earth-system-science-data.net/). Peer-reviewed Earth-system data publication.

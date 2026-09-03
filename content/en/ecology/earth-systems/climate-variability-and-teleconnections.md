@@ -81,5 +81,5 @@ Both are failures of the same kind — comparing a short sample against an unsta
 1. **NOAA Climate Prediction Center** — [Teleconnection pattern documentation](https://www.cpc.ncep.noaa.gov/data/teledoc/telecontents.shtml). The monitored patterns, the rotated principal component method, and the index climatology.
 2. **NOAA Climate.gov** — [El Niño and La Niña](https://www.climate.gov/enso). Recurrence characteristics of the dominant coupled mode.
 3. **IPCC AR6 WG1, Chapter 4** — [Future global climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/). Assessment of projected changes in modes of variability and ENSO-related rainfall.
-4. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2020/fact-sheet-reanalysis). How the long, gridded records used to define modes are constructed and where they are least certain.
+4. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis). How the long, gridded records used to define modes are constructed and where they are least certain.
 5. **NOAA National Centers for Environmental Information** — [Climate monitoring](https://www.ncei.noaa.gov/). Long observational records against which variability is assessed.

@@ -107,9 +107,9 @@ Los artículos de apoyo de este grupo temático dividen el marco en piezas manej
 
 1. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Inventario energético, desequilibrio y parámetros de retroalimentación evaluados que se citan más arriba.
 2. **IPCC AR6 WG1, Chapter 5** — [Global carbon and other biogeochemical cycles and feedbacks](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/). Reparto de las emisiones y fracción aerotransportada.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Almacenamiento atmosférico de agua y renovación anual.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Almacenamiento atmosférico de agua y renovación anual.
 4. **NASA Earth Observatory** — [The carbon cycle](https://science.nasa.gov/earth/earth-observatory/the-carbon-cycle). Ciclos rápido y lento del carbono y sus escalas temporales.
 5. **NOAA National Ocean Service** — [The global conveyor belt](https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor2.html). La circulación profunda y su tiempo de circuito.
 6. **WMO Global Climate Observing System** — [About Essential Climate Variables](https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/about-essential-climate-variables). Las 55 variables climáticas esenciales y sus criterios de selección.
-7. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/publication-series/wmo-greenhouse-gas-bulletin-no-21). Concentraciones medias globales de los gases de efecto invernadero de larga vida en 2024.
+7. **WMO** — [Greenhouse Gas Bulletin No. 21](https://wmo.int/resources/publication-series/greenhouse-gas-bulletin/wmo-greenhouse-gas-bulletin-no-21). Concentraciones medias globales de los gases de efecto invernadero de larga vida en 2024.
 8. **World Climate Research Programme** — [Coupled Model Intercomparison Project](https://wcrp-cmip.org/). Coordinación de modelos, participación y distribución de datos.

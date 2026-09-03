@@ -98,7 +98,7 @@ _bodyHash: e950751f
 ## Sources
 
 1. **NASA Earthdata** — [Earth-science data and EOSDIS](https://www.earthdata.nasa.gov/). Шлюз к архивам наблюдения Земли НАСА и к документации по уровням продуктов.
-2. **NASA Earth Observatory** — [imagery and explainers](https://earthobservatory.nasa.gov/). Тематические страницы о том, как делаются и как используются спутниковые измерения.
+2. **NASA Earth Observatory** — [imagery and explainers](https://science.nasa.gov/earth/earth-observatory/). Тематические страницы о том, как делаются и как используются спутниковые измерения.
 3. **USGS** — [Landsat missions](https://www.usgs.gov/landsat-missions). История, приборы и непрерывный ряд наблюдений поверхности суши (совместно с НАСА).
 4. **ESA** — [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth). Европейские миссии и приборы наблюдения Земли.
 5. **Copernicus** — [EU Earth-observation programme](https://www.copernicus.eu/en). Спутники Sentinel и сервисы Copernicus.

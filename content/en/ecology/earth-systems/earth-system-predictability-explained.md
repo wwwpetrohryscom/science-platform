@@ -84,7 +84,7 @@ The models used across all four regimes share a common architecture, described i
 
 1. **ECMWF** — [Introduction to chaos, predictability and ensemble forecasts](https://www.ecmwf.int/en/learning/training/introduction-chaos-predictability-and-ensemble-forecasts). Chaos, the deterministic limit, and the rationale for ensembles.
 2. **WMO** — [Predictability beyond the deterministic limit](https://wmo.int/media/magazine-article/predictability-beyond-deterministic-limit). Origin of the two-week limit and the transition to probabilistic and coupled prediction.
-3. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2020/fact-sheet-reanalysis). What ERA5 is, how data assimilation works, and where reanalysis uncertainty is largest.
+3. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis). What ERA5 is, how data assimilation works, and where reanalysis uncertainty is largest.
 4. **IPCC AR6 WG1, Chapter 4** — [Future global climate](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/). Near-term, mid-term, and long-term projection and the changing role of internal variability.
 5. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Feedback ranges underlying model-structural uncertainty.
 6. **NOAA Climate Prediction Center** — [Seasonal outlooks and ENSO diagnostics](https://www.cpc.ncep.noaa.gov/). Operational seasonal prediction and its verification.

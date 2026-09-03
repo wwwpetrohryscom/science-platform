@@ -60,6 +60,6 @@ Its geographical profile also differs from the other major amplifier. Vapour fee
 
 1. **IPCC AR6 WG1, Chapter 7** — [The Earth's energy budget, climate feedbacks and climate sensitivity](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Assessed value and range for the combined water-vapour and lapse-rate feedback, and the decomposition methods.
 2. **IPCC AR6 WG1, Chapter 8** — [Water cycle changes](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8/). Clausius–Clapeyron scaling of specific humidity with temperature.
-3. **NASA** — [The water cycle](https://science.nasa.gov/earth/water-on-earth/the-water-cycle/). Atmospheric water storage and turnover underlying the residence-time argument.
-4. **NOAA Climate.gov** — [Climate system explainers](https://www.climate.gov/). Background on the greenhouse effect and the role of water vapour within it.
-5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2020/fact-sheet-reanalysis). How humidity fields are reconstructed from sparse observations.
+3. **NASA** — [The water cycle](https://science.nasa.gov/earth/earth-observatory/the-water-cycle/). Atmospheric water storage and turnover underlying the residence-time argument.
+4. **NOAA Climate.gov** — [Climate system explainers](https://www.noaa.gov/climate). Background on the greenhouse effect and the role of water vapour within it.
+5. **ECMWF** — [Reanalysis fact sheet](https://www.ecmwf.int/en/about/media-centre/focus/2023/fact-sheet-reanalysis). How humidity fields are reconstructed from sparse observations.

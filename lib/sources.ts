@@ -168,7 +168,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "NASA Earth Observatory",
       organization: "NASA",
-      url: "https://earthobservatory.nasa.gov/",
+      url: "https://science.nasa.gov/earth/earth-observatory/",
       type: "primary",
       topicRelevance:
         "Land cover, vegetation, and climate-system imagery and explainers",
@@ -369,7 +369,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "NASA EOSDIS",
       organization: "NASA",
-      url: "https://www.earthdata.nasa.gov/eosdis",
+      url: "https://www.earthdata.nasa.gov/about/esdis/eosdis",
       type: "primary",
       topicRelevance:
         "Earth Observing System Data and Information System — distributed archives (DAACs) and data-product levels",
@@ -1467,7 +1467,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
     {
       name: "NASA Earth Observatory",
       organization: "NASA",
-      url: "https://earthobservatory.nasa.gov/",
+      url: "https://science.nasa.gov/earth/earth-observatory/",
       type: "primary",
       topicRelevance:
         "Earth energy balance, atmospheric, and remote-sensing topic pages",

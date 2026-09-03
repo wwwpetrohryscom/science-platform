@@ -23,7 +23,7 @@ When a satellite looks at a green field, it does not see "vegetation" directly. 
 
 ## The physics behind the index
 
-NDVI works because of how leaves interact with sunlight. Chlorophyll in healthy green vegetation strongly absorbs visible red light, using it to drive photosynthesis, so little red is returned to the sensor. The internal cell structure of the same leaves strongly reflects near-infrared light, which the human eye cannot see. The result is a pronounced contrast: low [reflectance](/en/glossary/reflectance) in the red band, high reflectance in the near-infrared. The larger that gap, the more dense and vigorous the vegetation tends to be. Stressed, sparse, or senescent plants reflect more red and less near-infrared, narrowing the contrast. NDVI is simply a way of putting a number on that difference, as the NASA Earth Observatory [measuring vegetation](https://earthobservatory.nasa.gov/) explainer describes.
+NDVI works because of how leaves interact with sunlight. Chlorophyll in healthy green vegetation strongly absorbs visible red light, using it to drive photosynthesis, so little red is returned to the sensor. The internal cell structure of the same leaves strongly reflects near-infrared light, which the human eye cannot see. The result is a pronounced contrast: low [reflectance](/en/glossary/reflectance) in the red band, high reflectance in the near-infrared. The larger that gap, the more dense and vigorous the vegetation tends to be. Stressed, sparse, or senescent plants reflect more red and less near-infrared, narrowing the contrast. NDVI is simply a way of putting a number on that difference, as the NASA Earth Observatory [measuring vegetation](https://science.nasa.gov/earth/earth-observatory/) explainer describes.
 
 ## The formula and what it does
 
@@ -47,7 +47,7 @@ NDVI is useful precisely because it is simple, but that simplicity carries known
 
 ## Sources
 
-1. **NASA Earth Observatory** — [measuring vegetation](https://earthobservatory.nasa.gov/). NDVI formula, interpretation, and history.
+1. **NASA Earth Observatory** — [measuring vegetation](https://science.nasa.gov/earth/earth-observatory/). NDVI formula, interpretation, and history.
 1. **NASA Earthdata** — [vegetation indices](https://www.earthdata.nasa.gov/). NDVI products and documentation.
 1. **USGS** — [Landsat vegetation indices](https://www.usgs.gov/landsat-missions). Surface-reflectance NDVI products.
 1. **Remote Sensing (journal)** — [index research](https://www.mdpi.com/journal/remotesensing). Peer-reviewed work on vegetation indices.
