@@ -296,6 +296,25 @@
     "citations_one": "Este artigo liga uma citação externa.",
     "attribution": "Atribuído à mesa {desk} — uma mesa editorial, não uma pessoa.",
     "policy_link": "Como as fontes são escolhidas e verificadas",
-    "last_updated": "Última atualização"
+    "last_updated": "Última atualização",
+    "source_mix": "Tipos de fontes citadas: {mix}.",
+    "reviewed_on": "Afirmações verificadas de forma independente face às suas fontes em {date}.",
+    "reviewed_detail": "Um segundo leitor examinou {claims} afirmações determinantes. Isto regista que a verificação foi feita; não é uma nota de qualidade, nem revisão por pares, nem um selo.",
+    "not_reviewed": "Esta página ainda não teve uma verificação independente de afirmação contra fonte. As suas citações são verificadas automaticamente, o que é uma garantia diferente e mais fraca.",
+    "corrections_link": "Comunicar um erro",
+    "concepts_heading": "Conceitos científicos nesta página",
+    "live_data_note": "{count} das fontes citadas são atualizadas continuamente, pelo que os valores delas retirados valem na data indicada."
+  },
+  "evidence_types": {
+    "government": "governamental",
+    "intergovernmental": "intergovernamental",
+    "peer-reviewed": "revisto por pares",
+    "systematic-review": "revisão sistemática",
+    "meta-analysis": "meta-análise",
+    "university": "universitária",
+    "scientific-dataset": "conjunto de dados",
+    "standards-body": "organismo de normalização",
+    "research-institute": "instituto de investigação",
+    "other": "outra"
   }
 }

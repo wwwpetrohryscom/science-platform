@@ -654,8 +654,30 @@ function dateFormatter(locale: Locale): Intl.DateTimeFormat {
   return f;
 }
 
+/**
+ * Format a calendar date for display.
+ *
+ * `new Date("2026-09-03")` is parsed as UTC midnight, and formatting
+ * that in any timezone behind UTC renders the previous day. Every date
+ * on this site — publication, revision, review — was showing a day early
+ * for readers and in the build output, while the ISO strings in the
+ * JSON-LD and the sitemap were correct. The visible text and the
+ * structured data disagreed by one day on every page.
+ *
+ * A frontmatter date is a calendar date with no time and no zone, so it
+ * is constructed in local time and formatted there. A full timestamp
+ * (the discussion notes carry one) still goes through the normal path.
+ */
 export function formatDate(iso: string, locale: Locale = DEFAULT_LOCALE): string {
-  return dateFormatter(locale).format(new Date(iso));
+  const calendarDate = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  const value = calendarDate
+    ? new Date(
+        Number(calendarDate[1]),
+        Number(calendarDate[2]) - 1,
+        Number(calendarDate[3]),
+      )
+    : new Date(iso);
+  return dateFormatter(locale).format(value);
 }
 
 export function assertSubtopicExists(

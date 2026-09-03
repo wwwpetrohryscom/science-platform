@@ -286,6 +286,25 @@
     "citations_one": "One external citation is linked in this article.",
     "attribution": "Attributed to the {desk} — an editorial desk, not an individual.",
     "policy_link": "How sources are chosen and checked",
-    "last_updated": "Last updated"
+    "last_updated": "Last updated",
+    "source_mix": "Source types cited: {mix}.",
+    "reviewed_on": "Claims independently checked against their cited sources on {date}.",
+    "reviewed_detail": "A second reader examined {claims} load-bearing claims. This records that the check was carried out; it is not a quality score, a peer review, or an endorsement.",
+    "not_reviewed": "This page has not yet had an independent claim-against-source check. Its citations are live-checked, which is a different and weaker guarantee.",
+    "corrections_link": "Report an error",
+    "concepts_heading": "Scientific concepts on this page",
+    "live_data_note": "{count} of the cited sources are continuously updated, so figures taken from them are true as of the date given."
+  },
+  "evidence_types": {
+    "government": "government",
+    "intergovernmental": "intergovernmental",
+    "peer-reviewed": "peer-reviewed",
+    "systematic-review": "systematic review",
+    "meta-analysis": "meta-analysis",
+    "university": "university",
+    "scientific-dataset": "dataset",
+    "standards-body": "standards body",
+    "research-institute": "research institute",
+    "other": "other"
   }
 }
