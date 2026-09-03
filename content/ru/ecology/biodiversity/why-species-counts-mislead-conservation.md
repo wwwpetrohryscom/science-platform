@@ -1,6 +1,6 @@
 ---
-title: "Почему число видов — плохая основа для природоохранных приоритетов"
-excerpt: "Видовое богатство — самый простой в расчёте показатель биоразнообразия и самый неудачный в роли основания для приоритетов. Работу экосистемы предсказывают функциональное и филогенетическое разнообразие, и они нередко расходятся с числом видов."
+title: Почему число видов — плохая основа для природоохранных приоритетов
+excerpt: Видовое богатство — самый простой в расчёте показатель биоразнообразия и самый неудачный в роли основания для приоритетов. Работу экосистемы предсказывают функциональное и филогенетическое разнообразие, и они нередко расходятся с числом видов.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
@@ -14,6 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
+_bodyHash: bc9a29dd
 ---
 
 Видовое богатство — число различных видов на заданной территории — один из самых часто цитируемых показателей [биоразнообразия](/ru/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). Он же неполон как показатель для расстановки [природоохранных](/ru/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) приоритетов. Публичные оценки [Европейского агентства по окружающей среде](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [ЮНЕП](https://www.unep.org/explore-topics/ecosystems) и [МПБЭУ](https://www.ipbes.net/global-assessment) сходятся в том, что утрата [биоразнообразия](/ru/ecology/biodiversity/essential-biodiversity-variables-monitoring) — не просто задача о числе видов.

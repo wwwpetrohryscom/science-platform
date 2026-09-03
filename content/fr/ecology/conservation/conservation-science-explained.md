@@ -1,6 +1,6 @@
 ---
-title: "Science de la conservation : ce que la base de preuves permet réellement d'affirmer"
-excerpt: "La conservation est une science appliquée bâtie sur une question causale : l'action a-t-elle modifié la trajectoire ? Cette page expose comment cette question se teste, ce que les synthèses établissent aujourd'hui et là où les preuves s'arrêtent."
+title: 'Science de la conservation : ce que la base de preuves permet réellement d''affirmer'
+excerpt: 'La conservation est une science appliquée bâtie sur une question causale : l''action a-t-elle modifié la trajectoire ? Cette page expose comment cette question se teste, ce que les synthèses établissent aujourd''hui et là où les preuves s''arrêtent.'
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - invasive-species-management
   - conservation-trade-offs-and-prioritisation
   - habitat-fragmentation-and-connectivity
+_bodyHash: 359d50bc
 ---
 
 La conservation pose une question qui paraît pratique et qui est en réalité causale : cette action a-t-elle modifié la trajectoire de cette population, de cet habitat, de ce paysage, par rapport à ce qui se serait produit sans elle ? Presque toutes les difficultés méthodologiques du domaine découlent d'une propriété gênante de cette question — l'état de comparaison n'est jamais observé. Il faut le construire.

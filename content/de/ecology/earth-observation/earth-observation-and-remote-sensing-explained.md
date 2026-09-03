@@ -16,6 +16,7 @@ related:
   - landsat-program-explained
   - earth-observation-data-products
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: f6f3aab7
 ---
 
 Das meiste von dem, was wir über die Veränderungen des Planeten wissen – schrumpfendes Eis, fortschreitende Entwaldung, sich erwärmende Meere, ergrünende und verbraunende Landflächen –, wird heute zumindest teilweise aus dem All gemessen. [Erdbeobachtung](/en/glossary/earth-observation) ist die Praxis, Informationen über Land, Ozean, Atmosphäre und Eis des Planeten mit Sensoren auf Satelliten und Flugzeugen zu gewinnen. [Fernerkundung](/en/glossary/remote-sensing) ist die zugrunde liegende Technik: etwas zu messen, ohne es zu berühren, indem die von ihm reflektierte oder abgestrahlte Strahlung aufgezeichnet wird.

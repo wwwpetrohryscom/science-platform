@@ -1,6 +1,6 @@
 ---
-title: "Porque é que as contagens de espécies enganam a priorização em conservação"
-excerpt: "A riqueza específica é a métrica de biodiversidade mais fácil de calcular e a pior para definir prioridades. Quem prevê o desempenho dos ecossistemas é a diversidade funcional e filogenética — e essa discorda muitas vezes da contagem de espécies."
+title: Porque é que as contagens de espécies enganam a priorização em conservação
+excerpt: A riqueza específica é a métrica de biodiversidade mais fácil de calcular e a pior para definir prioridades. Quem prevê o desempenho dos ecossistemas é a diversidade funcional e filogenética — e essa discorda muitas vezes da contagem de espécies.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
@@ -14,6 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
+_bodyHash: ada5e131
 ---
 
 A riqueza específica — a contagem de espécies distintas numa área definida — é uma das medidas de [biodiversidade](/pt/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) mais citadas. É também incompleta enquanto métrica de priorização em [conservação](/pt/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). As avaliações públicas da [Agência Europeia do Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), do [UNEP](https://www.unep.org/explore-topics/ecosystems) e da [IPBES](https://www.ipbes.net/global-assessment) tratam todas a perda de [biodiversidade](/pt/ecology/biodiversity/essential-biodiversity-variables-monitoring) como algo mais do que um simples problema de contagem de espécies.

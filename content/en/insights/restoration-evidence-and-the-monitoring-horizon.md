@@ -6,7 +6,7 @@ category: ecology
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 8
+readingTime: 9
 tags:
   - ecological-restoration
   - monitoring
@@ -19,7 +19,7 @@ related:
   - wetlands-and-their-functions
   - reforestation-and-tree-planting-evidence
   - conservation-science-explained
-_bodyHash: a179611b
+_bodyHash: 9a3211cd
 ---
 
 A synthesis of 400 studies and 5,142 response variables examined recovery from oil spills, agriculture, logging and other large disturbances. Two of its findings sit uneasily together. Recovery was positive in every category examined, at a median rate of about 2.9% per year. And half the dataset had no more than ten years in which to recover.

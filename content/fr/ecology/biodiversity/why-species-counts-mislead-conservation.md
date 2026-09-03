@@ -1,6 +1,6 @@
 ---
-title: "Pourquoi le décompte des espèces fausse les priorités de conservation"
-excerpt: "La richesse spécifique est la mesure de biodiversité la plus facile à calculer et la plus mauvaise sur laquelle hiérarchiser. Ce sont les diversités fonctionnelle et phylogénétique qui prédisent la performance des écosystèmes — et elles divergent souvent du décompte des espèces."
+title: Pourquoi le décompte des espèces fausse les priorités de conservation
+excerpt: La richesse spécifique est la mesure de biodiversité la plus facile à calculer et la plus mauvaise sur laquelle hiérarchiser. Ce sont les diversités fonctionnelle et phylogénétique qui prédisent la performance des écosystèmes — et elles divergent souvent du décompte des espèces.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-02-08'
@@ -14,6 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
+_bodyHash: 362aac9c
 ---
 
 La richesse spécifique — le nombre d'espèces distinctes recensées dans une aire définie — est l'une des mesures de la [biodiversité](/fr/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) les plus citées. C'est aussi une mesure incomplète pour hiérarchiser les priorités de [conservation](/fr/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). Les évaluations publiques de l'[Agence européenne pour l'environnement](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), du [PNUE](https://www.unep.org/explore-topics/ecosystems) et de l'[IPBES](https://www.ipbes.net/global-assessment) traitent toutes l'érosion de la [biodiversité](/fr/ecology/biodiversity/essential-biodiversity-variables-monitoring) comme un problème qui ne se réduit pas à un décompte d'espèces.

@@ -18,6 +18,7 @@ related:
   - speciation-mechanisms
   - species-extinction-risk-assessment
 pillar: evolution-explained
+_bodyHash: a6ec2b27
 ---
 
 Every generation is a sample. A population produces far more gametes than become offspring, and which ones make it through is partly a matter of who happened to find a mate, who happened to be eaten before breeding, and which of two equally good copies a parent happened to pass on. The National Human Genome Research Institute defines genetic drift as random fluctuation in the frequency of an allele in a population, and notes that although the effect is strongest in small, isolated groups it can be powerful enough to fix a variant or erase it entirely. That is the whole mechanism. The consequences are less obvious than the definition.

@@ -14,6 +14,7 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
+_bodyHash: b019ae4b
 ---
 
 Una célula es la unidad física más pequeña capaz de mantenerse a sí misma, de copiarse a sí misma y de responder a su entorno. Este encuadre operativo concuerda con el material de referencia de [biología celular](/es/biology/cells/cell-signaling-pathways-basics) disponible en [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) y con las [definiciones de genética](/es/biology/genetics/what-is-dna) del [NHGRI](https://www.genome.gov/genetics-glossary). Tres requisitos; cada uno hace un trabajo estructural a la hora de definir qué es una célula, y de explicar por qué algunos casos límite (los virus, las mitocondrias, los orgánulos en tránsito) no son [células](/es/biology/cells/coral-microbiome-bleaching-resistance), aunque compartan algunas propiedades de las [células](/es/biology/cells/coral-microbiome-bleaching-resistance).

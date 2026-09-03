@@ -18,6 +18,7 @@ related:
   - culturing-and-sequencing-microbes
   - microbiomes-and-host-microbe-interactions
 pillar: microbiology-explained
+_bodyHash: 8a7d1141
 ---
 
 The biology of antimicrobial resistance is comparatively settled. A bacterium survives a drug by destroying it, altering what the drug binds to, pumping it out, or keeping it from entering — and any of those capabilities can arrive on a plasmid from an unrelated species. What is genuinely contested is the arithmetic: how many infections are resistant, how many deaths follow from that, and how much of either number is measurement rather than model.

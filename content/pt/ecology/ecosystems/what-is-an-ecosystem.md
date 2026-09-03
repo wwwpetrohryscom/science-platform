@@ -1,6 +1,6 @@
 ---
-title: "O que é um ecossistema? Uma definição assente nos fluxos"
-excerpt: "Um ecossistema não é um lugar, é um fluxo. O que essa distinção muda na forma de pensar a resiliência, a restauração e aquilo que efetivamente conservamos."
+title: O que é um ecossistema? Uma definição assente nos fluxos
+excerpt: Um ecossistema não é um lugar, é um fluxo. O que essa distinção muda na forma de pensar a resiliência, a restauração e aquilo que efetivamente conservamos.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
@@ -14,6 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
+_bodyHash: f74fc69c
 ---
 
 Um ecossistema é o fluxo simultâneo de [energia](/pt/physics/energy/perovskite-stack-field-stability), de matéria e de informação através de uma comunidade de organismos e do seu meio físico ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). A palavra «ecossistema» foi cunhada por Arthur Tansley em 1935 precisamente para suplantar a noção mais antiga, e mais romântica, de «comunidade»: Tansley queria um termo que pusesse a tónica na troca e não na pertença.

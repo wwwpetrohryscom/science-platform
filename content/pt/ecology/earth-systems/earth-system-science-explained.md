@@ -1,6 +1,6 @@
 ---
-title: "Ciência do sistema Terra: como interagem os grandes sistemas do planeta"
-excerpt: "O ar, a água, o gelo, a rocha e a vida estudam-se habitualmente em separado. A ciência do sistema Terra estuda os acoplamentos entre eles — é aí que reside a maior parte do comportamento e da incerteza."
+title: 'Ciência do sistema Terra: como interagem os grandes sistemas do planeta'
+excerpt: O ar, a água, o gelo, a rocha e a vida estudam-se habitualmente em separado. A ciência do sistema Terra estuda os acoplamentos entre eles — é aí que reside a maior parte do comportamento e da incerteza.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-08-29'
@@ -18,12 +18,13 @@ related:
   - climate-feedback-mechanisms
   - earth-system-models-explained
 faq:
-  - question: "O que é a ciência do sistema Terra?"
-    answer: "É o estudo do planeta como um conjunto de componentes acopladas — atmosfera, oceano e águas continentais, gelo, rocha e solo, e vida — que trocam entre si energia e matéria. O seu gesto definidor é tratar as trocas entre componentes como objeto de estudo, e não como condições de fronteira de uma disciplina isolada."
-  - question: "Em que difere da ciência do clima?"
-    answer: "A ciência do clima é uma parte dela. A ciência do sistema Terra estende o mesmo quadro acoplado aos ciclos do carbono, da água e do azoto, aos ecossistemas e à Terra sólida, e estuda processos em escalas de tempo que vão de dias a milhões de anos, e não apenas o sinal do aquecimento antropogénico."
-  - question: "Porque é que as retroações têm tanta importância neste quadro?"
-    answer: "Porque determinam a magnitude da resposta que se segue a um dado empurrão. O AR6 do IPCC avalia o parâmetro de retroação climática líquida em −1,16 W m⁻² °C⁻¹, com um intervalo muito provável de −1,81 a −0,51 — um intervalo suficientemente largo para que seja ele, e não a dimensão do forçamento, a dominar a incerteza do aquecimento a longo prazo."
+  - question: O que é a ciência do sistema Terra?
+    answer: É o estudo do planeta como um conjunto de componentes acopladas — atmosfera, oceano e águas continentais, gelo, rocha e solo, e vida — que trocam entre si energia e matéria. O seu gesto definidor é tratar as trocas entre componentes como objeto de estudo, e não como condições de fronteira de uma disciplina isolada.
+  - question: Em que difere da ciência do clima?
+    answer: A ciência do clima é uma parte dela. A ciência do sistema Terra estende o mesmo quadro acoplado aos ciclos do carbono, da água e do azoto, aos ecossistemas e à Terra sólida, e estuda processos em escalas de tempo que vão de dias a milhões de anos, e não apenas o sinal do aquecimento antropogénico.
+  - question: Porque é que as retroações têm tanta importância neste quadro?
+    answer: Porque determinam a magnitude da resposta que se segue a um dado empurrão. O AR6 do IPCC avalia o parâmetro de retroação climática líquida em −1,16 W m⁻² °C⁻¹, com um intervalo muito provável de −1,81 a −0,51 — um intervalo suficientemente largo para que seja ele, e não a dimensão do forçamento, a dominar a incerteza do aquecimento a longo prazo.
+_bodyHash: e98823dd
 ---
 
 Um furacão é um fenómeno meteorológico, o colapso de uma pescaria é um problema de ecologia e a deslocação da faixa de chuvas do Sara é uma questão de climatologia. Foi assim que as ciências se organizaram durante quase todo o século XX, e funcionou razoavelmente enquanto cada disciplina permaneceu dentro da sua fronteira. Deixou de funcionar quando as perguntas a que mais se queria responder — quanto aquecimento decorre de uma dada emissão, se uma floresta continuará a absorver carbono, porque é que uma anomalia de temperatura no Pacífico altera a precipitação na África Oriental — se revelaram dependentes do que acontece *entre* as componentes, e não dentro de qualquer uma delas.

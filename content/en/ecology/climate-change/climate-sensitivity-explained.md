@@ -5,7 +5,7 @@ type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - climate-sensitivity
   - climate-feedback
@@ -19,7 +19,7 @@ related:
   - carbon-cycle-feedbacks
   - ocean-heat-content-indicators
 pillar: what-is-climate-change
-_bodyHash: 3e904bf8
+_bodyHash: 61b62439
 ---
 
 Nearly every quantitative statement about future warming inherits its uncertainty from a small set of assessed parameters, and two of them carry most of the load. They are routinely used as though they were the same quantity. They are not: the IPCC's Sixth Assessment Report puts one at 3°C and the other at 1.8°C, and the difference is not a matter of rounding but of which experiment is being described. Anyone working from the [mechanism and evidence behind modern warming](/en/ecology/climate-change/what-is-climate-change) will meet both figures within a page or two of each other, usually without being told that they answer different questions.

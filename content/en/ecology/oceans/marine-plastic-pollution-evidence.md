@@ -18,7 +18,7 @@ related:
   - marine-food-webs-and-productivity
   - ocean-deoxygenation-and-dead-zones
 pillar: ocean-science-explained
-_bodyHash: 8fc7b8fc
+_bodyHash: e22f80c8
 ---
 
 Around 2014 the field acquired an arithmetic problem. One set of studies estimated that several million tonnes of polymer waste were entering the sea every year. Another set, towing nets across every subtropical gyre, could account for only a few hundred thousand tonnes floating on the surface — a shortfall of one to two orders of magnitude that became known as the missing-plastic problem. A decade of work aimed at that discrepancy has produced a much sharper picture of what each measurement method can actually see, which is why the budget is a better entry point to this subject than any single headline figure. Where the material ends up is governed by the slow vertical exchange that organises everything else in [ocean science](/en/ecology/oceans/ocean-science-explained), and that turned out to matter more than the tonnage did.

@@ -1,6 +1,6 @@
 ---
-title: "L'observation de la Terre et la télédétection : comment on mesure la planète depuis l'espace"
-excerpt: "Les satellites sont devenus les instruments qui permettent d'observer la planète entière d'un seul tenant. Voici comment fonctionne l'observation de la Terre — du photon au produit de données étalonné —, ce qu'elle mesure du climat aux écosystèmes, et où se situent ses limites."
+title: 'L''observation de la Terre et la télédétection : comment on mesure la planète depuis l''espace'
+excerpt: Les satellites sont devenus les instruments qui permettent d'observer la planète entière d'un seul tenant. Voici comment fonctionne l'observation de la Terre — du photon au produit de données étalonné —, ce qu'elle mesure du climat aux écosystèmes, et où se situent ses limites.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -16,6 +16,7 @@ related:
   - landsat-program-explained
   - earth-observation-data-products
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: 6513b2af
 ---
 
 L'essentiel de ce que nous savons de l'évolution de la planète — le recul des glaces, l'avancée de la déforestation, le réchauffement des mers, le verdissement et le brunissement des terres — se mesure aujourd'hui, au moins en partie, depuis l'espace. L'[observation de la Terre](/en/glossary/earth-observation) consiste à recueillir de l'information sur les continents, l'océan, l'atmosphère et les glaces de la planète au moyen de capteurs embarqués sur des satellites et des aéronefs. La [télédétection](/en/glossary/remote-sensing) en est la technique sous-jacente : mesurer une chose sans la toucher, en enregistrant le rayonnement qu'elle réfléchit ou qu'elle émet.

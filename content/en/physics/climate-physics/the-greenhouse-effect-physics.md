@@ -17,6 +17,7 @@ related:
   - atmospheric-structure-and-lapse-rate
   - climate-sensitivity-explained
 pillar: atmospheric-physics-explained
+_bodyHash: '97115745'
 ---
 
 An actual greenhouse works by stopping convection: the glass keeps warm air from rising away, and the radiative properties of the glass are secondary. The atmosphere does not do that — the troposphere convects vigorously, which is precisely the point. A blanket works by suppressing conduction and convection at the skin. The atmosphere does not do that either. Both metaphors survive because they get the sign of the answer right, and both fail the moment anyone asks what happens when the concentration changes.

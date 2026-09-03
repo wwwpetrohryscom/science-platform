@@ -18,6 +18,7 @@ related:
   - invasive-species-management
   - conservation-trade-offs-and-prioritisation
   - habitat-fragmentation-and-connectivity
+_bodyHash: f6d628f7
 ---
 
 A conservação faz uma pergunta que soa prática e é, na verdade, causal: esta ação alterou a trajetória desta população, deste habitat, desta paisagem, em comparação com o que teria acontecido sem ela? Quase todas as dificuldades metodológicas do domínio descendem de uma propriedade incómoda dessa pergunta — o estado de comparação nunca é observado. Tem de ser construído.

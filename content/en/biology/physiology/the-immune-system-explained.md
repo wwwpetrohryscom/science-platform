@@ -17,6 +17,7 @@ related:
   - hormones-and-endocrine-signalling
   - thermoregulation-in-animals
 pillar: physiology-explained
+_bodyHash: dec1de31
 ---
 
 The hard problem in immunity is combinatorial. A pathogen population evolves on a timescale of days, so any defence built around a fixed list of molecular signatures will be outrun; the system has to be able to recognise things that did not exist when the organism was born. Two very different strategies address that, and vertebrates run both at once — a fast, encoded layer aimed at features microbes cannot easily discard, and a slow layer that manufactures recognition at random and then selects from what it made.

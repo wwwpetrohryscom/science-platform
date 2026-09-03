@@ -18,6 +18,7 @@ related:
   - climate-model-physics-explained
   - el-nino-la-nina-enso-explained
 pillar: atmospheric-physics-explained
+_bodyHash: 5961421d
 ---
 
 George Hadley proposed in 1735 that each hemisphere runs a single convection cell: air heated at the equator rises, travels aloft to the pole, sinks, and returns along the surface. The scheme is thermodynamically sound and it gets only half the answer. It predicts a tropical surface wind blowing from the north in the Northern Hemisphere and from the south in the Southern, which is the equatorward component sailors do observe. What it cannot produce is the far larger easterly component that makes the trades north-easterly and south-easterly rather than northerly and southerly. Accounting for that missing half is the organising problem of the whole circulation, because the poleward energy transport described in the overview of [atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained) is carried out by a structure that rotation forces into a shape Hadley's scheme cannot produce.

@@ -5,7 +5,7 @@ type: expert
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - air-quality-index
   - air-monitoring
@@ -18,7 +18,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - noise-and-light-pollution-ecology
 pillar: environmental-pollution-explained
-_bodyHash: 13732c9b
+_bodyHash: cae27510
 ---
 
 An air quality standard is never just a concentration. It is a concentration attached to an averaging time, a statistic, and usually a multi-year averaging rule — and the statistic does as much regulatory work as the number in front of it. The US ozone standard is 0.070 parts per million over eight hours, but the form of the standard is the annual fourth-highest daily maximum eight-hour value, averaged over three years. A location can therefore record several days above the level every year and still be in attainment. That is a deliberate design choice, not a loophole: it tolerates rare meteorological extremes while constraining the recurring pattern. It also means "the standard was exceeded today" and "the standard was violated" are different statements.

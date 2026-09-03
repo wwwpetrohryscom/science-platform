@@ -18,6 +18,7 @@ related:
   - heat-transfer-conduction-convection-radiation
   - thermodynamic-limits-of-photovoltaics
 pillar: laws-of-thermodynamics-explained
+_bodyHash: e7f690cc
 ---
 
 American power plants report their performance as a heat rate — the fuel energy consumed per unit of electricity delivered — and the Energy Information Administration's 2024 figures make the state of the art easy to read. Tested coal-fired steam units averaged 10,018 Btu per kilowatt-hour, natural gas combined-cycle units 7,548, and simple-cycle gas turbines 10,999. Since a kilowatt-hour is 3,412 Btu, those convert to 34.1%, 45.2% and 31.0%.

@@ -1,6 +1,6 @@
 ---
-title: "Écosystèmes d'eau douce : moins de 0,01 % de l'eau, plus de 10 % des espèces décrites"
-excerpt: "Fleuves, lacs et marécages renferment moins d'un centième de pour cent de l'eau de la Terre et ne couvrent que quelques pour cent des terres émergées ; ils abritent pourtant plus d'un dixième des espèces décrites. Ce décalage façonne tout ce qui les concerne."
+title: 'Écosystèmes d''eau douce : moins de 0,01 % de l''eau, plus de 10 % des espèces décrites'
+excerpt: Fleuves, lacs et marécages renferment moins d'un centième de pour cent de l'eau de la Terre et ne couvrent que quelques pour cent des terres émergées ; ils abritent pourtant plus d'un dixième des espèces décrites. Ce décalage façonne tout ce qui les concerne.
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
+_bodyHash: 278069f7
 ---
 
 Tous les lacs et tous les chenaux fluviaux de la Terre réunis contiennent environ 93 100 kilomètres cubes d'eau. L'océan en contient 1 338 000 000. Dans le tableau de répartition mondiale de l'eau tenu par la Water Science School de l'USGS, cette fraction superficielle représente à peu près un cent-cinquantième de pour cent de toute l'eau ; en y ajoutant les marécages du monde, le total reste inférieur à un centième de pour cent. Les évaluations d'espèces indiquent que ces mêmes habitats abritent plus de 10 % de toutes les espèces décrites, dont environ un tiers des vertébrés et près de la moitié des poissons. L'écologie des eaux douces est pour l'essentiel l'étude de ce qui découle de ce rapport.

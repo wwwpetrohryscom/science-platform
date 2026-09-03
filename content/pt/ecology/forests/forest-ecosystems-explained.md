@@ -18,6 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
   - forest-disturbance-fire-insects-windthrow
+_bodyHash: 493cf765
 ---
 
 A palavra «floresta» faz, dentro de uma estatística, muito mais trabalho do que parece capaz de fazer. Antes de nomear um ecossistema, nomeia uma categoria de uso do solo: limiares de área, de altura das árvores e de coberto de copas, mais um juízo sobre o destino do terreno. Mexa-se em qualquer um desses parâmetros e a área florestal do mundo mexe-se com ele, sem que uma única árvore mude.

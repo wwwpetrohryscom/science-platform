@@ -17,6 +17,7 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
+_bodyHash: 6df3c48d
 ---
 
 Two comparisons set up everything that follows. The Bohr radius, the natural length scale of an atom, is 5.2918 × 10⁻¹¹ m in the 2022 CODATA adjustment. The charge radius of a uranium-238 nucleus, from the IAEA's evaluated nuclear data, is 5.8571 ± 0.0033 fm — that is 5.8571 × 10⁻¹⁵ m. In radius, the nucleus is smaller than the atom around it by a factor of about nine thousand.

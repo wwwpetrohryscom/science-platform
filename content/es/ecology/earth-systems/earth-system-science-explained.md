@@ -24,6 +24,7 @@ faq:
     answer: La ciencia del clima es una parte de ella. La ciencia del sistema Tierra extiende ese mismo marco acoplado a los ciclos del carbono, del agua y del nitrógeno, a los ecosistemas y a la Tierra sólida, y estudia procesos en escalas temporales que van de días a millones de años, no solo la señal antropogénica de calentamiento.
   - question: ¿Por qué importan tanto las retroalimentaciones en este marco?
     answer: Porque fijan la magnitud de la respuesta que sigue a un empujón dado. El AR6 del IPCC evalúa el parámetro de retroalimentación climática neta en −1,16 W m⁻² °C⁻¹, con un rango muy probable de −1,81 a −0,51, lo bastante amplio como para que sea él, y no el tamaño del forzamiento, lo que domina la incertidumbre del calentamiento a largo plazo.
+_bodyHash: 8cc3550e
 ---
 
 Un huracán es un fenómeno meteorológico, el colapso de una pesquería es un problema de ecología y un desplazamiento de la banda de lluvias del Sáhara es una cuestión de climatología. Así estuvieron organizadas las ciencias durante la mayor parte del siglo XX, y funcionó lo bastante bien mientras cada campo se mantuvo dentro de sus propios límites. Dejó de funcionar cuando las preguntas que más interesaba responder —cuánto calentamiento sigue a una emisión dada, si un bosque seguirá absorbiendo carbono, por qué una anomalía térmica del Pacífico altera las lluvias de África oriental— resultaron depender de lo que ocurre *entre* los componentes y no dentro de ninguno de ellos.

@@ -17,6 +17,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
+_bodyHash: 3ab3ef3e
 ---
 
 Der Ozean ist ein einziger zusammenhängender Wasserkörper, der sich verhält, als wäre er gestapelt. Die Dichte – eine Funktion von Temperatur, Salzgehalt und Druck – sortiert Meerwasser in Schichten, die nur langsam miteinander austauschen, und der größte Teil des großräumigen Verhaltens des Meeres folgt aus dieser Sortierung: wo sich zugeführte Wärme ansammelt, wo die Nährstoffe liegen, wie tief das Licht reicht und wie lange etwas dort bleibt, wo es ist.

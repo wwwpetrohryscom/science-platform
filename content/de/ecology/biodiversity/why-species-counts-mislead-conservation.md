@@ -14,6 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
+_bodyHash: '51e45584'
 ---
 
 Der Artenreichtum – die Zahl der unterschiedlichen Arten in einem definierten Gebiet – gehört zu den meistzitierten Maßen für [Biodiversität](/de/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). Als Metrik für die Priorisierung im [Naturschutz](/de/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) ist er zugleich unvollständig. Öffentliche Bewertungen der [Europäischen Umweltagentur](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), des [UNEP](https://www.unep.org/explore-topics/ecosystems) und des [IPBES](https://www.ipbes.net/global-assessment) behandeln den Verlust an [Biodiversität](/de/ecology/biodiversity/essential-biodiversity-variables-monitoring) durchweg als mehr als ein bloßes Problem der Artenzahl.

@@ -18,6 +18,7 @@ related:
   - speciation-mechanisms
   - genetic-drift-and-population-size
 pillar: evolution-explained
+_bodyHash: 40e6f449
 ---
 
 A peacock's train, a stag's antlers and a bowerbird's construction are costly in energy, in predation risk, or in both. Natural selection on survival cannot account for them, and Darwin's answer was that they are paid for by differential access to mates. The modern version of that argument starts one step earlier, with anisogamy — the asymmetry between many small gametes and few large ones — which tends to make reproduction limited by mates for one sex and by resources or time for the other. Everything downstream of that premise is where the interesting empirical work sits, and where the field's internal arguments are sharpest. The general framework it sits inside is covered in the [account of how evolution works](/en/biology/evolution/evolution-explained).

@@ -17,6 +17,7 @@ related:
   - photosynthesis-explained
   - nutrient-availability-and-soil-fertility
 pillar: physiology-explained
+_bodyHash: 6a04fc3c
 ---
 
 A tall tree lifts water tens of metres above the ground continuously, through a network with no valve, no chamber and no moving part, and spends no metabolic energy on the lift itself. The work is done by evaporation at the leaf surface, and the water is not pushed from below but pulled from above, under tension, through a continuous liquid thread. Understanding that one mechanism explains most of the rest of plant water relations, and it is a case where [the general problem of holding a physiological state steady](/en/biology/physiology/physiology-explained) is solved by physics rather than by a pump.

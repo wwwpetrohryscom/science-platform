@@ -18,6 +18,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
+_bodyHash: 9ea8b5c3
 ---
 
 Uma substância não é poluição por aquilo que é. Torna-se poluição quando três coisas se alinham: uma **fonte** que a liberta, uma **via** que a transporta para algum lado e um **recetor** — uma pessoa, uma população, uma espécie, um habitat — situado no extremo dessa via. Corte-se qualquer um dos três e a substância continua presente e continua tóxica, mas o dano desaparece. Selar um local contaminado deixa a fonte no lugar e fecha a via. Deslocar uma captação de água para consumo humano tira o recetor do caminho.

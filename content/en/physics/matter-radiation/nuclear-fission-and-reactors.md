@@ -18,6 +18,7 @@ related:
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
 pillar: atomic-and-nuclear-physics-explained
+_bodyHash: 5a0f08a1
 ---
 
 Start with the arithmetic of one event, because everything difficult about reactors is visible in it.

@@ -18,6 +18,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
+_bodyHash: b0b64c70
 ---
 
 Neuer Boden entsteht mit einer Rate, deren Median die FAO und ihr Intergovernmental Technical Panel on Soils bei etwa 0,15 Tonnen je Hektar und Jahr ansetzen und die typischerweise deutlich unter einer Tonne liegt. Über einen Hektar verteilt, ist eine Tonne Mineralboden ein Film, den man nicht sehen könnte. Diese Zahl ist der Grund dafür, dass die Bodenkunde so angelegt ist, wie sie angelegt ist: Auf jeder Zeitskala, auf der eine Landwirtin, ein Planer oder ein völkerrechtlicher Vertrag operiert, ist das betrachtete Material ein festes Erbe, das aufgezehrt wird, und kein erneuerbarer Fluss.

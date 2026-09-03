@@ -18,6 +18,7 @@ related:
   - sound-and-acoustics-explained
   - global-temperature-records-explained
 pillar: classical-mechanics-explained
+_bodyHash: 8ef713de
 ---
 
 Write down 9.81 m/s² and you have asserted almost nothing. Write down 9.81 ± 0.02 m/s² and you have made a testable claim: about how the value was obtained, about what would happen if the measurement were repeated, and about the interval within which a further determination would be expected to fall. The second number is not a disclaimer attached to the first. It is the part that makes the first one usable, and it is what allows two laboratories to say whether they agree.

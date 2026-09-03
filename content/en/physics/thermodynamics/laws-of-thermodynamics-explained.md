@@ -17,6 +17,7 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
+_bodyHash: d0b02172
 ---
 
 Thermodynamics is a set of prohibitions. Each of its four laws says that something cannot be done, and each has outlived the microscopic theories that were meant to explain it — caloric, then classical mechanics, then classical field theory. That is why a nineteenth-century argument about steam still constrains a solar cell, a domestic refrigerator and a bacterium without modification.

@@ -18,6 +18,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
+_bodyHash: fb0c8e7d
 ---
 
 Forma-se solo novo a uma taxa mediana que a FAO e o seu Painel Técnico Intergovernamental sobre os Solos situam em cerca de 0,15 toneladas por hectare e por ano, e em regra bastante abaixo de uma tonelada. Espalhada por um hectare, uma tonelada de solo mineral é uma película que não se conseguiria ver. É esse número que explica a forma como a ciência do solo está organizada: em qualquer escala de tempo em que operem um agricultor, um responsável pelo planeamento ou um tratado, o material de que se fala é uma herança fixa que se está a gastar, e não um fluxo renovável.

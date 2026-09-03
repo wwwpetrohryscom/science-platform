@@ -1,5 +1,5 @@
 ---
-title: 'Was ist DNA? Das Molekül, der Code und was die DNA nicht bestimmt'
+title: Was ist DNA? Das Molekül, der Code und was die DNA nicht bestimmt
 excerpt: Die DNA ist ein molekularer Code aus vier Buchstaben, der die Information speichert, um eine Zelle zu bauen und zu betreiben. Zu verstehen, was sie leistet – und die ebenso wichtigen Dinge, die sie nicht leistet –, ist das Fundament der modernen Biologie.
 type: pillar
 author: biology-ecosystems-desk
@@ -15,12 +15,13 @@ related:
   - what-is-a-cell
   - single-cell-evo-devo
 faq:
-  - question: "Wenn die DNA der Bauplan ist, warum sind eineiige Zwillinge dann nicht identisch?"
-    answer: "Die DNA ist kein Bauplan, sondern ein Rezept, dessen Ausführung vom Kontext abhängt. Eineiige Zwillinge teilen den Genotyp, entwickeln sich aber in unterschiedlichen pränatalen Lagen, sammeln unterschiedliche Mutationen an, erleben unterschiedliche Umwelten und erfahren unterschiedliche epigenetische Modifikationen. Die phänotypischen Unterschiede zwischen eineiigen Zwillingen belegen, dass die DNA den Organismus unterbestimmt."
-  - question: "Wie viel des menschlichen Genoms ist „Müll“?"
-    answer: "Wie funktional ein Genom ist, hängt davon ab, wie man Funktion definiert. Proteincodierende Sequenz macht nur einen kleinen Teil des Genoms aus, während regulatorische, strukturelle und evolutionäre Rollen komplexer zu fassen sind. Behauptungen, nahezu jede Base sei funktional, sind mit Vorsicht zu behandeln, solange sie nicht die biochemische Aktivität von einer durch Selektion erhaltenen biologischen Funktion unterscheiden."
-  - question: "Sind die meisten Krankheiten genetisch bedingt?"
-    answer: "Viele häufige Krankheiten haben genetische Komponenten, doch die meisten sind nicht rein genetisch. Umwelt, Verhalten, Expositionsgeschichte und Zufall wirken in der Regel mit dem ererbten Risiko zusammen. Monogene Erkrankungen gibt es, und für die Betroffenen sind sie bedeutsam, aber sie sind kein vollständiges Modell für die Krankheitslast der häufigen Erkrankungen."
+  - question: Wenn die DNA der Bauplan ist, warum sind eineiige Zwillinge dann nicht identisch?
+    answer: Die DNA ist kein Bauplan, sondern ein Rezept, dessen Ausführung vom Kontext abhängt. Eineiige Zwillinge teilen den Genotyp, entwickeln sich aber in unterschiedlichen pränatalen Lagen, sammeln unterschiedliche Mutationen an, erleben unterschiedliche Umwelten und erfahren unterschiedliche epigenetische Modifikationen. Die phänotypischen Unterschiede zwischen eineiigen Zwillingen belegen, dass die DNA den Organismus unterbestimmt.
+  - question: Wie viel des menschlichen Genoms ist „Müll“?
+    answer: Wie funktional ein Genom ist, hängt davon ab, wie man Funktion definiert. Proteincodierende Sequenz macht nur einen kleinen Teil des Genoms aus, während regulatorische, strukturelle und evolutionäre Rollen komplexer zu fassen sind. Behauptungen, nahezu jede Base sei funktional, sind mit Vorsicht zu behandeln, solange sie nicht die biochemische Aktivität von einer durch Selektion erhaltenen biologischen Funktion unterscheiden.
+  - question: Sind die meisten Krankheiten genetisch bedingt?
+    answer: Viele häufige Krankheiten haben genetische Komponenten, doch die meisten sind nicht rein genetisch. Umwelt, Verhalten, Expositionsgeschichte und Zufall wirken in der Regel mit dem ererbten Risiko zusammen. Monogene Erkrankungen gibt es, und für die Betroffenen sind sie bedeutsam, aber sie sind kein vollständiges Modell für die Krankheitslast der häufigen Erkrankungen.
+_bodyHash: a4629471
 ---
 
 Die DNA – Desoxyribonukleinsäure – ist ein molekularer Code aus vier Buchstaben, der genetische Information speichert, wie das [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid) zusammenfasst. Sie ist der Träger der Vererbung und das Substrat, auf dem die [Evolution arbeitet](/de/biology/evolution/cell-types-as-units-of-evolution). Sie wird in der öffentlichen Debatte außerdem regelmäßig überzeichnet, und zwar auf eine Weise, die von der tatsächlichen Biologie nicht gedeckt ist.

@@ -17,6 +17,7 @@ related:
   - zoology-animal-diversity-explained
   - species-richness-explained
 pillar: taxonomy-and-classification-explained
+_bodyHash: a67bac8c
 ---
 
 Two very different quantities get quoted for the diversity of life on Earth, and most of the apparent disagreement comes from treating them as one. The first is a tally of names in a catalogue. It can be recomputed on demand, and it is right or wrong in a way that can be audited entry by entry. The second is an extrapolation from that tally to a total nobody has observed, and it is right or wrong only in the weaker sense that its assumptions hold or fail. Published extrapolations currently span from a few million to a trillion. That range is not uncertainty around a shared measurement; it is the signature of methods that do not agree on what they are counting.

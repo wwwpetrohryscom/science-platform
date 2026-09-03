@@ -18,6 +18,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
+_bodyHash: 7242de1c
 ---
 
 Todos los lagos y cauces fluviales de la Tierra suman entre sí unos 93.100 kilómetros cúbicos de agua. El océano contiene 1.338.000.000. En la tabla de distribución global del agua que mantiene la Water Science School del USGS, esa fracción superficial equivale aproximadamente a una ciento cincuentava parte del uno por ciento de toda el agua; si se añaden los pantanos del mundo, el total sigue por debajo de la centésima parte del uno por ciento. Las evaluaciones de especies indican que esos mismos hábitats sostienen más del 10 % de todas las especies descritas, entre ellas cerca de un tercio de los vertebrados y alrededor de la mitad de todos los peces. La ecología de las aguas continentales es, en buena medida, el estudio de lo que se sigue de esa proporción.

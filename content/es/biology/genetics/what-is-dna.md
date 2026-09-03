@@ -21,6 +21,7 @@ faq:
     answer: La funcionalidad del genoma depende de qué se entienda por función. La secuencia codificante de proteínas es una fracción pequeña del genoma, mientras que los papeles reguladores, estructurales y evolutivos son más complejos. Las afirmaciones de que casi todas las bases son funcionales deben tomarse con cautela salvo que distingan la actividad bioquímica de la función biológica sometida a selección.
   - question: ¿La mayoría de las enfermedades son genéticas?
     answer: Muchas enfermedades comunes tienen componentes genéticos, pero la mayoría no son puramente genéticas. El entorno, la conducta, el historial de exposiciones y el azar suelen interactuar con el riesgo heredado. Los trastornos monogénicos existen y son importantes para quienes los padecen, pero no son un modelo completo de la carga de enfermedad común.
+_bodyHash: dfbd8c86
 ---
 
 El ADN —ácido desoxirribonucleico— es un código molecular de cuatro letras que almacena información genética, tal como lo resume el [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Es el portador de la herencia y el sustrato sobre el que opera la [evolución](/es/biology/evolution/cell-types-as-units-of-evolution). También se exagera de forma rutinaria en la discusión pública, de maneras que la biología real no respalda.

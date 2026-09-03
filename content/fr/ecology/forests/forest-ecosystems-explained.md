@@ -1,6 +1,6 @@
 ---
-title: "Les forêts : structure, fonction et les définitions qui décident des statistiques"
-excerpt: "Une forêt est une catégorie d'usage des terres avant d'être un écosystème, et les seuils de cette catégorie décident de la plupart des chiffres publiés à son sujet. Cette page expose les définitions, la structure qu'elles décrivent et les limites du tableau mondial."
+title: 'Les forêts : structure, fonction et les définitions qui décident des statistiques'
+excerpt: Une forêt est une catégorie d'usage des terres avant d'être un écosystème, et les seuils de cette catégorie décident de la plupart des chiffres publiés à son sujet. Cette page expose les définitions, la structure qu'elles décrivent et les limites du tableau mondial.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - forest-degradation-vs-deforestation
   - tropical-forest-ecology
   - forest-disturbance-fire-insects-windthrow
+_bodyHash: 1cece3fc
 ---
 
 Le mot « forêt » accomplit dans une statistique bien plus de travail qu'il n'en a l'air. Avant de désigner un écosystème, il désigne une catégorie d'usage des terres : des seuils de superficie, de hauteur des arbres et de couvert arboré, plus un jugement sur la vocation du terrain. Déplacez l'un de ces réglages et la superficie forestière mondiale se déplace avec lui, sans qu'un seul arbre ait changé.

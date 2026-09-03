@@ -1,6 +1,6 @@
 ---
-title: "Observação da Terra e deteção remota: como se mede o planeta a partir do espaço"
-excerpt: "Os satélites tornaram-se os instrumentos que permitem observar o planeta inteiro de uma só vez. Explica-se aqui como funciona a observação da Terra — dos fotões aos produtos de dados calibrados —, o que mede no clima e nos ecossistemas e onde estão os seus limites."
+title: 'Observação da Terra e deteção remota: como se mede o planeta a partir do espaço'
+excerpt: Os satélites tornaram-se os instrumentos que permitem observar o planeta inteiro de uma só vez. Explica-se aqui como funciona a observação da Terra — dos fotões aos produtos de dados calibrados —, o que mede no clima e nos ecossistemas e onde estão os seus limites.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-06-02'
@@ -16,6 +16,7 @@ related:
   - landsat-program-explained
   - earth-observation-data-products
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: '19724247'
 ---
 
 Quase tudo o que sabemos sobre a forma como o planeta está a mudar — o recuo do gelo, o avanço da desflorestação, o aquecimento dos mares, o esverdeamento e o acastanhamento da superfície terrestre — é hoje medido, pelo menos em parte, a partir do espaço. A [observação da Terra](/en/glossary/earth-observation) é a prática de recolher informação sobre a terra, o oceano, a atmosfera e o gelo do planeta com sensores instalados em satélites e em aeronaves. A [deteção remota](/en/glossary/remote-sensing) é a técnica subjacente: medir algo sem lhe tocar, registando a radiação que reflete ou emite.

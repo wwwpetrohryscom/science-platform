@@ -1,6 +1,6 @@
 ---
-title: "Qu'est-ce que le changement climatique ? Le mécanisme, les preuves et les questions ouvertes"
-excerpt: "Le changement climatique désigne la modification à long terme du bilan énergétique de la Terre sous l'effet de l'évolution de la composition de l'atmosphère. Voici le mécanisme, les preuves qui l'établissent et les questions qui restent réellement ouvertes."
+title: Qu'est-ce que le changement climatique ? Le mécanisme, les preuves et les questions ouvertes
+excerpt: Le changement climatique désigne la modification à long terme du bilan énergétique de la Terre sous l'effet de l'évolution de la composition de l'atmosphère. Voici le mécanisme, les preuves qui l'établissent et les questions qui restent réellement ouvertes.
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
@@ -16,12 +16,13 @@ related:
   - communicating-attribution-uncertainty
   - what-is-an-ecosystem
 faq:
-  - question: "Le réchauffement est-il bien dû à l'activité humaine ?"
-    answer: "Les évaluations du GIEC et de la NASA présentent l'influence humaine sur le réchauffement récent comme établie par plusieurs faisceaux de preuves indépendants : composition de l'atmosphère, structure du réchauffement observé, attribution par modélisation. Les incertitudes les plus fortes qui subsistent portent sur les impacts régionaux, l'intensité des rétroactions et le calendrier, non sur le sens même de l'influence humaine."
-  - question: "Pourquoi un ou deux degrés de réchauffement comptent-ils ?"
-    answer: "La température moyenne mondiale est un forçage thermodynamique qui entraîne des changements régionaux bien plus amples : journées de chaleur extrême, régimes de précipitations, stratification de l'océan, niveau de la mer. Le seuil de deux degrés n'est pas une falaise, mais un repère utile au-delà duquel plusieurs grandes rétroactions (méthane arctique, dynamique des calottes glaciaires, dépérissement forestier) ont davantage de chances de s'enclencher."
-  - question: "Qu'est-ce qui reste réellement incertain ?"
-    answer: "L'ampleur des changements régionaux de précipitations, le calendrier et la réversibilité des rétroactions liées aux calottes glaciaires, la réponse des nuages au réchauffement et l'intensité des rétroactions du cycle du carbone. Les incertitudes portent sur *combien* et *à quelle vitesse*, non sur la réalité du phénomène ni sur sa cause."
+  - question: Le réchauffement est-il bien dû à l'activité humaine ?
+    answer: 'Les évaluations du GIEC et de la NASA présentent l''influence humaine sur le réchauffement récent comme établie par plusieurs faisceaux de preuves indépendants : composition de l''atmosphère, structure du réchauffement observé, attribution par modélisation. Les incertitudes les plus fortes qui subsistent portent sur les impacts régionaux, l''intensité des rétroactions et le calendrier, non sur le sens même de l''influence humaine.'
+  - question: Pourquoi un ou deux degrés de réchauffement comptent-ils ?
+    answer: 'La température moyenne mondiale est un forçage thermodynamique qui entraîne des changements régionaux bien plus amples : journées de chaleur extrême, régimes de précipitations, stratification de l''océan, niveau de la mer. Le seuil de deux degrés n''est pas une falaise, mais un repère utile au-delà duquel plusieurs grandes rétroactions (méthane arctique, dynamique des calottes glaciaires, dépérissement forestier) ont davantage de chances de s''enclencher.'
+  - question: Qu'est-ce qui reste réellement incertain ?
+    answer: L'ampleur des changements régionaux de précipitations, le calendrier et la réversibilité des rétroactions liées aux calottes glaciaires, la réponse des nuages au réchauffement et l'intensité des rétroactions du cycle du carbone. Les incertitudes portent sur *combien* et *à quelle vitesse*, non sur la réalité du phénomène ni sur sa cause.
+_bodyHash: 56b7cb3
 ---
 
 Le changement climatique désigne la modification à long terme du bilan énergétique de la Terre, due principalement — depuis 150 ans — à l'évolution de la composition de l'atmosphère. Le mécanisme est solidement établi par l'[évaluation du Groupe de travail I du sixième rapport d'évaluation du GIEC (AR6)](https://www.ipcc.ch/report/ar6/wg1/) et résumé pour le grand public par la [synthèse des preuves climatiques de la NASA](https://science.nasa.gov/climate-change/evidence/). Les questions réellement ouvertes ne sont pas celles que le débat public met habituellement en avant.

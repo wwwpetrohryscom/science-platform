@@ -16,6 +16,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: 80cc586c
 ---
 
 Arterial blood in a healthy person sits between pH 7.35 and 7.45. Nothing in chemistry privileges that band; it is held there because several processes push against each other continuously, and because leaving it disables the enzymes doing the pushing. The band is defended on two clocks at once — the lungs adjust carbon dioxide removal within minutes to hours, while the kidneys reabsorb bicarbonate and excrete fixed acids over days. That is the shape of almost every physiological story: not one mechanism, but several with different time constants, and which one you notice depends on how long you watch.

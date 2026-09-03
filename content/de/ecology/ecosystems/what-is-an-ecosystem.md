@@ -14,6 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
+_bodyHash: 8dc24c3e
 ---
 
 Ein Ökosystem ist der gleichzeitige Fluss von [Energie](/de/physics/energy/perovskite-stack-field-stability), Materie und Information durch eine Gemeinschaft von Organismen und deren physische Umwelt ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). Arthur Tansley prägte den Begriff „Ökosystem“ 1935 gerade deshalb, um die ältere, romantischere Vorstellung der „Lebensgemeinschaft“ zu verdrängen – Tansley wollte einen Begriff, der den Austausch betont und nicht die Zugehörigkeit.

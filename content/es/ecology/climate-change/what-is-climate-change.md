@@ -22,6 +22,7 @@ faq:
     answer: La temperatura media global es un forzamiento termodinámico que impulsa cambios regionales mucho mayores, como los días de calor extremo, los patrones de precipitación, la estratificación del océano o el nivel del mar. El umbral de dos grados no es un precipicio, sino un umbral útil a partir del cual varias retroalimentaciones de gran escala (metano ártico, dinámica de los mantos de hielo, decaimiento forestal) tienen más probabilidades de activarse.
   - question: ¿Qué sigue siendo genuinamente incierto?
     answer: La magnitud de los cambios regionales de precipitación, el momento y la reversibilidad de las retroalimentaciones de los mantos de hielo, la respuesta de las nubes al calentamiento y la intensidad de las retroalimentaciones del ciclo del carbono. Las incertidumbres se refieren a *cuánto* y *a qué velocidad*, no a si está ocurriendo ni a qué lo está causando.
+_bodyHash: '90748713'
 ---
 
 El cambio climático es el desplazamiento a largo plazo del balance energético de la Tierra, impulsado principalmente —durante los últimos 150 años— por cambios en la composición atmosférica. El mecanismo está bien establecido en la [evaluación del Grupo de Trabajo I del AR6 del IPCC](https://www.ipcc.ch/report/ar6/wg1/) y resumido para el público general en la [revisión de la evidencia climática de la NASA](https://science.nasa.gov/climate-change/evidence/). Las preguntas genuinamente abiertas son distintas de las que suele subrayar el discurso público.

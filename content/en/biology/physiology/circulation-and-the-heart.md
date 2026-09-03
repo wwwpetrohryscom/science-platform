@@ -17,6 +17,7 @@ related:
   - thermoregulation-in-animals
   - the-immune-system-explained
 pillar: physiology-explained
+_bodyHash: ffcab35b
 ---
 
 A heart is an expense. It runs continuously, it cannot be switched off for maintenance, and in an ordinary resting mammal the left ventricle alone accounts for something on the order of a tenth of whole-body metabolic rate. All of that buys one thing: fluid moved past tissues fast enough that diffusion — which stalls beyond about a millimetre, because the time it takes rises with the square of the distance — is only ever asked to cover the last short step.

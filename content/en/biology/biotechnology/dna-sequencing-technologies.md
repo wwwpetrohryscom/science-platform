@@ -17,6 +17,7 @@ related:
   - crispr-genome-editing-explained
   - what-is-a-genome
 pillar: biotechnology-explained
+_bodyHash: 9c53b251
 ---
 
 Ask which sequencing platform is most accurate and you get an unhelpful answer, because the platforms fail in different ways. A method that makes rare, scattered substitution errors and a method that makes frequent but predictable errors in a specific sequence context can report the same headline accuracy and be suited to completely different problems. Read length, error shape and cost per base are the three axes that actually decide a project, and they trade against each other. Reading DNA is the capability that made the rest of the [biotechnology toolkit](/en/biology/biotechnology/biotechnology-explained) tractable, and it is also the one whose economics are quoted most often out of context.

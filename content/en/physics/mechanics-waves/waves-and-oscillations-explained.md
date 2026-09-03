@@ -18,6 +18,7 @@ related:
   - sound-and-acoustics-explained
   - fluid-dynamics-explained
 pillar: classical-mechanics-explained
+_bodyHash: df2fb22
 ---
 
 A pendulum clock, a quartz timekeeping crystal, a bridge deck in a crosswind and a swell crossing an ocean basin are governed by the same short list of equations. That is not a coincidence of mathematics, and the reason it happens is more useful to know than any of the individual solutions.

@@ -1,6 +1,6 @@
 ---
-title: "Qu'est-ce que l'ADN ? La molécule, le code, et ce qu'il ne détermine pas"
-excerpt: "L'ADN est un code moléculaire à quatre lettres qui stocke l'information nécessaire pour construire et faire fonctionner une cellule. Comprendre ce qu'il fait — et, tout aussi important, ce qu'il ne fait pas — est le socle de la biologie moderne."
+title: Qu'est-ce que l'ADN ? La molécule, le code, et ce qu'il ne détermine pas
+excerpt: L'ADN est un code moléculaire à quatre lettres qui stocke l'information nécessaire pour construire et faire fonctionner une cellule. Comprendre ce qu'il fait — et, tout aussi important, ce qu'il ne fait pas — est le socle de la biologie moderne.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
@@ -15,12 +15,13 @@ related:
   - what-is-a-cell
   - single-cell-evo-devo
 faq:
-  - question: "Si l'ADN est le plan de construction, pourquoi les vrais jumeaux ne sont-ils pas identiques ?"
-    answer: "L'ADN n'est pas un plan de construction : c'est une recette dont l'exécution est sensible au contexte. Les vrais jumeaux partagent un même génotype, mais ils se développent dans des positions prénatales différentes, accumulent des mutations différentes, connaissent des environnements différents et subissent des modifications épigénétiques différentes. Les différences phénotypiques entre vrais jumeaux attestent que l'ADN sous-détermine l'organisme."
-  - question: "Quelle part du génome humain est de l'ADN « poubelle » ?"
-    answer: "La fonctionnalité du génome dépend de la définition retenue pour « fonction ». Les séquences codant des protéines ne représentent qu'une faible fraction du génome, tandis que les rôles régulateurs, structuraux et évolutifs sont plus complexes. Les affirmations selon lesquelles presque chaque base serait fonctionnelle doivent être accueillies avec prudence tant qu'elles ne distinguent pas l'activité biochimique d'une fonction biologique retenue par la sélection."
-  - question: "La plupart des maladies sont-elles génétiques ?"
-    answer: "Beaucoup de maladies courantes comportent une composante génétique, mais la plupart ne sont pas purement génétiques. L'environnement, les comportements, l'historique d'exposition et le hasard interagissent le plus souvent avec le risque hérité. Les maladies monogéniques existent et comptent pour les personnes touchées, mais elles ne constituent pas un modèle complet du fardeau des maladies courantes."
+  - question: Si l'ADN est le plan de construction, pourquoi les vrais jumeaux ne sont-ils pas identiques ?
+    answer: 'L''ADN n''est pas un plan de construction : c''est une recette dont l''exécution est sensible au contexte. Les vrais jumeaux partagent un même génotype, mais ils se développent dans des positions prénatales différentes, accumulent des mutations différentes, connaissent des environnements différents et subissent des modifications épigénétiques différentes. Les différences phénotypiques entre vrais jumeaux attestent que l''ADN sous-détermine l''organisme.'
+  - question: Quelle part du génome humain est de l'ADN « poubelle » ?
+    answer: La fonctionnalité du génome dépend de la définition retenue pour « fonction ». Les séquences codant des protéines ne représentent qu'une faible fraction du génome, tandis que les rôles régulateurs, structuraux et évolutifs sont plus complexes. Les affirmations selon lesquelles presque chaque base serait fonctionnelle doivent être accueillies avec prudence tant qu'elles ne distinguent pas l'activité biochimique d'une fonction biologique retenue par la sélection.
+  - question: La plupart des maladies sont-elles génétiques ?
+    answer: Beaucoup de maladies courantes comportent une composante génétique, mais la plupart ne sont pas purement génétiques. L'environnement, les comportements, l'historique d'exposition et le hasard interagissent le plus souvent avec le risque hérité. Les maladies monogéniques existent et comptent pour les personnes touchées, mais elles ne constituent pas un modèle complet du fardeau des maladies courantes.
+_bodyHash: b16db15f
 ---
 
 L'ADN — l'acide désoxyribonucléique — est un code moléculaire à quatre lettres qui stocke l'information génétique, comme le résume le [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). Il est le support de l'hérédité et le substrat sur lequel [l'évolution opère](/fr/biology/evolution/cell-types-as-units-of-evolution). Il est aussi couramment surestimé dans le discours grand public, d'une manière que la biologie réelle ne justifie pas.

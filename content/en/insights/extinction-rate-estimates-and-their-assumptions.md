@@ -19,7 +19,7 @@ related:
   - how-many-species-are-there
   - why-species-counts-mislead-conservation
   - biodiversity-numbers-and-what-they-can-support
-_bodyHash: 920f9347
+_bodyHash: b13b3645
 ---
 
 "Species are disappearing a thousand times faster than the natural background rate" is not a measurement. It is a ratio between two model outputs, each assembled from a different kind of evidence, for a different set of organisms, across a different span of time. Both halves are defensible on their own terms. The ratio inherits every assumption in both, and the assumptions are not small.

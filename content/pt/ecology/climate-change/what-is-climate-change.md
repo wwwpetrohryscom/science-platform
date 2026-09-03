@@ -1,6 +1,6 @@
 ---
-title: "O que são as alterações climáticas? O mecanismo, as provas e as questões em aberto"
-excerpt: "As alterações climáticas são a modificação de longo prazo do balanço energético da Terra, provocada por mudanças na composição da atmosfera. Aqui ficam o mecanismo, as provas que o sustentam e as questões que continuam verdadeiramente em aberto."
+title: O que são as alterações climáticas? O mecanismo, as provas e as questões em aberto
+excerpt: As alterações climáticas são a modificação de longo prazo do balanço energético da Terra, provocada por mudanças na composição da atmosfera. Aqui ficam o mecanismo, as provas que o sustentam e as questões que continuam verdadeiramente em aberto.
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
@@ -16,12 +16,13 @@ related:
   - communicating-attribution-uncertainty
   - what-is-an-ecosystem
 faq:
-  - question: "O aquecimento é mesmo causado pela atividade humana?"
-    answer: "As avaliações do IPCC e da NASA descrevem a influência humana no aquecimento recente como estabelecida por várias linhas de prova independentes: composição da atmosfera, padrões de aquecimento observados e atribuição por modelos. As incertezas mais fortes que subsistem dizem respeito aos impactos regionais, à intensidade das retroações e ao calendário, não ao sentido básico da influência humana."
-  - question: "Porque é que um ou dois graus de aquecimento têm importância?"
-    answer: "A temperatura média global é um forçamento termodinâmico que desencadeia mudanças regionais bem maiores: dias de calor extremo, padrões de precipitação, estratificação do oceano, nível do mar. O limiar dos dois graus não é um precipício, mas um limiar útil, acima do qual várias grandes retroações (metano do Ártico, dinâmica das calotes glaciares, declínio florestal) passam a ter maior probabilidade de se ativarem."
-  - question: "O que continua verdadeiramente incerto?"
-    answer: "A magnitude das mudanças regionais na precipitação, o calendário e a reversibilidade das retroações associadas às calotes glaciares, a resposta das nuvens ao aquecimento e a intensidade das retroações do ciclo do carbono. As incertezas dizem respeito a *quanto* e *a que velocidade*, não a se o fenómeno está a acontecer nem à sua causa."
+  - question: O aquecimento é mesmo causado pela atividade humana?
+    answer: 'As avaliações do IPCC e da NASA descrevem a influência humana no aquecimento recente como estabelecida por várias linhas de prova independentes: composição da atmosfera, padrões de aquecimento observados e atribuição por modelos. As incertezas mais fortes que subsistem dizem respeito aos impactos regionais, à intensidade das retroações e ao calendário, não ao sentido básico da influência humana.'
+  - question: Porque é que um ou dois graus de aquecimento têm importância?
+    answer: 'A temperatura média global é um forçamento termodinâmico que desencadeia mudanças regionais bem maiores: dias de calor extremo, padrões de precipitação, estratificação do oceano, nível do mar. O limiar dos dois graus não é um precipício, mas um limiar útil, acima do qual várias grandes retroações (metano do Ártico, dinâmica das calotes glaciares, declínio florestal) passam a ter maior probabilidade de se ativarem.'
+  - question: O que continua verdadeiramente incerto?
+    answer: A magnitude das mudanças regionais na precipitação, o calendário e a reversibilidade das retroações associadas às calotes glaciares, a resposta das nuvens ao aquecimento e a intensidade das retroações do ciclo do carbono. As incertezas dizem respeito a *quanto* e *a que velocidade*, não a se o fenómeno está a acontecer nem à sua causa.
+_bodyHash: 3d8e8adf
 ---
 
 As alterações climáticas designam a modificação de longo prazo do balanço energético da Terra, provocada sobretudo — nos últimos 150 anos — por mudanças na composição da atmosfera. O mecanismo está solidamente estabelecido na [avaliação do Grupo de Trabalho I do AR6 do IPCC](https://www.ipcc.ch/report/ar6/wg1/) e resumido para o público em geral pela [síntese das provas climáticas da NASA](https://science.nasa.gov/climate-change/evidence/). As questões verdadeiramente em aberto não são as que o debate público costuma destacar.

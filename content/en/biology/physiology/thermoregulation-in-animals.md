@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - the-immune-system-explained
 pillar: physiology-explained
+_bodyHash: 15cfa540
 ---
 
 Heat storage in an animal is a residual. Metabolic heat production adds to it; radiation, convection and conduction add or subtract depending on which way the gradient runs; evaporation only ever subtracts. Written as a budget, S = M ± R ± C ± K − E, with S the rate of heat storage, and everything an animal does about temperature is an intervention on one of those five terms. Nothing in that equation refers to a thermostat, and treating temperature regulation as thermostatic is the fastest route to misreading it.

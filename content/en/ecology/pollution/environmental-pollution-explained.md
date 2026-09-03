@@ -5,7 +5,7 @@ type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 7
+readingTime: 8
 tags:
   - risk-assessment
   - exposure
@@ -18,7 +18,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: b4ff3a1b
+_bodyHash: c0165441
 ---
 
 A substance is not pollution because of what it is. It becomes pollution when three things line up: a **source** that releases it, a **pathway** that carries it somewhere, and a **receptor** — a person, a population, a species, a habitat — sitting at the far end of that pathway. Cut any one of the three and the substance is still present and still toxic, but the harm is gone. Cap a contaminated site, and the source remains while the pathway closes. Move a drinking-water intake, and the receptor steps out of the way.

@@ -18,6 +18,7 @@ related:
   - dna-replication-and-repair
   - synthetic-biology-explained
 pillar: biotechnology-explained
+_bodyHash: a0aeeb0a
 ---
 
 The nuclease is the famous component and the least interesting one. Cas9 finds a sequence and breaks it; what happens next is done by repair machinery the cell already had, and the repair outcome is the product. Nearly every practical property of genome editing — why gene knockouts became routine, why precise replacements stayed difficult, why delivery rather than targeting is the binding constraint in therapy — follows from that division of labour between an introduced enzyme and a pre-existing biological process. It is also the part most often skipped in summaries, which tend to describe the scissors and stop. Editing in place is the most recent of the core operations in the [wider biotechnology toolkit](/en/biology/biotechnology/biotechnology-explained), and the one whose limits are least widely understood.

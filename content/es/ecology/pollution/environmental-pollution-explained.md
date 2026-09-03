@@ -18,6 +18,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
+_bodyHash: 61d2f84d
 ---
 
 Una sustancia no es contaminación por lo que es. Se convierte en contaminación cuando se alinean tres cosas: una **fuente** que la libera, una **vía** que la lleva a alguna parte y un **receptor** —una persona, una población, una especie, un hábitat— situado al final de esa vía. Basta con cortar cualquiera de las tres para que el daño desaparezca sin que la sustancia deje de estar presente ni de ser tóxica. Al sellar un emplazamiento contaminado, la fuente permanece y la vía se cierra. Al trasladar una captación de agua potable, el receptor se aparta del camino.

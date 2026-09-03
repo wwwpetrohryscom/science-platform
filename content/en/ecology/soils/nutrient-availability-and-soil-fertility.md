@@ -5,7 +5,7 @@ type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-02'
-readingTime: 8
+readingTime: 9
 tags:
   - fertility
   - plant-nutrition
@@ -18,7 +18,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - soil-erosion-processes-and-rates
 pillar: soil-science-explained
-_bodyHash: 104cefd0
+_bodyHash: 30ba78b6
 ---
 
 Most of the nutrient content of a fertile field is unavailable to the crop growing in it, and this is normal rather than a defect. Fertility is better understood as a supply rate — how fast particular ions arrive at a root surface — than as an inventory. The inorganic forms of nitrogen that roots absorb, nitrate and ammonium, usually amount to less than 5 per cent of the nitrogen present. Phosphorus in the soil solution sits between 0.01 and 0.50 mg per litre, against roughly 400 for calcium, 60 for magnesium and 40 for potassium; half or more of the total may be locked in organic compounds. Around 1 to 3 per cent of soil organic matter decomposes in a year, so a fertile profile holding 8,000 kg of organic nitrogen per hectare releases about 160 kg of it, of which a crop might take up half.

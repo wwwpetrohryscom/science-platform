@@ -16,6 +16,7 @@ related:
   - landsat-program-explained
   - earth-observation-data-products
   - remote-sensing-limitations-and-uncertainty
+_bodyHash: 9d01864e
 ---
 
 La mayor parte de lo que sabemos sobre cómo está cambiando el planeta —el hielo que retrocede, la deforestación que avanza, los mares que se calientan, la tierra que verdea o se vuelve parda— se mide hoy, al menos en parte, desde el espacio. La [observación de la Tierra](/en/glossary/earth-observation) es la práctica de reunir información sobre las tierras emergidas, el océano, la atmósfera y el hielo del planeta mediante sensores instalados en satélites y aeronaves. La [teledetección](/en/glossary/remote-sensing) es la técnica que la sustenta: medir algo sin tocarlo, registrando la radiación que refleja o emite.

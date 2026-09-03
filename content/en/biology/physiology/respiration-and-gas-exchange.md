@@ -17,6 +17,7 @@ related:
   - thermoregulation-in-animals
   - plant-physiology-water-and-nutrients
 pillar: physiology-explained
+_bodyHash: 20e9387c
 ---
 
 Over the last micrometre into a red blood cell, oxygen moves by diffusion and nothing else. No pump acts on it, no carrier drags it across, and the rate is fixed by three quantities: the area available, the distance to be crossed, and the partial-pressure difference driving it. Every breathing organ that has ever evolved — alveolar lung, fish gill, insect trachea, frog skin — is a way of making those three numbers favourable, and the differences between them are mostly differences in which of the three was cheapest to buy.

@@ -17,6 +17,7 @@ related:
   - hydrogen-as-an-energy-carrier
   - capacity-factor-and-energy-metrics
 pillar: energy-systems-explained
+_bodyHash: ed721d89
 ---
 
 At the end of November 2020 the United States had 21.9 GW of pumped-storage hydropower and 1.4 GW of utility-scale batteries. By the end of June 2026 the EIA's capacity accounts recorded 23,035.1 MW of pumped storage and 51,665.7 MW of batteries, with a further 22,788.4 MW of battery capacity planned over the following twelve months. In under six years the electrochemical fleet went from a rounding error against the hydraulic one to more than twice its size. Those two figures come from different EIA releases and different capacity conventions, so the direction is the reliable part, not the decimal places.

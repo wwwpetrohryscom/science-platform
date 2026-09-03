@@ -18,6 +18,7 @@ related:
   - climate-feedback-mechanisms
   - radiative-transfer-explained
 pillar: atmospheric-physics-explained
+_bodyHash: 47b32802
 ---
 
 Every droplet in every cloud condensed onto something else. Water vapour in clean air does not spontaneously assemble into droplets at the humidities the atmosphere actually reaches; it needs a surface to condense on, and NOAA's JetStream reference sets the useful minimum for that surface at a radius of about one micrometre. Smoke, volcanic ash, sea spray and wind-blown soil supply them in enormous numbers, which is why every cloud droplet has a speck of dirt or salt at its core. That microscopic requirement is the start of a chain that ends at the widest open question in [atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained).

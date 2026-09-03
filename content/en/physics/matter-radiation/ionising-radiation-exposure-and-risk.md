@@ -18,6 +18,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
+_bodyHash: a524f0f7
 ---
 
 Radiation biology splits its effects into two categories that behave nothing alike, and most public confusion comes from applying the logic of one to the other.

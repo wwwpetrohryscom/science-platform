@@ -18,6 +18,7 @@ related:
   - earth-system-components-explained
   - waves-and-oscillations-explained
 pillar: atmospheric-physics-explained
+_bodyHash: 1ea65e3b
 ---
 
 No instrument has ever been lowered into the mantle, let alone the core. Everything asserted about the interior below the crust — that there is a liquid layer, that a solid ball sits inside it, where each boundary lies — is an inference drawn from measurements made at or above the surface. Geophysics is the discipline of making those inferences defensible, and its methods deserve attention separately from its conclusions, because each conclusion is only as strong as what its method can distinguish.

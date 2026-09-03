@@ -14,6 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
+_bodyHash: 864d70fb
 ---
 
 La riqueza de especies —el recuento de especies distintas presentes en un área definida— es una de las medidas de [biodiversidad](/es/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy) más citadas. Es también una métrica incompleta para priorizar en [conservación](/es/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy). Las evaluaciones públicas de la [Agencia Europea de Medio Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), el [PNUMA](https://www.unep.org/explore-topics/ecosystems) y la [IPBES](https://www.ipbes.net/global-assessment) tratan la pérdida de [biodiversidad](/es/ecology/biodiversity/essential-biodiversity-variables-monitoring) como algo más que un simple problema de recuento de especies.

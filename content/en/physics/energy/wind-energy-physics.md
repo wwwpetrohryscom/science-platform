@@ -17,6 +17,7 @@ related:
   - grid-integration-of-variable-renewables
   - solar-photovoltaics-explained
 pillar: energy-systems-explained
+_bodyHash: 54bc9735
 ---
 
 The kinetic energy flux through a plane perpendicular to a moving fluid is ½ρv³ per unit area, where ρ is the fluid density and v the flow speed. Near sea level the air density is around 1.2 kg/m³, so the available power density in a 10 m/s wind is about 600 W/m² — a low figure that turbines compensate for by presenting a very large area. But it is the exponent, not the coefficient, that governs everything downstream. A 10 per cent error in an estimated long-term mean wind speed becomes roughly a 33 per cent error in estimated power, which is why wind development spends more effort on anemometry and on atmospheric modelling than the apparent simplicity of the machine would suggest.

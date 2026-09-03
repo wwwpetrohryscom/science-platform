@@ -19,7 +19,7 @@ related:
   - heritability-explained
   - genetic-drift-and-population-size
   - biodiversity-baselines-and-shifting-baselines
-_bodyHash: d990904e
+_bodyHash: 793a151
 ---
 
 Ask whether species can adapt to the pace of current environmental change and the answer depends entirely on which of three quite different processes the question means. An individual adjusting its physiology or its timing within its own lifetime, a population changing its allele frequencies across generations, and a species occupying different ground are all called adaptation in ordinary usage. They run on different clocks, they leave different evidence, and only one of them is easy to observe.

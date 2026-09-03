@@ -22,6 +22,7 @@ faq:
     answer: Die globale Mitteltemperatur ist ein thermodynamischer Antrieb, der weit größere regionale Veränderungen bewirkt – extreme Hitzetage, Niederschlagsmuster, Schichtung des Ozeans, Meeresspiegel. Die Zwei-Grad-Marke ist keine Klippe, sondern eine nützliche Schwelle, jenseits derer mehrere große Rückkopplungen (arktisches Methan, Eisschilddynamik, Absterben von Wäldern) mit höherer Wahrscheinlichkeit einsetzen.
   - question: Was ist wirklich noch unsicher?
     answer: Das Ausmaß regionaler Niederschlagsänderungen, der zeitliche Verlauf und die Umkehrbarkeit der Eisschild-Rückkopplungen, die Reaktion der Wolken auf die Erwärmung und die Stärke der Rückkopplungen im Kohlenstoffkreislauf. Die Unsicherheiten betreffen das *wie viel* und das *wie schnell*, nicht die Frage, ob es geschieht oder wodurch.
+_bodyHash: 8f6e84bf
 ---
 
 Der Klimawandel ist die langfristige Verschiebung der Energiebilanz der Erde, die – über die letzten 150 Jahre – in erster Linie von Veränderungen der Zusammensetzung der Atmosphäre angetrieben wird. Der Mechanismus ist im [Sachstandsbericht AR6 der IPCC-Arbeitsgruppe I](https://www.ipcc.ch/report/ar6/wg1/) gut belegt und in [NASAs Überblick über die Klimaevidenz](https://science.nasa.gov/climate-change/evidence/) für ein breites Publikum zusammengefasst. Die wirklich offenen Fragen sind andere als die, die in der öffentlichen Debatte gewöhnlich betont werden.

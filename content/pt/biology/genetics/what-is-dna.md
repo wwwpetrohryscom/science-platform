@@ -1,6 +1,6 @@
 ---
-title: "O que é o ADN? A molécula, o código e aquilo que não determina"
-excerpt: "O ADN é um código molecular de quatro letras que armazena a informação necessária para construir e fazer funcionar uma célula. Compreender o que faz — e, tão importante quanto isso, o que não faz — é o alicerce da biologia moderna."
+title: O que é o ADN? A molécula, o código e aquilo que não determina
+excerpt: O ADN é um código molecular de quatro letras que armazena a informação necessária para construir e fazer funcionar uma célula. Compreender o que faz — e, tão importante quanto isso, o que não faz — é o alicerce da biologia moderna.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
@@ -15,12 +15,13 @@ related:
   - what-is-a-cell
   - single-cell-evo-devo
 faq:
-  - question: "Se o ADN é o plano de construção, por que motivo os gémeos verdadeiros não são idênticos?"
-    answer: "O ADN não é um plano de construção: é uma receita cuja execução é sensível ao contexto. Os gémeos verdadeiros partilham o genótipo, mas desenvolvem-se em posições pré-natais diferentes, acumulam mutações diferentes, vivem ambientes diferentes e sofrem modificações epigenéticas diferentes. As diferenças fenotípicas entre gémeos verdadeiros são a prova de que o ADN subdetermina o organismo."
-  - question: "Que parte do genoma humano é ADN «lixo»?"
-    answer: "A funcionalidade do genoma depende da definição que se dê a «função». As sequências que codificam proteínas são uma pequena fração do genoma, ao passo que os papéis reguladores, estruturais e evolutivos são mais complexos. As afirmações de que quase todas as bases seriam funcionais devem ser acolhidas com prudência enquanto não distinguirem a atividade bioquímica de uma função biológica sujeita a seleção."
-  - question: "A maioria das doenças é genética?"
-    answer: "Muitas doenças comuns têm componentes genéticas, mas a maioria não é puramente genética. O ambiente, o comportamento, o historial de exposições e o acaso interagem, em regra, com o risco herdado. As doenças monogénicas existem e são importantes para as pessoas afetadas, mas não constituem um modelo completo da carga das doenças comuns."
+  - question: Se o ADN é o plano de construção, por que motivo os gémeos verdadeiros não são idênticos?
+    answer: 'O ADN não é um plano de construção: é uma receita cuja execução é sensível ao contexto. Os gémeos verdadeiros partilham o genótipo, mas desenvolvem-se em posições pré-natais diferentes, acumulam mutações diferentes, vivem ambientes diferentes e sofrem modificações epigenéticas diferentes. As diferenças fenotípicas entre gémeos verdadeiros são a prova de que o ADN subdetermina o organismo.'
+  - question: Que parte do genoma humano é ADN «lixo»?
+    answer: A funcionalidade do genoma depende da definição que se dê a «função». As sequências que codificam proteínas são uma pequena fração do genoma, ao passo que os papéis reguladores, estruturais e evolutivos são mais complexos. As afirmações de que quase todas as bases seriam funcionais devem ser acolhidas com prudência enquanto não distinguirem a atividade bioquímica de uma função biológica sujeita a seleção.
+  - question: A maioria das doenças é genética?
+    answer: Muitas doenças comuns têm componentes genéticas, mas a maioria não é puramente genética. O ambiente, o comportamento, o historial de exposições e o acaso interagem, em regra, com o risco herdado. As doenças monogénicas existem e são importantes para as pessoas afetadas, mas não constituem um modelo completo da carga das doenças comuns.
+_bodyHash: afef2c7c
 ---
 
 O ADN — ácido desoxirribonucleico — é um código molecular de quatro letras que armazena a informação genética, como resume o [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid). É o suporte da hereditariedade e o substrato sobre o qual [a evolução opera](/pt/biology/evolution/cell-types-as-units-of-evolution). É também rotineiramente sobrevalorizado na discussão pública, de maneiras que a biologia real não sustenta.

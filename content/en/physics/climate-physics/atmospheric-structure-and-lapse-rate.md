@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-circulation-cells
 pillar: atmospheric-physics-explained
+_bodyHash: 5d89464c
 ---
 
 Two quite different quantities are routinely called "the lapse rate". One is a property of a rising parcel of air, fixed by thermodynamics and the same everywhere on the planet. The other is a property of the surrounding air column, measured by a radiosonde and different every day. Stability is the comparison between them, and almost every muddle about why air rises, why smoke sometimes hangs over a valley, and why the stratosphere is called what it is comes from treating the two as one number. The vertical temperature structure this produces is the second half of the picture sketched in [the overview of atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained), where the pressure profile was the first.

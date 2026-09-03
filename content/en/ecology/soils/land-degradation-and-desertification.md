@@ -18,7 +18,7 @@ related:
   - soil-carbon-measurement-and-uncertainty
   - what-satellites-cannot-see
 pillar: soil-science-explained
-_bodyHash: a65aa02c
+_bodyHash: 5b616d76
 ---
 
 The treaty that governs international action on land degradation defines the term in a way most readers of the phrase would not expect. Article 1 of the United Nations Convention to Combat Desertification defines land degradation as reduction or loss of biological or economic productivity "in arid, semi-arid and dry sub-humid areas" — a definition restricted, by its own text, to drylands. The Sustainable Development Goal indicator that reports national progress on the same subject applies to every land surface on Earth.

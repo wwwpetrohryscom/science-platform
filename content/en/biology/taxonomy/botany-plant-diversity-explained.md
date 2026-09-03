@@ -18,6 +18,7 @@ related:
   - how-many-species-are-there
   - photosynthesis-explained
 pillar: taxonomy-and-classification-explained
+_bodyHash: bec2ec9e
 ---
 
 The green cover of the continents is dominated, numerically and almost everywhere ecologically, by one recent branch of a much older group. World Flora Online currently accepts 382,401 species among the 1,649,543 plant names it tracks. In the August 2026 release of the Catalogue of Life, flowering plants account for 352,619 of the 368,152 accepted vascular species — roughly 96 per cent — while all the world's conifers come to 835 and all its cycads to 376. Any account of botanical diversity has to explain that shape: a deep history of successive lineages, almost all of them now small, and one late radiation that swamped the count. The group labels used below sit at ranks — class, division, kingdom — that are conventions of the naming system rather than natural units, as the [overview of ranks and nomenclature](/en/biology/taxonomy/taxonomy-and-classification-explained) sets out.

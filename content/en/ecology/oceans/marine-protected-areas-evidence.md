@@ -18,7 +18,7 @@ related:
   - protected-area-effectiveness
   - coral-reef-ecology-and-bleaching
 pillar: ocean-science-explained
-_bodyHash: e0e5cafa
+_bodyHash: f6a8affe
 ---
 
 "Marine protected area" is a legal category, not an ecological one. It describes what a government has written down about a piece of sea, and it says almost nothing on its own about what happens inside the boundary. Two sites carrying the identical designation can differ by an order of magnitude in fish biomass, and the difference is predictable from a handful of design and governance features rather than from the label. That gap between the map and the water is what this page is about. A boundary drawn on a chart encloses a column of water that goes on exchanging heat, larvae and dissolved material with everything around it — the vertical structure set out in [ocean science](/en/ecology/oceans/ocean-science-explained) does not stop at a legal line — so the only pressures a designation can act on are the ones taking place inside it.

@@ -17,7 +17,7 @@ related:
   - photosynthesis-explained
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
-_bodyHash: 3b5811a1
+_bodyHash: 14257d50
 ---
 
 Glucose is not the point. What a respiring cell extracts from glucose is a supply of electrons held at high energy, and what it does with them is let them fall — in controlled steps, down a potential difference of 1.14 volts, to oxygen. Everything else in the process is bookkeeping around that fall: the pathways that strip electrons off carbon, the membrane that converts their descent into a proton gradient, and the rotary motor that converts the gradient into ATP. Framed that way, several things that look arbitrary in a pathway diagram become necessary, and one very familiar number turns out to be an estimate rather than a stoichiometry. Self-sustenance is the first of the three things [any structure has to do to count as a cell](/en/biology/cells/what-is-a-cell); this is the process that pays for it.

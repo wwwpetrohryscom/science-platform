@@ -18,6 +18,7 @@ related:
   - earth-system-models-explained
   - climate-sensitivity-explained
 pillar: atmospheric-physics-explained
+_bodyHash: 25d3ca81
 ---
 
 Ask what a climate model is made of and the honest answer has two halves that behave very differently. One half integrates equations that nobody disputes — Navier–Stokes for fluid motion, Clausius–Clapeyron for the vapour a given temperature can hold, conservation of mass and energy as constraints on everything else. IPCC AR6 describes Earth system models exactly this way, as mathematical formulations of natural laws evaluated numerically on three-dimensional discrete grids. The other half is a collection of approximations for every process that happens on a scale smaller than one of those grid cells. The first half is settled physics of the sort set out in the wider account of [atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained). The second is where the disagreements are.

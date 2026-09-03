@@ -18,6 +18,7 @@ related:
   - mutation-types-and-rates
   - crispr-genome-editing-explained
 pillar: biotechnology-explained
+_bodyHash: 3195d71c
 ---
 
 When people say protein folding was solved, they are making a claim about a benchmark. It is worth knowing which one, because the benchmark's design determines exactly what the claim covers. The Critical Assessment of methods of protein Structure Prediction, known as CASP, runs as a blind trial: experimental groups contribute structures that have been determined but not released, predictors submit models before the coordinates become public, and independent assessors score the submissions against the withheld experiment. That design removes the usual worry about a model having seen the answer, and it is why the result carried weight. It also fixes the scope of the claim to a specific comparison — predicted coordinates against one experimental structure of one construct, usually a single chain, usually crystallised or frozen in one state.

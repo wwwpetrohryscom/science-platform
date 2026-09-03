@@ -1,5 +1,5 @@
 ---
-title: 'Was ist eine Zelle? Die Einheit des Lebens, operational definiert'
+title: Was ist eine Zelle? Die Einheit des Lebens, operational definiert
 excerpt: Eine Zelle ist die kleinste Einheit, die sich selbst erhalten, sich selbst kopieren und auf ihre Umwelt reagieren kann. Jede dieser Anforderungen schließt aus, was „Zelle“ nicht bedeutet – und erklärt, warum die Grenzfälle interessant sind.
 type: pillar
 author: biology-ecosystems-desk
@@ -14,6 +14,7 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
+_bodyHash: 3e68f45a
 ---
 
 Eine Zelle ist die kleinste physische Einheit, die sich selbst erhalten, sich selbst kopieren und auf ihre Umwelt reagieren kann. Diese operationale Rahmung steht im Einklang mit den Referenzwerken zur [Zellbiologie](/de/biology/cells/cell-signaling-pathways-basics), die über das [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) zugänglich sind, und mit den [Definitionen aus der Genetik](/de/biology/genetics/what-is-dna), die das [NHGRI](https://www.genome.gov/genetics-glossary) bereitstellt. Drei Anforderungen; jede von ihnen ist tragend dafür, was eine Zelle ist – und dafür, warum manche Grenzfälle (Viren, Mitochondrien, Organellen auf dem Transportweg) keine [Zellen](/de/biology/cells/coral-microbiome-bleaching-resistance) sind, obwohl sie einige Eigenschaften [echter Zellen](/de/biology/cells/coral-microbiome-bleaching-resistance) teilen.

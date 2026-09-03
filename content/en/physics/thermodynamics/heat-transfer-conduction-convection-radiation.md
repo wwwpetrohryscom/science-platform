@@ -18,6 +18,7 @@ related:
   - earth-energy-budget-and-the-second-law
   - solar-radiation-and-earth-energy-balance
 pillar: laws-of-thermodynamics-explained
+_bodyHash: 214d7b36
 ---
 
 Take a surface sitting at 500 K in surroundings at 300 K, then raise it to 1,500 K. The temperature difference driving conduction and convection grows sixfold. The net radiative flux grows by a factor of about 93, from roughly 3.1 kW m⁻² to 287 kW m⁻². Nothing about the materials has changed; the exponents have. Conduction and convection are driven by a temperature *difference*, radiation by the difference of fourth powers of *absolute* temperature, and that mismatch is why the dominant loss path in a cryostat, a house wall and a turbine casing is a different one in each case.

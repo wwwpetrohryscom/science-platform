@@ -17,6 +17,7 @@ related:
   - earth-energy-budget-and-the-second-law
   - heat-transfer-conduction-convection-radiation
 pillar: laws-of-thermodynamics-explained
+_bodyHash: 76418d36
 ---
 
 The quantity was defined operationally decades before anyone could say what it counted. Clausius wrote it as an accumulated ratio: the energy transferred as heat in a reversible step, divided by the absolute temperature at which the transfer happens. That gives changes in a property with units of joules per kelvin, computable from calorimetry alone, with no commitment to atoms — which was prudent in the 1860s, when atoms were still contested.

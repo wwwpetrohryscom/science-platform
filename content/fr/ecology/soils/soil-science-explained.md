@@ -1,6 +1,6 @@
 ---
-title: "Le sol : la ressource la plus lente à se former, dont dépend l'essentiel de la vie terrestre"
-excerpt: "Le sol est un système à quatre phases organisé en horizons, qui se forme à une vitesse médiane voisine de 0,15 tonne par hectare et par an. Cette vitesse, et la difficulté de mesurer ce que le sol contient, façonnent tous les débats à son sujet."
+title: 'Le sol : la ressource la plus lente à se former, dont dépend l''essentiel de la vie terrestre'
+excerpt: Le sol est un système à quatre phases organisé en horizons, qui se forme à une vitesse médiane voisine de 0,15 tonne par hectare et par an. Cette vitesse, et la difficulté de mesurer ce que le sol contient, façonnent tous les débats à son sujet.
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
+_bodyHash: '85869197'
 ---
 
 La formation de sol neuf se fait à une vitesse médiane que la FAO et son Groupe technique intergouvernemental sur les sols situent à environ 0,15 tonne par hectare et par an, et généralement bien en deçà d'une tonne. Étalée sur un hectare, une tonne de sol minéral forme une pellicule que l'œil ne verrait pas. Ce chiffre explique l'organisation même de la science du sol : à toutes les échelles de temps où opèrent un agriculteur, un aménageur ou un traité, le matériau considéré est un héritage fixe que l'on dépense, non un flux renouvelable.
