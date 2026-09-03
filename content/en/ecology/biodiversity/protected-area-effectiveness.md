@@ -25,7 +25,7 @@ The amount of land and sea inside protected areas has been rising for decades, a
 
 The first thing to separate is where protected areas are and how much they cover from what they accomplish. Coverage — extent and location — is recorded in the World Database on Protected Areas, maintained by UNEP-WCMC and IUCN and displayed through [Protected Planet](https://www.protectedplanet.net/en). This is the accounting layer most often cited when progress is reported.
 
-That accounting now answers to a specific commitment. Under the Kunming-Montreal Global Biodiversity Framework, [Target 3](https://www.cbd.int/) asks countries to effectively conserve and manage at least 30% of land and sea by 2030, the goal usually shortened to "30x30". The wording matters: it speaks of effective conservation, not merely designation. A site can be drawn on the map yet remain poorly resourced and weakly enforced — a so-called "paper park" — with little measurable influence on the threats inside its borders. Counting hectares answers a different question from whether those hectares are working.
+That accounting now answers to a specific commitment. Under the Kunming-Montreal Global Biodiversity Framework, [Target 3](https://www.cbd.int/gbf/targets/3) asks countries to effectively conserve and manage at least 30% of land and sea by 2030, the goal usually shortened to "30x30". The wording matters: it speaks of effective conservation, not merely designation. A site can be drawn on the map yet remain poorly resourced and weakly enforced — a so-called "paper park" — with little measurable influence on the threats inside its borders. Counting hectares answers a different question from whether those hectares are working.
 
 ## Two families of assessment
 

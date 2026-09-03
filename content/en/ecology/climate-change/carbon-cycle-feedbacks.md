@@ -28,7 +28,7 @@ This piece walks through the carbon-cycle feedbacks the [IPCC AR6 WG1 Chapter 5]
 
 ## The current carbon budget
 
-The carbon budget partitions human emissions into three components: the atmospheric fraction (what stays airborne, observable as the CO₂ trend), the ocean sink, and the land sink. The accounting framework is reviewed annually by the Global Carbon Project and is the input to NOAA, [Copernicus Climate Change Service](https://climate.copernicus.eu/), and IPCC carbon-cycle assessments.
+The carbon budget partitions human emissions into three components: the atmospheric fraction (what stays airborne, observable as the CO₂ trend), the ocean sink, and the land sink. The accounting framework is reviewed annually by the Global Carbon Project and is the input to NOAA, Copernicus Climate Change Service, and IPCC carbon-cycle assessments.
 
 Over the most recent decade, the rough partition is: about 45% of emissions accumulating in the atmosphere, about 25% taken up by the ocean, about 30% by the land. Year-to-year variability is substantial; the land sink in particular fluctuates strongly with ENSO and with droughts in tropical and boreal ecosystems. The decadal mean is more stable than any single year.
 

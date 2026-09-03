@@ -1157,12 +1157,6 @@
      "kind": "article",
      "slug": "protected-area-effectiveness",
      "section": "ecology/biodiversity",
-     "supports": "Cited inline as \"Target 3\""
-    },
-    {
-     "kind": "article",
-     "slug": "protected-area-effectiveness",
-     "section": "ecology/biodiversity",
      "supports": "The area-based conservation target of the Global Biodiversity Framework."
     },
     {
@@ -1202,6 +1196,7 @@
    "sourceType": "intergovernmental",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "ecology/biodiversity",
     "ecology/conservation",
     "ecology/oceans",
     "glossary"
@@ -1236,6 +1231,12 @@
      "slug": "marine-protected-areas-evidence",
      "section": "ecology/oceans",
      "supports": "The full wording of the 30 per cent target and its qualifying conditions."
+    },
+    {
+     "kind": "article",
+     "slug": "protected-area-effectiveness",
+     "section": "ecology/biodiversity",
+     "supports": "Cited inline as \"Target 3\""
     },
     {
      "kind": "glossary",
@@ -1505,12 +1506,6 @@
      "slug": "am15-spectrum",
      "section": "glossary",
      "supports": "Definition of AM1.5 reference spectrum"
-    },
-    {
-     "kind": "article",
-     "slug": "carbon-cycle-feedbacks",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"Copernicus Climate Change Service\""
     },
     {
      "kind": "article",
@@ -16820,19 +16815,13 @@
      "kind": "article",
      "slug": "ocean-heat-content-indicators",
      "section": "ecology/climate-change",
-     "supports": "Cited inline as \"National Centers for Environmental Information\""
+     "supports": "Cited inline as \"NOAA NCEI\""
     },
     {
      "kind": "article",
      "slug": "ocean-heat-content-indicators",
      "section": "ecology/climate-change",
      "supports": "Operational ocean heat content datasets and annual climate assessments."
-    },
-    {
-     "kind": "article",
-     "slug": "sea-level-rise-indicators",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"NOAA State of the Climate\""
     },
     {
      "kind": "article",
@@ -16863,6 +16852,30 @@
      "slug": "why-two-credible-datasets-disagree",
      "section": "insights",
      "supports": "Version history covering coverage completion, the change of gap-filling method, and the shift of reference period to 1991–2020."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "monthly",
+   "verificationStatus": "unchecked",
+   "notes": "Global temperature and State of the Climate products are reissued monthly and annually."
+  },
+  {
+   "evidenceId": "ev-ncei-noaa-gov-55117fb6",
+   "title": "National Centers for Environmental Information",
+   "organization": "",
+   "url": "https://www.ncei.noaa.gov/access/global-ocean-heat-content/",
+   "host": "ncei.noaa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/climate-change"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "ocean-heat-content-indicators",
+     "section": "ecology/climate-change",
+     "supports": "Cited inline as \"National Centers for Environmental Information\""
     }
    ],
    "isLiveDataset": true,
@@ -35759,12 +35772,6 @@
      "slug": "ocean-heat-content-indicators",
      "section": "ecology/climate-change",
      "supports": "Annual synthesis of OHC alongside other climate indicators."
-    },
-    {
-     "kind": "article",
-     "slug": "sea-level-rise-indicators",
-     "section": "ecology/climate-change",
-     "supports": "Cited inline as \"WMO State of the Climate\""
     },
     {
      "kind": "article",

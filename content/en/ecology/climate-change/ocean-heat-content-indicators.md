@@ -19,7 +19,7 @@ pillar: what-is-climate-change
 _bodyHash: c367e01d
 ---
 
-When journalists ask "is global warming continuing", the most defensible single answer is the [ocean heat content](/en/glossary/ocean-heat-content) (OHC) record. Roughly 90% of the energy added to the climate system by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere. The exact share depends on which inventory and which period are used — AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory, a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/).
+When journalists ask "is global warming continuing", the most defensible single answer is the [ocean heat content](/en/glossary/ocean-heat-content) (OHC) record. Roughly 90% of the energy added to the climate system by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere. The exact share depends on which inventory and which period are used — AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory, a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/).
 
 Because the ocean stores so much of the imbalance, OHC is less affected by the year-to-year noise that masks trends in surface air temperature. It is the climate indicator the atmosphere cannot hide.
 
