@@ -58,6 +58,33 @@ async function main() {
       });
     }
   }
+  // Attribution must fall inside the desk's declared coverage.
+  //
+  // Checked at category level, not subtopic: a desk that covers
+  // ecology/soils writing an ecology/ecosystems piece on agroecosystems
+  // is a sensible editorial call, and a rule that forbade it would push
+  // attribution toward whichever desk the taxonomy happened to name
+  // rather than whichever desk did the work. A physics desk on a biology
+  // article is a different thing, and that is what this catches.
+  //
+  // Three whole subtopics were attributed to a desk that did not declare
+  // them while the desk that did held none of them, which is how the
+  // rule earned its place.
+  for (const w of walked) {
+    const authorId = String(w.frontmatter.author ?? "");
+    const desk = authors[authorId as keyof typeof authors];
+    if (!desk) continue;
+    const categories = new Set(desk.coverage.map((c) => c.split("/")[0]));
+    if (!categories.has(w.category)) {
+      report.issues.push({
+        severity: "error",
+        rule: "attribution-coverage",
+        message: `${desk.name} does not declare coverage of ${w.category} (declares: ${desk.coverage.join(", ")})`,
+        filepath: w.filepath,
+      });
+    }
+  }
+
   // Recompute ok flag in case author errors were appended.
   report.ok = report.issues.every((i) => i.severity !== "error");
 

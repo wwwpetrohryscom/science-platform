@@ -2,7 +2,7 @@
 title: 'Modes of variability and teleconnections: internal oscillations versus forced change'
 excerpt: Some of what moves in the climate record is being pushed; some is the system oscillating on its own. Telling them apart is a defined statistical problem.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 5

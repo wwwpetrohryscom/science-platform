@@ -2,7 +2,7 @@
 title: 'Ocean circulation and climate: two circulations, two timescales, one heat pump'
 excerpt: Wind drives the ocean's surface; density drives its interior. Which one you mean determines whether the relevant timescale is a season or a millennium.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 5

@@ -2,7 +2,7 @@
 title: What is remote sensing? Measuring the planet without touching it
 excerpt: Remote sensing means measuring a surface from a distance by recording the radiation it reflects or emits. This explains the physics — passive and active sensors, the spectral bands, and the four kinds of resolution — that make satellite measurement of the environment possible.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

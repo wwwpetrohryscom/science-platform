@@ -2,7 +2,7 @@
 title: 'Species evenness and diversity indices: why a count is not enough'
 excerpt: Two communities with the same number of species can differ sharply in how abundance is shared among them. Evenness, and the Shannon, Simpson, and Hill-number diversity indices that combine it with richness, capture what a raw count leaves out.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

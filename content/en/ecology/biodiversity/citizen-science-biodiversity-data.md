@@ -2,7 +2,7 @@
 title: 'Citizen-science biodiversity data: scale, bias, and how it is corrected'
 excerpt: Volunteer observers now generate a large share of the world’s species records. This explains how that data reaches scientific use through aggregators like GBIF, where its spatial and taxonomic biases come from, and the statistical methods used to make uneven, opportunistic observations usable.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-09-03'
 tags:

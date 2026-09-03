@@ -2,7 +2,7 @@
 title: 'Earth observation and remote sensing explained: how the planet is measured from space'
 excerpt: Satellites have become the instruments that let scientists watch the whole planet at once. This explains how Earth observation works — from photons to calibrated data products — what it measures across climate and ecosystems, and where its limits lie.
 type: pillar
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-08-29'
 readingTime: 9

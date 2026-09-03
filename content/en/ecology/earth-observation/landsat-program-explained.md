@@ -2,7 +2,7 @@
 title: 'The Landsat program explained: the longest continuous view of the land'
 excerpt: Since 1972 the joint NASA–USGS Landsat satellites have built the longest unbroken record of Earth’s land surface. This explains the mission history, the 30-metre sensors, the free-data policy, and why a multi-decade archive is so scientifically valuable.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

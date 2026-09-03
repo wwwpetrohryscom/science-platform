@@ -2,7 +2,7 @@
 title: 'Climate feedbacks: the arithmetic that turns a small push into a large response'
 excerpt: A feedback is not a vague amplification. It is a number in watts per square metre per degree, it has a sign convention, and IPCC AR6 publishes the assessed value for each one.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 6

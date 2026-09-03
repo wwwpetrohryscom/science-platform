@@ -2,7 +2,7 @@
 title: 'The cryosphere as an active component: four ways ice changes the rest of the system'
 excerpt: Ice is usually presented as something the climate does things to. It is also a component that changes reflectivity, sea level, ocean density, and the carbon cycle in return.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 5

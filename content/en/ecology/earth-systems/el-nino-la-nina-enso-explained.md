@@ -2,7 +2,7 @@
 title: 'ENSO explained: how a wind–ocean loop in the Pacific reaches the rest of the world'
 excerpt: El Niño and La Niña are the two phases of one coupled oscillation. NOAA defines them with a specific index, a specific box of ocean, and a specific persistence rule.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 5

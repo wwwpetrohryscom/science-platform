@@ -2,7 +2,7 @@
 title: Why species counts mislead conservation prioritization
 excerpt: Species richness is the easiest biodiversity metric to compute and the worst one to prioritize on. Functional and phylogenetic diversity are what predict ecosystem performance — and they often disagree with the species count.
 type: pillar
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-02-08'
 updatedDate: '2026-09-03'
 readingTime: 5

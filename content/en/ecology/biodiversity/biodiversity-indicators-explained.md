@@ -2,7 +2,7 @@
 title: 'Biodiversity indicators explained: how a multi-dimensional thing is reported'
 excerpt: Because no single number captures biodiversity, monitoring distils the data into indicators. This maps the main ones — extinction risk, population abundance, habitat extent, and ecosystem intactness — and explains why they are read together rather than collapsed into one figure.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-09-03'
 tags:

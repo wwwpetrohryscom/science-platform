@@ -2,7 +2,7 @@
 title: 'The global water cycle: a tiny reservoir with an enormous throughput'
 excerpt: The atmosphere holds a thousandth of one per cent of Earth's water and replaces it about forty times a year. That mismatch shapes how the water cycle responds to warming.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 5

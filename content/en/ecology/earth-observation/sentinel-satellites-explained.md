@@ -2,7 +2,7 @@
 title: 'The Sentinel satellites explained: the eyes of Copernicus'
 excerpt: The Sentinel fleet is the satellite backbone of Europe’s Copernicus programme. This explains what each Sentinel family measures — radar, multispectral optical, ocean and land colour, atmospheric composition, and sea level — and why free, frequent data changed operational monitoring.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

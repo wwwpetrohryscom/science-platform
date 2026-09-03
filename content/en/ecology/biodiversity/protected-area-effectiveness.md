@@ -2,7 +2,7 @@
 title: 'Protected-area effectiveness: why coverage is not the same as outcome'
 excerpt: The share of land and sea inside protected areas is rising, but designation does not guarantee results. This explains how effectiveness is actually assessed — management evaluations and counterfactual impact studies — and why a protected area on a map can still be a "paper park".
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-09-03'
 tags:

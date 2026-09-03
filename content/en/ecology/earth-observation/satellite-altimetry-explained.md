@@ -2,7 +2,7 @@
 title: 'Satellite altimetry explained: measuring sea level from orbit'
 excerpt: Radar altimeters measure the height of the sea surface to within centimetres by timing a pulse to the water and back. This explains how altimetry works, the reference missions since 1992, what it measures beyond sea level, and the corrections it depends on.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

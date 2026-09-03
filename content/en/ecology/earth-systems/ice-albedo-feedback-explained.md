@@ -2,7 +2,7 @@
 title: 'The ice-albedo feedback: small in the global mean, dominant at the poles'
 excerpt: Losing bright ice and exposing dark ocean amplifies warming. The mechanism is simple, the global number is smaller than assumed, and the regional effect is where it counts.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 5

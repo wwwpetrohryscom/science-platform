@@ -2,7 +2,7 @@
 title: 'Ecosystem resilience indicators: measuring the capacity to absorb disturbance'
 excerpt: Resilience is an ecosystem capacity, not a state, which makes it hard to measure directly. This explains how scientists approximate it — through functional and response diversity, recovery rates, and statistical early-warning signals of approaching regime shifts — and why those signals are not guarantees.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-09-03'
 tags:

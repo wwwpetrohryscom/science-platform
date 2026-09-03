@@ -2,7 +2,7 @@
 title: 'Vegetation indices and monitoring: beyond NDVI'
 excerpt: NDVI is the best known vegetation index but not the only one. This explains why several indices exist — EVI, soil- and water-adjusted indices — what limitation each one corrects, and how index time series are used to monitor vegetation condition and productivity.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

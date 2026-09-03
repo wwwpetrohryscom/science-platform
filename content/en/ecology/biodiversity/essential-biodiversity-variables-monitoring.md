@@ -2,7 +2,7 @@
 title: 'Essential Biodiversity Variables: making monitoring comparable across the globe'
 excerpt: Biodiversity is harder to monitor than climate because no single instrument captures it. Essential Biodiversity Variables are the framework that makes the patchwork comparable.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-04-28'
 updatedDate: '2026-05-20'
 readingTime: 6

@@ -2,7 +2,7 @@
 title: 'Science du système Terre : comment les grands systèmes de la planète interagissent'
 excerpt: L'air, l'eau, la glace, la roche et le vivant s'étudient d'ordinaire séparément. La science du système Terre étudie les couplages entre eux — là où résident l'essentiel des comportements et l'essentiel de l'incertitude.
 type: pillar
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
 readingTime: 11

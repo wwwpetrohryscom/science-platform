@@ -2,7 +2,7 @@
 title: 'Earth system science: how the planet''s major systems interact'
 excerpt: Air, water, ice, rock, and life are usually studied apart. Earth system science studies the couplings between them — where most of the behaviour and most of the uncertainty live.
 type: pillar
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
 readingTime: 9

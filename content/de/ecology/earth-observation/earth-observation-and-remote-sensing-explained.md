@@ -2,7 +2,7 @@
 title: 'Erdbeobachtung und Fernerkundung: wie der Planet aus dem All vermessen wird'
 excerpt: Satelliten sind zu den Instrumenten geworden, mit denen sich der ganze Planet auf einmal beobachten lässt. Hier steht, wie Erdbeobachtung funktioniert – vom Photon bis zum kalibrierten Datenprodukt –, was sie über Klima und Ökosysteme misst und wo ihre Grenzen liegen.
 type: pillar
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-08-29'
 readingTime: 9

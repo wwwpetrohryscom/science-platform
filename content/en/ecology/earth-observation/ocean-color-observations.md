@@ -2,7 +2,7 @@
 title: 'Ocean-colour observations: reading the sea from its colour'
 excerpt: The colour of the ocean carries information about the microscopic plants living in it. This explains how satellites estimate phytoplankton from water-leaving light, the missions that have built the record, and why atmospheric correction over water is the hard part.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

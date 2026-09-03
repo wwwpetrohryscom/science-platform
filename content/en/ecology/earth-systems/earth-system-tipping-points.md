@@ -2,7 +2,7 @@
 title: 'Earth-system tipping points: what IPCC AR6 actually assesses, element by element'
 excerpt: The popular version treats tipping points as one looming threshold. IPCC AR6 treats them as fifteen separate questions, with confidence ranging from high to low.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
 readingTime: 6

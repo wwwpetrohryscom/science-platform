@@ -2,7 +2,7 @@
 title: 'Ciencia del sistema Tierra: cómo interactúan los grandes sistemas del planeta'
 excerpt: El aire, el agua, el hielo, la roca y la vida suelen estudiarse por separado. La ciencia del sistema Tierra estudia los acoplamientos entre ellos, que es donde residen la mayor parte del comportamiento y de la incertidumbre.
 type: pillar
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-08-29'
 readingTime: 11

@@ -2,7 +2,7 @@
 title: 'The carbon cycle: where the carbon is, how it moves, and what changed'
 excerpt: Most of Earth's carbon is locked in rock and moves on geological time. A small fast-cycling fraction runs through air, water, and life — and that is the part we changed.
 type: expert
-author: environmental-science-desk
+author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-03'
 readingTime: 6

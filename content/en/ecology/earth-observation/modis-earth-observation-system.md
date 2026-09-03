@@ -2,7 +2,7 @@
 title: 'MODIS: the daily global view of the Earth system'
 excerpt: For over two decades the MODIS instruments on NASA’s Terra and Aqua satellites have imaged the entire planet almost every day. This explains the sensor, its 36 bands and coarse-but-frequent coverage, the products it generates, and its VIIRS successors.
 type: expert
-author: environmental-science-desk
+author: climate-research-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-06-02'
 tags:

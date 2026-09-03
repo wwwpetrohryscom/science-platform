@@ -2,7 +2,7 @@
 title: 'Biodiversity monitoring and ecosystem health: how scientists measure the state of life'
 excerpt: Biodiversity has no single thermometer. This is how scientists track the condition of species and ecosystems — through field surveys, indicators, species databases, remote sensing, and long-term observation — and what each method can and cannot resolve.
 type: expert
-author: environmental-science-desk
+author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
 updatedDate: '2026-08-29'
 readingTime: 9

@@ -78,7 +78,7 @@ export const authors: Record<AuthorId, Author> = {
     id: "environmental-science-desk",
     name: "Environmental Science Desk",
     title: "Editorial desk",
-    bio: "Editorial attribution for ecosystem science, environmental monitoring, and the measurement questions that sit under environmental policy.",
+    bio: "Editorial attribution for ecosystem science, forests, and the measurement questions that sit under environmental policy.",
     expertise: ["ecology", "monitoring", "environmental science"],
     coverage: ["ecology/ecosystems", "ecology/forests"],
     sourcingNote:
