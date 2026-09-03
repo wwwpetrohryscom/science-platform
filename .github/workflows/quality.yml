@@ -84,6 +84,12 @@ jobs:
       - name: Sitemap
         run: npm run seo:validate
 
+      # Reads the HTML the build just wrote, not the metadata objects
+      # that were meant to produce it. This is the check that found
+      # three legal pages canonicalising to `/en/%s`.
+      - name: Rendered SEO audit
+        run: npm run seo:audit
+
   external-sources:
     name: External source health
     runs-on: ubuntu-latest

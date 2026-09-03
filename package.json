@@ -30,7 +30,8 @@
     "content:generate": "tsx scripts/generate-article.ts",
     "content:build": "tsx scripts/content-build.ts",
     "seo:generate": "tsx scripts/generate-sitemap.ts",
-    "seo:validate": "tsx scripts/validate-sitemap.ts"
+    "seo:validate": "tsx scripts/validate-sitemap.ts",
+    "seo:audit": "tsx scripts/seo-audit.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

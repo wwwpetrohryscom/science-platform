@@ -161,10 +161,22 @@ export function buildMetadata(opts: BuildMetadataOptions): Metadata {
     otherVerification["msvalidate.01"] = siteVerification.bing;
   }
 
+  // A noindex page states nothing about canonicalisation or language
+  // alternates, and `null` rather than an omission is what clears them:
+  // Next merges metadata down the tree, so a page that simply leaves
+  // `alternates` out inherits the locale layout's, which points at the
+  // locale home. That is how 1,145 routes with no content in their
+  // locale came to ship an hreflang set — first the English article's,
+  // and then, once the field was merely omitted, a canonical naming
+  // `/de` as the canonical URL of a page that does not exist. Google
+  // discards annotations on noindex pages, so nothing was mis-ranked;
+  // but noindex and a canonical are contradictory directives, and the
+  // honest form of "this page is not in the index" is to say nothing
+  // else about it.
   return {
     title,
     description,
-    alternates: { canonical, languages },
+    alternates: noIndex ? null : { canonical, languages },
     openGraph: {
       title,
       description,
