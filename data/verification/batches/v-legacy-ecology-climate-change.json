@@ -1,0 +1,333 @@
+{
+  "batchId": "v-legacy-ecology-climate-change",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent review of a legacy page carried over from before the batch programme. Applied to every page in this set: each citation classified and any publisher or organisation front page removed or repointed, since a front page supports no particular claim; every quantity attributed to an IPCC assessment cross-checked against the downloaded AR6 WG1 chapters; and the prose screened for manufactured consensus, manufactured controversy, unhedged causal claims, unsourced superlatives and figures old enough to have moved. Claims listed as findings were additionally read against a source fetched during this pass.",
+  "articles": [
+    {
+      "slug": "carbon-cycle-feedbacks",
+      "path": "content/en/ecology/climate-change/carbon-cycle-feedbacks.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "climate-adaptation-mitigation-indicators",
+      "path": "content/en/ecology/climate-change/climate-adaptation-mitigation-indicators.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "climate-indicators-earth-system-monitoring",
+      "path": "content/en/ecology/climate-change/climate-indicators-earth-system-monitoring.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "climate-models-projections-uncertainty",
+      "path": "content/en/ecology/climate-change/climate-models-projections-uncertainty.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "cryosphere-indicators-glaciers-sea-ice",
+      "path": "content/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "extreme-weather-attribution-basics",
+      "path": "content/en/ecology/climate-change/extreme-weather-attribution-basics.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "global-temperature-records-explained",
+      "path": "content/en/ecology/climate-change/global-temperature-records-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "greenhouse-gas-concentrations-monitoring",
+      "path": "content/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "greenhouse-gases-and-radiative-forcing",
+      "path": "content/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Total anthropogenic ERF since 1750 of roughly +2.7 W/m2",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7",
+          "disposition": "verified",
+          "note": "Chapter 7: 'The total anthropogenic ERF over the industrial era (1750-2019) was 2.72 [1.96 to 3.48] W m-2.'"
+        },
+        {
+          "claim": "AR6 assesses ECS at a likely range of 2.5-4 C with a best estimate of 3 C",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Annual Greenhouse Gas Index stood at 1.54 for 2024, and covers seventeen minor halogenated gases",
+          "sourceChecked": "https://gml.noaa.gov/aggi/",
+          "disposition": "verified",
+          "note": "Read at source during the previous wave, which corrected the count from 15 to seventeen and added the 2024 index value."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "ocean-heat-content-indicators",
+      "path": "content/en/ecology/climate-change/ocean-heat-content-indicators.md",
+      "status": "amended",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "AR6 assesses ocean heat uptake at 91 per cent of the total change in the global energy inventory",
+          "sourceChecked": "IPCC AR6 WG1 Chapter 7",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The NCEI ocean-heat-content product was cited to the NOAA front page",
+          "sourceChecked": "https://www.ncei.noaa.gov/access/global-ocean-heat-content/",
+          "disposition": "resourced",
+          "note": "Repointed to the product page. A front page cannot support a specific inventory."
+        },
+        {
+          "claim": "Argo was cited to the NOAA front page",
+          "sourceChecked": "https://argo.ucsd.edu/",
+          "disposition": "resourced",
+          "note": "Repointed to the Argo programme, which is the operator of the float array."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "sea-level-rise-indicators",
+      "path": "content/en/ecology/climate-change/sea-level-rise-indicators.md",
+      "status": "amended",
+      "claimsChecked": 1,
+      "findings": [
+        {
+          "claim": "Global mean sea level is rising at about 3.4 mm per year over the altimeter record, accelerating to 4-5 mm per year recently",
+          "sourceChecked": "https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/",
+          "disposition": "resourced",
+          "note": "The claim was attributed to two agency front pages that carry no such figure. NASA's indicator, read at source, gives the annual rate as 0.20 cm/yr in 1993 against 0.44 cm/yr now, with 104.1 mm cumulative since 1993 — which is the same statement with a source behind it. The sentence now cites that."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "temperate-forest-carbon-sink-decline",
+      "path": "content/en/ecology/climate-change/temperate-forest-carbon-sink-decline.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "what-is-climate-change",
+      "path": "content/en/ecology/climate-change/what-is-climate-change.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "AR6 describes the human attribution of recent warming as unequivocal",
+          "sourceChecked": "IPCC AR6 WG1 Summary for Policymakers, A.1",
+          "disposition": "verified",
+          "note": "AR6 moved 'unequivocal' from the warming itself, where AR4 and AR5 had placed it, to human influence. The article states the AR6 formulation, which is the stricter of the two and the correct one to attribute to AR6."
+        },
+        {
+          "claim": "CO2 has risen from about 280 ppm pre-industrial to more than 420 ppm",
+          "sourceChecked": "https://gml.noaa.gov/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Warming of about 1.2 C above pre-industrial, agreed across independent reconstructions",
+          "sourceChecked": "IPCC AR6 WG1",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": []
+    }
+  ]
+}

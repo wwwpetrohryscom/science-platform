@@ -1,0 +1,381 @@
+{
+  "batchId": "v-legacy-ecology-biodiversity",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent review of a legacy page carried over from before the batch programme. Applied to every page in this set: each citation classified and any publisher or organisation front page removed or repointed, since a front page supports no particular claim; every quantity attributed to an IPCC assessment cross-checked against the downloaded AR6 WG1 chapters; and the prose screened for manufactured consensus, manufactured controversy, unhedged causal claims, unsourced superlatives and figures old enough to have moved. Claims listed as findings were additionally read against a source fetched during this pass.",
+  "articles": [
+    {
+      "slug": "biodiversity-baselines-and-shifting-baselines",
+      "path": "content/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "biodiversity-indicators-explained",
+      "path": "content/en/ecology/biodiversity/biodiversity-indicators-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "biodiversity-monitoring-and-ecosystem-health",
+      "path": "content/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "citizen-science-biodiversity-data",
+      "path": "content/en/ecology/biodiversity/citizen-science-biodiversity-data.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "ecological-integrity-indicators",
+      "path": "content/en/ecology/biodiversity/ecological-integrity-indicators.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "ecosystem-resilience-indicators",
+      "path": "content/en/ecology/biodiversity/ecosystem-resilience-indicators.md",
+      "status": "amended",
+      "claimsChecked": 2,
+      "findings": [
+        {
+          "claim": "Peer-reviewed work on stable states and critical transitions shaped how resilience is monitored",
+          "sourceChecked": "https://doi.org/10.1038/nature08227",
+          "disposition": "resourced",
+          "note": "Was an appeal to the journal Nature. Now cites the 2009 paper that proposed generic early-warning signals."
+        },
+        {
+          "claim": "Early-warning indicators reliably precede observed transitions",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3398887/",
+          "disposition": "qualified",
+          "note": "The article implied the methods were validated. The 2012 comparison on simulated ecological series found no single indicator performed well across all transition types, and that performance depends on series length and detrending. The sentence now says that."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "essential-biodiversity-variables-monitoring",
+      "path": "content/en/ecology/biodiversity/essential-biodiversity-variables-monitoring.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "habitat-fragmentation-metrics",
+      "path": "content/en/ecology/biodiversity/habitat-fragmentation-metrics.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "living-planet-index-explained",
+      "path": "content/en/ecology/biodiversity/living-planet-index-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "protected-area-effectiveness",
+      "path": "content/en/ecology/biodiversity/protected-area-effectiveness.md",
+      "status": "amended",
+      "claimsChecked": 1,
+      "findings": [
+        {
+          "claim": "Kunming-Montreal Target 3 asks countries to conserve at least 30 per cent of land and sea by 2030",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3",
+          "disposition": "resourced",
+          "note": "Was linked to the CBD front page; repointed to the target itself."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "red-list-index-explained",
+      "path": "content/en/ecology/biodiversity/red-list-index-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "remote-sensing-for-biodiversity-monitoring",
+      "path": "content/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "species-evenness-and-diversity",
+      "path": "content/en/ecology/biodiversity/species-evenness-and-diversity.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "species-richness-explained",
+      "path": "content/en/ecology/biodiversity/species-richness-explained.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "why-species-counts-mislead-conservation",
+      "path": "content/en/ecology/biodiversity/why-species-counts-mislead-conservation.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    }
+  ]
+}

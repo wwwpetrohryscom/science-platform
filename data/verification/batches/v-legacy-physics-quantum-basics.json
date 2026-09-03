@@ -1,0 +1,54 @@
+{
+  "batchId": "v-legacy-physics-quantum-basics",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent review of a legacy page carried over from before the batch programme. Applied to every page in this set: each citation classified and any publisher or organisation front page removed or repointed, since a front page supports no particular claim; every quantity attributed to an IPCC assessment cross-checked against the downloaded AR6 WG1 chapters; and the prose screened for manufactured consensus, manufactured controversy, unhedged causal claims, unsourced superlatives and figures old enough to have moved. Claims listed as findings were additionally read against a source fetched during this pass.",
+  "articles": [
+    {
+      "slug": "electromagnetic-spectrum-applications",
+      "path": "content/en/physics/quantum-basics/electromagnetic-spectrum-applications.md",
+      "status": "amended",
+      "claimsChecked": 2,
+      "findings": [
+        {
+          "claim": "WHO maintains reference health guidance on ultraviolet exposure and NOAA monitors the ozone column",
+          "sourceChecked": "https://www.who.int/health-topics/ultraviolet-radiation and https://gml.noaa.gov/ozwv/",
+          "disposition": "resourced",
+          "note": "Both were front pages; repointed to the topic and the monitoring programme."
+        },
+        {
+          "claim": "The page should be consulted for applied radiation-safety use",
+          "sourceChecked": "n/a",
+          "disposition": "removed",
+          "note": "A sentence directing readers to WHO and NIH 'reference materials' for applied use, linked to two front pages. Replaced with a statement that the page describes physics and is not safety guidance."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "quantum-sensors-leaving-the-lab",
+      "path": "content/en/physics/quantum-basics/quantum-sensors-leaving-the-lab.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    }
+  ]
+}

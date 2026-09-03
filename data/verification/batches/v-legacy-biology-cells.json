@@ -1,0 +1,85 @@
+{
+  "batchId": "v-legacy-biology-cells",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent review of a legacy page carried over from before the batch programme. Applied to every page in this set: each citation classified and any publisher or organisation front page removed or repointed, since a front page supports no particular claim; every quantity attributed to an IPCC assessment cross-checked against the downloaded AR6 WG1 chapters; and the prose screened for manufactured consensus, manufactured controversy, unhedged causal claims, unsourced superlatives and figures old enough to have moved. Claims listed as findings were additionally read against a source fetched during this pass.",
+  "articles": [
+    {
+      "slug": "cell-signaling-pathways-basics",
+      "path": "content/en/biology/cells/cell-signaling-pathways-basics.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "coral-microbiome-bleaching-resistance",
+      "path": "content/en/biology/cells/coral-microbiome-bleaching-resistance.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    },
+    {
+      "slug": "what-is-a-cell",
+      "path": "content/en/biology/cells/what-is-a-cell.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "batchId": "v-legacy-biology-evolution",
+  "reviewedDate": "2026-09-03",
+  "method": "Independent review of a legacy page carried over from before the batch programme. Applied to every page in this set: each citation classified and any publisher or organisation front page removed or repointed, since a front page supports no particular claim; every quantity attributed to an IPCC assessment cross-checked against the downloaded AR6 WG1 chapters; and the prose screened for manufactured consensus, manufactured controversy, unhedged causal claims, unsourced superlatives and figures old enough to have moved. Claims listed as findings were additionally read against a source fetched during this pass.",
+  "articles": [
+    {
+      "slug": "antibiotic-resistance-evolution-mechanisms",
+      "path": "content/en/biology/evolution/antibiotic-resistance-evolution-mechanisms.md",
+      "status": "amended",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Antimicrobial resistance is a leading global health threat",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/",
+          "disposition": "resourced",
+          "note": "The claim rested on three agency front pages. It now rests on the 2019 GRAM systematic analysis: 1.27 million deaths attributable to bacterial resistance and 4.95 million associated, across 23 pathogens and 88 pathogen-drug combinations in 204 countries, with the regional range from 27.3 per 100,000 in western sub-Saharan Africa to 6.5 in Australasia."
+        },
+        {
+          "claim": "The WHO priority pathogens list orders pathogen-drug combinations by threat",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789240093461",
+          "disposition": "corrected",
+          "note": "The article described a list revised since 2017 with carbapenem-resistant organisms in the top tier. The 2024 list covers 24 pathogens across 15 families in three priority categories and states that its purpose is to guide research and development rather than to rank clinical severity. Rewritten to say that."
+        },
+        {
+          "claim": "The WHO global action plan converges on a set of evidence-supported interventions",
+          "sourceChecked": "https://www.who.int/publications/i/item/9789241509763",
+          "disposition": "qualified",
+          "note": "The plan sets out five strategic objectives agreed by the World Health Assembly in 2015. It is a framework, not an evidence review, and the article now says so rather than presenting it as one."
+        }
+      ],
+      "openQuestions": []
+    },
+    {
+      "slug": "cell-types-as-units-of-evolution",
+      "path": "content/en/biology/evolution/cell-types-as-units-of-evolution.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Every citation on the page classified; no publisher or organisation front page remains",
+          "sourceChecked": "citation audit across the corpus",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No sentence attributes a quantity to an IPCC assessment that does not appear in the downloaded AR6 WG1 chapters",
+          "sourceChecked": "IPCC AR6 WG1 Chapters 1, 2, 4, 5, 7, 8, 9, 11",
+          "disposition": "verified"
+        },
+        {
+          "claim": "No manufactured consensus or manufactured controversy phrasing",
+          "sourceChecked": "prose screen",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "Beyond the checks described in the method, the individual figures on this page were not each read against their source in this pass. Its citations are institutional and specific, and none was found to be a front page after this review, but that is a statement about the bibliography rather than about every number."
+      ]
+    }
+  ]
+}
