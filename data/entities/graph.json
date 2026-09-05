@@ -1739,6 +1739,7 @@
     "foundation-species-and-the-myth-of-redundancy",
     "soil-microbiome-regenerative-agriculture",
     "urban-ecology-explained",
+    "urban-heat-islands-and-surface-energy-balance",
     "what-is-an-ecosystem"
    ],
    "evidenceIds": [
@@ -1746,6 +1747,7 @@
     "ev-doi-org-85bf7fd8",
     "ev-eea-europa-eu-5ecc0193",
     "ev-eea-europa-eu-8cf6f284",
+    "ev-epa-gov-50964e1f",
     "ev-epa-gov-64853b14",
     "ev-epa-gov-d8e2a72f",
     "ev-epa-gov-f01f0131",
@@ -1761,6 +1763,7 @@
     "ev-ipbes-net-860a7b04",
     "ev-ipbes-net-f156c424",
     "ev-ipcc-ch-41fb314f",
+    "ev-pmc-ncbi-nlm-nih-gov-cef84aaa",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-pubmed-ncbi-nlm-nih-gov-3b6a6fd7",
     "ev-pubmed-ncbi-nlm-nih-gov-56a9b664",
@@ -1774,6 +1777,7 @@
     "ev-usgs-gov-3df2c56e",
     "ev-usgs-gov-bc568f25",
     "ev-usgs-gov-fad35d8a",
+    "ev-weather-gov-eb899786",
     "ev-who-int-f93f3734"
    ]
   },
@@ -1987,6 +1991,7 @@
    ],
    "relatedArticles": [
     "capacity-factor-and-energy-metrics",
+    "cooling-demand-and-electricity",
     "energy-systems-explained",
     "energy-work-and-power",
     "grid-integration-of-variable-renewables",
@@ -2025,6 +2030,7 @@
     "ev-energy-gov-94a58fb6",
     "ev-energy-gov-acc79b85",
     "ev-energy-gov-f9b8ca6a",
+    "ev-epa-gov-50964e1f",
     "ev-euro-fusion-org-ed518995",
     "ev-iea-org-2d29a3db",
     "ev-iea-org-50fc695a",
@@ -2053,6 +2059,7 @@
     "ev-osti-gov-ab1df7b4",
     "ev-par-nsf-gov-521d8f95",
     "ev-pdg-lbl-gov-e02605b9",
+    "ev-pmc-ncbi-nlm-nih-gov-45f8defd",
     "ev-pmc-ncbi-nlm-nih-gov-4e86f173",
     "ev-pmc-ncbi-nlm-nih-gov-4fb7608e",
     "ev-pmc-ncbi-nlm-nih-gov-5147f07c",
@@ -2066,6 +2073,7 @@
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-science-nasa-gov-32cc3e70",
     "ev-science-nasa-gov-ed8dcf74",
+    "ev-weather-gov-eb899786",
     "ev-wes-copernicus-org-64ed7085",
     "ev-wes-copernicus-org-bff4f9b7"
    ]
@@ -3349,6 +3357,7 @@
    "relatedArticles": [
     "circulation-and-the-heart",
     "diffusion-limits-on-body-size",
+    "heat-stress-and-thermoregulatory-limits",
     "hormones-and-endocrine-signalling",
     "metabolic-scaling-and-body-size",
     "physiology-explained",
@@ -3367,6 +3376,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-24b71014",
     "ev-pmc-ncbi-nlm-nih-gov-285afdd1",
     "ev-pmc-ncbi-nlm-nih-gov-41527e8a",
+    "ev-pmc-ncbi-nlm-nih-gov-45f8defd",
     "ev-pmc-ncbi-nlm-nih-gov-487c85e4",
     "ev-pmc-ncbi-nlm-nih-gov-4cf40e78",
     "ev-pmc-ncbi-nlm-nih-gov-5534f0f8",
@@ -3381,6 +3391,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-b4815fdf",
     "ev-pmc-ncbi-nlm-nih-gov-cb5efaaa",
     "ev-pmc-ncbi-nlm-nih-gov-ccbd20a3",
+    "ev-pmc-ncbi-nlm-nih-gov-cef84aaa",
     "ev-pmc-ncbi-nlm-nih-gov-d049aa6f",
     "ev-pmc-ncbi-nlm-nih-gov-d27b0100",
     "ev-pmc-ncbi-nlm-nih-gov-f465c738",
@@ -3393,6 +3404,7 @@
     "ev-pubmed-ncbi-nlm-nih-gov-d48109fd",
     "ev-pubmed-ncbi-nlm-nih-gov-d6175abd",
     "ev-pubmed-ncbi-nlm-nih-gov-dc9cbbc7",
+    "ev-weather-gov-eb899786",
     "ev-who-int-4ab8de41",
     "ev-who-int-712674c7"
    ]
@@ -3568,6 +3580,8 @@
     "essential-climate-variables-explained",
     "extinction-rate-estimates-and-their-assumptions",
     "forest-carbon-measurement",
+    "heat-mortality-and-what-the-records-count",
+    "humidity-and-why-heat-and-moisture-combine",
     "interlaboratory-comparison-and-consensus-values",
     "materials-physics-and-semiconductors",
     "measurement-uncertainty-explained",
@@ -3607,6 +3621,7 @@
     "ev-ecmwf-int-2c0830e3",
     "ev-ecmwf-int-33e1439f",
     "ev-energy-gov-3d2a7bea",
+    "ev-epa-gov-50964e1f",
     "ev-epa-gov-5b818859",
     "ev-epa-gov-c9ea0959",
     "ev-esa-int-ffbc128f",
@@ -3710,6 +3725,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-1fc23e22",
     "ev-pmc-ncbi-nlm-nih-gov-2e6d6acc",
     "ev-pmc-ncbi-nlm-nih-gov-31beb637",
+    "ev-pmc-ncbi-nlm-nih-gov-45f8defd",
     "ev-pmc-ncbi-nlm-nih-gov-48a08b6f",
     "ev-pmc-ncbi-nlm-nih-gov-5b38c88e",
     "ev-pmc-ncbi-nlm-nih-gov-6c9378fc",
@@ -3719,6 +3735,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-96ec0bf1",
     "ev-pmc-ncbi-nlm-nih-gov-bd2a5416",
     "ev-pmc-ncbi-nlm-nih-gov-c75576ed",
+    "ev-pmc-ncbi-nlm-nih-gov-cef84aaa",
     "ev-pmc-ncbi-nlm-nih-gov-de77abab",
     "ev-pmc-ncbi-nlm-nih-gov-fec2069a",
     "ev-portals-iucn-org-a5cee9ce",
@@ -3759,6 +3776,7 @@
     "ev-verra-org-14912b95",
     "ev-wcrp-climate-org-2a1c7487",
     "ev-wcrp-cmip-org-194a298d",
+    "ev-weather-gov-eb899786",
     "ev-who-int-699833a6",
     "ev-wmo-int-0ffe3704",
     "ev-wmo-int-3d96c5c4",

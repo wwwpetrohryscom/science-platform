@@ -524,6 +524,15 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       lastReviewed: "2026-08-29",
     },
     {
+      name: "National Weather Service",
+      organization: "NOAA",
+      url: "https://www.weather.gov/",
+      type: "primary",
+      topicRelevance:
+        "Operational heat index, wind chill and severe-weather definitions, and the assumptions behind them",
+      lastReviewed: "2026-09-05",
+    },
+    {
       name: "National Ocean Service",
       organization: "NOAA",
       url: "https://oceanservice.noaa.gov/",

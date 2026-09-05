@@ -22,7 +22,7 @@ pillar: what-is-climate-change
 _bodyHash: 957b1f0f
 ---
 
-The [cryosphere](/en/glossary/cryosphere) — the frozen part of the Earth system, and one of the clearest places [warming shows up in observations](/en/ecology/climate-change/what-is-climate-change) — is not one thing. Sea ice, glaciers, ice sheets, snow cover, and permafrost are physically distinct reservoirs with different formation mechanisms, response timescales, and indicator products. They have one common property useful for the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring): each one responds to surface energy balance in a way that integrates climate forcing over a characteristic time, so the cryosphere indicators together provide constraints the atmospheric indicators alone do not.
+The [cryosphere](/en/glossary/cryosphere) — the frozen part of the Earth system, and one of the clearest places [warming shows up in observations](/en/ecology/climate-change/what-is-climate-change) — is not one thing. Sea ice, glaciers, ice sheets, snow cover, and permafrost are physically distinct reservoirs with different formation mechanisms, response timescales, and indicator products. They have one common property useful for the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring): each one responds to surface [energy balance](/en/ecology/ecosystems/urban-heat-islands-and-surface-energy-balance) in a way that integrates climate forcing over a characteristic time, so the cryosphere indicators together provide constraints the atmospheric indicators alone do not.
 
 This piece walks through the main indicators, what each one measures, and where their uncertainties live.
 

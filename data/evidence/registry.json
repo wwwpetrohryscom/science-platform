@@ -5362,6 +5362,49 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-epa-gov-50964e1f",
+   "title": "Learn about heat islands",
+   "organization": "US EPA",
+   "url": "https://www.epa.gov/heatislands/learn-about-heat-islands",
+   "host": "epa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/climate-change",
+    "ecology/ecosystems",
+    "physics/climate-physics",
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "cooling-demand-and-electricity",
+     "section": "physics/energy",
+     "supports": "The 1–9% per 2 °F cooling electricity elasticity and anthropogenic heat from air conditioning as a heat-island contributor."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-mortality-and-what-the-records-count",
+     "section": "ecology/climate-change",
+     "supports": "The average of 702 US heat deaths per year for 2004–2018, and the urban conditions that concentrate exposure."
+    },
+    {
+     "kind": "article",
+     "slug": "humidity-and-why-heat-and-moisture-combine",
+     "section": "physics/climate-physics",
+     "supports": "The urban modification of the same surface energy balance."
+    },
+    {
+     "kind": "article",
+     "slug": "urban-heat-islands-and-surface-energy-balance",
+     "section": "ecology/ecosystems",
+     "supports": "The 1–7 °F daytime and 2–5 °F nighttime differences, the causes, the 1–9% per 2 °F electricity elasticity, the 702 annual heat deaths for 2004–2018, and the 18 °F stream temperature surges."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-epa-gov-56fbddc1",
    "title": "Particulate matter basics",
    "organization": "US Environmental Protection Agency",
@@ -22790,6 +22833,48 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-45f8defd",
+   "title": "Observational and model evidence together support wide-spread exposure to noncompensable heat under continued global warming",
+   "organization": "Science Advances (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10491292/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology",
+    "ecology/climate-change",
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "cooling-demand-and-electricity",
+     "section": "physics/energy",
+     "supports": "The direction and extent of change in the conditions this demand responds to."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-limits-and-the-wet-bulb-threshold",
+     "section": "ecology/climate-change",
+     "supports": "The extreme-value analysis using the empirical limit and its projections."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-mortality-and-what-the-records-count",
+     "section": "ecology/climate-change",
+     "supports": "The direction of change in the exposure that produces the mortality."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-stress-and-thermoregulatory-limits",
+     "section": "biology/physiology",
+     "supports": "The compensable/noncompensable framing and the duration assumption."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-45fcb8b5",
    "title": "Biological nitrogen fixation in theory, practice, and reality: a perspective on the molybdenum nitrogenase system",
    "organization": "FEBS Letters (PMC)",
@@ -26221,6 +26306,55 @@
      "slug": "ionising-radiation-exposure-and-risk",
      "section": "physics/matter-radiation",
      "supports": "Tabulated ICRP Publication 103 occupational, public and skin dose limits."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-cef84aaa",
+   "title": "Why not 35°C? Reasons for reductions in limits of human thermal tolerance and their implications",
+   "organization": "Temperature (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11583582/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology",
+    "ecology/climate-change",
+    "ecology/ecosystems",
+    "physics/climate-physics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "heat-limits-and-the-wet-bulb-threshold",
+     "section": "ecology/climate-change",
+     "supports": "The origin of the 35 °C figure, the 30.6 °C empirical threshold in warm-humid conditions, and the four physiological reasons for the reduction."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-mortality-and-what-the-records-count",
+     "section": "ecology/climate-change",
+     "supports": "Why tolerance thresholds vary between people and are lower than the theoretical limit."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-stress-and-thermoregulatory-limits",
+     "section": "biology/physiology",
+     "supports": "Measured skin temperatures of 36–38.5 °C, physiological control of sweating, clothing, acclimatisation, and the 30.6 °C threshold."
+    },
+    {
+     "kind": "article",
+     "slug": "humidity-and-why-heat-and-moisture-combine",
+     "section": "physics/climate-physics",
+     "supports": "Why wet-bulb temperature is the physically meaningful limit variable."
+    },
+    {
+     "kind": "article",
+     "slug": "urban-heat-islands-and-surface-energy-balance",
+     "section": "ecology/ecosystems",
+     "supports": "The tolerance thresholds the added degrees are measured against."
     }
    ],
    "isLiveDataset": false,
@@ -35682,6 +35816,56 @@
      "slug": "earth-system-science-explained",
      "section": "ecology/earth-systems",
      "supports": "Model coordination, participation, and data distribution."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-weather-gov-eb899786",
+   "title": "Heat index",
+   "organization": "NOAA National Weather Service",
+   "url": "https://www.weather.gov/safety/heat-index",
+   "host": "weather.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology",
+    "ecology/climate-change",
+    "ecology/ecosystems",
+    "physics/climate-physics",
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "cooling-demand-and-electricity",
+     "section": "physics/energy",
+     "supports": "The combined conditions that drive cooling demand rather than temperature alone."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-limits-and-the-wet-bulb-threshold",
+     "section": "ecology/climate-change",
+     "supports": "The operational index built on the same temperature-and-humidity combination."
+    },
+    {
+     "kind": "article",
+     "slug": "heat-stress-and-thermoregulatory-limits",
+     "section": "biology/physiology",
+     "supports": "The operational treatment of combined temperature and humidity."
+    },
+    {
+     "kind": "article",
+     "slug": "humidity-and-why-heat-and-moisture-combine",
+     "section": "physics/climate-physics",
+     "supports": "The definition, the shade and light-wind assumption, the up-to-15 °F sunshine correction, the hot-dry-wind warning, and the 96 °F / 65% / 121 °F example."
+    },
+    {
+     "kind": "article",
+     "slug": "urban-heat-islands-and-surface-energy-balance",
+     "section": "ecology/ecosystems",
+     "supports": "The combined temperature-humidity exposure that urban conditions modify."
     }
    ],
    "isLiveDataset": false,
