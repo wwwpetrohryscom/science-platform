@@ -19,6 +19,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
+_bodyHash: e85b6760
 ---
 Um sistema energético mantém três livros de contas, e quase toda a discussão confusa sobre energia nasce de retirar um número de um deles e usá-lo noutro. O primeiro conta o recurso tal como é extraído ou captado — o carvão na veia, o urânio no minério, os fotões num painel. O segundo conta os vetores que deslocam energia utilizável: eletricidade, combustíveis líquidos refinados, gás canalizado, calor numa rede urbana. O terceiro conta o que é entregue no ponto onde alguém quer trabalho feito — um forno, um motor, um ecrã. Cada conversão entre livros tem um custo físico, e a dimensão desse custo é o dado mais informativo sobre uma tecnologia.
 

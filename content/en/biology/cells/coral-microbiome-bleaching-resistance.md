@@ -22,7 +22,7 @@ faq:
     answer: No. Microbiome priming raises the thermal threshold modestly. It is a buffer, not a substitute for emissions reductions.
   - question: Is this approach being trialed in the wild?
     answer: Some reef-restoration programs are testing assisted resilience strategies under controlled or monitored conditions. The evidence for microbiome-focused field deployment remains early, and ecological impact assessment should be treated as a prerequisite rather than an afterthought.
-_bodyHash: ad740cb5
+_bodyHash: 8e805c57
 ---
 
 Coral bleaching is commonly described as the loss or functional breakdown of photosynthetic algal symbionts under [heat stress](/en/biology/physiology/thermoregulation-in-animals) — a failure of a partnership between [cells](/en/biology/cells/what-is-a-cell) of two different lineages, a mechanism summarized by [NOAA Coral Reef Watch](https://coralreefwatch.noaa.gov/product/50km/tutorial/crw02_coralbleaching.php). That description is correct but incomplete. Peer-reviewed work indexed by [PubMed](https://pubmed.ncbi.nlm.nih.gov/) increasingly treats the coral host, algae, and bacterial community as an interacting system.

@@ -18,6 +18,7 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
+_bodyHash: e89ae24
 ---
 [La thermodynamique](/fr/glossary/thermodynamics) est un ensemble d'interdictions. Chacun de ses quatre principes dit que quelque chose ne peut pas être fait, et chacun a survécu aux théories microscopiques censées l'expliquer — le calorique, puis la mécanique classique, puis la théorie classique des champs. C'est pourquoi un raisonnement du XIXᵉ siècle sur la vapeur contraint encore, sans modification, une cellule solaire, un réfrigérateur domestique et une bactérie.
 

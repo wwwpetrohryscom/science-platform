@@ -16,7 +16,7 @@ related:
   - biodiversity-baselines-and-shifting-baselines
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 4adf2ac5
+_bodyHash: d6b7a968
 readingTime: 5
 ---
 

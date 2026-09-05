@@ -19,6 +19,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
+_bodyHash: 51aaa68c
 ---
 Ein Energiesystem führt drei Bücher, und fast jede verworrene Energiedebatte entsteht daraus, eine Zahl aus dem einen zu nehmen und im anderen zu verwenden. Das erste zählt die Ressource, wie sie gefördert oder eingefangen wird — Kohle im Flöz, Uran im Erz, Photonen auf einem Modul. Das zweite zählt die Träger, die nutzbare Energie bewegen: Strom, raffinierte Flüssigkraftstoffe, Leitungsgas, Wärme in einer Fernwärmeleitung. Das dritte zählt, was dort ankommt, wo jemand Arbeit verrichtet haben will — ein Ofen, ein Motor, ein Bildschirm. Jede Umwandlung zwischen den Büchern hat physikalische Kosten, und deren Höhe ist die aufschlussreichste einzelne Größe einer Technologie.
 

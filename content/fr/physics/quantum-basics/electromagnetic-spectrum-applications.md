@@ -17,6 +17,7 @@ related:
   - solar-radiation-and-earth-energy-balance
   - earth-energy-budget-and-the-second-law
 pillar: quantum-mechanics-fundamentals
+_bodyHash: 3637bb2e
 ---
 
 Ondes radio, micro-ondes, infrarouge, lumière visible, ultraviolet, rayons X et rayons gamma ne sont pas des phénomènes physiques différents. C'est le même phénomène — des ondes électromagnétiques en propagation, décrites de façon équivalente comme des photons, au sens que [la mécanique quantique donne à cette équivalence](/fr/physics/quantum-basics/quantum-mechanics-fundamentals) — à des longueurs d'onde différentes. Les différences dans la façon dont chacun interagit avec la matière, et donc dans son usage en science et en technique, découlent de la seule longueur d'onde.

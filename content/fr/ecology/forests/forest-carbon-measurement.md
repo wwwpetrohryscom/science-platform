@@ -19,6 +19,7 @@ related:
   - deforestation-statistics-explained
   - boreal-forests-and-permafrost-interactions
 pillar: forest-ecosystems-explained
+_bodyHash: 975912e
 ---
 
 Personne n'a jamais pesé une forêt. Tout chiffre de carbone qu'on lui attache est le produit d'une chaîne de substitutions : un diamètre de tronc tient lieu de masse d'arbre, un modèle statistique tient lieu de la récolte qui l'aurait mesurée, une placette tient lieu de paysage, et un satellite tient lieu des placettes qui n'ont jamais été installées. Chaque substitution est défendable et chacune a une variance. Comprendre un chiffre de carbone forestier, c'est savoir quel maillon de cette chaîne est le plus lâche — et ce n'est presque jamais celui qu'on suppose.

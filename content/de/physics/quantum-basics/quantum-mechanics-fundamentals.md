@@ -18,6 +18,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
+_bodyHash: ff04dac6
 ---
 Als Vorhersageinstrument beurteilt, ist die Quantenmechanik die am strengsten geprüfte Theorie der Physik. Die CODATA-Auswertung von 2022 gibt die Anomalie des magnetischen Moments des Elektrons mit 1,159 652 180 46(18) × 10⁻³ an, einer relativen Standardunsicherheit von 1,6 × 10⁻¹⁰. Die Feinstrukturkonstante, die die Stärke der elektromagnetischen Wechselwirkung bestimmt, ist in derselben Größenordnung festgelegt, 7,297 352 5643(11) × 10⁻³. Was an der Quantentheorie auch ungeklärt sein mag, ihre Arithmetik ist nicht der ungeklärte Teil.
 

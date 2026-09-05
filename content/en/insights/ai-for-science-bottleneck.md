@@ -1,13 +1,13 @@
 ---
 title: Why "AI for science" is undervaluing the bottleneck it is best placed to fix
-metaTitle: 'AI for science is undervaluing its own bottleneck'
+metaTitle: AI for science is undervaluing its own bottleneck
 excerpt: Most AI-for-science investment chases discovery. The higher-leverage use is making the experimental record reproducible and machine-readable.
 argument: Discovery captures attention; infrastructure captures compounding returns. Funding agencies and platforms that systematize how experiments are recorded, indexed, and replicated will create more cumulative value than the next foundation model trained on papers.
 category: physics
 author: ecosciencehub-editorial-team
 publishedDate: '2026-03-22'
-updatedDate: '2026-05-08'
-readingTime: 4
+updatedDate: '2026-09-05'
+readingTime: 5
 tags:
   - AI
   - infrastructure
@@ -16,7 +16,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
-_bodyHash: 16232f31
+_bodyHash: ca46152c
 ---
 
 The conversation about AI in science is dominated by a particular kind of story: discovery. Protein-structure prediction, materials screening, and literature-mining systems are real scientific tools. But public research infrastructure from [NIH/NLM](https://www.ncbi.nlm.nih.gov/books/), peer-reviewed literature indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), and measurement standards from [NIST](https://www.nist.gov/) point to a less visible bottleneck: the experimental record is still hard to reproduce, query, and reuse at scale.

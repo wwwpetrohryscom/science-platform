@@ -18,7 +18,7 @@ related:
   - waves-and-oscillations-explained
   - fluid-dynamics-explained
   - measurement-uncertainty-explained
-_bodyHash: fddd4522
+_bodyHash: 8767f820
 ---
 
 Two Voyager spacecraft, launched in 1977, are leaving the Solar System at more than 3 astronomical units per year, and NASA navigated both of them to their planetary encounters using mechanics that was essentially complete before 1900. That is the practical case for classical mechanics: not that it is the deepest description available, but that within a very wide envelope it is the correct one, and nothing that replaced it made it obsolete inside that envelope.

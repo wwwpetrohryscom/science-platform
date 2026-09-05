@@ -5,7 +5,7 @@ excerpt: Nommer un organisme est une procédure régie par des règles, avec ses
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - taxonomy
@@ -18,6 +18,7 @@ related:
   - phylogenetics-explained
   - the-tree-of-life-and-domains
   - how-many-species-are-there
+_bodyHash: 4d645f43
 ---
 Un nom scientifique remplit deux fonctions, et la plupart des confusions sur la taxinomie viennent de leur amalgame. Décider quels organismes appartiennent ensemble à un groupe est un jugement scientifique, révisable dès que les preuves changent. Décider quel nom ce groupe porte correctement est une procédure régie par des règles, presque sans contenu scientifique — plus proche du droit de la propriété que de la biologie. Les codes internationaux de nomenclature régissent la seconde et se taisent délibérément sur la première. Quand un nom familier change, la cause peut se trouver dans l'une ou l'autre, et de l'extérieur les deux sont indiscernables.
 

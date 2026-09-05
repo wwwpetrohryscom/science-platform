@@ -5,7 +5,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 6
+readingTime: 8
 tags:
   - archaea
   - bacteria
@@ -18,7 +18,7 @@ related:
   - microbial-biogeochemistry
   - viruses-explained
 pillar: microbiology-explained
-_bodyHash: 7da50af7
+_bodyHash: 6b9c0342
 ---
 
 Until the late 1970s, a methanogen from a cow's rumen and *Escherichia coli* from the same animal's gut were filed under the same heading. Both were small, both lacked a nucleus, and under a light microscope both were rods. The reclassification that separated them did not come from any new observation of the cells; it came from sequencing a molecule that both of them use for the same job, and finding that the two versions were about as different from each other as either was from the version in a human ribosome.

@@ -18,6 +18,7 @@ related:
   - biosphere-climate-interactions
   - earth-system-tipping-points
 pillar: earth-system-science-explained
+_bodyHash: 6d000b9d
 ---
 Es gibt zwei [Kohlenstoffkreisläufe](/de/glossary/carbon-cycle), die nebeneinander mit Geschwindigkeiten laufen, die sich um rund sieben Größenordnungen unterscheiden, und fast jede Verwirrung über Kohlenstoff entsteht daraus, sie als einen zu behandeln. Dieser Artikel trennt sie und verfolgt dann die menschliche Störung durch den schnellen. Beide sind Bestandteile des gekoppelten Systems, das [die Einführung in die Erdsystemwissenschaft](/de/ecology/earth-systems/earth-system-science-explained) darlegt.
 

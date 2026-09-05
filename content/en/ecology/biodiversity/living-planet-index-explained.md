@@ -5,7 +5,7 @@ excerpt: The Living Planet Index aggregates thousands of vertebrate population t
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - living-planet-index
@@ -16,8 +16,8 @@ related:
   - red-list-index-explained
   - biodiversity-baselines-and-shifting-baselines
 pillar: why-species-counts-mislead-conservation
-_bodyHash: d0a00d00
-readingTime: 5
+_bodyHash: 45ab268b
+readingTime: 4
 ---
 
 Few biodiversity statistics travel further into public conversation than the headline figure from the [Living Planet Index](/en/glossary/living-planet-index). It is widely cited and almost as widely misunderstood, in much the same way and for much the same reasons as [the species count it is often confused with](/en/ecology/biodiversity/why-species-counts-mislead-conservation). The index summarizes the average relative change in monitored vertebrate populations, and reading it correctly means knowing what kind of number it is — and what it is not.

@@ -5,7 +5,7 @@ excerpt: Eine regulatorische Luftmessung ist eine Konzentration plus eine statis
 type: expert
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - air-quality-index
@@ -19,6 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - noise-and-light-pollution-ecology
 pillar: environmental-pollution-explained
+_bodyHash: 62a35b8e
 ---
 
 Ein Luftqualitätsstandard ist nie bloß eine Konzentration. Er ist eine Konzentration samt Mittelungszeit, Statistik und meist einer Mehrjahresmittelungsregel — und die Statistik leistet ebenso viel regulatorische Arbeit wie die Zahl davor. Der US-Ozonstandard liegt bei 0,070 Teilen pro Million über acht Stunden, doch die Form des Standards ist der jährlich vierthöchste Tagesmaximalwert über acht Stunden, gemittelt über drei Jahre. Ein Standort kann daher jedes Jahr mehrere Tage über dem Niveau verzeichnen und dennoch eingehalten werden. Das ist eine bewusste Konstruktionsentscheidung, kein Schlupfloch: sie duldet seltene meteorologische Extreme und begrenzt zugleich das wiederkehrende Muster. Sie bedeutet auch, dass „der Standard wurde heute überschritten" und „der Standard wurde verletzt" verschiedene Aussagen sind.

@@ -5,7 +5,7 @@ type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 8
 tags:
   - quantum-mechanics
   - superposition
@@ -17,7 +17,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
-_bodyHash: b47606a4
+_bodyHash: f3088e4f
 ---
 
 Judged as a predictive instrument, quantum mechanics is the most severely tested theory physics has. The 2022 CODATA evaluation lists the electron magnetic moment anomaly as 1.159 652 180 46(18) × 10⁻³, a relative standard uncertainty of 1.6 × 10⁻¹⁰. The fine-structure constant that governs the strength of the electromagnetic interaction is pinned to the same order, 7.297 352 5643(11) × 10⁻³. Whatever is unresolved about quantum theory, its arithmetic is not the unresolved part.

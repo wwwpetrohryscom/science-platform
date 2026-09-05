@@ -18,6 +18,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
+_bodyHash: 15b7e128
 ---
 Juzgada como instrumento predictivo, la mecánica cuántica es la teoría más severamente puesta a prueba de la física. La evaluación CODATA de 2022 da la anomalía del momento magnético del electrón como 1,159 652 180 46(18) × 10⁻³, una incertidumbre típica relativa de 1,6 × 10⁻¹⁰. La constante de estructura fina, que gobierna la intensidad de la interacción electromagnética, está acotada al mismo orden, 7,297 352 5643(11) × 10⁻³. Sea lo que sea lo que queda sin resolver en la teoría cuántica, su aritmética no es la parte sin resolver.
 

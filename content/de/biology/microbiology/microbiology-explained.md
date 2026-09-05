@@ -5,7 +5,7 @@ excerpt: Allein Bakterien enthalten rund 70 Gigatonnen Kohlenstoff, größtentei
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - microbiology
@@ -19,6 +19,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
+_bodyHash: 2ab30d94
 ---
 Eine 2018 veröffentlichte Bestandsaufnahme der Biosphäre bezifferte den gesamten lebenden Kohlenstoff der Erde auf rund 550 Gigatonnen, davon etwa 450 bei den Pflanzen. Bakterien folgen mit ungefähr 70 Gt C, dann Pilze mit 12, Archaeen mit 7, Protisten mit 4, Tiere mit 2 und Viren mit 0,2. Diese von Forschenden am Weizmann-Institut und am Caltech zusammengetragenen Zahlen tragen sehr unterschiedliche Unsicherheiten — Pflanzen sind auf einen Faktor 1,2 genau bestimmt, Bakterien nur auf einen Faktor 10 und Archaeen auf einen Faktor 13 — doch es kommt auf die Reihenfolge an. Fast alles Lebende, das keine Pflanze ist, ist mikrobiell, und das meiste davon liegt dort, wo niemand direkt nachgesehen hat.
 

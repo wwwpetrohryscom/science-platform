@@ -19,7 +19,7 @@ related:
   - capacity-factor-and-energy-metrics
   - laws-of-thermodynamics-explained
 pillar: classical-mechanics-explained
-_bodyHash: bc69a562
+_bodyHash: 1acc1497
 ---
 
 Hold a heavy box motionless at arm's length until your arms shake. In the mechanical sense you have done no work on it at all. That result is not a quirk of physics jargon; it follows from the only definition of work that makes the rest of mechanics consistent, and the gap between that definition and the everyday word is where a large fraction of energy confusion begins.

@@ -5,7 +5,7 @@ excerpt: Regulation ist kein Thermostat. Dieser Pfeilertext legt dar, was eine r
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - homeostasis
@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: b8d40700
 ---
 Arterielles Blut liegt bei einem gesunden Menschen zwischen pH 7,35 und 7,45. Nichts in der Chemie bevorzugt dieses Band; es wird dort gehalten, weil mehrere Prozesse fortwährend gegeneinander drücken, und weil ein Verlassen des Bandes genau die Enzyme lahmlegt, die dieses Drücken besorgen. Das Band wird auf zwei Uhren zugleich verteidigt — die Lunge passt die Kohlendioxidabgabe binnen Minuten bis Stunden an, während die Nieren über Tage Bikarbonat rückresorbieren und fixe Säuren ausscheiden. So sieht fast jede physiologische Geschichte aus: nicht ein Mechanismus, sondern mehrere mit verschiedenen Zeitkonstanten — und welchen man bemerkt, hängt davon ab, wie lange man hinsieht.
 

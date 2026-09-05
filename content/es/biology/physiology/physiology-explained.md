@@ -5,7 +5,7 @@ excerpt: La regulación no es un termostato. Este pilar expone qué es una varia
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - homeostasis
@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: 130b1ed
 ---
 La sangre arterial de una persona sana se sitúa entre un pH de 7,35 y 7,45. Nada en la química privilegia esa banda; se mantiene ahí porque varios procesos empujan unos contra otros de forma continua, y porque salirse de ella desactiva las enzimas que ejercen ese empuje. La banda se defiende en dos relojes a la vez — los pulmones ajustan la eliminación de dióxido de carbono en minutos a horas, mientras los riñones reabsorben bicarbonato y excretan ácidos fijos a lo largo de días. Esa es la forma de casi toda historia fisiológica: no un mecanismo, sino varios con constantes de tiempo distintas, y cuál se advierte depende de cuánto tiempo se mire.
 

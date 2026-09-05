@@ -19,6 +19,7 @@ related:
   - ocean-heat-content-indicators
   - sea-level-rise-indicators
 pillar: what-is-climate-change
+_bodyHash: 63c270b0
 ---
 
 Ein [Klimaindikator](/en/glossary/climate-indicator) ist eine über die Zeit fortgeführte Messung, die eine bestimmte Dimension des Erdsystems verfolgt. Die globale Mitteltemperatur an der Oberfläche ist einer. Der Wärmeinhalt des Ozeans ist ein weiterer. Treibhausgaskonzentration, Meeresspiegel, Gletschermassenbilanz, arktische Meereisausdehnung und das Energieungleichgewicht am Oberrand der Atmosphäre sind in diesem Sinn alle Indikatoren. Jeder beantwortet eine andere Frage; keiner beantwortet alle.

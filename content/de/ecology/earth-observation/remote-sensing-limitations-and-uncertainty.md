@@ -1,6 +1,6 @@
 ---
 title: 'Grenzen und Unsicherheit der Fernerkundung: Satellitendaten ehrlich lesen'
-metaTitle: 'Grenzen und Unsicherheit der Fernerkundung'
+metaTitle: Grenzen und Unsicherheit der Fernerkundung
 excerpt: Satellitendaten sind mächtig, aber nie perfekt. Hier stehen die strukturellen Grenzen der Fernerkundung — Auflösungskompromisse, Wolken, Mischpixel, indirekte Messung und Sensordrift — und die Validierungspraxis, die diese Produkte ehrlich hält.
 type: expert
 author: climate-research-desk
@@ -17,6 +17,7 @@ related:
   - land-cover-change-detection
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
+_bodyHash: 1d0c857
 ---
 Satellitenmessung ist für die Umweltwissenschaften unentbehrlich und gleichwohl auf eine Weise begrenzt, die dafür zählt, wie ihre Ergebnisse gelesen werden sollten. Eine aus dem Orbit abgeleitete Karte oder Zeitreihe trägt immer Annahmen, Lücken und Fehler mit sich, die gute Praxis ausspricht statt verbirgt. Dieser Artikel legt die wesentlichen strukturellen Grenzen dessen dar, [was Fernerkundung ist](/de/ecology/earth-observation/what-is-remote-sensing), sowie die Validierung, die die entstehenden Produkte vertrauenswürdig hält; der weitere Zusammenhang steht in unserem Themenbereich [Erdbeobachtung und Fernerkundung](/de/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 

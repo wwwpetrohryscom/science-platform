@@ -1,11 +1,11 @@
 ---
 title: 'Microbial biogeochemistry: the organisms that close the elemental cycles'
-metaTitle: 'Microbial biogeochemistry and the elemental cycles'
+metaTitle: Microbial biogeochemistry and the elemental cycles
 excerpt: Several steps in the nitrogen, carbon and sulfur cycles have no plant or animal equivalent — only prokaryotes run them. This page follows those reactions and the awkward distance between detecting the gene for one and measuring its rate.
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biogeochemistry
@@ -19,7 +19,7 @@ related:
   - nitrogen-cycle-explained
   - soil-biology-and-the-soil-food-web
 pillar: microbiology-explained
-_bodyHash: b1da195d
+_bodyHash: 4d8d0e95
 ---
 
 Plants and animals move elements around. They do not, for the most part, transform them. The reactions that convert atmospheric N₂ into ammonia and back again, that make methane from carbon dioxide, that reduce sulfate to sulfide and oxidise it back, are prokaryotic monopolies or near-monopolies, and a [biogeochemical cycle](/en/glossary/biogeochemical-cycle) that lacked them would not close — it would run down into whichever reservoir the abiotic chemistry favoured. The organisms behind these reactions are introduced in the [wider survey of microbial life](/en/biology/microbiology/microbiology-explained); what follows is what they do to the planet's chemistry, and how hard that turns out to be to measure.

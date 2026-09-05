@@ -19,6 +19,7 @@ related:
   - deforestation-statistics-explained
   - boreal-forests-and-permafrost-interactions
 pillar: forest-ecosystems-explained
+_bodyHash: 70a6455b
 ---
 
 Nadie ha pesado nunca un bosque. Toda cifra de carbono asociada a uno es el resultado de una cadena de sustituciones: un diámetro de tronco hace las veces de masa del árbol, un modelo estadístico hace las veces de la corta que la habría medido, una parcela hace las veces de un paisaje y un satélite hace las veces de las parcelas que nunca se instalaron. Cada sustitución es defendible y cada una tiene una varianza. Entender una cifra de carbono forestal significa saber qué eslabón de esa cadena está más flojo, y casi nunca es el que se supone.

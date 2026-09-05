@@ -18,6 +18,7 @@ related:
   - crispr-genome-editing-explained
   - what-is-a-genome
 pillar: biotechnology-explained
+_bodyHash: 7bd3310e
 ---
 
 Fragt man, welche Sequenzierplattform am genauesten ist, bekommt man eine nutzlose Antwort, denn die Plattformen scheitern auf verschiedene Weise. Ein Verfahren, das seltene, verstreute Substitutionsfehler macht, und eines, das häufige, aber vorhersagbare Fehler in einem bestimmten Sequenzkontext macht, können dieselbe Genauigkeit ausweisen und für völlig verschiedene Probleme taugen. [Leselänge](/en/glossary/read-length), Fehlergestalt und Kosten je Base sind die drei Achsen, die ein Projekt tatsächlich entscheiden, und sie handeln gegeneinander. DNA zu lesen ist die Fähigkeit, die den Rest des [biotechnologischen Werkzeugkastens](/de/biology/biotechnology/biotechnology-explained) handhabbar gemacht hat, und zugleich die, deren Ökonomie am häufigsten aus dem Zusammenhang zitiert wird.

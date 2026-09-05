@@ -5,7 +5,7 @@ excerpt: Nombrar un organismo es un procedimiento regido por reglas, con sus có
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - taxonomy
@@ -18,6 +18,7 @@ related:
   - phylogenetics-explained
   - the-tree-of-life-and-domains
   - how-many-species-are-there
+_bodyHash: 1367e45e
 ---
 Un nombre científico cumple dos funciones, y casi toda la confusión sobre taxonomía proviene de tratarlas como una. Decidir qué organismos pertenecen juntos a un grupo es un juicio científico, revisable en cuanto cambia la evidencia. Decidir qué nombre lleva correctamente ese grupo es un procedimiento regido por reglas con casi ningún contenido científico — más cercano al derecho de propiedad que a la biología. Los códigos internacionales de nomenclatura gobiernan lo segundo y callan deliberadamente sobre lo primero. Cuando cambia un nombre familiar, la causa puede estar en cualquiera de los dos, y desde fuera ambos parecen idénticos.
 

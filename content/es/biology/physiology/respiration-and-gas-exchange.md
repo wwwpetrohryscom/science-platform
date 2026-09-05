@@ -5,7 +5,7 @@ excerpt: El oxígeno cruza los últimos micrómetros hasta la sangre solo por di
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - gas-exchange
@@ -18,6 +18,7 @@ related:
   - thermoregulation-in-animals
   - plant-physiology-water-and-nutrients
 pillar: physiology-explained
+_bodyHash: b3e177bc
 ---
 
 En el último micrómetro hasta el interior de un glóbulo rojo, el oxígeno se mueve por difusión y por nada más. Ninguna bomba actúa sobre él, ningún transportador lo arrastra, y la velocidad la fijan tres cantidades: el área disponible, la distancia que hay que cruzar y la diferencia de presión parcial que lo impulsa. Todo órgano respiratorio que haya evolucionado —pulmón alveolar, branquia de pez, tráquea de insecto, piel de rana— es una manera de hacer favorables esos tres números, y las diferencias entre ellos son sobre todo diferencias en cuál de los tres salía más barato comprar.

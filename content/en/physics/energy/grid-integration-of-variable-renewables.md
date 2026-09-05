@@ -5,7 +5,7 @@ type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - grid-integration
   - power-systems
@@ -18,7 +18,7 @@ related:
   - capacity-factor-and-energy-metrics
   - wind-energy-physics
 pillar: energy-systems-explained
-_bodyHash: efb9deb2
+_bodyHash: '20202002'
 ---
 
 In the late spring of 2020 the power system of Great Britain ran an experiment nobody had designed. Lockdown removed a large slice of demand while wind and solar output carried on, and the system operator found itself paying for something other than electricity. Ancillary-service costs over May to July came to £302 million against £101 million in the same months of the previous year — three times the bill in a quarter when less energy was delivered. National demand fell to its lowest recorded value, 13.4 GW overnight on 28 June, while the synchronous capacity needed online to hold the system stable was put at around 8 to 9 GW.

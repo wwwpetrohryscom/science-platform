@@ -1,11 +1,11 @@
 ---
-title: "Échanges gazeux : surface, gradients et la solution à contre-courant"
+title: 'Échanges gazeux : surface, gradients et la solution à contre-courant'
 metaTitle: 'Échanges gazeux : surface, gradients, contre-courant'
 excerpt: L'oxygène franchit les derniers micromètres jusqu'au sang par simple diffusion, si bien que tout organe respiratoire est une réponse à la même équation. Les variables sont la surface, la distance et l'écart de pression partielle — et la géométrie de l'écoulement décide de la part du gradient qui survit.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - gas-exchange
@@ -18,6 +18,7 @@ related:
   - thermoregulation-in-animals
   - plant-physiology-water-and-nutrients
 pillar: physiology-explained
+_bodyHash: 8b652173
 ---
 
 Sur le dernier micromètre jusqu'à l'intérieur d'un globule rouge, l'oxygène se déplace par diffusion et rien d'autre. Aucune pompe n'agit sur lui, aucun transporteur ne le traîne, et la vitesse est fixée par trois grandeurs : la surface disponible, la distance à franchir et l'écart de pression partielle qui l'entraîne. Tout organe respiratoire jamais apparu — poumon alvéolaire, branchie de poisson, trachée d'insecte, peau de grenouille — est une façon de rendre ces trois nombres favorables, et les différences entre eux sont surtout des différences dans celui des trois qui était le moins coûteux à acheter.

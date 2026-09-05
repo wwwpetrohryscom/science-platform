@@ -19,6 +19,7 @@ related:
   - deforestation-statistics-explained
   - boreal-forests-and-permafrost-interactions
 pillar: forest-ecosystems-explained
+_bodyHash: 3a3114c2
 ---
 
 Niemand hat je einen Wald gewogen. Jede Kohlenstoffzahl, die einem Wald anhängt, ist das Ergebnis einer Kette von Ersetzungen: ein Stammdurchmesser steht für die Masse eines Baumes, ein statistisches Modell steht für die Ernte, die sie gemessen hätte, eine Probefläche steht für eine Landschaft, und ein Satellit steht für die Probeflächen, die nie angelegt wurden. Jede Ersetzung ist vertretbar, und jede hat eine Varianz. Eine Waldkohlenstoffzahl zu verstehen heißt zu wissen, welches Glied dieser Kette am lockersten ist — und es ist fast nie das, das man vermutet.

@@ -17,7 +17,7 @@ related:
   - what-is-climate-change
   - carbon-cycle-feedbacks
 pillar: what-is-climate-change
-_bodyHash: 2e1ad46
+_bodyHash: ef006b72
 ---
 
 The [greenhouse-gas concentration](/en/glossary/greenhouse-gas-concentration) record is, by some distance, the cleanest indicator in the climate dataset, and the most direct measurement of the driver behind [climate change](/en/ecology/climate-change/what-is-climate-change). The atmospheric mole fraction of CO₂ in a clean-air sample is something a calibrated instrument can measure to a precision of about 0.1 parts per million. The same is true to comparable precision for methane and [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained). The long-term trends are not contested at the measurement level — they are read off the instruments.

@@ -5,7 +5,7 @@ type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-22'
 updatedDate: '2026-09-05'
-readingTime: 5
+readingTime: 4
 tags:
   - cell-biology
   - signaling
@@ -15,7 +15,7 @@ related:
   - coral-microbiome-bleaching-resistance
   - how-gene-expression-is-regulated
 pillar: what-is-a-cell
-_bodyHash: 7e50b2a2
+_bodyHash: 61e852ef
 ---
 
 A cell in a multicellular organism is constantly receiving signals — chemical, mechanical, electrical — from its environment and from other cells. The mechanisms by which it integrates those signals and decides what to do next are among the most studied questions in [cell biology](/en/biology/cells/what-is-a-cell). Public reference sources including the [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and [Genomics Glossary at the National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) treat [cell signaling](/en/glossary/cell-signaling) as a foundational topic.

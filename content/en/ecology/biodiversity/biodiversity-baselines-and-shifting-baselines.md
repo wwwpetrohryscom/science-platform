@@ -1,11 +1,11 @@
 ---
 title: 'Biodiversity baselines and shifting baselines: choosing the reference for change'
-metaTitle: 'Biodiversity baselines and the shifting-baseline problem'
+metaTitle: Biodiversity baselines and the shifting-baseline problem
 excerpt: Every statement about biodiversity loss is measured against a baseline, and the choice of baseline quietly determines the verdict. This explains shifting-baseline syndrome, why it makes degraded systems look normal, and how scientists try to reconstruct deeper reference conditions.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - baselines
@@ -16,7 +16,7 @@ related:
   - living-planet-index-explained
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
-_bodyHash: a626ef6a
+_bodyHash: 377e77e4
 readingTime: 5
 ---
 

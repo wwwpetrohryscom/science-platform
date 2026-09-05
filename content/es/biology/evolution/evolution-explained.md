@@ -19,6 +19,7 @@ related:
   - speciation-mechanisms
   - convergent-evolution-explained
   - cell-types-as-units-of-evolution
+_bodyHash: 5ce0c1e1
 ---
 [La evolución](/es/glossary/evolution) es una propiedad de las poblaciones, no de los individuos. Un organismo no evoluciona a lo largo de su vida; lo que cambia es la frecuencia de cada versión de un gen entre los organismos que forman un grupo reproductor, y cómo se desplaza esa distribución de una generación a la siguiente. La mayoría de los malentendidos habituales — que los linajes tienden hacia la complejidad, que una especie de algún modo convoca la variante que necesita, que la eficacia biológica significa fuerza física — se disuelven en cuanto se devuelve el sujeto de la frase a su sitio.
 

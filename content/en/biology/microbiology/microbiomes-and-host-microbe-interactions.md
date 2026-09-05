@@ -4,8 +4,8 @@ excerpt: A microbiome survey reports proportions at a total the sequencer chose,
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 7
 tags:
   - microbiome
   - metagenomics
@@ -18,7 +18,7 @@ related:
   - microbiology-explained
   - the-immune-system-explained
 pillar: microbiology-explained
-_bodyHash: 27a48fa6
+_bodyHash: e7265cdd
 ---
 
 A gut microbiome survey does not count organisms. It reports what fraction of the sequences recovered from a sample were assigned to each taxon, at a total set by the instrument rather than by the gut. Nearly every way these surveys get over-read follows from that single structural fact, and the corrections for it are neither obscure nor recent.

@@ -5,8 +5,8 @@ excerpt: Regulation is not a thermostat. This pillar sets out what a regulated v
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - homeostasis
   - comparative-physiology
@@ -17,7 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
-_bodyHash: 4cd95e40
+_bodyHash: 87111f9b
 ---
 
 Arterial blood in a healthy person sits between pH 7.35 and 7.45. Nothing in chemistry privileges that band; it is held there because several processes push against each other continuously, and because leaving it disables the enzymes doing the pushing. The band is defended on two clocks at once — the lungs adjust carbon dioxide removal within minutes to hours, while the kidneys reabsorb bicarbonate and excrete fixed acids over days. That is the shape of almost every physiological story: not one mechanism, but several with different time constants, and which one you notice depends on how long you watch.

@@ -5,7 +5,7 @@ excerpt: O oxigénio atravessa os últimos micrómetros até ao sangue apenas po
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - gas-exchange
@@ -18,6 +18,7 @@ related:
   - thermoregulation-in-animals
   - plant-physiology-water-and-nutrients
 pillar: physiology-explained
+_bodyHash: 8cff42e5
 ---
 
 No último micrómetro até ao interior de um glóbulo vermelho, o oxigénio move-se por difusão e nada mais. Nenhuma bomba atua sobre ele, nenhum transportador o arrasta, e a velocidade é fixada por três grandezas: a área disponível, a distância a atravessar e a diferença de pressão parcial que o impele. Todo o órgão respiratório que alguma vez evoluiu — pulmão alveolar, brânquia de peixe, traqueia de inseto, pele de rã — é um modo de tornar favoráveis esses três números, e as diferenças entre eles são sobretudo diferenças em qual dos três saía mais barato comprar.

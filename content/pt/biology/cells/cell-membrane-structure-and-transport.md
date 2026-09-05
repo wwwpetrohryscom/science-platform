@@ -5,7 +5,7 @@ excerpt: Uma bicamada lipídica constrói-se sozinha e depois quase não deixa p
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - membrane-transport
@@ -18,6 +18,7 @@ related:
   - cytoskeleton-and-cell-motility
   - cell-signaling-pathways-basics
 pillar: what-is-a-cell
+_bodyHash: 842a8a41
 ---
 
 Uma célula animal mantém o potássio dez a vinte vezes mais concentrado dentro do que fora, o sódio ao contrário, e uma tensão através de um filme com duas moléculas de espessura. Nada disso é um estado de repouso. Cada gradiente é um gradiente que a célula está a pagar, continuamente, do mesmo orçamento de ATP que financia tudo o resto. A biologia de membranas é em larga medida a contabilidade desse pagamento: o que a barreira detém de graça, o que tem de ser empurrado e quanto custa empurrar. A [definição operacional de célula](/pt/biology/cells/what-is-a-cell) coloca manter uma química interior face a um exterior diferente em primeiro lugar entre os seus três requisitos, e esta é a maquinaria que o faz.

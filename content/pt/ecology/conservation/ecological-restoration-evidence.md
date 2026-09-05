@@ -19,6 +19,7 @@ related:
   - rewilding-evidence-and-limits
   - invasive-species-management
 pillar: conservation-science-explained
+_bodyHash: 50b37495
 ---
 
 Todo o veredicto publicado sobre restauro é um veredicto sobre uma comparação, e há duas disponíveis. Compare um local restaurado com o estado degradado de que veio e o restauro parece fortemente eficaz. Compare o mesmo local com uma referência não perturbada e parece incompleto. Ambas as comparações são legítimas, ambas aparecem na literatura, e as afirmações de manchete sobre restauro dependem em regra de qual foi reportada. Isto é a primeira coisa a estabelecer antes de qualquer número significar seja o que for; o quadro mais amplo para julgar a evidência de intervenção está exposto no guia do conjunto sobre [como se testa a eficácia da conservação](/pt/ecology/conservation/conservation-science-explained).

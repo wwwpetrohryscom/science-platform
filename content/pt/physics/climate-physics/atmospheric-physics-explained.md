@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
+_bodyHash: 33c47785
 ---
 O ar é ténue, e a aritmética torna-o concreto. A NOAA dá a pressão padrão ao nível do mar como 1013,25 hPa, que é o peso de uma coluna com cerca de 10,3 toneladas de ar sobre cada metro quadrado de solo. À altitude de cruzeiro de um avião comercial, cerca de três quartos dessa coluna já ficam abaixo. O que esta casca faz com a energia que a atravessa é o assunto da física da atmosfera, e o resumo mais útil do que ela faz é um número de transporte: um fluxo para os polos que atinge cerca de cinco petawatts em cada hemisfério em média anual.
 

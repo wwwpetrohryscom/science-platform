@@ -19,6 +19,7 @@ related:
   - soil-carbon-measurement-and-uncertainty
   - soil-microbiome-regenerative-agriculture
 pillar: soil-science-explained
+_bodyHash: 44b0950d
 ---
 
 Uma análise de 2019 na *Nature* juntou 6.759 amostras georreferenciadas num modelo mundial de abundância de nemátodes do solo e chegou a [4,4 ± 0,64 × 10²⁰ indivíduos](https://pubmed.ncbi.nlm.nih.gov/31341281/) nos solos superficiais do mundo, com uma biomassa combinada de cerca de 0,3 gigatoneladas. A distribuição não era a que a maioria adivinharia: os solos subárticos guardam 38 por cento do total, contra 24 por cento nas regiões temperadas e 21 por cento nas tropicais.

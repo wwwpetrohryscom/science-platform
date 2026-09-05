@@ -1,11 +1,11 @@
 ---
 title: 'Ler estatísticas de energia: fator de capacidade, LCOE e as métricas que enganam'
-metaTitle: 'Fator de capacidade, LCOE e as métricas que enganam'
+metaTitle: Fator de capacidade, LCOE e as métricas que enganam
 excerpt: Potência instalada, fator de capacidade, custo nivelado e energia primária são quatro contas diferentes do mesmo parque, e cada uma carrega uma convenção capaz de mexer uma manchete sem que nada de físico mude.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - capacity-factor
@@ -19,6 +19,7 @@ related:
   - wind-energy-physics
   - solar-photovoltaics-explained
 pillar: energy-systems-explained
+_bodyHash: 45857bd0
 ---
 
 Em 2025 o parque eólico norte-americano à escala de serviço público teve em média 154,6 GW de potência com um [fator de capacidade](/pt/glossary/capacity-factor) de 34,2 por cento, segundo os números preliminares do *Electric Power Monthly* de agosto de 2026. O parque fotovoltaico teve em média 133,9 GW a 24,4 por cento. O parque nuclear teve em média 98,4 GW a 91,0 por cento. Multiplique cada par e a potência média entregue dá 52,9 GW do eólico, 32,7 GW do solar e 89,6 GW do nuclear: com cerca de um terço da potência instalada somada dos outros dois, o parque nuclear produziu mais eletricidade do que ambos juntos.

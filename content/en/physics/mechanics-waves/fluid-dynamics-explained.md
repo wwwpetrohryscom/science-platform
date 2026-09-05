@@ -6,7 +6,7 @@ type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 8
 tags:
   - fluid-dynamics
   - reynolds-number
@@ -19,7 +19,7 @@ related:
   - sound-and-acoustics-explained
   - convection-and-cloud-formation
 pillar: classical-mechanics-explained
-_bodyHash: e877dd88
+_bodyHash: d9a5167
 ---
 
 A single-celled organism beating its cilia and a cyclone wrapping around its eye are governed by the same equations. What separates them is not the physics but a ratio: how much the fluid's inertia matters relative to its viscosity. That ratio, the [Reynolds number](/en/glossary/reynolds-number), is the first thing a fluid dynamicist asks about a problem, because it determines which terms in the equations can be thrown away and which cannot.

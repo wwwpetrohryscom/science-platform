@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
+_bodyHash: 4dcbbfc4
 ---
 Luft ist dünn, und die Rechnung macht das greifbar. Die NOAA gibt den Standard-Meeresspiegeldruck mit 1013,25 hPa an, was dem Gewicht einer Säule entspricht, die etwa 10,3 Tonnen Luft über jedem Quadratmeter Boden trägt. Auf Reiseflughöhe eines Verkehrsflugzeugs liegen bereits rund drei Viertel dieser Säule unter einem. Was diese Hülle mit der hindurchgehenden Energie anstellt, ist Gegenstand der Atmosphärenphysik, und die nützlichste einzelne Zusammenfassung ist eine Transportzahl: ein polwärtiger Fluss, der im Jahresmittel in jeder Hemisphäre bei etwa fünf Petawatt gipfelt.
 

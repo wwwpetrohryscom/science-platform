@@ -18,6 +18,7 @@ related:
   - biosphere-climate-interactions
   - earth-system-tipping-points
 pillar: earth-system-science-explained
+_bodyHash: acf17c82
 ---
 Hay dos [ciclos del carbono](/es/glossary/carbon-cycle), funcionando en paralelo a velocidades separadas por unos siete órdenes de magnitud, y casi toda la confusión sobre el carbono viene de tratarlos como uno. Este artículo los separa y después sigue la perturbación humana a través del rápido. Ambos son componentes del sistema acoplado expuesto en [la introducción a la ciencia del sistema Tierra](/es/ecology/earth-systems/earth-system-science-explained).
 

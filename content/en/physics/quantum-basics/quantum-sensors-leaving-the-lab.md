@@ -1,11 +1,11 @@
 ---
 title: Quantum sensors are leaving the lab. Here's what changes when they do.
-metaTitle: 'Quantum sensors are leaving the laboratory'
+metaTitle: Quantum sensors are leaving the laboratory
 excerpt: Quantum sensors — atomic clocks, gravimeters, magnetometers — have moved from precision-physics curiosities to deployable instruments. The applications opened by the move are not the ones popular coverage emphasizes.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-03-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 pillar: quantum-mechanics-fundamentals
 tags:
@@ -16,7 +16,7 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
-_bodyHash: ada91f14
+_bodyHash: 60e1afd5
 ---
 
 For much of their history, many high-performance quantum sensors lived in physics laboratories. The instruments — atomic clocks, atom-interferometric gravimeters, nitrogen-vacancy magnetometers, optically-pumped magnetometers, each exploiting a property that only [quantum mechanics](/en/physics/quantum-basics/quantum-mechanics-fundamentals) supplies — were extraordinarily precise but often required specialized infrastructure. [NIST's quantum sensing explainer](https://www.nist.gov/quantum-information-science/quantum-sensing-explained) describes the same transition: quantum sensors are moving from laboratory systems toward more compact measurement tools.

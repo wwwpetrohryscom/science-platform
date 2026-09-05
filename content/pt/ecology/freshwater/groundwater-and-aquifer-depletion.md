@@ -19,6 +19,7 @@ related:
   - wetlands-and-their-functions
   - global-water-cycle-explained
 pillar: freshwater-ecosystems-explained
+_bodyHash: 8eac2b19
 ---
 
 As águas subterrâneas representam 99 por cento da água doce líquida da Terra, segundo o Relatório Mundial das Nações Unidas sobre o Desenvolvimento dos Recursos Hídricos de 2022, e são a única grande reserva cujo estado não se vê. Todo o número publicado — uma taxa de esgotamento, uma vida útil restante, uma estimativa de recarga — é o fim de uma cadeia de medição, e as cadeias não chegam todas à mesma resposta. Perceber porque diferem é mais útil do que decorar qualquer um dos números, e é a razão pela qual esta página dedica tanto espaço aos instrumentos como aos aquíferos. O lugar das águas subterrâneas entre os restantes compartimentos de água doce — e a razão de se renovarem muito mais devagar do que qualquer um deles — está exposto na panorâmica dos [ecossistemas de água doce](/pt/ecology/freshwater/freshwater-ecosystems-explained).

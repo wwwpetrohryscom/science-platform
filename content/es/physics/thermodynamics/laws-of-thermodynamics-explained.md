@@ -18,6 +18,7 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
+_bodyHash: dba0e528
 ---
 [La termodinámica](/es/glossary/thermodynamics) es un conjunto de prohibiciones. Cada una de sus cuatro leyes dice que algo no puede hacerse, y cada una ha sobrevivido a las teorías microscópicas que pretendían explicarla — el calórico, luego la mecánica clásica, luego la teoría clásica de campos. Por eso un razonamiento decimonónico sobre el vapor sigue restringiendo, sin modificación, a una celda solar, a un frigorífico doméstico y a una bacteria.
 

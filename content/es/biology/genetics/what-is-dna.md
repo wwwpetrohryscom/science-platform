@@ -1,11 +1,11 @@
 ---
 title: ¿Qué es el ADN? La molécula, el código y lo que no determina
-metaTitle: '¿Qué es el ADN? La molécula, el código y sus límites'
+metaTitle: ¿Qué es el ADN? La molécula, el código y sus límites
 excerpt: El ADN es un código molecular de cuatro letras que almacena la información necesaria para construir una célula y hacerla funcionar. Entender lo que hace —y las cosas, igual de importantes, que no hace— es el cimiento de la biología moderna.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - dna
@@ -22,7 +22,7 @@ faq:
     answer: La funcionalidad del genoma depende de qué se entienda por función. La secuencia codificante de proteínas es una fracción pequeña del genoma, mientras que los papeles reguladores, estructurales y evolutivos son más complejos. Las afirmaciones de que casi todas las bases son funcionales deben tomarse con cautela salvo que distingan la actividad bioquímica de la función biológica sometida a selección.
   - question: ¿La mayoría de las enfermedades son genéticas?
     answer: Muchas enfermedades comunes tienen componentes genéticos, pero la mayoría no son puramente genéticas. El entorno, la conducta, el historial de exposiciones y el azar suelen interactuar con el riesgo heredado. Los trastornos monogénicos existen y son importantes para quienes los padecen, pero no son un modelo completo de la carga de enfermedad común.
-_bodyHash: '26283439'
+_bodyHash: 4a0f894
 ---
 
 El ADN —ácido desoxirribonucleico— es un código molecular de cuatro letras que almacena información genética, tal como lo resume el [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Es el portador de la herencia y el sustrato sobre el que opera la evolución. También se exagera de forma rutinaria en la discusión pública, de maneras que la biología real no respalda.

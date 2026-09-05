@@ -15,7 +15,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: d2afab04
+_bodyHash: b50026c1
 ---
 
 Der [Artenreichtum](/de/glossary/species-richness) – die Zahl der unterschiedlichen Arten in einem definierten Gebiet – gehört zu den meistzitierten Maßen für [Biodiversität](/de/glossary/biodiversity). Als Metrik für die Priorisierung im Naturschutz ist er zugleich unvollständig. Öffentliche Bewertungen der [Europäischen Umweltagentur](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), des [UNEP](https://www.unep.org/explore-topics/ecosystems) und des [IPBES](https://www.ipbes.net/global-assessment) behandeln den Verlust an Biodiversität durchweg als mehr als ein bloßes Problem der Artenzahl.

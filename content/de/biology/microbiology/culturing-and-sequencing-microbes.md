@@ -19,6 +19,7 @@ related:
   - microbial-biogeochemistry
   - dna-sequencing-technologies
 pillar: microbiology-explained
+_bodyHash: d117fe75
 ---
 
 Die Mikrobiologie hat ein wiederkehrendes Problem, das die meisten anderen Zweige der Biologie nicht haben: man kann den Organismen nicht dabei zusehen, wie sie etwas Nützliches tun, also erreicht jede Tatsache über sie uns durch ein Instrument, das einige zulässt und die übrigen ausschließt. Eine Kolonie auf Agar, ein Sequenzread aus einem PCR-Produkt und ein aus einem Metagenom gebinntes Genom sind drei verschiedene Filter, und die von jedem berichtete Zusammensetzung ist teils eine Beschreibung des Filters. Zu wissen, was was ist, macht den größten Teil dessen aus, was eine vertretbare mikrobenökologische Aussage von einem Artefakt trennt.

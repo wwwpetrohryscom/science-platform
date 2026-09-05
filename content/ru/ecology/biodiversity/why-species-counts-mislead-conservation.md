@@ -15,7 +15,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 68c3b84d
+_bodyHash: '57739209'
 ---
 
 [Видовое богатство](/ru/glossary/species-richness) — число различных видов на заданной территории — один из самых часто цитируемых показателей биоразнообразия. Он же неполон как показатель для расстановки природоохранных приоритетов. Публичные оценки [Европейского агентства по окружающей среде](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [ЮНЕП](https://www.unep.org/explore-topics/ecosystems) и [МПБЭУ](https://www.ipbes.net/global-assessment) сходятся в том, что утрата биоразнообразия — не просто задача о числе видов.

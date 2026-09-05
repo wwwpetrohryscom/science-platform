@@ -5,8 +5,8 @@ excerpt: Every virus faces the same problem — producing messenger RNA a host r
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - viruses
   - bacteriophage
@@ -19,7 +19,7 @@ related:
   - antimicrobial-resistance-evidence
   - culturing-and-sequencing-microbes
 pillar: microbiology-explained
-_bodyHash: 796a6adc
+_bodyHash: b906554d
 ---
 
 A virus particle is an incomplete instruction set with a delivery system. It carries a genome of either RNA or DNA inside a protein capsid, sometimes wrapped in a lipid envelope taken from a previous host's membrane, and it carries no machinery for making protein or for generating its own energy. Everything a virus does after entry is done with borrowed equipment, which is why the useful way to organise virology is not by what a particle looks like but by how its genome gets converted into something a host ribosome can translate.

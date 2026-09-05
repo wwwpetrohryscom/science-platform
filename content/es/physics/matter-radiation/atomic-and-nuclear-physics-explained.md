@@ -18,6 +18,7 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
+_bodyHash: 8949b5a9
 ---
 Dos comparaciones preparan todo lo que sigue. El radio de Bohr, escala de longitud natural de un átomo, es 5,2918 × 10⁻¹¹ m en el ajuste CODATA de 2022. El radio de carga de un núcleo de uranio-238, según los datos nucleares evaluados del OIEA, es 5,8571 ± 0,0033 fm — esto es, 5,8571 × 10⁻¹⁵ m. En radio, el núcleo es menor que el átomo que lo rodea por un factor de unos nueve mil.
 

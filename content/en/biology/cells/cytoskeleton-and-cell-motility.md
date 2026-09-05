@@ -5,7 +5,7 @@ excerpt: Actin filaments, microtubules and intermediate filaments differ in diam
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - cytoskeleton
@@ -18,7 +18,7 @@ related:
   - cell-membrane-structure-and-transport
   - cell-signaling-pathways-basics
 pillar: what-is-a-cell
-_bodyHash: 52ee4708
+_bodyHash: a92977b2
 ---
 
 A skeleton that never changed would be useless to a cell. The structures that give a cell its shape are the same ones that have to dismantle and rebuild that shape to divide, crawl, or move a vesicle a metre down an axon. The way the cytoskeleton resolves that is to spend energy staying unstable — and the clearest line through the whole subject is which filaments do that and which do not. Responsiveness to the environment is the third requirement in the [operational account of what a cell is](/en/biology/cells/what-is-a-cell), and mechanical response is where much of it is executed.

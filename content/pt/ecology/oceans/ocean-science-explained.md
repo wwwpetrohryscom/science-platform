@@ -18,7 +18,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: 62a4eb6c
+_bodyHash: '56150e32'
 ---
 
 O oceano é um único corpo de água contínuo que se comporta como se estivesse empilhado. A densidade — função da temperatura, da salinidade e da pressão — separa a água do mar em camadas entre as quais as trocas são lentas, e a maior parte do comportamento de grande escala do mar decorre dessa separação: onde se acumula o calor adicionado, onde ficam os nutrientes, até que profundidade chega a luz e durante quanto tempo cada coisa permanece onde está.

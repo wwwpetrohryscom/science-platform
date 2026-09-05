@@ -1,11 +1,11 @@
 ---
 title: Die thermodynamischen Grenzen der Photovoltaik — und warum sie über das Mögliche entscheiden
-metaTitle: 'Die thermodynamischen Grenzen der Photovoltaik'
+metaTitle: Die thermodynamischen Grenzen der Photovoltaik
 excerpt: Es gibt eine harte Obergrenze dafür, wie viel Sonnenlicht eine Einfachsolarzelle in Strom umwandeln kann. Zu wissen, woher sie kommt, klärt, welche Verbesserungsrichtungen Physik sind und welche Ingenieurskunst.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 pillar: laws-of-thermodynamics-explained
 tags:
@@ -16,6 +16,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
+_bodyHash: f377e884
 ---
 
 Es gibt eine harte Obergrenze dafür, wie viel Sonnenlicht eine Einfachsolarzelle in Strom umwandeln kann. Unter Standardsonneneinstrahlung liegt sie nahe 33 % — die Shockley-Queisser-Grenze, [1961 hergeleitet](https://doi.org/10.1063/1.1736034) aus einem Argument des detaillierten Gleichgewichts über einen p-n-Übergang unter Schwarzkörperbeleuchtung. Leistungsstarke Siliziumzellen arbeiten nahe genug an dieser Grenze, dass weitere Gewinne zunehmend ingenieurtechnisch begrenzt sind. Zu wissen, woher die Grenze kommt — und sie kommt aus [den Hauptsätzen der Thermodynamik](/de/physics/thermodynamics/laws-of-thermodynamics-explained) und nicht aus einer Eigenschaft des Siliziums —, klärt, was als Grundlagenphysik zählt und was als Ingenieurskunst.

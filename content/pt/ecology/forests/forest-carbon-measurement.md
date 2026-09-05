@@ -19,6 +19,7 @@ related:
   - deforestation-statistics-explained
   - boreal-forests-and-permafrost-interactions
 pillar: forest-ecosystems-explained
+_bodyHash: 459329f
 ---
 
 Ninguém pesou jamais uma floresta. Todo o número de carbono que se lhe atribui é o resultado de uma cadeia de substituições: um diâmetro de tronco faz as vezes da massa de uma árvore, um modelo estatístico faz as vezes do corte que a teria medido, uma parcela faz as vezes de uma paisagem, e um satélite faz as vezes das parcelas que nunca foram instaladas. Cada substituição é defensável e cada uma tem uma variância. Compreender um número de carbono florestal é saber que elo dessa cadeia está mais frouxo — e quase nunca é o que se supõe.

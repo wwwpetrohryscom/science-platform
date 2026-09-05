@@ -19,6 +19,7 @@ related:
   - ocean-heat-content-indicators
   - sea-level-rise-indicators
 pillar: what-is-climate-change
+_bodyHash: a49f27f5
 ---
 
 Um [indicador climático](/en/glossary/climate-indicator) é uma medição, mantida ao longo do tempo, que acompanha uma dimensão específica do sistema Terra. A temperatura média global à superfície é um. O conteúdo de calor do oceano é outro. A concentração de gases com efeito de estufa, o nível do mar, o balanço de massa dos glaciares, a extensão do gelo marinho ártico e o desequilíbrio energético no topo da atmosfera são todos indicadores neste sentido. Cada um responde a uma pergunta diferente; nenhum responde a todas.

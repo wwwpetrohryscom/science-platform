@@ -18,6 +18,7 @@ related:
   - marine-food-webs-and-productivity
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
+_bodyHash: b56fb367
 ---
 
 Un nivel trófico es una propiedad de una relación alimentaria, no una etiqueta que pertenezca a un organismo. El número cuenta cuántas transferencias separan una unidad de energía de la luz solar que la fijó: los fotosintetizadores están en el nivel 1, lo que solo come fotosintetizadores está en el nivel 2, y así sucesivamente. Nada en esa definición obliga a un animal a quedarse en un sitio. Una trucha que come insectos que pastaron algas y también insectos que comieron otros insectos se alimenta simultáneamente en los niveles 3 y 4, y el valor que los ecólogos le asignen será un promedio de ambos, ponderado por la dieta.

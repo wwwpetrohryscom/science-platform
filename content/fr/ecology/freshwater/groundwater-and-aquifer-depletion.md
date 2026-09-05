@@ -19,6 +19,7 @@ related:
   - wetlands-and-their-functions
   - global-water-cycle-explained
 pillar: freshwater-ecosystems-explained
+_bodyHash: 1c928209
 ---
 
 Les eaux souterraines représentent 99 pour cent de l'eau douce liquide de la Terre, selon le Rapport mondial des Nations unies sur la mise en valeur des ressources en eau de 2022, et c'est le seul grand stock dont l'état ne se voit pas. Tout chiffre publié — un taux d'épuisement, une durée de vie restante, une estimation de recharge — est le bout d'une chaîne de mesure, et les chaînes n'aboutissent pas toutes à la même réponse. Comprendre pourquoi elles diffèrent est plus utile que de retenir l'un quelconque des nombres, et c'est la raison pour laquelle cette page consacre autant de place aux instruments qu'aux aquifères. La place des eaux souterraines parmi les autres compartiments d'eau douce — et la raison pour laquelle elles se renouvellent bien plus lentement que tous les autres — est exposée dans la vue d'ensemble des [écosystèmes d'eau douce](/fr/ecology/freshwater/freshwater-ecosystems-explained).

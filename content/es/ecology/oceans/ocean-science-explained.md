@@ -18,7 +18,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: b812fdca
+_bodyHash: 2d1e1044
 ---
 
 El océano es una masa de agua continua que se comporta como si estuviera apilada. La densidad —función de la temperatura, la salinidad y la presión— ordena el agua de mar en capas entre las que el intercambio es lento, y de esa ordenación se sigue la mayor parte del comportamiento del mar a gran escala: dónde se acumula el calor añadido, dónde se sitúan los nutrientes, hasta qué profundidad llega la luz y cuánto tiempo permanece cada cosa donde está.

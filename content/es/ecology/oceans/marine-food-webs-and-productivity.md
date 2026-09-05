@@ -18,6 +18,7 @@ related:
   - deep-sea-ecosystems
   - ocean-color-observations
 pillar: ocean-science-explained
+_bodyHash: e6235604
 ---
 
 Un censo mundial de biomasa publicado en Proceedings of the National Academy of Sciences sitúa alrededor de 1 gigatonelada de carbono de productores primarios en el océano, sosteniendo unas 5 gigatoneladas de carbono de consumidores. En tierra la razón corre al revés, y por mucho: las plantas suponen unas 450 de las aproximadamente 550 gigatoneladas de carbono de toda la [biosfera](/es/glossary/biosphere). La pirámide marina se sostiene sobre su punta.

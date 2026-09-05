@@ -5,8 +5,8 @@ excerpt: Oxygen crosses the last few micrometres into blood by diffusion alone, 
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - gas-exchange
   - respiration
@@ -18,7 +18,7 @@ related:
   - thermoregulation-in-animals
   - plant-physiology-water-and-nutrients
 pillar: physiology-explained
-_bodyHash: f4aa8d94
+_bodyHash: b7a09f53
 ---
 
 Over the last micrometre into a red blood cell, oxygen moves by diffusion and nothing else. No pump acts on it, no carrier drags it across, and the rate is fixed by three quantities: the area available, the distance to be crossed, and the partial-pressure difference driving it. Every breathing organ that has ever evolved — alveolar lung, fish gill, insect trachea, frog skin — is a way of making those three numbers favourable, and the differences between them are mostly differences in which of the three was cheapest to buy.

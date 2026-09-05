@@ -19,6 +19,7 @@ related:
   - rewilding-evidence-and-limits
   - invasive-species-management
 pillar: conservation-science-explained
+_bodyHash: 1f2cbfe1
 ---
 
 Tout verdict publié sur la restauration est un verdict portant sur une comparaison, et il y en a deux disponibles. Comparez un site restauré à l'état dégradé dont il provient, et la restauration paraît fortement efficace. Comparez le même site à une référence non perturbée, et elle paraît inachevée. Les deux comparaisons sont légitimes, les deux figurent dans la littérature, et les affirmations d'affiche sur la restauration tiennent généralement à celle qui a été rapportée. C'est la première chose à établir avant qu'un chiffre veuille dire quoi que ce soit ; le cadre plus large pour juger les preuves d'intervention est exposé dans le guide du cluster sur [la façon dont l'efficacité de la conservation est testée](/fr/ecology/conservation/conservation-science-explained).

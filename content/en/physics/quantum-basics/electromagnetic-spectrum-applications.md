@@ -17,7 +17,7 @@ related:
   - solar-radiation-and-earth-energy-balance
   - earth-energy-budget-and-the-second-law
 pillar: quantum-mechanics-fundamentals
-_bodyHash: 11b22558
+_bodyHash: 285f8a8
 ---
 
 Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays are not different physical phenomena. They are the same phenomenon — propagating electromagnetic waves, equivalently described as photons, in the sense [quantum mechanics gives to that equivalence](/en/physics/quantum-basics/quantum-mechanics-fundamentals) — at different wavelengths. The differences in how each interacts with matter, and therefore how each is used in science and technology, follow from the wavelength alone.

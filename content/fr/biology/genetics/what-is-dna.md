@@ -1,11 +1,11 @@
 ---
 title: Qu'est-ce que l'ADN ? La molécule, le code, et ce qu'il ne détermine pas
-metaTitle: 'Qu''est-ce que l''ADN ? La molécule, le code et ses limites'
+metaTitle: Qu'est-ce que l'ADN ? La molécule, le code et ses limites
 excerpt: L'ADN est un code moléculaire à quatre lettres qui stocke l'information nécessaire pour construire et faire fonctionner une cellule. Comprendre ce qu'il fait — et, tout aussi important, ce qu'il ne fait pas — est le socle de la biologie moderne.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - dna
@@ -22,7 +22,7 @@ faq:
     answer: La fonctionnalité du génome dépend de la définition retenue pour « fonction ». Les séquences codant des protéines ne représentent qu'une faible fraction du génome, tandis que les rôles régulateurs, structuraux et évolutifs sont plus complexes. Les affirmations selon lesquelles presque chaque base serait fonctionnelle doivent être accueillies avec prudence tant qu'elles ne distinguent pas l'activité biochimique d'une fonction biologique retenue par la sélection.
   - question: La plupart des maladies sont-elles génétiques ?
     answer: Beaucoup de maladies courantes comportent une composante génétique, mais la plupart ne sont pas purement génétiques. L'environnement, les comportements, l'historique d'exposition et le hasard interagissent le plus souvent avec le risque hérité. Les maladies monogéniques existent et comptent pour les personnes touchées, mais elles ne constituent pas un modèle complet du fardeau des maladies courantes.
-_bodyHash: e164fcf2
+_bodyHash: 90ee86a0
 ---
 
 L'ADN — l'acide désoxyribonucléique — est un code moléculaire à quatre lettres qui stocke l'information génétique, comme le résume le [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). Il est le support de l'hérédité et le substrat sur lequel l'évolution opère. Il est aussi couramment surestimé dans le discours grand public, d'une manière que la biologie réelle ne justifie pas.

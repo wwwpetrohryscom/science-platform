@@ -5,7 +5,7 @@ type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-02-16'
 updatedDate: '2026-09-05'
-readingTime: 5
+readingTime: 4
 pillar: evolution-explained
 tags:
   - evolution
@@ -15,7 +15,7 @@ tags:
 related:
   - single-cell-evo-devo
   - what-is-a-cell
-_bodyHash: 9a80c44c
+_bodyHash: 5e00bea9
 ---
 
 The standard textbook story of [animal evolution](/en/biology/evolution/evolution-explained) is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.

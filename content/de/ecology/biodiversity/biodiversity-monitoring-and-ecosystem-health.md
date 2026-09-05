@@ -19,6 +19,7 @@ related:
   - biodiversity-indicators-explained
   - remote-sensing-for-biodiversity-monitoring
 pillar: why-species-counts-mislead-conservation
+_bodyHash: ffe75e61
 ---
 
 Die Klimawissenschaft hat eine kurze Liste kanonischer [Indikatoren](/de/ecology/climate-change/climate-indicators-earth-system-monitoring) — Oberflächentemperatur, Ozeanwärme, Treibhausgaskonzentration, Meeresspiegel, Eis. Für Biodiversität gibt es keine entsprechende Einzelzahl. Es existiert kein Thermometer für den Zustand des Lebens, denn Leben variiert auf mehreren Ebenen zugleich: die Gene innerhalb einer Population, Häufigkeit und Verbreitungsgebiet einer Art, die Zusammensetzung einer Lebensgemeinschaft sowie Struktur und Funktion eines Ökosystems. Ein Ort kann Individuen verlieren und seine Artenliste dennoch behalten, oder seine Zusammensetzung verändern, während die Gesamtproduktivität konstant bleibt.

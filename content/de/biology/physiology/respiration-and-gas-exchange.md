@@ -5,7 +5,7 @@ excerpt: Sauerstoff überquert die letzten Mikrometer ins Blut allein durch Diff
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - gas-exchange
@@ -18,6 +18,7 @@ related:
   - thermoregulation-in-animals
   - plant-physiology-water-and-nutrients
 pillar: physiology-explained
+_bodyHash: b1eecebc
 ---
 
 Auf dem letzten Mikrometer in ein rotes Blutkörperchen bewegt sich Sauerstoff durch Diffusion und sonst nichts. Keine Pumpe wirkt auf ihn, kein Träger zieht ihn hinüber, und die Rate legen drei Größen fest: die verfügbare Fläche, der zu überwindende Weg und die antreibende Partialdruckdifferenz. Jedes je entstandene Atemorgan — Alveolarlunge, Fischkieme, Insektentrachee, Froschhaut — ist eine Weise, diese drei Zahlen günstig zu machen, und die Unterschiede zwischen ihnen sind meist Unterschiede darin, welche der drei am billigsten zu haben war.

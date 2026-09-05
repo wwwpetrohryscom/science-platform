@@ -19,6 +19,7 @@ related:
   - climate-feedback-mechanisms
   - radiative-transfer-explained
 pillar: atmospheric-physics-explained
+_bodyHash: ba4b71bd
 ---
 
 Cada gotícula de cada nuvem condensou sobre outra coisa. O vapor de água em ar limpo não se junta espontaneamente em gotículas às humidades que a atmosfera realmente atinge; precisa de uma superfície onde condensar, e a referência JetStream da NOAA fixa o mínimo útil dessa superfície num raio de cerca de um micrómetro. Fumo, cinza vulcânica, salpico marinho e poeira levantada pelo vento fornecem-nas em número enorme, e é por isso que cada gotícula de nuvem traz um grão de poeira ou de sal no seu centro. Esse requisito microscópico inicia uma cadeia que termina na mais larga questão em aberto da [física atmosférica](/pt/physics/climate-physics/atmospheric-physics-explained).

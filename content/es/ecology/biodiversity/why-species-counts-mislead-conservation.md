@@ -15,7 +15,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 4e01d305
+_bodyHash: 771e0d5f
 ---
 
 La [riqueza de especies](/es/glossary/species-richness) —el recuento de especies distintas presentes en un área definida— es una de las medidas de [biodiversidad](/es/glossary/biodiversity) más citadas. Es también una métrica incompleta para priorizar en conservación. Las evaluaciones públicas de la [Agencia Europea de Medio Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), el [PNUMA](https://www.unep.org/explore-topics/ecosystems) y la [IPBES](https://www.ipbes.net/global-assessment) tratan la pérdida de biodiversidad como algo más que un simple problema de recuento de especies.

@@ -19,6 +19,7 @@ related:
   - sound-and-acoustics-explained
   - global-temperature-records-explained
 pillar: classical-mechanics-explained
+_bodyHash: a9065593
 ---
 
 Escreva 9,81 m/s² e não terá afirmado quase nada. Escreva 9,81 ± 0,02 m/s² e terá feito uma afirmação testável: sobre como o valor foi obtido, sobre o que aconteceria se a medição fosse repetida, e sobre o intervalo dentro do qual seria de esperar que caísse uma nova determinação. O segundo número não é uma ressalva colada ao primeiro. É a parte que torna o primeiro utilizável, e é o que permite a dois laboratórios dizer se concordam.

@@ -19,6 +19,7 @@ related:
   - wetlands-and-their-functions
   - global-water-cycle-explained
 pillar: freshwater-ecosystems-explained
+_bodyHash: 4b84a16c
 ---
 
 Grundwasser macht nach dem UN-Weltwasserbericht 2022 99 Prozent des flüssigen Süßwassers der Erde aus, und es ist der einzige große Speicher, dessen Zustand sich nicht sehen lässt. Jede veröffentlichte Zahl — eine Übernutzungsrate, eine Restlebensdauer, eine Neubildungsschätzung — steht am Ende einer Messkette, und die Ketten kommen nicht alle zur selben Antwort. Zu verstehen, warum sie sich unterscheiden, ist nützlicher, als eine der Zahlen auswendig zu lernen, und deshalb widmet diese Seite den Instrumenten so viel Raum wie den Grundwasserleitern. Wo Grundwasser unter den anderen Süßwasserkompartimenten steht — und warum es sich weit langsamer erneuert als jedes andere —, steht in der Übersicht zu den [Süßwasserökosystemen](/de/ecology/freshwater/freshwater-ecosystems-explained).

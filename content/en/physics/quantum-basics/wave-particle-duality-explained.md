@@ -4,8 +4,8 @@ excerpt: Nothing switches between being a wave and being a particle. Interferenc
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 7
 tags:
   - matter-waves
   - interference
@@ -17,7 +17,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
 pillar: quantum-mechanics-fundamentals
-_bodyHash: 7d6ff3a
+_bodyHash: ead09252
 ---
 
 The phrase is a hundred years old and it has outlived its usefulness. "Wave-particle duality" was coined to describe a crisis — light behaving like a wave in one apparatus and like a stream of corpuscles in another — and it dissolved once a single formalism, in place by the late 1920s, turned out to predict both. Nothing in the modern theory switches between two natures. The [working rules of quantum mechanics](/en/physics/quantum-basics/quantum-mechanics-fundamentals) assign amplitudes to outcomes; the apparatus decides which outcomes you are counting. What follows is what the experiments show, and what they show is more specific than the slogan.

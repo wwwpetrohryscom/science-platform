@@ -16,7 +16,7 @@ related:
   - species-richness-explained
   - living-planet-index-explained
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 949d891
+_bodyHash: 14378cb9
 readingTime: 4
 ---
 

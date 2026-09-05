@@ -1,11 +1,11 @@
 ---
 title: 'Cuántas especies existen: la estimación depende por completo del método'
-metaTitle: '¿Cuántas especies? La estimación depende del método'
-excerpt: 'Los catálogos de la vida contienen unos 2,2 millones de especies nombradas, mientras que las estimaciones publicadas del total real van de unos pocos millones a un billón. Esa brecha no es error de medición, sino lo que pasa cuando métodos incompatibles responden a la misma pregunta.'
+metaTitle: ¿Cuántas especies? La estimación depende del método
+excerpt: Los catálogos de la vida contienen unos 2,2 millones de especies nombradas, mientras que las estimaciones publicadas del total real van de unos pocos millones a un billón. Esa brecha no es error de medición, sino lo que pasa cuando métodos incompatibles responden a la misma pregunta.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - species-estimates
@@ -18,6 +18,7 @@ related:
   - zoology-animal-diversity-explained
   - species-richness-explained
 pillar: taxonomy-and-classification-explained
+_bodyHash: 34a437a0
 ---
 
 Se citan dos magnitudes muy distintas para la diversidad de la vida en la Tierra, y casi todo el desacuerdo aparente viene de tratarlas como una. La primera es un recuento de nombres en un catálogo. Puede recalcularse a demanda, y es correcta o incorrecta de un modo auditable entrada por entrada. La segunda es una extrapolación de ese recuento a un total que nadie ha observado, y es correcta o incorrecta solo en el sentido más débil de que sus supuestos se sostienen o fallan. Las extrapolaciones publicadas van hoy de unos pocos millones a un billón. Ese rango no es incertidumbre en torno a una medición compartida; es la firma de métodos que no se ponen de acuerdo sobre qué están contando.

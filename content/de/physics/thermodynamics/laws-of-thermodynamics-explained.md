@@ -18,6 +18,7 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
+_bodyHash: b2d48907
 ---
 [Thermodynamik](/de/glossary/thermodynamics) ist eine Sammlung von Verboten. Jeder ihrer vier Hauptsätze sagt, dass etwas nicht getan werden kann, und jeder hat die mikroskopischen Theorien überlebt, die ihn erklären sollten — den Wärmestoff, dann die klassische Mechanik, dann die klassische Feldtheorie. Deshalb schränkt ein Dampfargument aus dem 19. Jahrhundert unverändert noch immer eine Solarzelle, einen Haushaltskühlschrank und ein Bakterium ein.
 

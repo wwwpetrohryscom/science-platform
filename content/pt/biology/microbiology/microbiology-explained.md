@@ -5,7 +5,7 @@ excerpt: Só as bactérias detêm cerca de 70 gigatoneladas de carbono, a maior 
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - microbiology
@@ -19,6 +19,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
+_bodyHash: daf72f97
 ---
 Um recenseamento da biosfera publicado em 2018 situou o carbono vivo total da Terra em aproximadamente 550 gigatoneladas, das quais cerca de 450 cabem às plantas. As bactérias vêm em segundo lugar com aproximadamente 70 Gt C, seguidas dos fungos com 12, das arqueias com 7, dos protistas com 4, dos animais com 2 e dos vírus com 0,2. Esses valores, reunidos por investigadores do Instituto Weizmann e do Caltech, comportam incertezas muito diferentes — as plantas estão delimitadas a um fator de 1,2, as bactérias apenas a um fator de 10 e as arqueias a um fator de 13 — mas o que importa é a ordem. Quase tudo o que vive e não é planta é microbiano, e a maior parte encontra-se onde ninguém olhou diretamente.
 

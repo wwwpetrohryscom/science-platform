@@ -1,6 +1,6 @@
 ---
 title: 'Limites et incertitude de la télédétection : lire honnêtement les données satellitaires'
-metaTitle: 'Limites et incertitude de la télédétection'
+metaTitle: Limites et incertitude de la télédétection
 excerpt: Les données satellitaires sont puissantes mais jamais parfaites. Voici les limites structurelles de la télédétection — compromis de résolution, nuages, pixels mixtes, mesure indirecte et dérive des capteurs — et les pratiques de validation qui gardent ces produits honnêtes.
 type: expert
 author: climate-research-desk
@@ -17,6 +17,7 @@ related:
   - land-cover-change-detection
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
+_bodyHash: c533fe00
 ---
 La mesure satellitaire est indispensable aux sciences de l'environnement, et elle est pourtant bornée d'une manière qui compte pour la façon de lire ses résultats. Une carte ou une série temporelle dérivée de l'orbite porte toujours des hypothèses, des lacunes et des erreurs que la bonne pratique explicite au lieu de les masquer. Cet article expose les principales limites structurelles de [ce qu'est la télédétection](/fr/ecology/earth-observation/what-is-remote-sensing) et la validation qui rend les produits dignes de confiance ; le contexte plus large se trouve dans notre pôle [observation de la Terre et télédétection](/fr/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 

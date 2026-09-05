@@ -1,11 +1,11 @@
 ---
-title: "Lire les statistiques de l'énergie : facteur de charge, LCOE et les métriques trompeuses"
-metaTitle: 'Facteur de charge, LCOE et les métriques trompeuses'
+title: 'Lire les statistiques de l''énergie : facteur de charge, LCOE et les métriques trompeuses'
+metaTitle: Facteur de charge, LCOE et les métriques trompeuses
 excerpt: Puissance installée, facteur de charge, coût actualisé et énergie primaire sont quatre comptes différents du même parc, et chacun porte une convention capable de déplacer un titre sans que rien de physique ne change.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - capacity-factor
@@ -19,6 +19,7 @@ related:
   - wind-energy-physics
   - solar-photovoltaics-explained
 pillar: energy-systems-explained
+_bodyHash: 6cc47354
 ---
 
 En 2025, le parc éolien de grande puissance des États-Unis a affiché en moyenne 154,6 GW de puissance installée pour un [facteur de charge](/fr/glossary/capacity-factor) de 34,2 pour cent, selon les chiffres préliminaires de l'*Electric Power Monthly* d'août 2026. Le parc photovoltaïque a affiché en moyenne 133,9 GW à 24,4 pour cent. Le parc nucléaire a affiché en moyenne 98,4 GW à 91,0 pour cent. Multipliez chaque paire et la puissance moyenne délivrée ressort à 52,9 GW pour l'éolien, 32,7 GW pour le solaire et 89,6 GW pour le nucléaire : avec environ un tiers de la puissance installée cumulée des deux autres, le parc nucléaire a produit plus d'électricité qu'eux réunis.

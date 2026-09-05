@@ -1,12 +1,12 @@
 ---
 title: 'Reading energy statistics: capacity factor, LCOE, and the metrics that mislead'
-metaTitle: 'Capacity factor, LCOE and the metrics that mislead'
+metaTitle: Capacity factor, LCOE and the metrics that mislead
 excerpt: Nameplate capacity, capacity factor, levelised cost and primary energy are four different accounts of the same fleet, and each carries a convention that can move a headline without anything physical changing.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 8
+updatedDate: '2026-09-05'
+readingTime: 9
 tags:
   - capacity-factor
   - levelised-cost
@@ -19,7 +19,7 @@ related:
   - wind-energy-physics
   - solar-photovoltaics-explained
 pillar: energy-systems-explained
-_bodyHash: 3a18d990
+_bodyHash: f38f0226
 ---
 
 In 2025 the United States utility-scale wind fleet averaged 154.6 GW of capacity at a [capacity factor](/en/glossary/capacity-factor) of 34.2 per cent, on the preliminary figures in the August 2026 *Electric Power Monthly*. The solar photovoltaic fleet averaged 133.9 GW at 24.4 per cent. The nuclear fleet averaged 98.4 GW at 91.0 per cent. Multiply each pair and the average power delivered comes out at 52.9 GW from wind, 32.7 GW from solar and 89.6 GW from nuclear: with roughly a third of the combined nameplate of the other two, the nuclear fleet produced more electricity than both together.

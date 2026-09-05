@@ -1,13 +1,13 @@
 ---
 title: Carbon offset markets are quietly outsourcing the work of climate science
-metaTitle: 'Carbon offsets and the outsourcing of climate science'
+metaTitle: Carbon offsets and the outsourcing of climate science
 excerpt: Voluntary carbon markets have become the largest unregulated funder of forest-carbon measurement — and the methods are diverging from what the science actually says.
 argument: When commercial registries certify methodology, the result is rules optimized for issuance volume rather than measurement accuracy. The corrective is not better registries — it is independent, public-good measurement infrastructure.
 category: ecology
 author: climate-research-desk
 publishedDate: '2026-03-15'
-updatedDate: '2026-05-08'
-readingTime: 3
+updatedDate: '2026-09-05'
+readingTime: 5
 tags:
   - carbon markets
   - policy
@@ -16,7 +16,7 @@ tags:
 related:
   - temperate-forest-carbon-sink-decline
   - what-is-climate-change
-_bodyHash: 698b02be
+_bodyHash: 96a08960
 ---
 
 Voluntary carbon markets fund a growing amount of forest-carbon measurement, but their scientific governance remains uneven. The risk, highlighted by public assessments from the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and climate-policy work from [UNEP](https://www.unep.org/resources/emissions-gap-report-2024), is that offset accounting can be treated as equivalent to direct emissions reductions even when permanence, additionality, and baseline uncertainty remain unresolved.

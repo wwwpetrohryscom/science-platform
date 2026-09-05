@@ -17,6 +17,7 @@ related:
   - single-cell-evo-devo
   - cell-signaling-pathways-basics
 pillar: what-is-dna
+_bodyHash: c1905cfc
 ---
 
 Uma célula hepática e um neurónio do mesmo corpo têm genomas essencialmente idênticos. Diferem no aspeto, no comportamento e no metabolismo porque a [expressão génica](/pt/glossary/gene-expression) — o processo pelo qual a informação do [ADN](/pt/biology/genetics/what-is-dna) se torna proteína funcional — é regulada. As sínteses de referência aceites do [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) e do [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) tratam a regulação da expressão génica como um sistema em camadas, com pontos de decisão em vários passos entre genoma e fenótipo.

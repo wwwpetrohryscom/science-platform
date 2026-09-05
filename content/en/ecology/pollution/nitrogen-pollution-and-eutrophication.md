@@ -4,7 +4,7 @@ excerpt: Human activity now fixes about as much reactive nitrogen as the whole n
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - reactive-nitrogen
@@ -19,7 +19,7 @@ related:
   - lake-ecology-and-eutrophication
   - ocean-deoxygenation-and-dead-zones
 pillar: environmental-pollution-explained
-_bodyHash: bab1402
+_bodyHash: 1a9da5ef
 ---
 
 Nitrogen pollution is usually discussed as though it were one problem awaiting one solution. It is several problems arranged in sequence. A nitrogen atom fixed into fertiliser can volatilise as ammonia and form secondary particulate in the air; deposit onto a heathland and shift its plant community; leach as nitrate into groundwater and then a river; feed an algal bloom whose decay strips oxygen from a coastal seabed; and finally leave as nitrous oxide, a long-lived greenhouse gas. Each stop is a distinct receptor with a distinct regulator, and the atom does not stop causing effects when the first agency loses interest.

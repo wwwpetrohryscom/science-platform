@@ -19,6 +19,7 @@ related:
   - rewilding-evidence-and-limits
   - invasive-species-management
 pillar: conservation-science-explained
+_bodyHash: 9c79da9
 ---
 
 Jedes veröffentlichte Urteil über Renaturierung ist ein Urteil über einen Vergleich, und es stehen zwei zur Wahl. Vergleicht man eine renaturierte Fläche mit dem degradierten Zustand, aus dem sie kam, wirkt Renaturierung stark wirksam. Vergleicht man dieselbe Fläche mit einer ungestörten Referenz, wirkt sie unvollständig. Beide Vergleiche sind legitim, beide kommen in der Literatur vor, und Schlagzeilenaussagen über Renaturierung hängen meist daran, welcher berichtet wurde. Das ist das Erste, was feststehen muss, bevor irgendeine Zahl etwas bedeutet; der weitere Rahmen zur Beurteilung von Interventionsbelegen steht im Clusterleitfaden dazu, [wie Naturschutzwirksamkeit geprüft wird](/de/ecology/conservation/conservation-science-explained).

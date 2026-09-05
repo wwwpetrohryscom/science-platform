@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
+_bodyHash: a502fae3
 ---
 L'air est ténu, et l'arithmétique le rend concret. La NOAA donne la pression standard au niveau de la mer à 1013,25 hPa, soit le poids d'une colonne portant environ 10,3 tonnes d'air au-dessus de chaque mètre carré de sol. À l'altitude de croisière d'un avion de ligne, à peu près les trois quarts de cette colonne sont déjà sous vous. Ce que cette coquille fait de l'énergie qui la traverse est l'objet de la physique de l'atmosphère, et le résumé le plus utile de son action est un chiffre de transport : un flux vers les pôles culminant à environ cinq pétawatts dans chaque hémisphère en moyenne annuelle.
 

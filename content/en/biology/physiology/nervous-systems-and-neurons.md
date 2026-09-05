@@ -4,7 +4,7 @@ excerpt: A neuron spends energy building an ion gradient so that it can discharg
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - neuroscience
@@ -17,7 +17,7 @@ related:
   - cell-membrane-structure-and-transport
   - developmental-biology-explained
 pillar: physiology-explained
-_bodyHash: c6f68e8
+_bodyHash: 2af44a3d
 ---
 
 A neuron at rest is not idle. It is holding a charge separation across its membrane, maintained at continuous metabolic cost, so that it can discharge part of that separation in a controlled way far faster than any pump could restore it. Almost everything distinctive about neural signalling — its speed, its direction, its ability to combine inputs — follows from that one arrangement, which is a specialised case of [the general problem of holding a physiological set point](/en/biology/physiology/physiology-explained).

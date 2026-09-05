@@ -19,6 +19,7 @@ related:
   - speciation-mechanisms
   - convergent-evolution-explained
   - cell-types-as-units-of-evolution
+_bodyHash: 70b3eb8b
 ---
 [Evolution](/de/glossary/evolution) ist eine Eigenschaft von Populationen, nicht von Individuen. Ein Organismus entwickelt sich nicht im Laufe seines Lebens; was sich ändert, ist die Häufigkeit jeder Version eines Gens unter den Organismen einer Fortpflanzungsgemeinschaft, und wie sich diese Verteilung von einer Generation zur nächsten verschiebt. Die verbreiteten Fehldeutungen — dass Linien nach Komplexität streben, dass eine Art die benötigte Variante gewissermaßen herbeiruft, dass Fitness körperliche Stärke bedeute — lösen sich auf, sobald das Subjekt des Satzes wieder an seinen Platz gerückt wird.
 

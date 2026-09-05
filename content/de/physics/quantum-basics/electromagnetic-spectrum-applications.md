@@ -17,6 +17,7 @@ related:
   - solar-radiation-and-earth-energy-balance
   - earth-energy-budget-and-the-second-law
 pillar: quantum-mechanics-fundamentals
+_bodyHash: 7ebea040
 ---
 
 Radiowellen, Mikrowellen, Infrarot, sichtbares Licht, Ultraviolett, Röntgen- und Gammastrahlen sind keine verschiedenen physikalischen Phänomene. Sie sind dasselbe Phänomen — sich ausbreitende elektromagnetische Wellen, gleichwertig als Photonen beschrieben, in dem Sinn, den [die Quantenmechanik dieser Gleichwertigkeit gibt](/de/physics/quantum-basics/quantum-mechanics-fundamentals) — bei verschiedenen Wellenlängen. Die Unterschiede darin, wie jedes mit Materie wechselwirkt und damit in Wissenschaft und Technik genutzt wird, folgen allein aus der Wellenlänge.

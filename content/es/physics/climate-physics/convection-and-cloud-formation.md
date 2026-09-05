@@ -19,6 +19,7 @@ related:
   - climate-feedback-mechanisms
   - radiative-transfer-explained
 pillar: atmospheric-physics-explained
+_bodyHash: 166a4d6d
 ---
 
 Cada gotita de cada nube se condensó sobre otra cosa. El vapor de agua en aire limpio no se ensambla espontáneamente en gotitas a las humedades que la atmósfera alcanza de verdad; necesita una superficie sobre la que condensarse, y la referencia JetStream de la NOAA fija el mínimo útil de esa superficie en un radio de alrededor de un micrómetro. Humo, ceniza volcánica, aerosol marino y polvo levantado por el viento las suministran en cantidades enormes, y por eso cada gotita de nube lleva una mota de polvo o sal en su núcleo. Ese requisito microscópico inicia una cadena que termina en la pregunta abierta más ancha de la [física atmosférica](/es/physics/climate-physics/atmospheric-physics-explained).

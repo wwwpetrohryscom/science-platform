@@ -17,7 +17,7 @@ related:
   - ecosystem-services-and-human-wellbeing
   - foundation-species-and-the-myth-of-redundancy
 pillar: why-species-counts-mislead-conservation
-_bodyHash: d5d1aead
+_bodyHash: dc6b1268
 ---
 
 [Climate change](/en/ecology/climate-change/what-is-climate-change) has a small set of canonical indicators — surface temperature, ocean [heat content](/en/ecology/climate-change/ocean-heat-content-indicators), [sea level](/en/ecology/climate-change/sea-level-rise-indicators), sea ice extent, atmospheric greenhouse-gas concentration. Anyone reading the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) knows what is being measured.

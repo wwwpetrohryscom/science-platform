@@ -19,6 +19,7 @@ related:
   - soil-carbon-measurement-and-uncertainty
   - soil-microbiome-regenerative-agriculture
 pillar: soil-science-explained
+_bodyHash: ff3653ab
 ---
 
 Une analyse parue en 2019 dans *Nature* a rassemblé 6 759 échantillons géoréférencés en un modèle mondial d'abondance des nématodes du sol et est arrivée à [4,4 ± 0,64 × 10²⁰ individus](https://pubmed.ncbi.nlm.nih.gov/31341281/) dans les sols de surface du monde, pour une biomasse combinée d'environ 0,3 gigatonne. La distribution n'était pas celle que la plupart des gens auraient devinée : les sols subarctiques détiennent 38 pour cent du total, contre 24 pour cent dans les régions tempérées et 21 pour cent dans les régions tropicales.

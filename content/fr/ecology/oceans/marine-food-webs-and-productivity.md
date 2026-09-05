@@ -18,6 +18,7 @@ related:
   - deep-sea-ecosystems
   - ocean-color-observations
 pillar: ocean-science-explained
+_bodyHash: c115c40d
 ---
 
 Un recensement mondial de la biomasse publié dans les Proceedings of the National Academy of Sciences place environ 1 gigatonne de carbone de producteurs primaires dans l'océan, portant à peu près 5 gigatonnes de carbone de consommateurs. À terre, le rapport s'inverse, et largement : les plantes comptent pour environ 450 des quelque 550 gigatonnes de carbone de toute la [biosphère](/fr/glossary/biosphere). La pyramide marine tient sur sa pointe.

@@ -16,7 +16,7 @@ related:
   - cell-signaling-pathways-basics
   - how-gene-expression-is-regulated
 pillar: evolution-explained
-_bodyHash: d8d49c66
+_bodyHash: e26d3318
 ---
 
 [Antimicrobial resistance](/en/biology/microbiology/antimicrobial-resistance-evidence) is one of the clearest contemporary examples of [evolution](/en/biology/evolution/evolution-explained) operating on human timescales. Its scale has been estimated directly: a systematic analysis covering 23 pathogens and 88 pathogen-drug combinations across 204 countries put the 2019 toll at [1.27 million deaths attributable to bacterial resistance and 4.95 million associated with it](https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/), with the highest attributable death rate in western sub-Saharan Africa at 27.3 per 100,000 and the lowest in Australasia at 6.5.

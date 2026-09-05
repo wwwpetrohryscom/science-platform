@@ -18,6 +18,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
+_bodyHash: 6b12a7ba
 ---
 Julgada como instrumento preditivo, a mecânica quântica é a teoria mais severamente testada da física. A avaliação CODATA de 2022 dá a anomalia do momento magnético do eletrão como 1,159 652 180 46(18) × 10⁻³, uma incerteza-padrão relativa de 1,6 × 10⁻¹⁰. A constante de estrutura fina, que rege a intensidade da interação eletromagnética, está fixada na mesma ordem, 7,297 352 5643(11) × 10⁻³. Seja o que for que permaneça por resolver na teoria quântica, a sua aritmética não é a parte por resolver.
 

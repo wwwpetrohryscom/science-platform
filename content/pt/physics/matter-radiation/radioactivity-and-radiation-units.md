@@ -5,7 +5,7 @@ excerpt: Uma contagem de desintegrações, um depósito de energia e uma estimat
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - radiation-units
@@ -19,6 +19,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
+_bodyHash: f1b11670
 ---
 
 A rapidez com que uma fonte se desintegra, quanta energia as suas emissões deixam num quilograma de matéria, e quanto dano biológico se espera que esse depósito represente são três grandezas separadas. O becquerel, o gray e o sievert medem-nas por essa ordem, e cada passo em frente acrescenta um pressuposto que a unidade anterior não trazia. Colapsar as três numa única escala de «quanta radiação» é o erro mais comum ao noticiar o tema, e corre nos dois sentidos: alarme perante um número que não o justifica e tranquilidade tirada de outro que também não.

@@ -18,6 +18,7 @@ related:
   - crispr-genome-editing-explained
   - what-is-a-genome
 pillar: biotechnology-explained
+_bodyHash: 41ec70bb
 ---
 
 Pregunte qué plataforma de secuenciación es la más exacta y obtendrá una respuesta inútil, porque las plataformas fallan de maneras distintas. Un método que comete errores de sustitución raros y dispersos y otro que comete errores frecuentes pero previsibles en un contexto de secuencia concreto pueden declarar la misma exactitud y servir para problemas completamente distintos. La [longitud de lectura](/en/glossary/read-length), la forma del error y el coste por base son los tres ejes que de verdad deciden un proyecto, y se intercambian entre sí. Leer ADN es la capacidad que hizo tratable el resto de la [caja de herramientas biotecnológica](/es/biology/biotechnology/biotechnology-explained), y es también aquella cuya economía se cita con más frecuencia fuera de contexto.

@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
+_bodyHash: c2a17bc0
 ---
 El aire es tenue, y la aritmética lo hace concreto. La NOAA da la presión estándar al nivel del mar como 1013,25 hPa, que es el peso de una columna que sostiene unas 10,3 toneladas de aire sobre cada metro cuadrado de suelo. A la altitud de crucero de un avión comercial, aproximadamente tres cuartas partes de esa columna quedan ya por debajo. Lo que esta cáscara hace con la energía que la atraviesa es el asunto de la física de la atmósfera, y el resumen más útil de lo que hace es una cifra de transporte: un flujo hacia los polos que alcanza unos cinco petavatios en cada hemisferio en media anual.
 

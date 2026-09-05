@@ -1,6 +1,6 @@
 ---
 title: 'Limitações e incerteza da deteção remota: ler os dados de satélite com honestidade'
-metaTitle: 'Limitações e incerteza da deteção remota'
+metaTitle: Limitações e incerteza da deteção remota
 excerpt: Os dados de satélite são poderosos mas nunca perfeitos. Aqui ficam os limites estruturais da deteção remota — compromissos de resolução, nuvens, píxeis mistos, medição indireta e deriva dos sensores — e as práticas de validação que mantêm esses produtos honestos.
 type: expert
 author: climate-research-desk
@@ -17,6 +17,7 @@ related:
   - land-cover-change-detection
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
+_bodyHash: aa4cf970
 ---
 A medição por satélite é indispensável às ciências do ambiente e, ainda assim, está limitada de maneiras que importam para o modo como os seus resultados devem ser lidos. Um mapa ou uma série temporal derivados de órbita transportam sempre pressupostos, lacunas e erro que a boa prática torna explícitos em vez de esconder. Este artigo expõe os principais limites estruturais [do que é a deteção remota](/pt/ecology/earth-observation/what-is-remote-sensing) e a validação que mantém fiáveis os produtos resultantes; o contexto mais amplo está no nosso núcleo de [observação da Terra e deteção remota](/pt/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 

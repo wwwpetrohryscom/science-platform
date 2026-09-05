@@ -15,7 +15,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 10e9a7c2
+_bodyHash: dba01165
 ---
 
 A [riqueza específica](/pt/glossary/species-richness) — a contagem de espécies distintas numa área definida — é uma das medidas de [biodiversidade](/pt/glossary/biodiversity) mais citadas. É também incompleta enquanto métrica de priorização em conservação. As avaliações públicas da [Agência Europeia do Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), do [UNEP](https://www.unep.org/explore-topics/ecosystems) e da [IPBES](https://www.ipbes.net/global-assessment) tratam todas a perda de biodiversidade como algo mais do que um simples problema de contagem de espécies.

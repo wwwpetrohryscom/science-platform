@@ -1,11 +1,11 @@
 ---
 title: Os limites termodinâmicos da fotovoltaica — e porque decidem o que é possível
-metaTitle: 'Os limites termodinâmicos da fotovoltaica'
+metaTitle: Os limites termodinâmicos da fotovoltaica
 excerpt: Há um teto superior duro para quanta luz solar qualquer célula fotovoltaica de junção simples consegue converter em eletricidade. Saber de onde vem esclarece que direções de melhoria são física e quais são engenharia.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 pillar: laws-of-thermodynamics-explained
 tags:
@@ -16,6 +16,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
+_bodyHash: b3f8ffa1
 ---
 
 Há um teto superior duro para quanta luz solar qualquer célula fotovoltaica de junção simples consegue converter em eletricidade. Sob iluminação solar padrão situa-se perto dos 33 % — o limite de Shockley-Queisser, [derivado em 1961](https://doi.org/10.1063/1.1736034) de um argumento de balanço detalhado sobre uma junção p-n iluminada por um corpo negro. As células de silício de alto desempenho operam suficientemente perto desse teto para que os ganhos adicionais estejam cada vez mais limitados pela engenharia. Saber de onde vem o teto — e vem [das leis da termodinâmica](/pt/physics/thermodynamics/laws-of-thermodynamics-explained) e não de qualquer propriedade do silício — esclarece o que conta como física fundamental e o que conta como engenharia.

@@ -18,6 +18,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
+_bodyHash: 6ffb41ff
 ---
 Jugée comme instrument prédictif, la mécanique quantique est la théorie la plus sévèrement testée de la physique. L'évaluation CODATA de 2022 donne l'anomalie du moment magnétique de l'électron à 1,159 652 180 46(18) × 10⁻³, soit une incertitude-type relative de 1,6 × 10⁻¹⁰. La constante de structure fine, qui gouverne l'intensité de l'interaction électromagnétique, est cernée au même ordre, 7,297 352 5643(11) × 10⁻³. Quoi qu'il reste d'irrésolu dans la théorie quantique, son arithmétique n'en fait pas partie.
 

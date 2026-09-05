@@ -4,7 +4,7 @@ excerpt: Two communities with the same number of species can differ sharply in h
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - species-evenness
@@ -15,7 +15,7 @@ related:
   - why-species-counts-mislead-conservation
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 840f594a
+_bodyHash: 1a7a9053
 readingTime: 4
 ---
 

@@ -5,7 +5,7 @@ excerpt: Les seules bactéries détiennent environ 70 gigatonnes de carbone, l'e
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - microbiology
@@ -19,6 +19,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
+_bodyHash: 26b77b39
 ---
 Un recensement de la biosphère publié en 2018 a établi le carbone vivant total sur Terre à environ 550 gigatonnes, dont quelque 450 pour les plantes. Les bactéries viennent ensuite, avec approximativement 70 Gt C, suivies des champignons à 12, des archées à 7, des protistes à 4, des animaux à 2 et des virus à 0,2. Ces chiffres, réunis par des chercheurs de l'Institut Weizmann et de Caltech, portent des incertitudes très différentes — les plantes sont cernées à un facteur 1,2 près, les bactéries seulement à un facteur 10 et les archées à un facteur 13 — mais c'est l'ordre qui compte. Presque tout ce qui vit et n'est pas une plante est microbien, et l'essentiel se trouve là où personne n'a regardé directement.
 

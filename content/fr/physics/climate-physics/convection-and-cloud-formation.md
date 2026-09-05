@@ -19,6 +19,7 @@ related:
   - climate-feedback-mechanisms
   - radiative-transfer-explained
 pillar: atmospheric-physics-explained
+_bodyHash: 567b91f3
 ---
 
 Chaque gouttelette de chaque nuage s'est condensée sur autre chose. La vapeur d'eau dans un air propre ne s'assemble pas spontanément en gouttelettes aux humidités que l'atmosphère atteint réellement ; il lui faut une surface où se condenser, et la référence JetStream de la NOAA fixe le minimum utile de cette surface à un rayon d'environ un micromètre. Fumée, cendre volcanique, embruns et poussières soulevées par le vent en fournissent en nombre énorme, et c'est pourquoi chaque gouttelette de nuage porte en son cœur un grain de poussière ou de sel. Cette exigence microscopique ouvre une chaîne qui aboutit à la plus large question ouverte de la [physique de l'atmosphère](/fr/physics/climate-physics/atmospheric-physics-explained).

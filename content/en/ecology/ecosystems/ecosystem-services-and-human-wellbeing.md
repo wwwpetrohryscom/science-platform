@@ -17,7 +17,7 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - essential-biodiversity-variables-monitoring
 pillar: what-is-an-ecosystem
-_bodyHash: 735c2a7f
+_bodyHash: fc400a56
 ---
 
 The phrase "[ecosystem](/en/glossary/ecosystem) services" entered international policy through the [Millennium Ecosystem Assessment](https://www.unep.org/explore-topics/ecosystems) in the early 2000s. It was developed as a translation device — a way of expressing, in terms a policy process can act on, and starting from [what an ecosystem actually is](/en/ecology/ecosystems/what-is-an-ecosystem), the connection between ecosystems and human well-being in language that ministries of finance and treasuries could engage with. Two decades later, the framework is operational in agencies including the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and the [U.S. Environmental Protection Agency](https://www.epa.gov/). The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) builds on it explicitly.

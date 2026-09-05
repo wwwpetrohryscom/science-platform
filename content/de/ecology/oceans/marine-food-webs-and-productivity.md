@@ -18,6 +18,7 @@ related:
   - deep-sea-ecosystems
   - ocean-color-observations
 pillar: ocean-science-explained
+_bodyHash: ec6a0999
 ---
 
 Eine globale Biomassezählung in den Proceedings of the National Academy of Sciences setzt etwa 1 Gigatonne Kohlenstoff an Primärproduzenten in den Ozean, die rund 5 Gigatonnen Kohlenstoff an Konsumenten tragen. An Land läuft das Verhältnis andersherum, und deutlich: Pflanzen machen etwa 450 der rund 550 Gigatonnen Kohlenstoff der gesamten [Biosphäre](/de/glossary/biosphere) aus. Die marine Pyramide steht auf der Spitze.

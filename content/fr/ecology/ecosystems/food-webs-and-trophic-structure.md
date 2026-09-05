@@ -1,5 +1,5 @@
 ---
-title: "Réseaux trophiques et structure trophique : ce que compte réellement un niveau"
+title: 'Réseaux trophiques et structure trophique : ce que compte réellement un niveau'
 metaTitle: 'Réseaux trophiques : ce que compte réellement un niveau'
 excerpt: Un niveau trophique est un instrument de comptabilité du flux d'énergie, non une catégorie d'organisme. Ce que prétend vraiment la règle des dix pour cent, pourquoi l'omnivorie rend les niveaux fractionnaires, et à quel point le cas de Yellowstone reste discuté.
 type: expert
@@ -18,6 +18,7 @@ related:
   - marine-food-webs-and-productivity
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
+_bodyHash: 77863a85
 ---
 
 Un niveau trophique est une propriété d'une relation alimentaire, non une étiquette appartenant à un organisme. Le nombre compte combien de transferts séparent une unité d'énergie de la lumière solaire qui l'a fixée : les photosynthétiseurs occupent le niveau 1, ce qui ne mange que des photosynthétiseurs occupe le niveau 2, et ainsi de suite. Rien dans cette définition n'oblige un animal à rester au même endroit. Une truite qui mange des insectes ayant brouté des algues et aussi des insectes ayant mangé d'autres insectes se nourrit simultanément aux niveaux 3 et 4, et la valeur que les écologues lui attribueront sera une moyenne des deux, pondérée par le régime.

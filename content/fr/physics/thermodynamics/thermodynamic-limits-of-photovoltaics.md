@@ -1,11 +1,11 @@
 ---
 title: Les limites thermodynamiques du photovoltaïque — et pourquoi elles décident du possible
-metaTitle: 'Les limites thermodynamiques du photovoltaïque'
+metaTitle: Les limites thermodynamiques du photovoltaïque
 excerpt: Il existe une borne supérieure dure sur la fraction de lumière solaire qu'une cellule photovoltaïque à jonction unique peut convertir en électricité. Savoir d'où elle vient éclaire quelles voies d'amélioration relèvent de la physique et lesquelles de l'ingénierie.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 pillar: laws-of-thermodynamics-explained
 tags:
@@ -16,6 +16,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
+_bodyHash: 2951e2aa
 ---
 
 Il existe une borne supérieure dure sur la fraction de lumière solaire qu'une cellule photovoltaïque à jonction unique peut convertir en électricité. Sous éclairement solaire standard, elle se situe près de 33 % — la limite de Shockley-Queisser, [dérivée en 1961](https://doi.org/10.1063/1.1736034) d'un argument de bilan détaillé sur une jonction p-n éclairée par un corps noir. Les cellules de silicium performantes fonctionnent assez près de cette borne pour que les gains supplémentaires soient de plus en plus limités par l'ingénierie. Savoir d'où vient la borne — et elle vient [des principes de la thermodynamique](/fr/physics/thermodynamics/laws-of-thermodynamics-explained) plutôt que d'une propriété du silicium — éclaire ce qui relève de la physique fondamentale et ce qui relève de l'ingénierie.

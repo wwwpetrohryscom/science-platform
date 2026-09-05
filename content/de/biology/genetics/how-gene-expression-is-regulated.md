@@ -17,6 +17,7 @@ related:
   - single-cell-evo-devo
   - cell-signaling-pathways-basics
 pillar: what-is-dna
+_bodyHash: abd8954a
 ---
 
 Eine Leberzelle und ein Neuron im selben Körper tragen im Wesentlichen identische Genome. Sie sehen anders aus, verhalten sich anders und stoffwechseln anders, weil die [Genexpression](/de/glossary/gene-expression) — der Vorgang, durch den die Information in der [DNA](/de/biology/genetics/what-is-dna) zu funktionsfähigem Protein wird — reguliert ist. Die anerkannten Referenzdarstellungen des [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) und des [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) behandeln die Regulation der Genexpression als geschichtetes System mit Entscheidungspunkten an mehreren Stufen zwischen Genom und Phänotyp.

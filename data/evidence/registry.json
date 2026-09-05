@@ -1,5 +1,5 @@
 {
- "generatedDate": "2026-09-03",
+ "generatedDate": "2026-09-05",
  "records": [
   {
    "evidenceId": "ev-academic-oup-com-24549583",
@@ -15808,6 +15808,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-ncbi-nlm-nih-gov-472fce46",
+   "title": "Physiology, Adenosine Triphosphate (StatPearls)",
+   "organization": "NCBI Bookshelf",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK553175/",
+   "host": "ncbi.nlm.nih.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atp-and-cellular-energy-budgets",
+     "section": "biology/cells",
+     "supports": "Daily whole-body ATP hydrolysis in moles."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-ncbi-nlm-nih-gov-4b3e165e",
    "title": "Physiology, Action Potential",
    "organization": "StatPearls (NCBI Bookshelf)",
@@ -16220,6 +16242,42 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-ncbi-nlm-nih-gov-759e0cdb",
+   "title": "Metabolic Energy, in *The Cell: A Molecular Approach*",
+   "organization": "NCBI Bookshelf",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK9903/",
+   "host": "ncbi.nlm.nih.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells",
+    "biology/microbiology",
+    "physics/thermodynamics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atp-and-cellular-energy-budgets",
+     "section": "biology/cells",
+     "supports": "The 38-and-36 ATP yields and the shuttle caveat."
+    },
+    {
+     "kind": "article",
+     "slug": "free-energy-and-biological-work",
+     "section": "physics/thermodynamics",
+     "supports": "Standard-state and intracellular free energy of ATP hydrolysis."
+    },
+    {
+     "kind": "article",
+     "slug": "microbial-energy-limits",
+     "section": "biology/microbiology",
+     "supports": "The free-energy accounting that a maintenance budget has to satisfy."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-ncbi-nlm-nih-gov-7e3a5a2d",
    "title": "DNA replication mechanisms",
    "organization": "Alberts and colleagues, Molecular Biology of the Cell (NCBI Bookshelf)",
@@ -16271,6 +16329,28 @@
      "slug": "respiration-and-gas-exchange",
      "section": "biology/physiology",
      "supports": "The bound-versus-dissolved split, curve shape, and the factors that shift affinity."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-ncbi-nlm-nih-gov-980986b9",
+   "title": "Physiology, Temperature Regulation",
+   "organization": "NCBI Bookshelf (StatPearls)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK507838/",
+   "host": "ncbi.nlm.nih.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "temperature-and-biological-rates",
+     "section": "biology/physiology",
+     "supports": "The narrow band an endotherm defends, for contrast with the ectotherm case."
     }
    ],
    "isLiveDataset": false,
@@ -16669,6 +16749,28 @@
      "slug": "rubisco",
      "section": "glossary",
      "supports": "Definition of Rubisco"
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-ncbi-nlm-nih-gov-f0dbcfd8",
+   "title": "Non-exercise activity thermogenesis in human energy homeostasis",
+   "organization": "NCBI Bookshelf (Endotext)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK279077/",
+   "host": "ncbi.nlm.nih.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "metabolic-scaling-and-body-size",
+     "section": "biology/physiology",
+     "supports": "Definition of basal metabolic rate and its share of total energy expenditure."
     }
    ],
    "isLiveDataset": false,
@@ -20238,7 +20340,7 @@
   },
   {
    "evidenceId": "ev-physics-nist-gov-d444bd61",
-   "title": "Boltzmann constant",
+   "title": "The Boltzmann constant",
    "organization": "NIST CODATA",
    "url": "https://physics.nist.gov/cgi-bin/cuu/Value?k",
    "host": "physics.nist.gov",
@@ -20253,6 +20355,12 @@
      "slug": "entropy-explained",
      "section": "physics/thermodynamics",
      "supports": "The exact fixed value linking the statistical and thermodynamic definitions."
+    },
+    {
+     "kind": "article",
+     "slug": "information-and-thermodynamics",
+     "section": "physics/thermodynamics",
+     "supports": "The exact SI value that fixes the size of the bound."
     },
     {
      "kind": "article",
@@ -21391,6 +21499,34 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-285afdd1",
+   "title": "Systematic variation in the temperature dependence of physiological and ecological traits",
+   "organization": "PNAS (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3127911/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "metabolic-scaling-and-body-size",
+     "section": "biology/physiology",
+     "supports": "The temperature term that accompanies the mass term."
+    },
+    {
+     "kind": "article",
+     "slug": "temperature-and-biological-rates",
+     "section": "biology/physiology",
+     "supports": "The 1,072-response survey, mean and median activation energies, trait-class breakdown, and the decline value."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-2988f694",
    "title": "On the immortality of television sets: \"function\" in the human genome",
    "organization": "Graur and colleagues, Genome Biology and Evolution",
@@ -22481,6 +22617,48 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-527fb9b4",
+   "title": "The molecular mechanism of ATP synthase constrains the evolutionary landscape of chemiosmosis",
+   "organization": "Biophysical Journal (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12256841/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells",
+    "biology/microbiology",
+    "physics/thermodynamics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atp-and-cellular-energy-budgets",
+     "section": "biology/cells",
+     "supports": "Working free energy of hydrolysis and synthase stoichiometry."
+    },
+    {
+     "kind": "article",
+     "slug": "free-energy-and-biological-work",
+     "section": "physics/thermodynamics",
+     "supports": "Concentration-based ΔG_hyd, ATP per revolution, and c-subunit stoichiometry."
+    },
+    {
+     "kind": "article",
+     "slug": "information-and-thermodynamics",
+     "section": "physics/thermodynamics",
+     "supports": "The cellular free energy of ATP hydrolysis in k_BT units, for the comparison of scales."
+    },
+    {
+     "kind": "article",
+     "slug": "microbial-energy-limits",
+     "section": "biology/microbiology",
+     "supports": "The per-molecule free energy used to convert an ATP rate into a power."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-52d3025b",
    "title": "A general derivation and quantification of the third law of thermodynamics",
    "organization": "Nature Communications",
@@ -22949,6 +23127,28 @@
      "slug": "culturing-and-sequencing-microbes",
      "section": "biology/microbiology",
      "supports": "Genome and protein counts, and the share of species without cultured representatives."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-5df1989d",
+   "title": "Metabolic costs of physiological heat stress responses: Q10 coefficients relating oxygen consumption to body temperature",
+   "organization": "Extreme Physiology & Medicine (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4580850/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "temperature-and-biological-rates",
+     "section": "biology/physiology",
+     "supports": "Definition of Q10 and its usual biological range."
     }
    ],
    "isLiveDataset": false,
@@ -23618,8 +23818,8 @@
   },
   {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-85874f5d",
-   "title": "Mammalian basal metabolic rate is proportional to body mass 2/3",
-   "organization": "PNAS",
+   "title": "Mammalian basal metabolic rate is proportional to body mass^2/3",
+   "organization": "PNAS (PMC)",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC153045/",
    "host": "pmc.ncbi.nlm.nih.gov",
    "sourceType": "peer-reviewed",
@@ -23630,9 +23830,21 @@
    "usedBy": [
     {
      "kind": "article",
+     "slug": "metabolic-scaling-and-body-size",
+     "section": "biology/physiology",
+     "supports": "The 619-species reanalysis and the 0.68 and 0.65 exponents."
+    },
+    {
+     "kind": "article",
      "slug": "physiology-explained",
      "section": "biology/physiology",
      "supports": "The 619-species analysis and the case against quarter-power scaling."
+    },
+    {
+     "kind": "article",
+     "slug": "temperature-and-biological-rates",
+     "section": "biology/physiology",
+     "supports": "Temperature control as a prerequisite for comparing basal rates."
     }
    ],
    "isLiveDataset": false,
@@ -23933,6 +24145,49 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-8f57ed16",
+   "title": "The quantified cell",
+   "organization": "Molecular Biology of the Cell (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4230611/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells",
+    "biology/microbiology",
+    "biology/physiology",
+    "physics/thermodynamics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atp-and-cellular-energy-budgets",
+     "section": "biology/cells",
+     "supports": "Per-cell ATP rates, protein-synthesis costs, motility costs, and whole-body power."
+    },
+    {
+     "kind": "article",
+     "slug": "free-energy-and-biological-work",
+     "section": "physics/thermodynamics",
+     "supports": "Cellular energy budgets in ATP units."
+    },
+    {
+     "kind": "article",
+     "slug": "metabolic-scaling-and-body-size",
+     "section": "biology/physiology",
+     "supports": "Whole-body resting power, for scale."
+    },
+    {
+     "kind": "article",
+     "slug": "microbial-energy-limits",
+     "section": "biology/microbiology",
+     "supports": "Per-cell ATP production rates for comparison."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-8faa17ec",
    "title": "The timescale of early land plant evolution",
    "organization": "PNAS",
@@ -24115,6 +24370,28 @@
      "slug": "heritability-explained",
      "section": "biology/genetics",
      "supports": "Direction and size of the assortative-mating bias in marker-based and twin estimates of heritability for height."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-95fe960b",
+   "title": "Survival of the fewest: microbial dormancy and maintenance in marine sediments through deep time",
+   "organization": "PMC",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585783/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "microbial-energy-limits",
+     "section": "biology/microbiology",
+     "supports": "Maintenance power per cell, the proposed minimum power limit, turnover times, and the dormancy argument."
     }
    ],
    "isLiveDataset": false,
@@ -25702,6 +25979,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-e2c37242",
+   "title": "Heat production and error probability relation in Landauer reset at effective temperature",
+   "organization": "Scientific Reports (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037424/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/thermodynamics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "information-and-thermodynamics",
+     "section": "physics/thermodynamics",
+     "supports": "Statement of the bound, the 2012 verification, and a micro-electro-mechanical test."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-e302f7cd",
    "title": "the global nitrogen cycle in the twenty-first century",
    "organization": "Philosophical Transactions of the Royal Society B",
@@ -26062,6 +26361,34 @@
      "slug": "microbiology-explained",
      "section": "biology/microbiology",
      "supports": "Quantitative estimate of the uncultured fraction of cells by environment."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-f465c738",
+   "title": "Body-mass scaling of metabolic rate: what are the relative roles of cellular versus systemic effects?",
+   "organization": "Biology (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4381225/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "metabolic-scaling-and-body-size",
+     "section": "biology/physiology",
+     "supports": "Curvature, taxon-specific slopes, cultured cells, and hibernation."
+    },
+    {
+     "kind": "article",
+     "slug": "temperature-and-biological-rates",
+     "section": "biology/physiology",
+     "supports": "Physiological state as a modifier of metabolic scaling."
     }
    ],
    "isLiveDataset": false,

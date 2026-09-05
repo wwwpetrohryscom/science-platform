@@ -1,16 +1,12 @@
 ---
 title: 'Contaminación: fuente, vía y receptor, el marco que ordena la evidencia'
 metaTitle: 'Contaminación: fuente, vía de exposición, receptor'
-excerpt: >-
-  Una sustancia se convierte en contaminación solo cuando se alinean una fuente,
-  una vía y un receptor. Esa tríada, y el paso de dosis-respuesta que ocupa su
-  centro, explica por qué los límites ambientales difieren entre países sin que
-  difiera la ciencia subyacente.
+excerpt: Una sustancia se convierte en contaminación solo cuando se alinean una fuente, una vía y un receptor. Esa tríada, y el paso de dosis-respuesta que ocupa su centro, explica por qué los límites ambientales difieren entre países sin que difiera la ciencia subyacente.
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 9
+updatedDate: '2026-09-05'
+readingTime: 10
 tags:
   - risk-assessment
   - exposure
@@ -23,7 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: 9c4dd195
+_bodyHash: 81bd3a8f
 ---
 
 Una sustancia no es contaminación por lo que es. Se convierte en contaminación cuando se alinean tres cosas: una **fuente** que la libera, una **vía** que la lleva a alguna parte y un **receptor** —una persona, una población, una especie, un hábitat— situado al final de esa vía. Basta con cortar cualquiera de las tres para que el daño desaparezca sin que la sustancia deje de estar presente ni de ser tóxica. Al sellar un emplazamiento contaminado, la fuente permanece y la vía se cierra. Al trasladar una captación de agua potable, el receptor se aparta del camino.

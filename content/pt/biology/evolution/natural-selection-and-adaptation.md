@@ -1,6 +1,6 @@
 ---
 title: 'A seleção natural: as condições, os modos e como a adaptação é posta à prova'
-metaTitle: 'Seleção natural e como se testa a adaptação'
+metaTitle: Seleção natural e como se testa a adaptação
 excerpt: A seleção natural decorre de três condições que podem ser verificadas uma a uma. O problema difícil é mostrar que um dado traço é sequer uma adaptação, e a seleção medida na natureza revela-se mais fraca do que a maioria dos relatos sugere.
 type: expert
 author: biology-ecosystems-desk
@@ -19,6 +19,7 @@ related:
   - convergent-evolution-explained
   - sexual-selection-explained
 pillar: evolution-explained
+_bodyHash: 5e9d225a
 ---
 
 Três condições, verificando-se ao mesmo tempo numa população, bastam para que a distribuição dos seus traços se desloque entre gerações:

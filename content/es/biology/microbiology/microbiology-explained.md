@@ -5,7 +5,7 @@ excerpt: Solo las bacterias contienen unas 70 gigatoneladas de carbono, la mayor
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - microbiology
@@ -19,6 +19,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
+_bodyHash: 34cbc787
 ---
 Un censo de la biosfera publicado en 2018 situó el carbono vivo total de la Tierra en aproximadamente 550 gigatoneladas, de las cuales unas 450 corresponden a las plantas. Las bacterias vienen en segundo lugar con aproximadamente 70 Gt C, seguidas de los hongos con 12, las arqueas con 7, los protistas con 4, los animales con 2 y los virus con 0,2. Esas cifras, reunidas por investigadores del Instituto Weizmann y Caltech, llevan incertidumbres muy distintas — las plantas están acotadas a un factor de 1,2, las bacterias solo a un factor de 10 y las arqueas a un factor de 13 — pero lo relevante es el orden. Casi todo lo vivo que no es una planta es microbiano, y la mayor parte está en algún lugar donde nadie ha mirado directamente.
 

@@ -19,6 +19,7 @@ related:
   - microbial-biogeochemistry
   - dna-sequencing-technologies
 pillar: microbiology-explained
+_bodyHash: f679a735
 ---
 
 La microbiologie a un problème récurrent que la plupart des autres domaines de la biologie n'ont pas : on ne peut pas voir les organismes faire quoi que ce soit d'utile, si bien que chaque fait à leur sujet arrive par un instrument qui en admet certains et exclut les autres. Une colonie sur gélose, une lecture de séquence issue d'un produit de PCR et un génome extrait par binning d'un métagénome sont trois filtres différents, et la composition rapportée par chacun est en partie une description du filtre. Savoir lequel est lequel est l'essentiel de ce qui sépare une affirmation défendable d'écologie microbienne d'un artefact.

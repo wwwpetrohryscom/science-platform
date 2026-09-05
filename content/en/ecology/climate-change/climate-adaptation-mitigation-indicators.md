@@ -18,7 +18,7 @@ related:
   - carbon-cycle-feedbacks
   - what-is-climate-change
 pillar: what-is-climate-change
-_bodyHash: 6b98a8be
+_bodyHash: b1b3b239
 ---
 
 The physical-climate indicators tracked elsewhere in this cluster describe the state of the [Earth system](/en/ecology/earth-systems/earth-system-science-explained). A separate, complementary set of indicators tracks the human-action side of [the problem those physical indicators describe](/en/ecology/climate-change/what-is-climate-change): how much greenhouse gas is being emitted, what policies are in place, and where adaptation investments and outcomes are landing. The two sets of indicators are produced by different institutions with different methodological constraints and they answer different questions.

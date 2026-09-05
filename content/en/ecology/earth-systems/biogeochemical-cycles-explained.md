@@ -6,7 +6,7 @@ type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
 updatedDate: '2026-09-05'
-readingTime: 9
+readingTime: 5
 tags:
   - biogeochemical-cycles
   - residence-time
@@ -17,7 +17,7 @@ related:
   - carbon-cycle-explained
   - global-water-cycle-explained
   - nitrogen-cycle-explained
-_bodyHash: dc68a194
+_bodyHash: 71e4aaa
 pillar: earth-system-science-explained
 ---
 

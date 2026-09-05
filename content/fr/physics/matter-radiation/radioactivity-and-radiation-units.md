@@ -5,7 +5,7 @@ excerpt: Un décompte de désintégrations, un dépôt d'énergie et une estimat
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - radiation-units
@@ -19,6 +19,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
+_bodyHash: '85e10874'
 ---
 
 La vitesse à laquelle une source se désintègre, l'énergie que ses émissions laissent dans un kilogramme de matière, et le dommage biologique que ce dépôt est censé représenter sont trois grandeurs distinctes. Le becquerel, le gray et le sievert les mesurent dans cet ordre, et chaque pas en avant ajoute une hypothèse que l'unité précédente ne portait pas. Réduire les trois à une seule échelle de « quantité de rayonnement » est l'erreur la plus courante sur ce sujet, et elle joue dans les deux sens : alarme devant un chiffre qui ne la justifie pas, et rassurance tirée d'un chiffre qui ne la justifie pas davantage.

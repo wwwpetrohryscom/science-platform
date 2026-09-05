@@ -1,11 +1,11 @@
 ---
-title: "La membrane cellulaire : auto-assemblage, sélectivité et le prix d'un gradient"
-metaTitle: "La membrane : sélectivité et prix d'un gradient"
+title: 'La membrane cellulaire : auto-assemblage, sélectivité et le prix d''un gradient'
+metaTitle: 'La membrane : sélectivité et prix d''un gradient'
 excerpt: Une bicouche lipidique se construit toute seule puis ne laisse presque rien passer. Ce qu'une cellule dépense pour garder son intérieur chimiquement différent de son environnement, et la façon dont canaux, transporteurs et pompes se répartissent ce travail, fait la substance de la biologie membranaire.
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - membrane-transport
@@ -18,6 +18,7 @@ related:
   - cytoskeleton-and-cell-motility
   - cell-signaling-pathways-basics
 pillar: what-is-a-cell
+_bodyHash: 90a32f02
 ---
 
 Une cellule animale maintient le potassium dix à vingt fois plus concentré dedans que dehors, le sodium en sens inverse, et une tension à travers un film épais de deux molécules. Rien de tout cela n'est un état de repos. Chaque gradient est un gradient que la cellule paie, en continu, sur le même budget d'ATP qui finance tout le reste. La biologie membranaire est largement la comptabilité de ce paiement : ce que la barrière arrête gratuitement, ce qu'il faut pousser, et ce que pousser coûte. La [définition opérationnelle d'une cellule](/fr/biology/cells/what-is-a-cell) place en premier de ses trois exigences le maintien d'une chimie intérieure face à un extérieur différent, et voici la machinerie qui s'en charge.

@@ -6,7 +6,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 9
 tags:
   - epigenetics
   - dna-methylation
@@ -18,7 +18,7 @@ related:
   - heritability-explained
   - mutation-types-and-rates
 pillar: what-is-dna
-_bodyHash: 3adea275
+_bodyHash: 8432a7d9
 ---
 
 Two definitions of **epigenetics** are in circulation, and they do not license the same conclusions. The strict one, the one that gets used at the bench, covers states of gene activity that are propagated through cell division without any change in the DNA sequence. The loose one, common wherever the word reaches a general audience, covers roughly anything by which experience appears to leave a molecular trace. The [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Epigenetics) defines the field as the study of changes in DNA that do not involve alterations to the underlying sequence — a definition about mechanism, not about how far an effect travels.

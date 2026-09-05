@@ -19,6 +19,7 @@ related:
   - microbial-biogeochemistry
   - dna-sequencing-technologies
 pillar: microbiology-explained
+_bodyHash: 552ff72d
 ---
 
 A microbiologia tem um problema recorrente que a maioria dos campos da biologia não tem: não se consegue ver os organismos a fazer algo de útil, pelo que todo o facto sobre eles chega através de um instrumento que admite alguns e exclui o resto. Uma colónia em agar, uma leitura de sequência de um produto de PCR e um genoma agrupado a partir de um metagenoma são três filtros diferentes, e a composição que cada um reporta é em parte uma descrição do filtro. Saber qual é qual é quase tudo o que separa uma afirmação defensável de ecologia microbiana de um artefacto.

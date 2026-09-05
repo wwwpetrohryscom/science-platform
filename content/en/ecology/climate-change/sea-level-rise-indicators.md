@@ -16,7 +16,7 @@ related:
   - what-is-climate-change
   - greenhouse-gases-and-radiative-forcing
 pillar: what-is-climate-change
-_bodyHash: bd2dfdfb
+_bodyHash: ce4be6d3
 ---
 
 "Sea level is rising" is a true statement that hides several different measurements. Global mean sea level, local relative sea level, and the rate of rise are three separate indicators that answer different questions. The agencies that report them — the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) for synthesis, the [NASA Sea Level Change Portal](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/) for the satellite altimeter record, the [NOAA tides-and-currents network](https://tidesandcurrents.noaa.gov/) for U.S. coastal gauges — present each one for different reasons.

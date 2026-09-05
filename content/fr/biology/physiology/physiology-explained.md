@@ -5,7 +5,7 @@ excerpt: La régulation n'est pas un thermostat. Ce pilier expose ce qu'est une 
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - homeostasis
@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: 3b20827c
 ---
 Le sang artériel d'une personne en bonne santé se situe entre un pH de 7,35 et 7,45. Rien en chimie ne privilégie cette bande ; elle y est maintenue parce que plusieurs processus se contrarient en permanence, et parce qu'en sortir désactive les enzymes qui exercent cette contrainte. La bande est défendue sur deux horloges à la fois — les poumons ajustent l'élimination du dioxyde de carbone en quelques minutes à quelques heures, tandis que les reins réabsorbent le bicarbonate et excrètent les acides fixes sur des jours. Telle est la forme de presque toute histoire physiologique : non pas un mécanisme, mais plusieurs, avec des constantes de temps différentes, et celui que l'on remarque dépend de la durée d'observation.
 

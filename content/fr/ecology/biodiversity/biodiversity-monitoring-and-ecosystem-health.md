@@ -19,6 +19,7 @@ related:
   - biodiversity-indicators-explained
   - remote-sensing-for-biodiversity-monitoring
 pillar: why-species-counts-mislead-conservation
+_bodyHash: ee04c9f
 ---
 
 La science du climat dispose d'une courte liste d'[indicateurs](/fr/ecology/climate-change/climate-indicators-earth-system-monitoring) canoniques — température de surface, chaleur océanique, concentration de gaz à effet de serre, niveau de la mer, glace. La biodiversité n'a pas d'équivalent en un seul chiffre. Il n'existe pas de thermomètre de l'état du vivant, parce que la vie varie à plusieurs niveaux à la fois : les gènes au sein d'une population, l'abondance et l'aire de répartition d'une espèce, la composition d'une communauté, la structure et le fonctionnement d'un écosystème. Un lieu peut perdre des individus tout en gardant intacte sa liste d'espèces, ou changer de composition alors que sa productivité totale reste stable.

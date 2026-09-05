@@ -19,6 +19,7 @@ related:
   - soil-carbon-measurement-and-uncertainty
   - soil-microbiome-regenerative-agriculture
 pillar: soil-science-explained
+_bodyHash: a9133601
 ---
 
 Eine Analyse von 2019 in *Nature* fasste 6.759 georeferenzierte Proben zu einem globalen Modell der Fadenwurmhäufigkeit im Boden zusammen und kam auf [4,4 ± 0,64 × 10²⁰ Individuen](https://pubmed.ncbi.nlm.nih.gov/31341281/) in den Oberböden der Welt, mit einer Gesamtbiomasse von rund 0,3 Gigatonnen. Die Verteilung war nicht die, die die meisten vermutet hätten: subarktische Böden halten 38 Prozent der Summe, gegenüber 24 Prozent in gemäßigten und 21 Prozent in tropischen Regionen.

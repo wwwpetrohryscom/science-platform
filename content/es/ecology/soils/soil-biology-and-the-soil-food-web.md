@@ -19,6 +19,7 @@ related:
   - soil-carbon-measurement-and-uncertainty
   - soil-microbiome-regenerative-agriculture
 pillar: soil-science-explained
+_bodyHash: a8303fb7
 ---
 
 Un análisis de 2019 en *Nature* reunió 6.759 muestras georreferenciadas en un modelo mundial de abundancia de nematodos del suelo y llegó a [4,4 ± 0,64 × 10²⁰ individuos](https://pubmed.ncbi.nlm.nih.gov/31341281/) en los suelos superficiales del mundo, con una biomasa combinada de alrededor de 0,3 gigatoneladas. La distribución no era la que la mayoría habría supuesto: los suelos subárticos guardan el 38 por ciento del total, frente al 24 por ciento en regiones templadas y el 21 por ciento en tropicales.

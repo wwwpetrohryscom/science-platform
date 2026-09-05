@@ -17,6 +17,7 @@ related:
   - solar-radiation-and-earth-energy-balance
   - earth-energy-budget-and-the-second-law
 pillar: quantum-mechanics-fundamentals
+_bodyHash: dba64c7e
 ---
 
 As ondas de rádio, as micro-ondas, o infravermelho, a luz visível, o ultravioleta, os raios X e os raios gama não são fenómenos físicos diferentes. São o mesmo fenómeno — ondas eletromagnéticas em propagação, descritas de modo equivalente como fotões, no sentido que [a mecânica quântica dá a essa equivalência](/pt/physics/quantum-basics/quantum-mechanics-fundamentals) — a comprimentos de onda diferentes. As diferenças no modo como cada um interage com a matéria, e por isso no modo como cada um é usado na ciência e na técnica, decorrem apenas do comprimento de onda.

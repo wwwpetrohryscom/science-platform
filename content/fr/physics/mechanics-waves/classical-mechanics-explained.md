@@ -18,6 +18,7 @@ related:
   - waves-and-oscillations-explained
   - fluid-dynamics-explained
   - measurement-uncertainty-explained
+_bodyHash: '950602e3'
 ---
 Les deux sondes Voyager, lancées en 1977, quittent le Système solaire à plus de 3 unités astronomiques par an, et la NASA les a toutes deux guidées vers leurs rencontres planétaires à l'aide d'une mécanique essentiellement achevée avant 1900. Voilà l'argument pratique en faveur de la mécanique classique : non qu'elle soit la description la plus profonde disponible, mais que, dans une enveloppe très large, elle est la bonne, et que rien de ce qui l'a remplacée ne l'a rendue obsolète à l'intérieur de cette enveloppe.
 

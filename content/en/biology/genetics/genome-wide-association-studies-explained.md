@@ -6,7 +6,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 8
 tags:
   - gwas
   - polygenic-scores
@@ -18,7 +18,7 @@ related:
   - what-is-a-genome
   - what-is-dna
 pillar: what-is-dna
-_bodyHash: ab4e1e7d
+_bodyHash: 5a5663ee
 ---
 
 A genome-wide association study asks one narrow question at hundreds of thousands of positions at once: does the frequency of an allele differ between people who have a trait and people who do not? The [National Human Genome Research Institute](https://www.genome.gov/about-genomics/fact-sheets/Genome-Wide-Association-Studies-Fact-Sheet) describes the standard design as a comparison of two groups whose DNA is genotyped on arrays and scanned for variants that are more frequent in one group than the other. No hypothesis about biology enters the analysis. That is the design's central strength, and nearly everything it cannot do follows from the same choice — beginning with the point made in [the molecule and what it underdetermines](/en/biology/genetics/what-is-dna), that a sequence difference correlated with an outcome is not yet a cause of it.

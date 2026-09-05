@@ -18,6 +18,7 @@ related:
   - biosphere-climate-interactions
   - earth-system-tipping-points
 pillar: earth-system-science-explained
+_bodyHash: b9ba0b2d
 ---
 Круговоротов углерода [два](/ru/glossary/carbon-cycle), они идут бок о бок со скоростями, различающимися примерно на семь порядков, и почти всякая путаница вокруг углерода происходит от того, что их считают одним. Эта статья их разделяет, а затем прослеживает человеческое возмущение через быстрый. Оба — составляющие связанной системы, изложенной во [введении в науку о системе Земли](/ru/ecology/earth-systems/earth-system-science-explained).
 

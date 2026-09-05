@@ -5,7 +5,7 @@ type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - thermodynamics
   - second-law
@@ -17,7 +17,7 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
-_bodyHash: 60e94b1a
+_bodyHash: 236d076c
 ---
 
 [Thermodynamics](/en/glossary/thermodynamics) is a set of prohibitions. Each of its four laws says that something cannot be done, and each has outlived the microscopic theories that were meant to explain it — caloric, then [classical mechanics](/en/physics/mechanics-waves/classical-mechanics-explained), then classical field theory. That is why a nineteenth-century argument about steam still constrains a solar cell, a domestic refrigerator and a bacterium without modification.

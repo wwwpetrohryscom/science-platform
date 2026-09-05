@@ -5,7 +5,7 @@ excerpt: Eine Zählung von Zerfällen, ein Energieeintrag und eine risikogewicht
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - radiation-units
@@ -19,6 +19,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
+_bodyHash: c1fb5dff
 ---
 
 Wie schnell eine Quelle zerfällt, wie viel Energie ihre Emissionen in einem Kilogramm Materie zurücklassen und wie viel biologischen Schaden dieser Eintrag voraussichtlich bedeutet, sind drei getrennte Größen. Becquerel, Gray und Sievert messen sie in dieser Reihenfolge, und jeder Schritt nach vorn fügt eine Annahme hinzu, die die vorherige Einheit nicht trug. Alle drei zu einer einzigen Skala von „wie viel Strahlung" zusammenzuschieben ist der häufigste Fehler bei diesem Thema, und er läuft in beide Richtungen: Alarm bei einer Zahl, die ihn nicht rechtfertigen kann, und Beruhigung aus einer Zahl, die auch das nicht kann.

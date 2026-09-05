@@ -18,6 +18,7 @@ related:
   - marine-food-webs-and-productivity
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
+_bodyHash: d54c2a05
 ---
 
 Eine Trophiestufe ist eine Eigenschaft einer Fressbeziehung, kein Etikett, das einem Organismus gehört. Die Zahl zählt, wie viele Übertragungen eine Energieeinheit von dem Sonnenlicht trennen, das sie gebunden hat: Photosynthesetreibende stehen auf Stufe 1, was ausschließlich Photosynthesetreibende frisst, steht auf Stufe 2, und so weiter. Nichts an dieser Definition zwingt ein Tier, an einem Platz zu bleiben. Eine Forelle, die Insekten frisst, die Algen abgeweidet haben, und ebenso Insekten, die andere Insekten gefressen haben, frisst gleichzeitig auf den Stufen 3 und 4, und der Wert, den die Ökologie ihr zuschreibt, ist ein nach der Nahrung gewichteter Mittelwert der beiden.

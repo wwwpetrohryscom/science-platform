@@ -17,7 +17,7 @@ related:
   - solar-radiation-and-earth-energy-balance
   - greenhouse-gases-and-radiative-forcing
 pillar: laws-of-thermodynamics-explained
-_bodyHash: a517b4da
+_bodyHash: dd3966b6
 ---
 
 The Earth receives concentrated solar radiation at an effective temperature of roughly 5800 K, redistributes it through the atmosphere and ocean, and emits it back to space at an effective temperature of roughly 255 K. Read through [the laws of thermodynamics](/en/physics/thermodynamics/laws-of-thermodynamics-explained), this is, in the most literal sense, a heat engine. The [thermodynamics](/en/glossary/thermodynamics) of that engine bounds what the climate can do, what surface temperatures are physically possible, and what fraction of incident energy is available to drive atmospheric circulation.

@@ -15,7 +15,7 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
-_bodyHash: a4413796
+_bodyHash: 18cd90dd
 ---
 
 Eine Zelle ist die kleinste physische Einheit, die sich selbst erhalten, sich selbst kopieren und auf ihre Umwelt reagieren kann. Diese operationale Rahmung steht im Einklang mit den Referenzwerken zur Zellbiologie, die über das [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) zugänglich sind, und mit den Definitionen aus der Genetik, die das [NHGRI](https://www.genome.gov/genetics-glossary) bereitstellt. Drei Anforderungen; jede von ihnen ist tragend dafür, was eine Zelle ist – und dafür, warum manche Grenzfälle (Viren, Mitochondrien, Organellen auf dem Transportweg) keine Zellen sind, obwohl sie einige Eigenschaften [echter Zellen](/de/biology/cells/coral-microbiome-bleaching-resistance) teilen.

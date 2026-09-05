@@ -4,8 +4,8 @@ excerpt: A phylogenetic tree is an estimate produced by a model from living mole
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 7
 tags:
   - phylogenetics
   - molecular-evolution
@@ -18,7 +18,7 @@ related:
   - what-is-a-species
   - zoology-animal-diversity-explained
 pillar: taxonomy-and-classification-explained
-_bodyHash: afe1c6fa
+_bodyHash: aa3c6584
 ---
 
 Nobody observes an ancestor. A phylogeny is an estimate, produced by fitting a model of how sequences change to molecules collected from organisms alive today, and every number printed on a published tree — branch length, support value, divergence date — is a property of that estimate rather than of history. Reading trees well means knowing which parts of the picture the data constrain tightly and which parts the model is supplying. The naming conventions that classifications then hang on the result are handled separately in [the rules that keep names stable](/en/biology/taxonomy/taxonomy-and-classification-explained).

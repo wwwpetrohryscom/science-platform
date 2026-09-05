@@ -5,7 +5,7 @@ excerpt: Uma medição regulatória do ar é uma concentração mais uma forma e
 type: expert
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - air-quality-index
@@ -19,6 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - noise-and-light-pollution-ecology
 pillar: environmental-pollution-explained
+_bodyHash: c7cbcd1f
 ---
 
 Uma norma de qualidade do ar nunca é apenas uma concentração. É uma concentração ligada a um tempo de média, a uma estatística e, normalmente, a uma regra de média plurianual — e a estatística faz tanto trabalho regulatório como o número à sua frente. A norma norte-americana do ozono é de 0,070 partes por milhão em oito horas, mas a forma da norma é o quarto valor máximo diário de oito horas mais alto do ano, feito média sobre três anos. Um local pode por isso registar vários dias acima do nível todos os anos e continuar em cumprimento. É uma opção deliberada de desenho, não uma brecha: tolera extremos meteorológicos raros e ao mesmo tempo limita o padrão recorrente. Significa também que «a norma foi excedida hoje» e «a norma foi violada» são afirmações diferentes.

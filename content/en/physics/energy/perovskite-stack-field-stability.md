@@ -5,8 +5,8 @@ excerpt: Encapsulation, ion-migration suppression, and tandem architectures are 
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-21'
-updatedDate: '2026-09-03'
-readingTime: 5
+updatedDate: '2026-09-05'
+readingTime: 4
 pillar: energy-systems-explained
 tags:
   - photovoltaics
@@ -24,7 +24,7 @@ faq:
     answer: Certified laboratory tandem efficiencies are now high enough to justify pilot deployments, but field efficiency depends on encapsulation, module design, temperature, and degradation. Public claims should distinguish certified cell records from outdoor module performance.
   - question: What about the lead?
     answer: Lead handling at end-of-life remains the largest open environmental issue. Recycling streams designed for silicon panels do not capture lead leachate from damaged perovskite layers. Several research groups are working on lead-sequestering encapsulants and closed-loop recycling protocols, but neither is yet at deployment scale.
-_bodyHash: 3ea4ec3b
+_bodyHash: 52386d96
 ---
 
 Perovskite single-junction photovoltaic cells achieved high laboratory efficiencies years ago, but authoritative overviews from the [National Laboratory of the Rockies](https://www.nlr.gov/pv/perovskite-solar-cells) — the U.S. Department of Energy laboratory formerly named NREL — and from the [Department of Energy](https://www.energy.gov/cmei/systems/integrated-energy-systems-office) still treat stability, environmental compatibility, and scaling as commercialization barriers. For most of the field's history, any honest assessment had to confront the gap between laboratory performance and durable outdoor operation — the gap that separates a demonstrated conversion efficiency from a technology that scales in [an energy system](/en/physics/energy/energy-systems-explained).

@@ -1,17 +1,11 @@
 ---
-title: >-
-  Pollution : source, voie de transfert, cible — le cadre qui organise les
-  données
+title: 'Pollution : source, voie de transfert, cible — le cadre qui organise les données'
 metaTitle: 'Pollution : source, voie d''exposition, récepteur'
-excerpt: >-
-  Une substance ne devient une pollution que lorsqu'une source, une voie de
-  transfert et une cible s'alignent. Ce triptyque, et l'étape dose-réponse qui
-  en occupe le centre, explique pourquoi les valeurs limites environnementales
-  diffèrent d'un pays à l'autre sans que la science sous-jacente diffère.
+excerpt: Une substance ne devient une pollution que lorsqu'une source, une voie de transfert et une cible s'alignent. Ce triptyque, et l'étape dose-réponse qui en occupe le centre, explique pourquoi les valeurs limites environnementales diffèrent d'un pays à l'autre sans que la science sous-jacente diffère.
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 10
 tags:
   - risk-assessment
@@ -25,7 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: 3b3c425b
+_bodyHash: 39b5f5b8
 ---
 
 Une substance n'est pas une pollution en raison de ce qu'elle est. Elle le devient lorsque trois éléments s'alignent : une **source** qui la libère, une **voie de transfert** qui l'emmène quelque part, et une **cible** — une personne, une population, une espèce, un habitat — située à l'autre bout de cette voie. Supprimez l'un des trois et la substance reste présente, toujours aussi toxique, mais le dommage a disparu. Confinez un site contaminé : la source demeure, la voie de transfert se ferme. Déplacez une prise d'eau potable : la cible s'écarte.

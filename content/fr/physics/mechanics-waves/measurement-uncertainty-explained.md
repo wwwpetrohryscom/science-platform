@@ -1,6 +1,6 @@
 ---
-title: "Incertitude de mesure : ce qu'un ± affiché prétend réellement"
-metaTitle: "Incertitude de mesure : ce qu'un ± prétend vraiment"
+title: 'Incertitude de mesure : ce qu''un ± affiché prétend réellement'
+metaTitle: 'Incertitude de mesure : ce qu''un ± prétend vraiment'
 excerpt: Un nombre sans incertitude n'est pas un résultat de mesure. Voici ce que les recommandations internationales exigent d'un intervalle, comment les composantes sont évaluées et combinées, et les endroits où un budget d'incertitude échoue discrètement.
 type: expert
 author: physics-energy-desk
@@ -19,6 +19,7 @@ related:
   - sound-and-acoustics-explained
   - global-temperature-records-explained
 pillar: classical-mechanics-explained
+_bodyHash: 29df0fe3
 ---
 
 Écrivez 9,81 m/s² et vous n'avez presque rien affirmé. Écrivez 9,81 ± 0,02 m/s² et vous avez formulé une affirmation testable : sur la façon dont la valeur a été obtenue, sur ce qui se passerait si la mesure était répétée, et sur l'intervalle dans lequel une nouvelle détermination devrait tomber. Le second nombre n'est pas un avertissement accolé au premier. C'est la partie qui rend le premier utilisable, et c'est ce qui permet à deux laboratoires de dire s'ils sont d'accord.

@@ -1,6 +1,6 @@
 ---
-title: "La sélection naturelle : les conditions, les modes, et comment l'adaptation se teste"
-metaTitle: "Sélection naturelle et test de l'adaptation"
+title: 'La sélection naturelle : les conditions, les modes, et comment l''adaptation se teste'
+metaTitle: Sélection naturelle et test de l'adaptation
 excerpt: La sélection naturelle découle de trois conditions vérifiables une à une. Le problème le plus difficile est de montrer qu'un trait donné est bien une adaptation, et la sélection mesurée en nature se révèle plus faible que la plupart des récits ne le laissent croire.
 type: expert
 author: biology-ecosystems-desk
@@ -19,6 +19,7 @@ related:
   - convergent-evolution-explained
   - sexual-selection-explained
 pillar: evolution-explained
+_bodyHash: b99dbfd9
 ---
 
 Trois conditions, réunies simultanément dans une population, suffisent à faire évoluer la distribution de ses traits d'une génération à l'autre :

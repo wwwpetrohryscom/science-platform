@@ -16,7 +16,7 @@ related:
   - habitat-fragmentation-metrics
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 15f2e774
+_bodyHash: c6fe3477
 readingTime: 4
 ---
 

@@ -4,8 +4,8 @@ excerpt: Bacteria alone hold about 70 gigatonnes of carbon, most of it in the de
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - microbiology
   - microbial-ecology
@@ -18,7 +18,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
-_bodyHash: 3be16a26
+_bodyHash: d5cbdee7
 ---
 
 A census of the biosphere published in 2018 put the total living carbon on Earth at roughly 550 gigatonnes, of which plants account for about 450. Bacteria come second at approximately 70 Gt C, followed by fungi at 12, archaea at 7, protists at 4, animals at 2 and viruses at 0.2. Those figures, assembled by researchers at the Weizmann Institute and Caltech, carry very different uncertainties — plants are pinned to within a factor of 1.2, bacteria only to within a factor of 10, and archaea a factor of 13 — but the ordering is the point. Almost everything alive that is not a plant is microbial, and most of it is somewhere no one has looked directly.

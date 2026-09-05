@@ -17,7 +17,7 @@ related:
   - perovskite-stack-field-stability
   - earth-energy-budget-and-the-second-law
 pillar: energy-systems-explained
-_bodyHash: f5a386b2
+_bodyHash: 66602c14
 ---
 
 The Earth's climate system is, at its core, an [energy budget](/en/physics/climate-physics/atmospheric-physics-explained). The Sun delivers shortwave radiation; the planet absorbs some, reflects some, and radiates longwave (infrared) energy back to space. It is also the ultimate input to every solar technology in [an energy system](/en/physics/energy/energy-systems-explained). The accounting between input and output is the foundation of climate physics, and it is also the framing that anchors most discussion of [energy systems](/en/physics/energy/perovskite-stack-field-stability) and photovoltaics.

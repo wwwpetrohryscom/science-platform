@@ -1,11 +1,11 @@
 ---
 title: Los límites termodinámicos de la fotovoltaica — y por qué deciden lo que es posible
-metaTitle: 'Los límites termodinámicos de la fotovoltaica'
+metaTitle: Los límites termodinámicos de la fotovoltaica
 excerpt: Existe un tope superior duro para cuánta luz solar puede convertir en electricidad cualquier célula fotovoltaica de unión simple. Saber de dónde viene aclara qué direcciones de mejora son física y cuáles son ingeniería.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 pillar: laws-of-thermodynamics-explained
 tags:
@@ -16,6 +16,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
+_bodyHash: a4bbe5a1
 ---
 
 Existe un tope superior duro para cuánta luz solar puede convertir en electricidad cualquier célula fotovoltaica de unión simple. Bajo iluminación solar estándar se sitúa cerca del 33 %: el límite de Shockley-Queisser, [derivado en 1961](https://doi.org/10.1063/1.1736034) de un argumento de balance detallado sobre una unión p-n iluminada por un cuerpo negro. Las células de silicio de alto rendimiento operan lo bastante cerca de ese tope como para que las ganancias adicionales estén cada vez más limitadas por la ingeniería. Saber de dónde viene el tope —y viene de [las leyes de la termodinámica](/es/physics/thermodynamics/laws-of-thermodynamics-explained) y no de ninguna propiedad del silicio— aclara qué cuenta como física fundamental y qué cuenta como ingeniería.

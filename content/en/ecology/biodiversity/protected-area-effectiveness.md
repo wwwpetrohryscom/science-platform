@@ -5,7 +5,7 @@ excerpt: The share of land and sea inside protected areas is rising, but designa
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - protected-areas
@@ -16,7 +16,7 @@ related:
   - ecological-integrity-indicators
   - biodiversity-baselines-and-shifting-baselines
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 1999150c
+_bodyHash: 8276430c
 readingTime: 4
 ---
 

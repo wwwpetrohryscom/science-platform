@@ -17,6 +17,7 @@ related:
   - single-cell-evo-devo
   - cell-signaling-pathways-basics
 pillar: what-is-dna
+_bodyHash: 1b955049
 ---
 
 Une cellule hépatique et un neurone d'un même corps portent des génomes pour l'essentiel identiques. Ils diffèrent d'aspect, de comportement et de métabolisme parce que l'[expression génique](/fr/glossary/gene-expression) — le processus par lequel l'information de l'[ADN](/fr/biology/genetics/what-is-dna) devient une protéine fonctionnelle — est régulée. Les synthèses de référence acceptées du [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) et du [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) traitent la régulation de l'expression génique comme un système en couches, avec des points de décision à plusieurs étapes entre génome et phénotype.

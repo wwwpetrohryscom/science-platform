@@ -5,7 +5,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 8
 tags:
   - fungi
   - mycorrhiza
@@ -18,7 +18,7 @@ related:
   - bacteria-and-archaea-explained
   - microbiomes-and-host-microbe-interactions
 pillar: microbiology-explained
-_bodyHash: 5dac94da
+_bodyHash: 2e28f84e
 ---
 
 There are four classes of antifungal medicine in clinical use, against more than a dozen classes of antibacterial. The reason is not neglect. It is that a fungal cell is built like ours: the ribosomes, the cytoskeleton, the replication machinery and most of the metabolic enzymes a drug might attack have close human counterparts, so a compound that stops the pathogen tends to stop the patient's cells too.

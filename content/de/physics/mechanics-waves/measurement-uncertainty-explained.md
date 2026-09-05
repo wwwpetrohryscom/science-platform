@@ -19,6 +19,7 @@ related:
   - sound-and-acoustics-explained
   - global-temperature-records-explained
 pillar: classical-mechanics-explained
+_bodyHash: 2b2d1d79
 ---
 
 Schreiben Sie 9,81 m/s² hin, und Sie haben fast nichts behauptet. Schreiben Sie 9,81 ± 0,02 m/s² hin, und Sie haben eine prüfbare Behauptung aufgestellt: darüber, wie der Wert gewonnen wurde, darüber, was bei einer Wiederholung der Messung geschähe, und über das Intervall, in das eine weitere Bestimmung voraussichtlich fiele. Die zweite Zahl ist kein an die erste geheftetes Kleingedrucktes. Sie ist der Teil, der die erste brauchbar macht, und sie erlaubt zwei Laboren zu sagen, ob sie übereinstimmen.

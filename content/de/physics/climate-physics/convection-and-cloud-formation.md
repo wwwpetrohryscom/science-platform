@@ -19,6 +19,7 @@ related:
   - climate-feedback-mechanisms
   - radiative-transfer-explained
 pillar: atmospheric-physics-explained
+_bodyHash: d8e6605
 ---
 
 Jedes Tröpfchen in jeder Wolke ist auf etwas anderem kondensiert. Wasserdampf in sauberer Luft fügt sich bei den Feuchten, die die Atmosphäre tatsächlich erreicht, nicht von selbst zu Tröpfchen; er braucht eine Oberfläche zum Kondensieren, und die JetStream-Referenz der NOAA setzt das nützliche Minimum dieser Oberfläche bei einem Radius von etwa einem Mikrometer an. Rauch, Vulkanasche, Meeresgischt und verwehter Boden liefern sie in gewaltiger Zahl, weshalb jedes Wolkentröpfchen ein Staub- oder Salzkörnchen im Kern trägt. Diese mikroskopische Bedingung beginnt eine Kette, die bei der weitesten offenen Frage der [Atmosphärenphysik](/de/physics/climate-physics/atmospheric-physics-explained) endet.

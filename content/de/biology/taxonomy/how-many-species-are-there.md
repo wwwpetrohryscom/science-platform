@@ -1,11 +1,11 @@
 ---
 title: 'Wie viele Arten es gibt: die Schätzung hängt ganz an der Methode'
-metaTitle: 'Wie viele Arten? Die Schätzung hängt an der Methode'
+metaTitle: Wie viele Arten? Die Schätzung hängt an der Methode
 excerpt: Kataloge des Lebens führen rund 2,2 Millionen benannte Arten, während veröffentlichte Schätzungen der wahren Gesamtzahl von wenigen Millionen bis zu einer Billion reichen. Diese Kluft ist kein Messfehler — sie entsteht, wenn unvereinbare Methoden dieselbe Frage beantworten.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - species-estimates
@@ -18,6 +18,7 @@ related:
   - zoology-animal-diversity-explained
   - species-richness-explained
 pillar: taxonomy-and-classification-explained
+_bodyHash: 8067cf99
 ---
 
 Für die Vielfalt des Lebens auf der Erde werden zwei sehr verschiedene Größen genannt, und der größte Teil der scheinbaren Uneinigkeit rührt daher, sie als eine zu behandeln. Die erste ist eine Zählung von Namen in einem Katalog. Sie lässt sich jederzeit neu berechnen und ist auf eine Weise richtig oder falsch, die sich Eintrag für Eintrag prüfen lässt. Die zweite ist eine Hochrechnung von dieser Zählung auf eine Gesamtzahl, die niemand beobachtet hat, und sie ist nur in dem schwächeren Sinn richtig oder falsch, dass ihre Annahmen halten oder scheitern. Veröffentlichte Hochrechnungen reichen derzeit von wenigen Millionen bis zu einer Billion. Diese Spanne ist keine Unsicherheit um eine gemeinsame Messung; sie ist die Signatur von Methoden, die sich nicht einig sind, was sie zählen.

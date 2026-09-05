@@ -1,11 +1,11 @@
 ---
 title: 'Energiestatistik lesen: Kapazitätsfaktor, LCOE und die Kennzahlen, die täuschen'
-metaTitle: 'Kapazitätsfaktor, LCOE und täuschende Kennzahlen'
+metaTitle: Kapazitätsfaktor, LCOE und täuschende Kennzahlen
 excerpt: Nennleistung, Kapazitätsfaktor, Stromgestehungskosten und Primärenergie sind vier verschiedene Rechnungen über denselben Park, und jede trägt eine Konvention, die eine Schlagzeile bewegen kann, ohne dass sich physikalisch etwas ändert.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - capacity-factor
@@ -19,6 +19,7 @@ related:
   - wind-energy-physics
   - solar-photovoltaics-explained
 pillar: energy-systems-explained
+_bodyHash: 32736cd6
 ---
 
 Im Jahr 2025 wies der US-Windpark im Versorgungsmaßstab im Mittel 154,6 GW Leistung bei einem [Kapazitätsfaktor](/de/glossary/capacity-factor) von 34,2 Prozent aus, nach den vorläufigen Zahlen des *Electric Power Monthly* vom August 2026. Der Photovoltaikpark wies im Mittel 133,9 GW bei 24,4 Prozent aus. Der Kernkraftpark wies im Mittel 98,4 GW bei 91,0 Prozent aus. Multipliziert man jedes Paar, ergibt sich als mittlere gelieferte Leistung 52,9 GW aus Wind, 32,7 GW aus Solar und 89,6 GW aus Kernkraft: mit etwa einem Drittel der zusammengenommenen Nennleistung der beiden anderen erzeugte der Kernkraftpark mehr Strom als beide zusammen.

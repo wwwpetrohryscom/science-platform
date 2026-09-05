@@ -5,7 +5,7 @@ excerpt: A regulação não é um termóstato. Este pilar expõe o que é uma va
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - homeostasis
@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: 67a7c4b9
 ---
 O sangue arterial de uma pessoa saudável situa-se entre um pH de 7,35 e 7,45. Nada na química privilegia essa faixa; ela é mantida aí porque vários processos se contrariam continuamente, e porque sair dela desativa as enzimas que fazem essa pressão. A faixa é defendida em dois relógios ao mesmo tempo — os pulmões ajustam a remoção de dióxido de carbono em minutos a horas, enquanto os rins reabsorvem bicarbonato e excretam ácidos fixos ao longo de dias. É esta a forma de quase toda a história fisiológica: não um mecanismo, mas vários com constantes de tempo diferentes, e qual deles se nota depende de quanto tempo se observa.
 

@@ -19,6 +19,7 @@ related:
   - wetlands-and-their-functions
   - global-water-cycle-explained
 pillar: freshwater-ecosystems-explained
+_bodyHash: b3111715
 ---
 
 Las aguas subterráneas suponen el 99 por ciento del agua dulce líquida de la Tierra, según el Informe Mundial de las Naciones Unidas sobre el Desarrollo de los Recursos Hídricos de 2022, y son el único gran almacén cuyo estado no puede verse. Toda cifra publicada —una tasa de agotamiento, una vida útil restante, una estimación de recarga— es el extremo de una cadena de medición, y las cadenas no llegan todas a la misma respuesta. Entender por qué difieren es más útil que memorizar cualquiera de los números, y esa es la razón de que esta página dedique tanto espacio a los instrumentos como a los acuíferos. El lugar de las aguas subterráneas entre los demás compartimentos de agua dulce —y la razón de que se renueven mucho más despacio que ninguno— se expone en la panorámica de los [ecosistemas de agua dulce](/es/ecology/freshwater/freshwater-ecosystems-explained).

@@ -1,11 +1,11 @@
 ---
 title: 'Quantas espécies existem: a estimativa depende inteiramente do método'
-metaTitle: 'Quantas espécies? A estimativa depende do método'
+metaTitle: Quantas espécies? A estimativa depende do método
 excerpt: Os catálogos da vida guardam cerca de 2,2 milhões de espécies nomeadas, ao passo que as estimativas publicadas do total real vão de uns poucos milhões a um bilião. Essa distância não é erro de medição — é o que acontece quando métodos incompatíveis respondem à mesma pergunta.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - species-estimates
@@ -18,6 +18,7 @@ related:
   - zoology-animal-diversity-explained
   - species-richness-explained
 pillar: taxonomy-and-classification-explained
+_bodyHash: 12167efd
 ---
 
 Citam-se duas grandezas muito diferentes para a diversidade da vida na Terra, e quase todo o desacordo aparente vem de as tratar como uma. A primeira é uma contagem de nomes num catálogo. Pode ser recalculada quando se quiser, e está certa ou errada de um modo auditável entrada a entrada. A segunda é uma extrapolação dessa contagem para um total que ninguém observou, e só está certa ou errada no sentido mais fraco de os seus pressupostos se aguentarem ou falharem. As extrapolações publicadas vão hoje de uns poucos milhões a um bilião. Esse intervalo não é incerteza em torno de uma medição partilhada; é a assinatura de métodos que não concordam sobre o que estão a contar.

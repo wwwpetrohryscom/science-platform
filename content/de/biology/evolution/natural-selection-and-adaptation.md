@@ -1,6 +1,6 @@
 ---
 title: 'Natürliche Selektion: die Bedingungen, die Formen und wie Anpassung geprüft wird'
-metaTitle: 'Natürliche Selektion und die Prüfung von Anpassung'
+metaTitle: Natürliche Selektion und die Prüfung von Anpassung
 excerpt: Natürliche Selektion folgt aus drei Bedingungen, die sich einzeln prüfen lassen. Schwieriger ist zu zeigen, dass ein Merkmal überhaupt eine Anpassung ist, und die im Freiland gemessene Selektion erweist sich als schwächer, als die meisten Darstellungen nahelegen.
 type: expert
 author: biology-ecosystems-desk
@@ -19,6 +19,7 @@ related:
   - convergent-evolution-explained
   - sexual-selection-explained
 pillar: evolution-explained
+_bodyHash: 2893abc4
 ---
 
 Drei Bedingungen, die in einer Population gleichzeitig gelten, genügen, damit sich ihre Merkmalsverteilung zwischen den Generationen verschiebt:

@@ -4,8 +4,8 @@ excerpt: Body temperature is not defended by a thermostat but by an energy budge
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - thermoregulation
   - endothermy
@@ -17,7 +17,7 @@ related:
   - respiration-and-gas-exchange
   - the-immune-system-explained
 pillar: physiology-explained
-_bodyHash: b9aa9044
+_bodyHash: 4eb8a53b
 ---
 
 Heat storage in an animal is a residual. Metabolic heat production adds to it; radiation, convection and conduction add or subtract depending on which way the gradient runs; evaporation only ever subtracts. Written as a budget, S = M ± R ± C ± K − E, with S the rate of heat storage, and everything an animal does about temperature is an intervention on one of those five terms. Nothing in that equation refers to a thermostat, and treating temperature regulation as thermostatic is the fastest route to misreading it.

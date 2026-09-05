@@ -14,7 +14,7 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
-_bodyHash: 6c7e231c
+_bodyHash: 4642deda
 ---
 
 A cell is the smallest physical unit that can sustain itself, copy itself, and respond to its environment. This operational framing is consistent with cell-biology reference material available through [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and genetics definitions from [NHGRI](https://www.genome.gov/genetics-glossary). Three requirements; each one does load-bearing work in defining what a cell is — and why some borderline cases (viruses, mitochondria, organelles in transit) are not cells, even though they share some properties of cells.

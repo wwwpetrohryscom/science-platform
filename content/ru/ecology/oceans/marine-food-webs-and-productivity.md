@@ -18,6 +18,7 @@ related:
   - deep-sea-ecosystems
   - ocean-color-observations
 pillar: ocean-science-explained
+_bodyHash: eef19c74
 ---
 
 Мировая перепись биомассы, опубликованная в Proceedings of the National Academy of Sciences, помещает в океан около 1 гигатонны углерода первичных продуцентов, которые поддерживают примерно 5 гигатонн углерода потребителей. На суше отношение обратное, и с большим отрывом: на растения приходится около 450 из примерно 550 гигатонн углерода всей [биосферы](/ru/glossary/biosphere). Морская пирамида стоит на острие.

@@ -1,11 +1,11 @@
 ---
-title: "Qualité de l'air : ce que mesurent les stations et ce que l'indice cache"
-metaTitle: "Qualité de l'air : ce que l'indice cache"
+title: 'Qualité de l''air : ce que mesurent les stations et ce que l''indice cache'
+metaTitle: 'Qualité de l''air : ce que l''indice cache'
 excerpt: Une mesure réglementaire de l'air est une concentration plus une forme statistique, et l'indice bâti dessus ne garde que le pire polluant. Les deux étapes jettent de l'information qui compte pour lire toute affirmation sur l'air.
 type: expert
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - air-quality-index
@@ -19,6 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - noise-and-light-pollution-ecology
 pillar: environmental-pollution-explained
+_bodyHash: fdc0e323
 ---
 
 Une norme de qualité de l'air n'est jamais une simple concentration. C'est une concentration assortie d'un temps de moyennage, d'une statistique et, le plus souvent, d'une règle de moyenne pluriannuelle — et la statistique fait autant de travail réglementaire que le nombre qui la précède. La norme américaine pour l'ozone est de 0,070 partie par million sur huit heures, mais la forme de la norme est la quatrième valeur maximale journalière sur huit heures la plus élevée de l'année, moyennée sur trois ans. Un site peut donc enregistrer plusieurs jours au-dessus du niveau chaque année et rester en conformité. C'est un choix de conception délibéré, non une échappatoire : il tolère des extrêmes météorologiques rares tout en encadrant le motif récurrent. Cela signifie aussi que « la norme a été dépassée aujourd'hui » et « la norme a été violée » sont deux énoncés différents.
