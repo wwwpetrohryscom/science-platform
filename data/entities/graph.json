@@ -2338,7 +2338,8 @@
    "relatedArticles": [
     "lake-ecology-and-eutrophication",
     "nitrogen-pollution-and-eutrophication",
-    "ocean-deoxygenation-and-dead-zones"
+    "ocean-deoxygenation-and-dead-zones",
+    "phosphorus-cycle-explained"
    ],
    "evidenceIds": [
     "ev-agupubs-onlinelibrary-wiley-com-57abab38",
@@ -2348,6 +2349,7 @@
     "ev-eea-europa-eu-b5e19b12",
     "ev-eea-europa-eu-f9e9eaae",
     "ev-epa-gov-09bb66d7",
+    "ev-epa-gov-69d4f665",
     "ev-epa-gov-b76f7901",
     "ev-ipcc-ch-c35ffd86",
     "ev-nature-com-7c5cfbf5",
@@ -2366,7 +2368,9 @@
     "ev-science-org-ea1cbcd1",
     "ev-science-org-f318e5f0",
     "ev-usgs-gov-3f954744",
-    "ev-usgs-gov-d071ed34"
+    "ev-usgs-gov-56c4cf20",
+    "ev-usgs-gov-d071ed34",
+    "ev-usgs-gov-ebbffa79"
    ]
   },
   {
@@ -2801,11 +2805,14 @@
    "childEntities": [],
    "relatedArticles": [
     "fungi-explained",
+    "mycorrhizal-symbiosis-and-nutrient-uptake",
     "soil-biology-and-the-soil-food-web"
    ],
    "evidenceIds": [
     "ev-openknowledge-fao-org-4e621b27",
     "ev-pmc-ncbi-nlm-nih-gov-0a3d5a13",
+    "ev-pmc-ncbi-nlm-nih-gov-45fcb8b5",
+    "ev-pmc-ncbi-nlm-nih-gov-4f886fa4",
     "ev-pmc-ncbi-nlm-nih-gov-519848c1",
     "ev-pmc-ncbi-nlm-nih-gov-55848c0e",
     "ev-pmc-ncbi-nlm-nih-gov-608a0352",
@@ -2819,6 +2826,7 @@
     "ev-pubmed-ncbi-nlm-nih-gov-ae150ee4",
     "ev-pubmed-ncbi-nlm-nih-gov-be446801",
     "ev-pubmed-ncbi-nlm-nih-gov-c79833cb",
+    "ev-usgs-gov-ebbffa79",
     "ev-who-int-cb2328ad"
    ]
   },
@@ -3786,15 +3794,22 @@
    ],
    "childEntities": [],
    "relatedArticles": [
-    "microbial-biogeochemistry"
+    "microbial-biogeochemistry",
+    "nutrient-stoichiometry-and-the-redfield-ratio",
+    "phosphorus-cycle-explained"
    ],
    "evidenceIds": [
+    "ev-epa-gov-69d4f665",
     "ev-essd-copernicus-org-aa310d3b",
     "ev-globalcarbonproject-org-32c0748e",
     "ev-gml-noaa-gov-3aa31bb7",
     "ev-gml-noaa-gov-e36214ef",
+    "ev-pmc-ncbi-nlm-nih-gov-45fcb8b5",
+    "ev-pmc-ncbi-nlm-nih-gov-4a0c8871",
     "ev-pmc-ncbi-nlm-nih-gov-bb0839f1",
-    "ev-pmc-ncbi-nlm-nih-gov-bba3ee28"
+    "ev-pmc-ncbi-nlm-nih-gov-bba3ee28",
+    "ev-usgs-gov-56c4cf20",
+    "ev-usgs-gov-ebbffa79"
    ]
   },
   {
@@ -3904,10 +3919,13 @@
     "antibiotic-resistance-evolution-mechanisms",
     "bacteria-and-archaea-explained",
     "microbiology-explained",
+    "nitrogen-fixation-and-its-cost",
     "the-limits-of-chemical-sensing",
     "the-tree-of-life-and-domains"
    ],
    "evidenceIds": [
+    "ev-epa-gov-69d4f665",
+    "ev-iea-org-3a86aa19",
     "ev-journals-plos-org-2bef65a3",
     "ev-ncbi-nlm-nih-gov-1770243b",
     "ev-ncbi-nlm-nih-gov-5032b8fb",
@@ -3917,6 +3935,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-1c1bce19",
     "ev-pmc-ncbi-nlm-nih-gov-1c423a06",
     "ev-pmc-ncbi-nlm-nih-gov-2e3f6da6",
+    "ev-pmc-ncbi-nlm-nih-gov-45fcb8b5",
     "ev-pmc-ncbi-nlm-nih-gov-55926847",
     "ev-pmc-ncbi-nlm-nih-gov-5668c09d",
     "ev-pmc-ncbi-nlm-nih-gov-7b219949",
@@ -4176,7 +4195,8 @@
     "microbial-biogeochemistry",
     "nitrogen-cycle-explained",
     "nitrogen-pollution-and-eutrophication",
-    "ocean-deoxygenation-and-dead-zones"
+    "ocean-deoxygenation-and-dead-zones",
+    "phosphorus-cycle-explained"
    ],
    "evidenceIds": [
     "ev-agupubs-onlinelibrary-wiley-com-57abab38",
@@ -4186,6 +4206,7 @@
     "ev-eea-europa-eu-b5e19b12",
     "ev-eea-europa-eu-f9e9eaae",
     "ev-epa-gov-09bb66d7",
+    "ev-epa-gov-69d4f665",
     "ev-epa-gov-b76f7901",
     "ev-essd-copernicus-org-aa310d3b",
     "ev-fao-org-6ca65f33",
@@ -4214,7 +4235,9 @@
     "ev-science-org-f318e5f0",
     "ev-unep-org-b0f403ba",
     "ev-usgs-gov-3f954744",
+    "ev-usgs-gov-56c4cf20",
     "ev-usgs-gov-d071ed34",
+    "ev-usgs-gov-ebbffa79",
     "ev-wmo-int-ab0f3a6d"
    ]
   },
@@ -5381,6 +5404,7 @@
    "relatedArticles": [
     "boreal-forests-and-permafrost-interactions",
     "nutrient-availability-and-soil-fertility",
+    "nutrient-losses-and-use-efficiency",
     "soil-biology-and-the-soil-food-web",
     "soil-carbon-crediting-meets-the-detection-limit",
     "soil-carbon-measurement-and-uncertainty",
@@ -5392,6 +5416,7 @@
     "ev-arctic-noaa-gov-80fc3ceb",
     "ev-eea-europa-eu-2b338f19",
     "ev-eea-europa-eu-5ecc0193",
+    "ev-epa-gov-69d4f665",
     "ev-epa-gov-c2335e19",
     "ev-fao-org-12ad52a4",
     "ev-fao-org-2ef73bb2",
@@ -5402,6 +5427,7 @@
     "ev-fao-org-9ed21dcf",
     "ev-fao-org-b5f128a3",
     "ev-frontiersin-org-ffdb1d60",
+    "ev-iea-org-3a86aa19",
     "ev-iopscience-iop-org-e0837b41",
     "ev-ipcc-ch-28aac392",
     "ev-nature-com-23abd441",
@@ -5438,6 +5464,7 @@
     "ev-unep-org-b0f403ba",
     "ev-usgs-gov-32114d8a",
     "ev-usgs-gov-56c4cf20",
+    "ev-usgs-gov-ebbffa79",
     "ev-verra-org-14912b95"
    ]
   },
@@ -5795,6 +5822,7 @@
    "childEntities": [],
    "relatedArticles": [
     "detection-limits-and-non-detects",
+    "nutrient-losses-and-use-efficiency",
     "water-quality-measurement-explained"
    ],
    "evidenceIds": [
@@ -5802,11 +5830,14 @@
     "ev-eea-europa-eu-c748cd97",
     "ev-epa-gov-4f65c49d",
     "ev-epa-gov-5b818859",
+    "ev-epa-gov-69d4f665",
     "ev-epa-gov-b808faa5",
     "ev-epa-gov-c9ea0959",
+    "ev-iea-org-3a86aa19",
     "ev-nist-gov-f0e231ee",
     "ev-pubmed-ncbi-nlm-nih-gov-4eac2950",
     "ev-usgs-gov-a493cdeb",
+    "ev-usgs-gov-ebbffa79",
     "ev-usgs-gov-ebe65567",
     "ev-who-int-95b30fd1"
    ]

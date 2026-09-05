@@ -5479,6 +5479,49 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-epa-gov-69d4f665",
+   "title": "Nutrient pollution: the problem",
+   "organization": "US EPA",
+   "url": "https://www.epa.gov/nutrientpollution/problem",
+   "host": "epa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology",
+    "ecology/earth-systems",
+    "ecology/soils",
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "nitrogen-fixation-and-its-cost",
+     "section": "biology/microbiology",
+     "supports": "Sources of excess nutrients and the algal-bloom consequence."
+    },
+    {
+     "kind": "article",
+     "slug": "nutrient-losses-and-use-efficiency",
+     "section": "ecology/soils",
+     "supports": "Agriculture and stormwater as key sources, and the algal-bloom and toxin consequences."
+    },
+    {
+     "kind": "article",
+     "slug": "phosphorus-cycle-explained",
+     "section": "ecology/earth-systems",
+     "supports": "Agriculture and stormwater as contributors, and the health consequences of algal toxins."
+    },
+    {
+     "kind": "article",
+     "slug": "the-energy-cost-of-ammonia-synthesis",
+     "section": "physics/energy",
+     "supports": "What happens to the fraction of applied nitrogen that leaves the field."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-epa-gov-84eaadf9",
    "title": "Radiation sources and doses",
    "organization": "US EPA",
@@ -9363,6 +9406,44 @@
      "slug": "climate-adaptation-mitigation-indicators",
      "section": "ecology/climate-change",
      "supports": "Energy-system deployment indicators."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "continuous",
+   "verificationStatus": "unchecked",
+   "notes": "Site root; individual dated reports are stable editions."
+  },
+  {
+   "evidenceId": "ev-iea-org-3a86aa19",
+   "title": "Ammonia technology roadmap",
+   "organization": "IEA",
+   "url": "https://www.iea.org/reports/ammonia-technology-roadmap",
+   "host": "iea.org",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology",
+    "ecology/soils",
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "nitrogen-fixation-and-its-cost",
+     "section": "biology/microbiology",
+     "supports": "The scale of the industrial alternative."
+    },
+    {
+     "kind": "article",
+     "slug": "nutrient-losses-and-use-efficiency",
+     "section": "ecology/soils",
+     "supports": "The energy embodied in the nitrogen that is lost."
+    },
+    {
+     "kind": "article",
+     "slug": "the-energy-cost-of-ammonia-synthesis",
+     "section": "physics/energy",
+     "supports": "Ammonia's share of final energy and of energy-system CO₂, and the fertiliser share of output."
     }
    ],
    "isLiveDataset": true,
@@ -22709,6 +22790,48 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-45fcb8b5",
+   "title": "Biological nitrogen fixation in theory, practice, and reality: a perspective on the molybdenum nitrogenase system",
+   "organization": "FEBS Letters (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100503/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology",
+    "ecology/earth-systems",
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "mycorrhizal-symbiosis-and-nutrient-uptake",
+     "section": "biology/microbiology",
+     "supports": "The comparable carbon-for-nutrient trade on the nitrogen side."
+    },
+    {
+     "kind": "article",
+     "slug": "nitrogen-fixation-and-its-cost",
+     "section": "biology/microbiology",
+     "supports": "The reaction stoichiometry, the ATP and electron cost, and nitrogenase's oxygen sensitivity."
+    },
+    {
+     "kind": "article",
+     "slug": "nutrient-stoichiometry-and-the-redfield-ratio",
+     "section": "ecology/earth-systems",
+     "supports": "The energetic constraint on the nitrogen side of the ratio."
+    },
+    {
+     "kind": "article",
+     "slug": "the-energy-cost-of-ammonia-synthesis",
+     "section": "physics/energy",
+     "supports": "The nitrogenase stoichiometry, its energy demand and its oxygen sensitivity."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-476cf474",
    "title": "UniProt: the Universal Protein Knowledgebase in 2025",
    "organization": "Nucleic Acids Research / PMC",
@@ -22803,6 +22926,28 @@
      "slug": "convergent-evolution-explained",
      "section": "biology/evolution",
      "supports": "Why the site-specific likelihood approach fails and what an empirical null shows."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-4a0c8871",
+   "title": "Concentrations and ratios of particulate organic carbon, nitrogen, and phosphorus in the global ocean",
+   "organization": "Scientific Data (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4421931/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "nutrient-stoichiometry-and-the-redfield-ratio",
+     "section": "ecology/earth-systems",
+     "supports": "The global median C:P, N:P and C:N ratios and the extent of regional variation."
     }
    ],
    "isLiveDataset": false,
@@ -22910,6 +23055,28 @@
      "slug": "hydrogen-as-an-energy-carrier",
      "section": "physics/energy",
      "supports": "Specific energy consumption, cell voltages, degradation rates and stack lifetimes."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-4f886fa4",
+   "title": "Mechanisms and impact of symbiotic phosphate acquisition",
+   "organization": "Cold Spring Harbor Perspectives in Biology (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6546048/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "mycorrhizal-symbiosis-and-nutrient-uptake",
+     "section": "biology/microbiology",
+     "supports": "The depletion zone, hyphal exploration beyond it, the up-to-22% carbon cost, and the 100% and 70% phosphate contributions."
     }
    ],
    "isLiveDataset": false,
@@ -34687,12 +34854,13 @@
   {
    "evidenceId": "ev-usgs-gov-56c4cf20",
    "title": "Phosphate rock statistics and information",
-   "organization": "USGS National Minerals Information Center",
+   "organization": "USGS",
    "url": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information",
    "host": "usgs.gov",
    "sourceType": "government",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "ecology/earth-systems",
     "ecology/soils"
    ],
    "usedBy": [
@@ -34701,6 +34869,12 @@
      "slug": "nutrient-availability-and-soil-fertility",
      "section": "ecology/soils",
      "supports": "Mineral Commodity Summaries, February 2026: world production and reserves, Moroccan share, the resources statement, and Florida grade decline."
+    },
+    {
+     "kind": "article",
+     "slug": "phosphorus-cycle-explained",
+     "section": "ecology/earth-systems",
+     "supports": "Phosphate rock as the mined feedstock for fertiliser."
     }
    ],
    "isLiveDataset": false,
@@ -35283,6 +35457,48 @@
      "slug": "river-ecology-and-flow-regimes",
      "section": "ecology/freshwater",
      "supports": "Flow modification along US streams and the 1980-2014 analysis of more than 3,000 gauging sites."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-usgs-gov-ebbffa79",
+   "title": "Phosphorus and water",
+   "organization": "USGS",
+   "url": "https://www.usgs.gov/special-topics/water-science-school/science/phosphorus-and-water",
+   "host": "usgs.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology",
+    "ecology/earth-systems",
+    "ecology/soils"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "mycorrhizal-symbiosis-and-nutrient-uptake",
+     "section": "biology/microbiology",
+     "supports": "Phosphorus as an essential and limiting element and its movement with soil."
+    },
+    {
+     "kind": "article",
+     "slug": "nutrient-losses-and-use-efficiency",
+     "section": "ecology/soils",
+     "supports": "Erosion as the dominant transport route for phosphorus, and the eutrophication and dead-zone sequence."
+    },
+    {
+     "kind": "article",
+     "slug": "nutrient-stoichiometry-and-the-redfield-ratio",
+     "section": "ecology/earth-systems",
+     "supports": "Phosphorus as an essential and limiting element, and its behaviour when supplied in excess."
+    },
+    {
+     "kind": "article",
+     "slug": "phosphorus-cycle-explained",
+     "section": "ecology/earth-systems",
+     "supports": "Sources, transport by erosion, and the eutrophication and dead-zone sequence."
     }
    ],
    "isLiveDataset": false,
