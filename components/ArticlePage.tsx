@@ -23,6 +23,7 @@ import { entitiesForArticle, entityName } from "@/lib/entities/index";
 import { getReview } from "@/lib/verification";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
+  DEFAULT_LOCALE,
   getMessages,
   localeMeta,
   localizedPath,
@@ -222,7 +223,14 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
 
         <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_220px]">
           <div className="max-w-reader">
-            <ArticleBody html={article.html} />
+            <ArticleBody
+              html={article.html}
+              lang={
+                article.localeFallback
+                  ? localeMeta[DEFAULT_LOCALE].htmlLang
+                  : undefined
+              }
+            />
 
             {/* Evidence summary — derives from real citation count,
                 so it never claims more support than the body has. */}
