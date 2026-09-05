@@ -6,7 +6,7 @@ type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 8
 tags:
   - energy-systems
   - primary-energy
@@ -19,7 +19,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
-_bodyHash: 51aaa68c
+_bodyHash: 45fc3ad5
 ---
 Ein Energiesystem führt drei Bücher, und fast jede verworrene Energiedebatte entsteht daraus, eine Zahl aus dem einen zu nehmen und im anderen zu verwenden. Das erste zählt die Ressource, wie sie gefördert oder eingefangen wird — Kohle im Flöz, Uran im Erz, Photonen auf einem Modul. Das zweite zählt die Träger, die nutzbare Energie bewegen: Strom, raffinierte Flüssigkraftstoffe, Leitungsgas, Wärme in einer Fernwärmeleitung. Das dritte zählt, was dort ankommt, wo jemand Arbeit verrichtet haben will — ein Ofen, ein Motor, ein Bildschirm. Jede Umwandlung zwischen den Büchern hat physikalische Kosten, und deren Höhe ist die aufschlussreichste einzelne Größe einer Technologie.
 
@@ -64,6 +64,10 @@ Die begleitenden Seiten dieses Clusters nehmen sich diese Zeilen einzeln vor. De
 Physikalische Grenzen sind real, aber sie entscheiden selten über einen Ausbauzeitplan. Die Prognose *Renewables 2025* der IEA erwartet, dass variable erneuerbare Energien bis 2030 fast 30 Prozent des weltweiten Stroms liefern, etwa doppelt so viel wie heute, wobei allein Photovoltaik nahezu 80 Prozent des Kapazitätszuwachses ausmacht. In derselben Prognose steigt die Abregelung in vielen Märkten, darunter China, Deutschland, Brasilien, Chile, das Vereinigte Königreich und Irland; die Stunden mit negativen Preisen sind in mehreren Ländern sprunghaft gestiegen und fallen mit der Spitze der Solarerzeugung zusammen; und der Ausblick für Offshore-Wind wurde um mehr als ein Viertel nach unten korrigiert — nichts davon folgt aus einer Eigenschaft einer Turbine oder einer Zelle.
 
 Die Netzkapazität zeigt dasselbe Muster. Die Investitionen in Erzeugung sind seit 2015 um fast 70 Prozent auf rund 1 Billion US-Dollar jährlich gestiegen, während die jährlichen Netzausgaben mit weniger als der Hälfte dieses Tempos auf etwa 400 Milliarden US-Dollar gewachsen sind; die IEA hält es für nötig, die Netzinvestitionen bis 2030 nochmals um etwa die Hälfte zu erhöhen. Ein System, in dem die Wandler billig sind und die Leitungen die Warteschlange bilden, verhält sich anders als eines, in dem die Wandler der bindende Term sind. Grenzen mit einer Herleitung von solchen mit einer Geschichte zu unterscheiden, ist Gegenstand einer eigenen Analyse dazu, [welche Beschränkungen der Energiewende physikalisch sind](/de/insight/energy-transition-constraints-physical-and-institutional).
+
+## Worauf die Buchführung ruht
+
+Der obige Rahmen sagt nichts darüber, woraus die Maschinen bestehen, und die Materialfragen gehören inzwischen zur Energieanalyse statt sie zu ergänzen. Vier davon werden hier gesondert behandelt: [kritische Mineralien und wo sich das Angebot bündelt](/de/physics/energy/critical-minerals-and-supply-concentration), [was die Energiedichte von Batterien begrenzt](/de/physics/energy/battery-energy-density-and-its-limits), [wie Vergleiche von Lebenszyklusemissionen zusammengesetzt werden](/de/physics/energy/life-cycle-emissions-and-how-they-are-compared) und [was Recycling gegen das Wachstum des Bergbaus ausrichten kann und was nicht](/de/physics/energy/recycling-and-material-circularity). Auch die Nachfrage gehört zur Buchführung und ist keine äußere Vorgabe; [die Kühlnachfrage](/de/physics/energy/cooling-demand-and-electricity) ist der deutlichste Fall einer Last, bei der der Zeitpunkt mehr zählt als die Summe.
 
 ## Was diese Buchführung nicht sagen kann
 
