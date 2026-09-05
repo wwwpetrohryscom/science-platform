@@ -6,7 +6,7 @@ type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-05'
 updatedDate: '2026-09-05'
-readingTime: 6
+readingTime: 4
 tags:
   - metabolic-rate
   - allometry
@@ -17,7 +17,7 @@ related:
   - thermoregulation-in-animals
   - temperature-and-biological-rates
   - free-energy-and-biological-work
-_bodyHash: e3a15468
+_bodyHash: c03c0c12
 pillar: physiology-explained
 ---
 

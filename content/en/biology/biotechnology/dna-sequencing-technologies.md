@@ -66,7 +66,7 @@ What those figures include is production: reagents, instruments, labour, laborat
 
 ## What benchmarking still cannot certify
 
-Accuracy claims rest on reference materials, and those have boundaries. The Genome in a Bottle consortium at the National Institute of Standards and Technology characterises a small set of human samples — a pilot genome and two family trios — and distributes both benchmark variant sets and stratification files that mark difficult territory: homopolymers, tandem repeats, the major histocompatibility complex. Those stratifications exist because performance inside them differs from performance outside, and a benchmark that reports a single genome-wide accuracy figure without them is averaging over that difference.
+Accuracy claims rest on [reference materials](/en/biology/biotechnology/reference-materials-in-genome-measurement), and those have boundaries. The Genome in a Bottle consortium at the National Institute of Standards and Technology characterises a small set of human samples — a pilot genome and two family trios — and distributes both benchmark variant sets and stratification files that mark difficult territory: homopolymers, tandem repeats, the major histocompatibility complex. Those stratifications exist because performance inside them differs from performance outside, and a benchmark that reports a single genome-wide accuracy figure without them is averaging over that difference.
 
 The consequence for reading any claim is narrow and practical. A stated accuracy applies to the regions the benchmark covers, in the sample types it covers, with the analysis pipeline that produced it. Regions excluded from a benchmark are not certified as easy; they are simply not certified.
 

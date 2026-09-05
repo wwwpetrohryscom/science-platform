@@ -6,7 +6,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-05'
 updatedDate: '2026-09-05'
-readingTime: 6
+readingTime: 4
 tags:
   - microbial-ecology
   - bioenergetics
@@ -17,7 +17,7 @@ related:
   - bacteria-and-archaea-explained
   - culturing-and-sequencing-microbes
   - atp-and-cellular-energy-budgets
-_bodyHash: 4d2c91d4
+_bodyHash: f52147b4
 pillar: microbiology-explained
 ---
 

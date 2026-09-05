@@ -40,7 +40,7 @@ The second law of thermodynamics constrains the climate in three useful ways.
 
 **Maximum entropy production.** Several authors have argued that the climate system, like other dissipative systems, operates close to the state of maximum entropy production consistent with its boundary conditions. This is a useful heuristic in some contexts — it correctly predicts coarse properties of poleward heat transport — and it is debated whether it is a derivable principle or a useful empirical regularity. Either way, it constrains what climate states are reachable.
 
-**Bound on free energy.** The free energy available to drive circulation is the absorbed solar energy minus the entropy production at the cold reservoir. This sets an upper bound on storm intensity, ocean overturning rates, and similar bulk dynamical quantities. The bound is far above what is observed, which means thermodynamics is not the binding constraint for most weather phenomena, but it is for the gross structure.
+**Bound on [free energy](/en/physics/thermodynamics/free-energy-and-biological-work).** The free energy available to drive circulation is the absorbed solar energy minus the entropy production at the cold reservoir. This sets an upper bound on storm intensity, ocean overturning rates, and similar bulk dynamical quantities. The bound is far above what is observed, which means thermodynamics is not the binding constraint for most weather phenomena, but it is for the gross structure.
 
 ## Greenhouse gases in the thermodynamic frame
 

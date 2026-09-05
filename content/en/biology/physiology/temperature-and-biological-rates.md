@@ -6,7 +6,7 @@ type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-05'
 updatedDate: '2026-09-05'
-readingTime: 6
+readingTime: 5
 tags:
   - temperature
   - metabolic-rate
@@ -17,7 +17,7 @@ related:
   - metabolic-scaling-and-body-size
   - physiology-explained
   - free-energy-and-biological-work
-_bodyHash: b895cb27
+_bodyHash: 34cf0b5c
 pillar: physiology-explained
 ---
 

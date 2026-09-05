@@ -60,7 +60,7 @@ In the 2018–19 rivers and streams assessment, the cyanobacterial toxins microc
 
 The reverse mismatch is starker. PFOS was detected in 91 per cent of the 290 fish composite samples analysed for that survey, and EPA states plainly that it is not comparing those concentrations to screening levels, because the toxicity assessment used to derive screening levels is still in draft. There is a measurement and no threshold to judge it against. Where thresholds do exist, they carry assumptions about the person: total PCBs exceeded screening levels across 45 per cent of the sampled river miles for general fish consumers and 74 per cent for high-frequency consumers — the same tissue, two answers, because the exposure assumption changed.
 
-A non-detect, meanwhile, is a statement about the method rather than about the water. Reporting limits fall as instrumentation improves, which means a substance can appear to spread across a monitoring network when what actually spread was the ability to see it. Comparing detection frequencies across decades without reconciling the reporting limits produces trends that are artefacts.
+A [non-detect](/en/ecology/pollution/detection-limits-and-non-detects), meanwhile, is a statement about the method rather than about the water. Reporting limits fall as instrumentation improves, which means a substance can appear to spread across a monitoring network when what actually spread was the ability to see it. Comparing detection frequencies across decades without reconciling the reporting limits produces trends that are artefacts.
 
 ## The two failures the apparatus handles worst
 

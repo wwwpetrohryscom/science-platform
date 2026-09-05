@@ -6,7 +6,7 @@ type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-05'
 updatedDate: '2026-09-05'
-readingTime: 6
+readingTime: 4
 tags:
   - atp
   - bioenergetics
@@ -17,7 +17,7 @@ related:
   - free-energy-and-biological-work
   - cell-membrane-structure-and-transport
   - photosynthesis-explained
-_bodyHash: 41c0cd7d
+_bodyHash: 1688598d
 pillar: what-is-a-cell
 ---
 

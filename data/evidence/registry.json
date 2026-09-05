@@ -859,10 +859,24 @@
    "sourceType": "standards-body",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "biology/biotechnology",
+    "ecology/earth-observation",
     "glossary",
     "physics/mechanics-waves"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-traceability",
+     "section": "physics/mechanics-waves",
+     "supports": "The VIM (JCGM 200:2012) and the GUM (JCGM 100:2008) and their supplements."
+    },
+    {
+     "kind": "article",
+     "slug": "interlaboratory-comparison-and-consensus-values",
+     "section": "physics/mechanics-waves",
+     "supports": "The VIM (JCGM 200:2012) and GUM (JCGM 100:2008) and their supplements."
+    },
     {
      "kind": "glossary",
      "slug": "measurement-uncertainty",
@@ -874,6 +888,18 @@
      "slug": "measurement-uncertainty-explained",
      "section": "physics/mechanics-waves",
      "supports": "JCGM 100:2008, the Monte Carlo supplement, and the 2026 amendment on nonlinearity in measurement models."
+    },
+    {
+     "kind": "article",
+     "slug": "reference-materials-in-genome-measurement",
+     "section": "biology/biotechnology",
+     "supports": "The vocabulary that distinguishes comparability from accuracy."
+    },
+    {
+     "kind": "article",
+     "slug": "sensor-calibration-and-record-continuity",
+     "section": "ecology/earth-observation",
+     "supports": "The vocabulary and uncertainty framework a calibrated record is expressed in."
     },
     {
      "kind": "glossary",
@@ -5315,6 +5341,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-epa-gov-5b818859",
+   "title": "Regional guidance on handling chemical concentration data near the detection limit in risk assessments",
+   "organization": "US EPA",
+   "url": "https://www.epa.gov/risk/regional-guidance-handling-chemical-concentration-data-near-detection-limit-risk-assessments",
+   "host": "epa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/pollution"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "detection-limits-and-non-detects",
+     "section": "ecology/pollution",
+     "supports": "The definition of the detection limit and the four substitution approaches with their biases."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-epa-gov-5df3ad8d",
    "title": "Persistent organic pollutants: a global issue, a global response",
    "organization": "US Environmental Protection Agency",
@@ -5624,6 +5672,28 @@
      "slug": "environmental-pollution-explained",
      "section": "ecology/pollution",
      "supports": "Definitions of stressor and risk, and the separation of risk assessment from risk management."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-epa-gov-c9ea0959",
+   "title": "Method Detection Limit: frequent questions",
+   "organization": "US EPA",
+   "url": "https://www.epa.gov/cwa-methods/method-detection-limit-frequent-questions",
+   "host": "epa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/pollution"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "detection-limits-and-non-detects",
+     "section": "ecology/pollution",
+     "supports": "The 2016 MDL definition and the replicate procedure behind it."
     }
    ],
    "isLiveDataset": false,
@@ -8170,6 +8240,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-gfdl-noaa-gov-213e543b",
+   "title": "CMIP",
+   "organization": "NOAA GFDL",
+   "url": "https://www.gfdl.noaa.gov/cmip/",
+   "host": "gfdl.noaa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "model-intercomparison-as-a-measurement-device",
+     "section": "ecology/earth-systems",
+     "supports": "The purpose of intercomparison and the count of endorsed MIPs for CMIP6."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-gfr-wri-org-7b8796a8",
    "title": "Primary forest loss",
    "organization": "World Resources Institute, Global Forest Review",
@@ -8343,6 +8435,28 @@
    "updateFrequency": "annual",
    "verificationStatus": "unchecked",
    "notes": "The global carbon budget is reissued yearly and prior years are revised."
+  },
+  {
+   "evidenceId": "ev-gmd-copernicus-org-6cc79c98",
+   "title": "The computational and energy cost of simulation and storage for climate science: lessons from CMIP6",
+   "organization": "Geoscientific Model Development",
+   "url": "https://gmd.copernicus.org/articles/17/3081/2024/",
+   "host": "gmd.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "model-intercomparison-as-a-measurement-device",
+     "section": "ecology/earth-systems",
+     "supports": "The MIP, experiment, simulated-year and data-volume totals."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
   },
   {
    "evidenceId": "ev-gmd-copernicus-org-859ba522",
@@ -17177,7 +17291,8 @@
    "sourceTypeProvenance": "inferred-host",
    "topics": [
     "biology/biotechnology",
-    "glossary"
+    "glossary",
+    "physics/mechanics-waves"
    ],
    "usedBy": [
     {
@@ -17193,10 +17308,22 @@
      "supports": "Reference materials, benchmark variant sets and stratifications for difficult regions."
     },
     {
+     "kind": "article",
+     "slug": "interlaboratory-comparison-and-consensus-values",
+     "section": "physics/mechanics-waves",
+     "supports": "A reference built by integrating methods with uncorrelated errors."
+    },
+    {
      "kind": "glossary",
      "slug": "read-length",
      "section": "glossary",
      "supports": "Definition of Read length"
+    },
+    {
+     "kind": "article",
+     "slug": "reference-materials-in-genome-measurement",
+     "section": "biology/biotechnology",
+     "supports": "The consortium's description, the four reference materials, the seven characterised genomes, and the benchmark call and region files."
     }
    ],
    "isLiveDataset": false,
@@ -17651,6 +17778,62 @@
      "slug": "laws-of-thermodynamics-explained",
      "section": "physics/thermodynamics",
      "supports": "SI redefinition of the kelvin, the previous triple-point definition, and absolute zero in degrees Celsius."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-nist-gov-f0e231ee",
+   "title": "Standard Reference Materials",
+   "organization": "NIST",
+   "url": "https://www.nist.gov/srm",
+   "host": "nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/biotechnology",
+    "ecology/earth-observation",
+    "ecology/earth-systems",
+    "ecology/pollution",
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-traceability",
+     "section": "physics/mechanics-waves",
+     "supports": "The count and the stated purpose of certified reference materials."
+    },
+    {
+     "kind": "article",
+     "slug": "detection-limits-and-non-detects",
+     "section": "ecology/pollution",
+     "supports": "Matrix-matched materials as the check on whether a method recovers what it should."
+    },
+    {
+     "kind": "article",
+     "slug": "interlaboratory-comparison-and-consensus-values",
+     "section": "physics/mechanics-waves",
+     "supports": "The scale of the certified-material programme, and its stated purpose of making measurements compatible."
+    },
+    {
+     "kind": "article",
+     "slug": "model-intercomparison-as-a-measurement-device",
+     "section": "ecology/earth-systems",
+     "supports": "The certified-material route that intercomparison substitutes for when no standard exists."
+    },
+    {
+     "kind": "article",
+     "slug": "reference-materials-in-genome-measurement",
+     "section": "biology/biotechnology",
+     "supports": "The wider certified-material programme these sit within."
+    },
+    {
+     "kind": "article",
+     "slug": "sensor-calibration-and-record-continuity",
+     "section": "ecology/earth-observation",
+     "supports": "The general form of the problem calibration solves: making independent measurements compatible."
     }
    ],
    "isLiveDataset": false,
@@ -34396,6 +34579,35 @@
      "slug": "remote-sensing-for-biodiversity-monitoring",
      "section": "ecology/biodiversity",
      "supports": "Long-term consistent satellite imagery archive."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-usgs-gov-9f6c0551",
+   "title": "Landsat Collection 2",
+   "organization": "USGS",
+   "url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+   "host": "usgs.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation",
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-traceability",
+     "section": "physics/mechanics-waves",
+     "supports": "Traceability of data quality provenance through a reprocessed archive."
+    },
+    {
+     "kind": "article",
+     "slug": "sensor-calibration-and-record-continuity",
+     "section": "ecology/earth-observation",
+     "supports": "Radiometric improvements, ground-control re-baselining to the Sentinel-2 reference image, and provenance traceability."
     }
    ],
    "isLiveDataset": false,

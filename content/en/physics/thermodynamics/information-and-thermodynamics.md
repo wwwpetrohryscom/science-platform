@@ -6,7 +6,7 @@ type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-05'
 updatedDate: '2026-09-05'
-readingTime: 6
+readingTime: 5
 tags:
   - information-theory
   - entropy
@@ -17,7 +17,7 @@ related:
   - laws-of-thermodynamics-explained
   - quantum-computing-fundamentals
   - measurement-uncertainty-explained
-_bodyHash: f5ff79aa
+_bodyHash: '761e3688'
 pillar: laws-of-thermodynamics-explained
 ---
 
@@ -29,7 +29,7 @@ Rolf Landauer's argument — the *Scientific Reports* study dates it to "the 60'
 
 The quantity is small and exact in form. A 2016 study in *Scientific Reports* states it as Q_L ≥ k_B T ln 2, and the same paper gives the standard framing: the principle "states that any logically irreversible transformation, such as the deletion of a classical bit of information, dissipates heat", with "the minimum heat produced during this operation" equal to k_B T ln 2.
 
-With the Boltzmann constant fixed by the SI at exactly 1.380649 × 10⁻²³ J K⁻¹, the bound at 300 K works out to 2.87 × 10⁻²¹ joules per bit — about 2.9 zeptojoules, or ln 2 ≈ 0.69 times k_B T. For comparison, the free energy a cell gets from hydrolysing one ATP molecule under working conditions is "around 50 kJ mol⁻¹ (20 kBT)" — about thirty times the erasure bound for a single bit. The bound is not what limits computing today. What makes it interesting is that it is not zero, and that it does not depend on how the erasure is implemented.
+With the Boltzmann constant fixed by the SI at exactly 1.380649 × 10⁻²³ J K⁻¹, the bound at 300 K works out to 2.87 × 10⁻²¹ joules per bit — about 2.9 zeptojoules, or ln 2 ≈ 0.69 times k_B T. For comparison, the [free energy](/en/physics/thermodynamics/free-energy-and-biological-work) a cell gets from hydrolysing one ATP molecule under working conditions is "around 50 kJ mol⁻¹ (20 kBT)" — about thirty times the erasure bound for a single bit. The bound is not what limits computing today. What makes it interesting is that it is not zero, and that it does not depend on how the erasure is implemented.
 
 ## Why it took fifty years to measure
 
@@ -61,7 +61,7 @@ Three misreadings are common enough to name.
 
 The link to [entropy as a count of microstates](/en/physics/thermodynamics/entropy-explained) is the substantive one. Boltzmann's entropy counts arrangements consistent with a macroscopic description; Shannon's counts messages consistent with a probability distribution. Landauer's principle is the exchange rate between them, and the constant that converts is the same k_B the SI now fixes exactly.
 
-It also bears on [quantum computing](/en/physics/quantum-basics/quantum-computing-fundamentals), though not in the way it is often invoked. Quantum gates are unitary and therefore logically reversible, so the Landauer cost of the computation itself is zero. The energy budget of a quantum machine is dominated by error correction, measurement, and refrigeration — all of which involve discarding information, which puts the bound back in play at the level of the apparatus rather than the algorithm.
+It also bears on [quantum computing](/en/physics/quantum-basics/quantum-computing-fundamentals), though not in the way it is often invoked. Quantum gates are unitary and therefore logically reversible, so the Landauer cost of the computation itself is zero. The [energy budget](/en/physics/climate-physics/atmospheric-physics-explained) of a quantum machine is dominated by error correction, measurement, and refrigeration — all of which involve discarding information, which puts the bound back in play at the level of the apparatus rather than the algorithm.
 
 ## Sources
 
