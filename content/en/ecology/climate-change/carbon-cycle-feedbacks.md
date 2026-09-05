@@ -37,7 +37,7 @@ The [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) flask network pro
 
 ## The ocean sink
 
-The ocean takes up CO₂ through air-sea gas exchange at the surface, after which the absorbed carbon partitions into dissolved CO₂, bicarbonate, and carbonate forms (the carbonate-buffer chemistry). The absorbed carbon is then mixed and transported by [ocean circulation](/en/ecology/earth-systems/el-nino-la-nina-enso-explained), ending up in the deeper ocean on timescales of decades to centuries.
+The ocean takes up CO₂ through air-sea [gas exchange](/en/ecology/oceans/air-sea-gas-exchange) at the surface, after which the absorbed carbon partitions into dissolved CO₂, bicarbonate, and carbonate forms (the carbonate-buffer chemistry). The absorbed carbon is then mixed and transported by [ocean circulation](/en/ecology/earth-systems/el-nino-la-nina-enso-explained), ending up in the deeper ocean on timescales of decades to centuries.
 
 Two physical processes affect the long-term fraction the ocean can absorb.
 

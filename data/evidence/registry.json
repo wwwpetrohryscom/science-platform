@@ -807,6 +807,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-bg-copernicus-org-3f36b8e1",
+   "title": "On physical mechanisms enhancing air–sea CO₂ exchange",
+   "organization": "Biogeosciences",
+   "url": "https://bg.copernicus.org/articles/19/5645/2022/",
+   "host": "bg.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/oceans"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "air-sea-gas-exchange",
+     "section": "ecology/oceans",
+     "supports": "The wind-based model's average adequacy, the ~30% of half-hourly variance it explains, and the high- and low-wind mechanisms it misses."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-bgs-ac-uk-24b125f8",
    "title": "How are earthquakes detected?",
    "organization": "British Geological Survey",
@@ -15856,6 +15878,55 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-ncbi-nlm-nih-gov-1770243b",
+   "title": "The circulatory system and oxygen transport, in *Regulation of Tissue Oxygenation*",
+   "organization": "NCBI Bookshelf",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK54112/",
+   "host": "ncbi.nlm.nih.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology",
+    "biology/physiology",
+    "ecology/oceans",
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "diffusion-limits-on-body-size",
+     "section": "biology/physiology",
+     "supports": "The 1 mm critical radius, the 100 μm efficiency limit, and the 10 μm capillary-to-cell requirement."
+    },
+    {
+     "kind": "article",
+     "slug": "life-at-low-reynolds-number",
+     "section": "physics/mechanics-waves",
+     "supports": "Diffusion as an efficient transport process only over short distances."
+    },
+    {
+     "kind": "article",
+     "slug": "stratification-mixing-and-nutrient-supply",
+     "section": "ecology/oceans",
+     "supports": "The distance scales over which diffusion is and is not an effective transport process."
+    },
+    {
+     "kind": "article",
+     "slug": "the-limits-of-chemical-sensing",
+     "section": "biology/microbiology",
+     "supports": "Diffusion distances, for the scale over which molecular arrival is fast."
+    },
+    {
+     "kind": "article",
+     "slug": "transport-by-diffusion-and-by-flow",
+     "section": "physics/mechanics-waves",
+     "supports": "The 100 μm and 10 μm distances, the 1 mm critical radius, and the role of bulk flow."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-ncbi-nlm-nih-gov-1f604717",
    "title": "Reproducibility and Replicability in Science",
    "organization": "National Academies of Sciences, Engineering, and Medicine",
@@ -18909,6 +18980,69 @@
      "slug": "deep-sea-ecosystems",
      "section": "ecology/oceans",
      "supports": "Discovery of vents in 1977, fluid temperatures, and the chemical basis of vent communities."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-oceanservice-noaa-gov-4247c30b",
+   "title": "What is upwelling?",
+   "organization": "NOAA Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/upwelling.html",
+   "host": "oceanservice.noaa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/oceans"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "air-sea-gas-exchange",
+     "section": "ecology/oceans",
+     "supports": "Wind-driven vertical exchange, the process that renews the surface water taking up gas."
+    },
+    {
+     "kind": "article",
+     "slug": "stratification-mixing-and-nutrient-supply",
+     "section": "ecology/oceans",
+     "supports": "The wind mechanism, nutrient enrichment, and the association with fishing grounds."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-oceanservice-noaa-gov-4d5df258",
+   "title": "What is a thermocline?",
+   "organization": "NOAA Ocean Service",
+   "url": "https://oceanservice.noaa.gov/facts/thermocline.html",
+   "host": "oceanservice.noaa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/oceans",
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "air-sea-gas-exchange",
+     "section": "ecology/oceans",
+     "supports": "The near-surface density structure the exchange happens across."
+    },
+    {
+     "kind": "article",
+     "slug": "stratification-mixing-and-nutrient-supply",
+     "section": "ecology/oceans",
+     "supports": "The transition layer, the sharp temperature gradient, and the regional and seasonal variation."
+    },
+    {
+     "kind": "article",
+     "slug": "transport-by-diffusion-and-by-flow",
+     "section": "physics/mechanics-waves",
+     "supports": "The layered structure that suppresses vertical exchange, and its regional variation."
     }
    ],
    "isLiveDataset": false,
@@ -25027,6 +25161,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-b336e908",
+   "title": "Oxygen suppression of macroscopic multicellularity",
+   "organization": "Nature Communications (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8121917/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/physiology"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "diffusion-limits-on-body-size",
+     "section": "biology/physiology",
+     "supports": "Experimental anoxia in cluster interiors and the intermediate-oxygen window."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-b36b3f65",
    "title": "ReliableGenome: annotation of genomic regions with high/low variant calling concordance",
    "organization": "Bioinformatics / PMC",
@@ -25388,6 +25544,35 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-c1028f87",
+   "title": "Swimming by reciprocal motion at low Reynolds number",
+   "organization": "Nature Communications (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4241991/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology",
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "life-at-low-reynolds-number",
+     "section": "physics/mechanics-waves",
+     "supports": "Purcell's statement of the scallop theorem, its Newtonian condition, and a micro-swimmer operating at Re = 1.4 × 10⁻⁴ to 3 × 10⁻³."
+    },
+    {
+     "kind": "article",
+     "slug": "the-limits-of-chemical-sensing",
+     "section": "biology/microbiology",
+     "supports": "The regime in which these cells operate and why they cannot mix their surroundings."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-c1ab7acd",
    "title": "Eukaryotic mismatch repair in relation to DNA replication",
    "organization": "Kunkel and Erie, Annual Review of Genetics",
@@ -25627,6 +25812,48 @@
      "slug": "synthetic-biology-explained",
      "section": "biology/biotechnology",
      "supports": "Gene count of the minimal cell and the fraction of proteins with unknown function."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-ccbd20a3",
+   "title": "Physics of chemoreception",
+   "organization": "Biophysical Journal (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473391/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/microbiology",
+    "biology/physiology",
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "diffusion-limits-on-body-size",
+     "section": "biology/physiology",
+     "supports": "The diffusion constant's role in what a surface can collect."
+    },
+    {
+     "kind": "article",
+     "slug": "life-at-low-reynolds-number",
+     "section": "physics/mechanics-waves",
+     "supports": "Berg and Purcell on what diffusion delivers to a small body, and the limits it sets."
+    },
+    {
+     "kind": "article",
+     "slug": "the-limits-of-chemical-sensing",
+     "section": "biology/microbiology",
+     "supports": "The fractional-error bound, the receptor-coverage result, the number of receptors required, and the comparison with *E. coli*."
+    },
+    {
+     "kind": "article",
+     "slug": "transport-by-diffusion-and-by-flow",
+     "section": "physics/mechanics-waves",
+     "supports": "The diffusion constant in the bound on measurement precision."
     }
    ],
    "isLiveDataset": false,

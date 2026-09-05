@@ -5,8 +5,8 @@ excerpt: Dissolving CO₂ in seawater adds carbon while removing carbonate ions,
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - ocean-acidification
   - carbonate-chemistry
@@ -18,7 +18,7 @@ related:
   - deep-sea-ecosystems
   - carbon-cycle-explained
 pillar: ocean-science-explained
-_bodyHash: ef2e2b18
+_bodyHash: 75fc9447
 ---
 
 Dissolve carbon dioxide in seawater and two things happen at once. The total amount of dissolved inorganic carbon goes up, and the concentration of carbonate ions goes down. Almost every consequence discussed under the heading of ocean acidification follows from that second, less obvious half.
@@ -62,7 +62,7 @@ That caution proved well placed in the one sub-field where it has been tested ha
 
 Three areas remain genuinely unresolved. Adaptation over many generations is poorly constrained, because most experiments run for weeks to months on organisms whose populations may respond over decades; the handful of multi-generational studies are not yet enough to generalise from. Coastal chemistry is far more variable than open-ocean chemistry, driven by river inputs, nutrient loading and local respiration, so a coastal shellfish bed can experience swings larger than a century of open-ocean change within a single season, and attributing harm there to atmospheric CO₂ specifically is difficult. Those same coastal regions compound the problem: the IPCC notes that low oxygen, low pH and shallow aragonite saturation horizons co-occur in the oxygen minimum zones of eastern boundary upwelling regions, which means the stressors covered under [deoxygenation](/en/ecology/oceans/ocean-deoxygenation-and-dead-zones) and those covered here arrive together in exactly the places that support the largest fisheries. And ecosystem-level outcomes — as opposed to organism-level responses — remain largely projected rather than observed, because the field experiments that would settle them are hard to run at the necessary scale.
 
-What is not uncertain is the forcing. As long as the ocean continues to take up roughly 30 per cent of the CO₂ released to the atmosphere, as NOAA's National Ocean Service puts it, the carbonate chemistry will keep moving in the same direction, and it will keep doing so in whatever emissions scenario continues to raise atmospheric concentrations. The chemistry is the well-constrained part; the biology is where the honest uncertainty lies, and the reefs at the shallow end of that gradient are examined in [coral reefs and bleaching](/en/ecology/oceans/coral-reef-ecology-and-bleaching).
+What is not uncertain is the forcing. As long as the ocean continues to take up roughly 30 per cent of the CO₂ released to the atmosphere, as NOAA's National Ocean Service puts it — a flux computed from a concentration difference and a [gas transfer velocity](/en/ecology/oceans/air-sea-gas-exchange) — the carbonate chemistry will keep moving in the same direction, and it will keep doing so in whatever emissions scenario continues to raise atmospheric concentrations. The chemistry is the well-constrained part; the biology is where the honest uncertainty lies, and the reefs at the shallow end of that gradient are examined in [coral reefs and bleaching](/en/ecology/oceans/coral-reef-ecology-and-bleaching).
 
 ## Sources
 

@@ -33,7 +33,7 @@ Those components correspond closely to the [Earth system components](/en/ecology
 
 ## What "Earth system" adds
 
-An [Earth system model](/en/glossary/earth-system-model) extends the coupled physical model with **interactive biogeochemistry**. The distinction is concrete: in a physical climate model, atmospheric CO₂ concentration is an input the modeller prescribes. In an ESM, the model is given emissions, and it computes the resulting concentration itself by simulating photosynthesis, respiration, soil decomposition, air–sea gas exchange, and ocean carbon chemistry.
+An [Earth system model](/en/glossary/earth-system-model) extends the coupled physical model with **interactive biogeochemistry**. The distinction is concrete: in a physical climate model, atmospheric CO₂ concentration is an input the modeller prescribes. In an ESM, the model is given emissions, and it computes the resulting concentration itself by simulating photosynthesis, respiration, soil decomposition, air–sea gas exchange, and [ocean carbon](/en/ecology/oceans/air-sea-gas-exchange) chemistry.
 
 That change matters for three reasons.
 

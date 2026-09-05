@@ -1,0 +1,204 @@
+{
+  "batchId": "v-cross-transport-and-scale",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used.",
+  "articles": [
+    {
+      "slug": "life-at-low-reynolds-number",
+      "path": "content/en/physics/mechanics-waves/life-at-low-reynolds-number.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        {
+          "claim": "Purcell's scallop theorem: a low-Reynolds-number swimmer executing geometrically reciprocal motion has zero net displacement if the fluid is incompressible and Newtonian",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4241991/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The micro-swimmer operated at Reynolds numbers of 1.4 x 10^-4 to 3 x 10^-3",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4241991/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Most biomedically important fluids are non-Newtonian, where the theorem no longer holds, and reciprocal swimming becomes possible",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4241991/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Below some radius, swimming brings a cell molecules barely faster than sitting still",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473391/",
+          "disposition": "qualified",
+          "note": "Berg and Purcell treat the diffusive supply to a small body, but we did not read a passage stating this swimming-versus-diffusion comparison as such. Written without a threshold radius and as a qualitative consequence."
+        }
+      ]
+    },
+    {
+      "slug": "the-limits-of-chemical-sensing",
+      "path": "content/en/biology/microbiology/the-limits-of-chemical-sensing.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Statistical fluctuations limit the precision with which a microorganism can determine a chemoattractant concentration in time T",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473391/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The least fractional error attainable is approximately (TcaD)^-1/2",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473391/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Only a small fraction of the surface need be adsorbing; capture probability is Ns/(Ns + pi a); the number of receptors needed is about a/s",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473391/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "For a micron-scale cell with nanometre binding sites, a/s is in the thousands",
+          "sourceChecked": "arithmetic on the cited expression",
+          "disposition": "qualified",
+          "note": "Our arithmetic from the paper's formula, not a figure the paper states."
+        },
+        {
+          "claim": "E. coli chemotactic sensitivity approaches theoretically optimal performance",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473391/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "E. coli measures gradients temporally rather than spatially because the head-to-tail difference is below the noise floor",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473391/",
+          "disposition": "qualified",
+          "note": "Consistent with the paper's framework and standard in the field, but we did not read the passage that establishes it; stated as an explanation rather than as a quoted result."
+        }
+      ]
+    },
+    {
+      "slug": "diffusion-limits-on-body-size",
+      "path": "content/en/biology/physiology/diffusion-limits-on-body-size.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Diffusion puts an upper limit on cell size for oxygen at a critical radius of about 1 mm",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK54112/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Diffusion is efficient over short distances (<100 micrometres); circulating blood must come within <10 micrometres of the cells",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK54112/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In yeast clusters only cells near the surface respire and the interior is effectively anaerobic",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8121917/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Oxygen suppression of large size occurs between 0.0001 and 1% pO2 PAL",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8121917/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Insects reach centimetre scale using tracheae rather than an oxygen-carrying circulation",
+          "sourceChecked": "corpus cross-reference: content/en/biology/physiology/respiration-and-gas-exchange.md, already verified",
+          "disposition": "qualified",
+          "note": "Carried from an existing verified article rather than re-sourced in this pass."
+        }
+      ]
+    },
+    {
+      "slug": "transport-by-diffusion-and-by-flow",
+      "path": "content/en/physics/mechanics-waves/transport-by-diffusion-and-by-flow.md",
+      "status": "amended",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Diffusion time scales as the square of distance while transport by flow scales linearly",
+          "sourceChecked": "standard result; not quoted from a source read in this pass",
+          "disposition": "qualified",
+          "note": "Stated as the definitional scaling rather than attributed. The numerical consequences in the article all come from the cited distances."
+        },
+        {
+          "claim": "100 micrometre efficiency limit, 10 micrometre capillary requirement, 1 mm critical radius, and bulk flow as a distance-reduction device",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK54112/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The thermocline is the transition layer between the warm mixed surface and the cold deep, semi-permanent in the tropics and shallow to nonexistent at the poles",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/thermocline.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Whichever mechanism is faster at one scale is guaranteed to lose at some larger one",
+          "sourceChecked": "the two scaling laws",
+          "disposition": "corrected",
+          "note": "Reworded from 'guaranteed to' after the corpus tone rule flagged it; the claim is unchanged and the wording no longer reads as a promise."
+        }
+      ]
+    },
+    {
+      "slug": "stratification-mixing-and-nutrient-supply",
+      "path": "content/en/ecology/oceans/stratification-mixing-and-nutrient-supply.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "The thermocline is a transition layer with a rapid temperature decrease, semi-permanent in the tropics, variable in temperate regions and shallow to nonexistent in polar regions",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/thermocline.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Winds push surface water away and deeper water rises to replace it; upwelled water is colder and nutrient-rich, fertilising surface waters and producing high biological productivity",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/upwelling.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Good fishing grounds are typically found where upwelling is common; upwelling occurs in the open ocean and along coastlines, with coastal conditions favourable when winds blow along the shore",
+          "sourceChecked": "https://oceanservice.noaa.gov/facts/upwelling.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Upwelling regions are a small fraction of ocean area and a large fraction of fish catch",
+          "sourceChecked": "corpus cross-reference: content/en/ecology/oceans/marine-food-webs-and-productivity.md, already verified",
+          "disposition": "qualified",
+          "note": "Stated without a figure; the proportion is given in an existing verified article and was not re-sourced here."
+        }
+      ]
+    },
+    {
+      "slug": "air-sea-gas-exchange",
+      "path": "content/en/ecology/oceans/air-sea-gas-exchange.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "A wind-based model can on average be a good approximation for the gas transfer velocity k",
+          "sourceChecked": "https://bg.copernicus.org/articles/19/5645/2022/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Wind-speed relationships alone explain only about 30% of the observed variability in half-hourly gas transfer velocity values",
+          "sourceChecked": "https://bg.copernicus.org/articles/19/5645/2022/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Above about 8 m/s sea spray and atmospheric conditions matter, with enhancement during unstable stratification and low humidity; below about 6 m/s water-side convection is a relevant control",
+          "sourceChecked": "https://bg.copernicus.org/articles/19/5645/2022/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Random short-timescale error averages out globally while a systematic dependence on an unevenly distributed variable does not",
+          "sourceChecked": "reasoning from the cited variance figure",
+          "disposition": "qualified",
+          "note": "An inference we draw, written as an inference. No source read in this pass quantifies the resulting regional bias."
+        },
+        {
+          "claim": "The ocean takes up roughly 30 per cent of released CO2",
+          "sourceChecked": "corpus cross-reference: content/en/ecology/oceans/ocean-acidification-explained.md, already verified against NOAA",
+          "disposition": "qualified",
+          "note": "Not restated as a figure in this article; referenced through the existing verified article."
+        }
+      ]
+    }
+  ]
+}

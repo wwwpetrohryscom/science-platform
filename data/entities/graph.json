@@ -402,6 +402,7 @@
    "glossaryId": "carbon-cycle",
    "childEntities": [],
    "relatedArticles": [
+    "air-sea-gas-exchange",
     "biogeochemical-cycles-explained",
     "biosphere-climate-interactions",
     "boreal-forests-and-permafrost-interactions",
@@ -422,6 +423,7 @@
    ],
    "evidenceIds": [
     "ev-arctic-noaa-gov-80fc3ceb",
+    "ev-bg-copernicus-org-3f36b8e1",
     "ev-climate-copernicus-eu-d9ce40a0",
     "ev-climate-gov-acafcbcd",
     "ev-daac-ornl-gov-843a7bc1",
@@ -468,6 +470,8 @@
     "ev-nature-com-fd99ca0b",
     "ev-ncei-noaa-gov-454eb6fa",
     "ev-noaa-gov-78cff8fe",
+    "ev-oceanservice-noaa-gov-4247c30b",
+    "ev-oceanservice-noaa-gov-4d5df258",
     "ev-onlinelibrary-wiley-com-0c855db4",
     "ev-openknowledge-fao-org-20918e55",
     "ev-openknowledge-fao-org-2a0da203",
@@ -2501,11 +2505,17 @@
    ],
    "childEntities": [],
    "relatedArticles": [
-    "fluid-dynamics-explained"
+    "fluid-dynamics-explained",
+    "life-at-low-reynolds-number",
+    "transport-by-diffusion-and-by-flow"
    ],
    "evidenceIds": [
     "ev-ipcc-ch-2daacb71",
+    "ev-ncbi-nlm-nih-gov-1770243b",
     "ev-ntrs-nasa-gov-c1faa68c",
+    "ev-oceanservice-noaa-gov-4d5df258",
+    "ev-pmc-ncbi-nlm-nih-gov-c1028f87",
+    "ev-pmc-ncbi-nlm-nih-gov-ccbd20a3",
     "ev-pmc-ncbi-nlm-nih-gov-d4be8636",
     "ev-pmc-ncbi-nlm-nih-gov-de7b2fe1",
     "ev-webbook-nist-gov-f064876e",
@@ -3314,6 +3324,7 @@
    "childEntities": [],
    "relatedArticles": [
     "circulation-and-the-heart",
+    "diffusion-limits-on-body-size",
     "hormones-and-endocrine-signalling",
     "metabolic-scaling-and-body-size",
     "physiology-explained",
@@ -3323,6 +3334,7 @@
    "evidenceIds": [
     "ev-epa-gov-0a978341",
     "ev-ncbi-nlm-nih-gov-154bf187",
+    "ev-ncbi-nlm-nih-gov-1770243b",
     "ev-ncbi-nlm-nih-gov-210c9cfb",
     "ev-ncbi-nlm-nih-gov-980986b9",
     "ev-ncbi-nlm-nih-gov-f0dbcfd8",
@@ -3341,8 +3353,10 @@
     "ev-pmc-ncbi-nlm-nih-gov-807de2ae",
     "ev-pmc-ncbi-nlm-nih-gov-85874f5d",
     "ev-pmc-ncbi-nlm-nih-gov-8f57ed16",
+    "ev-pmc-ncbi-nlm-nih-gov-b336e908",
     "ev-pmc-ncbi-nlm-nih-gov-b4815fdf",
     "ev-pmc-ncbi-nlm-nih-gov-cb5efaaa",
+    "ev-pmc-ncbi-nlm-nih-gov-ccbd20a3",
     "ev-pmc-ncbi-nlm-nih-gov-d049aa6f",
     "ev-pmc-ncbi-nlm-nih-gov-d27b0100",
     "ev-pmc-ncbi-nlm-nih-gov-f465c738",
@@ -3515,6 +3529,7 @@
    "glossaryId": "measurement-uncertainty",
    "childEntities": [],
    "relatedArticles": [
+    "air-sea-gas-exchange",
     "attribution-science-and-its-uses",
     "biodiversity-numbers-and-what-they-can-support",
     "calibration-and-traceability",
@@ -3550,6 +3565,7 @@
     "ev-agupubs-onlinelibrary-wiley-com-102ca4ea",
     "ev-agupubs-onlinelibrary-wiley-com-98129a75",
     "ev-agupubs-onlinelibrary-wiley-com-e66c434d",
+    "ev-bg-copernicus-org-3f36b8e1",
     "ev-bipindicators-net-816db5de",
     "ev-bipm-org-51ac2f38",
     "ev-bipm-org-69ab2e96",
@@ -3646,6 +3662,8 @@
     "ev-noaa-gov-78cff8fe",
     "ev-nsidc-org-26b31e82",
     "ev-nsidc-org-a39b5c36",
+    "ev-oceanservice-noaa-gov-4247c30b",
+    "ev-oceanservice-noaa-gov-4d5df258",
     "ev-oceanservice-noaa-gov-675f0408",
     "ev-onlinelibrary-wiley-com-0c855db4",
     "ev-openknowledge-fao-org-20918e55",
@@ -3870,10 +3888,12 @@
     "antibiotic-resistance-evolution-mechanisms",
     "bacteria-and-archaea-explained",
     "microbiology-explained",
+    "the-limits-of-chemical-sensing",
     "the-tree-of-life-and-domains"
    ],
    "evidenceIds": [
     "ev-journals-plos-org-2bef65a3",
+    "ev-ncbi-nlm-nih-gov-1770243b",
     "ev-ncbi-nlm-nih-gov-5032b8fb",
     "ev-ncbi-nlm-nih-gov-663c72fc",
     "ev-ncbi-nlm-nih-gov-b3eb907a",
@@ -3893,6 +3913,8 @@
     "ev-pmc-ncbi-nlm-nih-gov-a7daaad7",
     "ev-pmc-ncbi-nlm-nih-gov-ac181f42",
     "ev-pmc-ncbi-nlm-nih-gov-b809000f",
+    "ev-pmc-ncbi-nlm-nih-gov-c1028f87",
+    "ev-pmc-ncbi-nlm-nih-gov-ccbd20a3",
     "ev-pmc-ncbi-nlm-nih-gov-dc3896b8",
     "ev-pmc-ncbi-nlm-nih-gov-e589f9e6",
     "ev-pmc-ncbi-nlm-nih-gov-e5947f24",
@@ -4810,7 +4832,8 @@
    ],
    "childEntities": [],
    "relatedArticles": [
-    "primary-production-and-energy-flow"
+    "primary-production-and-energy-flow",
+    "stratification-mixing-and-nutrient-supply"
    ],
    "evidenceIds": [
     "ev-data-marine-copernicus-eu-d30a8f57",
@@ -4818,6 +4841,9 @@
     "ev-ipcc-ch-28aac392",
     "ev-nature-com-66c2a8bb",
     "ev-nature-com-b40d936b",
+    "ev-ncbi-nlm-nih-gov-1770243b",
+    "ev-oceanservice-noaa-gov-4247c30b",
+    "ev-oceanservice-noaa-gov-4d5df258",
     "ev-pubmed-ncbi-nlm-nih-gov-74b7a855",
     "ev-science-org-679650a8",
     "ev-science-org-af94268b"

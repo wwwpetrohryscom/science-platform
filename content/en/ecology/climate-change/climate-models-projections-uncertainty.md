@@ -71,7 +71,7 @@ Three classes of projection carry larger uncertainty.
 
 **Ice-sheet contributions to sea level.** The largest single source of structural uncertainty in 21st-century sea level is the Antarctic contribution. AR6 reports plausible 21st-century ranges with low-likelihood, high-consequence upper tails driven by mechanisms — marine ice-cliff instability, ice-shelf collapse — that the historical record does not fully sample.
 
-**Carbon-cycle feedbacks.** As covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks), the response of land and ocean carbon sinks to continued warming is itself uncertain. Emissions-driven projections that let the sinks respond freely carry a wider envelope than concentration-driven projections that prescribe the concentration trajectory.
+**Carbon-cycle feedbacks.** As covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks), the response of land and [ocean carbon](/en/ecology/oceans/air-sea-gas-exchange) sinks to continued warming is itself uncertain. Emissions-driven projections that let the sinks respond freely carry a wider envelope than concentration-driven projections that prescribe the concentration trajectory.
 
 ## Reading a projection range responsibly
 

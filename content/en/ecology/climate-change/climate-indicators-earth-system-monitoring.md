@@ -50,7 +50,7 @@ The major assessments cover roughly the same six families. Each family contains 
 
 **Cryosphere.** Arctic and Antarctic sea-ice extent and area, glacier mass balance, Greenland and Antarctic ice-sheet mass balance, snow cover, and permafrost extent. The U.S. National Snow and Ice Data Center maintains the reference sea-ice records and the World Glacier Monitoring Service curates the long-term glacier dataset — covered in the [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) piece.
 
-**Carbon cycle and biosphere.** Land and ocean carbon uptake, atmospheric CO₂ growth rate, [ocean acidification](/en/ecology/oceans/ocean-acidification-explained) (pH and aragonite saturation), and vegetation indicators from satellite observations. The carbon-cycle component is summarized in IPCC AR6 WG1 Chapter 5 and tracked operationally by NOAA, NASA Earth Observatory, and the European Environment Agency — covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
+**Carbon cycle and biosphere.** Land and [ocean carbon](/en/ecology/oceans/air-sea-gas-exchange) uptake, atmospheric CO₂ growth rate, [ocean acidification](/en/ecology/oceans/ocean-acidification-explained) (pH and aragonite saturation), and vegetation indicators from satellite observations. The carbon-cycle component is summarized in IPCC AR6 WG1 Chapter 5 and tracked operationally by NOAA, NASA Earth Observatory, and the European Environment Agency — covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
 
 ## Why they are read together
 

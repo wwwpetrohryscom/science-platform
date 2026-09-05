@@ -66,7 +66,7 @@ Treat it as a labelling scheme for reservoirs and interfaces, not as a claim abo
 
 First, when a claim is made about "the [Earth system](/en/glossary/earth-system)", ask which component holds the quantity in question. Energy accumulating in the ocean and energy warming the atmosphere are the same surplus with very different observable signatures — a point developed in the existing article on [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators).
 
-Second, when a process spans components, expect the interesting physics to be at the interface rather than inside either side. Evaporation, gas exchange, and albedo are all interface phenomena, and all three are among the harder things to measure and to model.
+Second, when a process spans components, expect the interesting physics to be at the interface rather than inside either side. Evaporation, [gas exchange](/en/ecology/oceans/air-sea-gas-exchange), and albedo are all interface phenomena, and all three are among the harder things to measure and to model.
 
 The related question of how ecologists draw a comparable boundary at much smaller scale — where one ecosystem ends and another begins — has the same structure and the same answer: the boundary is chosen for the question being asked.
 
