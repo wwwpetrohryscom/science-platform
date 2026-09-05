@@ -44,6 +44,12 @@ jobs:
       - name: Content rules
         run: npm run content:validate
 
+      # The fidelity rules first, then the corpus they judge. A rule
+      # that has stopped firing looks exactly like a corpus with no
+      # defects, so the rules carry their own injection tests.
+      - name: Translation fidelity rules
+        run: npm run content:translations:test
+
       - name: Translation fidelity
         run: npm run content:translations
 

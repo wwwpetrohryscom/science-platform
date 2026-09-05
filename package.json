@@ -15,6 +15,7 @@
     "content:links:external": "tsx scripts/validate-links.ts --external",
     "content:report": "tsx scripts/content-report.ts",
     "content:translations": "tsx scripts/validate-translations.ts",
+    "content:translations:test": "tsx scripts/test-translation-rules.ts",
     "content:verification": "tsx scripts/validate-verification.ts",
     "evidence:build": "tsx scripts/evidence-build.ts",
     "evidence:check": "tsx scripts/evidence-build.ts --check",
