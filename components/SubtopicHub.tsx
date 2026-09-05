@@ -75,7 +75,7 @@ export async function SubtopicHub({
   const totalInSub = (pillar ? 1 : 0) + restOfSub.length;
   const siblings = getSiblingSubtopics(category, subtopicSlug);
   const grouped = groupByIntent(restOfSub);
-  const subtopicFaqs = getSubtopicFaqs(category, subtopicSlug);
+  const subtopicFaqs = getSubtopicFaqs(category, subtopicSlug, locale);
 
   // Structured data: BreadcrumbList + CollectionPage (article
   // inventory) + FAQPage when an FAQ block is rendered.
@@ -95,10 +95,9 @@ export async function SubtopicHub({
     inLanguage: localeMeta[locale].htmlLang,
     items: collectionItems,
   });
-  const faqLd =
-    locale === DEFAULT_LOCALE && subtopicFaqs.length > 0
-      ? faqJsonLd(subtopicFaqs)
-      : null;
+  // Schema only where the block is visibly rendered, and the block only
+  // where this locale has its own answers.
+  const faqLd = subtopicFaqs.length > 0 ? faqJsonLd(subtopicFaqs) : null;
 
   const sources = listSourcesForTopic(category);
 
@@ -294,9 +293,7 @@ export async function SubtopicHub({
         />
       </section>
 
-      {/* English-only until the FAQ registry is translated — see the same
-          note on the category hub. */}
-      {locale === DEFAULT_LOCALE && subtopicFaqs.length > 0 && (
+      {subtopicFaqs.length > 0 && (
         <FaqBlock
           heading={t("category_hub.faq_heading", { category: subtopicLabel })}
           description={t("category_hub.faq_description")}
