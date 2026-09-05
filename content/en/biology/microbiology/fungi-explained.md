@@ -69,7 +69,7 @@ This is the pipeline problem stated at the top of this article, seen from the cl
 
 Around 120,000 fungal species have been formally described. The most careful published estimate of the true total puts it at 2.2 to 3.8 million, derived by combining the ratio of cryptic species uncovered when known morphological species are examined molecularly — a weighted ratio of about an order of magnitude between the number of species recognised after such a study and before it — with an updated fungus-to-vascular-plant ratio of about 9.8 to 1 applied to some 380,000 vascular plant species. Description has run at roughly 1,300 species a year over the past four decades, rising to about 1,800 a year after 2010.
 
-At that rate the gap does not close. The same assessment cautions against the obvious shortcut: clustering environmental DNA sequences can overestimate species counts by orders of magnitude, so the sequencing that reveals the scale of the shortfall cannot by itself measure it. The honest summary is that mycology knows the order of magnitude of its own ignorance and not much more precisely than that.
+At that rate the gap does not close. The same assessment cautions against the obvious shortcut: clustering [environmental DNA](/en/biology/taxonomy/environmental-dna-and-what-it-detects) sequences can overestimate species counts by orders of magnitude, so the sequencing that reveals the scale of the shortfall cannot by itself measure it. The honest summary is that mycology knows the order of magnitude of its own ignorance and not much more precisely than that.
 
 ## Sources
 

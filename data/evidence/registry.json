@@ -5815,6 +5815,7 @@
    "sourceType": "government",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "biology/taxonomy",
     "ecology/pollution"
    ],
    "usedBy": [
@@ -5823,6 +5824,12 @@
      "slug": "detection-limits-and-non-detects",
      "section": "ecology/pollution",
      "supports": "The 2016 MDL definition and the replicate procedure behind it."
+    },
+    {
+     "kind": "article",
+     "slug": "environmental-dna-and-what-it-detects",
+     "section": "biology/taxonomy",
+     "supports": "The chemical-monitoring analogue of the same censoring problem."
     }
    ],
    "isLiveDataset": false,
@@ -16637,7 +16644,9 @@
    "sourceTypeProvenance": "inferred-host",
    "topics": [
     "biology/cells",
+    "biology/evolution",
     "biology/microbiology",
+    "biology/taxonomy",
     "physics/thermodynamics"
    ],
    "usedBy": [
@@ -16655,9 +16664,21 @@
     },
     {
      "kind": "article",
+     "slug": "horizontal-gene-transfer-and-the-tree",
+     "section": "biology/evolution",
+     "supports": "The core machinery whose genes transfer least readily."
+    },
+    {
+     "kind": "article",
      "slug": "microbial-energy-limits",
      "section": "biology/microbiology",
      "supports": "The free-energy accounting that a maintenance budget has to satisfy."
+    },
+    {
+     "kind": "article",
+     "slug": "molecular-clocks-and-divergence-dating",
+     "section": "biology/taxonomy",
+     "supports": "Background on the molecular processes whose substitution rates the clock measures."
     }
    ],
    "isLiveDataset": false,
@@ -17563,6 +17584,8 @@
    "sourceTypeProvenance": "inferred-host",
    "topics": [
     "biology/biotechnology",
+    "biology/evolution",
+    "biology/taxonomy",
     "glossary",
     "physics/mechanics-waves"
    ],
@@ -17572,6 +17595,12 @@
      "slug": "bioinformatics-explained",
      "section": "biology/biotechnology",
      "supports": "Benchmark variant calls and stratification of difficult genomic regions."
+    },
+    {
+     "kind": "article",
+     "slug": "dna-barcoding-and-its-limits",
+     "section": "biology/taxonomy",
+     "supports": "Reference materials as the general answer to \"what is this sequence compared against\"."
     },
     {
      "kind": "article",
@@ -17586,6 +17615,12 @@
      "supports": "A reference built by integrating methods with uncorrelated errors."
     },
     {
+     "kind": "article",
+     "slug": "metagenome-assembled-genomes-and-their-quality",
+     "section": "biology/biotechnology",
+     "supports": "The contrasting case where a characterised reference does exist."
+    },
+    {
      "kind": "glossary",
      "slug": "read-length",
      "section": "glossary",
@@ -17596,6 +17631,12 @@
      "slug": "reference-materials-in-genome-measurement",
      "section": "biology/biotechnology",
      "supports": "The consortium's description, the four reference materials, the seven characterised genomes, and the benchmark call and region files."
+    },
+    {
+     "kind": "article",
+     "slug": "what-experimental-evolution-can-show",
+     "section": "biology/evolution",
+     "supports": "Benchmarking practice for the sequence data these experiments generate."
     }
    ],
    "isLiveDataset": false,
@@ -21300,6 +21341,53 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-11e28634",
+   "title": "DNA barcoding of recently diverged species: relative performance of matching methods",
+   "organization": "PLOS One (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3260286/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/evolution",
+    "biology/taxonomy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "dna-barcoding-and-its-limits",
+     "section": "biology/taxonomy",
+     "supports": "The ~75% and ~97% success rates for recently diverged and older species."
+    },
+    {
+     "kind": "article",
+     "slug": "environmental-dna-and-what-it-detects",
+     "section": "biology/taxonomy",
+     "supports": "The assignment step eDNA depends on and where it fails."
+    },
+    {
+     "kind": "article",
+     "slug": "horizontal-gene-transfer-and-the-tree",
+     "section": "biology/evolution",
+     "supports": "Single-marker identification in lineages that exchange genes."
+    },
+    {
+     "kind": "article",
+     "slug": "molecular-clocks-and-divergence-dating",
+     "section": "biology/taxonomy",
+     "supports": "The difficulty of resolving recent divergences from sequence alone."
+    },
+    {
+     "kind": "article",
+     "slug": "what-experimental-evolution-can-show",
+     "section": "biology/evolution",
+     "supports": "The difficulty of resolving lineages over short evolutionary intervals."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-121ec4dd",
    "title": "From the Shenzhen Code to the Madrid Code: new rules and recommendations for naming algae, fungi, and plants",
    "organization": "American Journal of Botany",
@@ -24783,6 +24871,34 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-87711a0d",
+   "title": "Modeling the sensitivity of field surveys for detection of environmental DNA (eDNA)",
+   "organization": "PLOS One (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624909/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/taxonomy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "dna-barcoding-and-its-limits",
+     "section": "biology/taxonomy",
+     "supports": "The detection problem barcoding inherits when applied to environmental samples."
+    },
+    {
+     "kind": "article",
+     "slug": "environmental-dna-and-what-it-detects",
+     "section": "biology/taxonomy",
+     "supports": "The high false-negative rate at low concentration, the 97 per cent of empty replicates at 10 copies per litre, and sample volume as the most effective lever."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-882d7b0c",
    "title": "The axial skeleton of *Tiktaalik roseae*",
    "organization": "Proceedings of the National Academy of Sciences",
@@ -25387,6 +25503,48 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-a067b9a4",
+   "title": "Horizontal gene transfer: essentiality and evolvability in prokaryotes, and roles in evolutionary transitions",
+   "organization": "F1000Research (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4962295/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/biotechnology",
+    "biology/evolution",
+    "biology/taxonomy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "horizontal-gene-transfer-and-the-tree",
+     "section": "biology/evolution",
+     "supports": "The rate comparisons with point mutation and duplication, the orderliness of the phylogenetic forest, the ~40% of variance explained, and the statistical tree of life."
+    },
+    {
+     "kind": "article",
+     "slug": "metagenome-assembled-genomes-and-their-quality",
+     "section": "biology/biotechnology",
+     "supports": "Why gene content varies between close relatives, which complicates both binning and marker-based completeness."
+    },
+    {
+     "kind": "article",
+     "slug": "molecular-clocks-and-divergence-dating",
+     "section": "biology/taxonomy",
+     "supports": "Why a single tree is an approximation for microbial lineages."
+    },
+    {
+     "kind": "article",
+     "slug": "what-experimental-evolution-can-show",
+     "section": "biology/evolution",
+     "supports": "Gene gain rates relative to mutation and duplication, and why a single-lineage experiment understates community-level change."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-a2929a63",
    "title": "Approaches and recent developments for the commercial production of semi-synthetic artemisinin",
    "organization": "Frontiers in Plant Science",
@@ -25794,12 +25952,14 @@
   {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-b43c34ad",
    "title": "Minimum information about a single amplified genome (MISAG) and a metagenome-assembled genome (MIMAG) of bacteria and archaea",
-   "organization": "Nature Biotechnology",
+   "organization": "Nature Biotechnology (PMC)",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6436528/",
    "host": "pmc.ncbi.nlm.nih.gov",
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "biology/biotechnology",
+    "biology/evolution",
     "biology/microbiology"
    ],
    "usedBy": [
@@ -25808,6 +25968,18 @@
      "slug": "culturing-and-sequencing-microbes",
      "section": "biology/microbiology",
      "supports": "Completeness, contamination and marker-gene thresholds for reporting assembled genomes."
+    },
+    {
+     "kind": "article",
+     "slug": "metagenome-assembled-genomes-and-their-quality",
+     "section": "biology/biotechnology",
+     "supports": "The four quality tiers with their completeness, contamination, rRNA and tRNA criteria."
+    },
+    {
+     "kind": "article",
+     "slug": "what-experimental-evolution-can-show",
+     "section": "biology/evolution",
+     "supports": "The standards that govern genomic evidence from mixed communities."
     }
    ],
    "isLiveDataset": false,
@@ -27670,6 +27842,41 @@
      "slug": "microbiomes-and-host-microbe-interactions",
      "section": "biology/microbiology",
      "supports": "Spike-in calibration for recovering ratios of absolute abundance from compositional read counts."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-fe29485a",
+   "title": "Characterization of the uncertainty of divergence time estimation under relaxed molecular clock models using multiple loci",
+   "organization": "Systematic Biology (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4380039/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/evolution",
+    "biology/taxonomy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "dna-barcoding-and-its-limits",
+     "section": "biology/taxonomy",
+     "supports": "Why recent divergences carry so little separating signal."
+    },
+    {
+     "kind": "article",
+     "slug": "horizontal-gene-transfer-and-the-tree",
+     "section": "biology/evolution",
+     "supports": "The dating assumptions that horizontal transfer disturbs."
+    },
+    {
+     "kind": "article",
+     "slug": "molecular-clocks-and-divergence-dating",
+     "section": "biology/taxonomy",
+     "supports": "The confounding of times and rates, the three-way partition of uncertainty, and multiple loci as the effective route to precision."
     }
    ],
    "isLiveDataset": false,
