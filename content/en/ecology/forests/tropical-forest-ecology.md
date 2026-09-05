@@ -1,11 +1,11 @@
 ---
 title: 'Tropical forest diversity: the coexistence problem and what long-term plots have tested'
-metaTitle: 'Tropical forest diversity and the coexistence problem'
+metaTitle: Tropical forest diversity and the coexistence problem
 excerpt: Why competitive exclusion has not thinned lowland tropical tree communities is an open question with three serious candidate answers. This page sets out what the permanent-plot networks have actually been able to test, and what they have not.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - tropical-forests
@@ -54,7 +54,7 @@ How hard that limitation bites was ambiguous for a long time, because fertilisat
 
 Amazonian rainfall is not simply delivered from the Atlantic. High-resolution tracking of transpired water through the atmosphere estimates that about one-third of rainfall in the basin originates within the basin itself, and that two-thirds of that recycled fraction has passed through tree transpiration rather than evaporating from surfaces. Forests in the southern half of the basin contribute most to the stability of forests elsewhere; those in the south-west depend most on subsidies from upwind.
 
-The observational counterpart has now been measured. Combining satellite records with atmospheric moisture tracking over 1980–2019, one analysis finds a north–south dipole in Amazonian precipitation trends, with the decline in the southern basin reaching up to 3.9–5.4 mm per year each year — an 8 to 11 per cent fall in annual rainfall across the record — and attributes 52 to 72 per cent of that decline to deforestation in the southern basin and upwind. The same work reports that climate models underestimate the sensitivity of precipitation to forest loss, which matters directly for how [tipping elements in the Earth system](/en/ecology/earth-systems/earth-system-tipping-points) are assessed. The physical machinery of the recycling loop belongs to [the global water cycle](/en/ecology/earth-systems/global-water-cycle-explained).
+The observational counterpart has now been measured. Combining satellite records with atmospheric moisture tracking over 1980–2019, one analysis finds a north–south dipole in Amazonian precipitation trends, with the decline in the southern basin reaching up to 3.9–5.4 mm per year each year — an 8 to 11 per cent fall in annual rainfall across the record — and attributes 52 to 72 per cent of that decline to deforestation in the southern basin and upwind. The same work reports that [climate models](/en/ecology/climate-change/climate-models-projections-uncertainty) underestimate the sensitivity of precipitation to forest loss, which matters directly for how [tipping elements in the Earth system](/en/ecology/earth-systems/earth-system-tipping-points) are assessed. The physical machinery of the recycling loop belongs to [the global water cycle](/en/ecology/earth-systems/global-water-cycle-explained).
 
 ## A sink that has already turned
 

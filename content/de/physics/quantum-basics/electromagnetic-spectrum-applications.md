@@ -1,11 +1,11 @@
 ---
 title: 'Das elektromagnetische Spektrum: ein Phänomen, viele Fenster zum Universum'
-metaTitle: 'Das elektromagnetische Spektrum und seine Fenster'
+metaTitle: Das elektromagnetische Spektrum und seine Fenster
 excerpt: Radiowellen, sichtbares Licht, Röntgen- und Gammastrahlen sind keine verschiedenen Phänomene. Sie sind dasselbe Phänomen bei verschiedenen Wellenlängen — und die Wellenlänge bestimmt, was die Strahlung kann.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - quantum-basics

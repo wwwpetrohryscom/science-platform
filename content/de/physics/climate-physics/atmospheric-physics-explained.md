@@ -5,7 +5,7 @@ excerpt: Die Atmosphäre trägt etwa zehn Tonnen Luft über jedem Quadratmeter, 
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - atmospheric-physics

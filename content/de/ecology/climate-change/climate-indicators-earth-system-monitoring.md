@@ -1,11 +1,11 @@
 ---
 title: 'Klimaindikatoren und Erdsystembeobachtung: wie die Signale zusammenpassen'
-metaTitle: 'Klimaindikatoren und Erdsystembeobachtung'
+metaTitle: Klimaindikatoren und Erdsystembeobachtung
 excerpt: Klimaindikatoren verfolgen den Zustand des Erdsystems. So werden Temperatur, Ozeanwärme, Treibhausgase, Meeresspiegel und Eis gemeinsam gelesen, und dafür taugt jeder einzelne.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - climate-change

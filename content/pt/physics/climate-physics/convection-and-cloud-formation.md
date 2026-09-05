@@ -1,11 +1,11 @@
 ---
 title: 'Física das nuvens: do núcleo de condensação à maior incerteza da sensibilidade climática'
-metaTitle: 'Física das nuvens e a maior incerteza climática'
+metaTitle: Física das nuvens e a maior incerteza climática
 excerpt: As nuvens arrefecem o planeta atual em cerca de 20 W/m², e a sua resposta ao aquecimento continua a ser a maior fonte isolada de dispersão na sensibilidade climática. As duas afirmações não se contradizem, e perceber porquê é quase todo o assunto.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - cloud-physics

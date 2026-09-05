@@ -1,11 +1,11 @@
 ---
 title: Qu'est-ce qu'une cellule ? L'unité du vivant, définie de façon opérationnelle
-metaTitle: 'Qu''est-ce qu''une cellule ? Une définition opérationnelle'
+metaTitle: Qu'est-ce qu'une cellule ? Une définition opérationnelle
 excerpt: Une cellule est la plus petite unité capable de s'entretenir, de se copier et de répondre à son environnement. Chacune de ces exigences écarte quelque chose que « cellule » ne veut pas dire — et explique l'intérêt des cas limites.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - cells

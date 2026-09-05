@@ -5,7 +5,7 @@ excerpt: Ein Wald ist eine Landnutzungskategorie, bevor er ein Ökosystem ist, u
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - forests

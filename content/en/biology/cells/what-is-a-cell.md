@@ -4,7 +4,7 @@ excerpt: A cell is the smallest unit that can sustain itself, copy itself, and r
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - cells
@@ -59,7 +59,7 @@ The operational definition does work in three places.
 
 **Origin-of-life research.** Asking when the first cell appeared is asking when an object first met all three requirements simultaneously. The hard part is not getting any one requirement to emerge — it is getting them to coemerge in a way that makes their combination self-sustaining.
 
-**Synthetic biology.** Building a cell from scratch is the project of building an object that meets all three requirements in a controlled way. The reason synthetic-cell projects are hard is not that any single requirement is hard — it is that meeting all three in a single object is.
+**[Synthetic biology](/en/biology/biotechnology/synthetic-biology-explained).** Building a cell from scratch is the project of building an object that meets all three requirements in a controlled way. The reason synthetic-cell projects are hard is not that any single requirement is hard — it is that meeting all three in a single object is.
 
 **Edge cases in disease.** Some pathological states correspond to cells that are losing one of the three requirements faster than the others. Senescent cells lose self-replication while retaining sustenance and responsiveness — and turn out to drive aging-related dysfunction. Cancer cells over-prioritize replication at the cost of normal responsiveness — and become invasive. The operational requirements are not just a definition; they are also failure modes.
 

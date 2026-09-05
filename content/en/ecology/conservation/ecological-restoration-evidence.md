@@ -5,7 +5,7 @@ excerpt: Restoration reliably improves on a degraded baseline and reliably falls
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecological-restoration
@@ -34,7 +34,7 @@ The largest synthesis efforts cover different biomes with different methods, and
 | Forests (Nature Communications 2016) | 221 study landscapes worldwide | Biodiversity 15–84 % higher, vegetation structure 36–77 % higher | Biodiversity 10–26 % lower, structure 16–42 % lower |
 | Terrestrial systems (Ecology Letters 2022) | 83 restoration studies | Biodiversity 20 % higher on average | 13 % below reference, with 20 % higher variability |
 
-The variability result is the least intuitive and possibly the most useful. Restoration reduced the spread of biodiversity outcomes relative to unrestored degraded sites by about 14 per cent, yet restored sites remained more variable than reference sites, and that difference did not shrink as projects aged. Prior land use and the particular practices used appear to leave a durable signature. An average recovery ratio therefore conceals a distribution wide enough that the average is a poor predictor for any single project.
+The variability result is the least intuitive and possibly the most useful. Restoration reduced the spread of biodiversity outcomes relative to unrestored degraded sites by about 14 per cent, yet restored sites remained more variable than reference sites, and that difference did not shrink as projects aged. Prior [land use](/en/ecology/forests/forest-ecosystems-explained) and the particular practices used appear to leave a durable signature. An average recovery ratio therefore conceals a distribution wide enough that the average is a poor predictor for any single project.
 
 ## The reference state decides the answer
 
@@ -44,7 +44,7 @@ The choice also interacts with the landscape. Forest restoration success in the 
 
 ## Structure returns before function
 
-Vegetation cover, canopy height and stem density are the first things to come back and the easiest things to measure. Nutrient cycling, hydrological behaviour and soil biological processes lag, and they are measured less often. The wetland synthesis found plant assemblages converging statistically on reference conditions after roughly three decades while absolute values stayed below reference even a century after restoration — a result compatible either with very slow recovery or with a shift to an alternative stable state that will not converge at all. The data cannot distinguish those two explanations, and that ambiguity is central rather than marginal.
+Vegetation cover, canopy height and stem density are the first things to come back and the easiest things to measure. [Nutrient cycling](/en/ecology/forests/tropical-forest-ecology), hydrological behaviour and soil biological processes lag, and they are measured less often. The wetland synthesis found plant assemblages converging statistically on reference conditions after roughly three decades while absolute values stayed below reference even a century after restoration — a result compatible either with very slow recovery or with a shift to an alternative stable state that will not converge at all. The data cannot distinguish those two explanations, and that ambiguity is central rather than marginal.
 
 Intergovernmental assessment reaches the same conclusion in plainer language: recovering vegetation cover after degradation is possible and often succeeds, but it seldom attains, within decades, pre-degradation levels of ecosystem function or of compositional biological diversity.
 
@@ -64,7 +64,7 @@ The implication is arithmetical and awkward. Even a project that eventually reac
 
 The Kunming–Montreal Global Biodiversity Framework commits parties to ensuring that by 2030 at least 30 per cent of areas of degraded terrestrial, inland water, and marine and coastal ecosystems are *under effective restoration*. The wording is doing careful work: an area under effective restoration is one where the process has begun and is being managed, not one that has recovered. Given that the syntheses above measure residual gaps decades after intervention, a 2030 target could be fully met with essentially none of the treated area having reached reference condition. That is not a criticism of the target's design, which is honest about the timescale; it is a warning about how the indicator will be reported.
 
-The economic case is separately robust. Assessment work across biomes estimates that the benefits of restoration exceed the costs by an average margin of about ten to one, with the caveat that this is an established-but-incomplete finding, and that in several Asian and African countries the cost of inaction on land degradation has been estimated at 3.8 to 5 times the cost of avoiding it. Degradation of the land surface is assessed as negatively affecting the well-being of at least 3.2 billion people. Prevention still dominates repair on cost grounds, which is why restoration budgets are usually argued about alongside protection budgets rather than instead of them — the allocation problem taken up in [conservation prioritisation](/en/ecology/conservation/conservation-trade-offs-and-prioritisation).
+The economic case is separately robust. Assessment work across biomes estimates that the benefits of restoration exceed the costs by an average margin of about ten to one, with the caveat that this is an established-but-incomplete finding, and that in several Asian and African countries the cost of inaction on land degradation has been estimated at 3.8 to 5 times the cost of avoiding it. Degradation of the [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) is assessed as negatively affecting the well-being of at least 3.2 billion people. Prevention still dominates repair on cost grounds, which is why restoration budgets are usually argued about alongside protection budgets rather than instead of them — the allocation problem taken up in [conservation prioritisation](/en/ecology/conservation/conservation-trade-offs-and-prioritisation).
 
 ## The measurements are shorter than the process
 

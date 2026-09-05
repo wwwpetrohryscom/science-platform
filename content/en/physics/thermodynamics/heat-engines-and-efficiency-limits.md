@@ -5,7 +5,7 @@ excerpt: A coal steam plant converts about a third of its fuel energy to electri
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - heat-engines
@@ -63,7 +63,7 @@ The single largest source of confusion in published efficiency figures is the bo
 
 Tested and operating heat rates differ for the same fleet: EIA's tested combined-cycle figure of 7,548 Btu per kilowatt-hour becomes 7,754 across the gas fleet in operation, because real units start, stop, run at part load and work on hot days. Any plant-level number that comes from a design point should be read as the best case rather than the expectation.
 
-Counting the heat changes the answer more dramatically still. The Environmental Protection Agency puts combined heat and power systems above 80% total efficiency against about 50% for the conventional arrangement of separate grid electricity and an on-site boiler, and notes that nearly two-thirds of the energy in conventional generation is discharged as heat during generation, transmission and distribution. That comparison is a first-law statement: it adds a joule of 90 °C hot water to a joule of electricity as though they were the same thing. On a second-law accounting — which weights each output by the work that could in principle be recovered from it — they are not, and the same reasoning explains why burning gas at flame temperature to hold a room at 20 °C destroys most of the fuel's available work no matter how little goes up the flue. Which convention a headline number follows is rarely stated, and it is the first thing to check when comparing technologies, as the wider treatment of [capacity factors and energy metrics](/en/physics/energy/capacity-factor-and-energy-metrics) sets out.
+Counting the heat changes the answer more dramatically still. The Environmental Protection Agency puts combined heat and [power systems](/en/physics/energy/grid-integration-of-variable-renewables) above 80% total efficiency against about 50% for the conventional arrangement of separate grid electricity and an on-site boiler, and notes that nearly two-thirds of the energy in conventional generation is discharged as heat during generation, transmission and distribution. That comparison is a first-law statement: it adds a joule of 90 °C hot water to a joule of electricity as though they were the same thing. On a second-law accounting — which weights each output by the work that could in principle be recovered from it — they are not, and the same reasoning explains why burning gas at flame temperature to hold a room at 20 °C destroys most of the fuel's available work no matter how little goes up the flue. Which convention a headline number follows is rarely stated, and it is the first thing to check when comparing technologies, as the wider treatment of [capacity factors and energy metrics](/en/physics/energy/capacity-factor-and-energy-metrics) sets out.
 
 ## What these numbers do not cover
 

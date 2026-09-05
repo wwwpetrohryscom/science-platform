@@ -5,7 +5,7 @@ excerpt: Эволюция — это изменение генетическог
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evolution

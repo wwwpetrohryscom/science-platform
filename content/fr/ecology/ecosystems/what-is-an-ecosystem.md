@@ -4,7 +4,7 @@ excerpt: Un écosystème n'est pas un lieu, c'est un flux. Ce que cette distinct
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecosystems

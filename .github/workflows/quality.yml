@@ -81,6 +81,12 @@ jobs:
       - name: Glossary linker guards
         run: npm run glossary:link:test
 
+      # The internal-linking engine has the worst track record in the
+      # repository: a wrong-sense cross-discipline link, and links
+      # written into citation lists. Both are fixtures here.
+      - name: Internal-linking guards
+        run: npm run content:link:test
+
       - name: FAQ rules
         run: npm run faqs:validate
 

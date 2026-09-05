@@ -30,6 +30,7 @@
     "glossary:relocalize": "tsx scripts/glossary-relocalize-links.ts",
     "faqs:validate": "tsx scripts/validate-faqs.ts",
     "content:link": "tsx scripts/build-internal-links.ts",
+    "content:link:test": "tsx scripts/test-internal-links.ts",
     "content:metadata": "tsx scripts/update-metadata.ts",
     "content:generate": "tsx scripts/generate-article.ts",
     "content:build": "tsx scripts/content-build.ts",

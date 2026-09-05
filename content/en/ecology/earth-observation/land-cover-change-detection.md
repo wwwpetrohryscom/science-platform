@@ -1,11 +1,11 @@
 ---
 title: 'Land-cover change detection: mapping how the surface changes over time'
-metaTitle: 'Land-cover change detection from satellite imagery'
+metaTitle: Land-cover change detection from satellite imagery
 excerpt: Comparing satellite images from different dates is how large-scale land change is measured. This explains the difference between land cover and land use, the main change-detection methods, the global products, and the errors that have to be controlled.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - land-cover
   - land-use-change
@@ -38,7 +38,7 @@ These techniques are general, but one application has driven much of their refin
 
 ## The products and the imagery behind them
 
-Change detection is not only a research technique; it produces operational maps that many users rely on. At the global and regional scale, the ESA Climate Change Initiative land-cover maps offer a consistent series across the planet, while the Copernicus Land Monitoring Service delivers pan-European and global products ([Copernicus Land](https://land.copernicus.eu/)). The ESA Climate Change Initiative effort sits within the agency's wider Earth-observation programme ([ESA](https://www.esa.int/Applications/Observing_the_Earth)). National efforts complement these, such as the USGS National Land Cover Database built on the long Landsat record ([USGS](https://www.usgs.gov/landsat-missions)), and the European Commission's Joint Research Centre produces land and forest monitoring of its own ([JRC](https://joint-research-centre.ec.europa.eu/)).
+Change detection is not only a research technique; it produces operational maps that many users rely on. At the global and regional scale, the ESA Climate Change Initiative land-cover maps offer a consistent series across the planet, while the Copernicus Land Monitoring Service delivers pan-European and global products ([Copernicus Land](https://land.copernicus.eu/)). The ESA Climate Change Initiative effort sits within the agency's wider Earth-observation programme ([ESA](https://www.esa.int/Applications/Observing_the_Earth)). National efforts complement these, such as the USGS National Land Cover Database built on the long Landsat record ([USGS](https://www.usgs.gov/landsat-missions)), and the European Commission's Joint Research Centre produces land and [forest monitoring](/en/ecology/forests/deforestation-statistics-explained) of its own ([JRC](https://joint-research-centre.ec.europa.eu/)).
 
 Most of these products rest on the same foundation: Landsat and Sentinel imagery. That dependence is worth stating plainly, because it means the quality of any land-cover map is bounded by the quality of its input scenes and by the classification method applied to them. The Landsat side of that foundation, with its decades of moderate-resolution coverage, is described in [the Landsat program](/en/ecology/earth-observation/landsat-program-explained), and how such inputs are packaged for use is the subject of [Earth observation data products](/en/ecology/earth-observation/earth-observation-data-products).
 

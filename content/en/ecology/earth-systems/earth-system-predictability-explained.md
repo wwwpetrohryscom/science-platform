@@ -5,7 +5,7 @@ excerpt: A forecast and a projection are different kinds of statement. One depen
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - predictability
@@ -49,7 +49,7 @@ Four regimes, each drawing on a different source of skill.
 
 **Years to a decade.** Decadal prediction attempts to combine an initialised ocean state with the forced response. It is the least mature of the four regimes: the signal from internal variability is comparable to the forced signal at this horizon, so both must be got right.
 
-**Decades to a century.** Skill comes almost entirely from the forced response — the accumulated change to the energy budget from greenhouse gases and aerosols. Initial conditions have washed out entirely, which is precisely why this regime does not inherit the two-week limit.
+**Decades to a century.** Skill comes almost entirely from the forced response — the accumulated change to the [energy budget](/en/ecology/climate-change/climate-sensitivity-explained) from [greenhouse gases](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) and aerosols. Initial conditions have washed out entirely, which is precisely why this regime does not inherit the two-week limit.
 
 ## Why the long horizon has its own uncertainties
 

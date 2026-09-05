@@ -5,7 +5,7 @@ excerpt: Unrelated lineages arrive at similar traits often enough that convergen
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - evolution
@@ -40,7 +40,7 @@ The boundary between the middle two is not fixed by nature. Whether two origins 
 
 Milkweeds and their relatives produce cardiac glycosides, which block the sodium pump Na⁺/K⁺-ATPase — a protein no animal can do without. Insects from six orders have independently colonised such plants, and many have acquired amino acid substitutions in the α-subunit of that pump. The substitutions are not scattered: three positions, 111, 119 and 122, change repeatedly across lineages.
 
-Genome editing turned that pattern into a causal test. CRISPR base editing applied to the native gene in *Drosophila melanogaster* [retraced the mutational path taken in the monarch lineage](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039281/), producing triple-mutant flies as insensitive to cardiac glycosides as monarch butterflies themselves, which also retained small amounts of the toxin through metamorphosis. The order in which the substitutions appeared was not arbitrary either: earlier changes ameliorate the costs of later ones through epistasis, so some sequences of steps are accessible and others are not.
+[Genome editing](/en/biology/biotechnology/biotechnology-explained) turned that pattern into a causal test. CRISPR [base editing](/en/biology/biotechnology/crispr-genome-editing-explained) applied to the native gene in *Drosophila melanogaster* [retraced the mutational path taken in the monarch lineage](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039281/), producing triple-mutant flies as insensitive to cardiac glycosides as monarch butterflies themselves, which also retained small amounts of the toxin through metamorphosis. The order in which the substitutions appeared was not arbitrary either: earlier changes ameliorate the costs of later ones through epistasis, so some sequences of steps are accessible and others are not.
 
 The same target has been examined in leaf-mining flies feeding on plants from four botanical families that independently evolved cardiac glycosides of two structural classes. Five of six exposed species carried [substitutions in the toxin-binding site previously described in other insect orders](https://pubmed.ncbi.nlm.nih.gov/28731826/), and in only one species was the gene duplicated instead. Repeatability of this kind is what makes convergence useful as a search strategy: it nominates candidate sites, which editing can then confirm or reject.
 

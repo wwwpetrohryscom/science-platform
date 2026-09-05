@@ -5,7 +5,7 @@ excerpt: Renaturierung verbessert zuverlässig einen degradierten Ausgangszustan
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecological-restoration

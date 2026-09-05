@@ -5,7 +5,7 @@ excerpt: Boden ist ein Vierphasensystem, in Horizonte gegliedert, das mit einer 
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - soil

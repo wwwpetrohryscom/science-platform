@@ -5,7 +5,7 @@ excerpt: Biodiversity is harder to monitor than climate because no single instru
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-05-20'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biodiversity
@@ -20,7 +20,7 @@ pillar: why-species-counts-mislead-conservation
 _bodyHash: d5d1aead
 ---
 
-Climate change has a small set of canonical indicators — surface temperature, ocean heat content, sea level, sea ice extent, atmospheric greenhouse-gas concentration. Anyone reading the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) knows what is being measured.
+[Climate change](/en/ecology/climate-change/what-is-climate-change) has a small set of canonical indicators — surface temperature, ocean [heat content](/en/ecology/climate-change/ocean-heat-content-indicators), [sea level](/en/ecology/climate-change/sea-level-rise-indicators), sea ice extent, atmospheric greenhouse-gas concentration. Anyone reading the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) knows what is being measured.
 
 Biodiversity has nothing equivalent. There is no single thermometer for ecosystem state. Different agencies report different metrics on different schedules from different sampling designs, and synthesis across them has historically been hard. The Essential Biodiversity Variables (EBV) framework, developed under the [Group on Earth Observations Biodiversity Observation Network](https://www.unep.org/explore-topics/ecosystems) and used by the [IPBES Global Assessment](https://www.ipbes.net/global-assessment), is the attempt to give biodiversity monitoring a comparable backbone.
 
@@ -28,7 +28,7 @@ This piece walks through what EBVs are, why they matter, and where their limits 
 
 ## Why a framework was needed
 
-A reader of [biodiversity assessments](/en/ecology/biodiversity/why-species-counts-mislead-conservation) will encounter at least five families of metric: species counts, the Living Planet Index of population trends, IUCN Red List status, habitat extent, and genetic diversity proxies. They are not interchangeable. A region can lose substantial biomass while keeping its species count, or vice versa. Two field studies measuring "biodiversity" can be measuring different objects.
+A reader of [biodiversity assessments](/en/ecology/biodiversity/why-species-counts-mislead-conservation) will encounter at least five families of metric: species counts, the [Living Planet Index](/en/ecology/biodiversity/living-planet-index-explained) of population trends, IUCN Red List status, habitat extent, and genetic diversity proxies. They are not interchangeable. A region can lose substantial biomass while keeping its species count, or vice versa. Two field studies measuring "biodiversity" can be measuring different objects.
 
 For policy reporting under the Convention on Biological Diversity and the Kunming-Montreal Global Biodiversity Framework, this incompatibility is operationally limiting. A nation cannot report progress toward a target if the metric it reports against is not aligned with what neighbouring nations are reporting. The EBV framework was designed to identify the small set of measurement classes that, taken together, span the dimensions of biodiversity change that matter for science and policy.
 
@@ -40,7 +40,7 @@ EBVs are organized into six classes, which together cover the levels at which bi
 - **Species populations** — abundance, distribution, structure.
 - **Species traits** — phenology, morphology, physiology.
 - **Community composition** — taxonomic and functional diversity, interaction networks.
-- **Ecosystem function** — productivity, nutrient cycling, disturbance regime.
+- **Ecosystem function** — productivity, [nutrient cycling](/en/ecology/forests/tropical-forest-ecology), disturbance regime.
 - **Ecosystem structure** — habitat extent, vertical structure, fragmentation.
 
 Each class contains specific candidate variables — for instance, "live cover of habitat" within ecosystem structure, or "species distribution" within species populations. The framework as currently used by the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity) and partner organizations does not require every variable to be measured everywhere. It identifies what *would need* to be measured for a complete biodiversity assessment, so that gaps in current monitoring are visible rather than implicit.

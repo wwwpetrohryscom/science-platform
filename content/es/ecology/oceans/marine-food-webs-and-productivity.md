@@ -1,11 +1,11 @@
 ---
 title: 'Productividad marina: cómo una gigatonelada de algas alimenta a cinco gigatoneladas de animales'
-metaTitle: 'Productividad marina y la red trófica del océano'
+metaTitle: Productividad marina y la red trófica del océano
 excerpt: El océano sostiene más biomasa de consumidores que de productores, lo que suena imposible hasta que se contabiliza la renovación. Aquí están la aritmética, los límites de nutrientes y lo que el color del océano visto desde el espacio puede y no puede ver.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - marine-productivity

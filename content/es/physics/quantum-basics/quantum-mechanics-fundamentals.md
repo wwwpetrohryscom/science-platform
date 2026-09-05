@@ -5,7 +5,7 @@ excerpt: La teoría cuántica fija constantes físicas con diez cifras significa
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - quantum-mechanics

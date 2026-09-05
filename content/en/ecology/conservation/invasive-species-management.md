@@ -5,7 +5,7 @@ excerpt: Most introduced organisms never become invasive, and the cleanest effec
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - invasive-alien-species
@@ -42,7 +42,7 @@ Management options are not interchangeable alternatives; they are what remains a
 
 The 2024 global meta-analysis of conservation action placed control of introduced organisms among the intervention classes with the largest measured effect sizes. Island eradication is the closest thing conservation has to a clean experiment: a bounded system, a defined endpoint, and an outcome that can be verified by survey rather than inferred from a trend. Over the past century, 1,550 documented eradication attempts on 998 islands succeeded in 88 per cent of cases, with vertebrates the most tractable targets.
 
-The biodiversity consequence has been traced separately. A synthesis in PNAS combining literature review, database work and expert interviews identified 236 native terrestrial island species, across 596 populations, that responded positively in distribution or demography to 251 eradications of invasive mammals on 181 islands. Seven species across eight populations were harmed. Four threatened species had their Red List category reduced as a direct result, and none moved to a higher risk category. The authors further predicted that 107 highly threatened birds, mammals and reptiles — 6 per cent of all species in those groups at the highest risk levels — have probably benefited.
+The biodiversity consequence has been traced separately. A synthesis in PNAS combining literature review, database work and expert interviews identified 236 native terrestrial island species, across 596 populations, that responded positively in distribution or demography to 251 eradications of invasive mammals on 181 islands. Seven species across eight populations were harmed. Four threatened species had their [Red List](/en/ecology/conservation/species-extinction-risk-assessment) category reduced as a direct result, and none moved to a higher risk category. The authors further predicted that 107 highly threatened birds, mammals and reptiles — 6 per cent of all species in those groups at the highest risk levels — have probably benefited.
 
 Two caveats travel with those numbers. Post-eradication monitoring is sporadic, so the tally is a floor rather than an estimate. And the underlying reason islands respond so strongly is that island biotas are exceptionally vulnerable to introduced predators in the first place: 90 per cent of documented global extinctions in which an invasive alien species was a major cause occurred on islands. The evidence is strong precisely where the problem is worst, which limits how far it generalises. What happens after removal, and whether the native community reassembles, belongs to the adjoining literature on [ecological restoration](/en/ecology/conservation/ecological-restoration-evidence) and on [species recovery programmes](/en/ecology/conservation/endangered-species-recovery-programmes).
 

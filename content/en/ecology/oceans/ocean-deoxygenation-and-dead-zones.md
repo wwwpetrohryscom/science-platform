@@ -5,7 +5,7 @@ excerpt: Two processes are routinely reported under one heading. Coastal hypoxia
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - deoxygenation
@@ -28,7 +28,7 @@ Below the top few metres, seawater has no way of acquiring oxygen. Every molecul
 
 Warm water holds less dissolved gas than cold water, so a warming ocean must lose oxygen for purely physical reasons. That is the part of the story most often told, and it is the smaller part. The IPCC's Special Report on the Ocean and Cryosphere assesses that the open ocean lost a *very likely* 0.5 to 3.3 per cent of its oxygen between 1970 and 2010 in the layer from the surface to 1,000 m, at medium confidence, and states with high confidence that processes other than solubility [cause the majority of the decline](https://www.ipcc.ch/srocc/chapter/chapter-5/).
 
-Those other processes are circulation and biology. As the upper ocean warms and freshens at high latitudes it becomes less dense relative to the water beneath it — the same report puts the increase in stratification of the upper 200 m at 2.18 to 2.42 per cent between 1970 and 2017 — and a more strongly stratified column ventilates its interior more slowly. Less ventilation means less resupply, and a longer residence time also means more accumulated respiratory demand before the water surfaces again. The link between the warming signal and the circulation response is developed in the article on [ocean circulation and climate](/en/ecology/earth-systems/ocean-circulation-and-climate), and the heat input driving it is tracked as [ocean heat content](/en/glossary/ocean-heat-content).
+Those other processes are circulation and biology. As the upper ocean warms and freshens at high latitudes it becomes less dense relative to the water beneath it — the same report puts the increase in stratification of the upper 200 m at 2.18 to 2.42 per cent between 1970 and 2017 — and a more strongly stratified column ventilates its interior more slowly. Less ventilation means less resupply, and a longer [residence time](/en/ecology/earth-systems/biogeochemical-cycles-explained) also means more accumulated respiratory demand before the water surfaces again. The link between the warming signal and the circulation response is developed in the article on [ocean circulation and climate](/en/ecology/earth-systems/ocean-circulation-and-climate), and the heat input driving it is tracked as [ocean heat content](/en/glossary/ocean-heat-content).
 
 The whole-inventory measurement is consistent with this. A 2017 analysis in Nature that assembled the complete water column over five decades put the global ocean's oxygen content at 227.4 ± 1.1 petamoles and found it had [fallen by more than 2 per cent](https://www.nature.com/articles/nature21399), or 4.8 ± 2.1 petamoles, since 1960, with the loss distributed very unevenly by basin and depth. The uncertainty on that change is 44 per cent of the change itself, which is a fair summary of how well this quantity is known.
 

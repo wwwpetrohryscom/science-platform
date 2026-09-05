@@ -5,7 +5,7 @@ excerpt: Land under community or Indigenous management is never randomly located
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - indigenous-lands
@@ -59,7 +59,7 @@ The recording problem compounds it. In the Protected Planet Report 2024, drawing
 
 Global figures for the extent of Indigenous lands differ by roughly a factor of two, and the discrepancy is instructive rather than embarrassing.
 
-An aggregation of publicly available geospatial resources concluded that Indigenous Peoples manage or hold tenure rights over at least about 38 million km² across 87 countries or politically distinct areas — over a quarter of the world's land surface — intersecting about 40 per cent of terrestrial protected areas and ecologically intact landscapes. The Protected Planet Report 2024, working from what states and other authorities have reported into a protected-area database, records Indigenous and traditional territories as covering at least 13.6 per cent of global terrestrial area beyond protected and conserved areas.
+An aggregation of publicly available geospatial resources concluded that Indigenous Peoples manage or hold tenure rights over at least about 38 million km² across 87 countries or politically distinct areas — over a quarter of the world's [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) — intersecting about 40 per cent of terrestrial protected areas and ecologically intact landscapes. The Protected Planet Report 2024, working from what states and other authorities have reported into a protected-area database, records Indigenous and traditional territories as covering at least 13.6 per cent of global terrestrial area beyond protected and conserved areas.
 
 The two are measuring different things: mapped management and tenure rights in one case, territories recognised and reported into a specific database in the other. A reader who treats either as the total will misread it. The gap between them is itself a finding about how much of the world's conserved land is invisible to the official accounting, and it has direct consequences for the [allocation decisions that use those datasets](/en/ecology/conservation/conservation-trade-offs-and-prioritisation).
 

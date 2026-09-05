@@ -1,11 +1,11 @@
 ---
-title: "Le spectre électromagnétique : un seul phénomène, de multiples fenêtres sur l'univers"
-metaTitle: 'Le spectre électromagnétique et ses fenêtres'
+title: 'Le spectre électromagnétique : un seul phénomène, de multiples fenêtres sur l''univers'
+metaTitle: Le spectre électromagnétique et ses fenêtres
 excerpt: Ondes radio, lumière visible, rayons X et rayons gamma ne sont pas des phénomènes différents. C'est le même phénomène à des longueurs d'onde différentes — et c'est la longueur d'onde qui détermine ce que le rayonnement peut faire.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - quantum-basics

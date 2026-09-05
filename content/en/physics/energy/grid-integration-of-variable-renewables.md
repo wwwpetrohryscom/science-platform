@@ -4,7 +4,7 @@ excerpt: The cost of wind and solar in a power system is mostly not a cost of en
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - grid-integration
@@ -59,7 +59,7 @@ Negative prices are the market's version of the signal. Where a generator earns 
 
 ## Capacity credit is not capacity factor
 
-These two ratios answer unrelated questions and are routinely swapped. Capacity factor is about energy: annual output divided by what continuous operation at rated power would have produced. Capacity credit is about reliability: how much conventional capacity a resource displaces without degrading the system's ability to meet load in the tightest hours. A fleet can have a respectable capacity factor and a small capacity credit, and the gap widens with penetration, because clustered output is correlated — when one machine is becalmed so are its neighbours, which is the failure mode adequacy planning exists to prevent. The wind-speed dependence behind that correlation is set out in the physics of [how much power a turbine can take from moving air](/en/physics/energy/wind-energy-physics).
+These two ratios answer unrelated questions and are routinely swapped. [Capacity factor](/en/physics/energy/capacity-factor-and-energy-metrics) is about energy: annual output divided by what continuous operation at rated power would have produced. Capacity credit is about reliability: how much conventional capacity a resource displaces without degrading the system's ability to meet load in the tightest hours. A fleet can have a respectable capacity factor and a small capacity credit, and the gap widens with penetration, because clustered output is correlated — when one machine is becalmed so are its neighbours, which is the failure mode adequacy planning exists to prevent. The wind-speed dependence behind that correlation is set out in the physics of [how much power a turbine can take from moving air](/en/physics/energy/wind-energy-physics).
 
 A study of New England published in *Heliyon* shows the shape of the problem. A wind-dominant mix sized to generate one times annual demand met about 73 per cent of hourly demand with no storage, and a solar-dominant mix about 69 per cent; twelve hours of storage lifted both to roughly 86 to 87 per cent. Reaching the 99.97 per cent reliability level used in North American planning took about two and a half times annual demand in generation alongside twelve hours of storage for a wind-dominated mix, and more for a solar-dominated one. The final tranche is a different problem from the first: it is set by seasonal cycles and multi-day weather events, and covering it needs weeks of stored energy rather than hours.
 

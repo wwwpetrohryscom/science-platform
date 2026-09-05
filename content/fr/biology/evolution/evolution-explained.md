@@ -1,11 +1,12 @@
 ---
-title: 'L'évolution : les mécanismes, les preuves et les questions encore ouvertes'
+title: L
+évolution: les mécanismes, les preuves et les questions encore ouvertes'
 metaTitle: 'L''évolution : quatre mécanismes et les preuves'
 excerpt: L'évolution est un changement de la composition génétique des populations, et quatre processus la produisent plutôt qu'un seul. Cette page expose les mécanismes, les preuves indépendantes de la descendance commune et l'objet réel des débats en cours.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evolution

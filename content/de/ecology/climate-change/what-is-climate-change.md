@@ -5,9 +5,10 @@ excerpt: Der Klimawandel ist die langfristige Verschiebung der Energiebilanz der
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
+  - climate-change
   - climate
   - fundamentals
   - greenhouse-effect

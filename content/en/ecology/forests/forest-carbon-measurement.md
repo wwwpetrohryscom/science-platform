@@ -5,7 +5,7 @@ excerpt: Nobody weighs a forest. Every published forest-carbon figure is the out
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - forest-carbon
@@ -62,7 +62,7 @@ Radar approaches the same target from a different physical direction. The Europe
 
 Not in the trees. The soil pool is the largest and the loosest, and the reason is mundane: countries report soil organic carbon to a depth of their own choosing. The forest-area-weighted global average is 41 cm, but the regional figures run from 30 cm in Asia and Oceania and 32 cm in Europe to 70 cm in North and Central America. A stock reported to 30 cm and a stock reported to 70 cm are not the same quantity, and they are summed into one global total. For the countries that did not report at all, values were derived by overlaying a 1 km global soil-carbon grid covering only the top 30 cm with forest-cover layers.
 
-The conversion factors carry their own spread. The inventory guidelines' uncertainty assessment cites basic wood density at 10 to 40 percent, growing stock at about 8 percent in industrialised countries and 30 percent elsewhere, forest area at roughly 3 percent in industrialised countries, and a combination of remote sensing with ground survey that it says could be as low as 10 to 15 percent. Those are not small relative to the changes being detected.
+The conversion factors carry their own spread. The inventory guidelines' uncertainty assessment cites basic wood density at 10 to 40 percent, growing stock at about 8 percent in industrialised countries and 30 percent elsewhere, forest area at roughly 3 percent in industrialised countries, and a combination of [remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) with ground survey that it says could be as low as 10 to 15 percent. Those are not small relative to the changes being detected.
 
 The result propagates all the way to the global budget. The IPCC's assessment of the industrial era, covering 1750 to 2019, puts cumulative fossil-fuel and industry emissions at 445 ± 20 petagrams of carbon and the cumulative land-use, land-use-change and forestry flux at 240 ± 70 petagrams — a relative uncertainty roughly six times larger on the land term. That the land term is the least constrained part of [the global carbon budget](/en/ecology/earth-systems/carbon-cycle-explained) is a direct consequence of the chain described above.
 
@@ -70,7 +70,7 @@ The result propagates all the way to the global budget. The IPCC's assessment of
 
 Forest carbon is priced as though it were measured. It is modelled, and the model's assumptions are usually inherited defaults. The same assessment that publishes the pool table above notes that its figures diverge from what countries submit under the climate convention, because the two systems use different forest definitions, because the convention asks only about *managed* forest, and because calibration, reclassification and forecasting methods differ. Two official carbon totals for the same country's forests can therefore differ without either being wrong.
 
-For a project claiming a specific tonnage on a specific parcel, the practical consequence is that the uncertainty attached to the number is inherited from every step above it, and is widest where soil carbon is included and where default rather than locally fitted factors are used. That gap between what is certified and what is measurable is examined further in the note on [what carbon offset markets are actually buying](/en/insight/carbon-offset-outsourcing-science), and the parallel problem of counting area rather than mass is set out in [how deforestation statistics are constructed](/en/ecology/forests/deforestation-statistics-explained). The framing question — what counts as forest before anything is weighed at all — belongs to the [overview of forest definitions and structure](/en/ecology/forests/forest-ecosystems-explained).
+For a project claiming a specific tonnage on a specific parcel, the practical consequence is that the uncertainty attached to the number is inherited from every step above it, and is widest where [soil carbon](/en/ecology/soils/soil-science-explained) is included and where default rather than locally fitted factors are used. That gap between what is certified and what is measurable is examined further in the note on [what carbon offset markets are actually buying](/en/insight/carbon-offset-outsourcing-science), and the parallel problem of counting area rather than mass is set out in [how deforestation statistics are constructed](/en/ecology/forests/deforestation-statistics-explained). The framing question — what counts as forest before anything is weighed at all — belongs to the [overview of forest definitions and structure](/en/ecology/forests/forest-ecosystems-explained).
 
 ## Sources
 

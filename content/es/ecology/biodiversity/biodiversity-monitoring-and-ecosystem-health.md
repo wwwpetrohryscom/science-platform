@@ -1,17 +1,11 @@
 ---
-title: >-
-  Seguimiento de la biodiversidad y salud de los ecosistemas: cómo mide la
-  ciencia el estado de la vida
+title: 'Seguimiento de la biodiversidad y salud de los ecosistemas: cómo mide la ciencia el estado de la vida'
 metaTitle: Seguimiento de la biodiversidad y salud de los ecosistemas
-excerpt: >-
-  La biodiversidad no tiene un termómetro único. Así siguen los científicos la
-  condición de especies y ecosistemas —muestreos de campo, indicadores, bases de
-  datos de especies, teledetección y observación a largo plazo— y esto es lo que
-  cada método puede y no puede resolver.
+excerpt: La biodiversidad no tiene un termómetro único. Así siguen los científicos la condición de especies y ecosistemas —muestreos de campo, indicadores, bases de datos de especies, teledetección y observación a largo plazo— y esto es lo que cada método puede y no puede resolver.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - biodiversity

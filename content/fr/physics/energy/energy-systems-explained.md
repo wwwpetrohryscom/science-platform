@@ -5,7 +5,7 @@ excerpt: L'énergie primaire, les vecteurs énergétiques et la consommation fin
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - energy-systems

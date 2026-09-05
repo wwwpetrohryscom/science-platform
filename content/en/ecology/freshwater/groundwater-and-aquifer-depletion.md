@@ -5,7 +5,7 @@ excerpt: Groundwater holds most of the planet's liquid fresh water, yet its cond
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - groundwater
@@ -48,7 +48,7 @@ No single instrument observes the thing that policy asks about. The three approa
 | Satellite gravimetry (GRACE, GRACE-FO) | Change in total terrestrial water mass | Large regions, monthly | Cannot separate groundwater from soil moisture, snow, surface water or ice |
 | Hydrological and groundwater models | A simulated water balance | Basin to global | Inherits every error in reported abstraction and in assumed recharge |
 
-NASA flew the original Gravity Recovery and Climate Experiment from 2002 to 2017 and launched its successor, GRACE-FO, on 22 May 2018. The missions are exceptionally good at what they do, but the separation problem is intrinsic. When one team assessed the record and published [34 trends in global freshwater availability](https://www.nature.com/articles/s41586-018-0123-1) in 2018, the drivers had to be sorted by hand into natural interannual variability, unsustainable groundwater consumption, climate change, or combinations of the three. A gravity trend is a mass signal; calling it depletion is an attribution step performed afterwards.
+NASA flew the original Gravity Recovery and Climate Experiment from 2002 to 2017 and launched its successor, GRACE-FO, on 22 May 2018. The missions are exceptionally good at what they do, but the separation problem is intrinsic. When one team assessed the record and published [34 trends in global freshwater availability](https://www.nature.com/articles/s41586-018-0123-1) in 2018, the drivers had to be sorted by hand into natural interannual variability, unsustainable groundwater consumption, [climate change](/en/ecology/climate-change/what-is-climate-change), or combinations of the three. A gravity trend is a mass signal; calling it depletion is an attribution step performed afterwards.
 
 ## Where the methods disagree, and where they agree
 

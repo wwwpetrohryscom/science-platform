@@ -4,7 +4,7 @@ excerpt: Mutation covers events spanning eight orders of magnitude in size. Trio
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - mutation-rate
@@ -55,7 +55,7 @@ Read carefully, this is a statement about the supply of new variation in a popul
 
 ## Rate is a trait, not a constant
 
-Across the tree of life the per-base rate varies enormously while the per-genome rate does not. Comparing DNA-based microbes whose genome sizes span roughly 6,500-fold, per-base-pair mutation rates were found to vary by about 16,000-fold — yet per-genome rates varied only around 2.5-fold, clustering near 0.0033 mutations per DNA replication. The per-base rate is close to inversely proportional to genome size, which is what one expects if selection acts on the mutational burden per replication rather than on fidelity per nucleotide.
+Across the [tree of life](/en/biology/taxonomy/the-tree-of-life-and-domains) the per-base rate varies enormously while the per-genome rate does not. Comparing DNA-based microbes whose genome sizes span roughly 6,500-fold, per-base-pair mutation rates were found to vary by about 16,000-fold — yet per-genome rates varied only around 2.5-fold, clustering near 0.0033 mutations per DNA replication. The per-base rate is close to inversely proportional to genome size, which is what one expects if selection acts on the mutational burden per replication rather than on fidelity per nucleotide.
 
 Viruses sit outside that regularity and show their own gradient. A systematic review of more than 40 original estimates put DNA viruses at 10⁻⁸ to 10⁻⁶ substitutions per nucleotide per cell infection and RNA viruses at 10⁻⁶ to 10⁻⁴, with nucleotide substitutions about four times more common than insertions or deletions. Rates spanning four orders of magnitude between virus groups are one reason the mutational supply available to a pathogen differs so much between systems, a theme that recurs in [how antibiotic resistance evolves](/en/biology/evolution/antibiotic-resistance-evolution-mechanisms).
 

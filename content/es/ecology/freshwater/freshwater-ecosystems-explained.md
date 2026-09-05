@@ -5,7 +5,7 @@ excerpt: Ríos, lagos y pantanos retienen menos de la centésima parte del uno p
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - freshwater

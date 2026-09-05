@@ -5,7 +5,7 @@ excerpt: L'essentiel du carbone terrestre est enfermé dans la roche et se dépl
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle

@@ -118,12 +118,17 @@ const CASES: Case[] = [
     mutate: (fr) => fr.replace("/fr/ecology/climate-change", "/en/ecology/climate-change"),
   },
   {
-    name: "an internal link dropped",
+    // Only the "added" direction is a fidelity question: a translation
+    // that links somewhere the English original does not is asserting a
+    // connection the original never made. A translation missing one of
+    // the original's links is behind, not wrong, and is measured as a
+    // rate by scripts/localization-report.ts instead.
+    name: "an internal link the English article does not have",
     rule: "translation-links",
     mutate: (fr) =>
       fr.replace(
-        "[ce qu'est le changement climatique](/fr/ecology/climate-change/what-is-climate-change)",
         "ce qu'est le changement climatique",
+        "[la sensibilité climatique](/fr/ecology/climate-change/climate-sensitivity-explained)",
       ),
   },
   {

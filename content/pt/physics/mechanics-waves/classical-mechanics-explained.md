@@ -5,7 +5,7 @@ excerpt: As leis de Newton são menos um conjunto de factos sobre objetos do que
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics

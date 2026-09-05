@@ -4,7 +4,7 @@ excerpt: Um ecossistema não é um lugar, é um fluxo. O que essa distinção mu
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecosystems

@@ -5,7 +5,7 @@ excerpt: La atmósfera sostiene unas diez toneladas de aire sobre cada metro cua
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - atmospheric-physics

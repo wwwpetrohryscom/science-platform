@@ -1,11 +1,11 @@
 ---
 title: Was ist eine Zelle? Die Einheit des Lebens, operational definiert
-metaTitle: 'Was ist eine Zelle? Eine operationale Definition'
+metaTitle: Was ist eine Zelle? Eine operationale Definition
 excerpt: Eine Zelle ist die kleinste Einheit, die sich selbst erhalten, sich selbst kopieren und auf ihre Umwelt reagieren kann. Jede dieser Anforderungen schließt aus, was „Zelle“ nicht bedeutet – und erklärt, warum die Grenzfälle interessant sind.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - cells

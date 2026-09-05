@@ -5,7 +5,7 @@ excerpt: A remaining carbon budget is an assessed quantity with five separately 
 type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - carbon-budget
@@ -41,7 +41,7 @@ AR6 applies the framework introduced in the Special Report on Global Warming of 
 | --- | --- | --- |
 | TCRE | warming per unit of cumulative CO₂ | likely 1.0–2.3°C per 1000 PgC; generates the percentile columns |
 | Historical human-induced warming | how much of the temperature allowance is already spent | 1.07°C (0.8–1.3°C) from 1850–1900 to 2010–2019; ±550 GtCO₂ |
-| Non-CO₂ warming | warming from methane, nitrous oxide and aerosols consuming the same allowance | ±220 GtCO₂ from response uncertainty, plus ±220 GtCO₂ from how much non-CO₂ mitigation is assumed |
+| Non-CO₂ warming | warming from methane, [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained) and aerosols consuming the same allowance | ±220 GtCO₂ from response uncertainty, plus ±220 GtCO₂ from how much non-CO₂ mitigation is assumed |
 | Zero emissions commitment | any further warming after net zero CO₂ is reached | central estimate zero, likely ±0.19°C; ±420 GtCO₂ |
 | Unrepresented Earth system feedbacks | permafrost carbon and similar processes absent from standard models | about 26 ± 97 GtCO₂ per °C, assessed with low confidence |
 

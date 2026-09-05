@@ -5,7 +5,7 @@ excerpt: Epigenetics carries a strict laboratory definition and a much looser po
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - epigenetics
@@ -29,7 +29,7 @@ The gap between the two matters because they carry different evidential burdens.
 
 Three layers are usually meant by the word. [DNA methylation](/en/glossary/dna-methylation) attaches a methyl group to cytosine, overwhelmingly at CpG dinucleotides. Histone modifications — acetylation, methylation and others, on the tails of the proteins DNA is wound around — alter how tightly a region is packaged and which reader proteins bind it. Chromatin accessibility is the downstream result: whether [the transcriptional machinery](/en/glossary/transcription) can physically reach a stretch of sequence at all.
 
-The methylation layer is the one most often described as a switch, and the description is misleading about scale. Whole-genome bisulphite sequencing across 30 human cell and tissue types found that most cell types carry [70 to 80 per cent of all CpG sites in the methylated state](https://pmc.ncbi.nlm.nih.gov/articles/PMC3821869/), and that only 21.8 per cent of autosomal CpG sites showed dynamic regulation in a normal developmental context. Most of that dynamic minority sat away from transcription start sites and coincided with enhancers and transcription-factor binding sites. The methylome, in other words, is mostly stable background; the informative part is a minority fraction concentrated at regulatory elements.
+The methylation layer is the one most often described as a switch, and the description is misleading about scale. Whole-genome bisulphite sequencing across 30 human cell and tissue types found that most [cell types](/en/biology/evolution/cell-types-as-units-of-evolution) carry [70 to 80 per cent of all CpG sites in the methylated state](https://pmc.ncbi.nlm.nih.gov/articles/PMC3821869/), and that only 21.8 per cent of autosomal CpG sites showed dynamic regulation in a normal developmental context. Most of that dynamic minority sat away from transcription start sites and coincided with enhancers and transcription-factor binding sites. The methylome, in other words, is mostly stable background; the informative part is a minority fraction concentrated at regulatory elements.
 
 Mapping the histone and accessibility layers took a coordinated effort. The NIH Roadmap Epigenomics Consortium produced [111 reference human epigenomes](https://pmc.ncbi.nlm.nih.gov/articles/PMC4530010/), analysed together with 16 previously reported by ENCODE for 127 in total, profiling histone modification patterns, DNA accessibility, methylation and RNA expression, and summarising the combinations into a 15-state chromatin model. One of its findings connects this field directly to statistical genetics: disease- and trait-associated variants were enriched in tissue-specific epigenomic marks, which is how a non-coding hit from a [genome-wide association study](/en/biology/genetics/genome-wide-association-studies-explained) gets assigned to a plausible cell type.
 
@@ -65,7 +65,7 @@ The second is composition. Most human studies sample blood, because the tissue o
 
 The third is measurement. Whole-genome bisulphite sequencing is informative but wasteful — in the same 30-tissue analysis, most of the sequencing reads carried little or no relevant information about CpG methylation — which is why large studies generally use arrays covering a small, preselected fraction of sites instead. What an array does not interrogate cannot appear in the result, and the selection of sites was made on prior expectations about where regulation happens.
 
-None of this makes the field weak. It makes the strong version of the popular claim — that experience rewrites inheritance — a claim that the mammalian evidence does not currently support, while the developmental version is among the better-established results in molecular biology. Settling the question would take designs that follow unexposed descendants, measure the germline rather than a surrogate tissue, and distinguish a mark that is copied from one that is merely present — the kind of unambiguous parent-to-child tracing that [changes to the sequence itself](/en/biology/genetics/mutation-types-and-rates) allow.
+None of this makes the field weak. It makes the strong version of the popular claim — that experience rewrites inheritance — a claim that the mammalian evidence does not currently support, while the developmental version is among the better-established results in [molecular biology](/en/biology/cells/cell-signaling-pathways-basics). Settling the question would take designs that follow unexposed descendants, measure the germline rather than a surrogate tissue, and distinguish a mark that is copied from one that is merely present — the kind of unambiguous parent-to-child tracing that [changes to the sequence itself](/en/biology/genetics/mutation-types-and-rates) allow.
 
 ## Sources
 

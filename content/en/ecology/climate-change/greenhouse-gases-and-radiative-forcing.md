@@ -1,11 +1,11 @@
 ---
 title: 'Greenhouse gases and radiative forcing: what the term actually measures'
-metaTitle: 'Greenhouse gases and radiative forcing'
+metaTitle: Greenhouse gases and radiative forcing
 excerpt: Radiative forcing is the bookkeeping unit that lets atmospheric scientists compare the climate effect of one molecule against another. It is also the unit most commonly misread.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-22'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - climate-change
@@ -20,7 +20,7 @@ pillar: what-is-climate-change
 _bodyHash: 1f8640a1
 ---
 
-[Radiative forcing](/en/glossary/radiative-forcing) is the unit climate scientists use to compare the climate effect of one [greenhouse gas](/en/glossary/greenhouse-gas), aerosol, or land-use change against another. It has a precise definition — the change in net downward radiative flux at the tropopause after stratospheric temperatures adjust, in watts per square metre — and it is the bookkeeping that lets the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) put carbon dioxide, methane, nitrous oxide, halocarbons, ozone, and aerosols on the same axis.
+[Radiative forcing](/en/glossary/radiative-forcing) is the unit climate scientists use to compare the climate effect of one [greenhouse gas](/en/glossary/greenhouse-gas), aerosol, or land-use change against another. It has a precise definition — the change in net downward radiative flux at the tropopause after stratospheric temperatures adjust, in watts per square metre — and it is the bookkeeping that lets the [IPCC AR6 Working Group I assessment](https://www.ipcc.ch/report/ar6/wg1/) put carbon dioxide, methane, [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained), halocarbons, ozone, and aerosols on the same axis.
 
 Understanding what the number does and does not measure is the difference between reading climate evidence as it is presented and overreading it.
 
@@ -46,13 +46,13 @@ Reading "CO₂-equivalent" without checking the integration window is reading ha
 
 Greenhouse gases do not warm the surface by absorbing all infrared in their relevant bands — most of those bands are already saturated. Each additional molecule contributes a smaller marginal forcing in the band centre and a larger contribution in the band wings. The net relationship between concentration and forcing is therefore approximately logarithmic for CO₂ over the relevant range.
 
-The practical consequence is that doubling CO₂ from 280 ppm (preindustrial) to 560 ppm produces roughly the same forcing as another doubling from 560 to 1120 ppm, not a quadrupling. This is encoded in standard formulae used by climate models and reviewed in [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/). It does not mean the warming response saturates — it means the relationship between concentration and forcing has a particular shape that policy framing should respect.
+The practical consequence is that doubling CO₂ from 280 ppm (preindustrial) to 560 ppm produces roughly the same forcing as another doubling from 560 to 1120 ppm, not a quadrupling. This is encoded in standard formulae used by [climate models](/en/ecology/climate-change/climate-models-projections-uncertainty) and reviewed in [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/). It does not mean the warming response saturates — it means the relationship between concentration and forcing has a particular shape that policy framing should respect.
 
 ## Where the number gets misread
 
 Three misreadings of radiative forcing recur in popular coverage.
 
-**Forcing is not temperature.** A given forcing produces a temperature response that depends on the climate sensitivity of the system — the equilibrium response to a doubling of CO₂. AR6 assesses this at a likely range of 2.5–4 °C with a best estimate of 3 °C. Forcing is the input; sensitivity governs the output. Confusing the two leads to claims that the climate has "already warmed less than the forcing implies" or "more than it implies", neither of which engages with how the response actually unfolds in time.
+**Forcing is not temperature.** A given forcing produces a temperature response that depends on the [climate sensitivity](/en/ecology/climate-change/climate-sensitivity-explained) of the system — the equilibrium response to a doubling of CO₂. AR6 assesses this at a likely range of 2.5–4 °C with a best estimate of 3 °C. Forcing is the input; sensitivity governs the output. Confusing the two leads to claims that the climate has "already warmed less than the forcing implies" or "more than it implies", neither of which engages with how the response actually unfolds in time.
 
 **Aerosol forcing is uncertain.** The negative forcing from anthropogenic aerosols partly offsets greenhouse-gas warming, but the magnitude is harder to constrain than greenhouse-gas forcing. AR6 reports a wide uncertainty range for aerosol effective radiative forcing because aerosol-cloud interactions are difficult to observe and model. Phasing out sulfate emissions from shipping or coal can therefore unmask warming that the gas concentrations alone would not predict.
 
@@ -72,7 +72,7 @@ The compact operational summary of the forcing trend is NOAA's [Annual Greenhous
 
 ## Forcing is not feedback, and water vapour is the test case
 
-The most consequential distinction in this area is between an agent that *drives* a change to the energy budget and one that *responds* to the resulting temperature change. Water vapour contributes more to the natural greenhouse effect than any other constituent, and yet it is not a forcing agent, because its concentration is set by temperature rather than by emission and its atmospheric residence time is around nine days. Add vapour and it rains out; add carbon dioxide and it accumulates for centuries. That asymmetry is why vapour appears in assessments as the largest feedback rather than as a driver — IPCC AR6 assesses the combined water-vapour and lapse-rate feedback at +1.30 W m⁻² °C⁻¹ — and the distinction is developed in [the water-vapour feedback](/en/ecology/earth-systems/water-vapor-feedback-explained) and [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms).
+The most consequential distinction in this area is between an agent that *drives* a change to the energy budget and one that *responds* to the resulting temperature change. Water vapour contributes more to the natural greenhouse effect than any other constituent, and yet it is not a forcing agent, because its concentration is set by temperature rather than by emission and its atmospheric [residence time](/en/ecology/earth-systems/biogeochemical-cycles-explained) is around nine days. Add vapour and it rains out; add carbon dioxide and it accumulates for centuries. That asymmetry is why vapour appears in assessments as the largest feedback rather than as a driver — IPCC AR6 assesses the combined water-vapour and lapse-rate feedback at +1.30 W m⁻² °C⁻¹ — and the distinction is developed in [the water-vapour feedback](/en/ecology/earth-systems/water-vapor-feedback-explained) and [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms).
 
 For the current state of the long-lived gases, the WMO's Global Atmosphere Watch reports 2024 global mean surface concentrations of 423.9 ± 0.2 ppm for carbon dioxide, 1942 ± 2 ppb for methane, and 338.0 ± 0.1 ppb for nitrous oxide — increases of 52, 166, and 25 per cent respectively above pre-1750 levels.
 

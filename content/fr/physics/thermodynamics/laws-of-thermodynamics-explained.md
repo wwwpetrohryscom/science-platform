@@ -1,11 +1,11 @@
 ---
 title: 'Les principes de la thermodynamique : ce que chacun interdit réellement'
-metaTitle: 'Les principes de la thermodynamique et leurs interdits'
+metaTitle: Les principes de la thermodynamique et leurs interdits
 excerpt: Les quatre principes sont des interdictions, non des recettes. Chacun exclut une classe de machine ou de processus, et ensemble ils fixent ce que signifie la température, ce que la comptabilité de l'énergie doit équilibrer et dans quel sens un processus peut se dérouler.
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - thermodynamics

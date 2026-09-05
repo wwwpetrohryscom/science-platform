@@ -1,16 +1,11 @@
 ---
-title: >-
-  Science du système Terre : comment les grands systèmes de la planète
-  interagissent
+title: 'Science du système Terre : comment les grands systèmes de la planète interagissent'
 metaTitle: 'Science du système Terre : composantes et couplages'
-excerpt: >-
-  L'air, l'eau, la glace, la roche et le vivant s'étudient d'ordinaire
-  séparément. La science du système Terre étudie les couplages entre eux — là où
-  résident l'essentiel des comportements et l'essentiel de l'incertitude.
+excerpt: L'air, l'eau, la glace, la roche et le vivant s'étudient d'ordinaire séparément. La science du système Terre étudie les couplages entre eux — là où résident l'essentiel des comportements et l'essentiel de l'incertitude.
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - earth-system
@@ -25,26 +20,11 @@ related:
   - earth-system-models-explained
 faq:
   - question: Qu'est-ce que la science du système Terre ?
-    answer: >-
-      C'est l'étude de la planète comme un ensemble de composantes couplées —
-      atmosphère, océan et eaux continentales, glace, roche et sol, vivant — qui
-      échangent entre elles énergie et matière. Son geste fondateur consiste à
-      faire des échanges entre composantes l'objet même de l'étude, plutôt que
-      des conditions aux limites imposées à une discipline isolée.
+    answer: C'est l'étude de la planète comme un ensemble de composantes couplées — atmosphère, océan et eaux continentales, glace, roche et sol, vivant — qui échangent entre elles énergie et matière. Son geste fondateur consiste à faire des échanges entre composantes l'objet même de l'étude, plutôt que des conditions aux limites imposées à une discipline isolée.
   - question: En quoi se distingue-t-elle de la science du climat ?
-    answer: >-
-      La science du climat en est une partie. La science du système Terre étend
-      le même cadre couplé aux cycles du carbone, de l'eau et de l'azote, aux
-      écosystèmes et à la Terre solide, et elle étudie des processus dont les
-      échelles de temps vont de quelques jours à des millions d'années, et pas
-      seulement le signal du réchauffement anthropique.
+    answer: La science du climat en est une partie. La science du système Terre étend le même cadre couplé aux cycles du carbone, de l'eau et de l'azote, aux écosystèmes et à la Terre solide, et elle étudie des processus dont les échelles de temps vont de quelques jours à des millions d'années, et pas seulement le signal du réchauffement anthropique.
   - question: Pourquoi les rétroactions comptent-elles autant dans ce cadre ?
-    answer: >-
-      Parce qu'elles fixent l'ampleur de la réponse à une impulsion donnée.
-      L'AR6 du GIEC évalue le paramètre de rétroaction climatique nette à −1,16
-      W m⁻² °C⁻¹, avec une fourchette très probable de −1,81 à −0,51 — une
-      fourchette assez large pour que ce soit elle, et non l'amplitude du
-      forçage, qui domine l'incertitude sur le réchauffement à long terme.
+    answer: Parce qu'elles fixent l'ampleur de la réponse à une impulsion donnée. L'AR6 du GIEC évalue le paramètre de rétroaction climatique nette à −1,16 W m⁻² °C⁻¹, avec une fourchette très probable de −1,81 à −0,51 — une fourchette assez large pour que ce soit elle, et non l'amplitude du forçage, qui domine l'incertitude sur le réchauffement à long terme.
 _bodyHash: 1e169fa6
 ---
 

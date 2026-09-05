@@ -1,11 +1,11 @@
 ---
-title: "Physique des nuages : du noyau de condensation à la plus large incertitude sur la sensibilité climatique"
-metaTitle: 'Physique des nuages et la plus large incertitude climatique'
+title: 'Physique des nuages : du noyau de condensation à la plus large incertitude sur la sensibilité climatique'
+metaTitle: Physique des nuages et la plus large incertitude climatique
 excerpt: Les nuages refroidissent la planète actuelle d'environ 20 W/m², et leur réponse au réchauffement reste la première source de dispersion sur la sensibilité climatique. Ces deux énoncés ne se contredisent pas, et comprendre pourquoi constitue l'essentiel du sujet.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - cloud-physics

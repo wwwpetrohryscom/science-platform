@@ -1,11 +1,11 @@
 ---
 title: 'Cloud physics: from a condensation nucleus to the widest uncertainty in climate sensitivity'
-metaTitle: 'Cloud physics and the largest climate-sensitivity uncertainty'
+metaTitle: Cloud physics and the largest climate-sensitivity uncertainty
 excerpt: Clouds cool the present-day planet by roughly 20 W/m², and their response to warming is still the largest single source of spread in climate sensitivity. Those two statements are not in tension, and understanding why is most of the subject.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - cloud-physics
@@ -48,7 +48,7 @@ That second mechanism is worth holding on to, because the mixed-phase cloud in w
 
 A cloud reflects incoming sunlight, which cools. It also absorbs radiation from the surface below and re-emits at its own, colder temperature, which warms — the wavelength-by-wavelength bookkeeping behind that second effect is set out under [radiative transfer](/en/physics/climate-physics/radiative-transfer-explained). Whether either dominates depends on how reflective the cloud is and how high its top is, and the aggregate is not obvious from the physics of a single cloud.
 
-IPCC AR6 quantifies the aggregate by comparing the observed energy budget with one computed by removing the clouds and leaving everything else in place. Without clouds, 47 W/m² less solar radiation is reflected back to space — 53 ± 2 W/m² instead of 100 ± 2 W/m² — while 28 W/m² more thermal radiation escapes, 267 ± 3 W/m² instead of 239 ± 3 W/m². The shortwave term wins, and the cloud-free budget is left with a 20 W/m² imbalance at the top of the atmosphere. Clouds, on balance, cool the present-day planet by about that much.
+IPCC AR6 quantifies the aggregate by comparing the observed energy budget with one computed by removing the clouds and leaving everything else in place. Without clouds, 47 W/m² less [solar radiation](/en/physics/energy/solar-radiation-and-earth-energy-balance) is reflected back to space — 53 ± 2 W/m² instead of 100 ± 2 W/m² — while 28 W/m² more [thermal radiation](/en/physics/thermodynamics/heat-transfer-conduction-convection-radiation) escapes, 267 ± 3 W/m² instead of 239 ± 3 W/m². The shortwave term wins, and the cloud-free budget is left with a 20 W/m² imbalance at the top of the atmosphere. Clouds, on balance, cool the present-day planet by about that much.
 
 Two caveats travel with that figure. The cloud-free budget is not a state the planet could sit in: AR6 builds it by removing the cloud effects while holding the atmospheric and surface radiative properties otherwise identical, using in situ and satellite measurements taken under cloud-free conditions, and notes that the resulting 20 W/m² imbalance implies the Earth would warm substantially if there were no clouds. And the cooling is a global mean over a very uneven field. NASA's Earth Observatory, presenting a MODIS/Aqua cloud-fraction map averaged over July 2002 to April 2015, cites a satellite study putting about 67 per cent of Earth's surface typically under cloud, and separate research finding less than 10 per cent of the sky over the oceans completely clear at any one time against 30 per cent over land.
 

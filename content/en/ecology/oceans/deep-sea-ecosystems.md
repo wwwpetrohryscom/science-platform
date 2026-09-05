@@ -4,7 +4,7 @@ excerpt: More than nine-tenths of the ocean lies below the sunlit layer, and exp
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - deep-sea
@@ -37,7 +37,7 @@ Light is the constraint that defines the zones. The upper 200 metres is the euph
 | Aphotic | Below 1,000 m | Sunlight absent; average temperature near 4 °C |
 | Hadal | 6,000–11,000 m | Isolated trenches and troughs, together about half the area of Australia |
 
-The third constraint, and the operative one, is food. With no local photosynthesis, almost everything below the twilight zone depends on organic matter sinking from the layer above — the export flux described in [marine productivity](/en/ecology/oceans/marine-food-webs-and-productivity) — supplemented by animals that migrate up to feed at night and respire at depth by day. The magnitude of that second pathway is large and poorly pinned down: an acoustic analysis published in Nature Communications revised the standing estimate of mesopelagic fish biomass, then about 1,000 million tonnes, upward by at least an order of magnitude, and calculated that these fish may respire around 10 per cent of primary production in deep water. A revision of that size in the biomass of the ocean's most abundant vertebrates, arrived at within the last fifteen years, is a fair measure of how loosely constrained the deep sea remains.
+The third constraint, and the operative one, is food. With no local photosynthesis, almost everything below the twilight zone depends on organic matter sinking from the layer above — the export flux described in [marine productivity](/en/ecology/oceans/marine-food-webs-and-productivity) — supplemented by animals that migrate up to feed at night and respire at depth by day. The magnitude of that second pathway is large and poorly pinned down: an acoustic analysis published in Nature Communications revised the standing estimate of mesopelagic fish biomass, then about 1,000 million tonnes, upward by at least an order of magnitude, and calculated that these fish may respire around 10 per cent of [primary production](/en/ecology/ecosystems/primary-production-and-energy-flow) in deep water. A revision of that size in the biomass of the ocean's most abundant vertebrates, arrived at within the last fifteen years, is a fair measure of how loosely constrained the deep sea remains.
 
 ## Two ways to build an ecosystem without sunlight
 

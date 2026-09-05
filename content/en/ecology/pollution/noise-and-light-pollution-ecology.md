@@ -1,11 +1,11 @@
 ---
 title: 'Noise and artificial light at night: pollution that cannot be sampled after the fact'
-metaTitle: 'Noise and artificial light at night as pollution'
+metaTitle: Noise and artificial light at night as pollution
 excerpt: Sound and light leave no residue in soil, water or tissue. They exist only while the source is running, and that single property shapes how they are measured, why their ecological effects were regulated late, and what the evidence can support.
 type: expert
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - anthropogenic-noise
@@ -42,13 +42,13 @@ The breadth question was addressed separately by a phylogenetically controlled [
 
 ## Underwater, the physics inverts
 
-Water absorbs light within the upper part of the column and carries sound far beyond it, which makes the ocean an acoustic environment in a way no terrestrial habitat is. A 2021 review of [the ocean soundscape](https://www.science.org/doi/10.1126/science.aba4658) frames the change as a shift in three components at once: anthrophony, the sound of human activity, has risen with shipping, resource exploration and construction; biophony, the sound of life, has fallen with hunting, fishing and habitat degradation; and geophony, the abiotic soundscape, is being altered by climate change. The signal-to-noise ratio has therefore moved twice, from both directions.
+Water absorbs light within the upper part of the column and carries sound far beyond it, which makes the ocean an acoustic environment in a way no terrestrial habitat is. A 2021 review of [the ocean soundscape](https://www.science.org/doi/10.1126/science.aba4658) frames the change as a shift in three components at once: anthrophony, the sound of human activity, has risen with shipping, resource exploration and construction; biophony, the sound of life, has fallen with hunting, fishing and habitat degradation; and geophony, the abiotic soundscape, is being altered by [climate change](/en/ecology/climate-change/what-is-climate-change). The signal-to-noise ratio has therefore moved twice, from both directions.
 
 Animals do compensate, and the limits of that compensation are measurable. A study of male bearded seals in the Arctic found that [vocalising individuals raised their call amplitude as ambient noise rose, up to a threshold](https://royalsocietypublishing.org/doi/10.1098/rspb.2020.2712) — beyond which source levels stopped increasing and the calls could no longer keep pace with the background. The existence of that ceiling is the finding. Behavioural flexibility does not make a species safe from noise; it makes the dose-response curve non-linear, with a region where nothing appears to happen followed by a region where it does.
 
 ## Light at night: amount, timing and spectrum
 
-The global picture was quantified by [an atlas of artificial sky brightness](https://www.science.org/doi/10.1126/sciadv.1600377) published in 2016 and built from high-resolution satellite data together with ground-based sky-brightness measurements, which found more than 80 per cent of the world's population and more than 99 per cent of the US and European populations living under light-polluted skies. The Milky Way is hidden from more than a third of humanity, including 60 per cent of Europeans and nearly 80 per cent of North Americans, and 23 per cent of the world's land surface between 75°N and 60°S experiences light-polluted nights, rising to 88 per cent of Europe. These are exposure figures, not effect figures, and the distinction is worth holding.
+The global picture was quantified by [an atlas of artificial sky brightness](https://www.science.org/doi/10.1126/sciadv.1600377) published in 2016 and built from high-resolution satellite data together with ground-based sky-brightness measurements, which found more than 80 per cent of the world's population and more than 99 per cent of the US and European populations living under light-polluted skies. The Milky Way is hidden from more than a third of humanity, including 60 per cent of Europeans and nearly 80 per cent of North Americans, and 23 per cent of the world's [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) between 75°N and 60°S experiences light-polluted nights, rising to 88 per cent of Europe. These are exposure figures, not effect figures, and the distinction is worth holding.
 
 On effects, a meta-analysis drawing on a database of published studies found that exposure to [artificial light at night](/en/glossary/artificial-light-at-night) induces strong responses in physiological measures, in daily activity patterns and in life-history traits, with particularly strong effects on hormone levels, on the onset of daily activity in diurnal species, and on traits including number of offspring, predation, cognition and the sea-finding behaviour of turtles. The mechanism is not brightness alone: the timing and the spectral composition of the light determine whether a given illuminance disrupts a circadian or seasonal cue, which is why the shift in the emitted [electromagnetic spectrum](/en/glossary/electromagnetic-spectrum) towards shorter wavelengths changed the biological question even where total emissions were flat. The same meta-analysis notes that very few studies have addressed consequences at the level of ecosystem function, so the well-supported findings are individual and population-level, and the community-level extrapolation is not yet earned.
 

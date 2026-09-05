@@ -1,12 +1,12 @@
 ---
 title: The observation base for environmental science is contracting where it is least replaceable
-metaTitle: 'Environmental monitoring networks are contracting'
+metaTitle: Environmental monitoring networks are contracting
 excerpt: Station counts can stay flat while the long records inside them disappear. A broken multi-decadal series cannot be reconstructed afterwards, and satellites supplement in-situ measurement rather than replacing it.
 argument: The quantity that makes an environmental record scientifically valuable is its uninterrupted length, and that quantity is being lost faster than headline station counts reveal. Some networks have genuinely grown, so the honest claim is not collapse but a redistribution away from the long series and the under-sampled places that carry the most information.
 category: ecology
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - monitoring
@@ -35,9 +35,9 @@ The same review documents sharper regional losses: 67 per cent of river gauges i
 
 ## The gauges are not where the variability is
 
-Loss of records is compounded by where the surviving instruments sit. A 2022 analysis in *Nature Sustainability* mapped [32,091 stream gauges against a global river network](https://www.nature.com/articles/s41893-022-00873-0) of 2,896,897 segments draining more than 25 km². Gauges are concentrated disproportionately in large, perennial rivers draining human-occupied watersheds, and are sparse in protected areas and in rivers with non-perennial flow — the two categories most relevant to freshwater conservation and to water security in dry regions.
+Loss of records is compounded by where the surviving instruments sit. A 2022 analysis in *Nature Sustainability* mapped [32,091 stream gauges against a global river network](https://www.nature.com/articles/s41893-022-00873-0) of 2,896,897 segments draining more than 25 km². Gauges are concentrated disproportionately in large, perennial rivers draining human-occupied watersheds, and are sparse in [protected areas](/en/ecology/conservation/conservation-science-explained) and in rivers with non-perennial flow — the two categories most relevant to freshwater conservation and to water security in dry regions.
 
-That is a bias, not merely a gap. Non-perennial rivers are where hydrological variability is greatest and where climate change is expected to alter flow regimes most sharply. A network optimised for water supply management in settled basins is not the network you would design to detect environmental change, and the two purposes have been quietly conflated for decades. Related consequences for aquifers, where the in-situ well record is even patchier, are covered in the explainer on [groundwater and aquifer depletion](/en/ecology/freshwater/groundwater-and-aquifer-depletion).
+That is a bias, not merely a gap. Non-perennial rivers are where hydrological variability is greatest and where [climate change](/en/ecology/climate-change/what-is-climate-change) is expected to alter flow regimes most sharply. A network optimised for water supply management in settled basins is not the network you would design to detect environmental change, and the two purposes have been quietly conflated for decades. Related consequences for aquifers, where the in-situ well record is even patchier, are covered in the explainer on [groundwater and aquifer depletion](/en/ecology/freshwater/groundwater-and-aquifer-depletion).
 
 ## Separating what is documented from what is asserted
 

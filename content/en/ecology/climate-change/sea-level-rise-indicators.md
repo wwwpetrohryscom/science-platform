@@ -4,7 +4,7 @@ excerpt: Global mean sea level, local sea level, and the rate of rise are three 
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-11'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - climate-change
@@ -33,7 +33,7 @@ GMSL is the right indicator for global climate communication. It answers: *has t
 
 ## Local relative sea level
 
-GMSL is not what coastal communities experience. What they experience is relative sea level — the height of the sea relative to the local land surface. Two factors make this differ from GMSL:
+GMSL is not what coastal communities experience. What they experience is relative sea level — the height of the sea relative to the local [land surface](/en/ecology/earth-systems/biosphere-climate-interactions). Two factors make this differ from GMSL:
 
 - **Vertical land motion.** The land itself rises or subsides. Glacial-isostatic adjustment is still raising parts of Scandinavia (rebound from removed Pleistocene ice) and lowering parts of the U.S. East Coast (the forebulge collapse). Sediment loading subsides large delta regions; groundwater extraction subsides cities.
 - **Ocean dynamic and gravitational effects.** GMSL is a global mean; regional sea levels deviate from it because of ocean currents, wind patterns, and the gravitational signature of ice loss (the fingerprint problem — losing ice in Greenland actually reduces sea level near Greenland and raises it disproportionately in the Southern Hemisphere).
@@ -70,7 +70,7 @@ Three caveats matter for any reader of sea-level data.
 
 ## What this indicator does not measure
 
-Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives ocean heat content accumulation, surface-air-temperature change, sea-ice loss, and shifts in extreme weather. Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
+Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives ocean heat content accumulation, surface-air-temperature change, sea-ice loss, and shifts in [extreme weather](/en/ecology/climate-change/extreme-weather-attribution-basics). Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
 
 Reading sea level honestly means reading all three indicator types: the global mean (for the planetary signal), the local relative level (for what coastal communities experience), and the rate (for the planning horizon).
 

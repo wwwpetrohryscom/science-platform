@@ -4,7 +4,7 @@ excerpt: Global estimates of carbon in the top 30 centimetres of soil range from
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - soil-carbon
@@ -69,7 +69,7 @@ Two generalisable points sit inside that. Required sampling density rises with h
 
 ## What survives into policy
 
-Several of those measurement decisions are now embedded in international reporting. Soil organic carbon stock is one of the three sub-indicators of SDG indicator 15.3.1 — the metric behind national reporting on [land degradation](/en/ecology/soils/land-degradation-and-desertification) — integrated with land cover and land productivity under a one-out-all-out rule in which a significant negative change in any one of them counts as degradation. The UNCCD's guidance sets the baseline period as the 16 years from 1 January 2000 to 31 December 2015, and concedes that global map products cannot currently supply the management and organic-input factors the IPCC method calls for, so those are set to one — meaning that at the global tier, land-use transition is effectively the only driver of modelled carbon change.
+Several of those measurement decisions are now embedded in international reporting. Soil organic carbon stock is one of the three sub-indicators of SDG indicator 15.3.1 — the metric behind national reporting on [land degradation](/en/ecology/soils/land-degradation-and-desertification) — integrated with [land cover](/en/ecology/earth-observation/land-cover-change-detection) and land productivity under a one-out-all-out rule in which a significant negative change in any one of them counts as degradation. The UNCCD's guidance sets the baseline period as the 16 years from 1 January 2000 to 31 December 2015, and concedes that global map products cannot currently supply the management and organic-input factors the IPCC method calls for, so those are set to one — meaning that at the global tier, land-use transition is effectively the only driver of modelled carbon change.
 
 Commercial accounting has arrived at a similar accommodation. A published account of a large agricultural crediting project covering 553,743 hectares of United States cropland from 2018 to 2022 reports an estimated 398,408.5 tonnes of CO₂-equivalent in emissions reductions, of which 296,662 tonnes were issued as credits after uncertainty and leakage deductions — a haircut of roughly a quarter. Nine of that paper's eleven authors give their affiliation as Indigo Ag, the company that built the pipeline and issued the credits, which is worth weighing; a 2022 policy analysis in *Science* [on crediting agricultural soil carbon](https://pubmed.ncbi.nlm.nih.gov/35298251/) puts the wider problem in one line — regional consistency is necessary for carbon credit integrity.
 

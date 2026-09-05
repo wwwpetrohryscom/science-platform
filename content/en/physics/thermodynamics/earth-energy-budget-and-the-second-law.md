@@ -1,11 +1,11 @@
 ---
 title: 'Earth''s climate is a heat engine: thermodynamics and the planetary energy budget'
-metaTitle: 'Earth''s climate as a heat engine'
+metaTitle: Earth's climate as a heat engine
 excerpt: A planet receives concentrated radiation from a hot source, redistributes it, and emits it back to space at a colder temperature. This is a heat engine. The thermodynamics is what bounds the climate.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - thermodynamics
@@ -36,7 +36,7 @@ The atmosphere converts on the order of a few percent of absorbed solar energy i
 
 The second law of thermodynamics constrains the climate in three useful ways.
 
-**Direction of heat flow.** Heat flows from hot to cold. Combined with the rotating-sphere geometry of the Earth, this produces poleward heat transport from the tropics, with characteristic atmospheric and oceanic patterns whose existence (though not exact form) is forced by thermodynamics. The structure of the Hadley cells, the storm tracks, and the ocean overturning circulation all follow.
+**Direction of heat flow.** Heat flows from hot to cold. Combined with the rotating-sphere geometry of the Earth, this produces [poleward heat transport](/en/physics/climate-physics/atmospheric-physics-explained) from the tropics, with characteristic atmospheric and oceanic patterns whose existence (though not exact form) is forced by thermodynamics. The structure of the Hadley cells, the storm tracks, and the ocean overturning circulation all follow.
 
 **Maximum entropy production.** Several authors have argued that the climate system, like other dissipative systems, operates close to the state of maximum entropy production consistent with its boundary conditions. This is a useful heuristic in some contexts — it correctly predicts coarse properties of poleward heat transport — and it is debated whether it is a derivable principle or a useful empirical regularity. Either way, it constrains what climate states are reachable.
 

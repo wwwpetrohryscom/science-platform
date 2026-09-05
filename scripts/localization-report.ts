@@ -40,6 +40,9 @@ type Row = {
   glossaryLocalized: number;
   glossaryTerms: number;
   entitiesNamed: number;
+  /** Internal links the English original has that this translation does
+   *  not — the translation is behind, not wrong. */
+  linksBehind: number;
 };
 
 async function main() {
@@ -71,6 +74,7 @@ async function main() {
       glossaryTerms: listGlossarySlugs(locale).length,
       entitiesNamed: entities.filter((e) => hasLocalizedEntityName(e, locale))
         .length,
+      linksBehind: 0,
     };
 
     for (const f of files) {
@@ -94,6 +98,25 @@ async function main() {
         }
       }
     }
+    if (locale !== DEFAULT_LOCALE) {
+      for (const f of files) {
+        const en = walked.find(
+          (w) => w.locale === DEFAULT_LOCALE && w.slug === f.slug,
+        );
+        if (!en) continue;
+        const count = (text: string) =>
+          [...text.replace(/^##\s+Sources[\s\S]*/im, "").matchAll(INTERNAL)]
+            .map((m) => m[1].replace(/^\/[a-z]{2}\//, "/"))
+            .filter((u) => !SITEWIDE.test(`/xx${u}`));
+        const enLinks = count(
+          matter(fs.readFileSync(en.filepath, "utf8")).content,
+        );
+        const trLinks = new Set(
+          count(matter(fs.readFileSync(f.filepath, "utf8")).content),
+        );
+        row.linksBehind += enLinks.filter((u) => !trLinks.has(u)).length;
+      }
+    }
     rows.push(row);
   }
 
@@ -110,16 +133,23 @@ async function main() {
 
   const pct = (a: number, b: number) => (b ? `${((a / b) * 100).toFixed(1)}%` : "—");
   console.log(
-    "locale  files  art-links  same-locale   glossary-links  localized  terms  entities",
+    "locale  files  art-links  same-locale   glossary-links  localized  terms  entities  links-behind",
   );
   for (const r of rows) {
     console.log(
       `${r.locale.padEnd(6)} ${String(r.files).padStart(6)} ${String(r.articleLinks).padStart(10)} ` +
         `${pct(r.sameLocale, r.articleLinks).padStart(12)} ${String(r.glossaryLinks).padStart(16)} ` +
         `${pct(r.glossaryLocalized, r.glossaryLinks).padStart(10)} ${String(r.glossaryTerms).padStart(6)} ` +
-        `${String(r.entitiesNamed).padStart(9)}`,
+        `${String(r.entitiesNamed).padStart(9)} ${String(r.linksBehind).padStart(13)}`,
     );
   }
+  console.log(
+    "\nlinks-behind: internal links the English original has that the\n" +
+      "translation does not. Not a fidelity defect — an internal link is\n" +
+      "navigation, not a claim — but it is the size of the re-translation\n" +
+      "backlog, and it is the number that grows silently when the English\n" +
+      "corpus is re-linked.",
+  );
 
   const ranked = [...gaps].sort((a, b) => b[1] - a[1]).slice(0, 15);
   if (ranked.length) {

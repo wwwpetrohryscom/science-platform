@@ -4,7 +4,7 @@ excerpt: Ein Ökosystem ist kein Ort, sondern ein Fluss. Diese Unterscheidung ve
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - ecosystems

@@ -5,7 +5,7 @@ excerpt: Uma placa, um iniciador de PCR e um montador de metagenoma devolvem cad
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - culturing

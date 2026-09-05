@@ -1,17 +1,11 @@
 ---
-title: >-
-  Biodiversitätsmonitoring und Ökosystemzustand: wie die Wissenschaft den
-  Zustand des Lebens misst
+title: 'Biodiversitätsmonitoring und Ökosystemzustand: wie die Wissenschaft den Zustand des Lebens misst'
 metaTitle: Biodiversitätsmonitoring und Ökosystemzustand
-excerpt: >-
-  Für Biodiversität gibt es kein einzelnes Thermometer. So verfolgt die
-  Wissenschaft den Zustand von Arten und Ökosystemen — über Felderhebungen,
-  Indikatoren, Artendatenbanken, Fernerkundung und Langzeitbeobachtung — und das
-  kann jede Methode auflösen, und das nicht.
+excerpt: Für Biodiversität gibt es kein einzelnes Thermometer. So verfolgt die Wissenschaft den Zustand von Arten und Ökosystemen — über Felderhebungen, Indikatoren, Artendatenbanken, Fernerkundung und Langzeitbeobachtung — und das kann jede Methode auflösen, und das nicht.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - biodiversity

@@ -6,7 +6,7 @@ argument: A physical constraint has a derivation; an institutional constraint ha
 category: physics
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - energy-transition
@@ -25,7 +25,7 @@ _bodyHash: e1124db8
 
 Two statements that sound alike do quite different work. *No rotor can extract more than 59.3 per cent of the kinetic energy in the air passing through it* is a theorem. *A generation project in the United States waits a median of 61 months between asking to connect to the grid and delivering power* is a description of an administrative process that a federal regulator has recently rewritten. Both get quoted as limits on the energy transition. Only one of them has a derivation.
 
-The diagnostic is that plain. A physical constraint can be derived from conservation laws and stated without reference to any country, decade or institution. An institutional constraint has a history: someone can name when it started, what it replaced, and which body would have to act to change it. The classification is not a ranking of importance — institutional limits are frequently the binding ones — but the two classes respond to entirely different interventions, and the categories are routinely mixed in public argument.
+The diagnostic is that plain. A physical constraint can be derived from [conservation laws](/en/physics/mechanics-waves/classical-mechanics-explained) and stated without reference to any country, decade or institution. An institutional constraint has a history: someone can name when it started, what it replaced, and which body would have to act to change it. The classification is not a ranking of importance — institutional limits are frequently the binding ones — but the two classes respond to entirely different interventions, and the categories are routinely mixed in public argument.
 
 ## Limits with a derivation
 
@@ -51,7 +51,7 @@ Minerals supply carries the same ambiguity in its public framing. The IEA's *Glo
 
 Not every claim sorts cleanly. Some fuse a derived quantity to a modelling choice so tightly that the two come apart only under inspection — the storage requirement of a very-high-renewable grid is one such case, worked through in the companion piece on [why seasonal and daily storage are different problems](/en/insight/seasonal-storage-is-a-different-problem).
 
-Declining ore grades sit awkwardly between the classes in a different way, and the honest treatment is to say so. A study of 25 copper mines published in *Resources* found the combined weighted average grade falling by roughly 25 per cent between 2003 and 2013 — at Chile's El Soldado the average oxide grade fell from 1.7 per cent in 2003 to 0.46 per cent by 2012 — while total energy use across the Chilean operations analysed rose 46 per cent against a 30 per cent rise in copper produced. The authors read the pattern through the second law: as grade falls, more rock must be moved and ground to recover the same metal, and the energy requirement climbs steeply as concentration approaches crustal abundance.
+Declining ore grades sit awkwardly between the classes in a different way, and the honest treatment is to say so. A study of 25 copper mines published in *Resources* found the combined weighted average grade falling by roughly 25 per cent between 2003 and 2013 — at Chile's El Soldado the average oxide grade fell from 1.7 per cent in 2003 to 0.46 per cent by 2012 — while total energy use across the Chilean operations analysed rose 46 per cent against a 30 per cent rise in copper produced. The authors read the pattern through the [second law](/en/physics/thermodynamics/laws-of-thermodynamics-explained): as grade falls, more rock must be moved and ground to recover the same metal, and the energy requirement climbs steeply as concentration approaches crustal abundance.
 
 The competing reading is set out in the same paper's opening pages, and it deserves its full weight rather than a summary. On that account, declining grades are neither a sign of depletion nor an indicator of resource availability. Grades fall partly because innovation in extractive technology made lower-grade ore economic to process at all, and partly because extending the life of an older mine is cheaper than finding a new one — an expansion of the accessible resource base showing up in the statistics as a decline. The strongest form of the argument is quantitative rather than rhetorical: for several metals, uranium, nickel and zinc among them, deposit size has grown faster than grade has fallen, so the metal contained in the known resource has risen even as the headline percentage dropped. Both readings fit the same observations. The physical relationship between grade and separation energy is not in dispute; what the grade *trend* signifies is.
 

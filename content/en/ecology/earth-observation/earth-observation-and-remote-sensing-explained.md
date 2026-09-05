@@ -5,7 +5,7 @@ excerpt: Satellites have become the instruments that let scientists watch the wh
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - earth-observation
@@ -36,7 +36,7 @@ The quantity a calibrated optical sensor ultimately reports is reflectance — t
 
 No single satellite covers every need, so Earth observation relies on a fleet with complementary strengths. The [what is remote sensing](/en/ecology/earth-observation/what-is-remote-sensing) primer covers the physics; the workhorses themselves each have a dedicated article.
 
-The joint NASA–USGS [Landsat program](/en/ecology/earth-observation/landsat-program-explained) has imaged the land surface continuously since 1972 at moderate (about 30-metre) resolution, the longest such record in existence. The European Union's [Copernicus programme](/en/ecology/earth-observation/copernicus-programme-explained) operates the [Sentinel satellites](/en/ecology/earth-observation/sentinel-satellites-explained), which add frequent revisits, radar imaging, and operational services. NASA's [MODIS instruments](/en/ecology/earth-observation/modis-earth-observation-system), and their VIIRS successors, trade spatial detail for near-daily global coverage that is ideal for tracking fast-moving change. Radar altimeters on a separate line of missions measure the height of the sea surface — the subject of the [satellite altimetry](/en/ecology/earth-observation/satellite-altimetry-explained) article. Choosing among them is a trade-off between spatial resolution, how often a place is revisited, and the wavelengths a sensor can measure; no instrument optimises all three at once.
+The joint NASA–USGS [Landsat program](/en/ecology/earth-observation/landsat-program-explained) has imaged the [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) continuously since 1972 at moderate (about 30-metre) resolution, the longest such record in existence. The European Union's [Copernicus programme](/en/ecology/earth-observation/copernicus-programme-explained) operates the [Sentinel satellites](/en/ecology/earth-observation/sentinel-satellites-explained), which add frequent revisits, radar imaging, and operational services. NASA's [MODIS instruments](/en/ecology/earth-observation/modis-earth-observation-system), and their VIIRS successors, trade spatial detail for near-daily global coverage that is ideal for tracking fast-moving change. Radar altimeters on a separate line of missions measure the height of the sea surface — the subject of the [satellite altimetry](/en/ecology/earth-observation/satellite-altimetry-explained) article. Choosing among them is a trade-off between spatial resolution, how often a place is revisited, and the wavelengths a sensor can measure; no instrument optimises all three at once.
 
 ## From photons to data products: the methodology
 

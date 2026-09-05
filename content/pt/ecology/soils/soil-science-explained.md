@@ -5,7 +5,7 @@ excerpt: O solo é um sistema de quatro fases organizado em horizontes, formado 
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - soil

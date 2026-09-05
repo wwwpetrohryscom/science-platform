@@ -5,7 +5,7 @@ excerpt: Most of Earth's carbon is locked in rock and moves on geological time. 
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle
@@ -63,7 +63,7 @@ Three parts of the budget are systematically harder than the rest.
 
 **Land-use change fluxes** are the least constrained term, because they require knowing not just how much forest was cleared but what carbon stock it held and what replaced it. The uncertainty on this term is large relative to its size.
 
-**Soil carbon** is a very large reservoir measured to inconsistent depths, and its response to warming involves competing effects — faster decomposition against increased plant input — that are difficult to separate in field data.
+**[Soil carbon](/en/ecology/soils/soil-science-explained)** is a very large reservoir measured to inconsistent depths, and its response to warming involves competing effects — faster decomposition against increased plant input — that are difficult to separate in field data.
 
 **Ocean uptake** is measured by several methods, including surface CO₂ observations, interior inventory changes, and models, and these do not always agree. The uncertainty range quoted above reflects that spread rather than measurement noise on any one method; the ocean's role in absorbing energy as well as carbon is covered in [ocean circulation and climate](/en/ecology/earth-systems/ocean-circulation-and-climate).
 

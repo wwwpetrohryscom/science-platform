@@ -1,11 +1,11 @@
 ---
-title: "Technologies de séquençage : longueur de lecture, profil d'erreur et usages"
+title: 'Technologies de séquençage : longueur de lecture, profil d''erreur et usages'
 metaTitle: 'Plateformes de séquençage : longueur de lecture et erreurs'
 excerpt: Choisir une plateforme de séquençage tient moins à l'exactitude affichée qu'à la forme de ses erreurs et à la longueur de ses lectures. Voici comment diffèrent les grandes familles, pourquoi les exigences de profondeur varient, et ce que la courbe des coûts laisse de côté.
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - dna-sequencing

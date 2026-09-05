@@ -1,11 +1,11 @@
 ---
-title: "Indicateurs climatiques et surveillance du système Terre : comment les signaux s'emboîtent"
-metaTitle: 'Indicateurs climatiques et surveillance du système Terre'
+title: 'Indicateurs climatiques et surveillance du système Terre : comment les signaux s''emboîtent'
+metaTitle: Indicateurs climatiques et surveillance du système Terre
 excerpt: Les indicateurs climatiques suivent l'état du système Terre. Voici comment température, chaleur océanique, gaz à effet de serre, niveau de la mer et glace se lisent ensemble, et à quoi chacun sert.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - climate-change

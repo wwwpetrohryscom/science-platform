@@ -5,7 +5,7 @@ excerpt: Primary energy, energy carriers and final consumption are three separat
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - energy-systems
@@ -38,7 +38,7 @@ Combustion-based electricity generation is where the largest single loss in most
 
 Those numbers convert straightforwardly into efficiencies, because a kilowatt-hour is about 3,412 Btu. The U.S. coal fleet therefore delivered about 32 per cent of the chemical energy it consumed as electricity in 2024; the gas fleet, dominated by combined-cycle plant, about 44 per cent. The nuclear figure of roughly 33 per cent is a statement about steam-cycle thermodynamics rather than about the reactor, and it carries an accounting convention with it: the EIA builds the nuclear average from the weighted average *tested* heat rate that operators report on Form EIA-860, rather than from a quantity of fuel consumed as the fossil averages are. How those conventions distort comparisons between thermal and non-thermal generation is the subject of the companion page on [reading energy statistics honestly](/en/physics/energy/capacity-factor-and-energy-metrics).
 
-Non-thermal converters do not have a heat rate at all. A photovoltaic module converts photon energy directly to electrical work without an intermediate hot reservoir, which is why its ceiling comes from detailed balance rather than from Carnot, as set out in the article on [the thermodynamic ceiling on solar conversion](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics). A wind rotor extracts kinetic energy from a moving fluid and is bounded by a mass-and-momentum argument instead. Neither device is exempt from the second law; both simply enter it at a different point.
+Non-thermal converters do not have a heat rate at all. A photovoltaic module converts photon energy directly to electrical work without an intermediate hot reservoir, which is why its ceiling comes from detailed balance rather than from Carnot, as set out in the article on [the thermodynamic ceiling on solar conversion](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics). A wind rotor extracts kinetic energy from a moving fluid and is bounded by a mass-and-momentum argument instead. Neither device is exempt from the [second law](/en/physics/thermodynamics/laws-of-thermodynamics-explained); both simply enter it at a different point.
 
 ## A watt is not a joule
 

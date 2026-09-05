@@ -5,7 +5,7 @@ excerpt: There is no single global temperature dataset. There are several, built
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - climate-change
@@ -89,7 +89,7 @@ The total uncertainty on the recent decade-mean trend is small relative to the t
 
 ## What temperature does and does not capture
 
-Global mean surface temperature is one indicator in the cluster, not a summary of the entire climate system. It does not capture the [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) reservoir that stores the bulk of the energy. It does not capture [sea-level rise](/en/ecology/climate-change/sea-level-rise-indicators) — which depends on thermal expansion and ice loss, not directly on surface air temperature. It does not capture [cryosphere change](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) in a regionally complete way, nor the [greenhouse-gas concentration](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) input side.
+Global mean surface temperature is one indicator in the cluster, not a summary of the entire [climate system](/en/ecology/earth-systems/earth-system-science-explained). It does not capture the [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) reservoir that stores the bulk of the energy. It does not capture [sea-level rise](/en/ecology/climate-change/sea-level-rise-indicators) — which depends on thermal expansion and ice loss, not directly on surface air temperature. It does not capture [cryosphere change](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) in a regionally complete way, nor the [greenhouse-gas concentration](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) input side.
 
 The temperature indicator is most useful when read alongside the others. That is the design intent of the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) — temperature is the headline, but the headline alone is not the report.
 

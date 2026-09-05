@@ -5,7 +5,7 @@ excerpt: Las leyes de Newton son menos un conjunto de hechos sobre los objetos q
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics

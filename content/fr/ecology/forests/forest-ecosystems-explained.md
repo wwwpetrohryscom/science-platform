@@ -1,17 +1,11 @@
 ---
-title: >-
-  Les forêts : structure, fonction et les définitions qui décident des
-  statistiques
+title: 'Les forêts : structure, fonction et les définitions qui décident des statistiques'
 metaTitle: 'Forêts : structure, fonction et définitions'
-excerpt: >-
-  Une forêt est une catégorie d'usage des terres avant d'être un écosystème, et
-  les seuils de cette catégorie décident de la plupart des chiffres publiés à
-  son sujet. Cette page expose les définitions, la structure qu'elles décrivent
-  et les limites du tableau mondial.
+excerpt: Une forêt est une catégorie d'usage des terres avant d'être un écosystème, et les seuils de cette catégorie décident de la plupart des chiffres publiés à son sujet. Cette page expose les définitions, la structure qu'elles décrivent et les limites du tableau mondial.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - forests

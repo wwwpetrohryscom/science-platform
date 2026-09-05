@@ -5,7 +5,7 @@ excerpt: Density stratification, not chemistry, is the first fact about a deep l
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - lakes
@@ -52,7 +52,7 @@ Reviews of [internal loading](/en/glossary/internal-loading) in shallow, enriche
 
 Shallow lakes complicate the picture further, because they can occupy either of two self-reinforcing conditions at the same nutrient level. In the clear state, rooted plants cover the bed, stabilise sediment, shelter zooplankton that graze algae, and hold nutrients out of the water column. In the turbid state, phytoplankton shade the plants out, sediment is resuspended by wind and by bottom-feeding fish, and the conditions that would let plants re-establish are absent.
 
-Because each state maintains itself, the transition between them is not symmetrical. A lake pushed into turbidity by rising nutrients often does not return when nutrients fall to the level at which it flipped; it has to be taken considerably lower. The general theory of such shifts was set out in a 2001 paper in *Nature* on [catastrophic shifts in ecosystems](https://www.nature.com/articles/35098000), which draws on lakes alongside coral reefs, oceans, forests and arid lands and argues that it is a loss of resilience that usually paves the way for a switch — which is also why [indicators of ecosystem resilience](/en/ecology/biodiversity/ecosystem-resilience-indicators) try to measure the capacity to absorb change rather than the current state alone. Practically, it means that a restoration target expressed as a nutrient concentration may be unreachable without an additional intervention — biomanipulation, sediment treatment, water-level drawdown — to break the feedback.
+Because each state maintains itself, the transition between them is not symmetrical. A lake pushed into turbidity by rising nutrients often does not return when nutrients fall to the level at which it flipped; it has to be taken considerably lower. The general theory of such shifts was set out in a 2001 paper in *Nature* on [catastrophic shifts in ecosystems](https://www.nature.com/articles/35098000), which draws on lakes alongside [coral reefs](/en/ecology/oceans/coral-reef-ecology-and-bleaching), oceans, forests and arid lands and argues that it is a loss of resilience that usually paves the way for a switch — which is also why [indicators of ecosystem resilience](/en/ecology/biodiversity/ecosystem-resilience-indicators) try to measure the capacity to absorb change rather than the current state alone. Practically, it means that a restoration target expressed as a nutrient concentration may be unreachable without an additional intervention — biomanipulation, sediment treatment, water-level drawdown — to break the feedback.
 
 ## What a national survey sees when it samples every kind of lake
 

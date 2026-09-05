@@ -1,17 +1,11 @@
 ---
-title: >-
-  Observação da Terra e deteção remota: como se mede o planeta a partir do
-  espaço
+title: 'Observação da Terra e deteção remota: como se mede o planeta a partir do espaço'
 metaTitle: 'Observação da Terra: medir o planeta a partir do espaço'
-excerpt: >-
-  Os satélites tornaram-se os instrumentos que permitem observar o planeta
-  inteiro de uma só vez. Explica-se aqui como funciona a observação da Terra —
-  dos fotões aos produtos de dados calibrados —, o que mede no clima e nos
-  ecossistemas e onde estão os seus limites.
+excerpt: Os satélites tornaram-se os instrumentos que permitem observar o planeta inteiro de uma só vez. Explica-se aqui como funciona a observação da Terra — dos fotões aos produtos de dados calibrados —, o que mede no clima e nos ecossistemas e onde estão os seus limites.
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - earth-observation

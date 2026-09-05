@@ -5,7 +5,7 @@ excerpt: Fully protected reserves, partially protected zones and unenforced desi
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - marine-protected-areas
@@ -35,7 +35,7 @@ The framework that has done most to clean up the vocabulary is [The MPA Guide](h
 | Lightly protected | Moderate-impact extraction permitted | Modest and often undetectable difference from open coast |
 | Minimally protected | High total impact permitted | Little to no measurable biodiversity gain |
 
-The framework matters because national reporting does not make this distinction. A site zoned to allow trawling over most of its area and a no-take reserve both enter the World Database on Protected Areas as marine protected area, and both count toward international coverage targets. When a study, a press summary or a policy document averages outcomes across that mixture, the resulting effect size is a weighted average of a real effect and no effect — and it is smaller than either.
+The framework matters because national reporting does not make this distinction. A site zoned to allow trawling over most of its area and a no-take reserve both enter the World Database on [Protected Areas](/en/ecology/conservation/conservation-science-explained) as marine protected area, and both count toward international coverage targets. When a study, a press summary or a policy document averages outcomes across that mixture, the resulting effect size is a weighted average of a real effect and no effect — and it is smaller than either.
 
 ## The effect sizes, and what averaging destroys
 

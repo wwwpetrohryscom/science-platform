@@ -4,7 +4,7 @@ excerpt: Fungi feed by secreting enzymes and absorbing what dissolves, a body pl
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - fungi
@@ -51,7 +51,7 @@ Lichens are the other classic fungal partnership, and the textbook version of th
 
 Wood resists decay largely because of lignin, an irregular aromatic polymer that cannot be broken down by simple hydrolysis. The only organisms that degrade it substantially are white rot fungi within the Agaricomycetes.
 
-A comparative analysis of 31 fungal genomes reconstructed the ancestor of the Agaricomycetes as a white rot species, with lignin-degrading peroxidases expanding in the lineage leading to it and then contracting independently in the lineages that became brown rot and ectomycorrhizal fungi. Molecular clock analysis in the same study suggested that the origin of lignin degradation might have coincided with the sharp decline in the rate of organic carbon burial around the end of the Carboniferous.
+A comparative analysis of 31 fungal genomes reconstructed the ancestor of the Agaricomycetes as a white rot species, with lignin-degrading peroxidases expanding in the lineage leading to it and then contracting independently in the lineages that became brown rot and ectomycorrhizal fungi. [Molecular clock](/en/biology/taxonomy/phylogenetics-explained) analysis in the same study suggested that the origin of lignin degradation might have coincided with the sharp decline in the rate of organic carbon burial around the end of the Carboniferous.
 
 That coincidence is frequently retold as though the evolution of white rot ended coal formation, and the original wording — "might have coincided" — did not claim that. The evidence is mixed on the causal reading, and the case against it is specific. Carboniferous coal-forming peats were dominated by arborescent lycopsids whose biomass came largely from periderm that was not lignified; coal accumulated at comparable levels across major floral transitions in the North American Carboniferous record; and fossil woods from the Devonian onward show damage consistent with white rot decay, well before the proposed enzymatic origin. The alternative account attributes the Carboniferous peak to a combination of everwet tropical climate and the extensive subsiding foreland basins formed during the assembly of Pangaea.
 

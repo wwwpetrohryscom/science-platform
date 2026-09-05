@@ -1,11 +1,11 @@
 ---
 title: 'Marine Produktivität: wie eine Gigatonne Algen fünf Gigatonnen Tiere ernährt'
-metaTitle: 'Marine Produktivität und das Nahrungsnetz des Ozeans'
+metaTitle: Marine Produktivität und das Nahrungsnetz des Ozeans
 excerpt: Der Ozean trägt mehr Konsumenten- als Produzentenbiomasse, was unmöglich klingt, bis man den Umsatz mitrechnet. Hier stehen die Arithmetik, die Nährstoffgrenzen und das, was Ozeanfarbe aus dem All sehen kann und was nicht.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - marine-productivity

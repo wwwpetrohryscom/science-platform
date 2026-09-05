@@ -4,7 +4,7 @@ excerpt: A plate, a PCR primer and a metagenome assembler each return a differen
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - culturing
@@ -50,7 +50,7 @@ Shotgun metagenomics removes the primer, and computational binning then groups a
 
 The Genomic Standards Consortium set that standard in 2017. A high-quality draft assembled genome or single-amplified genome must be more than 90 per cent complete with less than 5 per cent contamination, and must encode the 23S, 16S and 5S rRNA genes plus tRNAs for at least 18 of the 20 amino acids. A medium-quality draft is at least 50 per cent complete with less than 10 per cent contamination; anything below 50 per cent is a low-quality draft. Completeness and contamination are themselves estimates, derived from expected single-copy marker genes — which means they are least reliable for exactly the deeply novel lineages that make binning worthwhile, because the marker sets were built from cultured relatives.
 
-The scale these methods reach is real. The Unified Human Gastrointestinal Genome collection, published in *Nature Biotechnology* in 2021, assembled 204,938 non-redundant genomes representing 4,644 gut prokaryotes and more than 170 million protein sequences. More than 70 per cent of those species have no cultured representative, and 40 per cent of the proteins have no functional annotation. Single-cell genomics offers a complementary route — sort one cell, amplify its genome, sequence it — which yields an unambiguous single-organism genome but usually an incomplete one, and is graded under the same standards.
+The scale these methods reach is real. The Unified Human Gastrointestinal Genome collection, published in *Nature Biotechnology* in 2021, assembled 204,938 non-redundant genomes representing 4,644 gut prokaryotes and more than 170 million protein sequences. More than 70 per cent of those species have no cultured representative, and 40 per cent of the proteins have no [functional annotation](/en/biology/biotechnology/bioinformatics-explained). Single-cell genomics offers a complementary route — sort one cell, amplify its genome, sequence it — which yields an unambiguous single-organism genome but usually an incomplete one, and is graded under the same standards.
 
 Reference databases set a further ceiling: taxonomic assignment can only place a sequence against what has been deposited. NCBI's RefSeq collection stood at 182,465 organisms in release 236 of July 2026, across all of life. Every "unassigned" read in a survey is a statement about that collection as much as about the sample.
 

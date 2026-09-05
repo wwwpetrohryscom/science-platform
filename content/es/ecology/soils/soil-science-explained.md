@@ -5,7 +5,7 @@ excerpt: El suelo es un sistema de cuatro fases organizado en horizontes, que se
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - soil

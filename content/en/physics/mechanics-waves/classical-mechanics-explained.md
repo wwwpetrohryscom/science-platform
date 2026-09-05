@@ -1,11 +1,11 @@
 ---
 title: 'Classical mechanics: the framework that still describes most of the world'
-metaTitle: 'Classical mechanics and the edges of its domain'
+metaTitle: Classical mechanics and the edges of its domain
 excerpt: Newton's laws are less a set of facts about objects than a contract about reference frames and force laws. This page states that contract carefully, shows why the conservation principles turned out to be deeper, and marks the edges of the domain.
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics
@@ -41,7 +41,7 @@ The equation is a template because it tells you nothing about what forces exist.
 
 Forces come in equal and opposite pairs. Stated that way it sounds like an oddity about contact; stated properly it is the conservation of momentum for an isolated system, and that is the version that generalises.
 
-This is the pattern across the whole subject. The conservation of momentum, of energy and of angular momentum are not consequences of Newton's laws so much as the durable content of them. Emmy Noether's theorem makes the relationship exact: each conservation law corresponds to a continuous symmetry of the underlying dynamics. Invariance under translation in time gives conservation of energy; invariance under translation in space gives momentum; invariance under rotation gives angular momentum. When relativity and quantum mechanics replaced the Newtonian equations, the conserved quantities were redefined but not discarded, which is why they are the safest thing to reason with when the details are uncertain. The bookkeeping conventions that make energy usable in practice — work, potential energy, power — are set out in [work, energy and power](/en/physics/mechanics-waves/energy-work-and-power).
+This is the pattern across the whole subject. The conservation of momentum, of energy and of angular momentum are not consequences of Newton's laws so much as the durable content of them. Emmy Noether's theorem makes the relationship exact: each conservation law corresponds to a continuous symmetry of the underlying dynamics. Invariance under translation in time gives conservation of energy; invariance under translation in space gives momentum; invariance under rotation gives angular momentum. When relativity and [quantum mechanics](/en/physics/quantum-basics/quantum-mechanics-fundamentals) replaced the Newtonian equations, the conserved quantities were redefined but not discarded, which is why they are the safest thing to reason with when the details are uncertain. The bookkeeping conventions that make energy usable in practice — work, potential energy, power — are set out in [work, energy and power](/en/physics/mechanics-waves/energy-work-and-power).
 
 ## The Lagrangian reformulation: same physics, better starting point
 
@@ -55,7 +55,7 @@ A third formulation, built on position and momentum as independent variables, tr
 | --- | --- | --- | --- |
 | Newtonian | Vector forces on each body | Direct problems with few bodies and simple geometry | Engineering statics and dynamics |
 | Lagrangian | A single scalar built from kinetic and potential energy | Constrained systems, awkward coordinates, symmetry arguments | Field theory and the action principle |
-| Hamiltonian | Position and momentum as a paired state | Conserved quantities, perturbation theory, long integrations | Statistical mechanics and quantum theory |
+| Hamiltonian | Position and momentum as a paired state | Conserved quantities, perturbation theory, long integrations | [Statistical mechanics](/en/physics/thermodynamics/entropy-explained) and quantum theory |
 
 Rotation is where the choice bites soonest. Angular momentum is conserved for the same symmetry reason as its linear counterpart, but the relationship between angular velocity and angular momentum in three dimensions runs through a tensor rather than a single number, so a spinning body can precess and tumble without any torque acting. That behaviour looks like a violation of intuition and is nothing of the kind.
 

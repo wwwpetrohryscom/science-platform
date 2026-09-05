@@ -5,7 +5,7 @@ excerpt: Nadie pesa un bosque. Toda cifra publicada de carbono forestal es el re
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - forest-carbon

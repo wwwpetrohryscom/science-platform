@@ -1,11 +1,11 @@
 ---
 title: 'El espectro electromagnético: un fenómeno, muchas ventanas al universo'
-metaTitle: 'El espectro electromagnético y sus ventanas'
+metaTitle: El espectro electromagnético y sus ventanas
 excerpt: Las ondas de radio, la luz visible, los rayos X y los rayos gamma no son fenómenos distintos. Son el mismo fenómeno a distintas longitudes de onda, y es la longitud de onda la que determina qué puede hacer la radiación.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - quantum-basics

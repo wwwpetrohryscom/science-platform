@@ -5,7 +5,7 @@ argument: What an orbiting sensor cannot resolve is fixed by physics and geometr
 category: ecology
 author: climate-research-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - earth-observation
@@ -27,7 +27,7 @@ NASA's Earth Observatory collects the relevant figures in one place: one study, 
 
 ## The clear-sky world is a different world
 
-The cleanest demonstration of this comes from thermal infrared. A study in the *Journal of Geophysical Research: Atmospheres* compared 17 years of land surface temperature from the Along-Track Scanning Radiometer series against station observations of 2 m air temperature. Night-time surface temperature, retrieved on a roughly 10 p.m. overpass, tracked minimum air temperature closely: a global median difference of 1.8 °C and an interquartile range of 3.8 °C. The 10 a.m. daytime retrieval sat almost on top of maximum air temperature in the median, at −0.1 °C, and was far looser around it — an interquartile range of 8.1 °C.
+The cleanest demonstration of this comes from thermal infrared. A study in the *Journal of Geophysical Research: Atmospheres* compared 17 years of [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) temperature from the Along-Track Scanning Radiometer series against station observations of 2 m air temperature. Night-time surface temperature, retrieved on a roughly 10 p.m. overpass, tracked minimum air temperature closely: a global median difference of 1.8 °C and an interquartile range of 3.8 °C. The 10 a.m. daytime retrieval sat almost on top of maximum air temperature in the median, at −0.1 °C, and was far looser around it — an interquartile range of 8.1 °C.
 
 Two separate things are visible in those numbers. One is that skin temperature and air temperature are different physical quantities — the ground can run far hotter or colder than the air above it depending on insolation, vegetation cover and moisture. The other is that the comparison itself is asymmetric: the retrieved surface temperature is clear-sky only, while the station record is all-sky. Some of the spread is the sampling rule, not the instrument. Anyone using a thermal product as a proxy for air temperature inherits both problems, which is one reason the [instrumental temperature record](/en/ecology/climate-change/global-temperature-records-explained) is still built from surface stations rather than from orbit.
 

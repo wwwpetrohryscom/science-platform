@@ -1,11 +1,11 @@
 ---
-title: "Étudier les microbes : pourquoi la méthode décide de ce que l'on trouve"
+title: 'Étudier les microbes : pourquoi la méthode décide de ce que l''on trouve'
 metaTitle: 'Étudier les microbes : la méthode décide du résultat'
 excerpt: Une boîte de Petri, une amorce PCR et un assembleur de métagénome renvoient chacun un sous-ensemble différent de la même communauté. Voici ce que sélectionne chaque grande méthode microbiologique, et les normes de qualité qui rendent publiable un génome sans organisme.
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - culturing

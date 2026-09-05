@@ -5,7 +5,7 @@ excerpt: Der größte Teil des Kohlenstoffs der Erde steckt im Gestein und beweg
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle

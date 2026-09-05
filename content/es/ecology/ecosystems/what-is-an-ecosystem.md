@@ -4,7 +4,7 @@ excerpt: Un ecosistema no es un lugar, sino un flujo. Esto es lo que esa distinc
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecosystems

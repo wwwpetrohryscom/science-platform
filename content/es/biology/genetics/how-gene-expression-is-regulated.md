@@ -1,11 +1,11 @@
 ---
 title: 'Regulación de la expresión génica: por qué dos células con el mismo genoma no son la misma célula'
 metaTitle: 'Regulación de la expresión: un genoma, muchos tipos'
-excerpt: 'Una célula hepática y una neurona llevan ADN idéntico. Que no sean intercambiables se debe a la regulación, un sistema por capas de decisiones sobre qué genes se leen y cuándo.'
+excerpt: Una célula hepática y una neurona llevan ADN idéntico. Que no sean intercambiables se debe a la regulación, un sistema por capas de decisiones sobre qué genes se leen y cuándo.
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - genetics

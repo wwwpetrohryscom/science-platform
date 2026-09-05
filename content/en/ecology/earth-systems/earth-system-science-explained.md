@@ -4,7 +4,7 @@ excerpt: Air, water, ice, rock, and life are usually studied apart. Earth system
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - earth-system
@@ -65,7 +65,7 @@ The energy budget has a matter counterpart. Every element that cycles through th
 
 Carbon shows the pattern most clearly. Over 2010–2019, human activity released an average of 10.9 ± 0.9 petagrams of carbon a year; the IPCC assesses that 46 per cent accumulated in the atmosphere, 23 per cent was taken up by the ocean, and 31 per cent by land vegetation. The airborne fraction — the share that stays in the air — has held near 44 per cent across six decades, which is a statement about the *sinks*, not about emissions, and whether it holds is one of the field's live questions. That question is taken up in the existing article on [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
 
-Water and nitrogen tell different stories with the same grammar. Water's atmospheric reservoir is tiny and turns over in days, so its cycle is fast and its perturbations are felt almost immediately. Nitrogen's atmospheric reservoir is enormous and almost inert, so the interesting flux is the small stream of nitrogen converted into biologically reactive forms — a stream that industrial fixation has substantially enlarged. The consequence shows up in the atmosphere: the WMO's greenhouse-gas monitoring put the 2024 global mean for nitrous oxide at 338.0 ± 0.1 parts per billion, about 25 per cent above its pre-1750 level.
+Water and nitrogen tell different stories with the same grammar. Water's atmospheric reservoir is tiny and turns over in days, so its cycle is fast and its perturbations are felt almost immediately. Nitrogen's atmospheric reservoir is enormous and almost inert, so the interesting flux is the small stream of nitrogen converted into biologically reactive forms — a stream that industrial fixation has substantially enlarged. The consequence shows up in the atmosphere: the WMO's greenhouse-gas monitoring put the 2024 global mean for [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained) at 338.0 ± 0.1 parts per billion, about 25 per cent above its pre-1750 level.
 
 ## Feedbacks: why the response is not the forcing
 

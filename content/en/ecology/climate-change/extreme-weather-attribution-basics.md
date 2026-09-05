@@ -5,7 +5,7 @@ excerpt: Attribution science quantifies how much a specific extreme event was ma
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - climate-change
@@ -29,7 +29,7 @@ This piece walks through how attribution analysis works, where it is most reliab
 
 The attribution literature uses one word for two different operations.
 
-**Trend attribution** asks: how much of the observed long-term change in a climate variable is due to a given forcing agent (greenhouse gases, aerosols, solar, land use)? This is the detection-and-attribution analysis covered in [IPCC AR6 WG1 Chapter 3](https://www.ipcc.ch/report/ar6/wg1/). The methodology compares observed trends with model simulations under different forcing combinations; the attribution is the combination that best matches the observation. Trend attribution is what the IPCC means when it describes recent warming as having a "human influence."
+**Trend attribution** asks: how much of the observed long-term change in a climate variable is due to a given forcing agent (greenhouse gases, aerosols, solar, [land use](/en/ecology/forests/forest-ecosystems-explained))? This is the detection-and-attribution analysis covered in [IPCC AR6 WG1 Chapter 3](https://www.ipcc.ch/report/ar6/wg1/). The methodology compares observed trends with model simulations under different forcing combinations; the attribution is the combination that best matches the observation. Trend attribution is what the IPCC means when it describes recent warming as having a "human influence."
 
 **Event attribution** asks: given a specific extreme event that has occurred — a particular heatwave, hurricane, drought, flood — how much more (or less) likely was that event under current climate conditions versus a counterfactual climate without human forcing? Event attribution produces numerical statements like "this heatwave was made N times more likely by climate change" with stated confidence intervals.
 
@@ -53,7 +53,7 @@ Three event types yield the strongest attribution statements.
 
 **Heavy precipitation, in many regions.** Atmospheric moisture content scales with temperature via the Clausius-Clapeyron relationship (about 7% per degree). For events where the precipitation is constrained by water-vapour availability rather than by circulation dynamics, the intensity-shift attribution is robust. Some regions and event types are dominated by circulation dynamics that models do not resolve to confidence — there the attribution carries larger uncertainty.
 
-**Marine heatwaves.** Sea-surface temperature extremes have a clean physical attribution because the ocean integrates heat over longer timescales than the atmosphere, suppressing variability. The [NOAA Coral Reef Watch](https://coralreefwatch.noaa.gov/) operational thermal-stress products attribute coral bleaching events to identifiable marine heatwaves whose attribution to long-term warming is straightforward.
+**[Marine heatwaves](/en/ecology/oceans/coral-reef-ecology-and-bleaching).** Sea-surface temperature extremes have a clean physical attribution because the ocean integrates heat over longer timescales than the atmosphere, suppressing variability. The [NOAA Coral Reef Watch](https://coralreefwatch.noaa.gov/) operational thermal-stress products attribute coral bleaching events to identifiable marine heatwaves whose attribution to long-term warming is straightforward.
 
 ## Where event attribution is most contested
 
@@ -77,7 +77,7 @@ Three misreadings recur.
 
 ## How attribution feeds the indicator framework
 
-Attribution sits adjacent to the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) rather than inside it. Indicators describe the state of the climate system; attribution describes how much a specific event reflected the changed state.
+Attribution sits adjacent to the [indicator framework](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) rather than inside it. Indicators describe the state of the [climate system](/en/ecology/earth-systems/earth-system-science-explained); attribution describes how much a specific event reflected the changed state.
 
 Attribution is what connects the [global temperature record](/en/ecology/climate-change/global-temperature-records-explained) and the [greenhouse-gas concentration trends](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) to the lived experience of extreme weather. The trend in the indicator record is the climate change; the change in the frequency and intensity of extremes is what attribution quantifies.
 

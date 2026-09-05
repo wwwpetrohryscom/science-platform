@@ -5,7 +5,7 @@ excerpt: Evolution is change in the genetic composition of populations, and four
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evolution
@@ -45,7 +45,7 @@ These are not competing hypotheses to choose between. All four operate at once i
 
 ## Where new variation comes from
 
-Mutation is the only process on that list that creates something new; the other three redistribute what already exists. Its rate is measurable. Sequencing 78 Icelandic parent-offspring trios, with an average paternal age of 29.7 years, gave an average de novo mutation rate of 1.20 × 10⁻⁸ per nucleotide per generation. The same study found that the variation in that rate between families is dominated by the father's age at conception, adding roughly two mutations per year, with the paternal contribution doubling about every 16.5 years.
+Mutation is the only process on that list that creates something new; the other three redistribute what already exists. Its rate is measurable. Sequencing 78 Icelandic parent-offspring trios, with an average paternal age of 29.7 years, gave an average de novo [mutation rate](/en/biology/genetics/mutation-types-and-rates) of 1.20 × 10⁻⁸ per nucleotide per generation. The same study found that the variation in that rate between families is dominated by the father's age at conception, adding roughly two mutations per year, with the paternal contribution doubling about every 16.5 years.
 
 Two things follow. First, the supply of raw material is a quantity, not a metaphor: it can be counted, and it differs between species and between individuals. Second, mutation is undirected with respect to need. An environment that would reward a particular allele does not thereby make that allele more likely to arise. Selection can only sort what mutation has already supplied, which is why the timing of an adaptive change is often set by how long it takes for the right variant to appear rather than by how strongly it would be favoured.
 

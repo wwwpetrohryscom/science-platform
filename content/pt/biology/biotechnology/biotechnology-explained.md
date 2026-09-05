@@ -5,7 +5,7 @@ excerpt: O ADN recombinante, a sequenciação, a edição e o desenho computacio
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biotechnology

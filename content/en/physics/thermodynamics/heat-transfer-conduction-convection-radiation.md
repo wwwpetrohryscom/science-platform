@@ -5,7 +5,7 @@ excerpt: Conduction and convection rise roughly in step with a temperature diffe
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - heat-transfer
@@ -44,7 +44,7 @@ Convection also explains most of what insulation does. Fibrous and foam insulati
 
 ## Radiation: the fourth power changes the arithmetic
 
-Every surface above absolute zero emits electromagnetic radiation at a rate given by the Stefan–Boltzmann law: εσT⁴, with σ = 5.670374419 × 10⁻⁸ W m⁻² K⁻⁴, a value the SI now fixes exactly because it follows from other defined constants. Net exchange between a surface and its surroundings goes as the difference of fourth powers.
+Every surface above absolute zero emits [electromagnetic radiation](/en/physics/quantum-basics/electromagnetic-spectrum-applications) at a rate given by the Stefan–Boltzmann law: εσT⁴, with σ = 5.670374419 × 10⁻⁸ W m⁻² K⁻⁴, a value the SI now fixes exactly because it follows from other defined constants. Net exchange between a surface and its surroundings goes as the difference of fourth powers.
 
 Two consequences follow from the exponent. A black surface at 300 K emits about 459 W m⁻², which sounds enormous until you subtract the 459 W m⁻² arriving back from surroundings at the same temperature; the net is what matters, and a 10 K excess over ambient nets only about 64 W m⁻² — comparable to free convection in air, and therefore never negligible near room temperature. At 1,500 K the same surface emits about 287 kW m⁻², and radiation stops competing with the other two mechanisms and starts dominating them.
 
@@ -66,7 +66,7 @@ A planet is the opposite case. Within the Earth system, convection and evaporati
 
 Each mechanism carries a different kind of uncertainty, and they are not interchangeable. Conductivity is well measured for pure materials in controlled conditions, but an insulation's in-service value drifts with moisture, compression and ageing, and a wall assembly's real performance is usually set by thermal bridges rather than by the value printed on the product. Convective coefficients inherit the scatter of the experiments the correlations were fitted to. Emissivity is the weakest link of the three: a single datasheet number is an average over wavelength, angle and surface condition, and oxidation or dust can move it substantially over a component's life.
 
-There is also a boundary where Fourier's law itself stops applying. At length scales comparable to the mean free path of the energy carriers, or on timescales shorter than their scattering time, transport becomes ballistic rather than diffusive, and a gradient-driven description no longer holds. That regime matters for microelectronics and for thin-film thermoelectrics, and it is a reminder that all three expressions above are continuum approximations with a domain of validity rather than laws in the sense the thermodynamic ones are.
+There is also a boundary where Fourier's law itself stops applying. At length scales comparable to the mean free path of the [energy carriers](/en/physics/energy/hydrogen-as-an-energy-carrier), or on timescales shorter than their scattering time, transport becomes ballistic rather than diffusive, and a gradient-driven description no longer holds. That regime matters for microelectronics and for thin-film thermoelectrics, and it is a reminder that all three expressions above are continuum approximations with a domain of validity rather than laws in the sense the thermodynamic ones are.
 
 ## Sources
 

@@ -5,7 +5,7 @@ excerpt: L'ADN recombinant, le séquençage, l'édition et la conception assist�
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biotechnology

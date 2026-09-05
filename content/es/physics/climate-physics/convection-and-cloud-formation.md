@@ -1,11 +1,11 @@
 ---
 title: 'Física de nubes: del núcleo de condensación a la mayor incertidumbre en la sensibilidad climática'
-metaTitle: 'Física de nubes y la mayor incertidumbre climática'
+metaTitle: Física de nubes y la mayor incertidumbre climática
 excerpt: Las nubes enfrían el planeta actual en unos 20 W/m², y su respuesta al calentamiento sigue siendo la mayor fuente de dispersión en la sensibilidad climática. Esos dos enunciados no se contradicen, y entender por qué es casi todo el asunto.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - cloud-physics

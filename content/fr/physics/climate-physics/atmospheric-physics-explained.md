@@ -5,7 +5,7 @@ excerpt: L'atmosphère porte environ dix tonnes d'air au-dessus de chaque mètre
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - atmospheric-physics

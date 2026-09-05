@@ -5,7 +5,7 @@ excerpt: В подземных водах находится большая ча
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - groundwater

@@ -5,7 +5,7 @@ excerpt: La mayor parte del carbono de la Tierra está encerrada en la roca y se
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle

@@ -5,7 +5,7 @@ excerpt: Choosing a sequencing platform is less about headline accuracy than abo
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - dna-sequencing
@@ -48,7 +48,7 @@ That is the general lesson. When a platform's remaining errors are context-speci
 
 ## Why depth requirements differ so much
 
-Coverage is not a quality setting; it is a statistical requirement derived from what you are trying to detect. For a germline variant present in half or all of the sequenced molecules, moderate depth suffices, and the 30× figure above is the coverage at which the bacterial assemblies in that study reached near-complete coding-sequence recovery. Detecting a variant carried by a small fraction of cells — a subclonal somatic mutation, a minority pathogen in a mixture — requires depth that scales inversely with that fraction, plus an error rate low enough that true signal is distinguishable from background at that frequency. This is why the same instrument can be described as adequate for one application and hopeless for another with no contradiction. The same arithmetic governs [sequencing-based surveys of microbial communities](/en/biology/microbiology/culturing-and-sequencing-microbes), where a taxon's read count reflects primer choice and sequencing depth before it reflects abundance. Sequencing-based assays for [off-target activity in genome editing](/en/biology/biotechnology/crispr-genome-editing-explained) face precisely this problem: the events being counted may be rarer than the platform's own error floor.
+Coverage is not a quality setting; it is a statistical requirement derived from what you are trying to detect. For a germline variant present in half or all of the sequenced molecules, moderate depth suffices, and the 30× figure above is the coverage at which the bacterial assemblies in that study reached near-complete coding-sequence recovery. Detecting a variant carried by a small fraction of cells — a subclonal [somatic mutation](/en/biology/genetics/mutation-types-and-rates), a minority pathogen in a mixture — requires depth that scales inversely with that fraction, plus an error rate low enough that true signal is distinguishable from background at that frequency. This is why the same instrument can be described as adequate for one application and hopeless for another with no contradiction. The same arithmetic governs [sequencing-based surveys of microbial communities](/en/biology/microbiology/culturing-and-sequencing-microbes), where a taxon's read count reflects primer choice and sequencing depth before it reflects abundance. Sequencing-based assays for [off-target activity in genome editing](/en/biology/biotechnology/crispr-genome-editing-explained) face precisely this problem: the events being counted may be rarer than the platform's own error floor.
 
 The reference-genome projects illustrate the upper end. Alongside its long reads, the complete human assembly drew on roughly 100× short-read data and 70× chromosome-conformation data as supporting evidence, together with optical and single-cell strand-specific maps.
 

@@ -4,7 +4,7 @@ excerpt: A biome is a claim that macroclimate predicts vegetation form. Where th
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - biomes
@@ -40,7 +40,7 @@ That result breaks the biome concept in a specific way. It does not say the clas
 
 ## Potential vegetation is a counterfactual, and an old one
 
-Most biome maps depict potential natural vegetation — what would grow without human land use — and that convention creates two problems at once.
+Most biome maps depict potential natural vegetation — what would grow without human [land use](/en/ecology/forests/forest-ecosystems-explained) — and that convention creates two problems at once.
 
 The first is arithmetic. FAO's land statistics put world agricultural land in 2022 at [4,781 million hectares, more than a third of the global land area](https://www.fao.org/statistics/highlights-archive/highlights-detail/land-statistics-2001-2022.-global--regional-and-country-trends/en), of which 1,573 million hectares was cropland and 3,208 million hectares permanent meadows and pastures. The remainder divides almost evenly between 4,050 million hectares of forest land and 4,150 million hectares of desert, glacier, barren and built-up ground. Across large parts of Europe, South Asia and the North American interior, the polygon labelled temperate broadleaf forest or temperate grassland is now farmland, and what governs its ecology is management, not climate — the subject of [agroecosystems as managed systems](/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology).
 
@@ -66,7 +66,7 @@ Biome boundaries are drawn as lines and behave as gradients. The treeline — th
 
 The same database illustrates why edge data are hard to trust in aggregate. Of the species recorded, 152 occur in the temperate biome, and its compilers note plainly that this may simply reflect where the studies were done. A pattern in a global compilation can be a pattern in the sampling. That caution applies to biome boundaries generally: they are described best where fieldwork is densest, which is not where they are shifting fastest.
 
-The classification survives all of this because nothing else does its job. Forest reporting, sampling design, and any question of the form *is this comparison fair?* require the land surface to be stratified somehow, and macroclimate remains the best single predictor available for the purpose. What the failure cases change is the tense. A biome name states what the climate of a place would support, conditional on fire, grazing, drainage and the plough not deciding the matter first. Across a large fraction of the land surface at least one of them does, and the legend gives no indication of where.
+The classification survives all of this because nothing else does its job. Forest reporting, sampling design, and any question of the form *is this comparison fair?* require the [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) to be stratified somehow, and macroclimate remains the best single predictor available for the purpose. What the failure cases change is the tense. A biome name states what the climate of a place would support, conditional on fire, grazing, drainage and the plough not deciding the matter first. Across a large fraction of the land surface at least one of them does, and the legend gives no indication of where.
 
 ## Sources
 

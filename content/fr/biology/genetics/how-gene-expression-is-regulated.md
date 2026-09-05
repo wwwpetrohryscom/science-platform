@@ -1,11 +1,11 @@
 ---
-title: "Régulation de l'expression génique : pourquoi deux cellules au même génome ne sont pas la même cellule"
-metaTitle: "Régulation de l'expression : un génome, plusieurs types"
+title: 'Régulation de l''expression génique : pourquoi deux cellules au même génome ne sont pas la même cellule'
+metaTitle: 'Régulation de l''expression : un génome, plusieurs types'
 excerpt: Une cellule hépatique et un neurone portent un ADN identique. S'ils ne sont pas interchangeables, c'est à cause de la régulation — un système de décisions en couches sur les gènes qui sont lus et le moment où ils le sont.
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - genetics

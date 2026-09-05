@@ -704,14 +704,25 @@ export function checkTranslation(
       }
     }
   }
+  // Only the "added" direction is a fidelity question.
+  //
+  // A translation that links somewhere the English original does not is
+  // asserting a connection the original never made, which is the kind of
+  // invention this validator exists to catch. A translation that is
+  // missing one of the original's links is not saying anything false —
+  // an internal link is navigation, not a claim — it is behind, which is
+  // a different thing and is measured as a rate by
+  // scripts/localization-report.ts. Reporting staleness here as well
+  // produced 185 identical warnings the moment the English corpus was
+  // re-linked, and buried the direction that matters.
   const linkDiff = diffMultiset(enLinks, multiset(trMatches.map(strip)));
-  if (linkDiff.onlyA.length || linkDiff.onlyB.length) {
+  if (linkDiff.onlyB.length) {
     add(
       "warning",
       "translation-links",
-      `internal-link targets differ from the English — missing: ${
-        linkDiff.onlyA.slice(0, 3).join(", ") || "none"
-      }; added: ${linkDiff.onlyB.slice(0, 3).join(", ") || "none"}`,
+      `links somewhere the English article does not: ${linkDiff.onlyB
+        .slice(0, 3)
+        .join(", ")}`,
     );
   }
 

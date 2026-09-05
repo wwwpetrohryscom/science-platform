@@ -4,7 +4,7 @@ excerpt: The colour of the ocean carries information about the microscopic plant
 type: expert
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - ocean-color
   - oceans
@@ -25,7 +25,7 @@ The sea is not a uniform blue. Its precise shade, sampled from orbit, carries in
 
 Phytoplankton contain chlorophyll-a, the same pigment that makes land plants green. The more of it the surface water holds, the more the water shifts away from deep blue toward green. This is the physical basis of [ocean colour](/en/glossary/ocean-color) remote sensing: instruments measure the light that emerges from just below the sea surface and read its colour to infer what is in the water, chlorophyll-a above all.
 
-These microscopic plants matter out of proportion to their size. They sit at the base of the marine food web, and they take up carbon dioxide as they photosynthesise, so they figure prominently in the ocean carbon cycle. Tracking their abundance lets researchers follow primary productivity, watch algal blooms form and fade, gauge water quality, and look for slower shifts in marine ecosystems. NASA's [Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) has published a long series of images showing how a single colour signal can be read in all these ways.
+These microscopic plants matter out of proportion to their size. They sit at the base of the marine food web, and they take up carbon dioxide as they photosynthesise, so they figure prominently in the ocean [carbon cycle](/en/ecology/climate-change/carbon-cycle-feedbacks). Tracking their abundance lets researchers follow primary productivity, watch algal blooms form and fade, gauge [water quality](/en/ecology/freshwater/water-quality-measurement-explained), and look for slower shifts in marine ecosystems. NASA's [Earth Observatory](https://science.nasa.gov/earth/earth-observatory/) has published a long series of images showing how a single colour signal can be read in all these ways.
 
 ## How the measurement works
 

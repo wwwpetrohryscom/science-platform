@@ -5,7 +5,7 @@ excerpt: Лес никто не взвешивает. Любое опублик�
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - forest-carbon

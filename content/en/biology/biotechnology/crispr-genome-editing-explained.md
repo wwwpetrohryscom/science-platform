@@ -4,7 +4,7 @@ excerpt: A guided nuclease cuts DNA; the cell decides what the cut becomes. That
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - genome-editing
@@ -25,7 +25,7 @@ The nuclease is the famous component and the least interesting one. Cas9 finds a
 
 ## An anti-phage system, read in reverse
 
-CRISPR-Cas systems are bacterial and archaeal adaptive immunity. Fragments of previously encountered viral or plasmid DNA are stored in an array, transcribed and processed into short guide RNAs, and used to recognise and destroy the same sequence on re-encounter. The system is a defence against [viruses that infect bacteria](/en/biology/microbiology/viruses-explained), and it evolved under the pressure of that arms race rather than for anything resembling laboratory convenience.
+CRISPR-Cas systems are bacterial and archaeal [adaptive immunity](/en/biology/physiology/the-immune-system-explained). Fragments of previously encountered viral or plasmid DNA are stored in an array, transcribed and processed into short guide RNAs, and used to recognise and destroy the same sequence on re-encounter. The system is a defence against [viruses that infect bacteria](/en/biology/microbiology/viruses-explained), and it evolved under the pressure of that arms race rather than for anything resembling laboratory convenience.
 
 The 2012 result that turned it into a tool established the mechanism precisely. In one class of these systems, a mature CRISPR RNA base-paired to a trans-activating RNA forms a two-RNA structure that directs Cas9 to introduce a double-strand break; the enzyme's HNH domain cuts the strand complementary to the guide and its RuvC-like domain cuts the other. The same work showed that the two RNAs could be fused into a single engineered chimera that still directed sequence-specific cleavage — the step that made the system programmable by synthesising one short RNA rather than reconstructing a natural locus.
 
@@ -60,7 +60,7 @@ Two limits follow. Any off-target profile is specific to the guide, the cell typ
 
 ## Delivery decides which diseases are reachable
 
-The first approved therapy using this technology is instructive about what is currently practical. It treats sickle cell disease by taking a patient's own blood stem cells out of the body, using Cas9 to silence an erythroid-specific enhancer of *BCL11A* — a repressor of fetal haemoglobin — so that edited cells produce fetal haemoglobin, which interferes with sickling. It was approved in the United States on 8 December 2023 for patients aged 12 and over with recurrent vaso-occlusive crises, and in January 2024 for transfusion-dependent β-thalassaemia.
+The first approved therapy using this technology is instructive about what is currently practical. It treats sickle cell disease by taking a patient's own blood [stem cells](/en/biology/physiology/developmental-biology-explained) out of the body, using Cas9 to silence an erythroid-specific enhancer of *BCL11A* — a repressor of fetal haemoglobin — so that edited cells produce fetal haemoglobin, which interferes with sickling. It was approved in the United States on 8 December 2023 for patients aged 12 and over with recurrent vaso-occlusive crises, and in January 2024 for transfusion-dependent β-thalassaemia.
 
 Two features deserve attention. The edit does not repair the causative mutation; it disables a regulatory element so that a different, normally silenced gene is expressed, which is a strategy borrowed from what is known about [how gene expression is regulated](/en/biology/genetics/how-gene-expression-is-regulated) rather than from repair biology. And the procedure is ex vivo: cells are edited in a dish, and the patient undergoes myeloablative conditioning before their return. The therapeutic bulletin describing both approved sickle cell products notes that this combination of ex vivo genomic manipulation and conditioning leaves questions about long-term haematologic risk that only extended follow-up can answer. Editing tissues in place, without removing them, remains the harder and mostly unsolved problem.
 

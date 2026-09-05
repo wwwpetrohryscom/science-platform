@@ -1,14 +1,11 @@
 ---
 title: 'Ciência do sistema Terra: como interagem os grandes sistemas do planeta'
 metaTitle: 'Ciência do sistema Terra: componentes e acoplamentos'
-excerpt: >-
-  O ar, a água, o gelo, a rocha e a vida estudam-se habitualmente em separado. A
-  ciência do sistema Terra estuda os acoplamentos entre eles — é aí que reside a
-  maior parte do comportamento e da incerteza.
+excerpt: O ar, a água, o gelo, a rocha e a vida estudam-se habitualmente em separado. A ciência do sistema Terra estuda os acoplamentos entre eles — é aí que reside a maior parte do comportamento e da incerteza.
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - earth-system
@@ -23,26 +20,11 @@ related:
   - earth-system-models-explained
 faq:
   - question: O que é a ciência do sistema Terra?
-    answer: >-
-      É o estudo do planeta como um conjunto de componentes acopladas —
-      atmosfera, oceano e águas continentais, gelo, rocha e solo, e vida — que
-      trocam entre si energia e matéria. O seu gesto definidor é tratar as
-      trocas entre componentes como objeto de estudo, e não como condições de
-      fronteira de uma disciplina isolada.
+    answer: É o estudo do planeta como um conjunto de componentes acopladas — atmosfera, oceano e águas continentais, gelo, rocha e solo, e vida — que trocam entre si energia e matéria. O seu gesto definidor é tratar as trocas entre componentes como objeto de estudo, e não como condições de fronteira de uma disciplina isolada.
   - question: Em que difere da ciência do clima?
-    answer: >-
-      A ciência do clima é uma parte dela. A ciência do sistema Terra estende o
-      mesmo quadro acoplado aos ciclos do carbono, da água e do azoto, aos
-      ecossistemas e à Terra sólida, e estuda processos em escalas de tempo que
-      vão de dias a milhões de anos, e não apenas o sinal do aquecimento
-      antropogénico.
+    answer: A ciência do clima é uma parte dela. A ciência do sistema Terra estende o mesmo quadro acoplado aos ciclos do carbono, da água e do azoto, aos ecossistemas e à Terra sólida, e estuda processos em escalas de tempo que vão de dias a milhões de anos, e não apenas o sinal do aquecimento antropogénico.
   - question: Porque é que as retroações têm tanta importância neste quadro?
-    answer: >-
-      Porque determinam a magnitude da resposta que se segue a um dado empurrão.
-      O AR6 do IPCC avalia o parâmetro de retroação climática líquida em −1,16 W
-      m⁻² °C⁻¹, com um intervalo muito provável de −1,81 a −0,51 — um intervalo
-      suficientemente largo para que seja ele, e não a dimensão do forçamento, a
-      dominar a incerteza do aquecimento a longo prazo.
+    answer: Porque determinam a magnitude da resposta que se segue a um dado empurrão. O AR6 do IPCC avalia o parâmetro de retroação climática líquida em −1,16 W m⁻² °C⁻¹, com um intervalo muito provável de −1,81 a −0,51 — um intervalo suficientemente largo para que seja ele, e não a dimensão do forçamento, a dominar a incerteza do aquecimento a longo prazo.
 _bodyHash: f4bcfccb
 ---
 

@@ -5,7 +5,7 @@ excerpt: Só os nemátodes somam cerca de 4,4 × 10²⁰ indivíduos no mundo. O
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - soil-biodiversity

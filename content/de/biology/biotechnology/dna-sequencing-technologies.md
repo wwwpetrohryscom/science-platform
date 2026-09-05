@@ -5,7 +5,7 @@ excerpt: Die Wahl einer Sequenzierplattform hängt weniger an der genannten Gena
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - dna-sequencing

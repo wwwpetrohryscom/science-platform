@@ -5,7 +5,7 @@ excerpt: Elegir una plataforma de secuenciación tiene menos que ver con la exac
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - dna-sequencing

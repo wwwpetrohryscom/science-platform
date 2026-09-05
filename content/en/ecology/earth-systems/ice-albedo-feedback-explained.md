@@ -5,7 +5,7 @@ excerpt: Losing bright ice and exposing dark ocean amplifies warming. The mechan
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - ice-albedo-feedback
@@ -37,7 +37,7 @@ For comparison, the [water-vapour and lapse-rate feedback](/en/ecology/earth-sys
 
 Three constraints limit how much a large local contrast can do globally.
 
-**Area.** Sea ice and seasonal snow cover a small fraction of the planet's surface. A large reflectivity change over a small area is a small change in the global energy budget.
+**Area.** Sea ice and seasonal snow cover a small fraction of the planet's surface. A large reflectivity change over a small area is a small change in the global [energy budget](/en/ecology/climate-change/climate-sensitivity-explained).
 
 **Sunlight.** The polar regions receive weak, highly oblique sunlight, and during the winter months when sea-ice extent is greatest they receive almost none. Ice lost in the dark contributes nothing to the feedback. This seasonality is why September Arctic minimum extent — the metric most often quoted — is not the metric that maximises the albedo effect.
 

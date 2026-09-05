@@ -4,7 +4,7 @@ excerpt: Ribosomal RNA split the prokaryotes in two in 1977 and gave biology its
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - tree-of-life
@@ -51,7 +51,7 @@ A branching diagram cannot express a merger. Where a eukaryotic genome carries g
 
 ## Where the tree becomes a network
 
-Endosymbiosis is the dramatic case; horizontal gene transfer is the pervasive one. Sharing genetic material between organisms that are not in a parent–offspring relationship is [a recognised mechanism of adaptation](https://pubmed.ncbi.nlm.nih.gov/26184597/) in bacteria and archaea, and it also occurs between prokaryotes and eukaryotes and even between multicellular eukaryotes. Antibiotic resistance and pathogenicity are its familiar consequences, but its evolutionary reach is much wider than disease.
+Endosymbiosis is the dramatic case; horizontal gene transfer is the pervasive one. Sharing genetic material between organisms that are not in a parent–offspring relationship is [a recognised mechanism of adaptation](https://pubmed.ncbi.nlm.nih.gov/26184597/) in bacteria and archaea, and it also occurs between prokaryotes and eukaryotes and even between multicellular eukaryotes. [Antibiotic resistance](/en/biology/evolution/antibiotic-resistance-evolution-mechanisms) and pathogenicity are its familiar consequences, but its evolutionary reach is much wider than disease.
 
 Transfer has an awkward consequence for deep phylogeny. If genes move between lineages, different genes in the same genome can have different histories, and the tree recovered depends partly on which genes were chosen. This is the same discordance problem discussed in [reconstructing phylogenies from present-day data](/en/biology/taxonomy/phylogenetics-explained), amplified: at the deepest levels, transfer can be ancient, saturated and hard to detect. It does not abolish the tree — vertical inheritance still dominates for the core translational machinery — but it does mean that the base of the diagram is better read as a tree drawn through a network than as a clean bifurcating history.
 

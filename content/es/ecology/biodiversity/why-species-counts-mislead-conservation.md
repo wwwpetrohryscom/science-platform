@@ -1,15 +1,11 @@
 ---
 title: Por qué contar especies induce a error al priorizar la conservación
 metaTitle: Por qué el número de especies desorienta la conservación
-excerpt: >-
-  La riqueza de especies es la métrica de biodiversidad más fácil de calcular y
-  la peor para priorizar. Lo que predice el funcionamiento de un ecosistema son
-  la diversidad funcional y la filogenética, y ambas discrepan a menudo del
-  recuento de especies.
+excerpt: La riqueza de especies es la métrica de biodiversidad más fácil de calcular y la peor para priorizar. Lo que predice el funcionamiento de un ecosistema son la diversidad funcional y la filogenética, y ambas discrepan a menudo del recuento de especies.
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biodiversity

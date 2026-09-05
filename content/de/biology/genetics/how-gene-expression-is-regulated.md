@@ -5,7 +5,7 @@ excerpt: Eine Leberzelle und ein Neuron tragen identische DNA. Dass sie nicht au
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - genetics

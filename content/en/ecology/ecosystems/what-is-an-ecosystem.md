@@ -4,7 +4,7 @@ excerpt: An ecosystem is not a place — it's a flux. Here's what that distincti
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - ecosystems
@@ -55,11 +55,11 @@ Defining ecosystems by flow rather than place leads to several useful reframings
 
 **Restoration is restarting flux.** A restored ecosystem is one in which the characteristic flows have resumed at a rate comparable to the reference state. Replanting a forest without restoring its hydrology, soil community, or trophic structure produces a stand of trees, not an ecosystem.
 
-**Resilience is buffer capacity.** A resilient ecosystem is one whose flows persist under perturbation. Two systems can look identical and behave very differently under stress because they have different buffers — different species redundancy, different soil carbon, different functional diversity.
+**Resilience is buffer capacity.** A resilient ecosystem is one whose flows persist under perturbation. Two systems can look identical and behave very differently under stress because they have different buffers — different species redundancy, different [soil carbon](/en/ecology/soils/soil-science-explained), different [functional diversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation).
 
-**Tipping points are flow reorganizations.** When an ecosystem "flips" — savanna to desert, kelp forest to urchin barren, coral reef to algal mat — what flips is the dominant energy and material pathway. The same place persists; the ecosystem does not.
+**[Tipping points](/en/ecology/earth-systems/earth-system-tipping-points) are flow reorganizations.** When an ecosystem "flips" — savanna to desert, kelp forest to urchin barren, coral reef to algal mat — what flips is the dominant energy and material pathway. The same place persists; the ecosystem does not.
 
-**Ecosystem services are quantified flows.** When we value an ecosystem for carbon sequestration, water purification, or pollination, we are valuing a specific flux. The accounting only works if we treat the flux, not the place, as the unit. The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) makes this framing the operational basis for its biodiversity and ecosystem-services accounting.
+**[Ecosystem services](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing) are quantified flows.** When we value an ecosystem for carbon sequestration, water purification, or pollination, we are valuing a specific flux. The accounting only works if we treat the flux, not the place, as the unit. The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) makes this framing the operational basis for its biodiversity and ecosystem-services accounting.
 
 ## What this rules out
 

@@ -1,11 +1,11 @@
 ---
 title: 'Wolkenphysik: vom Kondensationskern zur größten Unsicherheit der Klimasensitivität'
-metaTitle: 'Wolkenphysik und die größte Sensitivitätsunsicherheit'
+metaTitle: Wolkenphysik und die größte Sensitivitätsunsicherheit
 excerpt: Wolken kühlen den heutigen Planeten um rund 20 W/m², und ihre Reaktion auf Erwärmung bleibt die größte Einzelquelle der Streuung bei der Klimasensitivität. Diese beiden Aussagen widersprechen einander nicht, und zu verstehen warum, ist der größte Teil des Themas.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - cloud-physics

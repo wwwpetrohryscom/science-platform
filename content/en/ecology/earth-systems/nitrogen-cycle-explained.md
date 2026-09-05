@@ -1,11 +1,11 @@
 ---
 title: 'The nitrogen cycle: an inert ocean of gas and the thin reactive stream that matters'
-metaTitle: 'The nitrogen cycle and the thin reactive stream'
+metaTitle: The nitrogen cycle and the thin reactive stream
 excerpt: Nitrogen is the most abundant gas in the air and among the scarcest nutrients in most ecosystems. The paradox lives in the chemistry of breaking a single bond.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - nitrogen-cycle
@@ -29,11 +29,11 @@ Converting N₂ into a biologically usable form is called fixation, and until th
 
 Once fixed, nitrogen enters a set of transformations that microbial communities run, each with a characteristic [residence time](/en/glossary/residence-time) in its own reservoir: **nitrification**, in which ammonium is oxidised through nitrite to nitrate; **assimilation**, in which plants and microbes incorporate it into amino acids and nucleic acids; **mineralisation**, returning organic nitrogen to ammonium as tissue decomposes; and **denitrification**, in which anaerobic microbes reduce nitrate back toward N₂ and close the loop.
 
-The point of listing them is that every step is biologically mediated. Unlike the [water cycle](/en/ecology/earth-systems/global-water-cycle-explained), which runs on physics, the nitrogen cycle is a cycle that living things operate — which makes it responsive to land management in a way physical cycles are not. Nutrient limitation is also what ties this cycle to the land carbon sink discussed in [the carbon cycle](/en/ecology/earth-systems/carbon-cycle-explained) and in [biosphere–climate interactions](/en/ecology/earth-systems/biosphere-climate-interactions).
+The point of listing them is that every step is biologically mediated. Unlike the [water cycle](/en/ecology/earth-systems/global-water-cycle-explained), which runs on physics, the nitrogen cycle is a cycle that living things operate — which makes it responsive to [land management](/en/ecology/soils/soil-erosion-processes-and-rates) in a way physical cycles are not. Nutrient limitation is also what ties this cycle to the land carbon sink discussed in [the carbon cycle](/en/ecology/earth-systems/carbon-cycle-explained) and in [biosphere–climate interactions](/en/ecology/earth-systems/biosphere-climate-interactions).
 
 ## The industrial addition
 
-The Haber–Bosch process made industrial fixation possible at scale, and synthetic fertiliser is now a major input to the terrestrial cycle alongside manure, legume cultivation, and the reactive nitrogen released by fossil-fuel combustion. FAO maintains the international statistics on agricultural nitrogen use by nutrient, which is where the quantities are tracked.
+The Haber–Bosch process made industrial fixation possible at scale, and synthetic fertiliser is now a major input to the terrestrial cycle alongside manure, legume cultivation, and the [reactive nitrogen](/en/ecology/pollution/nitrogen-pollution-and-eutrophication) released by fossil-fuel combustion. FAO maintains the international statistics on agricultural nitrogen use by nutrient, which is where the quantities are tracked.
 
 The direction of the change is not disputed: the flow of reactive nitrogen through terrestrial systems is substantially larger than it was pre-industrially. The exact multiple depends on what is counted — whether marine biological fixation is included, whether combustion sources are counted as fixation, and which inventory year is used — so it is worth being wary of a single confident global ratio quoted without those qualifications.
 

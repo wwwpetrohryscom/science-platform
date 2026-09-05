@@ -5,7 +5,7 @@ excerpt: A single 2019 estimate of global tree-restoration potential drew five f
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - reforestation
@@ -28,7 +28,7 @@ Within five months, *Science* published five technical comments disputing the an
 
 ## What was actually disputed
 
-The objections were not variations on a single complaint. One group of authors attacked the carbon figure — reported as 205 gigatonnes of carbon — on the grounds that it is inconsistent with the dynamics of the global carbon cycle and its response to human CO₂ emissions. The underlying point is ordinary carbon-cycle bookkeeping, and it is easy to overlook: carbon accumulating in new biomass does not remove an equal quantity from the atmosphere, because the ocean and the existing land sinks partly re-equilibrate in response. Carbon stored is not carbon avoided, and the two are not interchangeable in a mitigation ledger. The general accounting is set out in [carbon budgets and remaining emissions](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions).
+The objections were not variations on a single complaint. One group of authors attacked the carbon figure — reported as 205 gigatonnes of carbon — on the grounds that it is inconsistent with the dynamics of the global [carbon cycle](/en/ecology/climate-change/carbon-cycle-feedbacks) and its response to human CO₂ emissions. The underlying point is ordinary carbon-cycle bookkeeping, and it is easy to overlook: carbon accumulating in new biomass does not remove an equal quantity from the atmosphere, because the ocean and the existing land sinks partly re-equilibrate in response. Carbon stored is not carbon avoided, and the two are not interchangeable in a mitigation ledger. The general accounting is set out in [carbon budgets and remaining emissions](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions).
 
 A second group put the overestimate at roughly a factor of five, and gave three separate reasons: the soil organic carbon gains were inflated; nothing in the analysis guarded against the warming that trees cause at high latitudes and high elevations; and savannas, grasslands and shrublands were treated as land in need of restoration to forest. Three further technical comments were published in the same period. The original authors replied to all of them, maintaining that their estimates were accurate, and in May 2020 the journal issued an erratum covering both the report and that reply.
 
@@ -50,7 +50,7 @@ That is not an argument that planting is never appropriate. It is an argument th
 
 ## Where new trees can make warming worse
 
-A forest is darker than the grassland, cropland or snow-covered tundra it replaces, so it absorbs more shortwave radiation. Simulations published in 2000 translated the radiative forcing from that [change in surface albedo](/en/glossary/albedo) into an equivalent carbon stock so it could be compared directly with sequestration, and found that in many boreal areas the positive forcing from reduced surface reflectivity can offset the negative forcing expected from carbon uptake — meaning some high-latitude afforestation may add to warming rather than reduce it. The effect is strongest where snow lies for long periods, because the contrast between a snow-covered clearing and a snow-covered conifer canopy is very large.
+A forest is darker than the grassland, cropland or snow-covered tundra it replaces, so it absorbs more shortwave radiation. Simulations published in 2000 translated the [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) from that [change in surface albedo](/en/glossary/albedo) into an equivalent carbon stock so it could be compared directly with sequestration, and found that in many boreal areas the positive forcing from reduced surface reflectivity can offset the negative forcing expected from carbon uptake — meaning some high-latitude afforestation may add to warming rather than reduce it. The effect is strongest where snow lies for long periods, because the contrast between a snow-covered clearing and a snow-covered conifer canopy is very large.
 
 A quarter-century later, the accounting is still not settled. A 2025 review of afforestation across the Canadian northern boreal and southern Arctic concludes that the gaps in both biogeochemical and biogeophysical understanding are wide enough to prevent a definitive assessment of net climate benefit, and proposes a framework requiring multiple forcing components, temporal analysis, future climatic context and implementation detail before firm conclusions are drawn. Permafrost response is part of that ledger, for the reasons set out in [why boreal carbon sits below ground](/en/ecology/forests/boreal-forests-and-permafrost-interactions).
 
@@ -64,7 +64,7 @@ About 79 per cent of the monitored georeferenced sites failed at least one of th
 
 One trend in the global inventory deserves more attention than the restoration headlines it competes with. Between 1990 and 2025 the area of naturally regenerating forest fell by 324 million hectares, while the area of planted forest rose by 120 million hectares — of which 71.3 million hectares was plantation forest. The net loss of natural forest has slowed markedly, from 13.8 million hectares a year in the 1990s to 6.97 million hectares a year over 2015–2025, and the rate of planted expansion has slowed too, from a peak of 4.04 million hectares a year in 2000–2015 to 2.82 million.
 
-The direction, though, has not changed. A stable global forest area is compatible with a steady exchange of naturally regenerating stands for planted ones, and the two are not equivalent in biodiversity, in carbon residence time, or in what a carbon calculation can safely assume about them. That equivalence question is where the measurement work matters most, and it is unpacked in [how forest carbon is estimated](/en/ecology/forests/forest-carbon-measurement).
+The direction, though, has not changed. A stable global forest area is compatible with a steady exchange of naturally regenerating stands for planted ones, and the two are not equivalent in biodiversity, in carbon [residence time](/en/ecology/earth-systems/biogeochemical-cycles-explained), or in what a carbon calculation can safely assume about them. That equivalence question is where the measurement work matters most, and it is unpacked in [how forest carbon is estimated](/en/ecology/forests/forest-carbon-measurement).
 
 ## Sources
 

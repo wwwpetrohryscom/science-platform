@@ -1,11 +1,11 @@
 ---
 title: The five components of the Earth system, and why their boundaries leak
-metaTitle: 'The five components of the Earth system'
+metaTitle: The five components of the Earth system
 excerpt: Atmosphere, hydrosphere, cryosphere, biosphere, geosphere. The split is a working convention, and knowing where it breaks down is more instructive than memorising it.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - earth-system
@@ -34,9 +34,9 @@ The [hydrosphere](/en/glossary/hydrosphere) is dominated by the ocean. USGS figu
 
 The cryosphere — the frozen part — is the component that changes phase, and NSIDC groups it into snow on the ground, lake and river ice, frozen ground and permafrost, glaciers and ice sheets, ice shelves and icebergs, and sea ice. Sea ice responds seasonally; ice sheets respond over millennia. That gap of six orders of magnitude within one "component" is the strongest argument that the five-way division is coarse.
 
-The biosphere is the only component that is not defined by a material or a phase but by a process. It responds over days for plankton blooms, seasons for leaf area, and centuries for forest carbon stocks, and it is unusual in that it actively regulates fluxes rather than passively transmitting them.
+The biosphere is the only component that is not defined by a material or a phase but by a process. It responds over days for plankton blooms, seasons for leaf area, and centuries for [forest carbon](/en/ecology/forests/forest-ecosystems-explained) stocks, and it is unusual in that it actively regulates fluxes rather than passively transmitting them.
 
-The [lithosphere](/en/glossary/lithosphere), or geosphere, supplies the slowest processes — weathering, volcanism, and the long carbon cycle. NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
+The [lithosphere](/en/glossary/lithosphere), or geosphere, supplies the slowest processes — weathering, volcanism, and the long [carbon cycle](/en/ecology/climate-change/carbon-cycle-feedbacks). NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
 
 ## Where the boundaries fail
 

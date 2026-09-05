@@ -5,7 +5,7 @@ excerpt: Fleuves, lacs et marécages renferment moins d'un centième de pour cen
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - freshwater

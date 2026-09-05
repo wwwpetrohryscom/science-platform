@@ -5,7 +5,7 @@ excerpt: Bleaching is the collapse of a nutritional partnership, not the death o
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - coral-reefs
@@ -67,7 +67,7 @@ That case establishes what recovery needs: surviving colonies, time measured in 
 
 ## Restoration and assisted evolution, honestly scaled
 
-Active restoration has grown quickly, and a systematic review in PLOS ONE gives the clearest picture of what it has so far demonstrated. Across the compiled projects, the median size of a restored area was 100 square metres; 60 per cent of projects reported less than 18 months of monitoring; 59 per cent of studies focused on fast-growing branching corals; and reported survival ran between 60 and 70 per cent. The review identified the field's recurring problems as unclear objectives, non-standardised monitoring, and project designs poorly matched to their stated aims — and it stated plainly that restoration should not be viewed as a replacement for action on climate change.
+Active restoration has grown quickly, and a systematic review in PLOS ONE gives the clearest picture of what it has so far demonstrated. Across the compiled projects, the median size of a restored area was 100 square metres; 60 per cent of projects reported less than 18 months of monitoring; 59 per cent of studies focused on fast-growing branching corals; and reported survival ran between 60 and 70 per cent. The review identified the field's recurring problems as unclear objectives, non-standardised monitoring, and project designs poorly matched to their stated aims — and it stated plainly that restoration should not be viewed as a replacement for action on [climate change](/en/ecology/climate-change/what-is-climate-change).
 
 The arithmetic is what settles the question of scale. A median project of 100 m² is a rounding error against reef systems whose area is measured in tens or hundreds of thousands of square kilometres. Assisted evolution — selective breeding for thermal tolerance, symbiont manipulation, microbiome intervention — is at an earlier stage still, with much of the published work at aquarium or single-plot scale and very little field evidence on whether conferred tolerance persists across generations or across the range of stressors a wild colony meets. Current evidence supports restoration as a local intervention with local benefits; it does not yet support it as a global response.
 

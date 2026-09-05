@@ -5,7 +5,7 @@ excerpt: A evolução é uma mudança na composição genética das populações
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evolution

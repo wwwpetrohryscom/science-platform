@@ -1,17 +1,11 @@
 ---
-title: >-
-  Surveillance de la biodiversité et santé des écosystèmes : comment les
-  scientifiques mesurent l'état du vivant
+title: 'Surveillance de la biodiversité et santé des écosystèmes : comment les scientifiques mesurent l''état du vivant'
 metaTitle: Surveillance de la biodiversité et santé des écosystèmes
-excerpt: >-
-  La biodiversité n'a pas de thermomètre unique. Voici comment les scientifiques
-  suivent l'état des espèces et des écosystèmes — relevés de terrain,
-  indicateurs, bases de données d'espèces, télédétection, observation de longue
-  durée — et ce que chaque méthode peut ou ne peut pas résoudre.
+excerpt: La biodiversité n'a pas de thermomètre unique. Voici comment les scientifiques suivent l'état des espèces et des écosystèmes — relevés de terrain, indicateurs, bases de données d'espèces, télédétection, observation de longue durée — et ce que chaque méthode peut ou ne peut pas résoudre.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - biodiversity

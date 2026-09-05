@@ -1,11 +1,11 @@
 ---
-title: "Productivité marine : comment une gigatonne d'algues nourrit cinq gigatonnes d'animaux"
-metaTitle: 'Productivité marine et réseau trophique océanique'
+title: 'Productivité marine : comment une gigatonne d''algues nourrit cinq gigatonnes d''animaux'
+metaTitle: Productivité marine et réseau trophique océanique
 excerpt: L'océan porte plus de biomasse de consommateurs que de producteurs, ce qui semble impossible tant qu'on n'a pas compté le renouvellement. Voici l'arithmétique, les limites nutritives, et ce que la couleur de l'océan vue de l'espace peut ou ne peut pas voir.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - marine-productivity

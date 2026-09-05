@@ -4,7 +4,7 @@ excerpt: Global assessments put somewhere between a fifth and two-fifths of land
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - land-degradation
@@ -21,7 +21,7 @@ pillar: soil-science-explained
 _bodyHash: c1ebcf74
 ---
 
-The treaty that governs international action on land degradation defines the term in a way most readers of the phrase would not expect. Article 1 of the United Nations Convention to Combat Desertification defines land degradation as reduction or loss of biological or economic productivity "in arid, semi-arid and dry sub-humid areas" — a definition restricted, by its own text, to drylands. The Sustainable Development Goal indicator that reports national progress on the same subject applies to every land surface on Earth.
+The treaty that governs international action on land degradation defines the term in a way most readers of the phrase would not expect. Article 1 of the United Nations Convention to Combat Desertification defines land degradation as reduction or loss of biological or economic productivity "in arid, semi-arid and dry sub-humid areas" — a definition restricted, by its own text, to drylands. The Sustainable Development Goal indicator that reports national progress on the same subject applies to every [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) on Earth.
 
 The mismatch is a good introduction to the central problem of the field. Land degradation is not one measurable quantity. It is a family of judgements about what land was, what it is, and what it is for, and the wide range across published global estimates follows directly from that. The physical processes underneath those judgements — erosion, carbon loss, salinisation, compaction — are catalogued in the overview of [soil as a slow-forming resource](/en/ecology/soils/soil-science-explained); this article is about what happens when they are aggregated into a single headline percentage.
 
@@ -47,7 +47,7 @@ Drylands are not a marginal category: the FAO's assessment puts them at around 4
 
 ## What the indicator actually computes
 
-Under SDG indicator 15.3.1, the proportion of land that is degraded, reporting rests on three sub-indicators: trends in land cover, trends in land productivity, and trends in carbon stocks, currently represented by soil organic carbon. The UNCCD's technical guidance integrates them with a **one-out-all-out** rule — a significant negative change in any one of the three counts as degradation for the whole land unit — and reports the result as a binary classification, degraded or not degraded, expressed as a percentage of total land area.
+Under SDG indicator 15.3.1, the proportion of land that is degraded, reporting rests on three sub-indicators: trends in [land cover](/en/ecology/earth-observation/land-cover-change-detection), trends in land productivity, and trends in carbon stocks, currently represented by soil organic carbon. The UNCCD's technical guidance integrates them with a **one-out-all-out** rule — a significant negative change in any one of the three counts as degradation for the whole land unit — and reports the result as a binary classification, degraded or not degraded, expressed as a percentage of total land area.
 
 Three design choices inside that deserve attention. The baseline period is fixed as the sixteen years from 1 January 2000 to 31 December 2015, chosen because moderate-resolution satellite data became widely available in 2000 and because roughly fifteen years is usually enough to span the variability of natural systems. The output is binary, which means a unit that has lost a tenth of its productivity and a unit that has been paved are recorded identically. And one-out-all-out is asymmetric by construction: it maximises sensitivity to degradation at the cost of scoring some genuine improvements as losses, a consequence the guidance addresses directly.
 

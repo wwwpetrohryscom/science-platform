@@ -1,11 +1,11 @@
 ---
-title: "Eaux souterraines : comment on mesure l'épuisement, et pourquoi les méthodes divergent"
-metaTitle: "Épuisement des eaux souterraines : comment on le mesure"
+title: 'Eaux souterraines : comment on mesure l''épuisement, et pourquoi les méthodes divergent'
+metaTitle: 'Épuisement des eaux souterraines : comment on le mesure'
 excerpt: Les eaux souterraines contiennent l'essentiel de l'eau douce liquide de la planète, et leur état ne peut être que déduit. Puits, gravimétrie satellitaire et modèles hydrologiques mesurent chacun autre chose, et les écarts entre eux expliquent la plupart des désaccords publiés.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - groundwater

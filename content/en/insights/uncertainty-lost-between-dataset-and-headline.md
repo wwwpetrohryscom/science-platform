@@ -1,12 +1,12 @@
 ---
 title: Uncertainty is not lost gradually; it is dropped at one identifiable step
-metaTitle: 'Where uncertainty is dropped between dataset and headline'
+metaTitle: Where uncertainty is dropped between dataset and headline
 excerpt: Environmental numbers carry explicit qualifiers through the instrument, the dataset and the assessment, then lose them in a single act of compression. The qualifier that vanishes is almost always a probability, a period or a baseline.
 argument: The uncertainty attached to an environmental measurement survives the technical chain intact and is discarded at the point a finding is compressed into one sentence. What disappears is rarely the error bar alone; it is the condition — a likelihood, an averaging period, a reference baseline — without which the number answers a different question.
 category: ecology
 author: climate-research-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - uncertainty
@@ -52,7 +52,7 @@ Four further conditions sit on the revised figure, all legible in the source:
 
 - It is a **50 per cent** estimate. The budgets are tabulated at five avoidance probabilities, from 17 to 83 per cent; the number usually quoted is the middle one, not a safe ceiling.
 - The stated probability "includes only the uncertainty in how the Earth immediately responds to CO₂ emissions (TCRE), not long-term committed warming or uncertainty in the climate response to other non-CO₂ emissions."
-- It assumes substantial cuts in methane, nitrous oxide and sulphur dioxide — median reductions between 2020 and 2050 of about 50, 20 and 80 per cent respectively. If those are not achieved the budget shrinks; across the plausible range, values "can be higher or lower by around 200 GtCO₂", more than the budget itself.
+- It assumes substantial cuts in methane, [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained) and sulphur dioxide — median reductions between 2020 and 2050 of about 50, 20 and 80 per cent respectively. If those are not achieved the budget shrinks; across the plausible range, values "can be higher or lower by around 200 GtCO₂", more than the budget itself.
 - The paper says directly that the exhaustion date "is not expected to correspond exactly to the time that 1.5 °C global warming level is reached."
 
 The IPCC's own accounting shows the same shape a level up: cumulative anthropogenic CO₂ over 1850–2019 is assessed at 2,390 ± 240 GtCO₂, and the budget calculation carries uncertainties of ±550 GtCO₂ from historical warming and ±220 GtCO₂ from non-CO₂ forcing and response. A quantity with those attached is a planning envelope, not a countdown clock — a distinction developed in the explainer on [what a remaining carbon budget is and is not](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions).

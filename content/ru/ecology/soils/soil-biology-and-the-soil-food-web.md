@@ -5,7 +5,7 @@ excerpt: Одних только нематод в мире около 4,4 × 10
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - soil-biodiversity

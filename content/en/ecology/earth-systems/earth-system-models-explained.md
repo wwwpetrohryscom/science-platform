@@ -5,7 +5,7 @@ excerpt: An Earth system model is a coupled climate model with the biogeochemist
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - earth-system-model
@@ -59,7 +59,7 @@ The reliability of a model result depends strongly on the quantity and the scale
 
 **Well constrained**: global and large-scale energy budgets, the sign and approximate magnitude of the major physical feedbacks, the large-scale temperature response to a given forcing, and the broad structure of atmospheric and oceanic circulation.
 
-**Less well constrained**: regional precipitation, especially where it depends on circulation shifts rather than thermodynamics; cloud processes, which AR6 identifies as the largest contributor to feedback uncertainty; the land carbon sink and its response to CO₂ and drought; and ice-sheet dynamics, which many ESMs still do not include interactively.
+**Less well constrained**: regional precipitation, especially where it depends on circulation shifts rather than thermodynamics; cloud processes, which AR6 identifies as the largest contributor to feedback uncertainty; the land [carbon sink](/en/ecology/earth-systems/carbon-cycle-explained) and its response to CO₂ and drought; and ice-sheet dynamics, which many ESMs still do not include interactively.
 
 The general rule is that quantities determined by conservation laws are more trustworthy than quantities determined by processes smaller than the model grid. Convection, cloud microphysics, turbulence, and vegetation processes all occur below grid scale and are represented by **parameterisations** — physically motivated approximations with tunable coefficients. Most inter-model disagreement traces back to parameterisation choices rather than to the resolved dynamics.
 

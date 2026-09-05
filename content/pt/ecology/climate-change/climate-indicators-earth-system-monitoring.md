@@ -1,11 +1,11 @@
 ---
 title: 'Indicadores climáticos e observação do sistema Terra: como os sinais encaixam'
-metaTitle: 'Indicadores climáticos e observação do sistema Terra'
+metaTitle: Indicadores climáticos e observação do sistema Terra
 excerpt: Os indicadores climáticos acompanham o estado do sistema Terra. É assim que temperatura, calor oceânico, gases com efeito de estufa, nível do mar e gelo se leem em conjunto, e para isto serve cada um.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - climate-change

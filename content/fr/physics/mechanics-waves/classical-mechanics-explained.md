@@ -5,7 +5,7 @@ excerpt: Les lois de Newton sont moins un ensemble de faits sur les objets qu'un
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics

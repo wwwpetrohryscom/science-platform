@@ -1,11 +1,11 @@
 ---
-title: "Restauration écologique : ce que montrent les méta-analyses, et ce qui compte comme réussite"
+title: 'Restauration écologique : ce que montrent les méta-analyses, et ce qui compte comme réussite'
 metaTitle: 'Restauration écologique : ce que montrent les méta-analyses'
 excerpt: La restauration améliore de façon fiable un état dégradé de départ et reste de façon tout aussi fiable en deçà d'un état de référence. La comparaison retenue décide du verdict, et peu de projets sont suivis assez longtemps pour trancher.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecological-restoration

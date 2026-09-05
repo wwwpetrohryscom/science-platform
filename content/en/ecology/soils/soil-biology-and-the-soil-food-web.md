@@ -5,7 +5,7 @@ excerpt: Nematodes alone number about 4.4 × 10²⁰ individuals worldwide. The 
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - soil-biodiversity
@@ -68,7 +68,7 @@ Two caveats belong with this. Amino sugars are a proxy, not a direct count, and 
 
 Almost everything above rests on molecular surveys, and those have a known and quantified pathology.
 
-Extracellular DNA from dead cells persists in soil for weeks to years. A 2016 study in *Nature Microbiology* used a viability assay to separate intact cells from that residue and found that, on average, [40 per cent of both prokaryotic and fungal DNA](https://pubmed.ncbi.nlm.nih.gov/27991881/) recovered from soil was extracellular or from cells no longer intact. This "relic DNA" inflated observed richness by up to 55 per cent and skewed the estimated relative abundances of taxa — including taxa central to nutrient cycling. The effect was not uniform: it was more likely in soils with low exchangeable base cations, and its removal changed community structure most in high-pH soils. A survey that does not control for it is reporting a mixture of the living community and its recent history.
+Extracellular DNA from dead cells persists in soil for weeks to years. A 2016 study in *Nature Microbiology* used a viability assay to separate intact cells from that residue and found that, on average, [40 per cent of both prokaryotic and fungal DNA](https://pubmed.ncbi.nlm.nih.gov/27991881/) recovered from soil was extracellular or from cells no longer intact. This "relic DNA" inflated observed richness by up to 55 per cent and skewed the estimated relative abundances of taxa — including taxa central to [nutrient cycling](/en/ecology/forests/tropical-forest-ecology). The effect was not uniform: it was more likely in soils with low exchangeable base cations, and its removal changed community structure most in high-pH soils. A survey that does not control for it is reporting a mixture of the living community and its recent history.
 
 A second limitation is the reference database. The FAO assessment's clearest statement of it concerns soil algae: high-throughput molecular methods — metabarcoding, metagenomics — are limited there by the insufficiency of reference databases, molecular phylogenies and the older morphological taxa do not align, and photosynthetic microorganisms are most often left out of metagenomic and metatranscriptomic soil studies altogether. Identification of the group still leans on morphology, which the report calls both time-consuming and inaccurate.
 

@@ -1,11 +1,11 @@
 ---
 title: 'Produtividade marinha: como uma gigatonelada de algas alimenta cinco gigatoneladas de animais'
-metaTitle: 'Produtividade marinha e a teia alimentar do oceano'
+metaTitle: Produtividade marinha e a teia alimentar do oceano
 excerpt: O oceano sustenta mais biomassa de consumidores do que de produtores, o que parece impossível até se contabilizar a renovação. Aqui estão a aritmética, os limites de nutrientes e o que a cor do oceano vista do espaço consegue e não consegue ver.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - marine-productivity

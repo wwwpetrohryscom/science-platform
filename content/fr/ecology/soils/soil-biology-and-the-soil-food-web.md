@@ -1,11 +1,11 @@
 ---
-title: "Le réseau trophique du sol : l'habitat le plus riche en espèces et le moins catalogué"
+title: 'Le réseau trophique du sol : l''habitat le plus riche en espèces et le moins catalogué'
 metaTitle: 'Le réseau trophique du sol : riche et peu catalogué'
 excerpt: Les seuls nématodes comptent environ 4,4 × 10²⁰ individus dans le monde. Les organismes du sous-sol construisent l'essentiel du carbone qui y persiste, et les méthodes moléculaires employées pour les recenser sont trompeuses de façons connues.
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - soil-biodiversity

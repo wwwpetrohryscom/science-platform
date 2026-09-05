@@ -4,7 +4,7 @@ excerpt: Microplastic particles are found almost everywhere anyone looks for the
 type: expert
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - plastic-pollution
@@ -51,7 +51,7 @@ The honest summary is therefore asymmetric in a way that resists both available 
 
 Four things would change the evidential position more than another thousand occurrence papers. Certified reference materials and shared spectral libraries, so that two laboratories analysing the same sediment report the same number. Agreed reporting units, since particle counts and mass concentrations are not interconvertible without a size distribution that most studies do not publish. Effects experiments run at environmentally realistic concentrations with field-representative particle shapes and polymers, rather than with spherical beads at doses chosen to produce a response. And routine measurement of the sub-micrometre fraction, which requires methods that are still maturing. Until then, monitoring programmes are measuring a proxy — a fact that applies to any indicator, as the discussion of [what a water-quality measurement represents](/en/ecology/freshwater/water-quality-measurement-explained) sets out in a different context.
 
-Policy is not waiting for that resolution, and does not have to. The EU zero-pollution action plan targets a 30 per cent reduction in microplastics released to the environment and a halving of plastic litter at sea, on the reasoning that reducing an input with a very long environmental residence time is defensible under uncertainty about its effects. That is a precautionary judgement rather than an evidential one, and it is clearer for being described as such.
+Policy is not waiting for that resolution, and does not have to. The EU zero-pollution action plan targets a 30 per cent reduction in microplastics released to the environment and a halving of plastic litter at sea, on the reasoning that reducing an input with a very long environmental [residence time](/en/ecology/earth-systems/biogeochemical-cycles-explained) is defensible under uncertainty about its effects. That is a precautionary judgement rather than an evidential one, and it is clearer for being described as such.
 
 ## Sources
 

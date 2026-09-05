@@ -5,7 +5,7 @@ excerpt: Flüsse, Seen und Sümpfe halten weniger als ein Hundertstel Prozent de
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - freshwater

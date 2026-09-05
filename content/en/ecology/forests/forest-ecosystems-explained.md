@@ -5,7 +5,7 @@ excerpt: A forest is a land-use category before it is an ecosystem, and the thre
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - forests
@@ -34,7 +34,7 @@ Two clauses in that sentence do most of the work. The first is potential rather 
 
 Immediately below the threshold sits **other wooded land**: canopy cover of 5 to 10 percent, or a combined cover of shrubs, bushes and trees above 10 percent. The 2025 assessment puts this at 1.09 billion hectares, 8 percent of global land area, while noting that the 5–10 percent canopy band is the range countries find hardest to measure. The European Environment Agency reports forests and other wooded areas together, at around 40 percent of the European land surface — a total not comparable with a forest-only figure for anywhere else.
 
-Other frameworks draw the line elsewhere, legitimately. Under the Kyoto Protocol's Marrakesh Accords, each industrialised party selects for its own carbon accounting a single minimum crown cover between 10 and 30 percent, a single minimum area between 0.05 and 1.0 hectare, and a single minimum tree height between 2 and 5 metres. Two neighbouring states can classify the same hillside differently and both be compliant. What that does to reported rates of loss is the subject of [why deforestation figures diverge between credible sources](/en/ecology/forests/deforestation-statistics-explained).
+Other frameworks draw the line elsewhere, legitimately. Under the Kyoto Protocol's Marrakesh Accords, each industrialised party selects for its own [carbon accounting](/en/ecology/soils/soil-carbon-measurement-and-uncertainty) a single minimum crown cover between 10 and 30 percent, a single minimum area between 0.05 and 1.0 hectare, and a single minimum tree height between 2 and 5 metres. Two neighbouring states can classify the same hillside differently and both be compliant. What that does to reported rates of loss is the subject of [why deforestation figures diverge between credible sources](/en/ecology/forests/deforestation-statistics-explained).
 
 ## Structure is the axis along which most function is arranged
 

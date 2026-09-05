@@ -1,11 +1,11 @@
 ---
 title: 'Ecosystem resilience indicators: measuring the capacity to absorb disturbance'
-metaTitle: 'Ecosystem resilience indicators and early-warning signals'
+metaTitle: Ecosystem resilience indicators and early-warning signals
 excerpt: Resilience is an ecosystem capacity, not a state, which makes it hard to measure directly. This explains how scientists approximate it — through functional and response diversity, recovery rates, and statistical early-warning signals of approaching regime shifts — and why those signals are not guarantees.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - ecosystem-resilience
@@ -36,7 +36,7 @@ The two are complementary. Redundancy without response diversity can give a fals
 
 ## Regime shifts and early-warning signals
 
-Some systems can undergo a regime shift, moving between alternative stable states. A lake may switch from clear to turbid water; a reef may move from coral- to algae-dominated. Once such a shift occurs, returning to the prior state can be difficult, which is why detecting an approaching transition has drawn sustained research attention.
+Some systems can undergo a regime shift, moving between [alternative stable states](/en/ecology/ecosystems/ecological-succession-explained). A lake may switch from clear to turbid water; a reef may move from coral- to algae-dominated. Once such a shift occurs, returning to the prior state can be difficult, which is why detecting an approaching transition has drawn sustained research attention.
 
 A set of statistical early-warning signals has been proposed for this purpose, drawn from the behaviour of systems nearing a tipping point. As a system loses resilience, it tends to recover more slowly from small perturbations — a pattern termed critical slowing down. This slowing tends to leave statistical traces in time-series data: rising temporal autocorrelation, where each measurement resembles the one before it more closely, and increasing variance, where fluctuations grow larger. Studies have examined how reliably these patterns precede observed transitions, and the honest summary is that the methods are better characterised than validated: a [systematic comparison on simulated ecological time series](https://pmc.ncbi.nlm.nih.gov/articles/PMC3398887/) found that no single indicator performed well across all the transition types tested, and that the answer depends on the length of the series and on how it is detrended before the statistics are computed.
 
@@ -44,7 +44,7 @@ A set of statistical early-warning signals has been proposed for this purpose, d
 
 There is no single resilience meter, so monitoring combines several lines of evidence — a point worth treating as the methodological core of any assessment. In practice, three strands are brought together. Trait-based measures quantify response diversity within functional groups, indicating whether the species supporting a given function would react alike or differently to stress. Time-series early-warning statistics, including autocorrelation and variance, are tracked in long-running records to test for signs of critical slowing down. And recovery is followed after known disturbances, comparing the post-disturbance trajectory against a [baseline condition](/en/glossary/baseline-condition) established before the event.
 
-Each strand has different data demands. Early-warning statistics require long, consistent, high-frequency records, which many ecosystems simply lack. Trait-based measures need reliable information on species roles and their differing sensitivities. Recovery tracking depends on disturbances being documented well enough to define a clear before-and-after. The synthesis of ecosystem change and tipping points in the [IPBES Global Assessment](https://www.ipbes.net/global-assessment) draws on these approaches while acknowledging that coverage remains uneven. Because the chosen reference point shapes every comparison, an awareness of [shifting baselines](/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines) is part of doing this work carefully.
+Each strand has different data demands. Early-warning statistics require long, consistent, high-frequency records, which many ecosystems simply lack. Trait-based measures need reliable information on species roles and their differing sensitivities. Recovery tracking depends on disturbances being documented well enough to define a clear before-and-after. The synthesis of ecosystem change and [tipping points](/en/ecology/earth-systems/earth-system-tipping-points) in the [IPBES Global Assessment](https://www.ipbes.net/global-assessment) draws on these approaches while acknowledging that coverage remains uneven. Because the chosen reference point shapes every comparison, an awareness of [shifting baselines](/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines) is part of doing this work carefully.
 
 ## What the indicators cannot tell us
 

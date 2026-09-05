@@ -1,11 +1,11 @@
 ---
-title: "Mesurer le carbone forestier : allométrie, placettes, lidar et budget d'erreur"
+title: 'Mesurer le carbone forestier : allométrie, placettes, lidar et budget d''erreur'
 metaTitle: 'Mesurer le carbone forestier : allométrie, placettes, lidar'
 excerpt: Personne ne pèse une forêt. Tout chiffre publié de carbone forestier est le produit d'une chaîne de substitutions allant du mètre ruban au total mondial, et le plus grand réservoir de ce total est celui qui est le plus mal mesuré.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - forest-carbon

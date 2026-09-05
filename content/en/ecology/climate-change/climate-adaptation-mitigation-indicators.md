@@ -1,11 +1,11 @@
 ---
 title: 'Adaptation and mitigation indicators: tracking action alongside climate state'
-metaTitle: 'Adaptation and mitigation indicators'
+metaTitle: Adaptation and mitigation indicators
 excerpt: Indicators of adaptation progress and mitigation effort are reported separately from physical-climate indicators, and they have different methodological constraints. Here is what each one measures.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - climate-change
@@ -21,7 +21,7 @@ pillar: what-is-climate-change
 _bodyHash: 6b98a8be
 ---
 
-The physical-climate indicators tracked elsewhere in this cluster describe the state of the Earth system. A separate, complementary set of indicators tracks the human-action side of [the problem those physical indicators describe](/en/ecology/climate-change/what-is-climate-change): how much greenhouse gas is being emitted, what policies are in place, and where adaptation investments and outcomes are landing. The two sets of indicators are produced by different institutions with different methodological constraints and they answer different questions.
+The physical-climate indicators tracked elsewhere in this cluster describe the state of the [Earth system](/en/ecology/earth-systems/earth-system-science-explained). A separate, complementary set of indicators tracks the human-action side of [the problem those physical indicators describe](/en/ecology/climate-change/what-is-climate-change): how much greenhouse gas is being emitted, what policies are in place, and where adaptation investments and outcomes are landing. The two sets of indicators are produced by different institutions with different methodological constraints and they answer different questions.
 
 This piece walks through the main adaptation and mitigation indicator families, what each measures, and how they connect back to the physical record.
 
@@ -29,7 +29,7 @@ This piece walks through the main adaptation and mitigation indicator families, 
 
 Mitigation indicators track effort to reduce or avoid greenhouse-gas emissions. They split into emission-side indicators, deployment-side indicators, and outcome-side indicators.
 
-**Emissions inventories.** Annual greenhouse-gas emissions are reported by countries to the United Nations Framework Convention on Climate Change (UNFCCC) under the Paris Agreement reporting framework. The inventories cover fossil-fuel CO₂, methane (from fossil systems, agriculture, and waste), nitrous oxide, and the major halocarbons. The [U.S. Environmental Protection Agency](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks) maintains the U.S. domestic inventory; the [European Environment Agency](https://www.eea.europa.eu/) does the same for the European Union; the UNEP Emissions Gap Report consolidates global emissions estimates annually.
+**Emissions inventories.** Annual greenhouse-gas emissions are reported by countries to the United Nations Framework Convention on Climate Change (UNFCCC) under the Paris Agreement reporting framework. The inventories cover fossil-fuel CO₂, methane (from fossil systems, agriculture, and waste), [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained), and the major halocarbons. The [U.S. Environmental Protection Agency](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks) maintains the U.S. domestic inventory; the [European Environment Agency](https://www.eea.europa.eu/) does the same for the European Union; the UNEP Emissions Gap Report consolidates global emissions estimates annually.
 
 Bottom-up inventories are cross-checked against top-down constraints: the atmospheric [greenhouse-gas concentration record](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring), satellite column measurements, and inverse atmospheric models. The two approaches sometimes disagree, particularly for methane — which the [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) inverse-modelling work has been refining. The closure of bottom-up against top-down is itself an indicator of inventory quality.
 
@@ -37,7 +37,7 @@ Bottom-up inventories are cross-checked against top-down constraints: the atmosp
 
 **Energy-system deployment.** The [International Energy Agency](https://www.iea.org/) tracks deployment of low-carbon energy technologies (renewables, nuclear, electric vehicles, heat pumps, energy efficiency) as indicators of mitigation progress on the supply side. The deployment indicators do not directly translate to avoided emissions — that calculation requires counterfactual assumptions — but they are leading indicators of where the energy system is moving.
 
-**Outcome on the carbon cycle.** Cumulative emissions to date have raised atmospheric CO₂ from about 280 ppm to over 420 ppm. The annual atmospheric concentration trend is the operational mitigation outcome indicator that is unambiguously observable. The [IPCC AR6 WG3](https://www.ipcc.ch/report/ar6/wg3/) report on mitigation reviews how observed atmospheric trends relate to inventory-reported emissions through carbon-cycle constraints.
+**Outcome on the [carbon cycle](/en/ecology/climate-change/carbon-cycle-feedbacks).** [Cumulative emissions](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions) to date have raised atmospheric CO₂ from about 280 ppm to over 420 ppm. The annual atmospheric concentration trend is the operational mitigation outcome indicator that is unambiguously observable. The [IPCC AR6 WG3](https://www.ipcc.ch/report/ar6/wg3/) report on mitigation reviews how observed atmospheric trends relate to inventory-reported emissions through carbon-cycle constraints.
 
 ## Adaptation indicators
 
@@ -75,7 +75,7 @@ Three practices help.
 
 **Adaptation indicators are not summable.** Mitigation indicators add up across regions (global CO₂ emissions are the sum of national emissions). Adaptation indicators are typically not additive — heat-resilience effort in one region does not combine with flood-protection effort in another into a single global adaptation metric. The disaggregation is methodological, not a reporting failure.
 
-**Outcome indicators have lag.** Mitigation outcome (atmospheric concentration response) lags emissions by years; ocean acidification outcomes lag by decades; sea-level rise outcomes lag by centuries. Adaptation outcomes typically have shorter lag but are harder to attribute to specific interventions.
+**Outcome indicators have lag.** Mitigation outcome (atmospheric concentration response) lags emissions by years; [ocean acidification](/en/ecology/oceans/ocean-acidification-explained) outcomes lag by decades; sea-level rise outcomes lag by centuries. Adaptation outcomes typically have shorter lag but are harder to attribute to specific interventions.
 
 ## What action indicators add to the climate-indicator cluster
 

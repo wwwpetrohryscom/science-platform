@@ -5,7 +5,7 @@ excerpt: The atmosphere holds a thousandth of one per cent of Earth's water and 
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - water-cycle
@@ -31,7 +31,7 @@ The atmosphere holds about 12,900 cubic kilometres, which USGS puts at approxima
 
 ## The flux, and what it implies
 
-NASA estimates that around 495,000 cubic kilometres of water cycles through the atmosphere annually — replacing the atmospheric store close to forty times a year, which is a residence time on the order of nine days. NASA puts the share of atmospheric moisture supplied by evaporation from oceans, seas, and other water bodies at nearly 90 per cent, with plant transpiration and human activity accounting for the remainder.
+NASA estimates that around 495,000 cubic kilometres of water cycles through the atmosphere annually — replacing the atmospheric store close to forty times a year, which is a [residence time](/en/ecology/earth-systems/biogeochemical-cycles-explained) on the order of nine days. NASA puts the share of atmospheric moisture supplied by evaporation from oceans, seas, and other water bodies at nearly 90 per cent, with plant transpiration and human activity accounting for the remainder.
 
 That short residence time has three consequences worth stating plainly.
 
@@ -45,7 +45,7 @@ That short residence time has three consequences worth stating plainly.
 
 Here is the part of the water cycle most often stated incorrectly. Warming increases the atmosphere's capacity to hold moisture and increases precipitation, but not by the same amount.
 
-The IPCC's assessment sets out both constraints. The Clausius–Clapeyron relation implies that low-altitude specific humidity rises by about 7 per cent per degree Celsius of warming, assuming relative humidity stays roughly constant — which holds approximately at the global scale though not regionally. But global mean precipitation and evaporation are constrained by the atmosphere's energy budget rather than by its moisture capacity, and AR6 gives a very likely range of only 1 to 3 per cent per degree for their increase.
+The IPCC's assessment sets out both constraints. The Clausius–Clapeyron relation implies that low-altitude specific humidity rises by about 7 per cent per degree Celsius of warming, assuming relative humidity stays roughly constant — which holds approximately at the global scale though not regionally. But global mean precipitation and evaporation are constrained by the atmosphere's [energy budget](/en/ecology/climate-change/climate-sensitivity-explained) rather than by its moisture capacity, and AR6 gives a very likely range of only 1 to 3 per cent per degree for their increase.
 
 The gap between the two rates is not an inconsistency. Precipitation is limited by how fast the atmosphere can shed the latent heat released when water condenses, which is an energetic constraint; moisture content is limited by thermodynamics. The practical consequence is that a warmer atmosphere holds substantially more water but rains somewhat less often and more heavily when it does. AR6 attaches high confidence to the finding that a roughly 7 per cent per degree increase in near-surface moisture-holding capacity explains a similar magnitude of intensification in heavy precipitation events.
 

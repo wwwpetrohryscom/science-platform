@@ -1,14 +1,11 @@
 ---
 title: 'Ciencia del sistema Tierra: cómo interactúan los grandes sistemas del planeta'
 metaTitle: 'Ciencia del sistema Tierra: componentes y acoplamientos'
-excerpt: >-
-  El aire, el agua, el hielo, la roca y la vida suelen estudiarse por separado.
-  La ciencia del sistema Tierra estudia los acoplamientos entre ellos, que es
-  donde residen la mayor parte del comportamiento y de la incertidumbre.
+excerpt: El aire, el agua, el hielo, la roca y la vida suelen estudiarse por separado. La ciencia del sistema Tierra estudia los acoplamientos entre ellos, que es donde residen la mayor parte del comportamiento y de la incertidumbre.
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - earth-system
@@ -23,26 +20,11 @@ related:
   - earth-system-models-explained
 faq:
   - question: ¿Qué es la ciencia del sistema Tierra?
-    answer: >-
-      Es el estudio del planeta como un conjunto de componentes acoplados
-      —atmósfera, océano y aguas continentales, hielo, roca y suelo, y vida— que
-      intercambian energía y materia entre sí. Su rasgo definitorio consiste en
-      tratar los intercambios entre componentes como objeto de estudio y no como
-      condiciones de contorno de una disciplina aislada.
+    answer: Es el estudio del planeta como un conjunto de componentes acoplados —atmósfera, océano y aguas continentales, hielo, roca y suelo, y vida— que intercambian energía y materia entre sí. Su rasgo definitorio consiste en tratar los intercambios entre componentes como objeto de estudio y no como condiciones de contorno de una disciplina aislada.
   - question: ¿En qué se diferencia de la ciencia del clima?
-    answer: >-
-      La ciencia del clima es una parte de ella. La ciencia del sistema Tierra
-      extiende ese mismo marco acoplado a los ciclos del carbono, del agua y del
-      nitrógeno, a los ecosistemas y a la Tierra sólida, y estudia procesos en
-      escalas temporales que van de días a millones de años, no solo la señal
-      antropogénica de calentamiento.
+    answer: La ciencia del clima es una parte de ella. La ciencia del sistema Tierra extiende ese mismo marco acoplado a los ciclos del carbono, del agua y del nitrógeno, a los ecosistemas y a la Tierra sólida, y estudia procesos en escalas temporales que van de días a millones de años, no solo la señal antropogénica de calentamiento.
   - question: ¿Por qué importan tanto las retroalimentaciones en este marco?
-    answer: >-
-      Porque fijan la magnitud de la respuesta que sigue a un empujón dado. El
-      AR6 del IPCC evalúa el parámetro de retroalimentación climática neta en
-      −1,16 W m⁻² °C⁻¹, con un rango muy probable de −1,81 a −0,51, lo bastante
-      amplio como para que sea él, y no el tamaño del forzamiento, lo que domina
-      la incertidumbre del calentamiento a largo plazo.
+    answer: Porque fijan la magnitud de la respuesta que sigue a un empujón dado. El AR6 del IPCC evalúa el parámetro de retroalimentación climática neta en −1,16 W m⁻² °C⁻¹, con un rango muy probable de −1,81 a −0,51, lo bastante amplio como para que sea él, y no el tamaño del forzamiento, lo que domina la incertidumbre del calentamiento a largo plazo.
 _bodyHash: 939d279c
 ---
 

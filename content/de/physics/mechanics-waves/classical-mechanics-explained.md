@@ -5,7 +5,7 @@ excerpt: Die Newtonschen Gesetze sind weniger eine Sammlung von Tatsachen über 
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics

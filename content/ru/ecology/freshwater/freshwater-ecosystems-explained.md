@@ -5,7 +5,7 @@ excerpt: Реки, озёра и болота содержат меньше со
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - freshwater

@@ -1,11 +1,11 @@
 ---
 title: 'The electromagnetic spectrum: one phenomenon, many windows on the universe'
-metaTitle: 'The electromagnetic spectrum and its windows'
+metaTitle: The electromagnetic spectrum and its windows
 excerpt: Radio waves, visible light, X-rays, and gamma rays are not different phenomena. They are the same phenomenon at different wavelengths — and the wavelength determines what the radiation can do.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - quantum-basics
@@ -64,7 +64,7 @@ Wavelength sets four practical things.
 
 The same physics underpins solar energy capture, climate observation, medical imaging, telecommunications, astronomy, and quantum measurement. Reading these as separate fields misses that they are different applications of one physical phenomenon — the electromagnetic field, and its quantum, the photon.
 
-For [climate observation](/en/ecology/climate-change/ocean-heat-content-indicators), the energy budget of the planet is established by satellite radiometry across the infrared and visible. For solar energy, the same incoming flux is the resource being captured. For atmospheric chemistry, UV-driven photolysis sets the production and loss of stratospheric ozone. For astrophysics, the only direct evidence we have about distant objects (other than gravitational waves and a few neutrinos) is the electromagnetic radiation they emit.
+For [climate observation](/en/ecology/climate-change/ocean-heat-content-indicators), the [energy budget](/en/physics/climate-physics/atmospheric-physics-explained) of the planet is established by satellite radiometry across the infrared and visible. For solar energy, the same incoming flux is the resource being captured. For atmospheric chemistry, UV-driven photolysis sets the production and loss of stratospheric ozone. For astrophysics, the only direct evidence we have about distant objects (other than gravitational waves and a few neutrinos) is the electromagnetic radiation they emit.
 
 ## Limits and conventions
 

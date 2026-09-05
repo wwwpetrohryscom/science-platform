@@ -4,7 +4,7 @@ excerpt: Экосистема — это не место, а поток. Что 
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - ecosystems

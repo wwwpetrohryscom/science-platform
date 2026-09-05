@@ -1,17 +1,11 @@
 ---
-title: >-
-  Meereskunde: Wie die Tiefe das Meer ordnet – und wie wenig davon wir
-  beobachten
+title: 'Meereskunde: Wie die Tiefe das Meer ordnet – und wie wenig davon wir beobachten'
 metaTitle: 'Meereskunde: die Tiefe ordnet das Meer'
-excerpt: >-
-  Die Dichte sortiert Meerwasser in Schichten, die nur langsam miteinander
-  austauschen; fast jede großräumige Eigenschaft des Meeres folgt aus dieser
-  Sortierung. Was die Schichtung mit Chemie und Leben macht – und wie dünn der
-  Ozean tatsächlich beobachtet wird.
+excerpt: Die Dichte sortiert Meerwasser in Schichten, die nur langsam miteinander austauschen; fast jede großräumige Eigenschaft des Meeres folgt aus dieser Sortierung. Was die Schichtung mit Chemie und Leben macht – und wie dünn der Ozean tatsächlich beobachtet wird.
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - oceans

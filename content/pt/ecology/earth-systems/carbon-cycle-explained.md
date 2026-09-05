@@ -5,7 +5,7 @@ excerpt: A maior parte do carbono da Terra está fechada na rocha e move-se em t
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle

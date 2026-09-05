@@ -1,11 +1,11 @@
 ---
 title: 'Regulação da expressão génica: porque duas células com o mesmo genoma não são a mesma célula'
 metaTitle: 'Regulação da expressão: um genoma, muitos tipos'
-excerpt: 'Uma célula hepática e um neurónio têm ADN idêntico. Não serem intercambiáveis deve-se à regulação, um sistema em camadas de decisões sobre que genes são lidos e quando.'
+excerpt: Uma célula hepática e um neurónio têm ADN idêntico. Não serem intercambiáveis deve-se à regulação, um sistema em camadas de decisões sobre que genes são lidos e quando.
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - genetics

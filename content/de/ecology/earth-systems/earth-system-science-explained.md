@@ -1,14 +1,11 @@
 ---
 title: 'Erdsystemwissenschaft: wie die großen Systeme des Planeten zusammenwirken'
 metaTitle: 'Erdsystemwissenschaft: Komponenten und Kopplungen'
-excerpt: >-
-  Luft, Wasser, Eis, Gestein und Leben werden gewöhnlich getrennt untersucht.
-  Die Erdsystemwissenschaft untersucht ihre Kopplungen – dort sitzt der größte
-  Teil des Verhaltens und der größte Teil der Unsicherheit.
+excerpt: Luft, Wasser, Eis, Gestein und Leben werden gewöhnlich getrennt untersucht. Die Erdsystemwissenschaft untersucht ihre Kopplungen – dort sitzt der größte Teil des Verhaltens und der größte Teil der Unsicherheit.
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - earth-system
@@ -23,28 +20,11 @@ related:
   - earth-system-models-explained
 faq:
   - question: Was ist Erdsystemwissenschaft?
-    answer: >-
-      Sie untersucht den Planeten als einen Satz gekoppelter Komponenten –
-      Atmosphäre, Ozean und Süßwasser, Eis, Gestein und Boden sowie das Leben –,
-      die untereinander Energie und Materie austauschen. Ihr entscheidender
-      Schritt besteht darin, den Austausch zwischen den Komponenten selbst zum
-      Untersuchungsgegenstand zu machen, statt ihn als Randbedingung eines
-      einzelnen Fachs zu behandeln.
+    answer: Sie untersucht den Planeten als einen Satz gekoppelter Komponenten – Atmosphäre, Ozean und Süßwasser, Eis, Gestein und Boden sowie das Leben –, die untereinander Energie und Materie austauschen. Ihr entscheidender Schritt besteht darin, den Austausch zwischen den Komponenten selbst zum Untersuchungsgegenstand zu machen, statt ihn als Randbedingung eines einzelnen Fachs zu behandeln.
   - question: Worin unterscheidet sie sich von der Klimawissenschaft?
-    answer: >-
-      Die Klimawissenschaft ist ein Teil von ihr. Die Erdsystemwissenschaft
-      überträgt denselben gekoppelten Rahmen auf den Kohlenstoff-, den Wasser-
-      und den Stickstoffkreislauf, auf Ökosysteme und auf die feste Erde, und
-      sie untersucht Prozesse auf Zeitskalen von Tagen bis zu Jahrmillionen,
-      nicht allein das anthropogene Erwärmungssignal.
+    answer: Die Klimawissenschaft ist ein Teil von ihr. Die Erdsystemwissenschaft überträgt denselben gekoppelten Rahmen auf den Kohlenstoff-, den Wasser- und den Stickstoffkreislauf, auf Ökosysteme und auf die feste Erde, und sie untersucht Prozesse auf Zeitskalen von Tagen bis zu Jahrmillionen, nicht allein das anthropogene Erwärmungssignal.
   - question: Warum sind Rückkopplungen in diesem Rahmen so wichtig?
-    answer: >-
-      Weil sie bestimmen, wie groß die Antwort auf einen gegebenen Anstoß
-      ausfällt. Der IPCC AR6 beziffert den Netto-Rückkopplungsparameter des
-      Klimas auf −1,16 W m⁻² °C⁻¹ mit einer sehr wahrscheinlichen Spanne von
-      −1,81 bis −0,51 – eine Spanne, die breit genug ist, dass sie und nicht die
-      Größe des Antriebs die Unsicherheit der langfristigen Erwärmung
-      beherrscht.
+    answer: Weil sie bestimmen, wie groß die Antwort auf einen gegebenen Anstoß ausfällt. Der IPCC AR6 beziffert den Netto-Rückkopplungsparameter des Klimas auf −1,16 W m⁻² °C⁻¹ mit einer sehr wahrscheinlichen Spanne von −1,81 bis −0,51 – eine Spanne, die breit genug ist, dass sie und nicht die Größe des Antriebs die Unsicherheit der langfristigen Erwärmung beherrscht.
 _bodyHash: df745242
 ---
 

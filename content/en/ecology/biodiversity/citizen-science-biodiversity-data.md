@@ -5,7 +5,7 @@ excerpt: Volunteer observers now generate a large share of the world’s species
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - citizen-science
@@ -38,7 +38,7 @@ This places volunteer data alongside other evidence rather than apart from it. I
 
 The breadth of citizen-science data comes with patterns that any user has to account for. These biases are well documented and tend to recur across datasets.
 
-Spatial bias is the most visible: records cluster near roads, towns, and protected areas, simply because that is where observers are. Remote or hard-to-reach terrain is under-represented even when it is ecologically important. Taxonomic bias follows a similar logic — charismatic and easily identified groups, such as birds and butterflies, are recorded far more often than cryptic or hard-to-name organisms. Layered onto these is uneven sampling effort: the time and attention behind each record vary widely and often go unrecorded, so an absence of observations may mean an absence of observers rather than an absence of the species. Observer skill and the ability to detect a given organism differ from person to person as well, adding further variation to what gets logged.
+Spatial bias is the most visible: records cluster near roads, towns, and [protected areas](/en/ecology/conservation/conservation-science-explained), simply because that is where observers are. Remote or hard-to-reach terrain is under-represented even when it is ecologically important. [Taxonomic bias](/en/ecology/conservation/species-extinction-risk-assessment) follows a similar logic — charismatic and easily identified groups, such as birds and butterflies, are recorded far more often than cryptic or hard-to-name organisms. Layered onto these is uneven sampling effort: the time and attention behind each record vary widely and often go unrecorded, so an absence of observations may mean an absence of observers rather than an absence of the species. Observer skill and the ability to detect a given organism differ from person to person as well, adding further variation to what gets logged.
 
 ## How the biases are corrected
 

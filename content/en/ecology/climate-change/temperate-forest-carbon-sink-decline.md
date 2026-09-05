@@ -1,11 +1,11 @@
 ---
 title: How temperate forests are quietly losing their carbon sink capacity
-metaTitle: 'Temperate forests are losing carbon-sink capacity'
+metaTitle: Temperate forests are losing carbon-sink capacity
 excerpt: Long-term inventory networks show why temperate forest carbon sinks should be treated as dynamic and disturbance-sensitive, not as guaranteed offsets.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-02-12'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 4
 tags:
   - carbon
@@ -26,7 +26,7 @@ faq:
 _bodyHash: 8dde7eea
 ---
 
-Land carbon uptake is one of the terms that determines how much of an emission stays in the air, and therefore how fast [the climate changes](/en/ecology/climate-change/what-is-climate-change). Forest inventory plots in Europe and North America have tracked aboveground carbon storage for decades. Public monitoring systems such as [ICP Forests](http://icp-forests.net/), the [USDA Forest Service Forest Inventory and Analysis program](https://research.fs.usda.gov/programs/fia), and forest assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) show why forest carbon sinks should be treated as measured systems, not assumed constants.
+Land carbon uptake is one of the terms that determines how much of an emission stays in the air, and therefore how fast [the climate changes](/en/ecology/climate-change/what-is-climate-change). [Forest inventory](/en/ecology/forests/forest-ecosystems-explained) plots in Europe and North America have tracked aboveground carbon storage for decades. Public monitoring systems such as [ICP Forests](http://icp-forests.net/), the [USDA Forest Service Forest Inventory and Analysis program](https://research.fs.usda.gov/programs/fia), and forest assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/forests-and-forestry) show why forest carbon sinks should be treated as measured systems, not assumed constants.
 
 Some carbon-sink changes may not be visible in coarse greenness indices because canopy condition and woody biomass accumulation are related but not identical. The signal needs inventory, remote-sensing, and disturbance data together.
 
@@ -34,7 +34,7 @@ Some carbon-sink changes may not be visible in coarse greenness indices because 
 
 The plot networks involved — [ICP Forests](http://icp-forests.net/) in Europe, the [USDA Forest Service Forest Inventory and Analysis](https://research.fs.usda.gov/programs/fia) program in the United States, equivalent systems in Canada, the UK, and Japan — were designed in different decades for different purposes. Aligning them required decisions about allometric equations, plot stratification, and the treatment of mortality. Different reasonable choices yield different magnitudes for the deceleration. None yield no deceleration.
 
-The signal is strongest in stands aged 40 to 100 years — the cohort that drove much of the late-20th-century terrestrial carbon sink. Younger stands are still accumulating. Older stands were never accumulating much. The middle cohort is the one carrying the productivity loss.
+The signal is strongest in stands aged 40 to 100 years — the cohort that drove much of the late-20th-century terrestrial [carbon sink](/en/ecology/earth-systems/carbon-cycle-explained). Younger stands are still accumulating. Older stands were never accumulating much. The middle cohort is the one carrying the productivity loss.
 
 ## Three reinforcing drivers
 
@@ -42,7 +42,7 @@ Three drivers, each individually documented, appear to be reinforcing each other
 
 **Drought frequency.** Continental interiors have seen an increase in years where soil moisture limits stomatal conductance for a substantial fraction of the growing season. Even when those years are not classified as "drought" in conventional indices, they reduce annual carbon uptake.
 
-**Pest range expansion.** Bark beetles and defoliating insects are expanding their range polewards and upslope. The overlap with stressed stands shortens the recovery window between disturbance events. Stands that historically had decades to recover between outbreaks now have years.
+**Pest range expansion.** [Bark beetles](/en/ecology/forests/forest-disturbance-fire-insects-windthrow) and defoliating insects are expanding their range polewards and upslope. The overlap with stressed stands shortens the recovery window between disturbance events. Stands that historically had decades to recover between outbreaks now have years.
 
 **Shifted growing seasons.** Warming has lengthened the growing season at the leaf level — earlier budburst, later senescence — but soil moisture has not kept pace. The marginal day adds little carbon and may add water stress.
 
@@ -56,7 +56,7 @@ A new generation of models is starting to incorporate disturbance feedbacks expl
 
 ## What this means for policy
 
-If the temperate sink is weaker than assumed, the implicit carbon budget compatible with 1.5°C narrows further. Land-use commitments that depend on forest sequestration as a hedge become more fragile, and the case for accelerating direct emissions reductions strengthens.
+If the temperate sink is weaker than assumed, the implicit [carbon budget](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions) compatible with 1.5°C narrows further. Land-use commitments that depend on forest sequestration as a hedge become more fragile, and the case for accelerating direct emissions reductions strengthens.
 
 It also raises the bar for any policy that monetizes forest carbon. If the underlying biophysical assumption — that mature temperate forests will continue to sequester at recent rates — is wrong, the carbon credits issued against that assumption are systematically over-counted. Markets currently priced on the older assumption will need to be re-priced.
 

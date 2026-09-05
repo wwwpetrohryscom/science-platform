@@ -1,11 +1,11 @@
 ---
 title: 'Solar radiation and Earth''s energy balance: the physics behind the climate'
-metaTitle: 'Solar radiation and Earth''s energy balance'
+metaTitle: Solar radiation and Earth's energy balance
 excerpt: The Earth absorbs a specific amount of energy from the Sun and radiates a specific amount back to space. The accounting between the two is the foundation of climate physics.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-24'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - energy
@@ -20,7 +20,7 @@ pillar: energy-systems-explained
 _bodyHash: f5a386b2
 ---
 
-The Earth's climate system is, at its core, an energy budget. The Sun delivers shortwave radiation; the planet absorbs some, reflects some, and radiates longwave (infrared) energy back to space. It is also the ultimate input to every solar technology in [an energy system](/en/physics/energy/energy-systems-explained). The accounting between input and output is the foundation of climate physics, and it is also the framing that anchors most discussion of [energy systems](/en/physics/energy/perovskite-stack-field-stability) and photovoltaics.
+The Earth's climate system is, at its core, an [energy budget](/en/physics/climate-physics/atmospheric-physics-explained). The Sun delivers shortwave radiation; the planet absorbs some, reflects some, and radiates longwave (infrared) energy back to space. It is also the ultimate input to every solar technology in [an energy system](/en/physics/energy/energy-systems-explained). The accounting between input and output is the foundation of climate physics, and it is also the framing that anchors most discussion of [energy systems](/en/physics/energy/perovskite-stack-field-stability) and photovoltaics.
 
 The numbers are well-established. The structure of the budget — what is well-known, what is uncertain, and what is genuinely model-dependent — is worth understanding directly rather than through proxies.
 
@@ -68,7 +68,7 @@ Two quantities in the energy budget are well-constrained; one is not.
 
 **Outgoing longwave radiation** is well-measured by satellite radiometry — the CERES instrument suite onboard NASA Earth Observing System satellites measures it directly.
 
-**Cloud feedback** is the dominant remaining uncertainty. How clouds change as the climate warms — height, coverage, optical properties — determines a substantial fraction of the spread in climate sensitivity estimates. AR6 reports cloud feedback as positive overall (warming-amplifying) with quantifiable but irreducible spread across models. This is the principal reason climate sensitivity is reported as a range rather than a single number.
+**[Cloud feedback](/en/physics/climate-physics/convection-and-cloud-formation)** is the dominant remaining uncertainty. How clouds change as the climate warms — height, coverage, optical properties — determines a substantial fraction of the spread in climate sensitivity estimates. AR6 reports cloud feedback as positive overall (warming-amplifying) with quantifiable but irreducible spread across models. This is the principal reason climate sensitivity is reported as a range rather than a single number.
 
 ## Recent evidence and updated context
 

@@ -5,7 +5,7 @@ excerpt: Drought is monitored with a combination of climate indices and satellit
 type: expert
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - drought
   - monitoring
@@ -24,7 +24,7 @@ Drought is not a single condition but a family of related water deficits, and th
 
 ## What kind of drought is being measured
 
-A useful first step is to separate the types of drought, because they unfold on different timescales and show up in different data. Meteorological drought is a deficit of precipitation: less rain or snow falls than the local climate would lead one to expect. Agricultural drought is a deficit of soil moisture, the condition in which the water available in the root zone is too low to meet the needs of crops and other plants. Hydrological drought concerns the slower parts of the water cycle — low streamflow, depleted reservoirs, and declining groundwater — and it can persist long after rainfall has returned to normal.
+A useful first step is to separate the types of drought, because they unfold on different timescales and show up in different data. Meteorological drought is a deficit of precipitation: less rain or snow falls than the local climate would lead one to expect. Agricultural drought is a deficit of soil moisture, the condition in which the water available in the root zone is too low to meet the needs of crops and other plants. Hydrological drought concerns the slower parts of the [water cycle](/en/ecology/earth-systems/global-water-cycle-explained) — low streamflow, depleted reservoirs, and declining groundwater — and it can persist long after rainfall has returned to normal.
 
 These categories overlap but do not move together. A short dry spell may stress crops without lowering river levels, while a hydrological drought can linger in aquifers after the surface has recovered. Tracking all three is the reason monitoring relies on several indicators rather than one.
 
@@ -38,7 +38,7 @@ Two related indices extend the idea. The SPEI adds evapotranspiration to the cal
 
 Ground stations are sparse in many regions, and this is where [earth observation](/en/glossary/earth-observation) supplies measurements that surface networks cannot provide on their own. The wider field of [earth observation and remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) underpins each of these inputs. Several types of input feed drought systems. Precipitation can be estimated from space, for example by NASA's Global Precipitation Measurement (GPM) mission, which helps fill gaps between rain gauges. Soil moisture is retrieved by dedicated missions such as SMAP and SMOS, giving a more direct view of the water available to plants than rainfall alone. The catalogue maintained by [NASA Earthdata](https://www.earthdata.nasa.gov/) brings these precipitation, soil-moisture, and water-storage products together.
 
-Vegetation provides a further, indirect signal. Because plants respond to water stress, indices such as [NDVI](/en/ecology/earth-observation/ndvi-explained) and vegetation-health products register the effect of a deficit on the land surface; the [normalized difference vegetation index](/en/glossary/ndvi) is a common starting point for this kind of stress detection. the broader family of [vegetation indices and monitoring](/en/ecology/earth-observation/vegetation-indices-and-monitoring) is used to read this stress against each location's seasonal history. For the slowest component, the GRACE and GRACE-FO gravity missions measure changes in total water storage, including groundwater, by detecting tiny variations in Earth's gravity field. Together these inputs span the fast and slow parts of the cycle that the drought categories describe.
+Vegetation provides a further, indirect signal. Because plants respond to water stress, indices such as [NDVI](/en/ecology/earth-observation/ndvi-explained) and vegetation-health products register the effect of a deficit on the [land surface](/en/ecology/earth-systems/biosphere-climate-interactions); the [normalized difference vegetation index](/en/glossary/ndvi) is a common starting point for this kind of stress detection. the broader family of [vegetation indices and monitoring](/en/ecology/earth-observation/vegetation-indices-and-monitoring) is used to read this stress against each location's seasonal history. For the slowest component, the GRACE and GRACE-FO gravity missions measure changes in total water storage, including groundwater, by detecting tiny variations in Earth's gravity field. Together these inputs span the fast and slow parts of the cycle that the drought categories describe.
 
 ## How operational systems combine the evidence
 

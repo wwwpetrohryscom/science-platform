@@ -4,7 +4,7 @@ excerpt: The four laws are prohibitions, not recipes. Each one rules out a class
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - thermodynamics
@@ -20,7 +20,7 @@ related:
 _bodyHash: 60e94b1a
 ---
 
-[Thermodynamics](/en/glossary/thermodynamics) is a set of prohibitions. Each of its four laws says that something cannot be done, and each has outlived the microscopic theories that were meant to explain it — caloric, then classical mechanics, then classical field theory. That is why a nineteenth-century argument about steam still constrains a solar cell, a domestic refrigerator and a bacterium without modification.
+[Thermodynamics](/en/glossary/thermodynamics) is a set of prohibitions. Each of its four laws says that something cannot be done, and each has outlived the microscopic theories that were meant to explain it — caloric, then [classical mechanics](/en/physics/mechanics-waves/classical-mechanics-explained), then classical field theory. That is why a nineteenth-century argument about steam still constrains a solar cell, a domestic refrigerator and a bacterium without modification.
 
 They are also quoted more loosely than they are used. "Energy is conserved" and "entropy increases" are slogans that drop the conditions attached to them, and the conditions are where the confusion about perpetual motion, efficiency claims and living systems lives.
 

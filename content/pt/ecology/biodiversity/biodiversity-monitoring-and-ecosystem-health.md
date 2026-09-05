@@ -1,17 +1,11 @@
 ---
-title: >-
-  Monitorização da biodiversidade e saúde dos ecossistemas: como a ciência mede
-  o estado da vida
+title: 'Monitorização da biodiversidade e saúde dos ecossistemas: como a ciência mede o estado da vida'
 metaTitle: Monitorização da biodiversidade e saúde dos ecossistemas
-excerpt: >-
-  A biodiversidade não tem um termómetro único. É assim que os cientistas
-  acompanham o estado das espécies e dos ecossistemas — levantamentos de campo,
-  indicadores, bases de dados de espécies, deteção remota e observação de longo
-  prazo — e isto é o que cada método consegue e não consegue resolver.
+excerpt: A biodiversidade não tem um termómetro único. É assim que os cientistas acompanham o estado das espécies e dos ecossistemas — levantamentos de campo, indicadores, bases de dados de espécies, deteção remota e observação de longo prazo — e isto é o que cada método consegue e não consegue resolver.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - biodiversity

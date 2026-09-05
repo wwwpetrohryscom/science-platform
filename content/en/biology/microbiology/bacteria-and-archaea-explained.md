@@ -4,7 +4,7 @@ excerpt: Archaea were classed as bacteria until ribosomal RNA said otherwise. Th
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - archaea
@@ -31,7 +31,7 @@ Small-subunit ribosomal RNA is present in every cell, performs the same function
 
 The formal proposal in 1990 introduced a rank above kingdom — the domain — and split cellular life into Bacteria, Archaea and Eucarya, arguing that molecular structures and sequences reveal evolutionary relationships more reliably than classical phenotypes, and that the differences between the three groups are more profound than those separating animals from plants. The same proposal divided Archaea into Euryarchaeota, containing the methanogens and their relatives, and Crenarchaeota, containing the thermophilic forms. It also noted a detail that has aged well: archaeal RNA polymerases resemble the eukaryotic enzyme in structure, not the bacterial one.
 
-That last point generalises. Archaea run bacterial-style metabolism with eukaryote-style information processing — transcription, translation initiation and DNA replication machinery closer to ours than to *E. coli*'s. The broader placement of the three domains is treated in the article on [the tree of life and its domains](/en/biology/taxonomy/the-tree-of-life-and-domains); what follows here is the cell-level detail.
+That last point generalises. Archaea run bacterial-style metabolism with eukaryote-style information processing — transcription, translation initiation and [DNA replication](/en/biology/genetics/dna-replication-and-repair) machinery closer to ours than to *E. coli*'s. The broader placement of the three domains is treated in the article on [the tree of life and its domains](/en/biology/taxonomy/the-tree-of-life-and-domains); what follows here is the cell-level detail.
 
 ## The lipid divide
 

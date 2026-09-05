@@ -5,7 +5,7 @@ excerpt: A GWAS correlates allele frequency with a trait across unrelated people
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - gwas
@@ -67,7 +67,7 @@ None of these fully solves the problem for traits with geographic gradients, whe
 
 The honest summary of what the design delivers is that it localises signal reliably and explains almost nothing on its own. As the ten-year review put it, an association between a variant at a locus and a trait is not directly informative about the target gene or the mechanism — a point it illustrates by noting that compelling effector transcripts had been identified for only about a third of some 100 known type 2 diabetes loci. The [fifteen-year assessment](https://pmc.ncbi.nlm.nih.gov/articles/PMC9943775/) attributes the persistence of that gap to low penetrance of individual variants, the resolution limit that linkage disequilibrium imposes on the genome, and the concentration of associations in non-coding sequence.
 
-That gap is not a defect to be apologised for; it is the boundary of the method. Association is the first step in a chain that continues through fine-mapping, functional assays, expression studies and, where the assumptions hold, causal inference designs that use genotype as an instrument. A result that has been through none of those steps supports one claim: that something in this region of the genome covaries with this trait in this sample. Reported as such, it is durable. Reported as a gene for something, it usually is not.
+That gap is not a defect to be apologised for; it is the boundary of the method. Association is the first step in a chain that continues through fine-mapping, functional assays, expression studies and, where the assumptions hold, [causal inference](/en/biology/microbiology/microbiomes-and-host-microbe-interactions) designs that use genotype as an instrument. A result that has been through none of those steps supports one claim: that something in this region of the genome covaries with this trait in this sample. Reported as such, it is durable. Reported as a gene for something, it usually is not.
 
 ## Sources
 

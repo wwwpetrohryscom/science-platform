@@ -5,7 +5,7 @@ excerpt: Escolher uma plataforma de sequenciação tem menos a ver com a exatid�
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - dna-sequencing

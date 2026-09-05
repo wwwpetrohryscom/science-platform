@@ -5,7 +5,7 @@ excerpt: Первичная энергия, энергоносители и ко
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - energy-systems

@@ -4,7 +4,7 @@ excerpt: Every cell in an embryo carries the same genome, so development is not 
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - developmental-biology
@@ -44,7 +44,7 @@ That nesting is the durable result. Pattern is not laid down at one scale and th
 
 The genes that assign identity to those subdivisions are the homeotic selector genes, clustered in the Hox complexes. Their best-known property is spatial colinearity: the order of genes along the chromosome corresponds to the order of their expression domains along the head-to-tail axis. That correspondence is conserved widely across the Bilateria, and the shared possession of a Hox cluster by protostomes and deuterostomes implies the last common ancestor of the group already had one.
 
-The popular version of this — a universal animal body-plan toolkit obeying universal rules — needs three corrections that a 2018 review of colinearity across animal phyla sets out. Temporal colinearity, in which chromosomal order also predicts the timing of expression, is so far documented only in vertebrates, cephalochordates and some arthropods and annelids, not across Bilateria as a whole. Hox genes are recognisable in cnidarians, but the characteristic clustered arrangement and function are commonly found only in bilaterians. And several lineages, lophotrochozoans especially, have co-opted Hox genes extensively outside the colinearity rules to build novel structures. The genes are ancient; the cluster is narrower; the rules are narrower still. That distinction matters for [how evolutionary change is explained](/en/biology/evolution/evolution-explained), because much morphological change is change in where and when a conserved gene is deployed rather than change in the gene itself.
+The popular version of this — a universal animal body-plan toolkit obeying universal rules — needs three corrections that a 2018 review of colinearity across [animal phyla](/en/biology/taxonomy/zoology-animal-diversity-explained) sets out. Temporal colinearity, in which chromosomal order also predicts the timing of expression, is so far documented only in vertebrates, cephalochordates and some arthropods and annelids, not across Bilateria as a whole. Hox genes are recognisable in cnidarians, but the characteristic clustered arrangement and function are commonly found only in bilaterians. And several lineages, lophotrochozoans especially, have co-opted Hox genes extensively outside the colinearity rules to build novel structures. The genes are ancient; the cluster is narrower; the rules are narrower still. That distinction matters for [how evolutionary change is explained](/en/biology/evolution/evolution-explained), because much morphological change is change in where and when a conserved gene is deployed rather than change in the gene itself.
 
 ## Induction, competence, and the shrinking of the organizer
 
@@ -56,7 +56,7 @@ Induction also depends on the receiver. **Competence** — the responding tissue
 
 ## Potency is a maintained state, not a substance
 
-The US National Human Genome Research Institute defines a stem cell as one with the potential to form many of the different cell types found in the body, noting that embryonic stem cells have the potential to form a complete individual whereas adult stem cells can only form certain specialised types. For most of the twentieth century that hierarchy looked like a one-way street.
+The US National Human Genome Research Institute defines a stem cell as one with the potential to form many of the different [cell types](/en/biology/evolution/cell-types-as-units-of-evolution) found in the body, noting that embryonic stem cells have the potential to form a complete individual whereas adult stem cells can only form certain specialised types. For most of the twentieth century that hierarchy looked like a one-way street.
 
 It is not. Introducing four transcription factors — Oct3/4, Sox2, c-Myc and Klf4 — into mouse fibroblasts produced cells that behaved like embryonic stem cells: they formed tumours containing tissues from all three germ layers, and after injection into blastocysts they contributed to embryonic development. Nanog, expected to be required, turned out to be dispensable. The same four factors reprogrammed adult human fibroblasts the following year. The implication for developmental theory is larger than the technique: differentiation is not the progressive loss of genetic information but the active maintenance of a regulatory state, and a state that is maintained can be overwritten. Single-cell methods have since made that state directly measurable, which is the subject of the note on [single-cell approaches to evolutionary development](/en/biology/genetics/single-cell-evo-devo).
 

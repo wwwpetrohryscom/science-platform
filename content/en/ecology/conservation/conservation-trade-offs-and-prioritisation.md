@@ -1,11 +1,11 @@
 ---
 title: 'Prioritisation: what changes when conservation is treated as a budget problem'
-metaTitle: 'Conservation prioritisation as a budget problem'
+metaTitle: Conservation prioritisation as a budget problem
 excerpt: Ranking species by how threatened they are does not tell anyone where to spend. Complementarity, cost and probability of success reorder the list, and an area target can be met without ecological gain.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - conservation-planning
@@ -62,7 +62,7 @@ Four qualifiers there are conditions, not decoration: importance for biodiversit
 
 The word triage attracts more heat than the practice. The objection is that it normalises abandoning species and that public support depends on refusing to. The reply is arithmetic: with a fixed budget, every funded project already implies unfunded ones, so the choice is not whether to rank but whether the ranking is written down and defensible.
 
-The magnitudes make the argument concrete. Reducing the extinction risk of all globally threatened bird species by at least one Red List category was estimated at US$0.875 to $1.23 billion a year, of which about 12 per cent was then funded; extending that to non-avian species raised it to $3.41 to $4.76 billion annually, and protecting and effectively managing all sites of global conservation significance to $76.1 billion a year. At those ratios, an unstated ranking is still a ranking — it is just one nobody has to defend.
+The magnitudes make the argument concrete. Reducing the [extinction risk](/en/ecology/biodiversity/red-list-index-explained) of all globally threatened bird species by at least one Red List category was estimated at US$0.875 to $1.23 billion a year, of which about 12 per cent was then funded; extending that to non-avian species raised it to $3.41 to $4.76 billion annually, and protecting and effectively managing all sites of global conservation significance to $76.1 billion a year. At those ratios, an unstated ranking is still a ranking — it is just one nobody has to defend.
 
 None of this decides the objective. Whether to maximise species secured, evolutionary history retained, ecosystem function, or the wellbeing of people living alongside a reserve is a value choice that no algorithm supplies, and different objectives produce different maps from identical data. Prioritisation methods are good at showing what a stated objective costs. They are silent on which objective is right, and the honest versions say so.
 

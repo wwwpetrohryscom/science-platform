@@ -1,11 +1,11 @@
 ---
 title: 'O espetro eletromagnético: um fenómeno, muitas janelas para o universo'
-metaTitle: 'O espetro eletromagnético e as suas janelas'
+metaTitle: O espetro eletromagnético e as suas janelas
 excerpt: As ondas de rádio, a luz visível, os raios X e os raios gama não são fenómenos diferentes. São o mesmo fenómeno a comprimentos de onda diferentes — e é o comprimento de onda que determina o que a radiação consegue fazer.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-04-28'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - quantum-basics

@@ -1,17 +1,11 @@
 ---
-title: >-
-  Observación de la Tierra y teledetección: cómo se mide el planeta desde el
-  espacio
+title: 'Observación de la Tierra y teledetección: cómo se mide el planeta desde el espacio'
 metaTitle: 'Observación de la Tierra: medir el planeta desde el espacio'
-excerpt: >-
-  Los satélites se han convertido en los instrumentos que permiten vigilar el
-  planeta entero a la vez. Aquí se explica cómo funciona la observación de la
-  Tierra —de los fotones a los productos de datos calibrados—, qué mide en clima
-  y ecosistemas y dónde están sus límites.
+excerpt: Los satélites se han convertido en los instrumentos que permiten vigilar el planeta entero a la vez. Aquí se explica cómo funciona la observación de la Tierra —de los fotones a los productos de datos calibrados—, qué mide en clima y ecosistemas y dónde están sus límites.
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - earth-observation

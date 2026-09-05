@@ -5,7 +5,7 @@ excerpt: 'La conservación es una ciencia aplicada levantada sobre una pregunta 
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evidence-based-conservation

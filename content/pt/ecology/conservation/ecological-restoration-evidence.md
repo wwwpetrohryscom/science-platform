@@ -5,7 +5,7 @@ excerpt: O restauro melhora de forma fiável um estado degradado de partida e fi
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecological-restoration

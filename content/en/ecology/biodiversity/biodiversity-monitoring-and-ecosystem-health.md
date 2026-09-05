@@ -1,17 +1,11 @@
 ---
-title: >-
-  Biodiversity monitoring and ecosystem health: how scientists measure the state
-  of life
+title: 'Biodiversity monitoring and ecosystem health: how scientists measure the state of life'
 metaTitle: Biodiversity monitoring and ecosystem health
-excerpt: >-
-  Biodiversity has no single thermometer. This is how scientists track the
-  condition of species and ecosystems — through field surveys, indicators,
-  species databases, remote sensing, and long-term observation — and what each
-  method can and cannot resolve.
+excerpt: Biodiversity has no single thermometer. This is how scientists track the condition of species and ecosystems — through field surveys, indicators, species databases, remote sensing, and long-term observation — and what each method can and cannot resolve.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - biodiversity
@@ -50,13 +44,13 @@ No single technique covers every dimension. In practice, biodiversity monitoring
 
 **Habitat extent, structure, and condition.** Much of what threatens species is the loss and division of habitat, so a large part of ecosystem monitoring measures the habitat itself — its area, its connectivity, and its condition. [Habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics) quantify how a continuous landscape breaks into smaller, more isolated pieces, while [ecological integrity indicators](/en/ecology/biodiversity/ecological-integrity-indicators) attempt the harder question of whether an ecosystem still has its characteristic composition and processes intact.
 
-**Remote sensing.** Satellites cannot see most species, but they measure ecosystem structure — land cover, forest extent, surface water, vegetation state — consistently and globally. Missions and products from [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/), [ESA](https://www.esa.int/Applications/Observing_the_Earth), and the [Copernicus Land Monitoring Service](https://land.copernicus.eu/) supply the ecosystem-structure layer that ground surveys cannot scale to. The [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) article explains what these instruments can and cannot infer about biodiversity.
+**[Remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained).** Satellites cannot see most species, but they measure ecosystem structure — [land cover](/en/ecology/earth-observation/land-cover-change-detection), forest extent, surface water, vegetation state — consistently and globally. Missions and products from [NASA Earth Observatory](https://science.nasa.gov/earth/earth-observatory/), [ESA](https://www.esa.int/Applications/Observing_the_Earth), and the [Copernicus Land Monitoring Service](https://land.copernicus.eu/) supply the ecosystem-structure layer that ground surveys cannot scale to. The [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring) article explains what these instruments can and cannot infer about biodiversity.
 
-**Long-term and area-based monitoring.** Finally, much biodiversity data is gathered to evaluate whether protection is working. The [World Database on Protected Areas](https://www.protectedplanet.net/en) records where protected areas are, but coverage is not the same as outcome — the [protected-area effectiveness](/en/ecology/biodiversity/protected-area-effectiveness) article distinguishes the two. Sustained observation also underpins assessments of [ecosystem resilience](/en/ecology/biodiversity/ecosystem-resilience-indicators), the capacity of a system to absorb disturbance without reorganizing into a different state.
+**Long-term and area-based monitoring.** Finally, much biodiversity data is gathered to evaluate whether protection is working. The [World Database on Protected Areas](https://www.protectedplanet.net/en) records where [protected areas](/en/ecology/conservation/conservation-science-explained) are, but coverage is not the same as outcome — the [protected-area effectiveness](/en/ecology/biodiversity/protected-area-effectiveness) article distinguishes the two. Sustained observation also underpins assessments of [ecosystem resilience](/en/ecology/biodiversity/ecosystem-resilience-indicators), the capacity of a system to absorb disturbance without reorganizing into a different state.
 
 ## How the signals are combined
 
-These methods are read together, not in isolation, for the same reason climate indicators are: each one constrains the others. A satellite-measured loss of forest cover (ecosystem structure) is expected to show up later as population decline in forest-dependent species (species populations) and as a worsening Red List status (extinction risk). When the independent signals agree, the conclusion is stronger than any single dataset could support. When they disagree, the disagreement is itself informative — it usually points to a gap in sampling or to two metrics measuring genuinely different things.
+These methods are read together, not in isolation, for the same reason [climate indicators](/en/ecology/climate-change/carbon-cycle-feedbacks) are: each one constrains the others. A satellite-measured loss of forest cover (ecosystem structure) is expected to show up later as population decline in forest-dependent species (species populations) and as a worsening Red List status (extinction risk). When the independent signals agree, the conclusion is stronger than any single dataset could support. When they disagree, the disagreement is itself informative — it usually points to a gap in sampling or to two metrics measuring genuinely different things.
 
 The Essential Biodiversity Variables framework exists to make this combination tractable, by naming the measurement classes so that a national programme, a satellite product, and a global indicator can be cross-referenced. The result is not one number but a structured account of which dimensions are changing, by how much, and how confidently each is known.
 
@@ -70,7 +64,7 @@ Biodiversity figures carry larger and less symmetric uncertainty than most clima
 
 **Sampling is uneven.** Long-term monitoring sites cluster in Europe and North America, while the tropics and the open and deep ocean — where most species live — have the thinnest records. The [IPBES](https://www.ipbes.net/global-assessment) Global Assessment treats this skew as a primary caveat rather than a footnote.
 
-**Taxonomy is incomplete.** Most species have not been formally described, so any count is a count of the known fraction. Comprehensive extinction-risk assessment exists for birds, mammals, and amphibians but not for most invertebrates, fungi, or plants, which shapes what the Red List Index can and cannot represent.
+**Taxonomy is incomplete.** Most species have not been formally described, so any count is a count of the known fraction. Comprehensive extinction-[risk assessment](/en/ecology/pollution/environmental-pollution-explained) exists for birds, mammals, and amphibians but not for most invertebrates, fungi, or plants, which shapes what the Red List Index can and cannot represent.
 
 **Indicators can disagree.** The Living Planet Index, the Red List Index, and habitat-extent metrics aggregate different underlying data and can move at different rates, or even in different directions, in a given region. Treating any one of them as "the" rate of biodiversity loss overstates what is known.
 
