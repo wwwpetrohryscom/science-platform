@@ -75,6 +75,12 @@ jobs:
       - name: Glossary rules
         run: npm run glossary:validate
 
+      # Same reasoning as the translation rules: the linker's guards are
+      # what stop it repeating the photovoltaic-cells bug, and a guard
+      # that has stopped firing is invisible from the corpus alone.
+      - name: Glossary linker guards
+        run: npm run glossary:link:test
+
       - name: FAQ rules
         run: npm run faqs:validate
 

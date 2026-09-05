@@ -1,7 +1,13 @@
 ---
-title: 'Pollution : source, voie de transfert, cible — le cadre qui organise les données'
+title: >-
+  Pollution : source, voie de transfert, cible — le cadre qui organise les
+  données
 metaTitle: 'Pollution : source, voie d''exposition, récepteur'
-excerpt: Une substance ne devient une pollution que lorsqu'une source, une voie de transfert et une cible s'alignent. Ce triptyque, et l'étape dose-réponse qui en occupe le centre, explique pourquoi les valeurs limites environnementales diffèrent d'un pays à l'autre sans que la science sous-jacente diffère.
+excerpt: >-
+  Une substance ne devient une pollution que lorsqu'une source, une voie de
+  transfert et une cible s'alignent. Ce triptyque, et l'étape dose-réponse qui
+  en occupe le centre, explique pourquoi les valeurs limites environnementales
+  diffèrent d'un pays à l'autre sans que la science sous-jacente diffère.
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
@@ -30,7 +36,7 @@ C'est la logique opérationnelle de presque toute la réglementation environneme
 
 L'Agence américaine de protection de l'environnement définit un agent stresseur comme « toute entité physique, chimique ou biologique susceptible d'induire un effet indésirable chez l'homme ou dans les écosystèmes », et le risque comme « la probabilité d'effets nocifs pour la santé humaine ou pour les systèmes écologiques résultant d'une exposition à un agent stresseur environnemental ». Le premier terme désigne une propriété. Le second est un énoncé portant sur une configuration précise de source, de voie de transfert et de cible.
 
-La plupart des controverses publiques qui tournent mal confondent les deux. « Le composé X provoque des cancers chez l'animal » est un énoncé de danger ; il peut être vrai alors même que le risque associé à un produit donné est négligeable, faute de voie de transfert entre les deux. « On ne détecte pas de X dans l'eau » est un énoncé de voie de transfert ; il peut être vrai alors que le danger est sévère, et il ne dit rien de l'air ni du sol. Répondre que c'est la dose qui fait le poison ne tranche ni l'un ni l'autre de ces débats — cela les déplace vers la relation dose-réponse, où loge le véritable désaccord scientifique.
+La plupart des controverses publiques qui tournent mal confondent les deux. « Le composé X provoque des cancers chez l'animal » est un énoncé de danger ; il peut être vrai alors même que le risque associé à un produit donné est négligeable, faute de voie de transfert entre les deux. « On ne détecte pas de X dans l'eau » est un énoncé de voie de transfert ; il peut être vrai alors que le danger est sévère, et il ne dit rien de l'air ni du sol. Répondre que c'est la dose qui fait le poison ne tranche ni l'un ni l'autre de ces débats — cela les déplace vers la [relation dose-réponse](/fr/glossary/dose-response), où loge le véritable désaccord scientifique.
 
 ## Où se situe réellement le désaccord
 

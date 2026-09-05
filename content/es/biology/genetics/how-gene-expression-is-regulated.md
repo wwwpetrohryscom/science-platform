@@ -19,7 +19,7 @@ related:
 pillar: what-is-dna
 ---
 
-Una célula hepática y una neurona del mismo cuerpo llevan genomas esencialmente idénticos. Tienen aspecto, conducta y metabolismo distintos porque la [expresión génica](/en/glossary/gene-expression) —el proceso por el que la información del [ADN](/es/biology/genetics/what-is-dna) se convierte en proteína funcional— está regulada. Los resúmenes de referencia aceptados del [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) y del [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) tratan la regulación de la expresión génica como un sistema por capas, con puntos de decisión en varios pasos entre genoma y fenotipo.
+Una célula hepática y una neurona del mismo cuerpo llevan genomas esencialmente idénticos. Tienen aspecto, conducta y metabolismo distintos porque la [expresión génica](/es/glossary/gene-expression) —el proceso por el que la información del [ADN](/es/biology/genetics/what-is-dna) se convierte en proteína funcional— está regulada. Los resúmenes de referencia aceptados del [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) y del [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) tratan la regulación de la expresión génica como un sistema por capas, con puntos de decisión en varios pasos entre genoma y fenotipo.
 
 Este artículo recorre las capas, qué aporta cada una y dónde el entendimiento actual tiene bordes claros.
 
@@ -28,7 +28,7 @@ Este artículo recorre las capas, qué aporta cada una y dónde el entendimiento
 El flujo del ADN a la proteína pasa por varios puntos de control:
 
 1. **Accesibilidad de la cromatina.** La mayor parte del genoma de una célula está empaquetada en cromatina en estados que van de accesible a fuertemente compactada. Solo las regiones accesibles están disponibles para transcribirse. Las modificaciones de histonas y la metilación del ADN establecen y mantienen esos estados.
-2. **Inicio de la [transcripción](/en/glossary/transcription).** Una combinación concreta de factores de transcripción debe unirse al ADN regulador —promotores y potenciadores— para reclutar a la ARN polimerasa. Las combinaciones difieren entre tipos celulares y condiciones.
+2. **Inicio de la [transcripción](/es/glossary/transcription).** Una combinación concreta de factores de transcripción debe unirse al ADN regulador —promotores y potenciadores— para reclutar a la ARN polimerasa. Las combinaciones difieren entre tipos celulares y condiciones.
 3. **Procesamiento del transcrito.** El corte y empalme del ARN, la poliadenilación y la elección de isoformas alternativas ocurren de forma cotranscripcional y producen transcritos maduros distintos a partir del mismo gen.
 4. **Estabilidad y localización del ARN.** Una vez producido, un ARNm puede estabilizarse, degradarse o transportarse a una localización subcelular concreta. Los ARN pequeños (microARN y otros) modulan la estabilidad y la eficiencia de traducción.
 5. **Traducción.** Los ribosomas traducen los ARNm maduros a velocidades variables. La eficiencia de traducción está a su vez regulada, en particular bajo estrés.

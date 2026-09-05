@@ -257,6 +257,21 @@
     "cookie_policy": "Política de cookies",
     "terms_of_use": "Termos de utilização"
   },
+  "glossary": {
+    "title": "Glossário científico",
+    "description": "Definições apoiadas em fontes para os termos usados nos artigos do EcoScienceHub — forçamento radiativo, conteúdo de calor do oceano, expressão génica, balanço energético e muitos outros.",
+    "eyebrow": "Referência",
+    "label": "Glossário",
+    "list_heading": "Termos do glossário",
+    "count_line": "{count} termos · última revisão da redação a {date}.",
+    "where_it_appears": "Onde este termo aparece",
+    "references": "Referências de autoridade",
+    "note": "Nota.",
+    "topic": "Tema:",
+    "last_reviewed": "Última revisão a {date}",
+    "also_in_english": "Este termo também está definido em inglês.",
+    "english_article": "em inglês"
+  },
   "newsletter": {
     "eyebrow": "Newsletter",
     "title": "Uma peça cuidadosa por semana.",

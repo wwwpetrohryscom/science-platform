@@ -6,8 +6,8 @@ import { Layout } from "@/components/Layout";
 import { PageHeading } from "@/components/PageHeading";
 
 import {
-  GLOSSARY,
   listGlossaryAlphabetical,
+  listGlossarySlugs,
 } from "@/lib/glossary";
 import {
   buildMetadata,
@@ -16,66 +16,81 @@ import {
 } from "@/lib/seo";
 import {
   DEFAULT_LOCALE,
+  LOCALES,
   getMessages,
   isLocale,
   localeMeta,
   localizedPath,
   translator,
+  type Locale,
 } from "@/lib/i18n";
 
 type Props = { params: { locale: string } };
 
-const META_TITLE = "Scientific glossary";
-const META_DESCRIPTION =
-  "Source-backed definitions for terms used across EcoScienceHub articles — radiative forcing, ocean heat content, gene expression, energy balance, and more.";
-
 /**
- * Glossary is EN-only in this pass. Other locales return 404 so we
- * don't ship untranslated definitions under a localized URL — and so
- * hreflang stays accurate.
+ * The glossary exists in a locale once that locale has localized terms.
+ * A locale with none returns 404 rather than an English list under a
+ * localized URL, which keeps hreflang honest: a language is listed as
+ * available only where there is something to read in it.
  */
+function glossaryLocales(): Locale[] {
+  return LOCALES.filter((l) => listGlossarySlugs(l).length > 0);
+}
+
 export function generateStaticParams() {
-  return [{ locale: DEFAULT_LOCALE }];
+  return glossaryLocales().map((locale) => ({ locale }));
 }
 
 export function generateMetadata({ params }: Props): Metadata {
-  if (params.locale !== DEFAULT_LOCALE) return { robots: { index: false, follow: false } };
+  const locale = params.locale as Locale;
+  if (!isLocale(locale) || listGlossarySlugs(locale).length === 0) {
+    return { robots: { index: false, follow: false } };
+  }
+  const t = translator(getMessages(locale));
   return buildMetadata({
-    title: META_TITLE,
-    description: META_DESCRIPTION,
+    title: t("glossary.title"),
+    description: t("glossary.description"),
     path: "/glossary",
-    locale: DEFAULT_LOCALE,
-    availableLocales: [DEFAULT_LOCALE],
+    locale,
+    availableLocales: glossaryLocales(),
   });
 }
 
 export default function GlossaryIndexPage({ params }: Props) {
   if (!isLocale(params.locale)) notFound();
-  if (params.locale !== DEFAULT_LOCALE) notFound();
+  const locale = params.locale as Locale;
+  const entries = listGlossaryAlphabetical(locale);
+  if (entries.length === 0) notFound();
 
-  const t = translator(getMessages(DEFAULT_LOCALE));
-  const entries = listGlossaryAlphabetical();
-  const inLanguage = localeMeta[DEFAULT_LOCALE].htmlLang;
+  const t = translator(getMessages(locale));
+  const inLanguage = localeMeta[locale].htmlLang;
+  const title = t("glossary.title");
+  const description = t("glossary.description");
 
   const breadcrumbLd = breadcrumbJsonLd([
-    { name: t("nav.home"), path: localizedPath(DEFAULT_LOCALE, "/") },
-    { name: META_TITLE, path: localizedPath(DEFAULT_LOCALE, "/glossary") },
+    { name: t("nav.home"), path: localizedPath(locale, "/") },
+    { name: title, path: localizedPath(locale, "/glossary") },
   ]);
 
   const termSetLd = definedTermSetJsonLd({
-    title: META_TITLE,
-    description: META_DESCRIPTION,
-    path: localizedPath(DEFAULT_LOCALE, "/glossary"),
+    title,
+    description,
+    path: localizedPath(locale, "/glossary"),
     inLanguage,
     terms: entries.map((e) => ({
       name: e.term,
       description: e.shortDefinition,
-      path: localizedPath(DEFAULT_LOCALE, `/glossary/${e.slug}`),
+      path: localizedPath(locale, `/glossary/${e.slug}`),
     })),
   });
 
+  const lastReviewed = entries.reduce(
+    (latest, e) => (e.updatedDate > latest ? e.updatedDate : latest),
+    entries[0].updatedDate,
+  );
+
   return (
-    <Layout locale={DEFAULT_LOCALE}>
+    <Layout locale={locale}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
@@ -85,11 +100,11 @@ export default function GlossaryIndexPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(termSetLd) }}
       />
       <PageHeading
-        eyebrow="Reference"
-        title={META_TITLE}
-        description={META_DESCRIPTION}
+        eyebrow={t("glossary.eyebrow")}
+        title={title}
+        description={description}
         accent="primary"
-        crumbs={[{ label: t("nav.home"), href: localizedPath(DEFAULT_LOCALE, "/") }]}
+        crumbs={[{ label: t("nav.home"), href: localizedPath(locale, "/") }]}
       />
 
       <section
@@ -97,7 +112,7 @@ export default function GlossaryIndexPage({ params }: Props) {
         className="container-page mt-10 max-w-3xl"
       >
         <h2 id="glossary-list-heading" className="sr-only">
-          Glossary terms
+          {t("glossary.list_heading")}
         </h2>
         <dl className="divide-y divide-ink-line border-y border-ink-line">
           {entries.map((entry) => (
@@ -107,7 +122,7 @@ export default function GlossaryIndexPage({ params }: Props) {
             >
               <dt className="font-serif text-lg font-semibold tracking-tight text-ink">
                 <Link
-                  href={localizedPath(DEFAULT_LOCALE, `/glossary/${entry.slug}`)}
+                  href={localizedPath(locale, `/glossary/${entry.slug}`)}
                   className="hover:text-primary-700"
                 >
                   {entry.term}
@@ -120,8 +135,10 @@ export default function GlossaryIndexPage({ params }: Props) {
           ))}
         </dl>
         <p className="mt-6 text-xs text-ink-subtle">
-          {entries.length} terms · last reviewed by editorial desk{" "}
-          {entries.reduce((latest, e) => (e.updatedDate > latest ? e.updatedDate : latest), GLOSSARY[0]?.updatedDate ?? "")}.
+          {t("glossary.count_line", {
+            count: entries.length,
+            date: lastReviewed,
+          })}
         </p>
       </section>
     </Layout>

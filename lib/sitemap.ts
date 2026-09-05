@@ -2,7 +2,7 @@ import { siteConfig } from "@/lib/seo";
 import { categories, listCategorySlugs } from "@/lib/categories";
 import { getAllArticles, getAllInsights } from "@/lib/content";
 import { getDiscussions, discussionLocales } from "@/lib/discussions";
-import { listGlossaryAlphabetical } from "@/lib/glossary";
+import { listGlossaryAlphabetical, listGlossarySlugs } from "@/lib/glossary";
 import { POLICY_DOCUMENTS, listDesksForDisplay } from "@/lib/editorial";
 import {
   DEFAULT_LOCALE,
@@ -266,40 +266,54 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     );
   });
 
-  // Glossary — EN-only in this pass. Use alternates restricted to EN so
-  // hreflang stays accurate (no fake translations) and crawlers don't
-  // discover a non-EN URL for terms that aren't translated.
+  // Glossary — one URL per locale that actually defines the term, with
+  // alternates restricted to those locales. A term localized into three
+  // languages advertises three; an English-only term advertises one. The
+  // rule is the same as everywhere else on the site: hreflang lists a
+  // language only where there is something to read in it.
   const glossaryEntries: SitemapEntry[] = [];
   const glossaryTerms = listGlossaryAlphabetical();
   const glossaryLastModified = glossaryTerms.reduce(
     (max, t) => (t.updatedDate > max ? t.updatedDate : max),
     "1970-01-01",
   );
-  const glossaryAlternates = buildLocalizedAlternates("/glossary", [
-    DEFAULT_LOCALE,
-  ]);
-  glossaryEntries.push(
-    entry(
-      DEFAULT_LOCALE,
-      "/glossary",
-      toDate(glossaryLastModified),
-      "monthly",
-      0.6,
-      glossaryAlternates,
-    ),
+  const glossaryLocales = LOCALES.filter(
+    (l) => listGlossarySlugs(l).length > 0,
   );
-  for (const term of glossaryTerms) {
-    const path = `/glossary/${term.slug}`;
+  const glossaryAlternates = buildLocalizedAlternates(
+    "/glossary",
+    glossaryLocales,
+  );
+  for (const locale of glossaryLocales) {
     glossaryEntries.push(
       entry(
-        DEFAULT_LOCALE,
-        path,
-        toDate(term.updatedDate),
+        locale,
+        "/glossary",
+        toDate(glossaryLastModified),
         "monthly",
-        0.5,
-        buildLocalizedAlternates(path, [DEFAULT_LOCALE]),
+        locale === DEFAULT_LOCALE ? 0.6 : 0.5,
+        glossaryAlternates,
       ),
     );
+  }
+  for (const term of glossaryTerms) {
+    const path = `/glossary/${term.slug}`;
+    const termLocales = LOCALES.filter((l) =>
+      listGlossarySlugs(l).includes(term.slug),
+    );
+    const alternates = buildLocalizedAlternates(path, termLocales);
+    for (const locale of termLocales) {
+      glossaryEntries.push(
+        entry(
+          locale,
+          path,
+          toDate(term.updatedDate),
+          "monthly",
+          locale === DEFAULT_LOCALE ? 0.5 : 0.4,
+          alternates,
+        ),
+      );
+    }
   }
 
   // Editorial and legal pages — EN-only, same reasoning as the glossary:

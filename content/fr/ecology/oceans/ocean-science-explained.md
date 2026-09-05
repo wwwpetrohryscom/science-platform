@@ -1,7 +1,13 @@
 ---
-title: 'Océanographie : comment la profondeur organise la mer, et le peu que nous en observons'
+title: >-
+  Océanographie : comment la profondeur organise la mer, et le peu que nous en
+  observons
 metaTitle: 'Océanographie : la profondeur organise la mer'
-excerpt: La densité trie l'eau de mer en couches qui n'échangent que lentement, et presque toutes les propriétés de la mer à grande échelle découlent de ce tri. Voici ce que cette stratification fait à la chimie et à la vie, et à quel point l'océan est en réalité peu observé.
+excerpt: >-
+  La densité trie l'eau de mer en couches qui n'échangent que lentement, et
+  presque toutes les propriétés de la mer à grande échelle découlent de ce tri.
+  Voici ce que cette stratification fait à la chimie et à la vie, et à quel
+  point l'océan est en réalité peu observé.
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -27,7 +33,7 @@ L'échelle mérite d'être énoncée sans détour, car c'est elle qui rend ce tr
 
 ## La stratification est la variable maîtresse
 
-L'eau de surface, éclairée par le soleil, est plus chaude et souvent moins salée que celle qui se trouve en dessous : elle est donc moins dense et elle flotte. Le vent et le refroidissement hivernal brassent les premières dizaines à centaines de mètres pour en faire une **couche de mélange** de densité quasi uniforme. En dessous, la température chute brutalement à travers la **thermocline** et la densité augmente à travers la pycnocline. Cette marche de densité est la structure la plus lourde de conséquences de toute la mer, car elle fait obstacle aux échanges verticaux : elle commande la facilité avec laquelle la chaleur, le carbone, l'oxygène et les nutriments dissous passent entre la surface et l'intérieur de l'océan.
+L'eau de surface, éclairée par le soleil, est plus chaude et souvent moins salée que celle qui se trouve en dessous : elle est donc moins dense et elle flotte. Le vent et le refroidissement hivernal brassent les premières dizaines à centaines de mètres pour en faire une **couche de mélange** de densité quasi uniforme. En dessous, la température chute brutalement à travers la **[thermocline](/fr/glossary/thermocline)** et la densité augmente à travers la pycnocline. Cette marche de densité est la structure la plus lourde de conséquences de toute la mer, car elle fait obstacle aux échanges verticaux : elle commande la facilité avec laquelle la chaleur, le carbone, l'oxygène et les nutriments dissous passent entre la surface et l'intérieur de l'océan.
 
 Cette barrière s'est renforcée. Le sixième rapport d'évaluation du GIEC conclut qu'il est quasiment certain que l'océan supérieur est devenu plus stablement stratifié depuis 1970 au moins, sur la très grande majorité du globe, sous l'effet d'un réchauffement concentré en surface et d'une dessalure aux hautes latitudes ; il évalue l'augmentation de la stratification entre 0 et 200 m à 4,9 ± 1,5 % entre 1970 et 2018. Une analyse parue dans Nature Climate Change, qui quantifie plutôt la stabilité par le carré de la fréquence de flottabilité jusqu'à 2 000 mètres, rapporte une augmentation de 5,3 % (5,0 à 5,8 %) sur la période 1960-2018, soit environ 0,90 % par décennie, dont à peu près 71 % dans les 200 premiers mètres et plus de 90 % imputable à la température plutôt qu'à la salinité.
 

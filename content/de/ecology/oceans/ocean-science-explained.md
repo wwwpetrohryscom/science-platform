@@ -1,7 +1,13 @@
 ---
-title: 'Meereskunde: Wie die Tiefe das Meer ordnet – und wie wenig davon wir beobachten'
+title: >-
+  Meereskunde: Wie die Tiefe das Meer ordnet – und wie wenig davon wir
+  beobachten
 metaTitle: 'Meereskunde: die Tiefe ordnet das Meer'
-excerpt: Die Dichte sortiert Meerwasser in Schichten, die nur langsam miteinander austauschen; fast jede großräumige Eigenschaft des Meeres folgt aus dieser Sortierung. Was die Schichtung mit Chemie und Leben macht – und wie dünn der Ozean tatsächlich beobachtet wird.
+excerpt: >-
+  Die Dichte sortiert Meerwasser in Schichten, die nur langsam miteinander
+  austauschen; fast jede großräumige Eigenschaft des Meeres folgt aus dieser
+  Sortierung. Was die Schichtung mit Chemie und Leben macht – und wie dünn der
+  Ozean tatsächlich beobachtet wird.
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -27,7 +33,7 @@ Die Größenordnung sei ausdrücklich genannt, denn sie erklärt, warum diese So
 
 ## Die Schichtung ist die bestimmende Größe
 
-Sonnendurchflutetes Oberflächenwasser ist wärmer und häufig salzärmer als das Wasser darunter, also weniger dicht, und es schwimmt oben auf. Wind und winterliche Abkühlung durchmischen die obersten zehn bis mehrere hundert Meter zu einer **Deckschicht** nahezu einheitlicher Dichte. Darunter fällt die Temperatur in der **Thermokline** steil ab, und in der Pyknokline steigt die Dichte. Diese Dichtestufe ist die folgenreichste Struktur im Meer, denn sie ist eine Barriere für den vertikalen Austausch: Sie bestimmt, wie leicht Wärme, Kohlenstoff, Sauerstoff und gelöste Nährstoffe zwischen Oberfläche und Tiefe übertreten.
+Sonnendurchflutetes Oberflächenwasser ist wärmer und häufig salzärmer als das Wasser darunter, also weniger dicht, und es schwimmt oben auf. Wind und winterliche Abkühlung durchmischen die obersten zehn bis mehrere hundert Meter zu einer **Deckschicht** nahezu einheitlicher Dichte. Darunter fällt die Temperatur in der **[Thermokline](/de/glossary/thermocline)** steil ab, und in der Pyknokline steigt die Dichte. Diese Dichtestufe ist die folgenreichste Struktur im Meer, denn sie ist eine Barriere für den vertikalen Austausch: Sie bestimmt, wie leicht Wärme, Kohlenstoff, Sauerstoff und gelöste Nährstoffe zwischen Oberfläche und Tiefe übertreten.
 
 Diese Barriere ist stärker geworden. Der Sechste Sachstandsbericht des IPCC kommt zu dem Schluss, dass es praktisch sicher ist, dass der obere Ozean seit mindestens 1970 in der überwiegenden Mehrheit der Weltmeere stabiler geschichtet ist, getrieben von der an der Oberfläche verstärkten Erwärmung und der Aussüßung in hohen Breiten, und beziffert die Zunahme der Schichtung zwischen 0 und 200 Metern für den Zeitraum 1970 bis 2018 auf 4,9 ± 1,5 Prozent. Eine Analyse in Nature Climate Change, die die Stabilität stattdessen über das Quadrat der Auftriebsfrequenz bis in 2.000 Meter Tiefe quantifiziert, berichtet für 1960–2018 eine Zunahme um 5,3 Prozent (5,0 bis 5,8 Prozent), also etwa 0,90 Prozent pro Jahrzehnt, wobei rund 71 Prozent der Änderung auf die oberen 200 Meter entfallen und mehr als 90 Prozent davon der Temperatur und nicht dem Salzgehalt zuzuschreiben sind.
 

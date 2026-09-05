@@ -40,7 +40,7 @@ import path from "node:path";
 
 import { walkAllContent, PROJECT_ROOT, LOCALES } from "./_lib";
 import { categories } from "../lib/categories";
-import { GLOSSARY } from "../lib/glossary";
+import { GLOSSARY, listGlossarySlugs } from "../lib/glossary";
 import { SOURCE_REGISTRY } from "../lib/sources";
 import { POLICY_DOCUMENTS } from "../lib/editorial";
 import { authors } from "../lib/authors";
@@ -106,8 +106,17 @@ async function buildRouteSet(): Promise<Set<string>> {
   }
 
   // English-only routes.
-  add("/en/glossary");
-  for (const g of GLOSSARY) add(`/en/glossary/${g.slug}`);
+  // One glossary route per locale that has terms, and one term route
+  // per locale that has that term — mirroring generateStaticParams, so
+  // a link into a language that does not define the term is caught here
+  // rather than at build time.
+  for (const locale of LOCALES) {
+    const slugs = listGlossarySlugs(locale);
+    if (!slugs.length) continue;
+    add(`/${locale}/glossary`);
+    for (const slug of slugs) add(`/${locale}/glossary/${slug}`);
+  }
+  void GLOSSARY;
   add("/en/editorial");
   for (const id of Object.keys(authors)) add(`/en/editorial/${id}`);
   for (const doc of POLICY_DOCUMENTS) add(`/${"en"}/${doc.slug}`);

@@ -1,7 +1,11 @@
 ---
 title: 'Erdbeobachtung und Fernerkundung: wie der Planet aus dem All vermessen wird'
 metaTitle: 'Erdbeobachtung: den Planeten aus dem All vermessen'
-excerpt: Satelliten sind zu den Instrumenten geworden, mit denen sich der ganze Planet auf einmal beobachten lässt. Hier steht, wie Erdbeobachtung funktioniert – vom Photon bis zum kalibrierten Datenprodukt –, was sie über Klima und Ökosysteme misst und wo ihre Grenzen liegen.
+excerpt: >-
+  Satelliten sind zu den Instrumenten geworden, mit denen sich der ganze Planet
+  auf einmal beobachten lässt. Hier steht, wie Erdbeobachtung funktioniert – vom
+  Photon bis zum kalibrierten Datenprodukt –, was sie über Klima und Ökosysteme
+  misst und wo ihre Grenzen liegen.
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-06-02'
@@ -20,7 +24,7 @@ related:
 _bodyHash: 94a25829
 ---
 
-Das meiste von dem, was wir über die Veränderungen des Planeten wissen – schrumpfendes Eis, fortschreitende Entwaldung, sich erwärmende Meere, ergrünende und verbraunende Landflächen –, wird heute zumindest teilweise aus dem All gemessen. Erdbeobachtung ist die Praxis, Informationen über Land, Ozean, Atmosphäre und Eis des Planeten mit Sensoren auf Satelliten und Flugzeugen zu gewinnen. Fernerkundung ist die zugrunde liegende Technik: etwas zu messen, ohne es zu berühren, indem die von ihm reflektierte oder abgestrahlte Strahlung aufgezeichnet wird.
+Das meiste von dem, was wir über die Veränderungen des Planeten wissen – schrumpfendes Eis, fortschreitende Entwaldung, sich erwärmende Meere, ergrünende und verbraunende Landflächen –, wird heute zumindest teilweise aus dem All gemessen. [Erdbeobachtung](/de/glossary/earth-observation) ist die Praxis, Informationen über Land, Ozean, Atmosphäre und Eis des Planeten mit Sensoren auf Satelliten und Flugzeugen zu gewinnen. [Fernerkundung](/de/glossary/remote-sensing) ist die zugrunde liegende Technik: etwas zu messen, ohne es zu berühren, indem die von ihm reflektierte oder abgestrahlte Strahlung aufgezeichnet wird.
 
 Dies ist der Knotenpunkt des Erdbeobachtungs-Clusters von EcoScienceHub, und er ist bewusst als Brücke angelegt. Dieselben Satellitenmessungen, die Klimaindikatoren verfolgen, tragen auch das Biodiversitätsmonitoring und die Untersuchung von Ökosystemen. Dieser Artikel erklärt, wie die Messungen zustande kommen, was aus einem Rohsignal eine brauchbare wissenschaftliche Größe macht und warum jedes Satellitenprodukt mit einer Unsicherheit behaftet ist, die benannt und nicht verborgen werden muss. Die durchgehend verlinkten begleitenden Artikel gehen bei jedem Instrument und jeder Anwendung in die Tiefe.
 
@@ -28,15 +32,15 @@ Dies ist der Knotenpunkt des Erdbeobachtungs-Clusters von EcoScienceHub, und er 
 
 Ein Fernerkundungssensor fotografiert nicht „Entwaldung“ oder „Dürre“. Er misst elektromagnetische Strahlung in definierten Wellenlängenbändern und legt den Wert an jedem Ort als Zahl ab. Alles Übrige – Vegetation, Wasser, Feuer, Stadtwachstum – wird daraus erschlossen, wie Oberflächen mit dieser Strahlung wechselwirken.
 
-Zwei große Instrumentenfamilien leisten das. **Passive** Sensoren zeichnen natürlich vorhandene Strahlung auf, fast immer reflektiertes Sonnenlicht oder von der Oberfläche abgestrahltes thermisches Infrarot; optische und thermale Abbildungssysteme wie die auf Landsat und MODIS sind passiv. **Aktive** Sensoren liefern ihre eigene Energie und messen, was zurückkommt – Radar und Lidar senden einen Impuls und messen die Laufzeit des Echos, wodurch sie durch Wolken hindurch und bei Nacht sehen und Höhen unmittelbar messen können. Jede Oberfläche hat eine charakteristische [spektrale Signatur](/en/glossary/spectral-signature): die besondere Art, wie sie über die Wellenlängen hinweg reflektiert. Gesunde Vegetation etwa absorbiert rotes Licht und reflektiert stark im nahen Infrarot, und dieser Kontrast ist die Grundlage der weiter unten behandelten Vegetationsindizes.
+Zwei große Instrumentenfamilien leisten das. **Passive** Sensoren zeichnen natürlich vorhandene Strahlung auf, fast immer reflektiertes Sonnenlicht oder von der Oberfläche abgestrahltes thermisches Infrarot; optische und thermale Abbildungssysteme wie die auf Landsat und MODIS sind passiv. **Aktive** Sensoren liefern ihre eigene Energie und messen, was zurückkommt – Radar und Lidar senden einen Impuls und messen die Laufzeit des Echos, wodurch sie durch Wolken hindurch und bei Nacht sehen und Höhen unmittelbar messen können. Jede Oberfläche hat eine charakteristische [spektrale Signatur](/de/glossary/spectral-signature): die besondere Art, wie sie über die Wellenlängen hinweg reflektiert. Gesunde Vegetation etwa absorbiert rotes Licht und reflektiert stark im nahen Infrarot, und dieser Kontrast ist die Grundlage der weiter unten behandelten Vegetationsindizes.
 
-Die Größe, die ein kalibrierter optischer Sensor letztlich ausgibt, ist die Reflektanz – der Anteil des einfallenden Lichts, den eine Oberfläche in jedem Band zurückwirft –, abgelegt als Raster aus Bildpunkten, also als Rasterdaten. Die Auflösung dieses Rasters und die Häufigkeit seiner Auffrischung bestimmen als Erstes, was ein Sensor sehen kann und was nicht.
+Die Größe, die ein kalibrierter optischer Sensor letztlich ausgibt, ist die Reflektanz – der Anteil des einfallenden Lichts, den eine Oberfläche in jedem Band zurückwirft –, abgelegt als Raster aus Bildpunkten, also als [Rasterdaten](/de/glossary/raster-data). Die Auflösung dieses Rasters und die Häufigkeit seiner Auffrischung bestimmen als Erstes, was ein Sensor sehen kann und was nicht.
 
 ## Die Satellitensysteme
 
 Kein einzelner Satellit deckt alle Anforderungen ab, weshalb die Erdbeobachtung auf eine Flotte mit sich ergänzenden Stärken setzt. Die Einführung dazu, [was Fernerkundung ist](/de/ecology/earth-observation/what-is-remote-sensing), behandelt die Physik; den Arbeitspferden selbst ist jeweils ein eigener Artikel gewidmet.
 
-Das gemeinsame Landsat-Programm von NASA und USGS bildet die Landoberfläche seit 1972 durchgehend mit mittlerer Auflösung von etwa 30 Metern ab – die längste derartige Reihe, die es gibt. Das Copernicus-Programm der Europäischen Union betreibt die Sentinel-Satelliten, die häufige Wiederholungen, Radarabbildung und operationelle Dienste hinzufügen. Die MODIS-Instrumente der NASA und ihre VIIRS-Nachfolger tauschen räumliche Detailschärfe gegen eine nahezu tägliche globale Abdeckung, die sich ideal für die Verfolgung schneller Veränderungen eignet. Radaraltimeter auf einer eigenen Missionslinie messen die Höhe der Meeresoberfläche – Gegenstand des Artikels zur Satellitenaltimetrie. Die Wahl zwischen ihnen ist ein Abwägen zwischen räumlicher Auflösung, der Häufigkeit, mit der ein Ort erneut überflogen wird, und den Wellenlängen, die ein Sensor messen kann; kein Instrument optimiert alle drei zugleich.
+Das gemeinsame Landsat-Programm von NASA und USGS bildet die Landoberfläche seit 1972 durchgehend mit mittlerer Auflösung von etwa 30 Metern ab – die längste derartige Reihe, die es gibt. Das Copernicus-Programm der Europäischen Union betreibt die Sentinel-Satelliten, die häufige Wiederholungen, Radarabbildung und operationelle Dienste hinzufügen. Die MODIS-Instrumente der NASA und ihre VIIRS-Nachfolger tauschen räumliche Detailschärfe gegen eine nahezu tägliche globale Abdeckung, die sich ideal für die Verfolgung schneller Veränderungen eignet. Radaraltimeter auf einer eigenen Missionslinie messen die Höhe der Meeresoberfläche – Gegenstand des Artikels zur [Satellitenaltimetrie](/de/glossary/satellite-altimetry). Die Wahl zwischen ihnen ist ein Abwägen zwischen räumlicher Auflösung, der Häufigkeit, mit der ein Ort erneut überflogen wird, und den Wellenlängen, die ein Sensor messen kann; kein Instrument optimiert alle drei zugleich.
 
 ## Vom Photon zum Datenprodukt: die Methodik
 
@@ -48,7 +52,7 @@ Eine im Orbit aufgezeichnete Zahl ist noch keine Wissenschaft. Sie in eine Messu
 
 **Verarbeitungsstufen.** Die Agenturen kennzeichnen Produkte danach, wie weit sie in dieser Kette fortgeschritten sind: von den Rohdaten des Instruments (Level 0) über kalibrierte und geolokalisierte Strahldichte (Level 1) und abgeleitete geophysikalische Größen wie Oberflächentemperatur oder Reflektanz (Level 2) bis zu gerasterten, zeitlich zusammengefassten Produkten (Level 3) und modellassimilierten Ergebnissen (Level 4). Die Stufe eines Produkts zu kennen, sagt den Nutzenden, wie viel Verarbeitung – und wie viele Annahmen – bereits in der Zahl stecken.
 
-**Abgeleitete Indizes und Klassifikation.** Aus der Oberflächenreflektanz werden Indizes und Karten berechnet. Der bekannteste ist der NDVI, der normalisierte differenzierte Vegetationsindex, erklärt im Artikel zum NDVI und verallgemeinert im Beitrag zu den Vegetationsindizes. Bildpunkte in Kategorien wie Wald, Wasser oder Ackerland einzuteilen, ergibt Karten der Landbedeckung; sie über die Zeit zu vergleichen, ist die [Erkennung von Landbedeckungsänderungen](/de/ecology/earth-observation/land-cover-change-detection).
+**Abgeleitete Indizes und Klassifikation.** Aus der Oberflächenreflektanz werden Indizes und Karten berechnet. Der bekannteste ist der NDVI, der normalisierte differenzierte Vegetationsindex, erklärt im Artikel zum NDVI und verallgemeinert im Beitrag zu den Vegetationsindizes. Bildpunkte in Kategorien wie Wald, Wasser oder Ackerland einzuteilen, ergibt Karten der [Landbedeckung](/de/glossary/land-cover); sie über die Zeit zu vergleichen, ist die [Erkennung von Landbedeckungsänderungen](/de/ecology/earth-observation/land-cover-change-detection).
 
 ## Was die Erdbeobachtung in der Umwelt misst
 
@@ -60,7 +64,7 @@ Für den **Ozean** schätzen [Beobachtungen der Ozeanfarbe](/de/ecology/earth-ob
 
 ## Validierung: warum Bodendaten weiterhin zählen
 
-Einem Satellitenprodukt wird erst getraut, wenn es an unabhängigen Messungen geprüft worden ist. Die [Validierung am Boden](/en/glossary/ground-truthing) – der Abgleich einer Satellitenschätzung mit Feldbeobachtungen, instrumentierten Messtürmen, Schiffen oder höher aufgelösten Aufnahmen – ist der Weg, auf dem die Beziehung zwischen einem Spektralsignal und einer realen Größe kalibriert und ihr Fehler quantifiziert wird. Die Erdbeobachtung ersetzt die Feldarbeit nicht; sie erweitert sie, und beide sind auf ein Zusammenspiel hin angelegt. Ein Vegetationsindex, der an keinen Bodendaten kalibriert wurde, ist ein Muster und noch keine Messung.
+Einem Satellitenprodukt wird erst getraut, wenn es an unabhängigen Messungen geprüft worden ist. Die [Validierung am Boden](/de/glossary/ground-truthing) – der Abgleich einer Satellitenschätzung mit Feldbeobachtungen, instrumentierten Messtürmen, Schiffen oder höher aufgelösten Aufnahmen – ist der Weg, auf dem die Beziehung zwischen einem Spektralsignal und einer realen Größe kalibriert und ihr Fehler quantifiziert wird. Die Erdbeobachtung ersetzt die Feldarbeit nicht; sie erweitert sie, und beide sind auf ein Zusammenspiel hin angelegt. Ein Vegetationsindex, der an keinen Bodendaten kalibriert wurde, ist ein Muster und noch keine Messung.
 
 ## Offene Daten und Kontinuität
 
@@ -86,7 +90,7 @@ Zwei Grenzen sind struktureller Natur. Erstens misst die Fernerkundung **physika
 
 ## Worauf die Beobachtungen hinarbeiten
 
-Kontinuität hat nicht nur eine Begründung, sondern auch ein Ziel. Die internationale Gemeinschaft legt über die essenziellen Klimavariablen fest, welche Größen dauerhaft erhoben werden müssen: Das Global Climate Observing System definiert derzeit 55 von ihnen über die Bereiche Atmosphäre, Ozean und Land, ausgewählt nach ihrer Relevanz für die Charakterisierung des Klimasystems, der technischen Machbarkeit globaler Beobachtung und der Kostenwirksamkeit. Viele werden überwiegend oder vollständig aus dem Orbit gewonnen – Meeresoberflächentemperatur, Meeresspiegel, Meereis, Landbedeckung, oberirdische Biomasse, Ozeanfarbe, Albedo, Blattflächenindex –, weshalb Missionskontinuität und die Festlegung der ECVs ein und dieselbe Frage sind. Den Rahmen stellt der Artikel zu den [essenziellen Klimavariablen](/de/ecology/earth-systems/essential-climate-variables-explained) dar, und das gekoppelte System, das diese Variablen gemeinsam beschreiben, ist Gegenstand des Clusters zur Erdsystemwissenschaft.
+Kontinuität hat nicht nur eine Begründung, sondern auch ein Ziel. Die internationale Gemeinschaft legt über die essenziellen Klimavariablen fest, welche Größen dauerhaft erhoben werden müssen: Das Global Climate Observing System definiert derzeit 55 von ihnen über die Bereiche Atmosphäre, Ozean und Land, ausgewählt nach ihrer Relevanz für die Charakterisierung des Klimasystems, der technischen Machbarkeit globaler Beobachtung und der Kostenwirksamkeit. Viele werden überwiegend oder vollständig aus dem Orbit gewonnen – Meeresoberflächentemperatur, Meeresspiegel, Meereis, Landbedeckung, oberirdische Biomasse, [Ozeanfarbe](/de/glossary/ocean-color), Albedo, Blattflächenindex –, weshalb Missionskontinuität und die Festlegung der ECVs ein und dieselbe Frage sind. Den Rahmen stellt der Artikel zu den [essenziellen Klimavariablen](/de/ecology/earth-systems/essential-climate-variables-explained) dar, und das gekoppelte System, das diese Variablen gemeinsam beschreiben, ist Gegenstand des Clusters zur Erdsystemwissenschaft.
 
 ## Transparenz der Quellen
 

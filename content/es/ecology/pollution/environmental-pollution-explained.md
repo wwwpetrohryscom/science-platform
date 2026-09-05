@@ -1,7 +1,11 @@
 ---
 title: 'Contaminación: fuente, vía y receptor, el marco que ordena la evidencia'
 metaTitle: 'Contaminación: fuente, vía de exposición, receptor'
-excerpt: Una sustancia se convierte en contaminación solo cuando se alinean una fuente, una vía y un receptor. Esa tríada, y el paso de dosis-respuesta que ocupa su centro, explica por qué los límites ambientales difieren entre países sin que difiera la ciencia subyacente.
+excerpt: >-
+  Una sustancia se convierte en contaminación solo cuando se alinean una fuente,
+  una vía y un receptor. Esa tríada, y el paso de dosis-respuesta que ocupa su
+  centro, explica por qué los límites ambientales difieren entre países sin que
+  difiera la ciencia subyacente.
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
@@ -30,7 +34,7 @@ Esa es la lógica operativa de casi toda la normativa ambiental en vigor, y es l
 
 La Agencia de Protección Ambiental de Estados Unidos define un agente estresor como «cualquier entidad física, química o biológica capaz de inducir un efecto adverso en las personas o en los ecosistemas», y el riesgo como «la probabilidad de efectos nocivos para la salud humana o para los sistemas ecológicos derivados de la exposición a un agente estresor ambiental». Lo primero es una propiedad. Lo segundo es una afirmación sobre una configuración concreta de fuente, vía y receptor.
 
-La mayoría de las discusiones que descarrilan en público confunden ambas cosas. «El compuesto X causa cáncer en animales» es una afirmación sobre el peligro; puede ser cierta mientras el riesgo de un producto determinado es insignificante, porque ninguna vía los conecta. «No hay X detectable en el agua» es una afirmación sobre la vía; puede ser cierta mientras el peligro es grave, y no dice nada sobre el aire ni sobre el suelo. La réplica de que la dosis hace el veneno no zanja ninguna de las dos disputas: las traslada a la relación dosis-respuesta, que es donde vive el desacuerdo científico genuino.
+La mayoría de las discusiones que descarrilan en público confunden ambas cosas. «El compuesto X causa cáncer en animales» es una afirmación sobre el peligro; puede ser cierta mientras el riesgo de un producto determinado es insignificante, porque ninguna vía los conecta. «No hay X detectable en el agua» es una afirmación sobre la vía; puede ser cierta mientras el peligro es grave, y no dice nada sobre el aire ni sobre el suelo. La réplica de que la dosis hace el veneno no zanja ninguna de las dos disputas: las traslada a la [relación dosis-respuesta](/es/glossary/dose-response), que es donde vive el desacuerdo científico genuino.
 
 ## Dónde ocurre de verdad la discusión
 

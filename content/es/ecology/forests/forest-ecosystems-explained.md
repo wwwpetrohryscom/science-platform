@@ -1,7 +1,11 @@
 ---
 title: 'Bosques: estructura, función y las definiciones que deciden las estadísticas'
 metaTitle: 'Bosques: estructura, función y definiciones'
-excerpt: Un bosque es una categoría de uso de la tierra antes que un ecosistema, y los umbrales de esa categoría deciden la mayoría de las cifras que se publican sobre él. Esta página expone las definiciones, la estructura que describen y dónde se agota el panorama mundial.
+excerpt: >-
+  Un bosque es una categoría de uso de la tierra antes que un ecosistema, y los
+  umbrales de esa categoría deciden la mayoría de las cifras que se publican
+  sobre él. Esta página expone las definiciones, la estructura que describen y
+  dónde se agota el panorama mundial.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-09-02'
@@ -22,7 +26,7 @@ related:
 _bodyHash: fa84cd8a
 ---
 
-La palabra «bosque» hace dentro de una estadística más trabajo del que parece capaz de sostener. Antes de nombrar un ecosistema nombra una categoría de uso de la tierra: umbrales de superficie, de altura de los árboles y de cubierta de copas, más un juicio sobre para qué sirve esa tierra. Basta con mover cualquiera de esos ajustes para que la superficie forestal mundial se mueva con ellos, sin que cambie un solo árbol.
+La palabra «bosque» hace dentro de una estadística más trabajo del que parece capaz de sostener. Antes de nombrar un ecosistema nombra una categoría de uso de la tierra: umbrales de superficie, de altura de los árboles y de [cubierta de copas](/es/glossary/canopy-cover), más un juicio sobre para qué sirve esa tierra. Basta con mover cualquiera de esos ajustes para que la superficie forestal mundial se mueva con ellos, sin que cambie un solo árbol.
 
 De modo que esta página empieza por las definiciones. La mayoría de las contradicciones aparentes entre estadísticas forestales publicadas se disuelven en cuanto se sabe qué definición produjo cada cifra, y esos mismos umbrales deciden qué cuenta como pérdida, qué cuenta como ganancia y qué es lo que la contabilidad no llega a ver en absoluto.
 
@@ -68,7 +72,7 @@ Lo que sigue a una perturbación es la segunda mitad del mismo proceso. Un claro
 
 ## Qué están haciendo los bosques a la atmósfera
 
-Una síntesis de datos de inventario in situ y de parcelas en los biomas boreal, templado y tropical sitúa el [sumidero de carbono](/en/glossary/carbon-sink) forestal mundial en 3,6 ± 0,4 petagramos de carbono al año en las décadas de 1990 y 2000, y en 3,5 ± 0,4 en la de 2010: un total mundial llamativamente estable que oculta tendencias regionales opuestas. Los sumideros se reforzaron en los bosques templados (+30 ± 5 %) y en el rebrote tropical (+29 ± 8 %) a medida que aumentaba la superficie forestal, y se debilitaron en los bosques boreales (−36 ± 6 %) y en los tropicales intactos (−31 ± 7 %) a medida que se intensificaba la perturbación y menguaba la superficie intacta. El mismo análisis sitúa el sumidero forestal mundial en casi la mitad de las emisiones por combustibles fósiles a lo largo de 1990-2019, con aproximadamente dos tercios de ese beneficio compensados por la deforestación tropical.
+Una síntesis de datos de inventario in situ y de parcelas en los biomas boreal, templado y tropical sitúa el [sumidero de carbono](/es/glossary/carbon-sink) forestal mundial en 3,6 ± 0,4 petagramos de carbono al año en las décadas de 1990 y 2000, y en 3,5 ± 0,4 en la de 2010: un total mundial llamativamente estable que oculta tendencias regionales opuestas. Los sumideros se reforzaron en los bosques templados (+30 ± 5 %) y en el rebrote tropical (+29 ± 8 %) a medida que aumentaba la superficie forestal, y se debilitaron en los bosques boreales (−36 ± 6 %) y en los tropicales intactos (−31 ± 7 %) a medida que se intensificaba la perturbación y menguaba la superficie intacta. El mismo análisis sitúa el sumidero forestal mundial en casi la mitad de las emisiones por combustibles fósiles a lo largo de 1990-2019, con aproximadamente dos tercios de ese beneficio compensados por la deforestación tropical.
 
 Un valor estable para el sumidero mundial no es prueba de que nada esté cambiando, igual que la fracción atmosférica casi constante que se comenta en [el ciclo del carbono](/es/ecology/earth-systems/carbon-cycle-explained) no es prueba de que los sumideros sean fijos. Y como el sumidero depende conjuntamente de la superficie forestal y de la edad de las masas, el argumento a favor de plantar árboles nuevos no es el mismo que el argumento a favor de conservar las masas que ya existen, una distinción que expone [el historial de las plantaciones de árboles](/es/ecology/forests/reforestation-and-tree-planting-evidence).
 

@@ -257,6 +257,21 @@
     "cookie_policy": "Cookie-Richtlinie",
     "terms_of_use": "Nutzungsbedingungen"
   },
+  "glossary": {
+    "title": "Wissenschaftliches Glossar",
+    "description": "Quellengestützte Definitionen für Begriffe aus den Artikeln von EcoScienceHub — Strahlungsantrieb, Wärmeinhalt des Ozeans, Genexpression, Energiebilanz und viele mehr.",
+    "eyebrow": "Nachschlagen",
+    "label": "Glossar",
+    "list_heading": "Glossarbegriffe",
+    "count_line": "{count} Begriffe · zuletzt von der Redaktion geprüft am {date}.",
+    "where_it_appears": "Wo dieser Begriff vorkommt",
+    "references": "Maßgebliche Belege",
+    "note": "Hinweis.",
+    "topic": "Thema:",
+    "last_reviewed": "Zuletzt geprüft am {date}",
+    "also_in_english": "Dieser Begriff ist auch auf Englisch definiert.",
+    "english_article": "auf Englisch"
+  },
   "newsletter": {
     "eyebrow": "Newsletter",
     "title": "Ein sorgfältiger Text pro Woche.",

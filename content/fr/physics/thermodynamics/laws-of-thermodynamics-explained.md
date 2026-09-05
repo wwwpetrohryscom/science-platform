@@ -19,7 +19,7 @@ related:
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
 ---
-[La thermodynamique](/en/glossary/thermodynamics) est un ensemble d'interdictions. Chacun de ses quatre principes dit que quelque chose ne peut pas être fait, et chacun a survécu aux théories microscopiques censées l'expliquer — le calorique, puis la mécanique classique, puis la théorie classique des champs. C'est pourquoi un raisonnement du XIXᵉ siècle sur la vapeur contraint encore, sans modification, une cellule solaire, un réfrigérateur domestique et une bactérie.
+[La thermodynamique](/fr/glossary/thermodynamics) est un ensemble d'interdictions. Chacun de ses quatre principes dit que quelque chose ne peut pas être fait, et chacun a survécu aux théories microscopiques censées l'expliquer — le calorique, puis la mécanique classique, puis la théorie classique des champs. C'est pourquoi un raisonnement du XIXᵉ siècle sur la vapeur contraint encore, sans modification, une cellule solaire, un réfrigérateur domestique et une bactérie.
 
 Ils sont aussi cités plus librement qu'ils ne sont employés. « L'énergie se conserve » et « l'entropie augmente » sont des slogans qui abandonnent les conditions qui leur sont attachées, et c'est dans ces conditions que loge la confusion sur le mouvement perpétuel, les affirmations de rendement et les systèmes vivants.
 
@@ -33,7 +33,7 @@ Ce nombre repose désormais sur une constante définie plutôt que sur une subst
 
 ## Le premier principe : l'énergie se conserve, et la chaleur n'est pas une chose que contient un corps
 
-Le premier principe étend la conservation de l'énergie à la chaleur : la variation d'énergie interne d'un système égale la chaleur reçue moins le travail fourni par le système. Son contenu réside dans la différence entre les termes. L'énergie interne est une **[fonction d'état](/en/glossary/state-function)** — elle ne dépend que de l'état actuel du système, si bien qu'un aller-retour la ramène à son point de départ. Chaleur et travail sont des **grandeurs de chemin** : elles décrivent de l'énergie franchissant une frontière au cours d'un processus, et leur partage dépend de la manière dont le processus a été conduit.
+Le premier principe étend la conservation de l'énergie à la chaleur : la variation d'énergie interne d'un système égale la chaleur reçue moins le travail fourni par le système. Son contenu réside dans la différence entre les termes. L'énergie interne est une **[fonction d'état](/fr/glossary/state-function)** — elle ne dépend que de l'état actuel du système, si bien qu'un aller-retour la ramène à son point de départ. Chaleur et travail sont des **grandeurs de chemin** : elles décrivent de l'énergie franchissant une frontière au cours d'un processus, et leur partage dépend de la manière dont le processus a été conduit.
 
 La conséquence pratique est que « quelle quantité de chaleur cet objet contient-il » n'est pas une question bien formée. Un objet détient de l'énergie interne ; la chaleur est cette énergie en transit sous une différence de température, et le travail est de l'énergie en transit par une force agissant sur un déplacement. Le même changement d'état peut être atteint par de nombreuses combinaisons des deux, et c'est pourquoi le premier principe seul ne désigne jamais un rendement — il équilibre les comptes et s'arrête là.
 

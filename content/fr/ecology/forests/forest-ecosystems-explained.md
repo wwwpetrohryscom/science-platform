@@ -1,7 +1,13 @@
 ---
-title: 'Les forêts : structure, fonction et les définitions qui décident des statistiques'
+title: >-
+  Les forêts : structure, fonction et les définitions qui décident des
+  statistiques
 metaTitle: 'Forêts : structure, fonction et définitions'
-excerpt: Une forêt est une catégorie d'usage des terres avant d'être un écosystème, et les seuils de cette catégorie décident de la plupart des chiffres publiés à son sujet. Cette page expose les définitions, la structure qu'elles décrivent et les limites du tableau mondial.
+excerpt: >-
+  Une forêt est une catégorie d'usage des terres avant d'être un écosystème, et
+  les seuils de cette catégorie décident de la plupart des chiffres publiés à
+  son sujet. Cette page expose les définitions, la structure qu'elles décrivent
+  et les limites du tableau mondial.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-09-02'
@@ -22,7 +28,7 @@ related:
 _bodyHash: 943eb40e
 ---
 
-Le mot « forêt » accomplit dans une statistique bien plus de travail qu'il n'en a l'air. Avant de désigner un écosystème, il désigne une catégorie d'usage des terres : des seuils de superficie, de hauteur des arbres et de couvert arboré, plus un jugement sur la vocation du terrain. Déplacez l'un de ces réglages et la superficie forestière mondiale se déplace avec lui, sans qu'un seul arbre ait changé.
+Le mot « forêt » accomplit dans une statistique bien plus de travail qu'il n'en a l'air. Avant de désigner un écosystème, il désigne une catégorie d'usage des terres : des seuils de superficie, de hauteur des arbres et de [couvert arboré](/fr/glossary/canopy-cover), plus un jugement sur la vocation du terrain. Déplacez l'un de ces réglages et la superficie forestière mondiale se déplace avec lui, sans qu'un seul arbre ait changé.
 
 Cette page commence donc par les définitions. La plupart des contradictions apparentes entre statistiques forestières publiées se dissipent dès que l'on sait quelle définition a produit chaque nombre, et ces mêmes seuils décident de ce qui compte comme perte, de ce qui compte comme gain et de ce que la comptabilité ne voit pas du tout.
 
@@ -68,7 +74,7 @@ Ce qui suit une perturbation forme la seconde moitié du même processus. Une tr
 
 ## Ce que les forêts font à l'atmosphère
 
-Une synthèse de données d'inventaire in situ et de placettes, couvrant les biomes boréal, tempéré et tropical, chiffre le [puits de carbone](/en/glossary/carbon-sink) forestier mondial à 3,6 ± 0,4 pétagrammes de carbone par an dans les années 1990 et 2000, puis à 3,5 ± 0,4 dans les années 2010 — un total mondial d'une stabilité frappante, qui masque des tendances régionales opposées. Les puits se sont renforcés dans les forêts tempérées (+30 ± 5 %) et dans les repousses tropicales (+29 ± 8 %) à mesure que la superficie forestière augmentait, et se sont affaiblis dans les forêts boréales (−36 ± 6 %) et dans les forêts tropicales intactes (−31 ± 7 %) à mesure que les perturbations s'intensifiaient et que la surface intacte se réduisait. La même analyse situe le puits forestier mondial à près de la moitié des émissions liées aux combustibles fossiles sur la période 1990-2019, à peu près deux tiers de ce bénéfice étant annulés par la déforestation tropicale.
+Une synthèse de données d'inventaire in situ et de placettes, couvrant les biomes boréal, tempéré et tropical, chiffre le [puits de carbone](/fr/glossary/carbon-sink) forestier mondial à 3,6 ± 0,4 pétagrammes de carbone par an dans les années 1990 et 2000, puis à 3,5 ± 0,4 dans les années 2010 — un total mondial d'une stabilité frappante, qui masque des tendances régionales opposées. Les puits se sont renforcés dans les forêts tempérées (+30 ± 5 %) et dans les repousses tropicales (+29 ± 8 %) à mesure que la superficie forestière augmentait, et se sont affaiblis dans les forêts boréales (−36 ± 6 %) et dans les forêts tropicales intactes (−31 ± 7 %) à mesure que les perturbations s'intensifiaient et que la surface intacte se réduisait. La même analyse situe le puits forestier mondial à près de la moitié des émissions liées aux combustibles fossiles sur la période 1990-2019, à peu près deux tiers de ce bénéfice étant annulés par la déforestation tropicale.
 
 Un chiffre de puits mondial stable ne prouve pas que rien ne change, pas plus que la fraction atmosphérique quasi constante évoquée dans [le cycle du carbone](/fr/ecology/earth-systems/carbon-cycle-explained) ne prouve la fixité des puits. Et comme le puits dépend conjointement de la superficie forestière et de l'âge des peuplements, l'argument en faveur de la plantation de nouveaux arbres n'est pas celui en faveur du maintien des peuplements existants — une distinction qu'expose [le bilan des plantations d'arbres](/fr/ecology/forests/reforestation-and-tree-planting-evidence).
 

@@ -20,7 +20,7 @@ related:
 pillar: ocean-science-explained
 ---
 
-Eine globale Biomassezählung in den Proceedings of the National Academy of Sciences setzt etwa 1 Gigatonne Kohlenstoff an Primärproduzenten in den Ozean, die rund 5 Gigatonnen Kohlenstoff an Konsumenten tragen. An Land läuft das Verhältnis andersherum, und deutlich: Pflanzen machen etwa 450 der rund 550 Gigatonnen Kohlenstoff der gesamten [Biosphäre](/en/glossary/biosphere) aus. Die marine Pyramide steht auf der Spitze.
+Eine globale Biomassezählung in den Proceedings of the National Academy of Sciences setzt etwa 1 Gigatonne Kohlenstoff an Primärproduzenten in den Ozean, die rund 5 Gigatonnen Kohlenstoff an Konsumenten tragen. An Land läuft das Verhältnis andersherum, und deutlich: Pflanzen machen etwa 450 der rund 550 Gigatonnen Kohlenstoff der gesamten [Biosphäre](/de/glossary/biosphere) aus. Die marine Pyramide steht auf der Spitze.
 
 Das ist kein Widerspruch und kein Artefakt schlechter Buchführung. Es ist das, was geschieht, wenn Produzenten schneller ersetzt werden als Konsumenten. Dieselbe Zählung merkt an, dass marine Primärproduzenten in der Größenordnung von Tagen umgesetzt werden, während Konsumentenbiomasse auf der Skala von Jahren umgesetzt wird — im Fall mesopelagischer Fische wenige Jahre. Der stehende Vorrat misst, was in einem Augenblick da ist; die Produktion misst, was hindurchgeht. Teilt man die zweite durch den ersten, trennen sich die beiden Sphären scharf: nach den folgenden Zahlen ersetzen marine Produzenten ihre eigene Masse etwa fünfzigmal im Jahr, während Landpflanzen dafür ungefähr acht Jahre brauchen. Fast jede Fehllesung mariner Produktivität entsteht daraus, eine dieser Größen zu zitieren und die andere zu meinen.
 

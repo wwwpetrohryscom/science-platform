@@ -247,6 +247,21 @@
     "cookie_policy": "Cookie Policy",
     "terms_of_use": "Terms of Use"
   },
+  "glossary": {
+    "title": "Scientific glossary",
+    "description": "Source-backed definitions for terms used across EcoScienceHub articles — radiative forcing, ocean heat content, gene expression, energy balance, and more.",
+    "eyebrow": "Reference",
+    "label": "Glossary",
+    "list_heading": "Glossary terms",
+    "count_line": "{count} terms · last reviewed by editorial desk {date}.",
+    "where_it_appears": "Where this term appears",
+    "references": "Authoritative references",
+    "note": "Note.",
+    "topic": "Topic:",
+    "last_reviewed": "Last reviewed {date}",
+    "also_in_english": "This term is also defined in English.",
+    "english_article": "in English"
+  },
   "newsletter": {
     "eyebrow": "Newsletter",
     "title": "One careful piece a week.",

@@ -20,7 +20,7 @@ related:
   - convergent-evolution-explained
   - cell-types-as-units-of-evolution
 ---
-[Evolution](/en/glossary/evolution) ist eine Eigenschaft von Populationen, nicht von Individuen. Ein Organismus entwickelt sich nicht im Laufe seines Lebens; was sich ändert, ist die Häufigkeit jeder Version eines Gens unter den Organismen einer Fortpflanzungsgemeinschaft, und wie sich diese Verteilung von einer Generation zur nächsten verschiebt. Die verbreiteten Fehldeutungen — dass Linien nach Komplexität streben, dass eine Art die benötigte Variante gewissermaßen herbeiruft, dass Fitness körperliche Stärke bedeute — lösen sich auf, sobald das Subjekt des Satzes wieder an seinen Platz gerückt wird.
+[Evolution](/de/glossary/evolution) ist eine Eigenschaft von Populationen, nicht von Individuen. Ein Organismus entwickelt sich nicht im Laufe seines Lebens; was sich ändert, ist die Häufigkeit jeder Version eines Gens unter den Organismen einer Fortpflanzungsgemeinschaft, und wie sich diese Verteilung von einer Generation zur nächsten verschiebt. Die verbreiteten Fehldeutungen — dass Linien nach Komplexität streben, dass eine Art die benötigte Variante gewissermaßen herbeiruft, dass Fitness körperliche Stärke bedeute — lösen sich auf, sobald das Subjekt des Satzes wieder an seinen Platz gerückt wird.
 
 Das National Human Genome Research Institute definiert Evolution in genomischen Begriffen als den Prozess, durch den sich lebende Organismen im Laufe der Zeit durch Veränderungen des Genoms verändern. Die populationsgenetische Fassung ist enger und nützlicher: Ein **Allel** ist eine von zwei oder mehr Versionen einer DNA-Sequenz an einer bestimmten genomischen Position, und Evolution ist eine Veränderung der Häufigkeit dieser Versionen über Generationen hinweg. Alles Folgende ist eine Ausarbeitung dieses Satzes.
 
@@ -30,7 +30,7 @@ Eine sehr große Population, die sich zufällig paart und weder Selektion noch M
 
 ## Vier Prozesse, nicht einer
 
-Lehrbuchdarstellungen verkürzen Evolution häufig auf die [natürliche Selektion](/en/glossary/natural-selection) allein. Das ist die folgenreichste Vereinfachung des Fachs, denn drei weitere Prozesse verändern Allelhäufigkeiten ebenfalls, und unter bestimmten Umständen dominieren sie.
+Lehrbuchdarstellungen verkürzen Evolution häufig auf die [natürliche Selektion](/de/glossary/natural-selection) allein. Das ist die folgenreichste Vereinfachung des Fachs, denn drei weitere Prozesse verändern Allelhäufigkeiten ebenfalls, und unter bestimmten Umständen dominieren sie.
 
 | Prozess | Wirkung auf Allelhäufigkeiten | Ist die Richtung vorhersagbar? | Abhängigkeit von der Populationsgröße |
 | --- | --- | --- | --- |

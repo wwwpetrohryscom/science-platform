@@ -47,6 +47,7 @@ type Issue = {
   message: string;
   filepath: string;
 };
+import { hasLocalizedGlossaryTerm } from "../lib/glossary";
 
 const IDENTITY_FIELDS = [
   "type",
@@ -687,6 +688,20 @@ export function checkTranslation(
         "translation-link-prefix",
         `internal link ${l} still points at the English article; only the English-only routes (glossary, editorial, policies) may keep /en/`,
       );
+    } else {
+      // The glossary exemption used to be unconditional, because the
+      // glossary was English-only. It is now checked against the data:
+      // a translation may keep /en/glossary/<term> only where this
+      // locale genuinely has no page for that term. Once it has one,
+      // the English link is sending the reader past their own language.
+      const g = /^\/en\/glossary\/([a-z0-9-]+)$/.exec(l);
+      if (g && hasLocalizedGlossaryTerm(g[1], locale)) {
+        add(
+          "error",
+          "translation-link-glossary-locale",
+          `internal link ${l} points at the English glossary page for "${g[1]}", but ${locale} has its own page for that term at /${locale}/glossary/${g[1]}`,
+        );
+      }
     }
   }
   const linkDiff = diffMultiset(enLinks, multiset(trMatches.map(strip)));

@@ -1,7 +1,13 @@
 ---
-title: 'Biodiversity monitoring and ecosystem health: how scientists measure the state of life'
-metaTitle: 'Biodiversity monitoring and ecosystem health'
-excerpt: Biodiversity has no single thermometer. This is how scientists track the condition of species and ecosystems — through field surveys, indicators, species databases, remote sensing, and long-term observation — and what each method can and cannot resolve.
+title: >-
+  Biodiversity monitoring and ecosystem health: how scientists measure the state
+  of life
+metaTitle: Biodiversity monitoring and ecosystem health
+excerpt: >-
+  Biodiversity has no single thermometer. This is how scientists track the
+  condition of species and ecosystems — through field surveys, indicators,
+  species databases, remote sensing, and long-term observation — and what each
+  method can and cannot resolve.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
@@ -88,7 +94,7 @@ Every load-bearing claim in this cluster is attributed to a named authority — 
 
 ## The rest of the cluster
 
-The supporting articles each take one method or metric further: species richness, species evenness and diversity, biodiversity indicators, the Red List Index, the Living Planet Index, [habitat fragmentation](/en/glossary/habitat-fragmentation) metrics, [ecological integrity](/en/glossary/ecological-integrity) indicators, ecosystem resilience indicators, remote sensing for biodiversity monitoring, citizen-science biodiversity data, [protected-area effectiveness](/en/glossary/protected-area-effectiveness), and biodiversity baselines and shifting baselines. The Essential Biodiversity Variables piece supplies the framework that ties them together, and the pillar on species counts sets out why the multi-dimensional approach is necessary in the first place.
+The supporting articles each take one method or metric further: species richness, species evenness and diversity, biodiversity indicators, the Red List Index, the Living Planet Index, [habitat fragmentation](/en/glossary/habitat-fragmentation) metrics, [ecological integrity](/en/glossary/ecological-integrity) indicators, [ecosystem resilience](/en/glossary/ecosystem-resilience) indicators, remote sensing for biodiversity monitoring, citizen-science biodiversity data, [protected-area effectiveness](/en/glossary/protected-area-effectiveness), and biodiversity baselines and shifting baselines. The Essential Biodiversity Variables piece supplies the framework that ties them together, and the pillar on species counts sets out why the multi-dimensional approach is necessary in the first place.
 
 That framework was deliberately modelled on an older one from the physical sciences. The Global Climate Observing System specifies 55 Essential Climate Variables against three criteria — relevance, technical feasibility of sustained global observation, and cost effectiveness — and the biodiversity version borrowed the same insistence that a variable be feasibly observable rather than merely desirable. Reading the two side by side is instructive about how much harder the biological case is: the climate list's ocean-biology subdomain contains just two entries, marine habitats and plankton, against eleven physical ocean variables. The comparison is set out in [Essential Climate Variables](/en/ecology/earth-systems/essential-climate-variables-explained), and the coupled-system context in which biodiversity monitoring sits is the subject of the [Earth system science](/en/ecology/earth-systems/earth-system-science-explained) cluster.
 

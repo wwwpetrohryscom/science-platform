@@ -1,7 +1,13 @@
 ---
-title: 'Florestas: estrutura, funcionamento e as definições que decidem as estatísticas'
+title: >-
+  Florestas: estrutura, funcionamento e as definições que decidem as
+  estatísticas
 metaTitle: 'Florestas: estrutura, função e definições'
-excerpt: Uma floresta é uma categoria de uso do solo antes de ser um ecossistema, e os limiares dessa categoria decidem a maior parte dos números publicados sobre ela. Esta página expõe as definições, a estrutura que descrevem e onde o quadro global se esgota.
+excerpt: >-
+  Uma floresta é uma categoria de uso do solo antes de ser um ecossistema, e os
+  limiares dessa categoria decidem a maior parte dos números publicados sobre
+  ela. Esta página expõe as definições, a estrutura que descrevem e onde o
+  quadro global se esgota.
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-09-02'
@@ -38,7 +44,7 @@ Outros quadros traçam a linha noutro ponto, e legitimamente. Ao abrigo dos Acor
 
 ## A estrutura é o eixo que organiza quase todo o funcionamento
 
-Por baixo da discussão sobre definições está um objeto físico real com uma propriedade distintiva: organiza-se na vertical. A luz é intercetada num gradiente que desce do copado superior, através do subcoberto e do sub-bosque, até um solo que recebe uma pequena fração da radiação incidente; a temperatura, a humidade e a velocidade do vento acompanham esse gradiente; e a madeira morta em pé, os detritos lenhosos grossos e a zona radicular prolongam o arranjo em reservatórios de renovação lenta. Quase tudo o que um sistema destes faz — amortecer o microclima, reter água, armazenar carbono, oferecer os estratos de nidificação e de alimentação que geram diversidade de habitats — decorre desse arranjo vertical e não do coberto arbóreo enquanto tal.
+Por baixo da discussão sobre definições está um objeto físico real com uma propriedade distintiva: organiza-se na vertical. A luz é intercetada num gradiente que desce do copado superior, através do subcoberto e do sub-bosque, até um solo que recebe uma pequena fração da radiação incidente; a temperatura, a humidade e a velocidade do vento acompanham esse gradiente; e a madeira morta em pé, os detritos lenhosos grossos e a zona radicular prolongam o arranjo em reservatórios de renovação lenta. Quase tudo o que um sistema destes faz — amortecer o microclima, reter água, armazenar carbono, oferecer os estratos de nidificação e de alimentação que geram diversidade de habitats — decorre desse arranjo vertical e não do [coberto arbóreo](/pt/glossary/canopy-cover) enquanto tal.
 
 O inventário mundial quantifica-o de forma escassa, mas útil. As existências em volume, isto é, o volume das árvores vivas, situavam-se em 630 mil milhões de metros cúbicos em 2025, uma média de 152 metros cúbicos por hectare, com cerca de um terço do total em floresta primária. A biomassa é estimada em 709 gigatoneladas, cerca de 171 toneladas por hectare. Médias deste tipo escondem uma amplitude que ultrapassa uma ordem de grandeza entre um bosque seco e aberto e um povoamento tropical de baixa altitude, e é por isso que aquilo que os instrumentos registam são medições estruturais — altura do copado, perfil vertical, área basal —, com a massa inferida depois. Essa cadeia de inferência é desmontada em [como se estimam realmente os stocks de carbono florestal](/pt/ecology/forests/forest-carbon-measurement).
 
@@ -68,7 +74,7 @@ O que vem depois de uma perturbação é a segunda metade do mesmo processo. Uma
 
 ## O que as florestas estão a fazer à atmosfera
 
-Uma síntese de dados de inventário in situ e de parcelas nos biomas boreal, temperado e tropical situa o [sumidouro de carbono](/en/glossary/carbon-sink) florestal mundial em 3,6 ± 0,4 petagramas de carbono por ano nas décadas de 1990 e de 2000 e em 3,5 ± 0,4 na década de 2010 — um total mundial de estabilidade notável, que esconde tendências regionais opostas. Os sumidouros reforçaram-se nas florestas temperadas (+30 ± 5 %) e na regeneração tropical (+29 ± 8 %) à medida que a área florestal aumentava, e enfraqueceram nas florestas boreais (−36 ± 6 %) e nas florestas tropicais intactas (−31 ± 7 %) à medida que as perturbações se intensificavam e a área intacta encolhia. A mesma análise situa o sumidouro florestal mundial em quase metade das emissões de combustíveis fósseis ao longo de 1990–2019, com cerca de dois terços desse benefício anulados pela desflorestação tropical.
+Uma síntese de dados de inventário in situ e de parcelas nos biomas boreal, temperado e tropical situa o [sumidouro de carbono](/pt/glossary/carbon-sink) florestal mundial em 3,6 ± 0,4 petagramas de carbono por ano nas décadas de 1990 e de 2000 e em 3,5 ± 0,4 na década de 2010 — um total mundial de estabilidade notável, que esconde tendências regionais opostas. Os sumidouros reforçaram-se nas florestas temperadas (+30 ± 5 %) e na regeneração tropical (+29 ± 8 %) à medida que a área florestal aumentava, e enfraqueceram nas florestas boreais (−36 ± 6 %) e nas florestas tropicais intactas (−31 ± 7 %) à medida que as perturbações se intensificavam e a área intacta encolhia. A mesma análise situa o sumidouro florestal mundial em quase metade das emissões de combustíveis fósseis ao longo de 1990–2019, com cerca de dois terços desse benefício anulados pela desflorestação tropical.
 
 Um valor global estável para o sumidouro não é prova de que nada esteja a mudar, tal como a fração atmosférica quase constante discutida no [ciclo do carbono](/pt/ecology/earth-systems/carbon-cycle-explained) não é prova de sumidouros fixos. E, uma vez que o sumidouro depende conjuntamente da área florestal e da idade dos povoamentos, o argumento a favor de plantar árvores novas não é o mesmo que o argumento a favor de conservar os povoamentos que já existem — uma distinção que [o balanço da plantação de árvores](/pt/ecology/forests/reforestation-and-tree-planting-evidence) expõe.
 

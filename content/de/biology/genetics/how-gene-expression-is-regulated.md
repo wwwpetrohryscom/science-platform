@@ -19,7 +19,7 @@ related:
 pillar: what-is-dna
 ---
 
-Eine Leberzelle und ein Neuron im selben Körper tragen im Wesentlichen identische Genome. Sie sehen anders aus, verhalten sich anders und stoffwechseln anders, weil die [Genexpression](/en/glossary/gene-expression) — der Vorgang, durch den die Information in der [DNA](/de/biology/genetics/what-is-dna) zu funktionsfähigem Protein wird — reguliert ist. Die anerkannten Referenzdarstellungen des [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) und des [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) behandeln die Regulation der Genexpression als geschichtetes System mit Entscheidungspunkten an mehreren Stufen zwischen Genom und Phänotyp.
+Eine Leberzelle und ein Neuron im selben Körper tragen im Wesentlichen identische Genome. Sie sehen anders aus, verhalten sich anders und stoffwechseln anders, weil die [Genexpression](/de/glossary/gene-expression) — der Vorgang, durch den die Information in der [DNA](/de/biology/genetics/what-is-dna) zu funktionsfähigem Protein wird — reguliert ist. Die anerkannten Referenzdarstellungen des [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) und des [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) behandeln die Regulation der Genexpression als geschichtetes System mit Entscheidungspunkten an mehreren Stufen zwischen Genom und Phänotyp.
 
 Dieser Beitrag geht die Schichten durch, was jede beiträgt und wo das heutige Verständnis klare Kanten hat.
 
@@ -28,7 +28,7 @@ Dieser Beitrag geht die Schichten durch, was jede beiträgt und wo das heutige V
 Der Weg von der DNA zum Protein führt über mehrere Kontrollpunkte:
 
 1. **Chromatinzugänglichkeit.** Der größte Teil des Genoms einer Zelle ist in Chromatin verpackt, in Zuständen von zugänglich bis dicht kondensiert. Nur die zugänglichen Bereiche stehen zur Transkription bereit. Histonmodifikationen und DNA-Methylierung legen diese Zustände an und erhalten sie.
-2. **Beginn der [Transkription](/en/glossary/transcription).** Eine bestimmte Kombination von Transkriptionsfaktoren muss regulatorische DNA — Promotoren und Enhancer — binden, um die RNA-Polymerase zu rekrutieren. Die Kombinationen unterscheiden sich zwischen Zelltypen und Bedingungen.
+2. **Beginn der [Transkription](/de/glossary/transcription).** Eine bestimmte Kombination von Transkriptionsfaktoren muss regulatorische DNA — Promotoren und Enhancer — binden, um die RNA-Polymerase zu rekrutieren. Die Kombinationen unterscheiden sich zwischen Zelltypen und Bedingungen.
 3. **Transkriptverarbeitung.** RNA-Spleißen, Polyadenylierung und die Wahl alternativer Isoformen geschehen kotranskriptional und erzeugen aus demselben Gen verschiedene reife Transkripte.
 4. **RNA-Stabilität und -Lokalisierung.** Einmal hergestellt, kann eine mRNA stabilisiert, abgebaut oder an einen bestimmten Ort in der Zelle gebracht werden. Kleine RNAs (microRNAs und andere) verändern Stabilität und Translationseffizienz.
 5. **Translation.** Ribosomen übersetzen reife mRNAs mit unterschiedlichen Raten. Die Translationseffizienz selbst ist reguliert, besonders unter Stress.

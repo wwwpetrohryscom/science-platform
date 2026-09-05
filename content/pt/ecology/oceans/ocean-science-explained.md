@@ -1,7 +1,13 @@
 ---
-title: 'Ciência dos oceanos: como a profundidade organiza o mar e quão pouco dele observamos'
+title: >-
+  Ciência dos oceanos: como a profundidade organiza o mar e quão pouco dele
+  observamos
 metaTitle: 'Ciência do oceano: a profundidade organiza o mar'
-excerpt: A densidade separa a água do mar em camadas entre as quais as trocas são lentas, e quase todas as propriedades de grande escala do oceano decorrem dessa separação. O que a estratificação faz à química e à vida, e quão escassamente o oceano é de facto observado.
+excerpt: >-
+  A densidade separa a água do mar em camadas entre as quais as trocas são
+  lentas, e quase todas as propriedades de grande escala do oceano decorrem
+  dessa separação. O que a estratificação faz à química e à vida, e quão
+  escassamente o oceano é de facto observado.
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
@@ -27,7 +33,7 @@ Vale a pena enunciar a escala com clareza, porque é ela que torna a separação
 
 ## A estratificação é a variável dominante
 
-A água superficial iluminada pelo sol é mais quente e, muitas vezes, menos salgada do que a água que tem por baixo; é por isso menos densa e flutua. O vento e o arrefecimento invernal misturam as primeiras dezenas a centenas de metros, formando uma **camada de mistura** de densidade quase uniforme. Abaixo dela, a temperatura desce abruptamente ao longo da **termoclina** e a densidade aumenta na picnoclina. Esse degrau de densidade é a estrutura de maiores consequências no mar, porque constitui uma barreira à troca vertical: determina com que facilidade o calor, o carbono, o oxigénio e os nutrientes dissolvidos passam entre a superfície e o interior.
+A água superficial iluminada pelo sol é mais quente e, muitas vezes, menos salgada do que a água que tem por baixo; é por isso menos densa e flutua. O vento e o arrefecimento invernal misturam as primeiras dezenas a centenas de metros, formando uma **camada de mistura** de densidade quase uniforme. Abaixo dela, a temperatura desce abruptamente ao longo da **[termoclina](/pt/glossary/thermocline)** e a densidade aumenta na picnoclina. Esse degrau de densidade é a estrutura de maiores consequências no mar, porque constitui uma barreira à troca vertical: determina com que facilidade o calor, o carbono, o oxigénio e os nutrientes dissolvidos passam entre a superfície e o interior.
 
 Essa barreira reforçou-se. O Sexto Relatório de Avaliação do IPCC conclui que é praticamente certo que o oceano superior se tornou mais estavelmente estratificado desde, pelo menos, 1970 na grande maioria do globo, por efeito de um aquecimento concentrado à superfície e da redução da salinidade em latitudes elevadas, e avalia o aumento da estratificação entre 0 e 200 m em 4,9 ± 1,5 por cento entre 1970 e 2018. Uma análise publicada na Nature Climate Change, que quantifica a estabilidade de outro modo — pelo quadrado da frequência de flutuabilidade até aos 2.000 metros —, reporta um aumento de 5,3 por cento (5,0 a 5,8 por cento) no período de 1960 a 2018, cerca de 0,90 por cento por década, com aproximadamente 71 por cento da variação nos primeiros 200 metros e mais de 90 por cento dela atribuível à temperatura e não à salinidade.
 

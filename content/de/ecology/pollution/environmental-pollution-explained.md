@@ -1,7 +1,13 @@
 ---
-title: 'Umweltverschmutzung: Quelle, Pfad, Rezeptor – das Modell, das die Evidenz ordnet'
+title: >-
+  Umweltverschmutzung: Quelle, Pfad, Rezeptor – das Modell, das die Evidenz
+  ordnet
 metaTitle: 'Verschmutzung: Quelle, Pfad, Rezeptor'
-excerpt: Ein Stoff wird erst dann zur Verschmutzung, wenn Quelle, Pfad und Rezeptor zusammentreffen. Diese Trias und der Dosis-Wirkungs-Schritt in ihrer Mitte erklären, warum Umweltgrenzwerte zwischen Staaten auseinandergehen, ohne dass die zugrunde liegende Wissenschaft auseinanderginge.
+excerpt: >-
+  Ein Stoff wird erst dann zur Verschmutzung, wenn Quelle, Pfad und Rezeptor
+  zusammentreffen. Diese Trias und der Dosis-Wirkungs-Schritt in ihrer Mitte
+  erklären, warum Umweltgrenzwerte zwischen Staaten auseinandergehen, ohne dass
+  die zugrunde liegende Wissenschaft auseinanderginge.
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
@@ -30,7 +36,7 @@ Das ist die operative Logik nahezu jeder geltenden Umweltvorschrift, und deshalb
 
 Die US-Umweltbehörde EPA definiert einen Stressor als „jede physikalische, chemische oder biologische Einheit, die eine schädliche Wirkung bei Menschen oder in Ökosystemen hervorrufen kann“, und Risiko als „die Wahrscheinlichkeit schädlicher Wirkungen auf die menschliche Gesundheit oder auf ökologische Systeme infolge einer Exposition gegenüber einem Umweltstressor“. Das Erste ist eine Eigenschaft. Das Zweite ist eine Aussage über eine bestimmte Konfiguration aus Quelle, Pfad und Rezeptor.
 
-Die meisten öffentlichen Auseinandersetzungen, die schieflaufen, verwechseln beides. „Verbindung X erzeugt im Tierversuch Krebs“ ist eine Gefahrenaussage; sie kann zutreffen, während das Risiko aus einem bestimmten Produkt vernachlässigbar ist, weil kein Pfad die beiden verbindet. „Im Wasser ist kein X nachweisbar“ ist eine Pfadaussage; sie kann zutreffen, während die Gefahr schwerwiegend ist, und sie sagt nichts über die Luft oder den Boden. Die Erwiderung, dass die Dosis das Gift macht, entscheidet keinen der beiden Streitfälle – sie verlagert ihn in die Dosis-Wirkungs-Beziehung, und dort sitzt die eigentliche wissenschaftliche Uneinigkeit.
+Die meisten öffentlichen Auseinandersetzungen, die schieflaufen, verwechseln beides. „Verbindung X erzeugt im Tierversuch Krebs“ ist eine Gefahrenaussage; sie kann zutreffen, während das Risiko aus einem bestimmten Produkt vernachlässigbar ist, weil kein Pfad die beiden verbindet. „Im Wasser ist kein X nachweisbar“ ist eine Pfadaussage; sie kann zutreffen, während die Gefahr schwerwiegend ist, und sie sagt nichts über die Luft oder den Boden. Die Erwiderung, dass die Dosis das Gift macht, entscheidet keinen der beiden Streitfälle – sie verlagert ihn in die [Dosis-Wirkungs-Beziehung](/de/glossary/dose-response), und dort sitzt die eigentliche wissenschaftliche Uneinigkeit.
 
 ## Wo der Streit tatsächlich stattfindet
 

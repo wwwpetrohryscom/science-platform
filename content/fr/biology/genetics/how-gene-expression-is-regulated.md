@@ -19,7 +19,7 @@ related:
 pillar: what-is-dna
 ---
 
-Une cellule hépatique et un neurone d'un même corps portent des génomes pour l'essentiel identiques. Ils diffèrent d'aspect, de comportement et de métabolisme parce que l'[expression génique](/en/glossary/gene-expression) — le processus par lequel l'information de l'[ADN](/fr/biology/genetics/what-is-dna) devient une protéine fonctionnelle — est régulée. Les synthèses de référence acceptées du [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) et du [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) traitent la régulation de l'expression génique comme un système en couches, avec des points de décision à plusieurs étapes entre génome et phénotype.
+Une cellule hépatique et un neurone d'un même corps portent des génomes pour l'essentiel identiques. Ils diffèrent d'aspect, de comportement et de métabolisme parce que l'[expression génique](/fr/glossary/gene-expression) — le processus par lequel l'information de l'[ADN](/fr/biology/genetics/what-is-dna) devient une protéine fonctionnelle — est régulée. Les synthèses de référence acceptées du [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) et du [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) traitent la régulation de l'expression génique comme un système en couches, avec des points de décision à plusieurs étapes entre génome et phénotype.
 
 Cet article parcourt les couches, ce que chacune apporte, et là où la compréhension actuelle a des bords nets.
 
@@ -28,7 +28,7 @@ Cet article parcourt les couches, ce que chacune apporte, et là où la compréh
 Le flux de l'ADN à la protéine passe par plusieurs points de contrôle :
 
 1. **Accessibilité de la chromatine.** L'essentiel du génome d'une cellule est empaqueté en chromatine dans des états allant d'accessible à fortement compacté. Seules les régions accessibles sont disponibles pour la transcription. Modifications des histones et méthylation de l'ADN établissent et maintiennent ces états.
-2. **Initiation de la [transcription](/en/glossary/transcription).** Une combinaison précise de facteurs de transcription doit se lier à l'ADN régulateur — promoteurs et amplificateurs — pour recruter l'ARN polymérase. Les combinaisons diffèrent selon les types cellulaires et les conditions.
+2. **Initiation de la [transcription](/fr/glossary/transcription).** Une combinaison précise de facteurs de transcription doit se lier à l'ADN régulateur — promoteurs et amplificateurs — pour recruter l'ARN polymérase. Les combinaisons diffèrent selon les types cellulaires et les conditions.
 3. **Maturation du transcrit.** Épissage de l'ARN, polyadénylation et choix d'isoformes alternatives se produisent de façon co-transcriptionnelle et donnent des transcrits matures différents à partir du même gène.
 4. **Stabilité et localisation de l'ARN.** Une fois produit, un ARNm peut être stabilisé, dégradé ou transporté vers un emplacement subcellulaire précis. De petits ARN (microARN et autres) modulent la stabilité et l'efficacité de traduction.
 5. **Traduction.** Les ribosomes traduisent les ARNm matures à des vitesses variables. L'efficacité de traduction est elle-même régulée, en particulier sous stress.
