@@ -5,7 +5,7 @@ excerpt: Un número sin incertidumbre no es un resultado de medición. Esto es l
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - metrology

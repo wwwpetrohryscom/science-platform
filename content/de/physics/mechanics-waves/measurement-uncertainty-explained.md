@@ -5,7 +5,7 @@ excerpt: Eine Zahl ohne Unsicherheit ist kein Messergebnis. Das verlangt die int
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - metrology

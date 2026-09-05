@@ -5,7 +5,7 @@ excerpt: Un átomo y el núcleo en su centro difieren en cuatro órdenes de magn
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - nuclear-physics

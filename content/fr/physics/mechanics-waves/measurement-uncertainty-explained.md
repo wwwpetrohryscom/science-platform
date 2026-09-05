@@ -5,7 +5,7 @@ excerpt: Un nombre sans incertitude n'est pas un résultat de mesure. Voici ce q
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - metrology

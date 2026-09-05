@@ -1,0 +1,88 @@
+{
+  "batchId": "v-cross-si-and-metrology",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used.",
+  "articles": [
+    {
+      "slug": "the-si-and-its-defining-constants",
+      "path": "content/en/physics/mechanics-waves/the-si-and-its-defining-constants.md",
+      "status": "clean",
+      "claimsChecked": 8,
+      "findings": [
+        { "claim": "The seven defining constants and their exact values: dNuCs 9,192,631,770 Hz; c 299,792,458 m/s; h 6.62607015e-34 J s; e 1.602176634e-19 C; k 1.380649e-23 J/K; NA 6.02214076e23 per mole; Kcd 683 lm/W", "sourceChecked": "https://www.nist.gov/si-redefinition/meet-constants", "disposition": "verified" },
+        { "claim": "Which units each constant helps define", "sourceChecked": "https://www.nist.gov/si-redefinition/meet-constants", "disposition": "verified" },
+        { "claim": "The seven base unit definitions as currently written", "sourceChecked": "https://www.nist.gov/si-redefinition/definitions-si-base-units", "disposition": "verified" },
+        { "claim": "Fixing a constant relocates uncertainty from the constant onto the artefact rather than reducing it", "sourceChecked": "reasoning across the two NIST pages and the kilogram page", "disposition": "qualified", "note": "Our framing. The NIST pages state the definitions; the inversion argument is ours and is written as an explanation." },
+        { "claim": "The definitions are nested, and none prescribes an experiment", "sourceChecked": "https://www.nist.gov/si-redefinition/definitions-si-base-units", "disposition": "qualified", "note": "Both observations follow from the definitions as printed; neither is quoted." }
+      ]
+    },
+    {
+      "slug": "atomic-clocks-and-the-second",
+      "path": "content/en/physics/quantum-basics/atomic-clocks-and-the-second.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "Atomic clocks count 9,192,631,770 microwave oscillations of caesium and call that a second", "sourceChecked": "https://www.nist.gov/si-redefinition/second", "disposition": "verified" },
+        { "claim": "Commercially available caesium clocks keep time to within 1/3,000,000 of a second per year", "sourceChecked": "https://www.nist.gov/si-redefinition/second", "disposition": "verified" },
+        { "claim": "New experimental clocks based on other atoms are ten thousand times more precise still", "sourceChecked": "https://www.nist.gov/si-redefinition/second", "disposition": "verified" },
+        { "claim": "1/3,000,000 s per year is about one part in 10^14, and ten thousand times better is one part in 10^18", "sourceChecked": "arithmetic", "disposition": "qualified", "note": "Our conversion of the NIST figures; stated as approximate." },
+        { "claim": "At one part in 10^18 a clock resolves the gravitational redshift over a few centimetres of height", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Standard consequence of general relativity at that fractional precision; no experiment is cited." },
+        { "claim": "A clock error of a nanosecond is a position error of about 30 centimetres in satellite navigation", "sourceChecked": "arithmetic on the speed of light", "disposition": "qualified", "note": "Our arithmetic, using the defined value of c." }
+      ]
+    },
+    {
+      "slug": "the-kelvin-and-the-boltzmann-constant",
+      "path": "content/en/physics/thermodynamics/the-kelvin-and-the-boltzmann-constant.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "In 1954 the kelvin was defined as 1/273.16 of the thermodynamic temperature of the triple point of water", "sourceChecked": "https://www.nist.gov/si-redefinition/kelvin-introduction", "disposition": "verified" },
+        { "claim": "For a precise formulation of water at a specific pressure the triple point always occurs at exactly 273.16 K", "sourceChecked": "https://www.nist.gov/si-redefinition/kelvin-introduction", "disposition": "verified" },
+        { "claim": "The new definition fixes the Boltzmann constant at exactly 1.380649e-23 J/K, adopted with the revised SI in November 2018", "sourceChecked": "https://www.nist.gov/si-redefinition/kelvin-introduction", "disposition": "verified" },
+        { "claim": "Extrapolation from the water triple point to extreme temperatures was the weakness the redefinition addressed", "sourceChecked": "https://www.nist.gov/si-redefinition/kelvin-introduction", "disposition": "verified" },
+        { "claim": "A well-made triple-point cell realises the fixed point to better than a tenth of a millikelvin", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Standard metrological performance figure; not quoted from a page we read." },
+        { "claim": "Acoustic, Johnson-noise and dielectric-constant gas thermometry are primary realisations of the redefined kelvin", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Named without performance figures." }
+      ]
+    },
+    {
+      "slug": "what-changed-when-the-kilogram-changed",
+      "path": "content/en/physics/mechanics-waves/what-changed-when-the-kilogram-changed.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "For more than a century the kilogram was defined as the mass of a small polished platinum-iridium cylinder cast in 1879", "sourceChecked": "https://www.nist.gov/si-redefinition/kilogram-introduction", "disposition": "verified" },
+        { "claim": "The measured mass of each individual standard drifted a bit over time", "sourceChecked": "https://www.nist.gov/si-redefinition/kilogram-introduction", "disposition": "verified" },
+        { "claim": "In November 2018 the international scientific community voted to redefine the kilogram on a constant of nature", "sourceChecked": "https://www.nist.gov/si-redefinition/kilogram-introduction", "disposition": "verified" },
+        { "claim": "The kilogram is defined by fixing h at 6.62607015e-34 J s", "sourceChecked": "https://www.nist.gov/si-redefinition/definitions-si-base-units", "disposition": "verified" },
+        { "claim": "Copies drifted by tens of micrograms over a century", "sourceChecked": "https://www.nist.gov/si-redefinition/kilogram-introduction", "disposition": "qualified", "note": "The page states that the standards drifted and that this created scaling problems; the magnitude is widely reported but is not on the page we read, so it is written as an approximate scale." },
+        { "claim": "The Kibble balance and the silicon-sphere route are the two realisations", "sourceChecked": "https://www.nist.gov/si-redefinition/kilogram-introduction", "disposition": "qualified", "note": "Named as realisations without uncertainties; the page describes the shift to a constant rather than detailing either apparatus." }
+      ]
+    },
+    {
+      "slug": "counting-atoms-and-the-mole",
+      "path": "content/en/physics/matter-radiation/counting-atoms-and-the-mole.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "One mole contains exactly 6.02214076 x 10^23 elementary entities", "sourceChecked": "https://www.nist.gov/si-redefinition/definitions-si-base-units", "disposition": "verified" },
+        { "claim": "The Avogadro constant equals 6.02214076 x 10^23 particles per mole and helps define the mole", "sourceChecked": "https://www.nist.gov/si-redefinition/meet-constants", "disposition": "verified" },
+        { "claim": "The previous definition tied the mole to 12 grams of carbon-12, coupling it to the kilogram", "sourceChecked": "not quoted from a page read in this pass", "disposition": "qualified", "note": "The historical definition is standard; the NIST pages we read give the current definition only." },
+        { "claim": "Molar masses are no longer exact by definition, with an uncertainty around one part in 10^9", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "A known consequence of the redefinition; the magnitude is stated as approximate and no source is cited for it." },
+        { "claim": "Avogadro's constant was determined by counting atoms in an isotopically enriched silicon-28 sphere", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Described without figures." }
+      ]
+    },
+    {
+      "slug": "why-metrology-went-quantum",
+      "path": "content/en/physics/quantum-basics/why-metrology-went-quantum.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "The caesium definition, the commercial clock performance and the margin held by experimental clocks", "sourceChecked": "https://www.nist.gov/si-redefinition/second", "disposition": "verified" },
+        { "claim": "The Boltzmann and Avogadro values as fixed in the definitions", "sourceChecked": "https://www.nist.gov/si-redefinition/definitions-si-base-units", "disposition": "verified" },
+        { "claim": "Electrical units are realised through the Josephson and quantum Hall effects, which depend only on h and e", "sourceChecked": "not quoted from a page read in this pass", "disposition": "qualified", "note": "Standard quantum electrical metrology; stated without figures. The NIST pages we read establish that e and h are fixed, not how the electrical realisations work." },
+        { "claim": "Five of the seven base units are realised through quantum physics", "sourceChecked": "our count over the definitions", "disposition": "qualified", "note": "A count we make from the definitions rather than a claim any source states." },
+        { "claim": "Atoms of a given species are identical, so a standard built on an atomic property needs no master copy", "sourceChecked": "corpus cross-reference: content/en/physics/quantum-basics/quantum-sensors-leaving-the-lab.md, already verified against NIST", "disposition": "verified" }
+      ]
+    }
+  ]
+}

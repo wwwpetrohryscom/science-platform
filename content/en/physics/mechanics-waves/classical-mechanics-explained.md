@@ -71,7 +71,7 @@ Three boundaries matter, and only the first two are usually taught.
 
 The relativistic boundary appears when speeds approach the speed of light, fixed by definition at 299,792,458 m s⁻¹ since the SI was rebuilt on defining constants. The Large Hadron Collider accelerates protons to a nominal 6.8 TeV per beam; set against a proton rest energy of 938.272 089 43(29) MeV, that is roughly 7,200 times the rest energy, and the Newtonian expression for kinetic energy is not merely imprecise there but wrong by orders of magnitude.
 
-The quantum boundary appears when the action involved in a process approaches the Planck constant, now fixed at exactly 6.626 070 15 × 10⁻³⁴ J s. For a cricket ball this is irrelevant; for an electron in an atom it is decisive.
+The quantum boundary appears when the action involved in a process approaches the [Planck constant](/en/physics/mechanics-waves/what-changed-when-the-kilogram-changed), now fixed at exactly 6.626 070 15 × 10⁻³⁴ J s. For a cricket ball this is irrelevant; for an electron in an atom it is decisive.
 
 The third boundary is internal, and it is the one that surprises people. Classical mechanics is deterministic and still not indefinitely predictive. The Solar System is a worked example: a PNAS commentary surveying long-term integrations puts the characteristic Lyapunov time for the planetary orbits at 5–10 million years, and concludes that "the presence of chaos implies that there is a finite limit to how accurately the positions of the planets can be predicted over long times", while the system nonetheless remains qualitatively stable across the Sun's lifetime. Exact equations, exact forces, and a horizon anyway.
 

@@ -4,7 +4,7 @@ excerpt: A number without an uncertainty is not a measurement result. This is wh
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - metrology
@@ -59,10 +59,10 @@ The base of that chain changed on 20 May 2019, when the SI was redefined so that
 | --- | --- | --- |
 | Caesium-133 hyperfine frequency | ΔνCs | 9 192 631 770 Hz |
 | Speed of light in vacuum | c | 299 792 458 m/s |
-| Planck constant | h | 6.626 070 15 × 10⁻³⁴ J s |
+| [Planck constant](/en/physics/mechanics-waves/what-changed-when-the-kilogram-changed) | h | 6.626 070 15 × 10⁻³⁴ J s |
 | Elementary charge | e | 1.602 176 634 × 10⁻¹⁹ C |
 | Boltzmann constant | k | 1.380 649 × 10⁻²³ J/K |
-| Avogadro constant | N_A | 6.022 140 76 × 10²³ mol⁻¹ |
+| [Avogadro constant](/en/physics/matter-radiation/counting-atoms-and-the-mole) | N_A | 6.022 140 76 × 10²³ mol⁻¹ |
 | Luminous efficacy | K_cd | 683 lm/W |
 
 Those values now carry no uncertainty, because they are definitions rather than results. The uncertainty did not disappear; it moved to the experiments that realise the units, which is a much better place for it, because it is now attached to an apparatus that can be improved rather than to an artefact that could be scratched.

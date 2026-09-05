@@ -884,14 +884,29 @@
     "biology/biotechnology",
     "ecology/earth-observation",
     "glossary",
-    "physics/mechanics-waves"
+    "physics/matter-radiation",
+    "physics/mechanics-waves",
+    "physics/quantum-basics",
+    "physics/thermodynamics"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atomic-clocks-and-the-second",
+     "section": "physics/quantum-basics",
+     "supports": "The international vocabulary and uncertainty framework these definitions are expressed and realised within."
+    },
     {
      "kind": "article",
      "slug": "calibration-and-traceability",
      "section": "physics/mechanics-waves",
      "supports": "The VIM (JCGM 200:2012) and the GUM (JCGM 100:2008) and their supplements."
+    },
+    {
+     "kind": "article",
+     "slug": "counting-atoms-and-the-mole",
+     "section": "physics/matter-radiation",
+     "supports": "The international vocabulary and uncertainty framework these definitions are expressed and realised within."
     },
     {
      "kind": "article",
@@ -924,10 +939,28 @@
      "supports": "The vocabulary and uncertainty framework a calibrated record is expressed in."
     },
     {
+     "kind": "article",
+     "slug": "the-kelvin-and-the-boltzmann-constant",
+     "section": "physics/thermodynamics",
+     "supports": "The international vocabulary and uncertainty framework these definitions are expressed and realised within."
+    },
+    {
+     "kind": "article",
+     "slug": "the-si-and-its-defining-constants",
+     "section": "physics/mechanics-waves",
+     "supports": "The vocabulary and uncertainty framework in which realisations are expressed."
+    },
+    {
      "kind": "glossary",
      "slug": "traceability",
      "section": "glossary",
      "supports": "Definition of Metrological traceability"
+    },
+    {
+     "kind": "article",
+     "slug": "what-changed-when-the-kilogram-changed",
+     "section": "physics/mechanics-waves",
+     "supports": "The international vocabulary and uncertainty framework these definitions are expressed and realised within."
     }
    ],
    "isLiveDataset": false,
@@ -17774,14 +17807,28 @@
    "sourceType": "standards-body",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "physics/matter-radiation",
+    "physics/mechanics-waves",
     "physics/quantum-basics"
    ],
    "usedBy": [
     {
      "kind": "article",
+     "slug": "counting-atoms-and-the-mole",
+     "section": "physics/matter-radiation",
+     "supports": "The artefact definition the mole was formerly coupled to."
+    },
+    {
+     "kind": "article",
      "slug": "quantum-mechanics-fundamentals",
      "section": "physics/quantum-basics",
      "supports": "The 2018–2019 revision of the SI and the fixing of the Planck constant."
+    },
+    {
+     "kind": "article",
+     "slug": "what-changed-when-the-kilogram-changed",
+     "section": "physics/mechanics-waves",
+     "supports": "The 1879 platinum-iridium cylinder, the observed drift of individual standards, and the November 2018 vote to base the unit on a constant of nature."
     }
    ],
    "isLiveDataset": false,
@@ -17818,14 +17865,29 @@
    "sourceType": "standards-body",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "physics/mechanics-waves"
+    "physics/matter-radiation",
+    "physics/mechanics-waves",
+    "physics/quantum-basics",
+    "physics/thermodynamics"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atomic-clocks-and-the-second",
+     "section": "physics/quantum-basics",
+     "supports": "The formal statement of the second and the units that depend on it."
+    },
     {
      "kind": "article",
      "slug": "classical-mechanics-explained",
      "section": "physics/mechanics-waves",
      "supports": "Fixed values of the defining constants, including the speed of light and the Planck constant."
+    },
+    {
+     "kind": "article",
+     "slug": "counting-atoms-and-the-mole",
+     "section": "physics/matter-radiation",
+     "supports": "The mole as exactly 6.02214076 × 10²³ elementary entities."
     },
     {
      "kind": "article",
@@ -17838,6 +17900,24 @@
      "slug": "optics-and-light-explained",
      "section": "physics/mechanics-waves",
      "supports": "The fixed value of the speed of light used to define the metre."
+    },
+    {
+     "kind": "article",
+     "slug": "the-kelvin-and-the-boltzmann-constant",
+     "section": "physics/thermodynamics",
+     "supports": "The formal statement of the kelvin."
+    },
+    {
+     "kind": "article",
+     "slug": "the-si-and-its-defining-constants",
+     "section": "physics/mechanics-waves",
+     "supports": "The seven base unit definitions in their current form."
+    },
+    {
+     "kind": "article",
+     "slug": "what-changed-when-the-kilogram-changed",
+     "section": "physics/mechanics-waves",
+     "supports": "The Planck-constant definition of the kilogram."
     }
    ],
    "isLiveDataset": false,
@@ -18091,6 +18171,34 @@
      "slug": "laws-of-thermodynamics-explained",
      "section": "physics/thermodynamics",
      "supports": "SI redefinition of the kelvin, the previous triple-point definition, and absolute zero in degrees Celsius."
+    },
+    {
+     "kind": "article",
+     "slug": "the-kelvin-and-the-boltzmann-constant",
+     "section": "physics/thermodynamics",
+     "supports": "The 1954 triple-point definition, the exactness of 273.16 K for a specified water formulation, the extrapolation problem, and the Boltzmann-constant definition adopted in November 2018."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-nist-gov-ed95701e",
+   "title": "The second",
+   "organization": "NIST",
+   "url": "https://www.nist.gov/si-redefinition/second",
+   "host": "nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/quantum-basics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atomic-clocks-and-the-second",
+     "section": "physics/quantum-basics",
+     "supports": "The definition by counting 9,192,631,770 oscillations, the 1/3,000,000 second per year figure for commercial caesium clocks, and the ten-thousandfold advantage of experimental clocks."
     }
    ],
    "isLiveDataset": false,
@@ -18176,6 +18284,55 @@
      "slug": "wave-particle-duality-explained",
      "section": "physics/quantum-basics",
      "supports": "Reference datasets for atomic and radiation constants."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-nist-gov-fce28321",
+   "title": "Meet the constants",
+   "organization": "NIST",
+   "url": "https://www.nist.gov/si-redefinition/meet-constants",
+   "host": "nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/matter-radiation",
+    "physics/mechanics-waves",
+    "physics/quantum-basics",
+    "physics/thermodynamics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "atomic-clocks-and-the-second",
+     "section": "physics/quantum-basics",
+     "supports": "The caesium frequency's role across four base units."
+    },
+    {
+     "kind": "article",
+     "slug": "counting-atoms-and-the-mole",
+     "section": "physics/matter-radiation",
+     "supports": "The Avogadro constant's exact value and the unit it helps define."
+    },
+    {
+     "kind": "article",
+     "slug": "the-kelvin-and-the-boltzmann-constant",
+     "section": "physics/thermodynamics",
+     "supports": "The Boltzmann constant's exact value and the units it helps define."
+    },
+    {
+     "kind": "article",
+     "slug": "the-si-and-its-defining-constants",
+     "section": "physics/mechanics-waves",
+     "supports": "The seven defining constants, their exact values, and which units each helps define."
+    },
+    {
+     "kind": "article",
+     "slug": "what-changed-when-the-kilogram-changed",
+     "section": "physics/mechanics-waves",
+     "supports": "The exact value of h and the units it helps define."
     }
    ],
    "isLiveDataset": false,

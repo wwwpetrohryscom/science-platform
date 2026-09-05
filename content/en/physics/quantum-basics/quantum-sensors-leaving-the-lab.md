@@ -16,7 +16,7 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
-_bodyHash: 60e1afd5
+_bodyHash: 69256bb5
 ---
 
 For much of their history, many high-performance quantum sensors lived in physics laboratories. The instruments — atomic clocks, atom-interferometric gravimeters, nitrogen-vacancy magnetometers, optically-pumped magnetometers, each exploiting a property that only [quantum mechanics](/en/physics/quantum-basics/quantum-mechanics-fundamentals) supplies — were extraordinarily precise but often required specialized infrastructure. [NIST's quantum sensing explainer](https://www.nist.gov/quantum-information-science/quantum-sensing-explained) describes the same transition: quantum sensors are moving from laboratory systems toward more compact measurement tools.
@@ -27,7 +27,7 @@ That is changing. Several quantum-sensing technologies have crossed the threshol
 
 A quantum sensor exploits the sensitivity of a quantum system — atoms, ions, defect centers, photons — to some external quantity. Atoms in a trap have energy levels whose spacing depends on the local magnetic field; measuring that spacing measures the field. Falling atoms in an interferometer accumulate phase that depends on the local gravitational acceleration; measuring the phase measures gravity. Light tunneled through an atomic vapor responds to the local electric field; measuring the response measures the field.
 
-The performance gain over classical sensors comes from two properties. First, atoms of a given species are identical — every cesium atom in every cesium clock has the same energy levels — so the calibration is set by physics rather than by the manufacturing tolerances of a built artifact. Second, quantum interference can allow phase-sensitive measurements that are difficult to reproduce with conventional devices, though real-world performance still depends on noise control, calibration, and instrument design.
+The performance gain over classical sensors comes from two properties. First, atoms of a given species are identical — every cesium atom in every cesium clock has the same energy levels — so the calibration is set by physics rather than by the manufacturing tolerances of a built artifact, which is the same property that makes [the caesium transition the definition of the second](/en/physics/quantum-basics/atomic-clocks-and-the-second). Second, quantum interference can allow phase-sensitive measurements that are difficult to reproduce with conventional devices, though real-world performance still depends on noise control, calibration, and instrument design.
 
 The result can be sensors with substantially better precision or stability in specific measurement tasks. The catch has always been that the highest performance grades often require tightly controlled operating conditions.
 

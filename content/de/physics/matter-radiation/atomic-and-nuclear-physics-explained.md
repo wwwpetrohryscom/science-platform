@@ -5,7 +5,7 @@ excerpt: Ein Atom und der Kern in seinem Zentrum unterscheiden sich um vier Grö
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - nuclear-physics
