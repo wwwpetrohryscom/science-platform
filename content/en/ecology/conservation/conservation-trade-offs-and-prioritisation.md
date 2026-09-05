@@ -6,7 +6,7 @@ type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 8
 tags:
   - conservation-planning
   - protected-areas
@@ -18,7 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: b687314a
+_bodyHash: be5b07e
 ---
 
 The binding constraint on conservation is rarely a shortage of information about which species are in trouble. It is money, land and the number of people available to manage either — which makes the operative question not what is threatened but what to buy with the next unit of budget. Those two questions have different answers often enough that the second deserves its own methods.
@@ -57,6 +57,10 @@ The current picture from the World Database on Protected Areas is consistent wit
 The most common misreading of the global area target is that it is an area target. Target 3 of the Kunming-Montreal Global Biodiversity Framework asks parties to ensure that by 2030 at least 30 per cent of terrestrial, inland water, coastal and marine areas — "especially areas of particular importance for biodiversity and ecosystem functions and services" — are effectively conserved through "ecologically representative, well-connected and equitably governed" systems of protected areas and other effective area-based conservation measures.
 
 Four qualifiers there are conditions, not decoration: importance for biodiversity, effectiveness, representativeness, connectivity. A fifth, equitable governance, is examined in the evidence on [community-managed and Indigenous-managed areas](/en/ecology/conservation/community-based-conservation-evidence). The headline indicator for the target, however, is coverage. When a target carries several conditions and one measurable headline number, reporting drifts towards the number, and the target can be satisfied on paper by designating cheap, remote, low-conflict land — precisely the pattern the location analysis documented over the preceding decades. Reaching 30 per cent and improving outcomes are not the same achievement, and the framework's own wording is the best evidence for that.
+
+## Where the framework is least used
+
+The clearest case of a decision that complementarity and cost could inform, and usually does not, is mineral extraction: the ecological cost of a mine is dominated by its location, and siting is decided project by project rather than against a network. That application is set out in [mineral demand and conservation trade-offs](/en/ecology/conservation/mineral-demand-and-conservation-trade-offs).
 
 ## Triage, and the objection to it
 

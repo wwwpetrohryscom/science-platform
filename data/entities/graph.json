@@ -1926,6 +1926,7 @@
    ],
    "childEntities": [],
    "relatedArticles": [
+    "battery-energy-density-and-its-limits",
     "energy-storage-fundamentals",
     "seasonal-storage-is-a-different-problem"
    ],
@@ -1939,13 +1940,16 @@
     "ev-energy-gov-2619c361",
     "ev-energy-gov-35731cd9",
     "ev-frontiersin-org-f8ef10ed",
+    "ev-iea-org-1281d263",
     "ev-iea-org-d05290c0",
     "ev-nature-com-e4330651",
     "ev-osti-gov-7ec3bd15",
     "ev-osti-gov-857977d3",
     "ev-osti-gov-89b00671",
     "ev-osti-gov-ab1df7b4",
-    "ev-par-nsf-gov-521d8f95"
+    "ev-par-nsf-gov-521d8f95",
+    "ev-pmc-ncbi-nlm-nih-gov-cf9278b0",
+    "ev-usgs-gov-06ce7af0"
    ]
   },
   {
@@ -1996,6 +2000,7 @@
     "energy-work-and-power",
     "grid-integration-of-variable-renewables",
     "hydrogen-as-an-energy-carrier",
+    "life-cycle-emissions-and-how-they-are-compared",
     "nuclear-fusion-fundamentals",
     "perovskite-stack-field-stability",
     "seasonal-storage-is-a-different-problem",
@@ -2032,6 +2037,7 @@
     "ev-energy-gov-f9b8ca6a",
     "ev-epa-gov-50964e1f",
     "ev-euro-fusion-org-ed518995",
+    "ev-iea-org-1281d263",
     "ev-iea-org-2d29a3db",
     "ev-iea-org-50fc695a",
     "ev-iea-org-6240f5de",
@@ -2056,7 +2062,9 @@
     "ev-nlr-gov-860bbd72",
     "ev-nlr-gov-bd5dee60",
     "ev-noaa-gov-78cff8fe",
+    "ev-osti-gov-17d3ea5c",
     "ev-osti-gov-ab1df7b4",
+    "ev-osti-gov-d8c5c14e",
     "ev-par-nsf-gov-521d8f95",
     "ev-pdg-lbl-gov-e02605b9",
     "ev-pmc-ncbi-nlm-nih-gov-45f8defd",
@@ -5298,6 +5306,7 @@
     "conservation-science-explained",
     "genome-wide-association-studies-explained",
     "interlaboratory-comparison-and-consensus-values",
+    "life-cycle-emissions-and-how-they-are-compared",
     "microbiome-research-and-the-causal-gap",
     "reproducibility-in-ecology-and-environmental-science"
    ],
@@ -5309,6 +5318,7 @@
     "ev-ebi-ac-uk-ec3a4e18",
     "ev-genome-gov-02a4ef87",
     "ev-genome-gov-5615b92f",
+    "ev-iea-org-1281d263",
     "ev-ipbes-net-31d1399f",
     "ev-journals-plos-org-b6e8a177",
     "ev-journals-plos-org-bbd9b98c",
@@ -5325,6 +5335,8 @@
     "ev-nist-gov-0d56c283",
     "ev-nist-gov-b4dac7fd",
     "ev-nist-gov-f0e231ee",
+    "ev-osti-gov-17d3ea5c",
+    "ev-osti-gov-d8c5c14e",
     "ev-pmc-ncbi-nlm-nih-gov-1175899a",
     "ev-pmc-ncbi-nlm-nih-gov-1e9bcbe0",
     "ev-pmc-ncbi-nlm-nih-gov-1fc23e22",

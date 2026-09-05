@@ -6,7 +6,7 @@ type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - energy-systems
   - primary-energy
@@ -19,7 +19,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
-_bodyHash: 925c3bc2
+_bodyHash: c88f166c
 ---
 
 An energy system keeps three ledgers, and almost every confused argument about energy comes from reading a number out of one and using it in another. The first ledger counts the resource as it is extracted or captured — coal in the seam, uranium in the ore, photons on a panel. The second counts the carriers that move usable energy around: electricity, refined liquid fuels, pipeline gas, heat in a district main. The third counts what is delivered to the point where somebody wants work done — a furnace, a motor, a screen. Each conversion between ledgers has a physical cost, and the size of that cost is the single most informative thing about a technology.
@@ -65,6 +65,10 @@ The supporting pages in this cluster take those rows one at a time. The article 
 Physical limits are real, but they are rarely the ones that decide a deployment schedule. The IEA's *Renewables 2025* forecast expects variable renewables to supply almost 30 per cent of global electricity by 2030, roughly double the current share, with solar photovoltaics alone accounting for nearly 80 per cent of the capacity increase. In the same forecast, curtailment is rising in many markets, among them China, Germany, Brazil, Chile, the United Kingdom and Ireland; hours of negative prices have surged across multiple countries, coinciding with peak solar generation; and the offshore wind outlook has been revised down by more than a quarter — none of which follows from any property of a turbine or a cell.
 
 Network capacity shows the same pattern. Investment in generation has risen by almost 70 per cent since 2015 to around USD 1 trillion a year, while annual grid spending has grown at less than half that pace to about USD 400 billion; the IEA judges that grid investment needs to rise by roughly half again by 2030. A system in which the converters are cheap and the wires are the queue behaves differently from one where the converters are the binding term. Distinguishing the limits that have a derivation from the ones that have a history is the subject of a separate analysis of [which energy-transition constraints are physical](/en/insight/energy-transition-constraints-physical-and-institutional).
+
+## What the accounting sits on
+
+The framework above says nothing about what the machinery is made of, and the material questions have become part of energy analysis rather than an adjunct to it. Four of them are treated separately here: [critical minerals and where supply concentrates](/en/physics/energy/critical-minerals-and-supply-concentration), [what limits battery energy density](/en/physics/energy/battery-energy-density-and-its-limits), [how life-cycle emissions comparisons are assembled](/en/physics/energy/life-cycle-emissions-and-how-they-are-compared), and [what recycling can and cannot do about the growth in mining](/en/physics/energy/recycling-and-material-circularity). Demand is also part of the accounting rather than an external given, and [cooling demand](/en/physics/energy/cooling-demand-and-electricity) is the clearest case of a load whose timing matters more than its total.
 
 ## What this accounting cannot tell you
 

@@ -9366,6 +9366,62 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-iea-org-1281d263",
+   "title": "Critical minerals",
+   "organization": "IEA",
+   "url": "https://www.iea.org/topics/critical-minerals",
+   "host": "iea.org",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/conservation",
+    "physics/energy",
+    "physics/matter-radiation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "battery-energy-density-and-its-limits",
+     "section": "physics/energy",
+     "supports": "Lithium, nickel, cobalt, manganese and graphite as the materials battery performance depends on."
+    },
+    {
+     "kind": "article",
+     "slug": "critical-minerals-and-supply-concentration",
+     "section": "physics/energy",
+     "supports": "Refining concentration at 86% in 2024 against around 82% in 2020, the 5% investment growth in 2024 against 14% in 2023, the material-to-technology mapping, and the 25–40% recycling estimate."
+    },
+    {
+     "kind": "article",
+     "slug": "life-cycle-emissions-and-how-they-are-compared",
+     "section": "physics/energy",
+     "supports": "The material supply chains that populate the upstream stage of the accounting."
+    },
+    {
+     "kind": "article",
+     "slug": "materials-for-magnets-and-why-substitution-is-hard",
+     "section": "physics/matter-radiation",
+     "supports": "Rare earths as indispensable to the permanent magnets in wind turbines and EV motors, and the 86% top-three refining share in 2024 against around 82% in 2020."
+    },
+    {
+     "kind": "article",
+     "slug": "mineral-demand-and-conservation-trade-offs",
+     "section": "ecology/conservation",
+     "supports": "The material-to-technology mapping and the 25–40% reduction in mining supply growth available from recycling."
+    },
+    {
+     "kind": "article",
+     "slug": "recycling-and-material-circularity",
+     "section": "physics/energy",
+     "supports": "The 25–40% reduction in new mining supply growth from scaling recycling, and the concentration of refining that recycling does not address."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "continuous",
+   "verificationStatus": "unchecked",
+   "notes": "Site root; individual dated reports are stable editions."
+  },
+  {
    "evidenceId": "ev-iea-org-17b26365",
    "title": "Building the Future Transmission Grid, executive summary",
    "organization": "International Energy Agency",
@@ -20171,6 +20227,41 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-osti-gov-17d3ea5c",
+   "title": "Life cycle emissions factors for electricity generation technologies",
+   "organization": "OSTI (US Department of Energy)",
+   "url": "https://www.osti.gov/biblio/1819907",
+   "host": "osti.gov",
+   "sourceType": "research-institute",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/conservation",
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "life-cycle-emissions-and-how-they-are-compared",
+     "section": "physics/energy",
+     "supports": "The five life-cycle stages, the g CO2e/kWh unit, the technologies covered, the use of quartile estimates, and the LCA Harmonization provenance."
+    },
+    {
+     "kind": "article",
+     "slug": "mineral-demand-and-conservation-trade-offs",
+     "section": "ecology/conservation",
+     "supports": "The upstream stage in which extraction enters the comparison between technologies."
+    },
+    {
+     "kind": "article",
+     "slug": "recycling-and-material-circularity",
+     "section": "physics/energy",
+     "supports": "The upstream stage in which recovered material substitutes for primary."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-osti-gov-1f5022a9",
    "title": "Advanced ultrasupercritical materials thick-walled cycling header development",
    "organization": "U.S. Department of Energy, Office of Fossil Energy and Carbon Management",
@@ -20369,6 +20460,28 @@
      "slug": "energy-systems-explained",
      "section": "physics/energy",
      "supports": "Classification of storage technologies by the form of the stored energy, and projected industrial storage growth."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-osti-gov-d8c5c14e",
+   "title": "Life cycle greenhouse gas emissions from electricity generation",
+   "organization": "OSTI (US Department of Energy)",
+   "url": "https://www.osti.gov/biblio/1338444",
+   "host": "osti.gov",
+   "sourceType": "research-institute",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/energy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "life-cycle-emissions-and-how-they-are-compared",
+     "section": "physics/energy",
+     "supports": "The purpose of the harmonisation project in reducing spread caused by methodological inconsistency."
     }
    ],
    "isLiveDataset": false,
@@ -26355,6 +26468,41 @@
      "slug": "urban-heat-islands-and-surface-energy-balance",
      "section": "ecology/ecosystems",
      "supports": "The tolerance thresholds the added degrees are measured against."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-cf9278b0",
+   "title": "Confronting the challenges in lithium anodes for lithium metal batteries",
+   "organization": "Advanced Science (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8425877/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/energy",
+    "physics/matter-radiation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "battery-energy-density-and-its-limits",
+     "section": "physics/energy",
+     "supports": "The 299 Wh kg⁻¹ graphite-anode limit, lithium metal's 3862 mAh g⁻¹ and −3.04 V, the 440 to 618 Wh kg⁻¹ range, and the four failure modes."
+    },
+    {
+     "kind": "article",
+     "slug": "critical-minerals-and-supply-concentration",
+     "section": "physics/energy",
+     "supports": "The material demands of the battery chemistries these minerals serve."
+    },
+    {
+     "kind": "article",
+     "slug": "materials-for-magnets-and-why-substitution-is-hard",
+     "section": "physics/matter-radiation",
+     "supports": "The contrasting case, where chemistry offers several workable trades."
     }
    ],
    "isLiveDataset": false,
@@ -34857,6 +35005,54 @@
      "slug": "river-ecology-and-flow-regimes",
      "section": "ecology/freshwater",
      "supports": "The five properties of streamflow: magnitude, frequency, seasonal timing, duration and rate of change."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-usgs-gov-06ce7af0",
+   "title": "Mineral Commodity Summaries",
+   "organization": "USGS",
+   "url": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries",
+   "host": "usgs.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/conservation",
+    "physics/energy",
+    "physics/matter-radiation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "battery-energy-density-and-its-limits",
+     "section": "physics/energy",
+     "supports": "The commodity reporting behind supply assessments for those materials."
+    },
+    {
+     "kind": "article",
+     "slug": "critical-minerals-and-supply-concentration",
+     "section": "physics/energy",
+     "supports": "Annual publication covering over 90 minerals and materials with five-year statistics."
+    },
+    {
+     "kind": "article",
+     "slug": "materials-for-magnets-and-why-substitution-is-hard",
+     "section": "physics/matter-radiation",
+     "supports": "The annual commodity reporting covering over 90 minerals and materials."
+    },
+    {
+     "kind": "article",
+     "slug": "mineral-demand-and-conservation-trade-offs",
+     "section": "ecology/conservation",
+     "supports": "The annual commodity data on which supply assessments rest."
+    },
+    {
+     "kind": "article",
+     "slug": "recycling-and-material-circularity",
+     "section": "physics/energy",
+     "supports": "Annual commodity reporting against which secondary supply is measured."
     }
    ],
    "isLiveDataset": false,

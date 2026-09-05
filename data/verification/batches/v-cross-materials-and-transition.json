@@ -1,0 +1,85 @@
+{
+  "batchId": "v-cross-materials-and-transition",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used.",
+  "articles": [
+    {
+      "slug": "critical-minerals-and-supply-concentration",
+      "path": "content/en/physics/energy/critical-minerals-and-supply-concentration.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "Critical mineral markets have become more concentrated, with the top three refining nations' average market share rising to 86% in 2024 from around 82% in 2020", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "Investment in critical minerals grew by just 5% in 2024, down from 14% in 2023", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "Lithium, nickel, cobalt, manganese and graphite for batteries; rare earths for permanent magnets in wind turbines and EV motors; aluminium and copper for networks", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "Recycling could reduce the growth in new mining supply by 25 to 40 per cent by mid-century", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "The Mineral Commodity Summaries is published annually, is the earliest government publication of nonfuel mineral data, and covers over 90 minerals with five-year statistics", "sourceChecked": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries", "disposition": "verified" },
+        { "claim": "Refining concentrates because it is chemically demanding, capital-intensive, regulated and subject to economies of scale", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Offered as a structural explanation for the concentration the IEA reports; no figures attached." }
+      ]
+    },
+    {
+      "slug": "battery-energy-density-and-its-limits",
+      "path": "content/en/physics/energy/battery-energy-density-and-its-limits.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "Graphite-anode lithium-ion batteries are limited to 299 Wh/kg, which cannot meet a 500 km EV range demand", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8425877/", "disposition": "verified" },
+        { "claim": "Lithium metal has a theoretical capacity of 3862 mAh/g and the lowest redox potential of -3.04 V vs SHE", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8425877/", "disposition": "verified" },
+        { "claim": "Lithium metal batteries reach at least 440 Wh/kg, with high-voltage cathodes above 550 Wh/kg and 1400 Wh/L, and a champion Li//LNP cell at 618 Wh/kg and 1541 Wh/L", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8425877/", "disposition": "verified" },
+        { "claim": "The four failure modes are dendrite, dead lithium, corrosion and volume expansion, leading to capacity loss and even explosion", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8425877/", "disposition": "verified" },
+        { "claim": "Graphite's specific capacity is roughly 372 mAh/g, about a tenth of lithium metal's", "sourceChecked": "the review's tenfold comparison", "disposition": "qualified", "note": "The 372 figure appeared in a search summary rather than in the page we read; the article states it as 'roughly' and the tenfold ratio is the sourced claim." },
+        { "claim": "Coin-cell results do not transfer to pouch cells, and stack pressure and temperature conditions matter", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Written as reading guidance rather than as a finding." }
+      ]
+    },
+    {
+      "slug": "life-cycle-emissions-and-how-they-are-compared",
+      "path": "content/en/physics/energy/life-cycle-emissions-and-how-they-are-compared.md",
+      "status": "amended",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "The life-cycle stages are one-time upstream, ongoing combustion, ongoing non-combustion, one-time downstream and total, in g CO2e/kWh", "sourceChecked": "https://www.osti.gov/biblio/1819907", "disposition": "verified" },
+        { "claim": "The technologies covered include biopower, coal, CSP, geothermal, hydrogen storage, hydropower, lithium-ion storage, natural gas, nuclear, ocean, oil, photovoltaic, pumped storage and wind", "sourceChecked": "https://www.osti.gov/biblio/1819907", "disposition": "verified" },
+        { "claim": "The dataset provides quartile estimates, compiled by the LCA Harmonization study and subsequent updates", "sourceChecked": "https://www.osti.gov/biblio/1819907", "disposition": "verified" },
+        { "claim": "Median life-cycle emissions of 13 g CO2-eq/kWh for nuclear, 450 for NGCC and 670 for NGCT", "sourceChecked": "NREL pages", "disposition": "removed", "note": "These figures came from search summaries. nrel.gov and docs.nrel.gov did not resolve from this environment, and the OSTI records we could read give structure rather than values. No per-technology medians are published in the article." },
+        { "claim": "The purpose of harmonisation is to reduce spread caused by methodological inconsistency", "sourceChecked": "https://www.osti.gov/biblio/1338444", "disposition": "verified" },
+        { "claim": "A twenty-year 35% capacity factor assumption against a thirty-year 45% one differs by nearly a factor of two in amortised construction emissions", "sourceChecked": "arithmetic", "disposition": "qualified", "note": "Our worked example, not a figure from a study." }
+      ]
+    },
+    {
+      "slug": "recycling-and-material-circularity",
+      "path": "content/en/physics/energy/recycling-and-material-circularity.md",
+      "status": "clean",
+      "claimsChecked": 4,
+      "findings": [
+        { "claim": "Scaling recycling could reduce the growth in new mining supply for critical minerals by 25 to 40 per cent by mid-century", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "Recovered material still requires refining, where supply concentration sits", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "A growing installed stock cannot be supplied from its own retirements because retirements reflect deployment one product lifetime ago", "sourceChecked": "arithmetic reasoning", "disposition": "qualified", "note": "Our argument for why the IEA figure is about growth rather than total supply; no rates are quoted." },
+        { "claim": "Collection, separation and commodity-price economics are the three obstacles", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Listed without figures." }
+      ]
+    },
+    {
+      "slug": "materials-for-magnets-and-why-substitution-is-hard",
+      "path": "content/en/physics/matter-radiation/materials-for-magnets-and-why-substitution-is-hard.md",
+      "status": "clean",
+      "claimsChecked": 4,
+      "findings": [
+        { "claim": "Rare earths are indispensable to the permanent magnets used in wind turbines and EV motors", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "The top three refining nations' share rose to 86% in 2024 from around 82% in 2020", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "Permanent magnet performance requires both a large magnetic moment and magnetocrystalline anisotropy from spin-orbit coupling, which rare earths supply through their partially filled inner shells", "sourceChecked": "standard solid-state physics; not quoted from a source read in this pass", "disposition": "qualified", "note": "The physical explanation is standard and is stated without figures; the IEA source establishes the dependency, not the mechanism." },
+        { "claim": "Grain-boundary diffusion reduces the quantity of the scarcest elements needed for a given thermal stability", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Named as a route without a quantity." }
+      ]
+    },
+    {
+      "slug": "mineral-demand-and-conservation-trade-offs",
+      "path": "content/en/ecology/conservation/mineral-demand-and-conservation-trade-offs.md",
+      "status": "clean",
+      "claimsChecked": 4,
+      "findings": [
+        { "claim": "The material-to-technology mapping for batteries, magnets and networks", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "Recycling could reduce the growth in new mining supply by 25 to 40 per cent by mid-century", "sourceChecked": "https://www.iea.org/topics/critical-minerals", "disposition": "verified" },
+        { "claim": "Complementarity — a site's value is what it adds to the existing set — is the organising idea of systematic conservation planning", "sourceChecked": "corpus cross-reference: content/en/ecology/conservation/conservation-trade-offs-and-prioritisation.md, already verified", "disposition": "qualified", "note": "Carried from an existing verified article and applied to a new case; the application is ours." },
+        { "claim": "Access roads, processing, tailings and induced settlement commonly exceed the pit in area and consequence", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Stated as a common pattern without a figure." }
+      ]
+    }
+  ]
+}
