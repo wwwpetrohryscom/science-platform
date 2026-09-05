@@ -20,7 +20,7 @@ pillar: quantum-mechanics-fundamentals
 _bodyHash: 285f8a8
 ---
 
-Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays are not different physical phenomena. They are the same phenomenon — propagating electromagnetic waves, equivalently described as photons, in the sense [quantum mechanics gives to that equivalence](/en/physics/quantum-basics/quantum-mechanics-fundamentals) — at different wavelengths. The differences in how each interacts with matter, and therefore how each is used in science and technology, follow from the wavelength alone.
+Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays are not different physical phenomena. They are the same phenomenon — propagating electromagnetic waves, equivalently described as photons, in the sense [quantum mechanics gives to that equivalence](/en/physics/quantum-basics/quantum-mechanics-fundamentals) — at different wavelengths. The differences in how each interacts with matter, and therefore how each is used in science and technology, [follow from the wavelength alone](/en/physics/quantum-basics/why-wavelength-decides-what-radiation-does).
 
 This article is the conceptual map. Reference reading from [NASA Science](https://science.nasa.gov/) and [NIST](https://www.nist.gov/) covers each band in much more detail.
 

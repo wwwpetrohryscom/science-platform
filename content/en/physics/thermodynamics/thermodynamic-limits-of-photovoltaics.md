@@ -27,7 +27,7 @@ The Shockley-Queisser limit is a thermodynamic argument, not an engineering one.
 
 It arises from three irreducible loss mechanisms.
 
-**Photons below the bandgap pass through.** A solar cell's bandgap defines the minimum photon energy that can excite an electron across it. Photons with less energy are not absorbed — they pass through, contributing nothing. For a typical silicon bandgap (1.1 eV), this discards a large fraction of the long-wavelength solar spectrum.
+**Photons below the bandgap pass through.** A solar cell's bandgap defines the minimum [photon energy](/en/physics/quantum-basics/why-wavelength-decides-what-radiation-does) that can excite an electron across it. Photons with less energy are not absorbed — they pass through, contributing nothing. For a typical silicon bandgap (1.1 eV), this discards a large fraction of the long-wavelength solar spectrum.
 
 **Photons above the bandgap thermalize.** Photons with more than enough energy excite electrons high into the conduction band, but those electrons rapidly relax to the band edge — losing the excess as heat, on a timescale much shorter than they can be extracted as electrical work. Whether the photon carried 2 eV or 4 eV, you get one electron's worth of bandgap energy out.
 

@@ -5083,9 +5083,18 @@
    "sourceType": "government",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "physics/matter-radiation"
+    "biology/cells",
+    "biology/genetics",
+    "physics/matter-radiation",
+    "physics/quantum-basics"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "dna-damage-and-repair-after-radiation",
+     "section": "biology/genetics",
+     "supports": "The acute-syndrome threshold, the 100 mSv statement, and the linear no-threshold assumption."
+    },
     {
      "kind": "article",
      "slug": "ionising-radiation-exposure-and-risk",
@@ -5097,6 +5106,18 @@
      "slug": "radioactivity-and-radiation-units",
      "section": "physics/matter-radiation",
      "supports": "The absorbed-dose threshold quoted for acute radiation syndrome."
+    },
+    {
+     "kind": "article",
+     "slug": "ultraviolet-damage-and-photoprotection",
+     "section": "biology/cells",
+     "supports": "The dose framework within which biological damage from radiation is assessed."
+    },
+    {
+     "kind": "article",
+     "slug": "why-wavelength-decides-what-radiation-does",
+     "section": "physics/quantum-basics",
+     "supports": "The regulatory framing of the ionising regime and its dose thresholds."
     }
    ],
    "isLiveDataset": false,
@@ -19034,6 +19055,12 @@
     },
     {
      "kind": "article",
+     "slug": "light-in-the-ocean-and-the-photic-zones",
+     "section": "ecology/oceans",
+     "supports": "The density structure that overlaps the lit layer and controls exchange across it."
+    },
+    {
+     "kind": "article",
      "slug": "stratification-mixing-and-nutrient-supply",
      "section": "ecology/oceans",
      "supports": "The transition layer, the sharp temperature gradient, and the regional and seasonal variation."
@@ -19310,16 +19337,30 @@
   {
    "evidenceId": "ev-oceanservice-noaa-gov-b19a5a17",
    "title": "How far does light travel in the ocean?",
-   "organization": "NOAA National Ocean Service",
+   "organization": "NOAA Ocean Service",
    "url": "https://oceanservice.noaa.gov/facts/light_travel.html",
    "host": "oceanservice.noaa.gov",
    "sourceType": "government",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "biology/cells",
+    "ecology/oceans",
     "glossary",
     "physics/mechanics-waves"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "light-harvesting-and-photosystem-efficiency",
+     "section": "biology/cells",
+     "supports": "The light field the aquatic version of this machinery operates in."
+    },
+    {
+     "kind": "article",
+     "slug": "light-in-the-ocean-and-the-photic-zones",
+     "section": "ecology/oceans",
+     "supports": "The 200 m and 1,000 m thresholds and the euphotic, dysphotic and aphotic zones with their subdivisions."
+    },
     {
      "kind": "article",
      "slug": "optics-and-light-explained",
@@ -21607,6 +21648,35 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-201da798",
+   "title": "DNA double strand break repair pathways in response to different types of ionizing radiation",
+   "organization": "Frontiers in Genetics (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8514742/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells",
+    "biology/genetics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "dna-damage-and-repair-after-radiation",
+     "section": "biology/genetics",
+     "supports": "Isolated versus clustered damage, NHEJ as the first major pathway after X-rays, HR's template dependence and cell-cycle restriction, and 53BP1's role in G1."
+    },
+    {
+     "kind": "article",
+     "slug": "ultraviolet-damage-and-photoprotection",
+     "section": "biology/cells",
+     "supports": "The contrasting lesion type and repair route for ionising radiation."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-202c37cc",
    "title": "Selective bird predation on the peppered moth: the last experiment of Michael Majerus",
    "organization": "Biology Letters",
@@ -23004,6 +23074,49 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-543ec72d",
+   "title": "Light-harvesting in photosystem I",
+   "organization": "Photosynthesis Research (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825136/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells",
+    "ecology/earth-observation",
+    "ecology/oceans",
+    "physics/quantum-basics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "fluorescence-as-a-measure-of-photosynthesis",
+     "section": "ecology/earth-observation",
+     "supports": "Why fluorescence is a small remainder and why it competes with photochemistry."
+    },
+    {
+     "kind": "article",
+     "slug": "light-harvesting-and-photosystem-efficiency",
+     "section": "biology/cells",
+     "supports": "The near-100% internal quantum efficiency, the 173 chlorophylls of PSI-LHCI, and the ~50 ps trapping time."
+    },
+    {
+     "kind": "article",
+     "slug": "light-in-the-ocean-and-the-photic-zones",
+     "section": "ecology/oceans",
+     "supports": "The absorption properties of the machinery operating in that light field."
+    },
+    {
+     "kind": "article",
+     "slug": "why-wavelength-decides-what-radiation-does",
+     "section": "physics/quantum-basics",
+     "supports": "The near-100% internal quantum efficiency of the visible-light machinery."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-5490a9f1",
    "title": "GUIDE-Seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases",
    "organization": "Nature Biotechnology (author manuscript, PubMed Central)",
@@ -23244,6 +23357,35 @@
      "slug": "the-immune-system-explained",
      "section": "biology/physiology",
      "supports": "Lower-bound repertoire richness in young adults and how richness and clonality change with age."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-58792f39",
+   "title": "Global retrievals of solar induced chlorophyll fluorescence with TROPOMI: first results and inter-sensor comparison to OCO-2",
+   "organization": "Geophysical Research Letters (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7580822/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells",
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "fluorescence-as-a-measure-of-photosynthesis",
+     "section": "ecology/earth-observation",
+     "supports": "The spectral requirement, the 7 km × 3.5 km daily resolution, the OCO-2 agreement, and the viewing-geometry caveat."
+    },
+    {
+     "kind": "article",
+     "slug": "light-harvesting-and-photosystem-efficiency",
+     "section": "biology/cells",
+     "supports": "Fluorescence as the observable remainder of the same process."
     }
    ],
    "isLiveDataset": false,
@@ -23560,6 +23702,42 @@
      "slug": "speciation-mechanisms",
      "section": "biology/evolution",
      "supports": "A documented sympatric case and the rarity of accepted examples in animals."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-69d83e2c",
+   "title": "Molecular regulation of UV-induced DNA repair",
+   "organization": "Photochemistry and Photobiology (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/cells",
+    "biology/genetics",
+    "physics/quantum-basics"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "dna-damage-and-repair-after-radiation",
+     "section": "biology/genetics",
+     "supports": "The contrasting excision pathway for lesions that distort rather than break."
+    },
+    {
+     "kind": "article",
+     "slug": "ultraviolet-damage-and-photoprotection",
+     "section": "biology/cells",
+     "supports": "The UVA/UVB/UVC bands and their proportions, the CPD and 6-4PP lesions, the nucleotide excision repair steps, and the absence of photolyases in humans."
+    },
+    {
+     "kind": "article",
+     "slug": "why-wavelength-decides-what-radiation-does",
+     "section": "physics/quantum-basics",
+     "supports": "The UVA, UVB and UVC bands and the 5%/95% split between damage and intensity."
     }
    ],
    "isLiveDataset": false,
@@ -34829,6 +35007,12 @@
      "slug": "calibration-and-traceability",
      "section": "physics/mechanics-waves",
      "supports": "Traceability of data quality provenance through a reprocessed archive."
+    },
+    {
+     "kind": "article",
+     "slug": "fluorescence-as-a-measure-of-photosynthesis",
+     "section": "ecology/earth-observation",
+     "supports": "The calibration practice that underpins any claim of inter-sensor agreement."
     },
     {
      "kind": "article",

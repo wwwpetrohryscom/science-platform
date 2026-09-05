@@ -5,7 +5,7 @@ excerpt: What separates copper from quartz is not how many electrons a material 
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - materials-physics
@@ -47,7 +47,7 @@ Almost everything else is a consequence. Forward-bias the junction and injected 
 
 A larger gap means a device that tolerates higher temperature and higher voltage before thermal carriers swamp the controlled ones, which is why silicon carbide and gallium nitride displaced silicon in high-power switching. It also means more energy per carrier is required to do anything, and different fabrication chemistry.
 
-For light emission and absorption the gap sets the wavelength directly, so the material is chosen by the photon energy wanted rather than by any general notion of quality. And whether the gap is **direct** or **indirect** — whether the lowest empty state sits at the same crystal momentum as the highest occupied one — decides whether a photon alone can bridge it or whether a lattice vibration has to participate too. Silicon's gap is indirect, which is why silicon is an excellent transistor material and a poor light emitter, and why the light-emitting devices in a silicon-based system are almost always made of something else.
+For light emission and absorption the gap sets the wavelength directly, so the material is chosen by the [photon energy](/en/physics/quantum-basics/why-wavelength-decides-what-radiation-does) wanted rather than by any general notion of quality. And whether the gap is **direct** or **indirect** — whether the lowest empty state sits at the same crystal momentum as the highest occupied one — decides whether a photon alone can bridge it or whether a lattice vibration has to participate too. Silicon's gap is indirect, which is why silicon is an excellent transistor material and a poor light emitter, and why the light-emitting devices in a silicon-based system are almost always made of something else.
 
 There is no best semiconductor. There is a gap value, a directness, a carrier mobility, a thermal conductivity and a manufacturing base, and every real device picks a point in that space.
 
