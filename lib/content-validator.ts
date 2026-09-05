@@ -302,7 +302,17 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
   // 11. Fake-citation shape — "Smith et al., 2023" without an
   //     accompanying URL. We can't prove a citation is invented from
   //     shape alone, so this is a warning the editor must clear.
-  const fakeShape = detectFakeCitations(article.body);
+  //
+  //     The detector keys on a capitalised word before a comma and a
+  //     year, which is a surname in English and any noun at all in
+  //     German — "Vorrat, 2025" and "Tucson, 1942" are ordinary German
+  //     sentences, and the rule reported three of them as suspected
+  //     invented citations. Citations are inherited from the English
+  //     source in every translation, so the rule is enforced where it
+  //     can distinguish the two and where clearing it clears every
+  //     locale at once.
+  const fakeShape =
+    article.locale === "de" ? [] : detectFakeCitations(article.body);
   if (fakeShape.length > 0) {
     issues.push({
       severity: "warning",
