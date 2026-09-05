@@ -136,9 +136,9 @@ function sentences(text: string): string[] {
  * digits. The old pattern allowed any run of separators, so "2. 58.3"
  * at the head of an ordered-list item read as one number in English
  * and two in Portuguese, and reported a difference that was purely an
- * artefact of the list marker.
+ * artefact of the list marker. A grouped number also has to start with one to three digits, or "release 236 of July 2026 182,465 organisms" reads as a single twelve-digit quantity.
  */
-const NUMBER = /\d+(?:[.,    ]\d{3})*(?:[.,]\d+)?/g;
+const NUMBER = /\d{1,3}(?:[.,    ]\d{3})+(?:[.,]\d+)?|\d+(?:[.,]\d+)?/g;
 /** "2018-19" is the same span as "2018-2019". */
 const YEAR_SPAN = /\b(\d{2})(\d{2})[-–](\d{2})\b(?!\d)/g;
 /** "19th century" in English is "XIXe siècle" / "XIX век" elsewhere. */
