@@ -19,7 +19,7 @@ import { getCategory } from "@/lib/categories";
 import { hasLocalizedGlossaryTerm } from "@/lib/glossary";
 import { extractCitationUrls } from "@/lib/sources";
 import { evidenceProfile } from "@/lib/evidence/index";
-import { entitiesForArticle } from "@/lib/entities/index";
+import { entitiesForArticle, entityName } from "@/lib/entities/index";
 import { getReview } from "@/lib/verification";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
@@ -331,11 +331,11 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                           }
                           className="inline-block rounded-full border border-ink-line px-3 py-1 text-sm text-ink-muted hover:border-primary-300 hover:text-primary-700"
                         >
-                          {c.canonicalName}
+                          {entityName(c, article.locale)}
                         </Link>
                       ) : (
                         <span className="inline-block rounded-full border border-ink-line px-3 py-1 text-sm text-ink-muted">
-                          {c.canonicalName}
+                          {entityName(c, article.locale)}
                         </span>
                       )}
                     </li>

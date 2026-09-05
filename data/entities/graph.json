@@ -1,5 +1,5 @@
 {
- "generatedDate": "2026-09-03",
+ "generatedDate": "2026-09-05",
  "entities": [
   {
    "id": "air-quality",
@@ -281,6 +281,7 @@
     "nitrogen-cycle",
     "water-cycle"
    ],
+   "glossaryId": "biogeochemical-cycle",
    "childEntities": [
     "carbon-cycle",
     "nitrogen-cycle",
@@ -893,6 +894,7 @@
     "measurement-uncertainty",
     "fluid-dynamics"
    ],
+   "glossaryId": "climate-model",
    "childEntities": [],
    "relatedArticles": [
     "attribution-science-and-its-uses",
@@ -1218,6 +1220,7 @@
    "relatedEntities": [
     "climate-feedback"
    ],
+   "glossaryId": "cryosphere",
    "childEntities": [],
    "relatedArticles": [
     "boreal-forests-and-permafrost-interactions",
@@ -3477,6 +3480,7 @@
    "relatedEntities": [
     "scientific-method"
    ],
+   "glossaryId": "measurement-uncertainty",
    "childEntities": [],
    "relatedArticles": [
     "attribution-science-and-its-uses",
@@ -3742,6 +3746,7 @@
     "microorganism",
     "soil"
    ],
+   "glossaryId": "microbiome",
    "childEntities": [],
    "relatedArticles": [
     "coral-microbiome-bleaching-resistance",
