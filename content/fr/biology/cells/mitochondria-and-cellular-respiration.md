@@ -17,6 +17,7 @@ related:
   - photosynthesis-explained
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
+_bodyHash: 4d20c465
 ---
 
 Le glucose n'est pas l'essentiel. Ce qu'une cellule qui respire extrait du glucose, c'est une réserve d'électrons portés à haute énergie, et ce qu'elle en fait, c'est les laisser tomber — par étapes contrôlées, le long d'une différence de potentiel de 1.14 volt, jusqu'à l'oxygène. Tout le reste du processus n'est que comptabilité autour de cette chute : les voies qui arrachent les électrons au carbone, la membrane qui convertit leur descente en gradient de protons, et le moteur rotatif qui convertit ce gradient en ATP. Cadrées ainsi, plusieurs choses qui paraissent arbitraires sur un schéma de voie métabolique deviennent nécessaires, et un chiffre très familier se révèle être une estimation plutôt qu'une stœchiométrie. L'autoentretien est la première des trois choses [que toute structure doit faire pour compter comme une cellule](/fr/biology/cells/what-is-a-cell) ; c'est le processus qui la finance.

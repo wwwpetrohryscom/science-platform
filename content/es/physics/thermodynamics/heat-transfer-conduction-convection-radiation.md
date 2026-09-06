@@ -19,7 +19,7 @@ related:
   - earth-energy-budget-and-the-second-law
   - solar-radiation-and-earth-energy-balance
 pillar: laws-of-thermodynamics-explained
-_bodyHash: f8666b1a
+_bodyHash: 44b2cb88
 ---
 
 Tomemos una superficie a 500 K en un entorno a 300 K y elevémosla luego a 1,500 K. La diferencia de temperatura que impulsa la conducción y la convección se multiplica por seis. El flujo radiativo neto se multiplica por un factor de unos 93, de aproximadamente 3.1 kW m⁻² a 287 kW m⁻². Nada ha cambiado en los materiales; han cambiado los exponentes. La conducción y la convección están impulsadas por una *diferencia* de temperatura, y la radiación por la diferencia de cuartas potencias de la temperatura *absoluta*; ese desajuste explica por qué la vía de pérdida dominante es distinta en un criostato, en el muro de una casa y en la carcasa de una turbina.
@@ -40,7 +40,7 @@ La expresión de la convección — el flujo es igual a h por la diferencia de t
 
 Como h no puede deducirse de primeros principios para geometrías realistas, se obtiene de correlaciones entre grupos adimensionales: el número de Nusselt a partir de los de Reynolds y Prandtl en flujo forzado, y a partir del de Rayleigh en convección libre. Esas correlaciones son ajustes a experimentos concretos en rangos concretos, y su exactitud es cuestión de decenas de por ciento antes que de por ciento. El margen de diseño en el dimensionado de intercambiadores de calor existe en buena medida por esto, y el modo de fallo consiste en usar una correlación fuera de la geometría o del régimen de flujo para el que fue ajustada.
 
-La convección explica también casi todo lo que hace un aislante. Los aislantes fibrosos y las espumas funcionan sobre todo inmovilizando aire en poros lo bastante pequeños como para suprimir la circulación, no porque la matriz sólida conduzca mal; la cámara de gas sellada de una ventana se dimensiona lo bastante estrecha como para que el flujo impulsado por la flotabilidad no llegue a arrancar. Ensanche la cámara y la pérdida aumenta, aunque ahora haya más gas separando los vidrios.
+La convección explica también la mayor parte de lo que hace un aislante. Los aislantes fibrosos y las espumas funcionan sobre todo inmovilizando aire en poros lo bastante pequeños como para suprimir la circulación, no porque la matriz sólida conduzca mal; la cámara de gas sellada de una ventana se dimensiona lo bastante estrecha como para que el flujo impulsado por la flotabilidad no llegue a arrancar. Ensanche la cámara y la pérdida aumenta, aunque ahora haya más gas separando los vidrios.
 
 ## Radiación: la cuarta potencia cambia la aritmética
 

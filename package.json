@@ -16,6 +16,7 @@
     "content:report": "tsx scripts/content-report.ts",
     "content:localization": "tsx scripts/localization-report.ts",
     "content:depth": "tsx scripts/localization-depth.ts",
+    "gates": "bash scripts/gates.sh",
     "content:originality": "tsx scripts/originality-audit.ts",
     "editorial:validate": "tsx scripts/editorial-validate.ts",
     "content:translations": "tsx scripts/validate-translations.ts",

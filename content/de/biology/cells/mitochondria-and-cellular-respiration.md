@@ -17,6 +17,7 @@ related:
   - photosynthesis-explained
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
+_bodyHash: 14f4c075
 ---
 
 Auf die Glucose kommt es nicht an. Was eine atmende Zelle aus Glucose gewinnt, ist ein Vorrat an Elektronen auf hohem Energieniveau, und was sie mit ihnen tut, ist, sie fallen zu lassen — in kontrollierten Schritten, über eine Potentialdifferenz von 1.14 Volt, bis zum Sauerstoff. Alles Übrige an diesem Vorgang ist Buchführung um diesen Fall herum: die Stoffwechselwege, die dem Kohlenstoff die Elektronen entreißen, die Membran, die ihren Abstieg in einen Protonengradienten übersetzt, und der Rotationsmotor, der den Gradienten in ATP übersetzt. So gefasst, wird mehreres, was in einem Stoffwechselschema willkürlich wirkt, notwendig, und eine sehr vertraute Zahl erweist sich als Schätzung und nicht als Stöchiometrie. Selbsterhaltung ist das erste der drei Dinge, [die eine Struktur leisten muss, um als Zelle zu gelten](/de/biology/cells/what-is-a-cell); dieser Vorgang bezahlt sie.

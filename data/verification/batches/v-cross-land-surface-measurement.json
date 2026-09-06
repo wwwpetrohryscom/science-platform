@@ -1,6 +1,7 @@
 {
   "batchId": "v-cross-land-surface-measurement",
   "reviewedDate": "2026-09-06",
+  "verificationMethod": "same-pass",
   "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used. Four claims were corrected in that second pass and are recorded below as corrected.",
   "articles": [
     {

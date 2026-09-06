@@ -19,7 +19,7 @@ related:
   - earth-energy-budget-and-the-second-law
   - solar-radiation-and-earth-energy-balance
 pillar: laws-of-thermodynamics-explained
-_bodyHash: 76bae86f
+_bodyHash: f7fab427
 ---
 
 Tome-se uma superfície a 500 K num ambiente a 300 K e eleve-se depois a 1,500 K. A diferença de temperatura que impulsiona a condução e a convecção cresce seis vezes. O fluxo radiativo líquido cresce por um fator de cerca de 93, de aproximadamente 3.1 kW m⁻² para 287 kW m⁻². Nada mudou nos materiais; mudaram os expoentes. A condução e a convecção são impulsionadas por uma *diferença* de temperatura, a radiação pela diferença das quartas potências da temperatura *absoluta*, e é esse desencontro que faz com que a via de perda dominante seja outra em cada caso: num criostato, na parede de uma casa e no invólucro de uma turbina.
@@ -40,7 +40,7 @@ A expressão da convecção — o fluxo é igual a h vezes a diferença de tempe
 
 Como h não pode ser deduzido de primeiros princípios para geometrias realistas, obtém-se a partir de correlações entre grupos adimensionais: o número de Nusselt a partir dos de Reynolds e de Prandtl em escoamento forçado, e a partir do de Rayleigh em convecção livre. Essas correlações são ajustes a experiências particulares em gamas particulares, e a sua exatidão é uma questão de dezenas de por cento e não de por cento. A margem de projeto no dimensionamento de permutadores de calor existe em grande parte por causa disto, e o modo de falha consiste em usar uma correlação fora da geometria ou do regime de escoamento para que foi ajustada.
 
-A convecção explica também quase tudo o que um isolamento faz. Os isolamentos fibrosos e as espumas atuam sobretudo por imobilizarem ar em poros suficientemente pequenos para suprimir a circulação, e não porque a matriz sólida conduza mal; a lâmina de gás selada de uma janela é dimensionada suficientemente fina para que o escoamento por impulsão não chegue a arrancar. Alargue-se a lâmina e a perda aumenta, mesmo havendo agora mais gás a separar os vidros.
+A convecção explica também a maior parte do que um isolamento faz. Os isolamentos fibrosos e as espumas atuam sobretudo por imobilizarem ar em poros suficientemente pequenos para suprimir a circulação, e não porque a matriz sólida conduza mal; a lâmina de gás selada de uma janela é dimensionada suficientemente fina para que o escoamento por impulsão não chegue a arrancar. Alargue-se a lâmina e a perda aumenta, mesmo havendo agora mais gás a separar os vidros.
 
 ## Radiação: a quarta potência muda a aritmética
 

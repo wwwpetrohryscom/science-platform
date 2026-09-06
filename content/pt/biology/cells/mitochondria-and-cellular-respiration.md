@@ -17,6 +17,7 @@ related:
   - photosynthesis-explained
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
+_bodyHash: 8258ec25
 ---
 
 A glicose não é o essencial. O que uma célula que respira extrai da glicose é um fornecimento de eletrões mantidos a alta energia, e o que faz com eles é deixá-los cair — por passos controlados, ao longo de uma diferença de potencial de 1.14 volts, até ao oxigénio. Tudo o resto do processo é contabilidade em torno dessa queda: as vias que arrancam os eletrões ao carbono, a membrana que converte a sua descida num gradiente de protões e o motor rotativo que converte o gradiente em ATP. Enquadradas assim, várias coisas que parecem arbitrárias num diagrama de vias tornam-se necessárias, e um número muito familiar revela-se uma estimativa e não uma estequiometria. A automanutenção é a primeira das três coisas [que qualquer estrutura tem de fazer para contar como célula](/pt/biology/cells/what-is-a-cell); este é o processo que a paga.
