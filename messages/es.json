@@ -272,6 +272,15 @@
     "also_in_english": "Este término también está definido en inglés.",
     "english_article": "en inglés"
   },
+  "policy": {
+    "last_revised": "Última revisión: {date}",
+    "related_pages": "Otras páginas editoriales",
+    "registry_heading": "Cobertura del registro",
+    "registry_intro": "Estos recuentos se leen del registro en uso, de modo que las cifras de esta página no pueden separarse de aquello contra lo que el validador comprueba realmente.",
+    "registry_area": "Área temática",
+    "registry_sources": "Fuentes registradas",
+    "registry_orgs": "Organizaciones distintas"
+  },
   "newsletter": {
     "eyebrow": "Newsletter",
     "title": "Una pieza cuidadosa por semana.",

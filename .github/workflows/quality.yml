@@ -44,6 +44,13 @@ jobs:
       - name: Content rules
         run: npm run content:validate
 
+      # The three editorial policy documents, in every language they
+      # are advertised in. A policy page half in the reader's language
+      # would undercut the claim the page is making, so a partial
+      # translation is an error rather than a page.
+      - name: Editorial policy translations
+        run: npm run editorial:validate
+
       # Reused prose. content:validate refuses two near-identical
       # bodies; this refuses a single sentence that was written once
       # and pasted twice, which the whole-body ratio cannot see.

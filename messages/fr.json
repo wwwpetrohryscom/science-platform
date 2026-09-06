@@ -272,6 +272,15 @@
     "also_in_english": "Ce terme est également défini en anglais.",
     "english_article": "en anglais"
   },
+  "policy": {
+    "last_revised": "Dernière révision : {date}",
+    "related_pages": "Autres pages éditoriales",
+    "registry_heading": "Couverture du registre",
+    "registry_intro": "Ces effectifs sont lus dans le registre en service, de sorte que les nombres affichés sur cette page ne peuvent pas s'écarter de ce que le validateur contrôle réellement.",
+    "registry_area": "Domaine",
+    "registry_sources": "Sources enregistrées",
+    "registry_orgs": "Organisations distinctes"
+  },
   "newsletter": {
     "eyebrow": "Newsletter",
     "title": "Un article rigoureux par semaine.",

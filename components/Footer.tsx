@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { siteConfig } from "@/lib/seo";
 import { listGlossarySlugs } from "@/lib/glossary";
+import { policyLocales, type PolicyDocument } from "@/lib/editorial";
 import {
   getMessages,
   localizedPath,
@@ -13,6 +14,18 @@ import {
 type FooterProps = {
   locale: Locale;
 };
+
+/**
+ * Link to a policy document in the reader's language when it exists
+ * there, and to the English original when it does not. `policyLocales`
+ * is the same list the route builds its static params from, so the
+ * footer cannot offer a link the route will 404 on.
+ */
+function policyHref(slug: PolicyDocument["slug"], locale: Locale): string {
+  return policyLocales(slug).includes(locale)
+    ? localizedPath(locale, `/${slug}`)
+    : `/en/${slug}`;
+}
 
 export function Footer({ locale }: FooterProps) {
   const t = translator(getMessages(locale));
@@ -51,14 +64,19 @@ export function Footer({ locale }: FooterProps) {
     {
       heading: t("footer.about_heading"),
       links: [
-        // Editorial pages are English-only (see lib/editorial.ts), so these
-        // are absolute /en/ paths rather than locale-prefixed: pointing a
-        // localized nav item at a route that 404s in that locale is worse
-        // than sending the reader to the English original.
-        { href: "/en/editorial-standards", label: t("footer.editorial_standards") },
-        { href: "/en/sourcing-policy", label: t("footer.sourcing_policy") },
+        // The three policy documents are translated in full or not at
+        // all, so each link goes to the reader's own locale where the
+        // document exists there and falls back to /en/ where it does
+        // not — pointing a localized nav item at a route that 404s in
+        // that locale is worse than sending the reader to the English
+        // original. The desk index is still English-only.
+        {
+          href: policyHref("editorial-standards", locale),
+          label: t("footer.editorial_standards"),
+        },
+        { href: policyHref("sourcing-policy", locale), label: t("footer.sourcing_policy") },
         { href: "/en/editorial", label: t("footer.editorial_desks") },
-        { href: "/en/corrections", label: t("footer.corrections") },
+        { href: policyHref("corrections", locale), label: t("footer.corrections") },
         { href: localizedPath(locale, "/privacy-policy"), label: t("footer.privacy_policy") },
         { href: localizedPath(locale, "/cookie-policy"), label: t("footer.cookie_policy") },
         { href: localizedPath(locale, "/terms-of-use"), label: t("footer.terms_of_use") },

@@ -48,6 +48,9 @@ type Issue = {
   filepath: string;
 };
 import { hasLocalizedGlossaryTerm } from "../lib/glossary";
+import { policyLocales, type PolicyDocument } from "../lib/editorial";
+
+type PolicySlug = PolicyDocument["slug"];
 
 const IDENTITY_FIELDS = [
   "type",
@@ -700,6 +703,19 @@ export function checkTranslation(
           "error",
           "translation-link-glossary-locale",
           `internal link ${l} points at the English glossary page for "${g[1]}", but ${locale} has its own page for that term at /${locale}/glossary/${g[1]}`,
+        );
+      }
+      // The same, for the three editorial policy documents. They were
+      // English-only when this exemption was written and are now
+      // translated in full; an /en/ link to one from a translated
+      // article sends the reader out of their language to a page that
+      // exists in it.
+      const pol = /^\/en\/(sourcing-policy|editorial-standards|corrections)$/.exec(l);
+      if (pol && policyLocales(pol[1] as PolicySlug).includes(locale as Locale)) {
+        add(
+          "error",
+          "translation-link-policy-locale",
+          `internal link ${l} points at the English "${pol[1]}" page, but ${locale} has its own at /${locale}/${pol[1]}`,
         );
       }
     }

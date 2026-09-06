@@ -262,6 +262,15 @@
     "also_in_english": "This term is also defined in English.",
     "english_article": "in English"
   },
+  "policy": {
+    "last_revised": "Last revised {date}",
+    "related_pages": "Related editorial pages",
+    "registry_heading": "Registry coverage",
+    "registry_intro": "These counts are read from the live registry, so the numbers on this page cannot drift away from what the validator actually checks against.",
+    "registry_area": "Subject area",
+    "registry_sources": "Registered sources",
+    "registry_orgs": "Distinct organizations"
+  },
   "newsletter": {
     "eyebrow": "Newsletter",
     "title": "One careful piece a week.",

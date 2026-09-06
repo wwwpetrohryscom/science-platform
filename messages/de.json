@@ -272,6 +272,15 @@
     "also_in_english": "Dieser Begriff ist auch auf Englisch definiert.",
     "english_article": "auf Englisch"
   },
+  "policy": {
+    "last_revised": "Zuletzt überarbeitet: {date}",
+    "related_pages": "Weitere redaktionelle Seiten",
+    "registry_heading": "Abdeckung des Registers",
+    "registry_intro": "Diese Zahlen werden aus dem laufenden Register gelesen, sodass die Angaben auf dieser Seite nicht von dem abweichen können, wogegen die Prüfung tatsächlich abgleicht.",
+    "registry_area": "Sachgebiet",
+    "registry_sources": "Registrierte Quellen",
+    "registry_orgs": "Verschiedene Organisationen"
+  },
   "newsletter": {
     "eyebrow": "Newsletter",
     "title": "Ein sorgfältiger Text pro Woche.",

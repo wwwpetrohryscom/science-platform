@@ -1,0 +1,140 @@
+{
+  "editorial-standards": {
+    "title": "Redaktionelle Standards",
+    "eyebrow": "Wie diese Website entsteht",
+    "summary": "Was EcoScienceHub veröffentlicht, wer es schreibt, wie Aussagen geprüft werden und was wir nicht tun, damit eine Seite rankt.",
+    "sections": [
+      {
+        "heading": "Was diese Website ist",
+        "paragraphs": [
+          "EcoScienceHub veröffentlicht erklärende Wissenschaftstexte zu Ökologie, Biologie und angewandter Physik. Das Publikum sind Menschen, die den tatsächlichen Mechanismus und die tatsächlichen Belege wollen — Studierende, Lehrende, Journalistinnen und Journalisten, Fachleute und Leserinnen und Leser, die an die Grenzen einer Zusammenfassung gestoßen sind.",
+          "Jede Seite wird geschrieben, um eine bestimmte Frage zu beantworten, und muss klar sagen, wo die Belege enden. Eine Seite, die sich nicht nach diesem Maßstab schreiben lässt, wird nicht veröffentlicht."
+        ]
+      },
+      {
+        "heading": "Wer die Seiten schreibt",
+        "paragraphs": [
+          "Artikel werden Fachredaktionen zugeschrieben, nicht einzelnen Personen. Eine Redaktion ist eine organisatorische Verfasserangabe für ein Sachgebiet. Sie steht nicht für eine namentlich genannte Wissenschaftlerin oder einen Wissenschaftler und trägt keine akademischen Titel.",
+          "Wir tun das, weil die Alternative — plausibel klingende Fachleute, Abschlüsse oder Gutachternamen zu erfinden, um ein Autorensignal zu bedienen — eine Form der Fälschung ist, und auf wissenschaftsnahen Websites verbreitet genug, dass Leserinnen und Leser zu Recht nachprüfen. Nirgends auf dieser Website steht eine Zeile „Geprüft von Dr. —“, weil es diese prüfende Person nicht gibt.",
+          "Sollte künftig eine namentlich genannte, fachlich ausgewiesene Person für EcoScienceHub schreiben, erscheint sie unter ihrem eigenen Namen mit ihrer tatsächlichen Zugehörigkeit und mit ihrer Zustimmung, und der Unterschied zwischen ihren Seiten und redaktionell zugeschriebenen Seiten wird sichtbar sein."
+        ]
+      },
+      {
+        "heading": "Wie eine Aussage veröffentlicht wird",
+        "paragraphs": [
+          "Konkrete Größen — Raten, Spannen, Prozentwerte, Daten, Zählungen — stammen aus einer benannten Quelle, die sie nennt, und diese Quelle wird auf der Seite zitiert. Wo glaubwürdige Quellen voneinander abweichen, berichtet die Seite die Uneinigkeit und benennt die beteiligten Produkte, statt eine Zahl auszuwählen und sie als die Zahl darzustellen.",
+          "Wo die Belege schwach, umstritten oder nicht vorhanden sind, sagt die Seite das. Kalibrierte Sprache wird bewusst eingesetzt: „die Belege zeigen durchgehend“ ist eine stärkere Aussage als „die derzeitigen Belege deuten darauf hin“, was wiederum stärker ist als „erste Befunde weisen auf“. Das sind keine stilistischen Varianten."
+        ],
+        "bullets": [
+          "Keine erfundenen Studien, Statistiken, Institutionen, Zitate oder Literaturangaben.",
+          "Keine namentlich genannte Person wird genannt, zitiert oder als Prüferin dargestellt, sofern das keine belegte Tatsache ist.",
+          "Kein Anspruch auf eine Sicherheit, die die zitierten Belege nicht tragen.",
+          "Keine medizinische, klinische, finanzielle oder rechtliche Beratung. Seiten zu Physiologie und Verschmutzung beschreiben Belege; sie sagen niemandem, was zu tun ist."
+        ]
+      },
+      {
+        "heading": "Was wir für Suchmaschinen nicht tun",
+        "paragraphs": [
+          "Diese Website ist darauf angelegt, gefunden zu werden, und die technische Arbeit dahinter — strukturierte Daten, kanonische URLs, hreflang, interne Verlinkung — ist echte Arbeit, die wir leisten. Was wir nicht tun, ist, diese Mechanik über den Inhalt entscheiden zu lassen."
+        ],
+        "bullets": [
+          "Keine Seiten, die einen Keyword-Platz füllen, wenn eine bestehende Seite das Thema besser behandelt.",
+          "Keine Wortzahlvorgaben. Seiten enden dort, wo das Thema endet.",
+          "Keine über Seiten hinweg wiederholten Abschnittsvorlagen. Jede Seite wird von ihrem eigenen Material geformt.",
+          "Kein mechanisches Einsetzen von Ankertexten. Interne Links stehen dort, wo die verlinkte Idee gebraucht wird, mit einem Anker, der sich als Teil des Satzes liest.",
+          "Keine Änderung des Änderungsdatums einer Seite ohne inhaltliche Änderung. Ein Durchlauf zur internen Verlinkung ist keine Aktualisierung."
+        ]
+      },
+      {
+        "heading": "Übersetzungen",
+        "paragraphs": [
+          "Die englische Fassung eines Artikels ist maßgeblich. Eine übersetzte Seite wird nur veröffentlicht, wenn eine vollständige Übersetzung vorliegt, die Zahlen, Quellen und Vorbehalte des Originals bewahrt. Wo keine Übersetzung existiert, liefert die Website den englischen Text aus und markiert die Seite in dieser Sprache als nicht indexierbar, statt eine teilweise oder maschinell entstellte Fassung als lokalisierte Seite auszugeben.",
+          "Das Glossar und diese Richtlinienseiten folgen derselben Regel. Sie werden in einer Sprache nur veröffentlicht, wenn eine vollständige Übersetzung des gesamten Dokuments vorliegt, und die Sprachauswahl bietet eine Sprache nur dann an — so landet niemand auf einer Seite, die nur halb in seiner Sprache ist."
+        ]
+      },
+      {
+        "heading": "KI-Einsatz",
+        "paragraphs": [
+          "Bei der Produktion dieser Website werden Sprachmodelle eingesetzt — zum Entwerfen, Strukturieren und Prüfen. Das ändert keine der obigen Regeln, und es ist der Grund, warum mehrere davon von automatischen Prüfprogrammen durchgesetzt und nicht guten Absichten überlassen werden: nicht überprüfbare Zitationsformen, verbotene Sicherheitssprache, Platzhaltertext, doppelte Texte und tote Quell-URLs werden maschinell geprüft, bevor eine Seite online geht.",
+          "Die redaktionelle Verantwortung für jede veröffentlichte Seite liegt bei EcoScienceHub, unabhängig von den zu ihrer Erstellung verwendeten Werkzeugen."
+        ]
+      }
+    ]
+  },
+  "sourcing-policy": {
+    "title": "Quellenrichtlinie",
+    "eyebrow": "Belege",
+    "summary": "Welche Quellen diese Website als maßgeblich behandelt, wie Zitate geprüft werden und was geschieht, wenn eine Quelle verschwindet.",
+    "sections": [
+      {
+        "heading": "Die Quellenhierarchie",
+        "paragraphs": [
+          "Für die faktische Grundlage — was wurde gemessen, wann, von wem, mit welcher Unsicherheit — bevorzugen wir die Institution, die die Messung erzeugt hat, oder die Bewertung, die sie zusammengeführt hat. Für Mechanismus, Nuance und Uneinigkeit bevorzugen wir die begutachtete Fachliteratur, wobei systematische Übersichtsarbeiten und Metaanalysen höher gewichtet werden als Einzelstudien.",
+          "Eine einzige Organisation reicht für einen inhaltlich tragenden Artikel nicht aus. Jede Seite soll auf mehr als einer unabhängigen Quelle beruhen, und Seiten zu umstrittenen Fragen sollen die Seiten der Uneinigkeit zitieren statt der bequemen."
+        ],
+        "bullets": [
+          "Zwischenstaatliche Bewertungen und Organisationen: IPCC, IPBES, UNEP, UNESCO, WMO, WHO, FAO, IAEA, UNCCD, Ramsar.",
+          "Nationale wissenschaftliche und Umweltbehörden: NASA, NOAA, USGS, EPA, NIH und NCBI, NIST, DOE, ESA, Copernicus, die Europäische Umweltagentur und ihre nationalen Entsprechungen.",
+          "Begutachtete Fachliteratur, Zeitschriften wissenschaftlicher Gesellschaften und kuratierte wissenschaftliche Datenbanken."
+        ]
+      },
+      {
+        "heading": "Was keine zulässige Quelle ist",
+        "paragraphs": [
+          "Enzyklopädien, Presseberichterstattung, Pressemitteilungen, Blogs, Herstellermarketing und KI-erzeugte Zusammenfassungen werden nicht als Beleg für eine wissenschaftliche Aussage zitiert. Sie sind bestenfalls ein Weg zu der Quelle, die die Aussage tatsächlich trägt — und zitiert wird diese Quelle."
+        ]
+      },
+      {
+        "heading": "Zitatprüfung",
+        "paragraphs": [
+          "Jede externe URL auf der Website wird maschinell geprüft. Die Prüfung unterscheidet drei Ergebnisse, weil es unredlich wäre, sie gleich zu behandeln: eine URL, die antwortet; eine URL, deren Host automatisierte Zugriffe blockiert, aber zu einem bekannten Verlag gehört; und eine URL, die tatsächlich nicht mehr existiert.",
+          "Der dritte Fall ist der entscheidende. Wissenschaftliche Webverweise zerfallen: Behörden werden umorganisiert, Programme umbenannt, Seiten zurückgezogen. Wenn eine zitierte Seite verschwindet, leiten wir den Link nicht stillschweigend auf einen plausiblen Ersatz um. Wir prüfen, ob der Ersatz die Aussage tatsächlich stützt, und wenn nicht, wird die Aussage umgeschrieben oder zusammen mit der Quelle entfernt."
+        ]
+      },
+      {
+        "heading": "Wörtliches Zitieren",
+        "paragraphs": [
+          "Wir paraphrasieren und weisen zu, statt wörtlich zu zitieren. Das direkte Zitat bleibt Fällen vorbehalten, in denen es auf den genauen Wortlaut ankommt — eine formale Definition, ein Rechtstext, ein Fachbegriff — und ist immer an eine zitierfähige Quelle gebunden. Kein Zitat auf dieser Website ist aus dem Gedächtnis rekonstruiert."
+        ]
+      },
+      {
+        "heading": "Register",
+        "paragraphs": [
+          "Die Website führt je Sachgebiet ein Register von Quellenorganisationen, mit dem Zitate außerhalb davon zur redaktionellen Prüfung markiert werden. Es ist ein Prüfauslöser, keine Positivliste: Ein Zitat aus einer nicht registrierten Quelle ist nicht automatisch falsch, und ein Zitat aus einer registrierten Quelle ist für die konkrete Aussage nicht automatisch richtig."
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "title": "Korrekturen und Kontakt",
+    "eyebrow": "Rechenschaft",
+    "summary": "Wie man einen Fehler meldet, was wir damit tun und wie Korrekturen festgehalten werden.",
+    "sections": [
+      {
+        "heading": "Einen Fehler melden",
+        "paragraphs": [
+          "Wenn eine Seite etwas Falsches, Veraltetes oder von der zitierten Quelle nicht Gedecktes behauptet, sagen Sie es uns. Schreiben Sie an info@helperg.com mit der URL der Seite und, wenn möglich, der Quelle, die die richtige Position zeigt. Meldungen, die eine konkrete Aussage und eine konkrete Quelle benennen, sind sofort bearbeitbar; allgemeine Ablehnung eines wissenschaftlichen Konsenses ist kein Korrekturersuchen."
+        ]
+      },
+      {
+        "heading": "Was danach geschieht",
+        "paragraphs": [
+          "Ein sachlicher Fehler wird auf der Seite korrigiert. Wenn die Korrektur ändert, was die Seite folgert, trägt die Seite einen Hinweis darauf, was sich geändert hat. Handelt es sich um einen Tipp- oder Linkfehler ohne Bedeutungsänderung, wird er ohne Hinweis und ohne Änderung des Änderungsdatums behoben — denn ein Datumswechsel signalisiert eine redaktionelle Überarbeitung, und ihn für eine Linkreparatur zu verwenden wäre ein falsches Aktualitätssignal.",
+          "Ein toter oder falscher Beleg gilt als sachliches, nicht als formales Problem. Stützt die Ersatzquelle die ursprüngliche Aussage nicht, ändert sich die Aussage."
+        ]
+      },
+      {
+        "heading": "Was wir nicht tun",
+        "paragraphs": [
+          "Wir entfernen zutreffendes, gut belegtes Material nicht, weil es einer Partei missfällt. Wir fügen auf Wunsch keine unbelegten Aussagen hinzu. Wir nehmen weder Zahlungen noch Links noch Inhalte im Austausch für redaktionelle Berichterstattung oder Platzierung an, und keine Seite dieser Website ist gesponsert."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Allgemeine, redaktionelle und Rechteanfragen: info@helperg.com. Datenschutzanfragen werden nach den in der Datenschutzerklärung genannten Bedingungen bearbeitet."
+        ]
+      }
+    ]
+  }
+}

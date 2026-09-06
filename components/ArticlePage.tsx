@@ -21,6 +21,7 @@ import { extractCitationUrls } from "@/lib/sources";
 import { evidenceProfile } from "@/lib/evidence/index";
 import { entitiesForArticle, entityName } from "@/lib/entities/index";
 import { getReview } from "@/lib/verification";
+import { policyLocales } from "@/lib/editorial";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
   DEFAULT_LOCALE,
@@ -251,7 +252,14 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
               </p>
               <p className="mt-2 text-sm leading-relaxed text-ink-subtle">
                 {t("evidence.attribution", { desk: article.author.name })}{" "}
-                <Link href="/en/sourcing-policy" className="link-quiet">
+                <Link
+                  href={
+                    policyLocales("sourcing-policy").includes(locale)
+                      ? localizedPath(locale, "/sourcing-policy")
+                      : "/en/sourcing-policy"
+                  }
+                  className="link-quiet"
+                >
                   {t("evidence.policy_link")}
                 </Link>
                 .

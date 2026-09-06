@@ -1,0 +1,140 @@
+{
+  "editorial-standards": {
+    "title": "Normas editoriais",
+    "eyebrow": "Como este site é feito",
+    "summary": "O que a EcoScienceHub publica, quem o escreve, como as afirmações são verificadas e o que não fazemos para que uma página fique bem posicionada.",
+    "sections": [
+      {
+        "heading": "O que é este site",
+        "paragraphs": [
+          "A EcoScienceHub publica textos explicativos de divulgação científica sobre ecologia, biologia e física aplicada. O público é quem quer o mecanismo real e as provas reais — estudantes, docentes, jornalistas, profissionais e leitores que chegaram ao limite de um resumo.",
+          "Cada página é escrita para responder a uma pergunta concreta e deve dizer com clareza onde as provas se esgotam. Uma página que não possa ser escrita segundo esse critério não é publicada."
+        ]
+      },
+      {
+        "heading": "Quem escreve as páginas",
+        "paragraphs": [
+          "Os artigos são atribuídos a mesas editoriais, não a pessoas concretas. Uma mesa é uma assinatura organizacional que cobre uma área temática. Não representa nenhum cientista com nome próprio e não tem credenciais académicas.",
+          "Fazemo-lo assim porque a alternativa — inventar especialistas, graus ou nomes de revisores plausíveis para satisfazer um sinal de autoria — é uma forma de fabricação, e é suficientemente comum em sites de temática científica para que os leitores façam bem em verificar. Não existe em parte alguma deste site uma linha «Revisto pelo Dr. —», porque tal revisor não existe.",
+          "Se no futuro escrever para a EcoScienceHub uma pessoa com nome e credenciais, aparecerá sob o seu próprio nome, com a sua afiliação real e o seu consentimento, e a distinção entre as suas páginas e as atribuídas a uma mesa será visível."
+        ]
+      },
+      {
+        "heading": "Como uma afirmação é publicada",
+        "paragraphs": [
+          "As grandezas concretas — taxas, intervalos, percentagens, datas, contagens — provêm de uma fonte nomeada que as enuncia, e essa fonte é citada na página. Quando fontes credíveis divergem, a página relata o desacordo e nomeia os produtos envolvidos em vez de escolher um número e apresentá-lo como o número.",
+          "Quando as provas são fracas, contestadas ou inexistentes, a página di-lo. A linguagem calibrada é usada deliberadamente: «as provas indicam de forma consistente» é uma afirmação mais forte do que «as provas atuais sugerem», que por sua vez é mais forte do que «os primeiros resultados apontam para». Não são variações de estilo."
+        ],
+        "bullets": [
+          "Nenhum estudo, estatística, instituição, citação ou referência inventada.",
+          "Nenhuma pessoa nomeada é creditada, citada ou apresentada como revisora sem que isso seja um facto verificado.",
+          "Nenhuma pretensão de certeza que as provas citadas não sustentem.",
+          "Nenhum aconselhamento médico, clínico, financeiro ou jurídico. As páginas de fisiologia e poluição descrevem provas; não dizem ao leitor o que fazer."
+        ]
+      },
+      {
+        "heading": "O que não fazemos pelos motores de busca",
+        "paragraphs": [
+          "Este site foi construído para ser encontrado, e o trabalho técnico que o sustenta — dados estruturados, URL canónicos, hreflang, ligação interna — é trabalho real que fazemos. O que não fazemos é deixar que essa mecânica decida o conteúdo."
+        ],
+        "bullets": [
+          "Nenhuma página publicada para preencher um lugar de palavra-chave quando uma página existente trata melhor o assunto.",
+          "Nenhuma meta de número de palavras. As páginas acabam onde o assunto acaba.",
+          "Nenhum modelo de secções repetido entre páginas. Cada página é moldada pelo seu próprio material.",
+          "Nenhuma inserção mecânica de texto-âncora. As ligações internas são colocadas onde a ideia ligada é usada, com uma âncora que se lê como parte da frase.",
+          "Nenhuma alteração da data de modificação de uma página sem que o conteúdo tenha mudado substancialmente. Uma passagem de ligação interna não é uma atualização."
+        ]
+      },
+      {
+        "heading": "Traduções",
+        "paragraphs": [
+          "A versão inglesa de um artigo é a fonte de verdade. Uma página traduzida só é publicada quando existe uma tradução integral que preserva os números, as fontes e as cautelas do original. Quando não existe tradução, o site serve o texto em inglês e marca a página como não indexável nessa língua, em vez de apresentar como localizada uma versão parcial ou deformada pela máquina.",
+          "O glossário e estas páginas de política seguem a mesma regra. São publicados numa língua apenas quando existe uma tradução integral do documento, e o seletor de idioma oferece uma língua apenas quando assim é — para que o leitor nunca chegue a uma página meio na sua língua."
+        ]
+      },
+      {
+        "heading": "Uso de IA",
+        "paragraphs": [
+          "Na produção deste site são usados modelos de linguagem — para redigir, estruturar e verificar. Isso não altera nenhuma das regras acima, e é a razão pela qual várias delas são aplicadas por validadores automáticos em vez de ficarem entregues às boas intenções: formas de citação não verificáveis, linguagem de certeza proibida, texto de preenchimento, corpos duplicados e URL de fontes mortas são verificados mecanicamente antes de uma página ser publicada.",
+          "A responsabilidade editorial por cada página publicada é da EcoScienceHub, quaisquer que sejam as ferramentas usadas para a produzir."
+        ]
+      }
+    ]
+  },
+  "sourcing-policy": {
+    "title": "Política de fontes",
+    "eyebrow": "Provas",
+    "summary": "Que fontes este site trata como autorizadas, como as citações são verificadas e o que acontece quando uma fonte desaparece.",
+    "sections": [
+      {
+        "heading": "A hierarquia das fontes",
+        "paragraphs": [
+          "Para a base factual — o que foi medido, quando, por quem, com que incerteza — preferimos a instituição que produziu a medição ou a avaliação que a sintetizou. Para o mecanismo, as nuances e o desacordo, preferimos a literatura revista por pares, com as revisões sistemáticas e as meta-análises ponderadas acima dos estudos isolados.",
+          "Uma única organização não basta para um artigo substantivo. Espera-se que cada página assente em mais de uma fonte independente, e que as páginas sobre questões contestadas citem os lados do desacordo em vez do lado conveniente."
+        ],
+        "bullets": [
+          "Avaliações e organismos intergovernamentais: IPCC, IPBES, PNUA, UNESCO, OMM, OMS, FAO, AIEA, CNUCD, Ramsar.",
+          "Organismos científicos e ambientais nacionais: NASA, NOAA, USGS, EPA, NIH e NCBI, NIST, DOE, ESA, Copernicus, a Agência Europeia do Ambiente e os seus equivalentes nacionais.",
+          "Literatura revista por pares, revistas de sociedades científicas e bases de dados científicas curadas."
+        ]
+      },
+      {
+        "heading": "O que não é uma fonte aceitável",
+        "paragraphs": [
+          "Enciclopédias, cobertura noticiosa, comunicados de imprensa, blogues, marketing de fornecedores e resumos gerados por IA não são citados como prova de uma afirmação científica. São, quando muito, um caminho para a fonte que efetivamente a sustenta — e é essa fonte que é citada."
+        ]
+      },
+      {
+        "heading": "Verificação das citações",
+        "paragraphs": [
+          "Todos os URL externos do site são verificados mecanicamente. A verificação distingue três resultados, porque tratá-los da mesma forma seria desonesto: um URL que responde; um URL cujo servidor bloqueia clientes automatizados mas pertence a um editor conhecido; e um URL que desapareceu efetivamente.",
+          "O terceiro caso é o que importa. As referências científicas na web degradam-se: os organismos reorganizam-se, os programas são renomeados e páginas são retiradas. Quando uma página citada desaparece, não redirecionamos silenciosamente a ligação para um substituto plausível. Verificamos se a substituição sustenta realmente a afirmação e, se não sustentar, a afirmação é reescrita ou removida juntamente com a fonte."
+        ]
+      },
+      {
+        "heading": "Citação literal",
+        "paragraphs": [
+          "Parafraseamos e atribuímos em vez de citar literalmente. A citação direta reserva-se aos casos em que a formulação exata é o que está em causa — uma definição formal, um instrumento jurídico, um termo técnico — e está sempre ligada a uma fonte citável. Nenhuma citação deste site é reconstituída de memória."
+        ]
+      },
+      {
+        "heading": "Registo",
+        "paragraphs": [
+          "O site mantém um registo de organizações-fonte por área temática, usado para assinalar à revisão editorial as citações que lhe são exteriores. É um desencadeador de revisão, não uma lista branca: uma citação de uma fonte ausente do registo não está automaticamente errada, e uma citação de uma fonte nele presente não está automaticamente certa para a afirmação em causa."
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "title": "Correções e contacto",
+    "eyebrow": "Responsabilização",
+    "summary": "Como comunicar um erro, o que fazemos com ele e como as correções são registadas.",
+    "sections": [
+      {
+        "heading": "Comunicar um erro",
+        "paragraphs": [
+          "Se uma página afirmar algo errado, desatualizado ou não sustentado pela fonte que cita, diga-nos. Escreva para info@helperg.com com o URL da página e, se possível, a fonte que mostra a posição correta. As comunicações que identificam uma afirmação concreta e uma fonte concreta são acionáveis de imediato; o desacordo geral com um consenso científico não é um pedido de correção."
+        ]
+      },
+      {
+        "heading": "O que acontece a seguir",
+        "paragraphs": [
+          "Um erro factual é corrigido na página. Quando a correção altera aquilo que a página conclui, a página passa a incluir uma nota que descreve o que mudou. Quando se trata de uma gralha ou de uma ligação reparada que não altera o sentido, é corrigida sem nota e sem alterar a data de modificação da página — porque uma mudança de data sinaliza revisão editorial, e usá-la para reparar uma ligação seria um falso sinal de atualidade.",
+          "Uma citação morta ou errada é tratada como um problema factual, não de formatação. Se a fonte de substituição não sustentar a afirmação original, a afirmação muda."
+        ]
+      },
+      {
+        "heading": "O que não faremos",
+        "paragraphs": [
+          "Não retiramos material exato e bem fundamentado porque uma parte não gosta dele. Não acrescentamos afirmações sem fonte a pedido. Não aceitamos pagamentos, ligações ou conteúdos em troca de cobertura ou colocação editorial, e nenhuma página deste site é patrocinada."
+        ]
+      },
+      {
+        "heading": "Contacto",
+        "paragraphs": [
+          "Questões gerais, editoriais e de direitos: info@helperg.com. Os pedidos relativos à privacidade são tratados nos termos estabelecidos na política de privacidade."
+        ]
+      }
+    ]
+  }
+}

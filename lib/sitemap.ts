@@ -3,7 +3,7 @@ import { categories, listCategorySlugs } from "@/lib/categories";
 import { getAllArticles, getAllInsights } from "@/lib/content";
 import { getDiscussions, discussionLocales } from "@/lib/discussions";
 import { listGlossaryAlphabetical, listGlossarySlugs } from "@/lib/glossary";
-import { POLICY_DOCUMENTS, listDesksForDisplay } from "@/lib/editorial";
+import { POLICY_DOCUMENTS, policyLocales, listDesksForDisplay } from "@/lib/editorial";
 import {
   DEFAULT_LOCALE,
   LOCALES,
@@ -358,18 +358,28 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
       ),
     );
   }
+  // The three policy documents are the exception to the EN-only rule
+  // above: each is translated in full or not at all, and
+  // `policyLocales` reports the locales where it exists. A locale is
+  // listed here — and in the hreflang set — only where the whole
+  // document is readable in that language, which is the same list the
+  // route's generateStaticParams builds from.
   for (const doc of POLICY_DOCUMENTS) {
     const path = `/${doc.slug}`;
-    editorialEntries.push(
-      entry(
-        DEFAULT_LOCALE,
-        path,
-        toDate(doc.updatedDate),
-        "yearly",
-        0.4,
-        editorialAlternates(path),
-      ),
-    );
+    const locales = policyLocales(doc.slug);
+    const alternates = buildLocalizedAlternates(path, locales);
+    for (const locale of locales) {
+      editorialEntries.push(
+        entry(
+          locale,
+          path,
+          toDate(doc.updatedDate),
+          "yearly",
+          locale === DEFAULT_LOCALE ? 0.4 : 0.3,
+          alternates,
+        ),
+      );
+    }
   }
 
   return dedupe([

@@ -1,0 +1,140 @@
+{
+  "editorial-standards": {
+    "title": "Normes éditoriales",
+    "eyebrow": "Comment ce site est fait",
+    "summary": "Ce que publie EcoScienceHub, qui l'écrit, comment les affirmations sont vérifiées, et ce que nous refusons de faire pour qu'une page se classe.",
+    "sections": [
+      {
+        "heading": "Ce qu'est ce site",
+        "paragraphs": [
+          "EcoScienceHub publie des textes explicatifs de vulgarisation scientifique en écologie, en biologie et en physique appliquée. Le public visé est celui qui veut le mécanisme réel et les preuves réelles — étudiants, enseignants, journalistes, praticiens, et lecteurs qui ont atteint les limites d'un résumé.",
+          "Chaque page est écrite pour répondre à une question précise, et doit dire clairement où s'arrêtent les preuves. Une page qui ne peut pas être écrite selon ce critère n'est pas publiée."
+        ]
+      },
+      {
+        "heading": "Qui écrit les pages",
+        "paragraphs": [
+          "Les articles sont attribués à des rédactions thématiques, et non à des personnes. Une rédaction est une signature organisationnelle couvrant un domaine. Elle ne représente pas un scientifique nommé et ne porte aucun titre universitaire.",
+          "Nous procédons ainsi parce que l'alternative — inventer des experts, des diplômes ou des noms de relecteurs plausibles pour satisfaire un signal d'auteur — est une forme de fabrication, assez répandue sur les sites para-scientifiques pour que les lecteurs aient raison de vérifier. Il n'y a nulle part sur ce site de mention « Relu par le Dr — », parce qu'un tel relecteur n'existe pas.",
+          "Si un contributeur nommé et diplômé écrit pour EcoScienceHub à l'avenir, il apparaîtra sous son propre nom, avec son affiliation réelle et son consentement, et la distinction entre ses pages et celles attribuées à une rédaction sera visible."
+        ]
+      },
+      {
+        "heading": "Comment une affirmation est publiée",
+        "paragraphs": [
+          "Les grandeurs précises — taux, intervalles, pourcentages, dates, effectifs — proviennent d'une source nommée qui les énonce, et cette source est citée sur la page. Lorsque des sources crédibles divergent, la page rapporte le désaccord et nomme les produits concernés plutôt que de choisir un chiffre et de le présenter comme le chiffre.",
+          "Lorsque les preuves sont faibles, contestées ou absentes, la page le dit. Le langage calibré est employé délibérément : « les preuves indiquent constamment » est une affirmation plus forte que « les preuves actuelles suggèrent », elle-même plus forte que « les premiers résultats indiquent ». Ce ne sont pas des variations de style."
+        ],
+        "bullets": [
+          "Aucune étude, statistique, institution, citation ou référence inventée.",
+          "Aucune personne nommée n'est créditée, citée ou présentée comme relectrice sans que ce soit un fait vérifié.",
+          "Aucune prétention à une certitude que les preuves citées ne portent pas.",
+          "Aucun conseil médical, clinique, financier ou juridique. Les pages de physiologie et de pollution décrivent des preuves ; elles ne disent pas au lecteur ce qu'il doit faire."
+        ]
+      },
+      {
+        "heading": "Ce que nous ne faisons pas pour les moteurs de recherche",
+        "paragraphs": [
+          "Ce site est construit pour être trouvé, et le travail technique qui le permet — données structurées, URL canoniques, hreflang, maillage interne — est un travail réel que nous faisons. Ce que nous ne faisons pas, c'est laisser ces mécaniques décider du contenu."
+        ],
+        "bullets": [
+          "Aucune page publiée pour remplir un créneau de mot-clé lorsqu'une page existante traite mieux le sujet.",
+          "Aucun objectif de nombre de mots. Les pages s'arrêtent où le sujet s'arrête.",
+          "Aucun gabarit de sections répété d'une page à l'autre. Chaque page est façonnée par sa propre matière.",
+          "Aucune insertion mécanique de texte d'ancrage. Les liens internes sont placés là où l'idée liée est utilisée, avec une ancre qui se lit comme une partie de la phrase.",
+          "Aucune modification de la date de mise à jour d'une page sans changement substantiel du contenu. Une passe de maillage interne n'est pas une mise à jour."
+        ]
+      },
+      {
+        "heading": "Traductions",
+        "paragraphs": [
+          "La version anglaise d'un article fait foi. Une page traduite n'est publiée que lorsqu'il en existe une traduction intégrale qui préserve les chiffres, les sources et les nuances de prudence de l'original. Lorsqu'une traduction n'existe pas, le site sert le texte anglais et marque la page comme non indexable dans cette langue, plutôt que de présenter comme localisée une version partielle ou déformée par la machine.",
+          "Le glossaire et ces pages de politique éditoriale suivent la même règle. Ils sont publiés dans une langue uniquement lorsqu'une traduction intégrale du document existe, et le sélecteur de langue ne propose une langue que lorsque c'est le cas — ainsi un lecteur n'arrive jamais sur une page à moitié dans sa langue."
+        ]
+      },
+      {
+        "heading": "Usage de l'IA",
+        "paragraphs": [
+          "Des modèles de langage sont utilisés dans la production de ce site — pour rédiger, structurer et vérifier. Cela ne change aucune des règles ci-dessus, et c'est la raison pour laquelle plusieurs d'entre elles sont appliquées par des validateurs automatiques plutôt que laissées aux bonnes intentions : formes de citation invérifiables, langage de certitude interdit, texte de remplissage, corps dupliqués et URL de sources mortes sont contrôlés mécaniquement avant la mise en ligne d'une page.",
+          "La responsabilité éditoriale de chaque page publiée incombe à EcoScienceHub, quels que soient les outils utilisés pour la produire."
+        ]
+      }
+    ]
+  },
+  "sourcing-policy": {
+    "title": "Politique de sourçage",
+    "eyebrow": "Preuves",
+    "summary": "Quelles sources ce site considère comme faisant autorité, comment les citations sont vérifiées, et ce qui se passe lorsqu'une source disparaît.",
+    "sections": [
+      {
+        "heading": "La hiérarchie des sources",
+        "paragraphs": [
+          "Pour la base factuelle — ce qui a été mesuré, quand, par qui, avec quelle incertitude — nous privilégions l'institution qui a produit la mesure ou l'évaluation qui l'a synthétisée. Pour le mécanisme, les nuances et les désaccords, nous privilégions la littérature évaluée par les pairs, en pondérant les revues systématiques et les méta-analyses au-dessus des études isolées.",
+          "Une seule organisation ne suffit pas pour un article de fond. Chaque page doit reposer sur plus d'une source indépendante, et les pages traitant de questions contestées doivent citer les positions du désaccord plutôt que la plus commode."
+        ],
+        "bullets": [
+          "Évaluations et agences intergouvernementales : GIEC, IPBES, PNUE, UNESCO, OMM, OMS, FAO, AIEA, CNULCD, Ramsar.",
+          "Agences scientifiques et environnementales nationales : NASA, NOAA, USGS, EPA, NIH et NCBI, NIST, DOE, ESA, Copernicus, l'Agence européenne pour l'environnement, et leurs équivalents nationaux.",
+          "Littérature évaluée par les pairs, revues de sociétés savantes et bases de données scientifiques curatées."
+        ]
+      },
+      {
+        "heading": "Ce qui n'est pas une source acceptable",
+        "paragraphs": [
+          "Les encyclopédies, la couverture médiatique, les communiqués de presse, les blogues, le marketing de fournisseurs et les résumés produits par IA ne sont pas cités comme preuve d'une affirmation scientifique. Ils sont, au mieux, un chemin vers la source qui la porte réellement — et c'est cette source qui est citée."
+        ]
+      },
+      {
+        "heading": "Vérification des citations",
+        "paragraphs": [
+          "Chaque URL externe du site est vérifiée mécaniquement. Le contrôle distingue trois résultats, parce que les traiter de la même façon serait malhonnête : une URL qui répond ; une URL dont l'hôte bloque les clients automatisés mais qui est un éditeur connu ; et une URL réellement disparue.",
+          "Le troisième cas est celui qui compte. Les références scientifiques en ligne se dégradent : les agences se réorganisent, les programmes sont renommés, des pages sont retirées. Lorsqu'une page citée disparaît, nous ne redirigeons pas silencieusement le lien vers un substitut plausible. Nous vérifions si le remplacement soutient réellement l'affirmation, et si ce n'est pas le cas, l'affirmation est réécrite ou supprimée en même temps que la source."
+        ]
+      },
+      {
+        "heading": "Citation textuelle",
+        "paragraphs": [
+          "Nous paraphrasons et attribuons plutôt que de citer textuellement. La citation directe est réservée aux cas où la formulation exacte est l'objet même — une définition formelle, un texte juridique, un terme technique — et elle est toujours rattachée à une source citable. Aucune citation de ce site n'est reconstituée de mémoire."
+        ]
+      },
+      {
+        "heading": "Registre",
+        "paragraphs": [
+          "Le site tient un registre des organisations sources par domaine, utilisé pour signaler à la relecture éditoriale les citations qui en sortent. C'est un déclencheur de relecture, pas une liste blanche : une citation issue d'une source absente du registre n'est pas automatiquement fausse, et une citation issue d'une source qui y figure n'est pas automatiquement juste pour l'affirmation en question."
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "title": "Corrections et contact",
+    "eyebrow": "Responsabilité",
+    "summary": "Comment signaler une erreur, ce que nous en faisons, et comment les corrections sont consignées.",
+    "sections": [
+      {
+        "heading": "Signaler une erreur",
+        "paragraphs": [
+          "Si une page affirme quelque chose de faux, de périmé ou que la source citée ne soutient pas, dites-le-nous. Écrivez à info@helperg.com en indiquant l'URL de la page et, si possible, la source qui établit la position correcte. Les signalements qui identifient une affirmation précise et une source précise sont traitables immédiatement ; un désaccord général avec un consensus scientifique n'est pas une demande de correction."
+        ]
+      },
+      {
+        "heading": "Ce qui se passe ensuite",
+        "paragraphs": [
+          "Une erreur factuelle est corrigée sur la page. Lorsque la correction change ce que la page conclut, la page porte une note décrivant ce qui a changé. Lorsqu'il s'agit d'une coquille ou d'un lien réparé sans changement de sens, la correction est faite sans note et sans modifier la date de mise à jour de la page — parce qu'un changement de date signale une révision éditoriale, et l'utiliser pour une réparation de lien serait un faux signal de fraîcheur.",
+          "Une citation morte ou erronée est traitée comme un problème factuel, non comme un problème de mise en forme. Si la source de remplacement ne soutient pas l'affirmation d'origine, l'affirmation change."
+        ]
+      },
+      {
+        "heading": "Ce que nous ne ferons pas",
+        "paragraphs": [
+          "Nous ne retirons pas un contenu exact et bien sourcé parce qu'une partie le désapprouve. Nous n'ajoutons pas d'affirmations non sourcées sur demande. Nous n'acceptons ni paiement, ni liens, ni contenu en échange d'une couverture ou d'un placement éditorial, et aucune page de ce site n'est sponsorisée."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Demandes générales, éditoriales et de droits : info@helperg.com. Les demandes relatives à la vie privée sont traitées selon les modalités énoncées dans la politique de confidentialité."
+        ]
+      }
+    ]
+  }
+}
