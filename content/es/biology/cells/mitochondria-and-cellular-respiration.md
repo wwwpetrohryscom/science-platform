@@ -17,7 +17,6 @@ related:
   - photosynthesis-explained
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
-_bodyHash: 81caaf0a
 ---
 
 La glucosa no es lo esencial. Lo que una célula que respira extrae de la glucosa es un suministro de electrones sostenidos a alta energía, y lo que hace con ellos es dejarlos caer — en pasos controlados, a lo largo de una diferencia de potencial de 1.14 voltios, hasta el oxígeno. Todo lo demás del proceso es contabilidad en torno a esa caída: las rutas que arrancan los electrones al carbono, la membrana que convierte su descenso en un gradiente de protones y el motor rotatorio que convierte el gradiente en ATP. Planteado así, varias cosas que parecen arbitrarias en un diagrama de rutas se vuelven necesarias, y una cifra muy conocida resulta ser una estimación y no una estequiometría. El automantenimiento es lo primero de las tres cosas [que cualquier estructura ha de hacer para contar como célula](/es/biology/cells/what-is-a-cell); este es el proceso que lo paga.

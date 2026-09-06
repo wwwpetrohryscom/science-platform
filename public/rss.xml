@@ -80,7 +80,7 @@
       <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-systems/anomalies-baselines-and-reference-periods</guid>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
       <dc:creator>Earth Systems Desk</dc:creator>
-      <description>GISTEMP reports against 1951–1980, the greenhouse gas index against 1990, and global mean sea level against the start of the altimeter record. Three headline indicators, three different zeros, and no way to place them on one axis without the offsets.</description>
+      <description>GISTEMP reports against 1951–1980, the greenhouse gas index against 1990, and global mean sea level against a zero internal to the altimeter file. Three headline indicators, three different zeros, and no way to place them on one axis without the offsets.</description>
       <category>ecology</category>
       <category>climate-indicators</category>
       <category>measurement</category>

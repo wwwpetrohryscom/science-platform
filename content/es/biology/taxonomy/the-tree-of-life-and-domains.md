@@ -1,6 +1,6 @@
 ---
 title: 'El árbol de la vida: tres dominios, dos dominios y una red'
-excerpt: 'El ARN ribosómico dividió en dos a los procariotas en 1977 y dio a la biología sus tres dominios. Las arqueas de Asgard, la endosimbiosis y la transferencia génica han convertido desde entonces la base de ese esquema en un debate aún abierto.'
+excerpt: El ARN ribosómico dividió en dos a los procariotas en 1977 y dio a la biología sus tres dominios. Las arqueas de Asgard, la endosimbiosis y la transferencia génica han convertido desde entonces la base de ese esquema en un debate aún abierto.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - bacteria-and-archaea-explained
   - what-is-a-species
 pillar: taxonomy-and-classification-explained
+_bodyHash: b3fa67f3
 ---
 
 Antes de 1977 se creía que la división más profunda de la biología era la que separa las células con núcleo de las células sin él. Ese año, una comparación de catálogos de ARN ribosómico informó de que los sistemas vivos representan [una de tres líneas de descendencia originarias](https://pmc.ncbi.nlm.nih.gov/articles/PMC432104/): las eubacterias, las arqueobacterias — conocidas entonces sobre todo por los metanógenos — y los urcariotas, representados por el componente citoplasmático de las células eucariotas. Los procariotas, que parecían una sola cosa, eran dos, y la división era invisible al microscopio.

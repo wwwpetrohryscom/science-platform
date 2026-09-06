@@ -17,7 +17,7 @@ related:
   - photosynthesis-explained
   - nutrient-availability-and-soil-fertility
 pillar: physiology-explained
-_bodyHash: 959521a
+_bodyHash: 5eabe57
 ---
 
 Ein hoher Baum hebt Wasser ununterbrochen um Dutzende Meter über den Boden, durch ein Netzwerk ohne Ventil, ohne Kammer und ohne ein einziges bewegliches Teil, und wendet für das Heben selbst keine Stoffwechselenergie auf. Die Arbeit leistet die Verdunstung an der Blattoberfläche, und das Wasser wird nicht von unten geschoben, sondern von oben gezogen, unter Spannung, entlang eines durchgehenden Flüssigkeitsfadens. Wer diesen einen Mechanismus versteht, versteht den größten Teil des übrigen pflanzlichen Wasserhaushalts, und es ist ein Fall, in dem [das allgemeine Problem, einen physiologischen Zustand konstant zu halten](/de/biology/physiology/physiology-explained), durch Physik gelöst wird und nicht durch eine Pumpe.
@@ -46,7 +46,7 @@ Schließzellen verrechnen mehrere Eingangsgrößen — Licht, interzellulares CO
 
 Der Phloemtransport läuft mit umgekehrtem Vorzeichen. Das Beladen der Siebelemente mit Saccharose an einer Quelle senkt deren osmotisches Potenzial, Wasser folgt osmotisch aus dem benachbarten Xylem, und der entstehende positive Turgor treibt einen Massenstrom zu den Senken, wo Zucker entladen wird und Wasser wieder austritt. Das ist Münchs Druckstromhypothese, in den 1920er Jahren vorgeschlagen, deren Plausibilität bei hohen Bäumen lange bezweifelt wurde, weil die Entfernung von der Quelle zur Senke mit den verfügbaren Drücken unvereinbar schien.
 
-Dieser Einwand ist an der Anatomie geprüft worden. Zusammengetragene Messungen an 32 angiospermen und 38 gymnospermen Bäumen mit Höhen von 0.1 bis 50 m zeigten eine enge Übereinstimmung mit den Skalierungsvorhersagen eines optimierten Münch-Mechanismus, was darauf hinweist, dass Gefäßpflanzen sehr unterschiedlicher Größe und Gestalt zu effizienten osmotischen Pumpeinheiten konvergiert sind. Ein Mechanismus, der über einen etwa fünfhundertfachen Bereich der Transportdistanz arbeitet.
+Dieser Einwand ist an der Anatomie geprüft worden. Zusammengetragene Messungen an 32 angiospermen und 38 gymnospermen Bäumen mit Höhen von 0.1 bis 50 m zeigten eine enge Korrelation mit den Skalierungsvorhersagen eines optimierten Münch-Mechanismus, was darauf hinweist, dass Gefäßpflanzen sehr unterschiedlicher Größe und Gestalt zu effizienten osmotischen Pumpeinheiten konvergiert sind. Ein Mechanismus, der über einen etwa fünfhundertfachen Bereich der Transportdistanz arbeitet.
 
 ## Nährstoffe kommen nicht einfach mit dem Wasser an
 

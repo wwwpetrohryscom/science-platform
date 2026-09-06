@@ -1,6 +1,6 @@
 ---
 title: 'L''arbre du vivant : trois domaines, deux domaines et un réseau'
-excerpt: 'L''ARN ribosomique a scindé les procaryotes en deux en 1977 et a donné à la biologie ses trois domaines. Les archées d''Asgard, l''endosymbiose et le transfert de gènes ont depuis transformé la base de ce schéma en un débat toujours ouvert.'
+excerpt: L'ARN ribosomique a scindé les procaryotes en deux en 1977 et a donné à la biologie ses trois domaines. Les archées d'Asgard, l'endosymbiose et le transfert de gènes ont depuis transformé la base de ce schéma en un débat toujours ouvert.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - bacteria-and-archaea-explained
   - what-is-a-species
 pillar: taxonomy-and-classification-explained
+_bodyHash: 76544ed9
 ---
 
 Avant 1977, on tenait la division la plus profonde de la biologie pour celle qui sépare les cellules à noyau des cellules sans noyau. Cette année-là, une comparaison de catalogues d'ARN ribosomique rapportait que les systèmes vivants représentent [l'une des trois lignées de descendance originelles](https://pmc.ncbi.nlm.nih.gov/articles/PMC432104/) : les eubactéries, les archéobactéries — alors connues surtout par les méthanogènes — et les urcaryotes, représentés par le composant cytoplasmique des cellules eucaryotes. Les procaryotes, qui avaient l'air d'une seule chose, en étaient deux, et la coupure était invisible au microscope.

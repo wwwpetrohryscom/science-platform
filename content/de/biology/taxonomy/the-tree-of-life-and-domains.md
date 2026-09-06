@@ -1,7 +1,7 @@
 ---
 title: 'Der Stammbaum des Lebens: drei Domänen, zwei Domänen und ein Netzwerk'
 metaTitle: 'Stammbaum des Lebens: drei Domänen, zwei Domänen, ein Netzwerk'
-excerpt: 'Ribosomale RNA teilte die Prokaryoten 1977 in zwei Gruppen und gab der Biologie ihre drei Domänen. Asgard-Archaeen, Endosymbiose und Gentransfer haben den tiefsten Teil dieses Diagramms seither in eine offene Debatte verwandelt.'
+excerpt: Ribosomale RNA teilte die Prokaryoten 1977 in zwei Gruppen und gab der Biologie ihre drei Domänen. Asgard-Archaeen, Endosymbiose und Gentransfer haben den tiefsten Teil dieses Diagramms seither in eine offene Debatte verwandelt.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
@@ -19,6 +19,7 @@ related:
   - bacteria-and-archaea-explained
   - what-is-a-species
 pillar: taxonomy-and-classification-explained
+_bodyHash: 84e74dcd
 ---
 
 Vor 1977 galt die tiefste Trennung in der Biologie als die zwischen Zellen mit Zellkern und Zellen ohne. In jenem Jahr berichtete ein Vergleich von Katalogen ribosomaler RNA, dass lebende Systeme [eine von drei ursprünglichen Abstammungslinien](https://pmc.ncbi.nlm.nih.gov/articles/PMC432104/) darstellen: die Eubakterien, die Archaebakterien — damals vor allem über die Methanogenen bekannt — und die Urkaryoten, vertreten durch den cytoplasmatischen Anteil eukaryotischer Zellen. Die Prokaryoten, die wie eine Sache ausgesehen hatten, waren zwei, und die Trennung war unter dem Mikroskop nicht zu sehen.

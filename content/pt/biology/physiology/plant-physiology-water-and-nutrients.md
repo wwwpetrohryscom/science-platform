@@ -17,10 +17,10 @@ related:
   - photosynthesis-explained
   - nutrient-availability-and-soil-fertility
 pillar: physiology-explained
-_bodyHash: 5adc9902
+_bodyHash: 1ed54078
 ---
 
-Uma árvore alta eleva continuamente a água dezenas de metros acima do solo, através de uma rede sem válvulas, sem câmaras e sem qualquer peça móvel, e não gasta energia metabólica alguma na elevação em si. O trabalho é feito pela evaporação à superfície da folha, e a água não é empurrada de baixo, mas puxada de cima, sob tensão, ao longo de um fio líquido contínuo. Compreender esse único mecanismo explica quase todo o restante das relações hídricas das plantas, e é um caso em que [o problema geral de manter estável um estado fisiológico](/pt/biology/physiology/physiology-explained) é resolvido pela física e não por uma bomba.
+Uma árvore alta eleva continuamente a água dezenas de metros acima do solo, através de uma rede sem válvulas, sem câmaras e sem qualquer peça móvel, e não gasta energia metabólica alguma na elevação em si. O trabalho é feito pela evaporação à superfície da folha, e a água não é empurrada de baixo, mas puxada de cima, sob tensão, ao longo de um fio líquido contínuo. Compreender esse único mecanismo explica a maior parte do restante das relações hídricas das plantas, e é um caso em que [o problema geral de manter estável um estado fisiológico](/pt/biology/physiology/physiology-explained) é resolvido pela física e não por uma bomba.
 
 ## O potencial hídrico é a única moeda
 

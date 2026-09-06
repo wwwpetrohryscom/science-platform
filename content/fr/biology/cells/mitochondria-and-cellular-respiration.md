@@ -1,6 +1,6 @@
 ---
 title: 'La respiration cellulaire : suivre les électrons, pas le sucre'
-excerpt: La respiration est enseignée comme une suite de voies à mémoriser. Lisez-la plutôt comme une chute contrôlée d'électrons sur 1.14 volt, avec un gradient de protons pour monnaie intermédiaire, et les totaux d'ATP des manuels cessent de ressembler à des constantes.
+excerpt: La respiration est le plus souvent enseignée comme une suite de voies à mémoriser. Lisez-la plutôt comme une chute contrôlée d'électrons sur 1.14 volt, avec un gradient de protons pour monnaie intermédiaire, et les totaux d'ATP des manuels cessent de ressembler à des constantes.
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
@@ -17,7 +17,6 @@ related:
   - photosynthesis-explained
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
-_bodyHash: d92ea706
 ---
 
 Le glucose n'est pas l'essentiel. Ce qu'une cellule qui respire extrait du glucose, c'est une réserve d'électrons portés à haute énergie, et ce qu'elle en fait, c'est les laisser tomber — par étapes contrôlées, le long d'une différence de potentiel de 1.14 volt, jusqu'à l'oxygène. Tout le reste du processus n'est que comptabilité autour de cette chute : les voies qui arrachent les électrons au carbone, la membrane qui convertit leur descente en gradient de protons, et le moteur rotatif qui convertit ce gradient en ATP. Cadrées ainsi, plusieurs choses qui paraissent arbitraires sur un schéma de voie métabolique deviennent nécessaires, et un chiffre très familier se révèle être une estimation plutôt qu'une stœchiométrie. L'autoentretien est la première des trois choses [que toute structure doit faire pour compter comme une cellule](/fr/biology/cells/what-is-a-cell) ; c'est le processus qui la finance.
@@ -62,7 +61,7 @@ Pourquoi conserver le moindre gène, étant donné le coût d'un appareil de tra
 
 ## La bactérie qui n'est jamais repartie
 
-Les mitochondries descendent d'un endosymbiote bactérien appartenant aux Alphaprotéobactéries, les Rickettsiales étant les parents connus les plus proches. Cela, c'est solidement établi. Le groupe frère précis, lui, ne l'est pas : une [revue de 2012 parue dans *Cold Spring Harbor Perspectives in Biology*](https://pmc.ncbi.nlm.nih.gov/articles/PMC3428767/) concluait que, malgré une connaissance étendue de l'arbre généalogique mitochondrial, l'identité du plus proche parent immédiat demeure insaisissable, et les analyses ultérieures n'ont cessé de déplacer le point de branchement plutôt que de le fixer.
+Les mitochondries descendent d'un endosymbiote bactérien appartenant aux Alphaprotéobactéries, les Rickettsiales étant les parents connus les plus proches. Cela, c'est solidement étayé. Le groupe frère précis, lui, ne l'est pas : une [revue de 2012 parue dans *Cold Spring Harbor Perspectives in Biology*](https://pmc.ncbi.nlm.nih.gov/articles/PMC3428767/) concluait que, malgré une connaissance étendue de l'arbre généalogique mitochondrial, l'identité du plus proche parent immédiat demeure insaisissable, et les analyses ultérieures n'ont cessé de déplacer le point de branchement plutôt que de le fixer.
 
 La réduction qui a suivi la symbiose a été drastique : on estime que 1 000 à 3 000 gènes ont été perdus lors du passage du symbiote bactérien à l'organite, la plupart transférés au noyau de l'hôte plutôt que purement supprimés. Ce qui subsiste varie énormément : les génomes mitochondriaux vont d'environ 6 kb chez *Plasmodium falciparum* à quelque 11 000 kb chez certaines [plantes terrestres](/fr/biology/taxonomy/botany-plant-diversity-explained), et certaines lignées sont allées jusqu'au bout. Les hydrogénosomes et les mitosomes sont des organites apparentés aux mitochondries qui conservent le compartiment et une partie de sa biochimie tout en étant totalement dépourvus d'ADN mitochondrial, ce qui pose un plancher utile sous toute affirmation sur ce à quoi sert l'organite. Ce n'est pas, par définition, une structure porteuse de génome. C'est un compartiment qui se trouve en avoir généralement gardé un, et le [type cellulaire dans lequel il siège est lui-même une unité qui évolue](/fr/biology/evolution/cell-types-as-units-of-evolution).
 

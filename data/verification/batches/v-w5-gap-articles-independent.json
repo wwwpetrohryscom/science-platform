@@ -2,7 +2,7 @@
   "batchId": "v-w5-gap-articles-independent",
   "reviewedDate": "2026-09-06",
   "verificationMethod": "independent",
-  "method": "Two-stage: one process wrote each article from sources it fetched and read; a separate process, which did not write it and was not asked to agree with it, then re-read every cited source itself and ruled on every numeric claim, quoted phrase, named study, date and attributed statement. The checker was instructed to fix what it found rather than report it, and to leave no claim standing that it could not verify. This is the first wave in which author and checker were different processes; earlier batches record honestly that they were not.",
+  "method": "Two-stage, and the two stages were different processes. One agent wrote each article from sources it fetched and read. A separate agent, which did not write it and was not asked to agree with it, then re-read every cited source itself and ruled on every numeric claim, quoted phrase, named study, date and attributed statement — with instructions to fix what it found rather than report it, and to leave no claim standing it could not verify. This is the first wave in which author and checker were different processes; earlier batches record honestly that they were not, and are not relabelled.",
   "articles": [
     {
       "slug": "the-oxygen-dissociation-curve",
@@ -1039,6 +1039,1655 @@
       ]
     },
     {
+      "slug": "assisted-migration-and-its-evidence",
+      "path": "content/en/ecology/conservation/assisted-migration-and-its-evidence.md",
+      "status": "amended",
+      "claimsChecked": 48,
+      "findings": [
+        {
+          "claim": "\"Approximately half of the species assessed globally have shifted polewards or, on land, also to higher elevations\" with very high confidence",
+          "sourceChecked": "IPCC AR6 WGII SPM (PDF pulled with curl, text-extracted)",
+          "disposition": "verified",
+          "note": "Verbatim in SPM B.1.2, including \"(very high confidence)\"."
+        },
+        {
+          "claim": "Systematic review of 868 publications mentioning moving species in connection with climate change",
+          "sourceChecked": "Hällfors et al., PLoS ONE (PMC4108403)",
+          "disposition": "verified",
+          "note": "\"Of these, 868 mention moving species in connection to climate change using a specific term.\""
+        },
+        {
+          "claim": "40 distinct terms for the idea",
+          "sourceChecked": "PMC4108403",
+          "disposition": "verified",
+          "note": "\"We found 40 different terms for the idea.\""
+        },
+        {
+          "claim": "assisted migration 563 mentions, assisted colonisation 121, managed relocation 94",
+          "sourceChecked": "PMC4108403",
+          "disposition": "verified",
+          "note": "All three counts match."
+        },
+        {
+          "claim": "\"Screening those articles yielded 75 usable definitions from 60 publications\"",
+          "sourceChecked": "PMC4108403",
+          "disposition": "qualified",
+          "note": "The 75 definitions were not screened out of the 868. The paper drew 84 definitions from 66 of the 130 peer-reviewed articles carrying a term in title/abstract/keywords, then excluded nine, leaving 75 from 60. Sentence rewritten to name that 130-article subset."
+        },
+        {
+          "claim": "Forestry's three-part split: assisted population migration, assisted range expansion, assisted species migration",
+          "sourceChecked": "Frontiers in Forests and Global Change 10.3389/ffgc.2024.1454329",
+          "disposition": "verified",
+          "note": "All three categories and their range relationships confirmed."
+        },
+        {
+          "claim": "Forestry practitioners say the practice is \"still not widely implemented outside research\"",
+          "sourceChecked": "Frontiers ffgc.2024.1454329",
+          "disposition": "verified",
+          "note": "Paper states \"Today, FAM is still not widely implemented outside the context of research.\""
+        },
+        {
+          "claim": "\"Working forestry concentrates on the first two\"",
+          "sourceChecked": "Frontiers ffgc.2024.1454329 and Twardek et al. 2023",
+          "disposition": "corrected",
+          "note": "Neither source says forestry concentrates on the first two categories. Twardek says \"In most cases, interventions have focused on assisted population migration.\" Changed to \"Most interventions to date have concentrated on the first of these.\""
+        },
+        {
+          "claim": "Table: assisted species migration has \"Almost nothing beyond research plots\"",
+          "sourceChecked": "Twardek et al. 2023, Box 1",
+          "disposition": "corrected",
+          "note": "Three of the six documented conservation implementations were long moves outside range (Camellia 390 km, Manglietia 202 km, Florida torreya to Wisconsin/Michigan/New Hampshire). Cell now reads \"A few rare-tree plantings; otherwise research plots.\""
+        },
+        {
+          "claim": "IUCN 2013: inside indigenous range sits population restoration — reinforcement and reintroduction",
+          "sourceChecked": "IUCN SSC 2013 guidelines (PDF, text-extracted locally)",
+          "disposition": "verified",
+          "note": "Section 2 definitions confirm the classification exactly."
+        },
+        {
+          "claim": "Outside indigenous range sits conservation introduction, of which assisted colonisation is one",
+          "sourceChecked": "IUCN SSC 2013",
+          "disposition": "verified",
+          "note": "Conservation introduction comprises assisted colonisation and ecological replacement."
+        },
+        {
+          "claim": "Such releases \"repeatedly produced invaders with severely adverse impacts\"",
+          "sourceChecked": "IUCN SSC 2013",
+          "disposition": "corrected",
+          "note": "Source reads \"numerous examples of species released outside their indigenous ranges subsequently becoming invasive, often with massively adverse impacts.\" The article dropped \"often\" and weakened \"massively\" to \"severely\". Rewritten to track the source."
+        },
+        {
+          "claim": "Where low risk cannot be reliably established the guidelines say not to proceed",
+          "sourceChecked": "IUCN SSC 2013",
+          "disposition": "verified",
+          "note": "\"Where a high degree of uncertainty remains or it is not possible to assess reliably that a conservation introduction presents low risks, it should not proceed.\""
+        },
+        {
+          "claim": "\"One line in the risk annex carries the weight: lack of data does not indicate absence of risk\"",
+          "sourceChecked": "IUCN SSC 2013",
+          "disposition": "qualified",
+          "note": "The wording is exact but the location was wrong: it is in Guidelines Section 6 (Risk assessment), not an annex. Changed to \"the risk-assessment section\"."
+        },
+        {
+          "claim": "Evidence map screened 1,000 articles",
+          "sourceChecked": "Twardek et al. 2023, Biological Conservation 280:109932",
+          "disposition": "verified",
+          "note": "1309 records deduplicated to 1000 unique articles, all screened."
+        },
+        {
+          "claim": "204 studies from 97 articles",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "Verbatim in Results."
+        },
+        {
+          "claim": "Experimental 127, inadvertent 71, conservation implementation 6",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "n = 127, n = 71, n = 6 (Box 1)."
+        },
+        {
+          "claim": "143 species; trees 127 studies, other vascular plants 45",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "All three figures match."
+        },
+        {
+          "claim": "North America 129 movements, Europe 54",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "\"North America (n = 129), followed by Europe (n = 54).\""
+        },
+        {
+          "claim": "27 studies, 13 per cent, reported at-risk status",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "\"13 % (27/204) of studies reported some form of at-risk status.\""
+        },
+        {
+          "claim": "193 individual-level assessments; survival 143, growth 127; population/community 11",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "All four counts match."
+        },
+        {
+          "claim": "Four studies quantified effects on non-target taxa in the recipient community",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "\"Only four studies quantified impacts of assisted migration on non-target taxa within the recipient community.\""
+        },
+        {
+          "claim": "Assessment intervals under a year to 98 years, median two",
+          "sourceChecked": "Twardek et al. 2023",
+          "disposition": "verified",
+          "note": "\"ranged from <1 year to 98 years, with a median assessment interval of 2 years.\""
+        },
+        {
+          "claim": "Northern England 2000: marbled white 65 km and small skipper 35 km beyond range margins, sites from species-climate models, both grew and expanded over six years",
+          "sourceChecked": "Twardek et al. 2023, Box 1 (Willis et al. 2009)",
+          "disposition": "verified",
+          "note": "Box gives 35 km (T. sylvestris) and 65 km (M. galathea); article's species-to-distance pairing is correct."
+        },
+        {
+          "claim": "Oberthür's grizzled skipper: six sites 70 km beyond northern limit in southern Sweden, survived at two after eight years, one viable metapopulation",
+          "sourceChecked": "Twardek et al. 2023, Box 1 (Widhalm et al. 2020)",
+          "disposition": "verified",
+          "note": "Exact match."
+        },
+        {
+          "claim": "45 grafted Camellia changii \"survived two years at a reserve 390 km north\"",
+          "sourceChecked": "Twardek et al. 2023, Box 1 (Ren et al. 2016a)",
+          "disposition": "corrected",
+          "note": "The 45 grafted individuals were planted back at their source location OR at the reserve 390 km north, with 100% survival at both sites after two years — not all at the reserve. Sentence rewritten."
+        },
+        {
+          "claim": "Manglietia longipedunculata reached 96 per cent grafted survival five years after a 202 km move",
+          "sourceChecked": "Twardek et al. 2023, Box 1 (Ren et al. 2016b)",
+          "disposition": "qualified",
+          "note": "Figures correct, but the source adds that survival was lower than for individuals introduced within the existing range — a caveat that matters where the article calls the results encouraging. Added."
+        },
+        {
+          "claim": "\"Those six are few enough to describe\" (only five were described)",
+          "sourceChecked": "Twardek et al. 2023, Box 1",
+          "disposition": "corrected",
+          "note": "Box 1's sixth case was missing: the Torreya Guardians moving Florida torreya seeds and seedlings from Florida and South Carolina to North Carolina and later Wisconsin, Michigan and New Hampshire under an ESA exception, thriving in some states and merely surviving in the coolest after about a decade. Added."
+        },
+        {
+          "claim": "Assisted gene flow defined as managed translocation within the current species range to speed adaptation to climate change",
+          "sourceChecked": "Aitken & Bemmels, Evolutionary Applications (PMC4780373)",
+          "disposition": "verified",
+          "note": "Source: \"the managed translocation of individuals within the current species range to facilitate rapid adaptation to climate change.\""
+        },
+        {
+          "claim": "Height growth rising 3.6 per cent per degree Celsius of provenance mean annual temperature",
+          "sourceChecked": "PMC4780373",
+          "disposition": "verified",
+          "note": "3.6%/°C, 95% CI 2.1–5.1."
+        },
+        {
+          "claim": "Significant clines in 14 of 23 datasets, mean R² 0.43",
+          "sourceChecked": "PMC4780373",
+          "disposition": "verified",
+          "note": "14 of 23 datasets (13 of 18 species); mean R² 0.43."
+        },
+        {
+          "claim": "Autumn phenology clines across all six datasets at 6.3 days per degree",
+          "sourceChecked": "PMC4780373",
+          "disposition": "verified",
+          "note": "6.3 d/°C, significant and consistent in all 6 datasets."
+        },
+        {
+          "claim": "Spring phenology significant in only 6 of 11",
+          "sourceChecked": "PMC4780373",
+          "disposition": "verified",
+          "note": "6 of 11 datasets, inconsistent direction."
+        },
+        {
+          "claim": "Populations 130 km latitude or 60 m elevation behind their climatic niches, reaching 340 km or 140 m by the 2020s",
+          "sourceChecked": "PMC4780373",
+          "disposition": "verified",
+          "note": "Both current and projected lags match."
+        },
+        {
+          "claim": "Advises matching seed to projections about two decades ahead",
+          "sourceChecked": "PMC4780373",
+          "disposition": "verified",
+          "note": "\"matched for temperature regime... with expected site conditions in about two decades.\""
+        },
+        {
+          "claim": "Lodgepole pine planted in British Columbia in 1974, re-analysed 30 years later from tree rings; until 1992 southern warm-adapted trees matched local trees, then a spring frost permanently reduced growth; first fifteen years would have supported a different conclusion",
+          "sourceChecked": "Twardek et al. 2023, Box 2C (Illingworth 1978; Montwé et al. 2018)",
+          "disposition": "verified",
+          "note": "Every element confirmed, including \"the first ~15 years of data would have yielded\" a different conclusion."
+        },
+        {
+          "claim": "A 2008 assessment put 7.5 per cent of North America's invasive plants at intracontinental origin",
+          "sourceChecked": "Science Advances (PMC10550228)",
+          "disposition": "verified",
+          "note": "\"A previous study, published in 2008, estimated a proportion of 7.5% intracontinental plants in North America.\""
+        },
+        {
+          "claim": "243 mainland regions on four continents; 4,510 flowering plant species with intracontinental origins",
+          "sourceChecked": "PMC10550228",
+          "disposition": "verified",
+          "note": "Both figures, and \"flowering plant species\", are the paper's own wording."
+        },
+        {
+          "claim": "3.9 per cent of all plant species, 56.7 per cent of all naturalised species; 64.5 per cent in Europe, 15.6 per cent in Australia",
+          "sourceChecked": "PMC10550228",
+          "disposition": "verified",
+          "note": "Europe/Australia figures are shares of all naturalised aliens, consistent with the article's construction."
+        },
+        {
+          "claim": "Median poleward naturalisation of 5.2 degrees latitude, about 572 km, against natural poleward expansion of 1 to 2 km a year",
+          "sourceChecked": "PMC10550228",
+          "disposition": "verified",
+          "note": "5.20 degrees / 572 km; 1–2 km per year cited from previous studies."
+        },
+        {
+          "claim": "The authors attribute the gap with the 2008 figure to the earlier study counting invasive species, a subset defined by impact and spread",
+          "sourceChecked": "PMC10550228",
+          "disposition": "verified",
+          "note": "Matches the paper's reconciliation sentence, including the lower-abundance/smaller-range point."
+        },
+        {
+          "claim": "\"A review of 111 case studies of intentional introductions and eradications, 28 of them assisted migration, found 36 per cent reporting some unintended outcome\"",
+          "sourceChecked": "Conservation Biology (PMC9291768)",
+          "disposition": "corrected",
+          "note": "Wrong denominator. Screening produced 172 cases (28 assisted migration, 15 rewilding, 63 biocontrol, 13 gene drive, 53 invasive removal); 111 is only the subset documenting outcomes, and 36% is a share of those 111. The 28 is not drawn from the 111. Rewritten as 172 cases, 28 assisted migration, 36% of the 111 that documented an outcome."
+        },
+        {
+          "claim": "Douglas-fir moved up to 450 km within its range left ectomycorrhizal richness unchanged four decades on",
+          "sourceChecked": "Twardek et al. 2023, Box 2B (Kranabetter et al. 2012)",
+          "disposition": "qualified",
+          "note": "Richness genuinely did not differ, but the source adds that Shannon diversity declined slightly and there were significant site-specific community differences — the cited paper is titled \"Divergence in ectomycorrhizal communities...\". Caveat added so the example is not read as a clean null."
+        },
+        {
+          "claim": "Trout stocked into fishless alpine lakes left invertebrate richness unchanged but community structure altered",
+          "sourceChecked": "Twardek et al. 2023, Box 2A (Banting et al. 2021)",
+          "disposition": "verified",
+          "note": "Similar richness and diversity across lake types; benthic community structure differed in lakes with fish."
+        },
+        {
+          "claim": "Final rule effective 2 August 2023 revising ESA experimental-population regulations",
+          "sourceChecked": "88 FR 42642, FR Doc 2023-13672 (govinfo, fetched with curl)",
+          "disposition": "verified",
+          "note": "\"This final rule is effective August 2, 2023.\""
+        },
+        {
+          "claim": "Populations may be established outside historical range where habitat inside it has undergone, or is expected to undergo, irreversible decline from threats such as climate change or invasive species",
+          "sourceChecked": "88 FR 42642",
+          "disposition": "verified",
+          "note": "Summary text: habitat \"has undergone, is undergoing, or is anticipated to undergo irreversible decline... due to threats such as climate change or invasive species.\""
+        },
+        {
+          "claim": "It drew just under 570 public comments",
+          "sourceChecked": "88 FR 42642",
+          "disposition": "verified",
+          "note": "\"we received just under 570 public comments on our proposed rule.\""
+        },
+        {
+          "claim": "Service said it would consider whether such a population could become invasive, judged it unlikely because listed species do not typically have the characteristics of invasive species, and added an ecosystem-effects analysis requirement",
+          "sourceChecked": "88 FR 42642, Comment 15 response",
+          "disposition": "verified",
+          "note": "All three elements appear verbatim in the response, including the new subparagraph at 50 CFR 17.81(b)."
+        },
+        {
+          "claim": "\"Its worked examples, the Guam rail and the sihek, have no suitable historical-range habitat left\"",
+          "sourceChecked": "88 FR 42642",
+          "disposition": "qualified",
+          "note": "True of those two species (\"no longer have any habitat within their historical range that is suitable for reintroduction\"), but the rule also works through the Florida Key deer, so \"its worked examples\" was over-exclusive. Changed to \"Among the examples it works through\"."
+        }
+      ]
+    },
+    {
+      "slug": "calibration-and-why-a-sensor-drifts",
+      "path": "content/en/ecology/earth-observation/calibration-and-why-a-sensor-drifts.md",
+      "status": "amended",
+      "claimsChecked": 54,
+      "findings": [
+        {
+          "claim": "MODIS carries four on-board calibrators, enumerated as blackbody, solar diffuser, SRCA and the deep space view",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "corrected",
+          "note": "Count of four is right, membership wrong. The source's four OBCs are Blackbody, Solar Diffuser, SDSM and SRCA; deep space and lunar are viewing directions, not OBCs. The article listed deep space as the fourth then introduced the SDSM later as 'a fourth device', contradicting itself. Re-enumerated with SDSM fourth; deep space and lunar moved to a separate paragraph as references that are 'not hardware at all but directions to point in'."
+        },
+        {
+          "claim": "The WMO CO2 X2019 scale 'comprises 19 primary standards covering the nominal mole fraction range 250 - 800 ppm'",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "corrected",
+          "note": "Presented as a direct quotation but misquoted; the page reads 'is based on 19 primary standards covering...'. Changed 'comprises' to 'based on' so the quoted words are the source's. Count and range were correct."
+        },
+        {
+          "claim": "The loss correction is around 0.14 ppm at typical concentrations",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "corrected",
+          "note": "The paper gives 0.14 ppm for one worked example on a 380 ppm sample, and shows 0.13 ppm under a different assumption about when loss begins. 'At typical concentrations' turned a single illustrative case into a constant. Rewritten to name the 380 ppm example and flag it as illustrative."
+        },
+        {
+          "claim": "For a period, two versions of the same record existed and disagreed about the sign of a decadal trend",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "removed",
+          "note": "No cited source states a sign disagreement. The paper says only that C5 carries spurious negative trends and C6 removes/reduces them; removing a negative artefact is not the two collections reporting opposite signs. Replaced with what is supported: parallel production, one collection carrying trends the other had corrected."
+        },
+        {
+          "claim": "Outgassed material condenses on cold optical surfaces; UV and energetic particles darken glasses and damage detector lattices; mirror coatings change reflectance; diffuser panels yellow",
+          "sourceChecked": "none of the nine cited sources",
+          "disposition": "removed",
+          "note": "Uncited paragraph of specific physical mechanisms; 'diffuser panels yellow' attributes a discolouration mechanism no source supports. Replaced with the two mechanisms the cited sources establish: the documented increase in MODIS Terra polarisation sensitivity from about 2007, and the change in solar diffuser reflectance evidenced by the SDSM's existence."
+        },
+        {
+          "claim": "Excerpt: 'every published value moved by 0.18 ppm at 400 ppm'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "corrected",
+          "note": "The 0.18 ppm offset is the scale difference at 400 ppm specifically, not a uniform shift applied to every published value. Reworded to say the scale moved by 0.18 ppm at 400 ppm and the record had to be re-expressed."
+        },
+        {
+          "claim": "NOAA's Global Monitoring Laboratory acts as the WMO Central Calibration Laboratory for carbon dioxide",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "resourced",
+          "note": "True, but the NOAA page cited for it does not state it (phrase appears only in site nav and the /ccl/ URL). Hall et al. 2021 states it outright; re-attributed to source 1 and quoted."
+        },
+        {
+          "claim": "The WMO scales are named for the year they were adopted",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "resourced",
+          "note": "The NOAA page never explains the naming convention, only uses the names. Hall et al. 2021: '...where X is used to denote mole fraction and 2007 is the year in which the assigned values were adopted.' Re-attributed and quoted, recovering the detail that X denotes mole fraction."
+        },
+        {
+          "claim": "Fifteen of the nineteen primary standards had defined the previous scale X2007",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "qualified",
+          "note": "Source adds their values were 'updated based on additional manometric episodes and improved knowledge of the NOAA manometer'. Article implied straight carry-over; added that values were updated rather than replaced — which is why a re-used cylinder still shifts the scale."
+        },
+        {
+          "claim": "A view of deep space 'provides a photon input signal of zero', fixing the other end of the response curve",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "qualified",
+          "note": "Source says it supplies 'a photon input signal of zero, which will be used as an additional point of reference for calibration'. The truncation dropped the source's own characterisation and substituted a stronger one. Full quotation restored, response-curve reading kept as the article's gloss."
+        },
+        {
+          "claim": "Lunar observations are used as an additional stable target",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "qualified",
+          "note": "Understated the source, which gives the Moon a specific role: it 'remains stable throughout the mission, providing a secondary method for tracking Solar Diffuser degradation'. Rewritten to name that role, since it is what makes the lunar view bear on the article's regress argument."
+        },
+        {
+          "claim": "The sites are peer-reviewed and their traceability is 'underpinned by the United Kingdom's National Physical Laboratory (NPL)'",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "qualified",
+          "note": "Both halves supported but compressed. Peer review attaches to each member site's own quality assurance ('is subject to peer review and rigorous comparison'); NPL underpins 'site-to-site consistency and SI traceability' as a national metrology institute. Scoped to source wording and SI named, since the closing section carefully distinguishes traceability."
+        },
+        {
+          "claim": "An enhanced version adds a polarisation correction for increased MODIS Terra polarisation sensitivity since about 2007, plus detrending and Terra-Aqua cross-calibration over desert sites",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "qualified",
+          "note": "Supported, but 'an enhanced version' withheld the name the reader meets in the data (C6+), and 'desert sites' dropped 'quasi-stable desert calibration sites' — the property that makes them usable. Named C6+ and quoted the clause in full."
+        },
+        {
+          "claim": "Collection 5 remained in production alongside Collection 6",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "qualified",
+          "note": "The paper bounds it: 'As the C5 production will be maintained for another year in parallel with C6...'. Open-ended phrasing implied indefinite overlap; full sentence quoted and overlap scoped to that year."
+        },
+        {
+          "claim": "'Sensor degradation is largest in the blue band (B3) of the MODIS sensor on Terra and decreases with wavelength.'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified",
+          "note": "Checked separately whether the paper quantifies the blue-band loss: it does not. Added an explicit sentence saying so, so the article cannot be read as implying an unstated magnitude."
+        },
+        {
+          "claim": "All primary standards are 'natural air in high pressure aluminum cylinders'",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Secondary standards are used in the hierarchy to extend the lifetime of the primary standards' / 'Tertiary standards are distributed to the WMO community'",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "X2019 'is 0.18 µmol mol−1 (ppm) greater than the previous scale at 400 ppm CO2... small in relative terms (0.045 %)... significant in terms of atmospheric monitoring.'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Second virial coefficient 'calculated corresponding to a temperature that was 10 K higher than the actual TCO2 (320 K instead of 310 K) due to an interpolation error'; XCO2 underestimated 'by about ∼ 0.03 ppm at 400 ppm'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The authors 'suspect that CO2 absorbs to Viton O-rings and possibly adsorbs to surfaces of the small volume'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The expanded uncertainty at 400 ppm is '0.17 ppm or 0.043 %'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Blackbody is 'the prime calibration source for the mid- and long-wave infrared bands (located from 3.5 µm to 14.4 µm)'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Solar diffuser 'provides a diffuse, solar-illuminated calibration source for the visible, near infrared, and short-wave infrared bands (0.4 µm < = lambda < = 2.2 µm)'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "SRCA provides 'in-flight spectral, radiometric, and spatial calibration'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The SDSM 'tracks changes in the reflectance of the SD via reference to the sun so that potential instrument changes are not incorrectly attributed to changes in the calibration source.'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "SDSM uses 'nine filtered detectors' at wavelengths 'between 0.4 mm and 1.0 mm'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/sdsm.php",
+          "disposition": "verified",
+          "note": "The page really does print 'mm' where it means µm; the article flags this rather than silently correcting a quotation, which is the right handling."
+        },
+        {
+          "claim": "'A three-position fold mirror enables the detectors to view sequentially a dark scene, direct sunlight, and illumination from the Solar Diffuser'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/sdsm.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The direct solar view is attenuated through 'a two-percent transmitting screen'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/sdsm.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "OLI baffle 'occasionally pointed at the sun so that a diffuser panel can reflect solar illumination into the telescope'",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/oli",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Two lamp assemblies, with six small lamps each, inside an integrating hemisphere' illuminating the focal plane with the shutter closed",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/oli",
+          "disposition": "verified"
+        },
+        {
+          "claim": "OLI 'calibrated to an uncertainty of less than 5% for spectral radiance', 'less than 3% for top-of-atmosphere spectral reflectance', band widths 'within 3% of specified values across the field-of-view'",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/oli",
+          "disposition": "verified"
+        },
+        {
+          "claim": "RadCalNet maintains 'five instrumented reference test sites (with more in preparation)' — Railroad Valley USA, La Crau France, two at Baotou China, Gobabeb Namibia",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "RadCalNet publishes TOA reflectance 'at a 10 nm spectral sampling interval' over 'the spectral range from 400 nm to 2500 nm', 'at 30 minute intervals'",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "RadCalNet is run under the Committee on Earth Observation Satellites",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "verified",
+          "note": "Specifically the CEOS Working Group on Calibration and Validation (WGCV)."
+        },
+        {
+          "claim": "Alignment with the Quality Assurance Framework for Earth Observation (QA4EO)",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Full list of MODIS C5 products carrying spurious negative trends (AOD over land, Ångström exponent over ocean, liquid water and ice cloud optical thickness, surface reflectance, NDVI, EVI)",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Collection 6 'removes major calibrations trends in the Level 1B (L1B) data'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Removes 'residual decadal trends on the order of several tenths of 1% of the top-of-atmosphere (TOA) reflectance in the visible and near-infrared MODIS bands B1–B4'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Over the southern United States C6+ removed 'an additional negative decadal trend of Terra ΔNDVI ~ 0.01 as compared to Aqua data'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "One purpose of the paper was 'to raise awareness of the calibration-related trends for the broad MODIS user community'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Lyapustin and colleagues (2014), 'Scientific impact of MODIS C5 calibration degradation and C6+ improvements'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified",
+          "note": "Title, year and authorship confirmed; full 14-author list added to the Sources entry."
+        },
+        {
+          "claim": "NIST VIM definition: 'property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations, each contributing to the measurement uncertainty'",
+          "sourceChecked": "https://www.nist.gov/calibrations/traceability",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'traceability alone does not signify or guarantee fitness for purpose, because this typically requires that the uncertainty associated with a measured value or calibration be sufficiently small to satisfy a particular measurement need'",
+          "sourceChecked": "https://www.nist.gov/calibrations/traceability",
+          "disposition": "verified"
+        },
+        {
+          "claim": "USGS describes Landsat Collection 2 as 'the second major reprocessing effort on the Landsat archive'",
+          "sourceChecked": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Structural: 8 internal links resolve; 4 related slugs + pillar slug resolve; excerpt 285 chars; metaTitle 35 chars; YAML parses; no H1",
+          "sourceChecked": "repo tree + app/[locale]/data/indicators/[indicator] route + data/indicators/definitions.json",
+          "disposition": "verified",
+          "note": "/en/data/indicators/atmospheric-co2 is not a markdown file but a valid data-driven route with the indicator present in definitions.json and a series file — correct as written. Stale frontmatter fixed separately: readingTime 7→12 (corpus convention words/220; was already stale before this pass) and _bodyHash recomputed to f3a83dc8."
+        }
+      ]
+    },
+    {
+      "slug": "anomalies-baselines-and-reference-periods",
+      "path": "content/en/ecology/earth-systems/anomalies-baselines-and-reference-periods.md",
+      "status": "amended",
+      "claimsChecked": 57,
+      "findings": [
+        {
+          "claim": "\"Absolute temperature varies enormously over short distances, while monthly or annual temperature anomalies are representative of a much larger region\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Anomaly correlation length attributed to Hansen and Lebedeff (1987)",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Temperature anomalies are strongly correlated out to distances of the order of 1000 km\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Makes it significantly more accurate to estimate anomalies between stations and in data-sparse areas\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainty on the absolute global baseline temperature around 0.5 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainty on the annual anomaly closer to 0.06 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Error in the sum of the two is still 0.5 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Pre-2000 reports used a 15 °C baseline, post-2000 about 14 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Comparing old and new absolute reports \"suggests the planet cooled by a degree\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "qualified",
+          "note": "Source says such comparisons \"give the misleading impression that temperatures had cooled dramatically\" and that the baselines \"were changed by a degree Celsius after further research\". Rewritten to quote GISS's own characterisation rather than assert the reader's inference as fact."
+        },
+        {
+          "claim": "GISTEMP base period is 1951–1980",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Finding absolute regional means encounters significant difficulties that create large uncertainties\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The primary focus of the GISS analysis are long-term temperature changes over many decades and centuries, and a fixed base period yields anomalies that are consistent over time\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"No matter what base period is selected, since the normal temperature used as base point ... is the same for both years\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Converting a GISTEMP anomaly from 1951–1980 to 1850–1900 means adding about 0.19 °C as of January 2025",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"These numbers may change slightly in the future as more data is digitized or if the methodologies change\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An agency focused on current conditions has reason to move its normal, so roughly half of recent data falls on each side",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1951–1980 is \"a fixed 30-year window retained since the analysis began\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "corrected",
+          "note": "The FAQ supports only that GISS stays with 1951–1980 (\"Why does GISS stay with the 1951-1980 base period?\"); no cited source dates the window to the start of the analysis. Changed to \"a fixed 30-year window GISS has declined to move\"."
+        },
+        {
+          "claim": "An annual global anomaly is uncertain at the level of a few hundredths of a degree",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified",
+          "note": "FAQ: uncertainty of annual global means after 1960 about ±0.05 °C."
+        },
+        {
+          "claim": "1990 \"is the baseline year for the Kyoto Protocol, an early climate agreement\"",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Unperturbed 1750 abundance C0 = 278.3 ppm",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Unperturbed 1750 abundance M0 = 729.2 ppb",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Unperturbed 1750 abundance N0 = 270.1 ppb",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "X0 = 0 ppt for the seventeen minor halogenated gases",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified",
+          "note": "Table 1 note: \"X is the same for the 17 minor gases in ppt\"."
+        },
+        {
+          "claim": "The AGGI is the ratio of a year's total effective radiative forcing to the 1990 value",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "2024 total effective radiative forcing 3.539 W m⁻²",
+          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+          "disposition": "verified",
+          "note": "CSV 2024 row; the page text rounds to 3.54 W m⁻². Rounding now noted in the source line."
+        },
+        {
+          "claim": "AGGI 1.538 for 2024",
+          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+          "disposition": "verified",
+          "note": "CSV 2024 row; the page text rounds to 1.54."
+        },
+        {
+          "claim": "1990 total forcing 2.301 W m⁻²",
+          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+          "disposition": "verified",
+          "note": "CSV 1990 row; 3.539/2.301 = 1.538, so the article's arithmetic holds."
+        },
+        {
+          "claim": "Reference series TOPEX/Poseidon (1992), Jason-1, Jason-2, Jason-3, Sentinel-6MF — five spacecraft",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global mean sea level estimated every 10 days with an uncertainty of 3–4 mm",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Published trend of 3.11 mm per year with no glacial isostatic adjustment",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "verified",
+          "note": "CSV header: \"#trend = 3.11 mm/year (no glacial isostatic adjustment correction)\"."
+        },
+        {
+          "claim": "First cycle in late 1992 sits about 15 mm below the file's zero",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "verified",
+          "note": "First data row 1992.96140 = −14.57 mm."
+        },
+        {
+          "claim": "\"The zero is an instrument epoch, not a thirty-year average\" and \"relative to the start of the record\" is \"a fitted convention\"",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "corrected",
+          "note": "Neither the page nor the file says what the zero is, nor that it was fitted. Rewritten to the supported facts only: the record begins in 1992 so no thirty-year normal is available, and the zero is not the first measurement (first cycle −14.57 mm)."
+        },
+        {
+          "claim": "Reading rule: \"the altimeter's zero is a launch date\"",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "corrected",
+          "note": "Contradicted by the file's own first cycle, 14.57 mm below zero. Changed to \"an artefact of one processing of one record\"."
+        },
+        {
+          "claim": "Excerpt and lede: global mean sea level is stated \"relative to the start of the altimeter record\"",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "corrected",
+          "note": "Same contradiction, in the two most prominent places in the article. Both now say the zero is internal to the altimeter file."
+        },
+        {
+          "claim": "WMO climatological standard normals defined as 30-year averages, 1 Jan 1981–31 Dec 2010, 1 Jan 1991–31 Dec 2020, etc.",
+          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The period from 1961 to 1990 has been retained as a standard reference period for long-term climate change assessments\"",
+          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WMO keeps a rolling standard normal alongside the fixed 1961–1990 reference",
+          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
+          "disposition": "verified",
+          "note": "The 2015 Congress changed the standard normal to the most recent 30-year period ending in 0, which is what makes it rolling."
+        },
+        {
+          "claim": "\"Rising atmospheric concentrations of greenhouse gases are changing the Earth's climate much faster than before, and therefore WMO has agreed that the standard 30-year reference period has to be updated every decade\"",
+          "sourceChecked": "https://wmo.int/media/news/its-warmer-average-what-average",
+          "disposition": "resourced",
+          "note": "Wording is exact but the quote is NOT on the cited WMO Climatological Normals page. Traced to the WMO news article \"It's warmer than average. But what is average?\" (13 July 2022), added as source 6 and attributed inline; the quote was also restored to its full sentence rather than cut mid-clause with a period inside the quotation marks."
+        },
+        {
+          "claim": "The IPCC and WMO track Paris Agreement progress against 1850–1900",
+          "sourceChecked": "https://wmo.int/media/news/its-warmer-average-what-average",
+          "disposition": "verified",
+          "note": "\"the pre-industrial reference period, 1850-1900, is used by WMO and IPCC as the baseline for estimating past and future global temperature increases\"; corroborated by the Copernicus page's Paris Agreement wording."
+        },
+        {
+          "claim": "\"The main reference period used for the Climate Bulletin is 1991–2020. This is the period recommended by the WMO for monitoring recent climate.\"",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1850–1900 is \"the earliest feasible reference period for the globe based on instrumental data\"",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified",
+          "note": "Attribution tightened: the phrase is Copernicus's, and the source gives monitoring against the Paris Agreement limits as the reason for the choice, which the article now states rather than compressing into \"chosen because\"."
+        },
+        {
+          "claim": "Standard offset of 0.88 °C added to the annual global anomaly with respect to 1991–2020",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainty range 0.72 to 0.99 °C on that offset",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Monthly offsets range between 0.80 and 0.96 °C",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Daily offsets range between 0.79 and 0.97 °C",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Annual European offset of 1.45 °C",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "qualified",
+          "note": "Source adds that the offset \"is not fixed, as it is based on the latest versions of the datasets used\" and is applied to the 2024 anomaly. Caveat added, which strengthens the paragraph's own point."
+        },
+        {
+          "claim": "Global surface temperature 1.09 [0.95 to 1.20] °C higher in 2011–2020 than 1850–1900",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+          "disposition": "verified",
+          "note": "SPM A.1.2, verbatim."
+        },
+        {
+          "claim": "\"Changes relative to the recent reference period 1995–2014 may be calculated approximately by subtracting 0.85 °C, the best estimate of the observed warming from 1850–1900 to 1995–2014\"",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+          "disposition": "verified",
+          "note": "Table SPM.1 caption, verbatim."
+        },
+        {
+          "claim": "AR6's assessment for the AR5 reference period 1986–2005 is higher by 0.08 [−0.01 to +0.12] °C than AR5's",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+          "disposition": "verified",
+          "note": "Table SPM.1 caption, verbatim including the bracketed range."
+        },
+        {
+          "claim": "Land annual maximum temperatures from three datasets computed against 1961–1990 and shifted by 0.51 °C to express them against 1850–1900",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
+          "disposition": "verified",
+          "note": "TXx from HadEX3, Berkeley Earth and ERA5; Sect. 10 and Table 9."
+        },
+        {
+          "claim": "\"Temperature anomalies align by construction over this period but can diverge afterwards\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1850–1900 stands in for \"the period before 1750, even though a small amount of warming likely occurred over 1750–1850\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
+          "disposition": "verified",
+          "note": "Sect. 8.1, verbatim."
+        },
+        {
+          "claim": "WMO \"requires each member nation to compute 30-year meteorological quantity averages at least every 30 years (1931–1960, 1961–1990, 1991–2020, etc.), and recommends an update each decade\"",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Most of the country warmer and the eastern two-thirds wetter in 1991–2020 than 1981–2010",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "qualified",
+          "note": "Source specifies the contiguous U.S. for the wetter finding and adds two countervailing facts the article omitted: \"The Southwest was considerably drier on an annual basis, while the central northern U.S. has cooled somewhat.\" Both added, and the following inference narrowed from all weather to where the normal actually rose."
+        },
+        {
+          "claim": "1981–2010 normals computed from the 2011 version of NCEI's data holdings, 1991–2020 from an early-2021 version, homogenised a decade apart",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Twenty years of overlap mute the apparent change between successive normals",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The position taken here on the 0–2000 m ocean heat content series, which is usable as a change and not as a level\"",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals (and every other cited source)",
+          "disposition": "removed",
+          "note": "No cited source addresses ocean heat content at all, and the site's own ocean-heat-content-indicators article states the opposite framing (OHC \"is reported as anomaly relative to a reference period\"). The cross-reference to a 'position taken here' also pointed at nothing. Replaced with the equivalent rule stated for surface temperature, which sources 1 and 2 do support."
+        }
+      ]
+    },
+    {
+      "slug": "soil-horizons-and-reading-a-profile",
+      "path": "content/en/ecology/soils/soil-horizons-and-reading-a-profile.md",
+      "status": "amended",
+      "claimsChecked": 64,
+      "findings": [
+        {
+          "claim": "WRB: a soil layer is \"a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it.\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Ch. 2.1 General rules, rule 4",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "WRB: \"If at least one of these properties is the result of soil-forming processes, the layer is called a soil horizon.\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Ch. 2.1 rule 4",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "FAO: soil description \"serves as the basis for soil classification and site evaluation as well as interpretations on the genesis and environmental functions of the soil.\"",
+          "sourceChecked": "FAO a0541e.pdf, Ch. 1 Introduction",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "\"currently, ten master horizons and layers and seven transitional horizons are recognized\"",
+          "sourceChecked": "FAO a0541e.pdf, Ch. 5, Master horizons and layers",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Master letters are H, O, A, E, B, C, R, I, L and W",
+          "sourceChecked": "FAO a0541e.pdf, Ch. 5",
+          "disposition": "verified",
+          "note": "Exact list."
+        },
+        {
+          "claim": "\"Seven carry almost all the description done on land; I, L and W are ice, limnic sediment and water.\"",
+          "sourceChecked": "FAO a0541e.pdf, Ch. 5",
+          "disposition": "corrected",
+          "note": "The 'seven carry almost all the description' framing is the writer's, not the source's. Replaced with the FAO's own wording: three of the ten are set apart as \"additional layers associated with some soils\" — I ice, L limnic materials, W water layers."
+        },
+        {
+          "claim": "O horizon: \"undecomposed or partially decomposed litter, such as leaves, needles, twigs, moss and lichens, that has accumulated on the surface\"; not saturated for prolonged periods",
+          "sourceChecked": "FAO a0541e.pdf, O horizons or layers",
+          "disposition": "verified",
+          "note": "Both verbatim."
+        },
+        {
+          "claim": "\"H is its waterlogged counterpart, which is why peat sits under H.\"",
+          "sourceChecked": "FAO a0541e.pdf (H horizons); WRB 4th ed. Annex 3 Table 10.1",
+          "disposition": "resourced",
+          "note": "The FAO source cited never mentions peat. WRB Annex 3 Table 10.1 states H is \"generally regarded as peat layer or organic limnic layer\". Rewritten to cite WRB for the peat gloss and FAO for the saturation criterion (\"saturated with water for prolonged periods, or were once saturated but are now drained artificially\")."
+        },
+        {
+          "claim": "NEW: suffixes a, e and i grade H/O decomposition at under one-sixth, one-sixth to two-thirds, and over two-thirds visible plant remains by volume",
+          "sourceChecked": "FAO a0541e.pdf, Table 85 and suffix explanations a, e, i",
+          "disposition": "verified",
+          "note": "Added passage, fully sourced. Introduced to carry the soil-food-web internal link after the unsupported claim that had carried it was removed."
+        },
+        {
+          "claim": "A horizon: \"all or much of the original rock structure\" obliterated; humified organic matter intimately mixed with the mineral fraction; properties resulting from cultivation",
+          "sourceChecked": "FAO a0541e.pdf, A horizons",
+          "disposition": "verified",
+          "note": "Verbatim quote plus accurate paraphrase of the two bulleted criteria."
+        },
+        {
+          "claim": "E horizon: \"loss of silicate clay, iron, aluminium, or some combination of these, leaving a concentration of sand and silt particles\"",
+          "sourceChecked": "FAO a0541e.pdf, E horizons",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "B horizon forms below A, E, H or O; illuvial concentration of clay/Fe/Al/humus/carbonates/gypsum/silica; residual concentration of sesquioxides; alteration forming clay and structure",
+          "sourceChecked": "FAO a0541e.pdf, B horizons",
+          "disposition": "verified",
+          "note": "All three criteria present in the bulleted list."
+        },
+        {
+          "claim": "C: \"little affected by pedogenetic processes,\" excluding hard bedrock; \"separated from R by a field test rather than a definition\"",
+          "sourceChecked": "FAO a0541e.pdf, C horizons or layers",
+          "disposition": "corrected",
+          "note": "Quote and slaking test are verbatim, but C is defined (\"excluding hard bedrock ... lack properties of H, O, A, E or B\"), so \"by a field test rather than a definition\" overstated. Changed to \"the line between it and R is drawn by a field test\"."
+        },
+        {
+          "claim": "R does not slake in 24 hours; R is \"sufficiently coherent when moist to make hand digging with a spade impractical\"",
+          "sourceChecked": "FAO a0541e.pdf, R layers",
+          "disposition": "verified",
+          "note": "Both verbatim."
+        },
+        {
+          "claim": "E \"may be used without regard to position in the profile for any horizon that meets the requirements\"",
+          "sourceChecked": "FAO a0541e.pdf, E horizons",
+          "disposition": "verified",
+          "note": "Verbatim; source continues \"and that has resulted from soil genesis\", an omission that only reinforces the article's point."
+        },
+        {
+          "claim": "\"the WRB's 2022 field guide, written to replace the 2006 guidelines, lists nine master symbols rather than ten, having dropped the limnic L layer\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.2 Major changes; Annex 3 Table 10.1",
+          "disposition": "corrected",
+          "note": "Nine symbols (H, O, A, E, B, C, R, I, W) is right, but they are in Annex 3 Horizon and Layer Designations, not in Annex 1 the Field Guide. Two separate annexes conflated. Rewritten to keep the sourced \"replaces the FAO Guidelines (2006)\" line for the field guide and attribute the nine-symbol table to the layer-designation annex; also added that limnic material survives as the suffix λ."
+        },
+        {
+          "claim": "\"26 lower-case suffixes plus @ for cryoturbation\"",
+          "sourceChecked": "FAO a0541e.pdf, Table 85",
+          "disposition": "verified",
+          "note": "Table 85 uses every letter a-z (some twice, for mineral vs limnic senses) plus @ for evidence of cryoturbation."
+        },
+        {
+          "claim": "\"horizon boundaries provide information on the dominant soil-forming processes that have formed the soil\"",
+          "sourceChecked": "FAO a0541e.pdf, HORIZON BOUNDARY",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Boundaries are described in terms of depth, distinctness and topography",
+          "sourceChecked": "FAO a0541e.pdf, HORIZON BOUNDARY",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Distinctness is \"the thickness of the zone in which the horizon boundary can be located without being in one of the adjacent horizons\"",
+          "sourceChecked": "FAO a0541e.pdf, Distinctness and topography",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Abrupt 0–2 cm; clear 2–5 cm; gradual 5–15 cm; diffuse more than 15 cm",
+          "sourceChecked": "FAO a0541e.pdf, Table 24",
+          "disposition": "verified",
+          "note": "Exact match to all four classes."
+        },
+        {
+          "claim": "Topography: smooth; wavy (pockets less deep than wide); irregular (pockets more deep than wide); broken (discontinuous)",
+          "sourceChecked": "FAO a0541e.pdf, Table 24",
+          "disposition": "verified",
+          "note": "Exact match including both pocket definitions."
+        },
+        {
+          "claim": "Diffuse boundaries point to Nitisols; cryoturbation to a cryic horizon and Cryosols; tonguing of mollic or umbric to a Glossic qualifier",
+          "sourceChecked": "FAO a0541e.pdf, Note for classification purposes under Distinctness and topography",
+          "disposition": "verified",
+          "note": "All three present; source also adds the Turbic qualifier, harmlessly omitted."
+        },
+        {
+          "claim": "\"A wavy or broken boundary records something that mixed the profile after the horizons formed, which is why biological turnover belongs in the reading of a boundary.\"",
+          "sourceChecked": "FAO a0541e.pdf, Table 85 / @ suffix; whole boundary section",
+          "disposition": "removed",
+          "note": "FABRICATED causal generalisation. No cited source says wavy boundaries indicate post-formation mixing, and nothing connects boundary shape to biological turnover. The FAO gives irregular or broken boundaries only as one of three field signs of cryoturbation. Replaced with that verbatim criterion; the soil-biology link was relocated to the newly added, sourced decomposition-suffix passage."
+        },
+        {
+          "claim": "Gradual/diffuse boundaries are rounded to the nearest 5 cm, \"avoiding the suggestion of spurious levels of accuracy\"",
+          "sourceChecked": "FAO a0541e.pdf, Depth",
+          "disposition": "verified",
+          "note": "Verbatim, including the centimetre-notation rule for abrupt/clear."
+        },
+        {
+          "claim": "Near a diagnostic limit rounding is forbidden and 16 to 23 cm becomes 19.5 cm",
+          "sourceChecked": "FAO a0541e.pdf, Depth",
+          "disposition": "verified",
+          "note": "Source gives exactly this worked example."
+        },
+        {
+          "claim": "Important boundary depths are 10, 20, 25, 40, 50, 100 and 120 cm",
+          "sourceChecked": "FAO a0541e.pdf, Note for classification purposes",
+          "disposition": "verified",
+          "note": "Exact list."
+        },
+        {
+          "claim": "Master horizons are mostly \"genetic soil horizons, reflecting a qualitative judgement about the kind of changes that have taken place\"",
+          "sourceChecked": "FAO a0541e.pdf, Master horizons and layers",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "\"genetic horizons are not equivalent to diagnostic horizons, although they may be identical in soil profiles. Diagnostic horizons are quantitatively defined features used in classification.\"",
+          "sourceChecked": "FAO a0541e.pdf, Master horizons and layers",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "WRB diagnostic horizons reflect \"widespread, common results of soil-forming processes\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §3.1",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "They \"must be observable or measurable and must reach a minimum expression and a minimum thickness\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §3.1",
+          "disposition": "qualified",
+          "note": "Source says features \"can be observed or measured in the field or the laboratory\" and \"require a minimum or maximum expression\". The maximum was dropped. Restored, with the observation clause quoted."
+        },
+        {
+          "claim": "40 diagnostic horizons, 17 diagnostic properties, 19 diagnostic materials",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §§3.1.1–3.1.40, 3.2.1–3.2.17, 3.3.1–3.3.19",
+          "disposition": "verified",
+          "note": "Counted the section headings; highest are 3.1.40 Vertic, 3.2.17 Yermic, 3.3.19 Tephric."
+        },
+        {
+          "claim": "Trenton typical pedon: Ap 0–8 in abrupt smooth; Btn 8–15 in clear wavy; then Btnk1, Btnk2, Btnk3 to 60 in",
+          "sourceChecked": "USDA NRCS Official Series Description, TRENTON (raw HTML)",
+          "disposition": "verified",
+          "note": "Exact depths and boundary classes; Btnk1 15–26, Btnk2 26–34, Btnk3 34–60 in."
+        },
+        {
+          "claim": "Mollic epipedon surface to 15 in spanning Ap and Btn; natric horizon 8 to 60 in; the two overlap between 8 and 15 in",
+          "sourceChecked": "TRENTON OSD, REMARKS: Diagnostic horizons and features in this pedon",
+          "disposition": "verified",
+          "note": "Both depth ranges verbatim; the 8–15 in overlap follows arithmetically."
+        },
+        {
+          "claim": "\"Both dominant systems are keys — sequences of exclusions rather than measurements\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Step two (allocating to an RSG); TRENTON OSD REMARKS",
+          "disposition": "corrected",
+          "note": "No cited source calls these the 'dominant' systems, and 'rather than measurements' is wrong — keys are applied TO measurements. Rewritten around the WRB's own instruction to \"go through the Key systematically, starting at the beginning and excluding one by one all RSGs for which the specified requirements are not met\", plus the OSD's statement that Trenton's class comes from Keys to Soil Taxonomy."
+        },
+        {
+          "claim": "Numerical values \"have to be taken as such and must not be rounded when compared with the threshold values in the diagnostic criteria\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Ch. 2.1 rule 6",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Criteria must hold throughout the specified depth range and in each subhorizon separately with no averaging",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Ch. 2.1 rule 7",
+          "disposition": "qualified",
+          "note": "Rule 7 exempts thickness: \"the diagnostic criteria (except thickness) must be fulfilled in every subhorizon separately\". Added \"— thickness excepted —\"."
+        },
+        {
+          "claim": "On a slope thicknesses are corrected by the cosine of the slope angle",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Ch. 2.1 rule 9",
+          "disposition": "verified",
+          "note": "\"multiplying the vertically measured values by the cosine of the inclination angle\"."
+        },
+        {
+          "claim": "\"climate parameters are not applied in the classification of soils\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.4 Basic principles",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "a soil's name \"will not become obsolete due to global or local climate change\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.4",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Trenton's class encodes a temperature class and a xeric soil moisture regime; dry in all parts for 45 consecutive days or longer between July and October",
+          "sourceChecked": "TRENTON OSD, TAXONOMIC CLASS and RANGE IN CHARACTERISTICS",
+          "disposition": "verified",
+          "note": "Class is \"Fine, mixed, superactive, mesic Typic Natrixerolls\"; the OSD states the 45-day criterion and names \"Xeric soil moisture regime\" explicitly. Rewritten to quote the OSD rather than assert the inference."
+        },
+        {
+          "claim": "The 2022 WRB deleted the fulvic and melanic horizons, which \"belonged to an outdated concept of soil organic matter\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.2 Major changes",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Deleted aridic and geric properties and sulfidic material",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.2",
+          "disposition": "verified",
+          "note": "All three listed as deleted diagnostics."
+        },
+        {
+          "claim": "Introduced the cohesic, limonic, panpaic and tsitelic horizons",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.2",
+          "disposition": "verified",
+          "note": "All four listed; the article correctly restricts itself to the horizons and omits the newly introduced properties and materials."
+        },
+        {
+          "claim": "Reinstated the albic horizon with a requirement that soil-forming processes be evidenced",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.2",
+          "disposition": "verified",
+          "note": "\"the albic horizon was reintroduced, explicitly requiring results of soil-forming processes\"."
+        },
+        {
+          "claim": "\"A profile keyed in 2014 and rekeyed in 2023 can change name without anything happening to the soil.\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Preface (editions 1998, 2006, 2014, 2022)",
+          "disposition": "corrected",
+          "note": "The fourth edition is dated 18 December 2022, so '2023' names no edition. Changed to \"keyed under the third edition and rekeyed under the fourth\"."
+        },
+        {
+          "claim": "Soil Taxonomy was built to interpret soil surveys; the FAO/UNESCO legend to represent the global distribution of soils; the WRB \"to facilitate correlations between different soil classification systems\"",
+          "sourceChecked": "FAO Soils Portal, Soil classification (raw HTML)",
+          "disposition": "verified",
+          "note": "Page reads: \"Soil Taxonomy to interpret soil surveys; The FAO Legend for representing the global distribution and geography of soils; WRB to facilitate correlations between different soil classification systems\"."
+        },
+        {
+          "claim": "The WRB \"is not intended to be a substitute for national soil classification systems, but rather to serve as a common denominator.\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.4",
+          "disposition": "qualified",
+          "note": "Quote was cut mid-sentence. Extended to the full \"...common denominator for communication at the international level.\""
+        },
+        {
+          "claim": "The 2022 edition took many field definitions from the USDA Soil Survey Manual and the NRCS field book, which \"its preface says\" \"brings WRB and Soil Taxonomy closer together\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, §1.2 Major changes in WRB 2022",
+          "disposition": "corrected",
+          "note": "The quote is verbatim but appears in §1.2 Major changes, not the Preface (which is a separate, earlier section). Attribution changed to \"its summary of major changes\"."
+        },
+        {
+          "claim": "\"the world's soil cover is a continuum\"",
+          "sourceChecked": "Deckers et al., WRB in a nutshell (ESB Research Report 7) PDF",
+          "disposition": "verified",
+          "note": "Verbatim: \"Unlike plants and animals, which can be identified as separate entities, the world's soil cover is a continuum.\""
+        },
+        {
+          "claim": "\"diagnostic horizons are the identifiers imposed on it\"",
+          "sourceChecked": "Deckers et al., WRB in a nutshell PDF",
+          "disposition": "corrected",
+          "note": "Source says the WRB's taxonomic units are defined in terms of measurable and observable diagnostic horizons, \"the basic identifiers in soil classification\" — it never says 'imposed'. Rewritten to the source's own phrase and quoted."
+        },
+        {
+          "claim": "\"samples are never taken across horizon boundaries\"",
+          "sourceChecked": "FAO a0541e.pdf, SAMPLING",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "The boundary area itself should not be sampled; the recommended method is to sample in equal proportions over the whole horizon",
+          "sourceChecked": "FAO a0541e.pdf, SAMPLING",
+          "disposition": "verified",
+          "note": "Both stated; equal-proportions method is explicitly \"the recommended method\"."
+        },
+        {
+          "claim": "\"horizon symbols should not be used as sample codes because the horizon classifications may be changed later\"",
+          "sourceChecked": "FAO a0541e.pdf, SAMPLING",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "SoilGrids 2.0 predicts on 0–5, 5–15, 15–30, 30–60, 60–100 and 100–200 cm, computed for the midpoint and treated as constant across the interval",
+          "sourceChecked": "SoilGrids 2.0, SOIL (Copernicus) 7:217, 2021",
+          "disposition": "verified",
+          "note": "Depths and the statement \"The predictions were computed for the mid-point of the depth interval and considered constant for the whole depth interval\" both confirmed."
+        },
+        {
+          "claim": "WoSIS 2023: 228,000 georeferenced profiles, 174 countries, more than 900,000 layers, over 6 million records",
+          "sourceChecked": "Batjes et al., ESSD 16:4735, 2024 (PDF, abstract and §4)",
+          "disposition": "verified",
+          "note": "Verbatim from the abstract."
+        },
+        {
+          "claim": "Only 80,849 profiles carry horizon designations, covering 396,522 layers",
+          "sourceChecked": "Batjes et al. 2024, Appendix A Table A2, row HODS and footnote b",
+          "disposition": "verified",
+          "note": "Exact. A model-summarised read of this table returned fabricated figures (152,000/896,000); the PDF table confirms the article. Footnote b defines the pair as profiles with horizon descriptions and total layers with horizon designations."
+        },
+        {
+          "claim": "The compilers state the codes \"have not been standardised as they vary widely between different classification systems\"",
+          "sourceChecked": "Batjes et al. 2024, Table A2 footnote a",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "39,649 profiles carry a WRB name, 38,792 an FAO/UNESCO one and 31,400 a Soil Taxonomy one",
+          "sourceChecked": "Batjes et al. 2024, Table A2 rows CWRB, CFAO, CSTX",
+          "disposition": "verified",
+          "note": "All three exact. Table qualifies each as classified 'at least at' RSG / major group / soil order level, which \"carry a ... name\" fairly conveys."
+        },
+        {
+          "claim": "In warm arid climates an undisturbed surface horizon may hold little organic matter and a mineral fraction \"unaltered or only slightly altered by weathering\"; it is designated A \"because it is at the surface\"",
+          "sourceChecked": "FAO a0541e.pdf, A horizons",
+          "disposition": "verified",
+          "note": "Both quotes verbatim and in the stated context."
+        },
+        {
+          "claim": "Recent alluvial or aeolian deposits retaining fine stratification are not an A horizon unless cultivated",
+          "sourceChecked": "FAO a0541e.pdf, A horizons",
+          "disposition": "verified",
+          "note": "Verbatim rule."
+        },
+        {
+          "claim": "\"in a vocabulary that has changed twice in two decades\"",
+          "sourceChecked": "WRB 4th ed. 2022 PDF, Preface (1998, 2006, 2014, 2022) and §1.1 History",
+          "disposition": "corrected",
+          "note": "Vague and unanchored — there are four editions, not a two-decade window the source defines. Changed to the checkable \"a vocabulary the WRB has revised twice since its 2006 edition\"."
+        },
+        {
+          "claim": "\"It supports comparison across sites better than any alternative\"",
+          "sourceChecked": "all eight cited sources",
+          "disposition": "removed",
+          "note": "Unsupported comparative superlative. No cited source ranks horizon description against alternative schemes. Clause deleted; the sentence now reads \"It supports comparison across sites; it does not support...\"."
+        },
+        {
+          "claim": "The four-phase account of what soil is \"begins with the observation\" that the material is organised in genetic horizons",
+          "sourceChecked": "content/en/ecology/soils/soil-science-explained.md (internal link target)",
+          "disposition": "corrected",
+          "note": "That article opens on the 0.15 t/ha/yr formation rate; 'organised in genetic horizons' appears in its second paragraph as the operative clause of the FAO/ISO definition. Changed 'begins with the observation' to 'turns on the clause'."
+        }
+      ]
+    },
+    {
+      "slug": "temperature-inversions-and-trapped-air",
+      "path": "content/en/physics/climate-physics/temperature-inversions-and-trapped-air.md",
+      "status": "amended",
+      "claimsChecked": 62,
+      "findings": [
+        {
+          "claim": "NWS glossary: \"generally, a departure from the usual increase or decrease in an atmospheric property with altitude\"",
+          "sourceChecked": "https://forecast.weather.gov/glossary.php?word=INVERSION",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "NWS glossary: \"almost always refers to a temperature inversion, i.e., an increase in temperature with height, or to the layer within which such an increase occurs\"",
+          "sourceChecked": "https://forecast.weather.gov/glossary.php?word=INVERSION",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "NWS forecaster training \"lists six routes to an inversion\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "Page enumerates exactly six: subsidence, WAA aloft, radiational, warm air over cold water, frontal, tropopause."
+        },
+        {
+          "claim": "The material is \"National Weather Service forecaster training\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "qualified",
+          "note": "Hosted on weather.gov but bylined METEOROLOGIST JEFF HABY, theweatherprediction.com. Body and source note now say 'hosted by the National Weather Service, written by the meteorologist Jeff Haby'."
+        },
+        {
+          "claim": "\"The three that account for most of them\" (implying subsidence is among the three commonest)",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "removed",
+          "note": "Source ranks only radiational (most common) and frontal (second most common); it makes no frequency claim about subsidence. Reworded to 'The three taken here'."
+        },
+        {
+          "claim": "Radiational cooling is \"the most common inversion\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "\"The most common inversion is the radiational inversion.\""
+        },
+        {
+          "claim": "Block quote: \"The earth is cooled at night by longwave radiation emission to space... at the top of the PBL at night.\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "Verbatim, all three sentences."
+        },
+        {
+          "claim": "The radiational inversion is \"gone within a few hours of sunrise\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "corrected",
+          "note": "Source gives no timescale: \"These inversions generally erode rapidly once daytime heating warms the lower PBL.\" Replaced with the source's own wording."
+        },
+        {
+          "claim": "Subsidence inversion \"generally... between 850 and 600 millibars\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "\"With deep high pressure this will generally be located between 850 and 600 millibars.\""
+        },
+        {
+          "claim": "Sinking is strongest in the middle troposphere, so the inversion is elevated",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "\"A deep high pressure will have the greatest sinking motion in the middle levels of the troposphere (near level of non-divergence).\""
+        },
+        {
+          "claim": "The subsidence inversion \"has no diurnal cycle and is not undone by the next morning's sunshine\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "removed",
+          "note": "Source says nothing about the diurnal behaviour of subsidence inversions. Reworded to the supported contrast: its base sits well above the ground, so surface heating does not erase it the way it erases a radiational inversion."
+        },
+        {
+          "claim": "Frontal is \"the second most common type of inversion\", \"especially evident when a shallow layer of polar air moves into lower latitudes\"",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "Both phrases verbatim."
+        },
+        {
+          "claim": "\"Two further routes belong on the list\" (after three described)",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "corrected",
+          "note": "Three remain of the six; the article had silently dropped warm-air advection aloft, contradicting its own count. Now 'Three more complete the six', with the WAA route added and its \"commonly called a cap or lid\" wording quoted."
+        },
+        {
+          "claim": "Warm air over cold water, cooled from below by conduction",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "\"The air chills due to the conduction of heat away from the air toward the cold body of water.\""
+        },
+        {
+          "claim": "Tropopause inversion created \"by the absorption of shortwave radiation by ozone\" near the 150 hPa level",
+          "sourceChecked": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+          "disposition": "verified",
+          "note": "\"This inversion occurs nears the 150 millibar level.\""
+        },
+        {
+          "claim": "2026 ACP study exists; L-band radiosonde profiles paired with China's national air-quality network, 2016-2021, mainland China",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Fang et al., ACP 26(6), 4089-4104, 2026. Not fabricated."
+        },
+        {
+          "claim": "Inversions occur on 52 per cent of days",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract: \"occurring on average 52 % of days\"."
+        },
+        {
+          "claim": "Mean strength 2.1 °C",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "Mean thickness 214 m",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "More common in the 08:00 sounding than the 20:00 one",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract: \"more common at 08:00 than 20:00 Beijing Time (BJT)\"."
+        },
+        {
+          "claim": "Peaking at 84.0 per cent of 08:00 soundings in January",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/acp-26-4089-2026.html",
+          "disposition": "verified",
+          "note": "Full text: \"The highest monthly means occur at 08:00 BJT in January (84.0 %)\"."
+        },
+        {
+          "claim": "SBIs 3.02 °C against EIs 1.76 °C",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/acp-26-4089-2026.html",
+          "disposition": "verified",
+          "note": "Full text: \"Annual means rank SBI (3.02 °C) > all TI (2.13 °C) > EI (1.76 °C).\""
+        },
+        {
+          "claim": "Surface-based inversions 1.3 °C stronger on average",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract: \"SBIs are 1.3 °C stronger than EIs\"."
+        },
+        {
+          "claim": "SBIs dominate northern China, EIs eastern China",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "76 per cent of PM2.5 episodes coincide with inversion events",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "SBI strength correlates positively nationwide; EI parameters show negative associations in eastern and southern regions",
+          "sourceChecked": "https://acp.copernicus.org/articles/26/4089/2026/",
+          "disposition": "verified",
+          "note": "Abstract, both halves."
+        },
+        {
+          "claim": "Truckee Meadows, Nevada, cold and snowy winter of 2009/2010",
+          "sourceChecked": "https://acp.copernicus.org/articles/12/10051/2012/",
+          "disposition": "verified",
+          "note": "Abstract: \"during winter 2009/2010, an unusually cold and snowy winter\"."
+        },
+        {
+          "claim": "All nine days with PM2.5 above 35 µg/m³ showed 24-h average inversion of 1.5-4.5 °C and snow cover of 8-18 cm",
+          "sourceChecked": "https://acp.copernicus.org/articles/12/10051/2012/",
+          "disposition": "verified",
+          "note": "Verbatim in abstract."
+        },
+        {
+          "claim": "Snow albedo suppressed the daytime heating that would otherwise break the layer",
+          "sourceChecked": "https://acp.copernicus.org/articles/12/10051/2012/",
+          "disposition": "verified",
+          "note": "\"highly reflective snow cover reduced daytime surface heating creating persistent inversion\"."
+        },
+        {
+          "claim": "Secondary ammonium nitrate 27-37 %, residential wood combustion 11-51 %, diesel exhaust 7-22 %",
+          "sourceChecked": "https://acp.copernicus.org/articles/12/10051/2012/",
+          "disposition": "verified",
+          "note": "Verbatim EV-CMB figures."
+        },
+        {
+          "claim": "Particles were made in the layer \"from precursors given days of residence time and high humidity to react in\"",
+          "sourceChecked": "https://acp.copernicus.org/articles/12/10051/2012/",
+          "disposition": "removed",
+          "note": "The paper reports neither a residence time nor high humidity. Replaced with what it does say: the majority of the secondary NH4NO3 is attributed to the same wood stoves and diesel engines via their NOx emissions, and the nitrate plus its associated water are the main reasons for the exceedances."
+        },
+        {
+          "claim": "US PM2.5 24-hour primary standard 35 µg/m³, form = 98th percentile averaged over 3 years",
+          "sourceChecked": "https://www.epa.gov/criteria-air-pollutants/naaqs-table",
+          "disposition": "verified",
+          "note": "Exact match."
+        },
+        {
+          "claim": "US PM2.5 annual primary standard 9.0 µg/m³",
+          "sourceChecked": "https://www.epa.gov/criteria-air-pollutants/naaqs-table",
+          "disposition": "verified",
+          "note": "Form is annual mean averaged over 3 years."
+        },
+        {
+          "claim": "Met Office: \"This pushes air downwards, warming it as it descends. This creates an inversion, where air close to the ground is cooler than the air higher above it.\"",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Fog lay over London from Friday 5 December to Tuesday 9 December 1952",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+          "disposition": "verified",
+          "note": "\"from Friday 5 December to Tuesday 9 December 1952\"; \"The fog finally cleared on December 9\"."
+        },
+        {
+          "claim": "Fog layer 100-200 m deep, visibility down to a few metres",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+          "disposition": "verified",
+          "note": "\"a layer of fog 100-200 metres deep\"; \"Visibility dropped to a few metres.\""
+        },
+        {
+          "claim": "London emitted roughly 1,000 tonnes of smoke particles a day",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+          "disposition": "verified",
+          "note": "\"On each day during the foggy period... 1,000 tonnes of smoke particles\"."
+        },
+        {
+          "claim": "London emitted 370 tonnes of sulphur dioxide a day",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+          "disposition": "corrected",
+          "note": "The source does not give daily SO2 emissions; it says \"370 tonnes of sulphur dioxide were converted into 800 tonnes of sulphuric acid\". Rewritten to match, including the 800-tonne conversion."
+        },
+        {
+          "claim": "\"About 4,000 people were known to have died\" with the caveat that \"it could be many more\"",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "\"reconstructed excess-mortality figures depend on the counting method and the attribution window\"",
+          "sourceChecked": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+          "disposition": "removed",
+          "note": "No cited source discusses excess-mortality reconstructions. Replaced with a hedge that rests on the Met Office's own wording."
+        },
+        {
+          "claim": "SOFOG3D field campaign, southwestern France, autumn and winter 2019-2020",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/",
+          "disposition": "verified",
+          "note": "Dione et al. 2023, abstract."
+        },
+        {
+          "claim": "Combined cloud radar, microwave radiometer, wind lidar and surface stations",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/",
+          "disposition": "verified",
+          "note": "\"synergy of cloud radar, microwave radiometer, wind lidar, and weather station data\"."
+        },
+        {
+          "claim": "\"radiation and advection-radiation fogs form under deep and thin temperature inversions, respectively\"",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/",
+          "disposition": "verified",
+          "note": "Verbatim, abstract."
+        },
+        {
+          "claim": "The campaign was used \"to follow individual fog layers\" (implying a general result)",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/",
+          "disposition": "qualified",
+          "note": "The analysis covers \"the four deepest fog episodes (two radiation fogs and two advection-radiation fogs)\". The sample size is now stated in the body."
+        },
+        {
+          "claim": "Pre-onset double stratification: thin inversion surface to ~100 m, deeper and stronger ~8 °C/km above",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/acp-23-15711-2023.html",
+          "disposition": "qualified",
+          "note": "Wording verbatim but it describes case study 1 (28-29 December 2019, a radiation fog), not a general finding. Now attributed to one of the radiation-fog cases."
+        },
+        {
+          "claim": "Advection-radiation fog cleared at night, driven by mechanical turbulence from advection",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/",
+          "disposition": "verified",
+          "note": "\"Night-time dissipation is driven by horizontal advection generating mechanical turbulence.\""
+        },
+        {
+          "claim": "Radiation fog cleared after sunrise once solar heating supplied a near-surface sensible heat flux above 10 W/m²",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/",
+          "disposition": "verified",
+          "note": "Threshold exact."
+        },
+        {
+          "claim": "\"Nothing removes a radiative inversion but an energy source that reverses the sign of the surface flux.\"",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/15711/2023/",
+          "disposition": "removed",
+          "note": "Contradicts the paper, which attributes daytime dissipation to thermal AND mechanical turbulence (solar heating plus wind shear), and shows advection-driven mechanical turbulence dissipating fog at night. Replaced with the paper's two-part mechanism."
+        },
+        {
+          "claim": "Voreppe, Drac and Grésivaudan, 2 to 6 km wide and 20 to 40 km long",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "verified",
+          "note": "\"2 to 6 km wide and about 20 km (for Voreppe and Drac) and 40 km (for Grésivaudan) long\". Wording tightened to match."
+        },
+        {
+          "claim": "\"enclosed by ranges reaching 3,000 m\"",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "qualified",
+          "note": "\"high peaks up to 3000 m a.s.l. in Belledonne and 2000 m a.s.l. in Vercors and Chartreuse\". Only one of the three ranges reaches 3,000 m; both figures now given."
+        },
+        {
+          "claim": "PCAP defined by the lapse-rate criterion holding \"for at least five consecutive days\"",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "corrected",
+          "note": "The paper says \"for at least 3 d\". Corrected to three days in the body and in the source note."
+        },
+        {
+          "claim": "Criterion is the valley lapse rate exceeding \"a threshold of −3 K/km\"",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "corrected",
+          "note": "Actual criterion: the 24 h running mean of ΔT/Δz staying above the winter average, \"close to −3 K km−1\" — a running mean against a climatological average, not a fixed threshold on the instantaneous rate."
+        },
+        {
+          "claim": "Over 1985-2014 the criterion identified 119 episodes in the model and 91 in the observations",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "verified",
+          "note": "\"119 according to MAR and 91 according to the observations\"."
+        },
+        {
+          "claim": "Mean duration between seven and eight days",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "qualified",
+          "note": "That is the modelled figure (886 PCAP days / 119 episodes = 7.4 d). The observations give 1040 d / 91 episodes ≈ 11 d, and the paper states \"MAR simulates shorter episodes\". The body now attributes 7-8 days to the model and notes it runs short of observation."
+        },
+        {
+          "claim": "\"the atmosphere inside the valley is stable and vertical mixing is prevented, promoting the accumulation of pollutants close to the valley bottom and worsening air quality\"",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Statistically significant decreasing trend in cold-pool intensity only under SSP5-8.5; no significant change under SSP2-4.5; valley atmosphere slightly less stable",
+          "sourceChecked": "https://wcd.copernicus.org/articles/5/211/2024/wcd-5-211-2024.html",
+          "disposition": "verified",
+          "note": "Abstract plus Sect. 4.2: \"PCAP intensities for the SSP2-4.5 scenario do not present any significant change\"; SSP5-8.5 slope −0.058 ± 0.019 K/km per decade, p = 0.002."
+        },
+        {
+          "claim": "Lower-tropospheric stability is the potential-temperature difference between 700 hPa and the surface",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/3247/2023/acp-23-3247-2023.html",
+          "disposition": "verified",
+          "note": "\"both defined as a two-level potential temperature (θ) difference between the 700 hPa level and the surface\"."
+        },
+        {
+          "claim": "Estimated inversion strength removes the moist-adiabatic increase above the lifting condensation level",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/3247/2023/acp-23-3247-2023.html",
+          "disposition": "verified",
+          "note": "\"for the EIS the moist adiabatic θ increase above the lifting condensation level (LCL) is additionally removed\"."
+        },
+        {
+          "claim": "The profile-based method finds the layer of greatest vertical potential-temperature gradient between the LCL and 5 km above ground in ERA5",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/3247/2023/acp-23-3247-2023.html",
+          "disposition": "verified",
+          "note": "Sect. 3.1 step 1: \"Locating the layer of the maximum θ vertical gradient (dθ/dz)max\" among \"three possible layers encompassing the inversion between the LCL and 5 km a.g.l. in ERA5\"."
+        },
+        {
+          "claim": "R = 0.74 for the profile-based metric, against R = 0.53 for LTS and R = 0.45 for EIS at the ARM Southern Great Plains site",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/3247/2023/",
+          "disposition": "verified",
+          "note": "All three exact, abstract and conclusions."
+        },
+        {
+          "claim": "The real inversion strength is typically less than 10 K",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/3247/2023/acp-23-3247-2023.html",
+          "disposition": "verified",
+          "note": "\"Typically, the real IS is less than 10 K.\""
+        },
+        {
+          "claim": "Inversion layers are frequently thinner than the vertical spacing of the models meant to resolve them",
+          "sourceChecked": "https://acp.copernicus.org/articles/23/3247/2023/acp-23-3247-2023.html",
+          "disposition": "resourced",
+          "note": "Was an unattributed inference; now carries the paper's own sentence — in coarse profiles \"usually, the thickness of the inversion is much smaller than the distance between two adjacent vertical levels\"."
+        },
+        {
+          "claim": "Frontmatter author should be `climate-research-desk` (writer's report)",
+          "sourceChecked": "lib/authors.ts + scripts/validate-content.ts (attribution-coverage rule)",
+          "disposition": "corrected",
+          "note": "Writer's reported value is wrong and the 'background process' was right. Climate Research Desk declares coverage of ecology/climate-change and ecology/earth-observation only; this article's category is physics. Setting it reproduced a hard error: 'Climate Research Desk does not declare coverage of physics'. Left as physics-energy-desk, which all 11 climate-physics articles use. `_bodyHash` is likewise a repo-wide convention (311 files, maintained by scripts/update-metadata.ts), not corruption — restamped to a46d5150 and readingTime recomputed to 11."
+        }
+      ]
+    },
+    {
       "slug": "the-coriolis-effect-explained",
       "path": "content/en/physics/climate-physics/the-coriolis-effect-explained.md",
       "status": "amended",
@@ -1275,6 +2924,314 @@
       ]
     },
     {
+      "slug": "uncertainty-propagation-in-practice",
+      "path": "content/en/physics/mechanics-waves/uncertainty-propagation-in-practice.md",
+      "status": "amended",
+      "claimsChecked": 50,
+      "findings": [
+        {
+          "claim": "Omitting the covariance term is \"conservative for a sum or a product and anti-conservative for a ratio\"",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc552.htm",
+          "disposition": "corrected",
+          "note": "INVERTED, and self-contradictory with the preceding sentence. Handbook signs: product carries +2s_xz/(X̄Z̄), quotient carries −2s_xz/(X̄Z̄). So omitting a positive covariance understates a sum/product and overstates a ratio. Verified numerically. Rewritten to: 'when the correlation is positive, omitting the covariance term understates the uncertainty of a sum or a product and overstates that of a ratio.'"
+        },
+        {
+          "claim": "For a product Y = X̄Z̄ the standard deviation 'is the product itself times the square root of s_x²/X̄² + s_z²/Z̄²'",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc552.htm",
+          "disposition": "corrected",
+          "note": "Source formula is (X̄Z̄/√N)·√(...); the handbook table is explicitly for 'the reported value, Y [as] a function of averages of N measurements', so every entry carries 1/√N. The article asserted an equality the source does not state. Added the averages-of-N/1-over-root-N clause and reframed the description around the part under the root."
+        },
+        {
+          "claim": "Supplement 1's 200,000 trials stand 'against the 10,000 that sufficed for their linear cases'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "corrected",
+          "note": "The paper says 'For the three applications described in the appendices, 10,000 trials provide consistent results with sufficient numerical precision.' Only Appendix 1 (anion gap) is linear; Appendix 2 (MDRD eGFR) uses power terms and empirical constants and Appendix 3 (Sartorius cFT) a 1/log10 term. Corrected to quote the paper and note only one of the three is linear."
+        },
+        {
+          "claim": "The Global Carbon Budget 2025 'combines the two components of the atmospheric growth-rate uncertainty in quadrature'",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "corrected",
+          "note": "Source: 'The uncertainty around G_ATM is due to three main factors' — network composition, analytical uncertainty, and the surface-network-vs-true-atmospheric-average term. Only 'the first and second uncertainties … [are] summed in quadrature'. Corrected to 'the first two of the three components'."
+        },
+        {
+          "claim": "The handbook credits replication with \"proper treatment of unsuspected sources of error\"",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+          "disposition": "qualified",
+          "note": "Quote was truncated before its governing condition. Full text: '…that would emerge if measurements covered a range of operating conditions and a sufficiently long time period.' Restored the condition and added a clause noting the defence is only as good as the range and span it covers."
+        },
+        {
+          "claim": "The law of propagation of uncertainty is \"based on a first-order Taylor series approximation of the measurement equation\"",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/combination.html",
+          "disposition": "verified",
+          "note": "Exact: 'Equation (6) is based on a first-order Taylor series approximation of the measurement equation … conveniently referred to as the law of propagation of uncertainty.'"
+        },
+        {
+          "claim": "For uncorrelated input estimates \"the second term vanishes\"",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/combination.html",
+          "disposition": "verified",
+          "note": "Exact: 'if the input estimates x_i … can be assumed to be uncorrelated, then the second term vanishes.'"
+        },
+        {
+          "claim": "Source note: NIST combination page covers sensitivity coefficients",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/combination.html",
+          "disposition": "verified",
+          "note": "'The partial derivatives of f with respect to the X_i (often referred to as sensitivity coefficients)'."
+        },
+        {
+          "claim": "The handbook formulas come from a 1966 paper by H. Ku",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section7/mpc7.htm",
+          "disposition": "verified",
+          "note": "mpc552: 'reproduced from a paper by H. Ku'; mpc55: 'See Ku (1966)'; reference list: 'Harry Ku (1966). Notes on the Use of …'."
+        },
+        {
+          "claim": "Linear combination Y = AX̄ + BZ̄ gives A²s_x² + B²s_z² plus a covariance term",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc552.htm",
+          "disposition": "verified",
+          "note": "(1/√N)√(A²s_x² + B²s_z² + 2AB·s_xz). Content verified; the 1/√N factor handled in the separate correction above."
+        },
+        {
+          "claim": "Power function Y = c(X̄)^a(Z̄)^b has a²s_x²/X̄² and b²s_z²/Z̄² — the exponent multiplies the relative SD",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc552.htm",
+          "disposition": "verified",
+          "note": "(Y/√N)√(a²s_x²/X̄² + b²s_z²/Z̄² + 2ab·s_xz/(X̄Z̄)). Independently corroborated by NIST combination.html's relative-uncertainty power rule."
+        },
+        {
+          "claim": "Covariance enters a product with + and a quotient with −",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc552.htm",
+          "disposition": "verified",
+          "note": "Product: +2s_xz/(X̄Z̄). Quotient: −2s_xz/(X̄Z̄). Confirmed in the raw page source."
+        },
+        {
+          "claim": "\"Covariance terms can be difficult to estimate if measurements are not made in pairs. Sometimes, these terms are omitted from the formula\"",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+          "disposition": "verified",
+          "note": "Verbatim match."
+        },
+        {
+          "claim": "\"generally, reported values of test items from calibration designs have non-zero covariances that must be taken into account if Y is a summation such as the mass of two weights, or the length of two gage blocks end-to-end\"",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+          "disposition": "verified",
+          "note": "Verbatim; truncated before 'etc.' — acceptable."
+        },
+        {
+          "claim": "Covariance terms belong in the computation \"only if they have been estimated from sufficient data\"",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Independent measurements give zero covariance",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+          "disposition": "verified",
+          "note": "'If the measurements of X, Z are independent, the associated covariance term is zero.'"
+        },
+        {
+          "claim": "Handbook's list of what goes wrong: \"unsuspected covariances\"; \"disturbances that affect the reported value and not the elementary measurements (usually a result of mis-specification of the model)\"; \"mistakes in propagating the error through the defining formulas\"",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+          "disposition": "verified",
+          "note": "All three verbatim under 'Disadvantages of propagation of error approach'."
+        },
+        {
+          "claim": "Type A is a \"method of evaluation of uncertainty by the statistical analysis of series of observations\"",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/basic.html",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Type B is evaluation \"by means other than the statistical analysis of series of observations\"",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/basic.html",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Type B may draw on \"manufacturer's specifications, data provided in calibration and other reports, and uncertainties assigned to reference data taken from handbooks\"",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/typeb.html",
+          "disposition": "verified",
+          "note": "Verbatim substring of the page's list."
+        },
+        {
+          "claim": "Where only limits are known, model by a uniform distribution and take the standard uncertainty as the half-width divided by √3",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/typeb.html",
+          "disposition": "verified",
+          "note": "'u_j = a divided by the square root of 3, where a = (a+ − a−)/2 is the half-width of the interval.'"
+        },
+        {
+          "claim": "\"For results derived from a functional relationship which contains only terms related by sums and/or differences, the variance of the measurand is obtained by adding the variances of the contributing inputs.\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Verbatim in Farrance and Frenkel (2014), Clin Biochem Rev."
+        },
+        {
+          "claim": "Farrance and Frenkel published in The Clinical Biochemist Reviews; named study title and 2014 date",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Ian Farrance and Robert Frenkel, 2014, 'Uncertainty in Measurement: A Review of Monte Carlo Simulation Using Microsoft Excel …'. Title in Sources list matches the source's short form."
+        },
+        {
+          "claim": "\"the standard GUM procedure relies on a simple linear approximation for the propagation of uncertainties and may lead to errors\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Verbatim; source continues '…under such circumstances', consistent with the article's 'under severe non-linearity' framing."
+        },
+        {
+          "claim": "Monte Carlo \"automatically takes into account any nonlinearities in the functional relationship\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Anion-gap example: 2.267 mmol/L by GUM propagation, 2.268 mmol/L by simulation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Both figures confirmed."
+        },
+        {
+          "claim": "Anion gap reported as 14.5 ± 4.5 mmol/L over a 95.4 per cent coverage interval",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "'Calculated anion gap = 14.5±4.5 mmol/L (95.4% coverage interval)', expanded uncertainty 2×u(AG) = 4.53 mmol/L, k=2. Internally consistent with u = 2.267."
+        },
+        {
+          "claim": "The anion-gap example is a linear model",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "AG = (Na+ + K+) − (Cl− + HCO3−); sums and differences only."
+        },
+        {
+          "claim": "Supplement 1 \"recommends at least 200,000 trials for a 95% coverage interval which is reliable to one or two significant decimal digits\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Verbatim, attributed in the source to Section 7.2 of Supplement 1; article correctly attributes the report of it to Farrance and Frenkel."
+        },
+        {
+          "claim": "GUM section 7.2.6 says values \"should not be given with an excessive number of digits\" and \"it usually suffices to quote u(y) and U … to at most two significant digits\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Section number 7.2.6 confirmed as the one the paper cites; both quoted fragments verbatim."
+        },
+        {
+          "claim": "\"The number of significant figures used to report a quantitative result conveys not only its value but also connotes the confidence which may be attached to that result.\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "JCGM 101:2008 propagates whole distributions by Monte Carlo",
+          "sourceChecked": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+          "disposition": "verified",
+          "note": "'Supplement 1 … Propagation of distributions using a Monte Carlo method'."
+        },
+        {
+          "claim": "JCGM 102:2011 handles any number of output quantities",
+          "sourceChecked": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+          "disposition": "verified",
+          "note": "'Supplement 2 … Extension to any number of output quantities'."
+        },
+        {
+          "claim": "JCGM 100:2008/Amd.1:2026 is titled \"AMENDMENT 1: Nonlinearity in measurement models\"",
+          "sourceChecked": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+          "disposition": "verified",
+          "note": "Listed exactly, including the 2026 date."
+        },
+        {
+          "claim": "Merchant et al. (2017): \"different errors may be correlated across a wide range of timescales and space scales\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/9/511/2017/",
+          "disposition": "verified",
+          "note": "Verbatim; authors and 2017 date confirmed, published in Earth System Science Data as the article states."
+        },
+        {
+          "claim": "\"error effects that contribute negligibly to the total uncertainty in a single-satellite measurement can be the dominant sources of uncertainty in a CDR on the large space scales and long timescales\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/9/511/2017/",
+          "disposition": "verified",
+          "note": "Verbatim; truncated before '…that are highly relevant for some climate applications' — acceptable, meaning preserved."
+        },
+        {
+          "claim": "GCB 2025 reports uncertainties as ±1σ, \"representing a likelihood of 68 % that the true value will be within the provided range if the errors have a gaussian distribution, and no bias is assumed\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "Verbatim in full text. Article is Global Carbon Budget 2025, ESSD vol 18, 3211–3288, 2026 — matches the cited URL."
+        },
+        {
+          "claim": "GCB 2025 uncertainties \"combine statistical analysis of the underlying data, assessments of uncertainties in the generation of the datasets, and expert judgement of the likelihood of results lying outside this range\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "Verbatim. The article's gloss — three ingredients, one a Type A evaluation and two not — is a fair reading."
+        },
+        {
+          "claim": "2024 fossil CO2 emissions 10.3 ± 0.5 GtC yr⁻¹",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "2024 land-use change emissions 1.3 ± 0.7 GtC yr⁻¹",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "2024 total anthropogenic emissions 11.6 ± 0.9 GtC yr⁻¹",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "2024 ocean sink 3.4 ± 0.4 and land sink 1.9 ± 1.1 GtC yr⁻¹",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "Abstract."
+        },
+        {
+          "claim": "Budget imbalance −1.7 GtC yr⁻¹, \"suggesting that the total sink or G_ATM is strongly overestimated in 2024\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "Verbatim in the abstract."
+        },
+        {
+          "claim": "100 bootstrapped alternative station networks for the measurement-network term",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "'estimated with a bootstrap method by constructing 100 \"alternative\" networks'."
+        },
+        {
+          "claim": "A Monte Carlo approach with 20 000 iterations for the oxygen-based sink estimate",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "'Uncertainty was determined through a Monte Carlo approach with 20 000 iterations' in the O2-based section."
+        },
+        {
+          "claim": "The land term's uncertainty exceeds every other component's and dominates any quadrature that includes it",
+          "sourceChecked": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "disposition": "verified",
+          "note": "1.1 exceeds 0.7 (LUC), 0.5 (fossil), 0.4 (ocean), 0.2 (G_ATM). The 0.9 is a derived total, not a component. And |−1.7| > 1.1 supports 'a mismatch larger than the largest stated component uncertainty'."
+        },
+        {
+          "claim": "In quadrature 0.5 and 0.7 give about 0.86, rounding to the stated 0.9; direct addition would give 1.2",
+          "sourceChecked": "arithmetic on GCB 2025 abstract values",
+          "disposition": "verified",
+          "note": "√(0.25+0.49) = 0.8602; 0.5+0.7 = 1.2. Correct."
+        },
+        {
+          "claim": "A component a third the size of the dominant term raises the combined value by about 5 per cent; one a tenth the size by half a per cent",
+          "sourceChecked": "arithmetic (quadrature)",
+          "disposition": "verified",
+          "note": "√(1+1/9) = 1.0541 (5.4%); √(1+0.01) = 1.00499 (0.5%). Correct."
+        },
+        {
+          "claim": "Two values near 100 each known to about one unit differ by 2 with combined uncertainty near 1.4 — a 1 per cent measurement producing a 70 per cent result",
+          "sourceChecked": "arithmetic (quadrature) + mpc552 linear-combination rule",
+          "disposition": "verified",
+          "note": "√2 = 1.414; 1.414/2 = 70.7%; 1/100 = 1%. Correct."
+        },
+        {
+          "claim": "A length known to one per cent yields a volume known to three; a square root halves it",
+          "sourceChecked": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc552.htm",
+          "disposition": "verified",
+          "note": "Follows from the power rule (exponent multiplies relative SD): a=3 gives 3%, a=1/2 gives 0.5%. Also corroborated by NIST combination.html."
+        }
+      ]
+    },
+    {
       "slug": "carnot-efficiency-and-the-limit-on-engines",
       "path": "content/en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines.md",
       "status": "amended",
@@ -1415,323 +3372,6 @@
           "sourceChecked": "all nine cited URLs",
           "disposition": "verified",
           "note": "Every source exists, is reachable, and carries the title and journal the Sources list gives it: Entropy (Kostic 2025; Carnot–Chambadal modelling; Zhao & Ma 2025), EIA Table 8.2 and FAQ 107, Nature Communications (Meyer, Schoetter & van Reeuwijk 2024, Toulouse), energy.gov, PNAS 2018, ACS Energy Letters 2017. No fabricated study, institution, quotation or statistic found."
-        }
-      ]
-    },
-    {
-      "slug": "anomalies-baselines-and-reference-periods",
-      "path": "content/en/ecology/earth-systems/anomalies-baselines-and-reference-periods.md",
-      "status": "amended",
-      "claimsChecked": 57,
-      "findings": [
-        {
-          "claim": "\"Absolute temperature varies enormously over short distances, while monthly or annual temperature anomalies are representative of a much larger region\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Anomaly correlation length attributed to Hansen and Lebedeff (1987)",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"Temperature anomalies are strongly correlated out to distances of the order of 1000 km\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"Makes it significantly more accurate to estimate anomalies between stations and in data-sparse areas\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Uncertainty on the absolute global baseline temperature around 0.5 °C",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Uncertainty on the annual anomaly closer to 0.06 °C",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Error in the sum of the two is still 0.5 °C",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Pre-2000 reports used a 15 °C baseline, post-2000 about 14 °C",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Comparing old and new absolute reports \"suggests the planet cooled by a degree\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "qualified",
-          "note": "The source says such comparisons \"give the misleading impression that temperatures had cooled dramatically\" and that the baselines \"were changed by a degree Celsius after further research\". Rewritten to quote GISS's own characterisation rather than assert the reader's inference as fact."
-        },
-        {
-          "claim": "GISTEMP base period is 1951–1980",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"Finding absolute regional means encounters significant difficulties that create large uncertainties\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"The primary focus of the GISS analysis are long-term temperature changes over many decades and centuries, and a fixed base period yields anomalies that are consistent over time\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"No matter what base period is selected, since the normal temperature used as base point ... is the same for both years\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Converting a GISTEMP anomaly from 1951–1980 to 1850–1900 means adding about 0.19 °C as of January 2025",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"These numbers may change slightly in the future as more data is digitized or if the methodologies change\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "An agency focused on current conditions has reason to move its normal, so roughly half of recent data falls on each side",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "1951–1980 is \"a fixed 30-year window retained since the analysis began\"",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "corrected",
-          "note": "The FAQ supports only that GISS stays with 1951–1980 (\"Why does GISS stay with the 1951-1980 base period?\"); no cited source dates the window to the start of the analysis. Changed to \"a fixed 30-year window GISS has declined to move\"."
-        },
-        {
-          "claim": "An annual global anomaly is uncertain at the level of a few hundredths of a degree",
-          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
-          "disposition": "verified",
-          "note": "FAQ: uncertainty of annual global means after 1960 about ±0.05 °C."
-        },
-        {
-          "claim": "1990 \"is the baseline year for the Kyoto Protocol, an early climate agreement\"",
-          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Unperturbed 1750 abundance C0 = 278.3 ppm",
-          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Unperturbed 1750 abundance M0 = 729.2 ppb",
-          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Unperturbed 1750 abundance N0 = 270.1 ppb",
-          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "X0 = 0 ppt for the seventeen minor halogenated gases",
-          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
-          "disposition": "verified",
-          "note": "Table 1 note: \"X is the same for the 17 minor gases in ppt\"."
-        },
-        {
-          "claim": "The AGGI is the ratio of a year's total effective radiative forcing to the 1990 value",
-          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
-          "disposition": "verified"
-        },
-        {
-          "claim": "2024 total effective radiative forcing 3.539 W m⁻²",
-          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
-          "disposition": "verified",
-          "note": "CSV 2024 row; the page text rounds to 3.54 W m⁻². Rounding noted in the source line."
-        },
-        {
-          "claim": "AGGI 1.538 for 2024",
-          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
-          "disposition": "verified",
-          "note": "CSV 2024 row; the page text rounds to 1.54."
-        },
-        {
-          "claim": "1990 total forcing 2.301 W m⁻²",
-          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
-          "disposition": "verified",
-          "note": "CSV 1990 row; 3.539/2.301 = 1.538."
-        },
-        {
-          "claim": "Reference series TOPEX/Poseidon (1992), Jason-1, Jason-2, Jason-3, Sentinel-6MF — five spacecraft",
-          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Global mean sea level estimated every 10 days with an uncertainty of 3–4 mm",
-          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Published trend 3.11 mm per year with no glacial isostatic adjustment",
-          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
-          "disposition": "verified",
-          "note": "CSV header: \"#trend = 3.11 mm/year (no glacial isostatic adjustment correction)\"."
-        },
-        {
-          "claim": "First cycle in late 1992 sits about 15 mm below the file's zero",
-          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
-          "disposition": "verified",
-          "note": "First data row 1992.96140 = −14.57 mm."
-        },
-        {
-          "claim": "\"The zero is an instrument epoch, not a thirty-year average\" and \"relative to the start of the record\" is \"a fitted convention\"",
-          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
-          "disposition": "corrected",
-          "note": "Neither the page nor the file says what the zero is or that it was fitted. Rewritten to the supported facts: there is no thirty-year normal behind it (the record begins in 1992), and the zero is not the first measurement (first cycle −14.57 mm)."
-        },
-        {
-          "claim": "Reading rule: \"the altimeter's zero is a launch date\"",
-          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
-          "disposition": "corrected",
-          "note": "Contradicted by the file's own first cycle, which is 14.57 mm below zero. Changed to \"an artefact of one processing of one record\"."
-        },
-        {
-          "claim": "Excerpt and lede: global mean sea level is stated \"relative to the start of the altimeter record\"",
-          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
-          "disposition": "corrected",
-          "note": "Same contradiction. Both now say the zero is internal to the altimeter file."
-        },
-        {
-          "claim": "WMO climatological standard normals defined as 30-year averages, 1 Jan 1981–31 Dec 2010, 1 Jan 1991–31 Dec 2020, etc.",
-          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"The period from 1961 to 1990 has been retained as a standard reference period for long-term climate change assessments\"",
-          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
-          "disposition": "verified"
-        },
-        {
-          "claim": "WMO keeps a rolling standard normal alongside the fixed 1961–1990 reference",
-          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
-          "disposition": "verified",
-          "note": "2015 Congress changed the standard normal to the most recent 30-year period ending in 0."
-        },
-        {
-          "claim": "\"Rising atmospheric concentrations of greenhouse gases are changing the Earth's climate much faster than before, and therefore WMO has agreed that the standard 30-year reference period has to be updated every decade\"",
-          "sourceChecked": "https://wmo.int/media/news/its-warmer-average-what-average",
-          "disposition": "resourced",
-          "note": "Not on the cited WMO Climatological Normals page. Traced to the WMO news article \"It's warmer than average. But what is average?\" (13 July 2022), added as source 6; the quote was also restored to its full sentence rather than cut mid-clause."
-        },
-        {
-          "claim": "The IPCC and WMO track Paris Agreement progress against 1850–1900",
-          "sourceChecked": "https://wmo.int/media/news/its-warmer-average-what-average",
-          "disposition": "verified",
-          "note": "\"the pre-industrial reference period, 1850-1900, is used by WMO and IPCC as the baseline for estimating past and future global temperature increases\"; corroborated by the Copernicus page."
-        },
-        {
-          "claim": "\"The main reference period used for the Climate Bulletin is 1991–2020. This is the period recommended by the WMO for monitoring recent climate.\"",
-          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
-          "disposition": "verified"
-        },
-        {
-          "claim": "1850–1900 is \"the earliest feasible reference period for the globe based on instrumental data\"",
-          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
-          "disposition": "verified",
-          "note": "Attribution tightened: the phrase is Copernicus's, and the source gives the Paris-limit monitoring purpose as the reason for the choice, which the article now states."
-        },
-        {
-          "claim": "Standard offset of 0.88 °C added to the annual global anomaly with respect to 1991–2020",
-          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Uncertainty range 0.72 to 0.99 °C on that offset",
-          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Monthly offsets range between 0.80 and 0.96 °C",
-          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Daily offsets range between 0.79 and 0.97 °C",
-          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Annual European offset of 1.45 °C",
-          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
-          "disposition": "qualified",
-          "note": "Source adds that this offset \"is not fixed, as it is based on the latest versions of the datasets used\" and is applied to the 2024 anomaly. Caveat added to the article."
-        },
-        {
-          "claim": "Global surface temperature 1.09 [0.95 to 1.20] °C higher in 2011–2020 than 1850–1900",
-          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
-          "disposition": "verified",
-          "note": "SPM A.1.2."
-        },
-        {
-          "claim": "\"Changes relative to the recent reference period 1995–2014 may be calculated approximately by subtracting 0.85 °C, the best estimate of the observed warming from 1850–1900 to 1995–2014\"",
-          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
-          "disposition": "verified",
-          "note": "Table SPM.1 caption."
-        },
-        {
-          "claim": "AR6's assessment for the AR5 reference period 1986–2005 is higher by 0.08 [−0.01 to +0.12] °C than AR5's",
-          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
-          "disposition": "verified",
-          "note": "Table SPM.1 caption."
-        },
-        {
-          "claim": "Land annual maximum temperatures from three datasets computed against 1961–1990 and shifted by 0.51 °C to express them against 1850–1900",
-          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
-          "disposition": "verified",
-          "note": "TXx from HadEX3, Berkeley Earth and ERA5, Sect. 10 and Table 9."
-        },
-        {
-          "claim": "\"Temperature anomalies align by construction over this period but can diverge afterwards\"",
-          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
-          "disposition": "verified"
-        },
-        {
-          "claim": "1850–1900 stands in for \"the period before 1750, even though a small amount of warming likely occurred over 1750–1850\"",
-          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
-          "disposition": "verified",
-          "note": "Sect. 8.1."
-        },
-        {
-          "claim": "WMO \"requires each member nation to compute 30-year meteorological quantity averages at least every 30 years (1931–1960, 1961–1990, 1991–2020, etc.), and recommends an update each decade\"",
-          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Most of the country warmer and the eastern two-thirds wetter in 1991–2020 than 1981–2010",
-          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-          "disposition": "qualified",
-          "note": "Source specifies the contiguous U.S. for the wetter finding and adds two countervailing facts the article omitted: \"The Southwest was considerably drier on an annual basis, while the central northern U.S. has cooled somewhat.\" Both added, and the inference about anomalousness narrowed to where the normal actually rose."
-        },
-        {
-          "claim": "1981–2010 normals computed from the 2011 version of NCEI's data holdings, 1991–2020 from an early-2021 version, homogenised a decade apart",
-          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-          "disposition": "verified"
-        },
-        {
-          "claim": "Twenty years of overlap mute the apparent change between successive normals",
-          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-          "disposition": "verified"
-        },
-        {
-          "claim": "\"The position taken here on the 0–2000 m ocean heat content series, which is usable as a change and not as a level\"",
-          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-          "disposition": "removed",
-          "note": "No cited source addresses ocean heat content, and the site's own ocean-heat-content-indicators article states the opposite framing (OHC \"is reported as anomaly relative to a reference period\"). The cross-reference also pointed at nothing. Replaced with the equivalent rule stated for surface temperature, which sources 1 and 2 do support."
         }
       ]
     }
