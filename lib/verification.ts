@@ -70,6 +70,23 @@ export type ArticleReview = {
   openQuestions?: string[];
 };
 
+/**
+ * The arrangement under which a batch was checked.
+ *
+ *   independent  a separate pass, by a process that did not write the
+ *                article and was not given the writer's conclusions to
+ *                agree with, re-read each cited source itself
+ *   same-pass    the author checked their own work in a second reading
+ *   manual       a person reviewed it outside this pipeline
+ *
+ * The distinction is recorded because it is the difference between two
+ * very different levels of assurance, and because the temptation to
+ * describe a self-check as independent is exactly the temptation this
+ * field exists to remove. Earlier batches carry `same-pass` honestly;
+ * nothing is relabelled after the fact.
+ */
+export type VerificationMethod = "independent" | "same-pass" | "manual";
+
 export type BatchReview = {
   batchId: string;
   /** ISO date the review was carried out. */
@@ -79,6 +96,11 @@ export type BatchReview = {
    * this is an editorial process record, not a credential.
    */
   method: string;
+  /**
+   * The arrangement, as a machine-readable value. `method` says what was
+   * done in prose; this says whether the checker was the writer.
+   */
+  verificationMethod?: VerificationMethod;
   articles: ArticleReview[];
 };
 
