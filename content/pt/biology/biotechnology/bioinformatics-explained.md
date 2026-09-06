@@ -6,7 +6,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - sequence-alignment
   - genome-assembly
@@ -19,7 +19,7 @@ related:
   - genome-wide-association-studies-explained
   - what-is-a-genome
 pillar: biotechnology-explained
-_bodyHash: d9cdd54a
+_bodyHash: '32081980'
 ---
 
 A versão 273 do GenBank, publicada em agosto de 2026, contém 8,236,878,868,450 bases em 267,383,895 registos de sequência, e a sua divisão whole-genome shotgun contém mais 50,829,714,144,609 bases distribuídas por mais de 5.1 mil milhões de registos. O Sequence Read Archive do NCBI, que guarda a saída bruta em vez dos registos curados, tinha ultrapassado 91 petabases no último ponto da sua série de crescimento publicada, em fevereiro de 2024. Nada disso é um resultado. Só passa a sê-lo depois de o software ter decidido de onde veio cada leitura, o que formam as leituras uma vez montadas, o que a sequência montada provavelmente faz e quais das diferenças entre duas amostras merecem ser relatadas. São quatro inferências distintas, e cada uma tem a sua maneira própria de estar errada.
@@ -52,7 +52,7 @@ O modo de falha da transferência foi medido diretamente num estudo de 37 famíl
 
 As análises ómicas testam quantidades enormes de hipóteses ao mesmo tempo, e a aritmética disso é implacável. O GWAS Catalog, na sua versão de agosto de 2026, reúne 1,191,572 associações relatadas provenientes de 7,797 publicações e abrangendo 562,145 variantes — um corpo construído testando centenas de milhares de variantes por estudo contra cada característica.
 
-Duas correções são de uso corrente e respondem a perguntas diferentes. O controlo do erro por família exige uma probabilidade baixa de *qualquer* falso positivo, o que é apropriado quando uma única afirmação errada sai cara. O controlo da taxa de falsas descobertas, na formulação de Benjamini–Hochberg, limita em vez disso a proporção esperada de falsos positivos entre os resultados que se relatam, que é a moeda certa quando o produto é uma lista curta para trabalho de seguimento. Nenhum dos dois torna fiável um acerto individual. Um gene relatado a uma taxa de falsas descobertas de 5 por cento é membro de uma lista da qual se espera que um em cada vinte membros esteja errado, e não há nada na estatística que diga qual. A mesma lógica governa a leitura dos estudos de associação, tratada em detalhe em [o que os estudos de associação do genoma completo podem sustentar](/pt/biology/genetics/genome-wide-association-studies-explained); aplica-se igualmente aos rastreios diferenciais de [expressão génica](/en/glossary/gene-expression), proteómicos e metabolómicos.
+Duas correções são de uso corrente e respondem a perguntas diferentes. O controlo do erro por família exige uma probabilidade baixa de *qualquer* falso positivo, o que é apropriado quando uma única afirmação errada sai cara. O controlo da taxa de falsas descobertas, na formulação de Benjamini–Hochberg, limita em vez disso a proporção esperada de falsos positivos entre os resultados que se relatam, que é a moeda certa quando o produto é uma lista curta para trabalho de seguimento. Nenhum dos dois torna fiável um acerto individual. Um gene relatado a uma taxa de falsas descobertas de 5 por cento é membro de uma lista da qual se espera que um em cada vinte membros esteja errado, e não há nada na estatística que diga qual. A mesma lógica governa a leitura dos estudos de associação, tratada em detalhe em [o que os estudos de associação do genoma completo podem sustentar](/pt/biology/genetics/genome-wide-association-studies-explained); aplica-se igualmente aos rastreios diferenciais de [expressão génica](/pt/glossary/gene-expression), proteómicos e metabolómicos.
 
 ## As mesmas leituras, analisadas duas vezes
 
@@ -67,7 +67,7 @@ A versão da referência conta com igual concretude. O Genome in a Bottle Consor
 | Anotação | O que a sequência faz | Transferência a partir de um rótulo já errado |
 | Teste | Que diferenças são reais | Número de hipóteses; região excluída das referências |
 
-Nada disto argumenta por menos confiança na análise de sequências em geral; as referências da disciplina são invulgarmente boas, e os números de concordância e de anotação errada acima existem porque a área mediu as suas próprias taxas de erro. Argumenta por relatar aquilo que determina se um número é reprodutível. Uma lista de variantes sem a sua versão de referência, uma atribuição funcional sem o seu código de evidência e uma lista de acertos sem o seu espaço de pesquisa e método de correção estão cada uma incompletas de um modo invisível para o leitor e com consequências a jusante — a mesma distância entre um conjunto de dados e a afirmação dele extraída que a nota sobre [a incerteza perdida entre o conjunto de dados e o título](/pt/insight/uncertainty-lost-between-dataset-and-headline) traça noutro domínio.
+Nada disto argumenta a favor de menos confiança na análise de sequências em geral; as referências da disciplina são invulgarmente boas, e os números de concordância e de anotação errada acima existem porque a área mediu as suas próprias taxas de erro. Argumenta a favor de relatar aquilo que determina se um número é reprodutível. Uma lista de variantes sem a sua versão de referência, uma atribuição funcional sem o seu código de evidência e uma lista de acertos sem o seu espaço de pesquisa e método de correção estão cada uma incompletas de um modo invisível para o leitor e com consequências a jusante — a mesma distância entre um conjunto de dados e a afirmação dele extraída que a nota sobre [a incerteza perdida entre o conjunto de dados e o título](/pt/insight/uncertainty-lost-between-dataset-and-headline) traça noutro domínio.
 
 ## Sources
 

@@ -4,7 +4,7 @@ excerpt: An immune system has to recognise pathogens that have not evolved yet. 
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 8
 tags:
   - immunology
@@ -17,10 +17,10 @@ related:
   - hormones-and-endocrine-signalling
   - thermoregulation-in-animals
 pillar: physiology-explained
-_bodyHash: 1b1b2394
+_bodyHash: 717a5984
 ---
 
-The hard problem in immunity is combinatorial. A pathogen population evolves on a timescale of days, so any defence built around a fixed list of molecular signatures will be outrun; the system has to be able to recognise things that did not exist when the organism was born. Two very different strategies address that, and vertebrates run both at once — a fast, encoded layer aimed at features microbes cannot easily discard, and a slow layer that manufactures recognition at random and then selects from what it made.
+The hard problem in immunity is combinatorial. A pathogen population evolves on a timescale of days, so any defence built around a fixed list of molecular signatures will be outrun; the system has to be able to recognise things that did not exist when the organism was born. Two very different strategies address that, and vertebrates run both at once — a fast, encoded layer aimed at features microbes cannot easily discard, and a slow layer that manufactures recognition at random and then selects from what it made. That is taken up separately in [how haemoglobin releases oxygen where it is needed](/en/biology/physiology/the-oxygen-dissociation-curve).
 
 Calling the second layer "the immune system" and the first one a preamble gets the proportions wrong. Most encounters never reach a lymphocyte. The layered structure is also a control problem of the kind set out in the pillar on [how organisms hold internal conditions steady](/en/biology/physiology/physiology-explained): thresholds, effectors, and costs incurred when a response overshoots.
 

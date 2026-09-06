@@ -1,11 +1,11 @@
 ---
 title: 'Azote réactif : un élément, une cascade de problèmes distincts'
-excerpt: L'activité humaine fixe désormais presque autant d'azote réactif que toute la biosphère naturelle, et un seul atome peut provoquer tour à tour pollution de l'air, acidification, hypoxie côtière et forçage de l'effet de serre — sur des horloges qui vont de la semaine au siècle.
+excerpt: L'activité humaine fixe désormais à peu près autant d'azote réactif que toute la biosphère naturelle, et un seul atome peut provoquer tour à tour pollution de l'air, acidification, hypoxie côtière et forçage de l'effet de serre — sur des horloges qui vont de la semaine au siècle.
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - reactive-nitrogen
   - eutrophication
@@ -19,7 +19,7 @@ related:
   - lake-ecology-and-eutrophication
   - ocean-deoxygenation-and-dead-zones
 pillar: environmental-pollution-explained
-_bodyHash: 60c872f6
+_bodyHash: afbea9b2
 ---
 
 La pollution azotée est généralement présentée comme s'il s'agissait d'un problème unique en attente d'une solution unique. Il s'agit de plusieurs problèmes disposés en série. Un atome d'azote fixé dans un engrais peut se volatiliser sous forme d'ammoniac et former des particules secondaires dans l'air ; se déposer sur une lande et en modifier la communauté végétale ; être lessivé sous forme de nitrate vers une nappe souterraine puis vers une rivière ; nourrir une efflorescence algale dont la décomposition prive d'oxygène un fond marin côtier ; et repartir enfin sous forme de protoxyde d'azote, un gaz à effet de serre à longue durée de vie. Chaque étape est une cible distincte relevant d'un régulateur distinct, et l'atome ne cesse pas de produire des effets lorsque la première administration s'en désintéresse.
@@ -60,7 +60,7 @@ C'est précisément pourquoi l'objectif de gestion n'est pas formulé comme un c
 
 Sur les terres émergées, l'instrument réglementaire est la [charge critique](/en/glossary/critical-load) : le taux de dépôt qu'un écosystème peut absorber avant l'apparition d'effets d'eutrophisation. L'indicateur européen montre un mouvement dans la bonne direction, insuffisant au regard de l'objectif. La surface des écosystèmes de l'UE recevant des dépôts azotés supérieurs à la charge critique d'eutrophisation est passée de 1 249 000 km² en 2005 à 1 068 000 km² en 2023, soit une réduction d'environ 14 %. Le plan d'action « zéro pollution » demande une réduction de 25 % d'ici à 2030 par rapport à la référence de 2005 ; la projection de référence atteint 19 %.
 
-Sous cet indicateur se trouve une relation dose-réponse empirique, et elle n'est pas tranchée. Un transect de 68 pelouses acides couvrant le bas de la gamme de dépôts du monde industrialisé, de 5 à 35 kg N ha⁻¹ an⁻¹, a rapporté que [la richesse spécifique diminuait linéairement avec les dépôts](https://www.science.org/doi/10.1126/science.1094678) — une espèce perdue par quadrat de 4 m² pour chaque tranche de 2.5 kg N ha⁻¹ an⁻¹, et une réduction de 23 % de la richesse à la moyenne d'Europe centrale de 17 kg N ha⁻¹ an⁻¹. Une [réanalyse bayésienne spatiale](https://pmc.ncbi.nlm.nih.gov/articles/PMC7195837/) ultérieure de deux jeux de données britanniques de gradient, tenant compte de l'autocorrélation spatiale, a trouvé des effets faibles et ambigus et soutenu que les estimations par substitution de l'espace au temps avaient probablement été surestimées. Un [commentaire publié](https://pmc.ncbi.nlm.nih.gov/articles/PMC7810039/) a objecté que la réanalyse utilisait des dépôts modélisés à une résolution de 5 × 5 km alors qu'une variation significative existe à 1 km, de sorte que traiter la structure résiduelle comme une erreur spatialement corrélée biaiserait elle-même l'estimation vers le bas, et a conclu que la réanalyse était prématurée.
+Sous cet indicateur se trouve une relation dose-réponse empirique, et elle n'est pas tranchée. Un transect de 68 pelouses acides couvrant le bas de la gamme de dépôts du monde industrialisé, de 5 à 35 kg N ha⁻¹ yr⁻¹, a rapporté que [la richesse spécifique diminuait linéairement avec les dépôts](https://www.science.org/doi/10.1126/science.1094678) — une espèce perdue par quadrat de 4 m² pour chaque tranche de 2.5 kg N ha⁻¹ yr⁻¹, et une réduction de 23 % de la richesse à la moyenne d'Europe centrale de 17 kg N ha⁻¹ yr⁻¹. Une [réanalyse bayésienne spatiale](https://pmc.ncbi.nlm.nih.gov/articles/PMC7195837/) ultérieure de deux jeux de données britanniques de gradient, tenant compte de l'autocorrélation spatiale, a trouvé des effets faibles et ambigus et soutenu que les estimations par substitution de l'espace au temps avaient probablement été surestimées. Un [commentaire publié](https://pmc.ncbi.nlm.nih.gov/articles/PMC7810039/) a objecté que la réanalyse utilisait des dépôts modélisés à une résolution de 5 × 5 km alors qu'une variation significative existe à 1 km, de sorte que traiter la structure résiduelle comme une erreur spatialement corrélée biaiserait elle-même l'estimation vers le bas, et a conclu que la réanalyse était prématurée.
 
 La lecture calibrée est que le sens de l'effet n'est pas sérieusement contesté — l'enrichissement favorise un ensemble plus restreint de compétiteurs à croissance rapide, dans les expériences comme le long des gradients — tandis que l'ampleur estimée à partir de gradients spatiaux dépend de la méthode, et en particulier de la résolution et de l'erreur de la covariable de dépôt. Les charges critiques héritent de cette incertitude, ce qu'il vaut la peine de garder en mémoire lorsqu'une surface en dépassement est citée au millier de kilomètres carrés près.
 

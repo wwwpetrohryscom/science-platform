@@ -542,9 +542,21 @@ function punctuationIssues(text: string, locale: Locale): string[] {
     if (e > ie + 0) out.push(`${e} "!" but only ${ie} "¡" — Spanish exclamations open with ¡`);
   }
   if (locale === "ru") {
+    // A specific epithet is lower-case Latin by the rules of binomial
+    // nomenclature and stays Latin in every language — *Escherichia
+    // coli* is "Escherichia coli" in Russian too. The rule is looking
+    // for English words left untranslated in Russian prose, and it
+    // reported eight epithets (coli, ruddii, cellulosum) as if they
+    // were that. Anything following a capitalised Latin genus is a
+    // species name, not an untranslated word.
+    const epithets = new Set(
+      [...prose.matchAll(/(?<![A-Za-z])[A-Z][a-z]{2,}\s+([a-z]{3,})(?![A-Za-z])/g)].map(
+        (m) => m[1],
+      ),
+    );
     const latin = prose.match(/(?<![A-Za-z/²³⁻])[A-Za-z]{4,}(?![A-Za-z])/g) ?? [];
     const unexpected = latin.filter(
-      (w) => !ATTRIBUTIONS.includes(w) && !/^[A-Z]/.test(w),
+      (w) => !ATTRIBUTIONS.includes(w) && !/^[A-Z]/.test(w) && !epithets.has(w),
     );
     if (unexpected.length > 6) {
       out.push(

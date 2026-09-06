@@ -18,7 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: be8c1a66
+_bodyHash: 825f8328
 ---
 
 La contrainte qui limite réellement la conservation est rarement le manque d'information sur les espèces en difficulté. Ce sont l'argent, la terre et le nombre de personnes disponibles pour gérer l'un ou l'autre — ce qui fait que la question opérationnelle n'est pas de savoir ce qui est menacé, mais ce qu'il faut acheter avec la prochaine unité de budget. Ces deux questions reçoivent des réponses différentes assez souvent pour que la seconde mérite ses propres méthodes.
@@ -74,10 +74,10 @@ Rien de tout cela ne décide de l'objectif. Maximiser le nombre d'espèces sauve
 
 1. **Nature** — [Systematic conservation planning](https://www.nature.com/articles/35012251). Le cadrage des réseaux de réserves par la représentation et la persistance, et le biais documenté des réserves existantes en faveur des terres reculées et impropres à l'exploitation commerciale.
 2. **Nature** — [Biodiversity hotspots for conservation priorities](https://www.nature.com/articles/35002501). Le filtre endémisme-et-perte-d'habitat et son usage comme heuristique mondiale de priorité.
-3. **Conservation Biology (via PubMed)** — [Bias in protected-area location and its effects on long-term aspirations of biodiversity conventions](https://pubmed.ncbi.nlm.nih.gov/28639356/). Le biais de localisation en faveur des terres à faible coût d'opportunité et le contrefactuel d'une représentation trente fois supérieure.
+3. **Conservation Biology (via PubMed)** — [Bias in protected-area location and its effects on long-term aspirations of biodiversity conventions](https://pubmed.ncbi.nlm.nih.gov/28639356/). Le biais de localisation en faveur des terres à faible coût d'opportunité et le contrefactuel d'une représentation 30 fois supérieure.
 4. **PNUE-WCMC et UICN** — [Protected Planet Report 2024](https://digitalreport.protectedplanet.net/). Couverture, représentativité, connectivité, lacunes des zones clés pour la biodiversité et taux d'évaluation de l'efficacité de gestion.
 5. **Secrétariat de la CBD** — [Target 3 of the Kunming-Montreal Global Biodiversity Framework](https://www.cbd.int/gbf/targets/3). Le texte intégral de la cible et son indicateur phare de couverture.
-6. **Conservation Biology (via PubMed)** — [Optimal allocation of resources among threatened species: a project prioritization protocol](https://pubmed.ncbi.nlm.nih.gov/19183202/). Le protocole néo-zélandais et la comparaison entre onze et seize projets financés.
+6. **Conservation Biology (via PubMed)** — [Optimal allocation of resources among threatened species: a project prioritization protocol](https://pubmed.ncbi.nlm.nih.gov/19183202/). Le protocole néo-zélandais et la comparaison entre 11 et 16 projets financés.
 7. **PLOS ONE** — [A large-scale application of project prioritization to threatened species investment by a government agency](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201413). Le protocole appliqué à 368 espèces et la structure coût-bénéfice-faisabilité.
 8. **Nature Communications** — [Half of resources in threatened species conservation plans are allocated to research and monitoring](https://www.nature.com/articles/s41467-020-18486-6). Les parts de budget pour 2 328 espèces inscrites et l'association avec les résultats de rétablissement.
 9. **Science (via PubMed)** — [Financial costs of meeting global biodiversity conservation targets](https://pubmed.ncbi.nlm.nih.gov/23065904/). Les estimations de coût annuel pour les espèces menacées et pour la protection des sites, et la part actuellement financée.

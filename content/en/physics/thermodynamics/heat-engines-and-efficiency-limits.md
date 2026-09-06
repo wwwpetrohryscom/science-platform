@@ -5,7 +5,7 @@ excerpt: A coal steam plant converts about a third of its fuel energy to electri
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 7
 tags:
   - heat-engines
@@ -19,10 +19,10 @@ related:
   - heat-transfer-conduction-convection-radiation
   - thermodynamic-limits-of-photovoltaics
 pillar: laws-of-thermodynamics-explained
-_bodyHash: 562f9d83
+_bodyHash: 6fca34bd
 ---
 
-American power plants report their performance as a heat rate — the fuel energy consumed per unit of electricity delivered — and the Energy Information Administration's 2024 figures make the state of the art easy to read. Tested coal-fired steam units averaged 10,018 Btu per kilowatt-hour, natural gas combined-cycle units 7,548, and simple-cycle gas turbines 10,999. Since a kilowatt-hour is 3,412 Btu, those convert to 34.1%, 45.2% and 31.0%.
+American power plants report their performance as a heat rate — the fuel energy consumed per unit of electricity delivered — and the Energy Information Administration's 2024 figures make the state of the art easy to read. Tested coal-fired steam units averaged 10,018 Btu per kilowatt-hour, natural gas combined-cycle units 7,548, and simple-cycle gas turbines 10,999. Since a kilowatt-hour is 3,412 Btu, those convert to 34.1%, 45.2% and 31.0%. That is taken up separately in [the Carnot bound](/en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines).
 
 A steam plant raising 600 °C steam and rejecting heat to cooling water near 30 °C has a reversible ceiling of 65.3%. The measured machine delivers a little over half of that. Nothing in the difference is a mystery, and very little of it is bad engineering: most of it is the price of running at a finite rate, with materials that melt, inside a boundary someone chose.
 

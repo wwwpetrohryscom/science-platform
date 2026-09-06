@@ -17,7 +17,7 @@ related:
   - perovskite-stack-field-stability
   - earth-energy-budget-and-the-second-law
 pillar: energy-systems-explained
-_bodyHash: 172bae74
+_bodyHash: 931b3cb8
 ---
 
 Климатическая система Земли по своей сути представляет собой [энергетический бюджет](/ru/physics/climate-physics/atmospheric-physics-explained). Солнце поставляет коротковолновое излучение; планета часть его поглощает, часть отражает и излучает обратно в космос длинноволновую (инфракрасную) энергию. Оно же является исходным источником для любой солнечной технологии в [энергетической системе](/ru/physics/energy/energy-systems-explained). Учёт соотношения между приходом и уходом энергии составляет основу физики климата, и он же задаёт рамку, к которой привязана бо́льшая часть обсуждения [энергетических систем](/ru/physics/energy/perovskite-stack-field-stability) и фотовольтаики.

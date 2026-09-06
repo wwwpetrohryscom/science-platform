@@ -5,7 +5,7 @@ excerpt: An Earth system model is a coupled climate model with the biogeochemist
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 5
 tags:
   - earth-system-model
@@ -17,11 +17,11 @@ related:
   - earth-system-predictability-explained
   - essential-climate-variables-explained
   - climate-feedback-mechanisms
-_bodyHash: 658b6a24
+_bodyHash: 8605c457
 pillar: earth-system-science-explained
 ---
 
-"[Climate model](/en/glossary/climate-model)" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer, and it follows directly from [what makes Earth system science a distinct field](/en/ecology/earth-systems/earth-system-science-explained). This article describes the change, the international framework these models are run within, and where the resulting projections are weakest.
+"[Climate model](/en/glossary/climate-model)" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer, and it follows directly from [what makes Earth system science a distinct field](/en/ecology/earth-systems/earth-system-science-explained). This article describes the change, the international framework these models are run within, and where the resulting projections are weakest. That is taken up separately in [anomalies, baselines and reference periods](/en/ecology/earth-systems/anomalies-baselines-and-reference-periods).
 
 Projection *uncertainty* — how scenario, model structure, and internal variability combine into a range — is treated separately in the existing article on [climate models and projections](/en/ecology/climate-change/climate-models-projections-uncertainty). The subject here is the machinery.
 

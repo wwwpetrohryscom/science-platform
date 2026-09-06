@@ -631,9 +631,10 @@
         "cation-exchange"
       ],
       "matchSlugs": [
-        "soil-science-explained",
         "soil-carbon-measurement-and-uncertainty",
-        "soil-formation-and-classification"
+        "soil-formation-and-classification",
+        "soil-horizons-and-reading-a-profile",
+        "soil-science-explained"
       ],
       "relatedEntities": [
         "carbon-cycle",

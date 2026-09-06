@@ -6,7 +6,7 @@ type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 7
 tags:
   - reactive-nitrogen
   - eutrophication
@@ -20,7 +20,7 @@ related:
   - lake-ecology-and-eutrophication
   - ocean-deoxygenation-and-dead-zones
 pillar: environmental-pollution-explained
-_bodyHash: f5395860
+_bodyHash: 464cfc58
 ---
 
 Stickstoffbelastung wird meist so verhandelt, als wäre sie ein einziges Problem, das auf eine einzige Lösung wartet. Sie ist eine Reihe hintereinandergeschalteter Probleme. Ein in Dünger gebundenes Stickstoffatom kann als Ammoniak entweichen und in der Luft sekundäre Partikel bilden; auf einer Heide deponiert werden und deren Pflanzengemeinschaft verschieben; als Nitrat ins Grundwasser und weiter in einen Fluss ausgewaschen werden; eine Algenblüte nähren, deren Zerfall dem küstennahen Meeresboden den Sauerstoff entzieht; und schließlich als Lachgas entweichen, ein langlebiges Treibhausgas. Jede Station ist ein eigener Rezeptor mit einer eigenen Aufsichtsbehörde, und das Atom hört nicht auf zu wirken, wenn die erste Behörde das Interesse verliert.
@@ -61,7 +61,7 @@ Genau deshalb ist das Bewirtschaftungsziel nicht als Zahl für ein einzelnes Jah
 
 An Land ist das regulatorische Instrument der [Critical Load](/en/glossary/critical-load): die Depositionsrate, die ein Ökosystem aufnehmen kann, bevor Eutrophierungswirkungen auftreten. Der europäische Indikator zeigt eine Bewegung in die richtige Richtung, die hinter dem Ziel zurückbleibt. Die Fläche der EU-Ökosysteme mit Stickstoffdeposition oberhalb des Eutrophierungs-Critical-Loads sank von 1.249.000 km² im Jahr 2005 auf 1.068.000 km² im Jahr 2023, ein Rückgang um etwa 14 %. Der Null-Schadstoff-Aktionsplan fordert bis 2030 eine Minderung um 25 % gegenüber dem Basisjahr 2005; die Basisprojektion erreicht 19 %.
 
-Unter diesem Indikator liegt eine empirische Dosis-Wirkungs-Beziehung, und sie ist nicht geklärt. Ein Transekt aus 68 sauren Grasländern, das das untere Ende der Depositionsspanne der industrialisierten Welt abdeckt, 5 bis 35 kg N ha⁻¹ a⁻¹, berichtete, dass [der Artenreichtum linear mit der Deposition abnahm](https://www.science.org/doi/10.1126/science.1094678) – eine verlorene Art je Aufnahmefläche von 4 m² für jede 2.5 kg N ha⁻¹ a⁻¹ und ein um 23 % verringerter Artenreichtum beim mitteleuropäischen Mittel von 17 kg N ha⁻¹ a⁻¹. Eine spätere [räumlich-bayessche Neuauswertung](https://pmc.ncbi.nlm.nih.gov/articles/PMC7195837/) zweier britischer Gradientendatensätze, die die räumliche Autokorrelation berücksichtigte, fand kleine und uneindeutige Effekte und argumentierte, dass Schätzungen aus dem Raum-für-Zeit-Ansatz wahrscheinlich überzeichnet worden seien. Ein [veröffentlichter Kommentar](https://pmc.ncbi.nlm.nih.gov/articles/PMC7810039/) hielt dagegen, die Neuauswertung habe modellierte Deposition in 5 × 5 km Auflösung verwendet, während bedeutsame Variation auf 1 km besteht, sodass die Behandlung der Reststruktur als räumlich korrelierter Fehler die Schätzung selbst nach unten verzerren würde, und kam zu dem Schluss, die Neuauswertung sei verfrüht.
+Unter diesem Indikator liegt eine empirische Dosis-Wirkungs-Beziehung, und sie ist nicht geklärt. Ein Transekt aus 68 sauren Grasländern, das das untere Ende der Depositionsspanne der industrialisierten Welt abdeckt, 5 bis 35 kg N ha⁻¹ yr⁻¹, berichtete, dass [der Artenreichtum linear mit der Deposition abnahm](https://www.science.org/doi/10.1126/science.1094678) – eine verlorene Art je Aufnahmefläche von 4 m² für jede 2.5 kg N ha⁻¹ yr⁻¹ und ein um 23 % verringerter Artenreichtum beim mitteleuropäischen Mittel von 17 kg N ha⁻¹ yr⁻¹. Eine spätere [räumlich-bayessche Neuauswertung](https://pmc.ncbi.nlm.nih.gov/articles/PMC7195837/) zweier britischer Gradientendatensätze, die die räumliche Autokorrelation berücksichtigte, fand kleine und uneindeutige Effekte und argumentierte, dass Schätzungen aus dem Raum-für-Zeit-Ansatz wahrscheinlich überzeichnet worden seien. Ein [veröffentlichter Kommentar](https://pmc.ncbi.nlm.nih.gov/articles/PMC7810039/) hielt dagegen, die Neuauswertung habe modellierte Deposition in 5 × 5 km Auflösung verwendet, während bedeutsame Variation auf 1 km besteht, sodass die Behandlung der Reststruktur als räumlich korrelierter Fehler die Schätzung selbst nach unten verzerren würde, und kam zu dem Schluss, die Neuauswertung sei verfrüht.
 
 Die kalibrierte Lesart lautet, dass die Richtung des Effekts nicht ernsthaft strittig ist – Anreicherung begünstigt eine kleinere Gruppe schnellwüchsiger Konkurrenten, in Experimenten ebenso wie entlang von Gradienten –, während die aus räumlichen Gradienten geschätzte Größenordnung methodenabhängig ist und insbesondere von Auflösung und Fehler der Depositions-Kovariablen abhängt. Critical Loads erben diese Unsicherheit, was zu bedenken ist, wenn eine Überschreitungsfläche auf tausend Quadratkilometer genau angegeben wird.
 

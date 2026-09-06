@@ -1,0 +1,246 @@
+{
+  "batchId": "v-ecology-biodiversity-sampling-effort",
+  "reviewedDate": "2026-09-06",
+  "method": "Independent second-pass review: every numeric claim, quoted phrase, named study, date and attributed statement re-read against the cited source by a reviewer who did not write the article and did not take the writer's claim-to-source table as evidence. Each of the nine cited sources was fetched and read directly, including one the writer's report did not list as checked.",
+  "verificationMethod": "independent",
+  "articles": [
+    {
+      "slug": "sampling-effort-and-what-a-species-count-depends-on",
+      "path": "content/en/ecology/biodiversity/sampling-effort-and-what-a-species-count-depends-on.md",
+      "status": "amended",
+      "claimsChecked": 42,
+      "findings": [
+        {
+          "claim": "Quoted: a species accumulation curve gives 'the expected number of observed species or distinct classes as a function of sampling effort'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4885658/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The curve rises, decelerates, and in a finite population approaches an asymptote",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4885658/",
+          "disposition": "verified",
+          "note": "Not presented as a quotation. Source supports it: 'the predicted curve asymptotes relatively quickly, indicating that the observed experiment is nearly saturated.'"
+        },
+        {
+          "claim": "Quoted: 'no matter how many species have been observed there may exist an arbitrary number of undetected rare species in the population'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4885658/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: accumulation curves allow 'fair comparisons of the expected number of species for a fixed number of individuals captured'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4885658/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Latium, Italy; tenebrionid beetles; area of 17,200 km2",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3632580/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "3,561 records covering 26,743 specimens gathered between 1871 and 2010",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3632580/",
+          "disposition": "verified",
+          "note": "Source adds that 25,349 of the 26,743 specimens were directly examined; the article's phrasing does not contradict this."
+        },
+        {
+          "claim": "90% of known species richness was reached only in 1939, after 69 years of collecting and 1,309 sampled individuals",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3632580/",
+          "disposition": "qualified",
+          "note": "The three numbers are verbatim ('A 90% of total known species richness (i.e. about 74 species) is reached in 1939, i.e. after 69 years of sampling (and 1309 sampled individuals)'). But the source immediately qualifies them: 'use of a smoothed curve (MaoTau), indicates that about 50 years (but with more than 9000 individuals) should be needed to reach 90% of known richness.' The 1,309 figure is an artefact of very uneven historical collecting effort, so quoting it alone understates the specimen effort involved. Added the Mao Tau caveat to the article."
+        },
+        {
+          "claim": "About 64 of the region's 210 UTM 10 x 10 km cells had to be sampled to cross the same 90% threshold",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3632580/",
+          "disposition": "verified",
+          "note": "Both numbers confirmed: '90% of total known species richness ... is reached after about 64 sampled UTM cells' and 'a land area of 17,200 km2, which is approximatively divided into 210 10x10 km cells in the UTM system.'"
+        },
+        {
+          "claim": "205,735 georeferenced plant specimens representing 15,788 species from Ecuador",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Resolutions of 10 x 10, 25 x 25 and 50 x 50 km",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Richness estimated by most methods correlated with the number of specimens at 0.86 to 0.96",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Only rarefaction broke that dependence, dropping the correlation to about 0.40 on average",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/",
+          "disposition": "verified",
+          "note": "Checked specifically because a first read returned a range of 0.28-0.51. The paper states the average directly: 'average Pearson correlation 0.40 for rarefied richness and 0.93 for all other measures, Table 2'. The article's 'about 0.40 on average' is the paper's own summary figure."
+        },
+        {
+          "claim": "Quoted: sampling effort 'overshadowed the effect of environmental predictors as the dominant richness predictor for most of the estimators used'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/",
+          "disposition": "verified",
+          "note": "Full sentence confirmed verbatim on a second targeted fetch after the first returned it truncated."
+        },
+        {
+          "claim": "Sampling influence up to 24 times higher than that of the environmental variables",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: sample coverage is 'the fraction of the individuals in an assemblage that belong to the species observed in the sample'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: Chao1 yields 'generally a minimum number of species'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: Hill numbers from a sample 'are an increasing function of sampling effort'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: curves for low q 'heavily depend on the low frequency counts, especially singletons'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/",
+          "disposition": "verified",
+          "note": "Source scopes 'small value of q' as 0 <= q < 2, which is consistent with the article's use."
+        },
+        {
+          "claim": "The q = 2 measure, corresponding to Simpson, shows only weak dependence on sample completeness",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/",
+          "disposition": "verified",
+          "note": "Source: 'Simpson diversity is weakly dependent on sample size and inventory completeness', which it attributes to Chao et al. (2014). The article does not present this as the cited authors' own finding, so the attribution is not misstated."
+        },
+        {
+          "claim": "Shannon (q = 1) is intermediate in its dependence on effort",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/",
+          "disposition": "verified",
+          "note": "Source: 'empirical Shannon diversity is moderately dependent ... on sample size and inventory completeness.'"
+        },
+        {
+          "claim": "Quoted: size-based rarefaction reflects 'only the change in community composition'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182778/",
+          "disposition": "verified",
+          "note": "Verbatim in Corollary 1. The Discussion restates it as 'reflects mainly the change in species composition'; the article uses the stronger Corollary wording, which is the source's own."
+        },
+        {
+          "claim": "Quoted: coverage-based rarefaction 'encompasses changes in both components: species composition and community size'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182778/",
+          "disposition": "corrected",
+          "note": "Misquotation. The paper's word is 'presents', not 'encompasses': 'the coverage-based rarefaction indicator presents the changes in both components: species composition, pit's, and community size, nt'. Corrected the quotation to the source's wording, eliding the notation with an ellipsis."
+        },
+        {
+          "claim": "A simulation of 1,000 runs with 100 species",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182778/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Size-based rarefied richness showed a flat trend where coverage-based richness declined in step with observed richness",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182778/",
+          "disposition": "verified",
+          "note": "Source reports 85% of size-based slope coefficients non-significant (the flat trend) against a declining coverage-based trend matching observed richness."
+        },
+        {
+          "claim": "Quoted: BBS routes are 'roughly 25 miles long and are comprised of 50 point counts'",
+          "sourceChecked": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: each count 'lasts 3 minutes'",
+          "sourceChecked": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An observer records all birds heard or seen within a 0.25-mile radius",
+          "sourceChecked": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Surveys start half an hour before local sunrise and take about five hours",
+          "sourceChecked": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Run once a year by a qualified observer",
+          "sourceChecked": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Over 4,800 routes across the United States, Canada and northern Mexico",
+          "sourceChecked": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+          "disposition": "corrected",
+          "note": "Source says 'across the continental United States, Canada and northern Mexico'. The article dropped 'continental', which overstates the network's extent (it excludes Alaska and Hawaii from the stated coverage). Added 'continental'."
+        },
+        {
+          "claim": "Quoted: the procedure 'is based on a 200-organism subsample, but it could be used for any subsample size (100, 300, 500, etc.)'",
+          "sourceChecked": "https://archive.epa.gov/water/archive/web/html/ch07b.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Four squares selected from a gridded pan with a random numbers table",
+          "sourceChecked": "https://archive.epa.gov/water/archive/web/html/ch07b.html",
+          "disposition": "verified",
+          "note": "Source: 'Use a random numbers table to select 4 numbers corresponding to squares (grids) within the gridded pan.'"
+        },
+        {
+          "claim": "The result is accepted when the count falls within 200 organisms plus or minus 20%",
+          "sourceChecked": "https://archive.epa.gov/water/archive/web/html/ch07b.html",
+          "disposition": "verified",
+          "note": "Source: 'If there appear ... to be 200 organisms +/- 20% (cumulative of 4 grids), then subsampling is complete.'"
+        },
+        {
+          "claim": "More than 13.6 million occurrence records for ten taxonomic groups across more than 190,000 grid cells of 0.1 x 0.1 degrees in the contiguous United States",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979697/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Cells scored by record count, the Chao2 completeness index and the final slope of the species accumulation curve",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979697/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Of GBIF-surveyed grid cells, 4.7% qualified as well-surveyed for the full time period and 3.7% for the contemporary one",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979697/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "For the Breeding Bird Survey and freshwater fish surveys the equivalent figures were 82.6% and 82.3%",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979697/",
+          "disposition": "qualified",
+          "note": "The numbers are right but the article's phrasing invited a wrong reading. In the source, '82.6% and 82.3% of BBS- and FFS-surveyed grid cells' are the complete and contemporary time periods respectively, pooled across both programmes - not one figure for BBS and one for FFS. Rewrote to name the two periods explicitly."
+        },
+        {
+          "claim": "Deng, Umbach and Neufeld, 'Nonparametric richness estimators Chao1 and ACE must not be used with amplicon sequence variant data', The ISME Journal (2024)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+          "disposition": "verified",
+          "note": "Title, all three authors, journal and year confirmed. This source was not listed in the writer's account of what it had checked, so the whole paragraph resting on it was read from scratch."
+        },
+        {
+          "claim": "Quoted: Chao1 and ACE 'must not be used' with amplicon sequence variant data",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+          "disposition": "qualified",
+          "note": "The source's sentence is scoped: 'Chao1 and ACE must not be used for estimating total richness of amplicon sequence variant (ASV) datasets'. Truncating the quote at 'must not be used' drops the purpose the prohibition attaches to and makes it a blanket ban. Restored the full quoted scope."
+        },
+        {
+          "claim": "Denoising algorithms remove single-sequence variants by default, and both estimators are computed from singleton counts",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+          "disposition": "verified",
+          "note": "Source names DADA2 and Deblur as the denoising algorithms and gives this as the reason."
+        },
+        {
+          "claim": "Quoted: the resulting values are 'meaningless and thus unacceptable for alpha diversity analyses'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Their recommendation is contested in its scope'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+          "disposition": "removed",
+          "note": "No cited source supports this. The article cites only the ISME piece itself, which of course does not report itself as contested, and a targeted search for a published rebuttal or comment returned none. An unsourced 'this is disputed' hedge is a fabricated attribution to an unnamed body of critics, so the clause was cut and the sentence rewritten to keep only the generalisation the article actually argues."
+        }
+      ]
+    }
+  ]
+}

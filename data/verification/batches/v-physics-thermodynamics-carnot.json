@@ -1,0 +1,149 @@
+{
+  "batchId": "v-physics-thermodynamics-carnot",
+  "reviewedDate": "2026-09-06",
+  "method": "Independent second-pass review: every numeric claim, quoted phrase, named study, date and attributed statement re-read against the cited source by a reviewer who did not write the article and did not take the writer's claim-to-source table as evidence.",
+  "verificationMethod": "independent",
+  "articles": [
+    {
+      "slug": "carnot-efficiency-and-the-limit-on-engines",
+      "path": "content/en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines.md",
+      "status": "amended",
+      "claimsChecked": 31,
+      "findings": [
+        {
+          "claim": "Steam engines converted below 5% of their fuel into work at the time Carnot published",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Sadi Carnot published Reflexions sur la puissance motrice du feu in 1824",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The formula 1 - T_L/T_H was developed in the 1850s, first by Kelvin and later by Clausius, not by Carnot",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: 'the motive power of heat is independent of the agents employed to realize it'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified",
+          "note": "Verbatim. The source continues '; its quantity is fired solely by the temperatures' — the article quotes the first clause only, which does not change its sense."
+        },
+        {
+          "claim": "Quoted: the COP 'is always over 100%' and an efficiency over 100% 'would not be fundamentally (nor political) proper'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: mechanical and calorific exchanges 'are of infinite time duration for reversible conditions'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7514577/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: 'the maximum of the power output is not obtained under the same conditions as the maximum of efficiency'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7514577/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The endoreversible model gives an efficiency at maximum power of 1 - sqrt(T_c/T_h), described as a more practical bound than the Carnot one",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854467/",
+          "disposition": "verified",
+          "note": "The radical is real, not a rendering artefact: the source gives the Curzon-Ahlborn efficiency as eta_CA = 1 - sqrt(Tc/Th) in Eq. (1), and 'a more practical efficiency bound than the Carnot efficiency' is verbatim from the abstract."
+        },
+        {
+          "claim": "'Its answer depends on the assumed heat-transfer law'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854467/",
+          "disposition": "qualified",
+          "note": "True but under-specified in a way that inverts the paper's actual point. The paper's result is that the efficiency at maximum power is INVARIANT to the heat-transfer coefficients under Newton's law of cooling, and that 'for endoreversible heat engines operating under heat transfer laws other than Newton's law, the EMP generally depends significantly on the heat transfer coefficients'. Added the Newton's-law condition and the invariance, so the caveat states the paper's finding rather than a vaguer version of it."
+        },
+        {
+          "claim": "EIA tested 2024 heat rates: coal steam 10,018 Btu/kWh and natural gas combined cycle 7,548 Btu/kWh",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_02.html",
+          "disposition": "verified",
+          "note": "Both exact in Table 8.2 (2014-2024) for the 2024 column."
+        },
+        {
+          "claim": "Those tested heat rates stand in for what a power station's efficiency number measures",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_02.html",
+          "disposition": "qualified",
+          "note": "The table states that 'Heat rate is reported at full load conditions' and that the averages are 'weighted by Net Summer Capacity'. These are therefore design-point figures, not annual operating averages — a distinction the article's own closing section ('is it rated or measured') makes but did not apply to its own numbers. Added the full-load and net-summer-capacity qualification at the point the numbers are introduced."
+        },
+        {
+          "claim": "EIA's method is to divide the 3,412 Btu equivalent of a kWh by the heat rate; this gives 34.1% and 45.2%",
+          "sourceChecked": "https://www.eia.gov/tools/faqs/faq.php?id=107&t=3",
+          "disposition": "verified",
+          "note": "Method verbatim. Arithmetic re-derived: 3412/10018 = 34.06%, 3412/7548 = 45.20%."
+        },
+        {
+          "claim": "COP defined as thermal energy moved into the building divided by electric energy used to drive the compressor",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A meta-analysis found an average COP of about 3 even at 0 C",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "verified",
+          "note": "The Nature Communications paper reports this as the finding of a recent meta-analysis (Gibb et al., Joule 2023), which is how the article frames it."
+        },
+        {
+          "claim": "Scenarios spanning mild to cold climates used rated values from 2.5 to 4.5",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "verified",
+          "note": "The source ties the range to climate itself: five rated-COP scenarios 'are investigated to reflect typical ranges of HP performance in mild to cold climates'. The scenarios are equipment performance classes, not climates, so the wording was tightened to say so."
+        },
+        {
+          "claim": "In the median case the actual coefficient fell below 2.5 on the coldest winter days",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "corrected",
+          "note": "The source says 'For the RC3.5 scenario, the actual COP falls below 2.5 on multiple occasions during the coldest winter days'. Two problems: 'median case' is the reviewer's own arithmetic on the scenario list rather than the paper's label, and dropping 'on multiple occasions' turned an intermittent excursion into a standing condition. Rewritten to name the rated-3.5 scenario and restore the hedge. Also identified the work as a modelling study of a single city (Toulouse, France), which the article had generalised to 'a recent study of air-to-air units'."
+        },
+        {
+          "claim": "For a reversible heat pump the coefficient cannot exceed T_h/(T_h - T_c); at 293 K against 273 K that ceiling is near 14.7",
+          "sourceChecked": "derived in-body from the article's own stated bound; no cited source states it",
+          "disposition": "qualified",
+          "note": "No cited source gives the heating-COP bound, and it was asserted as if quoted. It is a strict consequence of 1 - T_c/T_h, which the article establishes and sources, so the fix is to show the derivation rather than to cut the claim: reworded to 'the reciprocal of the engine expression: 1/(1 - T_c/T_h), which rearranges to T_h/(T_h - T_c)'. Arithmetic re-derived: 293/(293-273) = 14.65, and 3/14.65 = 20.5%, so 'roughly a fifth' holds."
+        },
+        {
+          "claim": "DOE: modern air-source heat pumps can cut electricity use by 50% against furnaces and baseboard heaters; geothermal cuts energy use by 30%-60%",
+          "sourceChecked": "https://www.energy.gov/articles/pump-your-savings-heat-pumps",
+          "disposition": "verified",
+          "note": "Both verbatim. The article correctly preserves the source's own distinction — 'electricity use' for air-source, 'energy use' for ground-coupled."
+        },
+        {
+          "claim": "Landsberg limit of 93.3% for conversion with no irreversible entropy generation, and 85.4% for an intermediate blackbody absorber at its optimal 2,544 K, for a 6,000 K source and 300 K ambient",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5910829/",
+          "disposition": "qualified",
+          "note": "All four numbers are exact in the paper, and the reversibility characterisation is right — the derivation sets S_out = S_in, entropy rejected equal to entropy absorbed. But the paper's headline result is the limit on harvesting Earth's OUTGOING thermal radiation (153.1 W/m2 at Ta=300 K, To=3 K); the 93.3% and 85.4% figures are its solar-illumination limits. The article's phrase 'work on harvesting from thermal radiation' invited the reader to attach the numbers to the wrong half of the paper. Changed to 'radiative energy harvesting ... for solar illumination', and the Sources entry now says the limits are under solar illumination."
+        },
+        {
+          "claim": "The Shockley-Queisser detailed-balance limit is about 34% for a single junction, rising to about 45% for a tandem",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5594440/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Roughly 1.74 eV is the ideal top-cell bandgap over silicon",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5594440/",
+          "disposition": "qualified",
+          "note": "The source states it exactly and with a condition the article dropped: 'The ideal bandgap for a series-connected tandem solar cell with Si as a bottom cell is 1.74 eV.' Removed the spurious 'roughly' and added 'series-connected', since the optimum is a consequence of current matching in series and does not carry over unchanged to a four-terminal stack."
+        },
+        {
+          "claim": "Illustrative reservoir arithmetic: 900 K/300 K gives 66.7%, 450 K/300 K gives 33.3%, and 1 - 300/6,000 gives 95%",
+          "sourceChecked": "arithmetic on the article's own stated expression; labelled as hypothetical in the body",
+          "disposition": "verified",
+          "note": "Re-derived: 1-300/900 = 66.67%, 1-300/450 = 33.33%, 1-300/6000 = 95%. No real machine is attributed any of these."
+        },
+        {
+          "claim": "Identity of all nine cited sources (title, journal, year, authorship)",
+          "sourceChecked": "all nine cited URLs",
+          "disposition": "verified",
+          "note": "Every source exists, is reachable, and carries the title and journal the Sources list gives it: Entropy (Kostic 2025; Feidt/Costea-type Carnot-Chambadal modelling; Zhao and Ma 2025), EIA Tables 8.2 and FAQ 107, Nature Communications (Meyer, Schoetter and van Reeuwijk 2024, Toulouse), energy.gov, PNAS 2018, ACS Energy Letters 2017. No fabricated study, institution, quotation or statistic was found."
+        }
+      ],
+      "openQuestions": [
+        "The Carnot-theorem proof sketch in 'Why the working substance drops out' and the entropy-generation framing in 'Reversibility is a limit process' are textbook reasoning rather than sourced claims. They are correct as written and consistent with the cited literature, but no cited page states them in that form."
+      ]
+    }
+  ]
+}

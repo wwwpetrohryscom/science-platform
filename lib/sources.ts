@@ -524,37 +524,28 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       lastReviewed: "2026-08-29",
     },
     {
-      name: "International Code of Zoological Nomenclature",
-      organization: "International Commission on Zoological Nomenclature",
-      url: "https://code.iczn.org/",
-      type: "standards-body",
+      name: "Integrated Taxonomic Information System",
+      organization: "ITIS — a partnership of US, Canadian and Mexican agencies",
+      url: "https://www.itis.gov/",
+      type: "primary",
       topicRelevance:
-        "The operative rules for naming animals — priority, typification, availability and authorship. Not a commentary on the rules; the rules themselves",
+        "Taxonomic serial numbers and accepted names for North American biota, cited for the current standing of a name rather than for its biology",
       lastReviewed: "2026-09-06",
     },
     {
-      name: "International Code of Nomenclature for algae, fungi, and plants",
-      organization: "International Association for Plant Taxonomy",
-      url: "https://www.iapt-taxon.org/",
-      type: "standards-body",
+      name: "Committee on Earth Observation Satellites",
+      organization: "CEOS",
+      url: "https://ceos.org/",
+      type: "primary",
       topicRelevance:
-        "The operative rules for naming plants, algae and fungi, published as numbered articles",
-      lastReviewed: "2026-09-06",
-    },
-    {
-      name: "International Commission on Zoological Nomenclature",
-      organization: "ICZN",
-      url: "https://www.iczn.org/",
-      type: "standards-body",
-      topicRelevance:
-        "The body that maintains the zoological code and rules on individual nomenclatural cases",
+        "Coordination body for civil Earth-observation satellites; publisher of RadCalNet and the calibration and validation practices agencies hold their instruments to",
       lastReviewed: "2026-09-06",
     },
     {
       name: "ISRIC World Soil Information",
       organization: "ISRIC",
       url: "https://www.isric.org/",
-      type: "research-institute",
+      type: "primary",
       topicRelevance:
         "Custodian of the World Reference Base for Soil Resources, the international soil classification standard, and of global soil property datasets",
       lastReviewed: "2026-09-06",
@@ -563,7 +554,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       name: "Official Soil Series Descriptions",
       organization: "USDA Natural Resources Conservation Service",
       url: "https://soilseries.sc.egov.usda.gov/",
-      type: "government-agency",
+      type: "primary",
       topicRelevance:
         "The published horizon-by-horizon descriptions behind US soil taxonomy, cited for what a real profile description contains",
       lastReviewed: "2026-09-06",
@@ -572,7 +563,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       name: "European Soil Data Centre",
       organization: "European Commission Joint Research Centre",
       url: "https://esdac.jrc.ec.europa.eu/",
-      type: "intergovernmental",
+      type: "primary",
       topicRelevance:
         "Europe's reference soil data and the technical reports behind the European soil classification work",
       lastReviewed: "2026-09-06",
@@ -581,7 +572,7 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       name: "US Federal Register",
       organization: "Office of the Federal Register, National Archives",
       url: "https://www.govinfo.gov/",
-      type: "government-agency",
+      type: "primary",
       topicRelevance:
         "The official publication of record for US federal rules, cited for the text of a rule rather than for a description of it",
       lastReviewed: "2026-09-06",
@@ -1324,6 +1315,41 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       type: "dataset",
       topicRelevance: "Accepted plant names and synonymy",
       lastReviewed: "2026-09-02",
+    },
+    {
+      name: "Integrated Taxonomic Information System",
+      organization: "ITIS",
+      url: "https://www.itis.gov/",
+      type: "dataset",
+      topicRelevance: "Accepted scientific names, authorities and synonymy for animals, plants and fungi",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "International Code of Zoological Nomenclature",
+      organization: "International Commission on Zoological Nomenclature",
+      url: "https://code.iczn.org/",
+      type: "primary",
+      topicRelevance:
+        "The operative rules for naming animals — priority, typification, availability and authorship. Not a commentary on the rules; the rules themselves",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "International Code of Nomenclature for algae, fungi, and plants",
+      organization: "International Association for Plant Taxonomy",
+      url: "https://www.iapt-taxon.org/",
+      type: "primary",
+      topicRelevance:
+        "The operative rules for naming plants, algae and fungi, published as numbered articles",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "International Commission on Zoological Nomenclature",
+      organization: "ICZN",
+      url: "https://www.iczn.org/",
+      type: "primary",
+      topicRelevance:
+        "The body that maintains the zoological code and rules on individual nomenclatural cases",
+      lastReviewed: "2026-09-06",
     },
     {
       name: "Antimicrobial resistance surveillance",

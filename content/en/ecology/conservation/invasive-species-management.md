@@ -5,7 +5,7 @@ excerpt: Most introduced organisms never become invasive, and the cleanest effec
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 7
 tags:
   - invasive-alien-species
@@ -19,10 +19,10 @@ related:
   - ecological-restoration-evidence
   - species-extinction-risk-assessment
 pillar: conservation-science-explained
-_bodyHash: cc087f74
+_bodyHash: 95d36f10
 ---
 
-Around 37,000 alien species have become established outside their native ranges through human activity, and new ones are recorded at roughly 200 a year. Documented evidence of negative impact exists for more than 3,500 of them. That ratio is the first thing to understand about biological invasions, because it is routinely lost in summary reporting: the intergovernmental assessment puts the invasive fraction at about 6 per cent of alien plants, 22 per cent of alien invertebrates, 14 per cent of alien vertebrates and 11 per cent of alien microbes. Being introduced is common. Becoming damaging is not.
+Around 37,000 alien species have become established outside their native ranges through human activity, and new ones are recorded at roughly 200 a year. Documented evidence of negative impact exists for more than 3,500 of them. That ratio is the first thing to understand about biological invasions, because it is routinely lost in summary reporting: the intergovernmental assessment puts the invasive fraction at about 6 per cent of alien plants, 22 per cent of alien invertebrates, 14 per cent of alien vertebrates and 11 per cent of alien microbes. Being introduced is common. Becoming damaging is not. That is taken up separately in [area-based conservation targets](/en/ecology/conservation/area-based-targets-and-what-they-measure).
 
 The corollary matters for management. A policy that treats every non-native organism as a target squanders effort on the majority that will never cause harm, while a policy that waits for proof of harm arrives after the cheap options have expired. Everything in the intervention literature sits between those two errors, and the general problem of testing whether an intervention worked at all is set out in the guide to [how conservation effectiveness is evaluated](/en/ecology/conservation/conservation-science-explained).
 

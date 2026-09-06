@@ -19,6 +19,7 @@ related:
   - dna-replication-and-repair
   - synthetic-biology-explained
 pillar: biotechnology-explained
+_bodyHash: 44683fb5
 ---
 
 A nuclease é o componente famoso e o menos interessante. A Cas9 encontra uma sequência e parte-a; o que acontece a seguir é feito por uma maquinaria de reparação que a célula já tinha, e o resultado dessa reparação é o produto. Quase todas as propriedades práticas da edição do genoma — por que razão as inativações génicas se tornaram rotina, por que razão as substituições precisas continuaram difíceis, por que razão a restrição determinante em terapia é a administração e não o direcionamento — decorrem dessa divisão de trabalho entre uma enzima introduzida e um processo biológico preexistente. É também a parte mais frequentemente omitida nos resumos, que tendem a descrever a tesoura e a ficar por aí. Editar no lugar é a mais recente das operações centrais da [caixa de ferramentas biotecnológica mais ampla](/pt/biology/biotechnology/biotechnology-explained), e aquela cujos limites são menos compreendidos.

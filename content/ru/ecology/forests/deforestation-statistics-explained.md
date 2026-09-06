@@ -19,6 +19,7 @@ related:
   - forest-carbon-measurement
   - satellite-deforestation-monitoring
 pillar: forest-ecosystems-explained
+_bodyHash: 92f46218
 ---
 
 Четыре цифры, все опубликованные к настоящему времени, все описывают потерю леса:

@@ -19,6 +19,7 @@ related:
   - speciation-mechanisms
   - species-extinction-risk-assessment
 pillar: evolution-explained
+_bodyHash: 43bf44a0
 ---
 
 Cada geração é uma amostra. Uma população produz muito mais gâmetas do que aqueles que se tornam descendentes, e quais deles passam depende em parte de quem calhou encontrar parceiro, de quem calhou ser comido antes de se reproduzir e de qual de duas cópias igualmente boas um progenitor calhou transmitir. O National Human Genome Research Institute define a deriva genética como a flutuação aleatória da frequência de um alelo numa população e nota que, embora o efeito seja mais forte em grupos pequenos e isolados, pode ser suficientemente poderoso para fixar uma variante ou apagá-la por completo. É este todo o mecanismo. As consequências são menos óbvias do que a definição.

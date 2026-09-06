@@ -19,6 +19,7 @@ related:
   - forest-carbon-measurement
   - satellite-deforestation-monitoring
 pillar: forest-ecosystems-explained
+_bodyHash: 7630280c
 ---
 
 Vier Zahlen, alle derzeit veröffentlicht, alle beschreiben Waldverlust:

@@ -1,12 +1,12 @@
 ---
 title: 'Nitrógeno reactivo: un elemento, una cascada de problemas distintos'
 metaTitle: 'Nitrógeno reactivo: una cascada de problemas'
-excerpt: La actividad humana fija ya casi tanto nitrógeno reactivo como toda la biosfera natural, y un solo átomo puede provocar sucesivamente contaminación del aire, acidificación, hipoxia costera y forzamiento del efecto invernadero, en relojes que van de semanas a siglos.
+excerpt: La actividad humana fija ya aproximadamente tanto nitrógeno reactivo como toda la biosfera natural, y un solo átomo puede provocar sucesivamente contaminación del aire, acidificación, hipoxia costera y forzamiento del efecto invernadero, en relojes que van de semanas a siglos.
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - reactive-nitrogen
   - eutrophication
@@ -20,7 +20,7 @@ related:
   - lake-ecology-and-eutrophication
   - ocean-deoxygenation-and-dead-zones
 pillar: environmental-pollution-explained
-_bodyHash: c0cc2446
+_bodyHash: dc7e5a66
 ---
 
 La contaminación por nitrógeno suele exponerse como si fuera un único problema a la espera de una única solución. Son varios problemas dispuestos en serie. Un átomo de nitrógeno fijado en un fertilizante puede volatilizarse como amoniaco y formar partículas secundarias en el aire; depositarse sobre un brezal y desplazar su comunidad vegetal; lixiviarse como nitrato hacia el agua subterránea y luego hacia un río; alimentar una proliferación de algas cuya descomposición despoja de oxígeno un fondo marino costero; y salir por último como óxido nitroso, un gas de efecto invernadero de larga vida. Cada parada es un receptor distinto con un regulador distinto, y el átomo no deja de causar efectos cuando el primer organismo pierde el interés.
@@ -61,7 +61,7 @@ Precisamente por eso el objetivo de gestión no se formula como una cifra de un 
 
 En tierra, el instrumento regulatorio es la [carga crítica](/en/glossary/critical-load): la tasa de deposición que un ecosistema puede absorber antes de que aparezcan efectos de eutrofización. El indicador europeo muestra movimiento en la dirección correcta y por debajo del objetivo. La superficie de ecosistemas de la UE que recibe deposición de nitrógeno por encima de la carga crítica de eutrofización bajó de 1 249 000 km² en 2005 a 1 068 000 km² en 2023, una reducción de alrededor del 14 %. El Plan de Acción de Contaminación Cero pide una reducción del 25 % para 2030 respecto de la línea de base de 2005; la proyección de referencia llega al 19 %.
 
-Bajo ese indicador hay una relación dosis-respuesta empírica, y no está zanjada. Un transecto de 68 pastizales ácidos que abarcaba el extremo bajo del rango de deposición del mundo industrializado, de 5 a 35 kg N ha⁻¹ año⁻¹, comunicó que [la riqueza de especies disminuía linealmente con la deposición](https://www.science.org/doi/10.1126/science.1094678): una especie perdida por cuadrante de 4 m² por cada 2.5 kg N ha⁻¹ año⁻¹, y una reducción del 23 % de la riqueza en la media centroeuropea de 17 kg N ha⁻¹ año⁻¹. Un [reanálisis bayesiano espacial](https://pmc.ncbi.nlm.nih.gov/articles/PMC7195837/) posterior de dos conjuntos de datos británicos de gradiente, que tuvo en cuenta la autocorrelación espacial, halló efectos pequeños y ambiguos y sostuvo que las estimaciones por sustitución de espacio por tiempo probablemente se habían exagerado. Un [comentario publicado](https://pmc.ncbi.nlm.nih.gov/articles/PMC7810039/) replicó que el reanálisis empleaba deposición modelizada con resolución de 5 × 5 km cuando existe variación significativa a 1 km, de modo que tratar la estructura residual como error espacialmente correlacionado sesgaría a la baja la propia estimación, y concluyó que el reanálisis era prematuro.
+Bajo ese indicador hay una relación dosis-respuesta empírica, y no está zanjada. Un transecto de 68 pastizales ácidos que abarcaba el extremo bajo del rango de deposición del mundo industrializado, de 5 a 35 kg N ha⁻¹ yr⁻¹, comunicó que [la riqueza de especies disminuía linealmente con la deposición](https://www.science.org/doi/10.1126/science.1094678): una especie perdida por cuadrante de 4 m² por cada 2.5 kg N ha⁻¹ yr⁻¹, y una reducción del 23 % de la riqueza en la media centroeuropea de 17 kg N ha⁻¹ yr⁻¹. Un [reanálisis bayesiano espacial](https://pmc.ncbi.nlm.nih.gov/articles/PMC7195837/) posterior de dos conjuntos de datos británicos de gradiente, que tuvo en cuenta la autocorrelación espacial, halló efectos pequeños y ambiguos y sostuvo que las estimaciones por sustitución de espacio por tiempo probablemente se habían exagerado. Un [comentario publicado](https://pmc.ncbi.nlm.nih.gov/articles/PMC7810039/) replicó que el reanálisis empleaba deposición modelizada con resolución de 5 × 5 km cuando existe variación significativa a 1 km, de modo que tratar la estructura residual como error espacialmente correlacionado sesgaría a la baja la propia estimación, y concluyó que el reanálisis era prematuro.
 
 La lectura calibrada es que la dirección del efecto no está seriamente en disputa —el enriquecimiento favorece a un conjunto más reducido de competidores de crecimiento rápido, tanto en experimentos como en gradientes—, mientras que la magnitud estimada a partir de gradientes espaciales depende del método y, en particular, de la resolución y del error de la covariable de deposición. Las cargas críticas heredan esa incertidumbre, algo que conviene recordar cuando una superficie en superación se cita con precisión de mil kilómetros cuadrados.
 

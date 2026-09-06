@@ -663,6 +663,50 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-amt-copernicus-org-1c4436d3",
+   "title": "Scientific impact of MODIS C5 calibration degradation and C6+ improvements",
+   "organization": "Atmospheric Measurement Techniques",
+   "url": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+   "host": "amt.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "Lyapustin and colleagues (2014). Degradation largest in Terra band B3 and decreasing with wavelength, the list of C5 products carrying spurious negative trends, the C6 removal of major Level 1B trends, the polarisation correction for increased Terra polarisation sensitivity since about 2007, the residual decadal trends of several tenths of 1 % of TOA reflectance in B1–B4, and the additional Terra ΔNDVI ~0.01 decadal trend removed over the southern United States."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-amt-copernicus-org-2bb08d63",
+   "title": "Revision of the World Meteorological Organization Global Atmosphere Watch (WMO/GAW) CO2 calibration scale",
+   "organization": "Atmospheric Measurement Techniques",
+   "url": "https://amt.copernicus.org/articles/14/3015/2021/",
+   "host": "amt.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "Hall and colleagues (2021). The 0.18 ppm (0.045 %) offset at 400 ppm between X2007 and X2019, the virial-coefficient interpolation error (320 K instead of 310 K, ~0.03 ppm), the suspected adsorption to Viton O-rings and the ~0.14 ppm loss correction, and the expanded uncertainty of 0.17 ppm or 0.043 % at 400 ppm."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-annualreviews-org-40224948",
    "title": "Ecological responses to habitat fragmentation per se",
    "organization": "Annual Review of Ecology, Evolution, and Systematics",
@@ -796,6 +840,28 @@
      "slug": "the-coriolis-effect-explained",
      "section": "physics/climate-physics",
      "supports": "The Coriolis force as apparent, greatest at the poles and zero at the equator, the 300-mile threshold for tropical cyclone spin-up, and the sinks-and-toilets myth."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-archive-epa-gov-c76a2cfe",
+   "title": "Rapid Bioassessment Protocols, Chapter 7: Benthic Macroinvertebrate Protocols",
+   "organization": "U.S. Environmental Protection Agency",
+   "url": "https://archive.epa.gov/water/archive/web/html/ch07b.html",
+   "host": "archive.epa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "Fixed-count laboratory subsampling, the 200-organism ± 20% target, the gridded-pan random selection procedure, and alternative subsample sizes."
     }
    ],
    "isLiveDataset": false,
@@ -1109,6 +1175,12 @@
      "slug": "traceability",
      "section": "glossary",
      "supports": "Definition of Metrological traceability"
+    },
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "JCGM 100:2008, Supplement 1 (JCGM 101:2008), Supplement 2 (JCGM 102:2011), and Amendment 1:2026 on nonlinearity in measurement models."
     },
     {
      "kind": "article",
@@ -1531,6 +1603,50 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-cbd-int-5e5afc13",
+   "title": "Strategic Plan for Biodiversity 2011-2020 and the Aichi Targets",
+   "organization": "CBD Secretariat",
+   "url": "https://www.cbd.int/sp/",
+   "host": "cbd.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/conservation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "area-based-targets-and-what-they-measure",
+     "section": "ecology/conservation",
+     "supports": "Adoption of the plan and its targets by decision X/2 at the tenth meeting of the Conference of the Parties in October 2010."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-cbd-int-906e0321",
+   "title": "Kunming-Montreal Global Biodiversity Framework",
+   "organization": "CBD Secretariat",
+   "url": "https://www.cbd.int/gbf/",
+   "host": "cbd.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/conservation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "area-based-targets-and-what-they-measure",
+     "section": "ecology/conservation",
+     "supports": "Adoption of the framework by decision 15/4 at the fifteenth meeting of the Conference of the Parties in December 2022."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-cbd-int-d9e526c5",
    "title": "Aichi Biodiversity Target 11: technical rationale",
    "organization": "CBD Secretariat",
@@ -1649,6 +1765,28 @@
    "notes": "C3S monthly and annual climate bulletins."
   },
   {
+   "evidenceId": "ev-ceos-org-4575a0d0",
+   "title": "The Radiometric Calibration Network (RadCalNet)",
+   "organization": "CEOS",
+   "url": "https://ceos.org/home-2/wgcv-radcalnet/",
+   "host": "ceos.org",
+   "sourceType": "other",
+   "sourceTypeProvenance": "unclassified",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "The five instrumented reference test sites and their locations, the 400–2500 nm range at 10 nm sampling and 30-minute intervals, and SI traceability underpinned by the National Physical Laboratory under QA4EO."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-ceres-larc-nasa-gov-cab64e73",
    "title": "NASA CERES mission documentation",
    "organization": "",
@@ -1761,6 +1899,30 @@
    ],
    "isLiveDataset": false,
    "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-climate-copernicus-eu-abdca960",
+   "title": "Climate Bulletin — About the data and analysis",
+   "organization": "Copernicus Climate Change Service",
+   "url": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+   "host": "climate.copernicus.eu",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The 1991–2020 standard reference period, the 1850–1900 pre-industrial period, and the annual, monthly, daily and European offsets used to convert between them."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "monthly",
+   "verificationStatus": "unchecked",
+   "notes": "C3S monthly and annual climate bulletins."
   },
   {
    "evidenceId": "ev-climate-copernicus-eu-d9ce40a0",
@@ -2296,6 +2458,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-community-wmo-int-5f925b9f",
+   "title": "WMO Climatological Normals",
+   "organization": "World Meteorological Organization",
+   "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
+   "host": "community.wmo.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The definition of climatological standard normals as consecutive 30-year averages, and the retention of 1961–1990 as the standard reference period for long-term climate change assessment."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-conservationevidence-com-a36af4b2",
    "title": "Summarised evidence on the effects of conservation actions",
    "organization": "Conservation Evidence",
@@ -2604,6 +2788,50 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-data-giss-nasa-gov-2f39b691",
+   "title": "The Elusive Absolute Surface Air Temperature (SAT)",
+   "organization": "NASA Goddard Institute for Space Studies",
+   "url": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+   "host": "data.giss.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "Why GISTEMP works in anomalies, the ~1000 km anomaly correlation length, and the error argument comparing a 0.5 °C absolute-baseline uncertainty with a 0.06 °C annual anomaly uncertainty, including the 15 °C and 14 °C historical baselines."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-data-giss-nasa-gov-79e62170",
+   "title": "GISTEMP Frequently Asked Questions",
+   "organization": "NASA Goddard Institute for Space Studies",
+   "url": "https://data.giss.nasa.gov/gistemp/faq/",
+   "host": "data.giss.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The 1951–1980 base period and the reason it is fixed, the invariance of trends to base period, and the ~0.19 °C adjustment from 1951–1980 to 1850–1900."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-data-marine-copernicus-eu-d30a8f57",
    "title": "Global ocean colour, bio-geo-chemical, L4 product description",
    "organization": "Copernicus Marine Service",
@@ -2676,7 +2904,7 @@
      "kind": "article",
      "slug": "area-based-targets-and-what-they-measure",
      "section": "ecology/conservation",
-     "supports": "Coverage of 17.58 per cent terrestrial and 8.44 per cent marine, the area still required to reach 30 per cent, KBA coverage, PARC-representativeness, ProtConn connectivity, management-effectiveness assessment coverage, and OECM counts and contribution."
+     "supports": "Coverage of 17.58 per cent terrestrial and 8.44 per cent marine, the area still required to reach 30 per cent, KBA coverage, PARC-representativeness, ProtConn connectivity, management-effectiveness assessment coverage, the databases' custodianship and data providers, and the OECM definition, counts, contribution and absent effectiveness data."
     },
     {
      "kind": "article",
@@ -4711,7 +4939,7 @@
      "kind": "article",
      "slug": "carnot-efficiency-and-the-limit-on-engines",
      "section": "physics/thermodynamics",
-     "supports": "Tested 2024 heat rates for coal steam and natural gas combined-cycle units."
+     "supports": "Tested 2024 heat rates for coal steam and natural gas combined-cycle units, reported at full load and weighted by net summer capacity."
     },
     {
      "kind": "article",
@@ -7129,16 +7357,23 @@
   },
   {
    "evidenceId": "ev-essd-copernicus-org-87242af7",
-   "title": "Indicators of Global Climate Change 2024",
-   "organization": "Earth System Science Data",
+   "title": "Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence",
+   "organization": "Earth System Science Data (Copernicus)",
    "url": "https://essd.copernicus.org/articles/17/2641/2025/",
    "host": "essd.copernicus.org",
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
+    "ecology/earth-systems",
     "insights"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The 1850–1900 baseline as a proxy for the period before 1750, and the 0.51 °C offset applied to extreme-temperature anomalies computed over 1961–1990, with the note that datasets align by construction inside the baseline window."
+    },
     {
      "kind": "article",
      "slug": "uncertainty-lost-between-dataset-and-headline",
@@ -7180,7 +7415,8 @@
    "sourceType": "peer-reviewed",
    "sourceTypeProvenance": "inferred-host",
    "topics": [
-    "ecology/climate-change"
+    "ecology/climate-change",
+    "physics/mechanics-waves"
    ],
    "usedBy": [
     {
@@ -7194,6 +7430,12 @@
      "slug": "carbon-budgets-and-remaining-emissions",
      "section": "ecology/climate-change",
      "supports": "Projected 2025 fossil CO₂ emissions and growth rate, total emissions including land-use change, and the remaining 1.5°C budget from the start of 2026."
+    },
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "Component estimates and ± 1σ uncertainties for 2024, quadrature combination, Monte Carlo and bootstrap evaluations, and the budget imbalance."
     }
    ],
    "isLiveDataset": false,
@@ -7216,6 +7458,28 @@
      "slug": "microbial-biogeochemistry",
      "section": "biology/microbiology",
      "supports": "Top-down and bottom-up emission totals, the anthropogenic share, wetland and inland-water sources, and the chemical sink."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-essd-copernicus-org-ee23cd8b",
+   "title": "Uncertainty information in climate data records from Earth observation",
+   "organization": "Earth System Science Data",
+   "url": "https://essd.copernicus.org/articles/9/511/2017/",
+   "host": "essd.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "Merchant et al. (2017) on error correlation across space and time scales, and on effects negligible per measurement but dominant in an averaged record."
     }
    ],
    "isLiveDataset": false,
@@ -8177,7 +8441,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The three operational categories used in forestry and the status of implementation outside research."
+     "supports": "The three operational categories used in forestry, and implementation status."
     }
    ],
    "isLiveDataset": false,
@@ -9339,6 +9603,30 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-gml-noaa-gov-09262aac",
+   "title": "The NOAA Annual Greenhouse Gas Index (AGGI)",
+   "organization": "NOAA Global Monitoring Laboratory",
+   "url": "https://gml.noaa.gov/aggi/aggi.html",
+   "host": "gml.noaa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The 1990 = 1 index convention and its Kyoto Protocol origin, the 1750 unperturbed abundances used in the forcing expressions, and the 2024 forcing and index values; annual totals are also distributed as AGGI_Table.csv from the same page."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "monthly",
+   "verificationStatus": "unchecked",
+   "notes": "Global Monitoring Laboratory trend series; values are revised as the record extends."
+  },
+  {
    "evidenceId": "ev-gml-noaa-gov-0b1804a4",
    "title": "ozone and water vapour monitoring",
    "organization": "",
@@ -9678,6 +9966,30 @@
    "notes": "Global Monitoring Laboratory trend series; values are revised as the record extends."
   },
   {
+   "evidenceId": "ev-gml-noaa-gov-f4443e17",
+   "title": "WMO CO2 X2019 scale",
+   "organization": "NOAA Global Monitoring Laboratory",
+   "url": "https://gml.noaa.gov/ccl/co2_scale.html",
+   "host": "gml.noaa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "The 19 primary standards of natural air in high-pressure aluminium cylinders over 250–800 ppm, the 15 carried over from X2007, and the primary–secondary–tertiary propagation hierarchy."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "monthly",
+   "verificationStatus": "unchecked",
+   "notes": "Global Monitoring Laboratory trend series; values are revised as the record extends."
+  },
+  {
    "evidenceId": "ev-govinfo-gov-e787eb08",
    "title": "Endangered and Threatened Wildlife and Plants; Designation of Experimental Populations",
    "organization": "U.S. Fish and Wildlife Service, Federal Register",
@@ -9693,7 +10005,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The 2023 rule allowing release outside historical range, the comment count and the Service's response on invasiveness."
+     "supports": "The 2023 rule on release outside historical range, and the response on invasiveness."
     }
    ],
    "isLiveDataset": false,
@@ -11928,7 +12240,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The share of assessed species that have shifted polewards or upslope, and the confidence attached to it."
+     "supports": "The share of assessed species that have shifted polewards or upslope."
     }
    ],
    "isLiveDataset": false,
@@ -12394,9 +12706,16 @@
    "sourceTypeProvenance": "inferred-host",
    "topics": [
     "ecology/climate-change",
+    "ecology/earth-systems",
     "insights"
    ],
    "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The 2011–2020 warming relative to 1850–1900, the 0.85 °C conversion to the 1995–2014 reference period, and the revision of the AR5 1986–2005 assessment."
+    },
     {
      "kind": "article",
      "slug": "carbon-budgets-and-remaining-emissions",
@@ -12571,6 +12890,78 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-itis-gov-11091eb9",
+   "title": "Panthera leo (Linnaeus, 1758), TSN 183803",
+   "organization": "Integrated Taxonomic Information System",
+   "url": "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183803",
+   "host": "itis.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "biology/taxonomy"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "binomial-nomenclature-and-why-names-change",
+     "section": "biology/taxonomy",
+     "supports": "Cited inline as \"*Panthera leo* (Linnaeus, 1758)\""
+    },
+    {
+     "kind": "article",
+     "slug": "binomial-nomenclature-and-why-names-change",
+     "section": "biology/taxonomy",
+     "supports": "The accepted name of the lion, with *Felis leo* Linnaeus, 1758 listed among its synonyms."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-itl-nist-gov-02614b22",
+   "title": "Formulas for functions of two variables",
+   "organization": "NIST/SEMATECH e-Handbook of Statistical Methods",
+   "url": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc552.htm",
+   "host": "itl.nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "Ku's formulas for linear combinations, products, quotients and power functions, including the sign the covariance term carries in each."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-itl-nist-gov-d63c9982",
+   "title": "Propagation of error considerations",
+   "organization": "NIST/SEMATECH e-Handbook of Statistical Methods",
+   "url": "https://www.itl.nist.gov/div898/handbook/mpc/section5/mpc55.htm",
+   "host": "itl.nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "The general propagation formula, guidance on when covariance terms may be omitted, calibration designs as a source of non-zero covariance, and the listed disadvantages of the propagation approach."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-iucn-org-1dda47e2",
    "title": "Ensuring effective Nature-based Solutions",
    "organization": "IUCN",
@@ -12678,7 +13069,7 @@
      "kind": "article",
      "slug": "area-based-targets-and-what-they-measure",
      "section": "ecology/conservation",
-     "supports": "What an OECM is and how it differs from a protected area in primary objective and governance."
+     "supports": "That the OECM concept was formally defined in 2018 through CBD decision 14/8, and what such areas are expected to deliver."
     }
    ],
    "isLiveDataset": false,
@@ -14373,6 +14764,50 @@
      "slug": "climate-sensitivity-explained",
      "section": "ecology/climate-change",
      "supports": "The cloud and paleoclimate model intercomparison projects behind two of the constraint lines."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-modis-gsfc-nasa-gov-542fcbec",
+   "title": "Solar Diffuser Stability Monitor",
+   "organization": "NASA",
+   "url": "https://modis.gsfc.nasa.gov/about/sdsm.php",
+   "host": "modis.gsfc.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "The nine filtered detectors between 0.4 and 1.0 µm, the three-position fold mirror viewing dark scene, Sun and diffuser, and the two-percent transmitting screen."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-modis-gsfc-nasa-gov-ab1e032a",
+   "title": "MODIS on-board calibration system",
+   "organization": "NASA",
+   "url": "https://modis.gsfc.nasa.gov/about/calsys.php",
+   "host": "modis.gsfc.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "The blackbody (3.5–14.4 µm), the solar diffuser (0.4–2.2 µm), the spectroradiometric calibration assembly, the deep-space zero-signal reference, lunar views, and the stated purpose of the diffuser stability monitor."
     }
    ],
    "isLiveDataset": false,
@@ -17921,7 +18356,7 @@
      "kind": "article",
      "slug": "the-oxygen-dissociation-curve",
      "section": "biology/physiology",
-     "supports": "The definition of the Bohr effect, the accepted normal P50 of 27 mmHg, the fetal value of 19 mmHg, and the right-shifting factors."
+     "supports": "The definition of the Bohr effect, the accepted normal P50 of 27 mmHg, the fetal value of 19 mmHg, the right-shifting factors, and the definition of the Haldane effect."
     }
    ],
    "isLiveDataset": false,
@@ -18190,7 +18625,7 @@
      "kind": "article",
      "slug": "the-oxygen-dissociation-curve",
      "section": "biology/physiology",
-     "supports": "The sigmoid plot, 197 mL/L bound versus 3 mL/L dissolved, the plateau and the steep region, right-shift factors, fetal haemoglobin, and the 240-fold carbon monoxide affinity."
+     "supports": "The sigmoid plot, 197 mL/L bound versus 3 mL/L dissolved, the plateau and the steep region, and the leftward shift of fetal haemoglobin."
     }
    ],
    "isLiveDataset": false,
@@ -18357,6 +18792,30 @@
      "slug": "sea-level-rise-indicators",
      "section": "ecology/climate-change",
      "supports": "Annual U.S. assessments of sea-level and related indicators."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "monthly",
+   "verificationStatus": "unchecked",
+   "notes": "Global temperature and State of the Climate products are reissued monthly and annually."
+  },
+  {
+   "evidenceId": "ev-ncei-noaa-gov-1583a8b9",
+   "title": "U.S. Climate Normals",
+   "organization": "NOAA National Centers for Environmental Information",
+   "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+   "host": "ncei.noaa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The WMO requirement and decadal update recommendation, the 1991–2020 release, and the comparison against 1981–2010 including the differing data vintages and the twenty-year overlap."
     }
    ],
    "isLiveDataset": true,
@@ -18773,6 +19232,28 @@
      "slug": "quantum-sensors-leaving-the-lab",
      "section": "physics/quantum-basics",
      "supports": "Official NIST explainer on quantum sensors and applications."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-nist-gov-335d4309",
+   "title": "Traceability",
+   "organization": "NIST",
+   "url": "https://www.nist.gov/calibrations/traceability",
+   "host": "nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "The VIM definition of metrological traceability as a documented unbroken chain of calibrations each contributing to the uncertainty, and the statement that traceability alone does not guarantee fitness for purpose."
     }
    ],
    "isLiveDataset": false,
@@ -22039,6 +22520,12 @@
      "slug": "measurement-uncertainty-explained",
      "section": "physics/mechanics-waves",
      "supports": "Type A and Type B evaluation of standard uncertainty."
+    },
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "Standard uncertainty, and the definitions of Type A and Type B evaluation."
     }
    ],
    "isLiveDataset": false,
@@ -22095,6 +22582,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-physics-nist-gov-72d1a1c4",
+   "title": "Type B evaluation of standard uncertainty",
+   "organization": "NIST",
+   "url": "https://physics.nist.gov/cuu/Uncertainty/typeb.html",
+   "host": "physics.nist.gov",
+   "sourceType": "standards-body",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "Admissible sources of information for a Type B component, and the rectangular-distribution rule dividing a half-width by the square root of 3."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-physics-nist-gov-7b61309f",
    "title": "Combining uncertainty components",
    "organization": "NIST",
@@ -22111,6 +22620,12 @@
      "slug": "measurement-uncertainty-explained",
      "section": "physics/mechanics-waves",
      "supports": "Combined standard uncertainty and the law of propagation of uncertainty."
+    },
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "The law of propagation of uncertainty as a first-order Taylor approximation, sensitivity coefficients, and the covariance term that vanishes only for uncorrelated inputs."
     }
    ],
    "isLiveDataset": false,
@@ -22290,6 +22805,28 @@
      "slug": "wave-particle-duality-explained",
      "section": "physics/quantum-basics",
      "supports": "The 2022 CODATA value underlying the maximum Compton shift."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-00609ad9",
+   "title": "Estimating and comparing microbial diversity in the presence of sequencing errors",
+   "organization": "Chiu and Chao, PeerJ (2016)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "Sample coverage, Chao1 as a lower bound from singletons and doubletons, and the dependence of Hill numbers of different order q on sampling effort."
     }
    ],
    "isLiveDataset": false,
@@ -22675,6 +23212,28 @@
      "slug": "taxonomy-and-classification-explained",
      "section": "biology/taxonomy",
      "supports": "Madrid Code decisions, Article 51.2, registration provisions and the rejected DNA-type proposals."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-150f7d7e",
+   "title": "On species richness and rarefaction: size- and coverage-based techniques quantify different characteristics of richness change in biodiversity",
+   "organization": "Shimadzu, Journal of Mathematical Biology (2018)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182778/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "Formal contrast between size-based and coverage-based rarefaction and the simulation in which they disagree in direction."
     }
    ],
    "isLiveDataset": false,
@@ -24173,7 +24732,7 @@
      "kind": "article",
      "slug": "binomial-nomenclature-and-why-names-change",
      "section": "biology/taxonomy",
-     "supports": "Curated synonyms per valid mammal species, and the breakdown of changes into splits, lumps, generic transfers, epithet changes and spelling corrections."
+     "supports": "Valid and synonymous species-rank names, the valid-species breakdown, and the changes between the database's first and second versions: splits, lumps, generic transfers, epithet changes and spelling corrections."
     },
     {
      "kind": "article",
@@ -24198,6 +24757,28 @@
      "slug": "what-is-a-species",
      "section": "biology/taxonomy",
      "supports": "Mammal totals, split and lump rates, and the comparison with the Red List."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-40aff78a",
+   "title": "Regional Insect Inventories Require Long Time, Extensive Spatial Sampling and Good Will",
+   "organization": "Fattorini, PLoS ONE (2013)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3632580/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "The 1871–2010 tenebrionid inventory of Latium (17,200 km², 3,561 records, 26,743 specimens) and the effort needed to reach 90% of known richness in time, space and collectors."
     }
    ],
    "isLiveDataset": false,
@@ -24897,7 +25478,7 @@
      "kind": "article",
      "slug": "the-oxygen-dissociation-curve",
      "section": "biology/physiology",
-     "supports": "High-affinity variants and their P50 ranges, the unresolved debate over affinity at altitude, the Leadville and normobaric hypoxia maximal-oxygen-uptake results, and the limits of P50 and the Hill coefficient as in vivo descriptors."
+     "supports": "High-affinity variants and their P50 ranges, the 2,3-DPG response below about 4,500 m, the unresolved debate over affinity at altitude, the Leadville and normobaric hypoxia maximal-oxygen-uptake results, and the limits of in vitro P50 and Hill coefficient measurements as in vivo descriptors."
     }
    ],
    "isLiveDataset": false,
@@ -25032,7 +25613,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "Intracontinental aliens as a share of naturalised floras, the median poleward displacement, and the reconciliation with the 2008 estimate."
+     "supports": "Intracontinental aliens as a share of naturalised floras, and their median poleward displacement."
     }
    ],
    "isLiveDataset": false,
@@ -25379,7 +25960,7 @@
      "kind": "article",
      "slug": "the-oxygen-dissociation-curve",
      "section": "biology/physiology",
-     "supports": "The sigmoid-versus-hyperbolic contrast with myoglobin, the transport-versus-storage framing, and the 100 mmHg lung oxygen tension. A 2001 teaching article, used here for the framing rather than for physiological reference values."
+     "supports": "The sigmoid-versus-hyperbolic contrast with myoglobin, haemoglobin's ferrying role against myoglobin's cytoplasmic hand-off to the mitochondrion, and the 100 mmHg lung oxygen tension. A 2001 teaching article, used here for the framing rather than for physiological reference values."
     }
    ],
    "isLiveDataset": false,
@@ -25832,7 +26413,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The case-study tally, the assisted migration subset and the share reporting unintended outcomes."
+     "supports": "The case-study tally and the share reporting unintended outcomes."
     }
    ],
    "isLiveDataset": false,
@@ -25883,6 +26464,28 @@
      "slug": "phylogenetics-explained",
      "section": "biology/taxonomy",
      "supports": "Speed relative to standard bootstrapping and control of support overestimation."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-713dd812",
+   "title": "Filling in the GAPS: evaluating completeness and coverage of open-access biodiversity databases in the United States",
+   "organization": "Troia and McManamay, Ecology and Evolution (2016)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979697/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "Completeness scoring of 13.6 million records and the share of well-surveyed grid cells for aggregated versus structured surveys."
     }
    ],
    "isLiveDataset": false,
@@ -26021,6 +26624,28 @@
      "slug": "circulation-and-the-heart",
      "section": "biology/physiology",
      "supports": "Bird cardiomyocyte morphology and the calcium-handling mechanism that compensates for the absence of t-tubules."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-7a2a63ba",
+   "title": "Limited sampling hampers \"big data\" estimation of species richness in a tropical biodiversity hotspot",
+   "organization": "Engemann and colleagues, Ecology and Evolution (2015)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "Correlation of richness estimates with specimen numbers in Ecuador and the effect of rarefaction on that correlation."
     }
    ],
    "isLiveDataset": false,
@@ -26202,7 +26827,7 @@
      "kind": "article",
      "slug": "the-oxygen-dissociation-curve",
      "section": "biology/physiology",
-     "supports": "Species P50 values and Hill coefficients from elephant to mouse, and the inverse relationship between body size and oxygen affinity."
+     "supports": "A re-fitting of the Schmidt-Nielsen (1958, 1970) blood-oxygen curves: species P50 values and Hill coefficients from elephant to mouse, and the inverse correlation between metabolic rate and oxygen affinity."
     }
    ],
    "isLiveDataset": false,
@@ -26280,7 +26905,7 @@
      "kind": "article",
      "slug": "carnot-efficiency-and-the-limit-on-engines",
      "section": "physics/thermodynamics",
-     "supports": "Definition of the coefficient of performance, the meta-analysis average near 3 at 0 °C, the 2.5 to 4.5 rated range, and sub-2.5 performance on the coldest days."
+     "supports": "Definition of the coefficient of performance, the meta-analysis average near 3 at 0 °C, the 2.5 to 4.5 rated range, and sub-2.5 performance in the rated-3.5 scenario on the coldest days."
     }
    ],
    "isLiveDataset": false,
@@ -27148,6 +27773,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-9f6bcb73",
+   "title": "Nonparametric richness estimators Chao1 and ACE must not be used with amplicon sequence variant data",
+   "organization": "Deng, Umbach and Neufeld, The ISME Journal (2024)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "How default removal of singleton sequences invalidates singleton-dependent richness estimators."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-a067b9a4",
    "title": "Horizontal gene transfer: essentiality and evolvability in prokaryotes, and roles in evolutionary transitions",
    "organization": "F1000Research (PMC)",
@@ -27529,6 +28176,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-b25f3bf0",
+   "title": "Uncertainty in Measurement: A Review of Monte Carlo Simulation Using Microsoft Excel",
+   "organization": "The Clinical Biochemist Reviews",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961998/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "physics/mechanics-waves"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "uncertainty-propagation-in-practice",
+     "section": "physics/mechanics-waves",
+     "supports": "Farrance and Frenkel (2014) on the sum rule, correlated inputs, the linear approximation under non-linearity, trial counts, the worked anion-gap example, and GUM section 7.2.6 on significant digits."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-b336e908",
    "title": "Oxygen suppression of macroscopic multicellularity",
    "organization": "Nature Communications (PMC)",
@@ -27819,7 +28488,7 @@
      "kind": "article",
      "slug": "carnot-efficiency-and-the-limit-on-engines",
      "section": "physics/thermodynamics",
-     "supports": "The endoreversible efficiency at maximum power and its description as a more practical bound than the Carnot efficiency."
+     "supports": "The endoreversible efficiency at maximum power, its description as a more practical bound than the Carnot efficiency, and its dependence on the assumed heat-transfer law."
     },
     {
      "kind": "article",
@@ -28564,6 +29233,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-d6a8f2cf",
+   "title": "Applications of species accumulation curves in large-scale biological data analysis",
+   "organization": "Deng, Daley and Smith, Quantitative Biology (2015)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4885658/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "Definition of the species accumulation curve as expected species observed against sampling effort, its decelerating shape, and the impossibility of ruling out undetected rare species."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-d6a9a7be",
    "title": "Natural hybridization in heliconiine butterflies: the species boundary as a continuum",
    "organization": "BMC Evolutionary Biology (via PubMed Central)",
@@ -28970,7 +29661,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The definition of assisted gene flow, the provenance-trial clines and the adaptational-lag estimates."
+     "supports": "The definition of assisted gene flow, the provenance clines and the adaptational lag."
     }
    ],
    "isLiveDataset": false,
@@ -29124,7 +29815,7 @@
      "kind": "article",
      "slug": "carnot-efficiency-and-the-limit-on-engines",
      "section": "physics/thermodynamics",
-     "supports": "The Landsberg limit of 93.3% and the 85.4% blackbody-converter limit for a 6,000 K source and 300 K ambient, with the 2,544 K optimal intermediate temperature."
+     "supports": "The Landsberg limit of 93.3% and the 85.4% blackbody-converter limit under solar illumination for a 6,000 K source and 300 K ambient, with the 2,544 K optimal intermediate temperature."
     }
    ],
    "isLiveDataset": false,
@@ -29558,7 +30249,7 @@
      "kind": "article",
      "slug": "the-oxygen-dissociation-curve",
      "section": "biology/physiology",
-     "supports": "The Root effect, the modelled 73.5 per cent versus 1.3 per cent increase in oxygen released, the assumed arterial-venous pH changes, and the authors' stated caveats."
+     "supports": "The Root effect, the modelled 73.5 per cent versus 1.3 per cent increase in oxygen released, the assumed arterial-venous pH changes and constant arterial-venous PO2 difference, the retia of the eye and swimbladder, and the authors' stated caveats."
     }
    ],
    "isLiveDataset": false,
@@ -29646,7 +30337,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The 868-publication terminology review, the 40 terms and their frequencies, and the definition analysis."
+     "supports": "The terminology review: 868 publications, 40 terms, 75 definitions."
     }
    ],
    "isLiveDataset": false,
@@ -30245,7 +30936,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The split between population restoration and conservation introduction, the definition of assisted colonisation, and the risk tests applied outside indigenous range."
+     "supports": "The split between population restoration and conservation introduction, and the risk tests outside indigenous range."
     }
    ],
    "isLiveDataset": false,
@@ -34654,7 +35345,7 @@
      "kind": "article",
      "slug": "the-coriolis-effect-explained",
      "section": "physics/climate-physics",
-     "supports": "Rotation period of 23.9 hours and equatorial diameter of 12,756 km."
+     "supports": "Sidereal rotation period of 23.9 hours and equatorial diameter of 12,756 km."
     }
    ],
    "isLiveDataset": false,
@@ -35406,6 +36097,28 @@
      "slug": "classical-mechanics-explained",
      "section": "physics/mechanics-waves",
      "supports": "Launch year and escape speed in astronomical units per year."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-science-nasa-gov-cbb12199",
+   "title": "Landsat Operational Land Imager",
+   "organization": "NASA",
+   "url": "https://science.nasa.gov/mission/landsat/oli",
+   "host": "science.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "The solar-view baffle and diffuser panel, the two lamp assemblies of six lamps each behind a closed shutter, and the requirements of under 5 % uncertainty in spectral radiance, under 3 % in top-of-atmosphere reflectance, and band widths within 3 % across the field of view."
     }
    ],
    "isLiveDataset": false,
@@ -36549,7 +37262,7 @@
      "kind": "article",
      "slug": "assisted-migration-and-its-evidence",
      "section": "ecology/conservation",
-     "supports": "The composition of the evidence base, the six conservation implementations, the monitoring intervals and the community-level case studies."
+     "supports": "The composition of the evidence base, the six conservation cases and the monitoring intervals."
     }
    ],
    "isLiveDataset": false,
@@ -36853,6 +37566,28 @@
    "isLiveDataset": false,
    "verificationStatus": "unchecked",
    "notes": "Netherlands state forestry service; primary record for Dutch reserve-management case material."
+  },
+  {
+   "evidenceId": "ev-star-nesdis-noaa-gov-b1e39536",
+   "title": "Sea Level Rise",
+   "organization": "NOAA Laboratory for Satellite Altimetry",
+   "url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+   "host": "star.nesdis.noaa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "The reference series of altimeter missions from TOPEX/Poseidon in 1992, the 3–4 mm uncertainty on each ten-day global estimate, and — in the global mean sea level file distributed from this page — the published trend of 3.11 mm per year without glacial isostatic adjustment."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
   },
   {
    "evidenceId": "ev-tidesandcurrents-noaa-gov-8f3d46c7",
@@ -37383,6 +38118,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-usgs-gov-2e29ada3",
+   "title": "The North American Breeding Bird Survey: Helping Keep Common Birds Common",
+   "organization": "U.S. Geological Survey",
+   "url": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+   "host": "usgs.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "sampling-effort-and-what-a-species-count-depends-on",
+     "section": "ecology/biodiversity",
+     "supports": "Fixed survey effort: route length, 50 point counts, 3-minute counts, 0.25-mile radius, start time and route network."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-usgs-gov-32114d8a",
    "title": "Nitrogen statistics and information",
    "organization": "USGS National Minerals Information Center",
@@ -37879,6 +38636,12 @@
      "slug": "calibration-and-traceability",
      "section": "physics/mechanics-waves",
      "supports": "Traceability of data quality provenance through a reprocessed archive."
+    },
+    {
+     "kind": "article",
+     "slug": "calibration-and-why-a-sensor-drifts",
+     "section": "ecology/earth-observation",
+     "supports": "Collection 2 as the second major reprocessing effort on the Landsat archive, and the radiometric calibration improvements it applied."
     },
     {
      "kind": "article",

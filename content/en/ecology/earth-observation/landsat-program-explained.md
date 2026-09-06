@@ -5,7 +5,7 @@ excerpt: Since 1972 the joint NASA–USGS Landsat satellites have built the long
 type: expert
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-06'
 tags:
   - landsat
   - earth-observation
@@ -15,12 +15,12 @@ related:
   - what-is-remote-sensing
   - land-cover-change-detection
   - sentinel-satellites-explained
-_bodyHash: 6d360364
+_bodyHash: c45c40f2
 readingTime: 5
 pillar: earth-observation-and-remote-sensing-explained
 ---
 
-Among the instruments that watch the planet from orbit, one stands apart for its sheer length of service. [Landsat](/en/glossary/landsat) is a joint program of NASA and the U.S. Geological Survey, and since its first satellite reached orbit in 1972 it has produced an unbroken record of Earth's land surface — the longest such record in existence. This article traces how the program began, how its sensors work, why opening the archive changed scientific practice, and where the limits of the data lie.
+Among the instruments that watch the planet from orbit, one stands apart for its sheer length of service. [Landsat](/en/glossary/landsat) is a joint program of NASA and the U.S. Geological Survey, and since its first satellite reached orbit in 1972 it has produced an unbroken record of Earth's land surface — the longest such record in existence. This article traces how the program began, how its sensors work, why opening the archive changed scientific practice, and where the limits of the data lie. That is taken up separately in [why a sensor drifts and how calibration answers it](/en/ecology/earth-observation/calibration-and-why-a-sensor-drifts).
 
 ## A mission that has outlasted its satellites
 

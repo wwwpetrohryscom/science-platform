@@ -19,6 +19,7 @@ related:
   - dna-replication-and-repair
   - synthetic-biology-explained
 pillar: biotechnology-explained
+_bodyHash: 8d94ba3c
 ---
 
 Die Nuklease ist der berühmte Bestandteil und der uninteressanteste. Cas9 findet eine Sequenz und bricht sie; was danach geschieht, erledigt eine Reparaturmaschinerie, die die Zelle ohnehin besaß, und das Reparaturergebnis ist das Produkt. Nahezu jede praktische Eigenschaft der Genom-Editierung — warum Gen-Knockouts Routine wurden, warum präzise Ersetzungen schwierig blieben, warum in der Therapie die Einbringung und nicht das Zielen die bindende Beschränkung ist — folgt aus dieser Arbeitsteilung zwischen einem eingebrachten Enzym und einem bereits vorhandenen biologischen Prozess. Es ist zugleich der Teil, der in Zusammenfassungen am häufigsten übersprungen wird, die meist die Schere beschreiben und dann aufhören. Das Editieren an Ort und Stelle ist die jüngste der Kernoperationen im [weiteren biotechnologischen Werkzeugkasten](/de/biology/biotechnology/biotechnology-explained) und diejenige, deren Grenzen am wenigsten verbreitet verstanden werden.

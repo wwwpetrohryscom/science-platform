@@ -5,8 +5,8 @@ excerpt: A measurement is comparable to another only if both can be traced, thro
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-05'
-updatedDate: '2026-09-05'
-readingTime: 6
+updatedDate: '2026-09-06'
+readingTime: 4
 tags:
   - metrology
   - calibration
@@ -17,11 +17,11 @@ related:
   - interlaboratory-comparison-and-consensus-values
   - sensor-calibration-and-record-continuity
   - reference-materials-in-genome-measurement
-_bodyHash: 3ab773b1
+_bodyHash: fe2f4d9e
 pillar: classical-mechanics-explained
 ---
 
-Measurement sits underneath every quantitative claim in the sciences, and the [classical framework](/en/physics/mechanics-waves/classical-mechanics-explained) that supplies most of its units is silent about the practice. Two laboratories measure the same thing and get different answers. Before anyone can ask which is right, there is a prior question: were they measuring against the same reference at all? [Uncertainty](/en/physics/mechanics-waves/measurement-uncertainty-explained) describes the spread of a single result. Traceability describes whether two results are in the same conversation.
+Measurement sits underneath every quantitative claim in the sciences, and the [classical framework](/en/physics/mechanics-waves/classical-mechanics-explained) that supplies most of its units is silent about the practice. Two laboratories measure the same thing and get different answers. Before anyone can ask which is right, there is a prior question: were they measuring against the same reference at all? [Uncertainty](/en/physics/mechanics-waves/measurement-uncertainty-explained) describes the spread of a single result. Traceability describes whether two results are in the same conversation. That is taken up separately in [how uncertainties combine in practice](/en/physics/mechanics-waves/uncertainty-propagation-in-practice).
 
 ## The chain
 

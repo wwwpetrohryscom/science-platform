@@ -18,7 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: 2536f509
+_bodyHash: 4e461dc8
 ---
 
 A restrição que verdadeiramente limita a conservação raramente é a falta de informação sobre que espécies estão em dificuldade. São o dinheiro, a terra e o número de pessoas disponíveis para gerir uma coisa ou a outra — o que faz com que a pergunta operativa não seja o que está ameaçado, mas o que comprar com a próxima unidade de orçamento. Essas duas perguntas recebem respostas diferentes com frequência suficiente para que a segunda mereça métodos próprios.
@@ -74,10 +74,10 @@ Nada disto decide o objetivo. Maximizar as espécies asseguradas, a história ev
 
 1. **Nature** — [Systematic conservation planning](https://www.nature.com/articles/35012251). O enquadramento de representação e persistência para os sistemas de reservas, e o enviesamento documentado das reservas existentes para terras remotas e impróprias para uso comercial.
 2. **Nature** — [Biodiversity hotspots for conservation priorities](https://www.nature.com/articles/35002501). O filtro de endemismo e perda de habitat e o seu uso como heurística mundial de prioridade.
-3. **Conservation Biology (via PubMed)** — [Bias in protected-area location and its effects on long-term aspirations of biodiversity conventions](https://pubmed.ncbi.nlm.nih.gov/28639356/). O enviesamento de localização para terras de baixo custo de oportunidade e o contrafactual de uma representação trinta vezes maior.
+3. **Conservation Biology (via PubMed)** — [Bias in protected-area location and its effects on long-term aspirations of biodiversity conventions](https://pubmed.ncbi.nlm.nih.gov/28639356/). O enviesamento de localização para terras de baixo custo de oportunidade e o contrafactual de uma representação 30 vezes maior.
 4. **PNUMA-WCMC e UICN** — [Protected Planet Report 2024](https://digitalreport.protectedplanet.net/). Cobertura, representatividade, conectividade, lacunas nas Áreas-Chave para a Biodiversidade e taxas de avaliação da eficácia da gestão.
 5. **Secretariado da CBD** — [Target 3 of the Kunming-Montreal Global Biodiversity Framework](https://www.cbd.int/gbf/targets/3). O texto integral da meta e o seu indicador principal de cobertura.
-6. **Conservation Biology (via PubMed)** — [Optimal allocation of resources among threatened species: a project prioritization protocol](https://pubmed.ncbi.nlm.nih.gov/19183202/). O protocolo neozelandês e a comparação entre onze e dezasseis projetos financiados.
+6. **Conservation Biology (via PubMed)** — [Optimal allocation of resources among threatened species: a project prioritization protocol](https://pubmed.ncbi.nlm.nih.gov/19183202/). O protocolo neozelandês e a comparação entre 11 e 16 projetos financiados.
 7. **PLOS ONE** — [A large-scale application of project prioritization to threatened species investment by a government agency](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201413). O protocolo aplicado a 368 espécies e a estrutura de custo, benefício e exequibilidade.
 8. **Nature Communications** — [Half of resources in threatened species conservation plans are allocated to research and monitoring](https://www.nature.com/articles/s41467-020-18486-6). As quotas orçamentais de 2 328 espécies listadas e a associação com os resultados de recuperação.
 9. **Science (via PubMed)** — [Financial costs of meeting global biodiversity conservation targets](https://pubmed.ncbi.nlm.nih.gov/23065904/). As estimativas de custo anual para as espécies ameaçadas e para a proteção dos sítios, e a parte atualmente financiada.

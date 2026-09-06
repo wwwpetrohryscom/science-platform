@@ -5,7 +5,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 9
 tags:
   - genomics
   - genome-size
@@ -18,6 +18,7 @@ related:
   - mutation-types-and-rates
   - dna-sequencing-technologies
 pillar: what-is-dna
+_bodyHash: 5f84e603
 ---
 
 Un génome est l'ensemble complet de l'ADN que porte une cellule — les chromosomes nucléaires, plus ce que les mitochondries et, chez les plantes, les plastes portent pour leur propre compte. Cette définition ne fait pas débat. Presque tout ce qui se construit par-dessus relève de la mesure, et les trois mesures auxquelles on recourt le plus souvent — la taille d'un génome, le nombre de gènes qu'il contient et la part de ce génome qui fait quelque chose — diffèrent énormément par leur degré d'établissement. Seule la première est à peu près stabilisée. Le substrat moléculaire est traité à part dans [ce qu'est l'ADN et ce qu'il ne détermine pas](/fr/biology/genetics/what-is-dna) ; cette page porte sur la couche comptable qui se superpose à la molécule.
@@ -54,7 +55,7 @@ Les auteurs d'ENCODE eux-mêmes ont publié deux ans plus tard une réponse réf
 
 ## Un génome de référence unique a toujours été un compromis
 
-GRCh38 n'est le génome de personne. Il a été construit de façon opportuniste à partir de clones de chromosomes artificiels bactériens issus de plusieurs individus, ce qui en fait une mosaïque d'haplotypes servant de système de coordonnées plutôt qu'un spécimen — ce qui signifie que chaque variant appelé est exprimé comme un écart par rapport à une référence arbitraire. Le contenu en gènes diffère réellement d'un individu à l'autre : une estimation fondée sur trois génomes séquencés chiffrait de 73 à 87 gènes la différence entre deux personnes quelconques, essentiellement par variation des duplications segmentaires.
+GRCh38 n'est le génome de personne. Il a été construit de façon opportuniste à partir de clones de chromosomes artificiels bactériens issus de plusieurs individus, ce qui en fait une mosaïque d'haplotypes servant de système de coordonnées plutôt qu'un spécimen — ce qui signifie que tout appel de variant s'exprime comme un écart par rapport à une référence arbitraire. Le contenu en gènes diffère réellement d'un individu à l'autre : une estimation fondée sur trois génomes séquencés chiffrait de 73 à 87 gènes la différence entre deux personnes quelconques, essentiellement par variation des duplications segmentaires.
 
 Le brouillon publié en 2023 par le Human Pangenome Reference Consortium remplace la ligne unique par un graphe. Il rassemble 47 assemblages diploïdes phasés provenant d'individus génétiquement divers, et ajoute 119 millions de paires de bases de séquence euchromatique polymorphe ainsi que 1,115 duplications de gènes par rapport à GRCh38, dont environ 90 millions de ces bases proviennent de la variation structurale. Utilisé pour analyser des données de lectures courtes, il a réduit de 34 pour cent les erreurs de découverte des petits variants et augmenté de 104 pour cent le nombre de variants structuraux détectés par haplotype. La même logique est depuis longtemps la norme en microbiologie, où une espèce est décrite par un génome cœur assorti d'un ensemble accessoire qui varie d'une souche à l'autre — le cadre utilisé dans [les bactéries et les archées comme domaines distincts](/fr/biology/microbiology/bacteria-and-archaea-explained).
 

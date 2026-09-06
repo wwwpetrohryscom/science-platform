@@ -19,12 +19,12 @@ related:
   - microbiology-explained
   - the-immune-system-explained
 pillar: microbiology-explained
-_bodyHash: '26631809'
+_bodyHash: 47b61a7d
 ---
 
 Un relevé du microbiome intestinal ne compte pas d'organismes. Il indique quelle fraction des séquences récupérées dans un échantillon a été attribuée à chaque taxon, sur un total fixé par l'instrument et non par l'intestin. Presque toutes les manières dont ces relevés sont surinterprétés découlent de ce seul fait structurel, et les corrections qui s'y appliquent ne sont ni obscures ni récentes.
 
-Quels organismes sont recensés, et de quoi ils vivent, fait l'objet de la [présentation générale de la vie microbienne](/fr/biology/microbiology/microbiology-explained). Cette page porte sur l'inférence : ce qu'un tableau de proportions peut porter, et ce qu'il faut pour faire passer un énoncé de *associé à* à *cause de*.
+Quels organismes sont recensés, et de quoi ils vivent, fait l'objet de la [présentation générale de la vie microbienne](/fr/biology/microbiology/microbiology-explained). Cette page porte sur l'inférence : ce qu'un tableau de proportions peut porter, et ce qu'il faut pour faire passer un énoncé de *associé à* vers *cause de*.
 
 ## Un chiffre qui a survécu à ses preuves
 

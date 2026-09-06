@@ -19,6 +19,7 @@ related:
   - forest-carbon-measurement
   - satellite-deforestation-monitoring
 pillar: forest-ecosystems-explained
+_bodyHash: 5270b479
 ---
 
 Quatre chiffres, tous publiés à ce jour, tous décrivant la perte de forêt :

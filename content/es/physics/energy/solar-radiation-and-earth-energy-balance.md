@@ -17,7 +17,7 @@ related:
   - perovskite-stack-field-stability
   - earth-energy-budget-and-the-second-law
 pillar: energy-systems-explained
-_bodyHash: 2e2284a8
+_bodyHash: 2fbd0354
 ---
 
 El sistema climático de la Tierra es, en esencia, un [balance de energía](/es/physics/climate-physics/atmospheric-physics-explained). El Sol aporta radiación de onda corta; el planeta absorbe una parte, refleja otra y radia de vuelta al espacio energía de onda larga (infrarroja). Es además la entrada última de toda tecnología solar dentro de [un sistema energético](/es/physics/energy/energy-systems-explained). La contabilidad entre entrada y salida es el fundamento de la física del clima, y es también el marco que sostiene la mayor parte de la discusión sobre [sistemas energéticos](/es/physics/energy/perovskite-stack-field-stability) y fotovoltaica.
@@ -38,7 +38,7 @@ Las dos últimas cifras deben equilibrarse en la media a largo plazo. Cualquier 
 
 ## Adónde va la energía absorbida
 
-Alrededor del 90% del desequilibrio energético lo capta el océano, y el resto se reparte entre el calentamiento del continente, el deshielo y el calentamiento atmosférico; la proporción exacta depende del inventario y del período, y el IPCC (AR6) la evalúa en el 91% del cambio total del inventario energético global durante 1971–2018. Esta partición es la razón por la que el [contenido de calor oceánico](/es/ecology/climate-change/ocean-heat-content-indicators) es el mejor indicador aislado de la energía total captada por el sistema climático: la atmósfera retiene solo una pequeña fracción del desequilibrio y está además sujeta a variabilidad interanual.
+Alrededor del 90% del desequilibrio energético lo capta el océano, y el resto se reparte entre el calentamiento de las tierras emergidas, el deshielo y el calentamiento atmosférico; la proporción exacta depende del inventario y del período, y el IPCC (AR6) la evalúa en el 91% del cambio total del inventario energético global durante 1971–2018. Esta partición es la razón por la que el [contenido de calor oceánico](/es/ecology/climate-change/ocean-heat-content-indicators) es el mejor indicador aislado de la energía total captada por el sistema climático: la atmósfera retiene solo una pequeña fracción del desequilibrio y está además sujeta a variabilidad interanual.
 
 El océano es, por tanto, el amortiguador lento. Absorbe el desequilibrio ahora y lo libera en escalas de varias décadas, a medida que el agua más cálida se mezcla hacia abajo y el agua más cálida próxima a la superficie termina por equilibrarse con una atmósfera más cálida. Esta es la razón física por la que a veces se describe el cambio climático como portador de un «calentamiento comprometido»: el desequilibrio es real ahora, incluso si el forzamiento se mantuviera constante a partir de este punto.
 
@@ -78,7 +78,7 @@ Los productos CERES EBAF (Energy Balanced and Filled) documentan una tendencia a
 
 Los trabajos recientes documentados en el capítulo 7 del informe [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) y los análisis derivados siguen refinando las estimaciones de la retroalimentación de las nubes; el valor central continúa siendo positivo —AR6 evalúa la retroalimentación neta de las nubes en +0.42 W/m² por °C, con un rango muy probable de −0.10 a +0.94— y el rango de incertidumbre se ha estrechado algo sin resolver del todo la dispersión.
 
-La misma evaluación ofrece la cantidad acumulada, que es el enunciado más robusto. El inventario energético global creció en 282 zettajulios durante 1971–2006 y en otros 152 zettajulios durante 2006–2018, lo que corresponde a un desequilibrio que sube de 0.50 a 0.79 W/m². Alrededor del 91% de esa energía acumulada fue al océano, aproximadamente un 5% al calentamiento del continente, un 3% a la fusión del hielo y un 1% a la atmósfera. Adónde va el excedente, más que cuán grande es, es la pregunta que retoma el conjunto de [ciencia del sistema Tierra](/es/ecology/earth-systems/earth-system-science-explained), y la amplificación que convierte un forzamiento en una respuesta de temperatura se expone en los [mecanismos de retroalimentación climática](/es/ecology/earth-systems/climate-feedback-mechanisms).
+La misma evaluación ofrece la cantidad acumulada, que es el enunciado más robusto. El inventario energético global creció en 282 zettajulios durante 1971–2006 y en otros 152 zettajulios durante 2006–2018, lo que corresponde a un desequilibrio que sube de 0.50 a 0.79 W/m². Alrededor del 91% de esa energía acumulada fue al océano, aproximadamente un 5% al calentamiento de las tierras emergidas, un 3% a la fusión del hielo y un 1% a la atmósfera. Adónde va el excedente, más que cuán grande es, es la pregunta que retoma el conjunto de [ciencia del sistema Tierra](/es/ecology/earth-systems/earth-system-science-explained), y la amplificación que convierte un forzamiento en una respuesta de temperatura se expone en los [mecanismos de retroalimentación climática](/es/ecology/earth-systems/climate-feedback-mechanisms).
 
 ## Nota metodológica
 

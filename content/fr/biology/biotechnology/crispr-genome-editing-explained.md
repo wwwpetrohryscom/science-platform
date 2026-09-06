@@ -6,7 +6,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - genome-editing
   - crispr-cas9
@@ -19,7 +19,7 @@ related:
   - dna-replication-and-repair
   - synthetic-biology-explained
 pillar: biotechnology-explained
-_bodyHash: afa6c840
+_bodyHash: a469b6bf
 ---
 
 La nucléase est le composant célèbre et le moins intéressant. Cas9 trouve une séquence et la coupe ; ce qui se produit ensuite est l'œuvre d'une machinerie de réparation que la cellule possédait déjà, et le résultat de cette réparation est le produit. Presque toutes les propriétés pratiques de l'édition du génome — pourquoi l'inactivation des gènes est devenue une routine, pourquoi les remplacements précis sont restés difficiles, pourquoi c'est la vectorisation et non le ciblage qui constitue la contrainte limitante en thérapeutique — découlent de cette division du travail entre une enzyme introduite et un processus biologique préexistant. C'est aussi la partie le plus souvent escamotée dans les résumés, qui décrivent les ciseaux et s'arrêtent là. L'édition sur place est la plus récente des opérations fondamentales de la [boîte à outils biotechnologique élargie](/fr/biology/biotechnology/biotechnology-explained), et celle dont les limites sont les moins comprises.
@@ -30,7 +30,7 @@ Les systèmes CRISPR-Cas constituent l'[immunité adaptative](/fr/biology/physio
 
 Le résultat de 2012 qui en a fait un outil a établi le mécanisme avec précision. Dans une classe de ces systèmes, un ARN CRISPR mature apparié à un ARN trans-activateur forme une structure à deux ARN qui dirige Cas9 vers l'introduction d'une cassure double brin ; le domaine HNH de l'enzyme coupe le brin complémentaire du guide et son domaine de type RuvC coupe l'autre. Le même travail a montré que les deux ARN pouvaient être fusionnés en une chimère unique obtenue par ingénierie, qui dirigeait toujours un clivage spécifique de séquence — l'étape qui a rendu le système programmable par la synthèse d'un unique ARN court plutôt que par la reconstruction d'un locus naturel.
 
-Le ciblage n'est pas exempt de contraintes. Cas9 exige un court motif adjacent au protospacer immédiatement à côté de la séquence appariée, ce qui, dans le contexte natif, distingue l'ADN envahisseur de la copie stockée par la bactérie elle-même. Pour l'enzyme de *Streptococcus pyogenes*, la plus employée, ce motif est NGG, et des travaux ultérieurs ont quantifié le degré de permissivité de cette exigence : un motif NGG sur l'un ou l'autre brin apparaît en moyenne toutes les 8 paires de bases environ, si bien que la contrainte ne mord principalement que lorsqu'une édition doit tomber à une position exacte et non simplement à l'intérieur d'une région.
+Le ciblage n'est pas exempt de contraintes. Cas9 exige un court motif adjacent au protospacer immédiatement à côté de la séquence appariée, ce qui, dans le contexte natif, distingue l'ADN envahisseur de la copie stockée par la bactérie elle-même. Pour l'enzyme de *Streptococcus pyogenes*, la plus employée, ce motif est NGG, et des travaux ultérieurs ont quantifié le degré de permissivité de cette exigence : un motif NGG sur l'un ou l'autre brin apparaît en moyenne toutes les 8 paires de bases environ, si bien que la contrainte pèse surtout lorsqu'une édition doit tomber à une position exacte et non simplement à l'intérieur d'une région.
 
 ## La voie de réparation est le produit
 
@@ -55,7 +55,7 @@ Le prime editing fusionne une transcriptase inverse à une Cas9 nickase et emplo
 
 ## Mesurer ce qui ne peut pas être prédit
 
-Un éditeur qui reconnaît une vingtaine de bases agira parfois sur des séquences ressemblant à la cible. Le résultat important des tests conçus pour le mesurer n'est pas que l'activité hors cible existe, mais qu'elle est mal prédite. La méthode GUIDE-seq capture un court oligonucléotide double brin dans les cassures et séquence les points d'insertion, ce qui donne une carte non biaisée à l'échelle du génome. Appliquée à treize guides dans deux lignées cellulaires humaines, elle a établi que la plupart des sites identifiés n'avaient été détectés ni par les outils de prédiction informatique alors en usage ni par immunoprécipitation de la chromatine, et que les sites manqués comprenaient des séquences ne différant de la cible que par un seul mésappariement. Elle a également montré que le raccourcissement de l'ARN guide réduisait substantiellement les cassures hors cible, et que certains points chauds apparents de cassure étaient totalement indépendants de la nucléase.
+Un éditeur qui reconnaît une vingtaine de bases agira parfois sur des séquences ressemblant à la cible. Le résultat important des tests conçus pour le mesurer n'est pas que l'activité hors cible existe, mais qu'elle est mal prédite. La méthode GUIDE-seq capture un court oligonucléotide double brin dans les cassures et séquence les points d'insertion, ce qui donne une carte non biaisée à l'échelle du génome. Appliquée à treize guides dans deux lignées cellulaires humaines, elle a constaté que la plupart des sites identifiés n'avaient été détectés ni par les outils de prédiction informatique alors en usage ni par immunoprécipitation de la chromatine, et que les sites manqués comprenaient des séquences ne différant de la cible que par un seul mésappariement. Elle a également montré que le raccourcissement de l'ARN guide réduisait substantiellement les cassures hors cible, et que certains points chauds apparents de cassure étaient totalement indépendants de la nucléase.
 
 Deux limites en découlent. Tout profil hors cible est propre au guide, au type cellulaire et à la sensibilité du test ; un résultat propre dans une lignée cellulaire ne se transpose pas. Et comme ces événements peuvent être plus rares que le plancher d'erreur du séquençage employé pour les détecter, la profondeur et les caractéristiques d'erreur de la [plateforme de séquençage](/fr/biology/biotechnology/dna-sequencing-technologies) fixent la limite de détection de l'affirmation de sécurité.
 

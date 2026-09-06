@@ -18,7 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: 81447d35
+_bodyHash: 6d347553
 ---
 
 Ограничение, которое реально связывает охрану природы, редко состоит в нехватке сведений о том, какие виды находятся в беде. Это деньги, земля и число людей, способных заниматься тем или другим, — из-за чего рабочим вопросом становится не то, что находится под угрозой, а то, что купить на следующую единицу бюджета. Ответы на эти два вопроса расходятся достаточно часто, чтобы второй заслуживал собственных методов.
@@ -74,10 +74,10 @@ _bodyHash: 81447d35
 
 1. **Nature** — [Systematic conservation planning](https://www.nature.com/articles/35012251). Рамка «представленность и сохранение» для систем резерватов и документированное смещение существующих резерватов в сторону удалённых и коммерчески непригодных земель.
 2. **Nature** — [Biodiversity hotspots for conservation priorities](https://www.nature.com/articles/35002501). Фильтр «эндемизм и утрата местообитаний» и его использование как глобальной эвристики приоритета.
-3. **Conservation Biology (через PubMed)** — [Bias in protected-area location and its effects on long-term aspirations of biodiversity conventions](https://pubmed.ncbi.nlm.nih.gov/28639356/). Смещение размещения в сторону земель с низкими альтернативными издержками и контрфактический сценарий тридцатикратно большей представленности.
+3. **Conservation Biology (через PubMed)** — [Bias in protected-area location and its effects on long-term aspirations of biodiversity conventions](https://pubmed.ncbi.nlm.nih.gov/28639356/). Смещение размещения в сторону земель с низкими альтернативными издержками и контрфактический сценарий 30-кратно большей представленности.
 4. **ЮНЕП-WCMC и МСОП** — [Protected Planet Report 2024](https://digitalreport.protectedplanet.net/). Охват, репрезентативность, связность, пробелы по ключевым районам биоразнообразия и доля оценок эффективности управления.
 5. **Секретариат CBD** — [Target 3 of the Kunming-Montreal Global Biodiversity Framework](https://www.cbd.int/gbf/targets/3). Полный текст задачи и её головной индикатор охвата.
-6. **Conservation Biology (через PubMed)** — [Optimal allocation of resources among threatened species: a project prioritization protocol](https://pubmed.ncbi.nlm.nih.gov/19183202/). Новозеландский протокол и сопоставление одиннадцати профинансированных проектов с шестнадцатью.
+6. **Conservation Biology (через PubMed)** — [Optimal allocation of resources among threatened species: a project prioritization protocol](https://pubmed.ncbi.nlm.nih.gov/19183202/). Новозеландский протокол и сопоставление 11 профинансированных проектов с 16.
 7. **PLOS ONE** — [A large-scale application of project prioritization to threatened species investment by a government agency](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201413). Протокол, применённый к 368 видам, и структура «стоимость — выгода — осуществимость».
 8. **Nature Communications** — [Half of resources in threatened species conservation plans are allocated to research and monitoring](https://www.nature.com/articles/s41467-020-18486-6). Доли бюджета по 2 328 включённым в списки видам и связь с результатами восстановления.
 9. **Science (через PubMed)** — [Financial costs of meeting global biodiversity conservation targets](https://pubmed.ncbi.nlm.nih.gov/23065904/). Оценки годовых затрат на угрожаемые виды и на охрану участков, а также финансируемая на сегодня доля.
