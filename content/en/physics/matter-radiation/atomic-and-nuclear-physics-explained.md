@@ -22,7 +22,7 @@ _bodyHash: 7ec89407
 
 Two comparisons set up everything that follows. The Bohr radius, the natural length scale of an atom, is 5.2918 × 10⁻¹¹ m in the 2022 CODATA adjustment. The charge radius of a uranium-238 nucleus, from the IAEA's evaluated nuclear data, is 5.8571 ± 0.0033 fm — that is 5.8571 × 10⁻¹⁵ m. In radius, the nucleus is smaller than the atom around it by a factor of about nine thousand.
 
-The energy scales are further apart still. The Rydberg energy, which sets the scale for pulling the electron off a hydrogen atom, is 13.6057 eV. The average binding energy per nucleon in a mid-mass nucleus is close to 8.79 MeV — roughly 650,000 times more. Nuclear physics and chemistry are the same physics applied at two scales that barely overlap, and almost every counterintuitive fact about radioactivity, reactors and stars follows from how large that separation is.
+The energy scales are further apart still. The Rydberg energy, which sets the scale for pulling the electron off a hydrogen atom, is 13.6057 eV. The average [binding energy](/en/glossary/binding-energy) per nucleon in a mid-mass nucleus is close to 8.79 MeV — roughly 650,000 times more. Nuclear physics and chemistry are the same physics applied at two scales that barely overlap, and almost every counterintuitive fact about radioactivity, reactors and stars follows from how large that separation is.
 
 ## Why the electron cloud and the nucleus behave like separate subjects
 

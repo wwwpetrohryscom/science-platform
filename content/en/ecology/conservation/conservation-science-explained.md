@@ -39,7 +39,7 @@ The prevalence of the weaker designs is high. Across the environmental and socia
 
 ## What the syntheses currently support
 
-The most comprehensive synthesis to date, published in Science in 2024, assembled 186 studies covering 665 trials in which biodiversity was measured over time against a counterfactual of no action. In roughly two-thirds of cases, conservation either improved the state of biodiversity or slowed its decline. Interventions aimed at species and ecosystems — invasive species control, reduction of habitat loss, restoration, protected areas, sustainable management — carried the larger effect sizes.
+The most comprehensive synthesis to date, published in Science in 2024, assembled 186 studies covering 665 trials in which biodiversity was measured over time against a [counterfactual](/en/glossary/counterfactual-conservation) of no action. In roughly two-thirds of cases, conservation either improved the state of biodiversity or slowed its decline. Interventions aimed at species and ecosystems — invasive species control, reduction of habitat loss, restoration, protected areas, sustainable management — carried the larger effect sizes.
 
 Two readings of that result are wrong in opposite directions. It is not a demonstration that conservation generally works, because the remaining third of cases showed no such benefit, and because the studies analysed are the ones somebody chose to run and publish. Nor is it grounds for pessimism: an effect of that size, measured against a genuine counterfactual rather than against a hopeful assumption, is a substantial finding.
 

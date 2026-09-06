@@ -38,7 +38,7 @@ The three are not mutually exclusive. The live disagreement is about their relat
 
 ## What the plot networks have been able to test
 
-The strongest test to date of the Janzen–Connell prediction used dynamic mortality data — repeated censuses of who died, rather than a single snapshot of who is standing — across 23 forest sites spanning temperate and tropical latitudes. Earlier analyses had relied on static data, and the 2024 assessment attributes part of the earlier support for a latitudinal gradient to the methodological limitations of that approach.
+The strongest test to date of the [Janzen–Connell](/en/glossary/janzen-connell-hypothesis) prediction used dynamic mortality data — repeated censuses of who died, rather than a single snapshot of who is standing — across 23 forest sites spanning temperate and tropical latitudes. Earlier analyses had relied on static data, and the 2024 assessment attributes part of the earlier support for a latitudinal gradient to the methodological limitations of that approach.
 
 The result was mixed in an informative way. Stabilising conspecific negative density dependence was present at all but one of the 23 sites, so the mechanism is real and general. But averaged across species it was *not* stronger toward the tropics, which is the prediction the classical hypothesis makes. What did differ by latitude was the relationship with abundance: in tropical communities, rare and intermediately abundant species experienced stronger stabilising density dependence than common ones, while in temperate forests no such relationship appeared. Interspecific variation in the strength of the effect was high everywhere and did not differ significantly with latitude.
 

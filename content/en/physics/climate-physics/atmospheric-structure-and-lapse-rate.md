@@ -47,7 +47,7 @@ This is not a detail of meteorology. A falling temperature profile is a precondi
 
 ## CAPE: a real energy, and an upper bound nobody reaches
 
-Instability that is available rather than merely possible is measured as **convective available potential energy**. NOAA's Storm Prediction Center defines it as the total potential energy available to a parcel originating at the surface once it is lifted to its level of free convection, expressed in joules per kilogram.
+Instability that is available rather than merely possible is measured as **[convective available potential energy](/en/glossary/cape)**. NOAA's Storm Prediction Center defines it as the total potential energy available to a parcel originating at the surface once it is lifted to its level of free convection, expressed in joules per kilogram.
 
 Because it is an energy per unit mass, CAPE converts directly into a velocity: the maximum updraft speed in undiluted parcel theory is the square root of twice the CAPE, so 2,000 J/kg corresponds to about 63 m/s. Real updrafts fall well short of that, for reasons the parcel model deliberately ignores. Entrainment mixes drier environmental air into the rising column and dilutes its buoyancy; condensed water is carried along and weighs the parcel down; and pressure perturbations around the updraft do work on it. CAPE is best read as a ceiling and a comparative index, not a forecast of what the air will do.
 

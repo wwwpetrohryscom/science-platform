@@ -20,7 +20,7 @@ _bodyHash: 8276430c
 readingTime: 4
 ---
 
-The amount of land and sea inside protected areas has been rising for decades, and global targets now push it higher still. Yet a boundary on a map is an input, not a result — the same distinction between what is counted and what is achieved that runs through [the critique of species counts](/en/ecology/biodiversity/why-species-counts-mislead-conservation). This piece looks at how [protected-area effectiveness](/en/glossary/protected-area-effectiveness) is actually judged — through management evaluations and counterfactual impact studies — and why a designated site can still do little for the pressures it was meant to address.
+The amount of land and sea inside protected areas has been rising for decades, and global targets now push it higher still. Yet a boundary on a map is an input, not a result — the same distinction between what is counted and what is achieved that runs through [the critique of species counts](/en/ecology/biodiversity/why-species-counts-mislead-conservation). This piece looks at how [protected-area effectiveness](/en/glossary/protected-area-effectiveness) is actually judged — through management evaluations and [counterfactual](/en/glossary/counterfactual-conservation) impact studies — and why a designated site can still do little for the pressures it was meant to address.
 
 ## Coverage versus outcome
 

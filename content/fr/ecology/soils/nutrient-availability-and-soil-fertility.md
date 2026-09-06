@@ -19,7 +19,6 @@ related:
   - soil-biology-and-the-soil-food-web
   - soil-erosion-processes-and-rates
 pillar: soil-science-explained
-_bodyHash: ab13cfe2
 ---
 
 L'essentiel des éléments nutritifs que contient un champ fertile est indisponible pour la culture qui y pousse, et c'est là un état normal et non un défaut. La fertilité se comprend mieux comme un débit d'approvisionnement — la vitesse à laquelle certains ions parviennent à la surface d'une racine — que comme un inventaire. Les formes minérales de l'azote que les racines absorbent, le nitrate et l'ammonium, ne représentent d'ordinaire que moins de 5 pour cent de l'azote présent. Le phosphore de la solution du sol se situe entre 0.01 et 0.50 mg par litre, contre environ 400 pour le calcium, 60 pour le magnésium et 40 pour le potassium ; la moitié au moins du total peut être immobilisée dans des composés organiques. Environ 1 à 3 pour cent de la matière organique du sol se décompose en un an, de sorte qu'un profil fertile renfermant 8,000 kg d'azote organique par hectare en libère environ 160 kg, dont une culture prélèvera peut-être la moitié. Ce rythme de libération est fixé par la [décomposition](/fr/ecology/ecosystems/decomposition-and-the-return-of-nutrients), et c'est pourquoi la fertilité répond à la température et à l'humidité plutôt qu'au seul stock.

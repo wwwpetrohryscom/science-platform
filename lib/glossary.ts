@@ -36,9 +36,53 @@ export type GlossaryRelatedArticle = {
   subtopic: string;
 };
 
+/**
+ * Why a term has no inbound link from any article.
+ *
+ * A glossary entry that nothing links to is not automatically a defect —
+ * some concepts belong in a glossary precisely because no article needs
+ * a whole section on them. What IS a defect is not knowing which case a
+ * term falls into, so the reason is recorded rather than inferred.
+ *
+ * The categories are the ones the coverage audit used:
+ *   article-gap     the concept deserves article coverage that does not exist
+ *   glossary-only   a legitimate reference definition; no article needs it inline
+ *   alias-gap       the corpus discusses it under a different surface form
+ *   redundant       covered under another term or entity
+ *   too-specialised too narrow for the corpus's scope
+ *   entity-covered  the entity graph names it, so it is reachable that way
+ */
+export type ZeroInboundReason =
+  | "article-gap"
+  | "glossary-only"
+  | "alias-gap"
+  | "redundant"
+  | "too-specialised"
+  | "entity-covered";
+
 export type GlossaryEntry = {
   slug: string;
   term: string;
+  /**
+   * Other surface forms the corpus uses for this concept.
+   *
+   * English had none of these, and every other locale did — the linker
+   * gave `en` exactly one surface form, the display term, while
+   * `surfacesFor` handed every localized term its aliases as well. So a
+   * term displayed as "Counterfactual (conservation evidence)" could
+   * never match the prose, which says "counterfactual", and the English
+   * glossary accumulated unreachable entries that the French one would
+   * not have.
+   */
+  aliases?: string[];
+  /**
+   * Recorded reason this term has no inbound article link, where that is
+   * intentional. The validator requires one; an unexplained zero-inbound
+   * term is the thing worth reporting.
+   */
+  zeroInboundReason?: ZeroInboundReason;
+  /** Free-text note accompanying `zeroInboundReason`. */
+  zeroInboundNote?: string;
   /**
    * Short form for the document title, when the full term does not fit.
    *

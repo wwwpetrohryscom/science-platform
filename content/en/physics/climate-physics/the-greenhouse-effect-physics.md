@@ -65,7 +65,7 @@ The energy is going somewhere, and it is measurable at the top of the atmosphere
 
 ## One emission height is a summary statistic
 
-A caveat is owed to the argument this page has been making. "The" emission height is an average over a spectrum whose individual wavelengths escape from levels kilometres apart, and in the window region much of what leaves still comes from the surface itself. A single altitude is a convenient summary, not a place. The physics is exact wavelength by wavelength and only tidy in aggregate, which is worth remembering whenever the five-kilometre figure is used as though it were a measurement.
+A caveat is owed to the argument this page has been making. "The" [emission height](/en/glossary/emission-height) is an average over a spectrum whose individual wavelengths escape from levels kilometres apart, and in the window region much of what leaves still comes from the surface itself. A single altitude is a convenient summary, not a place. The physics is exact wavelength by wavelength and only tidy in aggregate, which is worth remembering whenever the five-kilometre figure is used as though it were a measurement.
 
 What the account establishes is the sign, and for the direct radiative change roughly the magnitude. It does not settle the response. The step from about 4 W/m² of extra absorption to a surface temperature change runs through water vapour, lapse-rate adjustment, surface albedo and clouds, and the cloud term — the reason the spread in sensitivity estimates has resisted narrowing, as [the treatment of cloud physics](/en/physics/climate-physics/convection-and-cloud-formation) sets out — is the least constrained of the four.
 

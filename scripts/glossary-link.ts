@@ -193,7 +193,17 @@ export type Candidate = { slug: string; surfaces: string[] };
  * localized term plus its aliases.
  */
 export function surfacesFor(slug: string, term: string, locale: string): string[] {
-  if (locale === "en") return [term].filter((s) => eligible(s, locale));
+  if (locale === "en") {
+    // English used to get exactly one surface form while every other
+    // locale got the term plus its aliases. That asymmetry is why the
+    // English glossary accumulated 71 unreachable terms: a term
+    // displayed as "Counterfactual (conservation evidence)" cannot
+    // match prose that says "counterfactual".
+    const entry = GLOSSARY.find((g) => g.slug === slug);
+    return [term, ...(entry?.aliases ?? [])]
+      .filter((s) => eligible(s, locale))
+      .sort((a, b) => b.length - a.length);
+  }
   const loc = glossaryLocalization(slug, locale);
   if (!loc) return [];
   return [loc.term, ...(loc.aliases ?? [])]

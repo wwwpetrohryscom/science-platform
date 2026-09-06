@@ -26,7 +26,7 @@ What that record shows, wherever it is long enough, is that a river's ecology tr
 
 ## Five properties, not one number
 
-A flow regime is conventionally described by five properties — in the USGS's formulation, the magnitude, frequency, seasonal timing, duration and rate of change of streamflow — and each one has a distinct set of organisms and processes attached to it.
+A [flow regime](/en/glossary/natural-flow-regime) is conventionally described by five properties — in the USGS's formulation, the magnitude, frequency, seasonal timing, duration and rate of change of streamflow — and each one has a distinct set of organisms and processes attached to it.
 
 **Magnitude** is how much water moves per unit time. It sets channel dimensions over decades, wetted habitat over hours, and the shear stress that decides which grain sizes stay put. **Frequency** is how often a flow of a given size occurs — the difference between a bankfull event every year and one every twenty. **Duration** is how long a condition persists, which is what separates a brief low-water spell from one long enough to strip oxygen from a pool, or a short overbank pulse from one that actually recharges a floodplain. **Timing** is when in the year an event happens, and it is the property with the tightest biological coupling: many fishes cue spawning migrations to a seasonal rise, and riparian trees release seed in a window that historically coincided with receding flood water and exposed wet sediment. **Rate of change** — how fast the water rises and falls — determines whether organisms can track a moving shoreline or are stranded by it.
 

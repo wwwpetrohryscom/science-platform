@@ -22,7 +22,7 @@ pillar: atomic-and-nuclear-physics-explained
 _bodyHash: fd71d7a6
 ---
 
-How fast a source is decaying, how much energy its emissions leave behind in a kilogram of matter, and how much biological harm that deposit is expected to represent are three separate quantities. The becquerel, the gray and the sievert measure them in that order, and each step forward adds an assumption the previous unit did not carry. Collapsing all three into a single scale of "how much radiation" is the most common error in reporting on the subject, and it runs in both directions: alarm at a figure that cannot justify it, and reassurance from a figure that cannot justify that either.
+How fast a source is decaying, how much energy its emissions leave behind in a kilogram of matter, and how much biological harm that deposit is expected to represent are three separate quantities. The [becquerel](/en/glossary/becquerel-gray-sievert), the gray and the sievert measure them in that order, and each step forward adds an assumption the previous unit did not carry. Collapsing all three into a single scale of "how much radiation" is the most common error in reporting on the subject, and it runs in both directions: alarm at a figure that cannot justify it, and reassurance from a figure that cannot justify that either.
 
 ## Three emissions, three different reaches
 

@@ -263,12 +263,59 @@ async function main() {
       linkedFromContent.add(m[1]);
     }
   }
+  //
+  //     A term nothing links to is not automatically a defect. Some
+  //     concepts belong in a glossary precisely because no article needs
+  //     a section on them, and some are covered in prose but blocked
+  //     from an automatic anchor by the linker's own anti-stuffing
+  //     rules. What IS a defect is not knowing which case a term is in,
+  //     so the rule reports UNEXPLAINED zero-inbound terms and stays
+  //     silent about the ones that carry a recorded reason.
+  //
+  //     The reverse is checked too: a term that carries a reason and has
+  //     since acquired an inbound link has a stale explanation, and a
+  //     stale explanation is worse than none.
+  const VALID_REASONS = new Set([
+    "article-gap",
+    "glossary-only",
+    "alias-gap",
+    "redundant",
+    "too-specialised",
+    "entity-covered",
+  ]);
   for (const g of GLOSSARY) {
-    if (!linkedFromContent.has(g.slug) && !entityGlossaryIds.has(g.slug)) {
+    const reachable = linkedFromContent.has(g.slug) || entityGlossaryIds.has(g.slug);
+    if (!reachable) {
+      if (!g.zeroInboundReason) {
+        issues.push({
+          severity: "warning",
+          rule: "unreferenced-term",
+          message:
+            "no article links it, no entity names it, and no zeroInboundReason explains why",
+          where: g.slug,
+        });
+      } else if (!VALID_REASONS.has(g.zeroInboundReason)) {
+        issues.push({
+          severity: "error",
+          rule: "zero-inbound-reason-unknown",
+          message: `zeroInboundReason "${g.zeroInboundReason}" is not one of ${[...VALID_REASONS].join(", ")}`,
+          where: g.slug,
+        });
+      } else if (!g.zeroInboundNote || g.zeroInboundNote.length < 40) {
+        issues.push({
+          severity: "error",
+          rule: "zero-inbound-note-missing",
+          message:
+            "zeroInboundReason is recorded without a note explaining the judgement — the category alone is not a reason",
+          where: g.slug,
+        });
+      }
+    } else if (g.zeroInboundReason) {
       issues.push({
-        severity: "warning",
-        rule: "unreferenced-term",
-        message: "no article links it and no entity names it",
+        severity: "error",
+        rule: "zero-inbound-reason-stale",
+        message:
+          "the term now has an inbound link or a naming entity, so its zeroInboundReason is out of date and should be removed",
         where: g.slug,
       });
     }
