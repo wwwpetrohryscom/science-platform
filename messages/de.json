@@ -26,7 +26,8 @@
     "primary": "Hauptnavigation",
     "primary_mobile": "Hauptnavigation Mobil",
     "language_switcher": "Sprache wechseln",
-    "breadcrumb": "Brotkrümelnavigation"
+    "breadcrumb": "Brotkrümelnavigation",
+    "search": "Suche"
   },
   "categories": {
     "ecology": {
@@ -271,6 +272,22 @@
     "last_reviewed": "Zuletzt geprüft am {date}",
     "also_in_english": "Dieser Begriff ist auch auf Englisch definiert.",
     "english_article": "auf Englisch"
+  },
+  "search": {
+    "eyebrow": "Finden",
+    "title": "Suche",
+    "description": "Durchsuchen Sie alle Artikel, Analysen und Glossarbegriffe, die in dieser Sprache veröffentlicht sind.",
+    "label": "Diese Website durchsuchen",
+    "placeholder": "Ein Begriff, ein Thema, eine Frage…",
+    "loading": "Index wird geladen…",
+    "empty": "Nichts passt zu allen Wörtern dieser Anfrage. Versuchen Sie es mit weniger Wörtern.",
+    "prompt": "Tippen Sie, um zu suchen. Die Treffer werden enger, je mehr Wörter Sie hinzufügen.",
+    "count": "{count} Treffer",
+    "count_one": "1 Treffer",
+    "kind_article": "Artikel",
+    "kind_insight": "Analyse",
+    "kind_glossary": "Glossar",
+    "scope": "Die Suche erfasst, was in dieser Sprache vorliegt. Nicht übersetzte Artikel erscheinen hier nicht — wechseln Sie zu Englisch, um den gesamten Bestand zu durchsuchen."
   },
   "policy": {
     "last_revised": "Zuletzt überarbeitet: {date}",

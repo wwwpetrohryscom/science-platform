@@ -26,7 +26,8 @@
     "primary": "Principal",
     "primary_mobile": "Principal mobile",
     "language_switcher": "Changer de langue",
-    "breadcrumb": "Fil d'Ariane"
+    "breadcrumb": "Fil d'Ariane",
+    "search": "Recherche"
   },
   "categories": {
     "ecology": {
@@ -271,6 +272,22 @@
     "last_reviewed": "Dernière relecture le {date}",
     "also_in_english": "Ce terme est également défini en anglais.",
     "english_article": "en anglais"
+  },
+  "search": {
+    "eyebrow": "Trouver",
+    "title": "Recherche",
+    "description": "Recherchez parmi tous les articles, analyses et termes du glossaire publiés dans cette langue.",
+    "label": "Rechercher sur ce site",
+    "placeholder": "Un terme, un sujet, une question…",
+    "loading": "Chargement de l'index…",
+    "empty": "Rien ne correspond à tous les mots de cette requête. Essayez avec moins de mots.",
+    "prompt": "Saisissez votre recherche. Les résultats se resserrent à mesure que vous ajoutez des mots.",
+    "count": "{count} résultats",
+    "count_one": "1 résultat",
+    "kind_article": "Article",
+    "kind_insight": "Analyse",
+    "kind_glossary": "Glossaire",
+    "scope": "La recherche porte sur ce qui existe dans cette langue. Les articles non traduits n'y figurent pas — passez à l'anglais pour interroger l'ensemble du corpus."
   },
   "policy": {
     "last_revised": "Dernière révision : {date}",

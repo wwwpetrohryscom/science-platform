@@ -99,6 +99,12 @@ jobs:
       # The internal-linking engine has the worst track record in the
       # repository: a wrong-sense cross-discipline link, and links
       # written into citation lists. Both are fixtures here.
+      # Ranking behaviour, checked without a browser — the client
+      # component and the index builder share one scoring module so
+      # that these cases are the real thing.
+      - name: Search ranking guards
+        run: npm run search:test
+
       - name: Internal-linking guards
         run: npm run content:link:test
 
@@ -126,6 +132,13 @@ jobs:
 
       - name: RSS feeds
         run: npm run feed:generate
+
+      # The search index is a committed artefact the browser fetches,
+      # so it is checked rather than regenerated: a change to the corpus
+      # that did not rebuild the index should be visible as a failure,
+      # not silently papered over by CI rebuilding it.
+      - name: Search index is current
+        run: npm run search:check
 
       - name: Sitemap
         run: npm run seo:validate

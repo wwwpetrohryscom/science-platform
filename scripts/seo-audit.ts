@@ -166,9 +166,27 @@ function main() {
   // know, for every route, whether it is a real page or a 404 rendered
   // at a route with no content in that locale.
   const noindexRoutes = new Set<string>();
+  // Noindex has two meanings on this site and they need separating.
+  //
+  //   `noindex, nofollow` is a page with no content of its own — the
+  //   locale fallback serving an English article under a localized URL.
+  //   A link into one is a link into a dead end.
+  //
+  //   `noindex, follow` is a utility page that is a real destination
+  //   and is deliberately kept out of the index: search results are
+  //   thin without a query and different for every query a crawler
+  //   guesses. Every page on the site links to it on purpose.
+  //
+  // The distinction is already in the markup, so the audit reads it
+  // rather than special-casing a route name.
+  const utilityRoutes = new Set<string>();
   for (const page of pages) {
     const meta = page.html.match(/<meta[^>]+name="robots"[^>]*>/gi) ?? [];
-    if (meta.some((t) => /noindex/i.test(attr(t, "content") ?? ""))) noindexRoutes.add(page.route);
+    const content = meta.map((t) => attr(t, "content") ?? "").join(",");
+    if (/noindex/i.test(content)) {
+      noindexRoutes.add(page.route);
+      if (!/nofollow/i.test(content)) utilityRoutes.add(page.route);
+    }
   }
 
   const titles = new Map<string, string[]>();
@@ -443,6 +461,8 @@ function main() {
     )];
     for (const href of hrefs) {
       if (!noindexRoutes.has(href)) continue;
+      // A deliberate utility page — noindex but follow. See above.
+      if (utilityRoutes.has(href)) continue;
       // A noindex route with an indexable English twin is the locale
       // fallback working as designed: the reader gets the English
       // article plus a notice in their own language, and the page is

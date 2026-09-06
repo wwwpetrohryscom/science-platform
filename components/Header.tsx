@@ -58,6 +58,13 @@ export function Header({ locale }: HeaderProps) {
 
         <div className="flex items-center gap-3">
           <Link
+            href={localizedPath(locale, "/search")}
+            aria-label={t("search.label")}
+            className="inline-flex h-9 w-9 items-center justify-center rounded-full text-ink-muted hover:bg-ink-surface hover:text-primary-700"
+          >
+            <SearchIcon />
+          </Link>
+          <Link
             href={localizedPath(locale, "/discussions")}
             className="btn-outline hidden md:inline-flex"
           >
@@ -93,8 +100,31 @@ export function Header({ locale }: HeaderProps) {
             {t(`nav.${key}`)}
           </Link>
         ))}
+        <Link
+          href={localizedPath(locale, "/search")}
+          className="whitespace-nowrap hover:text-primary-700"
+        >
+          {t("nav.search")}
+        </Link>
       </nav>
     </header>
+  );
+}
+
+function SearchIcon() {
+  return (
+    <svg
+      aria-hidden
+      viewBox="0 0 20 20"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      className="h-[18px] w-[18px]"
+    >
+      <circle cx="9" cy="9" r="5.5" />
+      <path d="M13.2 13.2 17 17" />
+    </svg>
   );
 }
 
