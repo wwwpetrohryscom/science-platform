@@ -6,7 +6,7 @@ type: expert
 author: earth-systems-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 7
+readingTime: 10
 tags:
   - boreal-forests
   - permafrost
@@ -19,9 +19,10 @@ related:
   - forest-disturbance-fire-insects-windthrow
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
+_bodyHash: 1246d228
 ---
 
-Deux chiffres, issus de deux systèmes de comptabilité différents, méritent d'être mis côte à côte. L'évaluation 2025 de la FAO estime le carbone de l'ensemble des forêts du monde, tous réservoirs qu'elle reconnaît confondus, à 714 gigatonnes. L'Arctic Report Card 2024 de la NOAA chiffre le carbone accumulé dans les sols terrestres et le pergélisol de la région de pergélisol septentrionale — 16.6 millions de kilomètres carrés de toundra et de terres boréales — à 1.4 à 1.6 billion de tonnes au moins.
+Deux chiffres, issus de deux systèmes de comptabilité différents, méritent d'être mis côte à côte. L'évaluation 2025 de la FAO estime le carbone de l'ensemble des forêts du monde, tous réservoirs qu'elle reconnaît confondus, à 714 gigatonnes. L'Arctic Report Card 2024 de la NOAA chiffre le carbone accumulé dans les sols terrestres et le pergélisol de la région de pergélisol septentrionale — 16.6 millions de kilomètres carrés de toundra et de terres boréales — à pas moins de 1.4 à 1.6 billion de tonnes.
 
 Les deux mesurent des choses différentes, et c'est précisément là le point. Une forêt nordique est une mince couche de bois posée sur une réserve très profonde de matière organique froide, et les instruments comme les conventions bâtis pour la foresterie visent le bois. D'où viennent les frontières de catégories plus larges est exposé dans [les définitions derrière les statistiques forestières](/fr/ecology/forests/forest-ecosystems-explained).
 

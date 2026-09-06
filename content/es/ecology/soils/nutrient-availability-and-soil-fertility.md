@@ -19,6 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - soil-erosion-processes-and-rates
 pillar: soil-science-explained
+_bodyHash: 70e167ee
 ---
 
 La mayor parte del contenido de nutrientes de un campo fértil no está disponible para el cultivo que crece en él, y eso es lo normal y no un defecto. La fertilidad se entiende mejor como una tasa de suministro —la rapidez con que determinados iones llegan a la superficie de una raíz— que como un inventario. Las formas inorgánicas de nitrógeno que absorben las raíces, el nitrato y el amonio, suelen suponer menos del 5 por ciento del nitrógeno presente. El fósforo de la solución del suelo se sitúa entre 0.01 y 0.50 mg por litro, frente a unos 400 del calcio, 60 del magnesio y 40 del potasio; la mitad o más del total puede estar retenida en compuestos orgánicos. Alrededor del 1 al 3 por ciento de la materia orgánica del suelo se descompone en un año, de modo que un perfil fértil que retiene 8,000 kg de nitrógeno orgánico por hectárea libera unos 160 kg, de los cuales un cultivo tomará quizá la mitad. Esa tasa de liberación la fija la [descomposición](/es/ecology/ecosystems/decomposition-and-the-return-of-nutrients), y por eso la fertilidad responde a la temperatura y a la humedad, y no solo a la existencia acumulada.

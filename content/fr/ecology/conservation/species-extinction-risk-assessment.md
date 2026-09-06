@@ -1,7 +1,7 @@
 ---
-title: 'Comment s''évalue le risque d''extinction, et ce que signifie une catégorie de la Liste rouge'
+title: Comment s'évalue le risque d'extinction, et ce que signifie une catégorie de la Liste rouge
 metaTitle: 'Risque d''extinction : évaluation et catégories de la Liste rouge'
-excerpt: 'Une catégorie de la Liste rouge énonce une probabilité d''extinction sous des critères définis, non une importance écologique ni une rareté. Voici ce qu''exigent les cinq critères, pourquoi « Données insuffisantes » n''est pas une catégorie de menace, et à quel point la couverture reste inégale.'
+excerpt: Une catégorie de la Liste rouge énonce une probabilité d'extinction sous des critères définis, non une importance écologique ni une rareté. Voici ce qu'exigent les cinq critères, pourquoi « Données insuffisantes » n'est pas une catégorie de menace, et à quel point la couverture reste inégale.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -19,6 +19,7 @@ related:
   - invasive-species-management
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: 31ead935
 ---
 
 Une catégorie de la Liste rouge est un énoncé de probabilité, formulé selon des règles explicites, à partir de preuves explicites. « En danger critique » signifie qu'un taxon satisfait au moins un des cinq critères quantitatifs à leur seuil le plus sévère, et qu'il est donc jugé exposé à un risque extrêmement élevé d'extinction à l'état sauvage. Cela ne signifie pas que l'organisme est rare, beau, écologiquement déterminant ou prioritaire pour les financements. Ce sont là des jugements distincts, et le système a été conçu pour les tenir séparés, afin que la gradation du risque puisse être auditée indépendamment de ce que quiconque souhaitait en faire — le principe général qui sous-tend [la conservation fondée sur les preuves](/fr/ecology/conservation/conservation-science-explained).

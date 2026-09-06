@@ -18,6 +18,7 @@ related:
   - ocean-acidification-explained
   - satellite-altimetry-explained
 pillar: ocean-science-explained
+_bodyHash: 969a0c35
 ---
 
 NOAA Ocean Exploration afirma que más del 90 por ciento del océano es océano profundo —agua por debajo de los 200 metros— y que los exploradores han visto directamente menos del 0.001 por ciento del fondo del mar profundo, una superficie de aproximadamente el tamaño de Rhode Island. Esas dos cifras encajan mal entre sí, y sostenerlas a la vez es toda la disciplina: el mayor hábitat continuo del planeta se describe casi por completo a partir de muestras, sensores e inferencia, y no de la observación.

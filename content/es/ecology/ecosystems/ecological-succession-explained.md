@@ -1,6 +1,6 @@
 ---
 title: 'La sucesión ecológica: qué reemplazó a la idea de clímax'
-metaTitle: 'Sucesión ecológica tras la idea de clímax'
+metaTitle: Sucesión ecológica tras la idea de clímax
 excerpt: La sucesión no es una marcha fija hacia un único punto final estable. La recuperación depende de qué sobrevivió, qué llegó y en qué orden, y las distintas propiedades de un sitio dañado regresan a ritmos muy diferentes.
 type: expert
 author: environmental-science-desk
@@ -19,6 +19,7 @@ related:
   - ecosystem-resilience-indicators
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
+_bodyHash: cfbb55bb
 ---
 
 Una ladera quemada, un frente glaciar en retroceso, un campo abandonado: todos serán recolonizados y, durante buena parte del siglo XX, se pensó que la secuencia era lo bastante previsible como para nombrarla de antemano. Esa expectativa —un sitio que atraviesa una serie fija de etapas hacia un punto final estable fijado por el clima regional— organizó buena parte de la ecología vegetal. No sobrevivió a los registros de largo plazo. Lo que la reemplazó es más laxo, más contingente y bastante más útil para quien deba decidir si un sitio dañado se está recuperando.

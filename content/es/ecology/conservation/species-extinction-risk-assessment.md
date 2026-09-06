@@ -1,7 +1,7 @@
 ---
-title: 'Cómo se evalúa el riesgo de extinción y qué significa una categoría de la Lista Roja'
+title: Cómo se evalúa el riesgo de extinción y qué significa una categoría de la Lista Roja
 metaTitle: 'Riesgo de extinción: evaluación y categorías de la Lista Roja'
-excerpt: 'Una categoría de la Lista Roja enuncia una probabilidad de extinción bajo criterios definidos, no una importancia ecológica ni una rareza. Esto es lo que exigen los cinco criterios, por qué «Datos Insuficientes» no es una categoría de amenaza y cuán desigual resulta la cobertura.'
+excerpt: Una categoría de la Lista Roja enuncia una probabilidad de extinción bajo criterios definidos, no una importancia ecológica ni una rareza. Esto es lo que exigen los cinco criterios, por qué «Datos Insuficientes» no es una categoría de amenaza y cuán desigual resulta la cobertura.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -19,6 +19,7 @@ related:
   - invasive-species-management
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: 5da5cbe8
 ---
 
 Una categoría de la Lista Roja es una afirmación sobre probabilidad, hecha bajo reglas declaradas y a partir de evidencia declarada. «En Peligro Crítico» significa que un taxón cumple al menos uno de los cinco criterios cuantitativos en su umbral más severo y que, por tanto, se juzga expuesto a un riesgo extremadamente alto de extinción en estado silvestre. No significa que el organismo sea raro, hermoso, ecológicamente decisivo o prioritario para el gasto. Esos son juicios distintos, y el sistema se diseñó para mantenerlos separados, de modo que la gradación del riesgo pudiera auditarse con independencia de lo que cualquiera quisiera hacer al respecto: el principio general que sustenta [la conservación basada en la evidencia](/es/ecology/conservation/conservation-science-explained).

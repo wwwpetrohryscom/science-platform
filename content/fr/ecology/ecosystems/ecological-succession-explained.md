@@ -19,6 +19,7 @@ related:
   - ecosystem-resilience-indicators
   - foundation-species-and-the-myth-of-redundancy
 pillar: what-is-an-ecosystem
+_bodyHash: 8b9df86c
 ---
 
 Un versant brûlé, un front glaciaire en retrait, un champ abandonné : chacun sera recolonisé, et pendant une bonne partie du XXe siècle on a cru la séquence assez prévisible pour être nommée à l'avance. Cette attente — un site traversant une série fixe de stades vers un point d'aboutissement stable fixé par le climat régional — a organisé une grande partie de l'écologie végétale. Elle n'a pas survécu aux séries de longue durée. Ce qui l'a remplacée est plus lâche, plus contingent, et considérablement plus utile à quiconque doit décider si un site dégradé est en voie de rétablissement.

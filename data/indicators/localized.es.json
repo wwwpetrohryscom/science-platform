@@ -1,0 +1,119 @@
+{
+  "atmospheric-co2": {
+    "name": "Concentración de dióxido de carbono atmosférico",
+    "shortName": "CO₂ atmosférico",
+    "definition": "La fracción molar en aire seco de dióxido de carbono en la capa límite marina bien mezclada, promediada sobre una red global de puntos de muestreo y publicada como media de año natural.",
+    "methodology": "El aire se recoge en matraces en emplazamientos elegidos por estar lejos de fuentes locales, y en analizadores continuos en observatorios de referencia. Cada muestra se mide frente a una escala de calibración mantenida por la NOAA, y los registros de cada emplazamiento se combinan en una media global de la capa límite marina ponderada por latitud. La incertidumbre publicada describe la dispersión de ese promediado, no la precisión de una medición individual.",
+    "unitLabel": "partes por millón en fracción molar de aire seco",
+    "limitations": [
+      "Esta es la concentración de fondo, medida deliberadamente lejos de ciudades, bosques y tierras de cultivo. No es la concentración de ningún lugar en el que una persona se encuentre realmente.",
+      "Una fracción molar no es una masa. Convertirla en una masa de carbono o de CO₂ exige la masa de la atmósfera y las masas molares, y las dos se confunden habitualmente.",
+      "La concentración es el resultado de las emisiones menos la absorción por la tierra y el océano. Un año de crecimiento más lento puede significar menos emisiones o un sumidero más fuerte, y la concentración por sí sola no puede separarlos.",
+      "El año más reciente es provisional hasta que se recalibren los gases patrón."
+    ]
+  },
+  "co2-growth-rate": {
+    "name": "Tasa de crecimiento anual del CO₂ atmosférico",
+    "shortName": "Tasa de crecimiento del CO₂",
+    "definition": "El aumento de la fracción molar de dióxido de carbono promediada globalmente a lo largo de un año natural, tal como lo calcula la NOAA a partir de las diferencias de diciembre a diciembre.",
+    "methodology": "La NOAA calcula la tasa de crecimiento como la diferencia entre la fracción molar promediada globalmente de diciembre y la de diciembre del año anterior, lo que suprime el ciclo estacional sin necesidad de modelizarlo. La incertidumbre publicada procede de la incertidumbre de los dos extremos anuales.",
+    "unitLabel": "partes por millón al año",
+    "limitations": [
+      "La variabilidad interanual está dominada por el sumidero de carbono terrestre, que responde a El Niño y a la sequía. Un año con una tasa de crecimiento alta suele significar un sumidero débil, no un salto en las emisiones.",
+      "Esto es el crecimiento de la concentración, no el de las emisiones. Aproximadamente la mitad del CO₂ emitido es absorbido por la tierra y el océano, y esa fracción es a su vez variable.",
+      "Un solo año no dice casi nada. La magnitud que merece la pena leer es la tendencia multidecadal de la tasa de crecimiento, que es lo que muestra que la acumulación se está acelerando."
+    ]
+  },
+  "atmospheric-ch4": {
+    "name": "Concentración de metano atmosférico",
+    "shortName": "CH₄ atmosférico",
+    "definition": "La fracción molar en aire seco de metano en la capa límite marina, promediada globalmente y publicada como media de año natural.",
+    "methodology": "Se mide a partir de la misma red de matraces que el CO₂, frente a la escala de calibración de metano de la NOAA, y se promedia de la misma manera. El metano se expresa en partes por mil millones porque está presente en una concentración unas doscientas veces menor que la del CO₂.",
+    "unitLabel": "partes por mil millones en fracción molar de aire seco",
+    "limitations": [
+      "El metano tiene un tiempo de vida atmosférico de aproximadamente una década, por lo que su concentración responde a los cambios de las emisiones mucho más rápido que la del CO₂, y puede tanto bajar como subir.",
+      "La concentración no identifica la fuente. Los humedales, los rumiantes, el arroz, los vertederos y la infraestructura de combustibles fósiles emiten todos metano, y separarlos exige mediciones isotópicas que esta serie no contiene.",
+      "Comparar el metano y el CO₂ por su concentración carece de sentido. Difieren en eficiencia radiativa por molécula y en tiempo de vida, y combinar precisamente eso es la razón de ser del índice de gases de efecto invernadero."
+    ]
+  },
+  "atmospheric-n2o": {
+    "name": "Concentración de óxido nitroso atmosférico",
+    "shortName": "N₂O atmosférico",
+    "definition": "La fracción molar en aire seco de óxido nitroso en la capa límite marina, promediada globalmente y publicada como media de año natural.",
+    "methodology": "Se mide a partir de la red de matraces de la NOAA frente a la escala de calibración del N₂O y se promedia igual que los demás gases de larga vida. El producto global de capa límite marina comienza en 2001.",
+    "unitLabel": "partes por mil millones en fracción molar de aire seco",
+    "limitations": [
+      "El registro que aquí figura empieza en 2001 porque es cuando empieza el producto global, no porque el óxido nitroso no se midiera antes. Existen registros más largos procedentes de testigos de hielo y de estaciones individuales.",
+      "El óxido nitroso está dominado por el uso agrícola del nitrógeno, y su aumento es consecuencia de la misma química de los fertilizantes que alimenta a la mayor parte del mundo. No puede leerse como un indicador del sector energético.",
+      "El N₂O tiene un tiempo de vida atmosférico de más de un siglo, por lo que la concentración solo responde lentamente a los cambios de las emisiones."
+    ]
+  },
+  "annual-greenhouse-gas-index": {
+    "name": "Índice Anual de Gases de Efecto Invernadero de la NOAA",
+    "shortName": "AGGI",
+    "definition": "El forzamiento radiativo directo de los gases de efecto invernadero de larga vida, expresado en relación con su valor de 1990. Un índice de 1.5 significa que el forzamiento es una vez y media el que había en 1990.",
+    "methodology": "Las fracciones molares globales medidas de CO₂, CH₄, N₂O y quince gases halogenados se convierten en forzamiento radiativo mediante expresiones publicadas, se suman y se dividen por el total de 1990. El índice hereda por tanto la exactitud de las mediciones de concentración y la exactitud de las expresiones de forzamiento, que son cosas distintas.",
+    "unitLabel": "índice adimensional, 1990 = 1",
+    "limitations": [
+      "Es un índice derivado, no una medición. Sus entradas se miden; el paso de la concentración al forzamiento es un cálculo que emplea expresiones de transferencia radiativa.",
+      "Cubre únicamente los gases de larga vida y bien mezclados. Los aerosoles, el ozono, el vapor de agua y los cambios de la superficie terrestre fuerzan todos ellos el clima, y ninguno está en esta cifra.",
+      "Un forzamiento no es una temperatura. La respuesta de la temperatura a un forzamiento dado depende de la sensibilidad climática y de cuánto calor haya absorbido el océano, y este índice no contiene ninguna de las dos cosas.",
+      "La línea de base de 1990 es una convención de presentación elegida para encajar con el Protocolo de Kioto, no un cero con significado físico."
+    ],
+    "referencePeriod": "1990 = 1"
+  },
+  "global-temperature-anomaly": {
+    "name": "Anomalía de la temperatura media global en superficie",
+    "shortName": "Anomalía de temperatura global",
+    "definition": "La diferencia entre la temperatura media global en superficie de un año natural y la media del periodo base 1951–1980, combinando la temperatura del aire sobre tierra con la temperatura de la superficie del mar.",
+    "methodology": "GISTEMP toma los registros de las estaciones terrestres y las temperaturas de la superficie del mar obtenidas desde buques y boyas, convierte cada uno en una anomalía respecto a su propio periodo base local e interpola las anomalías sobre una cuadrícula global. Trabajar con anomalías en lugar de con temperaturas absolutas es lo que hace posible siquiera combinar una estación situada en altura con otra a nivel del mar.",
+    "unitLabel": "grados Celsius respecto a la media de 1951–1980",
+    "limitations": [
+      "El periodo base es una elección. Un valor referido a 1951–1980 no es comparable con uno referido a 1850–1900 o a 1991–2020 sin sumar el desfase entre los periodos base, y la diferencia es de varias décimas de grado.",
+      "Análisis independientes de las mismas observaciones de partida difieren en unas pocas centésimas de grado, sobre todo porque tratan de forma distinta el Ártico, escasamente muestreado.",
+      "Una media global describe mal lo que experimenta cualquier lugar concreto. La tierra se calienta más rápido que el océano, y las latitudes altas más rápido que los trópicos.",
+      "Los valores de un solo año están dominados por El Niño y La Niña. La tendencia es la señal; el año es sobre todo meteorología."
+    ],
+    "referencePeriod": "1951–1980"
+  },
+  "ocean-heat-content-0-2000m": {
+    "name": "Contenido de calor oceánico, 0–2000 m",
+    "shortName": "Contenido de calor oceánico",
+    "definition": "El calor almacenado en los 2000 metros superiores del océano mundial, expresado como anomalía en unidades de 10²² julios.",
+    "methodology": "Los perfiles de temperatura, dominados desde 2005 por la red de flotadores Argo, se proyectan sobre una cuadrícula global y se integran en profundidad y en superficie. El proveedor publica un error estándar junto a cada valor anual.",
+    "unitLabel": "unidades de 10²² julios",
+    "limitations": [
+      "La serie anual de 0–2000 m empieza en 2005 porque es cuando la cobertura de Argo llegó a ser lo bastante densa para sostenerla. Existen estimaciones anteriores del calor oceánico, pero se apoyan en un muestreo mucho más disperso.",
+      "El océano profundo por debajo de 2000 m no está en esta cifra, y también se está calentando.",
+      "La documentación de columnas del NCEI indica que la unidad es 10²² julios, pero en esa página no indica la climatología de referencia, de modo que este sitio no afirma ninguna. La serie es útil como cambio, no como valor absoluto.",
+      "El contenido de calor oceánico es una medida del desequilibrio energético del planeta mucho mejor que la temperatura en superficie, porque la mayor parte del calor sobrante va al océano, lo que también significa que responde lentamente y no puede utilizarse para detectar un cambio con rapidez."
+    ]
+  },
+  "arctic-sea-ice-september-extent": {
+    "name": "Extensión del hielo marino ártico, media de septiembre",
+    "shortName": "Hielo marino ártico (septiembre)",
+    "definition": "La superficie de océano al norte del ecuador cubierta por al menos un 15 por ciento de hielo marino, promediada a lo largo de septiembre, el mes del mínimo anual.",
+    "methodology": "Los radiómetros de microondas pasivas a bordo de satélites de órbita polar distinguen el hielo del agua libre por su emisividad, muy distinta en frecuencias de microondas. Toda celda de la cuadrícula cuya concentración recuperada sea de al menos un 15 por ciento se cuenta entera; el valor mensual es la media de los campos diarios.",
+    "unitLabel": "millones de kilómetros cuadrados",
+    "limitations": [
+      "La extensión y el área son magnitudes distintas. La extensión cuenta entera una celda cubierta al 20 por ciento; el área cuenta una quinta parte de ella. Citar una y llamarla la otra sobrestima o subestima el hielo por un amplio margen en verano.",
+      "El umbral del 15 por ciento es una convención. Un umbral distinto produce un número distinto a partir exactamente de los mismos datos de satélite.",
+      "La extensión no dice nada sobre el espesor ni sobre el volumen, y el Ártico ha perdido proporcionalmente más volumen que área.",
+      "Los charcos de deshielo estivales en la superficie del hielo parecen agua libre para un radiómetro de microondas, lo que sesga a la baja los valores recuperados en verano.",
+      "El registro empieza en 1979, con la era de los satélites. No es una afirmación sobre lo inusual que resulta el descenso reciente en periodos más largos."
+    ]
+  },
+  "global-mean-sea-level": {
+    "name": "Anomalía del nivel medio global del mar",
+    "shortName": "Nivel medio global del mar",
+    "definition": "La altura de la superficie media global del mar respecto al inicio del registro de altimetría satelital, medida con altímetros de radar y promediada sobre el océano que estos cubren.",
+    "methodology": "Un altímetro de radar mide el tiempo de ida y vuelta de un pulso hasta la superficie del mar, lo que da la distancia entre una órbita conocida con precisión y el agua. Se aplican correcciones por la atmósfera, las mareas y el estado del mar, y el residuo se promedia en cada ciclo de repetición, de unos diez días. Los valores que aquí figuran son medias de año natural de esos ciclos.",
+    "unitLabel": "milímetros respecto al inicio del registro",
+    "limitations": [
+      "Esta serie no lleva ningún ajuste isostático glacial. La corrección GIA da cuenta del lento cambio de forma de la cuenca oceánica tras la última glaciación y añade unos 0.3 mm al año; las series que la incluyen comunican una tendencia mayor a partir de las mismas mediciones.",
+      "El altímetro no ve los océanos polares, de modo que «global» significa aproximadamente de 66°S a 66°N.",
+      "El registro es un empalme de cinco misiones, y los desfases entre misiones se estiman durante los periodos de solapamiento en lugar de medirse directamente.",
+      "El ascenso del nivel del mar es profundamente desigual. Las tasas regionales difieren de la media global en un factor de varias veces, y lo que importa a escala local incluye además la subsidencia del terreno, que un altímetro no puede ver."
+    ]
+  }
+}

@@ -20,6 +20,7 @@ related:
   - lake-ecology-and-eutrophication
   - ocean-deoxygenation-and-dead-zones
 pillar: environmental-pollution-explained
+_bodyHash: c0cc2446
 ---
 
 La contaminación por nitrógeno suele exponerse como si fuera un único problema a la espera de una única solución. Son varios problemas dispuestos en serie. Un átomo de nitrógeno fijado en un fertilizante puede volatilizarse como amoniaco y formar partículas secundarias en el aire; depositarse sobre un brezal y desplazar su comunidad vegetal; lixiviarse como nitrato hacia el agua subterránea y luego hacia un río; alimentar una proliferación de algas cuya descomposición despoja de oxígeno un fondo marino costero; y salir por último como óxido nitroso, un gas de efecto invernadero de larga vida. Cada parada es un receptor distinto con un regulador distinto, y el átomo no deja de causar efectos cuando el primer organismo pierde el interés.

@@ -32,7 +32,7 @@ Nenhum destes números contradiz outro. São quatro grandezas diferentes que a l
 
 ## O que cada série conta na realidade
 
-| Grandeza | Definição aplicada | Publica | Valor recente | Exclui em especial |
+| Grandeza | Definição aplicada | Publicado por | Valor recente | Exclui em especial |
 | --- | --- | --- | --- | --- |
 | Desflorestação | Conversão de floresta para outro uso do solo, seja ou não de origem humana | FAO, a partir de relatórios nacionais | 10.9 milhões de ha/yr, média 2015–2025 | A colheita ou o corte quando se espera que o povoamento se regenere |
 | Variação líquida da área florestal | Desflorestação menos arborização e expansão natural da floresta | FAO, a partir de relatórios nacionais | −4.12 milhões de ha/yr, média 2015–2025 | Qualquer informação sobre onde ocorreram as perdas e os ganhos, ou sobre o que se perdeu |
@@ -49,7 +49,7 @@ Considere-se um corte raso numa paisagem de resinosas gerida. Para o relatório 
 
 O fogo comporta-se do mesmo modo e a maior escala: os incêndios responderam por 42 por cento dos 25.5 milhões de hectares de perda mundial de coberto arbóreo em 2025, e a maior parte da floresta ardida não é convertida para outro uso. O lado dos ganhos herda o problema simétrico — quem publica a série de satélite afirma diretamente que o ganho de coberto arbóreo não equivale a restauro, porque uma plantação jovem e um bosque natural em recuperação são semelhantes vistos da órbita durante anos.
 
-O teste causal também difere. A FAO define a desflorestação independentemente de ser ou não de origem humana, e inclui explicitamente os casos em que a perturbação ou a alteração das condições ambientais empurram o [coberto de copado](/en/glossary/canopy-cover) de forma permanente para baixo do limiar de 10 por cento. Nas regras de contabilização do Protocolo de Quioto, pelo contrário, a desflorestação é a conversão *diretamente induzida pelo homem* de terreno florestal em terreno não florestal. Um povoamento morto por seca que nunca recupera é desflorestação num quadro e outra coisa no outro.
+O teste causal também difere. A FAO define a desflorestação independentemente de ser ou não de origem humana, e inclui explicitamente os casos em que a perturbação ou a alteração das condições ambientais empurram o [coberto de copado](/pt/glossary/canopy-cover) de forma permanente para baixo do limiar de 10 por cento. Nas regras de contabilização do Protocolo de Quioto, pelo contrário, a desflorestação é a conversão *diretamente induzida pelo homem* de terreno florestal em terreno não florestal. Um povoamento morto por seca que nunca recupera é desflorestação num quadro e outra coisa no outro.
 
 ## Nenhuma das duas é a verdade no terreno
 

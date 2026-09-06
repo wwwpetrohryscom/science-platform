@@ -18,6 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: 2536f509
 ---
 
 A restrição que verdadeiramente limita a conservação raramente é a falta de informação sobre que espécies estão em dificuldade. São o dinheiro, a terra e o número de pessoas disponíveis para gerir uma coisa ou a outra — o que faz com que a pergunta operativa não seja o que está ameaçado, mas o que comprar com a próxima unidade de orçamento. Essas duas perguntas recebem respostas diferentes com frequência suficiente para que a segunda mereça métodos próprios.

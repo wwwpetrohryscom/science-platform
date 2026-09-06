@@ -19,6 +19,7 @@ related:
   - lake-ecology-and-eutrophication
   - ocean-deoxygenation-and-dead-zones
 pillar: environmental-pollution-explained
+_bodyHash: 60c872f6
 ---
 
 La pollution azotée est généralement présentée comme s'il s'agissait d'un problème unique en attente d'une solution unique. Il s'agit de plusieurs problèmes disposés en série. Un atome d'azote fixé dans un engrais peut se volatiliser sous forme d'ammoniac et former des particules secondaires dans l'air ; se déposer sur une lande et en modifier la communauté végétale ; être lessivé sous forme de nitrate vers une nappe souterraine puis vers une rivière ; nourrir une efflorescence algale dont la décomposition prive d'oxygène un fond marin côtier ; et repartir enfin sous forme de protoxyde d'azote, un gaz à effet de serre à longue durée de vie. Chaque étape est une cible distincte relevant d'un régulateur distinct, et l'atome ne cesse pas de produire des effets lorsque la première administration s'en désintéresse.

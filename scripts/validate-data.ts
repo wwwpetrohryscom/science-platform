@@ -286,7 +286,79 @@ for (const ind of INDICATORS) {
 // the half-in-your-language failure this rule exists to prevent, and it
 // is the same rule the editorial policy pages follow.
 const UNIT_SYMBOLS = ["ppm", "ppb", "10²² J", "mm", "°C", "million km²", "ppm yr⁻¹"];
-const NUMERALS = /(?<![\p{L}])(?:\d+(?:[.,]\d+)?)/gu;
+
+/**
+ * Does a unit symbol appear as a symbol, rather than inside a word?
+ *
+ * `includes("mm")` matched "summed" and "summer", and reported the AGGI
+ * and sea-ice indicators for losing a millimetre neither of them
+ * mentions. A two-character symbol needs a boundary on both sides: a
+ * unit is written after a number or a space and is not followed by more
+ * letters.
+ */
+function usesSymbol(text: string, symbol: string): boolean {
+  const escaped = symbol.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`(?<![\\p{L}])${escaped}(?![\\p{L}])`, "u").test(text);
+}
+
+/**
+ * Unit symbols that a language legitimately writes differently.
+ *
+ * Russian scientific writing sets SI symbols in Cyrillic — мм, км, млн
+ * км² — and that is the correct form, not a translation of something
+ * that should have been left alone. The rule reported the Russian sea
+ * level page for losing "mm" when the page correctly says "мм".
+ *
+ * This is a short, evidence-based list rather than a general
+ * transliteration: only the symbols this corpus actually uses, only for
+ * the language that actually rewrites them. French, Spanish, German and
+ * Portuguese all keep the Latin SI symbols and are held to that.
+ */
+const SYMBOL_EQUIVALENTS: Record<string, Record<string, string[]>> = {
+  ru: {
+    mm: ["мм"],
+    "million km²": ["млн км²"],
+    ppm: ["ppm", "млн⁻¹"],
+    ppb: ["ppb", "млрд⁻¹"],
+  },
+};
+
+function usesSymbolInLocale(text: string, symbol: string, locale: string): boolean {
+  if (usesSymbol(text, symbol)) return true;
+  for (const alt of SYMBOL_EQUIVALENTS[locale]?.[symbol] ?? []) {
+    if (usesSymbol(text, alt)) return true;
+  }
+  return false;
+}
+
+/**
+ * Numeric values in a body, as numbers rather than as strings.
+ *
+ * Comparing the written forms reported every German and Portuguese
+ * translation for losing "1.5" and "0.3", because those languages
+ * correctly write 1,5 and 0,3. The decimal separator is a typographic
+ * convention of the language; the VALUE is the thing that must survive
+ * the crossing, and comparing strings was checking the form when the
+ * question was the quantity.
+ *
+ * A comma is read as a decimal point when one to two digits follow it,
+ * and as a thousands separator when three do.
+ */
+function numericValues(text: string): number[] {
+  const out: number[] = [];
+  const re = /(?<![\p{L}])(\d{1,3}(?:[.,\u00a0\u202f ]\d{3})+(?:[.,]\d+)?|\d+(?:[.,]\d+)?)/gu;
+  for (const m of text.matchAll(re)) {
+    const raw = m[1];
+    // Strip grouping separators, then normalise the decimal one.
+    const normalised = raw
+      .replace(/[\u00a0\u202f ]/g, "")
+      .replace(/[.,](?=\d{3}(?!\d))/g, "")
+      .replace(",", ".");
+    const v = Number(normalised);
+    if (Number.isFinite(v)) out.push(v);
+  }
+  return out;
+}
 
 for (const locale of localizedIndicatorLocales()) {
   if (!LOCALES.includes(locale as (typeof LOCALES)[number])) {
@@ -323,30 +395,27 @@ for (const locale of localizedIndicatorLocales()) {
         "referencePeriod is present in one language and absent in the other",
       );
     }
-    // Numerals must survive. Compared as multisets over the whole body.
-    const enNums = [ind.definition, ind.methodology, ...ind.limitations]
-      .join(" ")
-      .match(NUMERALS) ?? [];
-    const locNums = [loc.definition, loc.methodology, ...loc.limitations]
-      .join(" ")
-      .match(NUMERALS) ?? [];
-    const count = (a: string[]) =>
-      a.reduce<Record<string, number>>((m, n) => ({ ...m, [n]: (m[n] ?? 0) + 1 }), {});
-    const a = count(enNums);
-    const b = count(locNums);
+    // Values must survive, whatever separator the language writes them
+    // with. Compared as multisets of numbers, not of strings.
+    const enBody = [ind.definition, ind.methodology, ...ind.limitations].join(" ");
+    const locBody = [loc.definition, loc.methodology, ...loc.limitations].join(" ");
+    const count = (a: number[]) =>
+      a.reduce<Record<string, number>>((m, n) => ({ ...m, [n]: (m[String(n)] ?? 0) + 1 }), {});
+    const a = count(numericValues(enBody));
+    const b = count(numericValues(locBody));
     const missing = Object.keys(a).filter((k) => (b[k] ?? 0) < a[k]);
     if (missing.length) {
       err(
         "indicator-localization-numbers",
         where,
-        `numerals present in the English body and missing here: ${missing.slice(0, 5).join(", ")}`,
+        `values present in the English body and missing here: ${missing.slice(0, 5).join(", ")}`,
       );
     }
     // Unit symbols are the same in every language; translating one is a
     // defect, not a courtesy.
     for (const sym of UNIT_SYMBOLS) {
-      const inEn = [ind.definition, ind.methodology, ...ind.limitations].join(" ").includes(sym);
-      const inLoc = [loc.definition, loc.methodology, ...loc.limitations].join(" ").includes(sym);
+      const inEn = usesSymbol(enBody, sym);
+      const inLoc = usesSymbolInLocale(locBody, sym, locale);
       if (inEn && !inLoc) {
         err(
           "indicator-localization-unit",

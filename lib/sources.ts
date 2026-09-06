@@ -524,6 +524,78 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       lastReviewed: "2026-08-29",
     },
     {
+      name: "International Code of Zoological Nomenclature",
+      organization: "International Commission on Zoological Nomenclature",
+      url: "https://code.iczn.org/",
+      type: "standards-body",
+      topicRelevance:
+        "The operative rules for naming animals — priority, typification, availability and authorship. Not a commentary on the rules; the rules themselves",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "International Code of Nomenclature for algae, fungi, and plants",
+      organization: "International Association for Plant Taxonomy",
+      url: "https://www.iapt-taxon.org/",
+      type: "standards-body",
+      topicRelevance:
+        "The operative rules for naming plants, algae and fungi, published as numbered articles",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "International Commission on Zoological Nomenclature",
+      organization: "ICZN",
+      url: "https://www.iczn.org/",
+      type: "standards-body",
+      topicRelevance:
+        "The body that maintains the zoological code and rules on individual nomenclatural cases",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "ISRIC World Soil Information",
+      organization: "ISRIC",
+      url: "https://www.isric.org/",
+      type: "research-institute",
+      topicRelevance:
+        "Custodian of the World Reference Base for Soil Resources, the international soil classification standard, and of global soil property datasets",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "Official Soil Series Descriptions",
+      organization: "USDA Natural Resources Conservation Service",
+      url: "https://soilseries.sc.egov.usda.gov/",
+      type: "government-agency",
+      topicRelevance:
+        "The published horizon-by-horizon descriptions behind US soil taxonomy, cited for what a real profile description contains",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "European Soil Data Centre",
+      organization: "European Commission Joint Research Centre",
+      url: "https://esdac.jrc.ec.europa.eu/",
+      type: "intergovernmental",
+      topicRelevance:
+        "Europe's reference soil data and the technical reports behind the European soil classification work",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "US Federal Register",
+      organization: "Office of the Federal Register, National Archives",
+      url: "https://www.govinfo.gov/",
+      type: "government-agency",
+      topicRelevance:
+        "The official publication of record for US federal rules, cited for the text of a rule rather than for a description of it",
+      lastReviewed: "2026-09-06",
+    },
+    {
+      name: "ScienceDirect",
+      organization: "Elsevier",
+      url: "https://www.sciencedirect.com/",
+      type: "peer-reviewed",
+      topicRelevance:
+        "Publisher of record for Elsevier journals. Cited as the canonical location of a paper; most articles are paywalled and the abstract is what is publicly verifiable",
+      lastReviewed: "2026-09-06",
+    },
+    {
       name: "National Integrated Drought Information System",
       organization: "NOAA",
       url: "https://www.drought.gov/",

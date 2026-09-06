@@ -18,6 +18,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-circulation-cells
 pillar: atmospheric-physics-explained
+_bodyHash: c50384d8
 ---
 
 Dos magnitudes bastante distintas se llaman habitualmente «el [gradiente térmico](/en/glossary/lapse-rate)». Una es una propiedad de una parcela de aire ascendente, fijada por la termodinámica e igual en todo el planeta. La otra es una propiedad de la columna de aire circundante, medida por un radiosondeo y distinta cada día. La estabilidad es la comparación entre ambas, y casi toda la confusión sobre por qué sube el aire, sobre por qué el humo queda a veces estancado sobre un valle y sobre por qué la estratosfera se llama como se llama procede de tratar las dos como un solo número. La estructura térmica vertical que esto produce es la segunda mitad del cuadro esbozado en [la visión general de la física atmosférica](/es/physics/climate-physics/atmospheric-physics-explained), donde el perfil de presión era la primera.

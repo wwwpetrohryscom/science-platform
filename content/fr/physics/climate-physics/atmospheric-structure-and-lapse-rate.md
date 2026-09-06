@@ -18,6 +18,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-circulation-cells
 pillar: atmospheric-physics-explained
+_bodyHash: b0d10f9a
 ---
 
 Deux grandeurs bien différentes sont couramment appelées « le [gradient thermique](/en/glossary/lapse-rate) ». L'une est une propriété d'une parcelle d'air ascendante, fixée par la thermodynamique et identique partout sur la planète. L'autre est une propriété de la colonne d'air environnante, mesurée par un radiosondage et différente chaque jour. La stabilité est la comparaison entre les deux, et presque toutes les confusions sur les raisons pour lesquelles l'air monte, sur la fumée qui stagne parfois au-dessus d'une vallée et sur le nom même de la stratosphère viennent de ce qu'on traite les deux comme un seul nombre. La structure thermique verticale qui en résulte est la seconde moitié du tableau esquissé dans [la vue d'ensemble de la physique de l'atmosphère](/fr/physics/climate-physics/atmospheric-physics-explained), dont le profil de pression était la première.

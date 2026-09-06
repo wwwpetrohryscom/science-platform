@@ -1,7 +1,7 @@
 ---
 title: 'Hiérarchisation : ce qui change quand la conservation devient un problème de budget'
 metaTitle: 'Hiérarchisation de la conservation : un problème de budget'
-excerpt: 'Classer les espèces selon leur degré de menace n''indique à personne où dépenser. La complémentarité, le coût et la probabilité de succès réordonnent la liste, et une cible de surface peut être atteinte sans gain écologique.'
+excerpt: Classer les espèces selon leur degré de menace n'indique à personne où dépenser. La complémentarité, le coût et la probabilité de succès réordonnent la liste, et une cible de surface peut être atteinte sans gain écologique.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: be8c1a66
 ---
 
 La contrainte qui limite réellement la conservation est rarement le manque d'information sur les espèces en difficulté. Ce sont l'argent, la terre et le nombre de personnes disponibles pour gérer l'un ou l'autre — ce qui fait que la question opérationnelle n'est pas de savoir ce qui est menacé, mais ce qu'il faut acheter avec la prochaine unité de budget. Ces deux questions reçoivent des réponses différentes assez souvent pour que la seconde mérite ses propres méthodes.

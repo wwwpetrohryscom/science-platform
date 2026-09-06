@@ -51,7 +51,7 @@
   "annual-greenhouse-gas-index": {
     "name": "Índice Anual de Gases com Efeito de Estufa da NOAA",
     "shortName": "AGGI",
-    "definition": "O forçamento radiativo direto dos gases com efeito de estufa de longa duração, expresso relativamente ao seu valor de 1990. Um índice de 1,5 significa que o forçamento é uma vez e meia o que era em 1990.",
+    "definition": "O forçamento radiativo direto dos gases com efeito de estufa de longa duração, expresso relativamente ao seu valor de 1990. Um índice de 1.5 significa que o forçamento é uma vez e meia o que era em 1990.",
     "methodology": "As frações molares globais medidas de CO₂, CH₄, N₂O e de quinze gases halogenados são convertidas em forçamento radiativo através de expressões publicadas, somadas e divididas pelo total de 1990. O índice herda, por isso, a exatidão das medições de concentração e a exatidão das expressões de forçamento, que são coisas diferentes.",
     "unitLabel": "índice adimensional, 1990 = 1",
     "limitations": [
@@ -110,7 +110,7 @@
     "methodology": "Um altímetro de radar mede o tempo de ida e volta de um impulso até à superfície do mar, o que dá a distância entre uma órbita conhecida com precisão e a água. São aplicadas correções para a atmosfera, as marés e o estado do mar, e a média do resíduo é calculada em cada ciclo de repetição de cerca de dez dias. Os valores aqui apresentados são médias de ano civil desses ciclos.",
     "unitLabel": "milímetros relativamente ao início do registo",
     "limitations": [
-      "Esta série não inclui qualquer ajuste isostático glacial. A correção de GIA tem em conta a lenta alteração da forma da bacia oceânica após a última era glacial e acrescenta cerca de 0,3 mm por ano; as séries que a incluem apresentam uma tendência maior a partir das mesmas medições.",
+      "Esta série não inclui qualquer ajuste isostático glacial. A correção de GIA tem em conta a lenta alteração da forma da bacia oceânica após a última era glacial e acrescenta cerca de 0.3 mm por ano; as séries que a incluem apresentam uma tendência maior a partir das mesmas medições.",
       "O altímetro não vê os oceanos polares, pelo que «global» significa aproximadamente de 66°S a 66°N.",
       "O registo é uma junção de cinco missões, e os desvios entre missões são estimados durante os períodos de sobreposição, e não medidos diretamente.",
       "A subida do nível do mar é profundamente desigual. As taxas regionais diferem da média global por um fator de várias vezes, e o que importa localmente inclui também a subsidência do terreno, que um altímetro não consegue ver."

@@ -19,6 +19,7 @@ related:
   - forest-disturbance-fire-insects-windthrow
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
+_bodyHash: 415d2de9
 ---
 
 Dos cifras, procedentes de dos sistemas de contabilidad distintos, merecen ponerse una al lado de la otra. La evaluación de 2025 de la FAO estima el carbono de todos los bosques del mundo, en todos los depósitos que reconoce, en 714 gigatoneladas. El Arctic Report Card 2024 de la NOAA sitúa el carbono acumulado en los suelos terrestres y el permafrost de la región septentrional de permafrost — 16.6 millones de kilómetros cuadrados de tundra y tierras boreales — en no menos de 1.4 a 1.6 billones de toneladas.

@@ -18,6 +18,7 @@ related:
   - ocean-acidification-explained
   - satellite-altimetry-explained
 pillar: ocean-science-explained
+_bodyHash: e786ee34
 ---
 
 NOAA Ocean Exploration indique que plus de 90 pour cent de l'océan relève de l'océan profond — les eaux situées sous 200 mètres — et que les explorateurs ont vu directement moins de 0.001 pour cent du plancher des grands fonds, une surface à peu près équivalente à celle du Rhode Island. Ces deux chiffres s'accordent mal, et les tenir ensemble constitue toute la discipline : le plus vaste habitat continu de la planète est décrit presque entièrement à partir d'échantillons, de capteurs et d'inférences plutôt que d'observations.

@@ -1,7 +1,7 @@
 ---
 title: 'Priorización: qué cambia cuando la conservación se trata como un problema de presupuesto'
 metaTitle: Priorización de la conservación como problema de presupuesto
-excerpt: 'Clasificar las especies por su grado de amenaza no dice a nadie dónde gastar. La complementariedad, el coste y la probabilidad de éxito reordenan la lista, y una meta de superficie puede cumplirse sin ganancia ecológica.'
+excerpt: Clasificar las especies por su grado de amenaza no dice a nadie dónde gastar. La complementariedad, el coste y la probabilidad de éxito reordenan la lista, y una meta de superficie puede cumplirse sin ganancia ecológica.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -18,6 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: b5217594
 ---
 
 La restricción que de verdad limita la conservación rara vez es la falta de información sobre qué especies están en apuros. Son el dinero, la tierra y el número de personas disponibles para gestionar cualquiera de las dos cosas — lo que hace que la pregunta operativa no sea qué está amenazado, sino qué comprar con la siguiente unidad de presupuesto. Esas dos preguntas reciben respuestas distintas con la frecuencia suficiente para que la segunda merezca métodos propios.

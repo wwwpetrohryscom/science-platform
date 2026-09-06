@@ -1,7 +1,7 @@
 ---
-title: 'Como se avalia o risco de extinção e o que significa uma categoria da Lista Vermelha'
+title: Como se avalia o risco de extinção e o que significa uma categoria da Lista Vermelha
 metaTitle: 'Risco de extinção: avaliação e categorias da Lista Vermelha'
-excerpt: 'Uma categoria da Lista Vermelha enuncia uma probabilidade de extinção sob critérios definidos, não uma importância ecológica nem uma raridade. Eis o que exigem os cinco critérios, por que razão «Dados Insuficientes» não é uma categoria de ameaça e quão desigual é a cobertura.'
+excerpt: Uma categoria da Lista Vermelha enuncia uma probabilidade de extinção sob critérios definidos, não uma importância ecológica nem uma raridade. Eis o que exigem os cinco critérios, por que razão «Dados Insuficientes» não é uma categoria de ameaça e quão desigual é a cobertura.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -19,6 +19,7 @@ related:
   - invasive-species-management
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: 48a8d5b4
 ---
 
 Uma categoria da Lista Vermelha é uma afirmação sobre probabilidade, feita segundo regras declaradas e a partir de evidência declarada. «Criticamente em Perigo» significa que um táxon cumpre pelo menos um de cinco critérios quantitativos no limiar mais severo e que é, por isso, considerado sujeito a um risco extremamente elevado de extinção em estado selvagem. Não significa que o organismo seja raro, belo, ecologicamente decisivo ou uma prioridade de despesa. Esses são juízos distintos, e o sistema foi concebido para os manter separados, de modo que a graduação do risco pudesse ser auditada independentemente do que alguém quisesse fazer a esse respeito — o princípio geral que sustenta [a conservação baseada em evidência](/pt/ecology/conservation/conservation-science-explained).

@@ -19,6 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - soil-erosion-processes-and-rates
 pillar: soil-science-explained
+_bodyHash: 804c8227
 ---
 
 Der größte Teil des Nährstoffgehalts eines fruchtbaren Ackers ist für die darauf wachsende Kultur nicht verfügbar, und das ist der Normalfall und kein Mangel. Fruchtbarkeit versteht man besser als Nachlieferungsrate — wie schnell bestimmte Ionen an eine Wurzeloberfläche gelangen — denn als Bestandsaufnahme. Die anorganischen Stickstoffformen, die Wurzeln aufnehmen, Nitrat und Ammonium, machen gewöhnlich weniger als 5 Prozent des vorhandenen Stickstoffs aus. Phosphor in der Bodenlösung liegt zwischen 0.01 und 0.50 mg je Liter, gegenüber rund 400 beim Calcium, 60 beim Magnesium und 40 beim Kalium; die Hälfte des Gesamtvorrats oder mehr kann in organischen Verbindungen festgelegt sein. Etwa 1 bis 3 Prozent der organischen Bodensubstanz werden im Jahr abgebaut, sodass ein fruchtbares Profil mit 8,000 kg organischem Stickstoff je Hektar davon rund 160 kg freisetzt, von denen eine Kultur vielleicht die Hälfte aufnimmt. Diese Freisetzungsrate wird von der [Zersetzung](/de/ecology/ecosystems/decomposition-and-the-return-of-nutrients) bestimmt, und deshalb reagiert Fruchtbarkeit auf Temperatur und Feuchte und nicht auf den Vorrat allein.

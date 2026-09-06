@@ -32,7 +32,7 @@ Ninguna de ellas contradice a las demás. Son cuatro cantidades distintas que la
 
 ## Qué cuenta realmente cada serie
 
-| Cantidad | Definición aplicada | Publica | Valor reciente | Excluye de forma notable |
+| Cantidad | Definición aplicada | Publicado por | Valor reciente | Excluye de forma notable |
 | --- | --- | --- | --- | --- |
 | Deforestación | Conversión de bosque a otro uso de la tierra, sea o no de origen humano | FAO, a partir de informes nacionales | 10.9 millones de ha/yr, media 2015–2025 | El aprovechamiento o la corta cuando se espera que la masa se regenere |
 | Cambio neto de la superficie forestal | Deforestación menos forestación y expansión natural del bosque | FAO, a partir de informes nacionales | −4.12 millones de ha/yr, media 2015–2025 | Cualquier información sobre dónde ocurrieron las pérdidas y las ganancias, o sobre qué se perdió |
@@ -49,7 +49,7 @@ Considérese una corta a hecho en un paisaje de coníferas gestionado. Para el i
 
 El fuego se comporta igual y a mayor escala: los incendios supusieron el 42 por ciento de los 25.5 millones de hectáreas de pérdida mundial de cobertura arbórea en 2025, y la mayor parte del bosque quemado no se convierte a otro uso. El lado de las ganancias hereda el problema simétrico — quien publica la serie satelital afirma directamente que la ganancia de cobertura arbórea no equivale a restauración, porque una plantación joven y un bosque natural en recuperación se parecen desde la órbita durante años.
 
-La prueba causal también difiere. La FAO define la deforestación con independencia de que sea de origen humano, e incluye explícitamente los casos en que una perturbación o el cambio de las condiciones ambientales llevan la [cobertura de copa](/en/glossary/canopy-cover) permanentemente por debajo del umbral del 10 por ciento. En las reglas de contabilidad del Protocolo de Kioto, en cambio, la deforestación es la conversión *directamente inducida por el ser humano* de tierra forestal en tierra no forestal. Una masa muerta por sequía que nunca se recupera es deforestación en un marco y otra cosa en el otro.
+La prueba causal también difiere. La FAO define la deforestación con independencia de que sea de origen humano, e incluye explícitamente los casos en que una perturbación o el cambio de las condiciones ambientales llevan la [cobertura de copa](/es/glossary/canopy-cover) permanentemente por debajo del umbral del 10 por ciento. En las reglas de contabilidad del Protocolo de Kioto, en cambio, la deforestación es la conversión *directamente inducida por el ser humano* de tierra forestal en tierra no forestal. Una masa muerta por sequía que nunca se recupera es deforestación en un marco y otra cosa en el otro.
 
 ## Ninguna de las dos es la verdad de campo
 

@@ -20,6 +20,7 @@ related:
   - lake-ecology-and-eutrophication
   - ocean-deoxygenation-and-dead-zones
 pillar: environmental-pollution-explained
+_bodyHash: f5395860
 ---
 
 Stickstoffbelastung wird meist so verhandelt, als wäre sie ein einziges Problem, das auf eine einzige Lösung wartet. Sie ist eine Reihe hintereinandergeschalteter Probleme. Ein in Dünger gebundenes Stickstoffatom kann als Ammoniak entweichen und in der Luft sekundäre Partikel bilden; auf einer Heide deponiert werden und deren Pflanzengemeinschaft verschieben; als Nitrat ins Grundwasser und weiter in einen Fluss ausgewaschen werden; eine Algenblüte nähren, deren Zerfall dem küstennahen Meeresboden den Sauerstoff entzieht; und schließlich als Lachgas entweichen, ein langlebiges Treibhausgas. Jede Station ist ein eigener Rezeptor mit einer eigenen Aufsichtsbehörde, und das Atom hört nicht auf zu wirken, wenn die erste Behörde das Interesse verliert.

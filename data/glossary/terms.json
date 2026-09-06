@@ -2771,8 +2771,6 @@
     {
       "slug": "assisted-migration",
       "term": "Assisted migration",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "A conservation intervention the corpus does not cover. Recorded as a content gap rather than papered over with a link.",
       "aliases": [
         "assisted migration",
         "assisted colonisation"
@@ -2929,7 +2927,7 @@
       "slug": "invasion-stage",
       "term": "Invasion stage",
       "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "The invasion sequence is the framework the invasive-species article implicitly assumes and never states.",
+      "zeroInboundNote": "The invasion sequence is the framework the invasive-species article implicitly assumes and never states. Not written in Wave 5; carried forward as an open content gap rather than reclassified to make the count look better.",
       "aliases": [
         "invasion stage",
         "invasion stages"
@@ -2960,8 +2958,8 @@
     {
       "slug": "area-based-target",
       "term": "Area-based target",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "Protected-area coverage targets are named in the protected-area article but the target as an instrument is not examined anywhere.",
+      "zeroInboundReason": "redundant",
+      "zeroInboundNote": "This wave's audit recorded the concept as an article gap and the gap is now closed by /en/ecology/conservation/area-based-targets-and-what-they-measure, which develops it at length. The article is the coverage; an anchor from inside it would send a reader from the long form to the short one.",
       "aliases": [
         "area-based target",
         "area-based targets"
@@ -3820,8 +3818,8 @@
     {
       "slug": "soil-horizon",
       "term": "Soil horizon",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "Soil formation and classification describes profiles without introducing the horizon as a unit.",
+      "zeroInboundReason": "redundant",
+      "zeroInboundNote": "This wave's audit recorded the concept as an article gap and the gap is now closed by /en/ecology/soils/soil-horizons-and-reading-a-profile, which develops it at length. The article is the coverage; an anchor from inside it would send a reader from the long form to the short one.",
       "aliases": [
         "soil horizon",
         "soil horizons"
@@ -4162,8 +4160,6 @@
     {
       "slug": "pm25",
       "term": "PM2.5",
-      "zeroInboundReason": "glossary-only",
-      "zeroInboundNote": "A designation with digits in it. The linker drops digit-bearing surface forms because they name a specific thing rather than a topic; the particulate-matter article carries the concept.",
       "aliases": [
         "PM2.5",
         "fine particulate matter"
@@ -5185,8 +5181,8 @@
     {
       "slug": "binomial-nomenclature",
       "term": "Binomial nomenclature",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "The taxonomy cluster names species throughout and never explains the naming system.",
+      "zeroInboundReason": "redundant",
+      "zeroInboundNote": "This wave's audit recorded the concept as an article gap and the gap is now closed by /en/biology/taxonomy/binomial-nomenclature-and-why-names-change, which develops it at length. The article is the coverage; an anchor from inside it would send a reader from the long form to the short one.",
       "aliases": [
         "binomial nomenclature",
         "binomial name"
@@ -5245,7 +5241,7 @@
       "slug": "alternation-of-generations",
       "term": "Alternation of generations",
       "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "A life-cycle pattern the taxonomy and plant-physiology material assumes.",
+      "zeroInboundNote": "A life-cycle pattern the taxonomy and plant-physiology material assumes without developing. Not written in Wave 5; carried forward as an open content gap.",
       "aliases": [
         "alternation of generations"
       ],
@@ -5508,8 +5504,8 @@
     {
       "slug": "oxygen-dissociation-curve",
       "term": "Oxygen dissociation curve",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "Circulation and respiration both depend on it; neither article draws it.",
+      "zeroInboundReason": "redundant",
+      "zeroInboundNote": "This wave's audit recorded the concept as an article gap and the gap is now closed by /en/biology/physiology/the-oxygen-dissociation-curve, which develops it at length. The article is the coverage; an anchor from inside it would send a reader from the long form to the short one.",
       "aliases": [
         "oxygen dissociation curve",
         "oxygen-dissociation curve"
@@ -6076,8 +6072,6 @@
     {
       "slug": "temperature-inversion",
       "term": "Temperature inversion",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "Referenced implicitly in air-quality and atmospheric-structure material; no article develops it.",
       "aliases": [
         "temperature inversion",
         "temperature inversions"
@@ -6169,8 +6163,8 @@
     {
       "slug": "coriolis-effect",
       "term": "Coriolis effect",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "Assumed by several atmospheric and ocean articles and defined in none of them.",
+      "zeroInboundReason": "redundant",
+      "zeroInboundNote": "This wave's audit recorded the concept as an article gap and the gap is now closed by /en/physics/climate-physics/the-coriolis-effect-explained, which develops it at length. The article is the coverage; an anchor from inside it would send a reader from the long form to the short one.",
       "aliases": [
         "Coriolis effect",
         "Coriolis force"
@@ -6534,8 +6528,8 @@
     {
       "slug": "carnot-efficiency",
       "term": "Carnot efficiency",
-      "zeroInboundReason": "article-gap",
-      "zeroInboundNote": "The heat-engine article discusses efficiency limits without naming the Carnot bound.",
+      "zeroInboundReason": "redundant",
+      "zeroInboundNote": "This wave's audit recorded the concept as an article gap and the gap is now closed by /en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines, which develops it at length. The article is the coverage; an anchor from inside it would send a reader from the long form to the short one.",
       "aliases": [
         "Carnot efficiency",
         "Carnot limit"

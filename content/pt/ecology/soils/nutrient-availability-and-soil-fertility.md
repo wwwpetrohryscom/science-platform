@@ -19,6 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - soil-erosion-processes-and-rates
 pillar: soil-science-explained
+_bodyHash: 7a8d7ba2
 ---
 
 A maior parte do teor de nutrientes de um campo fértil está indisponível para a cultura que nele cresce, e isso é o normal e não um defeito. A fertilidade compreende-se melhor como uma taxa de fornecimento — a rapidez com que determinados iões chegam à superfície de uma raiz — do que como um inventário. As formas inorgânicas de azoto que as raízes absorvem, o nitrato e o amónio, representam em regra menos de 5 por cento do azoto presente. O fósforo da solução do solo situa-se entre 0.01 e 0.50 mg por litro, contra cerca de 400 para o cálcio, 60 para o magnésio e 40 para o potássio; metade ou mais do total pode estar retida em compostos orgânicos. Cerca de 1 a 3 por cento da matéria orgânica do solo decompõe-se num ano, pelo que um perfil fértil que retenha 8,000 kg de azoto orgânico por hectare liberta cerca de 160 kg, dos quais uma cultura absorverá talvez metade. Essa taxa de libertação é fixada pela [decomposição](/pt/ecology/ecosystems/decomposition-and-the-return-of-nutrients), e é por isso que a fertilidade responde à temperatura e à humidade, e não apenas à reserva.

@@ -19,6 +19,7 @@ related:
   - forest-disturbance-fire-insects-windthrow
   - tropical-forest-ecology
 pillar: forest-ecosystems-explained
+_bodyHash: 418a67a8
 ---
 
 Zwei Zahlen aus zwei verschiedenen Buchführungssystemen lohnen es, nebeneinandergestellt zu werden. In der FAO-Erhebung von 2025 beläuft sich die Schätzung des Kohlenstoffs aller Wälder der Welt über sämtliche von ihr anerkannten Speicher hinweg auf 714 Gigatonnen. Die Arctic Report Card 2024 der NOAA beziffert den in terrestrischen Böden und im Permafrost der nördlichen Permafrostregion — 16.6 Millionen Quadratkilometer Tundra und boreales Land — angesammelten Kohlenstoff auf nicht weniger als 1.4 bis 1.6 Billionen Tonnen.

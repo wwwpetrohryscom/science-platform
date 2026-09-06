@@ -18,6 +18,7 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: fbffaef3
 ---
 
 Die bindende Beschränkung im Naturschutz ist selten ein Mangel an Information darüber, welche Arten in Bedrängnis sind. Es sind Geld, Fläche und die Zahl der Menschen, die das eine oder das andere betreuen können — womit die operative Frage nicht lautet, was gefährdet ist, sondern was mit der nächsten Budgeteinheit zu kaufen ist. Diese beiden Fragen haben oft genug unterschiedliche Antworten, dass die zweite eigene Methoden verdient.

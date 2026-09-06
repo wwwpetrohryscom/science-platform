@@ -32,7 +32,7 @@ Aucun de ces chiffres n'en contredit un autre. Ce sont quatre grandeurs différe
 
 ## Ce que compte réellement chaque série
 
-| Grandeur | Définition appliquée | Publie | Valeur récente | Exclut notamment |
+| Grandeur | Définition appliquée | Publié par | Valeur récente | Exclut notamment |
 | --- | --- | --- | --- | --- |
 | Déforestation | Conversion d'une forêt vers un autre usage des terres, qu'elle soit ou non d'origine humaine | FAO, d'après les rapports nationaux | 10.9 millions d'ha/yr, moyenne 2015–2025 | La récolte ou l'exploitation lorsque le peuplement est censé se régénérer |
 | Variation nette de la surface forestière | Déforestation moins boisement et expansion naturelle des forêts | FAO, d'après les rapports nationaux | −4.12 millions d'ha/yr, moyenne 2015–2025 | Toute information sur le lieu des pertes et des gains, ou sur ce qui a été perdu |
@@ -49,7 +49,7 @@ Prenons une coupe rase dans un paysage de conifères aménagé. Pour le rapport 
 
 L'incendie se comporte de la même façon et à plus grande échelle : les feux ont représenté 42 pour cent des 25.5 millions d'hectares de perte mondiale de couvert arboré en 2025, et la plus grande partie des forêts brûlées n'est pas convertie vers un autre usage. Le versant des gains hérite du problème symétrique — l'organisme qui publie la série satellitaire indique directement que le gain de couvert arboré n'équivaut pas à une restauration, car une jeune plantation et une forêt naturelle en reconstitution se ressemblent depuis l'orbite pendant des années.
 
-Le critère de causalité diffère lui aussi. La FAO définit la déforestation indépendamment de son origine humaine ou non, et inclut explicitement les cas où une perturbation ou l'évolution des conditions environnementales font passer de manière permanente le [couvert de la canopée](/en/glossary/canopy-cover) sous le seuil de 10 pour cent. Dans les règles de comptabilisation du protocole de Kyoto, en revanche, la déforestation est la conversion *directement induite par l'homme* de terres forestières en terres non forestières. Un peuplement tué par la sécheresse et qui ne se rétablit jamais relève de la déforestation dans un cadre et d'autre chose dans l'autre.
+Le critère de causalité diffère lui aussi. La FAO définit la déforestation indépendamment de son origine humaine ou non, et inclut explicitement les cas où une perturbation ou l'évolution des conditions environnementales font passer de manière permanente le [couvert de la canopée](/fr/glossary/canopy-cover) sous le seuil de 10 pour cent. Dans les règles de comptabilisation du protocole de Kyoto, en revanche, la déforestation est la conversion *directement induite par l'homme* de terres forestières en terres non forestières. Un peuplement tué par la sécheresse et qui ne se rétablit jamais relève de la déforestation dans un cadre et d'autre chose dans l'autre.
 
 ## Aucune des deux n'est la vérité de terrain
 

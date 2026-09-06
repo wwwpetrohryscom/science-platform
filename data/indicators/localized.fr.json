@@ -1,0 +1,119 @@
+{
+  "atmospheric-co2": {
+    "name": "Concentration atmosphérique de dioxyde de carbone",
+    "shortName": "CO₂ atmosphérique",
+    "definition": "La fraction molaire du dioxyde de carbone dans l'air sec de la couche limite marine bien mélangée, moyennée sur un réseau mondial de sites de prélèvement et rapportée en moyenne pour l'année civile.",
+    "methodology": "L'air est recueilli dans des flacons sur des sites choisis pour être éloignés des sources locales, et par des analyseurs en continu dans les observatoires de référence. Chaque échantillon est mesuré par rapport à une échelle d'étalonnage entretenue par la NOAA, et les relevés des sites sont combinés en une moyenne mondiale de couche limite marine pondérée par la latitude. L'incertitude publiée décrit la dispersion de ce moyennage, et non la précision d'une mesure isolée.",
+    "unitLabel": "parties par million en fraction molaire dans l'air sec",
+    "limitations": [
+      "Il s'agit de la concentration de fond, délibérément mesurée à l'écart des villes, des forêts et des terres agricoles. Ce n'est la concentration à aucun endroit où se tient réellement une personne.",
+      "Une fraction molaire n'est pas une masse. La conversion en une masse de carbone ou de CO₂ exige la masse de l'atmosphère et les masses molaires, et les deux sont régulièrement confondues.",
+      "La concentration résulte des émissions moins l'absorption par les terres et par l'océan. Une année de croissance plus lente peut signifier des émissions plus faibles ou un puits plus vigoureux, et la concentration seule ne peut pas les séparer.",
+      "L'année la plus récente est provisoire tant que les gaz étalons n'ont pas été réétalonnés."
+    ]
+  },
+  "co2-growth-rate": {
+    "name": "Taux de croissance annuel du CO₂ atmosphérique",
+    "shortName": "Taux de croissance du CO₂",
+    "definition": "L'augmentation de la fraction molaire du dioxyde de carbone moyennée à l'échelle du globe au cours d'une année civile, telle que la calcule la NOAA à partir des différences de décembre à décembre.",
+    "methodology": "La NOAA calcule le taux de croissance comme la différence entre la fraction molaire moyennée sur le globe du mois de décembre et celle du mois de décembre de l'année précédente, ce qui supprime le cycle saisonnier sans avoir à le modéliser. L'incertitude publiée provient de l'incertitude sur les deux extrémités annuelles.",
+    "unitLabel": "parties par million par an",
+    "limitations": [
+      "La variabilité d'une année à l'autre est dominée par le puits de carbone terrestre, qui réagit à El Niño et à la sécheresse. Une année à fort taux de croissance signifie généralement un puits affaibli, et non un bond des émissions.",
+      "Il s'agit de la croissance de la concentration, non de celle des émissions. Environ la moitié du CO₂ émis est absorbée par les terres et par l'océan, et cette fraction est elle-même variable.",
+      "Une année isolée ne dit presque rien. La grandeur qui mérite d'être lue est la tendance pluridécennale du taux de croissance, qui est ce qui montre que l'accumulation s'accélère."
+    ]
+  },
+  "atmospheric-ch4": {
+    "name": "Concentration atmosphérique de méthane",
+    "shortName": "CH₄ atmosphérique",
+    "definition": "La fraction molaire du méthane dans l'air sec de la couche limite marine, moyennée à l'échelle du globe et rapportée en moyenne pour l'année civile.",
+    "methodology": "Mesuré à partir du même réseau de flacons que le CO₂, par rapport à l'échelle d'étalonnage du méthane de la NOAA, et moyenné de la même manière. Le méthane est rapporté en parties par milliard parce qu'il est présent à environ un deux-centième de la concentration de CO₂.",
+    "unitLabel": "parties par milliard en fraction molaire dans l'air sec",
+    "limitations": [
+      "Le méthane a une durée de vie atmosphérique d'environ une décennie, si bien que sa concentration réagit aux variations des émissions bien plus vite que celle du CO₂ — et peut baisser autant que monter.",
+      "La concentration n'identifie pas la source. Les zones humides, les ruminants, la riziculture, les décharges et les infrastructures d'énergies fossiles émettent toutes du méthane, et les distinguer exige des mesures isotopiques que cette série ne contient pas.",
+      "Comparer le méthane et le CO₂ par leur concentration n'a aucun sens. Ils diffèrent par leur efficacité radiative par molécule et par leur durée de vie, et c'est précisément ce que l'indice des gaz à effet de serre existe pour combiner."
+    ]
+  },
+  "atmospheric-n2o": {
+    "name": "Concentration atmosphérique de protoxyde d'azote",
+    "shortName": "N₂O atmosphérique",
+    "definition": "La fraction molaire du protoxyde d'azote dans l'air sec de la couche limite marine, moyennée à l'échelle du globe et rapportée en moyenne pour l'année civile.",
+    "methodology": "Mesuré à partir du réseau de flacons de la NOAA par rapport à l'échelle d'étalonnage du N₂O et moyenné comme pour les autres gaz à longue durée de vie. Le produit mondial de couche limite marine commence en 2001.",
+    "unitLabel": "parties par milliard en fraction molaire dans l'air sec",
+    "limitations": [
+      "Le relevé présenté ici commence en 2001 parce que c'est là que commence le produit mondial, et non parce que le protoxyde d'azote n'aurait pas été mesuré auparavant. Des relevés plus longs existent, issus des carottes de glace et de stations individuelles.",
+      "Le protoxyde d'azote est dominé par l'usage agricole de l'azote, et sa hausse est une conséquence de la même chimie des engrais qui nourrit la plus grande partie du monde. Il ne peut pas être lu comme un indicateur du secteur de l'énergie.",
+      "Le N₂O a une durée de vie atmosphérique de plus d'un siècle, si bien que la concentration ne réagit que lentement aux variations des émissions."
+    ]
+  },
+  "annual-greenhouse-gas-index": {
+    "name": "Indice annuel des gaz à effet de serre de la NOAA",
+    "shortName": "AGGI",
+    "definition": "Le forçage radiatif direct des gaz à effet de serre à longue durée de vie, exprimé par rapport à sa valeur de 1990. Un indice de 1.5 signifie que le forçage vaut une fois et demie ce qu'il était en 1990.",
+    "methodology": "Les fractions molaires mondiales mesurées de CO₂, de CH₄, de N₂O et de quinze gaz halogénés sont converties en forçage radiatif au moyen d'expressions publiées, sommées, puis divisées par le total de 1990. L'indice hérite donc de l'exactitude des mesures de concentration et de l'exactitude des expressions de forçage, qui sont deux choses différentes.",
+    "unitLabel": "indice sans dimension, 1990 = 1",
+    "limitations": [
+      "Il s'agit d'un indice dérivé, non d'une mesure. Ses entrées sont mesurées ; le passage de la concentration au forçage est un calcul fondé sur des expressions de transfert radiatif.",
+      "Il ne couvre que les gaz à longue durée de vie et bien mélangés. Les aérosols, l'ozone, la vapeur d'eau et les modifications de la surface continentale exercent tous un forçage sur le climat, et aucun d'eux ne figure dans ce nombre.",
+      "Un forçage n'est pas une température. La réponse en température à un forçage donné dépend de la sensibilité climatique et de la quantité de chaleur déjà absorbée par l'océan, dont ni l'une ni l'autre ne figure dans cet indice.",
+      "La référence de 1990 est une convention de publication choisie pour s'aligner sur le protocole de Kyoto, et non un zéro doté d'un sens physique."
+    ],
+    "referencePeriod": "1990 = 1"
+  },
+  "global-temperature-anomaly": {
+    "name": "Anomalie de la température moyenne de surface du globe",
+    "shortName": "Anomalie de température mondiale",
+    "definition": "L'écart entre la température moyenne de surface du globe pour une année civile et la moyenne de la période de référence 1951–1980, en combinant la température de l'air au-dessus des terres et la température de surface de la mer.",
+    "methodology": "GISTEMP reprend les relevés des stations terrestres et les températures de surface de la mer mesurées par navires et par bouées, convertit chacun en anomalie par rapport à sa propre période de référence locale, puis interpole ces anomalies sur une grille mondiale. C'est le fait de travailler en anomalies plutôt qu'en températures absolues qui permet, tout simplement, de combiner une station d'altitude et une station au niveau de la mer.",
+    "unitLabel": "degrés Celsius par rapport à la moyenne 1951–1980",
+    "limitations": [
+      "La période de référence est un choix. Une valeur rapportée à 1951–1980 n'est pas comparable à une valeur rapportée à 1850–1900 ou à 1991–2020 sans ajouter l'écart entre les références, et cette différence est de plusieurs dixièmes de degré.",
+      "Des analyses indépendantes des mêmes observations sous-jacentes diffèrent de quelques centièmes de degré, surtout parce qu'elles traitent différemment l'Arctique, faiblement échantillonné.",
+      "Une moyenne mondiale décrit mal ce que connaît un lieu donné. Les terres se réchauffent plus vite que l'océan, et les hautes latitudes plus vite que les tropiques.",
+      "Les valeurs d'une seule année sont dominées par El Niño et La Niña. La tendance est le signal ; l'année, c'est surtout de la météo."
+    ],
+    "referencePeriod": "1951–1980"
+  },
+  "ocean-heat-content-0-2000m": {
+    "name": "Contenu thermique de l'océan, 0–2000 m",
+    "shortName": "Contenu thermique de l'océan",
+    "definition": "La chaleur stockée dans les 2000 premiers mètres de l'océan mondial, exprimée comme une anomalie en unités de 10²² joules.",
+    "methodology": "Les profils de température, depuis 2005 dominés par le réseau de flotteurs Argo, sont portés sur une grille mondiale et intégrés en profondeur et en surface. Le fournisseur publie une erreur type à côté de chaque valeur annuelle.",
+    "unitLabel": "unités de 10²² joules",
+    "limitations": [
+      "La série annuelle 0–2000 m commence en 2005 parce que c'est à ce moment que la couverture d'Argo est devenue assez dense pour la soutenir. Des estimations antérieures de la chaleur océanique existent, mais elles reposent sur un échantillonnage bien plus clairsemé.",
+      "L'océan profond, sous 2000 m, ne figure pas dans ce nombre, et lui aussi se réchauffe.",
+      "La documentation des colonnes du NCEI indique l'unité comme 10²² joules mais ne précise pas la climatologie de référence sur cette page ; ce site n'en affirme donc aucune. La série est utile en tant que variation, non en tant que valeur absolue.",
+      "Le contenu thermique de l'océan mesure bien mieux le déséquilibre énergétique de la planète que la température de surface, parce que l'essentiel de la chaleur excédentaire part dans l'océan — ce qui signifie aussi qu'il réagit lentement et ne peut pas servir à détecter rapidement un changement."
+    ]
+  },
+  "arctic-sea-ice-september-extent": {
+    "name": "Étendue de la glace de mer arctique, moyenne de septembre",
+    "shortName": "Glace de mer arctique (septembre)",
+    "definition": "La superficie d'océan au nord de l'équateur couverte par au moins 15 % de glace de mer, moyennée sur le mois de septembre — le mois du minimum annuel.",
+    "methodology": "Des radiomètres micro-ondes passifs embarqués sur des satellites en orbite polaire distinguent la glace de l'eau libre par leur émissivité très différente aux fréquences micro-ondes. Toute maille dont la concentration restituée atteint au moins 15 % est comptée en entier ; la valeur mensuelle est la moyenne des champs quotidiens.",
+    "unitLabel": "millions de kilomètres carrés",
+    "limitations": [
+      "L'étendue et la superficie sont deux grandeurs différentes. L'étendue compte en entier une maille couverte à 20 % ; la superficie n'en compte que le cinquième. Citer l'une en l'appelant l'autre surestime ou sous-estime largement la glace en été.",
+      "Le seuil de 15 % est une convention. Un seuil différent produit un nombre différent à partir exactement des mêmes données satellitaires.",
+      "L'étendue ne dit rien de l'épaisseur ni du volume, et l'Arctique a perdu proportionnellement plus de volume que de superficie.",
+      "Les mares de fonte estivales à la surface de la glace ressemblent à de l'eau libre pour un radiomètre micro-ondes, ce qui biaise les restitutions estivales vers le bas.",
+      "Le relevé commence en 1979 avec l'ère satellitaire. Ce n'est pas une affirmation sur le caractère inhabituel, ou non, du déclin récent sur des périodes plus longues."
+    ]
+  },
+  "global-mean-sea-level": {
+    "name": "Anomalie du niveau moyen mondial de la mer",
+    "shortName": "Niveau moyen mondial de la mer",
+    "definition": "La hauteur de la surface moyenne mondiale de la mer par rapport au début du relevé d'altimétrie satellitaire, mesurée par des altimètres radar et moyennée sur l'océan qu'ils couvrent.",
+    "methodology": "Un altimètre radar mesure le temps d'aller-retour d'une impulsion jusqu'à la surface de la mer, ce qui donne la distance entre une orbite connue avec précision et l'eau. Des corrections sont appliquées pour l'atmosphère, les marées et l'état de la mer, et le résidu est moyenné sur chaque cycle de répétitivité d'environ dix jours. Les valeurs présentées ici sont les moyennes par année civile de ces cycles.",
+    "unitLabel": "millimètres par rapport au début du relevé",
+    "limitations": [
+      "Cette série ne comporte aucun ajustement isostatique glaciaire. La correction d'ajustement isostatique glaciaire (GIA) rend compte de la lente déformation des bassins océaniques après la dernière glaciation et ajoute environ 0.3 mm par an ; les séries qui l'incluent rapportent une tendance plus forte à partir des mêmes mesures.",
+      "L'altimètre ne voit pas les océans polaires : « mondial » signifie donc à peu près de 66°S à 66°N.",
+      "Le relevé est un raccordement de cinq missions, et les biais inter-missions sont estimés pendant les périodes de recouvrement plutôt que mesurés directement.",
+      "L'élévation du niveau de la mer est profondément inégale. Les vitesses régionales s'écartent de la moyenne mondiale d'un facteur de plusieurs unités, et ce qui compte localement inclut aussi la subsidence des terres, qu'un altimètre ne peut pas voir."
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 ---
-title: 'Wie das Aussterberisiko bewertet wird und was eine Kategorie der Roten Liste bedeutet'
+title: Wie das Aussterberisiko bewertet wird und was eine Kategorie der Roten Liste bedeutet
 metaTitle: 'Aussterberisiko: Bewertung und Kategorien der Roten Liste'
-excerpt: 'Eine Kategorie der Roten Liste nennt eine Aussterbewahrscheinlichkeit nach festgelegten Kriterien, keine ökologische Bedeutung und keine Seltenheit. Was die fünf Kriterien verlangen, warum „Ungenügende Datengrundlage“ keine Gefährdungskategorie ist und wie ungleich die Abdeckung ausfällt.'
+excerpt: Eine Kategorie der Roten Liste nennt eine Aussterbewahrscheinlichkeit nach festgelegten Kriterien, keine ökologische Bedeutung und keine Seltenheit. Was die fünf Kriterien verlangen, warum „Ungenügende Datengrundlage“ keine Gefährdungskategorie ist und wie ungleich die Abdeckung ausfällt.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
@@ -19,6 +19,7 @@ related:
   - invasive-species-management
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
+_bodyHash: 5fcb1006
 ---
 
 Eine Kategorie der Roten Liste ist eine Aussage über Wahrscheinlichkeit, getroffen nach ausgewiesenen Regeln und aus ausgewiesener Evidenz. „Vom Aussterben bedroht“ heißt, dass ein Taxon mindestens eines von fünf quantitativen Kriterien an der schärfsten Schwelle erfüllt und deshalb als einem extrem hohen Risiko des Aussterbens in freier Wildbahn ausgesetzt beurteilt wird. Es heißt nicht, dass der Organismus selten, schön, ökologisch zentral oder eine Ausgabenpriorität ist. Das sind eigene Urteile, und das System wurde so entworfen, dass sie getrennt bleiben, damit sich die Risikoeinstufung unabhängig davon prüfen lässt, was irgendjemand daraufhin tun wollte — das allgemeine Prinzip hinter [evidenzbasiertem Naturschutz](/de/ecology/conservation/conservation-science-explained).
