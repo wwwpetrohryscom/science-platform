@@ -7,6 +7,7 @@ import { PageHeading } from "@/components/PageHeading";
 import {
   DATASETS,
   INDICATORS,
+  indicatorFor,
   getDataset,
   indicatorPath,
   latestObservation,
@@ -54,8 +55,14 @@ export default function DataHubPage({ params }: Props) {
   const t = translator(getMessages(locale));
 
   const providers = new Set(DATASETS.map((d) => d.providerShort));
-  const byCategory = new Map<string, typeof INDICATORS>();
-  for (const ind of INDICATORS) {
+  // The hub lists the indicators this locale can actually serve, in
+  // this locale's words. An entry pointing at a page that 404s in the
+  // reader's language would be worse than no entry.
+  const available = INDICATORS.map((i) => indicatorFor(i.indicatorId, locale)).filter(
+    (i): i is NonNullable<typeof i> => Boolean(i),
+  );
+  const byCategory = new Map<string, typeof available>();
+  for (const ind of available) {
     byCategory.set(ind.category, [...(byCategory.get(ind.category) ?? []), ind]);
   }
 
@@ -85,7 +92,7 @@ export default function DataHubPage({ params }: Props) {
         <div className="container-page py-14">
           <p className="max-w-reader text-ink-muted">
             {t("data.indicator_count", {
-              count: INDICATORS.length,
+              count: available.length,
               datasets: DATASETS.length,
               providers: providers.size,
             })}

@@ -14,7 +14,7 @@ import {
 import { LOCALES, localizedPath } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n-config";
 import { getMessages, translator } from "@/lib/i18n";
-import { INDICATORS, indicatorPath } from "@/lib/scientific-data/index";
+import { INDICATORS, indicatorPath, indicatorFor } from "@/lib/scientific-data/index";
 import { TOOLS, toolPath } from "@/lib/tools/registry";
 import type { SearchDoc, SearchIndex } from "@/lib/search-core";
 
@@ -68,7 +68,9 @@ export async function buildSearchIndex(locale: Locale): Promise<SearchIndex> {
   // Indicators and tools exist in every locale — their frame is fully
   // translated — so unlike an article they are indexed everywhere.
   const t = translator(getMessages(locale));
-  for (const ind of INDICATORS) {
+  for (const base of INDICATORS) {
+    const ind = indicatorFor(base.indicatorId, locale);
+    if (!ind) continue;
     docs.push({
       url: localizedPath(locale, indicatorPath(ind.indicatorId)),
       title: ind.name,

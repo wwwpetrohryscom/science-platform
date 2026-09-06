@@ -34,7 +34,10 @@ import {
   INDICATORS,
   seriesFor,
   getDataset,
+  indicatorLocalization,
+  localizedIndicatorLocales,
 } from "../lib/scientific-data/index";
+import { LOCALES, DEFAULT_LOCALE } from "../lib/i18n-config";
 import { GLOSSARY } from "../lib/glossary";
 import { allEntities } from "../lib/entities/index";
 
@@ -273,6 +276,95 @@ for (const ind of INDICATORS) {
       err("observation-order", ow, `period "${o.period}" follows "${previous}" — observations must be in order`);
     }
     previous = o.period;
+  }
+}
+
+/* ---------------- indicator localization ---------------- */
+
+// All-or-nothing per locale, and structurally identical to the English.
+// An indicator page in Russian chrome around an English definition is
+// the half-in-your-language failure this rule exists to prevent, and it
+// is the same rule the editorial policy pages follow.
+const UNIT_SYMBOLS = ["ppm", "ppb", "10²² J", "mm", "°C", "million km²", "ppm yr⁻¹"];
+const NUMERALS = /(?<![\p{L}])(?:\d+(?:[.,]\d+)?)/gu;
+
+for (const locale of localizedIndicatorLocales()) {
+  if (!LOCALES.includes(locale as (typeof LOCALES)[number])) {
+    err("indicator-locale-unknown", `localized.${locale}.json`, "not a supported locale");
+    continue;
+  }
+  for (const ind of INDICATORS) {
+    const where = `${locale}/${ind.indicatorId}`;
+    const loc = indicatorLocalization(ind.indicatorId, locale);
+    if (!loc) {
+      err(
+        "indicator-localization-partial",
+        where,
+        `the ${locale} file exists but does not contain this indicator — a locale is served whole or not at all`,
+      );
+      continue;
+    }
+    for (const field of ["name", "shortName", "definition", "methodology", "unitLabel"] as const) {
+      if (!loc[field] || String(loc[field]).trim() === "") {
+        err("indicator-localization-empty", where, `${field} is empty`);
+      }
+    }
+    if (loc.limitations.length !== ind.limitations.length) {
+      err(
+        "indicator-localization-limitations",
+        where,
+        `${loc.limitations.length} limitations against ${ind.limitations.length} in English — a limitation that vanishes in translation is the worst thing on the page to lose`,
+      );
+    }
+    if (Boolean(loc.referencePeriod) !== Boolean(ind.referencePeriod)) {
+      err(
+        "indicator-localization-reference",
+        where,
+        "referencePeriod is present in one language and absent in the other",
+      );
+    }
+    // Numerals must survive. Compared as multisets over the whole body.
+    const enNums = [ind.definition, ind.methodology, ...ind.limitations]
+      .join(" ")
+      .match(NUMERALS) ?? [];
+    const locNums = [loc.definition, loc.methodology, ...loc.limitations]
+      .join(" ")
+      .match(NUMERALS) ?? [];
+    const count = (a: string[]) =>
+      a.reduce<Record<string, number>>((m, n) => ({ ...m, [n]: (m[n] ?? 0) + 1 }), {});
+    const a = count(enNums);
+    const b = count(locNums);
+    const missing = Object.keys(a).filter((k) => (b[k] ?? 0) < a[k]);
+    if (missing.length) {
+      err(
+        "indicator-localization-numbers",
+        where,
+        `numerals present in the English body and missing here: ${missing.slice(0, 5).join(", ")}`,
+      );
+    }
+    // Unit symbols are the same in every language; translating one is a
+    // defect, not a courtesy.
+    for (const sym of UNIT_SYMBOLS) {
+      const inEn = [ind.definition, ind.methodology, ...ind.limitations].join(" ").includes(sym);
+      const inLoc = [loc.definition, loc.methodology, ...loc.limitations].join(" ").includes(sym);
+      if (inEn && !inLoc) {
+        err(
+          "indicator-localization-unit",
+          where,
+          `the unit symbol "${sym}" appears in the English body and not here — unit symbols are not translated`,
+        );
+      }
+    }
+  }
+}
+for (const locale of LOCALES) {
+  if (locale === DEFAULT_LOCALE) continue;
+  if (!localizedIndicatorLocales().includes(locale)) {
+    warn(
+      "indicator-locale-absent",
+      locale,
+      `no localized indicator file, so /${locale}/data lists nothing and the indicator pages are English-only`,
+    );
   }
 }
 

@@ -8,7 +8,8 @@ import { SeriesChart, SeriesTable } from "@/components/data/SeriesChart";
 import { ProvenancePanel } from "@/components/data/ProvenancePanel";
 import {
   INDICATORS,
-  getIndicator,
+  indicatorFor,
+  indicatorLocales,
   getDataset,
   seriesFor,
   seriesStatistics,
@@ -31,14 +32,26 @@ import {
 
 type Props = { params: { locale: string; indicator: string } };
 
+/**
+ * A locale is offered for an indicator only when the whole explanatory
+ * body — definition, methodology, unit label, limitations — exists in
+ * it. Chrome in one language around substance in another is the failure
+ * this rule exists to prevent, and it is the same rule the policy pages
+ * follow.
+ */
 export function generateStaticParams() {
-  return LOCALES.flatMap((locale) =>
-    INDICATORS.map((i) => ({ locale, indicator: i.indicatorId })),
+  return INDICATORS.flatMap((i) =>
+    indicatorLocales(i.indicatorId).map((locale) => ({
+      locale,
+      indicator: i.indicatorId,
+    })),
   );
 }
 
 export function generateMetadata({ params }: Props): Metadata {
-  const ind = getIndicator(params.indicator);
+  const ind = isLocale(params.locale)
+    ? indicatorFor(params.indicator, params.locale)
+    : undefined;
   if (!ind || !isLocale(params.locale)) {
     return { robots: { index: false, follow: false } };
   }
@@ -55,7 +68,7 @@ export function generateMetadata({ params }: Props): Metadata {
     description,
     path: indicatorPath(ind.indicatorId),
     locale: params.locale,
-    availableLocales: [...LOCALES],
+    availableLocales: indicatorLocales(ind.indicatorId) as typeof LOCALES[number][],
     updatedDate: series?.accessedDate,
   });
 }
@@ -72,7 +85,7 @@ const BASIS_KEYS: Record<string, string> = {
 export default async function IndicatorPage({ params }: Props) {
   if (!isLocale(params.locale)) notFound();
   const locale: Locale = params.locale;
-  const ind = getIndicator(params.indicator);
+  const ind = indicatorFor(params.indicator, locale);
   if (!ind) notFound();
 
   const t = translator(getMessages(locale));

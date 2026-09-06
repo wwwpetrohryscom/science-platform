@@ -4,7 +4,7 @@ import { getAllArticles, getAllInsights } from "@/lib/content";
 import { getDiscussions, discussionLocales } from "@/lib/discussions";
 import { listGlossaryAlphabetical, listGlossarySlugs } from "@/lib/glossary";
 import { POLICY_DOCUMENTS, policyLocales, listDesksForDisplay } from "@/lib/editorial";
-import { INDICATORS, indicatorPath } from "@/lib/scientific-data/index";
+import { INDICATORS, indicatorPath, indicatorLocales } from "@/lib/scientific-data/index";
 import { TOOLS, toolPath } from "@/lib/tools/registry";
 import {
   DEFAULT_LOCALE,
@@ -389,15 +389,21 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
   // in the hreflang set, unlike the article corpus where a locale is
   // advertised only where the article exists in it.
   const dataEntries: SitemapEntry[] = [];
-  const dataPaths = [
-    "/data",
-    "/tools",
-    ...INDICATORS.map((i) => indicatorPath(i.indicatorId)),
-    ...TOOLS.map((t) => toolPath(t.slug)),
+  // The hubs and the tools exist everywhere; an indicator exists only
+  // where its explanatory body has been translated, so its hreflang set
+  // is its own.
+  const dataPaths: Array<{ path: string; locales: Locale[] }> = [
+    { path: "/data", locales: [...LOCALES] },
+    { path: "/tools", locales: [...LOCALES] },
+    ...INDICATORS.map((i) => ({
+      path: indicatorPath(i.indicatorId),
+      locales: indicatorLocales(i.indicatorId) as Locale[],
+    })),
+    ...TOOLS.map((t) => ({ path: toolPath(t.slug), locales: [...LOCALES] })),
   ];
-  for (const p of dataPaths) {
-    const alternates = buildLocalizedAlternates(p, [...LOCALES]);
-    for (const locale of LOCALES) {
+  for (const { path: p, locales } of dataPaths) {
+    const alternates = buildLocalizedAlternates(p, locales);
+    for (const locale of locales) {
       dataEntries.push(
         entry(
           locale,

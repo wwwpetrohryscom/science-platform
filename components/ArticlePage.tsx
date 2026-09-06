@@ -22,7 +22,12 @@ import { evidenceProfile } from "@/lib/evidence/index";
 import { entitiesForArticle, entityName } from "@/lib/entities/index";
 import { getReview } from "@/lib/verification";
 import { policyLocales } from "@/lib/editorial";
-import { indicatorsForArticle, indicatorPath, latestObservation } from "@/lib/scientific-data/index";
+import {
+  indicatorsForArticle,
+  indicatorFor,
+  indicatorPath,
+  latestObservation,
+} from "@/lib/scientific-data/index";
 import { toolsForArticle, toolPath } from "@/lib/tools/registry";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
@@ -71,10 +76,15 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
   // tool names gets a link back to it — derived from the forward edge,
   // never inferred from a shared tag.
   const articleKey = `${article.category}/${article.subtopic}/${article.slug}`;
-  const dataForArticle = indicatorsForArticle(articleKey).map((indicator) => ({
-    indicator,
-    latest: latestObservation(indicator.indicatorId),
-  }));
+  const dataForArticle = indicatorsForArticle(articleKey)
+    // Only indicators this locale can serve. A card pointing at a page
+    // that 404s in the reader's language is worse than no card.
+    .map((i) => indicatorFor(i.indicatorId, locale))
+    .filter((i): i is NonNullable<typeof i> => Boolean(i))
+    .map((indicator) => ({
+      indicator,
+      latest: latestObservation(indicator.indicatorId),
+    }));
   const toolsHere = toolsForArticle(articleKey);
 
   // Evidence panel inputs. Every value below is measured from the page

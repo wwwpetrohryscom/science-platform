@@ -58,8 +58,97 @@ const SERIES: Map<string, IndicatorSeries> = (() => {
   return map;
 })();
 
-const DATASET_BY_ID = new Map(DATASETS.map((d) => [d.datasetId, d]));
 const INDICATOR_BY_ID = new Map(INDICATORS.map((i) => [i.indicatorId, i]));
+
+/**
+ * Localized indicator copy, one file per locale.
+ *
+ * An indicator page was, for a while, Russian chrome around an English
+ * definition, methodology and limitations list — the numbers and the
+ * labels were localized and the substance was not. That is the same
+ * half-in-your-language failure the policy pages have a rule against,
+ * and it gets the same rule: an indicator exists in a locale when its
+ * whole explanatory body exists in that locale, and the route offers
+ * that locale only then.
+ *
+ * The unit SYMBOL is deliberately not localized. "ppm" and "10²² J" are
+ * the same in every language, and translating a unit symbol would be a
+ * defect rather than a courtesy. The unit LABEL — the sentence that
+ * explains what the symbol means — is localized.
+ */
+export type LocalizedIndicator = {
+  name: string;
+  shortName: string;
+  definition: string;
+  methodology: string;
+  unitLabel: string;
+  limitations: string[];
+  referencePeriod?: string;
+};
+
+const LOCALIZED_INDICATORS: Record<string, Record<string, LocalizedIndicator>> =
+  (() => {
+    const dir = path.join(DATA, "indicators");
+    const out: Record<string, Record<string, LocalizedIndicator>> = {};
+    if (!fs.existsSync(dir)) return out;
+    for (const file of fs.readdirSync(dir)) {
+      const m = /^localized\.([a-z]{2})\.json$/.exec(file);
+      if (!m) continue;
+      out[m[1]] = JSON.parse(
+        fs.readFileSync(path.join(dir, file), "utf8"),
+      ) as Record<string, LocalizedIndicator>;
+    }
+    return out;
+  })();
+
+/** Locales with at least one localized indicator file. */
+export function localizedIndicatorLocales(): string[] {
+  return Object.keys(LOCALIZED_INDICATORS).sort();
+}
+
+export function indicatorLocalization(
+  indicatorId: string,
+  locale: string,
+): LocalizedIndicator | undefined {
+  return LOCALIZED_INDICATORS[locale]?.[indicatorId];
+}
+
+/**
+ * The indicator as it should be rendered in `locale`, or undefined when
+ * no full translation exists. English always resolves.
+ */
+export function indicatorFor(
+  indicatorId: string,
+  locale: string,
+): Indicator | undefined {
+  const base = INDICATOR_BY_ID.get(indicatorId);
+  if (!base) return undefined;
+  if (locale === "en") return base;
+  const loc = indicatorLocalization(indicatorId, locale);
+  if (!loc) return undefined;
+  return {
+    ...base,
+    name: loc.name,
+    shortName: loc.shortName,
+    definition: loc.definition,
+    methodology: loc.methodology,
+    unitLabel: loc.unitLabel,
+    limitations: loc.limitations,
+    referencePeriod: loc.referencePeriod ?? base.referencePeriod,
+  };
+}
+
+/** Locales this indicator can be served in, English first. */
+export function indicatorLocales(indicatorId: string): string[] {
+  return [
+    "en",
+    ...localizedIndicatorLocales().filter((l) =>
+      Boolean(indicatorLocalization(indicatorId, l)),
+    ),
+  ];
+}
+
+const DATASET_BY_ID = new Map(DATASETS.map((d) => [d.datasetId, d]));
 
 export function getDataset(id: string): Dataset | undefined {
   return DATASET_BY_ID.get(id);
