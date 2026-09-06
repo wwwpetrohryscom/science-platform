@@ -16,6 +16,7 @@ import {
   injectInternalLinks,
   insideProperName,
   crossesSection,
+  GENERIC_ANCHORS,
   type LinkableArticle,
 } from "../lib/internal-linking";
 
@@ -34,7 +35,7 @@ const ARTICLES: LinkableArticle[] = [
     slug: "atmospheric-physics-explained",
     type: "pillar",
     title: "Atmospheric physics explained",
-    tags: ["energy-budget", "atmosphere"],
+    tags: ["energy-budget", "atmospheric-circulation"],
     category: "physics",
   },
   {
@@ -77,7 +78,12 @@ const INDEX = buildKeywordIndex(ARTICLES);
     !r.body.includes("/en/physics/"),
     r.body,
   );
-  const declared = injectInternalLinks(body, INDEX, "what-is-a-cell", {
+  // "energy budget" is now excluded from the index entirely (see
+  // GENERIC_ANCHORS), so the `related` exception has to be exercised
+  // with a keyword that still names one thing.
+  const crossBody =
+    "Heat reaches the poles through atmospheric circulation, not conduction.\n";
+  const declared = injectInternalLinks(crossBody, INDEX, "what-is-a-cell", {
     source: {
       category: "biology",
       related: ["atmospheric-physics-explained"],
@@ -202,6 +208,56 @@ const INDEX = buildKeywordIndex(ARTICLES);
   const twice = injectInternalLinks(once, INDEX, "x", { source: src }).body;
   check("idempotence · a second pass changes nothing", once === twice, twice);
   check("idempotence · the first pass did link", once !== body, once);
+}
+
+/* 9. Generic anchors are never indexed. The corpus carried 15 links on
+      "land surface" — a plain geographic noun in all 15 — plus "land
+      use" pointing at forest ecosystems and "satellite products"
+      pointing at primary production. MIN_ANCHOR_WORDS and the section
+      guard both pass those, because the phrase has two words and stays
+      inside its category. Only the exclusion list stops them. */
+{
+  const generic: LinkableArticle[] = [
+    {
+      url: "/en/ecology/earth-systems/biosphere-climate-interactions",
+      slug: "biosphere-climate-interactions",
+      type: "expert",
+      title: "Biosphere-climate interactions",
+      tags: ["land-surface", "albedo"],
+      category: "ecology",
+    },
+    {
+      url: "/en/ecology/forests/forest-ecosystems-explained",
+      slug: "forest-ecosystems-explained",
+      type: "pillar",
+      title: "Forest ecosystems explained",
+      tags: ["land-use", "forests"],
+      category: "ecology",
+    },
+  ];
+  const idx = buildKeywordIndex(generic);
+  check(
+    "generic anchors · not present in the keyword index",
+    !idx.some((e) => GENERIC_ANCHORS.has(e.keyword.toLowerCase())),
+    idx.map((e) => e.keyword).join(", "),
+  );
+  const body =
+    "Peatlands cover about 3 per cent of the global land surface, and " +
+    "land use is the largest single pressure on them.\n";
+  const r = injectInternalLinks(body, idx, "wetlands-and-their-functions", {
+    source: { category: "ecology", related: [], title: "Wetlands", tags: [] },
+  });
+  check(
+    "generic anchors · a plain geographic noun is not linked",
+    r.body === body,
+    r.body,
+  );
+  check(
+    "generic anchors · a non-generic tag from the same article still indexes",
+    idx.some((e) => e.keyword === "albedo") === false &&
+      idx.some((e) => e.keyword === "Forest ecosystems explained"),
+    idx.map((e) => e.keyword).join(", "),
+  );
 }
 
 console.log(`\n${failures === 0 ? "all checks passed" : `${failures} failing`}`);

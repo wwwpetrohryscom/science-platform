@@ -42,7 +42,7 @@ The [lithosphere](/en/glossary/lithosphere), or geosphere, supplies the slowest 
 
 Four cases show why the categories leak, and each one is scientifically productive rather than merely inconvenient.
 
-**Soil moisture** belongs to the hydrosphere as water, the geosphere as part of the soil column, and the biosphere as the medium plants draw from. Its behaviour cannot be derived from any one of the three, which is why land-surface modelling is a discipline of its own.
+**[Soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers)** belongs to the hydrosphere as water, the geosphere as part of the soil column, and the biosphere as the medium plants draw from. Its behaviour cannot be derived from any one of the three, which is why land-surface modelling is a discipline of its own.
 
 **Sea ice** is cryosphere by composition but its effects are oceanic and atmospheric: it changes surface reflectivity, insulates the ocean from the air, and rejects salt as it forms, which alters density and therefore circulation. It is treated in detail in [the cryosphere in the Earth system](/en/ecology/earth-systems/cryosphere-in-the-earth-system).
 

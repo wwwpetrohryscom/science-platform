@@ -56,7 +56,7 @@ The limits are equally real and follow from the same physics. Satellites see str
 
 Several sources of uncertainty should temper interpretation. Ecosystem structure is an imperfect stand-in for biodiversity: two stands of forest that look alike from above can hold very different communities, so a structural measure constrains but does not fix the biological answer. Classification itself carries error, because assigning each pixel to a category is a judgement that can be wrong, and those misclassifications propagate into every metric built on the map.
 
-The spectral-diversity proxy adds a further layer of caution. It is an indirect signal still being validated, and its relationship to on-the-ground diversity appears to vary with habitat, season, and scale. The sensible posture is to treat [satellite products](/en/ecology/ecosystems/primary-production-and-energy-flow) as one strong, scalable input among several — excellent for tracking the extent and condition of habitat, dependent on fieldwork for what lives there, and most trustworthy when the structural signal and the biological question are kept clearly distinct.
+The spectral-diversity proxy adds a further layer of caution. It is an indirect signal still being validated, and its relationship to on-the-ground diversity appears to vary with habitat, season, and scale. The sensible posture is to treat satellite products as one strong, scalable input among several — excellent for tracking the extent and condition of habitat, dependent on fieldwork for what lives there, and most trustworthy when the structural signal and the biological question are kept clearly distinct.
 
 ## Sources
 

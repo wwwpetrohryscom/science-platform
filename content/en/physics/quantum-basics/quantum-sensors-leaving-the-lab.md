@@ -5,7 +5,7 @@ excerpt: Quantum sensors — atomic clocks, gravimeters, magnetometers — have 
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-03-02'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 5
 pillar: quantum-mechanics-fundamentals
 tags:
@@ -16,7 +16,7 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
-_bodyHash: 69256bb5
+_bodyHash: bb3bbee5
 ---
 
 For much of their history, many high-performance quantum sensors lived in physics laboratories. The instruments — atomic clocks, atom-interferometric gravimeters, nitrogen-vacancy magnetometers, optically-pumped magnetometers, each exploiting a property that only [quantum mechanics](/en/physics/quantum-basics/quantum-mechanics-fundamentals) supplies — were extraordinarily precise but often required specialized infrastructure. [NIST's quantum sensing explainer](https://www.nist.gov/quantum-information-science/quantum-sensing-explained) describes the same transition: quantum sensors are moving from laboratory systems toward more compact measurement tools.
@@ -77,7 +77,7 @@ Three near-term indicators tell you whether the quantum-sensing transition is go
 
 **Adoption in GPS-denied applications.** The military adoption pattern is an early indicator. The civilian autonomous-vehicle adoption pattern, when it begins, will be the broader-deployment indicator.
 
-**Standardization and integration with classical instruments.** Quantum sensors that integrate cleanly into existing classical sensor stacks (as plug-in modules with standard interfaces) will deploy faster than ones that require dedicated systems engineering for each installation. The standards question is unglamorous but is probably the rate-limiter for many applications.
+**Standardization and integration with classical instruments.** Quantum sensors that integrate cleanly into existing classical sensor stacks (as plug-in modules with standard interfaces) will deploy faster than ones that require dedicated systems engineering for each installation. The standards question is unglamorous but is probably the rate-limiter for many applications. The units these instruments report in are themselves quantum-realised, which is the argument set out in [why metrology went quantum](/en/physics/quantum-basics/why-metrology-went-quantum).
 
 The quantum-sensing transition is real. It is also slower, narrower, and more incremental than its publicity suggests. The instruments that work will work in specific application clusters where their sensitivity advantage outweighs their cost and deployment complexity. The transition will look less like a quantum revolution and more like the steady displacement of older instruments by better ones — which is, ultimately, how most measurement-technology transitions actually look.
 

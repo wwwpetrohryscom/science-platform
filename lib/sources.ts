@@ -524,6 +524,24 @@ export const SOURCE_REGISTRY: Record<CategorySlug, SourceEntry[]> = {
       lastReviewed: "2026-08-29",
     },
     {
+      name: "National Integrated Drought Information System",
+      organization: "NOAA",
+      url: "https://www.drought.gov/",
+      type: "primary",
+      topicRelevance:
+        "Operational drought monitoring: soil-moisture depth conventions, the products behind them, and why an absolute moisture value is not comparable between regions",
+      lastReviewed: "2026-09-05",
+    },
+    {
+      name: "Jet Propulsion Laboratory mission pages",
+      organization: "NASA",
+      url: "https://www.jpl.nasa.gov/",
+      type: "primary",
+      topicRelevance:
+        "Mission-level descriptions of NASA Earth-observing instruments, including SMAP: what the instrument senses, to what depth, and at what resolution",
+      lastReviewed: "2026-09-05",
+    },
+    {
       name: "National Weather Service",
       organization: "NOAA",
       url: "https://www.weather.gov/",

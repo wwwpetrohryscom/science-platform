@@ -1,12 +1,12 @@
 ---
 title: 'Why metrology went quantum: the only standards that do not drift'
-metaTitle: 'Why metrology went quantum'
-excerpt: Every SI unit now derives from constants realised through quantum effects, and the reason is a property no manufactured object has: identical atoms give identical results, everywhere, without calibration.
+metaTitle: Why metrology went quantum
+excerpt: 'Every SI unit now derives from constants realised through quantum effects, and the reason is a property no manufactured object has: identical atoms give identical results, everywhere, without calibration.'
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-05'
-updatedDate: '2026-09-05'
-readingTime: 5
+updatedDate: '2026-09-06'
+readingTime: 3
 tags:
   - quantum-metrology
   - si-units
@@ -17,6 +17,8 @@ related:
   - quantum-sensors-leaving-the-lab
   - the-si-and-its-defining-constants
   - atomic-clocks-and-the-second
+_bodyHash: a54ab474
+pillar: quantum-mechanics-fundamentals
 ---
 
 The modern SI is often described as being based on constants of nature. That is true and slightly abstract; the operational content is that the constants are realised through quantum effects, and quantum effects have a property that manufactured artefacts do not.
@@ -62,3 +64,4 @@ The same physics is moving out of national laboratories into field instruments, 
 1. **NIST** — [Meet the constants](https://www.nist.gov/si-redefinition/meet-constants). The seven defining constants and the units each supports.
 2. **NIST** — [The second](https://www.nist.gov/si-redefinition/second). Caesium timekeeping performance and the margin held by experimental clocks.
 3. **NIST** — [Definitions of the SI base units](https://www.nist.gov/si-redefinition/definitions-si-base-units). The Boltzmann and Avogadro values quoted here, in their defining form.
+4. **BIPM / JCGM** — [Guides in metrology](https://www.bipm.org/en/committees/jc/jcgm/publications). The international vocabulary and uncertainty framework these definitions are expressed and realised within.

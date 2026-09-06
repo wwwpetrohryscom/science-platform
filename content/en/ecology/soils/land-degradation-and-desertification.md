@@ -21,7 +21,7 @@ pillar: soil-science-explained
 _bodyHash: 58f3387f
 ---
 
-The treaty that governs international action on land degradation defines the term in a way most readers of the phrase would not expect. Article 1 of the United Nations Convention to Combat Desertification defines land degradation as reduction or loss of biological or economic productivity "in arid, semi-arid and dry sub-humid areas" — a definition restricted, by its own text, to drylands. The Sustainable Development Goal indicator that reports national progress on the same subject applies to every [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) on Earth.
+The treaty that governs international action on land degradation defines the term in a way most readers of the phrase would not expect. Article 1 of the United Nations Convention to Combat Desertification defines land degradation as reduction or loss of biological or economic productivity "in arid, semi-arid and dry sub-humid areas" — a definition restricted, by its own text, to drylands. The Sustainable Development Goal indicator that reports national progress on the same subject applies to every land surface on Earth.
 
 The mismatch is a good introduction to the central problem of the field. Land degradation is not one measurable quantity. It is a family of judgements about what land was, what it is, and what it is for, and the wide range across published global estimates follows directly from that. The physical processes underneath those judgements — erosion, carbon loss, salinisation, compaction — are catalogued in the overview of [soil as a slow-forming resource](/en/ecology/soils/soil-science-explained); this article is about what happens when they are aggregated into a single headline percentage.
 

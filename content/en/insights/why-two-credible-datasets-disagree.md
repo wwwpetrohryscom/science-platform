@@ -42,7 +42,7 @@ The published argument about that dataset landed on precisely this point. A 2014
 
 Land-use carbon accounting gives the sharpest demonstration, because the reconciliation has been done and published.
 
-Global bookkeeping models estimate that [land use](/en/ecology/forests/forest-ecosystems-explained) was a net source of 4.8 GtCO₂ per year over 2000–2020. National greenhouse gas inventories, submitted by governments under the Paris Agreement, estimate a net sink of −1.9 GtCO₂ per year for the same period. That is a gap of 6.7 GtCO₂ a year, disagreeing on the sign as well as the size, on a quantity central to whether countries are meeting their commitments.
+Global bookkeeping models estimate that land use was a net source of 4.8 GtCO₂ per year over 2000–2020. National greenhouse gas inventories, submitted by governments under the Paris Agreement, estimate a net sink of −1.9 GtCO₂ per year for the same period. That is a gap of 6.7 GtCO₂ a year, disagreeing on the sign as well as the size, on a quantity central to whether countries are meeting their commitments.
 
 A 2023 study in *Earth System Science Data* traced it. Most of the difference — 3.5 GtCO₂ a year — sits on forest land, and arises because countries treat a broader area as managed than the models do, and because the indirect effects of environmental change such as CO₂ fertilisation are counted as non-anthropogenic by the models and as anthropogenic by most inventories. When the model estimates were adjusted to include natural sinks in the areas countries call managed, the residual global gap fell to 0.3 GtCO₂ a year.
 

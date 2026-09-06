@@ -34,7 +34,7 @@ The most widely used integrating framework is the set of Essential Biodiversity 
 
 ## The main families of method
 
-No single technique covers every dimension. In practice, biodiversity monitoring combines several data streams, each strong on some classes and blind to others.
+No single technique covers every dimension. In practice, [biodiversity monitoring](/en/ecology/biodiversity/species-distribution-models-and-their-limits) combines several data streams, each strong on some classes and blind to others.
 
 **Field surveys and species inventories.** Counting which organisms occur where, and in what numbers, remains the foundation. From these counts come the two most basic descriptors of a community: [species richness](/en/glossary/species-richness), the number of distinct species present, and [species evenness](/en/glossary/species-evenness), how evenly individuals are distributed among them. The articles on [species richness](/en/ecology/biodiversity/species-richness-explained) and [species evenness and diversity](/en/ecology/biodiversity/species-evenness-and-diversity) explain why richness alone is a weak signal and why diversity indices combine the two.
 

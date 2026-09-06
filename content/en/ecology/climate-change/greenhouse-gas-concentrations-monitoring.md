@@ -32,7 +32,7 @@ A single site, however good, is not a global mean. The NOAA GML operates a globa
 
 The complementary international product is the [World Meteorological Organization Greenhouse Gas Bulletin](https://wmo.int/), which combines data from the WMO Global Atmosphere Watch programme and produces an independent global mean. The two products are calibrated against the same gravimetric standards and agree to within stated uncertainties.
 
-For column-integrated rather than surface measurements, satellites have a complementary role. JAXA's GOSAT, NASA's OCO-2 and OCO-3, and ESA's Sentinel-5P (for methane and minor gases) provide spatial coverage that surface networks cannot. The [satellite products](/en/ecology/ecosystems/primary-production-and-energy-flow) are calibrated against the surface network through the Total Carbon Column Observing Network (TCCON) and are reviewed alongside the surface record by the [Copernicus Climate Change Service](https://climate.copernicus.eu/).
+For column-integrated rather than surface measurements, satellites have a complementary role. JAXA's GOSAT, NASA's OCO-2 and OCO-3, and ESA's Sentinel-5P (for methane and minor gases) provide spatial coverage that surface networks cannot. The satellite products are calibrated against the surface network through the Total Carbon Column Observing Network (TCCON) and are reviewed alongside the surface record by the [Copernicus Climate Change Service](https://climate.copernicus.eu/).
 
 ## What the records show
 

@@ -1,5 +1,5 @@
 {
- "generatedDate": "2026-09-05",
+ "generatedDate": "2026-09-06",
  "entities": [
   {
    "id": "air-quality",
@@ -38,6 +38,51 @@
     "ev-epa-gov-f80d429e",
     "ev-pmc-ncbi-nlm-nih-gov-daec8923",
     "ev-who-int-154a122d"
+   ]
+  },
+  {
+   "id": "ammonia-synthesis",
+   "canonicalName": "Ammonia synthesis",
+   "aliases": [
+    "Haber-Bosch process",
+    "nitrogen fixation (industrial)"
+   ],
+   "definition": "The industrial combination of nitrogen and hydrogen into ammonia under high pressure and temperature. It is the route by which most reactive nitrogen enters the biosphere and one of the largest single industrial energy demands.",
+   "category": "process",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "ammonia",
+    "fertiliser",
+    "industrial-energy"
+   ],
+   "matchSlugs": [
+    "the-energy-cost-of-ammonia-synthesis"
+   ],
+   "relatedEntities": [
+    "nitrogen-cycle"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "nitrogen-pollution-and-eutrophication",
+    "nutrient-losses-and-use-efficiency",
+    "the-energy-cost-of-ammonia-synthesis"
+   ],
+   "evidenceIds": [
+    "ev-eea-europa-eu-75f96c3a",
+    "ev-eea-europa-eu-f9e9eaae",
+    "ev-epa-gov-69d4f665",
+    "ev-iea-org-3a86aa19",
+    "ev-noaa-gov-cc47fd26",
+    "ev-oceanservice-noaa-gov-72651ba8",
+    "ev-pmc-ncbi-nlm-nih-gov-45fcb8b5",
+    "ev-pmc-ncbi-nlm-nih-gov-570ec5b9",
+    "ev-pmc-ncbi-nlm-nih-gov-7b196ba7",
+    "ev-pmc-ncbi-nlm-nih-gov-e302f7cd",
+    "ev-science-org-f318e5f0",
+    "ev-usgs-gov-ebbffa79"
    ]
   },
   {
@@ -142,6 +187,41 @@
     "ev-noaa-gov-fee8c0b8",
     "ev-science-nasa-gov-08b67889",
     "ev-spc-noaa-gov-7ede2e54"
+   ]
+  },
+  {
+   "id": "atomic-clock",
+   "canonicalName": "Atomic clock",
+   "aliases": [
+    "caesium clock",
+    "optical clock"
+   ],
+   "definition": "A clock whose rate is set by a transition between energy levels of an atom. The second is defined by counting a fixed number of caesium hyperfine oscillations, so an atomic clock realises the unit rather than being calibrated against one.",
+   "category": "instrument",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "atomic-clocks",
+    "timekeeping",
+    "quantum-metrology"
+   ],
+   "matchSlugs": [
+    "atomic-clocks-and-the-second"
+   ],
+   "relatedEntities": [
+    "si-unit-system"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "atomic-clocks-and-the-second",
+    "why-metrology-went-quantum"
+   ],
+   "evidenceIds": [
+    "ev-bipm-org-51ac2f38",
+    "ev-nist-gov-7d1720a5",
+    "ev-nist-gov-ed95701e",
+    "ev-nist-gov-fce28321"
    ]
   },
   {
@@ -295,6 +375,7 @@
    "relatedArticles": [
     "biogeochemical-cycles-explained",
     "carbon-cycle-explained",
+    "decomposition-and-the-return-of-nutrients",
     "earth-system-science-explained",
     "global-water-cycle-explained",
     "nitrogen-cycle-explained",
@@ -302,6 +383,7 @@
     "wetlands-and-their-functions"
    ],
    "evidenceIds": [
+    "ev-bg-copernicus-org-d8364215",
     "ev-climate-copernicus-eu-d9ce40a0",
     "ev-climate-gov-acafcbcd",
     "ev-eea-europa-eu-75f96c3a",
@@ -329,6 +411,10 @@
     "ev-noaa-gov-78cff8fe",
     "ev-oceanservice-noaa-gov-9ab82537",
     "ev-openknowledge-fao-org-3be1fd34",
+    "ev-pmc-ncbi-nlm-nih-gov-4c2fb80a",
+    "ev-pmc-ncbi-nlm-nih-gov-6aba9639",
+    "ev-pmc-ncbi-nlm-nih-gov-e02b83ea",
+    "ev-pmc-ncbi-nlm-nih-gov-fed4039c",
     "ev-science-nasa-gov-507391e1",
     "ev-science-nasa-gov-e3cc4645",
     "ev-science-org-96bab340",
@@ -1229,6 +1315,55 @@
    ]
   },
   {
+   "id": "critical-mineral",
+   "canonicalName": "Critical mineral",
+   "aliases": [
+    "critical raw material",
+    "strategic mineral"
+   ],
+   "definition": "A mineral judged both economically important and vulnerable to supply disruption. The designation is a policy assessment of a supply chain, not a statement about geological scarcity, and each jurisdiction publishes its own list.",
+   "category": "concept",
+   "sections": [
+    "physics",
+    "ecology"
+   ],
+   "matchTags": [
+    "critical-minerals",
+    "rare-earths",
+    "supply-chains",
+    "mining"
+   ],
+   "matchSlugs": [
+    "critical-minerals-and-supply-concentration",
+    "materials-for-magnets-and-why-substitution-is-hard",
+    "mineral-demand-and-conservation-trade-offs"
+   ],
+   "relatedEntities": [
+    "material-circularity"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "critical-minerals-and-supply-concentration",
+    "energy-transition-constraints-physical-and-institutional",
+    "materials-for-magnets-and-why-substitution-is-hard",
+    "mineral-demand-and-conservation-trade-offs",
+    "recycling-and-material-circularity"
+   ],
+   "evidenceIds": [
+    "ev-doi-org-974f0878",
+    "ev-doi-org-f594b71d",
+    "ev-energy-gov-2619c361",
+    "ev-iea-org-1281d263",
+    "ev-iea-org-17b26365",
+    "ev-iea-org-b947895c",
+    "ev-osti-gov-0f51f6af",
+    "ev-osti-gov-17d3ea5c",
+    "ev-osti-gov-582b186c",
+    "ev-pmc-ncbi-nlm-nih-gov-cf9278b0",
+    "ev-usgs-gov-06ce7af0"
+   ]
+  },
+  {
    "id": "cryosphere",
    "canonicalName": "Cryosphere",
    "aliases": [
@@ -1382,6 +1517,54 @@
     "ev-pmc-ncbi-nlm-nih-gov-c1ab7acd",
     "ev-pubmed-ncbi-nlm-nih-gov-2266be5f",
     "ev-pubmed-ncbi-nlm-nih-gov-8266a32a"
+   ]
+  },
+  {
+   "id": "dna-repair",
+   "canonicalName": "DNA repair",
+   "aliases": [
+    "double-strand break repair",
+    "DNA damage response"
+   ],
+   "definition": "The set of enzymatic pathways that detect and mend lesions in DNA. Which pathway acts determines whether damage is restored faithfully, repaired with error, or left to kill the cell.",
+   "category": "process",
+   "sections": [
+    "biology"
+   ],
+   "matchTags": [
+    "dna-repair",
+    "double-strand-breaks"
+   ],
+   "matchSlugs": [
+    "dna-damage-and-repair-after-radiation"
+   ],
+   "relatedEntities": [
+    "dna"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "crispr-genome-editing-explained",
+    "dna-damage-and-repair-after-radiation",
+    "dna-replication-and-repair",
+    "ultraviolet-damage-and-photoprotection"
+   ],
+   "evidenceIds": [
+    "ev-epa-gov-16a415cd",
+    "ev-ncbi-nlm-nih-gov-5d64927c",
+    "ev-ncbi-nlm-nih-gov-713ec2e4",
+    "ev-ncbi-nlm-nih-gov-7e3a5a2d",
+    "ev-ncbi-nlm-nih-gov-e00b097d",
+    "ev-pmc-ncbi-nlm-nih-gov-00ae653e",
+    "ev-pmc-ncbi-nlm-nih-gov-16ec0a3a",
+    "ev-pmc-ncbi-nlm-nih-gov-201da798",
+    "ev-pmc-ncbi-nlm-nih-gov-5490a9f1",
+    "ev-pmc-ncbi-nlm-nih-gov-69d83e2c",
+    "ev-pmc-ncbi-nlm-nih-gov-83b4b28b",
+    "ev-pmc-ncbi-nlm-nih-gov-9479d83c",
+    "ev-pmc-ncbi-nlm-nih-gov-c1ab7acd",
+    "ev-pmc-ncbi-nlm-nih-gov-e898d787",
+    "ev-pubmed-ncbi-nlm-nih-gov-8266a32a",
+    "ev-who-int-987a24df"
    ]
   },
   {
@@ -3558,6 +3741,41 @@
    ]
   },
   {
+   "id": "material-circularity",
+   "canonicalName": "Material circularity",
+   "aliases": [
+    "recycling",
+    "circular economy"
+   ],
+   "definition": "The share of a material's demand met by recovering it from products already in use rather than from primary extraction. It is bounded by how much material is in circulation and by how long products last, not only by collection rates.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "recycling",
+    "circular-economy",
+    "substitution"
+   ],
+   "matchSlugs": [
+    "recycling-and-material-circularity"
+   ],
+   "relatedEntities": [
+    "critical-mineral"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "materials-for-magnets-and-why-substitution-is-hard",
+    "recycling-and-material-circularity"
+   ],
+   "evidenceIds": [
+    "ev-iea-org-1281d263",
+    "ev-osti-gov-17d3ea5c",
+    "ev-pmc-ncbi-nlm-nih-gov-cf9278b0",
+    "ev-usgs-gov-06ce7af0"
+   ]
+  },
+  {
    "id": "measurement-uncertainty",
    "canonicalName": "Measurement uncertainty",
    "aliases": [
@@ -3617,9 +3835,12 @@
     "reproducibility-in-ecology-and-environmental-science",
     "soil-carbon-crediting-meets-the-detection-limit",
     "soil-carbon-measurement-and-uncertainty",
+    "soil-moisture-and-what-a-measurement-covers",
+    "species-distribution-models-and-their-limits",
     "the-si-and-its-defining-constants",
     "uncertainty-lost-between-dataset-and-headline",
     "what-satellites-cannot-see",
+    "why-metrology-went-quantum",
     "why-two-credible-datasets-disagree"
    ],
    "evidenceIds": [
@@ -3640,9 +3861,11 @@
     "ev-doi-org-0c8705ad",
     "ev-doi-org-539c551a",
     "ev-doi-org-662480c9",
+    "ev-drought-gov-18702920",
     "ev-earthdata-nasa-gov-7239f9dd",
     "ev-earthdata-nasa-gov-b52a579f",
     "ev-earthdata-nasa-gov-d76ebdc0",
+    "ev-earthdata-nasa-gov-fb5f9fb6",
     "ev-ecmwf-int-2c0830e3",
     "ev-ecmwf-int-33e1439f",
     "ev-energy-gov-3d2a7bea",
@@ -3722,6 +3945,7 @@
     "ev-nist-gov-99ae0147",
     "ev-nist-gov-a38592db",
     "ev-nist-gov-b4dac7fd",
+    "ev-nist-gov-ed95701e",
     "ev-nist-gov-f0e231ee",
     "ev-nist-gov-fce28321",
     "ev-nlr-gov-415c876d",
@@ -3750,10 +3974,12 @@
     "ev-pmc-ncbi-nlm-nih-gov-1175899a",
     "ev-pmc-ncbi-nlm-nih-gov-1941df3a",
     "ev-pmc-ncbi-nlm-nih-gov-1fc23e22",
+    "ev-pmc-ncbi-nlm-nih-gov-22979bc2",
     "ev-pmc-ncbi-nlm-nih-gov-2e6d6acc",
     "ev-pmc-ncbi-nlm-nih-gov-31beb637",
     "ev-pmc-ncbi-nlm-nih-gov-45f8defd",
     "ev-pmc-ncbi-nlm-nih-gov-48a08b6f",
+    "ev-pmc-ncbi-nlm-nih-gov-5147dae7",
     "ev-pmc-ncbi-nlm-nih-gov-5b38c88e",
     "ev-pmc-ncbi-nlm-nih-gov-6c9378fc",
     "ev-pmc-ncbi-nlm-nih-gov-73546add",
@@ -3762,6 +3988,7 @@
     "ev-pmc-ncbi-nlm-nih-gov-96ec0bf1",
     "ev-pmc-ncbi-nlm-nih-gov-bd2a5416",
     "ev-pmc-ncbi-nlm-nih-gov-c75576ed",
+    "ev-pmc-ncbi-nlm-nih-gov-c98169b3",
     "ev-pmc-ncbi-nlm-nih-gov-cef84aaa",
     "ev-pmc-ncbi-nlm-nih-gov-de77abab",
     "ev-pmc-ncbi-nlm-nih-gov-fec2069a",
@@ -3794,9 +4021,12 @@
     "ev-science-nasa-gov-5def4189",
     "ev-science-nasa-gov-ed8dcf74",
     "ev-sealevel-nasa-gov-04874c89",
+    "ev-smap-jpl-nasa-gov-ab2e362f",
+    "ev-smap-jpl-nasa-gov-ce59681d",
     "ev-soil-copernicus-org-9ea4dc9c",
     "ev-unccd-int-86040f87",
     "ev-unep-org-b0f403ba",
+    "ev-usgs-gov-67250d10",
     "ev-usgs-gov-6c46fe07",
     "ev-usgs-gov-9f6c0551",
     "ev-usgs-gov-b074ae59",
@@ -5245,16 +5475,19 @@
     "fluorescence-as-a-measure-of-photosynthesis",
     "land-cover-change-detection",
     "land-degradation-and-desertification",
+    "land-surface-temperature-from-space",
     "landsat-program-explained",
     "modis-earth-observation-system",
     "ndvi-explained",
     "ocean-color-observations",
+    "radar-remote-sensing-explained",
     "remote-sensing-for-biodiversity-monitoring",
     "remote-sensing-limitations-and-uncertainty",
     "satellite-altimetry-explained",
     "satellite-deforestation-monitoring",
     "sensor-calibration-and-record-continuity",
     "sentinel-satellites-explained",
+    "soil-moisture-and-what-a-measurement-covers",
     "vegetation-indices-and-monitoring",
     "what-is-remote-sensing",
     "what-satellites-cannot-see",
@@ -5266,13 +5499,17 @@
     "ev-argo-ucsd-edu-ea18b31b",
     "ev-bipm-org-51ac2f38",
     "ev-copernicus-eu-7599d8be",
+    "ev-drought-gov-18702920",
     "ev-earth-system-science-data-net-5105a393",
     "ev-earthdata-nasa-gov-6c298945",
     "ev-earthdata-nasa-gov-7239f9dd",
     "ev-earthdata-nasa-gov-b52a579f",
+    "ev-earthdata-nasa-gov-bbf0d32b",
     "ev-earthdata-nasa-gov-d76ebdc0",
+    "ev-earthdata-nasa-gov-fb5f9fb6",
     "ev-ecmwf-int-48143872",
     "ev-esa-int-042cde5c",
+    "ev-esa-int-ae69d3c3",
     "ev-esa-int-ffbc128f",
     "ev-essd-copernicus-org-3a391427",
     "ev-fao-org-9ea580c0",
@@ -5293,13 +5530,18 @@
     "ev-nsidc-org-a39b5c36",
     "ev-openknowledge-fao-org-2a0da203",
     "ev-openknowledge-fao-org-4e621b27",
+    "ev-pmc-ncbi-nlm-nih-gov-4f6690f8",
     "ev-pmc-ncbi-nlm-nih-gov-543ec72d",
     "ev-pmc-ncbi-nlm-nih-gov-58792f39",
+    "ev-pmc-ncbi-nlm-nih-gov-91ece21f",
     "ev-pubmed-ncbi-nlm-nih-gov-54d25f06",
     "ev-science-nasa-gov-32cc3e70",
     "ev-science-nasa-gov-50b63dc1",
     "ev-science-nasa-gov-5def4189",
+    "ev-science-nasa-gov-72f19731",
     "ev-smap-jpl-nasa-gov-55e010a3",
+    "ev-smap-jpl-nasa-gov-ab2e362f",
+    "ev-smap-jpl-nasa-gov-ce59681d",
     "ev-unccd-int-86040f87",
     "ev-unccd-int-8ea44e27",
     "ev-unccd-int-a27735ac",
@@ -5436,6 +5678,76 @@
     "ev-nlr-gov-415c876d",
     "ev-osti-gov-36c88d7a",
     "ev-pdg-lbl-gov-e02605b9"
+   ]
+  },
+  {
+   "id": "si-unit-system",
+   "canonicalName": "SI system of units",
+   "aliases": [
+    "International System of Units",
+    "SI"
+   ],
+   "definition": "The international measurement system in which every unit is derived from seven exactly fixed constants of nature rather than from a physical artefact, so any laboratory able to realise a constant realises the unit.",
+   "category": "concept",
+   "sections": [
+    "physics"
+   ],
+   "matchTags": [
+    "si-units",
+    "metrology",
+    "standards"
+   ],
+   "matchSlugs": [
+    "the-si-and-its-defining-constants",
+    "what-changed-when-the-kilogram-changed",
+    "why-metrology-went-quantum"
+   ],
+   "relatedEntities": [
+    "measurement-uncertainty"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "atomic-clocks-and-the-second",
+    "calibration-and-traceability",
+    "counting-atoms-and-the-mole",
+    "interlaboratory-comparison-and-consensus-values",
+    "measurement-uncertainty-explained",
+    "quantum-sensors-leaving-the-lab",
+    "radioactivity-and-radiation-units",
+    "the-kelvin-and-the-boltzmann-constant",
+    "the-si-and-its-defining-constants",
+    "what-changed-when-the-kilogram-changed",
+    "why-metrology-went-quantum"
+   ],
+   "evidenceIds": [
+    "ev-bipm-org-51ac2f38",
+    "ev-bipm-org-69ab2e96",
+    "ev-epa-gov-16a415cd",
+    "ev-epa-gov-84eaadf9",
+    "ev-epa-gov-e02c8963",
+    "ev-jcgm-bipm-org-f3e00e46",
+    "ev-journals-aps-org-fe052a5e",
+    "ev-nist-gov-0d56c283",
+    "ev-nist-gov-2c2e44a2",
+    "ev-nist-gov-62e9c9a9",
+    "ev-nist-gov-63336857",
+    "ev-nist-gov-755f62b7",
+    "ev-nist-gov-7d1720a5",
+    "ev-nist-gov-bd399304",
+    "ev-nist-gov-d79e9476",
+    "ev-nist-gov-ed95701e",
+    "ev-nist-gov-f0e231ee",
+    "ev-nist-gov-fce28321",
+    "ev-physics-nist-gov-16db0f6a",
+    "ev-physics-nist-gov-43135424",
+    "ev-physics-nist-gov-4e1ffc83",
+    "ev-physics-nist-gov-7b61309f",
+    "ev-pmc-ncbi-nlm-nih-gov-2e6d6acc",
+    "ev-pmc-ncbi-nlm-nih-gov-943a4e3c",
+    "ev-pmc-ncbi-nlm-nih-gov-96290ccd",
+    "ev-unscear-org-4769bc55",
+    "ev-usgs-gov-9f6c0551",
+    "ev-www-nds-iaea-org-16bb8c07"
    ]
   },
   {
@@ -5841,6 +6153,7 @@
    "childEntities": [],
    "relatedArticles": [
     "environmental-monitoring-networks-are-thinning",
+    "evapotranspiration-and-the-land-water-budget",
     "global-water-cycle-explained",
     "groundwater-and-aquifer-depletion",
     "river-ecology-and-flow-regimes",
@@ -5853,6 +6166,8 @@
     "ev-epa-gov-b808faa5",
     "ev-essd-copernicus-org-3a391427",
     "ev-grace-jpl-nasa-gov-a0e60b7b",
+    "ev-hess-copernicus-org-a23337d7",
+    "ev-hess-copernicus-org-e6ef180f",
     "ev-ipcc-ch-26aac06c",
     "ev-ipcc-ch-2daacb71",
     "ev-journals-plos-org-0324bb88",
@@ -5862,6 +6177,7 @@
     "ev-nature-com-a86b1675",
     "ev-nature-com-c7f98d1e",
     "ev-noaa-gov-78cff8fe",
+    "ev-pmc-ncbi-nlm-nih-gov-f5eadfb3",
     "ev-science-nasa-gov-4c489f75",
     "ev-science-nasa-gov-507391e1",
     "ev-science-org-477a26a7",
@@ -5871,6 +6187,7 @@
     "ev-usgs-gov-02a87a35",
     "ev-usgs-gov-5fea487e",
     "ev-usgs-gov-711a8860",
+    "ev-usgs-gov-934fb0fa",
     "ev-usgs-gov-acd91925",
     "ev-usgs-gov-bf887f63",
     "ev-usgs-gov-c184eed8",
@@ -5972,6 +6289,39 @@
     "ev-webbook-nist-gov-f064876e",
     "ev-who-int-8adffc2b",
     "ev-www1-grc-nasa-gov-c5471a76"
+   ]
+  },
+  {
+   "id": "wet-bulb-temperature",
+   "canonicalName": "Wet-bulb temperature",
+   "aliases": [
+    "wet bulb",
+    "wet-bulb globe temperature"
+   ],
+   "definition": "The lowest temperature reachable by evaporating water into the air at constant pressure. It sets the physical ceiling on evaporative cooling, which is why it, rather than air temperature alone, bounds human heat tolerance.",
+   "category": "measure",
+   "sections": [
+    "ecology",
+    "physics"
+   ],
+   "matchTags": [
+    "wet-bulb",
+    "heat-stress"
+   ],
+   "matchSlugs": [
+    "heat-limits-and-the-wet-bulb-threshold"
+   ],
+   "relatedEntities": [
+    "climate-change"
+   ],
+   "childEntities": [],
+   "relatedArticles": [
+    "heat-limits-and-the-wet-bulb-threshold"
+   ],
+   "evidenceIds": [
+    "ev-pmc-ncbi-nlm-nih-gov-45f8defd",
+    "ev-pmc-ncbi-nlm-nih-gov-cef84aaa",
+    "ev-weather-gov-eb899786"
    ]
   }
  ]

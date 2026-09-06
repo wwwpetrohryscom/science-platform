@@ -2491,6 +2491,180 @@
         "genome-editing",
         "dna-sequencing"
       ]
+    },
+    {
+      "id": "si-unit-system",
+      "canonicalName": "SI system of units",
+      "aliases": [
+        "International System of Units",
+        "SI"
+      ],
+      "definition": "The international measurement system in which every unit is derived from seven exactly fixed constants of nature rather than from a physical artefact, so any laboratory able to realise a constant realises the unit.",
+      "category": "concept",
+      "sections": [
+        "physics"
+      ],
+      "matchTags": [
+        "si-units",
+        "metrology",
+        "standards"
+      ],
+      "matchSlugs": [
+        "the-si-and-its-defining-constants",
+        "what-changed-when-the-kilogram-changed",
+        "why-metrology-went-quantum"
+      ],
+      "relatedEntities": [
+        "measurement-uncertainty"
+      ]
+    },
+    {
+      "id": "atomic-clock",
+      "canonicalName": "Atomic clock",
+      "aliases": [
+        "caesium clock",
+        "optical clock"
+      ],
+      "definition": "A clock whose rate is set by a transition between energy levels of an atom. The second is defined by counting a fixed number of caesium hyperfine oscillations, so an atomic clock realises the unit rather than being calibrated against one.",
+      "category": "instrument",
+      "sections": [
+        "physics"
+      ],
+      "matchTags": [
+        "atomic-clocks",
+        "timekeeping",
+        "quantum-metrology"
+      ],
+      "matchSlugs": [
+        "atomic-clocks-and-the-second"
+      ],
+      "relatedEntities": [
+        "si-unit-system"
+      ]
+    },
+    {
+      "id": "critical-mineral",
+      "canonicalName": "Critical mineral",
+      "aliases": [
+        "critical raw material",
+        "strategic mineral"
+      ],
+      "definition": "A mineral judged both economically important and vulnerable to supply disruption. The designation is a policy assessment of a supply chain, not a statement about geological scarcity, and each jurisdiction publishes its own list.",
+      "category": "concept",
+      "sections": [
+        "physics",
+        "ecology"
+      ],
+      "matchTags": [
+        "critical-minerals",
+        "rare-earths",
+        "supply-chains",
+        "mining"
+      ],
+      "matchSlugs": [
+        "critical-minerals-and-supply-concentration",
+        "materials-for-magnets-and-why-substitution-is-hard",
+        "mineral-demand-and-conservation-trade-offs"
+      ],
+      "relatedEntities": [
+        "material-circularity"
+      ]
+    },
+    {
+      "id": "material-circularity",
+      "canonicalName": "Material circularity",
+      "aliases": [
+        "recycling",
+        "circular economy"
+      ],
+      "definition": "The share of a material's demand met by recovering it from products already in use rather than from primary extraction. It is bounded by how much material is in circulation and by how long products last, not only by collection rates.",
+      "category": "concept",
+      "sections": [
+        "physics"
+      ],
+      "matchTags": [
+        "recycling",
+        "circular-economy",
+        "substitution"
+      ],
+      "matchSlugs": [
+        "recycling-and-material-circularity"
+      ],
+      "relatedEntities": [
+        "critical-mineral"
+      ]
+    },
+    {
+      "id": "ammonia-synthesis",
+      "canonicalName": "Ammonia synthesis",
+      "aliases": [
+        "Haber-Bosch process",
+        "nitrogen fixation (industrial)"
+      ],
+      "definition": "The industrial combination of nitrogen and hydrogen into ammonia under high pressure and temperature. It is the route by which most reactive nitrogen enters the biosphere and one of the largest single industrial energy demands.",
+      "category": "process",
+      "sections": [
+        "physics",
+        "ecology"
+      ],
+      "matchTags": [
+        "ammonia",
+        "fertiliser",
+        "industrial-energy"
+      ],
+      "matchSlugs": [
+        "the-energy-cost-of-ammonia-synthesis"
+      ],
+      "relatedEntities": [
+        "nitrogen-cycle"
+      ]
+    },
+    {
+      "id": "wet-bulb-temperature",
+      "canonicalName": "Wet-bulb temperature",
+      "aliases": [
+        "wet bulb",
+        "wet-bulb globe temperature"
+      ],
+      "definition": "The lowest temperature reachable by evaporating water into the air at constant pressure. It sets the physical ceiling on evaporative cooling, which is why it, rather than air temperature alone, bounds human heat tolerance.",
+      "category": "measure",
+      "sections": [
+        "ecology",
+        "physics"
+      ],
+      "matchTags": [
+        "wet-bulb",
+        "heat-stress"
+      ],
+      "matchSlugs": [
+        "heat-limits-and-the-wet-bulb-threshold"
+      ],
+      "relatedEntities": [
+        "climate-change"
+      ]
+    },
+    {
+      "id": "dna-repair",
+      "canonicalName": "DNA repair",
+      "aliases": [
+        "double-strand break repair",
+        "DNA damage response"
+      ],
+      "definition": "The set of enzymatic pathways that detect and mend lesions in DNA. Which pathway acts determines whether damage is restored faithfully, repaired with error, or left to kill the cell.",
+      "category": "process",
+      "sections": [
+        "biology"
+      ],
+      "matchTags": [
+        "dna-repair",
+        "double-strand-breaks"
+      ],
+      "matchSlugs": [
+        "dna-damage-and-repair-after-radiation"
+      ],
+      "relatedEntities": [
+        "dna"
+      ]
     }
   ]
 }

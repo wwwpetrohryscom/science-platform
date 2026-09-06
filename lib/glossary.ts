@@ -39,6 +39,19 @@ export type GlossaryRelatedArticle = {
 export type GlossaryEntry = {
   slug: string;
   term: string;
+  /**
+   * Short form for the document title, when the full term does not fit.
+   *
+   * The head title is `term — <glossary label>`, and an acronym term
+   * that spells itself out in parentheses spends 40 characters before
+   * the label is appended. Every locale's NDVI entry landed within a
+   * character or two of the 60-character limit and the Russian one
+   * crossed it. The H1 keeps the full term — a reader arriving on the
+   * page should see what the acronym stands for — and only the head
+   * title falls back to this. Same split as `metaTitle` in article
+   * frontmatter.
+   */
+  metaTerm?: string;
   /** One-line definition (<= ~200 chars). Used in cards, list views, JSON-LD. */
   shortDefinition: string;
   /** Longer paragraph(s) of explanation. */
@@ -63,6 +76,8 @@ export type GlossaryEntry = {
  *  language and cannot be quietly dropped from one. */
 export type GlossaryLocalization = {
   term: string;
+  /** Short form for the head title — see `metaTerm` on GlossaryEntry. */
+  metaTerm?: string;
   aliases?: string[];
   shortDefinition: string;
   explanation: string;
@@ -152,6 +167,7 @@ export function getGlossaryEntry(
   return {
     ...base,
     term: loc.term,
+    metaTerm: loc.metaTerm,
     shortDefinition: loc.shortDefinition,
     explanation: loc.explanation,
   };

@@ -1,5 +1,5 @@
 {
- "generatedDate": "2026-09-05",
+ "generatedDate": "2026-09-06",
  "records": [
   {
    "evidenceId": "ev-academic-oup-com-24549583",
@@ -829,6 +829,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-bg-copernicus-org-d8364215",
+   "title": "Global-change effects on early-stage decomposition processes in tidal wetlands – implications from a global survey using standardized litter",
+   "organization": "Biogeosciences",
+   "url": "https://bg.copernicus.org/articles/15/3189/2018/",
+   "host": "bg.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/ecosystems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "decomposition-and-the-return-of-nutrients",
+     "section": "ecology/ecosystems",
+     "supports": "Mueller and colleagues (2018). The 30-site survey, the 10.9–28.5 °C temperature gradient, the 29 per cent stabilisation difference between flooding zones, the ~75 per cent decline over the temperature gradient, the >70 per cent eutrophication effect, and the minor effect on decomposition rate itself."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-bgs-ac-uk-24b125f8",
    "title": "How are earthquakes detected?",
    "organization": "British Geological Survey",
@@ -960,6 +982,12 @@
      "kind": "article",
      "slug": "what-changed-when-the-kilogram-changed",
      "section": "physics/mechanics-waves",
+     "supports": "The international vocabulary and uncertainty framework these definitions are expressed and realised within."
+    },
+    {
+     "kind": "article",
+     "slug": "why-metrology-went-quantum",
+     "section": "physics/quantum-basics",
      "supports": "The international vocabulary and uncertainty framework these definitions are expressed and realised within."
     }
    ],
@@ -2840,6 +2868,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-drought-gov-18702920",
+   "title": "Soil moisture",
+   "organization": "NOAA National Integrated Drought Information System",
+   "url": "https://www.drought.gov/topics/soil-moisture",
+   "host": "drought.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/soils"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "soil-moisture-and-what-a-measurement-covers",
+     "section": "ecology/soils",
+     "supports": "The surface (upper 10 cm) and root-zone (upper 200 cm) definitions, the top-1-metre convention in the headline maps, the regional non-comparability of absolute values, and the metadata requirement."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-earth-system-science-data-net-5105a393",
    "title": "reference datasets",
    "organization": "Earth System Science Data",
@@ -2971,6 +3021,29 @@
      "slug": "what-satellites-cannot-see",
      "section": "insights",
      "supports": "Footprint size, eight-beam transects and the 51.6° latitude coverage limit."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "continuous",
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-earthdata-nasa-gov-bbf0d32b",
+   "title": "What is synthetic aperture radar?",
+   "organization": "NASA Earthdata",
+   "url": "https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar",
+   "host": "earthdata.nasa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "radar-remote-sensing-explained",
+     "section": "ecology/earth-observation",
+     "supports": "The active-sensing definition, the 4,250 m antenna required for 10 m resolution from a real aperture, the synthetic-aperture principle, the X-, C- and L-band frequency and wavelength ranges with their typical uses, and the 23 cm penetration statement for canopy and trunks."
     }
    ],
    "isLiveDataset": true,
@@ -3211,6 +3284,36 @@
      "slug": "biomes-explained",
      "section": "ecology/ecosystems",
      "supports": "Classification schemes and the documented staleness of the training database."
+    }
+   ],
+   "isLiveDataset": true,
+   "updateFrequency": "continuous",
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-earthdata-nasa-gov-fb5f9fb6",
+   "title": "SMAP L-band radiometer",
+   "organization": "NASA Earthdata",
+   "url": "https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer",
+   "host": "earthdata.nasa.gov",
+   "sourceType": "scientific-dataset",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation",
+    "ecology/soils"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "radar-remote-sensing-explained",
+     "section": "ecology/earth-observation",
+     "supports": "The 1–2 GHz frequency range and 30–15 cm wavelength range used for soil observation, and the passive-microwave contrast to active radar."
+    },
+    {
+     "kind": "article",
+     "slug": "soil-moisture-and-what-a-measurement-covers",
+     "section": "ecology/soils",
+     "supports": "The 1–2 GHz frequency range and 30–15 cm wavelength range, the 9 km and 36 km soil-moisture resolutions, and the daily revisit."
     }
    ],
    "isLiveDataset": true,
@@ -6256,6 +6359,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-esa-int-ae69d3c3",
+   "title": "Sentinel-1",
+   "organization": "European Space Agency",
+   "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1",
+   "host": "esa.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "radar-remote-sensing-explained",
+     "section": "ecology/earth-observation",
+     "supports": "The two-satellite constellation design, the all-weather day-and-night radar imaging concept, the 693 km orbit, and the application list spanning ice sheets and glaciers, ground displacement from earthquakes, maritime traffic, flood detection and land-use change."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-esa-int-ffbc128f",
    "title": "Biomass",
    "organization": "European Space Agency",
@@ -9144,6 +9269,50 @@
      "slug": "what-satellites-cannot-see",
      "section": "insights",
      "supports": "Coarse resolution, monthly cadence, and the need for a model to separate storage compartments."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-hess-copernicus-org-a23337d7",
+   "title": "Evaluation of global terrestrial evapotranspiration using state-of-the-art approaches in remote sensing, machine learning and land surface modeling",
+   "organization": "Hydrology and Earth System Sciences",
+   "url": "https://hess.copernicus.org/articles/24/1485/2020/",
+   "host": "hess.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "evapotranspiration-and-the-land-water-budget",
+     "section": "ecology/earth-systems",
+     "supports": "Pan and colleagues (2020). The three method families, the 589.6 to 617.1 mm yr⁻¹ ensemble-mean range, and the concentration of disagreement in the Amazon Basin and arid and semi-arid regions."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-hess-copernicus-org-e6ef180f",
+   "title": "Insights into evapotranspiration partitioning based on hydrological observations using the generalized proportionality hypothesis",
+   "organization": "Hydrology and Earth System Sciences",
+   "url": "https://hess.copernicus.org/articles/30/317/2026/",
+   "host": "hess.copernicus.org",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "evapotranspiration-and-the-land-water-budget",
+     "section": "ecology/earth-systems",
+     "supports": "Hassan, Prentice and Liang (2026). The 648-watershed method, the vegetation-type ratios from 0.32 for grasslands to 0.70 for mixed forests, and the cited compilation ranges of 0.24–0.90 and 0.24–0.86."
     }
    ],
    "isLiveDataset": false,
@@ -17918,6 +18087,12 @@
      "slug": "what-changed-when-the-kilogram-changed",
      "section": "physics/mechanics-waves",
      "supports": "The Planck-constant definition of the kilogram."
+    },
+    {
+     "kind": "article",
+     "slug": "why-metrology-went-quantum",
+     "section": "physics/quantum-basics",
+     "supports": "The Boltzmann and Avogadro values quoted here, in their defining form."
     }
    ],
    "isLiveDataset": false,
@@ -18199,6 +18374,12 @@
      "slug": "atomic-clocks-and-the-second",
      "section": "physics/quantum-basics",
      "supports": "The definition by counting 9,192,631,770 oscillations, the 1/3,000,000 second per year figure for commercial caesium clocks, and the ten-thousandfold advantage of experimental clocks."
+    },
+    {
+     "kind": "article",
+     "slug": "why-metrology-went-quantum",
+     "section": "physics/quantum-basics",
+     "supports": "Caesium timekeeping performance and the margin held by experimental clocks."
     }
    ],
    "isLiveDataset": false,
@@ -18333,6 +18514,12 @@
      "slug": "what-changed-when-the-kilogram-changed",
      "section": "physics/mechanics-waves",
      "supports": "The exact value of h and the units it helps define."
+    },
+    {
+     "kind": "article",
+     "slug": "why-metrology-went-quantum",
+     "section": "physics/quantum-basics",
+     "supports": "The seven defining constants and the units each supports."
     }
    ],
    "isLiveDataset": false,
@@ -22261,6 +22448,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-22979bc2",
+   "title": "Model application niche analysis: assessing the transferability and generalizability of ecological models",
+   "organization": "Ecosphere",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6140329/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "species-distribution-models-and-their-limits",
+     "section": "ecology/biodiversity",
+     "supports": "Moon and colleagues (2017). The application-niche framing, the performance-curve and heat-map method, the contextual-similarity principle, and the 35 per cent generalisability result in the wetland case study."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-23494d78",
    "title": "Rapid increase in southern elephant seal genetic diversity after a founder event",
    "organization": "Proceedings of the Royal Society B",
@@ -23426,6 +23635,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-4c2fb80a",
+   "title": "Global decomposition experiment shows soil animal impacts on decomposition are climate-dependent",
+   "organization": "Global Change Biology",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3597247/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/ecosystems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "decomposition-and-the-return-of-nutrients",
+     "section": "ecology/ecosystems",
+     "supports": "Wall and colleagues (2008). The 30-site, six-continent coordinated experiment; the conditional result for mesofauna in temperate and wet tropical climates against climate-constrained sites; the relation to the 1979 Swift hypothesis."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-4cd84284",
    "title": "generally no stronger than between echolocating and comparable non-echolocating lineages",
    "organization": "Molecular Biology and Evolution (via PubMed Central)",
@@ -23504,6 +23735,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-4f6690f8",
+   "title": "Intercomparison of in situ sensors for ground-based land surface temperature measurements",
+   "organization": "Sensors",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570879/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "land-surface-temperature-from-space",
+     "section": "ecology/earth-observation",
+     "supports": "Krishnan and colleagues (2020). Radiometer brightness-temperature bias and RMSE, the daytime and nighttime disagreements between ground methods, and the scarcity and footprint-mismatch problems in validation."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-4f886fa4",
    "title": "Mechanisms and impact of symbiotic phosphate acquisition",
    "organization": "Cold Spring Harbor Perspectives in Biology (PMC)",
@@ -23542,6 +23795,28 @@
      "slug": "grid-integration-of-variable-renewables",
      "section": "physics/energy",
      "supports": "Ancillary-service costs, minimum national demand, and the synchronous capacity estimated as necessary for stability."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-5147dae7",
+   "title": "Effects of species traits and environmental predictors on performance and transferability of ecological niche models",
+   "organization": "Scientific Reports",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6414724/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "species-distribution-models-and-their-limits",
+     "section": "ecology/biodiversity",
+     "supports": "Regos and colleagues (2019). Acceptable temporal transferability for fewer than 25 per cent of species; the gain from combining climate, land-use/cover and ecosystem functional attributes; and the finding that trait effects on calibration accuracy do not carry over to transferability."
     }
    ],
    "isLiveDataset": false,
@@ -24348,6 +24623,28 @@
      "slug": "why-wavelength-decides-what-radiation-does",
      "section": "physics/quantum-basics",
      "supports": "The UVA, UVB and UVC bands and the 5%/95% split between damage and intensity."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-6aba9639",
+   "title": "Effects of initial leaching for estimates of mass loss and microbial decomposition — call for an increased nuance",
+   "organization": "Ecology and Evolution",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9339754/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/ecosystems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "decomposition-and-the-return-of-nutrients",
+     "section": "ecology/ecosystems",
+     "supports": "Lind and colleagues (2022). Rapid leaching within the first three to four hours, the 30–50 per cent figure for high-moisture environments, and the systematic overestimation it produces."
     }
    ],
    "isLiveDataset": false,
@@ -25337,6 +25634,28 @@
      "slug": "botany-plant-diversity-explained",
      "section": "biology/taxonomy",
      "supports": "Fossil-calibrated divergence times for embryophytes and crown vascular plants."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-91ece21f",
+   "title": "A comparative analysis of retrieval algorithms of land surface temperature from Landsat-8 data: a case study of Shanghai, China",
+   "organization": "International Journal of Environmental Research and Public Health",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8198215/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "land-surface-temperature-from-space",
+     "section": "ecology/earth-observation",
+     "supports": "Jiang and Lin (2021). The four-algorithm comparison, the 2.54–3.51 °C winter and 2.39–12.32 °C summer differences against station air temperature, and the algorithm recommendations by season."
     }
    ],
    "isLiveDataset": false,
@@ -26562,6 +26881,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-c98169b3",
+   "title": "Species distribution model transferability and model grain size – finer may not always be better",
+   "organization": "Scientific Reports",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5940916/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "species-distribution-models-and-their-limits",
+     "section": "ecology/biodiversity",
+     "supports": "Manzoor, Griffiths and Lukac (2018). The Snowdonia-to-Brecon-Beacons transfer for *Rhododendron ponticum*, the Continuous Boyce Index of 0.90 at 300 m against 0.77 at 50 m, and the case for optimising rather than minimising grain."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-c9b89da5",
    "title": "15 per cent of angiosperm and 31 per cent of fern speciation events",
    "organization": "PNAS (via PubMed Central)",
@@ -27295,6 +27636,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-e02b83ea",
+   "title": "Nutrient scarcity strengthens soil fauna control over leaf litter decomposition in tropical rainforests",
+   "organization": "Proceedings of the Royal Society B",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6742996/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/ecosystems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "decomposition-and-the-return-of-nutrients",
+     "section": "ecology/ecosystems",
+     "supports": "Peguero and colleagues (2019). The 22.6 per cent fauna enhancement, its increase as microenvironmental nutrient availability declines, and the buffering interpretation."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-e1ed8715",
    "title": "Utilizing curtailed wind and solar power to scale up electrolytic hydrogen production in Europe",
    "organization": "Environmental Science & Technology",
@@ -27823,6 +28186,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-f5eadfb3",
+   "title": "A harmonized global gridded transpiration product based on collocation analysis",
+   "organization": "Scientific Data",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11161592/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "evapotranspiration-and-the-land-water-budget",
+     "section": "ecology/earth-systems",
+     "supports": "Li and colleagues (2024). The 0.1° daily 2000–2020 product, and the statement that transpiration uncertainties in earlier global estimates often exceed those of total evapotranspiration by two to three times."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-f67c0ff2",
    "title": "Defining functional DNA elements in the human genome",
    "organization": "Kellis and colleagues, PNAS",
@@ -28056,6 +28441,28 @@
      "slug": "dna-sequencing-technologies",
      "section": "biology/biotechnology",
      "supports": "Per-read accuracy distributions, methylation-linked systematic errors and coverage effects."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-pmc-ncbi-nlm-nih-gov-fed4039c",
+   "title": "Climate and litter quality differently modulate the effects of soil fauna on litter decomposition across biomes",
+   "organization": "Ecology Letters",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411175/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "sourceType": "peer-reviewed",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/ecosystems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "decomposition-and-the-return-of-nutrients",
+     "section": "ecology/ecosystems",
+     "supports": "García-Palacios and colleagues (2013). The approximately 27 per cent average increment attributable to soil fauna, and the biome-dependent modulation by climate and litter quality."
     }
    ],
    "isLiveDataset": false,
@@ -33396,6 +33803,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-science-nasa-gov-72f19731",
+   "title": "Landsat Thermal Infrared Sensor",
+   "organization": "NASA",
+   "url": "https://science.nasa.gov/mission/landsat/tirs",
+   "host": "science.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-observation"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "land-surface-temperature-from-space",
+     "section": "ecology/earth-observation",
+     "supports": "The two thermal bands at 10.6–11.2 μm and 11.5–12.5 μm, the 100-metre instrument resolution resampled to 30 metres, and the science objectives including evapotranspiration, urban heat, volcanic hazard and wildfire."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-science-nasa-gov-754ecdf4",
    "title": "Dark matter and dark energy",
    "organization": "NASA",
@@ -34828,6 +35257,50 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-smap-jpl-nasa-gov-ab2e362f",
+   "title": "SMAP observatory",
+   "organization": "NASA Jet Propulsion Laboratory",
+   "url": "https://smap.jpl.nasa.gov/observatory/",
+   "host": "smap.jpl.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/soils"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "soil-moisture-and-what-a-measurement-covers",
+     "section": "ecology/soils",
+     "supports": "The radiometer and radar instrument description, the 36 km every 2–3 days radiometer product, and the anticipated 9 km combined product."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-smap-jpl-nasa-gov-ce59681d",
+   "title": "SMAP: why it matters",
+   "organization": "NASA Jet Propulsion Laboratory",
+   "url": "https://smap.jpl.nasa.gov/mission/why-it-matters/",
+   "host": "smap.jpl.nasa.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/soils"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "soil-moisture-and-what-a-measurement-covers",
+     "section": "ecology/soils",
+     "supports": "The sensing depth stated as the top two inches of soil, and the drought and crop-forecast applications."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-soil-copernicus-org-9ea4dc9c",
    "title": "Large errors in soil carbon measurements attributed to inconsistent sample processing",
    "organization": "SOIL (European Geosciences Union)",
@@ -35597,6 +36070,28 @@
    "verificationStatus": "unchecked"
   },
   {
+   "evidenceId": "ev-usgs-gov-67250d10",
+   "title": "INHABIT species potential distribution across the contiguous United States, version 3.0",
+   "organization": "US Geological Survey",
+   "url": "https://www.usgs.gov/data/inhabit-species-potential-distribution-across-contiguous-united-states-ver-30-february-2023",
+   "host": "usgs.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/biodiversity"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "species-distribution-models-and-their-limits",
+     "section": "ecology/biodiversity",
+     "supports": "The species count, the five-algorithm by two-background-method ensemble, the treatment of sampling bias, and the three published thresholds."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
    "evidenceId": "ev-usgs-gov-6c46fe07",
    "title": "Landsat vegetation indices",
    "organization": "USGS",
@@ -35852,6 +36347,28 @@
      "slug": "remote-sensing-for-biodiversity-monitoring",
      "section": "ecology/biodiversity",
      "supports": "Long-term consistent satellite imagery archive."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-usgs-gov-934fb0fa",
+   "title": "Evapotranspiration and the water cycle",
+   "organization": "US Geological Survey, Water Science School",
+   "url": "https://www.usgs.gov/special-topics/water-science-school/science/evapotranspiration-and-water-cycle",
+   "host": "usgs.gov",
+   "sourceType": "government",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "evapotranspiration-and-the-land-water-budget",
+     "section": "ecology/earth-systems",
+     "supports": "The definition of evapotranspiration, the listed controls on transpiration, and the field-scale magnitudes for maize and a large oak."
     }
    ],
    "isLiveDataset": false,

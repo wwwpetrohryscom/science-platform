@@ -45,7 +45,7 @@ Four regimes, each drawing on a different source of skill.
 
 **Days to about two weeks.** Skill comes from the initial atmospheric state, and it decays as described above. This is the classic forecast problem.
 
-**Weeks to seasons.** Skill comes from slowly varying boundary conditions — chiefly ocean surface temperature, soil moisture, and snow cover. The atmosphere forgets its initial state, but the ocean does not, and its influence on atmospheric statistics persists. [ENSO](/en/ecology/earth-systems/el-nino-la-nina-enso-explained) is the single largest contributor to seasonal skill worldwide.
+**Weeks to seasons.** Skill comes from slowly varying boundary conditions — chiefly ocean surface temperature, [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers), and snow cover. The atmosphere forgets its initial state, but the ocean does not, and its influence on atmospheric statistics persists. [ENSO](/en/ecology/earth-systems/el-nino-la-nina-enso-explained) is the single largest contributor to seasonal skill worldwide.
 
 **Years to a decade.** Decadal prediction attempts to combine an initialised ocean state with the forced response. It is the least mature of the four regimes: the signal from internal variability is comparable to the forced signal at this horizon, so both must be got right.
 

@@ -4,7 +4,7 @@ excerpt: Cities have an energy balance, a water balance and a species pool, all 
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - urban-ecology
@@ -31,7 +31,7 @@ The U.S. Environmental Protection Agency describes the surface effect as forming
 
 | Quantity | What the instrument records | How it is obtained | Behaviour |
 | --- | --- | --- | --- |
-| Surface heat island | Radiometric temperature of the visible surface | Thermal infrared from satellite or aircraft | Large by day, strongly patterned, sensitive to overpass time |
+| Surface heat island | Radiometric temperature of the visible surface | [Thermal infrared](/en/ecology/earth-observation/land-surface-temperature-from-space) from satellite or aircraft | Large by day, strongly patterned, sensitive to overpass time |
 | Canopy-layer heat island | Air temperature from ground level to roof height | Fixed stations, vehicle traverses, crowdsourced sensors | Small by day, relatively larger at night |
 | Modelled temperature field | Neither — a simulation constrained by observations | Urban climate models run with observed inputs | Fills gaps where no field data exist; inherits the model's assumptions |
 

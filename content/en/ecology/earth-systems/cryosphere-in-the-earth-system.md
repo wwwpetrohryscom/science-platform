@@ -31,7 +31,7 @@ Grouping them under one heading is convenient but conceals a spread of response 
 
 ## Channel one: reflectivity
 
-The most familiar channel. Snow reflects up to about 90 per cent of incident sunlight and bare sea ice between 40 and 60 per cent, according to NSIDC, against a much darker ocean or [land surface](/en/ecology/earth-systems/biosphere-climate-interactions) underneath. Losing that cover raises absorbed energy locally.
+The most familiar channel. Snow reflects up to about 90 per cent of incident sunlight and bare sea ice between 40 and 60 per cent, according to NSIDC, against a much darker ocean or land surface underneath. Losing that cover raises absorbed energy locally.
 
 The global magnitude is more modest than the local contrast implies — AR6 assesses the surface-albedo feedback at +0.35 W m⁻² °C⁻¹, very likely range 0.10 to 0.60 — for reasons of area, sunlight angle, and cloud cover set out in [the ice-albedo feedback](/en/ecology/earth-systems/ice-albedo-feedback-explained).
 

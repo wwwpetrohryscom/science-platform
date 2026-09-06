@@ -40,7 +40,7 @@ The signal is strongest in stands aged 40 to 100 years — the cohort that drove
 
 Three drivers, each individually documented, appear to be reinforcing each other.
 
-**Drought frequency.** Continental interiors have seen an increase in years where soil moisture limits stomatal conductance for a substantial fraction of the growing season. Even when those years are not classified as "drought" in conventional indices, they reduce annual carbon uptake.
+**Drought frequency.** Continental interiors have seen an increase in years where [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers) limits stomatal conductance for a substantial fraction of the growing season. Even when those years are not classified as "drought" in conventional indices, they reduce annual carbon uptake.
 
 **Pest range expansion.** [Bark beetles](/en/ecology/forests/forest-disturbance-fire-insects-windthrow) and defoliating insects are expanding their range polewards and upslope. The overlap with stressed stands shortens the recovery window between disturbance events. Stands that historically had decades to recover between outbreaks now have years.
 

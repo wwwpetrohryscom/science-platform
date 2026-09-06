@@ -68,6 +68,42 @@ export type KeywordEntry = {
 export const MIN_ANCHOR_WORDS = 2;
 
 /**
+ * Anchors whose referent is fixed by the sentence, not by the index.
+ *
+ * MIN_ANCHOR_WORDS removes single words, and `crossesSection` removes
+ * matches that jump a discipline. Neither catches a two-word phrase that
+ * names a general thing inside one discipline, and the corpus filled up
+ * with exactly that:
+ *
+ *   - "land surface" is a plain geographic noun in every one of the 15
+ *     sentences that carried it ("3 per cent of the global land
+ *     surface"), all linked to an article about biosphere-climate
+ *     interactions.
+ *   - "satellite products" linked to primary production, in sentences
+ *     about burned area and about the accuracy of thermal retrievals.
+ *   - "land use" linked to forest ecosystems, in a sentence about
+ *     bookkeeping models and in a list of radiative forcing agents.
+ *   - "energy budget" is the planet's radiation balance in six
+ *     sentences, the surface energy balance in three, and the power
+ *     draw of a quantum computer in one. All ten went to the same two
+ *     articles.
+ *   - "gas exchange" is air-sea in the ocean articles, alveolar in the
+ *     physiology articles, and canopy-scale above a flux tower.
+ *
+ * These are not near-misses to be tuned. The string genuinely does not
+ * determine the target, so the index must not claim it. A human can
+ * still link any of them by hand, and `related` frontmatter still works
+ * — this only stops the automatic pass from guessing.
+ */
+export const GENERIC_ANCHORS: ReadonlySet<string> = new Set([
+  "land surface",
+  "land use",
+  "satellite products",
+  "energy budget",
+  "gas exchange",
+]);
+
+/**
  * Sections.
  *
  * Two words being identical does not make them the same idea. "Energy
@@ -166,6 +202,9 @@ export function buildKeywordIndex(articles: LinkableArticle[]): KeywordEntry[] {
       // to carry the tag. The tag "ipcc-ar6" was linking five separate
       // articles at one page about carbon budgets.
       if (/\d/.test(keyword)) continue;
+      // A phrase that names a general thing rather than this article's
+      // subject — see GENERIC_ANCHORS.
+      if (GENERIC_ANCHORS.has(keyword.toLowerCase())) continue;
       entries.push({
         keyword,
         url: a.url,

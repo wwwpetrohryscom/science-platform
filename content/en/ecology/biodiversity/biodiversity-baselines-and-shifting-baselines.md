@@ -20,7 +20,7 @@ _bodyHash: 377e77e4
 readingTime: 5
 ---
 
-Almost every claim about nature contains a hidden comparison. To say a population has declined, recovered, or remained intact is to measure it against some earlier state taken as normal. That earlier state is the reference point, and choosing it is as consequential as the choice of metric itself — the problem set out in [why a species count answers a narrower question than it appears to](/en/ecology/biodiversity/why-species-counts-mislead-conservation). Choosing it is one of the quietest yet most consequential decisions in biodiversity monitoring.
+Almost every claim about nature contains a hidden comparison. To say a population has declined, recovered, or remained intact is to measure it against some earlier state taken as normal. That earlier state is the reference point, and choosing it is as consequential as the choice of metric itself — the problem set out in [why a species count answers a narrower question than it appears to](/en/ecology/biodiversity/why-species-counts-mislead-conservation). Choosing it is one of the quietest yet most consequential decisions in [biodiversity monitoring](/en/ecology/biodiversity/species-distribution-models-and-their-limits).
 
 ## What a baseline is and why it matters
 

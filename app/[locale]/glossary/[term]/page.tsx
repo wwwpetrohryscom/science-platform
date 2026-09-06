@@ -54,7 +54,7 @@ export function generateMetadata({ params }: Props): Metadata {
   }
   const t = translator(getMessages(locale));
   return buildMetadata({
-    title: `${entry.term} — ${t("glossary.label")}`,
+    title: `${entry.metaTerm ?? entry.term} — ${t("glossary.label")}`,
     description: entry.shortDefinition,
     path: `/glossary/${entry.slug}`,
     locale,

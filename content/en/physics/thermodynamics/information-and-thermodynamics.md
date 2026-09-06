@@ -61,7 +61,7 @@ Three misreadings are common enough to name.
 
 The link to [entropy as a count of microstates](/en/physics/thermodynamics/entropy-explained) is the substantive one. Boltzmann's entropy counts arrangements consistent with a macroscopic description; Shannon's counts messages consistent with a probability distribution. Landauer's principle is the exchange rate between them, and the constant that converts is the same k_B the SI now fixes exactly.
 
-It also bears on [quantum computing](/en/physics/quantum-basics/quantum-computing-fundamentals), though not in the way it is often invoked. Quantum gates are unitary and therefore logically reversible, so the Landauer cost of the computation itself is zero. The [energy budget](/en/physics/climate-physics/atmospheric-physics-explained) of a quantum machine is dominated by error correction, measurement, and refrigeration — all of which involve discarding information, which puts the bound back in play at the level of the apparatus rather than the algorithm.
+It also bears on [quantum computing](/en/physics/quantum-basics/quantum-computing-fundamentals), though not in the way it is often invoked. Quantum gates are unitary and therefore logically reversible, so the Landauer cost of the computation itself is zero. The energy budget of a quantum machine is dominated by error correction, measurement, and refrigeration — all of which involve discarding information, which puts the bound back in play at the level of the apparatus rather than the algorithm.
 
 ## Sources
 

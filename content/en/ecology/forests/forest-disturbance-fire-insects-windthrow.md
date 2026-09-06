@@ -58,7 +58,7 @@ Satellite mapping avoids the unit problem. Across continental Europe from 1986 t
 
 | Agent | What the record mostly measures | Reported direction | Main comparability problem |
 | --- | --- | --- | --- |
-| Fire | Burned area from [satellite products](/en/ecology/ecosystems/primary-production-and-energy-flow) and national registers | Area down, extreme events up | Wildfire not separated from prescribed and cultural burning |
+| Fire | Burned area from satellite products and national registers | Area down, extreme events up | Wildfire not separated from prescribed and cultural burning |
 | Insects | Aerial and ground survey of defoliation and mortality | Highly variable, no clean global trend | Coverage concentrated in two regions; overlapping species maps can double-count |
 | Disease | Survey of affected stands | Variable, driven by a few large reporters | Symptoms of root disease are hard to detect at all |
 | Wind and severe weather | Salvage volume, sometimes converted to area | Episodic, storm-driven | Volume-to-area conversion often not possible |

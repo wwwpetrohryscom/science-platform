@@ -63,7 +63,7 @@ Most evaporation occurs over oceans, where there are few instruments, and most o
 
 Global closure of the water budget — making evaporation, precipitation, runoff, and storage change balance — remains an active problem, and residual imbalances in published budgets are usually larger than the trends being sought. AR6 notes explicitly that although an increase in global precipitation is consistent with physical expectations, it has not yet been detected and attributed to human activity, given observational uncertainty and a weak signal-to-noise ratio. That is a useful calibration: a physically expected change is not automatically an observed one.
 
-The satellite side of this problem — what can and cannot be retrieved about soil moisture, precipitation, and water storage — is covered in [drought monitoring systems](/en/ecology/earth-observation/drought-monitoring-systems) and in the broader treatment of [remote-sensing uncertainty](/en/ecology/earth-observation/remote-sensing-limitations-and-uncertainty).
+The satellite side of this problem — what can and cannot be retrieved about [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers), precipitation, and water storage — is covered in [drought monitoring systems](/en/ecology/earth-observation/drought-monitoring-systems) and in the broader treatment of [remote-sensing uncertainty](/en/ecology/earth-observation/remote-sensing-limitations-and-uncertainty).
 
 ## Sources
 

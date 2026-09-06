@@ -33,7 +33,7 @@ GMSL is the right indicator for global climate communication. It answers: *has t
 
 ## Local relative sea level
 
-GMSL is not what coastal communities experience. What they experience is relative sea level — the height of the sea relative to the local [land surface](/en/ecology/earth-systems/biosphere-climate-interactions). Two factors make this differ from GMSL:
+GMSL is not what coastal communities experience. What they experience is relative sea level — the height of the sea relative to the local land surface. Two factors make this differ from GMSL:
 
 - **Vertical land motion.** The land itself rises or subsides. Glacial-isostatic adjustment is still raising parts of Scandinavia (rebound from removed Pleistocene ice) and lowering parts of the U.S. East Coast (the forebulge collapse). Sediment loading subsides large delta regions; groundwater extraction subsides cities.
 - **Ocean dynamic and gravitational effects.** GMSL is a global mean; regional sea levels deviate from it because of ocean currents, wind patterns, and the gravitational signature of ice loss (the fingerprint problem — losing ice in Greenland actually reduces sea level near Greenland and raises it disproportionately in the Southern Hemisphere).
@@ -54,7 +54,7 @@ The full sea-level budget partitions GMSL change into three components:
 
 - **Thermal expansion.** As the ocean warms, its volume expands. This is the link between [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) and [sea-level rise](/en/glossary/sea-level-rise). Thermal expansion contributed about a third of recent GMSL rise.
 - **Land-ice melt.** Glaciers and the Greenland and Antarctic ice sheets contribute mass to the ocean as they melt or shed icebergs. This contribution has grown over the satellite record and now dominates the trend.
-- **Land water storage.** Changes in groundwater, lakes, and soil moisture move water between land and ocean. The net signal is smaller than the other two terms but is non-trivial; groundwater depletion contributes a small positive trend.
+- **Land water storage.** Changes in groundwater, lakes, and [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers) move water between land and ocean. The net signal is smaller than the other two terms but is non-trivial; groundwater depletion contributes a small positive trend.
 
 The [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) reports the decomposition with uncertainty ranges; closure of the budget — the three components summing to within the satellite-altimeter trend — is the test that the components are quantified consistently.
 

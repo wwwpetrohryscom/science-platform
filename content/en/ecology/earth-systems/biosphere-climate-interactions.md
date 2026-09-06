@@ -21,7 +21,7 @@ _bodyHash: d29b1a53
 pillar: earth-system-science-explained
 ---
 
-Living systems are usually introduced into climate discussions as a carbon reservoir, and then treated as though carbon were the whole story. It is not. Vegetation alters the surface [energy budget](/en/ecology/climate-change/climate-sensitivity-explained) through at least three distinct mechanisms operating simultaneously, and in some places they cancel. Treating the [biosphere](/en/glossary/biosphere) as a component that acts back on the physical climate, rather than as a stock of carbon, is the move that defines [the coupled-system view of the planet](/en/ecology/earth-systems/earth-system-science-explained). Getting the sign of a land-cover change right requires all three.
+Living systems are usually introduced into climate discussions as a carbon reservoir, and then treated as though carbon were the whole story. It is not. Vegetation alters the surface energy budget through at least three distinct mechanisms operating simultaneously, and in some places they cancel. Treating the [biosphere](/en/glossary/biosphere) as a component that acts back on the physical climate, rather than as a stock of carbon, is the move that defines [the coupled-system view of the planet](/en/ecology/earth-systems/earth-system-science-explained). Getting the sign of a land-cover change right requires all three.
 
 ## Three channels, one surface
 

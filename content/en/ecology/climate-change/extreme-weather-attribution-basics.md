@@ -29,7 +29,7 @@ This piece walks through how attribution analysis works, where it is most reliab
 
 The attribution literature uses one word for two different operations.
 
-**Trend attribution** asks: how much of the observed long-term change in a climate variable is due to a given forcing agent (greenhouse gases, aerosols, solar, [land use](/en/ecology/forests/forest-ecosystems-explained))? This is the detection-and-attribution analysis covered in [IPCC AR6 WG1 Chapter 3](https://www.ipcc.ch/report/ar6/wg1/). The methodology compares observed trends with model simulations under different forcing combinations; the attribution is the combination that best matches the observation. Trend attribution is what the IPCC means when it describes recent warming as having a "human influence."
+**Trend attribution** asks: how much of the observed long-term change in a climate variable is due to a given forcing agent (greenhouse gases, aerosols, solar, land use)? This is the detection-and-attribution analysis covered in [IPCC AR6 WG1 Chapter 3](https://www.ipcc.ch/report/ar6/wg1/). The methodology compares observed trends with model simulations under different forcing combinations; the attribution is the combination that best matches the observation. Trend attribution is what the IPCC means when it describes recent warming as having a "human influence."
 
 **Event attribution** asks: given a specific extreme event that has occurred — a particular heatwave, hurricane, drought, flood — how much more (or less) likely was that event under current climate conditions versus a counterfactual climate without human forcing? Event attribution produces numerical statements like "this heatwave was made N times more likely by climate change" with stated confidence intervals.
 
@@ -61,7 +61,7 @@ Three event types yield weaker or contested attribution statements.
 
 **Tropical cyclone frequency.** The frequency of named tropical storms is not robustly attributable to long-term warming — the observational record and model ensembles do not support a confident frequency claim. Intensity and rainfall *within* a given storm are more attributable: peak intensity statistics show a warming-consistent shift, and storm-associated heavy rainfall is attributable through the same Clausius-Clapeyron mechanism. The IPCC AR6 WG1 Chapter 11 reviews the distinctions.
 
-**Drought, multivariable events.** Drought is a compound phenomenon — it depends on precipitation, temperature, soil moisture, and human water use. Attribution is therefore methodologically harder than for single-variable extremes, and confidence is correspondingly lower. The most defensible attribution statements are for the temperature component of compound heat-drought events.
+**Drought, multivariable events.** Drought is a compound phenomenon — it depends on precipitation, temperature, [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers), and human water use. Attribution is therefore methodologically harder than for single-variable extremes, and confidence is correspondingly lower. The most defensible attribution statements are for the temperature component of compound heat-drought events.
 
 **Tornado outbreaks.** Tornadoes are sub-grid phenomena relative to the models used in attribution; the dynamical environment that supports tornadoes is partially attributable, but the events themselves are not directly resolved. Operational attribution statements for individual tornado outbreaks remain rare.
 
