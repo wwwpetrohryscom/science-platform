@@ -622,6 +622,59 @@ function main() {
     });
   }
 
+  // --- live-data claims -------------------------------------------
+  //
+  // Nothing on this site fetches at request time. A static build that
+  // shows a value read by hand last week is not live data, and the
+  // shortest route to dishonesty on a data platform is a page that says
+  // "live", "real-time" or "current as of now" beside a number.
+  //
+  // Checked in the rendered HTML rather than in the source, because the
+  // claim that matters is the one a reader sees. The phrases are matched
+  // in every language the site publishes in.
+  const LIVE_CLAIMS: Array<{ re: RegExp; what: string }> = [
+    { re: /\blive data\b/i, what: "live data" },
+    { re: /\breal[- ]time\b/i, what: "real-time" },
+    { re: /\bupdated (?:live|continuously|in real time)\b/i, what: "updated live" },
+    { re: /\bdonnées en (?:temps réel|direct)\b/i, what: "données en temps réel" },
+    { re: /\bdatos en tiempo real\b/i, what: "datos en tiempo real" },
+    { re: /\bEchtzeitdaten\b/i, what: "Echtzeitdaten" },
+    { re: /\bdados em tempo real\b/i, what: "dados em tempo real" },
+    { re: /данные в реальном времени/i, what: "данные в реальном времени" },
+  ];
+  //
+  // Scoped to the pages that present THIS SITE's data. In article prose
+  // "near-real-time clearing alerts" describes what NASA's system does,
+  // which is true and is not a claim about the numbers on this page —
+  // the first version of this rule reported 71 such sentences, because
+  // it was matching a phrase when the question is whose data is being
+  // described.
+  const DATA_ROUTE = /^\/[a-z]{2}\/data(\/|$)/;
+  for (const page of pages) {
+    if (!DATA_ROUTE.test(page.route)) continue;
+    // The text a reader sees, not the markup.
+    const text = decode(page.html.replace(/<[^>]+>/g, " "));
+    for (const { re, what } of LIVE_CLAIMS) {
+      const m = re.exec(text);
+      if (!m) continue;
+      // A page is allowed to SAY it is not live. That is the honest
+      // form, and it necessarily contains the phrase it is denying.
+      const around = text.slice(Math.max(0, m.index - 90), m.index + 90);
+      const denied =
+        /\bnot\b|\bne sont pas\b|\bno son\b|\bnicht\b|\bnão são\b|\bне обновляются\b/i.test(
+          around,
+        );
+      if (denied) continue;
+      issues.push({
+        severity: "error",
+        rule: "live-data-claim",
+        where: page.route,
+        message: `page claims "${what}" — nothing on this site fetches at request time`,
+      });
+      break;
+    }
+  }
+
   const errors = issues.filter((i) => i.severity === "error");
   const warnings = issues.filter((i) => i.severity === "warning");
 
