@@ -51,6 +51,19 @@ jobs:
       - name: Editorial policy translations
         run: npm run editorial:validate
 
+      # The scientific data layer: dataset provenance, indicator
+      # definitions, the ingested series, and the per-locale indicator
+      # bodies. A dataset record with a hole in it is not provenance,
+      # and an indicator without stated limitations is a page that has
+      # left out the part it is most tempted to leave out.
+      - name: Dataset and indicator rules
+        run: npm run data:validate
+
+      # Tool arithmetic, against known values and at the edges. A
+      # calculator without numerical tests is not ready.
+      - name: Scientific tool mathematics
+        run: npm run tools:test
+
       # Reused prose. content:validate refuses two near-identical
       # bodies; this refuses a single sentence that was written once
       # and pasted twice, which the whole-body ratio cannot see.
@@ -104,6 +117,12 @@ jobs:
       # that these cases are the real thing.
       - name: Search ranking guards
         run: npm run search:test
+
+      # Subtopic depth per locale. Reported, not enforced: the number is
+      # a measure of how much of the corpus a reader can stay inside,
+      # and it moves a wave at a time.
+      - name: Localization depth
+        run: npm run content:depth
 
       - name: Internal-linking guards
         run: npm run content:link:test

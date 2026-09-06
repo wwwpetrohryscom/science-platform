@@ -15,6 +15,7 @@
     "content:links:external": "tsx scripts/validate-links.ts --external",
     "content:report": "tsx scripts/content-report.ts",
     "content:localization": "tsx scripts/localization-report.ts",
+    "content:depth": "tsx scripts/localization-depth.ts",
     "content:originality": "tsx scripts/originality-audit.ts",
     "editorial:validate": "tsx scripts/editorial-validate.ts",
     "content:translations": "tsx scripts/validate-translations.ts",
