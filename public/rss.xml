@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>EcoScienceHub</title>
+    <link>https://ecosciencehub.com/en</link>
+    <description>Independent, scientifically literate writing on ecology, biology, and applied physics. Built to be read slowly and cited carefully.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://ecosciencehub.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decomposition: the flux that returns almost everything</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/decomposition-and-the-return-of-nutrients</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/decomposition-and-the-return-of-nutrients</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Nearly all the carbon and nutrients that primary production takes up are returned by decomposition. Climate and litter chemistry set the pace, but a global field experiment showed that the animals doing the work matter in some climates and not others — and the standard measurement can mistake washing for decay.</description>
+      <category>ecology</category>
+      <category>decomposition</category>
+      <category>soil-fauna</category>
+      <category>nutrient-cycling</category>
+      <category>litter</category>
+    </item>
+    <item>
+      <title>Biodiversity monitoring and ecosystem health: how scientists measure the state of life</title>
+      <link>https://ecosciencehub.com/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Biodiversity has no single thermometer. This is how scientists track the condition of species and ecosystems — through field surveys, indicators, species databases, remote sensing, and long-term observation — and what each method can and cannot resolve.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>monitoring</category>
+      <category>ecosystem-health</category>
+      <category>indicators</category>
+      <category>conservation</category>
+    </item>
+    <item>
+      <title>Sampling effort: what a species count actually depends on</title>
+      <link>https://ecosciencehub.com/en/ecology/biodiversity/sampling-effort-and-what-a-species-count-depends-on</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/biodiversity/sampling-effort-and-what-a-species-count-depends-on</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Species richness rises with the effort spent looking for it, and Shannon and Simpson rise with it too, more slowly. This covers accumulation curves, rarefaction, coverage-based standardisation, and why indices computed from samples of different sizes compare the surveys as much as the sites.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>diversity-metrics</category>
+      <category>species-richness</category>
+      <category>monitoring</category>
+      <category>uncertainty</category>
+    </item>
+    <item>
+      <title>Species distribution models: what they predict, and where they stop</title>
+      <link>https://ecosciencehub.com/en/ecology/biodiversity/species-distribution-models-and-their-limits</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/biodiversity/species-distribution-models-and-their-limits</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>A model that fits a species range well in the place and period it was trained on may be worthless a valley away or a decade later. One study found temporal transferability acceptable for fewer than a quarter of species — and finer resolution made it worse, not better.</description>
+      <category>ecology</category>
+      <category>species-distribution-models</category>
+      <category>model-transferability</category>
+      <category>biodiversity-monitoring</category>
+      <category>uncertainty</category>
+    </item>
+    <item>
+      <title>Species evenness and diversity indices: why a count is not enough</title>
+      <link>https://ecosciencehub.com/en/ecology/biodiversity/species-evenness-and-diversity</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/biodiversity/species-evenness-and-diversity</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Two communities with the same number of species can differ sharply in how abundance is shared among them. Evenness, and the Shannon, Simpson, and Hill-number diversity indices that combine it with richness, capture what a raw count leaves out.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>species-evenness</category>
+      <category>diversity-metrics</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Anomalies, baselines and reference periods: why a climate number needs its zero</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-systems/anomalies-baselines-and-reference-periods</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-systems/anomalies-baselines-and-reference-periods</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>GISTEMP reports against 1951–1980, the greenhouse gas index against 1990, and global mean sea level against a zero internal to the altimeter file. Three headline indicators, three different zeros, and no way to place them on one axis without the offsets.</description>
+      <category>ecology</category>
+      <category>climate-indicators</category>
+      <category>measurement</category>
+      <category>climate-data</category>
+      <category>temperature</category>
+      <category>uncertainty</category>
+    </item>
+    <item>
+      <title>Earth system models: what gets added when a climate model becomes an ESM</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-systems/earth-system-models-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-systems/earth-system-models-explained</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>An Earth system model is a coupled climate model with the biogeochemistry made interactive. That one change alters what it can be asked, and where it goes wrong.</description>
+      <category>ecology</category>
+      <category>earth-system-model</category>
+      <category>cmip</category>
+      <category>modelling</category>
+      <category>methods</category>
+    </item>
+    <item>
+      <title>Evapotranspiration: the largest land water flux nobody measures directly</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-systems/evapotranspiration-and-the-land-water-budget</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-systems/evapotranspiration-and-the-land-water-budget</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>More water leaves land as vapour than leaves it as rivers. Three independent families of global estimate now agree on the total to within about five per cent — and disagree profoundly about how much of it passes through plants.</description>
+      <category>ecology</category>
+      <category>evapotranspiration</category>
+      <category>water-cycle</category>
+      <category>transpiration</category>
+      <category>land-surface-models</category>
+    </item>
+    <item>
+      <title>Calibration and why a sensor drifts: the measurement under every measurement</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-observation/calibration-and-why-a-sensor-drifts</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-observation/calibration-and-why-a-sensor-drifts</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Every environmental indicator rests on an instrument whose calibration is itself a measurement, with its own uncertainty and its own history of revision. When NOAA revised the WMO carbon dioxide scale, the scale moved by 0.18 ppm at 400 ppm and the whole record had to be re-expressed.</description>
+      <category>ecology</category>
+      <category>calibration</category>
+      <category>metrology</category>
+      <category>remote-sensing</category>
+      <category>earth-observation</category>
+      <category>measurement-uncertainty</category>
+    </item>
+    <item>
+      <title>Land surface temperature: what the thermal band measures</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-observation/land-surface-temperature-from-space</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-observation/land-surface-temperature-from-space</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>A thermal satellite measures the temperature of the ground, not the air above it. In one Shanghai comparison, four accepted retrieval algorithms differed from station air temperature by between 2.39 and 12.32 degrees on the same summer day.</description>
+      <category>ecology</category>
+      <category>land-surface-temperature</category>
+      <category>thermal-infrared</category>
+      <category>emissivity</category>
+      <category>earth-observation</category>
+    </item>
+    <item>
+      <title>The Landsat program explained: the longest continuous view of the land</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-observation/landsat-program-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-observation/landsat-program-explained</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Since 1972 the joint NASA–USGS Landsat satellites have built the longest unbroken record of Earth’s land surface. This explains the mission history, the 30-metre sensors, the free-data policy, and why a multi-decade archive is so scientifically valuable.</description>
+      <category>ecology</category>
+      <category>landsat</category>
+      <category>earth-observation</category>
+      <category>remote-sensing</category>
+      <category>land-monitoring</category>
+    </item>
+    <item>
+      <title>Radar remote sensing: seeing through cloud, and into canopy</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-observation/radar-remote-sensing-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-observation/radar-remote-sensing-explained</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Optical satellites stop at the first cloud and at nightfall. Radar does neither — and because its wavelengths are centimetres rather than micrometres, it responds to structure and moisture rather than to colour.</description>
+      <category>ecology</category>
+      <category>radar</category>
+      <category>synthetic-aperture-radar</category>
+      <category>remote-sensing</category>
+      <category>earth-observation</category>
+    </item>
+    <item>
+      <title>Area-based targets: what a coverage percentage measures</title>
+      <link>https://ecosciencehub.com/en/ecology/conservation/area-based-targets-and-what-they-measure</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/conservation/area-based-targets-and-what-they-measure</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Global biodiversity ambition has been stated as a share of area since 2004, and the number has risen from 10 to 17 to 30. What that figure counts, what its qualifiers require, and whether coverage tracks outcome are three separate questions.</description>
+      <category>ecology</category>
+      <category>protected-areas</category>
+      <category>area-based-conservation</category>
+      <category>biodiversity-policy</category>
+      <category>conservation-planning</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Assisted migration: what the evidence base actually contains</title>
+      <link>https://ecosciencehub.com/en/ecology/conservation/assisted-migration-and-its-evidence</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/conservation/assisted-migration-and-its-evidence</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Moving a species to track climate is three interventions under one label. The published record holds 204 studies, six of which recorded a conservation implementation, and the invasion objection rests on a comparison the data do not settle.</description>
+      <category>ecology</category>
+      <category>species-recovery</category>
+      <category>range-shifts</category>
+      <category>conservation-evidence</category>
+      <category>climate-change-biology</category>
+      <category>invasive-alien-species</category>
+    </item>
+    <item>
+      <title>Invasive species: which management interventions have evidence behind them</title>
+      <link>https://ecosciencehub.com/en/ecology/conservation/invasive-species-management</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/conservation/invasive-species-management</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Most introduced organisms never become invasive, and the cleanest effectiveness evidence comes from island eradications. This page separates what the intervention record supports from what the global cost figures can carry.</description>
+      <category>ecology</category>
+      <category>invasive-alien-species</category>
+      <category>biosecurity</category>
+      <category>eradication</category>
+      <category>biological-control</category>
+      <category>island-conservation</category>
+    </item>
+    <item>
+      <title>Rewilding: one word, three research programmes, and an uneven evidence base</title>
+      <link>https://ecosciencehub.com/en/ecology/conservation/rewilding-evidence-and-limits</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/conservation/rewilding-evidence-and-limits</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Trophic, passive and Pleistocene rewilding share a name but not a method, a reference state or a literature. Separating them is what makes the evidence, and the gaps in it, legible.</description>
+      <category>ecology</category>
+      <category>rewilding</category>
+      <category>trophic-cascades</category>
+      <category>restoration-ecology</category>
+      <category>conservation-evidence</category>
+    </item>
+    <item>
+      <title>Soil fertility: what &quot;available&quot; means, and why nitrogen and phosphorus fail in opposite ways</title>
+      <link>https://ecosciencehub.com/en/ecology/soils/nutrient-availability-and-soil-fertility</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/soils/nutrient-availability-and-soil-fertility</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Fertility is a rate of ion supply to a root, not a stock of nutrients sitting in the ground. That distinction explains why nitrogen is lost through mobility and phosphorus through immobility, and why recovery figures for both depend on how they were measured.</description>
+      <category>ecology</category>
+      <category>fertility</category>
+      <category>plant-nutrition</category>
+      <category>nitrogen</category>
+      <category>phosphorus</category>
+      <category>cation-exchange</category>
+    </item>
+    <item>
+      <title>How a soil profile forms, and why two classification systems both survive</title>
+      <link>https://ecosciencehub.com/en/ecology/soils/soil-formation-and-classification</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/soils/soil-formation-and-classification</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Weathering, translocation and organic accumulation leave layers that pedologists read as a record of process. Naming those layers is a second problem, and the two dominant systems persist because they were built to answer different questions.</description>
+      <category>ecology</category>
+      <category>pedogenesis</category>
+      <category>soil-classification</category>
+      <category>wrb</category>
+      <category>soil-taxonomy</category>
+      <category>soil-mapping</category>
+    </item>
+    <item>
+      <title>Soil horizons: the unit a soil profile is described in</title>
+      <link>https://ecosciencehub.com/en/ecology/soils/soil-horizons-and-reading-a-profile</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/soils/soil-horizons-and-reading-a-profile</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>A layer becomes a horizon only if at least one of its properties results from soil formation. That definition, the master letters and the four boundary classes are what a soil description is made of — and part of why two systems can name the same pit differently.</description>
+      <category>ecology</category>
+      <category>pedology</category>
+      <category>soil-classification</category>
+      <category>wrb</category>
+      <category>soil-taxonomy</category>
+      <category>soil-mapping</category>
+    </item>
+    <item>
+      <title>Soil moisture: what a measurement actually covers</title>
+      <link>https://ecosciencehub.com/en/ecology/soils/soil-moisture-and-what-a-measurement-covers</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/soils/soil-moisture-and-what-a-measurement-covers</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>A satellite senses the top few centimetres of soil across a 36-kilometre cell; a probe senses a few centilitres at one point; drought decisions need the top metre. Almost every soil-moisture number in circulation is a model reconciling those three.</description>
+      <category>ecology</category>
+      <category>soil-moisture</category>
+      <category>remote-sensing</category>
+      <category>drought</category>
+      <category>measurement-uncertainty</category>
+    </item>
+    <item>
+      <title>Immunity: a layered system, not a single defence</title>
+      <link>https://ecosciencehub.com/en/biology/physiology/the-immune-system-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/biology/physiology/the-immune-system-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>An immune system has to recognise pathogens that have not evolved yet. Vertebrates solve that by manufacturing receptor diversity at random, then editing it — and plants and invertebrates show the problem has other solutions.</description>
+      <category>biology</category>
+      <category>immunology</category>
+      <category>innate-immunity</category>
+      <category>adaptive-immunity</category>
+      <category>immunological-memory</category>
+    </item>
+    <item>
+      <title>The oxygen dissociation curve: why the shape is the mechanism</title>
+      <link>https://ecosciencehub.com/en/biology/physiology/the-oxygen-dissociation-curve</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/biology/physiology/the-oxygen-dissociation-curve</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>Haemoglobin&apos;s binding curve is sigmoid rather than hyperbolic, and that single geometric fact is what turns a molecule which holds oxygen into one which hands it over. P50 names a point on the curve; the Bohr effect moves it.</description>
+      <category>biology</category>
+      <category>oxygen-transport</category>
+      <category>gas-exchange</category>
+      <category>respiration</category>
+      <category>circulation</category>
+      <category>comparative-physiology</category>
+    </item>
+    <item>
+      <title>Binomial names: what the two words assert, and why they change</title>
+      <link>https://ecosciencehub.com/en/biology/taxonomy/binomial-nomenclature-and-why-names-change</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/biology/taxonomy/binomial-nomenclature-and-why-names-change</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>A scientific name is two words, an anchor to a physical specimen, and a claim about which group an organism belongs to. When the claim is revised the name follows it, which is why a familiar binomial can be replaced without anything new having been found.</description>
+      <category>biology</category>
+      <category>taxonomy</category>
+      <category>nomenclature</category>
+      <category>classification</category>
+      <category>systematics</category>
+      <category>biodiversity-data</category>
+    </item>
+    <item>
+      <title>The species problem: a working concept that no definition fully captures</title>
+      <link>https://ecosciencehub.com/en/biology/taxonomy/what-is-a-species</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/biology/taxonomy/what-is-a-species</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>Biologists apply at least five incompatible criteria for deciding where one kind of organism ends and the next begins. The disagreements are rarely about the data, and they propagate straight into conservation counts.</description>
+      <category>biology</category>
+      <category>species-concepts</category>
+      <category>taxonomy</category>
+      <category>speciation</category>
+      <category>delimitation</category>
+      <category>conservation-data</category>
+    </item>
+    <item>
+      <title>Carnot efficiency: the bound that only two temperatures set</title>
+      <link>https://ecosciencehub.com/en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>The bound is one minus the ratio of two absolute temperatures, and nothing else appears in it. That universality is what makes it useful and what makes it easy to misapply — to power stations, to heat pumps whose coefficient of performance exceeds one, and to solar cells.</description>
+      <category>physics</category>
+      <category>carnot-efficiency</category>
+      <category>thermodynamics</category>
+      <category>second-law</category>
+      <category>heat-engines</category>
+      <category>energy-conversion</category>
+    </item>
+    <item>
+      <title>Heat engines: the Carnot ceiling and where the missing efficiency goes</title>
+      <link>https://ecosciencehub.com/en/physics/thermodynamics/heat-engines-and-efficiency-limits</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/thermodynamics/heat-engines-and-efficiency-limits</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>A coal steam plant converts about a third of its fuel energy to electricity against a reversible ceiling near two thirds. The gap is mostly deliberate, and the reasons are temperature limits, finite-rate operation and where the accounting boundary is drawn.</description>
+      <category>physics</category>
+      <category>heat-engines</category>
+      <category>carnot-efficiency</category>
+      <category>power-generation</category>
+      <category>exergy</category>
+      <category>gas-turbines</category>
+    </item>
+    <item>
+      <title>Quantum sensors are leaving the lab. Here&apos;s what changes when they do.</title>
+      <link>https://ecosciencehub.com/en/physics/quantum-basics/quantum-sensors-leaving-the-lab</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/quantum-basics/quantum-sensors-leaving-the-lab</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>Quantum sensors — atomic clocks, gravimeters, magnetometers — have moved from precision-physics curiosities to deployable instruments. The applications opened by the move are not the ones popular coverage emphasizes.</description>
+      <category>physics</category>
+      <category>quantum</category>
+      <category>sensors</category>
+      <category>metrology</category>
+      <category>applications</category>
+    </item>
+    <item>
+      <title>Why metrology went quantum: the only standards that do not drift</title>
+      <link>https://ecosciencehub.com/en/physics/quantum-basics/why-metrology-went-quantum</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/quantum-basics/why-metrology-went-quantum</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>Every SI unit now derives from constants realised through quantum effects, and the reason is a property no manufactured object has: identical atoms give identical results, everywhere, without calibration.</description>
+      <category>physics</category>
+      <category>quantum-metrology</category>
+      <category>si-units</category>
+      <category>standards</category>
+      <category>measurement</category>
+    </item>
+    <item>
+      <title>Global circulation: why the trade winds blow from the east</title>
+      <link>https://ecosciencehub.com/en/physics/climate-physics/atmospheric-circulation-cells</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/climate-physics/atmospheric-circulation-cells</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>A non-rotating planet would carry air from equator to pole in one cell and give every surface wind a poleward heading. Rotation replaces that with three cells, two jet streams, easterly trades, and a tropical belt that is measurably widening.</description>
+      <category>physics</category>
+      <category>general-circulation</category>
+      <category>hadley-cell</category>
+      <category>jet-stream</category>
+      <category>rossby-waves</category>
+    </item>
+    <item>
+      <title>Inside a climate model: what is solved, what is parameterised, and what tuning can reach</title>
+      <link>https://ecosciencehub.com/en/physics/climate-physics/climate-model-physics-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/climate-physics/climate-model-physics-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>A climate model is two pieces of software bolted together — a solver for equations that are known exactly, and a library of approximations for everything smaller than a grid cell. Nearly every contested result lives in the second half.</description>
+      <category>physics</category>
+      <category>climate-modelling</category>
+      <category>parameterisation</category>
+      <category>model-tuning</category>
+      <category>cmip6</category>
+    </item>
+    <item>
+      <title>Temperature inversions: how a warm layer aloft shuts down vertical mixing</title>
+      <link>https://ecosciencehub.com/en/physics/climate-physics/temperature-inversions-and-trapped-air</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/climate-physics/temperature-inversions-and-trapped-air</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>An inversion is a layer in which temperature rises with height, and it is built by at least three unrelated mechanisms. Radiosondes over China find one on 52 per cent of days, and three-quarters of fine-particle pollution episodes there coincide with one.</description>
+      <category>physics</category>
+      <category>temperature-inversion</category>
+      <category>atmospheric-stability</category>
+      <category>boundary-layer</category>
+      <category>lapse-rate</category>
+      <category>fine-particles</category>
+    </item>
+    <item>
+      <title>The Coriolis effect: what it deflects, and what it does not</title>
+      <link>https://ecosciencehub.com/en/physics/climate-physics/the-coriolis-effect-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/climate-physics/the-coriolis-effect-explained</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>The deflection is real and the force is not — in a rotating frame a straight line reads as a curve. Which flows it governs is decided by a single dimensionless ratio, and a draining basin misses the threshold by four orders of magnitude.</description>
+      <category>physics</category>
+      <category>atmospheric-physics</category>
+      <category>general-circulation</category>
+      <category>ocean-circulation</category>
+      <category>fluid-dynamics</category>
+      <category>rossby-waves</category>
+    </item>
+    <item>
+      <title>Calibration and traceability: what it means for a number to be defensible</title>
+      <link>https://ecosciencehub.com/en/physics/mechanics-waves/calibration-and-traceability</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/mechanics-waves/calibration-and-traceability</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>A measurement is comparable to another only if both can be traced, through an unbroken chain of calibrations with stated uncertainties, to the same reference. That chain is infrastructure, and most disputes about data are really disputes about it.</description>
+      <category>physics</category>
+      <category>metrology</category>
+      <category>calibration</category>
+      <category>measurement-uncertainty</category>
+      <category>standards</category>
+    </item>
+    <item>
+      <title>Uncertainty propagation in practice: how components combine</title>
+      <link>https://ecosciencehub.com/en/physics/mechanics-waves/uncertainty-propagation-in-practice</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/mechanics-waves/uncertainty-propagation-in-practice</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>Absolute uncertainties add for sums, relative ones for products, and neither rule survives contact with correlated inputs. This is the arithmetic that carries an uncertainty from the inputs of a calculation to its result, and where it quietly stops working.</description>
+      <category>physics</category>
+      <category>metrology</category>
+      <category>measurement-uncertainty</category>
+      <category>uncertainty</category>
+      <category>statistics</category>
+      <category>measurement-methods</category>
+    </item>
+    <item>
+      <title>Why &quot;AI for science&quot; is undervaluing the bottleneck it is best placed to fix</title>
+      <link>https://ecosciencehub.com/en/insight/ai-for-science-bottleneck</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/insight/ai-for-science-bottleneck</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>EcoScienceHub Editorial Team</dc:creator>
+      <description>Most AI-for-science investment chases discovery. The higher-leverage use is making the experimental record reproducible and machine-readable.</description>
+      <category>physics</category>
+      <category>AI</category>
+      <category>infrastructure</category>
+      <category>open science</category>
+      <category>reproducibility</category>
+    </item>
+    <item>
+      <title>Carbon offset markets are quietly outsourcing the work of climate science</title>
+      <link>https://ecosciencehub.com/en/insight/carbon-offset-outsourcing-science</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/insight/carbon-offset-outsourcing-science</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Voluntary carbon markets have become the largest unregulated funder of forest-carbon measurement — and the methods are diverging from what the science actually says.</description>
+      <category>ecology</category>
+      <category>carbon markets</category>
+      <category>policy</category>
+      <category>forestry</category>
+      <category>climate</category>
+    </item>
+    <item>
+      <title>Agroecosystems: managing an ecosystem for one output</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Farmland is an ecosystem held in an early successional state by continuous inputs. Counting what goes in, what comes out and what leaks explains both its productivity and the tensions that agroecology tries to resolve.</description>
+      <category>ecology</category>
+      <category>agroecosystems</category>
+      <category>agroecology</category>
+      <category>nutrient-balance</category>
+      <category>pollination</category>
+      <category>land-use</category>
+    </item>
+    <item>
+      <title>Biomes: how the map was drawn, and where it breaks down</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/biomes-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/biomes-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>A biome is a claim that macroclimate predicts vegetation form. Where the classification came from, why fire and land use put soft edges on it, and how satellite land-cover classes relate to biomes without being them.</description>
+      <category>ecology</category>
+      <category>biomes</category>
+      <category>vegetation-classification</category>
+      <category>biogeography</category>
+      <category>ecotones</category>
+    </item>
+    <item>
+      <title>Ecological succession: what replaced the climax community idea</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/ecological-succession-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/ecological-succession-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Succession is not a fixed march toward one stable endpoint. Recovery depends on what survived, what arrived and in what order — and different properties of a damaged site return on very different clocks.</description>
+      <category>ecology</category>
+      <category>succession</category>
+      <category>disturbance-ecology</category>
+      <category>restoration</category>
+      <category>alternative-stable-states</category>
+      <category>ecosystems</category>
+    </item>
+    <item>
+      <title>Ecosystem services: how the framework changed environmental decision-making</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>The phrase ecosystem services entered policy in the early 2000s. Two decades later, it has reshaped how environmental decisions get made — and where its blind spots are.</description>
+      <category>ecology</category>
+      <category>ecosystems</category>
+      <category>ecosystem-services</category>
+      <category>policy</category>
+      <category>human-wellbeing</category>
+    </item>
+  </channel>
+</rss>

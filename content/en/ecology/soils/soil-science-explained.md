@@ -5,7 +5,7 @@ excerpt: Soil is a four-phase system organised into horizons, built at a median 
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - soil
@@ -19,7 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
-_bodyHash: 9c1e085f
+_bodyHash: 78aa472b
 ---
 
 New soil is made at a median rate the FAO and its Intergovernmental Technical Panel on Soils put at about 0.15 tonnes per hectare per year, and typically well below one tonne. Spread over a hectare, a tonne of mineral soil is a film you could not see. That number is the reason soil science is arranged the way it is: on any timescale a farmer, a planner or a treaty operates on, the material under consideration is a fixed inheritance being spent, not a renewable flow.
@@ -46,7 +46,7 @@ Soil holds more carbon than the atmosphere and terrestrial vegetation, and by so
 
 The FAO's Global Soil Organic Carbon Map, built from more than a million profiles contributed by member countries, gives 682 petagrams of carbon in the top 30 centimetres, with a stated uncertainty of ±144 petagrams — roughly 20 per cent. The map's own comparison table is more revealing than the headline. For the identical quantity, other global products return 504, 574, 699, 710, 967 and 1,267 petagrams. A factor of 2.5 separates the lowest from the highest, and none of them is obviously wrong; they differ in source data, in how bulk density and stone content were handled, and in whether the estimate was interpolated from profiles or predicted by machine learning. Why that spread exists, and what it implies for anyone reading a soil-carbon figure, is worked through in [soil carbon measurement and its uncertainties](/en/ecology/soils/soil-carbon-measurement-and-uncertainty).
 
-Where that carbon sits is as instructive as how much there is. Broken down by land cover in the same product, the totals and the densities point in different directions:
+Where that carbon sits is as instructive as how much there is. Broken down by [land cover](/en/ecology/earth-observation/land-cover-change-detection) in the same product, the totals and the densities point in different directions:
 
 | Land cover | Stock, 0–30 cm (Pg C) | Share of global stock | Mean density (t/ha) |
 | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ What that community does is not decorative. It mineralises nitrogen, mediates ph
 
 ## Threats, and the word that hides the most
 
-The FAO and its technical panel assess ten processes as threatening soil-derived ecosystem services: erosion, organic carbon loss, contamination, acidification, salinisation, biodiversity loss, sealing and other surface effects, nutrient imbalance, compaction, and altered moisture regimes. Their headline finding in 2015 was that 33 per cent of land is moderately to highly degraded. The UNCCD's second Global Land Outlook, drawing on a different set of assessments, reports that most of them place 20 to 40 per cent of global land area in some degraded or degrading condition.
+The FAO and its technical panel assess ten processes as threatening soil-derived [ecosystem services](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing): erosion, organic carbon loss, contamination, acidification, salinisation, biodiversity loss, sealing and other surface effects, nutrient imbalance, compaction, and altered moisture regimes. Their headline finding in 2015 was that 33 per cent of land is moderately to highly degraded. The UNCCD's second Global Land Outlook, drawing on a different set of assessments, reports that most of them place 20 to 40 per cent of global land area in some degraded or degrading condition.
 
 Those ranges are not sloppiness. They are what happens when a word carries a definition, a baseline and an indicator, and three assessments choose differently on all three — the problem examined in [land degradation as a contested concept](/en/ecology/soils/land-degradation-and-desertification).
 

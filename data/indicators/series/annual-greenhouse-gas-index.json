@@ -1,0 +1,195 @@
+{
+  "indicatorId": "annual-greenhouse-gas-index",
+  "datasetId": "noaa-gml-aggi",
+  "unit": "index (1990 = 1)",
+  "sourceUrl": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+  "sourceSha256": "5ee37d48728dc131011dbf2f28be4c14d54c85e2ac06466c2f2954482f4f9226",
+  "accessedDate": "2026-09-06",
+  "derivation": "The AGGI column of NOAA GML's published table — total radiative forcing from the long-lived greenhouse gases, expressed relative to 1990. Column 10 of the table.",
+  "observations": [
+    {
+      "period": "1979",
+      "value": 0.78
+    },
+    {
+      "period": "1980",
+      "value": 0.803
+    },
+    {
+      "period": "1981",
+      "value": 0.822
+    },
+    {
+      "period": "1982",
+      "value": 0.837
+    },
+    {
+      "period": "1983",
+      "value": 0.856
+    },
+    {
+      "period": "1984",
+      "value": 0.875
+    },
+    {
+      "period": "1985",
+      "value": 0.894
+    },
+    {
+      "period": "1986",
+      "value": 0.914
+    },
+    {
+      "period": "1987",
+      "value": 0.934
+    },
+    {
+      "period": "1988",
+      "value": 0.962
+    },
+    {
+      "period": "1989",
+      "value": 0.983
+    },
+    {
+      "period": "1990",
+      "value": 1
+    },
+    {
+      "period": "1991",
+      "value": 1.016
+    },
+    {
+      "period": "1992",
+      "value": 1.028
+    },
+    {
+      "period": "1993",
+      "value": 1.035
+    },
+    {
+      "period": "1994",
+      "value": 1.049
+    },
+    {
+      "period": "1995",
+      "value": 1.064
+    },
+    {
+      "period": "1996",
+      "value": 1.078
+    },
+    {
+      "period": "1997",
+      "value": 1.089
+    },
+    {
+      "period": "1998",
+      "value": 1.111
+    },
+    {
+      "period": "1999",
+      "value": 1.128
+    },
+    {
+      "period": "2000",
+      "value": 1.138
+    },
+    {
+      "period": "2001",
+      "value": 1.15
+    },
+    {
+      "period": "2002",
+      "value": 1.166
+    },
+    {
+      "period": "2003",
+      "value": 1.184
+    },
+    {
+      "period": "2004",
+      "value": 1.197
+    },
+    {
+      "period": "2005",
+      "value": 1.212
+    },
+    {
+      "period": "2006",
+      "value": 1.228
+    },
+    {
+      "period": "2007",
+      "value": 1.241
+    },
+    {
+      "period": "2008",
+      "value": 1.258
+    },
+    {
+      "period": "2009",
+      "value": 1.27
+    },
+    {
+      "period": "2010",
+      "value": 1.287
+    },
+    {
+      "period": "2011",
+      "value": 1.301
+    },
+    {
+      "period": "2012",
+      "value": 1.316
+    },
+    {
+      "period": "2013",
+      "value": 1.336
+    },
+    {
+      "period": "2014",
+      "value": 1.352
+    },
+    {
+      "period": "2015",
+      "value": 1.37
+    },
+    {
+      "period": "2016",
+      "value": 1.394
+    },
+    {
+      "period": "2017",
+      "value": 1.41
+    },
+    {
+      "period": "2018",
+      "value": 1.428
+    },
+    {
+      "period": "2019",
+      "value": 1.446
+    },
+    {
+      "period": "2020",
+      "value": 1.463
+    },
+    {
+      "period": "2021",
+      "value": 1.481
+    },
+    {
+      "period": "2022",
+      "value": 1.499
+    },
+    {
+      "period": "2023",
+      "value": 1.516
+    },
+    {
+      "period": "2024",
+      "value": 1.538
+    }
+  ]
+}

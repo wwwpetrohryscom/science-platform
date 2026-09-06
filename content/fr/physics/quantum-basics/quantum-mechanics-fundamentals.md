@@ -5,7 +5,7 @@ excerpt: La théorie quantique fixe des constantes physiques à dix chiffres sig
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - quantum-mechanics
@@ -18,6 +18,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
+_bodyHash: 6ffb41ff
 ---
 Jugée comme instrument prédictif, la mécanique quantique est la théorie la plus sévèrement testée de la physique. L'évaluation CODATA de 2022 donne l'anomalie du moment magnétique de l'électron à 1,159 652 180 46(18) × 10⁻³, soit une incertitude-type relative de 1,6 × 10⁻¹⁰. La constante de structure fine, qui gouverne l'intensité de l'interaction électromagnétique, est cernée au même ordre, 7,297 352 5643(11) × 10⁻³. Quoi qu'il reste d'irrésolu dans la théorie quantique, son arithmétique n'en fait pas partie.
 
@@ -43,7 +44,7 @@ Le nom induit en erreur, car la plupart des grandeurs de la théorie ne sont pas
 
 Le spin est l'exception qui clarifie la règle. Il n'est pas quantifié par une condition aux limites, n'a derrière lui aucune rotation classique, et prend des valeurs demi-entières ou entières comme propriété intrinsèque de l'espèce de particule.
 
-La lumière porte sa propre version de la même idée. L'énergie échangée entre un champ et la matière vient par paquets de hf, raison pour laquelle c'est l'énergie du [photon](/en/glossary/photon) — et non l'intensité — qui détermine ce qu'un rayonnement peut faire à une molécule, point développé bande par bande dans [le spectre électromagnétique et ses applications](/fr/physics/quantum-basics/electromagnetic-spectrum-applications). C'est aussi pourquoi le plafond de rendement d'une cellule solaire à simple jonction est fixé par l'énergétique des photons plutôt que par l'ingénierie, comme l'expose [la limite thermodynamique du photovoltaïque](/fr/physics/thermodynamics/thermodynamic-limits-of-photovoltaics).
+La lumière porte sa propre version de la même idée. L'énergie échangée entre un champ et la matière vient par paquets de hf, raison pour laquelle c'est l'énergie du [photon](/fr/glossary/photon) — et non l'intensité — qui détermine ce qu'un rayonnement peut faire à une molécule, point développé bande par bande dans [le spectre électromagnétique et ses applications](/fr/physics/quantum-basics/electromagnetic-spectrum-applications). C'est aussi pourquoi le plafond de rendement d'une cellule solaire à simple jonction est fixé par l'énergétique des photons plutôt que par l'ingénierie, comme l'expose [la limite thermodynamique du photovoltaïque](/fr/physics/thermodynamics/thermodynamic-limits-of-photovoltaics).
 
 ## Variables conjuguées, non instruments maladroits
 
@@ -61,7 +62,7 @@ L'antisymétrie a une conséquence immédiate — deux fermions ne peuvent pas o
 
 ## La décohérence explique la limite classique, mais pas le résultat
 
-Un système quantique n'est jamais isolé. Il s'intrique avec son environnement — molécules d'air, photons parasites, le rayonnement thermique qu'il émet lui-même — et une fois que l'environnement détient une trace de la branche empruntée, l'interférence entre branches n'est plus observable sur le système seul. C'est la **[décohérence](/en/glossary/decoherence)**, et elle est mesurable plutôt que supposée. Chauffer des molécules de fullerène dans un interféromètre jusqu'à ce qu'elles rayonnent des photons thermiques détruit leurs franges d'interférence d'une quantité prévisible, et la perte de visibilité mesurée s'accordait avec la théorie microscopique de la décohérence.
+Un système quantique n'est jamais isolé. Il s'intrique avec son environnement — molécules d'air, photons parasites, le rayonnement thermique qu'il émet lui-même — et une fois que l'environnement détient une trace de la branche empruntée, l'interférence entre branches n'est plus observable sur le système seul. C'est la **[décohérence](/fr/glossary/decoherence)**, et elle est mesurable plutôt que supposée. Chauffer des molécules de fullerène dans un interféromètre jusqu'à ce qu'elles rayonnent des photons thermiques détruit leurs franges d'interférence d'une quantité prévisible, et la perte de visibilité mesurée s'accordait avec la théorie microscopique de la décohérence.
 
 La décohérence répond bien à une question précise : pourquoi des objets grands, chauds et bien couplés ne montrent aucune interférence, sans exiger la moindre modification de la théorie. Elle ne dit pas pourquoi tel résultat particulier est celui qui survient. Confondre les deux est l'exagération la plus fréquente des exposés grand public sur le sujet. Tout ce qui relève de [la fabrication d'une machine à partir de qubits](/fr/physics/quantum-basics/quantum-computing-fundamentals) est en aval de ceci : la discipline entière est un combat pour retarder la décohérence assez longtemps pour achever un calcul.
 

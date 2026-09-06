@@ -5,7 +5,7 @@ excerpt: Regulation ist kein Thermostat. Dieser Pfeilertext legt dar, was eine r
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - homeostasis
@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: b8d40700
 ---
 Arterielles Blut liegt bei einem gesunden Menschen zwischen pH 7,35 und 7,45. Nichts in der Chemie bevorzugt dieses Band; es wird dort gehalten, weil mehrere Prozesse fortwährend gegeneinander drücken, und weil ein Verlassen des Bandes genau die Enzyme lahmlegt, die dieses Drücken besorgen. Das Band wird auf zwei Uhren zugleich verteidigt — die Lunge passt die Kohlendioxidabgabe binnen Minuten bis Stunden an, während die Nieren über Tage Bikarbonat rückresorbieren und fixe Säuren ausscheiden. So sieht fast jede physiologische Geschichte aus: nicht ein Mechanismus, sondern mehrere mit verschiedenen Zeitkonstanten — und welchen man bemerkt, hängt davon ab, wie lange man hinsieht.
 
@@ -52,7 +53,7 @@ Die Skalierung bestimmt auch die Geometrie der Austauschorgane, denn Oberfläche
 
 Die leitende Heuristik wird meist August Krogh zugeschrieben: Für viele Probleme gibt es einen Organismus, in dem das interessierende Phänomen in extremer oder ungewöhnlicher Form auftritt, und genau der ist zu untersuchen. Ein Aufsatz von 2025 in *History and Philosophy of the Life Sciences* formuliert das Prinzip so und arbeitet seine Logik heraus — extreme Beschränkung macht einen Mechanismus lesbar. Tauchende Säuger für Hypoxietoleranz, Giraffen für hydrostatischen Druck, Winterschläfer für Stoffwechselunterdrückung: Jeder wird gewählt, weil die interessierende Größe dort auf einen Wert getrieben ist, den kein gewöhnliches Tier erreicht.
 
-Die Heuristik birgt eine offensichtliche Gefahr. Ein wegen seiner Extremität gewählter Organismus ist konstruktionsbedingt unrepräsentativ, sodass eine Verallgemeinerung von ihm ein zu führendes Argument und keine ererbte Annahme ist. Dieselbe Vorsicht gilt für die Pflanzenliteratur, wo das physikalische Problem tatsächlich ein anderes ist — [Wasser ohne Pumpe zu bewegen](/de/biology/physiology/plant-physiology-water-and-nutrients) hat kein tierisches Gegenstück — und für [die Entwicklung, bei der das regulierte Objekt seine Gestalt ändert, während es reguliert wird](/de/biology/physiology/developmental-biology-explained). Regulation beschränkt sich auch nicht auf die klassischen Größen: [Immunabwehr ist ein geschichtetes Regelungsproblem](/de/biology/physiology/the-immune-system-explained) mit derselben Struktur aus Schwellen, Effektoren und Kosten. Ob ein physiologischer Unterschied adaptiv oder beiläufig ist, ist eine Frage für [natürliche Selektion und wie Anpassung geprüft wird](/de/biology/evolution/natural-selection-and-adaptation), und die Darstellung auf Mechanismusebene dessen, was eine [evolutionäre Anpassung](/en/glossary/evolutionary-adaptation) ist, gehört dorthin und nicht hierher.
+Die Heuristik birgt eine offensichtliche Gefahr. Ein wegen seiner Extremität gewählter Organismus ist konstruktionsbedingt unrepräsentativ, sodass eine Verallgemeinerung von ihm ein zu führendes Argument und keine ererbte Annahme ist. Dieselbe Vorsicht gilt für die Pflanzenliteratur, wo das physikalische Problem tatsächlich ein anderes ist — [Wasser ohne Pumpe zu bewegen](/de/biology/physiology/plant-physiology-water-and-nutrients) hat kein tierisches Gegenstück — und für [die Entwicklung, bei der das regulierte Objekt seine Gestalt ändert, während es reguliert wird](/de/biology/physiology/developmental-biology-explained). Regulation beschränkt sich auch nicht auf die klassischen Größen: [Immunabwehr ist ein geschichtetes Regelungsproblem](/de/biology/physiology/the-immune-system-explained) mit derselben Struktur aus Schwellen, Effektoren und Kosten. Ob ein physiologischer Unterschied adaptiv oder beiläufig ist, ist eine Frage für [natürliche Selektion und wie Anpassung geprüft wird](/de/biology/evolution/natural-selection-and-adaptation), und die Darstellung auf Mechanismusebene dessen, was eine [evolutionäre Anpassung](/de/glossary/evolutionary-adaptation) ist, gehört dorthin und nicht hierher.
 
 ## Was dieses Fach am wenigsten klären kann
 

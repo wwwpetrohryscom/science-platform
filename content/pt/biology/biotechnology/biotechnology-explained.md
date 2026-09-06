@@ -5,7 +5,7 @@ excerpt: O ADN recombinante, a sequenciação, a edição e o desenho computacio
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biotechnology
@@ -18,6 +18,7 @@ related:
   - crispr-genome-editing-explained
   - synthetic-biology-explained
   - bioinformatics-explained
+_bodyHash: d1ae71b0
 ---
 Fazer cerveja, fabricar queijo e produzir penicilina à escala industrial eram biotecnologia antes de a palavra existir, e nenhuma dessas atividades exigia saber o que é um gene. O que mudou no início dos anos 1970 não foi que as células vivas passassem a fazer química útil — sempre a fizeram — mas que uma instrução escolhida pôde ser deslocada deliberadamente para dentro de uma célula. Toda a técnica aqui descrita herda esse ganho de especificidade, e a maioria das desilusões recorrentes da área vem de supor que a especificidade obtida em laboratório se transfere intacta para um produto fabricado.
 

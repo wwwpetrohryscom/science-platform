@@ -4,7 +4,7 @@ excerpt: Antimicrobial resistance is one of the clearest contemporary examples o
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-29'
-updatedDate: '2026-05-20'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - evolution
@@ -16,12 +16,12 @@ related:
   - cell-signaling-pathways-basics
   - how-gene-expression-is-regulated
 pillar: evolution-explained
-_bodyHash: d8d49c66
+_bodyHash: c32a0117
 ---
 
-Antimicrobial resistance is one of the clearest contemporary examples of [evolution](/en/biology/evolution/evolution-explained) operating on human timescales. Its scale has been estimated directly: a systematic analysis covering 23 pathogens and 88 pathogen-drug combinations across 204 countries put the 2019 toll at [1.27 million deaths attributable to bacterial resistance and 4.95 million associated with it](https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/), with the highest attributable death rate in western sub-Saharan Africa at 27.3 per 100,000 and the lowest in Australasia at 6.5.
+[Antimicrobial resistance](/en/biology/microbiology/antimicrobial-resistance-evidence) is one of the clearest contemporary examples of [evolution](/en/biology/evolution/evolution-explained) operating on human timescales. Its scale has been estimated directly: a systematic analysis covering 23 pathogens and 88 pathogen-drug combinations across 204 countries put the 2019 toll at [1.27 million deaths attributable to bacterial resistance and 4.95 million associated with it](https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/), with the highest attributable death rate in western sub-Saharan Africa at 27.3 per 100,000 and the lowest in Australasia at 6.5.
 
-Beyond the public-health framing, [antibiotic resistance](/en/glossary/antibiotic-resistance) is a useful case study for how evolutionary processes actually work — selection, mutation, horizontal gene transfer, and ecological context interacting in a system where the data is unusually rich.
+Beyond the public-health framing, [antibiotic resistance](/en/glossary/antibiotic-resistance) is a useful case study for how evolutionary processes actually work — selection, mutation, [horizontal gene transfer](/en/biology/microbiology/bacteria-and-archaea-explained), and ecological context interacting in a system where the data is unusually rich.
 
 ## The four canonical mechanisms
 
@@ -62,7 +62,7 @@ Three properties of bacterial populations make antibiotic resistance evolve on t
 - **Generation time.** Bacterial generation times in clinical contexts are typically minutes to hours. Selection has many cycles to act on.
 - **Horizontal gene transfer.** Unlike animals, bacteria routinely exchange genetic material across species boundaries. A resistance gene that arose once can spread through unrelated lineages.
 
-These properties do not make microbial evolution categorically different from animal evolution — the underlying process is selection on heritable variation — but they do make it observable in real time. Most claims about bacterial evolutionary mechanisms are validated in laboratory selection experiments and confirmed in clinical surveillance, an unusually strong evidence base by the standards of [evolutionary biology](/en/biology/evolution/cell-types-as-units-of-evolution).
+These properties do not make microbial evolution categorically different from animal evolution — the underlying process is selection on heritable variation — but they do make it observable in real time. Most claims about bacterial evolutionary mechanisms are validated in laboratory selection experiments and confirmed in clinical surveillance, an unusually strong evidence base by the standards of [evolutionary biology](/en/biology/evolution/cell-types-as-units-of-evolution) — and one whose scope and limits are set out in [what experimental evolution can show](/en/biology/evolution/what-experimental-evolution-can-show).
 
 ## Stewardship: what slows the evolution
 
@@ -86,7 +86,7 @@ Three areas remain genuinely open.
 
 The WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) continues to expand reporting coverage, with more national systems contributing standardized data on bloodstream and other priority pathogens. The [WHO bacterial priority pathogens list](https://www.who.int/publications/i/item/9789240093461), revised in May 2024, is the reference point for which phenotypes are tracked operationally: 24 pathogens across 15 families, sorted into critical, high and medium priority. It replaces the 2017 list rather than extending it, and the stated purpose is to guide research and development rather than to rank clinical severity — a distinction that is easy to lose when the list is quoted as a threat ranking. Surveillance signals over the early 2020s document continued spread of carbapenem-resistant Enterobacterales and persistent challenges with drug-resistant tuberculosis and gonorrhea, with sustained variation across regions.
 
-On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature has continued to characterize compensatory evolution — mutations that reduce the fitness cost of resistance — which is the molecular basis for why resistance phenotypes persist after the corresponding drug is withdrawn from use. A related operational point with consistent NIH/CDC support is the role of stress-response pathways such as the bacterial SOS response: many antibiotics (notably fluoroquinolones and β-lactams) induce DNA damage that activates SOS, which transiently elevates the mutation rate and increases the chance that a resistance variant arises during the same exposure that selects for it. Inhibiting these stress pathways is one of the mechanism-level approaches under investigation, though none has yet produced a licensed drug. This evidence is consistent with the framing used by the CDC and WHO that resistance reversion is not automatic and stewardship works on the rate of emergence and spread rather than on the underlying evolutionary mechanism.
+On the mechanism side, [PubMed](https://pubmed.ncbi.nlm.nih.gov/)-indexed literature has continued to characterize compensatory evolution — mutations that reduce the fitness cost of resistance — which is the molecular basis for why resistance phenotypes persist after the corresponding drug is withdrawn from use. A related operational point with consistent NIH/CDC support is the role of stress-response pathways such as the bacterial SOS response: many antibiotics (notably fluoroquinolones and β-lactams) induce DNA damage that activates SOS, which transiently elevates the [mutation rate](/en/biology/genetics/mutation-types-and-rates) and increases the chance that a resistance variant arises during the same exposure that selects for it. Inhibiting these stress pathways is one of the mechanism-level approaches under investigation, though none has yet produced a licensed drug. This evidence is consistent with the framing used by the CDC and WHO that resistance reversion is not automatic and stewardship works on the rate of emergence and spread rather than on the underlying evolutionary mechanism.
 
 ## What this article does not do
 

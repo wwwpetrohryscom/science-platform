@@ -5,7 +5,7 @@ excerpt: No instrument has been inside the mantle. The layered picture of Earth'
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - seismology
@@ -42,7 +42,7 @@ One further division cuts across that list, and it is mechanical rather than com
 
 A global compilation published in *Solid Earth*, drawing on 38,347 individual measurements — some 55 per cent more than earlier estimates had used — puts the total heat flux through Earth's surface at 47 ± 2 TW. Two sources supply it, according to the USGS account: the decay of naturally occurring uranium, thorium and potassium, and residual heat left from the gravitational energy of the planet's formation. Radiometric decay is the same process that underpins the dating discussed below, and its physics is set out in the article on [radioactivity and the units that measure it](/en/physics/matter-radiation/radioactivity-and-radiation-units).
 
-Against the solar radiation that drives weather, that internal flux is negligible; it does essentially nothing to [the atmosphere's own energy budget](/en/physics/climate-physics/atmospheric-physics-explained). What it does drive is the interior. Heat has to escape, conduction through thousands of kilometres of rock is far too slow to carry it, and so the mantle convects — hot material rising, cooling, and sinking again over geological time, the same mechanism that operates in a heated fluid at any scale, as described in the treatment of [conduction, convection and radiation](/en/physics/thermodynamics/heat-transfer-conduction-convection-radiation).
+Against the [solar radiation](/en/physics/energy/solar-radiation-and-earth-energy-balance) that drives weather, that internal flux is negligible; it does essentially nothing to [the atmosphere's own energy budget](/en/physics/climate-physics/atmospheric-physics-explained). What it does drive is the interior. Heat has to escape, conduction through thousands of kilometres of rock is far too slow to carry it, and so the mantle convects — hot material rising, cooling, and sinking again over geological time, the same mechanism that operates in a heated fluid at any scale, as described in the treatment of [conduction, convection and radiation](/en/physics/thermodynamics/heat-transfer-conduction-convection-radiation).
 
 That much is forced by the energy budget. The details are not. USGS states plainly that how many convection cells exist, where they originate and what their structure is remain unanswered, and the coupling to the plates is not settled either: explanations up to the 1990s emphasised seafloor spreading pushing plates apart, whereas most workers now favour the forces associated with subduction pulling them. Observed spreading rates range widely — about 2.5 cm per year at the Mid-Atlantic Ridge, more than 15 cm per year on the East Pacific Rise near Easter Island — and the interior flow producing that range is inferred rather than imaged.
 

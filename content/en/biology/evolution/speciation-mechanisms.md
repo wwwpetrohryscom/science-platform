@@ -5,8 +5,8 @@ excerpt: Two lineages become separate species when the barriers to gene exchange
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - evolution
   - speciation
@@ -19,7 +19,7 @@ related:
   - natural-selection-and-adaptation
   - convergent-evolution-explained
 pillar: evolution-explained
-_bodyHash: eaadbfbc
+_bodyHash: 95fd0334
 ---
 
 Two populations are separate species when gene exchange between them has become improbable enough that each follows its own evolutionary trajectory. Stated that way, the question stops being "when did the split happen" and becomes "which barriers to gene flow are present, and how much do they actually stop". That is a question with measurable answers, and the answers have shifted considerably since whole-genome sequencing made it possible to look for gene flow rather than assume its absence. The wider machinery of allele-frequency change is set out in the [overview of evolutionary mechanisms](/en/biology/evolution/evolution-explained); this page is about the specific problem of how one lineage becomes two.

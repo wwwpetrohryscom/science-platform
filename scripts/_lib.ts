@@ -110,6 +110,26 @@ export async function walkAllContent(): Promise<WalkedArticle[]> {
 }
 
 /** Returns null when the file does not exist or cannot be parsed. */
+/**
+ * Files whose frontmatter would not parse, recorded as they are met.
+ *
+ * Returning null on a parse failure means the file is skipped by the
+ * walker, and being skipped by the walker means being skipped by every
+ * validator, the link checker, the sitemap and the metadata pass at
+ * once. A file with a YAML error therefore looked exactly like a file
+ * that did not exist: an unquoted `excerpt:` containing a colon and a
+ * space dropped a whole article out of a 527-file corpus, and the only
+ * symptom was one unresolved internal link pointing at it.
+ *
+ * The parse failure is still non-fatal — a validator should be able to
+ * run over a corpus with one broken file — but it is no longer silent.
+ */
+const unreadableDocs = new Set<string>();
+
+export function unreadableDocList(): string[] {
+  return [...unreadableDocs];
+}
+
 export async function readDoc(filepath: string): Promise<{
   data: Record<string, unknown>;
   content: string;
@@ -118,11 +138,21 @@ export async function readDoc(filepath: string): Promise<{
   const raw = await fsp.readFile(filepath, "utf8");
   try {
     const parsed = matter(raw);
+    unreadableDocs.delete(filepath);
     return {
       data: parsed.data as Record<string, unknown>,
       content: parsed.content,
     };
-  } catch {
+  } catch (err) {
+    if (!unreadableDocs.has(filepath)) {
+      unreadableDocs.add(filepath);
+      const rel = path.relative(PROJECT_ROOT, filepath);
+      console.error(
+        `✗ [unreadable-frontmatter] ${rel} — YAML did not parse, so this file is invisible to every check: ${
+          err instanceof Error ? err.message.split("\n")[0] : String(err)
+        }`,
+      );
+    }
     return null;
   }
 }

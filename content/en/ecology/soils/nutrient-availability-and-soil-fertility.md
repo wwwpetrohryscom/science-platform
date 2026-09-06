@@ -5,7 +5,7 @@ excerpt: Fertility is a rate of ion supply to a root, not a stock of nutrients s
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-06'
 readingTime: 9
 tags:
   - fertility
@@ -19,10 +19,10 @@ related:
   - soil-biology-and-the-soil-food-web
   - soil-erosion-processes-and-rates
 pillar: soil-science-explained
-_bodyHash: 5bcc66ba
+_bodyHash: 1b7ce138
 ---
 
-Most of the nutrient content of a fertile field is unavailable to the crop growing in it, and this is normal rather than a defect. Fertility is better understood as a supply rate — how fast particular ions arrive at a root surface — than as an inventory. The inorganic forms of nitrogen that roots absorb, nitrate and ammonium, usually amount to less than 5 per cent of the nitrogen present. Phosphorus in the soil solution sits between 0.01 and 0.50 mg per litre, against roughly 400 for calcium, 60 for magnesium and 40 for potassium; half or more of the total may be locked in organic compounds. Around 1 to 3 per cent of soil organic matter decomposes in a year, so a fertile profile holding 8,000 kg of organic nitrogen per hectare releases about 160 kg of it, of which a crop might take up half.
+Most of the nutrient content of a fertile field is unavailable to the crop growing in it, and this is normal rather than a defect. Fertility is better understood as a supply rate — how fast particular ions arrive at a root surface — than as an inventory. The inorganic forms of nitrogen that roots absorb, nitrate and ammonium, usually amount to less than 5 per cent of the nitrogen present. Phosphorus in the soil solution sits between 0.01 and 0.50 mg per litre, against roughly 400 for calcium, 60 for magnesium and 40 for potassium; half or more of the total may be locked in organic compounds. Around 1 to 3 per cent of soil organic matter decomposes in a year, so a fertile profile holding 8,000 kg of organic nitrogen per hectare releases about 160 kg of it, of which a crop might take up half. That release rate is set by [decomposition](/en/ecology/ecosystems/decomposition-and-the-return-of-nutrients), which is why fertility responds to temperature and moisture rather than to stock alone.
 
 The [profile-scale view of what a soil holds](/en/ecology/soils/soil-science-explained) is the necessary background here; this article is about the chemistry that decides which fraction of that holding a plant can actually reach.
 
@@ -74,7 +74,7 @@ The reserve question is where public discussion most often goes wrong. USGS repo
 
 ## Where the unrecovered fraction goes
 
-The US Environmental Protection Agency describes surplus nutrients washing from fields during rain and snowmelt, leaching through the profile into groundwater, and leaving as gaseous ammonia and nitrogen oxides. Sediment carries adsorbed phosphorus, which links fertility loss to [erosion rates and the arguments about them](/en/ecology/soils/soil-erosion-processes-and-rates).
+The US Environmental Protection Agency describes surplus nutrients washing from fields during rain and snowmelt, leaching through the profile into groundwater, and leaving as gaseous ammonia and nitrogen oxides. Sediment carries adsorbed phosphorus, which links fertility loss to [erosion rates and the arguments about them](/en/ecology/soils/soil-erosion-processes-and-rates) and makes [nutrient losses a two-element problem](/en/ecology/soils/nutrient-losses-and-use-efficiency) rather than one.
 
 The regional accounting is uncomfortable. The European Environment Agency estimates that nutrient imbalances affect 74 per cent of EU agricultural land, with nitrogen surplus increasing. Downstream, NOAA's July survey of the hypoxic zone on the northern Gulf shelf — the area where bottom oxygen falls below 2 mg per litre — measured 4,402 square miles in 2025 and 1,332 square miles in 2026, the second smallest in a record that began in 1985. A more than three-fold swing between consecutive years is a reminder that the zone's area tracks river discharge as much as nutrient loading, so one year's measurement says very little about the trend in [coastal deoxygenation](/en/ecology/oceans/ocean-deoxygenation-and-dead-zones).
 

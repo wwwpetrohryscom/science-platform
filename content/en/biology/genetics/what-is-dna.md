@@ -1,11 +1,11 @@
 ---
 title: What is DNA? The molecule, the code, and what it doesn't determine
-metaTitle: 'What is DNA? The molecule, the code, and its limits'
+metaTitle: What is DNA? The molecule, the code, and its limits
 excerpt: DNA is a four-letter molecular code that stores the information needed to build and run a cell. Understanding what it does — and the equally important things it does not do — is the foundation of modern biology.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-20'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - dna
@@ -22,7 +22,7 @@ faq:
     answer: Genome function depends on the definition of function. Protein-coding sequence is a small fraction of the genome, while regulatory, structural, and evolutionary roles are more complex. Claims that nearly every base is functional should be treated cautiously unless they distinguish biochemical activity from selected biological function.
   - question: Are most diseases genetic?
     answer: Many common diseases have genetic components, but most are not purely genetic. Environment, behavior, exposure history, and chance usually interact with inherited risk. Single-gene disorders exist and are important for affected individuals, but they are not a complete model for common disease burden.
-_bodyHash: 2e3f5bb3
+_bodyHash: 62088e2e
 ---
 
 DNA — deoxyribonucleic acid — is a four-letter molecular code that stores genetic information, as summarized by the [National Human Genome Research Institute](https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA). It is the carrier of heredity and the substrate on which evolution operates. It is also routinely overstated in popular discussion, in ways that the actual biology does not support.

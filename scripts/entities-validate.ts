@@ -3,15 +3,29 @@
  * Entity graph validator.
  *
  * Errors: broken references, duplicate ids, a matchSlug or glossaryId
- * that names nothing, an entity with no article.
- * Warnings: an article with no entity, and a definition long enough to
- * be competing with the glossary rather than indexing it.
+ * that names nothing, an entity with no article, and a localized label
+ * that names nothing, collides, or duplicates a name the glossary
+ * already gives the same concept.
+ * Warnings: an article with no entity, a definition long enough to be
+ * competing with the glossary rather than indexing it, and an entity
+ * that some locales name and others do not.
  */
+import fs from "node:fs";
 import path from "node:path";
 
 import { walkAllContent, PROJECT_ROOT } from "./_lib";
-import { allEntities } from "../lib/entities/index";
-import { GLOSSARY } from "../lib/glossary";
+import {
+  allEntities,
+  hasLocalizedEntityName,
+} from "../lib/entities/index";
+import { GLOSSARY, glossaryLocalization } from "../lib/glossary";
+
+const LOCALIZED_ENTITY_PATH = path.join(
+  PROJECT_ROOT,
+  "data",
+  "entities",
+  "localized.json",
+);
 
 type Issue = { severity: "error" | "warning"; rule: string; message: string; where: string };
 
@@ -91,6 +105,84 @@ async function main() {
     }
   }
 
+  // --- Localized names ------------------------------------------
+  // One graph, six ways of naming its nodes. What is checked is that
+  // the naming layer stays a naming layer: every locale names the same
+  // set of entities, no locale names one the graph does not have, and
+  // no entity is named twice in the same language by two different
+  // sources — the glossary and the label file — because that is how a
+  // concept ends up with two French names that slowly diverge.
+  const localizedNames = fs.existsSync(LOCALIZED_ENTITY_PATH)
+    ? (JSON.parse(fs.readFileSync(LOCALIZED_ENTITY_PATH, "utf8")) as Record<
+        string,
+        Record<string, string>
+      >)
+    : {};
+  const entityIds = new Set(entities.map((e) => e.id));
+  const nameLocales = Object.keys(localizedNames);
+
+  for (const [locale, names] of Object.entries(localizedNames)) {
+    const seen = new Map<string, string>();
+    for (const [id, name] of Object.entries(names)) {
+      const where = `${locale}:${id}`;
+      if (!entityIds.has(id)) {
+        issues.push({
+          severity: "error",
+          rule: "entity-name-unknown-id",
+          message: "no entity with this id, so the label names nothing",
+          where,
+        });
+        continue;
+      }
+      if (!name.trim()) {
+        issues.push({
+          severity: "error",
+          rule: "entity-name-empty",
+          message: "empty label",
+          where,
+        });
+      }
+      const entity = entities.find((e) => e.id === id);
+      if (entity?.glossaryId && glossaryLocalization(entity.glossaryId, locale)) {
+        issues.push({
+          severity: "error",
+          rule: "entity-name-duplicated",
+          message: `the glossary already gives this concept a ${locale} name via "${entity.glossaryId}" — one of the two will drift`,
+          where,
+        });
+      }
+      const clash = seen.get(name.trim().toLowerCase());
+      if (clash) {
+        issues.push({
+          severity: "error",
+          rule: "entity-name-collision",
+          message: `"${name}" is also the ${locale} label for ${clash}`,
+          where,
+        });
+      }
+      seen.set(name.trim().toLowerCase(), id);
+    }
+  }
+
+  for (const e of entities) {
+    const missing = nameLocales.filter((l) => !hasLocalizedEntityName(e, l));
+    if (missing.length && missing.length < nameLocales.length) {
+      issues.push({
+        severity: "warning",
+        rule: "entity-name-partial",
+        message: `named in ${nameLocales.filter((l) => hasLocalizedEntityName(e, l)).join(", ")} but not ${missing.join(", ")}`,
+        where: e.id,
+      });
+    } else if (missing.length === nameLocales.length && nameLocales.length) {
+      issues.push({
+        severity: "warning",
+        rule: "entity-name-missing",
+        message: "no locale has a name for this entity; every language shows the English one",
+        where: e.id,
+      });
+    }
+  }
+
   const covered = new Set(entities.flatMap((e) => e.relatedArticles));
   for (const w of walked) {
     if (!covered.has(w.slug)) {
@@ -111,9 +203,18 @@ async function main() {
   for (const i of issues) {
     console.log(`${i.severity === "error" ? "✗" : "⚠"} [${i.rule}] ${i.where} — ${i.message}`);
   }
+  const named = nameLocales
+    .map(
+      (l) =>
+        `${l} ${entities.filter((e) => hasLocalizedEntityName(e, l)).length}`,
+    )
+    .join(" · ");
   console.log(
     `\n${entities.length} entities · ${covered.size}/${walked.length} articles mapped · ` +
-      `${errors.length} errors · ${issues.length - errors.length} warnings`,
+      `named: ${named || "en only"}`,
+  );
+  console.log(
+    `${errors.length} errors · ${issues.length - errors.length} warnings`,
   );
   if (errors.length) process.exit(1);
 }

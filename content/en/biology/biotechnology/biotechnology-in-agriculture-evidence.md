@@ -5,7 +5,7 @@ excerpt: Two traits account for most of the engineered crop area, the food-safet
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - engineered-crops
@@ -19,7 +19,7 @@ related:
   - agricultural-ecosystems-and-agroecology
   - natural-selection-and-adaptation
 pillar: biotechnology-explained
-_bodyHash: bef8d1fe
+_bodyHash: '97940705'
 ---
 
 Most of the engineered crop area planted worldwide carries one of two traits: insecticidal proteins from the soil bacterium *Bacillus thuringiensis*, or tolerance to a broad-spectrum herbicide. Everything else — altered oil composition, virus resistance, delayed browning, provitamin A — is real but small by hectare. That matters for reading the evidence, because there is no such thing as a study of "the safety of genetic modification". There are studies of particular constructs in particular crops, and the two dominant traits carry almost all of the accumulated data. The techniques that produce those constructs are described in the wider [survey of what biotechnology's methods actually do](/en/biology/biotechnology/biotechnology-explained).
@@ -44,7 +44,7 @@ The other two-thirds of the same table are the part usually left out. Thirty cas
 
 Pink bollworm in cotton makes the contrast concrete across the three largest cotton producers. In the southwestern United States, growers planted non-Bt refuges from 1996 to 2005 and then combined Bt cotton with mass releases of sterile moths and other tactics, eradicating the pest regionally. In China, farmers planted second-generation hybrid seed, which yields a refuge of roughly 25 per cent non-Bt plants randomly interspersed through the field; they adopted it for its short-term agronomic and economic advantages rather than to manage resistance, and low-level resistance reversed. In India, where non-Bt refuges have been scarce, resistance to pyramided cotton producing both Cry1Ac and Cry2Ab became widespread, and control now depends on integrated tactics such as shortening the season and destroying crop residues.
 
-Weeds tell the same story on a longer time base. A 2014 global overview counted 220 weed species with resistance to at least one herbicide and 404 unique species × site-of-action cases; 24 species had evolved glyphosate resistance, 16 of them within herbicide-tolerant cropping systems. Compounding it, no herbicide with a genuinely new site of action had reached the market in over 30 years at the time of that review, so the chemistry available to respond was the chemistry already being outrun. The [evolutionary adaptation](/en/glossary/evolutionary-adaptation) here is ordinary population genetics operating at field scale, and the agronomic consequences run into the wider questions covered in [agricultural ecosystems and agroecology](/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology).
+Weeds tell the same story on a longer time base. A 2014 global overview counted 220 weed species with resistance to at least one herbicide and 404 unique species × site-of-action cases; 24 species had evolved glyphosate resistance, 16 of them within herbicide-tolerant cropping systems. Compounding it, no herbicide with a genuinely new site of action had reached the market in over 30 years at the time of that review, so the chemistry available to respond was the chemistry already being outrun. The [evolutionary adaptation](/en/glossary/evolutionary-adaptation) here is ordinary [population genetics](/en/biology/evolution/evolution-explained) operating at field scale, and the agronomic consequences run into the wider questions covered in [agricultural ecosystems and agroecology](/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology).
 
 ## Regulated on how it was made, not on what it is
 

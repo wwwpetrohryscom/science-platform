@@ -5,7 +5,7 @@ excerpt: Equilibrium climate sensitivity and the transient climate response answ
 type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - climate-sensitivity
@@ -49,7 +49,7 @@ Divide 3.93 by 1.16 and the process-based central estimate is 3.4°C. That arith
 
 ## Four lines of evidence, and why combining them narrowed the range
 
-AR5 assessed a likely ECS range of 1.5°C to 4.5°C and declined to give a best estimate. AR6 gives 2.5°C to 4°C with a best estimate of 3°C. Nothing about the physical system changed between the two reports; the method did. AR6 assessed four largely independent lines of evidence and then combined them, and — a genuine break with earlier reports — excluded direct estimates from Earth system models from the assessed ranges altogether.
+AR5 assessed a likely ECS range of 1.5°C to 4.5°C and declined to give a best estimate. AR6 gives 2.5°C to 4°C with a best estimate of 3°C. Nothing about the physical system changed between the two reports; the method did. AR6 assessed four largely independent lines of evidence and then combined them, and — a genuine break with earlier reports — excluded direct estimates from [Earth system models](/en/ecology/earth-systems/earth-system-science-explained) from the assessed ranges altogether.
 
 | Line of evidence | Central value | Very likely range or limit |
 | --- | --- | --- |

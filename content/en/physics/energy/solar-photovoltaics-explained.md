@@ -4,7 +4,7 @@ excerpt: A module's nameplate wattage is a measurement made against a modelled s
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - photovoltaics
@@ -60,7 +60,7 @@ Modelling tools acknowledge this candidly. The PVWatts calculator, which estimat
 
 ## Degradation splits the field into two populations
 
-For mature crystalline silicon, degradation is slow enough to be difficult to measure. The National Laboratory of the Rockies states that modules typically lose less than 1 per cent of their performance per year, and that the loss is undetectable within measurement uncertainty for the first several years of operation. The laboratory's PV Lifetime project, which has tracked sixteen module types indoors under controlled annual retesting since 2016, reports an annual median degradation between −0.4 and −0.5 per cent per year for the earliest-deployed types, with several types better than −0.3 per cent per year. Four of the sixteen exceed −1 per cent per year, and one bifacial heterojunction type declines at roughly −1.5 per cent per year — so the spread within a single controlled study is wider than the median suggests.
+For mature crystalline silicon, degradation is slow enough to be difficult to measure. The National Laboratory of the Rockies states that modules typically lose less than 1 per cent of their performance per year, and that the loss is undetectable within [measurement uncertainty](/en/physics/mechanics-waves/calibration-and-traceability) for the first several years of operation. The laboratory's PV Lifetime project, which has tracked sixteen module types indoors under controlled annual retesting since 2016, reports an annual median degradation between −0.4 and −0.5 per cent per year for the earliest-deployed types, with several types better than −0.3 per cent per year. Four of the sixteen exceed −1 per cent per year, and one bifacial heterojunction type declines at roughly −1.5 per cent per year — so the spread within a single controlled study is wider than the median suggests.
 
 Newer architectures behave differently. A study in *PRX Energy* of a mechanically stacked four-terminal gallium arsenide over silicon tandem minimodule, deployed outdoors in Golden, Colorado from October 2019 to January 2021, measured −4.1 ± 0.2 per cent per year for the GaAs subcell and −2.5 ± 0.9 per cent per year for the silicon subcell. The dominant mechanism was packaging degradation, particularly delamination, rather than anything intrinsic to the absorbers. That result is the general shape of the problem for emerging stacks, and it is why the durability work described in the article on [perovskite tandem stability in the field](/en/physics/energy/perovskite-stack-field-stability) matters more to deployment than another point of certified efficiency.
 

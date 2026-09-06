@@ -1,11 +1,12 @@
 ---
-title: 'L'évolution : les mécanismes, les preuves et les questions encore ouvertes'
+title: L
+évolution: les mécanismes, les preuves et les questions encore ouvertes'
 metaTitle: 'L''évolution : quatre mécanismes et les preuves'
 excerpt: L'évolution est un changement de la composition génétique des populations, et quatre processus la produisent plutôt qu'un seul. Cette page expose les mécanismes, les preuves indépendantes de la descendance commune et l'objet réel des débats en cours.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evolution
@@ -19,8 +20,9 @@ related:
   - speciation-mechanisms
   - convergent-evolution-explained
   - cell-types-as-units-of-evolution
+_bodyHash: a512fec3
 ---
-[L'évolution](/en/glossary/evolution) est une propriété des populations, non des individus. Un organisme n'évolue pas au cours de sa vie ; ce qui change, c'est la fréquence de chaque version d'un gène parmi les organismes qui composent un groupe reproducteur, et la façon dont cette distribution se déplace d'une génération à l'autre. La plupart des malentendus courants — l'idée que les lignées tendraient vers la complexité, qu'une espèce susciterait la variante dont elle a besoin, que la valeur sélective signifierait la force physique — se dissipent dès que le sujet de la phrase est remis à sa place.
+[L'évolution](/fr/glossary/evolution) est une propriété des populations, non des individus. Un organisme n'évolue pas au cours de sa vie ; ce qui change, c'est la fréquence de chaque version d'un gène parmi les organismes qui composent un groupe reproducteur, et la façon dont cette distribution se déplace d'une génération à l'autre. La plupart des malentendus courants — l'idée que les lignées tendraient vers la complexité, qu'une espèce susciterait la variante dont elle a besoin, que la valeur sélective signifierait la force physique — se dissipent dès que le sujet de la phrase est remis à sa place.
 
 Le National Human Genome Research Institute définit l'évolution, en termes génomiques, comme le processus par lequel les organismes vivants changent au fil du temps par des modifications du génome. La version issue de la génétique des populations est plus étroite et plus utile : un **allèle** est l'une des deux versions ou plus d'une séquence d'ADN à un emplacement génomique donné, et l'évolution est un changement de la fréquence de chacune de ces versions au fil des générations. Tout ce qui suit développe cette phrase.
 
@@ -30,7 +32,7 @@ Une population très grande, où les accouplements se font au hasard, sans séle
 
 ## Quatre processus, pas un seul
 
-Les exposés de manuel réduisent souvent l'évolution à la seule [sélection naturelle](/en/glossary/natural-selection). C'est la simplification la plus lourde de conséquences du domaine, car trois autres processus modifient eux aussi les fréquences alléliques, et dans certaines circonstances ils dominent.
+Les exposés de manuel réduisent souvent l'évolution à la seule [sélection naturelle](/fr/glossary/natural-selection). C'est la simplification la plus lourde de conséquences du domaine, car trois autres processus modifient eux aussi les fréquences alléliques, et dans certaines circonstances ils dominent.
 
 | Processus | Effet sur les fréquences alléliques | La direction est-elle prévisible ? | Dépendance à la taille de population |
 | --- | --- | --- | --- |

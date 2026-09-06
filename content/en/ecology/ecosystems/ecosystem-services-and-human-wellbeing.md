@@ -1,11 +1,11 @@
 ---
 title: 'Ecosystem services: how the framework changed environmental decision-making'
-metaTitle: 'Ecosystem services and environmental decision-making'
+metaTitle: Ecosystem services and environmental decision-making
 excerpt: The phrase ecosystem services entered policy in the early 2000s. Two decades later, it has reshaped how environmental decisions get made — and where its blind spots are.
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-04-30'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - ecosystems
@@ -17,7 +17,7 @@ related:
   - foundation-species-and-the-myth-of-redundancy
   - essential-biodiversity-variables-monitoring
 pillar: what-is-an-ecosystem
-_bodyHash: 735c2a7f
+_bodyHash: fc400a56
 ---
 
 The phrase "[ecosystem](/en/glossary/ecosystem) services" entered international policy through the [Millennium Ecosystem Assessment](https://www.unep.org/explore-topics/ecosystems) in the early 2000s. It was developed as a translation device — a way of expressing, in terms a policy process can act on, and starting from [what an ecosystem actually is](/en/ecology/ecosystems/what-is-an-ecosystem), the connection between ecosystems and human well-being in language that ministries of finance and treasuries could engage with. Two decades later, the framework is operational in agencies including the [United Nations Environment Programme](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and the [U.S. Environmental Protection Agency](https://www.epa.gov/). The [IPBES Global Assessment](https://www.ipbes.net/global-assessment) builds on it explicitly.
@@ -31,7 +31,7 @@ The standard taxonomy organizes ecosystem services into four categories:
 - **Provisioning** services — food, fibre, fresh water, fuel.
 - **Regulating** services — climate regulation, flood attenuation, pollination, disease regulation.
 - **Cultural** services — recreation, spiritual values, sense of place, scientific value.
-- **Supporting** services — primary production, soil formation, nutrient cycling.
+- **Supporting** services — [primary production](/en/ecology/ecosystems/primary-production-and-energy-flow), soil formation, [nutrient cycling](/en/ecology/forests/tropical-forest-ecology).
 
 Supporting services are different from the other three: they are inputs to ecosystem function rather than benefits to people directly. Recent assessments — including IPBES — drop the four-category structure and use "nature's contributions to people" with overlapping categories instead. The vocabulary continues to evolve; the underlying observation does not.
 

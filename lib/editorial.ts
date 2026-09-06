@@ -8,13 +8,20 @@
  *   - a validator can assert that the policy pages are non-empty and
  *     that every desk named here exists in `lib/authors.ts`.
  *
- * These pages are English-only, following the glossary precedent: an
- * untranslated policy served under a localized URL is worse than no
- * localized URL at all.
+ * Localized the same way the glossary is: a policy document is served
+ * in a language only when the whole document exists in it. An
+ * untranslated policy under a localized URL is worse than no localized
+ * URL at all, so `policyLocales` drives both generateStaticParams and
+ * the hreflang set, and a partial translation is a validator error
+ * rather than a page.
  */
+import fs from "node:fs";
+import path from "node:path";
+
 import { authors, type AuthorId } from "@/lib/authors";
 import { SOURCE_REGISTRY } from "@/lib/sources";
 import type { CategorySlug } from "@/lib/categories";
+import { isLocale, type Locale } from "@/lib/i18n-config";
 
 export type PolicySection = {
   heading: string;
@@ -87,7 +94,7 @@ export const EDITORIAL_STANDARDS: PolicyDocument = {
       heading: "Translations",
       paragraphs: [
         "The English version of an article is the source of truth. A translated page is published only when a full translation exists that preserves the numbers, the sources and the hedging of the original. Where a translation does not exist, the site serves the English text and marks the page as non-indexable in that language rather than presenting a partial or machine-mangled version as a localized page.",
-        "Policy and glossary pages are currently English-only for the same reason.",
+        "The glossary and these policy pages follow the same rule. They are published in a language only where a full translation of the whole document exists, and the language switcher offers a locale only where it does — so a reader never lands on a page that is half in their language.",
       ],
     },
     {
@@ -189,6 +196,91 @@ export const POLICY_DOCUMENTS: PolicyDocument[] = [
   SOURCING_POLICY,
   CORRECTIONS_POLICY,
 ];
+
+/**
+ * Localized policy documents, one JSON file per locale.
+ *
+ * A translated policy is all-or-nothing. `policyLocales` reports the
+ * locales in which a given document exists in full, and it is the same
+ * list that drives `generateStaticParams`, the hreflang set and the
+ * language switcher — so a locale is advertised for a policy page only
+ * where the policy is actually readable in that language. The
+ * validator (`npm run editorial:validate`) refuses a partial one.
+ *
+ * `updatedDate` is deliberately NOT localized. It records when the
+ * policy text was last substantively revised, which is a fact about the
+ * document rather than about any one language; a translation that
+ * carried its own date could claim a revision that never happened.
+ */
+export type LocalizedPolicy = {
+  title: string;
+  eyebrow: string;
+  summary: string;
+  sections: PolicySection[];
+};
+
+const LOCALIZED_DIR = path.join(process.cwd(), "data", "editorial");
+
+function loadLocalizedPolicies(): Record<
+  string,
+  Record<string, LocalizedPolicy>
+> {
+  const out: Record<string, Record<string, LocalizedPolicy>> = {};
+  if (!fs.existsSync(LOCALIZED_DIR)) return out;
+  for (const file of fs.readdirSync(LOCALIZED_DIR)) {
+    const m = /^localized\.([a-z]{2})\.json$/.exec(file);
+    if (!m) continue;
+    out[m[1]] = JSON.parse(
+      fs.readFileSync(path.join(LOCALIZED_DIR, file), "utf8"),
+    ) as Record<string, LocalizedPolicy>;
+  }
+  return out;
+}
+
+const LOCALIZED_POLICIES = loadLocalizedPolicies();
+
+/** Every locale for which at least one policy translation file exists. */
+export function localizedPolicyLocales(): Locale[] {
+  return Object.keys(LOCALIZED_POLICIES).filter(isLocale).sort();
+}
+
+/** The raw localization for one document, or undefined. */
+export function policyLocalization(
+  slug: PolicyDocument["slug"],
+  locale: string,
+): LocalizedPolicy | undefined {
+  return LOCALIZED_POLICIES[locale]?.[slug];
+}
+
+/**
+ * The document as it should be rendered in `locale`, or undefined when
+ * no full translation exists. English always resolves.
+ */
+export function policyFor(
+  slug: PolicyDocument["slug"],
+  locale: string,
+): PolicyDocument | undefined {
+  const base = POLICY_DOCUMENTS.find((d) => d.slug === slug);
+  if (!base) return undefined;
+  if (locale === "en") return base;
+  const loc = policyLocalization(slug, locale);
+  if (!loc) return undefined;
+  return {
+    ...base,
+    title: loc.title,
+    eyebrow: loc.eyebrow,
+    summary: loc.summary,
+    sections: loc.sections,
+  };
+}
+
+/** Locales this document can be served in, English first. */
+export function policyLocales(slug: PolicyDocument["slug"]): Locale[] {
+  return [
+    "en" as Locale,
+    ...localizedPolicyLocales().filter((l) => Boolean(policyLocalization(slug, l))),
+  ];
+}
 
 /** Count of registered source organizations, by category. Rendered on the
  *  sourcing policy page so the stated policy and the registry cannot drift. */

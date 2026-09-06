@@ -1,0 +1,231 @@
+{
+  "indicators": [
+    {
+      "indicatorId": "atmospheric-co2",
+      "name": "Atmospheric carbon dioxide concentration",
+      "shortName": "Atmospheric CO₂",
+      "definition": "The dry-air mole fraction of carbon dioxide in the well-mixed marine boundary layer, averaged over a global network of sampling sites and reported as a calendar-year mean.",
+      "methodology": "Air is collected in flasks at sites chosen to be far from local sources, and in continuous analysers at baseline observatories. Each sample is measured against a calibration scale maintained by NOAA, and the site records are combined into a latitude-weighted global marine boundary layer average. The published uncertainty describes the spread of that averaging, not the precision of a single measurement.",
+      "unit": "ppm",
+      "unitLabel": "parts per million by dry-air mole fraction",
+      "datasetId": "noaa-gml-ccgg-co2-global",
+      "category": "atmosphere",
+      "direction": "increasing",
+      "limitations": [
+        "This is the background concentration, deliberately measured away from cities, forests and farmland. It is not the concentration anywhere a person actually stands.",
+        "A mole fraction is not a mass. Converting to a carbon or CO₂ mass requires the mass of the atmosphere and the molar masses, and the two are routinely confused.",
+        "The concentration is the result of emissions minus uptake by land and ocean. A year of slower growth can mean lower emissions or a stronger sink, and the concentration alone cannot separate them.",
+        "The most recent year is preliminary until the standard gases have been recalibrated."
+      ],
+      "relatedEntityIds": ["carbon-cycle", "greenhouse-effect", "radiative-forcing"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/greenhouse-gas-concentrations-monitoring",
+        "ecology/earth-systems/carbon-cycle-explained",
+        "ecology/climate-change/greenhouse-gases-and-radiative-forcing",
+        "ecology/climate-change/carbon-cycle-feedbacks"
+      ],
+      "relatedGlossaryIds": ["carbon-cycle", "radiative-forcing", "carbon-sink"],
+      "relatedToolSlugs": ["carbon-dioxide-mass-converter"]
+    },
+    {
+      "indicatorId": "co2-growth-rate",
+      "name": "Atmospheric CO₂ annual growth rate",
+      "shortName": "CO₂ growth rate",
+      "definition": "The increase in the globally averaged carbon dioxide mole fraction over one calendar year, as computed by NOAA from December-to-December differences.",
+      "methodology": "NOAA computes the growth rate as the difference between the December globally averaged mole fraction and the December of the preceding year, which suppresses the seasonal cycle without needing to model it. The published uncertainty comes from the uncertainty on the two annual endpoints.",
+      "unit": "ppm yr⁻¹",
+      "unitLabel": "parts per million per year",
+      "datasetId": "noaa-gml-ccgg-co2-global",
+      "category": "atmosphere",
+      "direction": "variable",
+      "limitations": [
+        "The year-to-year variability is dominated by the land carbon sink, which responds to El Niño and to drought. A high growth-rate year usually means a weak sink, not a jump in emissions.",
+        "This is the growth in concentration, not in emissions. Roughly half of emitted CO₂ is taken up by land and ocean, and that fraction is itself variable.",
+        "A single year says almost nothing. The quantity worth reading is the multi-decade trend in the growth rate, which is what shows that the accumulation is accelerating."
+      ],
+      "relatedEntityIds": ["carbon-cycle", "climate-feedback"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/carbon-cycle-feedbacks",
+        "ecology/earth-systems/carbon-cycle-explained",
+        "ecology/climate-change/greenhouse-gas-concentrations-monitoring"
+      ],
+      "relatedGlossaryIds": ["carbon-cycle-feedback", "carbon-sink"]
+    },
+    {
+      "indicatorId": "atmospheric-ch4",
+      "name": "Atmospheric methane concentration",
+      "shortName": "Atmospheric CH₄",
+      "definition": "The dry-air mole fraction of methane in the marine boundary layer, averaged globally and reported as a calendar-year mean.",
+      "methodology": "Measured from the same flask network as CO₂, against NOAA's methane calibration scale, and averaged the same way. Methane is reported in parts per billion because it is present at roughly one two-hundredth of the CO₂ concentration.",
+      "unit": "ppb",
+      "unitLabel": "parts per billion by dry-air mole fraction",
+      "datasetId": "noaa-gml-ccgg-ch4-global",
+      "category": "atmosphere",
+      "direction": "increasing",
+      "limitations": [
+        "Methane has an atmospheric lifetime of roughly a decade, so its concentration responds to changes in emissions far faster than CO₂ does — and can fall as well as rise.",
+        "The concentration does not identify the source. Wetlands, ruminants, rice, landfill and fossil-fuel infrastructure all emit methane, and separating them requires isotopic measurements this series does not contain.",
+        "Comparing methane and CO₂ by concentration is meaningless. They differ in radiative efficiency per molecule and in lifetime, which is what the greenhouse gas index exists to combine."
+      ],
+      "relatedEntityIds": ["greenhouse-effect", "radiative-forcing"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/greenhouse-gas-concentrations-monitoring",
+        "ecology/climate-change/greenhouse-gases-and-radiative-forcing"
+      ],
+      "relatedGlossaryIds": ["radiative-forcing"]
+    },
+    {
+      "indicatorId": "atmospheric-n2o",
+      "name": "Atmospheric nitrous oxide concentration",
+      "shortName": "Atmospheric N₂O",
+      "definition": "The dry-air mole fraction of nitrous oxide in the marine boundary layer, averaged globally and reported as a calendar-year mean.",
+      "methodology": "Measured from the NOAA flask network against the N₂O calibration scale and averaged as for the other long-lived gases. The global marine-boundary-layer product begins in 2001.",
+      "unit": "ppb",
+      "unitLabel": "parts per billion by dry-air mole fraction",
+      "datasetId": "noaa-gml-ccgg-n2o-global",
+      "category": "atmosphere",
+      "direction": "increasing",
+      "limitations": [
+        "The record here starts in 2001 because that is when the global product starts, not because nitrous oxide was unmeasured before it. Longer records exist from ice cores and from individual stations.",
+        "Nitrous oxide is dominated by agricultural nitrogen use, and its rise is a consequence of the same fertiliser chemistry that feeds most of the world. It cannot be read as an energy-sector indicator.",
+        "N₂O has an atmospheric lifetime of over a century, so the concentration responds to emission changes only slowly."
+      ],
+      "relatedEntityIds": ["nitrogen-cycle", "greenhouse-effect", "ammonia-synthesis"],
+      "relatedArticleSlugs": [
+        "ecology/earth-systems/nitrogen-cycle-explained",
+        "ecology/climate-change/greenhouse-gas-concentrations-monitoring",
+        "physics/energy/the-energy-cost-of-ammonia-synthesis"
+      ],
+      "relatedGlossaryIds": ["radiative-forcing"]
+    },
+    {
+      "indicatorId": "annual-greenhouse-gas-index",
+      "name": "NOAA Annual Greenhouse Gas Index",
+      "shortName": "AGGI",
+      "definition": "The direct radiative forcing from the long-lived greenhouse gases, expressed relative to its 1990 value. An index of 1.5 means the forcing is one and a half times what it was in 1990.",
+      "methodology": "Measured global mole fractions of CO₂, CH₄, N₂O and fifteen halogenated gases are converted to radiative forcing using published expressions, summed, and divided by the 1990 total. The index therefore inherits the accuracy of the concentration measurements and the accuracy of the forcing expressions, which are different things.",
+      "unit": "index (1990 = 1)",
+      "unitLabel": "dimensionless index, 1990 = 1",
+      "datasetId": "noaa-gml-aggi",
+      "category": "climate",
+      "direction": "increasing",
+      "referencePeriod": "1990 = 1",
+      "limitations": [
+        "This is a derived index, not a measurement. Its inputs are measured; the step from concentration to forcing is a calculation using radiative-transfer expressions.",
+        "It covers only the long-lived, well-mixed gases. Aerosols, ozone, water vapour and land-surface changes all force the climate and none of them are in this number.",
+        "A forcing is not a temperature. The temperature response to a given forcing depends on climate sensitivity and on how much heat the ocean has taken up, neither of which this index contains.",
+        "The 1990 baseline is a reporting convention chosen to align with the Kyoto Protocol, not a physically meaningful zero."
+      ],
+      "relatedEntityIds": ["radiative-forcing", "greenhouse-effect", "climate-sensitivity"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/greenhouse-gases-and-radiative-forcing",
+        "physics/climate-physics/radiative-transfer-explained",
+        "ecology/climate-change/climate-sensitivity-explained"
+      ],
+      "relatedGlossaryIds": ["radiative-forcing"]
+    },
+    {
+      "indicatorId": "global-temperature-anomaly",
+      "name": "Global mean surface temperature anomaly",
+      "shortName": "Global temperature anomaly",
+      "definition": "The difference between the global mean surface temperature for a calendar year and the average for the 1951–1980 base period, combining land air temperature with sea surface temperature.",
+      "methodology": "GISTEMP takes land station records and ship- and buoy-based sea surface temperatures, converts each to an anomaly against its own local base period, and interpolates the anomalies onto a global grid. Working in anomalies rather than absolute temperatures is what allows a station at altitude and a station at sea level to be combined at all.",
+      "unit": "°C",
+      "unitLabel": "degrees Celsius relative to the 1951–1980 mean",
+      "datasetId": "nasa-giss-gistemp-v4",
+      "category": "climate",
+      "direction": "increasing",
+      "referencePeriod": "1951–1980",
+      "limitations": [
+        "The baseline is a choice. A value against 1951–1980 is not comparable with one against 1850–1900 or 1991–2020 without adding the offset between the baselines, and the difference is several tenths of a degree.",
+        "Independent analyses of the same underlying observations differ by a few hundredths of a degree, mostly because they treat the sparsely sampled Arctic differently.",
+        "A global mean is a poor description of what any place experiences. Land warms faster than ocean and high latitudes faster than the tropics.",
+        "Single-year values are dominated by El Niño and La Niña. The trend is the signal; the year is mostly weather."
+      ],
+      "relatedEntityIds": ["climate-change", "climate-sensitivity"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/global-temperature-records-explained",
+        "ecology/climate-change/what-is-climate-change",
+        "ecology/climate-change/climate-indicators-earth-system-monitoring"
+      ],
+      "relatedGlossaryIds": ["global-mean-surface-temperature"]
+    },
+    {
+      "indicatorId": "ocean-heat-content-0-2000m",
+      "name": "Ocean heat content, 0–2000 m",
+      "shortName": "Ocean heat content",
+      "definition": "The heat stored in the upper 2000 metres of the world ocean, expressed as an anomaly in units of 10²² joules.",
+      "methodology": "Temperature profiles, since 2005 dominated by the Argo float array, are mapped onto a global grid and integrated over depth and area. The provider publishes a standard error alongside each yearly value.",
+      "unit": "10²² J",
+      "unitLabel": "units of 10²² joules",
+      "datasetId": "noaa-ncei-ocean-heat-content",
+      "category": "ocean",
+      "direction": "increasing",
+      "limitations": [
+        "The yearly 0–2000 m series begins in 2005 because that is when Argo coverage became dense enough to support it. Earlier ocean heat estimates exist but rest on far sparser sampling.",
+        "The deep ocean below 2000 m is not in this number, and it is warming too.",
+        "NCEI's column documentation states the unit as 10²² joules but does not state the reference climatology on that page, so this site does not assert one. The series is useful as a change, not as an absolute.",
+        "Ocean heat content is a far better measure of the planet's energy imbalance than surface temperature, because most of the excess heat goes into the ocean — which also means it responds slowly and cannot be used to detect a change quickly."
+      ],
+      "relatedEntityIds": ["ocean", "climate-change", "earth-system"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/ocean-heat-content-indicators",
+        "ecology/earth-systems/ocean-circulation-and-climate",
+        "physics/energy/solar-radiation-and-earth-energy-balance"
+      ],
+      "relatedGlossaryIds": ["ocean-heat-content"],
+      "relatedToolSlugs": ["energy-unit-converter"]
+    },
+    {
+      "indicatorId": "arctic-sea-ice-september-extent",
+      "name": "Arctic sea ice extent, September mean",
+      "shortName": "Arctic sea ice (September)",
+      "definition": "The area of ocean north of the equator covered by at least 15 per cent sea ice, averaged over September — the month of the annual minimum.",
+      "methodology": "Passive-microwave radiometers on polar-orbiting satellites distinguish ice from open water by their very different emissivity at microwave frequencies. Every grid cell whose retrieved concentration is at least 15 per cent is counted in full; the monthly value is the mean of the daily fields.",
+      "unit": "million km²",
+      "unitLabel": "million square kilometres",
+      "datasetId": "nsidc-sea-ice-index-v4",
+      "category": "cryosphere",
+      "direction": "decreasing",
+      "limitations": [
+        "Extent and area are different quantities. Extent counts a 20-per-cent-covered cell in full; area counts a fifth of it. Quoting one and calling it the other overstates or understates the ice by a wide margin in summer.",
+        "The 15 per cent threshold is a convention. A different threshold produces a different number from exactly the same satellite data.",
+        "Extent says nothing about thickness or volume, and the Arctic has lost proportionally more volume than area.",
+        "Summer melt ponds on the ice surface look like open water to a microwave radiometer, which biases summer retrievals low.",
+        "The record starts in 1979 with the satellite era. It is not a statement about how unusual the recent decline is over longer periods."
+      ],
+      "relatedEntityIds": ["cryosphere", "climate-change"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/cryosphere-indicators-glaciers-sea-ice",
+        "ecology/earth-systems/ice-albedo-feedback-explained",
+        "ecology/earth-systems/cryosphere-in-the-earth-system"
+      ],
+      "relatedGlossaryIds": ["albedo", "ice-albedo-feedback"]
+    },
+    {
+      "indicatorId": "global-mean-sea-level",
+      "name": "Global mean sea level anomaly",
+      "shortName": "Global mean sea level",
+      "definition": "The height of the global mean sea surface relative to the start of the satellite altimetry record, measured by radar altimeters and averaged over the ocean they cover.",
+      "methodology": "A radar altimeter measures the round-trip time of a pulse to the sea surface and back, giving the distance from a precisely known orbit to the water. Corrections are applied for the atmosphere, tides and sea state, and the residual is averaged over each roughly ten-day repeat cycle. Values here are calendar-year means of those cycles.",
+      "unit": "mm",
+      "unitLabel": "millimetres relative to the start of the record",
+      "datasetId": "noaa-lsa-sea-level",
+      "category": "ocean",
+      "direction": "increasing",
+      "limitations": [
+        "This series carries no glacial isostatic adjustment. The GIA correction accounts for the ocean basin slowly changing shape after the last ice age and adds roughly 0.3 mm per year; series that include it report a larger trend from the same measurements.",
+        "The altimeter does not see the polar oceans, so 'global' means roughly 66°S to 66°N.",
+        "The record is a splice across five missions, and the inter-mission offsets are estimated during overlap periods rather than measured directly.",
+        "Sea level rise is profoundly uneven. Regional rates differ from the global mean by a factor of several, and what matters locally also includes land subsidence, which an altimeter cannot see."
+      ],
+      "relatedEntityIds": ["ocean", "climate-change", "remote-sensing"],
+      "relatedArticleSlugs": [
+        "ecology/climate-change/sea-level-rise-indicators",
+        "ecology/earth-observation/satellite-altimetry-explained",
+        "ecology/climate-change/cryosphere-indicators-glaciers-sea-ice"
+      ],
+      "relatedGlossaryIds": ["sea-level-rise", "satellite-altimetry"]
+    }
+  ]
+}

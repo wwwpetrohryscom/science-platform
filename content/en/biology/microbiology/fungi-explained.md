@@ -4,8 +4,8 @@ excerpt: Fungi feed by secreting enzymes and absorbing what dissolves, a body pl
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - fungi
   - mycorrhiza
@@ -18,7 +18,7 @@ related:
   - bacteria-and-archaea-explained
   - microbiomes-and-host-microbe-interactions
 pillar: microbiology-explained
-_bodyHash: 5dac94da
+_bodyHash: 2e28f84e
 ---
 
 There are four classes of antifungal medicine in clinical use, against more than a dozen classes of antibacterial. The reason is not neglect. It is that a fungal cell is built like ours: the ribosomes, the cytoskeleton, the replication machinery and most of the metabolic enzymes a drug might attack have close human counterparts, so a compound that stops the pathogen tends to stop the patient's cells too.
@@ -51,7 +51,7 @@ Lichens are the other classic fungal partnership, and the textbook version of th
 
 Wood resists decay largely because of lignin, an irregular aromatic polymer that cannot be broken down by simple hydrolysis. The only organisms that degrade it substantially are white rot fungi within the Agaricomycetes.
 
-A comparative analysis of 31 fungal genomes reconstructed the ancestor of the Agaricomycetes as a white rot species, with lignin-degrading peroxidases expanding in the lineage leading to it and then contracting independently in the lineages that became brown rot and ectomycorrhizal fungi. Molecular clock analysis in the same study suggested that the origin of lignin degradation might have coincided with the sharp decline in the rate of organic carbon burial around the end of the Carboniferous.
+A comparative analysis of 31 fungal genomes reconstructed the ancestor of the Agaricomycetes as a white rot species, with lignin-degrading peroxidases expanding in the lineage leading to it and then contracting independently in the lineages that became brown rot and ectomycorrhizal fungi. [Molecular clock](/en/biology/taxonomy/phylogenetics-explained) analysis in the same study suggested that the origin of lignin degradation might have coincided with the sharp decline in the rate of organic carbon burial around the end of the Carboniferous.
 
 That coincidence is frequently retold as though the evolution of white rot ended coal formation, and the original wording — "might have coincided" — did not claim that. The evidence is mixed on the causal reading, and the case against it is specific. Carboniferous coal-forming peats were dominated by arborescent lycopsids whose biomass came largely from periderm that was not lignified; coal accumulated at comparable levels across major floral transitions in the North American Carboniferous record; and fossil woods from the Devonian onward show damage consistent with white rot decay, well before the proposed enzymatic origin. The alternative account attributes the Carboniferous peak to a combination of everwet tropical climate and the extensive subsiding foreland basins formed during the assembly of Pangaea.
 
@@ -69,7 +69,7 @@ This is the pipeline problem stated at the top of this article, seen from the cl
 
 Around 120,000 fungal species have been formally described. The most careful published estimate of the true total puts it at 2.2 to 3.8 million, derived by combining the ratio of cryptic species uncovered when known morphological species are examined molecularly — a weighted ratio of about an order of magnitude between the number of species recognised after such a study and before it — with an updated fungus-to-vascular-plant ratio of about 9.8 to 1 applied to some 380,000 vascular plant species. Description has run at roughly 1,300 species a year over the past four decades, rising to about 1,800 a year after 2010.
 
-At that rate the gap does not close. The same assessment cautions against the obvious shortcut: clustering environmental DNA sequences can overestimate species counts by orders of magnitude, so the sequencing that reveals the scale of the shortfall cannot by itself measure it. The honest summary is that mycology knows the order of magnitude of its own ignorance and not much more precisely than that.
+At that rate the gap does not close. The same assessment cautions against the obvious shortcut: clustering [environmental DNA](/en/biology/taxonomy/environmental-dna-and-what-it-detects) sequences can overestimate species counts by orders of magnitude, so the sequencing that reveals the scale of the shortfall cannot by itself measure it. The honest summary is that mycology knows the order of magnitude of its own ignorance and not much more precisely than that.
 
 ## Sources
 

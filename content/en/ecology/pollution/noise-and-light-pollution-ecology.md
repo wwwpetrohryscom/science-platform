@@ -1,11 +1,11 @@
 ---
 title: 'Noise and artificial light at night: pollution that cannot be sampled after the fact'
-metaTitle: 'Noise and artificial light at night as pollution'
+metaTitle: Noise and artificial light at night as pollution
 excerpt: Sound and light leave no residue in soil, water or tissue. They exist only while the source is running, and that single property shapes how they are measured, why their ecological effects were regulated late, and what the evidence can support.
 type: expert
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - anthropogenic-noise
@@ -19,7 +19,7 @@ related:
   - habitat-fragmentation-and-connectivity
   - particulate-matter-and-health-evidence
 pillar: environmental-pollution-explained
-_bodyHash: 8623856c
+_bodyHash: '1554013'
 ---
 
 Every other environmental contaminant can be sampled after the event. A metal stays in the sediment, a persistent compound stays in the fat, a particulate leaves a filter to weigh. Sound and artificial light leave nothing. They exist only while the source is running, which means an unmeasured exposure is gone for good and a monitoring programme has to be present at the time rather than clever afterwards. That property runs through everything else about these two stressors — how they are quantified, how effects are attributed to them, and why they arrived so late in the regulatory architecture that the [triad of source, pathway and receptor](/en/ecology/pollution/environmental-pollution-explained) is built to describe.
@@ -42,7 +42,7 @@ The breadth question was addressed separately by a phylogenetically controlled [
 
 ## Underwater, the physics inverts
 
-Water absorbs light within the upper part of the column and carries sound far beyond it, which makes the ocean an acoustic environment in a way no terrestrial habitat is. A 2021 review of [the ocean soundscape](https://www.science.org/doi/10.1126/science.aba4658) frames the change as a shift in three components at once: anthrophony, the sound of human activity, has risen with shipping, resource exploration and construction; biophony, the sound of life, has fallen with hunting, fishing and habitat degradation; and geophony, the abiotic soundscape, is being altered by climate change. The signal-to-noise ratio has therefore moved twice, from both directions.
+Water absorbs light within the upper part of the column and carries sound far beyond it, which makes the ocean an acoustic environment in a way no terrestrial habitat is. A 2021 review of [the ocean soundscape](https://www.science.org/doi/10.1126/science.aba4658) frames the change as a shift in three components at once: anthrophony, the sound of human activity, has risen with shipping, resource exploration and construction; biophony, the sound of life, has fallen with hunting, fishing and habitat degradation; and geophony, the abiotic soundscape, is being altered by [climate change](/en/ecology/climate-change/what-is-climate-change). The signal-to-noise ratio has therefore moved twice, from both directions.
 
 Animals do compensate, and the limits of that compensation are measurable. A study of male bearded seals in the Arctic found that [vocalising individuals raised their call amplitude as ambient noise rose, up to a threshold](https://royalsocietypublishing.org/doi/10.1098/rspb.2020.2712) — beyond which source levels stopped increasing and the calls could no longer keep pace with the background. The existence of that ceiling is the finding. Behavioural flexibility does not make a species safe from noise; it makes the dose-response curve non-linear, with a region where nothing appears to happen followed by a region where it does.
 

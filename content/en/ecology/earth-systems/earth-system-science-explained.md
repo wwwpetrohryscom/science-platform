@@ -4,7 +4,7 @@ excerpt: Air, water, ice, rock, and life are usually studied apart. Earth system
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - earth-system
@@ -45,7 +45,7 @@ The subject matter is not a list of components. It is the set of couplings betwe
 
 ## The components and their clocks
 
-The conventional division is into five components, described individually in [Earth system components](/en/ecology/earth-systems/earth-system-components-explained): the atmosphere, the hydrosphere, the cryosphere, the biosphere, and the lithosphere or geosphere. The division is a convenience, not a physical boundary — soil moisture belongs to three of them at once, and sea ice sits at the junction of two more.
+The conventional division is into five components, described individually in [Earth system components](/en/ecology/earth-systems/earth-system-components-explained): the atmosphere, the hydrosphere, the cryosphere, the biosphere, and the lithosphere or geosphere. The division is a convenience, not a physical boundary — [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers) belongs to three of them at once, and sea ice sits at the junction of two more.
 
 What makes the division useful is that each component has a characteristic response time, and those times differ by many orders of magnitude. The atmosphere mixes globally within weeks to a year or two and holds only about 12,900 cubic kilometres of water at any moment, roughly a thousandth of one per cent of the planet's total, which NASA notes is cycled through some 495,000 cubic kilometres a year — a complete turnover in a matter of days. The surface ocean responds over years, the deep ocean over centuries; NOAA estimates that a parcel of water takes on the order of a thousand years to complete a circuit of the global overturning circulation. Ice sheets respond over millennia, and the rock cycle over hundreds of millions of years — NASA's Earth Observatory describes carbon taking 100 to 200 million years to move through the slow cycle between rocks, soil, ocean, and air.
 
@@ -65,7 +65,7 @@ The energy budget has a matter counterpart. Every element that cycles through th
 
 Carbon shows the pattern most clearly. Over 2010–2019, human activity released an average of 10.9 ± 0.9 petagrams of carbon a year; the IPCC assesses that 46 per cent accumulated in the atmosphere, 23 per cent was taken up by the ocean, and 31 per cent by land vegetation. The airborne fraction — the share that stays in the air — has held near 44 per cent across six decades, which is a statement about the *sinks*, not about emissions, and whether it holds is one of the field's live questions. That question is taken up in the existing article on [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
 
-Water and nitrogen tell different stories with the same grammar. Water's atmospheric reservoir is tiny and turns over in days, so its cycle is fast and its perturbations are felt almost immediately. Nitrogen's atmospheric reservoir is enormous and almost inert, so the interesting flux is the small stream of nitrogen converted into biologically reactive forms — a stream that industrial fixation has substantially enlarged. The consequence shows up in the atmosphere: the WMO's greenhouse-gas monitoring put the 2024 global mean for nitrous oxide at 338.0 ± 0.1 parts per billion, about 25 per cent above its pre-1750 level.
+Water and nitrogen tell different stories with the same grammar. Water's atmospheric reservoir is tiny and turns over in days, so its cycle is fast and its perturbations are felt almost immediately. Nitrogen's atmospheric reservoir is enormous and almost inert, so the interesting flux is the small stream of nitrogen converted into biologically reactive forms — a stream that industrial fixation has substantially enlarged. The consequence shows up in the atmosphere: the WMO's greenhouse-gas monitoring put the 2024 global mean for [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained) at 338.0 ± 0.1 parts per billion, about 25 per cent above its pre-1750 level.
 
 ## Feedbacks: why the response is not the forcing
 

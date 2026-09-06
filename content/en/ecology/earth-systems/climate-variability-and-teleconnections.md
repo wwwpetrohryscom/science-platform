@@ -1,11 +1,11 @@
 ---
 title: 'Modes of variability and teleconnections: internal oscillations versus forced change'
-metaTitle: 'Modes of variability and teleconnections'
+metaTitle: Modes of variability and teleconnections
 excerpt: Some of what moves in the climate record is being pushed; some is the system oscillating on its own. Telling them apart is a defined statistical problem.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - climate-variability
@@ -21,13 +21,13 @@ _bodyHash: 385cb665
 pillar: earth-system-science-explained
 ---
 
-A pressure anomaly over Iceland is statistically linked to winter temperatures in Turkey. Nothing physically travels between the two; the link exists because both are expressions of one large-scale circulation pattern. That kind of correlation-at-distance is a **[teleconnection](/en/glossary/teleconnection)** — a property of [the planet treated as one coupled system](/en/ecology/earth-systems/earth-system-science-explained) rather than of either location, and the recurring spatial patterns that generate them are **modes of variability**. Together they account for a large share of what looks, in any short record, like climate change.
+A pressure anomaly over Iceland is statistically linked to winter temperatures in Turkey. Nothing physically travels between the two; the link exists because both are expressions of one large-scale circulation pattern. That kind of correlation-at-distance is a **[teleconnection](/en/glossary/teleconnection)** — a property of [the planet treated as one coupled system](/en/ecology/earth-systems/earth-system-science-explained) rather than of either location, and the recurring spatial patterns that generate them are **modes of variability**. Together they account for a large share of what looks, in any short record, like [climate change](/en/ecology/climate-change/what-is-climate-change).
 
 ## What a mode of variability is
 
 [Climate variability](/en/glossary/climate-variability) refers to fluctuations that arise from the internal dynamics of a coupled system rather than from an external push. A mode is a spatial pattern that recurs — the same geographical structure appearing repeatedly, with an amplitude that varies in time and can be summarised as an index.
 
-The distinction from forced change is physical, not statistical convenience. A forced change reflects an alteration to the energy budget; a mode redistributes energy and moisture that are already in the system. Over a long enough record the two behave differently: internal modes oscillate around a stable mean, forced change does not.
+The distinction from forced change is physical, not statistical convenience. A forced change reflects an alteration to the [energy budget](/en/ecology/climate-change/climate-sensitivity-explained); a mode redistributes energy and moisture that are already in the system. Over a long enough record the two behave differently: internal modes oscillate around a stable mean, forced change does not.
 
 ## The main modes, and what each is an index of
 

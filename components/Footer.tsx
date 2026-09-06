@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { siteConfig } from "@/lib/seo";
+import { listGlossarySlugs } from "@/lib/glossary";
+import { policyLocales, type PolicyDocument } from "@/lib/editorial";
+import { feedPath } from "@/lib/feed";
 import {
   getMessages,
   localizedPath,
@@ -12,6 +15,18 @@ import {
 type FooterProps = {
   locale: Locale;
 };
+
+/**
+ * Link to a policy document in the reader's language when it exists
+ * there, and to the English original when it does not. `policyLocales`
+ * is the same list the route builds its static params from, so the
+ * footer cannot offer a link the route will 404 on.
+ */
+function policyHref(slug: PolicyDocument["slug"], locale: Locale): string {
+  return policyLocales(slug).includes(locale)
+    ? localizedPath(locale, `/${slug}`)
+    : `/en/${slug}`;
+}
 
 export function Footer({ locale }: FooterProps) {
   const t = translator(getMessages(locale));
@@ -35,29 +50,40 @@ export function Footer({ locale }: FooterProps) {
       links: [
         { href: localizedPath(locale, "/insights"), label: t("nav.insights") },
         { href: localizedPath(locale, "/discussions"), label: t("nav.discussions") },
-        // The glossary is English-only (there is no localized term
-        // set yet), so this is an absolute /en/ path like the editorial
-        // pages. The *label* is localized even though the destination
-        // is not — a reader should be able to read the nav in their own
-        // language and then find out where the link goes.
-        { href: "/en/glossary", label: t("footer.glossary") },
+        // The glossary now exists in every locale that has localized
+        // terms; the link follows the reader's language where there is
+        // something to read, and falls back to /en/ where there is not.
+        {
+          href:
+            listGlossarySlugs(locale).length > 0
+              ? localizedPath(locale, "/glossary")
+              : "/en/glossary",
+          label: t("footer.glossary"),
+        },
+        { href: localizedPath(locale, "/data"), label: t("nav.data") },
+        { href: localizedPath(locale, "/tools"), label: t("nav.tools") },
       ],
     },
     {
       heading: t("footer.about_heading"),
       links: [
-        // Editorial pages are English-only (see lib/editorial.ts), so these
-        // are absolute /en/ paths rather than locale-prefixed: pointing a
-        // localized nav item at a route that 404s in that locale is worse
-        // than sending the reader to the English original.
-        { href: "/en/editorial-standards", label: t("footer.editorial_standards") },
-        { href: "/en/sourcing-policy", label: t("footer.sourcing_policy") },
+        // The three policy documents are translated in full or not at
+        // all, so each link goes to the reader's own locale where the
+        // document exists there and falls back to /en/ where it does
+        // not — pointing a localized nav item at a route that 404s in
+        // that locale is worse than sending the reader to the English
+        // original. The desk index is still English-only.
+        {
+          href: policyHref("editorial-standards", locale),
+          label: t("footer.editorial_standards"),
+        },
+        { href: policyHref("sourcing-policy", locale), label: t("footer.sourcing_policy") },
         { href: "/en/editorial", label: t("footer.editorial_desks") },
-        { href: "/en/corrections", label: t("footer.corrections") },
+        { href: policyHref("corrections", locale), label: t("footer.corrections") },
         { href: localizedPath(locale, "/privacy-policy"), label: t("footer.privacy_policy") },
         { href: localizedPath(locale, "/cookie-policy"), label: t("footer.cookie_policy") },
         { href: localizedPath(locale, "/terms-of-use"), label: t("footer.terms_of_use") },
-        { href: "/rss.xml", label: t("footer.rss") },
+        { href: feedPath(locale), label: t("footer.rss") },
       ],
     },
   ];

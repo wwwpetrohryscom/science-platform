@@ -1,0 +1,190 @@
+{
+  "batchId": "v-cross-measurement-and-comparability",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass over the drafted text re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used; that limitation is recorded rather than implied.",
+  "articles": [
+    {
+      "slug": "calibration-and-traceability",
+      "path": "content/en/physics/mechanics-waves/calibration-and-traceability.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        {
+          "claim": "NIST provides over 1200 Standard Reference Materials, to support accurate and compatible measurements by certifying materials with well-characterized composition or properties",
+          "sourceChecked": "https://www.nist.gov/srm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "JCGM publishes the VIM as JCGM 200:2012 and the GUM as JCGM 100:2008(E), with supplements and newer modular guides",
+          "sourceChecked": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+          "disposition": "verified"
+        },
+        {
+          "claim": "All Landsat Level-1 data are consistently calibrated and processed and retain traceability of data quality provenance",
+          "sourceChecked": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The SI defining constants sit at the top of the traceability chain, with national metrology institutes, accredited laboratories and working instruments below",
+          "sourceChecked": "general metrological structure; not quoted from a page read in this pass",
+          "disposition": "qualified",
+          "note": "Stated as description rather than attributed to a source. The VIM would be the place to cite for the formal definition of traceability, and the JCGM page we read lists it without reproducing it, so no definition is quoted."
+        }
+      ]
+    },
+    {
+      "slug": "detection-limits-and-non-detects",
+      "path": "content/en/ecology/pollution/detection-limits-and-non-detects.md",
+      "status": "amended",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "The MDL is the minimum measured concentration reportable with 99% confidence that it is distinguishable from method blank results",
+          "sourceChecked": "https://www.epa.gov/cwa-methods/method-detection-limit-frequent-questions",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The MDL is the higher of a spiked-sample and a method-blank calculation, requiring at least seven of each collected over two years across multiple batches",
+          "sourceChecked": "https://www.epa.gov/cwa-methods/method-detection-limit-frequent-questions",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The detection limit is the lowest concentration reliably distinguishable from zero but not quantifiable with acceptable precision; at the DL the analyte is proven to be present but its concentration is an estimate",
+          "sourceChecked": "https://www.epa.gov/risk/regional-guidance-handling-chemical-concentration-data-near-detection-limit-risk-assessments",
+          "disposition": "qualified",
+          "note": "The first clause is quoted. The second was paraphrased rather than quoted because the corpus tone rule flags the phrase 'proven to'; the guidance's meaning is preserved and the quotation marks were removed rather than the rule weakened."
+        },
+        {
+          "claim": "Substituting the detection limit always produces a mean biased high; substituting zero is the best-case approach; half the DL assumes all values between DL and zero could be present; statistical estimation is technically superior",
+          "sourceChecked": "https://www.epa.gov/risk/regional-guidance-handling-chemical-concentration-data-near-detection-limit-risk-assessments",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Falling detection limits can manufacture an apparent decline in concentration and an apparent rise in detection frequency",
+          "sourceChecked": "corpus cross-reference: content/en/ecology/freshwater/water-quality-measurement-explained.md, already verified",
+          "disposition": "qualified",
+          "note": "The mechanism is stated in an existing verified article on this site; not independently re-sourced in this pass."
+        }
+      ]
+    },
+    {
+      "slug": "sensor-calibration-and-record-continuity",
+      "path": "content/en/ecology/earth-observation/sensor-calibration-and-record-continuity.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        {
+          "claim": "Collection 2 applies several radiometric calibration improvements for Landsat 5 TM and Landsat 8 OLI data",
+          "sourceChecked": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Re-baselining Landsat 8 OLI ground control points to the ESA Copernicus Sentinel-2 Global Reference Image improves interoperability of the archive spatially and temporally",
+          "sourceChecked": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Radiometric, geometric and spectral response each have to be transferred across an instrument change",
+          "sourceChecked": "structural description, supported by the calibration items the USGS page lists",
+          "disposition": "qualified",
+          "note": "The three-way split is our framing. Radiometric and geometric are named by the source; the spectral-response point is not, and is stated without a figure."
+        }
+      ]
+    },
+    {
+      "slug": "reference-materials-in-genome-measurement",
+      "path": "content/en/biology/biotechnology/reference-materials-in-genome-measurement.md",
+      "status": "amended",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Genome in a Bottle is a public-private-academic consortium hosted by NIST developing reference standards, methods and data for whole human genome sequencing",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Five human genomes are available as NIST Reference Materials",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "corrected",
+          "note": "A search summary gave five; the NIST page itself lists four reference materials (RM 8391, 8392, 8393 and 8398) and seven characterised genomes — the pilot NA12878/HG001 plus two trios. The article states the page's numbers."
+        },
+        {
+          "claim": "Benchmark variant calls and their high-confidence regions are distributed as VCF and BED files against GRCh37 and GRCh38",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Benchmark calls cover approximately 90% of the genome",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "removed",
+          "note": "The figure appeared in a search summary. The NIST page does not state a coverage percentage, so no number is given; the article makes the scoping point qualitatively instead."
+        },
+        {
+          "claim": "Reported caller accuracy applies to the high-confidence regions rather than to the whole genome",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "qualified",
+          "note": "Follows from the page's statement that benchmarks come with a regions file, but the inference is ours and is written as an inference."
+        }
+      ]
+    },
+    {
+      "slug": "model-intercomparison-as-a-measurement-device",
+      "path": "content/en/ecology/earth-systems/model-intercomparison-as-a-measurement-device.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "CMIP is an international effort to improve climate models by comparing multiple model simulations to observations and to each other",
+          "sourceChecked": "https://www.gfdl.noaa.gov/cmip/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "CMIP6 endorsed 21 MIPs comprising 190 experiments, simulating 40,000 years and producing around 40 PB of data",
+          "sourceChecked": "https://gmd.copernicus.org/articles/17/3081/2024/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The GFDL page gives 23 endorsed MIPs where the 2024 paper gives 21",
+          "sourceChecked": "https://www.gfdl.noaa.gov/cmip/ and https://gmd.copernicus.org/articles/17/3081/2024/",
+          "disposition": "verified",
+          "note": "Both figures were read directly and they disagree. The article reports the disagreement rather than choosing, and notes that an endorsement count carries an implicit date."
+        },
+        {
+          "claim": "Models in an ensemble are not independent because they share parameterisations, components and code lineages",
+          "sourceChecked": "corpus cross-reference: content/en/ecology/climate-change/climate-models-projections-uncertainty.md, already verified",
+          "disposition": "qualified",
+          "note": "Carried from an existing verified article rather than re-sourced here."
+        }
+      ]
+    },
+    {
+      "slug": "interlaboratory-comparison-and-consensus-values",
+      "path": "content/en/physics/mechanics-waves/interlaboratory-comparison-and-consensus-values.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        {
+          "claim": "NIST supplies over 1200 Standard Reference Materials",
+          "sourceChecked": "https://www.nist.gov/srm",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The VIM is JCGM 200:2012 and the GUM is JCGM 100:2008(E)",
+          "sourceChecked": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Between-laboratory spread is usually wider than any single laboratory's stated uncertainty, and repeatability and reproducibility are different quantities",
+          "sourceChecked": "general metrological practice; the VIM defines the terms but was not read in this pass",
+          "disposition": "qualified",
+          "note": "Stated without a figure and without attribution to a specific study. The distinction between repeatability and reproducibility is definitional and is named, not quantified."
+        },
+        {
+          "claim": "Genome benchmarks integrate technologies with uncorrelated errors so that agreement carries information",
+          "sourceChecked": "https://www.nist.gov/programs-projects/genome-bottle",
+          "disposition": "verified"
+        }
+      ]
+    }
+  ]
+}

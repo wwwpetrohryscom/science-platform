@@ -5,7 +5,7 @@ excerpt: Northern forest carbon sits mostly in cold, wet, slowly decomposing soi
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - boreal-forests
@@ -58,9 +58,9 @@ Whether the forest returns as forest is a further question. A continental assess
 
 Circumpolar wildfire emissions have averaged 207 teragrams of carbon per year since 2003, on the 2024 Report Card's accounting. The largest years in that record are 2003, at 343 Tg C, and 2023, at 478 Tg C; in the latter, fires in the Canadian permafrost region burned more than twice the area of any previous year on record and emitted 381 Tg C. Over a longer view, burned area in the Alaskan and Canadian permafrost regions across 2004–2023 was 28 per cent higher than the 1981–2000 average and 62 per cent higher than the 1971–1990 average.
 
-Against that, the regional carbon budget is closer to balanced than the fire numbers alone suggest. Accounting for net ecosystem exchange and fire together, the pan-Arctic permafrost region was CO₂ neutral over 2001–2020, with a budget of −24 ± 123 Tg C per year. Within that total the components diverge: the tundra region has shifted from a CO₂ sink, which it had been for millennia, to a small source, while the boreal region remains a sink. The permafrost region is a consistent methane source at 15 to 39 Tg CH₄-C per year over 2000–2020.
+Against that, the regional [carbon budget](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions) is closer to balanced than the fire numbers alone suggest. Accounting for net ecosystem exchange and fire together, the pan-Arctic permafrost region was CO₂ neutral over 2001–2020, with a budget of −24 ± 123 Tg C per year. Within that total the components diverge: the tundra region has shifted from a CO₂ sink, which it had been for millennia, to a small source, while the boreal region remains a sink. The permafrost region is a consistent methane source at 15 to 39 Tg CH₄-C per year over 2000–2020.
 
-The forest-side evidence adds a trend the flux budget does not resolve. A synthesis of in-situ plot data across three decades found the [boreal forest](/en/glossary/boreal-forest) carbon sink down 36 ± 6 per cent, attributed to intensified disturbance — a large relative decline in a component that is, by the flux accounting above, still a sink. "Boreal forests are a sink" and "the boreal sink has weakened by a third" are both supported, and neither is a rebuttal of the other. The broader mechanics of sink weakening are covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
+The forest-side evidence adds a trend the flux budget does not resolve. A synthesis of in-situ plot data across three decades found the [boreal forest](/en/glossary/boreal-forest) [carbon sink](/en/ecology/earth-systems/carbon-cycle-explained) down 36 ± 6 per cent, attributed to intensified disturbance — a large relative decline in a component that is, by the flux accounting above, still a sink. "Boreal forests are a sink" and "the boreal sink has weakened by a third" are both supported, and neither is a rebuttal of the other. The broader mechanics of sink weakening are covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
 
 ## Why the uncertainty here is structural
 

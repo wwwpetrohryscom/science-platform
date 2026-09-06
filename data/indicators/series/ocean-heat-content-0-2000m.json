@@ -1,0 +1,116 @@
+{
+  "indicatorId": "ocean-heat-content-0-2000m",
+  "datasetId": "noaa-ncei-ocean-heat-content",
+  "unit": "10²² J",
+  "sourceUrl": "https://www.ncei.noaa.gov/data/oceans/woa/DATA_ANALYSIS/3M_HEAT_CONTENT/DATA/basin/yearly/h22-w0-2000m.dat",
+  "sourceSha256": "5b0fabf106dc1473f0a658baaced5245bc19e33a39c6d86294a3cf074ac0f5b4",
+  "accessedDate": "2026-09-06",
+  "derivation": "World-ocean column of NCEI's yearly 0–2000 m heat-content file, with the provider's standard error. The file's first column is year+0.5; the year is taken from it.",
+  "observations": [
+    {
+      "period": "2005",
+      "value": 10.171,
+      "uncertainty": 0.835
+    },
+    {
+      "period": "2006",
+      "value": 12.638,
+      "uncertainty": 0.327
+    },
+    {
+      "period": "2007",
+      "value": 12.394,
+      "uncertainty": 0.434
+    },
+    {
+      "period": "2008",
+      "value": 13.257,
+      "uncertainty": 0.519
+    },
+    {
+      "period": "2009",
+      "value": 13.431,
+      "uncertainty": 0.636
+    },
+    {
+      "period": "2010",
+      "value": 14.537,
+      "uncertainty": 0.527
+    },
+    {
+      "period": "2011",
+      "value": 15.394,
+      "uncertainty": 0.507
+    },
+    {
+      "period": "2012",
+      "value": 16.187,
+      "uncertainty": 0.473
+    },
+    {
+      "period": "2013",
+      "value": 18.65,
+      "uncertainty": 1.059
+    },
+    {
+      "period": "2014",
+      "value": 20.11,
+      "uncertainty": 0.589
+    },
+    {
+      "period": "2015",
+      "value": 22.401,
+      "uncertainty": 0.385
+    },
+    {
+      "period": "2016",
+      "value": 20.799,
+      "uncertainty": 0.832
+    },
+    {
+      "period": "2017",
+      "value": 23.589,
+      "uncertainty": 0.563
+    },
+    {
+      "period": "2018",
+      "value": 24.059,
+      "uncertainty": 0.828
+    },
+    {
+      "period": "2019",
+      "value": 25.436,
+      "uncertainty": 0.287
+    },
+    {
+      "period": "2020",
+      "value": 25.525,
+      "uncertainty": 0.924
+    },
+    {
+      "period": "2021",
+      "value": 27.28,
+      "uncertainty": 0.368
+    },
+    {
+      "period": "2022",
+      "value": 28.192,
+      "uncertainty": 0.25
+    },
+    {
+      "period": "2023",
+      "value": 29.22,
+      "uncertainty": 0.546
+    },
+    {
+      "period": "2024",
+      "value": 30.316,
+      "uncertainty": 0.189
+    },
+    {
+      "period": "2025",
+      "value": 32.533,
+      "uncertainty": 0.267
+    }
+  ]
+}

@@ -40,12 +40,14 @@ import path from "node:path";
 
 import { walkAllContent, PROJECT_ROOT, LOCALES } from "./_lib";
 import { categories } from "../lib/categories";
-import { GLOSSARY } from "../lib/glossary";
+import { GLOSSARY, listGlossarySlugs } from "../lib/glossary";
 import { SOURCE_REGISTRY } from "../lib/sources";
 import { POLICY_DOCUMENTS } from "../lib/editorial";
 import { authors } from "../lib/authors";
 import { getDiscussions } from "../lib/discussions";
 import { loadRegistry } from "../lib/evidence/index";
+import { TOOLS } from "../lib/tools/registry";
+import { INDICATORS, indicatorLocales } from "../lib/scientific-data/index";
 
 const CACHE_FILE = path.join(PROJECT_ROOT, ".linkcache.json");
 const CACHE_TTL_MS = 1000 * 60 * 60 * 24 * 14; // 14 days
@@ -106,8 +108,37 @@ async function buildRouteSet(): Promise<Set<string>> {
   }
 
   // English-only routes.
-  add("/en/glossary");
-  for (const g of GLOSSARY) add(`/en/glossary/${g.slug}`);
+  // One glossary route per locale that has terms, and one term route
+  // per locale that has that term — mirroring generateStaticParams, so
+  // a link into a language that does not define the term is caught here
+  // rather than at build time.
+  for (const locale of LOCALES) {
+    const slugs = listGlossarySlugs(locale);
+    if (!slugs.length) continue;
+    add(`/${locale}/glossary`);
+    for (const slug of slugs) add(`/${locale}/glossary/${slug}`);
+  }
+  void GLOSSARY;
+
+  // Tool + scientific-data routes, mirroring the generateStaticParams of
+  // app/[locale]/tools/[tool] and app/[locale]/data/indicators/[indicator].
+  // Without these the validator reports a real, generated route as
+  // unresolved, which trains editors to ignore the gate.
+  for (const locale of LOCALES) {
+    add(`/${locale}/tools`);
+    for (const tool of TOOLS) add(`/${locale}/tools/${tool.slug}`);
+    add(`/${locale}/data`);
+    add(`/${locale}/search`);
+  }
+  // Indicators are locale-gated: a locale gets the route only if that
+  // indicator has a localization, so mirror indicatorLocales rather than
+  // assuming every locale renders every indicator.
+  for (const ind of INDICATORS) {
+    for (const locale of indicatorLocales(ind.indicatorId)) {
+      add(`/${locale}/data/indicators/${ind.indicatorId}`);
+    }
+  }
+
   add("/en/editorial");
   for (const id of Object.keys(authors)) add(`/en/editorial/${id}`);
   for (const doc of POLICY_DOCUMENTS) add(`/${"en"}/${doc.slug}`);

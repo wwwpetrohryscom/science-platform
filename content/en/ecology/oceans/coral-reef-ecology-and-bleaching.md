@@ -5,7 +5,7 @@ excerpt: Bleaching is the collapse of a nutritional partnership, not the death o
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - coral-reefs
@@ -35,7 +35,7 @@ Reefs also sit at an odd point in the productivity landscape. They require clear
 
 ## How heat stress is actually counted
 
-Operational bleaching forecasting does not use temperature; it uses accumulated exposure above a locally defined threshold. NOAA Coral Reef Watch calculates a Coral Bleaching HotSpot as the amount by which satellite sea surface temperature exceeds the site's maximum monthly mean climatology — the long-term mean for the climatologically hottest month at that location. Only HotSpot values of 1 °C or more are accumulated, over a rolling twelve-week window, to give **degree heating weeks**, reported in °C-weeks on a scale from 0 to 20. Because the baseline is local, the same absolute temperature can be unremarkable on one reef and stressful on another.
+Operational bleaching forecasting does not use temperature; it uses accumulated exposure above a locally defined threshold. NOAA Coral Reef Watch calculates a Coral Bleaching HotSpot as the amount by which satellite sea surface temperature exceeds the site's maximum monthly mean climatology — the long-term mean for the climatologically hottest month at that location. Only HotSpot values of 1 °C or more are accumulated, over a rolling twelve-week window, to give **[degree heating weeks](/en/glossary/degree-heating-week)**, reported in °C-weeks on a scale from 0 to 20. Because the baseline is local, the same absolute temperature can be unremarkable on one reef and stressful on another.
 
 The thresholds are published as expected consequences rather than definitions, and they are not all evidenced to the same degree. NOAA states that accumulated stress over 4 °C-weeks has been shown to cause significant bleaching and that values over 8 °C-weeks have caused severe bleaching and significant mortality; the steps above that are given as expected outcomes without a stated observational calibration, and the 1 °C bleaching threshold the product accumulates above derives from a laboratory study.
 
@@ -53,7 +53,7 @@ Two cautions travel with any degree-heating-week figure. It is a satellite produ
 
 ## The gap between global bleaching events is closing
 
-Bleaching at global scale has now been recorded four times, and NOAA reports that each successive event since 1998 has been more widespread and more severe than the last. Its National Environmental Satellite, Data, and Information Service reports that from early 2023 to mid-2025, bleaching-level heat stress affected 84 per cent of the world's coral reef area across all three reef-bearing ocean basins, with mass bleaching documented in at least 83 countries and territories, and that the event likely ended in mid-2025.
+Bleaching at global scale has now been recorded four times, and NOAA reports that each successive event since 1998 has been more widespread and more severe than the last. Its National Environmental Satellite, Data, and Information Service reports that from early 2023 to mid-2025, bleaching-level [heat stress](/en/ecology/climate-change/heat-limits-and-the-wet-bulb-threshold) affected 84 per cent of the world's coral reef area across all three reef-bearing ocean basins, with mass bleaching documented in at least 83 countries and territories, and that the event likely ended in mid-2025.
 
 The underlying driver is not in dispute. The IPCC assesses with high confidence that marine heatwaves have become more frequent over the twentieth century, and that since the 1980s they have approximately doubled in frequency, becoming more intense and longer with medium confidence. Projections put them at four times more frequent (2 to 9, likely range) in 2081–2100 relative to 1995–2014 under a low-emissions pathway, and eight times more frequent (3 to 15) under a high-emissions one, with the largest changes in the tropical ocean and the Arctic.
 
@@ -67,7 +67,7 @@ That case establishes what recovery needs: surviving colonies, time measured in 
 
 ## Restoration and assisted evolution, honestly scaled
 
-Active restoration has grown quickly, and a systematic review in PLOS ONE gives the clearest picture of what it has so far demonstrated. Across the compiled projects, the median size of a restored area was 100 square metres; 60 per cent of projects reported less than 18 months of monitoring; 59 per cent of studies focused on fast-growing branching corals; and reported survival ran between 60 and 70 per cent. The review identified the field's recurring problems as unclear objectives, non-standardised monitoring, and project designs poorly matched to their stated aims — and it stated plainly that restoration should not be viewed as a replacement for action on climate change.
+Active restoration has grown quickly, and a systematic review in PLOS ONE gives the clearest picture of what it has so far demonstrated. Across the compiled projects, the median size of a restored area was 100 square metres; 60 per cent of projects reported less than 18 months of monitoring; 59 per cent of studies focused on fast-growing branching corals; and reported survival ran between 60 and 70 per cent. The review identified the field's recurring problems as unclear objectives, non-standardised monitoring, and project designs poorly matched to their stated aims — and it stated plainly that restoration should not be viewed as a replacement for action on [climate change](/en/ecology/climate-change/what-is-climate-change).
 
 The arithmetic is what settles the question of scale. A median project of 100 m² is a rounding error against reef systems whose area is measured in tens or hundreds of thousands of square kilometres. Assisted evolution — selective breeding for thermal tolerance, symbiont manipulation, microbiome intervention — is at an earlier stage still, with much of the published work at aquarium or single-plot scale and very little field evidence on whether conferred tolerance persists across generations or across the range of stressors a wild colony meets. Current evidence supports restoration as a local intervention with local benefits; it does not yet support it as a global response.
 

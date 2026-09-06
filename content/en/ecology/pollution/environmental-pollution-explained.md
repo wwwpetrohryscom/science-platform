@@ -5,7 +5,7 @@ excerpt: A substance becomes pollution only when a source, a pathway and a recep
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - risk-assessment
@@ -19,7 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: fd9b1ce1
+_bodyHash: 22fb2d6
 ---
 
 A substance is not pollution because of what it is. It becomes pollution when three things line up: a **source** that releases it, a **pathway** that carries it somewhere, and a **receptor** — a person, a population, a species, a habitat — sitting at the far end of that pathway. Cut any one of the three and the substance is still present and still toxic, but the harm is gone. Cap a contaminated site, and the source remains while the pathway closes. Move a drinking-water intake, and the receptor steps out of the way.
@@ -28,7 +28,7 @@ That is the operational logic of nearly every environmental regulation in force,
 
 ## Hazard travels with the substance; risk travels with the situation
 
-The US Environmental Protection Agency defines a stressor as "any physical, chemical, or biological entity that can induce an adverse effect in humans or ecosystems", and risk as "the chance of harmful effects to human health or to ecological systems resulting from exposure to an environmental stressor". The first is a property. The second is a statement about a specific configuration of source, pathway and receptor.
+The US Environmental Protection Agency defines a stressor as "any physical, chemical, or biological entity that can induce an adverse effect in humans or ecosystems", and risk as "the chance of harmful effects to [human health](/en/ecology/climate-change/heat-limits-and-the-wet-bulb-threshold) or to ecological systems resulting from exposure to an environmental stressor". The first is a property. The second is a statement about a specific configuration of source, pathway and receptor.
 
 Most arguments that go badly in public confuse the two. "Compound X causes cancer in animals" is a hazard claim; it can be true while the risk from a given product is negligible, because no pathway connects them. "There is no detectable X in the water" is a pathway claim; it can be true while the hazard is severe, and it says nothing about the air or the soil. The reply that the dose makes the poison does not settle either dispute — it relocates it to the [dose–response relationship](/en/glossary/dose-response), which is where the genuine scientific disagreement lives.
 
@@ -52,7 +52,7 @@ Screening has legal teeth. Under section 6(h) of the amended US Toxic Substances
 
 Two distinct judgements get made, and conflating them is the most common reason people conclude that regulators disagree about science when they do not.
 
-US drinking-water regulation separates them explicitly. A maximum contaminant level goal is "the maximum level of a contaminant in drinking water at which no known or anticipated adverse effect on the health of persons would occur, allowing an adequate margin of safety"; it is unenforceable and, in the agency's words, considers "only public health and not the limits of detection and treatment technology effectiveness". For a chemical carcinogen with no dose considered safe, that goal is set at zero. The enforceable maximum contaminant level is then set "as close to the MCLG as feasible", taking cost into consideration. One number is a health statement. The other is a health statement filtered through analytical chemistry, treatment engineering and money.
+US drinking-water regulation separates them explicitly. A maximum contaminant level goal is "the maximum level of a contaminant in drinking water at which no known or anticipated adverse effect on the health of persons would occur, allowing an adequate margin of safety"; it is unenforceable and, in the agency's words, considers "only [public health](/en/ecology/climate-change/heat-mortality-and-what-the-records-count) and not the limits of detection and treatment technology effectiveness". For a chemical carcinogen with no dose considered safe, that goal is set at zero. The enforceable maximum contaminant level is then set "as close to the MCLG as feasible", taking cost into consideration. One number is a health statement. The other is a health statement filtered through analytical chemistry, treatment engineering and money.
 
 Air standards have the same architecture without always advertising it. The World Health Organization's 2021 guideline level for annual fine particulate matter is 5 µg/m³, derived from health evidence alone. The European Union's binding annual limit value for the same pollutant, in force since 2015, is 25 µg/m³ — a value the revised Ambient Air Quality Directive, in force since December 2024, cuts by more than half with effect from 2030. Those two numbers are not competing scientific claims; one is a target and the other is an attainability judgement made across twenty-seven economies, and it is the attainability judgement that has since moved. Which figure a report quotes changes how many people appear to be breathing acceptable air, a point developed in [what air quality standards and indices actually report](/en/ecology/pollution/air-quality-measurement-and-standards). The same distinction shapes how monitoring results are read in [freshwater quality measurement](/en/ecology/freshwater/water-quality-measurement-explained).
 

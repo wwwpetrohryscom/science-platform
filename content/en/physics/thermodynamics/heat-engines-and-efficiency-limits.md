@@ -5,7 +5,7 @@ excerpt: A coal steam plant converts about a third of its fuel energy to electri
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-06'
 readingTime: 7
 tags:
   - heat-engines
@@ -19,10 +19,10 @@ related:
   - heat-transfer-conduction-convection-radiation
   - thermodynamic-limits-of-photovoltaics
 pillar: laws-of-thermodynamics-explained
-_bodyHash: 6063a5f6
+_bodyHash: 6fca34bd
 ---
 
-American power plants report their performance as a heat rate — the fuel energy consumed per unit of electricity delivered — and the Energy Information Administration's 2024 figures make the state of the art easy to read. Tested coal-fired steam units averaged 10,018 Btu per kilowatt-hour, natural gas combined-cycle units 7,548, and simple-cycle gas turbines 10,999. Since a kilowatt-hour is 3,412 Btu, those convert to 34.1%, 45.2% and 31.0%.
+American power plants report their performance as a heat rate — the fuel energy consumed per unit of electricity delivered — and the Energy Information Administration's 2024 figures make the state of the art easy to read. Tested coal-fired steam units averaged 10,018 Btu per kilowatt-hour, natural gas combined-cycle units 7,548, and simple-cycle gas turbines 10,999. Since a kilowatt-hour is 3,412 Btu, those convert to 34.1%, 45.2% and 31.0%. That is taken up separately in [the Carnot bound](/en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines).
 
 A steam plant raising 600 °C steam and rejecting heat to cooling water near 30 °C has a reversible ceiling of 65.3%. The measured machine delivers a little over half of that. Nothing in the difference is a mystery, and very little of it is bad engineering: most of it is the price of running at a finite rate, with materials that melt, inside a boundary someone chose.
 
@@ -63,7 +63,7 @@ The single largest source of confusion in published efficiency figures is the bo
 
 Tested and operating heat rates differ for the same fleet: EIA's tested combined-cycle figure of 7,548 Btu per kilowatt-hour becomes 7,754 across the gas fleet in operation, because real units start, stop, run at part load and work on hot days. Any plant-level number that comes from a design point should be read as the best case rather than the expectation.
 
-Counting the heat changes the answer more dramatically still. The Environmental Protection Agency puts combined heat and power systems above 80% total efficiency against about 50% for the conventional arrangement of separate grid electricity and an on-site boiler, and notes that nearly two-thirds of the energy in conventional generation is discharged as heat during generation, transmission and distribution. That comparison is a first-law statement: it adds a joule of 90 °C hot water to a joule of electricity as though they were the same thing. On a second-law accounting — which weights each output by the work that could in principle be recovered from it — they are not, and the same reasoning explains why burning gas at flame temperature to hold a room at 20 °C destroys most of the fuel's available work no matter how little goes up the flue. Which convention a headline number follows is rarely stated, and it is the first thing to check when comparing technologies, as the wider treatment of [capacity factors and energy metrics](/en/physics/energy/capacity-factor-and-energy-metrics) sets out.
+Counting the heat changes the answer more dramatically still. The Environmental Protection Agency puts combined heat and [power systems](/en/physics/energy/grid-integration-of-variable-renewables) above 80% total efficiency against about 50% for the conventional arrangement of separate grid electricity and an on-site boiler, and notes that nearly two-thirds of the energy in conventional generation is discharged as heat during generation, transmission and distribution. That comparison is a first-law statement: it adds a joule of 90 °C hot water to a joule of electricity as though they were the same thing. On a second-law accounting — which weights each output by the work that could in principle be recovered from it — they are not, and the same reasoning explains why burning gas at flame temperature to hold a room at 20 °C destroys most of the fuel's available work no matter how little goes up the flue. Which convention a headline number follows is rarely stated, and it is the first thing to check when comparing technologies, as the wider treatment of [capacity factors and energy metrics](/en/physics/energy/capacity-factor-and-energy-metrics) sets out.
 
 ## What these numbers do not cover
 

@@ -5,7 +5,7 @@ excerpt: Molecular data reorganised the animal tree in the 1990s and phylogenomi
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - animal-phyla
@@ -67,7 +67,7 @@ The deepest split in Metazoa remains contested, and it is a genuine dispute rath
 
 Sequence-based analyses have gone both ways depending on model and taxon sampling. A 2023 study took a different kind of character to the problem, using chromosome-scale gene linkage — synteny — with new genomes for a ctenophore, two sponges and three unicellular relatives of animals. Ctenophores and the unicellular outgroups share ancestral chromosomal arrangements, while sponges, cnidarians, placozoans and bilaterians share derived fusion-and-mixing events; because such rearrangements are rare and effectively irreversible, they support placing ctenophores as sister to all other animals.
 
-That is a qualitatively different kind of evidence from a sequence alignment, and it has still not closed the question. Genome-scale sampling of every phylum has shown that support for major spiralian groupings can be constructed in strongly conflicting ways depending on which taxa and which orthologue sets go into the matrix, and that recoding amino acids into six categories — a standard remedy for compositional bias — can itself flip support at the base of the tree. The methods issue here is not incidental; the behaviour of [substitution models and node support measures](/en/biology/taxonomy/phylogenetics-explained) is what the disagreement is actually about, in the same way that model choice governs the [deep divisions between the domains of life](/en/biology/taxonomy/the-tree-of-life-and-domains).
+That is a qualitatively different kind of evidence from a [sequence alignment](/en/biology/biotechnology/bioinformatics-explained), and it has still not closed the question. Genome-scale sampling of every phylum has shown that support for major spiralian groupings can be constructed in strongly conflicting ways depending on which taxa and which orthologue sets go into the matrix, and that recoding amino acids into six categories — a standard remedy for compositional bias — can itself flip support at the base of the tree. The methods issue here is not incidental; the behaviour of [substitution models and node support measures](/en/biology/taxonomy/phylogenetics-explained) is what the disagreement is actually about, in the same way that model choice governs the [deep divisions between the domains of life](/en/biology/taxonomy/the-tree-of-life-and-domains).
 
 ## What did not change
 

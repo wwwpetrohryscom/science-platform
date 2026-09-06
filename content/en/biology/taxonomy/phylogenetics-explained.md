@@ -4,8 +4,8 @@ excerpt: A phylogenetic tree is an estimate produced by a model from living mole
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 7
 tags:
   - phylogenetics
   - molecular-evolution
@@ -18,7 +18,7 @@ related:
   - what-is-a-species
   - zoology-animal-diversity-explained
 pillar: taxonomy-and-classification-explained
-_bodyHash: afe1c6fa
+_bodyHash: 67c72708
 ---
 
 Nobody observes an ancestor. A phylogeny is an estimate, produced by fitting a model of how sequences change to molecules collected from organisms alive today, and every number printed on a published tree — branch length, support value, divergence date — is a property of that estimate rather than of history. Reading trees well means knowing which parts of the picture the data constrain tightly and which parts the model is supplying. The naming conventions that classifications then hang on the result are handled separately in [the rules that keep names stable](/en/biology/taxonomy/taxonomy-and-classification-explained).
@@ -61,9 +61,9 @@ Contemporary practice therefore reports more than one quantity. Fast approximati
 
 ## Dates are calibrations wearing a molecular disguise
 
-Molecular clocks convert branch lengths into time, but sequences alone contain no absolute timescale; they must be calibrated against dated evidence, almost always fossils. Uncertainty in the calibration therefore passes straight into the estimate and does not shrink when more sequence is added. An analysis of animal divergence times using a large molecular dataset and four different fossil calibration strategies found that [the ambiguity of ancient fossils and clock violations impose a limit](https://pmc.ncbi.nlm.nih.gov/articles/PMC4651906/) on achievable precision: the authors could place the origin of crown Metazoa in the Cryogenian, but not pin individual divergences precisely enough to test them against geological events, and they judged narrative reconstructions built on such dates premature.
+Molecular clocks convert branch lengths into time, but sequences alone contain no absolute timescale; they must be calibrated against dated evidence, almost always fossils. Uncertainty in the calibration therefore passes straight into the estimate and does not shrink when more sequence is added — the structural reason [more data does not narrow the date](/en/biology/taxonomy/molecular-clocks-and-divergence-dating). An analysis of animal divergence times using a large molecular dataset and four different fossil calibration strategies found that [the ambiguity of ancient fossils and clock violations impose a limit](https://pmc.ncbi.nlm.nih.gov/articles/PMC4651906/) on achievable precision: the authors could place the origin of crown Metazoa in the Cryogenian, but not pin individual divergences precisely enough to test them against geological events, and they judged narrative reconstructions built on such dates premature.
 
-A published tree, then, entitles a reader to rather less than it appears to. It supports statements about relative branching order where support and concordance agree; it supports statements about timing only within the interval the calibrations allow; and it says nothing at all about the classification built on top of it, since databases such as [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) organise sequences under a curated classification rather than a phylogeny. Where the inference reaches deepest — the relationships among the primary domains — those limits become the whole story, as [the deep tree and its domains](/en/biology/taxonomy/the-tree-of-life-and-domains) sets out.
+A published tree, then, entitles a reader to rather less than it appears to. It supports statements about relative branching order where support and concordance agree; it supports statements about timing only within the interval the calibrations allow; it supports identification of a specimen only as well as [a barcode library and its taxonomy allow](/en/biology/taxonomy/dna-barcoding-and-its-limits); and it says nothing at all about the classification built on top of it, since databases such as [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) organise sequences under a curated classification rather than a phylogeny. Where the inference reaches deepest — the relationships among the primary domains — those limits become the whole story, as [the deep tree and its domains](/en/biology/taxonomy/the-tree-of-life-and-domains) sets out.
 
 ## Sources
 

@@ -4,7 +4,7 @@ excerpt: Ribosomal RNA split the prokaryotes in two in 1977 and gave biology its
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - tree-of-life
@@ -37,7 +37,7 @@ Metagenomics turned this into a positional question. Deep marine sediment from t
 
 ## The organism that took twelve years to grow
 
-Genomes assembled from environmental DNA describe organisms nobody has seen. Getting one into culture took a Japanese group [a twelve-year study](https://pmc.ncbi.nlm.nih.gov/articles/PMC7015854/), starting from a bioreactor enrichment of sediment collected at 2,533 metres depth in the Nankai Trough and ending with seven years of in-vitro enrichment. The organism, 'Candidatus Prometheoarchaeum syntrophicum' strain MK-D1, is a coccus about 550 nm across that degrades amino acids in syntrophy with partner organisms, has a lag phase of 30 to 60 days and a doubling time estimated at 14 to 25 days.
+Genomes assembled from [environmental DNA](/en/biology/taxonomy/environmental-dna-and-what-it-detects) describe organisms nobody has seen. Getting one into culture took a Japanese group [a twelve-year study](https://pmc.ncbi.nlm.nih.gov/articles/PMC7015854/), starting from a bioreactor enrichment of sediment collected at 2,533 metres depth in the Nankai Trough and ending with seven years of in-vitro enrichment. The organism, 'Candidatus Prometheoarchaeum syntrophicum' strain MK-D1, is a coccus about 550 nm across that degrades amino acids in syntrophy with partner organisms, has a lag phase of 30 to 60 days and a doubling time estimated at 14 to 25 days.
 
 Two findings from it matter. The cell has no visible internal complexes of the kind that had been proposed for Asgard archaea — the eukaryote-like proteins are present, the eukaryote-like organisation is not. And the authors are explicit that roughly two billion years separate this organism from the ancestor that gave rise to eukaryotes, so it constrains hypotheses rather than exhibiting an ancestor. A modern relative is not a fossil.
 
@@ -51,7 +51,7 @@ A branching diagram cannot express a merger. Where a eukaryotic genome carries g
 
 ## Where the tree becomes a network
 
-Endosymbiosis is the dramatic case; horizontal gene transfer is the pervasive one. Sharing genetic material between organisms that are not in a parent–offspring relationship is [a recognised mechanism of adaptation](https://pubmed.ncbi.nlm.nih.gov/26184597/) in bacteria and archaea, and it also occurs between prokaryotes and eukaryotes and even between multicellular eukaryotes. Antibiotic resistance and pathogenicity are its familiar consequences, but its evolutionary reach is much wider than disease.
+Endosymbiosis is the dramatic case; horizontal gene transfer is the pervasive one. Sharing genetic material between organisms that are not in a parent–offspring relationship is [a recognised mechanism of adaptation](https://pubmed.ncbi.nlm.nih.gov/26184597/) in bacteria and archaea, and it also occurs between prokaryotes and eukaryotes and even between multicellular eukaryotes. [Antibiotic resistance](/en/biology/evolution/antibiotic-resistance-evolution-mechanisms) and pathogenicity are its familiar consequences, but its evolutionary reach is much wider than disease.
 
 Transfer has an awkward consequence for deep phylogeny. If genes move between lineages, different genes in the same genome can have different histories, and the tree recovered depends partly on which genes were chosen. This is the same discordance problem discussed in [reconstructing phylogenies from present-day data](/en/biology/taxonomy/phylogenetics-explained), amplified: at the deepest levels, transfer can be ancient, saturated and hard to detect. It does not abolish the tree — vertical inheritance still dominates for the core translational machinery — but it does mean that the base of the diagram is better read as a tree drawn through a network than as a clean bifurcating history.
 

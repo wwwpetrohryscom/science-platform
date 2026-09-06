@@ -5,7 +5,7 @@ excerpt: Sequence data becomes a finding only after alignment, assembly, annotat
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - sequence-alignment
@@ -19,7 +19,7 @@ related:
   - genome-wide-association-studies-explained
   - what-is-a-genome
 pillar: biotechnology-explained
-_bodyHash: '3449461'
+_bodyHash: 3c7f068b
 ---
 
 GenBank release 273, issued in August 2026, holds 8,236,878,868,450 bases in 267,383,895 sequence records, and its whole-genome-shotgun division holds a further 50,829,714,144,609 bases across more than 5.1 billion records. NCBI's Sequence Read Archive, which stores the raw output rather than the curated records, passed 91 petabases at the last point in its published growth series in February 2024. None of that is a result. It becomes one only after software has decided where each read came from, what the reads assemble into, what the assembled sequence is likely to do, and which of the differences between two samples deserve reporting. Those are four separate inferences, and each has its own way of being wrong.
@@ -38,7 +38,7 @@ Assembly reconstructs long sequences from short observations by building a graph
 
 For two decades the human reference carried the consequences of that, and the clearest measure of it is segmental duplication content — long, near-identical blocks that are precisely what a repeat-limited assembler collapses. GRCh38 contained 151.71 megabases of such sequence; the first complete assembly contains 201.93, a third more. In the regions where the older reference has no primary alignment at all, the complete assembly annotates 1,956 genes.
 
-The methodological point is not that the earlier reference was built carelessly. It is that the unresolvable regions were absent rather than flagged, so a query returning nothing there looked identical to a query returning nothing anywhere else. Absence in a reference is read as absence in biology unless something marks the difference, and for most of the period in question nothing did.
+The methodological point is not that the earlier reference was built carelessly. It is that the unresolvable regions were absent rather than flagged, so a query returning nothing there looked identical to a query returning nothing anywhere else. Absence in a reference is read as absence in biology unless something marks the difference, and for most of the period in question nothing did. The same problem in a mixed community, where there is no reference at all, is what the quality tiers for [metagenome-assembled genomes](/en/biology/biotechnology/metagenome-assembled-genomes-and-their-quality) exist to bound.
 
 ## Most annotation is inherited rather than observed
 

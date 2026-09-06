@@ -5,7 +5,7 @@ excerpt: Ray optics is an approximation that works until the aperture gets small
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - optics
@@ -42,7 +42,7 @@ That the index of air is close to one does not make it uninteresting. Interferom
 
 Different wavelengths are slowed by different amounts, so they bend through different angles at the same interface. NASA's account of visible light dates the demonstration to Isaac Newton's 1665 prism experiment, and gives the band the eye detects as roughly 380 to 700 nanometres, violet at the short end and red at the long.
 
-Dispersion is simultaneously the mechanism of every spectrometer and a defect to be engineered around in every lens. A single glass element focuses blue and red at different distances, producing coloured fringes; correcting it requires combining glasses whose dispersions differ, which is why a good camera lens contains many elements rather than one good one. The tie between wavelength, frequency and photon energy that makes spectroscopy informative is set out across the [electromagnetic spectrum](/en/glossary/electromagnetic-spectrum) as a whole.
+Dispersion is simultaneously the mechanism of every spectrometer and a defect to be engineered around in every lens. A single glass element focuses blue and red at different distances, producing coloured fringes; correcting it requires combining glasses whose dispersions differ, which is why a good camera lens contains many elements rather than one good one. The tie between wavelength, frequency and [photon energy](/en/physics/quantum-basics/why-wavelength-decides-what-radiation-does) that makes spectroscopy informative is set out across the [electromagnetic spectrum](/en/glossary/electromagnetic-spectrum) as a whole.
 
 ## Trapping light: total internal reflection in a fibre
 

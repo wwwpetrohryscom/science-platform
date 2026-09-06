@@ -5,7 +5,7 @@ excerpt: L'air, l'eau, la glace, la roche et le vivant s'étudient d'ordinaire s
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - earth-system
@@ -30,7 +30,7 @@ _bodyHash: 1e169fa6
 
 Un ouragan est un événement météorologique, l'effondrement d'une pêcherie un problème d'écologie, et le déplacement de la ceinture de pluies du Sahara une question de climatologie. C'est ainsi que les sciences ont été organisées pendant l'essentiel du XXe siècle, et cela a fonctionné assez bien tant que chaque discipline est restée dans ses limites. Cela a cessé de fonctionner lorsque les questions auxquelles on tenait le plus à répondre — quel réchauffement suit une émission donnée, une forêt continuera-t-elle d'absorber du carbone, pourquoi une anomalie de température du Pacifique modifie-t-elle les pluies d'Afrique de l'Est — se sont révélées dépendre de ce qui se passe *entre* les composantes plutôt qu'à l'intérieur de l'une d'elles.
 
-La science du système Terre est la réponse à cette situation. Elle traite le [système Terre](/en/glossary/earth-system) comme un objet couplé unique : air, eau, glace, roche et sol, vivant, échangeant continûment énergie et matière, les échanges eux-mêmes constituant l'objet premier de l'étude. Cet article est la porte d'entrée du groupe d'articles d'EcoScienceHub consacré au système Terre ; il pose le cadre qu'emploient les articles qui s'y rattachent.
+La science du système Terre est la réponse à cette situation. Elle traite le [système Terre](/fr/glossary/earth-system) comme un objet couplé unique : air, eau, glace, roche et sol, vivant, échangeant continûment énergie et matière, les échanges eux-mêmes constituant l'objet premier de l'étude. Cet article est la porte d'entrée du groupe d'articles d'EcoScienceHub consacré au système Terre ; il pose le cadre qu'emploient les articles qui s'y rattachent.
 
 ## Ce que la discipline étudie réellement
 
@@ -38,7 +38,7 @@ L'objet n'est pas une liste de composantes. C'est l'ensemble des couplages entre
 
 **Où va l'énergie ?** Le rayonnement solaire entre, le rayonnement infrarouge sort, et entre les deux l'énergie est stockée, transportée et convertie. La comptabilité en est faite dans les articles de physique appliquée sur le [bilan énergétique de la Terre](/fr/physics/energy/solar-radiation-and-earth-energy-balance) et sur la [machine thermique planétaire](/fr/physics/thermodynamics/earth-energy-budget-and-the-second-law) ; la question propre au système Terre est de savoir quel réservoir absorbe l'excédent et à quelle vitesse celui-ci passe de l'un à l'autre.
 
-**Où va la matière ?** Le carbone, l'eau, l'azote, le phosphore et le soufre passent d'un réservoir à l'autre selon des échelles de temps qui leur sont propres. La grammaire commune qui décrit ces mouvements — réservoirs, flux et [temps de résidence](/en/glossary/residence-time) — est exposée dans l'article sur les [cycles biogéochimiques](/fr/ecology/earth-systems/biogeochemical-cycles-explained), puis détaillée pour le carbone, l'eau et l'azote.
+**Où va la matière ?** Le carbone, l'eau, l'azote, le phosphore et le soufre passent d'un réservoir à l'autre selon des échelles de temps qui leur sont propres. La grammaire commune qui décrit ces mouvements — réservoirs, flux et [temps de résidence](/fr/glossary/residence-time) — est exposée dans l'article sur les [cycles biogéochimiques](/fr/ecology/earth-systems/biogeochemical-cycles-explained), puis détaillée pour le carbone, l'eau et l'azote.
 
 **Qu'est-ce qui amplifie ou atténue un changement ?** Une perturbation d'une composante en modifie une autre, laquelle modifie la première en retour. Ces boucles — les [rétroactions climatiques](/fr/ecology/earth-systems/climate-feedback-mechanisms) — déterminent l'ampleur de la réponse à une impulsion donnée.
 
@@ -102,7 +102,7 @@ La question connexe de savoir quels changements couplés pourraient être brutau
 
 ## Pour aller plus loin
 
-Les articles qui composent ce groupe découpent le cadre en morceaux utilisables : les composantes et leurs échelles de temps ; la logique commune des cycles biogéochimiques et, en particulier, les cycles du carbone, de l'eau et de l'azote ; les rétroactions en général, puis en détail les cas de la vapeur d'eau et de l'albédo de la glace ; la circulation océanique, l'ENSO et les téléconnexions ; la cryosphère et la biosphère comme participantes actives ; et les méthodes — variables climatiques essentielles, modèles du système Terre, prévisibilité et points de bascule.
+Les articles qui composent ce groupe découpent le cadre en morceaux utilisables : les composantes et leurs échelles de temps ; la logique commune des cycles biogéochimiques et, en particulier, les cycles du carbone, de l'eau et de l'azote ; les rétroactions en général, puis en détail les cas de la vapeur d'eau et de l'albédo de la glace ; la [circulation océanique](/fr/glossary/ocean-circulation), l'ENSO et les téléconnexions ; la cryosphère et la biosphère comme participantes actives ; et les méthodes — variables climatiques essentielles, modèles du système Terre, prévisibilité et points de bascule.
 
 ## Sources
 

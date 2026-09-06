@@ -5,8 +5,8 @@ excerpt: Fully protected reserves, partially protected zones and unenforced desi
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - marine-protected-areas
   - conservation-evidence
@@ -19,7 +19,7 @@ related:
   - protected-area-effectiveness
   - coral-reef-ecology-and-bleaching
 pillar: ocean-science-explained
-_bodyHash: c5f7222e
+_bodyHash: a957e196
 ---
 
 "Marine protected area" is a legal category, not an ecological one. It describes what a government has written down about a piece of sea, and it says almost nothing on its own about what happens inside the boundary. Two sites carrying the identical designation can differ by an order of magnitude in fish biomass, and the difference is predictable from a handful of design and governance features rather than from the label. That gap between the map and the water is what this page is about. A boundary drawn on a chart encloses a column of water that goes on exchanging heat, larvae and dissolved material with everything around it — the vertical structure set out in [ocean science](/en/ecology/oceans/ocean-science-explained) does not stop at a legal line — so the only pressures a designation can act on are the ones taking place inside it.
@@ -35,7 +35,7 @@ The framework that has done most to clean up the vocabulary is [The MPA Guide](h
 | Lightly protected | Moderate-impact extraction permitted | Modest and often undetectable difference from open coast |
 | Minimally protected | High total impact permitted | Little to no measurable biodiversity gain |
 
-The framework matters because national reporting does not make this distinction. A site zoned to allow trawling over most of its area and a no-take reserve both enter the World Database on Protected Areas as marine protected area, and both count toward international coverage targets. When a study, a press summary or a policy document averages outcomes across that mixture, the resulting effect size is a weighted average of a real effect and no effect — and it is smaller than either.
+The framework matters because national reporting does not make this distinction. A site zoned to allow trawling over most of its area and a no-take reserve both enter the World Database on [Protected Areas](/en/ecology/conservation/conservation-science-explained) as marine protected area, and both count toward international coverage targets. When a study, a press summary or a policy document averages outcomes across that mixture, the resulting effect size is a weighted average of a real effect and no effect — and it is smaller than either.
 
 ## The effect sizes, and what averaging destroys
 
@@ -59,7 +59,7 @@ This is also why the wording of [Target 3 of the Kunming-Montreal Global Biodive
 
 ## Spillover, and why it is the hardest claim to test
 
-The argument that closing an area increases catch outside it is the one most often made to fishing communities and the one with the thinnest evidence base, because testing it requires a counterfactual for a fishery that is changing for many other reasons at once. The strongest recent test used vessel-level observer data around Papahānaumokuākea Marine National Monument after its 2016 expansion and found [evidence of spillover benefits](https://www.science.org/doi/10.1126/science.abn0098) for yellowfin and bigeye tuna — a result that matters because it concerns highly migratory species, for which spillover had been considered unlikely on the grounds that most reserves are small relative to the animals' ranges.
+The argument that closing an area increases catch outside it is the one most often made to fishing communities and the one with the thinnest evidence base, because testing it requires a counterfactual for a fishery that is changing for many other reasons at once. The strongest recent test used vessel-level observer data around Papahānaumokuākea Marine National Monument after its 2016 expansion and found [evidence of spillover benefits](https://www.science.org/doi/10.1126/science.abn0098) for yellowfin and bigeye tuna — a result that matters because it concerns highly migratory species, for which [spillover](/en/glossary/spillover-effect) had been considered unlikely on the grounds that most reserves are small relative to the animals' ranges.
 
 Spillover also has a companion effect that is easy to overlook. A machine-learning forecast trained on satellite vessel-monitoring data found that under a range of protected-area expansion scenarios [fishing effort inside new reserves would fall but not to zero](https://www.pnas.org/doi/10.1073/pnas.2400592121), and that effort outside them would fall as well rather than simply relocating. If that holds, the standard objection that protection merely displaces pressure is too simple — though the same result implies that yields modelled from a clean displacement assumption, including in [stock assessments](/en/ecology/oceans/fisheries-science-and-stock-assessment), are misspecified too.
 

@@ -5,7 +5,7 @@ excerpt: Recombinant DNA, sequencing, editing and computational design each made
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biotechnology
@@ -48,9 +48,9 @@ Two computational strands sit alongside the wet work. The analysis of sequence d
 
 A working result in a cell line is separated from an approved product by a filter that is much harsher than most coverage implies. An analysis of 406,038 clinical trial entries covering 21,143 compounds between 2000 and 2015, published in *Biostatistics*, reconstructed 41,040 complete development paths rather than counting phase transitions in aggregate. It puts the probability that a programme entering phase 1 eventually reaches approval at 13.8 per cent — higher than the 10.4 and 9.6 per cent that two earlier analyses had reported using different methods. The individual transition rates are much less forbidding: 66.4 per cent from phase 1 to phase 2, 58.3 per cent from phase 2 to phase 3, 59.0 per cent from phase 3 to approval. Those rates do not multiply out to the overall figure, and the discrepancy is the interesting part — a path-based estimate follows programmes that stall or are abandoned between stages, which chained stage probabilities do not see.
 
-Those numbers describe medicines, but the shape generalises. The filter is rarely the molecular biology. It is efficacy in an organism that was not the model system, manufacturing at a scale where impurity profiles and batch consistency start to matter, and a cost of goods that a payer will accept. A technique can be entirely sound and still leave a programme with nothing, because the technique was never the binding constraint.
+Those numbers describe medicines, but the shape generalises. The filter is rarely the [molecular biology](/en/biology/cells/cell-signaling-pathways-basics). It is efficacy in an organism that was not the model system, manufacturing at a scale where impurity profiles and batch consistency start to matter, and a cost of goods that a payer will accept. A technique can be entirely sound and still leave a programme with nothing, because the technique was never the binding constraint.
 
-The product end of the field is real but narrower than the discourse suggests. The first medicine to use programmable genome editing — an autologous cell therapy in which a patient's own blood stem cells are edited outside the body and returned after a myeloablative conditioning regimen — received United States approval on 8 December 2023, roughly a decade after the editing method it depends on was first described.
+The product end of the field is real but narrower than the discourse suggests. The first medicine to use programmable genome editing — an autologous cell therapy in which a patient's own blood [stem cells](/en/biology/physiology/developmental-biology-explained) are edited outside the body and returned after a myeloablative conditioning regimen — received United States approval on 8 December 2023, roughly a decade after the editing method it depends on was first described.
 
 ## Rules the field wrote before governments did
 

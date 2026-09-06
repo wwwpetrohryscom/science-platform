@@ -5,7 +5,7 @@ excerpt: Le sol est un système à quatre phases organisé en horizons, qui se f
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - soil
@@ -19,7 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
-_bodyHash: cfe60d65
+_bodyHash: 9d1ff77d
 ---
 
 La formation de sol neuf se fait à une vitesse médiane que la FAO et son Groupe technique intergouvernemental sur les sols situent à environ 0,15 tonne par hectare et par an, et généralement bien en deçà d'une tonne. Étalée sur un hectare, une tonne de sol minéral forme une pellicule que l'œil ne verrait pas. Ce chiffre explique l'organisation même de la science du sol : à toutes les échelles de temps où opèrent un agriculteur, un aménageur ou un traité, le matériau considéré est un héritage fixe que l'on dépense, non un flux renouvelable.
@@ -70,9 +70,9 @@ La FAO et son groupe technique évaluent dix processus comme menaçant les servi
 
 Ces fourchettes ne sont pas de la négligence. Elles sont ce qui advient lorsqu'un mot porte à la fois une définition, une référence et un indicateur, et que trois évaluations choisissent différemment sur les trois — le problème examiné dans [la dégradation des terres comme notion contestée](/fr/ecology/soils/land-degradation-and-desertification).
 
-Il vaut la peine d'être précis sur ce qui se joue dans cette comptabilité, car le cadrage habituel — le sol comme milieu où poussent les cultures — en sous-estime la portée. Le même profil filtre et stocke l'eau, tamponne le pH et la chimie d'oxydoréduction, immobilise les contaminants, assure le cycle de l'azote et du phosphore, conserve une archive archéologique et paléoclimatique, et assure un support physique. Chacune de ces fonctions est un [service écosystémique](/en/glossary/ecosystem-service) doté d'une sensibilité propre aux perturbations, et un changement de gestion qui en améliore une peut en dégrader une autre. Le tassement qui augmente la portance réduit l'infiltration ; le drainage qui facilite le travail du sol oxyde le carbone stocké. Il n'existe pas d'axe unique le long duquel un sol s'améliore.
+Il vaut la peine d'être précis sur ce qui se joue dans cette comptabilité, car le cadrage habituel — le sol comme milieu où poussent les cultures — en sous-estime la portée. Le même profil filtre et stocke l'eau, tamponne le pH et la chimie d'oxydoréduction, immobilise les contaminants, assure le cycle de l'azote et du phosphore, conserve une archive archéologique et paléoclimatique, et assure un support physique. Chacune de ces fonctions est un [service écosystémique](/fr/glossary/ecosystem-service) doté d'une sensibilité propre aux perturbations, et un changement de gestion qui en améliore une peut en dégrader une autre. Le tassement qui augmente la portance réduit l'infiltration ; le drainage qui facilite le travail du sol oxyde le carbone stocké. Il n'existe pas d'axe unique le long duquel un sol s'améliore.
 
-Trois lacunes méritent d'être nommées à qui utilise des données pédologiques. Les cartes mondiales sont construites à partir de jeux de données nationaux de densité très inégale, et l'analyse d'incertitude de la FAO elle-même situe les plus grandes erreurs dans les régions désertiques tropicales et arctiques, là où les échantillons sont les plus rares. Les conventions de profondeur tronquent le tableau : la plupart des bilans s'arrêtent à 30 centimètres parce que c'est là que sont les données, non parce que le profil s'y arrête — une méta-analyse isotopique parue en 2018 dans *Nature* et portant sur 112 sites établit que [la couche de 30 à 100 centimètres contient 47 % du carbone organique du premier mètre](https://pubmed.ncbi.nlm.nih.gov/29995858/). Enfin, les réseaux de surveillance des sols dotés de mesures répétées n'existent que dans une minorité de pays, si bien qu'une bonne partie de ce qui est présenté comme une tendance est en réalité un instantané unique comparé à un modèle.
+Trois lacunes méritent d'être nommées à qui utilise des données pédologiques. Les cartes mondiales sont construites à partir de jeux de données nationaux de densité très inégale, et l'analyse d'incertitude de la FAO elle-même situe les plus grandes erreurs dans les régions désertiques tropicales et arctiques, là où les échantillons sont les plus rares. Les conventions de profondeur tronquent le tableau : la plupart des bilans s'arrêtent à 30 centimètres parce que c'est là que sont les données, non parce que le profil s'y arrête — une méta-analyse isotopique parue en 2018 dans *Nature* et portant sur 112 sites établit que [la couche de 30 à 100 centimètres contient 47 % du carbone organique du premier mètre](https://pubmed.ncbi.nlm.nih.gov/29995858/). Enfin, la mesure répétée est rare : la même évaluation de la FAO ne recense que peu de sites disposant de données de surveillance des sols sur le long terme et appelle à construire un réseau mondial de surveillance des sols de long terme, si bien qu'une bonne partie de ce qui est présenté comme une tendance est en réalité un instantané unique comparé à un modèle.
 
 ## Sources
 

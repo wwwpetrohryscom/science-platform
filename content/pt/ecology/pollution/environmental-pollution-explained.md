@@ -5,8 +5,8 @@ excerpt: Uma substância só se torna poluição quando uma fonte, uma via e um 
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 9
+updatedDate: '2026-09-05'
+readingTime: 10
 tags:
   - risk-assessment
   - exposure
@@ -19,7 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: fd3038e3
+_bodyHash: 716bb046
 ---
 
 Uma substância não é poluição por aquilo que é. Torna-se poluição quando três coisas se alinham: uma **fonte** que a liberta, uma **via** que a transporta para algum lado e um **recetor** — uma pessoa, uma população, uma espécie, um habitat — situado no extremo dessa via. Corte-se qualquer um dos três e a substância continua presente e continua tóxica, mas o dano desaparece. Selar um local contaminado deixa a fonte no lugar e fecha a via. Deslocar uma captação de água para consumo humano tira o recetor do caminho.

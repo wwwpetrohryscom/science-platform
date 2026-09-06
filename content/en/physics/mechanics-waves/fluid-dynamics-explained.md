@@ -1,12 +1,12 @@
 ---
 title: 'Fluid dynamics: why one dimensionless number decides how a flow behaves'
-metaTitle: 'Fluid dynamics and the Reynolds number'
+metaTitle: Fluid dynamics and the Reynolds number
 excerpt: A swimming ciliate and a hurricane obey the same equations. What separates them is the ratio of inertia to viscosity, and that ratio decides whether a flow is smooth, chaotic, or beyond the reach of direct calculation.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - fluid-dynamics
   - reynolds-number
@@ -19,7 +19,7 @@ related:
   - sound-and-acoustics-explained
   - convection-and-cloud-formation
 pillar: classical-mechanics-explained
-_bodyHash: e877dd88
+_bodyHash: d9a5167
 ---
 
 A single-celled organism beating its cilia and a cyclone wrapping around its eye are governed by the same equations. What separates them is not the physics but a ratio: how much the fluid's inertia matters relative to its viscosity. That ratio, the [Reynolds number](/en/glossary/reynolds-number), is the first thing a fluid dynamicist asks about a problem, because it determines which terms in the equations can be thrown away and which cannot.
@@ -72,7 +72,7 @@ How far that concession reaches is visible in how the field states its own ambit
 
 The gap between resolved and modelled motion is the central constraint on geophysical simulation, not a detail of engineering practice. The IPCC's assessment puts it directly: "Given limitations in computing resources, the current-generation GCMs cannot yet represent small-scale cloud processes and consequently shallow and deep convection is determined by sub-grid-scale parametrizations." Regional convection-permitting models, "typically run at a resolution less than 10 km", resolve some of what a global model has to parameterise, and they improve the simulated diurnal cycle and precipitation extremes — but they cannot be run globally for long periods at present cost.
 
-The honest reading of that situation is the one the assessment gives for global models with parametrized convection: there remains "low confidence in their ability to accurately simulate the spatio-temporal features of present-day precipitation, especially in the tropics". A [climate model](/en/glossary/climate-model) is not wrong about fluid dynamics; it is unable to resolve the scales at which some of the fluid dynamics happens, and the substitute is a parameterisation whose coefficients are constrained by observation rather than derived. The same problem sets limits on how [ocean circulation](/en/ecology/earth-systems/ocean-circulation-and-climate) is represented, and it is the reason [convection and cloud formation](/en/physics/climate-physics/convection-and-cloud-formation) remains one of the most actively revised parts of atmospheric physics.
+The honest reading of that situation is the one the assessment gives for global models with parametrized convection: there remains "low confidence in their ability to accurately simulate the spatio-temporal features of present-day precipitation, especially in the tropics". A [climate model](/en/glossary/climate-model) is not wrong about fluid dynamics; it is unable to resolve the scales at which some of the fluid dynamics happens, and the substitute is a parameterisation whose coefficients are constrained by observation rather than derived. The same problem sets limits on how [ocean circulation](/en/ecology/earth-systems/ocean-circulation-and-climate) is represented, and it is the reason [convection and cloud formation](/en/physics/climate-physics/convection-and-cloud-formation) remains one of the most actively revised parts of [atmospheric physics](/en/physics/climate-physics/atmospheric-physics-explained).
 
 What the Reynolds number cannot do is tell you which length to put in it. A pipe has an obvious diameter; a mountain range, a leaf boundary layer or a breaking wave does not, and the choice of characteristic length is a modelling judgement that changes the value by orders of magnitude. Two flows quoted at the same Reynolds number are dynamically similar only if the same length was meant in both cases — which is the sort of thing that is easy to state and easy to lose between a wind tunnel and a paper.
 

@@ -5,7 +5,7 @@ excerpt: Ein Stoff wird erst dann zur Verschmutzung, wenn Quelle, Pfad und Rezep
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - risk-assessment
@@ -19,7 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: 21e4ab
+_bodyHash: fb61269
 ---
 
 Ein Stoff ist nicht deshalb Verschmutzung, weil er ist, was er ist. Er wird zur Verschmutzung, wenn drei Dinge zusammentreffen: eine **Quelle**, die ihn freisetzt, ein **Pfad**, der ihn irgendwohin trägt, und ein **Rezeptor** – ein Mensch, eine Bevölkerung, eine Art, ein Lebensraum – am anderen Ende dieses Pfades. Durchtrennt man eines der drei, ist der Stoff weiterhin vorhanden und weiterhin giftig, der Schaden aber ist fort. Deckt man eine Altlast ab, bleibt die Quelle bestehen, während der Pfad sich schließt. Verlegt man eine Trinkwasserfassung, tritt der Rezeptor aus dem Weg.
@@ -30,7 +30,7 @@ Das ist die operative Logik nahezu jeder geltenden Umweltvorschrift, und deshalb
 
 Die US-Umweltbehörde EPA definiert einen Stressor als „jede physikalische, chemische oder biologische Einheit, die eine schädliche Wirkung bei Menschen oder in Ökosystemen hervorrufen kann“, und Risiko als „die Wahrscheinlichkeit schädlicher Wirkungen auf die menschliche Gesundheit oder auf ökologische Systeme infolge einer Exposition gegenüber einem Umweltstressor“. Das Erste ist eine Eigenschaft. Das Zweite ist eine Aussage über eine bestimmte Konfiguration aus Quelle, Pfad und Rezeptor.
 
-Die meisten öffentlichen Auseinandersetzungen, die schieflaufen, verwechseln beides. „Verbindung X erzeugt im Tierversuch Krebs“ ist eine Gefahrenaussage; sie kann zutreffen, während das Risiko aus einem bestimmten Produkt vernachlässigbar ist, weil kein Pfad die beiden verbindet. „Im Wasser ist kein X nachweisbar“ ist eine Pfadaussage; sie kann zutreffen, während die Gefahr schwerwiegend ist, und sie sagt nichts über die Luft oder den Boden. Die Erwiderung, dass die Dosis das Gift macht, entscheidet keinen der beiden Streitfälle – sie verlagert ihn in die Dosis-Wirkungs-Beziehung, und dort sitzt die eigentliche wissenschaftliche Uneinigkeit.
+Die meisten öffentlichen Auseinandersetzungen, die schieflaufen, verwechseln beides. „Verbindung X erzeugt im Tierversuch Krebs“ ist eine Gefahrenaussage; sie kann zutreffen, während das Risiko aus einem bestimmten Produkt vernachlässigbar ist, weil kein Pfad die beiden verbindet. „Im Wasser ist kein X nachweisbar“ ist eine Pfadaussage; sie kann zutreffen, während die Gefahr schwerwiegend ist, und sie sagt nichts über die Luft oder den Boden. Die Erwiderung, dass die Dosis das Gift macht, entscheidet keinen der beiden Streitfälle – sie verlagert ihn in die [Dosis-Wirkungs-Beziehung](/de/glossary/dose-response), und dort sitzt die eigentliche wissenschaftliche Uneinigkeit.
 
 ## Wo der Streit tatsächlich stattfindet
 

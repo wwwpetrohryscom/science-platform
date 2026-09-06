@@ -4,7 +4,7 @@ excerpt: Ein Ökosystem ist kein Ort, sondern ein Fluss. Diese Unterscheidung ve
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - ecosystems
@@ -14,7 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
-_bodyHash: '250e2940'
+_bodyHash: 8ee6283
 ---
 
 Ein Ökosystem ist der gleichzeitige Fluss von Energie, Materie und Information durch eine Gemeinschaft von Organismen und deren physische Umwelt ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). Arthur Tansley prägte den Begriff „Ökosystem“ 1935 gerade deshalb, um die ältere, romantischere Vorstellung der „Lebensgemeinschaft“ zu verdrängen – Tansley wollte einen Begriff, der den Austausch betont und nicht die Zugehörigkeit.

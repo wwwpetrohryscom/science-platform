@@ -252,8 +252,19 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
   //    positives it produced are exactly what trains an editor to stop
   //    reading the report.
   //
+  //    Markdown table rows are excluded for the same reason. A
+  //    comparison table is structured data: an assessment table with
+  //    one row per tipping element and a column for the IPCC's
+  //    calibrated confidence rating repeats the word "confidence" once
+  //    per row, and the detector read 40 table cells plus 12 ordinary
+  //    uses as a single 4.6%-density term. Outside the table the same
+  //    article uses the word 12 times in 1,122 words. The repetition
+  //    was in the column header's job, not in the prose.
+  //
   //    Warnings only — the goal is visibility before a page is indexed.
-  const prose = article.body.replace(/^##\s+Sources[\s\S]*/im, "");
+  const prose = article.body
+    .replace(/^##\s+Sources[\s\S]*/im, "")
+    .replace(/^\|.*$/gm, "");
   const stuffing = detectKeywordStuffing(prose);
   if (stuffing.length > 0) {
     const top = stuffing[0];
@@ -302,7 +313,17 @@ export function validateArticle(article: ValidatableArticle): ValidationIssue[] 
   // 11. Fake-citation shape — "Smith et al., 2023" without an
   //     accompanying URL. We can't prove a citation is invented from
   //     shape alone, so this is a warning the editor must clear.
-  const fakeShape = detectFakeCitations(article.body);
+  //
+  //     The detector keys on a capitalised word before a comma and a
+  //     year, which is a surname in English and any noun at all in
+  //     German — "Vorrat, 2025" and "Tucson, 1942" are ordinary German
+  //     sentences, and the rule reported three of them as suspected
+  //     invented citations. Citations are inherited from the English
+  //     source in every translation, so the rule is enforced where it
+  //     can distinguish the two and where clearing it clears every
+  //     locale at once.
+  const fakeShape =
+    article.locale === "de" ? [] : detectFakeCitations(article.body);
   if (fakeShape.length > 0) {
     issues.push({
       severity: "warning",

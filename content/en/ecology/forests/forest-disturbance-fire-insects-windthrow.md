@@ -5,7 +5,7 @@ excerpt: Disturbance is how forests work, not an interruption of it. The global 
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - forest-disturbance
@@ -36,7 +36,7 @@ This matters because the vegetation you see is a product of the regime rather th
 
 Global burned area and global fire severity are moving in different directions, and conflating them produces most of the confusion in public reporting.
 
-On area, the long trend is downward. Rising population density and expanding cropland have fragmented and suppressed fire since the 1930s, consistent with the charcoal record and with satellite observations. One analysis calculates that the reduction in fire CO₂ emissions attributable to suppression and landscape fragmentation from higher population density enhanced land carbon uptake by 0.13 Pg C per year over 1960–2009 — roughly 19 per cent of a global land carbon sink then estimated at 0.7 ± 0.6 Pg C per year. The driver in that analysis is land use and settlement rather than climate, which is why the global area trend says little on its own about what fire is doing inside forests.
+On area, the long trend is downward. Rising population density and expanding cropland have fragmented and suppressed fire since the 1930s, consistent with the charcoal record and with satellite observations. One analysis calculates that the reduction in fire CO₂ emissions attributable to suppression and landscape fragmentation from higher population density enhanced land carbon uptake by 0.13 Pg C per year over 1960–2009 — roughly 19 per cent of a global land [carbon sink](/en/ecology/earth-systems/carbon-cycle-explained) then estimated at 0.7 ± 0.6 Pg C per year. The driver in that analysis is land use and settlement rather than climate, which is why the global area trend says little on its own about what fire is doing inside forests.
 
 On severity, the trend is upward and it is concentrated. Clustering 21 years of satellite fire-radiative-power data into daily events, one assessment found the frequency of energetically extreme wildfires — those at or above the 99.99th percentile — increased 2.2-fold from 2003 to 2023, with the six most extreme years falling in the last seven of the record. The same work notes that total area burned on Earth may be declining while fire *behaviour* worsens, particularly in boreal and temperate conifer biomes. A shrinking global burned area and a worsening fire problem in northern forests are both true statements about the same planet. How the underlying observations are made is covered in [wildfire monitoring from space](/en/ecology/earth-observation/wildfire-monitoring-from-space), and the machinery for asking whether a specific season was made more likely by warming is set out in [extreme-weather attribution](/en/ecology/climate-change/extreme-weather-attribution-basics).
 
@@ -71,7 +71,7 @@ Interactions are exactly what the reporting cannot represent. FAO's damage categ
 
 ## What better records would look like
 
-The assessment is explicit about the fix. Fire reporting currently mixes methods — for land area affected, 49 per cent of national data entries came from remote sensing and 45 per cent from registers and statistics; for forest area affected, 53 per cent came from registers and only 40 per cent from remote sensing — and mixing methods across countries produces trends that are partly artefacts of who changed system when. FAO and the UN Environment Programme launched a Global Fire Management Hub in 2023 whose stated data priorities include harmonising global with national datasets and separating wildfire from prescribed and cultural burning, which is a precondition for any credible global fire trend rather than a refinement of one.
+The assessment is explicit about the fix. Fire reporting currently mixes methods — for land area affected, 49 per cent of national data entries came from [remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) and 45 per cent from registers and statistics; for forest area affected, 53 per cent came from registers and only 40 per cent from remote sensing — and mixing methods across countries produces trends that are partly artefacts of who changed system when. FAO and the UN Environment Programme launched a Global Fire Management Hub in 2023 whose stated data priorities include harmonising global with national datasets and separating wildfire from prescribed and cultural burning, which is a precondition for any credible global fire trend rather than a refinement of one.
 
 ## Sources
 

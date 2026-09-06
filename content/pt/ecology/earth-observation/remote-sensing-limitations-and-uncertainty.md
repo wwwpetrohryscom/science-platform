@@ -1,6 +1,6 @@
 ---
 title: 'Limitações e incerteza da deteção remota: ler os dados de satélite com honestidade'
-metaTitle: 'Limitações e incerteza da deteção remota'
+metaTitle: Limitações e incerteza da deteção remota
 excerpt: Os dados de satélite são poderosos mas nunca perfeitos. Aqui ficam os limites estruturais da deteção remota — compromissos de resolução, nuvens, píxeis mistos, medição indireta e deriva dos sensores — e as práticas de validação que mantêm esses produtos honestos.
 type: expert
 author: climate-research-desk
@@ -17,6 +17,7 @@ related:
   - land-cover-change-detection
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
+_bodyHash: aa4cf970
 ---
 A medição por satélite é indispensável às ciências do ambiente e, ainda assim, está limitada de maneiras que importam para o modo como os seus resultados devem ser lidos. Um mapa ou uma série temporal derivados de órbita transportam sempre pressupostos, lacunas e erro que a boa prática torna explícitos em vez de esconder. Este artigo expõe os principais limites estruturais [do que é a deteção remota](/pt/ecology/earth-observation/what-is-remote-sensing) e a validação que mantém fiáveis os produtos resultantes; o contexto mais amplo está no nosso núcleo de [observação da Terra e deteção remota](/pt/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 
@@ -30,7 +31,7 @@ Os sensores óticos e térmicos observam a superfície através da atmosfera e n
 
 ## Um píxel raramente é uma só coisa
 
-A estrutura em grelha da imagem de satélite traz a sua própria ambiguidade. Como cada célula destes [dados raster](/en/glossary/raster-data) cobre uma parcela finita de terreno, um único píxel abrange muitas vezes vários tipos de superfície, e o seu valor registado é uma mistura de todos. Um píxel rotulado «floresta» pode conter na realidade clareiras, solo nu ou água a par das árvores. Qualquer grandeza estimada a partir desse píxel herda a mistura: o número descreve uma média sobre aquilo que a célula continha, não uma amostra pura de um tipo de coberto. Este efeito de píxel misto é mais acentuado onde a paisagem é finamente padronizada face ao tamanho do píxel, e propaga-se a todas as estimativas a jusante.
+A estrutura em grelha da imagem de satélite traz a sua própria ambiguidade. Como cada célula destes [dados raster](/pt/glossary/raster-data) cobre uma parcela finita de terreno, um único píxel abrange muitas vezes vários tipos de superfície, e o seu valor registado é uma mistura de todos. Um píxel rotulado «floresta» pode conter na realidade clareiras, solo nu ou água a par das árvores. Qualquer grandeza estimada a partir desse píxel herda a mistura: o número descreve uma média sobre aquilo que a célula continha, não uma amostra pura de um tipo de coberto. Este efeito de píxel misto é mais acentuado onde a paisagem é finamente padronizada face ao tamanho do píxel, e propaga-se a todas as estimativas a jusante.
 
 ## Os satélites medem indicadores indiretos, não a coisa em si
 
@@ -42,7 +43,7 @@ Um registo ambiental longo raramente é obra de um único instrumento inalterado
 
 ## Como os produtos honestos lidam com o seu próprio erro
 
-Por tudo o que ficou dito, um produto de satélite credível reporta os seus limites em vez de apresentar um único valor exato. A validação é a prática que o torna possível. Os valores recuperados são comparados com dados de referência independentes — [verdade de campo](/en/glossary/ground-truthing), estações de monitorização instrumentadas e imagens de maior resolução — para verificar em que medida a inferência baseada em modelo corresponde à realidade. Para os mapas classificados, essa comparação é formalizada através da avaliação de exatidão, que caracteriza com que frequência as categorias são corretamente atribuídas. Os fornecedores publicam depois a incerteza resultante ao lado dos dados, com indicadores de qualidade e ressalvas documentadas, e a estrutura e o conteúdo dos [produtos de dados de observação da Terra](/pt/ecology/earth-observation/earth-observation-data-products) refletem-no. Recursos como o [NASA Earthdata](https://www.earthdata.nasa.gov/) documentam a qualidade e os indicadores dos produtos, e a literatura revista por pares da [Remote Sensing](https://www.mdpi.com/journal/remotesensing) desenvolve os métodos de análise de erro por detrás desses relatórios. Ler os dados de satélite com honestidade é usar essas incertezas declaradas, não ignorá-las.
+Por tudo o que ficou dito, um produto de satélite credível reporta os seus limites em vez de apresentar um único valor exato. A validação é a prática que o torna possível. Os valores recuperados são comparados com dados de referência independentes — [verdade de campo](/pt/glossary/ground-truthing), estações de monitorização instrumentadas e imagens de maior resolução — para verificar em que medida a inferência baseada em modelo corresponde à realidade. Para os mapas classificados, essa comparação é formalizada através da avaliação de exatidão, que caracteriza com que frequência as categorias são corretamente atribuídas. Os fornecedores publicam depois a incerteza resultante ao lado dos dados, com indicadores de qualidade e ressalvas documentadas, e a estrutura e o conteúdo dos [produtos de dados de observação da Terra](/pt/ecology/earth-observation/earth-observation-data-products) refletem-no. Recursos como o [NASA Earthdata](https://www.earthdata.nasa.gov/) documentam a qualidade e os indicadores dos produtos, e a literatura revista por pares da [Remote Sensing](https://www.mdpi.com/journal/remotesensing) desenvolve os métodos de análise de erro por detrás desses relatórios. Ler os dados de satélite com honestidade é usar essas incertezas declaradas, não ignorá-las.
 
 ## Sources
 

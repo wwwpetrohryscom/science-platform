@@ -5,7 +5,7 @@ excerpt: O solo é um sistema de quatro fases organizado em horizontes, formado 
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - soil
@@ -19,7 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
-_bodyHash: 7a3d2a7f
+_bodyHash: acec2eb1
 ---
 
 Forma-se solo novo a uma taxa mediana que a FAO e o seu Painel Técnico Intergovernamental sobre os Solos situam em cerca de 0,15 toneladas por hectare e por ano, e em regra bastante abaixo de uma tonelada. Espalhada por um hectare, uma tonelada de solo mineral é uma película que não se conseguiria ver. É esse número que explica a forma como a ciência do solo está organizada: em qualquer escala de tempo em que operem um agricultor, um responsável pelo planeamento ou um tratado, o material de que se fala é uma herança fixa que se está a gastar, e não um fluxo renovável.
@@ -70,9 +70,9 @@ A FAO e o seu painel técnico avaliam dez processos como ameaças aos serviços 
 
 Estes intervalos não são desleixo. São o que acontece quando uma palavra transporta consigo uma definição, uma referência de base e um indicador, e três avaliações escolhem de forma diferente nos três — o problema examinado em [a degradação das terras como conceito disputado](/pt/ecology/soils/land-degradation-and-desertification).
 
-Vale a pena ser preciso quanto ao que está em jogo nesta contabilidade, porque o enquadramento habitual — o solo como o meio em que crescem as culturas — fica aquém. O mesmo perfil filtra e armazena água, tampona o pH e a química de oxidação-redução, imobiliza contaminantes, faz ciclar o azoto e o fósforo, guarda um registo arqueológico e paleoclimático e assegura suporte físico. Cada uma destas funções é um [serviço dos ecossistemas](/en/glossary/ecosystem-service) com uma sensibilidade própria às perturbações, e uma alteração de gestão que melhora uma pode degradar outra. A compactação que aumenta a capacidade de carga reduz a infiltração; a drenagem que facilita a mobilização do solo oxida o carbono armazenado. Não existe um eixo único ao longo do qual um solo melhore.
+Vale a pena ser preciso quanto ao que está em jogo nesta contabilidade, porque o enquadramento habitual — o solo como o meio em que crescem as culturas — fica aquém. O mesmo perfil filtra e armazena água, tampona o pH e a química de oxidação-redução, imobiliza contaminantes, faz ciclar o azoto e o fósforo, guarda um registo arqueológico e paleoclimático e assegura suporte físico. Cada uma destas funções é um [serviço dos ecossistemas](/pt/glossary/ecosystem-service) com uma sensibilidade própria às perturbações, e uma alteração de gestão que melhora uma pode degradar outra. A compactação que aumenta a capacidade de carga reduz a infiltração; a drenagem que facilita a mobilização do solo oxida o carbono armazenado. Não existe um eixo único ao longo do qual um solo melhore.
 
-Há três lacunas que vale a pena nomear a quem use dados de solos. Os mapas globais são construídos a partir de conjuntos de dados nacionais de densidade muito desigual, e a própria análise de incerteza da FAO localiza os maiores erros nas regiões desérticas tropicais e árticas, onde as amostras são mais escassas. As convenções de profundidade truncam o retrato: quase toda a informação publicada se fica pelos 30 centímetros porque é aí que estão os dados, não porque o perfil termine aí — uma meta-análise isotópica de 2018 publicada na *Nature*, abrangendo 112 locais, conclui que [a camada dos 30 aos 100 centímetros contém 47 % do carbono orgânico do primeiro metro](https://pubmed.ncbi.nlm.nih.gov/29995858/). E redes de monitorização do solo com medições repetidas existem apenas numa minoria de países, pelo que muito do que se apresenta como tendência é, na verdade, um único instantâneo comparado com um modelo.
+Há três lacunas que vale a pena nomear a quem use dados de solos. Os mapas globais são construídos a partir de conjuntos de dados nacionais de densidade muito desigual, e a própria análise de incerteza da FAO localiza os maiores erros nas regiões desérticas tropicais e árticas, onde as amostras são mais escassas. As convenções de profundidade truncam o retrato: quase toda a informação publicada se fica pelos 30 centímetros porque é aí que estão os dados, não porque o perfil termine aí — uma meta-análise isotópica de 2018 publicada na *Nature*, abrangendo 112 locais, conclui que [a camada dos 30 aos 100 centímetros contém 47 % do carbono orgânico do primeiro metro](https://pubmed.ncbi.nlm.nih.gov/29995858/). E a medição repetida é escassa: a mesma avaliação da FAO regista poucos locais com dados de monitorização do solo de longo prazo e apela à construção de uma rede mundial de monitorização do solo de longo prazo, pelo que muito do que se apresenta como tendência é, na verdade, um único instantâneo comparado com um modelo.
 
 ## Sources
 

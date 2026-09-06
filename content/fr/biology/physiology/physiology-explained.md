@@ -5,7 +5,7 @@ excerpt: La régulation n'est pas un thermostat. Ce pilier expose ce qu'est une 
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - homeostasis
@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: 3b20827c
 ---
 Le sang artériel d'une personne en bonne santé se situe entre un pH de 7,35 et 7,45. Rien en chimie ne privilégie cette bande ; elle y est maintenue parce que plusieurs processus se contrarient en permanence, et parce qu'en sortir désactive les enzymes qui exercent cette contrainte. La bande est défendue sur deux horloges à la fois — les poumons ajustent l'élimination du dioxyde de carbone en quelques minutes à quelques heures, tandis que les reins réabsorbent le bicarbonate et excrètent les acides fixes sur des jours. Telle est la forme de presque toute histoire physiologique : non pas un mécanisme, mais plusieurs, avec des constantes de temps différentes, et celui que l'on remarque dépend de la durée d'observation.
 
@@ -52,7 +53,7 @@ Les lois d'échelle fixent aussi la géométrie des organes d'échange, parce qu
 
 L'heuristique organisatrice est généralement attribuée à August Krogh : pour bien des problèmes, il existe un organisme chez qui le phénomène d'intérêt apparaît sous une forme extrême ou inhabituelle, et c'est celui-là qu'il faut étudier. Un article de 2025 dans *History and Philosophy of the Life Sciences* énonce le principe sous cette forme et en dégage la logique — une contrainte extrême rend un mécanisme lisible. Les mammifères plongeurs pour la tolérance à l'hypoxie, les girafes pour la pression hydrostatique, les hibernants pour la suppression métabolique : chacun est choisi parce que la variable d'intérêt y est poussée à une valeur qu'aucun animal ordinaire n'atteint.
 
-L'heuristique comporte un danger évident. Un organisme choisi pour son caractère extrême est par construction non représentatif, si bien que généraliser à partir de lui est un argument à établir et non une hypothèse à hériter. La même prudence s'applique à la littérature végétale, où le problème physique est réellement différent — [déplacer de l'eau sans pompe](/fr/biology/physiology/plant-physiology-water-and-nutrients) n'a pas d'analogue animal — et au [développement, où l'objet régulé change de forme pendant qu'il est régulé](/fr/biology/physiology/developmental-biology-explained). La régulation ne se limite pas non plus aux variables classiques : [la défense immunitaire est un problème de contrôle en couches](/fr/biology/physiology/the-immune-system-explained) avec la même structure de seuils, d'effecteurs et de coûts. Savoir si une différence physiologique est adaptative ou incidente relève de [la sélection naturelle et de la manière dont l'adaptation est testée](/fr/biology/evolution/natural-selection-and-adaptation), et le compte rendu au niveau du mécanisme de ce qu'est une [adaptation évolutive](/en/glossary/evolutionary-adaptation) y appartient plutôt qu'ici.
+L'heuristique comporte un danger évident. Un organisme choisi pour son caractère extrême est par construction non représentatif, si bien que généraliser à partir de lui est un argument à établir et non une hypothèse à hériter. La même prudence s'applique à la littérature végétale, où le problème physique est réellement différent — [déplacer de l'eau sans pompe](/fr/biology/physiology/plant-physiology-water-and-nutrients) n'a pas d'analogue animal — et au [développement, où l'objet régulé change de forme pendant qu'il est régulé](/fr/biology/physiology/developmental-biology-explained). La régulation ne se limite pas non plus aux variables classiques : [la défense immunitaire est un problème de contrôle en couches](/fr/biology/physiology/the-immune-system-explained) avec la même structure de seuils, d'effecteurs et de coûts. Savoir si une différence physiologique est adaptative ou incidente relève de [la sélection naturelle et de la manière dont l'adaptation est testée](/fr/biology/evolution/natural-selection-and-adaptation), et le compte rendu au niveau du mécanisme de ce qu'est une [adaptation évolutive](/fr/glossary/evolutionary-adaptation) y appartient plutôt qu'ici.
 
 ## Ce que ce domaine est le moins capable de trancher
 

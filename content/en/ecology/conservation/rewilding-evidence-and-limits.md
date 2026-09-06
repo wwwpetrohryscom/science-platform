@@ -5,7 +5,7 @@ excerpt: Trophic, passive and Pleistocene rewilding share a name but not a metho
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-06'
 readingTime: 7
 tags:
   - rewilding
@@ -18,10 +18,10 @@ related:
   - endangered-species-recovery-programmes
   - habitat-fragmentation-and-connectivity
 pillar: conservation-science-explained
-_bodyHash: 4e1b0a6b
+_bodyHash: 265882fb
 ---
 
-Three largely separate research programmes publish under the word rewilding, and they disagree about what is being restored, what it is being restored towards, and whether anything should be released at all. Reading their results as though they belonged to one literature is the fastest way to reach a wrong conclusion in either direction — that the idea is unsupported, or that it is established.
+Three largely separate research programmes publish under the word rewilding, and they disagree about what is being restored, what it is being restored towards, and whether anything should be released at all. Reading their results as though they belonged to one literature is the fastest way to reach a wrong conclusion in either direction — that the idea is unsupported, or that it is established. That is taken up separately in [assisted migration and its evidence](/en/ecology/conservation/assisted-migration-and-its-evidence).
 
 That makes rewilding an awkward but instructive case for the broader question of [how conservation interventions are tested and compared](/en/ecology/conservation/conservation-science-explained): the intervention here is not one treatment with a variable dose, but several treatments that happen to share a label.
 

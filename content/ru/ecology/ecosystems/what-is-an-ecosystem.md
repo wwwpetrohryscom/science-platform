@@ -4,7 +4,7 @@ excerpt: Экосистема — это не место, а поток. Что 
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - ecosystems
@@ -14,7 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
-_bodyHash: a31cc926
+_bodyHash: c10073d1
 ---
 
 Экосистема — это одновременный поток энергии, вещества и информации через сообщество организмов и их физическое окружение ([UNEP: Ecosystems](https://www.unep.org/explore-topics/ecosystems)). Слово «экосистема» ввёл Артур Тенсли в 1935 году именно для того, чтобы вытеснить более раннее и более романтическое понятие «сообщества»: Тенсли нужен был термин, подчёркивающий обмен, а не принадлежность.

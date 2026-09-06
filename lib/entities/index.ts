@@ -6,10 +6,75 @@ import fs from "node:fs";
 import path from "node:path";
 
 import type { Entity, EntityCategory, EntityGraph } from "./types";
+import { glossaryLocalization } from "@/lib/glossary";
 
 export type { Entity, EntityCategory, EntityGraph } from "./types";
 
 const GRAPH_PATH = path.join(process.cwd(), "data", "entities", "graph.json");
+const LOCALIZED_PATH = path.join(
+  process.cwd(),
+  "data",
+  "entities",
+  "localized.json",
+);
+
+let localizedCache: Record<string, Record<string, string>> | null = null;
+
+function localizedNames(): Record<string, Record<string, string>> {
+  if (localizedCache) return localizedCache;
+  if (!fs.existsSync(LOCALIZED_PATH)) return (localizedCache = {});
+  return (localizedCache = JSON.parse(
+    fs.readFileSync(LOCALIZED_PATH, "utf8"),
+  ) as Record<string, Record<string, string>>);
+}
+
+/**
+ * The entity's name in a language.
+ *
+ * There is one graph. A locale changes what its nodes are called, never
+ * which nodes exist or how they relate — a concept that is a child of
+ * another in English is a child of it in Russian, and an entity that has
+ * no French article still has a French name.
+ *
+ * The name is resolved in one order, and the order is the point:
+ *
+ *   1. The glossary, where the entity names a glossary term that the
+ *      locale has localized. The glossary entry is the longer, sourced
+ *      treatment of the same concept, so letting the graph carry a
+ *      second translation of the same word is how the two drift apart.
+ *   2. data/entities/localized.json, for the entities the glossary does
+ *      not define.
+ *   3. The English canonical name. A label is a label; showing the
+ *      English word is honest, and inventing one is not.
+ */
+export function entityName(
+  entity: Pick<Entity, "id" | "canonicalName" | "glossaryId">,
+  locale: string,
+): string {
+  if (locale === "en") return entity.canonicalName;
+  if (entity.glossaryId) {
+    const g = glossaryLocalization(entity.glossaryId, locale);
+    if (g) return g.term;
+  }
+  return localizedNames()[locale]?.[entity.id] ?? entity.canonicalName;
+}
+
+/** True when `locale` has its own name for this entity. */
+export function hasLocalizedEntityName(
+  entity: Pick<Entity, "id" | "glossaryId">,
+  locale: string,
+): boolean {
+  if (locale === "en") return true;
+  if (entity.glossaryId && glossaryLocalization(entity.glossaryId, locale)) {
+    return true;
+  }
+  return Boolean(localizedNames()[locale]?.[entity.id]);
+}
+
+/** Locales with at least one localized entity name. */
+export function localizedEntityLocales(): string[] {
+  return Object.keys(localizedNames());
+}
 
 let cache: EntityGraph | null = null;
 

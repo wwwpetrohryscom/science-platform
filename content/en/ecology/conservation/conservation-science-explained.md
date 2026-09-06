@@ -4,7 +4,7 @@ excerpt: 'Conservation is an applied science built on a causal question: did the
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - evidence-based-conservation
@@ -39,7 +39,7 @@ The prevalence of the weaker designs is high. Across the environmental and socia
 
 ## What the syntheses currently support
 
-The most comprehensive synthesis to date, published in Science in 2024, assembled 186 studies covering 665 trials in which biodiversity was measured over time against a counterfactual of no action. In roughly two-thirds of cases, conservation either improved the state of biodiversity or slowed its decline. Interventions aimed at species and ecosystems — invasive species control, reduction of habitat loss, restoration, protected areas, sustainable management — carried the larger effect sizes.
+The most comprehensive synthesis to date, published in Science in 2024, assembled 186 studies covering 665 trials in which biodiversity was measured over time against a [counterfactual](/en/glossary/counterfactual-conservation) of no action. In roughly two-thirds of cases, conservation either improved the state of biodiversity or slowed its decline. Interventions aimed at species and ecosystems — invasive species control, reduction of habitat loss, restoration, protected areas, sustainable management — carried the larger effect sizes.
 
 Two readings of that result are wrong in opposite directions. It is not a demonstration that conservation generally works, because the remaining third of cases showed no such benefit, and because the studies analysed are the ones somebody chose to run and publish. Nor is it grounds for pessimism: an effect of that size, measured against a genuine counterfactual rather than against a hopeful assumption, is a substantial finding.
 
@@ -51,7 +51,7 @@ Two cross-cutting questions sit underneath all of them. How risk is graded — t
 
 ## Where the evidence runs out
 
-Three gaps are structural rather than incidental. Geographically, the assessment literature repeatedly identifies Africa, Latin America and the Caribbean, and parts of Asia as under-represented; conclusions drawn from temperate, well-funded systems are being applied to tropical systems with different ecology and different governance. Taxonomically, the bias toward vertebrates in monitoring mirrors the bias in risk assessment itself. Temporally, the mismatch is the sharpest: funding cycles run three to five years, while the effects of connectivity and of restoration accumulate over decades and can be invisible at the point when a project reports.
+Three gaps are structural rather than incidental. Geographically, the assessment literature repeatedly identifies Africa, Latin America and the Caribbean, and parts of Asia as under-represented; conclusions drawn from temperate, well-funded systems are being applied to tropical systems with different ecology and different governance. Taxonomically, the bias toward vertebrates in monitoring mirrors the bias in [risk assessment](/en/ecology/pollution/environmental-pollution-explained) itself. Temporally, the mismatch is the sharpest: funding cycles run three to five years, while the effects of connectivity and of restoration accumulate over decades and can be invisible at the point when a project reports.
 
 There is also no way to size that gap from the published record itself. The syntheses summarised above can only pool work that was written up, and none of them estimates how much unsuccessful or abandoned project work never reached print. Curated evidence syntheses such as the Conservation Evidence project have reduced the cost of finding what has been tested, but they can only summarise what was written down.
 

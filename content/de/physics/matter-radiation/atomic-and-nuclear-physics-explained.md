@@ -5,7 +5,7 @@ excerpt: Ein Atom und der Kern in seinem Zentrum unterscheiden sich um vier Grö
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - nuclear-physics
@@ -18,6 +18,7 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
+_bodyHash: ae908845
 ---
 Zwei Vergleiche legen alles Weitere fest. Der Bohrsche Radius, die natürliche Längenskala eines Atoms, beträgt 5,2918 × 10⁻¹¹ m in der CODATA-Anpassung von 2022. Der Ladungsradius eines Uran-238-Kerns beträgt nach den ausgewerteten Kerndaten der IAEA 5,8571 ± 0,0033 fm — das sind 5,8571 × 10⁻¹⁵ m. Im Radius ist der Kern um einen Faktor von etwa neuntausend kleiner als das Atom um ihn herum.
 

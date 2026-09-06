@@ -5,7 +5,7 @@ excerpt: Habitat loss and habitat fragmentation are related but distinct, and co
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - habitat-fragmentation
@@ -16,7 +16,7 @@ related:
   - ecological-integrity-indicators
   - protected-area-effectiveness
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 901c9dac
+_bodyHash: b68bcdaa
 readingTime: 5
 ---
 

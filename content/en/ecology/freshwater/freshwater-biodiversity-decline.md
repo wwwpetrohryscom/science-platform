@@ -5,7 +5,7 @@ excerpt: The freshwater Living Planet Index reports the steepest decline of any 
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - freshwater-biodiversity
@@ -24,7 +24,7 @@ _bodyHash: '4e98221'
 
 Monitored freshwater vertebrate populations declined by an average of 85 per cent between 1970 and 2020, against 73 per cent for the global index that contains them. Those are the figures the Zoological Society of London publishes for the Living Planet Index, where freshwater is the worst-performing of the three realms reported. The freshwater number is also among the most methodologically sensitive headline figures in conservation science — not because it is wrong, but because what it measures is narrower than the sentence it usually appears in, and because a defensible change in the analysis moves it a long way. Both things have to be held at once.
 
-Extinction risk is a separate currency, assessed against different criteria and reported separately; the multi-taxon Red List assessment of freshwater fauna and its coverage gaps are set out in the overview of [freshwater ecosystems](/en/ecology/freshwater/freshwater-ecosystems-explained). This page is about the abundance record.
+[Extinction risk](/en/ecology/biodiversity/red-list-index-explained) is a separate currency, assessed against different criteria and reported separately; the multi-taxon [Red List](/en/ecology/conservation/species-extinction-risk-assessment) assessment of freshwater fauna and its coverage gaps are set out in the overview of [freshwater ecosystems](/en/ecology/freshwater/freshwater-ecosystems-explained). This page is about the abundance record.
 
 ## What the index is an average of
 
@@ -40,7 +40,7 @@ The first says the summary statistic is dominated by outliers. A 2020 *Nature* a
 
 That is a serious result about the arithmetic, and it is regularly misread as a finding that vertebrate populations are broadly fine. It is not. It says that a single global mean is the wrong summary for a distribution with heavy tails, and that identifying the clusters should inform how conservation effort is prioritised. Whether extreme declines are outliers to be discounted or the signal itself is a question about purpose, not about statistics.
 
-The second critique runs the other way, and it comes from the index's own authors. A 2017 paper in *PLOS ONE* on [controlling for taxonomic bias in a global biodiversity indicator](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0169156) noted that the underlying database over-represents well-studied groups and regions, and rebuilt the index weighting each biogeographic realm by its estimated species richness. Across 14,152 populations of 3,706 species from 3,095 data sources, the global vertebrate decline for 1970–2012 came out at 58 per cent under proportional weighting against 20 per cent without it. For freshwater specifically the figure moved from 46 to 81 per cent; marine went from a 12 per cent increase to a 36 per cent decline, and terrestrial from a 15 per cent increase to a 38 per cent decline. The authors' conclusion is the important one: the groups with the poorest data coverage appear to be declining faster than the well-monitored groups that dominate the raw database.
+The second critique runs the other way, and it comes from the index's own authors. A 2017 paper in *PLOS ONE* on [controlling for taxonomic bias in a global biodiversity indicator](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0169156) noted that the underlying database over-represents well-studied groups and regions, and rebuilt the index weighting each biogeographic realm by its estimated [species richness](/en/ecology/biodiversity/species-richness-explained). Across 14,152 populations of 3,706 species from 3,095 data sources, the global vertebrate decline for 1970–2012 came out at 58 per cent under proportional weighting against 20 per cent without it. For freshwater specifically the figure moved from 46 to 81 per cent; marine went from a 12 per cent increase to a 36 per cent decline, and terrestrial from a 15 per cent increase to a 38 per cent decline. The authors' conclusion is the important one: the groups with the poorest data coverage appear to be declining faster than the well-monitored groups that dominate the raw database.
 
 Put the two critiques together and the honest position is narrow. The freshwater index is sensitive to weighting and to the treatment of extreme values, and both sensitivities have been quantified. Neither analysis supports reading the freshwater realm as stable.
 

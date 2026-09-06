@@ -5,7 +5,7 @@ excerpt: Solo las bacterias contienen unas 70 gigatoneladas de carbono, la mayor
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - microbiology
@@ -19,6 +19,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
+_bodyHash: 34cbc787
 ---
 Un censo de la biosfera publicado en 2018 situó el carbono vivo total de la Tierra en aproximadamente 550 gigatoneladas, de las cuales unas 450 corresponden a las plantas. Las bacterias vienen en segundo lugar con aproximadamente 70 Gt C, seguidas de los hongos con 12, las arqueas con 7, los protistas con 4, los animales con 2 y los virus con 0,2. Esas cifras, reunidas por investigadores del Instituto Weizmann y Caltech, llevan incertidumbres muy distintas — las plantas están acotadas a un factor de 1,2, las bacterias solo a un factor de 10 y las arqueas a un factor de 13 — pero lo relevante es el orden. Casi todo lo vivo que no es una planta es microbiano, y la mayor parte está en algún lugar donde nadie ha mirado directamente.
 
@@ -38,7 +39,7 @@ Eso es lo que distingue el metabolismo microbiano del animal y el vegetal. Los a
 
 ## Lo que la placa de cultivo no pudo hacer crecer
 
-Durante casi todo el siglo XX la microbiología se limitó a lo que formaba colonia. El desajuste entre células contadas al microscopio y colonias contadas en placa — a menudo dos o más órdenes de magnitud — se reconoció pronto y desde entonces se llama [anomalía del recuento en placa](/en/glossary/great-plate-count-anomaly).
+Durante casi todo el siglo XX la microbiología se limitó a lo que formaba colonia. El desajuste entre células contadas al microscopio y colonias contadas en placa — a menudo dos o más órdenes de magnitud — se reconoció pronto y desde entonces se llama [anomalía del recuento en placa](/es/glossary/great-plate-count-anomaly).
 
 La secuenciación no resolvió el problema tanto como lo midió. Un análisis publicado en 2018 combinó muestreos de ARN ribosómico con recuentos celulares en distintos ambientes y estimó que los géneros no cultivados podrían suponer 7,3 × 10²⁹ células, en torno al 81 por ciento de las células microbianas de la Tierra, y que los filos no cultivados — linajes sin ningún pariente cultivado — suponen unas 2,2 × 10²⁹ células, aproximadamente una cuarta parte del total. Entre ambientes, la fracción no cultivada osciló entre el 22 y el 87 por ciento del nivel de género al de clase. La excepción llamativa fueron los hábitats humanos y asociados al ser humano, donde los géneros cultivados dominan con entre el 45 y el 97 por ciento, lo que dice más sobre dónde se invirtió un siglo de esfuerzo de cultivo clínico que sobre los organismos.
 
@@ -54,7 +55,7 @@ Otros dos grupos se enseñan convencionalmente como microbiología sin encajar b
 
 La afirmación de que las células bacterianas superan a las humanas en una proporción de diez a uno circuló durante décadas. Una reestimación de 2016 la sustituyó: un adulto de referencia de 70 kg lleva unas 3,8 × 10¹³ bacterias frente a unas 3,0 × 10¹³ células humanas, una razón próxima a 1,3 a 1, con un 25 por ciento de incertidumbre en la cifra bacteriana. La razón antigua sobrevive en parte porque es aproximadamente correcta si se excluyen los glóbulos rojos del recuento humano — una exclusión que la reestimación trata como cuestión de definición, aunque sus autores cuentan los glóbulos rojos como células.
 
-La corrección merece hacerse precisamente porque no cambia nada importante. El [microbioma](/en/glossary/microbiome) importa por lo que hacen sus miembros metabólica e inmunológicamente, no por un recuento, y la dificultad de pasar de una asociación observada a una causa demostrada es el problema central del campo — examinado en la página sobre [qué pueden establecer los estudios de microbioma](/es/biology/microbiology/microbiomes-and-host-microbe-interactions). La misma lógica rige el extremo clínico de la disciplina, donde los genes de resistencia se mueven entre organismos y entornos más deprisa de lo que los sistemas de vigilancia alcanzan a seguir, como se expone en la página sobre [las pruebas de resistencia a los antimicrobianos](/es/biology/microbiology/antimicrobial-resistance-evidence).
+La corrección merece hacerse precisamente porque no cambia nada importante. El [microbioma](/es/glossary/microbiome) importa por lo que hacen sus miembros metabólica e inmunológicamente, no por un recuento, y la dificultad de pasar de una asociación observada a una causa demostrada es el problema central del campo — examinado en la página sobre [qué pueden establecer los estudios de microbioma](/es/biology/microbiology/microbiomes-and-host-microbe-interactions). La misma lógica rige el extremo clínico de la disciplina, donde los genes de resistencia se mueven entre organismos y entornos más deprisa de lo que los sistemas de vigilancia alcanzan a seguir, como se expone en la página sobre [las pruebas de resistencia a los antimicrobianos](/es/biology/microbiology/antimicrobial-resistance-evidence).
 
 ## ¿Cuántas clases hay? Un desacuerdo de seis órdenes de magnitud
 

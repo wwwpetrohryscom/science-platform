@@ -5,7 +5,7 @@ excerpt: La teoría cuántica fija constantes físicas con diez cifras significa
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - quantum-mechanics
@@ -18,6 +18,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
+_bodyHash: 15b7e128
 ---
 Juzgada como instrumento predictivo, la mecánica cuántica es la teoría más severamente puesta a prueba de la física. La evaluación CODATA de 2022 da la anomalía del momento magnético del electrón como 1,159 652 180 46(18) × 10⁻³, una incertidumbre típica relativa de 1,6 × 10⁻¹⁰. La constante de estructura fina, que gobierna la intensidad de la interacción electromagnética, está acotada al mismo orden, 7,297 352 5643(11) × 10⁻³. Sea lo que sea lo que queda sin resolver en la teoría cuántica, su aritmética no es la parte sin resolver.
 
@@ -43,7 +44,7 @@ El nombre induce a error, porque la mayoría de las magnitudes de la teoría no 
 
 El espín es la excepción que aclara la regla. No está cuantizado por una condición de contorno, no tiene detrás ninguna rotación clásica, y toma valores semienteros o enteros como propiedad intrínseca de la especie de partícula.
 
-La luz lleva su propia versión de la misma idea. La energía intercambiada entre un campo y la materia llega en unidades de hf, razón por la cual es la energía del [fotón](/en/glossary/photon) — y no la intensidad — la que determina qué puede hacerle una radiación a una molécula, punto desarrollado banda a banda en [el espectro electromagnético y sus aplicaciones](/es/physics/quantum-basics/electromagnetic-spectrum-applications). Es también por lo que el techo de eficiencia de una celda solar de una sola unión lo fija la energética de los fotones y no la ingeniería, como expone [el límite termodinámico de la fotovoltaica](/es/physics/thermodynamics/thermodynamic-limits-of-photovoltaics).
+La luz lleva su propia versión de la misma idea. La energía intercambiada entre un campo y la materia llega en unidades de hf, razón por la cual es la energía del [fotón](/es/glossary/photon) — y no la intensidad — la que determina qué puede hacerle una radiación a una molécula, punto desarrollado banda a banda en [el espectro electromagnético y sus aplicaciones](/es/physics/quantum-basics/electromagnetic-spectrum-applications). Es también por lo que el techo de eficiencia de una celda solar de una sola unión lo fija la energética de los fotones y no la ingeniería, como expone [el límite termodinámico de la fotovoltaica](/es/physics/thermodynamics/thermodynamic-limits-of-photovoltaics).
 
 ## Variables conjugadas, no instrumentos torpes
 
@@ -61,7 +62,7 @@ La antisimetría tiene una consecuencia inmediata — dos fermiones no pueden oc
 
 ## La decoherencia explica el límite clásico, pero no el resultado
 
-Un sistema cuántico nunca está aislado. Se entrelaza con su entorno — moléculas de aire, fotones perdidos, la radiación térmica que él mismo emite — y una vez que el entorno guarda un registro de qué rama tomó el sistema, la interferencia entre ramas deja de ser observable en el sistema solo. Esta es la **[decoherencia](/en/glossary/decoherence)**, y es medible, no supuesta. Calentar moléculas de fullereno dentro de un interferómetro hasta que radien fotones térmicos destruye sus franjas de interferencia en una cantidad predecible, y la pérdida de visibilidad medida coincidió con la teoría microscópica de la decoherencia.
+Un sistema cuántico nunca está aislado. Se entrelaza con su entorno — moléculas de aire, fotones perdidos, la radiación térmica que él mismo emite — y una vez que el entorno guarda un registro de qué rama tomó el sistema, la interferencia entre ramas deja de ser observable en el sistema solo. Esta es la **[decoherencia](/es/glossary/decoherence)**, y es medible, no supuesta. Calentar moléculas de fullereno dentro de un interferómetro hasta que radien fotones térmicos destruye sus franjas de interferencia en una cantidad predecible, y la pérdida de visibilidad medida coincidió con la teoría microscópica de la decoherencia.
 
 La decoherencia responde bien a una pregunta concreta: por qué los objetos grandes, cálidos y bien acoplados no muestran interferencia, sin necesitar modificación alguna de la teoría. No responde por qué un resultado particular es el que ocurre. Confundir ambas cosas es la exageración más común en las exposiciones divulgativas del tema. Todo en [fabricar una máquina con cúbits](/es/physics/quantum-basics/quantum-computing-fundamentals) está aguas abajo de esto: la disciplina entera es una lucha por posponer la decoherencia lo bastante para terminar un cálculo.
 

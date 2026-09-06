@@ -5,7 +5,7 @@ excerpt: A maior parte do carbono da Terra está fechada na rocha e move-se em t
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle
@@ -18,8 +18,9 @@ related:
   - biosphere-climate-interactions
   - earth-system-tipping-points
 pillar: earth-system-science-explained
+_bodyHash: 67c9c910
 ---
-Existem dois [ciclos do carbono](/en/glossary/carbon-cycle), a funcionar lado a lado a velocidades separadas por cerca de sete ordens de grandeza, e quase toda a confusão sobre carbono vem de os tratar como um só. Este artigo separa-os e depois segue a perturbação humana através do rápido. Ambos são componentes do sistema acoplado exposto na [introdução à ciência do sistema Terra](/pt/ecology/earth-systems/earth-system-science-explained).
+Existem dois [ciclos do carbono](/pt/glossary/carbon-cycle), a funcionar lado a lado a velocidades separadas por cerca de sete ordens de grandeza, e quase toda a confusão sobre carbono vem de os tratar como um só. Este artigo separa-os e depois segue a perturbação humana através do rápido. Ambos são componentes do sistema acoplado exposto na [introdução à ciência do sistema Terra](/pt/ecology/earth-systems/earth-system-science-explained).
 
 O artigo complementar sobre [as retroações do ciclo do carbono](/pt/ecology/climate-change/carbon-cycle-feedbacks) trata do que acontece aos sumidouros sob aquecimento continuado; o objetivo aqui é a questão anterior de como o ciclo funciona quando se comporta normalmente.
 
@@ -29,7 +30,7 @@ De longe, o maior reservatório de carbono é a rocha sedimentar. O Earth Observ
 
 O carbono entra na rocha pela meteorização de minerais silicatados, que consome CO₂ atmosférico e entrega carbonato dissolvido ao oceano, onde organismos e química o precipitam em sedimento. Regressa por vulcanismo e metamorfismo. A NASA descreve um circuito completo como demorando 100 a 200 milhões de anos, com algo da ordem de 10 a 100 milhões de toneladas de carbono a atravessar esse circuito anualmente, e vulcões a contribuir entre 130 e 380 milhões de toneladas de CO₂ por ano.
 
-O ciclo lento age como termóstato em tempo geológico: condições mais quentes e húmidas aceleram a meteorização, o que retira CO₂ e arrefece o planeta. É uma verdadeira [retroação](/en/glossary/climate-feedback) amortecedora do tipo descrito em [mecanismos de retroação climática](/pt/ecology/earth-systems/climate-feedback-mechanisms), e é também demasiado lenta para responder a seja o que for à escala humana.
+O ciclo lento age como termóstato em tempo geológico: condições mais quentes e húmidas aceleram a meteorização, o que retira CO₂ e arrefece o planeta. É uma verdadeira [retroação](/pt/glossary/climate-feedback) amortecedora do tipo descrito em [mecanismos de retroação climática](/pt/ecology/earth-systems/climate-feedback-mechanisms), e é também demasiado lenta para responder a seja o que for à escala humana.
 
 ## O ciclo rápido: ar, água e vida
 
@@ -53,7 +54,7 @@ A **fração retida no ar** — a parte das emissões que permanece na atmosfera
 
 Não significa que os sumidouros estejam fixos. Significa que os sumidouros cresceram até agora aproximadamente na proporção das emissões: à medida que o CO₂ atmosférico sobe, o oceano absorve mais por simples diferença de pressão parcial, e a vegetação fotossintetiza um pouco mais depressa. O IPCC avalia com confiança elevada que ambos os sumidouros continuaram a crescer ao longo das últimas seis décadas.
 
-Também não significa que continuarão. Cada reservatório que absorve mais do que liberta age como [sumidouro de carbono](/en/glossary/carbon-sink), e a capacidade de um sumidouro é uma propriedade da sua química e biologia, não uma constante. A mesma avaliação nota que a química do carbono oceânico está a começar a mudar em resposta ao sumidouro crescente, de formas que se espera venham a enfraquecer a captação futura sob cenários de emissões médias a altas, ainda que nenhuma tendência de enfraquecimento seja já detetável no registo de 1960-2019. A captação terrestre é a mais variável das duas, respondendo fortemente à seca e à fase [ENSO](/pt/ecology/earth-systems/el-nino-la-nina-enso-explained) — uma razão pela qual o sumidouro terrestre de um único ano diz pouco sobre a tendência.
+Também não significa que continuarão. Cada reservatório que absorve mais do que liberta age como [sumidouro de carbono](/pt/glossary/carbon-sink), e a capacidade de um sumidouro é uma propriedade da sua química e biologia, não uma constante. A mesma avaliação nota que a química do carbono oceânico está a começar a mudar em resposta ao sumidouro crescente, de formas que se espera venham a enfraquecer a captação futura sob cenários de emissões médias a altas, ainda que nenhuma tendência de enfraquecimento seja já detetável no registo de 1960-2019. A captação terrestre é a mais variável das duas, respondendo fortemente à seca e à fase [ENSO](/pt/ecology/earth-systems/el-nino-la-nina-enso-explained) — uma razão pela qual o sumidouro terrestre de um único ano diz pouco sobre a tendência.
 
 ## Onde a contabilidade é mais difícil
 

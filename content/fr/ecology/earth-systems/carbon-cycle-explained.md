@@ -5,7 +5,7 @@ excerpt: L'essentiel du carbone terrestre est enfermé dans la roche et se dépl
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle
@@ -18,8 +18,9 @@ related:
   - biosphere-climate-interactions
   - earth-system-tipping-points
 pillar: earth-system-science-explained
+_bodyHash: 30c2124d
 ---
-Il existe deux [cycles du carbone](/en/glossary/carbon-cycle), fonctionnant côte à côte à des vitesses séparées d'environ sept ordres de grandeur, et presque toute confusion sur le carbone vient de les traiter comme un seul. Cet article les sépare, puis suit la perturbation humaine à travers le cycle rapide. Tous deux sont des composantes du système couplé exposé dans [l'introduction à la science du système Terre](/fr/ecology/earth-systems/earth-system-science-explained).
+Il existe deux [cycles du carbone](/fr/glossary/carbon-cycle), fonctionnant côte à côte à des vitesses séparées d'environ sept ordres de grandeur, et presque toute confusion sur le carbone vient de les traiter comme un seul. Cet article les sépare, puis suit la perturbation humaine à travers le cycle rapide. Tous deux sont des composantes du système couplé exposé dans [l'introduction à la science du système Terre](/fr/ecology/earth-systems/earth-system-science-explained).
 
 L'article complémentaire sur [les rétroactions du cycle du carbone](/fr/ecology/climate-change/carbon-cycle-feedbacks) traite de ce qui arrive aux puits sous un réchauffement continu ; l'objet ici est la question préalable du fonctionnement normal du cycle.
 
@@ -29,7 +30,7 @@ Le plus grand réservoir de carbone, de loin, est la roche sédimentaire. L'Eart
 
 Le carbone entre dans la roche par l'altération des minéraux silicatés, qui consomme du CO₂ atmosphérique et livre du carbonate dissous à l'océan, où organismes et chimie le précipitent en sédiment. Il en revient par le volcanisme et le métamorphisme. La NASA décrit un circuit complet comme prenant 100 à 200 millions d'années, avec de l'ordre de 10 à 100 millions de tonnes de carbone traversant cette boucle chaque année, et des volcans contribuant entre 130 et 380 millions de tonnes de CO₂ par an.
 
-Le cycle lent agit comme un thermostat aux échelles géologiques : des conditions plus chaudes et plus humides accélèrent l'altération, ce qui abaisse le CO₂ et refroidit la planète. C'est une véritable [rétroaction](/en/glossary/climate-feedback) amortissante du type décrit dans [les mécanismes de rétroaction climatique](/fr/ecology/earth-systems/climate-feedback-mechanisms), et elle est aussi bien trop lente pour répondre à quoi que ce soit à l'échelle humaine.
+Le cycle lent agit comme un thermostat aux échelles géologiques : des conditions plus chaudes et plus humides accélèrent l'altération, ce qui abaisse le CO₂ et refroidit la planète. C'est une véritable [rétroaction](/fr/glossary/climate-feedback) amortissante du type décrit dans [les mécanismes de rétroaction climatique](/fr/ecology/earth-systems/climate-feedback-mechanisms), et elle est aussi bien trop lente pour répondre à quoi que ce soit à l'échelle humaine.
 
 ## Le cycle rapide : l'air, l'eau et le vivant
 
@@ -53,7 +54,7 @@ La **fraction restant dans l'air** — la part des émissions qui demeure dans l
 
 Elle ne signifie pas que les puits sont figés. Elle signifie que les puits ont jusqu'ici grandi à peu près proportionnellement aux émissions : à mesure que le CO₂ atmosphérique monte, l'océan en absorbe davantage par simple différence de pression partielle, et la végétation photosynthétise un peu plus vite. Le GIEC évalue avec une confiance élevée que les deux puits ont continué de croître au cours des six dernières décennies.
 
-Elle ne signifie pas non plus qu'ils continueront. Chaque réservoir qui absorbe plus qu'il ne relâche agit comme un [puits de carbone](/en/glossary/carbon-sink), et la capacité d'un puits est une propriété de sa chimie et de sa biologie, non une constante. La même évaluation note que la chimie du carbone océanique commence à changer en réponse au puits croissant, d'une manière qui devrait affaiblir l'absorption future sous des scénarios d'émissions moyennes à élevées, même si aucune tendance à l'affaiblissement n'est encore décelable sur la période 1960-2019. L'absorption terrestre est la plus variable des deux, répondant fortement à la sécheresse et à la phase [ENSO](/fr/ecology/earth-systems/el-nino-la-nina-enso-explained) — une raison pour laquelle le puits terrestre d'une seule année dit peu de la tendance.
+Elle ne signifie pas non plus qu'ils continueront. Chaque réservoir qui absorbe plus qu'il ne relâche agit comme un [puits de carbone](/fr/glossary/carbon-sink), et la capacité d'un puits est une propriété de sa chimie et de sa biologie, non une constante. La même évaluation note que la chimie du carbone océanique commence à changer en réponse au puits croissant, d'une manière qui devrait affaiblir l'absorption future sous des scénarios d'émissions moyennes à élevées, même si aucune tendance à l'affaiblissement n'est encore décelable sur la période 1960-2019. L'absorption terrestre est la plus variable des deux, répondant fortement à la sécheresse et à la phase [ENSO](/fr/ecology/earth-systems/el-nino-la-nina-enso-explained) — une raison pour laquelle le puits terrestre d'une seule année dit peu de la tendance.
 
 ## Là où la comptabilité est la plus difficile
 

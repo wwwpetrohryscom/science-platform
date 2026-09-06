@@ -1,0 +1,87 @@
+{
+  "batchId": "v-cross-light-and-living-systems",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used.",
+  "articles": [
+    {
+      "slug": "ultraviolet-damage-and-photoprotection",
+      "path": "content/en/biology/cells/ultraviolet-damage-and-photoprotection.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "UVA is 315-400 nm, UVB 280-315 nm, UVC 100-280 nm", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/", "disposition": "verified" },
+        { "claim": "UVB is about 5% of UV reaching the surface and effectively causes DNA damage; UVA is about 95% and is weaker", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/", "disposition": "verified" },
+        { "claim": "UVB and UVC are absorbed directly by DNA, forming CPDs and 6-4 photoproducts", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/", "disposition": "verified" },
+        { "claim": "XPA and RPA define cleavage sites, XPG and XPF-ERCC1 cleave, and PCNA assists resynthesis", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/", "disposition": "verified" },
+        { "claim": "Photolyases are a more efficient repair mechanism and are absent in humans", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/", "disposition": "verified" },
+        { "claim": "UVA damages DNA indirectly through reactive oxygen species", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/", "disposition": "qualified", "note": "The review states UVA is weaker and not directly absorbed by DNA; the reactive-oxygen route is standard and is stated here without a figure or a specific attribution." }
+      ]
+    },
+    {
+      "slug": "dna-damage-and-repair-after-radiation",
+      "path": "content/en/biology/genetics/dna-damage-and-repair-after-radiation.md",
+      "status": "amended",
+      "claimsChecked": 7,
+      "findings": [
+        { "claim": "Photon radiation induces mainly isolated lesions; high-LET particle radiation induces clustered DNA damage", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8514742/", "disposition": "verified" },
+        { "claim": "NHEJ is the first major pathway of DSB repair following X-ray irradiation", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8514742/", "disposition": "verified" },
+        { "claim": "HR is usually error-free because it uses a sister chromatid, which limits it to late S and G2 phase", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8514742/", "disposition": "verified" },
+        { "claim": "53BP1 inhibits end resection in G1 phase", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8514742/", "disposition": "verified" },
+        { "claim": "A gray of ionising radiation induces a specific number of double-strand breaks per cell", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8514742/", "disposition": "removed", "note": "A per-gray DSB yield was intended for this article. The review we read does not state one, and the paper that does was behind a CAPTCHA and could not be read. No figure is given." },
+        { "claim": "Acute radiation syndrome requires more than 0.75 gray in a short time span; about 99% would not get cancer from a one-time 100 mSv whole-body exposure; LNT assumes proportionality with no threshold", "sourceChecked": "https://www.epa.gov/radiation/radiation-health-effects", "disposition": "verified" },
+        { "claim": "CRISPR knockouts work because end joining produces small indels", "sourceChecked": "corpus cross-reference: content/en/biology/biotechnology/crispr-genome-editing-explained.md, already verified", "disposition": "qualified", "note": "Carried from an existing verified article rather than re-sourced here." }
+      ]
+    },
+    {
+      "slug": "light-harvesting-and-photosystem-efficiency",
+      "path": "content/en/biology/cells/light-harvesting-and-photosystem-efficiency.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "PSI internal quantum efficiency is close to 100%, making it the most efficient energy converter in nature", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825136/", "disposition": "verified" },
+        { "claim": "The PSI-LHCI complex of higher plants contains 173 chlorophyll molecules", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825136/", "disposition": "verified" },
+        { "claim": "On average it takes around 50 ps for the excitation to reach the reaction centre without being quenched", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825136/", "disposition": "verified" },
+        { "claim": "Isolated chlorophyll loses its excitation on a nanosecond timescale, so 50 ps is a factor of twenty or more in the system's favour", "sourceChecked": "arithmetic against the cited 50 ps", "disposition": "qualified", "note": "The nanosecond fluorescence lifetime of free chlorophyll is standard and was not read from a source in this pass; the comparison is written as approximate." },
+        { "claim": "Rubisco's slowness and oxygenase activity account for most of the overall inefficiency", "sourceChecked": "corpus cross-reference: content/en/biology/cells/photosynthesis-explained.md, already verified", "disposition": "qualified", "note": "Carried from an existing verified article." }
+      ]
+    },
+    {
+      "slug": "fluorescence-as-a-measure-of-photosynthesis",
+      "path": "content/en/ecology/earth-observation/fluorescence-as-a-measure-of-photosynthesis.md",
+      "status": "amended",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "TROPOMI's near-infrared band has the spectral resolution and signal-to-noise to retrieve SIF in a range devoid of atmospheric absorption features", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7580822/", "disposition": "verified" },
+        { "claim": "Up to 7 km x 3.5 km pixels with daily revisit, a step change in SIF remote sensing capabilities", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7580822/", "disposition": "verified" },
+        { "claim": "A first inter-sensor comparison with OCO-2 shows excellent agreement", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7580822/", "disposition": "verified" },
+        { "claim": "Interpretation requires caution because of the viewing-illumination geometries across the 2600 km swath", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7580822/", "disposition": "verified" },
+        { "claim": "SIF correlates with GPP at R2 = 0.73 across 91 flux sites", "sourceChecked": "search summary only", "disposition": "removed", "note": "The figure came from a search summary of a different paper we did not read. The article states that the relationship is empirical and site-network dependent, without a correlation coefficient." },
+        { "claim": "The fluorescence signal is a per cent or two of reflected radiance and is retrieved by fill-in of Fraunhofer lines", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7580822/", "disposition": "qualified", "note": "The Fraunhofer-line method is implied by the paper's description of a spectral range devoid of atmospheric absorption; the magnitude is stated approximately and not quoted." }
+      ]
+    },
+    {
+      "slug": "light-in-the-ocean-and-the-photic-zones",
+      "path": "content/en/ecology/oceans/light-in-the-ocean-and-the-photic-zones.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "Light may be detected as far as 1,000 m down but there is rarely significant light beyond 200 m", "sourceChecked": "https://oceanservice.noaa.gov/facts/light_travel.html", "disposition": "verified" },
+        { "claim": "Euphotic zone to 200 m; dysphotic 200-1,000 m with photosynthesis not possible; aphotic below 1,000 m, subdividing at 4,000 and 6,000 m", "sourceChecked": "https://oceanservice.noaa.gov/facts/light_travel.html", "disposition": "verified" },
+        { "claim": "Red light is absorbed within the first few metres and blue penetrates furthest", "sourceChecked": "https://oceanservice.noaa.gov/facts/light_travel.html", "disposition": "qualified", "note": "The wavelength dependence is standard ocean optics; the NOAA page gives depths rather than a spectral breakdown, so no figures are attached to it here." },
+        { "claim": "The twilight zone is where sinking particles are intercepted and respired, setting a term in the carbon budget", "sourceChecked": "corpus cross-reference: content/en/ecology/oceans/marine-food-webs-and-productivity.md, already verified", "disposition": "qualified", "note": "Carried from an existing verified article." }
+      ]
+    },
+    {
+      "slug": "why-wavelength-decides-what-radiation-does",
+      "path": "content/en/physics/quantum-basics/why-wavelength-decides-what-radiation-does.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "The UVA/UVB/UVC bands and the 5%/95% split between damaging and total ultraviolet", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4355264/", "disposition": "verified" },
+        { "claim": "PSI internal quantum efficiency close to 100%, the most efficient energy converter in nature", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825136/", "disposition": "verified" },
+        { "claim": "The three regimes — vibrational, electronic, ionising — and the threshold between excitation and ionisation", "sourceChecked": "standard spectroscopy; the EPA page supplies the ionising-regime framing", "disposition": "qualified", "note": "Written as an organising description rather than attributed to a source, and no threshold energy is quoted." },
+        { "claim": "Alpha particles are stopped by paper while radio waves pass through walls", "sourceChecked": "corpus cross-reference: content/en/physics/matter-radiation/radioactivity-and-radiation-units.md, already verified", "disposition": "qualified", "note": "Illustrative and carried from an existing verified article." }
+      ]
+    }
+  ]
+}

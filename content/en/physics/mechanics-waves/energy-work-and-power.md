@@ -5,7 +5,7 @@ excerpt: Almost every argument about energy is really a disagreement about defin
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - energy
@@ -19,7 +19,7 @@ related:
   - capacity-factor-and-energy-metrics
   - laws-of-thermodynamics-explained
 pillar: classical-mechanics-explained
-_bodyHash: bc69a562
+_bodyHash: 1acc1497
 ---
 
 Hold a heavy box motionless at arm's length until your arms shake. In the mechanical sense you have done no work on it at all. That result is not a quirk of physics jargon; it follows from the only definition of work that makes the rest of mechanics consistent, and the gap between that definition and the everyday word is where a large fraction of energy confusion begins.
@@ -68,7 +68,7 @@ Power has the same problem in miniature. NIST lists a horsepower of 550 foot pou
 
 ## Where a conversion factor stops being a constant
 
-The rows above are all fixed numbers. The conversions people actually use in energy statistics are frequently not.
+The rows above are all fixed numbers. The conversions people actually use in [energy statistics](/en/physics/energy/energy-systems-explained) are frequently not.
 
 The U.S. Energy Information Administration publishes Btu contents for fuels: one kilowatt hour at 3,412 Btu, one cubic foot of natural gas at 1,036 Btu, one gallon of motor gasoline at 120,214 Btu, one cord of wood at 20,000,000 Btu. The first of those is arithmetic — 3.6 MJ divided by the International Table Btu gives 3,412 to four figures, and it will never change. The others are averages over a physical commodity that varies, and the agency states plainly that the factors "are recalculated to account for changes in the quality and composition of the fuels" each year.
 

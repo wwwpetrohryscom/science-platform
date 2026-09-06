@@ -5,7 +5,7 @@ excerpt: 'A conservação é uma ciência aplicada assente numa pergunta causal:
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evidence-based-conservation

@@ -5,7 +5,7 @@ excerpt: Actin filaments, microtubules and intermediate filaments differ in diam
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - cytoskeleton
@@ -18,7 +18,7 @@ related:
   - cell-membrane-structure-and-transport
   - cell-signaling-pathways-basics
 pillar: what-is-a-cell
-_bodyHash: 52ee4708
+_bodyHash: a92977b2
 ---
 
 A skeleton that never changed would be useless to a cell. The structures that give a cell its shape are the same ones that have to dismantle and rebuild that shape to divide, crawl, or move a vesicle a metre down an axon. The way the cytoskeleton resolves that is to spend energy staying unstable — and the clearest line through the whole subject is which filaments do that and which do not. Responsiveness to the environment is the third requirement in the [operational account of what a cell is](/en/biology/cells/what-is-a-cell), and mechanical response is where much of it is executed.
@@ -39,7 +39,7 @@ Actin is also simply abundant. It runs at 5 to 10 per cent of total protein in o
 
 ## Polarity is what makes a filament into a track
 
-Actin filaments and microtubules are structurally polar: their two ends are chemically distinct and grow at different rates, with an actin filament's plus end elongating five to ten times faster than its minus end. Polarity does two things. It permits treadmilling, in which subunits add at one end and leave at the other so the filament persists while its material turns over. And it gives motor proteins a direction to read.
+Actin filaments and microtubules are structurally polar: their two ends are chemically distinct and grow at different rates, with an actin filament's plus end elongating five to ten times faster than its minus end. Polarity does two things. It permits treadmilling, in which subunits add at one end and leave at the other so the filament persists while its material turns over. And it gives [motor proteins](/en/glossary/motor-protein) a direction to read.
 
 That second consequence is what converts a structural polymer into an addressing system. A microtubule radiating from the centre of a cell has a defined orientation, so a motor that walks towards plus ends moves cargo outward and a motor that walks towards minus ends moves it inward. Without polarity there is no outward and no inward.
 

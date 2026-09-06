@@ -16,12 +16,22 @@ import {
   type Article,
 } from "@/lib/content";
 import { getCategory } from "@/lib/categories";
+import { hasLocalizedGlossaryTerm } from "@/lib/glossary";
 import { extractCitationUrls } from "@/lib/sources";
 import { evidenceProfile } from "@/lib/evidence/index";
-import { entitiesForArticle } from "@/lib/entities/index";
+import { entitiesForArticle, entityName } from "@/lib/entities/index";
 import { getReview } from "@/lib/verification";
+import { policyLocales } from "@/lib/editorial";
+import {
+  indicatorsForArticle,
+  indicatorFor,
+  indicatorPath,
+  latestObservation,
+} from "@/lib/scientific-data/index";
+import { toolsForArticle, toolPath } from "@/lib/tools/registry";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
+  DEFAULT_LOCALE,
   getMessages,
   localeMeta,
   localizedPath,
@@ -61,6 +71,21 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
         : null;
 
   const related = await getRelatedArticles(article);
+
+  // Reverse edges from the data layer. An article that an indicator or a
+  // tool names gets a link back to it — derived from the forward edge,
+  // never inferred from a shared tag.
+  const articleKey = `${article.category}/${article.subtopic}/${article.slug}`;
+  const dataForArticle = indicatorsForArticle(articleKey)
+    // Only indicators this locale can serve. A card pointing at a page
+    // that 404s in the reader's language is worse than no card.
+    .map((i) => indicatorFor(i.indicatorId, locale))
+    .filter((i): i is NonNullable<typeof i> => Boolean(i))
+    .map((indicator) => ({
+      indicator,
+      latest: latestObservation(indicator.indicatorId),
+    }));
+  const toolsHere = toolsForArticle(articleKey);
 
   // Evidence panel inputs. Every value below is measured from the page
   // itself — the citation count comes from the body's links and the desk
@@ -221,7 +246,14 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
 
         <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_220px]">
           <div className="max-w-reader">
-            <ArticleBody html={article.html} />
+            <ArticleBody
+              html={article.html}
+              lang={
+                article.localeFallback
+                  ? localeMeta[DEFAULT_LOCALE].htmlLang
+                  : undefined
+              }
+            />
 
             {/* Evidence summary — derives from real citation count,
                 so it never claims more support than the body has. */}
@@ -242,7 +274,14 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
               </p>
               <p className="mt-2 text-sm leading-relaxed text-ink-subtle">
                 {t("evidence.attribution", { desk: article.author.name })}{" "}
-                <Link href="/en/sourcing-policy" className="link-quiet">
+                <Link
+                  href={
+                    policyLocales("sourcing-policy").includes(locale)
+                      ? localizedPath(locale, "/sourcing-policy")
+                      : "/en/sourcing-policy"
+                  }
+                  className="link-quiet"
+                >
                   {t("evidence.policy_link")}
                 </Link>
                 .
@@ -320,14 +359,21 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
                     <li key={c.id}>
                       {c.glossaryId ? (
                         <Link
-                          href={`/en/glossary/${c.glossaryId}`}
+                          href={
+                            // Same-locale destination where the term is
+                            // localized; the English page otherwise, so a
+                            // chip is never a link to a page that 404s.
+                            hasLocalizedGlossaryTerm(c.glossaryId, article.locale)
+                              ? `/${article.locale}/glossary/${c.glossaryId}`
+                              : `/en/glossary/${c.glossaryId}`
+                          }
                           className="inline-block rounded-full border border-ink-line px-3 py-1 text-sm text-ink-muted hover:border-primary-300 hover:text-primary-700"
                         >
-                          {c.canonicalName}
+                          {entityName(c, article.locale)}
                         </Link>
                       ) : (
                         <span className="inline-block rounded-full border border-ink-line px-3 py-1 text-sm text-ink-muted">
-                          {c.canonicalName}
+                          {entityName(c, article.locale)}
                         </span>
                       )}
                     </li>
@@ -419,6 +465,51 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
             </div>
           </aside>
         </div>
+
+        {(dataForArticle.length > 0 || toolsHere.length > 0) && (
+          <section className="container-page border-t border-ink-line py-10">
+            <h2 className="font-sans text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle">
+              {t("article.data_and_tools")}
+            </h2>
+            <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {dataForArticle.map(({ indicator, latest }) => (
+                <li
+                  key={indicator.indicatorId}
+                  className="rounded-lg border border-ink-line p-4"
+                >
+                  <p className="text-xs uppercase tracking-[0.12em] text-ink-subtle">
+                    {t("search.kind_indicator")}
+                  </p>
+                  <Link
+                    href={localizedPath(locale, indicatorPath(indicator.indicatorId))}
+                    className="mt-1 block font-medium text-ink hover:text-primary-700"
+                  >
+                    {indicator.name}
+                  </Link>
+                  {latest && (
+                    <p className="mt-1 text-sm tabular-nums text-ink-muted">
+                      {latest.value} {indicator.unit} ({latest.period})
+                    </p>
+                  )}
+                </li>
+              ))}
+              {toolsHere.map((tool) => (
+                <li key={tool.slug} className="rounded-lg border border-ink-line p-4">
+                  <p className="text-xs uppercase tracking-[0.12em] text-ink-subtle">
+                    {t("search.kind_tool")}
+                  </p>
+                  <Link
+                    href={localizedPath(locale, toolPath(tool.slug))}
+                    className="mt-1 block font-medium text-ink hover:text-primary-700"
+                  >
+                    {t(`tools.${tool.key}.name`)}
+                  </Link>
+                  <p className="mt-1 font-mono text-xs text-ink-subtle">{tool.formula}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <RelatedArticles locale={locale} articles={related} showSubtopic />
       </article>

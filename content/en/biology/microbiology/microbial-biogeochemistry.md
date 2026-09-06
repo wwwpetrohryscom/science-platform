@@ -1,11 +1,11 @@
 ---
 title: 'Microbial biogeochemistry: the organisms that close the elemental cycles'
-metaTitle: 'Microbial biogeochemistry and the elemental cycles'
+metaTitle: Microbial biogeochemistry and the elemental cycles
 excerpt: Several steps in the nitrogen, carbon and sulfur cycles have no plant or animal equivalent — only prokaryotes run them. This page follows those reactions and the awkward distance between detecting the gene for one and measuring its rate.
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biogeochemistry
@@ -19,14 +19,14 @@ related:
   - nitrogen-cycle-explained
   - soil-biology-and-the-soil-food-web
 pillar: microbiology-explained
-_bodyHash: b1da195d
+_bodyHash: 4d8d0e95
 ---
 
 Plants and animals move elements around. They do not, for the most part, transform them. The reactions that convert atmospheric N₂ into ammonia and back again, that make methane from carbon dioxide, that reduce sulfate to sulfide and oxidise it back, are prokaryotic monopolies or near-monopolies, and a [biogeochemical cycle](/en/glossary/biogeochemical-cycle) that lacked them would not close — it would run down into whichever reservoir the abiotic chemistry favoured. The organisms behind these reactions are introduced in the [wider survey of microbial life](/en/biology/microbiology/microbiology-explained); what follows is what they do to the planet's chemistry, and how hard that turns out to be to measure.
 
 ## The nitrogen relay
 
-Nitrogen fixation breaks the N≡N triple bond using nitrogenase, an enzyme so oxygen-sensitive that organisms carrying it have evolved elaborate physical and temporal shielding — heterocysts, root nodules, night-time fixation. Nothing else in biology performs this reaction. The ammonia it produces is then oxidised to nitrite and nitrate by ammonia-oxidising bacteria and archaea, and by complete ammonia oxidisers that run both steps in one cell.
+[Nitrogen fixation](/en/biology/microbiology/nitrogen-fixation-and-its-cost) breaks the N≡N triple bond using nitrogenase, an enzyme so oxygen-sensitive that organisms carrying it have evolved elaborate physical and temporal shielding — heterocysts, root nodules, night-time fixation. Nothing else in biology performs this reaction. The ammonia it produces is then oxidised to nitrite and nitrate by ammonia-oxidising bacteria and archaea, and by complete ammonia oxidisers that run both steps in one cell.
 
 Return to the atmosphere happens by two routes, and for most of the twentieth century only one of them was known. **Denitrification** steps nitrate down through nitrite, nitric oxide and nitrous oxide to N₂. **Anammox** — anaerobic ammonium oxidation — couples ammonium directly with nitrite to make N₂, and is carried out by a distinctive group of planctomycete bacteria. A 2025 global synthesis in *Advanced Science*, pooling 3,240 observations from 199 published isotope-pairing studies, found denitrification responsible for 79.8 ± 0.4 per cent of microbial nitrogen loss worldwide, with anammox contributing more in aquatic than in terrestrial settings and reaching as much as 43.2 per cent of nitrogen loss in seawater. Its share falls with latitude in soils and sediments and generally rises with depth in a sediment column.
 

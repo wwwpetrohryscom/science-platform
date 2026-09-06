@@ -4,7 +4,7 @@ excerpt: For over two decades the MODIS instruments on NASA’s Terra and Aqua s
 type: expert
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - modis
   - earth-observation
@@ -35,9 +35,9 @@ This is a deliberate engineering choice rather than a shortcoming. By accepting 
 
 ## What MODIS measures: the standard products
 
-MODIS data are processed into a catalogue of standard products that distil the raw bands into geophysical quantities. On land, these include vegetation indices — both NDVI and the enhanced vegetation index (EVI) — along with land cover classifications and land-surface temperature. The vegetation indices, explained more fully in our note on NDVI, track how green and photosynthetically active the surface is, and their near-daily updates make seasonal cycles easy to follow.
+MODIS data are processed into a catalogue of standard products that distil the raw bands into geophysical quantities. On land, these include [vegetation indices](/en/ecology/earth-observation/ndvi-explained) — both NDVI and the [enhanced vegetation index](/en/ecology/earth-observation/vegetation-indices-and-monitoring) (EVI) — along with [land cover](/en/ecology/earth-observation/land-cover-change-detection) classifications and land-surface temperature. The vegetation indices, explained more fully in our note on NDVI, track how green and photosynthetically active the surface is, and their near-daily updates make seasonal cycles easy to follow.
 
-Other products address active processes and other parts of the Earth system. MODIS detects active fires and thermal anomalies, a capability central to [wildfire monitoring from space](/en/ecology/earth-observation/wildfire-monitoring-from-space). Over the oceans it measures [ocean colour](/en/glossary/ocean-color) and chlorophyll, an indicator of phytoplankton; it also maps snow cover and atmospheric aerosols. The full set of products and their documentation is distributed through [NASA Earthdata](https://www.earthdata.nasa.gov/). Because the same measurements are repeated day after day across the globe, they feed directly into longer-term [climate indicators and Earth-system monitoring](/en/ecology/climate-change/climate-indicators-earth-system-monitoring).
+Other products address active processes and other parts of the [Earth system](/en/ecology/earth-systems/earth-system-science-explained). MODIS detects active fires and thermal anomalies, a capability central to [wildfire monitoring from space](/en/ecology/earth-observation/wildfire-monitoring-from-space). Over the oceans it measures [ocean colour](/en/glossary/ocean-color) and chlorophyll, an indicator of phytoplankton; it also maps snow cover and atmospheric aerosols. The full set of products and their documentation is distributed through [NASA Earthdata](https://www.earthdata.nasa.gov/). Because the same measurements are repeated day after day across the globe, they feed directly into longer-term [climate indicators and Earth-system monitoring](/en/ecology/climate-change/climate-indicators-earth-system-monitoring).
 
 ## Strengths, limits, and uncertainty
 

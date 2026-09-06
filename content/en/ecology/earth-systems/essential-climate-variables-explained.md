@@ -5,7 +5,7 @@ excerpt: GCOS specifies 55 variables the world has agreed to observe continuousl
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - essential-climate-variable
@@ -45,11 +45,11 @@ The list is therefore not "the 55 most scientifically interesting quantities". I
 
 Reading the variable names is more instructive than the count, because the list is structured by who measures what rather than by conceptual tidiness.
 
-In the **atmosphere** domain, the surface subdomain covers precipitation, surface pressure, the surface radiation budget, surface temperature, surface water vapour, and surface wind; the upper-atmosphere subdomain adds the Earth radiation budget, lightning, and upper-air temperature, humidity, and wind; and atmospheric composition covers clouds, aerosols, ozone, aerosol and ozone precursors, and the greenhouse gases.
+In the **atmosphere** domain, the surface subdomain covers precipitation, surface pressure, the surface radiation budget, surface temperature, surface water vapour, and surface wind; the upper-atmosphere subdomain adds the Earth radiation budget, lightning, and upper-air temperature, humidity, and wind; and atmospheric composition covers clouds, aerosols, ozone, aerosol and ozone precursors, and the [greenhouse gases](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring).
 
-The **land** domain is the most heterogeneous. Its hydrology subdomain includes groundwater, lakes, river discharge, terrestrial water storage, evaporation from land, and soil moisture. Its cryosphere subdomain covers glaciers, ice sheets and ice shelves, permafrost, and snow. Its biology subdomain covers above-ground biomass, albedo, fire, the fraction of absorbed photosynthetically active radiation, land cover, land-surface temperature, leaf area index, and soil carbon. A fourth subdomain covers human use of natural resources, comprising anthropogenic greenhouse-gas emissions and anthropogenic water use.
+The **land** domain is the most heterogeneous. Its hydrology subdomain includes groundwater, lakes, river discharge, terrestrial water storage, evaporation from land, and [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers). Its cryosphere subdomain covers glaciers, ice sheets and ice shelves, permafrost, and snow. Its biology subdomain covers above-ground biomass, albedo, fire, the fraction of absorbed photosynthetically active radiation, [land cover](/en/ecology/earth-observation/land-cover-change-detection), land-surface temperature, leaf area index, and [soil carbon](/en/ecology/soils/soil-science-explained). A fourth subdomain covers human use of natural resources, comprising anthropogenic greenhouse-gas emissions and anthropogenic water use.
 
-The **ocean** domain splits three ways. Physical variables include sea-surface and subsurface temperature and salinity, surface and subsurface currents, sea level, sea state, sea ice, surface stress, and the ocean surface heat flux. Biogeochemical variables include inorganic carbon, oxygen, nutrients, nitrous oxide, ocean colour, and transient tracers. The biological subdomain is the shortest on the whole list: marine habitats and plankton.
+The **ocean** domain splits three ways. Physical variables include sea-surface and subsurface temperature and salinity, surface and subsurface currents, [sea level](/en/ecology/climate-change/sea-level-rise-indicators), sea state, sea ice, surface stress, and the ocean surface heat flux. Biogeochemical variables include inorganic carbon, oxygen, nutrients, [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained), ocean colour, and transient tracers. The biological subdomain is the shortest on the whole list: marine habitats and plankton.
 
 Two things stand out. The **cryosphere and biosphere are not top-level domains** here, unlike in the conceptual five-component picture used in [Earth system components](/en/ecology/earth-systems/earth-system-components-explained) — they appear as subdomains of land, which reflects who operates the instruments rather than any physical judgement. And the **biological variables are conspicuously sparse** relative to the physical ones, which is the feasibility criterion showing through: a satellite can retrieve sea-surface temperature globally every day, and nothing does the equivalent for marine ecosystems.
 
@@ -59,7 +59,7 @@ Standardising the list does three things that ad-hoc measurement cannot.
 
 It makes **records comparable across agencies and decades**. When NASA, NOAA, ESA, and Copernicus all produce a version of the same ECV to a common specification, the products can be cross-validated rather than merely coexisting.
 
-It **anchors model evaluation**. Comparing an [Earth system model](/en/ecology/earth-systems/earth-system-models-explained) to observations requires agreement on what is being compared; ECVs supply the shared vocabulary.
+It **anchors [model evaluation](/en/ecology/earth-systems/model-intercomparison-as-a-measurement-device)**. Comparing an [Earth system model](/en/ecology/earth-systems/earth-system-models-explained) to observations requires agreement on what is being compared; ECVs supply the shared vocabulary.
 
 It **justifies continuity funding**. A satellite mission is easier to sustain when it is understood as maintaining an agreed variable rather than as a discrete science project. Continuity is the scarce resource in climate observation, and gaps cannot be filled retrospectively.
 
@@ -67,7 +67,7 @@ It **justifies continuity funding**. A satellite mission is easier to sustain wh
 
 An ECV and a climate indicator are related but not the same, and the distinction is easy to lose.
 
-An ECV is a **measured variable** — sea-surface temperature, surface albedo, above-ground biomass. A climate indicator is a **derived quantity chosen for communication**, usually aggregating several ECVs into something with a clear physical interpretation and a good signal-to-noise ratio. Global mean surface temperature is an indicator built from temperature ECVs; ocean heat content is an indicator built from subsurface temperature and salinity.
+An ECV is a **measured variable** — sea-surface temperature, surface albedo, above-ground biomass. A climate indicator is a **derived quantity chosen for communication**, usually aggregating several ECVs into something with a clear physical interpretation and a good signal-to-noise ratio. Global mean surface temperature is an indicator built from temperature ECVs; ocean [heat content](/en/ecology/climate-change/ocean-heat-content-indicators) is an indicator built from subsurface temperature and salinity.
 
 The existing article on [climate indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) covers the indicator layer. ECVs sit beneath it, and the mapping between the two is many-to-one.
 

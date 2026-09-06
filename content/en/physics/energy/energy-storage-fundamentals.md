@@ -5,8 +5,8 @@ excerpt: A store advertised in megawatts has told you how fast it can move energ
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - energy-storage
   - batteries
@@ -18,7 +18,7 @@ related:
   - hydrogen-as-an-energy-carrier
   - capacity-factor-and-energy-metrics
 pillar: energy-systems-explained
-_bodyHash: 69b301eb
+_bodyHash: e6553f41
 ---
 
 At the end of November 2020 the United States had 21.9 GW of pumped-storage hydropower and 1.4 GW of utility-scale batteries. By the end of June 2026 the EIA's capacity accounts recorded 23,035.1 MW of pumped storage and 51,665.7 MW of batteries, with a further 22,788.4 MW of battery capacity planned over the following twelve months. In under six years the electrochemical fleet went from a rounding error against the hydraulic one to more than twice its size. Those two figures come from different EIA releases and different capacity conventions, so the direction is the reliable part, not the decimal places.

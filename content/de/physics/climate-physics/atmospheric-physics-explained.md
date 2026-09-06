@@ -5,7 +5,7 @@ excerpt: Die Atmosphäre trägt etwa zehn Tonnen Luft über jedem Quadratmeter, 
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - atmospheric-physics
@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
+_bodyHash: 4dcbbfc4
 ---
 Luft ist dünn, und die Rechnung macht das greifbar. Die NOAA gibt den Standard-Meeresspiegeldruck mit 1013,25 hPa an, was dem Gewicht einer Säule entspricht, die etwa 10,3 Tonnen Luft über jedem Quadratmeter Boden trägt. Auf Reiseflughöhe eines Verkehrsflugzeugs liegen bereits rund drei Viertel dieser Säule unter einem. Was diese Hülle mit der hindurchgehenden Energie anstellt, ist Gegenstand der Atmosphärenphysik, und die nützlichste einzelne Zusammenfassung ist eine Transportzahl: ein polwärtiger Fluss, der im Jahresmittel in jeder Hemisphäre bei etwa fünf Petawatt gipfelt.
 
@@ -38,7 +39,7 @@ Die Temperatur ist weit weniger gefügig. Sie fällt durch die Troposphäre, ble
 
 Das Earth Observatory der NASA setzt die Intensität des Sonnenlichts an der Obergrenze der Atmosphäre, auf der der Sonne direkt zugewandten Fläche, auf etwa 1 360 Watt je Quadratmeter. Über die ganze rotierende Kugel verteilt werden daraus rund 340 W/m². Davon werden etwa 29 Prozent von Wolken, Aerosolen und hellen Oberflächen reflektiert; etwa 23 Prozent werden in der Atmosphäre von Wasserdampf, Staub und Ozon absorbiert; und etwa 48 Prozent erreichen die Oberfläche und werden dort absorbiert. Rund 71 Prozent der ankommenden Energie werden also absorbiert, also nahezu 240 W/m².
 
-Auf lange Sicht muss der Planet ebenso viel wieder ins All abstrahlen, und er tut es beinahe. Der Rest ist klein, und er ist das gesamte anthropogene Signal. Die AR6-Bewertung des IPCC berichtet ein [Energieungleichgewicht der Erde](/en/glossary/earth-energy-imbalance) von 0,50 [0,32 bis 0,69] W/m² für 1971–2006, ansteigend auf 0,79 [0,52 bis 1,06] W/m² für 2006–2018, wobei die Wärmeaufnahme des Ozeans 91 Prozent der gesamten Energieänderung ausmacht. Das CERES-Projekt der NASA gibt die Größe mit etwa 0,7 W/m² an und merkt an, das seien 0,3 Prozent der absorbierten Sonnenstrahlung; seine wissenschaftliche Übersicht knüpft an diese Zahl keinen Zeitraum, und die verfolgte Größe verändert sich. Drei Teile auf tausend in einer Bilanz dieser Größe nachzuweisen, ist das zentrale Messproblem des Fachs.
+Auf lange Sicht muss der Planet ebenso viel wieder ins All abstrahlen, und er tut es beinahe. Der Rest ist klein, und er ist das gesamte anthropogene Signal. Die AR6-Bewertung des IPCC berichtet ein [Energieungleichgewicht der Erde](/de/glossary/earth-energy-imbalance) von 0,50 [0,32 bis 0,69] W/m² für 1971–2006, ansteigend auf 0,79 [0,52 bis 1,06] W/m² für 2006–2018, wobei die Wärmeaufnahme des Ozeans 91 Prozent der gesamten Energieänderung ausmacht. Das CERES-Projekt der NASA gibt die Größe mit etwa 0,7 W/m² an und merkt an, das seien 0,3 Prozent der absorbierten Sonnenstrahlung; seine wissenschaftliche Übersicht knüpft an diese Zahl keinen Zeitraum, und die verfolgte Größe verändert sich. Drei Teile auf tausend in einer Bilanz dieser Größe nachzuweisen, ist das zentrale Messproblem des Fachs.
 
 Der Grund, weshalb die Oberfläche deutlich über den 255 K liegt, die eine Abstrahlung von 240 W/m² nahelegt, ist nicht, dass Energie unter einem Deckel gespeichert würde; es ist, dass die Höhe, aus der der Planet ins All abstrahlt, nicht die Oberfläche ist. Dieses Argument wird sorgfältig in [der Emissionshöhen-Darstellung des Treibhauseffekts](/de/physics/climate-physics/the-greenhouse-effect-physics) entfaltet.
 

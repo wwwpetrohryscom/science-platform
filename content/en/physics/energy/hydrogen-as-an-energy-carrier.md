@@ -5,8 +5,8 @@ excerpt: A kilogram of hydrogen holds 33.3 kWh and costs roughly 50 to 64 kWh of
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - hydrogen
   - electrolysis
@@ -19,7 +19,7 @@ related:
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
 pillar: energy-systems-explained
-_bodyHash: 3ee93282
+_bodyHash: b1befcb5
 ---
 
 A kilogram of hydrogen holds 33.3 kWh of energy on a lower-heating-value basis, according to the US Department of Energy's alternative fuels data. Making that kilogram by water electrolysis takes considerably more electricity than the hydrogen ends up holding: an assessment of liquid alkaline systems in *Environmental Science & Technology* reports stack-plus-balance-of-plant consumption of 59 to 64 kWh per kilogram for a baseline design and 49 to 52 kWh for an advanced one. Nothing downstream recovers the difference, and every claim made for hydrogen has to survive that gap.

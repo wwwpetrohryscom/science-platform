@@ -5,7 +5,7 @@ excerpt: Satellites have become the instruments that let scientists watch the wh
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - earth-observation
@@ -28,7 +28,7 @@ This is the hub of EcoScienceHub's Earth-observation cluster, and it is delibera
 
 A remote sensor does not photograph "deforestation" or "drought". It measures electromagnetic radiation in defined wavelength bands and records the value at each location as a number. Everything else — vegetation, water, fire, urban growth — is inferred from how surfaces interact with that radiation.
 
-Two broad families of instrument do this. **Passive** sensors record naturally available radiation, almost always reflected sunlight or thermal infrared emitted by the surface; optical and thermal imagers such as those on Landsat and MODIS are passive. **Active** sensors supply their own energy and measure what returns — radar and lidar send a pulse and time the echo, which lets them see through cloud and at night and measure height directly. Each surface has a characteristic [spectral signature](/en/glossary/spectral-signature): the particular way it reflects across wavelengths. Healthy vegetation, for instance, absorbs red light and reflects strongly in the near-infrared, and that contrast is the basis of the vegetation indices discussed below.
+Two broad families of instrument do this. **Passive** sensors record naturally available radiation, almost always reflected sunlight or [thermal infrared](/en/ecology/earth-observation/land-surface-temperature-from-space) emitted by the surface; optical and thermal imagers such as those on Landsat and MODIS are passive. **Active** sensors supply their own energy and measure what returns — radar and lidar send a pulse and time the echo, which lets them see through cloud and at night and measure height directly. Each surface has a characteristic [spectral signature](/en/glossary/spectral-signature): the particular way it reflects across wavelengths. Healthy vegetation, for instance, absorbs red light and reflects strongly in the near-infrared, and that contrast is the basis of the vegetation indices discussed below.
 
 The quantity a calibrated optical sensor ultimately reports is reflectance — the fraction of incoming light a surface returns in each band — stored as a grid of pixels, a form of [raster data](/en/glossary/raster-data). The resolution of that grid, and how often it is refreshed, are the first things that determine what a sensor can and cannot see.
 

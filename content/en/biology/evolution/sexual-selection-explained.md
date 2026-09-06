@@ -5,7 +5,7 @@ excerpt: Competition for mates explains traits that survival cannot. The compara
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - evolution
@@ -19,7 +19,7 @@ related:
   - speciation-mechanisms
   - genetic-drift-and-population-size
 pillar: evolution-explained
-_bodyHash: a0524f77
+_bodyHash: d3e1cdbd
 ---
 
 A peacock's train, a stag's antlers and a bowerbird's construction are costly in energy, in predation risk, or in both. Natural selection on survival cannot account for them, and Darwin's answer was that they are paid for by differential access to mates. The modern version of that argument starts one step earlier, with anisogamy — the asymmetry between many small gametes and few large ones — which tends to make reproduction limited by mates for one sex and by resources or time for the other. Everything downstream of that premise is where the interesting empirical work sits, and where the field's internal arguments are sharpest. The general framework it sits inside is covered in the [account of how evolution works](/en/biology/evolution/evolution-explained).

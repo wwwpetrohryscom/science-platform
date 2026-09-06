@@ -5,7 +5,7 @@ excerpt: A stock assessment is a fitted model, not a census. This page follows t
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - fisheries
@@ -28,7 +28,7 @@ Nobody counts the fish. A stock assessment is a statistical model of a populatio
 
 NOAA Fisheries groups assessment inputs into three kinds. **Catch** is the mass or number of fish removed by fishing, assembled from dockside monitoring, vessel logbooks, at-sea observers and recreational surveys. An **abundance index** is a relative measure of how many fish are in the stock, ideally from a statistically designed survey run by a research vessel to the same protocol each year. **Biology** supplies growth rates, natural mortality, reproductive output and movement, much of it from ageing structures such as otoliths.
 
-The order matters, because it runs opposite to data quality. Catch is by far the most completely reported of the three and by far the least informative about the population, since a landing is the product of how many fish were there and how hard people fished for them. A falling catch series is equally consistent with depletion, a quota cut, a price collapse, a gear restriction, or a fleet that moved somewhere more profitable. This is the reason a serious status series is never derived from the catch trend alone, and it is worth holding on to before reading any headline about global landings.
+The order matters, because it runs opposite to [data quality](/en/ecology/earth-observation/sensor-calibration-and-record-continuity). Catch is by far the most completely reported of the three and by far the least informative about the population, since a landing is the product of how many fish were there and how hard people fished for them. A falling catch series is equally consistent with depletion, a quota cut, a price collapse, a gear restriction, or a fleet that moved somewhere more profitable. This is the reason a serious status series is never derived from the catch trend alone, and it is worth holding on to before reading any headline about global landings.
 
 ## Model families: from a single biomass pool to tracked cohorts
 

@@ -5,7 +5,7 @@ excerpt: Einen Organismus zu benennen ist ein regelgeleitetes Verfahren mit eige
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - taxonomy
@@ -18,6 +18,7 @@ related:
   - phylogenetics-explained
   - the-tree-of-life-and-domains
   - how-many-species-are-there
+_bodyHash: 5b913151
 ---
 Ein wissenschaftlicher Name erfüllt zwei Aufgaben, und die meiste Verwirrung über Taxonomie entsteht daraus, sie als eine zu behandeln. Zu entscheiden, welche Organismen zu einer Gruppe gehören, ist ein wissenschaftliches Urteil, revidierbar, sobald sich die Belege verschieben. Zu entscheiden, welchen Namen diese Gruppe korrekt trägt, ist ein regelgeleitetes Verfahren mit fast keinem wissenschaftlichen Gehalt — dem Sachenrecht näher als der Biologie. Die internationalen Nomenklaturcodes regeln das Zweite und schweigen bewusst zum Ersten. Ändert sich ein vertrauter Name, kann die Ursache in beidem liegen, und von außen sehen beide gleich aus.
 

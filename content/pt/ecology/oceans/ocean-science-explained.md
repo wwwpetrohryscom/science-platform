@@ -5,7 +5,7 @@ excerpt: A densidade separa a água do mar em camadas entre as quais as trocas s
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - oceans
@@ -18,7 +18,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: 62a4eb6c
+_bodyHash: '56150e32'
 ---
 
 O oceano é um único corpo de água contínuo que se comporta como se estivesse empilhado. A densidade — função da temperatura, da salinidade e da pressão — separa a água do mar em camadas entre as quais as trocas são lentas, e a maior parte do comportamento de grande escala do mar decorre dessa separação: onde se acumula o calor adicionado, onde ficam os nutrientes, até que profundidade chega a luz e durante quanto tempo cada coisa permanece onde está.
@@ -27,7 +27,7 @@ Vale a pena enunciar a escala com clareza, porque é ela que torna a separação
 
 ## A estratificação é a variável dominante
 
-A água superficial iluminada pelo sol é mais quente e, muitas vezes, menos salgada do que a água que tem por baixo; é por isso menos densa e flutua. O vento e o arrefecimento invernal misturam as primeiras dezenas a centenas de metros, formando uma **camada de mistura** de densidade quase uniforme. Abaixo dela, a temperatura desce abruptamente ao longo da **termoclina** e a densidade aumenta na picnoclina. Esse degrau de densidade é a estrutura de maiores consequências no mar, porque constitui uma barreira à troca vertical: determina com que facilidade o calor, o carbono, o oxigénio e os nutrientes dissolvidos passam entre a superfície e o interior.
+A água superficial iluminada pelo sol é mais quente e, muitas vezes, menos salgada do que a água que tem por baixo; é por isso menos densa e flutua. O vento e o arrefecimento invernal misturam as primeiras dezenas a centenas de metros, formando uma **camada de mistura** de densidade quase uniforme. Abaixo dela, a temperatura desce abruptamente ao longo da **[termoclina](/pt/glossary/thermocline)** e a densidade aumenta na picnoclina. Esse degrau de densidade é a estrutura de maiores consequências no mar, porque constitui uma barreira à troca vertical: determina com que facilidade o calor, o carbono, o oxigénio e os nutrientes dissolvidos passam entre a superfície e o interior.
 
 Essa barreira reforçou-se. O Sexto Relatório de Avaliação do IPCC conclui que é praticamente certo que o oceano superior se tornou mais estavelmente estratificado desde, pelo menos, 1970 na grande maioria do globo, por efeito de um aquecimento concentrado à superfície e da redução da salinidade em latitudes elevadas, e avalia o aumento da estratificação entre 0 e 200 m em 4,9 ± 1,5 por cento entre 1970 e 2018. Uma análise publicada na Nature Climate Change, que quantifica a estabilidade de outro modo — pelo quadrado da frequência de flutuabilidade até aos 2.000 metros —, reporta um aumento de 5,3 por cento (5,0 a 5,8 por cento) no período de 1960 a 2018, cerca de 0,90 por cento por década, com aproximadamente 71 por cento da variação nos primeiros 200 metros e mais de 90 por cento dela atribuível à temperatura e não à salinidade.
 
@@ -53,7 +53,7 @@ O uso humano chega à base de evidência sob três formas, e não são igualment
 
 ## O registo instrumental começa mais tarde do que a maioria dos leitores supõe
 
-Durante a maior parte do século XX, o interior do oceano foi amostrado a partir de navios, o que concentrou as observações ao longo das rotas comerciais, no hemisfério norte e no verão. A rede Argo mudou a geometria da amostragem, não os instrumentos. O Atlantic Oceanographic and Meteorological Laboratory da NOAA regista que o primeiro flutuador foi lançado em 1999 e que a meta inicial de 3.000 flutuadores perfiladores numa grelha de 3° × 3° foi atingida em novembro de 2007; o desenho posterior, Argo2020, aponta para cerca de 4.000 flutuadores considerando todos os tipos. Cada flutuador deriva a uma profundidade intermédia, desce aos 2.000 metros de dez em dez dias e mede a temperatura e a salinidade durante a subida. A rede ultrapassou o primeiro milhão de perfis em outubro de 2012, os dois milhões em setembro de 2018 e os três milhões em julho de 2024, com 26 países a contribuir.
+Durante a maior parte do século XX, o interior do oceano foi amostrado a partir de navios, o que concentrou as observações ao longo das rotas comerciais, no hemisfério norte e no verão. A rede Argo mudou a geometria da amostragem, não os instrumentos. O Atlantic Oceanographic and Meteorological Laboratory da NOAA regista que o primeiro flutuador foi lançado em 1999 e que a meta inicial de 3.000 flutuadores perfiladores numa grelha de 3° × 3° foi atingida em novembro de 2007; o desenho posterior, Argo2020, aponta para 4.000 flutuadores Core Argo, a par de 1.200 Deep Argo e 1.000 biogeoquímicos. Cada flutuador deriva a uma profundidade intermédia, desce aos 2.000 metros de dez em dez dias e mede a temperatura e a salinidade durante a subida. A rede ultrapassou o primeiro milhão de perfis em outubro de 2012, os dois milhões em setembro de 2018 e os três milhões em julho de 2024, com 26 países a contribuir.
 
 É esse o ponto de viragem na observação. As afirmações sobre o interior do oceano anteriores a cerca de 2005 assentam em dados escassos e desigualmente distribuídos; as posteriores assentam numa rede quase global. O fundo do mar está ainda mais atrasado. A NOAA Ocean Exploration indica que, em abril de 2026, 28,7 por cento do fundo oceânico mundial tinha sido cartografado com sonar multifeixe moderno de alta resolução — cerca de 56 por cento dentro das águas dos Estados Unidos — e que os exploradores viram diretamente menos de 0,001 por cento do fundo do mar profundo, uma área aproximadamente do tamanho de Rhode Island. A batimetria derivada de satélite cobre todo o fundo oceânico, mas com uma resolução que deixa escapar estruturas tão grandes como um monte submarino isolado.
 

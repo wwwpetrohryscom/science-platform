@@ -1,6 +1,6 @@
 ---
 title: 'Remote-sensing limitations and uncertainty: reading satellite data honestly'
-metaTitle: 'Remote-sensing limitations and uncertainty'
+metaTitle: Remote-sensing limitations and uncertainty
 excerpt: Satellite data are powerful but never perfect. This sets out the structural limits of remote sensing — resolution trade-offs, cloud, mixed pixels, indirect measurement, and sensor drift — and the validation practices that keep satellite products honest.
 type: expert
 author: climate-research-desk
@@ -40,7 +40,7 @@ Perhaps the most important limit is that an instrument records physical and spec
 
 ## Instruments change, and that can look like the world changing
 
-A long environmental record is rarely the work of one unchanging instrument. Sensors degrade over their lifetimes, orbits drift, and successive missions are built to differing specifications. Without care, a shift caused by hardware can be mistaken for a real environmental trend. Producing a consistent multi-decade series therefore depends on cross-calibration that ties each instrument to the others, so that a sensor change does not masquerade as change on the ground. This consistency work underlies durable archives and matters wherever [land-cover change detection](/en/ecology/earth-observation/land-cover-change-detection) compares observations separated by years. The [USGS](https://www.usgs.gov/landsat-missions) treats such continuity as a core part of maintaining a usable land record.
+A long environmental record is rarely the work of one unchanging instrument. Sensors degrade over their lifetimes, orbits drift, and successive missions are built to differing specifications. Without care, a shift caused by hardware can be mistaken for a real environmental trend. Producing a consistent multi-decade series therefore depends on [cross-calibration that ties each instrument to the others](/en/ecology/earth-observation/sensor-calibration-and-record-continuity), so that a sensor change does not masquerade as change on the ground. This consistency work underlies durable archives and matters wherever [land-cover change detection](/en/ecology/earth-observation/land-cover-change-detection) compares observations separated by years. The [USGS](https://www.usgs.gov/landsat-missions) treats such continuity as a core part of maintaining a usable land record.
 
 ## How honest products handle their own error
 

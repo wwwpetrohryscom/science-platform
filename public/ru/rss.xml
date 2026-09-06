@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>EcoScienceHub</title>
+    <link>https://ecosciencehub.com/ru</link>
+    <description>Независимые, научно строгие материалы по экологии, биологии и прикладной физике. Чтобы читать вдумчиво и цитировать аккуратно.</description>
+    <language>ru</language>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://ecosciencehub.com/ru/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Мониторинг биоразнообразия и состояние экосистем: как наука измеряет состояние жизни</title>
+      <link>https://ecosciencehub.com/ru/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>У биоразнообразия нет единого термометра. Так учёные отслеживают состояние видов и экосистем — полевые учёты, индикаторы, базы данных о видах, дистанционное зондирование, долговременные наблюдения — и вот что каждый метод способен различить, а что нет.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>monitoring</category>
+      <category>ecosystem-health</category>
+      <category>indicators</category>
+      <category>conservation</category>
+    </item>
+    <item>
+      <title>Плодородие почвы: что значит «доступный» и почему азот и фосфор теряются противоположным образом</title>
+      <link>https://ecosciencehub.com/ru/ecology/soils/nutrient-availability-and-soil-fertility</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/soils/nutrient-availability-and-soil-fertility</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Плодородие — это скорость подачи ионов к корню, а не запас элементов питания, лежащий в земле. Именно это различие объясняет, почему азот теряется из-за подвижности, а фосфор — из-за неподвижности, и почему показатели усвоения того и другого зависят от того, как их измеряли.</description>
+      <category>ecology</category>
+      <category>fertility</category>
+      <category>plant-nutrition</category>
+      <category>nitrogen</category>
+      <category>phosphorus</category>
+      <category>cation-exchange</category>
+    </item>
+    <item>
+      <title>Квантовые сенсоры выходят из лаборатории. Вот что при этом меняется.</title>
+      <link>https://ecosciencehub.com/ru/physics/quantum-basics/quantum-sensors-leaving-the-lab</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/physics/quantum-basics/quantum-sensors-leaving-the-lab</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>Квантовые сенсоры — атомные часы, гравиметры, магнитометры — превратились из диковинок прецизионной физики в приборы, пригодные к развёртыванию. Открывающиеся при этом применения — не те, на которых делает акцент популярная пресса.</description>
+      <category>physics</category>
+      <category>quantum</category>
+      <category>sensors</category>
+      <category>metrology</category>
+      <category>applications</category>
+    </item>
+    <item>
+      <title>Экологическая сукцессия: что заменило идею климакса</title>
+      <link>https://ecosciencehub.com/ru/ecology/ecosystems/ecological-succession-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/ecosystems/ecological-succession-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Сукцессия — не заданное движение к единственному устойчивому конечному состоянию. Восстановление зависит от того, что уцелело, что пришло и в каком порядке, а разные свойства нарушенного участка возвращаются с очень разной скоростью.</description>
+      <category>ecology</category>
+      <category>succession</category>
+      <category>disturbance-ecology</category>
+      <category>restoration</category>
+      <category>alternative-stable-states</category>
+      <category>ecosystems</category>
+    </item>
+    <item>
+      <title>Первичная продукция: что измеряют GPP, NPP и NEP и как оценивают каждую из них</title>
+      <link>https://ecosciencehub.com/ru/ecology/ecosystems/primary-production-and-energy-flow</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/ecosystems/primary-production-and-energy-flow</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Валовая первичная продукция никогда не измеряется напрямую в масштабе экосистемы — её только выводят. Что означают GPP, NPP и NEP, какой прибор стоит за каждой цифрой и почему наземная и океаническая половины опираются на разные методы.</description>
+      <category>ecology</category>
+      <category>primary-production</category>
+      <category>carbon-flux</category>
+      <category>eddy-covariance</category>
+      <category>satellite-products</category>
+    </item>
+    <item>
+      <title>Что такое экосистема? Определение через потоки</title>
+      <link>https://ecosciencehub.com/ru/ecology/ecosystems/what-is-an-ecosystem</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/ecosystems/what-is-an-ecosystem</guid>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Экосистема — это не место, а поток. Что даёт такое различение для понимания устойчивости, восстановления и того, что мы на самом деле охраняем.</description>
+      <category>ecology</category>
+      <category>ecosystems</category>
+      <category>ecology-fundamentals</category>
+      <category>energy-flow</category>
+      <category>resilience</category>
+    </item>
+    <item>
+      <title>Обратные связи углеродного цикла: почему нет гарантии, что океан и суша будут поглощать и дальше</title>
+      <link>https://ecosciencehub.com/ru/ecology/climate-change/carbon-cycle-feedbacks</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/climate-change/carbon-cycle-feedbacks</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Суша и океан поглощают сегодня примерно половину антропогенных выбросов углерода. Продолжат ли они это делать — одна из крупнейших неопределённостей долгосрочных климатических проекций.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>carbon-cycle</category>
+      <category>feedbacks</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Климатические индикаторы и наблюдение системы Земли: как сигналы складываются вместе</title>
+      <link>https://ecosciencehub.com/ru/ecology/climate-change/climate-indicators-earth-system-monitoring</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/climate-change/climate-indicators-earth-system-monitoring</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Климатические индикаторы отслеживают состояние системы Земли. Вот как температура, теплосодержание океана, парниковые газы, уровень моря и лёд читаются вместе и для чего годится каждый.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>climate-indicators</category>
+      <category>earth-system</category>
+      <category>monitoring</category>
+      <category>ipcc</category>
+    </item>
+    <item>
+      <title>Теплосодержание океана: климатический индикатор, который атмосфера не может скрыть</title>
+      <link>https://ecosciencehub.com/ru/ecology/climate-change/ocean-heat-content-indicators</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/climate-change/ocean-heat-content-indicators</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Приземная температура воздуха зашумлена. Океан — нет. Что измеряет теплосодержание океана и почему его считают самым устойчивым индикатором потепления климатической системы.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>ocean</category>
+      <category>heat-content</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Что такое изменение климата? Механизм, доказательства и открытые вопросы</title>
+      <link>https://ecosciencehub.com/ru/ecology/climate-change/what-is-climate-change</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/climate-change/what-is-climate-change</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Изменение климата — это долговременный сдвиг энергетического баланса Земли, вызванный изменением состава атмосферы. Разбираем механизм, доказательства, которые за ним стоят, и вопросы, остающиеся по-настоящему открытыми.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>climate</category>
+      <category>fundamentals</category>
+      <category>greenhouse-effect</category>
+      <category>attribution</category>
+    </item>
+    <item>
+      <title>Дистанционное зондирование для мониторинга биоразнообразия: что спутники видят, а что нет</title>
+      <link>https://ecosciencehub.com/ru/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Спутники не видят большинство видов, но последовательно и глобально измеряют структуру экосистем. Что наблюдение Земли даёт мониторингу биоразнообразия — земной покров, полог, состояние растительности — и каковы пределы вывода по спектральному сигналу.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>remote-sensing</category>
+      <category>earth-observation</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Видовое богатство: что подсчёт видов может и чего не может сказать</title>
+      <link>https://ecosciencehub.com/ru/ecology/biodiversity/species-richness-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/biodiversity/species-richness-explained</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Видовое богатство — самый простой показатель биоразнообразия и самый лёгкий для неверного истолкования. Здесь разобрано, что на самом деле отражает подсчёт видов, как его искажают усилие по отбору проб и площадь и какие оценки применяют, чтобы сделать подсчёты сопоставимыми.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>species-richness</category>
+      <category>monitoring</category>
+      <category>diversity-metrics</category>
+    </item>
+    <item>
+      <title>Почему число видов — плохая основа для природоохранных приоритетов</title>
+      <link>https://ecosciencehub.com/ru/ecology/biodiversity/why-species-counts-mislead-conservation</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/biodiversity/why-species-counts-mislead-conservation</guid>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Видовое богатство — самый простой в расчёте показатель биоразнообразия и самый неудачный в роли основания для приоритетов. Работу экосистемы предсказывают функциональное и филогенетическое разнообразие, и они нередко расходятся с числом видов.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>conservation</category>
+      <category>functional-diversity</category>
+      <category>prioritization</category>
+    </item>
+    <item>
+      <title>Круговорот углерода: где углерод, как он движется и что изменилось</title>
+      <link>https://ecosciencehub.com/ru/ecology/earth-systems/carbon-cycle-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/earth-systems/carbon-cycle-explained</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>Бо́льшая часть углерода Земли заперта в породе и движется в геологическом времени. Небольшая быстро оборачивающаяся доля проходит через воздух, воду и живое — и именно её мы изменили.</description>
+      <category>ecology</category>
+      <category>carbon-cycle</category>
+      <category>biogeochemical-cycles</category>
+      <category>carbon-sink</category>
+      <category>earth-system</category>
+    </item>
+    <item>
+      <title>Климатические обратные связи: арифметика, превращающая малый толчок в большой отклик</title>
+      <link>https://ecosciencehub.com/ru/ecology/earth-systems/climate-feedback-mechanisms</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/earth-systems/climate-feedback-mechanisms</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>Обратная связь — это не расплывчатое усиление. Это число в ваттах на квадратный метр на градус, у неё есть правило знаков, и AR6 МГЭИК публикует оценённое значение для каждой из них.</description>
+      <category>ecology</category>
+      <category>climate-feedback</category>
+      <category>feedbacks</category>
+      <category>climate-sensitivity</category>
+      <category>earth-system</category>
+    </item>
+    <item>
+      <title>Наука о земной системе: как взаимодействуют главные системы планеты</title>
+      <link>https://ecosciencehub.com/ru/ecology/earth-systems/earth-system-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/earth-systems/earth-system-science-explained</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>Воздух, воду, лёд, горные породы и живое вещество обычно изучают порознь. Наука о земной системе изучает связи между ними — там, где сосредоточена бо́льшая часть поведения системы и бо́льшая часть неопределённости.</description>
+      <category>ecology</category>
+      <category>earth-system</category>
+      <category>biogeochemical-cycles</category>
+      <category>feedbacks</category>
+      <category>climate-system</category>
+      <category>earth-system-models</category>
+    </item>
+    <item>
+      <title>Существенные климатические переменные: перечень из 55 пунктов, решающий, что измеряют</title>
+      <link>https://ecosciencehub.com/ru/ecology/earth-systems/essential-climate-variables-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/earth-systems/essential-climate-variables-explained</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>GCOS определяет 55 переменных, которые мир договорился наблюдать непрерывно. Критерии отбора не менее поучительны, чем сам перечень, — и один из них не является научной значимостью.</description>
+      <category>ecology</category>
+      <category>essential-climate-variable</category>
+      <category>indicators</category>
+      <category>monitoring</category>
+      <category>measurement</category>
+    </item>
+    <item>
+      <title>Наблюдение Земли и дистанционное зондирование: как планету измеряют из космоса</title>
+      <link>https://ecosciencehub.com/ru/ecology/earth-observation/earth-observation-and-remote-sensing-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/earth-observation/earth-observation-and-remote-sensing-explained</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Спутники стали инструментами, позволяющими наблюдать всю планету сразу. Здесь разобрано, как устроено наблюдение Земли — от фотонов до калиброванных информационных продуктов, — что оно измеряет в климате и экосистемах и где проходят его пределы.</description>
+      <category>ecology</category>
+      <category>earth-observation</category>
+      <category>remote-sensing</category>
+      <category>satellites</category>
+      <category>environmental-monitoring</category>
+    </item>
+    <item>
+      <title>Обнаружение изменений земного покрова: как картировать изменения поверхности во времени</title>
+      <link>https://ecosciencehub.com/ru/ecology/earth-observation/land-cover-change-detection</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/earth-observation/land-cover-change-detection</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Сравнение спутниковых снимков, полученных в разные даты, — это способ измерять изменения земель в крупном масштабе. Здесь объясняются различие между земным покровом и землепользованием, основные методы обнаружения изменений, глобальные продукты и ошибки, которые приходится контролировать.</description>
+      <category>ecology</category>
+      <category>land-cover</category>
+      <category>land-use-change</category>
+      <category>remote-sensing</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Наблюдения цвета океана: читать море по его цвету</title>
+      <link>https://ecosciencehub.com/ru/ecology/earth-observation/ocean-color-observations</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/earth-observation/ocean-color-observations</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Цвет океана несёт информацию о микроскопических растениях, живущих в нём. Здесь объясняется, как спутники оценивают фитопланктон по выходящему из воды свету, какие миссии построили этот ряд наблюдений и почему атмосферная коррекция над водой — самая трудная часть.</description>
+      <category>ecology</category>
+      <category>ocean-color</category>
+      <category>oceans</category>
+      <category>remote-sensing</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Наука об охране природы: что в действительности подтверждает доказательная база</title>
+      <link>https://ecosciencehub.com/ru/ecology/conservation/conservation-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/conservation/conservation-science-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Охрана природы — прикладная наука, выстроенная вокруг причинного вопроса: изменило ли вмешательство траекторию? Здесь разобрано, как этот вопрос проверяют, что сегодня подтверждают обобщения и где доказательства заканчиваются.</description>
+      <category>ecology</category>
+      <category>evidence-based-conservation</category>
+      <category>counterfactual</category>
+      <category>protected-areas</category>
+      <category>study-design</category>
+      <category>biodiversity-policy</category>
+    </item>
+    <item>
+      <title>Расстановка приоритетов: что меняется, когда охрану природы считают бюджетной задачей</title>
+      <link>https://ecosciencehub.com/ru/ecology/conservation/conservation-trade-offs-and-prioritisation</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/conservation/conservation-trade-offs-and-prioritisation</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Ранжирование видов по степени угрозы никому не подсказывает, куда тратить средства. Взаимодополняемость, стоимость и вероятность успеха меняют порядок списка, а целевой показатель площади можно выполнить без экологического выигрыша.</description>
+      <category>ecology</category>
+      <category>conservation-planning</category>
+      <category>protected-areas</category>
+      <category>decision-science</category>
+      <category>biodiversity-policy</category>
+    </item>
+    <item>
+      <title>Экологическое восстановление: что показывают метаанализы и что считается успехом</title>
+      <link>https://ecosciencehub.com/ru/ecology/conservation/ecological-restoration-evidence</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/conservation/ecological-restoration-evidence</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Восстановление надёжно улучшает деградированное исходное состояние и столь же надёжно не дотягивает до эталонного. Выбранное сравнение решает исход, и мало какие проекты наблюдают достаточно долго, чтобы вопрос закрыть.</description>
+      <category>ecology</category>
+      <category>ecological-restoration</category>
+      <category>recovery-debt</category>
+      <category>reference-ecosystem</category>
+      <category>land-degradation</category>
+      <category>meta-analysis</category>
+    </item>
+    <item>
+      <title>Как оценивают риск вымирания и что означает категория Красного списка</title>
+      <link>https://ecosciencehub.com/ru/ecology/conservation/species-extinction-risk-assessment</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/conservation/species-extinction-risk-assessment</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Категория Красного списка выражает вероятность вымирания по заданным критериям, а не экологическую значимость и не редкость. Здесь разобрано, чего требуют пять критериев, почему «Недостаточно данных» — не категория угрозы и насколько неравномерен охват.</description>
+      <category>ecology</category>
+      <category>red-list</category>
+      <category>extinction-risk</category>
+      <category>data-deficient</category>
+      <category>assessment-criteria</category>
+      <category>taxonomic-bias</category>
+    </item>
+    <item>
+      <title>Глубины океана: крупнейшее местообитание Земли и наименее опробованное</title>
+      <link>https://ecosciencehub.com/ru/ecology/oceans/deep-sea-ecosystems</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/oceans/deep-sea-ecosystems</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>Более девяти десятых океана лежит ниже освещённого слоя, а непосредственно увидено менее одной тысячной процента его дна. Вот что глубина делает с жизнью и насколько рассуждения о ней опираются на косвенные выводы.</description>
+      <category>ecology</category>
+      <category>deep-sea</category>
+      <category>chemosynthesis</category>
+      <category>hydrothermal-vents</category>
+      <category>sampling-bias</category>
+    </item>
+    <item>
+      <title>Морская продуктивность: как гигатонна водорослей кормит пять гигатонн животных</title>
+      <link>https://ecosciencehub.com/ru/ecology/oceans/marine-food-webs-and-productivity</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/oceans/marine-food-webs-and-productivity</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>В океане биомасса потребителей больше биомассы производителей, что звучит невозможно, пока не учтёшь оборот. Здесь — арифметика, пределы по питательным веществам и то, что цвет океана из космоса видит и чего не видит.</description>
+      <category>ecology</category>
+      <category>marine-productivity</category>
+      <category>phytoplankton</category>
+      <category>food-webs</category>
+      <category>oceans</category>
+    </item>
+    <item>
+      <title>Океанология: как глубина упорядочивает море и как мало мы его наблюдаем</title>
+      <link>https://ecosciencehub.com/ru/ecology/oceans/ocean-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/oceans/ocean-science-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>Плотность сортирует морскую воду по слоям, которые обмениваются медленно, и почти все крупномасштабные свойства моря следуют из этой сортировки. Что расслоение делает с химией и жизнью — и насколько скудно океан наблюдается на самом деле.</description>
+      <category>ecology</category>
+      <category>oceans</category>
+      <category>marine-science</category>
+      <category>stratification</category>
+      <category>ocean-observation</category>
+    </item>
+    <item>
+      <title>Пресноводные экосистемы: менее 0,01 % воды и более 10 % описанных видов</title>
+      <link>https://ecosciencehub.com/ru/ecology/freshwater/freshwater-ecosystems-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/freshwater/freshwater-ecosystems-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>Реки, озёра и болота содержат меньше сотой доли процента воды Земли и увлажняют несколько процентов суши, но несут более десятой части всех описанных видов. Это несоответствие определяет в них всё.</description>
+      <category>ecology</category>
+      <category>freshwater</category>
+      <category>rivers</category>
+      <category>lakes</category>
+      <category>wetlands</category>
+      <category>aquatic-biodiversity</category>
+    </item>
+    <item>
+      <title>Подземные воды: как измеряют истощение и почему методы расходятся</title>
+      <link>https://ecosciencehub.com/ru/ecology/freshwater/groundwater-and-aquifer-depletion</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/freshwater/groundwater-and-aquifer-depletion</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>В подземных водах находится большая часть жидкой пресной воды планеты, а их состояние можно только вывести косвенно. Скважины, спутниковая гравиметрия и гидрологические модели измеряют разное, и разрывы между ними объясняют большинство опубликованных расхождений.</description>
+      <category>ecology</category>
+      <category>groundwater</category>
+      <category>aquifers</category>
+      <category>hydrology</category>
+      <category>water-monitoring</category>
+      <category>land-subsidence</category>
+    </item>
+    <item>
+      <title>Бореальные леса: углерод лежит в почве, а инвентаризации кончаются выше</title>
+      <link>https://ecosciencehub.com/ru/ecology/forests/boreal-forests-and-permafrost-interactions</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/forests/boreal-forests-and-permafrost-interactions</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>Углерод северных лесов сосредоточен главным образом в холодных, влажных, медленно разлагающихся почвах и в подстилающей их многолетней мерзлоте — резервуаре, который стандартные правила лесной инвентаризации учитывают лишь до небольшой, выбранной страной глубины или не учитывают вовсе.</description>
+      <category>ecology</category>
+      <category>boreal-forests</category>
+      <category>permafrost</category>
+      <category>soil-carbon</category>
+      <category>wildfire</category>
+      <category>carbon-flux</category>
+    </item>
+    <item>
+      <title>Статистика обезлесения: почему авторитетные источники дают разные цифры</title>
+      <link>https://ecosciencehub.com/ru/ecology/forests/deforestation-statistics-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/forests/deforestation-statistics-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Национальная отчётность и спутниковые продукты по древесному покрову измеряют разные величины под одним и тем же словом. Здесь разобрано, что считает каждый ряд, почему ни один из них не точнее другого и как читать цифру обезлесения, не вычитывая из неё лишнего.</description>
+      <category>ecology</category>
+      <category>deforestation</category>
+      <category>forest-monitoring</category>
+      <category>tree-cover-loss</category>
+      <category>forest-statistics</category>
+      <category>land-use-change</category>
+    </item>
+    <item>
+      <title>Измерение углерода леса: аллометрия, пробные площади, лидар и бюджет ошибки</title>
+      <link>https://ecosciencehub.com/ru/ecology/forests/forest-carbon-measurement</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/forests/forest-carbon-measurement</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Лес никто не взвешивает. Любое опубликованное число об углероде леса — результат цепочки подстановок от рулетки до мирового итога, и крупнейший резервуар этого итога измерен хуже всех.</description>
+      <category>ecology</category>
+      <category>forest-carbon</category>
+      <category>allometry</category>
+      <category>lidar</category>
+      <category>forest-inventory</category>
+      <category>measurement-uncertainty</category>
+    </item>
+    <item>
+      <title>Леса: строение, функции и определения, от которых зависит статистика</title>
+      <link>https://ecosciencehub.com/ru/ecology/forests/forest-ecosystems-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/forests/forest-ecosystems-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Лес — сначала категория землепользования и только потом экосистема, и пороговые значения этой категории определяют большинство публикуемых о нём чисел. Здесь изложены определения, описываемое ими строение и границы глобальной картины.</description>
+      <category>ecology</category>
+      <category>forests</category>
+      <category>forest-inventory</category>
+      <category>land-use</category>
+      <category>forest-carbon</category>
+      <category>disturbance</category>
+    </item>
+    <item>
+      <title>Почвенная пищевая сеть: самое богатое видами местообитание и наименее описанное</title>
+      <link>https://ecosciencehub.com/ru/ecology/soils/soil-biology-and-the-soil-food-web</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/soils/soil-biology-and-the-soil-food-web</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Одних только нематод в мире около 4,4 × 10²⁰ особей. Организмы под поверхностью строят большую часть остающегося там углерода, а молекулярные методы их учёта вводят в заблуждение известными способами.</description>
+      <category>ecology</category>
+      <category>soil-biodiversity</category>
+      <category>decomposition</category>
+      <category>mycorrhiza</category>
+      <category>soil-carbon</category>
+      <category>dna-sequencing</category>
+    </item>
+    <item>
+      <title>Углерод почвы: почему проблема измерения — это и есть вся проблема</title>
+      <link>https://ecosciencehub.com/ru/ecology/soils/soil-carbon-measurement-and-uncertainty</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/soils/soil-carbon-measurement-and-uncertainty</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Глобальные оценки углерода в верхних 30 сантиметрах почвы варьируют от 504 до 1,267 петаграмм. Разброс отражает не разногласия о самой почве, а расхождения в глубине, плотности сложения, густоте опробования и в том, что считать измерением.</description>
+      <category>ecology</category>
+      <category>soil-carbon</category>
+      <category>measurement-uncertainty</category>
+      <category>monitoring</category>
+      <category>carbon-accounting</category>
+    </item>
+    <item>
+      <title>Почва: самый медленно образующийся ресурс, от которого зависит жизнь суши</title>
+      <link>https://ecosciencehub.com/ru/ecology/soils/soil-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/soils/soil-science-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Почва — четырёхфазная система, организованная в горизонты и образующаяся со скоростью, медианная величина которой близка к 0,15 т/га в год. Эта скорость и трудность измерения того, что почва в себе хранит, определяют любой спор о ней.</description>
+      <category>ecology</category>
+      <category>soil</category>
+      <category>pedology</category>
+      <category>soil-carbon</category>
+      <category>land-systems</category>
+      <category>soil-biodiversity</category>
+    </item>
+    <item>
+      <title>Качество воздуха: что измеряют станции и что скрывает индекс</title>
+      <link>https://ecosciencehub.com/ru/ecology/pollution/air-quality-measurement-and-standards</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/pollution/air-quality-measurement-and-standards</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Public Health &amp; Environment Desk</dc:creator>
+      <description>Нормативное измерение воздуха — это концентрация плюс статистическая форма, а построенный поверх индекс оставляет только худший загрязнитель. Оба шага выбрасывают сведения, важные для чтения любого утверждения о воздухе.</description>
+      <category>ecology</category>
+      <category>air-quality-index</category>
+      <category>air-monitoring</category>
+      <category>criteria-pollutants</category>
+      <category>low-cost-sensors</category>
+      <category>ozone</category>
+    </item>
+    <item>
+      <title>Загрязнение: источник, путь воздействия, реципиент — схема, упорядочивающая доказательства</title>
+      <link>https://ecosciencehub.com/ru/ecology/pollution/environmental-pollution-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/pollution/environmental-pollution-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Public Health &amp; Environment Desk</dc:creator>
+      <description>Вещество становится загрязнителем только тогда, когда выстраиваются в линию источник, путь воздействия и реципиент. Эта триада и стоящая в её центре зависимость «доза — эффект» объясняют, почему нормативы в разных странах различаются, хотя наука под ними одна.</description>
+      <category>ecology</category>
+      <category>risk-assessment</category>
+      <category>exposure</category>
+      <category>dose-response</category>
+      <category>environmental-standards</category>
+      <category>chemical-regulation</category>
+    </item>
+    <item>
+      <title>Реактивный азот: один элемент, каскад отдельных проблем</title>
+      <link>https://ecosciencehub.com/ru/ecology/pollution/nitrogen-pollution-and-eutrophication</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/ecology/pollution/nitrogen-pollution-and-eutrophication</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Человеческая деятельность связывает сегодня примерно столько же реактивного азота, сколько вся природная биосфера, и один атом способен последовательно вызвать загрязнение воздуха, подкисление, прибрежную гипоксию и парниковое воздействие — на часах, идущих от недель до столетий.</description>
+      <category>ecology</category>
+      <category>reactive-nitrogen</category>
+      <category>eutrophication</category>
+      <category>ammonia</category>
+      <category>critical-loads</category>
+      <category>hypoxia</category>
+    </item>
+    <item>
+      <title>Клеточная мембрана: самосборка, избирательность и цена градиента</title>
+      <link>https://ecosciencehub.com/ru/biology/cells/cell-membrane-structure-and-transport</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/ru/biology/cells/cell-membrane-structure-and-transport</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Ecosystems Desk</dc:creator>
+      <description>Липидный бислой строит себя сам, а затем почти ничего не пропускает. Сколько клетка тратит, чтобы держать своё нутро химически непохожим на окружение, и как каналы, переносчики и насосы делят эту работу, и составляет существо мембранной биологии.</description>
+      <category>biology</category>
+      <category>membrane-transport</category>
+      <category>membrane-potential</category>
+      <category>bioenergetics</category>
+      <category>cell-biology</category>
+    </item>
+  </channel>
+</rss>

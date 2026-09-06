@@ -5,7 +5,7 @@ excerpt: La evolución es un cambio en la composición genética de las poblacio
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evolution
@@ -19,8 +19,9 @@ related:
   - speciation-mechanisms
   - convergent-evolution-explained
   - cell-types-as-units-of-evolution
+_bodyHash: 5ce0c1e1
 ---
-[La evolución](/en/glossary/evolution) es una propiedad de las poblaciones, no de los individuos. Un organismo no evoluciona a lo largo de su vida; lo que cambia es la frecuencia de cada versión de un gen entre los organismos que forman un grupo reproductor, y cómo se desplaza esa distribución de una generación a la siguiente. La mayoría de los malentendidos habituales — que los linajes tienden hacia la complejidad, que una especie de algún modo convoca la variante que necesita, que la eficacia biológica significa fuerza física — se disuelven en cuanto se devuelve el sujeto de la frase a su sitio.
+[La evolución](/es/glossary/evolution) es una propiedad de las poblaciones, no de los individuos. Un organismo no evoluciona a lo largo de su vida; lo que cambia es la frecuencia de cada versión de un gen entre los organismos que forman un grupo reproductor, y cómo se desplaza esa distribución de una generación a la siguiente. La mayoría de los malentendidos habituales — que los linajes tienden hacia la complejidad, que una especie de algún modo convoca la variante que necesita, que la eficacia biológica significa fuerza física — se disuelven en cuanto se devuelve el sujeto de la frase a su sitio.
 
 El National Human Genome Research Institute define la evolución, en términos genómicos, como el proceso por el cual los organismos vivos cambian con el tiempo mediante cambios en el genoma. La versión de la genética de poblaciones es más estrecha y más útil: un **alelo** es una de dos o más versiones de una secuencia de ADN en una localización genómica dada, y la evolución es un cambio en la frecuencia de cada una de esas versiones a lo largo de las generaciones. Todo lo que sigue desarrolla esa frase.
 
@@ -30,7 +31,7 @@ Una población muy grande, que se aparea al azar y no experimenta selección, mu
 
 ## Cuatro procesos, no uno
 
-Las exposiciones de manual reducen a menudo la evolución a la [selección natural](/en/glossary/natural-selection) sola. Es la simplificación de mayor consecuencia de la disciplina, porque otros tres procesos también cambian las frecuencias alélicas y en ciertas circunstancias dominan.
+Las exposiciones de manual reducen a menudo la evolución a la [selección natural](/es/glossary/natural-selection) sola. Es la simplificación de mayor consecuencia de la disciplina, porque otros tres procesos también cambian las frecuencias alélicas y en ciertas circunstancias dominan.
 
 | Proceso | Qué hace con las frecuencias alélicas | ¿Es predecible la dirección? | Dependencia del tamaño poblacional |
 | --- | --- | --- | --- |

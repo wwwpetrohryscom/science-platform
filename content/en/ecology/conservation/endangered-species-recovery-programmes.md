@@ -5,7 +5,7 @@ excerpt: Releasing animals is not the same as recovering a population. The trans
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - species-recovery
@@ -57,7 +57,7 @@ Neither species is self-sustaining in the sense that a recovered population woul
 
 ## Recovery is not the inverse of extinction risk
 
-The IUCN Green Status of Species was built to measure how far a species sits from a fully recovered state — viable and ecologically functional populations across its pre-impact range — rather than how close it is to disappearing. When the draft framework was tested on 181 species spanning diverse taxa, life histories, biomes and Red List categories, 59 per cent came out as largely or critically depleted, and the relationship between extinction risk and recovery score, while negative, was loose: some species in lower risk categories were assessed as further from recovery than species at higher risk.
+The IUCN Green Status of Species was built to measure how far a species sits from a fully recovered state — viable and ecologically functional populations across its pre-impact range — rather than how close it is to disappearing. When the draft framework was tested on 181 species spanning diverse taxa, life histories, biomes and [Red List](/en/ecology/conservation/species-extinction-risk-assessment) categories, 59 per cent came out as largely or critically depleted, and the relationship between extinction risk and recovery score, while negative, was loose: some species in lower risk categories were assessed as further from recovery than species at higher risk.
 
 The same test quantified how much of that status is attributable to conservation. Only 1.7 per cent of the species examined scored zero across all four impact metrics — conservation legacy, conservation dependence, conservation gain and recovery potential — meaning that for almost all of them, past or projected action was judged to matter. Set against the translocation record, that produces an uncomfortable pairing: intervention is close to ubiquitous among assessed species, while its measured effect sizes remain patchy and its follow-up short.
 

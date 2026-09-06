@@ -1,11 +1,11 @@
 ---
 title: Warum Artenzahlen die Priorisierung im Naturschutz in die Irre führen
-metaTitle: 'Warum Artenzahlen den Naturschutz in die Irre führen'
+metaTitle: Warum Artenzahlen den Naturschutz in die Irre führen
 excerpt: Der Artenreichtum ist die am leichtesten zu berechnende Biodiversitätsmetrik und die schlechteste Grundlage für Priorisierung. Funktionale und phylogenetische Diversität sagen die Leistung von Ökosystemen voraus – und sie widersprechen der Artenzahl häufig.
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - biodiversity
@@ -15,10 +15,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: d2afab04
+_bodyHash: b50026c1
 ---
 
-Der Artenreichtum – die Zahl der unterschiedlichen Arten in einem definierten Gebiet – gehört zu den meistzitierten Maßen für Biodiversität. Als Metrik für die Priorisierung im Naturschutz ist er zugleich unvollständig. Öffentliche Bewertungen der [Europäischen Umweltagentur](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), des [UNEP](https://www.unep.org/explore-topics/ecosystems) und des [IPBES](https://www.ipbes.net/global-assessment) behandeln den Verlust an Biodiversität durchweg als mehr als ein bloßes Problem der Artenzahl.
+Der [Artenreichtum](/de/glossary/species-richness) – die Zahl der unterschiedlichen Arten in einem definierten Gebiet – gehört zu den meistzitierten Maßen für [Biodiversität](/de/glossary/biodiversity). Als Metrik für die Priorisierung im Naturschutz ist er zugleich unvollständig. Öffentliche Bewertungen der [Europäischen Umweltagentur](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), des [UNEP](https://www.unep.org/explore-topics/ecosystems) und des [IPBES](https://www.ipbes.net/global-assessment) behandeln den Verlust an Biodiversität durchweg als mehr als ein bloßes Problem der Artenzahl.
 
 Dieser Text erklärt das Missverhältnis, fasst die Alternativen zusammen und argumentiert, dass der routinemäßige Gebrauch von Artenzahlen als Priorisierungssignal aufgegeben gehört.
 

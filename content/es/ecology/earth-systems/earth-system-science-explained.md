@@ -5,7 +5,7 @@ excerpt: El aire, el agua, el hielo, la roca y la vida suelen estudiarse por sep
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 11
 tags:
   - earth-system
@@ -30,7 +30,7 @@ _bodyHash: 939d279c
 
 Un huracán es un fenómeno meteorológico, el colapso de una pesquería es un problema de ecología y un desplazamiento de la banda de lluvias del Sáhara es una cuestión de climatología. Así estuvieron organizadas las ciencias durante la mayor parte del siglo XX, y funcionó lo bastante bien mientras cada campo se mantuvo dentro de sus propios límites. Dejó de funcionar cuando las preguntas que más interesaba responder —cuánto calentamiento sigue a una emisión dada, si un bosque seguirá absorbiendo carbono, por qué una anomalía térmica del Pacífico altera las lluvias de África oriental— resultaron depender de lo que ocurre *entre* los componentes y no dentro de ninguno de ellos.
 
-La ciencia del sistema Tierra es la respuesta a eso. Trata el [sistema Tierra](/en/glossary/earth-system) como un único objeto acoplado: aire, agua, hielo, roca y suelo, y vida, que intercambian energía y materia de forma continua, con los propios intercambios como objeto primario de estudio. Este artículo es la puerta de entrada al grupo temático de EcoScienceHub sobre el sistema Tierra y expone el marco que utilizan los artículos de apoyo.
+La ciencia del sistema Tierra es la respuesta a eso. Trata el [sistema Tierra](/es/glossary/earth-system) como un único objeto acoplado: aire, agua, hielo, roca y suelo, y vida, que intercambian energía y materia de forma continua, con los propios intercambios como objeto primario de estudio. Este artículo es la puerta de entrada al grupo temático de EcoScienceHub sobre el sistema Tierra y expone el marco que utilizan los artículos de apoyo.
 
 ## Qué estudia realmente este campo
 
@@ -38,7 +38,7 @@ Su objeto no es una lista de componentes, sino el conjunto de acoplamientos entr
 
 **¿Adónde va la energía?** Entra luz solar, sale radiación infrarroja y, entre medias, la energía se almacena, se transporta y se transforma. La contabilidad se trata en los artículos de física aplicada sobre el [balance energético de la Tierra](/es/physics/energy/solar-radiation-and-earth-energy-balance) y la [máquina térmica planetaria](/es/physics/thermodynamics/earth-energy-budget-and-the-second-law); la pregunta propia del sistema Tierra es qué reservorio absorbe el excedente y con qué rapidez se mueve entre unos y otros.
 
-**¿Adónde va la materia?** El carbono, el agua, el nitrógeno, el fósforo y el azufre se desplazan entre reservorios con escalas temporales propias. La gramática común para describir ese movimiento —reservorios, flujos y [tiempo de residencia](/en/glossary/residence-time)— se expone en [los ciclos biogeoquímicos](/es/ecology/earth-systems/biogeochemical-cycles-explained) y se desarrolla en detalle para el carbono, el agua y el nitrógeno.
+**¿Adónde va la materia?** El carbono, el agua, el nitrógeno, el fósforo y el azufre se desplazan entre reservorios con escalas temporales propias. La gramática común para describir ese movimiento —reservorios, flujos y [tiempo de residencia](/es/glossary/residence-time)— se expone en [los ciclos biogeoquímicos](/es/ecology/earth-systems/biogeochemical-cycles-explained) y se desarrolla en detalle para el carbono, el agua y el nitrógeno.
 
 **¿Qué amplifica o amortigua un cambio?** Una perturbación en un componente altera otro, que a su vez altera el primero. Esos bucles —las [retroalimentaciones climáticas](/es/ecology/earth-systems/climate-feedback-mechanisms)— determinan cuánta respuesta produce un empujón dado.
 
@@ -102,7 +102,7 @@ La cuestión relacionada de qué cambios acoplados podrían ser abruptos o difí
 
 ## Por dónde seguir
 
-Los artículos de apoyo de este grupo temático dividen el marco en piezas manejables: los componentes y sus escalas temporales; la lógica común de los ciclos biogeoquímicos y, en particular, los ciclos del carbono, del agua y del nitrógeno; las retroalimentaciones en general y los casos del vapor de agua y del hielo-albedo en detalle; la circulación oceánica, el ENOS y las teleconexiones; la criosfera y la biosfera como participantes activas; y los métodos: las variables climáticas esenciales, los modelos del sistema Tierra, la predecibilidad y los puntos de inflexión.
+Los artículos de apoyo de este grupo temático dividen el marco en piezas manejables: los componentes y sus escalas temporales; la lógica común de los ciclos biogeoquímicos y, en particular, los ciclos del carbono, del agua y del nitrógeno; las retroalimentaciones en general y los casos del vapor de agua y del hielo-albedo en detalle; la [circulación oceánica](/es/glossary/ocean-circulation), el ENOS y las teleconexiones; la criosfera y la biosfera como participantes activas; y los métodos: las variables climáticas esenciales, los modelos del sistema Tierra, la predecibilidad y los puntos de inflexión.
 
 ## Sources
 

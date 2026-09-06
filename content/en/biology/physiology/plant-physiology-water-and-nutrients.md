@@ -4,7 +4,7 @@ excerpt: A tree raises water tens of metres with no moving part, using evaporati
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - plant-physiology
@@ -17,7 +17,7 @@ related:
   - photosynthesis-explained
   - nutrient-availability-and-soil-fertility
 pillar: physiology-explained
-_bodyHash: 39f28670
+_bodyHash: 12d7f510
 ---
 
 A tall tree lifts water tens of metres above the ground continuously, through a network with no valve, no chamber and no moving part, and spends no metabolic energy on the lift itself. The work is done by evaporation at the leaf surface, and the water is not pushed from below but pulled from above, under tension, through a continuous liquid thread. Understanding that one mechanism explains most of the rest of plant water relations, and it is a case where [the general problem of holding a physiological state steady](/en/biology/physiology/physiology-explained) is solved by physics rather than by a pump.
@@ -30,7 +30,7 @@ That framing makes an apparently disparate set of processes one process. Water i
 
 ## The pull, the thread, and what breaks it
 
-Evaporation from the wetted walls of mesophyll cells leaves curved air-water menisci whose surface tension puts the adjoining water under negative pressure. Because water molecules cohere by hydrogen bonding and adhere to the hydrophilic walls of narrow xylem conduits, that tension is transmitted downwards through unbroken columns to the roots. This is the cohesion-tension mechanism, and it has an uncomfortable implication: sap in a transpiring plant is under negative absolute pressure, a metastable state in which the liquid is technically liable to vaporise.
+Evaporation from the wetted walls of mesophyll cells leaves curved air-water menisci whose surface tension puts the adjoining water under negative pressure. Because water molecules cohere by hydrogen bonding and adhere to the hydrophilic walls of narrow xylem conduits, that tension is transmitted downwards through unbroken columns to the roots. This is the [cohesion-tension](/en/glossary/cohesion-tension) mechanism, and it has an uncomfortable implication: sap in a transpiring plant is under negative absolute pressure, a metastable state in which the liquid is technically liable to vaporise.
 
 The theory was seriously contested. Direct pressure-probe measurements in the 1990s recorded much lower tensions than cohesion-tension required, alternative mechanisms for sap ascent were proposed, and the argument was live enough that a 1999 assessment in *Trends in Plant Science* was written to adjudicate it. Its conclusion was that the inferences from the probe work had been premature, and that new direct measurements of xylem pressure supported both cohesion-tension and the earlier indirect measurements. The episode is a useful reminder that a technique which appears to measure the quantity of interest can be measuring something adjacent to it.
 

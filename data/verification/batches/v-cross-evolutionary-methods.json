@@ -1,0 +1,84 @@
+{
+  "batchId": "v-cross-evolutionary-methods",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used.",
+  "articles": [
+    {
+      "slug": "molecular-clocks-and-divergence-dating",
+      "path": "content/en/biology/taxonomy/molecular-clocks-and-divergence-dating.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "Because times and rates are confounded, posterior time estimates will not approach point values even with infinite sequence data", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4380039/", "disposition": "verified" },
+        { "claim": "Uncertainty partitions into branch-length sampling error, rate variation among lineages and loci, and fossil calibration uncertainty", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4380039/", "disposition": "verified" },
+        { "claim": "With calibrations fixed, analysing multiple loci or site partitions is the most effective route to precision", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4380039/", "disposition": "verified" },
+        { "claim": "A fossil gives a minimum age and rarely a maximum, so calibration priors encode a judgement", "sourceChecked": "not quoted from a source read in this pass", "disposition": "qualified", "note": "Standard practice, stated without attribution; the cited paper establishes that calibration uncertainty is one of the three sources, not this characterisation of it." },
+        { "claim": "A relaxed clock produces more honest intervals rather than narrower ones", "sourceChecked": "inference from the cited partition of uncertainty", "disposition": "qualified", "note": "Our reading, written as a consequence rather than a quotation." }
+      ]
+    },
+    {
+      "slug": "dna-barcoding-and-its-limits",
+      "path": "content/en/biology/taxonomy/dna-barcoding-and-its-limits.md",
+      "status": "amended",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "Success rates are significantly lower for recently diverged species (~75%) than for older species (~97%), P<0.00001", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3260286/", "disposition": "verified" },
+        { "claim": "Fewer than 20% of described invertebrate species have sequence records in public repositories", "sourceChecked": "search summary only", "disposition": "removed", "note": "The figure came from a search summary of a paper we did not open. The article states that coverage is far from complete and worst for invertebrates, without a percentage." },
+        { "claim": "Incomplete lineage sorting, continuing gene flow and insufficient accumulated substitutions explain the failure in recent divergences", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3260286/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC4380039/", "disposition": "qualified", "note": "The mechanisms are standard and consistent with both sources; they are not quoted from either." },
+        { "claim": "One hybridisation event can move a whole mitochondrial genome between species permanently", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Stated as a property of a uniparentally inherited marker, without a case or a rate." }
+      ]
+    },
+    {
+      "slug": "environmental-dna-and-what-it-detects",
+      "path": "content/en/biology/taxonomy/environmental-dna-and-what-it-detects.md",
+      "status": "amended",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "eDNA surveys have a high false negative rate at low concentrations of the genetic marker", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624909/", "disposition": "verified" },
+        { "claim": "At 10 copies per litre, 97% of PCR replicates contain zero target marker copies", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624909/", "disposition": "verified" },
+        { "claim": "Sensitivity can be increased by sample volume, sample number and PCR replicates, and increasing volume yields the greatest gain", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624909/", "disposition": "verified" },
+        { "claim": "At high densities of African jewelfish 3-5 L gives >95% detection probability, while at low densities more than 100 L is needed", "sourceChecked": "search summary only", "disposition": "qualified", "note": "The specific species and volumes came from a search summary of a paper we did not open. The article states the pattern — a few litres at high density, more than a hundred at low — without naming the species or presenting it as a quoted result." },
+        { "claim": "Persistence is longest in solid abiotic substrates, shorter in biotic substrates, shortest in water, and degradation is fastest when warm and wet", "sourceChecked": "search summary only", "disposition": "qualified", "note": "Stated qualitatively without figures; the ordering came from a summary rather than a page we read." },
+        { "claim": "PCR inhibition by humic substances produces false negatives invisible without internal controls", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624909/", "disposition": "qualified", "note": "Inhibition is named in the source's list of false-negative causes; the humic-substance mechanism and the internal-control remedy are ours." }
+      ]
+    },
+    {
+      "slug": "horizontal-gene-transfer-and-the-tree",
+      "path": "content/en/biology/evolution/horizontal-gene-transfer-and-the-tree.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "The rate of gene gain and loss is comparable to the rate of point mutations and much greater than the duplication rate", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4962295/", "disposition": "verified" },
+        { "claim": "In all analysed groups of microbes, the rate of gene gain exceeds the duplication rate by at least an order of magnitude", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4962295/", "disposition": "verified" },
+        { "claim": "There is considerable orderliness among thousands of trees in the microbial phylogenetic forest, and the consensus topology explains nearly 40% of the variance", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4962295/", "disposition": "verified" },
+        { "claim": "The statistical tree of life represents the central current of microbial genome evolution", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4962295/", "disposition": "verified" },
+        { "claim": "Core informational genes transfer rarely because they interact with many partners; metabolic and niche-specific genes transfer readily", "sourceChecked": "not quoted from the page read in this pass", "disposition": "qualified", "note": "The complexity hypothesis is standard and consistent with the review's argument; it is stated without attribution or figures." }
+      ]
+    },
+    {
+      "slug": "metagenome-assembled-genomes-and-their-quality",
+      "path": "content/en/biology/biotechnology/metagenome-assembled-genomes-and-their-quality.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "High-quality draft: >90% complete, <5% contamination, encoding 23S, 16S and 5S rRNA genes and tRNAs for at least 18 of 20 amino acids", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6436528/", "disposition": "verified" },
+        { "claim": "Medium-quality draft: completeness >=50% with <10% contamination; low-quality: <50% complete with <10% contamination", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6436528/", "disposition": "verified" },
+        { "claim": "Finished requires a single validated contiguous sequence per replicon without gaps or ambiguities at Q50 or better", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6436528/", "disposition": "verified" },
+        { "claim": "Completeness and contamination are estimated from single-copy marker genes, so reduced genomes are penalised and same-species contamination is invisible", "sourceChecked": "not quoted from the page read in this pass", "disposition": "qualified", "note": "The marker-gene method is named in the search summary and is standard; the two failure modes are our analysis." },
+        { "claim": "rRNA operons are hard to assemble from short reads because they are conserved and multi-copy", "sourceChecked": "corpus cross-reference: content/en/biology/biotechnology/bioinformatics-explained.md, already verified on repeat collapse", "disposition": "qualified", "note": "Applied from an existing verified article about assembly graphs and repeats." }
+      ]
+    },
+    {
+      "slug": "what-experimental-evolution-can-show",
+      "path": "content/en/biology/evolution/what-experimental-evolution-can-show.md",
+      "status": "clean",
+      "claimsChecked": 4,
+      "findings": [
+        { "claim": "Gene gain exceeds the duplication rate by at least an order of magnitude, so a single-lineage experiment understates community-level change", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4962295/", "disposition": "verified" },
+        { "claim": "Natural selection follows deductively from variation, heritability and association with reproductive success", "sourceChecked": "corpus cross-reference: content/en/biology/evolution/natural-selection-and-adaptation.md, already verified", "disposition": "qualified", "note": "Carried from an existing verified article." },
+        { "claim": "Resistance mechanisms proposed from sequence data are produced in the laboratory and found in clinical isolates", "sourceChecked": "corpus cross-reference: content/en/biology/evolution/antibiotic-resistance-evolution-mechanisms.md, already verified", "disposition": "qualified", "note": "Carried from an existing verified article rather than re-sourced." },
+        { "claim": "Tens of thousands of generations is a great deal for a laboratory and very little for a phylum", "sourceChecked": "not sourced", "disposition": "qualified", "note": "A framing statement with no figure attached to any specific experiment." }
+      ]
+    }
+  ]
+}

@@ -5,8 +5,8 @@ excerpt: Regulation is not a thermostat. This pillar sets out what a regulated v
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - homeostasis
   - comparative-physiology
@@ -17,7 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
-_bodyHash: 4cd95e40
+_bodyHash: 87111f9b
 ---
 
 Arterial blood in a healthy person sits between pH 7.35 and 7.45. Nothing in chemistry privileges that band; it is held there because several processes push against each other continuously, and because leaving it disables the enzymes doing the pushing. The band is defended on two clocks at once — the lungs adjust carbon dioxide removal within minutes to hours, while the kidneys reabsorb bicarbonate and excrete fixed acids over days. That is the shape of almost every physiological story: not one mechanism, but several with different time constants, and which one you notice depends on how long you watch.
@@ -44,7 +44,7 @@ Whether that decline reflects changed metabolism, changed exposure to chronic in
 
 ## Size decides which design an organism can afford
 
-Nothing in physiology travels across body sizes for free. Metabolic rate rises with mass, but less than proportionally, so a gram of mouse costs far more to run than a gram of elephant — which is why a mouse is not a small elephant but a differently engineered animal. The exponent describing that relationship has been argued over for a century. A 2003 analysis in *PNAS* covering 619 mammal species from 19 orders, spanning five orders of magnitude in mass and correcting for body temperature, digestive state and phylogeny, found no support for the quarter-power exponent of 3/4 and reported basal metabolic rate scaling as mass to the power 2/3. Field measurements complicate the picture further: doubly labelled water data from 229 terrestrial vertebrate species show scaling slopes that frequently differ from 0.75 and differ between classes.
+Nothing in physiology travels across body sizes for free. [Metabolic rate](/en/biology/physiology/metabolic-scaling-and-body-size) rises with mass, but less than proportionally, so a gram of mouse costs far more to run than a gram of elephant — which is why a mouse is not a small elephant but a differently engineered animal. The exponent describing that relationship has been argued over for a century. A 2003 analysis in *PNAS* covering 619 mammal species from 19 orders, spanning five orders of magnitude in mass and correcting for body temperature, digestive state and phylogeny, found no support for the quarter-power exponent of 3/4 and reported basal metabolic rate scaling as mass to the power 2/3. Field measurements complicate the picture further: doubly labelled water data from 229 terrestrial vertebrate species show scaling slopes that frequently differ from 0.75 and differ between classes.
 
 Those same field data carry the starkest number in comparative energetics. Mammals expend about 12 times, and birds about 20 times, the daily energy of an equivalent-sized reptile. The cost of running warm is not a detail; it is the constraint that organises feeding rate, habitat and life history.
 

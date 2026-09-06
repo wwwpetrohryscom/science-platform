@@ -5,7 +5,7 @@ excerpt: Satellites cannot see most species, but they measure the structure of e
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - remote-sensing
@@ -26,7 +26,7 @@ A satellite passing overhead cannot tell a warbler from a wren, yet it can map t
 
 [Remote sensing](/en/glossary/remote-sensing) gathers information about ecosystems from satellites and aircraft without touching the ground. It does not directly identify most individual species. What it does measure well is the physical state of ecosystems: where habitat is, how much of it remains, and what condition it is in.
 
-The reliable products fall into a handful of families. Sensors map land cover and land-cover change, track forest extent and forest loss, and gauge vegetation greenness and productivity through indices such as NDVI. They detect surface water and wetlands, record fire, and — where lidar instruments are involved — resolve the three-dimensional structure of a forest canopy. These observations sit squarely within the ecosystem-structure class of the [Essential Biodiversity Variables](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring), the dimension that ground surveys alone cannot scale to cover.
+The reliable products fall into a handful of families. Sensors map [land cover](/en/ecology/earth-observation/land-cover-change-detection) and land-cover change, track forest extent and forest loss, and gauge vegetation greenness and productivity through indices such as NDVI. They detect surface water and wetlands, record fire, and — where lidar instruments are involved — resolve the three-dimensional structure of a forest canopy. These observations sit squarely within the ecosystem-structure class of the [Essential Biodiversity Variables](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring), the dimension that ground surveys alone cannot scale to cover.
 
 ## The programmes that make it possible
 

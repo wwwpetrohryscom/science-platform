@@ -1,6 +1,6 @@
 ---
 title: 'Limites et incertitude de la télédétection : lire honnêtement les données satellitaires'
-metaTitle: 'Limites et incertitude de la télédétection'
+metaTitle: Limites et incertitude de la télédétection
 excerpt: Les données satellitaires sont puissantes mais jamais parfaites. Voici les limites structurelles de la télédétection — compromis de résolution, nuages, pixels mixtes, mesure indirecte et dérive des capteurs — et les pratiques de validation qui gardent ces produits honnêtes.
 type: expert
 author: climate-research-desk
@@ -17,6 +17,7 @@ related:
   - land-cover-change-detection
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
+_bodyHash: c533fe00
 ---
 La mesure satellitaire est indispensable aux sciences de l'environnement, et elle est pourtant bornée d'une manière qui compte pour la façon de lire ses résultats. Une carte ou une série temporelle dérivée de l'orbite porte toujours des hypothèses, des lacunes et des erreurs que la bonne pratique explicite au lieu de les masquer. Cet article expose les principales limites structurelles de [ce qu'est la télédétection](/fr/ecology/earth-observation/what-is-remote-sensing) et la validation qui rend les produits dignes de confiance ; le contexte plus large se trouve dans notre pôle [observation de la Terre et télédétection](/fr/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 
@@ -30,7 +31,7 @@ Les capteurs optiques et thermiques observent la surface à travers l'atmosphèr
 
 ## Un pixel est rarement une seule chose
 
-La structure en grille de l'imagerie satellitaire introduit sa propre ambiguïté. Parce que chaque cellule de ces [données raster](/en/glossary/raster-data) couvre une parcelle de sol de taille finie, un pixel unique recouvre souvent plusieurs types de surface, et sa valeur enregistrée est un mélange de tous. Un pixel étiqueté « forêt » peut contenir en réalité des clairières, du sol nu ou de l'eau à côté des arbres. Toute grandeur estimée à partir de ce pixel hérite du mélange : le nombre décrit une moyenne sur ce que la cellule contenait, non un échantillon pur d'un seul type de couverture. Cet effet de pixel mixte est le plus marqué là où le paysage est finement structuré par rapport à la taille du pixel, et il se propage dans chaque estimation en aval.
+La structure en grille de l'imagerie satellitaire introduit sa propre ambiguïté. Parce que chaque cellule de ces [données raster](/fr/glossary/raster-data) couvre une parcelle de sol de taille finie, un pixel unique recouvre souvent plusieurs types de surface, et sa valeur enregistrée est un mélange de tous. Un pixel étiqueté « forêt » peut contenir en réalité des clairières, du sol nu ou de l'eau à côté des arbres. Toute grandeur estimée à partir de ce pixel hérite du mélange : le nombre décrit une moyenne sur ce que la cellule contenait, non un échantillon pur d'un seul type de couverture. Cet effet de pixel mixte est le plus marqué là où le paysage est finement structuré par rapport à la taille du pixel, et il se propage dans chaque estimation en aval.
 
 ## Les satellites mesurent des indicateurs indirects, pas la chose elle-même
 
@@ -42,7 +43,7 @@ Une longue série environnementale est rarement l'œuvre d'un seul instrument in
 
 ## Comment les produits honnêtes traitent leur propre erreur
 
-En raison de tout ce qui précède, un produit satellitaire crédible rapporte ses limites plutôt que de présenter un chiffre exact unique. La validation est la pratique qui rend cela possible. Les valeurs restituées sont comparées à des données de référence indépendantes — [vérité terrain](/en/glossary/ground-truthing) de terrain, sites de suivi instrumentés et imagerie à plus haute résolution — pour vérifier dans quelle mesure l'inférence fondée sur un modèle correspond à la réalité. Pour les cartes classées, cette comparaison est formalisée par l'évaluation de l'exactitude, qui caractérise la fréquence à laquelle les catégories sont correctement attribuées. Les fournisseurs publient ensuite l'incertitude qui en résulte à côté des données, avec des indicateurs de qualité et des réserves documentées, et la structure et le contenu des [produits de données d'observation de la Terre](/fr/ecology/earth-observation/earth-observation-data-products) reflètent cela. Des ressources comme [NASA Earthdata](https://www.earthdata.nasa.gov/) documentent la qualité des produits et leurs indicateurs, et la littérature évaluée par les pairs de [Remote Sensing](https://www.mdpi.com/journal/remotesensing) développe les méthodes d'analyse d'erreur derrière ces rapports. Lire honnêtement les données satellitaires, c'est utiliser ces incertitudes déclarées, non les ignorer.
+En raison de tout ce qui précède, un produit satellitaire crédible rapporte ses limites plutôt que de présenter un chiffre exact unique. La validation est la pratique qui rend cela possible. Les valeurs restituées sont comparées à des données de référence indépendantes — [vérité terrain](/fr/glossary/ground-truthing) de terrain, sites de suivi instrumentés et imagerie à plus haute résolution — pour vérifier dans quelle mesure l'inférence fondée sur un modèle correspond à la réalité. Pour les cartes classées, cette comparaison est formalisée par l'évaluation de l'exactitude, qui caractérise la fréquence à laquelle les catégories sont correctement attribuées. Les fournisseurs publient ensuite l'incertitude qui en résulte à côté des données, avec des indicateurs de qualité et des réserves documentées, et la structure et le contenu des [produits de données d'observation de la Terre](/fr/ecology/earth-observation/earth-observation-data-products) reflètent cela. Des ressources comme [NASA Earthdata](https://www.earthdata.nasa.gov/) documentent la qualité des produits et leurs indicateurs, et la littérature évaluée par les pairs de [Remote Sensing](https://www.mdpi.com/journal/remotesensing) développe les méthodes d'analyse d'erreur derrière ces rapports. Lire honnêtement les données satellitaires, c'est utiliser ces incertitudes déclarées, non les ignorer.
 
 ## Sources
 

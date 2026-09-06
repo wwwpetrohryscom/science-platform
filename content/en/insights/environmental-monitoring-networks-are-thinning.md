@@ -1,12 +1,12 @@
 ---
 title: The observation base for environmental science is contracting where it is least replaceable
-metaTitle: 'Environmental monitoring networks are contracting'
+metaTitle: Environmental monitoring networks are contracting
 excerpt: Station counts can stay flat while the long records inside them disappear. A broken multi-decadal series cannot be reconstructed afterwards, and satellites supplement in-situ measurement rather than replacing it.
 argument: The quantity that makes an environmental record scientifically valuable is its uninterrupted length, and that quantity is being lost faster than headline station counts reveal. Some networks have genuinely grown, so the honest claim is not collapse but a redistribution away from the long series and the under-sampled places that carry the most information.
 category: ecology
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - monitoring
@@ -20,7 +20,7 @@ related:
   - essential-biodiversity-variables-monitoring
   - groundwater-and-aquifer-depletion
   - what-satellites-cannot-see
-_bodyHash: '3e5037'
+_bodyHash: 857ff045
 ---
 
 Slow change is detectable only against a long, consistent record. That is not a preference of the discipline; it is a property of the statistics. A trend in flood frequency, a shift in low-flow behaviour, a change in the timing of a biological event — each requires enough years of comparable observation that the signal separates from interannual noise. And a record has a property no other scientific instrument has: once it is interrupted, the missing years cannot be recovered by any later investment. You can rebuild a station. You cannot rebuild its past.
@@ -35,9 +35,9 @@ The same review documents sharper regional losses: 67 per cent of river gauges i
 
 ## The gauges are not where the variability is
 
-Loss of records is compounded by where the surviving instruments sit. A 2022 analysis in *Nature Sustainability* mapped [32,091 stream gauges against a global river network](https://www.nature.com/articles/s41893-022-00873-0) of 2,896,897 segments draining more than 25 km². Gauges are concentrated disproportionately in large, perennial rivers draining human-occupied watersheds, and are sparse in protected areas and in rivers with non-perennial flow — the two categories most relevant to freshwater conservation and to water security in dry regions.
+Loss of records is compounded by where the surviving instruments sit. A 2022 analysis in *Nature Sustainability* mapped [32,091 stream gauges against a global river network](https://www.nature.com/articles/s41893-022-00873-0) of 2,896,897 segments draining more than 25 km². Gauges are concentrated disproportionately in large, perennial rivers draining human-occupied watersheds, and are sparse in [protected areas](/en/ecology/conservation/conservation-science-explained) and in rivers with non-perennial flow — the two categories most relevant to freshwater conservation and to water security in dry regions.
 
-That is a bias, not merely a gap. Non-perennial rivers are where hydrological variability is greatest and where climate change is expected to alter flow regimes most sharply. A network optimised for water supply management in settled basins is not the network you would design to detect environmental change, and the two purposes have been quietly conflated for decades. Related consequences for aquifers, where the in-situ well record is even patchier, are covered in the explainer on [groundwater and aquifer depletion](/en/ecology/freshwater/groundwater-and-aquifer-depletion).
+That is a bias, not merely a gap. Non-perennial rivers are where hydrological variability is greatest and where [climate change](/en/ecology/climate-change/what-is-climate-change) is expected to alter flow regimes most sharply. A network optimised for water supply management in settled basins is not the network you would design to detect environmental change, and the two purposes have been quietly conflated for decades. Related consequences for aquifers, where the in-situ well record is even patchier, are covered in the explainer on [groundwater and aquifer depletion](/en/ecology/freshwater/groundwater-and-aquifer-depletion).
 
 ## Separating what is documented from what is asserted
 
@@ -61,7 +61,7 @@ That is a capacity map rather than a decline curve, and it should not be quoted 
 
 The standard rebuttal is that satellites have made ground networks redundant. They have not, for three reasons that follow from the physics rather than from budgets.
 
-Sensors measure what they can reach. NASA's SMAP mission maps soil moisture at [36 km resolution every two to three days](https://smap.jpl.nasa.gov/observatory/overview/), and what its radiometer retrieves is surface soil moisture — the top few centimetres, not the root zone, and not the deep store that governs drought persistence. Optical instruments cannot see through cloud or beneath a canopy; gravimetry integrates all water in a column without separating groundwater from soil moisture, snow and surface water.
+Sensors measure what they can reach. NASA's SMAP mission maps [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers) at [36 km resolution every two to three days](https://smap.jpl.nasa.gov/observatory/overview/), and what its radiometer retrieves is surface soil moisture — the top few centimetres, not the root zone, and not the deep store that governs drought persistence. Optical instruments cannot see through cloud or beneath a canopy; gravimetry integrates all water in a column without separating groundwater from soil moisture, snow and surface water.
 
 Orbital records are also short. Satellite gravimetry began with [the GRACE mission launched in March 2002](https://grace.jpl.nasa.gov/mission/grace-fo/), continued by GRACE-FO from May 2018 — roughly two decades against hydrological and cryospheric changes that operate over many more. And a satellite product is a retrieval: a modelled quantity inferred from measured radiances via an algorithm that must be calibrated and validated against ground truth, a dependency examined in [the limits of remote sensing](/en/ecology/earth-observation/remote-sensing-limitations-and-uncertainty) and, from the sensor side, in the companion insight on [what satellites cannot see](/en/insight/what-satellites-cannot-see). Thinning the in-situ network degrades the satellite record too, because it removes the reference against which the retrieval is checked.
 

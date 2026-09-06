@@ -5,7 +5,7 @@ excerpt: Because no single number captures biodiversity, monitoring distils the 
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - biodiversity-indicators
@@ -24,7 +24,7 @@ readingTime: 5
 
 ## What an indicator is, and why several are needed
 
-A [biodiversity indicator](/en/glossary/biodiversity-indicator) is a measurement that compresses one dimension of biodiversity change into a signal that can be tracked over time. An indicator earns its place by meeting two conditions: it has a clear interpretation, so readers know what a rise or fall means, and it can be measured consistently across years and places, so a trend reflects nature rather than a change in method. This is the same logic that underlies climate indicators such as surface temperature or sea level.
+A [biodiversity indicator](/en/glossary/biodiversity-indicator) is a measurement that compresses one dimension of biodiversity change into a signal that can be tracked over time. An indicator earns its place by meeting two conditions: it has a clear interpretation, so readers know what a rise or fall means, and it can be measured consistently across years and places, so a trend reflects nature rather than a change in method. This is the same logic that underlies [climate indicators](/en/ecology/climate-change/carbon-cycle-feedbacks) such as surface temperature or [sea level](/en/ecology/climate-change/sea-level-rise-indicators).
 
 The reason monitoring relies on several indicators rather than one is that each answers a different question. Extinction risk, population abundance, and habitat area are related but not equivalent: they can move at different rates, and in a given region they may even move in opposite directions for a time. A landscape can lose individuals while keeping its species list, or shift in composition while its overall extent holds steady. Collapsing these into a single number would hide exactly the trade-offs that conservation decisions turn on, which is why the [IPBES Global Assessment](https://www.ipbes.net/global-assessment) frames the state of biodiversity through a set of complementary measures.
 
@@ -47,7 +47,7 @@ The practical value is traceability. When an indicator is anchored to a defined 
 
 ## How an indicator is constructed
 
-The defining operation of any indicator is aggregation: many underlying measurements are combined into one trackable value. The Red List Index aggregates risk categories across the species in a group; the Living Planet Index averages population trends across many monitored populations; habitat metrics sum or compare areas of land cover.
+The defining operation of any indicator is aggregation: many underlying measurements are combined into one trackable value. The Red List Index aggregates risk categories across the species in a group; the Living Planet Index averages population trends across many monitored populations; habitat metrics sum or compare areas of [land cover](/en/ecology/earth-observation/land-cover-change-detection).
 
 Because aggregation is where information is both gained and lost, good practice is to be explicit about three things — what is being aggregated, which taxonomic group it covers, and which region it represents. An indicator labelled for birds in one region should not be read as a statement about all life everywhere. The reporting standards used under the [Convention on Biological Diversity](https://www.cbd.int/) and the methodological synthesis in the IPBES assessment both stress this kind of transparency, so that a published trend can be interpreted against its actual scope.
 

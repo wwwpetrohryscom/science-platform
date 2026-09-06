@@ -5,7 +5,7 @@ excerpt: Der größte Teil des Kohlenstoffs der Erde steckt im Gestein und beweg
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle
@@ -18,8 +18,9 @@ related:
   - biosphere-climate-interactions
   - earth-system-tipping-points
 pillar: earth-system-science-explained
+_bodyHash: 6d000b9d
 ---
-Es gibt zwei [Kohlenstoffkreisläufe](/en/glossary/carbon-cycle), die nebeneinander mit Geschwindigkeiten laufen, die sich um rund sieben Größenordnungen unterscheiden, und fast jede Verwirrung über Kohlenstoff entsteht daraus, sie als einen zu behandeln. Dieser Artikel trennt sie und verfolgt dann die menschliche Störung durch den schnellen. Beide sind Bestandteile des gekoppelten Systems, das [die Einführung in die Erdsystemwissenschaft](/de/ecology/earth-systems/earth-system-science-explained) darlegt.
+Es gibt zwei [Kohlenstoffkreisläufe](/de/glossary/carbon-cycle), die nebeneinander mit Geschwindigkeiten laufen, die sich um rund sieben Größenordnungen unterscheiden, und fast jede Verwirrung über Kohlenstoff entsteht daraus, sie als einen zu behandeln. Dieser Artikel trennt sie und verfolgt dann die menschliche Störung durch den schnellen. Beide sind Bestandteile des gekoppelten Systems, das [die Einführung in die Erdsystemwissenschaft](/de/ecology/earth-systems/earth-system-science-explained) darlegt.
 
 Der ergänzende Artikel über [Rückkopplungen im Kohlenstoffkreislauf](/de/ecology/climate-change/carbon-cycle-feedbacks) behandelt, was mit den Senken bei fortgesetzter Erwärmung geschieht; hier geht es um die vorgelagerte Frage, wie der Kreislauf arbeitet, wenn er sich normal verhält.
 
@@ -29,7 +30,7 @@ Das mit Abstand größte Kohlenstoffreservoir ist Sedimentgestein. Das Earth Obs
 
 Kohlenstoff gelangt durch die Verwitterung von Silikatmineralen ins Gestein, die atmosphärisches CO₂ verbraucht und gelöstes Karbonat in den Ozean liefert, wo Organismen und Chemie es als Sediment ausfällen. Er kehrt durch Vulkanismus und Metamorphose zurück. Die NASA beschreibt einen vollen Umlauf als 100 bis 200 Millionen Jahre dauernd, wobei in der Größenordnung von 10 bis 100 Millionen Tonnen Kohlenstoff jährlich durch diese Schleife wandern und Vulkane zwischen 130 und 380 Millionen Tonnen CO₂ pro Jahr beitragen.
 
-Der langsame Kreislauf wirkt auf geologischen Zeitskalen als Thermostat: wärmere, feuchtere Bedingungen beschleunigen die Verwitterung, die CO₂ entzieht und den Planeten kühlt. Das ist eine echte dämpfende [Rückkopplung](/en/glossary/climate-feedback) der Art, die [Klimarückkopplungsmechanismen](/de/ecology/earth-systems/climate-feedback-mechanisms) beschreiben — und sie ist zugleich viel zu langsam, um auf irgendetwas auf menschlicher Zeitskala zu reagieren.
+Der langsame Kreislauf wirkt auf geologischen Zeitskalen als Thermostat: wärmere, feuchtere Bedingungen beschleunigen die Verwitterung, die CO₂ entzieht und den Planeten kühlt. Das ist eine echte dämpfende [Rückkopplung](/de/glossary/climate-feedback) der Art, die [Klimarückkopplungsmechanismen](/de/ecology/earth-systems/climate-feedback-mechanisms) beschreiben — und sie ist zugleich viel zu langsam, um auf irgendetwas auf menschlicher Zeitskala zu reagieren.
 
 ## Der schnelle Kreislauf: Luft, Wasser und Leben
 
@@ -53,7 +54,7 @@ Der **luftgetragene Anteil** — der Teil der Emissionen, der in der Atmosphäre
 
 Sie bedeutet nicht, dass die Senken fest wären. Sie bedeutet, dass die Senken bislang ungefähr im Verhältnis zu den Emissionen gewachsen sind: Mit steigendem atmosphärischem CO₂ nimmt der Ozean allein aufgrund der Partialdruckdifferenz mehr auf, und die Vegetation photosynthetisiert etwas schneller. Der IPCC bewertet mit hohem Vertrauen, dass beide Senken in den vergangenen sechs Jahrzehnten weiter gewachsen sind.
 
-Sie bedeutet auch nicht, dass sie das weiterhin tun werden. Jedes Reservoir, das mehr aufnimmt als abgibt, wirkt als [Kohlenstoffsenke](/en/glossary/carbon-sink), und die Kapazität einer Senke ist eine Eigenschaft ihrer Chemie und Biologie, keine Konstante. Dieselbe Bewertung merkt an, dass sich die Kohlenstoffchemie des Ozeans als Reaktion auf die wachsende Senke zu verändern beginnt — auf eine Weise, die die künftige Aufnahme unter mittleren bis hohen Emissionsszenarien voraussichtlich schwächt, auch wenn im Zeitraum 1960–2019 noch kein Abschwächungstrend nachweisbar ist. Die Landaufnahme ist die variablere der beiden und reagiert stark auf Dürre und auf die [ENSO](/de/ecology/earth-systems/el-nino-la-nina-enso-explained)-Phase — ein Grund, weshalb die Landsenke eines einzelnen Jahres wenig über den Trend sagt.
+Sie bedeutet auch nicht, dass sie das weiterhin tun werden. Jedes Reservoir, das mehr aufnimmt als abgibt, wirkt als [Kohlenstoffsenke](/de/glossary/carbon-sink), und die Kapazität einer Senke ist eine Eigenschaft ihrer Chemie und Biologie, keine Konstante. Dieselbe Bewertung merkt an, dass sich die Kohlenstoffchemie des Ozeans als Reaktion auf die wachsende Senke zu verändern beginnt — auf eine Weise, die die künftige Aufnahme unter mittleren bis hohen Emissionsszenarien voraussichtlich schwächt, auch wenn im Zeitraum 1960–2019 noch kein Abschwächungstrend nachweisbar ist. Die Landaufnahme ist die variablere der beiden und reagiert stark auf Dürre und auf die [ENSO](/de/ecology/earth-systems/el-nino-la-nina-enso-explained)-Phase — ein Grund, weshalb die Landsenke eines einzelnen Jahres wenig über den Trend sagt.
 
 ## Wo die Buchführung am schwersten ist
 

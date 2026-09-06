@@ -5,8 +5,8 @@ excerpt: Choosing a sequencing platform is less about headline accuracy than abo
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 7
 tags:
   - dna-sequencing
   - long-read-sequencing
@@ -18,7 +18,7 @@ related:
   - crispr-genome-editing-explained
   - what-is-a-genome
 pillar: biotechnology-explained
-_bodyHash: c696cb97
+_bodyHash: 4a99fbed
 ---
 
 Ask which sequencing platform is most accurate and you get an unhelpful answer, because the platforms fail in different ways. A method that makes rare, scattered substitution errors and a method that makes frequent but predictable errors in a specific sequence context can report the same headline accuracy and be suited to completely different problems. [Read length](/en/glossary/read-length), error shape and cost per base are the three axes that actually decide a project, and they trade against each other. Reading DNA is the capability that made the rest of the [biotechnology toolkit](/en/biology/biotechnology/biotechnology-explained) tractable, and it is also the one whose economics are quoted most often out of context.
@@ -48,7 +48,7 @@ That is the general lesson. When a platform's remaining errors are context-speci
 
 ## Why depth requirements differ so much
 
-Coverage is not a quality setting; it is a statistical requirement derived from what you are trying to detect. For a germline variant present in half or all of the sequenced molecules, moderate depth suffices, and the 30× figure above is the coverage at which the bacterial assemblies in that study reached near-complete coding-sequence recovery. Detecting a variant carried by a small fraction of cells — a subclonal somatic mutation, a minority pathogen in a mixture — requires depth that scales inversely with that fraction, plus an error rate low enough that true signal is distinguishable from background at that frequency. This is why the same instrument can be described as adequate for one application and hopeless for another with no contradiction. The same arithmetic governs [sequencing-based surveys of microbial communities](/en/biology/microbiology/culturing-and-sequencing-microbes), where a taxon's read count reflects primer choice and sequencing depth before it reflects abundance. Sequencing-based assays for [off-target activity in genome editing](/en/biology/biotechnology/crispr-genome-editing-explained) face precisely this problem: the events being counted may be rarer than the platform's own error floor.
+Coverage is not a quality setting; it is a statistical requirement derived from what you are trying to detect. For a germline variant present in half or all of the sequenced molecules, moderate depth suffices, and the 30× figure above is the coverage at which the bacterial assemblies in that study reached near-complete coding-sequence recovery. Detecting a variant carried by a small fraction of cells — a subclonal [somatic mutation](/en/biology/genetics/mutation-types-and-rates), a minority pathogen in a mixture — requires depth that scales inversely with that fraction, plus an error rate low enough that true signal is distinguishable from background at that frequency. This is why the same instrument can be described as adequate for one application and hopeless for another with no contradiction. The same arithmetic governs [sequencing-based surveys of microbial communities](/en/biology/microbiology/culturing-and-sequencing-microbes), where a taxon's read count reflects primer choice and sequencing depth before it reflects abundance. Sequencing-based assays for [off-target activity in genome editing](/en/biology/biotechnology/crispr-genome-editing-explained) face precisely this problem: the events being counted may be rarer than the platform's own error floor.
 
 The reference-genome projects illustrate the upper end. Alongside its long reads, the complete human assembly drew on roughly 100× short-read data and 70× chromosome-conformation data as supporting evidence, together with optical and single-cell strand-specific maps.
 
@@ -66,7 +66,7 @@ What those figures include is production: reagents, instruments, labour, laborat
 
 ## What benchmarking still cannot certify
 
-Accuracy claims rest on reference materials, and those have boundaries. The Genome in a Bottle consortium at the National Institute of Standards and Technology characterises a small set of human samples — a pilot genome and two family trios — and distributes both benchmark variant sets and stratification files that mark difficult territory: homopolymers, tandem repeats, the major histocompatibility complex. Those stratifications exist because performance inside them differs from performance outside, and a benchmark that reports a single genome-wide accuracy figure without them is averaging over that difference.
+Accuracy claims rest on [reference materials](/en/biology/biotechnology/reference-materials-in-genome-measurement), and those have boundaries. The Genome in a Bottle consortium at the National Institute of Standards and Technology characterises a small set of human samples — a pilot genome and two family trios — and distributes both benchmark variant sets and stratification files that mark difficult territory: homopolymers, tandem repeats, the major histocompatibility complex. Those stratifications exist because performance inside them differs from performance outside, and a benchmark that reports a single genome-wide accuracy figure without them is averaging over that difference.
 
 The consequence for reading any claim is narrow and practical. A stated accuracy applies to the regions the benchmark covers, in the sample types it covers, with the analysis pipeline that produced it. Regions excluded from a benchmark are not certified as easy; they are simply not certified.
 

@@ -5,8 +5,8 @@ excerpt: Carbon, water, and nitrogen move through the planet on wildly different
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
-readingTime: 9
+updatedDate: '2026-09-05'
+readingTime: 5
 tags:
   - biogeochemical-cycles
   - residence-time
@@ -17,7 +17,7 @@ related:
   - carbon-cycle-explained
   - global-water-cycle-explained
   - nitrogen-cycle-explained
-_bodyHash: dc68a194
+_bodyHash: 71e4aaa
 pillar: earth-system-science-explained
 ---
 
@@ -27,7 +27,7 @@ Ask why an atom of carbon dioxide matters for centuries while a water molecule i
 
 A [biogeochemical cycle](/en/glossary/biogeochemical-cycle) describes the movement of an element between reservoirs by biological, geological, and chemical processes. Three quantities define it.
 
-A **reservoir** is a place where the element accumulates: the atmosphere, the surface ocean, soil organic matter, living biomass, sedimentary rock. Reservoirs are defined by the question — "soil carbon" may be one reservoir or five depending on the timescale being studied.
+A **reservoir** is a place where the element accumulates: the atmosphere, the surface ocean, soil organic matter, living biomass, sedimentary rock. Reservoirs are defined by the question — "[soil carbon](/en/ecology/soils/soil-science-explained)" may be one reservoir or five depending on the timescale being studied.
 
 A **flux** is a transfer rate between two reservoirs, in mass per unit time. Photosynthesis, respiration, evaporation, and burial are fluxes.
 
@@ -53,9 +53,9 @@ Cycles are not independent. Three couplings recur.
 
 **Stoichiometry.** Organisms build tissue in roughly fixed elemental ratios, so carbon uptake by vegetation is limited by the availability of nitrogen and phosphorus. A model that lets plants absorb carbon without tracking nutrients will overestimate the land sink — which is why interactive nutrient cycles were among the significant additions in modern [Earth system models](/en/ecology/earth-systems/earth-system-models-explained).
 
-**Shared media.** The ocean carries carbon, nitrogen, and oxygen in the same water, so a change in circulation moves all of them together. The IPCC notes that ocean acidification and deoxygenation are both consequences of the same uptake and warming, expressed in different chemistry.
+**Shared media.** The ocean carries carbon, nitrogen, and oxygen in the same water, so a change in circulation moves all of them together. The IPCC notes that [ocean acidification](/en/ecology/oceans/ocean-acidification-explained) and deoxygenation are both consequences of the same uptake and warming, expressed in different chemistry.
 
-**Radiative side effects.** Several cycles emit greenhouse gases as by-products. Nitrous oxide is a nitrogen-cycle product with an atmospheric residence of about 109 ± 10 years, according to the AR6 assessment — long enough that today's agricultural emissions constrain composition well into the next century.
+**Radiative side effects.** Several cycles emit [greenhouse gases](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) as by-products. Nitrous oxide is a nitrogen-cycle product with an atmospheric residence of about 109 ± 10 years, according to the AR6 assessment — long enough that today's agricultural emissions constrain composition well into the next century.
 
 ## Where the numbers are soft
 

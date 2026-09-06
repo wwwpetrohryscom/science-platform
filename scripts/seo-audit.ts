@@ -166,9 +166,27 @@ function main() {
   // know, for every route, whether it is a real page or a 404 rendered
   // at a route with no content in that locale.
   const noindexRoutes = new Set<string>();
+  // Noindex has two meanings on this site and they need separating.
+  //
+  //   `noindex, nofollow` is a page with no content of its own — the
+  //   locale fallback serving an English article under a localized URL.
+  //   A link into one is a link into a dead end.
+  //
+  //   `noindex, follow` is a utility page that is a real destination
+  //   and is deliberately kept out of the index: search results are
+  //   thin without a query and different for every query a crawler
+  //   guesses. Every page on the site links to it on purpose.
+  //
+  // The distinction is already in the markup, so the audit reads it
+  // rather than special-casing a route name.
+  const utilityRoutes = new Set<string>();
   for (const page of pages) {
     const meta = page.html.match(/<meta[^>]+name="robots"[^>]*>/gi) ?? [];
-    if (meta.some((t) => /noindex/i.test(attr(t, "content") ?? ""))) noindexRoutes.add(page.route);
+    const content = meta.map((t) => attr(t, "content") ?? "").join(",");
+    if (/noindex/i.test(content)) {
+      noindexRoutes.add(page.route);
+      if (!/nofollow/i.test(content)) utilityRoutes.add(page.route);
+    }
   }
 
   const titles = new Map<string, string[]>();
@@ -443,6 +461,8 @@ function main() {
     )];
     for (const href of hrefs) {
       if (!noindexRoutes.has(href)) continue;
+      // A deliberate utility page — noindex but follow. See above.
+      if (utilityRoutes.has(href)) continue;
       // A noindex route with an indexable English twin is the locale
       // fallback working as designed: the reader gets the English
       // article plus a notice in their own language, and the page is
@@ -554,6 +574,104 @@ function main() {
         where: page.route,
         message: `${d} clicks from the locale home`,
       });
+    }
+  }
+
+  // --- local assets ------------------------------------------------
+  //
+  // Every asset the rendered HTML names must exist under public/. This
+  // rule exists because two of them did not, on every page of the
+  // site, for as long as the site had existed: `siteConfig.defaultOgImage`
+  // pointed at /og/default.png and the file was never created, so every
+  // page's og:image and twitter:image 404'd; and the footer linked
+  // /rss.xml, which no route or file produced.
+  //
+  // Neither failed anything. A meta tag naming a missing file is valid
+  // HTML, and an <a> to a missing path is a valid link — the existing
+  // link check only walks internal page routes, which is a different
+  // question from whether a static file is there. The absence is only
+  // visible if something looks in public/.
+  const assetRefs = new Map<string, Set<string>>();
+  const ASSET = new RegExp(
+    String.raw`(?:src|href|content)="((?:https?://[^"]*)?/[^"]*\.(?:png|jpe?g|svg|webp|avif|ico|gif|pdf|xml|txt|json|woff2?|css|js))"`,
+    "g",
+  );
+  const origin = siteConfig.url.replace(/\/$/, "");
+  for (const page of pages) {
+    for (const m of page.html.matchAll(ASSET)) {
+      let ref = m[1];
+      if (ref.startsWith("http")) {
+        if (!ref.startsWith(origin)) continue; // third-party, not ours to check
+        ref = ref.slice(origin.length);
+      }
+      // Build output, not a checked-in asset.
+      if (ref.startsWith("/_next/")) continue;
+      assetRefs.set(ref, (assetRefs.get(ref) ?? new Set()).add(page.route));
+    }
+  }
+  for (const [ref, routes] of assetRefs) {
+    const onDisk = path.join(PROJECT_ROOT, "public", ...ref.split("?")[0].split("/").filter(Boolean));
+    if (fs.existsSync(onDisk)) continue;
+    // A path that a rendered page answers is a route, not a file.
+    if (built.has(ref.replace(/\.html$/, ""))) continue;
+    issues.push({
+      severity: "error",
+      rule: "missing-asset",
+      where: ref,
+      message: `referenced by ${routes.size} page(s) — no file at public${ref}`,
+    });
+  }
+
+  // --- live-data claims -------------------------------------------
+  //
+  // Nothing on this site fetches at request time. A static build that
+  // shows a value read by hand last week is not live data, and the
+  // shortest route to dishonesty on a data platform is a page that says
+  // "live", "real-time" or "current as of now" beside a number.
+  //
+  // Checked in the rendered HTML rather than in the source, because the
+  // claim that matters is the one a reader sees. The phrases are matched
+  // in every language the site publishes in.
+  const LIVE_CLAIMS: Array<{ re: RegExp; what: string }> = [
+    { re: /\blive data\b/i, what: "live data" },
+    { re: /\breal[- ]time\b/i, what: "real-time" },
+    { re: /\bupdated (?:live|continuously|in real time)\b/i, what: "updated live" },
+    { re: /\bdonnées en (?:temps réel|direct)\b/i, what: "données en temps réel" },
+    { re: /\bdatos en tiempo real\b/i, what: "datos en tiempo real" },
+    { re: /\bEchtzeitdaten\b/i, what: "Echtzeitdaten" },
+    { re: /\bdados em tempo real\b/i, what: "dados em tempo real" },
+    { re: /данные в реальном времени/i, what: "данные в реальном времени" },
+  ];
+  //
+  // Scoped to the pages that present THIS SITE's data. In article prose
+  // "near-real-time clearing alerts" describes what NASA's system does,
+  // which is true and is not a claim about the numbers on this page —
+  // the first version of this rule reported 71 such sentences, because
+  // it was matching a phrase when the question is whose data is being
+  // described.
+  const DATA_ROUTE = /^\/[a-z]{2}\/data(\/|$)/;
+  for (const page of pages) {
+    if (!DATA_ROUTE.test(page.route)) continue;
+    // The text a reader sees, not the markup.
+    const text = decode(page.html.replace(/<[^>]+>/g, " "));
+    for (const { re, what } of LIVE_CLAIMS) {
+      const m = re.exec(text);
+      if (!m) continue;
+      // A page is allowed to SAY it is not live. That is the honest
+      // form, and it necessarily contains the phrase it is denying.
+      const around = text.slice(Math.max(0, m.index - 90), m.index + 90);
+      const denied =
+        /\bnot\b|\bne sont pas\b|\bno son\b|\bnicht\b|\bnão são\b|\bне обновляются\b/i.test(
+          around,
+        );
+      if (denied) continue;
+      issues.push({
+        severity: "error",
+        rule: "live-data-claim",
+        where: page.route,
+        message: `page claims "${what}" — nothing on this site fetches at request time`,
+      });
+      break;
     }
   }
 

@@ -1,0 +1,88 @@
+{
+  "batchId": "v-cross-nutrients-and-limitation",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used.",
+  "articles": [
+    {
+      "slug": "nutrient-stoichiometry-and-the-redfield-ratio",
+      "path": "content/en/ecology/earth-systems/nutrient-stoichiometry-and-the-redfield-ratio.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "Global median C:P, N:P and C:N ratios of 163, 22 and 6.6, with extensive regional variation", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4421931/", "disposition": "verified" },
+        { "claim": "Redfield identified a mean marine C:N:P of 106:16:1 and matched it to deep-ocean nitrate and phosphate", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4421931/", "disposition": "verified" },
+        { "claim": "Ratios exceed Redfield proportions in subtropical regions and fall below them in high-latitude and equatorial upwelling regions", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4421931/", "disposition": "verified" },
+        { "claim": "Phosphorus is used disproportionately in ribosomes, so fast growth is phosphorus-hungry", "sourceChecked": "standard cell biology; not quoted from a source read in this pass", "disposition": "qualified", "note": "Offered as the mechanism behind the regional pattern, written without a figure and without attribution to a specific study." },
+        { "claim": "Wood holds very little nitrogen or phosphorus, so forests accumulate carbon at a low nutrient cost until supply binds", "sourceChecked": "corpus cross-reference: content/en/ecology/forests/forest-carbon-measurement.md, already verified", "disposition": "qualified", "note": "Carried from existing verified material rather than re-sourced." }
+      ]
+    },
+    {
+      "slug": "the-energy-cost-of-ammonia-synthesis",
+      "path": "content/en/physics/energy/the-energy-cost-of-ammonia-synthesis.md",
+      "status": "amended",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "Ammonia production accounts for around 2% of total final energy consumption and 1.3% of CO2 emissions from the energy system", "sourceChecked": "https://www.iea.org/reports/ammonia-technology-roadmap", "disposition": "verified" },
+        { "claim": "Around 70% of ammonia is used to make fertilisers", "sourceChecked": "https://www.iea.org/reports/ammonia-technology-roadmap", "disposition": "verified" },
+        { "claim": "Around 180 million tonnes of ammonia are made each year", "sourceChecked": "https://www.iea.org/reports/ammonia-technology-roadmap", "disposition": "removed", "note": "The figure is widely cited but does not appear on the page we read. The sentence now says the output is industrial-scale and overwhelmingly fertiliser, with no tonnage." },
+        { "claim": "The nitrogenase reaction is N2 + 8H+ + 8e- + 16 MgATP -> 2NH3 + H2 + 16 MgADP + 16 Pi, and both processes are energy consumptive", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100503/", "disposition": "verified" },
+        { "claim": "Nitrogenase proteins are oxygen sensitive and must be handled anaerobically", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100503/", "disposition": "verified" },
+        { "claim": "Most ammonia hydrogen comes from steam methane reforming, whose CO2 is a product of the chemistry rather than of combustion", "sourceChecked": "process description; the IEA page read here gives the totals rather than the route split", "disposition": "qualified", "note": "Stated as a description of the process with no share attached to it." }
+      ]
+    },
+    {
+      "slug": "nitrogen-fixation-and-its-cost",
+      "path": "content/en/biology/microbiology/nitrogen-fixation-and-its-cost.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "The stoichiometry: 16 MgATP, 8 electrons and 8 protons per N2, producing 2 NH3 and one H2", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100503/", "disposition": "verified" },
+        { "claim": "Nitrogenase is markedly oxygen sensitive and must be worked with anaerobically", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100503/", "disposition": "verified" },
+        { "claim": "16 ATP at ~50 kJ/mol of hydrolysis is roughly 800 kJ per mole of N2", "sourceChecked": "arithmetic, using the hydrolysis figure from https://pmc.ncbi.nlm.nih.gov/articles/PMC12256841/", "disposition": "qualified", "note": "Our conversion, combining two sources; stated as approximate." },
+        { "claim": "The extra two electrons are mechanistically obligatory rather than a catalytic inefficiency", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100503/", "disposition": "qualified", "note": "The H2 appears in the balanced equation the paper gives; the word 'obligatory' is our reading and is hedged as 'thought to be'." },
+        { "claim": "Heterocysts, slime layers, temporal separation and leghaemoglobin-containing nodules are the routes around oxygen sensitivity", "sourceChecked": "standard microbiology; not quoted from a source read in this pass", "disposition": "qualified", "note": "Listed as examples without figures." },
+        { "claim": "Excess nitrogen and phosphorus cause algal blooms; agriculture and stormwater are key contributors", "sourceChecked": "https://www.epa.gov/nutrientpollution/problem", "disposition": "verified" }
+      ]
+    },
+    {
+      "slug": "phosphorus-cycle-explained",
+      "path": "content/en/ecology/earth-systems/phosphorus-cycle-explained.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        { "claim": "Phosphorus is a common constituent of fertilisers, manure and organic wastes; soil and bank erosion are major contributors to streams", "sourceChecked": "https://www.usgs.gov/special-topics/water-science-school/science/phosphorus-and-water", "disposition": "verified" },
+        { "claim": "Excess phosphorus speeds eutrophication; algal overgrowth decreases dissolved oxygen as algae decay, leaving dead zones", "sourceChecked": "https://www.usgs.gov/special-topics/water-science-school/science/phosphorus-and-water", "disposition": "verified" },
+        { "claim": "The United States is the world's leading producer and consumer of phosphate rock", "sourceChecked": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information", "disposition": "verified" },
+        { "claim": "Phosphate rock production and reserve figures by country", "sourceChecked": "https://www.usgs.gov/centers/national-minerals-information-center/phosphate-rock-statistics-and-information", "disposition": "removed", "note": "The overview page carries no figures; they live in linked commodity summaries we did not open. No production or reserve numbers are given in the article." },
+        { "claim": "Phosphorus has no significant atmospheric reservoir and no biological fixation route", "sourceChecked": "the absence of a gas phase; contrasted against the nitrogenase reaction in PMC10100503", "disposition": "qualified", "note": "A structural statement rather than a quoted one; the contrast with nitrogen is sourced." },
+        { "claim": "Legacy phosphorus in soils and lake sediments delays recovery after inputs fall", "sourceChecked": "corpus cross-reference: content/en/ecology/freshwater/lake-ecology-and-eutrophication.md, already verified", "disposition": "qualified", "note": "Carried from an existing verified article." }
+      ]
+    },
+    {
+      "slug": "mycorrhizal-symbiosis-and-nutrient-uptake",
+      "path": "content/en/biology/microbiology/mycorrhizal-symbiosis-and-nutrient-uptake.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "A depletion zone of nutrients develops rapidly around roots, and hyphae extend beyond it to mobilise phosphate from regions roots cannot reach", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6546048/", "disposition": "verified" },
+        { "claim": "Up to 22% of photosynthetically fixed carbon is traded for symbiotic phosphate", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6546048/", "disposition": "verified" },
+        { "claim": "In tomato and flax the mycorrhizal pathway contributed 100% of phosphate acquired; in rice AMF contributes up to 70%", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6546048/", "disposition": "verified" },
+        { "claim": "Hyphae are one to two orders of magnitude thinner than roots", "sourceChecked": "not quoted from a source read in this pass", "disposition": "qualified", "note": "Stated as the geometric reason for the advantage; approximate and unattributed." },
+        { "claim": "Colonisation is suppressed where soil phosphate is abundant", "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6546048/", "disposition": "qualified", "note": "Consistent with the review's framing of a cost-benefit exchange; written without a figure." }
+      ]
+    },
+    {
+      "slug": "nutrient-losses-and-use-efficiency",
+      "path": "content/en/ecology/soils/nutrient-losses-and-use-efficiency.md",
+      "status": "clean",
+      "claimsChecked": 5,
+      "findings": [
+        { "claim": "Soil erosion is a major contributor of phosphorus to streams, including bank erosion during floods", "sourceChecked": "https://www.usgs.gov/special-topics/water-science-school/science/phosphorus-and-water", "disposition": "verified" },
+        { "claim": "Agriculture and stormwater are key contributors of excess nutrients; blooms release toxins that can make people and animals sick", "sourceChecked": "https://www.epa.gov/nutrientpollution/problem", "disposition": "verified" },
+        { "claim": "Ammonia production accounts for around 2% of total final energy consumption", "sourceChecked": "https://www.iea.org/reports/ammonia-technology-roadmap", "disposition": "verified" },
+        { "claim": "Nitrate leaves in drainage and as gas; phosphorus leaves attached to particles in storms", "sourceChecked": "corpus cross-reference: content/en/ecology/soils/nutrient-availability-and-soil-fertility.md, already verified, plus the USGS erosion statement", "disposition": "qualified", "note": "The loss-pathway table in the existing verified article carries the same split; no new figures are introduced here." },
+        { "claim": "No-till can increase preferential flow of nitrate through macropores", "sourceChecked": "not sourced in this pass", "disposition": "qualified", "note": "Stated as a possible negative effect with 'sometimes', not as a general finding, because we did not read a source establishing it." }
+      ]
+    }
+  ]
+}

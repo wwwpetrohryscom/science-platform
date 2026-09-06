@@ -5,7 +5,7 @@ excerpt: Most of Earth's carbon is locked in rock and moves on geological time. 
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - carbon-cycle
@@ -17,7 +17,7 @@ related:
   - earth-system-science-explained
   - biosphere-climate-interactions
   - earth-system-tipping-points
-_bodyHash: cdead43b
+_bodyHash: 114a6130
 pillar: earth-system-science-explained
 ---
 
@@ -55,7 +55,7 @@ The **airborne fraction** — the share of emissions that remains in the atmosph
 
 It does not mean the sinks are fixed. It means the sinks have so far grown roughly in proportion to emissions: as atmospheric CO₂ rises, the ocean absorbs more by simple partial-pressure difference, and vegetation photosynthesises somewhat faster. The IPCC assesses with high confidence that both sinks have continued to grow over the past six decades.
 
-It also does not mean they will continue to. Each reservoir that absorbs more than it releases acts as a [carbon sink](/en/glossary/carbon-sink), and a sink's capacity is a property of its chemistry and biology rather than a constant. The same assessment notes that ocean carbon chemistry is beginning to change in response to the growing sink, in ways expected to weaken future uptake under medium- to high-emissions scenarios, even though no weakening trend is yet detectable in the 1960–2019 record. Land uptake is the more variable of the two, responding strongly to drought and to [ENSO](/en/ecology/earth-systems/el-nino-la-nina-enso-explained) phase — one reason a single year's land sink says little about the trend.
+It also does not mean they will continue to. Each reservoir that absorbs more than it releases acts as a [carbon sink](/en/glossary/carbon-sink), and a sink's capacity is a property of its chemistry and biology rather than a constant. The same assessment notes that [ocean carbon](/en/ecology/oceans/air-sea-gas-exchange) chemistry is beginning to change in response to the growing sink, in ways expected to weaken future uptake under medium- to high-emissions scenarios, even though no weakening trend is yet detectable in the 1960–2019 record. Land uptake is the more variable of the two, responding strongly to drought and to [ENSO](/en/ecology/earth-systems/el-nino-la-nina-enso-explained) phase — one reason a single year's land sink says little about the trend.
 
 ## Where the accounting is hardest
 
@@ -63,7 +63,7 @@ Three parts of the budget are systematically harder than the rest.
 
 **Land-use change fluxes** are the least constrained term, because they require knowing not just how much forest was cleared but what carbon stock it held and what replaced it. The uncertainty on this term is large relative to its size.
 
-**Soil carbon** is a very large reservoir measured to inconsistent depths, and its response to warming involves competing effects — faster decomposition against increased plant input — that are difficult to separate in field data.
+**[Soil carbon](/en/ecology/soils/soil-science-explained)** is a very large reservoir measured to inconsistent depths, and its response to warming involves competing effects — faster decomposition against increased plant input — that are difficult to separate in field data.
 
 **Ocean uptake** is measured by several methods, including surface CO₂ observations, interior inventory changes, and models, and these do not always agree. The uncertainty range quoted above reflects that spread rather than measurement noise on any one method; the ocean's role in absorbing energy as well as carbon is covered in [ocean circulation and climate](/en/ecology/earth-systems/ocean-circulation-and-climate).
 

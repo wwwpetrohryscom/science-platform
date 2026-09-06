@@ -4,7 +4,7 @@ excerpt: Two communities with the same number of species can differ sharply in h
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-06'
 tags:
   - biodiversity
   - species-evenness
@@ -15,11 +15,11 @@ related:
   - why-species-counts-mislead-conservation
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 840f594a
+_bodyHash: 8f1bcd5
 readingTime: 4
 ---
 
-Two communities can hold the same number of species and still describe very different ecological situations. What separates them is how individuals are shared among those species — a property that a simple tally cannot see. Diversity indices were developed to capture that missing dimension, and they remain central to how community change is tracked.
+Two communities can hold the same number of species and still describe very different ecological situations. What separates them is how individuals are shared among those species — a property that a simple tally cannot see. Diversity indices were developed to capture that missing dimension, and they remain central to how community change is tracked. That is taken up separately in [what a species count depends on](/en/ecology/biodiversity/sampling-effort-and-what-a-species-count-depends-on).
 
 ## What evenness adds to a count
 

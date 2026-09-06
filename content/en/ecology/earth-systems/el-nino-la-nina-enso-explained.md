@@ -5,7 +5,7 @@ excerpt: El Niño and La Niña are the two phases of one coupled oscillation. NO
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - enso
@@ -56,11 +56,11 @@ Three consequences propagate outward.
 
 **Rainfall.** The displacement of tropical convection alters precipitation across the Pacific rim, and through atmospheric wave propagation reaches much further — the mechanism covered in [teleconnections](/en/ecology/earth-systems/climate-variability-and-teleconnections).
 
-**The carbon cycle.** The IPCC notes that interannual variability in atmospheric methane is dominated by ENSO cycles, through their effect on biomass burning, wetland emissions, and atmospheric chemistry. Land carbon uptake varies with ENSO for similar reasons, which is why the annual [carbon budget](/en/ecology/earth-systems/carbon-cycle-explained) has a visible ENSO signature.
+**The [carbon cycle](/en/ecology/climate-change/carbon-cycle-feedbacks).** The IPCC notes that interannual variability in atmospheric methane is dominated by ENSO cycles, through their effect on biomass burning, wetland emissions, and atmospheric chemistry. Land carbon uptake varies with ENSO for similar reasons, which is why the annual [carbon budget](/en/ecology/earth-systems/carbon-cycle-explained) has a visible ENSO signature.
 
 ## Prediction, and its ceiling
 
-ENSO is the reason seasonal forecasting works at all. Because the ocean's heat content changes slowly and constrains the atmosphere, an ocean state observed today carries information about atmospheric conditions months ahead — the difference between a forecast that depends on initial conditions and one that depends on slowly varying boundary conditions, discussed in [Earth-system predictability](/en/ecology/earth-systems/earth-system-predictability-explained).
+ENSO is the reason seasonal forecasting works at all. Because the ocean's [heat content](/en/ecology/climate-change/ocean-heat-content-indicators) changes slowly and constrains the atmosphere, an ocean state observed today carries information about atmospheric conditions months ahead — the difference between a forecast that depends on initial conditions and one that depends on slowly varying boundary conditions, discussed in [Earth-system predictability](/en/ecology/earth-systems/earth-system-predictability-explained).
 
 The ceiling on that skill is real. Forecasts issued across the northern spring have systematically lower skill, and the amplitude of an event is harder to predict than its sign. AR6 also projects that variability in ENSO-related rainfall will increase significantly by the second half of the century under mid- and high-emissions scenarios, regardless of whether the amplitude of the sea-surface temperature variability itself changes — a distinction worth preserving, since the two are often reported as one.
 

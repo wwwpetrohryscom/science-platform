@@ -5,7 +5,7 @@ excerpt: 'Naturschutz ist eine angewandte Wissenschaft, die auf einer kausalen F
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - evidence-based-conservation

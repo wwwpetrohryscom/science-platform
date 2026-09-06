@@ -44,6 +44,40 @@ jobs:
       - name: Content rules
         run: npm run content:validate
 
+      # The three editorial policy documents, in every language they
+      # are advertised in. A policy page half in the reader's language
+      # would undercut the claim the page is making, so a partial
+      # translation is an error rather than a page.
+      - name: Editorial policy translations
+        run: npm run editorial:validate
+
+      # The scientific data layer: dataset provenance, indicator
+      # definitions, the ingested series, and the per-locale indicator
+      # bodies. A dataset record with a hole in it is not provenance,
+      # and an indicator without stated limitations is a page that has
+      # left out the part it is most tempted to leave out.
+      - name: Dataset and indicator rules
+        run: npm run data:validate
+
+      # Tool arithmetic, against known values and at the edges. A
+      # calculator without numerical tests is not ready.
+      - name: Scientific tool mathematics
+        run: npm run tools:test
+
+      # Reused prose. content:validate refuses two near-identical
+      # bodies; this refuses a single sentence that was written once
+      # and pasted twice, which the whole-body ratio cannot see.
+      # Quotations are excluded — two articles quoting the same source
+      # are following the sourcing standard, not copying each other.
+      - name: Originality
+        run: npm run content:originality
+
+      # The fidelity rules first, then the corpus they judge. A rule
+      # that has stopped firing looks exactly like a corpus with no
+      # defects, so the rules carry their own injection tests.
+      - name: Translation fidelity rules
+        run: npm run content:translations:test
+
       - name: Translation fidelity
         run: npm run content:translations
 
@@ -69,6 +103,30 @@ jobs:
       - name: Glossary rules
         run: npm run glossary:validate
 
+      # Same reasoning as the translation rules: the linker's guards are
+      # what stop it repeating the photovoltaic-cells bug, and a guard
+      # that has stopped firing is invisible from the corpus alone.
+      - name: Glossary linker guards
+        run: npm run glossary:link:test
+
+      # The internal-linking engine has the worst track record in the
+      # repository: a wrong-sense cross-discipline link, and links
+      # written into citation lists. Both are fixtures here.
+      # Ranking behaviour, checked without a browser — the client
+      # component and the index builder share one scoring module so
+      # that these cases are the real thing.
+      - name: Search ranking guards
+        run: npm run search:test
+
+      # Subtopic depth per locale. Reported, not enforced: the number is
+      # a measure of how much of the corpus a reader can stay inside,
+      # and it moves a wave at a time.
+      - name: Localization depth
+        run: npm run content:depth
+
+      - name: Internal-linking guards
+        run: npm run content:link:test
+
       - name: FAQ rules
         run: npm run faqs:validate
 
@@ -82,6 +140,24 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      # Build artefacts that pages reference: the default Open Graph
+      # image and the per-locale RSS feeds. Both were named by every
+      # page and produced by nothing until the rendered audit's
+      # missing-asset rule was added; regenerating them here keeps the
+      # check honest rather than passing on a stale file.
+      - name: Open Graph image
+        run: npm run og:generate
+
+      - name: RSS feeds
+        run: npm run feed:generate
+
+      # The search index is a committed artefact the browser fetches,
+      # so it is checked rather than regenerated: a change to the corpus
+      # that did not rebuild the index should be visible as a failure,
+      # not silently papered over by CI rebuilding it.
+      - name: Search index is current
+        run: npm run search:check
 
       - name: Sitemap
         run: npm run seo:validate

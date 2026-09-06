@@ -1,13 +1,14 @@
 ---
 title: What is climate change? The mechanism, the evidence, and the open questions
-metaTitle: 'What is climate change? Mechanism, evidence, open questions'
+metaTitle: What is climate change? Mechanism, evidence, open questions
 excerpt: Climate change refers to the long-term shift in Earth's energy balance driven by changes in atmospheric composition. Here's the mechanism, the evidence behind it, and the questions that remain genuinely open.
 type: pillar
 author: climate-research-desk
 publishedDate: '2026-01-22'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
+  - climate-change
   - climate
   - fundamentals
   - greenhouse-effect
@@ -32,7 +33,7 @@ This article walks through all three.
 
 ## The mechanism
 
-Earth receives roughly constant energy from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, carbon dioxide, methane, nitrous oxide, others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight ([NASA Science: Climate Change Evidence](https://science.nasa.gov/climate-change/evidence/)).
+Earth receives roughly constant energy from the sun. To stay at a stable temperature, it must radiate the same amount of energy back to space. Greenhouse gases — water vapor, carbon dioxide, methane, [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained), others — selectively absorb infrared radiation in the wavelengths that would otherwise escape. The energy doesn't disappear; it's re-emitted in all directions, including back toward the surface. The result is a warmer surface than would otherwise be in equilibrium with incoming sunlight ([NASA Science: Climate Change Evidence](https://science.nasa.gov/climate-change/evidence/)).
 
 This effect is not contested. It was characterized in the 19th century, has been measured in laboratories for over a century, and is the only physical explanation consistent with the observed warming pattern. The [IPCC's Sixth Assessment Report](https://www.ipcc.ch/report/ar6/wg1/) describes the human attribution of recent warming as "unequivocal." The greenhouse effect is also why Earth is habitable — without it, the planet would be roughly 33°C colder. The question has never been *whether* greenhouse gases warm the planet. The question is what happens when their concentration changes.
 

@@ -4,7 +4,7 @@ excerpt: Respiration is usually taught as a sequence of pathways to memorise. Re
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - bioenergetics
@@ -17,7 +17,7 @@ related:
   - photosynthesis-explained
   - cell-types-as-units-of-evolution
 pillar: what-is-a-cell
-_bodyHash: 8146b4c2
+_bodyHash: e99626ba
 ---
 
 Glucose is not the point. What a respiring cell extracts from glucose is a supply of electrons held at high energy, and what it does with them is let them fall — in controlled steps, down a potential difference of 1.14 volts, to oxygen. Everything else in the process is bookkeeping around that fall: the pathways that strip electrons off carbon, the membrane that converts their descent into a proton gradient, and the rotary motor that converts the gradient into ATP. Framed that way, several things that look arbitrary in a pathway diagram become necessary, and one very familiar number turns out to be an estimate rather than a stoichiometry. Self-sustenance is the first of the three things [any structure has to do to count as a cell](/en/biology/cells/what-is-a-cell); this is the process that pays for it.
@@ -64,7 +64,7 @@ Why keep any genes at all, given the cost of a parallel transcription and transl
 
 Mitochondria descend from a bacterial endosymbiont within the Alphaproteobacteria, with the Rickettsiales the closest known relatives. That much is well supported. The precise sister group is not: a [2012 review in *Cold Spring Harbor Perspectives in Biology*](https://pmc.ncbi.nlm.nih.gov/articles/PMC3428767/) concluded that despite extensive knowledge of the mitochondrial family tree, the identity of the immediate next of kin remains elusive, and later analyses have continued to move the branch point rather than fix it.
 
-The reduction that followed the symbiosis was drastic — an estimated 1,000 to 3,000 genes lost in the transition from bacterial symbiont to organelle, most transferred to the host nucleus rather than deleted outright. What survives varies enormously: mitochondrial genomes range from about 6 kb in *Plasmodium falciparum* to roughly 11,000 kb in some land plants, and some lineages have gone all the way. Hydrogenosomes and mitosomes are mitochondrion-related organelles that retain the compartment and parts of its biochemistry while lacking mitochondrial DNA entirely, which places a useful floor under any claim about what the organelle is for. It is not, definitionally, a genome-bearing structure. It is a compartment that happens usually to have kept one, and the [cell type it sits inside is itself a unit that evolves](/en/biology/evolution/cell-types-as-units-of-evolution).
+The reduction that followed the symbiosis was drastic — an estimated 1,000 to 3,000 genes lost in the transition from bacterial symbiont to organelle, most transferred to the host nucleus rather than deleted outright. What survives varies enormously: mitochondrial genomes range from about 6 kb in *Plasmodium falciparum* to roughly 11,000 kb in some [land plants](/en/biology/taxonomy/botany-plant-diversity-explained), and some lineages have gone all the way. Hydrogenosomes and mitosomes are mitochondrion-related organelles that retain the compartment and parts of its biochemistry while lacking mitochondrial DNA entirely, which places a useful floor under any claim about what the organelle is for. It is not, definitionally, a genome-bearing structure. It is a compartment that happens usually to have kept one, and the [cell type it sits inside is itself a unit that evolves](/en/biology/evolution/cell-types-as-units-of-evolution).
 
 ## The chain may not be a chain
 

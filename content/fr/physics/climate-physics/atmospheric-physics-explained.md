@@ -5,7 +5,7 @@ excerpt: L'atmosphère porte environ dix tonnes d'air au-dessus de chaque mètre
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - atmospheric-physics
@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
+_bodyHash: a502fae3
 ---
 L'air est ténu, et l'arithmétique le rend concret. La NOAA donne la pression standard au niveau de la mer à 1013,25 hPa, soit le poids d'une colonne portant environ 10,3 tonnes d'air au-dessus de chaque mètre carré de sol. À l'altitude de croisière d'un avion de ligne, à peu près les trois quarts de cette colonne sont déjà sous vous. Ce que cette coquille fait de l'énergie qui la traverse est l'objet de la physique de l'atmosphère, et le résumé le plus utile de son action est un chiffre de transport : un flux vers les pôles culminant à environ cinq pétawatts dans chaque hémisphère en moyenne annuelle.
 
@@ -38,7 +39,7 @@ La température est bien moins docile. Elle décroît dans la troposphère, rest
 
 L'Earth Observatory de la NASA situe l'intensité du rayonnement solaire au sommet de l'atmosphère, sur la face directement présentée au Soleil, à environ 1 360 watts par mètre carré. Répartie sur toute la sphère en rotation, cela devient environ 340 W/m². Là-dessus, environ 29 pour cent sont réfléchis par les nuages, les aérosols et les surfaces claires ; environ 23 pour cent sont absorbés dans l'atmosphère par la vapeur d'eau, les poussières et l'ozone ; et environ 48 pour cent atteignent la surface et y sont absorbés. Quelque 71 pour cent de l'énergie arrivant est donc absorbée, soit près de 240 W/m².
 
-À long terme, la planète doit réémettre autant vers l'espace, et elle le fait presque. Le résidu est petit et il constitue tout le signal anthropique. L'évaluation AR6 du GIEC rapporte un [déséquilibre énergétique terrestre](/en/glossary/earth-energy-imbalance) de 0,50 [0,32 à 0,69] W/m² pour 1971-2006, montant à 0,79 [0,52 à 1,06] W/m² pour 2006-2018, l'absorption de chaleur par l'océan représentant 91 pour cent du changement énergétique total. Le projet CERES de la NASA donne l'ordre de grandeur à environ 0,7 W/m², ce qui, note-t-il, représente 0,3 pour cent du rayonnement solaire absorbé ; sa présentation scientifique n'attache aucune période à ce chiffre, et la grandeur qu'elle suit varie. Détecter trois parties sur mille dans un bilan de cette taille est le problème de mesure central du domaine.
+À long terme, la planète doit réémettre autant vers l'espace, et elle le fait presque. Le résidu est petit et il constitue tout le signal anthropique. L'évaluation AR6 du GIEC rapporte un [déséquilibre énergétique terrestre](/fr/glossary/earth-energy-imbalance) de 0,50 [0,32 à 0,69] W/m² pour 1971-2006, montant à 0,79 [0,52 à 1,06] W/m² pour 2006-2018, l'absorption de chaleur par l'océan représentant 91 pour cent du changement énergétique total. Le projet CERES de la NASA donne l'ordre de grandeur à environ 0,7 W/m², ce qui, note-t-il, représente 0,3 pour cent du rayonnement solaire absorbé ; sa présentation scientifique n'attache aucune période à ce chiffre, et la grandeur qu'elle suit varie. Détecter trois parties sur mille dans un bilan de cette taille est le problème de mesure central du domaine.
 
 La raison pour laquelle la surface se tient bien au-dessus des 255 K qu'impliquerait l'émission de 240 W/m² n'est pas que l'énergie serait stockée sous un couvercle ; c'est que l'altitude depuis laquelle la planète rayonne vers l'espace n'est pas la surface. Cet argument est développé avec soin dans [l'explication de l'effet de serre par la hauteur d'émission](/fr/physics/climate-physics/the-greenhouse-effect-physics).
 

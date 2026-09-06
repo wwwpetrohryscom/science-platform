@@ -1,0 +1,249 @@
+{
+  "batchId": "v-cross-energetics-of-life",
+  "reviewedDate": "2026-09-05",
+  "method": "Source-of-record check at authoring time, then a separate second pass over the drafted text: every numeric and quoted claim re-read against the source page that had been fetched for it, and anything the source did not actually say corrected or cut. This is not the independent-reviewer arrangement used for the older batches — author and checker are the same pass — and the findings below are recorded so that limitation is visible rather than implied.",
+  "articles": [
+    {
+      "slug": "free-energy-and-biological-work",
+      "path": "content/en/physics/thermodynamics/free-energy-and-biological-work.md",
+      "status": "clean",
+      "claimsChecked": 6,
+      "findings": [
+        {
+          "claim": "Standard free energy of ATP hydrolysis is -7.3 kcal/mol; within a cell it is approximately -12 kcal/mol",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK9903/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "At [ATP] = 3 mM, [ADP] = 0.4 mM and [Pi] = 6 mM the hydrolysis free energy is -48 kJ/mol, described as around 50 kJ/mol or 20 kBT under cellular conditions",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12256841/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Single-molecule measurements give at least 2.3 ATP per revolution, and mitochondrial ATP synthases all have eight c-subunits",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12256841/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "-48 kJ/mol is -11.5 kcal/mol, so the two routes agree within a few per cent",
+          "sourceChecked": "arithmetic on the two cited values (48 / 4.184 = 11.47)",
+          "disposition": "qualified",
+          "note": "Unit conversion and the agreement claim are ours, not either source's. Left in because the arithmetic is shown, but it is a derived statement rather than a cited one."
+        }
+      ]
+    },
+    {
+      "slug": "information-and-thermodynamics",
+      "path": "content/en/physics/thermodynamics/information-and-thermodynamics.md",
+      "status": "amended",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "Landauer's principle states that a logically irreversible transformation dissipates at least k_B T ln 2 of heat",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037424/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Rolf Landauer's argument, made in 1961",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037424/",
+          "disposition": "corrected",
+          "note": "The cited paper says the limit 'was theorized by Rolf Landauer in the 60's' and gives no year. 1961 is the conventional citation date for Landauer's IBM Journal paper, but it was not in the source used, so the sentence now attributes the decade to the source rather than asserting a year we had not checked."
+        },
+        {
+          "claim": "A transistor switching in a current processor dissipates several orders of magnitude more than the Landauer figure",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037424/",
+          "disposition": "removed",
+          "note": "The paper makes no comparison to present-day computing hardware. The claim is widely repeated and probably true, but nothing we had read supported it. Replaced with a comparison to the ATP free energy, which is sourced."
+        },
+        {
+          "claim": "At 300 K the bound is 2.87 x 10^-21 J, about 2.9 zeptojoules",
+          "sourceChecked": "https://physics.nist.gov/cgi-bin/cuu/Value?k plus arithmetic",
+          "disposition": "verified",
+          "note": "NIST gives the Boltzmann constant as exactly 1.380649 x 10^-23 J K^-1; 1.380649e-23 x 300 x ln2 = 2.871e-21 J. The pre-existing entropy article carried 2.8 x 10^-21 for the same quantity, which rounds the wrong way; corrected there in the same pass."
+        },
+        {
+          "claim": "First verification by Berut et al. using a colloidal particle in optical tweezers, Nature 483, 187-189 (2012)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037424/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2016 study measured erasure in a bistable mechanical cantilever at effective temperature",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037424/",
+          "disposition": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "atp-and-cellular-energy-budgets",
+      "path": "content/en/biology/cells/atp-and-cellular-energy-budgets.md",
+      "status": "amended",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "Cells in the human body depend on the hydrolysis of 100-150 moles of ATP per day",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK553175/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "100-150 moles a day is roughly 50 to 75 kilograms of ATP",
+          "sourceChecked": "arithmetic on the cited moles and ATP's molar mass",
+          "disposition": "qualified",
+          "note": "The mass figure is our conversion, not the reference's. The text now says so explicitly rather than presenting it as a quoted number."
+        },
+        {
+          "claim": "The body holds only a few grams of ATP at any instant",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK553175/",
+          "disposition": "removed",
+          "note": "The StatPearls page gives an intracellular ATP concentration of 1-10 micromolar, which conflicts with the 3 mM used by the ATP-synthase paper, and we could not resolve which applies. Rather than pick, the standing-stock claim was cut and the point made without it."
+        },
+        {
+          "claim": "The average human cell produces ~10^7-10^8 ATP/s, from 0.3 L O2/min across ~10^13 cells",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4230611/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fibroblasts split glucose about half aerobically at ~30 ATP and half fermentatively at 2 ATP, giving ~16 ATP/glucose",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4230611/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Protein synthesis costs ~2 x 10^12 ATP per proteome doubling, or ~2 x 10^7 ATP/s; keratocyte motility costs ~4 x 10^5 ATP/s",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4230611/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Total yield is 38 ATP per glucose, dropping to 36 when glycolytic NADH enters via a shuttle at the FADH2 level",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK9903/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A resting human runs at about 100 W; Tour de France cyclists average over 400 W on 5000-6000 kcal/d",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4230611/",
+          "disposition": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "metabolic-scaling-and-body-size",
+      "path": "content/en/biology/physiology/metabolic-scaling-and-body-size.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "619 species; interspecific exponent 0.68 and interordinal 0.65, both significantly different from 3/4 and not from 2/3",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC153045/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Max Rubner argued the surface law in the 1880s; Kleiber proposed 3/4 in the 1930s",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4381225/",
+          "disposition": "corrected",
+          "note": "Neither date appears in any source we read. The review dates the surface argument only as 'first proposed approximately 175 years ago' and mentions the 3/4-power law without dating it. The paragraph was rewritten to the sourced statements, and the two personal attributions with decades were dropped."
+        },
+        {
+          "claim": "Log mammalian BMR against log body mass shows significant but slight curvature, increasing r-squared by only 0.003",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4381225/",
+          "disposition": "resourced",
+          "note": "The draft had said 'systematic curvature' with datasets splitting between 2/3 and 3/4, which came from a secondary summary rather than a source we had read. Replaced with the review's own measured statement, which is that the departure is real and small."
+        },
+        {
+          "claim": "Mass-specific scaling slopes of -0.279 for mammals and -0.348 for birds; cultured cells -0.029 to -0.070; hibernation shifts mammals from allometric to isometric",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4381225/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Reviews contrast 'Newtonian' and 'Darwinian' approaches to the exponent",
+          "sourceChecked": "https://royalsocietypublishing.org/rspb/article/289/1985/20221605/",
+          "disposition": "removed",
+          "note": "Taken from a search-result title; the publisher returns 403 and we never read the paper. Cut rather than cited."
+        },
+        {
+          "claim": "BMR is the minimal energy to maintain vital processes at rest, about 60% of total energy expenditure in a sedentary person",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK279077/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2/3 and 3/4 predictions differ by 0.083, a factor of about three over six orders of magnitude of mass",
+          "sourceChecked": "arithmetic (0.75 - 0.667 = 0.083; 10^(6 x 0.0833) = 3.2)",
+          "disposition": "qualified",
+          "note": "Derived by us to give the disagreement a scale; not a figure either source states."
+        }
+      ]
+    },
+    {
+      "slug": "temperature-and-biological-rates",
+      "path": "content/en/biology/physiology/temperature-and-biological-rates.md",
+      "status": "amended",
+      "claimsChecked": 9,
+      "findings": [
+        {
+          "claim": "1,072 thermal responses across 112 traits; 87% fit Boltzmann-Arrhenius; mean activation energy for rises 0.66 +/- 0.05 eV against a reported interspecific value of 0.65 eV",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3127911/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Median 0.55 eV with right-skewed distribution; trait-class means 0.40, 0.69, 0.64 and 0.76 eV; declines average 1.15 +/- 0.39 eV",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3127911/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Q10 is conventionally 2-3 for biological processes",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4580850/",
+          "disposition": "resourced",
+          "note": "The range was written from a secondary summary. A source that states it directly was located and read: 'Q10 varies between 2 and 3 in biological systems', with Q10 defined as the ratio of rates 10 C apart. Now quoted and cited."
+        },
+        {
+          "claim": "Human core temperature is defended at 37 +/- 0.5 C, thermoregulation being the balance of heat generation and loss",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK507838/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Tropical ectotherms sit closer to their thermal optima than temperate ones and are correspondingly more vulnerable",
+          "sourceChecked": "search results only",
+          "disposition": "qualified",
+          "note": "Stated in the article as a reason position on the curve decides the sign of the response, without attaching a figure or attributing it to a named study, because the papers that establish it were not directly read in this pass."
+        }
+      ]
+    },
+    {
+      "slug": "microbial-energy-limits",
+      "path": "content/en/biology/microbiology/microbial-energy-limits.md",
+      "status": "amended",
+      "claimsChecked": 8,
+      "findings": [
+        {
+          "claim": "Maintenance power equivalent to ~4 x 10^-19 J s^-1 cell^-1 in South Pacific Gyre sediments",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585783/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A proposed minimum power limit for microbial life as low as 10^-21 J s^-1 cell^-1",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585783/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A stationary-phase E. coli cell uses on the order of 10^-13 W, six to eight orders of magnitude more",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585783/",
+          "disposition": "removed",
+          "note": "The review makes no comparison to cultured strains and gives no such figure; it came from a secondary summary of a paywalled paper. Replaced with a comparison computed from two sources we did read: 10^7-10^8 ATP/s at ~50 kJ/mol is ~10^-12 W, seven orders of magnitude above the subsurface figure."
+        },
+        {
+          "claim": "Generation times up to several thousands of years; biomass turnover spanning 1,000 to 73,000 years",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585783/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "In ancient sediment cells transition only toward dormancy, making it a dead-end strategy because conditions worsen with burial",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6585783/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Culturomics has recovered many taxa once described as unculturable",
+          "sourceChecked": "corpus cross-reference: content/en/biology/microbiology/culturing-and-sequencing-microbes.md and its own verification batch",
+          "disposition": "qualified",
+          "note": "Carried from an already-verified article in this corpus rather than re-checked against a primary source in this pass."
+        }
+      ]
+    }
+  ]
+}

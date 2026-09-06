@@ -1,0 +1,119 @@
+{
+  "atmospheric-co2": {
+    "name": "Atmosphärische Kohlendioxid-Konzentration",
+    "shortName": "Atmosphärisches CO₂",
+    "definition": "Der Stoffmengenanteil von Kohlendioxid in trockener Luft in der gut durchmischten marinen Grenzschicht, gemittelt über ein globales Netz von Probenahmestandorten und als Kalenderjahresmittel ausgewiesen.",
+    "methodology": "Luft wird in Glaskolben an Standorten gesammelt, die bewusst fernab lokaler Quellen liegen, sowie mit kontinuierlich messenden Analysatoren an Basisobservatorien erfasst. Jede Probe wird gegen eine von der NOAA gepflegte Kalibrierskala gemessen, und die Messreihen der Standorte werden zu einem breitengradgewichteten globalen Mittel für die marine Grenzschicht zusammengeführt. Die veröffentlichte Unsicherheit beschreibt die Streuung dieser Mittelung, nicht die Präzision einer einzelnen Messung.",
+    "unitLabel": "Anteile pro Million, bezogen auf den Stoffmengenanteil in trockener Luft",
+    "limitations": [
+      "Dies ist die Hintergrundkonzentration, bewusst fernab von Städten, Wäldern und Agrarflächen gemessen. Es ist nicht die Konzentration an irgendeinem Ort, an dem tatsächlich ein Mensch steht.",
+      "Ein Stoffmengenanteil ist keine Masse. Die Umrechnung in eine Kohlenstoff- oder CO₂-Masse erfordert die Masse der Atmosphäre und die molaren Massen, und die beiden werden regelmäßig verwechselt.",
+      "Die Konzentration ist das Ergebnis der Emissionen abzüglich der Aufnahme durch Land und Ozean. Ein Jahr mit langsamerem Anstieg kann niedrigere Emissionen oder eine stärkere Senke bedeuten, und die Konzentration allein kann beides nicht voneinander trennen.",
+      "Das jeweils jüngste Jahr ist vorläufig, bis die Standardgase neu kalibriert worden sind."
+    ]
+  },
+  "co2-growth-rate": {
+    "name": "Jährliche Zuwachsrate des atmosphärischen CO₂",
+    "shortName": "CO₂-Zuwachsrate",
+    "definition": "Die Zunahme des global gemittelten Stoffmengenanteils von Kohlendioxid im Verlauf eines Kalenderjahres, von der NOAA aus Differenzen von Dezember zu Dezember berechnet.",
+    "methodology": "Die NOAA berechnet die Zuwachsrate als Differenz zwischen dem global gemittelten Stoffmengenanteil im Dezember und dem Dezember des Vorjahres; das unterdrückt den Jahresgang, ohne dass er modelliert werden muss. Die veröffentlichte Unsicherheit ergibt sich aus der Unsicherheit der beiden jährlichen Endpunkte.",
+    "unitLabel": "Anteile pro Million pro Jahr",
+    "limitations": [
+      "Die Variabilität von Jahr zu Jahr wird von der terrestrischen Kohlenstoffsenke bestimmt, die auf El Niño und auf Dürre reagiert. Ein Jahr mit hoher Zuwachsrate bedeutet in der Regel eine schwache Senke, nicht einen Sprung der Emissionen.",
+      "Dies ist der Zuwachs der Konzentration, nicht der Emissionen. Rund die Hälfte des emittierten CO₂ wird von Land und Ozean aufgenommen, und dieser Anteil ist selbst veränderlich.",
+      "Ein einzelnes Jahr sagt fast nichts aus. Die Größe, die es zu lesen lohnt, ist der über mehrere Jahrzehnte reichende Trend der Zuwachsrate; er ist es, der zeigt, dass sich die Anreicherung beschleunigt."
+    ]
+  },
+  "atmospheric-ch4": {
+    "name": "Atmosphärische Methankonzentration",
+    "shortName": "Atmosphärisches CH₄",
+    "definition": "Der Stoffmengenanteil von Methan in trockener Luft in der marinen Grenzschicht, global gemittelt und als Kalenderjahresmittel ausgewiesen.",
+    "methodology": "Gemessen aus demselben Glaskolben-Netz wie CO₂, gegen die Methan-Kalibrierskala der NOAA, und auf dieselbe Weise gemittelt. Methan wird in Anteilen pro Milliarde angegeben, weil es in etwa einem Zweihundertstel der CO₂-Konzentration vorliegt.",
+    "unitLabel": "Anteile pro Milliarde, bezogen auf den Stoffmengenanteil in trockener Luft",
+    "limitations": [
+      "Methan hat eine atmosphärische Lebensdauer von etwa einem Jahrzehnt; seine Konzentration reagiert daher weit schneller auf Änderungen der Emissionen als die von CO₂ – und kann ebenso fallen wie steigen.",
+      "Die Konzentration identifiziert die Quelle nicht. Feuchtgebiete, Wiederkäuer, Reisanbau, Deponien und die Infrastruktur fossiler Brennstoffe geben alle Methan ab, und sie voneinander zu trennen erfordert Isotopenmessungen, die diese Zeitreihe nicht enthält.",
+      "Methan und CO₂ anhand der Konzentration zu vergleichen, ist bedeutungslos. Sie unterscheiden sich in der Strahlungseffizienz pro Molekül und in der Lebensdauer – genau das zusammenzuführen, ist der Zweck des Treibhausgas-Index."
+    ]
+  },
+  "atmospheric-n2o": {
+    "name": "Atmosphärische Distickstoffmonoxid-Konzentration",
+    "shortName": "Atmosphärisches N₂O",
+    "definition": "Der Stoffmengenanteil von Distickstoffmonoxid in trockener Luft in der marinen Grenzschicht, global gemittelt und als Kalenderjahresmittel ausgewiesen.",
+    "methodology": "Gemessen aus dem Glaskolben-Netz der NOAA gegen die N₂O-Kalibrierskala und gemittelt wie bei den übrigen langlebigen Gasen. Das globale Produkt für die marine Grenzschicht beginnt 2001.",
+    "unitLabel": "Anteile pro Milliarde, bezogen auf den Stoffmengenanteil in trockener Luft",
+    "limitations": [
+      "Die Messreihe beginnt hier 2001, weil zu diesem Zeitpunkt das globale Produkt beginnt, nicht weil Distickstoffmonoxid davor nicht gemessen worden wäre. Längere Messreihen existieren aus Eisbohrkernen und von einzelnen Stationen.",
+      "Distickstoffmonoxid wird vom landwirtschaftlichen Stickstoffeinsatz dominiert, und sein Anstieg ist eine Folge derselben Düngemittelchemie, die den größten Teil der Welt ernährt. Es kann nicht als Indikator für den Energiesektor gelesen werden.",
+      "N₂O hat eine atmosphärische Lebensdauer von über einem Jahrhundert; die Konzentration reagiert daher nur langsam auf Änderungen der Emissionen."
+    ]
+  },
+  "annual-greenhouse-gas-index": {
+    "name": "Jährlicher Treibhausgas-Index der NOAA",
+    "shortName": "AGGI",
+    "definition": "Der direkte Strahlungsantrieb der langlebigen Treibhausgase, ausgedrückt relativ zu seinem Wert von 1990. Ein Index von 1.5 bedeutet, dass der Antrieb das Anderthalbfache dessen beträgt, was er 1990 war.",
+    "methodology": "Gemessene globale Stoffmengenanteile von CO₂, CH₄, N₂O und fünfzehn halogenierten Gasen werden mit veröffentlichten Formeln in Strahlungsantrieb umgerechnet, summiert und durch die Summe für 1990 geteilt. Der Index erbt damit die Genauigkeit der Konzentrationsmessungen und die Genauigkeit der Antriebsformeln, und das sind verschiedene Dinge.",
+    "unitLabel": "dimensionsloser Index, 1990 = 1",
+    "limitations": [
+      "Dies ist ein abgeleiteter Index, keine Messung. Seine Eingangsgrößen sind gemessen; der Schritt von der Konzentration zum Antrieb ist eine Berechnung mit Formeln des Strahlungstransports.",
+      "Er erfasst nur die langlebigen, gut durchmischten Gase. Aerosole, Ozon, Wasserdampf und Veränderungen der Landoberfläche wirken alle als Antrieb auf das Klima, und keines davon steckt in dieser Zahl.",
+      "Ein Antrieb ist keine Temperatur. Die Temperaturreaktion auf einen gegebenen Antrieb hängt von der Klimasensitivität ab und davon, wie viel Wärme der Ozean aufgenommen hat, und dieser Index enthält weder das eine noch das andere.",
+      "Das Bezugsjahr 1990 ist eine Berichtskonvention, gewählt zur Übereinstimmung mit dem Kyoto-Protokoll, kein physikalisch bedeutsamer Nullpunkt."
+    ],
+    "referencePeriod": "1990 = 1"
+  },
+  "global-temperature-anomaly": {
+    "name": "Anomalie der globalen Mitteltemperatur an der Erdoberfläche",
+    "shortName": "Globale Temperaturanomalie",
+    "definition": "Die Differenz zwischen der globalen Mitteltemperatur an der Erdoberfläche für ein Kalenderjahr und dem Mittel der Referenzperiode 1951–1980, wobei die Lufttemperatur über Land mit der Meeresoberflächentemperatur kombiniert wird.",
+    "methodology": "GISTEMP nimmt die Messreihen der Landstationen sowie schiffs- und bojengestützte Meeresoberflächentemperaturen, wandelt jede in eine Anomalie gegenüber ihrer eigenen lokalen Referenzperiode um und interpoliert die Anomalien auf ein globales Gitter. Erst die Arbeit mit Anomalien statt mit absoluten Temperaturen macht es überhaupt möglich, eine Station in großer Höhe und eine Station auf Meereshöhe zusammenzuführen.",
+    "unitLabel": "Grad Celsius relativ zum Mittel der Referenzperiode 1951–1980",
+    "limitations": [
+      "Die Referenzperiode ist eine Festlegung. Ein Wert bezogen auf 1951–1980 ist nicht vergleichbar mit einem Wert bezogen auf 1850–1900 oder 1991–2020, ohne den Versatz zwischen den Referenzperioden zu addieren, und der Unterschied beträgt mehrere Zehntelgrad.",
+      "Unabhängige Auswertungen derselben zugrunde liegenden Beobachtungen unterscheiden sich um einige Hundertstelgrad, vor allem weil sie die nur spärlich beobachtete Arktis unterschiedlich behandeln.",
+      "Ein globales Mittel beschreibt schlecht, was an einem einzelnen Ort tatsächlich erlebt wird. Land erwärmt sich schneller als der Ozean und die hohen Breiten schneller als die Tropen.",
+      "Werte einzelner Jahre werden von El Niño und La Niña bestimmt. Der Trend ist das Signal; das einzelne Jahr ist überwiegend Wetter."
+    ],
+    "referencePeriod": "1951–1980"
+  },
+  "ocean-heat-content-0-2000m": {
+    "name": "Wärmeinhalt des Ozeans, 0–2000 m",
+    "shortName": "Wärmeinhalt des Ozeans",
+    "definition": "Die in den oberen 2000 Metern des Weltozeans gespeicherte Wärme, ausgedrückt als Anomalie in Einheiten von 10²² Joule.",
+    "methodology": "Temperaturprofile, seit 2005 dominiert vom Argo-Float-Netz, werden auf ein globales Gitter übertragen und über Tiefe und Fläche integriert. Der Datenanbieter veröffentlicht zu jedem Jahreswert einen Standardfehler.",
+    "unitLabel": "Einheiten von 10²² Joule",
+    "limitations": [
+      "Die jährliche Zeitreihe für 0–2000 m beginnt 2005, weil die Argo-Abdeckung erst dann dicht genug war, um eine solche Zeitreihe zu tragen. Frühere Schätzungen des ozeanischen Wärmeinhalts existieren, beruhen aber auf einer weit spärlicheren Beobachtungsdichte.",
+      "Der tiefe Ozean unterhalb von 2000 m steckt nicht in dieser Zahl, und auch er erwärmt sich.",
+      "Die Spaltendokumentation des NCEI gibt die Einheit als 10²² Joule an, nennt auf jener Seite aber nicht die Referenzklimatologie; diese Website behauptet daher keine. Die Zeitreihe ist als Änderung brauchbar, nicht als Absolutwert.",
+      "Der Wärmeinhalt des Ozeans ist ein weit besseres Maß für das Energieungleichgewicht des Planeten als die Oberflächentemperatur, weil der größte Teil der überschüssigen Wärme in den Ozean geht – was zugleich bedeutet, dass er langsam reagiert und nicht dazu verwendet werden kann, eine Änderung schnell zu erkennen."
+    ]
+  },
+  "arctic-sea-ice-september-extent": {
+    "name": "Arktische Meereisausdehnung, Septembermittel",
+    "shortName": "Arktisches Meereis (September)",
+    "definition": "Die Fläche des Ozeans nördlich des Äquators, die zu mindestens 15 Prozent von Meereis bedeckt ist, gemittelt über den September – den Monat des jährlichen Minimums.",
+    "methodology": "Passive Mikrowellenradiometer auf polarumlaufenden Satelliten unterscheiden Eis von offenem Wasser anhand ihres sehr unterschiedlichen Emissionsgrades im Mikrowellenbereich. Jede Gitterzelle, deren abgeleitete Konzentration mindestens 15 Prozent beträgt, wird vollständig gezählt; der Monatswert ist das Mittel der Tagesfelder.",
+    "unitLabel": "Millionen Quadratkilometer",
+    "limitations": [
+      "Ausdehnung und Fläche sind verschiedene Größen. Die Ausdehnung zählt eine zu 20 Prozent bedeckte Zelle vollständig; die Fläche zählt ein Fünftel davon. Die eine anzugeben und sie als die andere zu bezeichnen, überschätzt oder unterschätzt das Eis im Sommer erheblich.",
+      "Die Schwelle von 15 Prozent ist eine Konvention. Eine andere Schwelle ergibt aus exakt denselben Satellitendaten eine andere Zahl.",
+      "Die Ausdehnung sagt nichts über Dicke oder Volumen aus, und die Arktis hat anteilig mehr Volumen verloren als Fläche.",
+      "Sommerliche Schmelztümpel auf der Eisoberfläche sehen für ein Mikrowellenradiometer wie offenes Wasser aus, was die sommerlichen Ableitungen nach unten verzerrt.",
+      "Die Messreihe beginnt 1979 mit dem Satellitenzeitalter. Sie ist keine Aussage darüber, wie ungewöhnlich der jüngste Rückgang über längere Zeiträume hinweg ist."
+    ]
+  },
+  "global-mean-sea-level": {
+    "name": "Anomalie des globalen mittleren Meeresspiegels",
+    "shortName": "Globaler mittlerer Meeresspiegel",
+    "definition": "Die Höhe der globalen mittleren Meeresoberfläche relativ zum Beginn der Messreihe der Satellitenaltimetrie, gemessen von Radaraltimetern und gemittelt über den Ozean, den sie erfassen.",
+    "methodology": "Ein Radaraltimeter misst die Laufzeit eines Impulses zur Meeresoberfläche und zurück und erhält so den Abstand von einer genau bekannten Umlaufbahn zum Wasser. Korrekturen werden für die Atmosphäre, die Gezeiten und den Seegang angebracht, und der verbleibende Rest wird über jeden etwa zehntägigen Wiederholzyklus gemittelt. Die Werte hier sind Kalenderjahresmittel dieser Zyklen.",
+    "unitLabel": "Millimeter relativ zum Beginn der Messreihe",
+    "limitations": [
+      "Diese Zeitreihe enthält keine glazial-isostatische Ausgleichsbewegung. Die GIA-Korrektur berücksichtigt, dass das Ozeanbecken nach der letzten Eiszeit langsam seine Form ändert, und fügt rund 0.3 mm pro Jahr hinzu; Zeitreihen, die sie enthalten, weisen aus denselben Messungen einen größeren Trend aus.",
+      "Das Altimeter sieht die polaren Ozeane nicht; „global“ bedeutet daher etwa 66°S bis 66°N.",
+      "Die Messreihe ist aus fünf Missionen zusammengesetzt, und die Versätze zwischen den Missionen werden während der Überlappungszeiträume geschätzt, nicht direkt gemessen.",
+      "Der Meeresspiegelanstieg ist zutiefst ungleichmäßig. Regionale Raten weichen um ein Mehrfaches vom globalen Mittel ab, und was örtlich zählt, schließt auch die Landabsenkung ein, die ein Altimeter nicht sehen kann."
+    ]
+  }
+}

@@ -4,8 +4,8 @@ excerpt: If cell types — not organs or networks — are what selection conserv
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-02-16'
-updatedDate: '2026-05-08'
-readingTime: 5
+updatedDate: '2026-09-05'
+readingTime: 4
 pillar: evolution-explained
 tags:
   - evolution
@@ -15,7 +15,7 @@ tags:
 related:
   - single-cell-evo-devo
   - what-is-a-cell
-_bodyHash: 9a80c44c
+_bodyHash: 5e00bea9
 ---
 
 The standard textbook story of [animal evolution](/en/biology/evolution/evolution-explained) is told in the language of body plans. Bilaterians have body axes; chordates have notochords; vertebrates have spines; mammals have hair. Phyla are defined by structural features. The deep evolutionary tree is read as a sequence of body-plan innovations.
@@ -28,7 +28,7 @@ The classical evolutionary view treats organisms as integrated systems in which 
 
 This view has produced enormous results. It is the basis of the modern synthesis, of Hox-pattern reasoning, of comparative anatomy. It is not wrong. But it has a known limitation: explaining the deep evolutionary persistence of structural features requires positing the persistence of large gene regulatory networks across enormous evolutionary distances, and the mechanisms by which such networks persist are not always clear.
 
-The problem is most acute for animal phyla that diverged 600 to 700 million years ago. The fossil record at that depth is thin, and the molecular evidence has had to do most of the work. The classical view asks us to believe that complex regulatory networks were assembled before the bilaterian split and have been conserved, with modifications, ever since.
+The problem is most acute for [animal phyla](/en/biology/taxonomy/zoology-animal-diversity-explained) that diverged 600 to 700 million years ago. The fossil record at that depth is thin, and the molecular evidence has had to do most of the work. The classical view asks us to believe that complex regulatory networks were assembled before the bilaterian split and have been conserved, with modifications, ever since.
 
 ## The cell-type view
 
@@ -46,7 +46,7 @@ Several persistent puzzles in animal evolution become more tractable under the c
 
 **Cambrian explosion.** The rapid appearance of disparate body plans in the Cambrian becomes less anomalous if the underlying cell-type toolkit was already substantially in place. Body plans diversified rapidly because the building blocks — the cell types — already existed and could be combined into novel architectures with comparatively modest regulatory modifications.
 
-**Deep regulatory conservation without structural conservation.** The persistence of master regulators like Pax6 and Hox genes across animal lineages, even where the structures they pattern have changed, makes more sense if these regulators control cell-type identity rather than structural identity. Pax6 specifies a class of cell across animal evolution; the structures those cells participate in (compound eye, camera eye) are downstream and lineage-specific.
+**Deep regulatory conservation without structural conservation.** The persistence of master regulators like Pax6 and [Hox genes](/en/biology/physiology/developmental-biology-explained) across animal lineages, even where the structures they pattern have changed, makes more sense if these regulators control cell-type identity rather than structural identity. Pax6 specifies a class of cell across animal evolution; the structures those cells participate in (compound eye, camera eye) are downstream and lineage-specific.
 
 **Functional convergence at the cell level.** Cnidarians have neurons that are functionally indistinguishable from bilaterian neurons in many respects, despite the absence of a centralized nervous system. Cell-type homology offers a clean explanation: the neuron as a cell type predates the centralized nervous system, and was inherited from a common ancestor.
 

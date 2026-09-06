@@ -5,8 +5,8 @@ excerpt: A 2025 surface-code result held one logical qubit on 101 physical qubit
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - qubits
   - quantum-error-correction
@@ -18,7 +18,7 @@ related:
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
 pillar: quantum-mechanics-fundamentals
-_bodyHash: 93d5ad7b
+_bodyHash: fb47ae0b
 ---
 
 One number frames the whole field better than any roadmap. In a surface-code experiment reported in Nature in 2025, a 105-qubit superconducting processor devoted 101 physical qubits to a single distance-7 logical qubit, which then suffered 0.143 ± 0.003 per cent error per cycle of error correction and outlived its own best physical qubit by a factor of 2.4 ± 0.3. On the same team's extrapolation, pushing that logical error rate down to 10⁻⁶ by scaling alone would take a distance-27 patch of 1,457 physical qubits — more than fourteen times the count they used.

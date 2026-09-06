@@ -5,7 +5,7 @@ excerpt: La densité trie l'eau de mer en couches qui n'échangent que lentement
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 10
 tags:
   - oceans
@@ -18,7 +18,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: ff7076b1
+_bodyHash: 7fc5b629
 ---
 
 L'océan est une masse d'eau continue qui se comporte comme si elle était empilée. La densité — fonction de la température, de la salinité et de la pression — trie l'eau de mer en couches qui n'échangent que lentement entre elles, et l'essentiel du comportement de la mer à grande échelle découle de ce tri : où s'accumule la chaleur ajoutée, où résident les nutriments, jusqu'où pénètre la lumière, et combien de temps une chose reste là où elle se trouve.
@@ -27,7 +27,7 @@ L'échelle mérite d'être énoncée sans détour, car c'est elle qui rend ce tr
 
 ## La stratification est la variable maîtresse
 
-L'eau de surface, éclairée par le soleil, est plus chaude et souvent moins salée que celle qui se trouve en dessous : elle est donc moins dense et elle flotte. Le vent et le refroidissement hivernal brassent les premières dizaines à centaines de mètres pour en faire une **couche de mélange** de densité quasi uniforme. En dessous, la température chute brutalement à travers la **thermocline** et la densité augmente à travers la pycnocline. Cette marche de densité est la structure la plus lourde de conséquences de toute la mer, car elle fait obstacle aux échanges verticaux : elle commande la facilité avec laquelle la chaleur, le carbone, l'oxygène et les nutriments dissous passent entre la surface et l'intérieur de l'océan.
+L'eau de surface, éclairée par le soleil, est plus chaude et souvent moins salée que celle qui se trouve en dessous : elle est donc moins dense et elle flotte. Le vent et le refroidissement hivernal brassent les premières dizaines à centaines de mètres pour en faire une **couche de mélange** de densité quasi uniforme. En dessous, la température chute brutalement à travers la **[thermocline](/fr/glossary/thermocline)** et la densité augmente à travers la pycnocline. Cette marche de densité est la structure la plus lourde de conséquences de toute la mer, car elle fait obstacle aux échanges verticaux : elle commande la facilité avec laquelle la chaleur, le carbone, l'oxygène et les nutriments dissous passent entre la surface et l'intérieur de l'océan.
 
 Cette barrière s'est renforcée. Le sixième rapport d'évaluation du GIEC conclut qu'il est quasiment certain que l'océan supérieur est devenu plus stablement stratifié depuis 1970 au moins, sur la très grande majorité du globe, sous l'effet d'un réchauffement concentré en surface et d'une dessalure aux hautes latitudes ; il évalue l'augmentation de la stratification entre 0 et 200 m à 4,9 ± 1,5 % entre 1970 et 2018. Une analyse parue dans Nature Climate Change, qui quantifie plutôt la stabilité par le carré de la fréquence de flottabilité jusqu'à 2 000 mètres, rapporte une augmentation de 5,3 % (5,0 à 5,8 %) sur la période 1960-2018, soit environ 0,90 % par décennie, dont à peu près 71 % dans les 200 premiers mètres et plus de 90 % imputable à la température plutôt qu'à la salinité.
 
@@ -53,7 +53,7 @@ L'usage humain parvient jusqu'aux données sous trois formes, qui ne se prêtent
 
 ## Le relevé instrumental commence plus tard qu'on ne le croit
 
-Pendant la plus grande partie du XXe siècle, l'intérieur de l'océan a été échantillonné depuis des navires, ce qui concentrait les observations le long des routes commerciales, dans l'hémisphère Nord et en été. Le réseau Argo a changé la géométrie de l'échantillonnage plutôt que les instruments. L'Atlantic Oceanographic and Meteorological Laboratory de la NOAA indique que le premier flotteur a été déployé en 1999 et que l'objectif initial de 3 000 flotteurs profileurs répartis sur une grille de 3° × 3° a été atteint en novembre 2007, la configuration ultérieure Argo2020 visant quant à elle environ 4 000 flotteurs, tous types confondus. Chaque flotteur dérive à une profondeur intermédiaire, descend à 2 000 mètres tous les dix jours et mesure la température et la salinité pendant la remontée. Le réseau a franchi son millionième profil en octobre 2012, le deux millionième en septembre 2018 et le trois millionième en juillet 2024, avec 26 pays contributeurs.
+Pendant la plus grande partie du XXe siècle, l'intérieur de l'océan a été échantillonné depuis des navires, ce qui concentrait les observations le long des routes commerciales, dans l'hémisphère Nord et en été. Le réseau Argo a changé la géométrie de l'échantillonnage plutôt que les instruments. L'Atlantic Oceanographic and Meteorological Laboratory de la NOAA indique que le premier flotteur a été déployé en 1999 et que l'objectif initial de 3 000 flotteurs profileurs répartis sur une grille de 3° × 3° a été atteint en novembre 2007, la configuration ultérieure Argo2020 visant 4 000 flotteurs Core Argo, auxquels s'ajoutent 1 200 flotteurs Deep Argo et 1 000 flotteurs biogéochimiques. Chaque flotteur dérive à une profondeur intermédiaire, descend à 2 000 mètres tous les dix jours et mesure la température et la salinité pendant la remontée. Le réseau a franchi son millionième profil en octobre 2012, le deux millionième en septembre 2018 et le trois millionième en juillet 2024, avec 26 pays contributeurs.
 
 C'est là que se situe la rupture observationnelle. Les affirmations sur l'intérieur de l'océan antérieures à 2005 environ reposent sur des données rares et inégalement réparties ; celles qui lui sont postérieures reposent sur un réseau quasi mondial. Le plancher océanique est plus en retard encore. NOAA Ocean Exploration rapporte qu'en avril 2026, 28,7 % du plancher océanique mondial avaient été cartographiés au sondeur multifaisceaux moderne à haute résolution — environ 56 % dans les eaux des États-Unis — et que les explorateurs ont directement observé moins de 0,001 % du plancher des grands fonds, soit une surface à peu près équivalente à celle du Rhode Island. La bathymétrie déduite des satellites couvre l'intégralité du plancher océanique, mais à une résolution qui laisse échapper des reliefs de la taille d'un mont sous-marin.
 

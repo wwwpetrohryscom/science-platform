@@ -5,7 +5,7 @@ excerpt: The popular version treats tipping points as one looming threshold. IPC
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - tipping-points
@@ -27,7 +27,7 @@ Few concepts in [Earth system science](/en/ecology/earth-systems/earth-system-sc
 
 The literature keeps three things apart that popular usage merges, and holding them apart is most of the work.
 
-**Abruptness.** AR6 defines an abrupt climate change as a large-scale change taking place over a few decades or less, persisting or expected to persist for at least a few decades, and causing substantial impacts. Speed is the criterion.
+**Abruptness.** AR6 defines an abrupt [climate change](/en/ecology/climate-change/what-is-climate-change) as a large-scale change taking place over a few decades or less, persisting or expected to persist for at least a few decades, and causing substantial impacts. Speed is the criterion.
 
 **Irreversibility.** A perturbed state is considered irreversible on a given timescale if recovery through natural processes would take substantially longer than the timescale of interest. Note that this is defined relative to a stated horizon — "irreversible" is never an absolute.
 
@@ -50,11 +50,11 @@ AR6's Table 4.10 is a cross-chapter assessment of components proposed as suscept
 | Antarctic sea ice | Yes, low confidence | Unknown, low confidence | Low confidence in moderate declines |
 | Greenland ice sheet | No, high confidence | Irreversible for millennia, high confidence | Virtually certain mass loss under all scenarios |
 | West Antarctic ice sheet and shelves | Yes, high confidence | Irreversible for decades to millennia, high confidence | Likely mass loss; deep uncertainty above 3 °C |
-| Global ocean heat content | No, high confidence | Irreversible for centuries, very high confidence | Very high confidence of continued warming |
+| Global ocean [heat content](/en/ecology/climate-change/ocean-heat-content-indicators) | No, high confidence | Irreversible for centuries, very high confidence | Very high confidence of continued warming |
 | Global sea-level rise | Yes, high confidence | Irreversible for centuries, very high confidence | Very high confidence in continued rise; deep uncertainty above 3 °C |
 | AMOC | Yes, medium confidence | Reversible within centuries, high confidence | Very likely decline; medium confidence of no collapse |
 | Southern overturning circulation | Yes, medium confidence | Reversible within decades to centuries, low confidence | Medium confidence in weakening |
-| Ocean acidification | Yes, high confidence | Reversible at surface, irreversible for centuries to millennia at depth | Virtually certain to continue with rising CO₂ |
+| [Ocean acidification](/en/ecology/oceans/ocean-acidification-explained) | Yes, high confidence | Reversible at surface, irreversible for centuries to millennia at depth | Virtually certain to continue with rising CO₂ |
 | Ocean deoxygenation | Yes, high confidence | Reversible at surface, irreversible at depth, medium confidence | Medium confidence in rates and increased hypoxia |
 
 ## What the table shows that summaries do not

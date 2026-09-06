@@ -4,8 +4,8 @@ excerpt: A cell receives thousands of signals every second. The mechanisms by wh
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-04-22'
-updatedDate: '2026-05-08'
-readingTime: 5
+updatedDate: '2026-09-05'
+readingTime: 4
 tags:
   - cell-biology
   - signaling
@@ -15,7 +15,7 @@ related:
   - coral-microbiome-bleaching-resistance
   - how-gene-expression-is-regulated
 pillar: what-is-a-cell
-_bodyHash: 7e50b2a2
+_bodyHash: 61e852ef
 ---
 
 A cell in a multicellular organism is constantly receiving signals — chemical, mechanical, electrical — from its environment and from other cells. The mechanisms by which it integrates those signals and decides what to do next are among the most studied questions in [cell biology](/en/biology/cells/what-is-a-cell). Public reference sources including the [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) and [Genomics Glossary at the National Human Genome Research Institute](https://www.genome.gov/genetics-glossary) treat [cell signaling](/en/glossary/cell-signaling) as a foundational topic.
@@ -29,7 +29,7 @@ A signaling pathway has the same general shape across most contexts:
 1. **A signal** — a molecule (hormone, growth factor, neurotransmitter), a physical force, or a change in environment.
 2. **A receptor** — usually a protein at the cell membrane that selectively binds the signal.
 3. **A transduction cascade** — a series of intracellular events, often involving phosphorylation of intermediate proteins, that propagates and amplifies the signal.
-4. **An effector** — a downstream change in cell behaviour: gene expression, protein activity, ion flux, cytoskeletal reorganization, division, differentiation, or death.
+4. **An effector** — a downstream change in cell behaviour: [gene expression](/en/biology/genetics/how-gene-expression-is-regulated), protein activity, ion flux, cytoskeletal reorganization, division, differentiation, or death.
 
 The components are protein-coded, so the [DNA sequence](/en/biology/genetics/what-is-dna) of the organism specifies what receptors and signaling proteins a cell can use. But the *state* of the pathway at any moment is set by which proteins are present, where they are localized, and which post-translational modifications they carry. Two cells with identical genomes can be in radically different signaling states.
 
@@ -55,7 +55,7 @@ The accepted answer involves several mechanisms operating together:
 - **Temporal pattern.** Sustained activation produces different downstream effects than transient activation, even of the same kinase. This was shown in cell-fate choices in PC12 cells and has been confirmed in many other systems.
 - **Combinatorial input.** A given pathway is rarely sufficient to determine outcome. Cell behaviour usually requires coincidence of signals — growth factor *and* anchorage *and* nutrient availability.
 
-These mechanisms are well-established. Their relative weighting in different cell types remains an active research area; the survey papers indexed via [PubMed](https://pubmed.ncbi.nlm.nih.gov/) document the variety.
+These mechanisms are well-established. Their relative weighting in different [cell types](/en/biology/evolution/cell-types-as-units-of-evolution) remains an active research area; the survey papers indexed via [PubMed](https://pubmed.ncbi.nlm.nih.gov/) document the variety.
 
 ## Where signaling biology is still open
 

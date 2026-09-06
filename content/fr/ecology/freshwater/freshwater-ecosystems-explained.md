@@ -5,7 +5,7 @@ excerpt: Fleuves, lacs et marécages renferment moins d'un centième de pour cen
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - freshwater
@@ -19,7 +19,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: 30de0087
+_bodyHash: a251bdc
 ---
 
 Tous les lacs et tous les chenaux fluviaux de la Terre réunis contiennent environ 93 100 kilomètres cubes d'eau. L'océan en contient 1 338 000 000. Dans le tableau de répartition mondiale de l'eau tenu par la Water Science School de l'USGS, cette fraction superficielle représente à peu près un cent-cinquantième de pour cent de toute l'eau ; en y ajoutant les marécages du monde, le total reste inférieur à un centième de pour cent. Les évaluations d'espèces indiquent que ces mêmes habitats abritent plus de 10 % de toutes les espèces décrites, dont environ un tiers des vertébrés et près de la moitié des poissons. L'écologie des eaux douces est pour l'essentiel l'étude de ce qui découle de ce rapport.
@@ -30,13 +30,13 @@ Le tableau de répartition mérite une lecture attentive, car il est plus souven
 
 Comparer ces trois stocks superficiels entre eux est plus instructif que de comparer l'un d'eux à l'océan. De l'eau douce liquide stagnante ou courante à la surface, les lacs détiennent environ 87 %, les zones humides environ 11 % et les cours d'eau environ 2 %. En volume, les cours d'eau ne sont presque rien.
 
-La surface raconte une autre histoire. Un inventaire satellitaire des lacs du monde a dénombré quelque 117 millions de plans d'eau de plus de 0,002 kilomètre carré, couvrant près de 5 millions de kilomètres carrés, soit 3,7 % des terres émergées non englacées. Une reconstitution distincte, fondée sur des largeurs de cours d'eau dérivées de Landsat, situe la superficie des fleuves et des ruisseaux au débit annuel moyen à 773 000 ± 79 000 kilomètres carrés, soit 0,58 ± 0,06 % des terres non englacées — quelque 44 % de plus que les estimations antérieures. Les eaux douces sont des pellicules minces à long périmètre, non des réservoirs. Leur poids écologique tient à la surface, à la bordure et à la connexion, non au volume, et leur rôle dans le [cycle mondial de l'eau](/fr/ecology/earth-systems/global-water-cycle-explained) relève du transfert rapide plutôt que du stockage.
+La surface raconte une autre histoire. Un inventaire satellitaire des lacs du monde a dénombré quelque 117 millions de plans d'eau de plus de 0,002 kilomètre carré, couvrant près de 5 millions de kilomètres carrés, soit 3,7 % des terres émergées non englacées. Une reconstitution distincte, fondée sur des largeurs de cours d'eau dérivées de Landsat, situe la superficie des fleuves et des ruisseaux au débit annuel moyen à 773 000 ± 79 000 kilomètres carrés, soit 0,58 ± 0,06 % des terres non englacées — quelque 44 ± 15 % de plus que les estimations antérieures. Les eaux douces sont des pellicules minces à long périmètre, non des réservoirs. Leur poids écologique tient à la surface, à la bordure et à la connexion, non au volume, et leur rôle dans le [cycle mondial de l'eau](/fr/ecology/earth-systems/global-water-cycle-explained) relève du transfert rapide plutôt que du stockage.
 
 ## Pourquoi un bassin versant se comporte comme une île
 
 Un réseau hydrographique est dendritique. L'eau y descend, et la plupart des organismes strictement aquatiques ne peuvent se déplacer que le long de ce réseau. Pour atteindre le bassin voisin, un poisson, une mulette ou un trichoptère doit franchir soit une ligne de partage des eaux, soit de l'eau salée, et la plupart ne peuvent ni l'un ni l'autre. Les bassins sont donc plus proches d'îles que de parcelles forestières, et ils en ont la biogéographie : aires de répartition étroites, fort renouvellement de la faune d'un système au système voisin, et un endémisme abondant, concentré dans un seul bassin ou un seul lac.
 
-Il en découle trois conséquences que l'on retrouve dans chacune des pages de cet ensemble. Les espèces endémiques sont fréquentes : une disparition locale est donc souvent une extinction mondiale. Les aires de répartition sont petites : une seule retenue, une seule dérivation ou une seule source de pollution peut affecter la totalité de la distribution d'une espèce. Et comme le réseau est linéaire, un obstacle placé n'importe où à l'amont retranche du système aval tout ce qui se trouve au-dessus de lui — une forme de [fragmentation des habitats](/en/glossary/habitat-fragmentation) sans équivalent terrestre, examinée en détail dans l'article consacré aux [barrages et à la fragmentation des cours d'eau](/fr/ecology/freshwater/dams-and-river-fragmentation).
+Il en découle trois conséquences que l'on retrouve dans chacune des pages de cet ensemble. Les espèces endémiques sont fréquentes : une disparition locale est donc souvent une extinction mondiale. Les aires de répartition sont petites : une seule retenue, une seule dérivation ou une seule source de pollution peut affecter la totalité de la distribution d'une espèce. Et comme le réseau est linéaire, un obstacle placé n'importe où à l'amont retranche du système aval tout ce qui se trouve au-dessus de lui — une forme de [fragmentation des habitats](/fr/glossary/habitat-fragmentation) sans équivalent terrestre, examinée en détail dans l'article consacré aux [barrages et à la fragmentation des cours d'eau](/fr/ecology/freshwater/dams-and-river-fragmentation).
 
 ## Quatre compartiments, quatre horloges différentes
 
@@ -55,7 +55,7 @@ Comme les horloges diffèrent, les modes de défaillance diffèrent aussi. Dans 
 
 ## Ce que disent réellement les données sur les menaces
 
-La plus vaste évaluation des eaux douces publiée à ce jour a porté sur 23 496 espèces — 14 628 poissons d'eau douce, 6 223 libellules et demoiselles et 2 645 crustacés décapodes — et a trouvé 24 % d'entre elles menacées d'extinction. Les décapodes sont les plus touchés, à 30 %, devant les poissons à 26 % et les odonates à 16 %. Quatre-vingt-neuf espèces évaluées, soit 0,4 % du total et pour l'essentiel des poissons, sont enregistrées comme éteintes.
+L'évaluation multi-taxons la plus complète à ce jour de la faune d'eau douce mondiale inscrite à la Liste rouge de l'UICN, publiée dans *Nature* en 2025, a porté sur 23 496 espèces — 14 628 poissons d'eau douce, 6 223 libellules et demoiselles et 2 645 crustacés décapodes — et a trouvé 24 % d'entre elles menacées d'extinction. Les décapodes sont les plus touchés, à 30 %, devant les poissons à 26 % et les odonates à 16 %. Quatre-vingt-neuf espèces évaluées, soit 0,4 % du total, sont enregistrées comme éteintes depuis 1500 ; 82 de ces 89 sont des poissons.
 
 La ventilation des menaces importe davantage que le chiffre phare. Parmi les espèces menacées, 54 % subissent la pollution, 39 % les barrages et les prélèvements d'eau, 37 % les changements d'usage des terres et les effets associés de l'agriculture, et 28 % les espèces envahissantes et les maladies ; près d'un cinquième sont enregistrées comme affectées par le changement climatique et les phénomènes météorologiques extrêmes. Ces catégories se recoupent largement — la plupart des espèces menacées en cumulent plusieurs —, si bien que les parts ne s'additionnent pas et qu'aucun levier unique ne traite la majorité des cas.
 

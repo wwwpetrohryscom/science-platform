@@ -1,11 +1,11 @@
 ---
 title: 'Genetic drift: why population size decides whether selection matters'
-metaTitle: 'Genetic drift and effective population size'
+metaTitle: Genetic drift and effective population size
 excerpt: Drift is the allele-frequency change that comes from finite sampling alone. Because its strength scales inversely with effective population size, that one parameter decides which selection coefficients are visible to evolution and which are invisible.
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - genetic-drift
@@ -19,7 +19,7 @@ related:
   - speciation-mechanisms
   - species-extinction-risk-assessment
 pillar: evolution-explained
-_bodyHash: 2be08027
+_bodyHash: ecddabf
 ---
 
 Every generation is a sample. A population produces far more gametes than become offspring, and which ones make it through is partly a matter of who happened to find a mate, who happened to be eaten before breeding, and which of two equally good copies a parent happened to pass on. The National Human Genome Research Institute defines genetic drift as random fluctuation in the frequency of an allele in a population, and notes that although the effect is strongest in small, isolated groups it can be powerful enough to fix a variant or erase it entirely. That is the whole mechanism. The consequences are less obvious than the definition.
@@ -54,7 +54,7 @@ A **founder effect**, in NHGRI's definition, is the reduction in genomic variabi
 
 What follows is less predictable, and one Antarctic case shows why. A colony of southern elephant seals was founded on the Victoria Land Coast about 7,000 years ago, on beaches that ice-sheet retreat had made habitable only around 8,000 years before present, and it declined sharply about a thousand years ago before going extinct. Ancient DNA from the colony's earlier phase, between about 7,100 and 3,000 years before present, recovered 58 haplotypes across 49 segregating sites; the later phase yielded 128 haplotypes and 79 segregating sites. The likely source population at Macquarie Island carries only 15 haplotypes and 23 segregating sites today. Diversity in the founded colony rose rather than fell, which the authors attribute to rapid growth and a sustained large size after establishment. A founder event sets the starting point; the demographic trajectory afterwards decides what survives of it.
 
-Human genomes carry the same kind of history. Coalescent analysis of thirty-four genomes from nine populations recovers a shared decline in all non-African lineages from about 200,000 years ago until roughly 50,000 years ago, consistent with a bottleneck at the dispersal out of Africa around 40,000 to 60,000 years ago, followed by very large increases — ancestral effective sizes above a million in some East Asian lineages by 2,000 years ago. Those inferences are scaled quantities: converting them into individuals and years requires dividing by an assumed mutation rate and multiplying by an assumed generation time, so the shape of the curve is far better constrained than its absolute height. The relationship between such demographic histories and the emergence of separate lineages is taken up in [how reproductive isolation arises](/en/biology/evolution/speciation-mechanisms).
+Human genomes carry the same kind of history. Coalescent analysis of thirty-four genomes from nine populations recovers a shared decline in all non-African lineages from about 200,000 years ago until roughly 50,000 years ago, consistent with a bottleneck at the dispersal out of Africa around 40,000 to 60,000 years ago, followed by very large increases — ancestral effective sizes above a million in some East Asian lineages by 2,000 years ago. Those inferences are scaled quantities: converting them into individuals and years requires dividing by an assumed [mutation rate](/en/biology/genetics/mutation-types-and-rates) and multiplying by an assumed generation time, so the shape of the curve is far better constrained than its absolute height. The relationship between such demographic histories and the emergence of separate lineages is taken up in [how reproductive isolation arises](/en/biology/evolution/speciation-mechanisms).
 
 ## Very small populations, and the case that was actually monitored
 

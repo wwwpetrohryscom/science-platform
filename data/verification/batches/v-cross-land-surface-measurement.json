@@ -1,0 +1,464 @@
+{
+  "batchId": "v-cross-land-surface-measurement",
+  "reviewedDate": "2026-09-06",
+  "verificationMethod": "same-pass",
+  "method": "Source-of-record check at authoring time, then a separate second pass re-reading every numeric and quoted claim against the page it came from. Author and checker are the same pass, which is not the independent arrangement the older batches used. Four claims were corrected in that second pass and are recorded below as corrected.",
+  "articles": [
+    {
+      "slug": "decomposition-and-the-return-of-nutrients",
+      "path": "content/en/ecology/ecosystems/decomposition-and-the-return-of-nutrients.md",
+      "status": "clean",
+      "claimsChecked": 16,
+      "findings": [
+        {
+          "claim": "Coordinated litter-bag experiment across 30 sites on six continents",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3597247/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: mesofauna \"increase decomposition rates in temperate and wet tropical climates, but have neutral effects where temperature or moisture constrain biological activity\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3597247/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The experiment tested a prediction made by Swift and colleagues in 1979, for the first time at global scale",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3597247/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Soil fauna enhanced litter decomposition with an average increment of about 27 per cent at global and biome scales",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411175/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Climate and litter quality modulated the fauna effect differently between biomes",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4411175/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Soil fauna enhanced the rate of litter decomposition by 22.6 per cent in tropical rainforest",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6742996/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: the contribution \"consistently increased as nutrient availability in the microenvironment declined\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6742996/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: soil fauna \"is able to equalize differences in microbial decomposition potential, thus buffering to a remarkable extent nutrient shortages at an ecosystem level\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6742996/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Rapid initial leaching from both tea types within the first three to four hours, before microbial colonisation",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9339754/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"up to 30-50% of the mass loss of green tea reported as decomposition could be lost through leaching alone in high moisture environments (>90% soil moisture and submerged)\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9339754/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: failing to account for leaching \"will lead to a systematic overestimation of the microbial decomposition in wet habitats\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9339754/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "30 tidal-wetland sites worldwide across a 10.9 to 28.5 degrees C temperature gradient",
+          "sourceChecked": "https://bg.copernicus.org/articles/15/3189/2018/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: stabilisation \"was 29 % lower in low, more frequently flooded vs. high, less frequently flooded zones\"; declined \"by ~ 75 % over the studied temperature gradient\"; fell \"by > 70 %\" under simulated coastal eutrophication; \"effects on decomposition rate per se were minor\"",
+          "sourceChecked": "https://bg.copernicus.org/articles/15/3189/2018/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Herbivory removes a minority of primary production in most terrestrial ecosystems",
+          "sourceChecked": "no source read for this article",
+          "disposition": "qualified",
+          "note": "Standing ecological knowledge, stated without a figure. Not quantified here because no primary source was read for it in this pass."
+        },
+        {
+          "claim": "The tea-bag protocol is described only in general terms (two contrasting tea qualities, a fixed burial interval)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9339754/",
+          "disposition": "qualified",
+          "note": "Deliberately unquantified. The burial depth, spacing and 90-day interval appeared only in a search summary of a preprint that was not read directly, so no protocol numbers are stated."
+        },
+        {
+          "claim": "The soil food web is the least catalogued major community on land",
+          "sourceChecked": "our own article ecology/soils/soil-biology-and-the-soil-food-web",
+          "disposition": "qualified",
+          "note": "Restated from the corpus's own article rather than re-sourced here."
+        }
+      ]
+    },
+    {
+      "slug": "soil-moisture-and-what-a-measurement-covers",
+      "path": "content/en/ecology/soils/soil-moisture-and-what-a-measurement-covers.md",
+      "status": "clean",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Quoted: surface soil moisture is \"the water that is in the upper 10 cm of soil\"; root-zone is \"the water that is available to plants-generally considered to be in the upper 200 cm of soil\"; headline maps show \"the moisture content of the top 1 meter of soil\"",
+          "sourceChecked": "https://www.drought.gov/topics/soil-moisture",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"the same absolute value of soil moisture can indicate a serious drought in the Southeast, while it represents normal soils in the Southwest\"",
+          "sourceChecked": "https://www.drought.gov/topics/soil-moisture",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: interpretation requires \"assessing and maintaining a range of other 'metadata,' particularly soil characteristics\" and \"more than one unit of measure may be needed to adequately describe conditions\"",
+          "sourceChecked": "https://www.drought.gov/topics/soil-moisture",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: the radiometer detects \"emitted radiation in the frequency range of 1-2 GHz\" with \"a wavelength range of 30-15 cm\"",
+          "sourceChecked": "https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted sensing depth: \"studying the moisture in the top two inches of the soil from space\"",
+          "sourceChecked": "https://smap.jpl.nasa.gov/mission/why-it-matters/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: mapped \"via the radiometer data at a spatial resolution of 36 km every 2-3 days\"; and \"a combination of radar and radiometer measurements would lead to a soil moisture product at a spatial resolution of 9 km\"",
+          "sourceChecked": "https://smap.jpl.nasa.gov/observatory/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The mission page describes the radar in the past tense while describing the 9 km product conditionally",
+          "sourceChecked": "https://smap.jpl.nasa.gov/observatory/",
+          "disposition": "verified",
+          "note": "An observation about how the page is written, checked by reading it. The article does not assert why."
+        },
+        {
+          "claim": "A 36-kilometre cell is about 1,300 square kilometres",
+          "sourceChecked": "arithmetic: 36 x 36 = 1,296",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: the field relies on \"enhanced modeling capabilities\" and \"new in situ and proximal sensors\"",
+          "sourceChecked": "https://www.drought.gov/topics/soil-moisture",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An in-situ sensor measures a small volume of soil around a single point at a fixed depth",
+          "sourceChecked": "no source read for this article",
+          "disposition": "corrected",
+          "note": "First draft said 'a volume of a few hundred cubic centimetres'. No source read here supports that figure, so the number was removed."
+        },
+        {
+          "claim": "Clay holds more water than sand at the same matric potential, and much of what it holds is unavailable to plants",
+          "sourceChecked": "standard soil physics; not re-sourced here",
+          "disposition": "qualified",
+          "note": "Stated without figures; the mechanism is the reason NIDIS gives for regional non-comparability."
+        },
+        {
+          "claim": "Operational drought products are almost always expressed as percentiles against a local climatology",
+          "sourceChecked": "https://www.drought.gov/topics/soil-moisture",
+          "disposition": "qualified",
+          "note": "The percentile convention is visible in the NIDIS products; 'almost always' is our characterisation, not a quoted claim."
+        }
+      ]
+    },
+    {
+      "slug": "species-distribution-models-and-their-limits",
+      "path": "content/en/ecology/biodiversity/species-distribution-models-and-their-limits.md",
+      "status": "clean",
+      "claimsChecked": 12,
+      "findings": [
+        {
+          "claim": "Quoted: temporal transferability was acceptable for \"less than 25% of species\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6414724/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"The combination of these factors significantly increased both model performance and transferability\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6414724/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"positive effects of species traits on predictive accuracy within model calibration are not necessarily translated into higher temporal transferability\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6414724/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Mediterranean species, migrants and habitat specialists produced better-performing models during calibration",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6414724/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Rhododendron ponticum models trained in Snowdonia and transferred to the Brecon Beacons; Continuous Boyce Index 0.90 at 300 m against 0.77 at 50 m",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5940916/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"successful model transferability may require optimization of model grain size\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5940916/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: practitioners should \"synthesize information from databases, past studies, and/or past model transfers to create model performance curves and heat maps\"; and \"the more contextually similar an application site is to the model development site, the more likely it is that a model transfer will be successful\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6140329/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The wetland case study found the model generalizable across 35 per cent of the spatial-organizational contextual dissimilarity space assessed",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6140329/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "INHABIT models roughly 296 invasive plant species",
+          "sourceChecked": "https://www.usgs.gov/data/inhabit-species-potential-distribution-across-contiguous-united-states-ver-30-february-2023",
+          "disposition": "verified",
+          "note": "The dataset page lists approximately 296 species; the article says 'roughly 296'."
+        },
+        {
+          "claim": "Quoted: \"we accounted for uncertainty related to sampling bias by using two alternative sources of background samples, and constructed model ensembles using the 10 models for each species (five algorithms by two background methods) for three different thresholds (conservative to targeted)\"",
+          "sourceChecked": "https://www.usgs.gov/data/inhabit-species-potential-distribution-across-contiguous-united-states-ver-30-february-2023",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The three named reasons transfer fails (novel environmental space, non-causal association, effort-biased records)",
+          "sourceChecked": "our synthesis across the three papers",
+          "disposition": "qualified",
+          "note": "An organising frame written by us; each element is supported by the cited papers but the tripartite structure is ours."
+        },
+        {
+          "claim": "A single published threshold hides a decision that was never the modeller's to make",
+          "sourceChecked": "https://www.usgs.gov/data/inhabit-species-potential-distribution-across-contiguous-united-states-ver-30-february-2023",
+          "disposition": "qualified",
+          "note": "Our reading of why INHABIT publishes three thresholds rather than one."
+        }
+      ]
+    },
+    {
+      "slug": "radar-remote-sensing-explained",
+      "path": "content/en/ecology/earth-observation/radar-remote-sensing-explained.md",
+      "status": "clean",
+      "claimsChecked": 10,
+      "findings": [
+        {
+          "claim": "Quoted: \"an instrument sends out a pulse of energy and then records the amount of that energy reflected back after it interacts with Earth\"",
+          "sourceChecked": "https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: 10 m resolution from a real aperture would need \"a radar antenna about 4,250 m long. (That's over 47 football fields!)\"",
+          "sourceChecked": "https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: the synthetic aperture combines \"a sequence of acquisitions from a shorter antenna\"",
+          "sourceChecked": "https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Band table: X 8-12 GHz / 3.8-2.4 cm; C 4-8 GHz / 7.5-3.8 cm; L 1-2 GHz / 30-15 cm, with the stated typical uses including the C-band 'SAR Workhorse' label",
+          "sourceChecked": "https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: L-band at 23 cm can \"penetrate more deeply through a tree canopy and allows for more interaction between the radar signal and large branches and tree trunks\"",
+          "sourceChecked": "https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: Sentinel-1 is \"designed as a two-satellite constellation\", each carrying \"an advanced radar instrument to provide an all-weather, day-and-night supply of imagery of Earth's surface\"; orbit \"693 km\"; the application list",
+          "sourceChecked": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Calm open water is a specular reflector at radar wavelengths and appears dark",
+          "sourceChecked": "standard radar physics; not stated on the pages read",
+          "disposition": "qualified",
+          "note": "Mechanism given without figures; the flood application itself is on the ESA page."
+        },
+        {
+          "claim": "Phase differences between two passes give ground displacement (InSAR)",
+          "sourceChecked": "standard SAR practice; not stated on the pages read",
+          "disposition": "qualified",
+          "note": "Stated as a principle without any precision figure, and linked to the corpus's own subsidence coverage rather than re-sourced."
+        },
+        {
+          "claim": "Speckle, layover and foreshortening as the characteristic artefacts, and incidence-angle dependence",
+          "sourceChecked": "standard SAR practice; not stated on the pages read",
+          "disposition": "qualified",
+          "note": "Named without quantification."
+        },
+        {
+          "claim": "Most of a forest's biomass is in trunks and large branches rather than foliage",
+          "sourceChecked": "standard forest ecology; not re-sourced here",
+          "disposition": "qualified",
+          "note": "Used to explain why L-band is the biomass band; no figure given."
+        }
+      ]
+    },
+    {
+      "slug": "land-surface-temperature-from-space",
+      "path": "content/en/ecology/earth-observation/land-surface-temperature-from-space.md",
+      "status": "clean",
+      "claimsChecked": 13,
+      "findings": [
+        {
+          "claim": "Quoted: TIRS \"measures land surface temperature in two thermal-infrared bands using principles of quantum physics to detect heat emitted from the Earth's surface\"",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/tirs",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted bands: \"Band 10 (10.6-11.2 um) and Band 11 (11.5-12.5 um)\"",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/tirs",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted resolution: the design \"achieves 100-meter (328-foot) resolution\", data \"resampled to 30\" metres",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/tirs",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The application list: evapotranspiration, urban heat, volcanic hazards, wildfires, water management",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/tirs",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Winter differences from station air temperature 2.54 C (mono-window) to 3.51 C (single-channel); summer 2.39 C to 12.32 C",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8198215/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"SWA is more suitable for retrieving LST in Shanghai during the summer\"; in winter \"RTE, SWA, and SCA are relatively more reliable\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8198215/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: infrared radiometers agreed with reference brightness temperatures to a \"bias of <0.23 C, and root mean square error (RMSE) of <0.36 C\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570879/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: radiometer against thermocouple \"bias = 0.26 C and RMSE = 0.67 C\"; radiometer against longwave radiation \"bias > 1.1 and RMSE > 1.46 C\"; nighttime differences under 0.47 C",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570879/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: accurate in-situ LST measurements \"are quite scarce\", with footprint mismatches over heterogeneous ground",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7570879/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Definition of emissivity and what it varies with",
+          "sourceChecked": "standard radiometry; written in our own words",
+          "disposition": "corrected",
+          "note": "First draft presented this as a quotation. The wording came from a search summary rather than from a page read directly, so the quotation marks were removed and the sentence rewritten as our own prose."
+        },
+        {
+          "claim": "The diurnal behaviour of the LST-air-temperature gap",
+          "sourceChecked": "standard surface energy balance; written in our own words",
+          "disposition": "corrected",
+          "note": "First draft asserted 'at night the two converge; under strong daytime insolation they can separate widely, with dry, sparsely vegetated and built surfaces showing the largest departures' on the strength of a search summary. Rewritten as a mechanism statement with no comparative claim about which surfaces depart most."
+        },
+        {
+          "claim": "Air temperature is measured in a shielded enclosure around two metres above ground",
+          "sourceChecked": "standard meteorological practice; not re-sourced here",
+          "disposition": "qualified",
+          "note": "Stated as the convention rather than as a measured finding."
+        },
+        {
+          "claim": "Two thermal bands make split-window retrieval possible by using the difference in atmospheric absorption",
+          "sourceChecked": "standard thermal remote sensing; the two bands themselves are from the NASA page",
+          "disposition": "qualified",
+          "note": "The mechanism is ours; the band pair is sourced."
+        }
+      ]
+    },
+    {
+      "slug": "evapotranspiration-and-the-land-water-budget",
+      "path": "content/en/ecology/earth-systems/evapotranspiration-and-the-land-water-budget.md",
+      "status": "clean",
+      "claimsChecked": 14,
+      "findings": [
+        {
+          "claim": "Quoted definition: \"the sum of all processes by which water moves from the land surface to the atmosphere via evaporation and transpiration\"",
+          "sourceChecked": "https://www.usgs.gov/special-topics/water-science-school/science/evapotranspiration-and-water-cycle",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The listed controls on transpiration: plant type, temperature, humidity, wind, soil type, sunlight, precipitation, land slope",
+          "sourceChecked": "https://www.usgs.gov/special-topics/water-science-school/science/evapotranspiration-and-water-cycle",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"an acre of corn gives off about 3,000-4,000 gallons (11,400-15,100 liters) of water each day, and a large oak tree can transpire 40,000 gallons (151,000 liters) per year\"",
+          "sourceChecked": "https://www.usgs.gov/special-topics/water-science-school/science/evapotranspiration-and-water-cycle",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: ensemble means \"agreed well, with values ranging from 589.6 mm yr-1 (6.56x10^4 km3 yr-1) to 617.1 mm yr-1 (6.87x10^4 km3 yr-1)\"",
+          "sourceChecked": "https://hess.copernicus.org/articles/24/1485/2020/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A spread of about 27.5 mm/yr, under five per cent",
+          "sourceChecked": "arithmetic on the two figures above: 27.5 / 589.6 = 4.7 per cent",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainties concentrated in the Amazon Basin and arid/semiarid regions",
+          "sourceChecked": "https://hess.copernicus.org/articles/24/1485/2020/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A harmonised global transpiration product, daily at 0.1 degrees, 2000 to 2020",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11161592/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: transpiration uncertainties in earlier global estimates \"often exceeding two to three times those of total ET\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11161592/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Quoted: \"Wei et al. (2017) showed mean global Et/E varying from 0.24 to 0.90 based on a variety of remote-sensing, isotopic, and modelling studies. Another compilation by Liu et al. (2022) showed the mean varying between 0.24 and 0.86.\"",
+          "sourceChecked": "https://hess.copernicus.org/articles/30/317/2026/",
+          "disposition": "verified",
+          "note": "Quoted as what the 2026 paper reports about those two compilations, not as a direct reading of Wei et al. or Liu et al."
+        },
+        {
+          "claim": "648 US watersheds; ratios 0.33 shrubs, 0.32 grasslands, 0.48 croplands, 0.60 deciduous broadleaf, 0.69 evergreen needleleaf, 0.70 mixed forests",
+          "sourceChecked": "https://hess.copernicus.org/articles/30/317/2026/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Better agreement than the global carbon fluxes achieve",
+          "sourceChecked": "our own corpus: ecology/ecosystems/primary-production-and-energy-flow",
+          "disposition": "qualified",
+          "note": "A comparison against the GPP figures already published in our own primary-production article (123 +/- 8 against 147 with a 131-163 interval), not a claim made by any source cited here."
+        },
+        {
+          "claim": "The flux tower's limits: a footprint of hundreds of metres and a sparse global network biased toward accessible temperate ecosystems",
+          "sourceChecked": "our own corpus: ecology/ecosystems/primary-production-and-energy-flow",
+          "disposition": "corrected",
+          "note": "First draft said 'a network of a few hundred sites globally'. The site count was not re-checked in this pass, so the number was removed and the sentence now points at the article that does cite it."
+        },
+        {
+          "claim": "Rising CO2 tends to reduce stomatal conductance, suppressing transpiration without directly affecting soil evaporation",
+          "sourceChecked": "standard plant physiology; not re-sourced here",
+          "disposition": "qualified",
+          "note": "Given as the reason the partition matters, without a magnitude."
+        },
+        {
+          "claim": "Every kilogram evaporated carries away roughly the latent heat of vaporisation",
+          "sourceChecked": "standard physics",
+          "disposition": "qualified",
+          "note": "Stated without a figure."
+        }
+      ]
+    }
+  ]
+}

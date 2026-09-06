@@ -5,7 +5,7 @@ excerpt: Restoration reliably improves on a degraded baseline and reliably falls
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecological-restoration
@@ -44,7 +44,7 @@ The choice also interacts with the landscape. Forest restoration success in the 
 
 ## Structure returns before function
 
-Vegetation cover, canopy height and stem density are the first things to come back and the easiest things to measure. Nutrient cycling, hydrological behaviour and soil biological processes lag, and they are measured less often. The wetland synthesis found plant assemblages converging statistically on reference conditions after roughly three decades while absolute values stayed below reference even a century after restoration — a result compatible either with very slow recovery or with a shift to an alternative stable state that will not converge at all. The data cannot distinguish those two explanations, and that ambiguity is central rather than marginal.
+Vegetation cover, canopy height and stem density are the first things to come back and the easiest things to measure. [Nutrient cycling](/en/ecology/forests/tropical-forest-ecology), hydrological behaviour and soil biological processes lag, and they are measured less often. The wetland synthesis found plant assemblages converging statistically on reference conditions after roughly three decades while absolute values stayed below reference even a century after restoration — a result compatible either with very slow recovery or with a shift to an alternative stable state that will not converge at all. The data cannot distinguish those two explanations, and that ambiguity is central rather than marginal.
 
 Intergovernmental assessment reaches the same conclusion in plainer language: recovering vegetation cover after degradation is possible and often succeeds, but it seldom attains, within decades, pre-degradation levels of ecosystem function or of compositional biological diversity.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Grenzen und Unsicherheit der Fernerkundung: Satellitendaten ehrlich lesen'
-metaTitle: 'Grenzen und Unsicherheit der Fernerkundung'
+metaTitle: Grenzen und Unsicherheit der Fernerkundung
 excerpt: Satellitendaten sind mächtig, aber nie perfekt. Hier stehen die strukturellen Grenzen der Fernerkundung — Auflösungskompromisse, Wolken, Mischpixel, indirekte Messung und Sensordrift — und die Validierungspraxis, die diese Produkte ehrlich hält.
 type: expert
 author: climate-research-desk
@@ -17,6 +17,7 @@ related:
   - land-cover-change-detection
 readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
+_bodyHash: 1d0c857
 ---
 Satellitenmessung ist für die Umweltwissenschaften unentbehrlich und gleichwohl auf eine Weise begrenzt, die dafür zählt, wie ihre Ergebnisse gelesen werden sollten. Eine aus dem Orbit abgeleitete Karte oder Zeitreihe trägt immer Annahmen, Lücken und Fehler mit sich, die gute Praxis ausspricht statt verbirgt. Dieser Artikel legt die wesentlichen strukturellen Grenzen dessen dar, [was Fernerkundung ist](/de/ecology/earth-observation/what-is-remote-sensing), sowie die Validierung, die die entstehenden Produkte vertrauenswürdig hält; der weitere Zusammenhang steht in unserem Themenbereich [Erdbeobachtung und Fernerkundung](/de/ecology/earth-observation/earth-observation-and-remote-sensing-explained).
 
@@ -30,7 +31,7 @@ Optische und thermische Sensoren beobachten die Oberfläche durch die Atmosphär
 
 ## Ein Pixel ist selten eine einzige Sache
 
-Die Rasterstruktur von Satellitenbildern bringt ihre eigene Mehrdeutigkeit mit. Weil jede Zelle dieser [Rasterdaten](/en/glossary/raster-data) einen endlichen Bodenausschnitt abdeckt, umfasst ein einzelnes Pixel oft mehrere Oberflächentypen, und sein aufgezeichneter Wert ist eine Mischung aus allen. Ein als „Wald" beschriftetes Pixel kann in Wirklichkeit Lichtungen, offenen Boden oder Wasser neben den Bäumen enthalten. Jede aus diesem Pixel geschätzte Größe erbt die Mischung: Die Zahl beschreibt einen Mittelwert über das, was die Zelle enthielt, nicht eine reine Probe eines Bedeckungstyps. Dieser Mischpixeleffekt ist dort am stärksten, wo die Landschaft im Verhältnis zur Pixelgröße fein gemustert ist, und er pflanzt sich in jede nachgelagerte Schätzung fort.
+Die Rasterstruktur von Satellitenbildern bringt ihre eigene Mehrdeutigkeit mit. Weil jede Zelle dieser [Rasterdaten](/de/glossary/raster-data) einen endlichen Bodenausschnitt abdeckt, umfasst ein einzelnes Pixel oft mehrere Oberflächentypen, und sein aufgezeichneter Wert ist eine Mischung aus allen. Ein als „Wald" beschriftetes Pixel kann in Wirklichkeit Lichtungen, offenen Boden oder Wasser neben den Bäumen enthalten. Jede aus diesem Pixel geschätzte Größe erbt die Mischung: Die Zahl beschreibt einen Mittelwert über das, was die Zelle enthielt, nicht eine reine Probe eines Bedeckungstyps. Dieser Mischpixeleffekt ist dort am stärksten, wo die Landschaft im Verhältnis zur Pixelgröße fein gemustert ist, und er pflanzt sich in jede nachgelagerte Schätzung fort.
 
 ## Satelliten messen Stellvertreter, nicht die Sache selbst
 
@@ -42,7 +43,7 @@ Eine lange Umweltreihe ist selten das Werk eines einzigen unveränderten Instrum
 
 ## Wie ehrliche Produkte mit ihrem eigenen Fehler umgehen
 
-Wegen alledem berichtet ein glaubwürdiges Satellitenprodukt seine Grenzen, statt eine einzelne exakte Zahl vorzulegen. Validierung ist die Praxis, die das ermöglicht. Abgeleitete Werte werden mit unabhängigen Referenzdaten verglichen — [Bodenwahrheit](/en/glossary/ground-truthing) aus dem Feld, instrumentierte Messstationen und höher aufgelöste Bilder —, um zu prüfen, wie gut die modellgestützte Schlussfolgerung der Wirklichkeit entspricht. Bei klassifizierten Karten wird dieser Vergleich in einer Genauigkeitsbewertung formalisiert, die kennzeichnet, wie oft Klassen korrekt zugewiesen werden. Anbieter veröffentlichen die resultierende Unsicherheit dann neben den Daten, mit Qualitätskennzeichen und dokumentierten Vorbehalten, und Aufbau und Inhalt der [Erdbeobachtungs-Datenprodukte](/de/ecology/earth-observation/earth-observation-data-products) spiegeln das wider. Ressourcen wie [NASA Earthdata](https://www.earthdata.nasa.gov/) dokumentieren Produktqualität und Kennzeichen, und die begutachtete Literatur von [Remote Sensing](https://www.mdpi.com/journal/remotesensing) entwickelt die Fehleranalysemethoden hinter diesen Angaben. Satellitendaten ehrlich zu lesen heißt, diese angegebenen Unsicherheiten zu benutzen und nicht zu übergehen.
+Wegen alledem berichtet ein glaubwürdiges Satellitenprodukt seine Grenzen, statt eine einzelne exakte Zahl vorzulegen. Validierung ist die Praxis, die das ermöglicht. Abgeleitete Werte werden mit unabhängigen Referenzdaten verglichen — [Bodenwahrheit](/de/glossary/ground-truthing) aus dem Feld, instrumentierte Messstationen und höher aufgelöste Bilder —, um zu prüfen, wie gut die modellgestützte Schlussfolgerung der Wirklichkeit entspricht. Bei klassifizierten Karten wird dieser Vergleich in einer Genauigkeitsbewertung formalisiert, die kennzeichnet, wie oft Klassen korrekt zugewiesen werden. Anbieter veröffentlichen die resultierende Unsicherheit dann neben den Daten, mit Qualitätskennzeichen und dokumentierten Vorbehalten, und Aufbau und Inhalt der [Erdbeobachtungs-Datenprodukte](/de/ecology/earth-observation/earth-observation-data-products) spiegeln das wider. Ressourcen wie [NASA Earthdata](https://www.earthdata.nasa.gov/) dokumentieren Produktqualität und Kennzeichen, und die begutachtete Literatur von [Remote Sensing](https://www.mdpi.com/journal/remotesensing) entwickelt die Fehleranalysemethoden hinter diesen Angaben. Satellitendaten ehrlich zu lesen heißt, diese angegebenen Unsicherheiten zu benutzen und nicht zu übergehen.
 
 ## Sources
 

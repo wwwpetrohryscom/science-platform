@@ -17,14 +17,29 @@
  *   - a question duplicated across two different subtopics, where one of
  *     them is probably the wrong home for it
  *   - a subtopic with fewer than three questions
+ *
+ * Localizations are checked against the same rules, plus three of their
+ * own: a set must name a key the English registry defines, must hold the
+ * same number of items in the same order — the FAQPage markup a locale
+ * emits has to be the same set of questions the reader sees — and must
+ * not be the English text copied across.
  */
 import { categories, isCategorySlug } from "../lib/categories";
-import { getSubtopicFaqs, getTopicFaqs } from "../lib/content/faqs";
+import {
+  allLocalizedFaqs,
+  englishFaqs,
+  faqKeys,
+  getSubtopicFaqs,
+  getTopicFaqs,
+} from "../lib/content/faqs";
 import { BANNED_PHRASES } from "../lib/content/tone";
 
 type Issue = { severity: "error" | "warning"; rule: string; message: string; where: string };
 
 const MAX_ANSWER_WORDS = 90;
+/** Romance and Slavic renderings run longer than the English for the
+ *  same content; the cap is raised rather than the discipline dropped. */
+const MAX_LOCALIZED_ANSWER_WORDS = 110;
 const MIN_PER_SUBTOPIC = 3;
 
 /** Phrasing that turns an explanation into an instruction. */
@@ -136,6 +151,95 @@ function main() {
     }
   }
 
+  // --- Localizations ---------------------------------------------
+  const localized = allLocalizedFaqs();
+  const knownKeys = new Set(faqKeys());
+  const localeCounts: Array<[string, number, number]> = [];
+
+  for (const [locale, sets] of Object.entries(localized)) {
+    let items = 0;
+    for (const [key, list] of Object.entries(sets)) {
+      const where = `${locale}:${key}`;
+      if (!knownKeys.has(key)) {
+        issues.push({
+          severity: "error",
+          rule: "localized-unknown-key",
+          message: "no English FAQ set with this key",
+          where,
+        });
+        continue;
+      }
+      const en = englishFaqs(key);
+      items += list.length;
+      if (list.length !== en.length) {
+        issues.push({
+          severity: "error",
+          rule: "localized-count",
+          message: `${list.length} question(s) against ${en.length} in English — the rendered block and its FAQPage markup have to be the same set`,
+          where,
+        });
+      }
+      const seenHere = new Set<string>();
+      for (let i = 0; i < list.length; i += 1) {
+        const item = list[i];
+        const enItem = en[i];
+        if (!item.question?.trim() || !item.answer?.trim()) {
+          issues.push({
+            severity: "error",
+            rule: "localized-empty",
+            message: `item ${i + 1} has no question or no answer`,
+            where,
+          });
+          continue;
+        }
+        if (enItem && item.question.trim() === enItem.question.trim()) {
+          issues.push({
+            severity: "error",
+            rule: "localized-untranslated",
+            message: `item ${i + 1} is the English question unchanged`,
+            where,
+          });
+        }
+        if (enItem && item.answer.trim() === enItem.answer.trim()) {
+          issues.push({
+            severity: "error",
+            rule: "localized-untranslated",
+            message: `item ${i + 1} is the English answer unchanged`,
+            where,
+          });
+        }
+        const key2 = item.question.trim().toLowerCase();
+        if (seenHere.has(key2)) {
+          issues.push({
+            severity: "error",
+            rule: "localized-duplicate-question",
+            message: `"${item.question}" appears twice`,
+            where,
+          });
+        }
+        seenHere.add(key2);
+        if (words(item.answer) > MAX_LOCALIZED_ANSWER_WORDS) {
+          issues.push({
+            severity: "warning",
+            rule: "localized-answer-length",
+            message: `item ${i + 1} — ${words(item.answer)} words; an FAQ answer is the short form`,
+            where,
+          });
+        }
+      }
+    }
+    const missing = [...knownKeys].filter((k) => !sets[k]);
+    if (missing.length && missing.length < knownKeys.size) {
+      issues.push({
+        severity: "warning",
+        rule: "localized-partial",
+        message: `${missing.length} of ${knownKeys.size} sets not localized`,
+        where: locale,
+      });
+    }
+    localeCounts.push([locale, Object.keys(sets).length, items]);
+  }
+
   const subtopicsWithout = categories.flatMap((c) =>
     c.subtopics
       .filter((s) => getSubtopicFaqs(c.slug, s.slug).length === 0)
@@ -154,9 +258,15 @@ function main() {
     0,
   );
   const subtopics = categories.reduce((a, c) => a + c.subtopics.length, 0);
+  const loc = localeCounts
+    .map(([l, sets, n]) => `${l} ${sets}/${knownKeys.size} sets, ${n} items`)
+    .join(" · ");
   console.log(
-    `\n${total} FAQ items · ${covered}/${subtopics} subtopics covered · ` +
-      `${errors.length} errors · ${issues.length - errors.length} warnings`,
+    `\n${total} FAQ items · ${covered}/${subtopics} subtopics covered`,
+  );
+  if (loc) console.log(`localized: ${loc}`);
+  console.log(
+    `${errors.length} errors · ${issues.length - errors.length} warnings`,
   );
   if (errors.length) process.exit(1);
 }

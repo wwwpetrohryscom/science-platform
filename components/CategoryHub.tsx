@@ -61,7 +61,7 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
   const nativeCount = latest.filter((a) => !a.localeFallback).length;
 
   const sources = listSourcesForTopic(category);
-  const faqs = getTopicFaqs(category);
+  const faqs = getTopicFaqs(category, locale);
 
   // Structured data: BreadcrumbList, CollectionPage (with article
   // inventory), and FAQPage (only when the FAQ block is actually
@@ -80,8 +80,9 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
       (a) => ({ name: a.title, path: a.url }),
     ),
   });
-  const faqLd =
-    locale === DEFAULT_LOCALE && faqs.length > 0 ? faqJsonLd(faqs) : null;
+  // Schema only where the block is visibly rendered, and the block only
+  // where this locale has its own answers.
+  const faqLd = faqs.length > 0 ? faqJsonLd(faqs) : null;
 
   return (
     <Layout locale={locale}>
@@ -225,11 +226,7 @@ export async function CategoryHub({ locale, category }: CategoryHubProps) {
         />
       </section>
 
-      {/* The FAQ registry is English-only, and an English FAQPage under a
-          localized URL is both untranslated content and a schema claim in
-          the wrong language. Rendered on EN alone until the registry is
-          translated. */}
-      {locale === DEFAULT_LOCALE && faqs.length > 0 && (
+      {faqs.length > 0 && (
         <FaqBlock
           heading={t("category_hub.faq_heading", { category: label })}
           description={t("category_hub.faq_description")}

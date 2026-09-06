@@ -5,7 +5,7 @@ excerpt: 'La conservation est une science appliquée bâtie sur une question cau
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - evidence-based-conservation

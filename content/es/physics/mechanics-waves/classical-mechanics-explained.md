@@ -5,7 +5,7 @@ excerpt: Las leyes de Newton son menos un conjunto de hechos sobre los objetos q
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics
@@ -18,6 +18,7 @@ related:
   - waves-and-oscillations-explained
   - fluid-dynamics-explained
   - measurement-uncertainty-explained
+_bodyHash: 206002f9
 ---
 Las dos sondas Voyager, lanzadas en 1977, abandonan el Sistema Solar a más de 3 unidades astronómicas por año, y la NASA guio a ambas hasta sus encuentros planetarios con una mecánica esencialmente completa antes de 1900. Ese es el argumento práctico a favor de la mecánica clásica: no que sea la descripción más profunda disponible, sino que dentro de una envolvente muy amplia es la correcta, y nada de lo que la sustituyó la volvió obsoleta dentro de esa envolvente.
 

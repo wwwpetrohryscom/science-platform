@@ -5,7 +5,7 @@ excerpt: Os rios, os lagos e os pântanos contêm menos de um centésimo de um p
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - freshwater
@@ -19,7 +19,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: '26747740'
+_bodyHash: 3e336ae5
 ---
 
 Todos os lagos e leitos fluviais da Terra contêm, no seu conjunto, cerca de 93.100 quilómetros cúbicos de água. O oceano contém 1.338.000.000. Na tabela de distribuição global da água mantida pela Water Science School do USGS, essa fração superficial corresponde a cerca de um cento e cinquenta avos de um por cento de toda a água; somando os pântanos do mundo, o total mantém-se ainda abaixo de um centésimo de um por cento. As avaliações de espécies indicam que esses mesmos habitats sustentam mais de 10 % de todas as espécies descritas, entre elas cerca de um terço dos vertebrados e cerca de metade de todos os peixes. A ecologia das águas doces é, em larga medida, o estudo do que decorre dessa proporção.
@@ -30,13 +30,13 @@ Vale a pena ler a tabela de distribuição com atenção, porque é citada mais 
 
 Comparar entre si estas três reservas superficiais é mais informativo do que comparar qualquer uma delas com o oceano. Da água doce líquida que está parada ou corre à superfície, os lagos detêm cerca de 87 %, as zonas húmidas cerca de 11 % e os rios cerca de 2 %. Em volume, os rios não são quase nada.
 
-A área conta outra história. Um inventário por satélite dos lagos do mundo contabilizou cerca de 117 milhões de massas de água com mais de 0,002 quilómetros quadrados, que cobrem perto de 5 milhões de quilómetros quadrados, ou seja, 3,7 % da superfície continental não glaciada. Uma outra reconstituição, feita a partir de larguras fluviais obtidas de imagens Landsat, situou a área de rios e ribeiras, para o caudal médio anual, em 773.000 ± 79.000 quilómetros quadrados, 0,58 ± 0,06 % da superfície continental não glaciada — cerca de 44 % mais do que as estimativas anteriores. As águas doces são películas finas de perímetro extenso, não reservatórios. O seu peso ecológico vem da superfície, da orla e da ligação, não do volume, e o seu papel no [ciclo global da água](/pt/ecology/earth-systems/global-water-cycle-explained) é de transferência rápida e não de armazenamento.
+A área conta outra história. Um inventário por satélite dos lagos do mundo contabilizou cerca de 117 milhões de massas de água com mais de 0,002 quilómetros quadrados, que cobrem perto de 5 milhões de quilómetros quadrados, ou seja, 3,7 % da superfície continental não glaciada. Uma outra reconstituição, feita a partir de larguras fluviais obtidas de imagens Landsat, situou a área de rios e ribeiras, para o caudal médio anual, em 773.000 ± 79.000 quilómetros quadrados, 0,58 ± 0,06 % da superfície continental não glaciada — cerca de 44 ± 15 % mais do que as estimativas anteriores. As águas doces são películas finas de perímetro extenso, não reservatórios. O seu peso ecológico vem da superfície, da orla e da ligação, não do volume, e o seu papel no [ciclo global da água](/pt/ecology/earth-systems/global-water-cycle-explained) é de transferência rápida e não de armazenamento.
 
 ## Porque é que uma bacia hidrográfica se comporta como uma ilha
 
 Uma rede fluvial é dendrítica. A água desce ao longo dela, e a maioria dos organismos estritamente aquáticos só se pode deslocar ao longo dela. Para chegar à bacia seguinte, um peixe, um mexilhão-de-rio ou um tricóptero tem de atravessar uma linha de separação de águas ou água salgada, e quase nenhum consegue fazer uma coisa ou outra. As bacias estão, por isso, mais próximas de ilhas do que de manchas de floresta, e têm a biogeografia das ilhas: áreas de distribuição pequenas, elevada substituição de espécies entre sistemas vizinhos e muito endemismo concentrado numa só bacia ou num só lago.
 
-Daqui decorrem três consequências que reaparecem em todas as páginas deste conjunto. As espécies endémicas são frequentes, pelo que o desaparecimento local é muitas vezes uma extinção global. As áreas de distribuição são pequenas, pelo que um único represamento, uma única derivação ou um único foco de poluição podem afetar a distribuição inteira de uma espécie. E, como a rede é linear, um obstáculo colocado em qualquer ponto a montante retira do sistema a jusante tudo o que fica acima dele — uma forma de [fragmentação do habitat](/en/glossary/habitat-fragmentation) sem equivalente terrestre, examinada em detalhe no artigo sobre [as barragens e a fragmentação dos rios](/pt/ecology/freshwater/dams-and-river-fragmentation).
+Daqui decorrem três consequências que reaparecem em todas as páginas deste conjunto. As espécies endémicas são frequentes, pelo que o desaparecimento local é muitas vezes uma extinção global. As áreas de distribuição são pequenas, pelo que um único represamento, uma única derivação ou um único foco de poluição podem afetar a distribuição inteira de uma espécie. E, como a rede é linear, um obstáculo colocado em qualquer ponto a montante retira do sistema a jusante tudo o que fica acima dele — uma forma de [fragmentação do habitat](/pt/glossary/habitat-fragmentation) sem equivalente terrestre, examinada em detalhe no artigo sobre [as barragens e a fragmentação dos rios](/pt/ecology/freshwater/dams-and-river-fragmentation).
 
 ## Quatro compartimentos, quatro relógios diferentes
 
@@ -55,7 +55,7 @@ Como os relógios diferem, também diferem os modos de falha. Nos rios, a variá
 
 ## O que dizem realmente os dados sobre as ameaças
 
-A maior avaliação de águas doces até hoje publicada abrangeu 23.496 espécies — 14.628 peixes de água doce, 6.223 libélulas e libelinhas e 2.645 crustáceos decápodes — e concluiu que 24 % delas estão ameaçadas de extinção. Os decápodes são os mais atingidos, com 30 %, seguidos dos peixes, com 26 %, e dos odonatos, com 16 %. Oitenta e nove espécies avaliadas, 0,4 % do total e na sua maioria peixes, estão registadas como extintas.
+A avaliação multitaxonómica mais completa até hoje da fauna dulciaquícola mundial na Lista Vermelha da UICN, publicada na *Nature* em 2025, abrangeu 23.496 espécies — 14.628 peixes de água doce, 6.223 libélulas e libelinhas e 2.645 crustáceos decápodes — e concluiu que 24 % delas estão ameaçadas de extinção. Os decápodes são os mais atingidos, com 30 %, seguidos dos peixes, com 26 %, e dos odonatos, com 16 %. Oitenta e nove espécies avaliadas, 0,4 % do total, estão registadas como extintas desde 1500; 82 dessas 89 são peixes.
 
 A repartição das ameaças importa mais do que o número de destaque. Entre as espécies ameaçadas, 54 % são afetadas pela poluição, 39 % por barragens e pela extração de água, 37 % pela alteração do uso do solo e pelos efeitos associados da agricultura, e 28 % por espécies invasoras e por doenças; perto de um quinto está registado como afetado pelas alterações climáticas e por fenómenos meteorológicos extremos. Estas categorias sobrepõem-se fortemente — a maioria das espécies ameaçadas acumula várias —, pelo que as percentagens não podem ser somadas e nenhuma alavanca isolada dá resposta à maioria dos casos.
 

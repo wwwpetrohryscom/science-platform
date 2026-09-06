@@ -5,7 +5,7 @@ excerpt: Ecological integrity asks whether an ecosystem still has the species, s
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - ecological-integrity
@@ -16,7 +16,7 @@ related:
   - habitat-fragmentation-metrics
   - essential-biodiversity-variables-monitoring
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 15f2e774
+_bodyHash: c6fe3477
 readingTime: 4
 ---
 
@@ -24,7 +24,7 @@ Counting the species present at a site tells you something, but [not what a spec
 
 ## What integrity means
 
-Integrity is a condition statement rather than a single quantity. An ecosystem is described as having high integrity when its species composition, physical structure, and ecological processes remain close to what would be expected without substantial human disturbance — loosely, how intact it is relative to a minimally disturbed reference. That framing connects integrity to but distinguishes it from related concepts. Two sites with similar species lists can differ sharply in how their food webs, nutrient cycles, and disturbance regimes operate, and integrity is meant to capture that operational dimension alongside who is present.
+Integrity is a condition statement rather than a single quantity. An ecosystem is described as having high integrity when its species composition, physical structure, and ecological processes remain close to what would be expected without substantial human disturbance — loosely, how intact it is relative to a minimally disturbed reference. That framing connects integrity to but distinguishes it from related concepts. Two sites with similar species lists can differ sharply in how their [food webs](/en/ecology/oceans/marine-food-webs-and-productivity), nutrient cycles, and disturbance regimes operate, and integrity is meant to capture that operational dimension alongside who is present.
 
 The concept now sits inside formal monitoring architecture. Integrity maps onto the ecosystem-structure and ecosystem-function classes of the [Essential Biodiversity Variables](/en/ecology/biodiversity/essential-biodiversity-variables-monitoring) framework, the measurement scheme described by [GEO BON](https://geobon.org/). Ecosystem integrity also appears as an explicit goal in the Kunming-Montreal [Global Biodiversity Framework](https://www.cbd.int/), adopted in 2022 under the Convention on Biological Diversity, which is part of why standardized indicators have drawn renewed attention.
 
@@ -42,7 +42,7 @@ Each compresses many observations into a single comparable score, which is what 
 
 The shared method behind these indicators is comparison. An integrity index takes the current state of a site, sets it against a reference or undisturbed condition for that ecosystem type, and expresses the gap between the two as one number. The reference is the anchor; everything else is measured as distance from it.
 
-The inputs are usually layered. Field surveys supply direct records of which species are present and in what numbers. Species-distribution models extend those point observations across areas that were never visited, estimating what the assemblage would look like under current and reference conditions. Remote sensing adds a view of habitat condition — vegetation structure, extent, and change — at scales no field campaign can cover. Peer-reviewed work has refined how these strands are combined and how their respective errors propagate into the final score. For readers tracing how landscape pattern feeds these models, the related work on [habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics) covers the spatial side in more depth.
+The inputs are usually layered. Field surveys supply direct records of which species are present and in what numbers. Species-distribution models extend those point observations across areas that were never visited, estimating what the assemblage would look like under current and reference conditions. [Remote sensing](/en/ecology/earth-observation/earth-observation-and-remote-sensing-explained) adds a view of habitat condition — vegetation structure, extent, and change — at scales no field campaign can cover. Peer-reviewed work has refined how these strands are combined and how their respective errors propagate into the final score. For readers tracing how landscape pattern feeds these models, the related work on [habitat fragmentation metrics](/en/ecology/biodiversity/habitat-fragmentation-metrics) covers the spatial side in more depth.
 
 ## Why the reference state is the hard part
 

@@ -1,11 +1,11 @@
 ---
 title: How extinction risk is assessed, and what a Red List category means
-metaTitle: 'Extinction risk assessment and Red List categories'
+metaTitle: Extinction risk assessment and Red List categories
 excerpt: A Red List category states a probability of extinction under defined criteria, not ecological importance or rarity. This is what the five criteria require, why Data Deficient is not a threat category, and how uneven the coverage is.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - red-list
@@ -64,7 +64,7 @@ The most under-reported figure in this field is how little of life has been asse
 
 The shortfall is not evenly spread. Vertebrates are 84 per cent evaluated, with birds complete and mammals and amphibians close to it. Invertebrates are 2 per cent evaluated; insects, over a million described taxa, stand at 1.4 per cent. Among plants, gymnosperms are 95 per cent evaluated while flowering plants are at 21 per cent. Any global statement of the form "one in four assessed organisms is threatened" is a statement about a sample chosen mainly for charisma and tractability, and it cannot be extrapolated to the invertebrate majority without an argument that nobody currently has the data to make.
 
-This is also where risk assessment connects to the drivers. Criterion B's fragmentation clause draws directly on the same landscape measurements discussed under [fragmentation and connectivity](/en/ecology/conservation/habitat-fragmentation-and-connectivity), while introduced predators and competitors appear explicitly in criterion A's list of admissible evidence — the mechanism examined in [invasive species management](/en/ecology/conservation/invasive-species-management). A category is downstream of both, and the aggregate movement of categories over time is what the [Red List Index](/en/ecology/biodiversity/red-list-index-explained) is built to track.
+This is also where [risk assessment](/en/ecology/pollution/environmental-pollution-explained) connects to the drivers. Criterion B's fragmentation clause draws directly on the same landscape measurements discussed under [fragmentation and connectivity](/en/ecology/conservation/habitat-fragmentation-and-connectivity), while introduced predators and competitors appear explicitly in criterion A's list of admissible evidence — the mechanism examined in [invasive species management](/en/ecology/conservation/invasive-species-management). A category is downstream of both, and the aggregate movement of categories over time is what the [Red List Index](/en/ecology/biodiversity/red-list-index-explained) is built to track.
 
 What the system cannot do is rank importance. It says nothing about a taxon's ecological role, its evolutionary distinctness, or whether intervention would succeed. Those questions are the input to [recovery programmes](/en/ecology/conservation/endangered-species-recovery-programmes) and to prioritisation, and reading a category as an answer to them is the most frequent misuse of an otherwise carefully bounded instrument.
 

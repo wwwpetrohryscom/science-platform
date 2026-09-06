@@ -1,11 +1,11 @@
 ---
 title: 'Classical mechanics: the framework that still describes most of the world'
-metaTitle: 'Classical mechanics and the edges of its domain'
+metaTitle: Classical mechanics and the edges of its domain
 excerpt: Newton's laws are less a set of facts about objects than a contract about reference frames and force laws. This page states that contract carefully, shows why the conservation principles turned out to be deeper, and marks the edges of the domain.
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics
@@ -18,7 +18,7 @@ related:
   - waves-and-oscillations-explained
   - fluid-dynamics-explained
   - measurement-uncertainty-explained
-_bodyHash: fddd4522
+_bodyHash: 8767f820
 ---
 
 Two Voyager spacecraft, launched in 1977, are leaving the Solar System at more than 3 astronomical units per year, and NASA navigated both of them to their planetary encounters using mechanics that was essentially complete before 1900. That is the practical case for classical mechanics: not that it is the deepest description available, but that within a very wide envelope it is the correct one, and nothing that replaced it made it obsolete inside that envelope.
@@ -41,7 +41,7 @@ The equation is a template because it tells you nothing about what forces exist.
 
 Forces come in equal and opposite pairs. Stated that way it sounds like an oddity about contact; stated properly it is the conservation of momentum for an isolated system, and that is the version that generalises.
 
-This is the pattern across the whole subject. The conservation of momentum, of energy and of angular momentum are not consequences of Newton's laws so much as the durable content of them. Emmy Noether's theorem makes the relationship exact: each conservation law corresponds to a continuous symmetry of the underlying dynamics. Invariance under translation in time gives conservation of energy; invariance under translation in space gives momentum; invariance under rotation gives angular momentum. When relativity and quantum mechanics replaced the Newtonian equations, the conserved quantities were redefined but not discarded, which is why they are the safest thing to reason with when the details are uncertain. The bookkeeping conventions that make energy usable in practice — work, potential energy, power — are set out in [work, energy and power](/en/physics/mechanics-waves/energy-work-and-power).
+This is the pattern across the whole subject. The conservation of momentum, of energy and of angular momentum are not consequences of Newton's laws so much as the durable content of them. Emmy Noether's theorem makes the relationship exact: each conservation law corresponds to a continuous symmetry of the underlying dynamics. Invariance under translation in time gives conservation of energy; invariance under translation in space gives momentum; invariance under rotation gives angular momentum. When relativity and [quantum mechanics](/en/physics/quantum-basics/quantum-mechanics-fundamentals) replaced the Newtonian equations, the conserved quantities were redefined but not discarded, which is why they are the safest thing to reason with when the details are uncertain. The bookkeeping conventions that make energy usable in practice — work, potential energy, power — are set out in [work, energy and power](/en/physics/mechanics-waves/energy-work-and-power).
 
 ## The Lagrangian reformulation: same physics, better starting point
 
@@ -55,7 +55,7 @@ A third formulation, built on position and momentum as independent variables, tr
 | --- | --- | --- | --- |
 | Newtonian | Vector forces on each body | Direct problems with few bodies and simple geometry | Engineering statics and dynamics |
 | Lagrangian | A single scalar built from kinetic and potential energy | Constrained systems, awkward coordinates, symmetry arguments | Field theory and the action principle |
-| Hamiltonian | Position and momentum as a paired state | Conserved quantities, perturbation theory, long integrations | Statistical mechanics and quantum theory |
+| Hamiltonian | Position and momentum as a paired state | Conserved quantities, perturbation theory, long integrations | [Statistical mechanics](/en/physics/thermodynamics/entropy-explained) and quantum theory |
 
 Rotation is where the choice bites soonest. Angular momentum is conserved for the same symmetry reason as its linear counterpart, but the relationship between angular velocity and angular momentum in three dimensions runs through a tensor rather than a single number, so a spinning body can precess and tumble without any torque acting. That behaviour looks like a violation of intuition and is nothing of the kind.
 
@@ -71,7 +71,7 @@ Three boundaries matter, and only the first two are usually taught.
 
 The relativistic boundary appears when speeds approach the speed of light, fixed by definition at 299,792,458 m s⁻¹ since the SI was rebuilt on defining constants. The Large Hadron Collider accelerates protons to a nominal 6.8 TeV per beam; set against a proton rest energy of 938.272 089 43(29) MeV, that is roughly 7,200 times the rest energy, and the Newtonian expression for kinetic energy is not merely imprecise there but wrong by orders of magnitude.
 
-The quantum boundary appears when the action involved in a process approaches the Planck constant, now fixed at exactly 6.626 070 15 × 10⁻³⁴ J s. For a cricket ball this is irrelevant; for an electron in an atom it is decisive.
+The quantum boundary appears when the action involved in a process approaches the [Planck constant](/en/physics/mechanics-waves/what-changed-when-the-kilogram-changed), now fixed at exactly 6.626 070 15 × 10⁻³⁴ J s. For a cricket ball this is irrelevant; for an electron in an atom it is decisive.
 
 The third boundary is internal, and it is the one that surprises people. Classical mechanics is deterministic and still not indefinitely predictive. The Solar System is a worked example: a PNAS commentary surveying long-term integrations puts the characteristic Lyapunov time for the planetary orbits at 5–10 million years, and concludes that "the presence of chaos implies that there is a finite limit to how accurately the positions of the planets can be predicted over long times", while the system nonetheless remains qualitatively stable across the Sun's lifetime. Exact equations, exact forces, and a horizon anyway.
 

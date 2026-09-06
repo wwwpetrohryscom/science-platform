@@ -5,7 +5,7 @@ excerpt: Um átomo e o núcleo no seu centro diferem em quatro ordens de grandez
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - nuclear-physics
@@ -18,6 +18,7 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
+_bodyHash: 5eed130d
 ---
 Duas comparações preparam tudo o que se segue. O raio de Bohr, escala de comprimento natural de um átomo, é 5,2918 × 10⁻¹¹ m no ajuste CODATA de 2022. O raio de carga de um núcleo de urânio-238, segundo os dados nucleares avaliados da AIEA, é 5,8571 ± 0,0033 fm — ou seja, 5,8571 × 10⁻¹⁵ m. Em raio, o núcleo é menor do que o átomo à sua volta por um fator de cerca de nove mil.
 

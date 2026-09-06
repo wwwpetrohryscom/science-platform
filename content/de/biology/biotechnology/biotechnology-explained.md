@@ -5,7 +5,7 @@ excerpt: Rekombinante DNA, Sequenzierung, Editierung und rechnergestützter Entw
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biotechnology
@@ -18,6 +18,7 @@ related:
   - crispr-genome-editing-explained
   - synthetic-biology-explained
   - bioinformatics-explained
+_bodyHash: 80475a3b
 ---
 Bierbrauen, Käseherstellung und die industrielle Penicillinproduktion waren Biotechnologie, bevor es das Wort gab, und keine davon verlangte zu wissen, was ein Gen ist. Was sich in den frühen 1970er-Jahren änderte, war nicht, dass lebende Zellen anfingen, nützliche Chemie zu betreiben — das taten sie immer —, sondern dass eine ausgewählte Anweisung absichtlich in eine Zelle verbracht werden konnte. Jedes hier beschriebene Verfahren erbt diesen Zuwachs an Spezifität, und die meisten wiederkehrenden Enttäuschungen des Fachs entstammen der Annahme, Spezifität im Labor übertrage sich unversehrt in ein gefertigtes Produkt.
 

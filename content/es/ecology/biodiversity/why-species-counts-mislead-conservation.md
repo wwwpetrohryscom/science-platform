@@ -1,11 +1,11 @@
 ---
 title: Por qué contar especies induce a error al priorizar la conservación
-metaTitle: 'Por qué el número de especies desorienta la conservación'
+metaTitle: Por qué el número de especies desorienta la conservación
 excerpt: La riqueza de especies es la métrica de biodiversidad más fácil de calcular y la peor para priorizar. Lo que predice el funcionamiento de un ecosistema son la diversidad funcional y la filogenética, y ambas discrepan a menudo del recuento de especies.
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biodiversity
@@ -15,10 +15,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 4e01d305
+_bodyHash: 771e0d5f
 ---
 
-La riqueza de especies —el recuento de especies distintas presentes en un área definida— es una de las medidas de biodiversidad más citadas. Es también una métrica incompleta para priorizar en conservación. Las evaluaciones públicas de la [Agencia Europea de Medio Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), el [PNUMA](https://www.unep.org/explore-topics/ecosystems) y la [IPBES](https://www.ipbes.net/global-assessment) tratan la pérdida de biodiversidad como algo más que un simple problema de recuento de especies.
+La [riqueza de especies](/es/glossary/species-richness) —el recuento de especies distintas presentes en un área definida— es una de las medidas de [biodiversidad](/es/glossary/biodiversity) más citadas. Es también una métrica incompleta para priorizar en conservación. Las evaluaciones públicas de la [Agencia Europea de Medio Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), el [PNUMA](https://www.unep.org/explore-topics/ecosystems) y la [IPBES](https://www.ipbes.net/global-assessment) tratan la pérdida de biodiversidad como algo más que un simple problema de recuento de especies.
 
 Este artículo explica el desajuste, resume las alternativas y sostiene que hay que retirar el uso rutinario del recuento de especies como señal de priorización.
 

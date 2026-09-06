@@ -5,8 +5,8 @@ excerpt: L'énergie primaire, les vecteurs énergétiques et la consommation fin
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 10
 tags:
   - energy-systems
   - primary-energy
@@ -19,6 +19,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
+_bodyHash: e313dde4
 ---
 Un système énergétique tient trois livres de comptes, et presque toute discussion confuse sur l'énergie vient d'un chiffre tiré de l'un et employé dans un autre. Le premier compte la ressource telle qu'elle est extraite ou captée — le charbon dans la veine, l'uranium dans le minerai, les photons sur un panneau. Le deuxième compte les vecteurs qui déplacent l'énergie utilisable : électricité, carburants liquides raffinés, gaz de réseau, chaleur dans une conduite de chauffage urbain. Le troisième compte ce qui est livré là où quelqu'un veut faire un travail — un four, un moteur, un écran. Chaque conversion entre livres a un coût physique, et l'ampleur de ce coût est le renseignement le plus instructif sur une technologie.
 
@@ -63,6 +64,10 @@ Les pages associées de ce groupe reprennent ces lignes une à une. L'article su
 Les limites physiques sont réelles, mais elles décident rarement d'un calendrier de déploiement. Les prévisions *Renewables 2025* de l'AIE attendent des renouvelables variables près de 30 pour cent de l'électricité mondiale d'ici 2030, soit environ le double de la part actuelle, le photovoltaïque solaire représentant à lui seul près de 80 pour cent de l'augmentation de capacité. Dans la même prévision, l'écrêtement augmente sur de nombreux marchés, dont la Chine, l'Allemagne, le Brésil, le Chili, le Royaume-Uni et l'Irlande ; les heures à prix négatifs ont bondi dans plusieurs pays, coïncidant avec le pic de production solaire ; et les perspectives de l'éolien en mer ont été révisées à la baisse de plus d'un quart — rien de tout cela ne découle d'une propriété d'une turbine ou d'une cellule.
 
 La capacité de réseau montre le même schéma. L'investissement dans la production a augmenté de près de 70 pour cent depuis 2015 pour atteindre environ 1 000 milliards de dollars par an, tandis que les dépenses annuelles de réseau ont crû à moins de la moitié de ce rythme, jusqu'à environ 400 milliards de dollars ; l'AIE juge que l'investissement réseau doit encore augmenter d'environ moitié d'ici 2030. Un système où les convertisseurs sont bon marché et où ce sont les câbles qui font la file d'attente ne se comporte pas comme un système où les convertisseurs sont le terme contraignant. Distinguer les limites qui ont une dérivation de celles qui ont une histoire fait l'objet d'une analyse séparée sur [quelles contraintes de la transition énergétique sont physiques](/fr/insight/energy-transition-constraints-physical-and-institutional).
+
+## Ce sur quoi repose la comptabilité
+
+Le cadre ci-dessus ne dit rien de la matière dont sont faites les machines, et les questions matérielles font désormais partie de l'analyse énergétique plutôt que de la compléter. Quatre d'entre elles sont traitées séparément ici : [les minéraux critiques et le point où la chaîne se concentre](/fr/physics/energy/critical-minerals-and-supply-concentration), [ce qui limite la densité énergétique des batteries](/fr/physics/energy/battery-energy-density-and-its-limits), [comment se construisent les comparaisons d'émissions sur le cycle de vie](/fr/physics/energy/life-cycle-emissions-and-how-they-are-compared), et [ce que le recyclage peut et ne peut pas faire face à la croissance de l'extraction](/fr/physics/energy/recycling-and-material-circularity). La demande fait elle aussi partie de la comptabilité plutôt que d'être une donnée extérieure, et [la demande de froid](/fr/physics/energy/cooling-demand-and-electricity) en est le cas le plus net : une charge dont le calendrier compte davantage que le total.
 
 ## Ce que cette comptabilité ne peut pas vous dire
 

@@ -1,11 +1,11 @@
 ---
 title: 'Climate indicators and Earth system monitoring: how the signals fit together'
-metaTitle: 'Climate indicators and Earth-system monitoring'
+metaTitle: Climate indicators and Earth-system monitoring
 excerpt: Climate indicators track the state of the Earth system. Here is how temperature, ocean heat, greenhouse gases, sea level, and ice are read together, and what each is good for.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - climate-change
@@ -22,7 +22,7 @@ pillar: what-is-climate-change
 _bodyHash: d4037518
 ---
 
-A [climate indicator](/en/glossary/climate-indicator) is a measurement, sustained over time, that tracks one specific dimension of the Earth system. Global mean surface temperature is one. Ocean heat content is another. Greenhouse-gas concentration, sea level, glacier mass balance, Arctic sea-ice extent, and the top-of-atmosphere energy imbalance are all indicators in this sense. Each answers a different question; none answers all of them.
+A [climate indicator](/en/glossary/climate-indicator) is a measurement, sustained over time, that tracks one specific dimension of the Earth system. Global mean surface temperature is one. Ocean heat content is another. Greenhouse-gas concentration, sea level, glacier [mass balance](/en/ecology/oceans/marine-plastic-pollution-evidence), Arctic sea-ice extent, and the top-of-atmosphere energy imbalance are all indicators in this sense. Each answers a different question; none answers all of them.
 
 International assessments treat the indicator framework as the backbone of climate observation. The [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) organizes the physical-science evidence around indicators rather than around any single dataset. The WMO State of the Global Climate bulletin uses a small fixed list of "key climate indicators" each year. NOAA Climate.gov, NASA Global Climate Change, the EPA Climate Change Indicators collection, the European Environment Agency, and the Copernicus Climate Change Service are all organized the same way — every operational source for this cluster is named in the Sources block.
 
@@ -44,19 +44,19 @@ The major assessments cover roughly the same six families. Each family contains 
 
 **Energy.** Earth's top-of-atmosphere energy imbalance — the difference between absorbed shortwave radiation and outgoing longwave — is the upstream driver of every other indicator. It is measured by NASA's CERES satellite instruments and tracked alongside [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators), which is the dominant reservoir for that energy.
 
-**Greenhouse gases.** Atmospheric concentrations of CO₂, methane, nitrous oxide, and halocarbons are reported by NOAA's Global Monitoring Laboratory from a global flask network anchored at Mauna Loa, with the companion WMO Greenhouse Gas Bulletin product. The dedicated [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) piece covers the measurement network and the Annual Greenhouse Gas Index.
+**Greenhouse gases.** Atmospheric concentrations of CO₂, methane, [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained), and halocarbons are reported by NOAA's Global Monitoring Laboratory from a global flask network anchored at Mauna Loa, with the companion WMO Greenhouse Gas Bulletin product. The dedicated [greenhouse-gas concentrations](/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring) piece covers the measurement network and the Annual Greenhouse Gas Index.
 
-**Sea level.** Global mean sea level from satellite altimetry, local relative sea level from tide gauges, and the rate of rise are three distinct [sea-level indicators](/en/ecology/climate-change/sea-level-rise-indicators). Each answers a different question; the IPCC AR6 Chapter 9 review explains how they decompose into thermal expansion and land-ice contributions.
+**Sea level.** Global mean sea level from [satellite altimetry](/en/ecology/earth-observation/satellite-altimetry-explained), local relative sea level from tide gauges, and the rate of rise are three distinct [sea-level indicators](/en/ecology/climate-change/sea-level-rise-indicators). Each answers a different question; the IPCC AR6 Chapter 9 review explains how they decompose into thermal expansion and land-ice contributions.
 
 **Cryosphere.** Arctic and Antarctic sea-ice extent and area, glacier mass balance, Greenland and Antarctic ice-sheet mass balance, snow cover, and permafrost extent. The U.S. National Snow and Ice Data Center maintains the reference sea-ice records and the World Glacier Monitoring Service curates the long-term glacier dataset — covered in the [cryosphere indicators](/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice) piece.
 
-**Carbon cycle and biosphere.** Land and ocean carbon uptake, atmospheric CO₂ growth rate, ocean acidification (pH and aragonite saturation), and vegetation indicators from satellite observations. The carbon-cycle component is summarized in IPCC AR6 WG1 Chapter 5 and tracked operationally by NOAA, NASA Earth Observatory, and the European Environment Agency — covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
+**Carbon cycle and biosphere.** Land and [ocean carbon](/en/ecology/oceans/air-sea-gas-exchange) uptake, atmospheric CO₂ growth rate, [ocean acidification](/en/ecology/oceans/ocean-acidification-explained) (pH and aragonite saturation), and vegetation indicators from satellite observations. The carbon-cycle component is summarized in IPCC AR6 WG1 Chapter 5 and tracked operationally by NOAA, NASA Earth Observatory, and the European Environment Agency — covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks).
 
 ## Why they are read together
 
 No indicator on its own resolves the climate signal cleanly. Surface temperature is noisy at the year-to-year scale because El Niño–Southern Oscillation redistributes heat between ocean and atmosphere. Sea-ice extent has high interannual variability from circulation patterns. Sea level has a small modulation from land-water storage changes that ENSO drives. A single bad year in any one indicator does not, by itself, establish a trend.
 
-Read together, the indicators are constrained by physics in ways that a single one is not. The energy imbalance has to equal the sum of energy gains across the system's reservoirs — ocean heat content gain, ice melt, land warming, atmosphere warming. The sea-level budget has to close — total observed rise has to equal thermal expansion plus ice-sheet and glacier mass loss plus changes in land water storage. The greenhouse-gas concentration trends have to be consistent with what the radiative forcing calculation produces given measured fluxes.
+Read together, the indicators are constrained by physics in ways that a single one is not. The energy imbalance has to equal the sum of energy gains across the system's reservoirs — ocean heat content gain, ice melt, land warming, atmosphere warming. The sea-level budget has to close — total observed rise has to equal thermal expansion plus ice-sheet and glacier mass loss plus changes in land water storage. The greenhouse-gas concentration trends have to be consistent with what the [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) calculation produces given measured fluxes.
 
 When the budgets close — when the indicators constrain each other within stated uncertainties — the case for the trend is much stronger than any single number could make it. The AR6 report describes this as the multiple-lines-of-evidence approach, and it is the structural reason why the assessment treats the basic mechanism and recent attribution as established rather than provisional.
 

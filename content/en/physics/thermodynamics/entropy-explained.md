@@ -5,7 +5,7 @@ excerpt: Entropy was defined as a ratio of heat to temperature before anyone kne
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - entropy
@@ -18,7 +18,7 @@ related:
   - earth-energy-budget-and-the-second-law
   - heat-transfer-conduction-convection-radiation
 pillar: laws-of-thermodynamics-explained
-_bodyHash: 93e3b8bc
+_bodyHash: 2c03ae27
 ---
 
 The quantity was defined operationally decades before anyone could say what it counted. Clausius wrote it as an accumulated ratio: the energy transferred as heat in a reversible step, divided by the absolute temperature at which the transfer happens. That gives changes in a property with units of joules per kelvin, computable from calorimetry alone, with no commitment to atoms — which was prudent in the 1860s, when atoms were still contested.
@@ -43,7 +43,7 @@ The practical version of the correction: a count of microstates is always relati
 
 ## The information connection is quantitative, not poetic
 
-Written in the Gibbs form — a sum over the probabilities of the accessible states, weighted by their logarithms — the thermodynamic quantity has the same functional shape as the information-theoretic one. The link is not merely formal. Landauer's argument says that erasing one bit of information in contact with a reservoir at temperature T must dissipate at least kT ln 2, which at 300 K is 2.8 × 10⁻²¹ J, or 2.8 zeptojoules.
+Written in the Gibbs form — a sum over the probabilities of the accessible states, weighted by their logarithms — the thermodynamic quantity has the same functional shape as the information-theoretic one. The link is not merely formal. [Landauer's argument](/en/physics/thermodynamics/information-and-thermodynamics) says that erasing one bit of information in contact with a reservoir at temperature T must dissipate at least kT ln 2, which at 300 K is 2.87 × 10⁻²¹ J, or about 2.9 zeptojoules.
 
 That bound has been tested. [Single-bit operations on nanomagnetic memory](https://pmc.ncbi.nlm.nih.gov/articles/PMC4795654/) dissipated (6.09 ± 1.43) zJ at 300 K, equivalent to (1.45 ± 0.35) times the thermal energy kT — above the limit, as it must be, and within a small multiple of it. The result matters less as a demonstration of the number than as a demonstration of the type: a logical operation has a thermodynamic price, set by the temperature of the surroundings and paid in heat. It puts a floor under the energy cost of computation that sits many orders of magnitude below what present hardware dissipates, and it applies as much to error-corrected [quantum computing hardware](/en/physics/quantum-basics/quantum-computing-fundamentals) as to a transistor.
 

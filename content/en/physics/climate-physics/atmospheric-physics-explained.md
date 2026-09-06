@@ -5,7 +5,7 @@ excerpt: The atmosphere holds about ten tonnes of air over every square metre an
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - atmospheric-physics
@@ -17,7 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
-_bodyHash: afc9183c
+_bodyHash: 2c925124
 ---
 
 Air is thin, and the arithmetic makes that concrete. NOAA gives standard sea-level pressure as 1013.25 hPa, which is the weight of a column carrying about 10.3 tonnes of air over each square metre of ground. By the cruising altitude of an airliner, roughly three-quarters of that column is already below you. What this shell does with the energy passing through it is the subject of atmospheric physics, and the single most useful summary of what it does is a transport figure: a poleward flux that peaks at about five petawatts in each hemisphere in the annual mean.
@@ -40,7 +40,7 @@ Temperature is far less obliging. It falls through the troposphere, holds nearly
 
 NASA's Earth Observatory puts the intensity of sunlight at the top of the atmosphere, on the face directly presented to the Sun, at about 1,360 watts per square metre. Spread over the whole rotating sphere that becomes roughly 340 W/m². Of that, about 29 per cent is reflected by clouds, aerosol and bright surfaces; about 23 per cent is absorbed within the atmosphere by water vapour, dust and ozone; and about 48 per cent reaches and is absorbed by the surface. Some 71 per cent of the arriving energy is therefore absorbed, or close to 240 W/m².
 
-Over the long run the planet has to emit that much back to space, and it very nearly does. The residual is small and it is the whole anthropogenic signal. The IPCC's AR6 assessment reports an [Earth energy imbalance](/en/glossary/earth-energy-imbalance) of 0.50 [0.32 to 0.69] W/m² for 1971–2006, rising to 0.79 [0.52 to 1.06] W/m² for 2006–2018, with ocean heat uptake accounting for 91 per cent of the total energy change. NASA's CERES project gives the magnitude as approximately 0.7 W/m², which it notes is 0.3 per cent of absorbed solar radiation; its science overview attaches no period to that figure, and the quantity it tracks changes. Detecting three parts in a thousand in a budget of that size is the central measurement problem of the field.
+Over the long run the planet has to emit that much back to space, and it very nearly does. The residual is small and it is the whole anthropogenic signal. The IPCC's AR6 assessment reports an [Earth energy imbalance](/en/glossary/earth-energy-imbalance) of 0.50 [0.32 to 0.69] W/m² for 1971–2006, rising to 0.79 [0.52 to 1.06] W/m² for 2006–2018, with ocean heat uptake accounting for 91 per cent of the total energy change. NASA's CERES project gives the magnitude as approximately 0.7 W/m², which it notes is 0.3 per cent of absorbed [solar radiation](/en/physics/energy/solar-radiation-and-earth-energy-balance); its science overview attaches no period to that figure, and the quantity it tracks changes. Detecting three parts in a thousand in a budget of that size is the central measurement problem of the field.
 
 The reason the surface sits well above the 255 K implied by emitting 240 W/m² is not that energy is stored under a lid; it is that the altitude from which the planet radiates to space is not the surface. That argument is set out carefully in [the emission-height account of the greenhouse effect](/en/physics/climate-physics/the-greenhouse-effect-physics).
 

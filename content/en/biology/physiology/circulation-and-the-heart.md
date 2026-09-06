@@ -4,8 +4,8 @@ excerpt: A circulatory system is a set of bills — pressure to be generated, gr
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - circulation
   - cardiac-physiology
@@ -17,10 +17,10 @@ related:
   - thermoregulation-in-animals
   - the-immune-system-explained
 pillar: physiology-explained
-_bodyHash: dd1f7bef
+_bodyHash: 61a9a11c
 ---
 
-A heart is an expense. It runs continuously, it cannot be switched off for maintenance, and the share of resting whole-body metabolic rate the left ventricle alone consumes rises with body size — a scaling across 22 mammal species predicts about 2.6 per cent in a 20 g mouse, 6.7 per cent in a 60 kg human and 10.7 per cent in a three-tonne elephant. All of that buys one thing: fluid moved past tissues fast enough that diffusion — which stalls beyond about a millimetre, because the time it takes rises with the square of the distance — is only ever asked to cover the last short step.
+A heart is an expense. It runs continuously, it cannot be switched off for maintenance, and the share of resting whole-body [metabolic rate](/en/biology/physiology/metabolic-scaling-and-body-size) the left ventricle alone consumes rises with [body size](/en/biology/physiology/diffusion-limits-on-body-size) — a scaling across 22 mammal species predicts about 2.6 per cent in a 20 g mouse, 6.7 per cent in a 60 kg human and 10.7 per cent in a three-tonne elephant. All of that buys one thing: fluid moved past tissues fast enough that diffusion — which stalls beyond about a millimetre, because the time it takes rises with the square of the distance — is only ever asked to cover the last short step.
 
 Reading circulatory designs as a set of bills rather than a ladder of sophistication makes the comparative literature much easier to follow. Each lineage faces the same charges — generating pressure, distributing it selectively, resisting gravity, keeping fluid inside the vessels — and has settled them differently. The exchange problem waiting at the far end of the delivery is the subject of [gas exchange and the diffusion gradients that drive it](/en/biology/physiology/respiration-and-gas-exchange); the framing of regulation used throughout is set out in the pillar on [how organisms hold internal conditions steady](/en/biology/physiology/physiology-explained).
 

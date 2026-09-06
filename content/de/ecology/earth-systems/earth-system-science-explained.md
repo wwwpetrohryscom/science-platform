@@ -5,7 +5,7 @@ excerpt: Luft, Wasser, Eis, Gestein und Leben werden gewöhnlich getrennt unters
 type: pillar
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - earth-system
@@ -30,7 +30,7 @@ _bodyHash: df745242
 
 Ein Hurrikan ist ein Wetterereignis, der Zusammenbruch einer Fischerei ein ökologisches Problem und die Verschiebung des Regengürtels der Sahara eine klimatologische Frage. So waren die Wissenschaften den größten Teil des zwanzigsten Jahrhunderts organisiert, und das funktionierte gut genug, solange jedes Fach innerhalb seiner eigenen Grenze blieb. Es hörte auf zu funktionieren, als sich zeigte, dass die Fragen, auf die man am dringendsten eine Antwort wollte – wie viel Erwärmung auf eine gegebene Emission folgt, ob ein Wald weiterhin Kohlenstoff aufnimmt, warum eine Temperaturanomalie im Pazifik den Niederschlag in Ostafrika verändert –, davon abhängen, was *zwischen* den Komponenten geschieht, und nicht davon, was in einer einzelnen von ihnen passiert.
 
-Die Erdsystemwissenschaft ist die Antwort darauf. Sie behandelt das Erdsystem als einen einzigen gekoppelten Gegenstand: Luft, Wasser, Eis, Gestein und Boden sowie das Leben, die fortwährend Energie und Materie austauschen, wobei der Austausch selbst der primäre Untersuchungsgegenstand ist. Dieser Artikel ist der Einstieg in das Erdsystem-Cluster von EcoScienceHub und legt den Rahmen fest, mit dem die begleitenden Artikel arbeiten.
+Die Erdsystemwissenschaft ist die Antwort darauf. Sie behandelt das [Erdsystem](/de/glossary/earth-system) als einen einzigen gekoppelten Gegenstand: Luft, Wasser, Eis, Gestein und Boden sowie das Leben, die fortwährend Energie und Materie austauschen, wobei der Austausch selbst der primäre Untersuchungsgegenstand ist. Dieser Artikel ist der Einstieg in das Erdsystem-Cluster von EcoScienceHub und legt den Rahmen fest, mit dem die begleitenden Artikel arbeiten.
 
 ## Was das Fach tatsächlich untersucht
 
@@ -38,7 +38,7 @@ Der Gegenstand ist keine Liste von Komponenten. Er ist die Menge der Kopplungen 
 
 **Wohin geht die Energie?** Sonnenlicht tritt ein, Infrarotstrahlung tritt aus, und dazwischen wird die Energie gespeichert, transportiert und umgewandelt. Die Bilanzierung behandeln die Artikel aus der angewandten Physik zur [Energiebilanz der Erde](/de/physics/energy/solar-radiation-and-earth-energy-balance) und zur [planetaren Wärmekraftmaschine](/de/physics/thermodynamics/earth-energy-budget-and-the-second-law); die erdsystemwissenschaftliche Frage lautet, welches Reservoir den Überschuss aufnimmt und wie schnell er sich zwischen ihnen bewegt.
 
-**Wohin geht die Materie?** Kohlenstoff, Wasser, Stickstoff, Phosphor und Schwefel bewegen sich zwischen Reservoiren auf jeweils eigenen charakteristischen Zeitskalen. Die gemeinsame Grammatik zur Beschreibung dieser Bewegung – Reservoire, Flüsse und Verweilzeit – ist im Artikel zu den [biogeochemischen Kreisläufen](/de/ecology/earth-systems/biogeochemical-cycles-explained) dargestellt und im Einzelnen für Kohlenstoff, Wasser und Stickstoff ausgeführt.
+**Wohin geht die Materie?** Kohlenstoff, Wasser, Stickstoff, Phosphor und Schwefel bewegen sich zwischen Reservoiren auf jeweils eigenen charakteristischen Zeitskalen. Die gemeinsame Grammatik zur Beschreibung dieser Bewegung – Reservoire, Flüsse und [Verweilzeit](/de/glossary/residence-time) – ist im Artikel zu den [biogeochemischen Kreisläufen](/de/ecology/earth-systems/biogeochemical-cycles-explained) dargestellt und im Einzelnen für Kohlenstoff, Wasser und Stickstoff ausgeführt.
 
 **Was verstärkt oder dämpft eine Veränderung?** Eine Störung einer Komponente verändert eine andere, die wiederum auf die erste zurückwirkt. Diese Schleifen – Klimarückkopplungen – bestimmen, wie groß die Antwort auf einen gegebenen Anstoß ausfällt.
 
@@ -102,7 +102,7 @@ Die verwandte Frage, welche gekoppelten Veränderungen abrupt oder schwer umkehr
 
 ## Wohin als Nächstes
 
-Die begleitenden Artikel dieses Clusters zerlegen den Rahmen in handhabbare Teile: die Komponenten und ihre Zeitskalen; die gemeinsame Logik der biogeochemischen Kreisläufe und insbesondere die Kreisläufe von Kohlenstoff, Wasser und Stickstoff; Rückkopplungen allgemein sowie die Fälle Wasserdampf und Eis-Albedo im Einzelnen; Ozeanzirkulation, ENSO und Telekonnektionen; die Kryosphäre und die Biosphäre als aktiv Beteiligte; und die Methoden – essenzielle Klimavariablen, Erdsystemmodelle, Vorhersagbarkeit und Kipppunkte.
+Die begleitenden Artikel dieses Clusters zerlegen den Rahmen in handhabbare Teile: die Komponenten und ihre Zeitskalen; die gemeinsame Logik der biogeochemischen Kreisläufe und insbesondere die Kreisläufe von Kohlenstoff, Wasser und Stickstoff; Rückkopplungen allgemein sowie die Fälle Wasserdampf und Eis-Albedo im Einzelnen; [Ozeanzirkulation](/de/glossary/ocean-circulation), ENSO und Telekonnektionen; die Kryosphäre und die Biosphäre als aktiv Beteiligte; und die Methoden – essenzielle Klimavariablen, Erdsystemmodelle, Vorhersagbarkeit und Kipppunkte.
 
 ## Sources
 

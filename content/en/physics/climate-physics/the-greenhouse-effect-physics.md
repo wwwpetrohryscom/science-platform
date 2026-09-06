@@ -1,11 +1,11 @@
 ---
 title: 'The greenhouse effect: the emission-height argument, done properly'
-metaTitle: 'The greenhouse effect and the emission-height argument'
+metaTitle: The greenhouse effect and the emission-height argument
 excerpt: Neither the blanket nor the greenhouse describes what actually happens. The mechanism is a shift in the altitude from which the planet radiates to space, and it only works because temperature falls with height.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - greenhouse-effect
@@ -18,7 +18,7 @@ related:
   - atmospheric-structure-and-lapse-rate
   - climate-sensitivity-explained
 pillar: atmospheric-physics-explained
-_bodyHash: cd9f1534
+_bodyHash: 39631ace
 ---
 
 An actual greenhouse works by stopping convection: the glass keeps warm air from rising away, and the radiative properties of the glass are secondary. The atmosphere does not do that — the troposphere convects vigorously, which is precisely the point. A blanket works by suppressing conduction and convection at the skin. The atmosphere does not do that either. Both metaphors survive because they get the sign of the answer right, and both fail the moment anyone asks what happens when the concentration changes.
@@ -61,11 +61,11 @@ The outgoing spectrum has been compared across decades. Work published in *Natur
 
 The surface side has been measured too. Spectroscopic observations at two Department of Energy sites, the Southern Great Plains and the North Slope of Alaska, yielded clear-sky carbon dioxide surface radiative forcing attributable to the 22 ppm rise between 2000 and 2010, with trends of 0.2 W/m² per decade at each site — uncertainties of ± 0.06 and ± 0.07 W/m² per decade respectively — and seasonal ranges of 0.1 to 0.2 W/m². The authors note this amounts to roughly 10 per cent of the trend in total downwelling longwave radiation, which is a useful reminder of how small the signal is relative to the flux carrying it.
 
-The energy is going somewhere, and it is measurable at the top of the atmosphere. NASA's CERES project gives the magnitude of the imbalance as approximately 0.7 W/m², or 0.3 per cent of absorbed solar radiation — a figure its science overview states without attaching a period to it — while the IPCC's assessed value for 2006–2018 is 0.79 [0.52 to 1.06] W/m².
+The energy is going somewhere, and it is measurable at the top of the atmosphere. NASA's CERES project gives the magnitude of the imbalance as approximately 0.7 W/m², or 0.3 per cent of absorbed [solar radiation](/en/physics/energy/solar-radiation-and-earth-energy-balance) — a figure its science overview states without attaching a period to it — while the IPCC's assessed value for 2006–2018 is 0.79 [0.52 to 1.06] W/m².
 
 ## One emission height is a summary statistic
 
-A caveat is owed to the argument this page has been making. "The" emission height is an average over a spectrum whose individual wavelengths escape from levels kilometres apart, and in the window region much of what leaves still comes from the surface itself. A single altitude is a convenient summary, not a place. The physics is exact wavelength by wavelength and only tidy in aggregate, which is worth remembering whenever the five-kilometre figure is used as though it were a measurement.
+A caveat is owed to the argument this page has been making. "The" [emission height](/en/glossary/emission-height) is an average over a spectrum whose individual wavelengths escape from levels kilometres apart, and in the window region much of what leaves still comes from the surface itself. A single altitude is a convenient summary, not a place. The physics is exact wavelength by wavelength and only tidy in aggregate, which is worth remembering whenever the five-kilometre figure is used as though it were a measurement.
 
 What the account establishes is the sign, and for the direct radiative change roughly the magnitude. It does not settle the response. The step from about 4 W/m² of extra absorption to a surface temperature change runs through water vapour, lapse-rate adjustment, surface albedo and clouds, and the cloud term — the reason the spread in sensitivity estimates has resisted narrowing, as [the treatment of cloud physics](/en/physics/climate-physics/convection-and-cloud-formation) sets out — is the least constrained of the four.
 

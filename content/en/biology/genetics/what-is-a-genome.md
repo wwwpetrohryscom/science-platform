@@ -4,8 +4,8 @@ excerpt: A genome is the complete DNA content of a cell. Size, gene count and fu
 type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 8
+updatedDate: '2026-09-05'
+readingTime: 7
 tags:
   - genomics
   - genome-size
@@ -18,7 +18,7 @@ related:
   - mutation-types-and-rates
   - dna-sequencing-technologies
 pillar: what-is-dna
-_bodyHash: 899feca
+_bodyHash: 6ce2c720
 ---
 
 A genome is the complete set of DNA carried by a cell — the nuclear chromosomes plus whatever the mitochondria and, in plants, the plastids carry on their own. That definition is not contested. Almost everything built on top of it is a measurement, and the three measurements people reach for most often — how large a genome is, how many genes it contains, and how much of it does anything — differ enormously in how firmly they are established. Only the first is close to settled. The molecular substrate is treated separately in [what DNA is and what it does not determine](/en/biology/genetics/what-is-dna); this page is about the accounting layer sitting above the molecule.
@@ -49,7 +49,7 @@ Against that, the nematode *Caenorhabditis elegans* — 97 megabases, roughly a 
 
 The most contested number in genomics is the fraction of the human genome that is functional, and the dispute is definitional before it is empirical. The ENCODE consortium reported in 2012 that its assays could "assign biochemical functions for 80% of the genome" — 80.4 per cent in its own tally, which is the share of the genome covered by at least one ENCODE-identified element. The broadest class was RNA: 62 per cent of genomic bases were reproducibly represented in sequenced long RNA molecules or annotated exons, a measure of [transcription across the genome](/en/glossary/transcription), though the majority of that lies inside introns or near genes. Regions enriched for histone modifications covered 56.1 per cent, open chromatin 15.2 per cent and transcription-factor binding 8.1 per cent; on the consortium's own most conservative assessment, 8.5 per cent of bases fall within a transcription-factor binding motif or a DNase footprint.
 
-A detailed critique in *Genome Biology and Evolution* argued that this uses a causal-role definition — this sequence does something measurable — where evolutionary biology uses a selected-effect definition: this sequence is maintained by purifying selection because losing it costs fitness. On the second criterion, comparative genomics puts the conserved fraction below 15 per cent, with the most comprehensive analysis near 5 per cent, rising to roughly 9 per cent once lineage-specific constraint inferred from within-species variation is added. The critique's sharpest point is arithmetic: if 80 per cent is functional and only about 10 per cent is under selection, then some 70 per cent of the genome would have to be functional while being immune to deleterious mutation.
+A detailed critique in *Genome Biology and Evolution* argued that this uses a causal-role definition — this sequence does something measurable — where [evolutionary biology](/en/biology/evolution/natural-selection-and-adaptation) uses a selected-effect definition: this sequence is maintained by purifying selection because losing it costs fitness. On the second criterion, comparative genomics puts the conserved fraction below 15 per cent, with the most comprehensive analysis near 5 per cent, rising to roughly 9 per cent once lineage-specific constraint inferred from within-species variation is added. The critique's sharpest point is arithmetic: if 80 per cent is functional and only about 10 per cent is under selection, then some 70 per cent of the genome would have to be functional while being immune to deleterious mutation.
 
 ENCODE's own authors published a considered response two years later, acknowledging in *PNAS* that biochemically active regions cover a much larger fraction of the genome than evolutionarily conserved regions do, and that biochemical, evolutionary and genetic approaches each answer a different question. That is the honest reading. Neither figure is a mistake; they are measurements of different properties, and a headline that converts "biochemically active" into "needed" has changed the claim.
 

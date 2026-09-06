@@ -5,7 +5,7 @@ excerpt: Flüsse, Seen und Sümpfe halten weniger als ein Hundertstel Prozent de
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - freshwater
@@ -19,7 +19,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: 676a1a4b
+_bodyHash: 945930f7
 ---
 
 Alle Seen und Flussbetten der Erde zusammen halten rund 93.100 Kubikkilometer Wasser. Der Ozean hält 1.338.000.000. In der globalen Wasserverteilungstabelle, welche die USGS Water Science School führt, entspricht dieser Oberflächenanteil etwa einem Hundertfünfzigstel eines Prozents allen Wassers; rechnet man die Sümpfe der Welt hinzu, bleibt die Summe noch immer unter einem Hundertstel Prozent. Den Artenbewertungen zufolge beherbergen dieselben Lebensräume mehr als 10 Prozent aller beschriebenen Arten, darunter rund ein Drittel der Wirbeltiere und etwa die Hälfte aller Fische. Die Süßwasserökologie besteht weitgehend darin, zu untersuchen, was aus diesem Verhältnis folgt.
@@ -30,13 +30,13 @@ Es lohnt sich, die Verteilungstabelle genau zu lesen, denn sie wird häufiger zi
 
 Diese drei Oberflächenvorräte miteinander zu vergleichen, ist aufschlussreicher, als einen von ihnen mit dem Ozean zu vergleichen. Vom flüssigen Süßwasser, das an der Oberfläche steht oder fließt, entfallen auf Seen rund 87 Prozent, auf Feuchtgebiete etwa 11 Prozent und auf Flüsse etwa 2 Prozent. Volumetrisch sind Flüsse so gut wie nichts.
 
-Die Flächenbilanz ergibt ein anderes Bild. Eine satellitengestützte Inventur der Seen der Welt zählte etwa 117 Millionen Wasserkörper von mehr als 0,002 Quadratkilometern, die zusammen nahezu 5 Millionen Quadratkilometer bedecken, also 3,7 Prozent der nicht vergletscherten Landoberfläche. Eine davon unabhängige Rekonstruktion aus Landsat-abgeleiteten Flussbreiten beziffert die Wasserfläche von Flüssen und Bächen beim mittleren Jahresabfluss auf 773.000 ± 79.000 Quadratkilometer, das sind 0,58 ± 0,06 Prozent der nicht vergletscherten Landfläche – rund 44 Prozent mehr als frühere Schätzungen. Süßgewässer sind dünne Filme mit langen Rändern, keine Speicher. Ihr ökologisches Gewicht stammt aus Fläche, Rand und Verbindung, nicht aus Volumen, und ihre Rolle im [globalen Wasserkreislauf](/de/ecology/earth-systems/global-water-cycle-explained) ist die des raschen Weitertransports, nicht der Speicherung.
+Die Flächenbilanz ergibt ein anderes Bild. Eine satellitengestützte Inventur der Seen der Welt zählte etwa 117 Millionen Wasserkörper von mehr als 0,002 Quadratkilometern, die zusammen nahezu 5 Millionen Quadratkilometer bedecken, also 3,7 Prozent der nicht vergletscherten Landoberfläche. Eine davon unabhängige Rekonstruktion aus Landsat-abgeleiteten Flussbreiten beziffert die Wasserfläche von Flüssen und Bächen beim mittleren Jahresabfluss auf 773.000 ± 79.000 Quadratkilometer, das sind 0,58 ± 0,06 Prozent der nicht vergletscherten Landfläche – rund 44 ± 15 Prozent mehr als frühere Schätzungen. Süßgewässer sind dünne Filme mit langen Rändern, keine Speicher. Ihr ökologisches Gewicht stammt aus Fläche, Rand und Verbindung, nicht aus Volumen, und ihre Rolle im [globalen Wasserkreislauf](/de/ecology/earth-systems/global-water-cycle-explained) ist die des raschen Weitertransports, nicht der Speicherung.
 
 ## Warum sich ein Einzugsgebiet wie eine Insel verhält
 
 Ein Flussnetz ist dendritisch. Wasser bewegt sich darin abwärts, und die meisten streng aquatischen Organismen können sich nur entlang dieses Netzes bewegen. Um in das nächste Einzugsgebiet zu gelangen, müsste ein Fisch, eine Muschel oder eine Köcherfliege entweder eine Wasserscheide oder Salzwasser überwinden, und die meisten können weder das eine noch das andere. Einzugsgebiete stehen damit Inseln näher als Waldstücken, und sie haben die Biogeographie von Inseln: kleine Areale, hoher Artenwechsel zwischen benachbarten Systemen und sehr viel Endemismus, der sich auf einzelne Einzugsgebiete oder einzelne Seen konzentriert.
 
-Daraus folgen drei Konsequenzen, die auf jeder Seite dieses Themenblocks wiederkehren. Endemische Arten sind häufig, weshalb ein lokales Erlöschen oft dem globalen Aussterben gleichkommt. Die Areale sind klein, weshalb eine einzige Stauhaltung, eine einzige Ableitung oder eine einzige Schadstoffquelle das gesamte Verbreitungsgebiet einer Art erfassen kann. Und weil das Netz linear ist, entzieht ein Hindernis an beliebiger Stelle flussaufwärts dem stromab gelegenen System alles, was oberhalb davon liegt – eine Form der [Habitatfragmentierung](/en/glossary/habitat-fragmentation) ohne terrestrisches Gegenstück, die der Artikel über [Talsperren und die Zerschneidung von Flüssen](/de/ecology/freshwater/dams-and-river-fragmentation) im Einzelnen behandelt.
+Daraus folgen drei Konsequenzen, die auf jeder Seite dieses Themenblocks wiederkehren. Endemische Arten sind häufig, weshalb ein lokales Erlöschen oft dem globalen Aussterben gleichkommt. Die Areale sind klein, weshalb eine einzige Stauhaltung, eine einzige Ableitung oder eine einzige Schadstoffquelle das gesamte Verbreitungsgebiet einer Art erfassen kann. Und weil das Netz linear ist, entzieht ein Hindernis an beliebiger Stelle flussaufwärts dem stromab gelegenen System alles, was oberhalb davon liegt – eine Form der [Habitatfragmentierung](/de/glossary/habitat-fragmentation) ohne terrestrisches Gegenstück, die der Artikel über [Talsperren und die Zerschneidung von Flüssen](/de/ecology/freshwater/dams-and-river-fragmentation) im Einzelnen behandelt.
 
 ## Vier Kompartimente, vier verschieden gehende Uhren
 
@@ -55,7 +55,7 @@ Weil die Uhren verschieden gehen, unterscheiden sich auch die Versagensweisen. I
 
 ## Was die Gefährdungsdaten tatsächlich sagen
 
-Die bislang umfangreichste veröffentlichte Süßwasserbewertung umfasste 23.496 Arten – 14.628 Süßwasserfische, 6.223 Groß- und Kleinlibellen sowie 2.645 Zehnfußkrebse – und fand 24 Prozent von ihnen vom Aussterben bedroht. Am stärksten betroffen waren die Zehnfußkrebse mit 30 Prozent, die Fische mit 26 Prozent und die Libellen mit 16 Prozent. Neunundachtzig bewertete Arten, 0,4 Prozent der Gesamtzahl und überwiegend Fische, sind als ausgestorben verzeichnet.
+Die bislang umfassendste Bewertung mehrerer Tiergruppen der weltweiten Süßwasserfauna auf der Roten Liste der IUCN, 2025 in *Nature* veröffentlicht, umfasste 23.496 Arten – 14.628 Süßwasserfische, 6.223 Groß- und Kleinlibellen sowie 2.645 Zehnfußkrebse – und fand 24 Prozent von ihnen vom Aussterben bedroht. Am stärksten betroffen waren die Zehnfußkrebse mit 30 Prozent, die Fische mit 26 Prozent und die Libellen mit 16 Prozent. Neunundachtzig bewertete Arten, 0,4 Prozent der Gesamtzahl, sind als seit 1500 ausgestorben verzeichnet; 82 der 89 sind Fische.
 
 Die Aufschlüsselung der Gefährdungsursachen wiegt schwerer als die Schlagzeile. Unter den gefährdeten Arten sind 54 Prozent von Verschmutzung betroffen, 39 Prozent von Talsperren und Wasserentnahme, 37 Prozent von Landnutzungswandel und den damit verbundenen Wirkungen der Landwirtschaft sowie 28 Prozent von invasiven Arten und Krankheiten; für knapp ein Fünftel sind Klimawandel und Extremwetter als Belastung verzeichnet. Diese Kategorien überschneiden sich stark – auf die meisten gefährdeten Arten treffen mehrere zu –, sodass sich die Anteile nicht addieren lassen und kein einzelner Hebel die Mehrheit erreicht.
 

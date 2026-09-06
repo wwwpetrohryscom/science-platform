@@ -4,7 +4,7 @@ excerpt: A stand can lose most of its carbon and much of its biodiversity while 
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - forest-degradation
@@ -37,7 +37,7 @@ Four processes account for most of it, and they overlap in the same landscapes:
 
 - **Selective logging**, which removes a small number of high-value stems per hectare but opens the canopy, compacts soil and cuts extraction roads.
 - **Understorey fire**, which in humid tropical forest kills thin-barked trees without producing the burn scar that a stand-replacing fire leaves.
-- **Edge effects**, the altered microclimate, wind exposure and tree mortality that propagate hundreds of metres inward from a cleared boundary.
+- **[Edge effects](/en/ecology/conservation/habitat-fragmentation-and-connectivity)**, the altered microclimate, wind exposure and tree mortality that propagate hundreds of metres inward from a cleared boundary.
 - **Extreme drought**, which raises mortality and reduces growth across whole regions without any local intervention at all.
 
 None of these produces a clean boundary in an image, and the first three are also mutually reinforcing: a logging road creates edge, edge dries fuel, fire kills more stems, and the opened canopy dries the next patch. Where the same landscape is also being fragmented, the mechanisms that make [fragmentation metrics hard to interpret](/en/ecology/biodiversity/habitat-fragmentation-metrics) apply here too, because both processes act on edges rather than on areas.
@@ -46,7 +46,7 @@ None of these produces a clean boundary in an image, and the first three are als
 
 A clearing changes the reflectance of a 30 metre pixel decisively and permanently. Removing five to ten stems per hectare from a closed tropical canopy changes it slightly and briefly: neighbouring crowns expand into the gaps within a season or two, so a sensor revisiting the following year may record nothing at all. Cloud and smoke, both concentrated in exactly the seasons when disturbance peaks, remove much of what remains.
 
-The products designed to handle this treat the two processes as separate layers rather than as degrees of one thing. The European Commission's tropical moist forest dataset, built from 43 years of Landsat imagery at 0.09 hectare resolution, distinguishes deforestation — "a change in land cover (from forest to non-forested land)" — from degradation, defined as "a temporary disturbance in a forest remaining forested such as selective logging, fires and unusual weather events", with each event characterised by its timing and intensity. That is a modelling decision, not a discovery, and it makes the classification dependent on how long "temporary" is allowed to be.
+The products designed to handle this treat the two processes as separate layers rather than as degrees of one thing. The European Commission's tropical moist forest dataset, built from 43 years of Landsat imagery at 0.09 hectare resolution, distinguishes deforestation — "a change in [land cover](/en/ecology/earth-observation/land-cover-change-detection) (from forest to non-forested land)" — from degradation, defined as "a temporary disturbance in a forest remaining forested such as selective logging, fires and unusual weather events", with each event characterised by its timing and intensity. That is a modelling decision, not a discovery, and it makes the classification dependent on how long "temporary" is allowed to be.
 
 Where the layers have been analysed together, the sequencing is the striking result. A pantropical assessment of that record found that 17 percent of tropical moist forest had disappeared since 1990, leaving 1,071 million hectares in 2019 of which 10 percent was degraded, and that initial degradation preceded outright clearance in 45 percent of cases. Disturbance is often the first stage of conversion rather than an alternative to it. The general limits on what an orbital sensor can resolve, and the class of things it systematically under-reports, are set out in [what satellites cannot see](/en/insight/what-satellites-cannot-see).
 
@@ -58,7 +58,7 @@ A satellite-biomass analysis of the Brazilian Amazon for 2010–2019 found a cum
 
 Three qualifications belong with those figures. They describe one region under a specific set of pressures, and an Amazonian ratio is not a global one; the Congo Basin and Southeast Asia have different logging regimes, fire regimes and drought exposure. The split between the two categories depends on where the boundary between them is drawn, which returns to the definitional problem above. And both estimates rest on satellite biomass products whose model error is substantial and is not fully propagated into the headline ratio — the reason that [the error budget behind any forest carbon number](/en/ecology/forests/forest-carbon-measurement) is worth reading before the number itself.
 
-What does corroborate the direction independently is inventory work. A ground-based synthesis of plot data across three biomes found the carbon sink in intact tropical forest weakening by 31 ± 7 percent between the 1990s–2000s and the 2010s, attributed to loss of intact area, while tropical regrowth forests strengthened. Two methods with different failure modes point the same way, which is a better basis for confidence than either alone.
+What does corroborate the direction independently is inventory work. A ground-based synthesis of plot data across three biomes found the [carbon sink](/en/ecology/earth-systems/carbon-cycle-explained) in intact tropical forest weakening by 31 ± 7 percent between the 1990s–2000s and the 2010s, attributed to loss of intact area, while tropical regrowth forests strengthened. Two methods with different failure modes point the same way, which is a better basis for confidence than either alone.
 
 ## The binding constraint is definitional, not instrumental
 

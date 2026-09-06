@@ -4,7 +4,7 @@ excerpt: Farmland is an ecosystem held in an early successional state by continu
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - agroecosystems
@@ -61,7 +61,7 @@ That is a result about the state of the evidence rather than about farming. Twen
 
 Agroecology, as FAO frames it, is a system-redesign approach built on ten interlinked elements — diversity, synergies, recycling, resilience and efficiency among the ecological ones, alongside human and social values, culture and food traditions, co-creation of knowledge, responsible governance and circular economies. The ecological half of that list makes empirically testable predictions, and it has been tested at scale.
 
-A second-order meta-analysis published in *Science Advances* reviewed 98 meta-analyses covering 5,160 original studies and 41,946 comparisons between diversified and simplified cropping practices. Diversification enhanced biodiversity, pollination, pest control, nutrient cycling, soil fertility and water regulation without compromising crop yields overall. The effects sorted by target: practices acting aboveground improved pest control and water regulation, while practices acting belowground improved nutrient cycling, soil fertility and water regulation. Restoring predator and parasitoid guilds is the mechanism behind the pest-control result, which depends on the same [trophic structure](/en/ecology/ecosystems/food-webs-and-trophic-structure) that simplification removes.
+A second-order meta-analysis published in *Science Advances* reviewed 98 meta-analyses covering 5,160 original studies and 41,946 comparisons between diversified and simplified cropping practices. Diversification enhanced biodiversity, pollination, pest control, [nutrient cycling](/en/ecology/forests/tropical-forest-ecology), soil fertility and water regulation without compromising crop yields overall. The effects sorted by target: practices acting aboveground improved pest control and water regulation, while practices acting belowground improved nutrient cycling, soil fertility and water regulation. Restoring predator and parasitoid guilds is the mechanism behind the pest-control result, which depends on the same [trophic structure](/en/ecology/ecosystems/food-webs-and-trophic-structure) that simplification removes.
 
 Three qualifications belong with that finding. The result is a mean across a heterogeneous set of practices, crops and climates, and the same analysis reports substantial variability in responses and genuine trade-offs, so context-dependency is part of the finding rather than a caveat appended to it. A meta-analysis of meta-analyses also inherits whatever publication bias sits in its inputs, and comparisons are between diversified and simplified versions of a system, not against an absolute standard. And "without compromising yield" is measured per hectare in field trials, which is not the same accounting as output per farm, per unit of labour, or per unit of input cost — the accountings that determine whether a practice is adopted.
 

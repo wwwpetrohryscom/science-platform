@@ -5,7 +5,7 @@ excerpt: Атом и ядро в его центре различаются на
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - nuclear-physics
@@ -18,6 +18,7 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
+_bodyHash: 1c83fd41
 ---
 Два сравнения задают всё дальнейшее. Боровский радиус — естественный масштаб длины атома — в подгонке CODATA 2022 года равен 5,2918 × 10⁻¹¹ м. Зарядовый радиус ядра урана-238 по оценённым ядерным данным МАГАТЭ равен 5,8571 ± 0,0033 фм, то есть 5,8571 × 10⁻¹⁵ м. По радиусу ядро меньше окружающего его атома примерно в девять тысяч раз.
 

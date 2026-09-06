@@ -5,8 +5,8 @@ excerpt: Una sustancia se convierte en contaminación solo cuando se alinean una
 type: pillar
 author: public-health-environment-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 9
+updatedDate: '2026-09-05'
+readingTime: 10
 tags:
   - risk-assessment
   - exposure
@@ -19,7 +19,7 @@ related:
   - nitrogen-pollution-and-eutrophication
   - heavy-metals-in-the-environment
   - persistent-organic-pollutants
-_bodyHash: 9c4dd195
+_bodyHash: 81bd3a8f
 ---
 
 Una sustancia no es contaminación por lo que es. Se convierte en contaminación cuando se alinean tres cosas: una **fuente** que la libera, una **vía** que la lleva a alguna parte y un **receptor** —una persona, una población, una especie, un hábitat— situado al final de esa vía. Basta con cortar cualquiera de las tres para que el daño desaparezca sin que la sustancia deje de estar presente ni de ser tóxica. Al sellar un emplazamiento contaminado, la fuente permanece y la vía se cierra. Al trasladar una captación de agua potable, el receptor se aparta del camino.
@@ -30,7 +30,7 @@ Esa es la lógica operativa de casi toda la normativa ambiental en vigor, y es l
 
 La Agencia de Protección Ambiental de Estados Unidos define un agente estresor como «cualquier entidad física, química o biológica capaz de inducir un efecto adverso en las personas o en los ecosistemas», y el riesgo como «la probabilidad de efectos nocivos para la salud humana o para los sistemas ecológicos derivados de la exposición a un agente estresor ambiental». Lo primero es una propiedad. Lo segundo es una afirmación sobre una configuración concreta de fuente, vía y receptor.
 
-La mayoría de las discusiones que descarrilan en público confunden ambas cosas. «El compuesto X causa cáncer en animales» es una afirmación sobre el peligro; puede ser cierta mientras el riesgo de un producto determinado es insignificante, porque ninguna vía los conecta. «No hay X detectable en el agua» es una afirmación sobre la vía; puede ser cierta mientras el peligro es grave, y no dice nada sobre el aire ni sobre el suelo. La réplica de que la dosis hace el veneno no zanja ninguna de las dos disputas: las traslada a la relación dosis-respuesta, que es donde vive el desacuerdo científico genuino.
+La mayoría de las discusiones que descarrilan en público confunden ambas cosas. «El compuesto X causa cáncer en animales» es una afirmación sobre el peligro; puede ser cierta mientras el riesgo de un producto determinado es insignificante, porque ninguna vía los conecta. «No hay X detectable en el agua» es una afirmación sobre la vía; puede ser cierta mientras el peligro es grave, y no dice nada sobre el aire ni sobre el suelo. La réplica de que la dosis hace el veneno no zanja ninguna de las dos disputas: las traslada a la [relación dosis-respuesta](/es/glossary/dose-response), que es donde vive el desacuerdo científico genuino.
 
 ## Dónde ocurre de verdad la discusión
 

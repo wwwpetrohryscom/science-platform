@@ -4,8 +4,8 @@ excerpt: An atom and the nucleus at its centre differ by four orders of magnitud
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 7
 tags:
   - nuclear-physics
   - atomic-structure
@@ -17,18 +17,18 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
-_bodyHash: ec5f9bdf
+_bodyHash: 7ec89407
 ---
 
 Two comparisons set up everything that follows. The Bohr radius, the natural length scale of an atom, is 5.2918 × 10⁻¹¹ m in the 2022 CODATA adjustment. The charge radius of a uranium-238 nucleus, from the IAEA's evaluated nuclear data, is 5.8571 ± 0.0033 fm — that is 5.8571 × 10⁻¹⁵ m. In radius, the nucleus is smaller than the atom around it by a factor of about nine thousand.
 
-The energy scales are further apart still. The Rydberg energy, which sets the scale for pulling the electron off a hydrogen atom, is 13.6057 eV. The average binding energy per nucleon in a mid-mass nucleus is close to 8.79 MeV — roughly 650,000 times more. Nuclear physics and chemistry are the same physics applied at two scales that barely overlap, and almost every counterintuitive fact about radioactivity, reactors and stars follows from how large that separation is.
+The energy scales are further apart still. The Rydberg energy, which sets the scale for pulling the electron off a hydrogen atom, is 13.6057 eV. The average [binding energy](/en/glossary/binding-energy) per nucleon in a mid-mass nucleus is close to 8.79 MeV — roughly 650,000 times more. Nuclear physics and chemistry are the same physics applied at two scales that barely overlap, and almost every counterintuitive fact about radioactivity, reactors and stars follows from how large that separation is.
 
 ## Why the electron cloud and the nucleus behave like separate subjects
 
 Chemistry is what the outer electrons do. Which reactions an atom enters, what colour its compounds are, whether the solid it forms conducts — all of it is decided by electron states at the electronvolt scale, the same physics that gives solids their band structure and is taken up in [how band theory sorts conductors from insulators](/en/physics/matter-radiation/materials-physics-and-semiconductors).
 
-The nucleus contributes almost nothing to that. It supplies charge, which fixes how many electrons the atom holds, and mass, which shifts vibrational frequencies slightly. Change the neutron count and you have a different **isotope**: a nucleus of the same element with different mass and, often, entirely different stability. Carbon-12 and carbon-14 form chemically indistinguishable molecules and are taken up by living tissue in very nearly the same way; one is stable and the other decays with a half-life of 5,700 years.
+The nucleus contributes almost nothing to that. It supplies charge, which fixes how many electrons the atom holds, and mass, which shifts vibrational frequencies slightly. Change the neutron count and you have a different **isotope**: a nucleus of the same element with different mass and, often, entirely different stability. Carbon-12 and carbon-14 form chemically indistinguishable molecules and are taken up by living tissue in very nearly the same way; one is stable and the other decays with a half-life of 5,700 years. The stable one also used to define chemistry's counting unit, until [the mole was redefined as a bare number](/en/physics/matter-radiation/counting-atoms-and-the-mole).
 
 That near-independence has a practical consequence which recurs throughout this subject. Isotopes cannot be separated by chemistry in any straightforward way, because chemistry cannot see the difference. Separating them requires exploiting the mass difference itself, which is why uranium enrichment is an industrial problem rather than a laboratory one.
 

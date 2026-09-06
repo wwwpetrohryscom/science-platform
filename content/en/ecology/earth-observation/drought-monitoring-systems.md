@@ -5,7 +5,7 @@ excerpt: Drought is monitored with a combination of climate indices and satellit
 type: expert
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - drought
   - monitoring
@@ -20,11 +20,11 @@ readingTime: 4
 pillar: earth-observation-and-remote-sensing-explained
 ---
 
-Drought is not a single condition but a family of related water deficits, and that is why it cannot be captured by one measurement. Monitoring systems instead combine climate indices, calculated from station and gridded records, with satellite observations of precipitation, soil moisture, vegetation, and water storage. The picture that emerges is a composite, assembled from several lines of evidence that each describe a different part of the same shortfall.
+Drought is not a single condition but a family of related water deficits, and that is why it cannot be captured by one measurement. Monitoring systems instead combine climate indices, calculated from station and gridded records, with satellite observations of precipitation, [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers), vegetation, and water storage. The picture that emerges is a composite, assembled from several lines of evidence that each describe a different part of the same shortfall.
 
 ## What kind of drought is being measured
 
-A useful first step is to separate the types of drought, because they unfold on different timescales and show up in different data. Meteorological drought is a deficit of precipitation: less rain or snow falls than the local climate would lead one to expect. Agricultural drought is a deficit of soil moisture, the condition in which the water available in the root zone is too low to meet the needs of crops and other plants. Hydrological drought concerns the slower parts of the water cycle — low streamflow, depleted reservoirs, and declining groundwater — and it can persist long after rainfall has returned to normal.
+A useful first step is to separate the types of drought, because they unfold on different timescales and show up in different data. Meteorological drought is a deficit of precipitation: less rain or snow falls than the local climate would lead one to expect. Agricultural drought is a deficit of soil moisture, the condition in which the water available in the root zone is too low to meet the needs of crops and other plants. Hydrological drought concerns the slower parts of the [water cycle](/en/ecology/earth-systems/global-water-cycle-explained) — low streamflow, depleted reservoirs, and declining groundwater — and it can persist long after rainfall has returned to normal.
 
 These categories overlap but do not move together. A short dry spell may stress crops without lowering river levels, while a hydrological drought can linger in aquifers after the surface has recovered. Tracking all three is the reason monitoring relies on several indicators rather than one.
 

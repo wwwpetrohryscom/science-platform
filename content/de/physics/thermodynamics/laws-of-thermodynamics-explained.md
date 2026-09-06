@@ -1,11 +1,11 @@
 ---
 title: 'Die Hauptsätze der Thermodynamik: was jeder von ihnen tatsächlich verbietet'
-metaTitle: 'Die Hauptsätze der Thermodynamik und ihre Verbote'
+metaTitle: Die Hauptsätze der Thermodynamik und ihre Verbote
 excerpt: Die vier Hauptsätze sind Verbote, keine Rezepte. Jeder schließt eine Klasse von Maschinen oder Prozessen aus, und gemeinsam legen sie fest, was Temperatur bedeutet, was die Energiebilanz aufgehen lassen muss und in welche Richtung ein Prozess laufen kann.
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - thermodynamics
@@ -18,8 +18,9 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
+_bodyHash: b2d48907
 ---
-[Thermodynamik](/en/glossary/thermodynamics) ist eine Sammlung von Verboten. Jeder ihrer vier Hauptsätze sagt, dass etwas nicht getan werden kann, und jeder hat die mikroskopischen Theorien überlebt, die ihn erklären sollten — den Wärmestoff, dann die klassische Mechanik, dann die klassische Feldtheorie. Deshalb schränkt ein Dampfargument aus dem 19. Jahrhundert unverändert noch immer eine Solarzelle, einen Haushaltskühlschrank und ein Bakterium ein.
+[Thermodynamik](/de/glossary/thermodynamics) ist eine Sammlung von Verboten. Jeder ihrer vier Hauptsätze sagt, dass etwas nicht getan werden kann, und jeder hat die mikroskopischen Theorien überlebt, die ihn erklären sollten — den Wärmestoff, dann die klassische Mechanik, dann die klassische Feldtheorie. Deshalb schränkt ein Dampfargument aus dem 19. Jahrhundert unverändert noch immer eine Solarzelle, einen Haushaltskühlschrank und ein Bakterium ein.
 
 Sie werden auch lockerer zitiert, als sie benutzt werden. „Energie bleibt erhalten" und „Entropie nimmt zu" sind Schlagworte, die die angehängten Bedingungen fallen lassen, und in diesen Bedingungen wohnt die Verwirrung über Perpetua mobilia, Wirkungsgradbehauptungen und lebende Systeme.
 
@@ -33,7 +34,7 @@ Diese Zahl beruht heute auf einer festgelegten Konstante statt auf einer Substan
 
 ## Der erste Hauptsatz: Energie bleibt erhalten, und Wärme ist nichts, was ein Körper enthält
 
-Der erste Hauptsatz erweitert die Energieerhaltung um die Wärme: Die Änderung der inneren Energie eines Systems ist gleich der zugeführten Wärme minus der vom System verrichteten Arbeit. Sein Gehalt liegt im Unterschied zwischen den Termen. Innere Energie ist eine **[Zustandsgröße](/en/glossary/state-function)** — sie hängt nur vom gegenwärtigen Zustand ab, sodass ein Rundweg sie an den Ausgangspunkt zurückbringt. Wärme und Arbeit sind **Prozessgrößen**: Sie beschreiben Energie, die während eines Vorgangs eine Grenze überschreitet, und ihre Aufteilung hängt davon ab, wie der Vorgang geführt wurde.
+Der erste Hauptsatz erweitert die Energieerhaltung um die Wärme: Die Änderung der inneren Energie eines Systems ist gleich der zugeführten Wärme minus der vom System verrichteten Arbeit. Sein Gehalt liegt im Unterschied zwischen den Termen. Innere Energie ist eine **[Zustandsgröße](/de/glossary/state-function)** — sie hängt nur vom gegenwärtigen Zustand ab, sodass ein Rundweg sie an den Ausgangspunkt zurückbringt. Wärme und Arbeit sind **Prozessgrößen**: Sie beschreiben Energie, die während eines Vorgangs eine Grenze überschreitet, und ihre Aufteilung hängt davon ab, wie der Vorgang geführt wurde.
 
 Praktisch folgt daraus, dass „wie viel Wärme enthält dieser Körper" keine wohlgeformte Frage ist. Ein Körper besitzt innere Energie; Wärme ist diese Energie im Übergang unter einem Temperaturunterschied, und Arbeit ist Energie im Übergang durch eine Kraft entlang eines Weges. Dieselbe Zustandsänderung lässt sich durch viele Kombinationen der beiden erreichen, weshalb der erste Hauptsatz allein nie einen Wirkungsgrad auszeichnet — er bringt die Bücher zum Ausgleich und hört dort auf.
 

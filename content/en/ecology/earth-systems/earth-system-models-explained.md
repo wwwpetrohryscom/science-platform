@@ -5,7 +5,7 @@ excerpt: An Earth system model is a coupled climate model with the biogeochemist
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-06'
 readingTime: 5
 tags:
   - earth-system-model
@@ -17,11 +17,11 @@ related:
   - earth-system-predictability-explained
   - essential-climate-variables-explained
   - climate-feedback-mechanisms
-_bodyHash: 658b6a24
+_bodyHash: 8605c457
 pillar: earth-system-science-explained
 ---
 
-"[Climate model](/en/glossary/climate-model)" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer, and it follows directly from [what makes Earth system science a distinct field](/en/ecology/earth-systems/earth-system-science-explained). This article describes the change, the international framework these models are run within, and where the resulting projections are weakest.
+"[Climate model](/en/glossary/climate-model)" and "Earth system model" are used interchangeably in most reporting, and the difference between them is not a matter of size. It is a specific architectural change with specific consequences for what the model can answer, and it follows directly from [what makes Earth system science a distinct field](/en/ecology/earth-systems/earth-system-science-explained). This article describes the change, the international framework these models are run within, and where the resulting projections are weakest. That is taken up separately in [anomalies, baselines and reference periods](/en/ecology/earth-systems/anomalies-baselines-and-reference-periods).
 
 Projection *uncertainty* — how scenario, model structure, and internal variability combine into a range — is treated separately in the existing article on [climate models and projections](/en/ecology/climate-change/climate-models-projections-uncertainty). The subject here is the machinery.
 
@@ -33,7 +33,7 @@ Those components correspond closely to the [Earth system components](/en/ecology
 
 ## What "Earth system" adds
 
-An [Earth system model](/en/glossary/earth-system-model) extends the coupled physical model with **interactive biogeochemistry**. The distinction is concrete: in a physical climate model, atmospheric CO₂ concentration is an input the modeller prescribes. In an ESM, the model is given emissions, and it computes the resulting concentration itself by simulating photosynthesis, respiration, soil decomposition, air–sea gas exchange, and ocean carbon chemistry.
+An [Earth system model](/en/glossary/earth-system-model) extends the coupled physical model with **interactive biogeochemistry**. The distinction is concrete: in a physical climate model, atmospheric CO₂ concentration is an input the modeller prescribes. In an ESM, the model is given emissions, and it computes the resulting concentration itself by simulating photosynthesis, respiration, soil decomposition, air–sea gas exchange, and [ocean carbon](/en/ecology/oceans/air-sea-gas-exchange) chemistry.
 
 That change matters for three reasons.
 
@@ -59,7 +59,7 @@ The reliability of a model result depends strongly on the quantity and the scale
 
 **Well constrained**: global and large-scale energy budgets, the sign and approximate magnitude of the major physical feedbacks, the large-scale temperature response to a given forcing, and the broad structure of atmospheric and oceanic circulation.
 
-**Less well constrained**: regional precipitation, especially where it depends on circulation shifts rather than thermodynamics; cloud processes, which AR6 identifies as the largest contributor to feedback uncertainty; the land carbon sink and its response to CO₂ and drought; and ice-sheet dynamics, which many ESMs still do not include interactively.
+**Less well constrained**: regional precipitation, especially where it depends on circulation shifts rather than thermodynamics; cloud processes, which AR6 identifies as the largest contributor to feedback uncertainty; the land [carbon sink](/en/ecology/earth-systems/carbon-cycle-explained) and its response to CO₂ and drought; and ice-sheet dynamics, which many ESMs still do not include interactively.
 
 The general rule is that quantities determined by conservation laws are more trustworthy than quantities determined by processes smaller than the model grid. Convection, cloud microphysics, turbulence, and vegetation processes all occur below grid scale and are represented by **parameterisations** — physically motivated approximations with tunable coefficients. Most inter-model disagreement traces back to parameterisation choices rather than to the resolved dynamics.
 

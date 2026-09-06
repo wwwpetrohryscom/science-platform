@@ -5,8 +5,8 @@ excerpt: Above a few hundred millisieverts the health effects of ionising radiat
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - radiation-protection
   - epidemiology
@@ -19,7 +19,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
-_bodyHash: 6055357f
+_bodyHash: bcaf4fbb
 ---
 
 Radiation biology splits its effects into two categories that behave nothing alike, and most public confusion comes from applying the logic of one to the other.

@@ -4,7 +4,7 @@ excerpt: A hormone carries no address. It reaches every tissue the blood reaches
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - endocrinology
@@ -17,7 +17,7 @@ related:
   - developmental-biology-explained
   - persistent-organic-pollutants
 pillar: physiology-explained
-_bodyHash: c9b1c830
+_bodyHash: b81ebb74
 ---
 
 A hormone carries no address. Once secreted it reaches every tissue the circulation reaches, at a concentration set by secretion rate, distribution volume and clearance. All of the specificity sits at the receiving end: a cell responds if and only if it holds a receptor with the right binding site, and the same molecule can therefore mean different things in different tissues. That is a strange way to build a control system, and it constrains what endocrine regulation is good at — which is one of the clearest illustrations of [what it takes to keep an internal variable within bounds](/en/biology/physiology/physiology-explained).

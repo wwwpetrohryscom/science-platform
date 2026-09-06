@@ -1,11 +1,11 @@
 ---
 title: 'Ocean heat content: the climate indicator the atmosphere can''t hide'
-metaTitle: 'Ocean heat content as a climate indicator'
+metaTitle: Ocean heat content as a climate indicator
 excerpt: Surface air temperature is noisy. The ocean is not. What ocean heat content measures, and why it is treated as the most stable indicator of climate-system warming.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-04-25'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - climate-change
@@ -17,10 +17,10 @@ related:
   - greenhouse-gases-and-radiative-forcing
   - earth-energy-budget-and-the-second-law
 pillar: what-is-climate-change
-_bodyHash: c367e01d
+_bodyHash: 6da0515f
 ---
 
-When journalists ask "is global warming continuing", the most defensible single answer is the [ocean heat content](/en/glossary/ocean-heat-content) (OHC) record. Roughly 90% of the energy added to the climate system by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere. The exact share depends on which inventory and which period are used — AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory, a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/).
+When journalists ask "is global warming continuing", the most defensible single answer is the [ocean heat content](/en/glossary/ocean-heat-content) (OHC) record. Roughly 90% of the energy added to the [climate system](/en/ecology/earth-systems/earth-system-science-explained) by greenhouse-gas forcing is taken up by the ocean, with the remainder split among land, ice, and the atmosphere. The exact share depends on which inventory and which period are used — AR6 assesses ocean heat uptake at 91% of the total change in the global energy inventory, a partition documented in the [IPCC AR6 Working Group I report](https://www.ipcc.ch/report/ar6/wg1/) and in NOAA's annual State of the Climate publications hosted at the [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/).
 
 Because the ocean stores so much of the imbalance, OHC is less affected by the year-to-year noise that masks trends in surface air temperature. It is the climate indicator the atmosphere cannot hide.
 
@@ -44,7 +44,7 @@ The fact that the trend is monotonic — every five-year window adds energy, wit
 
 ## What it does not measure
 
-OHC is a global aggregate. It does not by itself describe regional ocean warming, marine heatwaves, or specific impacts on ecosystems. For those, regional sea-surface temperature records and dedicated indicators apply — for example NOAA's [Coral Reef Watch](https://coralreefwatch.noaa.gov/) for thermal stress on corals, or the regional indicators surveyed by the [European Environment Agency](https://www.eea.europa.eu/).
+OHC is a global aggregate. It does not by itself describe regional ocean warming, [marine heatwaves](/en/ecology/oceans/coral-reef-ecology-and-bleaching), or specific impacts on ecosystems. For those, regional sea-surface temperature records and dedicated indicators apply — for example NOAA's [Coral Reef Watch](https://coralreefwatch.noaa.gov/) for thermal stress on corals, or the regional indicators surveyed by the [European Environment Agency](https://www.eea.europa.eu/).
 
 OHC also does not directly equate to sea-level rise. Thermal expansion contributes a portion of observed sea-level rise — roughly a third over the recent decades, with the balance from land-ice melt and changes in land-water storage. The decomposition is reported in AR6 and the related agency dashboards. Treating OHC as a sea-level proxy without that decomposition is inviting an error.
 
@@ -74,7 +74,7 @@ Three properties make OHC the cleanest climate indicator for general communicati
 2. The physical interpretation is unambiguous — energy in the climate system has only a few possible reservoirs, and the ocean is by far the largest.
 3. The dataset is publicly accessible and well-documented through NOAA, NASA, and the IPCC working-group materials.
 
-Combined with [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) on the input side and OHC on the storage side, the bookkeeping closes within stated uncertainties. That is what makes the climate-system energy budget a verified statement, not a model output to be argued with.
+Combined with [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) on the input side and OHC on the storage side, the bookkeeping closes within stated uncertainties. That is what makes the climate-system [energy budget](/en/ecology/climate-change/climate-sensitivity-explained) a verified statement, not a model output to be argued with.
 
 ## Sources
 

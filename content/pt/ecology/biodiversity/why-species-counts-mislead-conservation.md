@@ -1,11 +1,11 @@
 ---
 title: Porque é que as contagens de espécies enganam a priorização em conservação
-metaTitle: 'Porque a contagem de espécies engana a conservação'
+metaTitle: Porque a contagem de espécies engana a conservação
 excerpt: A riqueza específica é a métrica de biodiversidade mais fácil de calcular e a pior para definir prioridades. Quem prevê o desempenho dos ecossistemas é a diversidade funcional e filogenética — e essa discorda muitas vezes da contagem de espécies.
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - biodiversity
@@ -15,10 +15,10 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: 10e9a7c2
+_bodyHash: dba01165
 ---
 
-A riqueza específica — a contagem de espécies distintas numa área definida — é uma das medidas de biodiversidade mais citadas. É também incompleta enquanto métrica de priorização em conservação. As avaliações públicas da [Agência Europeia do Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), do [UNEP](https://www.unep.org/explore-topics/ecosystems) e da [IPBES](https://www.ipbes.net/global-assessment) tratam todas a perda de biodiversidade como algo mais do que um simples problema de contagem de espécies.
+A [riqueza específica](/pt/glossary/species-richness) — a contagem de espécies distintas numa área definida — é uma das medidas de [biodiversidade](/pt/glossary/biodiversity) mais citadas. É também incompleta enquanto métrica de priorização em conservação. As avaliações públicas da [Agência Europeia do Ambiente](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), do [UNEP](https://www.unep.org/explore-topics/ecosystems) e da [IPBES](https://www.ipbes.net/global-assessment) tratam todas a perda de biodiversidade como algo mais do que um simples problema de contagem de espécies.
 
 Este artigo explica o desajuste, resume as alternativas e defende que o uso rotineiro das contagens de espécies como sinal de priorização deve ser abandonado.
 

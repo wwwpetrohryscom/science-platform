@@ -1,11 +1,11 @@
 ---
 title: The five components of the Earth system, and why their boundaries leak
-metaTitle: 'The five components of the Earth system'
+metaTitle: The five components of the Earth system
 excerpt: Atmosphere, hydrosphere, cryosphere, biosphere, geosphere. The split is a working convention, and knowing where it breaks down is more instructive than memorising it.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - earth-system
@@ -34,15 +34,15 @@ The [hydrosphere](/en/glossary/hydrosphere) is dominated by the ocean. USGS figu
 
 The cryosphere — the frozen part — is the component that changes phase, and NSIDC groups it into snow on the ground, lake and river ice, frozen ground and permafrost, glaciers and ice sheets, ice shelves and icebergs, and sea ice. Sea ice responds seasonally; ice sheets respond over millennia. That gap of six orders of magnitude within one "component" is the strongest argument that the five-way division is coarse.
 
-The biosphere is the only component that is not defined by a material or a phase but by a process. It responds over days for plankton blooms, seasons for leaf area, and centuries for forest carbon stocks, and it is unusual in that it actively regulates fluxes rather than passively transmitting them.
+The biosphere is the only component that is not defined by a material or a phase but by a process. It responds over days for plankton blooms, seasons for leaf area, and centuries for [forest carbon](/en/ecology/forests/forest-ecosystems-explained) stocks, and it is unusual in that it actively regulates fluxes rather than passively transmitting them.
 
-The [lithosphere](/en/glossary/lithosphere), or geosphere, supplies the slowest processes — weathering, volcanism, and the long carbon cycle. NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
+The [lithosphere](/en/glossary/lithosphere), or geosphere, supplies the slowest processes — weathering, volcanism, and the long [carbon cycle](/en/ecology/climate-change/carbon-cycle-feedbacks). NASA's Earth Observatory describes carbon taking 100 to 200 million years to make the circuit through rock. On human timescales the geosphere is effectively a boundary condition; on geological timescales it is the thermostat.
 
 ## Where the boundaries fail
 
 Four cases show why the categories leak, and each one is scientifically productive rather than merely inconvenient.
 
-**Soil moisture** belongs to the hydrosphere as water, the geosphere as part of the soil column, and the biosphere as the medium plants draw from. Its behaviour cannot be derived from any one of the three, which is why land-surface modelling is a discipline of its own.
+**[Soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers)** belongs to the hydrosphere as water, the geosphere as part of the soil column, and the biosphere as the medium plants draw from. Its behaviour cannot be derived from any one of the three, which is why land-surface modelling is a discipline of its own.
 
 **Sea ice** is cryosphere by composition but its effects are oceanic and atmospheric: it changes surface reflectivity, insulates the ocean from the air, and rejects salt as it forms, which alters density and therefore circulation. It is treated in detail in [the cryosphere in the Earth system](/en/ecology/earth-systems/cryosphere-in-the-earth-system).
 
@@ -66,7 +66,7 @@ Treat it as a labelling scheme for reservoirs and interfaces, not as a claim abo
 
 First, when a claim is made about "the [Earth system](/en/glossary/earth-system)", ask which component holds the quantity in question. Energy accumulating in the ocean and energy warming the atmosphere are the same surplus with very different observable signatures — a point developed in the existing article on [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators).
 
-Second, when a process spans components, expect the interesting physics to be at the interface rather than inside either side. Evaporation, gas exchange, and albedo are all interface phenomena, and all three are among the harder things to measure and to model.
+Second, when a process spans components, expect the interesting physics to be at the interface rather than inside either side. Evaporation, [gas exchange](/en/ecology/oceans/air-sea-gas-exchange), and albedo are all interface phenomena, and all three are among the harder things to measure and to model.
 
 The related question of how ecologists draw a comparable boundary at much smaller scale — where one ecosystem ends and another begins — has the same structure and the same answer: the boundary is chosen for the question being asked.
 

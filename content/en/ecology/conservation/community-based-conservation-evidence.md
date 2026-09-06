@@ -5,7 +5,7 @@ excerpt: Land under community or Indigenous management is never randomly located
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - indigenous-lands

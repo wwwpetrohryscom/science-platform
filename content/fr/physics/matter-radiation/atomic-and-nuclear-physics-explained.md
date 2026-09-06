@@ -5,7 +5,7 @@ excerpt: Un atome et le noyau en son centre diffèrent de quatre ordres de grand
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - nuclear-physics
@@ -18,6 +18,7 @@ related:
   - nuclear-fission-and-reactors
   - nuclear-fusion-fundamentals
   - ionising-radiation-exposure-and-risk
+_bodyHash: 8b3b930d
 ---
 Deux comparaisons posent tout ce qui suit. Le rayon de Bohr, échelle de longueur naturelle d'un atome, vaut 5,2918 × 10⁻¹¹ m dans l'ajustement CODATA de 2022. Le rayon de charge d'un noyau d'uranium 238, d'après les données nucléaires évaluées de l'AIEA, est de 5,8571 ± 0,0033 fm — soit 5,8571 × 10⁻¹⁵ m. En rayon, le noyau est plus petit que l'atome qui l'entoure d'un facteur d'environ neuf mille.
 

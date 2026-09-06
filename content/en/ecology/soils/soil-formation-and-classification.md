@@ -1,11 +1,11 @@
 ---
 title: How a soil profile forms, and why two classification systems both survive
-metaTitle: 'Soil formation and the two classification systems'
+metaTitle: Soil formation and the two classification systems
 excerpt: Weathering, translocation and organic accumulation leave layers that pedologists read as a record of process. Naming those layers is a second problem, and the two dominant systems persist because they were built to answer different questions.
 type: expert
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-06'
 readingTime: 8
 tags:
   - pedogenesis
@@ -19,10 +19,10 @@ related:
   - soil-biology-and-the-soil-food-web
   - nutrient-availability-and-soil-fertility
 pillar: soil-science-explained
-_bodyHash: 99b096c1
+_bodyHash: 23c5c2dd
 ---
 
-A horizon is evidence. Every layer in a profile records something that was added, transformed, moved down or across, or lost from a particular point on the land surface, repeated for long enough to leave a signature that a trained eye can read in a pit face. That is the working premise of pedology, and it is also the premise of the classification systems built on top of it: the World Reference Base states that its diagnostic horizons and properties are characterised by attributes reflecting the common results of the processes of soil formation.
+A horizon is evidence. Every layer in a profile records something that was added, transformed, moved down or across, or lost from a particular point on the land surface, repeated for long enough to leave a signature that a trained eye can read in a pit face. That is the working premise of pedology, and it is also the premise of the classification systems built on top of it: the World Reference Base states that its diagnostic horizons and properties are characterised by attributes reflecting the common results of the processes of soil formation. That is taken up separately in [reading a soil profile horizon by horizon](/en/ecology/soils/soil-horizons-and-reading-a-profile).
 
 The [four-phase description of what a soil is](/en/ecology/soils/soil-science-explained) sets up the question this article takes on — how the arrangement arises, and what happens when people try to give the result a name.
 

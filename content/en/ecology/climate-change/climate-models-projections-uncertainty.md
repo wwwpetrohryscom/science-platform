@@ -5,7 +5,7 @@ excerpt: A projection range is not a forecast with error bars. It combines scena
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-08-29'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - climate-change
@@ -27,9 +27,9 @@ This piece walks through what climate models are, where the uncertainty in their
 
 ## What a climate model is
 
-A [climate model](/en/glossary/climate-model) is a numerical simulation of the climate system on a discrete spatial grid, integrating the governing physical equations forward in time under specified forcing. The major models — coordinated under the Coupled Model Intercomparison Project (CMIP) through the [World Climate Research Programme](https://www.wcrp-climate.org/) — combine atmosphere, ocean, sea-ice, land-surface, and (in earth-system configurations) carbon-cycle and vegetation components. The current generation, CMIP6, was the model basis for [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/).
+A [climate model](/en/glossary/climate-model) is a numerical simulation of the [climate system](/en/ecology/earth-systems/earth-system-science-explained) on a discrete spatial grid, integrating the governing physical equations forward in time under specified forcing. The major models — coordinated under the Coupled Model Intercomparison Project (CMIP) through the [World Climate Research Programme](https://www.wcrp-climate.org/) — combine atmosphere, ocean, sea-ice, land-surface, and (in earth-system configurations) carbon-cycle and vegetation components. The current generation, CMIP6, was the model basis for [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/).
 
-A model run for a given forcing scenario produces a time series of climate variables — temperature, precipitation, sea level, sea ice, ocean heat content — at each grid cell. A *projection* is typically a multi-model ensemble of such runs combined with statistical methods to estimate plausible ranges of future climate.
+A model run for a given forcing scenario produces a time series of climate variables — temperature, precipitation, [sea level](/en/ecology/climate-change/sea-level-rise-indicators), sea ice, ocean [heat content](/en/ecology/climate-change/ocean-heat-content-indicators) — at each grid cell. A *projection* is typically a multi-model ensemble of such runs combined with statistical methods to estimate plausible ranges of future climate.
 
 Models are evaluated against the historical [climate-indicator record](/en/ecology/climate-change/climate-indicators-earth-system-monitoring). The historical-period evaluation tests whether a model reproduces observed temperature, ocean heat content, sea ice, and sea level given known historical forcing. Models that perform well on the historical record give more weight to their projections of the same indicators in the future.
 
@@ -47,7 +47,7 @@ The relative shares of the three sources shift over time and by indicator. For g
 
 ## Equilibrium climate sensitivity
 
-Climate sensitivity is the central parameter linking forcing to temperature response. Equilibrium climate sensitivity (ECS) is the equilibrium global mean surface temperature response to a doubling of CO₂; transient climate response (TCR) is the corresponding response at the time CO₂ has doubled in a 1%-per-year ramp experiment. ECS depends on the sum of feedbacks (water vapour, lapse rate, surface-albedo, cloud) that the climate system engages as it warms.
+[Climate sensitivity](/en/ecology/climate-change/climate-sensitivity-explained) is the central parameter linking forcing to temperature response. Equilibrium climate sensitivity (ECS) is the equilibrium global mean surface temperature response to a doubling of CO₂; transient climate response (TCR) is the corresponding response at the time CO₂ has doubled in a 1%-per-year ramp experiment. ECS depends on the sum of feedbacks (water vapour, lapse rate, surface-albedo, cloud) that the climate system engages as it warms.
 
 AR6 assesses the likely range of ECS at 2.5–4 °C, with a best estimate of 3 °C. The range is narrower than in earlier assessments because the bounds were re-derived using a combination of paleoclimate constraints, historical-record constraints, and process-level evidence on cloud feedback. Cloud feedback remains the largest individual contributor to the residual ECS spread.
 
@@ -71,7 +71,7 @@ Three classes of projection carry larger uncertainty.
 
 **Ice-sheet contributions to sea level.** The largest single source of structural uncertainty in 21st-century sea level is the Antarctic contribution. AR6 reports plausible 21st-century ranges with low-likelihood, high-consequence upper tails driven by mechanisms — marine ice-cliff instability, ice-shelf collapse — that the historical record does not fully sample.
 
-**Carbon-cycle feedbacks.** As covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks), the response of land and ocean carbon sinks to continued warming is itself uncertain. Emissions-driven projections that let the sinks respond freely carry a wider envelope than concentration-driven projections that prescribe the concentration trajectory.
+**Carbon-cycle feedbacks.** As covered in [carbon-cycle feedbacks](/en/ecology/climate-change/carbon-cycle-feedbacks), the response of land and [ocean carbon](/en/ecology/oceans/air-sea-gas-exchange) sinks to continued warming is itself uncertain. Emissions-driven projections that let the sinks respond freely carry a wider envelope than concentration-driven projections that prescribe the concentration trajectory.
 
 ## Reading a projection range responsibly
 

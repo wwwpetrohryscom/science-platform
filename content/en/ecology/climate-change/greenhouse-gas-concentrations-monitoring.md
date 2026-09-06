@@ -4,7 +4,7 @@ excerpt: Atmospheric CO₂, methane, and nitrous oxide are tracked by a global f
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - climate-change
@@ -17,10 +17,10 @@ related:
   - what-is-climate-change
   - carbon-cycle-feedbacks
 pillar: what-is-climate-change
-_bodyHash: 2e1ad46
+_bodyHash: ef006b72
 ---
 
-The [greenhouse-gas concentration](/en/glossary/greenhouse-gas-concentration) record is, by some distance, the cleanest indicator in the climate dataset, and the most direct measurement of the driver behind [climate change](/en/ecology/climate-change/what-is-climate-change). The atmospheric mole fraction of CO₂ in a clean-air sample is something a calibrated instrument can measure to a precision of about 0.1 parts per million. The same is true to comparable precision for methane and nitrous oxide. The long-term trends are not contested at the measurement level — they are read off the instruments.
+The [greenhouse-gas concentration](/en/glossary/greenhouse-gas-concentration) record is, by some distance, the cleanest indicator in the climate dataset, and the most direct measurement of the driver behind [climate change](/en/ecology/climate-change/what-is-climate-change). The atmospheric mole fraction of CO₂ in a clean-air sample is something a calibrated instrument can measure to a precision of about 0.1 parts per million. The same is true to comparable precision for methane and [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained). The long-term trends are not contested at the measurement level — they are read off the instruments.
 
 What is worth understanding is how the global records get built from individual site measurements, what the major source agencies are, and what the concentration trends do and do not tell you on their own. The framework piece — what concentrations mean for [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) and ultimately for temperature — is handled separately in this cluster.
 
@@ -52,11 +52,11 @@ The AGGI exists to be the unambiguous single-number version of the gas record. I
 
 Three distinctions repay attention.
 
-**Concentration is not emission.** Atmospheric concentration is the result of cumulative emissions minus cumulative removals (ocean uptake, terrestrial uptake, chemical sinks). The growth rate is what relates concentration to current-year net flux; the integrated record is what relates it to historical emissions. The carbon-cycle inputs that NOAA and the [Copernicus Climate Change Service](https://climate.copernicus.eu/) draw on translate between the two using carbon-cycle models. A change in the growth rate does not by itself separate "emissions changed" from "sinks changed" — both contribute, and decomposing them is its own research question covered in carbon-cycle feedbacks.
+**Concentration is not emission.** Atmospheric concentration is the result of [cumulative emissions](/en/ecology/climate-change/carbon-budgets-and-remaining-emissions) minus cumulative removals (ocean uptake, terrestrial uptake, chemical sinks). The growth rate is what relates concentration to current-year net flux; the integrated record is what relates it to historical emissions. The carbon-cycle inputs that NOAA and the [Copernicus Climate Change Service](https://climate.copernicus.eu/) draw on translate between the two using carbon-cycle models. A change in the growth rate does not by itself separate "emissions changed" from "sinks changed" — both contribute, and decomposing them is its own research question covered in carbon-cycle feedbacks.
 
 **Concentration is not radiative forcing.** Per-molecule effectiveness depends on band saturation. The relationship between CO₂ concentration and forcing is approximately logarithmic over the relevant range — covered in greenhouse gases and radiative forcing. Reading concentration trends without that translation overstates the linear-in-ppm impact and understates the time-integrated commitment.
 
-**Concentration is not temperature.** The temperature response to a given concentration depends on climate sensitivity and on the time the system has had to respond. AR6 assesses likely equilibrium climate sensitivity at 2.5–4 °C per CO₂ doubling. The committed warming from concentrations already in the atmosphere is larger than what has been realized to date.
+**Concentration is not temperature.** The temperature response to a given concentration depends on [climate sensitivity](/en/ecology/climate-change/climate-sensitivity-explained) and on the time the system has had to respond. AR6 assesses likely equilibrium climate sensitivity at 2.5–4 °C per CO₂ doubling. The committed warming from concentrations already in the atmosphere is larger than what has been realized to date.
 
 ## Limitations and methodology notes
 
@@ -72,7 +72,7 @@ Concentration records carry small but documented limitations.
 
 ## What this indicator does and does not do
 
-The concentration record is the strongest piece of physical evidence in climate science. It is also the indicator that demands the most careful framing, because its very precision tempts overreading. CO₂ at 420 ppm is a measurement of a thing; it is not by itself a forecast of what the climate system will do. That forecast requires the [climate models](/en/ecology/climate-change/climate-models-projections-uncertainty) and the forcing translation to do their work.
+The concentration record is the strongest piece of physical evidence in climate science. It is also the indicator that demands the most careful framing, because its very precision tempts overreading. CO₂ at 420 ppm is a measurement of a thing; it is not by itself a forecast of what the [climate system](/en/ecology/earth-systems/earth-system-science-explained) will do. That forecast requires the [climate models](/en/ecology/climate-change/climate-models-projections-uncertainty) and the forcing translation to do their work.
 
 Read alongside [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators), the [Earth energy imbalance](/en/ecology/climate-change/climate-indicators-earth-system-monitoring), and the temperature and sea-level records, the concentration trends are one constraint in a system the other indicators have to satisfy. That is how the indicator framework holds together.
 

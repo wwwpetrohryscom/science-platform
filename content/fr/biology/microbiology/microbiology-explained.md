@@ -5,7 +5,7 @@ excerpt: Les seules bactéries détiennent environ 70 gigatonnes de carbone, l'e
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - microbiology
@@ -19,6 +19,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
+_bodyHash: 26b77b39
 ---
 Un recensement de la biosphère publié en 2018 a établi le carbone vivant total sur Terre à environ 550 gigatonnes, dont quelque 450 pour les plantes. Les bactéries viennent ensuite, avec approximativement 70 Gt C, suivies des champignons à 12, des archées à 7, des protistes à 4, des animaux à 2 et des virus à 0,2. Ces chiffres, réunis par des chercheurs de l'Institut Weizmann et de Caltech, portent des incertitudes très différentes — les plantes sont cernées à un facteur 1,2 près, les bactéries seulement à un facteur 10 et les archées à un facteur 13 — mais c'est l'ordre qui compte. Presque tout ce qui vit et n'est pas une plante est microbien, et l'essentiel se trouve là où personne n'a regardé directement.
 
@@ -38,7 +39,7 @@ C'est ce qui distingue le métabolisme microbien de celui des animaux et des pla
 
 ## Ce que la boîte de Petri ne savait pas faire pousser
 
-Pendant la plus grande partie du XXᵉ siècle, la microbiologie s'est limitée à ce qui formait une colonie. L'écart entre les cellules comptées au microscope et les colonies comptées sur boîte — souvent deux ordres de grandeur ou plus — a été reconnu tôt et porte depuis le nom d'[anomalie du dénombrement sur boîte](/en/glossary/great-plate-count-anomaly).
+Pendant la plus grande partie du XXᵉ siècle, la microbiologie s'est limitée à ce qui formait une colonie. L'écart entre les cellules comptées au microscope et les colonies comptées sur boîte — souvent deux ordres de grandeur ou plus — a été reconnu tôt et porte depuis le nom d'[anomalie du dénombrement sur boîte](/fr/glossary/great-plate-count-anomaly).
 
 Le séquençage n'a pas tant résolu le problème qu'il ne l'a mesuré. Une analyse publiée en 2018 a combiné des relevés d'ARN ribosomique avec des comptages cellulaires dans divers environnements et estimé que les genres non cultivés pouvaient représenter 7,3 × 10²⁹ cellules, soit environ 81 pour cent des cellules microbiennes de la Terre, et que les embranchements non cultivés — des lignées sans aucun parent cultivé — représentent à peu près 2,2 × 10²⁹ cellules, environ un quart du total. Selon les environnements, la part non cultivée allait de 22 à 87 pour cent, du genre à la classe. L'exception frappante était constituée des habitats humains et associés à l'humain, où les genres cultivés dominent, de 45 à 97 pour cent, ce qui en dit plus sur l'endroit où un siècle d'efforts de culture clinique a été dépensé que sur les organismes.
 
@@ -54,7 +55,7 @@ Deux autres groupes sont classiquement enseignés comme relevant de la microbiol
 
 L'affirmation selon laquelle les cellules bactériennes seraient dix fois plus nombreuses que les cellules humaines a circulé pendant des décennies. Une réestimation de 2016 l'a remplacée : un adulte de référence de 70 kg porte environ 3,8 × 10¹³ bactéries contre environ 3,0 × 10¹³ cellules humaines, soit un rapport proche de 1,3 pour 1, avec 25 pour cent d'incertitude sur le chiffre bactérien. L'ancien rapport survit en partie parce qu'il est à peu près juste si l'on exclut les globules rouges du décompte humain — une exclusion que la réestimation traite comme une question de définition, ses auteurs comptant pour leur part les globules rouges comme des cellules.
 
-La correction vaut d'être faite précisément parce qu'elle ne change rien d'important. Le [microbiome](/en/glossary/microbiome) compte pour ce que ses membres font sur le plan métabolique et immunologique, non pour un décompte, et la difficulté de passer d'une association observée à une cause démontrée est le problème central du domaine — examiné dans la page sur [ce que les relevés de microbiome peuvent établir](/fr/biology/microbiology/microbiomes-and-host-microbe-interactions). La même logique gouverne le versant clinique de la discipline, où les gènes de résistance circulent entre organismes et milieux plus vite que les systèmes de surveillance ne peuvent suivre, comme l'expose la page sur [les preuves de la résistance aux antimicrobiens](/fr/biology/microbiology/antimicrobial-resistance-evidence).
+La correction vaut d'être faite précisément parce qu'elle ne change rien d'important. Le [microbiome](/fr/glossary/microbiome) compte pour ce que ses membres font sur le plan métabolique et immunologique, non pour un décompte, et la difficulté de passer d'une association observée à une cause démontrée est le problème central du domaine — examiné dans la page sur [ce que les relevés de microbiome peuvent établir](/fr/biology/microbiology/microbiomes-and-host-microbe-interactions). La même logique gouverne le versant clinique de la discipline, où les gènes de résistance circulent entre organismes et milieux plus vite que les systèmes de surveillance ne peuvent suivre, comme l'expose la page sur [les preuves de la résistance aux antimicrobiens](/fr/biology/microbiology/antimicrobial-resistance-evidence).
 
 ## Combien y a-t-il de sortes ? Un désaccord de six ordres de grandeur
 

@@ -4,7 +4,7 @@ excerpt: Succession is not a fixed march toward one stable endpoint. Recovery de
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - succession
@@ -61,7 +61,7 @@ The assumption the method makes is that every surface passed through the same se
 
 Secondary succession — recovery where soil and a seed bank remain — is faster, but "faster" hides how unevenly the parts return. A synthesis of 77 tropical sites tracked twelve forest attributes through secondary succession and found recovery to 90 per cent of old-growth values to be fastest for soil properties, at under one decade, and for plant functioning, at under 2.5 decades; intermediate for structure and species diversity, at 2.5 to 6 decades; and slowest for biomass and species composition, at more than 12 decades. After 20 years, attributes averaged 78 per cent of old-growth values, but the range across attributes ran from 33 to 100 per cent.
 
-That spread is the practical content of the whole idea. A twenty-year-old regrowth stand can be indistinguishable from mature forest on canopy cover and soil carbon while carrying a different species list, which is why single-metric recovery claims are weak and why [ecosystem resilience indicators](/en/ecology/biodiversity/ecosystem-resilience-indicators) are built as suites. Composition lags because it depends on dispersal and on the presence of [foundation species that structure the habitat](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy), neither of which is guaranteed by the return of biomass. Rates of [primary production](/en/ecology/ecosystems/primary-production-and-energy-flow) recover long before the community that once did the producing.
+That spread is the practical content of the whole idea. A twenty-year-old regrowth stand can be indistinguishable from mature forest on canopy cover and [soil carbon](/en/ecology/soils/soil-science-explained) while carrying a different species list, which is why single-metric recovery claims are weak and why [ecosystem resilience indicators](/en/ecology/biodiversity/ecosystem-resilience-indicators) are built as suites. Composition lags because it depends on dispersal and on the presence of [foundation species that structure the habitat](/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy), neither of which is guaranteed by the return of biomass. Rates of [primary production](/en/ecology/ecosystems/primary-production-and-energy-flow) recover long before the community that once did the producing.
 
 ## When the site does not come back
 

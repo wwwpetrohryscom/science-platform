@@ -4,8 +4,8 @@ excerpt: Quantum theory pins physical constants to ten significant figures while
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - quantum-mechanics
   - superposition
@@ -17,7 +17,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
-_bodyHash: b47606a4
+_bodyHash: f3088e4f
 ---
 
 Judged as a predictive instrument, quantum mechanics is the most severely tested theory physics has. The 2022 CODATA evaluation lists the electron magnetic moment anomaly as 1.159 652 180 46(18) × 10⁻³, a relative standard uncertainty of 1.6 × 10⁻¹⁰. The fine-structure constant that governs the strength of the electromagnetic interaction is pinned to the same order, 7.297 352 5643(11) × 10⁻³. Whatever is unresolved about quantum theory, its arithmetic is not the unresolved part.
@@ -40,7 +40,7 @@ The two halves do not obviously fit together. Unitary evolution never turns a su
 
 ## Where quantisation comes from — and where it does not
 
-The name is misleading, because most quantities in the theory are not quantised. A free particle has a continuous energy spectrum. Position and momentum are continuous. Quantisation appears when a wave equation is solved subject to boundary conditions, in the same way that a clamped string admits only certain standing modes. Bind an electron to a proton and the allowed energies become discrete, on a scale set by the Rydberg energy, 13.605 693 122 990(15) eV in the 2022 CODATA evaluation, known to about one part in 10¹². Hydrogen's own ground-state ionisation energy is a little smaller — NIST tabulates it at 109 678.7717 cm⁻¹, or 13.598 433 eV — because the finite mass of the proton and relativistic and QED corrections all shift it away from the idealised value.
+The name is misleading, because most quantities in the theory are not quantised. A free particle has a continuous energy spectrum. Position and momentum are continuous. Quantisation appears when a [wave equation](/en/physics/mechanics-waves/waves-and-oscillations-explained) is solved subject to boundary conditions, in the same way that a clamped string admits only certain standing modes. Bind an electron to a proton and the allowed energies become discrete, on a scale set by the Rydberg energy, 13.605 693 122 990(15) eV in the 2022 CODATA evaluation, known to about one part in 10¹². Hydrogen's own ground-state ionisation energy is a little smaller — NIST tabulates it at 109 678.7717 cm⁻¹, or 13.598 433 eV — because the finite mass of the proton and relativistic and QED corrections all shift it away from the idealised value.
 
 Spin is the exception that clarifies the rule. It is not quantised by a boundary condition, has no classical rotation behind it, and takes half-integer or integer values as an intrinsic property of the particle species.
 
@@ -52,17 +52,17 @@ The [uncertainty relation](/en/glossary/uncertainty-relation) σₓσₚ ≥ ħ/
 
 Position and momentum amplitudes are Fourier transforms of one another. A state with a narrow spread in position is, as a matter of mathematics, built from a wide range of momentum components — the same trade-off that stops a radio pulse from being both very short and very close to a single frequency. The relation constrains the state itself. It holds before anybody measures anything, and it would hold for a perfect instrument.
 
-Measurement disturbance is a separate effect that also exists, and the two were experimentally prised apart in an atom interferometer where the disturbance from path detection was too small to account for the loss of interference. The scale of ħ explains why none of this shows up in ordinary life: ħ/2 is about 5.3 × 10⁻³⁵ J s, so for any laboratory object the permitted joint precision in position and momentum is far finer than any instrument could use. The Planck constant itself is no longer measured at all — since the 2019 revision of the SI it is fixed by definition at 6.626 070 15 × 10⁻³⁴ J Hz⁻¹, and the kilogram is realised through it.
+Measurement disturbance is a separate effect that also exists, and the two were experimentally prised apart in an atom interferometer where the disturbance from path detection was too small to account for the loss of interference. The scale of ħ explains why none of this shows up in ordinary life: ħ/2 is about 5.3 × 10⁻³⁵ J s, so for any laboratory object the permitted joint precision in position and momentum is far finer than any instrument could use. The [Planck constant](/en/physics/mechanics-waves/what-changed-when-the-kilogram-changed) itself is no longer measured at all — since the 2019 revision of the SI it is fixed by definition at 6.626 070 15 × 10⁻³⁴ J Hz⁻¹, and the kilogram is realised through it.
 
 ## Two families of particles, and everything that follows
 
 Identical particles in quantum mechanics are identical in a strong sense: no measurement distinguishes one electron from another, so the state must behave in a definite way when two are exchanged. Only two behaviours are consistent. Symmetric states describe **bosons**, which carry integer spin; antisymmetric states describe **fermions**, which carry half-integer spin.
 
-Antisymmetry has an immediate consequence — two fermions cannot occupy the same state, the Pauli exclusion principle — and an enormous amount of the observable world rests on it. Atomic shell structure and therefore the periodic table follow from it. So does the electron degeneracy pressure that holds up a white dwarf, and so does the filling of energy bands that decides whether a solid conducts, the subject of [band structure in materials](/en/physics/matter-radiation/materials-physics-and-semiconductors). Bosons do the opposite: they can pile into one state, which is what a laser beam and a Bose–Einstein condensate have in common. The particle inventory itself splits along the same line, with quarks and leptons on the fermion side and the force carriers on the boson side; CERN's summary of the Standard Model sets out that inventory and groups the force carriers as bosons.
+Antisymmetry has an immediate consequence — two fermions cannot occupy the same state, the Pauli exclusion principle — and an enormous amount of the observable world rests on it. Atomic shell structure and therefore the periodic table follow from it. So does the electron degeneracy pressure that holds up a white dwarf, and so does the filling of energy bands that decides whether a solid conducts, the subject of [band structure in materials](/en/physics/matter-radiation/materials-physics-and-semiconductors). Bosons do the opposite: they can pile into one state, which is what a laser beam and a Bose–Einstein condensate have in common. The particle inventory itself splits along the same line, with quarks and leptons on the fermion side and the force carriers on the boson side; CERN's summary of the [Standard Model](/en/physics/matter-radiation/particle-physics-fundamentals) sets out that inventory and groups the force carriers as bosons.
 
 ## Decoherence explains the classical limit, but not the outcome
 
-A quantum system is never isolated. It becomes entangled with its surroundings — air molecules, stray photons, the thermal radiation it emits itself — and once the environment holds a record of which branch the system took, interference between branches is no longer observable in the system alone. This is **[decoherence](/en/glossary/decoherence)**, and it is measurable rather than assumed. Heating fullerene molecules inside an interferometer until they radiate thermal photons destroys their interference fringes by a predictable amount, and the measured loss of visibility matched microscopic decoherence theory.
+A quantum system is never isolated. It becomes entangled with its surroundings — air molecules, stray photons, the [thermal radiation](/en/physics/thermodynamics/heat-transfer-conduction-convection-radiation) it emits itself — and once the environment holds a record of which branch the system took, interference between branches is no longer observable in the system alone. This is **[decoherence](/en/glossary/decoherence)**, and it is measurable rather than assumed. Heating fullerene molecules inside an interferometer until they radiate thermal photons destroys their interference fringes by a predictable amount, and the measured loss of visibility matched microscopic decoherence theory.
 
 Decoherence answers a specific question well: why large, warm, well-coupled objects show no interference, without needing any modification to the theory. It does not answer why a particular outcome is the one that occurs. Conflating the two is the most common overstatement in popular accounts of the subject. Everything in [engineering a machine out of qubits](/en/physics/quantum-basics/quantum-computing-fundamentals) is downstream of this: the entire discipline is a fight to postpone decoherence long enough to finish a calculation.
 

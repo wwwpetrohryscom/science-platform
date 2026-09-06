@@ -4,8 +4,8 @@ excerpt: Body temperature is not defended by a thermostat but by an energy budge
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - thermoregulation
   - endothermy
@@ -17,7 +17,7 @@ related:
   - respiration-and-gas-exchange
   - the-immune-system-explained
 pillar: physiology-explained
-_bodyHash: b9aa9044
+_bodyHash: 4eb8a53b
 ---
 
 Heat storage in an animal is a residual. Metabolic heat production adds to it; radiation, convection and conduction add or subtract depending on which way the gradient runs; evaporation only ever subtracts. Written as a budget, S = M ± R ± C ± K − E, with S the rate of heat storage, and everything an animal does about temperature is an intervention on one of those five terms. Nothing in that equation refers to a thermostat, and treating temperature regulation as thermostatic is the fastest route to misreading it.
@@ -34,7 +34,7 @@ It is also worth separating two words that are routinely merged. **Endothermy** 
 
 ## The thermoneutral zone, and whether it is a zone
 
-Below some ambient temperature, an endotherm must generate extra heat to hold core temperature; that threshold is the lower critical temperature, and the interval above it in which metabolic rate is flat is the thermoneutral zone. Measured carefully, the threshold turns out to vary between individuals in ways that are informative about what actually sets it. A 2024 study in *PNAS* exposed lean young adults to ambient temperatures from 17 to 31 °C and found women's lower critical temperature at 21.9 ± 1.3 °C against 22.9 ± 1.2 °C in men. The difference was driven by insulation — more body fat — offsetting the lower basal metabolic rate that comes with smaller body size, and no differences were detected in brown adipose tissue glucose uptake, muscle electrical activity, skin temperature, cold-induced thermogenesis or reported comfort. The determinants were physical rather than categorical.
+Below some ambient temperature, an endotherm must generate extra heat to hold core temperature; that threshold is the lower critical temperature, and the interval above it in which [metabolic rate](/en/biology/physiology/metabolic-scaling-and-body-size) is flat is the [thermoneutral zone](/en/glossary/thermal-neutral-zone). Measured carefully, the threshold turns out to vary between individuals in ways that are informative about what actually sets it. A 2024 study in *PNAS* exposed lean young adults to ambient temperatures from 17 to 31 °C and found women's lower critical temperature at 21.9 ± 1.3 °C against 22.9 ± 1.2 °C in men. The difference was driven by insulation — more body fat — offsetting the lower basal metabolic rate that comes with smaller [body size](/en/biology/physiology/diffusion-limits-on-body-size), and no differences were detected in brown adipose tissue glucose uptake, muscle electrical activity, skin temperature, cold-induced thermogenesis or reported comfort. The determinants were physical rather than categorical.
 
 Whether a broad flat zone exists at all is a live question for the animals most of this work is done in. Indirect calorimetry with continuous body-temperature recording across ambient temperatures from 22 to 35 °C found that neither rats nor mice have a broad thermoneutral zone: they have a thermoneutral point, below which energy expenditure rises and above which body temperature rises. Rats at 30 °C were already at the edge of their thermal tolerance, and the rise in body temperature at warmer ambients came with falling food intake and body weight — a heat-stress signature, not a benign adjustment. Since standard vivarium temperatures sit well below that point, a large share of mammalian physiology is measured in animals under continuous mild cold load.
 

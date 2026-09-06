@@ -5,7 +5,7 @@ excerpt: A remaining carbon budget is an assessed quantity with five separately 
 type: expert
 author: climate-research-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - carbon-budget
@@ -20,7 +20,7 @@ related:
   - global-temperature-records-explained
   - climate-adaptation-mitigation-indicators
 pillar: what-is-climate-change
-_bodyHash: 971059a9
+_bodyHash: dd9ecae0
 ---
 
 The single figure that circulates — five hundred billion tonnes of CO₂ left for 1.5°C — is the median of one probability distribution, conditioned on a family of emissions pathways, adjusted by four further terms that each carry their own error bar. None of that is hidden; it is set out at length in Chapter 5 of the IPCC's Sixth Assessment Report. But the compression from an assessed quantity to a headline drops exactly the parts that determine what the number can be used for. None of the assembly is exotic. It takes [how human-caused warming is established](/en/ecology/climate-change/what-is-climate-change) as given, and begins instead from a single relationship that has nothing to do with concentrations at all.
@@ -41,7 +41,7 @@ AR6 applies the framework introduced in the Special Report on Global Warming of 
 | --- | --- | --- |
 | TCRE | warming per unit of cumulative CO₂ | likely 1.0–2.3°C per 1000 PgC; generates the percentile columns |
 | Historical human-induced warming | how much of the temperature allowance is already spent | 1.07°C (0.8–1.3°C) from 1850–1900 to 2010–2019; ±550 GtCO₂ |
-| Non-CO₂ warming | warming from methane, nitrous oxide and aerosols consuming the same allowance | ±220 GtCO₂ from response uncertainty, plus ±220 GtCO₂ from how much non-CO₂ mitigation is assumed |
+| Non-CO₂ warming | warming from methane, [nitrous oxide](/en/ecology/earth-systems/nitrogen-cycle-explained) and aerosols consuming the same allowance | ±220 GtCO₂ from response uncertainty, plus ±220 GtCO₂ from how much non-CO₂ mitigation is assumed |
 | Zero emissions commitment | any further warming after net zero CO₂ is reached | central estimate zero, likely ±0.19°C; ±420 GtCO₂ |
 | Unrepresented Earth system feedbacks | permafrost carbon and similar processes absent from standard models | about 26 ± 97 GtCO₂ per °C, assessed with low confidence |
 

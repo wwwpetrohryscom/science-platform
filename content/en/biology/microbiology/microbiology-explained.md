@@ -4,8 +4,8 @@ excerpt: Bacteria alone hold about 70 gigatonnes of carbon, most of it in the de
 type: pillar
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - microbiology
   - microbial-ecology
@@ -18,7 +18,7 @@ related:
   - fungi-explained
   - culturing-and-sequencing-microbes
   - microbial-biogeochemistry
-_bodyHash: 3be16a26
+_bodyHash: d5cbdee7
 ---
 
 A census of the biosphere published in 2018 put the total living carbon on Earth at roughly 550 gigatonnes, of which plants account for about 450. Bacteria come second at approximately 70 Gt C, followed by fungi at 12, archaea at 7, protists at 4, animals at 2 and viruses at 0.2. Those figures, assembled by researchers at the Weizmann Institute and Caltech, carry very different uncertainties — plants are pinned to within a factor of 1.2, bacteria only to within a factor of 10, and archaea a factor of 13 — but the ordering is the point. Almost everything alive that is not a plant is microbial, and most of it is somewhere no one has looked directly.
@@ -33,7 +33,7 @@ Near the surface, the arithmetic is different and better constrained. Global sur
 
 ## Metabolism, not morphology, is the axis of variation
 
-A microbiologist looking down a microscope sees rods, spheres, spirals and filaments — a vocabulary of shapes so limited that it cannot carry the diversity it is asked to describe. The variation that matters is chemical. A 2008 review in *Science* framed the point in terms of redox chemistry: virtually all non-equilibrium electron transfers on Earth are driven by a small, ancient and highly conserved set of protein complexes, evolved in microbes early in the planet's history and moved between lineages largely by horizontal gene transfer.
+A microbiologist looking down a microscope sees rods, spheres, spirals and filaments — a vocabulary of shapes so limited that it cannot carry the diversity it is asked to describe. The variation that matters is chemical. A 2008 review in *Science* framed the point in terms of redox chemistry: virtually all non-equilibrium electron transfers on Earth are driven by a small, ancient and highly conserved set of protein complexes, evolved in microbes early in the planet's history and moved between lineages largely by [horizontal gene transfer](/en/biology/evolution/horizontal-gene-transfer-and-the-tree).
 
 That is what distinguishes microbial metabolism from animal and plant metabolism. Animals oxidise organic carbon with oxygen; plants add oxygenic photosynthesis. Prokaryotes do both and also respire nitrate, sulfate, ferric iron, manganese and carbon dioxide; oxidise ammonia, nitrite, hydrogen, sulfide, methane and reduced metals; fix atmospheric nitrogen, which nothing else does; and generate methane, which nothing else does either. The consequences for the elemental cycles are the subject of a separate treatment of [how microbes close the elemental cycles](/en/biology/microbiology/microbial-biogeochemistry), and they are the reason the [nitrogen cycle](/en/ecology/earth-systems/nitrogen-cycle-explained) has the shape it does.
 

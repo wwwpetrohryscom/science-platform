@@ -5,7 +5,7 @@ excerpt: A teoria quântica fixa constantes físicas com dez algarismos signific
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - quantum-mechanics
@@ -18,6 +18,7 @@ related:
   - quantum-computing-fundamentals
   - quantum-sensors-leaving-the-lab
   - electromagnetic-spectrum-applications
+_bodyHash: 6b12a7ba
 ---
 Julgada como instrumento preditivo, a mecânica quântica é a teoria mais severamente testada da física. A avaliação CODATA de 2022 dá a anomalia do momento magnético do eletrão como 1,159 652 180 46(18) × 10⁻³, uma incerteza-padrão relativa de 1,6 × 10⁻¹⁰. A constante de estrutura fina, que rege a intensidade da interação eletromagnética, está fixada na mesma ordem, 7,297 352 5643(11) × 10⁻³. Seja o que for que permaneça por resolver na teoria quântica, a sua aritmética não é a parte por resolver.
 
@@ -43,7 +44,7 @@ O nome induz em erro, porque a maioria das grandezas da teoria não está quanti
 
 O spin é a exceção que esclarece a regra. Não é quantizado por uma condição de fronteira, não tem por trás qualquer rotação clássica, e toma valores semi-inteiros ou inteiros como propriedade intrínseca da espécie de partícula.
 
-A luz traz a sua própria versão da mesma ideia. A energia trocada entre um campo e a matéria vem em unidades de hf, razão pela qual é a energia do [fotão](/en/glossary/photon) — e não a intensidade — que determina o que a radiação pode fazer a uma molécula, ponto desenvolvido banda a banda em [o espectro eletromagnético e as suas aplicações](/pt/physics/quantum-basics/electromagnetic-spectrum-applications). É também por isso que o teto de eficiência de uma célula solar de junção única é fixado pela energética dos fotões e não pela engenharia, como expõe [o limite termodinâmico da fotovoltaica](/pt/physics/thermodynamics/thermodynamic-limits-of-photovoltaics).
+A luz traz a sua própria versão da mesma ideia. A energia trocada entre um campo e a matéria vem em unidades de hf, razão pela qual é a energia do [fotão](/pt/glossary/photon) — e não a intensidade — que determina o que a radiação pode fazer a uma molécula, ponto desenvolvido banda a banda em [o espectro eletromagnético e as suas aplicações](/pt/physics/quantum-basics/electromagnetic-spectrum-applications). É também por isso que o teto de eficiência de uma célula solar de junção única é fixado pela energética dos fotões e não pela engenharia, como expõe [o limite termodinâmico da fotovoltaica](/pt/physics/thermodynamics/thermodynamic-limits-of-photovoltaics).
 
 ## Variáveis conjugadas, não instrumentos desajeitados
 
@@ -61,7 +62,7 @@ A antissimetria tem uma consequência imediata — dois fermiões não podem ocu
 
 ## A descoerência explica o limite clássico, mas não o resultado
 
-Um sistema quântico nunca está isolado. Emaranha-se com o seu meio — moléculas de ar, fotões dispersos, a radiação térmica que ele próprio emite — e uma vez que o meio guarda um registo do ramo que o sistema tomou, a interferência entre ramos deixa de ser observável no sistema isolado. Isto é a **[descoerência](/en/glossary/decoherence)**, e é mensurável e não pressuposta. Aquecer moléculas de fulereno dentro de um interferómetro até irradiarem fotões térmicos destrói as suas franjas de interferência numa quantidade previsível, e a perda de visibilidade medida coincidiu com a teoria microscópica da descoerência.
+Um sistema quântico nunca está isolado. Emaranha-se com o seu meio — moléculas de ar, fotões dispersos, a radiação térmica que ele próprio emite — e uma vez que o meio guarda um registo do ramo que o sistema tomou, a interferência entre ramos deixa de ser observável no sistema isolado. Isto é a **[descoerência](/pt/glossary/decoherence)**, e é mensurável e não pressuposta. Aquecer moléculas de fulereno dentro de um interferómetro até irradiarem fotões térmicos destrói as suas franjas de interferência numa quantidade previsível, e a perda de visibilidade medida coincidiu com a teoria microscópica da descoerência.
 
 A descoerência responde bem a uma pergunta concreta: por que objetos grandes, quentes e bem acoplados não mostram interferência, sem exigir qualquer modificação da teoria. Não responde por que um resultado em particular é o que ocorre. Confundir as duas coisas é o exagero mais comum nas exposições de divulgação sobre o tema. Tudo em [construir uma máquina a partir de qubits](/pt/physics/quantum-basics/quantum-computing-fundamentals) está a jusante disto: a disciplina inteira é uma luta para adiar a descoerência o suficiente para terminar um cálculo.
 

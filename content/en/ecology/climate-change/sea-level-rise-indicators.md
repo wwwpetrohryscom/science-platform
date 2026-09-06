@@ -4,7 +4,7 @@ excerpt: Global mean sea level, local sea level, and the rate of rise are three 
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-11'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - climate-change
@@ -16,7 +16,7 @@ related:
   - what-is-climate-change
   - greenhouse-gases-and-radiative-forcing
 pillar: what-is-climate-change
-_bodyHash: bd2dfdfb
+_bodyHash: ce4be6d3
 ---
 
 "Sea level is rising" is a true statement that hides several different measurements. Global mean sea level, local relative sea level, and the rate of rise are three separate indicators that answer different questions. The agencies that report them — the [IPCC AR6 Working Group I](https://www.ipcc.ch/report/ar6/wg1/) for synthesis, the [NASA Sea Level Change Portal](https://sealevel.nasa.gov/vital-signs/global-mean-sea-level/) for the satellite altimeter record, the [NOAA tides-and-currents network](https://tidesandcurrents.noaa.gov/) for U.S. coastal gauges — present each one for different reasons.
@@ -54,7 +54,7 @@ The full sea-level budget partitions GMSL change into three components:
 
 - **Thermal expansion.** As the ocean warms, its volume expands. This is the link between [ocean heat content](/en/ecology/climate-change/ocean-heat-content-indicators) and [sea-level rise](/en/glossary/sea-level-rise). Thermal expansion contributed about a third of recent GMSL rise.
 - **Land-ice melt.** Glaciers and the Greenland and Antarctic ice sheets contribute mass to the ocean as they melt or shed icebergs. This contribution has grown over the satellite record and now dominates the trend.
-- **Land water storage.** Changes in groundwater, lakes, and soil moisture move water between land and ocean. The net signal is smaller than the other two terms but is non-trivial; groundwater depletion contributes a small positive trend.
+- **Land water storage.** Changes in groundwater, lakes, and [soil moisture](/en/ecology/soils/soil-moisture-and-what-a-measurement-covers) move water between land and ocean. The net signal is smaller than the other two terms but is non-trivial; groundwater depletion contributes a small positive trend.
 
 The [IPCC AR6 WG1](https://www.ipcc.ch/report/ar6/wg1/) reports the decomposition with uncertainty ranges; closure of the budget — the three components summing to within the satellite-altimeter trend — is the test that the components are quantified consistently.
 
@@ -70,7 +70,7 @@ Three caveats matter for any reader of sea-level data.
 
 ## What this indicator does not measure
 
-Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives ocean heat content accumulation, surface-air-temperature change, sea-ice loss, and shifts in extreme weather. Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
+Sea-level rise is one expression of [climate change](/en/ecology/climate-change/what-is-climate-change), not the only one. The same warming that drives sea-level rise also drives ocean heat content accumulation, surface-air-temperature change, sea-ice loss, and shifts in [extreme weather](/en/ecology/climate-change/extreme-weather-attribution-basics). Treating GMSL as a sufficient single indicator of climate change misses these — and misses the regional variability that determines actual coastal impacts.
 
 Reading sea level honestly means reading all three indicator types: the global mean (for the planetary signal), the local relative level (for what coastal communities experience), and the rate (for the planning horizon).
 

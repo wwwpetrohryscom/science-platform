@@ -4,7 +4,7 @@ excerpt: The claim that ecosystems are robust because species are interchangeabl
 type: expert
 author: environmental-science-desk
 publishedDate: '2026-02-04'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 4
 tags:
   - ecosystems
@@ -15,7 +15,7 @@ related:
   - what-is-an-ecosystem
   - why-species-counts-mislead-conservation
 pillar: what-is-an-ecosystem
-_bodyHash: 4030a247
+_bodyHash: a4d47278
 ---
 
 A persistent claim in popular ecology is that biodiversity provides "functional redundancy" — multiple species perform the same role, so the loss of any one species can be absorbed without consequence. The claim is testable, and it fails in a specific and predictable way once [an ecosystem is understood as a flow rather than a list of occupants](/en/ecology/ecosystems/what-is-an-ecosystem). Public biodiversity assessments from [UNEP](https://www.unep.org/explore-topics/ecosystems), the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), and [IPBES](https://www.ipbes.net/global-assessment) support a more cautious framing: redundancy exists in some functions and systems, but it is not a universal guarantee of resilience.
@@ -32,7 +32,7 @@ This is what makes the redundancy framing misleading. There is no other species 
 
 ## How redundancy survived as long as it did
 
-Functional redundancy is not a baseless idea. It comes from a real observation: in well-functioning systems, perturbing or removing many species does not measurably change ecosystem-level properties like productivity or nutrient cycling. The community absorbs the loss.
+Functional redundancy is not a baseless idea. It comes from a real observation: in well-functioning systems, perturbing or removing many species does not measurably change ecosystem-level properties like productivity or [nutrient cycling](/en/ecology/forests/tropical-forest-ecology). The community absorbs the loss.
 
 What this masks is *which* species the experiments removed. Most early redundancy experiments worked with non-foundation species — common but interchangeable members of the community. When experiments specifically targeted foundation species, the redundancy effect collapsed. The ecosystem reorganized; productivity dropped; new community states established.
 
@@ -52,7 +52,7 @@ This is not how most conservation budgeting works. A stronger evidence base for 
 
 ## The functional-diversity correction
 
-Some of the redundancy literature has corrected itself by moving from species diversity to functional diversity. Functional diversity counts the number of distinct *roles* in a community — fast vs. slow growers, deep vs. shallow rooters, generalist vs. specialist consumers — rather than just species. By that metric, communities are much less redundant than species counts suggest.
+Some of the redundancy literature has corrected itself by moving from species diversity to [functional diversity](/en/ecology/biodiversity/why-species-counts-mislead-conservation). Functional diversity counts the number of distinct *roles* in a community — fast vs. slow growers, deep vs. shallow rooters, generalist vs. specialist consumers — rather than just species. By that metric, communities are much less redundant than species counts suggest.
 
 Even this is incomplete. Functional diversity treats roles as discrete units, but foundation species often perform roles that other species in the system cannot replicate at any scale. They are not just one functional unit among many — they are the substrate on which other roles operate.
 

@@ -5,7 +5,7 @@ excerpt: A atmosfera sustenta cerca de dez toneladas de ar sobre cada metro quad
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - atmospheric-physics
@@ -17,6 +17,7 @@ related:
   - the-greenhouse-effect-physics
   - atmospheric-structure-and-lapse-rate
   - atmospheric-circulation-cells
+_bodyHash: 33c47785
 ---
 O ar é ténue, e a aritmética torna-o concreto. A NOAA dá a pressão padrão ao nível do mar como 1013,25 hPa, que é o peso de uma coluna com cerca de 10,3 toneladas de ar sobre cada metro quadrado de solo. À altitude de cruzeiro de um avião comercial, cerca de três quartos dessa coluna já ficam abaixo. O que esta casca faz com a energia que a atravessa é o assunto da física da atmosfera, e o resumo mais útil do que ela faz é um número de transporte: um fluxo para os polos que atinge cerca de cinco petawatts em cada hemisfério em média anual.
 
@@ -38,7 +39,7 @@ A temperatura é bem menos dócil. Cai ao longo da troposfera, mantém-se quase 
 
 O Earth Observatory da NASA situa a intensidade da luz solar no topo da atmosfera, na face diretamente voltada para o Sol, em cerca de 1 360 watts por metro quadrado. Distribuída por toda a esfera em rotação, isso passa a cerca de 340 W/m². Desses, cerca de 29 por cento são refletidos por nuvens, aerossóis e superfícies claras; cerca de 23 por cento são absorvidos dentro da atmosfera por vapor de água, poeira e ozono; e cerca de 48 por cento chegam à superfície e são aí absorvidos. Cerca de 71 por cento da energia que chega é, portanto, absorvida, ou perto de 240 W/m².
 
-A longo prazo o planeta tem de emitir outro tanto para o espaço, e quase o faz. O resíduo é pequeno e é todo o sinal antropogénico. A avaliação AR6 do IPCC reporta um [desequilíbrio energético da Terra](/en/glossary/earth-energy-imbalance) de 0,50 [0,32 a 0,69] W/m² para 1971-2006, subindo para 0,79 [0,52 a 1,06] W/m² para 2006-2018, cabendo à absorção de calor pelo oceano 91 por cento da variação energética total. O projeto CERES da NASA dá a magnitude como aproximadamente 0,7 W/m², o que, nota, é 0,3 por cento da radiação solar absorvida; a sua apresentação científica não associa período algum a esse valor, e a grandeza que acompanha muda. Detetar três partes em mil num balanço dessa dimensão é o problema central de medição da área.
+A longo prazo o planeta tem de emitir outro tanto para o espaço, e quase o faz. O resíduo é pequeno e é todo o sinal antropogénico. A avaliação AR6 do IPCC reporta um [desequilíbrio energético da Terra](/pt/glossary/earth-energy-imbalance) de 0,50 [0,32 a 0,69] W/m² para 1971-2006, subindo para 0,79 [0,52 a 1,06] W/m² para 2006-2018, cabendo à absorção de calor pelo oceano 91 por cento da variação energética total. O projeto CERES da NASA dá a magnitude como aproximadamente 0,7 W/m², o que, nota, é 0,3 por cento da radiação solar absorvida; a sua apresentação científica não associa período algum a esse valor, e a grandeza que acompanha muda. Detetar três partes em mil num balanço dessa dimensão é o problema central de medição da área.
 
 A razão pela qual a superfície se situa bem acima dos 255 K implicados por emitir 240 W/m² não é que a energia fique armazenada sob uma tampa; é que a altitude a partir da qual o planeta irradia para o espaço não é a superfície. Esse argumento é exposto com cuidado em [a explicação do efeito de estufa pela altura de emissão](/pt/physics/climate-physics/the-greenhouse-effect-physics).
 

@@ -1,11 +1,11 @@
 ---
 title: The thermodynamic limits of photovoltaics — and why they matter for what's possible
-metaTitle: 'The thermodynamic limits of photovoltaics'
+metaTitle: The thermodynamic limits of photovoltaics
 excerpt: There is a hard upper bound on how much sunlight any single-junction photovoltaic cell can convert to electricity. Knowing where it comes from clarifies which directions of improvement are physics, and which are engineering.
 type: expert
 author: energy-systems-desk
 publishedDate: '2026-02-26'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 pillar: laws-of-thermodynamics-explained
 tags:
@@ -16,7 +16,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
-_bodyHash: e0cc146d
+_bodyHash: 19382fb9
 ---
 
 There is a hard upper bound on how much sunlight any single-junction photovoltaic cell can convert to electricity. Under standard solar illumination it sits near 33% — the Shockley-Queisser limit, [derived in 1961](https://doi.org/10.1063/1.1736034) from a detailed-balance argument about a p-n junction under blackbody illumination. High-performing silicon cells operate close enough to that bound that further gains are increasingly engineering-limited. Knowing where the bound comes from — and it comes from [the laws of thermodynamics](/en/physics/thermodynamics/laws-of-thermodynamics-explained) rather than from any property of silicon — clarifies what counts as fundamental physics and what counts as engineering.
@@ -27,7 +27,7 @@ The Shockley-Queisser limit is a thermodynamic argument, not an engineering one.
 
 It arises from three irreducible loss mechanisms.
 
-**Photons below the bandgap pass through.** A solar cell's bandgap defines the minimum photon energy that can excite an electron across it. Photons with less energy are not absorbed — they pass through, contributing nothing. For a typical silicon bandgap (1.1 eV), this discards a large fraction of the long-wavelength solar spectrum.
+**Photons below the bandgap pass through.** A solar cell's bandgap defines the minimum [photon energy](/en/physics/quantum-basics/why-wavelength-decides-what-radiation-does) that can excite an electron across it. Photons with less energy are not absorbed — they pass through, contributing nothing. For a typical silicon bandgap (1.1 eV), this discards a large fraction of the long-wavelength solar spectrum.
 
 **Photons above the bandgap thermalize.** Photons with more than enough energy excite electrons high into the conduction band, but those electrons rapidly relax to the band edge — losing the excess as heat, on a timescale much shorter than they can be extracted as electrical work. Whether the photon carried 2 eV or 4 eV, you get one electron's worth of bandgap energy out.
 

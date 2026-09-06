@@ -1,11 +1,11 @@
 ---
 title: 'Marine productivity: how a gigatonne of algae feeds five gigatonnes of animals'
-metaTitle: 'Marine productivity and the ocean food web'
+metaTitle: Marine productivity and the ocean food web
 excerpt: The ocean supports more consumer biomass than producer biomass, which sounds impossible until you account for turnover. This works through the arithmetic, the nutrient limits, and what satellite ocean colour can and cannot see.
 type: expert
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - marine-productivity
@@ -27,7 +27,7 @@ This is not a paradox, and it is not an artefact of bad accounting. It is what h
 
 ## The flux is enormous; the crop is tiny
 
-The founding estimate for global net primary production, integrating comparable satellite-driven models for land and sea, put the total at 104.9 petagrams of carbon per year with roughly equal contributions from the two realms. Half of Earth's photosynthesis, in other words, is performed by a standing stock of roughly 1 gigatonne of carbon, against about 450 gigatonnes for plants on land, and it happens inside the thin illuminated layer described in [ocean science](/en/ecology/oceans/ocean-science-explained).
+The founding estimate for global net [primary production](/en/ecology/ecosystems/primary-production-and-energy-flow), integrating comparable satellite-driven models for land and sea, put the total at 104.9 petagrams of carbon per year with roughly equal contributions from the two realms. Half of Earth's photosynthesis, in other words, is performed by a standing stock of roughly 1 gigatonne of carbon, against about 450 gigatonnes for plants on land, and it happens inside the thin illuminated layer described in [ocean science](/en/ecology/oceans/ocean-science-explained).
 
 The mechanics are straightforward once the numbers are in front of you. NASA notes that the life span of an individual phytoplankton cell is rarely more than a few days. A population that is grazed down and regrown weekly can deliver an annual production far larger than any snapshot of its biomass, in the way that a lawn mown every week produces far more clippings in a year than its standing height would suggest. The fraction of that production which escapes recycling in the surface layer and sinks is the biological pump, which NASA describes as moving about 10 gigatonnes of carbon from the atmosphere to the deep ocean each year, and which is what everything below the sunlit layer ultimately eats.
 

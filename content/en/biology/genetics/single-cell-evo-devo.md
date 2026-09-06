@@ -1,11 +1,11 @@
 ---
 title: Single-cell sequencing is rewriting evolutionary developmental biology
-metaTitle: 'Single-cell sequencing and evolutionary developmental biology'
+metaTitle: Single-cell sequencing and evolutionary developmental biology
 excerpt: Cell-type atlases across species are revealing that the conserved unit of evolution may be the cell type, not the gene network.
 type: expert
 author: biology-ecosystems-desk
 publishedDate: '2026-02-02'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 4
 tags:
   - evo-devo
@@ -16,10 +16,10 @@ related:
   - what-is-dna
   - cell-types-as-units-of-evolution
 pillar: what-is-dna
-_bodyHash: dd23b8a0
+_bodyHash: b98d8bda
 ---
 
-For decades, evolutionary developmental biology asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question, by reading which parts of [the genome](/en/biology/genetics/what-is-dna) are active one cell at a time. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual cells, using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/). The shift is consequential: the unit of evolutionary conservation may be finer than the network and finer than the organ.
+For decades, evolutionary [developmental biology](/en/biology/physiology/developmental-biology-explained) asked how gene networks are conserved or modified across species to produce homologous structures. Single-cell transcriptomics changes the resolution of that question, by reading which parts of [the genome](/en/biology/genetics/what-is-dna) are active one cell at a time. Instead of comparing networks in tissues, researchers can compare transcriptional identities of individual cells, using datasets and literature indexed through [PubMed](https://pubmed.ncbi.nlm.nih.gov/). The shift is consequential: the unit of evolutionary conservation may be finer than the network and finer than the organ.
 
 ## The shift in unit of analysis
 
@@ -35,11 +35,11 @@ When cell-type atlases of distantly related animals are aligned by shared regula
 
 This is the kind of finding that was previously inaccessible. Classical homology was a statement about structures: this fin and this arm are evolutionarily related because they share developmental origin and topology. Cell-type homology is a statement about transcriptional identity: this cell type in a sponge and this cell type in a vertebrate share a regulatory module and an inferred ancestral state, even though the structures around them are non-homologous.
 
-The implication is significant. The conserved unit of animal evolution may not be the body plan or the organ — it may be the cell type, with body plans assembled from a partially conserved cell-type toolkit. This is closer to the developmental geneticist's intuition (Hox-like modules of regulatory information) than to the classical morphologist's intuition (homology of structure).
+The implication is significant. The conserved unit of animal evolution may not be the body plan or the organ — it may be the cell type, with [body plans](/en/biology/taxonomy/zoology-animal-diversity-explained) assembled from a partially conserved cell-type toolkit. This is closer to the developmental geneticist's intuition (Hox-like modules of regulatory information) than to the classical morphologist's intuition (homology of structure).
 
 ## Method caveats
 
-Cross-species transcriptome alignment is hard. Differential gene expression depends sensitively on capture efficiency, normalization, and ortholog assignment. Cells from a species with poor reference-genome quality systematically look noisier; cells from a species with well-annotated regulatory regions systematically look richer. These artefacts are not always distinguishable from biology.
+Cross-species transcriptome alignment is hard. Differential [gene expression](/en/biology/genetics/how-gene-expression-is-regulated) depends sensitively on capture efficiency, normalization, and ortholog assignment. Cells from a species with poor reference-genome quality systematically look noisier; cells from a species with well-annotated regulatory regions systematically look richer. These artefacts are not always distinguishable from biology.
 
 The strongest claims in the field — those that survive across multiple integration methods, multiple sequencing depths, and multiple research groups — are robust. The weakest are integration artefacts. The current bar for a credible cell-type homology claim is approximately: cluster correspondence under at least three independent integration methods, supported by independent regulatory-element evidence (ATAC-seq, conserved transcription-factor binding sites), with replication across multiple samples per species.
 
@@ -59,7 +59,7 @@ The boundary between "homology" and "convergence" becomes a question about the l
 
 The classical results of evo-devo — Hox patterning, the Pax6 master-regulator story, the deep conservation of developmental signaling pathways — survive intact. They are described more precisely now, often in terms of which cell types they instantiate. The shift is not a refutation of the previous generation's work; it is a finer-grained reformulation.
 
-The bigger change is methodological. The field's empirical center of gravity is moving from candidate-gene screens to atlas-scale comparative genomics. The next decade of work in evo-devo will, in large part, look like cell-type comparative biology. The tools are mature; the comparative reference is filling in; the conceptual framework is in place.
+The bigger change is methodological. The field's empirical center of gravity is moving from candidate-gene screens to atlas-scale comparative genomics. The next decade of work in evo-devo will, in large part, look like cell-type [comparative biology](/en/biology/evolution/cell-types-as-units-of-evolution). The tools are mature; the comparative reference is filling in; the conceptual framework is in place.
 
 ## Sources
 

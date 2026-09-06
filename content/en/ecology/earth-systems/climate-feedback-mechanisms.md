@@ -5,7 +5,7 @@ excerpt: A feedback is not a vague amplification. It is a number in watts per sq
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - climate-feedback
@@ -25,7 +25,7 @@ The word "feedback" does a lot of loose work in public writing about climate, us
 
 ## Definition and sign convention
 
-A **forcing** is an imposed change to the planet's energy budget, measured in watts per square metre. A [climate feedback](/en/glossary/climate-feedback) is a process that changes the energy budget *in response to* the temperature change that the forcing produced. It is expressed as a feedback parameter in watts per square metre per degree Celsius of global surface warming.
+A **forcing** is an imposed change to the planet's [energy budget](/en/ecology/climate-change/climate-sensitivity-explained), measured in watts per square metre. A [climate feedback](/en/glossary/climate-feedback) is a process that changes the energy budget *in response to* the temperature change that the forcing produced. It is expressed as a feedback parameter in watts per square metre per degree Celsius of global surface warming.
 
 The sign convention trips people up, because it is the opposite of intuition. A feedback parameter is written so that **negative values are stabilising** and positive values are amplifying. The reason is that the total parameter measures how strongly the planet increases its radiation to space per degree of warming; a strongly negative total means the planet sheds the extra energy easily and warms little.
 

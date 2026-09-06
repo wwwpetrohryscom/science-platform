@@ -1,11 +1,11 @@
 ---
 title: 'Las leyes de la termodinámica: qué prohíbe realmente cada una'
-metaTitle: 'Las leyes de la termodinámica y sus prohibiciones'
+metaTitle: Las leyes de la termodinámica y sus prohibiciones
 excerpt: Las cuatro leyes son prohibiciones, no recetas. Cada una descarta una clase de máquina o de proceso, y juntas fijan qué significa la temperatura, qué debe cuadrar la contabilidad de la energía y en qué dirección puede transcurrir un proceso.
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - thermodynamics
@@ -18,8 +18,9 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
+_bodyHash: dba0e528
 ---
-[La termodinámica](/en/glossary/thermodynamics) es un conjunto de prohibiciones. Cada una de sus cuatro leyes dice que algo no puede hacerse, y cada una ha sobrevivido a las teorías microscópicas que pretendían explicarla — el calórico, luego la mecánica clásica, luego la teoría clásica de campos. Por eso un razonamiento decimonónico sobre el vapor sigue restringiendo, sin modificación, a una celda solar, a un frigorífico doméstico y a una bacteria.
+[La termodinámica](/es/glossary/thermodynamics) es un conjunto de prohibiciones. Cada una de sus cuatro leyes dice que algo no puede hacerse, y cada una ha sobrevivido a las teorías microscópicas que pretendían explicarla — el calórico, luego la mecánica clásica, luego la teoría clásica de campos. Por eso un razonamiento decimonónico sobre el vapor sigue restringiendo, sin modificación, a una celda solar, a un frigorífico doméstico y a una bacteria.
 
 También se citan con más soltura de la que se usan. «La energía se conserva» y «la entropía aumenta» son eslóganes que sueltan las condiciones que llevan adheridas, y en esas condiciones vive la confusión sobre el movimiento perpetuo, las afirmaciones de rendimiento y los sistemas vivos.
 
@@ -33,7 +34,7 @@ Ese número descansa ahora en una constante definida y no en una sustancia. Desd
 
 ## La primera ley: la energía se conserva, y el calor no es algo que un cuerpo contenga
 
-La primera ley extiende la conservación de la energía para incluir el calor: la variación de energía interna de un sistema es igual al calor añadido menos el trabajo realizado por el sistema. Su contenido está en la diferencia entre los términos. La energía interna es una **[función de estado](/en/glossary/state-function)** — depende solo de la condición actual del sistema, de modo que un viaje de ida y vuelta la devuelve a donde empezó. Calor y trabajo son **magnitudes de camino**: describen energía que cruza una frontera durante un proceso, y su reparto depende de cómo se condujo el proceso.
+La primera ley extiende la conservación de la energía para incluir el calor: la variación de energía interna de un sistema es igual al calor añadido menos el trabajo realizado por el sistema. Su contenido está en la diferencia entre los términos. La energía interna es una **[función de estado](/es/glossary/state-function)** — depende solo de la condición actual del sistema, de modo que un viaje de ida y vuelta la devuelve a donde empezó. Calor y trabajo son **magnitudes de camino**: describen energía que cruza una frontera durante un proceso, y su reparto depende de cómo se condujo el proceso.
 
 La consecuencia práctica es que «cuánto calor contiene este objeto» no es una pregunta bien formada. Un objeto posee energía interna; el calor es esa energía en tránsito bajo una diferencia de temperatura, y el trabajo es energía en tránsito mediante una fuerza que actúa a lo largo de un desplazamiento. El mismo cambio de estado puede alcanzarse por muchas combinaciones de ambos, y por eso la primera ley por sí sola nunca señala un rendimiento — cuadra las cuentas y ahí se detiene.
 

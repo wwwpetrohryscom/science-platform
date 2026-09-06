@@ -2,8 +2,10 @@ import { siteConfig } from "@/lib/seo";
 import { categories, listCategorySlugs } from "@/lib/categories";
 import { getAllArticles, getAllInsights } from "@/lib/content";
 import { getDiscussions, discussionLocales } from "@/lib/discussions";
-import { listGlossaryAlphabetical } from "@/lib/glossary";
-import { POLICY_DOCUMENTS, listDesksForDisplay } from "@/lib/editorial";
+import { listGlossaryAlphabetical, listGlossarySlugs } from "@/lib/glossary";
+import { POLICY_DOCUMENTS, policyLocales, listDesksForDisplay } from "@/lib/editorial";
+import { INDICATORS, indicatorPath, indicatorLocales } from "@/lib/scientific-data/index";
+import { TOOLS, toolPath } from "@/lib/tools/registry";
 import {
   DEFAULT_LOCALE,
   LOCALES,
@@ -266,40 +268,54 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     );
   });
 
-  // Glossary — EN-only in this pass. Use alternates restricted to EN so
-  // hreflang stays accurate (no fake translations) and crawlers don't
-  // discover a non-EN URL for terms that aren't translated.
+  // Glossary — one URL per locale that actually defines the term, with
+  // alternates restricted to those locales. A term localized into three
+  // languages advertises three; an English-only term advertises one. The
+  // rule is the same as everywhere else on the site: hreflang lists a
+  // language only where there is something to read in it.
   const glossaryEntries: SitemapEntry[] = [];
   const glossaryTerms = listGlossaryAlphabetical();
   const glossaryLastModified = glossaryTerms.reduce(
     (max, t) => (t.updatedDate > max ? t.updatedDate : max),
     "1970-01-01",
   );
-  const glossaryAlternates = buildLocalizedAlternates("/glossary", [
-    DEFAULT_LOCALE,
-  ]);
-  glossaryEntries.push(
-    entry(
-      DEFAULT_LOCALE,
-      "/glossary",
-      toDate(glossaryLastModified),
-      "monthly",
-      0.6,
-      glossaryAlternates,
-    ),
+  const glossaryLocales = LOCALES.filter(
+    (l) => listGlossarySlugs(l).length > 0,
   );
-  for (const term of glossaryTerms) {
-    const path = `/glossary/${term.slug}`;
+  const glossaryAlternates = buildLocalizedAlternates(
+    "/glossary",
+    glossaryLocales,
+  );
+  for (const locale of glossaryLocales) {
     glossaryEntries.push(
       entry(
-        DEFAULT_LOCALE,
-        path,
-        toDate(term.updatedDate),
+        locale,
+        "/glossary",
+        toDate(glossaryLastModified),
         "monthly",
-        0.5,
-        buildLocalizedAlternates(path, [DEFAULT_LOCALE]),
+        locale === DEFAULT_LOCALE ? 0.6 : 0.5,
+        glossaryAlternates,
       ),
     );
+  }
+  for (const term of glossaryTerms) {
+    const path = `/glossary/${term.slug}`;
+    const termLocales = LOCALES.filter((l) =>
+      listGlossarySlugs(l).includes(term.slug),
+    );
+    const alternates = buildLocalizedAlternates(path, termLocales);
+    for (const locale of termLocales) {
+      glossaryEntries.push(
+        entry(
+          locale,
+          path,
+          toDate(term.updatedDate),
+          "monthly",
+          locale === DEFAULT_LOCALE ? 0.5 : 0.4,
+          alternates,
+        ),
+      );
+    }
   }
 
   // Editorial and legal pages — EN-only, same reasoning as the glossary:
@@ -344,18 +360,61 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
       ),
     );
   }
+  // The three policy documents are the exception to the EN-only rule
+  // above: each is translated in full or not at all, and
+  // `policyLocales` reports the locales where it exists. A locale is
+  // listed here — and in the hreflang set — only where the whole
+  // document is readable in that language, which is the same list the
+  // route's generateStaticParams builds from.
   for (const doc of POLICY_DOCUMENTS) {
     const path = `/${doc.slug}`;
-    editorialEntries.push(
-      entry(
-        DEFAULT_LOCALE,
-        path,
-        toDate(doc.updatedDate),
-        "yearly",
-        0.4,
-        editorialAlternates(path),
-      ),
-    );
+    const locales = policyLocales(doc.slug);
+    const alternates = buildLocalizedAlternates(path, locales);
+    for (const locale of locales) {
+      editorialEntries.push(
+        entry(
+          locale,
+          path,
+          toDate(doc.updatedDate),
+          "yearly",
+          locale === DEFAULT_LOCALE ? 0.4 : 0.3,
+          alternates,
+        ),
+      );
+    }
+  }
+
+  // Data and tool pages. Every one exists in every locale — the frame
+  // around the numbers is fully translated — so every locale is listed
+  // in the hreflang set, unlike the article corpus where a locale is
+  // advertised only where the article exists in it.
+  const dataEntries: SitemapEntry[] = [];
+  // The hubs and the tools exist everywhere; an indicator exists only
+  // where its explanatory body has been translated, so its hreflang set
+  // is its own.
+  const dataPaths: Array<{ path: string; locales: Locale[] }> = [
+    { path: "/data", locales: [...LOCALES] },
+    { path: "/tools", locales: [...LOCALES] },
+    ...INDICATORS.map((i) => ({
+      path: indicatorPath(i.indicatorId),
+      locales: indicatorLocales(i.indicatorId) as Locale[],
+    })),
+    ...TOOLS.map((t) => ({ path: toolPath(t.slug), locales: [...LOCALES] })),
+  ];
+  for (const { path: p, locales } of dataPaths) {
+    const alternates = buildLocalizedAlternates(p, locales);
+    for (const locale of locales) {
+      dataEntries.push(
+        entry(
+          locale,
+          p,
+          maxDate(allArticleDates),
+          "monthly",
+          locale === DEFAULT_LOCALE ? 0.6 : 0.5,
+          alternates,
+        ),
+      );
+    }
   }
 
   return dedupe([
@@ -364,6 +423,7 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     ...discussionEntries,
     ...glossaryEntries,
     ...editorialEntries,
+    ...dataEntries,
   ]);
 }
 

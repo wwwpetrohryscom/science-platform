@@ -5,7 +5,7 @@ excerpt: Species richness is the simplest biodiversity measure and the easiest t
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - biodiversity
   - species-richness
@@ -16,7 +16,7 @@ related:
   - why-species-counts-mislead-conservation
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
-_bodyHash: 6deee0f9
+_bodyHash: 75880b4c
 readingTime: 5
 ---
 

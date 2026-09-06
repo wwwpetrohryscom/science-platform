@@ -1,13 +1,13 @@
 ---
 title: Carbon offset markets are quietly outsourcing the work of climate science
-metaTitle: 'Carbon offsets and the outsourcing of climate science'
+metaTitle: Carbon offsets and the outsourcing of climate science
 excerpt: Voluntary carbon markets have become the largest unregulated funder of forest-carbon measurement — and the methods are diverging from what the science actually says.
 argument: When commercial registries certify methodology, the result is rules optimized for issuance volume rather than measurement accuracy. The corrective is not better registries — it is independent, public-good measurement infrastructure.
 category: ecology
 author: climate-research-desk
 publishedDate: '2026-03-15'
-updatedDate: '2026-05-08'
-readingTime: 3
+updatedDate: '2026-09-06'
+readingTime: 5
 tags:
   - carbon markets
   - policy
@@ -16,7 +16,7 @@ tags:
 related:
   - temperate-forest-carbon-sink-decline
   - what-is-climate-change
-_bodyHash: 698b02be
+_bodyHash: dd765afe
 ---
 
 Voluntary carbon markets fund a growing amount of forest-carbon measurement, but their scientific governance remains uneven. The risk, highlighted by public assessments from the [IPCC](https://www.ipcc.ch/report/ar6/syr/) and climate-policy work from [UNEP](https://www.unep.org/resources/emissions-gap-report-2024), is that offset accounting can be treated as equivalent to direct emissions reductions even when permanence, additionality, and baseline uncertainty remain unresolved.
@@ -31,7 +31,7 @@ This is not a new observation. It has been the structural critique of voluntary 
 
 The strongest evidence on this is a 2024 synthesis in *Nature Communications* that pooled 14 studies using experimental or rigorous observational designs, covering 2,346 carbon-mitigation projects — about one-fifth of all credit volume issued to date, close to a billion tonnes of CO₂-equivalent. Its estimate is that fewer than 16 per cent of the credits issued to those projects represent real emission reductions.
 
-The figure varies sharply by mechanism, and the variation is the informative part: 68 per cent for HFC-23 abatement, 25 per cent for avoided deforestation, 16 per cent for SF₆ destruction, 11 per cent for cookstoves, and no statistically significant reductions at all from wind power or improved forest management. Mechanisms where the counterfactual is a chemical process behave very differently from mechanisms where it is a projection of what people would otherwise have done.
+The figure varies sharply by mechanism, and the variation is the informative part — and the mechanism that scores worst is the one whose baseline is hardest to establish, as [deforestation statistics](/en/ecology/forests/deforestation-statistics-explained) show: 68 per cent for HFC-23 abatement, 25 per cent for avoided deforestation, 16 per cent for SF₆ destruction, 11 per cent for cookstoves, and no statistically significant reductions at all from wind power or improved forest management. Mechanisms where the counterfactual is a chemical process behave very differently from mechanisms where it is a projection of what people would otherwise have done.
 
 ## What the science says
 
@@ -53,7 +53,7 @@ Both are reasonable. What neither settles is the measurement question underneath
 
 ## What an honest correction looks like
 
-The fix is not to pick a better registry. The fix is to fund the institutional infrastructure that the market does not, and cannot, fund itself: open monitoring platforms, calibration sites, independent verification that does not depend on the issuance pipeline.
+The fix is not to pick a better registry. The fix is to fund the institutional infrastructure that the market does not, and cannot, fund itself — starting with the plot, allometry and lidar work behind [measuring forest carbon](/en/ecology/forests/forest-carbon-measurement): open monitoring platforms, calibration sites, independent verification that does not depend on the issuance pipeline.
 
 Several countries have begun building this infrastructure publicly. The European Union's Land Monitoring System is one example; the proposed expansion of the U.S. Forest Inventory Analysis program for carbon-relevant variables is another. These are public goods. They are funded at a fraction of the volume that the voluntary market spends on certification.
 

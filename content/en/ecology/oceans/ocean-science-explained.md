@@ -5,8 +5,8 @@ excerpt: Density sorts seawater into layers that exchange slowly, and nearly eve
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 8
 tags:
   - oceans
   - marine-science
@@ -18,7 +18,7 @@ related:
   - deep-sea-ecosystems
   - fisheries-science-and-stock-assessment
   - ocean-circulation-and-climate
-_bodyHash: d5aba4d5
+_bodyHash: 1c4e84ed
 ---
 
 The ocean is one connected body of water that behaves as though it were stacked. Density — a function of temperature, salinity and pressure — sorts seawater into layers that exchange slowly with each other, and most of the large-scale behaviour of the sea follows from that sorting: where added heat accumulates, where nutrients sit, how deep light reaches, and how long anything stays where it is.
@@ -33,7 +33,7 @@ That barrier has strengthened. The IPCC's Sixth Assessment concludes it is virtu
 
 Those two stratification figures are close, but they are not estimates of the same quantity, and treating them as rival answers to one question is the commonest way ocean statistics get misread. One is a difference between two depths; the other is a depth-resolved measure of stability. The agreement between them is meaningful precisely because the methods differ.
 
-The same layering is why the sea dominates the planet's energy accounting: the IPCC assesses that the ocean stored 91 per cent of the total energy the Earth system gained between 1971 and 2018, and a more stable surface layer changes how quickly that heat reaches the interior.
+The same layering is why the sea dominates the planet's energy accounting: the IPCC assesses that the ocean stored 91 per cent of the total energy the [Earth system](/en/ecology/earth-systems/earth-system-science-explained) gained between 1971 and 2018, and a more stable surface layer changes how quickly that heat reaches the interior.
 
 ## Salt stays constant; the useful chemicals do not
 
@@ -43,7 +43,7 @@ The biologically active constituents behave nothing like the salt. Nitrate, phos
 
 ## Life is concentrated in a layer that is almost none of the volume
 
-Photosynthesis is confined to roughly the upper 200 metres, and NOAA Ocean Exploration notes that more than 90 per cent of the ocean lies deeper than that. Essentially all marine primary production therefore happens in a thin illuminated skin, and everything below it lives on what falls, swims or is mixed down from that skin. The consequences are strange enough that they are treated separately in [marine productivity and food webs](/en/ecology/oceans/marine-food-webs-and-productivity), where the standing stock of producers turns out to be smaller than the standing stock of the animals eating them.
+Photosynthesis is confined to roughly the upper 200 metres — [the boundary of the euphotic zone](/en/ecology/oceans/light-in-the-ocean-and-the-photic-zones) — and NOAA Ocean Exploration notes that more than 90 per cent of the ocean lies deeper than that. Essentially all marine [primary production](/en/ecology/ecosystems/primary-production-and-energy-flow) therefore happens in a thin illuminated skin, and everything below it lives on what falls, swims or is mixed down from that skin. The consequences are strange enough that they are treated separately in [marine productivity and food webs](/en/ecology/oceans/marine-food-webs-and-productivity), where the standing stock of producers turns out to be smaller than the standing stock of the animals eating them.
 
 At the two extremes of that vertical gradient sit the two marine ecosystems most often written about. Reef-building corals occupy the shallowest, clearest, most nutrient-poor water and solve the resulting energy problem through symbiosis, a system whose failure mode is examined in [coral reefs and bleaching](/en/ecology/oceans/coral-reef-ecology-and-bleaching). Far below, in permanent darkness and cold, sit the communities described in [deep-sea ecosystems](/en/ecology/oceans/deep-sea-ecosystems), including the chemosynthetic ones that do not depend on sunlight at all.
 

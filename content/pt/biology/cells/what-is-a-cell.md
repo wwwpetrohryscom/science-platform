@@ -1,11 +1,11 @@
 ---
 title: O que é uma célula? A unidade da vida, definida operacionalmente
-metaTitle: 'O que é uma célula? Uma definição operacional'
+metaTitle: O que é uma célula? Uma definição operacional
 excerpt: Uma célula é a mais pequena unidade capaz de se manter, de se copiar e de responder ao seu ambiente. Cada um destes requisitos exclui aquilo que «célula» não significa — e explica por que motivo os casos limite são interessantes.
 type: pillar
 author: biology-ecosystems-desk
 publishedDate: '2026-01-15'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 6
 tags:
   - cells
@@ -15,7 +15,7 @@ tags:
 related:
   - what-is-dna
   - cell-types-as-units-of-evolution
-_bodyHash: 1eab1cab
+_bodyHash: '88387893'
 ---
 
 Uma célula é a mais pequena unidade física capaz de se manter, de se copiar e de responder ao seu ambiente. Este enquadramento operacional é coerente com as obras de referência de [biologia celular](/pt/biology/cells/cell-signaling-pathways-basics) acessíveis através do [NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/) e com as definições de genética propostas pelo [NHGRI](https://www.genome.gov/genetics-glossary). São três requisitos, e cada um desempenha um papel estrutural na definição do que é uma célula — e na explicação de por que motivo certos casos limite (os vírus, as mitocôndrias, os organelos em trânsito) não são células, mesmo partilhando algumas propriedades das células.

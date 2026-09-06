@@ -60,7 +60,7 @@ It is also worth being clear about what [five sigma](/en/glossary/five-sigma) do
 
 The Standard Model as originally written contains massless neutrinos. They are not massless.
 
-Neutrinos change flavour as they travel — an electron neutrino produced by [the proton-fusion chain in the Sun](/en/physics/matter-radiation/nuclear-fusion-fundamentals) can arrive as a muon or tau neutrino — and that oscillation is only possible if the flavour states are mixtures of states with different masses, which requires at least two of the three masses to be non-zero. The 2015 Nobel Prize in Physics went to Takaaki Kajita and Arthur B. McDonald for the discovery of neutrino oscillations, showing that neutrinos have mass.
+Neutrinos change flavour as they travel — an electron neutrino produced by [the proton-fusion chain in the Sun](/en/physics/matter-radiation/nuclear-fusion-fundamentals) can arrive as a muon or tau neutrino — and that oscillation is only possible if the flavour states are mixtures of states with different masses, which requires at least two of the three masses to be non-zero. The 2015 Nobel Prize in Physics went to Takaaki Kajita and Arthur B. McDonald for the discovery of [neutrino oscillations](/en/glossary/neutrino-oscillation), showing that neutrinos have mass.
 
 This is worth stating plainly because "physics beyond the Standard Model" is usually discussed as a prospect. In this instance it is a settled experimental fact, confirmed for a decade, and the theory has been patched rather than replaced. What the masses actually are, whether they are ordered normally or inversely, and whether the neutrino is its own antiparticle all remain open.
 

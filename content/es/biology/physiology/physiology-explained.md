@@ -5,7 +5,7 @@ excerpt: La regulación no es un termostato. Este pilar expone qué es una varia
 type: pillar
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - homeostasis
@@ -17,6 +17,7 @@ related:
   - respiration-and-gas-exchange
   - circulation-and-the-heart
   - nervous-systems-and-neurons
+_bodyHash: 130b1ed
 ---
 La sangre arterial de una persona sana se sitúa entre un pH de 7,35 y 7,45. Nada en la química privilegia esa banda; se mantiene ahí porque varios procesos empujan unos contra otros de forma continua, y porque salirse de ella desactiva las enzimas que ejercen ese empuje. La banda se defiende en dos relojes a la vez — los pulmones ajustan la eliminación de dióxido de carbono en minutos a horas, mientras los riñones reabsorben bicarbonato y excretan ácidos fijos a lo largo de días. Esa es la forma de casi toda historia fisiológica: no un mecanismo, sino varios con constantes de tiempo distintas, y cuál se advierte depende de cuánto tiempo se mire.
 
@@ -52,7 +53,7 @@ El escalado fija también la geometría de los órganos de intercambio, porque s
 
 La heurística organizadora suele atribuirse a August Krogh: para muchos problemas hay un organismo en el que el fenómeno de interés aparece de forma extrema o inusual, y ese es el organismo que hay que estudiar. Un artículo de 2025 en *History and Philosophy of the Life Sciences* enuncia el principio en esa forma y extrae su lógica — la restricción extrema hace legible un mecanismo. Mamíferos buceadores para la tolerancia a la hipoxia, jirafas para la presión hidrostática, hibernadores para la supresión metabólica: cada uno se elige porque la variable de interés está llevada a un valor que ningún animal ordinario alcanza.
 
-La heurística tiene un peligro evidente. Un organismo elegido por ser extremo es por construcción no representativo, de modo que generalizar a partir de él es un argumento que hay que hacer y no un supuesto que se herede. La misma cautela vale para la literatura vegetal, donde el problema físico es genuinamente distinto — [mover agua sin bomba](/es/biology/physiology/plant-physiology-water-and-nutrients) no tiene análogo animal — y para [el desarrollo, donde el objeto regulado cambia de forma mientras está siendo regulado](/es/biology/physiology/developmental-biology-explained). La regulación tampoco se limita a las variables clásicas: [la defensa inmunitaria es un problema de control por capas](/es/biology/physiology/the-immune-system-explained) con la misma estructura de umbrales, efectores y costes. Si una diferencia fisiológica es adaptativa o incidental es cuestión para [la selección natural y cómo se pone a prueba la adaptación](/es/biology/evolution/natural-selection-and-adaptation), y el relato a nivel de mecanismo de qué es una [adaptación evolutiva](/en/glossary/evolutionary-adaptation) pertenece allí y no aquí.
+La heurística tiene un peligro evidente. Un organismo elegido por ser extremo es por construcción no representativo, de modo que generalizar a partir de él es un argumento que hay que hacer y no un supuesto que se herede. La misma cautela vale para la literatura vegetal, donde el problema físico es genuinamente distinto — [mover agua sin bomba](/es/biology/physiology/plant-physiology-water-and-nutrients) no tiene análogo animal — y para [el desarrollo, donde el objeto regulado cambia de forma mientras está siendo regulado](/es/biology/physiology/developmental-biology-explained). La regulación tampoco se limita a las variables clásicas: [la defensa inmunitaria es un problema de control por capas](/es/biology/physiology/the-immune-system-explained) con la misma estructura de umbrales, efectores y costes. Si una diferencia fisiológica es adaptativa o incidental es cuestión para [la selección natural y cómo se pone a prueba la adaptación](/es/biology/evolution/natural-selection-and-adaptation), y el relato a nivel de mecanismo de qué es una [adaptación evolutiva](/es/glossary/evolutionary-adaptation) pertenece allí y no aquí.
 
 ## Qué es lo que este campo menos puede resolver
 

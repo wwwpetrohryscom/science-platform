@@ -20,6 +20,13 @@
  *   3. Propagate `pillar`: when a pillar exists in the same
  *      (locale, category, subtopic) and a sibling lacks `pillar`,
  *      set it to the pillar's slug.
+ *   4. Carry the English article's `updatedDate` onto its translations.
+ *      The translation contract copies identity frontmatter from the
+ *      English article rather than authoring it, so a translation must
+ *      never hold a revision date of its own. Without this step a run
+ *      that re-stamps English leaves every translation of a re-stamped
+ *      article failing the identity check — fifty of them, the first
+ *      time this was run after a content wave.
  *
  * Usage:
  *   npm run content:metadata
@@ -50,7 +57,12 @@ async function main() {
 
   let bumped = 0;
   let baselined = 0;
-  for (const w of walked) {
+  // English first: its date is the one the translations must carry.
+  const ordered = [...walked].sort((a, b) =>
+    a.locale === "en" ? -1 : b.locale === "en" ? 1 : 0,
+  );
+  const englishDates = new Map<string, string>();
+  for (const w of ordered) {
     const newHash = hashProse(w.body);
     const oldHash = String(w.frontmatter[HASH_KEY] ?? "");
     const hadHash = oldHash.length > 0;
@@ -89,6 +101,13 @@ async function main() {
         const pillarSlug = pillars.get(key);
         if (pillarSlug) fm.pillar = pillarSlug;
       }
+    }
+
+    if (w.locale === "en") {
+      englishDates.set(w.slug, String(fm.updatedDate ?? ""));
+    } else {
+      const enDate = englishDates.get(w.slug);
+      if (enDate) fm.updatedDate = enDate;
     }
 
     await writeDoc(w.filepath, fm, w.body);

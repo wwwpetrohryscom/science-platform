@@ -5,7 +5,7 @@ excerpt: El suelo es un sistema de cuatro fases organizado en horizontes, que se
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - soil
@@ -19,7 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
-_bodyHash: 5ff5ac46
+_bodyHash: 98d26d91
 ---
 
 El suelo nuevo se forma a una tasa mediana que la FAO y su Grupo Técnico Intergubernamental sobre los Suelos sitúan en torno a 0,15 toneladas por hectárea y año, y por lo general bastante por debajo de una tonelada. Repartida sobre una hectárea, una tonelada de suelo mineral es una película que no se vería. Esa cifra es la razón de que la ciencia del suelo esté organizada como lo está: en cualquier escala temporal en la que opere un agricultor, un planificador o un tratado, el material del que se habla es una herencia fija que se está gastando, no un flujo renovable.
@@ -70,9 +70,9 @@ La FAO y su grupo técnico evalúan diez procesos como amenazas para los servici
 
 Esos rangos no son descuido. Son lo que ocurre cuando una palabra arrastra a la vez una definición, una línea base y un indicador, y tres evaluaciones eligen distinto en las tres cosas: el problema que se examina en [la degradación de la tierra como concepto en disputa](/es/ecology/soils/land-degradation-and-desertification).
 
-Conviene ser preciso sobre qué está en juego en esa contabilidad, porque el encuadre habitual —el suelo como medio en el que crecen los cultivos— se queda corto. Ese mismo perfil filtra y almacena agua, amortigua el pH y la química redox, inmoviliza contaminantes, recicla nitrógeno y fósforo, conserva un registro arqueológico y paleoclimático y presta soporte físico. Cada una de esas funciones es un [servicio ecosistémico](/en/glossary/ecosystem-service) con una sensibilidad distinta a la perturbación, y un cambio de manejo que mejora una puede degradar otra. La compactación que eleva la capacidad portante reduce la infiltración; el drenaje que mejora la laborabilidad oxida el carbono almacenado. No hay un eje único a lo largo del cual un suelo mejore.
+Conviene ser preciso sobre qué está en juego en esa contabilidad, porque el encuadre habitual —el suelo como medio en el que crecen los cultivos— se queda corto. Ese mismo perfil filtra y almacena agua, amortigua el pH y la química redox, inmoviliza contaminantes, recicla nitrógeno y fósforo, conserva un registro arqueológico y paleoclimático y presta soporte físico. Cada una de esas funciones es un [servicio ecosistémico](/es/glossary/ecosystem-service) con una sensibilidad distinta a la perturbación, y un cambio de manejo que mejora una puede degradar otra. La compactación que eleva la capacidad portante reduce la infiltración; el drenaje que mejora la laborabilidad oxida el carbono almacenado. No hay un eje único a lo largo del cual un suelo mejore.
 
-Vale la pena señalar tres lagunas a quien use datos de suelos. Los mapas globales se construyen con conjuntos de datos nacionales de densidad muy desigual, y el propio análisis de incertidumbre de la FAO sitúa los mayores errores en las regiones tropicales y en los desiertos árticos, donde las muestras son más escasas. Las convenciones de profundidad truncan la imagen: casi toda la información se detiene en los 30 centímetros porque ahí es donde están los datos, no porque ahí se detenga el perfil; un metaanálisis isotópico de 2018 publicado en *Nature*, sobre 112 emplazamientos, concluye que [la capa de 30 a 100 centímetros contiene el 47 % del carbono orgánico del primer metro](https://pubmed.ncbi.nlm.nih.gov/29995858/). Y las redes de seguimiento de suelos con mediciones repetidas existen solo en una minoría de países, de modo que buena parte de lo que se presenta como tendencia es en realidad una única instantánea comparada con un modelo.
+Vale la pena señalar tres lagunas a quien use datos de suelos. Los mapas globales se construyen con conjuntos de datos nacionales de densidad muy desigual, y el propio análisis de incertidumbre de la FAO sitúa los mayores errores en las regiones tropicales y en los desiertos árticos, donde las muestras son más escasas. Las convenciones de profundidad truncan la imagen: casi toda la información se detiene en los 30 centímetros porque ahí es donde están los datos, no porque ahí se detenga el perfil; un metaanálisis isotópico de 2018 publicado en *Nature*, sobre 112 emplazamientos, concluye que [la capa de 30 a 100 centímetros contiene el 47 % del carbono orgánico del primer metro](https://pubmed.ncbi.nlm.nih.gov/29995858/). Y la medición repetida es escasa: la misma evaluación de la FAO registra pocos emplazamientos con datos de seguimiento de suelos a largo plazo y pide que se construya una red mundial de seguimiento de suelos a largo plazo, de modo que buena parte de lo que se presenta como tendencia es en realidad una única instantánea comparada con un modelo.
 
 ## Sources
 

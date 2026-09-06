@@ -1,11 +1,11 @@
 ---
 title: 'Carbon-cycle feedbacks: why ocean and land sinks are not guaranteed to keep absorbing'
-metaTitle: 'Carbon-cycle feedbacks and the future of the sinks'
+metaTitle: Carbon-cycle feedbacks and the future of the sinks
 excerpt: Land and ocean absorb roughly half of human carbon emissions today. Whether they keep doing so is among the largest uncertainties in long-term climate projection.
 type: expert
 author: climate-research-desk
 publishedDate: '2026-05-23'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - climate-change
@@ -37,7 +37,7 @@ The [NOAA Global Monitoring Laboratory](https://gml.noaa.gov/) flask network pro
 
 ## The ocean sink
 
-The ocean takes up CO₂ through air-sea gas exchange at the surface, after which the absorbed carbon partitions into dissolved CO₂, bicarbonate, and carbonate forms (the carbonate-buffer chemistry). The absorbed carbon is then mixed and transported by ocean circulation, ending up in the deeper ocean on timescales of decades to centuries.
+The ocean takes up CO₂ through air-sea [gas exchange](/en/ecology/oceans/air-sea-gas-exchange) at the surface, after which the absorbed carbon partitions into dissolved CO₂, bicarbonate, and carbonate forms (the carbonate-buffer chemistry). The absorbed carbon is then mixed and transported by [ocean circulation](/en/ecology/earth-systems/el-nino-la-nina-enso-explained), ending up in the deeper ocean on timescales of decades to centuries.
 
 Two physical processes affect the long-term fraction the ocean can absorb.
 
@@ -45,15 +45,15 @@ Two physical processes affect the long-term fraction the ocean can absorb.
 
 **Stratification.** Surface ocean warming increases stratification, which slows the downward mixing of carbon-loaded surface waters and reduces the rate at which the deep ocean can absorb the surface signal. The magnitude of this stratification feedback over the 21st century is one of the model-uncertainty terms in the [climate-projection envelope](/en/ecology/climate-change/climate-models-projections-uncertainty).
 
-The ocean sink also delivers ocean acidification as a side effect — falling pH and falling aragonite saturation that the [NOAA Climate.gov](https://www.noaa.gov/climate) and [EPA ocean acidification](https://www.epa.gov/ocean-acidification) pages track as separate indicators with biological consequences for marine calcifiers.
+The ocean sink also delivers [ocean acidification](/en/ecology/oceans/ocean-acidification-explained) as a side effect — falling pH and falling aragonite saturation that the [NOAA Climate.gov](https://www.noaa.gov/climate) and [EPA ocean acidification](https://www.epa.gov/ocean-acidification) pages track as separate indicators with biological consequences for marine calcifiers.
 
 ## The land sink
 
 The land sink is more variable and less well-constrained than the ocean sink. Several mechanisms contribute.
 
-**CO₂ fertilization.** Elevated atmospheric CO₂ increases photosynthesis rates in most plants, particularly C3 species. The magnitude of the realized fertilization in the field, however, depends on nutrient (especially nitrogen and phosphorus) and water availability. Free-Air CO₂ Enrichment (FACE) experiments and global satellite vegetation indices show a fertilization signal that varies regionally and that some studies suggest may be saturating earlier than initial projections assumed.
+**CO₂ fertilization.** Elevated atmospheric CO₂ increases photosynthesis rates in most plants, particularly C3 species. The magnitude of the realized fertilization in the field, however, depends on nutrient (especially nitrogen and phosphorus) and water availability. Free-Air CO₂ Enrichment (FACE) experiments and global satellite [vegetation indices](/en/ecology/earth-observation/ndvi-explained) show a fertilization signal that varies regionally and that some studies suggest may be saturating earlier than initial projections assumed.
 
-**Lengthening growing seasons.** Warming has extended the photosynthetic season in temperate and boreal forests. The carbon-balance consequence depends on whether the extended growing season is matched by an extended respiration season — at high latitudes the answer appears to be partial, leaving a net positive uptake change; at lower latitudes the answer is more variable.
+**Lengthening growing seasons.** Warming has extended the photosynthetic season in temperate and [boreal forests](/en/ecology/forests/boreal-forests-and-permafrost-interactions). The carbon-balance consequence depends on whether the extended growing season is matched by an extended respiration season — at high latitudes the answer appears to be partial, leaving a net positive uptake change; at lower latitudes the answer is more variable.
 
 **Forest demographics and disturbance.** Forests are not steady-state. Stand-replacing disturbance — fire, insects, drought-induced mortality, harvest — moves carbon between live biomass, dead biomass, soils, and the atmosphere on timescales the long-term carbon-cycle assessments must integrate. Tropical and boreal disturbance regimes are changing, documented in the [European Environment Agency](https://www.eea.europa.eu/) forests assessment and in the [Forest Inventory and Analysis](https://research.fs.usda.gov/programs/fia) U.S. national inventories. Whether disturbance shifts the net land sink is region-dependent and is part of the broader [temperate-forest carbon sink decline](/en/ecology/climate-change/temperate-forest-carbon-sink-decline) literature.
 

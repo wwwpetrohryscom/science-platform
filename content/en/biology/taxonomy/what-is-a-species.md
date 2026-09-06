@@ -5,8 +5,8 @@ excerpt: Biologists apply at least five incompatible criteria for deciding where
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 6
+updatedDate: '2026-09-06'
+readingTime: 7
 tags:
   - species-concepts
   - taxonomy
@@ -19,10 +19,10 @@ related:
   - how-many-species-are-there
   - why-species-counts-mislead-conservation
 pillar: taxonomy-and-classification-explained
-_bodyHash: a1cf08c1
+_bodyHash: '307e9533'
 ---
 
-Two researchers can examine the same populations, share every sequence and specimen, and still publish incompatible answers about how many kinds of organism they are looking at. The disagreement is almost never about the data. It is about which property counts as decisive, and biology supplies several candidates that do not pick out the same boundaries. Everything downstream — the naming machinery described in [the rules that govern scientific names](/en/biology/taxonomy/taxonomy-and-classification-explained), the counts, the legal protections — inherits that unresolved choice.
+Two researchers can examine the same populations, share every sequence and specimen, and still publish incompatible answers about how many kinds of organism they are looking at. The disagreement is almost never about the data. It is about which property counts as decisive, and biology supplies several candidates that do not pick out the same boundaries. Everything downstream — the naming machinery described in [the rules that govern scientific names](/en/biology/taxonomy/taxonomy-and-classification-explained), the counts, the legal protections — inherits that unresolved choice. That is taken up separately in [how the naming system itself works](/en/biology/taxonomy/binomial-nomenclature-and-why-names-change).
 
 ## Five criteria, five sets of boundaries
 

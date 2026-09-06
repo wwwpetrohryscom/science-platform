@@ -4,7 +4,7 @@ excerpt: Un ecosistema no es un lugar, sino un flujo. Esto es lo que esa distinc
 type: pillar
 author: environmental-science-desk
 publishedDate: '2026-01-18'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 7
 tags:
   - ecosystems
@@ -14,7 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-climate-change
-_bodyHash: 7e97b4bd
+_bodyHash: 36ac7334
 ---
 
 Un ecosistema es el flujo simultáneo de energía, materia e información a través de una comunidad de organismos y su entorno físico ([UNEP: Ecosistemas](https://www.unep.org/explore-topics/ecosystems)). El término «ecosistema» lo acuñó Arthur Tansley en 1935 precisamente para desplazar la noción más antigua y romántica de «comunidad»: Tansley quería un término que subrayara el intercambio y no la pertenencia.

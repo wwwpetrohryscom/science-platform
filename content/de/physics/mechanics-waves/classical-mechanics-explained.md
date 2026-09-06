@@ -5,7 +5,7 @@ excerpt: Die Newtonschen Gesetze sind weniger eine Sammlung von Tatsachen über 
 type: pillar
 author: physics-energy-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - classical-mechanics
@@ -18,6 +18,7 @@ related:
   - waves-and-oscillations-explained
   - fluid-dynamics-explained
   - measurement-uncertainty-explained
+_bodyHash: e7b70f3d
 ---
 Die beiden 1977 gestarteten Voyager-Sonden verlassen das Sonnensystem mit mehr als 3 astronomischen Einheiten pro Jahr, und die NASA hat beide mit einer Mechanik zu ihren Planetenbegegnungen navigiert, die vor 1900 im Wesentlichen fertig war. Das ist das praktische Argument für die klassische Mechanik: nicht dass sie die tiefste verfügbare Beschreibung wäre, sondern dass sie innerhalb einer sehr weiten Hülle die richtige ist und dass nichts von dem, was sie ablöste, sie innerhalb dieser Hülle überflüssig gemacht hat.
 

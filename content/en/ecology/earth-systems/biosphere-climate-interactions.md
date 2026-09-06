@@ -5,7 +5,7 @@ excerpt: Plants affect climate through carbon, water, and reflectivity at once, 
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - biosphere
@@ -17,7 +17,7 @@ related:
   - earth-system-science-explained
   - nitrogen-cycle-explained
   - climate-feedback-mechanisms
-_bodyHash: d96258ae
+_bodyHash: d29b1a53
 pillar: earth-system-science-explained
 ---
 
@@ -39,7 +39,7 @@ Boreal afforestation is the standard illustration and the reason the distinction
 
 In the humid tropics the channels align instead: forest is dark but also transpires vigorously and supports convective cloud, so both the carbon and the evaporative channels favour cooling, and clearing forest warms locally as well as globally.
 
-The general point is that a land-cover intervention has a globally uniform composition effect and a strongly location-dependent physical effect, so the net sign is regional. AR6 assesses the effective radiative forcing from land-use-driven surface reflectance change, together with light-absorbing particles deposited on snow and ice, at −0.20 W m⁻² over the industrial era, with a range of −0.30 to −0.10 and medium confidence — a cooling contribution, and a reminder that historical deforestation did not only add carbon.
+The general point is that a land-cover intervention has a globally uniform composition effect and a strongly location-dependent physical effect, so the net sign is regional. AR6 assesses the effective [radiative forcing](/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing) from land-use-driven surface reflectance change, together with light-absorbing particles deposited on snow and ice, at −0.20 W m⁻² over the industrial era, with a range of −0.30 to −0.10 and medium confidence — a cooling contribution, and a reminder that historical deforestation did not only add carbon.
 
 ## The land sink, and what limits it
 
@@ -67,7 +67,7 @@ Biosphere terms are among the least certain in Earth system modelling, for reaso
 
 Vegetation responds to weather, nutrients, CO₂ concentration, disturbance, and management simultaneously, and these covary in the observational record, so isolating any one response is difficult. The CO₂ fertilisation effect in particular — how much extra growth follows from higher ambient concentration — is constrained mainly by a small number of field experiments that cannot cover the range of ecosystems in question.
 
-AR6's cross-chapter assessment reflects this: it treats both tropical and boreal forest as potentially subject to abrupt change with **low** confidence, irreversible for multiple decades with medium confidence, and projects increasing vegetation carbon storage with medium confidence, explicitly conditional on human disturbance. Measuring the state of the biosphere well enough to constrain these terms is itself an open problem, addressed from the ecological side in [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health) and from the satellite side in [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring). AR6's assessment is a candid statement of a component that is important and not well pinned down, and it is why biosphere feedbacks are handled separately from the physical ones in [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms). The ecological framing of the same systems is in [ecosystem services](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing).
+AR6's cross-chapter assessment reflects this: it treats both tropical and boreal forest as potentially subject to [abrupt change](/en/ecology/earth-systems/earth-system-tipping-points) with **low** confidence, irreversible for multiple decades with medium confidence, and projects increasing vegetation carbon storage with medium confidence, explicitly conditional on human disturbance. Measuring the state of the biosphere well enough to constrain these terms is itself an open problem, addressed from the ecological side in [biodiversity monitoring and ecosystem health](/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health) and from the satellite side in [remote sensing for biodiversity monitoring](/en/ecology/biodiversity/remote-sensing-for-biodiversity-monitoring). AR6's assessment is a candid statement of a component that is important and not well pinned down, and it is why biosphere feedbacks are handled separately from the physical ones in [climate feedback mechanisms](/en/ecology/earth-systems/climate-feedback-mechanisms). The ecological framing of the same systems is in [ecosystem services](/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing).
 
 ## Sources
 

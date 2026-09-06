@@ -18,78 +18,93 @@ import {
 } from "@/lib/seo";
 import {
   DEFAULT_LOCALE,
+  LOCALES,
   getMessages,
   isLocale,
   localeMeta,
   localizedPath,
   translator,
+  type Locale,
 } from "@/lib/i18n";
 
 type Props = { params: { locale: string; term: string } };
 
+/** Locales that define this term. Drives both routing and hreflang, so
+ *  a language is advertised only where the term actually exists. */
+function localesFor(term: string): Locale[] {
+  return LOCALES.filter((l) => listGlossarySlugs(l).includes(term));
+}
+
 export function generateStaticParams() {
-  return listGlossarySlugs().map((term) => ({
-    locale: DEFAULT_LOCALE,
-    term,
-  }));
+  return LOCALES.flatMap((locale) =>
+    listGlossarySlugs(locale).map((term) => ({ locale, term })),
+  );
 }
 
 export function generateMetadata({ params }: Props): Metadata {
-  if (params.locale !== DEFAULT_LOCALE) return { robots: { index: false, follow: false } };
-  const entry = getGlossaryEntry(params.term);
+  const locale = params.locale as Locale;
+  const entry = isLocale(locale)
+    ? getGlossaryEntry(params.term, locale)
+    : undefined;
   if (!entry) {
-    return buildMetadata({
+    return {
       title: "Glossary term not found",
-      description: "The requested glossary term could not be found.",
-      path: `/glossary/${params.term}`,
-      locale: DEFAULT_LOCALE,
-      availableLocales: [DEFAULT_LOCALE],
-      noIndex: true,
-    });
+      robots: { index: false, follow: false },
+    };
   }
+  const t = translator(getMessages(locale));
   return buildMetadata({
-    title: `${entry.term} — Glossary`,
+    title: `${entry.metaTerm ?? entry.term} — ${t("glossary.label")}`,
     description: entry.shortDefinition,
     path: `/glossary/${entry.slug}`,
-    locale: DEFAULT_LOCALE,
-    availableLocales: [DEFAULT_LOCALE],
+    locale,
+    availableLocales: localesFor(entry.slug),
     updatedDate: entry.updatedDate,
   });
 }
 
 export default async function GlossaryTermPage({ params }: Props) {
   if (!isLocale(params.locale)) notFound();
-  if (params.locale !== DEFAULT_LOCALE) notFound();
-  const entry = getGlossaryEntry(params.term);
+  const locale = params.locale as Locale;
+  const entry = getGlossaryEntry(params.term, locale);
   if (!entry) notFound();
 
-  const t = translator(getMessages(DEFAULT_LOCALE));
-  const inLanguage = localeMeta[DEFAULT_LOCALE].htmlLang;
+  const t = translator(getMessages(locale));
+  const inLanguage = localeMeta[locale].htmlLang;
   const categoryDef = getCategory(entry.category);
+  const glossaryLabel = t("glossary.label");
 
+  // Same-locale first: the reader is sent to the translated article
+  // where one exists, and to the English original where it does not,
+  // labelled so the switch of language is visible before the click.
   const relatedArticles = await Promise.all(
     entry.relatedArticles.map(async (ref) => {
-      const a = await getArticleBySlug(DEFAULT_LOCALE, ref.slug);
-      return a ?? null;
+      const local =
+        locale === DEFAULT_LOCALE
+          ? null
+          : await getArticleBySlug(locale, ref.slug);
+      if (local) return { article: local, inEnglish: false };
+      const en = await getArticleBySlug(DEFAULT_LOCALE, ref.slug);
+      return en ? { article: en, inEnglish: locale !== DEFAULT_LOCALE } : null;
     }),
   );
 
   const breadcrumbLd = breadcrumbJsonLd([
-    { name: t("nav.home"), path: localizedPath(DEFAULT_LOCALE, "/") },
-    { name: "Glossary", path: localizedPath(DEFAULT_LOCALE, "/glossary") },
-    { name: entry.term, path: localizedPath(DEFAULT_LOCALE, `/glossary/${entry.slug}`) },
+    { name: t("nav.home"), path: localizedPath(locale, "/") },
+    { name: glossaryLabel, path: localizedPath(locale, "/glossary") },
+    { name: entry.term, path: localizedPath(locale, `/glossary/${entry.slug}`) },
   ]);
 
   const definedTermLd = definedTermJsonLd({
     term: entry.term,
     definition: entry.shortDefinition,
-    path: localizedPath(DEFAULT_LOCALE, `/glossary/${entry.slug}`),
+    path: localizedPath(locale, `/glossary/${entry.slug}`),
     inLanguage,
-    termSetUrl: localizedPath(DEFAULT_LOCALE, "/glossary"),
+    termSetUrl: localizedPath(locale, "/glossary"),
   });
 
   return (
-    <Layout locale={DEFAULT_LOCALE}>
+    <Layout locale={locale}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
@@ -100,13 +115,13 @@ export default async function GlossaryTermPage({ params }: Props) {
       />
 
       <PageHeading
-        eyebrow="Glossary"
+        eyebrow={glossaryLabel}
         title={entry.term}
         description={entry.shortDefinition}
         accent={categoryDef.accent}
         crumbs={[
-          { label: t("nav.home"), href: localizedPath(DEFAULT_LOCALE, "/") },
-          { label: "Glossary", href: localizedPath(DEFAULT_LOCALE, "/glossary") },
+          { label: t("nav.home"), href: localizedPath(locale, "/") },
+          { label: glossaryLabel, href: localizedPath(locale, "/glossary") },
         ]}
       />
 
@@ -117,7 +132,7 @@ export default async function GlossaryTermPage({ params }: Props) {
 
         {entry.uncertaintyNote && (
           <p className="mt-6 rounded-md border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-ink">
-            <strong className="mr-1 font-semibold">Note.</strong>
+            <strong className="mr-1 font-semibold">{t("glossary.note")}</strong>
             {entry.uncertaintyNote}
           </p>
         )}
@@ -125,10 +140,10 @@ export default async function GlossaryTermPage({ params }: Props) {
         {relatedArticles.some(Boolean) && (
           <section className="mt-10">
             <h2 className="font-serif text-2xl font-semibold tracking-tight text-ink">
-              Where this term appears
+              {t("glossary.where_it_appears")}
             </h2>
             <ul className="mt-4 space-y-3">
-              {relatedArticles.filter(isPresent).map((article) => (
+              {relatedArticles.filter(isPresent).map(({ article, inEnglish }) => (
                 <li key={article.slug} className="rounded-md border border-ink-line p-4">
                   <Link
                     href={article.url}
@@ -136,6 +151,11 @@ export default async function GlossaryTermPage({ params }: Props) {
                   >
                     {article.title}
                   </Link>
+                  {inEnglish && (
+                    <span className="ml-2 align-middle text-xs text-ink-subtle">
+                      ({t("glossary.english_article")})
+                    </span>
+                  )}
                   <p className="mt-1 text-sm text-ink-muted">{article.excerpt}</p>
                 </li>
               ))}
@@ -145,7 +165,7 @@ export default async function GlossaryTermPage({ params }: Props) {
 
         <section className="mt-10">
           <h2 className="font-serif text-2xl font-semibold tracking-tight text-ink">
-            Authoritative references
+            {t("glossary.references")}
           </h2>
           <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-ink-muted">
             {entry.relatedSources.map((src) => (
@@ -163,14 +183,14 @@ export default async function GlossaryTermPage({ params }: Props) {
         </section>
 
         <p className="mt-10 text-xs text-ink-subtle">
-          Topic:{" "}
+          {t("glossary.topic")}{" "}
           <Link
-            href={localizedPath(DEFAULT_LOCALE, `/${entry.category}`)}
+            href={localizedPath(locale, `/${entry.category}`)}
             className="link-quiet"
           >
-            {categoryDef.label}
+            {t(`categories.${entry.category}.label`)}
           </Link>{" "}
-          · Last reviewed {entry.updatedDate}
+          · {t("glossary.last_reviewed", { date: entry.updatedDate })}
         </p>
       </article>
     </Layout>

@@ -5,8 +5,8 @@ excerpt: A energia primária, os vetores energéticos e o consumo final são tr�
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 10
 tags:
   - energy-systems
   - primary-energy
@@ -19,6 +19,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
+_bodyHash: 294baa22
 ---
 Um sistema energético mantém três livros de contas, e quase toda a discussão confusa sobre energia nasce de retirar um número de um deles e usá-lo noutro. O primeiro conta o recurso tal como é extraído ou captado — o carvão na veia, o urânio no minério, os fotões num painel. O segundo conta os vetores que deslocam energia utilizável: eletricidade, combustíveis líquidos refinados, gás canalizado, calor numa rede urbana. O terceiro conta o que é entregue no ponto onde alguém quer trabalho feito — um forno, um motor, um ecrã. Cada conversão entre livros tem um custo físico, e a dimensão desse custo é o dado mais informativo sobre uma tecnologia.
 
@@ -63,6 +64,10 @@ As páginas de apoio deste conjunto tomam essas linhas uma a uma. O artigo sobre
 Os limites físicos são reais, mas raramente são os que decidem um calendário de implantação. A previsão *Renewables 2025* da AIE espera que as renováveis variáveis forneçam quase 30 por cento da eletricidade mundial até 2030, sensivelmente o dobro da quota atual, com a fotovoltaica solar a representar sozinha quase 80 por cento do aumento de capacidade. Na mesma previsão, o corte de produção aumenta em muitos mercados, entre eles a China, a Alemanha, o Brasil, o Chile, o Reino Unido e a Irlanda; as horas de preços negativos dispararam em vários países, coincidindo com o pico de produção solar; e as perspetivas da eólica offshore foram revistas em baixa em mais de um quarto — nada disso decorrendo de qualquer propriedade de uma turbina ou de uma célula.
 
 A capacidade de rede mostra o mesmo padrão. O investimento em produção subiu quase 70 por cento desde 2015, para cerca de um bilião de dólares por ano, ao passo que a despesa anual em redes cresceu a menos de metade desse ritmo, até cerca de 400 mil milhões de dólares; a AIE considera que o investimento em redes precisa de aumentar aproximadamente mais metade até 2030. Um sistema em que os conversores são baratos e os cabos são a fila comporta-se de modo diferente de um em que os conversores são o termo limitante. Distinguir os limites que têm uma dedução dos que têm uma história é o assunto de uma análise separada sobre [que restrições da transição energética são físicas](/pt/insight/energy-transition-constraints-physical-and-institutional).
+
+## Aquilo sobre que assenta a contabilidade
+
+O quadro acima nada diz sobre aquilo de que a maquinaria é feita, e as questões materiais passaram a fazer parte da análise energética em vez de a complementarem. Quatro delas são tratadas aqui em separado: [os minerais críticos e onde a oferta se concentra](/pt/physics/energy/critical-minerals-and-supply-concentration), [o que limita a densidade energética das baterias](/pt/physics/energy/battery-energy-density-and-its-limits), [como se montam as comparações de emissões de ciclo de vida](/pt/physics/energy/life-cycle-emissions-and-how-they-are-compared) e [o que a reciclagem pode e não pode fazer perante o crescimento da mineração](/pt/physics/energy/recycling-and-material-circularity). A procura também faz parte da contabilidade e não é um dado externo, e [a procura de arrefecimento](/pt/physics/energy/cooling-demand-and-electricity) é o caso mais claro: uma carga cujo momento importa mais do que o total.
 
 ## O que esta contabilidade não pode dizer
 

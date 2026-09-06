@@ -4,7 +4,7 @@ excerpt: The Sentinel fleet is the satellite backbone of Europe’s Copernicus p
 type: expert
 author: climate-research-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-06-02'
+updatedDate: '2026-09-05'
 tags:
   - sentinel
   - copernicus
@@ -31,7 +31,7 @@ For readers new to the underlying physics, the companion primer on [what remote 
 
 Sentinel-1 carries a C-band synthetic aperture radar (SAR). Because radar supplies its own energy, it images day or night and sees through cloud, which makes it well suited to land, ice, and maritime monitoring and to measuring slow ground motion. That all-weather capability is the main reason it complements the optical missions rather than duplicating them.
 
-Sentinel-2 is the optical workhorse. It is a multispectral mission with 13 bands at 10-, 20-, and 60-metre resolution, the different scales reflecting what each band is designed to resolve. With two satellites in orbit — Sentinel-2A, launched in 2015, and Sentinel-2B, launched in 2017 — a given location is revisited roughly every five days. That cadence, paired with the open data policy, is what made Sentinel-2 a standard tool for vegetation and land monitoring.
+Sentinel-2 is the optical workhorse. It is a multispectral mission with 13 bands at 10-, 20-, and 60-metre resolution, the different scales reflecting what each band is designed to resolve. With two satellites in orbit — Sentinel-2A, launched in 2015, and Sentinel-2B, launched in 2017 — a given location is revisited roughly every five days. That cadence, paired with the open data policy, is what made Sentinel-2 a standard tool for vegetation and [land monitoring](/en/ecology/earth-observation/landsat-program-explained).
 
 ## Ocean, atmosphere, and sea level
 

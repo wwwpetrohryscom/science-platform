@@ -5,7 +5,7 @@ excerpt: Ríos, lagos y pantanos retienen menos de la centésima parte del uno p
 type: pillar
 author: oceans-freshwater-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 9
 tags:
   - freshwater
@@ -19,7 +19,7 @@ related:
   - wetlands-and-their-functions
   - groundwater-and-aquifer-depletion
   - freshwater-biodiversity-decline
-_bodyHash: c72ede98
+_bodyHash: 4508379b
 ---
 
 Todos los lagos y cauces fluviales de la Tierra suman entre sí unos 93.100 kilómetros cúbicos de agua. El océano contiene 1.338.000.000. En la tabla de distribución global del agua que mantiene la Water Science School del USGS, esa fracción superficial equivale aproximadamente a una ciento cincuentava parte del uno por ciento de toda el agua; si se añaden los pantanos del mundo, el total sigue por debajo de la centésima parte del uno por ciento. Las evaluaciones de especies indican que esos mismos hábitats sostienen más del 10 % de todas las especies descritas, entre ellas cerca de un tercio de los vertebrados y alrededor de la mitad de todos los peces. La ecología de las aguas continentales es, en buena medida, el estudio de lo que se sigue de esa proporción.
@@ -30,13 +30,13 @@ Conviene leer con atención la tabla de distribución, porque se cita más a men
 
 Comparar entre sí esas tres reservas superficiales resulta más informativo que comparar cualquiera de ellas con el océano. Del agua dulce líquida que se remansa o circula en superficie, los lagos retienen en torno al 87 %, los humedales alrededor del 11 % y los ríos cerca del 2 %. En volumen, los ríos no son casi nada.
 
-La superficie cuenta otra historia. Un inventario satelital de los lagos del mundo contabilizó unos 117 millones de masas de agua mayores de 0,002 kilómetros cuadrados, que cubren cerca de 5 millones de kilómetros cuadrados: el 3,7 % de la superficie terrestre no glaciada. Una reconstrucción independiente, hecha a partir de anchuras fluviales derivadas de Landsat, situó la superficie de ríos y arroyos, para el caudal medio anual, en 773.000 ± 79.000 kilómetros cuadrados, el 0,58 ± 0,06 % de la tierra no glaciada: alrededor de un 44 % más que las estimaciones anteriores. Las aguas dulces son láminas delgadas de perímetro extenso, no depósitos. Su peso ecológico procede de la superficie, del borde y de la conexión, no del volumen, y su papel en el [ciclo global del agua](/es/ecology/earth-systems/global-water-cycle-explained) es de transferencia rápida antes que de almacenamiento.
+La superficie cuenta otra historia. Un inventario satelital de los lagos del mundo contabilizó unos 117 millones de masas de agua mayores de 0,002 kilómetros cuadrados, que cubren cerca de 5 millones de kilómetros cuadrados: el 3,7 % de la superficie terrestre no glaciada. Una reconstrucción independiente, hecha a partir de anchuras fluviales derivadas de Landsat, situó la superficie de ríos y arroyos, para el caudal medio anual, en 773.000 ± 79.000 kilómetros cuadrados, el 0,58 ± 0,06 % de la tierra no glaciada: alrededor de un 44 ± 15 % más que las estimaciones anteriores. Las aguas dulces son láminas delgadas de perímetro extenso, no depósitos. Su peso ecológico procede de la superficie, del borde y de la conexión, no del volumen, y su papel en el [ciclo global del agua](/es/ecology/earth-systems/global-water-cycle-explained) es de transferencia rápida antes que de almacenamiento.
 
 ## Por qué una cuenca hidrográfica se comporta como una isla
 
 Una red fluvial es dendrítica. El agua desciende por ella, y la mayoría de los organismos estrictamente acuáticos solo pueden desplazarse a lo largo de ella. Para alcanzar la cuenca contigua, un pez, un mejillón de río o un tricóptero tiene que atravesar una divisoria de aguas o agua salada, y casi ninguno puede hacer ni una cosa ni la otra. Las cuencas se parecen, por tanto, más a islas que a manchas de bosque, y tienen la biogeografía de las islas: áreas de distribución pequeñas, recambio elevado entre sistemas vecinos y mucho endemismo concentrado en una sola cuenca o un solo lago.
 
-De ahí se siguen tres consecuencias que reaparecen en todas las páginas de este bloque. Las especies endémicas son frecuentes, de modo que la desaparición local suele equivaler a la extinción global. Las áreas de distribución son pequeñas, de modo que un único embalse, una única derivación o un único foco de contaminación pueden afectar a la distribución entera de una especie. Y como la red es lineal, un obstáculo situado en cualquier punto aguas arriba sustrae del sistema de aguas abajo todo lo que queda por encima de él: una forma de [fragmentación del hábitat](/en/glossary/habitat-fragmentation) sin equivalente terrestre, examinada en detalle en el artículo sobre [las presas y la fragmentación de los ríos](/es/ecology/freshwater/dams-and-river-fragmentation).
+De ahí se siguen tres consecuencias que reaparecen en todas las páginas de este bloque. Las especies endémicas son frecuentes, de modo que la desaparición local suele equivaler a la extinción global. Las áreas de distribución son pequeñas, de modo que un único embalse, una única derivación o un único foco de contaminación pueden afectar a la distribución entera de una especie. Y como la red es lineal, un obstáculo situado en cualquier punto aguas arriba sustrae del sistema de aguas abajo todo lo que queda por encima de él: una forma de [fragmentación del hábitat](/es/glossary/habitat-fragmentation) sin equivalente terrestre, examinada en detalle en el artículo sobre [las presas y la fragmentación de los ríos](/es/ecology/freshwater/dams-and-river-fragmentation).
 
 ## Cuatro compartimentos, cuatro relojes distintos
 
@@ -55,7 +55,7 @@ Como los relojes difieren, difieren también los modos de fallo. En los ríos la
 
 ## Qué dicen realmente los datos de amenaza
 
-La mayor evaluación de aguas continentales publicada hasta la fecha abarcó 23.496 especies —14.628 peces dulceacuícolas, 6.223 libélulas y caballitos del diablo y 2.645 crustáceos decápodos— y halló que el 24 % de ellas está amenazado de extinción. Los decápodos resultaron los más afectados, con el 30 %; los peces, con el 26 %, y los odonatos, con el 16 %. Ochenta y nueve especies evaluadas —el 0,4 % del total, en su mayoría peces— constan como extintas.
+La evaluación multitaxón más completa hasta la fecha de la fauna dulceacuícola mundial en la Lista Roja de la UICN, publicada en *Nature* en 2025, abarcó 23.496 especies —14.628 peces dulceacuícolas, 6.223 libélulas y caballitos del diablo y 2.645 crustáceos decápodos— y halló que el 24 % de ellas está amenazado de extinción. Los decápodos resultaron los más afectados, con el 30 %; los peces, con el 26 %, y los odonatos, con el 16 %. Ochenta y nueve especies evaluadas —el 0,4 % del total— constan como extintas desde 1500; 82 de esas 89 son peces.
 
 El desglose de amenazas importa más que el titular. Entre las especies amenazadas, al 54 % le afecta la contaminación; al 39 %, las presas y la extracción de agua; al 37 %, el cambio de usos del suelo y los efectos asociados a la agricultura, y al 28 %, las especies invasoras y las enfermedades; cerca de una quinta parte figura como afectada por el cambio climático y los fenómenos meteorológicos severos. Estas categorías se solapan mucho —la mayoría de las especies amenazadas soporta varias—, de modo que los porcentajes no pueden sumarse y ninguna palanca aislada aborda la mayor parte del problema.
 

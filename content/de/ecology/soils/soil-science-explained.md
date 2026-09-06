@@ -5,7 +5,7 @@ excerpt: Boden ist ein Vierphasensystem, in Horizonte gegliedert, das mit einer 
 type: pillar
 author: soil-land-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-05'
 readingTime: 8
 tags:
   - soil
@@ -19,7 +19,7 @@ related:
   - soil-biology-and-the-soil-food-web
   - land-degradation-and-desertification
   - soil-erosion-processes-and-rates
-_bodyHash: fd17d53e
+_bodyHash: 4b985e22
 ---
 
 Neuer Boden entsteht mit einer Rate, deren Median die FAO und ihr Intergovernmental Technical Panel on Soils bei etwa 0,15 Tonnen je Hektar und Jahr ansetzen und die typischerweise deutlich unter einer Tonne liegt. Über einen Hektar verteilt, ist eine Tonne Mineralboden ein Film, den man nicht sehen könnte. Diese Zahl ist der Grund dafür, dass die Bodenkunde so angelegt ist, wie sie angelegt ist: Auf jeder Zeitskala, auf der eine Landwirtin, ein Planer oder ein völkerrechtlicher Vertrag operiert, ist das betrachtete Material ein festes Erbe, das aufgezehrt wird, und kein erneuerbarer Fluss.
@@ -70,9 +70,9 @@ Die FAO und ihr Fachpanel bewerten zehn Prozesse als Gefährdung der vom Boden e
 
 Diese Spannweiten sind keine Nachlässigkeit. Sie sind das, was geschieht, wenn ein Wort eine Definition, eine Bezugslinie und einen Indikator mit sich führt und drei Bewertungen sich bei allen dreien anders entscheiden – das Problem, das der Artikel über [die Landdegradation als umstrittenen Begriff](/de/ecology/soils/land-degradation-and-desertification) untersucht.
 
-Es lohnt sich, genau zu benennen, was in dieser Bilanz auf dem Spiel steht, denn die übliche Rahmung – der Boden als das Medium, in dem Kulturpflanzen wachsen – bleibt dahinter zurück. Dasselbe Profil filtert und speichert Wasser, puffert pH-Wert und Redoxchemie, legt Schadstoffe fest, führt Stickstoff und Phosphor im Kreislauf, bewahrt ein archäologisches und paläoklimatisches Archiv und übernimmt eine physische Trägerfunktion. Jede dieser Leistungen ist eine [Ökosystemleistung](/en/glossary/ecosystem-service) mit einer je eigenen Empfindlichkeit gegenüber Störungen, und eine Änderung der Bewirtschaftung, die eine von ihnen verbessert, kann eine andere verschlechtern. Eine Verdichtung, welche die Tragfähigkeit erhöht, verringert die Infiltration; eine Dränung, welche die Bearbeitbarkeit verbessert, oxidiert den gespeicherten Kohlenstoff. Es gibt keine einzelne Achse, entlang derer ein Boden besser wird.
+Es lohnt sich, genau zu benennen, was in dieser Bilanz auf dem Spiel steht, denn die übliche Rahmung – der Boden als das Medium, in dem Kulturpflanzen wachsen – bleibt dahinter zurück. Dasselbe Profil filtert und speichert Wasser, puffert pH-Wert und Redoxchemie, legt Schadstoffe fest, führt Stickstoff und Phosphor im Kreislauf, bewahrt ein archäologisches und paläoklimatisches Archiv und übernimmt eine physische Trägerfunktion. Jede dieser Leistungen ist eine [Ökosystemleistung](/de/glossary/ecosystem-service) mit einer je eigenen Empfindlichkeit gegenüber Störungen, und eine Änderung der Bewirtschaftung, die eine von ihnen verbessert, kann eine andere verschlechtern. Eine Verdichtung, welche die Tragfähigkeit erhöht, verringert die Infiltration; eine Dränung, welche die Bearbeitbarkeit verbessert, oxidiert den gespeicherten Kohlenstoff. Es gibt keine einzelne Achse, entlang derer ein Boden besser wird.
 
-Wer mit Bodendaten arbeitet, sollte drei Lücken benennen können. Globale Karten entstehen aus nationalen Datensätzen von sehr ungleicher Dichte, und die Unsicherheitsanalyse der FAO selbst verortet die größten Fehler in den tropischen und arktischen Wüstenregionen, in denen die Proben am dünnsten gesät sind. Tiefenkonventionen beschneiden das Bild: Die meisten Auswertungen enden bei 30 Zentimetern, weil dort die Daten enden, nicht weil dort das Profil endet – eine Isotopen-Metaanalyse von 2018 in *Nature* über 112 Standorte findet, dass [die Schicht von 30 bis 100 Zentimetern 47 Prozent des organischen Kohlenstoffs des obersten Meters enthält](https://pubmed.ncbi.nlm.nih.gov/29995858/). Und Bodenmessnetze mit wiederholten Messungen gibt es nur in einer Minderheit der Länder, sodass vieles, was als Trend präsentiert wird, in Wahrheit eine einzelne Momentaufnahme im Vergleich mit einem Modell ist.
+Wer mit Bodendaten arbeitet, sollte drei Lücken benennen können. Globale Karten entstehen aus nationalen Datensätzen von sehr ungleicher Dichte, und die Unsicherheitsanalyse der FAO selbst verortet die größten Fehler in den tropischen und arktischen Wüstenregionen, in denen die Proben am dünnsten gesät sind. Tiefenkonventionen beschneiden das Bild: Die meisten Auswertungen enden bei 30 Zentimetern, weil dort die Daten enden, nicht weil dort das Profil endet – eine Isotopen-Metaanalyse von 2018 in *Nature* über 112 Standorte findet, dass [die Schicht von 30 bis 100 Zentimetern 47 Prozent des organischen Kohlenstoffs des obersten Meters enthält](https://pubmed.ncbi.nlm.nih.gov/29995858/). Und Wiederholungsmessungen sind selten: dieselbe FAO-Bewertung verzeichnet nur wenige Standorte mit langfristigen Bodenmonitoringdaten und fordert den Aufbau eines langfristigen globalen Bodenmonitoringnetzes, sodass vieles, was als Trend präsentiert wird, in Wahrheit eine einzelne Momentaufnahme im Vergleich mit einem Modell ist.
 
 ## Sources
 

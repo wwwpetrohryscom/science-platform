@@ -4,7 +4,7 @@ excerpt: Species richness is the easiest biodiversity metric to compute and the 
 type: pillar
 author: biodiversity-conservation-desk
 publishedDate: '2026-02-08'
-updatedDate: '2026-09-03'
+updatedDate: '2026-09-05'
 readingTime: 5
 tags:
   - biodiversity
@@ -14,7 +14,7 @@ tags:
 related:
   - foundation-species-and-the-myth-of-redundancy
   - what-is-an-ecosystem
-_bodyHash: d0090328
+_bodyHash: c3d6bea4
 ---
 
 [Species richness](/en/glossary/species-richness) — the count of distinct species in a defined area — is one of the most widely cited measures of [biodiversity](/en/glossary/biodiversity). It is also incomplete as a conservation prioritization metric. Public assessments from the [European Environment Agency](https://www.eea.europa.eu/en/topics/in-depth/biodiversity), [UNEP](https://www.unep.org/explore-topics/ecosystems), and [IPBES](https://www.ipbes.net/global-assessment) all treat biodiversity loss as more than a simple species-count problem.
@@ -35,7 +35,7 @@ These limitations are not new — Whittaker's distinction between alpha, beta, a
 
 Functional diversity counts the number of distinct ecological roles in a community, regardless of how many species occupy each role. Two sites with the same species count can have very different functional diversity if their species are differentially distributed across the role space (deep vs. shallow rooters, generalist vs. specialist consumers, fast vs. slow growers, and so on).
 
-Functional diversity can be more directly connected than species richness to ecosystem performance — productivity, nutrient cycling, resistance to perturbation — because it tracks what organisms do rather than only how many names appear on a list. It is also more expensive to measure, because it requires trait data that taxonomic surveys do not always collect.
+Functional diversity can be more directly connected than species richness to ecosystem performance — productivity, [nutrient cycling](/en/ecology/forests/tropical-forest-ecology), resistance to perturbation — because it tracks what organisms do rather than only how many names appear on a list. It is also more expensive to measure, because it requires trait data that taxonomic surveys do not always collect.
 
 This is the trade-off. Functional diversity is the right thing to measure and a hard thing to measure. Species richness is the wrong thing to measure and a cheap thing to measure. The result has been a quiet collapse to the wrong metric.
 

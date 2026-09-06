@@ -4,8 +4,8 @@ excerpt: The four laws are prohibitions, not recipes. Each one rules out a class
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 8
+updatedDate: '2026-09-05'
+readingTime: 9
 tags:
   - thermodynamics
   - second-law
@@ -17,10 +17,10 @@ related:
   - heat-engines-and-efficiency-limits
   - heat-transfer-conduction-convection-radiation
   - earth-energy-budget-and-the-second-law
-_bodyHash: 60e94b1a
+_bodyHash: 236d076c
 ---
 
-[Thermodynamics](/en/glossary/thermodynamics) is a set of prohibitions. Each of its four laws says that something cannot be done, and each has outlived the microscopic theories that were meant to explain it — caloric, then classical mechanics, then classical field theory. That is why a nineteenth-century argument about steam still constrains a solar cell, a domestic refrigerator and a bacterium without modification.
+[Thermodynamics](/en/glossary/thermodynamics) is a set of prohibitions. Each of its four laws says that something cannot be done, and each has outlived the microscopic theories that were meant to explain it — caloric, then [classical mechanics](/en/physics/mechanics-waves/classical-mechanics-explained), then classical field theory. That is why a nineteenth-century argument about steam still constrains a solar cell, a domestic refrigerator and a bacterium without modification.
 
 They are also quoted more loosely than they are used. "Energy is conserved" and "entropy increases" are slogans that drop the conditions attached to them, and the conditions are where the confusion about perpetual motion, efficiency claims and living systems lives.
 
@@ -46,7 +46,7 @@ Two classical statements are equivalent. Clausius: no cyclic process can have as
 
 This is the only law here that distinguishes past from future, and it is the one with the sharpest engineering consequence: the ceiling on any cyclic engine depends on the temperatures of its reservoirs and on nothing else, a bound developed with real plant data in [heat engines and their efficiency limits](/en/physics/thermodynamics/heat-engines-and-efficiency-limits).
 
-It is also statistical, and that is not a hedge. The Crooks fluctuation relation fixes how much more likely a forward trajectory is than its reverse, given the work exchanged, and it was [tested directly by pulling single RNA molecules](https://pmc.ncbi.nlm.nih.gov/articles/PMC1752236/) with optical tweezers: the folding free energy recovered from the work distributions was 62.8 ± 1.5 kBT for a hairpin, in agreement with independent calculation. The unfolding and refolding work distributions in that experiment overlap and cross at the free-energy change, so individual pulls fall on both sides of it — some locally running the "wrong" way — while the ensemble obeys the inequality. The second law is a statement about overwhelming odds in systems of many particles, not a logical impossibility at the scale of a few.
+It is also statistical, and that is not a hedge. The Crooks fluctuation relation fixes how much more likely a forward trajectory is than its reverse, given the work exchanged, and it was [tested directly by pulling single RNA molecules](https://pmc.ncbi.nlm.nih.gov/articles/PMC1752236/) with optical tweezers: the folding [free energy](/en/physics/thermodynamics/free-energy-and-biological-work) recovered from the work distributions was 62.8 ± 1.5 kBT for a hairpin, in agreement with independent calculation. The unfolding and refolding work distributions in that experiment overlap and cross at the free-energy change, so individual pulls fall on both sides of it — some locally running the "wrong" way — while the ensemble obeys the inequality. The second law is a statement about overwhelming odds in systems of many particles, not a logical impossibility at the scale of a few.
 
 ## The third law: absolute zero as an asymptote
 

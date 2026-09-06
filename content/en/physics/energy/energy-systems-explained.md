@@ -5,8 +5,8 @@ excerpt: Primary energy, energy carriers and final consumption are three separat
 type: pillar
 author: energy-systems-desk
 publishedDate: '2026-09-02'
-updatedDate: '2026-09-02'
-readingTime: 7
+updatedDate: '2026-09-05'
+readingTime: 9
 tags:
   - energy-systems
   - primary-energy
@@ -19,7 +19,7 @@ related:
   - energy-storage-fundamentals
   - grid-integration-of-variable-renewables
   - capacity-factor-and-energy-metrics
-_bodyHash: 537b56b0
+_bodyHash: c88f166c
 ---
 
 An energy system keeps three ledgers, and almost every confused argument about energy comes from reading a number out of one and using it in another. The first ledger counts the resource as it is extracted or captured — coal in the seam, uranium in the ore, photons on a panel. The second counts the carriers that move usable energy around: electricity, refined liquid fuels, pipeline gas, heat in a district main. The third counts what is delivered to the point where somebody wants work done — a furnace, a motor, a screen. Each conversion between ledgers has a physical cost, and the size of that cost is the single most informative thing about a technology.
@@ -38,7 +38,7 @@ Combustion-based electricity generation is where the largest single loss in most
 
 Those numbers convert straightforwardly into efficiencies, because a kilowatt-hour is about 3,412 Btu. The U.S. coal fleet therefore delivered about 32 per cent of the chemical energy it consumed as electricity in 2024; the gas fleet, dominated by combined-cycle plant, about 44 per cent. The nuclear figure of roughly 33 per cent is a statement about steam-cycle thermodynamics rather than about the reactor, and it carries an accounting convention with it: the EIA builds the nuclear average from the weighted average *tested* heat rate that operators report on Form EIA-860, rather than from a quantity of fuel consumed as the fossil averages are. How those conventions distort comparisons between thermal and non-thermal generation is the subject of the companion page on [reading energy statistics honestly](/en/physics/energy/capacity-factor-and-energy-metrics).
 
-Non-thermal converters do not have a heat rate at all. A photovoltaic module converts photon energy directly to electrical work without an intermediate hot reservoir, which is why its ceiling comes from detailed balance rather than from Carnot, as set out in the article on [the thermodynamic ceiling on solar conversion](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics). A wind rotor extracts kinetic energy from a moving fluid and is bounded by a mass-and-momentum argument instead. Neither device is exempt from the second law; both simply enter it at a different point.
+Non-thermal converters do not have a heat rate at all. A photovoltaic module converts [photon energy](/en/physics/quantum-basics/why-wavelength-decides-what-radiation-does) directly to electrical work without an intermediate hot reservoir, which is why its ceiling comes from detailed balance rather than from Carnot, as set out in the article on [the thermodynamic ceiling on solar conversion](/en/physics/thermodynamics/thermodynamic-limits-of-photovoltaics). A wind rotor extracts kinetic energy from a moving fluid and is bounded by a mass-and-momentum argument instead. Neither device is exempt from the [second law](/en/physics/thermodynamics/laws-of-thermodynamics-explained); both simply enter it at a different point.
 
 ## A watt is not a joule
 
@@ -65,6 +65,10 @@ The supporting pages in this cluster take those rows one at a time. The article 
 Physical limits are real, but they are rarely the ones that decide a deployment schedule. The IEA's *Renewables 2025* forecast expects variable renewables to supply almost 30 per cent of global electricity by 2030, roughly double the current share, with solar photovoltaics alone accounting for nearly 80 per cent of the capacity increase. In the same forecast, curtailment is rising in many markets, among them China, Germany, Brazil, Chile, the United Kingdom and Ireland; hours of negative prices have surged across multiple countries, coinciding with peak solar generation; and the offshore wind outlook has been revised down by more than a quarter — none of which follows from any property of a turbine or a cell.
 
 Network capacity shows the same pattern. Investment in generation has risen by almost 70 per cent since 2015 to around USD 1 trillion a year, while annual grid spending has grown at less than half that pace to about USD 400 billion; the IEA judges that grid investment needs to rise by roughly half again by 2030. A system in which the converters are cheap and the wires are the queue behaves differently from one where the converters are the binding term. Distinguishing the limits that have a derivation from the ones that have a history is the subject of a separate analysis of [which energy-transition constraints are physical](/en/insight/energy-transition-constraints-physical-and-institutional).
+
+## What the accounting sits on
+
+The framework above says nothing about what the machinery is made of, and the material questions have become part of energy analysis rather than an adjunct to it. Four of them are treated separately here: [critical minerals and where supply concentrates](/en/physics/energy/critical-minerals-and-supply-concentration), [what limits battery energy density](/en/physics/energy/battery-energy-density-and-its-limits), [how life-cycle emissions comparisons are assembled](/en/physics/energy/life-cycle-emissions-and-how-they-are-compared), and [what recycling can and cannot do about the growth in mining](/en/physics/energy/recycling-and-material-circularity). Demand is also part of the accounting rather than an external given, and [cooling demand](/en/physics/energy/cooling-demand-and-electricity) is the clearest case of a load whose timing matters more than its total.
 
 ## What this accounting cannot tell you
 
