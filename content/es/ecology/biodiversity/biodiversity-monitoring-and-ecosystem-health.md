@@ -5,7 +5,7 @@ excerpt: La biodiversidad no tiene un termómetro único. Así siguen los cient�
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 9
 tags:
   - biodiversity

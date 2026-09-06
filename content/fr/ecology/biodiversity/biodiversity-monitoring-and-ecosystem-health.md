@@ -5,7 +5,7 @@ excerpt: La biodiversité n'a pas de thermomètre unique. Voici comment les scie
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 9
 tags:
   - biodiversity

@@ -6,8 +6,8 @@ argument: Discovery captures attention; infrastructure captures compounding retu
 category: physics
 author: ecosciencehub-editorial-team
 publishedDate: '2026-03-22'
-updatedDate: '2026-09-05'
-readingTime: 5
+updatedDate: '2026-09-06'
+readingTime: 6
 tags:
   - AI
   - infrastructure
@@ -16,7 +16,7 @@ tags:
 related:
   - perovskite-stack-field-stability
   - quantum-sensors-leaving-the-lab
-_bodyHash: ca46152c
+_bodyHash: df4d81a5
 ---
 
 The conversation about AI in science is dominated by a particular kind of story: discovery. Protein-structure prediction, materials screening, and literature-mining systems are real scientific tools. But public research infrastructure from [NIH/NLM](https://www.ncbi.nlm.nih.gov/books/), peer-reviewed literature indexed in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), and measurement standards from [NIST](https://www.nist.gov/) point to a less visible bottleneck: the experimental record is still hard to reproduce, query, and reuse at scale.
@@ -33,7 +33,7 @@ This is happening, it is real, and it is also the application that least benefit
 
 The substrate is the bottleneck. Standardized experimental records — protocols, raw data, instrument metadata, negative results — are what every downstream use of AI in science depends on. They are also where the substrate problem is most acute: most of this information lives in PDFs, in lab notebooks, in supplementary materials, in formats that vary not just by field but often by lab.
 
-AI may be useful for the structured work of extracting and normalizing this information. The same model families that summarize prose can help parse a methods section or supplementary table, but deployment quality depends on validation, provenance, and human review. The technology is useful; it is not a substitute for scientific curation.
+The shape of the problem is visible wherever a field has tried to make its own record comparable: the field-stability data behind [perovskite stack lifetimes](/en/physics/energy/perovskite-stack-field-stability) and the deployment record for [quantum sensors leaving the lab](/en/physics/quantum-basics/quantum-sensors-leaving-the-lab) are both held back less by the physics than by the absence of a common way of reporting what was measured. AI may be useful for the structured work of extracting and normalizing this information. The same model families that summarize prose can help parse a methods section or supplementary table, but deployment quality depends on validation, provenance, and human review. The technology is useful; it is not a substitute for scientific curation.
 
 If the time and money currently going into another foundation model trained on Wikipedia were instead going into systematic extraction of the experimental record into a structured, queryable, machine-readable form, the cumulative effect over five years would be substantially larger than another iteration of the discovery model.
 

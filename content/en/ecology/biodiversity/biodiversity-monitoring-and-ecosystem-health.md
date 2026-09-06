@@ -5,7 +5,7 @@ excerpt: Biodiversity has no single thermometer. This is how scientists track th
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
-updatedDate: '2026-09-05'
+updatedDate: '2026-09-06'
 readingTime: 9
 tags:
   - biodiversity
@@ -19,7 +19,7 @@ related:
   - biodiversity-indicators-explained
   - remote-sensing-for-biodiversity-monitoring
 pillar: why-species-counts-mislead-conservation
-_bodyHash: f7a58a6d
+_bodyHash: '45850603'
 ---
 
 Climate science has a short list of canonical [indicators](/en/ecology/climate-change/climate-indicators-earth-system-monitoring) — surface temperature, ocean heat, greenhouse-gas concentration, [sea level](/en/ecology/climate-change/sea-level-rise-indicators), ice. Biodiversity has no equivalent single number. There is no thermometer for the state of life, because life varies at several levels at once: the genes within a population, the abundance and range of a species, the composition of a community, and the structure and function of an ecosystem. A place can lose individuals while keeping its species list intact, or shift in composition while its total productivity holds steady.
@@ -84,7 +84,7 @@ When a statement crosses into public view — "a third of a group is threatened"
 
 ## Source transparency
 
-Every load-bearing claim in this cluster is attributed to a named authority — IPBES, the IUCN and its Red List, the Convention on Biological Diversity, GEO BON, GBIF, the FAO, UNEP, and the Earth-observation programmes of NASA, ESA, and Copernicus — or to peer-reviewed literature. Citation hosts are checked against a curated registry when the site builds, so an unfamiliar or low-authority link is flagged before publication. Where the evidence is uneven or contested, the text says so rather than smoothing it over.
+Every load-bearing claim in this cluster is attributed to a named authority — IPBES, the IUCN and its Red List, the Convention on Biological Diversity, GEO BON, GBIF, the FAO, UNEP, and the Earth-observation programmes of NASA, ESA, and Copernicus — or to peer-reviewed literature. A build-time check compares every citation host against the registry in the sourcing policy, so a link to an unfamiliar or low-authority domain is caught before the page is published rather than after. Where the evidence is uneven or contested, the text says so rather than smoothing it over.
 
 ## The rest of the cluster
 

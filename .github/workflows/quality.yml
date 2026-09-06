@@ -44,6 +44,14 @@ jobs:
       - name: Content rules
         run: npm run content:validate
 
+      # Reused prose. content:validate refuses two near-identical
+      # bodies; this refuses a single sentence that was written once
+      # and pasted twice, which the whole-body ratio cannot see.
+      # Quotations are excluded — two articles quoting the same source
+      # are following the sourcing standard, not copying each other.
+      - name: Originality
+        run: npm run content:originality
+
       # The fidelity rules first, then the corpus they judge. A rule
       # that has stopped firing looks exactly like a corpus with no
       # defects, so the rules carry their own injection tests.
