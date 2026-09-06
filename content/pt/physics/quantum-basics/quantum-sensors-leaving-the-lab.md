@@ -16,6 +16,7 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
+_bodyHash: c1f89181
 ---
 
 Durante grande parte da sua história, muitos sensores quânticos de alto desempenho viveram em laboratórios de física. Os instrumentos — relógios atómicos, gravímetros de interferometria atómica, magnetómetros de centros azoto-lacuna, magnetómetros de bombeamento ótico, cada um explorando uma propriedade que só a [mecânica quântica](/pt/physics/quantum-basics/quantum-mechanics-fundamentals) fornece — eram extraordinariamente precisos, mas exigiam muitas vezes infraestrutura especializada. [A ficha explicativa do NIST sobre deteção quântica](https://www.nist.gov/quantum-information-science/quantum-sensing-explained) descreve a mesma transição: os sensores quânticos estão a passar de sistemas de laboratório para ferramentas de medição mais compactas.

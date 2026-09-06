@@ -1,6 +1,6 @@
 ---
 title: 'Pflanzenphysiologie: Wasser ohne Pumpe bewegen'
-excerpt: 'Ein Baum hebt Wasser um Dutzende Meter ohne ein bewegliches Teil, indem Verdunstung die Wassersäule unter Spannung setzt. Das erklärt das Verhalten der Spaltöffnungen, das Embolierisiko und warum Wälder überall nahe an einer hydraulischen Grenze arbeiten.'
+excerpt: Ein Baum hebt Wasser um Dutzende Meter ohne ein bewegliches Teil, indem Verdunstung die Wassersäule unter Spannung setzt. Das erklärt das Verhalten der Spaltöffnungen, das Embolierisiko und warum Wälder überall nahe an einer hydraulischen Grenze arbeiten.
 type: expert
 author: biology-life-sciences-desk
 publishedDate: '2026-09-02'
@@ -17,6 +17,7 @@ related:
   - photosynthesis-explained
   - nutrient-availability-and-soil-fertility
 pillar: physiology-explained
+_bodyHash: 959521a
 ---
 
 Ein hoher Baum hebt Wasser ununterbrochen um Dutzende Meter über den Boden, durch ein Netzwerk ohne Ventil, ohne Kammer und ohne ein einziges bewegliches Teil, und wendet für das Heben selbst keine Stoffwechselenergie auf. Die Arbeit leistet die Verdunstung an der Blattoberfläche, und das Wasser wird nicht von unten geschoben, sondern von oben gezogen, unter Spannung, entlang eines durchgehenden Flüssigkeitsfadens. Wer diesen einen Mechanismus versteht, versteht den größten Teil des übrigen pflanzlichen Wasserhaushalts, und es ist ein Fall, in dem [das allgemeine Problem, einen physiologischen Zustand konstant zu halten](/de/biology/physiology/physiology-explained), durch Physik gelöst wird und nicht durch eine Pumpe.

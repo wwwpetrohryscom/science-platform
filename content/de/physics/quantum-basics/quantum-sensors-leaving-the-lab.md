@@ -16,7 +16,7 @@ tags:
 related:
   - thermodynamic-limits-of-photovoltaics
   - perovskite-stack-field-stability
-_bodyHash: 30a41fa6
+_bodyHash: 303a435a
 ---
 
 Über weite Strecken ihrer Geschichte lebten viele Hochleistungs-Quantensensoren in physikalischen Laboratorien. Die Instrumente — Atomuhren, atominterferometrische Gravimeter, Magnetometer auf Stickstoff-Fehlstellen-Zentren, optisch gepumpte Magnetometer, jedes eine Eigenschaft nutzend, die allein die [Quantenmechanik](/de/physics/quantum-basics/quantum-mechanics-fundamentals) bereitstellt — waren außerordentlich genau, verlangten aber häufig eine spezialisierte Infrastruktur. [Die NIST-Erläuterung zur Quantensensorik](https://www.nist.gov/quantum-information-science/quantum-sensing-explained) beschreibt denselben Übergang: Quantensensoren bewegen sich von Laborsystemen hin zu kompakteren Messwerkzeugen.
@@ -59,7 +59,7 @@ Das sind die kurzfristigen Anwendungscluster. Sie teilen zwei Merkmale: Es geht 
 
 ## Wo das übertrieben wird
 
-Mehrere Anwendungsrichtungen werden in der öffentlichen Berichterstattung regelmäßig überverkauft und sind nach der verfügbaren Evidenz nicht das, wohin die Quantensensorik zuerst geht.
+Mehrere Anwendungsrichtungen werden in der öffentlichen Berichterstattung regelmäßig übertrieben angepriesen und sind nach der verfügbaren Evidenz nicht das, wohin die Quantensensorik zuerst geht.
 
 **Universelle medizinische Bildgebung.** Quantenverstärkte biomagnetische Bildgebung hat reale Anwendungen, aber sie steht nicht davor, die MRT im allgemeinen klinischen Einsatz zu verdrängen. Die Kontrastmechanismen sind andere, und die Anwendungsnischen sind enger, als die Berichterstattung oft nahelegt.
 

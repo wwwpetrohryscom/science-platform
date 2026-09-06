@@ -19,6 +19,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
+_bodyHash: 79c02c28
 ---
 
 Die Strahlenbiologie teilt ihre Wirkungen in zwei Kategorien, die einander in nichts gleichen, und die meiste öffentliche Verwirrung entsteht daraus, die Logik der einen auf die andere anzuwenden.

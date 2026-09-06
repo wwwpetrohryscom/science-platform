@@ -1,0 +1,252 @@
+{
+  "batchId": "v-eo-calibration-sensor-drift",
+  "reviewedDate": "2026-09-06",
+  "method": "Independent second-pass review: every numeric claim, quoted phrase, named study, date and attributed statement re-read against the cited source by a reviewer who did not write the article and did not take the writer's claim-to-source table as evidence. Each of the nine cited sources was fetched and read directly.",
+  "verificationMethod": "independent",
+  "articles": [
+    {
+      "slug": "calibration-and-why-a-sensor-drifts",
+      "path": "content/en/ecology/earth-observation/calibration-and-why-a-sensor-drifts.md",
+      "status": "amended",
+      "claimsChecked": 54,
+      "findings": [
+        {
+          "claim": "The WMO CO2 X2019 scale 'comprises 19 primary standards covering the nominal mole fraction range 250 - 800 ppm'",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "corrected",
+          "note": "Presented as a direct quotation but misquoted. The page reads 'The WMO CO2 X2019 scale is based on 19 primary standards covering the nominal mole fraction range 250 - 800 ppm.' Changed 'comprises' to 'based on' so the quoted words are the source's words. The count and range were correct."
+        },
+        {
+          "claim": "All primary standards are 'natural air in high pressure aluminum cylinders'",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Fifteen of the nineteen primary standards had defined the previous scale X2007",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "qualified",
+          "note": "Source adds that the fifteen carried-over standards had 'their values updated based on additional manometric episodes and improved knowledge of the NOAA manometer'. The article implied straight carry-over; added 'and their values were updated rather than replaced', which also matters because it is why a re-used cylinder still shifts the scale."
+        },
+        {
+          "claim": "'Secondary standards are used in the hierarchy to extend the lifetime of the primary standards' / 'Tertiary standards are distributed to the WMO community'",
+          "sourceChecked": "https://gml.noaa.gov/ccl/co2_scale.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "NOAA's Global Monitoring Laboratory acts as the WMO Central Calibration Laboratory for carbon dioxide",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "resourced",
+          "note": "True, but the NOAA scale page cited for it does not state it (the phrase appears only in site navigation and the /ccl/ URL). Hall et al. 2021 states it outright: 'The NOAA Global Monitoring Laboratory serves as the World Meteorological Organization Global Atmosphere Watch (WMO/GAW) Central Calibration Laboratory (CCL) for CO2.' Re-attributed to source 1 and quoted."
+        },
+        {
+          "claim": "The WMO scales are named for the year they were adopted",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "resourced",
+          "note": "The NOAA page cited in that section never explains the naming convention; it only uses the names. Hall et al. 2021 does: '...where X is used to denote mole fraction and 2007 is the year in which the assigned values were adopted.' Re-attributed and quoted, with the extra detail that X denotes mole fraction, which the article had not carried."
+        },
+        {
+          "claim": "The X2019 scale 'is 0.18 µmol mol−1 (ppm) greater than the previous scale at 400 ppm CO2. While this difference is small in relative terms (0.045 %), it is significant in terms of atmospheric monitoring.'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The second virial coefficient was 'calculated corresponding to a temperature that was 10 K higher than the actual TCO2 (320 K instead of 310 K) due to an interpolation error', underestimating the mole fraction 'by about ∼ 0.03 ppm at 400 ppm'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The authors 'suspect that CO2 absorbs to Viton O-rings and possibly adsorbs to surfaces of the small volume'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The loss correction is around 0.14 ppm at typical concentrations",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "corrected",
+          "note": "The paper gives 0.14 ppm for one worked example on a 380 ppm sample ('the loss correction is 0.14 ppm'), not as a general value across the scale, and the same passage shows 0.13 ppm under a different assumption about when loss begins. 'At typical concentrations' generalised a single illustrative case into a constant. Rewritten to state the 380 ppm example explicitly and flag it as illustrative."
+        },
+        {
+          "claim": "The expanded uncertainty at 400 ppm is '0.17 ppm or 0.043 %'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "MODIS carries four on-board calibrators, enumerated as blackbody, solar diffuser, SRCA and the deep space view",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "corrected",
+          "note": "The count of four is right but the membership was wrong. The source's four OBCs are the Blackbody, Solar Diffuser, SDSM and SRCA; the deep space and lunar views are viewing directions, not OBCs. The article listed the deep space view as the fourth and then introduced the SDSM two paragraphs later as 'a fourth device', contradicting itself. Re-enumerated with SDSM as the fourth and moved deep space and lunar views into a separate paragraph as references that are 'not hardware at all but directions to point in'."
+        },
+        {
+          "claim": "Blackbody is 'the prime calibration source for the mid- and long-wave infrared bands (located from 3.5 µm to 14.4 µm)'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Solar diffuser 'provides a diffuse, solar-illuminated calibration source for the visible, near infrared, and short-wave infrared bands (0.4 µm < = lambda < = 2.2 µm)'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "SRCA provides 'in-flight spectral, radiometric, and spatial calibration'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A view of deep space 'provides a photon input signal of zero', fixing the other end of the response curve",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "qualified",
+          "note": "The source says the deep space view supplies 'a photon input signal of zero, which will be used as an additional point of reference for calibration'. The article's truncation dropped the source's own characterisation and replaced it with a stronger one ('fixing the other end of the response curve'). Full quotation restored, with the response-curve reading kept but clearly the article's gloss."
+        },
+        {
+          "claim": "Lunar observations are used as an additional stable target",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "qualified",
+          "note": "Understated the source, which gives the Moon a specific role: it 'remains stable throughout the mission, providing a secondary method for tracking Solar Diffuser degradation'. Rewritten to name that role, since it is what makes the lunar view relevant to the article's argument about the regress of references."
+        },
+        {
+          "claim": "The SDSM 'tracks changes in the reflectance of the SD via reference to the sun so that potential instrument changes are not incorrectly attributed to changes in the calibration source.'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/calsys.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The SDSM uses 'nine filtered detectors' at wavelengths 'between 0.4 mm and 1.0 mm' (the page's typography for µm)",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/sdsm.php",
+          "disposition": "verified",
+          "note": "The page really does print 'mm' where it means µm; the article flags this rather than silently correcting a quotation, which is the right handling."
+        },
+        {
+          "claim": "'A three-position fold mirror enables the detectors to view sequentially a dark scene, direct sunlight, and illumination from the Solar Diffuser'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/sdsm.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The direct solar view is attenuated through 'a two-percent transmitting screen'",
+          "sourceChecked": "https://modis.gsfc.nasa.gov/about/sdsm.php",
+          "disposition": "verified"
+        },
+        {
+          "claim": "OLI baffle 'occasionally pointed at the sun so that a diffuser panel can reflect solar illumination into the telescope'",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/oli",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'Two lamp assemblies, with six small lamps each, inside an integrating hemisphere' illuminating the focal plane with the shutter closed",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/oli",
+          "disposition": "verified"
+        },
+        {
+          "claim": "OLI data 'calibrated to an uncertainty of less than 5% for spectral radiance' and 'less than 3% for top-of-atmosphere spectral reflectance', with band widths 'within 3% of specified values across the field-of-view'",
+          "sourceChecked": "https://science.nasa.gov/mission/landsat/oli",
+          "disposition": "verified"
+        },
+        {
+          "claim": "RadCalNet maintains 'five instrumented reference test sites (with more in preparation)' at Railroad Valley USA, La Crau France, two at Baotou China, and Gobabeb Namibia",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "RadCalNet publishes TOA reflectance 'at a 10 nm spectral sampling interval' over 'the spectral range from 400 nm to 2500 nm', 'at 30 minute intervals'",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The sites are peer-reviewed and their traceability is 'underpinned by the United Kingdom's National Physical Laboratory (NPL)'",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "qualified",
+          "note": "Both halves are supported but were compressed past what the source says. The peer review attaches to each member site's own quality assurance ('is subject to peer review and rigorous comparison'), not to the sites as such; and NPL is described as underpinning 'site-to-site consistency and SI traceability' in its role as a national metrology institute. Both scoped to the source wording, and SI traceability named, since 'traceability' unqualified is the term the article's closing section carefully distinguishes."
+        },
+        {
+          "claim": "RadCalNet is run under the Committee on Earth Observation Satellites",
+          "sourceChecked": "https://ceos.org/home-2/wgcv-radcalnet/",
+          "disposition": "verified",
+          "note": "Specifically the CEOS Working Group on Calibration and Validation (WGCV)."
+        },
+        {
+          "claim": "'Sensor degradation is largest in the blue band (B3) of the MODIS sensor on Terra and decreases with wavelength.'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified",
+          "note": "Checked separately whether the paper quantifies the blue-band loss: it does not. Added an explicit sentence saying so, so the article cannot be read as implying a magnitude it never states."
+        },
+        {
+          "claim": "Full list of MODIS C5 products carrying spurious negative trends (aerosol optical depth over land, Ångström exponent over ocean, liquid water and ice cloud optical thickness, surface reflectance, NDVI, EVI)",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Collection 6 'removes major calibrations trends in the Level 1B (L1B) data'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An enhanced version adds a polarisation correction 'to compensate for the increased polarization sensitivity of MODIS Terra since about 2007', together with detrending and Terra-Aqua cross-calibration over desert sites",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "qualified",
+          "note": "Supported, but the article called it only 'an enhanced version' when the paper gives it a name the reader will meet in the data, C6+; and 'desert sites' dropped the paper's 'quasi-stable desert calibration sites', which is the property that makes them usable. Named C6+ and quoted the clause in full."
+        },
+        {
+          "claim": "Removes 'residual decadal trends on the order of several tenths of 1% of the top-of-atmosphere (TOA) reflectance in the visible and near-infrared MODIS bands B1–B4'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Over the southern United States C6+ removed 'an additional negative decadal trend of Terra ΔNDVI ~ 0.01 as compared to Aqua data'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "One purpose of the paper was 'to raise awareness of the calibration-related trends for the broad MODIS user community'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Collection 5 remained in production alongside Collection 6",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "qualified",
+          "note": "The paper bounds it: 'As the C5 production will be maintained for another year in parallel with C6...'. The article's open-ended phrasing implied an indefinite overlap. Full sentence quoted and the overlap scoped to that year."
+        },
+        {
+          "claim": "For a period, two versions of the same record existed and disagreed about the sign of a decadal trend",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "removed",
+          "note": "No cited source states a sign disagreement between C5 and C6. The paper says only that C5 carries spurious negative trends and that C6 removes or reduces them; removing a negative artefact is not the same as the two collections reporting opposite signs for the same product, and the paper never makes that stronger claim. Cut and replaced with what is supported: two collections in parallel production, one carrying trends the other had corrected."
+        },
+        {
+          "claim": "Lyapustin and colleagues (2014), 'Scientific impact of MODIS C5 calibration degradation and C6+ improvements'",
+          "sourceChecked": "https://amt.copernicus.org/articles/7/4353/2014/amt-7-4353-2014.html",
+          "disposition": "verified",
+          "note": "Title, year and authorship confirmed; full author list added to the Sources entry."
+        },
+        {
+          "claim": "Outgassed material condenses on cold optical surfaces; ultraviolet exposure and energetic particles darken glasses and damage detector lattices; mirror coatings change reflectance; diffuser panels yellow",
+          "sourceChecked": "none of the nine cited sources",
+          "disposition": "removed",
+          "note": "An uncited paragraph of specific physical mechanisms. Individually plausible as general spacecraft-optics background, but none of the nine cited sources states any of them, and 'diffuser panels yellow' in particular attributes a specific discolouration mechanism no source supports. Replaced with the two degradation mechanisms the cited sources do establish: the documented increase in MODIS Terra polarisation sensitivity from about 2007, and the change in solar diffuser reflectance evidenced by the existence of the SDSM."
+        },
+        {
+          "claim": "Excerpt: 'every published value moved by 0.18 ppm at 400 ppm'",
+          "sourceChecked": "https://amt.copernicus.org/articles/14/3015/2021/",
+          "disposition": "corrected",
+          "note": "The 0.18 ppm offset is the difference between scales at 400 ppm specifically, not a uniform shift applied to every published value. Reworded to say the scale moved by 0.18 ppm at 400 ppm and the record had to be re-expressed, which is the claim the paper supports."
+        },
+        {
+          "claim": "NIST defines metrological traceability as the 'property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations, each contributing to the measurement uncertainty'",
+          "sourceChecked": "https://www.nist.gov/calibrations/traceability",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'traceability alone does not signify or guarantee fitness for purpose, because this typically requires that the uncertainty associated with a measured value or calibration be sufficiently small to satisfy a particular measurement need'",
+          "sourceChecked": "https://www.nist.gov/calibrations/traceability",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The USGS describes Landsat Collection 2 as 'the second major reprocessing effort on the Landsat archive'",
+          "sourceChecked": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "The closing line of the on-board-calibrator section ('the regress stops only because the Sun and the vacuum are outside the spacecraft and are not degrading with it') is the article's own argument rather than a sourced claim. Left standing as visible reasoning, but it sits alongside the cited fact that the Moon, not the Sun, is what the mission actually leans on as the stable target — an editor may want to sharpen it."
+      ]
+    }
+  ]
+}

@@ -19,6 +19,7 @@ related:
   - nuclear-fission-and-reactors
   - measurement-uncertainty-explained
 pillar: atomic-and-nuclear-physics-explained
+_bodyHash: dd024eea
 ---
 
 A radiobiologia divide os seus efeitos em duas categorias que não se comportam de modo nenhum da mesma maneira, e quase toda a confusão pública vem de aplicar a lógica de uma à outra.

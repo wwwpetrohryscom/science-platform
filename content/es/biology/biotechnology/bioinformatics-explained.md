@@ -6,7 +6,7 @@ type: expert
 author: microbiology-genomics-desk
 publishedDate: '2026-09-02'
 updatedDate: '2026-09-05'
-readingTime: 8
+readingTime: 9
 tags:
   - sequence-alignment
   - genome-assembly
@@ -19,12 +19,12 @@ related:
   - genome-wide-association-studies-explained
   - what-is-a-genome
 pillar: biotechnology-explained
-_bodyHash: d859c696
+_bodyHash: 556c9b3a
 ---
 
 La versión 273 de GenBank, publicada en agosto de 2026, contiene 8,236,878,868,450 bases repartidas en 267,383,895 registros de secuencia, y su división whole-genome shotgun contiene otras 50,829,714,144,609 bases en más de 5.1 mil millones de registros. El Sequence Read Archive del NCBI, que almacena la salida bruta en lugar de los registros curados, había superado 91 petabases en el último punto de su serie de crecimiento publicada, en febrero de 2024. Nada de eso es un resultado. Lo es solo después de que un programa haya decidido de dónde procede cada lectura, qué forman las lecturas al ensamblarse, qué es probable que haga la secuencia ensamblada y cuáles de las diferencias entre dos muestras merecen comunicarse. Son cuatro inferencias distintas, y cada una tiene su propia forma de equivocarse.
 
-Los instrumentos que producen las lecturas —y el modo en que difieren sus longitudes de lectura y sus perfiles de error— son el objeto de la página complementaria sobre [las plataformas de secuenciación y para qué sirve cada una](/es/biology/biotechnology/dna-sequencing-technologies). Lo que sigue se sitúa aguas abajo de ellos, en la capa que convierte la señal en afirmación y de la que depende hoy buena parte de la [caja de herramientas biotecnológica moderna](/es/biology/biotechnology/biotechnology-explained).
+Los instrumentos que producen las lecturas —y el modo en que difieren sus longitudes de lectura y sus perfiles de error— son el objeto de la página complementaria sobre [las plataformas de secuenciación y para qué sirve cada una](/es/biology/biotechnology/dna-sequencing-technologies). Lo que sigue se sitúa aguas abajo de ellos, en la capa que convierte la señal en afirmación y de la que depende hoy la mayor parte de la [caja de herramientas biotecnológica moderna](/es/biology/biotechnology/biotechnology-explained).
 
 ## El alineamiento puntúa la similitud frente a una búsqueda, no frente a la biología
 
@@ -52,7 +52,7 @@ El modo de fallo de la transferencia se midió directamente en un estudio de 37 
 
 Los análisis ómicos ponen a prueba cantidades enormes de hipótesis a la vez, y la aritmética de eso es implacable. El GWAS Catalog, en su versión de agosto de 2026, recoge 1,191,572 asociaciones comunicadas procedentes de 7,797 publicaciones que cubren 562,145 variantes: un corpus construido probando cientos de miles de variantes por estudio frente a cada rasgo.
 
-Dos correcciones son de uso corriente y responden a preguntas distintas. El control del error por familia exige una probabilidad baja de *cualquier* falso positivo, lo que resulta apropiado cuando una sola afirmación equivocada sale cara. El control de la tasa de falsos descubrimientos, en la formulación de Benjamini–Hochberg, acota en cambio la proporción esperada de falsos positivos entre los resultados que se comunican, que es la moneda adecuada cuando la salida es una lista corta para trabajo de seguimiento. Ninguno de los dos hace fiable un acierto individual. Un gen comunicado con una tasa de falsos descubrimientos del 5 por ciento es miembro de una lista de la que se espera que uno de cada veinte miembros sea erróneo, y nada en el estadístico dice cuál. La misma lógica gobierna cómo se leen los estudios de asociación, tratada por extenso en [qué pueden sostener los estudios de asociación de genoma completo](/es/biology/genetics/genome-wide-association-studies-explained); vale por igual para los cribados diferenciales de [expresión génica](/es/glossary/gene-expression), proteómicos y metabolómicos.
+Dos correcciones son de uso corriente y responden a preguntas distintas. El control del error por familia exige una probabilidad baja de *cualquier* falso positivo, lo que resulta apropiado cuando una sola afirmación equivocada sale cara. El control de la tasa de falsos descubrimientos, en la formulación de Benjamini–Hochberg, acota en cambio la proporción esperada de falsos positivos entre los resultados que se comunican, que es la moneda adecuada cuando la salida es una lista corta para trabajo de seguimiento. Ninguno de los dos hace fiable un acierto individual. Un gen comunicado con una tasa de falsos descubrimientos del 5 por ciento es miembro de una lista de la que se espera que uno de cada veinte miembros sea erróneo, y nada en el estadístico dice cuál. La misma lógica gobierna cómo se leen los estudios de asociación, tratada por extenso en [qué pueden sostener los estudios de asociación de genoma completo](/es/biology/genetics/genome-wide-association-studies-explained); vale por igual para los cribados diferenciales de [expresión génica](/en/glossary/gene-expression), proteómicos y metabolómicos.
 
 ## Las mismas lecturas, analizadas dos veces
 
