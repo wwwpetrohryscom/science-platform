@@ -1,0 +1,1739 @@
+{
+  "batchId": "v-w5-gap-articles-independent",
+  "reviewedDate": "2026-09-06",
+  "verificationMethod": "independent",
+  "method": "Two-stage: one process wrote each article from sources it fetched and read; a separate process, which did not write it and was not asked to agree with it, then re-read every cited source itself and ruled on every numeric claim, quoted phrase, named study, date and attributed statement. The checker was instructed to fix what it found rather than report it, and to leave no claim standing that it could not verify. This is the first wave in which author and checker were different processes; earlier batches record honestly that they were not.",
+  "articles": [
+    {
+      "slug": "the-oxygen-dissociation-curve",
+      "path": "content/en/biology/physiology/the-oxygen-dissociation-curve.md",
+      "status": "amended",
+      "claimsChecked": 59,
+      "findings": [
+        {
+          "claim": "A litre of blood carries roughly 197 mL of oxygen protein-bound against about 3 mL dissolved at atmospheric tension",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK499818/",
+          "disposition": "verified",
+          "note": "\"Hemoglobin carries 98% of the oxygen in the blood in the protein-bound form, approximately 197 ml/L\"; \"only 3ml O2/L of blood is dissolved at atmospheric oxygen tension.\""
+        },
+        {
+          "claim": "A split usually quoted as 98 per cent to 2 per cent",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK539815/",
+          "disposition": "verified",
+          "note": "\"Only 2% of oxygen in the bloodstream is dissolved directly in the plasma component of blood compared to 98% of oxygen in the protein-bound state to hemoglobin.\""
+        },
+        {
+          "claim": "Quoted: \"reveals a sigmoid curve\"",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK499818/",
+          "disposition": "verified",
+          "note": "\"Plotting oxygen tension (x) vs saturation (y) reveals a sigmoid curve...\" Verbatim."
+        },
+        {
+          "claim": "Quoted: \"whereas that of other oxygen-carrying molecules (such as Myoglobin) is hyperbolic\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3230298/",
+          "disposition": "verified",
+          "note": "Verbatim in the source."
+        },
+        {
+          "claim": "Quoted: haemoglobin ferries oxygen \"from an extreme gradient of partial pressure from lungs (where it must remain tightly bound) to tissues (where it has to be easily released)\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3230298/",
+          "disposition": "verified",
+          "note": "Verbatim, including both parentheticals. A first fetch returned a paraphrase; a second, quote-only fetch confirmed the exact wording."
+        },
+        {
+          "claim": "Myoglobin is \"a storage protein sitting in muscle cytoplasm\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3230298/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "corrected",
+          "note": "The teaching article never calls myoglobin a storage protein and never says muscle: it says only \"Mb, located in the cell cytoplasm, releases oxygen to the respiratory chain of the mitochondrion\". The allostery review does not mention myoglobin at all. Rewritten to the source's own wording."
+        },
+        {
+          "claim": "\"In most vertebrates haemoglobin is a tetramer of two α-subunits and two β-subunits\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "\"In most vertebrates, Hb is a tetramer, consisting of two α-subunits (α1 and α2) and two β-subunits (β1 and β2)\". The \"most vertebrates\" qualifier is the source's own."
+        },
+        {
+          "claim": "Quoted: \"the tense (T) state (unliganded Hb) which exhibits low affinity for O2, and the relaxed (R) state (liganded Hb) which exhibits high affinity for O2.\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Quoted: MWC \"assumes that, upon ligand binding, the T state switches to the R state without intermediate states\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "KNF model has one unliganded conformation changing sequentially with each binding event",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "\"the KNF model assumes one Hb conformation in the absence of ligand, which changes with each binding of ligand to the subunit\"."
+        },
+        {
+          "claim": "Perutz model routes the signal through direct α1–β2 contact",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "\"...transmitted to other subunits through direct communication between the α1 and β2 subunits\"."
+        },
+        {
+          "claim": "Hill coefficient 1.4 in haemoglobin Bassett against 2.6 in HbA; Bassett is a low-affinity mutant",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "n = 2.6 (HbA), n = 1.4 (Hb Bassett). \"Hb Bassett (αAsp94Ala) ... is characterized by a markedly reduced oxygen affinity\"."
+        },
+        {
+          "claim": "Hill coefficient 2.6 is \"below four, the number of sites\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "qualified",
+          "note": "The source never states \"four oxygen binding sites\" nor relates nH to site count; it describes a tetramer with a haem pocket in each subunit. Reworded to \"below four, the number of haem groups the tetramer carries\", which follows directly from what the source does say."
+        },
+        {
+          "claim": "P50 for normal adult human haemoglobin is \"about 26 mmHg\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "\"about 26 mmHg for normal adult human Hb (HbA)\". Verbatim."
+        },
+        {
+          "claim": "Clinical reference sources give an accepted normal P50 of 27 mmHg",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+          "disposition": "verified",
+          "note": "\"the accepted normal P50 of 27 mmHg\"."
+        },
+        {
+          "claim": "P50 is the oxygen tension at which haemoglobin is half saturated",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+          "disposition": "verified",
+          "note": "\"P50 (partial pressure at which the hemoglobin molecule is half saturated with O2)\"."
+        },
+        {
+          "claim": "Species P50: elephant 23.03 ± 0.32, human 33.02 ± 0.29, cat 43.22 ± 0.62, mouse 57.86 ± 0.76 mmHg",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6812962/",
+          "disposition": "verified",
+          "note": "All four values match Table 2 exactly."
+        },
+        {
+          "claim": "Hill coefficients from 2.49 in the elephant to 3.32 in the mouse",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6812962/",
+          "disposition": "verified",
+          "note": "Elephant 2.49 ± 0.04, mouse 3.32 ± 0.07."
+        },
+        {
+          "claim": "The reanalysis \"ranked mammalian haemoglobins by affinity and found it tracks body size inversely\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6812962/",
+          "disposition": "corrected",
+          "note": "BACKWARDS. The elephant (largest) has the LOWEST P50 and so the HIGHEST affinity; the mouse the reverse. Affinity rises with body size; it is P50 that falls. The source's own stated result is \"an inverse linear correlation ... between the metabolic rate and Hb affinity\". Rewritten to \"P50 falls as body size rises\", the species list reordered mouse-to-elephant, and the authors' metabolic-rate correlation quoted directly."
+        },
+        {
+          "claim": "A 2019 reanalysis in eLife of classic comparative blood data",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6812962/",
+          "disposition": "verified",
+          "note": "eLife, 2019; a re-fitting of previously published Schmidt-Nielsen (1958, 1970) saturation curves, not new measurements. The provenance is now named in the body and the source note."
+        },
+        {
+          "claim": "Quoted: standardised measurements \"do not account for in vivo modulation of Hb-O2 affinity\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "corrected",
+          "note": "Altered quotation. The source reads: \"the P50 and Hill coefficient are commonly determined using in vitro standardized environmental conditions…which does not account for transient changes in the in vivo modulation of Hb-O2 affinity during circulatory transit\". Both clauses now quoted accurately."
+        },
+        {
+          "claim": "CO2 is hydrated to carbonic acid, which dissociates to bicarbonate and hydrogen ions",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK539815/",
+          "disposition": "verified",
+          "note": "\"carbon dioxide is quickly converted to carbonic acid by the enzyme carbonic anhydrase. Carbonic acid immediately dissociates into bicarbonate and hydrogen ions.\""
+        },
+        {
+          "claim": "Quoted: carbaminohaemoglobin \"stabilizes the T state, lowers affinity for oxygen, and induces oxygen unloading\"",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK539815/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Bohr effect: rising CO2 and falling pH lower haemoglobin's affinity for oxygen",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+          "disposition": "verified",
+          "note": "\"hemoglobin's lower affinity for oxygen secondary to increases in the partial pressure of carbon dioxide and/or decreased blood pH\"."
+        },
+        {
+          "claim": "C-terminal αArg141 and βHis146; βHis146 salt-bridges with βAsp94 and αLys40 in deoxy Hb",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "\"βHis146 makes intra-subunit and inter-subunit salt-bridge interactions with βAsp94 and αLys40, while αArg141 also participates in a separate inter-subunit salt-bridge...\""
+        },
+        {
+          "claim": "The Bohr factor is the change in log P50 per unit change in pH",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789091/",
+          "disposition": "verified",
+          "note": "\"The Bohr factor (Φ...) was quantified by the slope of linear plots of logP50 as a function of pH (Φ = ΔlogP50/ΔpH).\""
+        },
+        {
+          "claim": "Bohr factor about −0.5 in human HbA under standard in vitro conditions",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789091/",
+          "disposition": "verified",
+          "note": "\"...measured under in vitro standard conditions (e.g. ~−0.5 in human HbA)\". The article's \"standard in vitro conditions\" qualifier is the source's own."
+        },
+        {
+          "claim": "Deer mouse Bohr factors −0.62 ± 0.04 (highland) and −0.57 ± 0.00 (lowland) at 37 °C",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789091/",
+          "disposition": "verified",
+          "note": "Both match Table 2."
+        },
+        {
+          "claim": "The Haldane effect \"belongs to the carbon dioxide dissociation curve rather than this one\"",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK539815/ then https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+          "disposition": "resourced",
+          "note": "The source the article leaned on (NBK539815) never defines the Haldane effect — it appears there only inside a reference title. NBK526028 does define it: haemoglobin \"releasing its oxygen molecules in favor of binding H+ ions\", serving \"as a buffering agent\", with bicarbonate leaving in exchange for chloride. Re-sourced to NBK526028, rewritten to that definition, and the unsupported \"belongs to the CO2 dissociation curve\" assertion dropped."
+        },
+        {
+          "claim": "2,3-BPG binds the β-cleft of deoxy Hb at βHis2, βLys82, βHis143 and βHis146, stabilising the T state",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "\"2,3-BPG preferentially bind to the β-cleft of deoxygenated Hb making interactions with βHis2, βLys82, βHis143, and βHis146\"."
+        },
+        {
+          "claim": "Raised 2,3-BPG shifts the curve right; raised temperature likewise",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+          "disposition": "verified",
+          "note": "Right-shift factors listed include \"increases in temperature, 2,3-bisphosphoglyceric acid (2-3-BPG)\"."
+        },
+        {
+          "claim": "Enthalpy of oxygenation for human HbA is −50.7 kJ per mol O2",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789091/",
+          "disposition": "verified",
+          "note": "\"−50.7 kJ mol O2−1\"."
+        },
+        {
+          "claim": "Deer mouse haemoglobins average about −10.5 kJ per mol O2, \"near enough temperature-insensitive, which matters for animals whose extremities cool\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789091/",
+          "disposition": "qualified",
+          "note": "The −10.5 kJ/mol figure is right, but the source says \"similarly low temperature sensitivities\" and likens them to bovine Hb, \"a known example of a temperature-insensitive Hb\" — it does not call deer mouse Hb temperature-insensitive outright, and it frames the benefit conditionally: reduced sensitivity \"may therefore have adaptive significance in regional heterotherms that live in polar or alpine environments\". Both hedges added."
+        },
+        {
+          "claim": "Fetal Hb P50 of 19 mmHg against 27 mmHg for adult haemoglobin",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+          "disposition": "verified",
+          "note": "\"P50 for fetal Hb is 19 whereas P50 of adult Hb is 27.\""
+        },
+        {
+          "claim": "Fetal haemoglobin α2γ2 left-shifts the curve",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK499818/",
+          "disposition": "verified",
+          "note": "\"Fetal HgB (alpha2gamma2) introduces a leftward shift of the curve...\""
+        },
+        {
+          "claim": "The fetal left shift \"is what lets oxygen move from maternal to fetal blood at all\"",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+          "disposition": "corrected",
+          "note": "Overstated and misattributed. The source credits the DOUBLE BOHR EFFECT with \"facilitating oxygen transfer across the placenta from mother to fetus\", and separately notes fetal Hb's higher affinity. Rewritten so the higher affinity \"works alongside the double Bohr effect\", with the source's phrase quoted; \"at all\" removed."
+        },
+        {
+          "claim": "Quoted: \"the high O2 tension of the lungs (100 mmHg) provides full saturation\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3230298/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "The curve plateaus at high tension and is steeper at the systemic capillaries, releasing \"large amounts of oxygen\"",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK499818/ and https://www.ncbi.nlm.nih.gov/books/NBK539815/",
+          "disposition": "verified",
+          "note": "NBK499818: \"At higher oxygen tension ... the oxygen dissociation curve plateaus. At lower oxygen tension, the slope ... is steeper.\" NBK539815: \"large amounts of oxygen released by hemoglobin for metabolically active cells\"."
+        },
+        {
+          "claim": "The sigmoid arises from cooperative binding",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK539815/",
+          "disposition": "verified",
+          "note": "\"The sigmoid or S-shape of the curve is due to the positive cooperativity of hemoglobin.\""
+        },
+        {
+          "claim": "Root effect: acidosis reduces not only affinity but carrying capacity",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "verified",
+          "note": "\"An acidosis not only greatly decreases Hb-O2 affinity, as in the Bohr effect, but also reduces the carrying capacity of Hb for O2\"."
+        },
+        {
+          "claim": "Modelled arterial-to-venous pH changes of 0.2 units in trout and 0.035 units in humans; right shift increased oxygen released by 73.5 per cent in trout and 1.3 per cent in the human",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "verified",
+          "note": "Both pH steps and both percentages confirmed against the results text."
+        },
+        {
+          "claim": "The model held venous oxygen tension constant (\"constant venous tension\")",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "corrected",
+          "note": "The paper's stated assumption is \"a constant ∆Pa-vO2\" — a constant arterial-to-venous PO2 DIFFERENCE. Corrected in both places it appears (the modelling sentence and the caveat sentence), and in the source note."
+        },
+        {
+          "claim": "\"at half saturation, a comparable pH shift moved oxygen tension between three and twenty-one times more in the fish\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "corrected",
+          "note": "Two errors. The paper says: \"For Hb-O2 saturations up to 80% and a ΔpH close to what might be expected in vivo in trout (0.2 pH units), the ΔPO2 for rainbow trout was, at minimum, 4-fold that of the human ΔPO2 and over 21-times greater at greater ΔpH values.\" It is FOUR-fold, not three, and the comparison spans saturations up to 80 per cent — it is not made at half saturation. Replaced with the paper's own sentence, quoted."
+        },
+        {
+          "claim": "The authors are explicit that their models hold every other part of the oxygen cascade constant, and that intracellular pH cannot be measured reliably in real time in a living animal",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "verified",
+          "note": "\"Assuming that ... all other aspects of the oxygen cascade remain constant, and in particular there is no change in tissue metabolism or perfusion\"; \"intracellular pH (pHi) cannot yet be reliably measured in real-time at the tissue/cellular level in vivo\". Both now quoted rather than paraphrased."
+        },
+        {
+          "claim": "Teleosts \"spend a full pH unit\" on the Root effect at the swim bladder and the eye",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "corrected",
+          "note": "Contradicted by the source. ΔpH of −0.2, −0.3, −0.55 and −1.0 were modelled, and the authors say of the last two that they \"far exceed what might be seen in vivo\". Replaced with \"a large local acidosis\" and the paper's own caveat about its larger modelled steps now stated explicitly."
+        },
+        {
+          "claim": "At the swim bladder and eye, \"acid-secreting cells and a countercurrent network manufacture a local acidosis on purpose\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "corrected",
+          "note": "The word countercurrent appears nowhere in the paper, and no other cited source covers retia. The source says a \"gas gland also aids in producing acid\" and that the eye and swimbladder are equipped with \"retia–dense capillary networks that can serve to localize and magnify an acidosis–that, in conjunction with the Root effect, greatly elevate arterial PO2\". Rewritten to that wording; the /en/glossary/countercurrent-exchange link was removed with the unsupported characterisation (the glossary term itself does exist, so this was an accuracy fix, not a broken link)."
+        },
+        {
+          "claim": "A 2015 modelling study in PLoS One",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593521/",
+          "disposition": "verified",
+          "note": "PLoS One. 2015 Oct 5;10(10):e0139477, Rummer & Brauner."
+        },
+        {
+          "claim": "Below about 4,500 m acclimatising humans reduce Hb-O2 affinity through elevated 2,3-DPG",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "verified",
+          "note": "\"During sojourns to altitudes of ∼4500 m or less, humans demonstrate a reduced Hb-O2 affinity due to elevated production of 2,3-DPG\"."
+        },
+        {
+          "claim": "Several species adapted to high altitude have evolved higher affinity instead",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "verified",
+          "note": "\"several animal species adapted to high-altitude environments display a higher Hb-O2 affinity compared to that of low-land counterparts\"."
+        },
+        {
+          "claim": "Quoted: \"there is ongoing debate about the advantages of higher or lower hemoglobin-oxygen (Hb-O2) affinity in humans, particularly during hypoxia\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "verified",
+          "note": "Verbatim. Frontiers in Physiology, review, published 14 January 2022 — the article's \"2022 review in Frontiers in Physiology\" is correct."
+        },
+        {
+          "claim": "The benefit turns on the balance between loading in the lung and unloading in the periphery",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "verified",
+          "note": "\"homeostatic maintenance of O2 delivery and utilization during hypoxia is contingent on the balance between O2 loading in the lungs and O2 off-loading in the periphery\"."
+        },
+        {
+          "claim": "Over 200 mutations raise affinity, defined as P50 below 24 mmHg, most falling between 12 and 17 mmHg",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "verified",
+          "note": "\"over 200 distinct mutations\"; \"P50 less than 24 mmHg\"; \"a majority of high Hb-O2 affinity hemoglobinopathies examined are associated with P50 values ranging from 12 to 17 mmHg\" — \"most\" is a fair rendering of \"a majority\"."
+        },
+        {
+          "claim": "At Leadville, Colorado, around 3,100 m, VO2max fell about 28 and 19 per cent in two normal-affinity siblings while two high-affinity siblings showed no reduction; four siblings in all",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "verified",
+          "note": "\"Two humans with high Hb-O2 affinity and two of their siblings with normal Hb-O2 affinity were examined\" at \"Leadville, Colorado, ∼3100 m\"; \"decreased by ∼28 and 19%\"; the high-affinity pair \"did not demonstrate a reduction\". The article's \"four siblings is a case series\" is accurate."
+        },
+        {
+          "claim": "In normobaric hypoxia equivalent to roughly 2,600 m, high-affinity carriers lost 4 ± 5 per cent against 13 ± 6 per cent in controls",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8795792/",
+          "disposition": "verified",
+          "note": "Dominelli et al. 2020, \"FiO2 = 0.15, ∼2,600 m\"; −4 ± 5% vs −13 ± 6%."
+        },
+        {
+          "claim": "Quoted: the unloading penalty \"is compensated by an associated increase in the tissue diffusion capacity of O2 (via increased muscle capillarization)\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789091/",
+          "disposition": "verified",
+          "note": "Verbatim from the paper's conclusion."
+        },
+        {
+          "claim": "Source 1 is Subcellular Biochemistry",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7370311/",
+          "disposition": "verified",
+          "note": "Subcell Biochem 94:345–382 (2020), Ahmed, Ghatge & Safo."
+        },
+        {
+          "claim": "Source 2 is a 2001 Journal of Chemical Education teaching article",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3230298/",
+          "disposition": "verified",
+          "note": "J Chem Educ, 2001, Julian Gomez-Cambronero. The article's own caveat about using it for framing rather than reference values is appropriate."
+        },
+        {
+          "claim": "Source 7 is Comparative Biochemistry and Physiology Part A",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4789091/",
+          "disposition": "verified",
+          "note": "Comp Biochem Physiol A: Molecular & Integrative Physiology, 2016."
+        },
+        {
+          "claim": "Source note 3 claims the article draws \"the 240-fold carbon monoxide affinity\" from NBK499818",
+          "sourceChecked": "https://www.ncbi.nlm.nih.gov/books/NBK499818/",
+          "disposition": "removed",
+          "note": "The source does say \"CO has a 240-fold greater affinity for hemoglobin than oxygen\", but the article body never makes any carbon monoxide claim. The source note advertised content the article does not carry, so the phrase was struck from the note. Also removed the note's \"right-shift factors\" attribution, which belongs to source 5."
+        }
+      ]
+    },
+    {
+      "slug": "binomial-nomenclature-and-why-names-change",
+      "path": "content/en/biology/taxonomy/binomial-nomenclature-and-why-names-change.md",
+      "status": "amended",
+      "claimsChecked": 44,
+      "findings": [
+        {
+          "claim": "ICZN Art 5: a species name \"is a combination of two names (a binomen), the first being the generic name and the second being the specific name\"; a subspecies takes a trinomen",
+          "sourceChecked": "https://code.iczn.org/chapter-2-the-number-of-words-in-the-scientific-names-of-animals/article-5-principle-of-binominal-nomenclature/",
+          "disposition": "verified",
+          "note": "Art 5.1 and 5.2 match word for word."
+        },
+        {
+          "claim": "ICN Art 23: a species name \"is a binary combination consisting of the name of the genus followed by a single specific epithet\"",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_23.html",
+          "disposition": "verified",
+          "note": "Art 23.1 verbatim; page confirmed as the Shenzhen Code (2018), as source 7 states."
+        },
+        {
+          "claim": "Zoological nomenclature starts 1 January 1758, \"the date fixed for the tenth edition of Linnaeus's Systema Naturae\"",
+          "sourceChecked": "https://code.iczn.org/zoological-nomenclature/article-3-starting-point/",
+          "disposition": "qualified",
+          "note": "Art 3.1 deems TWO works published on that date — Systema Naturae 10th ed. and Clerck's Aranei Svecici, whose names take precedence. Added Clerck."
+        },
+        {
+          "claim": "No name published earlier enters the system, though earlier descriptions and illustrations may be used \"as evidence\"",
+          "sourceChecked": "https://code.iczn.org/zoological-nomenclature/article-3-starting-point/",
+          "disposition": "qualified",
+          "note": "Art 3.2 says no name OR NOMENCLATURAL ACT enters, and that \"information (such as descriptions or illustrations)\" may be used — it does not say \"as evidence\". Wording brought to the Code's."
+        },
+        {
+          "claim": "Vascular plants start 1 May 1753 with Linnaeus's Species plantarum",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_13.html",
+          "disposition": "verified",
+          "note": "Art 13.1: \"1 May 1753 (Linnaeus, Species plantarum, ed. 1)\" for Spermatophyta and Pteridophyta at genus rank and below."
+        },
+        {
+          "claim": "Mosses start in 1801 with Hedwig",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_13.html",
+          "disposition": "qualified",
+          "note": "Art 13.1 gives 1 January 1801 (Hedwig, Species muscorum frondosorum) for Musci EXCEPT Sphagnaceae. Exception added."
+        },
+        {
+          "claim": "Several algal groups have later starting points still",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_13.html",
+          "disposition": "qualified",
+          "note": "True (Desmidiaceae 1848, Nostocaceae heterocysteae 1886, homocysteae 1892, Oedogoniaceae 1900), but algae in general start at 1753. Replaced the vague 'algal groups' with the named Oedogoniaceae/1900 case."
+        },
+        {
+          "claim": "\"Every available name is attached to a name-bearing type\"",
+          "sourceChecked": "https://code.iczn.org/the-type-concept-in-nomenclature/article-61-principle-of-typification/",
+          "disposition": "corrected",
+          "note": "Art 61.1 reads \"Each nominal taxon in the family, genus or species groups has actually or potentially a name-bearing type.\" The article's absolute dropped both the rank restriction and \"actually or potentially\". Rewritten to the Code's formulation."
+        },
+        {
+          "claim": "Fixing the name-bearing type \"provides the objective standard of reference for the application of the name it bears\"",
+          "sourceChecked": "https://code.iczn.org/the-type-concept-in-nomenclature/article-61-principle-of-typification/",
+          "disposition": "verified",
+          "note": "Art 61.1, verbatim."
+        },
+        {
+          "claim": "\"no matter how the boundaries of a taxonomic taxon may vary in the opinion of zoologists the valid name of such a taxon is determined from the name-bearing type(s) considered to belong within those boundaries\"",
+          "sourceChecked": "https://code.iczn.org/the-type-concept-in-nomenclature/article-61-principle-of-typification/",
+          "disposition": "verified",
+          "note": "Art 61.1.1, verbatim."
+        },
+        {
+          "claim": "The type of a species-group name is a holotype, lectotype, neotype or syntypes",
+          "sourceChecked": "https://code.iczn.org/the-type-concept-in-nomenclature/article-61-principle-of-typification/",
+          "disposition": "verified",
+          "note": "Art 61.1.2: \"a specimen or a set of specimens (a holotype, lectotype, neotype or syntypes)\"."
+        },
+        {
+          "claim": "The type of a genus-group name is a nominal species; the type of a family-group name is a genus",
+          "sourceChecked": "https://code.iczn.org/the-type-concept-in-nomenclature/article-61-principle-of-typification/",
+          "disposition": "verified",
+          "note": "Art 61.1.2: \"a nominal species defined objectively by its type\"; \"the nominal genus on which its name is based\"."
+        },
+        {
+          "claim": "ICN: the nomenclatural type is \"that element to which the name of a taxon is permanently attached\" and \"is not necessarily the most typical or representative element of a taxon\"",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_7.html",
+          "disposition": "verified",
+          "note": "Art 7.2, both phrases verbatim."
+        },
+        {
+          "claim": "Names with different types judged to belong to one taxon are subjective synonyms, revisable by a later specialist",
+          "sourceChecked": "https://code.iczn.org/the-type-concept-in-nomenclature/article-61-principle-of-typification/",
+          "disposition": "verified",
+          "note": "Art 61.3.1."
+        },
+        {
+          "claim": "\"Names sharing a type are objective synonyms, and nothing short of Commission action can separate them\"",
+          "sourceChecked": "https://code.iczn.org/the-type-concept-in-nomenclature/article-61-principle-of-typification/",
+          "disposition": "corrected",
+          "note": "Art 61.1.3 allows a fixed name-bearing type to change under Arts 70.3.2 and 74-75 as well as by the Commission's plenary power, so 'nothing short of Commission action' is false. Rewritten to name the narrow Code cases alongside the plenary power."
+        },
+        {
+          "claim": "The valid name is \"the oldest available name applied to it, unless that name has been invalidated or another name is given precedence by any provision of the Code or by any ruling of the Commission\"",
+          "sourceChecked": "https://code.iczn.org/validity-of-names-and-nomenclatural-acts/article-23-principle-of-priority/",
+          "disposition": "verified",
+          "note": "Art 23.1, verbatim including the Commission clause (confirmed on a second targeted fetch)."
+        },
+        {
+          "claim": "Priority \"is to be used to promote stability and it is not intended to be used to upset a long-accepted name in its accustomed meaning by the introduction of a name that is its senior synonym or homonym\"",
+          "sourceChecked": "https://code.iczn.org/validity-of-names-and-nomenclatural-acts/article-23-principle-of-priority/",
+          "disposition": "verified",
+          "note": "Art 23.2, verbatim."
+        },
+        {
+          "claim": "The senior name must not have been used as a valid name after 1899",
+          "sourceChecked": "https://code.iczn.org/validity-of-names-and-nomenclatural-acts/article-23-principle-of-priority/",
+          "disposition": "verified",
+          "note": "Art 23.9.1.1."
+        },
+        {
+          "claim": "The junior name must appear as a presumed valid name in at least 25 works, by at least 10 authors, in the immediately preceding 50 years, spanning not less than 10 years",
+          "sourceChecked": "https://code.iczn.org/validity-of-names-and-nomenclatural-acts/article-23-principle-of-priority/",
+          "disposition": "verified",
+          "note": "Art 23.9.1.2 — all four thresholds match exactly."
+        },
+        {
+          "claim": "The senior name becomes a nomen oblitum and the junior a nomen protectum",
+          "sourceChecked": "https://code.iczn.org/validity-of-names-and-nomenclatural-acts/article-23-principle-of-priority/",
+          "disposition": "verified",
+          "note": "Art 23.9.2."
+        },
+        {
+          "claim": "Botanical conservation \"aims at retention of those names that best serve stability of nomenclature\", with conserved names listed in appendices",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_14.html",
+          "disposition": "verified",
+          "note": "Art 14.2 verbatim; Art 14.1 lists App. II-IV."
+        },
+        {
+          "claim": "A taxon with a given circumscription, position and rank \"can bear only one correct name\"",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_11.html",
+          "disposition": "verified",
+          "note": "Art 11.1."
+        },
+        {
+          "claim": "For a taxon below the rank of genus the correct name is \"the combination of the final epithet of the earliest legitimate name of the taxon at the same rank, with the correct name of the genus or species to which it is assigned\"",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_11.html",
+          "disposition": "verified",
+          "note": "Art 11.4, verbatim."
+        },
+        {
+          "claim": "Antirrhinum spurium transferred to Linaria becomes L. spuria",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_11.html",
+          "disposition": "verified",
+          "note": "Art 11 Example 8 gives L. spuria (L.) Mill.; the full author citation is now shown, which also evidences the gender-agreement point."
+        },
+        {
+          "claim": "\"no proposal by the transferring author to substitute a different epithet has standing\"",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_11.html",
+          "disposition": "corrected",
+          "note": "Article 11 states no such rule; only Example 9 (Cassini's illegitimate renaming) bears on it obliquely. Rewritten to what 11.4 does say: the epithet is fixed as the earliest legitimate one, not chosen by the transferring author."
+        },
+        {
+          "claim": "Linnaeus described the lion in Felis and the name in use is now Panthera leo (Linnaeus, 1758)",
+          "sourceChecked": "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183803",
+          "disposition": "resourced",
+          "note": "No cited source supported this. ITIS TSN 183803 gives the accepted name Panthera leo (Linnaeus, 1758) with Felis leo Linnaeus, 1758 among its synonyms; added inline and as source 10, and ITIS added to the biology source registry. Cross-checked against GBIF, which also records Felis leo Linnaeus, 1758 as a synonym of Panthera leo."
+        },
+        {
+          "claim": "MDD recorded 296 species de novo, 321 split, 357 lumped, 227 generic changes, 17 specific-epithet changes, 148 spelling changes",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "verified",
+          "note": "All six counts match, and they are indeed MDD1 vs MDD2. The paper dates that window as August 2017-August 2024; the seven-year span is now stated, since 'comparing itself directly against its first' left the interval invisible."
+        },
+        {
+          "claim": "\"The 227 generic transfers altered names without altering anyone's view of which populations belong together\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "corrected",
+          "note": "A generic transfer does change the view of which SPECIES belong together — that is what it asserts. What it leaves untouched is species delimitation. Rewritten to 'rewrote names without redrawing the boundary of a single species'."
+        },
+        {
+          "claim": "Zoological authorship citation is \"optional, although customary and often advisable\"",
+          "sourceChecked": "https://code.iczn.org/authorship/article-51-citation-of-names-of-authors/",
+          "disposition": "verified",
+          "note": "Art 51.1, verbatim."
+        },
+        {
+          "claim": "The author's name follows without punctuation except in changed combinations, where it is parenthesised",
+          "sourceChecked": "https://code.iczn.org/authorship/article-51-citation-of-names-of-authors/",
+          "disposition": "verified",
+          "note": "Arts 51.2 and 51.3."
+        },
+        {
+          "claim": "Taenia diminuta Rudolphi becomes Hymenolepis diminuta (Rudolphi) on transfer",
+          "sourceChecked": "https://code.iczn.org/authorship/article-51-citation-of-names-of-authors/",
+          "disposition": "verified",
+          "note": "Art 51.3's own worked example."
+        },
+        {
+          "claim": "\"The convention has a narrow exception, applied when the species-group name was originally published with a misspelling or emendation of the generic name\"",
+          "sourceChecked": "https://code.iczn.org/authorship/article-51-citation-of-names-of-authors/",
+          "disposition": "qualified",
+          "note": "Art 51.3.1 states the exception's EFFECT — the parentheses are omitted — which the article left unsaid, so a reader could not tell which way the exception cut. Effect now stated."
+        },
+        {
+          "claim": "ICN Art 49: author citation for a name with a basionym is the basionym author in parentheses followed by the author of the new combination",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_49.html",
+          "disposition": "verified",
+          "note": "Art 49.1, verbatim."
+        },
+        {
+          "claim": "Medicago polymorpha var. orbicularis L., raised to species, is cited as M. orbicularis (L.) Bartal.",
+          "sourceChecked": "https://www.iapt-taxon.org/nomen/pages/main/art_49.html",
+          "disposition": "verified",
+          "note": "Art 49 Example 1."
+        },
+        {
+          "claim": "WCVP, version prepared 16 March 2021, comprised 1,190,715 records: 400,341 accepted names, 744,145 synonyms, 3,610 artificial hybrids, 42,619 unplaced names",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8363670/",
+          "disposition": "verified",
+          "note": "Quoted verbatim in the paper: \"This data set, prepared on 16th Mar. 2021, comprises 1,190,715 records, including 400,341 accepted names, 744,145 synonyms, 3610 artificial hybrids and 42,619 unplaced names.\""
+        },
+        {
+          "claim": "\"Roughly two synonyms stand behind every accepted plant species name\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8363670/",
+          "disposition": "corrected",
+          "note": "The 400,341 accepted NAMES include infraspecific taxa; the same paper reports 342,953 accepted vascular plant SPECIES as of 16 April 2021. The ratio is per accepted name, not per species. Corrected, with the species figure and its date now given."
+        },
+        {
+          "claim": "\"Mammals, the best-catalogued class of animals\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "removed",
+          "note": "The paper makes no such characterisation, and no other cited source does. Superlative deleted; the sentence now just marks the ratio as steeper."
+        },
+        {
+          "claim": "\"50,230 curated species-rank synonyms against 6,759 valid species\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "corrected",
+          "note": "The paper's summary sentence reads \"6,759 valid mammal species ... along with nomenclatural data for 50,230 valid and synonymous species-rank scientific names\" — i.e. valid names are inside the 50,230, so they are not all synonyms (the paper does contradict itself once with 'totaling 50,230 synonyms'). Restated with the unambiguous framing, and the ratio expressed as ~7.5 names per species rather than as synonyms per species."
+        },
+        {
+          "claim": "6,759 valid species: 6,629 wild extant, 113 extinct, 17 domestic",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "verified",
+          "note": "All four figures match; 'extinct' is 'recently extinct' in the paper, now reflected."
+        },
+        {
+          "claim": "Taxonomy and nomenclature are \"closely allied, but separate and complementary endeavours\"",
+          "sourceChecked": "https://www.iczn.org/outreach/faqs/",
+          "disposition": "verified",
+          "note": "Verbatim; the full sentence continues \"in developing the language of biodiversity\"."
+        },
+        {
+          "claim": "Nomenclature \"does not determine the inclusiveness or exclusiveness of any taxon, nor the rank to be accorded to any assemblage of animals, but rather provides the name that is to be used for a taxon whatever taxonomic limits and rank are given to it\"",
+          "sourceChecked": "https://www.iczn.org/outreach/faqs/",
+          "disposition": "verified",
+          "note": "Verbatim on the FAQ page."
+        },
+        {
+          "claim": "The Commission does not patrol the literature; it rules on cases brought to it by taxonomists, acting as arbitrator",
+          "sourceChecked": "https://www.iczn.org/outreach/faqs/",
+          "disposition": "verified",
+          "note": "\"The ICZN does not police the use of zoological nomenclature\"; \"The Commission rules on Cases that are brought before it by interested parties (usually taxonomists), thus acts as an arbitrator and judge\"."
+        },
+        {
+          "claim": "Source 7 note: the Shenzhen Code is \"Superseded by the Madrid Code of 2025\"",
+          "sourceChecked": "https://www.iaptglobal.org/single-post/the-madrid-code-2025-edition-of-the-international-code-of-nomenclature-for-algae-fungi-and-plant (via web search)",
+          "disposition": "verified",
+          "note": "The Madrid Code, reflecting the 2024 Madrid IBC, was published 21 July 2025 and supersedes the Shenzhen Code. The disclosure is accurate and worth keeping, since all ICN article numbers cited here are Shenzhen numbering."
+        },
+        {
+          "claim": "Source 8 attribution: Scientific Data, \"The World Checklist of Vascular Plants, a continuously updated resource for exploring global plant diversity\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8363670/",
+          "disposition": "verified",
+          "note": "Govaerts, Nic Lughadha, Black, Turner & Paton (2021), Scientific Data 8:215. Source note tightened to name the 16 March 2021 dataset and the April species count now cited."
+        },
+        {
+          "claim": "Source 9 attribution: Journal of Mammalogy, \"How many mammal species are there now? Updates and trends in taxonomic, nomenclatural, and geographic knowledge\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526941/",
+          "disposition": "verified",
+          "note": "Burgin, Zijlstra, Becker et al., J. Mammalogy 106(5):1082-1117. Source note rewritten so it no longer describes the 50,230 as synonyms."
+        }
+      ]
+    },
+    {
+      "slug": "sampling-effort-and-what-a-species-count-depends-on",
+      "path": "content/en/ecology/biodiversity/sampling-effort-and-what-a-species-count-depends-on.md",
+      "status": "amended",
+      "claimsChecked": 42,
+      "findings": [
+        {
+          "claim": "Quoted: coverage-based rarefaction 'encompasses changes in both components: species composition and community size'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6182778/ (Shimadzu 2018)",
+          "disposition": "corrected",
+          "note": "Misquotation. The paper's verb is 'presents', not 'encompasses': 'the coverage-based rarefaction indicator presents the changes in both components: species composition, pit's, and community size, nt'. Corrected to the source's wording, eliding the notation with an ellipsis. The paired size-based quote ('only the change in community composition') is verbatim from Corollary 1 and was left standing."
+        },
+        {
+          "claim": "Over 4,800 routes across the United States, Canada and northern Mexico",
+          "sourceChecked": "https://www.usgs.gov/centers/eesc/news/north-american-breeding-bird-survey-helping-keep-common-birds-common",
+          "disposition": "corrected",
+          "note": "USGS says 'across the continental United States, Canada and northern Mexico'. Dropping 'continental' overstates the network's extent. Added."
+        },
+        {
+          "claim": "'Their recommendation is contested in its scope'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/ (Deng, Umbach & Neufeld 2024)",
+          "disposition": "removed",
+          "note": "No cited source supports it. The article cites only the ISME piece, which does not report itself as contested, and a targeted search for a published rebuttal or comment returned none. An unsourced 'this is disputed' hedge is a fabricated attribution to an unnamed body of critics. Clause cut; the sentence now carries only the generalisation the article actually argues."
+        },
+        {
+          "claim": "90% of known species richness reached in 1939, after 69 years of collecting and 1,309 sampled individuals",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3632580/ (Fattorini 2013)",
+          "disposition": "qualified",
+          "note": "All three numbers verbatim, but the source immediately qualifies them: 'use of a smoothed curve (MaoTau), indicates that about 50 years (but with more than 9000 individuals) should be needed to reach 90% of known richness.' The 1,309 figure is an artefact of very uneven historical effort, so quoting it alone understates the specimen effort. Added the Mao Tau caveat."
+        },
+        {
+          "claim": "For the Breeding Bird Survey and freshwater fish surveys the equivalent figures were 82.6% and 82.3%",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4979697/ (Troia & McManamay 2016)",
+          "disposition": "qualified",
+          "note": "Numbers right, phrasing invited a wrong reading. In the source, 82.6% and 82.3% are the complete and contemporary time periods respectively, pooled across BBS and FFS — not one figure per programme. Rewrote to name the two periods explicitly."
+        },
+        {
+          "claim": "Quoted: Chao1 and ACE 'must not be used' with amplicon sequence variant data",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+          "disposition": "qualified",
+          "note": "The source's sentence is scoped: 'must not be used for estimating total richness of amplicon sequence variant (ASV) datasets'. Truncating at 'must not be used' drops the purpose the prohibition attaches to and turns it into a blanket ban. Restored the full quoted scope and identified the piece as a perspective article."
+        },
+        {
+          "claim": "Only rarefaction broke the dependence, dropping the correlation to about 0.40 on average",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4328781/ (Engemann et al. 2015)",
+          "disposition": "verified",
+          "note": "Flagged for a second look because a first read returned a range of 0.28–0.51. The paper states the average directly — 'average Pearson correlation 0.40 for rarefied richness and 0.93 for all other measures, Table 2' — so the article's figure is the paper's own summary statistic, not a synthesis."
+        },
+        {
+          "claim": "About 64 of the region's 210 UTM 10 × 10 km cells",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3632580/",
+          "disposition": "verified",
+          "note": "Both numbers confirmed independently; the 210 total was not in the writer's report. Source: 'approximatively divided into 210 10×10 km cells in the UTM system' and '90% ... is reached after about 64 sampled UTM cells'."
+        },
+        {
+          "claim": "The q = 2 (Simpson) measure shows only weak dependence on sample completeness; Shannon (q = 1) is intermediate",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741086/ (Chiu & Chao 2016)",
+          "disposition": "verified",
+          "note": "Source: 'empirical Shannon diversity is moderately dependent and ... Simpson diversity is weakly dependent on sample size and inventory completeness', which it attributes to Chao et al. (2014). The article does not present this as Chiu and Chao's own finding, so the attribution is not misstated."
+        },
+        {
+          "claim": "Deng, Umbach and Neufeld, The ISME Journal (2024) — title, authors, journal, year",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11208923/",
+          "disposition": "verified",
+          "note": "This source was absent from the writer's account of what it had checked, so the entire paragraph resting on it was read from scratch. Title, all three authors, journal and year confirmed; the 'meaningless and thus unacceptable for alpha diversity analyses' quote and the DADA2/Deblur singleton-removal reasoning are verbatim/accurate."
+        }
+      ]
+    },
+    {
+      "slug": "area-based-targets-and-what-they-measure",
+      "path": "content/en/ecology/conservation/area-based-targets-and-what-they-measure.md",
+      "status": "amended",
+      "claimsChecked": 52,
+      "findings": [
+        {
+          "claim": "Decision VII/30 (2004), goal 1.1: \"at least 10% of each of the world's ecological regions effectively conserved\"",
+          "sourceChecked": "https://www.cbd.int/decision/cop/?id=7767",
+          "disposition": "verified",
+          "note": "Exact wording confirmed; decision is COP7 'Strategic Plan: future evaluation of progress', 2004."
+        },
+        {
+          "claim": "The first quantified global target came out of the CBD in 2004",
+          "sourceChecked": "https://www.cbd.int/decision/cop/?id=7767",
+          "disposition": "verified",
+          "note": "COP7, 2004."
+        },
+        {
+          "claim": "Aichi Target 11 full text quoted verbatim, incl. 17 per cent / 10 per cent elements and the qualifier clause",
+          "sourceChecked": "https://www.cbd.int/sp/targets/rationale/target-11",
+          "disposition": "verified",
+          "note": "Quotation matches the source word for word."
+        },
+        {
+          "claim": "Technical rationale recorded the starting point as roughly 13 per cent of land and 5 per cent of coastal areas",
+          "sourceChecked": "https://www.cbd.int/sp/targets/rationale/target-11",
+          "disposition": "verified",
+          "note": "Source: 'some 13 per cent of terrestrial areas and 5 per cent of coastal areas are protected'."
+        },
+        {
+          "claim": "The Aichi Biodiversity Targets date from 2010",
+          "sourceChecked": "https://www.cbd.int/sp/targets/rationale/target-11 then https://www.cbd.int/sp/",
+          "disposition": "resourced",
+          "note": "The cited rationale page does not state the adoption year. Verified on cbd.int/sp/ ('In decision X/2, the tenth meeting of the Conference of the Parties, held from 18 to 29 October 2010, in Nagoya...'). Body now reads 'adopted with the Strategic Plan for Biodiversity 2011-2020 by decision X/2 in 2010'; added as source 11."
+        },
+        {
+          "claim": "Target 3 raises the figure to 30 per cent by 2030",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3",
+          "disposition": "verified",
+          "note": "Full target text confirmed."
+        },
+        {
+          "claim": "Quoted Target 3 fragments: \"effectively conserved and managed\", \"ecologically representative, well-connected and equitably governed\", \"fully consistent with conservation outcomes\"",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3",
+          "disposition": "verified",
+          "note": "All three appear verbatim in the target text."
+        },
+        {
+          "claim": "Target 3 covers 'areas of particular importance for biodiversity and ecosystem functions and services' and recognises Indigenous and traditional territories",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3",
+          "disposition": "verified",
+          "note": "Both elements present in the target text."
+        },
+        {
+          "claim": "The Kunming-Montreal Global Biodiversity Framework was adopted in 2022",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3 then https://www.cbd.int/gbf/",
+          "disposition": "resourced",
+          "note": "The target page never states the adoption year (it only footnotes decisions 15/4 and 15/5). Verified on cbd.int/gbf/: adopted at COP15, December 2022, decision 15/4. Body now reads 'adopted by decision 15/4 at COP15 in December 2022'; added as source 10."
+        },
+        {
+          "claim": "Headline indicator is \"Coverage of protected areas and OECMs\"",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3",
+          "disposition": "verified",
+          "note": "Listed as headline indicator 3.1."
+        },
+        {
+          "claim": "Component indicators: KBA coverage, PAME, ProtConn, PARC-Connectedness, Red List of Ecosystems connectivity indicator (in development), SAGE site counts, Species Protection Index",
+          "sourceChecked": "https://www.cbd.int/gbf/targets/3",
+          "disposition": "verified",
+          "note": "All seven appear on the page's component-indicator list, including the '(in development)' marker on the RLE connectivity indicator and the SAGE framing as 'the number of protected areas that have completed a site-level assessment of governance and equity'."
+        },
+        {
+          "claim": "Coverage figures come from the WDPA and its OECM counterpart, 'compiled by UNEP-WCMC and IUCN from what governments report about their own law'",
+          "sourceChecked": "https://www.protectedplanet.net/en/resources/calculating-protected-area-coverage and https://digitalreport.protectedplanet.net/?chapter=2",
+          "disposition": "corrected",
+          "note": "Both halves were wrong. The report states the databases are 'managed by the UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC) as joint products of UNEP and IUCN', and that 'the data in the WDPA are compiled directly from governments, regional entities, secretariats of intergovernmental agreements and processes, and other stakeholders' — not governments alone. Sentence rewritten to match."
+        },
+        {
+          "claim": "The percentage is 'a dissolved, buffered, filtered sum of legal boundaries submitted by states'",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/?chapter=2",
+          "disposition": "corrected",
+          "note": "Same overstatement as above, restated later in the article. Changed to 'a dissolved, buffered, filtered sum of reported boundaries submitted by governments and other data providers'."
+        },
+        {
+          "claim": "Overlapping designations are removed by dissolving the layer before measurement",
+          "sourceChecked": "https://www.protectedplanet.net/en/resources/calculating-protected-area-coverage",
+          "disposition": "verified",
+          "note": "Source: 'The layer above is flattened (dissolved) - to eliminate overlaps between designations and avoid double counting.'"
+        },
+        {
+          "claim": "Proposed sites, sites without a designation status, and point records with no reported area are excluded, as are UNESCO MAB reserves as whole sites",
+          "sourceChecked": "https://www.protectedplanet.net/en/resources/calculating-protected-area-coverage",
+          "disposition": "verified",
+          "note": "All four exclusions confirmed. The article's qualifier 'as whole sites' correctly preserves the source's carve-out that nationally designated MAB core areas and MAB OECMs are included."
+        },
+        {
+          "claim": "Point records are converted to circles sized by their reported area, a step that \"can underestimate or overestimate protected area coverage\"",
+          "sourceChecked": "https://www.protectedplanet.net/en/resources/calculating-protected-area-coverage",
+          "disposition": "verified",
+          "note": "Quotation is verbatim from the buffering discussion."
+        },
+        {
+          "claim": "The terrestrial denominator excludes Antarctica",
+          "sourceChecked": "https://www.protectedplanet.net/en/resources/calculating-protected-area-coverage",
+          "disposition": "verified",
+          "note": "Source: 'divided by total global terrestrial area excluding Antarctica'."
+        },
+        {
+          "claim": "The marine denominator is national EEZs, with areas beyond national jurisdiction reported separately",
+          "sourceChecked": "https://www.protectedplanet.net/en/resources/calculating-protected-area-coverage",
+          "disposition": "verified",
+          "note": "Marine coverage uses the Exclusive Economic Zones dataset; ABNJ is handled as a separate category."
+        },
+        {
+          "claim": "From 2024 areas are computed geodesically rather than on a Mollweide projection",
+          "sourceChecked": "https://www.protectedplanet.net/en/resources/calculating-protected-area-coverage",
+          "disposition": "verified",
+          "note": "Source: in 2024 UNEP-WCMC 'transitioned to using a more detailed base map and geodesic area calculations in WGS 1984... (the previous approach used Mollweide)'."
+        },
+        {
+          "claim": "The 17 per cent threshold was first reflected in official data at 17.08 per cent in the March 2023 Protected Planet release",
+          "sourceChecked": "https://www.protectedplanet.net/en/news-and-stories/achievement-of-17-target-for-protected-and-conserved-areas-now-reflected-in-official-data",
+          "disposition": "verified",
+          "note": "'the March 2023 release of the Protected Planet databases showing 17.08% terrestrial coverage'."
+        },
+        {
+          "claim": "The terrestrial element of Target 11 was met",
+          "sourceChecked": "https://www.protectedplanet.net/en/news-and-stories/achievement-of-17-target-for-protected-and-conserved-areas-now-reflected-in-official-data",
+          "disposition": "verified",
+          "note": "'The most tangible success of the target was that this component was achieved.'"
+        },
+        {
+          "claim": "Confirmation arrived late, once the lag between designation and reporting had worked through",
+          "sourceChecked": "https://www.protectedplanet.net/en/news-and-stories/achievement-of-17-target-for-protected-and-conserved-areas-now-reflected-in-official-data",
+          "disposition": "verified",
+          "note": "'accounting for known delays between protected areas being designated and appearing in the Protected Planet databases'."
+        },
+        {
+          "claim": "\"an outsized focus on percentage coverage meant that none were fully implemented\"",
+          "sourceChecked": "https://www.protectedplanet.net/en/news-and-stories/achievement-of-17-target-for-protected-and-conserved-areas-now-reflected-in-official-data",
+          "disposition": "verified",
+          "note": "Verbatim quotation, correctly attributed to Protected Planet and correctly scoped to Target 11's other components."
+        },
+        {
+          "claim": "\"The marine element was not met; coastal and marine coverage stood at 8.44 per cent in the 2024 assessment, still short of the 10 per cent asked for by 2020.\"",
+          "sourceChecked": "https://www.protectedplanet.net/en/news-and-stories/... and https://digitalreport.protectedplanet.net/",
+          "disposition": "qualified",
+          "note": "The news item mentions the 10% marine goal but never states whether it was achieved; only the 2024 figure of 8.44% is sourced. Rephrased to 'The marine element has not been met: coastal and marine coverage stood at 8.44 per cent in the 2024 assessment, below the 10 per cent asked for by 2020', so the assertion rests on the figure the article actually cites."
+        },
+        {
+          "claim": "Coverage stood at 17.58 per cent terrestrial and inland waters and 8.44 per cent marine and coastal",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/ and ?chapter=2",
+          "disposition": "verified",
+          "note": "Both figures confirmed in the Protected Planet Report 2024."
+        },
+        {
+          "claim": "A further 16.71 million km2 of land (12.42 percentage points) and 78.26 million km2 of sea (21.56 points) are required to reach 30 per cent",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/?chapter=2",
+          "disposition": "verified",
+          "note": "Verbatim: 'A further 16.71 million km2 (12.42%)... and 78.26 million km2 (21.56%)... need to be established and/or recognized'."
+        },
+        {
+          "claim": "PARC-representativeness score was 10.00 per cent, described as the mean share of ecologically distinct environments protected",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "verified",
+          "note": "Reported as a global mean for ecologically distinct environments protected, against 17.58% overall coverage."
+        },
+        {
+          "claim": "8.52 per cent of land was both protected and connected (ProtConn)",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "verified",
+          "note": "Confirmed."
+        },
+        {
+          "claim": "32.03 per cent of Key Biodiversity Areas fell entirely outside any protected or conserved area",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "verified",
+          "note": "Confirmed as 'entirely unprotected'; the article's gloss 'just under a third' is accurate."
+        },
+        {
+          "claim": "Management effectiveness had been assessed across 4.78 per cent of terrestrial and 1.26 per cent of marine area",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/",
+          "disposition": "verified",
+          "note": "Both PAME figures confirmed."
+        },
+        {
+          "claim": "\"The 2018 addition of other effective area-based conservation measures widened the accounting...\"",
+          "sourceChecked": "https://iucn.org/our-work/topic/effective-protected-areas/iucns-work-30x30/oecms and https://www.cbd.int/sp/targets/rationale/target-11",
+          "disposition": "corrected",
+          "note": "Internally contradictory and factually wrong: OECMs are named in Aichi Target 11, quoted earlier in the same article, in 2010. The IUCN page states 'In 2018, the concept of Other Effective Area-Based Conservation Measures (OECMs) was formally defined through CBD Decision 14/8.' Rewritten to say the category was already named in Aichi Target 11 but acquired a formal definition only in 2018 through decision 14/8."
+        },
+        {
+          "claim": "An OECM is a geographically defined area outside the protected-area system, governed and managed in ways producing sustained positive outcomes for in-situ biodiversity",
+          "sourceChecked": "https://iucn.org/our-work/.../oecms then https://digitalreport.protectedplanet.net/?chapter=3",
+          "disposition": "resourced",
+          "note": "The IUCN page only paraphrases ('geographically defined areas distinct from traditional Protected Areas...') and does not contain 'other than a Protected Area' or 'in-situ conservation of biodiversity'. The formal CBD wording is quoted in Protected Planet Report 2024 chapter 3, already cited as source 6; the body now tracks that wording and the source-6 note records it."
+        },
+        {
+          "claim": "An OECM counts 'whether or not conservation is the primary objective'",
+          "sourceChecked": "https://iucn.org/our-work/.../oecms then https://digitalreport.protectedplanet.net/?chapter=3",
+          "disposition": "resourced",
+          "note": "Not supported anywhere on the cited IUCN page. Supported verbatim by Protected Planet Report 2024: 'Unlike protected areas, where biodiversity conservation must be a primary objective, OECMs might not have biodiversity as their primary objective, but they must have identified ecological values... and deliver long-term, sustained conservation of those values, regardless of their primary focus.' Body rewritten to that formulation; source 7's description was narrowed so it no longer claims to cover the primary-objective distinction."
+        },
+        {
+          "claim": "6,464 OECMs reported in total, from 15 countries and territories",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/?chapter=3",
+          "disposition": "verified",
+          "note": "'Globally, 6,464 OECMs have been reported'; 'only 15 countries and territories have reported OECMs to the WD-OECM'."
+        },
+        {
+          "claim": "OECMs contribute 1.18 percentage points of terrestrial coverage",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/?chapter=3",
+          "disposition": "verified",
+          "note": "Confirmed."
+        },
+        {
+          "claim": "No effectiveness data are currently reported for OECMs at all",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/?chapter=3",
+          "disposition": "verified",
+          "note": "'No effectiveness data are currently reported for OECMs, although international guidance recommends the application of PAME tools...'"
+        },
+        {
+          "claim": "OECM recognition is described as an evolving process",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/?chapter=3",
+          "disposition": "verified",
+          "note": "'the recognition of these areas by Parties is an evolving process'."
+        },
+        {
+          "claim": "\"the reporting base is currently a dozen-odd countries\"",
+          "sourceChecked": "https://digitalreport.protectedplanet.net/?chapter=3",
+          "disposition": "corrected",
+          "note": "The reported figure is 15 countries and territories, not a dozen. Because the same sentence's paragraph already states '15 countries and territories', the closing clause was rewritten to 'with fifteen reporters and no effectiveness data submitted there is as yet nothing else to read it from' rather than repeating the count."
+        },
+        {
+          "claim": "A 2024 analysis in Nature Communications of more than 160,000 protected areas",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437083/",
+          "disposition": "verified",
+          "note": "'Mixed effectiveness of global protected areas in resisting habitat loss', Nature Communications 2024; 162,146 protected areas analysed."
+        },
+        {
+          "claim": "Satellite habitat data at 30-metre resolution",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437083/",
+          "disposition": "verified",
+          "note": "30-metre spatial resolution confirmed."
+        },
+        {
+          "claim": "Propensity-score matching with a synthetic difference-in-differences design",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437083/",
+          "disposition": "verified",
+          "note": "PSM for spatial effectiveness, synthetic DiD for temporal effectiveness."
+        },
+        {
+          "claim": "Average habitat loss 4.20 percentage points lower inside PAs, a relative reduction of about 33.08 per cent",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437083/",
+          "disposition": "verified",
+          "note": "Both the absolute and relative figures confirmed."
+        },
+        {
+          "claim": "Cropland conversion 2.54 points lower and forest loss 1.20 points lower",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437083/",
+          "disposition": "verified",
+          "note": "Confirmed (relative equivalents in the paper are 52.57% and 33.55%)."
+        },
+        {
+          "claim": "15.69 per cent of protected areas classed as ineffective",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437083/",
+          "disposition": "verified",
+          "note": "15.69% showed higher habitat loss inside boundaries than outside."
+        },
+        {
+          "claim": "1.14 million km2 of habitat altered inside 73 per cent of protected areas between 2003 and 2019",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11437083/",
+          "disposition": "verified",
+          "note": "1.14 million km2 across 73% of PAs (118,002 sites); 2003-2019 is the combined-analysis period."
+        },
+        {
+          "claim": "A 2020 review in the same journal (Nature Communications)",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7555541/",
+          "disposition": "verified",
+          "note": "'The multifaceted challenge of evaluating protected area effectiveness', Nature Communications, 2020 — same journal as the 2024 paper, as the article states."
+        },
+        {
+          "claim": "Evaluating abatement requires contrasting observed conditions with \"what would have happened in the absence of protection\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7555541/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "For overexploitation and invasive species the data must come from field surveys, so large-scale evaluations \"have not yet been possible\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7555541/",
+          "disposition": "verified",
+          "note": "Verbatim: '...for now large scale evaluations of effectiveness have not yet been possible'."
+        },
+        {
+          "claim": "Less than a quarter of protected areas reporting on the point had adequate staffing and budget",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7555541/",
+          "disposition": "verified",
+          "note": "'less than a quarter of PAs reported had adequate resources in terms of staffing and budget'; the article's hedge 'reporting on the point' correctly preserves the reporting-subset scope."
+        },
+        {
+          "claim": "Extent targets \"can have perverse outcomes if it encourages nations to expand protection towards areas of little conservation value, or without the necessary subsequent investment in management\"",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7555541/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "When protected areas covered 15.0 per cent of land and 7.4 per cent of the ocean, more than one in two terrestrial ecoregions were still below 17 per cent and 39 per cent of KBAs had no protection",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7555541/",
+          "disposition": "verified",
+          "note": "All four figures confirmed."
+        },
+        {
+          "claim": "\"Coverage rose over both the Aichi and post-2020 periods, and it is not credible that this happened at the same rate without a number to miss.\"",
+          "sourceChecked": "all nine cited sources",
+          "disposition": "removed",
+          "note": "An unsourced causal counterfactual — no cited source attributes any part of the coverage rise to the existence of the target, and the article itself argues elsewhere that counterfactuals of this kind cannot be read off aggregate series. Replaced with the sourced rise (roughly 13 per cent of land at Target 11's baseline to 17.58 per cent in 2024) plus an explicit statement that attribution is the same counterfactual question the effectiveness literature cannot settle."
+        },
+        {
+          "claim": "Structural checks: internal links, related/pillar slugs, excerpt length, title length, YAML parse, no fabrication",
+          "sourceChecked": "filesystem + js-yaml + npm run content:validate / editorial:validate / content:links / evidence:validate",
+          "disposition": "verified",
+          "note": "All 5 internal links resolve to real files (protected-area-effectiveness in ecology/biodiversity, marine-protected-areas-evidence in ecology/oceans, the rest in ecology/conservation); all 4 related slugs and the pillar slug name real articles; excerpt 241 chars; title 55 chars so no metaTitle required; frontmatter parses under js-yaml; 0 H1, 7 body H2s; no fabricated study, institution, quotation or statistic found. After edits: content:validate 0 errors, editorial:validate 0 errors/0 warnings, evidence:validate 0 errors/0 warnings, content:links clean (npm run evidence:build was run to register the two added CBD source URLs). Remaining non-claim warning: the article is an orphan with no inbound internal links from any other page."
+        }
+      ]
+    },
+    {
+      "slug": "the-coriolis-effect-explained",
+      "path": "content/en/physics/climate-physics/the-coriolis-effect-explained.md",
+      "status": "amended",
+      "claimsChecked": 42,
+      "findings": [
+        {
+          "claim": "NWS glossary: Coriolis force is \"a fictitious force used to account for the apparent deflection of a body in motion with respect to the earth, as seen by an observer on the earth\"",
+          "sourceChecked": "https://forecast.weather.gov/glossary.php?word=coriolis",
+          "disposition": "verified",
+          "note": "Verbatim. Source continues: \"The deflection (to the right in the Northern Hemisphere) is caused by the rotation of the earth.\""
+        },
+        {
+          "claim": "AOML: \"an apparent force that deflects movement of air to the right coming from the Northern hemisphere and to the left coming from the Southern hemisphere\"",
+          "sourceChecked": "https://www.aoml.noaa.gov/hrd-faq/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "NOS: \"If the Earth did not rotate on its axis, the atmosphere would only circulate between the poles and the equator in a simple back-and-forth pattern.\"",
+          "sourceChecked": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents1.html",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "NOS: \"circulating air is deflected toward the right in the Northern Hemisphere and toward the left in the Southern Hemisphere\"",
+          "sourceChecked": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents1.html",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "Gaspard Gustave de Coriolis (1792-1843), studied energy transfer in rotating machinery such as waterwheels",
+          "sourceChecked": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents1.html",
+          "disposition": "verified",
+          "note": "Source: \"named after the French mathematician Gaspard Gustave de Coriolis (1792-1843), who studied the transfer of energy in rotating systems like waterwheels.\" Dates and subject both correct."
+        },
+        {
+          "claim": "NESDIS: equatorial surface speed \"almost 1040 miles per hour\"; roughly 0.00005 mph near the poles",
+          "sourceChecked": "https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-coriolis-effect",
+          "disposition": "verified",
+          "note": "Source: \"almost 1040 miles per hour just by standing there\" and \"about 0.00005 miles per hour\"."
+        },
+        {
+          "claim": "AOML: \"the force is greatest at the poles and zero at the equator\"",
+          "sourceChecked": "https://www.aoml.noaa.gov/hrd-faq/",
+          "disposition": "verified",
+          "note": "Verbatim; part of the same sentence that carries the 300-mile threshold."
+        },
+        {
+          "claim": "AOML gradient balance: Coriolis parameter is \"twice the component of the Earth's rotation vector about the local vertical\"",
+          "sourceChecked": "https://www.aoml.noaa.gov/hrd/hrd_sub/gradbal.html",
+          "disposition": "verified",
+          "note": "Verbatim, in parentheses after \"the Coriolis parameter\"."
+        },
+        {
+          "claim": "AOML gradient balance: \"the inward decrease of pressure\" ... \"the sum of the centripetal and Coriolis accelerations required by the curved path\"",
+          "sourceChecked": "https://www.aoml.noaa.gov/hrd/hrd_sub/gradbal.html",
+          "disposition": "verified",
+          "note": "Verbatim; the page's full sentence includes figure references (blue arrow / green arrow) the article correctly omits."
+        },
+        {
+          "claim": "Ocean Science: \"The Rossby number describes the relative importance of inertial to Coriolis force and is defined as U/fL, where U is velocity, f is the coriolis frequency, and L is a length scale.\"",
+          "sourceChecked": "https://os.copernicus.org/articles/20/103/2024/",
+          "disposition": "verified",
+          "note": "Verbatim, including the paper's own lowercase \"coriolis\"."
+        },
+        {
+          "claim": "Ocean Science: Ro \"is small (O(<0.1)) for quasi-geostrophic motions\"",
+          "sourceChecked": "https://os.copernicus.org/articles/20/103/2024/",
+          "disposition": "verified",
+          "note": "Verbatim fragment of \"Ro is small (O(<0.1)) for quasi-geostrophic motions that feature an inverse energy cascade...\""
+        },
+        {
+          "claim": "Ocean Science: \"higher Ro values (e.g., Ro>0.5) indicate that unbalanced, ageostrophic motions are present and may drive a forward energy cascade\"",
+          "sourceChecked": "https://os.copernicus.org/articles/20/103/2024/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "AOML: \"the storm must be at least 300 miles from the equator in order for the Coriolis force to create the spin\"",
+          "sourceChecked": "https://www.aoml.noaa.gov/hrd-faq/",
+          "disposition": "verified",
+          "note": "Verbatim."
+        },
+        {
+          "claim": "AOML: \"the Coriolis force is not strong enough to affect small containers such as in sinks and toilets. The notion that the water flushes the other way in the opposite hemisphere is a myth.\"",
+          "sourceChecked": "https://www.aoml.noaa.gov/hrd-faq/",
+          "disposition": "verified",
+          "note": "Verbatim; the source presents it as \"(As a side note: ...)\", which the article accurately describes as \"in a parenthesis\"."
+        },
+        {
+          "claim": "NASA: Earth equatorial diameter 12,756 km; rotation period 23.9 hours",
+          "sourceChecked": "https://science.nasa.gov/earth/facts/",
+          "disposition": "qualified",
+          "note": "Both figures confirmed (page also gives 7,926 miles). Added the qualifier the article omitted: 23.9 h is the SIDEREAL period, not the solar day. This matters because the article uses it for two different purposes. Source-list entry 7 updated to read \"Sidereal rotation period of 23.9 hours\"."
+        },
+        {
+          "claim": "\"The arithmetic checks: ... 40,074 km of circumference covered in 23.9 hours, or about 1,677 km/h - 1,042 mph\", offered as confirming NOAA's \"almost 1040 mph\"",
+          "sourceChecked": "https://science.nasa.gov/earth/facts/ + https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-coriolis-effect",
+          "disposition": "corrected",
+          "note": "The cross-check did not check. pi x 12,756 = 40,074.2 km; /23.9 h = 1,676.7 km/h = 1,041.9 mph, which is ABOVE 1040 and so cannot be what \"almost 1040\" means. NESDIS states its own clock - \"It takes the Earth 24 hours to rotate one time\" - and 40,074.2/24 = 1,669.8 km/h = 1,037.5 mph, which is \"almost 1040\". Rewrote the passage to run the check on the 24-hour day (1,038 mph), then note that NASA's 23.9-hour sidereal figure is the one that belongs in Omega and lifts the surface speed to about 1,042 mph."
+        },
+        {
+          "claim": "f = 2*Omega*sin(phi), beta as its meridional gradient, and a -beta/K^2 westward phase-speed term, attributed to the Weather and Climate Dynamics treatment of polar Rossby waves",
+          "sourceChecked": "https://wcd.copernicus.org/articles/4/61/2023/",
+          "disposition": "verified",
+          "note": "Article exists and is correctly identified: \"The role of Rossby waves in polar weather and climate\", Woollings et al., Weather and Climate Dynamics, 2023. It defines f=2*Omega*sin(phi), gives beta as the meridional gradient of f, and Eq. (4) is cx = omega/k = U - beta/K^2, with waves \"propagating upstream against the background flow\". Not a fabricated citation."
+        },
+        {
+          "claim": "|Ro| < 0.1 in the upwelling zone (satellite geostrophic); up to 0.4 in eddies and along the front (shipboard); exceeding 0.5 along the filament",
+          "sourceChecked": "https://os.copernicus.org/articles/20/103/2024/",
+          "disposition": "qualified",
+          "note": "All three magnitudes confirmed, and \"measuring one region three ways\" is right - but the body named only two instruments while claiming three. The >0.5 filament values come from ship-mounted ADCP AND surface drifters; added \"in those profiles and in surface drifter tracks\" so the third method is actually stated in the body, not only in the source list."
+        },
+        {
+          "claim": "NOAA Ekman spiral: each deeper layer slower and further right (N) / left (S), motion ceasing at about 100 metres",
+          "sourceChecked": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents4.html",
+          "disposition": "verified",
+          "note": "Source: \"each successively deeper layer of water moves more slowly to the right or left, creating a spiral effect\"; depth \"about 100 meters (330 feet)\"."
+        },
+        {
+          "claim": "300 miles = 480 km, about four degrees of latitude, on a planet with 111 km to the degree",
+          "sourceChecked": "derived from https://www.aoml.noaa.gov/hrd-faq/",
+          "disposition": "verified",
+          "note": "Recomputed: 300 mi = 482.8 km; 482.8/111 = 4.35 degrees. \"480 km\" and \"about four degrees\" both hold; 111 km per degree of latitude is correct."
+        },
+        {
+          "claim": "Equatorial circumference 40,074 km",
+          "sourceChecked": "derived from https://science.nasa.gov/earth/facts/",
+          "disposition": "verified",
+          "note": "pi x 12,756 km = 40,074.2 km. NASA's page does not list a circumference, so this is correctly presented as the article's own derivation."
+        },
+        {
+          "claim": "Omega = 7.3 x 10^-5 rad/s from the 23.9-hour rotation",
+          "sourceChecked": "derived from https://science.nasa.gov/earth/facts/",
+          "disposition": "verified",
+          "note": "2*pi/(23.9x3600) = 7.3026 x 10^-5 rad/s; consistent with the standard sidereal value 7.292 x 10^-5."
+        },
+        {
+          "claim": "2*Omega = 1.5 x 10^-4 s^-1 at the pole",
+          "sourceChecked": "derived",
+          "disposition": "verified",
+          "note": "1.4605 x 10^-4 s^-1; 1.5 x 10^-4 is a correct two-significant-figure rounding."
+        },
+        {
+          "claim": "f is about 1.0 x 10^-4 s^-1 at 45 degrees",
+          "sourceChecked": "derived",
+          "disposition": "verified",
+          "note": "2*Omega*sin(45) = 1.0327 x 10^-4 s^-1."
+        },
+        {
+          "claim": "1/f is roughly 2.7 hours at 45 degrees",
+          "sourceChecked": "derived",
+          "disposition": "verified",
+          "note": "1/1.0327e-4 = 9,683 s = 2.69 h."
+        },
+        {
+          "claim": "Mid-latitude depression: L = 1,000 km, U = 10 m/s, f = 1.0 x 10^-4 s^-1 gives Ro of about 0.1",
+          "sourceChecked": "derived from the Ocean Science definition Ro = U/fL",
+          "disposition": "verified",
+          "note": "10/(1e-4 x 1e6) = 0.100 exactly."
+        },
+        {
+          "claim": "Basin 0.3 m across at 45 degrees: fL is about 3 x 10^-5 m/s, three hundredths of a millimetre per second",
+          "sourceChecked": "derived",
+          "disposition": "verified",
+          "note": "1e-4 x 0.3 = 3.0e-5 m/s = 0.03 mm/s."
+        },
+        {
+          "claim": "Water draining at 5 cm/s gives Ro of roughly 1,700",
+          "sourceChecked": "derived",
+          "disposition": "verified",
+          "note": "0.05/(1e-4 x 0.3) = 1,667. \"Roughly 1,700\" is fair."
+        },
+        {
+          "claim": "A tornado 100 m wide with 50 m/s winds has a Rossby number in the thousands",
+          "sourceChecked": "derived",
+          "disposition": "verified",
+          "note": "50/(1e-4 x 100) = 5,000."
+        },
+        {
+          "claim": "The Coriolis acceleration in a washbasin \"is some three orders of magnitude below the residual swirl left by filling, the asymmetry of the basin, and any temperature difference across it\"",
+          "sourceChecked": "derived from the Ocean Science definition Ro = U/fL",
+          "disposition": "corrected",
+          "note": "Ro of 1,700 compares the Coriolis term to the inertia of the DRAINING FLOW, not to residual swirl, basin asymmetry or thermal convection - no cited source quantifies any of those. Reworded to \"some three orders of magnitude weaker than the inertia of the draining flow itself, and so is buried under\" those competing effects, which is what the number actually licenses."
+        },
+        {
+          "claim": "\"because the deflection acts at right angles to the motion, as the gradient-balance geometry requires, it turns a parcel without speeding it up or slowing it down\"",
+          "sourceChecked": "https://www.aoml.noaa.gov/hrd/hrd_sub/gradbal.html",
+          "disposition": "removed",
+          "note": "FALSE ATTRIBUTION - the most serious finding. Re-fetched the gradient-balance page with a targeted prompt: it says nothing about perpendicularity, nothing about direction relative to the wind vector, and nothing about the force doing no work. Its whole text is a four-sentence description of gradient balance. Hunted for a citable NOAA statement instead (JetStream 'Origin of Wind' 403s WebFetch, w2.weather.gov no longer resolves, and the NWS geostrophic-wind glossary entry says only \"blows parallel to isobars\"). Rather than invent a citation, replaced the clause with one grounded in what the cited sources do say: all three NOAA descriptions call it a deflection, which is a change of heading, not of speed."
+        },
+        {
+          "claim": "Excerpt: \"a draining basin sits several thousand times on the wrong side of it\"",
+          "sourceChecked": "derived",
+          "disposition": "corrected",
+          "note": "Wrong on the natural reading: basin Ro is 1,667, i.e. ~1.7 thousand past Ro=1 (not \"several thousand\"), and ~17,000 past the O(<0.1) quasi-geostrophic threshold the article actually uses as its test. Replaced with \"misses the threshold by four orders of magnitude\" (1,667/0.1 = 1.7 x 10^4). Excerpt is now 237 characters, inside the 80-320 range."
+        },
+        {
+          "claim": "All 7 in-body internal links resolve to real content",
+          "sourceChecked": "scripts/validate-links.ts + filesystem",
+          "disposition": "verified",
+          "note": "classical-mechanics-explained, fluid-dynamics-explained, ocean-circulation-and-climate, atmospheric-circulation-cells and atmospheric-physics-explained all exist as .md files; reynolds-number and upwelling both exist in data/glossary/terms.json, which backs app/[locale]/glossary/[term]. validate-links reports 0 unresolved links for this file; the 2 corpus-wide unresolved links are in sampling-effort-and-what-a-species-count-depends-on.md and calibration-and-why-a-sensor-drifts.md and are pre-existing."
+        },
+        {
+          "claim": "The 4 related slugs and the pillar slug name real articles",
+          "sourceChecked": "scripts/_lib walkAllContent",
+          "disposition": "verified",
+          "note": "All four related slugs resolve. pillar atmospheric-physics-explained exists, carries type: pillar, and sits in the same category/subtopic (physics/climate-physics), so the hub/spoke relation is well formed."
+        },
+        {
+          "claim": "Frontmatter YAML parses; title under 65 characters; excerpt within 80-320",
+          "sourceChecked": "python3 yaml.safe_load + gray-matter",
+          "disposition": "verified",
+          "note": "Parses cleanly under both. Title is 59 characters, so no metaTitle is needed. Excerpt is 237 characters after the correction."
+        },
+        {
+          "claim": "All 9 cited source URLs are registered in the evidence registry, and no institution or publication is fabricated",
+          "sourceChecked": "scripts/validate-links.ts registry pass + direct fetch of each source",
+          "disposition": "verified",
+          "note": "0 unregistered sources attributable to this file. Every cited body is real and correctly named: NWS, NESDIS, NOS (x2), AOML (x2), NASA, and two genuine Copernicus papers whose titles, authors and journals I confirmed by fetching them."
+        },
+        {
+          "claim": "Writer's report: \"no _bodyHash\"",
+          "sourceChecked": "the file itself + scripts/update-metadata.ts",
+          "disposition": "corrected",
+          "note": "The file DID carry _bodyHash: f1e61293 (309 of 311 corpus files carry one). It went stale once I edited the body; re-stamped to 5ba55590, which now matches hashProse(body) exactly - confirmed by running the repo's own hashing function."
+        },
+        {
+          "claim": "Writer's report: 1,734 body words, 6 H2 sections, readingTime 7",
+          "sourceChecked": "the file itself + scripts/update-metadata.ts estimator",
+          "disposition": "corrected",
+          "note": "All three off. Prose-only word count (excluding the Sources list) is 1,838 after my edits and was ~1,760 before, so 1,734 was never right. H2 count is 7, not 6, counting \"## Sources\"; no H1, as reported. readingTime of 7 disagreed with the repo estimator (which returns 10 including sources, 8 prose-only, matching sibling climate-physics articles); repo tooling re-stamped the file to readingTime: 10 during this pass and I left that value standing."
+        }
+      ]
+    },
+    {
+      "slug": "carnot-efficiency-and-the-limit-on-engines",
+      "path": "content/en/physics/thermodynamics/carnot-efficiency-and-the-limit-on-engines.md",
+      "status": "amended",
+      "claimsChecked": 31,
+      "findings": [
+        {
+          "claim": "Steam engines converted below 5% of their fuel into work when Carnot published",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified",
+          "note": "Source: 'steam engines were inefficient (below 5%...'"
+        },
+        {
+          "claim": "Carnot published Réflexions sur la puissance motrice du feu in 1824",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified",
+          "note": "'Sadi Carnot, at age 28 in 1824, published the now famous Réflexions sur la puissance motrice du feu'"
+        },
+        {
+          "claim": "The formula 1 − T_L/T_H was developed in the 1850s, first by Kelvin and later by Clausius, not by Carnot",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified",
+          "note": "Verbatim: 'developed much later, in the 1850s, first by Kelvin...and later by Clausius'"
+        },
+        {
+          "claim": "Quoted: 'the motive power of heat is independent of the agents employed to realize it'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified",
+          "note": "Verbatim. Source continues '; its quantity is fired solely by the temperatures' — the article quotes the first clause only, which does not change its sense."
+        },
+        {
+          "claim": "COP 'is always over 100%'; an efficiency over 100% 'would not be fundamentally (nor politically) proper'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12111712/",
+          "disposition": "verified",
+          "note": "Both fragments verbatim."
+        },
+        {
+          "claim": "Exchanges 'are of infinite time duration for reversible conditions'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7514577/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "'the maximum of the power output is not obtained under the same conditions as the maximum of efficiency'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7514577/",
+          "disposition": "verified",
+          "note": "Verbatim from the abstract."
+        },
+        {
+          "claim": "Endoreversible efficiency at maximum power is 1 − √(T_c/T_h), described as a more practical bound than Carnot",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854467/",
+          "disposition": "verified",
+          "note": "The radical is real, not a PMC rendering artefact: Eq. (1) gives η_CA = 1 − √(Tc/Th). 'a more practical efficiency bound than the Carnot efficiency' is verbatim from the abstract."
+        },
+        {
+          "claim": "'Its answer depends on the assumed heat-transfer law'",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854467/",
+          "disposition": "qualified",
+          "note": "Under-specified in a way that inverts the paper's actual finding: the efficiency at maximum power is INVARIANT to heat-transfer coefficients under Newton's law of cooling, and only 'for endoreversible heat engines operating under heat transfer laws other than Newton's law' does it 'depend significantly on the heat transfer coefficients'. FIXED: added the Newton's-law condition and the invariance."
+        },
+        {
+          "claim": "EIA tested 2024 heat rates: coal steam 10,018 Btu/kWh, natural gas combined cycle 7,548 Btu/kWh",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_02.html",
+          "disposition": "verified",
+          "note": "Both exact in Table 8.2 (2014–2024), 2024 column."
+        },
+        {
+          "claim": "Those tested heat rates stand in for what a power station's efficiency number measures",
+          "sourceChecked": "https://www.eia.gov/electricity/annual/html/epa_08_02.html",
+          "disposition": "qualified",
+          "note": "The table states 'Heat rate is reported at full load conditions' and averages are 'weighted by Net Summer Capacity' — design-point figures, not annual operating averages. The article's own closing section draws that rated-vs-measured distinction but had not applied it to its own numbers. FIXED: caveat added where the figures are introduced."
+        },
+        {
+          "claim": "EIA's method is to divide the 3,412 Btu equivalent of a kWh by the heat rate, giving 34.1% and 45.2%",
+          "sourceChecked": "https://www.eia.gov/tools/faqs/faq.php?id=107&t=3",
+          "disposition": "verified",
+          "note": "Method verbatim. Arithmetic re-derived: 3412/10018 = 34.06%, 3412/7548 = 45.20%."
+        },
+        {
+          "claim": "COP defined as thermal energy moved into the building divided by electric energy driving the compressor",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "A meta-analysis found an average COP of about 3 even at 0 °C",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "verified",
+          "note": "Reported in the Nature Communications paper as the finding of a recent meta-analysis (Gibb et al., Joule 2023), which is how the article frames it."
+        },
+        {
+          "claim": "Scenarios spanning mild to cold climates used rated values from 2.5 to 4.5",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "verified",
+          "note": "Source ties the range to climate itself: five rated-COP scenarios 'are investigated to reflect typical ranges of HP performance in mild to cold climates'. Wording tightened since the scenarios are equipment classes, not climates."
+        },
+        {
+          "claim": "In the median case the actual coefficient fell below 2.5 on the coldest winter days",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11213923/",
+          "disposition": "corrected",
+          "note": "Source says 'For the RC3.5 scenario, the actual COP falls below 2.5 on multiple occasions during the coldest winter days'. Two defects: 'median case' was the writer's own arithmetic on the scenario list, not the paper's label; and dropping 'on multiple occasions' turned an intermittent excursion into a standing condition. FIXED: names the rated-3.5 scenario, restores the hedge, and identifies the work as a single-city modelling study (Toulouse, France) rather than 'a recent study of air-to-air units'."
+        },
+        {
+          "claim": "For a reversible heat pump the coefficient cannot exceed T_h/(T_h − T_c); 293 K against 273 K gives ~14.7",
+          "sourceChecked": "no cited source states it; derived from the article's own sourced bound",
+          "disposition": "qualified",
+          "note": "The heating-COP bound was asserted as if quoted, but no cited source gives it. It is a strict consequence of 1 − T_c/T_h, which the article does establish and source, so the fix was to show the derivation rather than cut the claim. FIXED: reworded to 'the reciprocal of the engine expression: 1/(1 − T_c/T_h), which rearranges to T_h/(T_h − T_c)'. Arithmetic re-derived: 293/20 = 14.65; 3/14.65 = 20.5%, so 'roughly a fifth' holds."
+        },
+        {
+          "claim": "DOE: air-source heat pumps cut electricity use by 50% vs furnaces and baseboard heaters; geothermal cuts energy use 30%–60%",
+          "sourceChecked": "https://www.energy.gov/articles/pump-your-savings-heat-pumps",
+          "disposition": "verified",
+          "note": "Both verbatim. The article correctly preserves DOE's own distinction — 'electricity use' for air-source, 'energy use' for ground-coupled."
+        },
+        {
+          "claim": "Landsberg limit 93.3% with no irreversible entropy generation, and 85.4% for an intermediate blackbody at its optimal 2,544 K, for a 6,000 K source and 300 K ambient",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5910829/",
+          "disposition": "qualified",
+          "note": "All four numbers exact, and the reversibility characterisation is right (the derivation sets S_out = S_in). But the paper's headline result is the limit on harvesting Earth's OUTGOING thermal radiation (153.1 W/m² at Ta=300 K, To=3 K); 93.3% and 85.4% are its SOLAR-illumination limits. The article's phrase 'work on harvesting from thermal radiation' attached the numbers to the wrong half of the paper. FIXED: 'radiative energy harvesting ... for solar illumination', and the Sources entry now says the limits are under solar illumination."
+        },
+        {
+          "claim": "Shockley-Queisser detailed-balance limit ~34% single junction, rising to ~45% for a tandem",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5594440/",
+          "disposition": "verified",
+          "note": "Verbatim: 'can be increased from 34% for a single-junction solar cell to 45% for a tandem solar cell'."
+        },
+        {
+          "claim": "Roughly 1.74 eV is the ideal top-cell bandgap over silicon",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5594440/",
+          "disposition": "qualified",
+          "note": "Source states it exactly and with a condition the article dropped: 'The ideal bandgap for a series-connected tandem solar cell with Si as a bottom cell is 1.74 eV.' FIXED: removed the spurious 'roughly' and added 'series-connected', since the optimum follows from current matching in series and does not carry over unchanged to a four-terminal stack."
+        },
+        {
+          "claim": "Illustrative reservoir arithmetic: 900 K/300 K → 66.7%, 450 K/300 K → 33.3%, 1 − 300/6,000 → 95%",
+          "sourceChecked": "arithmetic on the article's own stated expression; labelled hypothetical in the body",
+          "disposition": "verified",
+          "note": "Re-derived: 66.67%, 33.33%, 95%. No real machine is attributed any of these."
+        },
+        {
+          "claim": "Identity of all nine cited sources (title, journal, year, authorship)",
+          "sourceChecked": "all nine cited URLs",
+          "disposition": "verified",
+          "note": "Every source exists, is reachable, and carries the title and journal the Sources list gives it: Entropy (Kostic 2025; Carnot–Chambadal modelling; Zhao & Ma 2025), EIA Table 8.2 and FAQ 107, Nature Communications (Meyer, Schoetter & van Reeuwijk 2024, Toulouse), energy.gov, PNAS 2018, ACS Energy Letters 2017. No fabricated study, institution, quotation or statistic found."
+        }
+      ]
+    },
+    {
+      "slug": "anomalies-baselines-and-reference-periods",
+      "path": "content/en/ecology/earth-systems/anomalies-baselines-and-reference-periods.md",
+      "status": "amended",
+      "claimsChecked": 57,
+      "findings": [
+        {
+          "claim": "\"Absolute temperature varies enormously over short distances, while monthly or annual temperature anomalies are representative of a much larger region\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Anomaly correlation length attributed to Hansen and Lebedeff (1987)",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Temperature anomalies are strongly correlated out to distances of the order of 1000 km\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Makes it significantly more accurate to estimate anomalies between stations and in data-sparse areas\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainty on the absolute global baseline temperature around 0.5 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainty on the annual anomaly closer to 0.06 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Error in the sum of the two is still 0.5 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Pre-2000 reports used a 15 °C baseline, post-2000 about 14 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Comparing old and new absolute reports \"suggests the planet cooled by a degree\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "qualified",
+          "note": "The source says such comparisons \"give the misleading impression that temperatures had cooled dramatically\" and that the baselines \"were changed by a degree Celsius after further research\". Rewritten to quote GISS's own characterisation rather than assert the reader's inference as fact."
+        },
+        {
+          "claim": "GISTEMP base period is 1951–1980",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"Finding absolute regional means encounters significant difficulties that create large uncertainties\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The primary focus of the GISS analysis are long-term temperature changes over many decades and centuries, and a fixed base period yields anomalies that are consistent over time\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"No matter what base period is selected, since the normal temperature used as base point ... is the same for both years\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Converting a GISTEMP anomaly from 1951–1980 to 1850–1900 means adding about 0.19 °C as of January 2025",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"These numbers may change slightly in the future as more data is digitized or if the methodologies change\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "An agency focused on current conditions has reason to move its normal, so roughly half of recent data falls on each side",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1951–1980 is \"a fixed 30-year window retained since the analysis began\"",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "corrected",
+          "note": "The FAQ supports only that GISS stays with 1951–1980 (\"Why does GISS stay with the 1951-1980 base period?\"); no cited source dates the window to the start of the analysis. Changed to \"a fixed 30-year window GISS has declined to move\"."
+        },
+        {
+          "claim": "An annual global anomaly is uncertain at the level of a few hundredths of a degree",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/",
+          "disposition": "verified",
+          "note": "FAQ: uncertainty of annual global means after 1960 about ±0.05 °C."
+        },
+        {
+          "claim": "1990 \"is the baseline year for the Kyoto Protocol, an early climate agreement\"",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Unperturbed 1750 abundance C0 = 278.3 ppm",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Unperturbed 1750 abundance M0 = 729.2 ppb",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Unperturbed 1750 abundance N0 = 270.1 ppb",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "X0 = 0 ppt for the seventeen minor halogenated gases",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified",
+          "note": "Table 1 note: \"X is the same for the 17 minor gases in ppt\"."
+        },
+        {
+          "claim": "The AGGI is the ratio of a year's total effective radiative forcing to the 1990 value",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "2024 total effective radiative forcing 3.539 W m⁻²",
+          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+          "disposition": "verified",
+          "note": "CSV 2024 row; the page text rounds to 3.54 W m⁻². Rounding noted in the source line."
+        },
+        {
+          "claim": "AGGI 1.538 for 2024",
+          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+          "disposition": "verified",
+          "note": "CSV 2024 row; the page text rounds to 1.54."
+        },
+        {
+          "claim": "1990 total forcing 2.301 W m⁻²",
+          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+          "disposition": "verified",
+          "note": "CSV 1990 row; 3.539/2.301 = 1.538."
+        },
+        {
+          "claim": "Reference series TOPEX/Poseidon (1992), Jason-1, Jason-2, Jason-3, Sentinel-6MF — five spacecraft",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Global mean sea level estimated every 10 days with an uncertainty of 3–4 mm",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Published trend 3.11 mm per year with no glacial isostatic adjustment",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "verified",
+          "note": "CSV header: \"#trend = 3.11 mm/year (no glacial isostatic adjustment correction)\"."
+        },
+        {
+          "claim": "First cycle in late 1992 sits about 15 mm below the file's zero",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "verified",
+          "note": "First data row 1992.96140 = −14.57 mm."
+        },
+        {
+          "claim": "\"The zero is an instrument epoch, not a thirty-year average\" and \"relative to the start of the record\" is \"a fitted convention\"",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "corrected",
+          "note": "Neither the page nor the file says what the zero is or that it was fitted. Rewritten to the supported facts: there is no thirty-year normal behind it (the record begins in 1992), and the zero is not the first measurement (first cycle −14.57 mm)."
+        },
+        {
+          "claim": "Reading rule: \"the altimeter's zero is a launch date\"",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "corrected",
+          "note": "Contradicted by the file's own first cycle, which is 14.57 mm below zero. Changed to \"an artefact of one processing of one record\"."
+        },
+        {
+          "claim": "Excerpt and lede: global mean sea level is stated \"relative to the start of the altimeter record\"",
+          "sourceChecked": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_ref_90.csv",
+          "disposition": "corrected",
+          "note": "Same contradiction. Both now say the zero is internal to the altimeter file."
+        },
+        {
+          "claim": "WMO climatological standard normals defined as 30-year averages, 1 Jan 1981–31 Dec 2010, 1 Jan 1991–31 Dec 2020, etc.",
+          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The period from 1961 to 1990 has been retained as a standard reference period for long-term climate change assessments\"",
+          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "WMO keeps a rolling standard normal alongside the fixed 1961–1990 reference",
+          "sourceChecked": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals",
+          "disposition": "verified",
+          "note": "2015 Congress changed the standard normal to the most recent 30-year period ending in 0."
+        },
+        {
+          "claim": "\"Rising atmospheric concentrations of greenhouse gases are changing the Earth's climate much faster than before, and therefore WMO has agreed that the standard 30-year reference period has to be updated every decade\"",
+          "sourceChecked": "https://wmo.int/media/news/its-warmer-average-what-average",
+          "disposition": "resourced",
+          "note": "Not on the cited WMO Climatological Normals page. Traced to the WMO news article \"It's warmer than average. But what is average?\" (13 July 2022), added as source 6; the quote was also restored to its full sentence rather than cut mid-clause."
+        },
+        {
+          "claim": "The IPCC and WMO track Paris Agreement progress against 1850–1900",
+          "sourceChecked": "https://wmo.int/media/news/its-warmer-average-what-average",
+          "disposition": "verified",
+          "note": "\"the pre-industrial reference period, 1850-1900, is used by WMO and IPCC as the baseline for estimating past and future global temperature increases\"; corroborated by the Copernicus page."
+        },
+        {
+          "claim": "\"The main reference period used for the Climate Bulletin is 1991–2020. This is the period recommended by the WMO for monitoring recent climate.\"",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1850–1900 is \"the earliest feasible reference period for the globe based on instrumental data\"",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified",
+          "note": "Attribution tightened: the phrase is Copernicus's, and the source gives the Paris-limit monitoring purpose as the reason for the choice, which the article now states."
+        },
+        {
+          "claim": "Standard offset of 0.88 °C added to the annual global anomaly with respect to 1991–2020",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainty range 0.72 to 0.99 °C on that offset",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Monthly offsets range between 0.80 and 0.96 °C",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Daily offsets range between 0.79 and 0.97 °C",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Annual European offset of 1.45 °C",
+          "sourceChecked": "https://climate.copernicus.eu/climate-bulletin-about-data-and-analysis",
+          "disposition": "qualified",
+          "note": "Source adds that this offset \"is not fixed, as it is based on the latest versions of the datasets used\" and is applied to the 2024 anomaly. Caveat added to the article."
+        },
+        {
+          "claim": "Global surface temperature 1.09 [0.95 to 1.20] °C higher in 2011–2020 than 1850–1900",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+          "disposition": "verified",
+          "note": "SPM A.1.2."
+        },
+        {
+          "claim": "\"Changes relative to the recent reference period 1995–2014 may be calculated approximately by subtracting 0.85 °C, the best estimate of the observed warming from 1850–1900 to 1995–2014\"",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+          "disposition": "verified",
+          "note": "Table SPM.1 caption."
+        },
+        {
+          "claim": "AR6's assessment for the AR5 reference period 1986–2005 is higher by 0.08 [−0.01 to +0.12] °C than AR5's",
+          "sourceChecked": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+          "disposition": "verified",
+          "note": "Table SPM.1 caption."
+        },
+        {
+          "claim": "Land annual maximum temperatures from three datasets computed against 1961–1990 and shifted by 0.51 °C to express them against 1850–1900",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
+          "disposition": "verified",
+          "note": "TXx from HadEX3, Berkeley Earth and ERA5, Sect. 10 and Table 9."
+        },
+        {
+          "claim": "\"Temperature anomalies align by construction over this period but can diverge afterwards\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1850–1900 stands in for \"the period before 1750, even though a small amount of warming likely occurred over 1750–1850\"",
+          "sourceChecked": "https://essd.copernicus.org/articles/17/2641/2025/",
+          "disposition": "verified",
+          "note": "Sect. 8.1."
+        },
+        {
+          "claim": "WMO \"requires each member nation to compute 30-year meteorological quantity averages at least every 30 years (1931–1960, 1961–1990, 1991–2020, etc.), and recommends an update each decade\"",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Most of the country warmer and the eastern two-thirds wetter in 1991–2020 than 1981–2010",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "qualified",
+          "note": "Source specifies the contiguous U.S. for the wetter finding and adds two countervailing facts the article omitted: \"The Southwest was considerably drier on an annual basis, while the central northern U.S. has cooled somewhat.\" Both added, and the inference about anomalousness narrowed to where the normal actually rose."
+        },
+        {
+          "claim": "1981–2010 normals computed from the 2011 version of NCEI's data holdings, 1991–2020 from an early-2021 version, homogenised a decade apart",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Twenty years of overlap mute the apparent change between successive normals",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "verified"
+        },
+        {
+          "claim": "\"The position taken here on the 0–2000 m ocean heat content series, which is usable as a change and not as a level\"",
+          "sourceChecked": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+          "disposition": "removed",
+          "note": "No cited source addresses ocean heat content, and the site's own ocean-heat-content-indicators article states the opposite framing (OHC \"is reported as anomaly relative to a reference period\"). The cross-reference also pointed at nothing. Replaced with the equivalent rule stated for surface temperature, which sources 1 and 2 do support."
+        }
+      ]
+    }
+  ]
+}

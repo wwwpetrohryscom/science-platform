@@ -1,7 +1,7 @@
 ---
 title: 'Transfert thermique : trois mécanismes qui varient différemment avec la température'
 metaTitle: 'Transfert thermique : conduction, convection et rayonnement'
-excerpt: La conduction et la convection croissent à peu près comme l'écart de température ; le rayonnement croît comme la puissance quatrième de la température absolue. Cet écart d'exposant décide du mécanisme dominant, et il change avec la température de service.
+excerpt: La conduction et la convection croissent à peu près comme l'écart de température ; le rayonnement croît comme la puissance quatrième de la température absolue. Cet écart d'exposant décide du mécanisme dominant, et la réponse change avec la température de service.
 type: expert
 author: physics-energy-desk
 publishedDate: '2026-09-02'

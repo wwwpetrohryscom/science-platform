@@ -18,7 +18,7 @@ related:
   - mutation-types-and-rates
   - dna-sequencing-technologies
 pillar: what-is-dna
-_bodyHash: 5f84e603
+_bodyHash: be175958
 ---
 
 Un génome est l'ensemble complet de l'ADN que porte une cellule — les chromosomes nucléaires, plus ce que les mitochondries et, chez les plantes, les plastes portent pour leur propre compte. Cette définition ne fait pas débat. Presque tout ce qui se construit par-dessus relève de la mesure, et les trois mesures auxquelles on recourt le plus souvent — la taille d'un génome, le nombre de gènes qu'il contient et la part de ce génome qui fait quelque chose — diffèrent énormément par leur degré d'établissement. Seule la première est à peu près stabilisée. Le substrat moléculaire est traité à part dans [ce qu'est l'ADN et ce qu'il ne détermine pas](/fr/biology/genetics/what-is-dna) ; cette page porte sur la couche comptable qui se superpose à la molécule.
@@ -33,7 +33,7 @@ Il vaut la peine de préciser ce que « complet » voulait dire ici. Les blocs d
 
 ## Un facteur 2,400, et rien de tout cela ne suit la complexité
 
-Ce qu'il est le plus utile de savoir sur la taille des génomes, c'est qu'elle varie énormément et ne prédit presque rien. Les seules plantes vasculaires couvrent un facteur d'environ 2,400 en quantité d'ADN. Le record appartient désormais à une fougère à fourche de Nouvelle-Calédonie, *Tmesipteris oblanceolata*, avec 160.45 Gbp par 1C — plus de cinquante fois le génome humain, chez une plante de quelques centimètres de haut. Elle a détrôné l'angiosperme *Paris japonica*, à 148.89 Gbp.
+Ce qu'il est le plus utile de savoir sur la taille des génomes, c'est qu'elle varie énormément et ne prédit que très peu. Les seules plantes vasculaires couvrent un facteur d'environ 2,400 en quantité d'ADN. Le record appartient désormais à une fougère à fourche de Nouvelle-Calédonie, *Tmesipteris oblanceolata*, avec 160.45 Gbp par 1C — plus de cinquante fois le génome humain, chez une plante de quelques centimètres de haut. Elle a détrôné l'angiosperme *Paris japonica*, à 148.89 Gbp.
 
 C'est le **[paradoxe de la valeur C](/en/glossary/c-value-paradox)** : la quantité d'ADN par cellule n'entretient aucune relation constante avec le degré d'élaboration d'un organisme. Le paradoxe s'est dissous une fois l'ADN répété correctement caractérisé. L'essentiel de la différence entre un génome de 3 Gbp et un génome de 160 Gbp tient à l'expansion des éléments transposables et à la polyploïdie conservée, non à des gènes supplémentaires. Ce qui survit à cette résolution est un avertissement plutôt qu'une énigme : la taille d'un génome est une grandeur réelle, mesurable avec précision, et un mauvais indicateur de presque tout ce que l'on voudrait par ailleurs savoir de l'organisme.
 

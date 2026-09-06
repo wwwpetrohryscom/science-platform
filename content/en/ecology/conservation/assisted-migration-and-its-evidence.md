@@ -18,7 +18,7 @@ related:
   - invasive-species-management
   - species-distribution-models-and-their-limits
 pillar: conservation-science-explained
-_bodyHash: 9ec5210a
+_bodyHash: b9a5932
 ---
 
 Approximately half of the species assessed globally have shifted polewards or, on land, also to higher elevations — a finding the IPCC's Sixth Assessment records with very high confidence. [Assisted migration](/en/glossary/assisted-migration) is the proposal that where a population cannot make that shift itself, people should carry it.
@@ -65,7 +65,7 @@ The objection is that a conservation introduction is an introduction, and the [r
 
 A 2023 analysis of naturalised floras complicates it. Across 243 mainland regions on four continents, 4,510 flowering plant species had intracontinental origins — 3.9 per cent of all plant species, but 56.7 per cent of all naturalised species, rising to 64.5 per cent in Europe and falling to 15.6 per cent in Australia. They naturalised polewards by a median of 5.2 degrees of latitude, about 572 km, against an estimated natural poleward expansion of 1 to 2 km a year. The authors attribute the gap with the 2008 figure to what each study counted: the earlier one counted invasive species, a subset defined by impact and spread, whereas intracontinental aliens occur at lower abundance over smaller ranges.
 
-That is the honest state of the argument. Establishing outside your range is common and largely human-assisted; causing measurable damage is rarer and separately determined. Neither dataset settles how often a deliberately moved conservation target does harm, and the evidence map explains why: the studies that would answer it were not run. A review of 172 case studies of intentional introductions and eradications, 28 of them assisted migration, found that of the 111 that documented an outcome, 36 per cent reported some unintended one. The two community-level assessments here point both ways: Douglas-fir moved up to 450 km within its range left ectomycorrhizal richness unchanged four decades on, though diversity fell slightly and the fungal communities diverged by site, while trout stocked into fishless alpine lakes left invertebrate richness unchanged but community structure altered.
+That is the honest state of the argument. Establishing outside your range is common and largely human-assisted; causing measurable damage is rarer and separately determined. Neither dataset settles how often a deliberately moved conservation target does harm, and the evidence map explains why: the studies that would answer it were not run. A review of 172 case studies of intentional introductions and eradications, 28 of them assisted migration, found that of the 111 that documented an outcome, 36 per cent reported some unintended one. The two the evidence map sets out in detail point both ways: Douglas-fir moved up to 450 km within its range left ectomycorrhizal richness unchanged four decades on, though diversity fell slightly and the fungal communities diverged by site, while trout stocked into fishless alpine lakes left invertebrate richness unchanged but community structure altered.
 
 ## Regulation has moved ahead of the evidence
 

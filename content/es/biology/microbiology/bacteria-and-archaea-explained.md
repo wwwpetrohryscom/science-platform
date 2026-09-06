@@ -18,7 +18,7 @@ related:
   - microbial-biogeochemistry
   - viruses-explained
 pillar: microbiology-explained
-_bodyHash: e4c673a
+_bodyHash: f6ad8f95
 ---
 
 Hasta finales de la década de 1970, un metanógeno del rumen de una vaca y *Escherichia coli* procedente del intestino del mismo animal se archivaban bajo el mismo epígrafe. Ambos eran pequeños, ambos carecían de núcleo y, al microscopio óptico, ambos eran bacilos. La reclasificación que los separó no procedió de ninguna observación nueva de las células; procedió de secuenciar una molécula que ambos emplean para la misma tarea y de comprobar que las dos versiones diferían entre sí aproximadamente tanto como cada una difería de la versión presente en un ribosoma humano.
@@ -60,7 +60,7 @@ El rango de tamaños es amplio e informativo en ambos extremos. *Candidatus* Car
 
 Los procariotas adquieren ADN de forma lateral: por transformación a partir del medio, por transferencia conjugativa de plásmidos y por transducción dentro de [las cápsides de los bacteriófagos](/es/biology/microbiology/viruses-explained). Un análisis de redes de 539 723 genes en 181 genomas secuenciados concluyó que, en promedio, al menos el 81 ± 15 por ciento de los genes de cada genoma había participado en una transferencia lateral en algún momento de su historia.
 
-Es frecuente interpretar esa cifra como prueba de que el concepto de especie bacteriana es incoherente. Las pruebas genómicas apuntan en sentido contrario. Una comparación por pares de unos 90 000 genomas procariotas halló que el 99.8 por ciento de los aproximadamente 8 mil millones de pares de genomas analizados se ajustaba o bien a más de 95 por ciento de identidad nucleotídica media, dentro de una especie, o bien a menos de 83 por ciento, entre especies: una discontinuidad, no un continuo, y robusta frente a la eliminación de los organismos más intensamente secuenciados.
+Es frecuente interpretar esa cifra en el sentido de que el concepto de especie bacteriana es incoherente. Las pruebas genómicas apuntan en sentido contrario. Una comparación por pares de unos 90 000 genomas procariotas halló que el 99.8 por ciento de los aproximadamente 8 mil millones de pares de genomas analizados se ajustaba o bien a más de 95 por ciento de identidad nucleotídica media, dentro de una especie, o bien a menos de 83 por ciento, entre especies: una discontinuidad, no un continuo, y robusta frente a la eliminación de los organismos más intensamente secuenciados.
 
 Ambos resultados son correctos. Los genes se mueven, y los genomas a los que llegan siguen agrupándose. La conciliación está en que la transferencia no es uniforme: el mecanismo y la eficiencia de la recombinación la sesgan hacia los parientes próximos, y los genes transferidos quedan filtrados por la selección en el receptor. Por esa razón la **identidad nucleotídica media** —la identidad promedio en las regiones genómicas compartidas— se ha convertido en el criterio operativo de especie para los procariotas, y es un umbral justificado por un hueco observado y no por una definición impuesta de antemano. Lo que no puede hacer es decir si dos genomas con el 96 por ciento de identidad son ecológicamente intercambiables, una cuestión aparte que la métrica nunca se diseñó para responder.
 

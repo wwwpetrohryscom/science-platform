@@ -17,7 +17,7 @@ related:
   - cell-signaling-pathways-basics
   - how-gene-expression-is-regulated
 pillar: evolution-explained
-_bodyHash: 22df8c83
+_bodyHash: e15da10a
 ---
 
 [Antimikrobielle Resistenz](/de/biology/microbiology/antimicrobial-resistance-evidence) ist eines der klarsten gegenwärtigen Beispiele für [Evolution](/de/biology/evolution/evolution-explained), die auf menschlichen Zeitskalen abläuft. Ihr Ausmaß wurde direkt geschätzt: Eine systematische Analyse über 23 Erreger und 88 Erreger-Wirkstoff-Kombinationen in 204 Ländern bezifferte die Bilanz für 2019 auf [1.27 Millionen Todesfälle, die der bakteriellen Resistenz zuzuschreiben sind, und 4.95 Millionen, die mit ihr assoziiert sind](https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/), mit der höchsten zurechenbaren Sterberate im westlichen Subsahara-Afrika mit 27.3 pro 100.000 und der niedrigsten in Australasien mit 6.5.
@@ -51,7 +51,7 @@ Das Zusammenspiel dieser drei Quellen ist der Grund, warum der landwirtschaftlic
 
 Bisweilen wird angenommen, Resistenz verschwinde, sobald der Selektionsdruck wegfällt. Der empirische Befund ist komplizierter.
 
-Wenn Resistenz Fitnesskosten verursacht — wenn die resistente Zelle unter antibiotikafreien Bedingungen langsamer wächst als ihr empfindliches Gegenstück —, begünstigt die Selektion ohne Antibiotikum tatsächlich die Rückkehr zum Ausgangszustand. Doch viele Resistenzmechanismen sind kostengünstig, und viele entwickeln kompensatorische Mutationen, die das Wachstum wiederherstellen, ohne die Resistenz aufzuheben. Die Überwachungsdaten von CDC und WHO belegen zahlreiche Resistenzphänotypen, die in Populationen lange fortbestanden, nachdem der entsprechende Wirkstoff in der Priorität zurückgestuft worden war.
+Wenn Resistenz Fitnesskosten verursacht — wenn die resistente Zelle unter antibiotikafreien Bedingungen langsamer wächst als ihr empfindliches Gegenstück —, begünstigt die Selektion ohne Antibiotikum tatsächlich die Rückkehr zum Ausgangszustand. Doch viele Resistenzmechanismen verursachen nur geringe Fitnesskosten, und viele entwickeln kompensatorische Mutationen, die das Wachstum wiederherstellen, ohne die Resistenz aufzuheben. Die Überwachungsdaten von CDC und WHO belegen zahlreiche Resistenzphänotypen, die in Populationen lange fortbestanden, nachdem der entsprechende Wirkstoff in der Priorität zurückgestuft worden war.
 
 Dies ist eines der klareren Beispiele für einen evolutionsbiologischen Punkt, gegen den in nicht-mikrobiellen Zusammenhängen bisweilen Widerstand besteht: Ein Merkmal, das einmal kostspielig *war*, kann durch kompensatorische Evolution kostenneutral werden, und danach macht die Wegnahme des ursprünglichen Selektionsdrucks das Merkmal nicht rückgängig. Reversibilität als selbstverständlich zu behandeln ist eine Fehldeutung der Evolution.
 
@@ -63,7 +63,7 @@ Drei Eigenschaften bakterieller Populationen lassen Antibiotikaresistenz auf Zei
 - **Generationszeit.** Bakterielle Generationszeiten liegen im klinischen Kontext typischerweise im Bereich von Minuten bis Stunden. Der Selektion stehen viele Zyklen zur Verfügung, auf die sie wirken kann.
 - **Horizontaler Gentransfer.** Anders als Tiere tauschen Bakterien routinemäßig genetisches Material über Artgrenzen hinweg aus. Ein Resistenzgen, das einmal entstanden ist, kann sich durch nicht verwandte Linien ausbreiten.
 
-Diese Eigenschaften machen mikrobielle Evolution nicht kategorial verschieden von tierischer Evolution — der zugrunde liegende Vorgang ist Selektion auf erbliche Variation —, aber sie machen sie in Echtzeit beobachtbar. Die meisten Aussagen über bakterielle Evolutionsmechanismen werden in Selektionsexperimenten im Labor geprüft und in der klinischen Überwachung bestätigt, eine nach den Maßstäben der [Evolutionsbiologie](/de/biology/evolution/cell-types-as-units-of-evolution) ungewöhnlich starke Evidenzbasis — deren Reichweite und Grenzen in [was experimentelle Evolution zeigen kann](/de/biology/evolution/what-experimental-evolution-can-show) dargelegt sind.
+Diese Eigenschaften machen mikrobielle Evolution nicht kategorial verschieden von tierischer Evolution — der zugrunde liegende Vorgang ist Selektion auf erbliche Variation —, aber sie machen sie in Echtzeit beobachtbar. Die meisten Aussagen über bakterielle Evolutionsmechanismen werden in Selektionsexperimenten im Labor validiert und in der klinischen Überwachung bestätigt, eine nach den Maßstäben der [Evolutionsbiologie](/de/biology/evolution/cell-types-as-units-of-evolution) ungewöhnlich starke Evidenzbasis — deren Reichweite und Grenzen in [was experimentelle Evolution zeigen kann](/de/biology/evolution/what-experimental-evolution-can-show) dargelegt sind.
 
 ## Antibiotic Stewardship: was die Evolution verlangsamt
 
@@ -75,7 +75,7 @@ Was Stewardship *nicht* leistet, ist zu verhindern, dass Resistenz überhaupt en
 
 ## Grenzen der derzeitigen Evidenzbasis
 
-Drei Bereiche sind wirklich offen.
+Drei Bereiche bleiben wirklich offen.
 
 **Vorhersagen, welche Resistenzmechanismen auftreten werden.** Die Mechanismen sind kategorisiert; vorherzusagen, welche konkrete Mutation oder welches erworbene Gen in einem gegebenen Kontext dominieren wird, ist derzeit nicht möglich.
 

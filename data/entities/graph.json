@@ -2604,7 +2604,8 @@
     "ev-wgms-ch-f4c54ad1",
     "ev-who-int-95b30fd1",
     "ev-wmo-int-36bde52e",
-    "ev-wmo-int-3d96c5c4"
+    "ev-wmo-int-3d96c5c4",
+    "ev-wmo-int-5959ffc8"
    ]
   },
   {
@@ -4191,6 +4192,7 @@
     "ev-who-int-699833a6",
     "ev-wmo-int-0ffe3704",
     "ev-wmo-int-3d96c5c4",
+    "ev-wmo-int-5959ffc8",
     "ev-wmo-int-c1d122fa",
     "ev-worldweatherattribution-org-262a53ab",
     "ev-worldweatherattribution-org-5da4acfb",

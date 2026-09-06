@@ -1,0 +1,141 @@
+{
+  "batchId": "v-w5-gap-articles-spotcheck",
+  "reviewedDate": "2026-09-06",
+  "verificationMethod": "independent",
+  "method": "Checked by a separate process from the one that wrote these articles — each was drafted by its own subagent, and this pass fetched the cited sources and ruled on the claims itself. It is independent in that sense and NOT exhaustive: it covers the load-bearing claims listed against each article and does not certify every figure in them. The exhaustive checkers scheduled for these five had not returned when the wave closed, and inventing their verdicts would have been worse than recording the narrower thing that actually happened.",
+  "articles": [
+    {
+      "slug": "anomalies-baselines-and-reference-periods",
+      "path": "content/en/ecology/earth-systems/anomalies-baselines-and-reference-periods.md",
+      "status": "amended",
+      "claimsChecked": 7,
+      "findings": [
+        {
+          "claim": "Temperature anomalies are strongly correlated out to distances of the order of 1000 km",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Uncertainty in the absolute baseline global temperature is around 0.5 °C; in the annual anomaly closer to 0.06 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Reports pre-2000 added anomalies to a 15 °C baseline; after 2000 they often used about 14 °C",
+          "sourceChecked": "https://data.giss.nasa.gov/gistemp/faq/abs_temp.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 1750 unperturbed abundances used in the AGGI forcing expressions: CO2 278.3 ppm, CH4 729.2 ppb, N2O 270.1 ppb",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Total 2024 radiative forcing from the long-lived greenhouse gases, 3.539 W m-2",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "1990 is the AGGI index year because it is the Kyoto Protocol baseline year",
+          "sourceChecked": "https://gml.noaa.gov/aggi/aggi.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The 2024 AGGI value of 1.538",
+          "sourceChecked": "https://gml.noaa.gov/aggi/AGGI_Table.csv",
+          "disposition": "qualified",
+          "note": "The AGGI landing page rounds to 1.54; the article uses 1.538, which is the value in the machine-readable table the same page distributes and which this repository ingests. Both are the provider’s own figures at different precision, and the source line names the table."
+        }
+      ],
+      "openQuestions": [
+        "This is a targeted check of the load-bearing claims, not an exhaustive pass over every figure in the article. The scheduled exhaustive checker for these five had not returned when the wave closed. What is recorded here is what was actually read and ruled on; the rest of each article rests on the writing pass alone and should be checked in the next wave."
+      ]
+    },
+    {
+      "slug": "temperature-inversions-and-trapped-air",
+      "path": "content/en/physics/climate-physics/temperature-inversions-and-trapped-air.md",
+      "status": "clean",
+      "claimsChecked": 2,
+      "findings": [
+        {
+          "claim": "US primary PM2.5 standard: 9.0 ug/m3 annual, as an annual mean averaged over three years",
+          "sourceChecked": "https://www.epa.gov/criteria-air-pollutants/naaqs-table",
+          "disposition": "verified"
+        },
+        {
+          "claim": "US primary PM2.5 standard: 35 ug/m3 over 24 hours, as the 98th percentile averaged over three years",
+          "sourceChecked": "https://www.epa.gov/criteria-air-pollutants/naaqs-table",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "This is a targeted check of the load-bearing claims, not an exhaustive pass over every figure in the article. The scheduled exhaustive checker for these five had not returned when the wave closed. What is recorded here is what was actually read and ruled on; the rest of each article rests on the writing pass alone and should be checked in the next wave."
+      ]
+    },
+    {
+      "slug": "uncertainty-propagation-in-practice",
+      "path": "content/en/physics/mechanics-waves/uncertainty-propagation-in-practice.md",
+      "status": "clean",
+      "claimsChecked": 3,
+      "findings": [
+        {
+          "claim": "Type A is evaluation by the statistical analysis of series of observations; Type B by means other than that",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/basic.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Admissible Type B information includes manufacturer’s specifications, calibration reports and handbook reference data",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/typeb.html",
+          "disposition": "verified"
+        },
+        {
+          "claim": "Where only limits are known, model the quantity as uniform and take the standard uncertainty as the half-width divided by the square root of 3",
+          "sourceChecked": "https://physics.nist.gov/cuu/Uncertainty/typeb.html",
+          "disposition": "verified"
+        }
+      ],
+      "openQuestions": [
+        "This is a targeted check of the load-bearing claims, not an exhaustive pass over every figure in the article. The scheduled exhaustive checker for these five had not returned when the wave closed. What is recorded here is what was actually read and ruled on; the rest of each article rests on the writing pass alone and should be checked in the next wave."
+      ]
+    },
+    {
+      "slug": "assisted-migration-and-its-evidence",
+      "path": "content/en/ecology/conservation/assisted-migration-and-its-evidence.md",
+      "status": "amended",
+      "claimsChecked": 2,
+      "findings": [
+        {
+          "claim": "The terminology review covered 868 scientific publications and found 40 terms",
+          "sourceChecked": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4108403/",
+          "disposition": "verified"
+        },
+        {
+          "claim": "The Twardek evidence map and synthesis",
+          "sourceChecked": "https://www.sciencedirect.com/science/article/abs/pii/S0006320723000320",
+          "disposition": "resourced",
+          "note": "The article originally cited a PDF of this paper mirrored on a society website, which is not a publisher of record. Repointed at the journal. The abstract is what is publicly readable there; the article’s use of it is confined to what the abstract states."
+        }
+      ],
+      "openQuestions": [
+        "This is a targeted check of the load-bearing claims, not an exhaustive pass over every figure in the article. The scheduled exhaustive checker for these five had not returned when the wave closed. What is recorded here is what was actually read and ruled on; the rest of each article rests on the writing pass alone and should be checked in the next wave."
+      ]
+    },
+    {
+      "slug": "soil-horizons-and-reading-a-profile",
+      "path": "content/en/ecology/soils/soil-horizons-and-reading-a-profile.md",
+      "status": "clean",
+      "claimsChecked": 1,
+      "findings": [
+        {
+          "claim": "\"Currently, ten master horizons and layers and seven transitional horizons are recognized\"",
+          "sourceChecked": "https://www.fao.org/4/a0541e/a0541e.pdf",
+          "disposition": "verified",
+          "note": "Checked against the text extracted from the FAO PDF itself, not against a summary of it."
+        }
+      ],
+      "openQuestions": [
+        "This is a targeted check of the load-bearing claims, not an exhaustive pass over every figure in the article. The scheduled exhaustive checker for these five had not returned when the wave closed. What is recorded here is what was actually read and ruled on; the rest of each article rests on the writing pass alone and should be checked in the next wave."
+      ]
+    }
+  ]
+}

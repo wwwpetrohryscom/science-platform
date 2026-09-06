@@ -678,7 +678,7 @@
      "kind": "article",
      "slug": "calibration-and-why-a-sensor-drifts",
      "section": "ecology/earth-observation",
-     "supports": "Lyapustin and colleagues (2014). Degradation largest in Terra band B3 and decreasing with wavelength, the list of C5 products carrying spurious negative trends, the C6 removal of major Level 1B trends, the polarisation correction for increased Terra polarisation sensitivity since about 2007, the residual decadal trends of several tenths of 1 % of TOA reflectance in B1–B4, and the additional Terra ΔNDVI ~0.01 decadal trend removed over the southern United States."
+     "supports": "Lyapustin, Wang, Xiong, Meister, Platnick, Levy, Franz, Korkin, Hilker, Tucker, Hall, Sellers, Wu and Angal (2014). Degradation largest in Terra band B3 and decreasing with wavelength, the list of C5 products carrying spurious negative trends, the C6 removal of major Level 1B trends, the C6+ polarisation correction for increased Terra polarisation sensitivity since about 2007 together with detrending and Terra–Aqua cross-calibration over quasi-stable desert sites, the residual decadal trends of several tenths of 1 % of TOA reflectance in B1–B4, the additional Terra ΔNDVI ~0.01 decadal trend removed over the southern United States, and the statement that C5 production would be maintained for another year in parallel with C6."
     }
    ],
    "isLiveDataset": false,
@@ -700,7 +700,7 @@
      "kind": "article",
      "slug": "calibration-and-why-a-sensor-drifts",
      "section": "ecology/earth-observation",
-     "supports": "Hall and colleagues (2021). The 0.18 ppm (0.045 %) offset at 400 ppm between X2007 and X2019, the virial-coefficient interpolation error (320 K instead of 310 K, ~0.03 ppm), the suspected adsorption to Viton O-rings and the ~0.14 ppm loss correction, and the expanded uncertainty of 0.17 ppm or 0.043 % at 400 ppm."
+     "supports": "Hall and colleagues (2021). NOAA GML's role as the WMO/GAW Central Calibration Laboratory for CO2; the meaning of the scale name (X for mole fraction, the year for adoption of the assigned values); the 0.18 ppm (0.045 %) offset at 400 ppm between X2007 and X2019; the virial-coefficient interpolation error (320 K instead of 310 K, ~0.03 ppm); the suspected adsorption to Viton O-rings and the 0.14 ppm loss correction in the paper's 380 ppm worked example; and the expanded uncertainty of 0.17 ppm or 0.043 % at 400 ppm."
     }
    ],
    "isLiveDataset": false,
@@ -8101,7 +8101,7 @@
      "kind": "article",
      "slug": "soil-horizons-and-reading-a-profile",
      "section": "ecology/soils",
-     "supports": "Master horizon and layer definitions for H, O, A, E, B, C, R, I, L and W; the count of ten master and seven transitional horizons; the genetic-versus-diagnostic distinction; suffix table; horizon boundary distinctness and topography classes; depth-recording and rounding rules; and the sampling rules for horizons and boundaries."
+     "supports": "Master horizon and layer definitions for H, O, A, E, B, C, R, I, L and W; the count of ten master and seven transitional horizons; the genetic-versus-diagnostic distinction; the suffix table, the a/e/i decomposition classes and the @ cryoturbation criteria; horizon boundary distinctness and topography classes; depth-recording and rounding rules; and the sampling rules for horizons and boundaries."
     }
    ],
    "isLiveDataset": false,
@@ -8252,7 +8252,7 @@
      "kind": "article",
      "slug": "soil-horizons-and-reading-a-profile",
      "section": "ecology/soils",
-     "supports": "The soil layer and soil horizon definitions; the definition and count of diagnostic horizons, properties and materials; the rules on unrounded values, subhorizons and slope correction; the exclusion of climate parameters; the deleted and introduced diagnostics; the nine master symbols of Annex 3; and the common-denominator statement."
+     "supports": "The soil layer and soil horizon definitions; the definition and count of diagnostic horizons, properties and materials; the general rules on unrounded values, subhorizons and slope correction; the instruction to work the Key by exclusion; the exclusion of climate parameters; the edition history and the deleted and introduced diagnostics; the statement that the new field guide replaces the FAO Guidelines (2006); the nine master symbols and the peat gloss on H in Annex 3; and the common-denominator statement."
     }
    ],
    "isLiveDataset": false,
@@ -9618,7 +9618,7 @@
      "kind": "article",
      "slug": "anomalies-baselines-and-reference-periods",
      "section": "ecology/earth-systems",
-     "supports": "The 1990 = 1 index convention and its Kyoto Protocol origin, the 1750 unperturbed abundances used in the forcing expressions, and the 2024 forcing and index values; annual totals are also distributed as AGGI_Table.csv from the same page."
+     "supports": "The 1990 = 1 index convention and its Kyoto Protocol origin, the 1750 unperturbed abundances used in the forcing expressions, and the 2024 forcing and index values. The page text rounds these to 3.54 W m⁻² and 1.54; the three-decimal figures used above are the 2024 and 1990 rows of AGGI_Table.csv, distributed from the same page."
     }
    ],
    "isLiveDataset": true,
@@ -9981,7 +9981,7 @@
      "kind": "article",
      "slug": "calibration-and-why-a-sensor-drifts",
      "section": "ecology/earth-observation",
-     "supports": "The 19 primary standards of natural air in high-pressure aluminium cylinders over 250–800 ppm, the 15 carried over from X2007, and the primary–secondary–tertiary propagation hierarchy."
+     "supports": "The 19 primary standards of natural air in high-pressure aluminium cylinders over 250–800 ppm, the 15 carried over from X2007 with updated values, and the primary–secondary–tertiary propagation hierarchy."
     }
    ],
    "isLiveDataset": true,
@@ -14807,7 +14807,7 @@
      "kind": "article",
      "slug": "calibration-and-why-a-sensor-drifts",
      "section": "ecology/earth-observation",
-     "supports": "The blackbody (3.5–14.4 µm), the solar diffuser (0.4–2.2 µm), the spectroradiometric calibration assembly, the deep-space zero-signal reference, lunar views, and the stated purpose of the diffuser stability monitor."
+     "supports": "The four on-board calibrators: the blackbody (3.5–14.4 µm), the solar diffuser (0.4–2.2 µm), the spectroradiometric calibration assembly, and the diffuser stability monitor; plus the deep-space zero-signal reference and the lunar views as a stable secondary check on diffuser degradation."
     }
    ],
    "isLiveDataset": false,
@@ -30293,7 +30293,7 @@
      "kind": "article",
      "slug": "binomial-nomenclature-and-why-names-change",
      "section": "biology/taxonomy",
-     "supports": "Accepted names, synonyms, hybrids and unplaced names in the March 2021 dataset."
+     "supports": "Accepted names, synonyms, hybrids and unplaced names in the dataset prepared on 16 March 2021, and the count of accepted vascular plant species a month later."
     }
    ],
    "isLiveDataset": false,
@@ -37583,7 +37583,7 @@
      "kind": "article",
      "slug": "anomalies-baselines-and-reference-periods",
      "section": "ecology/earth-systems",
-     "supports": "The reference series of altimeter missions from TOPEX/Poseidon in 1992, the 3–4 mm uncertainty on each ten-day global estimate, and — in the global mean sea level file distributed from this page — the published trend of 3.11 mm per year without glacial isostatic adjustment."
+     "supports": "The reference series of altimeter missions from TOPEX/Poseidon in 1992, the 3–4 mm uncertainty on each ten-day global estimate, and — in the global mean sea level file distributed from this page, slr/slr_sla_gbl_keep_ref_90.csv — the header trend of 3.11 mm per year without glacial isostatic adjustment and the −14.57 mm value of the first cycle."
     }
    ],
    "isLiveDataset": false,
@@ -39070,7 +39070,7 @@
      "kind": "article",
      "slug": "temperature-inversions-and-trapped-air",
      "section": "physics/climate-physics",
-     "supports": "Valley geometry around Grenoble, the five-day −3 K/km detection criterion, episode counts and durations for 1985–2014, and the scenario-dependent projected trend."
+     "supports": "Valley geometry around Grenoble, the three-day detection criterion on a 24-hour running-mean gradient near −3 K/km, episode counts and durations for 1985–2014, and the scenario-dependent projected trend."
     }
    ],
    "isLiveDataset": false,
@@ -39195,7 +39195,7 @@
   {
    "evidenceId": "ev-weather-gov-75d22242",
    "title": "Temperatures: The Inversion",
-   "organization": "NOAA National Weather Service",
+   "organization": "NOAA National Weather Service, training material by Jeff Haby (theweatherprediction.com)",
    "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
    "host": "weather.gov",
    "sourceType": "government",
@@ -39208,7 +39208,7 @@
      "kind": "article",
      "slug": "temperature-inversions-and-trapped-air",
      "section": "physics/climate-physics",
-     "supports": "Forecaster training material listing the formation routes: radiational cooling as the most common, subsidence between 850 and 600 hPa, frontal as the second most common, warm air over cold water, and the ozone-driven tropopause inversion near 150 hPa."
+     "supports": "The six formation routes: high-pressure subsidence between 850 and 600 hPa, warm-air advection aloft, radiational cooling as the most common, warm air over cold water, the frontal inversion as the second most common, and the ozone-driven tropopause inversion near 150 hPa."
     }
    ],
    "isLiveDataset": false,
@@ -40528,6 +40528,28 @@
      "slug": "sea-level-rise-indicators",
      "section": "ecology/climate-change",
      "supports": "International annual climate-indicator reports including sea-level rise."
+    }
+   ],
+   "isLiveDataset": false,
+   "verificationStatus": "unchecked"
+  },
+  {
+   "evidenceId": "ev-wmo-int-5959ffc8",
+   "title": "It's warmer than average. But what is average?",
+   "organization": "World Meteorological Organization",
+   "url": "https://wmo.int/media/news/its-warmer-average-what-average",
+   "host": "wmo.int",
+   "sourceType": "intergovernmental",
+   "sourceTypeProvenance": "inferred-host",
+   "topics": [
+    "ecology/earth-systems"
+   ],
+   "usedBy": [
+    {
+     "kind": "article",
+     "slug": "anomalies-baselines-and-reference-periods",
+     "section": "ecology/earth-systems",
+     "supports": "(13 July 2022). The stated reason for updating the standard 30-year reference period every decade, and the parallel use of 1961–1990 for long-term climate change assessment and 1850–1900 by WMO and IPCC as the pre-industrial baseline."
     }
    ],
    "isLiveDataset": false,

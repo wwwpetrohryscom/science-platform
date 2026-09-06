@@ -18,10 +18,10 @@ related:
   - mutation-types-and-rates
   - dna-sequencing-technologies
 pillar: what-is-dna
-_bodyHash: 8d47ff86
+_bodyHash: c9ca72cb
 ---
 
-Ein Genom ist die vollständige DNA-Ausstattung einer Zelle — die Chromosomen des Zellkerns samt allem, was die Mitochondrien und, bei Pflanzen, die Plastiden für sich selbst tragen. Diese Definition ist unstrittig. Fast alles, was darauf aufbaut, ist eine Messung, und die drei Messgrößen, zu denen am häufigsten gegriffen wird — wie groß ein Genom ist, wie viele Gene es enthält und wie viel davon überhaupt etwas tut —, unterscheiden sich erheblich darin, wie fest sie abgesichert sind. Nur die erste ist annähernd geklärt. Das molekulare Substrat wird gesondert behandelt in [was DNA ist und was sie nicht festlegt](/de/biology/genetics/what-is-dna); diese Seite handelt von der Buchhaltungsebene oberhalb des Moleküls.
+Ein Genom ist die vollständige DNA-Ausstattung einer Zelle — die Chromosomen des Zellkerns samt allem, was die Mitochondrien und, bei Pflanzen, die Plastiden für sich selbst tragen. Diese Definition ist unstrittig. Fast alles, was darauf aufbaut, ist eine Messung, und die drei Messgrößen, zu denen am häufigsten gegriffen wird — wie groß ein Genom ist, wie viele Gene es enthält und wie viel davon überhaupt etwas tut —, unterscheiden sich enorm darin, wie fest sie abgesichert sind. Nur die erste ist annähernd geklärt. Das molekulare Substrat wird gesondert behandelt in [was DNA ist und was sie nicht festlegt](/de/biology/genetics/what-is-dna); diese Seite handelt von der Buchhaltungsebene oberhalb des Moleküls.
 
 ## Die eine Messung, die am Ende präzise wurde
 
