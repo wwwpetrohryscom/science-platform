@@ -5,7 +5,7 @@ type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-09-06'
 updatedDate: '2026-09-06'
-readingTime: 8
+readingTime: 9
 tags:
   - species-recovery
   - range-shifts
@@ -18,7 +18,7 @@ related:
   - invasive-species-management
   - species-distribution-models-and-their-limits
 pillar: conservation-science-explained
-_bodyHash: a3188496
+_bodyHash: 9ec5210a
 ---
 
 Approximately half of the species assessed globally have shifted polewards or, on land, also to higher elevations — a finding the IPCC's Sixth Assessment records with very high confidence. [Assisted migration](/en/glossary/assisted-migration) is the proposal that where a population cannot make that shift itself, people should carry it.
@@ -27,7 +27,7 @@ Three distinct interventions go by that name, with different risks, literatures 
 
 ## Three interventions wearing one name
 
-The vocabulary problem is measurable. A systematic review of 868 publications that mention moving species in connection with climate change found 40 distinct terms for the idea: assisted migration appeared 563 times, assisted colonisation 121 and managed relocation 94. Screening those articles yielded 75 usable definitions from 60 publications.
+The vocabulary problem is measurable. A systematic review of 868 publications that mention moving species in connection with climate change found 40 distinct terms for the idea: assisted migration appeared 563 times, assisted colonisation 121 and managed relocation 94. Screening the 130 peer-reviewed articles that carry one of those terms in their title, abstract or keywords yielded 75 usable definitions from 60 of them.
 
 Forestry uses a three-part split that follows the risk gradient.
 
@@ -35,11 +35,11 @@ Forestry uses a three-part split that follows the risk gradient.
 | --- | --- | --- | --- |
 | Assisted population migration, or assisted gene flow | Between populations inside the current range | Decades of provenance and common-garden trials | Maladaptation at the destination; outbreeding depression |
 | Assisted range expansion | Just beyond the range edge, into contiguous habitat | A handful of documented conservation projects | Establishment failure; unmeasured effects on the recipient community |
-| Assisted species migration, or assisted colonisation | Well outside the native range, often across barriers | Almost nothing beyond research plots | The moved population behaves as an introduced species |
+| Assisted species migration, or assisted colonisation | Well outside the native range, often across barriers | A few rare-tree plantings; otherwise research plots | The moved population behaves as an introduced species |
 
-Working forestry concentrates on the first two, and its own practitioners say the practice is still not widely implemented outside research. The third is what the debate is about.
+Most interventions to date have concentrated on the first of these, and forestry's own practitioners say the practice is still not widely implemented outside research. The third is what the debate is about.
 
-The IUCN's 2013 guidelines draw the same line at the edge of indigenous range. Inside it sits population restoration — reinforcement and reintroduction, the subject of the [species recovery record](/en/ecology/conservation/endangered-species-recovery-programmes). Outside it sits conservation introduction, of which assisted colonisation is one. Those releases are treated as especially high risk, on the stated grounds that they have repeatedly produced invaders with severely adverse impacts, and where low risk cannot be reliably established the guidelines say not to proceed. One line in the risk annex carries the weight: lack of data does not indicate absence of risk.
+The IUCN's 2013 guidelines draw the same line at the edge of indigenous range. Inside it sits population restoration — reinforcement and reintroduction, the subject of the [species recovery record](/en/ecology/conservation/endangered-species-recovery-programmes). Outside it sits conservation introduction, of which assisted colonisation is one. Those releases are treated as especially high risk, on the stated grounds that there are numerous examples of species released outside their indigenous ranges subsequently becoming invasive, often with massively adverse impacts; and where low risk cannot be reliably established the guidelines say not to proceed. One line in the risk-assessment section carries the weight: lack of data does not indicate absence of risk.
 
 ## What the published evidence base contains
 
@@ -51,7 +51,7 @@ What was measured matters more than what was moved. Almost all assessments (193)
 
 ## The conservation record, in full
 
-Those six are few enough to describe. In northern England in 2000, marbled white and small skipper butterflies were released into grassland 65 km and 35 km beyond their range margins, sites chosen from species-climate models; both populations grew and expanded over six years. In southern Sweden, Oberthür's grizzled skipper went to six sites 70 km beyond its northern limit; after eight years it survived at two, one producing a viable metapopulation. In China, 45 grafted individuals of the rare tree *Camellia changii* survived two years at a reserve 390 km north of the only remnant wild population, and grafted *Manglietia longipedunculata* reached 96 per cent survival five years after a 202 km move. Encouraging results, and a negligible sample — and site selection rested on climate models whose limits are set out in [species distribution models and what they can support](/en/ecology/biodiversity/species-distribution-models-and-their-limits).
+Those six are few enough to describe. In northern England in 2000, marbled white and small skipper butterflies were released into grassland 65 km and 35 km beyond their range margins, sites chosen from species-climate models; both populations grew and expanded over six years. In southern Sweden, Oberthür's grizzled skipper went to six sites 70 km beyond its northern limit; after eight years it survived at two, one producing a viable metapopulation. In China, 45 grafted individuals of the rare tree *Camellia changii* were planted at their source site and at a reserve 390 km north of the only remnant wild population, with full survival at both after two years, and grafted *Manglietia longipedunculata* reached 96 per cent survival five years after a 202 km move — below the rate for plantings kept inside the existing range. The sixth is not an institutional project at all: the Torreya Guardians, a citizen group using a legal exception to the Endangered Species Act, moved seeds and seedlings of the endangered Florida torreya from Florida and South Carolina to North Carolina and later to Wisconsin, Michigan and New Hampshire, where after about a decade the tree has thrived in some states and merely survived in the coolest. Encouraging results, and a negligible sample — and site selection rested on climate models whose limits are set out in [species distribution models and what they can support](/en/ecology/biodiversity/species-distribution-models-and-their-limits).
 
 ## Assisted gene flow is the branch with numbers
 
@@ -65,11 +65,11 @@ The objection is that a conservation introduction is an introduction, and the [r
 
 A 2023 analysis of naturalised floras complicates it. Across 243 mainland regions on four continents, 4,510 flowering plant species had intracontinental origins — 3.9 per cent of all plant species, but 56.7 per cent of all naturalised species, rising to 64.5 per cent in Europe and falling to 15.6 per cent in Australia. They naturalised polewards by a median of 5.2 degrees of latitude, about 572 km, against an estimated natural poleward expansion of 1 to 2 km a year. The authors attribute the gap with the 2008 figure to what each study counted: the earlier one counted invasive species, a subset defined by impact and spread, whereas intracontinental aliens occur at lower abundance over smaller ranges.
 
-That is the honest state of the argument. Establishing outside your range is common and largely human-assisted; causing measurable damage is rarer and separately determined. Neither dataset settles how often a deliberately moved conservation target does harm, and the evidence map explains why: the studies that would answer it were not run. A review of 111 case studies of intentional introductions and eradications, 28 of them assisted migration, found 36 per cent reporting some unintended outcome. The two community-level assessments here point both ways: Douglas-fir moved up to 450 km within its range left ectomycorrhizal richness unchanged four decades on, while trout stocked into fishless alpine lakes left invertebrate richness unchanged but community structure altered.
+That is the honest state of the argument. Establishing outside your range is common and largely human-assisted; causing measurable damage is rarer and separately determined. Neither dataset settles how often a deliberately moved conservation target does harm, and the evidence map explains why: the studies that would answer it were not run. A review of 172 case studies of intentional introductions and eradications, 28 of them assisted migration, found that of the 111 that documented an outcome, 36 per cent reported some unintended one. The two community-level assessments here point both ways: Douglas-fir moved up to 450 km within its range left ectomycorrhizal richness unchanged four decades on, though diversity fell slightly and the fungal communities diverged by site, while trout stocked into fishless alpine lakes left invertebrate richness unchanged but community structure altered.
 
 ## Regulation has moved ahead of the evidence
 
-In the United States the legal position changed before the evidence did. A final rule effective 2 August 2023 revised the Endangered Species Act's experimental-population regulations so that populations may be established outside a species' historical range where habitat inside it has undergone, or is expected to undergo, irreversible decline from threats such as climate change or invasive species. It drew just under 570 public comments. Asked about invasion risk, the Service replied that it would have to consider whether such a population could itself become invasive, judged that unlikely because listed species do not typically have the characteristics of invasive species, and added a requirement to analyse adverse effects on the recipient ecosystem. Its worked examples, the Guam rail and the sihek, have no suitable historical-range habitat left.
+In the United States the legal position changed before the evidence did. A final rule effective 2 August 2023 revised the Endangered Species Act's experimental-population regulations so that populations may be established outside a species' historical range where habitat inside it has undergone, or is expected to undergo, irreversible decline from threats such as climate change or invasive species. It drew just under 570 public comments. Asked about invasion risk, the Service replied that it would have to consider whether such a population could itself become invasive, judged that unlikely because listed species do not typically have the characteristics of invasive species, and added a requirement to analyse adverse effects on the recipient ecosystem. Among the examples it works through, the Guam rail and the sihek have no habitat left within their historical range that is suitable for reintroduction.
 
 That is a defensible response to an asymmetry: a known extinction risk on one side, an unquantified introduction risk on the other. It is not a substitute for the missing measurements. What would change the picture is unglamorous — releases with recorded controls, non-target sampling in the recipient community, and follow-up measured against generation time rather than funding cycles. Until then, assisted gene flow within range is a technique with published dose-response data, and assisted colonisation beyond it is a decision taken under an uncertainty nobody has reduced.
 

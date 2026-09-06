@@ -19,6 +19,7 @@ related:
   - speciation-mechanisms
   - species-extinction-risk-assessment
 pillar: evolution-explained
+_bodyHash: d0f88ed8
 ---
 
 Cada generación es una muestra. Una población produce muchos más gametos de los que llegan a ser descendientes, y cuáles lo consiguen depende en parte de quién encontró pareja, de quién fue devorado antes de reproducirse y de cuál de dos copias igual de buenas transmitió un progenitor. El National Human Genome Research Institute define la deriva genética como la fluctuación aleatoria de la frecuencia de un alelo en una población, y señala que, aunque el efecto es más intenso en grupos pequeños y aislados, puede ser lo bastante potente como para fijar una variante o borrarla por completo. Ese es todo el mecanismo. Las consecuencias son menos evidentes que la definición.

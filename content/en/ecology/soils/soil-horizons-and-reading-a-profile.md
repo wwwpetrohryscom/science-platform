@@ -18,7 +18,7 @@ related:
   - soil-carbon-measurement-and-uncertainty
   - soil-biology-and-the-soil-food-web
 pillar: soil-science-explained
-_bodyHash: 7f15207f
+_bodyHash: be852dfa
 ---
 
 The World Reference Base draws a line most informal accounts of soil skip. A soil layer, it says, is "a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it." Then comes the qualifying clause: "If at least one of these properties is the result of soil-forming processes, the layer is called a soil horizon."
@@ -83,8 +83,8 @@ That is the right expectation to hold of a profile description: a disciplined re
 
 ## Sources
 
-1. **FAO** — [Guidelines for soil description, fourth edition](https://www.fao.org/4/a0541e/a0541e.pdf). Master horizon and layer definitions for H, O, A, E, B, C, R, I, L and W; the count of ten master and seven transitional horizons; the genetic-versus-diagnostic distinction; suffix table; horizon boundary distinctness and topography classes; depth-recording and rounding rules; and the sampling rules for horizons and boundaries.
-2. **IUSS Working Group WRB** — [World Reference Base for Soil Resources, fourth edition, 2022](https://files.isric.org/public/documents/WRB_fourth_edition_2022-12-18.pdf). The soil layer and soil horizon definitions; the definition and count of diagnostic horizons, properties and materials; the rules on unrounded values, subhorizons and slope correction; the exclusion of climate parameters; the deleted and introduced diagnostics; the nine master symbols of Annex 3; and the common-denominator statement.
+1. **FAO** — [Guidelines for soil description, fourth edition](https://www.fao.org/4/a0541e/a0541e.pdf). Master horizon and layer definitions for H, O, A, E, B, C, R, I, L and W; the count of ten master and seven transitional horizons; the genetic-versus-diagnostic distinction; the suffix table, the a/e/i decomposition classes and the @ cryoturbation criteria; horizon boundary distinctness and topography classes; depth-recording and rounding rules; and the sampling rules for horizons and boundaries.
+2. **IUSS Working Group WRB** — [World Reference Base for Soil Resources, fourth edition, 2022](https://files.isric.org/public/documents/WRB_fourth_edition_2022-12-18.pdf). The soil layer and soil horizon definitions; the definition and count of diagnostic horizons, properties and materials; the general rules on unrounded values, subhorizons and slope correction; the instruction to work the Key by exclusion; the exclusion of climate parameters; the edition history and the deleted and introduced diagnostics; the statement that the new field guide replaces the FAO Guidelines (2006); the nine master symbols and the peat gloss on H in Annex 3; and the common-denominator statement.
 3. **FAO Soils Portal** — [Soil classification](https://www.fao.org/soils-portal/data-hub/soil-classification/en/). The shift from factor-based systems to quantified diagnostic horizons, and the differing purposes of Soil Taxonomy, the FAO legend and the WRB.
 4. **FAO Soils Portal** — [USDA soil taxonomy](https://www.fao.org/soils-portal/data-hub/soil-classification/usda-soil-taxonomy/en/). Soil Taxonomy's hierarchical structure and its stated design purpose of supporting US soil survey.
 5. **USDA Natural Resources Conservation Service** — [Official Series Description: TRENTON series](https://soilseries.sc.egov.usda.gov/OSD_Docs/T/TRENTON.html). Horizon-by-horizon typical pedon with boundary distinctness and topography; the overlapping mollic epipedon and natric horizon; and the taxonomic class with its temperature class and xeric moisture regime.

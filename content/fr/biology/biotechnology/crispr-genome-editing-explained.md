@@ -19,10 +19,10 @@ related:
   - dna-replication-and-repair
   - synthetic-biology-explained
 pillar: biotechnology-explained
-_bodyHash: a469b6bf
+_bodyHash: c42f8f57
 ---
 
-La nucléase est le composant célèbre et le moins intéressant. Cas9 trouve une séquence et la coupe ; ce qui se produit ensuite est l'œuvre d'une machinerie de réparation que la cellule possédait déjà, et le résultat de cette réparation est le produit. Presque toutes les propriétés pratiques de l'édition du génome — pourquoi l'inactivation des gènes est devenue une routine, pourquoi les remplacements précis sont restés difficiles, pourquoi c'est la vectorisation et non le ciblage qui constitue la contrainte limitante en thérapeutique — découlent de cette division du travail entre une enzyme introduite et un processus biologique préexistant. C'est aussi la partie le plus souvent escamotée dans les résumés, qui décrivent les ciseaux et s'arrêtent là. L'édition sur place est la plus récente des opérations fondamentales de la [boîte à outils biotechnologique élargie](/fr/biology/biotechnology/biotechnology-explained), et celle dont les limites sont les moins comprises.
+La nucléase est le composant célèbre et le moins intéressant. Cas9 trouve une séquence et la coupe ; ce qui se produit ensuite est l'œuvre d'une machinerie de réparation que la cellule possédait déjà, et le résultat de cette réparation est le produit. Presque toutes les propriétés pratiques de l'édition du génome — pourquoi l'inactivation des gènes est devenue une routine, pourquoi les remplacements précis sont restés difficiles, pourquoi c'est la vectorisation et non le ciblage qui constitue la contrainte limitante en thérapeutique — découlent de cette division du travail entre une enzyme introduite et un processus biologique préexistant. C'est aussi la partie le plus souvent escamotée dans les résumés, qui tendent à décrire les ciseaux et à s'arrêter là. L'édition sur place est la plus récente des opérations fondamentales de la [boîte à outils biotechnologique élargie](/fr/biology/biotechnology/biotechnology-explained), et celle dont les limites sont les moins comprises.
 
 ## Un système anti-phage, lu à l'envers
 

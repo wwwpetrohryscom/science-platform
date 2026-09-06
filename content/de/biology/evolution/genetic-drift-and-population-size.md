@@ -19,6 +19,7 @@ related:
   - speciation-mechanisms
   - species-extinction-risk-assessment
 pillar: evolution-explained
+_bodyHash: 2f045d4
 ---
 
 Jede Generation ist eine Stichprobe. Eine Population bringt weit mehr Gameten hervor, als Nachkommen werden, und welche davon durchkommen, hängt zum Teil davon ab, wer zufällig einen Partner fand, wer zufällig vor der Fortpflanzung gefressen wurde und welche von zwei gleich guten Kopien ein Elternteil zufällig weitergab. Das National Human Genome Research Institute definiert Gendrift als zufällige Schwankung der Häufigkeit eines Allels in einer Population und hält fest, dass der Effekt zwar in kleinen, isolierten Gruppen am stärksten ist, aber kräftig genug sein kann, um eine Variante zu fixieren oder sie ganz zu tilgen. Das ist der gesamte Mechanismus. Die Folgen sind weniger offensichtlich als die Definition.

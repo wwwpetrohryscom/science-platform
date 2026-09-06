@@ -19,6 +19,7 @@ related:
   - speciation-mechanisms
   - species-extinction-risk-assessment
 pillar: evolution-explained
+_bodyHash: 9052246e
 ---
 
 Chaque génération est un échantillon. Une population produit bien plus de gamètes qu'il n'en devient de descendants, et ceux qui passent le filtre dépendent en partie de qui a trouvé un partenaire, de qui s'est fait manger avant de se reproduire, et de laquelle de deux copies également bonnes un parent a transmise. Le National Human Genome Research Institute définit la dérive génétique comme la fluctuation aléatoire de la fréquence d'un allèle dans une population, et note que, si l'effet est le plus fort dans les groupes petits et isolés, il peut être assez puissant pour fixer un variant ou l'effacer entièrement. C'est là tout le mécanisme. Les conséquences sont moins évidentes que la définition.
