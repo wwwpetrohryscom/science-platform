@@ -1,0 +1,346 @@
+{
+  "indicatorId": "co2-growth-rate",
+  "datasetId": "noaa-gml-ccgg-co2-global",
+  "unit": "ppm yr⁻¹",
+  "sourceUrl": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_gr_gl.txt",
+  "sourceSha256": "16533ff5709d9c499b3043ea98aa36e376749edcc0abd6429243d23cf237e120",
+  "accessedDate": "2026-09-06",
+  "derivation": "NOAA GML's published annual growth rate: the difference between the December and the preceding December globally averaged mole fraction, as the provider computes it. Not differenced here.",
+  "observations": [
+    {
+      "period": "1959",
+      "value": 0.96,
+      "uncertainty": 0.31
+    },
+    {
+      "period": "1960",
+      "value": 0.71,
+      "uncertainty": 0.27
+    },
+    {
+      "period": "1961",
+      "value": 0.78,
+      "uncertainty": 0.27
+    },
+    {
+      "period": "1962",
+      "value": 0.56,
+      "uncertainty": 0.27
+    },
+    {
+      "period": "1963",
+      "value": 0.57,
+      "uncertainty": 0.28
+    },
+    {
+      "period": "1964",
+      "value": 0.49,
+      "uncertainty": 0.27
+    },
+    {
+      "period": "1965",
+      "value": 1.1,
+      "uncertainty": 0.26
+    },
+    {
+      "period": "1966",
+      "value": 1.1,
+      "uncertainty": 0.28
+    },
+    {
+      "period": "1967",
+      "value": 0.61,
+      "uncertainty": 0.34
+    },
+    {
+      "period": "1968",
+      "value": 0.99,
+      "uncertainty": 0.32
+    },
+    {
+      "period": "1969",
+      "value": 1.32,
+      "uncertainty": 0.29
+    },
+    {
+      "period": "1970",
+      "value": 1.13,
+      "uncertainty": 0.32
+    },
+    {
+      "period": "1971",
+      "value": 0.73,
+      "uncertainty": 0.3
+    },
+    {
+      "period": "1972",
+      "value": 1.47,
+      "uncertainty": 0.31
+    },
+    {
+      "period": "1973",
+      "value": 1.46,
+      "uncertainty": 0.31
+    },
+    {
+      "period": "1974",
+      "value": 0.68,
+      "uncertainty": 0.31
+    },
+    {
+      "period": "1975",
+      "value": 1.23,
+      "uncertainty": 0.27
+    },
+    {
+      "period": "1976",
+      "value": 0.97,
+      "uncertainty": 0.28
+    },
+    {
+      "period": "1977",
+      "value": 1.92,
+      "uncertainty": 0.29
+    },
+    {
+      "period": "1978",
+      "value": 1.29,
+      "uncertainty": 0.24
+    },
+    {
+      "period": "1979",
+      "value": 2.14,
+      "uncertainty": 0.26
+    },
+    {
+      "period": "1980",
+      "value": 1.67,
+      "uncertainty": 0.12
+    },
+    {
+      "period": "1981",
+      "value": 1.15,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1982",
+      "value": 1,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "1983",
+      "value": 1.84,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "1984",
+      "value": 1.23,
+      "uncertainty": 0.12
+    },
+    {
+      "period": "1985",
+      "value": 1.65,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1986",
+      "value": 1.01,
+      "uncertainty": 0.1
+    },
+    {
+      "period": "1987",
+      "value": 2.66,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1988",
+      "value": 2.17,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1989",
+      "value": 1.47,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1990",
+      "value": 1.22,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1991",
+      "value": 0.75,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1992",
+      "value": 0.71,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1993",
+      "value": 1.24,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1994",
+      "value": 1.66,
+      "uncertainty": 0.11
+    },
+    {
+      "period": "1995",
+      "value": 2,
+      "uncertainty": 0.1
+    },
+    {
+      "period": "1996",
+      "value": 1.05,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "1997",
+      "value": 1.98,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "1998",
+      "value": 2.84,
+      "uncertainty": 0.11
+    },
+    {
+      "period": "1999",
+      "value": 1.33,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "2000",
+      "value": 1.25,
+      "uncertainty": 0.12
+    },
+    {
+      "period": "2001",
+      "value": 1.85,
+      "uncertainty": 0.1
+    },
+    {
+      "period": "2002",
+      "value": 2.36,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "2003",
+      "value": 2.28,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "2004",
+      "value": 1.56,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2005",
+      "value": 2.47,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2006",
+      "value": 1.77,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2007",
+      "value": 2.13,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2008",
+      "value": 1.78,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2009",
+      "value": 1.58,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2010",
+      "value": 2.36,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2011",
+      "value": 1.73,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2012",
+      "value": 2.42,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2013",
+      "value": 2.45,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2014",
+      "value": 2.03,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "2015",
+      "value": 2.95,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2016",
+      "value": 2.83,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "2017",
+      "value": 2.14,
+      "uncertainty": 0.1
+    },
+    {
+      "period": "2018",
+      "value": 2.39,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "2019",
+      "value": 2.5,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2020",
+      "value": 2.33,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "2021",
+      "value": 2.38,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2022",
+      "value": 2.24,
+      "uncertainty": 0.12
+    },
+    {
+      "period": "2023",
+      "value": 2.7,
+      "uncertainty": 0.16
+    },
+    {
+      "period": "2024",
+      "value": 3.76,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "2025",
+      "value": 2.06,
+      "uncertainty": 0.09
+    }
+  ]
+}

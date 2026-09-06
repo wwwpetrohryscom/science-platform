@@ -1,0 +1,132 @@
+{
+  "source": {
+    "datasetId": "nist-codata-2022",
+    "adjustment": "2022 CODATA adjustment",
+    "provider": "National Institute of Standards and Technology",
+    "sourceUrl": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "landingPage": "https://physics.nist.gov/cuu/Constants/",
+    "accessedDate": "2026-09-06"
+  },
+  "constants": [
+    {
+      "constantId": "speed-of-light",
+      "symbol": "c",
+      "name": "Speed of light in vacuum",
+      "nistName": "speed of light in vacuum",
+      "value": 299792458.0,
+      "valueDisplay": "299 792 458",
+      "unit": "m s^-1",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "planck-constant",
+      "symbol": "h",
+      "name": "Planck constant",
+      "nistName": "Planck constant",
+      "value": 6.62607015e-34,
+      "valueDisplay": "6.626 070 15 e-34",
+      "unit": "J Hz^-1",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "elementary-charge",
+      "symbol": "e",
+      "name": "Elementary charge",
+      "nistName": "elementary charge",
+      "value": 1.602176634e-19,
+      "valueDisplay": "1.602 176 634 e-19",
+      "unit": "C",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "avogadro-constant",
+      "symbol": "N_A",
+      "name": "Avogadro constant",
+      "nistName": "Avogadro constant",
+      "value": 6.02214076e+23,
+      "valueDisplay": "6.022 140 76 e23",
+      "unit": "mol^-1",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "boltzmann-constant",
+      "symbol": "k",
+      "name": "Boltzmann constant",
+      "nistName": "Boltzmann constant",
+      "value": 1.380649e-23,
+      "valueDisplay": "1.380 649 e-23",
+      "unit": "J K^-1",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "molar-gas-constant",
+      "symbol": "R",
+      "name": "Molar gas constant",
+      "nistName": "molar gas constant",
+      "value": 8.314462618,
+      "valueDisplay": "8.314 462 618...",
+      "unit": "J mol^-1 K^-1",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "stefan-boltzmann-constant",
+      "symbol": "sigma",
+      "name": "Stefan-Boltzmann constant",
+      "nistName": "Stefan-Boltzmann constant",
+      "value": 5.670374419e-08,
+      "valueDisplay": "5.670 374 419... e-8",
+      "unit": "W m^-2 K^-4",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "electron-volt",
+      "symbol": "eV",
+      "name": "Electron volt",
+      "nistName": "electron volt",
+      "value": 1.602176634e-19,
+      "valueDisplay": "1.602 176 634 e-19",
+      "unit": "J",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    },
+    {
+      "constantId": "atomic-mass-constant",
+      "symbol": "m_u",
+      "name": "Atomic mass constant",
+      "nistName": "atomic mass constant",
+      "value": 1.66053906892e-27,
+      "valueDisplay": "1.660 539 068 92 e-27",
+      "unit": "kg",
+      "exact": false,
+      "standardUncertainty": 5.2e-37,
+      "standardUncertaintyDisplay": "0.000 000 000 52 e-27"
+    },
+    {
+      "constantId": "standard-gravity",
+      "symbol": "g_n",
+      "name": "Standard acceleration of gravity",
+      "nistName": "standard acceleration of gravity",
+      "value": 9.80665,
+      "valueDisplay": "9.806 65",
+      "unit": "m s^-2",
+      "exact": true,
+      "standardUncertainty": null,
+      "standardUncertaintyDisplay": "(exact)"
+    }
+  ]
+}

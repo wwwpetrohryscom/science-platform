@@ -1,0 +1,246 @@
+{
+  "indicatorId": "atmospheric-co2",
+  "datasetId": "noaa-gml-ccgg-co2-global",
+  "unit": "ppm",
+  "sourceUrl": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_gl.txt",
+  "sourceSha256": "a56b8601509ccb62f646c5afe2fbd68ff71860dbc7e7f029d631575c4fc4ce54",
+  "accessedDate": "2026-09-06",
+  "derivation": "Globally averaged marine surface annual mean, taken verbatim from NOAA GML's published annual-mean file. Column 2 is the mean, column 3 the published uncertainty.",
+  "observations": [
+    {
+      "period": "1979",
+      "value": 336.85,
+      "uncertainty": 0.1
+    },
+    {
+      "period": "1980",
+      "value": 338.91,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1981",
+      "value": 340.11,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "1982",
+      "value": 340.85,
+      "uncertainty": 0.03
+    },
+    {
+      "period": "1983",
+      "value": 342.53,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "1984",
+      "value": 344.07,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1985",
+      "value": 345.54,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1986",
+      "value": 346.97,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1987",
+      "value": 348.68,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1988",
+      "value": 351.16,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "1989",
+      "value": 352.79,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1990",
+      "value": 354.06,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1991",
+      "value": 355.4,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "1992",
+      "value": 356.09,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1993",
+      "value": 356.83,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "1994",
+      "value": 358.33,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "1995",
+      "value": 360.18,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "1996",
+      "value": 361.93,
+      "uncertainty": 0.04
+    },
+    {
+      "period": "1997",
+      "value": 363.04,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "1998",
+      "value": 365.7,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "1999",
+      "value": 367.79,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2000",
+      "value": 368.96,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2001",
+      "value": 370.57,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2002",
+      "value": 372.58,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2003",
+      "value": 375.14,
+      "uncertainty": 0.04
+    },
+    {
+      "period": "2004",
+      "value": 376.94,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2005",
+      "value": 378.98,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2006",
+      "value": 381.15,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2007",
+      "value": 382.9,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2008",
+      "value": 385.02,
+      "uncertainty": 0.04
+    },
+    {
+      "period": "2009",
+      "value": 386.5,
+      "uncertainty": 0.04
+    },
+    {
+      "period": "2010",
+      "value": 388.75,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2011",
+      "value": 390.62,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2012",
+      "value": 392.65,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2013",
+      "value": 395.4,
+      "uncertainty": 0.06
+    },
+    {
+      "period": "2014",
+      "value": 397.34,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2015",
+      "value": 399.65,
+      "uncertainty": 0.05
+    },
+    {
+      "period": "2016",
+      "value": 403.07,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2017",
+      "value": 405.22,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "2018",
+      "value": 407.61,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "2019",
+      "value": 410.07,
+      "uncertainty": 0.09
+    },
+    {
+      "period": "2020",
+      "value": 412.44,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2021",
+      "value": 414.7,
+      "uncertainty": 0.07
+    },
+    {
+      "period": "2022",
+      "value": 417.08,
+      "uncertainty": 0.08
+    },
+    {
+      "period": "2023",
+      "value": 419.35,
+      "uncertainty": 0.1
+    },
+    {
+      "period": "2024",
+      "value": 422.79,
+      "uncertainty": 0.1
+    },
+    {
+      "period": "2025",
+      "value": 425.62,
+      "uncertainty": 0.09
+    }
+  ]
+}

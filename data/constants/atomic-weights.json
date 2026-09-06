@@ -1,0 +1,30 @@
+{
+  "source": {
+    "provider": "IUPAC Commission on Isotopic Abundances and Atomic Weights",
+    "providerShort": "CIAAW",
+    "table": "Abridged standard atomic weights, 2024 table, based on the Atomic Weights 2021 report",
+    "landingPage": "https://www.ciaaw.org/abridged-atomic-weights.htm",
+    "note": "CIAAW publishes carbon and oxygen as intervals — Ar(C) = [12.0096, 12.0116] and Ar(O) = [15.99903, 15.99977] since 2009 — because their isotopic composition varies measurably between natural materials. The abridged single values below are the ones CIAAW publishes for use where that variation does not matter, and they carry the uncertainty that covers the interval.",
+    "accessedDate": "2026-09-06"
+  },
+  "elements": [
+    {
+      "symbol": "C",
+      "name": "Carbon",
+      "atomicNumber": 6,
+      "standardAtomicWeight": 12.011,
+      "uncertainty": 0.002,
+      "interval": [12.0096, 12.0116],
+      "unit": "dimensionless (relative atomic mass)"
+    },
+    {
+      "symbol": "O",
+      "name": "Oxygen",
+      "atomicNumber": 8,
+      "standardAtomicWeight": 15.999,
+      "uncertainty": 0.001,
+      "interval": [15.99903, 15.99977],
+      "unit": "dimensionless (relative atomic mass)"
+    }
+  ]
+}
