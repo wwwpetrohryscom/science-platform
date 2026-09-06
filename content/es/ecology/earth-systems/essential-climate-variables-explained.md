@@ -18,6 +18,7 @@ related:
   - earth-system-predictability-explained
   - climate-variability-and-teleconnections
 pillar: earth-system-science-explained
+_bodyHash: 151608b6
 ---
 
 Detrás de todo registro climático largo hay una decisión previa: la de que alguien debe seguir midiendo esa magnitud concreta, indefinidamente, a escala global, pase lo que pase con todo lo demás. Esas decisiones no se toman de forma improvisada. Están codificadas como **variables climáticas esenciales**, el esqueleto observacional de [la ciencia del sistema Tierra](/es/ecology/earth-systems/earth-system-science-explained), y la lista es lo bastante corta como para merecer conocerse y lo bastante estructurada como para merecer una lectura atenta.

@@ -1,7 +1,7 @@
 ---
 title: 'Fernerkundung für das Biodiversitätsmonitoring: was Satelliten sehen können und was nicht'
 metaTitle: 'Fernerkundung und Biodiversität: was Satelliten sehen'
-excerpt: 'Satelliten können die meisten Arten nicht sehen, doch sie messen die Struktur von Ökosystemen einheitlich und weltweit. Dieser Beitrag erläutert, was die Erdbeobachtung dem Biodiversitätsmonitoring tatsächlich beiträgt — Landbedeckung, Kronenstruktur, Vegetationszustand — und wo die Grenzen liegen, biologische Vielfalt aus einem spektralen Signal abzuleiten.'
+excerpt: Satelliten sehen die meisten Arten nicht, messen aber die Struktur von Ökosystemen einheitlich und weltweit. Was die Erdbeobachtung dem Biodiversitätsmonitoring beiträgt — Landbedeckung, Kronenstruktur, Vegetationszustand — und wo die Grenzen der Ableitung aus einem Spektralsignal liegen.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
@@ -17,13 +17,14 @@ related:
   - ecological-integrity-indicators
 pillar: why-species-counts-mislead-conservation
 readingTime: 5
+_bodyHash: f719bdf8
 ---
 
 Ein Satellit im Überflug kann eine Grasmücke nicht von einem Zaunkönig unterscheiden, und doch kann er den Wald kartieren, auf den beide angewiesen sind, diesen Wald Saison für Saison im Wandel beobachten und dies für den gesamten Planeten zugleich tun. Die Lücke, die er nicht schließen kann, ist dieselbe, die auch Felderhebungen begrenzt und in [warum Artenzahlen die Priorisierung in die Irre führen](/de/ecology/biodiversity/why-species-counts-mislead-conservation) beschrieben wird. Diese Lücke — zwischen dem, was ein Instrument erfasst, und dem, was der Naturschutz wissen will — bestimmt zugleich das Versprechen und die Grenzen der Erdbeobachtung. Sie zu verstehen ist zentral für die umfassendere Aufgabe des [Biodiversitätsmonitorings und des Ökosystemzustands](/de/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Was Satelliten tatsächlich beobachten
 
-Die [Fernerkundung](/en/glossary/remote-sensing) gewinnt Informationen über Ökosysteme von Satelliten und Flugzeugen aus, ohne den Boden zu berühren. Sie bestimmt die meisten einzelnen Arten nicht direkt. Was sie gut misst, ist der physische Zustand von Ökosystemen: wo Lebensraum liegt, wie viel davon übrig ist und in welcher Verfassung er sich befindet.
+Die [Fernerkundung](/de/glossary/remote-sensing) gewinnt Informationen über Ökosysteme von Satelliten und Flugzeugen aus, ohne den Boden zu berühren. Sie bestimmt die meisten einzelnen Arten nicht direkt. Was sie gut misst, ist der physische Zustand von Ökosystemen: wo Lebensraum liegt, wie viel davon übrig ist und in welcher Verfassung er sich befindet.
 
 Die verlässlichen Produkte gliedern sich in eine Handvoll Familien. Sensoren kartieren die [Landbedeckung](/de/ecology/earth-observation/land-cover-change-detection) und deren Veränderung, verfolgen Waldfläche und Waldverlust und erfassen Vegetationsgrün und Produktivität über Indizes wie den NDVI. Sie erkennen Oberflächengewässer und Feuchtgebiete, registrieren Feuer und lösen — wo Lidar-Instrumente beteiligt sind — die dreidimensionale Struktur des Kronendachs auf. Diese Beobachtungen liegen genau in der Klasse der Ökosystemstruktur der [essenziellen Biodiversitätsvariablen](/de/ecology/biodiversity/essential-biodiversity-variables-monitoring), jener Dimension, die Felderhebungen allein nicht flächendeckend abdecken können.
 
@@ -31,7 +32,7 @@ Die verlässlichen Produkte gliedern sich in eine Handvoll Familien. Sensoren ka
 
 Ein Großteil dieser Kapazität beruht auf einigen wenigen langlaufenden Missionen. Der gemeinsam von NASA und USGS getragene [Landsat](https://www.usgs.gov/)-Datenbestand liefert jahrzehntelange einheitliche Aufnahmen, ein Archiv, dessen Kontinuität ebenso viel zählt wie jedes Einzelbild, weil Veränderung nur vor einer stabilen Referenz sichtbar wird. Das MODIS der NASA ergänzt häufige Messungen der Vegetationsproduktivität, während ihre Lidar-Mission GEDI die Kronenstruktur in drei Dimensionen abtastet.
 
-Auf europäischer Seite betreibt das Programm [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth) der Europäischen Weltraumorganisation die Sentinel-Satelliten, deren häufige Überflüge die operationellen [Landprodukte](https://land.copernicus.eu/) des Copernicus-Landüberwachungsdienstes speisen. Die BIOMASS-Mission der ESA ist darauf ausgelegt, die Menge des in Wäldern gebundenen kohlenstoffhaltigen Materials abzuschätzen. Zusammen wandeln diese Systeme rohe Strahldichte in jene Landbedeckungs- und Vegetationsebenen um, auf die nachgelagerte Auswertungen angewiesen sind, einschließlich der Karten hinter den [Metriken der Lebensraumfragmentierung](/de/ecology/biodiversity/habitat-fragmentation-metrics) und vielen Maßen der [Lebensraumfragmentierung](/en/glossary/habitat-fragmentation).
+Auf europäischer Seite betreibt das Programm [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth) der Europäischen Weltraumorganisation die Sentinel-Satelliten, deren häufige Überflüge die operationellen [Landprodukte](https://land.copernicus.eu/) des Copernicus-Landüberwachungsdienstes speisen. Die BIOMASS-Mission der ESA ist darauf ausgelegt, die Menge des in Wäldern gebundenen kohlenstoffhaltigen Materials abzuschätzen. Zusammen wandeln diese Systeme rohe Strahldichte in jene Landbedeckungs- und Vegetationsebenen um, auf die nachgelagerte Auswertungen angewiesen sind, einschließlich der Karten hinter den [Metriken der Lebensraumfragmentierung](/de/ecology/biodiversity/habitat-fragmentation-metrics) und vielen Maßen der [Lebensraumfragmentierung](/de/glossary/habitat-fragmentation).
 
 ## Vom Spektrum zur Vielfalt: eine Forschungsfront
 

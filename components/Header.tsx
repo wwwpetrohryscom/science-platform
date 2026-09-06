@@ -14,7 +14,9 @@ type HeaderProps = {
   locale: Locale;
 };
 
-const editorialKeys = ["insights", "discussions"] as const;
+// Data and Tools sit alongside Insights and Discussions: they are
+// destinations, not a sub-section of the article corpus.
+const editorialKeys = ["insights", "discussions", "data", "tools"] as const;
 
 export function Header({ locale }: HeaderProps) {
   const t = translator(getMessages(locale));

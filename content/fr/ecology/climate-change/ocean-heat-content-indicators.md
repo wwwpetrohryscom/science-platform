@@ -17,9 +17,10 @@ related:
   - greenhouse-gases-and-radiative-forcing
   - earth-energy-budget-and-the-second-law
 pillar: what-is-climate-change
+_bodyHash: 4479cb02
 ---
 
-Quand des journalistes demandent « le réchauffement climatique se poursuit-il », la réponse unique la plus défendable est la série du [contenu thermique de l'océan](/fr/glossary/ocean-heat-content) (OHC). Environ 90 % de l'énergie ajoutée au [système climatique](/fr/ecology/earth-systems/earth-system-science-explained) par le forçage des gaz à effet de serre est absorbée par l'océan, le reste se répartissant entre les continents, la glace et l'atmosphère. La part exacte dépend de l'inventaire et de la période retenus — l'AR6 évalue l'absorption de chaleur par l'océan à 91 % de la variation totale de l'inventaire énergétique mondial, une répartition documentée dans le [rapport du Groupe de travail I de l'AR6 du GIEC](https://www.ipcc.ch/report/ar6/wg1/) et dans les publications annuelles State of the Climate de la NOAA hébergées par les [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/).
+Quand des journalistes demandent « le réchauffement climatique se poursuit-il ? », la réponse unique la plus défendable est la série du [contenu thermique de l'océan](/fr/glossary/ocean-heat-content) (OHC). Environ 90 % de l'énergie ajoutée au [système climatique](/fr/ecology/earth-systems/earth-system-science-explained) par le forçage des gaz à effet de serre est absorbée par l'océan, le reste se répartissant entre les continents, la glace et l'atmosphère. La part exacte dépend de l'inventaire et de la période retenus — l'AR6 évalue l'absorption de chaleur par l'océan à 91 % de la variation totale de l'inventaire énergétique mondial, une répartition documentée dans le [rapport du Groupe de travail I de l'AR6 du GIEC](https://www.ipcc.ch/report/ar6/wg1/) et dans les publications annuelles State of the Climate de la NOAA hébergées par les [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/).
 
 Parce que l'océan stocke une si grande part du déséquilibre, l'OHC est moins affecté par le bruit d'une année sur l'autre qui masque les tendances de la température de l'air en surface. C'est l'indicateur climatique que l'atmosphère ne peut pas cacher.
 

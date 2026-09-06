@@ -17,9 +17,10 @@ related:
   - greenhouse-gases-and-radiative-forcing
   - earth-energy-budget-and-the-second-law
 pillar: what-is-climate-change
+_bodyHash: 7df18cb
 ---
 
-Wenn Journalistinnen und Journalisten fragen, ob die globale Erwärmung anhält, ist die belastbarste einzelne Antwort die Reihe des [Wärmeinhalts des Ozeans](/de/glossary/ocean-heat-content) (OHC). Etwa 90 % der Energie, die dem [Klimasystem](/de/ecology/earth-systems/earth-system-science-explained) durch den Antrieb der Treibhausgase zugeführt wird, nimmt der Ozean auf; der Rest verteilt sich auf Landflächen, Eis und Atmosphäre. Der genaue Anteil hängt davon ab, welches Inventar und welcher Zeitraum verwendet werden — der AR6 beziffert die Wärmeaufnahme des Ozeans auf 91 % der Gesamtänderung des globalen Energieinventars, eine Aufteilung, die im [Bericht der IPCC-Arbeitsgruppe I zum AR6](https://www.ipcc.ch/report/ar6/wg1/) und in den jährlichen State-of-the-Climate-Publikationen der NOAA bei den [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/) dokumentiert ist.
+Wenn Journalistinnen und Journalisten fragen, „hält die globale Erwärmung an?“, ist die belastbarste einzelne Antwort die Reihe des [Wärmeinhalts des Ozeans](/de/glossary/ocean-heat-content) (OHC). Etwa 90 % der Energie, die dem [Klimasystem](/de/ecology/earth-systems/earth-system-science-explained) durch den Antrieb der Treibhausgase zugeführt wird, nimmt der Ozean auf; der Rest verteilt sich auf Landflächen, Eis und Atmosphäre. Der genaue Anteil hängt davon ab, welches Inventar und welcher Zeitraum verwendet werden — der AR6 beziffert die Wärmeaufnahme des Ozeans auf 91 % der Gesamtänderung des globalen Energieinventars, eine Aufteilung, die im [Bericht der IPCC-Arbeitsgruppe I zum AR6](https://www.ipcc.ch/report/ar6/wg1/) und in den jährlichen State-of-the-Climate-Publikationen der NOAA bei den [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/) dokumentiert ist.
 
 Weil der Ozean einen so großen Teil des Ungleichgewichts speichert, wird der OHC weniger von dem Rauschen zwischen den Jahren beeinflusst, das Trends der bodennahen Lufttemperatur überdeckt. Er ist der Klimaindikator, den die Atmosphäre nicht verbergen kann.
 
@@ -39,7 +40,7 @@ Der OHC mittelt das meiste davon heraus. Die ENSO verteilt Wärme zwischen Ozean
 
 Die OHC-Reihe nach 2005, verankert im Argo-Netz, zeigt eine monotone positive Akkumulation im oberen Ozean. Der AR6 berichtet eine hohe Wahrscheinlichkeit dafür, dass die Erwärmung des Ozeans bis zum Ende der historischen Reihe mindestens in den letzten mehreren Jahrtausenden beispiellos war und dass sich die Rate der Erwärmung des oberen Ozeans seit 1971 etwa verdoppelt hat. Die Tiefseekomponente ist kleiner, aber konsistent.
 
-Dass der Trend monoton ist — jedes Fünfjahresfenster fügt Energie hinzu, ohne anhaltende Umkehrungen —, ist einer der Gründe, weshalb Behauptungen einer globalen „Erwärmungspause" den Kontakt mit den OHC-Daten nicht überstehen. Den atmosphärischen Pausenjahren der frühen 2000er Jahre entspricht in der Ozeanreihe überhaupt keine Pause.
+Dass der Trend monoton ist — jedes Fünfjahresfenster fügt Energie hinzu, ohne anhaltende Umkehrungen —, ist einer der Gründe, weshalb Behauptungen einer globalen „Erwärmungspause“ den Kontakt mit den OHC-Daten nicht überstehen. Den atmosphärischen Pausenjahren der frühen 2000er Jahre entspricht in der Ozeanreihe überhaupt keine Pause.
 
 ## Was er nicht misst
 

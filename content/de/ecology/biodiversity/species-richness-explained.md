@@ -17,6 +17,7 @@ related:
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
 readingTime: 5
+_bodyHash: ce49747
 ---
 
 Die Zahl der an einem Ort nachgewiesenen verschiedenen Arten ist die vertrauteste Art, biologische Vielfalt zusammenzufassen, und zugleich diejenige, die am ehesten zu wörtlich gelesen wird. Das Maß ist einfach zu definieren und billig zu berechnen, was seine Verbreitung in Erhebungen, Berichten und politischen Zusammenfassungen erklärt. Es trägt außerdem verborgene Annahmen darüber mit sich, wie, wo und wie gründlich gezählt wurde, und diese Annahmen entscheiden darüber, wie viel die Zahl tatsächlich tragen kann.

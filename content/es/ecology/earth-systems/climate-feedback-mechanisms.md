@@ -1,7 +1,7 @@
 ---
 title: 'Retroalimentaciones climáticas: la aritmética que convierte un pequeño empujón en una gran respuesta'
 metaTitle: 'Retroalimentaciones: de un pequeño empujón a una gran respuesta'
-excerpt: 'Una retroalimentación no es una amplificación vaga. Es un número en vatios por metro cuadrado y por grado, tiene un convenio de signos, y el AR6 del IPCC publica el valor evaluado de cada una.'
+excerpt: Una retroalimentación no es una amplificación vaga. Es un número en vatios por metro cuadrado y por grado, tiene un convenio de signos, y el AR6 del IPCC publica el valor evaluado de cada una.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
@@ -18,13 +18,14 @@ related:
   - earth-system-science-explained
   - earth-system-models-explained
 pillar: earth-system-science-explained
+_bodyHash: bda9999a
 ---
 
 La palabra «retroalimentación» hace un trabajo muy laxo en la divulgación sobre el clima, donde suele significar algo así como «las cosas empeoran». En la literatura técnica designa algo preciso y cuantitativo, y es esa precisión la que hace útil el concepto. Las retroalimentaciones son además el caso más claro de una propiedad que pertenece al acoplamiento y no a ninguno de los componentes por separado, y por eso [la ciencia del sistema Tierra trata el planeta como un único sistema](/es/ecology/earth-systems/earth-system-science-explained). Este artículo expone la definición, el convenio de signos y los valores evaluados — y después la parte que más importa, que es dónde reside la incertidumbre.
 
 ## Definición y convenio de signos
 
-Un **forzamiento** es un cambio impuesto al [balance energético](/es/ecology/climate-change/climate-sensitivity-explained) del planeta, medido en vatios por metro cuadrado. Una [retroalimentación climática](/en/glossary/climate-feedback) es un proceso que altera el balance energético *en respuesta al* cambio de temperatura que el forzamiento produjo. Se expresa como un parámetro de retroalimentación, en vatios por metro cuadrado y por grado Celsius de calentamiento superficial global.
+Un **forzamiento** es un cambio impuesto al [balance energético](/es/ecology/climate-change/climate-sensitivity-explained) del planeta, medido en vatios por metro cuadrado. Una [retroalimentación climática](/es/glossary/climate-feedback) es un proceso que altera el balance energético *en respuesta al* cambio de temperatura que el forzamiento produjo. Se expresa como un parámetro de retroalimentación, en vatios por metro cuadrado y por grado Celsius de calentamiento superficial global.
 
 El convenio de signos despista, porque es el contrario de la intuición. Un parámetro de retroalimentación se escribe de modo que **los valores negativos son estabilizadores** y los positivos, amplificadores. La razón es que el parámetro total mide con qué intensidad aumenta el planeta su radiación hacia el espacio por grado de calentamiento; un total fuertemente negativo significa que el planeta evacua con facilidad la energía sobrante y se calienta poco.
 

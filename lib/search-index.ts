@@ -13,6 +13,9 @@ import {
 } from "@/lib/glossary";
 import { LOCALES, localizedPath } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n-config";
+import { getMessages, translator } from "@/lib/i18n";
+import { INDICATORS, indicatorPath } from "@/lib/scientific-data/index";
+import { TOOLS, toolPath } from "@/lib/tools/registry";
 import type { SearchDoc, SearchIndex } from "@/lib/search-core";
 
 /** Build one locale's index from what exists in that locale. */
@@ -59,6 +62,30 @@ export async function buildSearchIndex(locale: Locale): Promise<SearchIndex> {
       category: entry.category,
       subtopic: entry.subtopic,
       tags: localized?.aliases ?? [],
+    });
+  }
+
+  // Indicators and tools exist in every locale — their frame is fully
+  // translated — so unlike an article they are indexed everywhere.
+  const t = translator(getMessages(locale));
+  for (const ind of INDICATORS) {
+    docs.push({
+      url: localizedPath(locale, indicatorPath(ind.indicatorId)),
+      title: ind.name,
+      excerpt: ind.definition,
+      kind: "indicator",
+      category: ind.category,
+      tags: [ind.shortName, ind.unit, ...ind.relatedEntityIds],
+    });
+  }
+  for (const tool of TOOLS) {
+    docs.push({
+      url: localizedPath(locale, toolPath(tool.slug)),
+      title: t(`tools.${tool.key}.name`),
+      excerpt: t(`tools.${tool.key}.summary`),
+      kind: "tool",
+      category: tool.category,
+      tags: [tool.formula, ...tool.relatedEntityIds],
     });
   }
 

@@ -4,6 +4,8 @@ import { getAllArticles, getAllInsights } from "@/lib/content";
 import { getDiscussions, discussionLocales } from "@/lib/discussions";
 import { listGlossaryAlphabetical, listGlossarySlugs } from "@/lib/glossary";
 import { POLICY_DOCUMENTS, policyLocales, listDesksForDisplay } from "@/lib/editorial";
+import { INDICATORS, indicatorPath } from "@/lib/scientific-data/index";
+import { TOOLS, toolPath } from "@/lib/tools/registry";
 import {
   DEFAULT_LOCALE,
   LOCALES,
@@ -382,12 +384,40 @@ export async function buildSitemapEntries(): Promise<SitemapEntry[]> {
     }
   }
 
+  // Data and tool pages. Every one exists in every locale — the frame
+  // around the numbers is fully translated — so every locale is listed
+  // in the hreflang set, unlike the article corpus where a locale is
+  // advertised only where the article exists in it.
+  const dataEntries: SitemapEntry[] = [];
+  const dataPaths = [
+    "/data",
+    "/tools",
+    ...INDICATORS.map((i) => indicatorPath(i.indicatorId)),
+    ...TOOLS.map((t) => toolPath(t.slug)),
+  ];
+  for (const p of dataPaths) {
+    const alternates = buildLocalizedAlternates(p, [...LOCALES]);
+    for (const locale of LOCALES) {
+      dataEntries.push(
+        entry(
+          locale,
+          p,
+          maxDate(allArticleDates),
+          "monthly",
+          locale === DEFAULT_LOCALE ? 0.6 : 0.5,
+          alternates,
+        ),
+      );
+    }
+  }
+
   return dedupe([
     ...structuralEntries,
     ...contentEntries,
     ...discussionEntries,
     ...glossaryEntries,
     ...editorialEntries,
+    ...dataEntries,
   ]);
 }
 

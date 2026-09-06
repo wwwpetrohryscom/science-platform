@@ -18,6 +18,7 @@ related:
   - carbon-cycle-explained
   - ocean-color-observations
 pillar: what-is-an-ecosystem
+_bodyHash: c95cfad3
 ---
 
 Tout chiffre indiquant la quantité de carbone fixée par la biosphère est le produit d'un modèle, non la lecture d'un instrument. Ce n'est pas une critique de ces chiffres ; c'est un fait qui tient à la grandeur elle-même. Aucun dispositif ne peut être pointé vers une forêt ou une étendue d'océan et sommé de rapporter la photosynthèse. Ce qui se mesure, c'est une concentration, une réflectance, une masse de tissus récoltés ou le flux vertical de dioxyde de carbone au-dessus d'un couvert végétal — et chacune de ces grandeurs ne devient une estimation de production qu'une fois des hypothèses appliquées.
@@ -34,7 +35,7 @@ Quatre termes circulent pour ce qui semble être une seule grandeur, et ils ne d
 | Production nette de l'écosystème (NEP) | NPP moins la respiration des consommateurs et des décomposeurs | Dérivée de l'échange net mesuré par covariance turbulente, au signe inversé | Un petit résidu de deux flux importants |
 | Production nette du biome | NEP moins les incendies, les récoltes et l'export latéral | Inventaires, modèles de comptabilité et inversions atmosphériques | La grandeur dont un budget carbone a réellement besoin |
 
-En parcourant le tableau, le schéma qui se dégage est que la précision diminue à mesure que la grandeur devient plus utile. La GPP est conceptuellement claire et inobservable. La production nette du biome est ce dont dépendent un inventaire national ou une revendication de [puits de carbone](/en/glossary/carbon-sink), et c'est le terme qui comporte le plus de soustractions et la plus grande incertitude relative.
+En parcourant le tableau, le schéma qui se dégage est que la précision diminue à mesure que la grandeur devient plus utile. La GPP est conceptuellement claire et inobservable. La production nette du biome est ce dont dépendent un inventaire national ou une revendication de [puits de carbone](/fr/glossary/carbon-sink), et c'est le terme qui comporte le plus de soustractions et la plus grande incertitude relative.
 
 ## Rien, sur une tour à flux, ne mesure la photosynthèse
 
@@ -42,7 +43,7 @@ L'instrument de référence pour la production continentale est la covariance tu
 
 La GPP en est ensuite extraite par partition. L'approche la plus connue ajuste un modèle de respiration aux flux nocturnes, quand la photosynthèse est nulle, l'extrapole au jour à l'aide de la température, puis l'ajoute à l'échange net mesuré. Toute valeur de GPP issue d'une tour porte donc les hypothèses du modèle de partition qui l'a produite. Le [jeu de données FLUXNET2015](https://www.nature.com/articles/s41597-020-0534-3), qui a standardisé les traitements pour l'ensemble de la communauté, traite cette dépendance comme quelque chose à mesurer plutôt qu'à supprimer : il applique à chaque site la méthode nocturne et une méthode diurne fondée sur la réponse à la lumière, ajoute une troisième méthode de respiration au crépuscule partout où les mesures de stockage le permettent, et invite les utilisateurs à prendre l'écart entre les produits diurne et nocturne comme incertitude. Il indique explicitement que la respiration de l'écosystème et l'absorption photosynthétique sont des [produits de données](/fr/ecology/earth-observation/earth-observation-data-products) dérivés plutôt que des mesures, distribués avec les flux et accompagnés de leurs propres estimations d'incertitude.
 
-Ce jeu de données fixe aussi l'ampleur de la base observationnelle : 212 sites dans le monde, plus de 1,500 années-site de données jusqu'à 2014 incluse. Pour un flux planétaire, quelques centaines de tours constituent un échantillon mince, et il n'est pas réparti uniformément : la couverture est la plus dense en Europe tempérée et en Amérique du Nord et la plus lâche sous les tropiques, dans les déserts et aux hautes latitudes, c'est-à-dire à l'inverse de là où se situent les flux les plus grands et les moins certains.
+Ce jeu de données fixe aussi l'ampleur de la base observationnelle : 212 sites dans le monde, plus de 1500 années-site de données jusqu'à 2014 incluse. Pour un flux planétaire, quelques centaines de tours constituent un échantillon mince, et il n'est pas réparti uniformément : la couverture est la plus dense en Europe tempérée et en Amérique du Nord et la plus lâche sous les tropiques, dans les déserts et aux hautes latitudes, c'est-à-dire à l'inverse de là où se situent les flux les plus grands et les moins certains.
 
 ## De quelques centaines de tours à un champ global
 

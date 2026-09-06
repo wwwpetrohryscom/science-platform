@@ -17,6 +17,7 @@ related:
   - greenhouse-gases-and-radiative-forcing
   - earth-energy-budget-and-the-second-law
 pillar: what-is-climate-change
+_bodyHash: c4ef3d44
 ---
 
 Cuando los periodistas preguntan «¿continúa el calentamiento global?», la respuesta única más defendible es la serie del [contenido de calor del océano](/es/glossary/ocean-heat-content) (OHC). Alrededor del 90 % de la energía añadida al [sistema climático](/es/ecology/earth-systems/earth-system-science-explained) por el forzamiento de los gases de efecto invernadero es absorbida por el océano, y el resto se reparte entre las tierras emergidas, el hielo y la atmósfera. La proporción exacta depende del inventario y del periodo que se usen: el AR6 evalúa la absorción de calor oceánico en el 91 % del cambio total del inventario energético global, un reparto documentado en el [informe del Grupo de Trabajo I del AR6 del IPCC](https://www.ipcc.ch/report/ar6/wg1/) y en las publicaciones anuales State of the Climate de la NOAA alojadas en los [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/global-ocean-heat-content/).

@@ -1,7 +1,7 @@
 ---
 title: 'Rétroactions climatiques : l''arithmétique qui transforme une petite impulsion en une grande réponse'
 metaTitle: 'Rétroactions climatiques : petite impulsion, grande réponse'
-excerpt: 'Une rétroaction n''est pas une amplification vague. C''est un nombre en watts par mètre carré et par degré, elle obéit à une convention de signe, et l''AR6 du GIEC publie la valeur évaluée de chacune.'
+excerpt: Une rétroaction n'est pas une amplification vague. C'est un nombre en watts par mètre carré et par degré, elle obéit à une convention de signe, et l'AR6 du GIEC publie la valeur évaluée de chacune.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
@@ -18,13 +18,14 @@ related:
   - earth-system-science-explained
   - earth-system-models-explained
 pillar: earth-system-science-explained
+_bodyHash: 7234214a
 ---
 
 Le mot « rétroaction » sert à beaucoup d'usages flous dans les écrits grand public sur le climat, où il signifie généralement quelque chose comme « les choses empirent ». Dans la littérature technique, il désigne une notion précise et quantitative, et c'est cette précision qui rend le concept utile. Les rétroactions sont aussi le cas le plus net d'une propriété qui appartient au couplage plutôt qu'à un composant particulier, ce qui explique pourquoi [la science du système Terre traite la planète comme un système unique](/fr/ecology/earth-systems/earth-system-science-explained). Cet article expose la définition, la convention de signe et les valeurs évaluées — puis la partie qui compte le plus, à savoir l'endroit où se loge l'incertitude.
 
 ## Définition et convention de signe
 
-Un **forçage** est une modification imposée au [bilan énergétique](/fr/ecology/climate-change/climate-sensitivity-explained) de la planète, mesurée en watts par mètre carré. Une [rétroaction climatique](/en/glossary/climate-feedback) est un processus qui modifie le bilan énergétique *en réponse au* changement de température produit par le forçage. Elle s'exprime sous la forme d'un paramètre de rétroaction, en watts par mètre carré et par degré Celsius de réchauffement de la surface du globe.
+Un **forçage** est une modification imposée au [bilan énergétique](/fr/ecology/climate-change/climate-sensitivity-explained) de la planète, mesurée en watts par mètre carré. Une [rétroaction climatique](/fr/glossary/climate-feedback) est un processus qui modifie le bilan énergétique *en réponse au* changement de température produit par le forçage. Elle s'exprime sous la forme d'un paramètre de rétroaction, en watts par mètre carré et par degré Celsius de réchauffement de la surface du globe.
 
 La convention de signe déroute, car elle est contraire à l'intuition. Un paramètre de rétroaction s'écrit de telle sorte que **les valeurs négatives sont stabilisantes** et les valeurs positives amplificatrices. La raison en est que le paramètre total mesure l'intensité avec laquelle la planète augmente son rayonnement vers l'espace par degré de réchauffement ; un total fortement négatif signifie que la planète évacue facilement l'énergie excédentaire et se réchauffe peu.
 

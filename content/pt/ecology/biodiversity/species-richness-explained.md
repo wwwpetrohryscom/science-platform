@@ -17,6 +17,7 @@ related:
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
 readingTime: 5
+_bodyHash: aa1fe5b6
 ---
 
 A contagem das espécies distintas registadas num local é a forma mais familiar de resumir a biodiversidade e aquela que com maior probabilidade é lida de forma demasiado literal. A medida é simples de definir e barata de calcular, o que explica o seu alcance em inventários, relatórios e sínteses de apoio à decisão política. Transporta também pressupostos ocultos sobre como, onde e com que exaustividade a contagem foi feita, e são esses pressupostos que determinam quanto o número pode realmente sustentar.

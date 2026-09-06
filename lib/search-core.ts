@@ -38,7 +38,7 @@ import type { Locale } from "@/lib/i18n-config";
  * is the sum over *query terms* of that term's best field match.
  */
 
-export type SearchKind = "article" | "insight" | "glossary";
+export type SearchKind = "article" | "insight" | "glossary" | "indicator" | "tool";
 
 export type SearchDoc = {
   /** Locale-prefixed path. */

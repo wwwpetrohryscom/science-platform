@@ -18,6 +18,7 @@ related:
   - carbon-cycle-explained
   - ocean-color-observations
 pillar: what-is-an-ecosystem
+_bodyHash: f5fe7f5d
 ---
 
 Jede Zahl dazu, wie viel Kohlenstoff die Biosphäre fixiert, ist das Ergebnis eines Modells und nicht die Ablesung eines Instruments. Das ist keine Kritik an diesen Zahlen; es ist eine Tatsache über die Größe selbst. Es gibt kein Gerät, das man auf einen Wald oder eine Meeresfläche richten und dazu bringen könnte, die Photosynthese zu melden. Messbar sind eine Konzentration, eine Reflektanz, eine Masse geernteten Gewebes oder der vertikale Kohlendioxidfluss über einem Bestandesdach — und jede dieser Größen wird erst dann zu einer Produktionsschätzung, wenn Annahmen angewendet werden.
@@ -34,15 +35,15 @@ Vier Begriffe kursieren für das, was wie eine einzige Größe aussieht, und sie
 | Netto-Ökosystemproduktion (NEP) | NPP abzüglich der Respiration von Konsumenten und Destruenten | Aus dem mit Eddy-Kovarianz gemessenen Nettoaustausch abgeleitet, mit umgekehrtem Vorzeichen | Ein kleiner Rest zweier großer Flüsse |
 | Netto-Biomproduktion | NEP abzüglich Feuer, Ernte und lateralem Export | Inventuren, Buchhaltungsmodelle und atmosphärische Inversionen | Die Größe, die ein Kohlenstoffbudget tatsächlich braucht |
 
-Liest man die Tabelle von oben nach unten, zeigt sich das Muster, dass die Präzision abnimmt, je nützlicher die Größe wird. Die GPP ist begrifflich sauber und unbeobachtbar. Von der Netto-Biomproduktion hängt ab, was eine nationale Inventur oder eine Aussage über eine [Kohlenstoffsenke](/en/glossary/carbon-sink) behaupten kann, und sie ist der Term mit den meisten Subtraktionen und der größten relativen Unsicherheit.
+Liest man die Tabelle von oben nach unten, zeigt sich das Muster, dass die Präzision abnimmt, je nützlicher die Größe wird. Die GPP ist begrifflich sauber und unbeobachtbar. Von der Netto-Biomproduktion hängt ab, was eine nationale Inventur oder eine Aussage über eine [Kohlenstoffsenke](/de/glossary/carbon-sink) behaupten kann, und sie ist der Term mit den meisten Subtraktionen und der größten relativen Unsicherheit.
 
-## Nichts auf einem Flussmessturm misst die Photosynthese
+## Nichts auf einem Eddy-Kovarianz-Turm misst die Photosynthese
 
 Das Arbeitspferd unter den Instrumenten für die Landproduktion ist die Eddy-Kovarianz: ein schnelles Anemometer und ein Gasanalysator über dem Bestandesdach, die die vertikale Windgeschwindigkeit und die CO₂-Konzentration viele Male pro Sekunde abtasten, wobei ihre Kovarianz den vertikalen Nettofluss ergibt. Was dabei herauskommt, ist der Netto-Ökosystemaustausch — die Differenz zwischen Aufnahme und Gesamtrespiration — und sonst nichts.
 
 Die GPP wird anschließend durch Partitionierung gewonnen. Der bekannteste Ansatz passt ein Respirationsmodell an die nächtlichen Flüsse an, wenn die Photosynthese null ist, extrapoliert es mithilfe der Temperatur in den Tag und addiert es zum gemessenen Nettoaustausch zurück. Jeder GPP-Wert von einem Turm trägt daher die Annahmen desjenigen Partitionierungsmodells, das ihn erzeugt hat. Der [Datensatz FLUXNET2015](https://www.nature.com/articles/s41597-020-0534-3), der die Verarbeitung gemeinschaftsweit standardisiert hat, behandelt diese Abhängigkeit als etwas, das gemessen und nicht beseitigt werden soll: Er wendet auf jeden Standort sowohl das Nachtverfahren als auch ein Tagverfahren über die Lichtantwortkurve an, ergänzt überall dort, wo Speichermessungen es erlauben, ein drittes Verfahren der Respiration nach Sonnenuntergang, und fordert die Nutzer auf, die Differenz zwischen dem Tag- und dem Nachtprodukt als Unsicherheit zu nehmen. Er sagt ausdrücklich, dass Ökosystemrespiration und photosynthetische Aufnahme abgeleitete [Datenprodukte](/de/ecology/earth-observation/earth-observation-data-products) und keine Messungen sind, die zusammen mit den Flüssen und mit eigenen Unsicherheitsschätzungen verteilt werden.
 
-Dieser Datensatz steckt zugleich den Umfang der Beobachtungsbasis ab: 212 Standorte weltweit, über 1,500 Standortjahre an Daten bis einschließlich 2014. Für einen planetaren Fluss sind ein paar Hundert Türme eine dünne Stichprobe, und sie ist nicht gleichmäßig verteilt: Die Abdeckung ist im gemäßigten Europa und in Nordamerika am dichtesten und in den Tropen, den Wüsten und den hohen Breiten am dünnsten, also genau umgekehrt zu der Verteilung der größten und unsichersten Flüsse.
+Dieser Datensatz steckt zugleich den Umfang der Beobachtungsbasis ab: 212 Standorte weltweit, über 1500 Standortjahre an Daten bis einschließlich 2014. Für einen planetaren Fluss sind ein paar Hundert Türme eine dünne Stichprobe, und sie ist nicht gleichmäßig verteilt: Die Abdeckung ist im gemäßigten Europa und in Nordamerika am dichtesten und in den Tropen, den Wüsten und den hohen Breiten am dünnsten, also genau umgekehrt zu der Verteilung der größten und unsichersten Flüsse.
 
 ## Von ein paar Hundert Türmen zu einem globalen Feld
 

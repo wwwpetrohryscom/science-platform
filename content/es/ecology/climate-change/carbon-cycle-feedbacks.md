@@ -18,6 +18,7 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
+_bodyHash: f496ebf9
 ---
 
 La tendencia de la concentración atmosférica de CO₂ es lo que [medimos directamente](/es/ecology/climate-change/greenhouse-gas-concentrations-monitoring); la parte de las emisiones humanas que termina en la atmósfera —la magnitud que impulsa [el propio cambio climático](/es/ecology/climate-change/what-is-climate-change)— depende de cuánto del resto absorben el océano y la biosfera terrestre. En las últimas décadas, la tierra y el océano juntos han captado alrededor de la mitad de las emisiones antropogénicas de CO₂, una cifra que suele resumirse como «los sumideros», como si fuera una propiedad del planeta y no un equilibrio de mecanismos que dependen del estado del clima.

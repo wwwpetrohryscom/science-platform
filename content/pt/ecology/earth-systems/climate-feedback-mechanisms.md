@@ -1,7 +1,7 @@
 ---
 title: 'Retroalimentações climáticas: a aritmética que transforma um pequeno empurrão numa grande resposta'
 metaTitle: 'Retroalimentações: de um pequeno empurrão a uma grande resposta'
-excerpt: 'Uma retroalimentação não é uma amplificação vaga. É um número em watts por metro quadrado e por grau, obedece a uma convenção de sinais, e o AR6 do IPCC publica o valor avaliado de cada uma.'
+excerpt: Uma retroalimentação não é uma amplificação vaga. É um número em watts por metro quadrado e por grau, obedece a uma convenção de sinais, e o AR6 do IPCC publica o valor avaliado de cada uma.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
@@ -18,13 +18,14 @@ related:
   - earth-system-science-explained
   - earth-system-models-explained
 pillar: earth-system-science-explained
+_bodyHash: f3727f42
 ---
 
 A palavra “retroalimentação” faz um trabalho bastante impreciso nos textos de divulgação sobre o clima, onde costuma significar algo como “as coisas pioram”. Na literatura técnica designa algo preciso e quantitativo, e é essa precisão que torna o conceito útil. As retroalimentações são também o caso mais nítido de uma propriedade que pertence ao acoplamento e não a nenhum componente isolado, razão pela qual [a ciência do sistema Terra trata o planeta como um único sistema](/pt/ecology/earth-systems/earth-system-science-explained). Este artigo apresenta a definição, a convenção de sinais e os valores avaliados — e depois a parte que mais importa, que é onde se aloja a incerteza.
 
 ## Definição e convenção de sinais
 
-Um **forçamento** é uma alteração imposta ao [balanço energético](/pt/ecology/climate-change/climate-sensitivity-explained) do planeta, medida em watts por metro quadrado. Uma [retroalimentação climática](/en/glossary/climate-feedback) é um processo que altera o balanço energético *em resposta à* variação de temperatura que o forçamento produziu. Exprime-se como um parâmetro de retroalimentação, em watts por metro quadrado e por grau Celsius de aquecimento global à superfície.
+Um **forçamento** é uma alteração imposta ao [balanço energético](/pt/ecology/climate-change/climate-sensitivity-explained) do planeta, medida em watts por metro quadrado. Uma [retroalimentação climática](/pt/glossary/climate-feedback) é um processo que altera o balanço energético *em resposta à* variação de temperatura que o forçamento produziu. Exprime-se como um parâmetro de retroalimentação, em watts por metro quadrado e por grau Celsius de aquecimento global à superfície.
 
 A convenção de sinais confunde, porque é o contrário da intuição. Um parâmetro de retroalimentação escreve-se de modo que **os valores negativos são estabilizadores** e os positivos, amplificadores. A razão é que o parâmetro total mede com que intensidade o planeta aumenta a sua radiação para o espaço por grau de aquecimento; um total fortemente negativo significa que o planeta liberta com facilidade a energia excedente e aquece pouco.
 

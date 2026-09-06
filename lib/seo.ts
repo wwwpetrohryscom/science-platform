@@ -481,6 +481,96 @@ export function definedTermJsonLd(input: {
  * JSON-LD for the glossary index — a DefinedTermSet containing every
  * term as a DefinedTerm child. Mirrors the visible glossary page.
  */
+/**
+ * Dataset schema for an indicator page.
+ *
+ * `Dataset` is used because the page genuinely describes a dataset: it
+ * names the distribution, the licence, the spatial and temporal
+ * coverage, the variable measured and its unit, and every one of those
+ * is visible on the page rather than asserted only in the markup.
+ *
+ * `dateModified` is the date this site last read the provider's file,
+ * not a claim about when the provider updated. Those are different
+ * facts and the page states both separately.
+ */
+export function datasetJsonLd(input: {
+  name: string;
+  description: string;
+  /** Locale-prefixed path of the page describing the dataset. */
+  url: string;
+  creator: string;
+  license?: string;
+  temporalCoverage: string;
+  spatialCoverage: string;
+  variableMeasured: string;
+  unitText: string;
+  distributionUrl?: string;
+  isBasedOnUrl: string;
+  dateModified?: string;
+}) {
+  const url = new URL(input.url, siteConfig.url).toString();
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "@id": `${url}#dataset`,
+    url,
+    name: input.name,
+    description: input.description,
+    creator: { "@type": "Organization", name: input.creator },
+    ...(input.license ? { license: input.license } : {}),
+    temporalCoverage: input.temporalCoverage,
+    spatialCoverage: input.spatialCoverage,
+    variableMeasured: {
+      "@type": "PropertyValue",
+      name: input.variableMeasured,
+      unitText: input.unitText,
+    },
+    isBasedOn: input.isBasedOnUrl,
+    ...(input.distributionUrl
+      ? {
+          distribution: {
+            "@type": "DataDownload",
+            contentUrl: input.distributionUrl,
+          },
+        }
+      : {}),
+    ...(input.dateModified ? { dateModified: input.dateModified } : {}),
+    isAccessibleForFree: true,
+  };
+}
+
+/**
+ * SoftwareApplication schema for a calculator page.
+ *
+ * The type is accurate: the page is a calculator that runs in a browser
+ * and costs nothing. Nothing is claimed here that a visitor cannot see
+ * — no ratings, no reviews, no download, no price beyond the zero that
+ * is true.
+ */
+export function softwareApplicationJsonLd(input: {
+  name: string;
+  description: string;
+  /** Locale-prefixed path. */
+  url: string;
+  inLanguage: string;
+}) {
+  const url = new URL(input.url, siteConfig.url).toString();
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": `${url}#tool`,
+    url,
+    name: input.name,
+    description: input.description,
+    applicationCategory: "EducationalApplication",
+    operatingSystem: "Any browser",
+    inLanguage: input.inLanguage,
+    isAccessibleForFree: true,
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    publisher: { "@type": "Organization", name: siteConfig.name },
+  };
+}
+
 export function definedTermSetJsonLd(input: {
   title: string;
   description: string;

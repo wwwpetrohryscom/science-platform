@@ -1,7 +1,7 @@
 ---
 title: 'La teledetección en el seguimiento de la biodiversidad: lo que los satélites pueden y no pueden ver'
 metaTitle: 'Teledetección y biodiversidad: lo que ven los satélites'
-excerpt: 'Los satélites no pueden ver la mayoría de las especies, pero miden la estructura de los ecosistemas de forma coherente y a escala global. Este artículo explica qué aporta realmente la observación de la Tierra al seguimiento de la biodiversidad — cobertura del suelo, estructura del dosel, estado de la vegetación — y los límites de inferir la diversidad biológica a partir de una señal espectral.'
+excerpt: Los satélites no ven la mayoría de las especies, pero miden la estructura de los ecosistemas de forma coherente y global. Qué aporta la observación de la Tierra al seguimiento de la biodiversidad — cobertura del suelo, dosel, estado de la vegetación — y los límites de inferirla de una señal espectral.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
@@ -17,13 +17,14 @@ related:
   - ecological-integrity-indicators
 pillar: why-species-counts-mislead-conservation
 readingTime: 5
+_bodyHash: 7a435726
 ---
 
 Un satélite que pasa por encima no distingue una curruca de un chochín y, sin embargo, puede cartografiar el bosque del que ambas dependen, observar cómo ese bosque cambia estación tras estación y hacerlo sobre todo el planeta a la vez. La brecha que no puede cerrar es la misma que limita a los muestreos de campo, descrita en [por qué contar especies induce a error](/es/ecology/biodiversity/why-species-counts-mislead-conservation). Esa brecha — entre lo que un instrumento detecta y lo que la conservación quiere saber — define a la vez la promesa y los límites de la observación de la Tierra. Comprenderla es central para la tarea más amplia del [seguimiento de la biodiversidad y la salud de los ecosistemas](/es/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Lo que los satélites observan realmente
 
-La [teledetección](/en/glossary/remote-sensing) recoge información sobre los ecosistemas desde satélites y aeronaves sin tocar el suelo. No identifica directamente a la mayoría de las especies una por una. Lo que sí mide bien es el estado físico de los ecosistemas: dónde está el hábitat, cuánto queda de él y en qué condición se encuentra.
+La [teledetección](/es/glossary/remote-sensing) recoge información sobre los ecosistemas desde satélites y aeronaves sin tocar el suelo. No identifica directamente a la mayoría de las especies una por una. Lo que sí mide bien es el estado físico de los ecosistemas: dónde está el hábitat, cuánto queda de él y en qué condición se encuentra.
 
 Los productos fiables se agrupan en unas pocas familias. Los sensores cartografían la [cobertura del suelo](/es/ecology/earth-observation/land-cover-change-detection) y su cambio, siguen la extensión y la pérdida de bosque, y estiman el verdor y la productividad de la vegetación mediante índices como el NDVI. Detectan aguas superficiales y humedales, registran incendios y — cuando intervienen instrumentos lidar — resuelven la estructura tridimensional del dosel forestal. Estas observaciones se sitúan de lleno en la clase de estructura de los ecosistemas de las [variables esenciales de biodiversidad](/es/ecology/biodiversity/essential-biodiversity-variables-monitoring), la dimensión que los muestreos de campo por sí solos no pueden cubrir a gran escala.
 
@@ -31,7 +32,7 @@ Los productos fiables se agrupan en unas pocas familias. Los sensores cartograf�
 
 Buena parte de esta capacidad descansa en unas pocas misiones de larga duración. El registro [Landsat](https://www.usgs.gov/), conjunto de la NASA y el USGS, aporta décadas de imágenes coherentes, un archivo cuya continuidad importa tanto como cualquier imagen aislada, porque el cambio solo es visible frente a una línea de base estable. El MODIS de la NASA añade medidas frecuentes de la productividad de la vegetación, mientras que su misión lidar GEDI muestrea la estructura del dosel en tres dimensiones.
 
-En el lado europeo, el programa [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth) de la Agencia Espacial Europea opera los satélites Sentinel, cuyos pasos frecuentes alimentan los [productos terrestres](https://land.copernicus.eu/) operativos del Servicio de Vigilancia Terrestre de Copernicus. La misión BIOMASS de la ESA está diseñada para estimar la cantidad de material carbonado que retienen los bosques. En conjunto, estos sistemas convierten la radiancia bruta en las capas de cobertura del suelo y de vegetación de las que depende el análisis posterior, incluidos los mapas que sustentan las [métricas de fragmentación del hábitat](/es/ecology/biodiversity/habitat-fragmentation-metrics) y muchas medidas de la [fragmentación del hábitat](/en/glossary/habitat-fragmentation).
+En el lado europeo, el programa [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth) de la Agencia Espacial Europea opera los satélites Sentinel, cuyos pasos frecuentes alimentan los [productos terrestres](https://land.copernicus.eu/) operativos del Servicio de Vigilancia Terrestre de Copernicus. La misión BIOMASS de la ESA está diseñada para estimar la cantidad de material carbonado que retienen los bosques. En conjunto, estos sistemas convierten la radiancia bruta en las capas de cobertura del suelo y de vegetación de las que depende el análisis posterior, incluidos los mapas que sustentan las [métricas de fragmentación del hábitat](/es/ecology/biodiversity/habitat-fragmentation-metrics) y muchas medidas de la [fragmentación del hábitat](/es/glossary/habitat-fragmentation).
 
 ## Del espectro a la diversidad: una frontera de investigación
 

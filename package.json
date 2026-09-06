@@ -24,6 +24,7 @@
     "data:ingest": "tsx scripts/ingest-indicator-series.ts",
     "data:check": "tsx scripts/ingest-indicator-series.ts --check",
     "tools:test": "tsx scripts/test-tools.ts",
+    "data:validate": "tsx scripts/validate-data.ts",
     "evidence:check": "tsx scripts/evidence-build.ts --check",
     "evidence:validate": "tsx scripts/evidence-validate.ts",
     "entities:build": "tsx scripts/entities-build.ts",

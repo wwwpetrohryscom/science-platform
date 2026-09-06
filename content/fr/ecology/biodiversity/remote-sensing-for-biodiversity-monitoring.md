@@ -1,7 +1,7 @@
 ---
 title: 'La télédétection au service du suivi de la biodiversité : ce que les satellites voient et ne voient pas'
 metaTitle: 'Télédétection et biodiversité : ce que voient les satellites'
-excerpt: 'Les satellites ne voient pas la plupart des espèces, mais ils mesurent la structure des écosystèmes de façon cohérente et à l''échelle mondiale. Cet article explique ce que l''observation de la Terre apporte réellement au suivi de la biodiversité — occupation du sol, structure de la canopée, état de la végétation — et les limites de l''inférence de la diversité biologique à partir d''un signal spectral.'
+excerpt: Les satellites ne voient pas la plupart des espèces, mais ils mesurent la structure des écosystèmes de façon cohérente et mondiale. Ce que l'observation de la Terre apporte au suivi de la biodiversité — occupation du sol, canopée, état de la végétation — et les limites de l'inférence à partir d'un signal spectral.
 type: expert
 author: biodiversity-conservation-desk
 publishedDate: '2026-06-02'
@@ -17,13 +17,14 @@ related:
   - ecological-integrity-indicators
 pillar: why-species-counts-mislead-conservation
 readingTime: 5
+_bodyHash: 820d22eb
 ---
 
 Un satellite qui passe au-dessus de nos têtes ne sait pas distinguer une fauvette d'un troglodyte, et pourtant il peut cartographier la forêt dont dépendent l'une et l'autre, observer cette forêt changer au fil des saisons, et le faire à l'échelle de la planète entière d'un seul tenant. L'écart qu'il ne peut combler est celui qui limite aussi les relevés de terrain, décrit dans [pourquoi le décompte des espèces fausse les priorités](/fr/ecology/biodiversity/why-species-counts-mislead-conservation). Cet écart — entre ce qu'un instrument détecte et ce que la conservation cherche à savoir — définit à la fois la promesse et les limites de l'observation de la Terre. Le comprendre est central pour la tâche plus large de la [surveillance de la biodiversité et de la santé des écosystèmes](/fr/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health).
 
 ## Ce que les satellites observent réellement
 
-La [télédétection](/en/glossary/remote-sensing) recueille des informations sur les écosystèmes depuis des satellites et des aéronefs, sans contact avec le sol. Elle n'identifie pas directement la plupart des espèces prises une à une. Ce qu'elle mesure bien, c'est l'état physique des écosystèmes : où se trouve l'habitat, quelle part en subsiste et dans quel état il se trouve.
+La [télédétection](/fr/glossary/remote-sensing) recueille des informations sur les écosystèmes depuis des satellites et des aéronefs, sans contact avec le sol. Elle n'identifie pas directement la plupart des espèces prises une à une. Ce qu'elle mesure bien, c'est l'état physique des écosystèmes : où se trouve l'habitat, quelle part en subsiste et dans quel état il se trouve.
 
 Les produits fiables se rangent en quelques familles. Les capteurs cartographient l'[occupation du sol](/fr/ecology/earth-observation/land-cover-change-detection) et ses changements, suivent l'étendue des forêts et leur perte, et évaluent la verdeur et la productivité de la végétation au moyen d'indices tels que le NDVI. Ils détectent les eaux de surface et les zones humides, enregistrent les incendies et — lorsque des instruments lidar sont mis en jeu — résolvent la structure tridimensionnelle de la canopée forestière. Ces observations relèvent pleinement de la classe « structure des écosystèmes » des [variables essentielles de biodiversité](/fr/ecology/biodiversity/essential-biodiversity-variables-monitoring), la dimension que les relevés de terrain seuls ne peuvent couvrir à grande échelle.
 
@@ -31,7 +32,7 @@ Les produits fiables se rangent en quelques familles. Les capteurs cartographien
 
 L'essentiel de cette capacité repose sur quelques missions de longue durée. Les archives [Landsat](https://www.usgs.gov/), menées conjointement par la NASA et l'USGS, fournissent des décennies d'imagerie cohérente, et la continuité de ces archives compte autant que n'importe quelle image isolée, car le changement n'est visible que sur fond de référence stable. MODIS, de la NASA, y ajoute des mesures fréquentes de la productivité de la végétation, tandis que sa mission lidar GEDI échantillonne la structure de la canopée en trois dimensions.
 
-Du côté européen, le programme [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth) de l'Agence spatiale européenne exploite les satellites Sentinel, dont les passages fréquents alimentent les [produits terrestres](https://land.copernicus.eu/) opérationnels du service Copernicus de surveillance des terres. La mission BIOMASS de l'ESA est conçue pour estimer la quantité de matière carbonée contenue dans les forêts. Ensemble, ces systèmes convertissent la luminance brute en couches d'occupation du sol et de végétation dont dépendent les analyses en aval, y compris les cartes qui sous-tendent les [métriques de fragmentation des habitats](/fr/ecology/biodiversity/habitat-fragmentation-metrics) et bien des mesures de la [fragmentation des habitats](/en/glossary/habitat-fragmentation).
+Du côté européen, le programme [Observing the Earth](https://www.esa.int/Applications/Observing_the_Earth) de l'Agence spatiale européenne exploite les satellites Sentinel, dont les passages fréquents alimentent les [produits terrestres](https://land.copernicus.eu/) opérationnels du service Copernicus de surveillance des terres. La mission BIOMASS de l'ESA est conçue pour estimer la quantité de matière carbonée contenue dans les forêts. Ensemble, ces systèmes convertissent la luminance brute en couches d'occupation du sol et de végétation dont dépendent les analyses en aval, y compris les cartes qui sous-tendent les [métriques de fragmentation des habitats](/fr/ecology/biodiversity/habitat-fragmentation-metrics) et bien des mesures de la [fragmentation des habitats](/fr/glossary/habitat-fragmentation).
 
 ## Du spectre à la diversité : un front de recherche
 

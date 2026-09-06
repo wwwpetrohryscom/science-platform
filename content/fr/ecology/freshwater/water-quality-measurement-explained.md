@@ -19,6 +19,7 @@ related:
   - freshwater-biodiversity-decline
   - groundwater-and-aquifer-depletion
 pillar: freshwater-ecosystems-explained
+_bodyHash: 2cec058f
 ---
 
 La qualité de l'eau n'existe pas dans l'abstrait. Un échantillon a une température, une concentration en oxygène, une charge en matières en suspension et un dénombrement bactérien ; que ces valeurs soient bonnes ou mauvaises relève d'une comparaison avec un seuil, et le seuil encode une finalité — boire, se baigner, irriguer, ou faire vivre une communauté biologique donnée. Un même tronçon de rivière peut satisfaire à un test et échouer à un autre le même jour. L'essentiel de la confusion sur les bilans de qualité de l'eau vient de ce qu'un jugement de conformité y est lu comme s'il s'agissait d'une mesure physique. Ce qui suit vaut pour l'ensemble des compartiments passés en revue dans le panorama des [écosystèmes d'eau douce](/fr/ecology/freshwater/freshwater-ecosystems-explained), même si le problème d'échantillonnage diffère fortement entre une rivière, un lac et un aquifère.

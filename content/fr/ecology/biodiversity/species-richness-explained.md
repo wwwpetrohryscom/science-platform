@@ -17,6 +17,7 @@ related:
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
 readingTime: 5
+_bodyHash: 96bf2e1a
 ---
 
 Le décompte des espèces distinctes recensées en un lieu est la manière la plus familière de résumer la biodiversité, et celle que l'on risque le plus de prendre au pied de la lettre. La mesure est simple à définir et peu coûteuse à calculer, ce qui explique sa diffusion dans les inventaires, les rapports et les synthèses destinées aux décideurs. Elle véhicule aussi des hypothèses implicites sur la manière dont le comptage a été mené, sur son lieu et sur son exhaustivité, et ce sont ces hypothèses qui déterminent ce que le chiffre peut réellement étayer.

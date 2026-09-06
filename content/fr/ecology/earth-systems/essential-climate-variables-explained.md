@@ -18,6 +18,7 @@ related:
   - earth-system-predictability-explained
   - climate-variability-and-teleconnections
 pillar: earth-system-science-explained
+_bodyHash: a0333cf5
 ---
 
 Derrière toute longue série climatique se tient une décision antérieure : celle de continuer à mesurer cette grandeur-là, indéfiniment, à l'échelle du globe, quoi qu'il advienne par ailleurs. Ces décisions ne sont pas prises au cas par cas. Elles sont codifiées sous le nom de **variables climatiques essentielles**, ossature observationnelle de [la science du système Terre](/fr/ecology/earth-systems/earth-system-science-explained), et la liste est assez courte pour mériter d'être connue et assez structurée pour mériter d'être lue de près.
@@ -50,7 +51,7 @@ Le domaine **terres émergées** est le plus hétérogène. Son sous-domaine d'h
 
 Le domaine **océan** se divise en trois. Les variables physiques comprennent la température et la salinité de surface et de subsurface, les courants de surface et de subsurface, le [niveau de la mer](/fr/ecology/climate-change/sea-level-rise-indicators), l'état de la mer, la glace de mer, la contrainte de surface et le flux de chaleur à la surface de l'océan. Les variables biogéochimiques comprennent le carbone inorganique, l'oxygène, les nutriments, le [protoxyde d'azote](/fr/ecology/earth-systems/nitrogen-cycle-explained), la couleur de l'océan et les traceurs transitoires. Le sous-domaine biologique est le plus court de toute la liste : les habitats marins et le plancton.
 
-Deux traits ressortent. **La cryosphère et la biosphère ne sont pas ici des domaines de premier rang**, contrairement à l'image conceptuelle en cinq composantes retenue dans [les composantes du système Terre](/fr/ecology/earth-systems/earth-system-components-explained) — elles apparaissent comme des sous-domaines des terres émergées, ce qui reflète qui exploite les instruments plutôt qu'un jugement d'ordre physique. Et **les variables biologiques sont remarquablement clairsemées** par rapport aux variables physiques, ce en quoi transparaît le critère de faisabilité : un satellite restitue chaque jour la température de surface de la mer à l'échelle du globe, et rien ne fait l'équivalent pour les écosystèmes marins.
+Deux traits ressortent. **La cryosphère et la biosphère ne sont pas ici des domaines de premier rang**, contrairement à l'image conceptuelle en cinq composantes retenue dans [les composantes du système Terre](/fr/ecology/earth-systems/earth-system-components-explained) — elles apparaissent comme des sous-domaines des terres émergées, ce qui reflète qui exploite les instruments plutôt qu'un jugement d'ordre physique. Et **les variables biologiques sont remarquablement clairsemées** par rapport aux variables physiques, ce en quoi transparaît le critère de faisabilité : un satellite peut restituer chaque jour la température de surface de la mer à l'échelle du globe, et rien ne fait l'équivalent pour les écosystèmes marins.
 
 ## Pourquoi le concept est utile
 

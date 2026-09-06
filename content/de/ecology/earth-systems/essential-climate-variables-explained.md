@@ -18,6 +18,7 @@ related:
   - earth-system-predictability-explained
   - climate-variability-and-teleconnections
 pillar: earth-system-science-explained
+_bodyHash: ba8673e3
 ---
 
 Hinter jeder langen Klimareihe steht eine vorgängige Entscheidung: dass jemand genau diese eine Größe weiter messen soll, unbefristet, weltweit, was sich sonst auch ändern mag. Solche Entscheidungen fallen nicht von Fall zu Fall. Sie sind als **wesentliche Klimavariablen** kodifiziert, das Beobachtungsgerüst der [Erdsystemwissenschaft](/de/ecology/earth-systems/earth-system-science-explained), und die Liste ist kurz genug, um sie zu kennen, und klar genug gegliedert, um sie genau zu lesen.

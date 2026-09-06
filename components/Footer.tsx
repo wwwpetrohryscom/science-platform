@@ -60,6 +60,8 @@ export function Footer({ locale }: FooterProps) {
               : "/en/glossary",
           label: t("footer.glossary"),
         },
+        { href: localizedPath(locale, "/data"), label: t("nav.data") },
+        { href: localizedPath(locale, "/tools"), label: t("nav.tools") },
       ],
     },
     {

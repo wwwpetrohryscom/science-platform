@@ -18,6 +18,7 @@ related:
   - carbon-cycle-explained
   - ocean-color-observations
 pillar: what-is-an-ecosystem
+_bodyHash: 2e1f11bb
 ---
 
 Toda cifra sobre cuánto carbono fija la biosfera es el resultado de un modelo, no la lectura de un instrumento. Eso no es una crítica a las cifras; es un hecho sobre la magnitud. No existe ningún dispositivo que pueda apuntarse a un bosque o a una extensión de océano y obligarse a informar de la fotosíntesis. Lo que puede medirse es una concentración, una reflectancia, una masa de tejido cosechado o el flujo vertical de dióxido de carbono sobre un dosel — y cada una de esas cosas se convierte en una estimación de producción solo después de aplicar supuestos.
@@ -34,7 +35,7 @@ Circulan cuatro términos para lo que parece una sola magnitud, y difieren únic
 | Producción neta del ecosistema (NEP) | NPP menos la respiración de consumidores y descomponedores | Derivada del intercambio neto medido por covarianza turbulenta, con el signo invertido | Un pequeño residuo de dos flujos grandes |
 | Producción neta del bioma | NEP menos incendios, cosecha y exportación lateral | Inventarios, modelos contables e inversiones atmosféricas | La magnitud que realmente necesita un presupuesto de carbono |
 
-Al leer la tabla de arriba abajo, el patrón es que la precisión disminuye a medida que la magnitud se vuelve más útil. La GPP es conceptualmente limpia e inobservable. La producción neta del bioma es aquello de lo que dependen un inventario nacional o una afirmación sobre un [sumidero de carbono](/en/glossary/carbon-sink), y es el término con más restas y con la mayor incertidumbre relativa.
+Al leer la tabla de arriba abajo, el patrón es que la precisión disminuye a medida que la magnitud se vuelve más útil. La GPP es conceptualmente limpia e inobservable. La producción neta del bioma es aquello de lo que dependen un inventario nacional o una afirmación sobre un [sumidero de carbono](/es/glossary/carbon-sink), y es el término con más restas y con la mayor incertidumbre relativa.
 
 ## Nada en una torre de flujo mide la fotosíntesis
 
@@ -42,7 +43,7 @@ El instrumento de referencia para la producción terrestre es la covarianza turb
 
 La GPP se extrae después mediante partición. El enfoque más conocido ajusta un modelo de respiración a los flujos nocturnos, cuando la fotosíntesis es nula, lo extrapola al día usando la temperatura y lo suma de nuevo al intercambio neto medido. Todo valor de GPP procedente de una torre arrastra, por tanto, los supuestos del modelo de partición que lo produjo. El [conjunto de datos FLUXNET2015](https://www.nature.com/articles/s41597-020-0534-3), que estandarizó el procesamiento para toda la comunidad, trata esa dependencia como algo que hay que medir y no eliminar: aplica en cada sitio tanto el método nocturno como un método diurno basado en la respuesta a la luz, añade un tercer método de respiración al anochecer allí donde las mediciones de almacenamiento lo permiten, y pide a los usuarios que tomen la diferencia entre los productos diurno y nocturno como incertidumbre. Es explícito en que la respiración del ecosistema y la absorción fotosintética son [productos de datos](/es/ecology/earth-observation/earth-observation-data-products) derivados y no mediciones, distribuidos junto con los flujos y con sus propias estimaciones de incertidumbre.
 
-Ese conjunto de datos fija además la escala de la base observacional: 212 sitios en todo el mundo y más de 1,500 años-sitio de datos hasta 2014 inclusive. Para un flujo planetario, unos pocos centenares de torres son una muestra escasa, y además no está repartida de manera uniforme: la cobertura es más densa en la Europa templada y en América del Norte y más rala en los trópicos, los desiertos y las latitudes altas, justo lo contrario de donde se sitúan los flujos mayores y menos ciertos.
+Ese conjunto de datos fija además la escala de la base observacional: 212 sitios en todo el mundo y más de 1500 años-sitio de datos hasta 2014 inclusive. Para un flujo planetario, unos pocos centenares de torres son una muestra escasa, y además no está repartida de manera uniforme: la cobertura es más densa en la Europa templada y en América del Norte y más rala en los trópicos, los desiertos y las latitudes altas, justo lo contrario de donde se sitúan los flujos mayores y menos ciertos.
 
 ## De unos pocos centenares de torres a un campo global
 

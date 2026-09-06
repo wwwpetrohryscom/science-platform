@@ -17,6 +17,7 @@ related:
   - biodiversity-indicators-explained
 pillar: why-species-counts-mislead-conservation
 readingTime: 5
+_bodyHash: 8ad6d684
 ---
 
 El recuento de las especies distintas registradas en un lugar es la forma más familiar de resumir la biodiversidad y la que con mayor probabilidad se interpreta de manera demasiado literal. La medida es sencilla de definir y barata de calcular, lo que explica su presencia en inventarios, informes y resúmenes destinados a la formulación de políticas. También arrastra supuestos ocultos sobre cómo, dónde y con qué exhaustividad se realizó el conteo, y son esos supuestos los que deciden cuánto puede sostener realmente la cifra.
@@ -45,7 +46,7 @@ Para poner en pie de igualdad muestras desiguales, dos técnicas relacionadas so
 
 La limitación definitoria de un recuento de especies es que ignora tanto la abundancia como la identidad. Cada especie de la lista cuenta una vez, esté representada por un solo individuo o por miles, y sea cual sea el papel ecológico que desempeñe. Un sitio dominado por una especie común junto a muchos singletons puede obtener, por tanto, exactamente la misma puntuación que un sitio donde los individuos se reparten de manera uniforme entre las especies. Las dos comunidades distan mucho de ser equivalentes y, sin embargo, el recuento no puede distinguirlas.
 
-Por eso la riqueza por sí sola es una señal de conservación débil, y por eso los ecólogos la combinan con medidas de cómo se distribuyen los individuos entre las especies. La [equidad de especies](/es/glossary/species-evenness) recoge ese equilibrio, y combinarla con el recuento ofrece una imagen más completa que cualquiera de las dos por separado. El razonamiento que hay detrás de esas medidas compuestas se desarrolla con más detalle en nuestra nota sobre [equitatividad y diversidad de especies](/es/ecology/biodiversity/species-evenness-and-diversity), mientras que las consecuencias para la priorización se abordan en [por qué contar especies induce a error al priorizar la conservación](/es/ecology/biodiversity/why-species-counts-mislead-conservation).
+Por eso la riqueza por sí sola es una señal de conservación débil, y por eso los ecólogos la combinan con medidas de cómo se distribuyen los individuos entre las especies. La [equidad de especies](/es/glossary/species-evenness) recoge ese equilibrio, y combinarla con el recuento ofrece una imagen más completa que cualquiera de las dos por separado. El razonamiento que hay detrás de esas medidas compuestas se desarrolla con más detalle en nuestra nota sobre [equidad y diversidad de especies](/es/ecology/biodiversity/species-evenness-and-diversity), mientras que las consecuencias para la priorización se abordan en [por qué contar especies induce a error al priorizar la conservación](/es/ecology/biodiversity/why-species-counts-mislead-conservation).
 
 ## Leer una cifra de riqueza con la cautela adecuada
 

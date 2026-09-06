@@ -1,7 +1,7 @@
 ---
 title: 'Klimarückkopplungen: die Arithmetik, die aus einem kleinen Anstoß eine große Reaktion macht'
 metaTitle: 'Klimarückkopplungen: kleiner Anstoß, große Reaktion'
-excerpt: 'Eine Rückkopplung ist keine vage Verstärkung. Sie ist eine Zahl in Watt pro Quadratmeter und Grad, sie folgt einer Vorzeichenkonvention, und der AR6 des IPCC veröffentlicht für jede einzelne den bewerteten Wert.'
+excerpt: Eine Rückkopplung ist keine vage Verstärkung. Sie ist eine Zahl in Watt pro Quadratmeter und Grad, sie folgt einer Vorzeichenkonvention, und der AR6 des IPCC veröffentlicht für jede einzelne den bewerteten Wert.
 type: expert
 author: earth-systems-desk
 publishedDate: '2026-08-29'
@@ -18,13 +18,14 @@ related:
   - earth-system-science-explained
   - earth-system-models-explained
 pillar: earth-system-science-explained
+_bodyHash: '2732e785'
 ---
 
 Das Wort „Rückkopplung“ leistet in populären Texten über das Klima viel unscharfe Arbeit und bedeutet dort meist so viel wie „es wird schlimmer“. In der Fachliteratur bezeichnet es etwas Präzises und Quantitatives, und genau diese Präzision macht den Begriff brauchbar. Rückkopplungen sind zudem der deutlichste Fall einer Eigenschaft, die der Kopplung zukommt und nicht einer einzelnen Komponente; deshalb [behandelt die Erdsystemwissenschaft den Planeten als ein einziges System](/de/ecology/earth-systems/earth-system-science-explained). Dieser Artikel legt die Definition, die Vorzeichenkonvention und die bewerteten Werte dar – und dann den Teil, auf den es am meisten ankommt, nämlich die Frage, wo die Unsicherheit sitzt.
 
 ## Definition und Vorzeichenkonvention
 
-Ein **Antrieb** ist eine dem [Energiehaushalt](/de/ecology/climate-change/climate-sensitivity-explained) des Planeten auferlegte Änderung, gemessen in Watt pro Quadratmeter. Eine [Klimarückkopplung](/en/glossary/climate-feedback) ist ein Prozess, der den Energiehaushalt *als Reaktion auf* die vom Antrieb erzeugte Temperaturänderung verändert. Sie wird als Rückkopplungsparameter in Watt pro Quadratmeter und Grad Celsius globaler Oberflächenerwärmung angegeben.
+Ein **Antrieb** ist eine dem [Energiehaushalt](/de/ecology/climate-change/climate-sensitivity-explained) des Planeten auferlegte Änderung, gemessen in Watt pro Quadratmeter. Eine [Klimarückkopplung](/de/glossary/climate-feedback) ist ein Prozess, der den Energiehaushalt *als Reaktion auf* die vom Antrieb erzeugte Temperaturänderung verändert. Sie wird als Rückkopplungsparameter in Watt pro Quadratmeter und Grad Celsius globaler Oberflächenerwärmung angegeben.
 
 Die Vorzeichenkonvention bringt viele durcheinander, denn sie läuft der Intuition zuwider. Ein Rückkopplungsparameter wird so geschrieben, dass **negative Werte stabilisierend** und positive Werte verstärkend wirken. Der Grund ist, dass der Gesamtparameter misst, wie stark der Planet seine Abstrahlung ins Weltall pro Grad Erwärmung erhöht; ein stark negativer Gesamtwert bedeutet, dass der Planet die zusätzliche Energie leicht abgibt und sich nur wenig erwärmt.
 

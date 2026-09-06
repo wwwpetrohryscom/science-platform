@@ -179,10 +179,22 @@ async function indexChecks() {
     "index · every document has a title and a url",
     en.docs.every((d) => d.title.trim() && d.url.startsWith("/")),
   );
+  // Articles, insights, glossary terms, indicators and tools are all
+  // searchable. An indicator or a tool that fell out of the index would
+  // be reachable only from the nav, which is how a page becomes
+  // invisible without anything failing.
   check(
-    "index · glossary, articles and insights are all present",
-    new Set(en.docs.map((d) => d.kind)).size === 3,
+    "index · every kind of page is present",
+    new Set(en.docs.map((d) => d.kind)).size === 5,
     [...new Set(en.docs.map((d) => d.kind))].join(","),
+  );
+  check(
+    "index · indicators and tools are in every locale, not only English",
+    fr.docs.filter((d) => d.kind === "indicator").length ===
+      en.docs.filter((d) => d.kind === "indicator").length &&
+      fr.docs.filter((d) => d.kind === "tool").length ===
+        en.docs.filter((d) => d.kind === "tool").length,
+    `fr ${fr.docs.filter((d) => d.kind === "indicator").length}/${fr.docs.filter((d) => d.kind === "tool").length}`,
   );
 }
 

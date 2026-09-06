@@ -18,6 +18,7 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
+_bodyHash: 45e28d3d
 ---
 
 La tendance de la concentration atmosphérique de CO₂ est ce que l'on [mesure directement](/fr/ecology/climate-change/greenhouse-gas-concentrations-monitoring) ; la part des émissions humaines qui finit dans l'atmosphère — la grandeur qui pilote [le changement climatique lui-même](/fr/ecology/climate-change/what-is-climate-change) — dépend de la fraction du reste qu'absorbent l'océan et la biosphère terrestre. Au cours des dernières décennies, les terres et l'océan ont capté ensemble près de la moitié des émissions anthropiques de CO₂ — un chiffre que l'on résume souvent par « les puits », comme s'il s'agissait d'une propriété de la planète et non d'un équilibre de mécanismes qui dépendent de l'état du climat.

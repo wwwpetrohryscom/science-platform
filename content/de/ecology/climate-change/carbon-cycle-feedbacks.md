@@ -18,6 +18,7 @@ related:
   - climate-models-projections-uncertainty
   - what-is-climate-change
 pillar: what-is-climate-change
+_bodyHash: da79e063
 ---
 
 Der Trend der atmosphärischen CO₂-Konzentration ist das, was wir [direkt messen](/de/ecology/climate-change/greenhouse-gas-concentrations-monitoring); der Anteil der menschlichen Emissionen, der in der Atmosphäre landet – die Größe, die [den Klimawandel selbst](/de/ecology/climate-change/what-is-climate-change) antreibt –, hängt davon ab, wie viel vom Rest der Ozean und die Landbiosphäre aufnehmen. In den vergangenen Jahrzehnten haben Land und Ozean zusammen rund die Hälfte der anthropogenen CO₂-Emissionen aufgenommen – eine Zahl, die oft zu „den Senken“ verkürzt wird, als wäre sie eine Eigenschaft des Planeten und nicht ein Gleichgewicht von Mechanismen, die vom Klimazustand abhängen.

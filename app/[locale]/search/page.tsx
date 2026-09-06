@@ -78,6 +78,8 @@ export default function SearchPage({ params }: Props) {
                 article: t("search.kind_article"),
                 insight: t("search.kind_insight"),
                 glossary: t("search.kind_glossary"),
+                indicator: t("search.kind_indicator"),
+                tool: t("search.kind_tool"),
               },
             }}
           />
