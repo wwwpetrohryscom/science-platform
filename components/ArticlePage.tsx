@@ -22,6 +22,8 @@ import { evidenceProfile } from "@/lib/evidence/index";
 import { entitiesForArticle, entityName } from "@/lib/entities/index";
 import { getReview } from "@/lib/verification";
 import { policyLocales } from "@/lib/editorial";
+import { indicatorsForArticle, indicatorPath, latestObservation } from "@/lib/scientific-data/index";
+import { toolsForArticle, toolPath } from "@/lib/tools/registry";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import {
   DEFAULT_LOCALE,
@@ -64,6 +66,16 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
         : null;
 
   const related = await getRelatedArticles(article);
+
+  // Reverse edges from the data layer. An article that an indicator or a
+  // tool names gets a link back to it — derived from the forward edge,
+  // never inferred from a shared tag.
+  const articleKey = `${article.category}/${article.subtopic}/${article.slug}`;
+  const dataForArticle = indicatorsForArticle(articleKey).map((indicator) => ({
+    indicator,
+    latest: latestObservation(indicator.indicatorId),
+  }));
+  const toolsHere = toolsForArticle(articleKey);
 
   // Evidence panel inputs. Every value below is measured from the page
   // itself — the citation count comes from the body's links and the desk
@@ -443,6 +455,51 @@ export async function ArticlePage({ locale, article }: ArticlePageProps) {
             </div>
           </aside>
         </div>
+
+        {(dataForArticle.length > 0 || toolsHere.length > 0) && (
+          <section className="container-page border-t border-ink-line py-10">
+            <h2 className="font-sans text-xs font-semibold uppercase tracking-[0.14em] text-ink-subtle">
+              {t("article.data_and_tools")}
+            </h2>
+            <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {dataForArticle.map(({ indicator, latest }) => (
+                <li
+                  key={indicator.indicatorId}
+                  className="rounded-lg border border-ink-line p-4"
+                >
+                  <p className="text-xs uppercase tracking-[0.12em] text-ink-subtle">
+                    {t("search.kind_indicator")}
+                  </p>
+                  <Link
+                    href={localizedPath(locale, indicatorPath(indicator.indicatorId))}
+                    className="mt-1 block font-medium text-ink hover:text-primary-700"
+                  >
+                    {indicator.name}
+                  </Link>
+                  {latest && (
+                    <p className="mt-1 text-sm tabular-nums text-ink-muted">
+                      {latest.value} {indicator.unit} ({latest.period})
+                    </p>
+                  )}
+                </li>
+              ))}
+              {toolsHere.map((tool) => (
+                <li key={tool.slug} className="rounded-lg border border-ink-line p-4">
+                  <p className="text-xs uppercase tracking-[0.12em] text-ink-subtle">
+                    {t("search.kind_tool")}
+                  </p>
+                  <Link
+                    href={localizedPath(locale, toolPath(tool.slug))}
+                    className="mt-1 block font-medium text-ink hover:text-primary-700"
+                  >
+                    {t(`tools.${tool.key}.name`)}
+                  </Link>
+                  <p className="mt-1 font-mono text-xs text-ink-subtle">{tool.formula}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <RelatedArticles locale={locale} articles={related} showSubtopic />
       </article>

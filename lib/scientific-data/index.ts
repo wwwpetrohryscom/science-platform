@@ -142,6 +142,28 @@ export function seriesStatistics(indicatorId: string):
   };
 }
 
+/**
+ * Reverse edges: what data and tools name this article.
+ *
+ * The forward direction — an indicator naming its related articles —
+ * is authored, checked by the validator, and visible on the data page.
+ * The reverse is derived from it rather than authored a second time, so
+ * the two cannot disagree, and it is what lets a reader who arrives at
+ * the carbon-cycle article discover that the site holds the CO2 series
+ * and a carbon-mass converter.
+ *
+ * Only articles an indicator or a tool actually names appear. Nothing
+ * here infers a relationship from a shared tag or a shared word, which
+ * would fill the graph with edges that mean nothing.
+ */
+export function indicatorsForArticle(slug: string): Indicator[] {
+  return INDICATORS.filter((i) => i.relatedArticleSlugs.includes(slug));
+}
+
+export function datasetsForArticle(slug: string): Dataset[] {
+  return DATASETS.filter((d) => d.relatedArticleSlugs.includes(slug));
+}
+
 /** Public path for an indicator page, without the locale prefix. */
 export function indicatorPath(indicatorId: string): string {
   return `/data/indicators/${indicatorId}`;

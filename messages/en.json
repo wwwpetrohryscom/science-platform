@@ -202,7 +202,8 @@
     "fallback_notice": "This article has not yet been translated into {language}. The English version is shown below.",
     "in_english": "in English",
     "locale_depth_note": "{native} of these {total} articles are available in {language}; the rest open in English.",
-    "table_label": "Table"
+    "table_label": "Table",
+    "data_and_tools": "Data and tools for this subject"
   },
   "insights": {
     "eyebrow": "Insights",

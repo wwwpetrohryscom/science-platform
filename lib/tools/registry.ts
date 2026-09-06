@@ -157,3 +157,16 @@ export function getTool(slug: string): ToolDefinition | undefined {
 export function toolPath(slug: string): string {
   return `/tools/${slug}`;
 }
+
+/**
+ * Tools that name this article. Derived from the forward edge rather
+ * than authored twice, so the two directions cannot drift apart.
+ */
+export function toolsForArticle(slug: string): ToolDefinition[] {
+  return TOOLS.filter((t) => t.relatedArticleSlugs.includes(slug));
+}
+
+/** Tools that name this indicator. */
+export function toolsForIndicator(indicatorId: string): ToolDefinition[] {
+  return TOOLS.filter((t) => (t.relatedIndicatorIds ?? []).includes(indicatorId));
+}

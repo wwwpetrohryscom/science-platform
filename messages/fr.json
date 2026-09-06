@@ -212,7 +212,8 @@
     "fallback_notice": "Cet article n'a pas encore été traduit en français. La version anglaise est affichée ci-dessous.",
     "in_english": "en anglais",
     "locale_depth_note": "{native} de ces {total} articles sont disponibles en français ; les autres s'ouvrent en anglais.",
-    "table_label": "Tableau"
+    "table_label": "Tableau",
+    "data_and_tools": "Données et outils sur ce sujet"
   },
   "insights": {
     "eyebrow": "Analyses",
