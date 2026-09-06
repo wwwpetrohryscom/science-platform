@@ -557,6 +557,51 @@ function main() {
     }
   }
 
+  // --- local assets ------------------------------------------------
+  //
+  // Every asset the rendered HTML names must exist under public/. This
+  // rule exists because two of them did not, on every page of the
+  // site, for as long as the site had existed: `siteConfig.defaultOgImage`
+  // pointed at /og/default.png and the file was never created, so every
+  // page's og:image and twitter:image 404'd; and the footer linked
+  // /rss.xml, which no route or file produced.
+  //
+  // Neither failed anything. A meta tag naming a missing file is valid
+  // HTML, and an <a> to a missing path is a valid link — the existing
+  // link check only walks internal page routes, which is a different
+  // question from whether a static file is there. The absence is only
+  // visible if something looks in public/.
+  const assetRefs = new Map<string, Set<string>>();
+  const ASSET = new RegExp(
+    String.raw`(?:src|href|content)="((?:https?://[^"]*)?/[^"]*\.(?:png|jpe?g|svg|webp|avif|ico|gif|pdf|xml|txt|json|woff2?|css|js))"`,
+    "g",
+  );
+  const origin = siteConfig.url.replace(/\/$/, "");
+  for (const page of pages) {
+    for (const m of page.html.matchAll(ASSET)) {
+      let ref = m[1];
+      if (ref.startsWith("http")) {
+        if (!ref.startsWith(origin)) continue; // third-party, not ours to check
+        ref = ref.slice(origin.length);
+      }
+      // Build output, not a checked-in asset.
+      if (ref.startsWith("/_next/")) continue;
+      assetRefs.set(ref, (assetRefs.get(ref) ?? new Set()).add(page.route));
+    }
+  }
+  for (const [ref, routes] of assetRefs) {
+    const onDisk = path.join(PROJECT_ROOT, "public", ...ref.split("?")[0].split("/").filter(Boolean));
+    if (fs.existsSync(onDisk)) continue;
+    // A path that a rendered page answers is a route, not a file.
+    if (built.has(ref.replace(/\.html$/, ""))) continue;
+    issues.push({
+      severity: "error",
+      rule: "missing-asset",
+      where: ref,
+      message: `referenced by ${routes.size} page(s) — no file at public${ref}`,
+    });
+  }
+
   const errors = issues.filter((i) => i.severity === "error");
   const warnings = issues.filter((i) => i.severity === "warning");
 

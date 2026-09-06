@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>EcoScienceHub</title>
+    <link>https://ecosciencehub.com/fr</link>
+    <description>Articles indépendants et scientifiquement rigoureux sur l&apos;écologie, la biologie et la physique appliquée. Conçus pour être lus lentement et cités avec soin.</description>
+    <language>fr</language>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://ecosciencehub.com/fr/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Surveillance de la biodiversité et santé des écosystèmes : comment les scientifiques mesurent l&apos;état du vivant</title>
+      <link>https://ecosciencehub.com/fr/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>La biodiversité n&apos;a pas de thermomètre unique. Voici comment les scientifiques suivent l&apos;état des espèces et des écosystèmes — relevés de terrain, indicateurs, bases de données d&apos;espèces, télédétection, observation de longue durée — et ce que chaque méthode peut ou ne peut pas résoudre.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>monitoring</category>
+      <category>ecosystem-health</category>
+      <category>indicators</category>
+      <category>conservation</category>
+    </item>
+    <item>
+      <title>Qu&apos;est-ce qu&apos;un écosystème ? Une définition fondée sur les flux</title>
+      <link>https://ecosciencehub.com/fr/ecology/ecosystems/what-is-an-ecosystem</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/ecosystems/what-is-an-ecosystem</guid>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Un écosystème n&apos;est pas un lieu, c&apos;est un flux. Ce que cette distinction change à la manière de penser la résilience, la restauration et ce que l&apos;on conserve réellement.</description>
+      <category>ecology</category>
+      <category>ecosystems</category>
+      <category>ecology-fundamentals</category>
+      <category>energy-flow</category>
+      <category>resilience</category>
+    </item>
+    <item>
+      <title>Indicateurs climatiques et surveillance du système Terre : comment les signaux s&apos;emboîtent</title>
+      <link>https://ecosciencehub.com/fr/ecology/climate-change/climate-indicators-earth-system-monitoring</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/climate-change/climate-indicators-earth-system-monitoring</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Les indicateurs climatiques suivent l&apos;état du système Terre. Voici comment température, chaleur océanique, gaz à effet de serre, niveau de la mer et glace se lisent ensemble, et à quoi chacun sert.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>climate-indicators</category>
+      <category>earth-system</category>
+      <category>monitoring</category>
+      <category>ipcc</category>
+    </item>
+    <item>
+      <title>Qu&apos;est-ce que le changement climatique ? Le mécanisme, les preuves et les questions ouvertes</title>
+      <link>https://ecosciencehub.com/fr/ecology/climate-change/what-is-climate-change</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/climate-change/what-is-climate-change</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Le changement climatique désigne la modification à long terme du bilan énergétique de la Terre sous l&apos;effet de l&apos;évolution de la composition de l&apos;atmosphère. Voici le mécanisme, les preuves qui l&apos;établissent et les questions qui restent réellement ouvertes.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>climate</category>
+      <category>fundamentals</category>
+      <category>greenhouse-effect</category>
+      <category>attribution</category>
+    </item>
+    <item>
+      <title>Pourquoi le décompte des espèces fausse les priorités de conservation</title>
+      <link>https://ecosciencehub.com/fr/ecology/biodiversity/why-species-counts-mislead-conservation</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/biodiversity/why-species-counts-mislead-conservation</guid>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>La richesse spécifique est la mesure de biodiversité la plus facile à calculer et la plus mauvaise sur laquelle hiérarchiser. Ce sont les diversités fonctionnelle et phylogénétique qui prédisent la performance des écosystèmes — et elles divergent souvent du décompte des espèces.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>conservation</category>
+      <category>functional-diversity</category>
+      <category>prioritization</category>
+    </item>
+    <item>
+      <title>Le cycle du carbone : où est le carbone, comment il circule, et ce qui a changé</title>
+      <link>https://ecosciencehub.com/fr/ecology/earth-systems/carbon-cycle-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/earth-systems/carbon-cycle-explained</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>L&apos;essentiel du carbone terrestre est enfermé dans la roche et se déplace au rythme géologique. Une petite fraction à cycle rapide traverse l&apos;air, l&apos;eau et le vivant — et c&apos;est celle-là que nous avons modifiée.</description>
+      <category>ecology</category>
+      <category>carbon-cycle</category>
+      <category>biogeochemical-cycles</category>
+      <category>carbon-sink</category>
+      <category>earth-system</category>
+    </item>
+    <item>
+      <title>Science du système Terre : comment les grands systèmes de la planète interagissent</title>
+      <link>https://ecosciencehub.com/fr/ecology/earth-systems/earth-system-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/earth-systems/earth-system-science-explained</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>L&apos;air, l&apos;eau, la glace, la roche et le vivant s&apos;étudient d&apos;ordinaire séparément. La science du système Terre étudie les couplages entre eux — là où résident l&apos;essentiel des comportements et l&apos;essentiel de l&apos;incertitude.</description>
+      <category>ecology</category>
+      <category>earth-system</category>
+      <category>biogeochemical-cycles</category>
+      <category>feedbacks</category>
+      <category>climate-system</category>
+      <category>earth-system-models</category>
+    </item>
+    <item>
+      <title>L&apos;observation de la Terre et la télédétection : comment on mesure la planète depuis l&apos;espace</title>
+      <link>https://ecosciencehub.com/fr/ecology/earth-observation/earth-observation-and-remote-sensing-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/earth-observation/earth-observation-and-remote-sensing-explained</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Les satellites sont devenus les instruments qui permettent d&apos;observer la planète entière d&apos;un seul tenant. Voici comment fonctionne l&apos;observation de la Terre — du photon au produit de données étalonné —, ce qu&apos;elle mesure du climat aux écosystèmes, et où se situent ses limites.</description>
+      <category>ecology</category>
+      <category>earth-observation</category>
+      <category>remote-sensing</category>
+      <category>satellites</category>
+      <category>environmental-monitoring</category>
+    </item>
+    <item>
+      <title>Science de la conservation : ce que la base de preuves permet réellement d&apos;affirmer</title>
+      <link>https://ecosciencehub.com/fr/ecology/conservation/conservation-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/conservation/conservation-science-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>La conservation est une science appliquée bâtie sur une question causale : l&apos;action a-t-elle modifié la trajectoire ? Cette page expose comment cette question se teste, ce que les synthèses établissent aujourd&apos;hui et là où les preuves s&apos;arrêtent.</description>
+      <category>ecology</category>
+      <category>evidence-based-conservation</category>
+      <category>counterfactual</category>
+      <category>protected-areas</category>
+      <category>study-design</category>
+      <category>biodiversity-policy</category>
+    </item>
+    <item>
+      <title>Restauration écologique : ce que montrent les méta-analyses, et ce qui compte comme réussite</title>
+      <link>https://ecosciencehub.com/fr/ecology/conservation/ecological-restoration-evidence</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/conservation/ecological-restoration-evidence</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>La restauration améliore de façon fiable un état dégradé de départ et reste de façon tout aussi fiable en deçà d&apos;un état de référence. La comparaison retenue décide du verdict, et peu de projets sont suivis assez longtemps pour trancher.</description>
+      <category>ecology</category>
+      <category>ecological-restoration</category>
+      <category>recovery-debt</category>
+      <category>reference-ecosystem</category>
+      <category>land-degradation</category>
+      <category>meta-analysis</category>
+    </item>
+    <item>
+      <title>Productivité marine : comment une gigatonne d&apos;algues nourrit cinq gigatonnes d&apos;animaux</title>
+      <link>https://ecosciencehub.com/fr/ecology/oceans/marine-food-webs-and-productivity</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/oceans/marine-food-webs-and-productivity</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>L&apos;océan porte plus de biomasse de consommateurs que de producteurs, ce qui semble impossible tant qu&apos;on n&apos;a pas compté le renouvellement. Voici l&apos;arithmétique, les limites nutritives, et ce que la couleur de l&apos;océan vue de l&apos;espace peut ou ne peut pas voir.</description>
+      <category>ecology</category>
+      <category>marine-productivity</category>
+      <category>phytoplankton</category>
+      <category>food-webs</category>
+      <category>oceans</category>
+    </item>
+    <item>
+      <title>Océanographie : comment la profondeur organise la mer, et le peu que nous en observons</title>
+      <link>https://ecosciencehub.com/fr/ecology/oceans/ocean-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/oceans/ocean-science-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>La densité trie l&apos;eau de mer en couches qui n&apos;échangent que lentement, et presque toutes les propriétés de la mer à grande échelle découlent de ce tri. Voici ce que cette stratification fait à la chimie et à la vie, et à quel point l&apos;océan est en réalité peu observé.</description>
+      <category>ecology</category>
+      <category>oceans</category>
+      <category>marine-science</category>
+      <category>stratification</category>
+      <category>ocean-observation</category>
+    </item>
+    <item>
+      <title>Écosystèmes d&apos;eau douce : moins de 0,01 % de l&apos;eau, plus de 10 % des espèces décrites</title>
+      <link>https://ecosciencehub.com/fr/ecology/freshwater/freshwater-ecosystems-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/freshwater/freshwater-ecosystems-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>Fleuves, lacs et marécages renferment moins d&apos;un centième de pour cent de l&apos;eau de la Terre et ne couvrent que quelques pour cent des terres émergées ; ils abritent pourtant plus d&apos;un dixième des espèces décrites. Ce décalage façonne tout ce qui les concerne.</description>
+      <category>ecology</category>
+      <category>freshwater</category>
+      <category>rivers</category>
+      <category>lakes</category>
+      <category>wetlands</category>
+      <category>aquatic-biodiversity</category>
+    </item>
+    <item>
+      <title>Eaux souterraines : comment on mesure l&apos;épuisement, et pourquoi les méthodes divergent</title>
+      <link>https://ecosciencehub.com/fr/ecology/freshwater/groundwater-and-aquifer-depletion</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/freshwater/groundwater-and-aquifer-depletion</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Oceans &amp; Freshwater Desk</dc:creator>
+      <description>Les eaux souterraines contiennent l&apos;essentiel de l&apos;eau douce liquide de la planète, et leur état ne peut être que déduit. Puits, gravimétrie satellitaire et modèles hydrologiques mesurent chacun autre chose, et les écarts entre eux expliquent la plupart des désaccords publiés.</description>
+      <category>ecology</category>
+      <category>groundwater</category>
+      <category>aquifers</category>
+      <category>hydrology</category>
+      <category>water-monitoring</category>
+      <category>land-subsidence</category>
+    </item>
+    <item>
+      <title>Mesurer le carbone forestier : allométrie, placettes, lidar et budget d&apos;erreur</title>
+      <link>https://ecosciencehub.com/fr/ecology/forests/forest-carbon-measurement</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/forests/forest-carbon-measurement</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Personne ne pèse une forêt. Tout chiffre publié de carbone forestier est le produit d&apos;une chaîne de substitutions allant du mètre ruban au total mondial, et le plus grand réservoir de ce total est celui qui est le plus mal mesuré.</description>
+      <category>ecology</category>
+      <category>forest-carbon</category>
+      <category>allometry</category>
+      <category>lidar</category>
+      <category>forest-inventory</category>
+      <category>measurement-uncertainty</category>
+    </item>
+    <item>
+      <title>Les forêts : structure, fonction et les définitions qui décident des statistiques</title>
+      <link>https://ecosciencehub.com/fr/ecology/forests/forest-ecosystems-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/forests/forest-ecosystems-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Une forêt est une catégorie d&apos;usage des terres avant d&apos;être un écosystème, et les seuils de cette catégorie décident de la plupart des chiffres publiés à son sujet. Cette page expose les définitions, la structure qu&apos;elles décrivent et les limites du tableau mondial.</description>
+      <category>ecology</category>
+      <category>forests</category>
+      <category>forest-inventory</category>
+      <category>land-use</category>
+      <category>forest-carbon</category>
+      <category>disturbance</category>
+    </item>
+    <item>
+      <title>Le réseau trophique du sol : l&apos;habitat le plus riche en espèces et le moins catalogué</title>
+      <link>https://ecosciencehub.com/fr/ecology/soils/soil-biology-and-the-soil-food-web</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/soils/soil-biology-and-the-soil-food-web</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Les seuls nématodes comptent environ 4,4 × 10²⁰ individus dans le monde. Les organismes du sous-sol construisent l&apos;essentiel du carbone qui y persiste, et les méthodes moléculaires employées pour les recenser sont trompeuses de façons connues.</description>
+      <category>ecology</category>
+      <category>soil-biodiversity</category>
+      <category>decomposition</category>
+      <category>mycorrhiza</category>
+      <category>soil-carbon</category>
+      <category>dna-sequencing</category>
+    </item>
+    <item>
+      <title>Le sol : la ressource la plus lente à se former, dont dépend l&apos;essentiel de la vie terrestre</title>
+      <link>https://ecosciencehub.com/fr/ecology/soils/soil-science-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/soils/soil-science-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Le sol est un système à quatre phases organisé en horizons, qui se forme à une vitesse médiane voisine de 0,15 tonne par hectare et par an. Cette vitesse, et la difficulté de mesurer ce que le sol contient, façonnent tous les débats à son sujet.</description>
+      <category>ecology</category>
+      <category>soil</category>
+      <category>pedology</category>
+      <category>soil-carbon</category>
+      <category>land-systems</category>
+      <category>soil-biodiversity</category>
+    </item>
+    <item>
+      <title>Qualité de l&apos;air : ce que mesurent les stations et ce que l&apos;indice cache</title>
+      <link>https://ecosciencehub.com/fr/ecology/pollution/air-quality-measurement-and-standards</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/pollution/air-quality-measurement-and-standards</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Public Health &amp; Environment Desk</dc:creator>
+      <description>Une mesure réglementaire de l&apos;air est une concentration plus une forme statistique, et l&apos;indice bâti dessus ne garde que le pire polluant. Les deux étapes jettent de l&apos;information qui compte pour lire toute affirmation sur l&apos;air.</description>
+      <category>ecology</category>
+      <category>air-quality-index</category>
+      <category>air-monitoring</category>
+      <category>criteria-pollutants</category>
+      <category>low-cost-sensors</category>
+      <category>ozone</category>
+    </item>
+    <item>
+      <title>Pollution : source, voie de transfert, cible — le cadre qui organise les données</title>
+      <link>https://ecosciencehub.com/fr/ecology/pollution/environmental-pollution-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/ecology/pollution/environmental-pollution-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Public Health &amp; Environment Desk</dc:creator>
+      <description>Une substance ne devient une pollution que lorsqu&apos;une source, une voie de transfert et une cible s&apos;alignent. Ce triptyque, et l&apos;étape dose-réponse qui en occupe le centre, explique pourquoi les valeurs limites environnementales diffèrent d&apos;un pays à l&apos;autre sans que la science sous-jacente diffère.</description>
+      <category>ecology</category>
+      <category>risk-assessment</category>
+      <category>exposure</category>
+      <category>dose-response</category>
+      <category>environmental-standards</category>
+      <category>chemical-regulation</category>
+    </item>
+    <item>
+      <title>La membrane cellulaire : auto-assemblage, sélectivité et le prix d&apos;un gradient</title>
+      <link>https://ecosciencehub.com/fr/biology/cells/cell-membrane-structure-and-transport</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/cells/cell-membrane-structure-and-transport</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Ecosystems Desk</dc:creator>
+      <description>Une bicouche lipidique se construit toute seule puis ne laisse presque rien passer. Ce qu&apos;une cellule dépense pour garder son intérieur chimiquement différent de son environnement, et la façon dont canaux, transporteurs et pompes se répartissent ce travail, fait la substance de la biologie membranaire.</description>
+      <category>biology</category>
+      <category>membrane-transport</category>
+      <category>membrane-potential</category>
+      <category>bioenergetics</category>
+      <category>cell-biology</category>
+    </item>
+    <item>
+      <title>Qu&apos;est-ce qu&apos;une cellule ? L&apos;unité du vivant, définie de façon opérationnelle</title>
+      <link>https://ecosciencehub.com/fr/biology/cells/what-is-a-cell</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/cells/what-is-a-cell</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Ecosystems Desk</dc:creator>
+      <description>Une cellule est la plus petite unité capable de s&apos;entretenir, de se copier et de répondre à son environnement. Chacune de ces exigences écarte quelque chose que « cellule » ne veut pas dire — et explique l&apos;intérêt des cas limites.</description>
+      <category>biology</category>
+      <category>cells</category>
+      <category>fundamentals</category>
+      <category>cell-biology</category>
+      <category>life</category>
+    </item>
+    <item>
+      <title>Régulation de l&apos;expression génique : pourquoi deux cellules au même génome ne sont pas la même cellule</title>
+      <link>https://ecosciencehub.com/fr/biology/genetics/how-gene-expression-is-regulated</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/genetics/how-gene-expression-is-regulated</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Ecosystems Desk</dc:creator>
+      <description>Une cellule hépatique et un neurone portent un ADN identique. S&apos;ils ne sont pas interchangeables, c&apos;est à cause de la régulation — un système de décisions en couches sur les gènes qui sont lus et le moment où ils le sont.</description>
+      <category>biology</category>
+      <category>genetics</category>
+      <category>gene-expression</category>
+      <category>regulation</category>
+      <category>molecular-biology</category>
+    </item>
+    <item>
+      <title>Qu&apos;est-ce que l&apos;ADN ? La molécule, le code, et ce qu&apos;il ne détermine pas</title>
+      <link>https://ecosciencehub.com/fr/biology/genetics/what-is-dna</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/genetics/what-is-dna</guid>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Ecosystems Desk</dc:creator>
+      <description>L&apos;ADN est un code moléculaire à quatre lettres qui stocke l&apos;information nécessaire pour construire et faire fonctionner une cellule. Comprendre ce qu&apos;il fait — et, tout aussi important, ce qu&apos;il ne fait pas — est le socle de la biologie moderne.</description>
+      <category>biology</category>
+      <category>dna</category>
+      <category>genetics</category>
+      <category>fundamentals</category>
+      <category>central-dogma</category>
+    </item>
+    <item>
+      <title>L</title>
+      <link>https://ecosciencehub.com/fr/biology/evolution/evolution-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/evolution/evolution-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Ecosystems Desk</dc:creator>
+      <description>L&apos;évolution est un changement de la composition génétique des populations, et quatre processus la produisent plutôt qu&apos;un seul. Cette page expose les mécanismes, les preuves indépendantes de la descendance commune et l&apos;objet réel des débats en cours.</description>
+      <category>biology</category>
+      <category>evolution</category>
+      <category>population-genetics</category>
+      <category>natural-selection</category>
+      <category>genetic-drift</category>
+      <category>common-descent</category>
+    </item>
+    <item>
+      <title>Étudier les microbes : pourquoi la méthode décide de ce que l&apos;on trouve</title>
+      <link>https://ecosciencehub.com/fr/biology/microbiology/culturing-and-sequencing-microbes</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/microbiology/culturing-and-sequencing-microbes</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Microbiology &amp; Genomics Desk</dc:creator>
+      <description>Une boîte de Petri, une amorce PCR et un assembleur de métagénome renvoient chacun un sous-ensemble différent de la même communauté. Voici ce que sélectionne chaque grande méthode microbiologique, et les normes de qualité qui rendent publiable un génome sans organisme.</description>
+      <category>biology</category>
+      <category>culturing</category>
+      <category>amplicon-sequencing</category>
+      <category>metagenome-assembled-genomes</category>
+      <category>single-cell-genomics</category>
+      <category>culturomics</category>
+    </item>
+    <item>
+      <title>Microbiologie : les organismes qui font tourner la chimie de la planète</title>
+      <link>https://ecosciencehub.com/fr/biology/microbiology/microbiology-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/microbiology/microbiology-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Microbiology &amp; Genomics Desk</dc:creator>
+      <description>Les seules bactéries détiennent environ 70 gigatonnes de carbone, l&apos;essentiel dans le sous-sol profond, et les microbes réalisent des réactions qu&apos;aucune plante ni aucun animal ne sait faire. Cette page expose ce qui a été compté, ce qui est inféré et là où les chiffres du domaine restent instables.</description>
+      <category>biology</category>
+      <category>microbiology</category>
+      <category>microbial-ecology</category>
+      <category>prokaryotes</category>
+      <category>metabolic-diversity</category>
+      <category>biomass</category>
+    </item>
+    <item>
+      <title>Physiologie : comment les organismes maintiennent des conditions stables quand tout change</title>
+      <link>https://ecosciencehub.com/fr/biology/physiology/physiology-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/physiology/physiology-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>La régulation n&apos;est pas un thermostat. Ce pilier expose ce qu&apos;est une variable régulée, pourquoi le point de consigne est une commodité de modélisation plutôt qu&apos;un nombre présent dans le corps, et comment la taille et l&apos;espèce décident du dispositif qu&apos;un organisme peut se permettre.</description>
+      <category>biology</category>
+      <category>homeostasis</category>
+      <category>comparative-physiology</category>
+      <category>allometry</category>
+      <category>regulation</category>
+    </item>
+    <item>
+      <title>Échanges gazeux : surface, gradients et la solution à contre-courant</title>
+      <link>https://ecosciencehub.com/fr/biology/physiology/respiration-and-gas-exchange</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/physiology/respiration-and-gas-exchange</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>L&apos;oxygène franchit les derniers micromètres jusqu&apos;au sang par simple diffusion, si bien que tout organe respiratoire est une réponse à la même équation. Les variables sont la surface, la distance et l&apos;écart de pression partielle — et la géométrie de l&apos;écoulement décide de la part du gradient qui survit.</description>
+      <category>biology</category>
+      <category>gas-exchange</category>
+      <category>respiration</category>
+      <category>oxygen-transport</category>
+      <category>comparative-physiology</category>
+    </item>
+    <item>
+      <title>Combien d&apos;espèces existent : l&apos;estimation dépend entièrement de la méthode</title>
+      <link>https://ecosciencehub.com/fr/biology/taxonomy/how-many-species-are-there</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/taxonomy/how-many-species-are-there</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>Les catalogues du vivant contiennent environ 2,2 millions d&apos;espèces nommées, tandis que les estimations publiées du total réel vont de quelques millions à mille milliards. Cet écart n&apos;est pas une erreur de mesure — c&apos;est ce qui arrive quand des méthodes incompatibles répondent à la même question.</description>
+      <category>biology</category>
+      <category>species-estimates</category>
+      <category>biodiversity</category>
+      <category>taxonomic-catalogues</category>
+      <category>sampling</category>
+    </item>
+    <item>
+      <title>Taxinomie : nommer, ranger, et les règles qui rendent les noms stables</title>
+      <link>https://ecosciencehub.com/fr/biology/taxonomy/taxonomy-and-classification-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/taxonomy/taxonomy-and-classification-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biology &amp; Life Sciences Desk</dc:creator>
+      <description>Nommer un organisme est une procédure régie par des règles, avec ses codes, ses types et ses règles de priorité, et cela est distinct du jugement scientifique sur les organismes qui vont ensemble. Voici comment cette machinerie fonctionne et où elle force.</description>
+      <category>biology</category>
+      <category>taxonomy</category>
+      <category>nomenclature</category>
+      <category>classification</category>
+      <category>systematics</category>
+      <category>biodiversity-data</category>
+    </item>
+    <item>
+      <title>Biotechnologie : ce que font les techniques, et où les promesses les dépassent</title>
+      <link>https://ecosciencehub.com/fr/biology/biotechnology/biotechnology-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/biotechnology/biotechnology-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Microbiology &amp; Genomics Desk</dc:creator>
+      <description>L&apos;ADN recombinant, le séquençage, l&apos;édition et la conception assistée par ordinateur ont chacun rendu une chose bon marché et laissé intactes les parties difficiles. Voici ce que fait la boîte à outils, comment un résultat de laboratoire devient un produit, et où ce chemin se rompt.</description>
+      <category>biology</category>
+      <category>biotechnology</category>
+      <category>recombinant-dna</category>
+      <category>genome-editing</category>
+      <category>biosafety</category>
+      <category>translation</category>
+    </item>
+    <item>
+      <title>Technologies de séquençage : longueur de lecture, profil d&apos;erreur et usages</title>
+      <link>https://ecosciencehub.com/fr/biology/biotechnology/dna-sequencing-technologies</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/biology/biotechnology/dna-sequencing-technologies</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Microbiology &amp; Genomics Desk</dc:creator>
+      <description>Choisir une plateforme de séquençage tient moins à l&apos;exactitude affichée qu&apos;à la forme de ses erreurs et à la longueur de ses lectures. Voici comment diffèrent les grandes familles, pourquoi les exigences de profondeur varient, et ce que la courbe des coûts laisse de côté.</description>
+      <category>biology</category>
+      <category>dna-sequencing</category>
+      <category>long-read-sequencing</category>
+      <category>reference-genomes</category>
+      <category>measurement-uncertainty</category>
+    </item>
+    <item>
+      <title>Lire les statistiques de l&apos;énergie : facteur de charge, LCOE et les métriques trompeuses</title>
+      <link>https://ecosciencehub.com/fr/physics/energy/capacity-factor-and-energy-metrics</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/physics/energy/capacity-factor-and-energy-metrics</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>Puissance installée, facteur de charge, coût actualisé et énergie primaire sont quatre comptes différents du même parc, et chacun porte une convention capable de déplacer un titre sans que rien de physique ne change.</description>
+      <category>physics</category>
+      <category>capacity-factor</category>
+      <category>levelised-cost</category>
+      <category>energy-statistics</category>
+      <category>primary-energy</category>
+      <category>electricity-generation</category>
+    </item>
+    <item>
+      <title>Les systèmes énergétiques : conversion, vecteurs et contraintes qui décident de ce qui passe à l&apos;échelle</title>
+      <link>https://ecosciencehub.com/fr/physics/energy/energy-systems-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/physics/energy/energy-systems-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>L&apos;énergie primaire, les vecteurs énergétiques et la consommation finale sont trois comptabilités distinctes, et leur mélange produit la plupart des mauvais arguments sur l&apos;énergie. Cette page suit la chaîne de conversion de la ressource à l&apos;usage final et désigne où se situent réellement les pertes et les limites.</description>
+      <category>physics</category>
+      <category>energy-systems</category>
+      <category>primary-energy</category>
+      <category>energy-conversion</category>
+      <category>electrification</category>
+      <category>energy-statistics</category>
+    </item>
+    <item>
+      <title>Les principes de la thermodynamique : ce que chacun interdit réellement</title>
+      <link>https://ecosciencehub.com/fr/physics/thermodynamics/laws-of-thermodynamics-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/physics/thermodynamics/laws-of-thermodynamics-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>Les quatre principes sont des interdictions, non des recettes. Chacun exclut une classe de machine ou de processus, et ensemble ils fixent ce que signifie la température, ce que la comptabilité de l&apos;énergie doit équilibrer et dans quel sens un processus peut se dérouler.</description>
+      <category>physics</category>
+      <category>thermodynamics</category>
+      <category>second-law</category>
+      <category>temperature</category>
+      <category>entropy</category>
+      <category>energy-conversion</category>
+    </item>
+    <item>
+      <title>Les limites thermodynamiques du photovoltaïque — et pourquoi elles décident du possible</title>
+      <link>https://ecosciencehub.com/fr/physics/thermodynamics/thermodynamic-limits-of-photovoltaics</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/physics/thermodynamics/thermodynamic-limits-of-photovoltaics</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>Il existe une borne supérieure dure sur la fraction de lumière solaire qu&apos;une cellule photovoltaïque à jonction unique peut convertir en électricité. Savoir d&apos;où elle vient éclaire quelles voies d&apos;amélioration relèvent de la physique et lesquelles de l&apos;ingénierie.</description>
+      <category>physics</category>
+      <category>thermodynamics</category>
+      <category>photovoltaics</category>
+      <category>shockley-queisser</category>
+      <category>energy</category>
+    </item>
+    <item>
+      <title>Le spectre électromagnétique : un seul phénomène, de multiples fenêtres sur l&apos;univers</title>
+      <link>https://ecosciencehub.com/fr/physics/quantum-basics/electromagnetic-spectrum-applications</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/physics/quantum-basics/electromagnetic-spectrum-applications</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>Ondes radio, lumière visible, rayons X et rayons gamma ne sont pas des phénomènes différents. C&apos;est le même phénomène à des longueurs d&apos;onde différentes — et c&apos;est la longueur d&apos;onde qui détermine ce que le rayonnement peut faire.</description>
+      <category>physics</category>
+      <category>quantum-basics</category>
+      <category>electromagnetic-radiation</category>
+      <category>photon</category>
+      <category>measurement</category>
+    </item>
+    <item>
+      <title>La mécanique quantique : les règles de travail, sans la philosophie</title>
+      <link>https://ecosciencehub.com/fr/physics/quantum-basics/quantum-mechanics-fundamentals</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/physics/quantum-basics/quantum-mechanics-fundamentals</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>La théorie quantique fixe des constantes physiques à dix chiffres significatifs alors que son interprétation reste ouverte. Cette page expose les règles de travail — amplitudes, observables, quantification, indétermination, statistiques de spin, décohérence — et signale où se situent les véritables lacunes.</description>
+      <category>physics</category>
+      <category>quantum-mechanics</category>
+      <category>superposition</category>
+      <category>decoherence</category>
+      <category>measurement</category>
+      <category>spin-statistics</category>
+    </item>
+    <item>
+      <title>Physique de l&apos;atmosphère : la machine qui transporte l&apos;énergie de l&apos;équateur au pôle</title>
+      <link>https://ecosciencehub.com/fr/physics/climate-physics/atmospheric-physics-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/fr/physics/climate-physics/atmospheric-physics-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>L&apos;atmosphère porte environ dix tonnes d&apos;air au-dessus de chaque mètre carré et son transport d&apos;énergie vers les pôles culmine près de cinq pétawatts. Cette page expose la composition, la structure verticale, le bilan énergétique et la mécanique de transport sur lesquels repose le reste du sujet.</description>
+      <category>physics</category>
+      <category>atmospheric-physics</category>
+      <category>energy-budget</category>
+      <category>hydrostatic-balance</category>
+      <category>poleward-heat-transport</category>
+    </item>
+  </channel>
+</rss>

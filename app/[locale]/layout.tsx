@@ -11,6 +11,7 @@ import {
   organizationJsonLd,
   websiteJsonLd,
 } from "@/lib/seo";
+import { feedPath } from "@/lib/feed";
 import {
   LOCALES,
   isLocale,
@@ -81,6 +82,22 @@ export function generateMetadata({ params }: LocaleLayoutProps): Metadata {
       path: "/",
       locale,
     }),
+    // Feed discovery. Announced on every page in the locale, pointing
+    // at that locale's own feed — a reader browsing the site in
+    // Portuguese who subscribes should get Portuguese articles.
+    alternates: {
+      ...buildMetadata({
+        title: t("site.tagline"),
+        description: t("site.description"),
+        path: "/",
+        locale,
+      }).alternates,
+      types: {
+        "application/rss+xml": [
+          { url: feedPath(locale), title: t("site.name") },
+        ],
+      },
+    },
   };
 }
 

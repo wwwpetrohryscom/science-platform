@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>EcoScienceHub</title>
+    <link>https://ecosciencehub.com/en</link>
+    <description>Independent, scientifically literate writing on ecology, biology, and applied physics. Built to be read slowly and cited carefully.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://ecosciencehub.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decomposition: the flux that returns almost everything</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/decomposition-and-the-return-of-nutrients</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/decomposition-and-the-return-of-nutrients</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Nearly all the carbon and nutrients that primary production takes up are returned by decomposition. Climate and litter chemistry set the pace, but a global field experiment showed that the animals doing the work matter in some climates and not others — and the standard measurement can mistake washing for decay.</description>
+      <category>ecology</category>
+      <category>decomposition</category>
+      <category>soil-fauna</category>
+      <category>nutrient-cycling</category>
+      <category>litter</category>
+    </item>
+    <item>
+      <title>Biodiversity monitoring and ecosystem health: how scientists measure the state of life</title>
+      <link>https://ecosciencehub.com/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/biodiversity/biodiversity-monitoring-and-ecosystem-health</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Biodiversity has no single thermometer. This is how scientists track the condition of species and ecosystems — through field surveys, indicators, species databases, remote sensing, and long-term observation — and what each method can and cannot resolve.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>monitoring</category>
+      <category>ecosystem-health</category>
+      <category>indicators</category>
+      <category>conservation</category>
+    </item>
+    <item>
+      <title>Species distribution models: what they predict, and where they stop</title>
+      <link>https://ecosciencehub.com/en/ecology/biodiversity/species-distribution-models-and-their-limits</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/biodiversity/species-distribution-models-and-their-limits</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>A model that fits a species range well in the place and period it was trained on may be worthless a valley away or a decade later. One study found temporal transferability acceptable for fewer than a quarter of species — and finer resolution made it worse, not better.</description>
+      <category>ecology</category>
+      <category>species-distribution-models</category>
+      <category>model-transferability</category>
+      <category>biodiversity-monitoring</category>
+      <category>uncertainty</category>
+    </item>
+    <item>
+      <title>Evapotranspiration: the largest land water flux nobody measures directly</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-systems/evapotranspiration-and-the-land-water-budget</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-systems/evapotranspiration-and-the-land-water-budget</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Earth Systems Desk</dc:creator>
+      <description>More water leaves land as vapour than leaves it as rivers. Three independent families of global estimate now agree on the total to within about five per cent — and disagree profoundly about how much of it passes through plants.</description>
+      <category>ecology</category>
+      <category>evapotranspiration</category>
+      <category>water-cycle</category>
+      <category>transpiration</category>
+      <category>land-surface-models</category>
+    </item>
+    <item>
+      <title>Land surface temperature: what the thermal band measures</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-observation/land-surface-temperature-from-space</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-observation/land-surface-temperature-from-space</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>A thermal satellite measures the temperature of the ground, not the air above it. In one Shanghai comparison, four accepted retrieval algorithms differed from station air temperature by between 2.39 and 12.32 degrees on the same summer day.</description>
+      <category>ecology</category>
+      <category>land-surface-temperature</category>
+      <category>thermal-infrared</category>
+      <category>emissivity</category>
+      <category>earth-observation</category>
+    </item>
+    <item>
+      <title>Radar remote sensing: seeing through cloud, and into canopy</title>
+      <link>https://ecosciencehub.com/en/ecology/earth-observation/radar-remote-sensing-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/earth-observation/radar-remote-sensing-explained</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Optical satellites stop at the first cloud and at nightfall. Radar does neither — and because its wavelengths are centimetres rather than micrometres, it responds to structure and moisture rather than to colour.</description>
+      <category>ecology</category>
+      <category>radar</category>
+      <category>synthetic-aperture-radar</category>
+      <category>remote-sensing</category>
+      <category>earth-observation</category>
+    </item>
+    <item>
+      <title>Soil fertility: what &quot;available&quot; means, and why nitrogen and phosphorus fail in opposite ways</title>
+      <link>https://ecosciencehub.com/en/ecology/soils/nutrient-availability-and-soil-fertility</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/soils/nutrient-availability-and-soil-fertility</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Fertility is a rate of ion supply to a root, not a stock of nutrients sitting in the ground. That distinction explains why nitrogen is lost through mobility and phosphorus through immobility, and why recovery figures for both depend on how they were measured.</description>
+      <category>ecology</category>
+      <category>fertility</category>
+      <category>plant-nutrition</category>
+      <category>nitrogen</category>
+      <category>phosphorus</category>
+      <category>cation-exchange</category>
+    </item>
+    <item>
+      <title>Soil moisture: what a measurement actually covers</title>
+      <link>https://ecosciencehub.com/en/ecology/soils/soil-moisture-and-what-a-measurement-covers</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/soils/soil-moisture-and-what-a-measurement-covers</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>A satellite senses the top few centimetres of soil across a 36-kilometre cell; a probe senses a few centilitres at one point; drought decisions need the top metre. Almost every soil-moisture number in circulation is a model reconciling those three.</description>
+      <category>ecology</category>
+      <category>soil-moisture</category>
+      <category>remote-sensing</category>
+      <category>drought</category>
+      <category>measurement-uncertainty</category>
+    </item>
+    <item>
+      <title>Quantum sensors are leaving the lab. Here&apos;s what changes when they do.</title>
+      <link>https://ecosciencehub.com/en/physics/quantum-basics/quantum-sensors-leaving-the-lab</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/quantum-basics/quantum-sensors-leaving-the-lab</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Energy Systems Desk</dc:creator>
+      <description>Quantum sensors — atomic clocks, gravimeters, magnetometers — have moved from precision-physics curiosities to deployable instruments. The applications opened by the move are not the ones popular coverage emphasizes.</description>
+      <category>physics</category>
+      <category>quantum</category>
+      <category>sensors</category>
+      <category>metrology</category>
+      <category>applications</category>
+    </item>
+    <item>
+      <title>Why metrology went quantum: the only standards that do not drift</title>
+      <link>https://ecosciencehub.com/en/physics/quantum-basics/why-metrology-went-quantum</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/physics/quantum-basics/why-metrology-went-quantum</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Physics &amp; Energy Desk</dc:creator>
+      <description>Every SI unit now derives from constants realised through quantum effects, and the reason is a property no manufactured object has: identical atoms give identical results, everywhere, without calibration.</description>
+      <category>physics</category>
+      <category>quantum-metrology</category>
+      <category>si-units</category>
+      <category>standards</category>
+      <category>measurement</category>
+    </item>
+    <item>
+      <title>Why &quot;AI for science&quot; is undervaluing the bottleneck it is best placed to fix</title>
+      <link>https://ecosciencehub.com/en/insight/ai-for-science-bottleneck</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/insight/ai-for-science-bottleneck</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>EcoScienceHub Editorial Team</dc:creator>
+      <description>Most AI-for-science investment chases discovery. The higher-leverage use is making the experimental record reproducible and machine-readable.</description>
+      <category>physics</category>
+      <category>AI</category>
+      <category>infrastructure</category>
+      <category>open science</category>
+      <category>reproducibility</category>
+    </item>
+    <item>
+      <title>Carbon offset markets are quietly outsourcing the work of climate science</title>
+      <link>https://ecosciencehub.com/en/insight/carbon-offset-outsourcing-science</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/insight/carbon-offset-outsourcing-science</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Voluntary carbon markets have become the largest unregulated funder of forest-carbon measurement — and the methods are diverging from what the science actually says.</description>
+      <category>ecology</category>
+      <category>carbon markets</category>
+      <category>policy</category>
+      <category>forestry</category>
+      <category>climate</category>
+    </item>
+    <item>
+      <title>Agroecosystems: managing an ecosystem for one output</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/agricultural-ecosystems-and-agroecology</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Soil &amp; Land Systems Desk</dc:creator>
+      <description>Farmland is an ecosystem held in an early successional state by continuous inputs. Counting what goes in, what comes out and what leaks explains both its productivity and the tensions that agroecology tries to resolve.</description>
+      <category>ecology</category>
+      <category>agroecosystems</category>
+      <category>agroecology</category>
+      <category>nutrient-balance</category>
+      <category>pollination</category>
+      <category>land-use</category>
+    </item>
+    <item>
+      <title>Biomes: how the map was drawn, and where it breaks down</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/biomes-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/biomes-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>A biome is a claim that macroclimate predicts vegetation form. Where the classification came from, why fire and land use put soft edges on it, and how satellite land-cover classes relate to biomes without being them.</description>
+      <category>ecology</category>
+      <category>biomes</category>
+      <category>vegetation-classification</category>
+      <category>biogeography</category>
+      <category>ecotones</category>
+    </item>
+    <item>
+      <title>Ecological succession: what replaced the climax community idea</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/ecological-succession-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/ecological-succession-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Succession is not a fixed march toward one stable endpoint. Recovery depends on what survived, what arrived and in what order — and different properties of a damaged site return on very different clocks.</description>
+      <category>ecology</category>
+      <category>succession</category>
+      <category>disturbance-ecology</category>
+      <category>restoration</category>
+      <category>alternative-stable-states</category>
+      <category>ecosystems</category>
+    </item>
+    <item>
+      <title>Ecosystem services: how the framework changed environmental decision-making</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/ecosystem-services-and-human-wellbeing</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>The phrase ecosystem services entered policy in the early 2000s. Two decades later, it has reshaped how environmental decisions get made — and where its blind spots are.</description>
+      <category>ecology</category>
+      <category>ecosystems</category>
+      <category>ecosystem-services</category>
+      <category>policy</category>
+      <category>human-wellbeing</category>
+    </item>
+    <item>
+      <title>Foundation species and the myth of functional redundancy</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/foundation-species-and-the-myth-of-redundancy</guid>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>The claim that ecosystems are robust because species are interchangeable is comforting and largely wrong. Foundation species are how ecosystems hide their fragility.</description>
+      <category>ecology</category>
+      <category>ecosystems</category>
+      <category>biodiversity</category>
+      <category>foundation-species</category>
+      <category>conservation</category>
+    </item>
+    <item>
+      <title>Primary production: what GPP, NPP and NEP measure, and how each is estimated</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/primary-production-and-energy-flow</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/primary-production-and-energy-flow</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Gross primary production is never measured directly at ecosystem scale, only inferred. What GPP, NPP and NEP each mean, which instrument stands behind each number, and why the land and ocean halves rest on different methods.</description>
+      <category>ecology</category>
+      <category>primary-production</category>
+      <category>carbon-flux</category>
+      <category>eddy-covariance</category>
+      <category>satellite-products</category>
+    </item>
+    <item>
+      <title>The soil microbiome is the missing variable in regenerative agriculture trials</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/soil-microbiome-regenerative-agriculture</guid>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Why two farms with identical practices produce different yields — and what that tells us about the next generation of soil-health metrics.</description>
+      <category>ecology</category>
+      <category>soil</category>
+      <category>agriculture</category>
+      <category>microbiome</category>
+      <category>nitrogen</category>
+      <category>ecosystems</category>
+    </item>
+    <item>
+      <title>Urban ecology: cities as ecosystems, not as the absence of one</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/urban-ecology-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/urban-ecology-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>Cities have an energy balance, a water balance and a species pool, all of them measurable. The hard part is that the two standard ways of measuring urban warming disagree by a factor of six, and city comparisons rarely control for it.</description>
+      <category>ecology</category>
+      <category>urban-ecology</category>
+      <category>heat-island</category>
+      <category>urban-hydrology</category>
+      <category>biotic-homogenisation</category>
+      <category>ecosystems</category>
+    </item>
+    <item>
+      <title>Urban heat islands: a few degrees, unevenly distributed</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/urban-heat-islands-and-surface-energy-balance</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/urban-heat-islands-and-surface-energy-balance</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>US cities run about 1 to 7 °F warmer than their surroundings by day and 2 to 5 °F warmer by night, and the night figure is the one that matters. The causes are all modifications of the same surface energy balance.</description>
+      <category>ecology</category>
+      <category>urban-ecology</category>
+      <category>heat-islands</category>
+      <category>energy-balance</category>
+      <category>ecosystems</category>
+    </item>
+    <item>
+      <title>What is an ecosystem? A flow-based definition</title>
+      <link>https://ecosciencehub.com/en/ecology/ecosystems/what-is-an-ecosystem</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/ecosystems/what-is-an-ecosystem</guid>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Environmental Science Desk</dc:creator>
+      <description>An ecosystem is not a place — it&apos;s a flux. Here&apos;s what that distinction unlocks for thinking about resilience, restoration, and what we actually conserve.</description>
+      <category>ecology</category>
+      <category>ecosystems</category>
+      <category>ecology-fundamentals</category>
+      <category>energy-flow</category>
+      <category>resilience</category>
+    </item>
+    <item>
+      <title>Remaining carbon budgets: how the number is assembled, and what it is not</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/carbon-budgets-and-remaining-emissions</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/carbon-budgets-and-remaining-emissions</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>A remaining carbon budget is an assessed quantity with five separately estimated components and a probability attached, not a countdown clock. The compression to a headline drops the parts that decide what it can be used for.</description>
+      <category>ecology</category>
+      <category>carbon-budget</category>
+      <category>cumulative-emissions</category>
+      <category>tcre</category>
+      <category>mitigation</category>
+      <category>ipcc-ar6</category>
+    </item>
+    <item>
+      <title>Carbon-cycle feedbacks: why ocean and land sinks are not guaranteed to keep absorbing</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/carbon-cycle-feedbacks</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/carbon-cycle-feedbacks</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Land and ocean absorb roughly half of human carbon emissions today. Whether they keep doing so is among the largest uncertainties in long-term climate projection.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>carbon-cycle</category>
+      <category>feedbacks</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Adaptation and mitigation indicators: tracking action alongside climate state</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/climate-adaptation-mitigation-indicators</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/climate-adaptation-mitigation-indicators</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Indicators of adaptation progress and mitigation effort are reported separately from physical-climate indicators, and they have different methodological constraints. Here is what each one measures.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>mitigation</category>
+      <category>adaptation</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Climate indicators and Earth system monitoring: how the signals fit together</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/climate-indicators-earth-system-monitoring</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/climate-indicators-earth-system-monitoring</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Climate indicators track the state of the Earth system. Here is how temperature, ocean heat, greenhouse gases, sea level, and ice are read together, and what each is good for.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>climate-indicators</category>
+      <category>earth-system</category>
+      <category>monitoring</category>
+      <category>ipcc</category>
+    </item>
+    <item>
+      <title>Climate models and projections: where the uncertainty actually comes from</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/climate-models-projections-uncertainty</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/climate-models-projections-uncertainty</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>A projection range is not a forecast with error bars. It combines scenario, model-structural, and internal-variability uncertainty, and the shares shift over time.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>climate-models</category>
+      <category>projections</category>
+      <category>uncertainty</category>
+    </item>
+    <item>
+      <title>Climate sensitivity: what ECS and TCR measure, and how AR6 narrowed the range</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/climate-sensitivity-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/climate-sensitivity-explained</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Equilibrium climate sensitivity and the transient climate response answer different questions about the same system. This is what each holds fixed, how four lines of evidence were combined, and why the thermometer record alone reads low.</description>
+      <category>ecology</category>
+      <category>climate-sensitivity</category>
+      <category>climate-feedback</category>
+      <category>ipcc-ar6</category>
+      <category>uncertainty</category>
+      <category>energy-budget</category>
+    </item>
+    <item>
+      <title>Cryosphere indicators: glaciers, sea ice, ice sheets, and snow cover</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/cryosphere-indicators-glaciers-sea-ice</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Sea-ice extent, glacier mass balance, ice-sheet loss, snow cover, permafrost. Each measures a different frozen reservoir and responds on a different timescale.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>cryosphere</category>
+      <category>sea-ice</category>
+      <category>glaciers</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Extreme-weather attribution: how scientists link specific events to climate change</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/extreme-weather-attribution-basics</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/extreme-weather-attribution-basics</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Attribution science quantifies how much a specific extreme event was made more likely or more severe by climate change. The methods are well-defined, and so are the limits of what they can say.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>attribution</category>
+      <category>extreme-weather</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Global temperature records: what GISTEMP, HadCRUT, NOAAGlobalTemp, and reanalyses each measure</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/global-temperature-records-explained</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/global-temperature-records-explained</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>There is no single global temperature dataset. There are several, built independently from overlapping observations. Here is what each one does and why they mostly agree.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>temperature</category>
+      <category>climate-indicators</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Greenhouse-gas concentrations: how the global monitoring works</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/greenhouse-gas-concentrations-monitoring</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Atmospheric CO₂, methane, and nitrous oxide are tracked by a global flask network anchored at Mauna Loa, plus satellite columns and the WMO global mean. Here is how the records are built.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>greenhouse-gases</category>
+      <category>monitoring</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Greenhouse gases and radiative forcing: what the term actually measures</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/greenhouse-gases-and-radiative-forcing</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Radiative forcing is the bookkeeping unit that lets atmospheric scientists compare the climate effect of one molecule against another. It is also the unit most commonly misread.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>greenhouse-gases</category>
+      <category>radiative-forcing</category>
+      <category>carbon-cycle</category>
+    </item>
+    <item>
+      <title>Heat limits and the wet-bulb threshold: why 35 °C was never measured</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/heat-limits-and-the-wet-bulb-threshold</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/heat-limits-and-the-wet-bulb-threshold</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>The famous survivability limit came from a thermodynamic argument, not from people. When the experiment was finally done, the threshold in warm humid conditions came out near 30.6 °C, and the reasons it is lower are all physiological.</description>
+      <category>ecology</category>
+      <category>heat-stress</category>
+      <category>wet-bulb</category>
+      <category>climate-impacts</category>
+      <category>human-health</category>
+    </item>
+    <item>
+      <title>Heat mortality and what the records count: why the official figure is a floor</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/heat-mortality-and-what-the-records-count</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/heat-mortality-and-what-the-records-count</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Public Health &amp; Environment Desk</dc:creator>
+      <description>The United States recorded an average of 702 heat deaths a year from 2004 to 2018. That number comes from death certificates, and death certificates record the immediate cause rather than the weather that precipitated it.</description>
+      <category>ecology</category>
+      <category>heat-mortality</category>
+      <category>public-health</category>
+      <category>climate-impacts</category>
+      <category>measurement</category>
+    </item>
+    <item>
+      <title>Ocean heat content: the climate indicator the atmosphere can&apos;t hide</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/ocean-heat-content-indicators</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/ocean-heat-content-indicators</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Surface air temperature is noisy. The ocean is not. What ocean heat content measures, and why it is treated as the most stable indicator of climate-system warming.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>ocean</category>
+      <category>heat-content</category>
+      <category>climate-indicators</category>
+    </item>
+    <item>
+      <title>Sea-level rise: which indicator answers which question</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/sea-level-rise-indicators</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/sea-level-rise-indicators</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Global mean sea level, local sea level, and the rate of rise are three different indicators. Each answers a different question, and they are reported by different agencies for different reasons.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>sea-level</category>
+      <category>ocean</category>
+      <category>indicators</category>
+    </item>
+    <item>
+      <title>How temperate forests are quietly losing their carbon sink capacity</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/temperate-forest-carbon-sink-decline</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/temperate-forest-carbon-sink-decline</guid>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Long-term inventory networks show why temperate forest carbon sinks should be treated as dynamic and disturbance-sensitive, not as guaranteed offsets.</description>
+      <category>ecology</category>
+      <category>carbon</category>
+      <category>forests</category>
+      <category>climate</category>
+      <category>modelling</category>
+    </item>
+    <item>
+      <title>What is climate change? The mechanism, the evidence, and the open questions</title>
+      <link>https://ecosciencehub.com/en/ecology/climate-change/what-is-climate-change</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/climate-change/what-is-climate-change</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Climate Research Desk</dc:creator>
+      <description>Climate change refers to the long-term shift in Earth&apos;s energy balance driven by changes in atmospheric composition. Here&apos;s the mechanism, the evidence behind it, and the questions that remain genuinely open.</description>
+      <category>ecology</category>
+      <category>climate-change</category>
+      <category>climate</category>
+      <category>fundamentals</category>
+      <category>greenhouse-effect</category>
+      <category>attribution</category>
+    </item>
+    <item>
+      <title>Biodiversity baselines and shifting baselines: choosing the reference for change</title>
+      <link>https://ecosciencehub.com/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines</link>
+      <guid isPermaLink="true">https://ecosciencehub.com/en/ecology/biodiversity/biodiversity-baselines-and-shifting-baselines</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Biodiversity &amp; Conservation Desk</dc:creator>
+      <description>Every statement about biodiversity loss is measured against a baseline, and the choice of baseline quietly determines the verdict. This explains shifting-baseline syndrome, why it makes degraded systems look normal, and how scientists try to reconstruct deeper reference conditions.</description>
+      <category>ecology</category>
+      <category>biodiversity</category>
+      <category>baselines</category>
+      <category>shifting-baselines</category>
+      <category>monitoring</category>
+    </item>
+  </channel>
+</rss>

@@ -116,6 +116,17 @@ jobs:
       - name: Build
         run: npm run build
 
+      # Build artefacts that pages reference: the default Open Graph
+      # image and the per-locale RSS feeds. Both were named by every
+      # page and produced by nothing until the rendered audit's
+      # missing-asset rule was added; regenerating them here keeps the
+      # check honest rather than passing on a stale file.
+      - name: Open Graph image
+        run: npm run og:generate
+
+      - name: RSS feeds
+        run: npm run feed:generate
+
       - name: Sitemap
         run: npm run seo:validate
 

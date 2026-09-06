@@ -4,6 +4,7 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/seo";
 import { listGlossarySlugs } from "@/lib/glossary";
 import { policyLocales, type PolicyDocument } from "@/lib/editorial";
+import { feedPath } from "@/lib/feed";
 import {
   getMessages,
   localizedPath,
@@ -80,7 +81,7 @@ export function Footer({ locale }: FooterProps) {
         { href: localizedPath(locale, "/privacy-policy"), label: t("footer.privacy_policy") },
         { href: localizedPath(locale, "/cookie-policy"), label: t("footer.cookie_policy") },
         { href: localizedPath(locale, "/terms-of-use"), label: t("footer.terms_of_use") },
-        { href: "/rss.xml", label: t("footer.rss") },
+        { href: feedPath(locale), label: t("footer.rss") },
       ],
     },
   ];

@@ -37,6 +37,8 @@
     "content:generate": "tsx scripts/generate-article.ts",
     "content:build": "tsx scripts/content-build.ts",
     "seo:generate": "tsx scripts/generate-sitemap.ts",
+    "og:generate": "tsx scripts/generate-og-image.ts",
+    "feed:generate": "tsx scripts/generate-feeds.ts",
     "seo:validate": "tsx scripts/validate-sitemap.ts",
     "seo:audit": "tsx scripts/seo-audit.ts"
   },
