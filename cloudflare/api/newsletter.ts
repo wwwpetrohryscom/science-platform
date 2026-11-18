@@ -1,5 +1,3 @@
-import { NextResponse } from "next/server";
-
 import {
   checkHoneypot,
   getClientIp,
@@ -33,7 +31,6 @@ import {
  * Always returns the same shape on legitimate-looking failures so
  * timing oracles can't distinguish "bad email" from "rate limited".
  */
-export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   const ip = getClientIp(request.headers);
@@ -62,7 +59,7 @@ export async function POST(request: Request) {
   });
   if (!honeypot.ok) {
     // Don't tell the caller the trap fired.
-    return NextResponse.json({ ok: true }, { status: 202 });
+    return Response.json({ ok: true }, { status: 202 });
   }
 
   const email = sanitizeText(payload.email, { maxLength: 254 }).toLowerCase();
@@ -81,7 +78,7 @@ export async function POST(request: Request) {
   // Provider integration is intentionally not wired up yet. When it
   // lands, send `email` to the double-opt-in endpoint here.
   // Returning 202 documents the "queued, not yet confirmed" state.
-  return NextResponse.json({ ok: true, queued: true }, { status: 202 });
+  return Response.json({ ok: true, queued: true }, { status: 202 });
 }
 
 async function readForm(request: Request): Promise<Record<string, unknown>> {
@@ -100,5 +97,5 @@ function jsonError(
   message: string,
   headers: Record<string, string> = {},
 ) {
-  return NextResponse.json({ ok: false, error: message }, { status, headers });
+  return Response.json({ ok: false, error: message }, { status, headers });
 }

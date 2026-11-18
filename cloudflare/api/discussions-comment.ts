@@ -1,5 +1,3 @@
-import { NextResponse } from "next/server";
-
 import {
   checkHoneypot,
   getClientIp,
@@ -47,7 +45,6 @@ import { BANNED_PHRASES } from "@/lib/content/tone";
  * Flip ACCEPTING_SUBMISSIONS once a moderation backend actually
  * persists what it receives.
  */
-export const runtime = "nodejs";
 
 /** No backend persists submissions yet — see the note above. */
 const ACCEPTING_SUBMISSIONS = false;
@@ -90,7 +87,7 @@ export async function POST(request: Request) {
     [HONEYPOT_TIMESTAMP_FIELD]: payload[HONEYPOT_TIMESTAMP_FIELD],
   });
   if (!honeypot.ok) {
-    return NextResponse.json({ ok: true, queued: true }, { status: 202 });
+    return Response.json({ ok: true, queued: true }, { status: 202 });
   }
 
   const raw = sanitizeText(payload.body, { maxLength: MAX_LEN + 200 });
@@ -143,7 +140,7 @@ export async function POST(request: Request) {
 
   // Moderation backend not wired yet — return 202 + a placeholder id
   // so callers can show "queued for review" without a misleading 200.
-  return NextResponse.json(
+  return Response.json(
     { ok: true, queued: true, id: cryptoRandomId() },
     { status: 202 },
   );
@@ -182,5 +179,5 @@ function jsonError(
   message: string,
   headers: Record<string, string> = {},
 ) {
-  return NextResponse.json({ ok: false, error: message }, { status, headers });
+  return Response.json({ ok: false, error: message }, { status, headers });
 }
