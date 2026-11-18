@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/seo";
 
+// Required by `output: "export"`: the file is written once at build time.
+export const dynamic = "force-static";
+
 /**
  * robots.txt
  *

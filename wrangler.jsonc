@@ -1,0 +1,42 @@
+{
+  // Cloudflare Workers deployment of the exported site (`npm run build` → `out/`).
+  // cloudflare/worker.ts handles the form endpoints and locale detection only;
+  // locale-prefixed pages and Next's own files are served straight from the assets.
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "ecosciencehub",
+  "main": "cloudflare/worker.ts",
+  "compatibility_date": "2026-11-01",
+  // process.env for the optional CAPTCHA secrets read by lib/security/captcha.ts.
+  "compatibility_flags": ["nodejs_compat"],
+  // Zone routes on proxied records. www.ecosciencehub.com is 301-redirected to the apex
+  // by a zone redirect rule before the Worker runs (canonicals and sitemap use the apex).
+  "routes": [
+    { "pattern": "ecosciencehub.com/*", "zone_name": "ecosciencehub.com" },
+    { "pattern": "www.ecosciencehub.com/*", "zone_name": "ecosciencehub.com" },
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/*",
+      "!/en",
+      "!/en/*",
+      "!/fr",
+      "!/fr/*",
+      "!/es",
+      "!/es/*",
+      "!/de",
+      "!/de/*",
+      "!/pt",
+      "!/pt/*",
+      "!/ru",
+      "!/ru/*",
+      "!/_next/*",
+    ],
+    // `/en/glossary` serves `en/glossary.html`; `/en/glossary/` redirects to it.
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+  },
+}
